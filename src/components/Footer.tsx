@@ -30,14 +30,14 @@ export function Footer() {
 
   const footerLinks = {
     [t('footer.services')]: [
-      { name: t('footer.accounting'), href: '/usluge#racunovodstvo' },
-      { name: t('footer.taxAdvisory'), href: '/usluge#porezi' },
-      { name: t('footer.virtualCfo'), href: '/usluge#virtualni-cfo' },
+      { name: t('footer.accounting'), href: '/services#accounting' },
+      { name: t('footer.taxAdvisory'), href: '/services#tax' },
+      { name: t('footer.virtualCfo'), href: '/services#virtual-cfo' },
     ],
     [t('footer.pages')]: [
       { name: t('footer.about'), href: '/about' },
       { name: t('footer.blog'), href: '/blog' },
-      { name: t('footer.gallery'), href: '/galerija' },
+      { name: t('footer.gallery'), href: '/gallery' },
       { name: t('footer.faqPage'), href: '/faq' },
       { name: t('footer.contact'), href: '/contact' },
     ],
@@ -58,7 +58,7 @@ export function Footer() {
           <div className="col-span-full lg:col-span-5">
             <Link to={withLocale('/')} className="inline-flex items-center rounded-lg">
               <img
-                src="/clean-square.png"
+                src="/logo.png"
                 alt="Start HN"
                 className="h-14 w-auto"
                 loading="lazy"

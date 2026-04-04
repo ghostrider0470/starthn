@@ -3,11 +3,11 @@ import { motion } from 'motion/react'
 import { designSystem } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
 
-export const Route = createFileRoute('/{-$locale}/galerija')({
-  component: GalerijaPageComponent,
+export const Route = createFileRoute('/{-$locale}/gallery')({
+  component: GalleryPageComponent,
 })
 
-function GalerijaPageComponent() {
+function GalleryPageComponent() {
   return (
     <div className="min-h-screen pt-24 pb-16">
       <div className="container mx-auto px-6 lg:px-8 max-w-7xl">

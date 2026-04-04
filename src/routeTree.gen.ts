@@ -11,10 +11,10 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as Char123LocaleChar125RouteImport } from './routes/{-$locale}'
 import { Route as Char123LocaleChar125IndexRouteImport } from './routes/{-$locale}/index'
-import { Route as Char123LocaleChar125UslugeRouteImport } from './routes/{-$locale}/usluge'
 import { Route as Char123LocaleChar125TermsRouteImport } from './routes/{-$locale}/terms'
+import { Route as Char123LocaleChar125ServicesRouteImport } from './routes/{-$locale}/services'
 import { Route as Char123LocaleChar125PrivacyRouteImport } from './routes/{-$locale}/privacy'
-import { Route as Char123LocaleChar125GalerijaRouteImport } from './routes/{-$locale}/galerija'
+import { Route as Char123LocaleChar125GalleryRouteImport } from './routes/{-$locale}/gallery'
 import { Route as Char123LocaleChar125FaqRouteImport } from './routes/{-$locale}/faq'
 import { Route as Char123LocaleChar125ContactRouteImport } from './routes/{-$locale}/contact'
 import { Route as Char123LocaleChar125AboutRouteImport } from './routes/{-$locale}/about'
@@ -34,16 +34,16 @@ const Char123LocaleChar125IndexRoute =
     path: '/',
     getParentRoute: () => Char123LocaleChar125Route,
   } as any)
-const Char123LocaleChar125UslugeRoute =
-  Char123LocaleChar125UslugeRouteImport.update({
-    id: '/usluge',
-    path: '/usluge',
-    getParentRoute: () => Char123LocaleChar125Route,
-  } as any)
 const Char123LocaleChar125TermsRoute =
   Char123LocaleChar125TermsRouteImport.update({
     id: '/terms',
     path: '/terms',
+    getParentRoute: () => Char123LocaleChar125Route,
+  } as any)
+const Char123LocaleChar125ServicesRoute =
+  Char123LocaleChar125ServicesRouteImport.update({
+    id: '/services',
+    path: '/services',
     getParentRoute: () => Char123LocaleChar125Route,
   } as any)
 const Char123LocaleChar125PrivacyRoute =
@@ -52,10 +52,10 @@ const Char123LocaleChar125PrivacyRoute =
     path: '/privacy',
     getParentRoute: () => Char123LocaleChar125Route,
   } as any)
-const Char123LocaleChar125GalerijaRoute =
-  Char123LocaleChar125GalerijaRouteImport.update({
-    id: '/galerija',
-    path: '/galerija',
+const Char123LocaleChar125GalleryRoute =
+  Char123LocaleChar125GalleryRouteImport.update({
+    id: '/gallery',
+    path: '/gallery',
     getParentRoute: () => Char123LocaleChar125Route,
   } as any)
 const Char123LocaleChar125FaqRoute = Char123LocaleChar125FaqRouteImport.update({
@@ -106,10 +106,10 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/about': typeof Char123LocaleChar125AboutRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/faq': typeof Char123LocaleChar125FaqRoute
-  '/{-$locale}/galerija': typeof Char123LocaleChar125GalerijaRoute
+  '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
+  '/{-$locale}/services': typeof Char123LocaleChar125ServicesRoute
   '/{-$locale}/terms': typeof Char123LocaleChar125TermsRoute
-  '/{-$locale}/usluge': typeof Char123LocaleChar125UslugeRoute
   '/{-$locale}/': typeof Char123LocaleChar125IndexRoute
   '/{-$locale}/blog/$slug': typeof Char123LocaleChar125BlogSlugRoute
   '/{-$locale}/blog': typeof Char123LocaleChar125BlogIndexRoute
@@ -120,10 +120,10 @@ export interface FileRoutesByTo {
   '/{-$locale}/about': typeof Char123LocaleChar125AboutRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/faq': typeof Char123LocaleChar125FaqRoute
-  '/{-$locale}/galerija': typeof Char123LocaleChar125GalerijaRoute
+  '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
+  '/{-$locale}/services': typeof Char123LocaleChar125ServicesRoute
   '/{-$locale}/terms': typeof Char123LocaleChar125TermsRoute
-  '/{-$locale}/usluge': typeof Char123LocaleChar125UslugeRoute
   '/{-$locale}': typeof Char123LocaleChar125IndexRoute
   '/{-$locale}/blog/$slug': typeof Char123LocaleChar125BlogSlugRoute
   '/{-$locale}/blog': typeof Char123LocaleChar125BlogIndexRoute
@@ -136,10 +136,10 @@ export interface FileRoutesById {
   '/{-$locale}/about': typeof Char123LocaleChar125AboutRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/faq': typeof Char123LocaleChar125FaqRoute
-  '/{-$locale}/galerija': typeof Char123LocaleChar125GalerijaRoute
+  '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
+  '/{-$locale}/services': typeof Char123LocaleChar125ServicesRoute
   '/{-$locale}/terms': typeof Char123LocaleChar125TermsRoute
-  '/{-$locale}/usluge': typeof Char123LocaleChar125UslugeRoute
   '/{-$locale}/': typeof Char123LocaleChar125IndexRoute
   '/{-$locale}/blog/$slug': typeof Char123LocaleChar125BlogSlugRoute
   '/{-$locale}/blog/': typeof Char123LocaleChar125BlogIndexRoute
@@ -153,10 +153,10 @@ export interface FileRouteTypes {
     | '/{-$locale}/about'
     | '/{-$locale}/contact'
     | '/{-$locale}/faq'
-    | '/{-$locale}/galerija'
+    | '/{-$locale}/gallery'
     | '/{-$locale}/privacy'
+    | '/{-$locale}/services'
     | '/{-$locale}/terms'
-    | '/{-$locale}/usluge'
     | '/{-$locale}/'
     | '/{-$locale}/blog/$slug'
     | '/{-$locale}/blog'
@@ -167,10 +167,10 @@ export interface FileRouteTypes {
     | '/{-$locale}/about'
     | '/{-$locale}/contact'
     | '/{-$locale}/faq'
-    | '/{-$locale}/galerija'
+    | '/{-$locale}/gallery'
     | '/{-$locale}/privacy'
+    | '/{-$locale}/services'
     | '/{-$locale}/terms'
-    | '/{-$locale}/usluge'
     | '/{-$locale}'
     | '/{-$locale}/blog/$slug'
     | '/{-$locale}/blog'
@@ -182,10 +182,10 @@ export interface FileRouteTypes {
     | '/{-$locale}/about'
     | '/{-$locale}/contact'
     | '/{-$locale}/faq'
-    | '/{-$locale}/galerija'
+    | '/{-$locale}/gallery'
     | '/{-$locale}/privacy'
+    | '/{-$locale}/services'
     | '/{-$locale}/terms'
-    | '/{-$locale}/usluge'
     | '/{-$locale}/'
     | '/{-$locale}/blog/$slug'
     | '/{-$locale}/blog/'
@@ -211,18 +211,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125IndexRouteImport
       parentRoute: typeof Char123LocaleChar125Route
     }
-    '/{-$locale}/usluge': {
-      id: '/{-$locale}/usluge'
-      path: '/usluge'
-      fullPath: '/{-$locale}/usluge'
-      preLoaderRoute: typeof Char123LocaleChar125UslugeRouteImport
-      parentRoute: typeof Char123LocaleChar125Route
-    }
     '/{-$locale}/terms': {
       id: '/{-$locale}/terms'
       path: '/terms'
       fullPath: '/{-$locale}/terms'
       preLoaderRoute: typeof Char123LocaleChar125TermsRouteImport
+      parentRoute: typeof Char123LocaleChar125Route
+    }
+    '/{-$locale}/services': {
+      id: '/{-$locale}/services'
+      path: '/services'
+      fullPath: '/{-$locale}/services'
+      preLoaderRoute: typeof Char123LocaleChar125ServicesRouteImport
       parentRoute: typeof Char123LocaleChar125Route
     }
     '/{-$locale}/privacy': {
@@ -232,11 +232,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125PrivacyRouteImport
       parentRoute: typeof Char123LocaleChar125Route
     }
-    '/{-$locale}/galerija': {
-      id: '/{-$locale}/galerija'
-      path: '/galerija'
-      fullPath: '/{-$locale}/galerija'
-      preLoaderRoute: typeof Char123LocaleChar125GalerijaRouteImport
+    '/{-$locale}/gallery': {
+      id: '/{-$locale}/gallery'
+      path: '/gallery'
+      fullPath: '/{-$locale}/gallery'
+      preLoaderRoute: typeof Char123LocaleChar125GalleryRouteImport
       parentRoute: typeof Char123LocaleChar125Route
     }
     '/{-$locale}/faq': {
@@ -297,10 +297,10 @@ interface Char123LocaleChar125RouteChildren {
   Char123LocaleChar125AboutRoute: typeof Char123LocaleChar125AboutRoute
   Char123LocaleChar125ContactRoute: typeof Char123LocaleChar125ContactRoute
   Char123LocaleChar125FaqRoute: typeof Char123LocaleChar125FaqRoute
-  Char123LocaleChar125GalerijaRoute: typeof Char123LocaleChar125GalerijaRoute
+  Char123LocaleChar125GalleryRoute: typeof Char123LocaleChar125GalleryRoute
   Char123LocaleChar125PrivacyRoute: typeof Char123LocaleChar125PrivacyRoute
+  Char123LocaleChar125ServicesRoute: typeof Char123LocaleChar125ServicesRoute
   Char123LocaleChar125TermsRoute: typeof Char123LocaleChar125TermsRoute
-  Char123LocaleChar125UslugeRoute: typeof Char123LocaleChar125UslugeRoute
   Char123LocaleChar125IndexRoute: typeof Char123LocaleChar125IndexRoute
   Char123LocaleChar125BlogSlugRoute: typeof Char123LocaleChar125BlogSlugRoute
   Char123LocaleChar125BlogIndexRoute: typeof Char123LocaleChar125BlogIndexRoute
@@ -312,10 +312,10 @@ const Char123LocaleChar125RouteChildren: Char123LocaleChar125RouteChildren = {
   Char123LocaleChar125AboutRoute: Char123LocaleChar125AboutRoute,
   Char123LocaleChar125ContactRoute: Char123LocaleChar125ContactRoute,
   Char123LocaleChar125FaqRoute: Char123LocaleChar125FaqRoute,
-  Char123LocaleChar125GalerijaRoute: Char123LocaleChar125GalerijaRoute,
+  Char123LocaleChar125GalleryRoute: Char123LocaleChar125GalleryRoute,
   Char123LocaleChar125PrivacyRoute: Char123LocaleChar125PrivacyRoute,
+  Char123LocaleChar125ServicesRoute: Char123LocaleChar125ServicesRoute,
   Char123LocaleChar125TermsRoute: Char123LocaleChar125TermsRoute,
-  Char123LocaleChar125UslugeRoute: Char123LocaleChar125UslugeRoute,
   Char123LocaleChar125IndexRoute: Char123LocaleChar125IndexRoute,
   Char123LocaleChar125BlogSlugRoute: Char123LocaleChar125BlogSlugRoute,
   Char123LocaleChar125BlogIndexRoute: Char123LocaleChar125BlogIndexRoute,

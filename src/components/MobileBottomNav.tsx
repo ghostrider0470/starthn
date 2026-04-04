@@ -31,8 +31,8 @@ export function MobileBottomNav() {
       {
         icon: <BriefcaseBusiness className="h-6 w-6" />,
         label: t('nav.services'),
-        href: '/usluge',
-        activePrefix: '/usluge',
+        href: '/services',
+        activePrefix: '/services',
       },
       {
         icon: <BookOpen className="h-6 w-6" />,

@@ -112,80 +112,82 @@ pre code {
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(0.985 0.012 248);
-  --foreground: oklch(0.28 0.04 254);
-  --card: oklch(0.995 0.01 248);
-  --card-foreground: oklch(0.28 0.04 254);
-  --popover: oklch(0.997 0.008 248);
-  --popover-foreground: oklch(0.28 0.04 254);
-  /* Horizon Tech primary: vibrant orange-pink gradient */
-  --primary: oklch(0.65 0.25 35);
-  --primary-foreground: oklch(0.16 0.03 255);
-  --secondary: oklch(0.955 0.02 250);
-  --secondary-foreground: oklch(0.32 0.04 252);
-  --muted: oklch(0.94 0.018 248);
-  --muted-foreground: oklch(0.42 0.03 252);
-  /* Accent: purple from logo */
-  --accent: oklch(0.7 0.2 285);
-  --accent-foreground: oklch(0.16 0.03 255);
+  /* Start HN: warm off-white bg (#F5F5F5 / #FAF9F5), navy text (#121c27) */
+  --background: oklch(0.97 0.005 80);
+  --foreground: oklch(0.22 0.03 250);
+  --card: oklch(0.99 0.004 80);
+  --card-foreground: oklch(0.22 0.03 250);
+  --popover: oklch(0.99 0.003 80);
+  --popover-foreground: oklch(0.22 0.03 250);
+  /* Start HN primary: warm gold from starthn.ba (#DEBD4E) */
+  --primary: oklch(0.82 0.14 85);
+  --primary-foreground: oklch(0.16 0.03 250);
+  --secondary: oklch(0.955 0.01 85);
+  --secondary-foreground: oklch(0.32 0.03 250);
+  --muted: oklch(0.95 0.008 80);
+  --muted-foreground: oklch(0.42 0.02 250);
+  /* Accent: dark gold (#B8860B) */
+  --accent: oklch(0.63 0.14 75);
+  --accent-foreground: oklch(0.98 0.01 85);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.9 0.02 250);
-  --input: oklch(0.9 0.02 250);
-  /* Ring: matching primary */
-  --ring: oklch(0.65 0.25 35);
-  /* Chart colors: gradient spectrum from logo */
-  --chart-1: oklch(0.65 0.25 35);   /* Orange */
-  --chart-2: oklch(0.68 0.23 15);   /* Orange-pink */
-  --chart-3: oklch(0.7 0.22 340);   /* Pink */
-  --chart-4: oklch(0.65 0.2 310);   /* Pink-purple */
-  --chart-5: oklch(0.6 0.18 285);   /* Purple */
-  --sidebar: oklch(0.975 0.012 248);
-  --sidebar-foreground: oklch(0.28 0.04 254);
-  --sidebar-primary: oklch(0.65 0.25 35);
-  --sidebar-primary-foreground: oklch(0.16 0.03 255);
-  --sidebar-accent: oklch(0.94 0.018 248);
-  --sidebar-accent-foreground: oklch(0.28 0.04 254);
-  --sidebar-border: oklch(0.9 0.02 250);
-  --sidebar-ring: oklch(0.65 0.25 35);
+  --border: oklch(0.9 0.01 80);
+  --input: oklch(0.9 0.01 80);
+  /* Ring: matching primary gold */
+  --ring: oklch(0.82 0.14 85);
+  /* Chart colors: gold spectrum */
+  --chart-1: oklch(0.82 0.14 85);   /* Gold */
+  --chart-2: oklch(0.72 0.14 75);   /* Dark gold */
+  --chart-3: oklch(0.63 0.14 75);   /* Deep gold */
+  --chart-4: oklch(0.55 0.10 65);   /* Bronze */
+  --chart-5: oklch(0.45 0.08 55);   /* Dark bronze */
+  --sidebar: oklch(0.975 0.008 80);
+  --sidebar-foreground: oklch(0.28 0.03 250);
+  --sidebar-primary: oklch(0.82 0.14 85);
+  --sidebar-primary-foreground: oklch(0.16 0.03 250);
+  --sidebar-accent: oklch(0.95 0.008 80);
+  --sidebar-accent-foreground: oklch(0.28 0.03 250);
+  --sidebar-border: oklch(0.9 0.01 80);
+  --sidebar-ring: oklch(0.82 0.14 85);
 }
 
 .dark {
-  --background: oklch(0.17 0.02 255);
-  --foreground: oklch(0.95 0.015 255);
-  --card: oklch(0.22 0.02 255);
-  --card-foreground: oklch(0.95 0.015 255);
-  --popover: oklch(0.22 0.02 255);
-  --popover-foreground: oklch(0.95 0.015 255);
-  /* Dark mode: slightly brighter and more saturated Horizon colors */
-  --primary: oklch(0.75 0.22 35);
-  --primary-foreground: oklch(0.16 0.02 255);
-  --secondary: oklch(0.32 0.03 258);
-  --secondary-foreground: oklch(0.94 0.015 255);
-  --muted: oklch(0.27 0.02 255);
-  --muted-foreground: oklch(0.78 0.02 252);
-  /* Dark accent: vibrant purple */
-  --accent: oklch(0.75 0.18 285);
-  --accent-foreground: oklch(0.16 0.02 255);
+  /* Dark mode: Start HN navy (#121c27) base with gold accents */
+  --background: oklch(0.18 0.02 250);
+  --foreground: oklch(0.95 0.01 85);
+  --card: oklch(0.22 0.02 250);
+  --card-foreground: oklch(0.95 0.01 85);
+  --popover: oklch(0.22 0.02 250);
+  --popover-foreground: oklch(0.95 0.01 85);
+  /* Dark mode: brighter gold for contrast */
+  --primary: oklch(0.85 0.15 85);
+  --primary-foreground: oklch(0.16 0.02 250);
+  --secondary: oklch(0.30 0.02 250);
+  --secondary-foreground: oklch(0.94 0.01 85);
+  --muted: oklch(0.27 0.02 250);
+  --muted-foreground: oklch(0.75 0.02 85);
+  /* Dark accent: warm gold */
+  --accent: oklch(0.72 0.14 80);
+  --accent-foreground: oklch(0.16 0.02 250);
   --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.16 0.02 255);
-  --border: oklch(1 0 0 / 14%);
-  --input: oklch(1 0 0 / 18%);
-  --ring: oklch(0.75 0.22 35);
-  /* Dark chart colors: enhanced gradient spectrum */
-  --chart-1: oklch(0.75 0.22 35);   /* Bright Orange */
-  --chart-2: oklch(0.78 0.2 15);    /* Orange-pink */
-  --chart-3: oklch(0.8 0.18 340);   /* Pink */
-  --chart-4: oklch(0.75 0.16 310);  /* Pink-purple */
-  --chart-5: oklch(0.7 0.15 285);   /* Purple */
-  --sidebar: oklch(0.2 0.02 255);
-  --sidebar-foreground: oklch(0.95 0.015 255);
-  --sidebar-primary: oklch(0.75 0.22 35);
-  --sidebar-primary-foreground: oklch(0.16 0.02 255);
-  --sidebar-accent: oklch(0.27 0.02 255);
-  --sidebar-accent-foreground: oklch(0.95 0.015 255);
-  --sidebar-border: oklch(1 0 0 / 14%);
-  --sidebar-ring: oklch(0.75 0.22 35);
+  --destructive-foreground: oklch(0.16 0.02 250);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
+  --ring: oklch(0.85 0.15 85);
+  /* Dark chart colors: gold spectrum */
+  --chart-1: oklch(0.85 0.15 85);   /* Bright gold */
+  --chart-2: oklch(0.75 0.14 80);   /* Gold */
+  --chart-3: oklch(0.65 0.12 75);   /* Deep gold */
+  --chart-4: oklch(0.58 0.10 70);   /* Bronze */
+  --chart-5: oklch(0.50 0.08 65);   /* Dark bronze */
+  --sidebar: oklch(0.20 0.02 250);
+  --sidebar-foreground: oklch(0.95 0.01 85);
+  --sidebar-primary: oklch(0.85 0.15 85);
+  --sidebar-primary-foreground: oklch(0.16 0.02 250);
+  --sidebar-accent: oklch(0.27 0.02 250);
+  --sidebar-accent-foreground: oklch(0.95 0.01 85);
+  --sidebar-border: oklch(1 0 0 / 12%);
+  --sidebar-ring: oklch(0.85 0.15 85);
 }
 
 @layer base {

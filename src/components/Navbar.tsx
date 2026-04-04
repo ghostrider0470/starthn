@@ -28,10 +28,10 @@ export function Navbar() {
   const companyName = 'Start HN'
 
   const navLinks: NavLink[] = [
-    { title: t('nav.services'), href: '/usluge' },
+    { title: t('nav.services'), href: '/services' },
     { title: t('nav.blog'), href: '/blog' },
     { title: t('nav.about'), href: '/about' },
-    { title: t('nav.gallery'), href: '/galerija' },
+    { title: t('nav.gallery'), href: '/gallery' },
     { title: t('nav.faq'), href: '/faq' },
   ]
 
@@ -54,7 +54,7 @@ export function Navbar() {
               className="flex items-center gap-2.5 rounded-md px-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
             >
               <img
-                src="/clean-square.png"
+                src="/logo.png"
                 alt={companyName}
                 className="h-8 w-8 object-contain sm:h-9 sm:w-9 md:h-10 md:w-10 lg:h-11 lg:w-11"
                 decoding="async"
@@ -121,7 +121,7 @@ export function Navbar() {
                   <SheetTitle className="px-0 pt-0">
                     <div className="flex items-center gap-3 text-left">
                       <img
-                        src="/clean-square.png"
+                        src="/logo.png"
                         alt={companyName}
                         className="h-8 w-8 object-contain"
                         decoding="async"

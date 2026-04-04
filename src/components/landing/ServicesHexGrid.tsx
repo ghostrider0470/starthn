@@ -37,23 +37,23 @@ export function ServicesHexGrid() {
   const location = useLocation()
   const currentLocale = getLocaleFromPath(location.pathname)
   const contactHref = withLocalePath('/contact', currentLocale)
-  const servicesHref = withLocalePath('/usluge', currentLocale)
+  const servicesHref = withLocalePath('/services', currentLocale)
 
   const services = [
     {
       key: 'accounting',
       Icon: Calculator,
-      href: '/usluge#racunovodstvo',
+      href: '/services#accounting',
     },
     {
       key: 'tax',
       Icon: FileSpreadsheet,
-      href: '/usluge#porezi',
+      href: '/services#tax',
     },
     {
       key: 'virtualCfo',
       Icon: TrendingUp,
-      href: '/usluge#virtualni-cfo',
+      href: '/services#virtual-cfo',
     },
   ]
 

@@ -7,17 +7,17 @@ import { designSystem } from '@/lib/design-system'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
 
-export const Route = createFileRoute('/{-$locale}/usluge')({
-  component: UslugePageComponent,
+export const Route = createFileRoute('/{-$locale}/services')({
+  component: ServicesPageComponent,
 })
 
 const serviceData = [
-  { key: 'accounting', Icon: Calculator, anchor: 'racunovodstvo' },
-  { key: 'tax', Icon: FileSpreadsheet, anchor: 'porezi' },
-  { key: 'virtualCfo', Icon: TrendingUp, anchor: 'virtualni-cfo' },
+  { key: 'accounting', Icon: Calculator, anchor: 'accounting' },
+  { key: 'tax', Icon: FileSpreadsheet, anchor: 'tax' },
+  { key: 'virtualCfo', Icon: TrendingUp, anchor: 'virtual-cfo' },
 ]
 
-function UslugePageComponent() {
+function ServicesPageComponent() {
   const { t } = useTranslation('services')
   const location = useLocation()
   const currentLocale = getLocaleFromPath(location.pathname)

@@ -12,7 +12,7 @@ export function HeroSection() {
   const location = useLocation()
   const currentLocale = getLocaleFromPath(location.pathname)
   const contactHref = withLocalePath('/contact', currentLocale)
-  const servicesHref = withLocalePath('/usluge', currentLocale)
+  const servicesHref = withLocalePath('/services', currentLocale)
 
   return (
     <section
