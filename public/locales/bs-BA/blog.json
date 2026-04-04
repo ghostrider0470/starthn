@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "All"
+  },
+  "categories": {
+    "aiEngineering": "AI Engineering",
+    "enterpriseArchitecture": "Enterprise Architecture",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Automation Systems",
+    "softwareReliabilityDesign": "Software Reliability & Design"
+  },
+  "readTime": "{{minutes}} min read",
+  "tagsLabel": "Tags",
+  "relatedPosts": "Related Posts",
+  "author": {
+    "role": "Publisher"
+  },
+  "editor": {
+    "emptyPreview": "Start writing to see a preview..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Prompt Engineering",
+    "observability": "Observability",
+    "safety": "Safety",
+    "domainDesign": "Domain Design",
+    "integration": "Integration",
+    "governance": "Governance",
+    "platformStrategy": "Platform Strategy",
+    "platformEngineering": "Platform Engineering",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Developer Experience",
+    "eventDriven": "Event-Driven",
+    "workflowOrchestration": "Workflow Orchestration",
+    "controlPlanes": "Control Planes",
+    "resilience": "Resilience",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "Failure Modes",
+    "resilienceEngineering": "Resilience Engineering",
+    "evaluation": "Evaluation",
+    "qualityEngineering": "Quality Engineering",
+    "datasets": "Datasets",
+    "releaseManagement": "Release Management",
+    "incidentManagement": "Incident Management",
+    "architectureEvolution": "Architecture Evolution",
+    "riskReduction": "Risk Reduction",
+    "postmortems": "Postmortems",
+    "progressiveDelivery": "Progressive Delivery",
+    "canaryReleases": "Canary Releases",
+    "featureFlags": "Feature Flags"
+  }
+}

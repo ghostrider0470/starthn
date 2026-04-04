@@ -1,217 +1,217 @@
 {
   "about": {
-    "badge": "O nama",
+    "badge": "About Us",
     "hero": {
-      "titlePrefix": "Računovodstvena agencija",
+      "titlePrefix": "Accounting Agency",
       "titleHighlight": "Start HN",
-      "description": "Računovodstvena agencija START HN pruža podršku udruženjima, obrtnicima, mikro, malim i srednjim biznisima, te startupima. Naš fokus je na digitalizaciji računovodstva i uspostavi sistema koji omogućavaju jasan uvid u poslovanje."
+      "description": "START HN accounting agency provides support to associations, sole traders, micro, small and medium businesses, and startups. Our focus is on digitizing accounting and establishing systems that enable clear business insight."
     },
     "sections": {
       "mission": {
-        "title": "Naša misija",
-        "description": "Omogućiti klijentima ažurne i pravovremene informacije uz savremena rješenja i individualan pristup, podržavajući i digitalne i tradicionalne modele rada.",
+        "title": "Our Mission",
+        "description": "To provide clients with up-to-date and timely information through modern solutions and an individualized approach, supporting both digital and traditional work models.",
         "points": [
-          "Ažurno vođenje knjiga i izvještavanje u skladu sa propisima.",
-          "Digitalizacija računovodstvenih procesa za bolji uvid u poslovanje.",
-          "Individualizirani pristup svakom klijentu i njegovim potrebama."
+          "Up-to-date bookkeeping and reporting in compliance with regulations.",
+          "Digitization of accounting processes for better business insight.",
+          "Individualized approach to each client and their needs."
         ]
       },
       "expertise": {
-        "title": "Naša vizija",
-        "description": "Biti prvi izbor za mala i srednja preduzeća i startupe u BiH kroz digitalizaciju računovodstva i razvoj sistema koji olakšavaju rad i ubrzavaju poslovne odluke.",
+        "title": "Our Vision",
+        "description": "To be the first choice for small and medium enterprises and startups in BiH through digitization of accounting and development of systems that facilitate work and accelerate business decisions.",
         "points": [
-          "Digitalizacija i modernizacija računovodstvenih procesa.",
-          "Uspostava sistema koji omogućavaju automatski uvid u podatke.",
-          "Kontinuirana edukacija i praćenje zakonskih propisa."
+          "Digitization and modernization of accounting processes.",
+          "Establishing systems that enable automatic data insight.",
+          "Continuous education and monitoring of legal regulations."
         ]
       },
       "approach": {
-        "title": "Naš pristup",
-        "description": "Ne radimo po šablonu — pristup prilagođavamo vašem modelu poslovanja, ciljevima i izazovima.",
+        "title": "Our Approach",
+        "description": "We don't work by template — we adapt our approach to your business model, goals and challenges.",
         "points": [
-          "Razumijevanje: upoznajemo vaš biznis, ciljeve i specifičnosti.",
-          "Prilagođavanje: kreiramo rješenja po mjeri vašeg poslovanja.",
-          "Praćenje: kontinuirano pratimo propise i obavještavamo vas na vrijeme."
+          "Understanding: we get to know your business, goals and specifics.",
+          "Adaptation: we create solutions tailored to your operations.",
+          "Monitoring: we continuously track regulations and inform you on time."
         ]
       }
     },
     "cta": {
-      "title": "Vaš biznis zaslužuje računovodstvo koje misli unaprijed",
-      "description": "Započnimo saradnju — kontaktirajte nas za besplatnu konsultaciju i saznajte kako vam možemo pomoći.",
-      "primary": "Kontaktirajte nas",
-      "secondary": "Naše usluge"
+      "title": "Your business deserves accounting that thinks ahead",
+      "description": "Let's start working together — contact us for a free consultation and find out how we can help you.",
+      "primary": "Contact Us",
+      "secondary": "Our Services"
     }
   },
   "contact": {
-    "badge": "Kontakt",
+    "badge": "Contact",
     "hero": {
-      "title": "Započnimo saradnju!",
-      "description": "Uvijek smo spremni pomoći. Javite se putem telefona, emaila ili ispunite kontakt formu."
+      "title": "Let's start working together!",
+      "description": "We're always ready to help. Get in touch by phone, email or fill out the contact form."
     },
     "info": {
-      "title": "Kontakt informacije"
+      "title": "Contact Information"
     },
     "methods": {
       "email": {
         "title": "Email",
-        "description": "Pišite nam",
+        "description": "Write to us",
         "value": "klijenti@starthn.ba"
       },
       "location": {
-        "title": "Adresa",
-        "description": "Posjetite nas",
+        "title": "Address",
+        "description": "Visit us",
         "value": "Ibrahima Ljubovića 47, Ilidža, Sarajevo"
       },
       "response": {
-        "title": "Radno vrijeme",
-        "description": "Dostupni smo",
-        "value": "Pon - Pet: 8:00 - 16:00"
+        "title": "Working Hours",
+        "description": "We're available",
+        "value": "Mon - Fri: 8:00 AM - 4:00 PM"
       }
     },
     "departments": {
       "accounting": {
-        "label": "Računovodstvene i knjigovodstvene usluge"
+        "label": "Accounting & Bookkeeping Services"
       },
       "tax": {
-        "label": "Poresko savjetovanje"
+        "label": "Tax Advisory"
       },
       "reporting": {
-        "label": "Finansijsko izvještavanje"
+        "label": "Financial Reporting"
       },
       "virtualCfo": {
-        "label": "Virtualni CFO"
+        "label": "Virtual CFO"
       },
       "digital": {
-        "label": "Digitalizacija računovodstvenih procesa"
+        "label": "Digitization of Accounting Processes"
       },
       "startup": {
-        "label": "Podrška startupima i novoosnovanim firmama"
+        "label": "Support for Startups and New Companies"
       },
       "consulting": {
-        "label": "Poslovno i finansijsko savjetovanje"
+        "label": "Business and Financial Consulting"
       },
       "other": {
-        "label": "Ostalo"
+        "label": "Other"
       }
     },
     "form": {
-      "title": "Pošaljite upit",
-      "success": "Hvala na poruci. Odgovorit ćemo u najkraćem mogućem roku.",
-      "error": "Došlo je do greške. Pokušajte ponovo ili nas kontaktirajte direktno.",
-      "fullName": "Ime i prezime *",
-      "email": "Email adresa *",
-      "company": "Firma",
-      "subject": "Potrebna usluga *",
-      "message": "Poruka *",
+      "title": "Send an Inquiry",
+      "success": "Thank you for your message. We'll respond as soon as possible.",
+      "error": "Something went wrong. Please try again or contact us directly.",
+      "fullName": "Full Name *",
+      "email": "Email Address *",
+      "company": "Company",
+      "subject": "Service Needed *",
+      "message": "Message *",
       "placeholders": {
-        "name": "Vaše ime i prezime",
-        "email": "vas@email.com",
-        "company": "Naziv firme",
-        "subject": "Odaberite uslugu",
-        "message": "Opišite vaše potrebe ili upit..."
+        "name": "Your full name",
+        "email": "you@email.com",
+        "company": "Company name",
+        "subject": "Select a service",
+        "message": "Describe your needs or inquiry..."
       },
       "validation": {
         "required": {
-          "name": "Ime i prezime je obavezno.",
-          "email": "Email adresa je obavezna.",
-          "subject": "Odaberite uslugu.",
-          "message": "Poruka je obavezna."
+          "name": "Full name is required.",
+          "email": "Email address is required.",
+          "subject": "Please select a service.",
+          "message": "Message is required."
         },
-        "email": "Unesite ispravnu email adresu.",
-        "messageMinLength": "Poruka mora sadržavati najmanje {{count}} znakova."
+        "email": "Please enter a valid email address.",
+        "messageMinLength": "Message must contain at least {{count}} characters."
       },
-      "sending": "Slanje...",
-      "submit": "Pošaljite upit"
+      "sending": "Sending...",
+      "submit": "Send Inquiry"
     },
-    "reasonsTitle": "Zašto odabrati Start HN?",
+    "reasonsTitle": "Why Choose Start HN?",
     "reasons": [
-      "Individualizirani pristup svakom klijentu",
-      "Digitalizacija i modernizacija procesa",
-      "Licencirani i certificirani računovođe",
-      "Posebne pogodnosti za novoosnovane firme"
+      "Individualized approach to each client",
+      "Digitization and modernization of processes",
+      "Licensed and certified accountants",
+      "Special benefits for newly established companies"
     ],
     "custom": {
-      "title": "Prilagođena rješenja",
-      "description": "Svaki biznis je jedinstven. Naš tim će kreirati računovodstveno rješenje koje odgovara upravo vašim potrebama i ciljevima.",
-      "cta": "Razgovarajmo"
+      "title": "Tailored Solutions",
+      "description": "Every business is unique. Our team will create an accounting solution that fits your specific needs and goals.",
+      "cta": "Let's Talk"
     },
     "faq": {
-      "title": "Imate dodatnih pitanja?",
-      "description": "Pogledajte naša često postavljana pitanja",
-      "cta": "Pogledajte FAQ"
+      "title": "Have more questions?",
+      "description": "Check out our frequently asked questions",
+      "cta": "View FAQ"
     }
   },
   "blog": {
-    "badge": "Uspješne priče",
+    "badge": "Success Stories",
     "hero": {
-      "titlePrefix": "Članci i savjeti",
+      "titlePrefix": "Articles & Tips",
       "titleHighlight": "Start HN",
-      "description": "Praktični savjeti, vodiči i informacije iz svijeta računovodstva i poduzetništva u BiH."
+      "description": "Practical advice, guides and information from the world of accounting and entrepreneurship in BiH."
     },
     "index": {
       "hero": {
         "title": "Start HN Blog",
-        "description": "Pratite najnovije članke, savjete i informacije iz svijeta računovodstva i poduzetništva."
+        "description": "Follow the latest articles, tips and information from the world of accounting and entrepreneurship."
       },
       "filters": {
-        "postsInView": "{{count}} članaka"
+        "postsInView": "{{count}} articles"
       },
       "featured": {
-        "badge": "Najnovije",
-        "readCta": "Pročitajte članak"
+        "badge": "Latest",
+        "readCta": "Read article"
       }
     },
     "categories": [
-      "Svi članci",
-      "Računovodstvo",
-      "Porezi",
-      "Poduzetništvo",
-      "Savjeti"
+      "All Articles",
+      "Accounting",
+      "Taxes",
+      "Entrepreneurship",
+      "Tips"
     ],
     "newsletter": {
-      "title": "Budite u toku",
-      "description": "Prijavite se za najnovije vijesti i savjete iz računovodstva.",
-      "placeholder": "vas@email.com",
-      "button": "Prijavi se",
-      "note": "Bez spama. Odjava u svakom trenutku."
+      "title": "Stay up to date",
+      "description": "Subscribe for the latest news and tips on accounting.",
+      "placeholder": "you@email.com",
+      "button": "Subscribe",
+      "note": "No spam. Unsubscribe anytime."
     }
   },
   "blogPost": {
     "notFound": {
-      "title": "Članak nije pronađen",
-      "description": "Ne postoji članak za: {{slug}}",
-      "back": "Nazad na blog"
+      "title": "Article not found",
+      "description": "No article exists for: {{slug}}",
+      "back": "Back to blog"
     },
-    "back": "Nazad na blog",
+    "back": "Back to blog",
     "publisher": "Start HN"
   },
   "error": {
     "notFound": {
       "badge": "404",
-      "title": "Stranica nije pronađena",
-      "description": "Stranica koju tražite ne postoji ili je premještena.",
-      "requestedPath": "Tražena putanja",
+      "title": "Page Not Found",
+      "description": "The page you're looking for doesn't exist or has been moved.",
+      "requestedPath": "Requested path",
       "terminal": {
         "prompt": "$ starthn resolve --path",
-        "line1": "Pretraga... neuspješna",
-        "line2": "Razlog: stranica ne postoji",
-        "line3": "Preusmjeravanje...",
-        "line4": "Koristite linkove ispod za nastavak"
+        "line1": "Searching... failed",
+        "line2": "Reason: page does not exist",
+        "line3": "Redirecting...",
+        "line4": "Use links below to continue"
       },
       "links": {
-        "home": "Početna",
-        "services": "Usluge",
+        "home": "Home",
+        "services": "Services",
         "blog": "Blog",
-        "contact": "Kontakt"
+        "contact": "Contact"
       }
     },
     "runtime": {
-      "badge": "Greška",
-      "title": "Došlo je do greške",
-      "description": "Nešto je pošlo po krivu. Pokušajte ponovo ili se vratite na početnu stranicu.",
-      "retry": "Pokušaj ponovo",
-      "home": "Nazad na početnu",
-      "unknown": "Nepoznata greška"
+      "badge": "Error",
+      "title": "Something went wrong",
+      "description": "Something went wrong. Please try again or return to the homepage.",
+      "retry": "Try again",
+      "home": "Back to home",
+      "unknown": "Unknown error"
     }
   },
   "meta": {
