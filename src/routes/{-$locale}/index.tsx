@@ -4,11 +4,13 @@ import { useTranslation } from 'react-i18next'
 import { HeroSection } from '@/components/landing/HeroSection'
 import { LandingPageLayout } from '@/components/landing/LandingPageLayout'
 
-const BlogPostCard = lazy(() => import('@/components/blog/BlogPostCard').then(m => ({ default: m.BlogPostCard })))
 const ServicesHexGrid = lazy(() => import('@/components/landing/ServicesHexGrid').then(m => ({ default: m.ServicesHexGrid })))
+const WhyUsSection = lazy(() => import('@/components/landing/WhyUsSection').then(m => ({ default: m.WhyUsSection })))
 const GlobalCredibilitySection = lazy(() => import('@/components/landing/GlobalCredibilitySection').then(m => ({ default: m.GlobalCredibilitySection })))
-const CoreValuesSection = lazy(() => import('@/components/landing/CoreValuesSection').then(m => ({ default: m.CoreValuesSection })))
+const ContactCTASection = lazy(() => import('@/components/landing/ContactCTASection').then(m => ({ default: m.ContactCTASection })))
 const FAQSection = lazy(() => import('@/components/landing/FAQSection').then(m => ({ default: m.FAQSection })))
+const BlogPostCard = lazy(() => import('@/components/blog/BlogPostCard').then(m => ({ default: m.BlogPostCard })))
+
 import { PageContainer } from '@/components/layout/PageContainer'
 import { SectionContainer } from '@/components/layout/SectionContainer'
 import { FadeIn, SlideUp, StaggerContainer, StaggerItem } from '@/components/animations/FadeIn'
@@ -42,39 +44,59 @@ function LandingPage() {
 
   return (
     <LandingPageLayout>
-      <div className="landing-page min-h-screen relative">
+      <div className="min-h-screen relative">
+        {/* 1. Hero — hook + positioning */}
         <div id="hero" className="scroll-mt-24">
           <FadeIn amount={0.45} duration={designSystem.animation.motion.duration.slow}>
             <HeroSection />
           </FadeIn>
         </div>
 
+        {/* 2. Services — what we do */}
         <Suspense fallback={null}>
-          <div id="solutions" className="scroll-mt-24">
+          <div id="services" className="scroll-mt-24">
             <SlideUp amount={0.15}>
               <ServicesHexGrid />
             </SlideUp>
           </div>
         </Suspense>
 
+        {/* 3. Why Us — story + differentiators */}
         <Suspense fallback={null}>
-          <div id="credibility" className="scroll-mt-24">
+          <div id="why-us" className="scroll-mt-24">
+            <SlideUp amount={0.15}>
+              <WhyUsSection />
+            </SlideUp>
+          </div>
+        </Suspense>
+
+        {/* 4. Stats + Testimonials — social proof */}
+        <Suspense fallback={null}>
+          <div id="testimonials" className="scroll-mt-24">
             <SlideUp amount={0.15}>
               <GlobalCredibilitySection />
             </SlideUp>
           </div>
         </Suspense>
 
+        {/* 5. Contact CTA — conversion */}
         <Suspense fallback={null}>
-          <div id="values" className="scroll-mt-24">
-            <SlideUp amount={0.15}>
-              <CoreValuesSection />
-            </SlideUp>
+          <div id="contact-cta" className="scroll-mt-24">
+            <ContactCTASection />
           </div>
         </Suspense>
 
+        {/* 6. FAQ — objection handling */}
         <Suspense fallback={null}>
-          <div id="blog" className="scroll-mt-24">
+          <div id="faq" className="scroll-mt-24">
+            <FAQSection />
+          </div>
+        </Suspense>
+
+        {/* 7. Blog — authority */}
+        {latestBlogPosts.length > 0 && (
+        <Suspense fallback={null}>
+          <div id="blog" className="scroll-mt-24 pb-16">
             <PageContainer maxWidth="2xl" spacing="none">
               <SectionContainer
                 spacing="xl"
@@ -103,14 +125,7 @@ function LandingPage() {
             </PageContainer>
           </div>
         </Suspense>
-
-        <Suspense fallback={null}>
-          <div id="faq" className="scroll-mt-24">
-            <SlideUp amount={0.15}>
-              <FAQSection />
-            </SlideUp>
-          </div>
-        </Suspense>
+        )}
       </div>
     </LandingPageLayout>
   )
