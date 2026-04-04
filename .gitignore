@@ -1,0 +1,31 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+count.txt
+.env
+.env.development
+.env.production
+.env.local
+.env.*.local
+.nitro
+.tanstack
+
+# Non-English locale files (served from Azure Blob Storage)
+public/locales/
+!public/locales/en-US/
+
+# Translation script config (contains API keys) and runtime state
+scripts/translate.config.json
+scripts/translate.state.json
+scripts/translate.log
+
+# Azure Functions build artifacts
+api/bin/
+api/obj/
+api/local.settings.json
+
+# Windows metadata artifacts
+*:\Zone.Identifier
+*:\mshield

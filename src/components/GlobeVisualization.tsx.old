@@ -1,0 +1,1027 @@
+/**
+ * ARCHIVED FILE - Monolithic GlobeVisualization Component
+ *
+ * This file has been replaced by a modular implementation in:
+ * - /src/components/globe/GlobeVisualization.tsx (entry point)
+ * - /src/components/globe/controllers/ (scroll & camera controllers)
+ * - /src/components/globe/components/ (globe, scene, markers, etc.)
+ * - /src/data/globe/ (modular data layer)
+ *
+ * Reason for migration:
+ * - Original file was 1005 lines (exceeding 300 line guideline)
+ * - Poor separation of concerns
+ * - Difficult to maintain and test
+ * - No code reusability
+ *
+ * This file is kept for reference only.
+ * DO NOT USE THIS FILE. Import from @/components/globe/GlobeVisualization instead.
+ *
+ * Date archived: 2025-01-XX
+ */
+
+import { Suspense, useRef, useMemo, useState, useEffect } from 'react'
+import { Canvas, useFrame, extend, useThree } from '@react-three/fiber'
+import { OrbitControls, shaderMaterial, Text, RoundedBox } from '@react-three/drei'
+import * as THREE from 'three'
+import { createContinentGeometriesByRegion, createEnhancedWireframeGeometry, createCountryBordersGeometry, DATA_CENTER_MARKERS, getDataCenterPosition, type DataCenterMarker, SECTION_PIN_TEXTS, type PinText, DATA_CENTER_TO_SECTION } from '@/data/worldGeography'
+import { cn } from '@/lib/utils'
+
+// Extend Three.js with custom shader materials
+const WireframeGlowMaterial = shaderMaterial(
+  {
+    time: 0,
+    color: new THREE.Color('#00ffff'),
+    glowIntensity: 1.0,
+  },
+  // Vertex shader
+  `
+    varying vec3 vPosition;
+    varying vec3 vNormal;
+    uniform float time;
+
+    void main() {
+      vPosition = position;
+      vNormal = normal;
+
+      vec3 pos = position;
+      // Add subtle breathing effect
+      pos *= 1.0 + sin(time * 0.5) * 0.02;
+
+      gl_Position = projectionMatrix * modelViewMatrix * vec4(pos, 1.0);
+    }
+  `,
+  // Fragment shader
+  `
+    uniform vec3 color;
+    uniform float glowIntensity;
+    uniform float time;
+    varying vec3 vPosition;
+    varying vec3 vNormal;
+
+    void main() {
+      float intensity = pow(0.4 - dot(vNormal, vec3(0, 0, 1.0)), 2.0);
+
+      // Add animated glow effect
+      float pulse = sin(time * 2.0) * 0.5 + 0.5;
+      intensity *= glowIntensity * (0.7 + pulse * 0.3);
+
+      gl_FragColor = vec4(color, intensity);
+    }
+  `
+)
+
+// Atmosphere glow shader with fresnel effect
+const AtmosphereGlowMaterial = shaderMaterial(
+  {
+    time: 0,
+    glowColor: new THREE.Color('#06b6d4'),
+    intensity: 1.0,
+  },
+  // Vertex shader
+  `
+    varying vec3 vNormal;
+    varying vec3 vPosition;
+    uniform float time;
+
+    void main() {
+      vNormal = normalize(normalMatrix * normal);
+      vPosition = position;
+
+      vec3 pos = position;
+      // Subtle pulse effect
+      pos *= 1.0 + sin(time * 0.8) * 0.015;
+
+      gl_Position = projectionMatrix * modelViewMatrix * vec4(pos, 1.0);
+    }
+  `,
+  // Fragment shader
+  `
+    varying vec3 vNormal;
+    varying vec3 vPosition;
+    uniform vec3 glowColor;
+    uniform float intensity;
+    uniform float time;
+
+    void main() {
+      // Fresnel effect - brighter at edges
+      vec3 viewDir = normalize(cameraPosition - vPosition);
+      float fresnel = pow(1.0 - abs(dot(viewDir, vNormal)), 3.0);
+
+      // Animated wave effect
+      float wave = sin(vPosition.y * 5.0 + time * 2.0) * 0.1 + 0.9;
+
+      // Combine effects
+      float alpha = fresnel * intensity * wave;
+
+      gl_FragColor = vec4(glowColor, alpha * 0.6);
+    }
+  `
+)
+
+extend({ WireframeGlowMaterial, AtmosphereGlowMaterial })
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      wireframeGlowMaterial: any
+      atmosphereGlowMaterial: any
+    }
+  }
+}
+
+
+
+
+
+
+// Continent colors - inspired by Horizon Tech logo (orange to purple gradient)
+const CONTINENT_COLORS = {
+  northAmerica: '#ff6b35', // vibrant orange
+  southAmerica: '#f97316', // deep orange
+  europe: '#ec4899', // hot pink
+  africa: '#f59e0b', // amber
+  asia: '#a855f7', // purple
+  oceania: '#8b5cf6' // violet
+}
+
+// Animated data center marker component
+function DataCenterMarkerComponent({
+  marker,
+  index,
+  isFocused,
+  onMarkerClick
+}: {
+  marker: DataCenterMarker
+  index: number
+  isFocused?: boolean
+  onMarkerClick?: (marker: DataCenterMarker) => void
+}) {
+  const groupRef = useRef<THREE.Group>(null)
+  const labelRef = useRef<any>(null)
+  const outerRingRef = useRef<THREE.Mesh>(null)
+  const glowRingRef = useRef<THREE.Mesh>(null)
+  const [hovered, setHovered] = useState(false)
+  const { camera } = useThree()
+
+  useFrame((state) => {
+    const time = state.clock.elapsedTime
+    const offset = index * 0.5 // Stagger animation
+
+    if (outerRingRef.current) {
+      // Pulsing scale animation - more prominent when focused or hovered
+      const baseScale = isFocused ? 2.5 : hovered ? 2.2 : 2.0
+      const scale = baseScale + Math.sin(time * 2.0 + offset) * 0.3
+      outerRingRef.current.scale.set(scale, scale, scale)
+
+      // Fading opacity animation - brighter when focused or hovered
+      const baseOpacity = isFocused ? 0.6 : hovered ? 0.5 : 0.2
+      const opacity = baseOpacity + Math.sin(time * 2.0 + offset) * 0.15
+      if (outerRingRef.current.material instanceof THREE.Material) {
+        (outerRingRef.current.material as any).opacity = opacity
+      }
+    }
+
+    // Animate glow ring for focused marker
+    if (glowRingRef.current && isFocused) {
+      const glowScale = 4.0 + Math.sin(time * 1.5) * 0.5
+      glowRingRef.current.scale.set(glowScale, glowScale, glowScale)
+
+      const glowOpacity = 0.1 + Math.sin(time * 1.5) * 0.05
+      if (glowRingRef.current.material instanceof THREE.Material) {
+        (glowRingRef.current.material as any).opacity = glowOpacity
+      }
+    }
+
+    // Make label always face the camera (billboarding)
+    if (labelRef.current && groupRef.current) {
+      // Get the world position of the label
+      const labelWorldPos = new THREE.Vector3()
+      labelRef.current.getWorldPosition(labelWorldPos)
+
+      // Make label look at camera
+      labelRef.current.lookAt(camera.position)
+    }
+  })
+
+  const position = getDataCenterPosition(marker)
+
+  const handleClick = (e: any) => {
+    e.stopPropagation()
+    if (onMarkerClick) {
+      onMarkerClick(marker)
+    }
+  }
+
+  const handlePointerOver = (e: any) => {
+    e.stopPropagation()
+    setHovered(true)
+    document.body.style.cursor = 'pointer'
+  }
+
+  const handlePointerOut = (e: any) => {
+    e.stopPropagation()
+    setHovered(false)
+    document.body.style.cursor = 'auto'
+  }
+
+  return (
+    <group ref={groupRef} position={[position.x, position.y, position.z]}>
+      {/* Larger glow ring for focused marker */}
+      {isFocused && (
+        <mesh ref={glowRingRef}>
+          <ringGeometry args={[0.12, 0.15, 32]} />
+          <meshBasicMaterial
+            color={marker.color}
+            transparent
+            opacity={0.3}
+            side={THREE.DoubleSide}
+            toneMapped={false}
+          />
+        </mesh>
+      )}
+
+      {/* Sharp neon marker - much larger */}
+      <mesh
+        onClick={handleClick}
+        onPointerOver={handlePointerOver}
+        onPointerOut={handlePointerOut}
+      >
+        <sphereGeometry args={isFocused ? [0.06, 16, 16] : hovered ? [0.055, 12, 12] : [0.05, 8, 8]} />
+        <meshBasicMaterial
+          color={marker.color}
+          toneMapped={false}
+        />
+      </mesh>
+
+      {/* Sharp pulsing ring - larger */}
+      <mesh ref={outerRingRef}>
+        <ringGeometry args={[0.06, 0.08, 16]} />
+        <meshBasicMaterial
+          color={marker.color}
+          transparent
+          opacity={0.6}
+          side={THREE.DoubleSide}
+        />
+      </mesh>
+
+      {/* Section label - only show if marker is mapped to a section */}
+      {DATA_CENTER_TO_SECTION[marker.name] && (
+        <Text
+          ref={labelRef}
+          position={[0, 0.18, 0]}
+          fontSize={0.08}
+          color={marker.color}
+          anchorX="center"
+          anchorY="middle"
+          outlineWidth={0.005}
+          outlineColor="#000000"
+          fontWeight="bold"
+        >
+          {DATA_CENTER_TO_SECTION[marker.name].toUpperCase()}
+        </Text>
+      )}
+    </group>
+  )
+}
+
+// Orbiting particles representing IoT devices or data packets
+function OrbitingParticles() {
+  const particlesRef = useRef<THREE.Points>(null)
+  const particleCount = 150
+
+  const [positions, colors] = useMemo(() => {
+    const positions = new Float32Array(particleCount * 3)
+    const colors = new Float32Array(particleCount * 3)
+    const particleColors = [
+      new THREE.Color('#ff6b35'), // vibrant orange
+      new THREE.Color('#ec4899'), // hot pink
+      new THREE.Color('#a855f7'), // purple
+      new THREE.Color('#f59e0b'), // amber
+    ]
+
+    for (let i = 0; i < particleCount; i++) {
+      // Random position on sphere with varying radius
+      const radius = 2.5 + Math.random() * 1.0
+      const theta = Math.random() * Math.PI * 2
+      const phi = Math.acos(2 * Math.random() - 1)
+
+      positions[i * 3] = radius * Math.sin(phi) * Math.cos(theta)
+      positions[i * 3 + 1] = radius * Math.sin(phi) * Math.sin(theta)
+      positions[i * 3 + 2] = radius * Math.cos(phi)
+
+      // Random color from palette
+      const color = particleColors[Math.floor(Math.random() * particleColors.length)]
+      colors[i * 3] = color.r
+      colors[i * 3 + 1] = color.g
+      colors[i * 3 + 2] = color.b
+    }
+
+    return [positions, colors]
+  }, [])
+
+  useFrame((state) => {
+    if (particlesRef.current) {
+      const time = state.clock.elapsedTime * 0.1
+      particlesRef.current.rotation.y = time
+      particlesRef.current.rotation.x = Math.sin(time * 0.3) * 0.1
+    }
+  })
+
+  return (
+    <points ref={particlesRef}>
+      <bufferGeometry>
+        <bufferAttribute
+          attach="attributes-position"
+          count={particleCount}
+          array={positions}
+          itemSize={3}
+        />
+        <bufferAttribute
+          attach="attributes-color"
+          count={particleCount}
+          array={colors}
+          itemSize={3}
+        />
+      </bufferGeometry>
+      <pointsMaterial
+        size={0.025}
+        vertexColors
+        transparent
+        opacity={0.8}
+        sizeAttenuation={true}
+        blending={THREE.AdditiveBlending}
+      />
+    </points>
+  )
+}
+
+// Create curved arc between two points on globe
+function createArcCurve(start: THREE.Vector3, end: THREE.Vector3, arcHeight: number = 0.5): THREE.CatmullRomCurve3 {
+  const mid = new THREE.Vector3().addVectors(start, end).multiplyScalar(0.5)
+  mid.normalize().multiplyScalar(2.0 + arcHeight)
+  return new THREE.CatmullRomCurve3([start, mid, end])
+}
+
+// Connection line between two data centers with streaming particles
+function ConnectionLine({ from, to, color, index, speed }: { from: DataCenterMarker, to: DataCenterMarker, color: string, index: number, speed: number }) {
+  const lineRef = useRef<THREE.Line>(null)
+  const particleRefs = useRef<THREE.Mesh[]>([])
+  const particleCount = 5 // More particles per line
+
+  const curve = useMemo(() => {
+    const startPos = getDataCenterPosition(from, 2.02)
+    const endPos = getDataCenterPosition(to, 2.02)
+    return createArcCurve(startPos, endPos, 0.4)
+  }, [from, to])
+
+  const points = useMemo(() => curve.getPoints(60), [curve])
+
+  useFrame((state) => {
+    const time = state.clock.elapsedTime
+    const offset = index * 0.3 // Stagger each line's animation
+
+    // Animate particles along the curve
+    particleRefs.current.forEach((particle, i) => {
+      if (particle) {
+        // Each particle at different position on curve with custom speed
+        const t = ((time * speed + offset + (i / particleCount)) % 1)
+        const position = curve.getPoint(t)
+        particle.position.copy(position)
+
+        // Fade in/out based on position - brighter for cyber vibe
+        const material = particle.material as THREE.MeshBasicMaterial
+        material.opacity = Math.sin(t * Math.PI) * 0.8 + 0.2
+      }
+    })
+  })
+
+  return (
+    <group>
+      {/* Base connection line - brighter and more visible */}
+      <line ref={lineRef}>
+        <bufferGeometry>
+          <bufferAttribute
+            attach="attributes-position"
+            count={points.length}
+            array={new Float32Array(points.flatMap(p => [p.x, p.y, p.z]))}
+            itemSize={3}
+          />
+        </bufferGeometry>
+        <lineBasicMaterial
+          color={color}
+          transparent
+          opacity={0.4}
+          linewidth={2}
+          toneMapped={false}
+        />
+      </line>
+
+      {/* Streaming data particles - larger and brighter */}
+      {Array.from({ length: particleCount }).map((_, i) => (
+        <mesh
+          key={`particle-${i}`}
+          ref={(el) => {
+            if (el) particleRefs.current[i] = el
+          }}
+        >
+          <sphereGeometry args={[0.025, 8, 8]} />
+          <meshBasicMaterial
+            color={color}
+            transparent
+            opacity={1.0}
+            toneMapped={false}
+          />
+        </mesh>
+      ))}
+    </group>
+  )
+}
+
+// Data connection lines between major hubs - Horizon Tech gradient colors
+function DataConnections() {
+  const connections = useMemo(() => [
+    { from: DATA_CENTER_MARKERS[0], to: DATA_CENTER_MARKERS[2], color: '#ff6b35', speed: 0.2 }, // SF to London
+    { from: DATA_CENTER_MARKERS[1], to: DATA_CENTER_MARKERS[3], color: '#ec4899', speed: 0.25 }, // NY to Berlin
+    { from: DATA_CENTER_MARKERS[2], to: DATA_CENTER_MARKERS[4], color: '#f97316', speed: 0.18 }, // London to Tokyo
+    { from: DATA_CENTER_MARKERS[4], to: DATA_CENTER_MARKERS[5], color: '#a855f7', speed: 0.22 }, // Tokyo to Singapore
+    { from: DATA_CENTER_MARKERS[5], to: DATA_CENTER_MARKERS[6], color: '#8b5cf6', speed: 0.2 }, // Singapore to Sydney
+    { from: DATA_CENTER_MARKERS[0], to: DATA_CENTER_MARKERS[8], color: '#f59e0b', speed: 0.15 }, // SF to São Paulo
+    { from: DATA_CENTER_MARKERS[1], to: DATA_CENTER_MARKERS[7], color: '#ff6b35', speed: 0.25 }, // NY to Mumbai
+    { from: DATA_CENTER_MARKERS[2], to: DATA_CENTER_MARKERS[9], color: '#ec4899', speed: 0.2 }, // London to Sarajevo
+    { from: DATA_CENTER_MARKERS[3], to: DATA_CENTER_MARKERS[4], color: '#8b5cf6', speed: 0.3 }, // Berlin to Tokyo
+    { from: DATA_CENTER_MARKERS[7], to: DATA_CENTER_MARKERS[5], color: '#a855f7', speed: 0.18 }, // Mumbai to Singapore
+    { from: DATA_CENTER_MARKERS[0], to: DATA_CENTER_MARKERS[1], color: '#f97316', speed: 0.35 }, // SF to NY
+    { from: DATA_CENTER_MARKERS[2], to: DATA_CENTER_MARKERS[3], color: '#ec4899', speed: 0.4 }, // London to Berlin
+  ], [])
+
+  return (
+    <group>
+      {connections.map((conn, index) => (
+        <ConnectionLine
+          key={`connection-${index}`}
+          from={conn.from}
+          to={conn.to}
+          color={conn.color}
+          index={index}
+          speed={conn.speed}
+        />
+      ))}
+    </group>
+  )
+}
+
+function WireframeEarth({
+  fromDataCenter,
+  toDataCenter,
+  scrollProgress,
+  onMarkerClick
+}: {
+  fromDataCenter?: DataCenterMarker | null
+  toDataCenter?: DataCenterMarker | null
+  scrollProgress?: number
+  onMarkerClick?: (marker: DataCenterMarker) => void
+}) {
+  const meshRef = useRef<THREE.Group>(null)
+  const materialRef = useRef<any>(null)
+  const countryMaterialRef = useRef<any>(null)
+  const atmosphereRef = useRef<any>(null)
+  const [continentCoastlines, setContinentCoastlines] = useState<{[key: string]: THREE.BufferGeometry}>({})
+  const [countryBorders, setCountryBorders] = useState<THREE.BufferGeometry | null>(null)
+  const isInitialized = useRef(false)
+
+  const wireframeGeometry = useMemo(() => createEnhancedWireframeGeometry(), [])
+
+  // Load continent coastlines and country borders asynchronously
+  useEffect(() => {
+    createContinentGeometriesByRegion().then((geometries) => {
+      setContinentCoastlines(geometries)
+    })
+    createCountryBordersGeometry().then((geometry) => {
+      setCountryBorders(geometry)
+    })
+  }, [])
+
+  // Calculate quaternions for scroll-driven rotation
+  useFrame((state) => {
+    if (meshRef.current && fromDataCenter && toDataCenter && scrollProgress !== undefined) {
+      // Calculate quaternion for "from" data center
+      // Point toward -Z (toward the camera at position [0, 0, 8])
+      const fromPos = getDataCenterPosition(fromDataCenter).normalize()
+      const fromQuat = new THREE.Quaternion()
+      fromQuat.setFromUnitVectors(fromPos, new THREE.Vector3(0, 0, -1))
+
+      // Calculate quaternion for "to" data center
+      const toPos = getDataCenterPosition(toDataCenter).normalize()
+      const toQuat = new THREE.Quaternion()
+      toQuat.setFromUnitVectors(toPos, new THREE.Vector3(0, 0, -1))
+
+      // Ensure we're taking the shortest path
+      if (fromQuat.dot(toQuat) < 0) {
+        toQuat.x *= -1
+        toQuat.y *= -1
+        toQuat.z *= -1
+        toQuat.w *= -1
+      }
+
+      // Interpolate between quaternions based on scroll progress
+      meshRef.current.quaternion.copy(fromQuat)
+      meshRef.current.quaternion.slerp(toQuat, scrollProgress)
+
+      // Log initialization on first frame
+      if (!isInitialized.current) {
+        console.log('🌍 Globe initialized to:', {
+          from: fromDataCenter.name,
+          to: toDataCenter.name,
+          progress: scrollProgress,
+        })
+        isInitialized.current = true
+      }
+    }
+
+    if (materialRef.current) {
+      materialRef.current.time = state.clock.elapsedTime
+    }
+    if (countryMaterialRef.current) {
+      countryMaterialRef.current.time = state.clock.elapsedTime
+    }
+    if (atmosphereRef.current) {
+      atmosphereRef.current.time = state.clock.elapsedTime
+    }
+  })
+
+  const handleMarkerClick = (marker: DataCenterMarker) => {
+    console.log('Data center clicked:', marker.name)
+
+    // Scroll to the corresponding section
+    const sectionId = DATA_CENTER_TO_SECTION[marker.name]
+    if (sectionId) {
+      const element = document.getElementById(sectionId)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      }
+    }
+
+    // Call parent handler if provided
+    if (onMarkerClick) {
+      onMarkerClick(marker)
+    }
+  }
+
+  return (
+    <group ref={meshRef}>
+
+      {/* Connection lines between data centers */}
+      <DataConnections />
+
+      {/* Data center markers with pulsing animation */}
+      {DATA_CENTER_MARKERS.map((marker, index) => (
+        <DataCenterMarkerComponent
+          key={`marker-${index}`}
+          marker={marker}
+          index={index}
+          isFocused={fromDataCenter?.name === marker.name}
+          onMarkerClick={handleMarkerClick}
+        />
+      ))}
+
+      {/* Lat/lng grid wireframe layer - warm orange glow */}
+      <lineSegments geometry={wireframeGeometry}>
+        <wireframeGlowMaterial
+          ref={materialRef}
+          transparent
+          color="#ff6b35"
+          glowIntensity={0.4}
+        />
+      </lineSegments>
+
+      {/* Ocean layer - pure black cyber void */}
+      <mesh>
+        <sphereGeometry args={[2.008, 64, 64]} />
+        <meshBasicMaterial
+          color="#000000"
+          depthTest={true}
+          depthWrite={false}
+        />
+      </mesh>
+
+      {/* Continent coastlines - thick colored borders */}
+      {Object.entries(continentCoastlines).map(([continentName, geometry]) => {
+        const color = CONTINENT_COLORS[continentName as keyof typeof CONTINENT_COLORS] || '#a855f7'
+
+        return (
+          <lineSegments key={`coastline-${continentName}`} geometry={geometry}>
+            <lineBasicMaterial
+              color={color}
+              transparent
+              opacity={0.9}
+              linewidth={3}
+              toneMapped={false}
+            />
+          </lineSegments>
+        )
+      })}
+
+      {/* Country borders - subtle lines */}
+      {countryBorders && (
+        <lineSegments geometry={countryBorders}>
+          <lineBasicMaterial
+            color="#ec4899"
+            transparent
+            opacity={0.15}
+            linewidth={1}
+            toneMapped={false}
+          />
+        </lineSegments>
+      )}
+
+      {/* Atmosphere glow effect - warm purple/pink gradient */}
+      <mesh scale={[1.05, 1.05, 1.05]}>
+        <sphereGeometry args={[2.008, 64, 64]} />
+        <atmosphereGlowMaterial
+          ref={atmosphereRef}
+          transparent
+          side={THREE.BackSide}
+          depthWrite={false}
+          glowColor="#a855f7"
+          intensity={0.9}
+        />
+      </mesh>
+
+    </group>
+  )
+}
+
+// Camera controller for smooth transitions to data centers
+function CameraController({ focusDataCenter }: { focusDataCenter?: DataCenterMarker | null }) {
+  const { camera } = useThree()
+  const controlsRef = useRef<any>()
+  const targetPosition = useRef<THREE.Vector3 | null>(null)
+  const isAnimating = useRef(false)
+  const isFirstLoad = useRef(true)
+
+  useEffect(() => {
+    if (focusDataCenter && controlsRef.current) {
+      // Calculate target camera position - directly above the marker
+      const markerPos = getDataCenterPosition(focusDataCenter, 2)
+
+      // Get the direction from globe center to marker (this is the "up" direction for the marker)
+      const direction = markerPos.clone().normalize()
+
+      // Position camera at distance 8 from center, in the same direction as marker
+      // This puts the camera "above" the marker when looking at globe center
+      const cameraDistance = 8
+      const newPosition = direction.multiplyScalar(cameraDistance)
+
+      // On first load, set camera position immediately
+      if (isFirstLoad.current) {
+        camera.position.copy(newPosition)
+        isFirstLoad.current = false
+      } else {
+        // On subsequent updates, animate smoothly
+        targetPosition.current = newPosition
+        isAnimating.current = true
+      }
+    }
+  }, [focusDataCenter, camera])
+
+  useFrame(() => {
+    if (controlsRef.current) {
+      // Always keep target at globe center
+      controlsRef.current.target.set(0, 0, 0)
+
+      // Animate camera to target position
+      if (isAnimating.current && targetPosition.current) {
+        // Smooth interpolation - matched to globe rotation speed (0.01 for ~8-10 second animation)
+        camera.position.lerp(targetPosition.current, 0.01)
+
+        // Check if close enough to stop
+        const distance = camera.position.distanceTo(targetPosition.current)
+        if (distance < 0.05) {
+          isAnimating.current = false
+        }
+      }
+
+      controlsRef.current.update()
+    }
+  })
+
+  return (
+    <OrbitControls
+      ref={controlsRef}
+      target={[0, 0, 0]}
+      enablePan={false}
+      enableZoom={false}
+      enableRotate={true}
+      enableDamping={true}
+      dampingFactor={0.05}
+      rotateSpeed={1.0}
+      zoomSpeed={1.0}
+      minDistance={5}
+      maxDistance={15}
+      autoRotate={false}
+      maxPolarAngle={Math.PI}
+      minPolarAngle={0}
+    />
+  )
+}
+
+function Scene({
+  fromDataCenter,
+  toDataCenter,
+  scrollProgress,
+  currentSection,
+  onMarkerClick
+}: {
+  fromDataCenter?: DataCenterMarker | null
+  toDataCenter?: DataCenterMarker | null
+  scrollProgress?: number
+  currentSection?: string
+  onMarkerClick?: (marker: DataCenterMarker) => void
+}) {
+  return (
+    <>
+      {/* Minimal ambient - dark environment with warm tint */}
+      <ambientLight intensity={0.2} color="#1a0a0f" />
+
+      {/* Warm directional light */}
+      <directionalLight position={[5, 3, 5]} intensity={0.9} color="#ffffff" />
+
+      {/* Horizon Tech gradient accent lights */}
+      <pointLight position={[10, 5, -10]} intensity={1.3} color="#ff6b35" /> {/* Orange */}
+      <pointLight position={[-10, -5, 10]} intensity={1.2} color="#ec4899" /> {/* Hot pink */}
+
+      {/* Purple accent from below */}
+      <pointLight position={[0, -8, 0]} intensity={1.0} color="#a855f7" />
+
+      <WireframeEarth
+        fromDataCenter={fromDataCenter}
+        toDataCenter={toDataCenter}
+        scrollProgress={scrollProgress}
+        onMarkerClick={onMarkerClick}
+      />
+      <OrbitingParticles />
+
+      <CameraController focusDataCenter={fromDataCenter} />
+    </>
+  )
+}
+
+// 3D pin text bubble next to marker
+function PinTextOverlay({
+  focusDataCenter,
+  currentSection
+}: {
+  focusDataCenter?: DataCenterMarker | null
+  currentSection?: string
+}) {
+  const groupRef = useRef<THREE.Group>(null)
+  const lineRef = useRef<THREE.Line>(null)
+  const connectionPointRef = useRef<THREE.Mesh>(null)
+  const { camera } = useThree()
+  const pinText = currentSection ? SECTION_PIN_TEXTS[currentSection as keyof typeof SECTION_PIN_TEXTS] : null
+
+  if (!focusDataCenter || !pinText) return null
+
+  // Position the pin text to the side of the marker (use same radius as marker rendering)
+  const markerPosition = getDataCenterPosition(focusDataCenter) // Use default radius like DataCenterMarkerComponent
+
+  // Calculate a tangent direction (perpendicular to radius)
+  const radiusVector = markerPosition.clone().normalize()
+
+  // Get a perpendicular direction by crossing with the up vector
+  const right = new THREE.Vector3().crossVectors(radiusVector, new THREE.Vector3(0, 1, 0))
+
+  // If the cross product is too small (near poles), use a different axis
+  if (right.length() < 0.1) {
+    right.crossVectors(radiusVector, new THREE.Vector3(1, 0, 0))
+  }
+  right.normalize()
+
+  // Position pin closer to camera in bottom-center of view
+  const up = new THREE.Vector3(0, 1, 0)
+  const pinPosition = markerPosition.clone()
+    .add(radiusVector.clone().multiplyScalar(3.2)) // Very close to camera
+    .add(up.clone().multiplyScalar(-0.8)) // Move down toward bottom of view
+
+  // Update line and bubble orientation every frame
+  useFrame(() => {
+    if (groupRef.current && lineRef.current && connectionPointRef.current) {
+      // Make the bubble look at the camera
+      groupRef.current.lookAt(camera.position)
+
+      // Since globe no longer auto-rotates, marker position is static
+      const currentMarkerPos = getDataCenterPosition(focusDataCenter)
+
+      // Update line to connect to the marker and the connection point on bubble
+      const worldPos = new THREE.Vector3()
+      connectionPointRef.current.getWorldPosition(worldPos)
+
+      const positions = lineRef.current.geometry.attributes.position
+      positions.setXYZ(0, currentMarkerPos.x, currentMarkerPos.y, currentMarkerPos.z)
+      positions.setXYZ(1, worldPos.x, worldPos.y, worldPos.z)
+      positions.needsUpdate = true
+    }
+  })
+
+  return (
+    <>
+      {/* Connecting line from marker to pin text */}
+      <line ref={lineRef}>
+        <bufferGeometry>
+          <bufferAttribute
+            attach="attributes-position"
+            count={2}
+            array={new Float32Array([
+              markerPosition.x, markerPosition.y, markerPosition.z,
+              pinPosition.x, pinPosition.y, pinPosition.z
+            ])}
+            itemSize={3}
+          />
+        </bufferGeometry>
+        <lineBasicMaterial
+          color={focusDataCenter.color}
+          transparent
+          opacity={0.8}
+          linewidth={3}
+          toneMapped={false}
+        />
+      </line>
+
+      {/* 3D Pin bubble */}
+      <group ref={groupRef} position={[pinPosition.x, pinPosition.y, pinPosition.z]}>
+        {/* Invisible connection point at the back of the bubble (local coordinates) */}
+        <mesh ref={connectionPointRef} position={[0, 0, -0.02]} visible={false}>
+          <sphereGeometry args={[0.01]} />
+        </mesh>
+        {/* Bubble background - rounded box */}
+        <RoundedBox
+          args={[0.8, 0.4, 0.04]} // width, height, depth - much larger
+          radius={0.02}
+          smoothness={4}
+        >
+          <meshBasicMaterial
+            color="#0a0a0a"
+            transparent
+            opacity={0.95}
+            toneMapped={false}
+          />
+        </RoundedBox>
+
+        {/* Border glow */}
+        <RoundedBox
+          args={[0.82, 0.42, 0.03]} // slightly larger for border effect
+          radius={0.02}
+          smoothness={4}
+        >
+          <meshBasicMaterial
+            color={focusDataCenter.color}
+            transparent
+            opacity={0.3}
+            toneMapped={false}
+          />
+        </RoundedBox>
+
+        {/* Title text */}
+        <Text
+          position={[0, 0.12, 0.025]}
+          fontSize={0.055}
+          color={focusDataCenter.color}
+          anchorX="center"
+          anchorY="middle"
+          maxWidth={0.75}
+          fontWeight="bold"
+        >
+          {pinText.title}
+        </Text>
+
+        {/* Subtitle text */}
+        <Text
+          position={[0, 0.06, 0.025]}
+          fontSize={0.04}
+          color="#888888"
+          anchorX="center"
+          anchorY="middle"
+          maxWidth={0.75}
+        >
+          {pinText.subtitle}
+        </Text>
+
+        {/* Stats */}
+        {pinText.stats && pinText.stats.length > 0 && (
+          <>
+            {pinText.stats.slice(0, 2).map((stat, index) => (
+              <group key={index} position={[0, -0.02 - index * 0.055, 0.025]}>
+                {/* Bullet point */}
+                <mesh position={[-0.32, 0, 0]}>
+                  <sphereGeometry args={[0.008, 8, 8]} />
+                  <meshBasicMaterial
+                    color={focusDataCenter.color}
+                    toneMapped={false}
+                  />
+                </mesh>
+
+                {/* Stat text */}
+                <Text
+                  position={[0, 0, 0]}
+                  fontSize={0.035}
+                  color="#aaaaaa"
+                  anchorX="center"
+                  anchorY="middle"
+                  maxWidth={0.7}
+                >
+                  {stat}
+                </Text>
+              </group>
+            ))}
+          </>
+        )}
+      </group>
+    </>
+  )
+}
+
+function LoadingFallback() {
+  return (
+    <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl">
+      <div className="text-center">
+        <div className="w-16 h-16 mx-auto mb-4 rounded-full border-4 border-primary/30 border-t-primary animate-spin" />
+        <p className="text-sm text-muted-foreground">Loading data visualization...</p>
+      </div>
+    </div>
+  )
+}
+
+// WebGL support check - cached to avoid creating multiple contexts
+let webglSupportCache: boolean | null = null
+function hasWebGLSupport() {
+  if (webglSupportCache !== null) {
+    return webglSupportCache
+  }
+
+  try {
+    const canvas = document.createElement('canvas')
+    webglSupportCache = !!(
+      window.WebGLRenderingContext &&
+      (canvas.getContext('webgl') || canvas.getContext('experimental-webgl'))
+    )
+    return webglSupportCache
+  } catch (e) {
+    webglSupportCache = false
+    return false
+  }
+}
+
+function WebGLFallback() {
+  return (
+    <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl">
+      <div className="text-center p-8">
+        <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-r from-primary to-accent opacity-20" />
+        <h3 className="text-lg font-semibold mb-2">Global Data Network</h3>
+        <p className="text-sm text-muted-foreground">
+          Interactive 3D visualization requires WebGL support
+        </p>
+      </div>
+    </div>
+  )
+}
+
+interface GlobeVisualizationProps {
+  fromDataCenter?: DataCenterMarker | null
+  toDataCenter?: DataCenterMarker | null
+  scrollProgress?: number
+  currentSection?: string
+  onMarkerClick?: (marker: DataCenterMarker) => void
+}
+
+export function GlobeVisualization({
+  fromDataCenter,
+  toDataCenter,
+  scrollProgress,
+  currentSection,
+  onMarkerClick
+}: GlobeVisualizationProps = {}) {
+  if (!hasWebGLSupport()) {
+    return <WebGLFallback />
+  }
+
+  return (
+    <div className="w-full h-full min-h-[400px]">
+      <Suspense fallback={<LoadingFallback />}>
+        <Canvas
+          camera={{ position: [0, 0, 8], fov: 45 }}
+          style={{ background: 'transparent' }}
+          performance={{ min: 0.5 }}
+          dpr={Math.min(window.devicePixelRatio, 2)}
+        >
+          <Scene
+            fromDataCenter={fromDataCenter}
+            toDataCenter={toDataCenter}
+            scrollProgress={scrollProgress}
+            currentSection={currentSection}
+            onMarkerClick={onMarkerClick}
+          />
+        </Canvas>
+      </Suspense>
+    </div>
+  )
+}
