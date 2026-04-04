@@ -12,6 +12,7 @@ export const caseStudyIndustryLabels: Record<CaseStudyIndustry, string> = {
 }
 
 export const caseStudies: CaseStudy[] = [
+/* Case studies disabled for Start HN
   {
     slug: 'realtime-ledger-modernization',
     client: 'Client F-17 (Regional Digital Bank)',
@@ -339,7 +340,7 @@ export const caseStudies: CaseStudy[] = [
     tags: ['Workflow Engine', 'Public Sector', 'Security', 'Digital Services'],
     isFeatured: false,
   },
-]
+*/]
 
 export const caseStudyIndustries = Object.keys(
   caseStudyIndustryLabels,

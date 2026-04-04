@@ -1,12 +1,11 @@
 import { useMemo } from 'react'
 import { Link, useLocation } from '@tanstack/react-router'
-import { BarChart3, BookOpen, BriefcaseBusiness, Home, Mail, Sparkles } from 'lucide-react'
+import { BookOpen, BriefcaseBusiness, Home, Mail } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import type { ReactNode } from 'react'
 import { cn } from '@/lib/utils'
 import { designSystem } from '@/lib/design-system'
 import { getLocaleFromPath, stripLocalePrefix, withLocalePath } from '@/lib/i18n-utils'
-import { featureFlags } from '@/lib/feature-flags'
 
 type NavItem = {
   icon: ReactNode
@@ -31,30 +30,10 @@ export function MobileBottomNav() {
       },
       {
         icon: <BriefcaseBusiness className="h-6 w-6" />,
-        label: t('nav.solutions'),
-        href: '/services/cloud-architecture',
-        activePrefix: '/services',
+        label: t('nav.services'),
+        href: '/usluge',
+        activePrefix: '/usluge',
       },
-      ...(featureFlags.caseStudies
-        ? [
-            {
-              icon: <BarChart3 className="h-6 w-6" />,
-              label: t('mobileNav.caseStudies'),
-              href: '/case-studies',
-              activePrefix: '/case-studies',
-            },
-          ]
-        : []),
-      ...(featureFlags.technicalResources
-        ? [
-            {
-              icon: <Sparkles className="h-6 w-6" />,
-              label: t('mobileNav.aiSystems'),
-              href: '/innovation-lab/ai-systems',
-              activePrefix: '/innovation-lab',
-            },
-          ]
-        : []),
       {
         icon: <BookOpen className="h-6 w-6" />,
         label: t('mobileNav.blog'),
@@ -94,7 +73,7 @@ export function MobileBottomNav() {
                 to={withLocalePath(item.href, currentLocale)}
                 aria-label={item.label}
                 className={cn(
-                  'relative flex min-h-12 w-1/5 flex-col items-center justify-center gap-1 rounded-xl text-xs font-medium transition-all duration-200',
+                  'relative flex min-h-12 w-1/4 flex-col items-center justify-center gap-1 rounded-xl text-xs font-medium transition-all duration-200',
                   designSystem.effects.focusRing,
                   active
                     ? 'bg-primary/10 text-primary'

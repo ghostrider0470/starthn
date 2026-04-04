@@ -1,17 +1,15 @@
 import { Link, useLocation } from '@tanstack/react-router'
-import { Github, Linkedin, Mail, Twitter, Youtube } from 'lucide-react'
+import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Clock } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { Separator } from '@/components/ui/separator'
 import { cn } from '@/lib/utils'
 import { designSystem } from '@/lib/design-system'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
-import { featureFlags } from '@/lib/feature-flags'
 
 const socialLinks = [
-  { name: 'GitHub', icon: Github, href: 'https://github.com' },
-  { name: 'Twitter', icon: Twitter, href: 'https://twitter.com' },
-  { name: 'LinkedIn', icon: Linkedin, href: 'https://linkedin.com' },
-  { name: 'YouTube', icon: Youtube, href: 'https://youtube.com' },
+  { name: 'Facebook', icon: Facebook, href: 'https://www.facebook.com/p/START-HN-Ra%C4%8Dunovodstvena-agencija-100086643588042/' },
+  { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/in/selma-had%C5%BEi%C4%87-150907323/' },
+  { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/racunovodstvo_starthn/' },
 ]
 
 export function Footer() {
@@ -31,46 +29,21 @@ export function Footer() {
   }
 
   const footerLinks = {
-    ...(featureFlags.technicalResources
-      ? {
-          [t('footer.features')]: [
-            { name: t('footer.innovationLabOverview'), href: '/innovation-lab' },
-            { name: t('footer.appliedAiSystems'), href: '/innovation-lab/ai-systems' },
-            { name: t('footer.nlpDemo'), href: '/innovation-lab/nlp' },
-            {
-              name: t('footer.geneticAlgorithmSimulation'),
-              href: '/innovation-lab/genetic-algorithm',
-            },
-          ],
-        }
-      : {}),
-    [t('footer.resources')]: [
-      { name: t('footer.blog'), href: '/blog' },
-      {
-        name: t('footer.featuredBlogPost'),
-        href: '/blog/shipping-ai-features-with-engineering-guardrails',
-      },
-      ...(featureFlags.caseStudies
-        ? [
-            { name: t('footer.caseStudies'), href: '/case-studies' },
-            {
-              name: t('footer.featuredCaseStudy'),
-              href: '/case-studies/realtime-ledger-modernization',
-            },
-          ]
-        : []),
+    [t('footer.services')]: [
+      { name: t('footer.accounting'), href: '/usluge#racunovodstvo' },
+      { name: t('footer.taxAdvisory'), href: '/usluge#porezi' },
+      { name: t('footer.virtualCfo'), href: '/usluge#virtualni-cfo' },
     ],
-    [t('footer.company')]: [
+    [t('footer.pages')]: [
       { name: t('footer.about'), href: '/about' },
+      { name: t('footer.blog'), href: '/blog' },
+      { name: t('footer.gallery'), href: '/galerija' },
+      { name: t('footer.faqPage'), href: '/faq' },
       { name: t('footer.contact'), href: '/contact' },
-      { name: t('footer.partners'), href: '/#partners' },
-      { name: t('footer.careers'), href: '/careers' },
     ],
     [t('footer.legal')]: [
       { name: t('footer.privacyPolicy'), href: '/privacy' },
       { name: t('footer.termsOfService'), href: '/terms' },
-      { name: t('footer.cookiePolicy'), href: '/privacy#cookies' },
-      { name: t('footer.license'), href: '/terms#license' },
     ],
   }
 
@@ -86,7 +59,7 @@ export function Footer() {
             <Link to={withLocale('/')} className="inline-flex items-center rounded-lg">
               <img
                 src="/clean-square.png"
-                alt="Horizon Tech"
+                alt="Start HN"
                 className="h-14 w-auto"
                 loading="lazy"
                 decoding="async"
@@ -102,6 +75,26 @@ export function Footer() {
             >
               {t('footer.description')}
             </p>
+
+            {/* Contact Info */}
+            <div className="mt-5 space-y-2">
+              <div className={cn('flex items-center gap-2', designSystem.typography.body.small, designSystem.typography.muted)}>
+                <MapPin className="h-4 w-4 shrink-0 text-primary" />
+                <span>Ibrahima Ljubovića 47, Ilidža, Sarajevo</span>
+              </div>
+              <div className={cn('flex items-center gap-2', designSystem.typography.body.small, designSystem.typography.muted)}>
+                <Phone className="h-4 w-4 shrink-0 text-primary" />
+                <a href="tel:+38761135377" className="hover:text-primary transition-colors">+387 61/135-377</a>
+              </div>
+              <div className={cn('flex items-center gap-2', designSystem.typography.body.small, designSystem.typography.muted)}>
+                <Mail className="h-4 w-4 shrink-0 text-primary" />
+                <a href="mailto:info@starthn.ba" className="hover:text-primary transition-colors">info@starthn.ba</a>
+              </div>
+              <div className={cn('flex items-center gap-2', designSystem.typography.body.small, designSystem.typography.muted)}>
+                <Clock className="h-4 w-4 shrink-0 text-primary" />
+                <span>Pon - Pet: 8:00 - 16:00</span>
+              </div>
+            </div>
 
             <div className="mt-6 flex flex-wrap gap-2">
               {socialLinks.map((social) => {
@@ -126,7 +119,7 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="col-span-full grid gap-8 sm:grid-cols-2 lg:col-span-7 lg:grid-cols-4">
+          <div className="col-span-full grid gap-8 sm:grid-cols-2 lg:col-span-7 lg:grid-cols-3">
             {Object.entries(footerLinks).map(([category, links]) => (
               <div key={category}>
                 <h3
@@ -190,10 +183,10 @@ export function Footer() {
               designSystem.typography.muted,
               designSystem.effects.focusRing
             )}
-            aria-label={t('footer.subscribe')}
+            aria-label={t('footer.contactUs')}
           >
             <Mail className="mr-2 inline h-4 w-4" />
-            {t('footer.subscribe')}
+            {t('footer.contactUs')}
           </Link>
         </div>
       </div>
