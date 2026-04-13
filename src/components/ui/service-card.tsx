@@ -78,18 +78,6 @@ export function ServiceCard({
         )}
       />
 
-      {/* Scanline overlay on hover (dark only) */}
-      <div
-        className={cn(
-          'absolute inset-0 rounded-3xl pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300',
-          'hidden dark:block',
-        )}
-        style={{
-          backgroundImage:
-            'repeating-linear-gradient(0deg, transparent 0px, transparent 2px, rgba(255,107,53,0.03) 2px, rgba(255,107,53,0.03) 4px)',
-        }}
-      />
-
       {/* Content — horizontal layout: icon left, text right */}
       <div className="relative z-10 flex h-full gap-5">
         {/* Icon column */}
@@ -156,8 +144,8 @@ export function ServiceCard({
               'mb-3 text-xl font-bold leading-tight transition-colors duration-300',
               // Light: stays dark gray on hover
               'text-foreground group-hover:text-foreground/85',
-              // Dark: shifts to primary + RGB split
-              'dark:text-foreground dark:group-hover:text-primary dark:group-hover:animate-rgb-split-hover',
+              // Dark: shifts to primary on hover
+              'dark:text-foreground dark:group-hover:text-primary',
             )}
           >
             {title}

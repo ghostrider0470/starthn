@@ -13,7 +13,7 @@ interface SoundToggleProps {
 }
 
 /**
- * CRT-styled sound toggle button with optional volume control
+ * Sound toggle button with optional volume control
  */
 export function SoundToggle({
   isEnabled,
@@ -47,29 +47,16 @@ export function SoundToggle({
         }}
         className={cn(
           'relative h-9 w-9 rounded-lg',
-          'border border-primary/20 bg-background/80 backdrop-blur-sm',
-          'hover:bg-primary/10 hover:border-primary/40',
+          'border border-border/50 bg-background/80 backdrop-blur-sm',
+          'hover:bg-muted hover:border-border',
           'transition-all duration-200',
-          isEnabled && 'border-primary/40 shadow-sm shadow-primary/20',
-          'group'
+          isEnabled && 'border-primary/40 shadow-sm shadow-primary/10',
         )}
-        title={isEnabled ? 'Disable CRT sounds (right-click for volume)' : 'Enable CRT sounds'}
+        title={isEnabled ? 'Disable sounds' : 'Enable sounds'}
       >
-        {/* Scanline effect on icon */}
-        <div
-          className={cn(
-            'absolute inset-0 rounded-lg pointer-events-none opacity-0 group-hover:opacity-100',
-            'transition-opacity duration-200'
-          )}
-          style={{
-            backgroundImage:
-              'repeating-linear-gradient(0deg, transparent 0px, transparent 1px, rgba(255,107,53,0.05) 1px, rgba(255,107,53,0.05) 2px)',
-          }}
-        />
-
         <VolumeIcon
           className={cn(
-            'h-4 w-4 transition-all duration-200 relative z-10',
+            'h-4 w-4 transition-all duration-200',
             isEnabled ? 'text-primary' : 'text-muted-foreground',
             isHovered && 'scale-110'
           )}
@@ -77,7 +64,7 @@ export function SoundToggle({
 
         {/* Active indicator dot */}
         {isEnabled && (
-          <span className="absolute -top-0.5 -right-0.5 h-2 w-2 rounded-full bg-primary animate-pulse" />
+          <span className="absolute -top-0.5 -right-0.5 h-2 w-2 rounded-full bg-primary" />
         )}
       </Button>
 
@@ -87,13 +74,13 @@ export function SoundToggle({
           className={cn(
             'absolute top-full mt-2 left-1/2 -translate-x-1/2',
             'p-3 rounded-lg',
-            'bg-card/95 backdrop-blur-sm border border-primary/20',
-            'shadow-lg shadow-primary/10',
+            'bg-card/95 backdrop-blur-sm border border-border',
+            'shadow-lg',
             'z-50'
           )}
         >
           <div className="flex flex-col items-center gap-2">
-            <span className="font-mono text-xs text-muted-foreground">VOL</span>
+            <span className="text-xs text-muted-foreground">Volume</span>
             <input
               type="range"
               min="0"
@@ -107,30 +94,14 @@ export function SoundToggle({
                 '[&::-webkit-slider-thumb]:appearance-none',
                 '[&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:w-3',
                 '[&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary',
-                '[&::-webkit-slider-thumb]:shadow-sm [&::-webkit-slider-thumb]:shadow-primary/50',
                 '[&::-moz-range-thumb]:h-3 [&::-moz-range-thumb]:w-3',
                 '[&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:bg-primary',
                 '[&::-moz-range-thumb]:border-0'
               )}
             />
-            <span className="font-mono text-xs text-primary">{Math.round(volume * 100)}%</span>
+            <span className="text-xs text-muted-foreground">{Math.round(volume * 100)}%</span>
           </div>
         </div>
-      )}
-
-      {/* Status label on hover */}
-      {isHovered && (
-        <span
-          className={cn(
-            'absolute -bottom-6 left-1/2 -translate-x-1/2',
-            'font-mono text-[10px] whitespace-nowrap',
-            'px-1.5 py-0.5 rounded',
-            'bg-card/90 border border-primary/20',
-            isEnabled ? 'text-primary' : 'text-muted-foreground'
-          )}
-        >
-          {isEnabled ? 'SFX: ON' : 'SFX: OFF'}
-        </span>
       )}
     </div>
   )
@@ -149,11 +120,11 @@ export function SoundToggleInline({
       onClick={onToggle}
       className={cn(
         'inline-flex items-center gap-1.5 px-2 py-1 rounded',
-        'font-mono text-xs',
+        'text-xs',
         'border transition-all duration-200',
         isEnabled
           ? 'border-primary/40 bg-primary/10 text-primary'
-          : 'border-muted bg-muted/50 text-muted-foreground hover:border-primary/20',
+          : 'border-border bg-muted/50 text-muted-foreground hover:border-primary/20',
         className
       )}
     >

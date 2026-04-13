@@ -16,7 +16,6 @@ import { useAnalytics } from '../hooks/useAnalytics'
 import { useTranslation } from 'react-i18next'
 
 import { ThemeProvider } from '@/components/theme-provider'
-import { CRTSoundProvider } from '@/hooks/useCRTSound'
 import { AuthProvider } from '@/contexts/AuthContext'
 import { RouteErrorBoundary } from '@/components/errors/RouteErrorBoundary'
 import { AppErrorBoundary } from '@/components/errors/AppErrorBoundary'
@@ -141,30 +140,28 @@ function RootComponent() {
 
   return (
     <ThemeProvider defaultTheme="system" storageKey="starthn-theme">
-      <CRTSoundProvider>
-        <QueryClientProvider client={queryClient}>
-          <AuthProvider>
-            <AppErrorBoundary>
-              {!isOnline && <OfflineFallback />}
-              <Suspense
-                fallback={
-                  isOnline ? (
-                    <LoadingState fullPage message="Loading Start HN..." />
-                  ) : (
-                    <OfflineFallback fullPage />
-                  )
-                }
-              >
-                {content}
-              </Suspense>
-            </AppErrorBoundary>
-          </AuthProvider>
-          <Suspense fallback={null}>
-            <TanStackRouterDevtools />
-            <ReactQueryDevtools buttonPosition="bottom-right" />
-          </Suspense>
-        </QueryClientProvider>
-      </CRTSoundProvider>
+      <QueryClientProvider client={queryClient}>
+        <AuthProvider>
+          <AppErrorBoundary>
+            {!isOnline && <OfflineFallback />}
+            <Suspense
+              fallback={
+                isOnline ? (
+                  <LoadingState fullPage message="Loading Start HN..." />
+                ) : (
+                  <OfflineFallback fullPage />
+                )
+              }
+            >
+              {content}
+            </Suspense>
+          </AppErrorBoundary>
+        </AuthProvider>
+        <Suspense fallback={null}>
+          <TanStackRouterDevtools />
+          <ReactQueryDevtools buttonPosition="bottom-right" />
+        </Suspense>
+      </QueryClientProvider>
     </ThemeProvider>
   )
 }

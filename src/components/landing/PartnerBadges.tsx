@@ -4,7 +4,6 @@ import { designSystem } from '@/lib/design-system'
 import { LogoLoop } from '@/components/LogoLoop'
 import { cn } from '@/lib/utils'
 import { useScrollReveal } from '@/hooks/useScrollReveal'
-import { useCRTEffect } from '@/hooks/useCRTEffect'
 import { Trans, useTranslation } from 'react-i18next'
 import { VscAzure, VscAzureDevops, VscCode, VscGithub } from 'react-icons/vsc'
 import { DiMsqlServer } from 'react-icons/di'
@@ -124,18 +123,11 @@ const cardVariants = {
 // ---------------------------------------------------------------------------
 export function PartnerBadges() {
   const { t } = useTranslation('landing')
-  const [showTuning, setShowTuning] = useState(true)
   const [showLogos, setShowLogos] = useState(false)
 
   const { ref: sectionRef, isInView } = useScrollReveal({
     threshold: 0.15,
     rootMargin: '-100px',
-  })
-
-  useCRTEffect({
-    sectionId: 'partners',
-    intensity: 'subtle',
-    isInView,
   })
 
   const categories: TechCategory[] = [
@@ -202,23 +194,10 @@ export function PartnerBadges() {
     },
   ]
 
-  // Channel tuning sequence for carousel
+  // Show logos when section comes into view
   useEffect(() => {
     if (!isInView) return
-
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    if (prefersReducedMotion) {
-      setShowTuning(false)
-      setShowLogos(true)
-      return
-    }
-
-    const tuningTimer = setTimeout(() => {
-      setShowTuning(false)
-      setShowLogos(true)
-    }, 500)
-
-    return () => clearTimeout(tuningTimer)
+    setShowLogos(true)
   }, [isInView])
 
   return (
@@ -229,14 +208,6 @@ export function PartnerBadges() {
       )}
     >
       {/* ── Dark-only background decorations ───────────────────────── */}
-      <div className="absolute inset-0 bg-grid-pattern opacity-[0.02] pointer-events-none hidden dark:block" />
-      <div
-        className="absolute inset-0 pointer-events-none opacity-[0.015] hidden dark:block"
-        style={{
-          backgroundImage:
-            'repeating-linear-gradient(0deg, transparent 0px, transparent 2px, rgba(0,0,0,0.3) 2px, rgba(0,0,0,0.3) 4px)',
-        }}
-      />
       <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl hidden dark:block" />
 
       {/* ── Container ──────────────────────────────────────────────── */}
@@ -255,21 +226,16 @@ export function PartnerBadges() {
             ease: designSystem.animation.motion.ease.out,
           }}
         >
-          {/* Light subtitle */}
-          <span className="text-sm font-medium uppercase tracking-widest text-muted-foreground/80 mb-3 block dark:hidden">
+          <span className="text-sm font-medium uppercase tracking-widest text-muted-foreground/80 mb-3 block">
             {t('partners.subtitle')}
           </span>
 
           <h2
             className={cn(
               designSystem.typography.heading.h1,
-              'landing-section-heading text-4xl md:text-5xl font-bold text-foreground dark:text-foreground'
+              'landing-section-heading text-4xl md:text-5xl font-bold text-foreground'
             )}
           >
-            {/* Dark monospace marker */}
-            <span className="font-mono text-primary/70 text-2xl mb-2 hidden dark:block">
-              {t('partners.commentMarker')}
-            </span>
             <Trans
               t={t}
               i18nKey="partners.title"
@@ -324,7 +290,7 @@ export function PartnerBadges() {
                 className={cn(
                   'text-xs font-medium uppercase tracking-wider block mb-2',
                   'text-muted-foreground/80',
-                  'dark:text-primary/70 dark:font-mono'
+                  'dark:text-primary/70'
                 )}
               >
                 {category.label}
@@ -375,29 +341,6 @@ export function PartnerBadges() {
             WebkitMaskImage: 'linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%)',
           }}
         >
-          {/* TV static tuning overlay */}
-          {showTuning && isInView && (
-            <motion.div
-              className="absolute inset-0 z-10 pointer-events-none"
-              initial={{ opacity: 1 }}
-              animate={{ opacity: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-            >
-              <div
-                className="absolute inset-0 animate-channel-tune"
-                style={{
-                  background: `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" /></filter><rect width="200" height="200" filter="url(%23noise)" opacity="0.5"/></svg>')`,
-                  backgroundSize: '150px 150px',
-                }}
-              />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="font-mono text-primary text-xl animate-blink">
-                  {t('partners.scanning')}
-                </span>
-              </div>
-            </motion.div>
-          )}
-
           <motion.div
             initial={{ opacity: 0 }}
             animate={showLogos ? { opacity: 1 } : { opacity: 0 }}
@@ -447,11 +390,6 @@ export function PartnerBadges() {
         >
           <div className="h-[3px] bg-primary/80 dark:bg-primary/40" />
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent animate-pulse hidden dark:block" />
-          <div className="absolute top-5 left-5 gap-1.5 opacity-40 hidden dark:flex">
-            <div className="w-3 h-3 rounded-full bg-destructive" />
-            <div className="w-3 h-3 rounded-full bg-accent" />
-            <div className="w-3 h-3 rounded-full bg-primary" />
-          </div>
 
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-8 p-8 lg:p-10">
             {[

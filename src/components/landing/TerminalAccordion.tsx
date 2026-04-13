@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
 import { ChevronRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -15,108 +15,14 @@ interface TerminalAccordionProps {
   enableTypingAnimation?: boolean
 }
 
-interface TerminalItemProps {
+interface AccordionItemProps {
   item: FAQItem
   index: number
   isOpen: boolean
   onToggle: () => void
-  typingSpeed: number
-  enableTypingAnimation: boolean
 }
 
-/**
- * Typing text component that reveals characters one by one
- */
-function TypingText({
-  text,
-  speed = 50,
-  onComplete,
-  isActive,
-}: {
-  text: string
-  speed?: number
-  onComplete?: () => void
-  isActive: boolean
-}) {
-  const [displayedText, setDisplayedText] = useState('')
-  const [isComplete, setIsComplete] = useState(false)
-  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
-
-  useEffect(() => {
-    if (!isActive) {
-      setDisplayedText('')
-      setIsComplete(false)
-      return
-    }
-
-    // Check for reduced motion preference
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    if (prefersReducedMotion) {
-      setDisplayedText(text)
-      setIsComplete(true)
-      onComplete?.()
-      return
-    }
-
-    let currentIndex = 0
-    setDisplayedText('')
-    setIsComplete(false)
-
-    const typeNextChar = () => {
-      if (currentIndex < text.length) {
-        setDisplayedText(text.slice(0, currentIndex + 1))
-        currentIndex++
-        timeoutRef.current = setTimeout(typeNextChar, speed)
-      } else {
-        setIsComplete(true)
-        onComplete?.()
-      }
-    }
-
-    // Small delay before starting
-    timeoutRef.current = setTimeout(typeNextChar, 100)
-
-    return () => {
-      if (timeoutRef.current) {
-        clearTimeout(timeoutRef.current)
-      }
-    }
-  }, [text, speed, isActive, onComplete])
-
-  return (
-    <span className="font-mono">
-      {displayedText}
-      {!isComplete && isActive && (
-        <span className="animate-blink text-primary">▌</span>
-      )}
-    </span>
-  )
-}
-
-/**
- * Individual terminal accordion item
- */
-function TerminalItem({
-  item,
-  index,
-  isOpen,
-  onToggle,
-  typingSpeed,
-  enableTypingAnimation,
-}: TerminalItemProps) {
-  const [hasTyped, setHasTyped] = useState(false)
-
-  // Reset typing state when closed
-  useEffect(() => {
-    if (!isOpen) {
-      setHasTyped(false)
-    }
-  }, [isOpen])
-
-  const handleTypingComplete = useCallback(() => {
-    setHasTyped(true)
-  }, [])
-
+function AccordionItem({ item, index, isOpen, onToggle }: AccordionItemProps) {
   return (
     <motion.div
       className={cn(
@@ -171,21 +77,8 @@ function TerminalItem({
             className="overflow-hidden"
           >
             <div className="px-4 pb-4 pl-11">
-              {/* Answer text */}
-              <div className="text-sm text-muted-foreground dark:text-muted-foreground leading-relaxed pl-2 border-l-2 border-border">
-                {enableTypingAnimation && !hasTyped ? (
-                  <TypingText
-                    text={item.answer}
-                    speed={typingSpeed}
-                    isActive={isOpen}
-                    onComplete={handleTypingComplete}
-                  />
-                ) : (
-                  <>
-                    <span className="font-mono">{item.answer}</span>
-                    <span className="animate-blink text-primary ml-0.5">▌</span>
-                  </>
-                )}
+              <div className="text-sm text-muted-foreground leading-relaxed pl-2 border-l-2 border-border">
+                {item.answer}
               </div>
             </div>
           </motion.div>
@@ -196,13 +89,13 @@ function TerminalItem({
 }
 
 /**
- * Terminal-styled accordion for FAQ section with CRT aesthetics
+ * Clean accordion for FAQ section
  */
 export function TerminalAccordion({
   items,
   className,
-  typingSpeed = 30,
-  enableTypingAnimation = true,
+  typingSpeed: _typingSpeed,
+  enableTypingAnimation: _enableTypingAnimation,
 }: TerminalAccordionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
 
@@ -220,24 +113,15 @@ export function TerminalAccordion({
         className
       )}
     >
-      {/* Window dots (dark only) */}
-      <div className="px-4 pt-3 pb-1 gap-1.5 opacity-40 hidden dark:flex">
-        <div className="w-3 h-3 rounded-full bg-destructive/80" />
-        <div className="w-3 h-3 rounded-full bg-accent/80" />
-        <div className="w-3 h-3 rounded-full bg-primary/80" />
-      </div>
-
       {/* Accordion items */}
       <div className="relative">
         {items.map((item, index) => (
-          <TerminalItem
+          <AccordionItem
             key={index}
             item={item}
             index={index}
             isOpen={openIndex === index}
             onToggle={() => handleToggle(index)}
-            typingSpeed={typingSpeed}
-            enableTypingAnimation={enableTypingAnimation}
           />
         ))}
       </div>

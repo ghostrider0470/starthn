@@ -30,24 +30,13 @@ export function SideNavigation({
                 className={cn(
                     'relative overflow-hidden backdrop-blur-md',
                     'py-2 px-3',
-                    // Light: frosted glass pill
                     'bg-card/75 border border-border rounded-xl shadow-sm',
-                    // Dark: CRT terminal
-                    'dark:bg-background/85 dark:border-primary/20 dark:rounded-sm dark:shadow-none',
-                    'dark:font-mono'
+                    'dark:bg-background/85 dark:border-primary/20'
                 )}
                 style={{
                     boxShadow: 'var(--nav-shadow)',
                 }}
             >
-                {/* Scanline overlay — dark mode only */}
-                <div
-                    className="absolute inset-0 pointer-events-none opacity-[0.04] z-10 hidden dark:block"
-                    style={{
-                        backgroundImage:
-                            'repeating-linear-gradient(0deg, transparent 0px, transparent 2px, rgba(255,255,255,0.5) 2px, rgba(255,255,255,0.5) 4px)',
-                    }}
-                />
 
                 {/* Navigation rows */}
                 <div className="relative z-20 flex flex-col">
@@ -61,12 +50,10 @@ export function SideNavigation({
                                 onClick={() => scrollToSection(id)}
                                 className={cn(
                                     'group relative flex items-center gap-1.5 text-left',
-                                    'py-1.5 px-2 -mx-1 rounded-[2px]',
+                                    'py-1.5 px-2 -mx-1 rounded-lg',
                                     'transition-all duration-300 ease-out',
                                     'whitespace-nowrap',
-                                    // Light: subtle bg on active
-                                    isActive && 'bg-secondary dark:bg-primary/10',
-                                    'dark:rounded-[2px] rounded-lg'
+                                    isActive && 'bg-secondary dark:bg-primary/10'
                                 )}
                                 aria-label={label}
                             >
@@ -87,18 +74,6 @@ export function SideNavigation({
                                     />
                                 )}
 
-                                {/* > cursor — dark mode only */}
-                                <span
-                                    className={cn(
-                                        'text-[11px] w-3 shrink-0 transition-opacity duration-200 hidden dark:inline',
-                                        isActive
-                                            ? 'text-primary opacity-100'
-                                            : 'text-primary/0 group-hover:text-primary/60 group-hover:opacity-100'
-                                    )}
-                                >
-                                    {'>'}
-                                </span>
-
                                 {/* Section number — hidden on tablet, visible on lg+ */}
                                 <span
                                     className={cn(
@@ -112,15 +87,12 @@ export function SideNavigation({
                                     {num}
                                 </span>
 
-                                {/* // divider — dark mode only, hidden on tablet */}
-                                <span className="hidden dark:lg:inline text-[10px] text-muted-foreground/50 shrink-0">{'//'}</span>
-
                                 {/* Label */}
                                 <span
                                     className={cn(
                                         'text-xs uppercase tracking-wide transition-colors duration-300',
                                         isActive
-                                            ? 'text-foreground font-semibold dark:text-primary dark:drop-shadow-[0_0_4px_oklch(from_var(--primary)_l_c_h/0.5)]'
+                                            ? 'text-foreground font-semibold dark:text-primary'
                                             : 'text-muted-foreground group-hover:text-foreground dark:text-muted-foreground dark:group-hover:text-foreground'
                                     )}
                                 >
@@ -152,7 +124,7 @@ export function SideNavigation({
                         <span className="text-[9px] text-muted-foreground/70 dark:text-muted-foreground/60 tracking-widest uppercase">
                             {t('sideNav.scroll')}
                         </span>
-                        <span className="text-[9px] text-muted-foreground/70 dark:text-muted-foreground tabular-nums font-mono">
+                        <span className="text-[9px] text-muted-foreground/70 dark:text-muted-foreground tabular-nums">
                             {activeIndex + 1}/{sections.length}
                         </span>
                     </div>
@@ -161,7 +133,7 @@ export function SideNavigation({
 
             <style>{`
                 :root { --nav-shadow: 0 1px 3px oklch(from var(--foreground) l c h / 0.08), 0 4px 12px oklch(from var(--foreground) l c h / 0.04); }
-                .dark { --nav-shadow: inset 0 0 30px oklch(from var(--primary) l c h / 0.03), 0 0 20px oklch(from var(--foreground) l c h / 0.5); }
+                .dark { --nav-shadow: 0 1px 3px oklch(from var(--foreground) l c h / 0.12), 0 4px 16px oklch(from var(--foreground) l c h / 0.08); }
             `}</style>
         </nav>
     )

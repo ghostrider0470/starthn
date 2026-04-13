@@ -1,40 +1,9 @@
-import { useEffect, useState, useRef } from 'react'
 import { Globe, Clock, Code, Layers, ArrowUpRight } from 'lucide-react'
 import { motion } from 'motion/react'
 import { Trans, useTranslation } from 'react-i18next'
 import { designSystem } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
-import { CRTCounter } from './CRTCounter'
 import { useScrollReveal } from '@/hooks/useScrollReveal'
-import { useCRTEffect } from '@/hooks/useCRTEffect'
-
-// ---------------------------------------------------------------------------
-// useInView: lightweight intersection hook for per-stat count-up triggers
-// ---------------------------------------------------------------------------
-function useInView(threshold = 0.3) {
-  const [inView, setInView] = useState(false)
-  const ref = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    const el = ref.current
-    if (!el) return
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setInView(true)
-          observer.unobserve(entry.target)
-        }
-      },
-      { threshold }
-    )
-
-    observer.observe(el)
-    return () => observer.disconnect()
-  }, [threshold])
-
-  return { ref, inView }
-}
 
 // ---------------------------------------------------------------------------
 // Data moved into component body for i18n
@@ -69,19 +38,10 @@ const cardVariants = {
 export function GlobalCredibilitySection() {
   const { t } = useTranslation('landing')
 
-  const { ref: sectionRef, isInView } = useScrollReveal({
+  const { ref: sectionRef } = useScrollReveal({
     threshold: 0.2,
     rootMargin: '-100px',
   })
-
-  useCRTEffect({
-    sectionId: 'credibility',
-    intensity: 'subtle',
-    isInView,
-  })
-
-  // Single inView for the entire stats strip so counters start together
-  const { ref: statsRef, inView: statsInView } = useInView(0.15)
 
   // Data arrays moved here for i18n
   const stats = [
@@ -118,14 +78,6 @@ export function GlobalCredibilitySection() {
       )}
     >
       {/* ── Dark-only background decorations ───────────────────────── */}
-      <div className="absolute inset-0 bg-grid-pattern opacity-[0.02] pointer-events-none hidden dark:block" />
-      <div
-        className="absolute inset-0 pointer-events-none opacity-[0.015] hidden dark:block"
-        style={{
-          backgroundImage:
-            'repeating-linear-gradient(0deg, transparent 0px, transparent 2px, rgba(0,0,0,0.3) 2px, rgba(0,0,0,0.3) 4px)',
-        }}
-      />
       <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl hidden dark:block" />
 
       {/* ── Container ──────────────────────────────────────────────── */}
@@ -144,21 +96,16 @@ export function GlobalCredibilitySection() {
             ease: designSystem.animation.motion.ease.out,
           }}
         >
-          {/* Light subtitle */}
-          <span className="text-sm font-medium uppercase tracking-widest text-muted-foreground/80 mb-3 block dark:hidden">
+          <span className="text-sm font-medium uppercase tracking-widest text-muted-foreground/80 mb-3 block">
             {t('credibility.subtitle')}
           </span>
 
           <h2
             className={cn(
               designSystem.typography.heading.h1,
-              'landing-section-heading text-4xl md:text-5xl font-bold text-foreground dark:text-foreground'
+              'landing-section-heading text-4xl md:text-5xl font-bold text-foreground'
             )}
           >
-            {/* Dark monospace marker */}
-            <span className="font-mono text-primary/70 text-2xl mb-2 hidden dark:block">
-              {t('credibility.commentMarker')}
-            </span>
             <Trans
               t={t}
               i18nKey="credibility.title"
@@ -187,7 +134,6 @@ export function GlobalCredibilitySection() {
 
         {/* ── Stats Strip ────────────────────────────────────────── */}
         <motion.div
-          ref={statsRef}
           className={cn(
             'rounded-2xl p-5 sm:p-6 mb-14 md:mb-16',
             'grid grid-cols-2 lg:grid-cols-4',
@@ -217,14 +163,8 @@ export function GlobalCredibilitySection() {
               )}
             >
               <stat.icon className="h-5 w-5 mb-2 text-muted-foreground/80 dark:text-primary/70" />
-              <div className="text-3xl md:text-4xl font-bold text-foreground dark:text-primary font-mono tabular-nums">
-                <CRTCounter
-                  value={stat.value}
-                  suffix={stat.suffix}
-                  duration={1500 + i * 150}
-                  startCounting={statsInView}
-                  glitchIntensity="none"
-                />
+              <div className="text-3xl md:text-4xl font-bold text-foreground dark:text-primary tabular-nums">
+                {stat.value}{stat.suffix}
               </div>
               <span className="text-sm text-muted-foreground dark:text-muted-foreground mt-1 text-center">
                 {stat.label}
@@ -261,7 +201,7 @@ export function GlobalCredibilitySection() {
                 className={cn(
                   'text-xs font-medium uppercase tracking-wider block mb-3',
                   'text-muted-foreground/80',
-                  'dark:text-primary/70 dark:font-mono'
+                  'dark:text-primary/70'
                 )}
               >
                 {card.label}

@@ -8,7 +8,6 @@ import { designSystem } from '@/lib/design-system'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
 import { useStaggeredReveal } from '@/hooks/useScrollReveal'
-import { useCRTEffect } from '@/hooks/useCRTEffect'
 
 // Animation variants for staggered cards
 const containerVariants = {
@@ -186,34 +185,17 @@ export function ServicesHexGrid() {
   ]
 
   // Staggered reveal for the grid
-  const { containerRef, isInView } = useStaggeredReveal({
+  const { containerRef } = useStaggeredReveal({
     childCount: services.length,
     staggerDelay: 150,
     threshold: 0.2,
     rootMargin: '-100px',
   })
 
-  // Trigger CRT glitch when section becomes visible
-  useCRTEffect({
-    sectionId: 'services',
-    intensity: 'medium',
-    isInView,
-  })
-
   return (
     <section className="relative py-24 bg-gradient-to-b from-background via-primary/[0.04] to-background dark:from-background dark:via-background dark:to-background overflow-hidden">
-      {/* Background decorative elements (dark only) */}
-      <div className="absolute inset-0 bg-grid-pattern opacity-[0.02] pointer-events-none hidden dark:block" />
+      {/* Background decorative elements */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl hidden dark:block" />
-
-      {/* Scanline overlay for CRT feel (dark only) */}
-      <div
-        className="absolute inset-0 pointer-events-none opacity-[0.015] hidden dark:block"
-        style={{
-          backgroundImage:
-            'repeating-linear-gradient(0deg, transparent 0px, transparent 2px, rgba(0,0,0,0.3) 2px, rgba(0,0,0,0.3) 4px)',
-        }}
-      />
 
       {/* Container - centered, full width */}
       <div className="container mx-auto px-6 lg:px-8 relative z-30 max-w-7xl">
@@ -229,18 +211,15 @@ export function ServicesHexGrid() {
               ease: designSystem.animation.motion.ease.out,
             }}
           >
-            <span className="text-sm font-medium uppercase tracking-widest text-muted-foreground/80 mb-3 block dark:hidden">
+            <span className="text-sm font-medium uppercase tracking-widest text-muted-foreground/80 mb-3 block">
               {t('services.subtitle')}
             </span>
             <h2
               className={cn(
                 designSystem.typography.heading.h1,
-                'landing-section-heading text-4xl md:text-5xl font-bold text-foreground dark:text-foreground'
+                'landing-section-heading text-4xl md:text-5xl font-bold text-foreground'
               )}
             >
-              <span className="font-mono text-primary/70 text-2xl mb-2 hidden dark:block">
-                {t('services.commentMarker')}
-              </span>
               {t('services.title')}
             </h2>
             <p className={cn(designSystem.typography.body.large, 'landing-section-lead text-muted-foreground dark:text-muted-foreground')}>
@@ -295,13 +274,6 @@ export function ServicesHexGrid() {
 
             {/* Gradient pulse overlay (dark only) */}
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent animate-pulse hidden dark:block" />
-
-            {/* Terminal-style header decoration (dark only) */}
-            <div className="absolute top-4 left-4 gap-1.5 opacity-40 hidden dark:flex">
-              <div className="w-3 h-3 rounded-full bg-destructive" />
-              <div className="w-3 h-3 rounded-full bg-accent" />
-              <div className="w-3 h-3 rounded-full bg-primary" />
-            </div>
 
             <div className="relative z-10">
               <h3

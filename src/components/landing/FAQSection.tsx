@@ -6,7 +6,6 @@ import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
 import { TerminalAccordion } from './TerminalAccordion'
 import { useScrollReveal } from '@/hooks/useScrollReveal'
-import { useCRTEffect } from '@/hooks/useCRTEffect'
 import { FileText, MessageSquare } from 'lucide-react'
 import { Trans, useTranslation } from 'react-i18next'
 import { featureFlags } from '@/lib/feature-flags'
@@ -49,28 +48,14 @@ export function FAQSection() {
     },
   ]
 
-  // Section reveal and CRT effect
-  const { ref: sectionRef, isInView } = useScrollReveal({
+  // Section reveal
+  const { ref: sectionRef } = useScrollReveal({
     threshold: 0.2,
     rootMargin: '-100px',
   })
 
-  useCRTEffect({
-    sectionId: 'faq',
-    intensity: 'subtle',
-    isInView,
-  })
-
   return (
     <section className="py-24 bg-muted/30 relative overflow-hidden">
-      {/* Subtle scanline overlay */}
-      <div
-        className="absolute inset-0 pointer-events-none opacity-[0.02] hidden dark:block"
-        style={{
-          backgroundImage:
-            'repeating-linear-gradient(0deg, transparent 0px, transparent 2px, rgba(0,0,0,0.3) 2px, rgba(0,0,0,0.3) 4px)',
-        }}
-      />
 
       <div
         ref={sectionRef as React.RefObject<HTMLDivElement>}
@@ -86,8 +71,7 @@ export function FAQSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            {/* Light subtitle */}
-            <span className="text-sm font-medium uppercase tracking-widest text-muted-foreground/80 mb-3 block dark:hidden">
+            <span className="text-sm font-medium uppercase tracking-widest text-muted-foreground/80 mb-3 block">
               {t('faq.subtitle')}
             </span>
 
@@ -97,10 +81,6 @@ export function FAQSection() {
                 'landing-section-heading text-4xl md:text-5xl font-bold'
               )}
             >
-              {/* Dark monospace marker */}
-              <span className="font-mono text-primary/70 text-2xl mb-2 hidden dark:block">
-                {t('faq.commentMarker')}
-              </span>
               <Trans
                 t={t}
                 i18nKey="faq.title"
@@ -148,14 +128,7 @@ export function FAQSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            {/* Terminal dots (dark only) */}
-            <div className="absolute top-4 left-4 gap-1.5 opacity-40 hidden dark:flex">
-              <div className="w-3 h-3 rounded-full bg-destructive" />
-              <div className="w-3 h-3 rounded-full bg-accent" />
-              <div className="w-3 h-3 rounded-full bg-primary" />
-            </div>
-
-            <div className="relative z-10 mt-4">
+            <div className="relative z-10">
               <h3
                 className={cn(
                   designSystem.typography.heading.h3,
