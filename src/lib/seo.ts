@@ -55,7 +55,7 @@ export interface PageSeoDocument {
   twitter: Record<string, string>
 }
 
-const DEFAULT_SITE_NAME = 'Horizon Tech'
+const DEFAULT_SITE_NAME = 'Start HN'
 const DEFAULT_OG_IMAGE = '/clean-square.png'
 
 function normalizePath(pathname: string): string {
