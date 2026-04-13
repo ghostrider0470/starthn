@@ -1,206 +1,206 @@
 {
   "hero": {
-    "title": "Inženjerski sistemi koji se skaliraju",
-    "subtitle": "Enterprise softver · AI i mašinsko učenje · Cloud infrastruktura · IoT & Edge",
-    "description": "Od inteligentne automatizacije do cloud-native platformi, dizajniramo i isporučujemo tehnologiju koja pokreće ambiciozne biznise — na vrijeme, u okviru budžeta, u velikom obimu.",
+    "title": "Računovodstvo koje razumije vaš posao",
+    "subtitle": "Knjigovodstvo · Porezno savjetovanje · Virtualni CFO · Finansijsko savjetovanje",
+    "description": "Od urednih knjiga do strateških finansijskih planova, pružamo stručnu računovodstvenu podršku koja potiče održivi rast — usklađenu, pouzdanu i prilagođenu vašim ciljevima.",
     "cta": {
-      "primary": "Pokreni projekat",
-      "secondary": "Pogledajte naš rad"
+      "primary": "Počnite danas",
+      "secondary": "Naše usluge"
     },
-    "trustLine": "Pouzdani od strane kompanija širom svijeta"
+    "trustLine": "Povjerenje preduzeća širom Bosne i Hercegovine"
   },
   "services": {
     "subtitle": "Naše usluge",
-    "title": "Inženjering punog spektra",
-    "description": "Šest oblasti prakse. Jedan tim. Svaki sloj vašeg tehnološkog sloja — od edge uređaja do enterprise kontrolnih tabli.",
+    "title": "Sveobuhvatno računovodstvo",
+    "description": "Šest uslužnih oblasti. Jedan posvećen tim. Svaki aspekt vaših finansijskih operacija — od svakodnevnog knjigovodstva do dugoročne finansijske strategije.",
     "commentMarker": "USLUGE",
     "items": {
       "customSoftware": {
-        "title": "Razvoj prilagođenog softvera",
-        "description": "Moderne aplikacije izgrađene na mikroservisima, API-jima i cloud-native arhitekturi."
+        "title": "Knjigovodstvo i računovodstvo",
+        "description": "Tačno i pravovremeno vođenje poslovnih knjiga, zakonskih finansijskih izvještaja i obračuna u potpunoj usklađenosti s lokalnim propisima."
       },
       "aiMl": {
-        "title": "AI, ML i poslovna inteligencija",
-        "description": "AI/ML pipeline-ovi, Power BI kontrolne table i napredna analitika koja pretvara podatke u odluke."
+        "title": "Porezno praćenje i savjetovanje",
+        "description": "Kontinuirano praćenje poreznih propisa, proaktivno savjetovanje o usklađenosti i stručno vođenje radi minimiziranja poreznog opterećenja uz puno zakonsko poštovanje."
       },
       "cloud": {
-        "title": "Cloud arhitektura i infrastruktura",
-        "description": "Multi-cloud infrastruktura sa ugrađenim kontejnerima, serverless i globalnom skalabilnošću."
+        "title": "Virtualni CFO",
+        "description": "Strateška finansijska podrška na zahtjev — analize, izvještaji, budžetiranje i planiranje koji vam daju uvid na izvršnom nivou bez troška stalnog zaposlenja."
       },
       "iot": {
-        "title": "IoT i edge računarstvo",
-        "description": "Povezani uređaji, digitalni blizanci i edge computing za Industriju 4.0."
+        "title": "Poslovno savjetovanje",
+        "description": "Praktični savjeti o poslovnoj strukturi, strategiji rasta, finansijskim odlukama i operativnoj efikasnosti prilagođeni vašoj industriji i ciljevima."
       },
       "devops": {
-        "title": "DevOps i platformsko inženjerstvo",
-        "description": "CI/CD cjevovodi, infrastruktura kao kod i posmatranost od commit-a do produkcije."
+        "title": "Finansijsko izvještavanje",
+        "description": "Jasni i tačni finansijski izvještaji i menadžerski izvještaji koji zadovoljavaju regulatorne standarde i daju vam pravu sliku o poslovnim rezultatima."
       },
       "digital": {
-        "title": "Digitalna transformacija i konsalting",
-        "description": "Strategija tehnologije, planovi modernizacije i praktično savjetovanje."
+        "title": "Edukacija i kursevi",
+        "description": "Radionice i kursevi iz računovodstva, poreza i finansijskog upravljanja — osposobljavamo vas i vaš tim za bolje finansijske odluke."
       }
     },
     "cta": {
-      "title": "Hajde da napravimo nešto ozbiljno",
-      "description": "Od razvoja softvera po mjeri i rješenja pokretanih umjetnom inteligencijom do cloud infrastrukture i automatizacije — pružamo sveobuhvatne tehnološke usluge prilagođene vašim zahtjevima.",
-      "primary": "Pokrenite svoj projekat",
-      "secondary": "Zakazivanje konsultacija"
+      "title": "Podržimo vaš posao zajedno",
+      "description": "Od svakodnevnog knjigovodstva i porezne usklađenosti do usluga virtualnog CFO-a i finansijske edukacije — pružamo sveobuhvatna računovodstvena rješenja prilagođena vašem poslovanju.",
+      "primary": "Kontaktirajte nas",
+      "secondary": "Zakažite konsultaciju"
     },
-    "learnMore": "Uči više"
+    "learnMore": "Saznajte više"
   },
   "credibility": {
-    "subtitle": "Naš dosadašnji rad",
-    "title": "Rezultati, ne <gradient>obećanja</gradient>",
-    "titlePlain": "Rezultati, ne obećanja",
+    "subtitle": "Zašto odabrati nas",
+    "title": "Iskustvo, ne <gradient>obećanja</gradient>",
+    "titlePlain": "Iskustvo, ne obećanja",
     "commentMarker": "OUR_TRACK_RECORD",
-    "description": "Od Sarajeva do Osla, Amsterdama i Berlina. Enterprise sistemi isporučeni na vrijeme, svaki put.",
+    "description": "Sjedište u Sarajevu, CRP Inkubator. Certificirani računovođe koji pružaju tačnost, integritet i rezultate za preduzeća svih veličina.",
     "stats": {
       "experience": "Godine ukupnog iskustva",
-      "countries": "Zemlje kojima se služi",
-      "systems": "Isporučeni sistemi",
-      "industries": "Industrije kojima se pruža"
+      "countries": "Certificiranih računovođa",
+      "systems": "Opsluženih klijenata",
+      "industries": "Pokrivenih industrija"
     },
     "proofCards": {
       "atlascopco": {
-        "label": "Cloud IAM za Atlas Copco",
-        "outcome": "Arhitektirao je prvu cloud-baziranu One Identity infrastrukturu za Atlas Copco na Azure Kubernetesu, smanjujući troškove uz održavanje usklađenosti preduzeća."
+        "label": "Certificirani i regulirani",
+        "outcome": "Svi naši računovođe posjeduju priznate profesionalne certifikate i rade pod nadzorom regulatornih tijela u Bosni i Hercegovini, osiguravajući potpunu zakonsku usklađenost."
       },
       "orange": {
-        "label": "Orange platforma za sajber odbranu",
-        "outcome": "Razvio Azure Kubernetes infrastrukturu, CI/CD pipeline-ove i prilagođenu ServiceNow integraciju za vodeću evropsku firmu za sajber sigurnost."
+        "label": "Evidencija porezne usklađenosti",
+        "outcome": "Naši klijenti imaju 100% evidenciju pravovremenog predavanja poreznih prijava. Proaktivno pratimo regulatorne izmjene kako nikada ne biste bili suočeni s kaznama."
       },
       "telecom": {
-        "label": "Telekom GIS i AR platforma",
-        "outcome": "Izgrađena GIS platforma koja mapira podzemne komunalne instalacije širom Njemačke sa detekcijom sudara koja sprječava višemilionsku štetu na infrastrukturi."
+        "label": "Specijalisti za MSP i startupe",
+        "outcome": "Bogato iskustvo u podršci malim i srednjim preduzećima od osnivanja do rasta — registracija, prve knjige i sve rastuće potrebe za usklađenošću."
       },
       "iot": {
-        "label": "Cloud IoT i edge platforma",
-        "outcome": "Azure IoT Hub upravlja hiljadama uređaja, Synapse obrađuje milijarde redova telemetrije, a edge agregacija smanjuje troškove poruka za ~90%."
+        "label": "Rezultati virtualnog CFO-a",
+        "outcome": "Preduzeća koja koriste naš Virtual CFO servis dosljedno poboljšavaju vidljivost novčanog toka, smanjuju nepotrebne troškove i postižu sigurnije finansijsko planiranje."
       },
       "drone": {
-        "label": "Autonomna platforma dronova",
-        "outcome": "Prilagođeni kontroler leta sa 4G-to-Azure IoT Hub mostom koji omogućava autonomne BVLOS letove za praćenje poljoprivrede i isporuku tereta."
+        "label": "Tačno izvještavanje, svaki put",
+        "outcome": "Održavamo rigoroznu kontrolu kvaliteta svih finansijskih izvještaja — tačni, potpuni i isporučeni na vrijeme, u svakom izvještajnom periodu."
       },
       "payment": {
-        "label": "Spašavanje platnog sistema",
-        "outcome": "Spašen neispravan platni gateway za norvešku mobilnu aplikaciju reverznim inženjeringom nedokumentovanog naslijeđenog koda. Nema zastoja u plaćanju nakon modernizacije."
+        "label": "Plaće i radno pravo",
+        "outcome": "Potpuna obrada plaća u skladu s radnim zakonodavstvom BiH, uključujući obračun plata, doprinosa i radne dokumentacije — bez grešaka, na vrijeme."
       },
       "game": {
-        "label": "AAA alati za razvoj igara",
-        "outcome": "Napravio sam Maya plugin koji je skraćivao vrijeme 3D modeliranja i animacije za 50% u velikom AAA studiju, usvojen kao standardni alat u produkcijskom procesu."
+        "label": "Edukacija i osnaživanje",
+        "outcome": "Naši programi obuke usavršili su desetine vlasnika preduzeća i osoblja u finansijama, poboljšavajući internu finansijsku pismenost i smanjujući skupe greške u računovodstvu."
       },
       "social": {
-        "label": "Društvena platforma zasnovana na lokaciji",
-        "outcome": "Dizajnirana aplikacija za upoznavanje za španski noćni život sa geolokacijskim usklađivanjem, porukama u realnom vremenu i push notifikacijama za britanskog klijenta."
+        "label": "Sarajevski poslovni partner",
+        "outcome": "Sa sjedištem u CRP Inkubatoru, aktivni smo dio sarajevskog poduzetničkog ekosistema — podržavamo lokalne osnivače od prvog dana."
       },
       "iga": {
-        "label": "Multi-Tenant IGA Platforma",
-        "outcome": "Izgradio sam core backend za cloud-native platformu za upravljanje identitetima koja služi Fortune 500 klijentima sa prilagođenim ASP.NET Core Identity za NoSQL na enterprise nivou."
+        "label": "Računovodstvo za grupe preduzeća",
+        "outcome": "Upravljamo složenim strukturama s više entiteta i grupnim konsolidacijama za veća preduzeća, pružajući objedinjenu sliku finansijskog učinka cijele grupe."
       }
     },
     "differentiators": {
       "euAdjacent": {
-        "title": "Globalna isporuka u blizini EU-a",
-        "description": "CET radno vrijeme sa iskustvom iz Norveške, Holandije, Njemačke i šire."
+        "title": "Lokalna stručnost, EU osvještenost",
+        "description": "Duboko poznavanje poreznog i računovodstvenog prava BiH, uz praćenje EU regulatornih trendova koji utječu na lokalna preduzeća."
       },
       "yourEngineers": {
-        "title": "Vaši inženjeri, ne dobavljač",
-        "description": "Posvećeni članovi tima ugrađeni u vaš radni proces i alate. Nema menadžera naloga, nema redova za tikete."
+        "title": "Vaši računovođe, ne call centar",
+        "description": "Posvećen tim koji izvana poznaje vaše poslovanje. Direktan kontakt s računovođom koji vodi vaše knjige — bez posrednika."
       },
       "hardwareToCloud": {
-        "title": "Hardver u Cloud",
-        "description": "Od ugrađenog firmware-a uređaja do enterprise Azure Synapse pipeline-ova. Full-stack softver na svakom sloju."
+        "title": "Od startupa do rastućeg preduzeća",
+        "description": "Od registracije prve firme i otvaranja knjiga do upravljanja financijama rastuće grupe preduzeća. Rastemo zajedno s vama."
       }
     }
   },
   "partners": {
-    "subtitle": "Technology Stack",
-    "title": "<gradient>Borbeni Testirani Stack</gradient>",
-    "titlePlain": "Borbeni Testirani Stack",
-    "commentMarker": "TECH_STACK",
-    "description": "Ne koristimo samo ove alate — isporučili smo proizvodne sisteme s njima. Od Microsoft Azure-a do Kubernetesa, naši inženjeri posjeduju stručnost iz stvarnog svijeta.",
+    "subtitle": "Standardi i alati",
+    "title": "Profesionalni <gradient>standardi</gradient>",
+    "titlePlain": "Profesionalni standardi",
+    "commentMarker": "STANDARDS_AND_TOOLS",
+    "description": "Radimo prema najvišim profesionalnim standardima, koristimo pouzdane računovodstvene programe i pratimo propise i tijela koji reguliraju našu djelatnost.",
     "categories": {
       "cloudInfra": {
-        "label": "Cloud i infrastruktura",
-        "description": "Multi-cloud arhitektura sa orkestracijom kontejnera i infrastrukturom kao kodom."
+        "label": "Regulatorna usklađenost",
+        "description": "Potpuna usklađenost s poreznim zakonodavstvom BiH, računovodstvenim standardima FBiH i relevantnim EU direktivama."
       },
       "frontend": {
-        "label": "Frontend",
-        "description": "Moderni sistemi komponenti sa sigurnošću slova i optimiziranim alatima za izradu."
+        "label": "Računovodstveni softveri",
+        "description": "Industrijski standardni programi za knjigovodstvo, obračun plaća i finansijsko izvještavanje."
       },
       "backend": {
-        "label": "Backend i API-ji",
-        "description": "Enterprise serverske platforme, sistemski jezici i moderni API paradigmi."
+        "label": "Porezi i plaće",
+        "description": "Specijalistički alati za tačne porezne obračune, obradu plaća i zakonsko podnošenje prijava."
       },
       "data": {
-        "label": "Podaci i skladištenje",
-        "description": "Relacijske, dokumentarne i memorijske memorije sa pretragom punog teksta."
+        "label": "Finansijsko izvještavanje",
+        "description": "Alati za izradu usklađenih finansijskih izvještaja i menadžerskih izvještaja."
       },
       "devops": {
-        "label": "DevOps i alati",
-        "description": "CI/CD pipeline-ovi, kontrola verzija i produktivnost developera."
+        "label": "Suradnja s klijentima",
+        "description": "Sigurne platforme za razmjenu dokumenata i komunikaciju za besprijekornu klijentsku uslugu."
       }
     },
-    "scanning": "FREKVENCIJE SKENIRANJA...",
+    "scanning": "PROVJERA USKLAĐENOSTI...",
     "summary": {
       "cloudNative": {
-        "title": "Cloud-Native po defaultu",
-        "description": "Svaki projekat je kontejnerizovan, CI/CD-vođen i od prvog dana izgrađen za horizontalnu skalu."
+        "title": "Uvijek usklađeni",
+        "description": "Kontinuirano pratimo regulatorne izmjene kako bi vaše poslovanje ostalo usklađeno bez potrebe da sami pratite svako novo pravilo."
       },
       "fullStack": {
-        "title": "Full-Stack Fluency",
-        "description": "Od React frontenda do .NET mikroservisa do Kubernetes klastera — jedan tim, od kraja do kraja."
+        "title": "Sveobuhvatna finansijska usluga",
+        "description": "Od otvaranja knjiga do strateškog finansijskog planiranja — jedan tim koji pokriva sve aspekte vaših finansijskih operacija."
       },
       "productionProven": {
-        "title": "Dokazano u proizvodnji",
-        "description": "Ovo nisu demo tehnologije. Svaki navedeni alat pokreće stvarne sisteme koji danas služe stvarnim korisnicima."
+        "title": "Dokazani rezultati",
+        "description": "Pravi rezultati za prava preduzeća. Naši klijenti nam povjeravaju svoje najosjetljivije finansijske podatke jer smo to povjerenje zaslužili."
       }
     },
     "logoRows": {
-      "row1Aria": "Tehnološki logotipi red 1",
-      "row2Aria": "Tehnološki logotipi red 2",
-      "row3Aria": "Tehnološki logotipi red 3"
+      "row1Aria": "Logotipi računovodstvenih softvera, red 1",
+      "row2Aria": "Logotipi profesionalnih certifikacija, red 2",
+      "row3Aria": "Logotipi regulatornih tijela, red 3"
     }
   },
   "faq": {
-    "subtitle": "Baza znanja",
+    "subtitle": "Česta pitanja",
     "title": "<gradient>Često postavljana pitanja</gradient>",
     "titlePlain": "Često postavljana pitanja",
     "commentMarker": "KNOWLEDGE_BASE",
-    "description": "Sve što trebate znati o radu sa Horizon Tech-om",
+    "description": "Sve što trebate znati o radu sa Start HN",
     "items": {
       "scope": {
-        "question": "Koji je vaš obim posla?",
-        "answer": "Isporučujemo sveobuhvatne tehnološke projekte: prilagođeni enterprise softver, AI/ML pipeline-ove, cloud infrastrukturu, IoT sisteme, DevOps automatizaciju i konsultantske usluge digitalne transformacije. Bilo da vam treba kompletna platforma izgrađena od nule ili ciljana integracija sa postojećim stackom, mi se bavimo arhitekturom, razvojem, testiranjem i implementacijom."
+        "question": "Kako mogu početi saradnju s vama?",
+        "answer": "Početak saradnje je jednostavan. Kontaktirajte nas za besplatnu uvodnu konsultaciju — upoznat ćemo se s vašim poslovanjem, trenutnim računovodstvenim postavkama i vašim potrebama. Nakon toga predložit ćemo odgovarajući paket usluga, dogovoriti preuzimanje postojeće dokumentacije i u roku od nekoliko dana vas u potpunosti uvesti u sistem. Nema dugoročnog vezivanja — radimo tako da zaslužimo vaše povjerenje svaki mjesec."
       },
       "stack": {
-        "question": "Koji je vaš osnovni tehnološki stack?",
-        "answer": "Naš osnovni stack se fokusira na enterprise platforme: Azure i AWS za cloud, .NET i Node.js za backend, React i Angular za frontend, Kubernetes i Docker za orkestraciju, te Terraform za infrastrukturu kao kod. Također intenzivno radimo sa Pythonom za AI/ML radna opterećenja, Power BI i Fabric za poslovnu inteligenciju, te PostgreSQL-om, SQL Serverom i MongoDB-om za podatke."
+        "question": "Kojim vrstama preduzeća pružate usluge?",
+        "answer": "Radimo s preduzećima svih veličina — od samostalnih poduzetnika i novoosnovannih startupa do etabliranih MSP-ova i grupacija s više entiteta. Posebnu stručnost imamo u maloprodaji, ugostiteljstvu, profesionalnim uslugama, građevinarstvu i e-trgovini, ali naš tim pokriva raznolike industrije širom Bosne i Hercegovine."
       },
       "enterprise": {
-        "question": "Kako vodite enterprise projekte?",
-        "answer": "Svaki angažman počinje fazom otkrivanja kako bi se definisao obim, arhitektura i prekretnice. Dobijate posvećen tim sa tehničkim vođom, redovnim pregledima prekretnica i direktnim pristupom inženjerima koji prave vaš sistem. Pratimo agilne sprintove demonstracijama sa zainteresovanim stranama, održavamo transparentne projektne table i pružamo sedmične izvještaje o napretku."
+        "question": "Da li vodite poreske prijave i usklađenost?",
+        "answer": "Da, u potpunosti. Upravljamo svim aspektima vaših poreznih obaveza: pripremom i podnošenjem PDV prijava, poreza na dobit, poreza na dohodak i svih ostalih zakonskih prijava prema propisima BiH i Federacije. Proaktivno pratimo regulatorne izmjene i savjetujemo vas čim promjena utječe na vaše poslovanje — da nikada ne budete zatečeni."
       },
       "support": {
-        "question": "Kako izgleda podrška nakon lansiranja?",
-        "answer": "Nudimo strukturirane nivoe podrške sa definisanim SLA-ovima, uključujući 24/7 nadzor, odgovor na incidente, optimizaciju performansi i iteraciju funkcionalnosti. Naši ugovori o podršci pokrivaju ispravke grešaka, sigurnosne zakrpe, skaliranje infrastrukture i proaktivne provjere zdravlja — prilagođene vašim zahtjevima za dostupnost i vrijeme odgovora."
+        "question": "Možete li biti naš Virtualni CFO?",
+        "answer": "Apsolutno. Naša usluga Virtualnog CFO-a daje vam pristup višoj finansijskoj stručnosti bez troška stalnog zaposlenja. Pružamo prognoze novčanog toka, planiranje budžeta, finansijsku analizu, izvještaje za upravu i strateške savjete — uz prisustvo na sastancima po potrebi. Idealno za rastuća preduzeća kojima je potrebno finansijsko vođstvo, a još nisu spremna za stalnog CFO-a."
       },
       "integration": {
-        "question": "Možete li se integrisati s našom postojećom infrastrukturom?",
-        "answer": "Apsolutno. Specijalizirani smo za modernizaciju naslijeđenog softvera, integracije sa API-jem i migracije hibridnog oblaka. Bilo da vam je potrebno povezivanje na lokalne ERP sisteme, migracija sa monolita na mikroservise ili povezivanje naslijeđenih baza podataka sa modernim frontendima, imamo priručnike za migraciju i iskustvo integracije da sve bude besprijekorno."
+        "question": "Koje računovodstvene programe koristite?",
+        "answer": "Radimo s vodećim računovodstvenim platformama koje se koriste u BiH i internacionalno, uključujući Pantheon, QuickBooks i Xero, kao i lokalne alate za zakonsko izvještavanje. Ako vaše preduzeće već koristi određenu platformu, uglavnom možemo raditi u njoj. Savjetujemo i pri odabiru softvera ako se postavljate po prvi put ili razmišljate o nadogradnji."
       },
       "industries": {
-        "question": "U kojim ste industrijama radili?",
-        "answer": "Naš tim je realizovao projekte u fintechu, zdravstvu, logistici, e-trgovini, energetici i državnim sektorima. Razumijemo zahtjeve specifične za industriju kao što su PCI-DSS za plaćanja, HIPAA razmatranja za zdravstvene podatke, usklađenost sa GDPR-om za tržišta EU i telemetriju u realnom vremenu za industrijski IoT."
+        "question": "Kako su cijene vaših usluga?",
+        "answer": "Naše cijene su transparentne i temelje se na obimu i složenosti vaših potreba. Većina klijenata ima fiksnu mjesečnu naknadu — tačno znate što ćete platiti svaki mjesec. Nudimo pakete samo za knjigovodstvo, potpuno računovodstvo, poreznu usklađenost i usluge Virtualnog CFO-a. Nakon uvodne konsultacije dostavit ćemo jasan ponudbeni prijedlog, bez skrivenih troškova."
       },
       "engagement": {
-        "question": "Kako izgleda proces angažmana?",
-        "answer": "Sve počinje pozivom za otkrivanje kako biste razumjeli svoje ciljeve i tehničko okruženje. Nakon toga, isporučujemo dokument sa preporukama za arhitekturu, vremenskim okvirom i analizom investicija. Nakon odobrenja, započinjemo sa posvećenim timom, uvodimo u vaše alate i radne tokove, te započinjemo prvi sprint za nekoliko dana."
+        "question": "Da li nudite edukaciju ili obuku za preduzeća?",
+        "answer": "Da. Organiziramo redovne radionice i kurseve koji pokrivaju osnove računovodstva za poduzetnike, porezne obaveze za mala preduzeća, obračun plaća i radno pravo, te tumačenje finansijskih izvještaja. Dostupni su kao grupne sesije i kao individualna obuka po mjeri za vaš tim. Kontaktirajte nas za aktuelni raspored ili za dogovor posebne sesije."
       }
     },
-    "stillHaveQuestions": "Još imate pitanja?",
-    "ctaDescription": "Imate li neki projekat na umu? Hajde da pričamo o obimu, vremenskom okviru i budžetu.",
-    "readCaseStudies": "Pročitajte naše studije slučaja",
-    "scheduleCall": "Zakažite poziv"
+    "stillHaveQuestions": "Imate još pitanja?",
+    "ctaDescription": "Jeste li spremni srediti svoje finansije? Hajde da razgovaramo o tome šta vam treba.",
+    "readCaseStudies": "Pogledajte kako pomažemo",
+    "scheduleCall": "Zakažite konsultaciju"
   }
 }
