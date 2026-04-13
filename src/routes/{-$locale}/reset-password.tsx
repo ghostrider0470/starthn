@@ -310,7 +310,7 @@ function ResetPasswordPage() {
         <p className="mt-6 text-center text-sm text-muted-foreground">
           {t('reset.form.needHelp')}{' '}
           <a
-            href="mailto:support@horizonhub.tech"
+            href="mailto:info@starthn.ba"
             className="underline underline-offset-4 hover:text-primary"
           >
             {t('reset.form.contactSupport')}

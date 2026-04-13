@@ -30,8 +30,8 @@ interface CRTSoundResult {
 }
 
 // Storage key for user preference
-const STORAGE_KEY = 'horizon-crt-sound-enabled'
-const VOLUME_KEY = 'horizon-crt-sound-volume'
+const STORAGE_KEY = 'starthn-crt-sound-enabled'
+const VOLUME_KEY = 'starthn-crt-sound-volume'
 
 /**
  * Web Audio API-based CRT sound effects hook

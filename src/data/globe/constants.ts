@@ -8,7 +8,7 @@ export const CONTINENT_BOUNDS = {
   oceania: { minLat: -50, maxLat: -5, minLng: 110, maxLng: 180 }
 }
 
-// Continent colors - inspired by Horizon Tech logo (orange to purple gradient)
+// Continent colors - inspired by Start HN brand (orange to purple gradient)
 export const CONTINENT_COLORS = {
   northAmerica: '#ff6b35', // vibrant orange
   southAmerica: '#f97316', // deep orange

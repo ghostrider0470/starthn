@@ -21,7 +21,7 @@ const team: TeamMember[] = [
     avatar: 'HK',
     bio: 'Full-stack engineer turned entrepreneur with a passion for building scalable software solutions. Leads Start HN\'s vision for delivering world-class digital products.',
     expertise: ['Cloud Architecture', 'Enterprise Strategy', 'Technical Leadership'],
-    email: 'hamza@horizonhub.tech',
+    email: 'hamza@starthn.ba',
     linkedin: '#',
   },
   {
@@ -30,7 +30,7 @@ const team: TeamMember[] = [
     avatar: 'DO',
     bio: 'Seasoned architect with deep expertise in distributed systems and cloud-native applications. Drives technical excellence across all Start HN projects.',
     expertise: ['Microservices', 'DevOps', 'System Design'],
-    email: 'daniel@horizonhub.tech',
+    email: 'daniel@starthn.ba',
     linkedin: '#',
   },
   {
@@ -39,7 +39,7 @@ const team: TeamMember[] = [
     avatar: 'AP',
     bio: 'Specializes in designing complex enterprise integrations and modernizing legacy systems. Bridges the gap between business requirements and technical implementation.',
     expertise: ['API Design', 'Cloud Migration', 'Event-Driven Architecture'],
-    email: 'aisha@horizonhub.tech',
+    email: 'aisha@starthn.ba',
     linkedin: '#',
   },
   {
@@ -52,7 +52,7 @@ const team: TeamMember[] = [
       'Platform Engineering',
       'Team Leadership',
     ],
-    email: 'marcus@horizonhub.tech',
+    email: 'marcus@starthn.ba',
     linkedin: '#',
   },
   {

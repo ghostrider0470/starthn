@@ -1,4 +1,4 @@
--- D1 Schema: 19 tables for Horizon Tech backend
+-- D1 Schema: 19 tables for Start HN backend
 
 -- Core entities
 CREATE TABLE IF NOT EXISTS users (

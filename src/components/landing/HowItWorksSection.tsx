@@ -8,7 +8,7 @@ const steps = [
     title: 'Clone the Repository',
     description:
       'Get started in seconds with a simple git clone command. All dependencies and configurations are ready to go.',
-    code: 'git clone https://github.com/horizon-tech/starter',
+    code: 'git clone https://github.com/ghostrider0470/starthn',
   },
   {
     number: '02',

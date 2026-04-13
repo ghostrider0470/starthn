@@ -27,7 +27,7 @@ function isTheme(value: string | null): value is Theme {
 export function ThemeProvider({
   children,
   defaultTheme = 'system',
-  storageKey = 'horizon-tech-theme',
+  storageKey = 'starthn-theme',
   ...props
 }: ThemeProviderProps) {
   const [theme, setTheme] = useState<Theme>(

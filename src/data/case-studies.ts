@@ -20,11 +20,11 @@ export const caseStudies: CaseStudy[] = [
     description:
       'Replaced overnight settlement batches with an event-driven ledger pipeline that supports near real-time posting, reconciliation, and auditability.',
     executiveSummary:
-      'A regional bank needed to retire a legacy core system that depended on nightly settlement windows and manual exception handling. Horizon delivered a phased modernization around a double-entry event ledger, preserving regulatory controls while cutting reconciliation latency from hours to minutes.',
+      'A regional bank needed to retire a legacy core system that depended on nightly settlement windows and manual exception handling. Start HN delivered a phased modernization around a double-entry event ledger, preserving regulatory controls while cutting reconciliation latency from hours to minutes.',
     challenge:
       'The client operated on a monolithic COBOL-based ledger where account balances were finalized during nightly jobs. Peak transaction periods regularly exceeded batch windows, causing delayed balances, manual reversals, and elevated operational risk. Product teams could not launch instant payment features because downstream risk and compliance systems only received delayed snapshots.',
     solution:
-      'Horizon introduced an append-only event stream for ledger mutations and built idempotent posting services behind a domain API. A reconciliation service continuously compared source-of-truth postings with downstream account projections, while automated exception workflows replaced spreadsheet-based incident handling. The rollout used shadow writes and dual-run comparisons before cutover to reduce migration risk.',
+      'Start HN introduced an append-only event stream for ledger mutations and built idempotent posting services behind a domain API. A reconciliation service continuously compared source-of-truth postings with downstream account projections, while automated exception workflows replaced spreadsheet-based incident handling. The rollout used shadow writes and dual-run comparisons before cutover to reduce migration risk.',
     architectureDecisions: [
       {
         decision: 'Append-only event model for all debit/credit movements',
@@ -85,11 +85,11 @@ export const caseStudies: CaseStudy[] = [
     description:
       'Implemented a triage orchestration layer that normalized intake signals from multiple EHR systems and prioritized high-risk cases in real time.',
     executiveSummary:
-      'A care provider managing urgent and outpatient facilities struggled with fragmented intake workflows and delayed escalations. Horizon built an integration and rules engine that standardized triage events, improving response times while preserving HIPAA controls and clinician override paths.',
+      'A care provider managing urgent and outpatient facilities struggled with fragmented intake workflows and delayed escalations. Start HN built an integration and rules engine that standardized triage events, improving response times while preserving HIPAA controls and clinician override paths.',
     challenge:
       'Incoming patient data arrived through incompatible EHR integrations, call-center forms, and device feeds. Nurses spent significant time manually reconciling records before escalation, and high-risk signals could be delayed when departments used different priority criteria. Leadership needed measurable response-time improvements without replacing core clinical systems.',
     solution:
-      'Horizon delivered an event ingestion service with schema validation and PHI-safe routing. A configurable triage rules engine scored events using symptoms, vitals, and patient history, then published escalation tasks to clinical teams through existing workflows. Every automated recommendation remained explainable, and clinicians retained final decision control with full audit trails.',
+      'Start HN delivered an event ingestion service with schema validation and PHI-safe routing. A configurable triage rules engine scored events using symptoms, vitals, and patient history, then published escalation tasks to clinical teams through existing workflows. Every automated recommendation remained explainable, and clinicians retained final decision control with full audit trails.',
     architectureDecisions: [
       {
         decision:
@@ -150,11 +150,11 @@ export const caseStudies: CaseStudy[] = [
     description:
       'Built a resilient telemetry platform that combined vehicle, warehouse, and customs events into one operational timeline with predictive ETA updates.',
     executiveSummary:
-      'The client lacked a single operational view across fleets operating in three regions. Horizon delivered a streaming data platform and dispatch console that correlated telemetry and milestone events, enabling proactive rerouting during disruptions.',
+      'The client lacked a single operational view across fleets operating in three regions. Start HN delivered a streaming data platform and dispatch console that correlated telemetry and milestone events, enabling proactive rerouting during disruptions.',
     challenge:
       'Dispatch teams relied on disconnected vendor dashboards and batch CSV uploads. ETA updates were often stale, making customer promises unreliable and increasing penalty fees for missed windows. The organization also needed a regional failover strategy due to strict uptime commitments for enterprise customers.',
     solution:
-      'Horizon implemented an ingestion layer for telematics providers, yard systems, and customs events, then built a timeline service that continuously recalculated shipment state. A rules-based dispatch assistant flagged route risk and suggested alternatives. The platform exposed APIs for customer portals and internal control towers with shared consistency rules.',
+      'Start HN implemented an ingestion layer for telematics providers, yard systems, and customs events, then built a timeline service that continuously recalculated shipment state. A rules-based dispatch assistant flagged route risk and suggested alternatives. The platform exposed APIs for customer portals and internal control towers with shared consistency rules.',
     architectureDecisions: [
       {
         decision:
@@ -217,11 +217,11 @@ export const caseStudies: CaseStudy[] = [
     description:
       'Integrated plant telemetry with MES workflows to predict equipment failure windows and schedule maintenance around production constraints.',
     executiveSummary:
-      'A manufacturer with tight delivery SLAs faced recurring unplanned downtime on critical CNC lines. Horizon built a maintenance intelligence platform that fused sensor data with production schedules, reducing emergency stops and stabilizing throughput.',
+      'A manufacturer with tight delivery SLAs faced recurring unplanned downtime on critical CNC lines. Start HN built a maintenance intelligence platform that fused sensor data with production schedules, reducing emergency stops and stabilizing throughput.',
     challenge:
       'Maintenance planning was reactive and depended on fixed intervals rather than equipment condition. Machine alarms generated noise without clear prioritization, while production planners lacked visibility into maintenance risk. Unexpected stoppages disrupted downstream assembly lines and increased overtime cost.',
     solution:
-      'Horizon implemented a telemetry pipeline to aggregate machine states, vibration, and temperature signals. A risk scoring service identified failure patterns and generated maintenance recommendations tied to MES work orders. Planner dashboards exposed risk-adjusted maintenance windows to align with shift and order constraints.',
+      'Start HN implemented a telemetry pipeline to aggregate machine states, vibration, and temperature signals. A risk scoring service identified failure patterns and generated maintenance recommendations tied to MES work orders. Planner dashboards exposed risk-adjusted maintenance windows to align with shift and order constraints.',
     architectureDecisions: [
       {
         decision: 'Edge buffering gateway for plant-floor telemetry ingestion',
@@ -283,11 +283,11 @@ export const caseStudies: CaseStudy[] = [
     description:
       'Replaced paper-first permit workflows with a secure digital platform integrating review queues, inspections, and public status tracking.',
     executiveSummary:
-      'A municipal agency needed to reduce permit backlog and improve transparency without increasing staffing. Horizon delivered a workflow platform with role-based review paths, document automation, and structured audit logs suitable for public-sector oversight.',
+      'A municipal agency needed to reduce permit backlog and improve transparency without increasing staffing. Start HN delivered a workflow platform with role-based review paths, document automation, and structured audit logs suitable for public-sector oversight.',
     challenge:
       'Permit applications were processed through email threads and disconnected legacy tools, making status tracking inconsistent for both staff and applicants. Review queues lacked prioritization, inspectors received incomplete packets, and compliance reporting required manual spreadsheet consolidation.',
     solution:
-      'Horizon implemented a workflow engine with configurable review stages, SLA timers, and automated routing based on permit type. A unified document service enforced validation rules at submission time and generated reviewer packets automatically. Applicants received status updates through a self-service portal backed by the same workflow state model.',
+      'Start HN implemented a workflow engine with configurable review stages, SLA timers, and automated routing based on permit type. A unified document service enforced validation rules at submission time and generated reviewer packets automatically. Applicants received status updates through a self-service portal backed by the same workflow state model.',
     architectureDecisions: [
       {
         decision:

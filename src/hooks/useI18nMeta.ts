@@ -392,8 +392,8 @@ export function useI18nMeta() {
         origin,
         description,
         sameAs: [
-          'https://github.com/Horizon-Tech-d-o-o',
-          'https://www.linkedin.com/company/horizon-tech-d-o-o',
+          '',
+          '',
         ],
       })
     )
