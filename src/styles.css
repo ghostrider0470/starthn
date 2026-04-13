@@ -117,80 +117,75 @@ pre code {
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(0.985 0.012 248);
-  --foreground: oklch(0.28 0.04 254);
-  --card: oklch(0.995 0.01 248);
-  --card-foreground: oklch(0.28 0.04 254);
-  --popover: oklch(0.997 0.008 248);
-  --popover-foreground: oklch(0.28 0.04 254);
-  /* Horizon Tech primary: vibrant orange-pink gradient */
-  --primary: oklch(0.65 0.25 35);
-  --primary-foreground: oklch(0.16 0.03 255);
-  --secondary: oklch(0.955 0.02 250);
-  --secondary-foreground: oklch(0.32 0.04 252);
-  --muted: oklch(0.94 0.018 248);
-  --muted-foreground: oklch(0.42 0.03 252);
-  /* Accent: purple from logo */
-  --accent: oklch(0.7 0.2 285);
-  --accent-foreground: oklch(0.16 0.03 255);
+  --background: oklch(0.98 0.005 80);
+  --foreground: oklch(0.15 0.02 250);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.15 0.02 250);
+  --popover: oklch(0.995 0.003 80);
+  --popover-foreground: oklch(0.15 0.02 250);
+  --primary: oklch(0.55 0.14 85);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.96 0.01 80);
+  --secondary-foreground: oklch(0.25 0.02 250);
+  --muted: oklch(0.94 0.01 80);
+  --muted-foreground: oklch(0.4 0.02 250);
+  --accent: oklch(0.78 0.14 90);
+  --accent-foreground: oklch(0.15 0.02 250);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.9 0.02 250);
-  --input: oklch(0.9 0.02 250);
-  /* Ring: matching primary */
-  --ring: oklch(0.65 0.25 35);
-  /* Chart colors: gradient spectrum from logo */
-  --chart-1: oklch(0.65 0.25 35);   /* Orange */
-  --chart-2: oklch(0.68 0.23 15);   /* Orange-pink */
-  --chart-3: oklch(0.7 0.22 340);   /* Pink */
-  --chart-4: oklch(0.65 0.2 310);   /* Pink-purple */
-  --chart-5: oklch(0.6 0.18 285);   /* Purple */
-  --sidebar: oklch(0.975 0.012 248);
-  --sidebar-foreground: oklch(0.28 0.04 254);
-  --sidebar-primary: oklch(0.65 0.25 35);
-  --sidebar-primary-foreground: oklch(0.16 0.03 255);
-  --sidebar-accent: oklch(0.94 0.018 248);
-  --sidebar-accent-foreground: oklch(0.28 0.04 254);
-  --sidebar-border: oklch(0.9 0.02 250);
-  --sidebar-ring: oklch(0.65 0.25 35);
+  --border: oklch(0.92 0.01 80);
+  --input: oklch(0.92 0.01 80);
+  --ring: oklch(0.55 0.14 85);
+  /* Chart colors: gold spectrum */
+  --chart-1: oklch(0.55 0.14 85);   /* Dark gold */
+  --chart-2: oklch(0.63 0.14 87);   /* Mid gold */
+  --chart-3: oklch(0.70 0.14 88);   /* Gold */
+  --chart-4: oklch(0.78 0.14 90);   /* Bright gold */
+  --chart-5: oklch(0.85 0.12 85);   /* Light gold */
+  --sidebar: oklch(0.975 0.007 80);
+  --sidebar-foreground: oklch(0.15 0.02 250);
+  --sidebar-primary: oklch(0.55 0.14 85);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.94 0.01 80);
+  --sidebar-accent-foreground: oklch(0.15 0.02 250);
+  --sidebar-border: oklch(0.92 0.01 80);
+  --sidebar-ring: oklch(0.55 0.14 85);
 }
 
 .dark {
-  --background: oklch(0.17 0.02 255);
-  --foreground: oklch(0.95 0.015 255);
-  --card: oklch(0.22 0.02 255);
-  --card-foreground: oklch(0.95 0.015 255);
-  --popover: oklch(0.22 0.02 255);
-  --popover-foreground: oklch(0.95 0.015 255);
-  /* Dark mode: slightly brighter and more saturated Horizon colors */
-  --primary: oklch(0.75 0.22 35);
-  --primary-foreground: oklch(0.16 0.02 255);
-  --secondary: oklch(0.32 0.03 258);
-  --secondary-foreground: oklch(0.94 0.015 255);
-  --muted: oklch(0.27 0.02 255);
-  --muted-foreground: oklch(0.78 0.02 252);
-  /* Dark accent: vibrant purple */
-  --accent: oklch(0.75 0.18 285);
-  --accent-foreground: oklch(0.16 0.02 255);
+  --background: oklch(0.14 0.01 260);
+  --foreground: oklch(0.93 0.01 80);
+  --card: oklch(0.18 0.01 260);
+  --card-foreground: oklch(0.93 0.01 80);
+  --popover: oklch(0.18 0.01 260);
+  --popover-foreground: oklch(0.93 0.01 80);
+  --primary: oklch(0.78 0.14 90);
+  --primary-foreground: oklch(0.14 0.01 260);
+  --secondary: oklch(0.24 0.01 260);
+  --secondary-foreground: oklch(0.93 0.01 80);
+  --muted: oklch(0.22 0.01 260);
+  --muted-foreground: oklch(0.65 0.02 80);
+  --accent: oklch(0.65 0.14 88);
+  --accent-foreground: oklch(0.14 0.01 260);
   --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.16 0.02 255);
+  --destructive-foreground: oklch(0.14 0.01 260);
   --border: oklch(1 0 0 / 14%);
   --input: oklch(1 0 0 / 18%);
-  --ring: oklch(0.75 0.22 35);
-  /* Dark chart colors: enhanced gradient spectrum */
-  --chart-1: oklch(0.75 0.22 35);   /* Bright Orange */
-  --chart-2: oklch(0.78 0.2 15);    /* Orange-pink */
-  --chart-3: oklch(0.8 0.18 340);   /* Pink */
-  --chart-4: oklch(0.75 0.16 310);  /* Pink-purple */
-  --chart-5: oklch(0.7 0.15 285);   /* Purple */
-  --sidebar: oklch(0.2 0.02 255);
-  --sidebar-foreground: oklch(0.95 0.015 255);
-  --sidebar-primary: oklch(0.75 0.22 35);
-  --sidebar-primary-foreground: oklch(0.16 0.02 255);
-  --sidebar-accent: oklch(0.27 0.02 255);
-  --sidebar-accent-foreground: oklch(0.95 0.015 255);
+  --ring: oklch(0.78 0.14 90);
+  /* Dark chart colors: gold spectrum */
+  --chart-1: oklch(0.78 0.14 90);   /* Bright gold */
+  --chart-2: oklch(0.72 0.14 89);   /* Gold */
+  --chart-3: oklch(0.65 0.14 88);   /* Mid gold */
+  --chart-4: oklch(0.60 0.13 86);   /* Deep gold */
+  --chart-5: oklch(0.55 0.12 85);   /* Dark gold */
+  --sidebar: oklch(0.17 0.01 260);
+  --sidebar-foreground: oklch(0.93 0.01 80);
+  --sidebar-primary: oklch(0.78 0.14 90);
+  --sidebar-primary-foreground: oklch(0.14 0.01 260);
+  --sidebar-accent: oklch(0.22 0.01 260);
+  --sidebar-accent-foreground: oklch(0.93 0.01 80);
   --sidebar-border: oklch(1 0 0 / 14%);
-  --sidebar-ring: oklch(0.75 0.22 35);
+  --sidebar-ring: oklch(0.78 0.14 90);
 }
 
 @layer base {
@@ -201,7 +196,7 @@ pre code {
     @apply bg-background text-foreground;
   }
 
-  /* Better focus visibility with Horizon branding */
+  /* Better focus visibility with Start HN branding */
   :focus-visible {
     outline: 2px solid oklch(from var(--ring) l c h / 60%);
     outline-offset: 2px;
@@ -215,57 +210,42 @@ pre code {
   outline-offset: 2px;
 }
 
-/* Horizon Tech gradient utilities */
-.bg-horizon-gradient {
+/* Start HN branding gradient utilities */
+.bg-starthn-gradient {
   background: linear-gradient(135deg,
-    oklch(0.75 0.25 45) 0%,     /* Orange */
-    oklch(0.72 0.25 25) 25%,    /* Orange-red */
-    oklch(0.7 0.23 350) 50%,    /* Pink */
-    oklch(0.68 0.2 320) 75%,    /* Pink-purple */
-    oklch(0.65 0.18 290) 100%   /* Purple */
+    #DEBD4E 0%,     /* Bright gold */
+    #B8860B 100%    /* Dark goldenrod */
   );
 }
 
-.bg-horizon-sunrise {
+.bg-starthn-warm {
   background: linear-gradient(135deg,
-    oklch(0.95 0.02 0) 0%,        /* Very light background */
-    oklch(0.92 0.05 35) 30%,      /* Subtle orange tint */
-    oklch(0.9 0.08 350) 70%,      /* Light pink tint */
-    oklch(0.88 0.06 285) 100%     /* Light purple tint */
+    oklch(0.98 0.005 80) 0%,      /* Warm cream */
+    oklch(0.95 0.02 85) 50%,      /* Light gold tint */
+    oklch(0.92 0.03 88) 100%      /* Soft gold */
   );
 }
 
-.bg-horizon-accent {
+.dark .bg-starthn-warm {
   background: linear-gradient(135deg,
-    oklch(0.99 0.005 0) 0%,       /* Nearly white */
-    oklch(0.98 0.015 35) 40%,     /* Barely visible orange */
-    oklch(0.97 0.01 285) 100%     /* Barely visible purple */
+    oklch(0.16 0.01 260) 0%,      /* Dark slate */
+    oklch(0.20 0.03 85) 50%,      /* Dark gold tint */
+    oklch(0.18 0.02 88) 100%      /* Deep dark gold */
   );
 }
 
-.bg-horizon-warm {
+.bg-starthn-accent {
   background: linear-gradient(135deg,
-    oklch(0.25 0.05 270) 0%,      /* Dark purple base */
-    oklch(0.35 0.15 35) 30%,      /* Dark orange */
-    oklch(0.3 0.12 350) 70%,      /* Dark pink */
-    oklch(0.2 0.08 285) 100%      /* Deep purple */
+    oklch(0.995 0.002 80) 0%,     /* Nearly white warm */
+    oklch(0.985 0.008 85) 40%,    /* Barely visible gold */
+    oklch(0.975 0.006 88) 100%    /* Barely visible gold tint */
   );
 }
 
-.dark .bg-horizon-warm {
+.text-starthn-gradient {
   background: linear-gradient(135deg,
-    oklch(0.15 0.08 270) 0%,      /* Even darker purple */
-    oklch(0.25 0.18 35) 30%,      /* Vibrant dark orange */
-    oklch(0.2 0.15 350) 70%,      /* Dark pink */
-    oklch(0.12 0.1 285) 100%      /* Very deep purple */
-  );
-}
-
-.text-horizon-gradient {
-  background: linear-gradient(135deg,
-    oklch(0.65 0.25 35) 0%,
-    oklch(0.7 0.22 340) 50%,
-    oklch(0.6 0.18 285) 100%
+    #DEBD4E 0%,
+    #B8860B 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
