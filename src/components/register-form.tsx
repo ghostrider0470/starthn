@@ -113,7 +113,7 @@ export function RegisterForm({
           <div className="flex flex-col items-center text-center">
             <img
               src="/logo-128.webp"
-              alt="Horizon Tech"
+              alt="Start HN"
               className="h-16 w-auto mb-4"
               width={64}
               height={64}

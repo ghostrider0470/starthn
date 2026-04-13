@@ -60,7 +60,7 @@ export function BenefitsSection() {
     <section className="py-16 md:py-24">
       <div className="text-center mb-16">
         <h2 className={cn(designSystem.typography.heading.h2, "mb-6 text-4xl font-bold")}>
-          Why Work at Horizon Tech?
+          Why Work at Start HN?
         </h2>
         <p className={cn(designSystem.typography.body.large, designSystem.typography.muted, "max-w-3xl mx-auto")}>
           We invest in our team's success with comprehensive benefits and a supportive culture

@@ -113,7 +113,7 @@ export function ChatWidget() {
             <div className="flex items-center justify-between border-b border-border bg-muted/30 px-4 py-3 max-sm:pt-[max(0.75rem,env(safe-area-inset-top))]">
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-green-500" />
-                <span className="text-sm font-semibold">Chat with Horizon</span>
+                <span className="text-sm font-semibold">Chat with Start HN</span>
               </div>
               <button
                 onClick={() => setIsOpen(false)}

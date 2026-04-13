@@ -241,7 +241,7 @@ export function TwoFactorSetup() {
                     <Alert>
                       <AlertCircle className="h-4 w-4" />
                       <AlertDescription>
-                        Account: Horizon Tech<br />
+                        Account: Start HN<br />
                         Type: Time-based (TOTP)<br />
                         Digits: 6
                       </AlertDescription>

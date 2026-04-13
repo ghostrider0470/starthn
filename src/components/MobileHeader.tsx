@@ -22,7 +22,7 @@ export function MobileHeader() {
         >
           <img
             src="/logo-64.webp"
-            alt="Horizon Tech"
+            alt="Start HN"
             className="h-10 w-auto"
             width={40}
             height={40}

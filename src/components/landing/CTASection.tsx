@@ -24,7 +24,7 @@ export function CTASection() {
           Ready to Build Something Exceptional?
         </h2>
         <p className="mb-8 text-lg text-muted-foreground">
-          Partner with Horizon Tech to bring your next project to life.
+          Partner with Start HN to bring your next project to life.
           Modern architecture, proven expertise, delivered on time.
         </p>
 

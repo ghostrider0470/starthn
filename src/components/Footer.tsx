@@ -111,7 +111,7 @@ export function Footer() {
             <Link to={withLocale('/')} className="inline-flex items-center rounded-lg">
               <img
                 src="/logo-128.webp"
-                alt="Horizon Tech"
+                alt="Start HN"
                 className="h-14 w-auto"
                 width={56}
                 height={56}

@@ -22,7 +22,7 @@ export function FirstTimeSetup() {
       <div className="max-w-xl w-full text-center">
         <img
           src="/logo-128.webp"
-          alt="Horizon Tech"
+          alt="Start HN"
           className="h-16 w-auto mx-auto mb-6"
           width={64}
           height={64}

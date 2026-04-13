@@ -19,7 +19,7 @@ const team: TeamMember[] = [
     name: 'Hamza Kyamanywa',
     role: 'CEO & Founder',
     avatar: 'HK',
-    bio: 'Full-stack engineer turned entrepreneur with a passion for building scalable software solutions. Leads Horizon Tech\'s vision for delivering world-class digital products.',
+    bio: 'Full-stack engineer turned entrepreneur with a passion for building scalable software solutions. Leads Start HN\'s vision for delivering world-class digital products.',
     expertise: ['Cloud Architecture', 'Enterprise Strategy', 'Technical Leadership'],
     email: 'hamza@horizonhub.tech',
     linkedin: '#',
@@ -28,7 +28,7 @@ const team: TeamMember[] = [
     name: 'Daniel Ortega',
     role: 'Chief Technology Officer',
     avatar: 'DO',
-    bio: 'Seasoned architect with deep expertise in distributed systems and cloud-native applications. Drives technical excellence across all Horizon projects.',
+    bio: 'Seasoned architect with deep expertise in distributed systems and cloud-native applications. Drives technical excellence across all Start HN projects.',
     expertise: ['Microservices', 'DevOps', 'System Design'],
     email: 'daniel@horizonhub.tech',
     linkedin: '#',
@@ -46,7 +46,7 @@ const team: TeamMember[] = [
     name: 'Marcus Chen',
     role: 'Head of Engineering',
     avatar: 'MC',
-    bio: 'Leads Horizon\'s engineering teams with a focus on quality, velocity, and developer experience. Champion of automated testing and continuous delivery.',
+    bio: 'Leads Start HN\'s engineering teams with a focus on quality, velocity, and developer experience. Champion of automated testing and continuous delivery.',
     expertise: [
       'AI/ML Engineering',
       'Platform Engineering',
@@ -59,7 +59,7 @@ const team: TeamMember[] = [
     name: 'Azra Omerbašić',
     role: 'Chief Office Manager',
     avatar: 'AO',
-    bio: 'Leads office operations, coordination, and administrative execution across Horizon Tech.',
+    bio: 'Leads office operations, coordination, and administrative execution across Start HN.',
     expertise: ['Office Operations', 'Team Coordination', 'Administration'],
   },
 ]
@@ -73,7 +73,7 @@ export function TeamSection() {
             Our Team
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Meet the engineers and architects behind Horizon Tech's
+            Meet the engineers and architects behind Start HN's
             innovative solutions
           </p>
         </div>

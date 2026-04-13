@@ -61,7 +61,7 @@ export function CRTStartup() {
           phase === 'complete' && "opacity-0"
         )}
       >
-        {/* Initial flash with Horizon gradient */}
+        {/* Initial flash with brand gradient */}
         {phase === 'flash' && (
           <div
             className="absolute inset-0"
@@ -91,7 +91,7 @@ export function CRTStartup() {
         )}
 
 
-        {/* Vignette effect with Horizon colors */}
+        {/* Vignette effect with brand colors */}
         {(phase === 'expanding' || phase === 'fadeIn' || phase === 'complete') && (
           <div
             className="absolute inset-0 pointer-events-none opacity-30 dark:opacity-50"

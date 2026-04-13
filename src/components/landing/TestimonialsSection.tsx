@@ -8,7 +8,7 @@ const testimonials = [
     role: 'CTO, FinEdge Technologies',
     avatar: 'SC',
     content:
-      'Horizon Tech modernized our entire payment processing architecture. We went from 200ms to 15ms response times — a game-changer for our real-time trading platform.',
+      'Start HN modernized our entire payment processing architecture. We went from 200ms to 15ms response times — a game-changer for our real-time trading platform.',
     rating: 5,
   },
   {
@@ -24,7 +24,7 @@ const testimonials = [
     role: 'Product Director, NexGen Retail',
     avatar: 'ET',
     content:
-      'The custom inventory management system Horizon built handles 10x our previous throughput. Their microservices approach was exactly what we needed.',
+      'The custom inventory management system Start HN built handles 10x our previous throughput. Their microservices approach was exactly what we needed.',
     rating: 5,
   },
   {
@@ -32,7 +32,7 @@ const testimonials = [
     role: 'Engineering Director, ClearView Analytics',
     avatar: 'DK',
     content:
-      'Horizon delivered an AI-powered analytics dashboard that transformed how we serve clients. Their technical depth and business understanding are unmatched.',
+      'Start HN delivered an AI-powered analytics dashboard that transformed how we serve clients. Their technical depth and business understanding are unmatched.',
     rating: 5,
   },
   {
@@ -40,7 +40,7 @@ const testimonials = [
     role: 'Head of Platform, ScaleUp Logistics',
     avatar: 'LA',
     content:
-      'Our IoT fleet management platform needed a complete overhaul. Horizon designed a system that scales to 50,000 devices with real-time telemetry.',
+      'Our IoT fleet management platform needed a complete overhaul. Start HN designed a system that scales to 50,000 devices with real-time telemetry.',
     rating: 5,
   },
   {
@@ -48,7 +48,7 @@ const testimonials = [
     role: 'CTO, Meridian Health Systems',
     avatar: 'JW',
     content:
-      'The DevOps pipeline Horizon implemented cut our deployment cycles from weeks to hours. Their CI/CD expertise is world-class.',
+      'The DevOps pipeline Start HN implemented cut our deployment cycles from weeks to hours. Their CI/CD expertise is world-class.',
     rating: 5,
   },
 ]
@@ -62,7 +62,7 @@ export function TestimonialsSection() {
             Trusted by Technology Leaders
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            See what engineering leaders say about partnering with Horizon Tech
+            See what engineering leaders say about partnering with Start HN
             on their most critical projects
           </p>
         </div>

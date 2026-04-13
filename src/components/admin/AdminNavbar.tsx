@@ -106,7 +106,7 @@ export function AdminNavbar() {
             >
               <img
                 src="/logo-128.webp"
-                alt="Horizon Tech"
+                alt="Start HN"
                 className="h-14 w-auto py-1"
                 width={48}
                 height={48}

@@ -79,7 +79,7 @@ export function Navbar() {
   const { isAuthenticated, user, logout, canAccessAdmin } = useAuth()
   const { t } = useTranslation()
   const currentLocale = getLocaleFromPath(location.pathname)
-  const companyName = 'Horizon Tech'
+  const companyName = 'Start HN'
 
   const { desktopNavEntries, mobileQuickLinks, mobileAccordionGroups } =
     useMemo(() => {

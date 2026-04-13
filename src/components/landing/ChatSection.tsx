@@ -64,7 +64,7 @@ export function ChatSection() {
           <div className="rounded-xl border border-border bg-card shadow-lg overflow-hidden">
             <div className="flex items-center gap-2 border-b border-border bg-muted/30 px-4 py-3">
               <div className="h-2 w-2 rounded-full bg-green-500" />
-              <span className="text-sm font-semibold">Chat with Horizon</span>
+              <span className="text-sm font-semibold">Chat with Start HN</span>
             </div>
             <ChatPanel height="h-[450px]" />
           </div>

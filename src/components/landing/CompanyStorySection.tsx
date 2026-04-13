@@ -7,7 +7,7 @@ const milestones = [
     year: '2020',
     icon: Rocket,
     title: 'Foundation',
-    description: 'Horizon Tech d.o.o. was founded in Sarajevo with a vision to bridge Bosnia\'s emerging tech talent with global opportunities.',
+    description: 'Start HN was founded in Sarajevo with a vision to bridge Bosnia\'s emerging tech talent with global opportunities.',
   },
   {
     year: '2021',
