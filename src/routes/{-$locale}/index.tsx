@@ -7,7 +7,6 @@ import { HeroSection } from '@/components/landing/HeroSection'
 const BlogPostCard = lazy(() => import('@/components/blog/BlogPostCard').then(m => ({ default: m.BlogPostCard })))
 const ServicesHexGrid = lazy(() => import('@/components/landing/ServicesHexGrid').then(m => ({ default: m.ServicesHexGrid })))
 const GlobalCredibilitySection = lazy(() => import('@/components/landing/GlobalCredibilitySection').then(m => ({ default: m.GlobalCredibilitySection })))
-const PartnerBadges = lazy(() => import('@/components/landing/PartnerBadges').then(m => ({ default: m.PartnerBadges })))
 const FAQSection = lazy(() => import('@/components/landing/FAQSection').then(m => ({ default: m.FAQSection })))
 const ChatSection = lazy(() => import('@/components/landing/ChatSection').then(m => ({ default: m.ChatSection })))
 import { PageContainer } from '@/components/layout/PageContainer'
@@ -84,13 +83,6 @@ function LandingPage() {
         <div id="credibility" className="landing-section landing-section--alt-a scroll-mt-24">
           <SlideUp amount={0.15}>
             <GlobalCredibilitySection />
-          </SlideUp>
-        </div>
-        </Suspense>
-        <Suspense fallback={<div className="min-h-[400px]" />}>
-        <div id="partners" className="landing-section landing-section--alt-b scroll-mt-24">
-          <SlideUp amount={0.15}>
-            <PartnerBadges />
           </SlideUp>
         </div>
         </Suspense>
