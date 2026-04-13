@@ -2,9 +2,9 @@
   "nav": {
     "home": "Home",
     "company": "Company",
-    "solutions": "Solutions",
+    "solutions": "Services",
     "resources": "Resources",
-    "innovationLab": "Innovation Lab",
+    "innovationLab": "Insights",
     "contact": "Contact",
     "about": {
       "title": "About",
@@ -12,67 +12,67 @@
     },
     "team": {
       "title": "Team",
-      "description": "Meet the people behind Horizon Tech"
+      "description": "Meet the people behind Start HN"
     },
     "careers": {
       "title": "Careers",
-      "description": "Join our team and build the future"
+      "description": "Join our team and grow with us"
     },
     "enterpriseSoftware": {
-      "title": "Enterprise Software Development",
-      "description": "Custom enterprise applications with modern frameworks"
+      "title": "Bookkeeping & Accounting",
+      "description": "Full-service bookkeeping and accounting for businesses of all sizes"
     },
     "aiMl": {
-      "title": "AI, ML & Business Intelligence",
-      "description": "Complete AI/ML pipelines and BI dashboards"
+      "title": "Tax Consulting",
+      "description": "Expert tax planning and compliance for individuals and companies"
     },
     "cloudArchitecture": {
-      "title": "Cloud Architecture & Infrastructure",
-      "description": "Multi-cloud solutions and container orchestration"
+      "title": "Virtual CFO",
+      "description": "Strategic financial leadership without the full-time cost"
     },
     "iot": {
-      "title": "IoT & Edge Computing",
-      "description": "Connected device ecosystems and digital twins"
+      "title": "Business Consulting",
+      "description": "Practical advice to help your business grow and thrive"
     },
     "devops": {
-      "title": "DevOps & Platform Engineering",
-      "description": "CI/CD pipelines and infrastructure as code"
+      "title": "Financial Reporting",
+      "description": "Accurate, timely financial statements and management reports"
     },
     "digitalTransformation": {
-      "title": "Digital Transformation & Strategy",
-      "description": "Enterprise transformation roadmaps and advisory"
+      "title": "Education & Courses",
+      "description": "Workshops and courses on accounting, tax, and finance"
     },
     "caseStudies": {
       "title": "Case Studies",
       "description": "Success stories from our clients",
       "featured": {
         "title": "Featured Case Study",
-        "description": "Deep dive into a full delivery engagement"
+        "description": "A detailed look at how we helped a client succeed"
       }
     },
     "blog": {
       "title": "Blog",
-      "description": "Insights, tutorials, and industry trends",
+      "description": "Insights, guides, and updates from the Start HN team",
       "featured": {
-        "title": "Featured Blog Post",
-        "description": "Read one of our latest engineering insights"
+        "title": "Featured Article",
+        "description": "Read one of our latest accounting and finance insights"
       }
     },
     "innovationLabOverview": {
-      "title": "Innovation Lab Overview",
-      "description": "See all research areas and experimental tracks"
+      "title": "Insights Overview",
+      "description": "Browse all articles, guides, and resources"
     },
     "innovationLabAiSystems": {
-      "title": "Applied AI Systems",
-      "description": "Production-ready machine learning architecture patterns"
+      "title": "Tax & Compliance Updates",
+      "description": "Stay informed on the latest tax law changes in BiH"
     },
     "innovationLabNlp": {
-      "title": "Multi-Language NLP",
-      "description": "Interactive natural language processing capabilities"
+      "title": "Accounting Best Practices",
+      "description": "Practical guides for managing your business finances"
     },
     "innovationLabGeneticAlgorithm": {
-      "title": "Genetic Algorithm Simulation",
-      "description": "Evolutionary optimization in an interactive environment"
+      "title": "Business Finance Tips",
+      "description": "Strategies to improve cash flow and financial health"
     },
     "navigation": "Navigation",
     "skipToContent": "Skip to content",
@@ -84,17 +84,17 @@
     "practiceManagement": "Practice Management",
     "logOut": "Log out",
     "education": {
-      "title": "Technical Resources",
-      "description": "Guides, tutorials, and best practices from the Horizon Tech team"
+      "title": "Resources & Guides",
+      "description": "Practical accounting and finance resources from the Start HN team"
     },
     "support": {
       "title": "Support Center",
-      "description": "Get help with our software development services"
+      "description": "Get help with our accounting and advisory services"
     }
   },
   "footer": {
-    "description": "Software development startup based in Sarajevo, Bosnia. We build custom software, AI/ML solutions, cloud architecture, and automation systems.",
-    "features": "Features",
+    "description": "Accounting agency based in Sarajevo, Bosnia. We provide bookkeeping, tax consulting, virtual CFO services, and financial reporting for businesses across BiH.",
+    "features": "Services",
     "resources": "Resources",
     "company": "Company",
     "legal": "Legal",
@@ -107,11 +107,11 @@
     "community": "Community",
     "blog": "Blog",
     "caseStudies": "Case Studies",
-    "innovationLabOverview": "Innovation Lab Overview",
-    "appliedAiSystems": "Applied AI Systems",
-    "nlpDemo": "Multi-Language NLP",
-    "geneticAlgorithmSimulation": "Genetic Algorithm Simulation",
-    "featuredBlogPost": "Featured Blog Post",
+    "innovationLabOverview": "Insights Overview",
+    "appliedAiSystems": "Tax & Compliance Updates",
+    "nlpDemo": "Accounting Best Practices",
+    "geneticAlgorithmSimulation": "Business Finance Tips",
+    "featuredBlogPost": "Featured Article",
     "featuredCaseStudy": "Featured Case Study",
     "about": "About",
     "contact": "Contact",
@@ -121,27 +121,27 @@
     "termsOfService": "Terms of Service",
     "cookiePolicy": "Cookie Policy",
     "license": "License",
-    "copyright": "© {{year}} Horizon Tech. All rights reserved.",
+    "copyright": "© {{year}} Start HN. All rights reserved.",
     "subscribe": "Subscribe to newsletter"
   },
   "header": {
-    "badge": "Enterprise Technology Solutions",
-    "titleLine1": "Transform Your Business with",
-    "titleLine2": "Cutting-Edge Technology",
-    "description": "From enterprise software development and AI-powered business intelligence to cloud infrastructure and IoT solutions — we deliver comprehensive technology services that drive innovation and accelerate growth.",
+    "badge": "Professional Accounting Services",
+    "titleLine1": "Trusted Accounting & Finance",
+    "titleLine2": "for Your Business in BiH",
+    "description": "From bookkeeping and tax consulting to virtual CFO services and financial reporting — Start HN delivers comprehensive accounting expertise that keeps your business compliant, informed, and ready to grow.",
     "getStarted": "Get Started",
-    "exploreSolutions": "Explore Solutions",
-    "trustedBy": "Trusted by forward-thinking enterprises",
-    "microsoftPartner": "Microsoft Partner",
-    "azureCertified": "Azure Certified",
-    "enterpriseSolutions": "Enterprise Solutions"
+    "exploreSolutions": "Explore Services",
+    "trustedBy": "Trusted by businesses across Bosnia and Herzegovina",
+    "microsoftPartner": "Certified Accountants",
+    "azureCertified": "Tax Registered",
+    "enterpriseSolutions": "Full-Service Accounting"
   },
   "mobileNav": {
     "navigation": "Mobile navigation",
     "home": "Home",
-    "solutions": "Solutions",
+    "solutions": "Services",
     "caseStudies": "Cases",
-    "aiSystems": "AI Lab",
+    "aiSystems": "Insights",
     "blog": "Blog",
     "resources": "Resources",
     "contact": "Contact"
@@ -151,12 +151,12 @@
     "navigateTo": "Navigate to {{section}}",
     "sections": {
       "home": "Home",
-      "solutions": "Solutions",
+      "solutions": "Services",
       "credibility": "Credibility",
       "partners": "Partners",
       "caseStudies": "Case Studies",
       "blog": "Blog",
-      "innovationLab": "Innovation Lab",
+      "innovationLab": "Insights",
       "faq": "FAQ"
     }
   },
@@ -172,18 +172,18 @@
   "homePage": {
     "caseStudies": {
       "title": "Recent Case Studies",
-      "description": "A snapshot of delivery outcomes across fintech, healthcare, logistics, and public sector programs.",
+      "description": "A snapshot of outcomes we have delivered for clients across retail, hospitality, manufacturing, and the public sector.",
       "cta": "View All Case Studies"
     },
     "blog": {
       "title": "Latest From Our Blog",
-      "description": "Practical engineering notes from recent AI, platform, and cloud delivery work.",
+      "description": "Practical accounting and finance notes from the Start HN team.",
       "cta": "Read All Articles"
     },
     "innovationLab": {
-      "title": "Innovation Lab",
-      "description": "Explore prototypes, experiments, and applied R&D projects from the Horizon Tech engineering team.",
-      "cta": "Explore Innovation Lab"
+      "title": "Insights & Resources",
+      "description": "Browse guides, tax updates, and finance tips from the Start HN team.",
+      "cta": "Explore All Insights"
     }
   },
   "caseStudyCard": {
