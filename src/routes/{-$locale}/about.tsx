@@ -14,17 +14,17 @@ import { featureFlags } from '@/lib/feature-flags'
 export const Route = createFileRoute('/{-$locale}/about')({
   head: () => ({
     meta: [
-      { title: 'About — Horizon Tech' },
+      { title: 'About — Start HN' },
       {
         name: 'description',
         content:
-          'Meet the team behind Horizon Tech. Enterprise software engineering from Sarajevo to the world.',
+          'Meet the team behind Start HN. Enterprise software engineering from Sarajevo to the world.',
       },
-      { property: 'og:title', content: 'About — Horizon Tech' },
+      { property: 'og:title', content: 'About — Start HN' },
       {
         property: 'og:description',
         content:
-          'Meet the team behind Horizon Tech. Enterprise software engineering from Sarajevo to the world.',
+          'Meet the team behind Start HN. Enterprise software engineering from Sarajevo to the world.',
       },
     ],
   }),

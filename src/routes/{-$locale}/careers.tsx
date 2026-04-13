@@ -15,17 +15,17 @@ import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 export const Route = createFileRoute('/{-$locale}/careers')({
   head: () => ({
     meta: [
-      { title: 'Careers — Horizon Tech' },
+      { title: 'Careers — Start HN' },
       {
         name: 'description',
         content:
-          "Join Horizon Tech. We're building enterprise-grade software, AI, and cloud solutions.",
+          "Join Start HN. We're building enterprise-grade software, AI, and cloud solutions.",
       },
-      { property: 'og:title', content: 'Careers — Horizon Tech' },
+      { property: 'og:title', content: 'Careers — Start HN' },
       {
         property: 'og:description',
         content:
-          "Join Horizon Tech. We're building enterprise-grade software, AI, and cloud solutions.",
+          "Join Start HN. We're building enterprise-grade software, AI, and cloud solutions.",
       },
     ],
   }),

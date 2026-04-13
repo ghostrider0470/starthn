@@ -121,8 +121,8 @@ function useBlogPostSeo(post: BlogPost | undefined, locale: string) {
       return
     }
 
-    // TODO: add "meta.siteName" key to the pages namespace JSON on CDN ("Horizon Tech Blog")
-    const siteName = t('meta.siteName', 'Horizon Tech Blog')
+    // TODO: add "meta.siteName" key to the pages namespace JSON on CDN ("Start HN Blog")
+    const siteName = t('meta.siteName', 'Start HN Blog')
     document.title = `${post.title} | ${siteName} — ${locale}`
 
     upsertMetaTag('name', 'description', post.excerpt)

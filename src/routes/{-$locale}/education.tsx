@@ -24,17 +24,17 @@ import { featureFlags } from '@/lib/feature-flags'
 export const Route = createFileRoute('/{-$locale}/education')({
   head: () => ({
     meta: [
-      { title: 'Education — Horizon Tech' },
+      { title: 'Education — Start HN' },
       {
         name: 'description',
         content:
-          'Horizon Tech educational resources and technology learning.',
+          'Start HN educational resources and technology learning.',
       },
-      { property: 'og:title', content: 'Education — Horizon Tech' },
+      { property: 'og:title', content: 'Education — Start HN' },
       {
         property: 'og:description',
         content:
-          'Horizon Tech educational resources and technology learning.',
+          'Start HN educational resources and technology learning.',
       },
     ],
   }),

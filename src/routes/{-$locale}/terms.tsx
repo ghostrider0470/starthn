@@ -8,15 +8,15 @@ import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 export const Route = createFileRoute('/{-$locale}/terms')({
   head: () => ({
     meta: [
-      { title: 'Terms of Service — Horizon Tech' },
+      { title: 'Terms of Service — Start HN' },
       {
         name: 'description',
-        content: 'Horizon Tech terms of service.',
+        content: 'Start HN terms of service.',
       },
-      { property: 'og:title', content: 'Terms of Service — Horizon Tech' },
+      { property: 'og:title', content: 'Terms of Service — Start HN' },
       {
         property: 'og:description',
-        content: 'Horizon Tech terms of service.',
+        content: 'Start HN terms of service.',
       },
     ],
   }),
@@ -57,7 +57,7 @@ function TermsOfServicePage() {
                   1. Acceptance of Terms
                 </h2>
                 <p className={cn(designSystem.typography.body.base, 'mb-4')}>
-                  By accessing and using services provided by Horizon Tech
+                  By accessing and using services provided by Start HN
                   d.o.o. ("the Company", "we", "us"), you agree to be bound by
                   these Terms of Service and all applicable laws and
                   regulations. If you do not agree with any of these terms, you
@@ -70,7 +70,7 @@ function TermsOfServicePage() {
                   2. Description of Services
                 </h2>
                 <p className={cn(designSystem.typography.body.base, 'mb-4')}>
-                  Horizon Tech d.o.o. provides software development services
+                  Start HN d.o.o. provides software development services
                   including but not limited to:
                 </p>
                 <ul className="list-disc space-y-2 pl-5">
@@ -184,7 +184,7 @@ function TermsOfServicePage() {
                   8. Limitation of Liability
                 </h2>
                 <p className={cn(designSystem.typography.body.base, 'mb-4')}>
-                  To the maximum extent permitted by law, Horizon Tech d.o.o.
+                  To the maximum extent permitted by law, Start HN d.o.o.
                   shall not be liable for any indirect, incidental, special,
                   consequential, or punitive damages resulting from your use of
                   our services, including but not limited to loss of profits,

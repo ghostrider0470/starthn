@@ -189,7 +189,7 @@ function resolveSeoMeta(normalizedPath: string): ResolvedSeoMeta {
 
     if (post) {
       return {
-        title: `${post.title} | Horizon Tech Blog`,
+        title: `${post.title} | Start HN Blog`,
         description: post.excerpt,
         type: 'article',
         keywords: post.tags,
@@ -218,7 +218,7 @@ function resolveSeoMeta(normalizedPath: string): ResolvedSeoMeta {
 
     if (caseStudy) {
       return {
-        title: `${caseStudy.title} | Horizon Tech Case Study`,
+        title: `${caseStudy.title} | Start HN`,
         description: caseStudy.description,
         type: 'article',
         keywords: [...caseStudy.tags, caseStudy.industry],

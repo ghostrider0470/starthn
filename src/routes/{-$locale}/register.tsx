@@ -21,7 +21,7 @@ function RegisterPage() {
       <div className={cn('relative hidden lg:block', designSystem.effects.gradient.muted)}>
         <img
           src="/placeholder.svg"
-          alt="Horizon Tech"
+          alt="Start HN"
           className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
           width={1920}
           height={1080}

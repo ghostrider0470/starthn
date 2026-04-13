@@ -19,15 +19,15 @@ import type { AuthorProfile } from '@/services/author.service'
 export const Route = createFileRoute('/{-$locale}/team/')({
   head: () => ({
     meta: [
-      { title: 'Our Team — Horizon Tech' },
+      { title: 'Our Team — Start HN' },
       {
         name: 'description',
-        content: 'Meet the engineers and leaders behind Horizon Tech.',
+        content: 'Meet the engineers and leaders behind Start HN.',
       },
-      { property: 'og:title', content: 'Our Team — Horizon Tech' },
+      { property: 'og:title', content: 'Our Team — Start HN' },
       {
         property: 'og:description',
-        content: 'Meet the engineers and leaders behind Horizon Tech.',
+        content: 'Meet the engineers and leaders behind Start HN.',
       },
     ],
   }),

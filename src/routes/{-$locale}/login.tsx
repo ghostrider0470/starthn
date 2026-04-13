@@ -26,15 +26,15 @@ function LoginPage() {
         <div className="absolute inset-0 flex flex-col items-center justify-center p-12">
           <img
             src="/logo-256.webp"
-            alt="Horizon Tech"
+            alt="Start HN"
             className="h-32 w-auto mb-8 opacity-80"
             decoding="async"
           />
           <h2 className="text-2xl font-bold tracking-tight text-center mb-3">
-            Horizon Tech Partner Portal
+            Start HN Partner Portal
           </h2>
           <p className="text-muted-foreground text-center max-w-sm text-balance">
-            Collaborate on projects, manage deliverables, and stay connected with the Horizon Tech team.
+            Collaborate on projects, manage deliverables, and stay connected with the Start HN team.
           </p>
         </div>
       </div>

@@ -7,20 +7,20 @@ export const Route = createFileRoute(
 )({
   head: () => ({
     meta: [
-      { title: 'AI & Machine Learning — Horizon Tech' },
+      { title: 'AI & Machine Learning — Start HN' },
       {
         name: 'description',
         content:
-          'AI, machine learning, and business intelligence solutions by Horizon Tech. From predictive analytics to intelligent automation.',
+          'AI, machine learning, and business intelligence solutions by Start HN. From predictive analytics to intelligent automation.',
       },
       {
         property: 'og:title',
-        content: 'AI & Machine Learning — Horizon Tech',
+        content: 'AI & Machine Learning — Start HN',
       },
       {
         property: 'og:description',
         content:
-          'AI, machine learning, and business intelligence solutions by Horizon Tech. From predictive analytics to intelligent automation.',
+          'AI, machine learning, and business intelligence solutions by Start HN. From predictive analytics to intelligent automation.',
       },
     ],
   }),

@@ -17,17 +17,17 @@ import { featureFlags } from '@/lib/feature-flags'
 export const Route = createFileRoute('/{-$locale}/case-studies/')({
   head: () => ({
     meta: [
-      { title: 'Case Studies — Horizon Tech' },
+      { title: 'Case Studies — Start HN' },
       {
         name: 'description',
         content:
-          'Real-world enterprise software, AI, and cloud architecture projects by Horizon Tech.',
+          'Real-world enterprise software, AI, and cloud architecture projects by Start HN.',
       },
-      { property: 'og:title', content: 'Case Studies — Horizon Tech' },
+      { property: 'og:title', content: 'Case Studies — Start HN' },
       {
         property: 'og:description',
         content:
-          'Real-world enterprise software, AI, and cloud architecture projects by Horizon Tech.',
+          'Real-world enterprise software, AI, and cloud architecture projects by Start HN.',
       },
     ],
   }),

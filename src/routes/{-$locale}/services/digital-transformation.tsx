@@ -7,20 +7,20 @@ export const Route = createFileRoute(
 )({
   head: () => ({
     meta: [
-      { title: 'Digital Transformation — Horizon Tech' },
+      { title: 'Digital Transformation — Start HN' },
       {
         name: 'description',
         content:
-          'Digital transformation consulting and implementation by Horizon Tech. Modernize your business with enterprise technology.',
+          'Digital transformation consulting and implementation by Start HN. Modernize your business with enterprise technology.',
       },
       {
         property: 'og:title',
-        content: 'Digital Transformation — Horizon Tech',
+        content: 'Digital Transformation — Start HN',
       },
       {
         property: 'og:description',
         content:
-          'Digital transformation consulting and implementation by Horizon Tech. Modernize your business with enterprise technology.',
+          'Digital transformation consulting and implementation by Start HN. Modernize your business with enterprise technology.',
       },
     ],
   }),

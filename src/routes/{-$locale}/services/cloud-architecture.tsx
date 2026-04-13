@@ -6,17 +6,17 @@ export const Route = createFileRoute('/{-$locale}/services/cloud-architecture')(
   {
     head: () => ({
       meta: [
-        { title: 'Cloud Architecture — Horizon Tech' },
+        { title: 'Cloud Architecture — Start HN' },
         {
           name: 'description',
           content:
-            'Cloud architecture, migration, and cloud-native platform engineering by Horizon Tech.',
+            'Cloud architecture, migration, and cloud-native platform engineering by Start HN.',
         },
-        { property: 'og:title', content: 'Cloud Architecture — Horizon Tech' },
+        { property: 'og:title', content: 'Cloud Architecture — Start HN' },
         {
           property: 'og:description',
           content:
-            'Cloud architecture, migration, and cloud-native platform engineering by Horizon Tech.',
+            'Cloud architecture, migration, and cloud-native platform engineering by Start HN.',
         },
       ],
     }),

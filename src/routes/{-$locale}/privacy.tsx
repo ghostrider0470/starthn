@@ -8,15 +8,15 @@ import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 export const Route = createFileRoute('/{-$locale}/privacy')({
   head: () => ({
     meta: [
-      { title: 'Privacy Policy — Horizon Tech' },
+      { title: 'Privacy Policy — Start HN' },
       {
         name: 'description',
-        content: 'Horizon Tech privacy policy — how we handle your data.',
+        content: 'Start HN privacy policy — how we handle your data.',
       },
-      { property: 'og:title', content: 'Privacy Policy — Horizon Tech' },
+      { property: 'og:title', content: 'Privacy Policy — Start HN' },
       {
         property: 'og:description',
-        content: 'Horizon Tech privacy policy — how we handle your data.',
+        content: 'Start HN privacy policy — how we handle your data.',
       },
     ],
   }),
@@ -57,7 +57,7 @@ function PrivacyPolicyPage() {
                   1. Introduction
                 </h2>
                 <p className={cn(designSystem.typography.body.base, 'mb-4')}>
-                  Horizon Tech d.o.o. ("we," "our," or "us") is committed to
+                  Start HN d.o.o. ("we," "our," or "us") is committed to
                   protecting your privacy and ensuring the security of your
                   personal information. This Privacy Policy explains how we
                   collect, use, disclose, and safeguard your information when
@@ -173,7 +173,7 @@ function PrivacyPolicyPage() {
                     strict confidentiality agreements)
                   </li>
                   <li>
-                    To protect the rights, property, or safety of Horizon Tech,
+                    To protect the rights, property, or safety of Start HN,
                     our clients, or others
                   </li>
                   <li>

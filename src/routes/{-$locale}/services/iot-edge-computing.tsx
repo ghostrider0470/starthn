@@ -6,20 +6,20 @@ export const Route = createFileRoute('/{-$locale}/services/iot-edge-computing')(
   {
     head: () => ({
       meta: [
-        { title: 'IoT & Edge Computing — Horizon Tech' },
+        { title: 'IoT & Edge Computing — Start HN' },
         {
           name: 'description',
           content:
-            'IoT and edge computing solutions by Horizon Tech. Connected devices, real-time data processing, and intelligent edge systems.',
+            'IoT and edge computing solutions by Start HN. Connected devices, real-time data processing, and intelligent edge systems.',
         },
         {
           property: 'og:title',
-          content: 'IoT & Edge Computing — Horizon Tech',
+          content: 'IoT & Edge Computing — Start HN',
         },
         {
           property: 'og:description',
           content:
-            'IoT and edge computing solutions by Horizon Tech. Connected devices, real-time data processing, and intelligent edge systems.',
+            'IoT and edge computing solutions by Start HN. Connected devices, real-time data processing, and intelligent edge systems.',
         },
       ],
     }),

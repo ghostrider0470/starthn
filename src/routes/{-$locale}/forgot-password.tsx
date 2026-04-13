@@ -115,7 +115,7 @@ function ForgotPasswordPage() {
         <div className="mb-8 text-center">
           <img
             src="/logo-128.webp"
-            alt="Horizon Tech"
+            alt="Start HN"
             className="mx-auto mb-6 h-16 w-auto"
           />
         </div>

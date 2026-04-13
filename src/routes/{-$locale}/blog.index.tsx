@@ -58,17 +58,17 @@ export const Route = createFileRoute('/{-$locale}/blog/')({
   },
   head: () => ({
     meta: [
-      { title: 'Blog — Horizon Tech' },
+      { title: 'Blog — Start HN' },
       {
         name: 'description',
         content:
-          'Technical insights, case studies, and updates from the Horizon Tech engineering team.',
+          'Technical insights, case studies, and updates from the Start HN engineering team.',
       },
-      { property: 'og:title', content: 'Blog — Horizon Tech' },
+      { property: 'og:title', content: 'Blog — Start HN' },
       {
         property: 'og:description',
         content:
-          'Technical insights, case studies, and updates from the Horizon Tech engineering team.',
+          'Technical insights, case studies, and updates from the Start HN engineering team.',
       },
     ],
   }),

@@ -21,17 +21,17 @@ import { featureFlags } from '@/lib/feature-flags'
 export const Route = createFileRoute('/{-$locale}/support')({
   head: () => ({
     meta: [
-      { title: 'Support — Horizon Tech' },
+      { title: 'Support — Start HN' },
       {
         name: 'description',
         content:
-          'Get support from Horizon Tech for your enterprise software needs.',
+          'Get support from Start HN for your enterprise software needs.',
       },
-      { property: 'og:title', content: 'Support — Horizon Tech' },
+      { property: 'og:title', content: 'Support — Start HN' },
       {
         property: 'og:description',
         content:
-          'Get support from Horizon Tech for your enterprise software needs.',
+          'Get support from Start HN for your enterprise software needs.',
       },
     ],
   }),

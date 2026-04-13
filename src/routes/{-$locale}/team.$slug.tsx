@@ -22,16 +22,16 @@ import { cn } from '@/lib/utils'
 export const Route = createFileRoute('/{-$locale}/team/$slug')({
   head: ({ loaderData }) => ({
     meta: [
-      { title: `${(loaderData as any)?.title ?? 'Team Member'} — Horizon Tech` },
+      { title: `${(loaderData as any)?.title ?? 'Team Member'} — Start HN` },
       {
         name: 'description',
         content:
           (loaderData as any)?.excerpt ??
-          'Meet the engineers and leaders behind Horizon Tech.',
+          'Meet the engineers and leaders behind Start HN.',
       },
       {
         property: 'og:title',
-        content: `${(loaderData as any)?.title ?? 'Team Member'} — Horizon Tech`,
+        content: `${(loaderData as any)?.title ?? 'Team Member'} — Start HN`,
       },
       {
         property: 'og:description',

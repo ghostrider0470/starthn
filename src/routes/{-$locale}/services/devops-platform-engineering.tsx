@@ -7,20 +7,20 @@ export const Route = createFileRoute(
 )({
   head: () => ({
     meta: [
-      { title: 'DevOps & Platform Engineering — Horizon Tech' },
+      { title: 'DevOps & Platform Engineering — Start HN' },
       {
         name: 'description',
         content:
-          'DevOps and platform engineering services by Horizon Tech. CI/CD pipelines, infrastructure as code, and scalable delivery platforms.',
+          'DevOps and platform engineering services by Start HN. CI/CD pipelines, infrastructure as code, and scalable delivery platforms.',
       },
       {
         property: 'og:title',
-        content: 'DevOps & Platform Engineering — Horizon Tech',
+        content: 'DevOps & Platform Engineering — Start HN',
       },
       {
         property: 'og:description',
         content:
-          'DevOps and platform engineering services by Horizon Tech. CI/CD pipelines, infrastructure as code, and scalable delivery platforms.',
+          'DevOps and platform engineering services by Start HN. CI/CD pipelines, infrastructure as code, and scalable delivery platforms.',
       },
     ],
   }),

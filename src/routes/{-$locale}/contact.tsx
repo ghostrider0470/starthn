@@ -59,13 +59,13 @@ export const Route = createFileRoute('/{-$locale}/contact')({
       {
         name: 'description',
         content:
-          'Get in touch with Horizon Tech for enterprise software, AI solutions, and cloud architecture.',
+          'Get in touch with Start HN for enterprise software, AI solutions, and cloud architecture.',
       },
-      { property: 'og:title', content: 'Contact — Horizon Tech' },
+      { property: 'og:title', content: 'Contact — Start HN' },
       {
         property: 'og:description',
         content:
-          'Get in touch with Horizon Tech for enterprise software, AI solutions, and cloud architecture.',
+          'Get in touch with Start HN for enterprise software, AI solutions, and cloud architecture.',
       },
     ],
     scripts: [
@@ -549,7 +549,7 @@ function ContactPage() {
               <div className="overflow-hidden rounded-xl border border-border bg-card shadow-lg">
                 <div className="flex items-center gap-2 border-b border-border bg-muted/30 px-4 py-3">
                   <div className="h-2 w-2 rounded-full bg-green-500" />
-                  <span className="text-sm font-semibold">Chat with Horizon</span>
+                  <span className="text-sm font-semibold">Chat with Start HN</span>
                 </div>
                 <ChatPanel height="h-[450px]" />
               </div>

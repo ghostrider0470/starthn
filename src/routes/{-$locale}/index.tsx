@@ -26,7 +26,7 @@ import { featureFlags } from '@/lib/feature-flags'
 export const Route = createFileRoute('/{-$locale}/')({
   head: () => ({
     meta: [
-      { title: 'Horizon Tech — Engineering Systems That Scale' },
+      { title: 'Start HN — Engineering Systems That Scale' },
       {
         name: 'description',
         content:
@@ -34,7 +34,7 @@ export const Route = createFileRoute('/{-$locale}/')({
       },
       {
         property: 'og:title',
-        content: 'Horizon Tech — Engineering Systems That Scale',
+        content: 'Start HN — Engineering Systems That Scale',
       },
       {
         property: 'og:description',

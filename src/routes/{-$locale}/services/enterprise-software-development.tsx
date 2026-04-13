@@ -11,20 +11,20 @@ export const Route = createFileRoute(
 )({
   head: () => ({
     meta: [
-      { title: 'Enterprise Software Development — Horizon Tech' },
+      { title: 'Enterprise Software Development — Start HN' },
       {
         name: 'description',
         content:
-          'Custom enterprise software development by Horizon Tech. Scalable, secure, and production-grade applications built to last.',
+          'Custom enterprise software development by Start HN. Scalable, secure, and production-grade applications built to last.',
       },
       {
         property: 'og:title',
-        content: 'Enterprise Software Development — Horizon Tech',
+        content: 'Enterprise Software Development — Start HN',
       },
       {
         property: 'og:description',
         content:
-          'Custom enterprise software development by Horizon Tech. Scalable, secure, and production-grade applications built to last.',
+          'Custom enterprise software development by Start HN. Scalable, secure, and production-grade applications built to last.',
       },
     ],
   }),
