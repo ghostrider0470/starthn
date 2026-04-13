@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Innovation Lab",
+    "description": "Nyochaa ngosi mmekọrịta, nnwale, na ihe ngosi teknụzụ sitere na ndị otu injinia anyị.",
+    "primary": "Nyochaa Demos",
+    "secondary": "Lelee nyocha"
+  },
+  "overview": {
+    "hero": {
+      "title": "Innovation Lab",
+      "description": "Anyị na-enyocha ókèala bara uru na AI, akpaaka, na sistemụ nkesa, wee sụgharịa nyocha a kwadoro n'ime ikike mmepụta a pụrụ ịdabere na ya.",
+      "primary": "Nyochaa Mpaghara Nyocha",
+      "secondary": "Tụlee mmekorita"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Mpaghara nyocha",
+        "description": "Mpaghara ọ bụla na-elekwasị anya na-ejikọta nyocha nyocha na ụzọ mmejuputa atumatu maka usoro ụwa n'ezie.",
+        "cardCta": "Nyochaa ihe na-elekwasị anya"
+      },
+      "detailedFocusBriefs": {
+        "title": "Nkọwa zuru ezu na-elekwasị anya",
+        "description": "Atụmatụ nyocha dị nso na-aga ugbu a site na nkwenye ụkpụrụ ụlọ gaa na atụmatụ nnyefe."
+      },
+      "fromLabToProduction": {
+        "title": "Site na ụlọ nyocha ruo mmepụta",
+        "description": "A na-atụle ihe ọhụrụ na Horizon site na nsonaazụ mbupu, ọ bụghị prototypes dịpụrụ adịpụ."
+      },
+      "roadmap": {
+        "title": "R &D Roadmap",
+        "description": "Ọganihu na-aga n'ihu site na iwulite ikike gaa na usoro na-agbanwe agbanwe, na-aga n'ihu na-emeziwanye usoro."
+      },
+      "publications": {
+        "title": "Mbipụta na nghọta",
+        "description": "Ederede teknụzụ na mmejuputa iwu sitere na ọrụ ọhụụ na-aga n'ihu."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Applied AI Systems",
+        "description": "Mmepụta-lekwasịrị anya AI architectures na-ekpuchi nlereanya na-eje ozi, atụmatụ orchestration, na nnwale na-achịkwa."
+      },
+      "automationFrameworks": {
+        "title": "Usoro akpaaka",
+        "description": "Ngwá ọrụ akpaaka dị n'ime maka nchekwa nnyefe, nzaghachi ihe merenụ, na arụmọrụ injinia na-emegharị ugboro ugboro."
+      },
+      "advancedArchitecture": {
+        "title": "Advanced Architecture Experimentation",
+        "description": "Nnyocha banyere ihe owuwu na-agbanwe agbanwe, nke a na-ekesa kachasị maka arụmọrụ, ndidi mmejọ, na ọnụ ọgụgụ."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Ọgụgụ isi na nsọtụ maka mkpebi latency dị ala, nhazi telemetry, na nhazi ụgbọ mmiri ngwaọrụ."
+      },
+      "nlp": {
+        "title": "Nhazi asụsụ okike",
+        "description": "Pipelines nghọta ọtụtụ asụsụ maka nhazi, mmịpụta, ntụgharị, na usoro mkparịta ụka."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Evolutionary algọridim na njikarịcha",
+        "description": "Usoro ọchụchọ na njikarịcha sitere n'ike mmụọ nsọ site na nhọrọ okike iji dozie nsogbu injinia dị elu."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Usoro akpaaka",
+        "description": "Anyị na-ewu composable workflow frameworks maka ntọhapụ orchestration, àgwà ọnụ ụzọ, na post-nyefee nkwenye iji belata ntuziaka esemokwu mgbe mma pụrụ ịdabere na ya."
+      },
+      "advancedArchitecture": {
+        "title": "Advanced Architecture Experimentation",
+        "description": "Nnwale ụkpụrụ ụlọ anyị na-elekwasị anya na usoro mmebi ọrụ, usoro nkwụsi ike mpaghara, na envelopu arụmọrụ maka sistemụ na-arụ ọrụ n'okpuru ọchịchọ na-agbanwe agbanwe."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Anyị na-akwado ihe omume na atụmatụ inference nke na-eme ka mkpebi mpaghara ngwa ngwa ma na-echekwa njikwa etiti, nyocha, na nlereanya ndụ."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Atụmatụ ikike na-agbanwe agbanwe",
+        "description": "A na-akwado prototypes ụlọ nyocha megide ọrụ simulated wee jikọta ya na usoro ikpo okwu."
+      },
+      "operationalIntelligence": {
+        "title": "Ọgụgụ isi arụmọrụ",
+        "description": "Pipelines NLP na-esi na nnwale a na-achịkwa gaa na arụmọrụ nkwado mmepụta maka nyocha ngwa ngwa na nghọta doro anya."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Njikarịcha na sistemụ nnyefe",
+        "description": "A na-atụgharị usoro evolushọn a nwalere na ụlọ nyocha n'ime injin njikarịcha maka nhazi na nkesa."
+      },
+      "edgeDecisioning": {
+        "title": "Mkpebi Edge",
+        "description": "A na-eme ka nnwale IoT na nkwụsịtụ na-eme ka ọ bụrụ ọrụ dị ala na ntụkwasị obi siri ike."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Ugbu a",
+        "title": "Ntọala AI etinyere",
+        "description": "Gbasaa ndebiri ndị na-eje ozi nlereanya, ụlọ nyocha nyocha, na ụkpụrụ nlebara anya n'ofe ndị otu ngwaahịa."
+      },
+      "next": {
+        "phase": "Na-esote",
+        "title": "Autonomous Engineering Workflows",
+        "description": "Arụ ọrụ akpaaka nke na-ebelata ihe ize ndụ nke ntinye ma belata loops nzaghachi maka mbupu."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "Ọnwa 12-18",
+        "title": "Edge-Native ọgụgụ isi",
+        "description": "Scale ngwakọ ígwé ojii-onu architectures maka nso ezigbo oge inference na latency-sensitive gburugburu."
+      },
+      "longHorizon": {
+        "phase": "Ogologo Horizon",
+        "title": "Sistemụ njikarịcha na-aga n'ihu",
+        "description": "Jikọọ nnwale, nlekota oru, na njikarịcha ka usoro wee nwee ike imeghari n'enweghị nsogbu ka ọnọdụ na-agbanwe."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Engineering AI Systems nke na-anọgide na-enwe ntụkwasị obi na mmepụta",
+        "summary": "Echiche bara uru maka ịhazi ọsọ nnwale na ọchịchị mmepụta.",
+        "cta": "Gụọ nghọta"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Nkesa Architecture Patterns maka High-Growth Platforms",
+        "summary": "Ndetu ubi sitere na nnwale ụkpụrụ ụlọ lekwasịrị anya na arụmọrụ, nkwụsi ike, na ịdị mfe arụmọrụ.",
+        "cta": "Nyochaa ọmụmụ ikpe"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping etinyere R&D maka Nsonaazụ Azụmahịa",
+        "summary": "Otu anyị si ahazi atụmatụ ọhụụ ka nchọpụta wee si na prototype gaa na uru a pụrụ ịtụle.",
+        "cta": "Nyochaa mbipụta"
+      }
+    },
+    "cta": {
+      "title": "Wuo na Horizon Innovation Lab",
+      "description": "Soro anyị rụọ ọrụ iji kwado echiche dị oke egwu ngwa ngwa ma kwaga echiche egosipụtara n'ime usoro mmepụta dị nchebe.",
+      "primary": "Bido mkparịta ụka",
+      "secondary": "Lelee nsonaazụ nnyefe"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Applied AI Systems",
+      "description": "Nchịkọta bara uru banyere otu Horizon si emepụta, na-ebugharị, ma na-arụ ọrụ usoro mmụta igwe site na prototype ruo na mmepụta.",
+      "back": "Laghachi na Innovation Lab",
+      "tags": {
+        "appliedAi": "Etinyere AI",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Pipelines mmụta igwe",
+        "description": "Mmepụta AI na-amalite site na pipelines na-emegharị emegharị nke na-ejikọ data, nnwale, nkwenye, na nzaghachi."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Model Deployment Patterns",
+        "description": "A na-ahọrọ usoro ntinye dabere na mkpa latency, nkatọ azụmahịa, na mgbagwoju anya arụmọrụ."
+      },
+      "mlopsOperatingModel": {
+        "title": "MLOps na-arụ ọrụ nlereanya",
+        "description": "Omume MLOps na-eme ka usoro AI na-anọgide na-enwe ntụkwasị obi, na-achịkwa, ma na-agbanwe agbanwe ka ojiji na-etolite."
+      },
+      "monitoringAndReliability": {
+        "title": "Nlekota oru na ntụkwasị obi",
+        "description": "Observability na-emechi loop n'etiti omume nlereanya na nsonaazụ arụmọrụ."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Data na Feature Engineering",
+        "description": "Ntinye data nsụgharị, nyocha dị mma, na nkọwa njirimara ndị a na-emegharị emepụta ntọala a pụrụ ịdabere na ya maka ọzụzụ nlereanya."
+      },
+      "modelDevelopment": {
+        "title": "Model Development",
+        "description": "A na-enyocha nnwale na nhazi ndị a na-emegharị emegharị, metrik ebumnuche, na ntọala ntụnyere akpaaka."
+      },
+      "validationAndSafetyGates": {
+        "title": "Nkwenye na ọnụ ụzọ nchekwa",
+        "description": "Ụdị ndị na-aga ime gafere arụmọrụ, ike, na nyocha iwu tupu a kwado ha maka ntọhapụ."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Mmeghachi omume Loops",
+        "description": "Post-deployment telemetry na-agwa retraining ebumnuche, rollback mkpebi, na ọzọ iteration atụmatụ."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Real-Time Inference Services",
+        "description": "Low-latency APIs maka ngwa mmekọrịta na autoscaling, caching, na arịrịọ-larịị observability."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Ogbe na Gụgharia Amụma",
+        "description": "Ndokwa na ihe omume maka akara dị elu gafee nchịkọta na arụmọrụ arụmọrụ."
+      },
+      "edgeAwareDeployment": {
+        "title": "Edge-Aware Deployment",
+        "description": "Hybrid ígwé ojii-onu na-eje ozi nakawa etu esi maka gburugburu ebe obibi na-achọ mpaghara inference na centralized nlereanya ọchịchị."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI / CD maka ụdị",
+        "description": "Akpaghị aka na-ewu, nwalee, na ịhapụ workflows na-ebelata ihe ize ndụ nnyefe mgbe ị na-echekwa ọsọ nnyefe."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Model ndekọ na Lifecycle",
+        "description": "Versioned nlereanya artifacts na nkwalite nkebi, lineage, na ihu ọma workflows melite akara na traceability."
+      },
+      "servingInfrastructure": {
+        "title": "Na-eje ozi akụrụngwa",
+        "description": "Scalable na-eje ozi n'ígwé na rollout azum dị ka canary na onyinyo deployments na-akwado mma mgbanwe management."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Amụma àgwà na drift nchọpụta",
+      "latencyThroughputAndCostEfficiencyTracking": "Latency, throughput, na na-eri oru oma nsuso",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Data quality regression alerts na remediation workflows",
+      "auditabilityForComplianceAndIncidentAnalysis": "Auditability maka nnabata na nyocha ihe omume"
+    },
+    "cta": {
+      "title": "Scale etinyere AI na ntụkwasị obi",
+      "description": "Ọ bụrụ na ị na-eme atụmatụ atụmatụ AI nke chọrọ nsonaazụ a pụrụ ịtụle na ịnọgide na-enwe ogologo oge, Horizon nwere ike inye aka chepụta ma rụọ ọrụ usoro ndụ usoro zuru oke.",
+      "primary": "Kpọtụrụ ndị otu anyị",
+      "secondary": "Explore More Lab Work"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "NLP dị iche iche",
+      "description": "Nyochaa ikike nhazi asụsụ eke bara uru na otu ha si abanye n'ime usoro mmepụta asụsụ a pụrụ ịdabere na ya.",
+      "back": "Laghachi na Innovation Lab",
+      "tags": {
+        "demo": "Ngosi mmekọrịta",
+        "intelligence": "Ọgụgụ isi asụsụ"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "NLP Ntọala",
+        "description": "Nhazi asụsụ sitere n'okike na-ejikọta akara asụsụ na mmụta igwe iji wepụ ihe ọ pụtara, ebumnuche, na usoro site na ederede."
+      },
+      "workbench": {
+        "title": "Mmekọrịta NLP Workbench",
+        "description": "Jiri ngosi iji nwalee nchọpụta asụsụ, akara mmetụta, mmịpụta ihe, na omume ntụgharị na ezigbo oge."
+      },
+      "productionApplications": {
+        "title": "Olee otú Horizon si etinye NLP na mmepụta",
+        "description": "A na-ejikọta ikike NLP n'ime ọrụ azụmahịa na nchebe arụmọrụ na metrik doro anya."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Ntụkwasị obi na Ụkpụrụ Ọchịchị",
+        "description": "Mmepụta NLP chọrọ ihe karịrị ogo nlereanya; Ọ na-adabere na usoro nchebe na nkwenye na-aga n'ihu."
+      }
+    },
+    "foundations": {
+      "intro1": "Usoro NLP nke oge a na-akwado akpaaka, mkpa ọchụchọ, mmịpụta ihe ọmụma, na mmekorita ọtụtụ asụsụ. Mmejuputa iwu dị irè chọrọ ma ogo nlereanya na njikwa arụmọrụ siri ike.",
+      "intro2": "Na Horizon, anyị na-elekwasị anya na sistemụ NLP na-agwụ agwụ nke na-ejikọta nghọta siri ike na nlereanya, ọchịchị, na mmetụta mmepụta a pụrụ ịtụle."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Nchọpụta asụsụ",
+        "description": "Na-achọpụta asụsụ site na akụkụ ederede dị mkpirikpi ma ọ bụ ogologo iji mee ka arịrịọ banye na pipeline nhazi ziri ezi."
+      },
+      "sentimentAnalysis": {
+        "title": "Mmetụta Analysis",
+        "description": "Na-ewepụta ebumnuche mmetụta uche na polarity maka ọgụgụ isi ndị ahịa, nkwado nhazi, na nzaghachi ngwaahịa."
+      },
+      "entityExtraction": {
+        "title": "Entity mmịpụta",
+        "description": "Na-achọpụta ihe ndị a haziri ahazi dị ka aha, ụlọ ọrụ, ọnọdụ, na ụbọchị site na ederede ederede."
+      },
+      "translation": {
+        "title": "Nsụgharị",
+        "description": "Na-akwado ọtụtụ ọrụ site na ịsụgharị ederede onye ọrụ ma ọ bụ arụmọrụ mgbe ị na-ejigide ọnọdụ."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Nkwado na ọgụgụ isi tiketi",
+        "description": "Kọwaa arịrịọ ndị na-abata site na ngwa ngwa, ebumnuche, na mmetụta iji mee ka usoro na nzaghachi dị ngwa."
+      },
+      "governedContentOperations": {
+        "title": "Ọrụ ọdịnaya na-achịkwa",
+        "description": "Tinye ihe nzacha asụsụ na nyocha imeru ihe n'ókè na ebumnuche ncheta."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Nghọta azụmahịa ederede",
+        "description": "Chịkọta usoro sitere na akwụkwọ, nyocha, na nkwukọrịta iji kọwaa atụmatụ na mkpebi arụmọrụ."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Nyocha site n'iji ikpe",
+        "description": "A na-atụle ụdị ndị a na ngalaba datasets tupu e mee mkpebi ntọhapụ."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Nchebe ndị mmadụ",
+        "description": "Amụma dị elu gụnyere ụzọ nyocha, iwu mmụba, na akara ntụkwasị obi doro anya."
+      },
+      "continuousMonitoring": {
+        "title": "Nlekota na-aga n'ihu",
+        "description": "Drift, latency, na àgwà mmebi na-nọgidere na-aga n'ihu otú retraining na rollback bụ proactive."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Genetic Algorithm Simulation",
+      "description": "Nyochaa mgbakọ evolushọn na gburugburu ebe obibi mmekọrịta ma hụ otu ụkpụrụ ahụ si sụgharịa na sistemụ njikarịcha mmepụta.",
+      "back": "Laghachi na Innovation Lab",
+      "tags": {
+        "demo": "Ngosi mmekọrịta",
+        "optimizationScience": "Sayensị njikarịcha"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Ntọala sayensị",
+        "description": "Algọridim mkpụrụ ndụ ihe nketa bụ usoro njikarịcha nke ndị mmadụ sitere n'ike mmụọ nsọ site na nhọrọ okike na mgbanwe."
+      },
+      "interactiveEnvironment": {
+        "title": "Mmekọrịta evolushọn gburugburu ebe obibi",
+        "description": "Na-agba ọsọ ịme anwansị iji hụ ahụike ka mma ọgbọ site n'ọgbọ ma hụ etu nrụgide nhọrọ si emetụta nsonaazụ."
+      },
+      "productionUse": {
+        "title": "Olee otú Horizon si eji nke a na mmepụta",
+        "description": "Otu usoro ọchụchọ a na-eji eme ihe ngosi a na-eme ka pipeline njikarịcha etinyere na sistemụ arụmọrụ."
+      },
+      "applicationDomains": {
+        "title": "Ngalaba usoroiheomume sara mbara",
+        "description": "Njikarịcha evolushọn bara uru karịsịa na sistemụ nwere ebumnuche siri ike na ihe mgbochi na-emegiderịta onwe ha."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Kama ịchọ otu ihe ngwọta n'otu oge, mkpụrụ ndụ ihe nketa algọridim na-agbanwe ọnụ ọgụgụ dị iche iche nke ndị na-aga ime. A na-enyocha ọgbọ ọ bụla megide ọrụ ahụike ma nụchaa site na nhọrọ, crossover, na mgbanwe.",
+      "intro2": "Nke a na-eme ka ha dị irè maka nsogbu dị elu na ihe mgbochi ndị na-abụghị nke na-abụghị nke na-adịghị mma, ebe usoro deterministic na-aghọ ihe na-emebi emebi ma ọ bụ dị oke ọnụ."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Nhọrọ",
+        "description": "Ndị na-eme ihe nkiri dị elu nwere ike ịlanarị ma metụta ọgbọ na-esote."
+      },
+      "crossover": {
+        "title": "Crossover",
+        "description": "A na-ejikọta àgwà siri ike iji mepụta ihe ngwọta ọhụrụ nwere ike agwakọta."
+      },
+      "mutation": {
+        "title": "Mgbanwe",
+        "description": "A na-achịkwa randomness na-ewebata iche iche ka ọchụchọ ghara ịkwụsị gburugburu mpaghara optima."
+      },
+      "convergence": {
+        "title": "Njikọ",
+        "description": "N'ime ọtụtụ ọgbọ, ndị mmadụ na-aga n'ihu na ngwọta kwụsiri ike, nke dị elu."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Usoro ihe onwunwe",
+        "description": "Anyị na-eji usoro evolushọn iji bulie usoro ihe omume dị iche iche ebe ọchụchọ ike na-agaghị ekwe omume."
+      },
+      "architectureTuning": {
+        "title": "Nhazi ụkpụrụ ụlọ",
+        "description": "A na-enyocha nhazi akụrụngwa nke ndị na-aga ime iji melite arụmọrụ na arụmọrụ ọnụahịa."
+      },
+      "continuousOptimization": {
+        "title": "Njikarịcha na-aga n'ihu",
+        "description": "Ọrụ njikarịcha na-agba ọsọ na loops a na-achịkwa na nzaghachi telemetry ka usoro wee gbanwee ka profaịlụ ọchịchọ na-agbanwe."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Route & Logistics Planning",
+        "description": "Nnyefe dị mgbagwoju anya na atụmatụ izipu na-erite uru site na ọchụchọ evolushọn mgbe ihe mgbochi na-agbanwe ngwa ngwa."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Model na Hyperparameter Search",
+        "description": "Nchọpụta mkpụrụ ndụ ihe nketa nwere ike ịchọpụta nhazi ụdị dị elu mgbe ebumnobi na-eme mkpọtụ na nke na-abụghị akara."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Pọtụfoliyo na Nsogbu Nkesa",
+        "description": "Njikarịcha n'okpuru asọmpi mgbaru ọsọ nwere ike framed dị ka mma tradeoffs gafee evolving nwa akwukwo tent."
+      }
+    }
+  }
+}

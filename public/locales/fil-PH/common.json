@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Tahanan",
+    "company": "Kumpanya",
+    "solutions": "Mga Solusyon",
+    "resources": "Mga Mapagkukunan",
+    "innovationLab": "Innovation Lab",
+    "contact": "Makipag-ugnay",
+    "about": {
+      "title": "Tungkol sa",
+      "description": "Ang aming misyon, pangitain, at kuwento"
+    },
+    "team": {
+      "title": "Koponan",
+      "description": "Kilalanin ang mga tao sa likod ng Horizon Tech"
+    },
+    "careers": {
+      "title": "Mga Karera",
+      "description": "Sumali sa aming koponan at bumuo ng hinaharap"
+    },
+    "enterpriseSoftware": {
+      "title": "Pag-unlad ng Software ng Enterprise",
+      "description": "Pasadyang mga aplikasyon ng enterprise na may mga modernong balangkas"
+    },
+    "aiMl": {
+      "title": "AI, ML at Business Intelligence",
+      "description": "Kumpletuhin ang mga pipeline ng AI / ML at mga dashboard ng BI"
+    },
+    "cloudArchitecture": {
+      "title": "Arkitektura at Imprastraktura ng Cloud",
+      "description": "Mga solusyon sa multi-cloud at orkestrasyon ng lalagyan"
+    },
+    "iot": {
+      "title": "IoT at Edge Computing",
+      "description": "Mga konektadong ecosystem ng aparato at digital twins"
+    },
+    "devops": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Mga pipeline ng CI / CD at imprastraktura bilang code"
+    },
+    "digitalTransformation": {
+      "title": "Digital na Pagbabagong-anyo at Diskarte",
+      "description": "Mga roadmap at payo sa pagbabagong-anyo ng negosyo"
+    },
+    "caseStudies": {
+      "title": "Mga Pag-aaral ng Kaso",
+      "description": "Mga kwento ng tagumpay mula sa aming mga kliyente",
+      "featured": {
+        "title": "Itinatampok na Pag-aaral ng Kaso",
+        "description": "Malalim na pagsisid sa isang buong pakikipag-ugnayan sa paghahatid"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Mga pananaw, tutorial, at mga uso sa industriya",
+      "featured": {
+        "title": "Itinatampok na Post sa Blog",
+        "description": "Basahin ang isa sa aming pinakabagong mga pananaw sa engineering"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Pangkalahatang-ideya ng Innovation Lab",
+      "description": "Tingnan ang lahat ng mga lugar ng pananaliksik at mga track ng eksperimento"
+    },
+    "innovationLabAiSystems": {
+      "title": "Inilapat na Mga Sistema ng AI",
+      "description": "Mga pattern ng arkitektura ng pag-aaral ng makina na handa na sa produksyon"
+    },
+    "innovationLabNlp": {
+      "title": "Multi-Wika NLP",
+      "description": "Interactive na mga kakayahan sa pagproseso ng natural na wika"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Genetic Algorithm Simulation",
+      "description": "Ebolusyonaryong pag-optimize sa isang interactive na kapaligiran"
+    },
+    "navigation": "Nabigasyon",
+    "skipToContent": "Email Address *",
+    "toggleMenu": "Email Address *",
+    "dashboard": "Dashboard",
+    "myWorkspace": "Email Address *",
+    "profile": "Profile",
+    "adminPanel": "Admin Panel",
+    "practiceManagement": "Pamamahala ng Pagsasanay",
+    "logOut": "Email Address *",
+    "education": {
+      "title": "Mga Teknikal na Mapagkukunan",
+      "description": "Mga gabay, tutorial, at pinakamahusay na kasanayan mula sa koponan ng Horizon Tech"
+    },
+    "support": {
+      "title": "Sentro ng Suporta",
+      "description": "Humingi ng Tulong sa Aming Mga Serbisyo sa Pag-unlad ng Software"
+    }
+  },
+  "footer": {
+    "description": "Startup ng pag-unlad ng software na nakabase sa Sarajevo, Bosnia. Nagtatayo kami ng pasadyang software, mga solusyon sa AI / ML, arkitektura ng ulap, at mga sistema ng automation.",
+    "features": "Mga Tampok",
+    "resources": "Mga Mapagkukunan",
+    "company": "Kumpanya",
+    "legal": "Legal",
+    "dashboard": "Dashboard",
+    "components": "Mga Bahagi",
+    "documentation": "Dokumentasyon",
+    "apiReference": "Sanggunian sa API",
+    "gettingStarted": "Pagsisimula",
+    "examples": "Mga halimbawa",
+    "community": "Komunidad",
+    "blog": "Blog",
+    "caseStudies": "Mga Pag-aaral ng Kaso",
+    "innovationLabOverview": "Pangkalahatang-ideya ng Innovation Lab",
+    "appliedAiSystems": "Inilapat na Mga Sistema ng AI",
+    "nlpDemo": "Multi-Wika NLP",
+    "geneticAlgorithmSimulation": "Genetic Algorithm Simulation",
+    "featuredBlogPost": "Itinatampok na Post sa Blog",
+    "featuredCaseStudy": "Itinatampok na Pag-aaral ng Kaso",
+    "about": "Tungkol sa",
+    "contact": "Makipag-ugnay",
+    "partners": "Mga Kasosyo",
+    "careers": "Mga Karera",
+    "privacyPolicy": "Patakaran sa Pagkapribado",
+    "termsOfService": "Mga Tuntunin ng Serbisyo",
+    "cookiePolicy": "Patakaran sa Cookie",
+    "license": "Lisensya",
+    "copyright": "© {{year}} Horizon Tech. Lahat ng karapatan ay nakalaan.",
+    "subscribe": "Email Address *"
+  },
+  "header": {
+    "badge": "Mga Solusyon sa Teknolohiya ng Enterprise",
+    "titleLine1": "Baguhin ang Iyong Negosyo gamit ang",
+    "titleLine2": "Pagputol ng Teknolohiya",
+    "description": "Mula sa pag-unlad ng software ng enterprise at katalinuhan ng negosyo na pinalakas ng AI hanggang sa imprastraktura ng ulap at mga solusyon sa IoT - naghahatid kami ng komprehensibong mga serbisyo sa teknolohiya na nagtutulak ng pagbabago at mapabilis ang paglago.",
+    "getStarted": "Email Address *",
+    "exploreSolutions": "Galugarin ang Mga Solusyon",
+    "trustedBy": "Pinagkakatiwalaan ng mga Negosyo na Nag-iisip ng Pasulong",
+    "microsoftPartner": "Kasosyo sa Microsoft",
+    "azureCertified": "Sertipikado ng Azure",
+    "enterpriseSolutions": "Mga Solusyon sa Enterprise"
+  },
+  "mobileNav": {
+    "navigation": "Mobile navigation",
+    "home": "Tahanan",
+    "solutions": "Mga Solusyon",
+    "caseStudies": "Mga Kaso",
+    "aiSystems": "AI Lab",
+    "blog": "Blog",
+    "resources": "Mga Mapagkukunan",
+    "contact": "Makipag-ugnay"
+  },
+  "sideNav": {
+    "scroll": "Mag-scroll",
+    "navigateTo": "Mag-navigate sa {{section}}",
+    "sections": {
+      "home": "Tahanan",
+      "solutions": "Mga Solusyon",
+      "credibility": "Kredibilidad",
+      "partners": "Mga Kasosyo",
+      "caseStudies": "Mga Pag-aaral ng Kaso",
+      "blog": "Blog",
+      "innovationLab": "Innovation Lab",
+      "faq": "FAQ"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Lumipat ng wika",
+    "searchPlaceholder": "Paghahanap ng wika ...",
+    "noResults": "Walang natagpuan na mga wika."
+  },
+  "common": {
+    "menu": "Email Address *",
+    "account": "Account"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Kamakailang Pag-aaral ng Kaso",
+      "description": "Isang snapshot ng mga kinalabasan ng paghahatid sa fintech, pangangalagang pangkalusugan, logistik, at mga programa sa pampublikong sektor.",
+      "cta": "Tingnan ang Lahat ng Pag-aaral ng Kaso"
+    },
+    "blog": {
+      "title": "Pinakabagong Mula sa Aming Blog",
+      "description": "Praktikal na mga tala sa engineering mula sa kamakailang AI, platform, at gawaing paghahatid ng ulap.",
+      "cta": "Basahin ang Lahat ng Mga Artikulo"
+    },
+    "innovationLab": {
+      "title": "Innovation Lab",
+      "description": "Galugarin ang mga prototype, eksperimento, at inilapat na mga proyekto ng R&D mula sa koponan ng engineering ng Horizon Tech.",
+      "cta": "Galugarin ang Innovation Lab"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Basahin ang Pag-aaral ng Kaso",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Pangangalagang pangkalusugan",
+      "logistics": "Logistik",
+      "manufacturing": "Pagmamanupaktura",
+      "government": "Pamahalaan"
+    }
+  },
+  "blogCard": {
+    "read": "Basahin"
+  }
+}

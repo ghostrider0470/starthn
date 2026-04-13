@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "എല്ലാം"
+  },
+  "categories": {
+    "aiEngineering": "AI എഞ്ചിനീയറിംഗ്",
+    "enterpriseArchitecture": "എന്റർപ്രൈസ് ആർക്കിടെക്ചർ",
+    "cloudDevOps": "ക്ലൗഡ് & DevOps",
+    "automationSystems": "ഓട്ടോമേഷൻ സിസ്റ്റങ്ങൾ",
+    "softwareReliabilityDesign": "സോഫ്റ്റ്വെയർ വിശ്വാസ്യതയും രൂപകൽപ്പനയും"
+  },
+  "readTime": "{{minutes}} മിനിറ്റ് വായിക്കുക",
+  "tagsLabel": "ടാഗുകൾ",
+  "relatedPosts": "ബന്ധപ്പെട്ട പോസ്റ്റുകൾ",
+  "author": {
+    "role": "പ്രസാധകൻ"
+  },
+  "editor": {
+    "emptyPreview": "ഒരു പ്രിവ്യൂ കാണാൻ എഴുതാൻ തുടങ്ങുക..."
+  },
+  "tags": {
+    "llmOps": "എൽ എൽ എം ഓപ്സ്",
+    "promptEngineering": "പ്രോംപ്റ്റ് എഞ്ചിനീയറിംഗ്",
+    "observability": "നിരീക്ഷണക്ഷമത",
+    "safety": "സുരക്ഷ",
+    "domainDesign": "ഡൊമെയ്ൻ ഡിസൈൻ",
+    "integration": "സംയോജനം",
+    "governance": "ഭരണം",
+    "platformStrategy": "പ്ലാറ്റ്ഫോം തന്ത്രം",
+    "platformEngineering": "പ്ലാറ്റ്ഫോം എഞ്ചിനീയറിംഗ്",
+    "ciCd": "CI/CD",
+    "kubernetes": "കുബെർനെറ്റ്സ്",
+    "developerExperience": "ഡെവലപ്പർ അനുഭവം",
+    "eventDriven": "ഇവന്റ് നയിക്കുന്നത്",
+    "workflowOrchestration": "വർക്ക്ഫ്ലോ ഓർക്കസ്ട്രേഷൻ",
+    "controlPlanes": "നിയന്ത്രണ വിമാനങ്ങൾ",
+    "resilience": "പ്രതിരോധശേഷി",
+    "sre": "എസ്.ആർ.ഇ.",
+    "slos": "എസ്.എൽ.ഒകൾ",
+    "failureModes": "പരാജയ രീതികള്",
+    "resilienceEngineering": "റെസിലിയൻസ് എഞ്ചിനീയറിംഗ്",
+    "evaluation": "മൂല്യനിർണ്ണയം",
+    "qualityEngineering": "ക്വാളിറ്റി എഞ്ചിനീയറിംഗ്",
+    "datasets": "ഡാറ്റാസെറ്റുകൾ",
+    "releaseManagement": "റിലീസ് മാനേജ്മെന്റ്",
+    "incidentManagement": "ഇൻസിഡന്റ് മാനേജ്മെന്റ്",
+    "architectureEvolution": "വാസ്തുവിദ്യ പരിണാമം",
+    "riskReduction": "അപകടസാധ്യത കുറയ്ക്കൽ",
+    "postmortems": "പോസ്റ്റ്മോർട്ടം",
+    "progressiveDelivery": "പുരോഗമന ഡെലിവറി",
+    "canaryReleases": "കാനറി റിലീസുകൾ",
+    "featureFlags": "ഫീച്ചർ ഫ്ലാഗുകൾ"
+  }
+}

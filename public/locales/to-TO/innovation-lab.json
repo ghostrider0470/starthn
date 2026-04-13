@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Loki Fakasaienisi Foʻou",
+    "description": "Vakaiʻi ʻa e ngaahi fakaʻaliʻali fengaueʻaki, ngaahi ʻahiʻahi, mo e ngaahi fakaʻaliʻali fakatekinikale mei heʻemau timi ʻenisinia.",
+    "primary": "Vakaiʻi ʻa e Ngaahi Fakaʻaliʻali",
+    "secondary": "Vakai ki he Fekumi"
+  },
+  "overview": {
+    "hero": {
+      "title": "Loki Fakasaienisi Foʻou",
+      "description": "ʻOku mau vakaiʻi ʻa e ngaahi fakangatangata ʻaonga ʻi he AI, automation, mo e ngaahi polokalama tufaki, pea liliu leva ʻa e fakatotolo kuo fakamoʻoniʻi ki he ngaahi meʻa falalaʻanga ʻoku malava ke faʻu.",
+      "primary": "Vakaiʻi ʻa e ngaahi feituʻu fakatotolo",
+      "secondary": "Aleaʻi ha Fengaueʻaki"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Ngaahi ʻElia ʻo e Fekumi",
+        "description": "ʻOku hanga ʻe he feituʻu takitaha ʻo fakahoa ʻa e fekumi fakatotolo mo e ngaahi founga fakahoko kuo fokotuʻutuʻu ki he ngaahi polokalama moʻoni.",
+        "cardCta": "Vakaiʻi ʻa e tokanga"
+      },
+      "detailedFocusBriefs": {
+        "title": "Ngaahi Fakamatala Fakaikiiki ʻo e Tokanga",
+        "description": "ʻOku lolotonga ngaʻunu ʻa e ngaahi ngaue fakatotolo taimi ofi mai mei hono fakapapauʻi ʻo e langa ki he ngaahi palani ʻoku fakahoko."
+      },
+      "fromLabToProduction": {
+        "title": "Mei he Lab ki he Production",
+        "description": "ʻOku fakafuofuaʻi ʻa e ʻilo foʻou ʻi he Horizon ʻaki ʻa e ngaahi ola ʻoku fakafolau atu, kae ʻikai ko ha ngaahi sipinga makehe."
+      },
+      "roadmap": {
+        "title": "R&D Roadmap",
+        "description": "Ko ha fakalakalaka fakahokohoko mei hono langa hake ʻo e malava ki he adaptive, hokohoko atu hono fakaleleiʻi ʻo e ngaahi polokalama."
+      },
+      "publications": {
+        "title": "Ngaahi Pulusi mo e Ngaahi ʻIlo",
+        "description": "Tohi fakatekinikale mo hono fakahoko ʻo e ngaahi fakamatala mei he ngaue foʻou ʻoku hoko."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Ngaahi polokalama AI ʻoku fakaʻaongaʻi",
+        "description": "ʻOku fakatefito ʻa e ngaahi fokotuʻutuʻu ʻo e AI ʻoku fakatefito ʻi he faʻufaʻu ʻo e sipinga ʻo e ngaue, fokotuʻutuʻu ʻo e fotunga, mo e ʻahiʻahiʻi ʻoku puleʻi."
+      },
+      "automationFrameworks": {
+        "title": "Ngaahi Fokotuʻutuʻu ʻo e Automation",
+        "description": "Internal automation tooling for deployment safety, incident response, and repeatable engineering workflows."
+      },
+      "advancedArchitecture": {
+        "title": "ʻAhiʻahiʻi ʻo e Langa Maʻolunga",
+        "description": "Fekumi ki he ngaahi fokotuʻutuʻu ʻoku tufaki mo tufaki optimized ki he ngaue, katakiʻi ʻo e fehalaaki, mo e meʻafua."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Poto ʻi he tapa ki he tuʻutuʻuni maʻulalo ʻo e latency, ngaue ki he telemetry, mo e fakafekauʻaki ʻo e ngaahi meʻangaue."
+      },
+      "nlp": {
+        "title": "Ngaue ki he Lea Fakanatula",
+        "description": "Ngaahi founga mahino ʻi he ngaahi lea kehekehe ki he fakakalakalafi, toʻo hingoa ʻo e tohi, liliu lea, mo e ngaahi founga fetalanoaʻaki."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Evolutionary Algorithms & Optimization",
+        "description": "Fekumi mo e optimization ʻo e ngaahi polokalama naʻe ueʻi ʻe he fili fakanatula ke fakaleleiʻi ʻa e ngaahi palopalema fakaʻenisinia maʻolunga."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Ngaahi Fokotuʻutuʻu ʻo e Automation",
+        "description": "ʻOku mau faʻu ʻa e composable workflow frameworks ki he tukuange orchestration, quality gates, mo e fakapapauʻi hili ʻa e deploy ke fakasiʻisiʻi ʻa e fepakipaki ʻi he manual lolotonga hono fakaleleiʻi ʻo e falalaʻanga."
+      },
+      "advancedArchitecture": {
+        "title": "ʻAhiʻahiʻi ʻo e Langa Maʻolunga",
+        "description": "ʻOku nofotaha ʻetau ngaahi ʻahiʻahi ʻi he ngaahi founga ngaue ki he decomposition ʻo e ngaue, ngaahi sipinga ʻo e resiliency fakavahaʻapuleʻanga, mo e ngaahi sila ngaue ki he ngaahi polokalama ʻoku ngaue ʻi he malumalu ʻo e fie maʻu volatile."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "ʻOku mau fakapapauʻi ʻa e ngaahi fokotuʻutuʻu ʻo e ngaahi meʻa ʻoku hoko ʻi he streaming mo e edge inference ʻa ia ʻoku ne fakaʻata ʻa e ngaahi tuʻutuʻuni fakalotofonua vave ange lolotonga ia ʻoku kei tauhi pe ʻa e puleʻi ʻo e centralized, ʻaotita, mo e puleʻi ʻo e moʻui ʻo e sipinga."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Palani ʻo e Malava ke Liliu",
+        "description": "ʻOku fakapapauʻi ʻa e ngaahi prototypes ʻo e loki fakasaienisi ki he ngaahi ngaue simulated pea toki fakakau ki he ngaahi founga autoscaling ʻo e platform."
+      },
+      "operationalIntelligence": {
+        "title": "Operational Intelligence",
+        "description": "ʻOku hiki ʻa e ngaahi pipeline NLP mei he ngaahi ʻahiʻahi ʻoku puleʻi ki he ngaahi founga ngaue tokoni ki he faʻu ke vave ange ʻa e triage mo e ngaahi ʻilo mahino ange."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Optimization ʻi he Delivery Systems",
+        "description": "ʻOku liliu ʻa e ngaahi founga evolutionary naʻe siviʻi ʻi he loki fakasaienisi ki he ngaahi misini optimization ki he taimi-tepile mo e vahevahe."
+      },
+      "edgeDecisioning": {
+        "title": "Tuʻutuʻuni ʻi he Tapa",
+        "description": "ʻOku fakafefeka ʻa e ngaahi ʻahiʻahi ʻo e IoT mo e edge inference ki he ngaahi ngaue maʻulalo mo e ngaahi fakangatangata fefeka ʻo e falalaʻanga."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "ʻI he taimi ni",
+        "title": "Fakavaʻe ʻo e AI ʻoku fakaʻaongaʻi",
+        "description": "Fakalahi ʻa e ngaahi sipinga ʻoku lava ke toe fakaʻaongaʻi, ngaahi suite ʻo e fakafuofuaʻi, mo e ngaahi tuʻunga moʻui ʻo e observability ʻi he ngaahi timi koloa."
+      },
+      "next": {
+        "phase": "Hoko",
+        "title": "Ngaahi Founga Ngaue ʻa e ʻEnisinia Tauʻataina",
+        "description": "Operationalize automation frameworks ʻoku ne fakasiʻisiʻi ʻa e tuʻunga fakatuʻutamaki ʻo e deployment mo fakanounouʻi ʻa e feedback loops ki he fakafolau atu."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "Mahina ʻe 12-18",
+        "title": "Edge-Native Intelligence",
+        "description": "Fua ʻa e hybrid cloud-edge architectures ki he inference ofi ki he taimi moʻoni ʻi he ngaahi ʻatakai ʻoku ongoʻingofua ʻa e latency."
+      },
+      "longHorizon": {
+        "phase": "Tafaʻaki Langi Loloa",
+        "title": "Hokohoko atu ʻo e Optimization Systems",
+        "description": "Fakatahatahaʻi ʻa e ʻahiʻahi, vakaiʻi, mo e optimization koeʻuhi ke lava ʻa e ngaahi polokalama ʻo liliu ʻi he liliu ʻa e ngaahi tukunga ʻo e ngaue."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "ʻEnisinia ʻo e ngaahi polokalama AI ʻoku falalaʻanga ʻi hono ngaohi",
+        "summary": "Ko ha fakakaukau ʻaonga ki hono potupotutatau ʻo e vave ʻo e ʻahiʻahiʻi mo hono puleʻi ʻo e ngaohiʻanga koloa.",
+        "cta": "Lau ʻa e ngaahi fakakaukau"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Ngaahi Sipinga ʻo e Fokotuʻutuʻu Tufaki ki he Ngaahi Tuʻunga Tupulaki Maʻolunga",
+        "summary": "Naʻe fakatefito ʻa e ngaahi fakamatala mei he ngaahi ʻahiʻahi ʻo e langa ʻi he ngaue, tuʻunga taʻeueʻia, mo e faingofua ʻo e ngaue.",
+        "cta": "Toe vakaiʻi ʻa e ngaahi meʻa ke ako"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping Applied R&D for Business Outcomes",
+        "summary": "Ko e founga ʻoku tau fokotuʻutuʻu ai ʻa e ngaahi ngaue foʻou koeʻuhi ke hiki ʻa e ngaahi ʻilo mei he sipinga ki he mahuʻinga ʻoku lava ke fuatautau.",
+        "cta": "Vakaiʻi ʻa e ngaahi tohi"
+      }
+    },
+    "cta": {
+      "title": "Langa mo e Horizon Innovation Lab",
+      "description": "Ngaue fakataha mo kimautolu ke fakapapauʻi vave ʻa e ngaahi fakakaukau mahuʻinga pea ʻunuakiʻi ʻa e ngaahi fakakaukau kuo ʻosi fakamoʻoniʻi ki ha ngaahi founga faʻu ʻoku malu mo scalable.",
+      "primary": "Kamata ha Fepotalanoaʻaki",
+      "secondary": "Vakai ki he Ngaahi Ola ʻo e Delivery"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Ngaahi polokalama AI ʻoku fakaʻaongaʻi",
+      "description": "Ko ha vakai fakalukufua ki he founga ʻoku fokotuʻutuʻu, deploys, mo fakalele ʻe he Horizon ʻa e ngaahi polokalama ako fakamisini mei he prototype ki hono ngaohi.",
+      "back": "Foki ki he Innovation Lab",
+      "tags": {
+        "appliedAi": "Fakaʻaongaʻi ʻo e AI",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Pipelines ʻo e Ako ʻo e Misini",
+        "description": "ʻOku kamata ʻa e Production AI ʻaki ʻa e ngaahi pipeline reproducible ʻoku ne fakafehokotaki ʻa e fakamatala, ʻahiʻahiʻi, fakapapauʻi, mo e feedback."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Sipinga ʻo e Ngaahi Sipinga ʻo e Deployment",
+        "description": "ʻOku fili ʻa e founga ngaue ʻo makatuʻunga ʻi he ngaahi fie maʻu latency, mahuʻinga ʻo e pisinisi, mo e faingataʻa ʻo e ngaue."
+      },
+      "mlopsOperatingModel": {
+        "title": "Sipinga Ngaue ʻa e MLOps",
+        "description": "ʻOku fakapapauʻi ʻe he ngaahi founga MLOps ʻoku kei falalaʻanga, puleʻi, mo scalable ʻa e ngaahi polokalama AI ʻi he tupulaki hono fakaʻaongaʻi."
+      },
+      "monitoringAndReliability": {
+        "title": "Vakaiʻi mo e Falalaʻanga",
+        "description": "ʻOku tapuni ʻe he observability ʻa e siakale ʻi he vahaʻa ʻo e ʻulungaanga ʻo e sipinga mo e ngaahi ola ʻo e ngaue."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "ʻEnisinia ʻo e Fakamatala mo e Ngaahi Fotunga",
+        "description": "ʻOku hanga ʻe he versioned data ingestion, vakaiʻi ʻo e tuʻunga lelei, mo e ngaahi fakaʻuhinga ʻo e ngaahi meʻa ʻoku toe fakaʻaongaʻi ʻo fokotuʻu ha fakavaʻe falalaʻanga ki hono akoʻi ʻo e sipinga."
+      },
+      "modelDevelopment": {
+        "title": "Fakalakalaka ʻo e Sipinga",
+        "description": "ʻOku muimuiʻi ʻa e ngaahi ʻahiʻahi ʻaki ʻa e reproducible configurations, objective metrics, mo e ngaahi fakavaʻe ʻo e fakafehoanaki ʻotometi."
+      },
+      "validationAndSafetyGates": {
+        "title": "Ngaahi Matapa ʻo e Validation mo e Malu",
+        "description": "ʻOku paasi ʻa e ngaahi sipinga ʻo e kau kanititeiti ʻi he ngaahi sivi ʻo e ngaue, robustness, mo e tuʻutuʻuni kimuʻa pea toki fakangofua ke tukuange."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Ngaahi Fakamatala Fakalao ʻo e Ngaue",
+        "description": "ʻOku hanga ʻe he telemetry ʻo fakamatalaʻi ʻa e ngaahi meʻa ʻoku fakamuʻomuʻa ʻi hono toe akoʻi, ngaahi tuʻutuʻuni ki he rollback, mo e palani hono hoko."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Real-Time Inference Services",
+        "description": "Low-latency APIs ki he ngaahi polokalama fengaueʻaki mo e autoscaling, caching, mo e observability ʻo e kole."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Batch mo e Streaming Predictions",
+        "description": "Ngaahi pipeline kuo fakataimi-tepileʻi mo fakalele ʻa e ngaahi meʻa ʻoku hoko ki he maaka maʻolunga ʻi he analytics mo e ngaahi founga ngaue."
+      },
+      "edgeAwareDeployment": {
+        "title": "Fokotuʻutuʻu ʻo e Edge-Aware",
+        "description": "Hybrid cloud-edge serving patterns for environments required local inference and centralized model governance."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI/CD ki he Ngaahi Sipinga",
+        "description": "ʻOku fakasiʻisiʻi ʻe he langa, siviʻi, mo e tukuange ʻotometiki ʻa e tuʻunga fakatuʻutamaki ʻo e deployment kae kei tauhi pe ʻa e vave ʻo e ʻoatu."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Sipinga ʻo e Lesisita mo e Lifecycle",
+        "description": "ʻOku fakaleleiʻi ʻe he ngaahi sipinga ʻo e ngaahi meʻa ʻoku fakaʻaongaʻi mo e ngaahi tuʻunga tuʻuaki, laine mo e ngaahi founga ngaue ʻo e fakangofua ʻa e mapuleʻi mo e traceability."
+      },
+      "servingInfrastructure": {
+        "title": "Tokoni ki he Infrastructure",
+        "description": "ʻOku poupouʻi ʻe he scalable serving layers mo e ngaahi founga rollout hange ko e canary mo e shadow deployments ʻa e malu ʻo e puleʻi ʻo e liliu."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Tuʻunga lelei ʻo e kikite mo hono ʻiloʻi ʻo e drift",
+      "latencyThroughputAndCostEfficiencyTracking": "Latency, throughput, mo hono muimuiʻi ʻo e fakamole lelei",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Ngaahi fakatokanga ki he tuʻunga lelei ʻo e fakamatala mo e founga fakaleleiʻi",
+      "auditabilityForComplianceAndIncidentAnalysis": "Malava ke ʻaotitaʻi ʻa e talangofua mo e ʻanalaiso ʻo e meʻa ʻoku hoko"
+    },
+    "cta": {
+      "title": "Fua ʻo e AI ʻi he loto falala",
+      "description": "Kapau ʻoku ke palani ʻa e ngaahi polokalama AI ʻoku fie maʻu ke fuatautau ʻa e ngaahi ola mo e tauhi taimi loloa, ʻe lava ke tokoni ʻa e Horizon ki hono fokotuʻutuʻu mo fakalele ʻa e lifecycle kakato ʻo e polokalama.",
+      "primary": "Talanoa ki heʻemau timi",
+      "secondary": "Vakaiʻi ha ngaahi ngaue lahi ange ʻi he loki fakasaienisi"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "NLP Ngaahi Lea Fakavahaʻapuleʻanga",
+      "description": "Vakaiʻi ʻa e ngaahi meʻa ʻoku malava ke ngaue ʻaki ʻa e lea fakanatula mo e founga ʻoku nau fua ai ki he ngaahi founga falalaʻanga mo falalaʻanga ʻi he ngaahi lea kehekehe.",
+      "back": "Foki ki he Innovation Lab",
+      "tags": {
+        "demo": "Fakaʻaliʻali Fengaueʻaki",
+        "intelligence": "Poto ʻi he Lea Fakafonua"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Ngaahi Fakavaʻe ʻo e NLP",
+        "description": "ʻOku fakatahaʻi ʻe he founga ngaue ʻo e lea fakanatula ʻa e ngaahi fakaʻilonga ʻo e lea mo e ako fakamisini ke toʻo ʻa e ʻuhinga, taumuʻa, mo e faʻunga mei he fakamatala."
+      },
+      "workbench": {
+        "title": "Interactive NLP Workbench",
+        "description": "Fakaʻaongaʻi ʻa e demo ke siviʻi ʻa e ʻiloʻi ʻo e lea fakafonua, fakafuofuaʻi ʻo e ongo, toʻo hingoa ʻo e entity, mo e ngaahi toʻonga liliu lea ʻi he taimi moʻoni."
+      },
+      "productionApplications": {
+        "title": "Founga hono fakaʻaongaʻi ʻe he Horizon ʻa e NLP ʻi hono ngaohi",
+        "description": "ʻOku fakatahaʻi ʻa e ngaahi meʻa ʻoku malava ʻe he NLP ki he ngaahi founga ngaue ʻa e pisinisi mo e ngaahi meʻafua ʻo e tuʻunga lelei."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Ngaahi Tefitoʻi Moʻoni ʻo e Falalaʻanga mo e Puleʻi",
+        "description": "ʻOku fie maʻu ʻe he NLP ʻa e meʻa lahi ange ʻi he tuʻunga lelei ʻo e sipinga; ʻoku makatuʻunga ia ʻi he ngaahi founga malu mo e hokohoko atu hono fakapapauʻi."
+      }
+    },
+    "foundations": {
+      "intro1": "ʻOku poupouʻi ʻe he ngaahi polokalama NLP fakaonoponi ʻa e automation automation, fekumi, toʻo ʻilo mo e fengaueʻaki ʻi he ngaahi lea kehekehe. ʻOku fie maʻu ʻe hono fakahoko lelei ʻa e tuʻunga lelei ʻo e sipinga mo e puleʻi malohi ʻo e ngaue.",
+      "intro2": "ʻI he Horizon, ʻoku tau tokanga taha ki he ngaahi polokalama NLP ʻoku fakatahaʻi ai ʻa e inference malohi mo e observability, puleʻi, mo e ola ʻo e ngaohiʻanga koloa."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "ʻIloʻi ʻo e Lea Fakafonua",
+        "description": "ʻOku ne ʻiloʻi ʻa e lea mei he ngaahi konga nounou pe loloa ʻo e fakamatala ke ʻave ʻa e ngaahi kole ki he founga totonu ʻo e ngaue."
+      },
+      "sentimentAnalysis": {
+        "title": "ʻAnalaiso ʻo e Ongoʻi",
+        "description": "Toʻo ʻa e taumuʻa fakaeloto mo e polarity ki he poto ʻo e kasitomaa, triage ʻo e poupou, mo e ngaahi fakamatala ʻo e koloa."
+      },
+      "entityExtraction": {
+        "title": "Toʻo ʻo e Entity",
+        "description": "ʻOku ne ʻiloʻi ʻa e ngaahi meʻa kuo fokotuʻutuʻu hange ko e ngaahi hingoa, kautaha, ngaahi feituʻu, mo e ngaahi ʻaho mei he fakamatala ʻoku ʻikai fokotuʻutuʻu."
+      },
+      "translation": {
+        "title": "Liliu",
+        "description": "Poupouʻi ʻa e ngaahi founga ngaue ʻi he ngaahi lea kehekehe ʻaki hono liliu ʻo e fakamatala ʻoku faʻu ʻe he tokotaha fakaʻaongaʻi pe ngaue kae kei tauhi pe ʻa e kakano."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Tokoni mo e ʻIlo ʻo e Tikite",
+        "description": "Fakakalasi ʻa e ngaahi kole ʻoku hu mai ʻaki ʻa e fakavavevave, taumuʻa, mo e ongo ke fakavaveʻi ʻa e routing mo e tuʻunga lelei ʻo e tali."
+      },
+      "governedContentOperations": {
+        "title": "Puleʻi ʻo e Ngaahi Ngaue ki he Kakano",
+        "description": "Fakaʻaongaʻi ʻa e ngaahi meʻa sivi ʻo e lea ʻoku ʻiloʻi ʻe he tuʻutuʻuni mo e ngaahi sieke ʻo e moderation ʻaki ʻa e tonu mo e ngaahi taumuʻa ʻoku lava ke manatuʻi."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Text-Driven Business Insights",
+        "description": "Fakatahatahaʻi ʻa e ngaahi fetoʻaki mei he ngaahi fakamatala fakapepa, vakaiʻi, mo e ngaahi fetuʻutaki ke tokoni ki he ngaahi tuʻutuʻuni ki he palani mo e ngaue."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Fakafuofuaʻi ʻaki hono fakaʻaongaʻi",
+        "description": "ʻOku benchmarked ʻa e ngaahi sipinga ki he ngaahi fakamatala pau ʻo e domain kimuʻa pea toki fai ʻa e ngaahi tuʻutuʻuni ke tukuange."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Ngaahi Maluʻi ʻo e Tangata",
+        "description": "ʻOku kau ʻi he ngaahi tala ʻoku ʻaonga lahi ʻa e ngaahi hala vakaiʻi, ngaahi tuʻutuʻuni ʻo e fakalalahi mo e ngaahi fakaʻilonga mahino ʻo e falala."
+      },
+      "continuousMonitoring": {
+        "title": "Hokohoko hono Vakaiʻi",
+        "description": "ʻOku muimuiʻi maʻu pe ʻa e drift, latency, mo e holoa ʻo e tuʻunga lelei koeʻuhi ke vave ʻa e retraining mo e rollback."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Genetic Algorithm Simulation",
+      "description": "Vakaiʻi ʻa e computation evolutionary ʻi ha ʻatakai fengaueʻaki pea vakai ki he founga ʻoku liliu ai ʻa e ngaahi tefitoʻi moʻoni tatau ki he ngaahi founga optimization ʻo e production.",
+      "back": "Foki ki he Innovation Lab",
+      "tags": {
+        "demo": "Fakaʻaliʻali Fengaueʻaki",
+        "optimizationScience": "Saienisi ʻo e Optimization"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Fakavaʻe Fakasaienisi",
+        "description": "Ko e genetic algorithms ko ha ngaahi founga optimization ia ʻoku fakatefito ʻi he kakai ʻoku ueʻi fakalaumalie ʻe he fili fakanatula mo e fulihi."
+      },
+      "interactiveEnvironment": {
+        "title": "ʻAtakai ʻo e Evolution Fengaueʻaki",
+        "description": "Fakahoko ʻa e simulation ke sio ki he fakalakalaka ʻa e moʻui lelei ʻi he toʻu tangata ki he toʻu tangata pea vakaiʻi ʻa e founga ʻoku takiekina ai ʻe he malohi ʻo e fili ʻa e ola."
+      },
+      "productionUse": {
+        "title": "Ko e founga ʻoku fakaʻaongaʻi ai ʻeni ʻe he Horizon ʻi hono faʻu",
+        "description": "ʻOku hanga ʻe he ngaahi meʻa fekumi tatau pe ʻoku fakaʻaongaʻi ʻi he demo ko ʻeni ʻo fakahaaʻi ʻa e optimization pipelines ʻoku fakaʻaongaʻi ʻi he ngaahi polokalama ngaue."
+      },
+      "applicationDomains": {
+        "title": "Ngaahi Domain Fakaʻaongaʻi Fakalukufua",
+        "description": "ʻOku mahuʻinga ʻaupito ʻa e evolutionary optimization ʻi he ngaahi polokalama ʻoku ʻi ai ʻenau ngaahi taumuʻa malohi mo e ngaahi fakangatangata ʻoku fepakipaki."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "ʻOku ʻikai ke fekumi ki ha founga ʻe taha ʻi he taimi ʻe taha, ka ʻoku fakatupulaki ʻe he genetic algorithms ha kakai kehekehe ʻo e kau kanititeiti. ʻOku fakafuofuaʻi ʻa e toʻu tangata takitaha ʻo fakatatau ki he ngaue ʻa e moʻui lelei pea fakaleleiʻi ʻi he fili, crossover, mo e mutation.",
+      "intro2": "ʻOku ʻaonga ʻeni ki he ngaahi palopalema maʻolunga mo e ngaahi fakangatangata ʻoku ʻikai linear, ʻa ia ʻoku hoko ai ʻa e ngaahi founga deterministic ʻo pelepelengesi pe mamafa fakakomipiuta."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Fili",
+        "description": "Ko e kau kanititeiti tuʻukimuʻa ʻoku ngalingali te nau moʻui mo takiekina ʻa e toʻu tangata hoko."
+      },
+      "crossover": {
+        "title": "Kolosi",
+        "description": "ʻOku toe fakatahaʻi ʻa e ngaahi ʻulungaanga malohi ke faʻu ha ngaahi founga foʻou mo ha ngaahi malohinga ʻoku tuifio."
+      },
+      "mutation": {
+        "title": "Mutation",
+        "description": "ʻOku fakafeʻiloaki ʻe he puleʻi randomness ʻa e kehekehe koeʻuhi ke ʻoua naʻa tuʻu ʻa e fekumi ʻi he optima fakalotofonua."
+      },
+      "convergence": {
+        "title": "Fakatahatahaʻi",
+        "description": "ʻI he ngaahi toʻu tangata lahi, ʻoku fakahehema ʻa e kakai ki ha ngaahi founga tuʻumaʻu mo tuʻunga maʻolunga."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Taimi-tepile ʻo e Maʻuʻanga Tokoni",
+        "description": "ʻOku tau fakaʻaongaʻi ʻa e ngaahi founga evolutionary ke optimize ʻa e taimi-tepile ʻo e ngaahi fakangatangata kehekehe ʻi he feituʻu ʻoku ʻikai malava ai ʻa e fekumi ʻi he malohi ʻo e fefeka."
+      },
+      "architectureTuning": {
+        "title": "Fokotuʻutuʻu ʻo e Architecture",
+        "description": "ʻOku fakafuofuaʻi ʻa e fokotuʻutuʻu ʻo e fokotuʻutuʻu ke fakaleleiʻi ʻa e ngaue mo e tuʻunga lelei ʻo e fakamole"
+      },
+      "continuousOptimization": {
+        "title": "Hokohoko atu ʻa e optimization",
+        "description": "ʻOku lele ʻa e ngaahi ngaue optimization ʻi he ngaahi fuopotopoto ʻoku puleʻi mo e feedback telemetry koeʻuhi ke liliu ʻa e ngaahi polokalama ʻi he liliu ʻa e ngaahi fakamatala fakafoʻituitui ʻo e fie maʻu."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Palani ʻo e Hala mo e Logistics",
+        "description": "ʻOku ʻaonga ʻa e palani faingataʻa ʻo e tufaki mo e ʻave ʻo e ngaahi meʻa mei he fekumi ʻi he taimi ʻoku liliu vave ai ʻa e ngaahi fakangatangata."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Fekumi ki he Sipinga mo e Hyperparameter",
+        "description": "ʻE lava ke maʻu ʻe he fekumi fakakēnisi ʻa e ngaahi sīpinga lelei ʻi he taimi ʻoku longoaʻa mo ʻikai laine ai ʻa e ngaahi meʻa ʻoku fakataumuʻa ki aí."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Ngaahi Palopalema ʻo e Portfolio mo e Vahevahe",
+        "description": "ʻE lava ke fokotuʻutuʻu ʻa e optimization ʻi he ngaahi taumuʻa feʻauʻauhi ko ha tradeoffs ʻo e moʻui lelei ʻi he ngaahi seti ʻo e kau kanititeiti ʻoku feliliuaki."
+      }
+    }
+  }
+}

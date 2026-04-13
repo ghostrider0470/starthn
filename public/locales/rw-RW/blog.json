@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Byose"
+  },
+  "categories": {
+    "aiEngineering": "AI Engineering",
+    "enterpriseArchitecture": "Enterprise Architecture",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Automation Systems",
+    "softwareReliabilityDesign": "Software Reliability & Design"
+  },
+  "readTime": "{{minutes}} min read",
+  "tagsLabel": "Tags",
+  "relatedPosts": "Related Posts",
+  "author": {
+    "role": "Umwanditsi"
+  },
+  "editor": {
+    "emptyPreview": "Tangira wandike kugira ngo urebe ifoto y'urwibutso..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Prompt Engineering",
+    "observability": "Observability",
+    "safety": "Umutekano",
+    "domainDesign": "Domain Design",
+    "integration": "Kwishyira hamwe",
+    "governance": "Imiyoborere",
+    "platformStrategy": "Platform Strategy",
+    "platformEngineering": "Platform Engineering",
+    "ciCd": "CI / CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Ubunararibonye bw'abaterankunga",
+    "eventDriven": "Event-Driven",
+    "workflowOrchestration": "Workflow Orchestration",
+    "controlPlanes": "Indege zo kugenzura",
+    "resilience": "Kwihangana",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "Uburyo bwo gutsindwa",
+    "resilienceEngineering": "Resilience Engineering",
+    "evaluation": "Evaluation",
+    "qualityEngineering": "Ubuhanga bw'ubuziranenge",
+    "datasets": "Datasets",
+    "releaseManagement": "Release Management",
+    "incidentManagement": "Imicungire y'ibitero",
+    "architectureEvolution": "Architecture Evolution",
+    "riskReduction": "Kugabanya ibyago",
+    "postmortems": "Postmortems",
+    "progressiveDelivery": "Progressive Delivery",
+    "canaryReleases": "Canary Releases",
+    "featureFlags": "Feature Flags"
+  }
+}

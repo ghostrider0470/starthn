@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Svi"
+  },
+  "categories": {
+    "aiEngineering": "AI inženjering",
+    "enterpriseArchitecture": "Enterprise arhitektura",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Automatizacijski sistemi",
+    "softwareReliabilityDesign": "Pouzdanost i dizajn softvera"
+  },
+  "readTime": "{{minutes}} min čitanja",
+  "tagsLabel": "Oznake",
+  "relatedPosts": "Povezani članci",
+  "author": {
+    "role": "Izdavač"
+  },
+  "editor": {
+    "emptyPreview": "Počni pisati da vidiš najavu..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Prompt inženjering",
+    "observability": "Posmatranost",
+    "safety": "Sigurnost",
+    "domainDesign": "Dizajn domena",
+    "integration": "Integracija",
+    "governance": "Upravljanje",
+    "platformStrategy": "Strategija platforme",
+    "platformEngineering": "Inženjering platformi",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Iskustvo programera",
+    "eventDriven": "Događajima vođeno",
+    "workflowOrchestration": "Orkestracija radnog toka",
+    "controlPlanes": "Kontrolne ravni",
+    "resilience": "Otpornost",
+    "sre": "SRE",
+    "slos": "SLO",
+    "failureModes": "Načini kvara",
+    "resilienceEngineering": "Inženjering otpornosti",
+    "evaluation": "Evaluacija",
+    "qualityEngineering": "Inženjering kvaliteta",
+    "datasets": "Skupovi podataka",
+    "releaseManagement": "Upravljanje izdanjima",
+    "incidentManagement": "Upravljanje incidentima",
+    "architectureEvolution": "Evolucija arhitekture",
+    "riskReduction": "Smanjenje rizika",
+    "postmortems": "Obdukcije",
+    "progressiveDelivery": "Progresivna isporuka",
+    "canaryReleases": "Puštanja kanarinca",
+    "featureFlags": "Glavne zastave"
+  }
+}

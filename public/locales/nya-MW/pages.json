@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Zokhudza ife",
+    "hero": {
+      "titlePrefix": "Kumanga Ukadaulo wa Mawa,",
+      "titleHighlight": "Lero",
+      "description": "Horizon Tech d.o.o. ndi kampani yamakono yapadziko lonse lapansi yomwe ili ku Sarajevo, kupereka njira zothetsera mapulogalamu otsogola kwa makampani m'makontinenti atatu."
+    },
+    "sections": {
+      "mission": {
+        "title": "Ntchito",
+        "description": "Timathandiza mabungwe kutembenuza malingaliro ofunitsitsa kukhala mankhwala odalirika a digito omwe amapanga phindu la bizinesi loyezeka.",
+        "points": [
+          "Gwirizanitsani kupereka ukadaulo ndi zotsatira zomveka bwino zamalonda.",
+          "Pangani machitidwe a nthawi yayitali omwe amakhalabe osungidwa pamene magulu akukula.",
+          "Gwirizanani kwambiri ndi omwe akukhudzidwa kuchokera ku njira mpaka kuphedwa."
+        ]
+      },
+      "expertise": {
+        "title": "Ukadaulo",
+        "description": "Magulu athu osiyanasiyana amaphatikiza kuya kwa zomangamanga ndi kuganiza kwa mankhwala kudutsa nkhokwe zamakono zamakono.",
+        "points": [
+          "Zomangamanga zamakono zamakampani.",
+          "Zomangamanga zamtambo, makina a DevOps, ndi zomangamanga zolimba.",
+          "Kugwiritsa ntchito AI / ML, ntchito za deta, ndi mankhwala othandizira a IoT."
+        ]
+      },
+      "approach": {
+        "title": "Njira",
+        "description": "Timapha ndi chitsanzo chowonekera, cha iterative chomwe chimapangitsa kuti kupereka kukhale kodziwika bwino pamene kuchepetsa chiopsezo cha mankhwala.",
+        "points": [
+          "Pezani: fotokozani kukula, zofunika kwambiri, ndi kupambana koyambirira.",
+          "Kumanga: sitima mu increments lolunjika ndi mosalekeza mayankho loops.",
+          "Optimize: yang'anirani zotsatira ndikuwongolera magwiridwe antchito pakapita nthawi."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Takonzeka Kusintha Bizinesi Yanu?",
+      "description": "Lowani nawo mndandanda wokulirapo wa makampani omwe amakhulupirira Horizon Tech kuti apereke njira zatsopano ndi zotsatira zapadera.",
+      "primary": "Yambani",
+      "secondary": "Onani Nkhani Zopambana"
+    }
+  },
+  "contact": {
+    "badge": "Lumikizanani",
+    "hero": {
+      "title": "Lumikizanani nafe",
+      "description": "Kodi muli ndi polojekiti m'maganizo? Tikufuna kumva kuchokera kwa inu. Fikirani kuti mukambirane momwe tingathandizire kuti malingaliro anu akhale amoyo."
+    },
+    "info": {
+      "title": "Zambiri Zolumikizana"
+    },
+    "booking": {
+      "title": "Lembani Msonkhano",
+      "description": "Konzani kuyitana kwaulere kwa mphindi 30"
+    },
+    "methods": {
+      "email": {
+        "title": "Imelo",
+        "description": "Titumizireni imelo nthawi iliyonse",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Malo",
+        "description": "Zochokera ku",
+        "value": "Sarajevo, Bosnia ndi Herzegovina"
+      },
+      "response": {
+        "title": "Nthawi Yoyankha",
+        "description": "Nthawi zambiri timayankha mkati",
+        "value": "Maola 24-48"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Pulojekiti Yatsopano"
+      },
+      "support": {
+        "label": "Thandizo laukadaulo"
+      },
+      "partnerships": {
+        "label": "Mgwirizano"
+      },
+      "careers": {
+        "label": "Ntchito"
+      },
+      "general": {
+        "label": "Kufufuza Kwachisawawa"
+      }
+    },
+    "form": {
+      "title": "Titumizireni uthenga",
+      "success": "Zikomo chifukwa cha uthenga wanu. Tidzabwerera kwa inu mkati mwa maola 24-48.",
+      "error": "China chake chinalakwika. Chonde yesaninso kapena titumizireni imelo mwachindunji.",
+      "fullName": "Dzina lathunthu *",
+      "email": "Adilesi ya Imelo *",
+      "company": "Kampani",
+      "subject": "Nkhani *",
+      "message": "Uthenga *",
+      "placeholders": {
+        "name": "Dzina lako",
+        "email": "you@example.com",
+        "company": "Kampani yanu",
+        "subject": "Kodi tingathandize chiyani?",
+        "message": "Tiuzeni za polojekiti yanu kapena kufunsa kwanu..."
+      },
+      "validation": {
+        "required": {
+          "name": "Dzina lathunthu likufunika.",
+          "email": "Adilesi ya imelo ikufunika.",
+          "subject": "Chonde sankhani nkhani.",
+          "message": "Uthenga umafunika."
+        },
+        "email": "Chonde lowetsani adilesi ya imelo yovomerezeka.",
+        "messageMinLength": "Uthenga uyenera kukhala ndi zilembo zosachepera {{count}} zazitali."
+      },
+      "sending": "Kutumiza...",
+      "submit": "Tumizani Uthenga"
+    },
+    "reasonsTitle": "Chifukwa chiyani mukugwira nafe ntchito?",
+    "reasons": [
+      "Ukadaulo wathunthu wamapulogalamu",
+      "AI / ML ndi akatswiri a zomangamanga zamtambo",
+      "Kukula kwa Agile ndi kulumikizana kowoneka bwino",
+      "Thandizo lalitali ndi kukonza"
+    ],
+    "custom": {
+      "title": "Njira Zothetsera Mwambo",
+      "description": "Mukuyang'ana njira yothetsera vutoli? Timagwira ntchito limodzi ndi makasitomala kuti timvetsetse zosowa zapadera ndikupereka mapulogalamu amtundu womwe umayendetsa zotsatira zoyezeka.",
+      "cta": "Kambiranani Polojekiti Yanu"
+    },
+    "faq": {
+      "title": "Kodi muli ndi mafunso ambiri?",
+      "description": "Onani gawo lathu la FAQ kuti mupeze mayankho mwachangu",
+      "cta": "Sakatulani FAQs"
+    }
+  },
+  "team": {
+    "badge": "Gulu Lathu",
+    "hero": {
+      "titlePrefix": "Kumanani ndi Maganizo Kumbuyo",
+      "titleHighlight": "Horizon Chatekinoloje",
+      "description": "Gulu losiyanasiyana la akatswiri a zamakono, okonza mapulani, ndi akatswiri omanga zinthu zapamwamba za digito pamodzi."
+    },
+    "section": {
+      "title": "Gulu la Utsogoleri",
+      "description": "Atsogoleri odziwa bwino ntchito omwe akutsogolera masomphenya ndi kukula kwa Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Woyambitsa, CEO & CTO",
+        "bio": "Mtsogoleri wamasomphenya ndi katswiri waukadaulo wokhala ndi zaka 10 + mu mapulogalamu ogwira ntchito, okhazikika mu AI / ML, nsanja zamtambo, ndi zomangamanga zowonongeka.",
+        "expertise": [
+          "AI / ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Zomangamanga Zothetsera Mavuto",
+          "Zomangamanga za Mtambo"
+        ]
+      },
+      "ahmet": {
+        "role": "Chief Security Architect",
+        "bio": "Katswiri wa cybersecurity amayang'ana pa zomangamanga zachitetezo cha bizinesi, zomangamanga zotetezeka pamalopo, komanso kutsatira-koyamba kupereka kwa malo olamulidwa.",
+        "expertise": [
+          "Chitetezo cha Cyber",
+          "Machitidwe a On-Prem",
+          "Zomangamanga za Chitetezo",
+          "Kutsatira",
+          "Chitetezo cha Zomangamanga"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Imelo {{name}}",
+      "linkedin": "{{name}} Mbiri ya LinkedIn"
+    },
+    "culture": {
+      "title": "Moyo ku Horizon Tech",
+      "description": "Timalimbikitsa chikhalidwe cha zatsopano, mgwirizano, ndi kuphunzira kosalekeza",
+      "remoteFirst": {
+        "title": "Chikhalidwe Chakutali Choyamba",
+        "description": "Gwirani ntchito kuchokera kulikonse ndi maola osinthika ndikuyang'ana zotsatira, osati malo."
+      },
+      "collaborative": {
+        "title": "Malo Ogwirizana",
+        "description": "Zochitika zamagulu nthawi zonse, magawo ogawana chidziwitso, ndi mgwirizano wogwira ntchito."
+      },
+      "workLife": {
+        "title": "Kulinganizika kwa Ntchito ndi Moyo",
+        "description": "Ndondomeko yowolowa manja ya tchuthi, chithandizo cha matenda a maganizo, ndi kulemekeza nthawi yaumwini."
+      },
+      "innovation": {
+        "title": "Nthawi ya Innovation",
+        "description": "Nthawi ya 20% ya ntchito zaumwini, hackathons, ndikufufuza matekinoloje atsopano."
+      },
+      "stats": {
+        "teamMembers": "Mamembala a Gulu",
+        "countries": "Mayiko",
+        "techStacks": "Nkhokwe zamakono",
+        "remoteReady": "Kukonzekera Kutali"
+      }
+    },
+    "cta": {
+      "title": "Mukufuna kulowa nawo gulu lathu?",
+      "description": "Nthawi zonse timayang'ana anthu aluso omwe amasamala za luso, umwini, ndi luso.",
+      "button": "Lumikizanani"
+    }
+  },
+  "careers": {
+    "badge": "Lowani nawo Gulu Lathu",
+    "hero": {
+      "titlePrefix": "Pangani Tsogolo",
+      "titleHighlight": "Ndi Ife",
+      "description": "Lowani ndi gulu la mainjiniya omanga mapulogalamu otsogola kwa makasitomala apadziko lonse lapansi. Gwirani ntchito kutali, kukula mosalekeza, ndikupanga zotsatira zenizeni.",
+      "button": "Onani Maudindo"
+    },
+    "process": {
+      "title": "Ndondomeko Yathu Yolemba Ntchito",
+      "description": "Zowonekera, zogwira mtima, komanso zolemekeza nthawi yanu",
+      "steps": [
+        {
+          "title": "Gwiritsani ntchito",
+          "description": "Tumizani ntchito yanu ndipo tidzawunikanso mkati mwa masiku a bizinesi a 3."
+        },
+        {
+          "title": "Macheza Oyamba",
+          "description": "Kuyimbira kanema kwa mphindi 30 kuti mukambirane zomwe mwakumana nazo komanso zomwe mukuyembekezera."
+        },
+        {
+          "title": "Zaukadaulo",
+          "description": "Kuyankhulana kwaukadaulo kapena masewera olimbitsa thupi kuti muwonetse luso lanu."
+        },
+        {
+          "title": "Kupereka",
+          "description": "Kumanani ndi gulu ndikulandila mwayi wanu kuti mulowe nawo Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Maudindo otseguka",
+      "description": "Pezani mwayi wanu wotsatira ndikulowa nawo gulu lathu lomwe likukula",
+      "unavailable": "Osalandira zofunsira panthawiyi",
+      "apply": "Gwiritsani ntchito Tsopano",
+      "noMatch": "Simukuwona gawo langwiro?",
+      "sendCv": "Titumizireni CV yanu",
+      "listings": [
+        {
+          "title": "Injiniya Wamkulu Wathunthu",
+          "department": "Zomangamanga",
+          "location": "Kutali (EU Time Zones)",
+          "type": "Nthawi Zonse",
+          "description": "Pangani mapulogalamu ogwira ntchito pogwiritsa ntchito matekinoloje a React, Node.js, ndi mtambo.",
+          "tags": [
+            "Kuchitapo kanthu",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "Injiniya wa DevOps",
+          "department": "Zomangamanga",
+          "location": "Sarajevo / Kutali",
+          "type": "Nthawi Zonse",
+          "description": "Pangani ndi kusunga mapaipi a CI / CD, zomangamanga monga code, ndi njira zowunikira.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "Injiniya wa AI / ML",
+          "department": "Innovation Lab",
+          "location": "Kutali",
+          "type": "Nthawi Zonse",
+          "description": "Pangani zitsanzo zophunzirira makina ndi njira za AI kwa makasitomala ogwira ntchito.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Mlengi wa Mankhwala",
+          "department": "Kapangidwe",
+          "location": "Kutali",
+          "type": "Nthawi Zonse",
+          "description": "Pangani zochitika zokongola, zomveka bwino za ogwiritsa ntchito ntchito zovuta zamakampani.",
+          "tags": [
+            "Chithunzi cha Figma",
+            "Kafukufuku wa ogwiritsa ntchito",
+            "UI / UX",
+            "Machitidwe a Design"
+          ]
+        },
+        {
+          "title": "Njira Zothetsera Zomangamanga",
+          "department": "Zomangamanga",
+          "location": "Kutali",
+          "type": "Nthawi Zonse",
+          "description": "Pangani njira zamakono zothetsera mapeto ndikutsogolera makasitomala kudzera mu kusintha kwa digito.",
+          "tags": [
+            "Zomangamanga za Mtambo",
+            "Kapangidwe ka dongosolo",
+            "Kufunsira"
+          ]
+        },
+        {
+          "title": "Wolemba Zaukadaulo",
+          "department": "Ntchito",
+          "location": "Kutali",
+          "type": "Nthawi Yochepa",
+          "description": "Pangani zolemba zambiri, maphunziro, ndi ukadaulo.",
+          "tags": [
+            "Zolemba",
+            "Zolemba za API",
+            "Kulemba Kwaukadaulo"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Mafunso okhudza kugwira ntchito pano?",
+      "description": "Tikufuna kumva kuchokera kwa inu. Fikirani ndipo tidzayankha mafunso aliwonse okhudza moyo ku Horizon Tech.",
+      "button": "Lumikizanani nafe"
+    }
+  },
+  "caseStudies": {
+    "badge": "Nkhani Zopambana",
+    "hero": {
+      "titlePrefix": "Kupereka Zotsatira Zomwe",
+      "titleHighlight": "Nkhani",
+      "description": "Fufuzani momwe tathandizira makampani m'mafakitale onse kusintha ntchito kudzera mu teknoloji yothandiza, yapamwamba.",
+      "tags": {
+        "delivery": "Kutumiza kwa Zomangamanga",
+        "outcomes": "Zotsatira Zoyesedwa"
+      }
+    },
+    "stats": {
+      "projects": "Ntchito Zoperekedwa",
+      "clients": "Makasitomala Osangalala",
+      "efficiency": "Avg. Phindu Logwira Ntchito",
+      "retention": "Kusungidwa kwa Makasitomala"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Ntchito Zachuma",
+        "title": "Kusamuka kwa Mtambo ndi Zamakono",
+        "description": "Anasamutsa machitidwe akale a banki kupita ku zomangamanga zamtambo wa AWS ndi zero downtime.",
+        "challenge": "Zomangamanga za monolithic zomwe zimayambitsa mavuto a scalability",
+        "result": "Anasamukira bwinobwino ku microservices pa AWS",
+        "metrics": [
+          {
+            "label": "Kuchepetsa Mtengo",
+            "value": "40%"
+          },
+          {
+            "label": "Phindu la Ntchito",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Microservices",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech Solutions",
+        "industry": "Zaumoyo",
+        "title": "AI-Powered Diagnostic Platform",
+        "description": "Anamanga zitsanzo za ML zosanthula zithunzi zachipatala ndi 95% + molondola.",
+        "challenge": "Njira zowunikira pamanja zimatenga nthawi yayitali",
+        "result": "Makina odziwikiratu ndi AI / ML",
+        "metrics": [
+          {
+            "label": "Nthawi yopulumutsidwa",
+            "value": "70%"
+          },
+          {
+            "label": "Kulondola",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "Kuchitapo kanthu",
+          "Zaumoyo"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "E-Commerce Giant",
+        "industry": "Malo ogulitsa",
+        "title": "Real-Time Analytics Dashboard",
+        "description": "Anayamba BI nsanja processing 10M + zochitika tsiku ndi tsiku.",
+        "challenge": "Palibe kuwonekera kwa nthawi yeniyeni mu ma metrics ofunikira a bizinesi",
+        "result": "Real-time analytics ndi nsanja yozindikira",
+        "metrics": [
+          {
+            "label": "Zochitika / Tsiku",
+            "value": "10M +"
+          },
+          {
+            "label": "Nthawi Yoyankha",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "Kuchitapo kanthu",
+          "Zomangamanga za Deta"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Takonzeka Kulemba Nkhani Yanu Yopambana?",
+      "description": "Tiyeni tikambirane momwe tingakuthandizireni kukwaniritsa zotsatira zofanana ndikukula ndi chidaliro."
+    },
+    "filters": {
+      "title": "Fyuluta ya Makampani",
+      "all": "Makampani Onse",
+      "empty": "Palibe maphunziro a milandu omwe amafanana ndi fyuluta yosankhidwa ya makampani."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Malingaliro ndi malingaliro kuchokera",
+      "titleHighlight": "Horizon Chatekinoloje",
+      "description": "Maphunziro aukadaulo, kuzindikira kwa makampani, ndi maphunziro othandiza kuchokera ku ntchito yeniyeni yoperekera."
+    },
+    "categories": [
+      "Zolemba Zonse",
+      "Zomangamanga za Mtambo",
+      "DevOps",
+      "AI / ML",
+      "Frontend",
+      "Kumbuyo",
+      "Deta"
+    ],
+    "featuredPost": {
+      "id": "Zowonetsedwa",
+      "title": "Tsogolo la Chitukuko cha Mtambo: Zochitika Zowonera mu 2025",
+      "excerpt": "Fufuzani zochitika zaposachedwa mu chitukuko cha mtambo, kuchokera ku zomangamanga zopanda seva kupita ku makompyuta a m'mphepete.",
+      "author": {
+        "name": "Mkonzi wa Horizon Tech"
+      },
+      "date": "Nov 15, 2025",
+      "readTime": "8 min kuwerenga",
+      "category": "Zomangamanga za Mtambo",
+      "tags": [
+        "Mtambo",
+        "Azure",
+        "Zochitika"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Kumanga Scalable Microservices ndi Azure Kubernetes Service",
+        "excerpt": "Chitsogozo chothandiza pakupanga ndi kutumiza ma microservices pogwiritsa ntchito AKS.",
+        "author": {
+          "name": "Mkonzi wa Horizon Tech"
+        },
+        "date": "Nov 12, 2025",
+        "readTime": "6 min kuwerenga",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Microservices",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Kuphunzira Makina Pakupanga: Maphunziro Ophunzirira",
+        "excerpt": "Maphunziro oyesedwa m'munda kuchokera pakugwiritsa ntchito zitsanzo za ML pamlingo.",
+        "author": {
+          "name": "Mkonzi wa Horizon Tech"
+        },
+        "date": "Nov 10, 2025",
+        "readTime": "10 min kuwerenga",
+        "category": "AI / ML",
+        "tags": [
+          "Kuphunzira kwa makina",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Yankho la 19: Zomwe Zili Zatsopano ndi Chifukwa Chake Zili Zofunika",
+        "excerpt": "Kuzama kwambiri pazinthu za React 19 ndi zotsatira za ntchito.",
+        "author": {
+          "name": "Mkonzi wa Horizon Tech"
+        },
+        "date": "Nov 8, 2025",
+        "readTime": "5 min kuwerenga",
+        "category": "Frontend",
+        "tags": [
+          "Kuchitapo kanthu",
+          "JavaScript",
+          "Kukula kwa Webusayiti"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Lembetsani ku Nyuzipepala Yathu",
+      "description": "Pezani nkhani zaposachedwa, maphunziro, ndi chidziwitso choperekedwa mlungu uliwonse.",
+      "placeholder": "your.email@example.com",
+      "button": "Lembetsani",
+      "note": "Palibe sipamu. Chotsani nthawi iliyonse."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering Blog",
+        "description": "Zolemba zam'munda ndi njira zothandiza kuchokera ku magulu omanga mankhwala a AI, machitidwe amakampani, ndi nsanja zodalirika zamtambo."
+      },
+      "filters": {
+        "postsInView": "{{count}} posts mu view"
+      },
+      "featured": {
+        "badge": "Zatsopano",
+        "readCta": "Werengani positi"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Kutsegula mbiri...",
+    "title": "Zikhazikiko za Mbiri",
+    "subtitle": "Yang'anirani makonzedwe a akaunti yanu ndi zokonda zanu",
+    "photoButton": "Sinthani Chithunzi",
+    "tabs": {
+      "general": "General",
+      "security": "Chitetezo",
+      "preferences": "Zokonda"
+    },
+    "messages": {
+      "profileUpdated": "Mbiri idasinthidwa bwino",
+      "profileUpdateFailed": "Analephera kusintha mbiri",
+      "passwordsNoMatch": "Mawu achinsinsi atsopano sagwirizana",
+      "passwordTooShort": "Mawu achinsinsi ayenera kukhala osachepera 8 zilembo zazitali",
+      "passwordChanged": "Mawu achinsinsi adasinthidwa bwino",
+      "passwordChangeFailed": "Analephera kusintha mawu achinsinsi",
+      "optedOut": "Kusankhidwa kwa malipoti oyeserera",
+      "optedIn": "Anasankha kuchita malipoti",
+      "optOutFailed": "Analephera kusintha udindo wosankha"
+    },
+    "general": {
+      "title": "Zambiri zaumwini",
+      "description": "Sinthani zambiri zanu ndi mauthenga anu",
+      "firstName": "Dzina loyamba",
+      "firstNamePlaceholder": "John",
+      "lastName": "Dzina lomaliza",
+      "lastNamePlaceholder": "Doe",
+      "email": "Adilesi ya Imelo",
+      "emailNotice": "Imelo singasinthidwe. Lumikizanani ndi thandizo ngati mukufuna thandizo.",
+      "phone": "Nambala ya Foni",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Sungani Zosintha"
+    },
+    "security": {
+      "title": "Makonzedwe a Chitetezo",
+      "description": "Yang'anirani mawu anu achinsinsi ndi zokonda zachitetezo",
+      "currentPassword": "Mawu achinsinsi apano",
+      "currentPasswordPlaceholder": "Lowetsani mawu achinsinsi apano",
+      "newPassword": "Mawu achinsinsi atsopano",
+      "newPasswordPlaceholder": "Lowetsani mawu achinsinsi atsopano",
+      "confirmPassword": "Tsimikizirani mawu achinsinsi atsopano",
+      "confirmPasswordPlaceholder": "Tsimikizirani mawu achinsinsi atsopano",
+      "passwordHint": "Iyenera kukhala yosachepera zilembo 8 zazitali",
+      "changePassword": "Sinthani mawu achinsinsi"
+    },
+    "preferences": {
+      "title": "Zokonda Zodziwitsa",
+      "description": "Yang'anirani momwe mumalandirira zosintha ndi zidziwitso",
+      "email": {
+        "title": "Zidziwitso za Imelo",
+        "description": "Landirani zosintha ndi zidziwitso kudzera pa imelo"
+      },
+      "sms": {
+        "title": "Zidziwitso za SMS",
+        "description": "Landirani zidziwitso zofunika kudzera pa meseji"
+      },
+      "optOut": {
+        "title": "Sankhani Kuchokera ku Malipoti Oyeserera",
+        "description": "Bisani malipoti anu kwa mwini ntchito"
+      },
+      "actions": {
+        "title": "Zochita za Akaunti",
+        "downloadData": "Koperani Deta ya Akaunti",
+        "deleteAccount": "Chotsani Akaunti"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Kubwerera kunyumba",
+    "title": "Malo Othandizira",
+    "subtitle": "Pezani thandizo ndi ntchito zathu zopangira mapulogalamu",
+    "cards": {
+      "email": {
+        "title": "Thandizo la imelo",
+        "description": "Titumizireni imelo kuti mufunse mafunso aliwonse"
+      },
+      "project": {
+        "title": "Mafunso a Project",
+        "description": "Kambiranani zofunikira za polojekiti yanu",
+        "button": "Lumikizanani nafe"
+      },
+      "resources": {
+        "title": "Chuma",
+        "description": "Zida zaukadaulo ndi zitsogozo",
+        "button": "Onani Zothandizira"
+      }
+    },
+    "faqTitle": "Mafunso Ofunsidwa Kawirikawiri",
+    "faqDescription": "Mayankho ofulumira a mafunso ofala",
+    "faqs": [
+      {
+        "question": "Kodi Horizon Tech imapereka ntchito ziti?",
+        "answer": "Timapereka chitukuko cha mapulogalamu amtundu, njira za AI / ML, zomangamanga zamtambo, DevOps, nzeru zamalonda, ndi ntchito za IoT."
+      },
+      {
+        "question": "Kodi ndingayambitse bwanji polojekiti ndi Horizon Tech?",
+        "answer": "Lumikizanani nafe kudzera pa fomu kapena imelo ndi zofuna zanu. Tidzakonza kuyitana kopeza ndikugawana malingaliro."
+      },
+      {
+        "question": "Kodi mumapereka chithandizo chopitilira ndi kukonza?",
+        "answer": "Inde. Timapereka ma phukusi othandizira ndi kukonza omwe amaphatikizapo kukonza zolakwika, zosintha zachitetezo, ndi kusintha kwa zinthu."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Kubwerera kunyumba",
+    "title": "Zida zaukadaulo",
+    "subtitle": "Zitsogozo, maphunziro, ndi njira zabwino kuchokera ku gulu la Horizon Tech",
+    "hub": {
+      "title": "Malo Ophunzirira",
+      "description": "Fufuzani zipangizo zathu zamakono zomwe zakonzedwa pamtambo, AI / ML, DevOps, ndi mapulogalamu amakono.",
+      "note": "Zipangizozi zimachokera ku zochitika zenizeni za polojekiti ndipo zimasinthidwa nthawi zonse."
+    },
+    "categories": [
+      {
+        "icon": "Mtambo",
+        "title": "Zomangamanga za Mtambo",
+        "description": "Azure, AWS, ndi mawonekedwe amtambo",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Wotsogolera"
+          },
+          {
+            "title": "Njira Zosamukira Zamtambo",
+            "type": "Nkhani"
+          }
+        ]
+      },
+      {
+        "icon": "Ubongo",
+        "title": "AI & Machine Learning",
+        "description": "Zitsanzo za ML, sayansi ya deta, ndi kuphatikiza kwa AI",
+        "resources": [
+          {
+            "title": "Chiyambi cha Azure ML",
+            "type": "Phunziro"
+          },
+          {
+            "title": "Kumanga Kupanga Mapaipi a ML",
+            "type": "Wotsogolera"
+          }
+        ]
+      },
+      {
+        "icon": "Makonzedwe",
+        "title": "DevOps & Platform",
+        "description": "CI / CD, zomangamanga monga code, makina",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Phunziro"
+          },
+          {
+            "title": "Zomangamanga monga Code ndi Terraform",
+            "type": "Wotsogolera"
+          }
+        ]
+      },
+      {
+        "icon": "Malamulo",
+        "title": "Mapulogalamu a Mapulogalamu",
+        "description": ".NET, React, ndi machitidwe amakono a chitukuko",
+        "resources": [
+          {
+            "title": "Zomangamanga Zoyera mu .NET",
+            "type": "Wotsogolera"
+          },
+          {
+            "title": "Zochita Zabwino Kwambiri",
+            "type": "Nkhani"
+          }
+        ]
+      },
+      {
+        "icon": "Database",
+        "title": "Deta ndi Analytics",
+        "description": "BI, kusungirako deta, ndi nsanja za analytics",
+        "resources": [
+          {
+            "title": "Mphamvu BI Dashboard Design",
+            "type": "Phunziro"
+          },
+          {
+            "title": "Zomangamanga za Data Warehouse",
+            "type": "Wotsogolera"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Mukufuna Maphunziro Amwambo?",
+      "description": "Timapereka maphunziro oyenerera kwa magulu a zomangamanga ndi mankhwala",
+      "text": "Mukufuna maphunziro a gulu la manja? Timapereka maphunziro amwambo pa zomangamanga zamtambo, DevOps, ndi njira zamakono zoperekera.",
+      "button": "Lumikizanani"
+    }
+  },
+  "unauthorized": {
+    "title": "Kufikira Kunakanidwa",
+    "description": "Mulibe chilolezo cholowera patsamba lino. Lumikizanani ndi woyang'anira wanu ngati mukuganiza kuti uku ndikulakwitsa.",
+    "primary": "Pitani ku Mbiri",
+    "secondary": "Kubwerera kunyumba"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Positi sinapezeke",
+      "description": "Palibe blog positi yomwe ilipo kwa slug: {{slug}}",
+      "back": "Kubwerera ku blog"
+    },
+    "back": "Kubwerera ku blog",
+    "publisher": "Horizon Chatekinoloje"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Phunziro la milandu silinapezeke",
+      "description": "Palibe phunziro la milandu yomwe ilipo kwa id: {{id}}",
+      "back": "Kubwerera ku maphunziro a milandu"
+    },
+    "back": "Kubwerera ku maphunziro a milandu",
+    "sections": {
+      "executiveSummary": "Chidule cha Executive",
+      "businessChallenge": "Vuto la Bizinesi",
+      "technicalSolution": "Njira Yothetsera Ukadaulo",
+      "architectureDecisions": "Zosankha za Zomangamanga",
+      "technologyStack": "Technology Stack",
+      "resultsImpact": "Zotsatira ndi Zotsatira"
+    },
+    "client": "kasitomala",
+    "keyOutcomes": "Zotsatira Zofunikira",
+    "decision": "Chigamulo {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Chizindikiro Chotayika",
+      "title": "Tsamba Silinapezeke",
+      "description": "Njira yomwe mwapempha ilibe kapena yasunthira. Tiyeni tibweretsereni ku mapeto ovomerezeka a Horizon Tech.",
+      "requestedPath": "Njira yopemphedwa",
+      "terminal": {
+        "prompt": "$ horizon-router kuthetsa --path",
+        "line1": "Kuthetsa graph ya njira ... analephera",
+        "line2": "Chifukwa: palibe gawo la njira yofananira",
+        "line3": "Fallback protocol anachita",
+        "line4": "Gwiritsani ntchito imodzi mwanjira zazifupi pansipa kuti mupitilize"
+      },
+      "links": {
+        "home": "Tsamba loyamba",
+        "services": "Ntchito",
+        "blog": "Blog",
+        "caseStudies": "Maphunziro a Milandu"
+      }
+    },
+    "runtime": {
+      "badge": "Cholakwika cha Nthawi Yothamanga",
+      "title": "Chinachake Chosweka Patsamba Lino",
+      "description": "Nkhani yosayembekezereka idasokoneza kumasulira. Mutha kuyesanso bwinobwino, kapena kubwerera ku tsamba loyamba.",
+      "retry": "Yesani kachiwiri",
+      "home": "Bwererani ku tsamba loyamba",
+      "unknown": "Cholakwika chosadziwika cha nthawi yothamanga"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Kasamalidwe ka Blog",
+      "subtitle": "Pangani, sinthani, ndi kuyang'anira zolemba zanu za blog",
+      "newPost": "Post Yatsopano",
+      "seedData": "Deta ya Mbewu",
+      "allPosts": "Zolemba Zonse",
+      "published": "Lofalitsidwa",
+      "draft": "Zolemba",
+      "featured": "Zowonetsedwa",
+      "setFeatured": "Ikani Yowonetsedwa",
+      "removeFeatured": "Chotsani Featured",
+      "table": {
+        "title": "Mutu",
+        "category": "Gulu",
+        "status": "Udindo",
+        "date": "Tsiku",
+        "actions": "Zochita"
+      },
+      "empty": {
+        "message": "Palibe zolemba za blog komabe. Pangani positi yanu yoyamba kapena deta yachitsanzo cha mbewu.",
+        "seed": "Deta ya Zitsanzo za Mbewu",
+        "create": "Pangani positi"
+      },
+      "delete": {
+        "title": "Chotsani positi",
+        "confirmation": "Kodi mukutsimikiza kuti mukufuna kuchotsa positiyi? Mchitidwe umenewu sungathe kuchotsedwa.",
+        "delete": "Chotsani",
+        "cancel": "Kuletsa"
+      }
+    },
+    "editor": {
+      "bannerHint": "Kuwonetsedwa ngati mbendera yotakata pamwamba pa positi",
+      "bannerImage": "Chithunzi cha mbendera",
+      "coverHint": "Kuwonetsedwa m'makhadi a blog",
+      "coverImage": "Chithunzi cha Chivundikiro",
+      "editSlug": "Sinthani slug",
+      "posts": "Zolemba",
+      "publish": "Sindikizani",
+      "update": "Sinthani",
+      "form": {
+        "contentPlaceholder": "Lembani positi yanu pano ...",
+        "excerptPlaceholder": "Chidule chachidule cha positi...",
+        "pickDate": "Sankhani tsiku",
+        "readTimePlaceholder": "Mwachitsanzo 5 min kuwerenga",
+        "titlePlaceholder": "Mutu wa positi ..."
+      },
+      "meta": {
+        "publisher": "Wofalitsa",
+        "unknownAuthor": "Wolemba wosadziwika"
+      },
+      "modes": {
+        "edit": "Sinthani",
+        "editOnly": "Sinthani kokha",
+        "preview": "Kuwonetseratu",
+        "previewOnly": "Kuwonetseratu kokha",
+        "sideBySide": "Mbali ndi mbali",
+        "split": "Kugawanika"
+      },
+      "tags": {
+        "heading": "Zizindikiro",
+        "placeholder": "Onjezani chizindikiro ..."
+      },
+      "translations": {
+        "auto": "Galimoto",
+        "autoTranslate": "Kumasulira Zokha",
+        "clear": "Chotsani",
+        "existing": "Zomwe zilipo",
+        "heading": "Matembenuzidwe",
+        "language": "Chilankhulo",
+        "languages": "Zilankhulo",
+        "edit": "Sinthani",
+        "manual": "Buku",
+        "preview": "Kuwonetseratu",
+        "searchPlaceholder": "Fufuzani zilankhulo...",
+        "translate": "Kumasulira"
+      }
+    },
+    "caseStudies": {
+      "title": "Maphunziro a Milandu",
+      "subtitle": "Yang'anirani maphunziro a milandu ndi ziwonetsero za polojekiti",
+      "newCaseStudy": "Phunziro Latsopano la Milandu",
+      "seedData": "Deta ya Mbewu",
+      "allCaseStudies": "Maphunziro Onse a Milandu",
+      "published": "Lofalitsidwa",
+      "draft": "Zolemba",
+      "table": {
+        "title": "Mutu",
+        "industry": "Makampani",
+        "client": "kasitomala",
+        "status": "Udindo",
+        "actions": "Zochita"
+      },
+      "empty": {
+        "message": "Palibe maphunziro a milandu komabe.",
+        "seed": "Deta ya Mbewu",
+        "create": "Pangani Choyamba"
+      },
+      "delete": {
+        "title": "Chotsani Phunziro la Milandu",
+        "confirmation": "Kodi mukutsimikiza kuti mukufuna kuchotsa phunziroli la mlanduwu? Mchitidwe umenewu sungathe kuchotsedwa.",
+        "delete": "Chotsani",
+        "cancel": "Kuletsa"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Maphunziro a Milandu",
+      "published": "Lofalitsidwa",
+      "draft": "Zolemba",
+      "update": "Sinthani",
+      "create": "Pangani",
+      "sections": {
+        "basicInfo": "Chidziwitso Choyambirira",
+        "narrative": "Nkhani",
+        "architectureDecisions": "Zosankha za Zomangamanga",
+        "techStack": "Nkhokwe ya Chatekinoloje",
+        "results": "Zotsatira",
+        "tags": "Zizindikiro"
+      },
+      "fields": {
+        "title": "Mutu",
+        "titlePlaceholder": "Mutu wa phunziro la milandu",
+        "slug": "Slug",
+        "slugPlaceholder": "Auto-yopangidwa-kuchokera-mutu",
+        "client": "kasitomala",
+        "clientPlaceholder": "Dzina la kasitomala",
+        "industry": "Makampani",
+        "industryPlaceholder": "Sankhani makampani",
+        "description": "Kufotokozera",
+        "descriptionPlaceholder": "Kufotokozera kwachidule (kuwonetsedwa pamakadi)",
+        "executiveSummary": "Chidule cha Executive",
+        "executiveSummaryPlaceholder": "Chidule chapamwamba cha kudzipereka",
+        "challenge": "Vuto",
+        "challengePlaceholder": "Kodi kasitomala adakumana ndi vuto liti?",
+        "solution": "Njira yothetsera",
+        "solutionPlaceholder": "Kodi vutoli linathetsedwa bwanji?",
+        "decision": "Chigamulo",
+        "decisionPlaceholder": "Zomwe zinasankhidwa",
+        "rationale": "Chifukwa",
+        "rationalePlaceholder": "Chifukwa chake njirayi idasankhidwa",
+        "metric": "Metric",
+        "metricPlaceholder": "mwachitsanzo Settlement Latency",
+        "value": "Mtengo",
+        "valuePlaceholder": "mwachitsanzo -63% kapena 4.8h -> 11m",
+        "resultDescription": "Kufotokozera",
+        "resultDescriptionPlaceholder": "Zomwe zotsatira izi zikutanthawuza",
+        "techPlaceholder": "Onjezani ukadaulo (dinani Lowani)",
+        "tagPlaceholder": "Onjezani tag (dinani Lowani)"
+      },
+      "add": "Onjezani",
+      "noArchDecisions": "Palibe zisankho zomangamanga zomwe zawonjezeredwabe.",
+      "noResults": "Palibe zotsatira zomwe zawonjezeredwabe.",
+      "decisionLabel": "Chigamulo {{number}}",
+      "resultLabel": "Zotsatira {{number}}",
+      "controls": {
+        "published": "Lofalitsidwa",
+        "publishedDescription": "Pangani phunziroli kuti liwoneke poyera",
+        "featured": "Zowonetsedwa",
+        "featuredDescription": "Onetsetsani phunziroli"
+      }
+    },
+    "imageCrop": {
+      "apply": "Gwiritsani ntchito",
+      "cancel": "Kuletsa",
+      "cropTitle": "Chithunzi cha Crop",
+      "dropText": "Ponyani chithunzi apa kapena dinani kuti mukweze",
+      "flipHorizontal": "Flip yopingasa",
+      "flipVertical": "Tembenuzani ofukula",
+      "replace": "M'malo mwake",
+      "reset": "Bwezeretsani",
+      "rotateLeft": "Sinthani kumanzere",
+      "rotateRight": "Sinthani kumanja",
+      "uploading": "Kukweza ...",
+      "toast": {
+        "invalidFile": "Fayilo yosagwira ntchito",
+        "invalidFileDesc": "Chonde kwezani fayilo yazithunzi zovomerezeka.",
+        "uploadFailed": "Kwezani kunalephera",
+        "uploadFailedDesc": "China chake chinalakwika. Chonde yesaninso.",
+        "uploaded": "Chithunzi chokwezedwa",
+        "uploadedDesc": "Chithunzi chanu chakwezedwa bwino."
+      }
+    }
+  }
+}

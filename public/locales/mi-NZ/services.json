@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Tīmata",
+    "ctaSecondary": "Whakaritea te Whakawhitiwhiti"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Whanaketanga Pūmanawa Hinonga",
+      "description": "Ngā taupānga hinonga mutunga-ki-te-mutunga me ngā anga hou, te hoahoa API-tuatahi, me te tauine kapua-māori."
+    },
+    "sections": {
+      "problem": {
+        "title": "Tāpare Raru Pakihi",
+        "subtitle": "Te wāhi e ngaro ai te tere, te tahua, me te tīaroaro rautaki o ngā papatono umanga"
+      },
+      "approach": {
+        "title": "Huarahi Pūkaha",
+        "subtitle": "Me pēhea tātau e huri ai i ngā whakaritenga rangirua ki ngā pūhara reri whakanao"
+      },
+      "principles": {
+        "title": "Ngā Mātāpono Hoahoa",
+        "subtitle": "Ngā whakataunga hoahoa e pupuri ana i ngā pūnaha umanga i te tauine"
+      },
+      "capabilities": {
+        "title": "He aha tā mātou e hanga ana",
+        "subtitle": "Ngā āheinga whanaketanga pūmanawa whānui"
+      },
+      "technology": {
+        "title": "Tā mātou Tāpae Hangarau",
+        "subtitle": "Ngā hangarau hōu, kua whakamātauria mō te tuku hinonga"
+      },
+      "breakdown": {
+        "title": "Wehenga Ratonga",
+        "subtitle": "He ara hanganga mai i te hura ki te tukunga whakanao pūmau"
+      }
+    },
+    "problem": {
+      "overview": "I te nuinga o te wā ka kawea e ngā tīma hinonga ngā rerengamahi nui i runga i ngā pūnaha kongakonga kongakonga e waihanga ana i ngā wā ārahi roa, ngā raraunga maiorooro, me te hononga ā-ringa utu nui i waenga i ngā tari.",
+      "painPointsTitle": "mamae pakihi auau",
+      "impactSignalsTitle": "He aha te nuinga o te wā e kitea ana e ngā kaiārahi",
+      "painPoints": [
+        "Ka horo ngā whakaritenga tuku nā te mea kāore i te whakahaeretia ngā whakamaurutanga puta noa i ngā tīma",
+        "Ka tāruatia ngā arorau pakihi uho puta noa i ngā hongere me ngā hua",
+        "Mā ngā whakaurunga tuku iho ka whakarewa i ngā āhuahira hōu kia tino mōrearea, kia pōturi hoki"
+      ],
+      "impactSignals": [
+        "Ka taka te mahi mahere i te wā e nui ake ana te whakapau pūkaha",
+        "Ka piki ake ngā hēnga anga atu ki te kiritaki i roto i ngā wā tuku",
+        "Ka pōturi te whakataunga nā te pūrongo whakahaere maiorooro"
+      ]
+    },
+    "approach": {
+      "overview": "Ka kawea e mātou mā te hura hoahoa-tuatahi, te tukunga ā-kirimana, me te pūkaha tuku mana kia tukuna ai te uara pakihi i roto i ngā āpitihanga matapae.",
+      "pillars": [
+        {
+          "title": "Whakatauira Rohe me ngā Horopaki Herenga",
+          "detail": "Ka whakamaheretia e mātou ngā rohe hei whakawātea i ngā rohenga ratonga hei whakaiti i te hononga whakawhiti-tīma me te whakamārama i te rangatiratanga."
+        },
+        {
+          "title": "Rautaki Whakaurunga API-Tuatahi",
+          "detail": "Ka tautuhi wawe mātou i ngā kirimana pūmau, e whakahohe ana i te whanaketanga whakarara me te whakaurunga haumaru ake ki ngā pūnaha hinonga."
+        },
+        {
+          "title": "Rerengamahi Tukunga Mārō",
+          "detail": "Ka whakamahi mātou i ngā haki āhuahira, ngā takahanga ā-wāhanga, me ngā kēti kounga kia tere te tuku me te kore whakararuraru i te whakanaotanga."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ko ā mātou whakataunga hoahoa e manakē ana i te roanga o te ora, te mahi, me te rangatiratanga mārama kia noho urutau tonu ai ngā pūhara i te nui o te whānuitanga o te pakihi.",
+      "items": [
+        {
+          "title": "Ngā Rohenga Ratonga Kōwae",
+          "detail": "Kua pōkaitia ngā āheinga huri noa i ngā rohe pakihi kia noho paetata tonu ai te pānga huringa."
+        },
+        {
+          "title": "Whakaurunga ā-Takahanga",
+          "detail": "Ka whakamahia ngā rerengamahi tukutahinga i te wāhi e tīari ana te manawanui latency hei whakapai ake i te manawanui me te wetewete i ngā pūnaha."
+        },
+        {
+          "title": "Te mātakitaki mā te Hoahoa",
+          "detail": "Kua tautuhia te aroturuki, ngā inenga, me ngā rangitaki hanganga i mua hei tautoko i ngā mahi pono me te whakahaere SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Ngā Taupānga Tukutuku Ritenga",
+      "Whanaketanga Taupānga Pūkoro",
+      "Whanaketanga API me te Whakaurunga",
+      "Hoahoa Ratonga Moroiti",
+      "Ngā Rongoā Kapua-Māori",
+      "Whakahōutanga Pūnaha Tawhito"
+    ],
+    "technologies": [
+      {
+        "name": "Tauhohenga",
+        "category": "Muamua",
+        "icon": "tauhohenga"
+      },
+      {
+        "name": "Node.js",
+        "category": "Mutungamuri",
+        "icon": "ngā kōpukupuku"
+      },
+      {
+        "name": ".NET",
+        "category": "Mutungamuri",
+        "icon": "iraira"
+      },
+      {
+        "name": "Python",
+        "category": "Mutungamuri",
+        "icon": "python"
+      },
+      {
+        "name": "HōtuhiPatopato",
+        "category": "Reo",
+        "icon": "tuhi pato"
+      },
+      {
+        "name": "Kauwhata QL",
+        "category": "API",
+        "icon": "kauwhata"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Pātengi Raraunga",
+        "icon": "poutāpeta"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Pātengi Raraunga",
+        "icon": "mokowa"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Whakahura me te Hoahoa",
+        "summary": "Ka whakamaheretia e mātou ngā manakē pakihi, ngā herenga hangarau, me te hoahoa ūnga i mua i te tīmatanga o te whakatinanatanga.",
+        "deliverables": [
+          "Toa tīaroaro hua me ngā whakaritenga",
+          "Mahere hoahoa rongoā",
+          "Mahere tuku ā-tohu"
+        ]
+      },
+      {
+        "title": "Hanga me te Whakauru",
+        "summary": "Ka whakatinana whakarara ā mātou tīma i ngā āhuahira uho, ngā apa whakauru, me ngā parenga kounga.",
+        "deliverables": [
+          "Whanaketanga āhuahira i roto i ngā sprints auau",
+          "API me ngā whakaurunga hunga-tuatoru",
+          "Ngā taki whakamātautau aunoa me te takatū tuku"
+        ]
+      },
+      {
+        "title": "Whakarewa & Kunenga",
+        "summary": "I muri i te haere-ora, ka whakaūngia e mātou ngā mahi me te tautuhi i te huringa whakapai ake panuku i runga anō i te whakamahinga tūturu.",
+        "deliverables": [
+          "Pukapuka whakataka whakanao",
+          "Whakaritenga mahinga me te whaikiko",
+          "Maherehuarahi i muri i te whakarewatanga me te whakaputunga whakarei"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kua rite koe ki te hanga i tō taupānga panuku?",
+      "description": "Me hoahoa me te tuku i tētahi rongoā e whakahaere ana i ngā hua pakihi ine.",
+      "button": "Tīmataria tō kaupapa"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML & Mōhiohio Pakihi",
+      "description": "Mai i ngā tauira matapae ki ngā papatohu whakahaere, ka hangaia e mātou ngā pūnaha AI/BI katoa e tautoko ana i ngā whakataunga i te tauine."
+    },
+    "sections": {
+      "problem": {
+        "title": "Tāpare Raru Pakihi",
+        "subtitle": "He aha ngā umanga whai raraunga e uaua tonu ana ki te whakatau i ngā whakataunga māia"
+      },
+      "approach": {
+        "title": "Huarahi Pūkaha",
+        "subtitle": "Me pēhea tā mātou whakahaere i ngā hua raraunga, ngā tauira ML, me ngā rerengamahi BI"
+      },
+      "principles": {
+        "title": "Ngā Mātāpono Hoahoa",
+        "subtitle": "Ngā tauira hoahoa raraunga me te tauira mō te mōhiohio whakatau pono"
+      },
+      "capabilities": {
+        "title": "Ō mātou Āheinga",
+        "subtitle": "Ngā rongoā AI, ML, me BI whānui"
+      },
+      "technology": {
+        "title": "Tā mātou Tāpae Hangarau",
+        "subtitle": "Ngā utauta ā-umanga mō te raraunga me te AI"
+      },
+      "breakdown": {
+        "title": "Wehenga Ratonga",
+        "subtitle": "Me pēhea tātau e neke ai mai i ngā raraunga kongakonga ki te mōhiohio kōeke whakanao"
+      }
+    },
+    "problem": {
+      "overview": "He rite tonu te kohikohi a ngā whakahaere i ngā rōrahi raraunga nui, engari kāore e taea te whakamāori ki te matapae pono, ki ngā whakataunga mahi, ki ngā mahi pakihi ine rānei.",
+      "painPointsTitle": "mamae pakihi auau",
+      "impactSignalsTitle": "He aha te nuinga o te wā e kitea ana e ngā kaiārahi",
+      "painPoints": [
+        "He rerekē te arorau pūrongo puta noa i ngā tīma, e hua ana i ngā kōrero KPI papā",
+        "Ka noho tonu ngā tauira ki te whakamātautau, ā, e kore rawa e tae ki ngā rerengamahi whakanao",
+        "Ko ngā take kounga raraunga e tukituki ana i te whakawhirinaki ki ngā tātaritanga me ngā paemana ā-kaiwhakahaere"
+      ],
+      "impactSignals": [
+        "He pōturi te huringa whakatau nā te mea e taupatupatu ana ngā tīma i te whaimana raraunga, kaua ko te mahi",
+        "Ka noho maiorooro tonu te tika o te matapae me te whakarite i te hauwhā ki te hauwhā",
+        "E whakaatu ana ngā pūtea penapena tātaritanga i te whakatamarikitanga iti i waho o ngā rōpū kaitātari motuhake"
+      ]
+    },
+    "approach": {
+      "overview": "Ka tukua e mātou ngā pūhara AI me BI hei pūnaha whakanao, te pūkaha raraunga hononga, ngā mahi huringa tauira, me te whakaurunga rerengamahi whakataunga.",
+      "pillars": [
+        {
+          "title": "Tūāpapa Hua Raraunga",
+          "detail": "Ka whakatū ngā hua raraunga tiaro-rohe i ngā tāurunga ka taea te whakamahi anō, te whakahaere, me te kounga tiketike mō te tātaritanga me te ML."
+        },
+        {
+          "title": "Aunoatanga Huringa Ora MLOps",
+          "detail": "Ko te whakangungu, te tukunga, te aroturuki, me te mana mānuku e aunoatia ana kia pono ai ngā tauira i roto i te whakanaotanga."
+        },
+        {
+          "title": "Whakaurunga Rerengamahi Whakataunga",
+          "detail": "Kua tāmau ngā kitenga ki ngā utauta whakahaere me ngā papatohu kia mahi ai ngā tīma i runga i te mōhiohio i roto i ngā tukanga o ia rā."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ko tā mātou hoahoa AI/BI e manakē ana i ngā raraunga pono, ngā tauira whakamārama, me ngā tauira urunga whakahaere puta noa i te hinonga.",
+      "items": [
+        {
+          "title": "Ngā Tikanga Ngahuru Takitahi",
+          "detail": "Ka tautuhia ngā KPI takenui i te wā kotahi mā ngā tauira semantic tiritiri hei whakakore i ngā arorau pūrongo papā."
+        },
+        {
+          "title": "Ngā Mana Taimautanga Tauira",
+          "detail": "Ko ngā paepae mahinga, te haurapa mānu, me ngā tikanga whakahoki e pare ana i te kounga o te whakataunga i roto i te whakanaotanga."
+        },
+        {
+          "title": "Haumarutanga me te Whakahaere mā te Hoahoa",
+          "detail": "Kua tāmautia te rārangi raraunga, te urunga ā-tūranga, me ngā mana rite-arotaupū ki ia paipa."
+        }
+      ]
+    },
+    "capabilities": [
+      "Ngā Tauira Ako Mīhini me ngā Arapae",
+      "Ngā Paemana me ngā Pūrongo Power BI",
+      "Tātaritanga Matapae",
+      "roma raraunga wā-tūturu",
+      "Ngā Rongoā Whare Putunga Raraunga"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Pūhara",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Hiko BI",
+        "category": "BI",
+        "icon": "hiko hiko"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Whare Putunga Raraunga",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Ngā Pereki Raraunga",
+        "category": "Pūkaha Raraunga",
+        "icon": "pereki raraunga"
+      },
+      {
+        "name": "Azure ML",
+        "category": "Pūhara ML",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "RerengaTensorTensor",
+        "category": "Anga ML",
+        "icon": "rerenga"
+      },
+      {
+        "name": "PyTorch",
+        "category": "Anga ML",
+        "icon": "rama rama"
+      },
+      {
+        "name": "Ripanga",
+        "category": "Tātaritanga",
+        "icon": "ripanga"
+      },
+      {
+        "name": "Kora Apache",
+        "category": "Tukatuka Ana",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Reo",
+        "icon": "poutāpeta"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Tūāpapa Raraunga",
+        "summary": "Ka arotaupū mātou i ngā pūtake, ka tautuhi i ngā kirimana raraunga, me te whakatū i te whakahaere kia tīmata ai ia tauira ki ngā tāurunga pono.",
+        "deliverables": [
+          "Pūtake raraunga me te aromatawai kounga",
+          "Pūkaha āhuahira me te whakamahere aronuinga",
+          "Tauanga haumarutanga me te whakahaere"
+        ]
+      },
+      {
+        "title": "Tukunga Tauira & Tirohanga",
+        "summary": "Ka hangaia e mātou ngā tauira me ngā papatohu whakatau e herea ana ki ngā pātai pakihi me ngā KPI ine.",
+        "deliverables": [
+          "Te whanaketanga tauira me te whakamanatanga",
+          "Ngā paemana ā-kaiwhakahaere me ngā pūrongo whakahaere",
+          "Urunga rerengamahi whakatau"
+        ]
+      },
+      {
+        "title": "MLOps & Whakatamarikitanga",
+        "summary": "Ka whakahaerehia e mātou te tukunga, te aroturuki, me te whakahohe i te tīma kia pono ai ngā putanga i roto i te wā.",
+        "deliverables": [
+          "Ngā arapae tukunga tauira aunoa",
+          "Te mānu, te tika, me te aroturuki whakamahinga",
+          "Te tukunga atu o te tīma me te pukapuka tākaro whakahaere"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Panoni i Ō Raraunga ki te Kitenga",
+      "description": "Hurihia ngā raraunga kongakonga hei mōhiohio mārama, ka taea te mahi.",
+      "button": "Tīmataria tō haerenga"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Hoahoa Kapua me te Hanganga",
+      "description": "Ngā pūhara kapua-maha, te hoahoa pakari, me ngā hanganga tauine i hangaia mō te tipu mo te wā roa."
+    },
+    "sections": {
+      "problem": {
+        "title": "Tāpare Raru Pakihi",
+        "subtitle": "He aha ngā mahi kapua i tū ai i muri i te ngaru hekenga tuatahi"
+      },
+      "approach": {
+        "title": "Huarahi Pūkaha",
+        "subtitle": "Me pēhea mātou e hanga ai i ngā pūhara kapua haumaru, tauine me te mōrea hekenga whakahaere"
+      },
+      "principles": {
+        "title": "Ngā Mātāpono Hoahoa",
+        "subtitle": "Ngā whakataunga pūhara e whakataurite ana i te kakama, te manawanui, me te whakahaere"
+      },
+      "capabilities": {
+        "title": "Ngā Ratonga Kapua",
+        "subtitle": "Hanga, hora, me te tauine i te kapua"
+      },
+      "technology": {
+        "title": "Tohungatanga Kapua-Maha",
+        "subtitle": "Ngā rongoā kapua pūhara-agnostic"
+      },
+      "breakdown": {
+        "title": "Wehenga Ratonga",
+        "subtitle": "He raupapa mārama mō te hoahoa, te heke, me te whakahaere i ngā pūhara kapua"
+      }
+    },
+    "problem": {
+      "overview": "He maha ngā whakahaere e whakaoti ana i ngā hekenga kapua tuatahi engari kei te mahi tonu pēnei i ngā tīma ā-rohe, me te iti o te kitenga, ngā mana maiorooro, me te pikinga o te whakapau moni.",
+      "painPointsTitle": "mamae pakihi auau",
+      "impactSignalsTitle": "He aha te nuinga o te wā e kitea ana e ngā kaiārahi",
+      "painPoints": [
+        "Ka hekea ngā kawenga mahi me te kore mana haumarutanga paerewa me ngā mana whatunga",
+        "He tere ake te tipu o ngā utu kapua i te uara pakihi i tukuna",
+        "Ka noho ā-ringa tonu te whakarato taiao, ā, ka maiorooro puta noa i ngā tīma"
+      ],
+      "impactSignals": [
+        "Ngā takanga auau i takea mai i te whirihoranga e neke ana i waenga i ngā taiao",
+        "Ka heke te takatū arotaupū nā ngā mahi whakahaere kongakonga",
+        "Ko ngā wā ārahi hanganga e whakaroa ana i ngā mahi hua me ngā mahi raraunga"
+      ]
+    },
+    "approach": {
+      "overview": "Ka hoahoa mātou i ngā pūhara kapua hei hua, mā te whakamahi i te aunoatanga hanganga, ngā ārai kaupapahere, me ngā ngaru hekenga e hāngai ana ki te tino nui o te pakihi.",
+      "pillars": [
+        {
+          "title": "Rohe Tauranga hei Waehere",
+          "detail": "Kua whakakotahitia te tuakiri, te whatunga, te haumarutanga, me ngā tauanga kaupapahere mō te tukuruatanga me te arotaupū."
+        },
+        {
+          "title": "Rautaki Hekenga ā-Ngaru",
+          "detail": "Ka neke ngā kawenga mahi i ngā wāhanga whakahaere me te raupapatanga mōhio ki te whakawhirinaki me te takatū whakahoki."
+        },
+        {
+          "title": "SRE + FinOps Koromeke Mahi",
+          "detail": "Ka arotakea tahitia ngā tohu whaikiko me te ohaoha wae hei whakapai ake i te wā me te tōtika whakapau."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "E manako ana tā mātou tauira hoahoa i ngā hanganga whakapuakitanga, te urunga iti rawa, me ngā pūhara tito e tautoko ana i te tukunga tere o te hua.",
+      "items": [
+        {
+          "title": "Ngā Tauira Hanganga Kore E Taea te Huri",
+          "detail": "Ka hangaia anōtia ngā taiao mai i te waehere putanga hei whakaiti i te nekeneke me te whakangāwari i te whakaora mahi."
+        },
+        {
+          "title": "Tauanga Haumarutanga ā-Taunoa",
+          "detail": "Kua tāmautia ngā mana urunga whirinaki-kore me te whakaū kaupapahere ki ia huringa ora taiao."
+        },
+        {
+          "title": "Te Manawanui Mā te Tohatoha",
+          "detail": "Kua hoahoatia ngā kawenga mahi takenui mō te manawanui rahunga rohe-maha, rohe-maha rānei e hiahiatia ana e te pānga pakihi."
+        }
+      ]
+    },
+    "capabilities": [
+      "Rautaki Kapua-Maha me te Whakatinanatanga",
+      "Whakaraupapa Ipu (Kubernetes)",
+      "Rorohiko Tūmau Kore",
+      "Ngā Ratonga Hekenga Kapua",
+      "Hoahoa Wātea Tiketike"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Kapua",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "AWS",
+        "category": "Kapua",
+        "icon": "AmazonWebServices"
+      },
+      {
+        "name": "GCP",
+        "category": "Kapua",
+        "icon": "kapua google."
+      },
+      {
+        "name": "Kubernetes",
+        "category": "whakatakotoranga",
+        "icon": "kubernetes"
+      },
+      {
+        "name": "Pūtāmau",
+        "category": "Ngā Ipu",
+        "icon": "tauranga"
+      },
+      {
+        "name": "puka whenua",
+        "category": "IAC",
+        "icon": "papawhenua"
+      },
+      {
+        "name": "Ngā Tātauira ARM",
+        "category": "IAC",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "HangangaKapua",
+        "category": "IAC",
+        "icon": "AmazonWebServices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Hoahoa me te Rohe Tauranga",
+        "summary": "Ka tautuhia e mātou te āhua ūnga, ngā ārai, me ngā paerewa pūhara tauanga i mua i te nekehanga o ngā kawenga mahi.",
+        "deliverables": [
+          "Hoahoa hoahoa kapua ūnga",
+          "Tuakiri, whatunga, me te tauanga haumarutanga",
+          "Ngā ārai utu me te whakatikatika"
+        ]
+      },
+      {
+        "title": "Hekenga me te Hanga Pūhara",
+        "summary": "Ka kawea e mātou ngā ngaru hekenga me te whakatū i ngā wae pūhara kapua-māori me te aunoatanga tukurua.",
+        "deliverables": [
+          "Raupapatanga hekenga kawenga mahi",
+          "Tatūnga ipu, pūhara kore tūmau hoki",
+          "Hanganga hei kōwae Waehere"
+        ]
+      },
+      {
+        "title": "Taimautanga & FinOps",
+        "summary": "Ka whakapai ake mātou i te pono whakahaere me te arotau tonu i ngā whakapau kapua i runga anō i te ine waea ora.",
+        "deliverables": [
+          "Ngā SLO, te aroturuki, me ngā rerengamahi takahanga",
+          "Te manaakitanga o te manawanui me te whakaoranga mōrearea",
+          "Te whakaputunga arotautanga utu me te auau whakahaere"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Tauine i tō hanganga",
+      "description": "Hangaia ngā tūāpapa kapua e noho pakari tonu ana i raro i te kawenga o te ao tūturu.",
+      "button": "Whakamahere i tō rautaki kapua"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Pūkaha Pūhara",
+      "description": "Ngā paipa tuku aunoa, te mātakitaki, me ngā mahi pūhara e whakapai ake ana i te tere me te kore whakahere i te whaikikotanga."
+    },
+    "sections": {
+      "problem": {
+        "title": "Tāpare Raru Pakihi",
+        "subtitle": "He aha te take i heke ai te tere tuku i te nui o te matatini o te pūhara"
+      },
+      "approach": {
+        "title": "Huarahi Pūkaha",
+        "subtitle": "Me pēhea tā mātou whakarite i ngā paipa tuku me te kore pōturi i ngā tīma hua"
+      },
+      "principles": {
+        "title": "Ngā Mātāpono Hoahoa",
+        "subtitle": "Ngā tauira pūkaha pūhara e tauine ana i te whaikikotanga me te mana motuhake o te tīma"
+      },
+      "capabilities": {
+        "title": "Ngā Ratonga DevOps",
+        "subtitle": "Aunoatia, aroturuki, me te arotau i tō huringa ora tuku"
+      },
+      "technology": {
+        "title": "Ngā Utauta DevOps & Pūhara",
+        "subtitle": "Mekamekautauta DevOps tino pai rawa atu"
+      },
+      "breakdown": {
+        "title": "Wehenga Ratonga",
+        "subtitle": "He mahere huarahi ā-ringa mai i ngā pounamu tuku ki te rerenga tuku whakawhirinaki tiketike"
+      }
+    },
+    "problem": {
+      "overview": "He rite tonu te haumi a ngā whakahaere ki ngā utauta CI/CD engari kei te raruraru tonu ki ngā putanga tūkino, ngā whakaaetanga pōturi, me te rangatiratanga kongakonga puta noa i ngā taiao.",
+      "painPointsTitle": "mamae pakihi auau",
+      "impactSignalsTitle": "He aha te nuinga o te wā e kitea ana e ngā kaiārahi",
+      "painPoints": [
+        "He rerekē ngā tikanga paipa i ia tīma, e waihanga ana i ngā kēti kounga maiorooro",
+        "Ka takaware ngā whakaaetanga tukunga ā-ringa i ngā rārangi wā whakatika me ngā rārangi wā tuku āhuahira",
+        "Ka auau ngā mahi whakahaere nā te mea kāore i te oti, i te whakakotahi rānei te ine waea"
+      ],
+      "impactSignals": [
+        "Kei te piki haere tonu te wā ārahi mō ngā huringa ahakoa te whakapau aunoatanga",
+        "Hurihia ngā taraiwa mokatere rahunga i roto i ngā wā tuku rōrahi tiketike",
+        "Ka whakapeka te hua o te kaiwhakawhanake nā te whāngai utauta me te whakawhiti horopaki"
+      ]
+    },
+    "approach": {
+      "overview": "Ka whakatū mātou i tētahi tauira pūhara kaiwhakawhanake ā-roto me ngā tātauira paipa ka taea te whakamahi anō, te whakahaere ā-kaupapahere, me te mātakitaki huringa ora katoa.",
+      "pillars": [
+        {
+          "title": "Ngā Tātauira Ararere Koura",
+          "detail": "Ko ngā mahere CI/CD ka taea te whakamahi anō e paerewa ana i ngā rerengamahi hanga, whakamātautau, taki haumarutanga, me te tukunga."
+        },
+        {
+          "title": "Pūhara API & Ratonga-Whaiaro",
+          "detail": "Ka whakarato ngā tīma i ngā taiao me te tuku hanganga mā ngā atanga ratonga-whaiaro e whakahaeretia ana."
+        },
+        {
+          "title": "Ngā Koromeke Urupare Taimautanga",
+          "detail": "Ko ngā ia takahanga, te hauora SLO, me te ine waea tukunga e whakamōhio ana i ngā whakapainga tukanga me ngā hoahoa motukore."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ko tā mātou hoahoa DevOps e whakarārangi ana i te tere tuku ki te whakahaere mā te whakaaunoa i ngā mana me te whakaiti i ngā mahi whakahaere kotahi.",
+      "items": [
+        {
+          "title": "Ngā Mea Katoa hei Waehere Putanga",
+          "detail": "Ka whakahaeretia ngā arapae, ngā hanganga, me ngā ture kaupapahere i roto i te mana pūtake mō te arotaupū me te tukuruatanga."
+        },
+        {
+          "title": "Manatokonga Whakamua",
+          "detail": "Ko ngā taki kounga, haumarutanga, me te mahinga e apa ana puta noa i ngā wāhanga kia kite i te mōrea i mua."
+        },
+        {
+          "title": "Te Kawenga Pūhara Tiritiri",
+          "detail": "Ka whakarato ngā tīma pūhara i ngā āheinga huarahi i te wā e pupuri ana ngā tīma hua i te rangatiratanga tuku."
+        }
+      ]
+    },
+    "capabilities": [
+      "Hoahoa Paipa CI/CD",
+      "Hanganga hei Waehere",
+      "Whakamātautau Aunoa",
+      "Aunoatanga Tukunga",
+      "Aroturuki me te Mātakitaki"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Pūhara",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "Ngā Hohenga GitHub",
+        "category": "CI/KK",
+        "icon": "githubactions"
+      },
+      {
+        "name": "puka whenua",
+        "category": "IAC",
+        "icon": "papawhenua"
+      },
+      {
+        "name": "Te Wānanga",
+        "category": "CI/KK",
+        "icon": "Te Wānanga"
+      },
+      {
+        "name": "Urunga",
+        "category": "Pōkaitanga",
+        "icon": "urunga"
+      },
+      {
+        "name": "Te Whakatau",
+        "category": "Aunoatanga",
+        "icon": "pukoro"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Aroturuki ana",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "mātakitaki",
+        "icon": "grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Aromatawai Pūhara",
+        "summary": "Ka arotakea e mātou tō mekameka tuku pūmanawa o nāianei hei tāutu i ngā wāhi mōrearea me ngā herenga tere.",
+        "deliverables": [
+          "Mahere rerengamahi tukunga o nāianei",
+          "Tātari pounamu paipa",
+          "Ūnga DevOps maturity roadmap"
+        ]
+      },
+      {
+        "title": "Hanga Paipa me te Aunoatanga",
+        "summary": "Ka whakatinanatia e mātou te CI/CD pono, ngā kēti kounga, me te aunoatanga hanganga mō ngā putanga ōrite.",
+        "deliverables": [
+          "Ngā tātauira CI/CD ka taea te whakamahi anō",
+          "Aunoatanga hanganga me te taiao",
+          "Ngā mana whakamātautau aunoa me te tuku"
+        ]
+      },
+      {
+        "title": "Whakahaere & Whakapai Ake",
+        "summary": "Ka whakatū mātou i ngā koromeke mātakitaki me te whakahaere e tautoko ana i te whakapai ake i te tukunga haere tonu.",
+        "deliverables": [
+          "Te aroturuki i ngā paemana me ngā kaupapahere matohi",
+          "Tukua ngā pukapuka whakahaere me ngā pukapuka mahi",
+          "Ngā ine me ngā arotakenga whakapai haere tonu"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Whakaterea Tō Tukunga",
+      "description": "Whakaitihia te whāngai tuku me te whakapai ake i te whaikikotanga me ngā mahi DevOps pakeke.",
+      "button": "Panoni i Tō Ararere"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Huringa Mamati me te Rautaki",
+      "description": "Tautoko tohutohu rautaki me te kawenga hei whakahou i ngā pūhara, ngā tīma, me ngā tauira whakahaere."
+    },
+    "sections": {
+      "problem": {
+        "title": "Tāpare Raru Pakihi",
+        "subtitle": "Te wāhi e ngaro ai te kaha me te whakaaro nui o ngā papatono panoni"
+      },
+      "capabilities": {
+        "title": "Ngā Ratonga Tohutohu",
+        "subtitle": "Tohutohu rautaki mō te angitu mamati"
+      },
+      "approach": {
+        "title": "Huarahi Pūkaha",
+        "subtitle": "Me pēhea tā mātou whakamāori i te rautaki ki te huringa kawenga, i pūruatia e te hangarau"
+      },
+      "principles": {
+        "title": "Ngā Mātāpono Hoahoa",
+        "subtitle": "Ngā kōwhiringa tauira whakahaere me ngā kōwhiringa pūhara e pare ana i ngā putanga panoni"
+      },
+      "technology": {
+        "title": "Tāpae Hangarau",
+        "subtitle": "Ngā pūhara me ngā anga e whakamahia ana e mātou hei whakahaere i te panoni"
+      },
+      "breakdown": {
+        "title": "Wehenga Ratonga",
+        "subtitle": "Te panoni hanganga mai i te whakamāramatanga rautaki ki te uara pakihi ine"
+      }
+    },
+    "problem": {
+      "overview": "I te nuinga o te wā ka tīmata ngā mahi matihiko ki te whāinga kaha, engari kāore e taea te tahuri ki ngā putanga tuku nā te rangatiratanga kāore i te mārama, ngā utauta momotu, me ngā manakē whakataetae.",
+      "painPointsTitle": "mamae pakihi auau",
+      "impactSignalsTitle": "He aha te nuinga o te wā e kitea ana e ngā kaiārahi",
+      "painPoints": [
+        "Kua tautuhia ngā mahere panoni engari kāore i whakamāoritia ki te whakahaere tuku",
+        "Ka wehe ngā manakē pakihi me ngā pūkaha i muri i ngā huringa whakamahere tuatahi",
+        "Ko ngā tauira mahi tuku iho e ārai ana i te whakatamarikitanga o ngā tikanga tuku hua hōu"
+      ],
+      "impactSignals": [
+        "Ka piki ake te whakapau papatono i te wā e noho papatahi ana te nekehanga KPI rautaki",
+        "Ka hapa ngā mahi i ngā wāhi tuku i waenga i te rautaki, te hoahoanga, me te kawenga",
+        "Ka wheako ngā tīma i te ngenge huringa me te uara pakihi iti"
+      ]
+    },
+    "approach": {
+      "overview": "Ka whakakotahitia e mātou te tohutohu rautaki me te hoahoa tuku, te whakarārangi i te hoahoa tauira mahi, te āheinga pūhara, me te kawenga kawenga huri noa i ngā whāinga ine.",
+      "pillars": [
+        {
+          "title": "Manakē Roma Uara",
+          "detail": "Ka raupapatia e mātou ngā mahi i runga anō i te pānga pakihi ine me ngā herenga whakawhirinaki hangarau."
+        },
+        {
+          "title": "Hoahoa Tauira Mahi Ūnga",
+          "detail": "Kua tautuhia ngā tūranga, te whakahaere, me ngā mana whakatau hei tautoko i te kawenga tere ake puta noa i ngā tīma pakihi me ngā tīma hangarau."
+        },
+        {
+          "title": "Te Whakahaere Tukunga Kōpaki",
+          "detail": "Ka whakahaeretia te kaunuku panoni mā ngā wāhitaki hono-KPI me ngā mana mōrearea taumata-kōpaki."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ko tā mātou hoahoa panoni e whakahua ana i te whakahōutanga āpiti me te haepapa mārama, me te karo i ngā tuhi anō whakararuraru me te kore whakatikatika pakihi.",
+      "items": [
+        {
+          "title": "Tīaroaro Āheinga Pakihi",
+          "detail": "Ka whakaritea ngā huringa hangarau huri noa i ngā āheinga e whakamahere hāngai ana ki te moni whiwhi, te kounga o te ratonga, te tōtika utu rānei."
+        },
+        {
+          "title": "Rautaki Pūhara Taeatito",
+          "detail": "Ka tīpakohia ngā wae pūhara mō te āheinga hei tautoko i te hekenga ā-wāhanga me te urutaunga tere ake."
+        },
+        {
+          "title": "Te Whakahaere me te Tukunga Cadence",
+          "detail": "Kua tāmau ngā wānanga whakataunga me ngā pūwāhi mana ki ngā huringa sprint me ia hauwhā, kāore i whakamahia hei ara takawaenga motuhake."
+        }
+      ]
+    },
+    "capabilities": [
+      "Ngā Mahere Huringa Mamati",
+      "Whanaketanga Rautaki Hangarau",
+      "Ngā Anga Whakatamariki Kapua",
+      "Arotautanga Tukanga",
+      "Whakahaeretanga Huringa"
+    ],
+    "technologies": [
+      {
+        "name": "Rohe Tauranga Azure",
+        "category": "Tūāpapa Kapua",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Pūhara Raraunga",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Hiko BI",
+        "category": "Mōhiohio Whakatau",
+        "icon": "hiko hiko"
+      },
+      {
+        "name": "Pūhara Hiko",
+        "category": "Waehere-Iti",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Ngātahitanga",
+        "icon": "pūwāhi microsoftsharepoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Tīaroaro Rautaki",
+        "summary": "We align leadership priorities and digital objectives to create a shared transformation direction.",
+        "deliverables": [
+          "Ngā whāinga panoni me ngā paearu angitu",
+          "Te mātauranga āheinga me te aromatawai āputa",
+          "Kōpaki mahi manakē"
+        ]
+      },
+      {
+        "title": "Mahere Kawenga",
+        "summary": "Ka tautuhia e mātou te tauira whakahaere ūnga, ngā paerewa hoahoa, me te raupapa whakatinanatanga whāwhā.",
+        "deliverables": [
+          "Tauira whakahaere me te hoahoa whakahaere",
+          "Paerewa hoahoa hangarau me te tukanga",
+          "Mahere huarahi whakatinanatanga ā-wāhanga"
+        ]
+      },
+      {
+        "title": "Huringa me te Whakatauranga Uara",
+        "summary": "Ka whakahaere mātou i te whakatamarikitanga, te aroturuki i te nekehanga KPI, me te whakamahine i ngā mahi i runga anō i ngā hua tuku.",
+        "deliverables": [
+          "Mahere whakatamariki me te whakahohe",
+          "Te aukati inenga KPI",
+          "Whakaputunga arotautanga ia hauwhā"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Tīmataria tō haerenga panoni",
+      "description": "Whakatere i te huringa me ngā manakē mārama me ngā mahere tuku ā-ringa.",
+      "button": "Whakaritea te Wātū Rautaki"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Ngā pūnaha tūhono mai i te pūrere ki te kapua, me ngā arapae ine me te mōhiohio tapa mō te tauine ahumahi."
+    },
+    "sections": {
+      "problem": {
+        "title": "Tāpare Raru Pakihi",
+        "subtitle": "He aha i kore ai ngā papatono pūrere-tūhono e tauine ki tua atu i ngā tukunga whakahaurangi"
+      },
+      "approach": {
+        "title": "Huarahi Pūkaha",
+        "subtitle": "He pēhea tā mātou hoahoa i ngā pūnaha IoT haumaru, ka taea te whakahaere mai i ngā pūmanawa mārō pūrere ki ngā API kapua"
+      },
+      "principles": {
+        "title": "Ngā Mātāpono Hoahoa",
+        "subtitle": "Ngā ture hoahoa tapa-ki-te-kapua mō te whaikiko, te latency, me te whakahaere rererangi"
+      },
+      "capabilities": {
+        "title": "Ngā Rongoā IoT",
+        "subtitle": "Tūhono, aroturuki, arotau hoki i ō pūrere"
+      },
+      "technology": {
+        "title": "Tāpae Hangarau IoT",
+        "subtitle": "Mai i te pūmārō ki te kapua"
+      },
+      "breakdown": {
+        "title": "Wehenga Ratonga",
+        "subtitle": "He pēhea tā mātou tuku pūnaha tūhono mai i ngā pūrere tapa ki te mōhiohio kapua"
+      }
+    },
+    "problem": {
+      "overview": "I te nuinga o te wā ka kitea e ngā mahi IoT te āheinga hangarau i roto i ngā kaihautū, engari ka hinga i te tauine nā te tūhonotanga koretake, ngā mana rererangi ngoikore, me te urunga kino ki ngā rerengamahi pakihi.",
+      "painPointsTitle": "mamae pakihi auau",
+      "impactSignalsTitle": "He aha te nuinga o te wā e kitea ana e ngā kaiārahi",
+      "painPoints": [
+        "Ka noho ā-ringa tonu te urunga pūrere me te whakahaeretanga huringa ora",
+        "Ka puta mai i ngā arapae ine waea he raraunga mahi turituri, kāore anō kia oti, kua takaware rānei",
+        "Ka whakaurua e ngā whakahōutanga tono mamao me ngā whakahōutanga pūmanawa mārō te mōrea haumaru, haumarutanga hoki"
+      ],
+      "impactSignals": [
+        "Ka tutuki ngā taiao whakahaurangi, engari he rite tonu te heke o ngā rārangi wā whakanao",
+        "Ka urupare ngā tīma mahi āpure ki ngā mahi me te kore kitenga matapae",
+        "Kāore e taea e ngā pūnaha pakihi te whakapau tika i te mōhiohio pūrere i te wā tūturu"
+      ]
+    },
+    "approach": {
+      "overview": "Ka hoahoa mātou i ngā pūhara IoT hei pūnaha tuari whakahaere, e whakakotahi ana i ngā paerewa wā whakahaere tapa haumaru, te whakaurunga ā-takahanga, me te whakahaere whakahaere i te tauine rererangi.",
+      "pillars": [
+        {
+          "title": "Whakahaeretanga Huringa Ora Pūrere Haumaru",
+          "detail": "Kua aunoatia te whakarato, te tuakiri, te takahuringa pātuhi, me ngā whakahōutanga pūmanawa mārō hei whakaiti i te mōrea mahi."
+        },
+        {
+          "title": "Hoahoa Ine Waeatanga ā-Takahanga",
+          "detail": "Ko ngā arapae roma e whakapūnoa, whakamana, me te ararere i ngā takahanga pūrere mō ngā tātaritanga me te mana i te wā tūturu."
+        },
+        {
+          "title": "Rererangi Whakahaere Mahi Rererangi",
+          "detail": "Ko te aroturuki, te whakatūpato, me ngā rerengamahi tono mamao e whakarato ana i te tirotiro pono puta noa i ngā rawa kua tohaina."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ko tā mātou hoahoa IoT e whakataurite ana i ngā whakataunga tapa iti-latency me te whakahaere pūtahi, te mātakitaki, me te whakatikatika haumarutanga.",
+      "items": [
+        {
+          "title": "Mana Motuhake Tapa me te Hononga Kapua",
+          "detail": "Ka haere tonu ngā mahi paetata takenui i te wā o te whakahekenga whatunga i te wā e tukutahi ana i te āhua ki ngā pūnaha kapua ina wātea."
+        },
+        {
+          "title": "Ngā Aronuinga Takahanga Kirimana",
+          "detail": "Ka whakamahi ngā tīma pūrere me ngā tīma pūhara i ngā aronuinga whakahaere hei pupuri i te ōritetanga waeatanga puta noa i ngā putanga."
+        },
+        {
+          "title": "Haumarutanga Pūrere Whirinaki-Kore",
+          "detail": "Ka whakaūngia te motuhēhēnga tahi, te iti rawa o te mana, me te kawenga whakamuna puta noa i ia tauwhitinga pūrere."
+        }
+      ]
+    },
+    "capabilities": [
+      "Whakahaeretanga Pūrere IoT",
+      "Ngā Rongoā Māhanga Mamati",
+      "Tukunga Rorohiko Tapa",
+      "Ine Waeatanga Wā-Tūturu",
+      "Tautiakitanga Matapae"
+    ],
+    "technologies": [
+      {
+        "name": "Pokapū IoT",
+        "category": "Waharoa Kapua",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Ngā Māhanga Mamati",
+        "category": "Whakataruna",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Rorohiko Tapa",
+        "category": "Tapa",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Kawa",
+        "icon": "mqtt"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Kawa",
+        "icon": "wara"
+      },
+      {
+        "name": "Arduino",
+        "category": "Pūmārō",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Rāhipere Pi",
+        "category": "Pūmārō",
+        "icon": "rāhipepi"
+      },
+      {
+        "name": "Te Urunga O te DB",
+        "category": "Rangatū Wā DB",
+        "icon": "whakaurunga"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Rautaki Pūrere & Edge",
+        "summary": "Ka tautuhia e mātou ngā tauira tūhonotanga, ngā paerewa wā whakahaere tapa, me te whakarato haumaru mō ngā pūrere āpure.",
+        "deliverables": [
+          "Tauira urunga pūrere me te tūhonotanga",
+          "Mahere Edgeruntime me te tukunga",
+          "Tauanga haumarutanga ā-waka"
+        ]
+      },
+      {
+        "title": "Ine Waea me te Papa Mana",
+        "summary": "Ka hangaia e mātou ngā paipa e hopu ana i ngā takahanga, e whakatauira ana i ngā māhanga mamati, e whakahohe ana i ngā rerengamahi mana mamao.",
+        "deliverables": [
+          "Hoahoa aronuinga takahanga me te hoahoa aronuinga wā-tūturu",
+          "Whakatinanatanga tauira māhanga mamati me te tauira rawa",
+          "Apa API tono me te mana"
+        ]
+      },
+      {
+        "title": "Ngā Mahi me te Tauine",
+        "summary": "Ka whakahaerehia e mātou te whakahaere rererangi me ngā mana whaikiko mō ngā taiao IoT tauine whakanao.",
+        "deliverables": [
+          "Aroturuki me te matohi o te rererangi pūrere",
+          "Tautiakitanga matapae me te haurapa anomaly",
+          "Mahere tautoko takahuri, huringa ora hoki"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Tūhono i ō pūrere",
+      "description": "Hangaia he rongoā IoT pono kua rite mō ngā taiao whakanao tūturu.",
+      "button": "Tīmataria tō kaupapa IoT"
+    }
+  }
+}

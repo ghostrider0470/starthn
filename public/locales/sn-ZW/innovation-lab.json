@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Innovation Lab",
+    "description": "Ongorora inopindirana demos, kuyedza, uye hunyanzvi hwekuratidzira kubva kuchikwata chedu cheinjiniya.",
+    "primary": "Ongorora Demos",
+    "secondary": "Ona Tsvagiridzo"
+  },
+  "overview": {
+    "hero": {
+      "title": "Innovation Lab",
+      "description": "Isu tinoongorora miganhu inoshanda muAI, otomatiki, uye akagoverwa masisitimu, tobva tashandura kutsvagisa kwakasimbiswa kuita kugona kwekugadzira kwakavimbika.",
+      "primary": "Ongorora nzvimbo dzekutsvagisa",
+      "secondary": "Kurukura kushandira pamwe"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Nzvimbo dzekutsvagisa",
+        "description": "Nzvimbo yega yega yekutarisa inobatanidza kutsvagisa kwekuongorora nenzira dzekumisikidza dzakagadzirirwa chaidzo-nyika masisitimu.",
+        "cardCta": "Ongorora kutarisisa"
+      },
+      "detailedFocusBriefs": {
+        "title": "Detailed Focus Briefs",
+        "description": "Zvirongwa zvekutsvagisa zvenguva pfupi parizvino zvinofamba kubva pakusimbisa kwekuvaka kuenda kune zvirongwa zvekuendesa."
+      },
+      "fromLabToProduction": {
+        "title": "Kubva kuLab kuenda kuKugadzira",
+        "description": "Innovation paHorizon inoyerwa nemhedzisiro yakatumirwa, kwete yakasarudzika prototypes."
+      },
+      "roadmap": {
+        "title": "R &D Roadmap",
+        "description": "Kufambira mberi kwakasarudzika kubva pakuvaka kugona kusvika kuchinjika, kuenderera mberi nekuvandudza masisitimu."
+      },
+      "publications": {
+        "title": "Publications & Insights",
+        "description": "Kunyora kwehunyanzvi uye kumisikidza manotsi kubva kuenderera mberi kwebasa rehunyanzvi."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Applied AI Systems",
+        "description": "Kugadzira-kwakatarisana neAI zvivakwa zvinosanganisira modhi yekushandira, chimiro orchestration, uye kutonga kuyedza."
+      },
+      "automationFrameworks": {
+        "title": "Automation Frameworks",
+        "description": "Zvemukati otomatiki zvishandiso zvekuendesa kuchengetedzeka, mhinduro yechiitiko, uye inodzokororwa mainjiniya workflows."
+      },
+      "advancedArchitecture": {
+        "title": "Advanced Architecture Kuedza",
+        "description": "Tsvagiridzo mune yakasimba, yakagoverwa zvivakwa zvakagadziridzwa mashandiro, kushivirira kwemhosva, uye chiyero."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Njere pamucheto weyakaderera-latency sarudzo, telemetry kugadzirisa, uye chishandiso ngarava kubatana."
+      },
+      "nlp": {
+        "title": "Natural Language Processing",
+        "description": "Multilingual kunzwisisa mapaipi ekuparadzanisa, kuburitsa, kushandura, uye masisitimu ekukurukurirana."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Evolutionary Algorithms & Optimization",
+        "description": "Kutsvaga uye kugadzirisa masisitimu akafuridzirwa nesarudzo yechisikigo kugadzirisa matambudziko epamusoro-soro einjiniya."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Automation Frameworks",
+        "description": "Tiri kuvaka composable workflow masisitimu ekuburitsa orchestration, magedhi emhando yepamusoro, uye post-kuendesa kuongororwa kudzikisira kukakavara kwemanyorerwo uku uchivandudza kuvimbika."
+      },
+      "advancedArchitecture": {
+        "title": "Advanced Architecture Kuedza",
+        "description": "Yedu yekuvaka kuyedza inotarisa pane nzira dzekuora kwebasa, muchinjikwa-dunhu rekusimba mapatani, uye mashandiro emashandisiro emasisitimu anoshanda pasi pekugadzikana kudiwa."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Tiri kusimbisa chiitiko-kutenderera uye kumucheto inference dhizaini iyo inogonesa kukurumidza sarudzo dzemuno uku ichichengetedza kutonga kwepakati, kuongorora, uye modhi yehupenyu hwehutongi."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Adaptive Capacity Planning",
+        "description": "Lab prototypes inosimbiswa ichipesana neyakafananidzwa mitoro uye yozobatanidzwa mupuratifomu autoscaling marongero."
+      },
+      "operationalIntelligence": {
+        "title": "Operational Intelligence",
+        "description": "Mapaipi eNLP anofamba kubva kuongororwa kuedza kuenda kumabasa ekutsigira ekugadzira kuti akurumidze triage uye akajeka nzwisisa."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Optimization muDelivery Systems",
+        "description": "Nzira dzekushanduka-shanduka dzakaedzwa murabhoritari dzinoshandurwa kuita injini dzekugadzirisa kuronga uye kugovera."
+      },
+      "edgeDecisioning": {
+        "title": "Edge Sarudzo",
+        "description": "IoT uye kumucheto inference kuedza kunoomeswa kuita yakaderera-latency masevhisi ane yakasimba kuvimbika zvipingamupinyi."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Zvino",
+        "title": "Yakashandiswa AI Nheyo",
+        "description": "Wedzera inogadziriswazve modhi-inoshandira matemplate, masuti ekuongorora, uye zviyero zvekucherechedza muzvikwata zvechigadzirwa."
+      },
+      "next": {
+        "phase": "Inotevera",
+        "title": "Autonomous Engineering Workflows",
+        "description": "Shandisa otomatiki masisitimu ayo anoderedza njodzi yekuendesa uye kupfupisa mhinduro dzekutumira."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 Mwedzi",
+        "title": "Edge-Native Intelligence",
+        "description": "Scale hybrid cloud-edge architectures for near real-time inference in latency-sensitive environment."
+      },
+      "longHorizon": {
+        "phase": "Yakareba Horizon",
+        "title": "Kuenderera mberi Optimization Systems",
+        "description": "Batanidza kuyedza, kuongorora, uye kugadzirisa kuitira kuti masisitimu agone kuchinjika zvakachengeteka sezvo mamiriro ezvinhu achichinja."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Injiniya AI masisitimu anoramba akavimbika mukugadzirwa",
+        "summary": "A practical perspective on balancing experimentation velocity with production governance.",
+        "cta": "Verenga Insights"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Yakagoverwa Zvivakwa Mapatani eMapuratifomu Ekukura Kwepamusoro",
+        "summary": "Manotsi emunda kubva kumiedzo yekuvaka yakanangana nekuita, kusimba, uye kushanda nyore.",
+        "cta": "Ongororo nyaya dzezvidzidzo"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping Applied R &D yeBhizinesi Mhedzisiro",
+        "summary": "Maitiro atinoronga zvirongwa zvehunyanzvi kuitira kuti zviwanikwa zvifambe kubva kuprototype kuenda kune kukosha kunoyerwa.",
+        "cta": "Ongorora mabhuku"
+      }
+    },
+    "cta": {
+      "title": "Vaka neHorizon Innovation Lab",
+      "description": "Batana nesu kusimbisa mazano ekuda nekukurumidza uye kufambisa pfungwa dzakasimbiswa mune yakachengeteka, scalable yekugadzira masisitimu.",
+      "primary": "Tanga Kukurukurirana",
+      "secondary": "Ona Mhedzisiro Yekuendesa"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Applied AI Systems",
+      "description": "Pfupiso inoshanda yekuti Horizon inogadzira sei, kuendesa, uye mashandiro emuchina kudzidza masisitimu kubva ku prototype kusvika pakugadzirwa.",
+      "back": "Dzokera kuInnovation Lab",
+      "tags": {
+        "appliedAi": "Yakashandiswa AI",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Machine Learning Pipelines",
+        "description": "Kugadzira AI inotanga nemapaipi anodzokororwa anobatanidza data, kuyedza, kusimbisa, uye mhinduro."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Model Deployment Patterns",
+        "description": "Nzira yekuendesa inosarudzwa zvichienderana nezvinodiwa zve latency, kutsoropodza bhizinesi, uye kuomarara kwekushanda."
+      },
+      "mlopsOperatingModel": {
+        "title": "MLOps Operating Model",
+        "description": "MLOps maitiro anovimbisa kuti AI masisitimu anogara akavimbika, anodzorwa, uye anochinjika sezvo kushandiswa kuchikura."
+      },
+      "monitoringAndReliability": {
+        "title": "Kuongorora uye Kuvimbika",
+        "description": "Kucherechedza kunovhara chiuno pakati pemaitiro emuenzaniso uye mhedzisiro yekushanda."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Data uye Feature Engineering",
+        "description": "Shanduro yedata yekumedza, macheki emhando yepamusoro, uye tsananguro dzinogadziriswazve dzinogadzira hwaro hwakavimbika hwekudzidziswa kwemodhi."
+      },
+      "modelDevelopment": {
+        "title": "Model Development",
+        "description": "Kuedza kunoteedzerwa nekugadziriswa kunodzokororwa, chinangwa metrics, uye otomatiki kuenzanisa baselines."
+      },
+      "validationAndSafetyGates": {
+        "title": "Validation uye Chengetedzo Magedhi",
+        "description": "Mamodheru emukwikwidzi anopasa mashandiro, kusimba, uye macheki emitemo asati abvumidzwa kuburitswa."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Operational Feedback Loops",
+        "description": "Post-kutumirwa telemetry inozivisa kudzidzisazve kwekutanga, kudzoreredza sarudzo, uye inotevera iteration kuronga."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Real-Time Inference Services",
+        "description": "Yakaderera-latency APIs yekudyidzana kunyorera ne autoscaling, caching, uye chikumbiro-chikamu chekucherechedza."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Batch uye Streaming Predictions",
+        "description": "Yakarongedzwa uye chiitiko-inotyairwa mapaipi epamusoro-vhoriyamu yekurova pane analytics uye mashandiro ebasa."
+      },
+      "edgeAwareDeployment": {
+        "title": "Edge-Aware Deployment",
+        "description": "Hybrid gore-kumucheto kushandira mapatani enharaunda dzinoda inference yemuno uye yepakati modhi manejimendi."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI / CD yemamodheru",
+        "description": "Otomatiki kuvaka, kuyedza, uye kuburitsa workflows kunoderedza njodzi yekuendesa uku uchichengetedza kumhanya kwekuendesa."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Model Registry uye Lifecycle",
+        "description": "Versioned modhi artifacts ine matanho ekusimudzira, mutsara, uye kubvumidzwa workflows inovandudza kutonga uye kuteedzera."
+      },
+      "servingInfrastructure": {
+        "title": "Kushandira Zvivakwa",
+        "description": "Scalable kushandira materu ane nzira dzekuburitsa senge canary uye mumvuri deployments inotsigira yakachengeteka shanduko manejimendi."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Kufanotaura mhando uye drift kuona",
+      "latencyThroughputAndCostEfficiencyTracking": "Latency, throughput, uye mutengo unoshanda kuteedzera",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Data quality regression alerts uye remediation workflows",
+      "auditabilityForComplianceAndIncidentAnalysis": "Kuongorora kwekutevedzera uye kuongororwa kwezviitiko"
+    },
+    "cta": {
+      "title": "Scale Applied AI nechivimbo",
+      "description": "Kana iwe uri kuronga zvirongwa zveAI zvinoda mhedzisiro inoyerwa uye kuchengetedzwa kwenguva refu, Horizon inogona kubatsira kugadzira nekushandisa iyo yakazara system lifecycle.",
+      "primary": "Taura nechikwata chedu",
+      "secondary": "Explore More Lab Work"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "Mitauro yakawanda NLP",
+      "description": "Ongorora mashandiro ekugadzirisa mutauro wechisikigo uye kuti vanowedzera sei kuita akavimbika, mitauro yakawanda yekugadzira masisitimu.",
+      "back": "Dzokera kuInnovation Lab",
+      "tags": {
+        "demo": "Inopindirana Demo",
+        "intelligence": "Mutauro Njere"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "NLP Nheyo",
+        "description": "Mutauro wechisikigo wekugadzirisa unosanganisa zviratidzo zvemitauro uye kudzidza kwemuchina kuti ubvise zvinoreva, chinangwa, uye chimiro kubva kune zvinyorwa."
+      },
+      "workbench": {
+        "title": "Inopindirana NLP Workbench",
+        "description": "Shandisa demo kuyedza kuonekwa kwemutauro, kurova manzwiro, kuburitsa kwesangano, uye maitiro ekushandura munguva chaiyo."
+      },
+      "productionApplications": {
+        "title": "Horizon Inoshandisa Sei NLP muKugadzira",
+        "description": "NLP kugona kunosanganisirwa mubhizinesi workflows nekuita kwekuchengetedza uye yakajeka mhando metrics."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Kuvimbika uye Kutonga Nheyo",
+        "description": "Kugadzirwa kweNLP kunoda zvinopfuura mhando yemhando yepamusoro; Zvinoenderana nemaitiro akachengeteka ekuburitsa uye kuenderera mberi kwekuongorora."
+      }
+    },
+    "foundations": {
+      "intro1": "Yemazuva ano NLP masisitimu anopa simba rekutsigira otomatiki, kutsvaga kukosha, kuburitsa ruzivo, uye kubatana kwemitauro yakawanda. Kuitiswa kunobudirira kunoda ese ari maviri mhando yemhando uye yakasimba yekushanda kutonga.",
+      "intro2": "KuHorizon, isu tinotarisa kumagumo-kusvika-kumagumo NLP masisitimu ayo anosanganisa yakasimba inference nekucherechedza, hutongi, uye kuyerwa kwekugadzira mhedzisiro."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Kuongorora Mutauro",
+        "description": "Inoratidza mutauro kubva kumapfupi kana marefu mavara zvikamu kuti uendese zvikumbiro mupombi chaiyo yekugadzirisa pombi."
+      },
+      "sentimentAnalysis": {
+        "title": "Sentiment Analysis",
+        "description": "Inobvisa chinangwa chemanzwiro uye polarity yehungwaru hwevatengi, rutsigiro triage, uye chigadzirwa mhinduro zvishandiso."
+      },
+      "entityExtraction": {
+        "title": "Entity Extraction",
+        "description": "Inoona masangano akarongeka akadai semazita, makambani, nzvimbo, uye mazuva kubva kune zvisina kurongeka zvinyorwa."
+      },
+      "translation": {
+        "title": "Shanduro",
+        "description": "Inotsigira mafambiro emitauro yakawanda nekushandura mameseji anogadzirwa nemushandisi-kana anoshanda achichengeta mamiriro."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Rutsigiro uye Ticket Intelligence",
+        "description": "Kupatsanura zvikumbiro zvinouya nekukurumidzira, chinangwa, uye manzwiro ekumhanyisa nzira uye mhinduro mhando."
+      },
+      "governedContentOperations": {
+        "title": "Inotungamirwa Zvemukati Mashandiro",
+        "description": "Shandisa mutemo-anoziva mafirita emitauro uye macheki ekudzora nekuyerwa chaiwo uye kurangarira zvinangwa."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Text-Driven Business Insights",
+        "description": "Unganidza mafambiro kubva kumagwaro, ongororo, uye kutaurirana kuzivisa zano uye sarudzo dzekushanda."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Kuongororwa neKushandisa Case",
+        "description": "Mamodheru anoenzaniswa nenzvimbo-yakatarwa datasets isati yaitwa sarudzo dzekuburitsa."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Zvidziviriro zvevanhu-mu-the-loop",
+        "description": "Fungidziro dzepamusoro-soro dzinosanganisira nzira dzekuongorora, mitemo yekuwedzera, uye zviratidzo zvakajeka zvekuvimba."
+      },
+      "continuousMonitoring": {
+        "title": "Kuenderera mberi Kuongorora",
+        "description": "Drift, latency, uye kushomeka kwemhando kunoteedzerwa nguva dzose saka kudzidziswa uye kudzoreredza kunoshanda."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Genetic Algorithm Simulation",
+      "description": "Ongorora kushanduka-shanduka kwekuverenga munzvimbo yekudyidzana uye uone kuti misimboti yakafanana inoshandura sei mukugadzirwa kwekugadzirisa masisitimu.",
+      "back": "Dzokera kuInnovation Lab",
+      "tags": {
+        "demo": "Inopindirana Demo",
+        "optimizationScience": "Optimization Sayenzi"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Nheyo yesainzi",
+        "description": "Genetic algorithms ndeye huwandu hwevanhu-hwakavakirwa nzira dzekugadzirisa dzakafuridzirwa nesarudzo yechisikigo uye kugadzirisa."
+      },
+      "interactiveEnvironment": {
+        "title": "Inopindirana Evolution Environment",
+        "description": "Mhanya simulation kuti uone kugwinya kuchivandudza chizvarwa nechizvarwa uye uone kuti kumanikidza kwekusarudza kunokanganisa sei mhedzisiro."
+      },
+      "productionUse": {
+        "title": "Horizon Inoshandisa Sei Izvi Mukugadzirwa",
+        "description": "Iyo imwecheteyo yekutsvaga mechanics inoshandiswa mune ino demo inozivisa optimization mapaipi akatumirwa mune anoshanda masisitimu."
+      },
+      "applicationDomains": {
+        "title": "Wider Application Domains",
+        "description": "Shanduko yekugadzirisa inonyanya kukosha muhurongwa hune zvinangwa zvine simba uye zvinopesana zvipingamupinyi."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Panzvimbo pekutsvaga mhinduro imwe panguva, majini algorithms anoshandura huwandu hwakasiyana hwevakwikwidzi. Chizvarwa chega chega chinoongororwa zvichipesana nebasa rekusimbisa muviri uye chakanatswa kuburikidza nekusarudzwa, kuyambuka, uye kuchinja.",
+      "intro2": "Izvi zvinoita kuti zvibudirire kumatambudziko epamusoro-soro ane zvipingamupinyi zvisiri zvemutsara, uko nzira dzekumisikidza dzinova dzakaomarara kana dzinodhura."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Kusarudzwa",
+        "description": "Vakwikwidzi vanoita zvepamusoro vane mukana wakakura wekupona uye kufurira chizvarwa chinotevera."
+      },
+      "crossover": {
+        "title": "Kuyambuka",
+        "description": "Hunhu hwakasimba hunosanganiswazve kuti ugadzire mhinduro nyowani dzemukwikwidzi dzine simba rakavhenganiswa."
+      },
+      "mutation": {
+        "title": "Shanduko",
+        "description": "Inodzorwa randomness inounza kusiyana-siyana kuitira kuti kutsvaga kusamira kutenderedza yemuno optima."
+      },
+      "convergence": {
+        "title": "Convergence",
+        "description": "Kwezvizvarwa zvakawanda, vanhu vanoenda kune yakagadzikana uye yemhando yepamusoro mhinduro."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Zviwanikwa Kuronga",
+        "description": "Isu tinoshandisa nzira dzekushanduka-shanduka kukwidziridza kuronga kwakawanda-zvipingamupinyi uko brute-simba kutsvaga kusingagoneke."
+      },
+      "architectureTuning": {
+        "title": "Architecture Tuning",
+        "description": "Zvivakwa zvekumisikidza zvivakwa zvinoongororwa iteratively kuti zvivandudze mashandiro uye mutengo unoshanda."
+      },
+      "continuousOptimization": {
+        "title": "Kuenderera mberi Optimization",
+        "description": "Optimization mabasa anomhanya mune inodzorwa zvishwe ine telemetry mhinduro saka masisitimu anochinjika sezvo kudiwa profiles kuchinja."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Route & Logistics Planning",
+        "description": "Yakaoma kuendesa uye kuronga kutumira kunobatsirwa nekutsvaga kwekushanduka kana zvipingamupinyi zvichichinja nekukurumidza."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Model uye Hyperparameter Kutsvaga",
+        "description": "Kutsvaga kwemajini kunogona kuwana mhando yepamusoro modhi yekumisikidza kana nzvimbo dzechinangwa dziine ruzha uye dzisina mutsara."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Portfolio uye Kugovera Matambudziko",
+        "description": "Optimization pasi pezvinangwa zvinokwikwidza zvinogona kuverengerwa sehutano hwehutano hwekutengeserana pane inoshanduka seti yemukwikwidzi."
+      }
+    }
+  }
+}

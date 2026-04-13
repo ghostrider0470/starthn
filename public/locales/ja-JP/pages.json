@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "私たちについて",
+    "hero": {
+      "titlePrefix": "明日の技術を築く、",
+      "titleHighlight": "現在",
+      "description": "Horizon Tech d.o.o.はサラエボに本社を置くグローバルなテクノロジー企業で、3大陸の企業に最先端のソフトウェアソリューションを提供しています。"
+    },
+    "sections": {
+      "mission": {
+        "title": "ミッション",
+        "description": "私たちは、組織が野心的なアイデアを信頼できるデジタル製品へと変え、測定可能なビジネス価値を生み出すお手伝いをします。",
+        "points": [
+          "技術提供を明確なビジネス成果と整合させること。",
+          "チームの規模拡大に伴い、長期的に維持可能なシステムを構築しましょう。",
+          "戦略から実行までステークホルダーと密接に連携しましょう。"
+        ]
+      },
+      "expertise": {
+        "title": "専門性",
+        "description": "私たちの多分野チームは、現代の技術スタックにわたるエンジニアリングの深さと製品思考を融合させています。",
+        "points": [
+          "エンタープライズグレードのウェブおよびプラットフォームエンジニアリング。",
+          "クラウドアーキテクチャ、DevOpsの自動化、そしてレジリエントなインフラストラクチャ。",
+          "応用AI/ML、データワークフロー、IoT対応製品。"
+        ]
+      },
+      "approach": {
+        "title": "アプローチ",
+        "description": "私たちは、納品を予測可能にしつつ製品リスクを低減する透明で反復的なモデルで実行しています。",
+        "points": [
+          "発見:早期に範囲、優先事項、成功指標を定義すること。",
+          "ビルド:継続的なフィードバックループを重ねて集中した段階で出荷します。",
+          "最適化:成果を監視し、時間をかけてパフォーマンスを向上させる。"
+        ]
+      }
+    },
+    "cta": {
+      "title": "ビジネスを変革する準備はできていますか?",
+      "description": "Horizon Techを信頼し、革新的なソリューションと卓越した成果を提供する企業のリストに加わりましょう。",
+      "primary": "始めよう",
+      "secondary": "成功事例を見る"
+    }
+  },
+  "contact": {
+    "badge": "お問い合わせ",
+    "hero": {
+      "title": "お問い合わせ",
+      "description": "何か考えているプロジェクトはありますか?ぜひご連絡ください。ご意見いただければ、ぜひご相談ください。あなたのアイデアを実現するために、私たちがどのようにお手伝いできるかご相談ください。"
+    },
+    "info": {
+      "title": "連絡先情報"
+    },
+    "booking": {
+      "title": "会議の予約",
+      "description": "無料の30分間のディスカバリーコールを予約しましょう"
+    },
+    "methods": {
+      "email": {
+        "title": "メール",
+        "description": "いつでもメールを送ってください",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "所在地",
+        "description": "拠点は",
+        "value": "ボスニア・ヘルツェゴビナ、サラエボ"
+      },
+      "response": {
+        "title": "応答時間",
+        "description": "私たちは通常、内側に応答します",
+        "value": "24〜48時間"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "新プロジェクト"
+      },
+      "support": {
+        "label": "技術サポート"
+      },
+      "partnerships": {
+        "label": "パートナーシップ"
+      },
+      "careers": {
+        "label": "経歴"
+      },
+      "general": {
+        "label": "一般調査"
+      }
+    },
+    "form": {
+      "title": "メッセージを送ってください",
+      "success": "メッセージありがとうございます。24〜48時間以内にご連絡いたします。",
+      "error": "何かがうまくいかなかった。もう一度お試しいただくか、直接メールでお問い合わせください。",
+      "fullName": "フルネーム *",
+      "email": "メールアドレス*",
+      "company": "会社",
+      "subject": "件名*",
+      "message": "メッセージ*",
+      "placeholders": {
+        "name": "君の名前",
+        "email": "you@example.com",
+        "company": "あなたの会社",
+        "subject": "何かお手伝いできることはありますか?",
+        "message": "あなたのプロジェクトや調査について教えてください..."
+      },
+      "validation": {
+        "required": {
+          "name": "フルネームが必要です。",
+          "email": "メールアドレスが必要です。",
+          "subject": "テーマを選んでください。",
+          "message": "メッセージが必要です。"
+        },
+        "email": "有効なメールアドレスを入力してください。",
+        "messageMinLength": "メッセージは少なくとも {{count}} 文字以上でなければなりません。"
+      },
+      "sending": "送信中...",
+      "submit": "メッセージを送信"
+    },
+    "reasonsTitle": "なぜ私たちと協力するのですか?",
+    "reasons": [
+      "フルスタックソフトウェア開発の専門知識",
+      "AI/MLおよびクラウドアーキテクチャの専門家",
+      "透明なコミュニケーションを伴うアジャイル開発",
+      "長期的なサポートとメンテナンス"
+    ],
+    "custom": {
+      "title": "カスタムソリューション",
+      "description": "オーダーメイドの解決策をお探しですか?クライアントと密に連携し、独自のニーズを理解し、測定可能な成果を生み出すカスタムソフトウェアを提供しています。",
+      "cta": "あなたのプロジェクトについて話しましょう"
+    },
+    "faq": {
+      "title": "他に質問がありますか?",
+      "description": "迅速な回答についてはFAQセクションをご覧ください",
+      "cta": "よくある質問(FAQ)をご覧ください"
+    }
+  },
+  "team": {
+    "badge": "私たちのチーム",
+    "hero": {
+      "titlePrefix": "背後にいる知恵者たちに会おう",
+      "titleHighlight": "ホライゾン・テック",
+      "description": "多様な技術者、デザイナー、戦略家のチームが共に高インパクトのデジタル製品を構築しています。"
+    },
+    "section": {
+      "title": "リーダーシップチーム",
+      "description": "Horizon Techのビジョンと成長を導く経験豊富なリーダーたち"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "創業者、CEO、CTO",
+        "bio": "エンタープライズソフトウェアで10+年の経験を持つ先見の明あるリーダーであり、技術アーキテクトで、AI/ML、クラウドプラットフォーム、スケーラブルな製品アーキテクチャを専門としています。",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "パイソン",
+          "ソリューションアーキテクチャ",
+          "クラウドエンジニアリング"
+        ]
+      },
+      "ahmet": {
+        "role": "チーフセキュリティアーキテクト",
+        "bio": "サイバーセキュリティスペシャリストとして、エンタープライズセキュリティアーキテクチャ、安全なオンプレミスインフラ、規制環境向けのコンプライアンス優先の提供に注力しています。",
+        "expertise": [
+          "サイバーセキュリティ",
+          "オンプレミスシステム",
+          "セキュリティアーキテクチャ",
+          "コンプライアンス",
+          "インフラセキュリティ"
+        ]
+      }
+    },
+    "aria": {
+      "email": "メール {{name}}",
+      "linkedin": "{{name}} LinkedInプロフィール"
+    },
+    "culture": {
+      "title": "ホライゾン・テックでの生活",
+      "description": "私たちはイノベーション、協働、継続的な学習の文化を育んでいます",
+      "remoteFirst": {
+        "title": "リモートファースト文化",
+        "description": "どこからでも柔軟な勤務時間で、勤務地ではなく結果に重点を置くことができます。"
+      },
+      "collaborative": {
+        "title": "協働環境",
+        "description": "定期的なチームイベント、知識共有セッション、そして部門横断的なコラボレーション。"
+      },
+      "workLife": {
+        "title": "ワークライフバランス",
+        "description": "寛大な休暇制度、メンタルヘルスサポート、そして個人の時間の尊重。"
+      },
+      "innovation": {
+        "title": "イノベーション・タイム",
+        "description": "20%は個人プロジェクト、ハッカソン、新技術の探求に使う時間です。"
+      },
+      "stats": {
+        "teamMembers": "チームメンバー",
+        "countries": "国",
+        "techStacks": "テックスタック",
+        "remoteReady": "リモート準備完了"
+      }
+    },
+    "cta": {
+      "title": "私たちのチームに参加しませんか?",
+      "description": "私たちは常に職人技、オーナーシップ、革新に関心を持つ才能ある人材を探しています。",
+      "button": "お問い合わせ"
+    }
+  },
+  "careers": {
+    "badge": "私たちのチームにご参加ください",
+    "hero": {
+      "titlePrefix": "未来を築く",
+      "titleHighlight": "私たちと共に",
+      "description": "グローバルクライアント向けに最先端のソフトウェアを開発するエンジニアチームに参加しましょう。リモートワークで働き、継続的に成長し、実際の影響を与えましょう。",
+      "button": "ポジションを参照"
+    },
+    "process": {
+      "title": "採用プロセス",
+      "description": "透明性があり、効率的で、時間を尊重します",
+      "steps": [
+        {
+          "title": "応募してください",
+          "description": "申請を提出すれば、3営業日以内に審査いたします。"
+        },
+        {
+          "title": "初回チャット",
+          "description": "30分間のビデオ通話で、あなたの経験や期待について話し合います。"
+        },
+        {
+          "title": "技術",
+          "description": "技術面接や実習でスキルを披露しましょう。"
+        },
+        {
+          "title": "オファー",
+          "description": "チームをご紹介し、Horizon Techへの入社オファーを受け取りましょう。"
+        }
+      ]
+    },
+    "jobs": {
+      "title": "空きポジション",
+      "description": "次のチャンスを見つけ、成長中のチームに加わります",
+      "unavailable": "現時点で応募は受け付けていません",
+      "apply": "今すぐ応募",
+      "noMatch": "完璧な役が見えない?",
+      "sendCv": "履歴書をお送りください",
+      "listings": [
+        {
+          "title": "シニアフルスタックエンジニア",
+          "department": "工学",
+          "location": "リモート(EUタイムゾーン)",
+          "type": "フルタイム",
+          "description": "React、Node.js、クラウド技術を活用したスケーラブルなエンタープライズアプリケーションを構築しましょう。",
+          "tags": [
+            "反応してください",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOpsエンジニア",
+          "department": "工学",
+          "location": "サラエボ / 遠隔地",
+          "type": "フルタイム",
+          "description": "CI/CDパイプライン、コードとしてのインフラ、モニタリングシステムの設計と保守。",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "テラフォーム",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI/MLエンジニア",
+          "department": "イノベーションラボ",
+          "location": "リモート",
+          "type": "フルタイム",
+          "description": "エンタープライズクライアント向けの機械学習モデルやAIソリューションを開発しましょう。",
+          "tags": [
+            "パイソン",
+            "テンソルフロー",
+            "パイトーチ",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "プロダクトデザイナー",
+          "department": "設計",
+          "location": "リモート",
+          "type": "フルタイム",
+          "description": "複雑なエンタープライズアプリケーション向けに美しく直感的なユーザー体験を作り出しましょう。",
+          "tags": [
+            "フィグマ",
+            "ユーザーリサーチ",
+            "UI/UX",
+            "設計システム"
+          ]
+        },
+        {
+          "title": "ソリューションアーキテクト",
+          "department": "工学",
+          "location": "リモート",
+          "type": "フルタイム",
+          "description": "エンドツーエンドの技術ソリューションを設計し、クライアントをデジタルトランスフォーメーションへ導きます。",
+          "tags": [
+            "クラウドアーキテクチャ",
+            "システム設計",
+            "コンサルティング"
+          ]
+        },
+        {
+          "title": "テクニカルライター",
+          "department": "運用",
+          "location": "リモート",
+          "type": "パートタイム",
+          "description": "包括的なドキュメント、チュートリアル、技術コンテンツを作成しましょう。",
+          "tags": [
+            "文書",
+            "APIドキュメント",
+            "技術文書"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "ここで働くことについて質問がありますか?",
+      "description": "ぜひご連絡ください。ホライゾンテックでの生活に関するご質問にお答えします。",
+      "button": "お問い合わせ"
+    }
+  },
+  "caseStudies": {
+    "badge": "成功事例",
+    "hero": {
+      "titlePrefix": "結果の提供",
+      "titleHighlight": "物質",
+      "description": "私たちが実践的で高インパクトの技術を通じて、さまざまな業界の企業が業務を変革するのを支援してきた方法を探ります。",
+      "tags": {
+        "delivery": "エンジニアリングの提供",
+        "outcomes": "測定済みアウトカム"
+      }
+    },
+    "stats": {
+      "projects": "実施されたプロジェクト",
+      "clients": "ハッピークライアント",
+      "efficiency": "平均効率向上",
+      "retention": "顧客維持率"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "グローバル・フィンテック・コープ",
+        "industry": "金融サービス",
+        "title": "クラウド移行と近代化",
+        "description": "レガシー銀行システムをAWSクラウドインフラにダウンタイムゼロで移行しました。",
+        "challenge": "レガシーのモノリシックアーキテクチャがスケーラビリティの問題を引き起こしている",
+        "result": "AWSのマイクロサービスへの移行に成功しました",
+        "metrics": [
+          {
+            "label": "コスト削減",
+            "value": "40%"
+          },
+          {
+            "label": "性能向上",
+            "value": "3回"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "マイクロサービス",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "ヘルステックソリューションズ",
+        "industry": "医療",
+        "title": "AI搭載診断プラットフォーム",
+        "description": "医療画像解析用のMLモデルを構築し、95%+の精度で完成しました。",
+        "challenge": "手動の診断プロセスが時間がかかりすぎる",
+        "result": "AI/MLによる自動診断",
+        "metrics": [
+          {
+            "label": "節約された時間",
+            "value": "70%"
+          },
+          {
+            "label": "精度",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "パイソン",
+          "テンソルフロー",
+          "反応してください",
+          "医療"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Eコマース大手",
+        "industry": "小売",
+        "title": "リアルタイム分析ダッシュボード",
+        "description": "1日1,000万+イベントを処理するBIプラットフォームを開発しました。",
+        "challenge": "主要なビジネス指標のリアルタイム可視化はありません",
+        "result": "リアルタイム分析とインサイトプラットフォーム",
+        "metrics": [
+          {
+            "label": "イベント/当日",
+            "value": "10M+"
+          },
+          {
+            "label": "応答時間",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "ビッグクエリ",
+          "カフカ",
+          "反応してください",
+          "データエンジニアリング"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "成功物語を書く準備はできていますか?",
+      "description": "同様の成果を達成し、自信を持ってスケールアップできるお手伝いをしましょう。"
+    },
+    "filters": {
+      "title": "インダストリーフィルター",
+      "all": "全産業",
+      "empty": "選ばれた業界フィルターに一致するケーススタディはありません。"
+    }
+  },
+  "blog": {
+    "badge": "ブログ",
+    "hero": {
+      "titlePrefix": "洞察とアイデア",
+      "titleHighlight": "ホライゾン・テック",
+      "description": "技術チュートリアル、業界の洞察、そして実際の配達作業からの実践的な教訓。"
+    },
+    "categories": [
+      "すべての投稿",
+      "クラウドアーキテクチャ",
+      "DevOps",
+      "AI/ML",
+      "フロントエンド",
+      "バックエンド",
+      "データ"
+    ],
+    "featuredPost": {
+      "id": "特集",
+      "title": "クラウドネイティブ開発の未来:2025年の注目すべきトレンド",
+      "excerpt": "サーバーレスアーキテクチャからエッジコンピューティングまで、クラウドネイティブ開発の最新トレンドを探ります。",
+      "author": {
+        "name": "ホライゾン・テック・エディトリアル"
+      },
+      "date": "2025年11月15日",
+      "readTime": "読者8分",
+      "category": "クラウドアーキテクチャ",
+      "tags": [
+        "クラウド",
+        "Azure",
+        "トレンド"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Azure Kubernetes Serviceを用いたスケーラブルなマイクロサービスの構築",
+        "excerpt": "AKSを用いたマイクロサービスの設計と展開に関する実践的なガイド。",
+        "author": {
+          "name": "ホライゾン・テック・エディトリアル"
+        },
+        "date": "2025年11月12日",
+        "readTime": "読書6分",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "マイクロサービス",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "本番環境における機械学習:学んだ教訓",
+        "excerpt": "大規模にMLモデルを展開した実地で得た教訓。",
+        "author": {
+          "name": "ホライゾン・テック・エディトリアル"
+        },
+        "date": "2025年11月10日",
+        "readTime": "10分読書",
+        "category": "AI/ML",
+        "tags": [
+          "機械学習",
+          "MLOps",
+          "パイソン"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19:新しさとそれが重要な理由",
+        "excerpt": "React 19の機能とパフォーマンスへの影響について深く掘り下げます。",
+        "author": {
+          "name": "ホライゾン・テック・エディトリアル"
+        },
+        "date": "2025年11月8日",
+        "readTime": "読書時間5分",
+        "category": "フロントエンド",
+        "tags": [
+          "反応してください",
+          "JavaScript",
+          "ウェブ開発"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "ニュースレターの購読",
+      "description": "最新の記事、チュートリアル、洞察を毎週届けましょう。",
+      "placeholder": "your.email@example.com",
+      "button": "購読",
+      "note": "スパム禁止。いつでも購読解除できます。"
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering ブログ",
+        "description": "AI製品、エンタープライズシステム、信頼できるクラウドプラットフォームを構築するチームによるフィールドノートや実践的なパターン。"
+      },
+      "filters": {
+        "postsInView": "{{count}} 投稿が表示されています"
+      },
+      "featured": {
+        "badge": "最新",
+        "readCta": "特集記事を読む"
+      }
+    }
+  },
+  "profile": {
+    "loading": "プロファイルを読み込み中...",
+    "title": "プロファイル設定",
+    "subtitle": "アカウント設定や設定を管理しましょう",
+    "photoButton": "写真変更",
+    "tabs": {
+      "general": "一般",
+      "security": "セキュリティ",
+      "preferences": "選好"
+    },
+    "messages": {
+      "profileUpdated": "プロフィールが正常に更新されました",
+      "profileUpdateFailed": "プロフィールの更新に失敗しました",
+      "passwordsNoMatch": "新しいパスワードが一致しません",
+      "passwordTooShort": "パスワードは最低8文字でなければなりません",
+      "passwordChanged": "パスワード変更が成功しました",
+      "passwordChangeFailed": "パスワード変更に失敗しました",
+      "optedOut": "練習報告書の放棄",
+      "optedIn": "レポートの練習に参加を選んだ",
+      "optOutFailed": "オプトアウトのステータス更新に失敗しました"
+    },
+    "general": {
+      "title": "個人情報",
+      "description": "個人情報や連絡先情報を更新してください",
+      "firstName": "名前",
+      "firstNamePlaceholder": "John",
+      "lastName": "姓",
+      "lastNamePlaceholder": "ドウ",
+      "email": "メールアドレス",
+      "emailNotice": "メールアドレスは変更できません。助けが必要ならサポートに連絡してください。",
+      "phone": "電話番号",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "セーブの変更"
+    },
+    "security": {
+      "title": "セキュリティ設定",
+      "description": "パスワードとセキュリティ設定を管理しましょう",
+      "currentPassword": "現在のパスワード",
+      "currentPasswordPlaceholder": "現在のパスワードを入力してください",
+      "newPassword": "新しいパスワード",
+      "newPasswordPlaceholder": "新しいパスワードを入力してください",
+      "confirmPassword": "新しいパスワードを確認",
+      "confirmPasswordPlaceholder": "新しいパスワードを確認",
+      "passwordHint": "最低でも8文字以上でなければなりません",
+      "changePassword": "パスワード変更"
+    },
+    "preferences": {
+      "title": "通知設定",
+      "description": "更新や通知の受け取り方をコントロールしましょう",
+      "email": {
+        "title": "メール通知",
+        "description": "メールで最新情報やアラートを受け取ることができます"
+      },
+      "sms": {
+        "title": "SMS通知",
+        "description": "重要なアラートはテキストメッセージで受信できます"
+      },
+      "optOut": {
+        "title": "実践報告書のオプトアウト",
+        "description": "診療所のオーナーから報告書を隠す"
+      },
+      "actions": {
+        "title": "アカウントアクション",
+        "downloadData": "アカウントデータのダウンロード",
+        "deleteAccount": "アカウント削除"
+      }
+    }
+  },
+  "support": {
+    "backHome": "帰郷",
+    "title": "サポートセンター",
+    "subtitle": "ソフトウェア開発サービスのサポートを受けてください",
+    "cards": {
+      "email": {
+        "title": "メールサポート",
+        "description": "ご質問があればメールをお送りください"
+      },
+      "project": {
+        "title": "プロジェクト・インクワイアリーズ",
+        "description": "プロジェクトの要件について話し合いましょう",
+        "button": "お問い合わせ"
+      },
+      "resources": {
+        "title": "資料",
+        "description": "技術リソースとガイド",
+        "button": "リソースを見る"
+      }
+    },
+    "faqTitle": "よくある質問",
+    "faqDescription": "よくある質問への簡単な回答",
+    "faqs": [
+      {
+        "question": "Horizon Techはどのようなサービスを提供していますか?",
+        "answer": "カスタムソフトウェア開発、AI/MLソリューション、クラウドアーキテクチャ、DevOps、ビジネスインテリジェンス、IoTサービスを提供しています。"
+      },
+      {
+        "question": "Horizon Techでプロジェクトを始めるにはどうすればいいですか?",
+        "answer": "ご要望をお伝えしたい方は、フォームやメールでご連絡ください。ディスカバリーコールを設定し、提案を共有します。"
+      },
+      {
+        "question": "継続的なサポートやメンテナンスを提供していますか?",
+        "answer": "はい。バグ修正、セキュリティアップデート、機能改善を含むサポートおよびメンテナンスパッケージを提供しています。"
+      }
+    ]
+  },
+  "education": {
+    "backHome": "帰郷",
+    "title": "技術リソース",
+    "subtitle": "Horizon Techチームによるガイド、チュートリアル、ベストプラクティス",
+    "hub": {
+      "title": "ラーニングハブ",
+      "description": "クラウド、AI/ML、DevOps、そして現代のソフトウェア開発に関する厳選された技術リソースを探求してください。",
+      "note": "これらの資料は実際のプロジェクト経験に基づいており、定期的に更新されています。"
+    },
+    "categories": [
+      {
+        "icon": "クラウド",
+        "title": "クラウドアーキテクチャ",
+        "description": "Azure、AWS、クラウドネイティブパターン",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "ガイド"
+          },
+          {
+            "title": "クラウド移行戦略",
+            "type": "記事"
+          }
+        ]
+      },
+      {
+        "icon": "脳",
+        "title": "AIと機械学習",
+        "description": "機械学習モデル、データサイエンス、AI統合",
+        "resources": [
+          {
+            "title": "Azure MLの入門",
+            "type": "チュートリアル"
+          },
+          {
+            "title": "プロダクションMLパイプラインの構築",
+            "type": "ガイド"
+          }
+        ]
+      },
+      {
+        "icon": "舞台設定",
+        "title": "DevOpsとプラットフォーム",
+        "description": "CI/CD、コードとしてのインフラストラクチャ、自動化",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "チュートリアル"
+          },
+          {
+            "title": "Terraformを用いたインフラストラクチャ・アズ・コード",
+            "type": "ガイド"
+          }
+        ]
+      },
+      {
+        "icon": "コード",
+        "title": "ソフトウェア開発",
+        "description": ".NET、React、そして現代の開発手法",
+        "resources": [
+          {
+            "title": ".NETにおけるクリーンアーキテクチャ",
+            "type": "ガイド"
+          },
+          {
+            "title": "Reactのベストプラクティス",
+            "type": "記事"
+          }
+        ]
+      },
+      {
+        "icon": "データベース",
+        "title": "データと分析",
+        "description": "BI、データウェアハウジング、分析プラットフォーム",
+        "resources": [
+          {
+            "title": "Power BIダッシュボード設計",
+            "type": "チュートリアル"
+          },
+          {
+            "title": "データウェアハウスアーキテクチャ",
+            "type": "ガイド"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "カスタムトレーニングが必要ですか?",
+      "description": "エンジニアリングおよびプロダクトチーム向けにカスタマイズされたワークショップを提供しています",
+      "text": "実践的なチームトレーニングが必要ですか?クラウドアーキテクチャ、DevOps、現代的なデリバリーの実践に関するカスタムワークショップも提供しています。",
+      "button": "お問い合わせ"
+    }
+  },
+  "unauthorized": {
+    "title": "アクセス拒否",
+    "description": "このページへのアクセス権限はありません。もしこれが間違いだと思うなら、管理者に連絡してください。",
+    "primary": "プロフィールへ",
+    "secondary": "帰郷"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "投稿が見つかりません",
+      "description": "slug: {{slug}}のブログ記事は存在しません",
+      "back": "ブログに戻る"
+    },
+    "back": "ブログに戻る",
+    "publisher": "ホライゾン・テック"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "ケーススタディは見つかりません",
+      "description": "id: {{id}}のケーススタディは存在しません",
+      "back": "ケーススタディに戻る"
+    },
+    "back": "ケーススタディに戻る",
+    "sections": {
+      "executiveSummary": "エグゼクティブサマリー",
+      "businessChallenge": "ビジネスチャレンジ",
+      "technicalSolution": "技術的解決策",
+      "architectureDecisions": "アーキテクチャの決定",
+      "technologyStack": "テクノロジースタック",
+      "resultsImpact": "結果と影響"
+    },
+    "client": "クライアント",
+    "keyOutcomes": "主な成果",
+    "decision": "判決 {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // 信号喪失",
+      "title": "ページが見つかりません",
+      "description": "ご希望のルートは存在しないか、移動しています。それでは、有効なHorizon Techのエンドポイントに戻しましょう。",
+      "requestedPath": "リクエストされた経路",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "ルートグラフの解析中...失敗",
+        "line2": "理由:一致するルートモジュールがない",
+        "line3": "フォールバックプロトコルの起動",
+        "line4": "以下のショートカットのいずれかを使って続けてください"
+      },
+      "links": {
+        "home": "ホームページ",
+        "services": "サービス",
+        "blog": "ブログ",
+        "caseStudies": "ケーススタディ"
+      }
+    },
+    "runtime": {
+      "badge": "ランタイムエラー",
+      "title": "このページで何かが壊れました",
+      "description": "予期せぬ問題でレンダリングが中断されました。安全に再挑戦するか、ホームページに戻ることができます。",
+      "retry": "再挑戦",
+      "home": "ホームページに戻る",
+      "unknown": "不明の実行時エラー"
+    }
+  },
+  "meta": {
+    "siteName": "ホライゾン・テック・ブログ"
+  },
+  "admin": {
+    "blog": {
+      "title": "ブログ管理",
+      "subtitle": "ブログ記事の作成、編集、管理",
+      "newPost": "新任",
+      "seedData": "種子データ",
+      "allPosts": "すべての投稿",
+      "published": "公開",
+      "draft": "ドラフト",
+      "featured": "特集作品",
+      "setFeatured": "セット・フィーチャード",
+      "removeFeatured": "特集を削除する",
+      "table": {
+        "title": "タイトル",
+        "category": "カテゴリー",
+        "status": "現状",
+        "date": "日付",
+        "actions": "行動"
+      },
+      "empty": {
+        "message": "まだブログ投稿はありません。最初の投稿やシードサンプルデータを作成しましょう。",
+        "seed": "種子サンプルデータ",
+        "create": "投稿を作成"
+      },
+      "delete": {
+        "title": "投稿を削除",
+        "confirmation": "本当にこの投稿を削除したいですか?この行動は取り消せない。",
+        "delete": "削除",
+        "cancel": "キャンセル"
+      }
+    },
+    "editor": {
+      "bannerHint": "ポスト上部に幅広のバナーとして表示されています",
+      "bannerImage": "バナー画像",
+      "coverHint": "ブログのリストカードに表示されています",
+      "coverImage": "表紙画像",
+      "editSlug": "編集スラッグ",
+      "posts": "投稿",
+      "publish": "公開",
+      "update": "アップデート",
+      "form": {
+        "contentPlaceholder": "投稿内容はこちらに書いてください...",
+        "excerptPlaceholder": "投稿の簡単な要約です...",
+        "pickDate": "日付を選んで",
+        "readTimePlaceholder": "例:5分の読書時間",
+        "titlePlaceholder": "投稿タイトル..."
+      },
+      "meta": {
+        "publisher": "出版社",
+        "unknownAuthor": "著者不明"
+      },
+      "modes": {
+        "edit": "編集",
+        "editOnly": "編集のみ",
+        "preview": "プレビュー",
+        "previewOnly": "プレビューのみ",
+        "sideBySide": "サイドバイサイド",
+        "split": "分裂"
+      },
+      "tags": {
+        "heading": "タグ",
+        "placeholder": "タグを付けて..."
+      },
+      "translations": {
+        "auto": "自動車",
+        "autoTranslate": "自動翻訳",
+        "clear": "クリア",
+        "existing": "現存",
+        "heading": "翻訳",
+        "language": "言語",
+        "languages": "言語",
+        "edit": "編集",
+        "manual": "マニュアル",
+        "preview": "プレビュー",
+        "searchPlaceholder": "言語検索...",
+        "translate": "翻訳"
+      }
+    },
+    "caseStudies": {
+      "title": "ケーススタディ",
+      "subtitle": "ケーススタディやプロジェクトショーケースの管理",
+      "newCaseStudy": "新しいケーススタディ",
+      "seedData": "種子データ",
+      "allCaseStudies": "すべてのケーススタディ",
+      "published": "公開",
+      "draft": "ドラフト",
+      "table": {
+        "title": "タイトル",
+        "industry": "産業",
+        "client": "クライアント",
+        "status": "現状",
+        "actions": "行動"
+      },
+      "empty": {
+        "message": "まだケーススタディはありません。",
+        "seed": "種子データ",
+        "create": "まずは創造"
+      },
+      "delete": {
+        "title": "ケーススタディを削除",
+        "confirmation": "このケーススタディを削除してもいいですか?この行動は取り消せない。",
+        "delete": "削除",
+        "cancel": "キャンセル"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "ケーススタディ",
+      "published": "公開",
+      "draft": "ドラフト",
+      "update": "アップデート",
+      "create": "作成",
+      "sections": {
+        "basicInfo": "基本情報",
+        "narrative": "物語",
+        "architectureDecisions": "アーキテクチャの決定",
+        "techStack": "テックスタック",
+        "results": "結果",
+        "tags": "タグ"
+      },
+      "fields": {
+        "title": "タイトル",
+        "titlePlaceholder": "ケーススタディのタイトル",
+        "slug": "スラッグ",
+        "slugPlaceholder": "タイトルから自動生成",
+        "client": "クライアント",
+        "clientPlaceholder": "クライアント名",
+        "industry": "産業",
+        "industryPlaceholder": "選定産業",
+        "description": "概要",
+        "descriptionPlaceholder": "簡単な説明(カードに表示)",
+        "executiveSummary": "エグゼクティブサマリー",
+        "executiveSummaryPlaceholder": "交戦の概要",
+        "challenge": "チャレンジ",
+        "challengePlaceholder": "クライアントはどんな問題に直面しましたか?",
+        "solution": "解決策",
+        "solutionPlaceholder": "問題はどのように解決されたのでしょうか?",
+        "decision": "判決",
+        "decisionPlaceholder": "決定されたこと",
+        "rationale": "理由",
+        "rationalePlaceholder": "なぜこのアプローチが選ばれたのか",
+        "metric": "メートル法",
+        "metricPlaceholder": "例:決済遅延",
+        "value": "価値",
+        "valuePlaceholder": "例:-63%または4.8時間->11m。",
+        "resultDescription": "概要",
+        "resultDescriptionPlaceholder": "この結果が意味するもの",
+        "techPlaceholder": "テクノロジーを追加(Enterキー)",
+        "tagPlaceholder": "タグを追加(Enterキー)"
+      },
+      "add": "追加",
+      "noArchDecisions": "まだアーキテクチャの決定は追加されていません。",
+      "noResults": "まだ結果は追加されていません。",
+      "decisionLabel": "判決 {{number}}",
+      "resultLabel": "結果 {{number}}",
+      "controls": {
+        "published": "公開",
+        "publishedDescription": "このケーススタディを公に公開しましょう",
+        "featured": "特集作品",
+        "featuredDescription": "このケーススタディを強調してください"
+      }
+    },
+    "imageCrop": {
+      "apply": "応募してください",
+      "cancel": "キャンセル",
+      "cropTitle": "トリミング画像",
+      "dropText": "こちらに画像を投稿するか、アップロードをクリックしてください",
+      "flipHorizontal": "水平回転",
+      "flipVertical": "垂直フリップ",
+      "replace": "置き換え",
+      "reset": "リセット",
+      "rotateLeft": "左に回れ",
+      "rotateRight": "右に回れ",
+      "uploading": "アップロード中...",
+      "toast": {
+        "invalidFile": "無効ファイル",
+        "invalidFileDesc": "有効な画像ファイルをアップロードしてください。",
+        "uploadFailed": "アップロードに失敗しました",
+        "uploadFailedDesc": "何かがうまくいかなかった。もう一度お試しください。",
+        "uploaded": "画像がアップロードされました",
+        "uploadedDesc": "画像は正常にアップロードされました。"
+      }
+    }
+  }
+}

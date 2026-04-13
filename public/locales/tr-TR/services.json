@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Başlayın",
+    "ctaSecondary": "Program Danışmanlığı"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Kurumsal Yazılım Geliştirme",
+      "description": "Modern çerçeveler, API öncelikli mimari ve bulut tabanlı ölçeklenebilirlikle uçtan uca kurumsal uygulamalar."
+    },
+    "sections": {
+      "problem": {
+        "title": "İş Problemi Çerçeveleme",
+        "subtitle": "Kurumsal programların hızını, bütçesini ve stratejik uyumunu kaybettiği yerler"
+      },
+      "approach": {
+        "title": "Mühendislik Yaklaşımı",
+        "subtitle": "Belirsiz gereksinimleri üretime hazır platformlara nasıl dönüştürürüz?"
+      },
+      "principles": {
+        "title": "Mimari Prensipler",
+        "subtitle": "Kurumsal sistemleri ölçekte sürdürülebilir kılan tasarım kararları"
+      },
+      "capabilities": {
+        "title": "Ne İnşakatlıyoruz",
+        "subtitle": "Kapsamlı yazılım geliştirme yetenekleri"
+      },
+      "technology": {
+        "title": "Teknoloji Yığınımız",
+        "subtitle": "Kurumsal teslimat için modern, kanıtlanmış teknolojiler"
+      },
+      "breakdown": {
+        "title": "Hizmet Dağılışu",
+        "subtitle": "Keşiften istikrarlı üretim teslimatına kadar yapılandırılmış bir yol"
+      }
+    },
+    "problem": {
+      "overview": "Kurumsal ekipler genellikle kritik iş akışlarını parçalanmış sistemlerde taşır; bu da uzun teslim süreleri, tutarsız veriler ve departmanlar arasında pahalı manuel koordinasyon yaratır.",
+      "painPointsTitle": "Tekrarlayan İş Sıkıntısı",
+      "impactSignalsTitle": "Liderlerin Genellikle Gözlemledikleri Şeyler",
+      "painPoints": [
+        "Teslimat taahhütleri azalır çünkü ekipler arasındaki bağımlılıklar yönetilmez",
+        "Temel iş mantığı kanallar ve ürünler arasında tekrarlanır",
+        "Eski entegrasyonlar yeni özelliklerin lansmanını yüksek riskli ve yavaş hale getiriyor"
+      ],
+      "impactSignals": [
+        "Yol haritası üretim oranı düşerken, mühendislik harcamaları artarken",
+        "Müşteriyle karşılaşılan hatalar sürüm dönemlerinde artıyor",
+        "Kararların tutarsız operasyonel raporlamaları nedeniyle yavaşlaması"
+      ]
+    },
+    "approach": {
+      "overview": "Mimari öncelikli keşif, sözleşme odaklı teslimat ve kontrollü sürüm mühendisliği ile yürütüyoruz, böylece iş değeri öngörülebilir artışlarla sunuluyor.",
+      "pillars": [
+        {
+          "title": "Alan Modelleme ve Sınırlı Bağlamlar",
+          "detail": "Alan adlarını haritalayarak hizmet sınırlarını temizliyoruz, böylece ekipler arası bağlantıyı azaltıyoruz ve sahipliği netleştiriyoruz."
+        },
+        {
+          "title": "API-Öncelikli Entegrasyon Stratejisi",
+          "detail": "Stabil sözleşmeleri erken olarak tanımlıyoruz, böylece paralel geliştirme ve kurumsal sistemlerle daha güvenli entegrasyon sağlanıyor."
+        },
+        {
+          "title": "İlerici Teslimat İş Akışı",
+          "detail": "Üretim istikrarını bozmadan hızlı yayınlamak için özellik bayrakları, aşamalı dağıtımlar ve kalite kapıları kullanıyoruz."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Mimari kararlarımız, iş alanı büyüdükçe platformların uyum sağlayabilmesi için uzun ömürlülüğü, çalışabilirliği ve net sahipliği önceliklendirir.",
+      "items": [
+        {
+          "title": "Modüler Hizmet Sınırları",
+          "detail": "Yetenekler, değişim etkisini yerel tutmak için iş alanları etrafında paketlenmiştir."
+        },
+        {
+          "title": "Olay Odaklı Entegrasyon",
+          "detail": "Gecikme toleransı olan yerlerde asenkron iş akışları, dayanıklılık artırmak ve sistemleri ayırmak için kullanılır."
+        },
+        {
+          "title": "Tasarım Yoluyla Gözlemlenebilirlik",
+          "detail": "Takip etme, metrikler ve yapılandırılmış loglar, güvenilir işlemleri ve SLA yönetişimini desteklemek için önceden tanımlanır."
+        }
+      ]
+    },
+    "capabilities": [
+      "Özel Web Uygulamaları",
+      "Mobil Uygulama Geliştirme",
+      "API Geliştirme ve Entegrasyon",
+      "Mikroservis Mimarisi",
+      "Bulut Tabanlı Çözümler",
+      "Miras Sistem Modernizasyonu"
+    ],
+    "technologies": [
+      {
+        "name": "Tepki ver",
+        "category": "Ön uç",
+        "icon": "tepki ver"
+      },
+      {
+        "name": "Node.js",
+        "category": "Arka plan",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Arka plan",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Arka plan",
+        "icon": "python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Dil",
+        "icon": "Daktilo Yazısı"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "graphql"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Veritabanı",
+        "icon": "postgresql"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Veritabanı",
+        "icon": "mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Keşif ve Mimari",
+        "summary": "Uygulama başlamadan önce iş önceliklerini, teknik kısıtlamaları ve hedef mimariyi haritalıyoruz.",
+        "deliverables": [
+          "Ürün ve gereksinim uyumu atölyesi",
+          "Çözüm mimarisi planı",
+          "Dönüm noktasına dayalı teslimat planı"
+        ]
+      },
+      {
+        "title": "İnşaat ve Entegrasyon",
+        "summary": "Ekiplerimiz temel özellikleri, entegrasyon katmanlarını ve kalite korumalarını paralel olarak uygular.",
+        "deliverables": [
+          "Yinelemeli sprintlerde özellik geliştirme",
+          "API ve üçüncü taraf entegrasyonları",
+          "Otomatik test ve sürüm hazırlığı kontrolleri"
+        ]
+      },
+      {
+        "title": "Lansman ve Evrim",
+        "summary": "Kullanıma geçtikten sonra, işlemleri stabilize eder ve gerçek kullanıma dayalı bir sonraki iyileştirme döngüsünü tanımlıyoruz.",
+        "deliverables": [
+          "Üretim başlatma çalışma kitabı",
+          "Performans ve güvenilirlik ayarı",
+          "Lansman sonrası yol haritası ve geliştirme birikintisi"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Bir Sonraki Uygulamanızı Oluşturmaya Hazır mısınız?",
+      "description": "Ölçülebilir iş sonuçları sağlayan bir çözüm tasarlayıp piyasaya sürelim.",
+      "button": "Projeyinize Başlayın"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "Yapay Zeka, Makine Öğrenimi ve İş Zekası",
+      "description": "Öngörücü modellerden yönetici panellerine kadar, kararları ölçekli olarak destekleyen tam yapay zeka/BI sistemleri inşa ediyoruz."
+    },
+    "sections": {
+      "problem": {
+        "title": "İş Problemi Çerçeveleme",
+        "subtitle": "Veri zengini organizasyonlar neden hâlâ kendinden emin kararlar almakta zorlanıyor?"
+      },
+      "approach": {
+        "title": "Mühendislik Yaklaşımı",
+        "subtitle": "Veri ürünlerini, ML modellerini ve BI iş akışlarını nasıl operasyonel hale getiriyoruz?"
+      },
+      "principles": {
+        "title": "Mimari Prensipler",
+        "subtitle": "Güvenilir karar zekası için veri ve model mimarisi kalıpları"
+      },
+      "capabilities": {
+        "title": "Yeteneklerimiz",
+        "subtitle": "Kapsamlı yapay zeka, makine öğrenimi ve BI çözümleri"
+      },
+      "technology": {
+        "title": "Teknoloji Yığınımız",
+        "subtitle": "Veri ve yapay zeka için sektör lideri araçlar"
+      },
+      "breakdown": {
+        "title": "Hizmet Dağılışu",
+        "subtitle": "Parçalanmış veriden üretim düzeyinde zekaya nasıl geçiyoruz?"
+      }
+    },
+    "problem": {
+      "overview": "Kuruluşlar sıklıkla büyük hacimlerde veri toplar, ancak bunu güvenilir tahminlere, operasyonel kararlara veya ölçülebilir iş eylemlerine dönüştüremezler.",
+      "painPointsTitle": "Tekrarlayan İş Sıkıntısı",
+      "impactSignalsTitle": "Liderlerin Genellikle Gözlemledikleri Şeyler",
+      "painPoints": [
+        "Raporlama mantığı takımlar arasında farklılık gösterir ve bu da KPI anlatılarının çelişkili olmasına yol açar",
+        "Modeller deneme aşamasında kalır ve üretim iş akışlarına ulaşmaz.",
+        "Veri kalitesi sorunları, analitiklere ve yönetici panellerine olan güveni zayıflatıyor"
+      ],
+      "impactSignals": [
+        "Karar döngüleri yavaşlıyor çünkü takımlar eylem yerine veri geçerliliğini tartışıyor",
+        "Tahmin ve planlama doğruluğu çeyrek çeyrek tutarsız kalıyor",
+        "Analitik yatırımları, uzmanlaşmış analist grupları dışında düşük benimsenme gösteriyor"
+      ]
+    },
+    "approach": {
+      "overview": "Üretim sistemleri olarak yapay zeka ve BI platformları sunuyoruz; veri mühendisliği, model yaşam döngüsü operasyonları ve karar akışı entegrasyonu birleştiriyoruz.",
+      "pillars": [
+        {
+          "title": "Veri Ürün Vakfı",
+          "detail": "Alan uyumlu veri ürünleri, analitik ve makine öğrenimi için yeniden kullanılabilir, yönetilen ve yüksek kaliteli girdiler oluşturur."
+        },
+        {
+          "title": "MLOps Yaşam Döngüsü Otomasyonu",
+          "detail": "Eğitim, dağıtım, izleme ve drift kontrolü, modellerin üretimde güvenilir kalması için otomatikleştirilir."
+        },
+        {
+          "title": "Karar İş Akışı Entegrasyonu",
+          "detail": "İçgörüler, operasyonel araçlara ve gösterge panellerine gömülür, böylece ekipler günlük süreçlerde zeka üzerine hareket eder."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Yapay Zeka/BI mimarimiz, kurumsal genelinde güvenilir verileri, açıklanabilir modelleri ve yönetilen erişim kalıplarını önceliklendirir.",
+      "items": [
+        {
+          "title": "Tek Metrik Tanımları",
+          "detail": "Kritik KPI'lar, çelişkili raporlama mantığını ortadan kaldırmak için paylaşılan anlamsal modellerle bir kez tanımlanır."
+        },
+        {
+          "title": "Model Güvenilirliği Kontrolleri",
+          "detail": "Performans eşikleri, kayma algısı ve geri alma mekanizmaları üretim sürecinde karar kalitesini korur."
+        },
+        {
+          "title": "Tasarım Yoluyla Güvenlik ve Yönetişim",
+          "detail": "Veri kökenleri, rol tabanlı erişim ve denetime hazır kontroller her boru hattında yer alır."
+        }
+      ]
+    },
+    "capabilities": [
+      "Makine Öğrenimi Modelleri ve Boru Hatları",
+      "Power BI Dashboards & Reports",
+      "Öngörücü Analitik",
+      "Gerçek Zamanlı Veri Akışı",
+      "Veri Depolama Çözümleri"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Platform",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Veri Deposu",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Veri Mühendisliği",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML Platformu",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML Çerçevesi",
+        "icon": "tensor flow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML Çerçevesi",
+        "icon": "pytorch"
+      },
+      {
+        "name": "Tablo",
+        "category": "Analitikler",
+        "icon": "Tablo"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "İşleme",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Dil",
+        "icon": "postgresql"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Veri Vakfı",
+        "summary": "Kaynakları denetliyoruz, veri sözleşmelerini tanımlıyoruz ve yönetişim kuruyoruz, böylece her model güvenilir girdilerle başlar.",
+        "deliverables": [
+          "Veri kaynağı ve kalite değerlendirmesi",
+          "Özellik mühendisliği ve şema planlaması",
+          "Güvenlik ve yönetişim temeli"
+        ]
+      },
+      {
+        "title": "Model ve İçgörü Teslimatı",
+        "summary": "Ölçülebilir iş soruları ve KPI'lara bağlı modeller ve karar panoları oluşturuyoruz.",
+        "deliverables": [
+          "Model geliştirme ve doğrulama",
+          "Yönetici panelleri ve operasyonel raporlama",
+          "Karar iş akışı entegrasyonu"
+        ]
+      },
+      {
+        "title": "MLOps ve Benimseme",
+        "summary": "Sonuçların zamanla güvenilir kalması için dağıtım, izleme ve ekip desteğini operasyonel hale getiriyoruz.",
+        "deliverables": [
+          "Otomatik model dağıtım boru hatları",
+          "Kayma, doğruluk ve kullanım izleme",
+          "Takım devri ve çalışma oyun kitabı"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Verilerinizi İçgârına Dönüştürün",
+      "description": "Parçalanmış verileri net, uygulanabilir istihbarata dönüştür.",
+      "button": "Yolculuğuna Başla"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Bulut Mimarisi ve Altyapısı",
+      "description": "Çok bulutlu platformlar, dayanıklı mimari ve uzun vadeli büyüme için tasarlanmış ölçeklenebilir altyapı."
+    },
+    "sections": {
+      "problem": {
+        "title": "İş Problemi Çerçeveleme",
+        "subtitle": "Bulut girişimlerinin ilk göç dalgasından sonra neden durması"
+      },
+      "approach": {
+        "title": "Mühendislik Yaklaşımı",
+        "subtitle": "Kontrollü göç riskine sahip güvenli, ölçeklenebilir bulut platformları nasıl inşa ederiz"
+      },
+      "principles": {
+        "title": "Mimari Prensipler",
+        "subtitle": "Çeviklik, dayanıklılık ve yönetişimi dengeleyen platform kararları"
+      },
+      "capabilities": {
+        "title": "Bulut Hizmetleri",
+        "subtitle": "Bulutta inşa edin, dağıtın ve ölçeklenin"
+      },
+      "technology": {
+        "title": "Çok Bulutlu Uzmanlık",
+        "subtitle": "Platformdan bağımsız bulut çözümleri"
+      },
+      "breakdown": {
+        "title": "Hizmet Dağılışu",
+        "subtitle": "Bulut platformlarının tasarımı, taşınması ve işletilmesi için net bir dizim"
+      }
+    },
+    "problem": {
+      "overview": "Birçok kuruluş ilk bulut geçişlerini tamamlasa da, kötü görünürlük, tutarsız kontroller ve artan harcamalarla yerel ekipler gibi çalışıyor.",
+      "painPointsTitle": "Tekrarlayan İş Sıkıntısı",
+      "impactSignalsTitle": "Liderlerin Genellikle Gözlemledikleri Şeyler",
+      "painPoints": [
+        "İş yükleri standart güvenlik ve ağ kontrolleri olmadan taşınır",
+        "Bulut maliyetleri, iş değerinden daha hızlı büyür",
+        "Ortam sağlama manuel ve takımlar arasında tutarsız kalıyor"
+      ],
+      "impactSignals": [
+        "Çevreler arasında yapılandırma kayması nedeniyle sık yaşanan olaylar",
+        "Denetim hazırlığı, parçalanmış yönetim uygulamaları nedeniyle zayıflıyor",
+        "Altyapı teslim süreleri ürün ve veri girişimlerini geciktirir"
+      ]
+    },
+    "approach": {
+      "overview": "Bulut platformlarını ürün olarak tasarlıyoruz; altyapı otomasyonu, politika engelleri ve iş kritikliğine uygun göç dalgaları kullanıyoruz.",
+      "pillars": [
+        {
+          "title": "İniş Bölgesi Kod olarak",
+          "detail": "Kimliği, ağ, güvenlik ve politika temelleri tekrarlanabilirlik ve denetlenebilirlik için kodlanmıştır."
+        },
+        {
+          "title": "Dalga Tabanlı Göç Stratejisi",
+          "detail": "İş yükleri, bağımlılık farkında dizileme ve geri alma hazırlığı ile kontrollü aşamalarda hareket eder."
+        },
+        {
+          "title": "SRE + FinOps Çalışma Döngüsü",
+          "detail": "Güvenilirlik göstergeleri ve birim ekonomisi birlikte incelenerek hem çalışma süresini hem de harcama verimliliğini artırıyor."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Mimari modelimiz, deklaratif altyapı, en az ayrıcalıklı erişim ve hızlı ürün teslimatını destekleyen kompozisyon platformlarını tercih eder.",
+      "items": [
+        {
+          "title": "Değişmez Altyapı Kalıpları",
+          "detail": "Ortamlar, sürüklenmeyi en aza indirmek ve operasyonel kurtarmayı basitleştirmek için sürümlü koddan yeniden inşa edilir."
+        },
+        {
+          "title": "Varsayılan olarak Güvenlik Temeli",
+          "detail": "Sıfır güven erişim kontrolleri ve politika uygulaması her ortam yaşam döngüsüne yerleşmiştir."
+        },
+        {
+          "title": "Dağıtım Yoluyla Dayanıklılık",
+          "detail": "Kritik iş yükleri, iş etkisinin gerektirdiği çok bölgeli veya çok bölgeli arıza toleransı için tasarlanmıştır."
+        }
+      ]
+    },
+    "capabilities": [
+      "Çok Bulutlu Strateji ve Uygulama",
+      "Konteyner Orkestreasyonu (Kubernetes)",
+      "Sunucusuz Hesaplama",
+      "Bulut Göç Hizmetleri",
+      "Yüksek Erişilebilirlik Mimarisi"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Bulut",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "AWS",
+        "category": "Bulut",
+        "icon": "AmazonWebServices"
+      },
+      {
+        "name": "GCP",
+        "category": "Bulut",
+        "icon": "GoogleCloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orkestrasyon",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Konteynerler",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "ARM Şablonları",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "AmazonWebServices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Mimari ve İniş Bölgesi",
+        "summary": "İş yükleri hareket etmeden önce hedef durumu, koruma korkulukları ve temel platform standartlarını tanımlıyoruz.",
+        "deliverables": [
+          "Hedef bulut mimarisi tasarımı",
+          "Kimlik, ağ ve güvenlik temeli",
+          "Maliyet ve uyum korkulukları"
+        ]
+      },
+      {
+        "title": "Göç ve Platform Oluşturma",
+        "summary": "Göç dalgalarını yürütüyor ve bulut tabanlı platform bileşenlerini tekrarlanabilir otomasyonla ayakta tutuyoruz.",
+        "deliverables": [
+          "İş yükü göç dizileme",
+          "Konteyner ve sunucusuz platform kurulumu",
+          "Kod modülleri olarak altyapı"
+        ]
+      },
+      {
+        "title": "Güvenilirlik ve FinOps",
+        "summary": "Canlı telemetri temelinde operasyonel güvenilirliği artırıyor ve bulut harcamalarını sürekli optimize ediyoruz.",
+        "deliverables": [
+          "SLO'lar, izleme ve olay iş akışları",
+          "Dayanıklılık ve afet iyileşme doğrulaması",
+          "Maliyet optimizasyonu birikme ve yönetişim ritmi"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Altyapınızı Ölçeklendirin",
+      "description": "Gerçek dünya yükü altında dayanıklı kalan bulut temelleri inşa edin.",
+      "button": "Bulut Stratejinizi Planlayın"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps ve Platform Mühendisliği",
+      "description": "Hızı artıran otomatik teslimat hatları, gözlemlenebilirlik ve platform uygulamaları, güvenilirlikten ödün vermeden."
+    },
+    "sections": {
+      "problem": {
+        "title": "İş Problemi Çerçeveleme",
+        "subtitle": "Platform karmaşıklığı arttıkça teslimat hızı neden düşüyor"
+      },
+      "approach": {
+        "title": "Mühendislik Yaklaşımı",
+        "subtitle": "Ürün ekiplerini yavaşlatmadan teslimat hatlarını nasıl standartlaştırıyoruz?"
+      },
+      "principles": {
+        "title": "Mimari Prensipler",
+        "subtitle": "Güvenilirlik ve ekip özerkliğini ölçekleyen platform mühendisliği kalıpları"
+      },
+      "capabilities": {
+        "title": "DevOps Hizmetleri",
+        "subtitle": "Teslimat yaşam döngünüzü otomatikleştirin, izleyin ve optimize edin"
+      },
+      "technology": {
+        "title": "DevOps Araçları ve Platformları",
+        "subtitle": "Sınıfın en iyisi DevOps araç zinciri"
+      },
+      "breakdown": {
+        "title": "Hizmet Dağılışu",
+        "subtitle": "Teslimat darboğazlarından yüksek güven serbest bırakma akışına kadar pratik bir yol haritası"
+      }
+    },
+    "problem": {
+      "overview": "Kuruluşlar genellikle CI/CD araçlarına yatırım yapar ancak yine de istikrarsız sürümler, yavaş onaylar ve çevreler arasında parçalı sahiplik ile mücadele ederler.",
+      "painPointsTitle": "Tekrarlayan İş Sıkıntısı",
+      "impactSignalsTitle": "Liderlerin Genellikle Gözlemledikleri Şeyler",
+      "painPoints": [
+        "Boru hattı tanımları takıma göre farklılık gösterir ve tutarsız kalite kapıları oluşturur",
+        "Manuel dağıtım onayları, gecikme hotfix ve özellik çıkış zaman çizelgeleri",
+        "Telemetri eksik veya silo olduğu için operasyonel olaylar tekrar eder"
+      ],
+      "impactSignals": [
+        "Otomasyon harcamalarına rağmen değişiklikler için hazırlık süresi artmaya devam ediyor",
+        "Yüksek hacimli teslimat dönemlerinde değişim arıza oranı sıçrayışları",
+        "Geliştirici verimliliği, araç sürtünmesi ve bağlam değiştirme nedeniyle düşüyor"
+      ]
+    },
+    "approach": {
+      "overview": "Yeniden kullanılabilir pipeline şablonları, politika odaklı yönetişim ve tam yaşam döngüsü gözlemlenebilirliği içeren dahili bir geliştirici platform modeli oluşturuyoruz.",
+      "pillars": [
+        {
+          "title": "Golden Path Boru Hattı Şablonları",
+          "detail": "Yeniden kullanılabilir CI/CD planları yapı, test, güvenlik kontrolleri ve dağıtım iş akışlarını standartlaştırır."
+        },
+        {
+          "title": "Platform API & Self-Service",
+          "detail": "Ekipler, kontrollü self-servis arayüzleri aracılığıyla ortamlar sağlar ve altyapıyı yayınlar."
+        },
+        {
+          "title": "Güvenilirlik Geri Besleme Döngüleri",
+          "detail": "Olay eğilimleri, SLO sağlığı ve dağıtım telemetrisi, sürekli süreç ve mimari iyileştirmeleri için bilgilendirir."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "DevOps mimarimiz, kontrolleri otomatikleştirerek ve tek seferlik operasyonel işleri en aza indirerek teslimat hızını yönetişimle uyumlu hale getirir.",
+      "items": [
+        {
+          "title": "Her şey Versiyonlu Kod Olarak",
+          "detail": "Boru hatları, altyapı ve politika kuralları, denetim ve tekrarlanabilirlik için kaynak kontrolünde yönetilir."
+        },
+        {
+          "title": "Aşamalı Doğrulama",
+          "detail": "Kalite, güvenlik ve performans kontrolleri, riski daha erken tespit etmek için aşamalar arasında katmanlı olarak yerleştirilir."
+        },
+        {
+          "title": "Paylaşılan Platform Sorumluluğu",
+          "detail": "Platform ekipleri, asfalt yol yetenekleri sağlarken, ürün ekipleri teslimat sahipliğini korur."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI/CD Boru Hattı Tasarımı",
+      "Kod olarak Altyapı",
+      "Otomatik Test",
+      "Dağıtım Otomasyonu",
+      "İzleme ve Gözlemlenebilirlik"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Platform",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "GitHub Eylemleri",
+        "category": "CI/CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Dümen",
+        "category": "Ambalaj",
+        "icon": "Dümen"
+      },
+      {
+        "name": "Ansible",
+        "category": "Otomasyon",
+        "icon": "ansible"
+      },
+      {
+        "name": "Prometheus",
+        "category": "İzleme",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Gözlemlenebilirlik",
+        "icon": "grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Platform Değerlendirmesi",
+        "summary": "Mevcut yazılım teslimat zincirinizi değerlendirerek risk noktalarını ve hız kısıtlamalarını tespit ediyoruz.",
+        "deliverables": [
+          "Güncel durum teslimat iş akışı haritası",
+          "Boru hattı darboğazı analizi",
+          "DevOps olgunluk yol haritasını hedef alın"
+        ]
+      },
+      {
+        "title": "Boru Hattı ve Otomasyon Oluşturma",
+        "summary": "Tutarlı sürümler için güvenilir CI/CD, kaliteli kapılar ve altyapı otomasyonu uygularız.",
+        "deliverables": [
+          "Yeniden kullanılabilir CI/CD şablonları",
+          "Altyapı ve çevre otomasyonu",
+          "Otomatik test ve sürüm kontrolleri"
+        ]
+      },
+      {
+        "title": "Çalıştır ve Geliştir",
+        "summary": "Sürekli teslimat iyileştirmesini destekleyen gözlemlenebilirlik ve yönetişim döngüleri kuruyoruz.",
+        "deliverables": [
+          "İzleme panelleri ve uyarı politikaları",
+          "Sürüm yönetimi ve olay oyun kitapları",
+          "Sürekli iyileştirme metrikleri ve incelemeleri"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Teslimatınızı Hızlandırın",
+      "description": "Olgun DevOps uygulamalarıyla serbest bırakma sürtünmesini azaltın ve güvenilirliği artırın.",
+      "button": "Boru Hattınızı Dönüştürün"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Dijital Dönüşüm ve Strateji",
+      "description": "Platformları, ekipleri ve işletim modellerini modernize etmek için stratejik danışmanlık ve uygulama desteği."
+    },
+    "sections": {
+      "problem": {
+        "title": "İş Problemi Çerçeveleme",
+        "subtitle": "Dönüşüm programlarının ivmesini ve yönetici güvenini kaybettiği yerler"
+      },
+      "capabilities": {
+        "title": "Danışmanlık Hizmetleri",
+        "subtitle": "Dijital başarı için stratejik rehberlik"
+      },
+      "approach": {
+        "title": "Mühendislik Yaklaşımı",
+        "subtitle": "Stratejiyi yürütülebilir, teknoloji destekli değişime nasıl dönüştürürüz?"
+      },
+      "principles": {
+        "title": "Mimari Prensipler",
+        "subtitle": "Dönüşüm sonuçlarını koruyan işletme modeli ve platform seçenekleri"
+      },
+      "technology": {
+        "title": "Teknoloji Yığını",
+        "subtitle": "Dönüşümü operasyonel hale getirmek için kullandığımız platformlar ve çerçeveler"
+      },
+      "breakdown": {
+        "title": "Hizmet Dağılışu",
+        "subtitle": "Strateji tanımından ölçülebilir iş değerine yapılandırılmış dönüşüm"
+      }
+    },
+    "problem": {
+      "overview": "Dijital girişimler genellikle güçlü niyetle başlar ancak belirsiz sahiplik, kopuk araçlar ve rekabet eden öncelikler nedeniyle teslimat sonuçlarına dönüşemez.",
+      "painPointsTitle": "Tekrarlayan İş Sıkıntısı",
+      "impactSignalsTitle": "Liderlerin Genellikle Gözlemledikleri Şeyler",
+      "painPoints": [
+        "Dönüşüm yol haritaları tanımlanır ancak teslimat yönetişimine çevrilmez",
+        "İş ve mühendislik öncelikleri ilk planlama döngülerinden sonra ayrılır",
+        "Eski işletim modelleri, modern ürün teslimat uygulamalarının benimsenmesini engeller"
+      ],
+      "impactSignals": [
+        "Program harcamaları artarken, stratejik KPI hareketi sabit kalıyor",
+        "Girişimler strateji, mimari ve uygulama arasındaki geçiş noktalarını kaçırır",
+        "Ekipler, sınırlı iş değeriyle değişim yorgunluğu yaşıyor"
+      ]
+    },
+    "approach": {
+      "overview": "Stratejik danışmanlığı teslimat mimarisiyle birleştirerek, operasyon modeli tasarımını, platform yeteneğini ve uygulama hızını ölçülebilir hedefler etrafında hizalamaktadır.",
+      "pillars": [
+        {
+          "title": "Değer Akışı Önceliklendirmesi",
+          "detail": "Ölçülebilir iş etkisi ve teknik bağımlılık kısıtlamalarına dayalı girişimleri sıralıyoruz."
+        },
+        {
+          "title": "Hedef İşletme Modeli Tasarımı",
+          "detail": "Roller, yönetişim ve karar hakları, iş ve teknoloji ekipleri arasında daha hızlı uygulamayı desteklemek için tanımlanmıştır."
+        },
+        {
+          "title": "Portföy Teslimatı Yönetişimi",
+          "detail": "Dönüşüm ilerlemesi, KPI bağlantılı kontrol noktaları ve portföy düzeyinde risk kontrolleri aracılığıyla yönetilir."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Dönüşüm mimarimiz, kademeli modernizasyon ve net hesap verebilirliği vurgularak, iş gerekçesi olmadan yıkıcı yeniden yazımlardan kaçınıyor.",
+      "items": [
+        {
+          "title": "İş Yetenek Hizalanması",
+          "detail": "Teknoloji değişiklikleri, doğrudan gelir, hizmet kalitesi veya maliyet verimliliğiyle eşleşen yetenekler etrafında organize edilir."
+        },
+        {
+          "title": "Kompozisyonlanabilir Platform Stratejisi",
+          "detail": "Platform bileşenleri, aşamalı göçü ve daha hızlı uyumu desteklemek için birlikte çalışabilirlik açısından seçilir."
+        },
+        {
+          "title": "Teslimat Ritmi ile Yönetişim",
+          "detail": "Karar forumları ve kontrol noktaları sprint ve çeyrek döngülerine gömülü, ayrı bürokratik yollar olarak ele alınmaz."
+        }
+      ]
+    },
+    "capabilities": [
+      "Dijital Dönüşüm Yol Haritaları",
+      "Teknoloji Stratejisi Geliştirme",
+      "Bulut Benimseme Çerçeveleri",
+      "Süreç Optimizasyonu",
+      "Değişim Yönetimi"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Bulut Vakfı",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Veri Platformu",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Karar Zekası",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Güç Platformu",
+        "category": "Düşük Kod",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "İşbirliği",
+        "icon": "MicrosoftSharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strateji Hizalanması",
+        "summary": "Liderlik önceliklerini ve dijital hedefleri uyumlu hale getirerek ortak bir dönüşüm yönü oluşturuyoruz.",
+        "deliverables": [
+          "Dönüşüm hedefleri ve başarı kriterleri",
+          "Yetenek olgunluğu ve boşluk değerlendirmesi",
+          "Önceliklendirilmiş girişim portföyü"
+        ]
+      },
+      {
+        "title": "İnfaz Taslağı",
+        "summary": "Hedef işletim modelini, mimari standartlarını ve aşamalı uygulama dizisini tanımlıyoruz.",
+        "deliverables": [
+          "İşletme modeli ve yönetişim tasarımı",
+          "Teknoloji ve süreç mimarisi standartları",
+          "Aşamalı uygulama yol haritası"
+        ]
+      },
+      {
+        "title": "Değişim ve Değer Gerçekleştirme",
+        "summary": "Benimsemeyi teşvik ediyoruz, KPI hareketlerini takip ediyor ve teslimat sonuçlarına göre girişimleri geliştiriyoruz.",
+        "deliverables": [
+          "Benimseme ve etkinleştirme planı",
+          "KPI ölçüm kadanı",
+          "Çeyrek bir optimizasyon birikintisi"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Dönüşüm Yolculuğuna Başlayın",
+      "description": "Değişimi net öncelikler ve pratik teslimat planlarıyla yönlendirin.",
+      "button": "Strateji Oturumu Programı"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT ve Kenar Bilişim",
+      "description": "Cihazdan buluta bağlı sistemler, telemetri boru hatları ve endüstriyel ölçek için kenar zekası ile."
+    },
+    "sections": {
+      "problem": {
+        "title": "İş Problemi Çerçeveleme",
+        "subtitle": "Bağlı cihaz programlarının neden pilot dağıtımların ötesine ölçeklenememesi"
+      },
+      "approach": {
+        "title": "Mühendislik Yaklaşımı",
+        "subtitle": "Cihaz firmware'den bulut API'lerine kadar güvenli, çalışabilir IoT sistemlerini nasıl tasarlayacağız?"
+      },
+      "principles": {
+        "title": "Mimari Prensipler",
+        "subtitle": "Güvenilirlik, gecikme ve filo yönetimi için kenardan buluta tasarım kuralları"
+      },
+      "capabilities": {
+        "title": "IoT Çözümleri",
+        "subtitle": "Cihazlarınızı bağlayın, izleyin ve optimize edin"
+      },
+      "technology": {
+        "title": "IoT Teknoloji Yığını",
+        "subtitle": "Donanımdan buluta"
+      },
+      "breakdown": {
+        "title": "Hizmet Dağılışu",
+        "subtitle": "Bağlantı sistemlerini kenar cihazlardan bulut zekasına nasıl sunuyoruz?"
+      }
+    },
+    "problem": {
+      "overview": "IoT girişimleri genellikle pilotlarda teknik olarak uygulanabilirliğini kanıtlar, ancak güvenilir olmayan bağlantı, zayıf filo kontrolleri ve iş akışlarıyla kötü entegrasyon nedeniyle büyük ölçekte başarısız olur.",
+      "painPointsTitle": "Tekrarlayan İş Sıkıntısı",
+      "impactSignalsTitle": "Liderlerin Genellikle Gözlemledikleri Şeyler",
+      "painPoints": [
+        "Cihaz işe alım ve yaşam döngüsü yönetimi manuel ve hata yapmaya açık olmaya devam eder",
+        "Telemetri boru hatları gürültülü, eksik veya gecikmeli operasyonel veri üretir",
+        "Uzaktan komut ve firmware güncellemeleri güvenlik ve emniyet riski oluşturur"
+      ],
+      "impactSignals": [
+        "Pilot ortamlar başarılı olsa da, üretim zaman çizelgeleri sürekli kayıyor",
+        "Saha operasyon ekipleri, olaylara öngörülebilir görünürlük olmadan müdahale eder",
+        "İş sistemleri, cihaz zekasını gerçek zamanlı olarak güvenilir şekilde tüketemez"
+      ]
+    },
+    "approach": {
+      "overview": "IoT platformlarını, filo ölçeğinde güvenli kenar çalışma zamanı standartlarını, olay odaklı alım ve operasyonel yönetişimi birleştiren kontrollü dağıtık sistemler olarak mimarlık yapıyoruz.",
+      "pillars": [
+        {
+          "title": "Güvenli Cihaz Yaşam Döngüsü Yönetimi",
+          "detail": "Provisioning, kimlik, anahtar dönüşü ve firmware güncellemeleri operasyonel riski azaltmak için otomatikleştirilir."
+        },
+        {
+          "title": "Olay Odaklı Telemetri Mimarisi",
+          "detail": "Akış boru hatları, cihaz olaylarını neredeyse gerçek zamanlı olarak normalleştirir, doğrular ve yönlendirir."
+        },
+        {
+          "title": "Filo Operasyonları Kontrol Uçağı",
+          "detail": "İzleme, uyarı ve uzaktan komut iş akışları, dağıtık varlıklar arasında güvenilir denetim sağlar."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "IoT mimarimiz, düşük gecikmeli kenar kararlarını merkezi yönetişim, gözlemlenebilirlik ve güvenlik uyumuyla dengeler.",
+      "items": [
+        {
+          "title": "Bulut Koordinasyonu ile Kenar Özerkliği",
+          "detail": "Kritik yerel işlemler, ağ bozulması sırasında devam ederken, mevcut olduğunda durumu bulut sistemleriyle senkronize eder."
+        },
+        {
+          "title": "Sözleşmeli Etkinlik Şemaları",
+          "detail": "Cihaz ve platform ekipleri, telemetri tutarlılığını sağlamak için yönetilen şemaları kullanır."
+        },
+        {
+          "title": "Sıfır Güven Cihaz Güvenliği",
+          "detail": "Karşılıklı kimlik doğrulama, en az ayrıcalık ve şifreli taşıma her cihaz etkileşiminde uygulanır."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT Cihaz Yönetimi",
+      "Dijital İkiz Çözümleri",
+      "Kenar Bilişim Dağıtımı",
+      "Gerçek Zamanlı Telemetri",
+      "Öngörücü Bakım"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Dijital İkizler",
+        "category": "Simülasyon",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Kenar Hesaplama",
+        "category": "Kenar",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protokol",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protokol",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Donanım",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Donanım",
+        "icon": "raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Zaman Serisi DB",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Cihaz ve Kenar Stratejisi",
+        "summary": "Bağlantı kalıplarını, kenar çalışma zamanı standartlarını ve saha cihazları için güvenli tedarik yöntemlerini tanımlıyoruz.",
+        "deliverables": [
+          "Cihaz onboarding ve bağlantı modeli",
+          "Kenar çalışma zamanı ve dağıtım planı",
+          "Filo güvenlik temel"
+        ]
+      },
+      {
+        "title": "Telemetri ve Kontrol Düzlemi",
+        "summary": "Olayları yakalayan, dijital ikizleri modelleyen ve uzaktan kontrol iş akışlarını mümkün kılan boru hatları inşa ediyoruz.",
+        "deliverables": [
+          "Gerçek zamanlı alım ve olay şeması tasarımı",
+          "Dijital ikiz ve varlık modeli uygulaması",
+          "Komut ve kontrol API katmanı"
+        ]
+      },
+      {
+        "title": "İşletmeler ve Ölçek",
+        "summary": "Üretim ölçekli IoT ortamları için filo yönetimi ve güvenilirlik kontrollerini operasyonel hale getiriyoruz.",
+        "deliverables": [
+          "Cihaz filosunun izlenmesi ve uyarısı",
+          "Öngörücü bakım ve anomali tespiti",
+          "Dağıtım ve yaşam döngüsü destek planı"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Cihazlarınızı Bağlayın",
+      "description": "Gerçek üretim ortamlarına hazır güvenilir IoT çözümleri oluşturun.",
+      "button": "IoT Projenize Başlayın"
+    }
+  }
+}

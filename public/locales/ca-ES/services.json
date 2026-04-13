@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Comença",
+    "ctaSecondary": "Consulta de programació"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Desenvolupament de programari empresarial",
+      "description": "Aplicacions empresarials d'extrem a fi amb frameworks moderns, arquitectura API-first i escalabilitat nativa al núvol."
+    },
+    "sections": {
+      "problem": {
+        "title": "Marc de problemes empresarials",
+        "subtitle": "On els programes empresarials perden velocitat, pressupost i alineació estratègica"
+      },
+      "approach": {
+        "title": "Enfocament d'enginyeria",
+        "subtitle": "Com convertim requisits ambigus en plataformes preparades per a producció"
+      },
+      "principles": {
+        "title": "Principis arquitectònics",
+        "subtitle": "Decisions de disseny que mantenen els sistemes empresarials mantenibles a gran escala"
+      },
+      "capabilities": {
+        "title": "El que construïm",
+        "subtitle": "Capacitats integrals de desenvolupament de programari"
+      },
+      "technology": {
+        "title": "La nostra pila tecnològica",
+        "subtitle": "Tecnologies modernes i provades per a la lliurament empresarial"
+      },
+      "breakdown": {
+        "title": "Avaries de servei",
+        "subtitle": "Un camí estructurat des del descobriment fins a una entrega estable en producció"
+      }
+    },
+    "problem": {
+      "overview": "Els equips empresarials sovint porten fluxos de treball crítics en sistemes fragmentats, creant llargues terminis de lliurament, dades inconsistents i una coordinació manual costosa entre departaments.",
+      "painPointsTitle": "Dolor empresarial recurrent",
+      "impactSignalsTitle": "El que els líders solen observar",
+      "painPoints": [
+        "Els compromisos de lliurament es descontrolen perquè les dependències entre equips no estan gestionades",
+        "La lògica de negoci bàsica es duplica entre canals i productes",
+        "Les integracions antigues fan que els llançaments de noves funcionalitats siguin d'alt risc i lents"
+      ],
+      "impactSignals": [
+        "El rendiment del full de ruta disminueix mentre augmenta la despesa en enginyeria",
+        "Els defectes de cara al client augmenten durant els períodes de llançament",
+        "La presa de decisions es ralentitza a causa de la incoherència dels informes operatius"
+      ]
+    },
+    "approach": {
+      "overview": "Executem amb descobriment centrat en l'arquitectura, lliurament per contracte i enginyeria de llançaments controlada perquè el valor de negoci es distribueixi en increments previsibles.",
+      "pillars": [
+        {
+          "title": "Modelatge de domini i contextos acotats",
+          "detail": "Mapegem dominis per alliberar límits de servei, reduir l'acoblament entre equips i aclarir la propietat."
+        },
+        {
+          "title": "Estratègia d'integració API-First",
+          "detail": "Definim contractes estables des del principi, permetent el desenvolupament paral·lel i una integració més segura amb els sistemes empresarials."
+        },
+        {
+          "title": "Flux de treball de lliurament progressiu",
+          "detail": "Utilitzem banderes de funcionalitat, desplegaments per fases i portes de qualitat per llançar ràpidament sense desestabilitzar la producció."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Les nostres decisions d'arquitectura prioritzen la longevitat, l'operativitat i la propietat clara perquè les plataformes continuïn sent adaptables a mesura que creix l'abast del negoci.",
+      "items": [
+        {
+          "title": "Límits de servei modulars",
+          "detail": "Les capacitats s'agrupen al voltant dels dominis de negoci per mantenir l'impacte del canvi localitzat."
+        },
+        {
+          "title": "Integració Basada en Esdeveniments",
+          "detail": "S'utilitzen fluxos de treball asíncrons quan existeix tolerància a la latència per millorar la resiliència i desacoblar els sistemes."
+        },
+        {
+          "title": "Observabilitat per disseny",
+          "detail": "El rastreig, les mètriques i els registres estructurats es defineixen des del principi per donar suport a operacions fiables i governança SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Aplicacions web personalitzades",
+      "Desenvolupament d'aplicacions mòbils",
+      "Desenvolupament i integració d'API",
+      "Arquitectura de microserveis",
+      "Solucions Cloud-Native",
+      "Modernització del sistema heretat"
+    ],
+    "technologies": [
+      {
+        "name": "React",
+        "category": "Frontend",
+        "icon": "reacció"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Llengua",
+        "icon": "Typescript"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "graphql"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Base de dades",
+        "icon": "postgresql"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Base de dades",
+        "icon": "mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Descobriment i arquitectura",
+        "summary": "Mapegem prioritats empresarials, restriccions tècniques i arquitectura objectiu abans que comenci la implementació.",
+        "deliverables": [
+          "Taller d'alineació de productes i requisits",
+          "Plànol d'arquitectura de solució",
+          "Pla de lliurament basat en fites"
+        ]
+      },
+      {
+        "title": "Construcció i integració",
+        "summary": "Els nostres equips implementen funcionalitats bàsiques, capes d'integració i salvaguardes de qualitat en paral·lel.",
+        "deliverables": [
+          "Desenvolupament de funcionalitats en sprints iteratius",
+          "API i integracions de tercers",
+          "Proves automatitzades i comprovacions de preparació per al llançament"
+        ]
+      },
+      {
+        "title": "Llançament i evolució",
+        "summary": "Després de la posada en marxa, estabilitzem les operacions i definim el següent cicle de millora basant-nos en l'ús real.",
+        "deliverables": [
+          "Llibre de desplegament de producció",
+          "Ajust de rendiment i fiabilitat",
+          "Full de ruta post-llançament i llista d'endarreriments en millores"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Preparat per construir la teva propera aplicació?",
+      "description": "Dissenyem i llancem una solució que generi resultats empresarials mesurables.",
+      "button": "Comença el teu projecte"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "IA, ML i Intel·ligència Empresarial",
+      "description": "Des de models predictius fins a quadres de comandament executius, construïm sistemes complets d'IA/BI que donen suport a decisions a gran escala."
+    },
+    "sections": {
+      "problem": {
+        "title": "Marc de problemes empresarials",
+        "subtitle": "Per què les organitzacions riques en dades encara tenen dificultats per prendre decisions segures"
+      },
+      "approach": {
+        "title": "Enfocament d'enginyeria",
+        "subtitle": "Com operacionalitzem productes de dades, models d'aprenentatge automàtic i fluxos de treball de BI"
+      },
+      "principles": {
+        "title": "Principis arquitectònics",
+        "subtitle": "Patrons d'arquitectura de dades i models per a una intel·ligència de decisions fiable"
+      },
+      "capabilities": {
+        "title": "Les nostres capacitats",
+        "subtitle": "Solucions integrals d'IA, ML i BI"
+      },
+      "technology": {
+        "title": "La nostra pila tecnològica",
+        "subtitle": "Eines líders en el sector per a dades i IA"
+      },
+      "breakdown": {
+        "title": "Avaries de servei",
+        "subtitle": "Com passem de dades fragmentades a intel·ligència de qualitat de producció"
+      }
+    },
+    "problem": {
+      "overview": "Les organitzacions sovint recullen grans volums de dades però no aconsegueixen traduir-les en previsions fiables, decisions operatives o accions empresarials mesurables.",
+      "painPointsTitle": "Dolor empresarial recurrent",
+      "impactSignalsTitle": "El que els líders solen observar",
+      "painPoints": [
+        "La lògica dels informes varia entre equips, cosa que resulta en narratives contradictòries dels KPI",
+        "Els models romanen en experimentació i mai arriben als fluxos de treball de producció",
+        "Els problemes de qualitat de les dades minven la confiança en l'analítica i els quadres de comandament executius"
+      ],
+      "impactSignals": [
+        "Els cicles de decisió són lents perquè els equips debaten la validesa de les dades en lloc de l'acció",
+        "La precisió en la previsió i planificació continua sent inconsistent trimestre rere trimestre",
+        "Les inversions en analítica mostren una baixa adopció fora dels grups especialitzats d'analistes"
+      ]
+    },
+    "approach": {
+      "overview": "Lliurem plataformes d'IA i BI com a sistemes de producció, combinant enginyeria de dades, operacions del cicle de vida del model i integració de fluxos de treball de decisió.",
+      "pillars": [
+        {
+          "title": "Fundació de Producte de Dades",
+          "detail": "Els productes de dades alineats amb el domini estableixen entrades reutilitzables, governades i d'alta qualitat per a l'analítica i l'aprenentatge automàtic."
+        },
+        {
+          "title": "Automatització del cicle de vida de MLOps",
+          "detail": "La formació, el desplegament, el monitoratge i el control de deriva estan automatitzats per mantenir la fiabilitat dels models en producció."
+        },
+        {
+          "title": "Integració del flux de treball de decisió",
+          "detail": "Els insights s'integren en eines operatives i quadres de comandament perquè els equips actuïn segons la intel·ligència dins dels processos diaris."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "La nostra arquitectura d'IA/BI prioritza dades fiables, models explicables i patrons d'accés governats a tota l'empresa.",
+      "items": [
+        {
+          "title": "Definicions de mètrica única",
+          "detail": "Els KPIs crítics es defineixen una vegada a través de models semàntics compartits per eliminar la lògica d'informes conflictiva."
+        },
+        {
+          "title": "Controls de fiabilitat del model",
+          "detail": "Els llindars de rendiment, la detecció de deriva i els mecanismes de retrocés protegeixen la qualitat de la decisió en producció."
+        },
+        {
+          "title": "Seguretat i governança per disseny",
+          "detail": "La línia de dades, l'accés basat en rols i els controls preparats per a auditoria estan integrats en cada canal."
+        }
+      ]
+    },
+    "capabilities": [
+      "Models i Pipelines d'Aprenentatge Automàtic",
+      "Quadres de comandament i informes de Power BI",
+      "Anàlisi predictiva",
+      "Transmissió de dades en temps real",
+      "Solucions d'emmagatzematge de dades"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Andana",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "powerbi"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Magatzem de dades",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Enginyeria de Dades",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "Plataforma ML",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "Marc d'aprenentatge automàtic",
+        "icon": "Tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "Marc d'aprenentatge automàtic",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Anàlisi",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Processament",
+        "icon": "apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Llengua",
+        "icon": "postgresql"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Fundació de Dades",
+        "summary": "Auditem fonts, definim contractes de dades i establim la governança perquè cada model comenci amb entrades de confiança.",
+        "deliverables": [
+          "Avaluació de la font de dades i la qualitat",
+          "Enginyeria de característiques i planificació d'esquemes",
+          "Seguretat i governança bàsica"
+        ]
+      },
+      {
+        "title": "Lliurament de Model i Insights",
+        "summary": "Construïm models i quadres de control de decisions vinculats a preguntes empresarials mesurables i KPIs.",
+        "deliverables": [
+          "Desenvolupament i validació del model",
+          "Quadres de comandament executius i informes operatius",
+          "Integració del flux de treball de decisió"
+        ]
+      },
+      {
+        "title": "MLOps i Adopció",
+        "summary": "Operacionalitzem el desplegament, el monitoratge i l'habilitació de l'equip per mantenir els resultats fiables al llarg del temps.",
+        "deliverables": [
+          "Canals automatitzats de desplegament de models",
+          "Monitoratge de deriva, precisió i ús",
+          "Lliurament de l'equip i llibre de jugades operatives"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Transforma les teves dades en informació",
+      "description": "Convertir dades fragmentades en intel·ligència clara i accionable.",
+      "button": "Comença el teu viatge"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Arquitectura i Infraestructura del Núvol",
+      "description": "Plataformes multinúvol, arquitectura resilient i infraestructura escalable dissenyada per al creixement a llarg termini."
+    },
+    "sections": {
+      "problem": {
+        "title": "Marc de problemes empresarials",
+        "subtitle": "Per què les iniciatives al núvol s'estanquen després de la primera onada migratòria"
+      },
+      "approach": {
+        "title": "Enfocament d'enginyeria",
+        "subtitle": "Com construïm plataformes de núvol segures i escalables amb un risc de migració controlat"
+      },
+      "principles": {
+        "title": "Principis arquitectònics",
+        "subtitle": "Decisions de plataforma que equilibren agilitat, resiliència i governança"
+      },
+      "capabilities": {
+        "title": "Serveis al núvol",
+        "subtitle": "Construeix, desplega i escala al núvol"
+      },
+      "technology": {
+        "title": "Expertesa en Multi-Cloud",
+        "subtitle": "Solucions al núvol independents de la plataforma"
+      },
+      "breakdown": {
+        "title": "Avaries de servei",
+        "subtitle": "Una seqüència clara per dissenyar, migrar i operar plataformes al núvol"
+      }
+    },
+    "problem": {
+      "overview": "Moltes organitzacions completen les migracions inicials al núvol però continuen operant com equips locals, amb poca visibilitat, controls inconsistents i una despesa creixent.",
+      "painPointsTitle": "Dolor empresarial recurrent",
+      "impactSignalsTitle": "El que els líders solen observar",
+      "painPoints": [
+        "Les càrregues de treball es migren sense controls estàndard de seguretat i xarxes",
+        "Els costos al núvol creixen més ràpid que el valor empresarial lliurat",
+        "La provisió de l'entorn continua sent manual i inconsistent entre equips"
+      ],
+      "impactSignals": [
+        "Incidents freqüents causats per la deriva de configuració entre entorns",
+        "La preparació per a l'auditoria es deteriora a causa de pràctiques de governança fragmentades",
+        "Els terminis d'entrega d'infraestructura retarden les iniciatives de producte i dades"
+      ]
+    },
+    "approach": {
+      "overview": "Dissenyem plataformes al núvol com a productes, utilitzant automatització d'infraestructures, polítiques i onades de migració alineades amb la crítica empresarial.",
+      "pillars": [
+        {
+          "title": "Zona d'aterratge com a codi",
+          "detail": "Les línies base d'identitat, xarxes, seguretat i polítiques estan codificades per a la repetibilitat i l'auditabilitat."
+        },
+        {
+          "title": "Estratègia de migració basada en ones",
+          "detail": "Les càrregues de treball es mouen en fases controlades amb seqüenciació conscient de les dependències i preparació per retrocés."
+        },
+        {
+          "title": "SRE + Bucle Operatiu FinOps",
+          "detail": "Els indicadors de fiabilitat i l'economia unitària es revisen conjuntament per millorar tant el temps d'activitat com l'eficiència de la despesa."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "El nostre model d'arquitectura afavoreix la infraestructura declarativa, l'accés de mínim privilegi i plataformes composables que donen suport a la ràpida entrega del producte.",
+      "items": [
+        {
+          "title": "Patrons d'infraestructura immutables",
+          "detail": "Els entorns es reconstrueixen a partir de codi versionat per minimitzar la deriva i simplificar la recuperació operativa."
+        },
+        {
+          "title": "Línia base de seguretat per defecte",
+          "detail": "Els controls d'accés de confiança zero i l'aplicació de polítiques estan integrats en cada cicle de vida de l'entorn."
+        },
+        {
+          "title": "Resiliència a través de la distribució",
+          "detail": "Les càrregues de treball crítiques estan dissenyades per a tolerància a fallades multi-zona o multi-regió quan l'impacte empresarial ho requereix."
+        }
+      ]
+    },
+    "capabilities": [
+      "Estratègia i implementació multi-núvol",
+      "Orquestració de contenidors (Kubernetes)",
+      "Computació sense servidor",
+      "Serveis de migració al núvol",
+      "Arquitectura d'alta disponibilitat"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Núvol",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "AWS",
+        "category": "Núvol",
+        "icon": "amazonwebservices"
+      },
+      {
+        "name": "GCP",
+        "category": "Núvol",
+        "icon": "GoogleCloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orquestració",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Contenidors",
+        "icon": "docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Plantilles ARM",
+        "category": "IaC",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "amazonwebservices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Arquitectura i Zona d'Aterratge",
+        "summary": "Definim l'estat objectiu, les baranes de seguretat i els estàndards bàsics de la plataforma abans que les càrregues de treball es moguin.",
+        "deliverables": [
+          "Disseny objectiu de l'arquitectura del núvol",
+          "Identitat, xarxes i línia base de seguretat",
+          "Costs i límits de compliment"
+        ]
+      },
+      {
+        "title": "Migració i construcció de plataforma",
+        "summary": "Executem onades de migració i posem en marxa components de plataforma natives al núvol amb automatització repetible.",
+        "deliverables": [
+          "Seqüenciació de migració de càrrega de treball",
+          "Configuració de contenidors i plataformes serverless",
+          "Infraestructura com a mòduls de codi"
+        ]
+      },
+      {
+        "title": "Fiabilitat i FinOps",
+        "summary": "Millorem la fiabilitat operativa i optimitzem contínuament la despesa al núvol basant-nos en telemetria en temps real.",
+        "deliverables": [
+          "SLOs, monitoratge i fluxos de treball d'incidents",
+          "Validació de la resiliència i la recuperació de desastres",
+          "Endarreriment de l'optimització de costos i la cadència de governança"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Escala la teva infraestructura",
+      "description": "Construeix fonaments al núvol que es mantinguin resilients sota càrrega real.",
+      "button": "Planifica la teva estratègia al núvol"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps i Enginyeria de Plataformes",
+      "description": "Canals de lliurament automatitzats, observabilitat i pràctiques de plataforma que milloren la velocitat sense sacrificar la fiabilitat."
+    },
+    "sections": {
+      "problem": {
+        "title": "Marc de problemes empresarials",
+        "subtitle": "Per què la velocitat de lliurament disminueix a mesura que augmenta la complexitat de la plataforma"
+      },
+      "approach": {
+        "title": "Enfocament d'enginyeria",
+        "subtitle": "Com estandarditzem els canals de lliurament sense alentir els equips de producte"
+      },
+      "principles": {
+        "title": "Principis arquitectònics",
+        "subtitle": "Patrons d'enginyeria de plataforma que escalen la fiabilitat i l'autonomia de l'equip"
+      },
+      "capabilities": {
+        "title": "Serveis DevOps",
+        "subtitle": "Automatitza, monitoritza i optimitza el teu cicle de vida de lliurament"
+      },
+      "technology": {
+        "title": "Eines i plataformes DevOps",
+        "subtitle": "Cadena d'eines DevOps de primer nivell"
+      },
+      "breakdown": {
+        "title": "Avaries de servei",
+        "subtitle": "Una fulla de ruta pràctica des dels colls d'ampolla en el lliurament fins al flux de llançament d'alta confiança"
+      }
+    },
+    "problem": {
+      "overview": "Les organitzacions sovint inverteixen en eines CI/CD però encara lluiten amb llançaments inestables, aprovacions lentes i propietat fragmentada entre entorns.",
+      "painPointsTitle": "Dolor empresarial recurrent",
+      "impactSignalsTitle": "El que els líders solen observar",
+      "painPoints": [
+        "Les definicions de pipeline varien segons l'equip, creant portes de qualitat inconsistents",
+        "Aprovacions de desplegament manual, retard, correccions ràpides i terminis de llançament de funcionalitats",
+        "Els incidents operatius es repeteixen perquè la telemetria és incompleta o està aïllada"
+      ],
+      "impactSignals": [
+        "El temps de preparació per als canvis continua augmentant malgrat la despesa en automatització",
+        "La taxa de fallada dels canvis augmenta durant períodes de lliurament d'alt volum",
+        "La productivitat dels desenvolupadors disminueix a causa de la fricció amb les eines i el canvi de context"
+      ]
+    },
+    "approach": {
+      "overview": "Establim un model de plataforma interna per a desenvolupadors amb plantilles de pipeline reutilitzables, governança basada en polítiques i observabilitat completa del cicle de vida.",
+      "pillars": [
+        {
+          "title": "Plantilles de Pipeline Golden Path",
+          "detail": "Els plànols reutilitzables de CI/CD estandarditzen els fluxos de treball de compilació, proves, comprovacions de seguretat i desplegament."
+        },
+        {
+          "title": "API de plataforma i autoservei",
+          "detail": "Els equips proporcionen entorns i alliberen la infraestructura a través d'interfícies d'autoservei controlades."
+        },
+        {
+          "title": "Bucles de retroalimentació de fiabilitat",
+          "detail": "Les tendències d'incidents, l'estat de salut dels SLO i la telemetria de desplegament informen en millores contínues de processos i arquitectura."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "La nostra arquitectura DevOps alinea la velocitat de lliurament amb la governança automatitzant els controls i minimitzant el treball operatiu puntual.",
+      "items": [
+        {
+          "title": "Tot com a codi versionat",
+          "detail": "Els canals, la infraestructura i les regles de polítiques es gestionen en control de versions per a l'auditabilitat i la repetibilitat."
+        },
+        {
+          "title": "Verificació progressiva",
+          "detail": "Les comprovacions de qualitat, seguretat i rendiment es distribueixen en diverses etapes per detectar el risc més aviat."
+        },
+        {
+          "title": "Responsabilitat de la plataforma compartida",
+          "detail": "Els equips de plataforma proporcionen capacitats de carretera asfaltada mentre que els equips de producte mantenen la propietat del lliurament."
+        }
+      ]
+    },
+    "capabilities": [
+      "Disseny de canonades CI/CD",
+      "Infraestructura com a codi",
+      "Proves automatitzades",
+      "Automatització del desplegament",
+      "Monitoratge i observabilitat"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Andana",
+        "icon": "AzureDevOps"
+      },
+      {
+        "name": "Accions a GitHub",
+        "category": "CI/CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Timó",
+        "category": "Embalatge",
+        "icon": "Timó"
+      },
+      {
+        "name": "Ansible",
+        "category": "Automatització",
+        "icon": "ansible"
+      },
+      {
+        "name": "Prometeu",
+        "category": "Monitoratge",
+        "icon": "Prometeu"
+      },
+      {
+        "name": "Grafana",
+        "category": "Observabilitat",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Avaluació de la plataforma",
+        "summary": "Avaluem la teva cadena actual de lliurament de programari per identificar punts de risc i restriccions de velocitat.",
+        "deliverables": [
+          "Mapa del flux de treball de lliurament en estat actual",
+          "Anàlisi del coll d'ampolla de la canonada",
+          "Full de ruta de maduresa DevOps objectiu"
+        ]
+      },
+      {
+        "title": "Construcció de Pipeline i Automatització",
+        "summary": "Implementem CI/CD fiable, portes de qualitat i automatització d'infraestructura per a llançaments consistents.",
+        "deliverables": [
+          "Plantilles reutilitzables de CI/CD",
+          "Automatització d'infraestructures i medi ambient",
+          "Proves automatitzades i controls de llançament"
+        ]
+      },
+      {
+        "title": "Operar i millorar",
+        "summary": "Establim bucles d'observabilitat i governança que donen suport a la millora del lliurament continu.",
+        "deliverables": [
+          "Monitoratge de quadres de comandament i polítiques d'alerta",
+          "Llançar llibres de governança i d'incidents",
+          "Mètriques i revisions de millora contínua"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Accelera el teu lliurament",
+      "description": "Reduir la fricció de llançament i millorar la fiabilitat amb pràctiques DevOps madures.",
+      "button": "Transforma el teu pipeline"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Transformació digital i estratègia",
+      "description": "Assessorament estratègic i suport a l'execució per modernitzar plataformes, equips i models operatius."
+    },
+    "sections": {
+      "problem": {
+        "title": "Marc de problemes empresarials",
+        "subtitle": "On els programes de transformació perden impuls i confiança executiva"
+      },
+      "capabilities": {
+        "title": "Serveis de consultoria",
+        "subtitle": "Orientació estratègica per a l'èxit digital"
+      },
+      "approach": {
+        "title": "Enfocament d'enginyeria",
+        "subtitle": "Com traduïm l'estratègia en un canvi executable i recolzat per la tecnologia"
+      },
+      "principles": {
+        "title": "Principis arquitectònics",
+        "subtitle": "Opcions de model operatiu i plataforma que protegeixen els resultats de la transformació"
+      },
+      "technology": {
+        "title": "Pila tecnològica",
+        "subtitle": "Plataformes i marcs que utilitzem per operacionalitzar la transformació"
+      },
+      "breakdown": {
+        "title": "Avaries de servei",
+        "subtitle": "Transformació estructurada des de la definició de l'estratègia fins al valor empresarial mesurable"
+      }
+    },
+    "problem": {
+      "overview": "Les iniciatives digitals sovint comencen amb una intenció forta però no aconsegueixen convertir-se en resultats de lliurament a causa de la manca de claredat de la propietat, eines desconnectades i prioritats en competència.",
+      "painPointsTitle": "Dolor empresarial recurrent",
+      "impactSignalsTitle": "El que els líders solen observar",
+      "painPoints": [
+        "Els fulls de ruta de transformació es defineixen però no es tradueixen en governança de lliurament",
+        "Les prioritats empresarials i d'enginyeria divergeixen després dels cicles inicials de planificació",
+        "Els models operatius antics bloquegen l'adopció de pràctiques modernes de lliurament de productes"
+      ],
+      "impactSignals": [
+        "La despesa en programes augmenta mentre el moviment estratègic dels KPI es manté estable",
+        "Les iniciatives no tenen punts de traspàs entre estratègia, arquitectura i execució",
+        "Els equips experimenten fatiga de canvi amb un valor empresarial limitat"
+      ]
+    },
+    "approach": {
+      "overview": "Combinem assessorament estratègic amb arquitectura de lliurament, alineant el disseny del model operatiu, la capacitat de la plataforma i la cadència d'execució al voltant d'objectius mesurables.",
+      "pillars": [
+        {
+          "title": "Priorització del flux de valor",
+          "detail": "Seqüenciem les iniciatives basant-nos en l'impacte empresarial mesurable i les limitacions de dependència tècnica."
+        },
+        {
+          "title": "Disseny del Model Operatiu de l'Objectiu",
+          "detail": "Els rols, la governança i els drets de decisió estan definits per afavorir una execució més ràpida entre els equips de negoci i tecnologia."
+        },
+        {
+          "title": "Governança de la Distribució de Carteres",
+          "detail": "El progrés de la transformació es gestiona mitjançant punts de control vinculats a KPIs i controls de risc a nivell de cartera."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "La nostra arquitectura de transformació posa èmfasi en la modernització incremental i la responsabilitat clara, evitant reescriptures disruptives sense justificació empresarial.",
+      "items": [
+        {
+          "title": "Alineació de Capacitat de Negoci",
+          "detail": "Els canvis tecnològics s'organitzen al voltant de capacitats que es relacionen directament amb els ingressos, la qualitat del servei o l'eficiència de costos."
+        },
+        {
+          "title": "Estratègia de plataforma composable",
+          "detail": "Els components de la plataforma es seleccionen per a la interoperabilitat per donar suport a la migració per fases i una adaptació més ràpida."
+        },
+        {
+          "title": "Governança amb cadència de lliurament",
+          "detail": "Els fòrums de decisió i els punts de control estan integrats en cicles d'esprint i trimestrals, no es tracten com a vies burocràtiques separades."
+        }
+      ]
+    },
+    "capabilities": [
+      "Fulls de ruta per a la transformació digital",
+      "Desenvolupament de l'estratègia tecnològica",
+      "Marcs d'adopció al núvol",
+      "Optimització de processos",
+      "Gestió del canvi"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Fundació Cloud",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Plataforma de Dades",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Intel·ligència de Decisió",
+        "icon": "powerbi"
+      },
+      {
+        "name": "Plataforma d'Energia",
+        "category": "Low-Code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Col·laboració",
+        "icon": "MicrosoftSharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Alineació d'estratègies",
+        "summary": "Alineem les prioritats de lideratge i els objectius digitals per crear una direcció de transformació compartida.",
+        "deliverables": [
+          "Objectius de transformació i criteris d'èxit",
+          "Avaluació de la maduresa de capacitats i de la bretxa",
+          "Cartera d'iniciatives prioritzades"
+        ]
+      },
+      {
+        "title": "Pla d'execució",
+        "summary": "Definim el model operatiu objectiu, els estàndards d'arquitectura i la seqüència d'implementació per fases.",
+        "deliverables": [
+          "Model operatiu i disseny de governança",
+          "Estàndards de tecnologia i arquitectura de processos",
+          "Full de ruta d'implementació per fases"
+        ]
+      },
+      {
+        "title": "Canvi i realització de valor",
+        "summary": "Impulsem l'adopció, seguim el moviment dels KPI i perfeccionem les iniciatives segons els resultats de lliurament.",
+        "deliverables": [
+          "Pla d'adopció i habilitació",
+          "Cadència de mesura dels KPI",
+          "Endarreriment trimestral d'optimització"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Comença el teu viatge de transformació",
+      "description": "Gestiona el canvi amb prioritats clares i plans de lliurament pràctics.",
+      "button": "Sessió d'Estratègia de Programació"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT i Computació Edge",
+      "description": "Sistemes connectats des del dispositiu fins al núvol, amb pipelines de telemetria i intel·ligència d'edge per a escala industrial."
+    },
+    "sections": {
+      "problem": {
+        "title": "Marc de problemes empresarials",
+        "subtitle": "Per què els programes de dispositius connectats no escalen més enllà dels desplegaments pilot"
+      },
+      "approach": {
+        "title": "Enfocament d'enginyeria",
+        "subtitle": "Com dissenyem sistemes IoT segurs i operatius, des del firmware del dispositiu fins a les API al núvol"
+      },
+      "principles": {
+        "title": "Principis arquitectònics",
+        "subtitle": "Regles de disseny edge-to-cloud per a la fiabilitat, la latència i la governança de flotes"
+      },
+      "capabilities": {
+        "title": "Solucions IoT",
+        "subtitle": "Connecta't, monitoritza i optimitza els teus dispositius"
+      },
+      "technology": {
+        "title": "Pila de tecnologia IoT",
+        "subtitle": "Del maquinari al núvol"
+      },
+      "breakdown": {
+        "title": "Avaries de servei",
+        "subtitle": "Com lliurem sistemes connectats des de dispositius edge fins a la intel·ligència al núvol"
+      }
+    },
+    "problem": {
+      "overview": "Les iniciatives IoT sovint demostren viabilitat tècnica en pilots però fracassen a gran escala a causa de la connectivitat poc fiable, controls febles de la flota i una mala integració amb els fluxos de treball empresarials.",
+      "painPointsTitle": "Dolor empresarial recurrent",
+      "impactSignalsTitle": "El que els líders solen observar",
+      "painPoints": [
+        "La incorporació i la gestió del cicle de vida del dispositiu continuen sent manuals i propenses a errors",
+        "Les canals de telemetria produeixen dades operatives sorolloses, incompletes o amb retard",
+        "Les actualitzacions de comandament remot i de firmware introdueixen riscos de seguretat i protecció"
+      ],
+      "impactSignals": [
+        "Els entorns pilots tenen èxit, però els terminis de desplegament de producció es retarden repetidament",
+        "Els equips d'operacions de camp reaccionen als incidents sense visibilitat predictiva",
+        "Els sistemes empresarials no poden consumir de manera fiable la intel·ligència del dispositiu en temps real"
+      ]
+    },
+    "approach": {
+      "overview": "Dissenyem plataformes IoT com a sistemes distribuïts controlats, combinant estàndards d'execució edge segurs, ingesta basada en esdeveniments i governança operativa a escala de flota.",
+      "pillars": [
+        {
+          "title": "Gestió segura del cicle de vida dels dispositius",
+          "detail": "El provisionament, la identitat, la rotació de claus i les actualitzacions de firmware s'automatitzen per reduir el risc operatiu."
+        },
+        {
+          "title": "Arquitectura de Telemetria Basada en Esdeveniments",
+          "detail": "Les canals de streaming normalitzen, validen i ruten esdeveniments del dispositiu per a anàlisis i control gairebé en temps real."
+        },
+        {
+          "title": "Avió de Control d'Operacions de la Flota",
+          "detail": "Els fluxos de treball de monitoratge, alertes i comandes remotes proporcionen una supervisió fiable entre actius distribuïts."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "La nostra arquitectura IoT equilibra les decisions d'edge de baixa latència amb governança centralitzada, observabilitat i compliment de la seguretat.",
+      "items": [
+        {
+          "title": "Autonomia de l'Edge amb Coordinació del Núvol",
+          "detail": "Les operacions locals crítiques continuen durant la degradació de la xarxa mentre sincronitzen l'estat amb els sistemes al núvol quan estan disponibles."
+        },
+        {
+          "title": "Esquemes d'esdeveniments contractats",
+          "detail": "Els equips de dispositius i plataformes utilitzen esquemes governats per preservar la coherència de telemetria entre versions."
+        },
+        {
+          "title": "Seguretat de dispositius de confiança zero",
+          "detail": "L'autenticació mútua, el mínim privilegi i el transport xifrat s'imposen a cada interacció amb dispositius."
+        }
+      ]
+    },
+    "capabilities": [
+      "Gestió de dispositius IoT",
+      "Solucions de bessons digitals",
+      "Desplegament de la computació a la vora",
+      "Telemetria en temps real",
+      "Manteniment predictiu"
+    ],
+    "technologies": [
+      {
+        "name": "Centre IoT",
+        "category": "Cloud Gateway",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "Bessons digitals",
+        "category": "Simulació",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "Computació a la vora",
+        "category": "Vora",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protocol",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protocol",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Maquinari",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Maquinari",
+        "icon": "raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Sèrie Temporal DB",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Estratègia de dispositiu i vora",
+        "summary": "Definim patrons de connectivitat, estàndards d'execució a la vora i provisió segura per als dispositius de camp.",
+        "deliverables": [
+          "Model d'incorporació i connectivitat del dispositiu",
+          "Temps d'execució de vora i plànol de desplegament",
+          "Línia base de seguretat de la flota"
+        ]
+      },
+      {
+        "title": "Telemetria i Pla de Control",
+        "summary": "Creem canals que capturen esdeveniments, modelen bessons digitals i permeten fluxos de treball de control remot.",
+        "deliverables": [
+          "Ingesta en temps real i disseny d'esquemes d'esdeveniments",
+          "Implementació de bessons digitals i models d'actius",
+          "Capa API de comandament i control"
+        ]
+      },
+      {
+        "title": "Operacions i escala",
+        "summary": "Operem la gestió de flotes i controls de fiabilitat per a entorns IoT a escala de producció.",
+        "deliverables": [
+          "Monitoratge i alerta de la flota de dispositius",
+          "Manteniment predictiu i detecció d'anomalies",
+          "Pla de desplegament i suport al cicle de vida"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Connecta els teus dispositius",
+      "description": "Construeix solucions IoT fiables preparades per a entorns reals de producció.",
+      "button": "Comença el teu projecte IoT"
+    }
+  }
+}

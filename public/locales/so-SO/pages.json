@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Nagu saabsan",
+    "hero": {
+      "titlePrefix": "Dhisidda Tiknoolajiyada Berri,",
+      "titleHighlight": "Maanta",
+      "description": "Horizon Tech d.o.o. waa shirkad tiknoolajiyadeed caalami ah oo xarunteedu tahay Sarajevo, taasoo bixisa xalal software casri ah oo loogu talagalay shirkadaha saddex qaaradood."
+    },
+    "sections": {
+      "mission": {
+        "title": "Hawlgalka",
+        "description": "Waxaan ka caawinaa ururada inay fikradaha hamiga leh u beddelaan alaabooyin dijital ah oo lagu kalsoonaan karo oo abuura qiimo ganacsi oo la cabbiri karo.",
+        "points": [
+          "Isku waafajinta bixinta tiknoolajiyada iyo natiijooyinka ganacsi ee cad.",
+          "Dhis nidaamyo muddo dheer ah oo sii ahaan la dayactiri karo marka kooxuhu is ballaariyaan.",
+          "Si dhow ula shaqee daneeyayaasha laga bilaabo istaraatiijiyadda ilaa fulinta."
+        ]
+      },
+      "expertise": {
+        "title": "Khibrad",
+        "description": "Kooxahayaga is-dhexgalka ah ee farsamada badan waxay isku daraan qoto dheer injineernimo iyo fikirka alaabta ee dhammaan noocyada tiknoolajiyada casriga ah.",
+        "points": [
+          "Injineerinka webka iyo madal heer shirkadeed.",
+          "Qaab-dhismeedka daruuraha, otomaatiga DevOps, iyo kaabayaasha adkaysiga leh.",
+          "AI/ML la adeegsaday, habraacyada xogta, iyo alaabooyinka IoT-powered ah."
+        ]
+      },
+      "approach": {
+        "title": "Habka",
+        "description": "Waxaan fulinaa qaab hufan oo soo noqnoqda kaasoo keenista gaarsiinta la saadaalin karo isla markaana yareynaya khatarta alaabta.",
+        "points": [
+          "Ogow: qeexo baaxadda, mudnaanta, iyo cabbirrada guusha hore.",
+          "Dhisid: ku soo saar tirtiro diiradda saaran oo leh wareegyo joogto ah oo jawaab celin ah.",
+          "Hagaaji: la soco natiijooyinka oo kor u qaad waxqabadka waqti ka dib."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Diyaar ma u tahay inaad ganacsigaaga beddesho?",
+      "description": "Ku biir liiska sii kordhaya ee shirkadaha ku kalsoon Horizon Tech inay bixiso xalal cusub iyo natiijooyin heer sare ah.",
+      "primary": "Bilow",
+      "secondary": "Daawo Sheekooyinka Guusha"
+    }
+  },
+  "contact": {
+    "badge": "La xiriir",
+    "hero": {
+      "title": "Nala soo xiriir",
+      "description": "Mashruuc ma maskaxda ku haysaa? Waxaan jeclaan lahayn inaan kaa maqalno. La xiriir si aad uga wada hadasho sida aan uga caawin karno in fikrada la hirgeliyo."
+    },
+    "info": {
+      "title": "Macluumaadka Xiriirka"
+    },
+    "booking": {
+      "title": "Ballanso Kulan",
+      "description": "Jadwal wicitaan 30-daqiiqo ah oo bilaash ah"
+    },
+    "methods": {
+      "email": {
+        "title": "Email",
+        "description": "Noogu soo dir email wakhti kasta",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Goobta",
+        "description": "Saldhig ku leeyahay",
+        "value": "Sarajevo, Bosnia iyo Herzegovina"
+      },
+      "response": {
+        "title": "Waqtiga Jawaabta",
+        "description": "Badanaa waxaan ka jawaabnaa gudaha",
+        "value": "24-48 saacadood"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Mashruuc Cusub"
+      },
+      "support": {
+        "label": "Taageerada Farsamada"
+      },
+      "partnerships": {
+        "label": "Iskaashiyo"
+      },
+      "careers": {
+        "label": "Xirfadaha"
+      },
+      "general": {
+        "label": "Baaritaan Guud"
+      }
+    },
+    "form": {
+      "title": "Noo soo dir fariin",
+      "success": "Waad ku mahadsan tahay fariintaada. Waxaan ku soo laaban doonaa 24-48 saacadood gudahood.",
+      "error": "Waxbaa qaldamay. Fadlan mar kale isku day ama si toos ah noogu soo dir.",
+      "fullName": "Magaca Buuxa *",
+      "email": "Cinwaanka Email-ka *",
+      "company": "Shirkad",
+      "subject": "Mawduuca *",
+      "message": "Farriin *",
+      "placeholders": {
+        "name": "Magacaaga",
+        "email": "you@example.com",
+        "company": "Shirkaddaada",
+        "subject": "Maxaan kaa caawin karnaa?",
+        "message": "Noo sheeg mashruucaaga ama baaritaankaaga..."
+      },
+      "validation": {
+        "required": {
+          "name": "Magaca buuxa waa la rabtaa.",
+          "email": "Cinwaanka email-ka ayaa loo baahan yahay.",
+          "subject": "Fadlan dooro mowduuc.",
+          "message": "Fariin ayaa loo baahan yahay."
+        },
+        "email": "Fadlan geli cinwaan email sax ah.",
+        "messageMinLength": "Farriintu waa inay noqotaa ugu yaraan {{count}} xaraf dheer."
+      },
+      "sending": "Diraya...",
+      "submit": "Dir Fariin"
+    },
+    "reasonsTitle": "Maxaad nala shaqaynaysaa?",
+    "reasons": [
+      "Khibradda horumarinta software-ka full-stack",
+      "Khubarada AI/ML iyo naqshadeynta daruurta",
+      "Horumarinta Agile oo leh isgaarsiin hufan",
+      "Taageero iyo dayactir muddo dheer ah"
+    ],
+    "custom": {
+      "title": "Xalalka Gaarka ah",
+      "description": "Ma raadinaysaa xal gaar ah? Waxaan si dhow ula shaqeynaa macaamiisha si aan u fahamno baahiyaha gaarka ah ugana soo saarno software gaar ah oo keena natiijooyin la cabbiri karo.",
+      "cta": "Ka hadal mashruucaaga"
+    },
+    "faq": {
+      "title": "Su'aalo kale ma qabtaa?",
+      "description": "Eeg qaybta FAQ-ga si aad u hesho jawaabo degdeg ah",
+      "cta": "Eeg FAQ-yada"
+    }
+  },
+  "team": {
+    "badge": "Kooxdeena",
+    "hero": {
+      "titlePrefix": "La kulan maskaxda ka dambeysa",
+      "titleHighlight": "Horizon Tech",
+      "description": "Koox kala duwan oo teknoolojiyaal, naqshadeeyayaal, iyo istiraatiijiyad ah ayaa si wadajir ah u dhisaya alaabooyin dijital ah oo saameyn sare leh."
+    },
+    "section": {
+      "title": "Kooxda Hogaaminta",
+      "description": "Hoggaamiyeyaasha khibradda leh ee hagaya aragtida iyo kobaca Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Aasaasaha, CEO & CTO",
+        "bio": "Hogaamiye aragti dheer leh iyo naqshadeeye farsamo oo leh 10+ sano oo software-ka ganacsiga, ku takhasusay AI/ML, madalaha daruuraha, iyo qaab-dhismeedka alaabta la miibirsan karo.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Qaab-dhismeedka Xalka",
+          "Injineerinka Daruurta"
+        ]
+      },
+      "ahmet": {
+        "role": "Naqshadeeyaha Sare ee Amniga",
+        "bio": "Khabiir amniga cyber-ka oo diiradda saaraya qaab-dhismeedka amniga shirkadaha, kaabayaasha amniga ee ammaan ah, iyo bixinta u hoggaansanaanta marka hore ee deegaanada la xakameeyo.",
+        "expertise": [
+          "Amniga Cyber-ka",
+          "Nidaamyada On-Prem",
+          "Qaab-dhismeedka Amniga",
+          "U hoggaansanaanta",
+          "Amniga Kaabayaasha"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Email {{name}}",
+      "linkedin": "{{name}} profile-ka LinkedIn"
+    },
+    "culture": {
+      "title": "Nolosha Horizon Tech",
+      "description": "Waxaan dhiirrigelinaa dhaqanka hal-abuurka, iskaashiga, iyo barashada joogtada ah",
+      "remoteFirst": {
+        "title": "Dhaqanka Fog-First",
+        "description": "Ka shaqee meel kasta oo leh saacado dabacsan oo diiradda saara natiijooyinka, ma aha goobta."
+      },
+      "collaborative": {
+        "title": "Deegaanka Wadajirka ah",
+        "description": "Dhacdooyinka kooxeed ee joogtada ah, kalfadhiyo wadaagga aqoonta, iyo iskaashi is-dhexgal ah."
+      },
+      "workLife": {
+        "title": "Isu dheelitirka Shaqada iyo Nolosha",
+        "description": "Siyaasadda fasaxa deeqsinimada leh, taageerada caafimaadka maskaxda, iyo ixtiraamka waqtiga shaqsiga ah."
+      },
+      "innovation": {
+        "title": "Waqtiga Hal-abuurka",
+        "description": "20% waqti mashaariic shaqsiyeed, hackathons, iyo sahaminta teknoolojiyada cusub."
+      },
+      "stats": {
+        "teamMembers": "Xubnaha Kooxda",
+        "countries": "Dalalka",
+        "techStacks": "Xirmooyinka Tiknoolajiyada",
+        "remoteReady": "Remote Ready"
+      }
+    },
+    "cta": {
+      "title": "Ma rabtaa inaad ku biirto kooxdeena?",
+      "description": "Mar walba waxaan raadineynaa dad karti leh oo daneynaya farsamada, lahaanshaha, iyo hal-abuurka.",
+      "button": "La xiriir"
+    }
+  },
+  "careers": {
+    "badge": "Ku soo biir kooxdeena",
+    "hero": {
+      "titlePrefix": "Dhis Mustaqbalka",
+      "titleHighlight": "Nala Jiro",
+      "description": "Ku biir koox injineero ah oo dhisaya software casri ah oo loogu talagalay macaamiisha caalamka. Ka shaqee meel fog, si joogto ah u kor, oo saameyn dhab ah samee.",
+      "button": "Eeg Jagooyinka"
+    },
+    "process": {
+      "title": "Habka Shaqaalaynteena",
+      "description": "Si hufan, waxtar leh, oo ixtiraam leh waqtigaaga",
+      "steps": [
+        {
+          "title": "Codso",
+          "description": "Soo gudbi codsigaaga, annaguna waan dib u eegi doonaa 3 maalmood gudahood."
+        },
+        {
+          "title": "Wadahadalkii Hore",
+          "description": "Wicitaan muuqaal ah oo 30 daqiiqo ah si aad uga hadasho waayo-aragnimadaada iyo filashooyinkaaga."
+        },
+        {
+          "title": "Farsamo",
+          "description": "Wareysi farsamo ama jimicsi si aad u muujiso xirfadahaaga."
+        },
+        {
+          "title": "Dalab",
+          "description": "La kulan kooxda oo hel dalabkaaga ku biirista Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Jagooyinka Furan",
+      "description": "Hel fursaddaada xigta oo ku biir kooxdeena sii kordhaya",
+      "unavailable": "Ma aqbalayso codsiyada waqtigan",
+      "apply": "Codso Hadda",
+      "noMatch": "Ma aragtaa doorka ugu habboon?",
+      "sendCv": "Noo soo dir CV-gaaga",
+      "listings": [
+        {
+          "title": "Injineer Sare oo Full-Stack ah",
+          "department": "Injineernimada",
+          "location": "Remote (Aagagga Waqtiga EU)",
+          "type": "Waqti buuxa",
+          "description": "Dhis barnaamijyo ganacsi oo la miisaan karo iyadoo la adeegsanayo React, Node.js, iyo tiknoolajiyada daruuraha.",
+          "tags": [
+            "Falcelin",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "Injineer DevOps",
+          "department": "Injineernimada",
+          "location": "Sarajevo / Fog",
+          "type": "Waqti buuxa",
+          "description": "Naqshadeynta oo dayactirka dhuumaha CI/CD, kaabayaasha sida koodh, iyo nidaamyada kormeerka.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "Injineer AI/ML",
+          "department": "Shaybaarka Hal-abuurka",
+          "location": "Remote",
+          "type": "Waqti buuxa",
+          "description": "Horumarinta moodooyinka barashada mashiinka iyo xalalka AI ee macaamiisha shirkadaha.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Naqshadeeyaha Alaabta",
+          "department": "Naqshad",
+          "location": "Remote",
+          "type": "Waqti buuxa",
+          "description": "Abuur waayo-aragnimo isticmaale oo qurux badan oo la fahmi karo oo loogu talagalay codsiyada shirkadaha ee adag.",
+          "tags": [
+            "Figma",
+            "Cilmi-baarista Isticmaalaha",
+            "UI/UX",
+            "Nidaamyada Naqshadeynta"
+          ]
+        },
+        {
+          "title": "Naqshadeeyaha Xalalka",
+          "department": "Injineernimada",
+          "location": "Remote",
+          "type": "Waqti buuxa",
+          "description": "Naqshad xalal farsamo oo dhammaad ilaa dhammaad ah oo hagista macaamiisha isbeddelka dijitaalka ah.",
+          "tags": [
+            "Qaab-dhismeedka Daruurta",
+            "Naqshadeynta Nidaamka",
+            "La-talin"
+          ]
+        },
+        {
+          "title": "Qoraa Farsamo",
+          "department": "Hawlgallada",
+          "location": "Remote",
+          "type": "Waqti-dhiman",
+          "description": "Samee dukumentiyo dhamaystiran, casharro, iyo waxyaabo farsamo.",
+          "tags": [
+            "Dukumentiyada",
+            "API Docs",
+            "Qorista Farsamada"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Su'aalo ku saabsan shaqada halkan?",
+      "description": "Waxaan jeclaan lahayn inaan kaa maqalno. La xiriir oo waxaan ka jawaabi doonaa su'aalaha ku saabsan nolosha Horizon Tech.",
+      "button": "Nala soo xiriir"
+    }
+  },
+  "caseStudies": {
+    "badge": "Sheekooyinka Guusha",
+    "hero": {
+      "titlePrefix": "Natiijooyin la gaarsiiyo",
+      "titleHighlight": "Matter",
+      "description": "Sahamin sida aan uga caawinay shirkadaha warshadaha kala duwan inay beddelaan hawlgallada iyagoo adeegsanaya tiknoolajiyad saameyn sare leh.",
+      "tags": {
+        "delivery": "Bixinta Injineernimada",
+        "outcomes": "Natiijooyinka la cabbiray"
+      }
+    },
+    "stats": {
+      "projects": "Mashaariicda La Gaarsiiyay",
+      "clients": "Macaamiisha Faraxsan",
+      "efficiency": "Celceliska kororka waxtarka",
+      "retention": "Qabashada Macaamiisha"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Adeegyada Maaliyadeed",
+        "title": "Guuritaanka Daruurta & Casriyeynta",
+        "description": "Waxaan u wareejiyay nidaamyada bangiyada ee hore una wareegay AWS cloud infrastructure iyada oo aan lahayn waqti hoos u dhac.",
+        "challenge": "Qaab-dhismeedka monolithic-ka ee hore oo keenaya dhibaatooyin kororka",
+        "result": "Si guul leh ayaa loogu wareejiyay microservices ee AWS",
+        "metrics": [
+          {
+            "label": "Dhimista Kharashka",
+            "value": "40%"
+          },
+          {
+            "label": "Kororka Waxqabadka",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Microservices",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech Solutions",
+        "industry": "Daryeelka Caafimaadka",
+        "title": "Madal Baaritaanka AI-powered",
+        "description": "Wuxuu dhisay moodooyin ML ah oo loogu talagalay falanqaynta sawirka caafimaadka isagoo leh saxnaan 95%+ sax ah.",
+        "challenge": "Hababka baaritaanka gacanta ayaa qaata waqti dheer",
+        "result": "Ogaanshaha otomaatiga ah ee AI/ML",
+        "metrics": [
+          {
+            "label": "Waqtiga La Badbaadiyay",
+            "value": "70%"
+          },
+          {
+            "label": "Saxnaanta",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "Falcelin",
+          "Daryeelka Caafimaadka"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Shirkadda E-Commerce",
+        "industry": "Tafaariiqda",
+        "title": "Dashboard-ka Falanqaynta Waqtiga-dhabta ah",
+        "description": "Waxay horumarisay madal BI ah oo maalinle ah ka shaqeynta dhacdooyin 10M+ ah.",
+        "challenge": "Ma jiro aragti waqtiga-dhabta ah oo ku saabsan cabbirrada muhiimka ah ee ganacsiga",
+        "result": "Madal falanqaynta iyo fahamka waqtiga-dhabta ah",
+        "metrics": [
+          {
+            "label": "Dhacdooyinka/Maalin",
+            "value": "10M+"
+          },
+          {
+            "label": "Waqtiga Jawaabta",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "Falcelin",
+          "Injineerinka Xogta"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Diyaar ma u tahay inaad qorto sheekadaada guusha?",
+      "description": "Aan ka hadalno sida aan kaaga caawin karno inaad gaarto natiijooyin la mid ah oo aad si kalsooni leh u kordhiso."
+    },
+    "filters": {
+      "title": "Filter Warshadeed",
+      "all": "Dhammaan Warshadaha",
+      "empty": "Ma jiraan daraasado kiisas oo la mid ah filter-ka warshadaha la doortay."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Aragtiyo iyo Fikrado laga helay",
+      "titleHighlight": "Horizon Tech",
+      "description": "Casharro farsamo, aragtiyo warshadeed, iyo casharro wax ku ool ah oo ka yimaada shaqada dhabta ah."
+    },
+    "categories": [
+      "Dhammaan Xilalka",
+      "Qaab-dhismeedka Daruurta",
+      "DevOps",
+      "AI/ML",
+      "Qaybta hore",
+      "Backend",
+      "Xogta"
+    ],
+    "featuredPost": {
+      "id": "Waxaa lagu soo bandhigay",
+      "title": "Mustaqbalka Horumarinta Daruuraha: Isbeddellada la fiirinayo 2025",
+      "excerpt": "Sahmiyo isbeddellada ugu dambeeyay ee horumarinta daruuraha, laga bilaabo qaab-dhismeedka aan server-ka lahayn ilaa edge computing.",
+      "author": {
+        "name": "Tifaftirka Horizon Tech"
+      },
+      "date": "Nofembar 15, 2025",
+      "readTime": "8 daqiiqo akhris",
+      "category": "Qaab-dhismeedka Daruurta",
+      "tags": [
+        "Daruur",
+        "Azure",
+        "Isbeddellada"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Dhisidda Microservices La Scalable with Azure Kubernetes Service",
+        "excerpt": "Hagaha wax ku ool ah ee naqshadeynta iyo hirgelinta microservices iyadoo la adeegsanayo AKS.",
+        "author": {
+          "name": "Tifaftirka Horizon Tech"
+        },
+        "date": "Nofembar 12, 2025",
+        "readTime": "6 daqiiqo akhris",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Microservices",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Barashada Mashiinka ee Wax-soo-saarka: Casharrada La Bartay",
+        "excerpt": "Casharro la tijaabiyay oo laga keenay isticmaalka moodooyinka ML si ballaaran.",
+        "author": {
+          "name": "Tifaftirka Horizon Tech"
+        },
+        "date": "Nofembar 10, 2025",
+        "readTime": "10 daqiiqo akhris",
+        "category": "AI/ML",
+        "tags": [
+          "Barashada Mashiinka",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Maxaa cusub iyo sababta ay muhiim u tahay",
+        "excerpt": "Si qoto dheer ugu saabsan astaamaha React 19 iyo saameynta waxqabadka.",
+        "author": {
+          "name": "Tifaftirka Horizon Tech"
+        },
+        "date": "Nov 8, 2025",
+        "readTime": "5 daqiiqo akhris",
+        "category": "Qaybta hore",
+        "tags": [
+          "Falcelin",
+          "JavaScript",
+          "Horumarinta Webka"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Isdiiwaangeli Wargeyskeena",
+      "description": "Hel maqaalada ugu dambeeyay, casharrada, iyo aragtiyada toddobaadle la keeno.",
+      "placeholder": "your.email@example.com",
+      "button": "Isdiiwaangeli",
+      "note": "Spam ma jiro. Ka bax isdiiwaangelinta wakhti kasta."
+    },
+    "index": {
+      "hero": {
+        "title": "Blog-ga Injineerinka Horizon Tech",
+        "description": "Qoraallo goob iyo qaabab wax ku ool ah oo ka yimid kooxaha dhisaya alaabooyinka AI, nidaamyada shirkadaha, iyo madalaha daruurta ee lagu kalsoonaan karo."
+      },
+      "filters": {
+        "postsInView": "{{count}} Qoraallada muuqda"
+      },
+      "featured": {
+        "badge": "Wararkii Ugu Dambeeyay",
+        "readCta": "Akhri qoraalka la xushay"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Faahfaahinta la gelinayo...",
+    "title": "Dejinta Profile-ka",
+    "subtitle": "Maamul dejinta iyo doorashooyinka akoonkaaga",
+    "photoButton": "Beddel Sawirka",
+    "tabs": {
+      "general": "Guud",
+      "security": "Amniga",
+      "preferences": "Doorashooyinka"
+    },
+    "messages": {
+      "profileUpdated": "Profile-ka si guul leh ayaa loo cusbooneysiiyay",
+      "profileUpdateFailed": "Lama cusbooneysiin profile-ka",
+      "passwordsNoMatch": "Erayga sirta ah ee cusub isma waafaqo",
+      "passwordTooShort": "Erayga sirta ah waa inuu ahaadaa ugu yaraan 8 xaraf dheer",
+      "passwordChanged": "Erayga sirta ah si guul leh ayaa loo beddelay",
+      "passwordChangeFailed": "Fashilmay in la beddelo erayga sirta ah",
+      "optedOut": "Ka baxay warbixinnada tababarka",
+      "optedIn": "Wuxuu doortay inuu ka qayb galo warbixinnada tababarka",
+      "optOutFailed": "Lama cusbooneysiin xaaladda ka bixitaanka"
+    },
+    "general": {
+      "title": "Macluumaadka Shaqsiga ah",
+      "description": "Cusbooneysii faahfaahintaada shaqsiyeed iyo xogta xiriirka",
+      "firstName": "Magaca Koowaad",
+      "firstNamePlaceholder": "John",
+      "lastName": "Magaca Dambe",
+      "lastNamePlaceholder": "Doe",
+      "email": "Cinwaanka Email-ka",
+      "emailNotice": "Email-ka lama beddeli karo. La xiriir taageerada haddii aad u baahan tahay caawimaad.",
+      "phone": "Lambarka Telefoonka",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Isbeddelada Kaydinta"
+    },
+    "security": {
+      "title": "Dejinta Amniga",
+      "description": "Maamul erayga sirta ah iyo doorashooyinka amniga",
+      "currentPassword": "Erayga sirta ah ee hadda",
+      "currentPasswordPlaceholder": "Geli erayga sirta ah ee hadda",
+      "newPassword": "Erayga Sirta ah ee Cusub",
+      "newPasswordPlaceholder": "Geli erayga sirta ah ee cusub",
+      "confirmPassword": "Xaqiiji erayga sirta ah ee cusub",
+      "confirmPasswordPlaceholder": "Xaqiiji erayga sirta ah ee cusub",
+      "passwordHint": "Waa in ay ugu yaraan 8 xaraf dheer noqotaa",
+      "changePassword": "Beddel erayga sirta ah"
+    },
+    "preferences": {
+      "title": "Doorashooyinka Ogeysiisyada",
+      "description": "Xakamee sida aad u hesho cusbooneysiin iyo ogeysiisyo",
+      "email": {
+        "title": "Ogeysiisyada Email-ka",
+        "description": "Hel wararkii iyo digniino email ahaan"
+      },
+      "sms": {
+        "title": "Ogeysiisyada SMS-ka",
+        "description": "Hel digniino muhiim ah fariin qoraal ah"
+      },
+      "optOut": {
+        "title": "Warbixinnada Ka Baxa Tababarka",
+        "description": "Warbixinnadaada ka qari milkiilaha xarunta"
+      },
+      "actions": {
+        "title": "Falalka Akoonka",
+        "downloadData": "Soo dejiso Xogta Akoonka",
+        "deleteAccount": "Akoonka Tirtir"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Guriga ku noqoshada",
+    "title": "Xarunta Taageerada",
+    "subtitle": "Ka hel caawimaad adeegyada horumarinta software-keena",
+    "cards": {
+      "email": {
+        "title": "Taageerada Email-ka",
+        "description": "Noogu soo dir email su'aalo kasta"
+      },
+      "project": {
+        "title": "Baaritaannada Mashruuca",
+        "description": "Ka wada hadal shuruudaha mashruucaaga",
+        "button": "Nala soo xiriir"
+      },
+      "resources": {
+        "title": "Ilo",
+        "description": "Khayraadka farsamada iyo hagayaasha",
+        "button": "Eeg Kheyraadka"
+      }
+    },
+    "faqTitle": "Su'aalaha Inta Badan La Isweydiiyo",
+    "faqDescription": "Jawaabo degdeg ah oo su'aalaha caadiga ah",
+    "faqs": [
+      {
+        "question": "Waa maxay adeegyada Horizon Tech bixisaa?",
+        "answer": "Waxaan bixinaa horumarinta software-ka gaarka ah, xalalka AI/ML, qaab-dhismeedka daruuraha, DevOps, sirdoonka ganacsiga, iyo adeegyada IoT."
+      },
+      {
+        "question": "Sideen mashruuc uga bilaabaa Horizon Tech?",
+        "answer": "Nala soo xiriir foom ama email si aad u hesho shuruudahaaga. Waxaan jadwaleyn doonaa wicitaan helitaanka oo aan wadaagno soo jeedin."
+      },
+      {
+        "question": "Ma bixisaa taageero joogto ah iyo dayactir?",
+        "answer": "Haa. Waxaan bixinaa xirmooyin taageero iyo dayactir oo ay ku jiraan hagaajinta khaladka, cusbooneysiinta amniga, iyo hagaajinta astaamaha."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Guriga ku noqoshada",
+    "title": "Kheyraadka Farsamada",
+    "subtitle": "Hagayaal, casharro, iyo hababka ugu wanaagsan ee kooxda Horizon Tech",
+    "hub": {
+      "title": "Xarunta Barashada",
+      "description": "Sahamin kheyraadka farsamada ee la soo xulay ee daruuraha, AI/ML, DevOps, iyo horumarinta software-ka casriga ah.",
+      "note": "Agabkan waxaa lagu saleynayaa waayo-aragnimo mashruuc dhab ah waxaana si joogto ah loo cusbooneysiiyay."
+    },
+    "categories": [
+      {
+        "icon": "Daruur",
+        "title": "Qaab-dhismeedka Daruurta",
+        "description": "Azure, AWS, iyo qaababka dabiiciga ah ee cloud-ka",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Hagaha"
+          },
+          {
+            "title": "Istaraatiijiyada Is-beddelka Cloud",
+            "type": "Maqaal"
+          }
+        ]
+      },
+      {
+        "icon": "Maskaxda",
+        "title": "AI & Barashada Mashiinka",
+        "description": "Moodooyinka ML, xogta sayniska, iyo isku xirka AI",
+        "resources": [
+          {
+            "title": "Introduction to Azure ML",
+            "type": "Casharro"
+          },
+          {
+            "title": "Dhuumaha Dhismaha ee Wax-soo-saarka ML",
+            "type": "Hagaha"
+          }
+        ]
+      },
+      {
+        "icon": "Dejinta",
+        "title": "DevOps & Platform",
+        "description": "CI/CD, kaabayaasha sida koodh, otomaatiga",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Casharro"
+          },
+          {
+            "title": "Kaabayaasha sida Code oo leh Terraform",
+            "type": "Hagaha"
+          }
+        ]
+      },
+      {
+        "icon": "Code",
+        "title": "Horumarinta Software-ka",
+        "description": ".NET, React, iyo hababka horumarinta casriga ah",
+        "resources": [
+          {
+            "title": "Qaab-dhismeedka nadiifka ah ee .NET",
+            "type": "Hagaha"
+          },
+          {
+            "title": "Hababka Ugu Wanaagsan ee React",
+            "type": "Maqaal"
+          }
+        ]
+      },
+      {
+        "icon": "Xogta",
+        "title": "Xogta & Falanqaynta",
+        "description": "BI, madalaha kaydinta xogta, iyo falanqaynta",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Design",
+            "type": "Casharro"
+          },
+          {
+            "title": "Qaab-dhismeedka Bakhaarka Xogta",
+            "type": "Hagaha"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Ma u baahan tahay tababar gaar ah?",
+      "description": "Waxaan bixinaa aqoon-is-weydaarsiyo gaar ah oo loogu talagalay kooxaha injineerinka iyo alaabta",
+      "text": "Ma u baahan tahay tababar kooxeed gacanta ah? Waxaan bixinaa aqoon-is-weydaarsiyo gaar ah oo ku saabsan naqshadeynta daruuraha, DevOps, iyo hababka casriga ah ee bixinta.",
+      "button": "La xiriir"
+    }
+  },
+  "unauthorized": {
+    "title": "Gelitaanka waa la diiday",
+    "description": "Ma haysatid ogolaansho inaad boggan gasho. La xiriir maamulahaaga haddii aad u malaynayso inay khalad tahay.",
+    "primary": "Tag Profile",
+    "secondary": "Guriga ku noqoshada"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Post lama helin",
+      "description": "Ma jiro qoraal blog ah oo ku saabsan slug: {{slug}}",
+      "back": "Ku noqo blog-ga"
+    },
+    "back": "Ku noqo blog-ga",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Daraasad kiis lama helin",
+      "description": "Ma jiro daraasad kiis oo ku saabsan id: {{id}}",
+      "back": "Ku noqo daraasadaha kiisaska"
+    },
+    "back": "Ku noqo daraasadaha kiisaska",
+    "sections": {
+      "executiveSummary": "Soo Koobid Fulinta",
+      "businessChallenge": "Tartanka Ganacsiga",
+      "technicalSolution": "Xalka Farsamada",
+      "architectureDecisions": "Go'aamada Dhismaha",
+      "technologyStack": "Xirmada Tiknoolajiyada",
+      "resultsImpact": "Natiijooyinka & Saameynta"
+    },
+    "client": "Macmiil",
+    "keyOutcomes": "Natiijooyinka Muhiimka ah",
+    "decision": "Go'aanka {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Signal Wuu Lumay",
+      "title": "Bogga lama helin",
+      "description": "Waddada aad codsatay ma jirto ama way guurtay. Aan ku celino dhamaadka Horizon Tech ee saxda ah.",
+      "requestedPath": "Waddada la codsaday",
+      "terminal": {
+        "prompt": "$ horizon-router xallin --path",
+        "line1": "Xallinta jaantuska waddada... Wuu ku guuldareystay",
+        "line2": "Sabab: ma jiro module waddo la jaanqaadi karo",
+        "line3": "Habraaca Kaydka ayaa la hawlgeliyay",
+        "line4": "Isticmaal mid ka mid ah jidadka gaaban ee hoose si aad u sii waddo"
+      },
+      "links": {
+        "home": "Bogga hore",
+        "services": "Adeegyada",
+        "blog": "Blog",
+        "caseStudies": "Daraasado Kiisas"
+      }
+    },
+    "runtime": {
+      "badge": "Khalad Waqtiga Socodka",
+      "title": "Wax baa ka jabay boggan",
+      "description": "Arrin lama filaan ah ayaa hakisay sawirka. Waad isku dayi kartaa si nabad ah, ama dib ugu laaban kartaa bogga hore.",
+      "retry": "Isku day mar kale",
+      "home": "Ku noqo bogga hore",
+      "unknown": "Khalad socod aan la garanayn"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Maareynta Blog-ga",
+      "subtitle": "Abuur, tafatir, oo maamul qoraalladaada blog-ga",
+      "newPost": "Post cusub",
+      "seedData": "Xogta Abuurka",
+      "allPosts": "Dhammaan Xilalka",
+      "published": "La daabacay",
+      "draft": "Qabashada",
+      "featured": "Soo bandhigid",
+      "setFeatured": "Set-ka la soo bandhigay",
+      "removeFeatured": "Ka saar Muuqaalka",
+      "table": {
+        "title": "Cinwaanka",
+        "category": "Qaybta",
+        "status": "Xaaladda",
+        "date": "Taariikhda",
+        "actions": "Falalka"
+      },
+      "empty": {
+        "message": "Weli ma jiraan qoraallo blog ah. Samee xogtaada ugu horreysa ee post ama seed sample.",
+        "seed": "Xogta Tusaalaha Abuurka",
+        "create": "Abuur Post"
+      },
+      "delete": {
+        "title": "Tirtir Post",
+        "confirmation": "Ma hubtaa inaad rabto inaad tirtirto qoraalkan? Ficilkan lama joojin karo.",
+        "delete": "Tirtir",
+        "cancel": "Jooji"
+      }
+    },
+    "editor": {
+      "bannerHint": "Waxaa lagu soo bandhigay calan ballaaran oo ku yaal dusha tiirka",
+      "bannerImage": "Sawirka Banner-ka",
+      "coverHint": "Waxaa lagu soo bandhigay kaararka liiska blog-ka",
+      "coverImage": "Sawirka Daboolka",
+      "editSlug": "Tafatir xabbad",
+      "posts": "Qoraallada",
+      "publish": "Daabac",
+      "update": "Cusboonaysiin",
+      "form": {
+        "contentPlaceholder": "Halkan ku qor qoraalkaaga...",
+        "excerptPlaceholder": "Soo koobid kooban oo post-ka...",
+        "pickDate": "Xulo taariikh",
+        "readTimePlaceholder": "tusaale ahaan, akhris 5 daqiiqo ah",
+        "titlePlaceholder": "Cinwaanka kadib..."
+      },
+      "meta": {
+        "publisher": "Daabacaha",
+        "unknownAuthor": "Qoraa aan la garanayn"
+      },
+      "modes": {
+        "edit": "Tafatir",
+        "editOnly": "Kaliya wax ka beddel",
+        "preview": "Hordhac",
+        "previewOnly": "Kaliya hordhac",
+        "sideBySide": "Dhinac dhinac",
+        "split": "Kala tag"
+      },
+      "tags": {
+        "heading": "Tags",
+        "placeholder": "Ku dar calaamad..."
+      },
+      "translations": {
+        "auto": "Auto",
+        "autoTranslate": "Tarjumaad otomaatig ah",
+        "clear": "Nadiif",
+        "existing": "Kuwa Jira",
+        "heading": "Turjumaado",
+        "language": "Luqadda",
+        "languages": "Luuqado",
+        "edit": "Tafatir",
+        "manual": "Buug-gacmeed",
+        "preview": "Hordhac",
+        "searchPlaceholder": "Luuqadaha raadi...",
+        "translate": "Tarjun"
+      }
+    },
+    "caseStudies": {
+      "title": "Daraasado Kiisas",
+      "subtitle": "Maaree daraasadaha kiisaska iyo bandhigyada mashruuca",
+      "newCaseStudy": "Daraasad Kiis Cusub",
+      "seedData": "Xogta Abuurka",
+      "allCaseStudies": "Daraasado Dhammaan Kiisaska",
+      "published": "La daabacay",
+      "draft": "Qabashada",
+      "table": {
+        "title": "Cinwaanka",
+        "industry": "Warshadaha",
+        "client": "Macmiil",
+        "status": "Xaaladda",
+        "actions": "Falalka"
+      },
+      "empty": {
+        "message": "Weli ma jiraan daraasado kiisas.",
+        "seed": "Xogta Abuurka",
+        "create": "Abuur Marka Hore"
+      },
+      "delete": {
+        "title": "Tirtir Daraasad Kiis",
+        "confirmation": "Ma hubtaa inaad rabto inaad tirtirto daraasaddan kiiskan? Ficilkan lama joojin karo.",
+        "delete": "Tirtir",
+        "cancel": "Jooji"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Daraasado Kiisas",
+      "published": "La daabacay",
+      "draft": "Qabashada",
+      "update": "Cusboonaysiin",
+      "create": "Abuur",
+      "sections": {
+        "basicInfo": "Macluumaad Aasaasi ah",
+        "narrative": "Sheekada",
+        "architectureDecisions": "Go'aamada Dhismaha",
+        "techStack": "Tech Stack",
+        "results": "Natiijooyinka",
+        "tags": "Tags"
+      },
+      "fields": {
+        "title": "Cinwaanka",
+        "titlePlaceholder": "Cinwaanka daraasadda kiiska",
+        "slug": "Slug",
+        "slugPlaceholder": "si toos ah loo abuuray laga bilaabo cinwaanka",
+        "client": "Macmiil",
+        "clientPlaceholder": "Magaca macaamiisha",
+        "industry": "Warshadaha",
+        "industryPlaceholder": "Warshadaha la xushay",
+        "description": "Sharaxaad",
+        "descriptionPlaceholder": "Sharaxaad kooban (lagu muujiyay kaararka)",
+        "executiveSummary": "Soo Koobid Fulinta",
+        "executiveSummaryPlaceholder": "Guudmar heer sare ah oo ku saabsan dagaalka",
+        "challenge": "Tartanka",
+        "challengePlaceholder": "Waa maxay dhibaatada macmiilku la kulmay?",
+        "solution": "Xalka",
+        "solutionPlaceholder": "Sidee dhibaatada loo xaliyay?",
+        "decision": "Go'aanka",
+        "decisionPlaceholder": "Waxa la go'aamiyay",
+        "rationale": "Sababta",
+        "rationalePlaceholder": "Sababta habkan loo doortay",
+        "metric": "Metric",
+        "metricPlaceholder": "tusaale ahaan, Dib-u-dhaca Settlement",
+        "value": "Qiimaha",
+        "valuePlaceholder": "tusaale ahaan -63% ama 4.8h -> 11m",
+        "resultDescription": "Sharaxaad",
+        "resultDescriptionPlaceholder": "Natiijadan micnaheedu waa maxay",
+        "techPlaceholder": "Ku dar tiknoolajiyada (riix Enter)",
+        "tagPlaceholder": "Ku dar tag (riix Enter)"
+      },
+      "add": "Ku dar",
+      "noArchDecisions": "Weli go'aanno dhismaha ah lama daray.",
+      "noResults": "Natiijooyin lama kordhin weli.",
+      "decisionLabel": "Go'aanka {{number}}",
+      "resultLabel": "Natiijada {{number}}",
+      "controls": {
+        "published": "La daabacay",
+        "publishedDescription": "Ka dhig daraasaddan mid si cad loo arki karo",
+        "featured": "Soo bandhigid",
+        "featuredDescription": "Iftiimi daraasadda kiiskan"
+      }
+    },
+    "imageCrop": {
+      "apply": "Codso",
+      "cancel": "Jooji",
+      "cropTitle": "Sawirka Crop",
+      "dropText": "Sawir halkan dhig ama guji si aad u soo geliso",
+      "flipHorizontal": "Leexasho toosan",
+      "flipVertical": "Leexasho toosan",
+      "replace": "Bedel",
+      "reset": "Dib u dejin",
+      "rotateLeft": "Wareeg bidix",
+      "rotateRight": "U leexo midig",
+      "uploading": "Waxaan soo gelinayaa...",
+      "toast": {
+        "invalidFile": "Fayl aan sax ahayn",
+        "invalidFileDesc": "Fadlan soo geli fayl sawir sax ah.",
+        "uploadFailed": "Soo gelinta ayaa fashilmay",
+        "uploadFailedDesc": "Waxbaa qaldamay. Fadlan mar kale isku day.",
+        "uploaded": "Sawirka la soo geliyay",
+        "uploadedDesc": "Sawirkaaga si guul leh ayaa loo soo geliyay."
+      }
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Ngaahi Founga Fakaʻenisinia ʻOku Fua",
+    "subtitle": "Polokalama fakakomipiuta fakapisinisi · AI & Machine Learning · Cloud Infrastructure · IoT & Edge",
+    "description": "ʻOku mau fokotuʻutuʻu mo ʻoatu ʻa e tekinolosia ʻoku ne fakaivia ʻa e ngaahi pisinisi ʻoku fie maʻu — ʻi he taimi totonu, ʻi he patiseti, ʻi he meʻafua.",
+    "cta": {
+      "primary": "Kamata ha Ngaue",
+      "secondary": "Vakai ki Heʻemau Ngāué"
+    },
+    "trustLine": "Falalaʻanga ʻe he ngaahi kautaha fakaemamani lahi"
+  },
+  "services": {
+    "subtitle": "Ko ʻEtau Ngaahi Ngaue",
+    "title": "ʻEnisinia Kakato",
+    "description": "Ngaahi tafaʻaki akoako ʻe ono. Timi ʻe taha. Ko e konga kotoa pe ʻo hoʻo fokotuʻutuʻu fakatekinolosia — mei he ngaahi meʻangaue ki he dashboard ʻo e pisinisi.",
+    "commentMarker": "NGAAHI SEVESI",
+    "items": {
+      "customSoftware": {
+        "title": "Fakalakalaka ʻo e Polokalama Fakakomipiuta",
+        "description": "Ko e ngaahi polokalama fakaonopooni ʻoku langa ʻaki ʻa e microservices, APIs, mo e ʻao-tuʻufonua."
+      },
+      "aiMl": {
+        "title": "AI, ML & Business Intelligence",
+        "description": "AI/ML pipelines, Power BI dashboards, mo e advanced analytics ʻoku ne liliu ʻa e fakamatala ki he ngaahi tuʻutuʻuni."
+      },
+      "cloud": {
+        "title": "Cloud Architecture & Infrastructure",
+        "description": "Multi-cloud infrastructure with containers, serverless, and global scalability built in."
+      },
+      "iot": {
+        "title": "IoT & Edge Computing",
+        "description": "Ngaahi meʻangaue fakafehokotaki, mahanga fakaʻilekitulonika, mo e edge computing ki he Industry 4.0."
+      },
+      "devops": {
+        "title": "DevOps & Platform Engineering",
+        "description": "CI/CD pipelines, infrastructure as code, and observability from commit to production."
+      },
+      "digital": {
+        "title": "Liliu Fakaʻilekitulonika & Faleʻi",
+        "description": "Founga ngaue fakatekinolosia, ngaahi founga fakaonopooni, mo e faleʻi ʻi he ngaue."
+      }
+    },
+    "cta": {
+      "title": "Tau Langa ha Meʻa Fakamatoato",
+      "description": "Mei he fakalakalaka ʻo e polokalama fakakomipiuta mo e ngaahi founga ʻoku fakalele ʻe he AI ki he faʻunga ʻao mo e automation — ʻoku mau ʻoatu ʻa e ngaahi ngaue fakatekinolosia ʻoku feʻunga mo hoʻo ngaahi fie maʻu.",
+      "primary": "Kamata Hoʻo Ngāué",
+      "secondary": "Taimi-tepileʻi ʻo e Faleʻi"
+    },
+    "learnMore": "Ako Lahi Ange"
+  },
+  "credibility": {
+    "subtitle": "Ko ʻEmau Track Record",
+    "title": "Ngaahi Ola, ʻIkai ko e <gradient>Ngaahi Palomesi</gradient>",
+    "titlePlain": "Ngaahi Ola, ʻIkai ko e Ngaahi Palomesi",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Mei Sarajevo ki Oslo, Amsterdam, mo Berlin. ʻOku ʻoatu ʻa e ngaahi polokalama fakapisinisi ʻi he taimi totonu, ʻi he taimi kotoa pe.",
+    "stats": {
+      "experience": "Ngaahi Taʻu Fakatahaʻi ʻo e Taukei",
+      "countries": "Ngaahi Fonua Naʻe Tokoniʻi",
+      "systems": "Ngaahi Polokalama ʻOku ʻOatu",
+      "industries": "Ngaahi Ngaueʻanga Naʻe Tokoniʻi"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM ki he Atlas Copco",
+        "outcome": "Fokotuʻutuʻu ʻa e fuofua ʻao ʻo e One Identity infrastructure maʻa e Atlas Copco ʻi he Azure Kubernetes, fakasiʻisiʻi ʻa e fakamole kae kei tauhi pe ʻa e talangofua ʻa e pisinisi."
+      },
+      "orange": {
+        "label": "Orange Cyberdefense Platform",
+        "outcome": "Fakatupulaki ʻa e Azure Kubernetes infrastructure, CI/CD pipelines, mo e custom ServiceNow integration ki he kautaha cybersecurity tuʻukimuʻa ʻi ʻIulope."
+      },
+      "telecom": {
+        "label": "Telecom GIS & AR Platform",
+        "outcome": "Langa ʻa e GIS platform mapping underground utilities ʻi Siamane mo e collision detection taʻofi ʻa e maumau ʻa e ngaahi fale ʻe laui miliona."
+      },
+      "iot": {
+        "label": "Cloud IoT & Edge Platform",
+        "outcome": "ʻOku puleʻi ʻe he Azure IoT Hub ʻa e ngaahi meʻangaue ʻe lauiafe, ngaue ʻa e Synapse ki he ngaahi ʻotu telemetry ʻe laui piliona, mo e fakatahatahaʻi ʻo e tapa ʻo fakasiʻisiʻi ʻa e fakamole ʻo e popoaki ʻaki ʻa e ~90%."
+      },
+      "drone": {
+        "label": "Tuʻuʻanga Drone Tauʻataina",
+        "outcome": "Custom flight controller with 4G-to-Azure IoT Hub bridge enabling autonomous BVLOS flights for agricultural monitoring and payload delivery."
+      },
+      "payment": {
+        "label": "Fakahaofi ʻo e Founga Totongi",
+        "outcome": "Fakahaofi ʻa e hala ʻo e payment gateway ki he polokalama toʻotoʻo ʻa Noaue ʻaki ʻa e reverse-engineering undocumented legacy code. ʻIkai ha totongi ʻi he hili ʻa e fakaonopooni."
+      },
+      "game": {
+        "label": "AAA Game Dev Tooling",
+        "outcome": "Langa ʻa e Maya plugin naʻa ne fakasiʻisiʻi ʻa e 3D modeling mo e animation taimi ʻaki ʻa e 50% ʻi ha studio AAA lahi, ʻa ia naʻe fakaʻaongaʻi ko ha meʻangaue angamaheni ʻi he pipeline ʻo e faʻu."
+      },
+      "social": {
+        "label": "Tuʻuʻanga Fakasosiale ʻOku Fakatefito ʻi he Feituʻu",
+        "outcome": "Fokotuʻutuʻu ʻo e polokalama teiti ki he feituʻu ʻo e moʻui poʻuli ʻi Sipeini mo e fakatauhoa ʻo e geolocation, feʻaveʻaki taimi moʻoni, mo e ngaahi fanongonongo teke maʻa ha kasitomaa UK."
+      },
+      "iga": {
+        "label": "Multi-Tenant IGA Platform",
+        "outcome": "Langa ʻa e tefitoʻi backend ki he cloud-native identity governance platform ʻoku ne tokoniʻi ʻa e kau kasitomaa Fortune 500 mo e custom ASP.NET Core Identity for NoSQL ʻi he meʻafua ʻo e pisinisi."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "EU-Adjacent, Global Delivery",
+        "description": "Ngaahi houa ngaue CET mo e taukei ʻi Noaue, Netaleni, Siamane, mo e ngaahi feituʻu lahi ange."
+      },
+      "yourEngineers": {
+        "title": "Ko hoʻo kau ʻenisinia, ʻikai ko ha tokotaha fakatau koloa",
+        "description": "Ko e kau memipa mateaki ʻo e timi ʻoku fakakau ʻi hoʻo founga ngaue mo e ngaahi meʻangaue. ʻIkai ha kau pule ʻakauni, ʻikai ha laine tikite."
+      },
+      "hardwareToCloud": {
+        "title": "Hardware ki he Cloud",
+        "description": "Mei he firmware ʻo e device ki he pipelines ʻo e Azure Synapse. Polokalama fakakomipiuta kakato ʻi he konga kotoa pe."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Fokotuʻutuʻu Fakatekinolosia",
+    "title": "<gradient>Fokotuʻutuʻu</gradient> kuo ʻAhiʻahiʻi ʻe he Tau",
+    "titlePlain": "Fokotuʻutuʻu kuo ʻAhiʻahiʻi ʻe he Tau",
+    "commentMarker": "TECH_STACK",
+    "description": "ʻOku ʻikai ngata pe ʻi heʻemau fakaʻaongaʻi ʻa e ngaahi meʻangaue ko ʻeni — kuo mau ʻoatu mo kinautolu ʻa e ngaahi founga faʻu. ʻOku maʻu ʻe heʻetau kau ʻenisinia ʻa e taukei moʻoni ʻi he mamani mei he Microsoft Azure ki he Kubernetes.",
+    "categories": {
+      "cloudInfra": {
+        "label": "ʻAo mo e Infrastructure",
+        "description": "Multi-cloud architecture mo e container orchestration mo e infrastructure ko e code."
+      },
+      "frontend": {
+        "label": "Frontend",
+        "description": "Ngaahi fokotuʻutuʻu fakaonopooni mo e malu ʻo e faʻahinga mo e optimized langa tooling."
+      },
+      "backend": {
+        "label": "Backend & APIs",
+        "description": "Enterprise-grade server platforms, systems languages, and modern API paradigms."
+      },
+      "data": {
+        "label": "Fakamatala mo e Tauhiʻanga",
+        "description": "Ngaahi tauhiʻanga fakamatala fekauʻaki, fakamatala mo e manatu ʻi he fekumi ʻi he fakamatala kakato."
+      },
+      "devops": {
+        "label": "DevOps & Tooling",
+        "description": "CI/CD pipelines, version control, and developer productivity."
+      }
+    },
+    "scanning": "NGAAHI TUʻO LAHI ʻO E SCAN...",
+    "summary": {
+      "cloudNative": {
+        "title": "Cloud-Native ʻi he default",
+        "description": "Ko e ngaue kotoa pe ʻoku containerized, CI/CD-driven, pea langa ki he meʻafua horizontal mei he ʻuluaki ʻaho."
+      },
+      "fullStack": {
+        "title": "Kakato ʻo e Fokotuʻutuʻu Lelei",
+        "description": "Mei he React frontends ki he .NET microservices ki he Kubernetes clusters — timi ʻe taha, ngataʻanga ki he ngataʻanga."
+      },
+      "productionProven": {
+        "title": "Kuo ʻosi fakamoʻoniʻi ʻa e faʻu",
+        "description": "ʻOku ʻikai ko ha ngaahi tekinolosia fakaʻaliʻali ʻeni. ʻOku fakamalohiʻi ʻe he meʻangaue takitaha ʻoku hiki atu ʻa e ngaahi polokalama moʻoni ʻoku nau tokoniʻi ʻa e kau fakaʻ"
+      }
+    },
+    "logoRows": {
+      "row1Aria": "ʻOtu 1 ʻo e ngaahi fakaʻilonga fakatekinolosia",
+      "row2Aria": "Fakaʻilonga fakatekinolosia ʻotu 2",
+      "row3Aria": "Fakaʻilonga fakatekinolosia ʻotu 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Fakavaʻe ʻo e ʻIlo",
+    "title": "<gradient>Ngaahi Fehuʻi ʻOku Faʻa</gradient> ʻEke",
+    "titlePlain": "Ngaahi Fehuʻi ʻOku Faʻa ʻEke",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Ko e meʻa kotoa pe ʻoku fie maʻu ke ke ʻilo fekauʻaki mo e ngaue mo e Horizon Tech",
+    "items": {
+      "scope": {
+        "question": "Ko e ha hoʻo ngaue?",
+        "answer": "ʻOku mau ʻoatu ʻa e ngaahi ngaue fakatekinolosia ʻo e ngataʻanga ki he ngataʻanga: polokalama fakakomipiuta ʻa e kautaha angamaheni, AI/ML pipelines, cloud infrastructure, IoT systems, DevOps automation, mo e faleʻi ki he liliu fakaʻilekitulonika. Tatau ai pe pe ʻoku ke fie maʻu ha tuʻunga kakato ʻoku langa mei ha ngaahi meʻa kehe pe ko ha fakataumuʻa ke fakatahaʻi mo hoʻo fokotuʻutuʻu lolotonga, ʻoku mau tokangaʻi ʻa e fokotuʻutuʻu, fakalakalaka, siviʻi, mo hono fakahoko."
+      },
+      "stack": {
+        "question": "Ko e ha hoʻo tefitoʻi fokotuʻutuʻu fakatekinolosia?",
+        "answer": "ʻOku fakatefito ʻetau tefitoʻi fokotuʻutuʻu ʻi he ngaahi tuʻunga fakapisinisi: Azure mo e AWS ki he ʻao, .NET mo e Node.js ki he backend, React mo e Angular ki he frontend, Kubernetes mo e Docker ki he orchestration, mo e Terraform ki he infrastructure ko e code. ʻOku mau ngaue lahi foki mo e Python ki he AI/ML workloads, Power BI mo e Fabric ki he ʻilo fakapisinisi, mo e PostgreSQL, SQL Server, mo e MongoDB ki he fakamatala."
+      },
+      "enterprise": {
+        "question": "ʻOku ke tokangaʻi fefe ʻa e ngaahi ngaue fakapisinisi?",
+        "answer": "ʻOku kamata ʻa e fengaueʻaki kotoa pe ʻaki ha konga ʻo e ʻilo ke fakamahinoʻi ʻa e lahi, fokotuʻutuʻu, mo e ngaahi makamaile. ʻOku ke maʻu ha timi mateaki mo ha taki fakatekinikale, vakaiʻi maʻu pe ʻa e ngaahi makamaile mo e hu fakahangatonu ki he kau ʻenisinia ʻoku nau langa hoʻo polokalama. ʻOku mau muimuiʻi ʻa e agile sprints mo e ngaahi fakaʻaliʻali ʻa e kau maʻu paʻanga, tauhi ʻa e ngaahi poate ngaue mahino, mo ʻoatu ha ngaahi lipooti fakalakalaka fakauike."
+      },
+      "support": {
+        "question": "ʻOku fefe ʻa e tokoni hili hono kamataʻi?",
+        "answer": "ʻOku mau ʻoatu ʻa e ngaahi tuʻunga tokoni kuo fokotuʻutuʻu mo e SLA kuo fakamahinoʻi, kau ai hono vakaiʻi ʻo e 24/7, tali ki he meʻa ʻoku hoko, optimization ʻo e ngaue, mo e founga ʻo e fotunga. ʻOku kau ʻi heʻemau ngaahi aleapau tokoni ʻa e ngaahi fakaleleiʻi ʻo e fanga kiʻi palopalema, ngaahi patch maluʻi, scaling ʻo e faʻunga ngaue, mo e ngaahi sivi ʻo e moʻui lelei — ʻa ia ʻoku fakafeʻungaʻi ki hoʻo taimi ngaue mo e ngaahi fie maʻu ki he taimi tali."
+      },
+      "integration": {
+        "question": "Te ke lava ʻo fakatahaʻi mo ʻemau faʻunga lolotonga?",
+        "answer": "ʻIo. ʻOku mau specialize ʻi he tukufakaholo fakaonopooni, API-ʻuluaki integrations, mo e hybrid cloud migrations. Tatau ai pe pe ʻoku ke fie maʻu ke ke fehokotaki ki he ngaahi polokalama ERP ʻi he feituʻu, hiki mei he monoliths ki he microservices, pe fakafehokotaki ʻa e ngaahi fakamatala tukufakaholo mo e frontends fakaonopooni, ʻoku tau maʻu ʻa e ngaahi tohi tuʻutuʻuni mo e taukei ʻi hono fakatahaʻi ke ʻai ia ke seamless."
+      },
+      "industries": {
+        "question": "Ko e ha ʻa e ngaahi ngaueʻanga kuo ke ngaue ai?",
+        "answer": "Kuo fakahoko ʻe heʻemau timi ʻa e ngaahi ngaue ʻi he fintech, moʻui lelei, logistics, e-commerce, ivi, mo e ngaahi sekitoa ʻa e puleʻanga. ʻOku mahino kiate kitautolu ʻa e ngaahi fie maʻu pau ʻa e ngaueʻanga hange ko e PCI-DSS ki he totongi, ngaahi fakakaukau ʻa e HIPAA ki he fakamatala ki he moʻui lelei, talangofua ki he GDPR ki he maketi ʻa e EU, mo e telemetry taimi moʻoni ki he IoT ngaue."
+      },
+      "engagement": {
+        "question": "ʻOku fefe ʻa e founga fakamaʻu?",
+        "answer": "ʻOku kamata ʻaki ha telefoni ke mahino hoʻo ngaahi taumuʻa mo e tuʻunga fakatekinikale. Mei ai, ʻoku mau ʻoatu ha fakamatala fakapepa mo e ngaahi fokotuʻu ki he fokotuʻutuʻu, taimi, mo e fakaikiiki ʻo e ʻinivesimeni. ʻI hono tali, ʻoku mau kamata ʻaki ha timi mateaki, kau ki hoʻo ngaahi meʻangaue mo e founga ngaue, pea kamata ʻa e ʻuluaki sprint ʻi ha ngaahi ʻaho siʻi."
+      }
+    },
+    "stillHaveQuestions": "ʻOku kei ʻi ai pe haʻo ngaahi fehuʻi?",
+    "ctaDescription": "ʻOku ʻi ai haʻo ngaue ʻi hoʻo fakakaukau? Tau talanoa ki he lahi ʻo e taimi, taimi, mo e patiseti.",
+    "readCaseStudies": "Lau ʻemau ngaahi meʻa ke ako mei ai",
+    "scheduleCall": "Fakataimi-tepileʻi ha Telefoni"
+  }
+}

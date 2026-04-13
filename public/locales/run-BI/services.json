@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Gutangura",
+    "ctaSecondary": "Schedule Consultation"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Enterprise Software Development",
+      "description": "End-to-end enterprise applications with modern frameworks, API-first architecture, and cloud-native scalability."
+    },
+    "sections": {
+      "problem": {
+        "title": "Ingorane z'ubudandaji",
+        "subtitle": "Aho imigambi y'amashirahamwe itakaza umuvuduko n'ingengo y'imari"
+      },
+      "approach": {
+        "title": "Uburyo bw'ubuhinga",
+        "subtitle": "Ingene duhindura ibisabwa bidasobanutse mu mihora yiteguriye gutunganya"
+      },
+      "principles": {
+        "title": "Ingingo ngenderwako z'ubwubatsi",
+        "subtitle": "Gushiraho ingingo zituma ibigo vy'ubudandaji biguma biguma ku rugero runini"
+      },
+      "capabilities": {
+        "title": "Ivyo twubaka",
+        "subtitle": "Ubushobozi bwuzuye bwo guteza imbere software"
+      },
+      "technology": {
+        "title": "Ubuhinga bwacu",
+        "subtitle": "Ubuhinga bwa none kandi bugezweho mu gutanga amashirahamwe"
+      },
+      "breakdown": {
+        "title": "Ugusenyuka kwa serivisi",
+        "subtitle": "Inzira itunganijwe kuva mu bushakashatsi gushika ku gutanga umusaruro mu buryo buhamye"
+      }
+    },
+    "problem": {
+      "overview": "Imigwi y'amashirahamwe akenshi itwara ibikorwa bihambaye ku migambi itandukanye, bigatuma habaho umwanya muremure, amakuru adahuza, hamwe n'imikoranire y'intoke izimvye hagati y'amashami.",
+      "painPointsTitle": "Ububabare bw'ubudandaji",
+      "impactSignalsTitle": "Ivyo abarongozi bakunda kwihweza",
+      "painPoints": [
+        "Amasezerano yo gutanga amahera aragabanuka kubera ko imigwi idacungwa",
+        "Core business logic is duplicated across channels and products",
+        "Legacy integrations make new feature launches high-risk and slow"
+      ],
+      "impactSignals": [
+        "Roadmap throughput drops while engineering spend increases",
+        "Amakosa ahura n'abakiriya yiyongereye mu bihe vyo kurekurwa",
+        "Ubuyobozi bw'Akarere ka Rubavu bwahagaritse ibikorwa by'ubukerarugendo kubera kudahuza neza n'abajejwe umutekano"
+      ]
+    },
+    "approach": {
+      "overview": "Dukora hamwe n'ubuhinga bwa mbere bwo kuvumbura, gutanga ibicuruzwa, hamwe n'ubuhinga bwo kurekura bugenzurwa kugira agaciro k'ubucuruzi karungikwa mu buryo bwitezwe.",
+      "pillars": [
+        {
+          "title": "Domain Modeling & Bounded Contexts",
+          "detail": "We map domains to clear service boundaries to reduce cross-team coupling and clear ownership."
+        },
+        {
+          "title": "API-First Integration Strategy",
+          "detail": "Dusigura amasezerano ahamye hakiri kare, bigatuma iterambere risanzwe hamwe n'uguhuza neza n'ubuhinga bw'ubudandaji."
+        },
+        {
+          "title": "Progressive Delivery Workflow",
+          "detail": "Dukoresha amabendera y'ibintu, amarembo y'ibiteramo, hamwe n'amarembo meza kugira ngo dusohoke vuba ata guhungabanya umusaruro."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ingingo zacu z'ubwubatsi zishira imbere igihe kirekire, gukora, hamwe n'ubutunzi butomoye kugira ngo imbuga zigumane zihinduye uko ubucuruzi bukura.",
+      "items": [
+        {
+          "title": "Modular Service Boundaries",
+          "detail": "Ubushobozi bukoreshwa mu bice vy'ubudandaji kugira ngo impinduka zigumane mu karere."
+        },
+        {
+          "title": "Event-Driven Integration",
+          "detail": "Asynchronous workflows are used where latency tolerance exists to improve resilience and decouple systems."
+        },
+        {
+          "title": "Observability by Design",
+          "detail": "Gukurikirana, ibipimo, hamwe n'ibiharuro bitunganijwe birasobanurwa imbere y'igihe kugira bishigikire ibikorwa vyizewe hamwe n'ubuyobozi bwa SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Custom Web Applications",
+      "Iterambere rya porogaramu za telefone ngendanwa",
+      "API Development & Integration",
+      "Microservices Architecture",
+      "Cloud-Native Solutions",
+      "Legacy System Modernization"
+    ],
+    "technologies": [
+      {
+        "name": "Kwishura",
+        "category": "Imbere",
+        "icon": "Kwishura"
+      },
+      {
+        "name": "Node.js",
+        "category": "Inyuma y'inyuma",
+        "icon": "Nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Inyuma y'inyuma",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Inyuma y'inyuma",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Ururimi",
+        "icon": "typescript"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "GraphQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Database",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Database",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Discovery & Architecture",
+        "summary": "Turiko turatunganya ivyiyumviro vy'ubudandaji, ingorane z'ubuhinga, hamwe n'ivyiyumviro imbere y'uko ishirwa mu ngiro ritangura.",
+        "deliverables": [
+          "Product and requirement alignment workshop",
+          "Solution architecture blueprint",
+          "Umugambi wo gutanga ibisabwa"
+        ]
+      },
+      {
+        "title": "Build & Integration",
+        "summary": "Imigwi yacu ishira mu ngiro ibintu vy'ibanze, ibice vy'ugufashanya, hamwe n'uburyo bwo kubungabunga ubuziranenge mu buryo bumwe.",
+        "deliverables": [
+          "Feature development in iterative sprints",
+          "API na Third-Party Integrations",
+          "Automated testing and release readiness checks"
+        ]
+      },
+      {
+        "title": "Gutanguza n'ihindagurika",
+        "summary": "Inyuma ya go-live, turatunganya ibikorwa hanyuma tugasigura ihindagurika rikurikira dufatiye ku mikoreshereze nyayo.",
+        "deliverables": [
+          "Production rollout runbook",
+          "Performance and reliability tuning",
+          "Post-launch roadmap and enhancement backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Woba witeguriye gushiraho application yawe ikurikira?",
+      "description": "Reka dutegure kandi dutange inyishu ituma ubudandaji bugera ku bipimo.",
+      "button": "Gutanguza umugambi wawe"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML & Business Intelligence",
+      "description": "Kuva ku migambi y'ubuhanuzi gushika kuri dashboard y'ubuyobozi, twubaka uburyo bwuzuye bwa AI/BI bufasha gufata ingingo ku rugero runini."
+    },
+    "sections": {
+      "problem": {
+        "title": "Ingorane z'ubudandaji",
+        "subtitle": "Kubera iki amashirahamwe atunze amakuru abandanya kugorwa no gufata ingingo zizewe"
+      },
+      "approach": {
+        "title": "Uburyo bw'ubuhinga",
+        "subtitle": "Uburyo dukoresha ibicuruzwa vy'amakuru, ML model, hamwe n'ibikorwa vya BI"
+      },
+      "principles": {
+        "title": "Ingingo ngenderwako z'ubwubatsi",
+        "subtitle": "Data and model architecture patterns for trustworthy decision intelligence"
+      },
+      "capabilities": {
+        "title": "Ubushobozi bwacu",
+        "subtitle": "Comprehensive AI, ML, and BI solutions"
+      },
+      "technology": {
+        "title": "Ubuhinga bwacu",
+        "subtitle": "Ibikoresho bigezweho mu gutunganya amakuru na AI"
+      },
+      "breakdown": {
+        "title": "Ugusenyuka kwa serivisi",
+        "subtitle": "Uko tuva mu buhinga butandukanye tuja mu buhinga bwa none"
+      }
+    },
+    "problem": {
+      "overview": "Amashirahamwe akunda kwegeranya amakuru menshi ariko ntiyashobora kuyahindura mu vyiyumviro vyizewe, ingingo z'ibikorwa canke ibikorwa vy'ubudandaji.",
+      "painPointsTitle": "Ububabare bw'ubudandaji",
+      "impactSignalsTitle": "Ivyo abarongozi bakunda kwihweza",
+      "painPoints": [
+        "Uburyo bwo kumenyesha amakuru butandukanye hagati y'imigwi, bigatuma habaho ukutumvikana kwa KPI",
+        "Models remain in experimentation and never reach production workflows",
+        "Data quality issues undermine trust in analytics and executive dashboards"
+      ],
+      "impactSignals": [
+        "Decision cycles slow because teams debate data validity instead of action",
+        "Forecasting and planning accuracy remains inconsistent quarter over quarter",
+        "Ishoramari ry'ibiharuro vyerekana ko abantu bakiri bato hanze y'imigwi y'abasesenguzi b'inzobere"
+      ]
+    },
+    "approach": {
+      "overview": "Dutanga imbuga za AI na BI nk'uburyo bwo gutunganya, guhuza ubuhinga bw'amakuru, ibikorwa vy'ubuzima bw'ikigereranyo, hamwe no guhuza ibikorwa vy'akazi.",
+      "pillars": [
+        {
+          "title": "Data Product Foundation",
+          "detail": "Ibicuruzwa vy'amakuru bihuza n'ikibanza biratanga ibicuruzwa bisubira gukoreshwa, bigenzurwa, kandi bigenzurwa ku rwego rwo hejuru mu gusesengura na ML."
+        },
+        {
+          "title": "MLOps Lifecycle Automation",
+          "detail": "Imyimenyerezo, kurungika, kugenzura, hamwe no kugenzura ihindagurika ry'ibinyabiziga birakorwa mu buryo bwizewe kugira ngo ibishushanyo bigume vyizewe mu gukorwa."
+        },
+        {
+          "title": "Decision Workflow Integration",
+          "detail": "Amakuru yinjizwa mu bikoresho vy'ibikorwa hamwe na dashboards kugira imigwi ikore ku buhinga bwa misi yose."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ubwubatsi bwacu bwa AI/BI bushira imbere amakuru yizewe, uburyo bwo gusigura, hamwe n'uburyo bwo kuronka mu kigo cose.",
+      "items": [
+        {
+          "title": "Single Metric Definitions",
+          "detail": "KPIs zikomeye zisobanurwa rimwe biciye mu migenzo isanzwe ya semantic kugira ngo zikureho ivyiyumviro vy'ukutumvikana mu gutanga amakuru."
+        },
+        {
+          "title": "Model Reliability Controls",
+          "detail": "Performance thresholds, drift detection, and rollback mechanisms protect decision quality in production."
+        },
+        {
+          "title": "Umutekano n'ubutegetsi bw'igitugu",
+          "detail": "Umurongo w'amakuru, uburyo bwo kugenzura hamwe n'ubugenzuzi bwiteguriye kugenzura biboneka muri buri muyoboro."
+        }
+      ]
+    },
+    "capabilities": [
+      "Machine Learning Models & Pipelines",
+      "Power BI Dashboards & Reports",
+      "Predictive Analytics",
+      "Real-Time Data Streaming",
+      "Data Warehousing Solutions"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Platform",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Ububiko bw'amakuru",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Ubuhinga bw'amakuru",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML Platform",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML Framework",
+        "icon": "Tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML Framework",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Ibiharuro",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Ugutunganya",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "L'Etat",
+        "category": "Ururimi",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Data Foundation",
+        "summary": "We audit sources, define data contracts, and establish governance so every model starts with trusted inputs.",
+        "deliverables": [
+          "Data source and quality assessment",
+          "Feature engineering and schema planning",
+          "Ishingiro ry'umutekano n'imiyoborere"
+        ]
+      },
+      {
+        "title": "Model & Insight Delivery",
+        "summary": "Twubaka imigenzo n'amadeni y'ingingo bifitaniye isano n'ibibazo vy'ubudandaji hamwe na KPIs.",
+        "deliverables": [
+          "Model development and validation",
+          "Executive dashboards and operational reporting",
+          "Decision workflow integration"
+        ]
+      },
+      {
+        "title": "MLOps & Adoption",
+        "summary": "We operationalize deployment, monitoring, and team enablement to keep results reliable over time.",
+        "deliverables": [
+          "Automated model deployment pipelines",
+          "Kugenzura, kugenzura no kugenzura imikoreshereze",
+          "Team handover and operating playbook"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Hindura amakuru yawe mu bumenyi",
+      "description": "Hindura amakuru y'ibice mu bwenge butomoye kandi bushoboka.",
+      "button": "Tangira urugendo rwawe"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Cloud Architecture & Infrastructure",
+      "description": "Multi-cloud platforms, robust architecture, and scalable infrastructure designed for long term growth."
+    },
+    "sections": {
+      "problem": {
+        "title": "Ingorane z'ubudandaji",
+        "subtitle": "Kubera iki ibikorwa vy'ibicu bihagarara inyuma y'igitigiri ca mbere c'abimukira"
+      },
+      "approach": {
+        "title": "Uburyo bw'ubuhinga",
+        "subtitle": "How we build secure, scalable cloud platforms with controlled migration risk"
+      },
+      "principles": {
+        "title": "Ingingo ngenderwako z'ubwubatsi",
+        "subtitle": "Ingingo za platform zihuza agility, resilience, and governance"
+      },
+      "capabilities": {
+        "title": "Serivisi z'igicu",
+        "subtitle": "Kwubaka, gushiraho no kwagura mu bicu"
+      },
+      "technology": {
+        "title": "Ubuhinga bwa Multi-Cloud",
+        "subtitle": "Platform-agnostic cloud solutions"
+      },
+      "breakdown": {
+        "title": "Ugusenyuka kwa serivisi",
+        "subtitle": "Uburyo bwumvikana bwo gutunganya, kwimura no gukoresha ibicuruzwa"
+      }
+    },
+    "problem": {
+      "overview": "Amashirahamwe menshi arangiza kwimuka kw'ibicu vya mbere ariko abandanya akora nk'imigwi yo mu nzu, hamwe n'ukuboneka nabi, kugenzura kudahuza, hamwe n'amahera yiyongera.",
+      "painPointsTitle": "Ububabare bw'ubudandaji",
+      "impactSignalsTitle": "Ivyo abarongozi bakunda kwihweza",
+      "painPoints": [
+        "Ibikorwa vy'akazi vyimurirwa ata kugenzura umutekano n'imiyoboro y'itumatumanako",
+        "Ibiciro vy'ibicu vyiyongera vuba kuruta agaciro k'ubudandaji",
+        "Ibidukikije biracari mu buryo bugezweho kandi ntivyumvikana mu migwi yose"
+      ],
+      "impactSignals": [
+        "Frequent incidents caused by configuration drift between environments",
+        "Audit readiness degrades due to fragmented governance practices",
+        "Infrastructure lead times delay product and data initiatives"
+      ]
+    },
+    "approach": {
+      "overview": "Dutunganya ibicu nk'ibicuruzwa, dukoresheje ibikorwa-remezo vy'ibikorwa-remezo, uburyo bwo gukingira politike, hamwe n'imigwi y'abimukira ihuye n'ubucuruzi bukomeye.",
+      "pillars": [
+        {
+          "title": "Landing Zone as Code",
+          "detail": "Indangamuntu, umutekano, umutekano, hamwe n'ishingiro rya poritike vyashizweho kugira bisubire gusubiramwo no kugenzura."
+        },
+        {
+          "title": "Strategie y'abimukira ishingiye ku mavumba",
+          "detail": "Ibikorwa vy'akazi bija mu bice bigenzurwa hamwe n'ugukurikirana no gusubiza inyuma."
+        },
+        {
+          "title": "SRE + FinOps Operating Loop",
+          "detail": "Ibipimo vy'ukwizerwa hamwe n'ubutunzi bw'ubutunzi birasuzumwa hamwe kugira ngo bishobore kuryohora umwanya n'uburyo bwo gukoresha neza."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Uburyo bwacu bw'ubwubatsi bukunda ibikorwa-remezo vyo kumenyekanisha ibicuruzwa, amahirwe make, hamwe n'imbuga zifasha gutanga ibicuruzwa vyihuta.",
+      "items": [
+        {
+          "title": "Immutable Infrastructure Patterns",
+          "detail": "Ibidukikije bisubira kwubakwa bivuye kuri code yahinduwe kugira ngo bigabanye gusenyuka no kworohereza ibikorwa vyo gutunganya."
+        },
+        {
+          "title": "Security Baseline by Default",
+          "detail": "Zero-trust access controls and policy enforcement are embedded in every environment lifecycle."
+        },
+        {
+          "title": "Ukwihangana biciye mu gukwiragiza",
+          "detail": "Critical workloads are designed for multi-zone or multi-region failure tolerance where business impact requires it."
+        }
+      ]
+    },
+    "capabilities": [
+      "Multi-Cloud Strategy & Implementation",
+      "Container Orchestration (Kubernetes)",
+      "Serverless Computing",
+      "Cloud Migration Services",
+      "High Availability Architecture"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Igicu",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "AWS",
+        "category": "Igicu",
+        "icon": "amazonwebservices"
+      },
+      {
+        "name": "GCP",
+        "category": "Igicu",
+        "icon": "GoogleCloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orchestration",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Kontineri",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "ARM Templates",
+        "category": "IaC",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "amazonwebservices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Architecture & Landing Zone",
+        "summary": "We define the target state, guardrails, and baseline platform standards before workloads move.",
+        "deliverables": [
+          "Target cloud architecture design",
+          "Identity, networking, and security baseline",
+          "Cost and compliance guardrails"
+        ]
+      },
+      {
+        "title": "Migration & Platform Build",
+        "summary": "Turiko turakora imivumba y'ukwimuka no guhagarara kw'ibice vy'ibicu hamwe n'imashini isubiramwo.",
+        "deliverables": [
+          "Workload migration sequencing",
+          "Container and serverless platform setup",
+          "Infrastructure as Code modules"
+        ]
+      },
+      {
+        "title": "Reliability & FinOps",
+        "summary": "Duteza imbere ubuziranenge bw'ibikorwa kandi tuguma dutunganya amahera y'igicu dushingiye kuri terefone ya live.",
+        "deliverables": [
+          "SLOs, monitoring, and incident workflows",
+          "Resilience and disaster recovery validation",
+          "Cost optimization backlog and governance cadence"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kwagura ibikorwaremezo vyawe",
+      "description": "Kwubaka imishinge y'ibicu iguma ihangana n'umutwaro nyakuri.",
+      "button": "Plan Your Cloud Strategy"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Imiyoboro yo gutanga mu buryo bwikora, kugenzura, hamwe n'uburyo bwa platform butuma umuvuduko ugabanuka utarinze gutakaza ukwizerwa."
+    },
+    "sections": {
+      "problem": {
+        "title": "Ingorane z'ubudandaji",
+        "subtitle": "Why delivery velocity drops as platform complexity increases"
+      },
+      "approach": {
+        "title": "Uburyo bw'ubuhinga",
+        "subtitle": "How we standardize delivery pipelines without slowing product teams"
+      },
+      "principles": {
+        "title": "Ingingo ngenderwako z'ubwubatsi",
+        "subtitle": "Platform engineering patterns that scale reliability and team autonomy"
+      },
+      "capabilities": {
+        "title": "Serivisi za DevOps",
+        "subtitle": "Automate, monitor, and optimize your delivery lifecycle"
+      },
+      "technology": {
+        "title": "DevOps Tools & Platforms",
+        "subtitle": "Best-in-class DevOps toolchain"
+      },
+      "breakdown": {
+        "title": "Ugusenyuka kwa serivisi",
+        "subtitle": "Inzira y'ingirakamaro kuva ku ngorane zo gutanga gushika ku kwizera gusumba"
+      }
+    },
+    "problem": {
+      "overview": "Amashirahamwe akunda gushora imari mu bikoresho vya CI / CD ariko aracagorwa n'irekurwa ridahagije, kwemezwa buhorobuhoro, hamwe n'ugucikamwo ibice mu bidukikije.",
+      "painPointsTitle": "Ububabare bw'ubudandaji",
+      "impactSignalsTitle": "Ivyo abarongozi bakunda kwihweza",
+      "painPoints": [
+        "Pipeline definitions differ by team, creating inconsistent quality gates",
+        "Manual deployment approvals delay hotfix and feature release timelines",
+        "Ingorane z'ibikorwa zisubira kubera ko telemetry idakwiye, canke ihagaritswe"
+      ],
+      "impactSignals": [
+        "Umwanya w'impinduka ubandanya wiyongera n'ubwo imashini ikoresha imashini",
+        "Change failure rate spikes during high-volume delivery period",
+        "Developer productivity declines due to tooling friction and context switching"
+      ]
+    },
+    "approach": {
+      "overview": "Dushiraho uburyo bw'imbere mu bijanye n'iterambere hamwe n'imiyoboro y'imiyoboro isubirwamwo, ubuyobozi bushingiye kuri politike, hamwe n'ukugenzura ubuzima bwose.",
+      "pillars": [
+        {
+          "title": "Golden Path Pipeline Templates",
+          "detail": "Reusable CI / CD blueprints standardize build, test, security checks, and deployment workflows."
+        },
+        {
+          "title": "Platform API & Self-Service",
+          "detail": "Imigwi itanga ibidukikije kandi irekura ibikorwa-remezo biciye mu mihora igenzurwa."
+        },
+        {
+          "title": "Reliability Feedback Loops",
+          "detail": "Incident trends, SLO health, and deployment telemetry inform continuous process and architecture improvements."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ubwubatsi bwacu bwa DevOps buhuza umuvuduko wo gutanga n'ubuyobozi mu kugenzura no kugabanya akazi kamwe.",
+      "items": [
+        {
+          "title": "Vyose nk'uko vyahinduwe",
+          "detail": "Imiyoboro y'amazi, ibikorwa-remezo, hamwe n'amategeko ya politike bigenzurwa mu kugenzura isoko kugira ngo bishobore kugenzurwa no gusubiramwo."
+        },
+        {
+          "title": "Progressive Verification",
+          "detail": "Igenzura ry'ubuziranenge n'ubuziranenge bw'ibinyabiziga rikorwa mu buryo butandukanye kugira ngo hamenyekane akaga hakiri kare."
+        },
+        {
+          "title": "Shared Platform Responsibility",
+          "detail": "Imigwi y'ibicuruzwa itanga ubushobozi bwo gutunganya ibicuruzwa mu gihe imigwi y'ibicuruzwa iguma ifise ubutunzi."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI / CD Pipeline Design",
+      "Infrastructure as Code",
+      "Igerageza ry'imashini",
+      "Deployment Automation",
+      "Monitoring & Observability"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Platform",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "GitHub Actions",
+        "category": "CI / CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI / CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Gupakira",
+        "icon": "Helm"
+      },
+      {
+        "name": "Ansible",
+        "category": "Automation",
+        "icon": "Ansible"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Kugenzura",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Observability",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Platform Assessment",
+        "summary": "Turasuzuma uruhererekane rwawe rwo gutanga software kugira tumenye ingorane z'akaga hamwe n'inzitizi z'umuvuduko mwinshi.",
+        "deliverables": [
+          "Current state delivery workflow map",
+          "Pipeline bottleneck analysis",
+          "Target DevOps maturity roadmap"
+        ]
+      },
+      {
+        "title": "Pipeline & Automation Build",
+        "summary": "Dukoresha CI / CD yizewe, amarembo y'ubuziranenge hamwe n'ibikorwa-remezo kugira ngo dushobore gusohoka mu buryo busanzwe.",
+        "deliverables": [
+          "Reusable CI/CD templates",
+          "Ibikorwaremezo n'ibidukikije",
+          "Automated testing and release controls"
+        ]
+      },
+      {
+        "title": "Operate & Improve",
+        "summary": "Gushiraho uburyo bwo kugenzura no kugenzura ibipimo bifasha mu kubandanya dutera imbere.",
+        "deliverables": [
+          "Monitoring dashboards and alert policies",
+          "Release governance and incident playbooks",
+          "Continuous improvement metrics and reviews"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kwihutisha gutanga kwawe",
+      "description": "Kugabanya ubusumbane bwo kurekura no guteza imbere ukwizerwa hamwe n'imigenzo ya DevOps ikuze.",
+      "button": "Hindura umuyoboro wawe"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Digital Transformation & Strategy",
+      "description": "Strategic advisory and execution support to modernize platforms, teams, and operating models."
+    },
+    "sections": {
+      "problem": {
+        "title": "Ingorane z'ubudandaji",
+        "subtitle": "Aho imigambi y'impinduka itakaza inguvu n'icizere c'abakuru b'ibihugu"
+      },
+      "capabilities": {
+        "title": "Serivisi z'ubujyanama",
+        "subtitle": "Strategic guidance for digital success"
+      },
+      "approach": {
+        "title": "Uburyo bw'ubuhinga",
+        "subtitle": "Uburyo bwo guhindura ivyiyumviro mu mpinduka zishigikiwe n'ubuhinga bwa none"
+      },
+      "principles": {
+        "title": "Ingingo ngenderwako z'ubwubatsi",
+        "subtitle": "Operating model and platform choices that protect transformation results"
+      },
+      "technology": {
+        "title": "Ubuhinga bwa none",
+        "subtitle": "Platforms and frameworks we use to operationalize transformation"
+      },
+      "breakdown": {
+        "title": "Ugusenyuka kwa serivisi",
+        "subtitle": "Structured transformation from strategy definition to measurable business value"
+      }
+    },
+    "problem": {
+      "overview": "Imigambi ya digitale akenshi itangura n'intumbero ikomeye ariko ntiyihindure mu vyo ishikiriza kubera ubutunzi budasobanutse, ibikoresho bidahuza, hamwe n'ivyiyumviro bihiganwa.",
+      "painPointsTitle": "Ububabare bw'ubudandaji",
+      "impactSignalsTitle": "Ivyo abarongozi bakunda kwihweza",
+      "painPoints": [
+        "Transformation roadmaps are defined but not translated into delivery governance",
+        "Ibibanza vy'ubudandaji n'ubuhinga biratandukanye inyuma y'ivyiyumviro vya mbere",
+        "Legacy operating models block adoption of modern product delivery practices"
+      ],
+      "impactSignals": [
+        "Program spend rises while strategic KPI movement remains flat",
+        "Initiatives miss handoff points between strategy, architecture, and execution",
+        "Teams experience change fatigue with limited realized business value"
+      ]
+    },
+    "approach": {
+      "overview": "Duhuza impanuro z'ubuhinga hamwe n'ubwubatsi bwo gutanga amakuru, guhuza uburyo bw'imikorere, ubushobozi bwa platform, hamwe n'ugushira mu ngiro imigambi ishobora gupimwa.",
+      "pillars": [
+        {
+          "title": "Value Stream Prioritization",
+          "detail": "Dukurikirana imigambi dufatiye ku ngaruka z'ubudandaji hamwe n'inzitizi z'ubuhinga."
+        },
+        {
+          "title": "Target Operating Model Design",
+          "detail": "Urushinga, ubuyobozi, hamwe n'uburenganzira bwo gufata ingingo birasobanutse kugira ngo bishigikire gushira mu ngiro vyihuta mu mashirahamwe y'ubudandaji n'ubuhinga bwa none."
+        },
+        {
+          "title": "Portfolio Delivery Governance",
+          "detail": "Iterambere ry'impinduka rigenzurwa biciye mu kugenzura KPI hamwe no kugenzura akaga ku rwego rw'amafaranga."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our transformation architecture emphasize incremental modernization and clear accountability, avoid disruptive rewrites without business justification.",
+      "items": [
+        {
+          "title": "Business Capability Alignment",
+          "detail": "Impinduka mu buhinga bwa none zitegekanijwe ku bushobozi bujanye n'amafaranga, ubuziranenge bwa serivisi, canke igiciro c'amafaranga."
+        },
+        {
+          "title": "Composable Platform Strategy",
+          "detail": "Ibice vya platform vyatoranijwe kugira bishobore gushigikira ukwimuka kw'ibihe hamwe no guhinduka vuba."
+        },
+        {
+          "title": "Governance with Delivery Cadence",
+          "detail": "Ibibanza vy'amatora hamwe n'ibibanza vyo kugenzura bifatwa nk'inzira zitandukanye z'uburongozi."
+        }
+      ]
+    },
+    "capabilities": [
+      "Digital Transformation Roadmaps",
+      "Iterambere ry'ubuhinga bwa none",
+      "Cloud Adoption Frameworks",
+      "Process Optimization",
+      "Change Management"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Foundation",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Data Platform",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Decision Intelligence",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Power Platform",
+        "category": "Low-code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Ubufatanye",
+        "icon": "Microsoft SharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP / CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strategy Alignment",
+        "summary": "Duhuza imigambi y'uburongozi n'imigambi ya digitale kugira ngo dushobore gushiraho icyerekezo c'impinduka duhuriyeko.",
+        "deliverables": [
+          "Imigambi y'impinduka n'ibipimo vy'intsinzi",
+          "Ubushobozi bwo gukura hamwe n'isuzuma ry'icyuho",
+          "Priority initiative portfolio"
+        ]
+      },
+      {
+        "title": "Umugambi w'ugushira mu ngiro",
+        "summary": "Turasigura uburyo bw'ibikorwa, ibipimo vy'ubwubatsi, hamwe n'urutonde rw'ishirwa mu ngiro.",
+        "deliverables": [
+          "Operating model and governance design",
+          "Ibipimo vy'ubuhinga n'ubuhinga",
+          "Phased implementation roadmap"
+        ]
+      },
+      {
+        "title": "Impinduka n'ihindagurika ry'ibiciro",
+        "summary": "We drive adoption, track KPI movement, and refine initiatives based on delivery results.",
+        "deliverables": [
+          "Adoption and enablement plan",
+          "KPI measurement cadence",
+          "Quarterly optimization backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Tangira urugendo rwawe rwo guhinduka",
+      "description": "Guhindura impinduka ukoresheje ivyiyumviro bitomoye hamwe n'imigambi y'ishirwa mu ngiro.",
+      "button": "Schedule Strategy Session"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Uburyo buhujwe kuva ku gikoresho gushika ku gicu, hamwe n'imiyoboro ya telemetry hamwe n'ubwenge bw'umurongo ku rugero rw'amahinguriro"
+    },
+    "sections": {
+      "problem": {
+        "title": "Ingorane z'ubudandaji",
+        "subtitle": "Kubera iki porogaramu z'ibikoresho bihujwe zinanirwa gukura hejuru y'ikoreshwa ry'abapilote"
+      },
+      "approach": {
+        "title": "Uburyo bw'ubuhinga",
+        "subtitle": "How we design secure, operable IoT systems from device firmware to cloud APIs"
+      },
+      "principles": {
+        "title": "Ingingo ngenderwako z'ubwubatsi",
+        "subtitle": "Edge-to-cloud design rules for reliability, latency, and fleet governance"
+      },
+      "capabilities": {
+        "title": "IoT Solutions",
+        "subtitle": "Guhuza, kugenzura, no kunoza ibikoresho vyawe"
+      },
+      "technology": {
+        "title": "IoT Technology Stack",
+        "subtitle": "Kuva ku bikoresho gushika ku gicu"
+      },
+      "breakdown": {
+        "title": "Ugusenyuka kwa serivisi",
+        "subtitle": "Uburyo bwo gutanga ibikoresho bihujwe kuva ku bikoresho vyo ku muco gushika ku buhinga bw'igicu"
+      }
+    },
+    "problem": {
+      "overview": "Ibikorwa vya IoT akenshi vyerekana ko bishoboka mu buhinga mu bapilote ariko birananirwa ku rugero kubera guhuza kudakwiye, kugenzura ubwato buke hamwe n'uguhuza nabi n'ibikorwa vy'ubudandaji.",
+      "painPointsTitle": "Ububabare bw'ubudandaji",
+      "impactSignalsTitle": "Ivyo abarongozi bakunda kwihweza",
+      "painPoints": [
+        "Uburyo bwo kugenzura no kugenzura ubuzima bw'abantu buguma bukoreshwa mu buryo bugezweho kandi bukora amakosa",
+        "Imiyoboro ya telemetry itanga amakuru y'urusaku, adakwiye, canke yatevye gukora",
+        "Remote command and firmware updates introduce safety and security risk"
+      ],
+      "impactSignals": [
+        "Ibidukikije vy'abapilote biragenda neza, ariko igihe co gutunganya ikorwa kiragabanuka kenshi",
+        "Field operations teams react to incidents without predictive visibility",
+        "Ibikoresho vy'ubudandaji ntibishobora gukoresha ubwenge bw'ibikoresho mu gihe nyaco"
+      ]
+    },
+    "approach": {
+      "overview": "Twubatse imbuga za IoT nk'uburyo bugenzurwa bukwiragizwa, duhuza ibipimo vy'igihe gitekanye, kwinjiza ibintu, hamwe n'ubuyobozi bw'ibikorwa ku rugero rw'ubwato.",
+      "pillars": [
+        {
+          "title": "Secure Device Lifecycle Management",
+          "detail": "Provisioning, identity, key rotation, and firmware updates are automated to reduce operational risk."
+        },
+        {
+          "title": "Event-Driven Telemetry Architecture",
+          "detail": "Imiyoboro ya streaming imenyekanisha ibimenyetso, kwemeza no kuyobora ibikorwa vy'ibikoresho mu gusesengura no kugenzura mu gihe nyaco."
+        },
+        {
+          "title": "Fleet Operations Control Plane",
+          "detail": "Kugenzura, kuburira, hamwe n'ibikorwa vy'ubuyobozi bwa kure bitanga ubugenzuzi bwizewe ku butunzi bwakwirakwijwe."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ubwubatsi bwacu bwa IoT buhuza ingingo zo hasi hamwe n'ubuyobozi buhagaze, kugenzura, hamwe n'iyubahirizwa ry'umutekano.",
+      "items": [
+        {
+          "title": "Edge Autonomy with Cloud Coordination",
+          "detail": "Ibikorwa bihambaye vy'akarere birabandanya mu gihe c'ugusenyuka kw'umuhora mu gihe bihuza ibintu n'ibicu igihe biboneka."
+        },
+        {
+          "title": "Contracted Event Schemas",
+          "detail": "Imigwi y'ibikoresho n'imbuga ngurukanabumenyi ikoresha uburyo bugenzurwa kugira ngo ibungabunge ubudahangarwa bwa telemetry mu buryo bwose."
+        },
+        {
+          "title": "Umutekano w'ibikoresho vya Zero-Trust",
+          "detail": "Mutual authentication, least privilege, and encrypted transport are enforced across every device interaction."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT Device Management",
+      "Digital Twin Solutions",
+      "Edge Computing Deployment",
+      "Telemetry y'igihe nyaco",
+      "Predictive Maintenance"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Digital Twins",
+        "category": "Simulation",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Edge",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protocole",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protocole",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Ibikoresho",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Ibikoresho",
+        "icon": "raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Time Series DB",
+        "icon": "Influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Device & Edge Strategy",
+        "summary": "Turasigura uburyo bwo guhuza, ibipimo vy'igihe c'indege, hamwe n'ugutunganya umutekano ku bikoresho vyo mu murima.",
+        "deliverables": [
+          "Device onboarding and connectivity model",
+          "Edge runtime and deployment blueprint",
+          "Fleet security baseline"
+        ]
+      },
+      {
+        "title": "Telemetry & Control Plane",
+        "summary": "Twubaka imiyoboro ifata ibibaye, ishushanya amahasa ya digitale, hamwe n'uburyo bwo kugenzura kure.",
+        "deliverables": [
+          "Real-time ingestion and event schema design",
+          "Digital twin and asset model implementation",
+          "Command and control API layer"
+        ]
+      },
+      {
+        "title": "Ibikorwa n'igipimo",
+        "summary": "We operationalize fleet management and reliability controls for production-scale IoT environment.",
+        "deliverables": [
+          "Ibikoresho vyo kugenzura no kumenyesha",
+          "Predictive maintenance and anomaly detection",
+          "Rollout and lifecycle support plan"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Guhuza ibikoresho vyawe",
+      "description": "Build reliable IoT solutions ready for real production environment.",
+      "button": "Start Your IoT Project"
+    }
+  }
+}

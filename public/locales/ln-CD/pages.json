@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Ntina biso",
+    "hero": {
+      "titlePrefix": "Kotonga ba technologies ya lobi,",
+      "titleHighlight": "Lelo oyo",
+      "description": "Horizon Tech d.o.o. ezali kompani ya technologie ya mokili mobimba oyo ezali na biro na yango na Sarajevo, ezali kopesa biyano ya software ya sika na ba kompani na ba continent misato."
+    },
+    "sections": {
+      "mission": {
+        "title": "Mission",
+        "description": "Tosalisaka baorganisation kobongola makanisi ya makasi na biloko ya digitale ya malamu oyo ekosala ete mombongo ezala na valɛrɛ mingi.",
+        "points": [
+          "Kosangisa technologie na matomba ya polele ya mombongo.",
+          "Kotonga ba systeme ya ntango molai oyo ekotikala malamu ntango ekipi ezali kokola.",
+          "Kosala elongo na ba acteurs kobanda na stratégie kino na exécution."
+        ]
+      },
+      "expertise": {
+        "title": "Mayele",
+        "description": "Baekipi na biso ya multidisciplinaire esangisaka bozindo ya ba ingénieur na makanisi ya produit na ba stacks ya technologie ya mikolo oyo.",
+        "points": [
+          "Ingénierie web mpe plateforme ya kompani.",
+          "Architecture ya cloud, automatisation ya DevOps, mpe infrastructure ya résilience.",
+          "AI/ML appliqué, misala ya données, mpe biloko ya IoT."
+        ]
+      },
+      "approach": {
+        "title": "Approche",
+        "description": "Tosalaka na modele ya polele, ya itération oyo esalaka ete biloko ezala malamu mpe ekitisaka likama ya biloko.",
+        "points": [
+          "Koyeba: Yeba na ebandeli, makambo ya priorité, mpe makambo ya kolonga.",
+          "Kotonga: Masuwa na ba boucles ya rétroaction oyo ezali kokoba kosalema.",
+          "Optimiser: Kotala ba resultats mpe kobongisa performance na sima ya ntango."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Omibongisi mpo na kobongola mombongo na yo?",
+      "description": "Kota na molongo ya ba kompani oyo batyelaka Horizon Tech motema mpo na kopesa biyano ya sika mpe ba résultats ya kitoko.",
+      "primary": "Bandá",
+      "secondary": "Tala masolo ya succes"
+    }
+  },
+  "contact": {
+    "badge": "Contacter",
+    "hero": {
+      "title": "Contacter biso",
+      "description": "Ozali na projet moko na makanisi? Tokosepela koyoka nsango na yo. Po na ko lobela ndenge nini tokoki ko salisa yo po na kokotisa makanisi na yo na bomoyi."
+    },
+    "info": {
+      "title": "Ba coordonnées"
+    },
+    "booking": {
+      "title": "Mokanda ya likita",
+      "description": "Tindá Tindá Kosolola na bato ya ofele na boumeli ya miniti 30"
+    },
+    "methods": {
+      "email": {
+        "title": "E-mail",
+        "description": "Tindá Tindá Tindá Tindá",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Esika",
+        "description": "Ewuti na",
+        "value": "Sarajevo, Bosnie-Herzégovine"
+      },
+      "response": {
+        "title": "Ntango ya kopesa eyano",
+        "description": "Mbala mingi topesaka eyano na kati",
+        "value": "Ngonga 24-48 mpo na ngonga 24 mpe 48"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Projet ya sika"
+      },
+      "support": {
+        "label": "Lisalisi ya tekiniki"
+      },
+      "partnerships": {
+        "label": "Partenariats"
+      },
+      "careers": {
+        "label": "Misala"
+      },
+      "general": {
+        "label": "Enquête générale"
+      }
+    },
+    "form": {
+      "title": "Kotindela biso nsango",
+      "success": "Merci mingi mpo na message na yo. Tokoyanola bango nsima ya ngonga 24 to 48.",
+      "error": "Likambo moko ebebaki. Tosengi yo omeka lisusu to tindela biso email mbala moko.",
+      "fullName": "Nkombo mobimba *",
+      "email": "Adresse e-mail *",
+      "company": "Kompani",
+      "subject": "Sujet *",
+      "message": "Nsango *",
+      "placeholders": {
+        "name": "Nkombo na yo",
+        "email": "you@example.com",
+        "company": "Kompanyi na yo",
+        "subject": "Tokoki kosalisa na nini?",
+        "message": "Yo moko oyebisi biso esika nini ezali na buku na yo..."
+      },
+      "validation": {
+        "required": {
+          "name": "Esengeli kozala na nkombo mobimba.",
+          "email": "Esengeli natindela yo adrɛsi e-mail.",
+          "subject": "Poná motó ya likambo moko.",
+          "message": "Nsango ezali na ntina."
+        },
+        "email": "Tosengi na yo okoma adrɛsi e-mail oyo ebongi.",
+        "messageMinLength": "Nsango esengeli ezala ata na balɛtrɛ {{count}} molai."
+      },
+      "sending": "Kotinda...",
+      "submit": "Tindá Message"
+    },
+    "reasonsTitle": "Mpo na nini kosala elongo na biso?",
+    "reasons": [
+      "Expertise ya développement ya software mobimba",
+      "Ba spécialistes ya AI / ML na Cloud Architecture",
+      "Développement agile na communication transparente",
+      "Lisungi mpe lisungi ya ntango molai"
+    ],
+    "custom": {
+      "title": "Solutions personnalisées",
+      "description": "Ozali koluka solution oyo ebongi? Tosalaka elongo na bakiliya mpo na koyeba bamposa ya sikisiki mpe kopesa baprogramɛ ya programɛ oyo esalisaka mpo na kozwa matomba ya malamu.",
+      "cta": "Bólobela projet na bino"
+    },
+    "faq": {
+      "title": "Ozali na mituna mosusu?",
+      "description": "Tala na lokasa na biso ya FAQ mpo na kozwa biyano ya lombango",
+      "cta": "Browse FAQs"
+    }
+  },
+  "team": {
+    "badge": "Ekipi na biso",
+    "hero": {
+      "titlePrefix": "Kutana na makanisi oyo ezali nsima",
+      "titleHighlight": "Horizon Tech",
+      "description": "Ekipi ya ndenge na ndenge ya ba technologues, ba concepteurs, mpe ba stratèges bazali kotonga biloko ya digitale ya makasi elongo."
+    },
+    "section": {
+      "title": "Ekipi ya bakambi",
+      "description": "Bakambi ya mayele bazali kokamba vision mpe bokoli ya Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Mobandisi, CEO mpe CTO",
+        "bio": "Mokambi visionnaire mpe architecte technique na mibu 10+ na ba software ya entreprise, spécialisé na AI/ML, plateformes ya cloud, mpe architecture ya produit scalable.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Solution Architecture",
+          "Ingénierie ya Cloud"
+        ]
+      },
+      "ahmet": {
+        "role": "Architecte Principal ya Sécurité",
+        "bio": "Spécialiste ya cybersécurité atyaki likebi na architecture ya sécurité ya entreprise, infrastructure ya sécurité on-prem, mpe botosi ya liboso mpo na environnement régularisé.",
+        "expertise": [
+          "Cybersécurité",
+          "Ba systèmes on-prem",
+          "Architecture ya sécurité",
+          "Kotosa",
+          "Bokengi ya infrastructure"
+        ]
+      }
+    },
+    "aria": {
+      "email": "E-mail {{name}}",
+      "linkedin": "{{name}} Profil LinkedIn"
+    },
+    "culture": {
+      "title": "Bomoi na Horizon Tech",
+      "description": "Tozali kotombola culture ya innovation, boyokani, mpe boyekoli ya kokoba",
+      "remoteFirst": {
+        "title": "Culture ya liboso ya mosika",
+        "description": "Kosala na bisika nyonso oyo ezali na ngonga oyo ebongi mpe kotya likebi na matomba na yango, kasi na esika te."
+      },
+      "collaborative": {
+        "title": "Environnement ya collaboration",
+        "description": "Makita ya ekipi mbala na mbala, makita ya kokabola boyebi, mpe boyokani kati na misala."
+      },
+      "workLife": {
+        "title": "Équilibre kati na mosala mpe bomoi na ye",
+        "description": "Mibeko ya malamu mpo na konje, lisungi ya maladi ya motó, mpe limemya mpo na ntango na yo moko."
+      },
+      "innovation": {
+        "title": "Ntango ya Innovation",
+        "description": "20% ya ngonga mpo na ba projets personnels, hackathons, mpe koluka ba technologies ya sika."
+      },
+      "stats": {
+        "teamMembers": "Ba membres ya équipe",
+        "countries": "Bikolo",
+        "techStacks": "Stacks ya tekinoloji",
+        "remoteReady": "Remote Ready"
+      }
+    },
+    "cta": {
+      "title": "Olingi kosangana na ekipi na biso?",
+      "description": "Tolukaka ntango nyonso bato ya mayele oyo balingaka mosala ya mabɔkɔ, ya nkolo, mpe ya innovation.",
+      "button": "Contacter"
+    }
+  },
+  "careers": {
+    "badge": "Kota na ekipi na biso",
+    "hero": {
+      "titlePrefix": "Kotonga mikolo mikoya",
+      "titleHighlight": "Elongo na biso",
+      "description": "Landá ekipi moko ya ba-ingénieur oyo bazali kotonga baprogramɛ ya sika mpo na bakiliya ya mokili mobimba. Kosala na mosika, kokola ntango nyonso, mpe kosala mosala ya solo.",
+      "button": "Voir Positions"
+    },
+    "process": {
+      "title": "Processus na biso ya recrutement",
+      "description": "Salelá ntango na yo malamu, na ndenge ya malamu, mpe na limemya",
+      "steps": [
+        {
+          "title": "Kosalela",
+          "description": "Tinda lisengi na yo mpe tokotala yango na sima ya mikolo 3 ya mosala."
+        },
+        {
+          "title": "Masolo ya ebandeli",
+          "description": "Kosolola na video ya miniti 30 mpo na kolobela makambo oyo okutanaki na yango mpe makambo oyo ozalaki kokanisa."
+        },
+        {
+          "title": "Technique",
+          "description": "Interview technique to exercice pratique mpo na kolakisa makoki na yo."
+        },
+        {
+          "title": "Offre",
+          "description": "Kutana na ekipi na yo mpe ozwa lisungi na yo ya kokota na Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Bisika ya kofungwama",
+      "description": "Luka libaku na yo ya sika mpe sangana na ekipi na biso oyo ezali kokola",
+      "unavailable": "Na koki ko boya ba application na tango oyo",
+      "apply": "Apply Now",
+      "noMatch": "Ozali komona te ete mosala na yo ezali ya kokoka?",
+      "sendCv": "Tinda biso CV na yo",
+      "listings": [
+        {
+          "title": "Ingénieur Monene ya Full-Stack",
+          "department": "Ingénierie",
+          "location": "Mosika (fuseaux horaires de l'UE)",
+          "type": "Ngonga mobimba",
+          "description": "Kotonga ba applications ya kompanyi oyo ekoki kosalema na bosaleli ya React, Node.js, mpe ba technologies ya cloud.",
+          "tags": [
+            "Réaction",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "Ingénieur ya DevOps",
+          "department": "Ingénierie",
+          "location": "Sarajevo / Mosika",
+          "type": "Ngonga mobimba",
+          "description": "Kobongisa mpe kobatela ba pipeline CI/CD, infrastructure lokola code, mpe ba systeme ya kokengela.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraforme",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "Ingénieur AI/ML",
+          "department": "Laboratoire ya Innovation",
+          "location": "Mosika",
+          "type": "Ngonga mobimba",
+          "description": "Kobongisa ba modele ya boyekoli ya machine mpe AI mpo na bakiliya ya kompani.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Mokeli ya produit",
+          "department": "Conception",
+          "location": "Mosika",
+          "type": "Ngonga mobimba",
+          "description": "Kosala expérience ya kitoko mpe ya intuitive mpo na ba applications complexes ya kompani.",
+          "tags": [
+            "Figma",
+            "Recherche sur les utilisateurs",
+            "UI/UX",
+            "Ba systèmes ya conception"
+          ]
+        },
+        {
+          "title": "Architecte ya solutions",
+          "department": "Ingénierie",
+          "location": "Mosika",
+          "type": "Ngonga mobimba",
+          "description": "Kobongisa ba solutions techniques ya suka na suka mpe kokamba ba clients na nzela ya mbongwana digitale.",
+          "tags": [
+            "Cloud Architecture",
+            "Conception ya système",
+            "Toli"
+          ]
+        },
+        {
+          "title": "Mokomi ya tekiniki",
+          "department": "Misala",
+          "location": "Mosika",
+          "type": "Mosala ya ndambo ya ntango",
+          "description": "Kosala mikanda ya malamu, ba tutoriels, mpe contenu technique.",
+          "tags": [
+            "Mikanda",
+            "API Docs",
+            "Kokoma ya tekiniki"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Mituna mpo na mosala awa?",
+      "description": "Tokosepela koyoka nsango na yo. Yebisá biso mituna nyonso oyo etali bomoi na biso na Horizon Tech.",
+      "button": "Contacter biso"
+    }
+  },
+  "caseStudies": {
+    "badge": "Masolo ya Succes",
+    "hero": {
+      "titlePrefix": "Ebimisaka mbuma oyo",
+      "titleHighlight": "Likambo",
+      "description": "Tala ndenge tosalisi ba kompani na ba industries na kobongola misala na nzela ya tekinoloji ya makasi mpe ya makasi.",
+      "tags": {
+        "delivery": "Livraison ya ba ingénieurs",
+        "outcomes": "Résultats ya mesuré"
+      }
+    },
+    "stats": {
+      "projects": "Ba projets epesami",
+      "clients": "Bakiliya ya esengo",
+      "efficiency": "Avg. Gain ya efficacité",
+      "retention": "Kobomba bakiliya"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Services financiers",
+        "title": "Migration ya Cloud mpe Modernisation",
+        "description": "Migration legacy banking systems to AWS cloud infrastructure with zero downtime.",
+        "challenge": "Architecture monolithique ya kala oyo ememaka mikakatano ya scalabilité",
+        "result": "Elongaki kokende na microservices na AWS",
+        "metrics": [
+          {
+            "label": "Kokitisa talo",
+            "value": "40%"
+          },
+          {
+            "label": "Performance Gain",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Microservices",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech Solutions",
+        "industry": "Kolongono ya nzoto",
+        "title": "Plateforme ya diagnostique oyo esimbami na AI",
+        "description": "Etongami na bamodele ya ML mpo na analyse ya bilili ya monganga na bosikisiki ya 95%+.",
+        "challenge": "Ba processus ya diagnostic ya manuel ezwaka ntango mingi",
+        "result": "Kobo Kobo Diagnostic With AI/ML",
+        "metrics": [
+          {
+            "label": "Ntango ebatelamaki",
+            "value": "70%"
+          },
+          {
+            "label": "Exactitude",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "Réaction",
+          "Kolongono ya nzoto"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Monene ya e-commerce",
+        "industry": "Biloko ya koteka",
+        "title": "Tableau de bord ya analytique na temps réel",
+        "description": "Developpement BI platform processing 10M+ events daily.",
+        "challenge": "Bososoli ya ntango réel te na bamétrique ya ntina ya mombongo",
+        "result": "Temps Réel Analyse & Analyse En Temps Réel",
+        "metrics": [
+          {
+            "label": "Événements/Mokolo",
+            "value": "10M+"
+          },
+          {
+            "label": "Ntango ya kopesa eyano",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "Motuna ya monene",
+          "Kafka",
+          "Réaction",
+          "Ingénierie ya badonnée"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Omibongisi mpo na kokoma lisolo ya elonga na yo?",
+      "description": "Totala ndenge nini tokoki kosalisa yo okokisa mikano ya ndenge wana mpe kokola na mpiko."
+    },
+    "filters": {
+      "title": "Filtre ya industrie",
+      "all": "Ba industries nyonso",
+      "empty": "Ata étude moko te ekokani na filtre ya industrie oyo eponami."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Makanisi mpe makanisi ya",
+      "titleHighlight": "Horizon Tech",
+      "description": "Mateya ya tekiniki, mayele ya kompani, mpe mateya ya ntina na mosala ya livraison ya solo."
+    },
+    "categories": [
+      "Toutes les postes",
+      "Cloud Architecture",
+      "DevOps",
+      "AI/ML",
+      "Frontend",
+      "Backend",
+      "Bansango"
+    ],
+    "featuredPost": {
+      "id": "Masolo ya Wikipedia",
+      "title": "Future of Cloud-Native Development: Tendances to Watch in 2025",
+      "excerpt": "Tala makambo ya sika na développement ya cloud-native, banda na ba architectures sans serveur tii na informatique ya pembeni.",
+      "author": {
+        "name": "Éditorial ya Horizon Tech"
+      },
+      "date": "15 novembre 2025",
+      "readTime": "8 min read",
+      "category": "Cloud Architecture",
+      "tags": [
+        "Lipata",
+        "Azure",
+        "Tendances"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Building Scalable Microservices with Azure Kubernetes Service",
+        "excerpt": "Buku oyo ezali na ntina mpo na kobongisa mpe kosalela microservices na nzela ya AKS.",
+        "author": {
+          "name": "Éditorial ya Horizon Tech"
+        },
+        "date": "12 sanza ya zomi na moko 2025",
+        "readTime": "6 min read",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Microservices",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Machine Learning in Production: Lessons Learned",
+        "excerpt": "Mateya oyo emekami na ndenge ya kosalela bamodele ya ML na échelle.",
+        "author": {
+          "name": "Éditorial ya Horizon Tech"
+        },
+        "date": "10 sanza ya zomi na moko 2025",
+        "readTime": "10 min ya kotanga",
+        "category": "AI/ML",
+        "tags": [
+          "Boyekoli ya masini",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "MOKAPO 19 Likambo ya sika ezali nini, mpe mpo na nini ezali na ntina?",
+        "excerpt": "19 Makambo oyo ezali kosalema na kati ya React mpe makambo oyo ezali kosalema.",
+        "author": {
+          "name": "Éditorial ya Horizon Tech"
+        },
+        "date": "8 sanza ya zomi na moko 2025",
+        "readTime": "5 min read",
+        "category": "Frontend",
+        "tags": [
+          "Réaction",
+          "JavaScript",
+          "Développement ya site web"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Inscrivez-vous à notre newsletter",
+      "description": "Zwá masolo ya sika, ba tutorials, mpe makanisi ya sika oyo ebimaka pɔsɔ na pɔsɔ.",
+      "placeholder": "your.email@example.com",
+      "button": "S'inscrire",
+      "note": "Sans spam. Koboya komibongisa ntango nyonso."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering Blog",
+        "description": "Banote ya terrain mpe bandakisa ya ntina ya baekipi oyo bazali kotonga biloko ya AI, ba systeme ya kompani, mpe ba plateformes ya cloud ya malamu."
+      },
+      "filters": {
+        "postsInView": "{{count}} posts in view"
+      },
+      "featured": {
+        "badge": "Ya nsuka",
+        "readCta": "Lire l'article en vedette"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Profil ya chargement...",
+    "title": "Paramètres ya profil",
+    "subtitle": "Bongisá makambo mpe bamposa ya compte na yo",
+    "photoButton": "Changement de photo",
+    "tabs": {
+      "general": "Général",
+      "security": "Sécurité",
+      "preferences": "Préférences"
+    },
+    "messages": {
+      "profileUpdated": "Profil mise à jour na succès",
+      "profileUpdateFailed": "Naboyaki kobongola profil na ngai",
+      "passwordsNoMatch": "Maloba ya sika ekokani te",
+      "passwordTooShort": "Mot de passe esengeli ezala na molai ya balɛtrɛ 8 to koleka",
+      "passwordChanged": "Password ebongwani malamu",
+      "passwordChangeFailed": "ok ya pas de mot de passe",
+      "optedOut": "Kopona ba rapports ya misala",
+      "optedIn": "Pona kosala ba rapports",
+      "optOutFailed": "Aboyaki kobongola statut ya opt-out"
+    },
+    "general": {
+      "title": "Makambo ya moto",
+      "description": "Actualiser ba coordonnées na yo mpe ba coordonnées na yo",
+      "firstName": "Nkombo ya liboso",
+      "firstNamePlaceholder": "John",
+      "lastName": "Nkombo ya nsuka",
+      "lastNamePlaceholder": "Doe",
+      "email": "Adresse e-mail",
+      "emailNotice": "Mokanda wana ekoki lisusu kobongwana te. Benga lisungi soki ozali na mposa ya lisalisi.",
+      "phone": "Nimero ya telefone",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Save Changes"
+    },
+    "security": {
+      "title": "Bisika ya sécurité",
+      "description": "Kobatela mot de passe na yo mpe préférences ya sécurité",
+      "currentPassword": "Mot de passe ya sika",
+      "currentPasswordPlaceholder": "Kokotisa mot de passe ya sika",
+      "newPassword": "Mot de passe ya sika",
+      "newPasswordPlaceholder": "Entrez un nouveau mot de passe",
+      "confirmPassword": "Confirmer mot de passe ya sika",
+      "confirmPasswordPlaceholder": "Confirmer mot de passe ya sika",
+      "passwordHint": "Esengeli kozala na molai koleka 8 caractères",
+      "changePassword": "Changer mot de passe"
+    },
+    "preferences": {
+      "title": "Préférences ya notification",
+      "description": "Talá ndenge ozwaka bansango mpe bansango",
+      "email": {
+        "title": "Email Notifications",
+        "description": "Kozwa bansango mpe bansango na nzela ya email"
+      },
+      "sms": {
+        "title": "SMS Notifications",
+        "description": "Kozwa baalerte ya ntina na nzela ya SMS"
+      },
+      "optOut": {
+        "title": "Koboya kosala balapolo ya misala",
+        "description": "Bomba bansango na yo epai ya nkolo mosala"
+      },
+      "actions": {
+        "title": "Misala ya compte",
+        "downloadData": "Téléchargez les données de compte",
+        "deleteAccount": "Supprimer compte"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Nazongi na ndako",
+    "title": "Esika ya lisungi",
+    "subtitle": "Zwa lisungi na baprogramɛ na biso ya développement",
+    "cards": {
+      "email": {
+        "title": "Lisalisi ya email",
+        "description": "Tindela biso email mpo na mituna nyonso"
+      },
+      "project": {
+        "title": "Mituna ya projet",
+        "description": "Sololá na bamposa ya projet na yo",
+        "button": "Contacter biso"
+      },
+      "resources": {
+        "title": "Bisaleli",
+        "description": "Bisaleli ya tekiniki mpe batoli",
+        "button": "View Resources"
+      }
+    },
+    "faqTitle": "Mituna oyo bato batunaka mingi",
+    "faqDescription": "Biyano ya mokuse na mituna oyo bato batunaka mingi",
+    "faqs": [
+      {
+        "question": "Misala nini Horizon Tech epesaka?",
+        "answer": "Topesaka développement ya software ya ndenge na ndenge, AI/ML solutions, architecture ya cloud, DevOps, intelligence commerciale, mpe misala ya IoT."
+      },
+      {
+        "question": "Ndenge nini nakoki kobanda projet na Horizon Tech?",
+        "answer": "Yebisa biso na formulaire to email mpo na koyebisa bamposa na yo. Tokobengisa likita moko mpe tokokabola likanisi moko."
+      },
+      {
+        "question": "Ozalaka ntango nyonso na lisungi mpe lisungi ya ntango nyonso?",
+        "answer": "Ɛɛ. Topesaka lisungi mpe maintenance oyo ezali na kati ya bobongisi bugs, ba mises à jour ya sécurité, mpe makambo ya malamu."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Nazongi na ndako",
+    "title": "Bisaleli ya tekiniki",
+    "subtitle": "Ba guides, tutoriels, mpe misala ya malamu ya ekipi ya Horizon Tech",
+    "hub": {
+      "title": "Esika ya koyekola",
+      "description": "Tala ba ressources techniques na biso ebongisami na cloud, AI/ML, DevOps, mpe développement ya software ya sika.",
+      "note": "Bisaleli yango esimbami na boyebi ya solo ya projet mpe ebongolamaka mbala na mbala."
+    },
+    "categories": [
+      {
+        "icon": "Cloud",
+        "title": "Cloud Architecture",
+        "description": "Azure, AWS, mpe Cloud-native patterns",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Mokambi"
+          },
+          {
+            "title": "Mikano ya migration ya cloud",
+            "type": "Lisolo"
+          }
+        ]
+      },
+      {
+        "icon": "Bɔɔngɔ",
+        "title": "AI mpe boyekoli ya machine",
+        "description": "ML Models, Data Science, and AI Integration",
+        "resources": [
+          {
+            "title": "Introduction to Azure ML",
+            "type": "Tutoriel"
+          },
+          {
+            "title": "Kotonga Pipeline ML",
+            "type": "Mokambi"
+          }
+        ]
+      },
+      {
+        "icon": "Réglages",
+        "title": "DevOps na Plateforme",
+        "description": "CI/CD, infrastructure as code, automatisation",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Tutoriel"
+          },
+          {
+            "title": "Infrastructure as Code with Terraform",
+            "type": "Mokambi"
+          }
+        ]
+      },
+      {
+        "icon": "Code",
+        "title": "Développement ya ba logiciels",
+        "description": ".net, réaction, et les pratiques du développement moderne",
+        "resources": [
+          {
+            "title": "Clean Architecture in .NET",
+            "type": "Mokambi"
+          },
+          {
+            "title": "React Best Practices",
+            "type": "Lisolo"
+          }
+        ]
+      },
+      {
+        "icon": "Base de données",
+        "title": "Badonnée mpe analytique",
+        "description": "BI, kobomba badonnées, mpe plateformes ya analytique",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Design",
+            "type": "Tutoriel"
+          },
+          {
+            "title": "Data Warehouse Architecture",
+            "type": "Mokambi"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Ozali na mposa ya formasyo ya ndenge na ndenge?",
+      "description": "Topesaka ba-atelier oyo ebongisami mpo na ba-ingénieur mpe baekipi ya produit",
+      "text": "Ozali na mposa ya formasyo mpo na ekipi na yo? Topesaka ba-atelier ya ndenge na ndenge na oyo etali architecture ya cloud, DevOps, mpe misala ya sika ya livraison.",
+      "button": "Contacter"
+    }
+  },
+  "unauthorized": {
+    "title": "Baboyi accès",
+    "description": "Ozali na ndingisa te ya kokota na lokasa oyo. Yebisa mokonzi na yo soki okanisi ete ezali libunga.",
+    "primary": "Kende na Profil",
+    "secondary": "Nazongi na ndako"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Post non trouvé",
+      "description": "No blog post exists for slug: {{slug}}",
+      "back": "Kozonga na blog"
+    },
+    "back": "Kozonga na blog",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Étude de cas non trouvé",
+      "description": "Étude de cas ezali te mpo na id: {{id}}",
+      "back": "Kozonga na boyekoli ya cas"
+    },
+    "back": "Kozonga na boyekoli ya cas",
+    "sections": {
+      "executiveSummary": "Na mokuse",
+      "businessChallenge": "Mokakatano ya mombongo",
+      "technicalSolution": "Solution technique",
+      "architectureDecisions": "Bikateli ya architecture",
+      "technologyStack": "Stack ya Technologie",
+      "resultsImpact": "Résultats mpe Impact"
+    },
+    "client": "Client",
+    "keyOutcomes": "Résultats ya ntina",
+    "decision": "Ekateli {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Signal Lost",
+      "title": "Page non trouvée",
+      "description": "Nzela oyo ozalaki koluka, ezali lisusu te, mpe ekendaki te. Tozongisa yo na esika ya suka ya Horizon Tech.",
+      "requestedPath": "Nzela oyo esengami",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Résolution ya graphe ya nzela... Elongaki te",
+        "line2": "Ntina na yango: Module ya nzela oyo ekokani te",
+        "line3": "Fallback protocol engagé",
+        "line4": "Salelá moko ya banzela ya mokuse oyo ezali awa na nse mpo na kokoba"
+      },
+      "links": {
+        "home": "Lokasa ya ebandeli",
+        "services": "Misala",
+        "blog": "Blog",
+        "caseStudies": "Études de cas"
+      }
+    },
+    "runtime": {
+      "badge": "Erreur ya Runtime",
+      "title": "Eloko moko ebebi na lokasa oyo",
+      "description": "Likambo moko oyo ekanami te ekatisaki mosala ya kobongola. Okoki kozonga na esalisé to kozonga na esalisélo.",
+      "retry": "Komeka lisusu",
+      "home": "Kozonga na lokasa ya ebandeli",
+      "unknown": "Libunga ya runtime oyo eyebani te"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Gestion ya blog",
+      "subtitle": "Créer, créer, et créer les articles de blog na bino",
+      "newPost": "Nouvelle post",
+      "seedData": "Bansango ya mboto",
+      "allPosts": "Toutes les postes",
+      "published": "Ebimisami",
+      "draft": "Projet",
+      "featured": "Masolo",
+      "setFeatured": "Set Featured",
+      "removeFeatured": "Supprimer Featured",
+      "table": {
+        "title": "Titre",
+        "category": "Catégorie",
+        "status": "Statut",
+        "date": "Dati",
+        "actions": "Misala"
+      },
+      "empty": {
+        "message": "Ata ba articles ya blog te. Salá post na yo ya liboso to ndakisa ya mboto.",
+        "seed": "Ba données ya échantillon ya mboto",
+        "create": "Création de poste"
+      },
+      "delete": {
+        "title": "Supprimer Post",
+        "confirmation": "Ozali mpenza na mposa ya kolongola lokasa yango? Moto moko te akoki kolongola likambo yango.",
+        "delete": "Supprimer",
+        "cancel": "Boya"
+      }
+    },
+    "editor": {
+      "bannerHint": "ya pas grand monde dans le top de la poste",
+      "bannerImage": "Image ya banderole",
+      "coverHint": "ya pas de soucis dans mon blog",
+      "coverImage": "Elilingi ya ezipeli",
+      "editSlug": "Modifier slug",
+      "posts": "Mikanda",
+      "publish": "Publier",
+      "update": "Mise à jour",
+      "form": {
+        "contentPlaceholder": "Komá makomi na yo awa...",
+        "excerptPlaceholder": "ya pas de post ...",
+        "pickDate": "Poná dati",
+        "readTimePlaceholder": "kozaki 5 mins reading",
+        "titlePlaceholder": "makasih ya post..."
+      },
+      "meta": {
+        "publisher": "Mokomi",
+        "unknownAuthor": "Mokomi oyo ayebani te"
+      },
+      "modes": {
+        "edit": "Modifier",
+        "editOnly": "Modifier kaka",
+        "preview": "Aperçu",
+        "previewOnly": "Preview only",
+        "sideBySide": "Pembeni na ngambo",
+        "split": "Kokabwana"
+      },
+      "tags": {
+        "heading": "Balise",
+        "placeholder": "Bakisá mwa ndambo..."
+      },
+      "translations": {
+        "auto": "Mituka",
+        "autoTranslate": "Traduction automatique",
+        "clear": "Polele",
+        "existing": "Ya kala",
+        "heading": "Traduction",
+        "language": "Monoko",
+        "languages": "Bandinga",
+        "edit": "Modifier",
+        "manual": "Manuel",
+        "preview": "Aperçu",
+        "searchPlaceholder": "Recherche dans les langues...",
+        "translate": "Kobongola"
+      }
+    },
+    "caseStudies": {
+      "title": "Études de cas",
+      "subtitle": "Kotambwisa boyekoli ya cas mpe kolakisa ba projets",
+      "newCaseStudy": "Étude de cas ya sika",
+      "seedData": "Bansango ya mboto",
+      "allCaseStudies": "Études de cas nionso",
+      "published": "Ebimisami",
+      "draft": "Projet",
+      "table": {
+        "title": "Titre",
+        "industry": "Industrie",
+        "client": "Client",
+        "status": "Statut",
+        "actions": "Misala"
+      },
+      "empty": {
+        "message": "Bolukiluki ya cas ezali naino te.",
+        "seed": "Bansango ya mboto",
+        "create": "Créer Yambo"
+      },
+      "delete": {
+        "title": "Supprimer étude de cas",
+        "confirmation": "Olingi olongola lisolo oyo? Moto moko te akoki kolongola likambo yango.",
+        "delete": "Supprimer",
+        "cancel": "Boya"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Études de cas",
+      "published": "Ebimisami",
+      "draft": "Projet",
+      "update": "Mise à jour",
+      "create": "Création",
+      "sections": {
+        "basicInfo": "Makambo ya ebandeli",
+        "narrative": "Lisolo",
+        "architectureDecisions": "Bikateli ya architecture",
+        "techStack": "Stack ya tekinoloji",
+        "results": "Résultats",
+        "tags": "Balise"
+      },
+      "fields": {
+        "title": "Titre",
+        "titlePlaceholder": "Titre ya étude de cas",
+        "slug": "Slug",
+        "slugPlaceholder": "Auto-generated-from-Title",
+        "client": "Client",
+        "clientPlaceholder": "Nkombo ya client",
+        "industry": "Industrie",
+        "industryPlaceholder": "Kopona industrie",
+        "description": "Ndimbola",
+        "descriptionPlaceholder": "Maloba ya mokuse (na bakarte)",
+        "executiveSummary": "Na mokuse",
+        "executiveSummaryPlaceholder": "Lisolo ya Engagement ya Likolo",
+        "challenge": "Mokakatano",
+        "challengePlaceholder": "Mokakatano nini mosombi akutanaki na yango?",
+        "solution": "Solution",
+        "solutionPlaceholder": "Ndenge nini likambo yango esilaki?",
+        "decision": "Ekateli",
+        "decisionPlaceholder": "Oyo ekatamaki",
+        "rationale": "Ntina na yango",
+        "rationalePlaceholder": "Ntina oyo baponaki mayele yango",
+        "metric": "Métrique",
+        "metricPlaceholder": "Olalekan Olalekan Olalekan",
+        "value": "Valeur",
+        "valuePlaceholder": "e.g. -63% to 4.8h -> 11m",
+        "resultDescription": "Ndimbola",
+        "resultDescriptionPlaceholder": "Matomba yango elimboli nini",
+        "techPlaceholder": "Add technology (press Enter)",
+        "tagPlaceholder": "Ajouter balise (fina Enter)"
+      },
+      "add": "Ajouter",
+      "noArchDecisions": "Ata moko te ya ba décisions architecturales ebakisami.",
+      "noResults": "Ata résultat moko te ebakisami.",
+      "decisionLabel": "Ekateli {{number}}",
+      "resultLabel": "Résultat {{number}}",
+      "controls": {
+        "published": "Ebimisami",
+        "publishedDescription": "Kosala ete boyekoli oyo emonana polele na miso ya bato nyonso",
+        "featured": "Masolo",
+        "featuredDescription": "Monisá polele boyekoli ya cas oyo"
+      }
+    },
+    "imageCrop": {
+      "apply": "Kosalela",
+      "cancel": "Boya",
+      "cropTitle": "Elilingi ya crop",
+      "dropText": "Drop an image here or click to upload",
+      "flipHorizontal": "Flip horizontal",
+      "flipVertical": "Flip vertical",
+      "replace": "Remplacer",
+      "reset": "Réinitialiser",
+      "rotateLeft": "Baluka na lobɔkɔ ya mwasi",
+      "rotateRight": "Baluka na lobɔkɔ ya mobali",
+      "uploading": "Uploading...",
+      "toast": {
+        "invalidFile": "Fichier invalide",
+        "invalidFileDesc": "Please upload a valid image file.",
+        "uploadFailed": "Uploader échoue",
+        "uploadFailedDesc": "Likambo moko ebebaki. Nasengi yo omeka lisusu.",
+        "uploaded": "Image uploaded",
+        "uploadedDesc": "Foto na yo esalemi na succès."
+      }
+    }
+  }
+}

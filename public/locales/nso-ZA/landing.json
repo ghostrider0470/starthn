@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Engineering Systems That Scale",
+    "subtitle": "Enterprise Software · AI & Machine Learning · Cloud Infrastructure · IoT & Edge",
+    "description": "Go tloga go metšhene ye bohlale go ya go dipolatefomo tša tlhago tša maru, re hlama le go aba theknolotši yeo e maatlafatšago dikgwebo tše di nago le mafolofolo — ka nako, ka tekanyetšo, ka bokgoni.",
+    "cta": {
+      "primary": "Thoma Projeke",
+      "secondary": "Bona mošomo wa rena"
+    },
+    "trustLine": "Dikhamphani tše di botegago lefaseng ka bophara"
+  },
+  "services": {
+    "subtitle": "Ditirelo tša rena",
+    "title": "Full-Spectrum Engineering",
+    "description": "Mafelo a tshelelago a go itšhidulla. Sehlopha se tee. Every layer of your technology stack — from edge devices to enterprise dashboards.",
+    "commentMarker": "DITIRELO",
+    "items": {
+      "customSoftware": {
+        "title": "Custom Software Development",
+        "description": "Ditirišo tša sebjalebjale tše di agilwego ka microservices, APIs, le cloud-native architecture."
+      },
+      "aiMl": {
+        "title": "AI, ML & Business Intelligence",
+        "description": "AI/ML pipelines, Power BI dashboards, and advanced analytics that turn data into decisions."
+      },
+      "cloud": {
+        "title": "Cloud Architecture & Infrastructure",
+        "description": "Multi-cloud infrastructure with containers, serverless, and global scalability built in."
+      },
+      "iot": {
+        "title": "IoT & Edge Computing",
+        "description": "Connected devices, digital twins, and edge computing for Industry 4.0."
+      },
+      "devops": {
+        "title": "DevOps & Platform Engineering",
+        "description": "CI/CD pipelines, infrastructure as code, and observability from commit to production."
+      },
+      "digital": {
+        "title": "Digital Transformation & Consulting",
+        "description": "Theknolotši ya sebjalebjale, dipeakanyo tša sebjalebjale le dikeletšo tša matsogo."
+      }
+    },
+    "cta": {
+      "title": "Let's Go Serious",
+      "description": "Go tšwa go tlhabollo ya software ya setlwaedi le ditharollo tša AI go mananeokgoparara a maru le metšhene — re fana ka ditirelo tša theknolotši tša mafelelo tšeo di sepelelanago le dinyakwa tša gago.",
+      "primary": "Thoma projeke ya gago",
+      "secondary": "Schedule Consultation"
+    },
+    "learnMore": "Ithute ka botlalo"
+  },
+  "credibility": {
+    "subtitle": "Rekoto ya Rena",
+    "title": "Dipoelo, e sego <gradient>ditshepišo</gradient>",
+    "titlePlain": "Dipoelo, e sego ditshepišo",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Go tloga Sarajevo go ya Oslo, Amsterdam le Berlin. Ditshepedišo tša Kgoro ya Merero ya Selegae di tla dirwa ka nako ye nngwe le ye nngwe.",
+    "stats": {
+      "experience": "Mengwaga ya boitemogelo bjo bo kopantšwego",
+      "countries": "Dinaga tše di šomago",
+      "systems": "Ditshepedišo tše di tlilego",
+      "industries": "Diintasteri tše di šomago"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM for Atlas Copco",
+        "outcome": "Architected the first-ever cloud-based One Identity infrastructure for Atlas Copco on Azure Kubernetes, reducing costs while keeping enterprise compliance."
+      },
+      "orange": {
+        "label": "Orange Cyberdefense Platform",
+        "outcome": "Developed Azure Kubernetes infrastructure, CI/CD pipelines, and custom ServiceNow integration for Europe's leading cybersecurity firm."
+      },
+      "telecom": {
+        "label": "Telecom GIS & AR Platform",
+        "outcome": "Built GIS platform mapping underground utilities across Germany with collision detection preventing multi-million Euro infrastructure damage."
+      },
+      "iot": {
+        "label": "Cloud IoT & Edge Platform",
+        "outcome": "Azure IoT Hub e laola diketekete tša didirišwa, Synapse e šoma dibilione tša direi tša telemetry, le edge aggregation e fokotša ditshenyegelo tša melaetša ka ~90%."
+      },
+      "drone": {
+        "label": "Autonomous Drone Platform",
+        "outcome": "Custom flight controller with 4G-to-Azure IoT Hub bridge enabling autonomous BVLOS flights for agricultural monitoring and payload delivery."
+      },
+      "payment": {
+        "label": "Payment System Rescue",
+        "outcome": "Rescued failing payment gateway for Norwegian mobile app by reverse-engineering undocumented legacy code. Zero payment downtime post-modernization."
+      },
+      "game": {
+        "label": "AAA Game Dev Tooling",
+        "outcome": "Built Maya plugin that cut 3D modeling and animation time by 50% at a major AAA studio, adopted as a standard tool in the production pipeline."
+      },
+      "social": {
+        "label": "Lefelo leo le theilwego godimo ga lefelo la leago",
+        "outcome": "Architected dating app for Spain's nightlife scene with geolocation matching, real-time messaging, and push notifications for a UK client."
+      },
+      "iga": {
+        "label": "Multi-Tenant IGA Platform",
+        "outcome": "Built core backend for cloud-native identity governance platform serving Fortune 500 clients with custom ASP.NET Core Identity for NoSQL at enterprise scale."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "EU-Adjacent, Global Delivery",
+        "description": "CET working hours with experience across Norway, Netherlands, Germany, and beyond."
+      },
+      "yourEngineers": {
+        "title": "Lena T",
+        "description": "Dedicated team members embedded in your workflow and tools. No account managers, no ticket queues."
+      },
+      "hardwareToCloud": {
+        "title": "Hardware to Cloud",
+        "description": "From embedded device firmware to enterprise Azure Synapse pipelines. Lenaneo le le tletšego la software go kgabaganya karolo ye nngwe le ye nngwe."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Stack ya Theknolotši",
+    "title": "<gradient>Battle-Tested Stack</gradient>",
+    "titlePlain": "Battle-Tested Stack",
+    "commentMarker": "TECH_STACK",
+    "description": "Ga re diriše didirišwa tše fela – re rometše ditshepedišo tša tšweletšo ka tšona. Go tloga go Microsoft Azure go ya go Kubernetes, baentšenere ba rena ba na le bokgoni bja nnete bja lefase.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Cloud & Infrastructure",
+        "description": "Multi-cloud architecture with container orchestration and infrastructure as code."
+      },
+      "frontend": {
+        "label": "Frontend",
+        "description": "Modern component frameworks with type safety and optimized build tooling."
+      },
+      "backend": {
+        "label": "Backend & APIs",
+        "description": "Enterprise-grade server platforms, systems languages, and modern API paradigms."
+      },
+      "data": {
+        "label": "Data & Storage",
+        "description": "Relational, document, and in-memory stores with full-text search."
+      },
+      "devops": {
+        "label": "DevOps & Tooling",
+        "description": "Tshepedišo ya dipeakanyo tša sengwalwa, taolo ya sebopego le tšweletšo ya tšweletšo."
+      }
+    },
+    "scanning": "MAQHUBU A GO SCAN ...",
+    "summary": {
+      "cloudNative": {
+        "title": "Cloud-Native by Default",
+        "description": "Protšeke ye nngwe le ye nngwe e na le dikhontheina, e laolwa ke CI/CD, gomme e agilwe go tloga ka letšatši la mathomo."
+      },
+      "fullStack": {
+        "title": "Full-Stack Fluency",
+        "description": "From React frontends to .NET microservices to Kubernetes clusters — one team, end to end."
+      },
+      "productionProven": {
+        "title": "Tšweletšo-Proven",
+        "description": "Ga se ditheknolotši tša demo. Every tool listed powers real systems serving real users today."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Technology logos row 1",
+      "row2Aria": "Technology logos row 2",
+      "row3Aria": "Technology logos row 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Motheo wa Tsebo",
+    "title": "<gradient>Dipotšišo</gradient> tše di botšišwago kgafetšakgafetša",
+    "titlePlain": "Dipotšišo tše di botšišwago kgafetšakgafetša",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "tšohle tše o swanetšego go di tseba ka ga go šoma le dipholisi tša gago",
+    "items": {
+      "scope": {
+        "question": "Bogolo bja mošomo wa gago ke bofe?",
+        "answer": "We deliver end-to-end technology projects: custom enterprise software, AI/ML pipelines, cloud infrastructure, IoT systems, DevOps automation, and digital transformation consulting. Ge e le gore o nyaka sethala se se feletšego seo se agilwego go tloga mathomong goba kopanyo ye e nepišitšwego le mokgobo wa gago wo o lego gona, re šoma ka boagi, tlhabollo, diteko le go romelwa."
+      },
+      "stack": {
+        "question": "Theknolotši ya gago ya motheo ke efe?",
+        "answer": "Motheo wa rena o theilwe godimo ga dipolatefomo tša maemo a kgwebo: Azure le AWS tša leru, .NET le Node.js tša backend, React le Angular tša frontend, Kubernetes le Docker tša orchestration, le Terraform ya mananeokgoparara bjalo ka khoutu. Gape re šoma kudu le Python bakeng sa mešomo ya AI/ML, Power BI le Fabric bakeng sa bohlale bja kgwebo, le PostgreSQL, SQL Server, le MongoDB bakeng sa data."
+      },
+      "enterprise": {
+        "question": "O laola bjang diprotšeke tša kgwebo?",
+        "answer": "Kopano ye nngwe le ye nngwe e thoma ka kgato ya go utolla go hlatholla bokgoni, boagišani le dikgato tše bohlokwa. O hwetša sehlopha se se ineetšego seo se nago le tlhahlo ya sethekniki, dinyakišišo tša kgafetšakgafetša, le phihlelelo thwii go baentšenere bao ba agago tshepedišo ya gago. We follow agile sprints with stakeholder demos, maintain transparent project boards, and provide weekly progress reports."
+      },
+      "support": {
+        "question": "Thekgo ya ka morago ga go thakgolwa e lebelelega bjang?",
+        "answer": "We offer structured support tiers with defined SLAs, including 24/7 monitoring, incident response, performance optimization, and feature iteration. Our support agreements cover bug fixes, security patches, infrastructure scaling, and proactive health checks — tailored to your uptime and response-time requirements."
+      },
+      "integration": {
+        "question": "Na o ka kopanya mananeokgoparara a rena ao a lego gona?",
+        "answer": "Ka nnete. We specialize in legacy modernization, API-first integrations, and hybrid cloud migrations. Le ge e ka ba o nyaka go kgokaganya le ditshepedišo tša ERP tša ka lefelong leo, go huduga go tšwa go monoliths go ya go microservices, goba go kopanya datapeisi ya bohwa le di-frontends tša sebjalebjale, re na le dipuku tša dipapadi tša go huduga le maitemogelo a kopanyo go e dira gore e se be le mathata."
+      },
+      "industries": {
+        "question": "Ke diintasteri dife tše o šomilego go tšona?",
+        "answer": "Sehlopha sa rena se dirile diprotšeke go kgabaganya fintech, tlhokomelo ya maphelo, dilotši, e-commerce, enetši le mafapha a mmušo. Re kwešiša dinyakwa tša intasteri tša go swana le PCI-DSS ya ditefelo, dintlha tša HIPAA tša data ya maphelo, go obamela GDPR ya mebaraka ya EU, le telemetry ya nako ya nnete ya IoT ya intasteri."
+      },
+      "engagement": {
+        "question": "Tshepedišo ya boitlamo e lebelelega bjang?",
+        "answer": "E thoma ka go hwetša tshedimošo go kwešiša maikemišetšo a gago le maemo a gago. Go tloga fao, re fana ka sengwalwa sa scoping seo se nago le ditšhišinyo tša boagi, tatelano ya nako le phatlalatšo ya peeletšo. Ge re šetše re dumeletšwe, re thoma ka sehlopha se se ineetšego, re tsenela didirišwa tša gago le mešongwana ya mošomo, gomme re thomiša sprint ya mathomo mo matšatšing a mmalwa."
+      }
+    },
+    "stillHaveQuestions": "O sa na le dipotšišo?",
+    "ctaDescription": "Na o na le projeke ka mogopolong? A re boledišaneng ka tekanyetšo, nako le tekanyetšo.",
+    "readCaseStudies": "Bala dinyakišišo tša rena",
+    "scheduleCall": "Rulaganya mogala"
+  }
+}

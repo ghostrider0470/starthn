@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Sve"
+  },
+  "categories": {
+    "aiEngineering": "AI inženjering",
+    "enterpriseArchitecture": "Arhitektura preduzeća",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Sistemi za automatizaciju",
+    "softwareReliabilityDesign": "Pouzdanost i dizajn softvera"
+  },
+  "readTime": "{{minutes}} min čitanja",
+  "tagsLabel": "Bilten",
+  "relatedPosts": "Povezani postovi",
+  "author": {
+    "role": "Izdavač"
+  },
+  "editor": {
+    "emptyPreview": "Počnite da pišete da biste videli pregled ..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Brzi inženjering",
+    "observability": "Posmatranje",
+    "safety": "Bezbednost",
+    "domainDesign": "Dizajn domena",
+    "integration": "Integracija",
+    "governance": "Upravljanje",
+    "platformStrategy": "Strategija platforme",
+    "platformEngineering": "Platformski inženjering",
+    "ciCd": "CI/CD",
+    "kubernetes": "Bilten",
+    "developerExperience": "Iskustvo programera",
+    "eventDriven": "Vođen događajima",
+    "workflowOrchestration": "Orkestracija toka posla",
+    "controlPlanes": "Kontrolni avioni",
+    "resilience": "Otpornost",
+    "sre": "SRE",
+    "slos": "Bilten",
+    "failureModes": "Režimi neuspeha",
+    "resilienceEngineering": "Inženjering otpornosti",
+    "evaluation": "Evaluacija",
+    "qualityEngineering": "Inženjering kvaliteta",
+    "datasets": "Skupovi podataka",
+    "releaseManagement": "Upravljanje izdanjima",
+    "incidentManagement": "Upravljanje incidentima",
+    "architectureEvolution": "Evolucija arhitekture",
+    "riskReduction": "Smanjenje rizika",
+    "postmortems": "Obdukcije",
+    "progressiveDelivery": "Progresivna isporuka",
+    "canaryReleases": "Izdanja kanarskih ostrva",
+    "featureFlags": "Feature Zastave"
+  }
+}

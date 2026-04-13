@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Όλα"
+  },
+  "categories": {
+    "aiEngineering": "Μηχανική AI",
+    "enterpriseArchitecture": "Επιχειρησιακή Αρχιτεκτονική",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Συστήματα Αυτοματισμού",
+    "softwareReliabilityDesign": "Αξιοπιστία & Σχεδιασμός Λογισμικού"
+  },
+  "readTime": "{{minutes}} ελάχιστη ανάγνωση",
+  "tagsLabel": "Ετικέτες",
+  "relatedPosts": "σχετικές αναρτήσεις",
+  "author": {
+    "role": "Εκδότης"
+  },
+  "editor": {
+    "emptyPreview": "Ξεκινήστε να γράφετε για να δείτε μια προεπισκόπηση..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Άμεση Μηχανική",
+    "observability": "Παρατηρησιμότητα",
+    "safety": "Ασφάλεια",
+    "domainDesign": "Σχεδιασμός τομέα",
+    "integration": "Ενσωμάτωση",
+    "governance": "Διακυβέρνηση",
+    "platformStrategy": "Στρατηγική πλατφόρμας",
+    "platformEngineering": "Μηχανική πλατφόρμας",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Εμπειρία προγραμματιστή",
+    "eventDriven": "Με γνώμονα τα συμβάντα",
+    "workflowOrchestration": "Ενορχήστρωση ροής εργασιών",
+    "controlPlanes": "Επίπεδα ελέγχου",
+    "resilience": "Ανθεκτικότητα",
+    "sre": "SRE",
+    "slos": "SLO",
+    "failureModes": "Λειτουργίες αποτυχίας",
+    "resilienceEngineering": "Μηχανική Ανθεκτικότητας",
+    "evaluation": "Αξιολόγηση",
+    "qualityEngineering": "Μηχανική Ποιότητας",
+    "datasets": "Σύνολα δεδομένων",
+    "releaseManagement": "Διαχείριση εκδόσεων",
+    "incidentManagement": "Διαχείριση περιστατικών",
+    "architectureEvolution": "Εξέλιξη Αρχιτεκτονικής",
+    "riskReduction": "Μείωση κινδύνου",
+    "postmortems": "Νεκροψίες",
+    "progressiveDelivery": "Προοδευτική παράδοση",
+    "canaryReleases": "Εκδόσεις Canary",
+    "featureFlags": "Σημαίες χαρακτηριστικών"
+  }
+}

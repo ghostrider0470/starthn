@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Guriga",
+    "company": "Shirkad",
+    "solutions": "Xalalka",
+    "resources": "Ilo",
+    "innovationLab": "Shaybaarka Hal-abuurka",
+    "contact": "Xiriir",
+    "about": {
+      "title": "Ku saabsan",
+      "description": "Himiladeena, aragtideena, iyo sheekadeena"
+    },
+    "team": {
+      "title": "Kooxda",
+      "description": "La kulan dadka ka dambeeya Horizon Tech"
+    },
+    "careers": {
+      "title": "Xirfadaha",
+      "description": "Ku soo biir kooxdeena oo dhis mustaqbalka"
+    },
+    "enterpriseSoftware": {
+      "title": "Horumarinta Software-ka Shirkadaha",
+      "description": "Codsiyada shirkadaha gaarka ah ee leh qaab-dhismeedyo casri ah"
+    },
+    "aiMl": {
+      "title": "AI, ML iyo Sirdoonka Ganacsiga",
+      "description": "Dhammaan pipelines AI/ML iyo dashboards-ka BI"
+    },
+    "cloudArchitecture": {
+      "title": "Qaab-dhismeedka Daruurta iyo Kaabayaasha",
+      "description": "Xalalka daruuraha badan iyo habeynta weelasha"
+    },
+    "iot": {
+      "title": "IoT & Edge Computing",
+      "description": "Nidaamyada qalabka isku xiran iyo mataanaha dijitaalka ah"
+    },
+    "devops": {
+      "title": "DevOps & Injineerinka Madasha",
+      "description": "Pipelines iyo kaabayaasha CI/CD sida code"
+    },
+    "digitalTransformation": {
+      "title": "Isbeddelka Dijitaalka & Istaraatiijiyadda",
+      "description": "Khariidadaha isbeddelka shirkadaha iyo talo-bixinta"
+    },
+    "caseStudies": {
+      "title": "Daraasado Kiisas",
+      "description": "Sheekooyinka guulaha ee macaamiisheena",
+      "featured": {
+        "title": "Daraasad Kiis oo La Xusay",
+        "description": "Si qoto dheer ugu dhex gala hawlgalka buuxa ee keenista"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Aragtiyo, casharro, iyo isbeddellada warshadaha",
+      "featured": {
+        "title": "Qoraalka Blog-ga ee la xushay",
+        "description": "Akhri mid ka mid ah aragtiyadeena injineernimada ugu dambeeyay"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Guudmarka Shaybaarka Hal-abuurka",
+      "description": "Eeg dhammaan goobaha cilmi-baarista iyo waddooyinka tijaabada ah"
+    },
+    "innovationLabAiSystems": {
+      "title": "Nidaamyada AI ee la adeegsado",
+      "description": "Qaababka dhismaha barashada mashiinka ee diyaar u ah wax-soo-saarka"
+    },
+    "innovationLabNlp": {
+      "title": "NLP-ga Luqado Badan",
+      "description": "Awoodaha farsamaynta luqadda dabiiciga ah ee is-dhexgalka"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Qiyaasta Algorithm-ka Hidde-sideyaasha",
+      "description": "Hagaajinta isbeddelka ee deegaan is-dhexgal ah"
+    },
+    "navigation": "Navigation-ka",
+    "skipToContent": "U gudub waxyaabaha ku jira",
+    "toggleMenu": "Menu-ga beddelka",
+    "dashboard": "Dashboard",
+    "myWorkspace": "Shaqadayda",
+    "profile": "Xogta",
+    "adminPanel": "Guddiga Maamulka",
+    "practiceManagement": "Maareynta Tababarka",
+    "logOut": "Ka bax",
+    "education": {
+      "title": "Kheyraadka Farsamada",
+      "description": "Hagayaal, casharro, iyo hababka ugu wanaagsan ee kooxda Horizon Tech"
+    },
+    "support": {
+      "title": "Xarunta Taageerada",
+      "description": "Ka hel caawimaad adeegyada horumarinta software-keena"
+    }
+  },
+  "footer": {
+    "description": "Bilow horumarinta software-ka oo fadhigeedu yahay Sarajevo, Bosnia. Waxaan dhisnaa software gaar ah, xalalka AI/ML, qaab-dhismeedka daruuraha, iyo nidaamyada otomaatiga.",
+    "features": "Astaamaha",
+    "resources": "Ilo",
+    "company": "Shirkad",
+    "legal": "Sharci",
+    "dashboard": "Dashboard",
+    "components": "Qaybaha",
+    "documentation": "Dukumentiyada",
+    "apiReference": "Tixraaca API",
+    "gettingStarted": "Bilowga",
+    "examples": "Tusaalooyin",
+    "community": "Bulshada",
+    "blog": "Blog",
+    "caseStudies": "Daraasado Kiisas",
+    "innovationLabOverview": "Guudmarka Shaybaarka Hal-abuurka",
+    "appliedAiSystems": "Nidaamyada AI ee la adeegsado",
+    "nlpDemo": "NLP-ga Luqado Badan",
+    "geneticAlgorithmSimulation": "Qiyaasta Algorithm-ka Hidde-sideyaasha",
+    "featuredBlogPost": "Qoraalka Blog-ga ee la xushay",
+    "featuredCaseStudy": "Daraasad Kiis oo La Xusay",
+    "about": "Ku saabsan",
+    "contact": "Xiriir",
+    "partners": "Wada-hawlgalayaal",
+    "careers": "Xirfadaha",
+    "privacyPolicy": "Siyaasadda Asturnaanta",
+    "termsOfService": "Shuruudaha Adeegga",
+    "cookiePolicy": "Siyaasadda Buskudka",
+    "license": "Shatiga",
+    "copyright": "© {{year}} Horizon Tech. Dhammaan xuquuqaha waa la keydiyay.",
+    "subscribe": "Isdiiwaangeli wargeyska"
+  },
+  "header": {
+    "badge": "Xalalka Tiknoolajiyada Shirkadaha",
+    "titleLine1": "Beddel Ganacsigaaga adigoo adeegsanaya",
+    "titleLine2": "Tiknoolajiyada Casriga ah",
+    "description": "Laga soo bilaabo horumarinta software-ka shirkadaha iyo sirdoonka ganacsiga ee AI-ga ku shaqeeya ilaa kaabayaasha daruurta iyo xalalka IoT — waxaan bixinaa adeegyo tiknoolajiyadeed oo dhamaystiran oo dhiirrigeliya hal-abuurka isla markaana dedejiya korriinka.",
+    "getStarted": "Bilow",
+    "exploreSolutions": "Sahamin xalalka",
+    "trustedBy": "Waxaa lagu kalsoon yahay shirkadaha horumarsan",
+    "microsoftPartner": "Microsoft Partner",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "Xalalka Ganacsiga"
+  },
+  "mobileNav": {
+    "navigation": "Hagista moobilka",
+    "home": "Guriga",
+    "solutions": "Xalalka",
+    "caseStudies": "Kiisaska",
+    "aiSystems": "AI Lab",
+    "blog": "Blog",
+    "resources": "Ilo",
+    "contact": "Xiriir"
+  },
+  "sideNav": {
+    "scroll": "Scroll",
+    "navigateTo": "U gudub {{section}}",
+    "sections": {
+      "home": "Guriga",
+      "solutions": "Xalalka",
+      "credibility": "Kalsoonida",
+      "partners": "Wada-hawlgalayaal",
+      "caseStudies": "Daraasado Kiisas",
+      "blog": "Blog",
+      "innovationLab": "Shaybaarka Hal-abuurka",
+      "faq": "Ereyo la soo gaabiayay oo loo sameyay su'aalahu loogu weydiinta badan yahay"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Luuqadda beddelka",
+    "searchPlaceholder": "Raadinta luqadda...",
+    "noResults": "Luqado lama helin."
+  },
+  "common": {
+    "menu": "Menu",
+    "account": "Xisaab"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Daraasado Kiisaska Ugu Dambeeyay",
+      "description": "Muuqaal kooban oo ku saabsan natiijooyinka gaarsiinta barnaamijyada fintech, caafimaadka, saadka, iyo qaybta dawladda.",
+      "cta": "Daawo dhammaan daraasadaha kiisaska"
+    },
+    "blog": {
+      "title": "Wararkii Ugu Dambeeyay ee Bloggeena",
+      "description": "Qoraallo injineernimo oo wax ku ool ah oo ka yimid shaqadii ugu dambeysay ee AI, madal, iyo gaarsiinta daruuraha.",
+      "cta": "Akhri dhammaan maqaallada"
+    },
+    "innovationLab": {
+      "title": "Shaybaarka Hal-abuurka",
+      "description": "Sahamin prototypes, tijaabooyin, iyo mashaariicda R&D ee la adeegsaday ee kooxda injineerinka Horizon Tech.",
+      "cta": "Sahamin Shaybaarka Hal-abuurka"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Akhri Daraasad Kiis",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Daryeelka Caafimaadka",
+      "logistics": "Logistika",
+      "manufacturing": "Soo-saarista",
+      "government": "Dowlad"
+    }
+  },
+  "blogCard": {
+    "read": "Akhri"
+  }
+}

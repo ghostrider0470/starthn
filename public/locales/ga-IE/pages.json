@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Fúinn",
+    "hero": {
+      "titlePrefix": "Teicneolaíocht an Lae Amárach a Thógáil,",
+      "titleHighlight": "Inniu",
+      "description": "Is cuideachta teicneolaíochta domhanda é Horizon Tech d.o.o. a bhfuil ceanncheathrú aici i Sarajevo, ag seachadadh réitigh bogearraí ceannródaíocha d'fhiontair ar fud trí mhór-roinn."
+    },
+    "sections": {
+      "mission": {
+        "title": "Misean",
+        "description": "Cabhraímid le heagraíochtaí smaointe uaillmhianacha a iompú ina dtáirgí digiteacha iontaofa a chruthaíonn luach gnó intomhaiste.",
+        "points": [
+          "Seastú teicneolaíochta a ailíniú le torthaí gnó soiléire.",
+          "Tóg córais fhadtéarmacha a fhanann inchothabháilte de réir mar a scála foirne.",
+          "Comhpháirtíocht go dlúth le páirtithe leasmhara ó straitéis go forghníomhú."
+        ]
+      },
+      "expertise": {
+        "title": "Saineolas",
+        "description": "Comhcheanglaíonn ár bhfoirne ildisciplíneacha doimhneacht innealtóireachta le smaointeoireacht táirge ar fud cruacha teicneolaíochta nua-aimseartha.",
+        "points": [
+          "Innealtóireacht gréasáin agus ardáin de ghrád fiontraíochta.",
+          "Ailtireacht scamall, uathoibriú DevOps, agus bonneagar athléimneach.",
+          "AI / ML feidhmeach, sreafaí oibre sonraí, agus táirgí IoT-chumasaithe."
+        ]
+      },
+      "approach": {
+        "title": "Cur chuige",
+        "description": "Déanaimid samhail trédhearcach, atriallach a choinníonn seachadadh intuartha agus riosca táirge a laghdú.",
+        "points": [
+          "Faigh amach: sainmhínigh raon feidhme, tosaíochtaí agus méadrachtaí rathúlachta go luath.",
+          "Tógáil: long in incrimintí dírithe le lúbanna aiseolais leanúnacha.",
+          "Optamú: monatóireacht a dhéanamh ar thorthaí agus feidhmíocht a fheabhsú le himeacht ama."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Réidh le do ghnó a athrú?",
+      "description": "Bí ar liosta na gcuideachtaí atá ag fás a bhfuil muinín acu as Horizon Tech chun réitigh nuálacha agus torthaí eisceachtúla a sheachadadh.",
+      "primary": "Tús Tosaigh",
+      "secondary": "Féach ar Scéalta Rathúla"
+    }
+  },
+  "contact": {
+    "badge": "Téigh i dteagmháil linn",
+    "hero": {
+      "title": "Déan Teagmháil Linn",
+      "description": "An bhfuil tionscadal agat? Ba bhreá linn cloisteáil uait. Téigh i dteagmháil le plé a dhéanamh ar conas is féidir linn cabhrú le do chuid smaointe a chur ar an saol."
+    },
+    "info": {
+      "title": "Eolas Teagmhála"
+    },
+    "booking": {
+      "title": "Cuir Cruinniú in áirithe",
+      "description": "Glao fionnachtana 30 nóiméad saor in aisce a sceidealú"
+    },
+    "methods": {
+      "email": {
+        "title": "Ríomhphost",
+        "description": "Seol ríomhphost chugainn ag am ar bith",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Suíomh",
+        "description": "Bunaithe i",
+        "value": "Sarajevo, An Bhoisnia agus an Heirseagaivéin"
+      },
+      "response": {
+        "title": "Am Freagartha",
+        "description": "De ghnáth freagraímid laistigh de",
+        "value": "24-48 uair an chloig"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Tionscadal Nua"
+      },
+      "support": {
+        "label": "Tacaíocht Theicniúil"
+      },
+      "partnerships": {
+        "label": "Comhpháirtíochtaí"
+      },
+      "careers": {
+        "label": "Gairmeacha"
+      },
+      "general": {
+        "label": "Fiosrúchán Ginearálta"
+      }
+    },
+    "form": {
+      "title": "Seol Teachtaireacht Chugainn",
+      "success": "Dúradh Is Maith Liom É Go raibh maith agat. Tiocfaimid ar ais chugat laistigh de 24-48 uair an chloig.",
+      "error": "Chuaigh rud éigin mícheart. Bain triail as arís nó seol ríomhphost chugainn go díreach.",
+      "fullName": "Ainm Iomlán *",
+      "email": "Seoladh Ríomhphoist *",
+      "company": "Cuideachta",
+      "subject": "Ábhar *",
+      "message": "Teachtaireacht *",
+      "placeholders": {
+        "name": "D'ainm",
+        "email": "you@example.com",
+        "company": "Do chuideachta",
+        "subject": "Cad is féidir linn cabhrú leis?",
+        "message": "Inis dúinn faoi do thionscadal nó d'fhiosrúchán..."
+      },
+      "validation": {
+        "required": {
+          "name": "Tá ainm iomlán ag teastáil.",
+          "email": "Tá seoladh ríomhphoist ag teastáil.",
+          "subject": "Roghnaigh ábhar, le do thoil.",
+          "message": "Tá teachtaireacht ag teastáil."
+        },
+        "email": "Iontráil seoladh ríomhphoist bailí le do thoil.",
+        "messageMinLength": "Caithfidh an teachtaireacht a bheith {{count}} carachtar ar a laghad ar fhad."
+      },
+      "sending": "Ag seoladh...",
+      "submit": "Seol Teachtaireacht"
+    },
+    "reasonsTitle": "Cén fáth a bheith ag obair linn?",
+    "reasons": [
+      "Saineolas forbartha bogearraí lán-stack",
+      "Speisialtóirí AI / ML agus ailtireacht scamall",
+      "Forbairt lúfar le cumarsáid thrédhearcach",
+      "Tacaíocht agus cothabháil fhadtéarmach"
+    ],
+    "custom": {
+      "title": "Réitigh Saincheaptha",
+      "description": "Ag lorg réiteach saincheaptha? Oibrímid go dlúth le cliaint chun riachtanais uathúla a thuiscint agus bogearraí saincheaptha a sheachadadh a thiomáineann torthaí intomhaiste.",
+      "cta": "Déan Do Thionscadal a Phlé"
+    },
+    "faq": {
+      "title": "An bhfuil tuilleadh ceisteanna agat?",
+      "description": "Amharc ar ár rannóg Ceisteanna Coitianta le haghaidh freagraí tapa",
+      "cta": "Brabhsáil Ceisteanna Coitianta"
+    }
+  },
+  "team": {
+    "badge": "Ár bhFoireann",
+    "hero": {
+      "titlePrefix": "Téigh in aithne ar na hintinn taobh thiar de",
+      "titleHighlight": "Teicneolaíocht Horizon",
+      "description": "Foireann éagsúil teicneolaithe, dearthóirí agus straitéiseoirí ag tógáil táirgí digiteacha ardtionchair le chéile."
+    },
+    "section": {
+      "title": "Foireann Ceannaireachta",
+      "description": "Na ceannairí a bhfuil taithí acu ag treorú fís agus fás Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Bunaitheoir, POF & CTO",
+        "bio": "Ceannaire aislingeach agus ailtire teicniúil le 10+ bliain i mbogearraí fiontraíochta, ag speisialú in AI / ML, ardáin scamall, agus ailtireacht táirgí inscálaithe.",
+        "expertise": [
+          "AI / ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Ailtireacht Réitigh",
+          "Innealtóireacht Scamall"
+        ]
+      },
+      "ahmet": {
+        "role": "Príomh-Ailtire Slándála",
+        "bio": "Speisialtóir cibearshlándála dírithe ar ailtireacht slándála fiontraíochta, bonneagar slán on-prem, agus seachadadh comhlíonta do thimpeallachtaí rialáilte.",
+        "expertise": [
+          "Cibearshlándáil",
+          "Córais On-Prem",
+          "Ailtireacht Slándála",
+          "Comhlíonadh",
+          "Slándáil Bonneagair"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Ríomhphost {{name}}",
+      "linkedin": "{{name}} Próifíl LinkedIn"
+    },
+    "culture": {
+      "title": "Saol ag Horizon Tech",
+      "description": "Cothaíonn muid cultúr nuálaíochta, comhoibrithe agus foghlama leanúnacha",
+      "remoteFirst": {
+        "title": "Cultúr Cianda Chéad",
+        "description": "Oibrigh ó áit ar bith le huaireanta solúbtha agus fócas ar thorthaí, ní ar shuíomh."
+      },
+      "collaborative": {
+        "title": "Timpeallacht Chomhoibríoch",
+        "description": "Imeachtaí foirne rialta, seisiúin roinnte eolais, agus comhoibriú trasfheidhmeach."
+      },
+      "workLife": {
+        "title": "Cothromaíocht Oibre-Saoil",
+        "description": "Polasaí saoire flaithiúil, tacaíocht meabhairshláinte, agus meas ar am pearsanta."
+      },
+      "innovation": {
+        "title": "Am Nuálaíochta",
+        "description": "20% ama le haghaidh tionscadail phearsanta, hackathons, agus teicneolaíochtaí nua a iniúchadh."
+      },
+      "stats": {
+        "teamMembers": "Baill na Foirne",
+        "countries": "Tíortha",
+        "techStacks": "Cruacha Tech",
+        "remoteReady": "Réidh le Ciana"
+      }
+    },
+    "cta": {
+      "title": "Ar mhaith leat a bheith inár bhfoireann?",
+      "description": "Táimid i gcónaí ag lorg daoine cumasacha a bhfuil cúram orthu faoi cheardaíocht, úinéireacht agus nuálaíocht.",
+      "button": "Téigh i dteagmháil linn"
+    }
+  },
+  "careers": {
+    "badge": "Bí inár bhFoireann",
+    "hero": {
+      "titlePrefix": "Tóg an Todhchaí",
+      "titleHighlight": "Linn",
+      "description": "Bí páirteach i bhfoireann innealtóirí ag tógáil bogearraí ceannródaíocha do chliaint dhomhanda. Oibrigh go cianda, fás go leanúnach, agus déan fíorthionchar.",
+      "button": "Féach Poist"
+    },
+    "process": {
+      "title": "Ár bPróiseas Fruilithe",
+      "description": "Trédhearcach, éifeachtach, agus measúil ar do chuid ama",
+      "steps": [
+        {
+          "title": "Déan iarratas",
+          "description": "Cuir isteach d'iarratas agus déanfaimid athbhreithniú air laistigh de 3 lá oibre."
+        },
+        {
+          "title": "Comhrá Tosaigh",
+          "description": "Glao físe 30 nóiméad chun do thaithí agus d'ionchais a phlé."
+        },
+        {
+          "title": "Teicniúil",
+          "description": "Agallamh teicniúil nó cleachtadh praiticiúil chun do chuid scileanna a thaispeáint."
+        },
+        {
+          "title": "Tairiscint",
+          "description": "Buail leis an bhfoireann agus faigh do thairiscint a bheith páirteach i Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Poist Oscailte",
+      "description": "Aimsigh do chéad deis eile agus bí inár bhfoireann atá ag fás",
+      "unavailable": "Gan glacadh le hiarratais ag an am seo",
+      "apply": "Déan Iarratas Anois",
+      "noMatch": "Nach bhfeiceann tú an ról foirfe?",
+      "sendCv": "Seol Do CV chugainn",
+      "listings": [
+        {
+          "title": "Innealtóir Sinsearach Lán-Stack",
+          "department": "Innealtóireacht",
+          "location": "Iargúlta (criosanna ama an AE)",
+          "type": "Lánaimseartha",
+          "description": "Tóg feidhmchláir fiontraíochta inscálaithe ag baint úsáide as teicneolaíochtaí React, Node.js, agus scamall.",
+          "tags": [
+            "Imoibríonn",
+            "Node.js",
+            "Clóscríobh",
+            "AWS"
+          ]
+        },
+        {
+          "title": "Innealtóir DevOps",
+          "department": "Innealtóireacht",
+          "location": "Sarajevo / Cianda",
+          "type": "Lánaimseartha",
+          "description": "Píblínte CI / CD, bonneagar mar chód, agus córais monatóireachta a dhearadh agus a chothabháil.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "Innealtóir AI / ML",
+          "department": "Saotharlann Nuálaíochta",
+          "location": "Cianda",
+          "type": "Lánaimseartha",
+          "description": "Múnlaí foghlama meaisín agus réitigh AI a fhorbairt do chliaint fiontraíochta.",
+          "tags": [
+            "Python",
+            "Sreabhadh TensorName",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Dearthóir Táirge",
+          "department": "Dearadh",
+          "location": "Cianda",
+          "type": "Lánaimseartha",
+          "description": "Cruthaigh eispéiris úsáideora álainn, iomasach d'iarratais fiontraíochta casta.",
+          "tags": [
+            "Figma",
+            "Taighde Úsáideora",
+            "UI/UX",
+            "Córais Dearaidh"
+          ]
+        },
+        {
+          "title": "Ailtire Réitigh",
+          "department": "Innealtóireacht",
+          "location": "Cianda",
+          "type": "Lánaimseartha",
+          "description": "Réitigh theicniúla a dhearadh agus cliaint a threorú trí chlaochlú digiteach.",
+          "tags": [
+            "Ailtireacht Scamall",
+            "Dearadh an Chórais",
+            "Comhairliúchán"
+          ]
+        },
+        {
+          "title": "Scríbhneoir Teicniúil",
+          "department": "Oibríochtaí",
+          "location": "Cianda",
+          "type": "Páirtaimseartha",
+          "description": "Cruthaigh doiciméadú cuimsitheach, ranganna teagaisc, agus ábhar teicniúil.",
+          "tags": [
+            "Doiciméadú",
+            "Doiciméid API",
+            "Scríbhneoireacht Theicniúil"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ceisteanna faoi bheith ag obair anseo?",
+      "description": "Ba bhreá linn cloisteáil uait. Téigh i dteagmháil agus freagróidh muid aon cheist faoin saol ag Horizon Tech.",
+      "button": "Déan Teagmháil Linn"
+    }
+  },
+  "caseStudies": {
+    "badge": "Scéalta Rathúla",
+    "hero": {
+      "titlePrefix": "Torthaí a sheachadadh a",
+      "titleHighlight": "Ábhar",
+      "description": "Déan iniúchadh ar an gcaoi ar chuidigh muid le cuideachtaí ar fud na dtionscal oibríochtaí a athrú trí theicneolaíocht phraiticiúil, ardtionchair.",
+      "tags": {
+        "delivery": "Seachadadh Innealtóireachta",
+        "outcomes": "Torthaí Tomhaiste"
+      }
+    },
+    "stats": {
+      "projects": "Tionscadail a Seachadadh",
+      "clients": "Cliaint Shona",
+      "efficiency": "Avg. Gnóthachan Éifeachtúlachta",
+      "retention": "Coinneáil Cliant"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Corp FinTech Domhanda",
+        "industry": "Seirbhísí Airgeadais",
+        "title": "Imirce agus Nuachóiriú Cloud",
+        "description": "Migrated córais baincéireachta oidhreachta chuig bonneagar scamall AWS le downtime nialasach.",
+        "challenge": "Ailtireacht monolithic oidhreachta is cúis le saincheisteanna scalability",
+        "result": "Aistríodh go rathúil go micreasheirbhísí ar AWS",
+        "metrics": [
+          {
+            "label": "Laghdú Costais",
+            "value": "40%"
+          },
+          {
+            "label": "Gnóthachan Feidhmíochta",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Micreasheirbhísí",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "Réitigh HealthTech",
+        "industry": "Cúram Sláinte",
+        "title": "Ardán Diagnóiseach faoi Thiomáint AI",
+        "description": "Múnlaí ML tógtha le haghaidh anailíse íomhá leighis le cruinneas 95% +.",
+        "challenge": "Próisis dhiagnóiseacha láimhe ag tógáil ró-fhada",
+        "result": "Diagnóisic uathoibrithe le AI / ML",
+        "metrics": [
+          {
+            "label": "Am a Shábháil",
+            "value": "70%"
+          },
+          {
+            "label": "Cruinneas",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "Sreabhadh TensorName",
+          "Imoibríonn",
+          "Cúram Sláinte"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Fathach Ríomhthráchtála",
+        "industry": "Miondíol",
+        "title": "Painéal Anailísíochta Fíor-Ama",
+        "description": "Ardán BI forbartha a phróiseálann 10M + imeachtaí go laethúil.",
+        "challenge": "Níl aon infheictheacht fíor-ama ar phríomhmhéadrachtaí gnó",
+        "result": "Ardán anailísíochta agus léargais fíor-ama",
+        "metrics": [
+          {
+            "label": "Imeachtaí/Lá",
+            "value": "10M +"
+          },
+          {
+            "label": "Am Freagartha",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "Imoibríonn",
+          "Innealtóireacht Sonraí"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Réidh le do scéal rathúlachta a scríobh?",
+      "description": "Déanaimis plé ar conas is féidir linn cabhrú leat torthaí comhchosúla a bhaint amach agus scála a dhéanamh le muinín."
+    },
+    "filters": {
+      "title": "Scagaire Tionscail",
+      "all": "Gach Tionscal",
+      "empty": "Níl aon chás-staidéir ag teacht leis an scagaire tionscail roghnaithe."
+    }
+  },
+  "blog": {
+    "badge": "Blag",
+    "hero": {
+      "titlePrefix": "Léargais agus Smaointe ó",
+      "titleHighlight": "Teicneolaíocht Horizon",
+      "description": "Ranganna teagaisc teicniúla, léargas tionscail, agus ceachtanna praiticiúla ó obair seachadta fíor."
+    },
+    "categories": [
+      "Gach Post",
+      "Ailtireacht Scamall",
+      "DevOps",
+      "AI / ML",
+      "Tosaigh",
+      "Inneall",
+      "Sonraí"
+    ],
+    "featuredPost": {
+      "id": "Réadmhaoin",
+      "title": "Todhchaí na Forbartha Cloud-Dúchasach: Treochtaí le Breathnú orthu i 2025",
+      "excerpt": "Déan iniúchadh ar na treochtaí is déanaí i bhforbairt scamall-dhúchasach, ó ailtireachtaí gan freastalaí go ríomhaireacht imeall.",
+      "author": {
+        "name": "Eagarthóireacht Horizon Tech"
+      },
+      "date": "Samhain 15, 2025",
+      "readTime": "8 nóiméad léite",
+      "category": "Ailtireacht Scamall",
+      "tags": [
+        "Scamall",
+        "Azure",
+        "Treochtaí"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Micreasheirbhísí inscálaithe a thógáil le Seirbhís Azure Kubernetes",
+        "excerpt": "Treoir phraiticiúil maidir le micreasheirbhísí a ailtireacht agus a imscaradh ag baint úsáide as AKS.",
+        "author": {
+          "name": "Eagarthóireacht Horizon Tech"
+        },
+        "date": "Samhain 12, 2025",
+        "readTime": "6 nóiméad léite",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Micreasheirbhísí",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Foghlaim Meaisín i dTáirgeadh: Ceachtanna Foghlamtha",
+        "excerpt": "Ceachtanna allamuigh ó mhúnlaí ML a imscaradh ar scála.",
+        "author": {
+          "name": "Eagarthóireacht Horizon Tech"
+        },
+        "date": "Samhain 10, 2025",
+        "readTime": "10 nóiméad léite",
+        "category": "AI / ML",
+        "tags": [
+          "Foghlaim Meaisín",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Cad atá Nua agus Cén Fáth go bhfuil sé tábhachtach",
+        "excerpt": "Tumadh domhain ar ghnéithe agus impleachtaí feidhmíochta React 19.",
+        "author": {
+          "name": "Eagarthóireacht Horizon Tech"
+        },
+        "date": "8 Samhain, 2025",
+        "readTime": "5 nóiméad léite",
+        "category": "Tosaigh",
+        "tags": [
+          "Imoibríonn",
+          "JavaScript",
+          "Forbairt Gréasáin"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Liostáil lenár Nuachtlitir",
+      "description": "Faigh na hailt, na ranganna teagaisc agus na léargais is déanaí a sheachadtar go seachtainiúil.",
+      "placeholder": "your.email@example.com",
+      "button": "Liostáil",
+      "note": "Gan turscar. Díliostáil ag am ar bith."
+    },
+    "index": {
+      "hero": {
+        "title": "Blag Innealtóireachta Horizon Tech",
+        "description": "Nótaí allamuigh agus patrúin phraiticiúla ó fhoirne a thógann táirgí AI, córais fiontraíochta, agus ardáin scamall iontaofa."
+      },
+      "filters": {
+        "postsInView": "{{count}} phoist in amharc"
+      },
+      "featured": {
+        "badge": "Is déanaí",
+        "readCta": "Léigh an post réadmhaoin"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Próifíl á luchtú...",
+    "title": "Socruithe Próifíle",
+    "subtitle": "Bainistigh socruithe agus sainroghanna do chuntais",
+    "photoButton": "Athraigh Grianghraf",
+    "tabs": {
+      "general": "Ginearálta",
+      "security": "Slándáil",
+      "preferences": "Sainroghanna"
+    },
+    "messages": {
+      "profileUpdated": "Próifíl nuashonraithe go rathúil",
+      "profileUpdateFailed": "Theip ar phróifíl a nuashonrú",
+      "passwordsNoMatch": "Ní mheaitseálann pasfhocail nua",
+      "passwordTooShort": "Caithfidh an focal faire a bheith 8 gcarachtar ar a laghad ar fhad",
+      "passwordChanged": "Athraíodh pasfhocal go rathúil",
+      "passwordChangeFailed": "Theip ar phasfhocal a athrú",
+      "optedOut": "Diúltaithe as tuarascálacha cleachtais",
+      "optedIn": "Roghnaíodh tuarascálacha a chleachtadh",
+      "optOutFailed": "Theip ar stádas an diúltaithe a nuashonrú"
+    },
+    "general": {
+      "title": "Faisnéis Phearsanta",
+      "description": "Nuashonraigh do shonraí pearsanta agus d'fhaisnéis teagmhála",
+      "firstName": "Céadainm",
+      "firstNamePlaceholder": "John",
+      "lastName": "Sloinne",
+      "lastNamePlaceholder": "Doe",
+      "email": "Seoladh Ríomhphoist",
+      "emailNotice": "Ní féidir ríomhphost a athrú. Déan teagmháil le tacaíocht má theastaíonn cúnamh uait.",
+      "phone": "Uimhir Theileafóin",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Sábháil Athruithe"
+    },
+    "security": {
+      "title": "Socruithe Slándála",
+      "description": "Bainistigh do phasfhocal agus do chuid sainroghanna slándála",
+      "currentPassword": "Pasfhocal Reatha",
+      "currentPasswordPlaceholder": "Iontráil an focal faire reatha",
+      "newPassword": "Pasfhocal Nua",
+      "newPasswordPlaceholder": "Iontráil pasfhocal nua",
+      "confirmPassword": "Deimhnigh Pasfhocal Nua",
+      "confirmPasswordPlaceholder": "Deimhnigh focal faire nua",
+      "passwordHint": "Caithfidh sé a bheith 8 gcarachtar ar a laghad ar fhad",
+      "changePassword": "Athraigh Pasfhocal"
+    },
+    "preferences": {
+      "title": "Sainroghanna Fógra",
+      "description": "Rialú a dhéanamh ar an gcaoi a bhfaigheann tú nuashonruithe agus fógraí",
+      "email": {
+        "title": "Fógraí Ríomhphoist",
+        "description": "Faigh nuashonruithe agus foláirimh trí ríomhphost"
+      },
+      "sms": {
+        "title": "Fógraí SMS",
+        "description": "Faigh foláirimh thábhachtacha trí theachtaireacht téacs"
+      },
+      "optOut": {
+        "title": "Diúltú Amach as Tuarascálacha Cleachtais",
+        "description": "Folaigh do thuairiscí ó úinéir an chleachtais"
+      },
+      "actions": {
+        "title": "Gníomhartha Cuntais",
+        "downloadData": "Íoslódáil Sonraí Cuntais",
+        "deleteAccount": "Scrios Cuntas"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Ar ais go Baile",
+    "title": "Ionad Tacaíochta",
+    "subtitle": "Faigh cabhair lenár seirbhísí forbartha bogearraí",
+    "cards": {
+      "email": {
+        "title": "Tacaíocht Ríomhphoist",
+        "description": "Seol ríomhphost chugainn le haghaidh aon fhiosrúcháin"
+      },
+      "project": {
+        "title": "Fiosrúcháin Tionscadail",
+        "description": "Pléigh do riachtanais tionscadail",
+        "button": "Déan Teagmháil Linn"
+      },
+      "resources": {
+        "title": "Acmhainní",
+        "description": "Acmhainní teicniúla agus treoracha",
+        "button": "Féach ar Acmhainní"
+      }
+    },
+    "faqTitle": "Ceisteanna Coitianta",
+    "faqDescription": "Freagraí tapa ar cheisteanna coitianta",
+    "faqs": [
+      {
+        "question": "Cad iad na seirbhísí a thairgeann Horizon Tech?",
+        "answer": "Soláthraímid forbairt bogearraí saincheaptha, réitigh AI / ML, ailtireacht scamall, DevOps, faisnéis ghnó, agus seirbhísí IoT."
+      },
+      {
+        "question": "Conas is féidir liom tionscadal a thosú le Horizon Tech?",
+        "answer": "Déan teagmháil linn trí fhoirm nó ríomhphost le do chuid riachtanas. Déanfaimid glao fionnachtana a sceidealú agus togra a roinnt."
+      },
+      {
+        "question": "An soláthraíonn tú tacaíocht agus cothabháil leanúnach?",
+        "answer": "Tá. Cuirimid pacáistí tacaíochta agus cothabhála ar fáil a chuimsíonn ceartúcháin fabht, nuashonruithe slándála, agus feabhsuithe gné."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Ar ais go Baile",
+    "title": "Acmhainní Teicniúla",
+    "subtitle": "Treoracha, ranganna teagaisc, agus dea-chleachtais ó fhoireann Horizon Tech",
+    "hub": {
+      "title": "An Mol Foghlama",
+      "description": "Déan iniúchadh ar ár n-acmhainní teicniúla coimeádaithe ar fud scamall, AI / ML, DevOps, agus forbairt bogearraí nua-aimseartha.",
+      "note": "Tá na hábhair seo bunaithe ar fhíor-thaithí tionscadail agus nuashonraítear iad go rialta."
+    },
+    "categories": [
+      {
+        "icon": "scamall",
+        "title": "Ailtireacht Scamall",
+        "description": "Patrúin Azure, AWS, agus scamall-dhúchasacha",
+        "resources": [
+          {
+            "title": "Dea-Chleachtais Ailtireachta Azure",
+            "type": "Treoir"
+          },
+          {
+            "title": "Straitéisí Imirce Scamall",
+            "type": "Airteagal"
+          }
+        ]
+      },
+      {
+        "icon": "inchinn",
+        "title": "AI & Foghlaim Meaisín",
+        "description": "Múnlaí ML, eolaíocht sonraí, agus comhtháthú AI",
+        "resources": [
+          {
+            "title": "Réamhrá le Azure ML",
+            "type": "Rang Teagaisc"
+          },
+          {
+            "title": "Píblínte ML Táirgeachta Foirgníochta",
+            "type": "Treoir"
+          }
+        ]
+      },
+      {
+        "icon": "Socruithe",
+        "title": "DevOps & Ardán",
+        "description": "CI / CD, bonneagar mar chód, uathoibriú",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Rang Teagaisc"
+          },
+          {
+            "title": "Bonneagar mar Chód le Terraform",
+            "type": "Treoir"
+          }
+        ]
+      },
+      {
+        "icon": "cód",
+        "title": "Forbairt Bogearraí",
+        "description": ".NET, React, agus cleachtais forbartha nua-aimseartha",
+        "resources": [
+          {
+            "title": "Ailtireacht Ghlan i .NET",
+            "type": "Treoir"
+          },
+          {
+            "title": "Dea-Chleachtais React",
+            "type": "Airteagal"
+          }
+        ]
+      },
+      {
+        "icon": "bunachar sonraí",
+        "title": "Sonraí & Anailísíocht",
+        "description": "Ardáin BI, trádstórála sonraí, agus anailísíochta",
+        "resources": [
+          {
+            "title": "Dearadh Painéal na nIonstraimí Power BI",
+            "type": "Rang Teagaisc"
+          },
+          {
+            "title": "Ailtireacht Stórais Sonraí",
+            "type": "Treoir"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "An bhfuil oiliúint saincheaptha ag teastáil uait?",
+      "description": "Cuirimid ceardlanna saincheaptha ar fáil d'fhoirne innealtóireachta agus táirgí",
+      "text": "An bhfuil oiliúint fhoireann phraiticiúil ag teastáil uait? Soláthraímid ceardlanna saincheaptha ar ailtireacht scamall, DevOps, agus cleachtais seachadta nua-aimseartha.",
+      "button": "Téigh i dteagmháil linn"
+    }
+  },
+  "unauthorized": {
+    "title": "Rochtain Diúltaithe",
+    "description": "Níl cead agat rochtain a fháil ar an leathanach seo. Déan teagmháil le do riarthóir má cheapann tú gur botún é seo.",
+    "primary": "Téigh go dtí Próifíl",
+    "secondary": "Ar ais go Baile"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Post gan aimsiú",
+      "description": "Níl aon bhlagphost ann do seilide: {{slug}}",
+      "back": "Ar ais chuig an mblag"
+    },
+    "back": "Ar ais chuig an mblag",
+    "publisher": "Teicneolaíocht Horizon"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Cás-staidéar gan aimsiú",
+      "description": "Níl aon chás-staidéar ann le haghaidh id: {{id}}",
+      "back": "Ar ais chuig cás-staidéir"
+    },
+    "back": "Ar ais chuig cás-staidéir",
+    "sections": {
+      "executiveSummary": "Achoimre Feidhmiúcháin",
+      "businessChallenge": "Dúshlán Gnó",
+      "technicalSolution": "Réiteach Teicniúil",
+      "architectureDecisions": "Cinntí Ailtireachta",
+      "technologyStack": "Stack Teicneolaíochta",
+      "resultsImpact": "Torthaí & Tionchar"
+    },
+    "client": "Cliant",
+    "keyOutcomes": "Príomhthorthaí",
+    "decision": "Cinneadh {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Comhartha Caillte",
+      "title": "Leathanach Gan Aimsiú",
+      "description": "Níl an bealach a d'iarr tú ann nó níor bhog sé. A ligean ar tú a fháil ar ais chuig críochphointe bailí Horizon Tech.",
+      "requestedPath": "Conair iarrtha",
+      "terminal": {
+        "prompt": "$ réiteach horizon-ródaire --path",
+        "line1": "Graf bealaigh á réiteach... Theip",
+        "line2": "Cúis: gan aon mhodúl bealaigh meaitseála",
+        "line3": "Prótacal cúltaca gafa",
+        "line4": "Bain úsáid as ceann de na aicearraí thíos chun leanúint ar aghaidh"
+      },
+      "links": {
+        "home": "Leathanach baile",
+        "services": "Seirbhísí",
+        "blog": "Blag",
+        "caseStudies": "Cás-Staidéir"
+      }
+    },
+    "runtime": {
+      "badge": "Earráid Runtime",
+      "title": "Rud éigin briste ar an leathanach seo",
+      "description": "Chuir saincheist gan choinne isteach ar rindreáil. Is féidir leat triail a bhaint as arís go sábháilte, nó filleadh ar an leathanach baile.",
+      "retry": "Déan iarracht arís",
+      "home": "Ar ais go dtí an leathanach baile",
+      "unknown": "Earráid runtime anaithnid"
+    }
+  },
+  "meta": {
+    "siteName": "Blag Horizon Tech"
+  },
+  "admin": {
+    "blog": {
+      "title": "Bainistíocht Blag",
+      "subtitle": "Cruthaigh, cuir in eagar agus bainistigh do phoist bhlag",
+      "newPost": "Post Nua",
+      "seedData": "Sonraí Síolta",
+      "allPosts": "Gach Post",
+      "published": "Foilsithe",
+      "draft": "Dréacht",
+      "featured": "Réadmhaoin",
+      "setFeatured": "Socraigh Réadmhaoin",
+      "removeFeatured": "Bain Réadmhaoin",
+      "table": {
+        "title": "Teideal",
+        "category": "Catagóir",
+        "status": "Stádas",
+        "date": "Dáta",
+        "actions": "Gníomhartha"
+      },
+      "empty": {
+        "message": "Níl aon bhlagphoist ann fós. Cruthaigh do chéad phost nó sonraí samplacha síolta.",
+        "seed": "Sonraí Samplacha Síolta",
+        "create": "Cruthaigh Post"
+      },
+      "delete": {
+        "title": "Scrios Post",
+        "confirmation": "An bhfuil tú cinnte gur mhaith leat an post seo a scriosadh? Ní féidir an gníomh seo a chealú.",
+        "delete": "Scrios",
+        "cancel": "Cuir ar ceal"
+      }
+    },
+    "editor": {
+      "bannerHint": "Ar taispeáint mar bhratach leathan ag barr an phoist",
+      "bannerImage": "Íomhá Meirge",
+      "coverHint": "Ar taispeáint i gcártaí liostála blag",
+      "coverImage": "Íomhá an Chlúdaigh",
+      "editSlug": "Cuir seilide in eagar",
+      "posts": "Poist",
+      "publish": "Foilsigh",
+      "update": "Nuashonraigh",
+      "form": {
+        "contentPlaceholder": "Scríobh ábhar do phoist anseo...",
+        "excerptPlaceholder": "Achoimre ghearr ar an bpost...",
+        "pickDate": "Roghnaigh dáta",
+        "readTimePlaceholder": "m.sh. 5 nóiméad léite",
+        "titlePlaceholder": "Teideal an phoist..."
+      },
+      "meta": {
+        "publisher": "Foilsitheoir",
+        "unknownAuthor": "Údar anaithnid"
+      },
+      "modes": {
+        "edit": "Eagar",
+        "editOnly": "Cuir in Eagar amháin",
+        "preview": "Réamhamharc",
+        "previewOnly": "Réamhamharc amháin",
+        "sideBySide": "Taobh le taobh",
+        "split": "Scoilt"
+      },
+      "tags": {
+        "heading": "Clibeanna",
+        "placeholder": "Cuir clib leis..."
+      },
+      "translations": {
+        "auto": "Uathoibríoch",
+        "autoTranslate": "Aistrigh go huathoibríoch",
+        "clear": "Glan",
+        "existing": "Atá ann cheana",
+        "heading": "Aistriúcháin",
+        "language": "Teanga",
+        "languages": "Teangacha",
+        "edit": "Eagar",
+        "manual": "Lámhleabhar",
+        "preview": "Réamhamharc",
+        "searchPlaceholder": "Teangacha cuardaigh...",
+        "translate": "Aistrigh"
+      }
+    },
+    "caseStudies": {
+      "title": "Cás-Staidéir",
+      "subtitle": "Bainistiú a dhéanamh ar chás-staidéir agus ar thaispeántais tionscadail",
+      "newCaseStudy": "Cás-Staidéar Nua",
+      "seedData": "Sonraí Síolta",
+      "allCaseStudies": "Gach Cás-Staidéar",
+      "published": "Foilsithe",
+      "draft": "Dréacht",
+      "table": {
+        "title": "Teideal",
+        "industry": "Tionscal",
+        "client": "Cliant",
+        "status": "Stádas",
+        "actions": "Gníomhartha"
+      },
+      "empty": {
+        "message": "Níl aon chás-staidéar fós.",
+        "seed": "Sonraí Síolta",
+        "create": "Cruthaigh ar Dtús"
+      },
+      "delete": {
+        "title": "Scrios Cás-Staidéar",
+        "confirmation": "An bhfuil tú cinnte gur mhaith leat an cás-staidéar seo a scriosadh? Ní féidir an gníomh seo a chealú.",
+        "delete": "Scrios",
+        "cancel": "Cuir ar ceal"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Cás-Staidéir",
+      "published": "Foilsithe",
+      "draft": "Dréacht",
+      "update": "Nuashonraigh",
+      "create": "Cruthaigh",
+      "sections": {
+        "basicInfo": "Eolas Bunúsach",
+        "narrative": "Scéalaíocht",
+        "architectureDecisions": "Cinntí Ailtireachta",
+        "techStack": "Tech Stack",
+        "results": "Torthaí",
+        "tags": "Clibeanna"
+      },
+      "fields": {
+        "title": "Teideal",
+        "titlePlaceholder": "Teideal an chás-staidéir",
+        "slug": "Seilide",
+        "slugPlaceholder": "Teideal-Uathghiniúna",
+        "client": "Cliant",
+        "clientPlaceholder": "Ainm an chliaint",
+        "industry": "Tionscal",
+        "industryPlaceholder": "Roghnaigh tionscal",
+        "description": "Cur síos",
+        "descriptionPlaceholder": "Cur síos gairid (le feiceáil ar chártaí)",
+        "executiveSummary": "Achoimre Feidhmiúcháin",
+        "executiveSummaryPlaceholder": "Forbhreathnú ardleibhéil ar an rannpháirtíocht",
+        "challenge": "Dúshlán",
+        "challengePlaceholder": "Cén fhadhb a bhí ag an gcliant?",
+        "solution": "Réiteach",
+        "solutionPlaceholder": "Conas a réitíodh an fhadhb?",
+        "decision": "Cinneadh",
+        "decisionPlaceholder": "Cad a socraíodh",
+        "rationale": "Réasúnaíocht",
+        "rationalePlaceholder": "Cén fáth ar roghnaíodh an cur chuige seo",
+        "metric": "Méadrach",
+        "metricPlaceholder": "m.sh. Latency Socraíochta",
+        "value": "Luach",
+        "valuePlaceholder": "m.sh. -63% nó 4.8h -> 11m",
+        "resultDescription": "Cur síos",
+        "resultDescriptionPlaceholder": "Cad a chiallaíonn an toradh seo",
+        "techPlaceholder": "Cuir teicneolaíocht leis (brúigh Iontráil)",
+        "tagPlaceholder": "Cuir clib leis (brúigh Iontráil)"
+      },
+      "add": "Cuir Leis",
+      "noArchDecisions": "Níor cuireadh aon chinntí ailtireachta leis go fóill.",
+      "noResults": "Níor cuireadh aon toradh leis fós.",
+      "decisionLabel": "Cinneadh {{number}}",
+      "resultLabel": "Toradh {{number}}",
+      "controls": {
+        "published": "Foilsithe",
+        "publishedDescription": "Déan an cás-staidéar seo infheicthe go poiblí",
+        "featured": "Réadmhaoin",
+        "featuredDescription": "Aibhsigh an cás-staidéar seo"
+      }
+    },
+    "imageCrop": {
+      "apply": "Déan iarratas",
+      "cancel": "Cuir ar ceal",
+      "cropTitle": "Íomhá Barraí",
+      "dropText": "Buail íomhá anseo nó cliceáil chun í a uaslódáil",
+      "flipHorizontal": "Smeach cothrománach",
+      "flipVertical": "Smeach ingearach",
+      "replace": "Ionadaigh",
+      "reset": "Athshocraigh",
+      "rotateLeft": "Rothlaigh ar chlé",
+      "rotateRight": "Rothlaigh ar dheis",
+      "uploading": "Á Uaslódáil...",
+      "toast": {
+        "invalidFile": "Comhad neamhbhailí",
+        "invalidFileDesc": "Uaslódáil comhad íomhá bailí, le do thoil.",
+        "uploadFailed": "Theip ar uaslódáil",
+        "uploadFailedDesc": "Chuaigh rud éigin mícheart. Bain triail as arís le do thoil.",
+        "uploaded": "Íomhá uaslódáilte",
+        "uploadedDesc": "Uaslódáileadh d'íomhá go rathúil."
+      }
+    }
+  }
+}

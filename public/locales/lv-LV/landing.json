@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Inženiertehniskās sistēmas, kas mērogojas",
+    "subtitle": "Uzņēmuma programmatūra · AI un mašīnmācīšanās · Mākoņa infrastruktūra · IoT un Edge",
+    "description": "Sākot ar inteliģentu automatizāciju un beidzot ar mākoņa platformām, mēs izstrādājam un piegādājam tehnoloģijas, kas nodrošina ambiciozus uzņēmumus — laikā, budžetā un mērogā.",
+    "cta": {
+      "primary": "Sāciet projektu",
+      "secondary": "Skatīt mūsu darbu"
+    },
+    "trustLine": "Uzticas uzņēmumi visā pasaulē"
+  },
+  "services": {
+    "subtitle": "Mūsu pakalpojumi",
+    "title": "Pilna spektra inženierija",
+    "description": "Sešas prakses jomas. Viena komanda. Katrs jūsu tehnoloģiju slānis — no perifērajām ierīcēm līdz uzņēmuma informācijas paneļiem.",
+    "commentMarker": "PAKALPOJUMI",
+    "items": {
+      "customSoftware": {
+        "title": "Pielāgota programmatūras izstrāde",
+        "description": "Mūsdienīgas lietojumprogrammas, kas veidotas ar mikropakalpojumiem, API un mākoņa arhitektūru."
+      },
+      "aiMl": {
+        "title": "AI, ML un biznesa inteliģence",
+        "description": "AI/ML cauruļvadi, Power BI informācijas paneļi un uzlabota analīze, kas pārvērš datus lēmumos."
+      },
+      "cloud": {
+        "title": "Mākoņa arhitektūra un infrastruktūra",
+        "description": "Vairāku mākoņu infrastruktūra ar iebūvētiem konteineriem, bezservera un globālu mērogojamību."
+      },
+      "iot": {
+        "title": "IoT un perifērā skaitļošana",
+        "description": "Savienotās ierīces, digitālie dvīņi un perifērā skaitļošana Industry 4.0."
+      },
+      "devops": {
+        "title": "DevOps un platformu inženierija",
+        "description": "CI/CD cauruļvadi, infrastruktūra kā kods un novērojamība no saistībām līdz ražošanai."
+      },
+      "digital": {
+        "title": "Digitālā transformācija un konsultācijas",
+        "description": "Tehnoloģiju stratēģija, modernizācijas ceļveži un praktiskas konsultācijas."
+      }
+    },
+    "cta": {
+      "title": "Veidosim kaut ko nopietnu",
+      "description": "Sākot ar pielāgotu programmatūras izstrādi un mākslīgā intelekta risinājumiem un beidzot ar mākoņa infrastruktūru un automatizāciju — mēs nodrošinām visaptverošus tehnoloģiju pakalpojumus, kas pielāgoti jūsu prasībām.",
+      "primary": "Sāciet savu projektu",
+      "secondary": "Ieplānojiet konsultāciju"
+    },
+    "learnMore": "Uzzināt vairāk"
+  },
+  "credibility": {
+    "subtitle": "Mūsu sasniegumi",
+    "title": "Rezultāti, nevis <gradient>solījumi</gradient>",
+    "titlePlain": "Rezultāti, nevis solījumi",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "No Sarajevas uz Oslo, Amsterdamu un Berlīni. Uzņēmumu sistēmas tiek piegādātas laikā un katru reizi.",
+    "stats": {
+      "experience": "Gadu apvienotā pieredze",
+      "countries": "Apkalpotās valstis",
+      "systems": "Piegādātās sistēmas",
+      "industries": "Apkalpotās nozares"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Mākoņa IAM Atlas Copco",
+        "outcome": "Izstrādāta pirmā mākoņa arhitektūras One Identity infrastruktūra Atlas Copco pakalpojumā Azure Kubernetes, samazinot izmaksas, vienlaikus saglabājot uzņēmuma atbilstību."
+      },
+      "orange": {
+        "label": "Oranžā kiberaizsardzības platforma",
+        "outcome": "Izstrādāta Azure Kubernetes infrastruktūra, CI/CD cauruļvadi un pielāgota ServiceNow integrācija Eiropas vadošajam kiberdrošības uzņēmumam."
+      },
+      "telecom": {
+        "label": "Telekomunikāciju ĢIS un papildinātās realitātes platforma",
+        "outcome": "Uzbūvēta ĢIS platforma, kas kartē pazemes komunālos pakalpojumus visā Vācijā ar sadursmju atklāšanu, novēršot vairāku miljonu eiro infrastruktūras bojājumus."
+      },
+      "iot": {
+        "label": "Mākoņa IoT un Edge platforma",
+        "outcome": "Azure IoT Hub pārvalda tūkstošiem ierīču, Synapse apstrādā miljardiem telemetrijas rindu un malu apkopošanu samazina ziņojumu izmaksas par ~90%."
+      },
+      "drone": {
+        "label": "Autonomā dronu platforma",
+        "outcome": "Pielāgots lidojuma kontrolieris ar 4G-to-Azure IoT Hub tiltu, kas nodrošina autonomus BVLOS lidojumus lauksaimniecības uzraudzībai un kravas piegādei."
+      },
+      "payment": {
+        "label": "Maksājumu sistēmas glābšana",
+        "outcome": "Izglābta neveiksmīga maksājumu vārteja Norvēģijas mobilajai lietotnei, izmantojot reverso inženierijas nedokumentētu mantoto kodu. Nulles maksājumu dīkstāve pēc modernizācijas."
+      },
+      "game": {
+        "label": "AAA spēļu izstrādātāju rīki",
+        "outcome": "Izveidots Maya spraudnis, kas samazināja 3D modelēšanas un animācijas laiku par 50% lielā AAA studijā, kas tika pieņemts kā standarta rīks ražošanas konveijerā."
+      },
+      "social": {
+        "label": "Uz atrašanās vietu balstīta sociālā platforma",
+        "outcome": "Arhitektūras iepazīšanās lietotne Spānijas naktsdzīves ainai ar ģeogrāfiskās atrašanās vietas saskaņošanu, reāllaika ziņojumapmaiņu un pašpiegādes paziņojumiem Apvienotās Karalistes klientam."
+      },
+      "iga": {
+        "label": "Vairāku nomnieku IGA platforma",
+        "outcome": "Izveidota pamata aizmugures sistēma mākoņa identitātes pārvaldības platformai, kas apkalpo Fortune 500 klientus ar pielāgotu ASP.NET Core Identity for NoSQL uzņēmuma mērogā."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "ES blakus, globāla piegāde",
+        "description": "CET darba laiks ar pieredzi Norvēģijā, Nīderlandē, Vācijā un citur."
+      },
+      "yourEngineers": {
+        "title": "Jūsu inženieri, nevis pārdevējs",
+        "description": "Īpaši komandas locekļi, kas iestrādāti jūsu darbplūsmā un rīkos. Nav kontu pārvaldnieku, nav biļešu rindu."
+      },
+      "hardwareToCloud": {
+        "title": "Aparatūra mākonī",
+        "description": "No iegultās ierīces aparātprogrammatūras līdz uzņēmuma Azure Synapse cauruļvadiem. Pilna programmatūra visos slāņos."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Tehnoloģiju kaudze",
+    "title": "Cīņā pārbaudīta <gradient>kaudze</gradient>",
+    "titlePlain": "Cīņā pārbaudīta kaudze",
+    "commentMarker": "TECH_STACK",
+    "description": "Mēs ne tikai izmantojam šos rīkus, bet arī piegādājam ražošanas sistēmas. Sākot ar Microsoft Azure un beidzot ar Kubernetes, mūsu inženieriem ir reālas zināšanas.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Mākonis un infrastruktūra",
+        "description": "Vairāku mākoņu arhitektūra ar konteineru orķestrēšanu un infrastruktūru kā kodu."
+      },
+      "frontend": {
+        "label": "Frontend",
+        "description": "Mūsdienīgi komponentu rāmji ar tipa drošību un optimizētiem būvniecības rīkiem."
+      },
+      "backend": {
+        "label": "Aizmugures sistēma un API",
+        "description": "Uzņēmuma līmeņa serveru platformas, sistēmu valodas un mūsdienīgas API paradigmas."
+      },
+      "data": {
+        "label": "Dati un glabāšana",
+        "description": "Relāciju, dokumentu un atmiņas krātuves ar pilnteksta meklēšanu."
+      },
+      "devops": {
+        "label": "DevOps un rīki",
+        "description": "CI/CD cauruļvadi, versiju kontrole un izstrādātāju produktivitāte."
+      }
+    },
+    "scanning": "SKENĒŠANAS FREKVENCES...",
+    "summary": {
+      "cloudNative": {
+        "title": "Mākoņa vietējais pēc noklusējuma",
+        "description": "Katrs projekts ir konteinerizēts, CI / CD vadīts un veidots horizontālam mērogam no pirmās dienas."
+      },
+      "fullStack": {
+        "title": "Pilna kaudzes brīvība",
+        "description": "No React saskarnēm līdz .NET mikropakalpojumiem un Kubernetes klasteriem — viena komanda, no gala līdz galam."
+      },
+      "productionProven": {
+        "title": "Pārbaudīta ražošanā",
+        "description": "Tās nav demonstrācijas tehnoloģijas. Katrs uzskaitītais rīks nodrošina reālas sistēmas, kas mūsdienās kalpo reāliem lietotājiem."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Tehnoloģiju logotipi 1. rinda",
+      "row2Aria": "Tehnoloģiju logotipi 2. rinda",
+      "row3Aria": "Tehnoloģiju logotipi 3. rinda"
+    }
+  },
+  "faq": {
+    "subtitle": "Zināšanu bāze",
+    "title": "Biežāk uzdotie <gradient>jautājumi</gradient>",
+    "titlePlain": "Biežāk uzdotie jautājumi",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Viss, kas jums jāzina par darbu ar Horizon Tech",
+    "items": {
+      "scope": {
+        "question": "Kāds ir jūsu darba apjoms?",
+        "answer": "Mēs piegādājam visaptverošus tehnoloģiju projektus: pielāgotu uzņēmuma programmatūru, AI/ML cauruļvadus, mākoņa infrastruktūru, IoT sistēmas, DevOps automatizāciju un digitālās transformācijas konsultācijas. Neatkarīgi no tā, vai jums ir nepieciešama pilna platforma, kas izveidota no nulles, vai mērķtiecīga integrācija ar esošo steku, mēs nodarbojamies ar arhitektūru, izstrādi, testēšanu un izvietošanu."
+      },
+      "stack": {
+        "question": "Kāda ir jūsu galvenā tehnoloģiju kaudze?",
+        "answer": "Mūsu pamata kaudze koncentrējas uz uzņēmuma līmeņa platformām: Azure un AWS mākonim, .NET un Node.js aizmugures sistēmai, React un Angular priekšgalam, Kubernetes un Docker orķestrēšanai un Terraform infrastruktūrai kā kodam. Mēs arī plaši sadarbojamies ar Python AI/ML darba slodzēm, Power BI un Fabric biznesa inteliģencei un PostgreSQL, SQL Server un MongoDB datiem."
+      },
+      "enterprise": {
+        "question": "Kā jūs rīkojaties ar uzņēmuma projektiem?",
+        "answer": "Katra iesaistīšanās sākas ar atklāšanas fāzi, lai noteiktu darbības jomu, arhitektūru un atskaites punktus. Jūs saņemat īpašu komandu ar tehnisko vadību, regulāriem atskaites punktiem un tiešu piekļuvi inženieriem, kas veido jūsu sistēmu. Mēs sekojam veikliem sprintiem ar ieinteresēto pušu demonstrācijām, uzturam caurspīdīgus projektu dēļus un sniedzam iknedēļas progresa ziņojumus."
+      },
+      "support": {
+        "question": "Kā izskatās atbalsts pēc palaišanas?",
+        "answer": "Mēs piedāvājam strukturētus atbalsta līmeņus ar definētiem SLA, ieskaitot 24/7 uzraudzību, reaģēšanu uz incidentiem, veiktspējas optimizāciju un funkciju iterāciju. Mūsu atbalsta līgumi attiecas uz kļūdu labojumiem, drošības ielāpiem, infrastruktūras mērogošanu un proaktīvām darbspējas pārbaudēm, kas pielāgotas jūsu darbspējas un reakcijas laika prasībām."
+      },
+      "integration": {
+        "question": "Vai jūs varat integrēties ar mūsu esošo infrastruktūru?",
+        "answer": "Pilnīgi. Mēs specializējamies mantotajā modernizācijā, API integrācijā un hibrīda mākoņa migrācijā. Neatkarīgi no tā, vai jums ir nepieciešams izveidot savienojumu ar lokālajām ERP sistēmām, migrēt no monolītiem uz mikropakalpojumiem vai savienot mantotās datu bāzes ar mūsdienīgām saskarnēm, mums ir migrācijas rokasgrāmatas un integrācijas pieredze, lai to padarītu nevainojamu."
+      },
+      "industries": {
+        "question": "Kādās nozarēs esat strādājis?",
+        "answer": "Mūsu komanda ir īstenojusi projektus fintech, veselības aprūpes, loģistikas, e-komercijas, enerģētikas un valdības sektoros. Mēs saprotam nozarei specifiskas prasības, piemēram, PCI-DSS maksājumiem, HIPAA apsvērumus attiecībā uz veselības datiem, GDPR atbilstību ES tirgiem un reāllaika telemetriju rūpnieciskajam IoT."
+      },
+      "engagement": {
+        "question": "Kā izskatās iesaistīšanās process?",
+        "answer": "Tas sākas ar atklāšanas zvanu, lai izprastu savus mērķus un tehnisko ainavu. No turienes mēs piegādājam darbības jomas dokumentu ar arhitektūras ieteikumiem, laika grafiku un investīciju sadalījumu. Pēc apstiprināšanas mēs sākam darbu ar īpašu komandu, iesaistām jūsu rīkus un darbplūsmas un sākam pirmo sprintu dažu dienu laikā."
+      }
+    },
+    "stillHaveQuestions": "Vai jums joprojām ir jautājumi?",
+    "ctaDescription": "Vai jums ir kāds projekts? Parunāsim par darbības jomu, laika grafiku un budžetu.",
+    "readCaseStudies": "Lasiet mūsu gadījumu izpēti",
+    "scheduleCall": "Ieplānot zvanu"
+  }
+}

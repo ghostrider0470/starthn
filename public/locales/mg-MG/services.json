@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Atombohy",
+    "ctaSecondary": "Fandaharam-potoana fifampidinihana"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Fampandrosoana ny rindrambaiko Enterprise",
+      "description": "Fampiharana orinasa farany miaraka amin'ny rafitra maoderina, maritrano API-voalohany, ary scalability rahona."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Aiza no very ny hafainganam-pandeha, ny teti-bola ary ny fampifanarahana stratejika"
+      },
+      "approach": {
+        "title": "Fomba fiasa injeniera",
+        "subtitle": "Ahoana no hamadihana ny fepetra takiana manjavozavo ho sehatra vonona amin'ny famokarana"
+      },
+      "principles": {
+        "title": "Fitsipika momba ny maritrano",
+        "subtitle": "Famolavolana fanapahan-kevitra izay mitazona ny rafitry ny orinasa amin'ny ambaratonga"
+      },
+      "capabilities": {
+        "title": "Inona no atsanganay",
+        "subtitle": "Fahaiza-manao fampandrosoana rindrambaiko feno"
+      },
+      "technology": {
+        "title": "Ny teknolojia stack",
+        "subtitle": "Teknolojia maoderina sy voaporofo ho an'ny fanaterana orinasa"
+      },
+      "breakdown": {
+        "title": "Fahatapahan'ny serivisy",
+        "subtitle": "Lalana voalamina avy amin'ny fahitana mankany amin'ny fanaterana famokarana milamina"
+      }
+    },
+    "problem": {
+      "overview": "Ny ekipan'ny orinasa dia matetika mitondra fizotran'ny asa mitsikera amin'ny rafitra mizarazara, mamorona fotoana lava, angon-drakitra tsy miovaova, ary fandrindrana tanana lafo vidy eo amin'ny departemanta.",
+      "painPointsTitle": "Fanaintainana ara-barotra miverimberina",
+      "impactSignalsTitle": "Inona no hitan'ny mpitarika matetika",
+      "painPoints": [
+        "Ny fanoloran-tena amin'ny fandefasana dia mihena satria ny fiankinan-doha amin'ny ekipa dia tsy voafehy",
+        "Ny lojika ara-barotra fototra dia miverimberina amin'ny fantsona sy ny vokatra",
+        "Ny fampidirana lova dia mahatonga ny fandefasana endri-javatra vaovao ho mampidi-doza sy miadana"
+      ],
+      "impactSignals": [
+        "Mihena ny fivezivezena amin'ny tondrozotra raha mitombo ny fandaniana amin'ny injeniera",
+        "Mitombo ny lesoka amin'ny mpanjifa mandritra ny vanim-potoana famotsorana",
+        "Mihena ny fanapahan-kevitra noho ny tsy fanarahan-dalàna amin'ny tatitra momba ny asa"
+      ]
+    },
+    "approach": {
+      "overview": "Izahay dia manatanteraka amin'ny fahitana voalohany amin'ny maritrano, ny fandefasana ny fifanarahana, ary ny injenieran'ny famoahana voafehy mba handefasana ny sandan'ny orinasa amin'ny fitomboana azo vinavinaina.",
+      "pillars": [
+        {
+          "title": "Modely Domain sy Contexted Bounded",
+          "detail": "Manao sarintany izahay mba hanazava ny fetran'ny serivisy mba hampihenana ny fifandraisana amin'ny ekipa ary hanazava ny fananana."
+        },
+        {
+          "title": "Paikady fampidirana API-First",
+          "detail": "Izahay dia mamaritra fifanarahana marin-toerana aloha, ahafahan'ny fampandrosoana mifanitsy sy ny fampidirana azo antoka kokoa amin'ny rafitry ny orinasa."
+        },
+        {
+          "title": "Workflow fandefasana mandroso",
+          "detail": "Mampiasa sainam-pirenena, rollouts staged, ary vavahady kalitao mba hamoahana haingana nefa tsy manelingelina ny famokarana."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ny fanapahan-kevitry ny maritrano dia manome laharam-pahamehana ny faharetan'ny androm-piainana, ny fahaiza-miasa ary ny fananana mazava mba hahafahan'ny sehatra mijanona ho azo ampifanarahana rehefa mitombo ny sehatry ny orinasa.",
+      "items": [
+        {
+          "title": "Sisin-tany amin'ny serivisy modular",
+          "detail": "Ny fahaiza-manao dia fonosina manodidina ny sehatry ny fandraharahana mba hitazonana ny fiantraikan'ny fiovana eo an-toerana."
+        },
+        {
+          "title": "Fampidirana entin'ny hetsika",
+          "detail": "Ny fizotran'ny asa asynchronous dia ampiasaina amin'ny toerana misy ny fandeferana latency hanatsarana ny faharetana sy ny rafitra decouple."
+        },
+        {
+          "title": "Fandinihana amin'ny alàlan'ny famolavolana",
+          "detail": "Ny fanaraha-maso, ny metrika ary ny vatan-kazo voarafitra dia voafaritra mialoha mba hanohanana ny asa azo antoka sy ny fitantanana SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Fampiharana tranonkala manokana",
+      "Fampandrosoana ny fampiharana finday",
+      "Fampandrosoana sy fampidirana API",
+      "Microservices Architecture",
+      "Vahaolana teratany rahona",
+      "Fanavaozana ny rafitra lova"
+    ],
+    "technologies": [
+      {
+        "name": "Mihetsika",
+        "category": "Ny Frontend",
+        "icon": "Fihetsika"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "Nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "Ny Dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Fiteny",
+        "icon": "Sora-baventy"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "graphql"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Tahiry",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Tahiry",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Discovery sy Architecture",
+        "summary": "Izahay dia manao sarintany ny laharam-pahamehana ara-barotra, ny fanerena ara-teknika, ary ny maritrano kendrena alohan'ny hanombohan'ny fampiharana.",
+        "deliverables": [
+          "Atrikasa fampifanarahana ny vokatra sy ny fepetra takiana",
+          "Drafitra momba ny maritrano vahaolana",
+          "Drafitra fanaterana mifototra amin'ny dingana lehibe"
+        ]
+      },
+      {
+        "title": "Fananganana sy fampidirana",
+        "summary": "Ny ekipanay dia mampihatra ny endri-javatra fototra, ny sosona fampidirana ary ny fiarovana ny kalitao mifanaraka.",
+        "deliverables": [
+          "Fampandrosoana ny endri-javatra amin'ny sprint miverimberina",
+          "API sy fampidirana antoko fahatelo",
+          "Fitsapana mandeha ho azy sy fanamarinana ny fahavononana amin'ny famoahana"
+        ]
+      },
+      {
+        "title": "Fanombohana sy fivoarana",
+        "summary": "Aorian'ny fandehanana mivantana, dia manamafy ny asa izahay ary mamaritra ny tsingerin'ny fanatsarana manaraka mifototra amin'ny fampiasana tena izy.",
+        "deliverables": [
+          "Runbook fandefasana famokarana",
+          "Fampisehoana sy fahamendrehana",
+          "Ny tondrozotra aorian'ny fanombohana sy ny fanatsarana ny backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Vonona ny hanangana ny fampiharana manaraka?",
+      "description": "Andao hamolavola sy handefa vahaolana izay mitarika vokatra ara-barotra azo refesina.",
+      "button": "Atombohy ny tetikasanao"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML ary Business Intelligence",
+      "description": "Avy amin'ny modely mialoha ka hatramin'ny dashboard mpanatanteraka, manangana rafitra AI / BI feno izahay izay manohana ny fanapahan-kevitra amin'ny ambaratonga."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Nahoana ny fikambanana manan-karena amin'ny angon-drakitra no mbola sahirana amin'ny fanapahan-kevitra azo antoka"
+      },
+      "approach": {
+        "title": "Fomba fiasa injeniera",
+        "subtitle": "Ahoana ny fomba hanatanterahana ny vokatra data, ny modely ML, ary ny fizotran'ny BI"
+      },
+      "principles": {
+        "title": "Fitsipika momba ny maritrano",
+        "subtitle": "Data sy modely modely ho an'ny faharanitan-tsaina azo itokisana"
+      },
+      "capabilities": {
+        "title": "Ny fahaiza-manaonay",
+        "subtitle": "Vahaolana feno AI, ML ary BI"
+      },
+      "technology": {
+        "title": "Ny teknolojia stack",
+        "subtitle": "Fitaovana mitarika indostrialy ho an'ny angon-drakitra sy AI"
+      },
+      "breakdown": {
+        "title": "Fahatapahan'ny serivisy",
+        "subtitle": "Ahoana ny fomba hifindranay avy amin'ny angon-drakitra mizarazara mankany amin'ny faharanitan-tsaina famokarana"
+      }
+    },
+    "problem": {
+      "overview": "Matetika ny fikambanana dia manangona angon-drakitra be dia be nefa tsy mahavita mandika izany amin'ny vinavina azo antoka, fanapahan-kevitra momba ny asa, na hetsika ara-barotra azo refesina.",
+      "painPointsTitle": "Fanaintainana ara-barotra miverimberina",
+      "impactSignalsTitle": "Inona no hitan'ny mpitarika matetika",
+      "painPoints": [
+        "Ny lojika tatitra dia tsy mitovy amin'ny ekipa, ka miteraka fifanoherana amin'ny fitantarana KPI",
+        "Ny modely dia mijanona amin'ny fanandramana ary tsy mahatratra ny fizotran'ny famokarana",
+        "Ny olana momba ny kalitaon'ny data dia manimba ny fahatokisana amin'ny analytics sy ny dashboard mpanatanteraka"
+      ],
+      "impactSignals": [
+        "Miadana ny fanapahan-kevitra satria miady hevitra momba ny fahamarinan'ny angon-drakitra ny ekipa fa tsy ny hetsika",
+        "Ny fahamarinan'ny vinavina sy ny drafitra dia mbola tsy mifanaraka amin'ny telovolana",
+        "Ny fampiasam-bola Analytics dia mampiseho ny fananganana ambany ivelan'ny vondrona mpandalina manokana"
+      ]
+    },
+    "approach": {
+      "overview": "Manolotra sehatra AI sy BI ho toy ny rafitra famokarana izahay, ny injenieran'ny angon-drakitra, ny fiasan'ny modely ary ny fampidirana ny fizotran'ny fanapahan-kevitra.",
+      "pillars": [
+        {
+          "title": "Data Product Foundation",
+          "detail": "Ny vokatra angon-drakitra mifanaraka amin'ny sehatra dia mametraka fampidirana azo ampiasaina indray, voafehy ary avo lenta ho an'ny analytics sy ML."
+        },
+        {
+          "title": "MLOps Lifecycle Automation",
+          "detail": "Ny fampiofanana, ny fametrahana, ny fanaraha-maso ary ny fanaraha-maso ny drift dia mandeha ho azy mba hitazonana ny modely azo itokisana amin'ny famokarana."
+        },
+        {
+          "title": "Fampidirana ny fizotran'ny fanapahan-kevitra",
+          "detail": "Ny fahitana dia tafiditra ao amin'ny fitaovana miasa sy ny dashboard mba hahafahan'ny ekipa miasa amin'ny faharanitan-tsaina ao anatin'ny dingana isan'andro."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ny maritrano AI / BI dia manome laharam-pahamehana ny angon-drakitra azo itokisana, ny modely azo hazavaina, ary ny lamina fidirana mifehy manerana ny orinasa.",
+      "items": [
+        {
+          "title": "Famaritana metrika tokana",
+          "detail": "Ny KPI manan-danja dia voafaritra indray mandeha amin'ny alàlan'ny modely semantika iraisana mba hanafoanana ny lojika tatitra mifanohitra."
+        },
+        {
+          "title": "Fanaraha-maso ny fahamendrehana modely",
+          "detail": "Ny fetran'ny fampisehoana, ny fahitana ny drift, ary ny rafitra famerenana dia miaro ny kalitaon'ny fanapahan-kevitra amin'ny famokarana."
+        },
+        {
+          "title": "Fiarovana sy fitantanana amin'ny alàlan'ny famolavolana",
+          "detail": "Ny firazanana data, ny fidirana mifototra amin'ny andraikitra, ary ny fanaraha-maso vonona amin'ny fanaraha-maso dia tafiditra ao amin'ny fantsona rehetra."
+        }
+      ]
+    },
+    "capabilities": [
+      "Modely fianarana milina sy fantsona",
+      "Power BI Dashboards & Reports",
+      "Predictive Analytics",
+      "Fandefasana data amin'ny fotoana tena izy",
+      "Vahaolana amin'ny fitehirizana data"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Sehatra",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Data Warehouse",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Data Engineering",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "Sehatra ML",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "Rafitra ML",
+        "icon": "Tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "Rafitra ML",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Fanadihadiana",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Ny pitik'afo Apache",
+        "category": "Fanodinana",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Fiteny",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Data Foundation",
+        "summary": "Manara-maso ny loharanom-baovao izahay, mamaritra ny fifanarahana angon-drakitra, ary mametraka fitantanana mba hanombohan'ny modely tsirairay amin'ny fampidirana azo itokisana.",
+        "deliverables": [
+          "Loharano sy fanombanana kalitao",
+          "Injeniera sy drafitra drafitra",
+          "Fiarovana sy fitantanana fototra"
+        ]
+      },
+      {
+        "title": "Fanaterana modely sy fahitana",
+        "summary": "Manangana modely sy dashboard fanapahan-kevitra mifamatotra amin'ny fanontaniana ara-barotra sy KPI azo refesina izahay.",
+        "deliverables": [
+          "Famolavolana modely sy fankatoavana",
+          "Dashboard mpanatanteraka sy tatitra momba ny asa",
+          "Fampidirana workflow fanapahan-kevitra"
+        ]
+      },
+      {
+        "title": "MLOps sy fananganan-jaza",
+        "summary": "Izahay dia manatanteraka ny fametrahana, ny fanaraha-maso ary ny fahaiza-manaon'ny ekipa mba hitazonana ny vokatra azo itokisana rehefa mandeha ny fotoana.",
+        "deliverables": [
+          "Fantsom-paparitahana modely mandeha ho azy",
+          "Fanaraha-maso ny fiaramanidina, ny fahamarinana ary ny fampiasana",
+          "Ny famindrana ny ekipa sy ny boky filalaovana miasa"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ovao ny angon-drakitrao ho fahitana",
+      "description": "Avadiho ny angon-drakitra mizarazara ho faharanitan-tsaina mazava sy azo ampiharina.",
+      "button": "Atombohy ny dianao"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Cloud Architecture & Infrastructure",
+      "description": "Sehatra rahona marobe, maritrano mahazaka, ary fotodrafitrasa azo ovaina natao ho an'ny fitomboana maharitra."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Nahoana no mijanona ny hetsika rahona taorian'ny onjam-pifindramonina voalohany"
+      },
+      "approach": {
+        "title": "Fomba fiasa injeniera",
+        "subtitle": "Ahoana ny fomba hananganana sehatra rahona azo antoka sy azo ovaina miaraka amin'ny risika fifindra-monina voafehy"
+      },
+      "principles": {
+        "title": "Fitsipika momba ny maritrano",
+        "subtitle": "Fanapahan-kevitra momba ny sehatra izay mandanjalanja ny fahaiza-manao, ny faharetana ary ny fitantanana"
+      },
+      "capabilities": {
+        "title": "Serivisy rahona",
+        "subtitle": "Manangana, mametraka ary manitatra ao amin'ny rahona"
+      },
+      "technology": {
+        "title": "Fahaiza-manao amin'ny rahona maro",
+        "subtitle": "Vahaolana rahona agnostika amin'ny sehatra"
+      },
+      "breakdown": {
+        "title": "Fahatapahan'ny serivisy",
+        "subtitle": "Filaharana mazava ho an'ny famolavolana, fifindra-monina ary fampandehanana sehatra rahona"
+      }
+    },
+    "problem": {
+      "overview": "Fikambanana maro no mamita ny fifindra-monina rahona voalohany nefa mbola miasa toy ny ekipa eo an-toerana, miaraka amin'ny fahitana mahantra, fanaraha-maso tsy miovaova, ary fitomboan'ny fandaniana.",
+      "painPointsTitle": "Fanaintainana ara-barotra miverimberina",
+      "impactSignalsTitle": "Inona no hitan'ny mpitarika matetika",
+      "painPoints": [
+        "Ny asa dia mifindra monina tsy misy fanaraha-maso ny fiarovana sy ny tambajotra",
+        "Ny vidin'ny rahona dia mitombo haingana kokoa noho ny sandan'ny orinasa natolotra",
+        "Ny famatsiana ny tontolo iainana dia mijanona ho manual sy tsy mifanaraka amin'ny ekipa"
+      ],
+      "impactSignals": [
+        "Tranga matetika vokatry ny fiovaovan'ny fikirakirana eo anelanelan'ny tontolo iainana",
+        "Mihena ny fahavononana amin'ny fanaraha-maso noho ny fomba fitantanana mizarazara",
+        "Ny fotodrafitrasa dia mampihemotra ny vokatra sy ny angon-drakitra"
+      ]
+    },
+    "approach": {
+      "overview": "Mamolavola sehatra rahona ho vokatra izahay, mampiasa ny automatisation fotodrafitrasa, ny fiarovana politika, ary ny onjan'ny fifindra-monina mifanaraka amin'ny fanakianana ny orinasa.",
+      "pillars": [
+        {
+          "title": "Landing Zone ho Code",
+          "detail": "Ny maha-izy azy, ny tambajotra, ny fiarovana ary ny politika dia voasoratra ho an'ny famerenana sy ny fanaraha-maso."
+        },
+        {
+          "title": "Paikady fifindra-monina mifototra amin'ny onja",
+          "detail": "Ny asa dia mihetsika amin'ny dingana voafehy miaraka amin'ny fiankinan-doha sy ny fahavononana amin'ny fiverenana."
+        },
+        {
+          "title": "SRE + FinOps Operating Loop",
+          "detail": "Ny mari-pamantarana azo itokisana sy ny toekarena dia dinihina miaraka hanatsarana ny fotoana sy ny fahombiazan'ny fandaniana."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ny maodelin'ny maritrano dia mankasitraka ny fotodrafitrasa fanambarana, ny fidirana kely indrindra, ary ny sehatra composable izay manohana ny fandefasana vokatra haingana.",
+      "items": [
+        {
+          "title": "Lamina fotodrafitrasa tsy azo ovaina",
+          "detail": "Ny tontolo iainana dia namboarina avy amin'ny fehezan-dalàna versioned mba hampihenana ny fikorontanana sy hanamorana ny fanarenana ny asa."
+        },
+        {
+          "title": "Security Baseline amin'ny alàlan'ny default",
+          "detail": "Ny fanaraha-maso ny fidirana amin'ny fahatokisana sy ny fampiharana ny politika dia tafiditra ao amin'ny tontolon'ny tontolo iainana rehetra."
+        },
+        {
+          "title": "Faharetana amin'ny alàlan'ny fizarana",
+          "detail": "Ny asa manan-danja dia natao ho an'ny fandeferana amin'ny tsy fahombiazan'ny faritra maro na faritra maro izay mitaky izany ny fiantraikan'ny orinasa."
+        }
+      ]
+    },
+    "capabilities": [
+      "Paikady sy fampiharana multi-cloud",
+      "Orkestra fitoeran-javatra (Kubernetes)",
+      "Solosaina tsy misy mpizara",
+      "Serivisy fifindra-monina rahona",
+      "Architecture avo lenta"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Rahona",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Ny AWS",
+        "category": "Rahona",
+        "icon": "amazonwebservices"
+      },
+      {
+        "name": "GCP",
+        "category": "Rahona",
+        "icon": "googlecloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orkestra",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Kaontenera",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Modely ARM",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "amazonwebservices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Architecture sy Landing Zone",
+        "summary": "Izahay dia mamaritra ny fanjakana kendrena, ny fiarovana ary ny fenitra fototra alohan'ny hifindran'ny asa.",
+        "deliverables": [
+          "Famolavolana maritrano rahona kendrena",
+          "Ny maha-izy azy, ny tambajotra ary ny fiarovana fototra",
+          "Ny vidiny sy ny fanarahan-dalàna"
+        ]
+      },
+      {
+        "title": "Fifindra-monina sy fananganana sehatra",
+        "summary": "Izahay dia manatanteraka onjam-pifindramonina ary mijoro amin'ny sehatra rahona miaraka amin'ny automatisation azo averina.",
+        "deliverables": [
+          "Ny fizotran'ny fifindra-monina",
+          "Fametrahana sehatra fitoeran-javatra sy serverless",
+          "Fotodrafitrasa toy ny modules Code"
+        ]
+      },
+      {
+        "title": "Azo itokisana sy FinOps",
+        "summary": "Manatsara ny fahamendrehan'ny asa izahay ary manatsara hatrany ny fandaniana rahona mifototra amin'ny telemetry mivantana.",
+        "deliverables": [
+          "SLOs, fanaraha-maso ary fizotran'ny tranga",
+          "Fanamarinana ny faharetana sy ny fanarenana ny loza",
+          "Ny fanatsarana ny vidiny sy ny cadence fitantanana"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ampitomboy ny fotodrafitrasa",
+      "description": "Manangana fototry ny rahona izay mijanona ho mahazaka eo ambanin'ny enta-mavesatra tena izy.",
+      "button": "Drafitra ny paikadinao rahona"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps sy Platform Engineering",
+      "description": "Fantsom-pandefasana mandeha ho azy, fandinihana ary fomba fanao amin'ny sehatra izay manatsara ny hafainganam-pandeha nefa tsy mahafoy ny fahamendrehana."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Nahoana no mihena ny hafainganam-pandehan'ny fandefasana rehefa mitombo ny fahasarotan'ny sehatra"
+      },
+      "approach": {
+        "title": "Fomba fiasa injeniera",
+        "subtitle": "Ahoana ny fomba hanamafisana ny fantsom-panaterana nefa tsy mampihena ny ekipan'ny vokatra"
+      },
+      "principles": {
+        "title": "Fitsipika momba ny maritrano",
+        "subtitle": "Ny lamina injenieran'ny sehatra izay mampitombo ny fahatokisana sy ny fahaleovantenan'ny ekipa"
+      },
+      "capabilities": {
+        "title": "Serivisy DevOps",
+        "subtitle": "Mandeha ho azy, manara-maso ary manatsara ny androm-piainan'ny fandefasana anao"
+      },
+      "technology": {
+        "title": "Fitaovana sy sehatra DevOps",
+        "subtitle": "Fitaovana DevOps tsara indrindra"
+      },
+      "breakdown": {
+        "title": "Fahatapahan'ny serivisy",
+        "subtitle": "Tondrozotra azo ampiharina manomboka amin'ny bottlenecks amin'ny fandefasana mankany amin'ny famoahana avo lenta"
+      }
+    },
+    "problem": {
+      "overview": "Matetika ny fikambanana dia mampiasa vola amin'ny fitaovana CI / CD nefa mbola miady amin'ny famoahana tsy miovaova, ny fankatoavana miadana, ary ny fananana mizarazara manerana ny tontolo iainana.",
+      "painPointsTitle": "Fanaintainana ara-barotra miverimberina",
+      "impactSignalsTitle": "Inona no hitan'ny mpitarika matetika",
+      "painPoints": [
+        "Ny famaritana ny fantsona dia samy hafa amin'ny ekipa, mamorona vavahady kalitao tsy mifanaraka",
+        "Ny fankatoavana ny fametrahana amin'ny tanana dia manemotra ny fanamboarana ny hotfix sy ny fandaharam-potoana famoahana ny endri-javatra",
+        "Ny tranga miasa dia miverimberina satria ny telemetry dia tsy feno na siloed"
+      ],
+      "impactSignals": [
+        "Ny fotoana fitarihana ho an'ny fanovana dia mitombo hatrany na dia eo aza ny fandaniana automatique",
+        "Manova ny tahan'ny tsy fahombiazana mandritra ny vanim-potoana fandefasana avo lenta",
+        "Mihena ny famokarana mpamorona noho ny fikorontanan'ny fitaovana sy ny fiovan'ny toe-javatra"
+      ]
+    },
+    "approach": {
+      "overview": "Izahay dia mametraka modely sehatra fampandrosoana anatiny miaraka amin'ny modely fantsona azo ampiasaina indray, ny fitantanana ara-politika ary ny fandinihana ny androm-piainana feno.",
+      "pillars": [
+        {
+          "title": "Golden Path Pipeline Templates",
+          "detail": "Ny drafitra CI / CD azo ampiasaina indray dia manara-penitra ny fananganana, ny fitsapana, ny fanaraha-maso ny fiarovana ary ny fametrahana ny fizotran'ny asa."
+        },
+        {
+          "title": "Platform API & Self-Service",
+          "detail": "Ny ekipa dia manome tontolo iainana ary mamoaka fotodrafitrasa amin'ny alàlan'ny interface interface mifehy."
+        },
+        {
+          "title": "Azo itokisana Feedback Loops",
+          "detail": "Ny fironana amin'ny tranga, ny fahasalaman'ny SLO, ary ny telemetry fametrahana dia mampahafantatra ny fanatsarana ny fizotran'ny fizotran'ny sy ny rafitra."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ny maritrano DevOps dia mampifanaraka ny hafainganam-pandehan'ny fandefasana amin'ny fitantanana amin'ny alàlan'ny fanaraha-maso automatique sy ny fampihenana ny asa miasa iray.",
+      "items": [
+        {
+          "title": "Ny zava-drehetra toy ny fehezan-dalàna versioned",
+          "detail": "Ny fantsona, ny fotodrafitrasa ary ny fitsipika politika dia mitantana amin'ny fanaraha-maso ny loharano ho an'ny fanaraha-maso sy ny famerenana."
+        },
+        {
+          "title": "Fanamarinana miandalana",
+          "detail": "Ny kalitao, ny fiarovana ary ny fanamarinana ny fahombiazana dia mifamatotra amin'ny dingana mba hamantarana ny risika aloha."
+        },
+        {
+          "title": "Andraikitra iombonana amin'ny sehatra",
+          "detail": "Ny ekipan'ny sehatra dia manome fahaiza-manao ara-dàlana raha toa ka mitazona ny fananana fandefasana ny ekipan'ny vokatra."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI / CD Pipeline Design",
+      "Fotodrafitrasa ho fehezan-dalàna",
+      "Fitsapana mandeha ho azy",
+      "Deployment Automation",
+      "Fanaraha-maso sy fandinihana"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Sehatra",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "Hetsika GitHub",
+        "category": "CI / CD",
+        "icon": "GitHubActions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI / CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Fonosana",
+        "icon": "Helm"
+      },
+      {
+        "name": "Ny Ansible",
+        "category": "Automatique",
+        "icon": "Azo atao"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Fanaraha-maso",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Fandinihana",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Fanombanana ny sehatra",
+        "summary": "Manombantombana ny rojom-pamokarana rindrambaiko amin'izao fotoana izao izahay mba hamantarana ny teboka risika sy ny fanerena hafainganam-pandeha.",
+        "deliverables": [
+          "Sarintany fizotran'ny fandefasana amin'izao fotoana izao",
+          "Fanadihadiana momba ny fantsona",
+          "Tondrozotra fahamatorana DevOps kendrena"
+        ]
+      },
+      {
+        "title": "Pipeline & Automation Build",
+        "summary": "Mampihatra CI / CD azo itokisana izahay, vavahady kalitao, ary automatisation fotodrafitrasa ho an'ny famoahana tsy tapaka.",
+        "deliverables": [
+          "Modely CI / CD azo ampiasaina indray",
+          "Fotodrafitrasa sy tontolo iainana automatique",
+          "Fitsapana mandeha ho azy sy fanaraha-maso ny famoahana"
+        ]
+      },
+      {
+        "title": "Miasa sy manatsara",
+        "summary": "Izahay dia mametraka ny fanaraha-maso sy ny fitantanana izay manohana ny fanatsarana ny fanaterana mitohy.",
+        "deliverables": [
+          "Fanaraha-maso ny dashboard sy ny politikan'ny fanairana",
+          "Famoahana boky momba ny fitantanana sy ny tranga",
+          "Fanatsarana tsy tapaka ny metrika sy ny famerenana"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Fanafainganana ny fandefasana anao",
+      "description": "Mampihena ny fifandonana amin'ny famoahana ary manatsara ny fahamendrehana amin'ny fomba fanao DevOps matotra.",
+      "button": "Ovao ny fantsonao"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Fanovana nomerika sy paikady",
+      "description": "Torohevitra stratejika sy fanohanana famonoana hanavaozana ny sehatra, ekipa ary modely miasa."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Aiza ny fandaharan'asa fanovana very ny tosika sy ny fahatokisan'ny mpanatanteraka"
+      },
+      "capabilities": {
+        "title": "Serivisy Consulting",
+        "subtitle": "Torolàlana stratejika ho an'ny fahombiazana nomerika"
+      },
+      "approach": {
+        "title": "Fomba fiasa injeniera",
+        "subtitle": "Ahoana ny fomba handikana ny paikady ho fiovana azo tanterahina sy tohanan'ny teknolojia"
+      },
+      "principles": {
+        "title": "Fitsipika momba ny maritrano",
+        "subtitle": "Safidy modely sy sehatra miaro ny vokatry ny fanovana"
+      },
+      "technology": {
+        "title": "Stack teknolojia",
+        "subtitle": "Sehatra sy rafitra ampiasaintsika mba hampiharana ny fanovana"
+      },
+      "breakdown": {
+        "title": "Fahatapahan'ny serivisy",
+        "subtitle": "Fanovana voarafitra avy amin'ny famaritana paikady mankany amin'ny sandan'ny orinasa azo refesina"
+      }
+    },
+    "problem": {
+      "overview": "Matetika ny hetsika nomerika dia manomboka amin'ny fikasana matanjaka saingy tsy mivadika ho vokatra fanaterana noho ny fananana tsy mazava, ny fitaovana tsy mifandray ary ny laharam-pahamehana mifaninana.",
+      "painPointsTitle": "Fanaintainana ara-barotra miverimberina",
+      "impactSignalsTitle": "Inona no hitan'ny mpitarika matetika",
+      "painPoints": [
+        "Ny tondrozotra fanovana dia voafaritra fa tsy adika amin'ny fitantanana ny fanaterana",
+        "Ny laharam-pahamehana amin'ny fandraharahana sy ny injeniera dia miovaova aorian'ny tsingerin'ny drafitra voalohany",
+        "Ny modely fandidiana lova dia manakana ny fampiharana ny fomba fanao maoderina amin'ny fanaterana vokatra"
+      ],
+      "impactSignals": [
+        "Ny fandaniana amin'ny programa dia miakatra raha toa ka mijanona ho tsy misy dikany ny hetsika KPI stratejika",
+        "Ny fandraisana andraikitra dia tsy mahita teboka eo anelanelan'ny paikady, ny maritrano ary ny famonoana",
+        "Ny ekipa dia miaina harerahana amin'ny fiovana miaraka amin'ny lanjan'ny orinasa voafetra"
+      ]
+    },
+    "approach": {
+      "overview": "Izahay dia manambatra ny torohevitra stratejika amin'ny maritrano fanaterana, mampifanaraka ny famolavolana modely miasa, ny fahaizan'ny sehatra ary ny cadence famonoana manodidina ny tanjona azo refesina.",
+      "pillars": [
+        {
+          "title": "Laharam-pahamehana amin'ny sanda",
+          "detail": "Izahay dia mandamina hetsika mifototra amin'ny fiantraikan'ny raharaham-barotra sy ny fiankinan-doha ara-teknika."
+        },
+        {
+          "title": "Tanjona Operating Model Design",
+          "detail": "Ny andraikitra, ny fitantanana ary ny zon'ny fanapahan-kevitra dia voafaritra hanohanana ny famonoana haingana kokoa amin'ny ekipa orinasa sy teknolojia."
+        },
+        {
+          "title": "Fitantanana ny fanaterana portfolio",
+          "detail": "Ny fandrosoan'ny fanovana dia tantanan'ny alàlan'ny teboka fanaraha-maso mifandraika amin'ny KPI sy ny fanaraha-maso ny risika amin'ny portfolio."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ny rafitry ny fanovana dia manantitrantitra ny fanavaozana tsikelikely sy ny fandraisana andraikitra mazava, misoroka ny fanoratana manelingelina tsy misy fanamarinana ara-barotra.",
+      "items": [
+        {
+          "title": "Business Ability Alignment",
+          "detail": "Ny fiovan'ny teknolojia dia voalamina manodidina ny fahaiza-manao izay mivantana amin'ny fidiram-bola, ny kalitaon'ny serivisy, na ny fahombiazan'ny vidiny."
+        },
+        {
+          "title": "Paikady amin'ny sehatra composable",
+          "detail": "Ny singa amin'ny sehatra dia voafantina ho an'ny interoperability hanohanana ny fifindra-monina sy ny fampifanarahana haingana kokoa."
+        },
+        {
+          "title": "Fitantanana miaraka amin'ny Cadence Delivery",
+          "detail": "Ny sehatra fanapahan-kevitra sy ny teboka fanaraha-maso dia tafiditra ao anatin'ny tsingerin'ny sprint sy isan-telovolana, fa tsy raisina ho toy ny lalana birao misaraka."
+        }
+      ]
+    },
+    "capabilities": [
+      "Tondrozotra fanovana nomerika",
+      "Fampandrosoana ny paikady teknolojia",
+      "Cloud Adoption Frameworks",
+      "Fanatsarana ny dingana",
+      "Fitantanana ny fanovana"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Foundation",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Sehatra Data",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Fanapahan-kevitra momba ny faharanitan-tsaina",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Sehatra herinaratra",
+        "category": "Kaody ambany",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Fiaraha-miasa",
+        "icon": "MicrosoftSharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP / CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Fampifanarahana ny paikady",
+        "summary": "Mampifanaraka ny laharam-pahamehana amin'ny fitarihana sy ny tanjona nomerika izahay mba hamoronana tari-dalana fanovana iraisana.",
+        "deliverables": [
+          "Tanjona fanovana sy fepetra fahombiazana",
+          "Fanombanana ny fahamatorana sy ny elanelana",
+          "Portfolio fandraisana andraikitra laharam-pahamehana"
+        ]
+      },
+      {
+        "title": "Drafitra famonoana",
+        "summary": "Izahay dia mamaritra ny modely miasa, ny fenitra maritrano, ary ny fizotran'ny fampiharana tsikelikely.",
+        "deliverables": [
+          "Modely miasa sy famolavolana fitantanana",
+          "Fenitra momba ny teknolojia sy ny fizotran'ny maritrano",
+          "Tondrozotra fampiharana tsikelikely"
+        ]
+      },
+      {
+        "title": "Fiovana sy fanatanterahana ny lanjany",
+        "summary": "Izahay dia mitarika ny fananganan-jaza, manara-maso ny hetsika KPI, ary manatsara ny hetsika mifototra amin'ny valin'ny fanaterana.",
+        "deliverables": [
+          "Drafitra fananganan-jaza sy fananganan-jaza",
+          "Cadence fandrefesana KPI",
+          "Backlog fanatsarana isan-telovolana"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Atombohy ny dianao fanovana",
+      "description": "Mivezivezy amin'ny fiovana miaraka amin'ny laharam-pahamehana mazava sy drafitra fanaterana azo ampiharina.",
+      "button": "Fandaharam-potoana fivoriana paikady"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT sy Edge Computing",
+      "description": "Rafitra mifandray amin'ny fitaovana mankany amin'ny rahona, miaraka amin'ny fantsona telemetry sy ny faharanitan-tsaina ho an'ny indostria."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Nahoana no tsy mahavita mihoatra ny fametrahana mpanamory ny programa mifandray amin'ny fitaovana mifandray"
+      },
+      "approach": {
+        "title": "Fomba fiasa injeniera",
+        "subtitle": "Ahoana ny fomba famolavolana rafitra IoT azo antoka sy azo ampiasaina avy amin'ny firmware fitaovana mankany amin'ny API rahona"
+      },
+      "principles": {
+        "title": "Fitsipika momba ny maritrano",
+        "subtitle": "Fitsipika famolavolana sisin-to-rahona ho an'ny fahamendrehana, ny faharetana ary ny fitantanana ny fiaramanidina"
+      },
+      "capabilities": {
+        "title": "Vahaolana IoT",
+        "subtitle": "Mifandray, manara-maso ary manatsara ny fitaovanao"
+      },
+      "technology": {
+        "title": "IoT Technology Stack",
+        "subtitle": "Avy amin'ny fitaovana mankany amin'ny rahona"
+      },
+      "breakdown": {
+        "title": "Fahatapahan'ny serivisy",
+        "subtitle": "Ahoana ny fomba hanomezana rafitra mifandray amin'ny fitaovana sisiny mankany amin'ny rahona"
+      }
+    },
+    "problem": {
+      "overview": "Ny hetsika IoT dia matetika manaporofo ny fahafaha-manao ara-teknika amin'ny mpanamory fiaramanidina saingy tsy mahomby amin'ny ambaratonga noho ny fifandraisana tsy azo itokisana, ny fanaraha-maso ny fiaramanidina malemy, ary ny fampidirana ratsy amin'ny fizotran'ny orinasa.",
+      "painPointsTitle": "Fanaintainana ara-barotra miverimberina",
+      "impactSignalsTitle": "Inona no hitan'ny mpitarika matetika",
+      "painPoints": [
+        "Ny onboarding fitaovana sy ny fitantanana ny androm-piainana dia mijanona ho manual sy mora diso",
+        "Ny fantsona telemetry dia mamokatra angon-drakitra mitabataba, tsy feno na tara",
+        "Ny fanavaozana ny baiko lavitra sy ny firmware dia mampiditra loza mitatao amin'ny fiarovana sy ny fiarovana"
+      ],
+      "impactSignals": [
+        "Ny tontolon'ny mpanamory dia mahomby, fa ny fandaharam-potoana famokarana dia miverimberina",
+        "Ny ekipan'ny asa eny an-tsaha dia mamaly ny tranga tsy misy fahitana mialoha",
+        "Ny rafitra fandraharahana dia tsy afaka mandany ny faharanitan-tsaina amin'ny fotoana tena izy"
+      ]
+    },
+    "approach": {
+      "overview": "Izahay dia manamboatra sehatra IoT ho toy ny rafitra mizara voafehy, mampifangaro ny fenitra azo antoka, ny fitrandrahana entin'ny hetsika, ary ny fitantanana ny fiaramanidina.",
+      "pillars": [
+        {
+          "title": "Fitantanana ny androm-piainan'ny fitaovana azo antoka",
+          "detail": "Ny famatsiana, ny maha-izy azy, ny fihodinan'ny fanalahidy ary ny fanavaozana ny firmware dia mandeha ho azy mba hampihenana ny risika miasa."
+        },
+        {
+          "title": "Ny maritrano telemetria entin'ny hetsika",
+          "detail": "Ny fantsona streaming dia manara-dalàna, manamarina ary manaparitaka ny hetsika fitaovana ho an'ny analytics sy ny fanaraha-maso amin'ny fotoana tena izy."
+        },
+        {
+          "title": "Fiaramanidina fanaraha-maso ny fiaramanidina",
+          "detail": "Ny fanaraha-maso, ny fanairana ary ny fizotran'ny baiko lavitra dia manome fanaraha-maso azo antoka amin'ny fananana nozaraina."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ny maritrano IoT dia mandanjalanja ny fanapahan-kevitra ambany amin'ny fitantanana foibe, ny fandinihana ary ny fanarahan-dalàna amin'ny fiarovana.",
+      "items": [
+        {
+          "title": "Fahaleovan-tena amin'ny sisin-tany miaraka amin'ny fandrindrana rahona",
+          "detail": "Ny asa eo an-toerana dia mitohy mandritra ny fahasimban'ny tambajotra rehefa mampifanaraka ny fanjakana amin'ny rafitra rahona rehefa misy."
+        },
+        {
+          "title": "Schemas hetsika fifanarahana",
+          "detail": "Ny ekipan'ny fitaovana sy ny sehatra dia mampiasa drafitra voafehy mba hiarovana ny tsy fitoviana amin'ny telemetry amin'ny dikan-teny."
+        },
+        {
+          "title": "Zero-Trust Device Security",
+          "detail": "Ny fanamarinana iraisana, ny tombontsoa kely indrindra, ary ny fitaterana voaaro dia ampiharina amin'ny fifandraisana rehetra amin'ny fitaovana."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT Device Management",
+      "Vahaolana kambana nomerika",
+      "Fametrahana Edge Computing",
+      "Telemetry amin'ny fotoana tena izy",
+      "Fikojakojana mialoha"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Kambana nomerika",
+        "category": "Simulation",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Sisiny",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protocol",
+        "icon": "mqtt"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protocol",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Fitaovana",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Fitaovana",
+        "icon": "Raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Time Series DB",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Paikady momba ny fitaovana sy ny sisiny",
+        "summary": "Izahay dia mamaritra ny lamina fifandraisana, ny fenitry ny sisin-tany, ary ny famatsiana azo antoka ho an'ny fitaovana an-tsaha.",
+        "deliverables": [
+          "Modely fampidirana fitaovana sy fifandraisana",
+          "Edge runtime sy drafitra fametrahana",
+          "Fiarovana ny fiaramanidina"
+        ]
+      },
+      {
+        "title": "Telemetry sy fiaramanidina fanaraha-maso",
+        "summary": "Manangana fantsona izahay izay misambotra hetsika, maodely kambana nomerika, ary mamela ny fizotran'ny fanaraha-maso lavitra.",
+        "deliverables": [
+          "Famolavolana drafitra sy drafitra hetsika amin'ny fotoana tena izy",
+          "Fampiharana modely kambana nomerika sy fananana",
+          "Baiko sy fanaraha-maso API layer"
+        ]
+      },
+      {
+        "title": "Operations sy Scale",
+        "summary": "Izahay dia miasa amin'ny fitantanana ny fiaramanidina sy ny fanaraha-maso ny fahamendrehana ho an'ny tontolo IoT amin'ny famokarana.",
+        "deliverables": [
+          "Fanaraha-maso sy fanairana momba ny fiaramanidina fitaovana",
+          "Fikojakojana mialoha sy fanaraha-maso ny anomaly",
+          "Drafitra fanohanana sy fanohanana ny androm-piainana"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ampifandraiso ny fitaovanao",
+      "description": "Manangana vahaolana IoT azo itokisana vonona ho an'ny tontolo iainana famokarana tena izy.",
+      "button": "Atombohy ny tetikasanao IoT"
+    }
+  }
+}

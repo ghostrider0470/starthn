@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Visi"
+  },
+  "categories": {
+    "aiEngineering": "AI inženierija",
+    "enterpriseArchitecture": "Uzņēmuma arhitektūra",
+    "cloudDevOps": "Mākonis un DevOps",
+    "automationSystems": "Automatizācijas sistēmas",
+    "softwareReliabilityDesign": "Programmatūras uzticamība un dizains"
+  },
+  "readTime": "{{minutes}} min lasīt",
+  "tagsLabel": "Atzīmes (Tags)",
+  "relatedPosts": "Saistītās ziņas",
+  "author": {
+    "role": "Izdevējs"
+  },
+  "editor": {
+    "emptyPreview": "Sāciet rakstīt, lai skatītu priekšskatījumu..."
+  },
+  "tags": {
+    "llmOps": "LLM operācijas",
+    "promptEngineering": "Ātra inženierija",
+    "observability": "Novērojamība",
+    "safety": "Drošība",
+    "domainDesign": "Domēna dizains",
+    "integration": "Integrācija",
+    "governance": "Pārvaldība",
+    "platformStrategy": "Platformas stratēģija",
+    "platformEngineering": "Platformu inženierija",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Izstrādātāja pieredze",
+    "eventDriven": "Notikumu vadīts",
+    "workflowOrchestration": "Darbplūsmas orķestrēšana",
+    "controlPlanes": "Vadības lidmašīnas",
+    "resilience": "Izturība",
+    "sre": "SRE",
+    "slos": "SLO",
+    "failureModes": "Kļūmes režīmi",
+    "resilienceEngineering": "Izturības inženierija",
+    "evaluation": "Novērtējums",
+    "qualityEngineering": "Kvalitātes inženierija",
+    "datasets": "Datu kopas",
+    "releaseManagement": "Laidienu pārvaldība",
+    "incidentManagement": "Incidentu pārvaldība",
+    "architectureEvolution": "Arhitektūras evolūcija",
+    "riskReduction": "Riska samazināšana",
+    "postmortems": "Pēcnāves",
+    "progressiveDelivery": "Pakāpeniska piegāde",
+    "canaryReleases": "Kanāriju izlaidumi",
+    "featureFlags": "Funkciju karodziņi"
+  }
+}

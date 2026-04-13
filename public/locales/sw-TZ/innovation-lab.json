@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Maabara ya Ubunifu",
+    "description": "Gundua maonyesho shirikishi, majaribio, na maonyesho ya kiufundi kutoka kwa timu yetu ya uhandisi.",
+    "primary": "Chunguza Demos",
+    "secondary": "Tazama utafiti"
+  },
+  "overview": {
+    "hero": {
+      "title": "Maabara ya Ubunifu",
+      "description": "Tunachunguza mipaka ya vitendo katika AI, otomatiki, na mifumo iliyosambazwa, kisha kutafsiri utafiti uliothibitishwa katika uwezo wa kutegemewa wa uzalishaji.",
+      "primary": "Chunguza Maeneo ya Utafiti",
+      "secondary": "Jadili Ushirikiano"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Maeneo ya Utafiti",
+        "description": "Kila eneo la kuzingatia linaunganisha utafiti wa uchunguzi na njia za utekelezaji iliyoundwa kwa mifumo ya ulimwengu halisi.",
+        "cardCta": "Chunguza umakini"
+      },
+      "detailedFocusBriefs": {
+        "title": "Muhtasari wa Kina wa Kuzingatia",
+        "description": "Mipango ya utafiti wa karibu kwa sasa inahama kutoka kwa uthibitishaji wa usanifu hadi mipango ya utoaji."
+      },
+      "fromLabToProduction": {
+        "title": "Kutoka Maabara hadi Uzalishaji",
+        "description": "Ubunifu katika Horizon hupimwa na matokeo ya usafirishaji, sio prototypes zilizotengwa."
+      },
+      "roadmap": {
+        "title": "Ramani ya R&D",
+        "description": "Maendeleo ya hatua kutoka kwa kujenga uwezo hadi kubadilika, kuendelea kuboresha mifumo."
+      },
+      "publications": {
+        "title": "Machapisho na Maarifa",
+        "description": "Uandishi wa kiufundi na maelezo ya utekelezaji kutoka kwa kazi inayoendelea ya uvumbuzi."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Mifumo ya AI inayotumika",
+        "description": "Usanifu wa AI unaozingatia uzalishaji unaojumuisha huduma ya modeli, upangaji wa vipengele, na majaribio yanayodhibitiwa."
+      },
+      "automationFrameworks": {
+        "title": "Mifumo ya Uendeshaji",
+        "description": "Zana za otomatiki za ndani kwa usalama wa kupeleka, majibu ya matukio, na mtiririko wa kazi wa uhandisi unaoweza kurudiwa."
+      },
+      "advancedArchitecture": {
+        "title": "Majaribio ya Usanifu wa Hali ya Juu",
+        "description": "Utafiti juu ya usanifu thabiti, uliosambazwa ulioboreshwa kwa utendakazi, uvumilivu wa makosa, na kiwango."
+      },
+      "edgeAndIot": {
+        "title": "Kompyuta ya Edge & Akili ya IoT",
+        "description": "Akili ukingoni kwa uamuzi wa latency ya chini, usindikaji wa telemetry, na uratibu wa meli za kifaa."
+      },
+      "nlp": {
+        "title": "Usindikaji wa Lugha Asilia",
+        "description": "Mabomba ya uelewa wa lugha nyingi kwa uainishaji, uchimbaji, tafsiri, na mifumo ya mazungumzo."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Algorithms ya Mageuzi na Uboreshaji",
+        "description": "Mifumo ya utafutaji na uboreshaji iliyochochewa na uteuzi wa asili ili kutatua changamoto za uhandisi wa hali ya juu."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Mifumo ya Uendeshaji",
+        "description": "Tunaunda mifumo ya mtiririko wa kazi inayoweza kutungwa kwa upangaji wa kutolewa, milango ya ubora, na uthibitishaji wa baada ya kupeleka ili kupunguza msuguano wa mwongozo huku tukiboresha kuegemea."
+      },
+      "advancedArchitecture": {
+        "title": "Majaribio ya Usanifu wa Hali ya Juu",
+        "description": "Majaribio yetu ya usanifu yanazingatia mikakati ya mtengano wa huduma, mifumo ya ustahimilivu wa mkoa, na bahasha za utendaji kwa mifumo inayofanya kazi chini ya mahitaji tete."
+      },
+      "edgeAndIot": {
+        "title": "Kompyuta ya Edge & Akili ya IoT",
+        "description": "Tunathibitisha utiririshaji wa matukio na miundo ya makisio ambayo huwezesha maamuzi ya haraka ya ndani huku tukihifadhi udhibiti wa kati, ukaguzi, na utawala wa mzunguko wa maisha."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Upangaji wa Uwezo wa Kubadilika",
+        "description": "Prototypes za maabara zinathibitishwa dhidi ya mzigo wa kazi ulioigwa na kisha kuunganishwa katika mikakati ya kuongeza kiotomatiki ya jukwaa."
+      },
+      "operationalIntelligence": {
+        "title": "Ujasusi wa Uendeshaji",
+        "description": "Mabomba ya NLP huhama kutoka kwa majaribio yaliyodhibitiwa hadi mtiririko wa kazi wa usaidizi wa uzalishaji kwa triage ya haraka na maarifa wazi zaidi."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Uboreshaji katika Mifumo ya Utoaji",
+        "description": "Mbinu za mageuzi zilizojaribiwa katika maabara hutafsiriwa kuwa injini za uboreshaji za kuratibu na ugawaji."
+      },
+      "edgeDecisioning": {
+        "title": "Uamuzi wa makali",
+        "description": "Majaribio ya IoT na makisio ya makali yameimarishwa katika huduma za chini za latency na vikwazo vikali vya kuegemea."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Sasa",
+        "title": "Misingi ya AI inayotumika",
+        "description": "Panua violezo vinavyoweza kutumika tena, vyumba vya tathmini, na viwango vya kuzingatiwa katika timu za bidhaa."
+      },
+      "next": {
+        "phase": "Inayofuata",
+        "title": "Mtiririko wa kazi wa uhandisi unaojiendesha",
+        "description": "Tekeleza mifumo ya otomatiki ambayo inapunguza hatari ya kupelekwa na kufupisha vitanzi vya maoni kwa usafirishaji."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "Miezi 12-18",
+        "title": "Akili ya Edge-Native",
+        "description": "Ongeza usanifu wa mseto wa wingu kwa makisio ya karibu ya wakati halisi katika mazingira nyeti ya muda wa kusubiri."
+      },
+      "longHorizon": {
+        "phase": "Upeo wa macho mrefu",
+        "title": "Mifumo ya Uboreshaji inayoendelea",
+        "description": "Unganisha majaribio, ufuatiliaji, na uboreshaji ili mifumo iweze kubadilika kwa usalama kadiri miktadha inavyobadilika."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Mifumo ya AI ya Uhandisi Ambayo Inakaa Kuaminika katika Uzalishaji",
+        "summary": "Mtazamo wa vitendo juu ya kusawazisha kasi ya majaribio na utawala wa uzalishaji.",
+        "cta": "Soma maarifa"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Mifumo ya Usanifu Iliyosambazwa kwa Majukwaa ya Ukuaji wa Juu",
+        "summary": "Vidokezo vya shamba kutoka kwa majaribio ya usanifu vililenga utendaji, uthabiti, na unyenyekevu wa uendeshaji.",
+        "cta": "Kagua masomo ya kesi"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Ramani ya Barabara Inayotumika R&D kwa Matokeo ya Biashara",
+        "summary": "Jinsi tunavyopanga mipango ya uvumbuzi ili uvumbuzi uende kutoka kwa mfano hadi thamani inayoweza kupimika.",
+        "cta": "Chunguza machapisho"
+      }
+    },
+    "cta": {
+      "title": "Jenga na Maabara ya Ubunifu ya Horizon",
+      "description": "Shirikiana nasi ili kuthibitisha mawazo kabambe haraka na kuhamisha dhana zilizothibitishwa katika mifumo salama na hatari ya uzalishaji.",
+      "primary": "Anzisha mazungumzo",
+      "secondary": "Tazama Matokeo ya Uwasilishaji"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Mifumo ya AI inayotumika",
+      "description": "Muhtasari wa vitendo wa jinsi Horizon inavyounda, kupeleka, na kuendesha mifumo ya kujifunza kwa mashine kutoka kwa mfano hadi uzalishaji.",
+      "back": "Rudi kwenye Maabara ya Ubunifu",
+      "tags": {
+        "appliedAi": "AI inayotumika",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Mabomba ya Kujifunza kwa Mashine",
+        "description": "Uzalishaji wa AI huanza na mabomba yanayoweza kuzalishwa ambayo huunganisha data, majaribio, uthibitishaji na maoni."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Mifumo ya Usambazaji wa Mfano",
+        "description": "Mkakati wa usambazaji huchaguliwa kulingana na mahitaji ya kusubiri, umuhimu wa biashara, na ugumu wa uendeshaji."
+      },
+      "mlopsOperatingModel": {
+        "title": "Mfano wa Uendeshaji wa MLOps",
+        "description": "Mazoea ya MLOps huhakikisha mifumo ya AI inaendelea kutegemewa, kutawaliwa, na hatari kadiri matumizi yanavyoongezeka."
+      },
+      "monitoringAndReliability": {
+        "title": "Ufuatiliaji na Kuegemea",
+        "description": "Uzingatiaji hufunga kitanzi kati ya tabia ya mfano na matokeo ya uendeshaji."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Uhandisi wa Data na Kipengele",
+        "description": "Uingizaji wa data uliotolewa, ukaguzi wa ubora, na ufafanuzi wa vipengele vinavyoweza kutumika tena huunda msingi wa kuaminika wa mafunzo ya mfano."
+      },
+      "modelDevelopment": {
+        "title": "Maendeleo ya mfano",
+        "description": "Majaribio yanafuatiliwa na usanidi unaoweza kuzalishwa tena, vipimo vya lengo, na misingi ya kulinganisha kiotomatiki."
+      },
+      "validationAndSafetyGates": {
+        "title": "Milango ya Uthibitishaji na Usalama",
+        "description": "Miundo ya watahiniwa hupitisha utendakazi, uimara, na ukaguzi wa sera kabla ya kuidhinishwa kutolewa."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Vitanzi vya Maoni ya Uendeshaji",
+        "description": "Telemetry baada ya kupelekwa huarifu vipaumbele vya mafunzo upya, maamuzi ya kurudisha nyuma, na upangaji wa marudio unaofuata."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Huduma za Makisio ya Wakati Halisi",
+        "description": "API za latency za chini kwa programu shirikishi na kuongeza kiotomatiki, akiba, na uangalizi wa kiwango cha ombi."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Kundi na utabiri wa utiririshaji",
+        "description": "Mabomba yaliyopangwa na yanayoendeshwa na hafla kwa bao la kiwango cha juu katika uchanganuzi na mtiririko wa kazi wa uendeshaji."
+      },
+      "edgeAwareDeployment": {
+        "title": "Usambazaji wa Ufahamu wa Makali",
+        "description": "Mifumo ya mseto ya kuhudumia ukingo wa wingu kwa mazingira yanayohitaji makisio ya ndani na utawala wa muundo wa kati."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI / CD kwa Mifano",
+        "description": "Uundaji wa kiotomatiki, majaribio, na utoaji wa mtiririko wa kazi hupunguza hatari ya kupelekwa wakati wa kuhifadhi kasi ya uwasilishaji."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Usajili wa Mfano na Mzunguko wa Maisha",
+        "description": "Mabaki ya mfano yaliyotolewa na hatua za ukuzaji, ukoo, na mtiririko wa kazi wa idhini huboresha udhibiti na ufuatiliaji."
+      },
+      "servingInfrastructure": {
+        "title": "Kutumikia Miundombinu",
+        "description": "Tabaka za kuhudumia zinazoweza kuongezeka na mikakati ya uchapishaji kama vile canary na uwekaji wa kivuli husaidia usimamizi salama wa mabadiliko."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Ubora wa utabiri na utambuzi wa drift",
+      "latencyThroughputAndCostEfficiencyTracking": "Latency, upitishaji, na ufuatiliaji wa ufanisi wa gharama",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Arifa za urejeshaji wa ubora wa data na mtiririko wa kazi wa urekebishaji",
+      "auditabilityForComplianceAndIncidentAnalysis": "Ukaguzi wa kufuata na uchambuzi wa matukio"
+    },
+    "cta": {
+      "title": "Kiwango cha AI Inayotumika kwa Kujiamini",
+      "description": "Ikiwa unapanga mipango ya AI ambayo inahitaji matokeo yanayoweza kupimika na kudumishwa kwa muda mrefu, Horizon inaweza kusaidia kubuni na kutekeleza mzunguko kamili wa maisha ya mfumo.",
+      "primary": "Ongea na timu yetu",
+      "secondary": "Gundua Kazi Zaidi ya Maabara"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "NLP ya lugha nyingi",
+      "description": "Gundua uwezo wa usindikaji wa lugha asilia na jinsi unavyoongezeka katika mifumo ya uzalishaji inayotegemewa na ya lugha nyingi.",
+      "back": "Rudi kwenye Maabara ya Ubunifu",
+      "tags": {
+        "demo": "Onyesho la Maingiliano",
+        "intelligence": "Akili ya Lugha"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Misingi ya NLP",
+        "description": "Usindikaji wa lugha asilia unachanganya ishara za lugha na ujifunzaji wa mashine ili kutoa maana, dhamira, na muundo kutoka kwa maandishi."
+      },
+      "workbench": {
+        "title": "Benchi ya Kazi ya NLP inayoingiliana",
+        "description": "Tumia onyesho kujaribu utambuzi wa lugha, alama za hisia, uchimbaji wa huluki, na tabia za kutafsiri kwa wakati halisi."
+      },
+      "productionApplications": {
+        "title": "Jinsi Horizon Inavyotumia NLP katika Uzalishaji",
+        "description": "Uwezo wa NLP umeunganishwa katika mtiririko wa kazi wa biashara na ulinzi wa utendakazi na vipimo wazi vya ubora."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Kanuni za Kuegemea na Utawala",
+        "description": "Uzalishaji NLP inahitaji zaidi ya ubora wa mfano; Inategemea mazoea salama ya uchapishaji na uthibitishaji endelevu."
+      }
+    },
+    "foundations": {
+      "intro1": "Mifumo ya kisasa ya NLP huwezesha usaidizi wa kiotomatiki, umuhimu wa utafutaji, uchimbaji wa maarifa, na ushirikiano wa lugha nyingi. Utekelezaji mzuri unahitaji ubora wa mfano na udhibiti thabiti wa uendeshaji.",
+      "intro2": "Katika Horizon, tunazingatia mifumo ya NLP ya mwisho hadi mwisho ambayo inachanganya makisio thabiti na uzingatiaji, utawala, na athari ya uzalishaji inayoweza kupimika."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Utambuzi wa lugha",
+        "description": "Inabainisha lugha kutoka kwa sehemu fupi au ndefu za maandishi ili kuelekeza maombi kwenye bomba sahihi la usindikaji."
+      },
+      "sentimentAnalysis": {
+        "title": "Uchambuzi wa Hisia",
+        "description": "Dondoo dhamira ya kihemko na polarity kwa akili ya wateja, triage ya usaidizi, na vitanzi vya maoni ya bidhaa."
+      },
+      "entityExtraction": {
+        "title": "Uchimbaji wa Chombo",
+        "description": "Hutambua huluki zilizopangwa kama majina, kampuni, maeneo, na tarehe kutoka kwa maandishi ambayo hayajamuungwa."
+      },
+      "translation": {
+        "title": "Tafsiri",
+        "description": "Inasaidia mtiririko wa kazi wa lugha nyingi kwa kutafsiri maandishi yanayozalishwa na mtumiaji au yanayofanya kazi huku ikihifadhi muktadha."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Msaada na Ujasusi wa Tiketi",
+        "description": "Ainisha maombi yanayoingia kwa udharura, dhamira, na hisia ili kuharakisha uelekezaji na ubora wa majibu."
+      },
+      "governedContentOperations": {
+        "title": "Uendeshaji wa Maudhui Yanayotawaliwa",
+        "description": "Tumia vichujio vya lugha vinavyofahamu sera na ukaguzi wa udhibiti kwa usahihi unaoweza kupimika na malengo ya kukumbuka."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Maarifa ya Biashara Yanayoendeshwa na Maandishi",
+        "description": "Jumlisha mwenendo kutoka kwa hati, hakiki, na mawasiliano ili kufahamisha mkakati na maamuzi ya uendeshaji."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Tathmini kwa Kesi ya Matumizi",
+        "description": "Miundo huwekwa alama dhidi ya hifadhidata mahususi za kikoa kabla ya maamuzi ya kutolewa kufanywa."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Ulinzi wa Binadamu-katika-Kitanzi",
+        "description": "Utabiri wa athari kubwa ni pamoja na njia za ukaguzi, sheria za kuongezeka, na ishara za uwazi za kujiamini."
+      },
+      "continuousMonitoring": {
+        "title": "Ufuatiliaji unaoendelea",
+        "description": "Drift, latency, na uharibifu wa ubora hufuatiliwa kila wakati kwa hivyo kujizoeza upya na kurudisha nyuma ni makini."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Uigaji wa Algorithm ya Maumbile",
+      "description": "Gundua hesabu ya mageuzi katika mazingira shirikishi na uone jinsi kanuni sawa zinavyotafsiri katika mifumo ya uboreshaji wa uzalishaji.",
+      "back": "Rudi kwenye Maabara ya Ubunifu",
+      "tags": {
+        "demo": "Onyesho la Maingiliano",
+        "optimizationScience": "Sayansi ya Uboreshaji"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Msingi wa Kisayansi",
+        "description": "Algorithms za maumbile ni njia za uboreshaji kulingana na idadi ya watu zilizochochewa na uteuzi wa asili na marekebisho."
+      },
+      "interactiveEnvironment": {
+        "title": "Mazingira ya Mageuzi ya Maingiliano",
+        "description": "Endesha simulation ili kuona usawa ukiboresha kizazi kwa kizazi na uangalie jinsi shinikizo la uteuzi linavyoathiri matokeo."
+      },
+      "productionUse": {
+        "title": "Jinsi Horizon Inavyotumia Hii katika Uzalishaji",
+        "description": "Mitambo sawa ya utaftaji inayotumiwa katika onyesho hili hufahamisha mabomba ya uboreshaji yaliyowekwa katika mifumo ya uendeshaji."
+      },
+      "applicationDomains": {
+        "title": "Vikoa vya Maombi mapana",
+        "description": "Uboreshaji wa mageuzi ni muhimu sana katika mifumo iliyo na malengo yenye nguvu na vikwazo vinavyokinzana."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Badala ya kutafuta suluhisho moja kwa wakati mmoja, algorithms za maumbile hubadilisha idadi tofauti ya wagombea. Kila kizazi kinatathminiwa dhidi ya kazi ya usawa na kusafishwa kupitia uteuzi, crossover, na mabadiliko.",
+      "intro2": "Hii inawafanya kuwa na ufanisi kwa matatizo ya hali ya juu na vikwazo visivyo vya mstari, ambapo mbinu za kuamua huwa brittle au ghali kihesabu."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Uteuzi",
+        "description": "Wagombea wanaofanya vizuri wana uwezekano mkubwa wa kuishi na kushawishi kizazi kijacho."
+      },
+      "crossover": {
+        "title": "Msalaba",
+        "description": "Tabia kali zinaunganishwa tena ili kuunda suluhisho mpya za wagombea na nguvu mchanganyiko."
+      },
+      "mutation": {
+        "title": "Mabadiliko",
+        "description": "Kubahatisha kudhibitiwa huleta utofauti ili utaftaji usikwama karibu na optima ya ndani."
+      },
+      "convergence": {
+        "title": "Muunganiko",
+        "description": "Kwa vizazi vingi, idadi ya watu inaelekea kwenye suluhisho thabiti na za hali ya juu."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Upangaji wa Rasilimali",
+        "description": "Tunatumia mikakati ya mageuzi ili kuboresha upangaji wa vizuizi vingi ambapo utafutaji wa nguvu hauwezekani."
+      },
+      "architectureTuning": {
+        "title": "Urekebishaji wa Usanifu",
+        "description": "Usanidi wa miundombinu ya watahiniwa hutathminiwa mara kwa mara ili kuboresha utendaji na ufanisi wa gharama."
+      },
+      "continuousOptimization": {
+        "title": "Uboreshaji unaoendelea",
+        "description": "Kazi za uboreshaji huendeshwa katika vitanzi vinavyodhibitiwa na maoni ya telemetry ili mifumo ibadilike kadiri wasifu wa mahitaji unavyobadilika."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Njia na Upangaji wa Vifaa",
+        "description": "Upangaji changamano wa uwasilishaji na usambazaji hufaidika kutokana na utafutaji wa mageuzi wakati vikwazo vinabadilika haraka."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Utafutaji wa mfano na hyperparameter",
+        "description": "Utafutaji wa maumbile unaweza kugundua usanidi wa muundo wa hali ya juu wakati nyuso za lengo zina kelele na zisizo za mstari."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Matatizo ya kwingineko na ugawaji",
+        "description": "Uboreshaji chini ya malengo shindani unaweza kuandaliwa kama biashara ya usawa katika seti za wagombea zinazobadilika."
+      }
+    }
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Nýsköpunarlaboratoríið",
+    "description": "Kynntu þér gagnvirkar sýnikennslur, tilraunir og tæknilegar sýningar frá verkfræðiteyminu okkar.",
+    "primary": "Kynntu þér sýnidæmi",
+    "secondary": "Skoðaðu rannsóknir"
+  },
+  "overview": {
+    "hero": {
+      "title": "Nýsköpunarlaboratoríið",
+      "description": "Við könnum hagnýt svið í gervigreind, sjálfvirkni og dreifðum kerfum og þýðum síðan staðfestar rannsóknir yfir í áreiðanlega framleiðslugetu.",
+      "primary": "Kannaðu rannsóknarsvið",
+      "secondary": "Ræddu samstarf"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Rannsóknarsvið",
+        "description": "Hvert áherslusvið sameinar könnunarrannsóknir við innleiðingarleiðir sem eru hannaðar fyrir raunveruleg kerfi.",
+        "cardCta": "Kannaðu fókus"
+      },
+      "detailedFocusBriefs": {
+        "title": "Ítarlegar fókusyfirlit",
+        "description": "Rannsóknarverkefni til skamms tíma færast nú frá staðfestingu arkitektúrs yfir í afhendingaráætlanir."
+      },
+      "fromLabToProduction": {
+        "title": "Frá rannsóknarstofu til framleiðslu",
+        "description": "Nýsköpun hjá Horizon er mæld út frá sendingum, ekki einangruðum frumgerðum."
+      },
+      "roadmap": {
+        "title": "R&D vegakort",
+        "description": "Stigvaxandi þróun frá getuuppbyggingu yfir í aðlögunarhæf, stöðugt bætandi kerfi."
+      },
+      "publications": {
+        "title": "Útgáfur og innsýn",
+        "description": "Tæknileg ritun og innleiðingarathugasemdir frá áframhaldandi nýsköpunarvinnu."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Hagnýt gervigreindarkerfi",
+        "description": "Gervigreindararkitektúrar með áherslu á framleiðslu og ná yfir þjónustu líkans, eiginleikastjórnun og stýrðar tilraunir."
+      },
+      "automationFrameworks": {
+        "title": "Sjálfvirknirammar",
+        "description": "Innri sjálfvirkniverkfæri fyrir öryggi við innleiðingu, viðbrögð við atvikum og endurtekningarhæfa verkfræðiferla."
+      },
+      "advancedArchitecture": {
+        "title": "Háþróaðar arkitektúrtilraunir",
+        "description": "Rannsakaðu þolna, dreifða arkitektúr sem er hannaður fyrir afköst, bilunarþol og umfang."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing og IoT greind",
+        "description": "Greind á jaðri fyrir ákvarðanatöku með lágum töfum, fjarskiptavinnslu og samhæfingu tækjaflota."
+      },
+      "nlp": {
+        "title": "Náttúruleg málvinnsla",
+        "description": "Fjöltyngdar skilningsleiðir fyrir flokkun, útdrátt, þýðingu og samtalskerfi."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Þróunarreiknirit og hagræðing",
+        "description": "Leitar- og hagræðingarkerfi innblásin af náttúruvali til að leysa hávíddarverkfræðilegar áskoranir."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Sjálfvirknirammar",
+        "description": "Við erum að byggja samsettanleg vinnuflæðisramma fyrir útgáfustjórnun, gæðahlið og staðfestingu eftir innleiðingu til að draga úr handvirkum núningi og bæta áreiðanleika."
+      },
+      "advancedArchitecture": {
+        "title": "Háþróaðar arkitektúrtilraunir",
+        "description": "Arkitektúrtilraunir okkar beinast að þjónustusundurgreiningaraðferðum, þversvæðisbundnum viðnámsmynstrum og frammistöðumörkum fyrir kerfi sem starfa við sveiflukennda eftirspurn."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing og IoT greind",
+        "description": "Við erum að staðfesta hönnun á atburðastreymi og jaðarályktunum sem gera kleift að taka hraðari ákvarðanir á staðnum á sama tíma og miðlæg stjórnun, endurskoðun og stjórnun lífsferils líkans er varðveitt."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Áætlanagerð aðlögunarhæfni",
+        "description": "Rannsóknarstofufrumgerðir eru staðfestar gegn hermdum vinnuálagi og síðan samþættar í sjálfvirka stigvaxandi stefnu vettvangsins."
+      },
+      "operationalIntelligence": {
+        "title": "Rekstrarleyniþjónusta",
+        "description": "NLP-pípur færast frá stýrðum tilraunum yfir í framleiðslustuðningsferla fyrir hraðari flokkun og skýrari innsýn."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Hagræðing í afhendingarkerfum",
+        "description": "Þróunaraðferðir sem prófaðar eru í rannsóknarstofu eru þýddar yfir í hagræðingarvélar fyrir tímasetningu og úthlutun."
+      },
+      "edgeDecisioning": {
+        "title": "Brúnarákvarðanir",
+        "description": "IoT og jaðarályktunartilraunir eru harðgerðar í þjónustur með lágum biðtíma og ströngum áreiðanleikatakmörkunum."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Nú",
+        "title": "Hagnýtar gervigreindargrunnatriði",
+        "description": "Stækkaðu endurnýtanleg sniðmát sem þjóna líkönum, matssvítur og staðla fyrir athugun milli vöruteyma."
+      },
+      "next": {
+        "phase": "Næst",
+        "title": "Sjálfvirk verkfræðivinnuflæði",
+        "description": "Virkja sjálfvirkniramma sem draga úr áhættu á innleiðingu og stytta endurgjöfarhringrásir fyrir flutninga."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 mánuðir",
+        "title": "Edge-Native greind",
+        "description": "Skalaðu blandaðar skýjabrúnararkitektúrar fyrir nánast rauntíma ályktanir í umhverfum sem eru viðkvæmar fyrir biðtíma."
+      },
+      "longHorizon": {
+        "phase": "Langur sjóndeildarhringur",
+        "title": "Samfelld bestunarkerfi",
+        "description": "Samræmdu tilraunir, eftirlit og hagræðingu svo kerfi geti aðlagast örugglega þegar aðstæður breytast."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Að hanna gervigreindarkerfi sem haldast áreiðanleg í framleiðslu",
+        "summary": "Hagnýtt sjónarhorn á jafnvægi milli tilraunahraða og framleiðslustjórnunar.",
+        "cta": "Lestu innsýn"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Dreifð arkitektúrmynstur fyrir hávaxtarvettvanga",
+        "summary": "Vettvangsnótur frá arkitektúrprófunum lögðu áherslu á frammistöðu, þol og einfaldleika í rekstri.",
+        "cta": "Yfirlit yfir dæmisögur"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Vegakortlagning hagnýtrar rannsókna og þróunar fyrir viðskiptaniðurstöður",
+        "summary": "Hvernig við skipuleggjum nýsköpunarverkefni þannig að uppgötvanir færist frá frumgerð yfir í mælanlegt gildi.",
+        "cta": "Kynntu þér útgáfur"
+      }
+    },
+    "cta": {
+      "title": "Byggja með Horizon Innovation Lab",
+      "description": "Vinnaðu með okkur til að staðfesta metnaðarfullar hugmyndir hratt og færa sannaðar hugmyndir yfir í örugg og stigstærð framleiðslukerfi.",
+      "primary": "Byrjaðu samtal",
+      "secondary": "Skoðaðu niðurstöður afhendingar"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Hagnýt gervigreindarkerfi",
+      "description": "Hagnýt yfirsýn yfir hvernig Horizon hannar, setur upp og rekur vélanámskerfi frá frumgerð til framleiðslu.",
+      "back": "Til baka í nýsköpunarlaboratoríið",
+      "tags": {
+        "appliedAi": "Hagnýt gervigreind",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Vélrænt nám pípur",
+        "description": "Framleiðslugervigreind byrjar með endurteknum pípum sem tengja gögn, tilraunir, staðfestingu og endurgjöf."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Uppsetningarmynstur líkans",
+        "description": "Innleiðingarstefna er valin út frá töfum, viðskiptalegri mikilvægi og rekstrarflækjustigi."
+      },
+      "mlopsOperatingModel": {
+        "title": "MLOps rekstrarlíkan",
+        "description": "MLOps vinnubrögð tryggja að gervigreindarkerfi haldist áreiðanleg, stjórnanleg og stigstærð eftir því sem notkun eykst."
+      },
+      "monitoringAndReliability": {
+        "title": "Vöktun og áreiðanleiki",
+        "description": "Athugunarhæfni lokar hringrásinni milli hegðunar líkans og rekstrarútkomu."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Gagna- og eiginleikaverkfræði",
+        "description": "Inntaka gagna með útgáfum, gæðaeftirlit og endurnýtanlegar eiginleikaskilgreiningar skapa áreiðanlegan grunn fyrir þjálfun líkans."
+      },
+      "modelDevelopment": {
+        "title": "Þróun líkans",
+        "description": "Tilraunir eru fylgdar með endurteknum stillingum, markmiðsmælingum og sjálfvirkum samanburðargrunnlínum."
+      },
+      "validationAndSafetyGates": {
+        "title": "Staðfestingar- og öryggishlið",
+        "description": "Umsækjendalíkön standast próf á frammistöðu, styrkleika og stefnumótun áður en þau eru samþykkt til útgáfu."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Rekstrarendurgjafarhringrásir",
+        "description": "Eftirútsetningarfjarskipti veita forgangsröðun endurþjálfunar, ákvarðanir um afturköllun og næstu endurtekningaráætlun."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Rauntíma ályktunarþjónustur",
+        "description": "API með lágum töfum fyrir gagnvirk forrit með sjálfvirkri stækkun, skyndiminni og fyrirspurnarstigs sýnileika."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Spár um lotu og streymi",
+        "description": "Skipulagðar og atburðastýrðar pípur fyrir hámagnsstigagjöf yfir greiningar- og rekstrarferla."
+      },
+      "edgeAwareDeployment": {
+        "title": "Edge-meðvituð uppsetning",
+        "description": "Blönduð skýjabrúnarþjónustumynstur fyrir umhverfi sem krefjast staðbundinnar ályktunar og miðlægrar stjórnunar líkans."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI/CD fyrir módel",
+        "description": "Sjálfvirk byggingar-, prófunar- og útgáfuferlar draga úr áhættu á uppsetningu á sama tíma og afhendingarhraði er viðhaldið."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Líkanskrá og lífsferill",
+        "description": "Útgáfubundin líkanartefaktar með kynningarstigum, uppruna og samþykktarferlum bæta stjórn og rekjanleika."
+      },
+      "servingInfrastructure": {
+        "title": "Þjónusta innviða",
+        "description": "Stigstærðar þjónustulög með útbreiðsluaðferðum eins og canary- og shadow-innleiðingum styðja örugga breytingastjórnun."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Spágæði og greining á reki",
+      "latencyThroughputAndCostEfficiencyTracking": "Eftirfylgni með töf, afköstum og kostnaðarnýtingu",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Aðvaranir um gagnagæði og úrbótavinnuferlar",
+      "auditabilityForComplianceAndIncidentAnalysis": "Endurskoðun fyrir samræmis- og atvikagreiningu"
+    },
+    "cta": {
+      "title": "Stækkaðu hagnýta gervigreind með sjálfstrausti",
+      "description": "Ef þú ert að skipuleggja gervigreindarverkefni sem krefjast mælanlegra niðurstaðna og langtíma viðhaldshæfni getur Horizon hjálpað til við að hanna og reka allan lífsferil kerfisins.",
+      "primary": "Talaðu við teymið okkar",
+      "secondary": "Kynntu þér meira rannsóknarstofustarf"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "Fjöltungumála NLP",
+      "description": "Kannaðu hagnýta náttúrulega málvinnslugetu og hvernig hún stækkar í áreiðanleg, fjöltyngd framleiðslukerfi.",
+      "back": "Til baka í nýsköpunarlaboratoríið",
+      "tags": {
+        "demo": "Gagnvirk kynning",
+        "intelligence": "Tungumálagreind"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "NLP-undirstöður",
+        "description": "Náttúruleg málvinnsla sameinar málfræðileg merki og vélrænt nám til að draga merkingu, tilgang og uppbyggingu úr texta."
+      },
+      "workbench": {
+        "title": "Gagnvirkt NLP vinnuborð",
+        "description": "Notaðu sýnidæmið til að prófa tungumálagreiningu, tilfinningamat, útdrátt eininga og þýðingarhegðun í rauntíma."
+      },
+      "productionApplications": {
+        "title": "Hvernig Horizon beitir NLP í framleiðslu",
+        "description": "NLP hæfni er samþætt í viðskiptaferla með frammistöðu og skýrum gæðamælingum."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Áreiðanleiki og stjórnarhættir",
+        "description": "Framleiðslu NLP krefst meira en bara gæði líkans; Það fer eftir öruggum innleiðingarvenjum og stöðugri staðfestingu."
+      }
+    },
+    "foundations": {
+      "intro1": "Nútíma NLP kerfi styðja sjálfvirkni, leitarviðmiðun, þekkingarvinnslu og fjöltyngda samvinnu. Árangursrík innleiðing krefst bæði gæða líkans og sterkra rekstrarstýringa.",
+      "intro2": "Hjá Horizon einbeitum við okkur að heildrænum NLP-kerfum sem sameina trausta ályktun við sýnileika, stjórnun og mælanleg áhrif á framleiðslu."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Málgreining",
+        "description": "Greinir tungumál úr stuttum eða löngum textahlutum til að beina beiðnum inn í rétta vinnslulínu."
+      },
+      "sentimentAnalysis": {
+        "title": "Tilfinningagreining",
+        "description": "Dregur fram tilfinningalegan ásetning og tvískiptingu fyrir viðskiptavinagreind, stuðningsflokkun og endurgjöf á vörum."
+      },
+      "entityExtraction": {
+        "title": "Útdráttur eininga",
+        "description": "Greinir uppbyggðar einingar eins og nöfn, fyrirtæki, staðsetningar og dagsetningar úr óuppbyggðum texta."
+      },
+      "translation": {
+        "title": "Þýðing",
+        "description": "Styður fjöltyngda vinnuflæði með því að þýða texta sem notendur búa til eða nota á meðan samhengi er varðveitt."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Stuðningur og miðagreining",
+        "description": "Flokkaðu innkomandi beiðnir eftir brýnt, ásetningi og tilfinningum til að flýta fyrir leiðsögn og svörum."
+      },
+      "governedContentOperations": {
+        "title": "Stjórnað efnisrekstur",
+        "description": "Beita stefnumeðvitaðri tungumálasíu og eftirlitsskoðunum með mælanlegri nákvæmni og endurköllunarmarkmiðum."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Textadrifin viðskiptainnsýn",
+        "description": "Safnaðu saman þróun úr skjölum, endurskoðunum og samskiptum til að styðja við stefnu og rekstrarákvarðanir."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Mat eftir notkunartilviki",
+        "description": "Líkön eru borin saman við sértæk gagnasöfn áður en ákvörðun um útgáfu er tekin."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Öryggisráðstafanir mannsins í lykkjunni",
+        "description": "Hááhrifaspár fela í sér endurskoðunarleiðir, stigvaxandi reglur og gegnsæ traustsmerki."
+      },
+      "continuousMonitoring": {
+        "title": "Samfelld vöktun",
+        "description": "Drift, töf og gæðahnignun eru fylgst stöðugt með svo endurþjálfun og afturhvarf eru fyrirbyggjandi."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Hermun erfðafræðilegs reiknirits",
+      "description": "Kannaðu þróunarreikninga í gagnvirku umhverfi og sjáðu hvernig sömu meginreglur nýtast í framleiðslubestunarkerfum.",
+      "back": "Til baka í nýsköpunarlaboratoríið",
+      "tags": {
+        "demo": "Gagnvirk kynning",
+        "optimizationScience": "Hagræðingarvísindi"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Vísindastofnun",
+        "description": "Erfðafræðileg reiknirit eru stofnbundnar hagræðingaraðferðir innblásnar af náttúruvali og aðlögun."
+      },
+      "interactiveEnvironment": {
+        "title": "Gagnvirkt þróunarumhverfi",
+        "description": "Keyrðu hermunina til að sjá líkamsrækt batna í hverri kynslóð og fylgjast með hvernig valþrýstingur hefur áhrif á niðurstöður."
+      },
+      "productionUse": {
+        "title": "Hvernig Horizon notar þetta í framleiðslu",
+        "description": "Sömu leitaraðferðir og notaðar eru í þessari sýnikennslu styðja hagræðingarpípur sem eru settar upp í rekstrarkerfum."
+      },
+      "applicationDomains": {
+        "title": "Víðtækari notkunarsvið",
+        "description": "Þróunarhagræðing er sérstaklega verðmæt í kerfum með breytileg markmið og mótsagnakenndar takmarkanir."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Í stað þess að leita að einni lausn í einu, þróa erfðafræðileg reiknirit fjölbreyttan hóp kandídata. Hver kynslóð er metin út frá hæfnifalli og fínstillt með vali, krossun og stökkbreytingu.",
+      "intro2": "Þetta gerir þær áhrifaríkar fyrir hávíddarvandamál með ólínulegum skorðum þar sem ákvarðanafræðilegar aðferðir verða brothættar eða tölvukostnaðarsamar."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Val",
+        "description": "Framúrskarandi frambjóðendur eru líklegri til að lifa af og hafa áhrif á næstu kynslóð."
+      },
+      "crossover": {
+        "title": "Krossun",
+        "description": "Sterkir eiginleikar eru sameinaðir aftur til að búa til nýjar lausnir með blönduðum styrkleikum."
+      },
+      "mutation": {
+        "title": "Stökkbreyting",
+        "description": "Stýrð handahófskennd veldur fjölbreytni svo leit festist ekki við staðbundna optima."
+      },
+      "convergence": {
+        "title": "Samleitni",
+        "description": "Í gegnum margar kynslóðir stefna íbúar í stöðugar og vandaðar lausnir."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Auðlindaskipulag",
+        "description": "Við notum þróunaraðferðir til að hámarka fjölþröngva tímasetningu þar sem gróf leit er óframkvæmanleg."
+      },
+      "architectureTuning": {
+        "title": "Stillingar á arkitektúr",
+        "description": "Uppsetningar innviða umsækjenda eru metnar ítrekað til að bæta frammistöðu og kostnaðarhagkvæmni."
+      },
+      "continuousOptimization": {
+        "title": "Samfelld hagræðing",
+        "description": "Bestunarverkefni keyra í stýrðum lykkjum með endurgjöf frá fjarskiptum svo kerfi aðlagast eftir því sem eftirspurnarsnið breytast."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Leiðar- og birgðaskipulag",
+        "description": "Flókin afhendingar- og útsendingaráætlun nýtur góðs af þróunarleit þegar takmarkanir breytast hratt."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Líkan- og ofurbreytuleit",
+        "description": "Erfðaleit getur fundið hágæða líkanuppsetningar þegar hlutlæg yfirborð eru hávær og ólínuleg."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Vandamál með eignasafn og úthlutun",
+        "description": "Hagræðing undir samkeppnismarkmiðum má skilgreina sem jafnvægi milli vaxandi umsækjenda."
+      }
+    }
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Innovation Lab",
+    "description": "Explore interactive demos, experiments, and technical showcases from our engineering team.",
+    "primary": "Explore Demos",
+    "secondary": "Raba ubushakashatsi"
+  },
+  "overview": {
+    "hero": {
+      "title": "Innovation Lab",
+      "description": "Turihweza imbibe zifatika muri AI, automatisation, hamwe n'uburyo bwo gukwiragiza, hanyuma tugahindura ubushakashatsi bwemejwe mu bushobozi bwizewe bwo gutunganya.",
+      "primary": "Explore Research Areas",
+      "secondary": "Kuganira ku bijanye n'ugufashanya"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Ibibanza vy'ubushakashatsi",
+        "description": "Buri gice c'ivyiyumviro gihuza ubushakashatsi bw'ubushakashatsi hamwe n'inzira zo gushira mu ngiro imigambi y'isi nyakuri.",
+        "cardCta": "Explore focus"
+      },
+      "detailedFocusBriefs": {
+        "title": "Detailed Focus Briefs",
+        "description": "Ibikorwa vy'ubushakashatsi vy'igihe gito ubu biva ku kugenzura inyubakwa gushika ku migambi yo gushikiriza."
+      },
+      "fromLabToProduction": {
+        "title": "Kuva muri laboratoire gushika ku gutunganya",
+        "description": "Innovation at Horizon is measured by shipment results, not isolated prototypes."
+      },
+      "roadmap": {
+        "title": "Inzira ya R&D",
+        "description": "Iterambere ry'ibihe kuva ku bushobozi gushika ku guhinduka, guhora ritera imbere."
+      },
+      "publications": {
+        "title": "Publications & Insights",
+        "description": "Technical writing and implementation notes from ongoing innovation work."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Uburyo bwa AI bukoreshwa",
+        "description": "Production-focused AI architectures spanning model serving, feature orchestration, and controlled experimentation."
+      },
+      "automationFrameworks": {
+        "title": "Automation Frameworks",
+        "description": "Internal automation tooling for deployment safety, incident response, and repeatable engineering workflows."
+      },
+      "advancedArchitecture": {
+        "title": "Advanced Architecture Experimentation",
+        "description": "Research into resilient, distributed architectures optimized for performance, fault tolerance, and scale."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Intelligence at the edge for low-latency decisioning, telemetry processing, and device fleet coordination."
+      },
+      "nlp": {
+        "title": "Natural Language Processing",
+        "description": "Gutahura indimi nyinshi mu gutunganya, gukura, guhindura, hamwe n'uburyo bwo kuganira."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Evolutionary Algorithms & Optimization",
+        "description": "Uburyo bwo kurondera no gutunganya ibidukikije bwahumetswe n'ihindagurika ry'ibidukikije mu gutorera umuti ibibazo vy'ubuhinga buhanitse."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Automation Frameworks",
+        "description": "We are building composable workflow frameworks for release orchestration, quality gates, and post-deploy verification to reduce manual friction while improving reliability."
+      },
+      "advancedArchitecture": {
+        "title": "Advanced Architecture Experimentation",
+        "description": "Igerageza ryacu ry'ubwubatsi ryibanda ku migambi yo gusesagura serivisi, uburyo bwo kwihangana hagati y'uturere, hamwe n'ibahasha y'imikorere y'uburyo bukora mu bukene."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Turiko turakwemeza ibiteramo vyo gukwiragiza ibibera hamwe n'ibishushanyo vy'inyifato bifasha gufata ingingo zinyaruka mu karere mu kubungabunga ubugenzuzi, kugenzura, hamwe n'imiyoborere y'ubuzima bw'ikitegererezo."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Adaptive Capacity Planning",
+        "description": "Ibipimo vya laboratwari bigenzurwa ku bikorwa vy'igeragezwa hanyuma bigashirwa mu migambi ya platform autoscaling."
+      },
+      "operationalIntelligence": {
+        "title": "Operational Intelligence",
+        "description": "Imiyoboro ya NLP iva mu igeragezwa rigenzurwa ija mu bikorwa vy'ubufasha bw'umusaruro kugira ngo ishobore gupima vuba kandi itomoye."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Optimization in Delivery Systems",
+        "description": "Uburyo bw'ihindagurika bwageragejwe muri laboratoire buhindurwa mu mashini zo gutunganya urutonde n'ugusarura."
+      },
+      "edgeDecisioning": {
+        "title": "Gufata ingingo",
+        "description": "Igeragezwa rya IoT hamwe n'igeragezwa ry'inference rikomezwa muri serivisi zo hasi hamwe n'inzitizi zikomeye zo kwizigirwa."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Ubu",
+        "title": "Applied AI Foundations",
+        "description": "Kwagura uburyo bukoreshwa mu gutunganya ibicuruzwa, ibipimo vy'igenzura, hamwe n'ibipimo vyo kugenzura mu migwi y'ibicuruzwa."
+      },
+      "next": {
+        "phase": "Ikurikira",
+        "title": "Autonomous Engineering Workflows",
+        "description": "Gukoresha uburyo bwa automation bugabanya akaga ko gukwiragiza no kugabanya uburyo bwo kwishura ku bwikorezi."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "Amezi 12-18",
+        "title": "Edge-Native Intelligence",
+        "description": "Scale hybrid cloud-edge architectures for near real-time inference in latency-sensitive environment."
+      },
+      "longHorizon": {
+        "phase": "Horizon ndende",
+        "title": "Continuous Optimization Systems",
+        "description": "Guhuza igerageza, kugenzura, no gutunganya kugira uburyo bushobore guhuza neza uko ibintu bihinduka."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Ubuhinga bwa AI buguma bwizewe mu gukora",
+        "summary": "A practical perspective on balancing experimentation velocity with production governance.",
+        "cta": "Soma ivyiyumviro"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Distributed Architecture Patterns for High-Growth Platforms",
+        "summary": "Field notes from architecture trials focused on performance, resiliency, and operational simplicity.",
+        "cta": "Review case studies"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping Applied R&D for Business Outcomes",
+        "summary": "Ingene dutunganya imigambi yo guhanga udushya kugira ubuvumbuzi buve ku buhinga buja ku gaciro.",
+        "cta": "Explore publications"
+      }
+    },
+    "cta": {
+      "title": "Build with Horizon Innovation Lab",
+      "description": "Gukorana natwe mu kwemeza ivyiyumviro vyihuta no kwimura ivyiyumviro vyemewe mu buryo butekanye kandi bugezweho.",
+      "primary": "Gutangura ikiyago",
+      "secondary": "View Delivery Results"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Uburyo bwa AI bukoreshwa",
+      "description": "A practical overview of how Horizon designs, deploys, and operates machine learning systems from prototype to production.",
+      "back": "Tugaruke muri Innovation Lab",
+      "tags": {
+        "appliedAi": "Applied AI",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Machine Learning Pipelines",
+        "description": "Production AI itangura n'imiyoboro isubiramwo ihuza amakuru, igerageza, kwemeza hamwe n'ivyiyumviro."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Model Deployment Patterns",
+        "description": "Uburyo bwo gukwiragiza buhitamwo hashingiwe ku bisabwa vya latency, uburemere bw'ubucuruzi, hamwe n'ubugoye bw'imikorere."
+      },
+      "mlopsOperatingModel": {
+        "title": "MLOps Operating Model",
+        "description": "Uburyo bwa MLOps butuma uburyo bwa AI buguma bwizewe, bugenzurwa, kandi bushoboka uko ikoreshwa rikura."
+      },
+      "monitoringAndReliability": {
+        "title": "Kugenzura no kwizerwa",
+        "description": "Observability closes the loop between model behavior and operational results."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Data and Feature Engineering",
+        "description": "Kwinjiza amakuru, kugenzura ubuziranenge hamwe n'ibisobanuro vy'ibintu bishobora gusubirwamwo bituma habaho umushinge wizewe w'inyigisho z'ikitegererezo."
+      },
+      "modelDevelopment": {
+        "title": "Iterambere ry'akarorero",
+        "description": "Experiments are tracked with reproducible configurations, objective metrics, and automated comparison baselines."
+      },
+      "validationAndSafetyGates": {
+        "title": "Amarembo yo kwemeza n'umutekano",
+        "description": "Ibipimo vy'abakandida birasuzuma ibikorwa, ubukomezi hamwe n'igenzura rya poritike imbere y'uko bisohoka."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Operational Feedback Loops",
+        "description": "Post-deployment telemetry informs retraining priorities, rollback decisions, and next iteration planning."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Real-Time Inference Services",
+        "description": "Low-latency APIs for interactive applications with autoscaling, caching, and request-level observability."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Batch and Streaming Predictions",
+        "description": "Imiyoboro itegekanijwe kandi ikorwa n'ibikorwa vyo gupima amanota menshi mu bipimo n'ibikorwa vy'akazi."
+      },
+      "edgeAwareDeployment": {
+        "title": "Edge-Aware Deployment",
+        "description": "Hybrid cloud-edge serving patterns for environment require local inference and centralized model governance."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI / CD for Models",
+        "description": "Gukora mu buryo bwikora, kugerageza, no kurekura ibikorwa bigabanya akaga ko gukwiragiza mu gihe birinda umuvuduko wo gutanga ibicuruzwa."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Model Registry and Lifecycle",
+        "description": "Versioned model artifacts with promotion stages, lineage, and approval workflows improve control and traceability."
+      },
+      "servingInfrastructure": {
+        "title": "Gukorera ibikorwa-remezo",
+        "description": "Scalable serving layers with rollout strategies such as canary and shadow deployments support safe change management."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Prediction quality and drift detection",
+      "latencyThroughputAndCostEfficiencyTracking": "Latency, throughput, and cost efficiency tracking",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Data quality regression alerts and remediation workflows",
+      "auditabilityForComplianceAndIncidentAnalysis": "Auditability for compliance and incident analysis"
+    },
+    "cta": {
+      "title": "Scale Applied AI with Confidence",
+      "description": "Nimba uriko urategura imigambi ya AI ikeneye ibisubizo bipimwa no kubungabunga igihe kirekire, Horizon irashobora gufasha gutegura no gushira mu ngiro ubuzima bwose bwa sisitemu.",
+      "primary": "Vugana n'umugwi wacu",
+      "secondary": "Explore More Lab Work"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "NLP y'indimi nyinshi",
+      "description": "Explore practical natural language processing capabilities and how they scale into reliable and multilingual production systems.",
+      "back": "Tugaruke muri Innovation Lab",
+      "tags": {
+        "demo": "Interactive Demo",
+        "intelligence": "Ubwenge bw'ururimi"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Imishinge ya NLP",
+        "description": "Natural language processing combines linguistic signals and machine learning to extract meaning, intent, and structure from text."
+      },
+      "workbench": {
+        "title": "Interactive NLP Workbench",
+        "description": "Use the demo to test language detection, sentiment scoring, entity extraction, and translation behaviors in real time."
+      },
+      "productionApplications": {
+        "title": "Ingene Horizon ikoresha NLP mu gutunganya",
+        "description": "Ubushobozi bwa NLP buhuzwa mu bikorwa vy'ubudandaji hamwe n'uburyo bwo kurinda ibikorwa hamwe n'ibipimo vy'ubuziranenge bitomoye."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Reliability and Governance Principles",
+        "description": "Production NLP isaba ibirenze ubuziranenge bw'ikitegererezo; Bivana n'uburyo butekanye bwo gukwiragiza no kugenzura igihe cose."
+      }
+    },
+    "foundations": {
+      "intro1": "Uburyo bwa none bwa NLP butanga ubushobozi bwo gushigikira automatisation, uburemere bwo kurondera ubumenyi, gukura ubumenyi, hamwe no gukorana mu ndimi nyinshi. Gushira mu ngiro neza bisaba ubuziranenge bw'akarorero hamwe n'ubugenzuzi bukomeye.",
+      "intro2": "At Horizon, we focus on end-to-end NLP systems that combine robust inference with observability, governance, and measurable production impact."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Gutahura ururimi",
+        "description": "Identify language from short or long text segments to route requests into the right processing pipeline."
+      },
+      "sentimentAnalysis": {
+        "title": "Isesengura ry'ivyiyumviro",
+        "description": "Extracts emotional intent and polarity for customer intelligence, support triage, and product feedback loops."
+      },
+      "entityExtraction": {
+        "title": "Entity Extraction",
+        "description": "Detects structured entities such as names, companies, locations, and dates from unstructured text."
+      },
+      "translation": {
+        "title": "Ubuhinduzi",
+        "description": "Gushigikira ibikorwa vy'indimi nyinshi mu guhindura inyandiko zakozwe n'umukoresha canke zikora mu kugumana ivyiyumviro."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Support and Ticket Intelligence",
+        "description": "Classify incoming requests by urgency, intent, and sentiment to speed up routing and response quality."
+      },
+      "governedContentOperations": {
+        "title": "Ibikorwa bigenzurwa",
+        "description": "Apply policy-aware language filters and moderation checks with measurable precision and recall targets."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Text-Driven Business Insights",
+        "description": "Aggregate trends from documents, reviews, and communications to inform strategy and operational decisions."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Evaluation by Use Case",
+        "description": "Models are benchmarked against domain-specific datasets before release decisions are made."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Human-in-the-Loop Protections",
+        "description": "Ubuhanuzi bukomeye burimwo inzira zo gusuzuma, amategeko yo kwiyongera, hamwe n'ibimenyetso vy'ukwizera."
+      },
+      "continuousMonitoring": {
+        "title": "Continuous Monitoring",
+        "description": "Drift, latency, and quality degradation are tracked continuously so retraining and rollback are proactive."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Genetic Algorithm Simulation",
+      "description": "Explore evolutionary computation in an interactive environment and see how the same principles translate into production optimization systems.",
+      "back": "Tugaruke muri Innovation Lab",
+      "tags": {
+        "demo": "Interactive Demo",
+        "optimizationScience": "Ubuhinga bwa Optimization"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Fondation scientifique",
+        "description": "Genetic algorithms ni uburyo bwo gutunganya ibidukikije bushingiye ku guhitamwo no guhinduka."
+      },
+      "interactiveEnvironment": {
+        "title": "Interactive Evolution Environment",
+        "description": "Kora simulation kugira urabe ko fitness igenda ihinduka iyaruka ku rugero kandi urabe ingene igitutu co guhitamwo kigira ingaruka ku bivamwo."
+      },
+      "productionUse": {
+        "title": "Ingene Horizon ikoresha ibi mu gutunganya",
+        "description": "The same search mechanics used in this demo inform optimization pipelines deployed in operational systems."
+      },
+      "applicationDomains": {
+        "title": "Wider Application Domains",
+        "description": "Evolutionary optimization is especially useful in systems with dynamic goals and conflicting constraints."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Aho kurondera inyishu imwe ku yindi, algorithms z'utugingo ngengakamere zihindura ubwoko butandukanye bw'abakandida. Iyaruka ryose risuzumwa ugereranije n'imikorere y'umubiri kandi rigatunganywa biciye mu guhitamwo, guhindura, no guhindura.",
+      "intro2": "Ivyo bituma zikora neza ku ngorane zikomeye zifise inzitizi zitari umurongo, aho uburyo bwa deterministic buba bugoye canke buzimvye."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Guhitamwo",
+        "description": "Abakandida bakomeye bafise amahirwe menshi yo kubaho no kugira akosho ku rwaruka rukurikira."
+      },
+      "crossover": {
+        "title": "Umusaraba",
+        "description": "Strong traits are recombined to create new candidate solutions with mixed strengths."
+      },
+      "mutation": {
+        "title": "Ihinduka",
+        "description": "Controlled randomness introduces diversity so search does not stall around local optima."
+      },
+      "convergence": {
+        "title": "Convergence",
+        "description": "Mu myaka myinshi, abantu baguma barondera inyishu zihamye kandi zihambaye."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Urutonde rw'ibikoresho",
+        "description": "We use evolutionary strategies to optimize multi-constraint scheduling where brute-force search is inpossible."
+      },
+      "architectureTuning": {
+        "title": "Architecture Tuning",
+        "description": "Ibibanza vy'ibikorwaremezo vy'abakandida birasuzumwa iteratively kugira ngo bishobore kuryohora imikorere n'igiciro."
+      },
+      "continuousOptimization": {
+        "title": "Continuous Optimization",
+        "description": "Optimization jobs run in controlled loops with telemetry feedback so systems adapt as demand profiles shift."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Route & Logistics Planning",
+        "description": "Complex delivery and dispatch planning benefits from evolutionary search when constraints change rapidly."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Model and Hyperparameter Search",
+        "description": "Ubushakashatsi bw'utugingo ngengakamere burashobora gutohoza imiterere y'imiterere yo ku rwego rwo hejuru mu gihe ibibanza vy'intumbero ari urusaku kandi bidasanzwe ku murongo."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Portfolio and Allocation Problems",
+        "description": "Optimization under competitive goals can be framed as fitness tradeoffs across evolving candidate sets."
+      }
+    }
+  }
+}

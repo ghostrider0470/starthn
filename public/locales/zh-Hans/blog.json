@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "全部"
+  },
+  "categories": {
+    "aiEngineering": "人工智能工程",
+    "enterpriseArchitecture": "企业架构",
+    "cloudDevOps": "云与 DevOps",
+    "automationSystems": "自动化系统",
+    "softwareReliabilityDesign": "软件可靠性与设计"
+  },
+  "readTime": "{{minutes}} 分钟阅读",
+  "tagsLabel": "标签",
+  "relatedPosts": "相关文章",
+  "author": {
+    "role": "出版商"
+  },
+  "editor": {
+    "emptyPreview": "开始写作以观看预览......"
+  },
+  "tags": {
+    "llmOps": "LLM 运营",
+    "promptEngineering": "提示工程",
+    "observability": "可观测性",
+    "safety": "安全",
+    "domainDesign": "域名设计",
+    "integration": "积分",
+    "governance": "治理",
+    "platformStrategy": "平台战略",
+    "platformEngineering": "平台工程",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "开发者体验",
+    "eventDriven": "事件驱动",
+    "workflowOrchestration": "工作流程编排",
+    "controlPlanes": "控制平面",
+    "resilience": "韧性",
+    "sre": "SRE",
+    "slos": "SLO",
+    "failureModes": "失效模式",
+    "resilienceEngineering": "韧性工程",
+    "evaluation": "评价",
+    "qualityEngineering": "质量工程",
+    "datasets": "数据集",
+    "releaseManagement": "发布管理",
+    "incidentManagement": "事件管理",
+    "architectureEvolution": "架构演变",
+    "riskReduction": "风险降低",
+    "postmortems": "事后分析",
+    "progressiveDelivery": "渐进式交付",
+    "canaryReleases": "金丝雀发行",
+    "featureFlags": "特色旗帜"
+  }
+}

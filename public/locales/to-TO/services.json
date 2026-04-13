@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Kamata",
+    "ctaSecondary": "Taimi-tepileʻi ʻo e Faleʻi"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Enterprise Software Development",
+      "description": "Ngaahi polokalama fakapisinisi ʻi he ngataʻanga ki he ngataʻanga mo e ngaahi fokotuʻutuʻu fakaonopooni, API-ʻuluaki fokotuʻutuʻu, mo e scalability ʻo e ʻao."
+    },
+    "sections": {
+      "problem": {
+        "title": "Fokotuʻutuʻu ʻo e Palopalema ʻo e Pisinisi",
+        "subtitle": "Ko e feituʻu ʻoku mole ai ʻa e vave, patiseti mo e fenapasi ʻa e ngaahi polokalama pisinisi"
+      },
+      "approach": {
+        "title": "Founga Fakaʻenisinia",
+        "subtitle": "Founga ʻoku tau liliu ai ʻa e ngaahi fie maʻu taʻemahino ki he ngaahi tuʻunga ʻoku mateuteu ki hono ngaohi"
+      },
+      "principles": {
+        "title": "Ngaahi Tefitoʻi Moʻoni ʻo e Langa",
+        "subtitle": "Fokotuʻutuʻu ha ngaahi tuʻutuʻuni ʻoku ne tauhi ʻa e ngaahi polokalama ʻa e pisinisi ʻi he meʻafua"
+      },
+      "capabilities": {
+        "title": "Ko e Meʻa ʻOku Tau Langa",
+        "subtitle": "Ngaahi meʻa fakalukufua ʻoku malava ke fakalakalaka ʻi he polokalama fakako"
+      },
+      "technology": {
+        "title": "Ko ʻEtau Fokotuʻutuʻu Fakatekinolosia",
+        "subtitle": "Ko e ngaahi tekinolosia fakaonopooni kuo ʻosi fakamoʻoniʻi ki hono ʻoatu ʻo e pisinisi"
+      },
+      "breakdown": {
+        "title": "Maumauʻi ʻo e Ngaue",
+        "subtitle": "Ko ha hala kuo fokotuʻutuʻu mei he ʻiloʻi ki he tuʻumaʻu ʻo e ngaohiʻanga koloa"
+      }
+    },
+    "problem": {
+      "overview": "ʻOku faʻa fakahoko ʻe he ngaahi timi pisinisi ʻa e ngaahi founga ngaue mahuʻinga ʻi he ngaahi polokalama movetevete, ʻo fakatupu ai ha taimi loloa, fakamatala ʻoku ʻikai faitatau, mo e fakafekauʻaki mamafa ʻi he vahaʻa ʻo e ngaahi potungaue.",
+      "painPointsTitle": "Toutou Faingataʻaʻia ʻi he Pisinisi",
+      "impactSignalsTitle": "Ko e Meʻa ʻOku Faʻa Fakatokangaʻi ʻe he Kau Taki",
+      "painPoints": [
+        "ʻOku holo ʻa e ngaahi tukupa ki hono ʻoatu koeʻuhi he ʻoku ʻikai tokangaʻi ʻa e ngaahi fakafalala ʻi he ngaahi timi",
+        "ʻOku tatau ʻa e tefitoʻi fakaʻuhinga ʻo e pisinisi ʻi he ngaahi founga mo e koloa",
+        "ʻOku hanga ʻe he ngaahi fakatahaʻi tukufakaholo ʻo ʻai ke tuʻu fakatuʻutamaki mo tuai hono kamataʻi ʻo e ngaahi fotunga foʻou"
+      ],
+      "impactSignals": [
+        "ʻOku holo ʻa e throughput ʻo e roadmap kae fakautuutu ʻa e fakamole fakaʻenisinia",
+        "ʻOku fakautuutu ʻa e ngaahi fehalaaki ʻoku fehangahangai mo e kasitomaa lolotonga e ngaahi vahaʻataimi tukuange",
+        "ʻOku tuai ʻa e fai tuʻutuʻuni koeʻuhi ko e ʻikai ke tatau ʻa e lipooti ʻo e ngaue"
+      ]
+    },
+    "approach": {
+      "overview": "ʻOku mau fakahoko ʻaki ʻa e ʻuluaki ʻiloʻi ʻo e langa, ʻave ʻi he aleapau, mo e ʻenisinia ʻoku puleʻi ke tukuange koeʻuhi ke fakafolau atu ʻa e mahuʻinga ʻo e pisinisi ʻi ha ngaahi fakakongokonga ʻoku lava ke ʻiloʻi.",
+      "pillars": [
+        {
+          "title": "Domain Modeling & Bounded Contexts",
+          "detail": "ʻOku mau mape ʻa e ngaahi domain ke fakaʻataʻata ʻa e ngaahi fakangatangata ʻo e ngaue ke fakasiʻisiʻi ʻa e fengaueʻaki ʻa e ngaahi timi mo fakamahinoʻi ʻa e tokotaha ʻoku ʻaʻana."
+        },
+        {
+          "title": "API-ʻUluaki Founga Fakatahaʻi",
+          "detail": "ʻOku tau fakaʻuhingaʻi vave ʻa e ngaahi aleapau tuʻumaʻu, ʻo malava ai ʻa e fakalakalaka tatau mo e fengaueʻaki malu ange mo e ngaahi polokalama fakapisinisi."
+        },
+        {
+          "title": "Fakalakalaka ʻo e Delivery Workflow",
+          "detail": "ʻOku mau fakaʻaongaʻi ʻa e ngaahi fuka ʻo e fotunga, fokotuʻutuʻu ʻo e ngaahi meʻa ke tukuange vave ʻo ʻikai uesia ʻa e faʻu."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "ʻOku fakamuʻomuʻa ʻe heʻetau ngaahi tuʻutuʻuni ki he palani ʻa e moʻui fuoloa, ngaue mo e mahino ʻoku ʻaʻana koeʻuhi ke kei lava pe ʻo liliu ʻa e ngaahi platform ʻi he tupulaki ʻa e pisinisi.",
+      "items": [
+        {
+          "title": "Ngaahi Fakangatangata ʻo e Ngaue Modular",
+          "detail": "ʻOku fokotuʻutuʻu ʻa e ngaahi meʻa ʻoku malava ʻi he ngaahi tafaʻaki ʻo e pisinisi ke tauhi ʻa e ola ʻo e liliu ʻi he feituʻu totonu."
+        },
+        {
+          "title": "Fakatahaʻi ʻo e Ngaahi Meʻa ʻOku Hoko",
+          "detail": "ʻOku fakaʻaongaʻi ʻa e asynchronous workflows ʻi he feituʻu ʻoku ʻi ai ʻa e latency tolerance ke fakaleleiʻi ʻa e resilience mo e decouple systems."
+        },
+        {
+          "title": "Observability by Design",
+          "detail": "ʻOku fakaʻuhingaʻi kimuʻa ʻa e tracing, metrics, mo e structured logs ke poupouʻi ʻa e ngaahi ngaue falalaʻanga mo hono puleʻi ʻo e SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Ngaahi Polokalama Uepi Angamaheni",
+      "Fakalakalaka ʻo e Mobile App",
+      "Fakalakalaka mo e Fakatahaʻi ʻo e API",
+      "Microservices Architecture",
+      "Ngaahi Founga ʻo e ʻAo-Fonua",
+      "Fakaonopooni ʻo e Polokalama Tukufakaholo"
+    ],
+    "technologies": [
+      {
+        "name": "Tali",
+        "category": "Frontend",
+        "icon": "tali"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "Dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Lea fakafonua",
+        "icon": "taipeʻi"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "graphql"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Fakamatala fakakomipiuta",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Fakamatala fakakomipiuta",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Discovery & Architecture",
+        "summary": "ʻOku mau mape ʻa e ngaahi meʻa ʻoku fakamuʻomuʻa ʻi he pisinisi, ngaahi fakangatangata fakatekinikale, mo e fokotuʻutuʻu ʻo e taumuʻa kimuʻa pea toki kamata hono faka",
+        "deliverables": [
+          "Ako ki he fenapasi ʻo e koloa mo e ngaahi fie maʻu",
+          "Founga ʻo e fokotuʻutuʻu ʻo e fakaleleiʻi",
+          "Palani ʻo e ʻoatu ʻo e makamaile"
+        ]
+      },
+      {
+        "title": "Langa mo e Fakatahaʻi",
+        "summary": "ʻOku fakahoko ʻe heʻemau ngaahi timi ʻa e ngaahi tefitoʻi fotunga, ngaahi konga ʻo e fakatahaʻi, mo e ngaahi maluʻi ʻo e tuʻunga lelei ʻi he taimi tatau.",
+        "deliverables": [
+          "Fakalakalaka ʻo e fotunga ʻi he ngaahi sprints ʻoku toutou fakahoko",
+          "API mo e faʻahi hono tolu integrations",
+          "ʻOtometiki hono siviʻi mo e vakaiʻi ʻo e mateuteu ke tukuange"
+        ]
+      },
+      {
+        "title": "Kamataʻanga & Evolution",
+        "summary": "Hili ʻa e go-live, ʻoku mau stabilize ʻa e ngaahi ngaue mo fakaʻuhingaʻi ʻa e siakale fakalakalaka hono hoko ʻo makatuʻunga ʻi hono fakaʻaongaʻi moʻoni.",
+        "deliverables": [
+          "Production rollout runbook",
+          "Tuʻutuʻuni ʻo e ngaue mo e falalaʻanga",
+          "Roadmap mo e backlog ʻo e fakaleleiʻi hili hono kamataʻi"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Mateuteu ke langa hoʻo tohi kole hoko?",
+      "description": "Tau fokotuʻutuʻu mo fakafolau ha founga ʻoku ne fakaʻaiʻai ʻa e ngaahi ola ʻo e pisinisi ʻoku lava ke fuatautau.",
+      "button": "Kamata Hoʻo Ngāué"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML & Business Intelligence",
+      "description": "ʻOku mau faʻu ha ngaahi polokalama AI/BI kakato ʻoku ne poupouʻi ʻa e ngaahi tuʻutuʻuni ʻi he meʻafua."
+    },
+    "sections": {
+      "problem": {
+        "title": "Fokotuʻutuʻu ʻo e Palopalema ʻo e Pisinisi",
+        "subtitle": "Ko e ha ʻoku kei faingataʻaʻia ai ʻa e ngaahi kautaha koloaʻia ʻi he fakamatala ke fai ha ngaahi fili falala"
+      },
+      "approach": {
+        "title": "Founga Fakaʻenisinia",
+        "subtitle": "Founga ʻoku tau fakalele ai ʻa e ngaahi koloa ʻo e fakamatala, ngaahi sipinga ML, mo e ngaahi founga ngaue ʻa e BI"
+      },
+      "principles": {
+        "title": "Ngaahi Tefitoʻi Moʻoni ʻo e Langa",
+        "subtitle": "Ngaahi sipinga ʻo e fakamatala mo e sipinga ki he poto falalaʻanga ʻo e tuʻutuʻuni"
+      },
+      "capabilities": {
+        "title": "Ko ʻEtau Ngaahi Meʻa ʻOku Malava",
+        "subtitle": "Ngaahi founga fakalukufua ʻo e AI, ML mo e BI"
+      },
+      "technology": {
+        "title": "Ko ʻEtau Fokotuʻutuʻu Fakatekinolosia",
+        "subtitle": "Ngaahi meʻangaue tuʻukimuʻa ʻi he ngaueʻanga ki he fakamatala mo e AI"
+      },
+      "breakdown": {
+        "title": "Maumauʻi ʻo e Ngaue",
+        "subtitle": "Ko e founga ʻoku tau hiki ai mei he fakamatala fragmented ki he ʻatamai poto ʻi he tuʻunga ʻo e faʻu"
+      }
+    },
+    "problem": {
+      "overview": "ʻOku faʻa tanaki ʻe he ngaahi kautaha ha ngaahi fakamatala lahi ka ʻoku ʻikai ke nau lava ʻo liliu ia ki ha fakafuofua falalaʻanga, ngaahi tuʻutuʻuni fakangaue, pe ngaue fakapisinisi.",
+      "painPointsTitle": "Toutou Faingataʻaʻia ʻi he Pisinisi",
+      "impactSignalsTitle": "Ko e Meʻa ʻOku Faʻa Fakatokangaʻi ʻe he Kau Taki",
+      "painPoints": [
+        "ʻOku kehekehe ʻa e ʻuhinga ʻo e lipooti ʻi he ngaahi timi, ʻo tupu ai ʻa e fepakipaki ʻa e ngaahi fakamatala KPI",
+        "ʻOku kei ʻahiʻahiʻi pe ʻa e ngaahi sipinga pea ʻikai aʻu ki he founga ngaue ʻo e faʻu",
+        "ʻOku fakavaivaiʻi ʻe he ngaahi palopalema ʻo e tuʻunga lelei ʻo e fakamatala ʻa e falala ki he analytics mo e dashboard ʻa e kau pule"
+      ],
+      "impactSignals": [
+        "ʻOku tuai ʻa e siakale ʻo e tuʻutuʻuni koeʻuhi he ʻoku talangaʻi ʻe he ngaahi timi ʻa e totonu ʻo e",
+        "ʻOku ʻikai tatau ʻa e fakafuofua mo e palani ʻi he kuata ki he kuata",
+        "ʻOku fakahaaʻi ʻe he analytics ʻa e siʻisiʻi hono ohi mai ʻi tuʻa ʻi he ngaahi kulupu ʻanalaiso makehe"
+      ]
+    },
+    "approach": {
+      "overview": "ʻOku mau ʻoatu ʻa e AI mo e BI platforms ko e ngaahi founga ngaohiʻanga koloa, fakatahaʻi ʻo e ʻenisinia ʻo e fakamatala, ngaahi ngaue ʻo e moʻui ʻo e sipinga, mo hono fakatahaʻi ʻo e founga ngaue ʻo e tuʻutuʻuni.",
+      "pillars": [
+        {
+          "title": "Fakavaʻe ʻo e Koloa ʻo e T",
+          "detail": "ʻOku fokotuʻu ʻe he ngaahi koloa fakamatala ʻoku fenapasi mo e domain ʻa e ngaahi input ʻoku lava ke toe fakaʻaongaʻi, puleʻi, mo tuʻunga maʻolunga ki he analytics mo e ML."
+        },
+        {
+          "title": "MLOps Lifecycle Automation",
+          "detail": "ʻOku ʻotometiki ʻa e ako, fokotuʻutuʻu, vakaiʻi, mo e mapuleʻi ʻo e drift ke tauhi ʻa e ngaahi sipinga ke falalaʻanga ʻi hono ngaohi."
+        },
+        {
+          "title": "Tuʻutuʻuni Workflow Integration",
+          "detail": "ʻOku fakakau ʻa e ngaahi fakakaukau ʻi he ngaahi meʻangaue ngaue mo e dashboard koeʻuhi ke ngaue ʻa e ngaahi timi ʻi he poto ʻi he ngaahi founga ngaue fakaʻaho."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "ʻOku fakamuʻomuʻa ʻe heʻetau fokotuʻutuʻu AI/BI ʻa e fakamatala falalaʻanga, ngaahi sipinga ʻoku lava ke fakamatalaʻi, mo e ngaahi sipinga ʻoku puleʻi ʻi he pisinisi.",
+      "items": [
+        {
+          "title": "Ngaahi Fakaʻuhinga ʻo e Metric ʻe taha",
+          "detail": "ʻOku fakaʻuhingaʻi tuʻo taha ʻa e KPIs mahuʻinga ʻo fakafou ʻi he ngaahi sipinga semantic vahevahe ke taʻofi ʻa e fepakipaki ʻa e ʻuhinga ʻo e lipoti."
+        },
+        {
+          "title": "Ngaahi Puleʻi ʻo e Falalaʻanga ʻo e Sipinga",
+          "detail": "ʻOku maluʻi ʻe he ngaahi tuʻunga ʻo e ngaue, ʻiloʻi ʻo e drift, mo e ngaahi founga ʻo e rollback ʻa e tuʻunga lelei ʻo e tuʻutuʻuni ʻi hono ngaohi."
+        },
+        {
+          "title": "Maluʻi mo e Puleʻi ʻi he Palani",
+          "detail": "ʻOku fakakau ʻi he pipeline kotoa pe ʻa e laine ʻo e fakamatala, hu ki he fatongia, mo e ngaahi meʻa ʻoku maau ki he ʻaotita."
+        }
+      ]
+    },
+    "capabilities": [
+      "Ngaahi Sipinga ʻo e Ako ʻo e Misini & Pipelines",
+      "Power BI Dashboards & Reports",
+      "Predictive Analytics",
+      "Real-Time Data Streaming",
+      "Ngaahi Founga ʻo e Tukuʻanga Koloa ʻo e Fakamatala"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Tuʻunga",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Fale Tukuʻanga Fakamatala",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "ʻEnisinia ʻo e Fakamatala",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML Platform",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "Faʻunga ML",
+        "icon": "tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "Faʻunga ML",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "ʻAnalaiso",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Ngaue ki he ngaue",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Lea fakafonua",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Fakavaʻe ʻo e Fakamatala",
+        "summary": "ʻOku tau ʻaotitaʻi ʻa e ngaahi maʻuʻanga tokoni, fakaʻuhingaʻi ʻa e ngaahi aleapau fakamatala, mo fokotuʻu ʻa e puleʻanga koeʻuhi ke kamata ʻa e sipinga kotoa pe ʻaki ha ngaahi fakamatala falalaʻanga.",
+        "deliverables": [
+          "Maʻuʻanga fakamatala mo e fakafuofuaʻi ʻo e tuʻunga lelei",
+          "ʻEnisinia mo e palani ʻo e schema",
+          "Makatuʻunga ʻo e maluʻi mo e puleʻanga"
+        ]
+      },
+      {
+        "title": "Model & Insight Delivery",
+        "summary": "ʻOku mau faʻu ha ngaahi sipinga mo e dashboard ʻo e tuʻutuʻuni ʻoku haʻi ki he ngaahi fehuʻi fakapisinisi mo e KPI.",
+        "deliverables": [
+          "Fakalakalaka mo e fakapapauʻi ʻo e sipinga",
+          "Dashboard pule mo e lipooti ngaue",
+          "Tuʻutuʻuni ki he founga ngaue"
+        ]
+      },
+      {
+        "title": "MLOps & Adoption",
+        "summary": "ʻOku mau fakalele ʻa e deployment, vakaiʻi, mo e fakaʻata ʻo e timi ke tauhi ʻa e ngaahi ola ke falalaʻanga ʻi ha vahaʻataimi.",
+        "deliverables": [
+          "Pipelines ʻotometiki ki hono fokotuʻu ʻo e sipinga",
+          "Vakaiʻi ʻo e teke, tonu, mo hono fakaʻaongaʻi",
+          "Foaki ʻo e timi mo e tohi tuʻutuʻuni ki hono fakalele"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Liliu Hoʻo Fakamatala ki he ʻIlo",
+      "description": "Liliu ʻa e ngaahi fakamatala kuo fragmented ki ha ʻilo mahino mo lava ke ngaueʻi.",
+      "button": "Kamata Hoʻo Fononga"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Cloud Architecture & Infrastructure",
+      "description": "Multi-cloud platforms, resilient architecture, and scalable infrastructure designed for long-term growth."
+    },
+    "sections": {
+      "problem": {
+        "title": "Fokotuʻutuʻu ʻo e Palopalema ʻo e Pisinisi",
+        "subtitle": "Ko e ha ʻoku tuʻu ai ʻa e ngaahi polokalama ʻao hili ʻa e ʻuluaki peau ʻo e hiki"
+      },
+      "approach": {
+        "title": "Founga Fakaʻenisinia",
+        "subtitle": "Founga ʻoku tau langa ai ʻa e ngaahi tuʻunga ʻao ʻoku malu mo scalable mo e tuʻunga fakatuʻutamaki ʻo e fehikitaki"
+      },
+      "principles": {
+        "title": "Ngaahi Tefitoʻi Moʻoni ʻo e Langa",
+        "subtitle": "Ngaahi tuʻutuʻuni ʻi he platform ʻoku potupotutatau ai ʻa e agility, resilience mo e governance"
+      },
+      "capabilities": {
+        "title": "Ngaahi Tokoni ʻi he ʻAo",
+        "subtitle": "Langa, fokotuʻu, mo fua ʻi he ʻao"
+      },
+      "technology": {
+        "title": "Taukei ʻi he Multi-Cloud",
+        "subtitle": "Ngaahi founga ʻao ʻo e platform-agnostic"
+      },
+      "breakdown": {
+        "title": "Maumauʻi ʻo e Ngaue",
+        "subtitle": "Ko ha fakahokohoko mahino ki hono fokotuʻutuʻu, hiki, mo hono fakalele ʻo e ngaahi platform ʻao"
+      }
+    },
+    "problem": {
+      "overview": "ʻOku lahi ha ngaahi kautaha ʻoku nau fakakakato ʻa e ʻuluaki fehikitaki ʻi he ʻao ka ʻoku nau kei ngaue pe ʻo hange ha ngaahi timi ʻi he feituʻu totonu, ʻoku ʻikai lelei ʻa e sio ki ai, ʻikai ke tatau ʻa e puleʻi, mo e fakautuutu ʻo e fakamole.",
+      "painPointsTitle": "Toutou Faingataʻaʻia ʻi he Pisinisi",
+      "impactSignalsTitle": "Ko e Meʻa ʻOku Faʻa Fakatokangaʻi ʻe he Kau Taki",
+      "painPoints": [
+        "ʻOku hiki ʻa e ngaahi ngaue taʻe ʻi ai ha maluʻi angamaheni mo ha ngaahi puleʻi ʻo e netiueka",
+        "ʻOku vave ange ʻa e tupu ʻa e fakamole ʻi he ʻao ʻi he mahuʻinga ʻo e pisinisi",
+        "ʻOku kei manual pe ʻa e fokotuʻutuʻu ʻo e ʻatakai pea ʻikai tatau ʻi he ngaahi timi"
+      ],
+      "impactSignals": [
+        "ʻOku toutou hoko ʻa e ngaahi meʻa ʻoku hoko ʻi he feliliuaki ʻa e configuration ʻi he vahaʻa ʻo e ngaahi",
+        "ʻOku holoa ʻa e mateuteu ki he ʻaotita koeʻuhi ko e movetevete ʻa e ngaahi founga puleʻi",
+        "ʻOku toloi ʻe he taimi ʻo e ngaue ʻa e koloa mo e fakamatala"
+      ]
+    },
+    "approach": {
+      "overview": "ʻOku mau fokotuʻutuʻu ʻa e ngaahi platform ʻao ko ha koloa, ʻo fakaʻaongaʻi ʻa e automation automation, ngaahi ʻa maluʻi ʻo e tuʻutuʻuni, mo e ngaahi peau fehikitaki ʻoku fenapasi mo e mahuʻinga ʻo e pisinisi.",
+      "pillars": [
+        {
+          "title": "Landing Zone ko e Kouti",
+          "detail": "ʻOku fokotuʻutuʻu ʻa e tuʻunga ʻiloʻi, kulupu fengaueʻaki, maluʻi, mo e ngaahi tuʻutuʻuni ke lava ʻo toutou fakahoko mo ʻaotitaʻi."
+        },
+        {
+          "title": "Founga Fehikitaki ʻOku Makatuʻunga ʻi he Peau",
+          "detail": "ʻOku ngaʻunu ʻa e ngaahi ngaue ʻi ha ngaahi tuʻunga ʻoku mapuleʻi ʻaki ʻa e fakahokohoko ʻo e fakafalala mo e mateuteu ki he rollback."
+        },
+        {
+          "title": "SRE + FinOps Operating Loop",
+          "detail": "ʻOku toe vakaiʻi fakataha ʻa e ngaahi fakaʻilonga ʻo e falalaʻanga mo e ʻekonomika ʻo e ʻiuniti ke fakaleleiʻi fakatouʻosi ʻa e taimi ngaue mo e ola lelei ʻo e fakamole."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "ʻOku poupouʻi ʻe heʻetau sipinga ʻo e fokotuʻutuʻu ʻa e faʻunga ʻo e fakamatala, hu ki he faingamalie siʻisiʻi taha, mo e ngaahi platform composable ʻoku ne poupouʻi ʻa e vave hono ʻoatu ʻo e koloa.",
+      "items": [
+        {
+          "title": "Ngaahi Sipinga ʻo e Infrastructure ʻoku ʻikai feliliuaki",
+          "detail": "ʻOku toe langa ʻa e ngaahi ʻatakai mei he kouti versioned ke fakasiʻisiʻi ʻa e drift mo fakafaingofuaʻi ʻa e fakaakeake ʻo e ngaue."
+        },
+        {
+          "title": "Makatuʻunga ʻo e Maluʻi ʻi he Default",
+          "detail": "ʻOku fakakau ʻa e ngaahi puleʻi ʻo e hu ki he ʻatakai mo hono fakamalohiʻi ʻo e tuʻutuʻuni ʻi he ʻatakai kotoa pe."
+        },
+        {
+          "title": "Vilitaki ʻi he Tufakiʻanga Naunau",
+          "detail": "ʻOku fokotuʻutuʻu ʻa e ngaahi ngaue mahuʻinga ki he fehalaaki ʻi he ngaahi feituʻu kehekehe pe fakavahaʻapuleʻanga ʻi he feituʻu ʻoku fie maʻu ai ʻe he ola ʻo e pisinisi."
+        }
+      ]
+    },
+    "capabilities": [
+      "Multi-Cloud Strategy & Implementation",
+      "Container Orchestration (Kubernetes)",
+      "Serverless Computing",
+      "Ngaahi Tokoni ki he Hikifonua ʻi he ʻAo",
+      "High Availability Architecture"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "ʻAo",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "AWS",
+        "category": "ʻAo",
+        "icon": "amazonwebservices"
+      },
+      {
+        "name": "GCP",
+        "category": "ʻAo",
+        "icon": "googlecloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Fokotuʻutuʻu",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Ngaahi faʻoʻanga meʻa",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Ngaahi sipinga ʻo e ARM",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "amazonwebservices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Architecture & Landing Zone",
+        "summary": "ʻOku tau fakaʻuhingaʻi ʻa e tuʻunga ʻoku fakataumuʻa ki ai, ngaahi ʻa maluʻi, mo e ngaahi tuʻunga moʻui ʻo e tefitoʻi tuʻunga kimuʻa pea toki ngaʻunu ʻa e ngaahi ngaue.",
+        "deliverables": [
+          "Fokotuʻutuʻu ʻo e fokotuʻutuʻu ʻo e ʻao ʻ",
+          "ʻIloʻi, kulupu fengaueʻaki, mo e fakavaʻe ʻo e maluʻi",
+          "Ngaahi ʻa maluʻi ʻo e fakamole mo e talangofua"
+        ]
+      },
+      {
+        "title": "Migration & Platform Build",
+        "summary": "ʻOku mau fakahoko ʻa e ngaahi peau ʻo e fehikitaki mo tuʻu hake ʻa e ngaahi konga ʻo e platform ʻi he ʻao ʻaki ʻa e repeatable automation.",
+        "deliverables": [
+          "Fakahokohoko ʻo e fehikitaki ʻo e ngaue",
+          "Fokotuʻutuʻu ʻo e koniteina mo e serverless platform",
+          "Infrastructure as Code modules"
+        ]
+      },
+      {
+        "title": "Falalaʻanga & FinOps",
+        "summary": "ʻOku mau fakaleleiʻi ʻa e tuʻunga falalaʻanga ʻo e ngaue mo hokohoko atu hono fakaleleiʻi ʻo e fakamole ʻi he ʻao ʻo makatuʻunga ʻi he telemetry moʻui.",
+        "deliverables": [
+          "SLOs, vakaiʻi, mo e ngaahi founga ngaue ʻoku hoko",
+          "Fakapapauʻi ʻo e resilience mo e fakaakeake ʻo e fakatamaki",
+          "Cost optimization backlog and governance cadence"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Fua Hoʻo Infrastructure",
+      "description": "Langa ha fakavaʻe ʻao ʻoku tuʻu maʻu ʻi he malumalu ʻo e kavenga moʻoni.",
+      "button": "Palani Hoʻo Founga ʻAo"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Ngaahi pipeline ʻotometi, observability, mo e ngaahi founga ʻoku ne fakaleleiʻi ʻa e vave ʻo ʻikai feilaulauʻi ʻa e falalaʻanga."
+    },
+    "sections": {
+      "problem": {
+        "title": "Fokotuʻutuʻu ʻo e Palopalema ʻo e Pisinisi",
+        "subtitle": "Ko e ha ʻoku holo ai ʻa e vave ʻo e tufaki ʻi he fakautuutu ʻa e faingataʻa ʻo e"
+      },
+      "approach": {
+        "title": "Founga Fakaʻenisinia",
+        "subtitle": "Founga ʻoku tau standardize ai ʻa e pipelines ʻo e tufaki ʻo ʻikai fakatuaiʻi ʻa e ngaahi timi koloa"
+      },
+      "principles": {
+        "title": "Ngaahi Tefitoʻi Moʻoni ʻo e Langa",
+        "subtitle": "Ngaahi sipinga ʻo e ʻenisinia ʻoku ne fua ʻa e falalaʻanga mo e tauʻataina ʻa e timi"
+      },
+      "capabilities": {
+        "title": "Ngaahi Tokoni DevOps",
+        "subtitle": "ʻOtometi, vakaiʻi, mo optimize hoʻo lifecycle ʻo e tufaki"
+      },
+      "technology": {
+        "title": "DevOps Tools & Platforms",
+        "subtitle": "Seini meʻangaue DevOps lelei taha"
+      },
+      "breakdown": {
+        "title": "Maumauʻi ʻo e Ngaue",
+        "subtitle": "Ko ha founga ngaue mei he bottlenecks ʻo e tufaki ki he tafe ʻo e tukuange ʻo e falala maʻolunga"
+      }
+    },
+    "problem": {
+      "overview": "ʻOku faʻa ʻinivesi ʻa e ngaahi kautaha ʻi he ngaahi meʻangaue CI/CD ka ʻoku nau kei fefaʻuhi pe mo e ngaahi tukuange ʻoku ʻikai pau, tuai ʻa e fakangofua, mo e fragmented ʻo e maʻu ʻi he ngaahi ʻatakai.",
+      "painPointsTitle": "Toutou Faingataʻaʻia ʻi he Pisinisi",
+      "impactSignalsTitle": "Ko e Meʻa ʻOku Faʻa Fakatokangaʻi ʻe he Kau Taki",
+      "painPoints": [
+        "ʻOku kehekehe ʻa e ngaahi fakaʻuhinga ʻo e pipeline ʻi he timi, ʻo fakatupu ai ha ngaahi matapa ʻoku ʻikai tatau mo e tuʻunga lelei",
+        "ʻOku toloi ʻe he ngaahi fakangofua ʻo e fokotuʻutuʻu ʻi he tohi nima ʻa e hotfix mo e ngaahi taimi ʻoku tukuange ai ʻa e ngaahi me",
+        "ʻOku toutou hoko ʻa e ngaahi meʻa ʻoku hoko ʻi he ngaue koeʻuhi ko e ʻikai kakato ʻa e telemetry pe siloed"
+      ],
+      "impactSignals": [
+        "ʻOku kei fakautuutu pe ʻa e taimi ki he ngaahi liliu neongo ʻa e fakamole ki he automation",
+        "ʻOku lahi ange ʻa e tuʻunga ʻo e liliu ʻoku ʻikai ola lelei lolotonga e ngaahi vahaʻataimi ʻoku lahi hono ʻave",
+        "ʻOku holo ʻa e ngaue ʻa e developer koeʻuhi ko e fepaki ʻa e tooling mo e liliu ʻo e kakano"
+      ]
+    },
+    "approach": {
+      "overview": "ʻOku mau fokotuʻu ha sipinga ʻo e developer platform ʻi loto mo e ngaahi sipinga ʻo e pipeline ʻoku toe fakaʻaongaʻi, puleʻi ʻo e tuʻutuʻuni, mo e vakaiʻi kakato ʻo e lifecycle.",
+      "pillars": [
+        {
+          "title": "Ngaahi sipinga ʻo e Golden Path Pipeline",
+          "detail": "ʻOku hanga ʻe he ngaahi mape CI/CD ʻoku toe fakaʻaongaʻi ʻo fakaleleiʻi ʻa e langa, siviʻi, vakaiʻi ʻo e maluʻi, mo e ngaahi founga ngaue ki hono fakaʻaongaʻi."
+        },
+        {
+          "title": "Platform API & Self-Service",
+          "detail": "ʻOku ʻomi ʻe he ngaahi timi ʻa e ngaahi ʻatakai mo tukuange ʻa e ngaahi faʻunga ʻo fakafou ʻi he ngaahi fengaueʻaki ʻoku puleʻi pe ʻe kita."
+        },
+        {
+          "title": "Falalaʻanga ʻo e Feedback Loops",
+          "detail": "ʻOku hanga ʻe he ngaahi fetoʻaki ʻo e meʻa ʻoku hoko, moʻui lelei ʻa e SLO, mo e telemetry ʻo fakaʻaongaʻi ʻa e hokohoko atu ʻo e fakalakalaka ʻo e founga mo e fokotuʻutuʻu."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "ʻOku fenapasi ʻe heʻetau DevOps architecture ʻa e vave ʻo e ʻave mo e puleʻi ʻaki hono ʻotometiki ʻa e ngaahi meʻa ʻoku puleʻi mo fakasiʻisiʻi ʻa e ngaue tuʻo taha.",
+      "items": [
+        {
+          "title": "Ko e meʻa kotoa pe ko e kouti versioned",
+          "detail": "ʻOku puleʻi ʻa e pipelines, infrastructure, mo e ngaahi tuʻutuʻuni ʻi hono puleʻi ʻo e maʻuʻanga tokoni ke ʻaotitaʻi mo repeatability."
+        },
+        {
+          "title": "Fakapapauʻi Fakalakalaka",
+          "detail": "ʻOku fokotuʻutuʻu ʻa e ngaahi sivi ʻo e tuʻunga lelei, maluʻi, mo e ngaue ʻi he ngaahi sitepu ke ʻiloʻi vave ʻa e fakatuʻutamaki."
+        },
+        {
+          "title": "Shared Platform Responsibility",
+          "detail": "ʻOku ʻomi ʻe he ngaahi timi ʻo e platform ʻa e ngaahi meʻa ʻoku malava ke fai ʻi he hala kae kei maʻu pe ʻe he ngaahi timi koloa ʻa e tufaki."
+        }
+      ]
+    },
+    "capabilities": [
+      "Fokotuʻutuʻu ʻo e Pipeline CI/CD",
+      "Infrastructure as Code",
+      "Sivi ʻotometiki",
+      "Deployment Automation",
+      "Monitoring & Observability"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Tuʻunga",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "Ngaahi Ngaue ʻa e GitHub",
+        "category": "CI/CD",
+        "icon": "GitHubActions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Kofukofu",
+        "icon": "Helm"
+      },
+      {
+        "name": "Ansible",
+        "category": "ʻOtometiki",
+        "icon": "Ngaahi meʻa fakaʻofoʻofa"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Vakaiʻi",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Observability",
+        "icon": "grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Fakafuofuaʻi ʻo e Platform",
+        "summary": "ʻOku mau vakaiʻi hoʻo polokalama fakakomipiuta lolotonga ke ʻiloʻi ʻa e ngaahi tuʻunga fakatuʻutamaki mo e ngaahi fakangatangata ʻo e vave.",
+        "deliverables": [
+          "Mape ʻo e founga ngaue ʻo e tuʻunga lolotonga",
+          "ʻAnalaiso ʻo e bottleneck ʻo e pipeline",
+          "Target DevOps maturity roadmap"
+        ]
+      },
+      {
+        "title": "Pipeline & Automation Build",
+        "summary": "ʻOku tau fakahoko ʻa e CI/CD falalaʻanga, ngaahi matapa ʻo e tuʻunga lelei, mo e automation ki hono tukuange maʻu pe.",
+        "deliverables": [
+          "Ngaahi template CI/CD ʻoku toe fakaʻaongaʻi",
+          "Infrastructure and environment automation",
+          "ʻOtometiki hono siviʻi mo hono puleʻi ʻo e tukuange"
+        ]
+      },
+      {
+        "title": "Fakalele & Fakaleleiʻi",
+        "summary": "ʻOku mau fokotuʻu ʻa e observability mo e puleʻi ʻa e ngaahi meʻa ʻoku ne poupouʻi ʻa e hokohoko atu ʻo e fakaleleiʻi.",
+        "deliverables": [
+          "Vakaiʻi ʻo e dashboards mo e ngaahi tuʻutuʻuni fakatokanga",
+          "Tukuange ʻa e puleʻi mo e ngaahi tohi tuʻutuʻuni ʻoku hoko",
+          "Hokohoko atu ʻa e ngaahi meʻafua mo e toe vakaiʻi"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Fakavaveʻi hoʻo ʻoatu",
+      "description": "Fakasiʻisiʻi ʻa e fepakipaki mo fakaleleiʻi ʻa e falalaʻanga ʻaki ʻa e ngaahi founga DevOps matuʻotuʻa.",
+      "button": "Liliu Hoʻo Pipeline"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Liliu Fakaʻilekitulonika mo e Palani",
+      "description": "Faleʻi mo e tokoni ki hono fakahoko ke fakaonopooni ʻa e ngaahi platform, timi mo e ngaahi sipinga ngaue."
+    },
+    "sections": {
+      "problem": {
+        "title": "Fokotuʻutuʻu ʻo e Palopalema ʻo e Pisinisi",
+        "subtitle": "Ko e feituʻu ʻoku mole ai ʻa e malohi mo e falala ʻa e kau pule ki he ngaahi polokalama liliu"
+      },
+      "capabilities": {
+        "title": "Ngaahi Tokoni Faleʻi",
+        "subtitle": "Fakahinohino ki he lavameʻa fakaʻilekitulonika"
+      },
+      "approach": {
+        "title": "Founga Fakaʻenisinia",
+        "subtitle": "Founga ʻoku tau liliu ai ʻa e palani ki he liliu ʻoku malava ke fakahoko mo poupouʻi ʻe he tekinolosia"
+      },
+      "principles": {
+        "title": "Ngaahi Tefitoʻi Moʻoni ʻo e Langa",
+        "subtitle": "Ngaahi fili ʻo e sipinga mo e platform ʻoku ne maluʻi ʻa e ola ʻo e liliu"
+      },
+      "technology": {
+        "title": "Fokotuʻutuʻu Fakatekinolosia",
+        "subtitle": "Ngaahi tuʻunga mo e ngaahi fokotuʻutuʻu ʻoku tau fakaʻaongaʻi ke fakalele ʻaki ʻa e liliu"
+      },
+      "breakdown": {
+        "title": "Maumauʻi ʻo e Ngaue",
+        "subtitle": "Liliu kuo fokotuʻutuʻu mei he fakaʻuhingaʻi ʻo e founga ki he mahuʻinga ʻo e pisinisi ʻoku lava ke fuatautau"
+      }
+    },
+    "problem": {
+      "overview": "ʻOku faʻa kamata ʻaki ʻa e taumuʻa malohi ʻa e ngaahi polokalama fakaʻilekitulonika ka ʻoku ʻikai lava ke liliu ki he ola ʻo e ʻoatu koeʻuhi ko e ʻikai mahino ʻa e meʻangaue ʻoku ʻaʻana, ngaahi meʻangaue ʻoku ʻikai fehokotaki, mo e ngaahi meʻa ʻoku fakamuʻomuʻa ʻi he fe",
+      "painPointsTitle": "Toutou Faingataʻaʻia ʻi he Pisinisi",
+      "impactSignalsTitle": "Ko e Meʻa ʻOku Faʻa Fakatokangaʻi ʻe he Kau Taki",
+      "painPoints": [
+        "ʻOku fakaʻuhingaʻi ʻa e ngaahi founga ngaue ki he liliu ka ʻoku ʻikai liliu ia ki he puleʻi ʻo e tuʻutuʻuni",
+        "ʻOku kehekehe ʻa e ngaahi meʻa ʻoku fakamuʻomuʻa ʻe he pisinisi mo e ʻenisinia hili ʻa e ʻuluaki siakale ʻo e",
+        "ʻOku taʻofi ʻe he ngaahi sipinga ngaue tukufakaholo ʻa hono ohi mai ʻo e ngaahi founga fakaonopooni ʻo e koloa"
+      ],
+      "impactSignals": [
+        "ʻOku hiki hake ʻa e fakamole ʻa e polokalama kae kei tuʻu maʻu pe ʻa e ngaʻunu ʻa e KPI",
+        "ʻOku ʻikai maʻu ʻe he ngaahi polokalama ʻa e ngaahi poini ʻi he vahaʻa ʻo e fokotuʻutuʻu, fokotuʻutuʻu, mo hono fakahoko",
+        "ʻOku aʻusia ʻe he ngaahi timi ʻa e ongosia ʻi he liliu mo e fakangatangata ʻo e mahuʻinga ʻo e pisinisi"
+      ]
+    },
+    "approach": {
+      "overview": "ʻOku mau fakatahaʻi ʻa e faleʻi mo e fokotuʻutuʻu ʻo e ngaue, fakatatau ʻa e fokotuʻutuʻu ʻo e sipinga ngaue, malava ʻo e platform, mo e cadence ʻo e fakahoko ʻi he ngaahi taumuʻa ʻe lava ke fuatautau.",
+      "pillars": [
+        {
+          "title": "Fakamuʻomuʻa ʻo e Ngaahi Tuʻunga ʻUlungaanga Mahuʻinga",
+          "detail": "ʻOku mau fakahokohoko ʻa e ngaahi ngaue ʻo makatuʻunga ʻi he ola ʻo e pisinisi mo e ngaahi fakangatangata ʻo e fakafalala fakatekinikale."
+        },
+        {
+          "title": "Fokotuʻutuʻu ʻo e Sipinga ʻo e Ngaue ʻa e Taumuʻa",
+          "detail": "ʻOku fakaʻuhingaʻi ʻa e ngaahi fatongia, puleʻi, mo e ngaahi totonu ke fai ha tuʻutuʻuni ke poupouʻi ʻa e vave ange hono fakahoko ʻi he ngaahi timi pisinisi mo e tekinolosia."
+        },
+        {
+          "title": "Portfolio Delivery Governance",
+          "detail": "ʻOku puleʻi ʻa e fakalakalaka ʻo e liliu ʻo fakafou ʻi he ngaahi feituʻu vakaiʻi ʻoku fekauʻaki mo e KPI mo hono puleʻi ʻo e tuʻunga fakatuʻutamaki."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "ʻOku fakamamafaʻi ʻe heʻetau fokotuʻutuʻu ʻo e liliu ʻa e fakaonopooni fakaonopooni mo e taliui mahino, ʻo fakaʻehiʻehi mei he toe tohi foʻou taʻe ʻi ai ha fakatonuhiaʻi fakapisinisi.",
+      "items": [
+        {
+          "title": "Fokotuʻutuʻu ʻo e Malava ʻo e Pisinisi",
+          "detail": "ʻOku fokotuʻutuʻu ʻa e ngaahi liliu fakatekinolosia ʻi he ngaahi meʻa ʻoku malava ke mape fakahangatonu ki he paʻanga hu mai, tuʻunga lelei ʻo e ngaue, pe totongi lelei."
+        },
+        {
+          "title": "Fokotuʻutuʻu ʻo e Platform Composable",
+          "detail": "ʻOku fili ʻa e ngaahi konga ʻo e platform ki he interoperability ke poupouʻi ʻa e fehikitaki fakakongokonga mo e liliu vave ange."
+        },
+        {
+          "title": "Puleʻi mo e Delivery Cadence",
+          "detail": "ʻOku fakakau ʻa e ngaahi fetalanoaʻaki tuʻutuʻuni mo e ngaahi poini ʻoku puleʻi ʻi he ngaahi siakale fakakuata mo fakakuata, ʻo ʻikai lau ko ha ngaahi halanga fakapuleʻanga mavahevahe."
+        }
+      ]
+    },
+    "capabilities": [
+      "Ngaahi Founga Liliu Fakaʻilekitulonika",
+      "Fakalakalaka ʻo e Founga Fakatekinolosia",
+      "Cloud Adoption Frameworks",
+      "Optimization ʻo e Founga",
+      "Puleʻi ʻo e Liliu"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Foundation",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Tuʻunga Fakamatala",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "ʻIlo ki he Tuʻutuʻuni",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Power Platform",
+        "category": "Low-Code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Ngaue fakataha",
+        "icon": "MicrosoftsharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Fokotuʻutuʻu ʻo e Fokotuʻutuʻu",
+        "summary": "ʻOku tau fenapasi ʻa e ngaahi meʻa fakamuʻomuʻa fakatakimuʻa mo e ngaahi kaveinga fakaʻilekitulonika ke faʻu ha taumuʻa liliu ʻoku fevahe",
+        "deliverables": [
+          "Ngaahi taumuʻa ʻo e liliu mo e ngaahi fie maʻu ki he lavameʻa",
+          "Fakafuofuaʻi ʻo e matuʻotuʻa ʻo e malava mo e ava",
+          "Portfolio ʻo e ngaahi ngaue ʻoku fakamuʻomuʻa"
+        ]
+      },
+      {
+        "title": "Mape ʻo e Fakahoko",
+        "summary": "ʻOku tau fakaʻuhingaʻi ʻa e sipinga ngaue ʻoku fakataumuʻa ki ai, ngaahi tuʻunga moʻui ʻo e langa, mo e fakahokohoko ʻo hono fakahoko.",
+        "deliverables": [
+          "Sipinga ngaue mo e fokotuʻutuʻu ʻo e puleʻanga",
+          "Ngaahi tuʻunga moʻui fakatekinolosia mo e founga ngaue",
+          "Founga ngaue ki hono fakahoko fakakongokonga"
+        ]
+      },
+      {
+        "title": "Liliu mo hono ʻIloʻi ʻo e Tuʻunga ʻUlungaanga Mahuʻinga",
+        "summary": "ʻOku mau fakaʻaiʻai ʻa e ohi, muimuiʻi ʻa e ngaʻunu ʻa e KPI, mo fakaleleiʻi ʻa e ngaahi ngaue ʻo makatuʻunga ʻi he ngaahi ola ʻoku fakahoko.",
+        "deliverables": [
+          "Palani ʻo e ohi mo e fakaivia",
+          "Cadence ʻo e fua ʻo e KPI",
+          "Backlog optimization fakakuata"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kamata Hoʻo Fononga ki he Liliu",
+      "description": "Foua ʻa e liliu ʻaki ha ngaahi meʻa mahino ʻoku fakamuʻomuʻa mo ha ngaahi palani ʻaonga.",
+      "button": "Taimi-tepileʻi ʻo e Fakataha Palani"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Fehokotaki ʻa e ngaahi polokalama mei he device ki he ʻao, mo e telemetry pipelines mo e edge intelligence ki he meʻafua ngaue."
+    },
+    "sections": {
+      "problem": {
+        "title": "Fokotuʻutuʻu ʻo e Palopalema ʻo e Pisinisi",
+        "subtitle": "Ko e ha ʻoku ʻikai lava ai ʻe he ngaahi polokalama fakafehokotaki ke fakalaka atu ʻi he ngaahi polokalama pailate"
+      },
+      "approach": {
+        "title": "Founga Fakaʻenisinia",
+        "subtitle": "Founga ʻoku tau fokotuʻutuʻu ai ʻa e ngaahi polokalama IoT ʻoku malu mo fakalele mei he firmware ʻo e device ki he API ʻao"
+      },
+      "principles": {
+        "title": "Ngaahi Tefitoʻi Moʻoni ʻo e Langa",
+        "subtitle": "Ngaahi tuʻutuʻuni ki hono fokotuʻutuʻu ʻo e edge-to-cloud ki he falalaʻanga, latency, mo hono puleʻi ʻo e ngaahi meʻalele"
+      },
+      "capabilities": {
+        "title": "Ngaahi Founga ʻo e IoT",
+        "subtitle": "Fakafehokotaki, vakaiʻi, mo fakaleleiʻi hoʻo ngaahi meʻangaue"
+      },
+      "technology": {
+        "title": "IoT Technology Stack",
+        "subtitle": "Mei he hardware ki he cloud"
+      },
+      "breakdown": {
+        "title": "Maumauʻi ʻo e Ngaue",
+        "subtitle": "Founga ʻoku tau ʻoatu ai ʻa e ngaahi polokalama ʻoku fehokotaki mei he ngaahi meʻangaue ʻi he tapa ki he ʻao ʻo e poto"
+      }
+    },
+    "problem": {
+      "overview": "ʻOku faʻa fakamoʻoniʻi ʻe he ngaahi polokalama IoT ʻa e malava fakatekinikale ʻi he ngaahi pailate ka ʻoku ʻikai ola lelei koeʻuhi ko e ʻikai falalaʻanga ʻa e fehokotakiʻanga, vaivai ʻa e puleʻi ʻo e ngaahi vakapuna, mo e ʻikai lelei ʻa e fengaueʻaki mo e ngaahi founga ngaue ʻa e pisinisi.",
+      "painPointsTitle": "Toutou Faingataʻaʻia ʻi he Pisinisi",
+      "impactSignalsTitle": "Ko e Meʻa ʻOku Faʻa Fakatokangaʻi ʻe he Kau Taki",
+      "painPoints": [
+        "ʻOku kei manual pe ʻa e onboarding ʻo e device mo hono puleʻi ʻo e lifecycle ʻi he tohi nima mo e fehalaaki",
+        "ʻOku ʻomi ʻe he ngaahi pipeline telemetry ʻa e longoaʻa, taʻekakato, pe fakatoloi ʻa e fakamatala ki he ngaue",
+        "ʻOku ʻomi ʻe he remote command mo e firmware updates ʻa e tuʻunga fakatuʻutamaki ki he malu mo e maluʻi"
+      ],
+      "impactSignals": [
+        "ʻOku ola lelei ʻa e ngaahi ʻatakai ʻo e pailate, ka ʻoku toutou fehalaaki ʻa e taimi ki hono fakahoko ʻo e faʻu",
+        "ʻOku tali ʻe he ngaahi timi ngaue ʻi he malaʻe ngaue ʻa e ngaahi meʻa ʻoku hoko ʻo ʻikai ke ʻiloʻ",
+        "ʻOku ʻikai lava ʻe he ngaahi polokalama pisinisi ʻo fakaʻaongaʻi ʻa e poto ʻo e device ʻi he taimi moʻoni"
+      ]
+    },
+    "approach": {
+      "overview": "ʻOku mau fokotuʻutuʻu ʻa e IoT platforms ko ha ngaahi polokalama tufaki ʻoku puleʻi, fakatahaʻi ʻa e ngaahi tuʻunga malu ʻo e runtime, ingestion ʻoku fakalele ʻe he meʻa ʻoku hoko, mo e puleʻi ʻo e ngaue ʻi he meʻafua ʻo e ngaahi meʻalele.",
+      "pillars": [
+        {
+          "title": "Maluʻi ʻo e Lifecycle ʻo e Device",
+          "detail": "ʻOku ʻotometiki ʻa e provisioning, identity, key rotation, mo e firmware updates ke fakasiʻisiʻi ʻa e tuʻunga fakatuʻutamaki ʻo e ngaue."
+        },
+        {
+          "title": "Fokotuʻutuʻu ʻo e Telemetry ʻoku Puleʻi ʻe he Meʻa ʻOku Hoko",
+          "detail": "ʻOku normalize, fakapapauʻi, mo fakahinohinoʻi ʻe he streaming pipelines ʻa e ngaahi meʻa ʻoku hoko ʻi he meʻangaue ki he analytics mo e mapuleʻi ʻi he meimei taimi moʻoni."
+        },
+        {
+          "title": "Vakapuna Puleʻi ʻo e Ngaahi Ngaue ʻa e Vaka",
+          "detail": "ʻOku ʻomi ʻe hono vakaiʻi, fakatokanga, mo e ngaahi founga ngaue ʻo e tuʻutuʻuni mamaʻo ha tokangaʻi falalaʻanga ʻi he ngaahi koloa kuo tufaki."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "ʻOku potupotutatau ʻe heʻetau fokotuʻutuʻu IoT ʻa e ngaahi tuʻutuʻuni ʻi he tapa ʻo e latency maʻulalo mo e puleʻi ʻo e centralized, observability, mo e talangofua ki he maluʻi.",
+      "items": [
+        {
+          "title": "Tauʻataina ʻi he Tapa mo e Fakafekauʻaki ʻo e ʻAo",
+          "detail": "ʻOku kei hokohoko atu pe ʻa e ngaahi ngaue fakalotofonua mahuʻinga lolotonga ʻa e holoa ʻa e netiueka lolotonga ʻa e sync ʻo e tuʻunga ki he ngaahi polokalama ʻao ʻi he taimi ʻoku maʻu ai."
+        },
+        {
+          "title": "Ngaahi Fokotuʻutuʻu ʻo e Ngaahi Meʻa ʻOku Aleapau",
+          "detail": "ʻOku fakaʻaongaʻi ʻe he ngaahi timi ʻo e device mo e platform ʻa e ngaahi schema ʻoku puleʻi ke tauhi ʻa e tuʻunga tatau ʻo e telemetry ʻi he ngaahi version."
+        },
+        {
+          "title": "Maluʻi ʻo e Device Zero-Trust",
+          "detail": "ʻOku fakamalohiʻi ʻa e fefakamoʻoniʻaki, faingamalie siʻisiʻi taha, mo e feʻaveʻaki ʻoku fakapulipuli ʻi he fengaueʻaki kotoa pe ʻo e meʻangaue."
+        }
+      ]
+    },
+    "capabilities": [
+      "Puleʻi ʻo e IoT Device",
+      "Ngaahi Founga ʻo e Mahanga Fakaʻilekitulonika",
+      "Edge Computing Deployment",
+      "Telemetry ʻi he Taimi Moʻoni",
+      "Tokangaʻi ʻo e Tala"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Mahanga Fakaʻilekitulonika",
+        "category": "Fakatataaʻi",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Tapa",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protocol",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protocol",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Ngaahi meʻangaue",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Ngaahi meʻangaue",
+        "icon": "Raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Time Series DB",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Device & Edge Strategy",
+        "summary": "ʻOku tau fakaʻuhingaʻi ʻa e ngaahi sipinga ʻo e fehokotakiʻanga, ngaahi tuʻunga moʻui ʻo e runtime, mo e maluʻi ʻo e ngaahi meʻangaue ʻi he malaʻe.",
+        "deliverables": [
+          "Sipinga ʻo e onboarding mo e fehokotakiʻanga ʻo e device",
+          "Edge runtime mo e mape ʻo e deployment",
+          "Makatuʻunga ʻo e maluʻi ʻo e ngaahi vaka"
+        ]
+      },
+      {
+        "title": "Telemetry & Control Plane",
+        "summary": "ʻOku mau faʻu ha ngaahi pipeline ʻoku ne maʻu ʻa e ngaahi meʻa ʻoku hoko, sipinga ʻo e mahanga fakaʻilekitulonika, pea fakaʻata ʻa e ngaahi founga ngaue ʻoku puleʻi mamaʻo.",
+        "deliverables": [
+          "Ingestion taimi moʻoni mo e fokotuʻutuʻu ʻo e palani ʻo e meʻa ʻoku hoko",
+          "Fakahoko ʻo e mahanga fakaʻilekitulonika mo e sipinga ʻo e koloa",
+          "Command and control API layer"
+        ]
+      },
+      {
+        "title": "Ngaahi Ngaue mo e Meʻafua",
+        "summary": "ʻOku tau fakalele ʻa e puleʻi ʻo e ngaahi meʻalele mo e puleʻi ʻo e falalaʻanga ki he ngaahi ʻatakai ʻo e IoT.",
+        "deliverables": [
+          "Vakaiʻi mo fakatokanga ki he ngaahi meʻangaue",
+          "Tokangaʻi ʻo e ngaahi meʻa ʻoku ʻikai mahuʻinga mo e ʻiloʻi ʻo e anoma",
+          "Palani tokoni ki hono tuku atu mo e lifecycle"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Fakafehokotaki Hoʻo Ngaahi Meʻangaue",
+      "description": "Fokotuʻu ha ngaahi founga falalaʻanga ʻo e IoT ʻoku mateuteu ki he ngaahi ʻatakai moʻoni ʻo e ngaohiʻanga koloa.",
+      "button": "Kamata Hoʻo Ngaue IoT"
+    }
+  }
+}

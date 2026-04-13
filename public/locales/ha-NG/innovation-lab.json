@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Innovation Lab",
+    "description": "Bincika demos masu ma'amala, gwaje-gwaje, da nunin fasaha daga ƙungiyar injiniyoyinmu.",
+    "primary": "Bincika Demos",
+    "secondary": "Duba Bincike"
+  },
+  "overview": {
+    "hero": {
+      "title": "Innovation Lab",
+      "description": "Muna bincika iyakokin da suka dace a cikin AI, sarrafa kansa, da tsarin rarrabawa, sannan mu fassara ingantaccen bincike zuwa abin dogaro da ƙarfin samarwa.",
+      "primary": "Bincika Yankunan Bincike",
+      "secondary": "Tattauna haɗin gwiwa"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Yankunan Bincike",
+        "description": "Kowane yanki mai mayar da hankali ya haɗa binciken bincike tare da hanyoyin aiwatarwa waɗanda aka tsara don tsarin duniya.",
+        "cardCta": "Bincika mayar da hankali"
+      },
+      "detailedFocusBriefs": {
+        "title": "Cikakken bayani game da mayar da hankali",
+        "description": "Ayyukan bincike na kusa da lokaci a halin yanzu suna motsawa daga tabbatar da gine-gine zuwa tsare-tsaren bayarwa."
+      },
+      "fromLabToProduction": {
+        "title": "Daga Lab zuwa Production",
+        "description": "Innovation a Horizon ana auna shi ta hanyar sakamakon jigilar kaya, ba keɓaɓɓun samfuran ba."
+      },
+      "roadmap": {
+        "title": "R &D Roadmap",
+        "description": "Ci gaba mai mahimmanci daga haɓaka iyawa zuwa daidaitawa, ci gaba da haɓaka tsarin."
+      },
+      "publications": {
+        "title": "Wallafe-wallafe da ra'ayoyi",
+        "description": "Rubuce-rubuce na fasaha da aiwatarwa daga aikin kirkire-kirkire na yau da kullun."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Tsarin AI da aka yi amfani da shi",
+        "description": "Gine-ginen AI na samarwa wanda ya shafi hidimar samfuri, orchestration na fasali, da gwajin da aka sarrafa."
+      },
+      "automationFrameworks": {
+        "title": "Tsarin sarrafa kansa",
+        "description": "Kayan aikin sarrafa kansa na ciki don amincin aikawa, amsar abin da ya faru, da ayyukan injiniya masu maimaitawa."
+      },
+      "advancedArchitecture": {
+        "title": "Gwajin Gine-gine na Ci gaba",
+        "description": "Bincike a cikin juriya, rarraba gine-ginen da aka inganta don aiki, haƙuri na kuskure, da sikelin."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Hankali a gefen don yanke shawara mai ƙarancin latency, sarrafa telemetry, da haɗin jiragen ruwa na na'urar."
+      },
+      "nlp": {
+        "title": "Tsarin Harshe na Halitta",
+        "description": "Bututun fahimtar harsuna da yawa don rarrabuwa, hakowa, fassara, da tsarin tattaunawa."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Juyin Halitta Algorithms & Ingantawa",
+        "description": "Tsarin bincike da ingantawa da aka yi wahayi zuwa ga zaɓin halitta don magance ƙalubalen injiniya mai girma."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Tsarin sarrafa kansa",
+        "description": "Muna gina tsarin aiki na yau da kullun don saki, ƙofofin inganci, da tabbatarwa bayan turawa don rage gogayya ta hannu yayin haɓaka aminci."
+      },
+      "advancedArchitecture": {
+        "title": "Gwajin Gine-gine na Ci gaba",
+        "description": "Gwaje-gwajen gine-ginen mu suna mai da hankali kan dabarun lalacewar sabis, tsarin juriya na yanki, da kuma ambulaf na aiki don tsarin da ke aiki a ƙarƙashin buƙatu mai ƙarfi."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Muna tabbatar da watsa shirye-shirye da ƙirar ƙirar gefen da ke ba da damar yanke shawara cikin gida cikin sauri yayin kiyaye sarrafawa na tsakiya, dubawa, da tsarin tsarin rayuwa."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Shirye-shiryen Daidaitawa",
+        "description": "An tabbatar da samfuran lab akan ayyukan da aka kwaikwayi sannan kuma an haɗa su cikin dabarun dandamali na atomatik."
+      },
+      "operationalIntelligence": {
+        "title": "Bayanan sirri na aiki",
+        "description": "Bututun NLP suna motsawa daga gwaje-gwajen da aka sarrafa zuwa ayyukan tallafi na samarwa don saurin triage da bayyananniyar fahimta."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Ingantawa a cikin Tsarin Isarwa",
+        "description": "Hanyoyin juyin halitta da aka gwada a cikin dakin gwaje-gwaje ana fassara su zuwa injunan ingantawa don tsarawa da rarrabawa."
+      },
+      "edgeDecisioning": {
+        "title": "Yanke shawara na gefen",
+        "description": "IoT da gwaje-gwajen inference na gefen suna da ƙarfi a cikin sabis na ƙarancin latency tare da ƙuntatawa na aminci."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Yanzu",
+        "title": "Aikace-aikacen AI Foundation",
+        "description": "Fadada samfuran samfurin da za a iya amfani da su, ɗakunan kimantawa, da ƙa'idodin lura a cikin ƙungiyoyin samfura."
+      },
+      "next": {
+        "phase": "Na gaba",
+        "title": "Ayyukan Injiniya masu zaman kansu",
+        "description": "Gudanar da tsarin sarrafa kansa wanda ke rage haɗarin turawa da kuma gajarta madauki na ra'ayoyi don jigilar kaya."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "Watanni 12-18",
+        "title": "Edge-Native Intelligence",
+        "description": "Sikelin gine-ginen girgije na girgije don kusa da ainihin lokacin inference a cikin yanayin latency."
+      },
+      "longHorizon": {
+        "phase": "Dogon Horizon",
+        "title": "Tsarin Ingantawa na Ci gaba",
+        "description": "Haɗa gwaji, saka idanu, da ingantawa don tsarin ya iya daidaitawa cikin aminci yayin da mahallin ke canzawa."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Tsarin AI na injiniya wanda ke ci gaba da kasancewa abin dogaro a cikin samarwa",
+        "summary": "Hangen nesa mai amfani game da daidaita saurin gwaji tare da gudanar da samarwa.",
+        "cta": "Karanta ra'ayoyi"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Rarraba Tsarin Gine-gine don Dandamali Masu Girma",
+        "summary": "Bayanin filin daga gwaje-gwajen gine-gine sun mai da hankali kan aiki, juriya, da sauƙin aiki.",
+        "cta": "Nazarin nazarin shari'ar"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping Applied R&D for Business Results",
+        "summary": "Yadda muke tsara ayyukan kirkire-kirkire don gano su motsa daga samfurin zuwa ƙimar aunawa.",
+        "cta": "Bincika wallafe-wallafe"
+      }
+    },
+    "cta": {
+      "title": "Gina tare da Horizon Innovation Lab",
+      "description": "Yi aiki tare da mu don tabbatar da ra'ayoyi masu ban sha'awa da sauri da kuma matsar da ra'ayoyin da aka tabbatar a cikin amintacce, tsarin samarwa mai haɓakawa.",
+      "primary": "Fara tattaunawa",
+      "secondary": "Duba Sakamakon Isarwa"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Tsarin AI da aka yi amfani da shi",
+      "description": "Cikakken bayani game da yadda Horizon ke tsarawa, aikawa, da kuma sarrafa tsarin koyon inji daga samfurin zuwa samarwa.",
+      "back": "Komawa zuwa Innovation Lab",
+      "tags": {
+        "appliedAi": "AI da aka yi amfani da shi",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Bututun koyon na'ura",
+        "description": "Production AI yana farawa tare da bututun da aka sake haifuwa waɗanda ke haɗa bayanai, gwaji, tabbatarwa, da ra'ayoyi."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Model Deployment Patterns",
+        "description": "Ana zaɓar dabarun turawa bisa ga buƙatun latency, mahimmancin kasuwanci, da rikitarwa na aiki."
+      },
+      "mlopsOperatingModel": {
+        "title": "Tsarin aiki na MLOps",
+        "description": "Ayyukan MLOps suna tabbatar da tsarin AI ya kasance abin dogara, mai sarrafawa, da haɓakawa yayin da amfani ke ƙaruwa."
+      },
+      "monitoringAndReliability": {
+        "title": "Kulawa da aminci",
+        "description": "Observability yana rufe madauki tsakanin halayyar samfurin da sakamakon aiki."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Data da Feature Engineering",
+        "description": "Ingantaccen bayanai, dubawa mai inganci, da ma'anar fasalin da za a iya sake amfani da su ƙirƙirar tushe mai aminci don horar da samfurin."
+      },
+      "modelDevelopment": {
+        "title": "Ci gaban samfurin",
+        "description": "Ana bin diddigin gwaje-gwaje tare da saitunan da aka sake haifuwa, ma'aunin ma'auni, da kuma kwatancen kwatancen atomatik."
+      },
+      "validationAndSafetyGates": {
+        "title": "Tabbatarwa da ƙofofin Tsaro",
+        "description": "Samfuran 'yan takarar sun wuce aiki, ƙarfi, da kuma dubawa na manufofi kafin a amince da su don saki."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Operational Feedback Loops",
+        "description": "Bayan turawa telemetry yana sanar da fifikon sake horar da shi, yanke shawara na baya, da kuma shirye-shiryen sake maimaitawa na gaba."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Real-Time Inference Services",
+        "description": "APIs masu ƙarancin latency don aikace-aikacen ma'amala tare da atomatik, caching, da kuma lura da matakin buƙata."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Hasashen Batch da Streaming",
+        "description": "Bututun da aka tsara da abubuwan da suka faru don ƙididdigar ƙididdiga a duk faɗin nazari da ayyukan aiki."
+      },
+      "edgeAwareDeployment": {
+        "title": "Gefen Ge",
+        "description": "Tsarin hidimar girgije na girgije don yanayin da ke buƙatar ƙididdigar gida da tsarin gudanarwa na tsakiya."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI / CD don samfurori",
+        "description": "Ginawa ta atomatik, gwaji, da sakin ayyukan aiki suna rage haɗarin turawa yayin kiyaye saurin isarwa."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Model Registry da Lifecycle",
+        "description": "Samfurin samfurin samfurin tare da matakan haɓakawa, layi, da ayyukan amincewa suna inganta sarrafawa da bin diddigin."
+      },
+      "servingInfrastructure": {
+        "title": "Samar da kayayyakin more rayuwa",
+        "description": "Scalable hidima yadudduka tare da dabarun ƙaddamar kamar canary da inuwa suna tallafawa amintaccen canjin canji."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Prediction quality and drift detection",
+      "latencyThroughputAndCostEfficiencyTracking": "Latency, Throughput, da kuma Cost Efficiency Tracking",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Faɗakarwar Ingancin Bayanai da Ayyukan Gyara",
+      "auditabilityForComplianceAndIncidentAnalysis": "Auditability for compliance and incident analysis"
+    },
+    "cta": {
+      "title": "Sikelin Amfani da AI tare da Amincewa",
+      "description": "Idan kuna shirin ayyukan AI waɗanda ke buƙatar sakamako mai aunawa da kiyayewa na dogon lokaci, Horizon na iya taimakawa tsarawa da aiwatar da cikakken tsarin rayuwar.",
+      "primary": "Yi magana da ƙungiyarmu",
+      "secondary": "Bincika Ƙarin Lab Work"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "NLP na Harsuna da yawa",
+      "description": "Bincika ƙwarewar sarrafa harshe na halitta da kuma yadda suke haɓaka zuwa amintacce, tsarin samar da harsuna da yawa.",
+      "back": "Komawa zuwa Innovation Lab",
+      "tags": {
+        "demo": "Demo mai ma'amala",
+        "intelligence": "Ilimin harshe"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Gidauniyar NLP",
+        "description": "Tsarin harshe na halitta ya haɗu da siginar harshe da ilmantarwa na inji don cire ma'ana, niyya, da tsari daga rubutu."
+      },
+      "workbench": {
+        "title": "Interactive NLP Workbench",
+        "description": "Yi amfani da demo don gwada gano harshe, ƙididdigar ra'ayi, hakar ƙungiyoyi, da halayen fassara a ainihin lokacin."
+      },
+      "productionApplications": {
+        "title": "Ta yaya Horizon ke amfani da NLP a cikin samarwa",
+        "description": "An haɗa ƙwarewar NLP a cikin ayyukan kasuwanci tare da tsaro na aiki da ma'auni masu inganci."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Aminci da Ka'idodin Gudanarwa",
+        "description": "Samar da NLP yana buƙatar fiye da ingancin samfurin; Ya dogara ne akan amintattun ayyukan ƙaddamar da kuma ci gaba da tabbatarwa."
+      }
+    },
+    "foundations": {
+      "intro1": "Tsarin NLP na zamani yana tallafawa sarrafa kansa, dacewar bincike, hakar ilimi, da haɗin gwiwar harsuna da yawa. Ingantaccen aiwatarwa yana buƙatar ingancin samfurin da sarrafawa mai ƙarfi.",
+      "intro2": "A Horizon, muna mai da hankali kan tsarin NLP na ƙarshe wanda ya haɗu da ƙididdiga mai ƙarfi tare da lura, gudanarwa, da tasirin samarwa mai aunawa."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Gano harshe",
+        "description": "Gano yare daga gajeren ko dogon sassan rubutu don jagorantar buƙatu zuwa bututun sarrafawa mai dacewa."
+      },
+      "sentimentAnalysis": {
+        "title": "Nazarin Sentiment",
+        "description": "Cire niyya ta motsin rai da polarity don hankalin abokin ciniki, tallafi na tallafi, da madauki na ra'ayoyin samfur."
+      },
+      "entityExtraction": {
+        "title": "Cirewar Entity",
+        "description": "Gano abubuwan da aka tsara kamar sunaye, kamfanoni, wurare, da kwanan wata daga rubutun da ba a tsara ba."
+      },
+      "translation": {
+        "title": "Fassarar",
+        "description": "Yana tallafawa ayyukan harsuna da yawa ta hanyar fassara rubutun da aka samar da mai amfani ko aiki yayin riƙe mahallin."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Tallafi da Ticket Intelligence",
+        "description": "Rarraba buƙatun da ke shigowa ta hanyar gaggawa, niyya, da ra'ayi don hanzarta hanya da ingancin amsawa."
+      },
+      "governedContentOperations": {
+        "title": "Gudanar da Ayyukan Abun ciki",
+        "description": "Yi amfani da matattarar harshe da ma'auni da dubawa tare da madaidaiciyar madaidaiciya da tunawa."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Rubutun Kasuwancin Kasuwancin Rubutu",
+        "description": "Tattara abubuwan da ke faruwa daga takardu, bita, da sadarwa don sanar da dabarun da yanke shawara na aiki."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Kimantawa ta hanyar amfani da shari'ar",
+        "description": "Ana daidaita samfuran da aka kwatanta da bayanan yanki na musamman kafin yanke shawara na fitarwa."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Tsaro na ɗan adam",
+        "description": "Hasashe mai tasiri ya haɗa da hanyoyin bita, ƙa'idodin haɓakawa, da siginar amincewa a bayyane."
+      },
+      "continuousMonitoring": {
+        "title": "Ci gaba da sa ido",
+        "description": "Drift, latency, da ingancin lalacewa ana bin diddigin su akai-akai don haka sake horarwa da sake dawowa suna aiki."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Genetic Algorithm Simulation",
+      "description": "Bincika ƙididdigar juyin halitta a cikin yanayi mai ma'amala kuma ku ga yadda ka'idoji iri ɗaya ke fassara zuwa tsarin haɓaka samarwa.",
+      "back": "Komawa zuwa Innovation Lab",
+      "tags": {
+        "demo": "Demo mai ma'amala",
+        "optimizationScience": "Kimiyyar Ingantawa"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Gidauniyar Kimiyya",
+        "description": "Algorithms na kwayoyin halitta sune hanyoyin haɓaka yawan jama'a waɗanda aka yi wahayi zuwa gare su ta hanyar zaɓin halitta da daidaitawa."
+      },
+      "interactiveEnvironment": {
+        "title": "Interactive Juyin Halitta Environment",
+        "description": "Gudanar da kwaikwayon don ganin motsa jiki yana inganta tsara ta tsara kuma lura da yadda matsin lamba na zaɓi ke tasiri sakamakon."
+      },
+      "productionUse": {
+        "title": "Ta yaya Horizon ke amfani da wannan a cikin samarwa",
+        "description": "Makanikai na bincike iri ɗaya da aka yi amfani da su a cikin wannan demo suna sanar da bututun ingantawa da aka tura a cikin tsarin aiki."
+      },
+      "applicationDomains": {
+        "title": "Yankunan Aikace-aikacen Aikace-aikacen Aikace-aikacen Aikace-aikace",
+        "description": "Inganta juyin halitta yana da mahimmanci musamman a cikin tsarin da ke da manufofi masu ƙarfi da ƙuntatawa masu rikitarwa."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Maimakon neman mafita ɗaya a lokaci guda, algorithms na kwayoyin halitta suna haɓaka yawan 'yan takarar daban-daban. Kowane ƙarni ana kimanta shi da aikin motsa jiki kuma an tsaftace shi ta hanyar zaɓi, ƙetare da canzawa.",
+      "intro2": "Wannan ya sa su yi tasiri ga matsaloli masu girma tare da ƙuntatawa marasa layi, inda hanyoyin ƙayyadaddun ƙa"
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Zaɓi",
+        "description": "'Yan takarar da suka fi dacewa su tsira da rinjayar tsara ta gaba."
+      },
+      "crossover": {
+        "title": "Crossover",
+        "description": "An sake haɗuwa da halaye masu ƙarfi don ƙirƙirar sababbin mafita tare da ƙarfin haɗuwa."
+      },
+      "mutation": {
+        "title": "Canji",
+        "description": "Tsarin da aka sarrafa yana gabatar da bambancin don haka bincike ba ya tsayawa a kusa da optimala na gida."
+      },
+      "convergence": {
+        "title": "Haɗin kai",
+        "description": "A cikin al'ummomi da yawa, yawan jama'a suna ci gaba da samun kwanciyar hankali da ingantattun mafita."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Jadawalin Albarkatu",
+        "description": "Muna amfani da dabarun juyin halitta don haɓaka jadawalin ƙuntatawa da yawa inda binciken ƙarfi ba zai yiwu ba."
+      },
+      "architectureTuning": {
+        "title": "Tsarin gine-gine",
+        "description": "Ana kimanta saitunan kayan more rayuwa na ɗan takarar sau da yawa don haɓaka aiki da ingantaccen farashi."
+      },
+      "continuousOptimization": {
+        "title": "Ci gaba da ingantawa",
+        "description": "Ayyukan ingantawa suna gudana a cikin madauki mai sarrafawa tare da ra'ayoyin telemetry don haka tsarin ya daidaita yayin da bayanan buƙatu ke canzawa."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Hanya & Logistics Planning",
+        "description": "Hadaddun isar da kaya da shirye-shiryen aikawa suna amfana daga binciken juyin halitta lokacin da ƙuntatawa suka canza cikin sauri."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Model da Hyperparameter Search",
+        "description": "Binciken kwayoyin halitta na iya gano saitin samfurin ingantaccen lokacin da manufa ke da hayaniya kuma ba layi ba."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Matsalolin Portfolio da Allocation",
+        "description": "Ingantawa a ƙarƙashin manufofin gasa za a iya tsara su azaman kasuwancin motsa jiki a cikin saitin 'yan takara."
+      }
+    }
+  }
+}

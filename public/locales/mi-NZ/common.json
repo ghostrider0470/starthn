@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Kāinga",
+    "company": "Kamupene",
+    "solutions": "Ngā rongoā",
+    "resources": "Ngā Rauemi",
+    "innovationLab": "Taiwhanga Whakahaere Hou",
+    "contact": "Hoapā",
+    "about": {
+      "title": "Mō",
+      "description": "Our mission, vision, and story"
+    },
+    "team": {
+      "title": "Tīma",
+      "description": "Tūtaki ki ngā tāngata i muri i Horizon Tech"
+    },
+    "careers": {
+      "title": "Ngā Mahi",
+      "description": "Hono ki tā mātou tīma me te hanga i te wā heke mai"
+    },
+    "enterpriseSoftware": {
+      "title": "Whanaketanga Pūmanawa Hinonga",
+      "description": "Ngā taupānga hinonga ritenga me ngā anga hōu"
+    },
+    "aiMl": {
+      "title": "AI, ML & Mōhiohio Pakihi",
+      "description": "Whakaoti i ngā arapae AI/ML me ngā paemana BI"
+    },
+    "cloudArchitecture": {
+      "title": "Hoahoa Kapua me te Hanganga",
+      "description": "Ngā rongoā kapua-maha me te whakatakotoranga ipu"
+    },
+    "iot": {
+      "title": "IoT & Edge Computing",
+      "description": "Ngā pūnaha pūrere tūhono me ngā māhanga mamati"
+    },
+    "devops": {
+      "title": "DevOps & Pūkaha Pūhara",
+      "description": "Ngā paipa me ngā hanganga CI/CD hei waehere"
+    },
+    "digitalTransformation": {
+      "title": "Huringa Mamati me te Rautaki",
+      "description": "Ngā mahere huarahi me ngā tohutohu panoni hinonga"
+    },
+    "caseStudies": {
+      "title": "Ngā Akoranga Kēhi",
+      "description": "Ngā pūrākau angitu mai i ā mātou kiritaki",
+      "featured": {
+        "title": "Akoranga Kēhi Whakahirahira",
+        "description": "Ruku hōhonu ki tētahi tautohetohe tuku katoa"
+      }
+    },
+    "blog": {
+      "title": "Rangitaki",
+      "description": "Ngā mōhiotanga, ngā akoranga, me ngā āhuatanga ahumahi",
+      "featured": {
+        "title": "Whakairinga Rangitaki Whakahirahira",
+        "description": "Pānuitia tētahi o ā mātou mōhiotanga pūkaha hōu rawa"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Tirohanga Whānui Taiwhanga Hou",
+      "description": "Tirohia ngā wāhi rangahau katoa me ngā riu whakamātautau"
+    },
+    "innovationLabAiSystems": {
+      "title": "Ngā Pūnaha AI Hoatu",
+      "description": "Ngā tauira hoahoa ako mīhini kua rite ki te whakanao"
+    },
+    "innovationLabNlp": {
+      "title": "TTP Reo-Maha",
+      "description": "Ngā āheinga tukatuka reo māori tauwhiti"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Whakataruna Hātepe Iranga",
+      "description": "Arotautanga kunenga i roto i tētahi taiao tauwhiti"
+    },
+    "navigation": "Te Whakatere",
+    "skipToContent": "Tīpoka ki te ihirangi",
+    "toggleMenu": "Tahua takahuri",
+    "dashboard": "Paemana",
+    "myWorkspace": "Taku Mokowāmahi",
+    "profile": "Pūkete",
+    "adminPanel": "Paewhiri Kaiwhakahaere",
+    "practiceManagement": "Whakahaere Whakaharatau",
+    "logOut": "Takiputa",
+    "education": {
+      "title": "Ngā Rauemi Hangarau",
+      "description": "Ngā kaiārahi, ngā akoranga, me ngā mahi tino pai mai i te tīma Horizon Tech"
+    },
+    "support": {
+      "title": "Pokapū Tautoko",
+      "description": "Tiki āwhina ki ā mātou ratonga whanaketanga pūmanawa"
+    }
+  },
+  "footer": {
+    "description": "Whakaoho whanaketanga pūmanawa i Sarajevo, Pōngia. Ka hangaia e mātou ngā pūmanawa ritenga, ngā rongoā AI/ML, te hoahoa kapua, me ngā pūnaha aunoatanga.",
+    "features": "Ngā Āhuahira",
+    "resources": "Ngā Rauemi",
+    "company": "Kamupene",
+    "legal": "Ture",
+    "dashboard": "Paemana",
+    "components": "Ngā Mōtete",
+    "documentation": "Tuhinga",
+    "apiReference": "Tohutoro API",
+    "gettingStarted": "Te Tīmatanga",
+    "examples": "Ngā Tauira",
+    "community": "Hapori",
+    "blog": "Rangitaki",
+    "caseStudies": "Ngā Akoranga Kēhi",
+    "innovationLabOverview": "Tirohanga Whānui Taiwhanga Hou",
+    "appliedAiSystems": "Ngā Pūnaha AI Hoatu",
+    "nlpDemo": "TTP Reo-Maha",
+    "geneticAlgorithmSimulation": "Whakataruna Hātepe Iranga",
+    "featuredBlogPost": "Whakairinga Rangitaki Whakahirahira",
+    "featuredCaseStudy": "Akoranga Kēhi Whakahirahira",
+    "about": "Mō",
+    "contact": "Hoapā",
+    "partners": "Ngā Hoa",
+    "careers": "Ngā Mahi",
+    "privacyPolicy": "Kaupapahere tūmataitinga",
+    "termsOfService": "Ngā ture ratonga",
+    "cookiePolicy": "Kaupapahere Pihikete",
+    "license": "Raihana",
+    "copyright": "© {{year}} Horizon Tech. Kua rāhuitia ngā motika katoa.",
+    "subscribe": "Ohauru ki te pānui"
+  },
+  "header": {
+    "badge": "Ngā Rongoā Hangarau Hinonga",
+    "titleLine1": "Panoni i Tō Pakihi mā",
+    "titleLine2": "Hangarau Tapa-Tapa",
+    "description": "Mai i te whanaketanga pūmanawa umanga me te mōhiohio pakihi ā-AI ki ngā hanganga kapua me ngā rongoā IoT - ka tukua e mātou ngā ratonga hangarau whānui e whakahaere ana i ngā mahi hou me te whakatere i te tipu.",
+    "getStarted": "Tīmata",
+    "exploreSolutions": "Tūhura Rongoā",
+    "trustedBy": "E whakawhirinaki ana ki ngā hinonga whakaaro whakamua",
+    "microsoftPartner": "Hoa Microsoft",
+    "azureCertified": "Kua Whakamanatia e Azure",
+    "enterpriseSolutions": "Ngā Rongoā Hinonga"
+  },
+  "mobileNav": {
+    "navigation": "Whakaterenga pūkoro",
+    "home": "Kāinga",
+    "solutions": "Ngā rongoā",
+    "caseStudies": "Ngā Kēhi",
+    "aiSystems": "Taiwhanga AI",
+    "blog": "Rangitaki",
+    "resources": "Ngā Rauemi",
+    "contact": "Hoapā"
+  },
+  "sideNav": {
+    "scroll": "Panuku",
+    "navigateTo": "Whakatere ki {{section}}",
+    "sections": {
+      "home": "Kāinga",
+      "solutions": "Ngā rongoā",
+      "credibility": "Whakawhirinakitanga",
+      "partners": "Ngā Hoa",
+      "caseStudies": "Ngā Akoranga Kēhi",
+      "blog": "Rangitaki",
+      "innovationLab": "Taiwhanga Whakahaere Hou",
+      "faq": "Nga pātai e uiuitia ai"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Whakawhiti reo",
+    "searchPlaceholder": "Reo rapu...",
+    "noResults": "Kāore i kitea he reo."
+  },
+  "common": {
+    "menu": "Tahua",
+    "account": "Kaute"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Ngā Akoranga Kēhi O Nā Tata Nei",
+      "description": "He hopuāhua o ngā putanga tuku puta noa i ngā papatono fintech, rongoā, logistics, me ngā wāhanga tūmatanui.",
+      "cta": "Tirohia ngā Akoranga Kēhi Katoa"
+    },
+    "blog": {
+      "title": "Ngā Mea Hou Mai i Tā Mātou Rangitaki",
+      "description": "Ngā tuhipoka pūkaha ā-ringa mai i ngā mahi tuku AI, pūhara, me te kapua o nā tata nei.",
+      "cta": "Pānuitia ngā Tuhinga Katoa"
+    },
+    "innovationLab": {
+      "title": "Taiwhanga Whakahaere Hou",
+      "description": "Tūhura i ngā tauiratauira, ngā whakamātautau, me ngā kaupapa R&D kua hoatu mai i te tīma pūkaha o Horizon Tech.",
+      "cta": "Tūhura Taiwhanga Hou"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Pānuitia te Akoranga Kēhi",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Hauora",
+      "logistics": "Rārangi Mahi",
+      "manufacturing": "Whakanao",
+      "government": "Kawanatanga"
+    }
+  },
+  "blogCard": {
+    "read": "Pānui"
+  }
+}

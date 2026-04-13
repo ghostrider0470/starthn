@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "About Us",
+    "hero": {
+      "titlePrefix": "Building Tomorrow's Technology,",
+      "titleHighlight": "Today",
+      "description": "Horizon Tech d.o.o. is a global technology company headquartered in Sarajevo, delivering cutting-edge software solutions to enterprises across three continents."
+    },
+    "sections": {
+      "mission": {
+        "title": "Mission",
+        "description": "We help organizations turn ambitious ideas into reliable digital products that create measurable business value.",
+        "points": [
+          "Align technology delivery with clear business outcomes.",
+          "Build long-term systems that remain maintainable as teams scale.",
+          "Partner closely with stakeholders from strategy through execution."
+        ]
+      },
+      "expertise": {
+        "title": "Expertise",
+        "description": "Our multidisciplinary teams combine engineering depth with product thinking across modern technology stacks.",
+        "points": [
+          "Enterprise-grade web and platform engineering.",
+          "Cloud architecture, DevOps automation, and resilient infrastructure.",
+          "Applied AI/ML, data workflows, and IoT-enabled products."
+        ]
+      },
+      "approach": {
+        "title": "Approach",
+        "description": "We execute with a transparent, iterative model that keeps delivery predictable while reducing product risk.",
+        "points": [
+          "Discover: define scope, priorities, and success metrics early.",
+          "Build: ship in focused increments with continuous feedback loops.",
+          "Optimize: monitor outcomes and improve performance over time."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Business?",
+      "description": "Join the growing list of companies that trust Horizon Tech to deliver innovative solutions and exceptional results.",
+      "primary": "Get Started",
+      "secondary": "View Success Stories"
+    }
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "hero": {
+      "title": "Contact Us",
+      "description": "Have a project in mind? We'd love to hear from you. Reach out to discuss how we can help bring your ideas to life."
+    },
+    "info": {
+      "title": "Contact Information"
+    },
+    "booking": {
+      "title": "Book a Meeting",
+      "description": "Schedule a free 30-minute discovery call"
+    },
+    "methods": {
+      "email": {
+        "title": "Email",
+        "description": "Send us an email anytime",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Location",
+        "description": "Based in",
+        "value": "Sarajevo, Bosnia and Herzegovina"
+      },
+      "response": {
+        "title": "Response Time",
+        "description": "We typically respond within",
+        "value": "24-48 hours"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "New Project"
+      },
+      "support": {
+        "label": "Technical Support"
+      },
+      "partnerships": {
+        "label": "Partnerships"
+      },
+      "careers": {
+        "label": "Careers"
+      },
+      "general": {
+        "label": "General Inquiry"
+      }
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "success": "Thank you for your message. We'll get back to you within 24-48 hours.",
+      "error": "Something went wrong. Please try again or email us directly.",
+      "fullName": "Full Name *",
+      "email": "Email Address *",
+      "company": "Company",
+      "subject": "Subject *",
+      "message": "Message *",
+      "placeholders": {
+        "name": "Your name",
+        "email": "you@example.com",
+        "company": "Your company",
+        "subject": "What can we help with?",
+        "message": "Tell us about your project or inquiry..."
+      },
+      "validation": {
+        "required": {
+          "name": "Full name is required.",
+          "email": "Email address is required.",
+          "subject": "Please choose a subject.",
+          "message": "Message is required."
+        },
+        "email": "Please enter a valid email address.",
+        "messageMinLength": "Message must be at least {{count}} characters long."
+      },
+      "sending": "Sending...",
+      "submit": "Send Message"
+    },
+    "reasonsTitle": "Why Work With Us?",
+    "reasons": [
+      "Full-stack software development expertise",
+      "AI/ML and cloud architecture specialists",
+      "Agile development with transparent communication",
+      "Long-term support and maintenance"
+    ],
+    "custom": {
+      "title": "Custom Solutions",
+      "description": "Looking for a tailored solution? We work closely with clients to understand unique needs and deliver custom software that drives measurable results.",
+      "cta": "Discuss Your Project"
+    },
+    "faq": {
+      "title": "Have More Questions?",
+      "description": "Check out our FAQ section for quick answers",
+      "cta": "Browse FAQs"
+    }
+  },
+  "team": {
+    "badge": "Our Team",
+    "hero": {
+      "titlePrefix": "Meet the Minds Behind",
+      "titleHighlight": "Horizon Tech",
+      "description": "A diverse team of technologists, designers, and strategists building high-impact digital products together."
+    },
+    "section": {
+      "title": "Leadership Team",
+      "description": "The experienced leaders guiding Horizon Tech's vision and growth"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Founder, CEO & CTO",
+        "bio": "Visionary leader and technical architect with 10+ years in enterprise software, specializing in AI/ML, cloud platforms, and scalable product architecture.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Solution Architecture",
+          "Cloud Engineering"
+        ]
+      },
+      "ahmet": {
+        "role": "Chief Security Architect",
+        "bio": "Cybersecurity specialist focused on enterprise security architecture, secure on-prem infrastructure, and compliance-first delivery for regulated environments.",
+        "expertise": [
+          "Cyber Security",
+          "On-Prem Systems",
+          "Security Architecture",
+          "Compliance",
+          "Infrastructure Security"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Email {{name}}",
+      "linkedin": "{{name}} LinkedIn profile"
+    },
+    "culture": {
+      "title": "Life at Horizon Tech",
+      "description": "We foster a culture of innovation, collaboration, and continuous learning",
+      "remoteFirst": {
+        "title": "Remote-First Culture",
+        "description": "Work from anywhere with flexible hours and a focus on results, not location."
+      },
+      "collaborative": {
+        "title": "Collaborative Environment",
+        "description": "Regular team events, knowledge sharing sessions, and cross-functional collaboration."
+      },
+      "workLife": {
+        "title": "Work-Life Balance",
+        "description": "Generous vacation policy, mental health support, and respect for personal time."
+      },
+      "innovation": {
+        "title": "Innovation Time",
+        "description": "20% time for personal projects, hackathons, and exploring new technologies."
+      },
+      "stats": {
+        "teamMembers": "Team Members",
+        "countries": "Countries",
+        "techStacks": "Tech Stacks",
+        "remoteReady": "Remote Ready"
+      }
+    },
+    "cta": {
+      "title": "Want to Join Our Team?",
+      "description": "We're always looking for talented people who care about craftsmanship, ownership, and innovation.",
+      "button": "Get in Touch"
+    }
+  },
+  "careers": {
+    "badge": "Join Our Team",
+    "hero": {
+      "titlePrefix": "Build the Future",
+      "titleHighlight": "With Us",
+      "description": "Join a team of engineers building cutting-edge software for global clients. Work remotely, grow continuously, and make real impact.",
+      "button": "See Positions"
+    },
+    "process": {
+      "title": "Our Hiring Process",
+      "description": "Transparent, efficient, and respectful of your time",
+      "steps": [
+        {
+          "title": "Apply",
+          "description": "Submit your application and we'll review it within 3 business days."
+        },
+        {
+          "title": "Initial Chat",
+          "description": "A 30-minute video call to discuss your experience and expectations."
+        },
+        {
+          "title": "Technical",
+          "description": "Technical interview or practical exercise to showcase your skills."
+        },
+        {
+          "title": "Offer",
+          "description": "Meet the team and receive your offer to join Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Open Positions",
+      "description": "Find your next opportunity and join our growing team",
+      "unavailable": "Not accepting applications at this time",
+      "apply": "Apply Now",
+      "noMatch": "Don't see the perfect role?",
+      "sendCv": "Send Us Your CV",
+      "listings": [
+        {
+          "title": "Senior Full-Stack Engineer",
+          "department": "Engineering",
+          "location": "Remote (EU Time Zones)",
+          "type": "Full-Time",
+          "description": "Build scalable enterprise applications using React, Node.js, and cloud technologies.",
+          "tags": [
+            "React",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps Engineer",
+          "department": "Engineering",
+          "location": "Sarajevo / Remote",
+          "type": "Full-Time",
+          "description": "Design and maintain CI/CD pipelines, infrastructure as code, and monitoring systems.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI/ML Engineer",
+          "department": "Innovation Lab",
+          "location": "Remote",
+          "type": "Full-Time",
+          "description": "Develop machine learning models and AI solutions for enterprise clients.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Product Designer",
+          "department": "Design",
+          "location": "Remote",
+          "type": "Full-Time",
+          "description": "Create beautiful, intuitive user experiences for complex enterprise applications.",
+          "tags": [
+            "Figma",
+            "User Research",
+            "UI/UX",
+            "Design Systems"
+          ]
+        },
+        {
+          "title": "Solutions Architect",
+          "department": "Engineering",
+          "location": "Remote",
+          "type": "Full-Time",
+          "description": "Design end-to-end technical solutions and guide clients through digital transformation.",
+          "tags": [
+            "Cloud Architecture",
+            "System Design",
+            "Consulting"
+          ]
+        },
+        {
+          "title": "Technical Writer",
+          "department": "Operations",
+          "location": "Remote",
+          "type": "Part-Time",
+          "description": "Create comprehensive documentation, tutorials, and technical content.",
+          "tags": [
+            "Documentation",
+            "API Docs",
+            "Technical Writing"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Questions About Working Here?",
+      "description": "We'd love to hear from you. Reach out and we'll answer any questions about life at Horizon Tech.",
+      "button": "Contact Us"
+    }
+  },
+  "caseStudies": {
+    "badge": "Success Stories",
+    "hero": {
+      "titlePrefix": "Delivering Results That",
+      "titleHighlight": "Matter",
+      "description": "Explore how we've helped companies across industries transform operations through practical, high-impact technology.",
+      "tags": {
+        "delivery": "Engineering Delivery",
+        "outcomes": "Measured Outcomes"
+      }
+    },
+    "stats": {
+      "projects": "Projects Delivered",
+      "clients": "Happy Clients",
+      "efficiency": "Avg. Efficiency Gain",
+      "retention": "Client Retention"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Financial Services",
+        "title": "Cloud Migration & Modernization",
+        "description": "Migrated legacy banking systems to AWS cloud infrastructure with zero downtime.",
+        "challenge": "Legacy monolithic architecture causing scalability issues",
+        "result": "Successfully migrated to microservices on AWS",
+        "metrics": [
+          {
+            "label": "Cost Reduction",
+            "value": "40%"
+          },
+          {
+            "label": "Performance Gain",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Microservices",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech Solutions",
+        "industry": "Healthcare",
+        "title": "AI-Powered Diagnostic Platform",
+        "description": "Built ML models for medical image analysis with 95%+ accuracy.",
+        "challenge": "Manual diagnostic processes taking too long",
+        "result": "Automated diagnostics with AI/ML",
+        "metrics": [
+          {
+            "label": "Time Saved",
+            "value": "70%"
+          },
+          {
+            "label": "Accuracy",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "React",
+          "Healthcare"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "E-Commerce Giant",
+        "industry": "Retail",
+        "title": "Real-Time Analytics Dashboard",
+        "description": "Developed BI platform processing 10M+ events daily.",
+        "challenge": "No real-time visibility into key business metrics",
+        "result": "Real-time analytics and insights platform",
+        "metrics": [
+          {
+            "label": "Events/Day",
+            "value": "10M+"
+          },
+          {
+            "label": "Response Time",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "React",
+          "Data Engineering"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ready to Write Your Success Story?",
+      "description": "Let's discuss how we can help you achieve similar outcomes and scale with confidence."
+    },
+    "filters": {
+      "title": "Industry Filter",
+      "all": "All Industries",
+      "empty": "No case studies match the selected industry filter."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Insights & Ideas from",
+      "titleHighlight": "Horizon Tech",
+      "description": "Technical tutorials, industry insights, and practical lessons from real delivery work."
+    },
+    "categories": [
+      "All Posts",
+      "Cloud Architecture",
+      "DevOps",
+      "AI/ML",
+      "Frontend",
+      "Backend",
+      "Data"
+    ],
+    "featuredPost": {
+      "id": "featured",
+      "title": "The Future of Cloud-Native Development: Trends to Watch in 2025",
+      "excerpt": "Explore the latest trends in cloud-native development, from serverless architectures to edge computing.",
+      "author": {
+        "name": "Horizon Tech Editorial"
+      },
+      "date": "Nov 15, 2025",
+      "readTime": "8 min read",
+      "category": "Cloud Architecture",
+      "tags": [
+        "Cloud",
+        "Azure",
+        "Trends"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Building Scalable Microservices with Azure Kubernetes Service",
+        "excerpt": "A practical guide to architecting and deploying microservices using AKS.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "Nov 12, 2025",
+        "readTime": "6 min read",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Microservices",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Machine Learning in Production: Lessons Learned",
+        "excerpt": "Field-tested lessons from deploying ML models at scale.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "Nov 10, 2025",
+        "readTime": "10 min read",
+        "category": "AI/ML",
+        "tags": [
+          "Machine Learning",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: What's New and Why It Matters",
+        "excerpt": "A deep dive into React 19 features and performance implications.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "Nov 8, 2025",
+        "readTime": "5 min read",
+        "category": "Frontend",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Web Development"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Subscribe to Our Newsletter",
+      "description": "Get the latest articles, tutorials, and insights delivered weekly.",
+      "placeholder": "your.email@example.com",
+      "button": "Subscribe",
+      "note": "No spam. Unsubscribe anytime."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering Blog",
+        "description": "Field notes and practical patterns from teams building AI products, enterprise systems, and reliable cloud platforms."
+      },
+      "filters": {
+        "postsInView": "{{count}} posts in view"
+      },
+      "featured": {
+        "badge": "Latest",
+        "readCta": "Read featured post"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Loading profile...",
+    "title": "Profile Settings",
+    "subtitle": "Manage your account settings and preferences",
+    "photoButton": "Change Photo",
+    "tabs": {
+      "general": "General",
+      "security": "Security",
+      "preferences": "Preferences"
+    },
+    "messages": {
+      "profileUpdated": "Profile updated successfully",
+      "profileUpdateFailed": "Failed to update profile",
+      "passwordsNoMatch": "New passwords do not match",
+      "passwordTooShort": "Password must be at least 8 characters long",
+      "passwordChanged": "Password changed successfully",
+      "passwordChangeFailed": "Failed to change password",
+      "optedOut": "Opted out of practice reports",
+      "optedIn": "Opted in to practice reports",
+      "optOutFailed": "Failed to update opt-out status"
+    },
+    "general": {
+      "title": "Personal Information",
+      "description": "Update your personal details and contact information",
+      "firstName": "First Name",
+      "firstNamePlaceholder": "John",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Doe",
+      "email": "Email Address",
+      "emailNotice": "Email cannot be changed. Contact support if you need assistance.",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Save Changes"
+    },
+    "security": {
+      "title": "Security Settings",
+      "description": "Manage your password and security preferences",
+      "currentPassword": "Current Password",
+      "currentPasswordPlaceholder": "Enter current password",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Enter new password",
+      "confirmPassword": "Confirm New Password",
+      "confirmPasswordPlaceholder": "Confirm new password",
+      "passwordHint": "Must be at least 8 characters long",
+      "changePassword": "Change Password"
+    },
+    "preferences": {
+      "title": "Notification Preferences",
+      "description": "Control how you receive updates and notifications",
+      "email": {
+        "title": "Email Notifications",
+        "description": "Receive updates and alerts via email"
+      },
+      "sms": {
+        "title": "SMS Notifications",
+        "description": "Receive important alerts via text message"
+      },
+      "optOut": {
+        "title": "Opt Out of Practice Reports",
+        "description": "Hide your reports from practice owner"
+      },
+      "actions": {
+        "title": "Account Actions",
+        "downloadData": "Download Account Data",
+        "deleteAccount": "Delete Account"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Back to Home",
+    "title": "Support Center",
+    "subtitle": "Get help with our software development services",
+    "cards": {
+      "email": {
+        "title": "Email Support",
+        "description": "Send us an email for any inquiries"
+      },
+      "project": {
+        "title": "Project Inquiries",
+        "description": "Discuss your project requirements",
+        "button": "Contact Us"
+      },
+      "resources": {
+        "title": "Resources",
+        "description": "Technical resources and guides",
+        "button": "View Resources"
+      }
+    },
+    "faqTitle": "Frequently Asked Questions",
+    "faqDescription": "Quick answers to common questions",
+    "faqs": [
+      {
+        "question": "What services does Horizon Tech offer?",
+        "answer": "We provide custom software development, AI/ML solutions, cloud architecture, DevOps, business intelligence, and IoT services."
+      },
+      {
+        "question": "How do I start a project with Horizon Tech?",
+        "answer": "Contact us via form or email with your requirements. We'll schedule a discovery call and share a proposal."
+      },
+      {
+        "question": "Do you provide ongoing support and maintenance?",
+        "answer": "Yes. We offer support and maintenance packages that include bug fixes, security updates, and feature improvements."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Back to Home",
+    "title": "Technical Resources",
+    "subtitle": "Guides, tutorials, and best practices from the Horizon Tech team",
+    "hub": {
+      "title": "Learning Hub",
+      "description": "Explore our curated technical resources across cloud, AI/ML, DevOps, and modern software development.",
+      "note": "These materials are based on real project experience and updated regularly."
+    },
+    "categories": [
+      {
+        "icon": "cloud",
+        "title": "Cloud Architecture",
+        "description": "Azure, AWS, and cloud-native patterns",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Guide"
+          },
+          {
+            "title": "Cloud Migration Strategies",
+            "type": "Article"
+          }
+        ]
+      },
+      {
+        "icon": "brain",
+        "title": "AI & Machine Learning",
+        "description": "ML models, data science, and AI integration",
+        "resources": [
+          {
+            "title": "Introduction to Azure ML",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Building Production ML Pipelines",
+            "type": "Guide"
+          }
+        ]
+      },
+      {
+        "icon": "settings",
+        "title": "DevOps & Platform",
+        "description": "CI/CD, infrastructure as code, automation",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Infrastructure as Code with Terraform",
+            "type": "Guide"
+          }
+        ]
+      },
+      {
+        "icon": "code",
+        "title": "Software Development",
+        "description": ".NET, React, and modern development practices",
+        "resources": [
+          {
+            "title": "Clean Architecture in .NET",
+            "type": "Guide"
+          },
+          {
+            "title": "React Best Practices",
+            "type": "Article"
+          }
+        ]
+      },
+      {
+        "icon": "database",
+        "title": "Data & Analytics",
+        "description": "BI, data warehousing, and analytics platforms",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Design",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Data Warehouse Architecture",
+            "type": "Guide"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Need Custom Training?",
+      "description": "We offer tailored workshops for engineering and product teams",
+      "text": "Need hands-on team training? We provide custom workshops on cloud architecture, DevOps, and modern delivery practices.",
+      "button": "Get in Touch"
+    }
+  },
+  "unauthorized": {
+    "title": "Access Denied",
+    "description": "You don't have permission to access this page. Contact your administrator if you think this is a mistake.",
+    "primary": "Go to Profile",
+    "secondary": "Back to Home"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Post not found",
+      "description": "No blog post exists for slug: {{slug}}",
+      "back": "Back to blog"
+    },
+    "back": "Back to blog",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Case study not found",
+      "description": "No case study exists for id: {{id}}",
+      "back": "Back to case studies"
+    },
+    "back": "Back to case studies",
+    "sections": {
+      "executiveSummary": "Executive Summary",
+      "businessChallenge": "Business Challenge",
+      "technicalSolution": "Technical Solution",
+      "architectureDecisions": "Architecture Decisions",
+      "technologyStack": "Technology Stack",
+      "resultsImpact": "Results & Impact"
+    },
+    "client": "Client",
+    "keyOutcomes": "Key Outcomes",
+    "decision": "Decision {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Signal Lost",
+      "title": "Page Not Found",
+      "description": "The route you requested does not exist or has moved. Let's get you back to a valid Horizon Tech endpoint.",
+      "requestedPath": "Requested path",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Resolving route graph... failed",
+        "line2": "Reason: no matching route module",
+        "line3": "Fallback protocol engaged",
+        "line4": "Use one of the shortcuts below to continue"
+      },
+      "links": {
+        "home": "Homepage",
+        "services": "Services",
+        "blog": "Blog",
+        "caseStudies": "Case Studies"
+      }
+    },
+    "runtime": {
+      "badge": "Runtime Error",
+      "title": "Something Broke On This Page",
+      "description": "An unexpected issue interrupted rendering. You can retry safely, or return to the homepage.",
+      "retry": "Retry",
+      "home": "Back to Homepage",
+      "unknown": "Unknown runtime error"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Blog Management",
+      "subtitle": "Create, edit, and manage your blog posts",
+      "newPost": "New Post",
+      "seedData": "Seed Data",
+      "allPosts": "All Posts",
+      "published": "Published",
+      "draft": "Draft",
+      "featured": "Featured",
+      "setFeatured": "Set Featured",
+      "removeFeatured": "Remove Featured",
+      "table": {
+        "title": "Title",
+        "category": "Category",
+        "status": "Status",
+        "date": "Date",
+        "actions": "Actions"
+      },
+      "empty": {
+        "message": "No blog posts yet. Create your first post or seed sample data.",
+        "seed": "Seed Sample Data",
+        "create": "Create Post"
+      },
+      "delete": {
+        "title": "Delete Post",
+        "confirmation": "Are you sure you want to delete this post? This action cannot be undone.",
+        "delete": "Delete",
+        "cancel": "Cancel"
+      }
+    },
+    "editor": {
+      "bannerHint": "Displayed as a wide banner at the top of the post",
+      "bannerImage": "Banner Image",
+      "coverHint": "Displayed in blog listing cards",
+      "coverImage": "Cover Image",
+      "editSlug": "Edit slug",
+      "posts": "Posts",
+      "publish": "Publish",
+      "update": "Update",
+      "form": {
+        "contentPlaceholder": "Write your post content here...",
+        "excerptPlaceholder": "Brief summary of the post...",
+        "pickDate": "Pick a date",
+        "readTimePlaceholder": "e.g. 5 min read",
+        "titlePlaceholder": "Post title..."
+      },
+      "meta": {
+        "publisher": "Publisher",
+        "unknownAuthor": "Unknown author"
+      },
+      "modes": {
+        "edit": "Edit",
+        "editOnly": "Edit only",
+        "preview": "Preview",
+        "previewOnly": "Preview only",
+        "sideBySide": "Side by side",
+        "split": "Split"
+      },
+      "tags": {
+        "heading": "Tags",
+        "placeholder": "Add a tag..."
+      },
+      "translations": {
+        "auto": "Auto",
+        "autoTranslate": "Auto-translate",
+        "clear": "Clear",
+        "existing": "Existing",
+        "heading": "Translations",
+        "language": "Language",
+        "languages": "Languages",
+        "edit": "Edit",
+        "manual": "Manual",
+        "preview": "Preview",
+        "searchPlaceholder": "Search languages...",
+        "translate": "Translate"
+      }
+    },
+    "caseStudies": {
+      "title": "Case Studies",
+      "subtitle": "Manage case studies and project showcases",
+      "newCaseStudy": "New Case Study",
+      "seedData": "Seed Data",
+      "allCaseStudies": "All Case Studies",
+      "published": "Published",
+      "draft": "Draft",
+      "table": {
+        "title": "Title",
+        "industry": "Industry",
+        "client": "Client",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "empty": {
+        "message": "No case studies yet.",
+        "seed": "Seed Data",
+        "create": "Create First"
+      },
+      "delete": {
+        "title": "Delete Case Study",
+        "confirmation": "Are you sure you want to delete this case study? This action cannot be undone.",
+        "delete": "Delete",
+        "cancel": "Cancel"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Case Studies",
+      "published": "Published",
+      "draft": "Draft",
+      "update": "Update",
+      "create": "Create",
+      "sections": {
+        "basicInfo": "Basic Information",
+        "narrative": "Narrative",
+        "architectureDecisions": "Architecture Decisions",
+        "techStack": "Tech Stack",
+        "results": "Results",
+        "tags": "Tags"
+      },
+      "fields": {
+        "title": "Title",
+        "titlePlaceholder": "Case study title",
+        "slug": "Slug",
+        "slugPlaceholder": "auto-generated-from-title",
+        "client": "Client",
+        "clientPlaceholder": "Client name",
+        "industry": "Industry",
+        "industryPlaceholder": "Select industry",
+        "description": "Description",
+        "descriptionPlaceholder": "Brief description (shown on cards)",
+        "executiveSummary": "Executive Summary",
+        "executiveSummaryPlaceholder": "High-level overview of the engagement",
+        "challenge": "Challenge",
+        "challengePlaceholder": "What problem did the client face?",
+        "solution": "Solution",
+        "solutionPlaceholder": "How was the problem solved?",
+        "decision": "Decision",
+        "decisionPlaceholder": "What was decided",
+        "rationale": "Rationale",
+        "rationalePlaceholder": "Why this approach was chosen",
+        "metric": "Metric",
+        "metricPlaceholder": "e.g. Settlement Latency",
+        "value": "Value",
+        "valuePlaceholder": "e.g. -63% or 4.8h -> 11m",
+        "resultDescription": "Description",
+        "resultDescriptionPlaceholder": "What this result means",
+        "techPlaceholder": "Add technology (press Enter)",
+        "tagPlaceholder": "Add tag (press Enter)"
+      },
+      "add": "Add",
+      "noArchDecisions": "No architecture decisions added yet.",
+      "noResults": "No results added yet.",
+      "decisionLabel": "Decision {{number}}",
+      "resultLabel": "Result {{number}}",
+      "controls": {
+        "published": "Published",
+        "publishedDescription": "Make this case study publicly visible",
+        "featured": "Featured",
+        "featuredDescription": "Highlight this case study"
+      }
+    },
+    "imageCrop": {
+      "apply": "Apply",
+      "cancel": "Cancel",
+      "cropTitle": "Crop Image",
+      "dropText": "Drop an image here or click to upload",
+      "flipHorizontal": "Flip horizontal",
+      "flipVertical": "Flip vertical",
+      "replace": "Replace",
+      "reset": "Reset",
+      "rotateLeft": "Rotate left",
+      "rotateRight": "Rotate right",
+      "uploading": "Uploading...",
+      "toast": {
+        "invalidFile": "Invalid file",
+        "invalidFileDesc": "Please upload a valid image file.",
+        "uploadFailed": "Upload failed",
+        "uploadFailedDesc": "Something went wrong. Please try again.",
+        "uploaded": "Image uploaded",
+        "uploadedDesc": "Your image has been uploaded successfully."
+      }
+    }
+  }
+}

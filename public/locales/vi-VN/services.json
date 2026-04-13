@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Bắt đầu",
+    "ctaSecondary": "Đặt lịch tư vấn"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Phát triển phần mềm doanh nghiệp",
+      "description": "Các ứng dụng doanh nghiệp toàn diện với các khuôn khổ hiện đại, kiến trúc ưu tiên API và khả năng mở rộng trên đám mây."
+    },
+    "sections": {
+      "problem": {
+        "title": "Đóng khung vấn đề kinh doanh",
+        "subtitle": "Nơi các chương trình doanh nghiệp mất tốc độ, ngân sách và sự liên kết chiến lược"
+      },
+      "approach": {
+        "title": "Phương pháp kỹ thuật",
+        "subtitle": "Cách chúng tôi biến các yêu cầu mơ hồ thành nền tảng sẵn sàng sản xuất"
+      },
+      "principles": {
+        "title": "Nguyên tắc kiến trúc",
+        "subtitle": "Các quyết định thiết kế giúp hệ thống doanh nghiệp có thể bảo trì trên quy mô lớn"
+      },
+      "capabilities": {
+        "title": "Những gì chúng tôi xây dựng",
+        "subtitle": "Khả năng phát triển phần mềm toàn diện"
+      },
+      "technology": {
+        "title": "Ngăn xếp công nghệ của chúng tôi",
+        "subtitle": "Các công nghệ hiện đại, đã được chứng minh để phân phối doanh nghiệp"
+      },
+      "breakdown": {
+        "title": "Phân tích dịch vụ",
+        "subtitle": "Một lộ trình có cấu trúc từ khám phá đến phân phối sản xuất ổn định"
+      }
+    },
+    "problem": {
+      "overview": "Các nhóm doanh nghiệp thường thực hiện quy trình làm việc quan trọng trên các hệ thống phân mảnh, tạo ra thời gian thực hiện lâu, dữ liệu không nhất quán và phối hợp thủ công tốn kém giữa các bộ phận.",
+      "painPointsTitle": "Nỗi đau kinh doanh lặp đi lặp lại",
+      "impactSignalsTitle": "Những gì các nhà lãnh đạo thường quan sát",
+      "painPoints": [
+        "Cam kết phân phối bị trượt vì các phần phụ thuộc giữa các nhóm không được quản lý",
+        "Logic kinh doanh cốt lõi được nhân đôi trên các kênh và sản phẩm",
+        "Tích hợp cũ khiến việc ra mắt tính năng mới có rủi ro cao và chậm"
+      ],
+      "impactSignals": [
+        "Thông lượng lộ trình giảm trong khi chi tiêu kỹ thuật tăng",
+        "Các lỗi đối mặt với khách hàng tăng lên trong thời gian phát hành",
+        "Ra quyết định chậm lại do báo cáo hoạt động không nhất quán"
+      ]
+    },
+    "approach": {
+      "overview": "Chúng tôi thực hiện với khám phá kiến trúc ưu tiên, phân phối theo hợp đồng và kỹ thuật phát hành có kiểm soát để giá trị kinh doanh được vận chuyển với mức tăng có thể dự đoán được.",
+      "pillars": [
+        {
+          "title": "Mô hình hóa tên miền và ngữ cảnh giới hạn",
+          "detail": "Chúng tôi ánh xạ các miền để xóa ranh giới dịch vụ để giảm sự kết hợp giữa các nhóm và làm rõ quyền sở hữu."
+        },
+        {
+          "title": "Chiến lược tích hợp ưu tiên API",
+          "detail": "Chúng tôi xác định hợp đồng ổn định sớm, cho phép phát triển song song và tích hợp an toàn hơn với các hệ thống doanh nghiệp."
+        },
+        {
+          "title": "Quy trình phân phối lũy tiến",
+          "detail": "Chúng tôi sử dụng cờ tính năng, triển khai theo giai đoạn và cổng chất lượng để phát hành nhanh chóng mà không làm mất ổn định sản xuất."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Các quyết định kiến trúc của chúng tôi ưu tiên tuổi thọ, khả năng hoạt động và quyền sở hữu rõ ràng để các nền tảng vẫn có thể thích ứng khi phạm vi kinh doanh phát triển.",
+      "items": [
+        {
+          "title": "Ranh giới dịch vụ mô-đun",
+          "detail": "Các chức năng được đóng gói xung quanh các lĩnh vực kinh doanh để giữ cho tác động thay đổi được bản địa hóa."
+        },
+        {
+          "title": "Tích hợp theo hướng sự kiện",
+          "detail": "Quy trình làm việc không đồng bộ được sử dụng khi có khả năng chịu độ trễ để cải thiện khả năng phục hồi và tách rời hệ thống."
+        },
+        {
+          "title": "Khả năng quan sát theo thiết kế",
+          "detail": "Theo dõi, chỉ số và nhật ký có cấu trúc được xác định trước để hỗ trợ hoạt động đáng tin cậy và quản trị SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Ứng dụng web tùy chỉnh",
+      "Phát triển ứng dụng di động",
+      "Phát triển và tích hợp API",
+      "Kiến trúc Microservices",
+      "Giải pháp Cloud-Native",
+      "Hiện đại hóa hệ thống cũ"
+    ],
+    "technologies": [
+      {
+        "name": "Phản ứng",
+        "category": "Giao diện người dùng",
+        "icon": "Phản ứng"
+      },
+      {
+        "name": "Node.js",
+        "category": "Phần phụ trợ",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Phần phụ trợ",
+        "icon": "Dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Phần phụ trợ",
+        "icon": "con trăn"
+      },
+      {
+        "name": "Tập lệnh kiểu",
+        "category": "Ngôn ngữ",
+        "icon": "Chữ đánh máy"
+      },
+      {
+        "name": "Đồ thịQL",
+        "category": "API",
+        "icon": "Đồ họaQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Cơ sở dữ liệu",
+        "icon": "POSTGRESQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Cơ sở dữ liệu",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Khám phá & Kiến trúc",
+        "summary": "Chúng tôi lập bản đồ các ưu tiên kinh doanh, hạn chế kỹ thuật và kiến trúc mục tiêu trước khi bắt đầu triển khai.",
+        "deliverables": [
+          "Hội thảo căn chỉnh sản phẩm và yêu cầu",
+          "Bản thiết kế kiến trúc giải pháp",
+          "Kế hoạch giao hàng dựa trên mốc"
+        ]
+      },
+      {
+        "title": "Xây dựng và tích hợp",
+        "summary": "Nhóm của chúng tôi triển khai song song các tính năng cốt lõi, lớp tích hợp và bảo vệ chất lượng.",
+        "deliverables": [
+          "Phát triển tính năng trong sprint lặp đi lặp lại",
+          "Tích hợp API và bên thứ ba",
+          "Kiểm tra tự động và kiểm tra mức độ sẵn sàng phát hành"
+        ]
+      },
+      {
+        "title": "Ra mắt & Tiến hóa",
+        "summary": "Sau khi đi vào hoạt động, chúng tôi ổn định hoạt động và xác định chu kỳ cải tiến tiếp theo dựa trên mức sử dụng thực tế.",
+        "deliverables": [
+          "Sổ tay triển khai sản xuất",
+          "Điều chỉnh hiệu suất và độ tin cậy",
+          "Lộ trình sau khi ra mắt và tồn đọng nâng cao"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Sẵn sàng xây dựng ứng dụng tiếp theo của bạn?",
+      "description": "Hãy thiết kế và cung cấp một giải pháp thúc đẩy kết quả kinh doanh có thể đo lường được.",
+      "button": "Bắt đầu dự án của bạn"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML và Business Intelligence",
+      "description": "Từ các mô hình dự đoán đến bảng điều hành, chúng tôi xây dựng các hệ thống AI/BI hoàn chỉnh hỗ trợ các quyết định trên quy mô lớn."
+    },
+    "sections": {
+      "problem": {
+        "title": "Đóng khung vấn đề kinh doanh",
+        "subtitle": "Tại sao các tổ chức giàu dữ liệu vẫn phải vật lộn để đưa ra quyết định tự tin"
+      },
+      "approach": {
+        "title": "Phương pháp kỹ thuật",
+        "subtitle": "Cách chúng tôi vận hành các sản phẩm dữ liệu, mô hình ML và quy trình làm việc BI"
+      },
+      "principles": {
+        "title": "Nguyên tắc kiến trúc",
+        "subtitle": "Các mẫu kiến trúc dữ liệu và mô hình cho thông tin quyết định đáng tin cậy"
+      },
+      "capabilities": {
+        "title": "Năng lực của chúng tôi",
+        "subtitle": "Các giải pháp AI, ML và BI toàn diện"
+      },
+      "technology": {
+        "title": "Ngăn xếp công nghệ của chúng tôi",
+        "subtitle": "Các công cụ hàng đầu trong ngành cho dữ liệu và AI"
+      },
+      "breakdown": {
+        "title": "Phân tích dịch vụ",
+        "subtitle": "Cách chúng tôi chuyển từ dữ liệu phân mảnh sang thông tin cấp sản xuất"
+      }
+    },
+    "problem": {
+      "overview": "Các tổ chức thường thu thập khối lượng lớn dữ liệu nhưng không thể chuyển nó thành dự báo đáng tin cậy, quyết định hoạt động hoặc hành động kinh doanh có thể đo lường được.",
+      "painPointsTitle": "Nỗi đau kinh doanh lặp đi lặp lại",
+      "impactSignalsTitle": "Những gì các nhà lãnh đạo thường quan sát",
+      "painPoints": [
+        "Logic báo cáo khác nhau giữa các nhóm, dẫn đến các câu chuyện KPI mâu thuẫn",
+        "Các mô hình vẫn đang trong quá trình thử nghiệm và không bao giờ tiếp cận quy trình sản xuất",
+        "Các vấn đề về chất lượng dữ liệu làm suy yếu niềm tin vào bảng điều khiển phân tích và điều hành"
+      ],
+      "impactSignals": [
+        "Chu kỳ quyết định chậm lại vì các nhóm tranh luận về tính hợp lệ của dữ liệu thay vì hành động",
+        "Độ chính xác của dự báo và lập kế hoạch vẫn không nhất quán qua từng quý",
+        "Các khoản đầu tư phân tích cho thấy mức độ chấp nhận thấp bên ngoài các nhóm phân tích chuyên biệt"
+      ]
+    },
+    "approach": {
+      "overview": "Chúng tôi cung cấp nền tảng AI và BI làm hệ thống sản xuất, ghép nối kỹ thuật dữ liệu, hoạt động vòng đời mô hình và tích hợp quy trình làm việc quyết định.",
+      "pillars": [
+        {
+          "title": "Nền tảng sản phẩm dữ liệu",
+          "detail": "Các sản phẩm dữ liệu phù hợp với miền thiết lập đầu vào có thể tái sử dụng, được quản lý và chất lượng cao cho phân tích và ML."
+        },
+        {
+          "title": "Tự động hóa vòng đời MLOps",
+          "detail": "Đào tạo, triển khai, giám sát và kiểm soát trôi dạt được tự động hóa để giữ cho các mô hình đáng tin cậy trong sản xuất."
+        },
+        {
+          "title": "Tích hợp quy trình làm việc quyết định",
+          "detail": "Thông tin chi tiết được nhúng vào các công cụ hoạt động và bảng thông tin để các nhóm hành động dựa trên thông tin trong các quy trình hàng ngày."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Kiến trúc AI/BI của chúng tôi ưu tiên dữ liệu đáng tin cậy, mô hình có thể giải thích và các mẫu truy cập được quản lý trong toàn doanh nghiệp.",
+      "items": [
+        {
+          "title": "Định nghĩa số liệu đơn",
+          "detail": "KPI quan trọng được xác định một lần thông qua các mô hình ngữ nghĩa được chia sẻ để loại bỏ logic báo cáo xung đột."
+        },
+        {
+          "title": "Kiểm soát độ tin cậy của mô hình",
+          "detail": "Ngưỡng hiệu suất, cơ chế phát hiện trôi và khôi phục bảo vệ chất lượng quyết định trong sản xuất."
+        },
+        {
+          "title": "Bảo mật & Quản trị theo thiết kế",
+          "detail": "Dòng dữ liệu, truy cập dựa trên vai trò và các biện pháp kiểm soát sẵn sàng kiểm tra được nhúng trong mọi quy trình."
+        }
+      ]
+    },
+    "capabilities": [
+      "Mô hình và quy trình học máy",
+      "Bảng thông tin & Báo cáo Power BI",
+      "Phân tích dự đoán",
+      "Truyền dữ liệu thời gian thực",
+      "Giải pháp kho dữ liệu"
+    ],
+    "technologies": [
+      {
+        "name": "Vải Microsoft",
+        "category": "Nền tảng",
+        "icon": "microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Kho dữ liệu",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Kỹ thuật dữ liệu",
+        "icon": "Gạch dữ liệu"
+      },
+      {
+        "name": "Azure ML",
+        "category": "Nền tảng ML",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Dòng TensorFlow",
+        "category": "Khung ML",
+        "icon": "Dòng TensorFlow"
+      },
+      {
+        "name": "Ngọn đuốc Py",
+        "category": "Khung ML",
+        "icon": "ngọn đuốc"
+      },
+      {
+        "name": "Tableau",
+        "category": "Phân tích",
+        "icon": "Hoạt cảnh"
+      },
+      {
+        "name": "Tia lửa Apache",
+        "category": "Chế biến",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Ngôn ngữ",
+        "icon": "POSTGRESQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Nền tảng dữ liệu",
+        "summary": "Chúng tôi kiểm tra nguồn, xác định hợp đồng dữ liệu và thiết lập quản trị để mọi mô hình đều bắt đầu với đầu vào đáng tin cậy.",
+        "deliverables": [
+          "Đánh giá nguồn dữ liệu và chất lượng",
+          "Kỹ thuật tính năng và lập kế hoạch lược đồ",
+          "Đường cơ sở bảo mật và quản trị"
+        ]
+      },
+      {
+        "title": "Mô hình & Phân phối thông tin chi tiết",
+        "summary": "Chúng tôi xây dựng các mô hình và bảng điều khiển quyết định gắn liền với các câu hỏi và KPI kinh doanh có thể đo lường được.",
+        "deliverables": [
+          "Phát triển và xác thực mô hình",
+          "Bảng điều khiển điều hành và báo cáo hoạt động",
+          "Tích hợp quy trình làm việc quyết định"
+        ]
+      },
+      {
+        "title": "MLOps & Áp dụng",
+        "summary": "Chúng tôi vận hành triển khai, giám sát và hỗ trợ nhóm để giữ cho kết quả đáng tin cậy theo thời gian.",
+        "deliverables": [
+          "Quy trình triển khai mô hình tự động",
+          "Độ trôi, độ chính xác và giám sát sử dụng",
+          "Bàn giao đội ngũ và cẩm nang vận hành"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Chuyển đổi dữ liệu của bạn thành thông tin chi tiết",
+      "description": "Biến dữ liệu phân mảnh thành thông tin rõ ràng, có thể hành động.",
+      "button": "Bắt đầu hành trình của bạn"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Kiến trúc và cơ sở hạ tầng đám mây",
+      "description": "Nền tảng đa đám mây, kiến trúc linh hoạt và cơ sở hạ tầng có thể mở rộng được thiết kế để tăng trưởng lâu dài."
+    },
+    "sections": {
+      "problem": {
+        "title": "Đóng khung vấn đề kinh doanh",
+        "subtitle": "Tại sao các sáng kiến đám mây bị đình trệ sau làn sóng di chuyển đầu tiên"
+      },
+      "approach": {
+        "title": "Phương pháp kỹ thuật",
+        "subtitle": "Cách chúng tôi xây dựng nền tảng đám mây an toàn, có thể mở rộng với rủi ro di chuyển được kiểm soát"
+      },
+      "principles": {
+        "title": "Nguyên tắc kiến trúc",
+        "subtitle": "Các quyết định của nền tảng cân bằng giữa sự linh hoạt, khả năng phục hồi và quản trị"
+      },
+      "capabilities": {
+        "title": "Dịch vụ đám mây",
+        "subtitle": "Xây dựng, triển khai và mở rộng quy mô trên đám mây"
+      },
+      "technology": {
+        "title": "Chuyên môn đa đám mây",
+        "subtitle": "Giải pháp đám mây bất khả tri nền tảng"
+      },
+      "breakdown": {
+        "title": "Phân tích dịch vụ",
+        "subtitle": "Trình tự rõ ràng để thiết kế, di chuyển và vận hành các nền tảng đám mây"
+      }
+    },
+    "problem": {
+      "overview": "Nhiều tổ chức hoàn thành việc di chuyển đám mây ban đầu nhưng vẫn hoạt động như các nhóm tại chỗ, với khả năng hiển thị kém, kiểm soát không nhất quán và chi tiêu tăng lên.",
+      "painPointsTitle": "Nỗi đau kinh doanh lặp đi lặp lại",
+      "impactSignalsTitle": "Những gì các nhà lãnh đạo thường quan sát",
+      "painPoints": [
+        "Khối lượng công việc được di chuyển mà không có các biện pháp kiểm soát mạng và bảo mật tiêu chuẩn",
+        "Chi phí đám mây tăng nhanh hơn giá trị kinh doanh mang lại",
+        "Cung cấp môi trường vẫn thủ công và không nhất quán giữa các nhóm"
+      ],
+      "impactSignals": [
+        "Các sự cố thường xuyên do sai lệch cấu hình giữa các môi trường",
+        "Mức độ sẵn sàng kiểm toán giảm do thực tiễn quản trị rời rạc",
+        "Thời gian thực hiện cơ sở hạ tầng trì hoãn các sáng kiến sản phẩm và dữ liệu"
+      ]
+    },
+    "approach": {
+      "overview": "Chúng tôi thiết kế các nền tảng đám mây dưới dạng sản phẩm, sử dụng tự động hóa cơ sở hạ tầng, rào chắn chính sách và làn sóng di chuyển phù hợp với mức độ quan trọng của doanh nghiệp.",
+      "pillars": [
+        {
+          "title": "Landing Zone dưới dạng mã",
+          "detail": "Các đường cơ sở về danh tính, mạng, bảo mật và chính sách được hệ thống hóa để có khả năng lặp lại và khả năng kiểm tra."
+        },
+        {
+          "title": "Chiến lược di chuyển dựa trên sóng",
+          "detail": "Khối lượng công việc di chuyển theo các giai đoạn được kiểm soát với trình tự nhận biết phần phụ thuộc và sẵn sàng khôi phục."
+        },
+        {
+          "title": "Vòng lặp hoạt động SRE + FinOps",
+          "detail": "Các chỉ số độ tin cậy và tính kinh tế đơn vị được xem xét cùng nhau để cải thiện cả thời gian hoạt động và hiệu quả chi tiêu."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Mô hình kiến trúc của chúng tôi ưu tiên cơ sở hạ tầng khai báo, quyền truy cập đặc quyền tối thiểu và các nền tảng có khả năng kết hợp hỗ trợ phân phối sản phẩm nhanh chóng.",
+      "items": [
+        {
+          "title": "Các mẫu cơ sở hạ tầng bất biến",
+          "detail": "Môi trường được xây dựng lại từ mã có phiên bản để giảm thiểu sự trôi dạt và đơn giản hóa việc khôi phục hoạt động."
+        },
+        {
+          "title": "Đường cơ sở bảo mật theo mặc định",
+          "detail": "Kiểm soát truy cập không tin cậy và thực thi chính sách được nhúng trong mọi vòng đời môi trường."
+        },
+        {
+          "title": "Khả năng phục hồi thông qua phân phối",
+          "detail": "Khối lượng công việc quan trọng được thiết kế để có khả năng chịu lỗi đa vùng hoặc đa khu vực khi tác động kinh doanh yêu cầu."
+        }
+      ]
+    },
+    "capabilities": [
+      "Chiến lược và triển khai đa đám mây",
+      "Điều phối vùng chứa (Kubernetes)",
+      "Điện toán phi máy chủ",
+      "Dịch vụ di chuyển đám mây",
+      "Kiến trúc sẵn sàng cao"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Đám mây",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "AWS",
+        "category": "Đám mây",
+        "icon": "AmazonWebServices"
+      },
+      {
+        "name": "GCP",
+        "category": "Đám mây",
+        "icon": "Đám mây Google"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Phối hợp",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Thùng chứa",
+        "icon": "docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Mẫu ARM",
+        "category": "IaC",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Sự hình thành đám mây",
+        "category": "IaC",
+        "icon": "AmazonWebServices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Kiến trúc & Landing Zone",
+        "summary": "Chúng tôi xác định trạng thái mục tiêu, lan can và tiêu chuẩn nền tảng cơ sở trước khi khối lượng công việc di chuyển.",
+        "deliverables": [
+          "Thiết kế kiến trúc đám mây mục tiêu",
+          "Đường cơ sở về danh tính, mạng và bảo mật",
+          "Chi phí và biện pháp bảo vệ tuân thủ"
+        ]
+      },
+      {
+        "title": "Di chuyển và xây dựng nền tảng",
+        "summary": "Chúng tôi thực hiện các đợt di chuyển và thiết lập các thành phần nền tảng gốc đám mây với tự động hóa lặp lại.",
+        "deliverables": [
+          "Trình tự di chuyển khối lượng công việc",
+          "Thiết lập bộ chứa và nền tảng phi máy chủ",
+          "Mô-đun cơ sở hạ tầng dưới dạng mã"
+        ]
+      },
+      {
+        "title": "Độ tin cậy & FinOps",
+        "summary": "Chúng tôi cải thiện độ tin cậy hoạt động và liên tục tối ưu hóa chi tiêu đám mây dựa trên phép đo từ xa trực tiếp.",
+        "deliverables": [
+          "SLO, quy trình giám sát và sự cố",
+          "Khả năng phục hồi và xác thực phục hồi sau thảm họa",
+          "Tối ưu hóa chi phí, tồn đọng và nhịp quản trị"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Mở rộng cơ sở hạ tầng của bạn",
+      "description": "Xây dựng nền tảng đám mây có khả năng phục hồi dưới tải thực tế.",
+      "button": "Lập kế hoạch chiến lược đám mây của bạn"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Kỹ thuật nền tảng",
+      "description": "Quy trình phân phối tự động, khả năng quan sát và thực hành nền tảng giúp cải thiện tốc độ mà không làm giảm độ tin cậy."
+    },
+    "sections": {
+      "problem": {
+        "title": "Đóng khung vấn đề kinh doanh",
+        "subtitle": "Tại sao tốc độ phân phối giảm khi độ phức tạp của nền tảng tăng lên"
+      },
+      "approach": {
+        "title": "Phương pháp kỹ thuật",
+        "subtitle": "Cách chúng tôi chuẩn hóa quy trình phân phối mà không làm chậm nhóm sản phẩm"
+      },
+      "principles": {
+        "title": "Nguyên tắc kiến trúc",
+        "subtitle": "Các mẫu kỹ thuật nền tảng giúp mở rộng độ tin cậy và quyền tự chủ của nhóm"
+      },
+      "capabilities": {
+        "title": "Dịch vụ DevOps",
+        "subtitle": "Tự động hóa, giám sát và tối ưu hóa vòng đời giao hàng của bạn"
+      },
+      "technology": {
+        "title": "Công cụ & nền tảng DevOps",
+        "subtitle": "Chuỗi công cụ DevOps tốt nhất"
+      },
+      "breakdown": {
+        "title": "Phân tích dịch vụ",
+        "subtitle": "Lộ trình thực tế từ tắc nghẽn phân phối đến luồng phát hành có độ tin cậy cao"
+      }
+    },
+    "problem": {
+      "overview": "Các tổ chức thường đầu tư vào công cụ CI/CD nhưng vẫn phải vật lộn với các bản phát hành không ổn định, phê duyệt chậm và quyền sở hữu phân mảnh trên các môi trường.",
+      "painPointsTitle": "Nỗi đau kinh doanh lặp đi lặp lại",
+      "impactSignalsTitle": "Những gì các nhà lãnh đạo thường quan sát",
+      "painPoints": [
+        "Định nghĩa quy trình khác nhau tùy theo nhóm, tạo ra các cổng chất lượng không nhất quán",
+        "Phê duyệt triển khai thủ công làm trì hoãn bản sửa lỗi nóng và lịch trình phát hành tính năng",
+        "Sự cố vận hành tái diễn vì phép đo từ xa không đầy đủ hoặc bị tách biệt"
+      ],
+      "impactSignals": [
+        "Thời gian thực hiện các thay đổi tiếp tục tăng mặc dù chi tiêu tự động hóa",
+        "Tỷ lệ thất bại thay đổi tăng đột biến trong thời gian giao hàng số lượng lớn",
+        "Năng suất của nhà phát triển giảm do ma sát công cụ và chuyển đổi ngữ cảnh"
+      ]
+    },
+    "approach": {
+      "overview": "Chúng tôi thiết lập mô hình nền tảng nhà phát triển nội bộ với các mẫu quy trình có thể tái sử dụng, quản trị theo chính sách và khả năng quan sát toàn bộ vòng đời.",
+      "pillars": [
+        {
+          "title": "Mẫu Golden Path Pipeline",
+          "detail": "Bản thiết kế CI/CD có thể tái sử dụng chuẩn hóa quy trình xây dựng, kiểm tra, kiểm tra bảo mật và triển khai."
+        },
+        {
+          "title": "API nền tảng & Tự phục vụ",
+          "detail": "Teams cung cấp môi trường và phát hành cơ sở hạ tầng thông qua giao diện tự phục vụ được kiểm soát."
+        },
+        {
+          "title": "Vòng phản hồi độ tin cậy",
+          "detail": "Xu hướng sự cố, tình trạng SLO và phép đo từ xa triển khai cung cấp thông tin cho các cải tiến kiến trúc và quy trình liên tục."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Kiến trúc DevOps của chúng tôi điều chỉnh tốc độ phân phối với quản trị bằng cách tự động hóa các biện pháp kiểm soát và giảm thiểu công việc vận hành một lần.",
+      "items": [
+        {
+          "title": "Mọi thứ dưới dạng mã phiên bản",
+          "detail": "Quy trình, cơ sở hạ tầng và quy tắc chính sách được quản lý trong kiểm soát nguồn để có khả năng kiểm tra và lặp lại."
+        },
+        {
+          "title": "Xác minh lũy tiến",
+          "detail": "Kiểm tra chất lượng, bảo mật và hiệu suất được phân lớp qua các giai đoạn để phát hiện rủi ro sớm hơn."
+        },
+        {
+          "title": "Chia sẻ trách nhiệm nền tảng",
+          "detail": "Nhóm nền tảng cung cấp khả năng trải nhựa trong khi nhóm sản phẩm vẫn giữ quyền sở hữu phân phối."
+        }
+      ]
+    },
+    "capabilities": [
+      "Thiết kế đường ống CI / CD",
+      "Cơ sở hạ tầng dưới dạng mã",
+      "Kiểm tra tự động",
+      "Tự động hóa triển khai",
+      "Giám sát và khả năng quan sát"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Nền tảng",
+        "icon": "azuredevOps"
+      },
+      {
+        "name": "Hành động GitHub",
+        "category": "CI/CD",
+        "icon": "Thao tác githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Mũ",
+        "category": "Bao bì",
+        "icon": "Mũ"
+      },
+      {
+        "name": "Ansible",
+        "category": "Tự động hóa",
+        "icon": "có thể"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Giám sát",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Khả năng quan sát",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Đánh giá nền tảng",
+        "summary": "Chúng tôi đánh giá chuỗi phân phối phần mềm hiện tại của bạn để xác định các điểm rủi ro và hạn chế tốc độ.",
+        "deliverables": [
+          "Bản đồ quy trình phân phối trạng thái hiện tại",
+          "Phân tích tắc nghẽn đường ống",
+          "Lộ trình trưởng thành DevOps mục tiêu"
+        ]
+      },
+      {
+        "title": "Xây dựng đường ống và tự động hóa",
+        "summary": "Chúng tôi triển khai CI/CD đáng tin cậy, cổng chất lượng và tự động hóa cơ sở hạ tầng để phát hành nhất quán.",
+        "deliverables": [
+          "Mẫu CI/CD có thể tái sử dụng",
+          "Tự động hóa cơ sở hạ tầng và môi trường",
+          "Kiểm tra tự động và kiểm soát phát hành"
+        ]
+      },
+      {
+        "title": "Vận hành và cải thiện",
+        "summary": "Chúng tôi thiết lập các vòng quản trị và khả năng quan sát hỗ trợ cải tiến phân phối liên tục.",
+        "deliverables": [
+          "Giám sát bảng điều khiển và chính sách cảnh báo",
+          "Phát hành cẩm nang quản trị và sự cố",
+          "Các chỉ số và đánh giá cải tiến liên tục"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Tăng tốc độ phân phối của bạn",
+      "description": "Giảm ma sát phát hành và cải thiện độ tin cậy với các phương pháp DevOps hoàn thiện.",
+      "button": "Chuyển đổi quy trình của bạn"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Chuyển đổi kỹ thuật số & Chiến lược",
+      "description": "Tư vấn chiến lược và hỗ trợ thực thi để hiện đại hóa nền tảng, nhóm và mô hình hoạt động."
+    },
+    "sections": {
+      "problem": {
+        "title": "Đóng khung vấn đề kinh doanh",
+        "subtitle": "Nơi các chương trình chuyển đổi mất động lực và sự tự tin của người điều hành"
+      },
+      "capabilities": {
+        "title": "Dịch vụ tư vấn",
+        "subtitle": "Hướng dẫn chiến lược cho thành công kỹ thuật số"
+      },
+      "approach": {
+        "title": "Phương pháp kỹ thuật",
+        "subtitle": "Cách chúng tôi chuyển đổi chiến lược thành thay đổi có thể thực thi, được hỗ trợ bởi công nghệ"
+      },
+      "principles": {
+        "title": "Nguyên tắc kiến trúc",
+        "subtitle": "Mô hình hoạt động và lựa chọn nền tảng bảo vệ kết quả chuyển đổi"
+      },
+      "technology": {
+        "title": "Ngăn xếp công nghệ",
+        "subtitle": "Các nền tảng và khuôn khổ chúng tôi sử dụng để vận hành chuyển đổi"
+      },
+      "breakdown": {
+        "title": "Phân tích dịch vụ",
+        "subtitle": "Chuyển đổi có cấu trúc từ xác định chiến lược sang giá trị kinh doanh có thể đo lường được"
+      }
+    },
+    "problem": {
+      "overview": "Các sáng kiến kỹ thuật số thường bắt đầu với mục đích mạnh mẽ nhưng không thể chuyển đổi thành kết quả phân phối do quyền sở hữu không rõ ràng, công cụ bị ngắt kết nối và các ưu tiên cạnh tranh.",
+      "painPointsTitle": "Nỗi đau kinh doanh lặp đi lặp lại",
+      "impactSignalsTitle": "Những gì các nhà lãnh đạo thường quan sát",
+      "painPoints": [
+        "Lộ trình chuyển đổi được xác định nhưng không được chuyển thành quản trị phân phối",
+        "Các ưu tiên kinh doanh và kỹ thuật khác nhau sau các chu kỳ lập kế hoạch ban đầu",
+        "Các mô hình hoạt động cũ ngăn chặn việc áp dụng các phương pháp phân phối sản phẩm hiện đại"
+      ],
+      "impactSignals": [
+        "Chi tiêu của chương trình tăng trong khi biến động KPI chiến lược vẫn đi ngang",
+        "Các sáng kiến bỏ lỡ các điểm chuyển giao giữa chiến lược, kiến trúc và thực thi",
+        "Các nhóm trải qua sự mệt mỏi khi thay đổi với giá trị kinh doanh hiện thực hạn chế"
+      ]
+    },
+    "approach": {
+      "overview": "Chúng tôi kết hợp tư vấn chiến lược với kiến trúc phân phối, điều chỉnh thiết kế mô hình hoạt động, khả năng nền tảng và nhịp độ thực thi xung quanh các mục tiêu có thể đo lường được.",
+      "pillars": [
+        {
+          "title": "Ưu tiên dòng giá trị",
+          "detail": "Chúng tôi sắp xếp các sáng kiến dựa trên tác động kinh doanh có thể đo lường được và các ràng buộc phụ thuộc kỹ thuật."
+        },
+        {
+          "title": "Thiết kế mô hình hoạt động mục tiêu",
+          "detail": "Vai trò, quản trị và quyền quyết định được xác định để hỗ trợ thực hiện nhanh hơn giữa các nhóm kinh doanh và công nghệ."
+        },
+        {
+          "title": "Quản trị phân phối danh mục đầu tư",
+          "detail": "Tiến độ chuyển đổi được quản lý thông qua các điểm kiểm tra liên kết KPI và kiểm soát rủi ro cấp danh mục đầu tư."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Kiến trúc chuyển đổi của chúng tôi nhấn mạnh hiện đại hóa gia tăng và trách nhiệm giải trình rõ ràng, tránh viết lại gián đoạn mà không có lý do kinh doanh.",
+      "items": [
+        {
+          "title": "Điều chỉnh năng lực kinh doanh",
+          "detail": "Những thay đổi về công nghệ được tổ chức xung quanh các khả năng ánh xạ trực tiếp đến doanh thu, chất lượng dịch vụ hoặc hiệu quả chi phí."
+        },
+        {
+          "title": "Chiến lược nền tảng có thể kết hợp",
+          "detail": "Các thành phần nền tảng được chọn để có khả năng tương tác nhằm hỗ trợ di chuyển theo từng giai đoạn và thích ứng nhanh hơn."
+        },
+        {
+          "title": "Quản trị với Nhịp phân phối",
+          "detail": "Các diễn đàn quyết định và điểm kiểm soát được nhúng trong chu kỳ nước rút và hàng quý, không được coi là các đường đi quan liêu riêng biệt."
+        }
+      ]
+    },
+    "capabilities": [
+      "Lộ trình chuyển đổi số",
+      "Phát triển chiến lược công nghệ",
+      "Khung áp dụng đám mây",
+      "Tối ưu hóa quy trình",
+      "Quản lý thay đổi"
+    ],
+    "technologies": [
+      {
+        "name": "Vùng đích Azure",
+        "category": "Nền tảng đám mây",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Vải Microsoft",
+        "category": "Nền tảng dữ liệu",
+        "icon": "microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Quyết định thông minh",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Nền tảng điện",
+        "category": "Mã thấp",
+        "icon": "microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Hợp tác",
+        "icon": "microsoftsharepoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Liên kết chiến lược",
+        "summary": "Chúng tôi điều chỉnh các ưu tiên của lãnh đạo và các mục tiêu kỹ thuật số để tạo ra một hướng chuyển đổi chung.",
+        "deliverables": [
+          "Mục tiêu chuyển đổi và tiêu chí thành công",
+          "Đánh giá mức độ trưởng thành và khoảng cách năng lực",
+          "Danh mục sáng kiến ưu tiên"
+        ]
+      },
+      {
+        "title": "Kế hoạch chi tiết thực hiện",
+        "summary": "Chúng tôi xác định mô hình hoạt động mục tiêu, tiêu chuẩn kiến trúc và trình tự triển khai theo từng giai đoạn.",
+        "deliverables": [
+          "Mô hình hoạt động và thiết kế quản trị",
+          "Tiêu chuẩn kiến trúc công nghệ và quy trình",
+          "Lộ trình thực hiện theo từng giai đoạn"
+        ]
+      },
+      {
+        "title": "Thay đổi và hiện thực hóa giá trị",
+        "summary": "Chúng tôi thúc đẩy việc áp dụng, theo dõi chuyển động KPI và tinh chỉnh các sáng kiến dựa trên kết quả phân phối.",
+        "deliverables": [
+          "Kế hoạch áp dụng và hỗ trợ",
+          "Nhịp đo KPI",
+          "Tồn đọng tối ưu hóa hàng quý"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Bắt đầu hành trình chuyển đổi của bạn",
+      "description": "Điều hướng thay đổi với các ưu tiên rõ ràng và kế hoạch phân phối thiết thực.",
+      "button": "Lên lịch phiên chiến lược"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Điện toán biên",
+      "description": "Các hệ thống được kết nối từ thiết bị đến đám mây, với đường ống đo từ xa và trí tuệ biên cho quy mô công nghiệp."
+    },
+    "sections": {
+      "problem": {
+        "title": "Đóng khung vấn đề kinh doanh",
+        "subtitle": "Tại sao các chương trình thiết bị được kết nối không mở rộng quy mô ngoài việc triển khai thử nghiệm"
+      },
+      "approach": {
+        "title": "Phương pháp kỹ thuật",
+        "subtitle": "Cách chúng tôi thiết kế các hệ thống IoT an toàn, có thể hoạt động từ chương trình cơ sở thiết bị đến API đám mây"
+      },
+      "principles": {
+        "title": "Nguyên tắc kiến trúc",
+        "subtitle": "Quy tắc thiết kế edge-to-cloud cho độ tin cậy, độ trễ và quản trị nhóm"
+      },
+      "capabilities": {
+        "title": "Giải pháp IoT",
+        "subtitle": "Kết nối, giám sát và tối ưu hóa thiết bị của bạn"
+      },
+      "technology": {
+        "title": "Ngăn xếp công nghệ IoT",
+        "subtitle": "Từ phần cứng đến đám mây"
+      },
+      "breakdown": {
+        "title": "Phân tích dịch vụ",
+        "subtitle": "Cách chúng tôi cung cấp các hệ thống được kết nối từ thiết bị biên đến trí tuệ đám mây"
+      }
+    },
+    "problem": {
+      "overview": "Các sáng kiến IoT thường chứng minh tính khả thi về mặt kỹ thuật trong các thí điểm nhưng thất bại trên quy mô lớn do kết nối không đáng tin cậy, kiểm soát đội xe yếu và tích hợp kém với quy trình làm việc của doanh nghiệp.",
+      "painPointsTitle": "Nỗi đau kinh doanh lặp đi lặp lại",
+      "impactSignalsTitle": "Những gì các nhà lãnh đạo thường quan sát",
+      "painPoints": [
+        "Việc tích hợp thiết bị và quản lý vòng đời vẫn được thực hiện thủ công và dễ xảy ra lỗi",
+        "Các đường ống đo từ xa tạo ra dữ liệu hoạt động nhiễu, không đầy đủ hoặc bị trì hoãn",
+        "Các bản cập nhật chương trình cơ sở và lệnh từ xa gây ra rủi ro về an toàn và bảo mật"
+      ],
+      "impactSignals": [
+        "Môi trường thí điểm thành công, nhưng thời gian triển khai sản xuất liên tục bị trượt",
+        "Các nhóm hoạt động hiện trường phản ứng với các sự cố mà không có khả năng hiển thị dự đoán",
+        "Hệ thống kinh doanh không thể sử dụng trí thông minh thiết bị một cách đáng tin cậy trong thời gian thực"
+      ]
+    },
+    "approach": {
+      "overview": "Chúng tôi kiến trúc các nền tảng IoT dưới dạng hệ thống phân tán được kiểm soát, kết hợp các tiêu chuẩn thời gian chạy biên an toàn, nhập theo sự kiện và quản trị hoạt động ở quy mô nhóm.",
+      "pillars": [
+        {
+          "title": "Quản lý vòng đời thiết bị an toàn",
+          "detail": "Cung cấp, nhận dạng, xoay vòng khóa và cập nhật chương trình cơ sở được tự động hóa để giảm rủi ro hoạt động."
+        },
+        {
+          "title": "Kiến trúc đo từ xa theo sự kiện",
+          "detail": "Quy trình phát trực tuyến chuẩn hóa, xác thực và định tuyến các sự kiện thiết bị để phân tích và kiểm soát gần như theo thời gian thực."
+        },
+        {
+          "title": "Máy bay điều khiển hoạt động hạm đội",
+          "detail": "Quy trình giám sát, cảnh báo và lệnh từ xa cung cấp khả năng giám sát đáng tin cậy trên các tài sản phân tán."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Kiến trúc IoT của chúng tôi cân bằng các quyết định biên có độ trễ thấp với quản trị tập trung, khả năng quan sát và tuân thủ bảo mật.",
+      "items": [
+        {
+          "title": "Quyền tự chủ biên với điều phối đám mây",
+          "detail": "Các hoạt động cục bộ quan trọng tiếp tục trong quá trình suy giảm mạng trong khi đồng bộ hóa trạng thái với hệ thống đám mây khi có sẵn."
+        },
+        {
+          "title": "Lược đồ sự kiện theo hợp đồng",
+          "detail": "Các nhóm thiết bị và nền tảng sử dụng lược đồ được quản lý để duy trì tính nhất quán của phép đo từ xa giữa các phiên bản."
+        },
+        {
+          "title": "Bảo mật thiết bị Zero-Trust",
+          "detail": "Xác thực lẫn nhau, đặc quyền tối thiểu và truyền tải được mã hóa được thực thi trên mọi tương tác trên thiết bị."
+        }
+      ]
+    },
+    "capabilities": [
+      "Quản lý thiết bị IoT",
+      "Giải pháp bản sao kỹ thuật số",
+      "Triển khai điện toán biên",
+      "Đo từ xa thời gian thực",
+      "Bảo trì dự đoán"
+    ],
+    "technologies": [
+      {
+        "name": "Trung tâm IoT",
+        "category": "Cổng đám mây",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Bản sao kỹ thuật số",
+        "category": "Mô phỏng",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Điện toán biên",
+        "category": "Cạnh",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Giao thức",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Giao thức",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Phần cứng",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Mâm xôi Pi",
+        "category": "Phần cứng",
+        "icon": "mâm xôipi"
+      },
+      {
+        "name": "Dòng chảy",
+        "category": "DB chuỗi thời gian",
+        "icon": "Dòng chảy"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Chiến lược thiết bị & biên",
+        "summary": "Chúng tôi xác định các mẫu kết nối, tiêu chuẩn thời gian chạy biên và cung cấp bảo mật cho các thiết bị hiện trường.",
+        "deliverables": [
+          "Mô hình kết nối và giới thiệu thiết bị",
+          "Bản thiết kế triển khai và thời gian chạy biên",
+          "Đường cơ sở bảo mật đội xe"
+        ]
+      },
+      {
+        "title": "Đo từ xa và mặt phẳng điều khiển",
+        "summary": "Chúng tôi xây dựng các quy trình ghi lại các sự kiện, mô hình hóa bản sao kỹ thuật số và cho phép quy trình điều khiển từ xa.",
+        "deliverables": [
+          "Thiết kế lược đồ sự kiện và nhập theo thời gian thực",
+          "Triển khai mô hình bản sao kỹ thuật số và tài sản",
+          "Lớp API chỉ huy và điều khiển"
+        ]
+      },
+      {
+        "title": "Hoạt động & Quy mô",
+        "summary": "Chúng tôi vận hành quản lý đội xe và kiểm soát độ tin cậy cho môi trường IoT quy mô sản xuất.",
+        "deliverables": [
+          "Giám sát và cảnh báo nhóm thiết bị",
+          "Bảo trì dự đoán và phát hiện bất thường",
+          "Kế hoạch triển khai và hỗ trợ vòng đời"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kết nối thiết bị của bạn",
+      "description": "Xây dựng các giải pháp IoT đáng tin cậy sẵn sàng cho môi trường sản xuất thực tế.",
+      "button": "Bắt đầu dự án IoT của bạn"
+    }
+  }
+}

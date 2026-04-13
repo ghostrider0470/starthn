@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Nípa wa",
+    "hero": {
+      "titlePrefix": "Kọ imọ-ẹrọ ọla,",
+      "titleHighlight": "Loni",
+      "description": "Horizon Tech d.o.o. jẹ ile-iṣẹ imọ-ẹrọ agbaye ti o jẹ olú ni Sarajevo, fifun awọn solusan sọfitiwia gige-eti si awọn ile-iṣẹ kọja awọn kọnputa mẹta."
+    },
+    "sections": {
+      "mission": {
+        "title": "Iṣẹ apinfunni",
+        "description": "A ṣe iranlọwọ fun awọn ajo lati tan awọn imọran ifẹkufẹ sinu awọn ọja oni-nọmba ti o gbẹkẹle ti o ṣẹda iye iṣowo wiwọn.",
+        "points": [
+          "Ṣe deede ifijiṣẹ imọ-ẹrọ pẹlu awọn abajade iṣowo ti o han gbangba.",
+          "Kọ awọn ọna ṣiṣe igba pipẹ ti o wa ni itọju bi awọn ẹgbẹ ṣe pọ si.",
+          "Ṣe alabaṣepọ pẹkipẹki pẹlu awọn alabaṣepọ lati igbimọ nipasẹ ipaniyan."
+        ]
+      },
+      "expertise": {
+        "title": "Imọye",
+        "description": "Awọn ẹgbẹ multidisciplinary wa darapọ ijinle imọ-ẹrọ pẹlu ero ọja kọja awọn akopọ imọ-ẹrọ igbalode.",
+        "points": [
+          "Ile-iṣẹ wẹẹbu ati imọ-ẹrọ pẹpẹ.",
+          "faaji awọsanma, adaṣe DevOps, ati awọn amayederun ti o lagbara.",
+          "AI / ML ti a lo, awọn iṣan-iṣẹ data, ati awọn ọja ti o ni agbara IoT."
+        ]
+      },
+      "approach": {
+        "title": "Ọna",
+        "description": "A ṣe pẹlu awoṣe ti o han gbangba, iterative ti o jẹ ki ifijiṣẹ jẹ asọtẹlẹ lakoko ti o dinku eewu ọja.",
+        "points": [
+          "Ṣawari: ṣalaye iwọn, awọn ayo, ati awọn iṣiro aṣeyọri ni kutukutu.",
+          "Kọ: ọkọ ni awọn ilosoke ti a fojusi pẹlu awọn losiwajulosehin esi lemọlemọfún.",
+          "Iṣapeye: ṣe atẹle awọn abajade ati mu iṣẹ dara si lori akoko."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Ṣetan lati yi iṣowo rẹ pada?",
+      "description": "Darapọ mọ atokọ ti ndagba ti awọn ile-iṣẹ ti o gbẹkẹle Horizon Tech lati pese awọn solusan imotuntun ati awọn abajade alailẹgbẹ.",
+      "primary": "Bẹrẹ",
+      "secondary": "Wo Awọn itan Aṣeyọri"
+    }
+  },
+  "contact": {
+    "badge": "Kan si",
+    "hero": {
+      "title": "Kan si wa",
+      "description": "Ṣe o ni iṣẹ akanṣe kan ni lokan? A yoo nifẹ lati gbọ lati ọdọ rẹ. Jẹ ki a sọrọ nipa bi a ṣe le ṣe iranlọwọ fun ọ lati mu awọn ero rẹ wa si igbesi aye."
+    },
+    "info": {
+      "title": "Alaye olubasọrọ"
+    },
+    "booking": {
+      "title": "Ṣe iwe ipade kan",
+      "description": "Ṣeto ipe iṣawari ọfẹ iṣẹju 30"
+    },
+    "methods": {
+      "email": {
+        "title": "Imeeli",
+        "description": "Fi imeeli ranṣẹ si wa nigbakugba",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Ibi tí wọ́n ń gbé",
+        "description": "Da ni",
+        "value": "Sarajevo, Bosnia ati Herzegovina"
+      },
+      "response": {
+        "title": "Akoko idahun",
+        "description": "A maa n dahun ni inu",
+        "value": "Awọn wakati 24-48"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Ise agbese tuntun"
+      },
+      "support": {
+        "label": "Atilẹyin imọ-ẹrọ"
+      },
+      "partnerships": {
+        "label": "Awọn ajọṣepọ"
+      },
+      "careers": {
+        "label": "Awọn iṣẹ"
+      },
+      "general": {
+        "label": "Iwadii Gbogbogbo"
+      }
+    },
+    "form": {
+      "title": "Fi ifiranṣẹ ranṣẹ si wa",
+      "success": "O ṣeun fun ifiranṣẹ rẹ. A yoo pada si ọdọ rẹ laarin awọn wakati 24-48.",
+      "error": "Nkankan ti ko tọ. Jọwọ gbiyanju lẹẹkansi tabi fi imeeli ranṣẹ si wa taara.",
+      "fullName": "Orukọ kikun *",
+      "email": "Adirẹsi imeeli *",
+      "company": "Ile-iṣẹ",
+      "subject": "Koko-ọrọ *",
+      "message": "Ifiranṣẹ *",
+      "placeholders": {
+        "name": "Orukọ rẹ",
+        "email": "you@example.com",
+        "company": "Ile-iṣẹ rẹ",
+        "subject": "Kini a le ṣe iranlọwọ pẹlu?",
+        "message": "Sọ fun wa nipa iṣẹ akanṣe rẹ tabi ibeere rẹ."
+      },
+      "validation": {
+        "required": {
+          "name": "Orukọ kikun ni a nilo.",
+          "email": "Adirẹsi imeeli jẹ dandan.",
+          "subject": "Jọwọ yan titẹ kan.",
+          "message": "A nilo ifiranṣẹ naa."
+        },
+        "email": "Jọwọ tẹ adirẹsi imeeli ti o wulo.",
+        "messageMinLength": "Àtẹ̀jíṣẹ́ náà gbọ́dọ̀ jẹ́ ó kéré tán àwọn ohun tí ó {{count}} ní gígùn."
+      },
+      "sending": "Fifiranṣẹ...",
+      "submit": "Fi ifiranṣẹ ranṣẹ"
+    },
+    "reasonsTitle": "Kini idi ti o fi n ṣiṣẹ pẹlu wa?",
+    "reasons": [
+      "Imọ-ẹrọ idagbasoke sọfitiwia ti o ni kikun",
+      "AI / ML ati awọn alamọja faaji awọsanma",
+      "Idagbasoke Agile pẹlu ibaraẹnisọrọ ti o han gbangba",
+      "Atilẹyin igba pipẹ ati itọju"
+    ],
+    "custom": {
+      "title": "Awọn solusan aṣa",
+      "description": "Ṣe o n wa ọna ti o dara julọ? A ṣiṣẹ ni pẹkipẹki pẹlu awọn alabara lati ni oye awọn aini alailẹgbẹ ati firanṣẹ sọfitiwia aṣa ti o ṣe awakọ awọn abajade wiwọn.",
+      "cta": "Jíròrò Iṣẹ́ Àkànṣe Rẹ"
+    },
+    "faq": {
+      "title": "Ṣe o ni awọn ibeere diẹ sii?",
+      "description": "Ṣayẹwo apakan FAQ wa fun awọn idahun kiakia",
+      "cta": "Ṣawari awọn FAQs"
+    }
+  },
+  "team": {
+    "badge": "Ẹgbẹ wa",
+    "hero": {
+      "titlePrefix": "Pade awọn ero ti o wa lẹhin",
+      "titleHighlight": "Imọ-ẹrọ Horizon",
+      "description": "Ẹgbẹ oniruuru ti awọn onimọ-ẹrọ, awọn apẹẹrẹ, ati awọn strategists ti n kọ awọn ọja oni-nọmba ti o ni ipa giga papọ."
+    },
+    "section": {
+      "title": "Ẹgbẹ Olori",
+      "description": "Awọn oludari ti o ni iriri ti o ṣe itọsọna iran ati idagbasoke ti Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Oludasile, Alakoso ati CTO",
+        "bio": "Oludari iranran ati ayaworan imọ-ẹrọ pẹlu awọn ọdun 10 + ni sọfitiwia ile-iṣẹ, ti o ṣe amọja ni AI / ML, awọn iru ẹrọ awọsanma, ati faaji ọja ti o ni iwọn.",
+        "expertise": [
+          "AI / ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Ojutu faaji",
+          "Imọ-ẹrọ awọsanma"
+        ]
+      },
+      "ahmet": {
+        "role": "Oloye Aabo Aabo",
+        "bio": "Ọjọgbọn cybersecurity ni idojukọ lori faaji aabo ile-iṣẹ, awọn amayederun ti o ni aabo lori prem, ati ifijiṣẹ ibamu-akọkọ fun awọn agbegbe ilana.",
+        "expertise": [
+          "Aabo Cyber",
+          "Awọn ọna ṣiṣe On-Prem",
+          "Aabo faaji",
+          "Ibamu",
+          "Aabo amayederun"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Imeeli {{name}}",
+      "linkedin": "{{name}} profaili LinkedIn"
+    },
+    "culture": {
+      "title": "Igbesi aye ni Horizon Tech",
+      "description": "A ṣe igbelaruge aṣa ti imotuntun, ifowosowopo, ati ẹkọ lemọlemọfún",
+      "remoteFirst": {
+        "title": "Aṣa Latọna jijin",
+        "description": "Ṣiṣẹ lati ibikibi pẹlu awọn wakati ti o rọ ati idojukọ lori awọn abajade, kii ṣe ipo."
+      },
+      "collaborative": {
+        "title": "Ayika ifowosowopo",
+        "description": "Awọn iṣẹlẹ ẹgbẹ deede, awọn akoko pinpin imọ, ati ifowosowopo iṣẹ agbelebu."
+      },
+      "workLife": {
+        "title": "Iwontunwonsi Iṣẹ-Igbesi aye",
+        "description": "Eto imulo isinmi oninuurere, atilẹyin ilera ọpọlọ, ati ibọwọ fun akoko ti ara ẹni."
+      },
+      "innovation": {
+        "title": "Akoko Innovation",
+        "description": "20% akoko fun awọn iṣẹ akanṣe ti ara ẹni, hackathons, ati ṣawari awọn imọ-ẹrọ tuntun."
+      },
+      "stats": {
+        "teamMembers": "Awọn ọmọ ẹgbẹ ẹgbẹ",
+        "countries": "Awọn orilẹ-ede",
+        "techStacks": "Awọn akopọ Imọ-ẹrọ",
+        "remoteReady": "Latọna jijin ṣetan"
+      }
+    },
+    "cta": {
+      "title": "Ṣe o fẹ lati darapọ mọ ẹgbẹ wa?",
+      "description": "A n wa nigbagbogbo fun awọn eniyan abinibi ti o bikita nipa iṣẹ-ọnà, nini, ati imotuntun.",
+      "button": "Kan si"
+    }
+  },
+  "careers": {
+    "badge": "Darapọ mọ ẹgbẹ wa",
+    "hero": {
+      "titlePrefix": "Kọ ojo iwaju",
+      "titleHighlight": "Pẹ̀lú Wa",
+      "description": "Darapọ mọ ẹgbẹ kan ti awọn onimọ-ẹrọ ti o kọ sọfitiwia gige-eti fun awọn alabara agbaye. Ṣiṣẹ latọna jijin, dagba nigbagbogbo, ati ṣe ipa gidi.",
+      "button": "Wo Awọn ipo"
+    },
+    "process": {
+      "title": "Ilana igbanisise wa",
+      "description": "Ti o ni ilọsiwaju, ti o munadoko, ati ti o bọwọ fun akoko rẹ.",
+      "steps": [
+        {
+          "title": "Waye",
+          "description": "Fi ohun elo rẹ ranṣẹ ati pe a yoo ṣe atunyẹwo rẹ laarin awọn ọjọ iṣowo 3."
+        },
+        {
+          "title": "Ìjíròrò Àkọ́kọ́",
+          "description": "Ipe fidio iṣẹju 30 kan lati jiroro iriri rẹ ati awọn ireti rẹ."
+        },
+        {
+          "title": "Imọ-ẹrọ",
+          "description": "Ifọrọwanilẹnuwo imọ-ẹrọ tabi adaṣe ti o wulo lati ṣe afihan awọn ọgbọn rẹ."
+        },
+        {
+          "title": "Ipese",
+          "description": "Pade ẹgbẹ naa ki o gba ifunni rẹ lati darapọ mọ Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Awọn ipo ṣii",
+      "description": "Wá àǹfààní rẹ tó kàn kí o darapọ̀ mọ́ ẹgbẹ́ wa tí ó ń dàgbà",
+      "unavailable": "Ko si ohun elo ti o wa ni isalẹ ni akoko yii.",
+      "apply": "Waye Bayi",
+      "noMatch": "Ṣe o ko ri ipa ti o dara julọ?",
+      "sendCv": "Fi CV rẹ ranṣẹ si wa",
+      "listings": [
+        {
+          "title": "Agba Full-Stack Engineer",
+          "department": "Imọ-ẹrọ",
+          "location": "Latọna jijin (Awọn agbegbe Aago EU)",
+          "type": "Akoko kikun",
+          "description": "Kọ awọn ohun elo ile-iṣẹ ti o ni iwọn nipa lilo React, Node.js, ati awọn imọ-ẹrọ awọsanma.",
+          "tags": [
+            "Fesi",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "Ẹlẹrọ DevOps",
+          "department": "Imọ-ẹrọ",
+          "location": "Sarajevo / Remote",
+          "type": "Akoko kikun",
+          "description": "Ṣe apẹrẹ ati ṣetọju awọn opo gigun CI / CD, awọn amayederun bi koodu, ati awọn ọna ibojuwo.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "Ẹlẹrọ AI / ML",
+          "department": "Innovation Lab",
+          "location": "Latọna jijin",
+          "type": "Akoko kikun",
+          "description": "Ṣe agbekalẹ awọn awoṣe ẹkọ ẹrọ ati awọn solusan AI fun awọn alabara ile-iṣẹ.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Onise ọja",
+          "department": "Oniru",
+          "location": "Latọna jijin",
+          "type": "Akoko kikun",
+          "description": "Ṣẹ̀dá ìrírí aṣàmúlò tí ó rẹwà, tí ó ní òye fún àwọn ohun èlò ilé iṣẹ́ tí ó díra.",
+          "tags": [
+            "Figma",
+            "Iwadi Olumulo",
+            "UI / UX",
+            "Awọn ọna ṣiṣe apẹrẹ"
+          ]
+        },
+        {
+          "title": "Awọn solusan ayaworan",
+          "department": "Imọ-ẹrọ",
+          "location": "Latọna jijin",
+          "type": "Akoko kikun",
+          "description": "Ṣe apẹrẹ awọn solusan imọ-ẹrọ opin-si-opin ati ṣe itọsọna awọn alabara nipasẹ iyipada oni-nọmba.",
+          "tags": [
+            "Awọsanma faaji",
+            "Eto oniru",
+            "Ijumọsọrọ"
+          ]
+        },
+        {
+          "title": "Onkọwe Imọ-ẹrọ",
+          "department": "Awọn iṣẹ",
+          "location": "Latọna jijin",
+          "type": "Apakan-akoko",
+          "description": "Ṣẹda awọn iwe okeerẹ, awọn itọnisọna, ati akoonu imọ-ẹrọ.",
+          "tags": [
+            "Awọn iwe aṣẹ",
+            "Awọn iwe aṣẹ API",
+            "Imọ-ẹrọ kikọ"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Awọn ibeere nipa ṣiṣẹ nibi?",
+      "description": "A yoo nifẹ lati gbọ lati ọdọ rẹ. Kan si ati pe a yoo dahun eyikeyi ibeere nipa igbesi aye ni Horizon Tech.",
+      "button": "Kan si wa"
+    }
+  },
+  "caseStudies": {
+    "badge": "Awọn itan aṣeyọri",
+    "hero": {
+      "titlePrefix": "Awọn abajade ti o ni ibatan si",
+      "titleHighlight": "Ọrọ",
+      "description": "Ṣawari bi a ti ṣe iranlọwọ fun awọn ile-iṣẹ kọja awọn ile-iṣẹ lati yi awọn iṣẹ pada nipasẹ imọ-ẹrọ ti o wulo, ti o ni ipa giga.",
+      "tags": {
+        "delivery": "Ifijiṣẹ Imọ-ẹrọ",
+        "outcomes": "Awọn abajade ti a ṣe iwọn"
+      }
+    },
+    "stats": {
+      "projects": "Awọn iṣẹ akanṣe ti a firanṣẹ",
+      "clients": "Awọn alabara ti o ni idunnu",
+      "efficiency": "Avg. Ṣiṣe Ere",
+      "retention": "Idaduro Onibara"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Awọn iṣẹ Iṣuna",
+        "title": "Iṣilọ awọsanma ati imudarasi",
+        "description": "Migrated legacy banking systems to AWS cloud infrastructure with zero downtime.",
+        "challenge": "Faaji monolithic ti o fa awọn ọran scalability",
+        "result": "Îá ýòîì ñîîáùàåò ÓÍÍ ñî ññûëêîé íà ÓÊT",
+        "metrics": [
+          {
+            "label": "Idinku iye owo",
+            "value": "40%"
+          },
+          {
+            "label": "Ere Iṣẹ",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Awọn iṣẹ kekere",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "Awọn solusan HealthTech",
+        "industry": "Ilera",
+        "title": "Syeed Iwadii AI-Agbara",
+        "description": "Kọ awọn awoṣe ML fun onínọmbà aworan iṣoogun pẹlu deede 95% +.",
+        "challenge": "Àwọn ìlànà ìwádìí ọwọ́ máa ń gba àkókò púpọ̀",
+        "result": "Ṣe atunyẹwo awọn ohun elo ti o ni ilọsiwaju pẹlu AI / ML",
+        "metrics": [
+          {
+            "label": "Akoko ti a fipamọ",
+            "value": "70%"
+          },
+          {
+            "label": "Otitọ",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "Fesi",
+          "Ilera"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "E-Commerce omiran",
+        "industry": "Soobu",
+        "title": "Dasibodu Awọn atupale Real-Time",
+        "description": "Idagbasoke BI Syeed processing 10M + iṣẹlẹ ojoojumọ.",
+        "challenge": "Ko si ifarahan akoko gidi si awọn iṣiro iṣowo pataki",
+        "result": "Awọn atupale akoko gidi ati awọn imọran Syeed",
+        "metrics": [
+          {
+            "label": "Awọn iṣẹlẹ / Ọjọ",
+            "value": "10M +"
+          },
+          {
+            "label": "Akoko idahun",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "Fesi",
+          "Imọ-ẹrọ data"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ṣetan lati kọ itan aṣeyọri rẹ?",
+      "description": "Jẹ ki a sọrọ nipa bi a ṣe le ṣe iranlọwọ fun ọ lati ṣaṣeyọri awọn abajade kanna ati igbẹkẹle."
+    },
+    "filters": {
+      "title": "Industry Filter",
+      "all": "Gbogbo awọn ile-iṣẹ",
+      "empty": "Ko si awọn iwadii ọran ti o baamu àlẹmọ ile-iṣẹ ti a yan."
+    }
+  },
+  "blog": {
+    "badge": "Bulọọgi",
+    "hero": {
+      "titlePrefix": "Awọn imọran ati awọn imọran lati",
+      "titleHighlight": "Imọ-ẹrọ Horizon",
+      "description": "Awọn itọnisọna imọ-ẹrọ, awọn oye ile-iṣẹ, ati awọn ẹkọ ti o wulo lati iṣẹ ifijiṣẹ gidi."
+    },
+    "categories": [
+      "Gbogbo awọn ifiweranṣẹ",
+      "Awọsanma faaji",
+      "DevOps",
+      "AI / ML",
+      "Iwaju iwaju",
+      "Backend",
+      "Awọn data"
+    ],
+    "featuredPost": {
+      "id": "Ifihan",
+      "title": "Ọjọ iwaju ti Idagbasoke Awọsanma: Awọn aṣa lati Wo ni 2025",
+      "excerpt": "Ṣawari awọn aṣa tuntun ni idagbasoke abinibi awọsanma, lati awọn faaji ti ko ni olupin si iširo eti.",
+      "author": {
+        "name": "Olootu Horizon Tech"
+      },
+      "date": "Oṣu kọkanla 15, 2025",
+      "readTime": "8 min ka",
+      "category": "Awọsanma faaji",
+      "tags": [
+        "Awọsanma",
+        "Azure",
+        "Awọn aṣa"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Ṣiṣẹda Awọn microservices Scalable pẹlu Iṣẹ Azure Kubernetes",
+        "excerpt": "Itọsọna ti o wulo lati ṣe apẹrẹ ati firanṣẹ awọn microservices nipa lilo AKS.",
+        "author": {
+          "name": "Olootu Horizon Tech"
+        },
+        "date": "Oṣu kọkanla 12, 2025",
+        "readTime": "6 min ka",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Awọn iṣẹ kekere",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Ẹkọ Ẹrọ ni Iṣelọpọ: Awọn ẹkọ Ti a Kọ",
+        "excerpt": "Awọn ẹkọ ti a ṣe idanwo aaye lati firanṣẹ awọn awoṣe ML ni iwọn.",
+        "author": {
+          "name": "Olootu Horizon Tech"
+        },
+        "date": "Oṣu kọkanla 10, 2025",
+        "readTime": "10 min ka",
+        "category": "AI / ML",
+        "tags": [
+          "Ẹkọ Ẹrọ",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Idahun 19: Kini Tuntun ati Idi ti O Fi Ṣe Pataki",
+        "excerpt": "Ṣe afẹri awọn ẹya ara ẹrọ ti React 19 ati awọn ipa iṣẹ.",
+        "author": {
+          "name": "Olootu Horizon Tech"
+        },
+        "date": "Oṣu kọkanla 8, 2025",
+        "readTime": "5 min ka",
+        "category": "Iwaju iwaju",
+        "tags": [
+          "Fesi",
+          "Javascript",
+          "Idagbasoke Wẹẹbu"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Alabapin si Iwe irohin wa",
+      "description": "Gba awọn nkan tuntun, awọn itọnisọna, ati awọn imọran ti a firanṣẹ ni gbogbo ọsẹ.",
+      "placeholder": "your.email@example.com",
+      "button": "Alabapin",
+      "note": "Ko si àwúrúju. Yọ kuro nigbakugba."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering Blog",
+        "description": "Awọn akọsilẹ aaye ati awọn ilana ti o wulo lati awọn ẹgbẹ ti o kọ awọn ọja AI, awọn eto ile-iṣẹ, ati awọn iru ẹrọ awọsanma ti o gbẹkẹle."
+      },
+      "filters": {
+        "postsInView": "{{count}} posts ni view"
+      },
+      "featured": {
+        "badge": "Tuntun",
+        "readCta": "Ka ifiweranṣẹ ti a ṣe ifihan"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Loading profaili...",
+    "title": "Awọn eto Profaili",
+    "subtitle": "Ṣàkóso ètò àkáǹtì rẹ àti àwọn ààyò rẹ",
+    "photoButton": "Yi fọto pada",
+    "tabs": {
+      "general": "Gbogbogbo",
+      "security": "Aabo",
+      "preferences": "Awọn ayanfẹ"
+    },
+    "messages": {
+      "profileUpdated": "Profaili ni imudojuiwọn ni aṣeyọri",
+      "profileUpdateFailed": "Kùnà láti ṣe ìmúdójúìwọ̀n profaili",
+      "passwordsNoMatch": "Awọn ọrọ igbaniwọle tuntun ko baamu",
+      "passwordTooShort": "Ọrọ igbaniwọle gbọdọ jẹ o kere ju awọn ohun kikọ 8 gigun",
+      "passwordChanged": "Ọrọigbaniwọle ti yipada ni aṣeyọri",
+      "passwordChangeFailed": "Kùnà láti pààrọ̀ ọ̀rọ̀ ìgbaniwọlé",
+      "optedOut": "Yọ kuro ninu awọn ijabọ iṣe",
+      "optedIn": "Yan lati ṣe awọn ijabọ adaṣe",
+      "optOutFailed": "Kùnà láti ṣe ìmúdójúìwọ̀n ipò ìjáde"
+    },
+    "general": {
+      "title": "Alaye ti ara ẹni",
+      "description": "Ṣe imudojuiwọn alaye ti ara ẹni rẹ ati alaye olubasọrọ",
+      "firstName": "Orukọ akọkọ",
+      "firstNamePlaceholder": "John",
+      "lastName": "Orukọ ikẹhin",
+      "lastNamePlaceholder": "Doe",
+      "email": "Adirẹsi Imeeli",
+      "emailNotice": "Imeeli ko le yipada. Kan si atilẹyin ti o ba nilo iranlọwọ.",
+      "phone": "Nọmba foonu",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Fi àyípadà pamọ́"
+    },
+    "security": {
+      "title": "Awọn eto Aabo",
+      "description": "Ṣàkóso ọ̀rọ̀ ìgbaniwọlé rẹ àti àwọn ààyò ààbò rẹ",
+      "currentPassword": "Ọrọigbaniwọle lọwọlọwọ lọwọlọwọ",
+      "currentPasswordPlaceholder": "Tẹ ọrọigbaniwọle lọwọlọwọ",
+      "newPassword": "Ọrọ igbaniwọle tuntun",
+      "newPasswordPlaceholder": "Tẹ ọ̀rọ̀ igbaniwọlé tuntun",
+      "confirmPassword": "Jẹrisi Ọrọigbaniwọle Titun",
+      "confirmPasswordPlaceholder": "Jẹ́rìí sí ọ̀rọ̀ ìgbaniwọlé tuntun",
+      "passwordHint": "O gbọdọ jẹ o kere ju awọn ohun kikọ 8 gigun",
+      "changePassword": "Yi Ọrọigbaniwọle Pada"
+    },
+    "preferences": {
+      "title": "Àwọn ìkúndùǹ ìkéde",
+      "description": "Ṣàkóso bí o ṣe ń gba ìmúdójúìwọ̀n àti ìkéde",
+      "email": {
+        "title": "Awọn iwifunni imeeli",
+        "description": "Gba awọn imudojuiwọn ati awọn itaniji nipasẹ imeeli"
+      },
+      "sms": {
+        "title": "Awọn iwifunni SMS",
+        "description": "Gba awọn itaniji pataki nipasẹ ifiranṣẹ ọrọ"
+      },
+      "optOut": {
+        "title": "Jade kuro ninu awọn ijabọ iṣe",
+        "description": "Fi awọn iroyin rẹ pamọ lati ọdọ oluwa adaṣe"
+      },
+      "actions": {
+        "title": "Awọn iṣe akọọlẹ",
+        "downloadData": "Ṣe igbasilẹ data akọọlẹ",
+        "deleteAccount": "Paarẹ Àkáǹtì"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Pada si ile",
+    "title": "Ile-iṣẹ Atilẹyin",
+    "subtitle": "Gba iranlọwọ pẹlu awọn iṣẹ idagbasoke software wa",
+    "cards": {
+      "email": {
+        "title": "Atilẹyin imeeli",
+        "description": "Fi imeeli ranṣẹ si wa fun eyikeyi ibeere"
+      },
+      "project": {
+        "title": "Awọn iwadii Project",
+        "description": "Jíròrò àwọn ìbéèrè iṣẹ́ àkànṣe rẹ",
+        "button": "Kan si wa"
+      },
+      "resources": {
+        "title": "Awọn orisun",
+        "description": "Awọn orisun imọ-ẹrọ ati awọn itọsọna",
+        "button": "Wo Awọn orisun"
+      }
+    },
+    "faqTitle": "Awọn ibeere ti a beere nigbagbogbo",
+    "faqDescription": "Ìdáhùn kíákíá sí àwọn ìbéèrè tí wọ́n sábà máa ń béè",
+    "faqs": [
+      {
+        "question": "Awọn iṣẹ wo ni Horizon Tech nfunni?",
+        "answer": "A pese idagbasoke sọfitiwia aṣa, awọn solusan AI / ML, faaji awọsanma, DevOps, oye iṣowo, ati awọn iṣẹ IoT."
+      },
+      {
+        "question": "Báwo ni mo ṣe lè bẹ̀rẹ̀ iṣẹ́ àkànṣe pẹ̀lú Horizon Tech?",
+        "answer": "Kan si wa nipasẹ fọọmu tabi imeeli pẹlu awọn ibeere rẹ. A yoo ṣeto ipe awari kan ati pin imọran kan."
+      },
+      {
+        "question": "Ṣe o n pese atilẹyin ati itọju ti o tẹlemọ?",
+        "answer": "Bẹẹni. A nfunni ni atilẹyin ati awọn idii itọju ti o pẹlu awọn atunṣe kokoro, awọn imudojuiwọn aabo, ati awọn ilọsiwaju ẹya-ara."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Pada si ile",
+    "title": "Awọn orisun imọ-ẹrọ",
+    "subtitle": "Awọn itọsọna, awọn itọnisọna, ati awọn iṣe ti o dara julọ lati ẹgbẹ Horizon Tech",
+    "hub": {
+      "title": "Ile-iṣẹ Ẹkọ",
+      "description": "Ṣawari awọn orisun imọ-ẹrọ wa kọja awọsanma, AI / ML, DevOps, ati idagbasoke sọfitiwia igbalode.",
+      "note": "Awọn ohun elo wọnyi da lori iriri iṣẹ akanṣe gidi ati imudojuiwọn nigbagbogbo."
+    },
+    "categories": [
+      {
+        "icon": "awọsanma",
+        "title": "Awọsanma faaji",
+        "description": "Azure, AWS, ati awọn ilana abinibi awọsanma",
+        "resources": [
+          {
+            "title": "Awọn iṣe ti o dara julọ ti Azure Architecture",
+            "type": "Itọsọna"
+          },
+          {
+            "title": "Awọn ilana Iṣilọ awọsanma",
+            "type": "Abala"
+          }
+        ]
+      },
+      {
+        "icon": "Ọpọlọ",
+        "title": "AI ati Ẹkọ Ẹrọ",
+        "description": "Awọn awoṣe ML, imọ-jinlẹ data, ati iṣọpọ AI",
+        "resources": [
+          {
+            "title": "Ifihan si Azure ML",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Ile Production ML Pipelines",
+            "type": "Itọsọna"
+          }
+        ]
+      },
+      {
+        "icon": "Awọn eto",
+        "title": "DevOps & Syeed",
+        "description": "CI / CD, amayederun bi koodu, adaṣiṣẹ",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Awọn amayederun bi koodu pẹlu Terraform",
+            "type": "Itọsọna"
+          }
+        ]
+      },
+      {
+        "icon": "Koodu",
+        "title": "Idagbasoke sọfitiwia",
+        "description": ".NET, React, ati awọn iṣe idagbasoke igbalode",
+        "resources": [
+          {
+            "title": "Mọ faaji ni .NET",
+            "type": "Itọsọna"
+          },
+          {
+            "title": "Fesi Awọn iṣe ti o dara julọ",
+            "type": "Abala"
+          }
+        ]
+      },
+      {
+        "icon": "ibi ipamọ data",
+        "title": "Data ati atupale",
+        "description": "BI, ibi ipamọ data, ati awọn iru ẹrọ atupale",
+        "resources": [
+          {
+            "title": "Apẹrẹ Dasibodu Power BI",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Ile-iṣẹ Ile-iṣẹ Data",
+            "type": "Itọsọna"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Nilo Ikẹkọ Aṣa?",
+      "description": "A nfunni awọn iṣẹ ifarada fun ṣiṣi iwe ifowopamọ fun awọn iṣẹ ifarada fun ṣiṣi iwe ifowopamọ",
+      "text": "Nilo ikẹkọ ẹgbẹ ọwọ? A pese awọn idanileko aṣa lori faaji awọsanma, DevOps, ati awọn iṣe ifijiṣẹ igbalode.",
+      "button": "Kan si"
+    }
+  },
+  "unauthorized": {
+    "title": "Wiwọle ti kọ",
+    "description": "O kò ní ìyọ̀ǹda láti wọlé sí ojúewé yìí. Kàn sí alákòóso rẹ tí o bá rò pé àṣìṣe nìyí.",
+    "primary": "Lọ si Profaili",
+    "secondary": "Pada si ile"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Ifiweranṣẹ ko ri",
+      "description": "Ko si ohun idogo ajeseku ti o dara ju {{slug}}ti o dara ju ti o dara ju ti o dara",
+      "back": "Pada si bulọọgi"
+    },
+    "back": "Pada si bulọọgi",
+    "publisher": "Imọ-ẹrọ Horizon"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Iwadi ọran ko ri",
+      "description": "Ko si iwadi ọran ti o wa fun ID: {{id}}",
+      "back": "Pada si awọn iwadii ọran"
+    },
+    "back": "Pada si awọn iwadii ọran",
+    "sections": {
+      "executiveSummary": "Alakoso Alakoso",
+      "businessChallenge": "Ipenija Iṣowo",
+      "technicalSolution": "Ojutu Imọ-ẹrọ",
+      "architectureDecisions": "Awọn ipinnu faaji",
+      "technologyStack": "Akopọ Imọ-ẹrọ",
+      "resultsImpact": "Awọn esi ati Ipa"
+    },
+    "client": "Onibara",
+    "keyOutcomes": "Awọn abajade pataki",
+    "decision": "Ìpinnu {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Ifihan agbara ti sọnu",
+      "title": "Oju-iwe Ko Ri",
+      "description": "Ọ̀nà tí o béèrè kò sí tàbí tí ó ti gbé. Jẹ ki a mu ọ pada si opin Horizon Tech ti o wulo.",
+      "requestedPath": "Ọ̀nà tí a bèèrè",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Ìðïñåò íá êÜíåéò êáé ôïõ kuna",
+        "line2": "Idi: ko si tuntun ipa module",
+        "line3": "Fallback ilana ti a ṣe alabapin",
+        "line4": "Lo ọkan ninu awọn ọna abuja ti o wa ni isalẹ lati tẹsiwaju"
+      },
+      "links": {
+        "home": "Oju-iwe ile",
+        "services": "Awọn iṣẹ",
+        "blog": "Bulọọgi",
+        "caseStudies": "Awọn iwadi ọran"
+      }
+    },
+    "runtime": {
+      "badge": "Aṣiṣe Runtime",
+      "title": "Nkankan ti o fọ lori oju-iwe yii",
+      "description": "Ọrọ airotẹlẹ kan da ifilọlẹ naa duro. O le tun gbiyanju lailewu, tabi pada si oju-iwe ile.",
+      "retry": "Tún gbìyànjú",
+      "home": "Pada si oju-iwe ile",
+      "unknown": "Àṣìṣe àsìkò ìṣiṣẹ́ tí a kò mọ̀"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Isakoso Blog",
+      "subtitle": "Ṣẹda, ṣatunkọ, ati ṣakoso awọn ifiweranṣẹ bulọọgi rẹ",
+      "newPost": "Ifiweranṣẹ titun",
+      "seedData": "Awọn data irugbin",
+      "allPosts": "Gbogbo awọn ifiweranṣẹ",
+      "published": "Atejade",
+      "draft": "Akọsilẹ",
+      "featured": "Ifihan",
+      "setFeatured": "Ṣeto Ifihan",
+      "removeFeatured": "Yọ ifihan",
+      "table": {
+        "title": "Akọle",
+        "category": "Ẹka",
+        "status": "Ipo",
+        "date": "Ọjọ́",
+        "actions": "Awọn iṣe"
+      },
+      "empty": {
+        "message": "Ko si awọn ifiweranṣẹ bulọọgi sibẹsibẹ. Ṣẹda ifiweranṣẹ akọkọ rẹ tabi data ayẹwo irugbin.",
+        "seed": "Awọn irugbin Ayẹwo Data",
+        "create": "Ṣẹda Ifiweranṣẹ"
+      },
+      "delete": {
+        "title": "Paarẹ Ifiweranṣẹ",
+        "confirmation": "Ṣé ó dá ọ lójú pé o fẹ́ pa àtẹ̀jáde yìí rẹ́? Iṣe yii ko le ṣe atunṣe.",
+        "delete": "Paarẹ",
+        "cancel": "Paá rẹ́"
+      }
+    },
+    "editor": {
+      "bannerHint": "O ti wa ni ti o dara ju ti o ti wa ni",
+      "bannerImage": "Aworan asia",
+      "coverHint": "Han ninu awọn kaadi atokọ bulọọgi",
+      "coverImage": "Àwòrán Ìwé Mímọ́",
+      "editSlug": "Ṣatunkọ slug",
+      "posts": "Awọn ifiweranṣẹ",
+      "publish": "Atejade",
+      "update": "Imudojuiwọn",
+      "form": {
+        "contentPlaceholder": "Kọ akoonu ifiweranṣẹ rẹ nibi ...",
+        "excerptPlaceholder": "Kukuru kukuru ti ifiweranṣẹ naa ...",
+        "pickDate": "Yan ọjọ kan",
+        "readTimePlaceholder": "5 min Ka",
+        "titlePlaceholder": "Post Title..."
+      },
+      "meta": {
+        "publisher": "Akede",
+        "unknownAuthor": "Onkọwe ti a ko mọ"
+      },
+      "modes": {
+        "edit": "Ṣatunkọ",
+        "editOnly": "Ṣatunkọ nikan",
+        "preview": "Awotẹlẹ",
+        "previewOnly": "Awotẹlẹ nikan",
+        "sideBySide": "Ẹgbẹ nipasẹ ẹgbẹ",
+        "split": "Pipin"
+      },
+      "tags": {
+        "heading": "Awọn aami",
+        "placeholder": "Add a tag ..."
+      },
+      "translations": {
+        "auto": "Ọkọ ayọkẹlẹ",
+        "autoTranslate": "Itumọ aifọwọyi",
+        "clear": "Ko",
+        "existing": "Ti wa tẹlẹ",
+        "heading": "Awọn itumọ",
+        "language": "Ede",
+        "languages": "Àwọn Èdè",
+        "edit": "Ṣatunkọ",
+        "manual": "Afowoyi",
+        "preview": "Awotẹlẹ",
+        "searchPlaceholder": "je recherche des ede ...",
+        "translate": "Itúmọ̀"
+      }
+    },
+    "caseStudies": {
+      "title": "Awọn iwadi ọran",
+      "subtitle": "Ṣakoso awọn iwadii ọran ati awọn iṣafihan iṣẹ akanṣe",
+      "newCaseStudy": "Iwadi Ọran Tuntun",
+      "seedData": "Awọn data irugbin",
+      "allCaseStudies": "Gbogbo awọn iwadii ọran",
+      "published": "Atejade",
+      "draft": "Akọsilẹ",
+      "table": {
+        "title": "Akọle",
+        "industry": "Ile-iṣẹ",
+        "client": "Onibara",
+        "status": "Ipo",
+        "actions": "Awọn iṣe"
+      },
+      "empty": {
+        "message": "Ko si awọn iwadii ọran sibẹsibẹ.",
+        "seed": "Awọn data irugbin",
+        "create": "Ṣẹda akọkọ"
+      },
+      "delete": {
+        "title": "Paarẹ Iwadi Ọran",
+        "confirmation": "Ṣé ó dá ọ lójú pé o fẹ́ pa ìwádìí ọ̀rọ̀ yìí rẹ́? Iṣe yii ko le ṣe atunṣe.",
+        "delete": "Paarẹ",
+        "cancel": "Paá rẹ́"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Awọn iwadi ọran",
+      "published": "Atejade",
+      "draft": "Akọsilẹ",
+      "update": "Imudojuiwọn",
+      "create": "Ṣẹ̀dá",
+      "sections": {
+        "basicInfo": "Alaye ipilẹ",
+        "narrative": "Itan-akọọlẹ",
+        "architectureDecisions": "Awọn ipinnu faaji",
+        "techStack": "Akopọ Imọ-ẹrọ",
+        "results": "Awọn abajade",
+        "tags": "Awọn aami"
+      },
+      "fields": {
+        "title": "Akọle",
+        "titlePlaceholder": "Akọle iwadi ọran",
+        "slug": "Slug",
+        "slugPlaceholder": "Aifọwọyi-lati-akọle",
+        "client": "Onibara",
+        "clientPlaceholder": "Orukọ onibara",
+        "industry": "Ile-iṣẹ",
+        "industryPlaceholder": "Yan ile-iṣẹ",
+        "description": "Apejuwe",
+        "descriptionPlaceholder": "Apejuwe kukuru (ti a fihan lori awọn kaadi)",
+        "executiveSummary": "Alakoso Alakoso",
+        "executiveSummaryPlaceholder": "Akopọ ti o ga julọ ti adehun",
+        "challenge": "Ipenija",
+        "challengePlaceholder": "Ìṣòro wo ni oníbàárà náà dojú kọ́?",
+        "solution": "Ojutu",
+        "solutionPlaceholder": "Bawo ni a ṣe yanju iṣoro naa?",
+        "decision": "Ipinnu",
+        "decisionPlaceholder": "Ohun ti a pinnu",
+        "rationale": "Idi",
+        "rationalePlaceholder": "Kini idi ti a fi yan ọna yii",
+        "metric": "Metiriki",
+        "metricPlaceholder": "fun apẹẹrẹ Latency Settlement",
+        "value": "Iye",
+        "valuePlaceholder": "fun apẹẹrẹ -63% tabi 4.8h -> 11m",
+        "resultDescription": "Apejuwe",
+        "resultDescriptionPlaceholder": "Ohun ti abajade yii tumọ si",
+        "techPlaceholder": "Ṣafikun imọ-ẹrọ (tẹ Wọle)",
+        "tagPlaceholder": "Fi tag (tẹ Tẹ)"
+      },
+      "add": "Fi kun",
+      "noArchDecisions": "Ko si awọn ipinnu faaji ti a ṣafikun sibẹsibẹ.",
+      "noResults": "Ko si awọn abajade ti a ṣafikun sibẹsibẹ.",
+      "decisionLabel": "Ìpinnu {{number}}",
+      "resultLabel": "Abajade {{number}}",
+      "controls": {
+        "published": "Atejade",
+        "publishedDescription": "Jẹ́ kí ìkẹ́kọ̀ọ́ ọ̀rọ̀ yìí hàn gbangba",
+        "featured": "Ifihan",
+        "featuredDescription": "Ṣe afihan iwadi ọran yii"
+      }
+    },
+    "imageCrop": {
+      "apply": "Waye",
+      "cancel": "Paá rẹ́",
+      "cropTitle": "Àwòrán Àwòrán",
+      "dropText": "Fi aworan silẹ nibi tabi tẹ lati gbe sori ẹrọ",
+      "flipHorizontal": "Ìyípadà ìpínlẹ̀ ìpínlẹ̀",
+      "flipVertical": "Ìtúbọ̀ ní inaro",
+      "replace": "Rọpo",
+      "reset": "Tun ṣe",
+      "rotateLeft": "Yípo apá òsì",
+      "rotateRight": "Yípo sí apá ọ̀tún",
+      "uploading": "Ikojọpọ ...",
+      "toast": {
+        "invalidFile": "Fáìlì tí kò wúlò",
+        "invalidFileDesc": "Jọ̀wọ́ gbé fáìlì àwòrán tí ó wúlò sókè.",
+        "uploadFailed": "Ikojọpọ kuna",
+        "uploadFailedDesc": "Nkankan ti ko tọ. Jọwọ gbiyanju lẹẹkansi.",
+        "uploaded": "Aworan ti a gbe sori ẹrọ",
+        "uploadedDesc": "A ti gbe aworan rẹ silẹ ni aṣeyọri."
+      }
+    }
+  }
+}

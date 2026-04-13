@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Uvaptigut",
+    "hero": {
+      "titlePrefix": "Piliurniq Aqagu Qaritaujakkuurutinik,",
+      "titleHighlight": "Ublumi",
+      "description": "Horizon Tech d.o.o. nunaryuami qaritauyakkuurutikhanut havagviuyuq ataniqarviqaqtuq Sarajevo-mi, tunihiplutik nutanngutqiyanik qaritauyaliqutikhanut ihuaqhautikhainik havagviuyunut tamainni pingahuni nunaryuani."
+    },
+    "sections": {
+      "mission": {
+        "title": "Havaakhijutauyuq",
+        "description": "Ikayuqtavut timiqutigiyauyut piliuriami akhuurutauyut ihumaliuqtamiknik nakuuqpiaqtumik qaritauyakkut hunavaluit piliuqtuq naunaiyainiq havakviup akinganik.",
+        "points": [
+          "Nallaumayut qaritauyaliqidjutikharnik auladjutikharnik naunaitunik nanminiqaqtunik naunairutingnik.",
+          "Havaklugit hivituyumik-kikliqaqtut auladjutit tapkua pihimayaaqtut iligiit aktilaangit.",
+          "Havaqatigilugit tigumidjutiqaqtut hanaqidjutinun aularutinun."
+        ]
+      },
+      "expertise": {
+        "title": "Ayuittiagiikhimayuq",
+        "description": "Amigaitut anullautiqaqtut havaqatigiit attautimuktitiyut ingniqutiliqinikkut anginiqhait uvalu hunat ihumaliurutait nutaanun ayungnaqtutigut katitiqhimayut.",
+        "points": [
+          "Enterprise-grade web and platform engineering.",
+          "Cloud architecture, DevOps aatumatikkut, mahulingaittumiklu aulapkaidjutikhanik.",
+          "Atuqhugit AI/ML, naunaiyautit havauhiit, ukualu IoT-pihimayut hunat."
+        ]
+      },
+      "approach": {
+        "title": "Upautiniq",
+        "description": "Aulatitivaktugut tautungnaqtumik, itéryumirutikharnik atuqtakharnik taima aulatitiyaangat naunaitumik taima ikikliyumiqtitiyaangat hunavaluit ayungnautiqaqtunik.",
+        "points": [
+          "Naunaiyaqlugu: naunaiyaqlugit anginiit, hivuliuyukhat, uvalu nakuunikkut aktilaangit qilamik.",
+          "Hananiq: tuyuqlugit turaaqhimayut amigaiqyuumilugit aulahimaaqtumik uqautauyut.",
+          "Nakuuhivallialugit: munarilugit qanurinmanggaatigut nakuuhivallialugitlu havaanggit hivuni."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Upalungaiyaqqit aalanguqtiqlugu nanminiriyat?",
+      "description": "Ilauguit amigaiqyuumiyut nanminiqaqtut tapkua ukpiriyait Horizon Tech tunihiyaamingnik nutaanik ihuaqhaidjutikhanik uvalu nakuunikkut qanuginiinik.",
+      "primary": "Aulagutilutit",
+      "secondary": "Takulugit Nakuujumik Unipkaat"
+    }
+  },
+  "contact": {
+    "badge": "Uqaqatigilugu",
+    "hero": {
+      "title": "Hivayaqluta",
+      "description": "Havaakhamik ihumavit? Tuhaayumayugut ilingnin. Uqarvigidjavatit qanuqtut ikajuutikhaptingnik ihumagijatit inuuhirnun."
+    },
+    "info": {
+      "title": "Uqaqvigiyaami Naunaitkutit"
+    },
+    "booking": {
+      "title": "Ihuaqhailutit Katimadjutikhangnik",
+      "description": "Ihuaqhailutit akiitumik 30 minutesnik qiniqhianikkut hivayaunmik"
+    },
+    "methods": {
+      "email": {
+        "title": "Qaritaujakkut titiqqilvia",
+        "description": "Qaritaujakkut titirarvigiluta qujaginnaq",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Nayugaani",
+        "description": "Nayugaa uvani",
+        "value": "Sarajevo, Bosnia and Herzegovina"
+      },
+      "response": {
+        "title": "Kiudjutaa Hivitunia",
+        "description": "Kiuvaktugut iluani",
+        "value": "24-48 ikaaqniit"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Nutaaq Havaakhaq"
+      },
+      "support": {
+        "label": "Qaritauyakkut Ikayuqti"
+      },
+      "partnerships": {
+        "label": "Paatnagiiktut"
+      },
+      "careers": {
+        "label": "Havaariraakpaktakhait"
+      },
+      "general": {
+        "label": "Ihivriuqniq"
+      }
+    },
+    "form": {
+      "title": "Tuyurluta tuhaadjutikharnik",
+      "success": "Quanaqutin tuhaqtidjutiffingnik. Hivayaffaaqniaqtaffi 24-48 ikaangniit.",
+      "error": "Hunaliqaa ihuittumik piyuq. Uuktuffaadjavutit imaaluuniit qaritaujakkut titirarvigiluta.",
+      "fullName": "Tamatkirlugu Atia *",
+      "email": "Qaritaujakkut Titirarvia *",
+      "company": "Havagvik",
+      "subject": "Uqautigiyauyuq *",
+      "message": "Tuhaqtidjut *",
+      "placeholders": {
+        "name": "Atiit",
+        "email": "you@example.com",
+        "company": "Nanminiriyat",
+        "subject": "Hunanik ikayurniaraluaqqita?",
+        "message": "Uqallautiluta talvuuna havaaqharnik ihumagiyangnikluuniit..."
+      },
+      "validation": {
+        "required": {
+          "name": "Tamaat atiit piyariaqaqtut.",
+          "email": "Qaritauyakkut titirarvia ihariagiyauyuq.",
+          "subject": "Tikkuaqhilutit hunamik uqaqtakhamik.",
+          "message": "Tuhaqtidjut ihariagiyauyuq."
+        },
+        "email": "Iliuraqlugu ihuaqtuq qaritauyakkut titirarvia.",
+        "messageMinLength": "Tuhaqtidjut piqaqtukhaq {{count}} titirauhirnik."
+      },
+      "sending": "Tuyuqtuq...",
+      "submit": "Tuyuqlugu Tuhaqtidjut"
+    },
+    "reasonsTitle": "Huuq havaqatigiluta?",
+    "reasons": [
+      "Full-stack qaritauyaliqutit pivallianirmun ayuittiaqhimayut",
+      "AI/ML unalu cloud architecture ayuittiaqhimayut",
+      "Agile pivallianiq takunnaqtumik uqaqatigiikniq",
+      "Akuniraalungmut ikayuutit unalu ihuarhainiq"
+    ],
+    "custom": {
+      "title": "Ihuaqhaqhimayut Ihuaqhautit",
+      "description": "Qiniqhiavit ihuaqhaqhimayumik ihuaqhaidjutikhamik? Havaqatigittiaqtavut ikayuqtavut kangirhigiami aadlatqiittuq ihariagininngit tunigiamilu ihuarhaqhimayuq qaritauyaliriniqmut pipkaidjutiyuq naunaiyarumi qanurittaakhaanik.",
+      "cta": "Uqautigilugu Havaakhat"
+    },
+    "faq": {
+      "title": "Aallanik apiqqutikhaqaqqit?",
+      "description": "Qiniqlugit FAQ titiraqhimayut qilamik kiudjutinun",
+      "cta": "Qinirlugit Apirhuutaunginnaqtut"
+    }
+  },
+  "team": {
+    "badge": "Havaktivut",
+    "hero": {
+      "titlePrefix": "Takulugit Ihumait Tunuani",
+      "titleHighlight": "Horizon Tech",
+      "description": "Aallatqiiktut havaqatigiiktut qaritaujaliqijit, aannuraliuqtit, imaalu qanuriliurutikhaliuqtit piliuqtut aktuutauqpiaktunik qaritaujakkuurutikhanut atuqtakhanik atauttikkut."
+    },
+    "section": {
+      "title": "Hivuliqtiuyut Havaqatigiiktut",
+      "description": "Ayuittiaqhimayut hivuliqhuqtut hivuliqhuqtut Horizon Techkut tautuktuumiyaaqtainun uvalu angiklivalianirmun"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Fondateur, CEO unalu CTO",
+        "bio": "Tautuktuumiyaaqtuq hivuliqhuqtuq uvalu ayungnaqtutigut titirauyaqti imaa 10+ ukiut havagvingni qaritauyaliqutini, ayuittiaqtuq hapkuninga AI/ML, cloud tungaviit, uvalu aktilaaqtaaqtut hunat havauhiit.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Ihuarhaidjutinga Piliurninnga",
+          "Cloud Engineering"
+        ]
+      },
+      "ahmet": {
+        "role": "Atanilluaq Amirinikkut Titiraujaqti",
+        "bio": "Qaritaujaliqidjutikkut ajuittiaqhimajuq turaanganiqaqtuq havagvingni qajangnaidjutikhakkut nappaqtirutinik, qajangnaittunik najugaani aulapkaidjutikhanik, imaalu maliktakhanik-hivulliujunik tuniuqhaidjutikhanik maliruagakhanut havagviujunut.",
+        "expertise": [
+          "Qaritauyami Ihumaluknaitaagani",
+          "Nayugaani Auladjutit",
+          "Qayangnairutikharnik Auladjutikharnik",
+          "Maliguattiarniq",
+          "Aulapkaitjutikhanik Munariniq"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Qaritaujakkut {{name}}",
+      "linkedin": "{{name}} LinkedIn naunaitkutait"
+    },
+    "culture": {
+      "title": "Inuuhiq talvani Horizon Tech",
+      "description": "Tiguaqhimaaqtavut pitquhiit nutaanguqtiriniq, havaqatigiingniq, ilihaqhimaarniqlu",
+      "remoteFirst": {
+        "title": "Ungahiktukkut-Hivuliq Pitquhiq",
+        "description": "Havaklutit humiliqaak aallanguqtaaqtunik ikaaqnikhanik ihumagilugillu inirutingit, humiungittumik."
+      },
+      "collaborative": {
+        "title": "Havaqatigiingniikkut Avatingit",
+        "description": "Qaguguraagat ikayuqtiriit hulivigiyainik, qauyimayainik avanmut uqaqatiriigutinik, aalatqiiniklu havauhiqaqtunik havaqatiriigutinik."
+      },
+      "workLife": {
+        "title": "Havaatigut-Inuuhirmunlu Aadjikiingnirmun",
+        "description": "Nakuuqpiaqtumik haalitiirutikhamut atugakhaq, ihumamitigut aaniarutilgit ikayuutikhaq, pimmariktumiklu piluni inmikkut ikaarninnganik."
+      },
+      "innovation": {
+        "title": "Nutaanguqtirinikkut Ikaangniit",
+        "description": "20 pusanmik inmi havaanik, hackathons, qiniqhialutiklu nutaanik alruyaqtuqtunik."
+      },
+      "stats": {
+        "teamMembers": "Iligiiktunun Ilauyut",
+        "countries": "Nunaryuangit",
+        "techStacks": "Tech Stacks",
+        "remoteReady": "Ungahiktunun Upalungaiqhimaniq"
+      }
+    },
+    "cta": {
+      "title": "Ilauyumavin havaqatigiingnun?",
+      "description": "Qiniqhiaraanginnaqtugut ajuittunik inungnik piqpaguhuktunik hanattiarnikkut, nanminiqarnikkut, aallangajukkullu.",
+      "button": "Uqaqatigilugu"
+    }
+  },
+  "careers": {
+    "badge": "Ilauguit Havaqatigiluta",
+    "hero": {
+      "titlePrefix": "Havaklugit Hivuniptingni",
+      "titleHighlight": "Uvaptingnut",
+      "description": "Ilaulutit havaqatigiiktunut qauyimayiuyut piliuqtut nutanngutqiyanik qaritauyakkuurutikhanut nunaryuami ikayuqtainut. Havaklutit ungahiktukkut, angiklivaliahimaaqlutit, uvalu atuqpiaqlugit hulaqutit.",
+      "button": "Takulugit Havaakhat"
+    },
+    "process": {
+      "title": "Havaktikhaqhiurutivut Havauhiit",
+      "description": "Tautungnaqtuq, ihuaqtuq, uvalu pittiaqluni ikaangnighangnik",
+      "steps": [
+        {
+          "title": "Uuktuqlutik",
+          "description": "Tuyuqlugu uuktuutit ihivriungniaqtaqqut pingahuni havangnaqtuni ubluni."
+        },
+        {
+          "title": "Hivullirmik Uqaqatigiingniq",
+          "description": "30 minitsinik piksasuuliurlutik uqarvigilugit atuqpakhimajatit nahurijatillu."
+        },
+        {
+          "title": "Nutauniqhanik",
+          "description": "Qaritauyakkut apiqhuiniq uvaluuniin uuktuut tautuktitiyaangani ayuitatit."
+        },
+        {
+          "title": "Tunihiniq",
+          "description": "Takulugit iligiit uvalu tuniyaulutit uuktuutingnik ilauyaangni Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Angmaumajut Havaakhat",
+      "description": "Nalvaaqhilutit tuklianik havaakhamik ilaulutillu amigaigjuumijut havaqatigiiktut",
+      "unavailable": "Pilimaitut uuktuutinik tadja",
+      "apply": "Uukturit Uukturit",
+      "noMatch": "Takungitpit nakuuqpiaqtumik havaamik?",
+      "sendCv": "Tuyuqluta CVmik",
+      "listings": [
+        {
+          "title": "Angajukhiq Full-Stack Engineer",
+          "department": "Qauyimayiuyut",
+          "location": "Ungahiktukkut (EU ubluqhiutaitigut nunatigut)",
+          "type": "Ubluq tamaat",
+          "description": "Piliurluni aadlanguqtaaqtumik havakviup atuqtakhanginnik aturluni React, Node.js, unalu cloud ayuitaminik.",
+          "tags": [
+            "Qanuriliurniq",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps Engineer",
+          "department": "Qauyimayiuyut",
+          "location": "Sarajevo / Ungahiktumi",
+          "type": "Ubluq tamaat",
+          "description": "Piliurluni munarilugulu CI/CD turhuangit, aulapkaitjutikhanik naunaitkutanganik, munariniqmullu timiqutigiyangillu.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI/ML Hanayiuyuq",
+          "department": "Innovation Lab",
+          "location": "Ungahiktumi",
+          "type": "Ubluq tamaat",
+          "description": "Havaklugit machine learning atugahat uvalu AI ihuaqhaidjutikhat nanminiqaqtunun inungnun.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Hunavalungnik Piliuqtiuyuq",
+          "department": "Idjuhikhaa",
+          "location": "Ungahiktumi",
+          "type": "Ubluq tamaat",
+          "description": "Piliurluni piniqpiaqtumik, ayurnaittumik atuqtunut atuqtamiknik ayurnaqtunut havakviup atuqtakhanginnik.",
+          "tags": [
+            "Figma",
+            "Atuqtunik Ilituqhainiq",
+            "UI/UX",
+            "Piliurninnga Timiqutigiyangillu"
+          ]
+        },
+        {
+          "title": "Ihuaqhautikhainik Havakti",
+          "department": "Qauyimayiuyut",
+          "location": "Ungahiktumi",
+          "type": "Ubluq tamaat",
+          "description": "Havaklugit nungunianun nungunianun ayungnaqtutigut ihuaqhaidjutit uvalu ikayuqlugit inuit haffumuuna qaritauyaliqinikkut aalanguqtirnirit.",
+          "tags": [
+            "Cloud Architecture",
+            "Timiqutigiyangillu Piliurninnga",
+            "Qauyihaiyit"
+          ]
+        },
+        {
+          "title": "Qaritaujaliqinikkut Titiraqti",
+          "department": "Auladjutit",
+          "location": "Ungahiktumi",
+          "type": "Ublup ilainnaani",
+          "description": "Havaklugit tamatkiumayut titiqat, atugahat, uvalu ayungnaqtutigut iluaniitut.",
+          "tags": [
+            "Titiqqiqiniq",
+            "API Docs",
+            "Ayurnaqtunik Titirarniq"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Apiqhuutit havagiami hamani?",
+      "description": "Tuhaayumayugut ilingnin. Uqarvigidjavatit kiuniaqtaqqut apiqqutikhaqaruvit inuuhirmut talvani Horizon Tech.",
+      "button": "Hivayaqluta"
+    }
+  },
+  "caseStudies": {
+    "badge": "Nakuujumik Unipkaat",
+    "hero": {
+      "titlePrefix": "Tunihiniq qanuginiinik tapkua",
+      "titleHighlight": "Pidjutauyuq",
+      "description": "Qinirhialutit qanuqtut ikayuqtavut havakvingit tamainni havakvikyuani aadlanguriami aulapkaininngit ukunuuna ihuaqtumik, akhuraaluk pilaqutiyuq ayuitaminik.",
+      "tags": {
+        "delivery": "Qauyimayiuyut Auladjutikharnik",
+        "outcomes": "Aktilaaqtauyut Qanuriniit"
+      }
+    },
+    "stats": {
+      "projects": "Havaaghat Tuniyauyut",
+      "clients": "Quviahuktut Kivgaqtugat",
+      "efficiency": "Qitqani Ihuaqtumik Angikliyuumiqtuq",
+      "retention": "Ikayuqtaunahuaqtunut Pihimaniq"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Maniliqidjutikkut",
+        "title": "Cloud-mut Nuutirniq Nutaanguqtiriniqlu",
+        "description": "Nuutiqhugit utuqqait maniqarviit atuqtakhat talvunga AWS cloud-mut nappaqtirutikhanut nutqangallakhimaittumik.",
+        "challenge": "Legacy monolithic architecture pipkaidjutiyuq aktikkulaanga ihumaaluutinik",
+        "result": "Nakuuyumik nuutiqtauyut microservices uvani AWS",
+        "metrics": [
+          {
+            "label": "Akinga Ikikliyuumiqtuq",
+            "value": "40%"
+          },
+          {
+            "label": "Havaamut Angikliyuumiqtuq",
+            "value": "pingahunik"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Microservices",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech Solutions",
+        "industry": "Munarhiliqinirmut",
+        "title": "AI-Powered Diagnostic Platform",
+        "description": "Piliuqtuq ML uuktuutingit munarhiliqinirmut piksanik ihivriuqniq uuminnga 95%+ ihuaqpiaqtumik.",
+        "challenge": "Makpiraanik ilituqhautinik havauhiqnik hivituvalaaqpaktut",
+        "result": "Inmikkut naunaiyainiq uuminnga AI/ML",
+        "metrics": [
+          {
+            "label": "Ikaakninik Aturluangitun",
+            "value": "70%"
+          },
+          {
+            "label": "Nalaumaninga",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "Qanuriliurniq",
+          "Munarhiliqinirmut"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "E-Commerce Giant",
+        "industry": "Niuvvaaviit",
+        "title": "Real-Time Analytics Dashboard",
+        "description": "Piliuqtuq BI tunngavinga havaanga 10M+ hulilukaarutingit ubluq tamaat.",
+        "challenge": "Takunnaittuq akhuurutauyunut havakviup uuktuutingit",
+        "result": "Talvainnakmi naunaiyautiqhanik kangiqhittiagutiqhaniklu",
+        "metrics": [
+          {
+            "label": "Hulipkaidjutit/Ublua",
+            "value": "10M+"
+          },
+          {
+            "label": "Kiudjutaa Hivitunia",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "Qanuriliurniq",
+          "Nampanik Naunaiyainiq"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Upalungaiqqit titirariaqni nakuuyumik iniqtiqtarnik unipkaaq?",
+      "description": "Uqautigilaqqut qanuq ikayuqtaaqqita piyaangni aadjikiivyaktunik qanuriniinik uvalu aktilaaqlugit hapinginirmun."
+    },
+    "filters": {
+      "title": "Havagvikyuat Halumaqhidjutait",
+      "all": "Tamaita Havagviujut",
+      "empty": "Piqangitut uuktuutinik aadjikiiktunik tikuaqtauhimayunun havagvingnun halumaqhidjutinun."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Ihumagiyauyut uvalu Ihumagiyauyut hamanga",
+      "titleHighlight": "Horizon Tech",
+      "description": "Ayurnaqtunik ayuiqhautit, havagvikyuani kangiqhidjutait, ihuaqtullu ayuiqhautit piqpiaqhimayunit tuniuqhaidjutinit."
+    },
+    "categories": [
+      "Tamaita Titiraqhimajut",
+      "Cloud Architecture",
+      "DevOps",
+      "AI/ML",
+      "Hivunngani",
+      "Backend",
+      "Naunaipkutit"
+    ],
+    "featuredPost": {
+      "id": "Takupkaqtitauyut",
+      "title": "Hivunikhaa Cloud-Native Development: Qanurinningit Qunngiaqtakhat 2025-mi",
+      "excerpt": "Qiniqhialugit kinguliit qanuriniit cloud-native pivallianiq, hamanga serverless architectures hamunga edge computing.",
+      "author": {
+        "name": "Horizon Tech Editorial"
+      },
+      "date": "Hikutirvia 15, 2025",
+      "readTime": "8 minitmik taiguqtuq",
+      "category": "Cloud Architecture",
+      "tags": [
+        "Cloud-guyuq",
+        "Azure",
+        "Qanuriliurninngit"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Piliurniq Scalable Microservices with Azure Kubernetes Service",
+        "excerpt": "Ihuaqtuq maliktakhaq piliuriami iliurariamilu microservices atuqhugu AKS.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "Hikutirvia 12, 2025",
+        "readTime": "6 minitmik taiguqtuq",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Microservices",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Machine Learning in Production: Ajuiqtakhat Ajuiqtatik",
+        "excerpt": "Havakvikmi-uuktuqtauyut ayuiqtakhat iliuraininnganit ML uuktuutingit aktikkulaanga.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "Hikutirvia 10, 2025",
+        "readTime": "10 minitmik taiguqtuq",
+        "category": "AI/ML",
+        "tags": [
+          "Machine Learning",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Hunat Nutaanguyut Huuq Aghuungnaqtut",
+        "excerpt": "Naunaijattiarlugit React 19 atuqtakhangit imaalu aturnikhanut qanurilidjutaujut.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "Hikutirvia 8, 2025",
+        "readTime": "5 minitmik taiguqtuq",
+        "category": "Hivunngani",
+        "tags": [
+          "Qanuriliurniq",
+          "JavaScript",
+          "Qaritauyakkut Pulaarvinga Piliurninnga"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Titirqidjutighangnik Tuhaqtitinikkut",
+      "description": "Pilugit nutanngutqijat titiraqhimajut, ilihautikhat, imaalu ihumagijatit tunijauhimajut havainirmi.",
+      "placeholder": "your.email@example.com",
+      "button": "Titiqiqidjutiliqilutin",
+      "note": "Spam-qangituq. Atiliuguiqlutit quyaginaq."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering Blog",
+        "description": "Maniqami titiraqhimayut uvalu atuguminaqtut atugahat iligiiktunin piliuqtut AI hunanik, nanminiqaqtut auladjutait, uvalu atuguminaqtut cloud tungaviit."
+      },
+      "filters": {
+        "postsInView": "{{count}} titiraqhimayut tautungnaqtut"
+      },
+      "featured": {
+        "badge": "Nutaatqiaq",
+        "readCta": "Taigurlugu titiraqhimajuq"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Iliuraininnga naunaitkutaq...",
+    "title": "Naunaitkutit Ihuaqhaqhimayut",
+    "subtitle": "Munarilugu akmaijutit ihuaqhaqnigit aturumayailu",
+    "photoButton": "Aallangurlugu Piksa",
+    "tabs": {
+      "general": "Taapkununga",
+      "security": "Amiriyiit",
+      "preferences": "Piumaluaqtait"
+    },
+    "messages": {
+      "profileUpdated": "Naunaitkutat nutaanguqtiqtauyuq nakuuyumik",
+      "profileUpdateFailed": "Nutannguqtingittatka naunaitkutit",
+      "passwordsNoMatch": "Nutaat angmaqhidjutikhat aadjikkiingittut",
+      "passwordTooShort": "Angmaqhidjutikhaq piqaqtukhaq 8nik titirauhirnik",
+      "passwordChanged": "Angmaqhidjutikhat aallanguqtauhimajut ihuaqtumik",
+      "passwordChangeFailed": "Aallannguqtingittara angmaqhidjutikhat",
+      "optedOut": "Ilauyumangitunga uuktungnikkut uniudjutit",
+      "optedIn": "Piumaguvit uuktuqhimmaariami taiguagakhat",
+      "optOutFailed": "Nutannguqtingittatka aturumangittatit qanurinniit"
+    },
+    "general": {
+      "title": "Inum Naunaitkutait",
+      "description": "Nutaanguqtirlugit ilvit inuup naunaitkutait hivayautaillu naunaitkutait",
+      "firstName": "Hivulliq Atia",
+      "firstNamePlaceholder": "John",
+      "lastName": "Kingulliq Atia",
+      "lastNamePlaceholder": "Doe",
+      "email": "Qaritauyakkut Titirarvia",
+      "emailNotice": "Qaritaujakkut titiqqidjutit aallanguqtaulimaittut. Hivayaqlugit ikayuktiuyut ikayuktikhailiuliguvit.",
+      "phone": "Hivayautaa Nampaa",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Tutquumalugit Aallannguqtirutit"
+    },
+    "security": {
+      "title": "Qayangnairutikharnik Ihuaqhaqtauhimayut",
+      "description": "Munarilugu angmaqhidjutikhat imaalu qajangnaitkutikhat aturumajatit",
+      "currentPassword": "Tadja angmaqhidjutikhat",
+      "currentPasswordPlaceholder": "Iliurarlugu tadja angmaqhidjutikhat",
+      "newPassword": "Nutaaq Angmaqhidjutikhaq",
+      "newPasswordPlaceholder": "Iliurarlugu nutaaq angmaqhidjutikhat",
+      "confirmPassword": "Tutqighaqlugu Nutaaq Angmaqhidjutikhaq",
+      "confirmPasswordPlaceholder": "Tutqighaqlugu nutaaq angmaqhidjutikhaq",
+      "passwordHint": "Taima 8nik titirauhiqaqtukhaq",
+      "changePassword": "Aallannguqtirlugu angmaqhidjutikhaq"
+    },
+    "preferences": {
+      "title": "Ilituqhaidjutit Piumaluaqtait",
+      "description": "Munarilugit qanuqtut pivaktarnik nutannguqtiqhimajunik tuhaqtitakhaniklu",
+      "email": {
+        "title": "Qaritauyakkut Tuhaqtidjutit",
+        "description": "Piyaangat nuutaanguqtiqhimayunik ilituqhaidjutikharnik qaritauyakkut titirarviatigun"
+      },
+      "sms": {
+        "title": "SMSkut Ilituqhaidjutit",
+        "description": "Tuyuqtaulutit aghuungnaqtunik tuhaqtidjutinik naqitautikkut"
+      },
+      "optOut": {
+        "title": "Piumangitkumi Ayuirhainiqmut Taiguagakhaq",
+        "description": "Iiqhimalugit uniudjutitit havagvingmun nanminiqaqtumin"
+      },
+      "actions": {
+        "title": "Account Qanuriliurutikhat",
+        "downloadData": "Aadjiliurlugu Account Data",
+        "deleteAccount": "Piirlugu Atiliurvik"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Utiqluni Aihimavikmun",
+    "title": "Ikayuqhirvik",
+    "subtitle": "Ikayuqtaulutit qaritauyaliqutikhanut pivalliadjutikhanut ikayuutikhanut",
+    "cards": {
+      "email": {
+        "title": "Qaritauyakkut Ikayuutikhaq",
+        "description": "Qaritauyakkut titirarvigiluta apiqqutikhaqaruvit"
+      },
+      "project": {
+        "title": "Havaakhamut Apiqhuutit",
+        "description": "Uqautigilugit havaktakhatit pitqujauhimajut",
+        "button": "Hivayaqluta"
+      },
+      "resources": {
+        "title": "Atuqtakhat",
+        "description": "Nutauniqhanik ihuaqutit maliruakhalu",
+        "button": "Takulugit Atuqtakhat"
+      }
+    },
+    "faqTitle": "Apirhuutauraanginnaqtun",
+    "faqDescription": "Qilaminnuaq kiudjutit apirhuutaunginnaqtunut",
+    "faqs": [
+      {
+        "question": "Hunanik kivgaqtuutinik Horizon Tech tunihivat?",
+        "answer": "Tunihiyugut ihuaqhaqhimayunik qaritauyaliqutinik pivalliadjutinik, AI/ML ihuaqhaidjutinik, cloud architecture, DevOps, business intelligence, uvalu IoT kivgaqtuutit."
+      },
+      {
+        "question": "Qanuqtut aullaqtirniaqqinga havaakhamik taffuminga Horizon Tech?",
+        "answer": "Hivayaqluta titirakkut qaritauyakuluuniin ihariagiyangnik. Ihuaqhainiaqtugut nalvaaqhinahuarutikhamik hivajautikkut imaalu tunihiluta uuktuutikhamik."
+      },
+      {
+        "question": "Tunihivakpit aulahimaaqtumik ikayuutinik ihuaqhaidjutiniklu?",
+        "answer": "Hii. Tunihiyugut ikayuutinik uvalu ihuaqhaidjutighanik tapkua ilauyut ihuiguhuutit ihuaqhaqlugit, qayangnautikkut nutaanguqtiqhimayut, uvalu qanuriniit ihuaqhiyuumirutit."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Utiqluni Aihimavikmun",
+    "title": "Nutauniqhanik Ihuaqutit",
+    "subtitle": "Maliruakhat, ilihautikhat, nakuuniqhalu pigiarutit Horizon Tech-kuni ikayuqtiriinit",
+    "hub": {
+      "title": "Ayuiqharvik Katimaviangit",
+      "description": "Qiniqlugit ihuaqhaqhimayut qaritauyaliqinikkut ikayuutit avatiini cloud, AI/ML, DevOps, nutaallu qaritauyaliqutit pivalliadjutit.",
+      "note": "Hapkua tamayat pihimayut atuqpiaqhimayunin havaatigut atuqhimayamingnik uvalu nutaanguqtiqtauhimaaqhutik."
+    },
+    "categories": [
+      {
+        "icon": "nuvuyaq",
+        "title": "Cloud Architecture",
+        "description": "Azure, AWS, unalu cloud-native patterns",
+        "resources": [
+          {
+            "title": "Azure Architecture Nakuuniqhanik Pigiarutit",
+            "type": "Maliruakhaq"
+          },
+          {
+            "title": "Cloud Nuutirnikkut Qanuriliurutikhat",
+            "type": "Nakataa"
+          }
+        ]
+      },
+      {
+        "icon": "qaritaq",
+        "title": "AI unalu Machine Learning",
+        "description": "ML uuktuutingit, nampanik naunaiyainiq, unalu AI ilaliutiniq",
+        "resources": [
+          {
+            "title": "Naunaipkainiq uumunnga Azure ML",
+            "type": "Ilihautikhaq"
+          },
+          {
+            "title": "Igluqpait Piliurninnga ML Turhuangit",
+            "type": "Maliruakhaq"
+          }
+        ]
+      },
+      {
+        "icon": "Ihuaqhaqhimayut",
+        "title": "DevOps unalu Tunngavinga",
+        "description": "CI/CD, aulapkaitjutikhanik naunaitkutanganik, aatumatitut",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Ilihautikhaq"
+          },
+          {
+            "title": "Aulapkaitjutikhanik Naunaitkutaa Terraform",
+            "type": "Maliruakhaq"
+          }
+        ]
+      },
+      {
+        "icon": "naunaitkutaa",
+        "title": "Qaritauyaliqutit Pivalliadjutit",
+        "description": ".NET, React, nutaallu pivallianikkut atuqtauyut",
+        "resources": [
+          {
+            "title": "Halumayuq Piliurninnga .NET",
+            "type": "Maliruakhaq"
+          },
+          {
+            "title": "React Nakuuniqhanik Pigiarutinik",
+            "type": "Nakataa"
+          }
+        ]
+      },
+      {
+        "icon": "tutquumavingit",
+        "title": "Naunaiyautit uvalu Naunaiyautit",
+        "description": "BI, nampanik tutquumavik, unalu naunaiyainiq tunngavingit",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Design",
+            "type": "Ilihautikhaq"
+          },
+          {
+            "title": "Naunaipkutinik Tuutqumavik Hanayaunigani",
+            "type": "Maliruakhaq"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Pijumavin aallangajunik ajuirharutikhanik?",
+      "description": "Tunihiyugut ihuaqhaqhimayunik katimaqyuagutinik hanayiinun uvalu tamayanik iligiit",
+      "text": "Piumavit havakhimaarlutik iliqatigiiktukharnik ayuiqhautikharnik? Tunihiyugut ihuaqhaqhimayunik katimaqyuagutinik haffumunga cloud architecture, DevOps, uvalu nutaanik tunihinikkut atuqtauyut.",
+      "button": "Uqaqatigilugu"
+    }
+  },
+  "unauthorized": {
+    "title": "Piinarialaqininnga Qin'ngiyauyuq",
+    "description": "Angirutiqangitutit piyaangani una makpirnia. Uqaqatigilugu atan'nguyat ihumagigukni una ihuittumik.",
+    "primary": "Talvungaulutit Naunaitkutait",
+    "secondary": "Utiqluni Aihimavikmun"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Titiraq nalvaaqtaungittuq",
+      "description": "Blog post piqangittuq slug-mik: {{slug}}",
+      "back": "Utiffaaqluni blog"
+    },
+    "back": "Utiffaaqluni blog",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Uuktuutigiyauyuq nalvaaqtaungittuq",
+      "description": "Piqangittuq uuktuutimik piqangittuq uumunnga id: {{id}}",
+      "back": "Utiffaaqluni pidjutinun ihivriurutinun"
+    },
+    "back": "Utiffaaqluni pidjutinun ihivriurutinun",
+    "sections": {
+      "executiveSummary": "Aulapkaiyinin Naittuq Titiraqhimayuq",
+      "businessChallenge": "Nanminikkut Ayuqhautit",
+      "technicalSolution": "Nutauniqhanik Ihuaqhautit",
+      "architectureDecisions": "Hanayaunigani Ihumaliurutit",
+      "technologyStack": "Qaritauyaliqinikkut Katitiqhimayut",
+      "resultsImpact": "Qanurilinigit Aktuqnigilu"
+    },
+    "client": "Kivgaqtugaq",
+    "keyOutcomes": "Naunaitun Qanuritmangaangit",
+    "decision": "Ihumaliugut {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Naunaitkutaa tammaqtuq",
+      "title": "Makpirnia Nalvaaqtaungittuq",
+      "description": "Apqutaat apiqhiyat atuqtaungituq uvaluuniin nuutiqtuq. Utiffaaqluhi ihuaqtumut Horizon Tech endpoint-mut.",
+      "requestedPath": "Tukhiqtauhimayuq apqutikhaq",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Ihuaqhainiq apqutikhamut graph... Ajuqtuq",
+        "line2": "Pidjutaa: aadjikkiinggittuq apqutaa ilihaidjutaa",
+        "line3": "Fallback protocol atuqtauyuq",
+        "line4": "Atuqlugu atauhiq naigligiarut ataani aulahimaariarni"
+      },
+      "links": {
+        "home": "Qaritauyakkuurutaa",
+        "services": "Havagutit",
+        "blog": "Blog",
+        "caseStudies": "Uuktuutigivakhimayainik"
+      }
+    },
+    "runtime": {
+      "badge": "Runtime Error",
+      "title": "Hunaliqaa ahiruqtuq uvani makpiqniani",
+      "description": "Niriuktaungituq ayuqhaut ulapiqutauyuq piksaliurutaanun. Uuktuffaaqtaaqtutin qajangnaittumik, utiqlutinluunniit qaritaujakkuurutimun.",
+      "retry": "Uuktuffaarlugu",
+      "home": "Utiqluni Qaritauyamun",
+      "unknown": "Ilihimayaungituq aulavikhanga ihuangitumik"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Blog Management",
+      "subtitle": "Piliuqlutit, ihuaqhaqlugit, uvalu munagilugit titiraqhimayut",
+      "newPost": "Nutaaq Titiraq",
+      "seedData": "Nauttiat Naunaiyautait",
+      "allPosts": "Tamaita Titiraqhimajut",
+      "published": "Makpiraaliuqhimayuq",
+      "draft": "Iniqtiqhimaittuq",
+      "featured": "Naunaiyaqhimayut",
+      "setFeatured": "Katitiqhimayut Naunaiyagiikhimayut",
+      "removeFeatured": "Unguvarlugu Featured",
+      "table": {
+        "title": "Havaakhap Atia",
+        "category": "Katitirvingit",
+        "status": "Qanurinninga",
+        "date": "Ublua",
+        "actions": "Hulidjutit"
+      },
+      "empty": {
+        "message": "Piqangittuq blog titiraqhimayunik huli. Piliurlutit hivulliqpaamik titiraqtarnik imaaluuniit nauttiakhanik uuktuutikhanik naunaitkutikhanik.",
+        "seed": "Nauttiat Naunaiyagakhanik Naunaipkutit",
+        "create": "Piliurlugu Titiraq"
+      },
+      "delete": {
+        "title": "Piirlugu Titiraq",
+        "confirmation": "Piirumaviuk una titiraq? Una hulidjut taimaaqtaulimaittuq.",
+        "delete": "Piirlugu",
+        "cancel": "Taimaaqtauyuq"
+      }
+    },
+    "editor": {
+      "bannerHint": "Tautungnaqtuq angiyumik naunaitkutimik qulaani titiraqhimayup",
+      "bannerImage": "Takuyakhaq Piksa",
+      "coverHint": "Tautungnaqtun qaritauyaliqidjutingni titiraqhimayunik naunaitkutingni",
+      "coverImage": "Qaliqtaa Piksa",
+      "editSlug": "Edit slug",
+      "posts": "Titiraqhimajut",
+      "publish": "Makpiraaliurlugu",
+      "update": "Nutaanguqtirut",
+      "form": {
+        "contentPlaceholder": "Titiraqlugit titiraqhimayatit hamani...",
+        "excerptPlaceholder": "Naitumik titiraqhimayuq titiraqhimayuq...",
+        "pickDate": "Pilugu ublua",
+        "readTimePlaceholder": "e.g. 5 minitmik taiguarniq",
+        "titlePlaceholder": "Titiraqhimajuq atia..."
+      },
+      "meta": {
+        "publisher": "Makpiraaliuqti",
+        "unknownAuthor": "Ilihimayaungituq titiraqti"
+      },
+      "modes": {
+        "edit": "Ihuaqhaqlugu",
+        "editOnly": "Ihuaqhaqhimainnarlugu",
+        "preview": "Ihivriuqhiniq",
+        "previewOnly": "Hivuagut kihimik",
+        "sideBySide": "Hanigagiiktuk",
+        "split": "Aviktauyuq"
+      },
+      "tags": {
+        "heading": "Tags",
+        "placeholder": "Iliuraqlugu atataq..."
+      },
+      "translations": {
+        "auto": "Akhaluut",
+        "autoTranslate": "Inminik-numiktitirniq",
+        "clear": "Tutqighaqtuq",
+        "existing": "Atuqtut",
+        "heading": "Numiktigakhat",
+        "language": "Uqauhikkut",
+        "languages": "Uqauhit",
+        "edit": "Ihuaqhaqlugu",
+        "manual": "Makpiraaq",
+        "preview": "Ihivriuqhiniq",
+        "searchPlaceholder": "Qiniqhialugit uqauhiit...",
+        "translate": "Numiktirlugu"
+      }
+    },
+    "caseStudies": {
+      "title": "Uuktuutigivakhimayainik",
+      "subtitle": "Munarilugit uuktuutigiyauyut havaakhallu takupkaqtitauyut",
+      "newCaseStudy": "Nutaaq Uuktuutigiyauyuq Naunaiyainiq",
+      "seedData": "Nauttiat Naunaiyautait",
+      "allCaseStudies": "Tamaita Pidjutikkut Qaujiharutit",
+      "published": "Makpiraaliuqhimayuq",
+      "draft": "Iniqtiqhimaittuq",
+      "table": {
+        "title": "Havaakhap Atia",
+        "industry": "Havagvik",
+        "client": "Kivgaqtugaq",
+        "status": "Qanurinninga",
+        "actions": "Hulidjutit"
+      },
+      "empty": {
+        "message": "Piqangittuq huli pidjutinik qaujiharutinik.",
+        "seed": "Nauttiat Naunaiyautait",
+        "create": "Piliuqlutit Hivuliqmik"
+      },
+      "delete": {
+        "title": "Piirlugu Uuktuutinga",
+        "confirmation": "Piirumaviuk una pidjuti qaujiharuti? Una hulidjut taimaaqtaulimaittuq.",
+        "delete": "Piirlugu",
+        "cancel": "Taimaaqtauyuq"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Uuktuutigivakhimayainik",
+      "published": "Makpiraaliuqhimayuq",
+      "draft": "Iniqtiqhimaittuq",
+      "update": "Nutaanguqtirut",
+      "create": "Piliuqlutik",
+      "sections": {
+        "basicInfo": "Naunaitun Naunairutikhangit",
+        "narrative": "Unipkaarhimayuq",
+        "architectureDecisions": "Hanayaunigani Ihumaliurutit",
+        "techStack": "Tech Stack",
+        "results": "Qanuritnit",
+        "tags": "Tags"
+      },
+      "fields": {
+        "title": "Havaakhap Atia",
+        "titlePlaceholder": "Uuktuutit atia",
+        "slug": "Slug",
+        "slugPlaceholder": "auto-generated-from-title",
+        "client": "Kivgaqtugaq",
+        "clientPlaceholder": "Taaktiliqinahuaq atia",
+        "industry": "Havagvik",
+        "industryPlaceholder": "Tikuaqlugu havagvik",
+        "description": "Unniqtuta",
+        "descriptionPlaceholder": "Naittumik naunaiyautit (tautungnaqtut titirqani)",
+        "executiveSummary": "Aulapkaiyinin Naittuq Titiraqhimayuq",
+        "executiveSummaryPlaceholder": "Qulvahiktumik-ittut ihivriurniq ilaupkaininnganik",
+        "challenge": "Akhuurutit",
+        "challengePlaceholder": "Hunamik ayuqhautiqaqqa ikayuqtauyumayuq?",
+        "solution": "Ihuaqhaidjutighaq",
+        "solutionPlaceholder": "Qanuq ayuqhaut ihuaqhiyauva?",
+        "decision": "Ihumaliugutit",
+        "decisionPlaceholder": "Hunat ihumaliugutauvat",
+        "rationale": "Ihumagijauninga",
+        "rationalePlaceholder": "Huuq una upautiniq piyauhimayuq",
+        "metric": "Uuktuutit",
+        "metricPlaceholder": "e.g. Settlement Latency",
+        "value": "Akitutilaanga",
+        "valuePlaceholder": "e.g. -63% imaaluuniit 4.8h -> 11m",
+        "resultDescription": "Unniqtuta",
+        "resultDescriptionPlaceholder": "Qanuq una qanuriliniga tukiqaqmagaa",
+        "techPlaceholder": "Ilalugu qaritauyaliqutit (naqilugu Enter)",
+        "tagPlaceholder": "Ilalugu atataq (naqillugu Enter)"
+      },
+      "add": "Ilalugu",
+      "noArchDecisions": "Ihumaliuqhimaittut huli.",
+      "noResults": "Naunaiqtauhimaittut huli.",
+      "decisionLabel": "Ihumaliugut {{number}}",
+      "resultLabel": "Qanuriliniga {{number}}",
+      "controls": {
+        "published": "Makpiraaliuqhimayuq",
+        "publishedDescription": "Una pidjuti qaujiharniq inungnun tautungnaqtipkarlugu",
+        "featured": "Naunaiyaqhimayut",
+        "featuredDescription": "Naunaiyaqlugu una pidjutauyuq naunaiyaut"
+      }
+    },
+    "imageCrop": {
+      "apply": "Uuktuqlutik",
+      "cancel": "Taimaaqtauyuq",
+      "cropTitle": "Crop Piksa",
+      "dropText": "Iliuraqlugu piksa hamunga uvaluuniin naqilugu iliugagiangani",
+      "flipHorizontal": "Makpirlugu hanimut",
+      "flipVertical": "Makpirlugu qunmut",
+      "replace": "Himmauhirlugu",
+      "reset": "Ihuaqhaffaarlugu",
+      "rotateLeft": "Kaivyaqlugit haumikhiani",
+      "rotateRight": "Taliqpingmungarlugu",
+      "uploading": "Iliurainiq...",
+      "toast": {
+        "invalidFile": "Ihuittuq titiraq",
+        "invalidFileDesc": "Iliuraqlugu ihuaqtuq piksa tutquumavik.",
+        "uploadFailed": "Iliurainiq nakuungittuq",
+        "uploadFailedDesc": "Hunaliqaa ihuittumik piyuq. Uuktuffaadjavutit.",
+        "uploaded": "Piksa iliuraqtauyuq",
+        "uploadedDesc": "Piksat iliuraqtauyuq nakuuyumik."
+      }
+    }
+  }
+}

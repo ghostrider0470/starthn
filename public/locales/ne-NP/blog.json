@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "सबै"
+  },
+  "categories": {
+    "aiEngineering": "AI ईन्जिनियरिङ्",
+    "enterpriseArchitecture": "इन्टरप्राइज आर्किटेक्चर",
+    "cloudDevOps": "क्लाउड र DevOps",
+    "automationSystems": "स्वचालन प्रणालीहरू",
+    "softwareReliabilityDesign": "सफ्टवेयरको विश्वसनीयता र डिजाइन"
+  },
+  "readTime": "{{minutes}} मिनेट पढियो",
+  "tagsLabel": "ट्यागहरू",
+  "relatedPosts": "सम्बन्धित पोष्टहरू",
+  "author": {
+    "role": "प्रकाशक[सम्पादन गर्ने]"
+  },
+  "editor": {
+    "emptyPreview": "पूर्वावलोकन हेर्न लेख्न सुरु गर्नुहोस्..."
+  },
+  "tags": {
+    "llmOps": "एलएलएम ओप्स",
+    "promptEngineering": "प्रोम्प्ट ईन्जिनियरिङ्",
+    "observability": "अवलोकनशीलता",
+    "safety": "सुरक्षा[सम्पादन गर्ने]",
+    "domainDesign": "डोमेन डिजाइन",
+    "integration": "एकीकरण[सम्पादन गर्ने]",
+    "governance": "शासन[सम्पादन गर्ने]",
+    "platformStrategy": "प्लेटफर्म रणनीति",
+    "platformEngineering": "प्लेटफर्म ईन्जिनियरिङ्",
+    "ciCd": "सीआई/सीडी",
+    "kubernetes": "कुबेरनेट्स",
+    "developerExperience": "विकासकर्ताको अनुभव",
+    "eventDriven": "घटनाद्वारा सञ्चालित",
+    "workflowOrchestration": "कार्यप्रवाह अर्केस्ट्रेसन",
+    "controlPlanes": "नियन्त्रण विमानहरू",
+    "resilience": "लचिलोपन",
+    "sre": "SRE",
+    "slos": "एसएलओहरू",
+    "failureModes": "असफलता मोडहरू",
+    "resilienceEngineering": "लचिलोपन ईन्जिनियरिङ्",
+    "evaluation": "मूल्याङ्कन",
+    "qualityEngineering": "गुणस्तर इन्जिनियरिङ",
+    "datasets": "डेटासेटहरू",
+    "releaseManagement": "रिलीज व्यवस्थापन",
+    "incidentManagement": "घटना व्यवस्थापन[सम्पादन गर्ने]",
+    "architectureEvolution": "आर्किटेक्चर इभोल्युसन",
+    "riskReduction": "जोखिम न्यूनीकरण[सम्पादन गर्ने]",
+    "postmortems": "पोस्टमार्टमहरू",
+    "progressiveDelivery": "प्रगतिशील डेलिभरी",
+    "canaryReleases": "क्यानरी रिलिजहरू",
+    "featureFlags": "विशेषता झण्डाहरू"
+  }
+}

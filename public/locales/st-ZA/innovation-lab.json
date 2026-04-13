@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Innovation Lab",
+    "description": "Hlahloba li-demos tse kopanetsoeng, liteko le lipontšo tsa tekheniki tse tsoang sehlopheng sa rona sa boenjiniere.",
+    "primary": "Hlahloba Demos",
+    "secondary": "Sheba Patlisiso"
+  },
+  "overview": {
+    "hero": {
+      "title": "Innovation Lab",
+      "description": "Re lekola meeli e sebetsang ho AI, boiketsetso le lits'ebetso tse ajoang, ebe re fetolela lipatlisiso tse netefalitsoeng hore e be bokhoni bo tšepahalang ba tlhahiso.",
+      "primary": "Hlahloba libaka tsa lipatlisiso",
+      "secondary": "Buisana ka tšebelisano 'moho"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Libaka tsa lipatlisiso",
+        "description": "Sebaka se seng le se seng sa ho tsepamisa maikutlo se kopanya lipatlisiso tsa lipatlisiso le litsela tsa ts'ebetsong tse etselitsoeng lits'ebetso tsa lefats'e la 'nete.",
+        "cardCta": "Hlahloba ho tsepamisa mohopolo"
+      },
+      "detailedFocusBriefs": {
+        "title": "Lintlha tse qaqileng tsa ho tsepamisa mohopolo",
+        "description": "Merero ea lipatlisiso tsa nako e haufi hajoale e tloha ho netefatso ea meralo ho ea mererong ea ho tsamaisa."
+      },
+      "fromLabToProduction": {
+        "title": "Ho tloha laboratoring ho ea tlhahisong",
+        "description": "Boqapi ho Horizon bo lekanngoa ka liphetho tse romelloang, eseng li-prototypes tse ikhethileng."
+      },
+      "roadmap": {
+        "title": "R &D Roadmap",
+        "description": "Tsoelo-pele ea mekhahlelo ho tloha ho aha bokhoni ho ea ho litsamaiso tse feto-fetohang, tse tsoelang pele ho ntlafatsa."
+      },
+      "publications": {
+        "title": "Lingoliloeng le Temohisiso",
+        "description": "Lintlha tsa ho ngola le ho kenya tšebetsong ho tsoa mosebetsing o tsoelang pele oa boqapi."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Litsamaiso tsa AI tse sebelisitsoeng",
+        "description": "Meralo ea AI e shebaneng le tlhahiso e kenyelletsang ts'ebeletso ea mohlala, likarolo tsa orchestration le liteko tse laoloang."
+      },
+      "automationFrameworks": {
+        "title": "Meralo ea Automation",
+        "description": "Lisebelisoa tsa kahare tsa boiketsetso bakeng sa ts'ireletso ea ts'ebetso, karabelo ea liketsahalo, le ts'ebetso ea boenjiniere e pheta-phetoang."
+      },
+      "advancedArchitecture": {
+        "title": "Liteko tse tsoetseng pele tsa meralo",
+        "description": "Patlisiso ea meralo e tsitsitseng, e ajoang e ntlafalitsoeng bakeng sa ts'ebetso, mamello ea liphoso le sekala."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Bohlale bo bohale bakeng sa liqeto tse tlase tsa latency, ts'ebetso ea telemetry, le khokahano ea likepe tsa lisebelisoa."
+      },
+      "nlp": {
+        "title": "Ts'ebetso ea Puo ea Tlhaho",
+        "description": "Lipeipi tsa kutloisiso ea lipuo tse ngata bakeng sa tlhophiso, ho ntša, phetolelo le litsamaiso tsa moqoqo."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Evolutionary Algorithms & Optimization",
+        "description": "Litsamaiso tsa lipatlisiso le ntlafatso tse bululetsoeng ke khetho ea tlhaho ho rarolla mathata a phahameng a boenjiniere."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Meralo ea Automation",
+        "description": "Re haha meralo ea ts'ebetso ea ts'ebetso bakeng sa orchestration ea tokollo, liheke tsa boleng, le netefatso ea kamora ho romelloa ho fokotsa khohlano ea matsoho ha re ntse re ntlafatsa ts'epahalo."
+      },
+      "advancedArchitecture": {
+        "title": "Liteko tse tsoetseng pele tsa meralo",
+        "description": "Liteko tsa rona tsa meralo li shebana le maano a ho senyeha ha litšebeletso, mekhoa ea ts'ireletso ea libaka le li-envelope tsa ts'ebetso bakeng sa litsamaiso tse sebetsang tlasa tlhoko e sa fetoheng."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Re netefatsa meralo ea phallela ea liketsahalo le bohale e nolofalletsang liqeto tse potlakileng tsa lehae ha re ntse re boloka taolo e bohareng, tlhahlobo le taolo ea bophelo ba mohlala."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Adaptive Capacity Planning",
+        "description": "Li-prototypes tsa laboratori li netefalitsoe khahlano le mesebetsi e etsisoang ebe li kopanngoa le maano a sethala."
+      },
+      "operationalIntelligence": {
+        "title": "Bohlale ba Ts'ebetso",
+        "description": "Lipeipi tsa NLP li tloha litekong tse laoloang ho ea ho ts'ehetso ea tlhahiso bakeng sa triage e potlakileng le temohisiso e hlakileng."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Ntlafatso ea Tsamaiso ea Phano",
+        "description": "Mekhoa ea ho iphetola ha lintho e lekiloeng ka laboratoring e fetoleloa lienjineri tsa ntlafatso bakeng sa kemiso le kabo."
+      },
+      "edgeDecisioning": {
+        "title": "Qeto ea Edge",
+        "description": "Liteko tsa IoT le bohale li thatafatsoa lits'ebeletso tse tlase tsa latency tse nang le lithibelo tse thata tsa ts'epahalo."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Hona joale",
+        "title": "Metheo ea AI e sebelisitsoeng",
+        "description": "Atolosa litempele tse ka sebelisoang hape tsa mohlala, li-suites tsa tlhahlobo le litekanyetso tsa ho shebella lihlopha tsa lihlahisoa."
+      },
+      "next": {
+        "phase": "E latelang",
+        "title": "Boits'oaro ba Boenjiniere bo Ikemetseng",
+        "description": "Sebelisa meralo ea boiketsetso e fokotsang kotsi ea ho tsamaisa le ho khutsufatsa li-loops tsa maikutlo bakeng sa thomello."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "Likhoeli tse 12-18",
+        "title": "Bohlale ba Edge-Native",
+        "description": "Scale hybrid cloud-edge architectures for near real-time inference in latency-sensitive environments."
+      },
+      "longHorizon": {
+        "phase": "Sebaka se selelele",
+        "title": "Mekhoa e tsoelang pele ea ntlafatso",
+        "description": "Kopanya liteko, ho lekola le ho ntlafatsa e le hore litsamaiso li ka ikamahanya le maemo ka mokhoa o sireletsehileng ha maemo a fetoha."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Lisebelisoa tsa AI tse lulang li tšepahala tlhahisong",
+        "summary": "Pono e sebetsang ea ho leka-lekanya lebelo la liteko le taolo ea tlhahiso.",
+        "cta": "Bala leseli"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Mekhoa ea meralo e ajoang bakeng sa liforomo tsa kholo e phahameng",
+        "summary": "Lintlha tsa tšimo tse tsoang litekong tsa meralo li shebile ts'ebetso, botsitso le bonolo ba ts'ebetso.",
+        "cta": "Hlahloba lithuto tsa linyeoe"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping Applied R&D bakeng sa Liphetho tsa Khoebo",
+        "summary": "Kamoo re hlophisang merero ea boqapi e le hore lintho tse sibollotsoeng li tsamaee ho tloha ho prototype ho ea boleng bo ka lekanngoang.",
+        "cta": "Hlahloba lingoliloeng"
+      }
+    },
+    "cta": {
+      "title": "Haha ka Horizon Innovation Lab",
+      "description": "Sebelisana 'moho le rona ho netefatsa mehopolo e ikemiselitseng kapele le ho tsamaisa mehopolo e netefalitsoeng lits'ebetsong tse sireletsehileng le tse ka senyehang tsa tlhahiso.",
+      "primary": "Qala moqoqo",
+      "secondary": "Sheba liphetho tsa phano"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Litsamaiso tsa AI tse sebelisitsoeng",
+      "description": "Kakaretso e sebetsang ea hore na Horizon e rala joang, e tsamaisa le ho sebelisa lits'ebetso tsa ho ithuta ka mochini ho tloha ho prototype ho isa tlhahisong.",
+      "back": "Khutlela ho Innovation Lab",
+      "tags": {
+        "appliedAi": "AI e sebelisitsoeng",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Lipeipi tsa ho ithuta ka mochini",
+        "description": "Tlhahiso ea AI e qala ka lipeipi tse hlahisang tse hokahanyang data, liteko, netefatso le maikutlo."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Model Deployment Patterns",
+        "description": "Leano la ho tsamaisa le khethiloe ho latela litlhoko tsa latency, ho nyatsa khoebo le ho rarahana ha ts'ebetso."
+      },
+      "mlopsOperatingModel": {
+        "title": "Mohlala oa Ts'ebetso ea MLOps",
+        "description": "Mekhoa ea MLOps e netefatsa hore litsamaiso tsa AI li lula li ts'epahaloa, li laoloa ebile li ka senyeha ha ts'ebeliso e ntse e hola."
+      },
+      "monitoringAndReliability": {
+        "title": "Ho lekola le ho tšepahala",
+        "description": "Observability e koala loop lipakeng tsa boits'oaro ba mohlala le liphetho tsa ts'ebetso."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Boenjiniere ba Boitsebiso le Likarolo",
+        "description": "Ho kenngoa ha data ho fetolelitsoe, licheke tsa boleng, le litlhaloso tsa likarolo tse ka sebelisoang hape li theha motheo o tšepahalang oa koetliso ea mohlala."
+      },
+      "modelDevelopment": {
+        "title": "Nts'etsopele ea Mohlala",
+        "description": "Liteko li lateloa ka litlhophiso tse hlahisitsoeng hape, metriki ea sepheo le metheo ea papiso e ikemetseng."
+      },
+      "validationAndSafetyGates": {
+        "title": "Liheke tsa Netefatso le Ts'ireletso",
+        "description": "Mefuta ea bakhethoa e fetisa ts'ebetso, ho tiea le ho hlahlojoa ha leano pele e amoheloa ho lokolloa."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Operations Feedback Loops",
+        "description": "Telemetry ea kamora ho romelloa e tsebisa lintho tse tlang pele ho koetlisa bocha, liqeto tsa ho khutlisa le moralo o latelang oa phetoho."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Litšebeletso tsa Inference tsa Nako ea 'Nete",
+        "description": "Li-API tsa latency e tlase bakeng sa lits'ebetso tse sebelisanang tse nang le autoscaling, caching le ho shebella boemo ba kopo."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Likhakanyo tsa Batch le Streaming",
+        "description": "Lipeipi tse hlophisitsoeng le tse tsamaisoang ke ketsahalo bakeng sa lintlha tse phahameng ho li-analytics le ts'ebetso ea ts'ebetso."
+      },
+      "edgeAwareDeployment": {
+        "title": "Ho tsamaisoa ha Edge-Aware",
+        "description": "Mekhoa ea ho sebeletsa leru la leru bakeng sa libaka tse hlokang inference ea lehae le taolo ea mohlala o bohareng."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI / CD bakeng sa Models",
+        "description": "Ho aha ka boiketsetso, ho leka le ho lokolla li-workflows ho fokotsa kotsi ea ho tsamaisoa ha ho ntse ho boloka lebelo la ho tsamaisa."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Model Registry le Lifecycle",
+        "description": "Mefuta e fapa-fapaneng e nang le mekhahlelo ea papatso, lineage le ts'ebetso ea tumello e ntlafatsa taolo le traceability."
+      },
+      "servingInfrastructure": {
+        "title": "Ho sebeletsa meralo ea motheo",
+        "description": "Likarolo tse sebetsang tse nang le maano a ho tsamaisa joalo ka canary le shadow deployments li ts'ehetsa taolo e sireletsehileng ea phetoho."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Boleng ba ponelopele le ho lemoha drift",
+      "latencyThroughputAndCostEfficiencyTracking": "Latency, Throughput, le Ts'ebetso ea Litšenyehelo",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Litlhokomeliso tsa boleng ba data le li-workflows tsa ho lokisa",
+      "auditabilityForComplianceAndIncidentAnalysis": "Tlhahlobo ea ho latela le tlhahlobo ea liketsahalo"
+    },
+    "cta": {
+      "title": "Scale Applied AI ka boits'epo",
+      "description": "Haeba u rera merero ea AI e hlokang liphetho tse ka lekanngoang le ho boloka nako e telele, Horizon e ka thusa ho rala le ho kenya ts'ebetsong potoloho e felletseng ea bophelo ba sistimi.",
+      "primary": "Ikopanye le sehlopha sa rona",
+      "secondary": "Explore More Lab Work"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "NLP ea lipuo tse ngata",
+      "description": "Hlahloba bokhoni bo sebetsang ba ho sebetsana le puo ea tlhaho le hore na ba hola joang lits'ebetsong tse tšepahalang, tsa tlhahiso ea lipuo tse ngata.",
+      "back": "Khutlela ho Innovation Lab",
+      "tags": {
+        "demo": "Interactive Demo",
+        "intelligence": "Bohlale ba Puo"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Metheo ea NLP",
+        "description": "Ts'ebetso ea puo ea tlhaho e kopanya matšoao a puo le ho ithuta ka mochini ho ntša moelelo, sepheo le sebopeho ho tsoa mongolo."
+      },
+      "workbench": {
+        "title": "Interactive NLP Workbench",
+        "description": "Sebelisa demo ho leka ho lemoha puo, ho fumana maikutlo, ho ntša mokhatlo le boits'oaro ba phetolelo ka nako ea 'nete."
+      },
+      "productionApplications": {
+        "title": "Horizon e sebelisa NLP joang tlhahisong",
+        "description": "Bokhoni ba NLP bo kopantsoe le ts'ebetso ea khoebo ka li-guardrails tsa ts'ebetso le metriki e hlakileng ea boleng."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Melao-motheo ea Ts'epahalo le Tsamaiso",
+        "description": "Tlhahiso ea NLP e hloka ho feta boleng ba mohlala; E ipapisitse le mekhoa e bolokehileng ea ho tsamaisa le netefatso e tsoelang pele."
+      }
+    },
+    "foundations": {
+      "intro1": "Litsamaiso tsa sejoale-joale tsa NLP li matlafatsa ts'ehetso ea boiketsetso, bohlokoa ba ho batla, ho ntša tsebo le tšebelisano 'moho ea lipuo tse ngata. Ts'ebetsong e sebetsang e hloka boleng ba mohlala le taolo e matla ea ts'ebetso.",
+      "intro2": "Ho Horizon, re tsepamisitse maikutlo ho litsamaiso tsa NLP tsa ho qetela tse kopanyang maikutlo a matla le ho shebella, taolo le tšusumetso ea tlhahiso e ka lekanngoang."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Ho lemoha puo",
+        "description": "Khetholla puo ho tloha likarolong tse khuts'oane kapa tse telele tsa mongolo ho tsamaisa likopo ho phaephe e nepahetseng ea ts'ebetso."
+      },
+      "sentimentAnalysis": {
+        "title": "Tlhahlobo ea maikutlo",
+        "description": "E ntša sepheo sa maikutlo le polarity bakeng sa bohlale ba bareki, ts'ehetso ea ts'ehetso le li-loops tsa maikutlo a sehlahisoa."
+      },
+      "entityExtraction": {
+        "title": "Tlhahiso ea Entity",
+        "description": "E fumana mekhatlo e hlophisitsoeng joalo ka mabitso, lik'hamphani, libaka le matsatsi a tsoang mongolo o sa hlophisoang."
+      },
+      "translation": {
+        "title": "Phetolelo",
+        "description": "Ts'ehetsa ts'ebetso ea lipuo tse ngata ka ho fetolela mongolo o hlahisitsoeng ke mosebelisi kapa o sebetsang ha o ntse o boloka moelelo oa taba."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Ts'ehetso le Bohlale ba Litekete",
+        "description": "Arola likopo tse kenang ka potlako, sepheo le maikutlo ho potlakisa boleng ba ho tsamaisa le karabelo."
+      },
+      "governedContentOperations": {
+        "title": "Ts'ebetso ea Litaba tse Laoloang",
+        "description": "Sebelisa li-filters tsa puo tse hlokomelang leano le licheke tsa ho lekanyetsa ka ho nepahala le ho hopola lipheo."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Temohisiso ea Khoebo e tsamaisoang ke mongolo",
+        "description": "Kopanya mekhoa ho tsoa litokomaneng, litlhahlobo le likhokahano ho tsebisa leano le liqeto tsa ts'ebetso."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Tlhahlobo ka nyeoe ea ts'ebeliso",
+        "description": "Mehlala e bapisoa le li-dataset tse ikhethileng tsa domain pele liqeto tsa tokollo li etsoa."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Ts'ireletso ea Human-in-the-Loop",
+        "description": "Likhakanyo tse nang le tšusumetso e phahameng li kenyelletsa litsela tsa tlhahlobo, melao ea ho nyoloha le matšoao a boits'epo a hlakileng."
+      },
+      "continuousMonitoring": {
+        "title": "Tlhahlobo e tsoelang pele",
+        "description": "Drift, latency, le ho senyeha ha boleng li lateloa khafetsa kahoo ho ikoetlisa hape le ho khutlisetsa morao ho sebetsa."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Genetic Algorithm Simulation",
+      "description": "Hlahloba lipalo tsa ho iphetola ha lintho tikolohong e sebelisanang 'me u bone hore na melao-motheo e tšoanang e fetolela joang lits'ebetsong tsa ntlafatso ea tlhahiso.",
+      "back": "Khutlela ho Innovation Lab",
+      "tags": {
+        "demo": "Interactive Demo",
+        "optimizationScience": "Saense ea Ntlafatso"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Motheo oa Saense",
+        "description": "Li-algorithms tsa liphatsa tsa lefutso ke mekhoa ea ntlafatso e thehiloeng ho baahi e bululetsoeng ke khetho ea tlhaho le ho ikamahanya le maemo."
+      },
+      "interactiveEnvironment": {
+        "title": "Tikoloho ea ho iphetola ha lintho",
+        "description": "Tsamaisa ketsiso ho bona boikoetliso bo ntlafala molokong ka moloko le ho bona hore na khatello ea khetho e ama liphetho joang."
+      },
+      "productionUse": {
+        "title": "Horizon e sebelisa sena joang tlhahisong",
+        "description": "Mechini e ts'oanang ea ho batla e sebelisitsoeng pontšong ena e tsebisa lipeipi tsa ntlafatso tse sebelisoang lits'ebetsong tsa ts'ebetso."
+      },
+      "applicationDomains": {
+        "title": "Libaka tse pharalletseng tsa ts'ebeliso",
+        "description": "Ntlafatso ea ho iphetola ha lintho e bohlokoa haholo lits'ebetsong tse nang le lipheo tse matla le lithibelo tse hanyetsanang."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Sebakeng sa ho batla tharollo e le 'ngoe ka nako, li-algorithms tsa liphatsa tsa lefutso li hlahisa palo e fapaneng ea bakhethoa. Moloko o mong le o mong o hlahlojoa khahlano le ts'ebetso ea boikoetliso mme o ntlafatsoa ka khetho, crossover le phetoho.",
+      "intro2": "Sena se etsa hore li atlehe bakeng sa mathata a phahameng a nang le lithibelo tse sa sebetseng, moo mekhoa ea deterministic e leng brittle kapa e theko e boima haholo."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Khetho",
+        "description": "Bakhethoa ba sebetsang hantle ba na le monyetla oa ho pholoha le ho susumetsa moloko o latelang."
+      },
+      "crossover": {
+        "title": "Crossover",
+        "description": "Litšobotsi tse matla li kopantsoe bocha ho theha tharollo e ncha ea bakhethoa ba nang le matla a tsoakaneng."
+      },
+      "mutation": {
+        "title": "Phetoho",
+        "description": "Randomness e laoloang e hlahisa phapang e le hore patlo e se ke ea emisa ho potoloha optimum ea lehae."
+      },
+      "convergence": {
+        "title": "Convergence",
+        "description": "Ho theosa le meloko e mengata, baahi ba tloaetse ho fumana tharollo e tsitsitseng le ea boleng bo holimo."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Kemiso ea Lisebelisoa",
+        "description": "Re sebelisa maano a ho iphetola ha lintho ho ntlafatsa kemiso ea litšitiso tse ngata moo patlo ea brute-force e ke keng ea khoneha."
+      },
+      "architectureTuning": {
+        "title": "Architecture Tuning",
+        "description": "Litlhophiso tsa meralo ea motheo ea mokhethoa li hlahlojoa iteratively ho ntlafatsa ts'ebetso le ts'ebetso ea litšenyehelo."
+      },
+      "continuousOptimization": {
+        "title": "Ntlafatso e tsoelang pele",
+        "description": "Mesebetsi ea ntlafatso e matha ka li-loops tse laoloang ka maikutlo a telemetry e le hore litsamaiso li ikamahanya le maemo ha lifaele tsa tlhokeho li fetoha."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Moralo oa Route & Logistics",
+        "description": "Moralo o rarahaneng oa ho tsamaisa le ho romella o rua molemo ho patlo ea ho iphetola ha litšitiso li fetoha ka potlako."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Mohlala le Patlo ea Hyperparameter",
+        "description": "Patlo ea liphatsa tsa lefutso e ka fumana litlhophiso tsa boleng bo holimo ha bokaholimo ba sepheo bo le lerata ebile bo se na linear."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Mathata a Portfolio le Kabo",
+        "description": "Ntlafatso tlasa lipheo tse qothisanang lehlokoa e ka hlophisoa e le li-tradeoffs tsa boikoetliso ho lihlopha tse fetohang."
+      }
+    }
+  }
+}

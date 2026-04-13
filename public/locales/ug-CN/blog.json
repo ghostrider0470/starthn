@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "بارلىق"
+  },
+  "categories": {
+    "aiEngineering": "AI ئىنژېنېرلىقى",
+    "enterpriseArchitecture": "كارخانا قۇرۇلمىسى",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "ئاپتوماتلاشتۇرۇش سىستېمىسى",
+    "softwareReliabilityDesign": "يۇمشاق دېتال ئىشەنچلىك ۋە لايىھەلەش"
+  },
+  "readTime": "{{minutes}} مىنۇت ئوقۇش",
+  "tagsLabel": "خەتكۈچلەر",
+  "relatedPosts": "مۇناسىۋەتلىك يازمىلار",
+  "author": {
+    "role": "نەشىر قىلغۇچى"
+  },
+  "editor": {
+    "emptyPreview": "ئالدىن كۆرۈش ئۈچۈن يېزىشنى باشلاڭ..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "ئىنژېنېرلىق ئىنژېنېرلىقى",
+    "observability": "كۆزىتىشچانلىقى",
+    "safety": "بىخەتەرلىك",
+    "domainDesign": "دائىرە نامى لايىھەسى",
+    "integration": "بىرلەشتۈرۈش",
+    "governance": "ئىدارە قىلىش",
+    "platformStrategy": "سۇپا ئىستراتېگىيەسى",
+    "platformEngineering": "سۇپا قۇرۇلۇشى",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "ئىجادىيەتچىلەر تەجرىبىسى",
+    "eventDriven": "ۋەقە تۈرتكىسىدە",
+    "workflowOrchestration": "خىزمەت تەرتىپى ئوركېستىرى",
+    "controlPlanes": "كونترول تەكشىلىكى",
+    "resilience": "چىدامچانلىق",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "مەغلۇپ بولۇش ئەندىزىسى",
+    "resilienceEngineering": "ماسلىشىشچانلىق قۇرۇلۇشى",
+    "evaluation": "باھالاش",
+    "qualityEngineering": "سۈپەت قۇرۇلۇشى",
+    "datasets": "سانلىق مەلۇمات توپلىمى",
+    "releaseManagement": "نەشىر باشقۇرۇش",
+    "incidentManagement": "ھادىسە باشقۇرۇش",
+    "architectureEvolution": "بىناكارلىق تەدرىجىي تەرەققىيات",
+    "riskReduction": "خەۋپ-خەتەرنى ئازايتىش",
+    "postmortems": "جەسەت",
+    "progressiveDelivery": "تەدرىجىي يەتكۈزۈش",
+    "canaryReleases": "Canary ئېلان قىلىندى",
+    "featureFlags": "ئالاھىدىلىك بايراقلىرى"
+  }
+}

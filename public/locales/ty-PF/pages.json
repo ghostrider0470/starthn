@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "No ni'a ia matou",
+    "hero": {
+      "titlePrefix": "Te paturaa i te mau rave'a apî no ananahi,",
+      "titleHighlight": "I teie mahana",
+      "description": "Horizon Tech d.o.o. o te hoê ïa taiete aravihi na te ao atoa nei i Sarajevo, o te horo'a nei i te mau rave'a roro uira apî i te mau taiete i roto e toru fenua."
+    },
+    "sections": {
+      "mission": {
+        "title": "Misioni",
+        "description": "Te tauturu nei matou i te mau faanahonahoraa ia faariro i te mau mana'o rahi ei mau tauihaa roro uira ti'aturihia o te faatupu i te faufaa o te ohipa e nehenehe e faitohia.",
+        "points": [
+          "A faatano i te mau rave'a apî i ni'a i te mau hopearaa papû o te ohipa.",
+          "A hamani i te mau faanahoraa no te tau maoro o te vai noa i roto i te mau pŭpŭ i te rahi.",
+          "A apiti atu i te feia e rave ra i te ohipa mai te faanahoraa e tae atu i te faaohiparaa."
+        ]
+      },
+      "expertise": {
+        "title": "Aravihi",
+        "description": "Te amui nei ta matou mau pŭpŭ rave rahi i te hohonuraa o te matini e te feruriraa i te mau tauihaa i roto i te mau rave'a apî.",
+        "points": [
+          "Enterprise-grade web and platform engineering.",
+          "Cloud architecture, DevOps automation, and resilient infrastructure.",
+          "Faaohiparaa i te AI/ML, te mau tereraa ohipa, e te mau tauihaa IoT."
+        ]
+      },
+      "approach": {
+        "title": "Rave'a",
+        "description": "Te rave nei matou na roto i te hoê hi'oraa maramarama e te tamau noa o te tape'a i te haponoraa ma te faaiti atoa i te fifi o te tauihaa.",
+        "points": [
+          "A hi'opo'a : a faataa oioi i te aano, te mau ohipa matamua e te mau faito manuïaraa.",
+          "Hamani : hapono i te mau taahiraa e te mau reni pahonoraa tamau.",
+          "Haamaitai : hi'opo'a i te mau hopearaa e haamaitai i te ohipa i roto i te roaraa o te tau."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Ua ineine anei outou no te taui i ta outou ohipa ?",
+      "description": "A amui atu i roto i te tabula rahi o te mau taiete o te ti'aturi nei i te Horizon Tech no te horo'a i te mau rave'a apî e te mau faahopearaa faahiahia.",
+      "primary": "A haamata",
+      "secondary": "A hi'o i te mau aamu manuïaraa"
+    }
+  },
+  "contact": {
+    "badge": "A farerei atu ia matou",
+    "hero": {
+      "title": "A farerei mai ia matou",
+      "description": "Te vai ra anei te hoê opuaraa i roto i te feruriraa ? E mea au roa na matou ia faaroo mai ia outou. A haere e farerei no te aparau e nahea matou e nehenehe ai e tauturu i te faatupuraa i to outou mau mana'o."
+    },
+    "info": {
+      "title": "Te mau haamaramaramaraa no ni'a i te"
+    },
+    "booking": {
+      "title": "A faanaho i te hoê putuputuraa",
+      "description": "A faanaho i te hoê niuniu tamoni ore e 30 minuti te maoro"
+    },
+    "methods": {
+      "email": {
+        "title": "Imere",
+        "description": "A hapono mai i te hoê rata uira i te mau taime atoa",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Vahi",
+        "description": "Niuhia i roto i te",
+        "value": "Sarajevo, Bosnie e Herzegovina"
+      },
+      "response": {
+        "title": "Taime pahonoraa",
+        "description": "E pahono tatou i roto i te",
+        "value": "24-48 hora"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Opuaraa apî"
+      },
+      "support": {
+        "label": "Tauturu i te pae aravihi"
+      },
+      "partnerships": {
+        "label": "Te mau apitiraa"
+      },
+      "careers": {
+        "label": "Te mau toro'a"
+      },
+      "general": {
+        "label": "Tuatapaparaa rahi"
+      }
+    },
+    "form": {
+      "title": "A hapono mai i te hoê poro'i",
+      "success": "Mauruuru no ta outou poro'i. E ho'i atu matou ia outou i roto e 24-48 hora.",
+      "error": "Ua tupu te tahi fifi. A tamata faahou e aore râ a imere ti'a mai ia matou.",
+      "fullName": "I'oa taatoa *",
+      "email": "Vahi rata uira *",
+      "company": "Taiete",
+      "subject": "Tumu parau *",
+      "message": "Parau poro'i *",
+      "placeholders": {
+        "name": "To oe i'oa",
+        "email": "you@example.com",
+        "company": "Ta outou taiete",
+        "subject": "Eaha ta tatou e nehenehe e tauturu ?",
+        "message": "A faaite mai ia matou no ni'a i ta outou opuaraa e aore râ, ta outou aniraa..."
+      },
+      "validation": {
+        "required": {
+          "name": "Titauhia te i'oa taatoa.",
+          "email": "E titauhia te vahi rata uira.",
+          "subject": "A ma'iti i te hoê tumu parau.",
+          "message": "E titauhia te parau poro'i."
+        },
+        "email": "A papa'i i te hoê vahi rata uira ti'a.",
+        "messageMinLength": "E mea ti'a i te parau poro'i ia naeahia e {{count}} a'e reta te roa."
+      },
+      "sending": "Te haponoraa...",
+      "submit": "Hapono i te parau poro'i"
+    },
+    "reasonsTitle": "No te aha e rave ai i te ohipa e o matou ?",
+    "reasons": [
+      "Te aravihi no te hamaniraa i te mau faanahoraa roro uira",
+      "Te mau taata aravihi no te AI/ML e te cloud architecture",
+      "Te faatupuraa i te ohipa vitiviti e te haaparareraa mana'o papû",
+      "Te patururaa e te atuaturaa maoro"
+    ],
+    "custom": {
+      "title": "Te mau rave'a taa ê",
+      "description": "Te imi ra outou i te hoê rave'a tano maitai ? Te rave amui nei matou i te ohipa e te mau hoani no te maramarama i te mau hinaaro taa ê e no te horo'a i te mau faanahoraa taa ê o te faatupu i te mau faahopearaa e nehenehe e faitohia.",
+      "cta": "A tauaparau no ni'a i ta outou opuaraa"
+    },
+    "faq": {
+      "title": "Te vai ra anei te tahi atu mau uiraa ?",
+      "description": "A hi'o i ta matou tuhaa FAQ no te mau pahonoraa vitiviti",
+      "cta": "A hi'o i te mau FAQ"
+    }
+  },
+  "team": {
+    "badge": "Ta matou pŭpŭ",
+    "hero": {
+      "titlePrefix": "A farerei i te mau feruriraa i muri mai",
+      "titleHighlight": "Horizon Tech",
+      "description": "Te hoê pŭpŭ taata aravihi e rave rahi o te hamani amui nei i te mau tauihaa roro uira."
+    },
+    "section": {
+      "title": "Pŭpŭ faatere",
+      "description": "Te feia faatere aravihi e arata'i nei i te hi'oraa e te tupuraa o Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Taata faati'a, faatere rahi e CTO",
+        "bio": "E taata faatere hi'oraa atea e e taata papa'i hoho'a aravihi e 10+ matahiti i roto i te mau faanahoraa roro uira, e mea aravihi i roto i te AI/ML, te mau faanahoraa cloud, e te hamaniraa tauihaa faito rahi.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Faanahoraa no te rave'a",
+          "Cloud Engineering"
+        ]
+      },
+      "ahmet": {
+        "role": "Faatere no te paruru",
+        "bio": "Taata aravihi no te paruru i te roro uira tei faatumu i ni'a i te faanahoraa parururaa o te taiete, te mau faanahoraa paruru i te vahi nohoraa, e te haapa'oraa i te mau vahi faaterehia.",
+        "expertise": [
+          "Parururaa i ni'a i te roro uira",
+          "Te mau faanahoraa i ni'a i te vahi nohoraa",
+          "Faanahoraa no te parururaa",
+          "Haapa'oraa",
+          "Parururaa i te mau faanahoraa"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Rata uira {{name}}",
+      "linkedin": "{{name}} LinkedIn profile"
+    },
+    "culture": {
+      "title": "Te oraraa i te Horizon Tech",
+      "description": "Te faaitoito nei matou i te hoê hiro'a tumu no te ohipa apî, te tahoêraa e te haapiiraa tamau",
+      "remoteFirst": {
+        "title": "Te peu tumu no te atea na mua",
+        "description": "A rave i te ohipa i te mau vahi atoa ma te faaau i te mau hora e te faatumuraa i ni'a i te mau hopearaa, eiaha râ i te vahi."
+      },
+      "collaborative": {
+        "title": "Te vahi tahoêraa",
+        "description": "Te mau ohipa tamau a te pŭpŭ, te mau tuhaa opereraa ite, e te ohipa-amui-raa."
+      },
+      "workLife": {
+        "title": "Te aifaitoraa i te ohipa e te oraraa",
+        "description": "Te ture no te tau faafaaearaa, te patururaa i te pae no te feruriraa, e te faaturaraa i to outou taime."
+      },
+      "innovation": {
+        "title": "Te taime no te ohipa apî",
+        "description": "20% taime no te mau opuaraa a te taata iho, te hackathons, e te hi'opo'araa i te mau rave'a apî."
+      },
+      "stats": {
+        "teamMembers": "Te mau melo o te pŭp�",
+        "countries": "Te mau fenua",
+        "techStacks": "Te mau rave'a apî",
+        "remoteReady": "Remote Ready"
+      }
+    },
+    "cta": {
+      "title": "Te hinaaro nei outou e amui atu i roto i ta matou pŭpŭ ?",
+      "description": "Te imi noa nei matou i te mau taata aravihi o te mana'ona'o nei i te ohipa rimaî, te faturaa e te ohipa apî.",
+      "button": "A farerei atu ia matou"
+    }
+  },
+  "careers": {
+    "badge": "A amui mai i ta matou pŭpŭ",
+    "hero": {
+      "titlePrefix": "A patu i te ananahi",
+      "titleHighlight": "Na muri iho ia matou",
+      "description": "A amui atu i te hoê pŭpŭ taata aravihi no te hamani i te mau faanahoraa apî no te mau hoani na te ao nei. A rave i te ohipa na te atea, a tupu tamau noa, e a faatupu i te hoê maitai mau.",
+      "button": "A hi'o i te mau ti'araa"
+    },
+    "process": {
+      "title": "Ta matou faanahoraa tihepuraa ohipa",
+      "description": "Te maramarama maitai, te aravihi e te faatura i to outou taime",
+      "steps": [
+        {
+          "title": "A ani",
+          "description": "A hapono i ta outou parau aniraa e e hi'opo'a matou i te reira i roto e 3 mahana ohipa."
+        },
+        {
+          "title": "Aparauraa matamua",
+          "description": "Te hoê niuniu video e 30 minuti te maoro no te aparau i to outou iteraa e te mau tia'iraa."
+        },
+        {
+          "title": "Te mau rave'a aravihi",
+          "description": "Uiuiraa aravihi e aore râ faaineineraa no te faaite i to outou aravihi."
+        },
+        {
+          "title": "Pûpûraa",
+          "description": "A farerei i te pŭpŭ e a farii i ta outou aniraa ia tomo atu i roto i te Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Te mau ti'araa matara",
+      "description": "A imi i ta outou rave'a i muri iho e a amui mai i ta matou pŭpŭ e tupu ra i te rahi",
+      "unavailable": "Aita e farii i te mau aniraa i teie taime",
+      "apply": "A ani i teie nei",
+      "noMatch": "Aita outou e ite ra i te ti'araa maitai roa ?",
+      "sendCv": "A hapono mai i ta outou CV",
+      "listings": [
+        {
+          "title": "Taata aravihi rahi",
+          "department": "Ohipa aravihi",
+          "location": "Remote (EU Time Zones)",
+          "type": "Taime tamau",
+          "description": "Hamani i te mau faanahoraa rahi ma te faaohipa i te mau rave'a apî React, Node.js e cloud.",
+          "tags": [
+            "A pahono",
+            "Node.js",
+            "Papa'iraa",
+            "AWS"
+          ]
+        },
+        {
+          "title": "Taata aravihi DevOps",
+          "department": "Ohipa aravihi",
+          "location": "Sarajevo / Remote",
+          "type": "Taime tamau",
+          "description": "A hamani e a atuatu i te mau pipelines CI/CD, te mau faanahoraa ei code, e te mau faanahoraa hi'opo'araa.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "Taata aravihi AI/ML",
+          "department": "Piha no te ohipa apî",
+          "location": "Te vahi atea",
+          "type": "Taime tamau",
+          "description": "Hamani i te mau hoho'a no te haapii i te matini e te mau rave'a AI no te mau taiete taiete.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Taata hamani tao'a",
+          "department": "Hoho'a",
+          "location": "Te vahi atea",
+          "type": "Taime tamau",
+          "description": "A hamani i te mau iteraa rau nehenehe e te ohie no te mau faanahoraa fifi no te taiete.",
+          "tags": [
+            "Figma",
+            "Te ma'imiraa a te taata",
+            "UI/UX",
+            "Te mau faanahoraa no te hamaniraa"
+          ]
+        },
+        {
+          "title": "Papa'i hoho'a no te mau rave'a",
+          "department": "Ohipa aravihi",
+          "location": "Te vahi atea",
+          "type": "Taime tamau",
+          "description": "A faanaho i te mau rave'a aravihi e a arata'i i te mau hoani i roto i te tauiraa roro uira.",
+          "tags": [
+            "Cloud Architecture",
+            "Faanahoraa no te faanahoraa",
+            "Te mau mana'o tauturu"
+          ]
+        },
+        {
+          "title": "Papa'i parau aravihi",
+          "department": "Te mau ohipa",
+          "location": "Te vahi atea",
+          "type": "Afa taime",
+          "description": "A hamani i te mau parau papa'i, te mau haapiiraa e te mau mea aravihi.",
+          "tags": [
+            "Te mau parau",
+            "API Docs",
+            "Papa'iraa aravihi"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Te vai ra anei te mau uiraa no ni'a i te raveraa i te ohipa i ô nei ?",
+      "description": "E mea au roa na matou ia faaroo mai ia outou. A haere atu e pahono atu matou i te mau uiraa atoa no ni'a i te oraraa i Horizon Tech.",
+      "button": "A farerei mai ia matou"
+    }
+  },
+  "caseStudies": {
+    "badge": "Te mau aamu manuïa",
+    "hero": {
+      "titlePrefix": "Te horo'araa i te mau faahopearaa o te",
+      "titleHighlight": "Materia",
+      "description": "A hi'opo'a nahea matou i te tautururaa i te mau taiete i roto i te mau taiete ia taui i te mau ohipa na roto i te mau rave'a apî ohie e te maitai roa.",
+      "tags": {
+        "delivery": "Te mau matini aravihi",
+        "outcomes": "Te mau faahopearaa i faitohia"
+      }
+    },
+    "stats": {
+      "projects": "Te mau opuaraa i horo'ahia",
+      "clients": "Te mau hoani oaoa",
+      "efficiency": "Faito au noa no te aravihi",
+      "retention": "Tape'araa i te mau hoani"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Te mau ohipa moni",
+        "title": "Cloud Migration & Modernization",
+        "description": "Ua faanuu i te mau faanahoraa fare moni tahito i roto i te AWS cloud infrastructure ma te ore e faaea i te taime.",
+        "challenge": "Te hoê faanahoraa tahito e faatupu nei i te mau fifi no te faito rahi",
+        "result": "Ua manuïa i te haereraa i ni'a i te mau microservices i ni'a i te AWS",
+        "metrics": [
+          {
+            "label": "Faaitiraa i te mau haamau'araa",
+            "value": "40%"
+          },
+          {
+            "label": "Te apîraa o te ohipa",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Te mau faanahoraa na'ina'i",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "Te mau rave'a no te HealthTech",
+        "industry": "Te utuuturaa ma'i",
+        "title": "Faanahoraa hi'opo'araa faaterehia e te AI",
+        "description": "Ua hamani i te mau hoho'a ML no te hi'opo'araa i te mau hoho'a i te pae rapaauraa ma te 95%+ tanoraa.",
+        "challenge": "E mea maoro roa te mau hi'opo'araa rima",
+        "result": "Te mau hi'opo'araa roro uira na roto i te AI/ML",
+        "metrics": [
+          {
+            "label": "Taime faahereherehia",
+            "value": "70%"
+          },
+          {
+            "label": "Te tanoraa",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "A pahono",
+          "Te utuuturaa ma'i"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Taiete rahi no te tapihooraa roro uira",
+        "industry": "Fare hooraa tao'a",
+        "title": "Dashboard no te hi'opo'araa i te taime mau",
+        "description": "Ua hamani i te faanahoraa BI no te faanaho i te 10M+ ohipa i te mau mahana atoa.",
+        "challenge": "Aita e hi'oraa i te taime mau no ni'a i te mau faito faufaa o te ohipa",
+        "result": "Faanahoraa no te hi'opo'araa e te mau hi'oraa i te taime mau",
+        "metrics": [
+          {
+            "label": "Te mau ohipa/mahana",
+            "value": "10M+"
+          },
+          {
+            "label": "Taime pahonoraa",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "A pahono",
+          "Data Engineering"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ua ineine anei outou no te papa'i i to outou aamu manuïaraa ?",
+      "description": "E aparau ana'e e nahea matou e nehenehe ai e tauturu ia outou ia faatupu i te hoê â mau hopearaa e ia faarahi i te faito ma te ti'aturi."
+    },
+    "filters": {
+      "title": "Titi'a no te ohipa",
+      "all": "Te mau ohipa atoa",
+      "empty": "Aita e hi'opo'araa e tu'ati i te titi'a i ma'itihia."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Te mau mana'o e te mau mana'o no roto mai i te",
+      "titleHighlight": "Horizon Tech",
+      "description": "Te mau haapiiraa i te pae no te mau rave'a aravihi, te mau mana'o no ni'a i te ohipa, e te mau haapiiraa ohie no roto mai i te ohipa opereraa mau."
+    },
+    "categories": [
+      "Te mau parau atoa",
+      "Cloud Architecture",
+      "DevOps",
+      "AI/ML",
+      "Te mau hoho'a matamua",
+      "Backend",
+      "Te mau haamaramaramaraa"
+    ],
+    "featuredPost": {
+      "id": "Hoho'a",
+      "title": "Te ananahi o te faahoturaa i roto i te cloud: Te mau peu e hi'opo'a i te matahiti 2025",
+      "excerpt": "A hi'opo'a i te mau rave'a apî i roto i te cloud-native development, mai te mau faanahoraa serverless e tae atu i te edge computing.",
+      "author": {
+        "name": "Papa'iraa ve'a no Horizon Tech"
+      },
+      "date": "15 no novema 2025",
+      "readTime": "8 minuti tai'oraa",
+      "category": "Cloud Architecture",
+      "tags": [
+        "Ata",
+        "Azure",
+        "Te mau huru"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Building Scalable Microservices with Azure Kubernetes Service",
+        "excerpt": "Te hoê arata'iraa ohie no te hamaniraa e te faaohiparaa i te mau microservices ma te faaohipa i te AKS.",
+        "author": {
+          "name": "Papa'iraa ve'a no Horizon Tech"
+        },
+        "date": "12 no novema 2025",
+        "readTime": "6 minuti tai'oraa",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Te mau faanahoraa na'ina'i",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Machine Learning in Production : Lessons Learned",
+        "excerpt": "Te mau haapiiraa tei tamatahia na roto i te faaohiparaa i te mau hoho'a ML i te faito rahi.",
+        "author": {
+          "name": "Papa'iraa ve'a no Horizon Tech"
+        },
+        "date": "10 no novema 2025",
+        "readTime": "10 minuti tai'oraa",
+        "category": "AI/ML",
+        "tags": [
+          "Machine Learning",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Pahonoraa 19 : Eaha te mea apî e no te aha e mea faufaa te reira",
+        "excerpt": "A hi'opo'a hohonu i te mau huru o te React 19 e te mau faahopearaa o te ohipa.",
+        "author": {
+          "name": "Papa'iraa ve'a no Horizon Tech"
+        },
+        "date": "8 no novema 2025",
+        "readTime": "5 minuti tai'oraa",
+        "category": "Te mau hoho'a matamua",
+        "tags": [
+          "A pahono",
+          "JavaScript",
+          "Faanahoraa i ni'a i te Itenati"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "A tapa'o i ta matou ve'a",
+      "description": "A farii i te mau parau papa'i, te mau haapiiraa e te mau mana'o apî roa a'e i te mau hepetoma atoa.",
+      "placeholder": "your.email@example.com",
+      "button": "Tapa'oraa",
+      "note": "Aita e spam. A iriti i te tapa'oraa i te mau taime atoa."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering Blog",
+        "description": "Te mau nota e te mau hoho'a no roto mai i te mau pŭpŭ e hamani nei i te mau tauihaa AI, te mau faanahoraa taiete, e te mau faanahoraa cloud ti'aturihia."
+      },
+      "filters": {
+        "postsInView": "{{count}} mau papa'iraa i roto i te hi'oraa"
+      },
+      "featured": {
+        "badge": "Te mau parau apî",
+        "readCta": "A tai'o i te parau papa'i"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Loading profile...",
+    "title": "Te mau faanahoraa no te hoho'a",
+    "subtitle": "Faatere i te mau faanahoraa e te mau mea ta outou e au a'e",
+    "photoButton": "Taui i te hoho'a",
+    "tabs": {
+      "general": "Rahi",
+      "security": "Parururaa",
+      "preferences": "Te mau mea au a'e"
+    },
+    "messages": {
+      "profileUpdated": "Ua faaapîhia te hoho'a",
+      "profileUpdateFailed": "Aita i manuïa i te faaapî i te hoho'a",
+      "passwordsNoMatch": "Aita te mau parau huna apî e tu'ati ra",
+      "passwordTooShort": "E mea ti'a i te parau huna ia 8 a'e reta te roa",
+      "passwordChanged": "Ua manuïa te tauiraa i te parau huna",
+      "passwordChangeFailed": "Aita i manuïa i te taui i te parau huna",
+      "optedOut": "Te mau parau faataaraa no te faaineineraa",
+      "optedIn": "Ua ma'iti i te mau parau faataaraa haapiipiiraa",
+      "optOutFailed": "Aita i faananea i te ti'araa opt-out"
+    },
+    "general": {
+      "title": "Haamaramaramaraa no ni'a i te taata iho",
+      "description": "A faananea i to outou iho mau haamaramaramaraa e te mau haamaramaramaraa no ni'a ia outou",
+      "firstName": "I'oa matamua",
+      "firstNamePlaceholder": "John",
+      "lastName": "I'oa hopea",
+      "lastNamePlaceholder": "Doe",
+      "email": "Vahi rata uira",
+      "emailNotice": "Eita e nehenehe e taui i te rata uira. A farerei i te tauturu mai te mea e hinaaro outou i te tauturu.",
+      "phone": "Numera niuniu",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "A faaherehere i te mau tauiraa"
+    },
+    "security": {
+      "title": "Te mau faanahoraa no te parururaa",
+      "description": "Faatere i ta outou parau huna e ta outou mau hinaaro no te parururaa",
+      "currentPassword": "Te parau huna i teie nei",
+      "currentPasswordPlaceholder": "A papa'i i te parau huna i teie nei",
+      "newPassword": "Te parau huna apî",
+      "newPasswordPlaceholder": "A papa'i i te parau huna apî",
+      "confirmPassword": "A haapapû i te parau huna apî",
+      "confirmPasswordPlaceholder": "A haapapû i te parau huna apî",
+      "passwordHint": "E 8 a'e reta te roa",
+      "changePassword": "Taui i te parau huna"
+    },
+    "preferences": {
+      "title": "Te mau faaararaa",
+      "description": "A hi'opo'a e nahea outou i te farii i te mau faananearaa e te mau faaararaa",
+      "email": {
+        "title": "Te mau faaararaa na roto i te rata uira",
+        "description": "Farii i te mau parau apî e te mau faaararaa na roto i te rata uira"
+      },
+      "sms": {
+        "title": "Te mau faaararaa na roto i te SMS",
+        "description": "A farii i te mau faaararaa faufaa na roto i te niuniu"
+      },
+      "optOut": {
+        "title": "Te mau parau faataaraa no te haapaeraa i te ohipa",
+        "description": "Huna i ta outou mau parau faaite i te fatu o te piha toro'a"
+      },
+      "actions": {
+        "title": "Te mau ohipa no te afata",
+        "downloadData": "Faauta uira mai i te mau haamaramaramaraa no te af",
+        "deleteAccount": "Tumâ i te afata"
+      }
+    }
+  },
+  "support": {
+    "backHome": "E ho'i faahou i te fare",
+    "title": "Pû tauturu",
+    "subtitle": "A ani i te tauturu no ta matou mau faanahoraa no te hamaniraa i te mau faanahoraa roro uira",
+    "cards": {
+      "email": {
+        "title": "Tauturu na roto i te rata uira",
+        "description": "A hapono mai i te hoê rata uira no te mau uiraa atoa"
+      },
+      "project": {
+        "title": "Te mau aniraa no te opuaraa",
+        "description": "A aparau i te mau titauraa o ta outou opuaraa",
+        "button": "A farerei mai ia matou"
+      },
+      "resources": {
+        "title": "Te mau rave'a tauturu",
+        "description": "Te mau rave'a aravihi e te mau arata'iraa",
+        "button": "A hi'o i te mau rave'a"
+      }
+    },
+    "faqTitle": "Te mau uiraa pinepine",
+    "faqDescription": "Te mau pahonoraa vitiviti i te mau uiraa matauhia",
+    "faqs": [
+      {
+        "question": "Eaha te mau ohipa ta Horizon Tech e pûpû nei ?",
+        "answer": "Te horo'a nei matou i te hamaniraa i te mau faanahoraa roro uira, te mau rave'a AI/ML, te faanahoraa o te cloud, te DevOps, te haamaramaramaraa no te ohipa e te mau faanahoraa IoT."
+      },
+      {
+        "question": "Nahea vau ia haamata i te hoê opuaraa na roto i te Horizon Tech ?",
+        "answer": "A farerei mai ia matou na roto i te api parau e aore râ te rata uira no te faaite i to outou mau hinaaro. E faanaho matou i te hoê niuniu no te iteraa e e faaite i te hoê opuaraa."
+      },
+      {
+        "question": "Te horo'a ra anei outou i te patururaa e te atuaturaa tamau ?",
+        "answer": "Oia mau. Te pûpû nei matou i te patururaa e te atuaturaa mai te mau faatanoraa i te mau pepe, te mau faananearaa no te parururaa, e te mau haamaitairaa i te mau rave'a."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "E ho'i faahou i te fare",
+    "title": "Te mau rave'a aravihi",
+    "subtitle": "Te mau arata'iraa, te mau haapiiraa e te mau rave'a maitai roa a'e no roto mai i te pŭpŭ Horizon Tech",
+    "hub": {
+      "title": "Pû haapiiraa",
+      "description": "A hi'opo'a i ta matou mau rave'a aravihi i roto i te cloud, AI/ML, DevOps, e te hamaniraa i te mau faanahoraa apî.",
+      "note": "Ua niuhia teie mau materia i ni'a i te ohipa mau tei tupu i roto i te opuaraa e ua faaapî-tamau-hia."
+    },
+    "categories": [
+      {
+        "icon": "Ata",
+        "title": "Cloud Architecture",
+        "description": "Azure, AWS e te mau hoho'a cloud-native",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Arata'i"
+          },
+          {
+            "title": "Te mau rave'a no te faaru'eraa i te cloud",
+            "type": "Papa'iraa"
+          }
+        ]
+      },
+      {
+        "icon": "roro",
+        "title": "AI & Machine Learning",
+        "description": "Te mau hoho'a ML, te ihi no te itenati, e te tu'atiraa AI",
+        "resources": [
+          {
+            "title": "Introduction to Azure ML",
+            "type": "Haapiiraa"
+          },
+          {
+            "title": "Te paturaa i te mau auri ML no te hamaniraa",
+            "type": "Arata'i"
+          }
+        ]
+      },
+      {
+        "icon": "Te mau faanahoraa",
+        "title": "DevOps & Platform",
+        "description": "CI/CD, faanahoraa ei code, automation",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Haapiiraa"
+          },
+          {
+            "title": "Infrastructure as Code with Terraform",
+            "type": "Arata'i"
+          }
+        ]
+      },
+      {
+        "icon": "Numera",
+        "title": "Faanahoraa roro uira",
+        "description": ".NET, React, e te mau rave'a no te faahoturaa apî",
+        "resources": [
+          {
+            "title": "Clean Architecture i roto i te .NET",
+            "type": "Arata'i"
+          },
+          {
+            "title": "Te mau rave'a maitai roa a'e no te React",
+            "type": "Papa'iraa"
+          }
+        ]
+      },
+      {
+        "icon": "pu'e parau",
+        "title": "Te mau haamaramaramaraa e te mau tuatapaparaa",
+        "description": "BI, te haaputuraa i te mau haamaramaramaraa e te mau rave'a hi'opo'araa",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Design",
+            "type": "Haapiiraa"
+          },
+          {
+            "title": "Data Warehouse Architecture",
+            "type": "Arata'i"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "E hinaaro anei outou i te hoê haapiipiiraa taa ê ?",
+      "description": "Te pûpû nei matou i te mau haapiipiiraa no te mau pŭpŭ aravihi e te mau p",
+      "text": "E hinaaro anei outou i te haapiipiiraa i roto i te pŭpŭ ? Te horo'a nei matou i te mau haapiipiiraa taa ê no ni'a i te faanahoraa o te cloud, te DevOps, e te mau rave'a no teie tau.",
+      "button": "A farerei atu ia matou"
+    }
+  },
+  "unauthorized": {
+    "title": "Ua pato'ihia te tomoraa",
+    "description": "Aita ta outou e parau faati'a no te tomo i ni'a i teie api. A farerei i to outou faatere mai te mea e, te mana'o ra outou e, e hape te reira.",
+    "primary": "Haere i ni'a i te hoho'a",
+    "secondary": "E ho'i faahou i te fare"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Aita i itehia te parau",
+      "description": "Aita e parau no ni'a i te slug : {{slug}}",
+      "back": "E ho'i faahou i te blog"
+    },
+    "back": "E ho'i faahou i te blog",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Aita i itehia te tuatapaparaa",
+      "description": "Aita e tuatapaparaa no te id: {{id}}",
+      "back": "E ho'i faahou i te mau tuatapaparaa"
+    },
+    "back": "E ho'i faahou i te mau tuatapaparaa",
+    "sections": {
+      "executiveSummary": "Haapotoraa",
+      "businessChallenge": "Titauraa no te ohipa tapihooraa",
+      "technicalSolution": "Rave'a aravihi",
+      "architectureDecisions": "Te mau faaotiraa no ni'a i te paturaa fare",
+      "technologyStack": "Haaputuraa o te mau rave'a apî",
+      "resultsImpact": "Te mau faahopearaa e te faahopearaa"
+    },
+    "client": "Te taata hoani",
+    "keyOutcomes": "Te mau faahopearaa faufaa",
+    "decision": "Faaotiraa {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Ua mo'e te tapa'o",
+      "title": "Aita i itehia te api",
+      "description": "Aita te purumu ta oe i ani e vai ra e aore râ, ua taui. E faaho'i ana'e tatou ia outou i te hoê hopea tano no Horizon Tech.",
+      "requestedPath": "E'a anihia",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Te faatitiaifaroraa i te hoho'a purumu... aita i manuïa",
+        "line2": "Tumu : aita e tuhaa purumu tu'ati",
+        "line3": "Te faanahoraa no te faaho'iraa i te ohipa",
+        "line4": "A faaohipa i te hoê o te mau rave'a poto i raro nei no te tamau noa"
+      },
+      "links": {
+        "home": "Api matamua",
+        "services": "Te mau ohipa",
+        "blog": "Blog",
+        "caseStudies": "Te mau hi'opo'araa"
+      }
+    },
+    "runtime": {
+      "badge": "Hape i roto i te taime ha'utiraa",
+      "title": "Ua parari te tahi mea i ni'a i teie api",
+      "description": "Ua tape'a te hoê fifi mana'o-ore-hia i te iritiraa. E nehenehe ta outou e tamata faahou ma te pe'ape'a ore, e aore râ, e ho'i i ni'a i te api matamua.",
+      "retry": "Tamata faahou",
+      "home": "E ho'i faahou i te api matamua",
+      "unknown": "Aita i itehia te hape i roto i te runtime"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Faatereraa i te blog",
+      "subtitle": "A hamani, a nene'i e a faatere i ta outou mau parau i ni'a i te blog",
+      "newPost": "Papa'iraa apî",
+      "seedData": "Te mau haamaramaramaraa no te huero",
+      "allPosts": "Te mau parau atoa",
+      "published": "Nene'ihia",
+      "draft": "Papa'iraa",
+      "featured": "Hoho'a",
+      "setFeatured": "Hoho'a hoho'a",
+      "removeFeatured": "Iriti i te Featured",
+      "table": {
+        "title": "Upoo parau",
+        "category": "Tuhaa",
+        "status": "Te ti'araa",
+        "date": "Tai'o mahana",
+        "actions": "Te mau ohipa"
+      },
+      "empty": {
+        "message": "Aita â e parau no ni'a i te blog. A hamani i ta outou mau haamaramaramaraa matamua no ni'a i te hoho'a o te papa'iraa.",
+        "seed": "Te mau haamaramaramaraa no ni'a i te huero",
+        "create": "Hamani i te hoê parau papa'i"
+      },
+      "delete": {
+        "title": "Tumâ i te parau papa'i",
+        "confirmation": "Ua hinaaro papû anei oe e tumâ i teie parau ? Eita teie ohipa e nehenehe e tatarahia.",
+        "delete": "Tumâ",
+        "cancel": "Faaore"
+      }
+    },
+    "editor": {
+      "bannerHint": "Ua piahia mai te hoê reva aano i ni'a i te pou",
+      "bannerImage": "Hoho'a reva",
+      "coverHint": "Faaitehia i roto i te mau tareta tapura blog",
+      "coverImage": "Hoho'a o te api tapo'i",
+      "editSlug": "Nene'i i te slug",
+      "posts": "Te mau piiraa",
+      "publish": "Nene'i",
+      "update": "Faaapîraa",
+      "form": {
+        "contentPlaceholder": "A papa'i i te mau mea i papa'ihia i ô nei...",
+        "excerptPlaceholder": "Haapotoraa poto no te papa'iraa...",
+        "pickDate": "A ma'iti i te hoê tai'o mahana",
+        "readTimePlaceholder": "ei hi'oraa, 5 minuti tai'oraa",
+        "titlePlaceholder": "Te upoo parau o te papa'iraa..."
+      },
+      "meta": {
+        "publisher": "Taata nene'i",
+        "unknownAuthor": "Taata papa'i ite-ore-hia"
+      },
+      "modes": {
+        "edit": "Nene'i",
+        "editOnly": "Nene'i noa",
+        "preview": "Hi'opo'araa",
+        "previewOnly": "Hi'opo'araa noa",
+        "sideBySide": "Te tahi i piha'i iho",
+        "split": "Amahamaharaa"
+      },
+      "tags": {
+        "heading": "Te mau tapa'o",
+        "placeholder": "A tuu i te hoê tapa'o..."
+      },
+      "translations": {
+        "auto": "Pereoo uira",
+        "autoTranslate": "Huri-noa-raa",
+        "clear": "Maramarama",
+        "existing": "E vai ra",
+        "heading": "Te mau iritiraa",
+        "language": "Reo",
+        "languages": "Te mau reo",
+        "edit": "Nene'i",
+        "manual": "Buka arata'i",
+        "preview": "Hi'opo'araa",
+        "searchPlaceholder": "A imi i te mau reo...",
+        "translate": "A iriti i te mau parau"
+      }
+    },
+    "caseStudies": {
+      "title": "Te mau hi'opo'araa",
+      "subtitle": "Faatere i te mau tuatapaparaa e te mau faaiteiteraa opuaraa",
+      "newCaseStudy": "Tuatapaparaa apî",
+      "seedData": "Te mau haamaramaramaraa no te huero",
+      "allCaseStudies": "Te mau hi'opo'araa atoa",
+      "published": "Nene'ihia",
+      "draft": "Papa'iraa",
+      "table": {
+        "title": "Upoo parau",
+        "industry": "Te ohipa hamaniraa tauiha",
+        "client": "Te taata hoani",
+        "status": "Te ti'araa",
+        "actions": "Te mau ohipa"
+      },
+      "empty": {
+        "message": "Aita â e hi'opo'araa.",
+        "seed": "Te mau haamaramaramaraa no te huero",
+        "create": "A hamani na mua"
+      },
+      "delete": {
+        "title": "Tumâ i te tuatapaparaa",
+        "confirmation": "Ua hinaaro papû anei outou e tumâ i teie tuatapaparaa ? Eita teie ohipa e nehenehe e tatarahia.",
+        "delete": "Tumâ",
+        "cancel": "Faaore"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Te mau hi'opo'araa",
+      "published": "Nene'ihia",
+      "draft": "Papa'iraa",
+      "update": "Faaapîraa",
+      "create": "Hamani",
+      "sections": {
+        "basicInfo": "Haamaramaramaraa tumu",
+        "narrative": "Aamu",
+        "architectureDecisions": "Te mau faaotiraa no ni'a i te paturaa fare",
+        "techStack": "Te mau rave'a apî",
+        "results": "Te mau faahopearaa",
+        "tags": "Te mau tapa'o"
+      },
+      "fields": {
+        "title": "Upoo parau",
+        "titlePlaceholder": "Upoo parau no te tuatapaparaa",
+        "slug": "Slug",
+        "slugPlaceholder": "auto-generated-from-title",
+        "client": "Te taata hoani",
+        "clientPlaceholder": "I'oa o te taata hoani",
+        "industry": "Te ohipa hamaniraa tauiha",
+        "industryPlaceholder": "Ma'iti i te ohipa",
+        "description": "Faataaraa",
+        "descriptionPlaceholder": "Faataaraa poto (faaitehia i ni'a i te mau tareta)",
+        "executiveSummary": "Haapotoraa",
+        "executiveSummaryPlaceholder": "Te hi'oraa teitei o te ohipa",
+        "challenge": "Titauraa",
+        "challengePlaceholder": "Eaha te fifi ta te hoani i faaruru ?",
+        "solution": "Rave'a",
+        "solutionPlaceholder": "Mea nafea te fifi i te faatitiaifaroraahia?",
+        "decision": "Faaotiraa",
+        "decisionPlaceholder": "Te mea i faaotihia",
+        "rationale": "Tumu",
+        "rationalePlaceholder": "No te aha teie rave'a i ma'itihia ai",
+        "metric": "Faito",
+        "metricPlaceholder": "ei hi'oraa, te taere o te faaauraa",
+        "value": "Faufaa",
+        "valuePlaceholder": "ei hi'oraa, -63% aore ra 4,8h -> 11m",
+        "resultDescription": "Faataaraa",
+        "resultDescriptionPlaceholder": "Eaha te auraa o teie faahopearaa",
+        "techPlaceholder": "A tuu i te mau rave'a apî (a pata i te Enter)",
+        "tagPlaceholder": "Add tag (a pata i te Enter)"
+      },
+      "add": "A tuu i te reira",
+      "noArchDecisions": "Aita â te mau faaotiraa no te paturaa i tuuhia mai.",
+      "noResults": "Aita â te mau faahopearaa i tuuhia mai.",
+      "decisionLabel": "Faaotiraa {{number}}",
+      "resultLabel": "Faahopearaa {{number}}",
+      "controls": {
+        "published": "Nene'ihia",
+        "publishedDescription": "A faaite i teie hi'opo'araa i mua i te taata",
+        "featured": "Hoho'a",
+        "featuredDescription": "A faaite i teie hi'opo'araa"
+      }
+    },
+    "imageCrop": {
+      "apply": "A ani",
+      "cancel": "Faaore",
+      "cropTitle": "Hoho'a no te tâpû",
+      "dropText": "A tuu i te hoê hoho'a i ô nei e aore râ a pata no te tuu atu",
+      "flipHorizontal": "Huri tarava",
+      "flipVertical": "Huri i ni'a",
+      "replace": "Mono",
+      "reset": "Faaapîraa",
+      "rotateLeft": "Ohu i te pae aui",
+      "rotateRight": "A ohu i te pae atau",
+      "uploading": "Te tuuraa i ni'a...",
+      "toast": {
+        "invalidFile": "Putu'ite hape",
+        "invalidFileDesc": "A tuu atu i te hoê putu'ite hoho'a ti'a.",
+        "uploadFailed": "Aita i manuïa te faautaraa",
+        "uploadFailedDesc": "Ua tupu te tahi fifi. A tamata faahou.",
+        "uploaded": "Hoho'a i tuuhia",
+        "uploadedDesc": "Ua manuïa te tuuraa i to outou hoho'a."
+      }
+    }
+  }
+}

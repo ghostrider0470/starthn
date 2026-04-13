@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Engineering Systems That Scale",
+    "subtitle": "Enterprise Software · AI & Machine Learning · Cloud Infrastructure · IoT & Edge",
+    "description": "Uhereye ku ikoranabuhanga rigezweho kugeza kuri platform zisanzwe z'ibicu, dushushanya kandi dutanga ikoranabuhanga ritanga imbaraga z'ubucuruzi bukomeye, ku gihe, ku ngengo y'imari, ku kigero kinini.",
+    "cta": {
+      "primary": "Tangira umushinga",
+      "secondary": "Reba akazi kacu"
+    },
+    "trustLine": "Ibigo by'ubucuruzi byo ku isi yose bizewe"
+  },
+  "services": {
+    "subtitle": "Serivisi zacu",
+    "title": "Full-Spectrum Engineering",
+    "description": "Ibice bitandatu by'imyitozo ngororamubiri. Ikipe imwe. Every layer of your technology stack — from edge devices to enterprise dashboards.",
+    "commentMarker": "SERIVISI",
+    "items": {
+      "customSoftware": {
+        "title": "Custom Software Development",
+        "description": "Porogaramu zigezweho zubatswe hamwe na microservices, API, hamwe nubwubatsi bwibicu."
+      },
+      "aiMl": {
+        "title": "AI, ML & Business Intelligence",
+        "description": "Imiyoboro ya AI / ML, Power BI dashboards, hamwe n'isesengura rigezweho rihindura amakuru mu byemezo."
+      },
+      "cloud": {
+        "title": "Cloud Architecture & Infrastructure",
+        "description": "Multi-cloud infrastructure with containers, serverless, and global scalability built in."
+      },
+      "iot": {
+        "title": "IoT & Edge Computing",
+        "description": "Connected devices, digital twins, and edge computing for Industry 4.0."
+      },
+      "devops": {
+        "title": "DevOps & Platform Engineering",
+        "description": "CI / CD pipelines, infrastructure as code, and observability from commit to production."
+      },
+      "digital": {
+        "title": "Digital Transformation & Consulting",
+        "description": "Uburyo bw'ikoranabuhanga, imihanda igezweho, n'ubujyanama bw'intoki."
+      }
+    },
+    "cta": {
+      "title": "Reka twubake ikintu gikomeye",
+      "description": "Uhereye ku iterambere rya software yihariye hamwe n'ibisubizo bikoreshwa na AI kugeza ku bikorwa remezo by'igicu na automation - dutanga serivisi z'ikoranabuhanga zijyanye n'ibyo ukeneye.",
+      "primary": "Tangira umushinga wawe",
+      "secondary": "Gahunda y'inama"
+    },
+    "learnMore": "Iga cyane"
+  },
+  "credibility": {
+    "subtitle": "Our Track Record",
+    "title": "Results, not <gradient>promises</gradient>",
+    "titlePlain": "Results, Not Promises",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Kuva i Sarajevo kugera Oslo, Amsterdam na Berlin. Ibigo by'ubucuruzi byatanzwe ku gihe, igihe icyo ari cyo cyose.",
+    "stats": {
+      "experience": "Imyaka y'ubunararibonye",
+      "countries": "Ibihugu byakorewe",
+      "systems": "Systems Delivered",
+      "industries": "Inganda zakoreshejwe"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM for Atlas Copco",
+        "outcome": "Architected the first-ever cloud-based One Identity infrastructure for Atlas Copco on Azure Kubernetes, reducing costs while keeping enterprise compliance."
+      },
+      "orange": {
+        "label": "Orange Cyberdefense Platform",
+        "outcome": "Developed Azure Kubernetes infrastructure, CI/CD pipelines, and custom ServiceNow integration for Europe's leading cybersecurity firm."
+      },
+      "telecom": {
+        "label": "Telecom GIS & AR Platform",
+        "outcome": "Built GIS platform mapping underground utilities across Germany with collision detection preventing multi-million Euro infrastructure damage."
+      },
+      "iot": {
+        "label": "Cloud IoT & Edge Platform",
+        "outcome": "Azure IoT Hub igenzura ibihumbi by'ibikoresho, Synapse itunganya miliyari z'imirongo ya telemetry, hamwe na edge aggregation igabanya ibiciro by'ubutumwa ~ 90%."
+      },
+      "drone": {
+        "label": "Autonomous Drone Platform",
+        "outcome": "Custom flight controller with 4G-to-Azure IoT Hub bridge enabling autonomous BVLOS flights for agricultural monitoring and payload delivery."
+      },
+      "payment": {
+        "label": "Payment System Rescue",
+        "outcome": "Rescued failing payment gateway for Norwegian mobile app by reverse-engineering undocumented legacy code. Zero payment downtime post-modernization."
+      },
+      "game": {
+        "label": "AAA Game Dev Tooling",
+        "outcome": "Built Maya plugin that cut 3D modeling and animation time by 50% at a major AAA studio, adopted as a standard tool in the production pipeline."
+      },
+      "social": {
+        "label": "Location-Based Social Platform",
+        "outcome": "Architected dating app for Spain's nightlife scene with geolocation matching, real-time messaging, and push notifications for a UK client."
+      },
+      "iga": {
+        "label": "Multi-Tenant IGA Platform",
+        "outcome": "Built core backend for cloud-native identity governance platform serving Fortune 500 clients with custom ASP.NET Core Identity for NoSQL at enterprise scale."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "EU-Adjacent, Global Delivery",
+        "description": "Amasaha y'akazi ya CET afite ubunararibonye muri Norvège, Ubuholandi, Ubudage, n'ahandi."
+      },
+      "yourEngineers": {
+        "title": "Your Engineers, Not a Vendor",
+        "description": "Dedicated team members embedded in your workflow and tools. No account managers, no ticket queues."
+      },
+      "hardwareToCloud": {
+        "title": "Hardware to Cloud",
+        "description": "From embedded device firmware to enterprise Azure Synapse pipelines. Porogaramu ya USU igezweho kuri buri gice cyububiko bwibicuruzwa."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Technology Stack",
+    "title": "<gradient>Battle-Tested Stack</gradient>",
+    "titlePlain": "Battle-Tested Stack",
+    "commentMarker": "TECH_STACK",
+    "description": "Ntabwo dukoresha ibi bikoresho gusa - twohereje sisitemu y'umusaruro hamwe nabyo. Kuva kuri Microsoft Azure kugeza kuri Kubernetes, injeniyeri zacu zifite ubunararibonye nyabwo.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Cloud & Infrastructure",
+        "description": "Multi-cloud architecture with container orchestration and infrastructure as code."
+      },
+      "frontend": {
+        "label": "Imbere",
+        "description": "Modern component frameworks with type safety and optimized build tooling."
+      },
+      "backend": {
+        "label": "Backend & APIs",
+        "description": "Ibicuruzwa bya seriveri yo ku rwego rwa sosiyete, indimi za sisitemu, hamwe na paradigms za API zigezweho."
+      },
+      "data": {
+        "label": "Data & Storage",
+        "description": "Ibaruramari, inyandiko, hamwe nububiko bwububiko bwububiko hamwe no gushakisha inyandiko yuzuye."
+      },
+      "devops": {
+        "label": "DevOps & Tooling",
+        "description": "CI / CD pipelines, version control, and developer productivity."
+      }
+    },
+    "scanning": "SCANNING FREQUENCIES...",
+    "summary": {
+      "cloudNative": {
+        "title": "Cloud-Native by Default",
+        "description": "Every project is containerized, CI/CD-driven, and built for horizontal scale from day one."
+      },
+      "fullStack": {
+        "title": "Full-Stack Fluency",
+        "description": "From React frontends to .NET microservices to Kubernetes clusters — one team, end to end."
+      },
+      "productionProven": {
+        "title": "Production-Proven",
+        "description": "Ntabwo ari ikoranabuhanga rya demo. Buri gikoresho cyashyizwe ahagaragara gikoresha sisitemu nyayo ifasha abakoresha nyakuri muri iki gihe."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Technology logos row 1",
+      "row2Aria": "Technology logos row 2",
+      "row3Aria": "Technology logos row 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Ishingiro ry'ubumenyi",
+    "title": "<gradient>Ibibazo</gradient> bikunze kubazwa",
+    "titlePlain": "Ibibazo bikunze kubazwa",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "kubyo ukeneye kumenya kubyerekeye gukorana na Horizon Tech",
+    "items": {
+      "scope": {
+        "question": "Akazi kawe ni akahe?",
+        "answer": "Dutanga imishinga y'ikoranabuhanga: porogaramu y'ubucuruzi isanzwe, imiyoboro ya AI / ML, ibikorwa remezo by'igicu, sisitemu ya IoT, automatisation ya DevOps, hamwe n'ubujyanama bw'impinduka za digitale. Waba ukeneye urubuga rwuzuye rwubatswe uhereye ku ntangiriro cyangwa guhuza kwagenewe hamwe n'urukuta rwawe ruriho, dufata ubwubatsi, iterambere, kugerageza, no gukwirakwiza."
+      },
+      "stack": {
+        "question": "Ni ikihe gice cy'ingenzi cy'ikoranabuhanga?",
+        "answer": "Our core stack centers on enterprise-grade platforms: Azure and AWS for cloud, .NET and Node.js for backend, React and Angular for frontend, Kubernetes and Docker for orchestration, and Terraform for infrastructure as code. Dukorana kandi cyane na Python ku mirimo ya AI / ML, Power BI na Fabric ku buhanga bw'ubucuruzi, na PostgreSQL, SQL Server, na MongoDB ku makuru."
+      },
+      "enterprise": {
+        "question": "Ni gute ufata imishinga y'ubucuruzi?",
+        "answer": "Buri gikorwa gitangirana n'icyiciro cyo kuvumbura kugira ngo hamenyekane uburebure bwacyo, ubwubatsi, n'intambwe z'ingenzi. You get a dedicated team with a technical lead, regular milestone reviews, and direct access to the engineers building your system. We follow agile sprints with stakeholder demos, maintain transparent project boards, and provide weekly progress reports."
+      },
+      "support": {
+        "question": "Inkunga ya nyuma yo gutangiza iba imeze ite?",
+        "answer": "Dutanga ibyiciro by'ubufasha byateguwe hamwe na SLA zisobanutse, harimo kugenzura 24/7, igisubizo cy'ibibazo, kunoza imikorere, no gukurikirana ibintu. Our support agreements cover bug fixes, security patches, infrastructure scaling, and proactive health checks — tailored to your uptime and response-time requirements."
+      },
+      "integration": {
+        "question": "Can you integrate with our existing infrastructure?",
+        "answer": "Rwose rwose. We specialize in legacy modernization, API-first integrations, and hybrid cloud migrations. Waba ukeneye guhuza na sisitemu ya ERP ya on-premise, kwimuka kuva kuri monoliths ujya kuri microservices, cyangwa guhuza ububiko bw'amakuru y'umurage hamwe n'imbere zigezweho, dufite ibitabo by'imikino yo kwimuka n'ubunararibonye bwo guhuza kugira ngo bibe byoroshye."
+      },
+      "industries": {
+        "question": "Ni izihe nganda wakoze?",
+        "answer": "Itsinda ryacu ryatanze imishinga mu nzego za fintech, ubuzima, ibikoresho, ubucuruzi bwo kuri interineti, ingufu, n'inzego za leta. Dusobanukiwe ibisabwa byihariye byinganda nka PCI-DSS yo kwishyura, ibitekerezo bya HIPAA ku makuru y'ubuzima, kubahiriza GDPR ku masoko ya EU, na telemetry y'igihe nyacyo ya IoT y'inganda ."
+      },
+      "engagement": {
+        "question": "Gahunda y'ubufatanye imeze ite?",
+        "answer": "Ni byiza ko ubanza gusobanukirwa n'imigambi yawe n'imigambi yawe. From there, we deliver a scoping document with architecture recommendations, timeline, and investment breakdown. Nyuma yo kwemezwa, dutangira hamwe nitsinda ryihariye, twinjira mubikoresho byawe nibikorwa byawe, hanyuma tugatangira sprint ya mbere muminsi mike."
+      }
+    },
+    "stillHaveQuestions": "Uracyafite ibibazo?",
+    "ctaDescription": "Waba ufite umushinga mu bitekerezo? Reka tuvuge ku ngengo y'imari, ingengabihe n'ingengo y'imari.",
+    "readCaseStudies": "Soma ingero zacu",
+    "scheduleCall": "Gahunda yo guhamagara"
+  }
+}

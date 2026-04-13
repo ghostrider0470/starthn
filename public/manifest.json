@@ -1,0 +1,23 @@
+{
+  "short_name": "Horizon Tech",
+  "name": "Horizon Tech — Enterprise Software & AI Solutions",
+  "description": "Enterprise software development, AI solutions, cloud architecture, IoT, and digital transformation services.",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/en-US",
+  "display": "standalone",
+  "theme_color": "#FF6B35",
+  "background_color": "#0A0A0A",
+  "lang": "en-US",
+  "categories": ["business", "technology"]
+}

@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Inžinerinės sistemos, kurios plečiasi",
+    "subtitle": "Įmonių programinė įranga · Dirbtinis intelektas ir mašininis mokymasis · Debesų infrastruktūra · IoT ir kraštas",
+    "description": "Nuo išmaniojo automatizavimo iki debesų platformų – mes kuriame ir pristatome technologijas, kurios skatina ambicingas įmones – laiku, neviršijant biudžeto ir dideliu mastu.",
+    "cta": {
+      "primary": "Pradėkite projektą",
+      "secondary": "Peržiūrėkite mūsų darbą"
+    },
+    "trustLine": "Pasitiki įmonės visame pasaulyje"
+  },
+  "services": {
+    "subtitle": "Mūsų paslaugos",
+    "title": "Viso spektro inžinerija",
+    "description": "Šešios praktikos sritys. Viena komanda. Kiekvienas jūsų technologijų sluoksnis – nuo krašto įrenginių iki įmonės prietaisų skydelių.",
+    "commentMarker": "PASLAUGOS",
+    "items": {
+      "customSoftware": {
+        "title": "Individualios programinės įrangos kūrimas",
+        "description": "Modernios programos, sukurtos naudojant mikropaslaugas, API ir debesies architektūrą."
+      },
+      "aiMl": {
+        "title": "AI, ML ir verslo žvalgyba",
+        "description": "AI / ML vamzdynai, \"Power BI\" ataskaitų sritys ir išplėstinė analizė, kuri duomenis paverčia sprendimais."
+      },
+      "cloud": {
+        "title": "Debesų architektūra ir infrastruktūra",
+        "description": "Kelių debesų infrastruktūra su konteineriais, be serverio ir integruotu visuotiniu mastelio keitimu."
+      },
+      "iot": {
+        "title": "IoT ir krašto kompiuterija",
+        "description": "Prijungti įrenginiai, skaitmeniniai dvyniai ir krašto kompiuterija Pramonei 4.0."
+      },
+      "devops": {
+        "title": "\"DevOps\" ir platformų inžinerija",
+        "description": "CI/CD vamzdynai, infrastruktūra kaip kodas ir stebėjimas nuo įsipareigojimo iki gamybos."
+      },
+      "digital": {
+        "title": "Skaitmeninė transformacija ir konsultacijos",
+        "description": "Technologijų strategija, modernizavimo planai ir praktinės konsultacijos."
+      }
+    },
+    "cta": {
+      "title": "Sukurkime ką nors rimto",
+      "description": "Nuo individualios programinės įrangos kūrimo ir dirbtiniu intelektu pagrįstų sprendimų iki debesijos infrastruktūros ir automatizavimo – teikiame visapusiškas technologines paslaugas, pritaikytas jūsų poreikiams.",
+      "primary": "Pradėkite savo projektą",
+      "secondary": "Suplanuoti konsultaciją"
+    },
+    "learnMore": "Sužinoti daugiau, sužinok daugiau"
+  },
+  "credibility": {
+    "subtitle": "Mūsų patirtis",
+    "title": "Rezultatai, o ne <gradient>pažadai</gradient>",
+    "titlePlain": "Rezultatai, o ne pažadai",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Nuo Sarajevo iki Oslo, Amsterdamo ir Berlyno. Įmonės sistemos pristatytos laiku ir kiekvieną kartą.",
+    "stats": {
+      "experience": "Metų bendra patirtis",
+      "countries": "Aptarnaujamos šalys",
+      "systems": "Pristatytos sistemos",
+      "industries": "Aptarnaujamos pramonės šakos"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "\"Cloud IAM\", skirta \"Atlas Copco\"",
+        "outcome": "Sukūrė pirmąją debesies pagrindu veikiančią \"One Identity\" infrastruktūrą, skirtą \"Atlas Copco\" \"Azure Kubernetes\", sumažindama išlaidas ir išlaikydama įmonės atitiktį."
+      },
+      "orange": {
+        "label": "Oranžinė kibernetinės gynybos platforma",
+        "outcome": "Sukūrė \"Azure Kubernetes\" infrastruktūrą, CI/CD vamzdynus ir individualią \"ServiceNow\" integraciją pirmaujančiai Europos kibernetinio saugumo įmonei."
+      },
+      "telecom": {
+        "label": "Telekomunikacijų GIS ir AR platforma",
+        "outcome": "Sukurta GIS platforma, sudaranti požeminių komunalinių paslaugų žemėlapius visoje Vokietijoje su susidūrimų aptikimu, užkertant kelią kelių milijonų eurų žalos infrastruktūrai."
+      },
+      "iot": {
+        "label": "Debesų daiktų interneto ir krašto platforma",
+        "outcome": "\"Azure IoT Hub\" valdo tūkstančius įrenginių, \"Synapse\" apdoroja milijardus telemetrijos eilučių, o kraštų agregavimas sumažina pranešimų išlaidas ~90%."
+      },
+      "drone": {
+        "label": "Autonominė dronų platforma",
+        "outcome": "Individualus skrydžio valdiklis su 4G-to-Azure IoT Hub tiltu, įgalinančiu autonominius BVLOS skrydžius žemės ūkio stebėjimui ir naudingojo krovinio pristatymui."
+      },
+      "payment": {
+        "label": "Mokėjimo sistemos gelbėjimas",
+        "outcome": "Išgelbėtas neveikiantis mokėjimo šliuzas Norvegijos mobiliajai programėlei atvirkštinės inžinerijos nedokumentuotas senas kodas. Nulinės mokėjimo prastovos po modernizavimo."
+      },
+      "game": {
+        "label": "AAA žaidimų kūrėjų įrankiai",
+        "outcome": "Sukurtas Maya įskiepis, kuris sumažino 3D modeliavimo ir animacijos laiką 50% didelėje AAA studijoje, priimtas kaip standartinis įrankis gamybos vamzdyne."
+      },
+      "social": {
+        "label": "Vieta pagrįsta socialinė platforma",
+        "outcome": "Architektūrinė pažinčių programa, skirta Ispanijos naktinio gyvenimo scenai su geografinės vietos atitikimu, pranešimais realiuoju laiku ir tiesioginiais pranešimais JK klientui."
+      },
+      "iga": {
+        "label": "Kelių nuomininkų IGA platforma",
+        "outcome": "Sukurta pagrindinė debesies tapatybės valdymo platformos vidinė sistema, aptarnaujanti \"Fortune 500\" klientus su \"ASP.NET Core Identity for NoSQL\" įmonės mastu."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "ES kaimynystėje, pasaulinis pristatymas",
+        "description": "CET darbo valandos su patirtimi Norvegijoje, Nyderlanduose, Vokietijoje ir kitur."
+      },
+      "yourEngineers": {
+        "title": "Jūsų inžinieriai, o ne pardavėjas",
+        "description": "Atsidavę komandos nariai, įtraukti į jūsų darbo eigą ir įrankius. Jokių sąskaitų valdytojų, jokių bilietų eilių."
+      },
+      "hardwareToCloud": {
+        "title": "Aparatūra į debesį",
+        "description": "Nuo įterptosios įrenginio programinės įrangos iki įmonės \"Azure Synapse\" vamzdynų. Pilna programinė įranga kiekviename sluoksnyje."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Technologijų krūva",
+    "title": "Mūšio išbandyta <gradient>krūva</gradient>",
+    "titlePlain": "Mūšio išbandyta krūva",
+    "commentMarker": "TECH_STACK",
+    "description": "Mes ne tik naudojame šiuos įrankius – su jais pristatome gamybos sistemas. Nuo \"Microsoft Azure\" iki \"Kubernetes\" – mūsų inžinieriai turi realaus pasaulio patirties.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Debesis ir infrastruktūra",
+        "description": "Kelių debesų architektūra su konteinerių orkestravimu ir infrastruktūra kaip kodas."
+      },
+      "frontend": {
+        "label": "Sąsaja",
+        "description": "Modernūs komponentų karkasai su tipų saugumu ir optimizuotais konstrukcijos įrankiais."
+      },
+      "backend": {
+        "label": "Backend ir API",
+        "description": "Įmonės lygio serverių platformos, sistemų kalbos ir šiuolaikinės API paradigmos."
+      },
+      "data": {
+        "label": "Duomenys ir saugojimas",
+        "description": "Reliacinės, dokumentų ir atminties saugyklos su viso teksto paieška."
+      },
+      "devops": {
+        "label": "\"DevOps\" ir įrankiai",
+        "description": "CI/CD vamzdynai, versijų valdymas ir kūrėjų produktyvumas."
+      }
+    },
+    "scanning": "NUSKAITYMO DAŽNIAI...",
+    "summary": {
+      "cloudNative": {
+        "title": "Pagal numatytuosius nustatymus debesies vietinis",
+        "description": "Kiekvienas projektas yra konteinerinis, valdomas CI/CD ir sukurtas horizontaliam masteliui nuo pat pirmos dienos."
+      },
+      "fullStack": {
+        "title": "Sklandus viso krūvos kiekis",
+        "description": "Nuo \"React\" sąsajų iki .NET mikropaslaugų iki \"Kubernetes\" klasterių – viena komanda, nuo galo iki galo."
+      },
+      "productionProven": {
+        "title": "Gamyboje įrodyta",
+        "description": "Tai nėra demonstracinės technologijos. Kiekvienas išvardytas įrankis valdo realias sistemas, aptarnaujančias realius vartotojus šiandien."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Technologijų logotipai 1 eilutė",
+      "row2Aria": "Technologijų logotipai 2 eilutė",
+      "row3Aria": "Technologijų logotipai 3 eilutė"
+    }
+  },
+  "faq": {
+    "subtitle": "Žinių bazė",
+    "title": "Dažnai <gradient>užduodami klausimai</gradient>",
+    "titlePlain": "Dažnai užduodami klausimai",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Viskas, ką reikia žinoti apie darbą su \"Horizon Tech\"",
+    "items": {
+      "scope": {
+        "question": "Kokia jūsų darbo sritis?",
+        "answer": "Teikiame visapusiškus technologijų projektus: individualią įmonių programinę įrangą, AI/ML vamzdynus, debesų infrastruktūrą, daiktų interneto sistemas, \"DevOps\" automatizavimą ir skaitmeninės transformacijos konsultacijas. Nesvarbu, ar jums reikia visos platformos, sukurtos nuo nulio, ar tikslinės integracijos su esamu paketu, mes rūpinamės architektūra, kūrimu, testavimu ir diegimu."
+      },
+      "stack": {
+        "question": "Koks yra jūsų pagrindinis technologijų paketas?",
+        "answer": "Mūsų pagrindinis paketas sutelktas į įmonės lygio platformas: \"Azure\" ir \"AWS\" debesijai, .NET ir \"Node.js\" vidinei sistemai, \"React\" ir \"Angular\" sąsajai, \"Kubernetes\" ir \"Docker\" orkestravimui ir \"Terraform\" infrastruktūrai kaip kodui. Taip pat daug dirbame su Python AI/ML darbo krūviams, Power BI ir Fabric verslo žvalgybai ir PostgreSQL, SQL Server ir MongoDB duomenims."
+      },
+      "enterprise": {
+        "question": "Kaip tvarkote įmonių projektus?",
+        "answer": "Kiekvienas įsitraukimas prasideda nuo atradimo etapo, kurio metu apibrėžiama apimtis, architektūra ir etapai. Jūs gaunate specialią komandą su techniniu vadovu, reguliariomis etapų peržiūromis ir tiesiogine prieiga prie inžinierių, kuriančių jūsų sistemą. Mes stebime judrius sprintus su suinteresuotųjų šalių demonstracijomis, palaikome skaidrias projektų lentas ir teikiame savaitines pažangos ataskaitas."
+      },
+      "support": {
+        "question": "Kaip atrodo palaikymas po paleidimo?",
+        "answer": "Siūlome struktūrizuotas palaikymo pakopas su apibrėžtomis SLA, įskaitant 24 valandas per parą, 7 dienas per savaitę, reagavimą į incidentus, našumo optimizavimą ir funkcijų iteraciją. Mūsų palaikymo sutartys apima klaidų pataisymus, saugos pataisas, infrastruktūros mastelio keitimą ir aktyvius būklės patikrinimus, pritaikytus jūsų veikimo laikui ir atsakymo laikui."
+      },
+      "integration": {
+        "question": "Ar galite integruotis su mūsų esama infrastruktūra?",
+        "answer": "Absoliučiai. Mes specializuojamės senojo modernizavimo, API integracijų ir hibridinių debesų migracijos srityse. Nesvarbu, ar jums reikia prisijungti prie vietinių ERP sistemų, pereiti nuo monolitų prie mikropaslaugų, ar sujungti senas duomenų bazes su moderniomis sąsajomis, mes turime perkėlimo vadovėlius ir integracijos patirtį, kad tai būtų sklandu."
+      },
+      "industries": {
+        "question": "Kokiose pramonės šakose dirbote?",
+        "answer": "Mūsų komanda įgyvendino projektus fintech, sveikatos priežiūros, logistikos, elektroninės prekybos, energetikos ir vyriausybės sektoriuose. Suprantame konkrečios pramonės šakos reikalavimus, tokius kaip PCI-DSS mokėjimams, HIPAA aspektai sveikatos duomenims, BDAR atitiktis ES rinkoms ir realaus laiko telemetrija pramoniniam daiktų internetui."
+      },
+      "engagement": {
+        "question": "Kaip atrodo įsitraukimo procesas?",
+        "answer": "Tai prasideda nuo atradimo skambučio, kad suprastumėte savo tikslus ir techninę aplinką. Iš ten pateikiame apimties dokumentą su architektūros rekomendacijomis, tvarkaraščiu ir investicijų suskirstymu. Gavę patvirtinimą, pradedame su specialia komanda, įtraukiame į jūsų įrankius ir darbo eigą ir per kelias dienas pradedame pirmąjį sprintą."
+      }
+    },
+    "stillHaveQuestions": "Vis dar turite klausimų?",
+    "ctaDescription": "Turite omenyje projektą? Pakalbėkime apie apimtį, laiko juostą ir biudžetą.",
+    "readCaseStudies": "Skaitykite mūsų atvejų tyrimus",
+    "scheduleCall": "Suplanuokite skambutį"
+  }
+}

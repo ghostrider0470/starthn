@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Innovation Lab",
+    "description": "Vakadikeva na demo veisemati, vakatovotovo, kei na ivakaraitaki vakamisini mai na noda timi ni idinia.",
+    "primary": "Vakadikeva na Demos",
+    "secondary": "Raica na Vakadidike"
+  },
+  "overview": {
+    "hero": {
+      "title": "Innovation Lab",
+      "description": "Eda vakadikeva na iyalayala ni cakacaka ena AI, automation, kei na ivakarau veisoliyaki, qai vakadewataka na vakadidike vakadonui ki na rawa ni buli nuitaki.",
+      "primary": "Vakadikeva na Vanua ni Vakadidike",
+      "secondary": "Veivosakitaka e dua na Cakacaka Vata"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "iWasewase ni Vakadidike",
+        "description": "Na iwasewase yadua ni vakanamata e veisotari na vakadidike ni vakadidike kei na gaunisala ni kena vakayacori me baleta na ivakarau ni vuravura dina.",
+        "cardCta": "Vakadikeva na vakanamata"
+      },
+      "detailedFocusBriefs": {
+        "title": "iTukutuku Vakamatailalai ni Vakanamata",
+        "description": "Na sasaga ni vakadidike ena gauna oqo sa toso tiko mai na veivakadeitaki ni vale ki na ituvatuva ni kena vakayagataki."
+      },
+      "fromLabToProduction": {
+        "title": "Mai na Lab ki na Production",
+        "description": "Na veika vou ena Horizon e vakarautaki mai na veika e vakau mai, sega ni prototypes duadua ga."
+      },
+      "roadmap": {
+        "title": "R&D Roadmap",
+        "description": "E dua na toso cake mai na tarai cake ni rawa ki na adaptive, vakatorocaketaki tikoga na ivakarau ni cakacaka."
+      },
+      "publications": {
+        "title": "Tabaki kei na iVakasama",
+        "description": "Volavola vakamisini kei na kena vakayagataki na itukutuku mai na cakacaka ni veivakavoui e tomani tiko."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "iVakarau ni AI Vakayagataki",
+        "description": "Production-focused AI architectures spanning model serving, feature orchestration, and controlled experimentation."
+      },
+      "automationFrameworks": {
+        "title": "Automation Frameworks",
+        "description": "Internal automation tooling for deployment safety, incident response, and repeatable engineering workflows."
+      },
+      "advancedArchitecture": {
+        "title": "Vakatovotovo ni Architecture Torocake",
+        "description": "Vakadidike ki na resilient, veisoliyaki architectures optimized me baleta na veiqaravi, vosota na cala, kei na kena ivakatagedegede."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Intelligence at the edge for low-latency decisioning, telemetry processing, and device fleet coordination."
+      },
+      "nlp": {
+        "title": "Natural Language Processing",
+        "description": "Pipelines ni kila na veimataqali vosa me baleta na classification, extraction, translation, and conversational systems."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Evolutionary Algorithms & Optimization",
+        "description": "Na ivakarau ni vakasaqaqara kei na optimization e vakauqeti mai na digidigi ni veika bula me wali kina na bolebole ni idinia cecere."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Automation Frameworks",
+        "description": "We are building composable workflow frameworks for release orchestration, quality gates, and post-deploy verification to reduce manual friction while improving reliability."
+      },
+      "advancedArchitecture": {
+        "title": "Vakatovotovo ni Architecture Torocake",
+        "description": "Na noda vakatovotovo ni vale e vakanamata ki na iwalewale ni decomposition ni veiqaravi, iwalewale ni resiliency ni veiyasana, kei na waqanivola ni cakacaka me baleta na ivakarau e cakacaka tiko ena ruku ni gagadre volatile."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Eda sa vakadeitaka tiko na droini ni soqo kei na inference ni yasana ka rawa kina na vakatulewa vakatotolo ena noda vanua ena gauna vata kei na kena maroroi na vakatulewa centralized, auditability, kei na ivakarau ni lifecycle governance."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Tuvatuva ni Adaptive Capacity",
+        "description": "Sa vakadeitaki na prototypes ni labo ki na cakacaka simulated ka qai semati ki na ituvatuva ni autoscaling ni vata."
+      },
+      "operationalIntelligence": {
+        "title": "Operational Intelligence",
+        "description": "Na pipeline ni NLP e toso mai na vakatovotovo vakatulewa ki na cakacaka ni veitokoni ni cakacaka me totolo kina na triage kei na vakasama matata."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Optimization ena iVakarau ni Veikauyaki",
+        "description": "Na iwalewale ni evolutionary e vakatovolei ena lab sa vakadewataki ki na idini ni optimization me baleta na tuvatuva kei na veiwasei."
+      },
+      "edgeDecisioning": {
+        "title": "Vakatulewa ni Edge",
+        "description": "IoT kei na vakatovotovo ni inference ni yasana sa vakaukauwataki ki na veiqaravi low-latency vata kei na yalani ni nuidei."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Ena gauna oqo",
+        "title": "Yavu ni AI Vakayagataki",
+        "description": "Vakarabailevutaka na gacagaca ni veiqaravi ni ivakaraitaki e rawa ni vakayagataki tale, suite ni vakadidike, kei na ivakatagedegede ni vakadidike ena timi ni ivoli."
+      },
+      "next": {
+        "phase": "Tarava",
+        "title": "Cakacaka ni Idinia Vakataki Koya",
+        "description": "Operationalize automation frameworks that reduce deployment risk and shorten feedback loops for shipping."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 Vula",
+        "title": "Edge-Native Intelligence",
+        "description": "Scale hybrid o-edge architectures for near real-time inference in latency-sensitive environments."
+      },
+      "longHorizon": {
+        "phase": "Na Horizon Balavu",
+        "title": "iVakarau ni Optimization Tomani",
+        "description": "Vakaduavatataka na vakatovotovo, vakadikevi, kei na optimization me rawa ni veisau vakavinaka na ivakarau ni veisau."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Idinia na gacagaca ni AI ka nuitaki tikoga ena cakacaka",
+        "summary": "E dua na rai yaga ena kena vakatautauvatataki na totolo ni vakatovotovo kei na veiliutaki ni cakacaka.",
+        "cta": "Wilika na vakasama"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Veisoliyaki na iVakarau ni Architecture me baleta na Vatavata ni Tubu Levu",
+        "summary": "Field notes from architecture trials focused on performance, resiliency, and operational simplicity.",
+        "cta": "Railesuva na kisi dikevi"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping Applied R&D for Business Outcomes",
+        "summary": "Na sala eda tuvanaka kina na veivakatorocaketaki me rawa ni toso na veika e kunea mai na prototype ki na yavunilewa e rawa ni vakarautaki.",
+        "cta": "Vakadikeva na veitabaki"
+      }
+    },
+    "cta": {
+      "title": "Tara vata kei na Horizon Innovation Lab",
+      "description": "Veitokani vata kei keda me vakadeitaka vakatotolo na vakasama cecere ka tosoya na vakasama vakadinadinataki ki na ivakarau ni buli taqomaki, scalable.",
+      "primary": "Tekivutaka e dua na veivosaki",
+      "secondary": "Raica na macala ni veikauyaki"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "iVakarau ni AI Vakayagataki",
+      "description": "E dua na rairaraba yaga ni iwalewale ni Horizon droinitaka, deploys, ka cakacakataka na ivakarau ni vuli misini mai na prototype ki na production.",
+      "back": "Lesu ki na Innovation Lab",
+      "tags": {
+        "appliedAi": "Vakayagataki ni AI",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Pipelines ni Vuli Misini",
+        "description": "Production AI tekivu ena pipelines reproducible ka semata na itukutuku, vakatovotovo, veivakadeitaki, kei na vakasama."
+      },
+      "modelDeploymentPatterns": {
+        "title": "iVakarau ni Deployment ni iVakatakarakara",
+        "description": "Deployment strategy is selected based on latency requirements, business criticality, and operational complexity."
+      },
+      "mlopsOperatingModel": {
+        "title": "iVakarau ni Cakacaka ni MLOps",
+        "description": "Na iwalewale ni MLOps e vakadeitaka na ivakarau ni AI me nuitaki, vakatulewataki, ka scalable ni sa tubu cake na kena vakayagataki."
+      },
+      "monitoringAndReliability": {
+        "title": "Vakadikevi kei na Nuitaki",
+        "description": "Observability e sogota na iwiliwili ni ivakarau ni ivakaraitaki kei na kena isau ni cakacaka."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Idinia ni iTukutuku kei na iVakatakilakila",
+        "description": "Versioned data ingestion, quality checks, and reusable feature definitions create a reliable foundation for model training."
+      },
+      "modelDevelopment": {
+        "title": "Vakatorocaketaki ni ivakaraitaki",
+        "description": "Vakatovotovo sa vakamuri vata kei na reproducible configurations, inaki metrics, kei na yavu ni vakatautauvatani vakamisini."
+      },
+      "validationAndSafetyGates": {
+        "title": "Matamata ni veivakadeitaki kei na veitaqomaki",
+        "description": "Na ivakaraitaki ni kandida era na rawata na dikevi ni veiqaravi, kaukauwa, kei na lawatu ni bera ni ra vakadonui me ra vagalalataki."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Operational Feedback Loops",
+        "description": "Na telemetry ni oti na deployment e tukuna na veika me vakaliuci ena veituberi tale, vakatulewa ni rollback, kei na tuvatuva ni iteration e tarava."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Veiqaravi ni Inference ena Gauna Dina",
+        "description": "Low-latency APIs for interactive applications with autoscaling, caching, and request-level observability."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Predictions ni Batch kei na Streaming",
+        "description": "Pipelines tuvanaki kei na soqo me baleta na iwiliwili levu ni scoring ena analytics kei na cakacaka ni cakacaka."
+      },
+      "edgeAwareDeployment": {
+        "title": "Vakayagataki ni Edge-Aware",
+        "description": "Hybrid cloud-edge serving patterns for environments require local inference and centralized model governance."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI/CD me baleta na ivakaraitaki",
+        "description": "Na cakacaka ni tarai cake vakamisini, vakatovotovo, kei na sereki e vakalailaitaka na ririkotaki ni vakayagataki ena gauna vata e maroroya tiko kina na totolo ni veikauyaki."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Model Registry kei na Lifecycle",
+        "description": "Na iyaya ni ivakaraitaki versioned vata kei na ivakatagedegede ni torocake, kawa, kei na cakacaka ni veivakadonui e vakatorocaketaka na lewai kei na traceability."
+      },
+      "servingInfrastructure": {
+        "title": "Veiqaravi ena iYauqaqa",
+        "description": "Scalable na veiqaravi vata kei na iwalewale ni rollout me vaka na canary kei na shadow deployments tokona na veisau taqomaki."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Prediction quality and drift detection",
+      "latencyThroughputAndCostEfficiencyTracking": "Latency, throughput, kei na kena vakamuri na isau",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Na itukutuku vinaka ni veivakayadrati ni regression kei na cakacaka ni veivakadodonutaki",
+      "auditabilityForComplianceAndIncidentAnalysis": "Na dikevi fika me baleta na vakamuri kei na vakadidike ni veika e yaco"
+    },
+    "cta": {
+      "title": "Scale Applied AI with Confidence",
+      "description": "Kevaka o tuvanaka tiko na sasaga ni AI e gadrevi kina na kena vakarautaki kei na kena maroroi ena gauna balavu, e rawa ni veivuke na Horizon ena kena tuvanaki ka cakacakataka na ivakarau taucoko ni bula.",
+      "primary": "Vosa vei Noda Timi",
+      "secondary": "Vakadikeva eso tale na cakacaka ni labo"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "NLP ni Veimataqali Vosa",
+      "description": "Vakadikeva na iwalewale ni cakacakataki ni vosa dina kei na iwalewale ni kena vakatorocaketaki ki na ivakarau ni buli ni vosa nuitaki.",
+      "back": "Lesu ki na Innovation Lab",
+      "tags": {
+        "demo": "Demo Veisemati",
+        "intelligence": "Vuku ni Vosa"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Yavu ni NLP",
+        "description": "Na cakacaka ni vosa dina e cokovata kina na ivakatakilakila ni vosa kei na vuli ni misini me kauta mai na ibalebale, inaki, kei na ituvatuva mai na ivola."
+      },
+      "workbench": {
+        "title": "Cakacaka ni NLP veisemati",
+        "description": "Vakayagataka na demo me vakatovotovotaka na vakadidike ni vosa, score ni vakasama, vagalalataki ni entity, kei na ivakarau ni vakadewa ena gauna dina."
+      },
+      "productionApplications": {
+        "title": "Na sala e vakayagataka kina o Horizon na NLP ena cakacaka",
+        "description": "Na rawa ni NLP sa semati ki na cakacaka ni bisinisi vata kei na itataqomaki ni cakacaka kei na ivakarau matata ni kena ivakatagedegede."
+      },
+      "reliabilityAndGovernance": {
+        "title": "iVakavuvuli ni Nuitaki kei na Veiliutaki",
+        "description": "Na NLP ni caka e gadrevi vakalevu cake mai na ivakarau ni ivakaraitaki; E vakatau ena iwalewale ni veitaqomaki kei na kena vakadeitaki tikoga."
+      }
+    },
+    "foundations": {
+      "intro1": "Modern NLP systems power support automation, search relevance, knowledge extraction, and multilingual collaboration. Na kena vakayacori vakavinaka e gadrevi ruarua na ivakarau vinaka ni ivakaraitaki kei na vakatulewa kaukauwa ni cakacaka.",
+      "intro2": "Ena Horizon, eda vakanamata ki na gacagaca ni NLP e cokovata na inference kaukauwa kei na observability, veiliutaki, kei na kena rawa ni vakayagataki."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Vakadikevi ni Vosa",
+        "description": "Raica na vosa mai na iwasewase ni itukutuku lekaleka se balavu me salavata na kerekere ki na pipeline ni cakacakataki dodonu."
+      },
+      "sentimentAnalysis": {
+        "title": "Vakadidike ni Sentiment",
+        "description": "Extracts emotional intent and polarity for customer intelligence, support triage, and product feedback loops."
+      },
+      "entityExtraction": {
+        "title": "Entity Extraction",
+        "description": "Raica na veitabana tuvanaki me vaka na yaca, kabani, vanua, kei na tikinisiga mai na itukutuku sega ni tuvatuva."
+      },
+      "translation": {
+        "title": "Vakadewa",
+        "description": "Tokona na cakacaka ni veimataqali vosa ena kena vakadewataki na itukutuku e bulia o ira era vakayagataka se cakacaka ena gauna vata e maroroi tiko kina na kena itukutuku."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Veitokoni kei na Vuku ni Tikite",
+        "description": "Classify na kerekere curu mai ena vakatotolotaki, inaki, kei na vakasama me vakatotolotaka na routing kei na ivakarau ni kena isau."
+      },
+      "governedContentOperations": {
+        "title": "Cakacaka ni Lewena Vakatulewa",
+        "description": "Vakayagataka na itatarovi ni vosa kilai lawatu kei na jeke ni moderation vata kei na kena ivakarau dodonu kei na takete ni nanuma lesu e rawa ni vakarautaki rawa."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Vakasama ni Bisinisi e Vakayarayarataki ena Text",
+        "description": "Aggregate trends from documents, railesuvi, and communications to inform strategy and operational decisions."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Vakadidike ena Kisi ni Vakayagataki",
+        "description": "Na ivakaraitaki era benchmarked vata kei na datasets vakatabakidua ni vanua ni bera ni vakatulewa ni vagalalataki."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Veitaqomaki ni Tamata-in-the-Loop",
+        "description": "Na predictions cecere e oka kina na sala ni railesuvi, lawa ni escalation, kei na sikinala ni veivakabauti matata."
+      },
+      "continuousMonitoring": {
+        "title": "Vakadikevi Tikoga",
+        "description": "Na drift, latency, kei na degradation ni ituvaki vinaka era sa vakamuri tikoga me rawa kina na retraining kei na rollback e proactive."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Genetic Algorithm Simulation",
+      "description": "Vakadikeva na computation ni evolutionary ena dua na draki ni veisemati ka raica na sala e vakadewataki kina na ivakavuvuli vata ga oqo ki na ivakarau ni optimization ni cakacaka.",
+      "back": "Lesu ki na Innovation Lab",
+      "tags": {
+        "demo": "Demo Veisemati",
+        "optimizationScience": "Optimization Science"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Yavu ni Vakadidike",
+        "description": "Genetic algorithms are population-based optimization methods inspired by natural selection and adaptation."
+      },
+      "interactiveEnvironment": {
+        "title": "Interactive Evolution Environment",
+        "description": "Cicivaka na ivakaraitaki mo raica na vakatorocaketaki ni kaukauwa ena veitabatamata yadua ka dikeva na sala e vakayarayarataka kina na vatuka na kaukauwa ni digidigi."
+      },
+      "productionUse": {
+        "title": "Na sala e vakayagataka kina oqo o Horizon ena cakacaka",
+        "description": "Na gacagaca ni vakasaqaqara vata ga e vakayagataki ena demo oqo e tukuna na pipelines ni optimization vakayagataki ena ivakarau ni cakacaka."
+      },
+      "applicationDomains": {
+        "title": "Vanua ni iVolakerekere Rabailevu",
+        "description": "Evolutionary optimization e yaga vakalevu sara ena ivakarau e tiko kina na inaki kaukauwa kei na veisaqasaqa ni yasana."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "E sega ni vakasaqara e dua na iwali ena dua na gauna, na genetic algorithms e vakatorocaketaka e dua na iwiliwili duidui ni veiqaravi. Na itabatamata yadua e dikevi ena dua na cakacaka ni kaukauwa ka vakavinakataki ena digidigi, crossover, kei na mutation.",
+      "intro2": "Oqo e vakavuna me ra mana me baleta na leqa cecere kei na non-linear constraints, na vanua e yaco kina na iwalewale deterministic me brittle se computationally saulevu."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Digitaki",
+        "description": "O ira na vakatutu vinaka era na rawa ni bula ka vakayarayarataki ira na itabatamata e tarava."
+      },
+      "crossover": {
+        "title": "Veikauwaitaki",
+        "description": "Na itovo kaukauwa era cokovata tale me bulia na iwali vou ni kandida kei na kaukauwa veiwaki."
+      },
+      "mutation": {
+        "title": "Veisau",
+        "description": "Na randomness vakatulewa e vakavuna na duidui me kakua kina ni tu vakadua na vakasaqaqara ena optima ni vanua."
+      },
+      "convergence": {
+        "title": "Convergence",
+        "description": "Ena vuqa na itabatamata, era sa gole yani na lewenivanua ki na iwali tudei ka cecere."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Tuvatuva ni iVurevure",
+        "description": "Eda vakayagataka na iwalewale ni evolutionary me vakavinakataki kina na ituvatuva ni multi-constraint ena vanua e sega ni rawa kina na vakasaqaqara kaukauwa."
+      },
+      "architectureTuning": {
+        "title": "Architecture Tuning",
+        "description": "Candidate infrastructure configurations are tested iteratively to improve performance and cost efficiency."
+      },
+      "continuousOptimization": {
+        "title": "Optimization Tomani",
+        "description": "Optimization jobs run in controlled loops with telemetry feedback so systems adapt as demand profiles shift."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Tuvatuva ni Sala kei na Logistics",
+        "description": "Na tuvatuva ni veikauyaki kei na vakau e yaga mai na vakasaqaqara ni evolutionary ni veisau vakatotolo na constraints."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Vakasaqaqara ni ivakaraitaki kei na hyperparameter",
+        "description": "Genetic search can discover high-quality model configurations when objective surfaces are noisy and non-linear."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Leqa ni Portfolio kei na Allocation",
+        "description": "Optimization ena ruku ni inaki ni veisisivi e rawa ni tuvanaki me vaka na tradeoffs ni kaukauwa ena veisau ni ituvatuva ni veiqaravi."
+      }
+    }
+  }
+}

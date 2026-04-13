@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Home",
+    "company": "Company",
+    "solutions": "Solutions",
+    "resources": "Resources",
+    "innovationLab": "Innovation Lab",
+    "contact": "Contact",
+    "about": {
+      "title": "About",
+      "description": "Our mission, vision, and story"
+    },
+    "team": {
+      "title": "Team",
+      "description": "Meet the people behind Horizon Tech"
+    },
+    "careers": {
+      "title": "Careers",
+      "description": "Join our team and build the future"
+    },
+    "enterpriseSoftware": {
+      "title": "Enterprise Software Development",
+      "description": "Custom enterprise applications with modern frameworks"
+    },
+    "aiMl": {
+      "title": "AI, ML & Business Intelligence",
+      "description": "Complete AI/ML pipelines and BI dashboards"
+    },
+    "cloudArchitecture": {
+      "title": "Cloud Architecture & Infrastructure",
+      "description": "Multi-cloud solutions and container orchestration"
+    },
+    "iot": {
+      "title": "IoT & Edge Computing",
+      "description": "Connected device ecosystems and digital twins"
+    },
+    "devops": {
+      "title": "DevOps & Platform Engineering",
+      "description": "CI/CD pipelines and infrastructure as code"
+    },
+    "digitalTransformation": {
+      "title": "Digital Transformation & Strategy",
+      "description": "Enterprise transformation roadmaps and advisory"
+    },
+    "caseStudies": {
+      "title": "Case Studies",
+      "description": "Success stories from our clients",
+      "featured": {
+        "title": "Featured Case Study",
+        "description": "Deep dive into a full delivery engagement"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Insights, tutorials, and industry trends",
+      "featured": {
+        "title": "Featured Blog Post",
+        "description": "Read one of our latest engineering insights"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Innovation Lab Overview",
+      "description": "See all research areas and experimental tracks"
+    },
+    "innovationLabAiSystems": {
+      "title": "Applied AI Systems",
+      "description": "Production-ready machine learning architecture patterns"
+    },
+    "innovationLabNlp": {
+      "title": "Multi-Language NLP",
+      "description": "Interactive natural language processing capabilities"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Genetic Algorithm Simulation",
+      "description": "Evolutionary optimization in an interactive environment"
+    },
+    "navigation": "Navigation",
+    "skipToContent": "Skip to content",
+    "toggleMenu": "Toggle menu",
+    "dashboard": "Dashboard",
+    "myWorkspace": "My Workspace",
+    "profile": "Profile",
+    "adminPanel": "Admin Panel",
+    "practiceManagement": "Practice Management",
+    "logOut": "Log out",
+    "education": {
+      "title": "Technical Resources",
+      "description": "Guides, tutorials, and best practices from the Horizon Tech team"
+    },
+    "support": {
+      "title": "Support Center",
+      "description": "Get help with our software development services"
+    }
+  },
+  "footer": {
+    "description": "Software development startup based in Sarajevo, Bosnia. We build custom software, AI/ML solutions, cloud architecture, and automation systems.",
+    "features": "Features",
+    "resources": "Resources",
+    "company": "Company",
+    "legal": "Legal",
+    "dashboard": "Dashboard",
+    "components": "Components",
+    "documentation": "Documentation",
+    "apiReference": "API Reference",
+    "gettingStarted": "Getting Started",
+    "examples": "Examples",
+    "community": "Community",
+    "blog": "Blog",
+    "caseStudies": "Case Studies",
+    "innovationLabOverview": "Innovation Lab Overview",
+    "appliedAiSystems": "Applied AI Systems",
+    "nlpDemo": "Multi-Language NLP",
+    "geneticAlgorithmSimulation": "Genetic Algorithm Simulation",
+    "featuredBlogPost": "Featured Blog Post",
+    "featuredCaseStudy": "Featured Case Study",
+    "about": "About",
+    "contact": "Contact",
+    "partners": "Partners",
+    "careers": "Careers",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "license": "License",
+    "copyright": "© {{year}} Horizon Tech. All rights reserved.",
+    "subscribe": "Subscribe to newsletter"
+  },
+  "header": {
+    "badge": "Enterprise Technology Solutions",
+    "titleLine1": "Transform Your Business with",
+    "titleLine2": "Cutting-Edge Technology",
+    "description": "From enterprise software development and AI-powered business intelligence to cloud infrastructure and IoT solutions — we deliver comprehensive technology services that drive innovation and accelerate growth.",
+    "getStarted": "Get Started",
+    "exploreSolutions": "Explore Solutions",
+    "trustedBy": "Trusted by forward-thinking enterprises",
+    "microsoftPartner": "Microsoft Partner",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "Enterprise Solutions"
+  },
+  "mobileNav": {
+    "navigation": "Mobile navigation",
+    "home": "Home",
+    "solutions": "Solutions",
+    "caseStudies": "Cases",
+    "aiSystems": "AI Lab",
+    "blog": "Blog",
+    "resources": "Resources",
+    "contact": "Contact"
+  },
+  "sideNav": {
+    "scroll": "Scroll",
+    "navigateTo": "Navigate to {{section}}",
+    "sections": {
+      "home": "Home",
+      "solutions": "Solutions",
+      "credibility": "Credibility",
+      "partners": "Partners",
+      "caseStudies": "Case Studies",
+      "blog": "Blog",
+      "innovationLab": "Innovation Lab",
+      "faq": "FAQ"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Switch language",
+    "searchPlaceholder": "Search language...",
+    "noResults": "No languages found."
+  },
+  "common": {
+    "menu": "Menu",
+    "account": "Account"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Recent Case Studies",
+      "description": "A snapshot of delivery outcomes across fintech, healthcare, logistics, and public sector programs.",
+      "cta": "View All Case Studies"
+    },
+    "blog": {
+      "title": "Latest From Our Blog",
+      "description": "Practical engineering notes from recent AI, platform, and cloud delivery work.",
+      "cta": "Read All Articles"
+    },
+    "innovationLab": {
+      "title": "Innovation Lab",
+      "description": "Explore prototypes, experiments, and applied R&D projects from the Horizon Tech engineering team.",
+      "cta": "Explore Innovation Lab"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Read Case Study",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Healthcare",
+      "logistics": "Logistics",
+      "manufacturing": "Manufacturing",
+      "government": "Government"
+    }
+  },
+  "blogCard": {
+    "read": "Read"
+  }
+}

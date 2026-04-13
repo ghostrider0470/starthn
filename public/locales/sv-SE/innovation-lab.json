@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Innovationslabbet",
+    "description": "Utforska interaktiva demonstrationer, experiment och tekniska uppvisningar från vårt ingenjörsteam.",
+    "primary": "Utforska demos",
+    "secondary": "Visa forskning"
+  },
+  "overview": {
+    "hero": {
+      "title": "Innovationslabbet",
+      "description": "Vi utforskar praktiska gränser inom AI, automation och distribuerade system, och översätter sedan validerad forskning till pålitliga produktionskapaciteter.",
+      "primary": "Utforska forskningsområden",
+      "secondary": "Diskutera ett samarbete"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Forskningsområden",
+        "description": "Varje fokusområde kombinerar utforskande forskning med implementeringsvägar utformade för verkliga system.",
+        "cardCta": "Utforska fokus"
+      },
+      "detailedFocusBriefs": {
+        "title": "Detaljerade fokusbriefar",
+        "description": "Forskningsinitiativ på kort sikt går för närvarande från arkitekturvalidering till leveransplaner."
+      },
+      "fromLabToProduction": {
+        "title": "Från laboratorium till produktion",
+        "description": "Innovation på Horizon mäts i levererade resultat, inte i isolerade prototyper."
+      },
+      "roadmap": {
+        "title": "FoU-färdplan",
+        "description": "En stegvis progression från kapacitetsuppbyggnad till adaptiva, kontinuerligt förbättrande system."
+      },
+      "publications": {
+        "title": "Publikationer & Insikter",
+        "description": "Teknisk skrivning och implementeringsanteckningar från pågående innovationsarbete."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Tillämpade AI-system",
+        "description": "Produktionsfokuserade AI-arkitekturer som spänner över modellservering, feature-orkestrering och styrd experimentering."
+      },
+      "automationFrameworks": {
+        "title": "Automationsramverk",
+        "description": "Interna automationsverktyg för säkerhet, incidenthantering och upprepbara ingenjörsarbetsflöden."
+      },
+      "advancedArchitecture": {
+        "title": "Avancerad arkitekturexperimentering",
+        "description": "Forskning om resilienta, distribuerade arkitekturer optimerade för prestanda, feltolerans och skalbarhet."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT-intelligens",
+        "description": "Intelligens i framkant för beslut med låg latens, telemetrihantering och samordning av enhetsflottan."
+      },
+      "nlp": {
+        "title": "Naturlig språkbehandling",
+        "description": "Flerspråkiga förståelsepipelines för klassificering, extraktion, översättning och konversationssystem."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Evolutionära algoritmer och optimering",
+        "description": "Sök- och optimeringssystem inspirerade av naturligt urval för att lösa högdimensionella ingenjörsutmaningar."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Automationsramverk",
+        "description": "Vi bygger komponerbara arbetsflödesramverk för release-orkestrering, kvalitetsgrindar och verifiering efter distribution för att minska manuell friktion samtidigt som tillförlitligheten förbättras."
+      },
+      "advancedArchitecture": {
+        "title": "Avancerad arkitekturexperimentering",
+        "description": "Våra arkitekturexperiment fokuserar på strategier för tjänstdekomposition, tvärregionala resiliensmönster och prestandagränser för system som arbetar under volatil efterfrågan."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT-intelligens",
+        "description": "Vi validerar event streaming- och edge inference-designer som möjliggör snabbare lokala beslut samtidigt som centraliserad kontroll, granskningsbarhet och modelllivscykelstyrning bevaras."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Anpassningsbar kapacitetsplanering",
+        "description": "Labprototyper valideras mot simulerade arbetsbelastningar och integreras sedan i plattformsautoskalningsstrategier."
+      },
+      "operationalIntelligence": {
+        "title": "Operativ underrättelseverksamhet",
+        "description": "NLP-pipelines går från kontrollerade experiment till produktionsstödsarbetsflöden för snabbare triage och tydligare insikter."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Optimering i leveranssystem",
+        "description": "Evolutionära metoder som testas i laboratoriet översätts till optimeringsmotorer för schemaläggning och allokering."
+      },
+      "edgeDecisioning": {
+        "title": "Kantbeslut",
+        "description": "IoT- och kantinferensexperiment har härdats till låglatenstjänster med strikta tillförlitlighetsbegränsningar."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Nu",
+        "title": "Grundlagen för tillämpad AI",
+        "description": "Utöka återanvändbara modellserveringsmallar, utvärderingssviter och observabilitetsstandarder inom produktteam."
+      },
+      "next": {
+        "phase": "Nästa",
+        "title": "Autonoma ingenjörsarbetsflöden",
+        "description": "Operationalisera automationsramverk som minskar risken för distribution och förkortar återkopplingsslingor för frakt."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12–18 månader",
+        "title": "Edge-Native Intelligence",
+        "description": "Skala hybrida molnedge-arkitekturer för nästan realtidsinferens i miljöer med känslig latens."
+      },
+      "longHorizon": {
+        "phase": "Lång horisont",
+        "title": "Kontinuerliga optimeringssystem",
+        "description": "Förena experiment, övervakning och optimering så att systemen kan anpassa sig säkert när kontexten förändras."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Att konstruera AI-system som förblir tillförlitliga i produktion",
+        "summary": "Ett praktiskt perspektiv på att balansera experimentets hastighet med produktionsstyrning.",
+        "cta": "Läs insikter"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Distribuerade arkitekturmönster för högväxande plattformar",
+        "summary": "Fältanteckningar från arkitekturtester fokuserade på prestanda, motståndskraft och operativ enkelhet.",
+        "cta": "Granska fallstudier"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Vägkarta tillämpad forskning och utveckling för affärsresultat",
+        "summary": "Hur vi strukturerar innovationsinitiativ så att upptäckter går från prototyp till mätbart värde.",
+        "cta": "Utforska publikationer"
+      }
+    },
+    "cta": {
+      "title": "Bygg med Horizon Innovation Lab",
+      "description": "Samarbeta med oss för att snabbt validera ambitiösa idéer och flytta beprövade koncept till säkra, skalbara produktionssystem.",
+      "primary": "Starta en konversation",
+      "secondary": "Visa leveransresultat"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Tillämpade AI-system",
+      "description": "En praktisk översikt över hur Horizon designar, distribuerar och driver maskininlärningssystem från prototyp till produktion.",
+      "back": "Tillbaka till Innovationslabbet",
+      "tags": {
+        "appliedAi": "Tillämpad AI",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Maskininlärningspipelines",
+        "description": "Produktions-AI börjar med reproducerbara pipelines som kopplar samman data, experiment, validering och återkoppling."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Mönster för modelldistribution",
+        "description": "Distributionsstrategin väljs baserat på latenskrav, affärskritisk betydelse och operativ komplexitet."
+      },
+      "mlopsOperatingModel": {
+        "title": "MLOps driftmodell",
+        "description": "MLOps-praktiker säkerställer att AI-system förblir tillförlitliga, styrbara och skalbara i takt med att användningen ökar."
+      },
+      "monitoringAndReliability": {
+        "title": "Övervakning och tillförlitlighet",
+        "description": "Observerbarhet sluter loopen mellan modellbeteende och operativa resultat."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Data- och funktionsteknik",
+        "description": "Versionsbaserad datainsamling, kvalitetskontroller och återanvändbara funktionsdefinitioner skapar en pålitlig grund för modellträning."
+      },
+      "modelDevelopment": {
+        "title": "Modellutveckling",
+        "description": "Experimenten följs med reproducerbara konfigurationer, målmetrik och automatiserade jämförelsebaslinjer."
+      },
+      "validationAndSafetyGates": {
+        "title": "Validering och säkerhetsgrindar",
+        "description": "Kandidatmodeller klarar prestanda-, robusthets- och policykontroller innan de godkänns för publicering."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Operativa återkopplingsslingor",
+        "description": "Telemetri efter utplacering informerar omträningsprioriteringar, beslut om tillbakagång och planering av nästa iteration."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Inferenstjänster i realtid",
+        "description": "API:er med låg latens för interaktiva applikationer med autoskalning, cachning och observabilitet på begäran."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Batch- och strömningsprognoser",
+        "description": "Schemalagda och händelsedrivna pipelines för högvolymspoäng över analys- och operativa arbetsflöden."
+      },
+      "edgeAwareDeployment": {
+        "title": "Edge-medveten utplacering",
+        "description": "Hybrida moln-edge-serveringsmönster för miljöer som kräver lokal inferens och centraliserad modellstyrning."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI/CD för modeller",
+        "description": "Automatiserade arbetsflöden för byggande, test och släpp minskar risken för distribution samtidigt som leveranshastigheten bibehålls."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Modellregister och livscykel",
+        "description": "Versionsbaserade modellartefakter med befordringssteg, härstamning och godkännandeflöden förbättrar kontroll och spårbarhet."
+      },
+      "servingInfrastructure": {
+        "title": "Infrastruktur",
+        "description": "Skalbara serveringslager med utrullningsstrategier som kanariefågel- och skuggimplementeringar stödjer säker förändringshantering."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Förutsägelsekvalitet och driftdetektion",
+      "latencyThroughputAndCostEfficiencyTracking": "Spårning av latens, genomströmning och kostnadseffektivitet",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Datakvalitetsregressionsvarningar och åtgärdsarbetsflöden",
+      "auditabilityForComplianceAndIncidentAnalysis": "Granskningsbarhet för efterlevnad och incidentanalys"
+    },
+    "cta": {
+      "title": "Skala tillämpad AI med självförtroende",
+      "description": "Om du planerar AI-initiativ som kräver mätbara resultat och långsiktig underhållsbarhet kan Horizon hjälpa till att designa och operationalisera hela systemets livscykel.",
+      "primary": "Prata med vårt team",
+      "secondary": "Utforska mer laboratoriearbete"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "Flerspråkig NLP",
+      "description": "Utforska praktiska möjligheter för naturlig språkbehandling och hur de skalar till pålitliga, flerspråkiga produktionssystem.",
+      "back": "Tillbaka till Innovationslabbet",
+      "tags": {
+        "demo": "Interaktiv demo",
+        "intelligence": "Språkintelligens"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "NLP-grunder",
+        "description": "Naturlig språkbehandling kombinerar språkliga signaler och maskininlärning för att extrahera mening, avsikt och struktur från text."
+      },
+      "workbench": {
+        "title": "Interaktiv NLP-arbetsbänk",
+        "description": "Använd demon för att testa språkdetektering, sentiment-poängsättning, entitetsextraktion och översättningsbeteenden i realtid."
+      },
+      "productionApplications": {
+        "title": "Hur Horizon tillämpar NLP i produktion",
+        "description": "NLP-funktioner integreras i affärsflöden med prestandaräcken och tydliga kvalitetsmått."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Tillförlitlighets- och styrningsprinciper",
+        "description": "Produktions-NLP kräver mer än bara modellkvalitet; Det beror på säkra utrullningsrutiner och kontinuerlig verifiering."
+      }
+    },
+    "foundations": {
+      "intro1": "Moderna NLP-system driver automatisering, sökrelevans, kunskapsutvinning och flerspråkigt samarbete. Effektiv implementering kräver både modellkvalitet och starka operativa kontroller.",
+      "intro2": "På Horizon fokuserar vi på end-to-end NLP-system som kombinerar robust inferens med observerbarhet, styrning och mätbar produktionspåverkan."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Språkdetektion",
+        "description": "Identifierar språk från korta eller långa textsegment för att dirigera förfrågningar till rätt bearbetningspipeline."
+      },
+      "sentimentAnalysis": {
+        "title": "Sentimentanalys",
+        "description": "Extraherar emotionell avsikt och polaritet för kundintelligens, supporttriage och produktfeedbackslingor."
+      },
+      "entityExtraction": {
+        "title": "Entitetsextraktion",
+        "description": "Upptäcker strukturerade enheter såsom namn, företag, platser och datum från ostrukturerad text."
+      },
+      "translation": {
+        "title": "Översättning",
+        "description": "Stöder flerspråkiga arbetsflöden genom att översätta användargenererad eller operativ text samtidigt som kontexten bevaras."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Support och ärendeinformation",
+        "description": "Klassificera inkommande förfrågningar efter brådska, avsikt och känsla för att snabba upp routing och svarskvalitet."
+      },
+      "governedContentOperations": {
+        "title": "Styrda innehållsoperationer",
+        "description": "Använd policymedvetna språkfilter och modereringskontroller med mätbar precision och återkallelsemål."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Textdrivna affärsinsikter",
+        "description": "Samla trender från dokument, granskningar och kommunikation för att informera strategiska och operativa beslut."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Utvärdering efter användningsfall",
+        "description": "Modeller jämförs mot domänspecifika dataset innan beslut om släpp fattas."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Människo-i-loopen-skydd",
+        "description": "Högpåverkande prognoser inkluderar granskningsvägar, eskaleringsregler och transparenta konfidenssignaler."
+      },
+      "continuousMonitoring": {
+        "title": "Kontinuerlig övervakning",
+        "description": "Drift, latens och kvalitetsförsämring spåras kontinuerligt så omträning och rollback är proaktiva."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Genetisk algoritmsimulering",
+      "description": "Utforska evolutionär beräkning i en interaktiv miljö och se hur samma principer översätts till produktionsoptimeringssystem.",
+      "back": "Tillbaka till Innovationslabbet",
+      "tags": {
+        "demo": "Interaktiv demo",
+        "optimizationScience": "Optimeringsvetenskap"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Vetenskaplig stiftelse",
+        "description": "Genetiska algoritmer är populationsbaserade optimeringsmetoder inspirerade av naturligt urval och anpassning."
+      },
+      "interactiveEnvironment": {
+        "title": "Interaktiv evolutionsmiljö",
+        "description": "Kör simuleringen för att se hur konditionen förbättras generation för generation och observera hur selektionstryck påverkar resultaten."
+      },
+      "productionUse": {
+        "title": "Hur Horizon använder detta i produktionen",
+        "description": "Samma sökmekanik som används i denna demo informerar optimeringspipelines som används i operativa system."
+      },
+      "applicationDomains": {
+        "title": "Bredare tillämpningsområden",
+        "description": "Evolutionär optimering är särskilt värdefull i system med dynamiska mål och motstridiga begränsningar."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Istället för att söka efter en lösning i taget utvecklar genetiska algoritmer en mångfaldig population av kandidater. Varje generation utvärderas mot en fitnessfunktion och förfinas genom selektion, crossover och mutation.",
+      "intro2": "Detta gör dem effektiva för högdimensionella problem med icke-linjära begränsningar, där deterministiska metoder blir sköra eller beräkningsmässigt kostsamma."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Urval",
+        "description": "Högpresterande kandidater har större chans att överleva och påverka nästa generation."
+      },
+      "crossover": {
+        "title": "Korsning",
+        "description": "Starka egenskaper kombineras igen för att skapa nya kandidatlösningar med blandade styrkor."
+      },
+      "mutation": {
+        "title": "Mutation",
+        "description": "Kontrollerad slumpmässighet introducerar mångfald så att sökningen inte stannar upp kring lokal optima."
+      },
+      "convergence": {
+        "title": "Konvergens",
+        "description": "Under många generationer tenderar populationer mot stabila, högkvalitativa lösningar."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Resursschemaläggning",
+        "description": "Vi använder evolutionära strategier för att optimera schemaläggning med flera begränsningar där brute-force-sökning är ogenomförbar."
+      },
+      "architectureTuning": {
+        "title": "Arkitekturjustering",
+        "description": "Kandidatinfrastrukturkonfigurationer utvärderas iterativt för att förbättra prestanda och kostnadseffektivitet."
+      },
+      "continuousOptimization": {
+        "title": "Kontinuerlig optimering",
+        "description": "Optimeringsjobb körs i kontrollerade loopar med telemetrifeedback så systemen anpassar sig när efterfrågeprofiler förändras."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Rutt- och logistikplanering",
+        "description": "Komplex leverans- och utflyktsplanering gynnas av evolutionär sökning när begränsningar snabbt förändras."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Modell- och hyperparametersökning",
+        "description": "Genetisk sökning kan upptäcka högkvalitativa modellkonfigurationer när objektiva ytor är brusiga och icke-linjära."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Portfölj- och allokeringsproblem",
+        "description": "Optimering under konkurrerande mål kan ses som anpassningsavvägningar mellan utvecklande kandidatuppsättningar."
+      }
+    }
+  }
+}

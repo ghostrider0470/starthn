@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Innovatsiya laboratoriyasi",
+    "description": "Muhandislik jamoamizning interaktiv namoyishlari, tajribalari va texnik namoyishlarini o'rganing.",
+    "primary": "Demolarni o'rganing",
+    "secondary": "Tadqiqotlarni ko'ring"
+  },
+  "overview": {
+    "hero": {
+      "title": "Innovatsiya laboratoriyasi",
+      "description": "Biz sun'iy intellekt, avtomatlashtirish va tarqatilgan tizimlardagi amaliy yo'nalishlarni o'rganamiz, so'ngra tasdiqlangan tadqiqotlarni ishonchli ishlab chiqarish imkoniyatlariga aylantiramiz.",
+      "primary": "Tadqiqot yo'nalishlarini o'rganing",
+      "secondary": "Hamkorlik haqida muhokama qiling"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Tadqiqot yo'nalishlari",
+        "description": "Har bir yo'nalish tadqiqotini real dunyo tizimlari uchun mo'ljallangan amalga oshirish yo'llari bilan birlashtiradi.",
+        "cardCta": "Fokusni o'rganing"
+      },
+      "detailedFocusBriefs": {
+        "title": "Batafsil fokus qisqacha ma'lumotlari",
+        "description": "Yaqin muddatli tadqiqot tashabbuslari hozirda arxitektura tasdiqlashdan yetkazib berish rejalariga o'tmoqda."
+      },
+      "fromLabToProduction": {
+        "title": "Laboratoriyadan ishlab chiqarishgacha",
+        "description": "Horizon'dagi innovatsiya alohida prototiplar emas, balki jo'natilgan natijalar bilan o'lchanadi."
+      },
+      "roadmap": {
+        "title": "R&D yo'l xaritasi",
+        "description": "Imkoniyatlarni oshirishdan moslashuvchan, doimiy ravishda takomillashtiriladigan tizimlarga bosqichma-bosqich o'tish."
+      },
+      "publications": {
+        "title": "Nashrlar va Tahlillar",
+        "description": "Innovatsiya ishlaridan texnik yozuv va amalga oshirish eslatmalari."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Qo'llaniladigan sun'iy intellekt tizimlari",
+        "description": "Ishlab chiqarishga yo'naltirilgan sun'iy intellekt arxitekturalari bo'lib, model xizmati, xususiyatlarni orkestrlashtirish va boshqariladigan tajribalarni o'z ichiga oladi."
+      },
+      "automationFrameworks": {
+        "title": "Avtomatlashtirish ramkalari",
+        "description": "Joriy etish xavfsizligi, hodisalarga javob berish va takrorlanadigan muhandislik ish jarayonlari uchun ichki avtomatlashtirish vositalari."
+      },
+      "advancedArchitecture": {
+        "title": "Ilg'or arxitektura tajribalari",
+        "description": "Ishlash, nosozliklarga chidamlilik va masshtabga optimallashtirilgan bardoshli, tarqatilgan arxitekturalar bo'yicha tadqiqotlar."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing va IoT Intellekti",
+        "description": "Past kechikishda qaror qabul qilish, telemetriya qayta ishlash va qurilma flotini muvofiqlashtirish uchun eng yuqori darajadagi intellekt."
+      },
+      "nlp": {
+        "title": "Tabiiy tilni qayta ishlash",
+        "description": "Tasniflash, ajratib olish, tarjima qilish va suhbat tizimlari uchun ko'p tilli tushuncha quvurlari."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Evolyutsion algoritmlar va optimallashtirish",
+        "description": "Tabiiy tanlashdan ilhomlangan qidiruv va optimallashtirish tizimlari yuqori o'lchamli muhandislik muammolarini hal qilish uchun."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Avtomatlashtirish ramkalari",
+        "description": "Biz relizni orkestrlashtirish, sifat eshiklari va joylashtirishdan keyingi verifikatsiya uchun kompozitsiyalanadigan ish jarayoni ramkalarini yaratmoqdamiz, bu esa qo'lda muammolarni kamaytiradi va ishonchlilikni oshiradi."
+      },
+      "advancedArchitecture": {
+        "title": "Ilg'or arxitektura tajribalari",
+        "description": "Bizning arxitektura tajribalarimiz xizmatlarni parchalash strategiyalari, mintaqalararo chidamlilik naqshlari va o'zgaruvchan talab ostida ishlayotgan tizimlar uchun samaradorlik chegaralariga qaratilgan."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing va IoT Intellekti",
+        "description": "Biz markazlashtirilgan nazorat, audit imkoniyati va model hayotiy sikl boshqaruvini saqlab qolgan holda, tezroq mahalliy qarorlarni ta'minlaydigan event-streaming va edge inference dizaynlarini tasdiqlayapmiz."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Moslashuvchan quvvat rejalashtirish",
+        "description": "Laboratoriya prototiplari simulyatsiya qilingan ish yuklariga nisbatan tasdiqlanadi va keyin platformaning avtomatik o'lchamlash strategiyalariga integratsiya qilinadi."
+      },
+      "operationalIntelligence": {
+        "title": "Operatsion razvedka",
+        "description": "NLP pipeline'lari nazorat ostidagi tajribalardan ishlab chiqarishni qo'llab-quvvatlash ish jarayonlariga o'tadi, bu esa tezroq triaj va aniqroq tushuncha beradi."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Yetkazib berish tizimlarida optimallashtirish",
+        "description": "Laboratoriyada sinovdan o'tkazilgan evolyutsion usullar rejalashtirish va taqsimlash uchun optimallashtirish dvigatellariga aylantiriladi."
+      },
+      "edgeDecisioning": {
+        "title": "Edge Decisioning",
+        "description": "IoT va edge inferensiya tajribalari past kechikishli xizmatlarga qat'iy ishonchlilik cheklovlari bilan moslashtirilgan."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Hozir",
+        "title": "Amaliy AI asoslari",
+        "description": "Mahsulot jamoalari bo'ylab qayta ishlatiladigan model xizmat ko'rsatish shablonlari, baholash to'plamlari va kuzatuvchanlik standartlarini kengaytiring."
+      },
+      "next": {
+        "phase": "Keyingi",
+        "title": "Avtonom muhandislik ish jarayonlari",
+        "description": "Joylashtirish xavfini kamaytiradigan va yetkazib berish uchun orqaga qaytish halqalarini qisqartiradigan avtomatlashtirish freymvorklarini ishga tushiring."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 oy",
+        "title": "Edge-Native Intelligence",
+        "description": "Kechikishga sezgir muhitlarda deyarli real vaqtli xulosa uchun gibrid bulut-qirra arxitekturalarini o'lchash."
+      },
+      "longHorizon": {
+        "phase": "Long Horizon",
+        "title": "Doimiy optimallashtirish tizimlari",
+        "description": "Eksperiment, monitoring va optimallashtirishni birlashtiring, shunda tizimlar kontekstlar o'zgarganda xavfsiz moslasha oladi."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Ishlab chiqarishda ishonchli bo'lib qoladigan sun'iy intellekt tizimlarini muhandislik qilish",
+        "summary": "Tajriba tezligini ishlab chiqarish boshqaruvi bilan muvozanatlash bo'yicha amaliy nuqtai nazar.",
+        "cta": "Tahlillarni o'qing"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Yuqori o'sish platformalari uchun tarqatilgan arxitektura naqshlari",
+        "summary": "Arxitektura sinovlaridan olingan maydon eslatmalari ishlash, barqarorlik va operatsion soddalikka qaratilgan.",
+        "cta": "Misollarni ko'rib chiqish"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Biznes natijalari uchun amaliy ilmiy-tadqiqot va rivojlantirish yo'l xaritasi",
+        "summary": "Innovatsiya tashabbuslarini qanday tuzamiz, shunda kashfiyotlar prototipdan o'lchanadigan qiymatga aylanadi.",
+        "cta": "Nashrlarni o'rganing"
+      }
+    },
+    "cta": {
+      "title": "Horizon Innovation Lab bilan qurish",
+      "description": "Biz bilan hamkorlik qilib, ambitsiyali g'oyalarni tezda tasdiqlang va isbotlangan konseptlarni xavfsiz, kengaytiriladigan ishlab chiqarish tizimlariga o'tkazing.",
+      "primary": "Suhbatni boshlang",
+      "secondary": "Yetkazib berish natijalarini ko'ring"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Qo'llaniladigan sun'iy intellekt tizimlari",
+      "description": "Horizon mashina o'rganish tizimlarini prototipdan ishlab chiqarishgacha qanday loyihalashi, joriy etishi va boshqarishi bo'yicha amaliy sharh.",
+      "back": "Innovatsiya laboratoriyasiga qaytish",
+      "tags": {
+        "appliedAi": "Qo'llaniladigan sun'iy intellekt",
+        "mlops": "MLOplar"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Mashina o'rganish quvurlari",
+        "description": "Ishlab chiqarish sun'iy intellekti ma'lumotlar, tajriba, tasdiqlash va fikr-mulohazalarni bog'lovchi takrorlanadigan pipeline'lardan boshlanadi."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Model joylashtirish naqshlari",
+        "description": "Joriy etish strategiyasi kechikish talablari, biznes tanqidiyligi va operatsion murakkablik asosida tanlanadi."
+      },
+      "mlopsOperatingModel": {
+        "title": "MLOps Operatsion Modeli",
+        "description": "MLOps amaliyotlari sun'iy intellekt tizimlarining ishonchli, boshqariladigan va kengaytiriladigan bo'lishini ta'minlaydi, chunki foydalanish o'sib boradi."
+      },
+      "monitoringAndReliability": {
+        "title": "Monitoring va ishonchlilik",
+        "description": "Kuzatuvchanlik model xatti-harakati va operatsion natijalar o'rtasidagi aylanani yopadi."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Ma'lumotlar va xususiyatlar muhandisligi",
+        "description": "Versiyalangan ma'lumotlarni qabul qilish, sifat tekshiruvlari va qayta ishlatiladigan xususiyatlarni ta'riflash modelni o'qitish uchun ishonchli asos yaratadi."
+      },
+      "modelDevelopment": {
+        "title": "Model ishlab chiqish",
+        "description": "Tajribalar takrorlanadigan konfiguratsiyalar, obyektiv metrikalar va avtomatlashtirilgan taqqoslash asoslari yordamida kuzatiladi."
+      },
+      "validationAndSafetyGates": {
+        "title": "Tasdiqlash va Xavfsizlik Darvozalari",
+        "description": "Nomzod modellar chiqarishga tasdiqlanishdan oldin ishlash, mustahkamlik va siyosat tekshiruvlaridan o'tadi."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Operatsion Teskari aloqa halqalari",
+        "description": "Joylashtirishdan keyingi telemetriya qayta o'qitish ustuvorliklari, orqaga qaytarish qarorlari va keyingi iteratsiyani rejalashtirishda ma'lumot beradi."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Real-Vaqt Inferensiya Xizmatlari",
+        "description": "Interaktiv ilovalar uchun avtomatik o'lchamlashtirish, keshlash va so'rov darajasidagi kuzatuvchanlikka ega past kechikishli APIlar."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Guruh va oqim prognozlari",
+        "description": "Tahlil va operatsion ish jarayonlari bo'yicha yuqori hajmdagi ball olish uchun rejalashtirilgan va voqealarga asoslangan pipelinelar."
+      },
+      "edgeAwareDeployment": {
+        "title": "Chekkadan xabardor joylashtirish",
+        "description": "Mahalliy xulosa va markazlashtirilgan model boshqaruvi talab qilinadigan muhitlar uchun gibrid bulut-edge xizmat ko'rsatish naqshlari."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "Modellar uchun CI/CD",
+        "description": "Avtomatlashtirilgan qurilish, sinov va chiqarish jarayonlari joylashtirish xavfini kamaytiradi, shu bilan birga yetkazib berish tezligini saqlaydi."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Model Ro'yxati va Hayot Aylanishi",
+        "description": "Versiyalangan model artefaktlari, targ'ibot bosqichlari, nasl-nasab va tasdiqlash ish jarayonlari boshqaruv va kuzatuvni yaxshilaydi."
+      },
+      "servingInfrastructure": {
+        "title": "Xizmat ko'rsatish infratuzilmasi",
+        "description": "Canary va shadow deployments kabi rollout strategiyalari bilan kengaytiriladigan xizmat qatlamlari xavfsiz o'zgarishlarni boshqarishni qo'llab-quvvatlaydi."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Bashorat sifati va siljishni aniqlash",
+      "latencyThroughputAndCostEfficiencyTracking": "Kechikish, o'tkazish qobiliyati va xarajat samaradorligini kuzatish",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Ma'lumot sifati regressiyasi ogohlantirishlari va tuzatish jarayonlari",
+      "auditabilityForComplianceAndIncidentAnalysis": "Moslik va hodisalarni tahlil qilish uchun audit imkoniyati"
+    },
+    "cta": {
+      "title": "Ishonch bilan qo'llaniladigan sun'iy intellektni o'lchash",
+      "description": "Agar siz o'lchanadigan natijalar va uzoq muddatli texnik xizmat ko'rsatishga ehtiyoj sezadigan AI tashabbuslarini rejalashtirayotgan bo'lsangiz, Horizon butun tizim hayot siklini loyihalash va operatsion qilishda yordam berishi mumkin.",
+      "primary": "Jamoamiz bilan gaplashing",
+      "secondary": "Ko'proq laboratoriya ishlarini o'rganing"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "Ko'p tilli NLP",
+      "description": "Amaliy tabiiy tilni qayta ishlash imkoniyatlarini va ularning ishonchli, ko'p tilli ishlab chiqarish tizimlariga qanday moslashishini o'rganing.",
+      "back": "Innovatsiya laboratoriyasiga qaytish",
+      "tags": {
+        "demo": "Interaktiv demo",
+        "intelligence": "Til Aql-zakovati"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "NLP Fondlari",
+        "description": "Tabiiy tilni qayta ishlash lingvistik signallar va mashina o'rganishni birlashtirib, matndan ma'no, maqsad va tuzilmani ajratib oladi."
+      },
+      "workbench": {
+        "title": "Interaktiv NLP ish stoli",
+        "description": "Demo orqali tilni aniqlash, hissiyot baholash, entitet ekstraktsiyasi va tarjima xatti-harakatlarini real vaqt rejimida sinab ko'ring."
+      },
+      "productionApplications": {
+        "title": "Horizon NLPni ishlab chiqarishda qanday qo'llaydi?",
+        "description": "NLP imkoniyatlari biznes ish jarayonlariga integratsiyalangan bo'lib, samaradorlik cheklovlari va aniq sifat ko'rsatkichlari mavjud."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Ishonchlilik va boshqaruv tamoyillari",
+        "description": "Ishlab chiqarish NLPsi faqat model sifatidan ko'proq narsani talab qiladi; Bu xavfsiz joriy etish amaliyotlari va doimiy tekshiruvga bog'liq."
+      }
+    },
+    "foundations": {
+      "intro1": "Zamonaviy NLP tizimlari avtomatlashtirish, qidiruv dolzarbligi, bilim ajratish va ko'p tilli hamkorlikni qo'llab-quvvatlaydi. Samarali amalga oshirish uchun model sifati va kuchli operatsion nazoratlar talab qilinadi.",
+      "intro2": "Horizon'da biz mustahkam xulosa chiqarishni kuzatuvchanlik, boshqaruv va o'lchanadigan ishlab chiqarish ta'siri bilan birlashtirgan to'liq NLP tizimlariga e'tibor qaratamiz."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Tilni aniqlash",
+        "description": "Qisqa yoki uzun matn segmentlaridan tilni aniqlab, so'rovlarni to'g'ri ishlov berish quvuriga yo'naltiradi."
+      },
+      "sentimentAnalysis": {
+        "title": "Hissiyot tahlili",
+        "description": "Mijozlar razvedkasi, qo'llab-quvvatlash triaji va mahsulot fikr-mulohazalari uchun hissiy niyat va polaritetni oladi."
+      },
+      "entityExtraction": {
+        "title": "Entity Extraction",
+        "description": "Tuzilmagan matndan ismlar, kompaniyalar, joylashuvlar va sanalar kabi tuzilgan subyektlarni aniqlaydi."
+      },
+      "translation": {
+        "title": "Tarjima",
+        "description": "Foydalanuvchi tomonidan yaratilgan yoki operatsion matnni tarjima qilib, kontekstni saqlab qolish orqali ko'p tilli ish jarayonlarini qo'llab-quvvatlaydi."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Qo'llab-quvvatlash va chipta razvedkasi",
+        "description": "Kelayotgan so'rovlarni shoshilinchlik, niyat va hissiyot bo'yicha tasniflang, yo'naltirish va javob sifatini tezlashtirish uchun."
+      },
+      "governedContentOperations": {
+        "title": "Boshqariladigan Kontent Operatsiyalari",
+        "description": "Siyosatga oid til filtrlari va moderatsiya tekshiruvlarini o'lchanadigan aniqlik va eslab qolish maqsadlari bilan qo'llash."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Matnga asoslangan biznes tahlillari",
+        "description": "Hujjatlar, sharhlar va kommunikatsiyalardan tendensiyalarni yig'ib, strategiya va operatsion qarorlarni shakllantiring."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Foydalanish holati bo'yicha baholash",
+        "description": "Modellar chiqarilish qarorlari qabul qilinishidan oldin domenga xos ma'lumotlar to'plamlari bilan solishtiriladi."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Insonlar uchun Xavfsizlik Choralari",
+        "description": "Yuqori ta'sirli bashoratlar ko'rib chiqish yo'llari, eskalatsiya qoidalari va shaffof ishonch signallarini o'z ichiga oladi."
+      },
+      "continuousMonitoring": {
+        "title": "Doimiy monitoring",
+        "description": "Drift, kechikish va sifat pasayishi doimiy ravishda kuzatiladi, shuning uchun qayta o'qitish va orqaga qaytish proaktiv bo'ladi."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Genetik algoritm simulyatsiyasi",
+      "description": "Interaktiv muhitda evolyutsion hisoblashni o'rganing va shu tamoyillar ishlab chiqarishni optimallashtirish tizimlariga qanday tatbiq etilganini ko'ring.",
+      "back": "Innovatsiya laboratoriyasiga qaytish",
+      "tags": {
+        "demo": "Interaktiv demo",
+        "optimizationScience": "Optimallashtirish fanlari"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Ilmiy Jamg'arma",
+        "description": "Genetik algoritmlar tabiiy tanlanish va moslashuvdan ilhomlangan populyatsiyaga asoslangan optimallashtirish usullaridir."
+      },
+      "interactiveEnvironment": {
+        "title": "Interaktiv Evolyutsiya Muhiti",
+        "description": "Simulyatsiyani ishga tushirib, fitnesning avloddan-avlodga yaxshilanishini ko'ring va tanlov bosimi natijalarga qanday ta'sir qilishini kuzating."
+      },
+      "productionUse": {
+        "title": "Horizon buni ishlab chiqarishda qanday qo'llaydi?",
+        "description": "Ushbu demoda ishlatilgan xuddi shu qidiruv mexanizmlari operatsion tizimlarda joriy etilgan optimallashtirish quvurlarini ham boshqaradi."
+      },
+      "applicationDomains": {
+        "title": "Kengroq ilova sohalari",
+        "description": "Evolyutsion optimallashtirish ayniqsa dinamik maqsadlar va ziddiyatli cheklovlar bo'lgan tizimlarda ahamiyatlidir."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Bir yechimni alohida qidirish o'rniga, genetik algoritmlar turli xil nomzodlar populyatsiyasini rivojlantiradi. Har bir avlod moslik funksiyasi bo'yicha baholanadi va tanlov, krossover hamda mutatsiya orqali takomillashtiriladi.",
+      "intro2": "Bu ularni no-chiziqli cheklovlar bilan yuqori o'lchamli muammolar uchun samarali qiladi, bu yerda deterministik yondashuvlar mo'rt yoki hisoblash jihatdan qimmatga tushadi."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Tanlov",
+        "description": "Yuqori natijalarga erishgan nomzodlar keyingi avlodga ta'sir ko'rsatish va omon qolish ehtimoli yuqoriroq."
+      },
+      "crossover": {
+        "title": "Krossover",
+        "description": "Kuchli xususiyatlar aralash kuchlarga ega yangi nomzod yechimlar yaratish uchun qayta birlashtiriladi."
+      },
+      "mutation": {
+        "title": "Mutatsiya",
+        "description": "Boshqariladigan tasodifiylik xilma-xillikni keltirib chiqaradi, shunda qidiruv mahalliy optimalar atrofida to'xtab qolmaydi."
+      },
+      "convergence": {
+        "title": "Konvergentsiya",
+        "description": "Ko'p avlodlar davomida aholi barqaror, yuqori sifatli yechimlarga moyil bo'ladi."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Resurslarni rejalashtirish",
+        "description": "Biz ko'p cheklovli jadvalni optimallashtirish uchun evolyutsion strategiyalardan foydalanamiz, agar brute-force qidiruvi amalga oshmaydigan bo'lsa."
+      },
+      "architectureTuning": {
+        "title": "Arxitektura sozlash",
+        "description": "Nomzod infratuzilma konfiguratsiyalari samaradorlik va xarajat samaradorligini oshirish uchun iterativ tarzda baholanadi."
+      },
+      "continuousOptimization": {
+        "title": "Doimiy optimallashtirish",
+        "description": "Optimallashtirish ishlari telemetriya orqa aloqasi bilan boshqariladigan sikllarda ishlaydi, shunda tizimlar talab profillari o'zgarganda moslashadi."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Yo'nalish va logistika rejalashtirish",
+        "description": "Murakkab yetkazib berish va jo'natishni rejalashtirish cheklovlar tez o'zgarganda evolyutsion qidiruvdan foyda ko'radi."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Model va giperparametr qidiruvi",
+        "description": "Genetik qidiruv obyektiv sirtlar shovqinli va chiziqsiz bo'lsa, yuqori sifatli model konfiguratsiyalarini aniqlashi mumkin."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Portfel va taqsimot muammolari",
+        "description": "Raqobatdosh maqsadlar ostida optimallashtirish o'zgarib borayotgan nomzodlar to'plamlari o'rtasida fitnes muvozanati sifatida ko'rilishi mumkin."
+      }
+    }
+  }
+}

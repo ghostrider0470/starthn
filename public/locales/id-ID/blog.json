@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Semua"
+  },
+  "categories": {
+    "aiEngineering": "Rekayasa AI",
+    "enterpriseArchitecture": "Arsitektur Perusahaan",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Sistem Otomasi",
+    "softwareReliabilityDesign": "Keandalan & Desain Perangkat Lunak"
+  },
+  "readTime": "{{minutes}} menit membaca",
+  "tagsLabel": "Tag",
+  "relatedPosts": "Pos terkait",
+  "author": {
+    "role": "Penerbit"
+  },
+  "editor": {
+    "emptyPreview": "Mulailah menulis untuk melihat pratinjau..."
+  },
+  "tags": {
+    "llmOps": "Operasi LLM",
+    "promptEngineering": "Rekayasa Cepat",
+    "observability": "Observabilitas",
+    "safety": "Keamanan",
+    "domainDesign": "Desain Domain",
+    "integration": "Integrasi",
+    "governance": "Tata kelola",
+    "platformStrategy": "Strategi Platform",
+    "platformEngineering": "Rekayasa Platform",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Pengalaman Pengembang",
+    "eventDriven": "Berbasis Acara",
+    "workflowOrchestration": "Orkestrasi Alur Kerja",
+    "controlPlanes": "Bidang Kontrol",
+    "resilience": "Ketahanan",
+    "sre": "SRE",
+    "slos": "SLO",
+    "failureModes": "Mode Kegagalan",
+    "resilienceEngineering": "Rekayasa Ketahanan",
+    "evaluation": "Evaluasi",
+    "qualityEngineering": "Rekayasa Kualitas",
+    "datasets": "Himpunan data",
+    "releaseManagement": "Manajemen Rilis",
+    "incidentManagement": "Manajemen Insiden",
+    "architectureEvolution": "Evolusi Arsitektur",
+    "riskReduction": "Pengurangan Risiko",
+    "postmortems": "Postmortem",
+    "progressiveDelivery": "Pengiriman Progresif",
+    "canaryReleases": "Rilis Canary",
+    "featureFlags": "Bendera Fitur"
+  }
+}

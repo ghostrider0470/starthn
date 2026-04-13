@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Ikhaya",
+    "company": "Inkampani",
+    "solutions": "Izisombululo",
+    "resources": "Izibonelelo",
+    "innovationLab": "ILebhu ye-Innovation",
+    "contact": "Qhagamshelana",
+    "about": {
+      "title": "Malunga",
+      "description": "Umsebenzi wethu, umbono kunye nebali"
+    },
+    "team": {
+      "title": "Iqela",
+      "description": "Dibana nabantu abasemva kweHorizon Tech"
+    },
+    "careers": {
+      "title": "Imisebenzi",
+      "description": "Joyina iqela lethu kwaye wakhe ikamva lakho"
+    },
+    "enterpriseSoftware": {
+      "title": "Uphuhliso lwee-software zoshishino",
+      "description": "Izicelo zeshishini ezenziwe ngokwezifiso kunye nezikhokelo zangoku"
+    },
+    "aiMl": {
+      "title": "I-AI, i-ML kunye ne-Business Intelligence",
+      "description": "Gqibezela imibhobho ye-AI / ML kunye needeshibhodi ze-BI"
+    },
+    "cloudArchitecture": {
+      "title": "Uyilo lwelifu kunye neziseko zophuhliso",
+      "description": "Izisombululo zelifu elininzi kunye ne-orchestration yesikhongozeli"
+    },
+    "iot": {
+      "title": "I-IoT kunye ne-Edge Computing",
+      "description": "Izixhobo ezixhunyiwe kunye namawele edijithali"
+    },
+    "devops": {
+      "title": "I-DevOps kunye nobunjineli beqonga",
+      "description": "Imibhobho ye-CI / CD kunye neziseko zophuhliso njengekhowudi"
+    },
+    "digitalTransformation": {
+      "title": "Inguqu yedijithali kunye nesicwangciso",
+      "description": "Iimephu zendlela zotshintsho lweshishini kunye neengcebiso"
+    },
+    "caseStudies": {
+      "title": "Izifundo zeTyala",
+      "description": "Amabali empumelelo evela kubathengi bethu",
+      "featured": {
+        "title": "Isifundo seTyala esiBonakalayo",
+        "description": "Ukuntywila okunzulu kwi-FullSEO"
+      }
+    },
+    "blog": {
+      "title": "Ibhlog",
+      "description": "Iingcebiso, ii-tutorials kunye neendlela zoshishino",
+      "featured": {
+        "title": "Iposti yebhlog ebonisiweyo",
+        "description": "Funda enye yeenkcukacha zethu zamva nje zobunjineli"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Isishwankathelo seLebhu ye-Innovation",
+      "description": "Jonga zonke iindawo zophando kunye neendlela zovavanyo"
+    },
+    "innovationLabAiSystems": {
+      "title": "Iinkqubo ze-AI ezisetyenzisiweyo",
+      "description": "Iipateni zoyilo loMatshini wokuFunda uMatshini"
+    },
+    "innovationLabNlp": {
+      "title": "I-NLP yeelwimi ezininzi",
+      "description": "Ubuchule bokucwangcisa ulwimi lwendalo olusebenzisanayo"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Imfaniso ye-algorithm yemfuza",
+      "description": "Ukuziphendukela kwemvelo kwi-Interactive Environment"
+    },
+    "navigation": "Ukuhamba",
+    "skipToContent": "Tsibela kwisiqulatho",
+    "toggleMenu": "Qhoboshela imenyu",
+    "dashboard": "Ideshibhodi",
+    "myWorkspace": "Indawo Yam Yokusebenzela",
+    "profile": "Inkangeleko",
+    "adminPanel": "Indawo Yolawulo",
+    "practiceManagement": "Ulawulo lokuziqhelanisa",
+    "logOut": "Phuma",
+    "education": {
+      "title": "Izibonelelo zobuchwephesha",
+      "description": "Izikhokelo, iitutorials, kunye neendlela ezilungileyo ezivela kwiqela le-Horizon Tech"
+    },
+    "support": {
+      "title": "Iziko leNkxaso",
+      "description": "Fumana uncedo kwiinkonzo zethu zophuhliso lwesoftware"
+    }
+  },
+  "footer": {
+    "description": "Ukuqala kophuhliso lwesoftware esekwe eSarajevo, eBosnia. Sakha isoftware yesiko, izisombululo ze-AI / ML, ulwakhiwo lwefu, kunye neenkqubo ezizenzekelayo.",
+    "features": "Iimpawu",
+    "resources": "Izibonelelo",
+    "company": "Inkampani",
+    "legal": "Zomthetho",
+    "dashboard": "Ideshibhodi",
+    "components": "Amacandelo",
+    "documentation": "Amaxwebhu",
+    "apiReference": "Isalathiso se-API",
+    "gettingStarted": "Ukuqalisa",
+    "examples": "Imizekelo",
+    "community": "Uluntu",
+    "blog": "Ibhlog",
+    "caseStudies": "Izifundo zeTyala",
+    "innovationLabOverview": "Isishwankathelo seLebhu ye-Innovation",
+    "appliedAiSystems": "Iinkqubo ze-AI ezisetyenzisiweyo",
+    "nlpDemo": "I-NLP yeelwimi ezininzi",
+    "geneticAlgorithmSimulation": "Imfaniso ye-algorithm yemfuza",
+    "featuredBlogPost": "Iposti yebhlog ebonisiweyo",
+    "featuredCaseStudy": "Isifundo seTyala esiBonakalayo",
+    "about": "Malunga",
+    "contact": "Qhagamshelana",
+    "partners": "Amaqabane",
+    "careers": "Imisebenzi",
+    "privacyPolicy": "Umgaqo-nkqubo wabucala",
+    "termsOfService": "Imigaqo yeNkonzo",
+    "cookiePolicy": "Umgaqo-nkqubo wecookie",
+    "license": "Ilayisensi",
+    "copyright": "© {{year}} Horizon Tech. Onke amalungelo agciniwe.",
+    "subscribe": "Bhalisela kwincwadana yeendaba"
+  },
+  "header": {
+    "badge": "Izisombululo zeTekhnoloji yeShishini",
+    "titleLine1": "Guqula ishishini lakho",
+    "titleLine2": "Itekhnoloji yokusika",
+    "description": "Ukusuka kuphuhliso lwesoftware yeshishini kunye nobukrelekrele beshishini obuxhotyiswe yi-AI ukuya kwiziseko zelifu kunye nezisombululo ze-IoT-sihambisa ngeenkonzo zetekhnoloji ezibanzi eziqhuba izinto ezintsha kunye nokukhawulezisa ukukhula.",
+    "getStarted": "Qalisa",
+    "exploreSolutions": "Phonononga izisombululo",
+    "trustedBy": "Ukuthembela kwiinkampani ezicinga phambili",
+    "microsoftPartner": "Iqabane likaMicrosoft",
+    "azureCertified": "Azure eqinisekisiweyo",
+    "enterpriseSolutions": "Izisombululo zeShishini"
+  },
+  "mobileNav": {
+    "navigation": "Ukuhamba ngeselfowuni",
+    "home": "Ikhaya",
+    "solutions": "Izisombululo",
+    "caseStudies": "Amatyala",
+    "aiSystems": "Ilebhu ye-AI",
+    "blog": "Ibhlog",
+    "resources": "Izibonelelo",
+    "contact": "Qhagamshelana"
+  },
+  "sideNav": {
+    "scroll": "Skrolela",
+    "navigateTo": "Yiya kwi- {{section}}",
+    "sections": {
+      "home": "Ikhaya",
+      "solutions": "Izisombululo",
+      "credibility": "Ukuthembeka",
+      "partners": "Amaqabane",
+      "caseStudies": "Izifundo zeTyala",
+      "blog": "Ibhlog",
+      "innovationLab": "ILebhu ye-Innovation",
+      "faq": "Imibuzo Yarhoqo"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Tshintsha ulwimi",
+    "searchPlaceholder": "Ulwimi lokukhangela ...",
+    "noResults": "Akukho lwimi zifunyenweyo."
+  },
+  "common": {
+    "menu": "Imenyu",
+    "account": "I-akhawunti"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Izifundo zakutshanje",
+      "description": "Isishwankathelo seziphumo zokuhanjiswa kwi-fintech, ukhathalelo lwempilo, ukuhanjiswa, kunye neenkqubo zecandelo likarhulumente.",
+      "cta": "Jonga zonke izifundo zetyala"
+    },
+    "blog": {
+      "title": "Kutshanje kwibhlog yethu",
+      "description": "Amanqaku obunjineli asebenzayo avela kwi-AI yakutshanje, iqonga, kunye nomsebenzi wokuhambisa ilifu.",
+      "cta": "Funda onke amanqaku"
+    },
+    "innovationLab": {
+      "title": "ILebhu ye-Innovation",
+      "description": "Phonononga iiprototypes, iimvavanyo, kunye neeprojekthi ze-R &D ezisetyenzisiweyo ezivela kwiqela lobunjineli be-Horizon Tech.",
+      "cta": "Phonononga iLebhu ye-Innovation"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Funda isifundo setyala",
+    "industries": {
+      "fintech": "I-FinTech",
+      "healthcare": "Ukhathalelo lwempilo",
+      "logistics": "Izinto eziphathekayo",
+      "manufacturing": "Ukuvelisa",
+      "government": "Urhulumente"
+    }
+  },
+  "blogCard": {
+    "read": "Funda"
+  }
+}

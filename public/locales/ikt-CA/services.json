@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Aulagutilutit",
+    "ctaSecondary": "Atugahanik Katimadjutinik"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Enterprise Software Development",
+      "description": "Nungunianun nungunianun havagviup atuqtakhait nutaanik tungavikhanik, API-hivuliq havauhiit, uvalu cloud-native aktilaangit."
+    },
+    "sections": {
+      "problem": {
+        "title": "Nanminikkut Ayuqhautit Tungaviit",
+        "subtitle": "Talvani havakviup pinahuarutingit tammaiyut kayumiittumik, maniknik, ihumaliurhimayuniklu ihuarhainiq"
+      },
+      "approach": {
+        "title": "Qauyimayiuyut Atuqtakhait",
+        "subtitle": "Qanuq ihuaqhaqtavut nalunaqtut piyakhat havaktauyunun-upalungaiyariiqhimayut tungaviit"
+      },
+      "principles": {
+        "title": "Hanayaunigani Pitquhiuyut",
+        "subtitle": "Piliurluni ihumaliurutingit pihimagiami havakviup timiqutigiyangit munarittaaqtuq aktikkulaangani"
+      },
+      "capabilities": {
+        "title": "Hunanik Piliuqtugut",
+        "subtitle": "Tamatkiumayut qaritauyaliqutit pivallianikkut piyaarnirit"
+      },
+      "technology": {
+        "title": "Qaritauyakkuurutivut Stack",
+        "subtitle": "Ublumimut, naunaittuq ayuitaminik havakvikmut tuniqhainiq"
+      },
+      "breakdown": {
+        "title": "Atuqtakhanut Aviktuqhimaniit",
+        "subtitle": "Ihuaqhaqhimayuq apqutikhaq nalvaaqhiurnirmin aularaanginnaqtunun havaktauyughanun"
+      }
+    },
+    "problem": {
+      "overview": "Havakvikmi havaktut piqaqtut akhuurutauyunik havaangit ahiruqhimayuni timiqutigiyangit, pipkaidjutiyuq akuniraalukmik pipkaidjutiyuq, ihuangittut nampangit, akituvallaaqtuqlu makpiraat ihuarhainiq havakviknit.",
+      "painPointsTitle": "Utiffaaqtut Nanminikkut Ayuqhautit",
+      "impactSignalsTitle": "Hunanik Hivuliqtiuyut Tautuktait",
+      "painPoints": [
+        "Tunigiami uqariiyaqtamiknik qaangiutiyuq taimaa ihariagininngit tamainnut havaqatigiiktunut munariyaunginmat",
+        "Havaalluangit qanuriliurutingit aadjikutariyait tamainni qanuriliurutingit hunavaluillu",
+        "Utuqqait ilaliutiniit piliuqtut nutaanik atuqtakhanik aullaqtirutikhanut qajangnaqpiaktumik kajumiittumiklu"
+      ],
+      "impactSignals": [
+        "Apqutikhaliuqhimayuq ikiqliyuummiktut qauyimayiuyut maniit atuqpagait akittuqyuummikhutik",
+        "Akiliqtuiyunun-pihimayut ihuanginirit amigaiqyuumiyut atuqtilugu",
+        "Ihumaliurniq kayumiiqpaktuq ihuittumik aulapkainiqmut naunaipkainiq"
+      ]
+    },
+    "approach": {
+      "overview": "Aulatitihimaaqpaktugut napaqtirutikharnik hivullirmi nalvaaqhiyaangat, kaantulaaliqiyunik auladjutikharnik, munagiyauyuniklu auladjutikharnik hanayiingit taima nanminiqaqtunik akikhangit tuyuqtauyaangat naunaitumik angikliyumirutikharnik.",
+      "pillars": [
+        {
+          "title": "Domain Modeling & Bounded Contexts",
+          "detail": "Nunauyaliuqtavut nayugait naunaiyagiangani kivgaqtuutit kikliit ikiliyuumigiangani havaqatigiingnikkut uvalu naunaiyagiangani nanminiqarniq."
+        },
+        {
+          "title": "API-Hivuliq Ilaliutinikkut Hanaqidjutit",
+          "detail": "Naunaiyaqtavut ihuaqtumik kaantrangit qilaminnuaq, pipkaidjutiyuq aadjikutariiktumik piliurninnga qayangnaittumiklu ilaliutiniq havakviup timiqutigiyanginnut."
+        },
+        {
+          "title": "Aulahimaaqtumik Tunihinikkut Havauhiit",
+          "detail": "Atuqpaktugut takudjutiqhanik, aadlatkiingnik takupkaqtittiplutik, nakuuqpiaqtuniklu takupkaqtittiyaami qilaminnuaq ihuirutauhimaittumik havaktauyunut."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Nappaktirinirmun ihumaliurutivut hivulliutivaktait hivitunikhaanut, aulapkaidjutikhanut, naunaitpiaktumiklu nanminiriyauyunut taimaa tunngaviit hungiutittaaqtut nanminiit angiglivalliakpata.",
+      "items": [
+        {
+          "title": "Ilariiktut Atuqtakhanik Kiklikhait",
+          "detail": "Pittaarninnga iliuraqhimayuq havakvikmi pihimagiami aadlangurniq pilaqutinga nunamiknut."
+        },
+        {
+          "title": "Hulidjutinun-Pihimayut Ilauqatigiingniq",
+          "detail": "Asynchronous workflows atuqtauvaktut talvani latency tolerance ittuq ihuarhigiami akhuurninnga piiyariamilu timiqutigiyangit."
+        },
+        {
+          "title": "Tautungnikkut Idjuhiitigut",
+          "detail": "Naunaiyainiq, uuktuutingit, ihuarhaqhimayullu naunaitkutat naunaiqtauyut hivun'ngani ikayuriami nakuuyumik aulapkaininngit unalu SLA piyunnautinga."
+        }
+      ]
+    },
+    "capabilities": [
+      "Custom Web Applications",
+      "Qaritauyakkuurutikhanut Pivalliadjutikhat",
+      "API Pivallianiq Ilaliutiniqlu",
+      "Microservices Architecture",
+      "Cloud-Native Solutions",
+      "Utuqqait Timiqutigiyangillu Nutaanguqtiriniq"
+    ],
+    "technologies": [
+      {
+        "name": "Qanuriliurniq",
+        "category": "Hivunngani",
+        "icon": "qanuriliuqtuq"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Uqauhikkut",
+        "icon": "naqitautimut"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "graphQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Tutquumavingit",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Tutquumavingit",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Discovery & Architecture",
+        "summary": "Nunauyaliuqtavut havaamut hivulliutiyakhat, ayurnaqtunut kiklikhangit, tikinnahuaqtavullu piliurninnga atuliqtinnagu.",
+        "deliverables": [
+          "Hunavaluit ihariagiyangillu ihuarhainiq ayuirhainiq",
+          "Ihuarhaidjutinga piliurninnga blueprint",
+          "Tikinnahuaqtamiknik-piyuq tuniqhaininnganut ihumaliurut"
+        ]
+      },
+      {
+        "title": "Piliurniq Ilaliutiniqlu",
+        "summary": "Havaqatigiiktut atuliqtitivaktut atuqtakhanik, ilaupkaidjutikhanik, imaalu nakuukpiaktunik qajangnaitkutikhanik atauttikkut.",
+        "deliverables": [
+          "Feature development in itérative sprints",
+          "API unalu pingahuuyunit ilauyut ilaliutiniit",
+          "Inmigut uuktuutit uvalu anipkaqtaunikkut upalungaiyautait"
+        ]
+      },
+      {
+        "title": "Aullaqtirutaa Aallanguqpallianingalu",
+        "summary": "Atuliqtaukpat, ihuaqhihimaaqtavut auladjutit uvalu naunaiyaqhugit aipaa ihuaqhiyuumigutikhat pihimayut atuqtauluaqtunun.",
+        "deliverables": [
+          "Piliurninnga naunaipkainiq runbook",
+          "Havauhiit uvalu ihuangnirit ihuaqhaidjutit",
+          "Kinguagut-angmaqtirutaanit atuqtakhaliuqhimayut ihuaqhautikhallu havaakhat"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Upalungaiqqit piliuriami tuklianik atuqtakharnik?",
+      "description": "Piliuqta tuyurlugulu ihuarhaidjutimik pipkaidjutiyuq naunaiyainiq havakviup qanurittaakhaanik.",
+      "button": "Aulagutilugu Havaaghat"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML unalu Business Intelligence",
+      "description": "Itqungniarutikkut atugahat atanguyanun naunaitkutit, havakhugit tamatkiumayut AI/BI auladjutit tapkua ikayuutauyut ihumaliurutinun aktilaangitigut."
+    },
+    "sections": {
+      "problem": {
+        "title": "Nanminikkut Ayuqhautit Tungaviit",
+        "subtitle": "Huuq nampanik piqaqpiaqtuq timiqutigiyauyut ayurhaqtut nakuuyumik ihumaliuriamikni"
+      },
+      "approach": {
+        "title": "Qauyimayiuyut Atuqtakhait",
+        "subtitle": "Qanuqtut aulapkaidjutivut nampanik hunavaluit, ML uuktuutingit, unalu BI havaangit"
+      },
+      "principles": {
+        "title": "Hanayaunigani Pitquhiuyut",
+        "subtitle": "Nampangit uuktuutingillu piliurninnga uuktuutingit ukpiriyaugiami ihumaliurniq ayuittiarniq"
+      },
+      "capabilities": {
+        "title": "Pittaaqtaptingnik",
+        "subtitle": "Tamatkiumayut AI, ML, unalu BI ihuaqhautit"
+      },
+      "technology": {
+        "title": "Qaritauyakkuurutivut Stack",
+        "subtitle": "Havagvikyuani-hivuliqhuqtut ikayuutit naunaiyautinun uvalu AI"
+      },
+      "breakdown": {
+        "title": "Atuqtakhanut Aviktuqhimaniit",
+        "subtitle": "Qanuq nuutpaliayugut ahiruqhimayunit naunaipkutinik hanayaunigani qauyimaniriyaptiknik"
+      }
+    },
+    "problem": {
+      "overview": "Timiuyut katitiqhiqataqtut amigaitunik naunaiyautinik kihimi numiktitiyuitut ihuaqtumik itqungniarutinun, auladjutinun ihumaliurutinun, uvaluuniin aktilaaqtaaqtunun nanminikkut hulidjutinun.",
+      "painPointsTitle": "Utiffaaqtut Nanminikkut Ayuqhautit",
+      "impactSignalsTitle": "Hunanik Hivuliqtiuyut Tautuktait",
+      "painPoints": [
+        "Naunaipkainiq qanurittaakhaanik aadlangayuq tamainni havaqatigiiktunit, pipkaidjutiyuq ayurhautipkaiyuq KPI uqaqtanginnik",
+        "Uuktuutit uuktuqtauhimmaaqtut tikilimaittutiklu piliurninnganut havaangit",
+        "Nampangit qanurittaakhaanik ihumaaluutingit hakuiqtiqtait ukpiriniq naunaiyaininnganut atan'nguyanullu naunaitkutingit"
+      ],
+      "impactSignals": [
+        "Ihumaliurniq aulavikhangit kayumiitun taima iligiiktun aivadjutigivakhimayait naunairutikhangit ihuarutikharnik hanaqidjutikharnik",
+        "Itqungniarutit uvalu upalungaiyautit ihuangnirit ihuangitut hitamani tatqiqhiutini",
+        "Analytique maniliurutit tautungnaqtut mikiyut tiguaqtauyut hilataani taiyauhimayut qauyihaiyit katimayiit"
+      ]
+    },
+    "approach": {
+      "overview": "Tunihivaktugut AI unalu BI atuqtakhanik piliurutikhanut atuqtakhat, katipkaqhugit naunaitkutikhat hanadjutikhat, atuqtakhat aturnikhanut aulapkaidjutikhat, imaalu ihumaliurutikhanut havauhikhanut ilaupkaidjutikhat.",
+      "pillars": [
+        {
+          "title": "Nampanik Hunavaluit Tunngavinga",
+          "detail": "Domain-aligned data products piliuqtut atuffaaqtaaqtunik, munariyauyunik, nakuuqpiaqtuniklu iliuraidjutinik analytics unalu ML."
+        },
+        {
+          "title": "MLOps Aturninnganik Aatumatiliriniq",
+          "detail": "Ayuirhainiq, iliurainiq, munariniq, unalu ahiruqtirninnga munariniq inmikkuuqtut pihimagiami uuktuutingit nakuuqpiaqtumik piliurninngani."
+        },
+        {
+          "title": "Ihumaliuqnikkut Havauhiit Ilaliutiniq",
+          "detail": "Ihumagiyauyut ilaliutihimayut auladjutinun ikayuutinun uvalu naunaitkutinun taimaali iligiit havagiangini ayuittiarnikkut ubluni havauhiini."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Uvagut AI/BI havauhiit hivuliutiyait ukpingnaqtut naunaiyautit, naunaiyaqtaaqtut atugahat, uvalu ataniudjutiqaqtut piyaangnirit atugahat tamaini havagvingni.",
+      "items": [
+        {
+          "title": "Attauhiq Uuktuutit Naunaiyautait",
+          "detail": "Hivituyut KPI naunaiqtauyut atauhiqmik aadlanut piyut uuktuutingit piiyariami ayurhautingit naunaipkainiq qanurittaakhaanik."
+        },
+        {
+          "title": "Uuktuutinga Nakuuninnga Munariniq",
+          "detail": "Havaamut kiklikhangit, ahiruqtirninnga naunaiyainiq, utiffaarniqmullu qanuriliurutingit hapummiutiyuq ihumaliurniqmut qanurittaakhaanik piliurninngani."
+        },
+        {
+          "title": "Qayangnairutikharnik Kavamaliqidjutikharniklu Havaktauhimayunik",
+          "detail": "Nampangit qanurittaakhaanik, havaamut piinarialaqihimaniq, unalu ihivriurniqmut upalungaiyarhimayuq munariniq iliuraqhimayut tamainni turhuani."
+        }
+      ]
+    },
+    "capabilities": [
+      "Machine Learning Atugahat uvalu Turhuangit",
+      "Power BI Dashboards & Reports",
+      "Itqungniarutikkut Naunaiyautit",
+      "Talvainnakmi Nampanik Qun'ngiararhaliurniq",
+      "Nampanik Tutquumavik Ihuarhaidjutingit"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Tungavia",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Nampanik Tutquumavik",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Nampanik Naunaiyainiq",
+        "icon": "databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML Tungavia",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML Havauhikhat",
+        "icon": "tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML Havauhikhat",
+        "icon": "pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Analytique",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Havaktaunikhanut",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Uqauhikkut",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Naunaiyautit Tungaviit",
+        "summary": "Ihivriuqtavut ikayuutit, naunaiyaqhugit naunaiyautit katulaat, havakhugillu ataniudjutit taimaali tamaita atugahat aularutiyut ukpiriyauyunik uqautauyunik.",
+        "deliverables": [
+          "Nampangit tunngavinga qanurittaakhaaniklu naunaiyainiq",
+          "Qanurinikhaa hanayauniga qanurinikhaaniklu upalugaiyaqniq",
+          "Qajagidjutikhat imaalu kavamaliqidjutikhanut tunngavikhat"
+        ]
+      },
+      {
+        "title": "Atugahaq uvalu Tautuktuumiyaangnikkut Tunihiniq",
+        "summary": "Piliuqpaktugut atuqtakhanik ihumaliurutikhaniklu naunaitkutikhanik pidjutiqaqtunik naunaijaruminaqtunik havaakhanut apiqqutaujunik imaalu KPI-nik.",
+        "deliverables": [
+          "Uuktuutimut piliurninnga unalu angirutinga",
+          "Atan'nguyat naunaitkutingit unalu aulapkainiqmut naunaipkainiq",
+          "Ihumaliuqniq havauhiqmik ilaliutivalianigit"
+        ]
+      },
+      {
+        "title": "MLOps unalu Tiguarniq",
+        "summary": "Aulapkaqtitavut atuliqniginik, amirijutinik, ikayuqtiriiniklu pipkaiyaagani qanurilinigit nalaumayaagani pivikhaqaqnigani.",
+        "deliverables": [
+          "Inmikkut uuktuutinga iliuraininnga turhuangit",
+          "Ahinungauniq, nalaumaniga, atuqniganiklu amirijutit",
+          "Iligiit tuniuqhaiyut uvalu auladjutikkut atugahat"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Aadlangurlugit nampatit tautuktuuyaaqtarnik",
+      "description": "Ihuaqhaqlugit aviktuqhimayut naunaiyautit naunaitumik, hulidjutikhanun kangiqhidjutit.",
+      "button": "Aulagutilugu Auladjutit"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Cloud Architecture & Infrastructure",
+      "description": "Amigaittunik-cloud-nik atuqtakhat, mahulingaittut nappaqtirutikhat, imaalu ihuaqhaqtaaqtut nappaqtirutikhat piliuqtauhimajut hivitujumut angiglivalliadjutikhanut."
+    },
+    "sections": {
+      "problem": {
+        "title": "Nanminikkut Ayuqhautit Tungaviit",
+        "subtitle": "Huuq cloud-mut uuktuutikhat nutqaqtitauvaktut kinguagut hivullirmik nuutiqtaudjutanit"
+      },
+      "approach": {
+        "title": "Qauyimayiuyut Atuqtakhait",
+        "subtitle": "Qanuqtut piliuqqita qayangnaittumik, aadlanguqtaaqtumik cloud-mut tunngavingit munariyauyumik nuutirnirmut qayangnautinga"
+      },
+      "principles": {
+        "title": "Hanayaunigani Pitquhiuyut",
+        "subtitle": "Tungavikkut ihumaliurutit tapkua aadjikiiklugit ayungnaitumik, mahulingainiqmik, uvalu ataniudjutikkut"
+      },
+      "capabilities": {
+        "title": "Cloud-mut Ikayuutit",
+        "subtitle": "Piliurlugu, iliurarlugu, aktikkulaanga cloud-mi"
+      },
+      "technology": {
+        "title": "Multi-Cloud Ayuittiaqtut",
+        "subtitle": "Platform-agnostic cloud solutions"
+      },
+      "breakdown": {
+        "title": "Atuqtakhanut Aviktuqhimaniit",
+        "subtitle": "Naunaittuq ihuarhaininnga piliurninnganut, nuutiqtirniq, aulapkaininngalu cloud-mut tunngavingit"
+      }
+    },
+    "problem": {
+      "overview": "Amigaitut timiuyut iniqtiqtait hivulirmik cloudmik nuutirnirit kihimi aulayut nayugaani havaqatigiit, tautungnaluangitut, ihuangitumik munaridjutit, akituqyuumiblutiklu akiliqtuiyut.",
+      "painPointsTitle": "Utiffaaqtut Nanminikkut Ayuqhautit",
+      "impactSignalsTitle": "Hunanik Hivuliqtiuyut Tautuktait",
+      "painPoints": [
+        "Havaangit nuutiqtaujut piqangittumik atuinnaqtaminik munariniq unalu ilauqatauniq munariniq",
+        "Cloud-mut akingit angikliyuumiqtuq qilaminnuaq havakviup akinga tuniyauyuq",
+        "Avatinga tuniqhaininnga pihimmaaqtuq makpiraaq ihuangittuqlu tamainni havaqatigiiktuni"
+      ],
+      "impactSignals": [
+        "Qaguguraagat qanurilijutit qanurilivalianiginit ahiruqpalianiginit avatigiyauyunit",
+        "Ihivriurniq upalungaiyarniq nakuuhuiqtuq ahiruqhimayumit piyunnautinga pitquhingit",
+        "Aulapkaitjutikhanik kinguvaktitpaktait atuqtakhat tutquumaviillu uuktuutikhat"
+      ]
+    },
+    "approach": {
+      "overview": "Piliuqpaktugut cloud-mut tunngavikhanik atuqtakhanik, atuqhugit nappaqtirutikhanut aatumatikkut, atugakhanut qajangnaitkutikhat, imaalu nuutirnikhanut nallaumajut havagviup qajangnarniinut.",
+      "pillars": [
+        {
+          "title": "Tulakviup Kiklia Naunaitkutaa",
+          "detail": "Kinauyaakhaanik, havaqatigiikniq, munariniq, maligamullu tunngavingit naunaiqtauyut piffaariamikni ihivriunginnariamilu."
+        },
+        {
+          "title": "Maliktigut-pihimayut Nuutingnikkut Hanaqidjutit",
+          "detail": "Havaakhat nuutpaktut munariyauyunut atuqtakhanut ihariagininnganut ilihimaniq ihuarhainiq utiffaarninngalu upalungaiyarniq."
+        },
+        {
+          "title": "SRE + FinOps Operating Loop",
+          "detail": "Ihuangnikkut naunaiyautit uvalu maniliungnikkut ihivriuqtauyut attautimun ihuaqhiyuumigiangani tamangnun auladjutainun uvalu akiliqtuinikkut ihuaqtumik."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Napaqtirutikhavut atuqtakhavut ihuarijait uqariijautikhat nappaqtirutikhat, mikitqijanik-pilaarutit pivikhat, imaalu ihuaqhaqtaaqtut atuqtakhat ikajuutikhat kajumiktumik atuqtakhanik tunihidjutikhanik.",
+      "items": [
+        {
+          "title": "Aalanguqtaaqtut Igluqpait Idjuhiit",
+          "detail": "Avatingit piliuqtauffaaqtut versioned code ikikliyuumiriami ahiruqtirninnga ayurnaittumiklu aulapkaininnganut utiqtiffaarniq."
+        },
+        {
+          "title": "Amirittiarnikkut Tunngavinga Default",
+          "detail": "Ukpiriyaungituq piyaaqniq munagidjutit uvalu maliguagahat aghuurutit ilauyut tamaini avatingni auladjutaini."
+        },
+        {
+          "title": "Mahulingainiq Tuniqhainikkut",
+          "detail": "Hivituyut havaakhat piliurhimayut amihunut-kikliqaqtunut amihunulluuniit avikturhimayunut ihuirutingit talvani havakviup pilaqutinga ihariagiyauyuq."
+        }
+      ]
+    },
+    "capabilities": [
+      "Multi-Cloud Qanuriliurutikhat Atulirnikhanut",
+      "Container Orchestration (Kubernetes)",
+      "Serverless Computing",
+      "Cloud Nuutirinikkut Kivgaqtuutit",
+      "Anginiqhaq Piinagialik Igluqpak"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Cloud-guyuq",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "AWS",
+        "category": "Cloud-guyuq",
+        "icon": "AmazonWebServices"
+      },
+      {
+        "name": "GCP",
+        "category": "Cloud-guyuq",
+        "icon": "GoogleCloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orchestration",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Puukhat",
+        "icon": "docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "ARM Aadjiliurutikhat",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "AmazonWebServices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Hanatyuhikhaa Tulakvialu Kiklia",
+        "summary": "Naunaiyaqtavut tikinnahuarutinga qanurittaakhaanik, hapummiutingit, tunngavingalu tunngavinga maliktakhat havaat nuutiqtinnagu.",
+        "deliverables": [
+          "Turaaqvikhaq cloud-mik hanayaunigani qanuriniga",
+          "Kinauyaakhaanik, havaqatigiikniq, unalu munariniq tunngavinga",
+          "Akikhangit malikhautikhangitlu munagidjutikharnik"
+        ]
+      },
+      {
+        "title": "Nuutirniq unalu Tunngavinga Piliurninnga",
+        "summary": "Aulatitivakhimayugut nuutirutikharnik auladjutikharnik aulatitivakhimayugutlu cloud-native hanaqidjutikharnik hanaqidjutikharnik atuffaagiaqaqtunik ayungnairutikharnik.",
+        "deliverables": [
+          "Havaakhat nuutirnikhanut ihuaqhautikhangit",
+          "Container unalu serverless tunngavinga ihuarhainiq",
+          "Aulapkaitjutikhanik Naunaitkutatut ilihaidjutikhat"
+        ]
+      },
+      {
+        "title": "Ihuarninnga unalu FinOps",
+        "summary": "Ihuaqhiyuumiqtavut auladjutit ihuangnirit aulahimaaqtumik ihuaqhiyuumiqhugit cloudkut akiliqtuutait pihimayut tadjamin alguyaqtuutikkut.",
+        "deliverables": [
+          "SLO-ngit, munariniq, qanuriliurutimullu havaanga",
+          "Mahulingainiq uvalu ayuqhautikkut ihuaqhaidjutit tutqighautait",
+          "Akinganik ihuarhainiq havaakhat piyunnautingalu kayumiktilaanga"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Agikligiaqlugu Hanayakhat",
+      "description": "Piliurluni cloud-mik tunngavikhanik mahulingaittumik piqpiaqtumi nunaryuami iliuraidjutaani.",
+      "button": "Upalugaiyaqlugu Cloud-mik Atulirumayauyuq"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps unalu Platform Engineering",
+      "description": "Inmikkut tuniqhaininnganik turhuangit, qun'ngiarniq, tunngavingalu ayuirhainiq ihuarhiyait kayumiktilaanganik humaangittuq pittaarninnga."
+    },
+    "sections": {
+      "problem": {
+        "title": "Nanminikkut Ayuqhautit Tungaviit",
+        "subtitle": "Huuq tuniqhaininnga kayumiktilaanga mikhiyuq tunngavinga ayurnaqtuq angikliyuumirumi"
+      },
+      "approach": {
+        "title": "Qauyimayiuyut Atuqtakhait",
+        "subtitle": "Qanuq aadjikiiliqlugit tunihinikkut tughuat kayumiiqtihimaitumik tamayanik iligiit"
+      },
+      "principles": {
+        "title": "Hanayaunigani Pitquhiuyut",
+        "subtitle": "Tungavikkut idjuhiit tapkua aktilaangit ihuangnirit uvalu iligiit inmikuuqpalianiq"
+      },
+      "capabilities": {
+        "title": "DevOps Kivgaqtuutit",
+        "subtitle": "Aatumatikkut, munarilugu, ihuaqhilugulu tuniqhaininnga aturninnganik"
+      },
+      "technology": {
+        "title": "DevOps Atuqtakhait Atuqtakhallu",
+        "subtitle": "Nakuuniqhaq DevOps toolchain"
+      },
+      "breakdown": {
+        "title": "Atuqtakhanut Aviktuqhimaniit",
+        "subtitle": "Ihuaqtuq apqutikhaq tuniqhaininnganit ayurhautingit quulitqiamut ukpiriyauyuq tuniqhaininnga"
+      }
+    },
+    "problem": {
+      "overview": "Timiqutigiyauyut maniliuqpaktut CI/CD hanalrutinik kihimi ayurhaqtut ihuangittumik tuniqhaininnganik, kayumiittunnuamik angirutinik, ahiruqhimayumiklu nanminiriniq tamainni avatingani.",
+      "painPointsTitle": "Utiffaaqtut Nanminikkut Ayuqhautit",
+      "impactSignalsTitle": "Hunanik Hivuliqtiuyut Tautuktait",
+      "painPoints": [
+        "Turhuangit tukiliurutingit aadlangayut havaqatigiiktunit, pipkaidjutiyuq ihuangittumik qanurittaakhaanik",
+        "Makpiraat atuliqnigagut agirutit kiguvariarutauyut ihuaqhaqniginik qanuriniginiklu hatqiqniginik pivikhaqaqniginik",
+        "Aulapkainiqmut qanuriliurutingit piffaaqtut taimaa alrujaqtuqtut naunaiyainiq iniqhimanginmat iliuraqtauyulluuniit"
+      ],
+      "impactSignals": [
+        "Hivitunikhaa aallanguqtirnirnun amigaiqjuummiraanginnaqtun pigaluaqtillugit qaritaujakkuurutikkut akiliqtuinirnik",
+        "Aalaguqniganik ihuilijutit amigaiqpalianigit agiklivaliatilugit",
+        "Hanayiit havauhiit ikiklivaliayut hanalrutainit ihuilijutauniginit qanuriniginiklu aalaguqniginik"
+      ]
+    },
+    "approach": {
+      "overview": "Piliuqtugut iluanit piliurninnga tunngavinga uuktuutimik atuffaaqtaaqtumik pipeline uuktuutingit, maligamut piyut piyunnautinga, tamaallu aturninnganik qun'ngiarniq.",
+      "pillars": [
+        {
+          "title": "Golden Path Pipeline Templates",
+          "detail": "Atuffaaqtaaqtut CI/CD blueprints aadjikkiiktut piliurnirmik, uukturnirmik, qayangnaitkutikhanik naunaiyainirmik, imaalu aullaqtiutikhanut havauhikhanik."
+        },
+        {
+          "title": "Platform API unalu Self-Service",
+          "detail": "Havaqatigiiktut tunivaktait avatingit tunilugillu aulapkaitjutikhanik munariyauyumut inmigut pivikhainut qaritauyakkuurutit."
+        },
+        {
+          "title": "Nakuuniqarninganun Kiudjutikkut Pidjutit",
+          "detail": "Hulaqutikkut qanuriniit, SLO aaniaqtailiniq, uvalu atulingnikkut alguyaqtuutit kangiqhidjutauyut aulahimaaqtut havauhiit uvalu havauhiit ihuaqhiyuumirutit."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "DevOps piliurninnga aadjikutariyaa tuniqhaininnga kayumiktumik piyunnautinganut ayurhautipkaiyuq munariniq ikikliyuumiqhugulu atauhiqmik aulapkaiyuq havaaq.",
+      "items": [
+        {
+          "title": "Tamaita Versioned Code",
+          "detail": "Turhuat, aulapkaitjutikhat, atugakhanullu maliktakhat munariyauyut pivigiyauyunit munariyauyut ihivriuruminaqtumik piffaariamilu."
+        },
+        {
+          "title": "Aulahimmaaqtuq Naunaiyainiq",
+          "detail": "Qanurittaakhaanik, munariniq, havaamullu naunaiyainiq iliuraqtauyut tamainni qanurittaakhaanik naunairiami qayangnautinga qilaminnuaq."
+        },
+        {
+          "title": "Aadlanut Piyuq Tunngavinga Munariniq",
+          "detail": "Tungavikkut havaqatigiit tunihiyut qighuqtiqhimayumik apqutinik piyaarnirit tamayat havaqatigiit pihimablugit agyangnikkut nanminiriyait."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI/CD Tuqhuangit Idjuhikhait",
+      "Aulapkaitjutikhanik Naunaitkutatut",
+      "Inmigut Uuktuutit",
+      "Iliuraininnga Qaritauyaliriniqmut",
+      "Munagidjutit uvalu Tautuguminaqniit"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Tungavia",
+        "icon": "AzureDevOps"
+      },
+      {
+        "name": "GitHub Qanuriliurutingit",
+        "category": "CI/CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Puuqtuinikkut",
+        "icon": "aqhuut"
+      },
+      {
+        "name": "Ansible",
+        "category": "Aatumatitut",
+        "icon": "ansible"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Munaridjutit",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Qun'ngiarniq",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Tungavikkut Naunaiyautit",
+        "summary": "Ihivriuqtavut tadja qaritauyaliqutit tuniqhaininnga ilitarigiami qayangnautingit kayumiktumiklu kiklikhangit.",
+        "deliverables": [
+          "Tadja-qanurittaakhaanik tuniqhaininnga havaanga nunauyanga",
+          "Tuqhuangit nutqarvikhangit qauyihaidjutikhangit",
+          "Turaaqvikhaq DevOps iningninguqpalianikkut atugahaq"
+        ]
+      },
+      {
+        "title": "Tuqhuangit uvalu Auladjutikkut Havaktauyut",
+        "summary": "Atuliqtavut ihuaqtut CI/CD, nakuuniqhait angmaqtirutit, uvalu igluqpait ayungnaitumik aadjikiiktumik tuhaqtidjutit.",
+        "deliverables": [
+          "Atuffaaqtaaqtut CI/CD uuktuutit",
+          "Aulapkaitjutikhanik avatinganiklu aatumatitut",
+          "Inmikkut uuktuutit uvalu anipkangnikkut munaridjutit"
+        ]
+      },
+      {
+        "title": "Aulapkaqlugit Nakuuhivallialugitlu",
+        "summary": "Havaktavut tautungnikkut uvalu ataniudjutikkut tapkua ikayuutauyut aulahimaaqtumik tunihinikkut ihuaqhaidjutit.",
+        "deliverables": [
+          "Munariblugit naunaitkutit uvalu qilamiungnikkut maliruagahat",
+          "Nuititilugit ataniudjutikkut uvalu hulaqutinun makpiraat",
+          "Aulahimaaqtumik ihuaqhaidjutit aktilaangit uvalu ihivriurutit"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kayumiktumik aulatitiyaangat auladjutikharnik",
+      "description": "Ikikliyumiqtitiyaangat auladjutikharnik ayungnautikharnik ihuaryumiqtitiyaangatlu atuguminaqtunik talvuuna iniqtiqhimaaqtunik DevOps atuqtakharnik.",
+      "button": "Aadlangurlugu Pipeline"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Nampanik Aadlangurninnga unalu Qanuriliurutikhat",
+      "description": "Ihumaliurhimayuq uqaqatigiikniq iniqtirninngalu ikayuutikhaq nutaanguqtiriami tunngavingit, havaqatigiiktut, aulapkaininngalu uuktuutingit."
+    },
+    "sections": {
+      "problem": {
+        "title": "Nanminikkut Ayuqhautit Tungaviit",
+        "subtitle": "Talvani aadlangurninnga pinahuarutingit tammaiyut akhuurninnga atan'nguyangillu"
+      },
+      "capabilities": {
+        "title": "Unniqtuinikkut Havagutit",
+        "subtitle": "Ihumaliurhimayuq naunaiyainiq nampanik nakuuyumik pigiami"
+      },
+      "approach": {
+        "title": "Qauyimayiuyut Atuqtakhait",
+        "subtitle": "Qanuqtut numiktiqtavut qanuriliurutikhat iniqtiruminaqtunik, qaritauyakkuurutinik-pidjutiqaqtunik aallannguqtirutinik"
+      },
+      "principles": {
+        "title": "Hanayaunigani Pitquhiuyut",
+        "subtitle": "Aulapkaiyuq uuktuutinga tunngavingalu piumayangit hapummiutiyuq aadlangurninnga qanurittaakhaanik"
+      },
+      "technology": {
+        "title": "Qaritauyaliqinikkut Katitiqhimayut",
+        "subtitle": "Tungaviit uvalu tungavikhat atuqtavut aulapkagiangani aalanguqtiqniq"
+      },
+      "breakdown": {
+        "title": "Atuqtakhanut Aviktuqhimaniit",
+        "subtitle": "Ihuaqhaqhimayut aalanguqtirnirit haffumanga hanaqidjutit naunaiyautainun aktilaangitigut nanminikkut akiit"
+      }
+    },
+    "problem": {
+      "overview": "Nampanik havauhikhat ilaani pilihaaliqtut hakugiktumik pinahuaqhutik kihimi pilimaittut tuniqhaininnganut qanurittaakhaanik naunaittumik nanminiriyauniq, atangittut hanalrutingit, unalu akitaqutautiyut hivulliutiyakhat.",
+      "painPointsTitle": "Utiffaaqtut Nanminikkut Ayuqhautit",
+      "impactSignalsTitle": "Hunanik Hivuliqtiuyut Tautuktait",
+      "painPoints": [
+        "Aadlangurninnga apqutinga naunairhimayuq kihimi numiktiqtaungittuq tuniqhaininnganut piyunnautinga",
+        "Nanminikkut uvalu hananikkut hivuliuyughat aalangayut kinguani upalungaiyautit auladjutait",
+        "Utuqqait aulapkainiqmut uuktuutingit nutqaqtitait tiguarniq nutaanik hunavaluit tuniqhaininnganik"
+      ],
+      "impactSignals": [
+        "Havaami akiligauyut akituriaqhimayut atulirumayauyut KPI-mi aulanigit aulagitut",
+        "Havauhikhat pingittut nuutiqtauniq ukunanit qanuriliurutikhat, piliurninnga, iniqtirutingalu",
+        "Havaqatigiiktut atuqpagait aadlangurniq unaguhungniq kikliqaqtumik ilihimaniq havakviup akinga"
+      ]
+    },
+    "approach": {
+      "overview": "Attautimuktavut hanaqidjutit uqaudjinikkut tunihinikkut havauhiit, ihuaqhaqhugit auladjutikkut atugahat idjuhiit, tungaviit piyaarnirit, uvalu iniqtirutait aktilaangit tikinahuarutit.",
+      "pillars": [
+        {
+          "title": "Nakuuniqhakkut Hivuliuyughat",
+          "detail": "Ihuaqhaqhugit pinahuarutit pihimayut aktilaangitigut nanminikkut hulaqutainun uvalu ayungnaqtutigut ayuqhautit."
+        },
+        {
+          "title": "Tikinnahuaqtamiknik Aulapkaiyuq Uuktuutinga Piliurninnga",
+          "detail": "Havaangit, kavamaliqidjutingit, ihumaliurutikharnik pidjutikharnik naunaiyagiikhimayut ikayuutikharnik qilaminuaq auladjutikharnik avatingni nanminiqaqtunik qaritauyaliqidjutikharniklu iliqatigiiktunik."
+        },
+        {
+          "title": "Naunaitkutinik Tuniqhainiq Ataniqtuqtuiyut",
+          "detail": "Aadlangurninnga havaanga munariyauyuq ukunuuna KPI-atayut naunaiyainiq unalu naunaitkutingit-ittut qayangnautimut munariniq."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Aadlangurninnga piliurninnga naunaiqtaa angikliyuumiqtuq nutaanguqtiriniq naunaittumiklu kiuttaarniq, pittailiyuq ulapiqutigiyauyunik titiraffaarniq piqangittumik havakviup naunaitkutanganik.",
+      "items": [
+        {
+          "title": "Havakvikmi Pittaarninnga Ihuarhainiq",
+          "detail": "Ayuitaminik aadlangurninngit ihuarhaqhimayut pittaarninnganut talvunga piyuq maniliurutikhanut, ikayuutikhamut qanurittaakhaanik, akinganikluuniit ihuaqtumik."
+        },
+        {
+          "title": "Composable Platform Strategy",
+          "detail": "Tunngavinga ilagiyangit tikkuaqtauyut interoperability ikayuriami aadlangurninnga kayumiktumiklu hungiutiniq."
+        },
+        {
+          "title": "Kavamaliqidjutikhangit Auladjutikharnik Auladjutikharnik",
+          "detail": "Ihumaliurnikkut katimadjutit uvalu munaridjutikkut pidjutit ilauyut sprint uvalu hitamat tatqiqhiutit tatqiqhiutit auladjutait, pidjutaungitut ilikuuqtut kavamaliqinikkut auladjutait."
+        }
+      ]
+    },
+    "capabilities": [
+      "Nampanik Aadlangurninnga Apqutikhanga",
+      "Qaritaujaliqinikkut Qanuriliurutikhat Pivallianiq",
+      "Cloud-mik Tiguarniq Havauhikhat",
+      "Havaamut Ihuarhainiq",
+      "Aadlangurninnga Munariniq"
+    ],
+    "technologies": [
+      {
+        "name": "Azure-mi Tulakviup Kiklia",
+        "category": "Cloud Tunngavinga",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Nampanik Tunngavinga",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Ihumaliuqnikkut Ayuittiaqnikkut",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Power Platform",
+        "category": "Low-Code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Havaqatigiingniq",
+        "icon": "MicrosoftSharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Qanuriliurutikhat Nallaumaningit",
+        "summary": "Ihuaqhaqtavut hivuliqhuqnikkut hivuliuyukhat uvalu qagitauyakkut tikinahuagutit havagiangini havaqatigiiknikkut aalanguqtiqnikkut atugahanik.",
+        "deliverables": [
+          "Aadlangurninnga tikinnahuarutingit unalu nakuuyumik iniqtirninnga naunaitkutingit",
+          "Pittaarninnga angikliyuumiqtuq unalu ayurhautinga naunaiyainiq",
+          "Hivulliutigiyauyut havauhikhaq naunaitkutaq"
+        ]
+      },
+      {
+        "title": "Iniqtirutinganut Maligutikhaq",
+        "summary": "Naunaiyaqtavut tikinnahuaqtamiknik aulapkaininnganut uuktuutinga, piliurninnga naunaitkutat, unalu aadlatqiinik iniqtirutinga ihuarhaininnga.",
+        "deliverables": [
+          "Aulapkaiyuq uuktuutinga piyunnautingalu piliurninnga",
+          "Ayuitaminik unalu havaamut piliurninnga naunaitkutat",
+          "Ihuaqhaqhimayut atulirnikhanut atuqtakhaliuqhimayut"
+        ]
+      },
+      {
+        "title": "Aadlangurniq Ilumuurutingalu Ilihimaniq",
+        "summary": "Aulatitihimaaqpaktugut tiguarnikkut, munagihimaaqhugit KPI auladjutikharnik, ihuaryumiqtitiyaangatlu hanaqidjutikhangit talvuuna auladjutikharnik naunairutingnik.",
+        "deliverables": [
+          "Tiguarnikkut pittaalaqinikkullu hivunikhaq",
+          "KPI aktilaangit aktilaangit aulaniit",
+          "Pingahut tatqirhiutit qaangiraangat ihuarhainiq havaakhat"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Aularutilugu Aalanguqtirnirmun Auladjutit",
+      "description": "Naunaiyaqlugit aalanguqtirnirit naunaitunik hivuliuyughanik ihuaqtuniklu tunihinikkut upalungaiyautinik.",
+      "button": "Atugahaq Hanaqidjutikkut Katimadjutit"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT unalu Edge Computing",
+      "description": "Atadjutiqaqtut auladjutit hanaqidjutinin hamunga cloudmun, alguyaqtungnikkut naunaiyautit uvalu kikliit ayuittiaqtut havagvikyuanun aktilaangit."
+    },
+    "sections": {
+      "problem": {
+        "title": "Nanminikkut Ayuqhautit Tungaviit",
+        "subtitle": "Huuq atadjutit-hanaqidjutit pinahuarutit ihuangitut avatiinun uuktuutit"
+      },
+      "approach": {
+        "title": "Qauyimayiuyut Atuqtakhait",
+        "subtitle": "Qanuqtut piliuqtavut qayangnaittumik, aulapkaittaaqtuq IoT timiqutigiyangit hunavaluknit qaritauyaliriniqmut APIs"
+      },
+      "principles": {
+        "title": "Hanayaunigani Pitquhiuyut",
+        "subtitle": "Edge-to-cloud-mut piliurninnga maliktakhat nakuuninnganut, latency-mut, unalu fleet piyunnautinga"
+      },
+      "capabilities": {
+        "title": "IoT Solutions",
+        "subtitle": "Katitirlugit, munagilugit, ihuaryumiqtitilugitlu ingilrutikhatin"
+      },
+      "technology": {
+        "title": "IoT Technology Stack",
+        "subtitle": "Qaritauyanit cloud-mut"
+      },
+      "breakdown": {
+        "title": "Atuqtakhanut Aviktuqhimaniit",
+        "subtitle": "Qanuq tunihiyugut atadjutinun auladjutinun kikliitigut hanaqidjutit hamunga cloud intelligence"
+      }
+    },
+    "problem": {
+      "overview": "IoT uuktuutikhat naunairutauvaktut ayurnaqtunut ihuarnirit hivulliqpaami kihimi nakuungittut aktilanganik ihuanginmat atadjutit, hakuiqtut tingmitit munaridjutait, nakuungittumiklu ilaupkainiq havagvingni havauhikhainut.",
+      "painPointsTitle": "Utiffaaqtut Nanminikkut Ayuqhautit",
+      "impactSignalsTitle": "Hunanik Hivuliqtiuyut Tautuktait",
+      "painPoints": [
+        "Qaritauyakkuugutiqhanut ilaliutiyut aturniatigutlu munaridjutait pidjutihimmaaqtut ihuittumik pidjutivaktut",
+        "Alrujaqtuqtunik naunaiyainiq turhuangit piliuqtuq nipiquqtuyumik, iniqhimaittuq, tuuliiqtumikluuniit aulapkaiyuq nampangit",
+        "Ungahiktumit aquiqtuutikhaq unalu firmware nutaanguqtiriniq naunaipkaqtaa aaniqtailiniq munariniqlu qayangnautinga"
+      ],
+      "impactSignals": [
+        "Hivulliqpaat avatingit nakuuyumik piyut, kihimi piliurninnga naunaipkainiq kiklikhanga qangiqtaunginnaqtuq",
+        "Maniqami auladjutikkut iligiit pidjutigiyait hulaqutit tautungnaitumik",
+        "Havakvikmi timiqutigiyangit pilimaittuq aturiami hunavaluknik ayuitaminik talvainnakmi"
+      ]
+    },
+    "approach": {
+      "overview": "Piliuqtavut IoT tunngavingit munariyauyumik tuniqhaininnganik timiqutigiyangit, ilaliutiyuq hapummiutiyuq kiklinga aulapkaininnganik maliktakhat, quviahuutimut piyuq iliurainiq, aulapkaininngalu piyunnautinga fleet aktikkulaangani.",
+      "pillars": [
+        {
+          "title": "Qayangnaittumik Device Lifecycle Munariniq",
+          "detail": "Tuniqhainiq, kinauyaakhaanik, kiluutanik himmauhirniq, qaritauyaliqutingillu nutaanguqtiriniq inmikkuuqtut ikikliyuumiriami aulapkaininnganut qayangnautinga."
+        },
+        {
+          "title": "Event-Driven Telemetry Architecture",
+          "detail": "Streaming pipelines ihuariyait, tutqighaqhugit, aulapkaqhugillu tamayat hulidjutit naunaiyainirmun munarinirmunlu qilamik."
+        },
+        {
+          "title": "Fleet Operations Control Tingmiti",
+          "detail": "Munariniq, naunaipkainiq, ungahiktumilu pitquyauyut havaangit tuniyuq nakuuyumik munariniq tamainni tuniqhaininngani piqutit."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "IoT havauhivut aadjikiikhugit mikiyumik-latency kikliit ihumaliurutit qitqani ataniudjutit, tautungnaqtut, uvalu munaridjutit maligahat.",
+      "items": [
+        {
+          "title": "Edge Autonomy with Cloud Coordination",
+          "detail": "Ihariagijauqpiaqtun nunallaani aulapkaidjutit aulahimmaaqtun qaritaujakkuurutit nungutpalliadjutaani atauttikkuuqtiqhugillu qanurinniit cloud-mun pidjutinun hailihimaliraangata."
+        },
+        {
+          "title": "Kaantraaktitauhimayut Hulidjutinun Idjuhiit",
+          "detail": "Hanaqidjutit uvalu tungaviit iligiit atuqhugit ataniudjutiqaqtut atugahat tamaqtailiyaangani alguyaqtuutit ihuangnirit tamaini versionsni."
+        },
+        {
+          "title": "Ukpiriyaungitut Tamayat Munaridjutit",
+          "detail": "Atauttikkut tutqighaidjutit, mikitqiat pilaarutit, uvalu naunaiyaqhimayut nuutirutit aghuurutauyut tamaini hanaqidjutini ilauqatigiingnirmun."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT Device Management",
+      "Digital Twin Solutions",
+      "Edge Computing Iliurainiq",
+      "Talvainnakmi Alrujaqtuqtunik Naunaijaidjutit",
+      "Itqurnarutauyuq Munariniq"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Digital Twins",
+        "category": "Simulation",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Edge",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Maligahat",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Maligahat",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Hardware",
+        "icon": "arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Hardware",
+        "icon": "raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Hivitunikhait DB",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Device & Edge Strategy",
+        "summary": "Naunaiyaqtavut atadjutikkut atugahat, kikliit auladjutait atugahat, uvalu qayangnaitumik iluaniitut maniqami tamayat.",
+        "deliverables": [
+          "Atuqtakhanik ilaupkainiq imaalu atadjutikhanut atuqtakhat",
+          "Edge runtime unalu iliuraininnga blueprint",
+          "Aghaluutit qayangnaitkutikhat tungaviit"
+        ]
+      },
+      {
+        "title": "Alrujaqtuqtunik Naunaijainiq unalu Munariniq Tingmiti",
+        "summary": "Piliuqpaktugut turhuakhanik naunaikhidjutikhanik hulipkaidjutikhanik, uuktuqhugit qaritaujakkuurutikhat, imaalu pillahipkakhugit unngahiktukkut munaqhidjutikhainnik havauhikhanik.",
+        "deliverables": [
+          "Talvainnakmi in'ngilrayut huliviliqidjutikkutlu qanurinmanggaatigut",
+          "Digital twin unalu piqutingit uuktuutinga iniqtirutinga",
+          "Command and control API layer"
+        ]
+      },
+      {
+        "title": "Auladjutit uvalu Aktilaangit",
+        "summary": "Aulapkaqtitavut aghaluutit munaridjutit uvalu ihuangnirit munaridjutit havaktauyunun-aktilaangit IoT avatingit.",
+        "deliverables": [
+          "Hanaqidjutit aghaluutinik munaridjutit ilituqhaidjutillu",
+          "Itqurnarutauyuq ihuarhainiq unalu ayurhautinganik naunaiyainiq",
+          "Atulirnikhanut aturnikhanullu ikayuutikhanut upalungaiyautikhat"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Iliuraqlugit Qaritauyakkuugutitit",
+      "description": "Havaklugit ihuaqtut IoT ihuaqhaidjutikhat upalungaiqhimayut havaktauyunun.",
+      "button": "Aullaqtirlugu IoT Havaakhaq"
+    }
+  }
+}

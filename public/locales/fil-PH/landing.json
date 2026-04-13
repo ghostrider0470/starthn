@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Mga Sistema ng Engineering na Scale",
+    "subtitle": "Enterprise Software · AI at Pag-aaral ng Makina · Imprastraktura ng Cloud · IoT & Edge",
+    "description": "Mula sa matalinong automation hanggang sa cloud-native platform, kami ay nag-arkitekto at naghahatid ng teknolohiya na nagpapalakas sa mga ambisyosong negosyo - sa oras, sa badyet, sa sukat.",
+    "cta": {
+      "primary": "Magsimula ng isang Proyekto",
+      "secondary": "Tingnan ang Aming Gawain"
+    },
+    "trustLine": "Pinagkakatiwalaan ng mga kumpanya sa buong mundo"
+  },
+  "services": {
+    "subtitle": "Email Address *",
+    "title": "Full-Spectrum Engineering",
+    "description": "Anim na lugar ng pagsasanay. Isang koponan. Ang bawat layer ng iyong stack ng teknolohiya - mula sa mga aparato sa gilid hanggang sa mga dashboard ng enterprise.",
+    "commentMarker": "MGA SERBISYO",
+    "items": {
+      "customSoftware": {
+        "title": "Pasadyang Pag-unlad ng Software",
+        "description": "Mga modernong application na binuo gamit ang mga microservice, API, at cloud-native architecture."
+      },
+      "aiMl": {
+        "title": "AI, ML at Business Intelligence",
+        "description": "Mga pipeline ng AI / ML, mga dashboard ng Power BI, at advanced na analytics na ginagawang mga desisyon ang data."
+      },
+      "cloud": {
+        "title": "Arkitektura at Imprastraktura ng Cloud",
+        "description": "Multi-cloud na imprastraktura na may mga lalagyan, serverless, at pandaigdigang scalability na built-in."
+      },
+      "iot": {
+        "title": "IoT at Edge Computing",
+        "description": "Mga konektadong aparato, digital twins, at edge computing para sa Industry 4.0."
+      },
+      "devops": {
+        "title": "DevOps & Platform Engineering",
+        "description": "CI / CD pipelines, imprastraktura bilang code, at observability mula sa commit sa produksyon."
+      },
+      "digital": {
+        "title": "Digital na Pagbabagong-anyo at Pagkonsulta",
+        "description": "Diskarte sa teknolohiya, mga roadmap ng modernisasyon, at hands-on na pagkonsulta."
+      }
+    },
+    "cta": {
+      "title": "Gumawa tayo ng isang bagay na seryoso",
+      "description": "Mula sa pasadyang pag-unlad ng software at mga solusyon na pinapatakbo ng AI hanggang sa imprastraktura ng ulap at automation - naghahatid kami ng mga serbisyo sa teknolohiya ng end-to-end na nababagay sa iyong mga kinakailangan.",
+      "primary": "Simulan ang Iyong Proyekto",
+      "secondary": "Mag-iskedyul ng Konsultasyon"
+    },
+    "learnMore": "Matuto nang higit pa"
+  },
+  "credibility": {
+    "subtitle": "Ang aming Track Record",
+    "title": "Mga Resulta, Hindi mga <gradient>Pangako</gradient>",
+    "titlePlain": "Mga Resulta, Hindi mga Pangako",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Mula sa Sarajevo hanggang Oslo, Amsterdam, at Berlin. Ang mga sistema ng enterprise ay naihatid sa oras, sa bawat oras.",
+    "stats": {
+      "experience": "Mga Taon ng Pinagsamang Karanasan",
+      "countries": "Mga bansang pinaglilingkuran",
+      "systems": "Mga Sistema ng Paghahatid",
+      "industries": "Mga Industriya na Pinaglilingkuran"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM para sa Atlas Copco",
+        "outcome": "Nag-arkitekto ng kauna-unahang cloud-based na imprastraktura ng One Identity para sa Atlas Copco sa Azure Kubernetes, na binabawasan ang mga gastos habang pinapanatili ang pagsunod sa enterprise."
+      },
+      "orange": {
+        "label": "Orange Cyberdefense Platform",
+        "outcome": "Binuo ang imprastraktura ng Azure Kubernetes, mga pipeline ng CI / CD, at pasadyang pagsasama ng ServiceNow para sa nangungunang kumpanya ng cybersecurity sa Europa."
+      },
+      "telecom": {
+        "label": "Telecom GIS & AR Platform",
+        "outcome": "Binuo ang GIS platform na nagma-map ng mga utility sa ilalim ng lupa sa buong Alemanya na may pagtuklas ng banggaan na pumipigil sa multi-milyong Euro na pinsala sa imprastraktura."
+      },
+      "iot": {
+        "label": "Cloud IoT & Edge Platform",
+        "outcome": "Ang pamamahala ng Azure IoT Hub ng libu-libong mga aparato, ang Synapse ay nagpoproseso ng bilyun-bilyong mga hilera ng telemetry, na may pagsasama-sama ng gilid na nagbabawas ng mga gastos sa mensahe ng ~ 90%."
+      },
+      "drone": {
+        "label": "Autonomous Drone Platform",
+        "outcome": "Pasadyang flight controller na may 4G-to-Azure IoT Hub bridge na nagbibigay-daan sa mga autonomous na flight ng BVLOS para sa pagsubaybay sa agrikultura at paghahatid ng payload."
+      },
+      "payment": {
+        "label": "Pagsagip ng Sistema ng Pagbabayad",
+        "outcome": "Nailigtas ang nabigong gateway ng pagbabayad para sa Norwegian mobile app sa pamamagitan ng reverse-engineering undocumented legacy code. Zero payment downtime post-modernization."
+      },
+      "game": {
+        "label": "AAA Game Dev Tooling",
+        "outcome": "Binuo ang plugin ng Maya na pinutol ang oras ng pagmomodelo at animation ng 3D sa pamamagitan ng 50% sa isang pangunahing studio ng AAA, na pinagtibay bilang isang pamantayang tool sa pipeline ng produksyon."
+      },
+      "social": {
+        "label": "Platform ng Social na Batay sa Lokasyon",
+        "outcome": "Architected dating app para sa tanawin ng nightlife ng Espanya na may pagtutugma ng geolocation, real-time na pagmemensahe, at mga push notification para sa isang kliyente sa UK."
+      },
+      "iga": {
+        "label": "Multi-Tenant IGA Platform",
+        "outcome": "Binuo ang core backend para sa cloud-native identity governance platform na nagsisilbi sa mga kliyente ng Fortune 500 na may pasadyang ASP.NET Core Identity para sa NoSQL sa enterprise scale."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "EU-Adjacent, Global Delivery",
+        "description": "Mga oras ng pagtatrabaho ng CET na may karanasan na sumasaklaw sa Norway, Netherlands, Germany, at higit pa."
+      },
+      "yourEngineers": {
+        "title": "Ang iyong mga inhinyero, hindi isang vendor",
+        "description": "Nakatuon na mga miyembro ng koponan na naka-embed sa iyong daloy ng trabaho at mga tool. Walang mga tagapamahala ng account, walang pila ng tiket."
+      },
+      "hardwareToCloud": {
+        "title": "Hardware sa Cloud",
+        "description": "Mula sa naka-embed na firmware ng aparato hanggang sa mga pipeline ng Azure Synapse ng enterprise. Full-stack software sa bawat layer."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Stack ng Teknolohiya",
+    "title": "<gradient>Stack</gradient> na Nasubok sa Labanan",
+    "titlePlain": "Stack na Nasubok sa Labanan",
+    "commentMarker": "TECH_STACK",
+    "description": "Hindi lamang namin ginagamit ang mga tool na ito - ipinadala namin ang mga sistema ng produksyon sa kanila. Mula sa Microsoft Azure hanggang Kubernetes, ang aming mga inhinyero ay nagtataglay ng kadalubhasaan sa totoong mundo.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Cloud at Imprastraktura",
+        "description": "Multi-cloud architecture na may container orchestration at imprastraktura bilang code."
+      },
+      "frontend": {
+        "label": "Frontend",
+        "description": "Modernong mga balangkas ng bahagi na may kaligtasan ng uri at na-optimize na tool sa pagbuo."
+      },
+      "backend": {
+        "label": "Backend at API",
+        "description": "Mga platform ng server ng enterprise-grade, mga wika ng system, at modernong mga paradigma ng API."
+      },
+      "data": {
+        "label": "Data at Imbakan",
+        "description": "Mga tindahan ng relational, dokumento, at in-memory na may full-text na paghahanap."
+      },
+      "devops": {
+        "label": "DevOps & Tooling",
+        "description": "Mga pipeline ng CI / CD, kontrol ng bersyon, at pagiging produktibo ng developer."
+      }
+    },
+    "scanning": "MGA FREQUENCY NG PAG-SCAN ...",
+    "summary": {
+      "cloudNative": {
+        "title": "Cloud-Native sa pamamagitan ng Default",
+        "description": "Ang bawat proyekto ay containerized, CI / CD-driven, at binuo para sa pahalang na scale mula sa unang araw."
+      },
+      "fullStack": {
+        "title": "Full-Stack Fluency",
+        "description": "Mula sa mga frontend ng React hanggang sa .NET microservices hanggang sa mga kumpol ng Kubernetes - isang koponan, dulo hanggang dulo."
+      },
+      "productionProven": {
+        "title": "Napatunayan sa Produksyon",
+        "description": "Hindi ito mga teknolohiya ng demo. Ang bawat tool na nakalista ay nagpapalakas ng mga tunay na sistema na nagsisilbi sa mga tunay na gumagamit ngayon."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Mga logo ng teknolohiya hanay 1",
+      "row2Aria": "Mga logo ng teknolohiya hanay 2",
+      "row3Aria": "Mga logo ng teknolohiya hanay 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Base ng Kaalaman",
+    "title": "Mga <gradient>Madalas Itanong</gradient>",
+    "titlePlain": "Mga Madalas Itanong",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Lahat ng Kailangan Mong Malaman Tungkol sa Pagtatrabaho sa Horizon Tech",
+    "items": {
+      "scope": {
+        "question": "Ano ang saklaw ng iyong trabaho?",
+        "answer": "Naghahatid kami ng mga proyekto sa teknolohiya ng end-to-end: pasadyang software ng enterprise, mga pipeline ng AI / ML, imprastraktura ng ulap, mga sistema ng IoT, automation ng DevOps, at pagkonsulta sa digital na pagbabagong-anyo. Kung kailangan mo ng isang buong platform na binuo mula sa simula o isang naka-target na pagsasama sa iyong umiiral na stack, pinangangasiwaan namin ang arkitektura, pag-unlad, pagsubok, at pag-deploy."
+      },
+      "stack": {
+        "question": "Ano ang iyong pangunahing stack ng teknolohiya?",
+        "answer": "Ang aming core stack ay nakasentro sa mga platform ng enterprise-grade: Azure at AWS para sa cloud, .NET at Node.js para sa backend, React at Angular para sa frontend, Kubernetes at Docker para sa orkestrasyon, at Terraform para sa imprastraktura bilang code. Malawakang gumagana din kami sa Python para sa mga workload ng AI / ML, Power BI at Fabric para sa katalinuhan sa negosyo, at PostgreSQL, SQL Server, at MongoDB para sa data."
+      },
+      "enterprise": {
+        "question": "Paano mo hinahawakan ang mga proyekto ng enterprise?",
+        "answer": "Ang bawat pakikipag-ugnayan ay nagsisimula sa isang yugto ng pagtuklas upang tukuyin ang saklaw, arkitektura, at mga milestone. Makakakuha ka ng isang dedikadong koponan na may isang teknikal na lead, regular na mga pagsusuri sa milestone, at direktang pag-access sa mga inhinyero na nagtatayo ng iyong system. Sinusundan namin ang mga agile sprint na may mga demo ng stakeholder, pinapanatili ang mga transparent na board ng proyekto, at nagbibigay ng lingguhang mga ulat sa pag-unlad."
+      },
+      "support": {
+        "question": "Ano ang hitsura ng suporta pagkatapos ng paglulunsad?",
+        "answer": "Nag-aalok kami ng nakabalangkas na mga tier ng suporta na may tinukoy na SLA, kabilang ang 24/7 na pagsubaybay, pagtugon sa insidente, pag-optimize ng pagganap, at pag-ulit ng tampok. Ang aming mga kasunduan sa suporta ay sumasaklaw sa mga pag-aayos ng bug, mga patch ng seguridad, pag-scale ng imprastraktura, at mga proactive na pagsusuri sa kalusugan - na nababagay sa iyong mga kinakailangan sa uptime at oras ng pagtugon."
+      },
+      "integration": {
+        "question": "Maaari ka bang makisama sa aming umiiral na imprastraktura?",
+        "answer": "Ganap. Dalubhasa kami sa legacy modernization, API-first integrations, at hybrid cloud migrations. Kung kailangan mong kumonekta sa mga on-premise ERP system, lumipat mula sa mga monolith patungo sa mga microservice, o tulay ng mga legacy database na may mga modernong frontend, mayroon kaming mga playbook ng paglipat at karanasan sa pagsasama upang gawin itong walang putol."
+      },
+      "industries": {
+        "question": "Anong mga industriya ang iyong pinagtatrabahuhan?",
+        "answer": "Ang aming koponan ay naghatid ng mga proyekto sa fintech, pangangalagang pangkalusugan, logistik, e-commerce, enerhiya, at sektor ng gobyerno. Nauunawaan namin ang mga kinakailangan na tukoy sa industriya tulad ng PCI-DSS para sa mga pagbabayad, mga pagsasaalang-alang sa HIPAA para sa data ng kalusugan, pagsunod sa GDPR para sa mga merkado ng EU, at real-time na telemetry para sa pang-industriya na IoT."
+      },
+      "engagement": {
+        "question": "Ano ang hitsura ng proseso ng pakikipag-ugnayan?",
+        "answer": "Nagsisimula ito sa isang tawag sa pagtuklas upang maunawaan ang iyong mga layunin at teknikal na tanawin. Mula doon, naghahatid kami ng isang dokumento ng scoping na may mga rekomendasyon sa arkitektura, timeline, at pagkasira ng pamumuhunan. Kapag naaprubahan, magsisimula kami sa isang dedikadong koponan, mag-onboard sa iyong mga tool at daloy ng trabaho, at simulan ang unang sprint sa loob ng ilang araw."
+      }
+    },
+    "stillHaveQuestions": "May mga tanong pa ba?",
+    "ctaDescription": "May project ka ba sa isip? Pag-usapan natin ang saklaw, timeline, at badyet.",
+    "readCaseStudies": "Basahin ang aming mga pag-aaral ng kaso",
+    "scheduleCall": "Mag-iskedyul ng Tawag"
+  }
+}

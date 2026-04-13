@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Hais txog wb",
+    "hero": {
+      "titlePrefix": "Tsim Tag kis Technology,",
+      "titleHighlight": "Hnub no",
+      "description": "Horizon Tech d.o.o. yog lub tuam txhab thev naus laus zis thoob ntiaj teb lub hauv paus hauv Sarajevo, xa cov kev daws teeb meem software rau cov lag luam thoob plaws peb sab av loj."
+    },
+    "sections": {
+      "mission": {
+        "title": "Lub hom phiaj",
+        "description": "Peb pab cov koom haum tig lub tswv yim txaus siab rau hauv cov khoom lag luam digital txhim khu kev qha uas tsim kev lag luam muaj txiaj ntsig.",
+        "points": [
+          "Kho cov thev naus laus zis xa tawm nrog cov txiaj ntsig kev lag luam meej.",
+          "Tsim cov kab ke mus sij hawm ntev uas tseem tswj tau raws li pab pawg ntsuas.",
+          "Koom tes ze nrog cov neeg muaj feem cuam tshuam los ntawm lub tswv yim los ntawm kev ua tiav."
+        ]
+      },
+      "expertise": {
+        "title": "Kev txawj ntse",
+        "description": "Peb multidisciplinary pab pawg ua ke engineering tob nrog cov khoom xav thoob plaws niaj hnub technology stacks.",
+        "points": [
+          "Kev lag luam-qib web thiab platform engineering.",
+          "Huab architecture, DevOps automation, thiab resilient infrastructure.",
+          "Applied AI / ML, cov ntaub ntawv ua haujlwm, thiab IoT-enabled cov khoom lag luam."
+        ]
+      },
+      "approach": {
+        "title": "Mus kom ze",
+        "description": "Peb ua tiav nrog pob tshab, iterative qauv uas khaws cov khoom xa tuaj yeem twv ua ntej thaum txo cov khoom lag luam.",
+        "points": [
+          "Tshawb nrhiav: txhais qhov chaw, qhov tseem ceeb, thiab kev ntsuas kev vam meej thaum ntxov.",
+          "Tsim: nkoj nyob rau hauv tsom increments nrog tas mus li tawm tswv yim loops.",
+          "Ua kom zoo: saib xyuas cov txiaj ntsig thiab txhim kho kev ua haujlwm thaum lub sijhawm."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Npaj txhij los hloov koj txoj kev lag luam?",
+      "description": "Koom nrog cov npe loj hlob ntawm cov tuam txhab uas ntseeg siab Horizon Tech kom xa cov kev daws teeb meem tshiab thiab cov txiaj ntsig tshwj xeeb.",
+      "primary": "Pib",
+      "secondary": "Saib Cov Dab Neeg Ua Tau Zoo"
+    }
+  },
+  "contact": {
+    "badge": "Tiv tauj",
+    "hero": {
+      "title": "Tiv tauj peb",
+      "description": "Muaj ib qhov project nyob rau hauv lub siab? Peb yuav nyiam hnov los ntawm koj. Ncav tes los tham txog yuav ua li cas peb tuaj yeem pab coj koj lub tswv yim mus rau lub neej."
+    },
+    "info": {
+      "title": "Cov Lus Qhia Tiv Tauj"
+    },
+    "booking": {
+      "title": "Phau Ntawv Sib Tham",
+      "description": "Teem sijhawm hu xov tooj dawb 30 feeb"
+    },
+    "methods": {
+      "email": {
+        "title": "Tus email",
+        "description": "Xa email rau peb txhua lub sijhawm",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Qhov chaw nyob",
+        "description": "Raws li nyob rau hauv",
+        "value": "Sarajevo, Bosnia thiab Herzegovina"
+      },
+      "response": {
+        "title": "Lub Sij Hawm Teb",
+        "description": "Peb feem ntau teb nyob rau hauv",
+        "value": "24-48 teev"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Txoj haujlwm tshiab"
+      },
+      "support": {
+        "label": "Kev txhawb nqa"
+      },
+      "partnerships": {
+        "label": "Kev Sib Koom Tes"
+      },
+      "careers": {
+        "label": "Kev Ua Haujlwm"
+      },
+      "general": {
+        "label": "Kev Nug General"
+      }
+    },
+    "form": {
+      "title": "Xa Peb Cov Lus",
+      "success": "Ua tsaug rau koj cov lus. Peb mam li rov qab los rau koj tsis pub dhau 24-48 teev.",
+      "error": "Ib yam dab tsi mus tsis ncaj ncees lawm. Thov sim dua lossis email rau peb ncaj qha.",
+      "fullName": "Lub Npe Tag Nrho *",
+      "email": "Email Chaw Nyob *",
+      "company": "Lub tuam txhab",
+      "subject": "Cov ntsiab lus *",
+      "message": "Lus *",
+      "placeholders": {
+        "name": "Koj lub npe",
+        "email": "you@example.com",
+        "company": "Koj lub tuam txhab",
+        "subject": "Peb yuav pab tau dabtsi?",
+        "message": "Qhia peb txog koj qhov project lossis kev nug..."
+      },
+      "validation": {
+        "required": {
+          "name": "Yuav tsum muaj npe tag nrho.",
+          "email": "Email chaw nyob yuav tsum tau.",
+          "subject": "Thov xaiv ib lub ntsiab lus.",
+          "message": "Cov lus yuav tsum tau."
+        },
+        "email": "Thov sau tus email chaw nyob siv tau.",
+        "messageMinLength": "Cov lus yuav tsum yog tsawg kawg {{count}} cim ntev."
+      },
+      "sending": "Xa...",
+      "submit": "Xa Lus"
+    },
+    "reasonsTitle": "Vim Li Cas Nrog Peb Ua Haujlwm?",
+    "reasons": [
+      "Full-stack software kev txhim kho kev txawj ntse",
+      "AI / ML thiab huab architecture kws tshaj lij",
+      "Kev txhim kho agile nrog kev sib txuas lus pob tshab",
+      "Kev txhawb nqa mus sij hawm ntev thiab kev saib xyuas"
+    ],
+    "custom": {
+      "title": "Kev Cai Kev Daws Teeb Meem",
+      "description": "Nrhiav kev daws teeb meem? Peb ua haujlwm ze nrog cov neeg siv khoom kom nkag siab txog cov kev xav tau tshwj xeeb thiab xa cov kev cai software uas tsav cov txiaj ntsig ntsuas tau.",
+      "cta": "Sib tham txog Koj Txoj Haujlwm"
+    },
+    "faq": {
+      "title": "Muaj lus nug ntxiv?",
+      "description": "Txheeb xyuas peb ntu FAQ rau cov lus teb sai",
+      "cta": "Xauj FAQs"
+    }
+  },
+  "team": {
+    "badge": "Peb Pab Pawg",
+    "hero": {
+      "titlePrefix": "Ntsib Lub Hlwb Tom Qab",
+      "titleHighlight": "Horizon Tech",
+      "description": "Pab pawg sib txawv ntawm cov kws tshaj lij thev naus laus zis, cov tsim qauv thiab cov tswv yim tsim cov khoom lag luam digital siab ua ke."
+    },
+    "section": {
+      "title": "Pab Pawg Thawj Coj",
+      "description": "Cov thawj coj muaj kev paub dhau los coj Horizon Tech lub zeem muag thiab kev loj hlob"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Founder, CEO & CTO",
+        "bio": "Lub zeem muag tus thawj coj thiab tus kws kes duab vajtse nrog 10+ xyoo hauv kev lag luam software, tshwj xeeb hauv AI / ML, huab platforms, thiab scalable khoom architecture.",
+        "expertise": [
+          "AI / ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Kev daws teeb meem Architecture",
+          "Huab Engineering"
+        ]
+      },
+      "ahmet": {
+        "role": "Tus Thawj Saib Xyuas Kev Ruaj Ntseg",
+        "bio": "Tus kws tshaj lij cybersecurity tau tsom mus rau kev lag luam kev ruaj ntseg architecture, kev ruaj ntseg on-prem infrastructure, thiab kev ua raws cai-thawj tus me nyuam rau cov chaw tswj hwm.",
+        "expertise": [
+          "Kev ruaj ntseg cyber",
+          "On-Prem Systems",
+          "Kev ruaj ntseg Architecture",
+          "Kev ua raws cai",
+          "Kev Ruaj Ntseg Kev Ruaj Ntseg"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Email {{name}}",
+      "linkedin": "{{name}} LinkedIn profile"
+    },
+    "culture": {
+      "title": "Lub neej ntawm Horizon Tech",
+      "description": "Peb txhawb kev coj noj coj ua ntawm kev tsim kho tshiab, kev sib koom tes, thiab kev kawm txuas ntxiv",
+      "remoteFirst": {
+        "title": "Tej thaj chaw deb-thawj kab lis kev cai",
+        "description": "Ua haujlwm los ntawm txhua qhov chaw nrog cov sijhawm hloov tau yooj yim thiab tsom mus rau cov txiaj ntsig, tsis yog qhov chaw."
+      },
+      "collaborative": {
+        "title": "Kev Sib Koom Tes Ib puag ncig",
+        "description": "Cov xwm txheej pab pawg tsis tu ncua, kev sib qhia kev paub, thiab kev sib koom tes hla kev ua haujlwm."
+      },
+      "workLife": {
+        "title": "Kev Ua Haujlwm-Lub Neej Sib Npaug",
+        "description": "Txoj cai so haujlwm siab dav, kev txhawb nqa kev puas siab puas ntsws, thiab kev hwm rau tus kheej lub sijhawm."
+      },
+      "innovation": {
+        "title": "Lub Sijhawm Tsim Kho Tshiab",
+        "description": "20% lub sijhawm rau cov phiaj xwm tus kheej, hackathons, thiab tshawb nrhiav cov thev naus laus zis tshiab."
+      },
+      "stats": {
+        "teamMembers": "Cov Tswv Cuab Hauv Pab Pawg",
+        "countries": "Cov teb chaws",
+        "techStacks": "Tech Stacks",
+        "remoteReady": "Tej thaj chaw deb npaj txhij"
+      }
+    },
+    "cta": {
+      "title": "Xav koom nrog peb pab neeg?",
+      "description": "Peb ib txwm nrhiav cov neeg muaj txuj ci uas mob siab txog kev ua haujlwm, tus tswv, thiab kev tsim kho tshiab.",
+      "button": "Tiv tauj"
+    }
+  },
+  "careers": {
+    "badge": "Koom nrog Peb Pab Pawg",
+    "hero": {
+      "titlePrefix": "Tsim Lub Neej Tom Ntej",
+      "titleHighlight": "Nrog Peb",
+      "description": "Koom nrog ib pab neeg ntawm engineers tsim cutting-edge software rau cov neeg siv khoom thoob ntiaj teb. Ua haujlwm nyob deb, loj hlob tsis tu ncua, thiab ua rau muaj kev cuam tshuam tiag tiag.",
+      "button": "Saib Cov Haujlwm"
+    },
+    "process": {
+      "title": "Peb Cov Txheej Txheem Ntiav",
+      "description": "Pob tshab, ua tau zoo, thiab hwm koj lub sijhawm",
+      "steps": [
+        {
+          "title": "thov",
+          "description": "Xa koj daim ntawv thov thiab peb yuav tshuaj xyuas nws tsis pub dhau 3 hnub ua haujlwm."
+        },
+        {
+          "title": "Thawj Sib Tham",
+          "description": "30 feeb video hu los tham txog koj cov kev paub dhau los thiab kev cia siab."
+        },
+        {
+          "title": "Kev siv tshuab",
+          "description": "Kev xam phaj lossis kev tawm dag zog los qhia koj cov txuj ci."
+        },
+        {
+          "title": "Muab",
+          "description": "Ntsib pab pawg thiab tau txais koj qhov kev thov los koom nrog Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Qhib Txoj Haujlwm",
+      "description": "Nrhiav koj lub sijhawm tom ntej thiab koom nrog peb pab pawg loj hlob",
+      "unavailable": "Tsis lees txais cov ntawv thov nyob rau lub sijhawm no",
+      "apply": "Thov Tam Sim No",
+      "noMatch": "Tsis pom lub luag haujlwm zoo meej?",
+      "sendCv": "Xa Koj Koj CV Rau Peb",
+      "listings": [
+        {
+          "title": "Senior Full-Stack Engineer",
+          "department": "Kev Tsim Kho Vaj Huam Sib",
+          "location": "Tej thaj chaw deb (EU Lub Sij Hawm Cheeb Tsam)",
+          "type": "Puv Sij Hawm",
+          "description": "Tsim cov ntawv thov kev lag luam scalable siv React, Node.js thiab huab thev naus laus zis.",
+          "tags": [
+            "Tawm tsam",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps Engineer",
+          "department": "Kev Tsim Kho Vaj Huam Sib",
+          "location": "Sarajevo / Tej thaj chaw deb",
+          "type": "Puv Sij Hawm",
+          "description": "Tsim thiab tswj CI / CD pipelines, infrastructure raws li code, thiab soj ntsuam systems.",
+          "tags": [
+            "Kubernetes",
+            "Tus neeg nres nkoj",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI / ML Engineer",
+          "department": "Innovation Lab",
+          "location": "Tej thaj chaw deb",
+          "type": "Puv Sij Hawm",
+          "description": "Tsim cov qauv kev kawm tshuab thiab AI kev daws teeb meem rau cov neeg siv khoom lag luam.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Tus Tsim Khoom Tsim",
+          "department": "Tsim qauv",
+          "location": "Tej thaj chaw deb",
+          "type": "Puv Sij Hawm",
+          "description": "Tsim kom zoo nkauj, intuitive cov neeg siv kev paub rau cov ntawv thov kev lag luam nyuaj.",
+          "tags": [
+            "Daim duab",
+            "Cov Neeg Siv Kev Tshawb Fawb",
+            "UI / UX",
+            "Tsim Systems"
+          ]
+        },
+        {
+          "title": "Kev daws teeb meem kws kes duab vajtse",
+          "department": "Kev Tsim Kho Vaj Huam Sib",
+          "location": "Tej thaj chaw deb",
+          "type": "Puv Sij Hawm",
+          "description": "Tsim qhov kawg-rau-kawg kev daws teeb meem thiab coj cov neeg siv khoom los ntawm kev hloov pauv digital.",
+          "tags": [
+            "Huab Architecture",
+            "System Tsim",
+            "Kev Sab Laj"
+          ]
+        },
+        {
+          "title": "Tus kws sau ntawv technical",
+          "department": "Kev Ua Haujlwm",
+          "location": "Tej thaj chaw deb",
+          "type": "Ib Nrab Hnub",
+          "description": "Tsim cov ntaub ntawv tag nrho, kev qhia thiab cov ntsiab lus thev naus laus zis.",
+          "tags": [
+            "Cov ntaub ntawv",
+            "API Cov Ntaub Ntawv",
+            "Kev Sau Ntawv"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Cov lus nug txog kev ua haujlwm ntawm no?",
+      "description": "Peb yuav nyiam hnov los ntawm koj. Ncav tes thiab peb mam li teb txhua lo lus nug txog lub neej ntawm Horizon Tech.",
+      "button": "Tiv tauj peb"
+    }
+  },
+  "caseStudies": {
+    "badge": "Cov Dab Neeg Ua Tau Zoo",
+    "hero": {
+      "titlePrefix": "Xa Cov Txiaj Ntsig Uas",
+      "titleHighlight": "teeb meem",
+      "description": "Tshawb nrhiav yuav ua li cas peb tau pab cov tuam txhab thoob plaws kev lag luam hloov pauv kev ua haujlwm los ntawm kev siv thev naus laus zis siab.",
+      "tags": {
+        "delivery": "Kev Xa Khoom Engineering",
+        "outcomes": "Ntsuas Cov Txiaj Ntsig"
+      }
+    },
+    "stats": {
+      "projects": "Cov Haujlwm Xa Tawm",
+      "clients": "Cov Neeg Siv Khoom Zoo Siab",
+      "efficiency": "Avg. Efficiency Nce",
+      "retention": "Cov Neeg Siv Khoom Khaws Tseg"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Ntiaj teb FinTech Corp",
+        "industry": "Cov Kev Pab Nyiaj Txiag",
+        "title": "Huab Tsiv teb tsaws & Modernization",
+        "description": "Migrated legacy banking systems rau AWS huab infrastructure nrog xoom downtime.",
+        "challenge": "Legacy monolithic architecture ua rau muaj teeb meem scalability",
+        "result": "Ua tiav tsiv teb tsaws chaw rau microservices ntawm AWS",
+        "metrics": [
+          {
+            "label": "Txo Tus Nqi",
+            "value": "40%"
+          },
+          {
+            "label": "Kev Ua Tau Zoo Nce",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Microservices",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "Kev Noj Qab Haus Huv Kev Daws Teeb Meem",
+        "industry": "Kev Kho Mob",
+        "title": "AI-Powered Diagnostic Platform",
+        "description": "Tsim ML qauv rau kev tshuaj xyuas cov duab kho mob nrog 95%+ raug.",
+        "challenge": "Cov txheej txheem kuaj mob phau ntawv siv sijhawm ntev dhau lawm",
+        "result": "Tsis siv neeg kuaj mob nrog AI / ML",
+        "metrics": [
+          {
+            "label": "Lub Sij Hawm Txuag",
+            "value": "70%"
+          },
+          {
+            "label": "Qhov tseeb",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "Tawm tsam",
+          "Kev Kho Mob"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "E-Kev Lag Luam Giant",
+        "industry": "Khw muag khoom",
+        "title": "Lub Sijhawm Tiag Analytics Dashboard",
+        "description": "Tsim BI platform ua 10M + cov xwm txheej txhua hnub.",
+        "challenge": "Tsis muaj kev pom lub sijhawm tiag tiag rau hauv kev ntsuas kev lag luam tseem ceeb",
+        "result": "Lub sijhawm tiag tiag analytics thiab kev nkag siab platform",
+        "metrics": [
+          {
+            "label": "Cov xwm txheej / Hnub",
+            "value": "10M+"
+          },
+          {
+            "label": "Lub Sij Hawm Teb",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "Tawm tsam",
+          "Cov ntaub ntawv Engineering"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Npaj txhij los sau koj zaj dab neeg ua tiav?",
+      "description": "Cia peb tham txog yuav ua li cas peb tuaj yeem pab koj ua tiav cov txiaj ntsig zoo sib xws thiab ntsuas nrog kev ntseeg siab."
+    },
+    "filters": {
+      "title": "Kev Lag Luam Lim",
+      "all": "Txhua Kev Lag Luam",
+      "empty": "Tsis muaj cov ntaub ntawv tshawb fawb phim qhov kev xaiv kev lag luam lim."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Kev Nkag Siab & Cov Tswv Yim Los Ntawm",
+      "titleHighlight": "Horizon Tech",
+      "description": "Kev qhia txuj ci, kev nkag siab txog kev lag luam, thiab cov lus qhia ua haujlwm los ntawm kev xa khoom tiag tiag."
+    },
+    "categories": [
+      "Tag nrho cov posts",
+      "Huab Architecture",
+      "DevOps",
+      "AI / ML",
+      "Pem Hauv Ntej",
+      "Rov qab",
+      "Cov ntaub ntawv"
+    ],
+    "featuredPost": {
+      "id": "featured",
+      "title": "Lub Neej Tom Ntej ntawm Huab-Haiv Neeg Kev Txhim Kho: Cov Ncauj Ke Saib Hauv 2025",
+      "excerpt": "Tshawb nrhiav cov qauv tshiab tshaj plaws hauv huab-haiv neeg txoj kev loj hlob, los ntawm serverless architectures mus rau ntug xam.",
+      "author": {
+        "name": "Horizon Tech Editorial"
+      },
+      "date": "Nov 15, 2025",
+      "readTime": "8 min nyeem",
+      "category": "Huab Architecture",
+      "tags": [
+        "huab",
+        "Azure",
+        "Tiam sis"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Tsim Scalable Microservices nrog Azure Kubernetes Service",
+        "excerpt": "Ib qho kev qhia ua haujlwm rau kev ua vaj tse thiab xa cov microservices siv AKS.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "Nov 12, 2025",
+        "readTime": "6 min nyeem",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Microservices",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Tshuab Kev Kawm Hauv Kev Tsim Khoom: Cov Lus Qhia Tau Kawm",
+        "excerpt": "Cov lus qhia kuaj teb los ntawm kev xa cov qauv ML ntawm nplai.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "Nov 10, 2025",
+        "readTime": "10 min nyeem",
+        "category": "AI / ML",
+        "tags": [
+          "Tshuab Kev Kawm",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Dab tsi tshiab thiab vim li cas nws tseem ceeb",
+        "excerpt": "Ib qho tob tob rau hauv React 19 nta thiab kev ua tau zoo.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "Nov 8, 2025",
+        "readTime": "5 min nyeem",
+        "category": "Pem Hauv Ntej",
+        "tags": [
+          "Tawm tsam",
+          "JavaScript",
+          "Kev Txhim Kho Web"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Sau npe yuav rau peb cov ntawv xov xwm",
+      "description": "Tau txais cov ntawv tshiab tshaj plaws, kev qhia thiab kev nkag siab xa txhua lub lim tiam.",
+      "placeholder": "your.email@example.com",
+      "button": "Sau npe yuav",
+      "note": "Tsis muaj spam. Unsubscribe txhua lub sij hawm."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering Blog",
+        "description": "Cov ntawv sau thiab cov qauv ua haujlwm los ntawm pab pawg tsim cov khoom lag luam AI, kev lag luam thiab txhim khu kev qha huab platform."
+      },
+      "filters": {
+        "postsInView": "{{count}} posts nyob rau hauv view"
+      },
+      "featured": {
+        "badge": "Tshiab tshaj plaws",
+        "readCta": "Nyeem featured ncej"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Chaw thau khoom profile...",
+    "title": "Profile Chaw",
+    "subtitle": "Tswj koj tus account teeb tsa thiab nyiam",
+    "photoButton": "Hloov Diam duab",
+    "tabs": {
+      "general": "Dav dav",
+      "security": "Kev ruaj ntseg",
+      "preferences": "Cov Lus Nyiam"
+    },
+    "messages": {
+      "profileUpdated": "Profile hloov kho tau zoo",
+      "profileUpdateFailed": "Ua tsis tiav los hloov kho profile",
+      "passwordsNoMatch": "Cov lus zais tshiab tsis phim",
+      "passwordTooShort": "Lo lus zais yuav tsum muaj tsawg kawg yog 8 cim ntev",
+      "passwordChanged": "Lo lus zais hloov tau zoo",
+      "passwordChangeFailed": "Hloov tsis tau lo lus zais",
+      "optedOut": "Xaiv tawm ntawm cov ntawv qhia txog kev xyaum",
+      "optedIn": "Opted nyob rau hauv los xyaum cov ntawv ceeb toom",
+      "optOutFailed": "Tsis ua tiav hloov kho cov xwm txheej xaiv tawm"
+    },
+    "general": {
+      "title": "Cov Ntaub Ntawv Ntiag Tug",
+      "description": "Hloov kho koj cov ntaub ntawv ntiag tug thiab cov ntaub ntawv tiv tauj",
+      "firstName": "Lub Npe",
+      "firstNamePlaceholder": "John",
+      "lastName": "Lub Xeem",
+      "lastNamePlaceholder": "doov",
+      "email": "Email Chaw Nyob",
+      "emailNotice": "Email hloov tsis tau. Hu rau cov kev pab txhawb nqa yog tias koj xav tau kev pab.",
+      "phone": "Tus lej xov tooj",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Txuag Kev Hloov"
+    },
+    "security": {
+      "title": "Kev Ruaj Ntseg Chaw",
+      "description": "Tswj koj lo lus zais thiab kev ruaj ntseg nyiam",
+      "currentPassword": "Lo lus zais tam sim no",
+      "currentPasswordPlaceholder": "Sau lo lus zais tam sim no",
+      "newPassword": "Lo lus zais tshiab",
+      "newPasswordPlaceholder": "Sau lo lus zais tshiab",
+      "confirmPassword": "Paub meej tias lo lus zais tshiab",
+      "confirmPasswordPlaceholder": "Paub meej tias lo lus zais tshiab",
+      "passwordHint": "Yuav tsum muaj tsawg kawg yog 8 cim ntev",
+      "changePassword": "Hloov lo lus zais"
+    },
+    "preferences": {
+      "title": "Kev Ceeb Toom Nyiam",
+      "description": "Tswj seb koj tau txais kev hloov tshiab thiab cov ntawv ceeb toom li cas",
+      "email": {
+        "title": "Email Cov Ntawv Ceeb Toom",
+        "description": "Tau txais kev hloov tshiab thiab ceeb toom los ntawm email"
+      },
+      "sms": {
+        "title": "SMS Cov Ntawv Ceeb Toom",
+        "description": "Tau txais cov lus ceeb toom tseem ceeb los ntawm cov ntawv nyeem"
+      },
+      "optOut": {
+        "title": "Opt Tawm ntawm Cov Ntawv Qhia Xyaum",
+        "description": "Zais koj cov ntawv ceeb toom los ntawm tus tswv xyaum"
+      },
+      "actions": {
+        "title": "Cov Nyiaj Ua Haujlwm",
+        "downloadData": "Download Account Data",
+        "deleteAccount": "Rho tawm Account"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Rov Qab Mus Tsev",
+    "title": "Lub Chaw Txhawb Nqa",
+    "subtitle": "Tau txais kev pab nrog peb cov kev pabcuam kev txhim kho software",
+    "cards": {
+      "email": {
+        "title": "Kev them nyiaj yug Email",
+        "description": "Xa email rau peb rau txhua yam lus nug"
+      },
+      "project": {
+        "title": "Cov lus nug txog qhov project",
+        "description": "Sib tham txog koj qhov project xav tau",
+        "button": "Tiv tauj peb"
+      },
+      "resources": {
+        "title": "Cov peev txheej",
+        "description": "Cov peev txheej thev naus laus zis thiab cov lus qhia",
+        "button": "Saib Cov Khoom Siv"
+      }
+    },
+    "faqTitle": "Cov Lus Nquag Nug",
+    "faqDescription": "Cov lus teb ceev rau cov lus nug feem ntau",
+    "faqs": [
+      {
+        "question": "Cov kev pabcuam dab tsi Horizon Tech muab?",
+        "answer": "Peb muab kev cai software kev txhim kho, AI / ML kev daws teeb meem, huab architecture, DevOps, kev lag luam txawj ntse thiab IoT cov kev pabcuam."
+      },
+      {
+        "question": "Kuv yuav pib qhov project nrog Horizon Tech li cas?",
+        "answer": "Tiv tauj peb los ntawm daim foos lossis email nrog koj cov kev xav tau. Peb mam li teem sijhawm hu xov tooj tshawb pom thiab qhia ib qho kev pom zoo."
+      },
+      {
+        "question": "Koj puas muab kev txhawb nqa thiab kev saib xyuas tas mus li?",
+        "answer": "Yog lawm. Peb muab kev txhawb nqa thiab kev saib xyuas pob khoom uas suav nrog kev kho kab laum, hloov kho kev ruaj ntseg thiab kev txhim kho cov yam ntxwv."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Rov Qab Mus Tsev",
+    "title": "Cov Khoom Siv Txuj Ci",
+    "subtitle": "Cov lus qhia, kev qhia thiab cov kev coj ua zoo tshaj plaws los ntawm pab pawg Horizon Tech",
+    "hub": {
+      "title": "Kev Kawm Hub",
+      "description": "Tshawb nrhiav peb cov khoom siv thev naus laus zis curated thoob plaws huab, AI / ML, DevOps, thiab kev tsim kho software niaj hnub.",
+      "note": "Cov ntaub ntawv no yog raws li qhov kev paub txog qhov project tiag tiag thiab hloov kho tsis tu ncua."
+    },
+    "categories": [
+      {
+        "icon": "huab",
+        "title": "Huab Architecture",
+        "description": "Azure, AWS, thiab huab-haiv neeg qauv",
+        "resources": [
+          {
+            "title": "Azure Architecture Cov Kev Ua Zoo Tshaj Plaws",
+            "type": "Phau Ntawv Qhia"
+          },
+          {
+            "title": "Huab Cov Tswv Yim Tsiv teb tsaws chaw",
+            "type": "Tsab xov xwm"
+          }
+        ]
+      },
+      {
+        "icon": "hlwb",
+        "title": "AI & Tshuab Kev Kawm",
+        "description": "ML qauv, cov ntaub ntawv science, thiab AI kev koom ua ke",
+        "resources": [
+          {
+            "title": "Taw qhia rau Azure ML",
+            "type": "Kev qhia ntawv"
+          },
+          {
+            "title": "Lub Tsev Tsim ML Pipelines",
+            "type": "Phau Ntawv Qhia"
+          }
+        ]
+      },
+      {
+        "icon": "teeb tsa",
+        "title": "DevOps & Platform",
+        "description": "CI / CD, infrastructure raws li code, automation",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Kev qhia ntawv"
+          },
+          {
+            "title": "Infrastructure raws li Code nrog Terraform",
+            "type": "Phau Ntawv Qhia"
+          }
+        ]
+      },
+      {
+        "icon": "code",
+        "title": "Kev Txhim Kho Software",
+        "description": ".NET, React thiab kev txhim kho niaj hnub",
+        "resources": [
+          {
+            "title": "Huv Architecture hauv .NET",
+            "type": "Phau Ntawv Qhia"
+          },
+          {
+            "title": "React Cov Kev Coj Ua Zoo Tshaj Plaws",
+            "type": "Tsab xov xwm"
+          }
+        ]
+      },
+      {
+        "icon": "chaw khaws ntaub ntawv",
+        "title": "Cov Ntaub Ntawv & Analytics",
+        "description": "BI, cov ntaub ntawv khaws cia, thiab analytics platforms",
+        "resources": [
+          {
+            "title": "Lub Hwj Chim BI Dashboard Tsim",
+            "type": "Kev qhia ntawv"
+          },
+          {
+            "title": "Cov ntaub ntawv Warehouse Architecture",
+            "type": "Phau Ntawv Qhia"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Xav tau kev cob qhia kev cai?",
+      "description": "Peb muab cov kev cob qhia tailored rau engineering thiab cov khoom lag luam pab pawg",
+      "text": "Xav tau kev cob qhia pab pawg ntawm tes? Peb muab kev cob qhia kev cai ntawm huab architecture, DevOps, thiab kev xa khoom niaj hnub.",
+      "button": "Tiv tauj"
+    }
+  },
+  "unauthorized": {
+    "title": "Tsis Pub Nkag Mus",
+    "description": "Koj tsis muaj kev tso cai nkag mus rau nplooj ntawv no. Hu rau koj tus thawj tswj hwm yog tias koj xav tias qhov no yog qhov yuam kev.",
+    "primary": "Mus rau Profile",
+    "secondary": "Rov Qab Mus Tsev"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Ncej tsis pom",
+      "description": "Tsis muaj blog ncej muaj rau slug: {{slug}}",
+      "back": "Rov qab mus rau blog"
+    },
+    "back": "Rov qab mus rau blog",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Case study tsis pom",
+      "description": "Tsis muaj kev tshawb fawb rau id: {{id}}",
+      "back": "Rov qab mus rau cov ntaub ntawv tshawb fawb"
+    },
+    "back": "Rov qab mus rau cov ntaub ntawv tshawb fawb",
+    "sections": {
+      "executiveSummary": "Executive Summary",
+      "businessChallenge": "Kev Sib Tw Kev Lag Luam",
+      "technicalSolution": "Kev daws teeb meem",
+      "architectureDecisions": "Kev Txiav Txim Siab Architecture",
+      "technologyStack": "Technology Stack",
+      "resultsImpact": "Cov txiaj ntsig & Kev Cuam Tshuam"
+    },
+    "client": "Tus neeg siv khoom",
+    "keyOutcomes": "Cov txiaj ntsig tseem ceeb",
+    "decision": "Kev txiav txim siab {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Teeb liab ploj",
+      "title": "Nplooj Ntawv Tsis Pom",
+      "description": "Txoj kev uas koj tau thov tsis muaj los yog tau txav mus los. Cia peb tau txais koj rov qab mus rau qhov siv tau Horizon Tech qhov kawg.",
+      "requestedPath": "Thov txoj kev",
+      "terminal": {
+        "prompt": "$ horizon-router daws --txoj kev",
+        "line1": "Daws txoj kev graph... ua tsis tiav",
+        "line2": "Yog vim li cas: tsis muaj matching txoj kev module",
+        "line3": "Fallback raws tu qauv koom nrog",
+        "line4": "Siv ib qho ntawm cov kev luv luv hauv qab no los txuas ntxiv"
+      },
+      "links": {
+        "home": "Nplooj ntawv tsev",
+        "services": "Cov kev pab cuam",
+        "blog": "Blog",
+        "caseStudies": "Cov ntaub ntawv tshawb fawb"
+      }
+    },
+    "runtime": {
+      "badge": "Runtime yuam kev",
+      "title": "Ib yam dab tsi tawg ntawm nplooj ntawv no",
+      "description": "Ib qho teeb meem tsis tau npaj siab cuam tshuam kev ua haujlwm. Koj tuaj yeem rov sim dua kom nyab xeeb, lossis rov qab mus rau nplooj ntawv homepage.",
+      "retry": "Rov sim dua",
+      "home": "Rov qab mus rau Homepage",
+      "unknown": "Tsis paub runtime yuam kev"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Blog Management",
+      "subtitle": "Tsim, kho kom raug, thiab tswj koj cov ntawv blog",
+      "newPost": "Tshiab Ncej",
+      "seedData": "Cov Ntaub Ntawv Noob",
+      "allPosts": "Tag nrho cov posts",
+      "published": "Luam tawm",
+      "draft": "Draft",
+      "featured": "Featured",
+      "setFeatured": "Teeb Featured",
+      "removeFeatured": "Tshem tawm Featured",
+      "table": {
+        "title": "Npe",
+        "category": "Qeb",
+        "status": "Cov xwm txheej",
+        "date": "Hnub Tim",
+        "actions": "Kev Ua"
+      },
+      "empty": {
+        "message": "Tsis muaj blog posts tsis tau. Tsim koj thawj tus ncej lossis cov noob qauv cov ntaub ntawv.",
+        "seed": "Noob Qauv Cov Ntaub Ntawv",
+        "create": "Tsim Ncej"
+      },
+      "delete": {
+        "title": "Rho tawm Ncej",
+        "confirmation": "Koj puas paub tseeb tias koj xav rho tawm cov ncej no? Qhov kev ua no tsis tuaj yeem thim rov qab.",
+        "delete": "Rho tawm",
+        "cancel": "rho tawm"
+      }
+    },
+    "editor": {
+      "bannerHint": "Tso tawm raws li tus chij dav nyob rau sab saum toj ntawm tus ncej",
+      "bannerImage": "Chij Duab",
+      "coverHint": "Tso tawm hauv daim npav teev npe blog",
+      "coverImage": "Npog Duab",
+      "editSlug": "Kho kom raug slug",
+      "posts": "Cov ntawv tshaj tawm",
+      "publish": "Tshaj tawm",
+      "update": "Hloov tshiab",
+      "form": {
+        "contentPlaceholder": "Sau koj cov ntsiab lus tshaj tawm ntawm no...",
+        "excerptPlaceholder": "Cov ntsiab lus luv luv ntawm tus ncej...",
+        "pickDate": "Xaiv ib hnub",
+        "readTimePlaceholder": "e.g. 5 min nyeem",
+        "titlePlaceholder": "Ncej lub npe..."
+      },
+      "meta": {
+        "publisher": "Tus tshaj tawm",
+        "unknownAuthor": "Tus kws sau ntawv tsis paub"
+      },
+      "modes": {
+        "edit": "Kho kom raug",
+        "editOnly": "Kho kom raug xwb",
+        "preview": "Saib ua ntej",
+        "previewOnly": "Saib ua ntej xwb",
+        "sideBySide": "Ib sab",
+        "split": "phua"
+      },
+      "tags": {
+        "heading": "Cov cim npe",
+        "placeholder": "Ntxiv ib lub cim npe..."
+      },
+      "translations": {
+        "auto": "Nws pib",
+        "autoTranslate": "Nws pib txhais lus",
+        "clear": "ntshiab",
+        "existing": "uas twb muaj lawm",
+        "heading": "Kev txhais lus",
+        "language": "Hom Lus",
+        "languages": "Cov lus",
+        "edit": "Kho kom raug",
+        "manual": "Phau Ntawv Qhia Ntawv",
+        "preview": "Saib ua ntej",
+        "searchPlaceholder": "Tshawb cov lus ...",
+        "translate": "txhais lus"
+      }
+    },
+    "caseStudies": {
+      "title": "Cov ntaub ntawv tshawb fawb",
+      "subtitle": "Tswj cov ntaub ntawv tshawb fawb thiab qhov project showcases",
+      "newCaseStudy": "Tshiab Case Study",
+      "seedData": "Cov Ntaub Ntawv Noob",
+      "allCaseStudies": "Tag Nrho Cov Ntaub Ntawv Tshawb Fawb",
+      "published": "Luam tawm",
+      "draft": "Draft",
+      "table": {
+        "title": "Npe",
+        "industry": "Kev lag luam",
+        "client": "Tus neeg siv khoom",
+        "status": "Cov xwm txheej",
+        "actions": "Kev Ua"
+      },
+      "empty": {
+        "message": "Tsis muaj cov ntaub ntawv tshawb fawb tsis tau.",
+        "seed": "Cov Ntaub Ntawv Noob",
+        "create": "Tsim Ua Ntej"
+      },
+      "delete": {
+        "title": "Rho tawm Cov Ntaub Ntawv Tshawb Fawb",
+        "confirmation": "Koj puas paub tseeb tias koj xav rho tawm qhov kev tshawb fawb no? Qhov kev ua no tsis tuaj yeem thim rov qab.",
+        "delete": "Rho tawm",
+        "cancel": "rho tawm"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Cov ntaub ntawv tshawb fawb",
+      "published": "Luam tawm",
+      "draft": "Draft",
+      "update": "Hloov tshiab",
+      "create": "tsim",
+      "sections": {
+        "basicInfo": "Cov Lus Qhia Yooj Yim",
+        "narrative": "Piav qhia",
+        "architectureDecisions": "Kev Txiav Txim Siab Architecture",
+        "techStack": "Tech Stack",
+        "results": "Cov txiaj ntsig",
+        "tags": "Cov cim npe"
+      },
+      "fields": {
+        "title": "Npe",
+        "titlePlaceholder": "Case study title",
+        "slug": "slug",
+        "slugPlaceholder": "pib-generated-ntawm-title",
+        "client": "Tus neeg siv khoom",
+        "clientPlaceholder": "Tus neeg siv lub npe",
+        "industry": "Kev lag luam",
+        "industryPlaceholder": "Xaiv kev lag luam",
+        "description": "Kev piav qhia",
+        "descriptionPlaceholder": "Cov lus piav qhia luv luv (qhia rau ntawm daim npav)",
+        "executiveSummary": "Executive Summary",
+        "executiveSummaryPlaceholder": "Cov txheej txheem cej luam qib siab ntawm kev sib koom tes",
+        "challenge": "Kev sib tw",
+        "challengePlaceholder": "Tus neeg tau txais kev pab tau ntsib teeb meem dab tsi?",
+        "solution": "Kev daws teeb meem",
+        "solutionPlaceholder": "Yuav ua li cas thiaj kho tau qhov teeb meem?",
+        "decision": "Kev Txiav Txim Siab",
+        "decisionPlaceholder": "Dab tsi tau txiav txim siab",
+        "rationale": "Rationale",
+        "rationalePlaceholder": "Vim li cas txoj hauv kev no tau xaiv",
+        "metric": "Kev ntsuas",
+        "metricPlaceholder": "e.g. Kev Sib Haum Sij Hawm",
+        "value": "Tus nqi",
+        "valuePlaceholder": "piv txwv li -63% lossis 4.8h -> 11m",
+        "resultDescription": "Kev piav qhia",
+        "resultDescriptionPlaceholder": "Qhov tshwm sim no txhais li cas",
+        "techPlaceholder": "Ntxiv technology (nias Enter)",
+        "tagPlaceholder": "Ntxiv cim npe (nias Enter)"
+      },
+      "add": "ntxiv",
+      "noArchDecisions": "Tsis muaj kev txiav txim siab architecture ntxiv tsis tau.",
+      "noResults": "Tsis muaj txiaj ntsig ntxiv tsis tau.",
+      "decisionLabel": "Kev txiav txim siab {{number}}",
+      "resultLabel": "Qhov tshwm sim {{number}}",
+      "controls": {
+        "published": "Luam tawm",
+        "publishedDescription": "Ua kom qhov kev tshawb fawb no pom rau pej xeem",
+        "featured": "Featured",
+        "featuredDescription": "Qhia txog qhov kev tshawb fawb no"
+      }
+    },
+    "imageCrop": {
+      "apply": "thov",
+      "cancel": "rho tawm",
+      "cropTitle": "Qoob loo duab",
+      "dropText": "Poob ib daim duab ntawm no lossis nyem rau upload",
+      "flipHorizontal": "ntxeev kab rov tav",
+      "flipVertical": "ntxeev ntsug",
+      "replace": "hloov",
+      "reset": "Rov pib dua",
+      "rotateLeft": "Tig sab laug",
+      "rotateRight": "Tig sab xis",
+      "uploading": "Uploading...",
+      "toast": {
+        "invalidFile": "Cov ntaub ntawv tsis raug",
+        "invalidFileDesc": "Thov upload ib daim duab ntaub ntawv siv tau.",
+        "uploadFailed": "Upload ua tsis tiav",
+        "uploadFailedDesc": "Ib yam dab tsi mus tsis ncaj ncees lawm. Thov sim dua.",
+        "uploaded": "Duab uploaded",
+        "uploadedDesc": "Koj daim duab tau uploaded tau zoo."
+      }
+    }
+  }
+}

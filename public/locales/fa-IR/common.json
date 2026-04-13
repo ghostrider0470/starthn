@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "خانه",
+    "company": "شرکت",
+    "solutions": "راه حل ها",
+    "resources": "منابع",
+    "innovationLab": "آزمایشگاه نوآوری",
+    "contact": "تماس",
+    "about": {
+      "title": "درباره",
+      "description": "مأموریت، چشم انداز و داستان ما"
+    },
+    "team": {
+      "title": "تیم",
+      "description": "با افرادی که پشت هورایزن تک هستند آشنا شوید"
+    },
+    "careers": {
+      "title": "حرفه ها",
+      "description": "به تیم ما بپیوندید و آینده را بسازید"
+    },
+    "enterpriseSoftware": {
+      "title": "توسعه نرم افزار سازمانی",
+      "description": "برنامه های سازمانی سفارشی با چارچوب های مدرن"
+    },
+    "aiMl": {
+      "title": "هوش مصنوعی، یادگیری ماشین و هوش تجاری",
+      "description": "کامل کردن خطوط لوله هوش مصنوعی/یادگیری ماشین و داشبوردهای BI"
+    },
+    "cloudArchitecture": {
+      "title": "معماری و زیرساخت ابری",
+      "description": "راهکارهای چندابری و ارکستراسیون کانتینر"
+    },
+    "iot": {
+      "title": "اینترنت اشیاء و محاسبات لبه ای",
+      "description": "اکوسیستم های دستگاه متصل و دوقلوهای دیجیتال"
+    },
+    "devops": {
+      "title": "DevOps و مهندسی پلتفرم",
+      "description": "خطوط لوله CI/CD و زیرساخت به عنوان کد"
+    },
+    "digitalTransformation": {
+      "title": "تحول دیجیتال و استراتژی",
+      "description": "نقشه راه تحول سازمانی و مشاوره"
+    },
+    "caseStudies": {
+      "title": "مطالعات موردی",
+      "description": "داستان های موفقیت از مشتریان ما",
+      "featured": {
+        "title": "مطالعه موردی برجسته",
+        "description": "بررسی عمیق در یک همکاری کامل تحویل"
+      }
+    },
+    "blog": {
+      "title": "وبلاگ",
+      "description": "بینش ها، آموزش ها و روندهای صنعت",
+      "featured": {
+        "title": "پست ویژه وبلاگ",
+        "description": "یکی از جدیدترین بینش های مهندسی ما را بخوانید"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "بررسی اجمالی آزمایشگاه نوآوری",
+      "description": "مشاهده تمام حوزه های پژوهشی و مسیرهای تجربی"
+    },
+    "innovationLabAiSystems": {
+      "title": "سیستم های هوش مصنوعی کاربردی",
+      "description": "الگوهای معماری یادگیری ماشین آماده تولید"
+    },
+    "innovationLabNlp": {
+      "title": "پردازش زبان طبیعی چندزبانه",
+      "description": "قابلیت های پردازش زبان طبیعی تعاملی"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "شبیه سازی الگوریتم ژنتیک",
+      "description": "بهینه سازی تکاملی در محیط تعاملی"
+    },
+    "navigation": "ناوبری",
+    "skipToContent": "پرش به محتوا",
+    "toggleMenu": "منوی تغییر وضعیت",
+    "dashboard": "داشبورد",
+    "myWorkspace": "فضای کاری من",
+    "profile": "پروفایل",
+    "adminPanel": "پنل مدیریت",
+    "practiceManagement": "مدیریت مطب",
+    "logOut": "خروج از سیستم",
+    "education": {
+      "title": "منابع فنی",
+      "description": "راهنماها، آموزش ها و بهترین روش ها از تیم Horizon Tech"
+    },
+    "support": {
+      "title": "مرکز پشتیبانی",
+      "description": "برای خدمات توسعه نرم افزار ما کمک بگیرید"
+    }
+  },
+  "footer": {
+    "description": "استارتاپ توسعه نرم افزار مستقر در سارایوو، بوسنی. ما نرم افزارهای سفارشی، راه حل های هوش مصنوعی/یادگیری ماشین، معماری ابری و سیستم های اتوماسیون می سازیم.",
+    "features": "ویژگی ها",
+    "resources": "منابع",
+    "company": "شرکت",
+    "legal": "حقوقی",
+    "dashboard": "داشبورد",
+    "components": "اجزا",
+    "documentation": "مستندات",
+    "apiReference": "مرجع API",
+    "gettingStarted": "شروع کار",
+    "examples": "نمونه ها",
+    "community": "جامعه",
+    "blog": "وبلاگ",
+    "caseStudies": "مطالعات موردی",
+    "innovationLabOverview": "بررسی اجمالی آزمایشگاه نوآوری",
+    "appliedAiSystems": "سیستم های هوش مصنوعی کاربردی",
+    "nlpDemo": "پردازش زبان طبیعی چندزبانه",
+    "geneticAlgorithmSimulation": "شبیه سازی الگوریتم ژنتیک",
+    "featuredBlogPost": "پست ویژه وبلاگ",
+    "featuredCaseStudy": "مطالعه موردی برجسته",
+    "about": "درباره",
+    "contact": "تماس",
+    "partners": "شرکا",
+    "careers": "حرفه ها",
+    "privacyPolicy": "سیاست حفظ حریم خصوصی",
+    "termsOfService": "شرایط خدمات",
+    "cookiePolicy": "سیاست کوکی",
+    "license": "مجوز",
+    "copyright": "© {{year}} هورایزن تک. تمام حقوق محفوظ است.",
+    "subscribe": "در خبرنامه مشترک شوید"
+  },
+  "header": {
+    "badge": "راهکارهای فناوری سازمانی",
+    "titleLine1": "کسب وکار خود را متحول کنید با",
+    "titleLine2": "فناوری پیشرفته",
+    "description": "از توسعه نرم افزار سازمانی و هوش تجاری مبتنی بر هوش مصنوعی گرفته تا زیرساخت ابری و راهکارهای اینترنت اشیا — ما خدمات فناوری جامع ارائه می دهیم که نوآوری را پیش می برد و رشد را تسریع می کند.",
+    "getStarted": "شروع کنید",
+    "exploreSolutions": "بررسی راه حل ها",
+    "trustedBy": "مورد اعتماد شرکت های آینده نگر",
+    "microsoftPartner": "شریک مایکروسافت",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "راهکارهای سازمانی"
+  },
+  "mobileNav": {
+    "navigation": "ناوبری سیار",
+    "home": "خانه",
+    "solutions": "راه حل ها",
+    "caseStudies": "پرونده ها",
+    "aiSystems": "آزمایشگاه هوش مصنوعی",
+    "blog": "وبلاگ",
+    "resources": "منابع",
+    "contact": "تماس"
+  },
+  "sideNav": {
+    "scroll": "طومار",
+    "navigateTo": "به سمت {{section}}",
+    "sections": {
+      "home": "خانه",
+      "solutions": "راه حل ها",
+      "credibility": "اعتبار",
+      "partners": "شرکا",
+      "caseStudies": "مطالعات موردی",
+      "blog": "وبلاگ",
+      "innovationLab": "آزمایشگاه نوآوری",
+      "faq": "سوالات متداول"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "زبان سوئیچ",
+    "searchPlaceholder": "زبان جستجو...",
+    "noResults": "هیچ زبانی پیدا نشد."
+  },
+  "common": {
+    "menu": "منو",
+    "account": "حساب"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "مطالعات موردی اخیر",
+      "description": "تصویری از نتایج ارائه خدمات در برنامه های فین تک، بهداشت و درمان، لجستیک و بخش دولتی.",
+      "cta": "مشاهده همه مطالعات موردی"
+    },
+    "blog": {
+      "title": "جدیدترین مطالب وبلاگ ما",
+      "description": "یادداشت های عملی مهندسی از کارهای اخیر هوش مصنوعی، پلتفرم و ارائه خدمات ابری.",
+      "cta": "تمام مقالات را بخوانید"
+    },
+    "innovationLab": {
+      "title": "آزمایشگاه نوآوری",
+      "description": "نمونه های اولیه، آزمایش ها و پروژه های تحقیق و توسعه کاربردی تیم مهندسی Horizon Tech را بررسی کنید.",
+      "cta": "کاوش در آزمایشگاه نوآوری"
+    }
+  },
+  "caseStudyCard": {
+    "read": "مطالعه موردی را بخوانید",
+    "industries": {
+      "fintech": "فین تک",
+      "healthcare": "مراقبت های بهداشتی",
+      "logistics": "لجستیک",
+      "manufacturing": "تولید",
+      "government": "دولت"
+    }
+  },
+  "blogCard": {
+    "read": "بخوانید"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Sistemas de Engenharia que Escalam",
+    "subtitle": "Software Empresarial · IA & Aprendizado de Máquina · Infraestrutura em Nuvem · IoT & Edge",
+    "description": "Desde automação inteligente até plataformas nativas da nuvem, arquitetamos e entregamos a tecnologia que impulsiona negócios ambiciosos — no prazo, dentro do orçamento, em larga escala.",
+    "cta": {
+      "primary": "Comece um Projeto",
+      "secondary": "Veja Nosso Trabalho"
+    },
+    "trustLine": "Confiável por empresas ao redor do mundo"
+  },
+  "services": {
+    "subtitle": "Nossos Serviços",
+    "title": "Engenharia de Espectro Completo",
+    "description": "Seis áreas de atuação. Um time. Cada camada da sua pilha tecnológica — desde dispositivos de borda até dashboards corporativos.",
+    "commentMarker": "SERVIÇOS",
+    "items": {
+      "customSoftware": {
+        "title": "Desenvolvimento de Software Personalizado",
+        "description": "Aplicações modernas construídas com microsserviços, APIs e arquitetura nativa em nuvem."
+      },
+      "aiMl": {
+        "title": "IA, ML & Inteligência de Negócios",
+        "description": "Pipelines de IA/ML, dashboards Power BI e análises avançadas que transformam dados em decisões."
+      },
+      "cloud": {
+        "title": "Arquitetura e Infraestrutura em Nuvem",
+        "description": "Infraestrutura multi-nuvem com containers, serverless e escalabilidade global integrada."
+      },
+      "iot": {
+        "title": "IoT & Computação de Borda",
+        "description": "Dispositivos conectados, gêmeos digitais e computação de borda para a Indústria 4.0."
+      },
+      "devops": {
+        "title": "DevOps & Engenharia de Plataforma",
+        "description": "Pipelines CI/CD, infraestrutura como código e observabilidade desde commit até produção."
+      },
+      "digital": {
+        "title": "Transformação Digital e Consultoria",
+        "description": "Estratégia tecnológica, roteiros de modernização e consultoria prática."
+      }
+    },
+    "cta": {
+      "title": "Vamos construir algo sério",
+      "description": "Desde desenvolvimento de software personalizado e soluções baseadas em IA até infraestrutura em nuvem e automação — oferecemos serviços tecnológicos completos personalizados para suas necessidades.",
+      "primary": "Comece seu Projeto",
+      "secondary": "Consulta de Agendamento"
+    },
+    "learnMore": "Saiba mais"
+  },
+  "credibility": {
+    "subtitle": "Nosso Histórico",
+    "title": "Resultados, Não <gradient>Promessas</gradient>",
+    "titlePlain": "Resultados, Não Promessas",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "De Sarajevo a Oslo, Amsterdã e Berlim. Sistemas empresariais entregues no prazo, sempre.",
+    "stats": {
+      "experience": "Anos de Experiência Combinada",
+      "countries": "Países atendidos",
+      "systems": "Sistemas Entregues",
+      "industries": "Indústrias atendidas"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM para Atlas Copco",
+        "outcome": "Arquitetou a primeira infraestrutura One Identity baseada em nuvem para a Atlas Copco no Azure Kubernetes, reduzindo custos enquanto mantém a conformidade corporativa."
+      },
+      "orange": {
+        "label": "Plataforma Laranja de Defesa Cibernética",
+        "outcome": "Desenvolveu infraestrutura Azure Kubernetes, pipelines CI/CD e integração personalizada com ServiceNow para a principal empresa de cibersegurança da Europa."
+      },
+      "telecom": {
+        "label": "Plataforma SIG e AR de Telecomunicações",
+        "outcome": "Construiu uma plataforma GIS mapeando utilidades subterrâneas em toda a Alemanha com detecção de colisões prevenindo danos multimilionários à infraestrutura de euros."
+      },
+      "iot": {
+        "label": "Plataforma IoT e Edge em Nuvem",
+        "outcome": "Azure IoT Hub gerenciando milhares de dispositivos, Synapse processando bilhões de linhas de telemetria, com agregação de bordas reduzindo os custos de mensagens em ~90%."
+      },
+      "drone": {
+        "label": "Plataforma de Drones Autônomos",
+        "outcome": "Controlador de voo personalizado com ponte IoT Hub 4G-para-Azure, permitindo voos autônomos BVLOS para monitoramento agrícola e entrega de cargas úteis."
+      },
+      "payment": {
+        "label": "Resgate do Sistema de Pagamento",
+        "outcome": "Resgatou gateway de pagamento falhando para aplicativo móvel norueguês ao reverter a engenharia de código legado não documentado. Zero tempo de inatividade após a modernização."
+      },
+      "game": {
+        "label": "Ferramentas de Desenvolvimento de Jogos AAA",
+        "outcome": "Criei um plugin para Maya que reduziu o tempo de modelagem 3D e animação em 50% em um grande estúdio AAA, adotado como ferramenta padrão no pipeline de produção."
+      },
+      "social": {
+        "label": "Plataforma Social Baseada em Localização",
+        "outcome": "Arquitetou um aplicativo de namoro para a vida noturna da Espanha com correspondência de geolocalização, mensagens em tempo real e notificações push para um cliente do Reino Unido."
+      },
+      "iga": {
+        "label": "Plataforma IGA Multi-Inquilino",
+        "outcome": "Construí o backend central para uma plataforma nativa de governança de identidade em nuvem, atendendo clientes da Fortune 500 com ASP.NET Core Identity personalizada para NoSQL em escala empresarial."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "Entrega Global Adjacente à UE",
+        "description": "Horário de trabalho da CET, com experiência abrangendo Noruega, Holanda, Alemanha e além."
+      },
+      "yourEngineers": {
+        "title": "Seus engenheiros, não um fornecedor",
+        "description": "Membros dedicados da equipe incorporados ao seu fluxo de trabalho e ferramentas. Sem gerentes de conta, sem filas de tickets."
+      },
+      "hardwareToCloud": {
+        "title": "De Hardware para Nuvem",
+        "description": "Do firmware de dispositivos embarcados para pipelines corporativos Azure Synapse. Software full-stack em todas as camadas."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Pilha de Tecnologia",
+    "title": "<gradient>Stack</gradient> Testado em Batalha",
+    "titlePlain": "Stack Testado em Batalha",
+    "commentMarker": "TECH_STACK",
+    "description": "Não usamos apenas essas ferramentas — já entregamos sistemas de produção com elas. Do Microsoft Azure ao Kubernetes, nossos engenheiros possuem expertise no mundo real.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Nuvem e Infraestrutura",
+        "description": "Arquitetura multi-nuvem com orquestração de contêineres e infraestrutura como código."
+      },
+      "frontend": {
+        "label": "Frontend",
+        "description": "Frameworks modernos de componentes com segurança de tipos e ferramentas otimizadas para construção."
+      },
+      "backend": {
+        "label": "Backend & APIs",
+        "description": "Plataformas de servidor de nível empresarial, linguagens de sistema e paradigmas modernos de APIs."
+      },
+      "data": {
+        "label": "Dados & Armazenamento",
+        "description": "Armazenamentos relacionais, de documentos e na memória com busca em texto completo."
+      },
+      "devops": {
+        "label": "DevOps & Ferramentas",
+        "description": "Pipelines de CI/CD, controle de versões e produtividade do desenvolvedor."
+      }
+    },
+    "scanning": "VARRER FREQUÊNCIAS...",
+    "summary": {
+      "cloudNative": {
+        "title": "Cloud-Native por Padrão",
+        "description": "Todo projeto é conteinerizado, dirigido por CI/CD e construído para escala horizontal desde o primeiro dia."
+      },
+      "fullStack": {
+        "title": "Fluência em Full-Stack",
+        "description": "De frontends React a microserviços .NET e clusters Kubernetes — uma equipe, de ponta a ponta."
+      },
+      "productionProven": {
+        "title": "Comprovada em produção",
+        "description": "Essas não são tecnologias de demonstração. Cada ferramenta listada alimenta sistemas reais que atendem usuários reais hoje."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Logos de tecnologia fila 1",
+      "row2Aria": "Logos de tecnologia linha 2",
+      "row3Aria": "Logos de tecnologia linha 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Base de Conhecimento",
+    "title": "<gradient>Perguntas</gradient> Frequentes",
+    "titlePlain": "Perguntas Frequentes",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Tudo o que você precisa saber sobre trabalhar com a Horizon Tech",
+    "items": {
+      "scope": {
+        "question": "Qual é o seu escopo de trabalho?",
+        "answer": "Entregamos projetos tecnológicos completos: software empresarial personalizado, pipelines de IA/ML, infraestrutura em nuvem, sistemas IoT, automação DevOps e consultoria em transformação digital. Seja você uma plataforma completa construída do zero ou uma integração direcionada com sua stack existente, cuidamos da arquitetura, desenvolvimento, testes e implantação."
+      },
+      "stack": {
+        "question": "Qual é a sua pilha principal de tecnologia?",
+        "answer": "Nossa pilha central é baseada em plataformas de nível empresarial: Azure e AWS para nuvem, .NET e Node.js para backend, React e Angular para frontend, Kubernetes e Docker para orquestração, e Terraform para infraestrutura como código. Também trabalhamos extensivamente com Python para cargas de trabalho de IA/ML, Power BI e Fabric para business intelligence, e PostgreSQL, SQL Server e MongoDB para dados."
+      },
+      "enterprise": {
+        "question": "Como vocês lidam com projetos corporativos?",
+        "answer": "Cada engajamento começa com uma fase de descoberta para definir escopo, arquitetura e marcos. Você tem uma equipe dedicada com um líder técnico, revisões regulares de marcos e acesso direto aos engenheiros que estão construindo seu sistema. Acompanhamos sprints ágeis com demonstrações de stakeholders, mantemos quadros de projetos transparentes e fornecemos relatórios semanais de progresso."
+      },
+      "support": {
+        "question": "Como é o suporte pós-lançamento?",
+        "answer": "Oferecemos níveis de suporte estruturados com SLAs definidos, incluindo monitoramento 24/7, resposta a incidentes, otimização de desempenho e iteração de recursos. Nossos acordos de suporte abrangem correções de bugs, patches de segurança, escalonamento de infraestrutura e checagens proativas de saúde — adaptados às suas necessidades de tempo de atividade e resposta."
+      },
+      "integration": {
+        "question": "Você consegue integrar com nossa infraestrutura existente?",
+        "answer": "Com certeza. Somos especializados em modernização legada, integrações API-first e migrações para nuvem híbrida. Seja para conectar a sistemas ERP on-premise, migrar de monólitos para microserviços ou conectar bancos de dados legados com frontends modernos, temos os playbooks de migração e a experiência de integração para tornar tudo fluido."
+      },
+      "industries": {
+        "question": "Em quais setores você já trabalhou?",
+        "answer": "Nossa equipe já entregou projetos nos setores fintech, saúde, logística, comércio eletrônico, energia e governo. Entendemos requisitos específicos do setor, como PCI-DSS para pagamentos, considerações HIPAA para dados de saúde, conformidade com GDPR para mercados da UE e telemetria em tempo real para IoT industrial."
+      },
+      "engagement": {
+        "question": "Como é o processo de engajamento?",
+        "answer": "Tudo começa com uma chamada de descoberta para entender seus objetivos e o panorama técnico. A partir daí, entregamos um documento de escopo com recomendações de arquitetura, cronograma e distribuição de investimentos. Uma vez aprovado, começamos com uma equipe dedicada, integramos suas ferramentas e fluxos de trabalho, e iniciamos o primeiro sprint em poucos dias."
+      }
+    },
+    "stillHaveQuestions": "Ainda tem dúvidas?",
+    "ctaDescription": "Tem algum projeto em mente? Vamos falar sobre escopo, cronograma e orçamento.",
+    "readCaseStudies": "Leia nossos estudos de caso",
+    "scheduleCall": "Agende uma Chamada"
+  }
+}

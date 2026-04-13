@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Innovatielab",
+    "description": "Ontdek interactieve demo's, experimenten en technische presentaties van ons engineeringteam.",
+    "primary": "Ontdek demo's",
+    "secondary": "Bekijk onderzoek"
+  },
+  "overview": {
+    "hero": {
+      "title": "Innovatielab",
+      "description": "We verkennen praktische grenzen in AI, automatisering en gedistribueerde systemen, en vertalen vervolgens gevalideerd onderzoek naar betrouwbare productiemogelijkheden.",
+      "primary": "Verken onderzoeksgebieden",
+      "secondary": "Bespreek een samenwerking"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Onderzoeksgebieden",
+        "description": "Elk focusgebied combineert verkennend onderzoek met implementatietrajecten die zijn ontworpen voor systemen in de echte wereld.",
+        "cardCta": "Verken focus"
+      },
+      "detailedFocusBriefs": {
+        "title": "Gedetailleerde focusbriefs",
+        "description": "Onderzoeksinitiatieven op korte termijn verschuiven momenteel van architectuurvalidatie naar leveringsplannen."
+      },
+      "fromLabToProduction": {
+        "title": "Van laboratorium naar productie",
+        "description": "Innovatie bij Horizon wordt gemeten aan de hand van geleverde resultaten, niet aan de hand van geïsoleerde prototypes."
+      },
+      "roadmap": {
+        "title": "R&D-roadmap",
+        "description": "Een gefaseerde ontwikkeling van capaciteitsopbouw naar adaptieve, continu verbeterende systemen."
+      },
+      "publications": {
+        "title": "Publicaties & Inzichten",
+        "description": "Technisch schrijven en implementatienotities van lopend innovatiewerk."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Toegepaste AI-systemen",
+        "description": "Productiegerichte AI-architecturen die modelservering, feature-orkestratie en gecontroleerde experimenten omvatten."
+      },
+      "automationFrameworks": {
+        "title": "Automatiseringskaders",
+        "description": "Interne automatiseringstools voor implementatieveiligheid, incidentrespons en herhaalbare engineeringworkflows."
+      },
+      "advancedArchitecture": {
+        "title": "Geavanceerde architectuurexperimentatie",
+        "description": "Onderzoek naar veerkrachtige, gedistribueerde architecturen die geoptimaliseerd zijn voor prestaties, fouttolerantie en schaalbaarheid."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligentie",
+        "description": "Intelligentie aan de rand voor besluitvorming met lage latentie, telemetrieverwerking en coördinatie van apparaatvloot."
+      },
+      "nlp": {
+        "title": "Natuurlijke taalverwerking",
+        "description": "Meertalige begripspijplijnen voor classificatie, extractie, vertaling en conversatiesystemen."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Evolutionaire algoritmen & optimalisatie",
+        "description": "Zoek- en optimalisatiesystemen geïnspireerd door natuurlijke selectie om uitdagingen in hoogdimensionale engineering op te lossen."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Automatiseringskaders",
+        "description": "We bouwen composable workflow-frameworks voor release-orkestratie, kwaliteitspoorten en verificatie na de implementatie om handmatige wrijving te verminderen en tegelijkertijd de betrouwbaarheid te verbeteren."
+      },
+      "advancedArchitecture": {
+        "title": "Geavanceerde architectuurexperimentatie",
+        "description": "Onze architectuurexperimenten richten zich op servicedecompositiestrategieën, cross-region veerkrachtpatronen en prestatiegrenzen voor systemen die onder volatiele vraag opereren."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligentie",
+        "description": "We valideren event-streaming en edge inference ontwerpen die snellere lokale beslissingen mogelijk maken, terwijl gecentraliseerde controle, auditeerbaarheid en modellevenscyclusgovernance behouden blijven."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Adaptieve Capaciteitsplanning",
+        "description": "Labprototypes worden gevalideerd aan de hand van gesimuleerde workloads en vervolgens geïntegreerd in platformautoscalingstrategieën."
+      },
+      "operationalIntelligence": {
+        "title": "Operationele Inlichtingen",
+        "description": "NLP-pijplijnen gaan van gecontroleerde experimenten naar productieondersteuningsworkflows voor snellere triage en duidelijkere inzichten."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Optimalisatie in leveringssystemen",
+        "description": "Evolutionaire methoden die in het lab worden getest, worden vertaald naar optimalisatie-engines voor planning en allocatie."
+      },
+      "edgeDecisioning": {
+        "title": "Edge Decisioning",
+        "description": "IoT- en edge inference-experimenten zijn versterkt tot diensten met lage latentie en strikte betrouwbaarheidsbeperkingen."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Nu",
+        "title": "Toegepaste AI-grondslagen",
+        "description": "Breid herbruikbare model-serving templates, evaluatiesuites en observabiliteitsstandaarden uit binnen productteams."
+      },
+      "next": {
+        "phase": "Volgende",
+        "title": "Autonome engineeringworkflows",
+        "description": "Operationaliseren automatiseringskaders die het implementatierisico verminderen en feedbackloops voor verzending verkorten."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 maanden",
+        "title": "Edge-Native Intelligentie",
+        "description": "Schaal hybride cloud-edge-architecturen op voor bijna realtime inferentie in latentiegevoelige omgevingen."
+      },
+      "longHorizon": {
+        "phase": "Lange Horizon.",
+        "title": "Continue optimalisatiesystemen",
+        "description": "Verenig experimenten, monitoring en optimalisatie zodat systemen zich veilig kunnen aanpassen naarmate de contexten veranderen."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "AI-systemen ontwikkelen die betrouwbaar blijven in productie",
+        "summary": "Een praktisch perspectief op het balanceren van experimentatiesnelheid met productiebestuur.",
+        "cta": "Lees inzichten"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Gedistribueerde architectuurpatronen voor snelgroeiende platforms",
+        "summary": "Veldnotities van architectuurproeven richtten zich op prestaties, veerkracht en operationele eenvoud.",
+        "cta": "Bekijk casestudy's"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapmapping Toegepast R&D voor bedrijfsresultaten",
+        "summary": "Hoe we innovatie-initiatieven structureren zodat ontdekkingen van prototype naar meetbare waarde gaan.",
+        "cta": "Ontdek publicaties"
+      }
+    },
+    "cta": {
+      "title": "Bouw met Horizon Innovation Lab",
+      "description": "Werk met ons samen om ambitieuze ideeën snel te valideren en bewezen concepten om te zetten in veilige, schaalbare productiesystemen.",
+      "primary": "Begin een gesprek",
+      "secondary": "Bekijk leveringsresultaten"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Toegepaste AI-systemen",
+      "description": "Een praktisch overzicht van hoe Horizon machine learning-systemen ontwerpt, inzet en bedient van prototype tot productie.",
+      "back": "Terug naar het Innovatielab",
+      "tags": {
+        "appliedAi": "Toegepaste AI",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Machine Learning Pijplijnen",
+        "description": "Productie-AI begint met reproduceerbare pijplijnen die data, experimenten, validatie en feedback verbinden."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Modelimplementatiepatronen",
+        "description": "De implementatiestrategie wordt geselecteerd op basis van latentievereisten, zakelijke kritischheid en operationele complexiteit."
+      },
+      "mlopsOperatingModel": {
+        "title": "MLOps Operating Model",
+        "description": "MLOps-praktijken zorgen ervoor dat AI-systemen betrouwbaar, bestuurbaar en schaalbaar blijven naarmate het gebruik groeit."
+      },
+      "monitoringAndReliability": {
+        "title": "Bewaking en betrouwbaarheid",
+        "description": "Observabiliteit sluit de lus tussen modelgedrag en operationele uitkomsten."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Data- en Feature-engineering",
+        "description": "Versiegevatte data-opname, kwaliteitscontroles en herbruikbare feature-definities vormen een betrouwbare basis voor modeltraining."
+      },
+      "modelDevelopment": {
+        "title": "Modelontwikkeling",
+        "description": "Experimenten worden gevolgd met reproduceerbare configuraties, objectieve metrieken en geautomatiseerde vergelijkingsbaselines."
+      },
+      "validationAndSafetyGates": {
+        "title": "Validatie- en veiligheidspoorten",
+        "description": "Kandidaatmodellen slagen voor prestatie-, robuustheids- en beleidscontroles voordat ze worden goedgekeurd voor vrijgave."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Operationele terugkoppelingslussen",
+        "description": "Telemetrie na de uitrol geeft informatie over hertrainingsprioriteiten, beslissingen over het terugrollen en planning van de volgende iteratie."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Real-time inferentiediensten",
+        "description": "API's met lage latentie voor interactieve applicaties met autoscaling, caching en request-level observability."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Batch- en streamingvoorspellingen",
+        "description": "Geplande en gebeurtenisgestuurde pijplijnen voor hoogvolumescoring over analytics en operationele workflows."
+      },
+      "edgeAwareDeployment": {
+        "title": "Edge-bewuste implementatie",
+        "description": "Hybride cloud-edge serving patronen voor omgevingen die lokale inferentie en gecentraliseerd modelbestuur vereisen."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI/CD voor modellen",
+        "description": "Geautomatiseerde bouw-, test- en releaseworkflows verminderen het implementatierisico terwijl de leveringssnelheid behouden blijft."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Modelregister en levenscyclus",
+        "description": "Geversiegeveerde modelartefacten met promotiefasen, afstamming en goedkeuringsworkflows verbeteren controle en traceerbaarheid."
+      },
+      "servingInfrastructure": {
+        "title": "Infrastructuur bedienen",
+        "description": "Schaalbare serveringslagen met uitrolstrategieën zoals canary- en shadow-implementaties ondersteunen veilig verandermanagement."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Voorspellingskwaliteit en driftdetectie",
+      "latencyThroughputAndCostEfficiencyTracking": "Tracking van latentie, doorvoer en kostenefficiëntie",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Waarschuwingen voor gegevenskwaliteitsregressie en herstelworkflows",
+      "auditabilityForComplianceAndIncidentAnalysis": "Auditeerbaarheid voor compliance en incidentanalyse"
+    },
+    "cta": {
+      "title": "Schaal toegepaste AI met vertrouwen op",
+      "description": "Als u AI-initiatieven plant die meetbare resultaten en langetermijnonderhoudbaarheid vereisen, kan Horizon helpen bij het ontwerpen en operationaliseren van de volledige systeemlevenscyclus.",
+      "primary": "Praat met ons team",
+      "secondary": "Ontdek meer laboratoriumwerk"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "Meertalige NLP",
+      "description": "Verken praktische mogelijkheden voor natuurlijke taalverwerking en hoe deze opschalen tot betrouwbare, meertalige productiesystemen.",
+      "back": "Terug naar het Innovatielab",
+      "tags": {
+        "demo": "Interactieve demo",
+        "intelligence": "Taalintelligentie"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "NLP-stichtingen",
+        "description": "Natuurlijke taalverwerking combineert taalkundige signalen en machine learning om betekenis, intentie en structuur uit tekst te halen."
+      },
+      "workbench": {
+        "title": "Interactieve NLP-werkbank",
+        "description": "Gebruik de demo om taaldetectie, sentiment scoring, entiteitsextractie en vertaalgedrag in realtime te testen."
+      },
+      "productionApplications": {
+        "title": "Hoe Horizon NLP toepast in productie",
+        "description": "NLP-mogelijkheden zijn geïntegreerd in bedrijfsworkflows met prestatierichtlijnen en duidelijke kwaliteitsindicatoren."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Betrouwbaarheids- en governanceprincipes",
+        "description": "Productie-NLP vereist meer dan alleen modelkwaliteit; Het hangt af van veilige uitrolpraktijken en voortdurende verificatie."
+      }
+    },
+    "foundations": {
+      "intro1": "Moderne NLP-systemen ondersteunen automatisering, zoekrelevantie, kennisextractie en meertalige samenwerking. Effectieve implementatie vereist zowel modelkwaliteit als sterke operationele controles.",
+      "intro2": "Bij Horizon richten we ons op end-to-end NLP-systemen die robuuste inferentie combineren met observabiliteit, governance en meetbare productie-impact."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Taaldetectie",
+        "description": "Identificeert taal van korte of lange tekstsegmenten om verzoeken naar de juiste verwerkingspijplijn te routeren."
+      },
+      "sentimentAnalysis": {
+        "title": "Sentimentanalyse",
+        "description": "Extraheren emotionele intentie en polariteit voor klantintelligentie, supporttriage en productfeedbackloops."
+      },
+      "entityExtraction": {
+        "title": "Entiteitsextractie",
+        "description": "Detecteert gestructureerde entiteiten zoals namen, bedrijven, locaties en data uit ongestructureerde tekst."
+      },
+      "translation": {
+        "title": "Vertaling",
+        "description": "Ondersteunt meertalige workflows door door gebruikers gegenereerde of operationele tekst te vertalen terwijl de context behouden blijft."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Support en ticketintelligentie",
+        "description": "Classificeer binnenkomende verzoeken op urgentie, intentie en sentiment om de routing en responskwaliteit te versnellen."
+      },
+      "governedContentOperations": {
+        "title": "Bestuurde inhoudsoperaties",
+        "description": "Pas beleidbewuste taalfilters en moderatiecontroles toe met meetbare precisie en terugroepdoelen."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Tekstgestuurde bedrijfsinzichten",
+        "description": "Verzamel trends uit documenten, beoordelingen en communicatie om strategische en operationele beslissingen te informeren."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Evaluatie per gebruiksgeval",
+        "description": "Modellen worden vergeleken met domeinspecifieke datasets voordat er beslissingen over de release worden genomen."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Mens-in-de-lus waarborgen",
+        "description": "Voorspellingen met hoge impact omvatten beoordelingspaden, escalatieregels en transparante vertrouwenssignalen."
+      },
+      "continuousMonitoring": {
+        "title": "Continue monitoring",
+        "description": "Drift, latentie en kwaliteitsdegradatie worden continu gevolgd, dus hertraining en rollback zijn proactief."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Genetische algoritme-simulatie",
+      "description": "Verken evolutionaire berekening in een interactieve omgeving en zie hoe dezelfde principes zich vertalen naar productieoptimalisatiesystemen.",
+      "back": "Terug naar het Innovatielab",
+      "tags": {
+        "demo": "Interactieve demo",
+        "optimizationScience": "Optimalisatiewetenschap"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Wetenschappelijke Stichting",
+        "description": "Genetische algoritmen zijn populatiegebaseerde optimalisatiemethoden die geïnspireerd zijn op natuurlijke selectie en aanpassing."
+      },
+      "interactiveEnvironment": {
+        "title": "Interactieve evolutieomgeving",
+        "description": "Voer de simulatie uit om te zien hoe de fitheid generatie voor generatie verbetert en observeer hoe selectiedruk de uitkomsten beïnvloedt."
+      },
+      "productionUse": {
+        "title": "Hoe Horizon dit gebruikt in productie",
+        "description": "Dezelfde zoekmechanieken die in deze demo worden gebruikt, informeren optimalisatiepijplijnen die in operationele systemen worden ingezet."
+      },
+      "applicationDomains": {
+        "title": "Bredere toepassingsdomeinen",
+        "description": "Evolutionaire optimalisatie is vooral waardevol in systemen met dynamische doelstellingen en conflicterende beperkingen."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "In plaats van telkens naar één oplossing te zoeken, ontwikkelen genetische algoritmen een diverse populatie van kandidaten. Elke generatie wordt geëvalueerd aan de hand van een fitnessfunctie en verfijnd door selectie, crossover en mutatie.",
+      "intro2": "Dit maakt ze effectief voor hoogdimensionale problemen met niet-lineaire beperkingen, waarbij deterministische benaderingen broos of rekenkundig kostbaar worden."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Selectie",
+        "description": "Hoogpresterende kandidaten hebben meer kans om te overleven en invloed uit te oefenen op de volgende generatie."
+      },
+      "crossover": {
+        "title": "Crossover",
+        "description": "Sterke eigenschappen worden opnieuw gecombineerd om nieuwe kandidaatoplossingen met gemengde sterke punten te creëren."
+      },
+      "mutation": {
+        "title": "Mutatie",
+        "description": "Gecontroleerde willekeurigheid introduceert diversiteit zodat zoeken niet vastloopt rond lokale optima."
+      },
+      "convergence": {
+        "title": "Convergentie",
+        "description": "Over vele generaties neigen populaties naar stabiele, hoogwaardige oplossingen."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Resource Scheduling",
+        "description": "We gebruiken evolutionaire strategieën om multi-constraint scheduling te optimaliseren waar brute-force search niet haalbaar is."
+      },
+      "architectureTuning": {
+        "title": "Architectuurafstemming",
+        "description": "Kandidaat-infrastructuurconfiguraties worden iteratief geëvalueerd om prestaties en kostenefficiëntie te verbeteren."
+      },
+      "continuousOptimization": {
+        "title": "Continue optimalisatie",
+        "description": "Optimalisatieopdrachten draaien in gecontroleerde lussen met telemetriefeedback, zodat systemen zich aanpassen naarmate de vraagprofielen veranderen."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Route- en logistieke planning",
+        "description": "Complexe levering en dispatchplanning profiteren van evolutionaire zoektocht wanneer beperkingen snel veranderen."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Model- en hyperparameterzoektocht",
+        "description": "Genetische zoekopdrachten kunnen hoogwaardige modelconfiguraties ontdekken wanneer objectieve oppervlakken ruiserig en niet-lineair zijn."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Portefeuille- en allocatieproblemen",
+        "description": "Optimalisatie onder concurrerende doelstellingen kan worden gezien als fitnessafwegingen over evoluerende kandidatensets."
+      }
+    }
+  }
+}

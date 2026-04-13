@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Kòmanse",
+    "ctaSecondary": "Orè konsiltasyon"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Enterprise Software Devlopman",
+      "description": "Fen-a-fen aplikasyon antrepriz ak kadr modèn, API-premye achitekti, ak évolutivité nwaj-natif natal."
+    },
+    "sections": {
+      "problem": {
+        "title": "Biznis Pwoblèm ankadreman",
+        "subtitle": "Kote pwogram antrepriz pèdi vitès, bidjè, ak aliyman estratejik"
+      },
+      "approach": {
+        "title": "Apwòch Jeni",
+        "subtitle": "Ki jan nou vire kondisyon anbigyon nan platfòm pwodiksyon pare"
+      },
+      "principles": {
+        "title": "Achitekti Prensip",
+        "subtitle": "Konsepsyon desizyon ki kenbe antrepriz-sistèm antretyen nan echèl"
+      },
+      "capabilities": {
+        "title": "Ki sa nou bati",
+        "subtitle": "Kapasite devlopman lojisyèl konplè"
+      },
+      "technology": {
+        "title": "Stack Teknoloji nou an",
+        "subtitle": "Modèn, teknoloji pwouve pou livrezon antrepriz"
+      },
+      "breakdown": {
+        "title": "Pann sèvis yo",
+        "subtitle": "Yon chemen estriktire soti nan dekouvèt nan livrezon pwodiksyon ki estab"
+      }
+    },
+    "problem": {
+      "overview": "Ekip antrepriz souvan pote workflows kritik sou sistèm fragman, kreye tan plon long, done enkonsistan, ak chè kowòdinasyon manyèl ant depatman yo.",
+      "painPointsTitle": "Doulè biznis renouvlab",
+      "impactSignalsTitle": "Ki sa lidè yo anjeneral obsève",
+      "painPoints": [
+        "Angajman livrezon glise paske depandans atravè ekip yo pa jere",
+        "Se lojik biznis debaz yo double atravè chanèl ak pwodwi yo",
+        "Entegrasyon eritaj fè nouvo karakteristik lanse gwo risk ak ralanti"
+      ],
+      "impactSignals": [
+        "Roadmap debi gout pandan y ap depans jeni ogmante",
+        "Kliyan fè fas a domaj ogmante pandan peryòd lage",
+        "Desizyon pran ralanti akòz rapò operasyon enkonsistan"
+      ]
+    },
+    "approach": {
+      "overview": "Nou egzekite ak achitekti-premye dekouvèt, kontra-kondwi livrezon, ak kontwole jeni lage pou valè biznis anbake nan ogmantasyon previzib.",
+      "pillars": [
+        {
+          "title": "Domèn Modeling & kontèks limite",
+          "detail": "Nou kat domèn yo klè limit sèvis yo diminye kouple kwa-ekip ak klarifye pwopriyetè a."
+        },
+        {
+          "title": "API-Premye Entegrasyon Estrateji",
+          "detail": "Nou defini kontra ki estab bonè, ki pèmèt devlopman paralèl ak entegrasyon pi an sekirite ak sistèm antrepriz."
+        },
+        {
+          "title": "Pwogresis Livrezon Workflow",
+          "detail": "Nou itilize drapo karakteristik, sèn nan sèn ak pòtay bon jan kalite lage byen vit san yo pa destabilize pwodiksyon an."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Desizyon achitekti nou yo priyorite lonjevite, operabilite, ak pwopriyetè klè pou tribin rete adaptab kòm dimansyon biznis ap grandi.",
+      "items": [
+        {
+          "title": "Limit sèvis modilè",
+          "detail": "Kapasite yo pake alantou domèn biznis kenbe enpak chanjman lokalize"
+        },
+        {
+          "title": "Entegrasyon Evènman Kondwi",
+          "detail": "Workflows asenkron yo itilize kote tolerans latansi egziste pou amelyore rezistans ak dekouple sistèm yo."
+        },
+        {
+          "title": "Obsèvabilite pa Design",
+          "detail": "Tras, metrik, ak mòso bwa estriktire yo defini davans pou sipòte operasyon serye ak gouvènman SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Custom Web Aplikasyon",
+      "Devlopman mobil App",
+      "API Devlopman & Entegrasyon",
+      "Microservices Achitekti",
+      "Cloud-natif natal solisyon",
+      "Modènizasyon Sistèm Legacy"
+    ],
+    "technologies": [
+      {
+        "name": "Reyaji",
+        "category": "Frontend",
+        "icon": "reyaji"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Piton",
+        "category": "Backend",
+        "icon": "Piton"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Lang",
+        "icon": "Typescript"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "Graphql"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Baz done",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Baz done",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Dekouvèt & Achitekti",
+        "summary": "Nou kat priyorite biznis, kontrent teknik ak achitekti sib anvan aplikasyon an kòmanse.",
+        "deliverables": [
+          "Pwodwi ak kondisyon aliyman atelye",
+          "Achitekti solisyon blueprint",
+          "Plan livrezon ki baze sou etap enpòtan"
+        ]
+      },
+      {
+        "title": "Bati & Entegrasyon",
+        "summary": "Ekip nou yo aplike karakteristik debaz yo, kouch entegrasyon, ak bon jan kalite pwoteje nan paralèl.",
+        "deliverables": [
+          "Devlopman karakteristik nan sprints iteratif",
+          "API ak entegrasyon twazyèm pati",
+          "Tès otomatik ak chèk preparasyon lage"
+        ]
+      },
+      {
+        "title": "Lanse & Evolisyon",
+        "summary": "Apre ale viv, nou estabilize operasyon yo epi defini sik la pwochen amelyorasyon ki baze sou itilizasyon reyèl.",
+        "deliverables": [
+          "Pwodiksyon rollout runbook",
+          "Pèfòmans ak fyab akor",
+          "Post lansman kat wout ak backlog amelyorasyon"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Pare Pou Bati Pwochen Aplikasyon Ou a?",
+      "description": "Ann desine ak bato yon solisyon ki kondwi rezilta biznis mezirab.",
+      "button": "Kòmanse Pwojè ou"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML & entèlijans biznis",
+      "description": "Soti nan modèl prediksyon nan tablodbò egzekitif, nou bati konplè sistèm AI / BI ki sipòte desizyon nan echèl."
+    },
+    "sections": {
+      "problem": {
+        "title": "Biznis Pwoblèm ankadreman",
+        "subtitle": "Poukisa òganizasyon ki rich nan done toujou gen difikilte pou pran desizyon konfyans"
+      },
+      "approach": {
+        "title": "Apwòch Jeni",
+        "subtitle": "Ki jan nou operasyonèl pwodwi done, modèl ML, ak workflows BI"
+      },
+      "principles": {
+        "title": "Achitekti Prensip",
+        "subtitle": "Done ak modèl modèl achitekti pou entèlijans desizyon konfyans"
+      },
+      "capabilities": {
+        "title": "Kapasite nou yo",
+        "subtitle": "Solisyon konplè AI, ML ak BI"
+      },
+      "technology": {
+        "title": "Stack Teknoloji nou an",
+        "subtitle": "Endistri-dirijan zouti pou done ak AI"
+      },
+      "breakdown": {
+        "title": "Pann sèvis yo",
+        "subtitle": "Ki jan nou deplase soti nan done fragman nan entèlijans klas pwodiksyon"
+      }
+    },
+    "problem": {
+      "overview": "Òganizasyon yo souvan kolekte gwo kantite done, men yo pa tradwi li nan prévisions serye, desizyon operasyonèl, oswa aksyon biznis mezirab.",
+      "painPointsTitle": "Doulè biznis renouvlab",
+      "impactSignalsTitle": "Ki sa lidè yo anjeneral obsève",
+      "painPoints": [
+        "Lojik rapò diferan nan chak ekip, sa ki lakòz naratif KPI konfli.",
+        "Modèl yo rete nan eksperimantasyon epi yo pa janm rive nan workflows pwodiksyon",
+        "Pwoblèm kalite done mine konfyans nan analytics ak tablodbò egzekitif"
+      ],
+      "impactSignals": [
+        "Sik desizyon ralanti paske ekip yo deba sou validite done olye pou yo aksyon",
+        "Prévision ak presizyon planifikasyon rete enkonsistan trimès sou trimès",
+        "Envestisman Analytics montre adopsyon ki ba deyò gwoup analis espesyalize"
+      ]
+    },
+    "approach": {
+      "overview": "Nou delivre platfòm AI ak BI kòm sistèm pwodiksyon, kouple jeni done, operasyon sik lavi modèl, ak entegrasyon workflow desizyon.",
+      "pillars": [
+        {
+          "title": "Done Pwodwi Fondasyon",
+          "detail": "Domèn aliyen pwodwi done etabli entrain ki kapab itilize ankò, gouvène, ak bon jan kalite entrain pou analytics ak ML."
+        },
+        {
+          "title": "MLOps Lifecycle Otomatik",
+          "detail": "Fòmasyon, deplwaman, siveyans ak kontwòl drift yo otomatik kenbe modèl serye nan pwodiksyon an."
+        },
+        {
+          "title": "Desizyon Workflow Entegrasyon",
+          "detail": "Insight yo entegre nan zouti operasyonèl ak tablodbò pou ekip aji sou entèlijans nan pwosesis chak jou."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "AI / BI achitekti nou an priyorite done konfyans, modèl eksplike, ak modèl aksè gouvène atravè antrepriz la.",
+      "items": [
+        {
+          "title": "Single Definisyon metrik",
+          "detail": "KPI kritik yo defini yon fwa atravè modèl semantik pataje pou elimine lojik rapò konfli."
+        },
+        {
+          "title": "Kontwòl fyab ki gen konpòtman egzanplè",
+          "detail": "Papòt pèfòmans, deteksyon drift ak mekanis rollback pwoteje bon jan kalite desizyon nan pwodiksyon an."
+        },
+        {
+          "title": "Sekirite & Gouvènans pa Design",
+          "detail": "Liy done, aksè ki baze sou wòl, ak kontwòl kontwòl kontab pare yo entegre nan chak tiyo."
+        }
+      ]
+    },
+    "capabilities": [
+      "Modèl aprantisaj machin & tiyo",
+      "Power BI tablodbò & Rapò",
+      "Prediksyon Analytics",
+      "Tan reyèl Done Difizyon",
+      "Solisyon Depo Done"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Twal",
+        "category": "Platfòm",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Done Depo",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Bricks done",
+        "category": "Done Jeni",
+        "icon": "Bricks Done"
+      },
+      {
+        "name": "Azure ML",
+        "category": "Platfòm ML",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML chapant",
+        "icon": "Tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML chapant",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tablo",
+        "category": "Analytics",
+        "icon": "tablo"
+      },
+      {
+        "name": "Apache etensèl",
+        "category": "Pwosesis",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Lang",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Fondasyon Done",
+        "summary": "Nou odit sous, defini kontra done, ak etabli gouvènans pou chak modèl kòmanse ak opinyon ou fè konfyans.",
+        "deliverables": [
+          "Sous done ak evalyasyon kalite",
+          "Feature jeni ak planifikasyon schema",
+          "Sekirite ak gouvènans debaz"
+        ]
+      },
+      {
+        "title": "Modèl & Insight Livrezon",
+        "summary": "Nou bati modèl ak tablodbò desizyon ki mare nan kesyon biznis mezirab ak KPIs.",
+        "deliverables": [
+          "Modèl devlopman ak validasyon",
+          "Tablodbò egzekitif ak rapò operasyonèl",
+          "Desizyon workflow entegrasyon"
+        ]
+      },
+      {
+        "title": "MLOps & Adopsyon",
+        "summary": "Nou operasyonèl deplwaman, siveyans ak ekip pèmèt kenbe rezilta serye sou tan.",
+        "deliverables": [
+          "Otomatik modèl deplwaman tiyo",
+          "Drift, presizyon ak itilizasyon siveyans",
+          "Ekip remèt ak opere playbook"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Transfòme done ou an Insight",
+      "description": "Vire done fragman nan entèlijans klè, aksyonab.",
+      "button": "Kòmanse vwayaj ou"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Cloud Achitekti & enfrastrikti",
+      "description": "Multi-nwaj platfòm, achitekti rezistan, ak enfrastrikti évolutive ki fèt pou kwasans alontèm."
+    },
+    "sections": {
+      "problem": {
+        "title": "Biznis Pwoblèm ankadreman",
+        "subtitle": "Poukisa inisyativ nwaj kanpe apre premye vag migrasyon an"
+      },
+      "approach": {
+        "title": "Apwòch Jeni",
+        "subtitle": "Ki jan nou bati platfòm nwaj ki an sekirite, évolutive ak risk migrasyon kontwole"
+      },
+      "principles": {
+        "title": "Achitekti Prensip",
+        "subtitle": "Desizyon platfòm ki balanse ladrès, rezistans ak gouvènans"
+      },
+      "capabilities": {
+        "title": "Sèvis Cloud",
+        "subtitle": "Bati, deplwaye, ak echèl nan nwaj la"
+      },
+      "technology": {
+        "title": "Multi-Cloud Ekspètiz",
+        "subtitle": "Platfòm agnostik solisyon nwaj"
+      },
+      "breakdown": {
+        "title": "Pann sèvis yo",
+        "subtitle": "Yon sekans klè pou konsepsyon, imigrasyon, ak opere platfòm nwaj"
+      }
+    },
+    "problem": {
+      "overview": "Anpil òganizasyon ranpli premye migrasyon nwaj men toujou opere tankou ekip sou-prem, ak vizibilite pòv, kontwòl konsistan, ak depanse k ap monte.",
+      "painPointsTitle": "Doulè biznis renouvlab",
+      "impactSignalsTitle": "Ki sa lidè yo anjeneral obsève",
+      "painPoints": [
+        "Kantite travay yo imigre san yo pa estanda sekirite ak kontwòl rezo",
+        "Depans Cloud grandi pi vit pase valè biznis delivre",
+        "Pwovizyon anviwònman rete manyèl ak konsistan atravè ekip yo"
+      ],
+      "impactSignals": [
+        "Ensidan souvan ki te koze pa konfigirasyon drift ant anviwònman",
+        "Preparasyon odit degrade akòz pratik gouvènans fragmante",
+        "Enfrastrikti tan plon reta pwodwi ak inisyativ done"
+      ]
+    },
+    "approach": {
+      "overview": "Nou konsepsyon platfòm nwaj kòm pwodwi, lè l sèvi avèk automatisation enfrastrikti, balistrad politik, ak vag migrasyon ki aliyen ak kritike biznis yo.",
+      "pillars": [
+        {
+          "title": "Zòn aterisaj kòm Kòd",
+          "detail": "Idantite, rezo, sekirite ak politik debaz yo kodifye pou repetibilite ak auditabilite."
+        },
+        {
+          "title": "Estrateji Migrasyon ki baze sou vag",
+          "detail": "Kantite travay deplase nan faz kontwole ak depandans-okouran sekans ak rollback prepare."
+        },
+        {
+          "title": "SRE + FinOps Operating Loop",
+          "detail": "Endikatè fyab ak ekonomi inite yo revize ansanm amelyore tou de D 'ak efikasite depanse."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Modèl achitekti nou an favorize enfrastrikti deklaratif, aksè pi piti privilèj ak tribin konpoze ki sipòte livrezon pwodwi rapid.",
+      "items": [
+        {
+          "title": "Modèl enfrastrikti immuabl",
+          "detail": "Anviwònman yo rebati soti nan kòd vèsyon pou misyon pou minimize drift ak senplifye rekiperasyon operasyonèl."
+        },
+        {
+          "title": "Sekirite Baseline pa default",
+          "detail": "Zewo-konfyans kontwòl aksè ak ranfòsman politik yo entegre nan chak sik lavi anviwònman an."
+        },
+        {
+          "title": "Detèminasyon Atravè Distribisyon",
+          "detail": "Kantite travay kritik yo fèt pou milti-zòn oswa milti-rejyon tolerans echèk kote enpak biznis mande pou li."
+        }
+      ]
+    },
+    "capabilities": [
+      "Multi-Cloud Estrateji & Aplikasyon",
+      "Kès òkestrasyon (Kubernetes)",
+      "Serverless informatique",
+      "Sèvis migrasyon Cloud",
+      "Achitekti Segondè Disponibilite"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Nwaj",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "AWS",
+        "category": "Nwaj",
+        "icon": "amazonwebservices"
+      },
+      {
+        "name": "GCP",
+        "category": "Nwaj",
+        "icon": "googlecloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Òkestrasyon",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Kontenè yo",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Modèl ARM",
+        "category": "IaC",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "amazonwebservices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Achitekti & Landing Zòn",
+        "summary": "Nou defini eta sib la, ranp ak estanda platfòm debaz anvan kantite travay deplase",
+        "deliverables": [
+          "Sib konsepsyon achitekti nwaj",
+          "Idantite, rezo ak sekirite debaz",
+          "Pri ak konfòmite balistrad"
+        ]
+      },
+      {
+        "title": "Migrasyon & platfòm bati",
+        "summary": "Nou egzekite vag migrasyon ak kanpe konpozan platfòm nwaj-natif natal ak automatisation repete.",
+        "deliverables": [
+          "Migrasyon kantite travay sekans",
+          "Kontenè ak platfòm serverless konfigirasyon",
+          "Enfrastrikti kòm modil Kòd"
+        ]
+      },
+      {
+        "title": "Fyab & FinOps",
+        "summary": "Nou amelyore fyab operasyonèl ak kontinyèlman optimize nwaj depanse ki baze sou telemetry ap viv.",
+        "deliverables": [
+          "SLOs, siveyans ak workflows ensidan",
+          "Detèminasyon ak validation rekiperasyon katastwòf",
+          "Pri optimize backlog ak kadans gouvènans"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Echèl enfrastrikti ou",
+      "description": "Bati fondasyon nwaj ki rete rezistan anba chaj mond reyèl",
+      "button": "Planifye Estrateji Cloud ou"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & platfòm Jeni",
+      "description": "Otomatik tiyo livrezon, obsèvabilite, ak pratik platfòm ki amelyore vitès san sakrifye fyab."
+    },
+    "sections": {
+      "problem": {
+        "title": "Biznis Pwoblèm ankadreman",
+        "subtitle": "Poukisa vitès livrezon gout kòm konpleksite platfòm ogmante"
+      },
+      "approach": {
+        "title": "Apwòch Jeni",
+        "subtitle": "Ki jan nou estandadize tiyo livrezon san yo pa ralanti ekip pwodwi yo"
+      },
+      "principles": {
+        "title": "Achitekti Prensip",
+        "subtitle": "Modèl jeni platfòm ki echèl fyab ak otonomi ekip"
+      },
+      "capabilities": {
+        "title": "Sèvis DevOps",
+        "subtitle": "Otomatize, kontwole ak optimize sik lavi livrezon ou"
+      },
+      "technology": {
+        "title": "DevOps Zouti & platfòm",
+        "subtitle": "Pi bon nan klas DevOps toolchain"
+      },
+      "breakdown": {
+        "title": "Pann sèvis yo",
+        "subtitle": "Yon kat wout pratik soti nan blokaj livrezon nan koule segondè konfyans lage"
+      }
+    },
+    "problem": {
+      "overview": "Òganizasyon yo souvan envesti nan zouti CI / CD men toujou ap lite ak degaje enstab, apwobasyon ralanti, ak pwopriyetè fragman atravè anviwònman yo.",
+      "painPointsTitle": "Doulè biznis renouvlab",
+      "impactSignalsTitle": "Ki sa lidè yo anjeneral obsève",
+      "painPoints": [
+        "Definisyon tiyo diferan pa ekip, kreye pòtay bon jan kalite enkonsistan",
+        "Apwobasyon deplwaman manyèl reta hotfix ak delè lage karakteristik",
+        "Operasyon ensidan repete paske telemetry enkonplè oswa silo"
+      ],
+      "impactSignals": [
+        "Tan plon pou chanjman kontinye ap ogmante malgre depans automatisation",
+        "Chanje pousantaj echèk Spikes pandan peryòd livrezon volim segondè",
+        "Pwodiktivite pwomotè diminye akòz friksyon zouti ak kontèks chanje"
+      ]
+    },
+    "approach": {
+      "overview": "Nou etabli yon modèl platfòm pwomotè entèn ak modèl tiyo ki kapab itilize ankò, gouvènans politik-kondwi ak obsèvabilite sik lavi plen.",
+      "pillars": [
+        {
+          "title": "Golden Path Pipeline Templates",
+          "detail": "CI / CD plan ki kapab itilize ankò estandadize bati, tès, chèk sekirite, ak deplwaman workflows."
+        },
+        {
+          "title": "Platfòm API & Self-Service",
+          "detail": "Ekip bay anviwònman ak lage enfrastrikti atravè kontwole koòdone sèvis pwòp tèt ou."
+        },
+        {
+          "title": "Fyab Feedback Loops",
+          "detail": "Tandans ensidan, SLO sante, ak deplwaman telemetry enfòme pwosesis kontinyèl ak amelyorasyon achitekti"
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Achitekti DevOps nou an aliyen vitès livrezon ak gouvènans pa otomatize kontwòl ak minimize yon sèl-off travay operasyonèl.",
+      "items": [
+        {
+          "title": "Tout bagay kòm vèsyon kòd",
+          "detail": "Tuyaux, enfrastrikti ak règleman politik yo jere nan kontwòl sous pou auditability ak repetibilite."
+        },
+        {
+          "title": "Verifikasyon Pwogresif",
+          "detail": "Bon jan kalite, sekirite ak chèk pèfòmans yo kouche atravè etap yo detekte risk pi bonè."
+        },
+        {
+          "title": "Responsablite platfòm pataje",
+          "detail": "Ekip platfòm bay pave kapasite wout pandan y ap ekip pwodwi kenbe pwopriyetè livrezon."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI / CD Pipeline Design",
+      "Enfrastrikti kòm Kòd",
+      "Tès otomatik",
+      "Otomatik deplwaman",
+      "Siveyans & Obsèvabilite"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Platfòm",
+        "icon": "AzureDevOps"
+      },
+      {
+        "name": "Aksyon GitHub",
+        "category": "CI / CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI / CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Anbalaj",
+        "icon": "Helm"
+      },
+      {
+        "name": "Ansible",
+        "category": "Otomatik",
+        "icon": "ansible"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Siveyans",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Obsèvabilite",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Evalyasyon platfòm",
+        "summary": "Nou evalye chèn livrezon lojisyèl aktyèl ou a pou idantifye pwen risk ak kontrent vitès.",
+        "deliverables": [
+          "Kat jeyografik workflow livrezon eta aktyèl",
+          "Analiz blokaj Pipeline",
+          "Sib DevOps matirite kat wout"
+        ]
+      },
+      {
+        "title": "Tiyo & Automatisation bati",
+        "summary": "Nou aplike serye CI / CD, pòtay bon jan kalite ak automatisation enfrastrikti pou degaje konsistan",
+        "deliverables": [
+          "Modèl CI / CD ki kapab itilize ankò",
+          "Enfrastrikti ak anviwònman automatisation",
+          "Tès otomatik ak kontwòl lage"
+        ]
+      },
+      {
+        "title": "Opere & Amelyore",
+        "summary": "Nou etabli obsèvabilite ak pasan gouvènans ki sipòte amelyorasyon livrezon kontinyèl.",
+        "deliverables": [
+          "Siveyans tablodbò ak politik alèt",
+          "Lage gouvènans ak playbooks ensidan",
+          "Kontinyèl amelyorasyon mesures ak revizyon"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Akselere livrezon ou",
+      "description": "Diminye friksyon lage ak amelyore fyab ak pratik DevOps matirite",
+      "button": "Transfòme tiyo ou"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Digital Transfòmasyon & Estrateji",
+      "description": "Konsèy estratejik ak sipò ekzekisyon modènize tribin, ekip, ak modèl opere."
+    },
+    "sections": {
+      "problem": {
+        "title": "Biznis Pwoblèm ankadreman",
+        "subtitle": "Kote pwogram transfòmasyon pèdi momantòm ak konfyans egzekitif"
+      },
+      "capabilities": {
+        "title": "Sèvis konsiltasyon",
+        "subtitle": "Konsèy estratejik pou siksè dijital"
+      },
+      "approach": {
+        "title": "Apwòch Jeni",
+        "subtitle": "Ki jan nou tradwi estrateji nan ègzèkutabl, teknoloji te apiye chanjman"
+      },
+      "principles": {
+        "title": "Achitekti Prensip",
+        "subtitle": "Modèl opere ak chwa platfòm ki pwoteje rezilta transfòmasyon"
+      },
+      "technology": {
+        "title": "Teknoloji Stack",
+        "subtitle": "Platfòm ak kad nou itilize pou operasyonèl transfòmasyon"
+      },
+      "breakdown": {
+        "title": "Pann sèvis yo",
+        "subtitle": "Transfòmasyon estriktire soti nan definisyon estrateji nan valè biznis mezirab"
+      }
+    },
+    "problem": {
+      "overview": "Inisyativ dijital souvan kòmanse ak gwo entansyon men yo pa konvèti nan rezilta livrezon akòz pwopriyete ki pa klè, zouti dekonekte, ak priyorite konpetisyon.",
+      "painPointsTitle": "Doulè biznis renouvlab",
+      "impactSignalsTitle": "Ki sa lidè yo anjeneral obsève",
+      "painPoints": [
+        "Kat wout transfòmasyon yo defini, men yo pa tradui nan gouvènans livrezon",
+        "Biznis ak jeni priyorite diverge apre sik planifikasyon inisyal",
+        "Modèl operasyon eritaj bloke adopsyon pratik livrezon pwodwi modèn"
+      ],
+      "impactSignals": [
+        "Depans pwogram yo monte pandan mouvman KPI estratejik rete plat",
+        "Inisyativ manke pwen remèt ant estrateji, achitekti, ak ekzekisyon",
+        "Ekip fè eksperyans fatig chanjman ak valè biznis reyalize limite"
+      ]
+    },
+    "approach": {
+      "overview": "Nou konbine konsiltatif estratejik ak achitekti livrezon, aliyen konsepsyon modèl opere, kapasite platfòm, ak kadans ekzekisyon alantou objektif mezirab.",
+      "pillars": [
+        {
+          "title": "Priyorite Valè Stream",
+          "detail": "Nou sekans inisyativ ki baze sou enpak biznis mezirab ak kontrent depandans teknik."
+        },
+        {
+          "title": "Sib Operating Modèl Design",
+          "detail": "Wòl, gouvènans, ak dwa desizyon yo defini pou sipòte ekzekisyon pi vit atravè ekip biznis ak teknoloji."
+        },
+        {
+          "title": "Gouvènans livrezon pòtfolyo",
+          "detail": "Pwogrè transfòmasyon jere nan KPI-lye pwen kontwòl ak kontwòl risk nivo pòtfolyo."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Achitekti transfòmasyon nou an mete aksan sou modènizasyon incrémentiel ak responsablite klè, evite reekri deranje san yo pa jistifikasyon biznis.",
+      "items": [
+        {
+          "title": "Kapasite Biznis Aliyman",
+          "detail": "Chanjman teknoloji yo òganize alantou kapasite ki kat dirèkteman nan revni, bon jan kalite sèvis oswa efikasite pri."
+        },
+        {
+          "title": "Estrateji platfòm Composable",
+          "detail": "Konpozan platfòm yo chwazi pou entèoperabilite pou sipòte migrasyon etap ak adaptasyon pi rapid."
+        },
+        {
+          "title": "Gouvènans ak kadans livrezon",
+          "detail": "Fowòm desizyon ak pwen kontwòl yo entegre nan sprint ak sik chak trimès, pa trete kòm tren separe biwokratik."
+        }
+      ]
+    },
+    "capabilities": [
+      "Roadmaps transfòmasyon dijital",
+      "Devlopman Estrateji Teknoloji",
+      "Cloud Adopsyon Frameworks",
+      "Pwosesis Optimization",
+      "Chanjman Jesyon"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Fondasyon",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Microsoft Twal",
+        "category": "Platfòm Done",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Desizyon entèlijans",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Platfòm Pouvwa",
+        "category": "Low-kòd",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Kolaborasyon",
+        "icon": "Microsoft SharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP / CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Aliyman estrateji",
+        "summary": "Nou aliyen priyorite lidèchip ak objektif dijital yo kreye yon direksyon transfòmasyon pataje.",
+        "deliverables": [
+          "Objektif transfòmasyon ak kritè siksè",
+          "Matirite kapasite ak evalyasyon espas",
+          "Inisyativ pòtfolyo priyorite"
+        ]
+      },
+      {
+        "title": "Ekzekisyon Blueprint",
+        "summary": "Nou defini modèl la opere sib, estanda achitekti ak sekans aplikasyon faze.",
+        "deliverables": [
+          "Modèl opere ak konsepsyon gouvènans",
+          "Teknoloji ak pwosesis achitekti estanda",
+          "Kat wout aplikasyon faz"
+        ]
+      },
+      {
+        "title": "Chanjman & Valè Realizasyon",
+        "summary": "Nou kondwi adopsyon, swiv mouvman KPI, ak rafine inisyativ ki baze sou rezilta livrezon.",
+        "deliverables": [
+          "Plan adopsyon ak pèmèt",
+          "KPI mezi kadans",
+          "Backlog optimize chak trimès"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kòmanse Vwayaj Transfòmasyon ou",
+      "description": "Navige chanjman ak priyorite klè ak plan livrezon pratik.",
+      "button": "Orè Sesyon Estrateji"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Konekte sistèm soti nan aparèy nan nwaj, ak tuyaux telemetry ak entèlijans kwen pou echèl endistriyèl."
+    },
+    "sections": {
+      "problem": {
+        "title": "Biznis Pwoblèm ankadreman",
+        "subtitle": "Poukisa pwogram aparèy konekte-echwe echèl pi lwen pase deplwaman pilòt"
+      },
+      "approach": {
+        "title": "Apwòch Jeni",
+        "subtitle": "Ki jan nou desine sekirite sistèm IoT opere soti nan aparèy firmwèr nwaj APIs"
+      },
+      "principles": {
+        "title": "Achitekti Prensip",
+        "subtitle": "Règ konsepsyon kwen-a-nwaj pou fyab, latansi ak gouvènans flòt"
+      },
+      "capabilities": {
+        "title": "Solisyon IoT",
+        "subtitle": "Konekte, kontwole ak optimize aparèy ou yo"
+      },
+      "technology": {
+        "title": "IoT Teknoloji Stack",
+        "subtitle": "Soti nan pyès ki nan konpitè nan nwaj"
+      },
+      "breakdown": {
+        "title": "Pann sèvis yo",
+        "subtitle": "Ki jan nou delivre sistèm ki konekte soti nan aparèy kwen entèlijans nwaj"
+      }
+    },
+    "problem": {
+      "overview": "Inisyativ IoT souvan pwouve posibilite teknik nan pilòt men echwe nan echèl akòz koneksyon enfidèl, kontwòl flòt fèb, ak entegrasyon pòv ak workflows biznis.",
+      "painPointsTitle": "Doulè biznis renouvlab",
+      "impactSignalsTitle": "Ki sa lidè yo anjeneral obsève",
+      "painPoints": [
+        "Aparèy bor ak jesyon sik lavi yo rete manyèl ak erè tendans",
+        "Tuyaux telemetry pwodwi done fè bwi, enkonplè oswa reta operasyonèl",
+        "Remote kòmandman ak firmwèr dènye entwodwi sekirite ak sekirite risk"
+      ],
+      "impactSignals": [
+        "Anviwònman pilòt reyisi, men delè pwodiksyon woule repete glise",
+        "Ekip operasyon jaden reyaji nan ensidan san vizibilite prediksyon",
+        "Sistèm biznis pa ka fiableman konsome entèlijans aparèy nan tan reyèl"
+      ]
+    },
+    "approach": {
+      "overview": "Nou achitèk platfòm IoT kòm kontwole sistèm distribye, konbine estanda runtime kwen sekirite, enjere evènman-kondwi, ak gouvènans operasyonèl nan echèl flòt.",
+      "pillars": [
+        {
+          "title": "Sekirite Jesyon Lifecycle Aparèy",
+          "detail": "Pwovizyon, idantite, wotasyon kle, ak dènye firmwèr yo otomatik diminye risk operasyonèl."
+        },
+        {
+          "title": "Evènman kondwi Telemetry Achitekti",
+          "detail": "Tuyaux difizyon nòmalize, valide, ak wout evènman aparèy pou analytics ak kontwòl nan prèske tan reyèl."
+        },
+        {
+          "title": "Flòt Operasyon Avyon Kontwòl",
+          "detail": "Siveyans, alèt ak workflows kòmandman aleka bay sipèvizyon serye atravè byen distribye."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Achitekti IoT nou an balanse desizyon kwen ki ba-latansi ak gouvènans santralize, obsèvabilite, ak konfòmite sekirite.",
+      "items": [
+        {
+          "title": "Edge otonomi ak kowòdinasyon nwaj",
+          "detail": "Operasyon lokal kritik kontinye pandan degradasyon rezo pandan y ap senkronize eta a sistèm nwaj lè disponib."
+        },
+        {
+          "title": "Kontre Evènman Schemas",
+          "detail": "Ekip aparèy ak platfòm itilize schemas gouvène prezève konsistans telemetry atravè vèsyon."
+        },
+        {
+          "title": "Zewo konfyans aparèy sekirite",
+          "detail": "Otantifikasyon mityèl, pi piti privilèj ak transpò chiffres yo ranfòse atravè chak entèraksyon aparèy."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT Jesyon Aparèy",
+      "Solisyon jimo dijital",
+      "Edge Computing Deplwaman",
+      "Telemetry an tan reyèl",
+      "Antretyen prediksyon"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Jimo dijital",
+        "category": "Simulation",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Kwen",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Pwotokòl",
+        "icon": "mqtt"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Pwotokòl",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "pyès ki nan konpitè",
+        "icon": "arduino"
+      },
+      {
+        "name": "Franbwaz Pi",
+        "category": "pyès ki nan konpitè",
+        "icon": "Franbwaz Pi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Tan Seri DB",
+        "icon": "InfluxDB"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Aparèy & Edge estrateji",
+        "summary": "Nou defini modèl koneksyon, estanda runtime kwen, ak pwovizyon an sekirite pou aparèy jaden.",
+        "deliverables": [
+          "Aparèy bor ak modèl koneksyon",
+          "Edge runtime ak deplwaman plan",
+          "Flòt sekirite baz"
+        ]
+      },
+      {
+        "title": "Telemetry & kontwòl avyon",
+        "summary": "Nou bati tuyaux ki kaptire evènman, modèl jimo dijital, ak pèmèt workflows kontwòl remote.",
+        "deliverables": [
+          "Enjèstyon an tan reyèl ak konsepsyon chema evènman",
+          "Jimo dijital ak aplikasyon modèl avantaj",
+          "Lòd ak kontwòl API kouch"
+        ]
+      },
+      {
+        "title": "Operasyon & Echèl",
+        "summary": "Nou operasyonèl jesyon flòt ak kontwòl fyab pou anviwònman pwodiksyon echèl IoT.",
+        "deliverables": [
+          "Aparèy flòt siveyans ak alèt",
+          "Prediksyon antretyen ak deteksyon anomali",
+          "Rollout ak plan sipò sik lavi"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Konekte aparèy ou yo",
+      "description": "Bati solisyon IoT serye pare pou anviwònman pwodiksyon reyèl.",
+      "button": "Kòmanse Pwojè IoT ou"
+    }
+  }
+}

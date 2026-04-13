@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Kodu",
+    "company": "Ettevõte",
+    "solutions": "Lahendused",
+    "resources": "Allikad",
+    "innovationLab": "Innovatsioonilabor",
+    "contact": "Kontakt",
+    "about": {
+      "title": "Teave",
+      "description": "Meie missioon, visioon ja lugu"
+    },
+    "team": {
+      "title": "Meeskond",
+      "description": "Tutvu Horizon Techi taga olevate inimestega"
+    },
+    "careers": {
+      "title": "Karjäär",
+      "description": "Liitu meie meeskonnaga ja ehita tulevikku"
+    },
+    "enterpriseSoftware": {
+      "title": "Ettevõtte tarkvaraarendus",
+      "description": "Kohandatud ettevõtterakendused kaasaegsete raamistikudega"
+    },
+    "aiMl": {
+      "title": "Tehisintellekt, masinõpe ja äriluure",
+      "description": "Täielikud AI/ML torujuhtmed ja BI juhtpaneelid"
+    },
+    "cloudArchitecture": {
+      "title": "Pilvearhitektuur ja infrastruktuur",
+      "description": "Mitmepilvelahendused ja konteinerite orkestreerimine"
+    },
+    "iot": {
+      "title": "IoT ja servaarvutus",
+      "description": "Ühendatud seadmete ökosüsteemid ja digitaalsed kaksikud"
+    },
+    "devops": {
+      "title": "DevOps ja platvormiinseneriteadus",
+      "description": "CI/CD torujuhtmed ja infrastruktuur koodina"
+    },
+    "digitalTransformation": {
+      "title": "Digitaalne transformatsioon ja strateegia",
+      "description": "Ettevõtte transformatsiooni teekaardid ja nõustamine"
+    },
+    "caseStudies": {
+      "title": "Juhtumiuuringud",
+      "description": "Edulood meie klientidelt",
+      "featured": {
+        "title": "Esiletõstetud juhtumiuuring",
+        "description": "Süvitsi täielikku kohaletoimetamise projekti"
+      }
+    },
+    "blog": {
+      "title": "Blogi",
+      "description": "Teadmised, õpetused ja tööstuse trendid",
+      "featured": {
+        "title": "Esiletõstetud blogipostitus",
+        "description": "Loe üht meie uusimat inseneriteaduslikku ülevaadet"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Innovatsioonilabori ülevaade",
+      "description": "Vaata kõiki uurimisvaldkondi ja eksperimentaalseid radu"
+    },
+    "innovationLabAiSystems": {
+      "title": "Rakenduslikud tehisintellekti süsteemid",
+      "description": "Tootmisvalmis masinõppe arhitektuurimustrid"
+    },
+    "innovationLabNlp": {
+      "title": "Mitmekeelne NLP",
+      "description": "Interaktiivsed loomuliku keele töötlemise võimalused"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Geneetilise algoritmi simulatsioon",
+      "description": "Evolutsiooniline optimeerimine interaktiivses keskkonnas"
+    },
+    "navigation": "Navigeerimine",
+    "skipToContent": "Liigu sisu juurde",
+    "toggleMenu": "Lülitusmenüü",
+    "dashboard": "Armatuurlaud",
+    "myWorkspace": "Minu tööruum",
+    "profile": "Profiil",
+    "adminPanel": "Administraatoripaneel",
+    "practiceManagement": "Praktika juhtimine",
+    "logOut": "Logi välja",
+    "education": {
+      "title": "Tehnilised ressursid",
+      "description": "Juhendid, õpetused ja parimad praktikad Horizon Techi meeskonnalt"
+    },
+    "support": {
+      "title": "Tugikeskus",
+      "description": "Abi saamiseks meie tarkvaraarendusteenustega"
+    }
+  },
+  "footer": {
+    "description": "Tarkvaraarenduse idufirma, mis asub Sarajevos, Bosnias. Me ehitame kohandatud tarkvara, tehisintellekti/masinõppe lahendusi, pilvearhitektuuri ja automatiseerimissüsteeme.",
+    "features": "Omadused",
+    "resources": "Allikad",
+    "company": "Ettevõte",
+    "legal": "Juriidiline",
+    "dashboard": "Armatuurlaud",
+    "components": "Komponendid",
+    "documentation": "Dokumentatsioon",
+    "apiReference": "API viide",
+    "gettingStarted": "Alustamine",
+    "examples": "Näited",
+    "community": "Kogukond",
+    "blog": "Blogi",
+    "caseStudies": "Juhtumiuuringud",
+    "innovationLabOverview": "Innovatsioonilabori ülevaade",
+    "appliedAiSystems": "Rakenduslikud tehisintellekti süsteemid",
+    "nlpDemo": "Mitmekeelne NLP",
+    "geneticAlgorithmSimulation": "Geneetilise algoritmi simulatsioon",
+    "featuredBlogPost": "Esiletõstetud blogipostitus",
+    "featuredCaseStudy": "Esiletõstetud juhtumiuuring",
+    "about": "Teave",
+    "contact": "Kontakt",
+    "partners": "Partnerid",
+    "careers": "Karjäär",
+    "privacyPolicy": "Privaatsuspoliitika",
+    "termsOfService": "Kasutustingimused",
+    "cookiePolicy": "Küpsiste poliitika",
+    "license": "Litsents",
+    "copyright": "© {{year}} Horizon Tech. Kõik õigused kaitstud.",
+    "subscribe": "Telli uudiskiri"
+  },
+  "header": {
+    "badge": "Ettevõtte tehnoloogialahendused",
+    "titleLine1": "Muuda oma äri",
+    "titleLine2": "Tipptasemel tehnoloogia",
+    "description": "Alates ettevõtte tarkvaraarendusest ja tehisintellektil põhinevast äriluurest kuni pilveinfrastruktuuri ja IoT lahendusteni — pakume terviklikke tehnoloogiateenuseid, mis soodustavad innovatsiooni ja kiirendavad kasvu.",
+    "getStarted": "Alusta",
+    "exploreSolutions": "Avasta lahendusi",
+    "trustedBy": "Usaldusväärne edumeelsete ettevõtete poolt",
+    "microsoftPartner": "Microsoft Partner",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "Ettevõtte lahendused"
+  },
+  "mobileNav": {
+    "navigation": "Mobiilne navigeerimine",
+    "home": "Kodu",
+    "solutions": "Lahendused",
+    "caseStudies": "Juhtumid",
+    "aiSystems": "AI labor",
+    "blog": "Blogi",
+    "resources": "Allikad",
+    "contact": "Kontakt"
+  },
+  "sideNav": {
+    "scroll": "Kerimine",
+    "navigateTo": "Navigeeri {{section}}",
+    "sections": {
+      "home": "Kodu",
+      "solutions": "Lahendused",
+      "credibility": "Usaldusväärsus",
+      "partners": "Partnerid",
+      "caseStudies": "Juhtumiuuringud",
+      "blog": "Blogi",
+      "innovationLab": "Innovatsioonilabor",
+      "faq": "KKK"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Lülituskeel",
+    "searchPlaceholder": "Otsi keelt...",
+    "noResults": "Keeli ei leitud."
+  },
+  "common": {
+    "menu": "Menüü",
+    "account": "Konto"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Hiljutised juhtumiuuringud",
+      "description": "Ülevaade finantstehnoloogia, tervishoiu, logistika ja avaliku sektori programmide tarnetulemustest.",
+      "cta": "Vaata kõiki juhtumiuuringuid"
+    },
+    "blog": {
+      "title": "Viimased uudised meie blogist",
+      "description": "Praktilised insenerimärkmed hiljutistest tehisintellekti, platvormide ja pilveteenuste tööst.",
+      "cta": "Loe kõiki artikleid"
+    },
+    "innovationLab": {
+      "title": "Innovatsioonilabor",
+      "description": "Uuri prototüüpe, katseid ja rakenduslikke teadus- ja arendusprojekte Horizon Techi insenerimeeskonnalt.",
+      "cta": "Avasta Innovatsioonilabor"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Loe juhtumiuuringut",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Tervishoid",
+      "logistics": "Logistika",
+      "manufacturing": "Tootmine",
+      "government": "Valitsus"
+    }
+  },
+  "blogCard": {
+    "read": "Loe"
+  }
+}

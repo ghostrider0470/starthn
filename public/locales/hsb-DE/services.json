@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Započinajće",
+    "ctaSecondary": "Terminowe wuradźowanje"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Wuwiće software za předewzaća",
+      "description": "End-to-end předewzaćelske aplikacije z modernymi frameworkami, API-first-architekturu a cloud-dependentnej skalabilnosću."
+    },
+    "sections": {
+      "problem": {
+        "title": "Wobrubjenje wobchodniskich problemow",
+        "subtitle": "Hdźež zawodne programy spěšnosć, etat a strategiske wusměrjenje zhubja"
+      },
+      "approach": {
+        "title": "Inženjerski přistup",
+        "subtitle": "Kak z dwujazmyslnych žadanjow platformy za produkciju činić"
+      },
+      "principles": {
+        "title": "Architekturne principy",
+        "subtitle": "Rozsudy wo koncipowaniu, kotrež dźerža systemy předewzaćow we wulkosći zachowajomne"
+      },
+      "capabilities": {
+        "title": "Što twarimy",
+        "subtitle": "Wobšěrne móžnosće wuwiwanja software"
+      },
+      "technology": {
+        "title": "Naš technologiski stack",
+        "subtitle": "Moderne, wupruwowane technologije za dodawanje předewzaća"
+      },
+      "breakdown": {
+        "title": "Serwisowa awarija",
+        "subtitle": "Strukturowany puć wot wotkryća hač k stabilnemu produkciskemu dodawanju"
+      }
+    },
+    "problem": {
+      "overview": "Zawodne teamy přewjedu husto kritiske dźěłowe wotběhi pola roztřěskanych systemow, přez čož nastanu dołhe časy dochadźenja, njekonzistentne daty a drohe manuelne wothłosowanje mjez wotrjadami.",
+      "painPointsTitle": "Stajnje so wospjetowace słužbne bolosće",
+      "impactSignalsTitle": "Štož wjednicy zwjetša wobkedźbuja",
+      "painPoints": [
+        "Dodawanske winowatosće so přesuwaja, dokelž su wotwisnosće mjez teamami njepřewodźene",
+        "Jadrowa wobchodniska logika so přez kanale a produkty dwoje",
+        "Starše integracije činja nowe starty funkcijow wysokorizikowe a pomałše"
+      ],
+      "impactSignals": [
+        "Roadmap nakładnosć spaduje, mjeztym zo wudawki za inženjerstwo přiběraja",
+        "Kupcam bliske defekty přiběraja w časach pušćenja",
+        "Namakanje rozsudow spomali, dla njekonsekwentneho zawodneho rozprawnistwa"
+      ]
+    },
+    "approach": {
+      "overview": "Wukonjamy z architekturnym wotkryćom, zrěčensce wodźenym dodawanjom a kontrolowanej wuswobodźenskej techniku, tak zo so wobchodniska hódnota w předwidźomnych kročelach roznošuje.",
+      "pillars": [
+        {
+          "title": "Domain Modeling & Bounded Contexts",
+          "detail": "Mapěrujemy domeny k jasnym posłužbowym hranicam, zo bychmy teamy přesahowace wjazanje pomjeńšili a swójstwo wujasnili."
+        },
+        {
+          "title": "API-First Integration Strategy",
+          "detail": "Definujemy zahe stabilne zrěčenja, kotrež paralelne wuwiće a wěsće integrowanje z systemami předewzaćow zmóžnjeja."
+        },
+        {
+          "title": "Progresiwny wotběh dodawanja",
+          "detail": "Wužiwamy hrajne chorhoje, inscenowane rollouty a kwalitne wrota, zo bychmy spěšnje wušli, bjez toho zo by so inscenacija destabilizowała."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naše architektoniske rozsudy staja dołhe žiwjenje, operowajomnosć a jasne wobsydstwo na prěnim městnje, zo bychu platformy z přiběracym wobjimom wobchodnistwa přiměrjomne wostali.",
+      "items": [
+        {
+          "title": "Modularne posłužbowe hranicy",
+          "detail": "Móžnosće su do wobchodniskich wobłukow zapakowane, zo bychu wuskutki změny lokalizowane wostali."
+        },
+        {
+          "title": "Zarjadowanje na zakładźe zarjadowanjow ćěrjena integracija",
+          "detail": "Asynchrone dźěłowe wotběhi so tam zasadźa, hdźež je latencna toleranca k polěpšenju poćežowanja a wotkoplowanju systemow."
+        },
+        {
+          "title": "Wobkedźbowanja po koncepciji",
+          "detail": "Slědowanje, metriki a strukturowane protokole so do toho definuja, zo bychu so spušćomne operacije a SLA-management podpěrali."
+        }
+      ]
+    },
+    "capabilities": [
+      "Swójske webaplikacije",
+      "Wuwiwanje mobilnych app",
+      "API Development & Integration",
+      "Architektura mikroposłužbow",
+      "Cloud-Native Solutions",
+      "Modernizowanje staršich systemow"
+    ],
+    "technologies": [
+      {
+        "name": "Reagować",
+        "category": "Frontend",
+        "icon": "Reagować"
+      },
+      {
+        "name": "Node.js",
+        "category": "Zadnja strona",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Zadnja strona",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Zadnja strona",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Rěč",
+        "icon": "Typescript"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "graphql"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Datowa banka",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Datowa banka",
+        "icon": "mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Wotkrywanje a architektura",
+        "summary": "Kartěrowamy do zwoprawdźenja hospodarske ćežišća, techniske nuzowanja a zaměrowu architekturu.",
+        "deliverables": [
+          "Dźěłarnja za přiměrjenje produktow a žadanjow",
+          "Solution architecture blueprint",
+          "Na mězniki bazowacy dodawanski plan"
+        ]
+      },
+      {
+        "title": "Build & Integration",
+        "summary": "Naše teamy zasadźeja paralelnje jadrowe přiznamjenja, integraciske woršty a zawěsćenja kwality.",
+        "deliverables": [
+          "Wuwiće přiznamjenjow w iteratiwnych sprintach",
+          "API a integracije třećich",
+          "Awtomatizowane testowanje a kontrole zwólniwosće k wuswobodźenju"
+        ]
+      },
+      {
+        "title": "Start & Ewolucija",
+        "summary": "Po ho-live stabilizujemy zawody a definujemy po realnym wužiwanju přichodny stopnjowanski cyklus.",
+        "deliverables": [
+          "Runbook produkciskeho rollouta",
+          "Hłosowanje wukonow a spušćomnosće",
+          "Jězbny plan po startowanju a zastatk za polěpšenje"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Sy zwólniwy, twoju přichodnu aplikaciju natwarić?",
+      "description": "Dajće nas rozrisanje koncipować a rozesłać, kotrež měrjomne předewzaćelske wuslědki pohonjuje.",
+      "button": "Započinaj swój projekt"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML & Business Intelligence",
+      "description": "Wot prediktiwnych modelow hač k eketiwnym dashboardam twarimy kompletne AI/BI-systemy, kotrež rozsudy we wulkoměrje podpěruja."
+    },
+    "sections": {
+      "problem": {
+        "title": "Wobrubjenje wobchodniskich problemow",
+        "subtitle": "Čehodla maja na daty bohate organizacije přeco hišće ćeže, suwerene rozsudy tworić"
+      },
+      "approach": {
+        "title": "Inženjerski přistup",
+        "subtitle": "Kak datowe produkty, ML-modele a BI-dźěłowe wotběhi operacionalizujemy"
+      },
+      "principles": {
+        "title": "Architekturne principy",
+        "subtitle": "Datowe a modelowe architekturowe mustry za dowěryhódnu rozsudowu inteligencu"
+      },
+      "capabilities": {
+        "title": "Naše móžnosće",
+        "subtitle": "Wobšěrne AI, ML a BI-rozrisanja"
+      },
+      "technology": {
+        "title": "Naš technologiski stack",
+        "subtitle": "Branše wodźace graty za daty a KI"
+      },
+      "breakdown": {
+        "title": "Serwisowa awarija",
+        "subtitle": "Kak přeńdźemy wot roztřěskanych datow k produkciskej inteligency"
+      }
+    },
+    "problem": {
+      "overview": "Organizacije hromadźa husto wulke mnóstwa datow, njepřesadźa pak je do spušćomnych prognozow, zawodnych rozsudow abo měrjomneho předewzaćelskeho jednanja.",
+      "painPointsTitle": "Stajnje so wospjetowace słužbne bolosće",
+      "impactSignalsTitle": "Štož wjednicy zwjetša wobkedźbuja",
+      "painPoints": [
+        "Logika rozprawjenja rozeznawa so w teamach a tak nastanu konfliktne KPI-diskursy",
+        "Modele wostanu w eksperimentowanju a njedocpěja ženje dźěłowe wotběhi produkcije",
+        "Problemy z kwalitu datow podrywaja dowěru do analytiki a eketiwnych dashboardow"
+      ],
+      "impactSignals": [
+        "Rozsudowe kołoběhi su pomału, dokelž mustwa wo płaćiwosći datow debatuja město wo jednanju",
+        "Prognozowa a planowanska dokładnosć wostanje kwartal wob kwartal njejednotna",
+        "Inwesticije analytiki pokazuja snadne přiwzaće zwonka specializowanych analytiskich skupinow"
+      ]
+    },
+    "approach": {
+      "overview": "Dodawamy KI-a BI-platformy jako produkciski system, zwjazowacu datowu techniku, modelowe operacije žiwjenskeho cykla a integraciju rozsudoweho wotběha.",
+      "pillars": [
+        {
+          "title": "Data Product Foundation",
+          "detail": "Na domenu wusměrjene datowe produkty nastaja znowa wužiwajomne, rjadowane a wysokohódnotne inputy za analytiku a ML."
+        },
+        {
+          "title": "MLOps Lifecycle Automation",
+          "detail": "Wukubłanje, zasadźenje, monitoring a driftowa kontrola so awtomatizuja, zo bychu modele w produkciji spušćomne wostali."
+        },
+        {
+          "title": "Integracija wotběha rozsudow",
+          "detail": "Dopóznaća su w operatiwnych gratach a dashboardach zatwarjene, tak zo teamy we wobłuku wšědnych procesow na inteligencu jednaja."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naša AI/BI-architektura staja dowěryhódne daty, wujasnjomne modele a rjadowane přistupne mustry w cyłym předewzaću na prěnim městnje.",
+      "items": [
+        {
+          "title": "Definicije jednorazoweje metriki",
+          "detail": "Kritiske KPI-je so jónu přez zhromadne semantiske modele definuja, zo by so přećiwna logika rozprawjenja wotstroniła."
+        },
+        {
+          "title": "Kontrole spušćobnosće modela",
+          "detail": "Wukonowe hódnotne hódnoty, driftowanske spóznaće a mechanizmy rollback škitaja kwalitu rozsudow w produkciji."
+        },
+        {
+          "title": "Security & Governance by Design",
+          "detail": "Datowy rod, na rólach bazowacy přistup a za pruwowanje kmane kontrole su w kóždym pipeline zatwarjene."
+        }
+      ]
+    },
+    "capabilities": [
+      "Machine Learning Models & Pipelines",
+      "Power BI Dashboards & Reports",
+      "Prediktiwna analytika",
+      "Streaming datow w real-time",
+      "Rozrisanja za datowe składy"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Platforma",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Datowy skład",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Datowa technika",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "Platforma ML",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML Framework",
+        "icon": "tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML Framework",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Analytics",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Předźěłanje",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Rěč",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Datowa baza",
+        "summary": "Rewidujemy žórła, definujemy datowe zrěčenja a etablěrujemy governance, tak zo započnje kóždy model z dowěrliwymi inputami.",
+        "deliverables": [
+          "Žórło datow a pruwowanje kwality",
+          "Přiznamjenska technika a šema planowanje",
+          "Zakładna linija wěstoty a managementa"
+        ]
+      },
+      {
+        "title": "Model & Insight Delivery",
+        "summary": "Natwarimy modele a wólbne dashboardy wjazane na měrjomne wobchodniske prašenja a KPI.",
+        "deliverables": [
+          "Wuwiće a walidacija modelow",
+          "Nawjedowanske tafle a operatiwne rozprawnistwo",
+          "Integracija wotběha rozsudow"
+        ]
+      },
+      {
+        "title": "MLOps & Adoption",
+        "summary": "Operacionalizujemy zasadźenje, monitoring a zmóžnjenje teama, zo bychmy wuslědki w běhu časa spušćomne wostali.",
+        "deliverables": [
+          "Awtomatizowane wodowody zasadźenja modela",
+          "Driftowanje, dokładnosć a wobkedźbowanje wužiwanja",
+          "Teamowe přepodaće a wobhospodarjenska wučbna kniha"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Přetworće swoje daty do dohlada",
+      "description": "Stworće z fragmentowanych datow jasnu, jednajomnu inteligencu.",
+      "button": "Startuj swoje pućowanje"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Cloud Architecture & Infrastructure",
+      "description": "Multicloudowe platformy, poćežomna architektura a skalujomna infrastruktura, kotraž je za dołhodobny rozrost koncipěrowana."
+    },
+    "sections": {
+      "problem": {
+        "title": "Wobrubjenje wobchodniskich problemow",
+        "subtitle": "Čehodla mróčelowe iniciatiwy po prěnjej migraciskej žołmje zahaćeja"
+      },
+      "approach": {
+        "title": "Inženjerski přistup",
+        "subtitle": "Kak natwarimy wěste, skalujomne cloudowe platformy z kontrolowanym rizikom migracije"
+      },
+      "principles": {
+        "title": "Architekturne principy",
+        "subtitle": "Platformowe rozsudy, kotrež agilnosć, poćežomnosć a governance wurunaja"
+      },
+      "capabilities": {
+        "title": "Cloudowe słužby",
+        "subtitle": "Natwarjenje, zasadźenje a skalěrowanje w cloudje"
+      },
+      "technology": {
+        "title": "Multi-cloudowa kompetenca",
+        "subtitle": "Platform-agnostic cloud solutions"
+      },
+      "breakdown": {
+        "title": "Serwisowa awarija",
+        "subtitle": "Jasny slěd za tworjenje, wotpućowanje a posłužowanje cloudowych platform"
+      }
+    },
+    "problem": {
+      "overview": "Wjele organizacijow dokónča prěnje cloudowe migracije, dźěłaja pak přiwšěm kaž on-prem teamy ze špatnym widźomnosću, njekonsekwentnymi kontrolemi a stupacymi wudawkami.",
+      "painPointsTitle": "Stajnje so wospjetowace słužbne bolosće",
+      "impactSignalsTitle": "Štož wjednicy zwjetša wobkedźbuja",
+      "painPoints": [
+        "Dźěłowe nałoženja so bjez standardnych wěstotnych a syćowych kontrolow migruja",
+        "Cloud kóšty rostu spěšnišo hač předewzaćelska hódnota",
+        "Zachowanje wobswěta wostanje manuelne a njekonsekwentne w teamach"
+      ],
+      "impactSignals": [
+        "Časte podawki, kotrež nastanu přez wotkołošenje konfiguracijow mjez miljejemi",
+        "Pruwowanska zwólniwosć degraduje dla roztřěskanych praksow governance",
+        "Infrastrukturne nakładne časy zadźerža produktowe a datowe předewzaća"
+      ]
+    },
+    "approach": {
+      "overview": "Koncipujemy cloudowe platformy jako produkty, wužiwamy awtomatizaciju infrastruktury, škitne hałažki politiki a migraciske žołmy na kritisku wobchodnistwo wusměrjene.",
+      "pillars": [
+        {
+          "title": "Land-zone as code",
+          "detail": "Identita, splećenje, wěstota a zakładne linije politiki so za móžnosć wospjetowanja a pruwowanja hódnoty kodifikuja."
+        },
+        {
+          "title": "Na žołmy bazowaca migraciska strategija",
+          "detail": "Dźěłowe nałoženja pohibuja so w kontrolowanych fazach z wotwisnosću so poćahowacym sekwenceringom a rollback zwólniwosću."
+        },
+        {
+          "title": "SRE + FinOps Operating Loop",
+          "detail": "Indikatory spušćomnosće a jednotkowe hospodarstwo so zhromadnje přepruwuja, zo bychu so runočasnosć a eficienca wudawkow polěpšili."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naš architekturny model faworizuje deklaratiwnu infrastrukturu, přistup z najmjenje priwilegami a komponujomne platformy, kotrež spěšne dodawanje produktow podpěruja.",
+      "items": [
+        {
+          "title": "Njepřeměnjomne infrastrukturne mustry",
+          "detail": "Ze wersijoweho koda so wokoliny znowa natwarjeja, zo by so driftowanje miniměrowało a operaciske wuchowanje zjednoriło."
+        },
+        {
+          "title": "Wěstotny zakładny směr po standardźe",
+          "detail": "Zero-dowěrliwe přistupne kontrole a přesadźenje politiki su w kóždym žiwjenskim cyklu wobswěta zakótwjene."
+        },
+        {
+          "title": "Pružnosć přez rozdźělenje",
+          "detail": "Kritiske dźěłowe nałoženja su na wjacepasmowu resp. wjaceregionalnu znjespokojenu znjesćenku wusměrjene, hdźež sej to předewzaćelske wuskutki žadaja."
+        }
+      ]
+    },
+    "capabilities": [
+      "Multi-cloudowa strategija & implementacija",
+      "Container Orchestration (Kubernetes)",
+      "Serverless Computing",
+      "Cloud Migration Services",
+      "Architektura wysokeje dostupnosće"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Cloud",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "AWS",
+        "category": "Cloud",
+        "icon": "amazonwebservices"
+      },
+      {
+        "name": "GCP",
+        "category": "Cloud",
+        "icon": "Googlecloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orchestracija",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Kontejnery",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraforma",
+        "category": "IaC",
+        "icon": "Terraforma"
+      },
+      {
+        "name": "ARM Templates",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Tworjenje mróčelow",
+        "category": "IaC",
+        "icon": "amazonwebservices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Architektura & Land-Zone",
+        "summary": "Definujemy cilowy staw, škitne wobhrodźenja a zakładne normowe normy, prjedy hač so dźěłowe nałoženja hibaja.",
+        "deliverables": [
+          "Target cloud architecture design",
+          "Identita, splećenje a wěstotna baza",
+          "Wobhrodźenja kóštow a dojednanja k dojednanju"
+        ]
+      },
+      {
+        "title": "Migration & Platform Build",
+        "summary": "Přewjedźemy migraciske žołmy a stajemy cloud-native platformowe komponenty z wospjetujomnej awtomatizaciju.",
+        "deliverables": [
+          "Workload migration sequencing",
+          "Nastajenje kontejneroweje a serverlessoweje platformy",
+          "Infrastruktura jako kodowe module"
+        ]
+      },
+      {
+        "title": "Reliability & FinOps",
+        "summary": "Polěpšamy zawodnu spušćomnosć a optiměrujemy wobstajnje cloudowe wudawki na zakładźe live telemetrije.",
+        "deliverables": [
+          "SLO, monitoring a padowe wotběhi",
+          "Walidacija stability a katastrofoweho wuchowanja",
+          "Zastatk optiměrowanja kóštow a kadenca governance"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Skalujće swoju infrastrukturu",
+      "description": "Natwarće mróčelowe fundamenty, kotrež při poćežowanju realneho swěta wobstajne wostanu.",
+      "button": "Planujće swoju cloudowu strategiju"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Awtomatizowane dodawanske pipeli, wobkedźbowanja a platformowe praktiki, kotrež spěšnosć polěpša, bjeztoho zo by spušćomnosć woprowała."
+    },
+    "sections": {
+      "problem": {
+        "title": "Wobrubjenje wobchodniskich problemow",
+        "subtitle": "Čehodla spěšnosć dodawanja z přiběracej kompleksnosću platformy spaduje"
+      },
+      "approach": {
+        "title": "Inženjerski přistup",
+        "subtitle": "Kak dodawanske pipele zjednotnimy, bjeztoho zo produktowe teamy borzdźimy"
+      },
+      "principles": {
+        "title": "Architekturne principy",
+        "subtitle": "Platformowe inženjerske mustry, kotrež spušćomnosć a samostatnosć teama skalěruja"
+      },
+      "capabilities": {
+        "title": "DevOps Services",
+        "subtitle": "Awtomatizujće a wobkedźbujće a optiměrujće swój žiwjenski cyklus dodawanja"
+      },
+      "technology": {
+        "title": "DevOps Tools & Platforms",
+        "subtitle": "Best-in-class DevOps toolchain"
+      },
+      "breakdown": {
+        "title": "Serwisowa awarija",
+        "subtitle": "Praktiski jězbny plan wot dodawanskich wuskosćow hač k dowěrliwemu wotběhej dowěry"
+      }
+    },
+    "problem": {
+      "overview": "Organizacije inwestuja husto do CI/CD-toolinga, maja pak přiwšěm z njestabilnymi wudaćemi, pomałymi dowolenjemi a roztřěskanym wobsydstwom přez wobswěty wojować.",
+      "painPointsTitle": "Stajnje so wospjetowace słužbne bolosće",
+      "impactSignalsTitle": "Štož wjednicy zwjetša wobkedźbuja",
+      "painPoints": [
+        "Definicije pipeline so po teamach rozeznawaja, přez čož nastanu njekonsistentne kwalitne wrota",
+        "Manuelne přizwolenje zasadźenja zapozdźi spěšne časowe časy a časowe časy wudawanja funkcijow",
+        "Zawodne pady wospjetuja so, dokelž je telemetrija njedospołna abo izolowana"
+      ],
+      "impactSignals": [
+        "Čas za změny najebać awtomatizaciju wudawkow dale přiběra",
+        "Změń skoki kwoty wupada při časach z wjele mnóstwom dodawanjow",
+        "Wuwiwarska produktiwita spaduje přez gratowe šudrowanje a změnu konteksta"
+      ]
+    },
+    "approach": {
+      "overview": "Natwarimy interny wuwiwarski platformowy model z wospjet wužiwajomnymi pipeline-předłohami, wot politiki wodźenym governancem a wobkedźbowanjom cyłeho žiwjenskeho cykla.",
+      "pillars": [
+        {
+          "title": "Předłohi za pipeline Golden Path",
+          "detail": "Znowa wužiwajomne CI/CD-blueprinty standardizuja dźěłowe wotběhi natwarjenja, testowanja, wěstotneje kontrole a zasadźenja."
+        },
+        {
+          "title": "Platform API & Self-Service",
+          "detail": "Teamy zastaruja wobswěty a pušća infrastrukturu přez kontrolowane samoposłužowanske powjerchi."
+        },
+        {
+          "title": "Spušćomnostne wróćorěčne sekle",
+          "detail": "Incidencowe trendy, SLO strowota a telemetrija zasadźenja informuja wo stajnych procesowych a architekturnych polěpšenjach."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naša DevOps-architektura wusměrja spěšnosć dodawanja na governance, z tym zo kontrole awtomatizuje a jónkrótne dźěło, kotrež minimalizuje.",
+      "items": [
+        {
+          "title": "Wšitko jako wersěrowany kod",
+          "detail": "Pipeli, infrastruktura a politiske prawidła so w kontroli žórła k pruwowanju a wospjetujomnosći rjaduja."
+        },
+        {
+          "title": "Postupne přepruwowanje",
+          "detail": "Kwalitne, wěstotne a wukonowe pruwowanja so přez schodźenki přerostuja, zo bychu so rizika zašo spóznali."
+        },
+        {
+          "title": "Zhromadna platformowa zamołwitosć",
+          "detail": "Platformowe teamy skića móžnosće za asfaltowane puće, mjeztym zo tworowe teamy wobsteja swójstwo dodawanja."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI/CD Pipeline Design",
+      "Infrastruktura jako kod",
+      "Awtomatizowane testowanje",
+      "Awtomatizacija zasadźenja",
+      "Monitoring a wobkedźbowanja"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Platforma",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "GitHub Actions",
+        "category": "CI/CD",
+        "icon": "Githubactions"
+      },
+      {
+        "name": "Terraforma",
+        "category": "IaC",
+        "icon": "Terraforma"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Zapakowanje",
+        "icon": "Helm"
+      },
+      {
+        "name": "Ansible",
+        "category": "Awtomatizacija",
+        "icon": "Ansible"
+      },
+      {
+        "name": "Prometej",
+        "category": "Dohladowanje",
+        "icon": "Prometej"
+      },
+      {
+        "name": "Grafana",
+        "category": "Wobkedźbowanje",
+        "icon": "grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Platformowe hódnoćenje",
+        "summary": "Wuhódnoćimy waš aktualny rjećaz dodawanja software, zo bychmy rizikowe dypki a wobmjezowanja spěšnosće zwěsćili.",
+        "deliverables": [
+          "Karta běžneho wotběha dodawanja w aktualnym stawje",
+          "Analyza wuskich niskich hrěbkow pipelinow",
+          "Target DevOps maturity roadmap"
+        ]
+      },
+      {
+        "title": "Pipeline & Automation Build",
+        "summary": "Zasadźujemy spušćomne CI/CD, kwalitne wrota a awtomatizaciju infrastruktury za konsekwentne wozjewjenja.",
+        "deliverables": [
+          "Reuseable CI/CD template",
+          "Awtomatizacija infrastruktury a wobswěta",
+          "Awtomatizowane kontrole testowanja a wupušćenja"
+        ]
+      },
+      {
+        "title": "Operować a polěpšić",
+        "summary": "Natwarimy sekle wobkedźbowanja a manageance, kotrež wobstajne polěpšenje dodawanja podpěruja.",
+        "deliverables": [
+          "Wobkedźbowanske dashboardy a alarmowe směrnicy",
+          "Wozjewjenje governance a podawkowych knihow wozjewić",
+          "Wobstajne stopnjowanske měry a přepruwowanja"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Pospěšće swoje dodawanje",
+      "description": "Redukujće móžnosć wudawanja a polěpšće spušćomnosć ze zrałymi praksami DevOps.",
+      "button": "Přetworće swój pipeline"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Digitalna změna a strategija",
+      "description": "Strategiske poradźowanje a podpěra při přewjedźenju k modernizowanju platformow, teamow a modelow wobhospodarjenja."
+    },
+    "sections": {
+      "problem": {
+        "title": "Wobrubjenje wobchodniskich problemow",
+        "subtitle": "Hdźež transformaciske programy dynamiku a dowěru eksekutiwy zhubjeja"
+      },
+      "capabilities": {
+        "title": "Poradźowanske posłužby",
+        "subtitle": "Strategiske wodźenje za digitalny wuspěch"
+      },
+      "approach": {
+        "title": "Inženjerski přistup",
+        "subtitle": "Kak přełožimy strategiju do wuwjedźejomne, wot technologije podpěraneje změny"
+      },
+      "principles": {
+        "title": "Architekturne principy",
+        "subtitle": "Wobhospodarjenski model a platformowe wólby, kotrež wuslědki transformacije škitaja"
+      },
+      "technology": {
+        "title": "Technologiski stack",
+        "subtitle": "Platformy a ramiki, kotrež wužiwamy, zo bychmy transformaciju operacionalizowali"
+      },
+      "breakdown": {
+        "title": "Serwisowa awarija",
+        "subtitle": "Strukturowana transformacija wot definicije strategije hač k měrjomnej předewzaćelskej hódnoće"
+      }
+    },
+    "problem": {
+      "overview": "Digitalne iniciatiwy započinaja so husto ze sylnym wotpohladom, njepřesadźa pak so dla njejasneho wobsydstwa, njezwisowacych instrumentow a konkurowacych ćežišćow do wuslědka znjewužiwanja.",
+      "painPointsTitle": "Stajnje so wospjetowace słužbne bolosće",
+      "impactSignalsTitle": "Štož wjednicy zwjetša wobkedźbuja",
+      "painPoints": [
+        "Transformaciske jězbne plany so definuja, ale nic do delivery governance přełožene",
+        "Hospodarske a inženjerske ćežišća diwergěruja so po prěnich planowanskich cyklusach",
+        "Starše wobhospodarjenske modele zahaća přewzaće modernych dodawanskich praktikow produktow"
+      ],
+      "impactSignals": [
+        "Programowe wudawki stupaja, mjeztym zo wostanje strategiske KPI-hibanje runohódne",
+        "Iniciatiwy paruja přepodaća dypkow mjez strategiju, architekturu a wuwjedźenjom",
+        "Teamy dožiwjeja mučnotu změnow z wobmjezowanej realizowanej předewzaćelskej hódnotu"
+      ]
+    },
+    "approach": {
+      "overview": "Zwjazujemy strategiske poradźowanje z dodawanskej architekturu, wusměrjenje wobhospodarjenskeho modela, platformoweje kmanosće a kadency přewjedźenja na měrjomne zaměry.",
+      "pillars": [
+        {
+          "title": "Value Stream Prioritization",
+          "detail": "Rjadujemy iniciatiwy na zakładźe měrjomnych hospodarskich wuskutkow a ćišćow techniskeje wotwisnosće."
+        },
+        {
+          "title": "Cilowy design wobhospodarjenskeho modela",
+          "detail": "Róle, governance a prawo rozsudow so definuja, zo by so spěšniše wuwjedźenje w wikowanskich a technologiskich teamach podpěrało."
+        },
+        {
+          "title": "Portfolio Delivery Governance",
+          "detail": "Postup transformacije so přez KPI-linkowane kontrolne dypki a rizikowe kontrole na runinje portfolija rjaduje."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naša transformaciska architektura akcentuje postupnu modernizaciju a jasnu winowatosć rozprawjenja, tak zo so mylace přepisanja bjez wobchodniskeho wopodstatnjenja wobeńdźe.",
+      "items": [
+        {
+          "title": "Wusměrjenje wobchodneje kmanosće",
+          "detail": "Technologiske změny su wokoło móžnosćow organizowane, kotrež direktnje na dochody, kwalitu posłužbow abo eficiencu kóštow mapuja."
+        },
+        {
+          "title": "Komposable platformowa strategija",
+          "detail": "Platformowe komponenty so za interoperabilitu wuzwola, zo bychu so přechod po fazach a spěšniše přiměrjenje podpěrali."
+        },
+        {
+          "title": "Governance z Delivery Cadence",
+          "detail": "Rozsudowe forumy a kontrolne dypki su do sprintowych a kwartalnych cyklow zapołožene, nic jako swójske běrokratiske kolije."
+        }
+      ]
+    },
+    "capabilities": [
+      "Jězbne plany digitalneje změny",
+      "Wuwiće technologiskeje strategije",
+      "Cloud Adoption Frameworks",
+      "Optiměrowanje procesow",
+      "Změnowy management"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Foundation",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Datowa platforma",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Rozsudowa inteligenca",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Power Platform",
+        "category": "Low-Code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Zhromadne dźěło",
+        "icon": "Microsoftsharepoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Wusměrjenje na strategiju",
+        "summary": "Wusměrimy ćežišća nawodnistwa a digitalne zaměry, zo bychmy zhromadny směr změny tworili.",
+        "deliverables": [
+          "Transformaciske zaměry a kriterije wuspěcha",
+          "Zrałosć kmanosće a pohódnoćenje njedostatka",
+          "Prioritny portfelj iniciatiwow"
+        ]
+      },
+      {
+        "title": "Wuwjedźenski plan",
+        "summary": "Definujemy zaměrowy wobhospodarjenski model, architekturne standardy a schodźenkowy slěd zwoprawdźenja.",
+        "deliverables": [
+          "Wobhospodarjenski model a wuhotowanje governance",
+          "Standardy technologije a procesoweje architektury",
+          "Schodźenkowy jězbny plan zwoprawdźenja"
+        ]
+      },
+      {
+        "title": "Změna & realizacija hódnotow",
+        "summary": "Pohonjamy adopciju, sćěhamy KPI-pohibowanje a polěpšujemy iniciatiwy na zakładźe wuslědkow dodawanja.",
+        "deliverables": [
+          "Schwalenski a zmóžnjenski plan",
+          "KPI měrjenska kadenca",
+          "Kwartalny optimizacijski zastatk"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Startuj swój puć přeměny",
+      "description": "Změnu z jasnymi prioritami a praktiskimi planami dodawanja zmištrować.",
+      "button": "Posedźenje planoweje strategije"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Přizamknjene systemy wot aparata ke cloudu, z telemetrijowymi pipelinami a nakromnej inteligencu za industrijowe měritko."
+    },
+    "sections": {
+      "problem": {
+        "title": "Wobrubjenje wobchodniskich problemow",
+        "subtitle": "Čehodla njehodźa so programy přizamknjenych nastrojow přez pilotowe zasadźenje přesahnyć"
+      },
+      "approach": {
+        "title": "Inženjerski přistup",
+        "subtitle": "Kak koncipujemy, wěste, operowajomne IoT systemy wot firmwarea nastrojow hač k cloudowym API-jam"
+      },
+      "principles": {
+        "title": "Architekturne principy",
+        "subtitle": "Edge-to-cloud designowe prawidła za spušćomnosć, latencu a fleet-governance"
+      },
+      "capabilities": {
+        "title": "IoT Solutions",
+        "subtitle": "Přiwjazajće, wobkedźbujće a optiměrujće swoje nastroje"
+      },
+      "technology": {
+        "title": "IoT Technology Stack",
+        "subtitle": "Wot hardware do clouda"
+      },
+      "breakdown": {
+        "title": "Serwisowa awarija",
+        "subtitle": "Kak dodawamy přizamknjene systemy wot nakromnych nastrojow hač ke cloudowej inteligency"
+      }
+    },
+    "problem": {
+      "overview": "IoToN-iniciatiwy wopokazaja so husto jako techniska přewjedźomnosć pola pilotow, zwrěšća pak na zakładźe njespušćomneho přizamknjenja, słabeje flotoweje kontrole a špatneje integracije z dźěłowymi wotběhami předewzaćow.",
+      "painPointsTitle": "Stajnje so wospjetowace słužbne bolosće",
+      "impactSignalsTitle": "Štož wjednicy zwjetša wobkedźbuja",
+      "painPoints": [
+        "Zadźěłanje nastrojow a wodźenje žiwjenskeho cykla wostanjetej manuelne a zmylkam wukrótne",
+        "Telemetrijowe pipeliny produkuja harowace, njedospołne abo zapozdźene zawodne daty",
+        "Zdalne komandowe a firmware-aktualizacije přinjesu riziko wěstoty a wěstoty"
+      ],
+      "impactSignals": [
+        "Pilotowe wokoliny so radźa, tola časowe plany zawjedźenja produkcije so přeco zaso přesuwaja",
+        "Teamy pólneho zasadźenja reaguja bjez predikciskeje widźomnosće na podawki",
+        "Wobchodniske systemy njemóža spušćomnje inteligencu nastrojow w realnym času přetrjebać"
+      ]
+    },
+    "approach": {
+      "overview": "Architekturujemy platformy IoT jako kontrolowane rozdźělene systemy, kotrež zjednoća wěstotne standardy za běžny čas na kromje, wot podawkow wodźene přiwzaće a wodźenje zawoda w flotowym měritku.",
+      "pillars": [
+        {
+          "title": "Zawěsćeny management žiwjenskeho cykla nastrojow",
+          "detail": "Aktualizacije zasadźenja, identity, rotacije klučow a aktualizacije firmware-firmy so awtomatizuja, zo by so zawodne riziko pomjeńšiło."
+        },
+        {
+          "title": "Event-Driven Telemetry Architecture",
+          "detail": "Streamingowe pipeline normalizuja, werifikuja a wodźaja podawki nastrojow za analytiku a kontrolu w nimale realnym času."
+        },
+        {
+          "title": "Wodźenske lětadło flotoweho wobsadźenja",
+          "detail": "Doglědowanje, alarmowanje a wotběhi zdalnych komandow skića spušćomny dohlad nad rozdźělenymi aktiwami."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naša IoT architektura wuruna snadne latency rozsudy na kromje z centralizowanym governancem, wobkedźbowanjom a wěstotnym dodźerženjom.",
+      "items": [
+        {
+          "title": "Awtonomija na kromje z Cloud koordinaciju",
+          "detail": "Kritiske lokalne operacije pokročuja so při degradaciji syće dale, mjeztym zo synchronizuja so stat z cloudowymi systemami, jeli k tomu steja."
+        },
+        {
+          "title": "Zrěčenske zarjadowanske šemy",
+          "detail": "Teamy za nastroje a platformy wužiwaja rjadowane šemy, zo bychu konzistencu telemetrije mjez wersijemi zachowali."
+        },
+        {
+          "title": "Zero-Trust Device Security",
+          "detail": "Mjezsobna awtentifikacija, najmjenje priwilegija a zaklučowany transport so při kóždym interakciji nastroja přesadźa."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT Device Management",
+      "Digital Twin Solutions",
+      "Zasadźenje Edge Computing",
+      "Real-Time Telemetry",
+      "Prediktiwne hladanje"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Digitalnej dwójnikaj",
+        "category": "Simulacija",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Kroma",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protokol",
+        "icon": "mqtt"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protokol",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Hardware",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Hardware",
+        "icon": "Raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Time Series DB",
+        "icon": "Influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Device & Edge strategija",
+        "summary": "Definujemy muše přizamknjenja, standardy nakromneho runtimeja a wěste zastaranje pólnych nastrojow.",
+        "deliverables": [
+          "Model zaměstnjenja a přizamknjenja nastrojow",
+          "Edge runtime a zasadźenje blueprint",
+          "Zakładna linija wěstoty floty"
+        ]
+      },
+      {
+        "title": "Telemetry & Control Plane",
+        "summary": "Natwarimy pipeli, kotrež podawki zapopadnu, digitalne dwójniki modelěruja a dźěłowe wotběhi dalokowodźenja zmóžnjeja.",
+        "deliverables": [
+          "Přiwzaće a wuhotowanje šemy zarjadowanjow w realnym času",
+          "Zwoprawdźenje digitalneho dwójnika a asset modela",
+          "Command and control API woršta"
+        ]
+      },
+      {
+        "title": "Operacije & skala",
+        "summary": "Operacionalizujemy management floty a kontrole spušćomnosće za IoT-wokoliny w produkciskim rozměrje.",
+        "deliverables": [
+          "Monitoring a alarmowanje floty nastrojow",
+          "Prediktiwne hladanje a spóznawanje anomalijow",
+          "Plan k spěchowanju rollouta a žiwjenskeho cykla"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Zwjazaj swoje nastroje",
+      "description": "Natwarće spušćomne IoT rozrisanja hotowe za realne produkciske wokoliny.",
+      "button": "Startuj swój IoT projekt"
+    }
+  }
+}

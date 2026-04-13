@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Sobre nosaltres",
+    "hero": {
+      "titlePrefix": "Construint la tecnologia de demà,",
+      "titleHighlight": "Avui dia",
+      "description": "Horizon Tech d.o.o. és una empresa tecnològica global amb seu a Sarajevo, que ofereix solucions de programari d'avantguarda a empreses de tres continents."
+    },
+    "sections": {
+      "mission": {
+        "title": "Missió",
+        "description": "Ajudem organitzacions a convertir idees ambicioses en productes digitals fiables que creen un valor empresarial mesurable.",
+        "points": [
+          "Alinea la lliurament de tecnologia amb resultats empresarials clars.",
+          "Construeix sistemes a llarg termini que es mantinguin mantenibles a mesura que els equips creixen.",
+          "Col·labora estretament amb els grups d'interès des de l'estratègia fins a l'execució."
+        ]
+      },
+      "expertise": {
+        "title": "Experiència",
+        "description": "Els nostres equips multidisciplinaris combinen la profunditat d'enginyeria amb el pensament de producte a través de les tecnologies modernes.",
+        "points": [
+          "Enginyeria web i de plataformes de nivell empresarial.",
+          "Arquitectura del núvol, automatització DevOps i infraestructura resilient.",
+          "IA/ML aplicada, fluxos de treball de dades i productes compatibles amb IoT."
+        ]
+      },
+      "approach": {
+        "title": "Enfocament",
+        "description": "Executem amb un model transparent i iteratiu que manté el lliurament previsible mentre redueix el risc del producte.",
+        "points": [
+          "Descobreix: defineix l'abast, les prioritats i les mètriques d'èxit des del principi.",
+          "Construeix: vau en increments focalitzats amb bucles de retroalimentació continus.",
+          "Optimitza: monitoritza els resultats i millora el rendiment amb el temps."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Preparat per transformar el teu negoci?",
+      "description": "Uneix-te a la llista creixent d'empreses que confien en Horizon Tech per oferir solucions innovadores i resultats excepcionals.",
+      "primary": "Comença",
+      "secondary": "Consulta històries d'èxit"
+    }
+  },
+  "contact": {
+    "badge": "Posa't en contacte",
+    "hero": {
+      "title": "Contacta'ns",
+      "description": "Tens algun projecte en ment? Ens encantaria escoltar-te. Contacta amb nosaltres per parlar de com podem ajudar-te a fer realitat les teves idees."
+    },
+    "info": {
+      "title": "Informació de contacte"
+    },
+    "booking": {
+      "title": "Reserva una reunió",
+      "description": "Programa una trucada gratuïta de 30 minuts de descoberta"
+    },
+    "methods": {
+      "email": {
+        "title": "Correu electrònic",
+        "description": "Envia'ns un correu electrònic quan vulguis",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Ubicació",
+        "description": "Amb seu a",
+        "value": "Sarajevo, Bòsnia i Hercegovina"
+      },
+      "response": {
+        "title": "Temps de resposta",
+        "description": "Normalment responem dins",
+        "value": "24-48 hores"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Nou projecte"
+      },
+      "support": {
+        "label": "Suport tècnic"
+      },
+      "partnerships": {
+        "label": "Col·laboracions"
+      },
+      "careers": {
+        "label": "Carreres"
+      },
+      "general": {
+        "label": "Investigació General"
+      }
+    },
+    "form": {
+      "title": "Envia'ns un missatge",
+      "success": "Gràcies pel teu missatge. Et respondrem en un termini de 24-48 hores.",
+      "error": "Alguna cosa ha anat malament. Si us plau, torna-ho a intentar o envia'ns un correu electrònic directament.",
+      "fullName": "Nom complet *",
+      "email": "Adreça de correu electrònic *",
+      "company": "Empresa",
+      "subject": "Assumpte *",
+      "message": "Missatge *",
+      "placeholders": {
+        "name": "El teu nom",
+        "email": "you@example.com",
+        "company": "La teva empresa",
+        "subject": "En què podem ajudar?",
+        "message": "Explica'ns el teu projecte o consulta..."
+      },
+      "validation": {
+        "required": {
+          "name": "Es requereix el nom complet.",
+          "email": "Es requereix una adreça de correu electrònic.",
+          "subject": "Si us plau, trieu un tema.",
+          "message": "Cal un missatge."
+        },
+        "email": "Si us plau, introdueix una adreça de correu electrònic vàlida.",
+        "messageMinLength": "El missatge ha de tenir almenys {{count}} caràcters."
+      },
+      "sending": "Enviant...",
+      "submit": "Enviar missatge"
+    },
+    "reasonsTitle": "Per què treballar amb nosaltres?",
+    "reasons": [
+      "Experiència en desenvolupament de programari full-stack",
+      "Especialistes en IA/ML i arquitectura al núvol",
+      "Desenvolupament àgil amb comunicació transparent",
+      "Suport i manteniment a llarg termini"
+    ],
+    "custom": {
+      "title": "Solucions personalitzades",
+      "description": "Busques una solució a mida? Treballem estretament amb els clients per entendre necessitats úniques i oferir programari personalitzat que generi resultats mesurables.",
+      "cta": "Parla del teu projecte"
+    },
+    "faq": {
+      "title": "Tens més preguntes?",
+      "description": "Consulta la nostra secció de preguntes freqüents per a respostes ràpides",
+      "cta": "Consulta les preguntes freqüents"
+    }
+  },
+  "team": {
+    "badge": "El nostre equip",
+    "hero": {
+      "titlePrefix": "Coneix les ments que hi ha darrere",
+      "titleHighlight": "Horizon Tech",
+      "description": "Un equip divers de tecnòlegs, dissenyadors i estrategs que construeixen junts productes digitals d'alt impacte."
+    },
+    "section": {
+      "title": "Equip de Lideratge",
+      "description": "Els líders experimentats que guien la visió i el creixement d'Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Fundador, CEO i CTO",
+        "bio": "Líder visionari i arquitecte tècnic amb 10+ anys d'experiència en programari empresarial, especialitzat en IA/ML, plataformes al núvol i arquitectura de productes escalable.",
+        "expertise": [
+          "IA/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Arquitectura de solucions",
+          "Enginyeria del Núvol"
+        ]
+      },
+      "ahmet": {
+        "role": "Arquitecte en Cap de Seguretat",
+        "bio": "Especialista en ciberseguretat centrat en arquitectura de seguretat empresarial, infraestructura segura on-local i lliurament de compliment en primer lloc per a entorns regulats.",
+        "expertise": [
+          "Ciberseguretat",
+          "Sistemes locals",
+          "Arquitectura de Seguretat",
+          "Compliment",
+          "Seguretat d'infraestructures"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Correu electrònic {{name}}",
+      "linkedin": "{{name}} perfil de LinkedIn"
+    },
+    "culture": {
+      "title": "Vida a Horizon Tech",
+      "description": "Fomentem una cultura d'innovació, col·laboració i aprenentatge continu",
+      "remoteFirst": {
+        "title": "Cultura Remote-First",
+        "description": "Treballa des de qualsevol lloc amb horaris flexibles i un enfocament en els resultats, no en la ubicació."
+      },
+      "collaborative": {
+        "title": "Entorn col·laboratiu",
+        "description": "Esdeveniments regulars d'equip, sessions d'intercanvi de coneixements i col·laboració interfuncional."
+      },
+      "workLife": {
+        "title": "Equilibri entre la vida laboral i personal",
+        "description": "Política de vacances generosa, suport en salut mental i respecte pel temps personal."
+      },
+      "innovation": {
+        "title": "Temps d'Innovació",
+        "description": "20% de temps per a projectes personals, hackathons i explorar noves tecnologies."
+      },
+      "stats": {
+        "teamMembers": "Membres de l'equip",
+        "countries": "Països",
+        "techStacks": "Piles Tecnològiques",
+        "remoteReady": "Preparat a distància"
+      }
+    },
+    "cta": {
+      "title": "Vols unir-te al nostre equip?",
+      "description": "Sempre busquem persones talentoses que es preocupin per l'artesania, la propietat i la innovació.",
+      "button": "Posa't en contacte"
+    }
+  },
+  "careers": {
+    "badge": "Uneix-te al nostre equip",
+    "hero": {
+      "titlePrefix": "Construeix el Futur",
+      "titleHighlight": "Amb nosaltres",
+      "description": "Uneix-te a un equip d'enginyers que creen programari d'avantguarda per a clients globals. Treballa a distància, creix contínuament i crea un impacte real.",
+      "button": "Vegeu Posicions"
+    },
+    "process": {
+      "title": "El nostre procés de contractació",
+      "description": "Transparent, eficient i respectuós amb el teu temps",
+      "steps": [
+        {
+          "title": "Sol·licita",
+          "description": "Presenta la teva sol·licitud i la revisarem en un termini de 3 dies laborables."
+        },
+        {
+          "title": "Xerrada inicial",
+          "description": "Una videotrucada de 30 minuts per parlar de la teva experiència i expectatives."
+        },
+        {
+          "title": "Tècnic",
+          "description": "Entrevista tècnica o exercici pràctic per mostrar les teves habilitats."
+        },
+        {
+          "title": "Oferta",
+          "description": "Coneix l'equip i rep la teva oferta per unir-te a Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Vacants",
+      "description": "Troba la teva propera oportunitat i uneix-te al nostre equip en creixement",
+      "unavailable": "No accepto sol·licituds en aquest moment",
+      "apply": "Aplica ara",
+      "noMatch": "No veus el paper perfecte?",
+      "sendCv": "Envia'ns el teu CV",
+      "listings": [
+        {
+          "title": "Enginyer sènior de full-stack",
+          "department": "Enginyeria",
+          "location": "Remot (fusos horaris de la UE)",
+          "type": "A temps complet",
+          "description": "Construeix aplicacions empresarials escalables utilitzant React, Node.js i tecnologies al núvol.",
+          "tags": [
+            "React",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "Enginyer DevOps",
+          "department": "Enginyeria",
+          "location": "Sarajevo / Remote",
+          "type": "A temps complet",
+          "description": "Dissenyar i mantenir canals CI/CD, infraestructura com a codi i sistemes de monitoratge.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "Enginyer d'IA/ML",
+          "department": "Laboratori d'Innovació",
+          "location": "Remot",
+          "type": "A temps complet",
+          "description": "Desenvolupar models d'aprenentatge automàtic i solucions d'IA per a clients empresarials.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Dissenyador de producte",
+          "department": "Disseny",
+          "location": "Remot",
+          "type": "A temps complet",
+          "description": "Crea experiències d'usuari boniques i intuïtives per a aplicacions empresarials complexes.",
+          "tags": [
+            "Figma",
+            "Recerca d'usuaris",
+            "UI/UX",
+            "Sistemes de disseny"
+          ]
+        },
+        {
+          "title": "Arquitecte de solucions",
+          "department": "Enginyeria",
+          "location": "Remot",
+          "type": "A temps complet",
+          "description": "Dissenya solucions tècniques integrals i guia els clients en la transformació digital.",
+          "tags": [
+            "Arquitectura del núvol",
+            "Disseny del sistema",
+            "Consultoria"
+          ]
+        },
+        {
+          "title": "Redactor tècnic",
+          "department": "Operacions",
+          "location": "Remot",
+          "type": "A temps parcial",
+          "description": "Crea documentació completa, tutorials i contingut tècnic.",
+          "tags": [
+            "Documentació",
+            "API Docs",
+            "Redacció tècnica"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Preguntes sobre treballar aquí?",
+      "description": "Ens encantaria escoltar-te. Contacta amb nosaltres i respondrem qualsevol pregunta sobre la vida a Horizon Tech.",
+      "button": "Contacta'ns"
+    }
+  },
+  "caseStudies": {
+    "badge": "Històries d'èxit",
+    "hero": {
+      "titlePrefix": "Lliurant resultats que",
+      "titleHighlight": "Matèria",
+      "description": "Descobreix com hem ajudat empreses de diferents sectors a transformar les operacions mitjançant tecnologia pràctica i d'alt impacte.",
+      "tags": {
+        "delivery": "Lliurament d'enginyeria",
+        "outcomes": "Resultats mesurats"
+      }
+    },
+    "stats": {
+      "projects": "Projectes lliurats",
+      "clients": "Clients satisfets",
+      "efficiency": "Guany mitjà d'eficiència",
+      "retention": "Retenció de clients"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Serveis financers",
+        "title": "Migració i modernització al núvol",
+        "description": "Hem migrat sistemes bancaris antics a la infraestructura al núvol d'AWS sense cap temps d'inactivitat.",
+        "challenge": "Arquitectura monolítica antiga que causa problemes d'escalabilitat",
+        "result": "Migració amb èxit a microserveis a AWS",
+        "metrics": [
+          {
+            "label": "Reducció de costos",
+            "value": "40%"
+          },
+          {
+            "label": "Guany de rendiment",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Microserveis",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "Solucions HealthTech",
+        "industry": "Sanitat",
+        "title": "Plataforma de diagnòstic impulsada per IA",
+        "description": "Va construir models d'aprenentatge automàtic per a l'anàlisi d'imatges mèdiques amb una precisió del 95%+.",
+        "challenge": "Els processos de diagnòstic manual triguen massa",
+        "result": "Diagnòstics automatitzats amb IA/ML",
+        "metrics": [
+          {
+            "label": "Temps estalviat",
+            "value": "70%"
+          },
+          {
+            "label": "Precisió",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "React",
+          "Sanitat"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Gegant del comerç electrònic",
+        "industry": "Venda al detall",
+        "title": "Tauler d'Analítica en Temps Real",
+        "description": "He desenvolupat una plataforma BI que processa 10M+ esdeveniments diaris.",
+        "challenge": "No hi ha visibilitat en temps real sobre les mètriques clau del negoci",
+        "result": "Plataforma d'anàlisi i informació en temps real",
+        "metrics": [
+          {
+            "label": "Esdeveniments/Dia",
+            "value": "10M+"
+          },
+          {
+            "label": "Temps de resposta",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "React",
+          "Enginyeria de Dades"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Preparat per escriure la teva història d'èxit?",
+      "description": "Parlem de com podem ajudar-te a aconseguir resultats similars i escalar amb confiança."
+    },
+    "filters": {
+      "title": "Filtre industrial",
+      "all": "Totes les indústries",
+      "empty": "Cap cas d'estudi coincideix amb el filtre de la indústria seleccionat."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Perspectives i idees de",
+      "titleHighlight": "Horizon Tech",
+      "description": "Tutorials tècnics, coneixements del sector i lliçons pràctiques de treballs reals de lliurament."
+    },
+    "categories": [
+      "Totes les entrades",
+      "Arquitectura del núvol",
+      "DevOps",
+      "IA/ML",
+      "Frontend",
+      "Backend",
+      "Dades"
+    ],
+    "featuredPost": {
+      "id": "destacada",
+      "title": "El futur del desenvolupament cloud-native: tendències a seguir el 2025",
+      "excerpt": "Explora les últimes tendències en desenvolupament cloud-native, des d'arquitectures serverless fins a computació a la vora.",
+      "author": {
+        "name": "Horizon Tech Editorial"
+      },
+      "date": "15 de novembre de 2025",
+      "readTime": "8 minuts de lectura",
+      "category": "Arquitectura del núvol",
+      "tags": [
+        "Núvol",
+        "Azure",
+        "Tendències"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Construir microserveis escalables amb Azure Kubernetes Service",
+        "excerpt": "Una guia pràctica per arquitecturar i desplegar microserveis utilitzant AKS.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "12 de novembre de 2025",
+        "readTime": "6 minuts de lectura",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Microserveis",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Aprenentatge automàtic en producció: lliçons apreses",
+        "excerpt": "Lliçons provades sobre el terreny de desplegar models d'aprenentatge automàtic a gran escala.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "10 de novembre de 2025",
+        "readTime": "10 minuts de lectura",
+        "category": "IA/ML",
+        "tags": [
+          "Aprenentatge automàtic",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Què hi ha de nou i per què és important",
+        "excerpt": "Una immersió profunda en les característiques de React 19 i les implicacions de rendiment.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "8 de novembre de 2025",
+        "readTime": "5 minuts de lectura",
+        "category": "Frontend",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Desenvolupament web"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Subscriu-te al nostre butlletí",
+      "description": "Rep els últims articles, tutorials i perspectives setmanalment.",
+      "placeholder": "your.email@example.com",
+      "button": "Subscriu-te",
+      "note": "Res de correu brossa. Dessubscriu-te quan vulguis."
+    },
+    "index": {
+      "hero": {
+        "title": "Blog d'enginyeria d'Horizon Tech",
+        "description": "Notes de camp i patrons pràctics d'equips que construeixen productes d'IA, sistemes empresarials i plataformes de núvol fiables."
+      },
+      "filters": {
+        "postsInView": "{{count}} publicacions a la vista"
+      },
+      "featured": {
+        "badge": "Últims",
+        "readCta": "Llegeix l'article destacat"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Carregant perfil...",
+    "title": "Configuració del perfil",
+    "subtitle": "Gestiona la configuració i preferències del teu compte",
+    "photoButton": "Canvi de foto",
+    "tabs": {
+      "general": "General",
+      "security": "Seguretat",
+      "preferences": "Preferències"
+    },
+    "messages": {
+      "profileUpdated": "Perfil actualitzat amb èxit",
+      "profileUpdateFailed": "No s'ha pogut actualitzar el perfil",
+      "passwordsNoMatch": "Les noves contrasenyes no coincideixen",
+      "passwordTooShort": "La contrasenya ha de tenir almenys 8 caràcters",
+      "passwordChanged": "Contrasenya canviada amb èxit",
+      "passwordChangeFailed": "No s'ha pogut canviar la contrasenya",
+      "optedOut": "Vaig optar per no participar en els informes de pràctiques",
+      "optedIn": "Vaig optar per practicar informes",
+      "optOutFailed": "No s'ha pogut actualitzar l'estat de la retirada"
+    },
+    "general": {
+      "title": "Informació personal",
+      "description": "Actualitza les teves dades personals i la informació de contacte",
+      "firstName": "Nom de pila",
+      "firstNamePlaceholder": "John",
+      "lastName": "Cognom",
+      "lastNamePlaceholder": "Cérvola",
+      "email": "Adreça de correu electrònic",
+      "emailNotice": "El correu electrònic no es pot canviar. Contacta amb el suport si necessites ajuda.",
+      "phone": "Número de telèfon",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Canvis de desament"
+    },
+    "security": {
+      "title": "Configuració de seguretat",
+      "description": "Gestiona la teva contrasenya i preferències de seguretat",
+      "currentPassword": "Contrasenya actual",
+      "currentPasswordPlaceholder": "Introdueix la contrasenya actual",
+      "newPassword": "Nova contrasenya",
+      "newPasswordPlaceholder": "Introdueix una nova contrasenya",
+      "confirmPassword": "Confirma la nova contrasenya",
+      "confirmPasswordPlaceholder": "Confirma la nova contrasenya",
+      "passwordHint": "Ha de tenir almenys 8 caràcters",
+      "changePassword": "Canvia la contrasenya"
+    },
+    "preferences": {
+      "title": "Preferències de notificacions",
+      "description": "Controla com reps les actualitzacions i notificacions",
+      "email": {
+        "title": "Notificacions per correu electrònic",
+        "description": "Rep actualitzacions i alertes per correu electrònic"
+      },
+      "sms": {
+        "title": "Notificacions SMS",
+        "description": "Rep alertes importants per missatge de text"
+      },
+      "optOut": {
+        "title": "Optar per no participar en els informes de pràctiques",
+        "description": "Amaga els teus informes al propietari de la consulta"
+      },
+      "actions": {
+        "title": "Accions del compte",
+        "downloadData": "Descàrrega de dades del compte",
+        "deleteAccount": "Elimina el compte"
+      }
+    }
+  },
+  "support": {
+    "backHome": "De tornada a casa",
+    "title": "Centre de Suport",
+    "subtitle": "Rep ajuda amb els nostres serveis de desenvolupament de programari",
+    "cards": {
+      "email": {
+        "title": "Suport per correu electrònic",
+        "description": "Envia'ns un correu electrònic per a qualsevol consulta"
+      },
+      "project": {
+        "title": "Consultes de projectes",
+        "description": "Comenta els requisits del teu projecte",
+        "button": "Contacta'ns"
+      },
+      "resources": {
+        "title": "Recursos",
+        "description": "Recursos tècnics i guies",
+        "button": "Consulta recursos"
+      }
+    },
+    "faqTitle": "Preguntes freqüents",
+    "faqDescription": "Respostes ràpides a preguntes habituals",
+    "faqs": [
+      {
+        "question": "Quins serveis ofereix Horizon Tech?",
+        "answer": "Oferim desenvolupament de programari personalitzat, solucions d'IA/ML, arquitectura al núvol, DevOps, intel·ligència empresarial i serveis d'IoT."
+      },
+      {
+        "question": "Com puc començar un projecte amb Horizon Tech?",
+        "answer": "Contacta'ns per formulari o correu electrònic amb els teus requisits. Programarem una trucada de descobriment i compartirem una proposta."
+      },
+      {
+        "question": "Ofereixes suport i manteniment continus?",
+        "answer": "Sí. Oferim paquets de suport i manteniment que inclouen correccions d'errors, actualitzacions de seguretat i millores en funcionalitats."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "De tornada a casa",
+    "title": "Recursos tècnics",
+    "subtitle": "Guies, tutorials i bones pràctiques de l'equip d'Horizon Tech",
+    "hub": {
+      "title": "Centre d'Aprenentatge",
+      "description": "Explora els nostres recursos tècnics seleccionats sobre núvol, IA/ML, DevOps i desenvolupament de programari modern.",
+      "note": "Aquests materials es basen en l'experiència real del projecte i s'actualitzen regularment."
+    },
+    "categories": [
+      {
+        "icon": "Núvol",
+        "title": "Arquitectura del núvol",
+        "description": "Azure, AWS i patrons nadius al núvol",
+        "resources": [
+          {
+            "title": "Bones pràctiques d'arquitectura Azure",
+            "type": "Guia"
+          },
+          {
+            "title": "Estratègies de migració al núvol",
+            "type": "Article"
+          }
+        ]
+      },
+      {
+        "icon": "cervell",
+        "title": "IA i aprenentatge automàtic",
+        "description": "Models d'aprenentatge automàtic, ciència de dades i integració d'IA",
+        "resources": [
+          {
+            "title": "Introduction to Azure ML",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Construcció de pipelines de producció ML",
+            "type": "Guia"
+          }
+        ]
+      },
+      {
+        "icon": "Escenaris",
+        "title": "DevOps i Plataforma",
+        "description": "CI/CD, infraestructura com a codi, automatització",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Infraestructura com a codi amb Terraform",
+            "type": "Guia"
+          }
+        ]
+      },
+      {
+        "icon": "Codi",
+        "title": "Desenvolupament de programari",
+        "description": ".NET, React i pràctiques modernes de desenvolupament",
+        "resources": [
+          {
+            "title": "Arquitectura neta a .NET",
+            "type": "Guia"
+          },
+          {
+            "title": "Millors pràctiques de React",
+            "type": "Article"
+          }
+        ]
+      },
+      {
+        "icon": "Base de dades",
+        "title": "Dades i Anàlisi",
+        "description": "Plataformes de BI, emmagatzematge de dades i analítica",
+        "resources": [
+          {
+            "title": "Disseny de taulers de control de Power BI",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Arquitectura de magatzem de dades",
+            "type": "Guia"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Necessites formació personalitzada?",
+      "description": "Oferim tallers personalitzats per a equips d'enginyeria i producte",
+      "text": "Necessites formació pràctica en equip? Oferim tallers personalitzats sobre arquitectura al núvol, DevOps i pràctiques modernes de lliurament.",
+      "button": "Posa't en contacte"
+    }
+  },
+  "unauthorized": {
+    "title": "Accés denegat",
+    "description": "No tens permís per accedir a aquesta pàgina. Contacta amb el teu administrador si creus que és un error.",
+    "primary": "Ves a Perfil",
+    "secondary": "De tornada a casa"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Publicació no trobada",
+      "description": "No existeix cap entrada de blog sobre slug: {{slug}}",
+      "back": "Tornar al blog"
+    },
+    "back": "Tornar al blog",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Estudi de cas no trobat",
+      "description": "No existeix cap estudi de cas per a id: {{id}}",
+      "back": "Tornant als estudis de cas"
+    },
+    "back": "Tornant als estudis de cas",
+    "sections": {
+      "executiveSummary": "Resum executiu",
+      "businessChallenge": "Repte empresarial",
+      "technicalSolution": "Solució tècnica",
+      "architectureDecisions": "Decisions arquitectòniques",
+      "technologyStack": "Pila tecnològica",
+      "resultsImpact": "Resultats i impacte"
+    },
+    "client": "Client",
+    "keyOutcomes": "Resultats clau",
+    "decision": "Decisió {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Senyal perdut",
+      "title": "Pàgina no trobada",
+      "description": "La ruta que vas demanar no existeix o s'ha traslladat. Tornem a un punt final vàlid d'Horizon Tech.",
+      "requestedPath": "Ruta sol·licitada",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Resolent el gràfic de rutes... Fracassat",
+        "line2": "Raó: no hi ha un mòdul de ruta compatible",
+        "line3": "Protocol de reserva activat",
+        "line4": "Utilitza una de les dreceres següents per continuar"
+      },
+      "links": {
+        "home": "Pàgina principal",
+        "services": "Serveis",
+        "blog": "Blog",
+        "caseStudies": "Estudis de cas"
+      }
+    },
+    "runtime": {
+      "badge": "Error en temps d'execució",
+      "title": "Alguna cosa s'ha trencat en aquesta pàgina",
+      "description": "Un problema inesperat va interrompre la renderització. Pots tornar-ho a intentar amb seguretat, o tornar a la pàgina principal.",
+      "retry": "Reintent",
+      "home": "Tornar a la pàgina principal",
+      "unknown": "Error d'execució desconegut"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Gestió del blog",
+      "subtitle": "Crea, edita i gestiona les teves entrades del blog",
+      "newPost": "Nova publicació",
+      "seedData": "Dades Llavor",
+      "allPosts": "Totes les entrades",
+      "published": "Publicat",
+      "draft": "Draft",
+      "featured": "Destacats",
+      "setFeatured": "Escenografia destacada",
+      "removeFeatured": "Eliminar destacats",
+      "table": {
+        "title": "Títol",
+        "category": "Categoria",
+        "status": "Estat",
+        "date": "Data",
+        "actions": "Accions"
+      },
+      "empty": {
+        "message": "Encara no hi ha entrades al blog. Crea la teva primera entrada o les dades de mostra de llavors.",
+        "seed": "Dades de mostres de llavor",
+        "create": "Crea una publicació"
+      },
+      "delete": {
+        "title": "Esborrar la publicació",
+        "confirmation": "Estàs segur que vols esborrar aquesta publicació? Aquesta acció no es pot desfer.",
+        "delete": "Esborrar",
+        "cancel": "Cancel·la"
+      }
+    },
+    "editor": {
+      "bannerHint": "Es mostra com una pancarta ampla a la part superior de la publicació",
+      "bannerImage": "Imatge del banner",
+      "coverHint": "Es mostra a les targetes de llistat del blog",
+      "coverImage": "Imatge de portada",
+      "editSlug": "Edita slug",
+      "posts": "Publicacions",
+      "publish": "Publica",
+      "update": "Actualització",
+      "form": {
+        "contentPlaceholder": "Escriu el contingut de la teva publicació aquí...",
+        "excerptPlaceholder": "Breu resum de la publicació...",
+        "pickDate": "Tria una data",
+        "readTimePlaceholder": "per exemple, 5 minuts de lectura",
+        "titlePlaceholder": "Títol de la publicació..."
+      },
+      "meta": {
+        "publisher": "Editorial",
+        "unknownAuthor": "Autor desconegut"
+      },
+      "modes": {
+        "edit": "Edita",
+        "editOnly": "Només edició",
+        "preview": "Previsualització",
+        "previewOnly": "Només previsualització",
+        "sideBySide": "Un al costat de l'altre",
+        "split": "Escissió"
+      },
+      "tags": {
+        "heading": "Etiquetes",
+        "placeholder": "Afegeix una etiqueta..."
+      },
+      "translations": {
+        "auto": "Auto",
+        "autoTranslate": "Traducció automàtica",
+        "clear": "Clar",
+        "existing": "Existents",
+        "heading": "Traduccions",
+        "language": "Llengua",
+        "languages": "Llengües",
+        "edit": "Edita",
+        "manual": "Manual",
+        "preview": "Previsualització",
+        "searchPlaceholder": "Cerca llengües...",
+        "translate": "Tradueix"
+      }
+    },
+    "caseStudies": {
+      "title": "Estudis de cas",
+      "subtitle": "Gestionar estudis de cas i mostres de projectes",
+      "newCaseStudy": "Nou estudi de cas",
+      "seedData": "Dades Llavor",
+      "allCaseStudies": "Tots els estudis de cas",
+      "published": "Publicat",
+      "draft": "Draft",
+      "table": {
+        "title": "Títol",
+        "industry": "Indústria",
+        "client": "Client",
+        "status": "Estat",
+        "actions": "Accions"
+      },
+      "empty": {
+        "message": "Encara no hi ha estudis de cas.",
+        "seed": "Dades Llavor",
+        "create": "Crea primer"
+      },
+      "delete": {
+        "title": "Elimina l'estudi de cas",
+        "confirmation": "Estàs segur que vols eliminar aquest estudi de cas? Aquesta acció no es pot desfer.",
+        "delete": "Esborrar",
+        "cancel": "Cancel·la"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Estudis de cas",
+      "published": "Publicat",
+      "draft": "Draft",
+      "update": "Actualització",
+      "create": "Crea",
+      "sections": {
+        "basicInfo": "Informació bàsica",
+        "narrative": "Narrativa",
+        "architectureDecisions": "Decisions arquitectòniques",
+        "techStack": "Tech Stack",
+        "results": "Resultats",
+        "tags": "Etiquetes"
+      },
+      "fields": {
+        "title": "Títol",
+        "titlePlaceholder": "Títol de l'estudi de cas",
+        "slug": "Slug",
+        "slugPlaceholder": "generat automàticament a partir del títol",
+        "client": "Client",
+        "clientPlaceholder": "Nom del client",
+        "industry": "Indústria",
+        "industryPlaceholder": "Sectors seleccionats",
+        "description": "Descripció",
+        "descriptionPlaceholder": "Breu descripció (mostrada a les targetes)",
+        "executiveSummary": "Resum executiu",
+        "executiveSummaryPlaceholder": "Visió general d'alt nivell de l'enfrontament",
+        "challenge": "Repte",
+        "challengePlaceholder": "Quin problema va afrontar el client?",
+        "solution": "Solució",
+        "solutionPlaceholder": "Com es va resoldre el problema?",
+        "decision": "Decisió",
+        "decisionPlaceholder": "Què es va decidir",
+        "rationale": "Justificació",
+        "rationalePlaceholder": "Per què es va triar aquest enfocament",
+        "metric": "Mètrica",
+        "metricPlaceholder": "per exemple, latència d'assentament",
+        "value": "Valor",
+        "valuePlaceholder": "per exemple, -63% o 4,8h -> 11m",
+        "resultDescription": "Descripció",
+        "resultDescriptionPlaceholder": "Què significa aquest resultat",
+        "techPlaceholder": "Afegeix tecnologia (prem Enter)",
+        "tagPlaceholder": "Afegir etiqueta (prem Enter)"
+      },
+      "add": "Afegeix",
+      "noArchDecisions": "Encara no s'han afegit decisions d'arquitectura.",
+      "noResults": "Encara no s'han afegit resultats.",
+      "decisionLabel": "Decisió {{number}}",
+      "resultLabel": "Resultat {{number}}",
+      "controls": {
+        "published": "Publicat",
+        "publishedDescription": "Fes que aquest estudi de cas sigui visible públicament",
+        "featured": "Destacats",
+        "featuredDescription": "Destaca aquest estudi de cas"
+      }
+    },
+    "imageCrop": {
+      "apply": "Sol·licita",
+      "cancel": "Cancel·la",
+      "cropTitle": "Imatge de retallat",
+      "dropText": "Deixa una imatge aquí o fes clic per pujar-la",
+      "flipHorizontal": "Gir horitzontal",
+      "flipVertical": "Flip vertical",
+      "replace": "Substituir",
+      "reset": "Reinici",
+      "rotateLeft": "Gira a l'esquerra",
+      "rotateRight": "Gira cap a la dreta",
+      "uploading": "Pujant...",
+      "toast": {
+        "invalidFile": "Fitxer invàlid",
+        "invalidFileDesc": "Si us plau, puja un fitxer d'imatge vàlid.",
+        "uploadFailed": "Fallida la pujada",
+        "uploadFailedDesc": "Alguna cosa ha anat malament. Si us plau, torna-ho a intentar.",
+        "uploaded": "Imatge pujada",
+        "uploadedDesc": "La teva imatge s'ha pujat amb èxit."
+      }
+    }
+  }
+}

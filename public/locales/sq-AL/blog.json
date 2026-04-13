@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Të gjitha"
+  },
+  "categories": {
+    "aiEngineering": "Inxhinieri AI",
+    "enterpriseArchitecture": "Arkitektura e ndërmarrjes",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Sistemet e automatizimit",
+    "softwareReliabilityDesign": "Besueshmëria dhe dizajni i softuerit"
+  },
+  "readTime": "{{minutes}} min lexuar",
+  "tagsLabel": "Etiketa",
+  "relatedPosts": "Postimet e ngjashme",
+  "author": {
+    "role": "Botues"
+  },
+  "editor": {
+    "emptyPreview": "Filloni të shkruani për të parë një pamje paraprake..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Inxhinieri e shpejtë",
+    "observability": "Vëzhgueshmëria",
+    "safety": "Siguri",
+    "domainDesign": "Dizajni i domenit",
+    "integration": "Integrimi",
+    "governance": "Qeverisja",
+    "platformStrategy": "Strategjia e platformës",
+    "platformEngineering": "Inxhinieri Platforme",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Përvoja e zhvilluesit",
+    "eventDriven": "Drejtuar nga ngjarjet",
+    "workflowOrchestration": "Orkestrimi i rrjedhës së punës",
+    "controlPlanes": "Avionët e kontrollit",
+    "resilience": "Elasticiteti",
+    "sre": "SRE",
+    "slos": "SLO-të",
+    "failureModes": "Mënyrat e dështimit",
+    "resilienceEngineering": "Inxhinieri Elasticiteti",
+    "evaluation": "Vlerësimi",
+    "qualityEngineering": "Inxhinieri Cilësore",
+    "datasets": "Grupet e të dhënave",
+    "releaseManagement": "Menaxhimi i lëshimeve",
+    "incidentManagement": "Menaxhimi i incidenteve",
+    "architectureEvolution": "Evolucioni i arkitekturës",
+    "riskReduction": "Reduktimi i rrezikut",
+    "postmortems": "Pas vdekjes",
+    "progressiveDelivery": "Dorëzimi progresiv",
+    "canaryReleases": "Lëshimet e kanarineve",
+    "featureFlags": "Flamujt e veçorive"
+  }
+}

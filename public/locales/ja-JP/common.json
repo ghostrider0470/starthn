@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "company": "会社",
+    "solutions": "解決策",
+    "resources": "資料",
+    "innovationLab": "イノベーションラボ",
+    "contact": "連絡先",
+    "about": {
+      "title": "概要",
+      "description": "私たちの使命、ビジョン、そして物語"
+    },
+    "team": {
+      "title": "チーム",
+      "description": "Horizon Techの背後にいる人々に会おう"
+    },
+    "careers": {
+      "title": "経歴",
+      "description": "私たちのチームに加わり、未来を築きましょう"
+    },
+    "enterpriseSoftware": {
+      "title": "エンタープライズソフトウェア開発",
+      "description": "最新のフレームワークを用いたカスタムエンタープライズアプリケーション"
+    },
+    "aiMl": {
+      "title": "AI、機械学習、ビジネスインテリジェンス",
+      "description": "完全なAI/MLパイプラインとBIダッシュボード"
+    },
+    "cloudArchitecture": {
+      "title": "クラウドアーキテクチャとインフラストラクチャ",
+      "description": "マルチクラウドソリューションとコンテナオーケストレーション"
+    },
+    "iot": {
+      "title": "IoTとエッジコンピューティング",
+      "description": "接続デバイスエコシステムとデジタルツイン"
+    },
+    "devops": {
+      "title": "DevOpsとプラットフォームエンジニアリング",
+      "description": "CI/CDパイプラインとインフラをコードとして"
+    },
+    "digitalTransformation": {
+      "title": "デジタルトランスフォーメーションと戦略",
+      "description": "企業変革ロードマップと助言"
+    },
+    "caseStudies": {
+      "title": "ケーススタディ",
+      "description": "クライアントからの成功事例",
+      "featured": {
+        "title": "注目症例研究",
+        "description": "完全な納品契約の深掘り"
+      }
+    },
+    "blog": {
+      "title": "ブログ",
+      "description": "洞察、チュートリアル、業界動向",
+      "featured": {
+        "title": "特集ブログ記事",
+        "description": "最新のエンジニアリング洞察の一つをお読みください"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "イノベーションラボ概要",
+      "description": "すべての研究分野および実験トラックを見る"
+    },
+    "innovationLabAiSystems": {
+      "title": "応用AIシステム",
+      "description": "本番環境対応の機械学習アーキテクチャパターン"
+    },
+    "innovationLabNlp": {
+      "title": "多言語NLP",
+      "description": "インタラクティブな自然言語処理機能"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "遺伝的アルゴリズムシミュレーション",
+      "description": "インタラクティブ環境における進化的最適化"
+    },
+    "navigation": "ナビゲーション",
+    "skipToContent": "内容へスキップ",
+    "toggleMenu": "メニューの切り替え",
+    "dashboard": "ダッシュボード",
+    "myWorkspace": "マイ・ワークスペース",
+    "profile": "プロフィール",
+    "adminPanel": "管理パネル",
+    "practiceManagement": "プラクティスマネジメント",
+    "logOut": "ログアウト",
+    "education": {
+      "title": "技術リソース",
+      "description": "Horizon Techチームによるガイド、チュートリアル、ベストプラクティス"
+    },
+    "support": {
+      "title": "サポートセンター",
+      "description": "ソフトウェア開発サービスのサポートを受けてください"
+    }
+  },
+  "footer": {
+    "description": "ボスニア・サラエボに拠点を置くソフトウェア開発スタートアップ。カスタムソフトウェア、AI/MLソリューション、クラウドアーキテクチャ、自動化システムを構築しています。",
+    "features": "特徴",
+    "resources": "資料",
+    "company": "会社",
+    "legal": "法的",
+    "dashboard": "ダッシュボード",
+    "components": "構成要素",
+    "documentation": "文書",
+    "apiReference": "API参照",
+    "gettingStarted": "はじめに",
+    "examples": "例",
+    "community": "コミュニティ",
+    "blog": "ブログ",
+    "caseStudies": "ケーススタディ",
+    "innovationLabOverview": "イノベーションラボ概要",
+    "appliedAiSystems": "応用AIシステム",
+    "nlpDemo": "多言語NLP",
+    "geneticAlgorithmSimulation": "遺伝的アルゴリズムシミュレーション",
+    "featuredBlogPost": "特集ブログ記事",
+    "featuredCaseStudy": "注目症例研究",
+    "about": "概要",
+    "contact": "連絡先",
+    "partners": "パートナー",
+    "careers": "経歴",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "cookiePolicy": "クッキーポリシー",
+    "license": "免許",
+    "copyright": "© {{year}} ホライゾン・テック。無断転載を禁じます。",
+    "subscribe": "ニュースレターを購読する"
+  },
+  "header": {
+    "badge": "エンタープライズテクノロジーソリューション",
+    "titleLine1": "ビジネスを変革しましょう",
+    "titleLine2": "最先端技術",
+    "description": "エンタープライズソフトウェア開発やAI搭載のビジネスインテリジェンスからクラウドインフラ、IoTソリューションまで、イノベーションを促進し成長を加速させる包括的な技術サービスを提供しています。",
+    "getStarted": "始めよう",
+    "exploreSolutions": "ソリューションを探る",
+    "trustedBy": "先見の明を持つ企業に信頼されています",
+    "microsoftPartner": "マイクロソフトパートナー",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "エンタープライズソリューション"
+  },
+  "mobileNav": {
+    "navigation": "モバイルナビゲーション",
+    "home": "ホーム",
+    "solutions": "解決策",
+    "caseStudies": "判例",
+    "aiSystems": "AIラボ",
+    "blog": "ブログ",
+    "resources": "資料",
+    "contact": "連絡先"
+  },
+  "sideNav": {
+    "scroll": "スクロール",
+    "navigateTo": "{{section}}へナビゲート",
+    "sections": {
+      "home": "ホーム",
+      "solutions": "解決策",
+      "credibility": "信頼性",
+      "partners": "パートナー",
+      "caseStudies": "ケーススタディ",
+      "blog": "ブログ",
+      "innovationLab": "イノベーションラボ",
+      "faq": "FAQ"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "言語の切り替え",
+    "searchPlaceholder": "言語を検索...",
+    "noResults": "言語は見つかりませんでした。"
+  },
+  "common": {
+    "menu": "メニュー",
+    "account": "アカウント"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "最近の症例研究",
+      "description": "フィンテック、医療、物流、公共部門プログラム全体の成果のスナップショット。",
+      "cta": "すべてのケーススタディを見る"
+    },
+    "blog": {
+      "title": "ブログの最新情報",
+      "description": "最近のAI、プラットフォーム、クラウドデリバリーの実用的なエンジニアリングノート。",
+      "cta": "全記事を読む"
+    },
+    "innovationLab": {
+      "title": "イノベーションラボ",
+      "description": "Horizon Techのエンジニアリングチームによるプロトタイプ、実験、応用研究開発プロジェクトを探求しましょう。",
+      "cta": "イノベーションラボを探る"
+    }
+  },
+  "caseStudyCard": {
+    "read": "ケーススタディを読む",
+    "industries": {
+      "fintech": "フィンテック",
+      "healthcare": "医療",
+      "logistics": "物流",
+      "manufacturing": "製造",
+      "government": "政府"
+    }
+  },
+  "blogCard": {
+    "read": "読む"
+  }
+}

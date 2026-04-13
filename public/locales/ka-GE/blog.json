@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "ყველა"
+  },
+  "categories": {
+    "aiEngineering": "AI ინჟინერია",
+    "enterpriseArchitecture": "საწარმოს არქიტექტურა",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "ავტომატიზაციის სისტემები",
+    "softwareReliabilityDesign": "პროგრამული უზრუნველყოფის საიმედოობა და დიზაინი"
+  },
+  "readTime": "{{minutes}} წამიკითხავს",
+  "tagsLabel": "წარწერები",
+  "relatedPosts": "დაკავშირებული პოსტები",
+  "author": {
+    "role": "გამომცემელი"
+  },
+  "editor": {
+    "emptyPreview": "დაიწყეთ წერა, რომ ნახოთ გადახედვა..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "სწრაფი ინჟინერია",
+    "observability": "დაკვირვება",
+    "safety": "უსაფრთხოება",
+    "domainDesign": "დომენის დიზაინი",
+    "integration": "ინტეგრაცია",
+    "governance": "მმართველობა",
+    "platformStrategy": "პლატფორმის სტრატეგია",
+    "platformEngineering": "პლატფორმის ინჟინერია",
+    "ciCd": "CI/CD",
+    "kubernetes": "კუბერნეტები",
+    "developerExperience": "დეველოპერის გამოცდილება",
+    "eventDriven": "ღონისძიებაზე ორიენტირებული",
+    "workflowOrchestration": "სამუშაო ნაკადის ორკესტრირება",
+    "controlPlanes": "საკონტროლო თვითმფრინავები",
+    "resilience": "გამძლეობა",
+    "sre": "სრე",
+    "slos": "SLO-ები",
+    "failureModes": "წარუმატებლობის რეჟიმები",
+    "resilienceEngineering": "მდგრადობის ინჟინერია",
+    "evaluation": "შეფასება",
+    "qualityEngineering": "ხარისხის ინჟინერია",
+    "datasets": "მონაცემთა ნაკრები",
+    "releaseManagement": "გამოშვების მენეჯმენტი",
+    "incidentManagement": "ინციდენტების მართვა",
+    "architectureEvolution": "არქიტექტურის ევოლუცია",
+    "riskReduction": "რისკის შემცირება",
+    "postmortems": "სიკვდილის შემდგომი",
+    "progressiveDelivery": "პროგრესული მიწოდება",
+    "canaryReleases": "კანარის გამოშვებები",
+    "featureFlags": "მხატვრული დროშები"
+  }
+}

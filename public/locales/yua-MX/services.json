@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Chúunul",
+    "ctaSecondary": "Programar consulta"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Ma'alo'ob software empresarial",
+      "description": "Aplicaciones empresariales u extremo u extremo yéetel marcos modernos, arquitectura API-first yéetel escalabilidad nativa ti' le múuyal."
+    },
+    "sections": {
+      "problem": {
+        "title": "Encuadre talamilo'ob negocios",
+        "subtitle": "Tu'ux le programas empresariales pierden velocidad, tuukulil yéetel alineación estratégica"
+      },
+      "approach": {
+        "title": "Enfoque ingeniería",
+        "subtitle": "Bix convertimos requisitos ambiguos ti' plataformas listas utia'al u producción"
+      },
+      "principles": {
+        "title": "Chúunul arquitectura",
+        "subtitle": "Diseñar decisiones ku mantienen le kaambalilo'ob empresariales mantenibles escala"
+      },
+      "capabilities": {
+        "title": "Ba'ax k meentik",
+        "subtitle": "Buka'aj u ba'al u ma'alo'ob software integral"
+      },
+      "technology": {
+        "title": "K pila ma'alo'obtal",
+        "subtitle": "Tecnologías modernas, probadas utia'al u k'u'ubul le empresa"
+      },
+      "breakdown": {
+        "title": "Avería le mayaj",
+        "subtitle": "Jump'éel bejil estructurado tak le descubrimiento tak le k'u'ubul producción estable"
+      }
+    },
+    "problem": {
+      "overview": "Le nu'ukulilo'ob empresariales tu menudo bisa'al flujos meyaj críticos ti' sistemas fragmentados, creando k'iino'oba' k'ubulo'ob k'ubul, datos inconsistentes yéetel coordinación manual costosa ichil departamentos.",
+      "painPointsTitle": "Chi'ibal empresarial recurrente",
+      "impactSignalsTitle": "Ba'ax suuk u yilo'ob u ya'ak'o'ob",
+      "painPoints": [
+        "Le compromisos u k'u'ubul resbalan tuméen le dependencias ichil le nu'ukulilo'ob ma' u gestionan",
+        "Le lógica empresarial tu'ux ku duplica ti' canales yéetel yik'áalil",
+        "Integraciones legadas ku beetiko'ob túumben función lanzamiento ka'anal ku ka lento"
+      ],
+      "impactSignals": [
+        "Le rendimiento le hoja ruta disminuye ka' jo'op' u aumenta le gasto ingeniería",
+        "Defectos ku ts'áabal le cliente aumentan ichil le períodos liberación",
+        "Toma decisiones ralentiza debido a informes operativos inconsistentes"
+      ]
+    },
+    "approach": {
+      "overview": "Ejecutamos yéetel descubrimiento arquitectura-yáax, k'u'ubul impulsada tumen contrato yéetel ingeniería liberación controlada yo'olal le ku negocio ku túuxtik ti' incrementos predecibles.",
+      "pillars": [
+        {
+          "title": "Modelado dominio & Contextos delimitados",
+          "detail": "Mapeamos dominios utia'al u borrar límites mayaj utia'al u xu'ulsiko'ob le acoplamiento cruzado yéetel aclarar le propiedad."
+        },
+        {
+          "title": "Estrategia integración API-First",
+          "detail": "Definimos contratos estables tempranos, ku cha'antik le ma'alo'ob paralelo yéetel le integración asab segura yéetel le kaambalilo'ob empresariales."
+        },
+        {
+          "title": "flujo meyaj k'u'ubul progresiva",
+          "detail": "Utilizamos banderas yáantajo'ob, lanzamientos u meyajo'ob yéetel compuertas calidad utia'al liberar jáan xma' desestabilizar le producción."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "K decisiones arquitectura priorizan le longevidad, le operatividad yéetel le propiedad sáasil yo'olal le plataformas siguen siendo adaptables bey u nojochtal le alcance negocio.",
+      "items": [
+        {
+          "title": "Límites u mayaj modular",
+          "detail": "Le k'iinil ku empaquetan mentik kex dominios negocios utia'al u mantener le impacto k'eexpajal localizado."
+        },
+        {
+          "title": "Integración impulsada tumen k'inbesajo'ob",
+          "detail": "Le flujos meyaj asíncronos ku utilizan tu'ux yaan ti' máansaj óolal latencia yo'osal u ma'alo'obkíinsiko'ob u resiliencia yéetel desacoplar le kaambalilo'ob."
+        },
+        {
+          "title": "Observabilidad tumen diseño",
+          "detail": "Trazamiento, métricas yéetel registros estructurados ku definen tumen adelantado utia'al u yáanta'al operaciones confiables yéetel le jala'acho' SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Aplicaciones Web personalizadas",
+      "Ma'alo'ob aplicaciones móviles",
+      "Ma'alo'ob & Integración API",
+      "Arquitectura microservicios",
+      "Soluciones nativas ti' le múuyal",
+      "Modernización le yaan legado"
+    ],
+    "technologies": [
+      {
+        "name": "Reaccionar",
+        "category": "Frontend",
+        "icon": "reaccionar"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "Nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Pitón",
+        "category": "Backend",
+        "icon": "Pitón"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Le t'aano'",
+        "icon": "typescript"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "GraphQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "K'oja'ano'obo' u datos",
+        "icon": "Postgresql"
+      },
+      {
+        "name": "MongoDB",
+        "category": "K'oja'ano'obo' u datos",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Descubrimiento & Arquitectura",
+        "summary": "Mapeamos le prioridades comerciales, le restricciones técnicas yéetel le arquitectura destino bey ma' káaja le implementación.",
+        "deliverables": [
+          "Taller alineación producto yéetel requisito",
+          "Plano u arquitectura le solución",
+          "Plan k'u'ubul basado ti' hitos"
+        ]
+      },
+      {
+        "title": "Meentik & Integración",
+        "summary": "K nu'ukulilo'ob implementan noj k'ajle', capas integración yéetel salvaguardias calidad ti' paralelo.",
+        "deliverables": [
+          "Ma'alo'ob yáantajo'ob ti' sprints iterativos",
+          "API yéetel integraciones terceros",
+          "Pruebas automatizadas yéetel comprobaciones preparación lanzamiento"
+        ]
+      },
+      {
+        "title": "Ch'iino' & Evolución",
+        "summary": "Ka' le puesta in kuxtal, estabilizamos le operaciones yéetel definimos le uláak' ciclo mejora basado ti' búukinta'al xíimbal tumen.",
+        "deliverables": [
+          "Runbook despliegue producción",
+          "Ajuste rendimiento yéetel fiabilidad",
+          "Hoja ruta posterior ti' le ch'iino' yéetel backlog mejora"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ts'o'ok utia'al meentik u láak' ka'anatako'ob?",
+      "description": "Ko'ox diseñar ka túuxtik jump'éel solución ku impulsa resultados comerciales medibles.",
+      "button": "Káaja u tsol"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML & Business Intelligence",
+      "description": "Tak modelos predictivos tak paneles ejecutivos, construimos sistemas completos ti' IA leti' BI u apoyan decisiones u escala."
+    },
+    "sections": {
+      "problem": {
+        "title": "Encuadre talamilo'ob negocios",
+        "subtitle": "Ba'axten le organizaciones xíimbalto'ob ti' datos láayli' luchan utia'al u ch'aik decisiones seguras"
+      },
+      "approach": {
+        "title": "Enfoque ingeniería",
+        "subtitle": "Bix operacionalizamos yik'áalil datos, modelos ML yéetel flujo meyaj BI"
+      },
+      "principles": {
+        "title": "Chúunul arquitectura",
+        "subtitle": "Patrones arquitectura datos yéetel bix utia'al u na'at decisiones Jets' óol"
+      },
+      "capabilities": {
+        "title": "K k'iinil",
+        "subtitle": "Soluciones integrales ti' IA, ML yéetel BI"
+      },
+      "technology": {
+        "title": "K pila ma'alo'obtal",
+        "subtitle": "Nu'ukulo'ob líderes ti' le industria utia'al u datos yéetel IA"
+      },
+      "breakdown": {
+        "title": "Avería le mayaj",
+        "subtitle": "Bix k máan u datos fragmentados u na'at grado producción"
+      }
+    },
+    "problem": {
+      "overview": "Le organizaciones xokaj yéetel frecuencia nukuch volúmenes datos Ba'ale' ma' logran traducir le ti' previsión confiable, decisiones operativas wa asab empresarial medible.",
+      "painPointsTitle": "Chi'ibal empresarial recurrente",
+      "impactSignalsTitle": "Ba'ax suuk u yilo'ob u ya'ak'o'ob",
+      "painPoints": [
+        "Le lógica informes difiere ichil le nu'ukulo'ob, ku resulta ti' narrativas KPI conflictivas",
+        "Le modelos permanecen ti' le experimentación yéetel Ma'atech alcanzan flujos meyaj producción",
+        "Toop ma'alobil datos socavan Jets' óol ti' le análisis yéetel paneles ejecutivos"
+      ],
+      "impactSignals": [
+        "Ciclos k'alt'aan lentos tuméen le nu'ukulo'ob debaten validez datos kúuchil asab ti' le asab",
+        "Previsión yéetel precisión múuch' planificación Chúuns siendo inconsistente trimestre ti' trimestre",
+        "Inversiones analíticas muestran jump'éel baja síibil paach ku analistas especializados"
+      ]
+    },
+    "approach": {
+      "overview": "Entregamos plataformas IA yéetel BI bey sistemas producción, ingeniería datos acoplamiento, operaciones ciclo kuxtal bix yéetel integración flujo meyaj decisional.",
+      "pillars": [
+        {
+          "title": "K'oja'ano'obo' producto datos",
+          "detail": "Le yik'áalil datos alineados yéetel le dominio establecen entradas reutilizables, gobernadas yéetel u ka'anal calidad yo'osal análisis yéetel ML."
+        },
+        {
+          "title": "Automatización le ciclo kuxtal MLOps",
+          "detail": "Le kaambalilo'ob, despliegue, monitoreo yéetel kaambalil yo'osal deriva u automatizados utia'al u mantener le modelos confiables ti' le producción."
+        },
+        {
+          "title": "Integración flujo meyaj k'alt'aan",
+          "detail": "Le información táan integrada ti' nu'ukul operativas yéetel paneles ti' yo'olal le nu'ukulo'ob tuukulo'ob yóok'ol na'at ichil le procesos Sáansamal."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "K arquitectura IA leti' BI prioriza datos confiables, modelos explicables yéetel patrones muuk' gobernados ti' le empresa.",
+      "items": [
+        {
+          "title": "Definiciones métricas individuales",
+          "detail": "KPIs críticos ku definen juntéene' ti' modelos semánticos compartidos utia'al tselik le lógica u informes conflictivos."
+        },
+        {
+          "title": "Controles fiabilidad bix",
+          "detail": "Umbrales rendimiento, detección deriva yéetel mecanismos reversión protegen le ma'alobil le k'alt'aan ti' le producción."
+        },
+        {
+          "title": "Seguridad & Gobierno tumen diseño",
+          "detail": "Linaje datos, muuk' basados ti' ju'uno'ob yéetel controles listos utia'al auditoría táan incrustados ti' Amal pipeline."
+        }
+      ]
+    },
+    "capabilities": [
+      "Modelos & Pipelines ti' kaambal automático",
+      "Power BI Dashboards & Reports",
+      "Análisis predictivo",
+      "Streaming datos tu k'iinil xíimbal tumen",
+      "Soluciones almacenamiento datos"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Plataforma",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Almacén datos",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Ingeniería datos",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "Plataforma ML",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "Marco ML",
+        "icon": "Tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "Marco ML",
+        "icon": "pytorch"
+      },
+      {
+        "name": "Cuadro",
+        "category": "Analítica",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Procesamiento",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Le t'aano'",
+        "icon": "Postgresql"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "K'oja'ano'obo' datos",
+        "summary": "Auditamos fuentes, definimos contratos datos yéetel establecemos jala'acho' utia'al u Amal bix káaj yéetel entradas Jets' óol",
+        "deliverables": [
+          "Fuente datos yéetel yila'al u yila'al",
+          "Ingeniería yáantajo'ob yéetel múuch'meyaj esquema",
+          "Seguridad yéetel gobierno k'oja'ano'ob"
+        ]
+      },
+      {
+        "title": "Bix & Insight k'u'ubul",
+        "summary": "Construimos modelos yéetel paneles decisiones vinculados k'áat chi'oba' u negocios medibles yéetel KPIs.",
+        "deliverables": [
+          "Ma'alo'ob yéetel validación bix",
+          "Paneles ejecutivos yéetel informes operativos",
+          "Integración flujo meyaj k'a'ana'an"
+        ]
+      },
+      {
+        "title": "MLOps & Síibil",
+        "summary": "Operacionalizamos le implementación, le monitoreo yéetel le habilitación nu'ukulil utia'al mantener ya'ala'al máaxo'ob máano'ob confiables ti' le k'iin.",
+        "deliverables": [
+          "Canalizaciones u implementación bix automatizado",
+          "Deriva, precisión yéetel monitoreo búukinta'al",
+          "K'u'ubul nu'ukulil yéetel ánamale' u meyaj"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Transformar u datos ti' Insight",
+      "description": "Sutk'esiko'ob datos fragmentados ti' na'at sáasil yéetel procesable.",
+      "button": "Káaja u náachil"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Arquitectura yéetel meyaje' múuyal",
+      "description": "Plataformas múuyal múltiples, arquitectura resistente yéetel meyaje' escalable diseñada utia'al tuméen chowak plazo."
+    },
+    "sections": {
+      "problem": {
+        "title": "Encuadre talamilo'ob negocios",
+        "subtitle": "Ba'axten le iniciativas múuyal ku estancan ka' le yáax ola migración"
+      },
+      "approach": {
+        "title": "Enfoque ingeniería",
+        "subtitle": "Bix construimos plataformas múuyal seguras, escalables yéetel ku migración controlada"
+      },
+      "principles": {
+        "title": "Chúunul arquitectura",
+        "subtitle": "Decisiones le plataforma equilibran le agilidad, le resiliencia yéetel le jala'acho'"
+      },
+      "capabilities": {
+        "title": "Yéetel le múuyal",
+        "subtitle": "Construir, implementar yéetel escalar ti' le múuyal"
+      },
+      "technology": {
+        "title": "Yaan ti' múltiples múuyales",
+        "subtitle": "Soluciones ti' le múuyal independientes ti' le plataforma"
+      },
+      "breakdown": {
+        "title": "Avería le mayaj",
+        "subtitle": "Jump'éel secuencia sáasil utia'al u diseño, migración yéetel operación plataformas múuyal"
+      }
+    },
+    "problem": {
+      "overview": "Ya'ab organizaciones completan le migraciones iniciales ti' le múuyal Ba'ale' láayli' funcionan bey nu'ukulo'ob locales, yéetel jump'éel óotsil visibilidad, controles inconsistentes yéetel aumento u gasto.",
+      "painPointsTitle": "Chi'ibal empresarial recurrente",
+      "impactSignalsTitle": "Ba'ax suuk u yilo'ob u ya'ak'o'ob",
+      "painPoints": [
+        "Le meyajta'al kuuch kuuch u migran xma' controles estándar ti' seguridad yéetel páawo'ob ichil",
+        "Baajux múuyal nuuktalo'ob asab séeba'an u le je'o' empresarial entregado",
+        "Le aprovisionamiento ka'a jeets' Chúuns siendo manual yéetel inconsistente ichil le nu'ukulilo'ob"
+      ],
+      "impactSignals": [
+        "Incidentes frecuentes causados tumen le deriva configuración ichil entornos",
+        "Preparación auditoría degrada debido a tu'ux gobernanza fragmentada",
+        "Plazos meyaje' plazo retraso le iniciativas producto yéetel datos"
+      ]
+    },
+    "approach": {
+      "overview": "Diseñamos plataformas múuyal bey yik'áalil, utilizando automatización meyaje', barandillas u políticas yéetel ondas migración alineadas yéetel le criticidad empresarial.",
+      "pillars": [
+        {
+          "title": "Kúuchil tu'ux jáayal bey código",
+          "detail": "Le ba'axo'ob, páawo'ob ichil, ti' seguridad yéetel le líneas k'oja'ano'obo' ku codifican yo'osal le repetibilidad yéetel le auditabilidad."
+        },
+        {
+          "title": "Estrategia migración basada ti' ondas",
+          "detail": "Le meyajta'al kuuch kuuch péeksik ti' fases controladas yéetel le secuenciación consciente ti' le dependencia yéetel preparación reversión."
+        },
+        {
+          "title": "SRE + FinOps bucle operación",
+          "detail": "Le indicadores fiabilidad yéetel le unidad-economía ku revisan múuch' yo'osal u ma'alo'obkíinsiko'ob le k'iin funcionamiento yéetel le eficiencia u xuupik."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "K bix arquitectura favorece meyaje' declarativa, muuk' menor privilegio yéetel plataformas componibles ku admiten u k'u'ubul rápida ti' le yik'áalil.",
+      "items": [
+        {
+          "title": "Patrones meyaje' inmutables",
+          "detail": "Le entornos ku reconstruyen u código versionado utia'al u minimizar le deriva yéetel simplificar le recuperación operacional."
+        },
+        {
+          "title": "Seguridad Baseline tumen defecto",
+          "detail": "Controles muuk' confianza cero yéetel u aplicación le políticas táan integrados ti' Amal ciclo kuxtal le jeets'."
+        },
+        {
+          "title": "Resiliencia yo'osal le distribución",
+          "detail": "Le cargas meyaj críticas u diseñadas utia'al ti' máansaj óolal ti' fallas ya'abkach zonas wa ya'abkach regiones tu'ux le impacto empresarial k'a'abet tu."
+        }
+      ]
+    },
+    "capabilities": [
+      "Estrategia & Implementación multi-Cloud",
+      "Container Orchestration (Kubernetes)",
+      "Computación ma' servidor",
+      "Yéetel migración le múuyal",
+      "Arquitectura ka'anal disponibilidad"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Múuyal",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "AWS",
+        "category": "Múuyal",
+        "icon": "AmazonWebServices"
+      },
+      {
+        "name": "GCP",
+        "category": "Múuyal",
+        "icon": "GoogleCloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orquestación",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Envases",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Plantillas ARM",
+        "category": "IaC",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "AmazonWebServices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Arquitectura & Kúuchil tu'ux yano'ob",
+        "summary": "Definimos le noj objetivo, barandillas yéetel estándares plataforma k'oja'ano'obo' bey ma' péeksik le cargas meyaj.",
+        "deliverables": [
+          "Diseño arquitectura múuyal destino",
+          "Ba'axo'ob, páawo'ob ma'alob yéetel seguridad k'oja'ano'ob",
+          "Barandillas u chilajen yéetel cumplimiento"
+        ]
+      },
+      {
+        "title": "Migración & Construcción plataforma",
+        "summary": "Ejecutamos ondas migración yéetel k posicionamos componentes plataforma nativos ti' le múuyal yéetel automatización repetible.",
+        "deliverables": [
+          "Secuenciación migración kuuch",
+          "Configuración le nu'ukul tu'ux yaan yéetel plataforma serverless",
+          "Meyaje' bey módulos código"
+        ]
+      },
+      {
+        "title": "Fiabilidad & FinOps",
+        "summary": "Mejoramos le fiabilidad operativa yéetel optimizamos continuamente le gasto ti' le múuyal basados ti' telemetría ti' vivo.",
+        "deliverables": [
+          "SLOs, monitoreo yéetel flujos meyaj incidentes",
+          "Validación u resiliencia yéetel recuperación desastres",
+          "Backlog optimización Baajux yéetel cadencia jala'acho'"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Escala u meyaje'",
+      "description": "Meentik béeychajal múuyal ku permanecen resistentes yáanal kuuch yóok'ol kaab xíimbal tumen.",
+      "button": "Planifique u estrategia múuyal"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Plataforma Ingeniería",
+      "description": "Canalisations u k'u'ubul automatizadas, observabilidad yéetel beetik plataforma u mejoran le velocidad xma' sacrificar le fiabilidad."
+    },
+    "sections": {
+      "problem": {
+        "title": "Encuadre talamilo'ob negocios",
+        "subtitle": "Ba'axten le velocidad u k'u'ubul Lúubul a medida que aumenta le complejidad le plataforma"
+      },
+      "approach": {
+        "title": "Enfoque ingeniería",
+        "subtitle": "Bix estandarizamos le tuberías k'u'ubul xma' frenar le nu'ukulilo'ob producto"
+      },
+      "principles": {
+        "title": "Chúunul arquitectura",
+        "subtitle": "Patrones ingeniería plataforma ba'ax escalan confiabilidad yéetel autonomía le nu'ukulil"
+      },
+      "capabilities": {
+        "title": "Servicios DevOps",
+        "subtitle": "Automatizar, monitorear yéetel optimizar u ciclo kuxtal k'u'ubul"
+      },
+      "technology": {
+        "title": "Nu'ukul & Plataformas u DevOps",
+        "subtitle": "Tsolokbal nu'ukul DevOps le utsil xook"
+      },
+      "breakdown": {
+        "title": "Avería le mayaj",
+        "subtitle": "Jump'éel hoja ruta práctica tak cuellos botella u k'u'ubul tak flujo liberación ka'anal Jets' óol"
+      }
+    },
+    "problem": {
+      "overview": "Le organizaciones in menudo invierten ti' nu'ukulo'ob CI leti' tak tu Kaajil Ba'ale' láayli' luchan yéetel versiones inestables, aprobaciones chaanbelil yéetel propiedad fragmentada ti' le entornos.",
+      "painPointsTitle": "Chi'ibal empresarial recurrente",
+      "impactSignalsTitle": "Ba'ax suuk u yilo'ob u ya'ak'o'ob",
+      "painPoints": [
+        "Le definiciones tuberías difieren tumen nu'ukulil, creando compuertas calidad inconsistentes",
+        "Aprobaciones u despliegue manual retrasan le hotfix yéetel le k'iino'oba' k'iinil yáantajo'ob",
+        "Le talamilo'ob operacionales ku repiten tumen le telemetría táan incompleta wa silo"
+      ],
+      "impactSignals": [
+        "Plazo u meyajta'ale' utia'al le cambios Chúuns aumentando betup' ichil le gasto automatización",
+        "K'ex le tasa falla picos ichil le períodos k'u'ubul ka'anal volumen",
+        "Le productividad desarrolladores disminuye debido a le fricción nu'ukul yéetel le k'eexpajal contexto"
+      ]
+    },
+    "approach": {
+      "overview": "Establecemos jump'éel bix u plataforma desarrollador meyajo'ob yéetel plantillas tuberías reutilizables, jala'acho' impulsada tumen le políticas yéetel observabilidad k'iini' ciclo kuxtal.",
+      "pillars": [
+        {
+          "title": "Plantillas tuberías Golden Path",
+          "detail": "Le planos CI leti' tak tu Kaajil reutilizables estandarizan le flujos meyaj ti' compilación, prueba, ti' seguridad yéetel despliegue."
+        },
+        {
+          "title": "API u plataforma & autoservicio",
+          "detail": "Nu'ukulilo'ob ti' aprovisionamiento entornos yéetel meyaje' liberación ti' interfaces autoservicio controladas."
+        },
+        {
+          "title": "Bucles u retroalimentación fiabilidad",
+          "detail": "Tendencias incidentes, toj SLO yéetel telemetría implementación informan le mejoras continuas ti' le tuukula' yéetel le arquitectura."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "K arquitectura DevOps alinea le velocidad k'u'ubul yéetel le jala'acho' yo'osal le automatización u controles yéetel minimizando le meyaj operativo único.",
+      "items": [
+        {
+          "title": "Tuláakal bey código versionado",
+          "detail": "Tuberías, meyaje' yéetel reglas u política ku gestionan ti' le kanik k'aaba' utia'al u auditabilidad yéetel repetibilidad."
+        },
+        {
+          "title": "Verificación progresiva",
+          "detail": "Le comprobaciones calidad, ti' seguridad yéetel rendimiento ku superponen ti' le jejelas súutukil utia'al u detectar le ku ka'achij."
+        },
+        {
+          "title": "Responsabilidad le plataforma compartida",
+          "detail": "Le nu'ukulilo'ob ti' plataforma proporcionan k'iinil u beejil pavimentada ka' jo'op' u le nu'ukulilo'ob producto conservan le propiedad k'u'ubul."
+        }
+      ]
+    },
+    "capabilities": [
+      "Diseño tubería CI leti' tak tu Kaajil",
+      "Meyaje' bey código",
+      "Pruebas automatizadas",
+      "Automatización le implementación",
+      "Monitoreo & Observabilidad"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Plataforma",
+        "icon": "AzureDevOps"
+      },
+      {
+        "name": "Acciones GitHub",
+        "category": "CI leti' tak tu Kaajil",
+        "icon": "GitHubActions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI leti' tak tu Kaajil",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "T'aan",
+        "category": "Embalaje",
+        "icon": "T'áanch'il"
+      },
+      {
+        "name": "Ansible",
+        "category": "Automatización",
+        "icon": "Ansible"
+      },
+      {
+        "name": "Prometeo",
+        "category": "Monitoreo",
+        "icon": "Prometeo"
+      },
+      {
+        "name": "Grafana",
+        "category": "Observabilidad",
+        "icon": "grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Yila'al plataforma",
+        "summary": "Evaluamos u tsolokbal ma'alo'ob u k'u'ubul software utia'al u identificar ti'its ku yéetel limitaciones velocidad.",
+        "deliverables": [
+          "Mapa flujo meyaj k'u'ubul noj ma'alo'ob",
+          "Análisis kaal botella tubería",
+          "Objetivo ti' le hoja ruta madurez DevOps"
+        ]
+      },
+      {
+        "title": "Pipeline & Automatización meentik",
+        "summary": "Implementamos CI leti' tak tu Kaajil confiable, compuertas calidad yéetel automatización meyaje' utia'al versiones consistentes.",
+        "deliverables": [
+          "Plantillas CI leti' tak tu Kaajil reutilizables",
+          "Automatización meyaje' yéetel ka'a jeets'",
+          "Controles automatizados u pruebas yéetel lanzamiento"
+        ]
+      },
+      {
+        "title": "Operar & Ma'alo'obkíinsiko'ob",
+        "summary": "Establecemos bucles observabilidad yéetel jala'acho' ku apoyan le mejora continua u k'u'ubul.",
+        "deliverables": [
+          "Monitoreo paneles yéetel kanatas alertas",
+          "Lanzar u ya'aláacho' yéetel ju'unil incidentes",
+          "Métricas yéetel revisiones u mejora continua"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Acelerar u k'u'ubul",
+      "description": "Xu'ulsiko'ob le fricción le lanzamiento yéetel ma'alo'obkíinsiko'ob u confiabilidad yéetel prácticas DevOps maduras.",
+      "button": "Transformar u tubería"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Transformación digital & Estrategia",
+      "description": "Asesoramiento estratégico yéetel áantaj meyajta'ale' utia'al u modernizar plataformas, nu'ukulilo'ob yéetel modelos operativos."
+    },
+    "sections": {
+      "problem": {
+        "title": "Encuadre talamilo'ob negocios",
+        "subtitle": "Tu'ux le programas transformación pierden impulso yéetel Jets' óol ejecutivo"
+      },
+      "capabilities": {
+        "title": "Yéetel consultoría",
+        "subtitle": "Orientación estratégica utia'al u éxito digital"
+      },
+      "approach": {
+        "title": "Enfoque ingeniería",
+        "subtitle": "Bix traducimos estrategia ti' ejecutable, k'eexpajal respaldado tumen ma'alo'obtal"
+      },
+      "principles": {
+        "title": "Chúunul arquitectura",
+        "subtitle": "Bix operativo yéetel opciones plataforma protegen ya'ala'al máaxo'ob máano'ob le transformación"
+      },
+      "technology": {
+        "title": "Pila ma'alo'obtal",
+        "subtitle": "Plataformas yéetel marcos utilizamos utia'al u operacionalizar le transformación"
+      },
+      "breakdown": {
+        "title": "Avería le mayaj",
+        "subtitle": "Transformación estructurada u ye'esajil le estrategia ti' le je'o' comercial medible"
+      }
+    },
+    "problem": {
+      "overview": "Le iniciativas digitales tu menudo ku káajal yéetel k'a'am intención Ba'ale' ma' consiguen u sutk'esiko'ob ti' ya'ala'al máaxo'ob máano'ob k'u'ubul debido a propiedad poca clara, nu'ukulo'ob desconectados yéetel prioridades competidoras.",
+      "painPointsTitle": "Chi'ibal empresarial recurrente",
+      "impactSignalsTitle": "Ba'ax suuk u yilo'ob u ya'ak'o'ob",
+      "painPoints": [
+        "Hojas ruta transformación ku meent'a'al Ba'ale' ma' traducidas ti' le jala'achilo' k'u'ubul",
+        "Prioridades negocios yéetel ingeniería divergen ka' ciclos planificación iniciales",
+        "Modelos operativos legados bloquean le síibil u tu'ux u k'u'ubul yik'áalil modernos"
+      ],
+      "impactSignals": [
+        "Gasto le cha'ana' aumenta ka' jo'op' u kaajil tu'ux estratégico ti' le KPI permanece plano",
+        "Le iniciativas pierden ti'its transferencia ichil estrategia, arquitectura yéetel meyajta'ale'",
+        "Nu'ukulilo'ob experimentan fatiga k'eexpajal yéetel ku empresarial realizado limitado"
+      ]
+    },
+    "approach": {
+      "overview": "Combinamos asesoría estratégica yéetel arquitectura k'u'ubul, alineando diseño bix operativo, Buka'aj u ba'al u plataforma yéetel cadencia meyajta'ale' mentik kex ku medibles.",
+      "pillars": [
+        {
+          "title": "Priorización flujo ku",
+          "detail": "Secuenciamos iniciativas basadas ti' le impacto empresarial medible yéetel le restricciones dependencia técnica."
+        },
+        {
+          "title": "Diseño le bix operativo objetivo",
+          "detail": "Le roles, jala'acho' yéetel p'iskambal k'alt'aan ku definen utia'al u yáanta'al jump'éel meyajta'al asab rápida ti' le nu'ukulilo'ob empresariales yéetel ma'alo'obtal."
+        },
+        {
+          "title": "Portafolio u k'u'ubul jala'acho'",
+          "detail": "Le progreso transformación ku gestiona yo'osal ti'its control vinculados ti' KPI yéetel controles ku nivel cartera."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "K arquitectura transformación enfatiza le modernización incremental yéetel le responsabilidad sáasil, evitando reescrituras disruptivas xma' justificación le negocio.",
+      "items": [
+        {
+          "title": "Alineación Buka'aj u ba'al u negocio",
+          "detail": "Le cambios ma'alo'obtal ku organizan mentik kex k'iinil Jun mapean ti' le ingresos, ma'alobil le mayaj wa eficiencia le Baajux."
+        },
+        {
+          "title": "Estrategia plataforma componible",
+          "detail": "Le componentes le plataforma u seleccionados utia'al u interoperabilidad utia'al u yáanta'al u migración tumen fases yéetel adaptación asab rápida."
+        },
+        {
+          "title": "Gobernanza yéetel cadencia k'u'ubul",
+          "detail": "Foros k'alt'aan yéetel ti'its kanik táan incrustados ti' ciclos sprint yéetel trimestrales, ma' tratados bey pistas burocráticas separadas."
+        }
+      ]
+    },
+    "capabilities": [
+      "Hojas ruta transformación digital",
+      "Ma'alo'ob estrategia ma'alo'obtal",
+      "Marcos u síibil le múuyal",
+      "Optimización le tuukula'",
+      "Gestión k'eexpajal"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Béeychajal le múuyal",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Plataforma datos",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Na'at k'alt'aan",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Plataforma energía",
+        "category": "T'okik código",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Colaboración",
+        "icon": "Microsoft SharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP leti' CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Alineación le estrategia",
+        "summary": "Alineamos le prioridades liderazgo yéetel ku digitales ch'a'iko'ob jump'éel dirección transformación compartida.",
+        "deliverables": [
+          "Ku transformación yéetel criterios éxito",
+          "Buka'aj u ba'al, madurez yéetel evaluación le brecha",
+          "Cartera le iniciativa priorizada"
+        ]
+      },
+      {
+        "title": "Plano meyajta'ale'",
+        "summary": "Definimos le bix operativa objetivo, estándares arquitectura yéetel secuencia implementación tumen fases.",
+        "deliverables": [
+          "Bix operativo yéetel diseño jala'acho'",
+          "Estándares ma'alo'obtal yéetel arquitectura procesos",
+          "Hoja ruta implementación tumen fases"
+        ]
+      },
+      {
+        "title": "K'eexpajal & realización ku",
+        "summary": "Impulsamos le súukbal, rastreamos kaajil tu'ux KPI yéetel refinamos iniciativas basadas ti' resultados k'u'ubul.",
+        "deliverables": [
+          "Plan u síibil yéetel habilitación",
+          "Cadencia medición KPI",
+          "Backlog u optimización trimestral"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Káaja u viaje transformación",
+      "description": "Navegar le k'eexpajal yéetel prioridades claras yéetel planes k'u'ubul prácticos.",
+      "button": "Programar jump'éel múuch' meyajo'ob estrategia"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Sistemas conectados tak le dispositivo ti' le múuyal, yéetel tuberías telemetría yéetel na'at borde utia'al escala industrial."
+    },
+    "sections": {
+      "problem": {
+        "title": "Encuadre talamilo'ob negocios",
+        "subtitle": "Ba'axten le programas dispositivos conectados fallan escalar asab te'elo' u implementaciones piloto"
+      },
+      "approach": {
+        "title": "Enfoque ingeniería",
+        "subtitle": "Bix diseñamos sistemas IoT seguros, operables tak le firmware dispositivo tak le API le múuyal"
+      },
+      "principles": {
+        "title": "Chúunul arquitectura",
+        "subtitle": "Reglas diseño borde ti' le múuyal utia'al u fiabilidad, latencia yéetel gobernanza flota"
+      },
+      "capabilities": {
+        "title": "Soluciones IoT",
+        "subtitle": "Conectar, monitorear yéetel optimizar u dispositivos"
+      },
+      "technology": {
+        "title": "Pila ma'alo'obtal IoT",
+        "subtitle": "U hardware ti' le múuyal"
+      },
+      "breakdown": {
+        "title": "Avería le mayaj",
+        "subtitle": "Bix entregamos sistemas conectados tak dispositivos borde tak na'at le múuyal"
+      }
+    },
+    "problem": {
+      "overview": "Le iniciativas IoT tu menudo prueban viabilidad técnica ti' le pilotos Ba'ale' fallan escala debido a conectividad ma' confiable, controles flota débiles, yéetel le k'aak'as integración yéetel flujos meyaj negocios.",
+      "painPointsTitle": "Chi'ibal empresarial recurrente",
+      "impactSignalsTitle": "Ba'ax suuk u yilo'ob u ya'ak'o'ob",
+      "painPoints": [
+        "Le incorporación dispositivos yéetel le gestión ciclo kuxtal siguen siendo manuales yéetel propensos ti' le ba'alo'",
+        "Le tuberías telemetría ku ts'áiko'ob datos operativos ruidosos, incompletos wa retrasados",
+        "Le mando remoto yéetel actualizaciones firmware introducen le ku ti' seguridad yéetel seguridad"
+      ],
+      "impactSignals": [
+        "Entornos piloto tienen éxito, ba'ale' le plazos u implementación producción ku resbalan repetidamente",
+        "Le nu'ukulilo'ob ti' operaciones jach yáax reaccionan ti' le incidentes xma' visibilidad predictiva",
+        "Le kaambalilo'ob empresariales ma' táan u béeytal consumir bix fiable le na'at dispositivos tu k'iinil xíimbal tumen"
+      ]
+    },
+    "approach": {
+      "overview": "Diseñamos plataformas IoT bey sistemas distribuidos controlados, combinando estándares k'iinil meyajta'ale' borde seguros, ingesta impulsada tumen k'inbesajo'ob yéetel jala'acho' operativa escala flota.",
+      "pillars": [
+        {
+          "title": "Ma'alo'ob meyaj beetik u ciclo kuxtal le dispositivo seguro",
+          "detail": "Le aprovisionamiento, ba'axo'ob, rotación clave yéetel actualizaciones firmware u automatizados utia'al u xu'ulsiko'ob le ku operativo."
+        },
+        {
+          "title": "Arquitectura telemetría impulsada tumen k'inbesajo'ob",
+          "detail": "Le canalidades streaming normalizan, validan yéetel ruta k'inbesajo'ob dispositivo yo'osal análisis yéetel kaambalil yo'osal óol tu k'iinil xíimbal tumen."
+        },
+        {
+          "title": "Plank'áak'o' kaambalil yo'osal operaciones flota",
+          "detail": "Monitoreo, alertas yéetel controles meyaj comandos remotos proporcionan supervisión confiable ti' le activos distribuidos."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "K arquitectura IoT equilibra le decisiones borde baja latencia yéetel le jala'acho' centralizada, observabilidad yéetel cumplimiento ti' seguridad.",
+      "items": [
+        {
+          "title": "Autonomía borde yéetel coordinación múuyal",
+          "detail": "Le operaciones locales críticas continúan ichil le degradación le páawo'ob mientras sincroniza le noj yéetel le kaambalilo'ob múuyal ken táan disponibles."
+        },
+        {
+          "title": "Esquemas k'inbesajo'ob contratados",
+          "detail": "Le nu'ukulilo'ob ti' dispositivos yéetel plataforma utilizan esquemas gobernados utia'al u preservar le consistencia telemetría ichil le versiones."
+        },
+        {
+          "title": "Seguridad le dispositivo Jets' óol cero",
+          "detail": "Autenticación mutua, menor privilegio yéetel transporte cifrado ku beetiko'ob ti' Amal interacción dispositivo."
+        }
+      ]
+    },
+    "capabilities": [
+      "Ma'alo'ob meyaj beetik dispositivos IoT",
+      "Soluciones gemelos digitales",
+      "Despliegue Edge Computing",
+      "Telemetría tu k'iinil xíimbal tumen",
+      "Mantenimiento predictivo"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Gemelos digitales",
+        "category": "Simulacro",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Computación borde",
+        "category": "Borde",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protocolo",
+        "icon": "mqtt"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protocolo",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Hardware",
+        "icon": "Arduino"
+      },
+      {
+        "name": "frambuesa Pi",
+        "category": "Hardware",
+        "icon": "RaspberryPi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Serie k'iin DB",
+        "icon": "InfluxDBB"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Dispositivo & Estrategia borde",
+        "summary": "Definimos patrones conectividad, estándares k'iinil meyajta'ale' borde yéetel aprovisionamiento seguro utia'al u dispositivos jach yáax.",
+        "deliverables": [
+          "Bix u incorporación u dispositivos yéetel conectividad",
+          "Edge runtime yéetel plano implementación",
+          "Seguridad le flota k'oja'ano'obo'"
+        ]
+      },
+      {
+        "title": "Telemetría & plano kaambalil yo'osal",
+        "summary": "Construimos tuberías capturan k'inbesajo'ob, modelar gemelos digitales yéetel permiten flujos meyaj kaambalil yo'osal remoto.",
+        "deliverables": [
+          "Ingesta tu k'iinil xíimbal tumen yéetel diseño esquema káajal",
+          "Implementación bixel digital yéetel bix u activos",
+          "Capa API comando yéetel kaambalil yo'osal"
+        ]
+      },
+      {
+        "title": "Operaciones & escala",
+        "summary": "Operacionalizamos le gestión flotas yéetel controles confiabilidad utia'al u entornos IoT u escala producción.",
+        "deliverables": [
+          "Monitoreo yéetel alerta flota dispositivos",
+          "Mantenimiento predictivo yéetel detección anomalías",
+          "Plan u apoyo u despliegue yéetel ciclo kuxtal"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Conecte u dispositivos",
+      "description": "Meentik soluciones IoT confiables listas utia'al u entornos u producción reales.",
+      "button": "Máaxo'ob u tsol IoT"
+    }
+  }
+}

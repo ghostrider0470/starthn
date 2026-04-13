@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Insenerisüsteemid, mis skaleeruvad",
+    "subtitle": "Ettevõtte tarkvara · Tehisintellekt ja masinõpe · Pilveinfrastruktuur · IoT ja Edge",
+    "description": "Alates intelligentsest automatiseerimisest kuni pilvepõhiste platvormideni loome ja tarnime tehnoloogiat, mis toetab ambitsioonikaid ettevõtteid — õigeaegselt, eelarve piires ja suures mahus.",
+    "cta": {
+      "primary": "Alusta projekti",
+      "secondary": "Vaata meie tööd"
+    },
+    "trustLine": "Usaldusväärsed ettevõtete poolt üle maailma"
+  },
+  "services": {
+    "subtitle": "Meie teenused",
+    "title": "Täisspektri inseneriteadus",
+    "description": "Kuus harjutusala. Üks tiim. Iga kiht sinu tehnoloogiavirnast — servaseadmetest kuni ettevõtte juhtpaneelideni.",
+    "commentMarker": "TEENUSED",
+    "items": {
+      "customSoftware": {
+        "title": "Kohandatud tarkvaraarendus",
+        "description": "Kaasaegsed rakendused, mis on loodud mikroteenuste, API-de ja pilvepõhise arhitektuuri abil."
+      },
+      "aiMl": {
+        "title": "Tehisintellekt, masinõpe ja äriluure",
+        "description": "AI/ML torujuhtmed, Power BI juhtpaneelid ja arenenud analüütika, mis muudavad andmed otsusteks."
+      },
+      "cloud": {
+        "title": "Pilvearhitektuur ja infrastruktuur",
+        "description": "Mitmepilveline infrastruktuur konteinerite, serverivaba ja globaalse skaleeritavusega sisse ehitatud."
+      },
+      "iot": {
+        "title": "IoT ja servaarvutus",
+        "description": "Ühendatud seadmed, digitaalsed kaksikud ja servaarvutus Industry 4.0 jaoks."
+      },
+      "devops": {
+        "title": "DevOps ja platvormiinseneriteadus",
+        "description": "CI/CD torujuhtmed, infrastruktuur koodina ja jälgitavus alates commit'ist kuni tootmiseni."
+      },
+      "digital": {
+        "title": "Digitaalne transformatsioon ja konsultatsioon",
+        "description": "Tehnoloogiastrateegia, moderniseerimise teekaardid ja praktiline konsultatsioon."
+      }
+    },
+    "cta": {
+      "title": "Ehitame midagi tõsist",
+      "description": "Alates kohandatud tarkvaraarendusest ja tehisintellektil põhinevatest lahendustest kuni pilveinfrastruktuuri ja automatiseerimiseni — pakume lõpp-lõpuni tehnoloogiateenuseid, mis on kohandatud teie vajadustele.",
+      "primary": "Alusta oma projekti",
+      "secondary": "Ajakava konsultatsioon"
+    },
+    "learnMore": "Loe lähemalt"
+  },
+  "credibility": {
+    "subtitle": "Meie tegevusajalugu",
+    "title": "Tulemused, mitte <gradient>lubadused</gradient>",
+    "titlePlain": "Tulemused, mitte lubadused",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Sarajevost Oslosse, Amsterdami ja Berliini. Ettevõtte süsteemid toimetatakse iga kord õigel ajal.",
+    "stats": {
+      "experience": "Aastatepikkune kombineeritud kogemus",
+      "countries": "Teenindatud riigid",
+      "systems": "Tarnitud süsteemid",
+      "industries": "Teenindatavad tööstused"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM Atlas Copco jaoks",
+        "outcome": "Arhitekteeris esimese pilvepõhise One Identity infrastruktuuri Atlas Copco jaoks Azure Kubernetes'ile, vähendades kulusid ja säilitades ettevõtte vastavuse."
+      },
+      "orange": {
+        "label": "Orange küberkaitse platvorm",
+        "outcome": "Arendas Azure Kubernetes'i infrastruktuuri, CI/CD torujuhtmeid ja kohandatud ServiceNow integratsiooni Euroopa juhtivale küberturvalisuse ettevõttele."
+      },
+      "telecom": {
+        "label": "Telekommunikatsiooni GIS ja AR platvorm",
+        "outcome": "Ehitas GIS-platvormi, kaardistades maa-aluseid kommunaalteenuseid üle kogu Saksamaa, kus kokkupõrke tuvastamine takistas mitme miljoni euro suurust infrastruktuurikahjustust."
+      },
+      "iot": {
+        "label": "Pilvepõhine IoT ja Edge platvorm",
+        "outcome": "Azure IoT Hub, mis haldab tuhandeid seadmeid, Synapse töötleb miljardeid telemeetriridu, servade agregeerimine vähendab sõnumite kulusid ~90%."
+      },
+      "drone": {
+        "label": "Autonoomne drooniplatvorm",
+        "outcome": "Kohandatud lennukontroller 4G-Azure IoT Hub sillaga, mis võimaldab autonoomseid BVLOS-lende põllumajanduslikuks jälgimiseks ja lasti kohaletoimetamiseks."
+      },
+      "payment": {
+        "label": "Maksesüsteemi päästmine",
+        "outcome": "Päästsin Norra mobiilirakenduse ebaõnnestunud maksevärava, tehes dokumenteerimata pärandkoodi tagasi. Null maksete seisakute aega pärast moderniseerimist."
+      },
+      "game": {
+        "label": "AAA mänguarenduse tööriistad",
+        "outcome": "Ehitasin Maya plugina, mis vähendas 3D modelleerimise ja animatsiooni aega 50% võrra suures AAA stuudios, võeti tootmistorus standardtööriistaks."
+      },
+      "social": {
+        "label": "Asukohapõhine sotsiaalplatvorm",
+        "outcome": "Arhitektuuritud tutvumisrakendus Hispaania ööelu jaoks, kus on geolokatsioonisobitus, reaalajas sõnumid ja push-teavitused Ühendkuningriigi kliendile."
+      },
+      "iga": {
+        "label": "Mitme üürnikuga IGA platvorm",
+        "outcome": "Ehitatud põhiline taustasüsteem pilvepõhisele identiteedihaldusplatvormile, mis teenindab Fortune 500 kliente kohandatud ASP.NET Core Identity for NoSQL jaoks ettevõtte tasandil."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "EL-i lähedal, globaalne tarne",
+        "description": "CET tööajad, kogemusega Norras, Hollandis, Saksamaal ja kaugemalgi."
+      },
+      "yourEngineers": {
+        "title": "Sinu insenerid, mitte tarnijad",
+        "description": "Pühendunud meeskonnaliikmed, kes on integreeritud sinu töövoogu ja tööriistadesse. Ei kontohaldureid, ei piletijärjekordi."
+      },
+      "hardwareToCloud": {
+        "title": "Riistvara pilveks",
+        "description": "Alates manusseadmete püsivarast kuni ettevõtte Azure Synapse torujuhtmeteni. Täisstack tarkvara igal kihil."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Tehnoloogia virn",
+    "title": "Lahingukogenud <gradient>virn</gradient>",
+    "titlePlain": "Lahingukogenud virn",
+    "commentMarker": "TECH_STACK",
+    "description": "Me ei kasuta neid tööriistu lihtsalt — oleme nendega tootmissüsteeme saatnud. Alates Microsoft Azure'ist kuni Kubernetes'ini – meie insenerid omavad reaalse maailma teadmisi.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Pilv ja infrastruktuur",
+        "description": "Mitmepilveline arhitektuur koos konteinerite orkestreerimise ja infrastruktuuriga koodina."
+      },
+      "frontend": {
+        "label": "Frontend",
+        "description": "Kaasaegsed komponendiraamistikud koos tüübiohutuse ja optimeeritud ehitustööriistadega."
+      },
+      "backend": {
+        "label": "Backend ja API-d",
+        "description": "Ettevõtte tasemel serveriplatvormid, süsteemikeeled ja kaasaegsed API paradigmad."
+      },
+      "data": {
+        "label": "Andmed ja salvestus",
+        "description": "Relatsioonilised, dokumendi- ja mälusalvestused koos täisteksti otsinguga."
+      },
+      "devops": {
+        "label": "DevOps ja tööriistad",
+        "description": "CI/CD torujuhtmed, versioonihaldus ja arendajate tootlikkus."
+      }
+    },
+    "scanning": "SKANEERIMISSAGEDUSED...",
+    "summary": {
+      "cloudNative": {
+        "title": "Pilvepõhine vaikimisi",
+        "description": "Iga projekt on konteineritud, CI/CD-juhitud ja ehitatud horisontaalseks mastaabiks alates esimesest päevast."
+      },
+      "fullStack": {
+        "title": "Täisstacki sujuvus",
+        "description": "Alates React frontendist kuni .NET mikroteenusteni ja Kubernetes'i klastriteni — üks meeskond, otsast lõpuni."
+      },
+      "productionProven": {
+        "title": "Tootmises tõestatud",
+        "description": "Need ei ole demo-tehnoloogiad. Iga loetletud tööriist toidab reaalseid süsteeme, mis teenindavad tänapäeva päris kasutajaid."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Tehnoloogialogode rida 1",
+      "row2Aria": "Tehnoloogialogode rida 2",
+      "row3Aria": "Tehnoloogia logode rida 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Teadmistepagas",
+    "title": "Korduma <gradient>kippuvad küsimused</gradient>",
+    "titlePlain": "Korduma kippuvad küsimused",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Kõik, mida pead teadma Horizon Techiga töötamise kohta",
+    "items": {
+      "scope": {
+        "question": "Mis on sinu töövaldkond?",
+        "answer": "Pakume lõpp-lõpuni tehnoloogiaprojekte: kohandatud ettevõtte tarkvara, AI/ML torujuhtmed, pilveinfrastruktuur, IoT süsteemid, DevOps automatiseerimine ja digitaalse transformatsiooni konsultatsioon. Olenemata sellest, kas vajad nullist ehitatud täisplatvormi või sihipärast integratsiooni olemasoleva virnaga, tegeleme arhitektuuri, arenduse, testimise ja juurutamisega."
+      },
+      "stack": {
+        "question": "Mis on sinu põhitehnoloogia virn?",
+        "answer": "Meie põhikomplekt keskendub ettevõtte tasemel platvormidele: Azure ja AWS pilve jaoks, .NET ja Node.js backendi jaoks, React ja Angular frontendi jaoks, Kubernetes ja Docker orkestreerimise jaoks ning Terraform infrastruktuuri jaoks koodina. Samuti teeme tihedat koostööd Pythoniga AI/ML töökoormuste jaoks, Power BI ja Fabriciga äriluure jaoks ning PostgreSQL, SQL Serveri ja MongoDB-ga andmete jaoks."
+      },
+      "enterprise": {
+        "question": "Kuidas te tegelete ettevõtte projektidega?",
+        "answer": "Iga kaasamine algab avastusetapiga, mis määratleb ulatuse, arhitektuuri ja verstapostid. Sul on pühendunud meeskond koos tehnilise juhiga, regulaarsed verstapostide ülevaatused ja otsene ligipääs inseneridele, kes sinu süsteemi ehitavad. Järgime agiilseid sprinte sidusrühmade demodega, hoiame läbipaistvaid projektitahvleid ja pakume iganädalasi edenemisaruandeid."
+      },
+      "support": {
+        "question": "Milline näeb välja tugi pärast lansseerimist?",
+        "answer": "Pakume struktureeritud tugitasemeid koos määratletud SLA-dega, sealhulgas ööpäevaringset jälgimist, intsidentidele reageerimist, jõudluse optimeerimist ja funktsioonide iteratsiooni. Meie tugilepingud hõlmavad veaparandusi, turvaparandusi, infrastruktuuri skaleerimist ja proaktiivseid tervisekontrolle — mis on kohandatud teie tööaja ja reageerimisaja nõuetele."
+      },
+      "integration": {
+        "question": "Kas saate integreeruda meie olemasoleva infrastruktuuriga?",
+        "answer": "Absoluutselt. Meie spetsialiseerume pärandmoderniseerimisele, API-põhistele integratsioonidele ja hübriidpilvemigratsioonidele. Olgu sul vaja ühenduda kohapealsete ERP-süsteemidega, migreeruda monoliitidelt mikroteenustele või ühendada vanu andmebaase kaasaegsete kasutajaliidestega, meil on migratsiooni mänguraamatud ja integratsioonikogemus, mis teeb selle sujuvaks."
+      },
+      "industries": {
+        "question": "Millistes tööstusharudes oled töötanud?",
+        "answer": "Meie meeskond on ellu viinud projekte finantstehnoloogia, tervishoiu, logistika, e-kaubanduse, energia ja valitsussektoris. Mõistame tööstusharuspetsiifilisi nõudeid nagu PCI-DSS maksete jaoks, HIPAA kaalutlused terviseandmete jaoks, GDPR-i vastavus EL-i turgudel ja reaalajas telemeetria tööstusliku IoT jaoks."
+      },
+      "engagement": {
+        "question": "Milline näeb välja kaasamisprotsess?",
+        "answer": "See algab avastuskõnega, et mõista sinu eesmärke ja tehnilist maastikku. Sealt edasi esitame ulatusdokumendi koos arhitektuurisoovituste, ajakava ja investeeringute jaotusega. Kui heakskiit on kinnitatud, alustame pühendunud meeskonnaga, liitume teie tööriistade ja töövoogude sisse ning alustame esimest sprinti mõne päeva jooksul."
+      }
+    },
+    "stillHaveQuestions": "Kas sul on veel küsimusi?",
+    "ctaDescription": "Kas sul on mõni projekt mõttes? Räägime ulatusest, ajakavast ja eelarvest.",
+    "readCaseStudies": "Loe meie juhtumiuuringuid",
+    "scheduleCall": "Broneeri kõne"
+  }
+}

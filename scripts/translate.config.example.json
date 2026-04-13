@@ -1,0 +1,18 @@
+{
+  "activeProvider": "oc-01-anthropic",
+  "activeModel": "claude-sonnet-4-6",
+  "concurrency": 3,
+  "providers": {
+    "oc-01-anthropic": {
+      "baseUrl": "https://YOUR_RESOURCE.services.ai.azure.com/anthropic",
+      "apiKey": "YOUR_API_KEY",
+      "api": "anthropic-messages",
+      "headers": { "api-version": "2023-06-01" }
+    },
+    "oc-01-openai": {
+      "baseUrl": "https://YOUR_RESOURCE.services.ai.azure.com/openai/v1/",
+      "apiKey": "YOUR_API_KEY",
+      "api": "openai-completions"
+    }
+  }
+}

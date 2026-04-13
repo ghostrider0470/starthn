@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Всички"
+  },
+  "categories": {
+    "aiEngineering": "AI инженерство",
+    "enterpriseArchitecture": "Корпоративна архитектура",
+    "cloudDevOps": "Облак и DevOps",
+    "automationSystems": "Автоматизационни системи",
+    "softwareReliabilityDesign": "Надеждност и проектиране на софтуера"
+  },
+  "readTime": "{{minutes}} минута четене",
+  "tagsLabel": "Тагове",
+  "relatedPosts": "Свързани публикации",
+  "author": {
+    "role": "Издател"
+  },
+  "editor": {
+    "emptyPreview": "Започнете да пишете, за да видите предварителен преглед..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Бързо инженерство",
+    "observability": "Наблюдаемост",
+    "safety": "Безопасност",
+    "domainDesign": "Дизайн на домейн",
+    "integration": "Интеграция",
+    "governance": "Управление",
+    "platformStrategy": "Платформа стратегия",
+    "platformEngineering": "Инженеринг на платформи",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Опит като разработчик",
+    "eventDriven": "Събития, водени от събития",
+    "workflowOrchestration": "Оркестрация на работния процес",
+    "controlPlanes": "Контролни равнини",
+    "resilience": "Устойчивост",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "Режими на отказ",
+    "resilienceEngineering": "Инженеринг на устойчивостта",
+    "evaluation": "Оценка",
+    "qualityEngineering": "Инженеринг на качеството",
+    "datasets": "Набори от данни",
+    "releaseManagement": "Управление на изданията",
+    "incidentManagement": "Управление на инциденти",
+    "architectureEvolution": "Еволюция на архитектурата",
+    "riskReduction": "Намаляване на риска",
+    "postmortems": "Посмъртни изследвания",
+    "progressiveDelivery": "Прогресивна доставка",
+    "canaryReleases": "Канарски издания",
+    "featureFlags": "Флагове за характеристики"
+  }
+}

@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Amdanom ni",
+    "hero": {
+      "titlePrefix": "Adeiladu technoleg yfory,",
+      "titleHighlight": "Heddiw",
+      "description": "Mae Horizon Tech d.o.o. yn gwmni technoleg byd-eang sydd â'i bencadlys yn Sarajevo, sy'n darparu atebion meddalwedd arloesol i fentrau ar draws tri chyfandir."
+    },
+    "sections": {
+      "mission": {
+        "title": "Cenhadaeth",
+        "description": "Rydym yn helpu sefydliadau i droi syniadau uchelgeisiol yn gynhyrchion digidol dibynadwy sy'n creu gwerth busnes mesuradwy.",
+        "points": [
+          "Alinio cyflenwi technoleg â chanlyniadau busnes clir.",
+          "Adeiladu systemau tymor hir sy'n parhau i fod yn gynhaliol wrth i dimau raddio.",
+          "Partner agos gyda rhanddeiliaid o'r strategaeth trwy weithredu."
+        ]
+      },
+      "expertise": {
+        "title": "Arbenigedd",
+        "description": "Mae ein timau amlddisgyblaethol yn cyfuno dyfnder peirianneg â meddwl cynnyrch ar draws pentyrrau technoleg modern.",
+        "points": [
+          "Peirianneg gwe a llwyfan gradd menter.",
+          "Pensaernïaeth cwmwl, awtomeiddio DevOps, a seilwaith gwydn.",
+          "AI / ML cymhwysol, llifoedd gwaith data, a chynhyrchion wedi'u galluogi gan IoT."
+        ]
+      },
+      "approach": {
+        "title": "Dull gweithredu",
+        "description": "Rydym yn gweithredu gyda model tryloyw, iterative sy'n cadw cyflenwi yn rhagweladwy wrth leihau risg cynnyrch.",
+        "points": [
+          "Darganfod: diffinio cwmpas, blaenoriaethau a metrigau llwyddiant yn gynnar.",
+          "Adeiladu: llong mewn cynnydd ffocws gyda dolenni adborth parhaus.",
+          "Optimeiddio: monitro canlyniadau a gwella perfformiad dros amser."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Yn barod i drawsnewid eich busnes?",
+      "description": "Ymunwch â'r rhestr gynyddol o gwmnïau sy'n ymddiried yn Horizon Tech i ddarparu atebion arloesol a chanlyniadau eithriadol.",
+      "primary": "Dechrau arni",
+      "secondary": "Gweld Straeon Llwyddiant"
+    }
+  },
+  "contact": {
+    "badge": "Cysylltu â ni",
+    "hero": {
+      "title": "Cysylltu â ni",
+      "description": "Oes gennych brosiect mewn golwg? Byddem wrth ein bodd yn clywed gennych. Estynnwch allan i drafod sut y gallwn helpu i ddod â'ch syniadau yn fyw."
+    },
+    "info": {
+      "title": "Gwybodaeth Gyswllt"
+    },
+    "booking": {
+      "title": "Trefnu Cyfarfod",
+      "description": "Trefnu galwad darganfod 30 munud am ddim"
+    },
+    "methods": {
+      "email": {
+        "title": "E-bost",
+        "description": "Anfonwch e-bost atom unrhyw bryd",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Lleoliad",
+        "description": "Wedi'i leoli yn",
+        "value": "Sarajevo, Bosnia a Herzegovina"
+      },
+      "response": {
+        "title": "Amser Ymateb",
+        "description": "Rydym fel arfer yn ymateb o fewn",
+        "value": "24-48 awr"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Prosiect Newydd"
+      },
+      "support": {
+        "label": "Cymorth Technegol"
+      },
+      "partnerships": {
+        "label": "Partneriaethau"
+      },
+      "careers": {
+        "label": "Gyrfaoedd"
+      },
+      "general": {
+        "label": "Ymchwiliad Cyffredinol"
+      }
+    },
+    "form": {
+      "title": "Anfonwch neges atom",
+      "success": "Diolch am eich neges. Byddwn yn cysylltu â chi o fewn 24-48 awr.",
+      "error": "Aeth rhywbeth o'i le. Ceisiwch eto neu anfonwch e-bost atom yn uniongyrchol.",
+      "fullName": "Enw Llawn *",
+      "email": "Cyfeiriad E-bost *",
+      "company": "Cwmni",
+      "subject": "Pwnc *",
+      "message": "Neges *",
+      "placeholders": {
+        "name": "Dy enw",
+        "email": "you@example.com",
+        "company": "Eich cwmni",
+        "subject": "Gyda beth allwn ni helpu?",
+        "message": "Dywedwch wrthym am eich prosiect neu ymholiad..."
+      },
+      "validation": {
+        "required": {
+          "name": "Mae angen enw llawn.",
+          "email": "Mae angen cyfeiriad e-bost.",
+          "subject": "Dewiswch bwnc os gwelwch yn dda.",
+          "message": "Mae angen neges."
+        },
+        "email": "Rhowch gyfeiriad e-bost dilys.",
+        "messageMinLength": "Rhaid i'r neges fod o leiaf {{count}} nod o hyd."
+      },
+      "sending": "Anfon ...",
+      "submit": "Anfon Neges"
+    },
+    "reasonsTitle": "Pam gweithio gyda ni?",
+    "reasons": [
+      "Arbenigedd datblygu meddalwedd pentwr llawn",
+      "AI / ML ac arbenigwyr pensaernïaeth cwmwl",
+      "Datblygu ystwyth gyda chyfathrebu tryloyw",
+      "Cymorth a chynnal a chadw hirdymor"
+    ],
+    "custom": {
+      "title": "Atebion Addasedig",
+      "description": "Chwilio am ateb wedi'i deilwra? Rydym yn gweithio'n agos gyda chleientiaid i ddeall anghenion unigryw a darparu meddalwedd arferol sy'n gyrru canlyniadau mesuradwy.",
+      "cta": "Trafodwch eich prosiect"
+    },
+    "faq": {
+      "title": "Oes gennych chi fwy o gwestiynau?",
+      "description": "Edrychwch ar ein hadran Cwestiynau Cyffredin am atebion cyflym",
+      "cta": "Pori Cwestiynau Cyffredin"
+    }
+  },
+  "team": {
+    "badge": "Ein Tîm",
+    "hero": {
+      "titlePrefix": "Cwrdd â'r meddyliau y tu ôl",
+      "titleHighlight": "Technoleg Horizon",
+      "description": "Tîm amrywiol o dechnolegwyr, dylunwyr a strategwyr sy'n adeiladu cynhyrchion digidol effaith uchel gyda'i gilydd."
+    },
+    "section": {
+      "title": "Tîm Arweinyddiaeth",
+      "description": "Yr arweinwyr profiadol sy'n arwain gweledigaeth a thwf Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Sylfaenydd, Prif Swyddog Gweithredol a CTO",
+        "bio": "Arweinydd gweledigaethol a phensaer technegol gyda 10+ mlynedd mewn meddalwedd menter, sy'n arbenigo mewn AI / ML, llwyfannau cwmwl, a phensaernïaeth cynnyrch graddadwy.",
+        "expertise": [
+          "AI / ML",
+          "Eiddo",
+          ".NET",
+          "Python",
+          "Pensaernïaeth Datrysiad",
+          "Peirianneg Cwmwl"
+        ]
+      },
+      "ahmet": {
+        "role": "Prif Bensaer Diogelwch",
+        "bio": "Arbenigwr seiberddiogelwch yn canolbwyntio ar bensaernïaeth diogelwch menter, seilwaith diogel ar y safle a chyflenwi cydymffurfiaeth gyntaf ar gyfer amgylcheddau rheoledig.",
+        "expertise": [
+          "Seiberddiogelwch",
+          "Systemau On-Prem",
+          "Pensaernïaeth Diogelwch",
+          "Cydymffurfio",
+          "Diogelwch Seilwaith"
+        ]
+      }
+    },
+    "aria": {
+      "email": "E-bost {{name}}",
+      "linkedin": "{{name}} proffil LinkedIn"
+    },
+    "culture": {
+      "title": "Bywyd yn Horizon Tech",
+      "description": "Rydym yn meithrin diwylliant o arloesi, cydweithredu a dysgu parhaus",
+      "remoteFirst": {
+        "title": "Diwylliant Anghysbell yn Gyntaf",
+        "description": "Gweithio o unrhyw le gydag oriau hyblyg a ffocws ar ganlyniadau, nid lleoliad."
+      },
+      "collaborative": {
+        "title": "Amgylchedd cydweithredol",
+        "description": "Digwyddiadau tîm rheolaidd, sesiynau rhannu gwybodaeth, a chydweithrediad traws-swyddogaethol."
+      },
+      "workLife": {
+        "title": "Cydbwysedd Bywyd a Gwaith",
+        "description": "Polisi gwyliau hael, cymorth iechyd meddwl, a pharch at amser personol."
+      },
+      "innovation": {
+        "title": "Amser Arloesi",
+        "description": "20% o amser ar gyfer prosiectau personol, hacathonnau, ac archwilio technolegau newydd."
+      },
+      "stats": {
+        "teamMembers": "Aelodau'r Tîm",
+        "countries": "Gwledydd",
+        "techStacks": "Staciau Technoleg",
+        "remoteReady": "Barod o Bell"
+      }
+    },
+    "cta": {
+      "title": "Eisiau ymuno â'n tîm?",
+      "description": "Rydym bob amser yn chwilio am bobl dalentog sy'n poeni am grefft, perchnogaeth ac arloesi.",
+      "button": "Cysylltu â ni"
+    }
+  },
+  "careers": {
+    "badge": "Ymunwch â'n Tîm",
+    "hero": {
+      "titlePrefix": "Adeiladu'r Dyfodol",
+      "titleHighlight": "Gyda Ni",
+      "description": "Ymunwch â thîm o beirianwyr sy'n adeiladu meddalwedd arloesol ar gyfer cleientiaid byd-eang. Gweithio o bell, tyfu'n barhaus, a chael effaith wirioneddol.",
+      "button": "Gweler Swyddi"
+    },
+    "process": {
+      "title": "Ein Proses Llogi",
+      "description": "Tryloyw, effeithlon, a pharchus o'ch amser",
+      "steps": [
+        {
+          "title": "Ymgeisio",
+          "description": "Cyflwynwch eich cais a byddwn yn ei adolygu o fewn 3 diwrnod busnes."
+        },
+        {
+          "title": "Sgwrs Gychwyn",
+          "description": "Galwad fideo 30 munud i drafod eich profiad a'ch disgwyliadau."
+        },
+        {
+          "title": "Technegol",
+          "description": "Cyfweliad technegol neu ymarfer ymarferol i arddangos eich sgiliau."
+        },
+        {
+          "title": "Cynigion",
+          "description": "Cwrdd â'r tîm a derbyn eich cynnig i ymuno â Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Swyddi Agored",
+      "description": "Dewch o hyd i'ch cyfle nesaf ac ymunwch â'n tîm sy'n tyfu",
+      "unavailable": "Methu derbyn ceisiadau ar hyn o bryd",
+      "apply": "Ymgeisio Nawr",
+      "noMatch": "Ddim yn gweld y rôl berffaith?",
+      "sendCv": "Anfonwch eich CV atom",
+      "listings": [
+        {
+          "title": "Uwch Beiriannydd Pentwr Llawn",
+          "department": "Peirianneg",
+          "location": "Anghysbell (Parthau Amser yr UE)",
+          "type": "Llawn Amser",
+          "description": "Adeiladu cymwysiadau menter scalable gan ddefnyddio technolegau React, Node.js, a cwmwl.",
+          "tags": [
+            "Ymateb",
+            "Node.js",
+            "Teipysgrif",
+            "Cartref"
+          ]
+        },
+        {
+          "title": "Peiriannydd DevOps",
+          "department": "Peirianneg",
+          "location": "Sarajevo / Anghysbell",
+          "type": "Llawn Amser",
+          "description": "Dylunio a chynnal piblinellau CI / CD, seilwaith fel cod, a systemau monitro.",
+          "tags": [
+            "Kubernetes",
+            "Dociwr",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "Peiriannydd AI / ML",
+          "department": "Labordy Arloesi",
+          "location": "Pell",
+          "type": "Llawn Amser",
+          "description": "Datblygu modelau dysgu peiriannau ac atebion AI ar gyfer cleientiaid menter.",
+          "tags": [
+            "Python",
+            "Llif TensorName",
+            "PyTorch",
+            "Swyddi"
+          ]
+        },
+        {
+          "title": "Dylunydd Cynnyrch",
+          "department": "Dyluniad",
+          "location": "Pell",
+          "type": "Llawn Amser",
+          "description": "Creu profiadau defnyddiwr hardd, greddfol ar gyfer cymwysiadau menter cymhleth.",
+          "tags": [
+            "Ffigwr",
+            "Ymchwil Defnyddwyr",
+            "UI / UX",
+            "Systemau Dylunio"
+          ]
+        },
+        {
+          "title": "Pensaer Atebion",
+          "department": "Peirianneg",
+          "location": "Pell",
+          "type": "Llawn Amser",
+          "description": "Dylunio atebion technegol o'r diwedd i'r diwedd ac arwain cleientiaid trwy drawsnewid digidol.",
+          "tags": [
+            "Pensaernïaeth Cwmwl",
+            "Dyluniad System",
+            "Ymgynghori"
+          ]
+        },
+        {
+          "title": "Awdur Technegol",
+          "department": "Gweithrediadau",
+          "location": "Pell",
+          "type": "Rhan-amser",
+          "description": "Creu dogfennaeth gynhwysfawr, tiwtorialau a chynnwys technegol.",
+          "tags": [
+            "Dogfennaeth",
+            "Dogfennau API",
+            "Ysgrifennu Technegol"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Cwestiynau am weithio yma?",
+      "description": "Byddem wrth ein bodd yn clywed gennych. Estynnwch allan a byddwn yn ateb unrhyw gwestiynau am fywyd yn Horizon Tech.",
+      "button": "Cysylltu â ni"
+    }
+  },
+  "caseStudies": {
+    "badge": "Straeon Llwyddiant",
+    "hero": {
+      "titlePrefix": "Cyflawni canlyniadau sy'n",
+      "titleHighlight": "Mater",
+      "description": "Archwiliwch sut rydym wedi helpu cwmnïau ar draws diwydiannau i drawsnewid gweithrediadau trwy dechnoleg ymarferol, effaith uchel.",
+      "tags": {
+        "delivery": "Cyflenwi Peirianneg",
+        "outcomes": "Canlyniadau wedi'u Mesur"
+      }
+    },
+    "stats": {
+      "projects": "Prosiectau a Gyflawnwyd",
+      "clients": "Cleientiaid Hapus",
+      "efficiency": "Cyfartaledd Ennill Effeithlonrwydd",
+      "retention": "Cadw Cleientiaid"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Corp FinTech Byd-eang",
+        "industry": "Gwasanaethau Ariannol",
+        "title": "Mudo a Moderneiddio Cwmwl",
+        "description": "Migrated systemau bancio etifeddiaeth i seilwaith cwmwl AWS heb amser segur.",
+        "challenge": "Pensaernïaeth monolithig etifeddol sy'n achosi problemau scalability",
+        "result": "Mudo'n llwyddiannus i ficrowasanaethau ar AWS",
+        "metrics": [
+          {
+            "label": "Lleihau Costau",
+            "value": "40%"
+          },
+          {
+            "label": "Cynnydd Perfformiad",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "Cartref",
+          "Kubernetes",
+          "Microwasanaethau",
+          "Cysylltu"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "Atebion HealthTech",
+        "industry": "Gofal Iechyd",
+        "title": "Llwyfan Diagnostig wedi'i bweru gan AI",
+        "description": "Adeiladu modelau ML ar gyfer dadansoddi delweddau meddygol gyda chywirdeb 95% +.",
+        "challenge": "Prosesau diagnostig â llaw yn cymryd rhy hir",
+        "result": "Diagnosteg awtomataidd gydag AI / ML",
+        "metrics": [
+          {
+            "label": "Amser wedi'i Arbed",
+            "value": "70%"
+          },
+          {
+            "label": "Cywirdeb",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "Llif TensorName",
+          "Ymateb",
+          "Gofal Iechyd"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Cawr E-Fasnach",
+        "industry": "Manwerthu",
+        "title": "Dangosfwrdd Dadansoddeg Amser Real",
+        "description": "Datblygu platfform BI sy'n prosesu digwyddiadau 10M + bob dydd.",
+        "challenge": "Dim gwelededd amser real i fetrigau busnes allweddol",
+        "result": "Platfform dadansoddeg a mewnwelediadau amser real",
+        "metrics": [
+          {
+            "label": "Digwyddiadau/Diwrnod",
+            "value": "10M +"
+          },
+          {
+            "label": "Amser Ymateb",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "Ymholiad Mawr",
+          "Kafka",
+          "Ymateb",
+          "Peirianneg Data"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Yn barod i ysgrifennu eich stori lwyddiant?",
+      "description": "Gadewch i ni drafod sut y gallwn eich helpu i gyflawni canlyniadau tebyg a graddfa yn hyderus."
+    },
+    "filters": {
+      "title": "Hidlydd Diwydiant",
+      "all": "Pob Diwydiant",
+      "empty": "Nid oes unrhyw astudiaethau achos yn cyfateb i'r hidlydd diwydiant a ddewiswyd."
+    }
+  },
+  "blog": {
+    "badge": "Newyddion",
+    "hero": {
+      "titlePrefix": "Mewnwelediadau a Syniadau gan",
+      "titleHighlight": "Technoleg Horizon",
+      "description": "Tiwtorialau technegol, mewnwelediadau diwydiant, a gwersi ymarferol o waith cyflenwi go iawn."
+    },
+    "categories": [
+      "Pob Swydd",
+      "Pensaernïaeth Cwmwl",
+      "Cysylltu",
+      "AI / ML",
+      "Ochr flaen",
+      "Ochr gefn",
+      "Data"
+    ],
+    "featuredPost": {
+      "id": "Cartref",
+      "title": "Dyfodol Datblygu Brodorol Cwmwl: Tueddiadau i'w Gwylio yn 2025",
+      "excerpt": "Archwiliwch y tueddiadau diweddaraf mewn datblygiad cwmwl-frodorol, o bensaernïaethau serverless i gyfrifiadura ymyl.",
+      "author": {
+        "name": "Golygyddol Horizon Tech"
+      },
+      "date": "Tachwedd 15, 2025",
+      "readTime": "8 munud wedi'i ddarllen",
+      "category": "Pensaernïaeth Cwmwl",
+      "tags": [
+        "Cwmwl",
+        "Eiddo",
+        "Tueddiadau"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Adeiladu Microwasanaethau Scalable gyda Gwasanaeth Azure Kubernetes",
+        "excerpt": "Canllaw ymarferol i bensaernïo a defnyddio microwasanaethau gan ddefnyddio AKS.",
+        "author": {
+          "name": "Golygyddol Horizon Tech"
+        },
+        "date": "Tach 12, 2025",
+        "readTime": "6 munud wedi'i ddarllen",
+        "category": "Cysylltu",
+        "tags": [
+          "Kubernetes",
+          "Microwasanaethau",
+          "Eiddo"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Dysgu Peiriant mewn Cynhyrchu: Gwersi a Ddysgwyd",
+        "excerpt": "Gwersi wedi'u profi maes o ddefnyddio modelau ML ar raddfa.",
+        "author": {
+          "name": "Golygyddol Horizon Tech"
+        },
+        "date": "Tachwedd 10, 2025",
+        "readTime": "10 munud wedi'i ddarllen",
+        "category": "AI / ML",
+        "tags": [
+          "Dysgu Peiriant",
+          "Swyddi",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Beth sy'n Newydd a Pham Mae'n Bwysig",
+        "excerpt": "Plymio dwfn i nodweddion React 19 a goblygiadau perfformiad.",
+        "author": {
+          "name": "Golygyddol Horizon Tech"
+        },
+        "date": "Tachwedd 8, 2025",
+        "readTime": "5 munud wedi'i ddarllen",
+        "category": "Ochr flaen",
+        "tags": [
+          "Ymateb",
+          "Mewngofnodi",
+          "Datblygu'r We"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Tanysgrifiwch i'n Cylchlythyr",
+      "description": "Cael yr erthyglau, tiwtorialau a mewnwelediadau diweddaraf yn wythnosol.",
+      "placeholder": "your.email@example.com",
+      "button": "Cysylltu",
+      "note": "Dim sbam. Dad-danysgrifio unrhyw bryd."
+    },
+    "index": {
+      "hero": {
+        "title": "Blog Peirianneg Horizon Tech",
+        "description": "Nodiadau maes a phatrymau ymarferol gan dimau sy'n adeiladu cynhyrchion AI, systemau menter, a llwyfannau cwmwl dibynadwy."
+      },
+      "filters": {
+        "postsInView": "{{count}} swyddi mewn golwg"
+      },
+      "featured": {
+        "badge": "Newyddion",
+        "readCta": "Darllenwch y post dan sylw"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Yn Llwytho Proffil...",
+    "title": "Gosodiadau Proffil",
+    "subtitle": "Rheoli gosodiadau a hoffterau eich cyfrif",
+    "photoButton": "Newid Llun",
+    "tabs": {
+      "general": "Cyffredinol",
+      "security": "Diogelwch",
+      "preferences": "Hoffterau"
+    },
+    "messages": {
+      "profileUpdated": "Proffil wedi'i ddiweddaru'n llwyddiannus",
+      "profileUpdateFailed": "Methu diweddaru'r proffil",
+      "passwordsNoMatch": "Cyfrineiriau newydd ddim yn cydweddu",
+      "passwordTooShort": "Rhaid i'r cyfrinair fod o leiaf 8 nod o hyd",
+      "passwordChanged": "Cyfrinair wedi ei newid yn llwyddiannus",
+      "passwordChangeFailed": "Methu newid cyfrinair",
+      "optedOut": "Optio allan o adroddiadau ymarfer",
+      "optedIn": "Optio i mewn i adroddiadau ymarfer",
+      "optOutFailed": "Methu diweddaru'r cyflwr optio allan"
+    },
+    "general": {
+      "title": "Gwybodaeth Bersonol",
+      "description": "Diweddaru eich manylion personol a'ch gwybodaeth gyswllt",
+      "firstName": "Enw Cyntaf",
+      "firstNamePlaceholder": "John",
+      "lastName": "Enw olaf",
+      "lastNamePlaceholder": "Doe",
+      "email": "Cyfeiriad Ebost",
+      "emailNotice": "Methu newid e-bost. Cysylltwch â'r cymorth os oes angen cymorth arnoch.",
+      "phone": "Rhif Ffôn",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Cadw Newidiadau"
+    },
+    "security": {
+      "title": "Gosodiadau Diogelwch",
+      "description": "Rheoli eich cyfrinair a'ch hoffterau diogelwch",
+      "currentPassword": "Cyfrinair Cyfredol",
+      "currentPasswordPlaceholder": "Rhowch y cyfrinair cyfredol",
+      "newPassword": "Cyfrinair Newydd",
+      "newPasswordPlaceholder": "Rhowch gyfrinair newydd",
+      "confirmPassword": "Cadarnhau Cyfrinair Newydd",
+      "confirmPasswordPlaceholder": "Cadarnhau cyfrinair newydd",
+      "passwordHint": "Rhaid iddo fod o leiaf 8 nod o hyd",
+      "changePassword": "Newid Cyfrinair"
+    },
+    "preferences": {
+      "title": "Hoffterau Hysbysu",
+      "description": "Rheoli sut rydych chi'n derbyn diweddariadau a hysbysiadau",
+      "email": {
+        "title": "Hysbysiadau E-bost",
+        "description": "Derbyn diweddariadau a rhybuddion trwy e-bost"
+      },
+      "sms": {
+        "title": "Hysbysiadau SMS",
+        "description": "Derbyn rhybuddion pwysig drwy neges destun"
+      },
+      "optOut": {
+        "title": "Adroddiadau Optio Allan o Ymarfer",
+        "description": "Cuddio eich adroddiadau rhag perchennog practis"
+      },
+      "actions": {
+        "title": "Gweithredoedd Cyfrif",
+        "downloadData": "Lawrlwytho Data Cyfrif",
+        "deleteAccount": "Dileu Cyfrif"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Yn ôl i'r Cartref",
+    "title": "Canolfan Gymorth",
+    "subtitle": "Mynnwch help gyda'n gwasanaethau datblygu meddalwedd",
+    "cards": {
+      "email": {
+        "title": "Cymorth E-bost",
+        "description": "Anfonwch e-bost atom ar gyfer unrhyw ymholiadau"
+      },
+      "project": {
+        "title": "Ymholiadau Prosiect",
+        "description": "Trafodwch ofynion eich prosiect",
+        "button": "Cysylltu â ni"
+      },
+      "resources": {
+        "title": "Adnoddau",
+        "description": "Adnoddau technegol a chanllawiau",
+        "button": "Gweld Adnoddau"
+      }
+    },
+    "faqTitle": "Cwestiynau a ofynnir yn aml",
+    "faqDescription": "Atebion cyflym i gwestiynau cyffredin",
+    "faqs": [
+      {
+        "question": "Pa wasanaethau mae Horizon Tech yn eu cynnig?",
+        "answer": "Rydym yn darparu datblygu meddalwedd arferol, datrysiadau AI / ML, pensaernïaeth cwmwl, DevOps, deallusrwydd busnes, a gwasanaethau IoT."
+      },
+      {
+        "question": "Sut mae dechrau prosiect gyda Horizon Tech?",
+        "answer": "Cysylltwch â ni drwy ffurflen neu e-bost gyda'ch gofynion. Byddwn yn trefnu galwad darganfod ac yn rhannu cynnig."
+      },
+      {
+        "question": "Ydych chi'n darparu cymorth a chynnal a chadw parhaus?",
+        "answer": "Ydw. Rydym yn cynnig pecynnau cymorth a chynnal a chadw sy'n cynnwys atgyweiriadau nam, diweddariadau diogelwch, a gwelliannau nodweddion."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Yn ôl i'r Cartref",
+    "title": "Adnoddau Technegol",
+    "subtitle": "Canllawiau, tiwtorialau ac arferion gorau gan dîm Horizon Tech",
+    "hub": {
+      "title": "Hwb Dysgu",
+      "description": "Archwiliwch ein hadnoddau technegol wedi'u curadu ar draws cwmwl, AI / ML, DevOps, a datblygu meddalwedd modern.",
+      "note": "Mae'r deunyddiau hyn yn seiliedig ar brofiad prosiect go iawn ac yn cael eu diweddaru'n rheolaidd."
+    },
+    "categories": [
+      {
+        "icon": "cwmwl",
+        "title": "Pensaernïaeth Cwmwl",
+        "description": "Patrymau Azure, AWS, a brodorol y cwmwl",
+        "resources": [
+          {
+            "title": "Arferion Gorau Pensaernïaeth Azure",
+            "type": "Canllaw"
+          },
+          {
+            "title": "Strategaethau Mudo Cwmwl",
+            "type": "Erthygl"
+          }
+        ]
+      },
+      {
+        "icon": "ymennydd",
+        "title": "AI a Dysgu Peirianyddol",
+        "description": "Modelau ML, gwyddor data, ac integreiddio AI",
+        "resources": [
+          {
+            "title": "Cyflwyniad i Azure ML",
+            "type": "Tiwtorial"
+          },
+          {
+            "title": "Piblinellau ML Cynhyrchu Adeiladu",
+            "type": "Canllaw"
+          }
+        ]
+      },
+      {
+        "icon": "Gosodiadau",
+        "title": "DevOps a Llwyfan",
+        "description": "CI / CD, seilwaith fel cod, awtomeiddio",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Tiwtorial"
+          },
+          {
+            "title": "Seilwaith fel Cod gyda Terraform",
+            "type": "Canllaw"
+          }
+        ]
+      },
+      {
+        "icon": "côd",
+        "title": "Datblygu meddalwedd",
+        "description": ".NET, React, ac arferion datblygu modern",
+        "resources": [
+          {
+            "title": "Pensaernïaeth Glân yn .NET",
+            "type": "Canllaw"
+          },
+          {
+            "title": "Arferion Gorau React",
+            "type": "Erthygl"
+          }
+        ]
+      },
+      {
+        "icon": "cronfa ddata",
+        "title": "Data a Dadansoddeg",
+        "description": "BI, warws data, a llwyfannau dadansoddeg",
+        "resources": [
+          {
+            "title": "Dyluniad Dangosfwrdd Power BI",
+            "type": "Tiwtorial"
+          },
+          {
+            "title": "Pensaernïaeth Warws Data",
+            "type": "Canllaw"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Angen hyfforddiant arferol?",
+      "description": "Rydym yn cynnig gweithdai wedi'u teilwra ar gyfer timau peirianneg a chynhyrchion",
+      "text": "Angen hyfforddiant tîm ymarferol? Rydym yn darparu gweithdai arferol ar bensaernïaeth cwmwl, DevOps, ac arferion cyflenwi modern.",
+      "button": "Cysylltu â ni"
+    }
+  },
+  "unauthorized": {
+    "title": "Gwrthodwyd mynediad",
+    "description": "Does gennych chi ddim caniatâd i gyrchu'r dudalen hon. Cysylltwch â'ch gweinyddwr os ydych chi'n meddwl bod hyn yn gamgymeriad.",
+    "primary": "Mynd i'r Proffil",
+    "secondary": "Yn ôl i'r Cartref"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Post heb ei ganfod",
+      "description": "Nid oes post blog yn bodoli ar gyfer gwlithod: {{slug}}",
+      "back": "Yn ôl i'r blog"
+    },
+    "back": "Yn ôl i'r blog",
+    "publisher": "Technoleg Horizon"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Astudiaeth achos heb ei ganfod",
+      "description": "Nid oes astudiaeth achos yn bodoli ar gyfer id: {{id}}",
+      "back": "Yn ôl at astudiaethau achos"
+    },
+    "back": "Yn ôl at astudiaethau achos",
+    "sections": {
+      "executiveSummary": "Crynodeb Gweithredol",
+      "businessChallenge": "Her Busnes",
+      "technicalSolution": "Datrysiad Technegol",
+      "architectureDecisions": "Penderfyniadau Pensaernïaeth",
+      "technologyStack": "Pentwr Technoleg",
+      "resultsImpact": "Canlyniadau ac Effaith"
+    },
+    "client": "Cleient",
+    "keyOutcomes": "Canlyniadau Allweddol",
+    "decision": "Penderfyniad {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Signal ar goll",
+      "title": "Tudalen heb ei ganfod",
+      "description": "Nid yw'r llwybr a ofynnwyd amdano yn bodoli neu wedi symud. Gadewch i ni fynd â chi yn ôl at ddiweddbwynt dilys Horizon Tech.",
+      "requestedPath": "Llwybr gofynnol",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Wrthi'n datrys graff llwybrau... Wedi methu",
+        "line2": "Rheswm: dim modiwl llwybr cyfatebol",
+        "line3": "Protocol wrth gefn wedi'i ymgysylltu",
+        "line4": "Defnyddiwch un o'r llwybrau byr isod i barhau"
+      },
+      "links": {
+        "home": "Tudalen Cartref",
+        "services": "Swyddi",
+        "blog": "Newyddion",
+        "caseStudies": "Astudiaethau Achos"
+      }
+    },
+    "runtime": {
+      "badge": "Gwall Amser Rhediad",
+      "title": "Mae rhywbeth wedi torri ar y dudalen hon",
+      "description": "Fe wnaeth problem annisgwyl dorri ar draws rendro. Gallwch ail-geisio'n ddiogel, neu ddychwelyd i'r dudalen gartref.",
+      "retry": "Ail-geisio",
+      "home": "Nôl i'r Hafan",
+      "unknown": "Gwall amser rhediad anhysbys"
+    }
+  },
+  "meta": {
+    "siteName": "Blog Technoleg Horizon"
+  },
+  "admin": {
+    "blog": {
+      "title": "Rheoli Blog",
+      "subtitle": "Creu, golygu a rheoli eich postiadau blog",
+      "newPost": "Post Newydd",
+      "seedData": "Data Hadau",
+      "allPosts": "Pob Swydd",
+      "published": "Cyhoeddwyd",
+      "draft": "Drafft",
+      "featured": "Cartref",
+      "setFeatured": "Gosod Arbennig",
+      "removeFeatured": "Tynnu Sylw",
+      "table": {
+        "title": "Teitl",
+        "category": "Categori",
+        "status": "Cyflwr",
+        "date": "Dyddiad",
+        "actions": "Gweithredoedd"
+      },
+      "empty": {
+        "message": "Dim postiadau blog eto. Creu eich post cyntaf neu ddata sampl hadau.",
+        "seed": "Data Sampl Hadau",
+        "create": "Creu Post"
+      },
+      "delete": {
+        "title": "Dileu Post",
+        "confirmation": "Ydych chi'n siŵr eich bod am ddileu'r neges hon? Ni ellir dadwneud y weithred hon.",
+        "delete": "Dileu",
+        "cancel": "Canslo"
+      }
+    },
+    "editor": {
+      "bannerHint": "Wedi'i arddangos fel baner lydan ar frig y post",
+      "bannerImage": "Delwedd Baner",
+      "coverHint": "Wedi'i ddangos mewn cardiau rhestr blog",
+      "coverImage": "Delwedd Clawr",
+      "editSlug": "Golygu gwlithod",
+      "posts": "Swyddi",
+      "publish": "Cyhoeddi",
+      "update": "Diweddaru",
+      "form": {
+        "contentPlaceholder": "Ysgrifennwch gynnwys eich post yma...",
+        "excerptPlaceholder": "Crynodeb byr o'r swydd...",
+        "pickDate": "Dewiswch ddyddiad",
+        "readTimePlaceholder": "e.e. 5 munud wedi'i ddarllen",
+        "titlePlaceholder": "Teitl y swydd..."
+      },
+      "meta": {
+        "publisher": "Cyhoeddwr",
+        "unknownAuthor": "Awdur anhysbys"
+      },
+      "modes": {
+        "edit": "Golygu",
+        "editOnly": "Golygu yn unig",
+        "preview": "Rhagolwg",
+        "previewOnly": "Rhagolwg yn unig",
+        "sideBySide": "Ochr yn ochr",
+        "split": "Hollti"
+      },
+      "tags": {
+        "heading": "Tagiau",
+        "placeholder": "Ychwanegu tag..."
+      },
+      "translations": {
+        "auto": "Awtomatig",
+        "autoTranslate": "Cyfieithu'n awtomatig",
+        "clear": "Clirio",
+        "existing": "Yn bodoli",
+        "heading": "Cyfieithiadau",
+        "language": "Iaith",
+        "languages": "Ieithoedd",
+        "edit": "Golygu",
+        "manual": "Llawlyfr",
+        "preview": "Rhagolwg",
+        "searchPlaceholder": "Ieithoedd chwilio...",
+        "translate": "Cyfieithu"
+      }
+    },
+    "caseStudies": {
+      "title": "Astudiaethau Achos",
+      "subtitle": "Rheoli astudiaethau achos ac arddangosfeydd prosiect",
+      "newCaseStudy": "Astudiaeth Achos Newydd",
+      "seedData": "Data Hadau",
+      "allCaseStudies": "Pob Astudiaeth Achos",
+      "published": "Cyhoeddwyd",
+      "draft": "Drafft",
+      "table": {
+        "title": "Teitl",
+        "industry": "Diwydiant",
+        "client": "Cleient",
+        "status": "Cyflwr",
+        "actions": "Gweithredoedd"
+      },
+      "empty": {
+        "message": "Dim astudiaethau achos eto.",
+        "seed": "Data Hadau",
+        "create": "Creu yn Gyntaf"
+      },
+      "delete": {
+        "title": "Dileu Astudiaeth Achos",
+        "confirmation": "Ydych chi'n siŵr eich bod am ddileu'r astudiaeth achos hon? Ni ellir dadwneud y weithred hon.",
+        "delete": "Dileu",
+        "cancel": "Canslo"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Astudiaethau Achos",
+      "published": "Cyhoeddwyd",
+      "draft": "Drafft",
+      "update": "Diweddaru",
+      "create": "Creu",
+      "sections": {
+        "basicInfo": "Gwybodaeth Sylfaenol",
+        "narrative": "Naratif",
+        "architectureDecisions": "Penderfyniadau Pensaernïaeth",
+        "techStack": "Pentwr Technoleg",
+        "results": "Canlyniadau",
+        "tags": "Tagiau"
+      },
+      "fields": {
+        "title": "Teitl",
+        "titlePlaceholder": "Teitl yr astudiaeth achos",
+        "slug": "Gwlithod",
+        "slugPlaceholder": "Cynhyrchwyd-Awtomatig O-deitl",
+        "client": "Cleient",
+        "clientPlaceholder": "Enw'r cleient",
+        "industry": "Diwydiant",
+        "industryPlaceholder": "Dewiswch ddiwydiant",
+        "description": "Disgrifiad",
+        "descriptionPlaceholder": "Disgrifiad byr (a ddangosir ar gardiau)",
+        "executiveSummary": "Crynodeb Gweithredol",
+        "executiveSummaryPlaceholder": "Trosolwg lefel uchel o'r ymgysylltu",
+        "challenge": "Sialens",
+        "challengePlaceholder": "Pa broblem oedd y cleient yn ei wynebu?",
+        "solution": "Ateb",
+        "solutionPlaceholder": "Sut cafodd y broblem ei datrys?",
+        "decision": "Penderfyniad",
+        "decisionPlaceholder": "Beth a benderfynwyd",
+        "rationale": "Rhesymeg",
+        "rationalePlaceholder": "Pam y dewiswyd y dull hwn",
+        "metric": "Metrig",
+        "metricPlaceholder": "e.e. Latency Setliad",
+        "value": "Gwerth",
+        "valuePlaceholder": "e.e. -63% neu 4.8h -> 11m",
+        "resultDescription": "Disgrifiad",
+        "resultDescriptionPlaceholder": "Beth mae'r canlyniad hwn yn ei olygu",
+        "techPlaceholder": "Ychwanegu technoleg (pwyswch Enter)",
+        "tagPlaceholder": "Ychwanegu tag (pwyswch Enter)"
+      },
+      "add": "Ychwanegu",
+      "noArchDecisions": "Nid oes unrhyw benderfyniadau pensaernïaeth wedi'u hychwanegu eto.",
+      "noResults": "Dim canlyniadau wedi'u hychwanegu eto.",
+      "decisionLabel": "Penderfyniad {{number}}",
+      "resultLabel": "Canlyniad {{number}}",
+      "controls": {
+        "published": "Cyhoeddwyd",
+        "publishedDescription": "Gwneud yr astudiaeth achos hon yn weladwy yn gyhoeddus",
+        "featured": "Cartref",
+        "featuredDescription": "Tynnwch sylw at yr astudiaeth achos hon"
+      }
+    },
+    "imageCrop": {
+      "apply": "Ymgeisio",
+      "cancel": "Canslo",
+      "cropTitle": "Delwedd Cnwd",
+      "dropText": "Gollwng delwedd yma neu cliciwch i uwchlwytho",
+      "flipHorizontal": "Troi drosodd yn llorweddol",
+      "flipVertical": "Troi drosodd yn fertigol",
+      "replace": "Amnewid",
+      "reset": "Ailosod",
+      "rotateLeft": "Cylchdroi i'r chwith",
+      "rotateRight": "Cylchdroi i'r dde",
+      "uploading": "Yn llwytho i fyny...",
+      "toast": {
+        "invalidFile": "Ffeil annilys",
+        "invalidFileDesc": "Uwchlwythwch ffeil ddelwedd ddilys.",
+        "uploadFailed": "Llwytho i fyny wedi methu",
+        "uploadFailedDesc": "Aeth rhywbeth o'i le. Ceisiwch eto.",
+        "uploaded": "Delwedd wedi'i uwchlwytho",
+        "uploadedDesc": "Mae eich delwedd wedi'i llwytho i fyny yn llwyddiannus."
+      }
+    }
+  }
+}

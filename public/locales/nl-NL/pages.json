@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Over ons",
+    "hero": {
+      "titlePrefix": "De technologie van morgen opbouwen,",
+      "titleHighlight": "Vandaag de dag",
+      "description": "Horizon Tech d.o.o. is een wereldwijd technologiebedrijf met het hoofdkantoor in Sarajevo, dat geavanceerde softwareoplossingen levert aan ondernemingen op drie continenten."
+    },
+    "sections": {
+      "mission": {
+        "title": "Missie",
+        "description": "Wij helpen organisaties om ambitieuze ideeën om te zetten in betrouwbare digitale producten die meetbare bedrijfswaarde creëren.",
+        "points": [
+          "Stem de levering van technologie af op duidelijke bedrijfsresultaten.",
+          "Bouw langetermijnsystemen die onderhoudbaar blijven naarmate teams groeien.",
+          "Werk nauw samen met belanghebbenden van strategie tot uitvoering."
+        ]
+      },
+      "expertise": {
+        "title": "Expertise",
+        "description": "Onze multidisciplinaire teams combineren technische diepgang met productdenken over moderne technologiestacks heen.",
+        "points": [
+          "Web- en platformengineering op enterprise-niveau.",
+          "Cloudarchitectuur, DevOps-automatisering en veerkrachtige infrastructuur.",
+          "Toegepaste AI/ML, dataworkflows en IoT-ondersteunde producten."
+        ]
+      },
+      "approach": {
+        "title": "Benadering",
+        "description": "We voeren uit met een transparant, iteratief model dat de levering voorspelbaar houdt en tegelijkertijd het productrisico vermindert.",
+        "points": [
+          "Ontdek: bepaal vroegtijdig scope, prioriteiten en succesmetingen.",
+          "Bouw: verzend in gerichte stappen met continue feedbackloops.",
+          "Optimaliseren: de resultaten monitoren en de prestaties in de loop van de tijd verbeteren."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Klaar om uw bedrijf te transformeren?",
+      "description": "Sluit je aan bij de groeiende lijst van bedrijven die Horizon Tech vertrouwen om innovatieve oplossingen en uitzonderlijke resultaten te leveren.",
+      "primary": "Begin",
+      "secondary": "Bekijk succesverhalen"
+    }
+  },
+  "contact": {
+    "badge": "Neem contact op",
+    "hero": {
+      "title": "Neem contact met ons op",
+      "description": "Heb je een project in gedachten? We horen graag van je. Neem contact op om te bespreken hoe wij je ideeën tot leven kunnen brengen."
+    },
+    "info": {
+      "title": "Contactgegevens"
+    },
+    "booking": {
+      "title": "Boek een afspraak",
+      "description": "Plan een gratis 30-minuten durend discovery-gesprek"
+    },
+    "methods": {
+      "email": {
+        "title": "E-mail",
+        "description": "Stuur ons altijd een e-mail.",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Locatie",
+        "description": "Gebaseerd in",
+        "value": "Sarajevo, Bosnië en Herzegovina"
+      },
+      "response": {
+        "title": "Reactietijd",
+        "description": "We reageren meestal binnen",
+        "value": "24-48 uur"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Nieuw project"
+      },
+      "support": {
+        "label": "Technische Ondersteuning"
+      },
+      "partnerships": {
+        "label": "Partnerschappen"
+      },
+      "careers": {
+        "label": "Carrières"
+      },
+      "general": {
+        "label": "Algemeen onderzoek"
+      }
+    },
+    "form": {
+      "title": "Stuur ons een bericht",
+      "success": "Dank je wel voor je bericht. We nemen binnen 24-48 uur contact met je op.",
+      "error": "Er ging iets mis. Probeer het opnieuw of stuur ons rechtstreeks een e-mail.",
+      "fullName": "Volledige naam *",
+      "email": "E-mailadres *",
+      "company": "Bedrijf",
+      "subject": "Onderwerp *",
+      "message": "Boodschap *",
+      "placeholders": {
+        "name": "Jouw naam",
+        "email": "you@example.com",
+        "company": "Jouw bedrijf",
+        "subject": "Waarmee kunnen we helpen?",
+        "message": "Vertel ons over je project of onderzoek..."
+      },
+      "validation": {
+        "required": {
+          "name": "Volledige naam is vereist.",
+          "email": "E-mailadres is vereist.",
+          "subject": "Kies alstublieft een onderwerp.",
+          "message": "Bericht is vereist."
+        },
+        "email": "Voer een geldig e-mailadres in.",
+        "messageMinLength": "Het bericht moet minstens {{count}} tekens lang zijn."
+      },
+      "sending": "Zend...",
+      "submit": "Stuur Bericht"
+    },
+    "reasonsTitle": "Waarom met ons samenwerken?",
+    "reasons": [
+      "Full-stack softwareontwikkeling expertise",
+      "AI/ML- en cloudarchitectuurspecialisten",
+      "Agile ontwikkeling met transparante communicatie",
+      "Langdurige ondersteuning en onderhoud"
+    ],
+    "custom": {
+      "title": "Maatwerkoplossingen",
+      "description": "Op zoek naar een op maat gemaakte oplossing? We werken nauw samen met klanten om unieke behoeften te begrijpen en op maat gemaakte software te leveren die meetbare resultaten oplevert.",
+      "cta": "Bespreek uw project"
+    },
+    "faq": {
+      "title": "Heb je meer vragen?",
+      "description": "Bekijk onze FAQ-sectie voor snelle antwoorden",
+      "cta": "Blader door veelgestelde vragen"
+    }
+  },
+  "team": {
+    "badge": "Ons Team",
+    "hero": {
+      "titlePrefix": "Ontmoet de Geesten Achter",
+      "titleHighlight": "Horizon Tech",
+      "description": "Een divers team van technologen, ontwerpers en strategen bouwt samen digitale producten met hoge impact."
+    },
+    "section": {
+      "title": "Leiderschapsteam",
+      "description": "De ervaren leiders sturen de visie en groei van Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Oprichter, CEO & CTO",
+        "bio": "Visionaire leider en technisch architect met 10+ jaar ervaring in enterprise software, gespecialiseerd in AI/ML, cloudplatforms en schaalbare productarchitectuur.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Oplossingsarchitectuur",
+          "Cloud Engineering"
+        ]
+      },
+      "ahmet": {
+        "role": "Hoofd Beveiligingsarchitect",
+        "bio": "Cybersecurity-specialist gespecialiseerd in enterprise security-architectuur, veilige on-premises infrastructuur en compliance-first levering voor gereguleerde omgevingen.",
+        "expertise": [
+          "Cyberbeveiliging",
+          "On-Premises Systemen",
+          "Beveiligingsarchitectuur",
+          "Naleving",
+          "Infrastructuurbeveiliging"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Stuur een e-mail naar {{name}}",
+      "linkedin": "{{name}} LinkedIn-profiel"
+    },
+    "culture": {
+      "title": "Leven bij Horizon Tech",
+      "description": "We bevorderen een cultuur van innovatie, samenwerking en continu leren",
+      "remoteFirst": {
+        "title": "Remote-First cultuur",
+        "description": "Werk vanuit elke plek met flexibele werktijden en focus op resultaten, niet op locatie."
+      },
+      "collaborative": {
+        "title": "Samenwerkingsomgeving",
+        "description": "Regelmatige teamevenementen, kennisuitwisselingssessies en cross-functionele samenwerking."
+      },
+      "workLife": {
+        "title": "Werk-privébalans",
+        "description": "Genereus vakantiebeleid, ondersteuning voor geestelijke gezondheid en respect voor persoonlijke tijd."
+      },
+      "innovation": {
+        "title": "Innovatietijd",
+        "description": "20% tijd voor persoonlijke projecten, hackathons en het verkennen van nieuwe technologieën."
+      },
+      "stats": {
+        "teamMembers": "Teamleden",
+        "countries": "Landen",
+        "techStacks": "Tech Stacks",
+        "remoteReady": "Afstandsbediening Klaar"
+      }
+    },
+    "cta": {
+      "title": "Wil je bij ons team komen?",
+      "description": "We zijn altijd op zoek naar getalenteerde mensen die geven om vakmanschap, eigenaarschap en innovatie.",
+      "button": "Neem contact op"
+    }
+  },
+  "careers": {
+    "badge": "Sluit je aan bij ons team",
+    "hero": {
+      "titlePrefix": "Bouw de Toekomst",
+      "titleHighlight": "Met ons",
+      "description": "Sluit je aan bij een team van ingenieurs die geavanceerde software bouwen voor wereldwijde klanten. Werk op afstand, groei continu en maak echte impact.",
+      "button": "Zie Posities"
+    },
+    "process": {
+      "title": "Ons Aanwervingsproces",
+      "description": "Transparant, efficiënt en respectvol met je tijd",
+      "steps": [
+        {
+          "title": "Solliciteer",
+          "description": "Dien je aanvraag in en wij beoordelen deze binnen 3 werkdagen."
+        },
+        {
+          "title": "Eerste Chat",
+          "description": "Een videogesprek van 30 minuten om je ervaring en verwachtingen te bespreken."
+        },
+        {
+          "title": "Technisch",
+          "description": "Technisch interview of praktische oefening om je vaardigheden te tonen."
+        },
+        {
+          "title": "Aanbod",
+          "description": "Maak kennis met het team en ontvang je aanbod om bij Horizon Tech te komen."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Openstaande functies",
+      "description": "Vind je volgende kans en sluit je aan bij ons groeiende team",
+      "unavailable": "Op dit moment worden geen aanmeldingen aangenomen",
+      "apply": "Solliciteer nu",
+      "noMatch": "Zie je de perfecte rol niet?",
+      "sendCv": "Stuur ons uw cv",
+      "listings": [
+        {
+          "title": "Senior Full-Stack Engineer",
+          "department": "Techniek",
+          "location": "Afgeleid (EU-tijdzones)",
+          "type": "Fulltime",
+          "description": "Bouw schaalbare bedrijfsapplicaties met behulp van React, Node.js en cloudtechnologieën.",
+          "tags": [
+            "React",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps Engineer",
+          "department": "Techniek",
+          "location": "Sarajevo / Afgeleid",
+          "type": "Fulltime",
+          "description": "Ontwerp en onderhoud CI/CD-pijpleidingen, infrastructuur als code, en monitoringsystemen.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI/ML-ingenieur",
+          "department": "Innovatielab",
+          "location": "Afstandsbediening",
+          "type": "Fulltime",
+          "description": "Ontwikkel machine learning-modellen en AI-oplossingen voor zakelijke klanten.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Productontwerper",
+          "department": "Ontwerp",
+          "location": "Afstandsbediening",
+          "type": "Fulltime",
+          "description": "Creëer prachtige, intuïtieve gebruikerservaringen voor complexe bedrijfsapplicaties.",
+          "tags": [
+            "Figma",
+            "Gebruikersonderzoek",
+            "UI/UX",
+            "Ontwerpsystemen"
+          ]
+        },
+        {
+          "title": "Solutions Architect",
+          "department": "Techniek",
+          "location": "Afstandsbediening",
+          "type": "Fulltime",
+          "description": "Ontwerp end-to-end technische oplossingen en begeleid klanten bij digitale transformatie.",
+          "tags": [
+            "Cloudarchitectuur",
+            "Systeemontwerp",
+            "Consultancy"
+          ]
+        },
+        {
+          "title": "Technisch Schrijver",
+          "department": "Operaties",
+          "location": "Afstandsbediening",
+          "type": "Parttime",
+          "description": "Maak uitgebreide documentatie, tutorials en technische inhoud.",
+          "tags": [
+            "Documentatie",
+            "API Docs",
+            "Technisch Schrijven"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Vragen over werken hier?",
+      "description": "We horen graag van je. Neem contact op en wij beantwoorden al vragen over het leven bij Horizon Tech.",
+      "button": "Neem contact met ons op"
+    }
+  },
+  "caseStudies": {
+    "badge": "Succesverhalen",
+    "hero": {
+      "titlePrefix": "Resultaten leveren die",
+      "titleHighlight": "Materie",
+      "description": "Ontdek hoe we bedrijven uit verschillende sectoren hebben geholpen hun bedrijfsvoering te transformeren met praktische, impactvolle technologie.",
+      "tags": {
+        "delivery": "Technische Uitvoering",
+        "outcomes": "Gemeten uitkomsten"
+      }
+    },
+    "stats": {
+      "projects": "Opgeleverde projecten",
+      "clients": "Tevreden klanten",
+      "efficiency": "Gemiddelde efficiëntiewinst",
+      "retention": "Klantbehoud"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Financiële dienstverlening",
+        "title": "Cloudmigratie & modernisering",
+        "description": "Legacy-banksystemen geïmporteerd naar AWS cloudinfrastructuur zonder downtime.",
+        "challenge": "Legacy monolithische architectuur veroorzaakt schaalbaarheidsproblemen",
+        "result": "Succesvol geïmporteerd naar microservices op AWS",
+        "metrics": [
+          {
+            "label": "Kostenreductie",
+            "value": "40%"
+          },
+          {
+            "label": "Prestatiewinst",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Microservices",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech-oplossingen",
+        "industry": "Gezondheidszorg",
+        "title": "AI-gestuurd diagnostisch platform",
+        "description": "ML-modellen gebouwd voor medische beeldanalyse met 95%+ nauwkeurigheid.",
+        "challenge": "Handmatige diagnostische processen die te lang duren",
+        "result": "Geautomatiseerde diagnostiek met AI/ML",
+        "metrics": [
+          {
+            "label": "Tijd bespaard",
+            "value": "70%"
+          },
+          {
+            "label": "Nauwkeurigheid",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "React",
+          "Gezondheidszorg"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "E-commerce Reus",
+        "industry": "Detailhandel",
+        "title": "Real-Time Analytics Dashboard",
+        "description": "Ontwikkelde een BI-platform dat dagelijks 10 miljoen gebeurtenissen verwerkt.",
+        "challenge": "Geen realtime inzicht in belangrijke bedrijfsstatistieken",
+        "result": "Realtime analyse- en inzichtenplatform",
+        "metrics": [
+          {
+            "label": "Evenementen/Dag",
+            "value": "10M+"
+          },
+          {
+            "label": "Reactietijd",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "React",
+          "Data Engineering"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Klaar om je succesverhaal te schrijven?",
+      "description": "Laten we bespreken hoe we je kunnen helpen vergelijkbare resultaten te bereiken en met vertrouwen op te schalen."
+    },
+    "filters": {
+      "title": "Industriefilter",
+      "all": "Alle industrieën",
+      "empty": "Geen enkele casestudy komt overeen met het geselecteerde industriefilter."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Inzichten & Ideeën uit",
+      "titleHighlight": "Horizon Tech",
+      "description": "Technische tutorials, branche-inzichten en praktische lessen uit echt leveringswerk."
+    },
+    "categories": [
+      "Alle berichten",
+      "Cloudarchitectuur",
+      "DevOps",
+      "AI/ML",
+      "Frontend",
+      "Backend",
+      "Data"
+    ],
+    "featuredPost": {
+      "id": "Uitgelicht",
+      "title": "De toekomst van cloud-native ontwikkeling: trends om in 2025 in de gaten te houden",
+      "excerpt": "Ontdek de nieuwste trends in cloud-native ontwikkeling, van serverless architecturen tot edge computing.",
+      "author": {
+        "name": "Horizon Tech Redactioneel"
+      },
+      "date": "15 nov 2025",
+      "readTime": "8 min lezen",
+      "category": "Cloudarchitectuur",
+      "tags": [
+        "Cloud",
+        "Azure",
+        "Trends"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Schaalbare microservices bouwen met Azure Kubernetes Service",
+        "excerpt": "Een praktische gids voor het ontwerpen en uitrollen van microservices met AKS.",
+        "author": {
+          "name": "Horizon Tech Redactioneel"
+        },
+        "date": "12 nov 2025",
+        "readTime": "6 min lezen",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Microservices",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Machine Learning in productie: Geleerde lessen",
+        "excerpt": "Praktijkgeteste lessen uit het op grote schaal inzetten van ML-modellen.",
+        "author": {
+          "name": "Horizon Tech Redactioneel"
+        },
+        "date": "10 nov 2025",
+        "readTime": "10 min lezen",
+        "category": "AI/ML",
+        "tags": [
+          "Machine Learning",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Wat is er nieuw en waarom het belangrijk is",
+        "excerpt": "Een diepgaande analyse van React 19-functies en prestatie-implicaties.",
+        "author": {
+          "name": "Horizon Tech Redactioneel"
+        },
+        "date": "8 nov 2025",
+        "readTime": "5 min lezen",
+        "category": "Frontend",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Webontwikkeling"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Abonneer je op onze nieuwsbrief",
+      "description": "Ontvang wekelijks de nieuwste artikelen, tutorials en inzichten.",
+      "placeholder": "your.email@example.com",
+      "button": "Abonneer je",
+      "note": "Geen spam. Meld je altijd af."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering Blog",
+        "description": "Veldnotities en praktische patronen van teams die AI-producten, bedrijfssystemen en betrouwbare cloudplatforms bouwen."
+      },
+      "filters": {
+        "postsInView": "{{count}} berichten in beeld"
+      },
+      "featured": {
+        "badge": "Laatste",
+        "readCta": "Lees het uitgelichte bericht"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Laadprofiel...",
+    "title": "Profielinstellingen",
+    "subtitle": "Beheer je accountinstellingen en voorkeuren",
+    "photoButton": "Foto wijzigen",
+    "tabs": {
+      "general": "Algemeen",
+      "security": "Beveiliging",
+      "preferences": "Voorkeuren"
+    },
+    "messages": {
+      "profileUpdated": "Profiel succesvol bijgewerkt",
+      "profileUpdateFailed": "Profiel niet bijgewerkt",
+      "passwordsNoMatch": "Nieuwe wachtwoorden komen niet overeen",
+      "passwordTooShort": "Het wachtwoord moet minimaal 8 tekens lang zijn",
+      "passwordChanged": "Wachtwoord succesvol gewijzigd",
+      "passwordChangeFailed": "Wachtwoord niet gewijzigd",
+      "optedOut": "Afgemeld voor praktijkrapporten",
+      "optedIn": "Heeft zich aangemeld voor oefenverslagen",
+      "optOutFailed": "Opt-out status is niet bijgewerkt"
+    },
+    "general": {
+      "title": "Persoonlijke informatie",
+      "description": "Werk uw persoonlijke gegevens en contactgegevens bij",
+      "firstName": "Voornaam",
+      "firstNamePlaceholder": "John",
+      "lastName": "Achternaam",
+      "lastNamePlaceholder": "Doe",
+      "email": "E-mailadres",
+      "emailNotice": "E-mail kan niet worden gewijzigd. Neem contact op met de support als u hulp nodig heeft.",
+      "phone": "Telefoonnummer",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Wijzigingen in het opslaan"
+    },
+    "security": {
+      "title": "Beveiligingsinstellingen",
+      "description": "Beheer je wachtwoord en beveiligingsvoorkeuren",
+      "currentPassword": "Huidig wachtwoord",
+      "currentPasswordPlaceholder": "Voer huidig wachtwoord in",
+      "newPassword": "Nieuw wachtwoord",
+      "newPasswordPlaceholder": "Voer nieuw wachtwoord in",
+      "confirmPassword": "Bevestig nieuw wachtwoord",
+      "confirmPasswordPlaceholder": "Bevestig nieuw wachtwoord",
+      "passwordHint": "Moet minstens 8 tekens lang zijn",
+      "changePassword": "Wachtwoord wijzigen"
+    },
+    "preferences": {
+      "title": "Meldingsvoorkeuren",
+      "description": "Bepaal hoe je updates en meldingen ontvangt",
+      "email": {
+        "title": "E-mailmeldingen",
+        "description": "Ontvang updates en meldingen per e-mail"
+      },
+      "sms": {
+        "title": "SMS-meldingen",
+        "description": "Ontvang belangrijke meldingen via sms"
+      },
+      "optOut": {
+        "title": "Rapporten over afmelden van praktijk",
+        "description": "Verberg je rapporten voor de praktijkeigenaar"
+      },
+      "actions": {
+        "title": "Accountacties",
+        "downloadData": "Download Accountgegevens",
+        "deleteAccount": "Verwijder account"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Terug naar huis",
+    "title": "Ondersteuningscentrum",
+    "subtitle": "Krijg hulp met onze softwareontwikkelingsdiensten",
+    "cards": {
+      "email": {
+        "title": "E-mailondersteuning",
+        "description": "Stuur ons een e-mail voor eventuele vragen"
+      },
+      "project": {
+        "title": "Projectvragen",
+        "description": "Bespreek je projectvereisten",
+        "button": "Neem contact met ons op"
+      },
+      "resources": {
+        "title": "Bronnen",
+        "description": "Technische bronnen en gidsen",
+        "button": "Bekijk bronnen"
+      }
+    },
+    "faqTitle": "Veelgestelde vragen",
+    "faqDescription": "Snelle antwoorden op veelgestelde vragen",
+    "faqs": [
+      {
+        "question": "Welke diensten biedt Horizon Tech aan?",
+        "answer": "Wij bieden op maat gemaakte softwareontwikkeling, AI/ML-oplossingen, cloudarchitectuur, DevOps, business intelligence en IoT-diensten."
+      },
+      {
+        "question": "Hoe begin ik een project met Horizon Tech?",
+        "answer": "Neem contact met ons op via een formulier of e-mail met uw wensen. We plannen een discovery-gesprek en delen een voorstel."
+      },
+      {
+        "question": "Biedt u voortdurende ondersteuning en onderhoud?",
+        "answer": "Ja. We bieden ondersteunings- en onderhoudspakketten aan die bugfixes, beveiligingsupdates en functieverbeteringen bevatten."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Terug naar huis",
+    "title": "Technische bronnen",
+    "subtitle": "Gidsen, tutorials en best practices van het Horizon Tech-team",
+    "hub": {
+      "title": "Learning Hub",
+      "description": "Ontdek onze zorgvuldig samengestelde technische bronnen op het gebied van cloud, AI/ML, DevOps en moderne softwareontwikkeling.",
+      "note": "Deze materialen zijn gebaseerd op echte projectervaring en worden regelmatig bijgewerkt."
+    },
+    "categories": [
+      {
+        "icon": "Cloud",
+        "title": "Cloudarchitectuur",
+        "description": "Azure, AWS en cloud-native patronen",
+        "resources": [
+          {
+            "title": "Azure Architectuur Best Practices",
+            "type": "Gids"
+          },
+          {
+            "title": "Cloudmigratiestrategieën",
+            "type": "Artikel"
+          }
+        ]
+      },
+      {
+        "icon": "Brein",
+        "title": "AI & Machine Learning",
+        "description": "ML-modellen, datawetenschap en AI-integratie",
+        "resources": [
+          {
+            "title": "Inleiding tot Azure ML",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Het bouwen van productie-ML-pijplijnen",
+            "type": "Gids"
+          }
+        ]
+      },
+      {
+        "icon": "Instellingen",
+        "title": "DevOps & Platform",
+        "description": "CI/CD, infrastructuur als code, automatisering",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Infrastructuur als Code met Terraform",
+            "type": "Gids"
+          }
+        ]
+      },
+      {
+        "icon": "Code",
+        "title": "Softwareontwikkeling",
+        "description": ".NET, React en moderne ontwikkelpraktijken",
+        "resources": [
+          {
+            "title": "Schone architectuur in .NET",
+            "type": "Gids"
+          },
+          {
+            "title": "React Best Practices",
+            "type": "Artikel"
+          }
+        ]
+      },
+      {
+        "icon": "Database",
+        "title": "Data & Analytics",
+        "description": "BI-, datawarehousing- en analyseplatforms",
+        "resources": [
+          {
+            "title": "Power BI Dashboardontwerp",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Data Warehouse-architectuur",
+            "type": "Gids"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Heeft u op maat gemaakte training nodig?",
+      "description": "Wij bieden op maat gemaakte workshops voor engineering- en productteams",
+      "text": "Heb je praktische teamtraining nodig? Wij bieden op maat gemaakte workshops over cloudarchitectuur, DevOps en moderne leveringspraktijken.",
+      "button": "Neem contact op"
+    }
+  },
+  "unauthorized": {
+    "title": "Toegang geweigerd",
+    "description": "Je hebt geen toestemming om deze pagina te bezoeken. Neem contact op met je beheerder als je denkt dat dit een vergissing is.",
+    "primary": "Ga naar Profiel",
+    "secondary": "Terug naar huis"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Bericht niet gevonden",
+      "description": "Er bestaat geen blogpost over slug: {{slug}}",
+      "back": "Terug naar de blog"
+    },
+    "back": "Terug naar de blog",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Casestudy niet gevonden",
+      "description": "Er bestaat geen casestudy voor id: {{id}}",
+      "back": "Terug naar casestudy's"
+    },
+    "back": "Terug naar casestudy's",
+    "sections": {
+      "executiveSummary": "Samenvatting",
+      "businessChallenge": "Zakelijke uitdaging",
+      "technicalSolution": "Technische oplossing",
+      "architectureDecisions": "Architectuurbeslissingen",
+      "technologyStack": "Technologiestack",
+      "resultsImpact": "Resultaten & Impact"
+    },
+    "client": "Opdrachtgever",
+    "keyOutcomes": "Belangrijkste Uitkomsten",
+    "decision": "Beslissing {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Signaal verloren",
+      "title": "Pagina niet gevonden",
+      "description": "De route die je hebt aangevraagd bestaat niet of is verplaatst. Laten we je terugbrengen naar een geldig Horizon Tech-eindpunt.",
+      "requestedPath": "Aangevraagd pad",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Routegrafiek oplossen... mislukt",
+        "line2": "Reden: geen matching route-module",
+        "line3": "Fallback-protocol ingeschakeld",
+        "line4": "Gebruik een van de onderstaande snelkoppelingen om verder te gaan"
+      },
+      "links": {
+        "home": "Startpagina",
+        "services": "Diensten",
+        "blog": "Blog",
+        "caseStudies": "Casestudy's"
+      }
+    },
+    "runtime": {
+      "badge": "Runtime-fout",
+      "title": "Er is iets kapot gegaan op deze pagina",
+      "description": "Een onverwacht probleem onderbrak het renderen. Je kunt het veilig opnieuw proberen, of terugkeren naar de homepage.",
+      "retry": "Opnieuw proberen",
+      "home": "Terug naar de startpagina",
+      "unknown": "Onbekende runtime-fout"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Blogbeheer",
+      "subtitle": "Maak, bewerk en beheer je blogposts",
+      "newPost": "Nieuwe functie",
+      "seedData": "Seedgegevens",
+      "allPosts": "Alle berichten",
+      "published": "Gepubliceerd",
+      "draft": "Draft",
+      "featured": "Uitgelicht",
+      "setFeatured": "Set met de hoofdrol",
+      "removeFeatured": "Verwijder Uitgelichte",
+      "table": {
+        "title": "Titel",
+        "category": "Categorie",
+        "status": "Status",
+        "date": "Datum",
+        "actions": "Acties"
+      },
+      "empty": {
+        "message": "Nog geen blogposts. Maak je eerste bericht of seed-sample data.",
+        "seed": "Zaadmonstergegevens",
+        "create": "Maak Bericht aan"
+      },
+      "delete": {
+        "title": "Verwijder bericht",
+        "confirmation": "Weet je zeker dat je deze post wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+        "delete": "Verwijderen",
+        "cancel": "Annuleren"
+      }
+    },
+    "editor": {
+      "bannerHint": "Afgebeeld als een brede spandoek bovenaan de paal",
+      "bannerImage": "Bannerafbeelding",
+      "coverHint": "Weergegeven in blogvermeldingskaarten",
+      "coverImage": "Omslagafbeelding",
+      "editSlug": "Bewerkingsslug",
+      "posts": "Posten",
+      "publish": "Publiceren",
+      "update": "Update",
+      "form": {
+        "contentPlaceholder": "Schrijf hier de inhoud van je bericht...",
+        "excerptPlaceholder": "Korte samenvatting van het bericht...",
+        "pickDate": "Kies een datum",
+        "readTimePlaceholder": "Bijvoorbeeld 5 minuten lezen",
+        "titlePlaceholder": "Posttitel..."
+      },
+      "meta": {
+        "publisher": "Uitgever",
+        "unknownAuthor": "Onbekende auteur"
+      },
+      "modes": {
+        "edit": "Bewerking",
+        "editOnly": "Alleen bewerken",
+        "preview": "Vooruitblik",
+        "previewOnly": "Alleen voorproef",
+        "sideBySide": "Zij aan zij",
+        "split": "Splitsing"
+      },
+      "tags": {
+        "heading": "Tags",
+        "placeholder": "Voeg een label toe..."
+      },
+      "translations": {
+        "auto": "Auto",
+        "autoTranslate": "Auto-vertaling",
+        "clear": "Vrij",
+        "existing": "Bestaande",
+        "heading": "Vertalingen",
+        "language": "Taal",
+        "languages": "Talen",
+        "edit": "Bewerking",
+        "manual": "Handboek",
+        "preview": "Vooruitblik",
+        "searchPlaceholder": "Zoektalen...",
+        "translate": "Vertalen"
+      }
+    },
+    "caseStudies": {
+      "title": "Casestudy's",
+      "subtitle": "Beheer casestudy's en projectpresentaties",
+      "newCaseStudy": "Nieuwe casestudy",
+      "seedData": "Seedgegevens",
+      "allCaseStudies": "Alle casestudy's",
+      "published": "Gepubliceerd",
+      "draft": "Draft",
+      "table": {
+        "title": "Titel",
+        "industry": "Industrie",
+        "client": "Opdrachtgever",
+        "status": "Status",
+        "actions": "Acties"
+      },
+      "empty": {
+        "message": "Nog geen casestudy's.",
+        "seed": "Seedgegevens",
+        "create": "Create First"
+      },
+      "delete": {
+        "title": "Verwijder Casestudy",
+        "confirmation": "Weet je zeker dat je deze casestudy wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+        "delete": "Verwijderen",
+        "cancel": "Annuleren"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Casestudy's",
+      "published": "Gepubliceerd",
+      "draft": "Draft",
+      "update": "Update",
+      "create": "Creëer",
+      "sections": {
+        "basicInfo": "Basisinformatie",
+        "narrative": "Verhaal",
+        "architectureDecisions": "Architectuurbeslissingen",
+        "techStack": "Tech Stack",
+        "results": "Resultaten",
+        "tags": "Tags"
+      },
+      "fields": {
+        "title": "Titel",
+        "titlePlaceholder": "Casestudytitel",
+        "slug": "Slak",
+        "slugPlaceholder": "auto-gegenereerd-van-titel",
+        "client": "Opdrachtgever",
+        "clientPlaceholder": "Naam van de cliënt",
+        "industry": "Industrie",
+        "industryPlaceholder": "Geselecteerde sector",
+        "description": "Beschrijving",
+        "descriptionPlaceholder": "Korte beschrijving (getoond op kaarten)",
+        "executiveSummary": "Samenvatting",
+        "executiveSummaryPlaceholder": "Overzicht op hoog niveau van het gevecht",
+        "challenge": "Uitdaging",
+        "challengePlaceholder": "Met welk probleem had de cliënt?",
+        "solution": "Oplossing",
+        "solutionPlaceholder": "Hoe werd het probleem opgelost?",
+        "decision": "Uitspraak",
+        "decisionPlaceholder": "Wat is besloten",
+        "rationale": "Redenering",
+        "rationalePlaceholder": "Waarom deze aanpak werd gekozen",
+        "metric": "Metriek",
+        "metricPlaceholder": "bijvoorbeeld afzettingslatentie",
+        "value": "Waarde",
+        "valuePlaceholder": "bijvoorbeeld -63% of 4,8 uur -> 11 miljoen",
+        "resultDescription": "Beschrijving",
+        "resultDescriptionPlaceholder": "Wat dit resultaat betekent",
+        "techPlaceholder": "Technologie toevoegen (druk op Enter)",
+        "tagPlaceholder": "Tag toevoegen (druk op Enter)"
+      },
+      "add": "Voeg toe",
+      "noArchDecisions": "Nog geen architectuurbeslissingen toegevoegd.",
+      "noResults": "Nog geen resultaten toegevoegd.",
+      "decisionLabel": "Beslissing {{number}}",
+      "resultLabel": "Resultaat {{number}}",
+      "controls": {
+        "published": "Gepubliceerd",
+        "publishedDescription": "Maak deze casestudy openbaar zichtbaar",
+        "featured": "Uitgelicht",
+        "featuredDescription": "Licht deze casestudy uit"
+      }
+    },
+    "imageCrop": {
+      "apply": "Solliciteer",
+      "cancel": "Annuleren",
+      "cropTitle": "Bijsnijdafbeelding",
+      "dropText": "Plaats hier een afbeelding of klik om te uploaden",
+      "flipHorizontal": "Draai horizontaal",
+      "flipVertical": "Flip verticale",
+      "replace": "Vervang",
+      "reset": "Reset",
+      "rotateLeft": "Draai naar links",
+      "rotateRight": "Draai naar rechts",
+      "uploading": "Uploaden...",
+      "toast": {
+        "invalidFile": "Ongeldig bestand",
+        "invalidFileDesc": "Upload alstublieft een geldig afbeeldingsbestand.",
+        "uploadFailed": "Upload mislukt",
+        "uploadFailedDesc": "Er ging iets mis. Probeer het alsjeblieft opnieuw.",
+        "uploaded": "Afbeelding geüpload",
+        "uploadedDesc": "Je afbeelding is succesvol geüpload."
+      }
+    }
+  }
+}

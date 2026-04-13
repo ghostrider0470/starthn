@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "ހުރިހާ ކަމެއް"
+  },
+  "categories": {
+    "aiEngineering": "އޭއައި އިންޖިނިއަރިން",
+    "enterpriseArchitecture": "އެންޓަޕްރައިޒް އާކިޓެކްޗަރ",
+    "cloudDevOps": "ކްލައުޑް އެންޑް ޑެވްއޮޕްސް",
+    "automationSystems": "އޮޓޮމޭޝަން ސިސްޓަމްސް",
+    "softwareReliabilityDesign": "ސޮފްޓްވެއަރ ރިލަޔަބިލިޓީ އެންޑް ޑިޒައިން"
+  },
+  "readTime": "{{minutes}} މިނިޓް",
+  "tagsLabel": "ޓެގްތައް",
+  "relatedPosts": "ގުޅޭ ޓެގު ލިޔުންތައް",
+  "author": {
+    "role": "ޕަބްލިޝްކުރާ ފަރާތް"
+  },
+  "editor": {
+    "emptyPreview": "ޕްރިވިއު އެއް ބަލަން ލިޔަން ފަށާށެވެ..."
+  },
+  "tags": {
+    "llmOps": "އެލް.އެލް.އެމް އޮޕްސް",
+    "promptEngineering": "ޕްރޮމްޕްޓް އިންޖިނިއަރިން",
+    "observability": "އޮބްޒަވޭބިލިޓީ",
+    "safety": "ސޭފްޓީ",
+    "domainDesign": "ޑޮމެއިން ޑިޒައިން ކުރުން",
+    "integration": "އިންޓެގްރޭޝަން",
+    "governance": "ގަވަރނަންސް",
+    "platformStrategy": "ޕްލެޓްފޯމް ސްޓްރެޓެޖީ",
+    "platformEngineering": "ޕްލެޓްފޯމް އިންޖިނިއަރިން",
+    "ciCd": "ސީއައި/ސީޑީ",
+    "kubernetes": "ކުބަރނެޓްސް",
+    "developerExperience": "ޑިވެލޮޕަރ އެކްސްޕީރިއަންސް",
+    "eventDriven": "އިވެންޓް ޑްރައިވިން",
+    "workflowOrchestration": "ވޯކްފްލޯ އޯކެސްޓްރޭޝަން",
+    "controlPlanes": "ކޮންޓްރޯލް މަތިންދާބޯޓު",
+    "resilience": "ރެޒިލިއަންސް",
+    "sre": "އެސް.އާރް.އީ",
+    "slos": "އެސް.އެލް.އޯ",
+    "failureModes": "ފެއިލްވުމުގެ މޯޑްތައް",
+    "resilienceEngineering": "ރެސިލިއަންސް އިންޖިނިއަރިން",
+    "evaluation": "އިވެލުއޭޝަން",
+    "qualityEngineering": "ކޮލިޓީ އިންޖިނިއަރިން",
+    "datasets": "ޑޭޓާސެޓް",
+    "releaseManagement": "ރިލީސް މެނޭޖްމަންޓް",
+    "incidentManagement": "އިންސިޑެންޓް މެނޭޖްމަންޓް",
+    "architectureEvolution": "އާކިޓެކްޗާ އިވޮލިއުޝަން",
+    "riskReduction": "ރިސްކް ރިޑަކްޝަން",
+    "postmortems": "ޕޯސްޓްމޯޓަމް",
+    "progressiveDelivery": "ޕްރޮގްރެސިވް ޑެލިވަރީ",
+    "canaryReleases": "ކެނެރީ ރިލީސްތައް",
+    "featureFlags": "ފީޗާ ފްލެގްސް"
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Innovation Lab",
+    "description": "Galugarin ang mga interactive na demo, eksperimento, at teknikal na pagpapakita mula sa aming koponan sa engineering.",
+    "primary": "Galugarin ang Mga Demo",
+    "secondary": "Tingnan ang Pananaliksik"
+  },
+  "overview": {
+    "hero": {
+      "title": "Innovation Lab",
+      "description": "Ginalugad namin ang mga praktikal na hangganan sa AI, automation, at ipinamamahagi na mga system, pagkatapos ay isinasalin ang napatunayan na pananaliksik sa maaasahang kakayahan sa produksyon.",
+      "primary": "Galugarin ang Mga Lugar ng Pananaliksik",
+      "secondary": "Talakayin ang isang Pakikipagtulungan"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Mga Lugar ng Pananaliksik",
+        "description": "Ang bawat lugar ng pokus ay nagpapares ng exploratory research sa mga landas ng pagpapatupad na idinisenyo para sa mga real-world system.",
+        "cardCta": "Galugarin ang pokus"
+      },
+      "detailedFocusBriefs": {
+        "title": "Detalyadong Focus Briefs",
+        "description": "Ang mga malapit na pagkukusa sa pananaliksik ay kasalukuyang lumilipat mula sa pagpapatunay ng arkitektura hanggang sa mga plano sa paghahatid."
+      },
+      "fromLabToProduction": {
+        "title": "Mula sa Lab hanggang sa Produksyon",
+        "description": "Ang pagbabago sa Horizon ay sinusukat sa pamamagitan ng mga naipadala na kinalabasan, hindi nakahiwalay na mga prototype."
+      },
+      "roadmap": {
+        "title": "R&D Roadmap",
+        "description": "Isang yugtong pag-unlad mula sa pagbuo ng kakayahan hanggang sa adaptive, patuloy na pagpapabuti ng mga system."
+      },
+      "publications": {
+        "title": "Mga Publikasyon at Pananaw",
+        "description": "Teknikal na pagsulat at pagpapatupad ng mga tala mula sa patuloy na gawaing pagbabago."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Inilapat na Mga Sistema ng AI",
+        "description": "Ang mga arkitektura ng AI na nakatuon sa produksyon ay sumasaklaw sa paghahatid ng modelo, orkestrasyon ng tampok, at pinamamahalaang eksperimento."
+      },
+      "automationFrameworks": {
+        "title": "Mga Balangkas ng Automation",
+        "description": "Panloob na automation tooling para sa kaligtasan ng pag-deploy, pagtugon sa insidente, at paulit-ulit na mga daloy ng trabaho sa engineering."
+      },
+      "advancedArchitecture": {
+        "title": "Advanced na Eksperimento sa Arkitektura",
+        "description": "Pananaliksik sa nababanat, ipinamamahagi na mga arkitektura na na-optimize para sa pagganap, fault tolerance, at scale."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Katalinuhan sa gilid para sa pagpapasya ng mababang latency, pagproseso ng telemetry, at koordinasyon ng fleet ng aparato."
+      },
+      "nlp": {
+        "title": "Pagproseso ng Natural na Wika",
+        "description": "Mga pipeline ng pag-unawa sa multilingual para sa pag-uuri, pagkuha, pagsasalin, at mga sistema ng pag-uusap."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Mga Algorithm ng Ebolusyon at Pag-optimize",
+        "description": "Mga sistema ng paghahanap at pag-optimize na inspirasyon ng natural na seleksiyon upang malutas ang mga hamon sa engineering na may mataas na sukat."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Mga Balangkas ng Automation",
+        "description": "Nagtatayo kami ng mga composable workflow framework para sa release orchestration, quality gate, at post-deploy verification upang mabawasan ang manu-manong alitan habang pinapabuti ang pagiging maaasahan."
+      },
+      "advancedArchitecture": {
+        "title": "Advanced na Eksperimento sa Arkitektura",
+        "description": "Ang aming mga eksperimento sa arkitektura ay nakatuon sa mga diskarte sa agnas ng serbisyo, mga pattern ng katatagan ng cross-region, at mga sobre ng pagganap para sa mga system na nagpapatakbo sa ilalim ng pabagu-bago ng demand."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Pinatutunayan namin ang mga disenyo ng streaming-kaganapan at edge inference na nagbibigay-daan sa mas mabilis na mga lokal na desisyon habang pinapanatili ang sentralisadong kontrol, kakayahang mag-audit, at pamamahala ng lifecycle ng modelo."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Pagpaplano ng Kapasidad ng Adaptive",
+        "description": "Ang mga prototype ng lab ay napatunayan laban sa simulated workload at pagkatapos ay isinama sa mga diskarte sa autoscaling ng platform."
+      },
+      "operationalIntelligence": {
+        "title": "Pagpapatakbo ng Katalinuhan",
+        "description": "Ang mga pipeline ng NLP ay lumipat mula sa mga kinokontrol na eksperimento patungo sa mga daloy ng trabaho ng suporta sa produksyon para sa mas mabilis na pag-aayos at mas malinaw na pananaw."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Pag-optimize sa Mga Sistema ng Paghahatid",
+        "description": "Ang mga pamamaraang ebolusyonaryong nasubok sa lab ay isinalin sa mga engine ng pag-optimize para sa pag-iiskedyul at paglalaan."
+      },
+      "edgeDecisioning": {
+        "title": "Pagpapasya sa Edge",
+        "description": "Ang mga eksperimento sa IoT at edge inference ay pinatigas sa mga serbisyo na may mababang latency na may mahigpit na mga hadlang sa pagiging maaasahan."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Ngayon",
+        "title": "Inilapat na Mga Pundasyon ng AI",
+        "description": "Palawakin ang magagamit muli na mga template ng paghahatid ng modelo, mga suite ng pagsusuri, at mga pamantayan sa pagmamasid sa mga koponan ng produkto."
+      },
+      "next": {
+        "phase": "Susunod",
+        "title": "Autonomous Engineering Workflows",
+        "description": "Pagpapatakbo ng mga balangkas ng automation na binabawasan ang panganib sa pag-deploy at paikliin ang mga loop ng feedback para sa pagpapadala."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 Buwan",
+        "title": "Edge-Native Intelligence",
+        "description": "Sukatin ang mga hybrid na arkitektura ng cloud-edge para sa halos real-time na hinuha sa mga kapaligiran na sensitibo sa latency."
+      },
+      "longHorizon": {
+        "phase": "Mahabang Horizon",
+        "title": "Patuloy na Mga Sistema ng Pag-optimize",
+        "description": "Pag-isahin ang eksperimento, pagsubaybay, at pag-optimize upang ang mga system ay maaaring umangkop nang ligtas habang nagbabago ang mga konteksto."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Mga Sistema ng AI sa Engineering na Mananatiling Maaasahan sa Produksyon",
+        "summary": "Isang praktikal na pananaw sa pagbabalanse ng bilis ng eksperimento sa pamamahala ng produksyon.",
+        "cta": "Basahin ang mga ideya"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Ipinamamahagi ang Mga Pattern ng Arkitektura para sa Mga Platform na Mataas na Paglago",
+        "summary": "Ang mga tala sa patlang mula sa mga pagsubok sa arkitektura ay nakatuon sa pagganap, katatagan, at pagiging simple ng pagpapatakbo.",
+        "cta": "Repasuhin ang mga pag-aaral ng kaso"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping Inilapat ang R&D para sa Mga Kinalabasan ng Negosyo",
+        "summary": "Paano namin istruktura ang mga inisyatibo sa pagbabago upang ang mga natuklasan ay lumipat mula sa prototype hanggang sa masusukat na halaga.",
+        "cta": "Galugarin ang mga publikasyon"
+      }
+    },
+    "cta": {
+      "title": "Bumuo gamit ang Horizon Innovation Lab",
+      "description": "Makipagsosyo sa amin upang mapatunayan ang mga ambisyosong ideya nang mabilis at ilipat ang mga napatunayan na konsepto sa ligtas, nasusukat na mga sistema ng produksyon.",
+      "primary": "Simulan ang isang Pag-uusap",
+      "secondary": "Tingnan ang Mga Resulta ng Paghahatid"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Inilapat na Mga Sistema ng AI",
+      "description": "Isang praktikal na pangkalahatang-ideya ng kung paano ang Horizon ay nagdidisenyo, nag-deploy, at nagpapatakbo ng mga sistema ng pag-aaral ng makina mula sa prototype hanggang sa produksyon.",
+      "back": "Bumalik sa Innovation Lab",
+      "tags": {
+        "appliedAi": "Inilapat na AI",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Mga Pipeline ng Pag-aaral ng Makina",
+        "description": "Ang Production AI ay nagsisimula sa mga reproducible pipeline na nag-uugnay sa data, eksperimento, pagpapatunay, at feedback."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Mga Pattern ng Pag-deploy ng Modelo",
+        "description": "Ang diskarte sa pag-deploy ay pinipili batay sa mga kinakailangan sa latency, pagiging kritikal ng negosyo, at pagiging kumplikado ng pagpapatakbo."
+      },
+      "mlopsOperatingModel": {
+        "title": "Modelo ng Pagpapatakbo ng MLOps",
+        "description": "Tinitiyak ng mga kasanayan ng MLOps na ang mga sistema ng AI ay mananatiling maaasahan, mapamahalaan, at nasusukat habang lumalaki ang paggamit."
+      },
+      "monitoringAndReliability": {
+        "title": "Pagsubaybay at pagiging maaasahan",
+        "description": "Ang kakayahang mapagmasid ay nagsasara ng loop sa pagitan ng pag-uugali ng modelo at mga kinalabasan ng pagpapatakbo."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Data at Tampok na Engineering",
+        "description": "Ang pag-inom ng data na may bersyon, mga tseke sa kalidad, at magagamit muli na mga kahulugan ng tampok ay lumilikha ng isang maaasahang pundasyon para sa pagsasanay sa modelo."
+      },
+      "modelDevelopment": {
+        "title": "Pag-unlad ng Modelo",
+        "description": "Ang mga eksperimento ay sinusubaybayan gamit ang mga reproducible configuration, objective metrics, at automated comparison baselines."
+      },
+      "validationAndSafetyGates": {
+        "title": "Mga Gate ng Pagpapatunay at Kaligtasan",
+        "description": "Ang mga modelo ng kandidato ay pumasa sa mga tseke sa pagganap, katatagan, at patakaran bago sila maaprubahan para sa paglabas."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Mga Loop ng Feedback sa Pagpapatakbo",
+        "description": "Ang telemetry pagkatapos ng pag-deploy ay nagpapaalam sa mga prayoridad sa muling pagsasanay, mga desisyon sa rollback, at pagpaplano ng susunod na pag-ulit."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Mga Serbisyo sa Real-Time na Paghuhula",
+        "description": "Mga API na may mababang latency para sa mga interactive na application na may autoscaling, caching, at pagmamasid sa antas ng kahilingan."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Mga Hula sa Batch at Streaming",
+        "description": "Naka-iskedyul at hinihimok ng kaganapan na mga pipeline para sa mataas na dami ng pagmamarka sa buong analytics at mga daloy ng trabaho sa pagpapatakbo."
+      },
+      "edgeAwareDeployment": {
+        "title": "Pag-deploy ng Edge-Aware",
+        "description": "Mga pattern ng paghahatid ng hybrid cloud-edge para sa mga kapaligiran na nangangailangan ng lokal na hinuha at sentralisadong pamamahala ng modelo."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI / CD para sa Mga Modelo",
+        "description": "Ang mga awtomatikong daloy ng trabaho, pagsubok, at paglabas ay binabawasan ang panganib ng pag-deploy habang pinapanatili ang bilis ng paghahatid."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Modelo ng Registry at Lifecycle",
+        "description": "Ang mga artifact ng modelo na may bersyon na may mga yugto ng promosyon, angkan, at mga daloy ng trabaho ng pag-apruba ay nagpapabuti sa kontrol at kakayahang masubaybayan."
+      },
+      "servingInfrastructure": {
+        "title": "Paglilingkod sa Imprastraktura",
+        "description": "Ang mga scalable na layer ng paghahatid na may mga diskarte sa paglulunsad tulad ng canary at shadow deployment ay sumusuporta sa ligtas na pamamahala ng pagbabago."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Kalidad ng hula at pagtuklas ng drift",
+      "latencyThroughputAndCostEfficiencyTracking": "Pagsubaybay sa latency, throughput, at kahusayan sa gastos",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Mga alerto sa pag-urong ng kalidad ng data at mga daloy ng pag-aayos",
+      "auditabilityForComplianceAndIncidentAnalysis": "Kakayahang ma-audit para sa pagsunod at pagsusuri ng insidente"
+    },
+    "cta": {
+      "title": "Sukatin ang Inilapat na AI nang may kumpiyansa",
+      "description": "Kung nagpaplano ka ng mga inisyatibo sa AI na nangangailangan ng masusukat na mga kinalabasan at pangmatagalang pagpapanatili, makakatulong ang Horizon na magdisenyo at mapatakbo ang buong lifecycle ng system.",
+      "primary": "Makipag-usap sa aming koponan",
+      "secondary": "Galugarin ang Higit pang Gawain sa Lab"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "Multi-Wika NLP",
+      "description": "Galugarin ang mga praktikal na kakayahan sa pagpoproseso ng natural na wika at kung paano ito nasusukat sa maaasahan, multilingual na mga sistema ng produksyon.",
+      "back": "Bumalik sa Innovation Lab",
+      "tags": {
+        "demo": "Interactive Demo",
+        "intelligence": "Katalinuhan sa Wika"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Mga Pundasyon ng NLP",
+        "description": "Pinagsasama ng natural na pagpoproseso ng wika ang mga signal ng wika at pag-aaral ng makina upang makuha ang kahulugan, layunin, at istraktura mula sa teksto."
+      },
+      "workbench": {
+        "title": "Interactive NLP Workbench",
+        "description": "Gamitin ang demo upang subukan ang pagtuklas ng wika, pagmamarka ng damdamin, pagkuha ng entity, at mga pag-uugali sa pagsasalin sa real time."
+      },
+      "productionApplications": {
+        "title": "Paano Inilalapat ng Horizon ang NLP sa Produksyon",
+        "description": "Ang mga kakayahan ng NLP ay isinama sa mga daloy ng trabaho ng negosyo na may mga guardrail ng pagganap at malinaw na mga sukatan ng kalidad."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Mga Prinsipyo ng Pagiging Maaasahan at Pamamahala",
+        "description": "Ang produksyon ng NLP ay nangangailangan ng higit pa sa kalidad ng modelo; Nakasalalay ito sa ligtas na mga kasanayan sa paglulunsad at patuloy na pag-verify."
+      }
+    },
+    "foundations": {
+      "intro1": "Ang mga modernong sistema ng NLP ay sumusuporta sa automation, kaugnayan sa paghahanap, pagkuha ng kaalaman, at pakikipagtulungan sa multilingual. Ang epektibong pagpapatupad ay nangangailangan ng parehong kalidad ng modelo at malakas na kontrol sa pagpapatakbo.",
+      "intro2": "Sa Horizon, nakatuon kami sa mga end-to-end na sistema ng NLP na pinagsasama ang matatag na hinuha na may kakayahang mapagmasid, pamamahala, at masusukat na epekto sa produksyon."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Pagtuklas ng Wika",
+        "description": "Tinutukoy ang wika mula sa maikli o mahabang mga segment ng teksto upang i-ruta ang mga kahilingan sa tamang pipeline ng pagproseso."
+      },
+      "sentimentAnalysis": {
+        "title": "Pagsusuri ng Damdamin",
+        "description": "Kumukuha ng emosyonal na layunin at polarity para sa katalinuhan ng customer, pagsuporta, at mga loop ng feedback ng produkto."
+      },
+      "entityExtraction": {
+        "title": "Pagkuha ng Entity",
+        "description": "Natutukoy ang nakabalangkas na mga entity tulad ng mga pangalan, kumpanya, lokasyon, at petsa mula sa hindi nakabalangkas na teksto."
+      },
+      "translation": {
+        "title": "Pagsasalin",
+        "description": "Sinusuportahan ang mga daloy ng trabaho ng multilingual sa pamamagitan ng pagsasalin ng teksto na binuo ng gumagamit o pagpapatakbo habang pinapanatili ang konteksto."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Suporta at Ticket Intelligence",
+        "description": "Uriin ang mga papasok na kahilingan ayon sa kagyat, layunin, at damdamin upang mapabilis ang kalidad ng routing at tugon."
+      },
+      "governedContentOperations": {
+        "title": "Mga Operasyon ng Nilalaman na Pinamamahalaan",
+        "description": "Mag-apply ng mga filter ng wika na may kamalayan sa patakaran at mga tseke sa pag-moderate na may masusukat na katumpakan at mga target sa pag-recall."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Mga Pananaw sa Negosyo na Hinihimok ng Teksto",
+        "description": "Pinagsama-samang mga uso mula sa mga dokumento, pagsusuri, at komunikasyon upang ipaalam ang diskarte at mga desisyon sa pagpapatakbo."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Pagsusuri sa pamamagitan ng Kaso ng Paggamit",
+        "description": "Ang mga modelo ay benchmarked laban sa mga dataset na tukoy sa domain bago gawin ang mga desisyon sa paglabas."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Mga Pangangalaga ng Tao-sa-Loop",
+        "description": "Kasama sa mga hula na may mataas na epekto ang mga landas ng pagsusuri, mga patakaran sa pag-escalate, at mga transparent na signal ng kumpiyansa."
+      },
+      "continuousMonitoring": {
+        "title": "Patuloy na Pagsubaybay",
+        "description": "Ang drift, latency, at pagkasira ng kalidad ay patuloy na sinusubaybayan kaya ang muling pagsasanay at pag-rollback ay proactive."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Genetic Algorithm Simulation",
+      "description": "Galugarin ang ebolusyonaryong komputasyon sa isang interactive na kapaligiran at tingnan kung paano isinasalin ang parehong mga prinsipyo sa mga sistema ng pag-optimize ng produksyon.",
+      "back": "Bumalik sa Innovation Lab",
+      "tags": {
+        "demo": "Interactive Demo",
+        "optimizationScience": "Agham sa Pag-optimize"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Pundasyon ng Siyensya",
+        "description": "Ang mga algoritmong henetiko ay mga pamamaraan ng pag-optimize na nakabatay sa populasyon na inspirasyon ng natural na seleksiyon at pagbagay."
+      },
+      "interactiveEnvironment": {
+        "title": "Interactive na Kapaligiran ng Ebolusyon",
+        "description": "Patakbuhin ang simulation upang makita ang fitness mapabuti ang henerasyon sa pamamagitan ng henerasyon at obserbahan kung paano naiimpluwensyahan ng presyon ng pagpili ang mga kinalabasan."
+      },
+      "productionUse": {
+        "title": "Paano Ginagamit Ito ng Horizon sa Produksyon",
+        "description": "Ang parehong mga mekanika ng paghahanap na ginamit sa demo na ito ay nagpapaalam sa mga pipeline ng pag-optimize na na-deploy sa mga operating system."
+      },
+      "applicationDomains": {
+        "title": "Mas malawak na mga domain ng application",
+        "description": "Ang ebolusyonaryong pag-optimize ay lalong mahalaga sa mga sistema na may mga dynamic na layunin at magkasalungat na mga hadlang."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Sa halip na maghanap ng isang solusyon nang paisa-isa, ang mga genetic algorithm ay nagbabago ng magkakaibang populasyon ng mga kandidato. Ang bawat henerasyon ay sinusuri laban sa isang fitness function at pino sa pamamagitan ng pagpili, crossover, at mutation.",
+      "intro2": "Ginagawa nitong epektibo ang mga ito para sa mga problemang may mataas na sukat na may mga di-linear na hadlang, kung saan ang mga deterministikong diskarte ay nagiging malutong o mahal sa komputasyon."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Pagpili",
+        "description": "Ang mga kandidato na may mataas na pagganap ay mas malamang na mabuhay at maimpluwensyahan ang susunod na henerasyon."
+      },
+      "crossover": {
+        "title": "Crossover",
+        "description": "Ang mga malakas na katangian ay muling pinagsama upang lumikha ng mga bagong solusyon sa kandidato na may halo-halong lakas."
+      },
+      "mutation": {
+        "title": "Mutation",
+        "description": "Ang kinokontrol na randomness ay nagpapakilala ng pagkakaiba-iba upang ang paghahanap ay hindi tumigil sa paligid ng lokal na optima."
+      },
+      "convergence": {
+        "title": "Pag-uugnay",
+        "description": "Sa paglipas ng maraming henerasyon, ang mga populasyon ay nag-trend patungo sa matatag, mataas na kalidad na mga solusyon."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Pag-iiskedyul ng Mapagkukunan",
+        "description": "Gumagamit kami ng mga diskarte sa ebolusyon upang ma-optimize ang pag-iiskedyul ng multi-constraint kung saan ang paghahanap ng brute-force ay hindi magagawa."
+      },
+      "architectureTuning": {
+        "title": "Pag-tune ng Arkitektura",
+        "description": "Ang mga configuration ng imprastraktura ng kandidato ay sinusuri nang paulit-ulit upang mapabuti ang pagganap at kahusayan sa gastos."
+      },
+      "continuousOptimization": {
+        "title": "Patuloy na Pag-optimize",
+        "description": "Ang mga trabaho sa pag-optimize ay tumatakbo sa mga kinokontrol na loop na may feedback sa telemetry upang ang mga system ay umangkop habang nagbabago ang mga profile ng demand."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Pagpaplano ng Ruta at Logistik",
+        "description": "Ang kumplikadong paghahatid at pagpaplano ng pagpapadala ay nakikinabang mula sa ebolusyonaryong paghahanap kapag mabilis na nagbabago ang mga hadlang."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Paghahanap ng Modelo at Hyperparameter",
+        "description": "Ang paghahanap ng genetiko ay maaaring matuklasan ang mataas na kalidad na mga pagsasaayos ng modelo kapag ang mga layunin na ibabaw ay maingay at hindi linear."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Mga Problema sa Portfolio at Paglalaan",
+        "description": "Ang pag-optimize sa ilalim ng nakikipagkumpitensya na mga layunin ay maaaring i-frame bilang fitness tradeoffs sa buong umuusbong na mga hanay ng kandidato."
+      }
+    }
+  }
+}

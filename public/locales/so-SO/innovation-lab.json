@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Shaybaarka Hal-abuurka",
+    "description": "Sahamin demos is-dhexgal ah, tijaabooyin, iyo bandhigyo farsamo oo ka socda kooxdeena injineerinka.",
+    "primary": "Sahamin Demos",
+    "secondary": "Daawo Cilmi-baaris"
+  },
+  "overview": {
+    "hero": {
+      "title": "Shaybaarka Hal-abuurka",
+      "description": "Waxaan sahaminaa xuduudaha wax ku oolka ah ee AI, otomaatiga, iyo nidaamyada la qaybiyey, kadibna waxaan u beddelnaa cilmi-baarista la xaqiijiyay awoodo wax-soo-saar oo lagu kalsoonaan karo.",
+      "primary": "Sahamin Aagagga Cilmi-baarista",
+      "secondary": "Ka Hadal Iskaashi"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Goobaha Cilmi-baarista",
+        "description": "Aag kasta oo diiradda la saaro wuxuu isku xiraa cilmi-baaris sahamin ah iyo waddooyinka hirgelinta ee loogu talagalay nidaamyada dhabta ah.",
+        "cardCta": "Sahamin diiradda"
+      },
+      "detailedFocusBriefs": {
+        "title": "Faahfaahin Kooban oo Diiradda Saaran",
+        "description": "Mashaariicda cilmi-baarista ee muddada dhow ayaa hadda ka guuraya xaqiijinta dhismaha ilaa qorshayaasha gaarsiinta."
+      },
+      "fromLabToProduction": {
+        "title": "Laga bilaabo Shaybaarka ilaa Soo Saarista",
+        "description": "Hal-abuurka Horizon waxaa lagu cabbiraa natiijooyinka la soo diray, ma aha tijaabooyin gooni ah."
+      },
+      "roadmap": {
+        "title": "Khariidadda R&D",
+        "description": "Horumar heer sare ah oo ka bilaabma dhisidda awoodda ilaa nidaamyo la qabsan karo oo si joogto ah u hagaajinaya."
+      },
+      "publications": {
+        "title": "Daabacaadaha & Aragtiyo",
+        "description": "Qoraallo farsamo iyo hirgelin laga helay shaqada hal-abuurka ee socota."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Nidaamyada AI ee la adeegsado",
+        "description": "Qaab-dhismeedyo AI oo diiradda saaraya wax-soo-saarka oo ka kooban adeegga moodooyinka, habeynta astaamaha, iyo tijaabooyinka la maamulo."
+      },
+      "automationFrameworks": {
+        "title": "Qaab-dhismeedyada Otomaatiga",
+        "description": "Qalabka otomaatiga gudaha ee badbaadada hawlgalka, jawaabta dhacdooyinka, iyo hababka injineernimada ee la soo celin karo."
+      },
+      "advancedArchitecture": {
+        "title": "Tijaabooyinka Qaab-dhismeedka Sare",
+        "description": "Cilmi-baaris ku saabsan qaab-dhismeedyo adkaysi leh oo qaybsan oo loo habeeyay waxqabadka, dulqaadka ciladka, iyo miisaanka."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Sirdoonka ayaa ku jira geeska go'aaminta dib-u-dhaca hooseeya, habaynta telemetry-ga, iyo isku-duwidda qalabka."
+      },
+      "nlp": {
+        "title": "Habka Luqadda Dabiiciga ah",
+        "description": "Hababka fahamka luqado badan ee nidaamyada kala soocidda, soo saarista, turjumaadda, iyo wada hadalka."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Algorithms-ka Isbeddelka & Hagaajinta",
+        "description": "Nidaamyada raadinta iyo hagaajinta oo dhiirrigeliyay xulashada dabiiciga ah si loo xalliyo caqabadaha injineernimada cabbirka sare."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Qaab-dhismeedyada Otomaatiga",
+        "description": "Waxaan dhiseynaa qaab-dhismeedyo hab-socod oo la isku dari karo oo loogu talagalay habaynta sii deynta (release orchestration), albaabada tayada, iyo xaqiijinta post-deploy si loo yareeyo khilaafka gacanta isla markaana la kordhiyo kalsoonida."
+      },
+      "advancedArchitecture": {
+        "title": "Tijaabooyinka Qaab-dhismeedka Sare",
+        "description": "Tijaabooyinkayaga qaab-dhismeedka waxay diiradda saaraan xeeladaha kala qaybinta adeegyada, qaababka adkeysiga gobollada, iyo xakamaynta waxqabadka ee nidaamyada ka shaqeeya baahida kacsan."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Waxaan xaqiijineynaa naqshadaha event-streaming iyo edge inference designs oo suurtageliya go'aanno maxalli ah oo degdeg ah iyadoo la ilaalinayo xakamaynta dhexe, kormeerka, iyo maamulka wareegga moodelka."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Qorsheynta Awoodda La Qabsiga",
+        "description": "Prototypes-ka shaybaarka waxaa lagu xaqiijiyaa culeysyada la dayactiray kadibna waxaa lagu dhex daray istiraatiijiyadaha madal autoscaling ah."
+      },
+      "operationalIntelligence": {
+        "title": "Sirdoonka Hawlgalka",
+        "description": "Pipelines NLP waxay ka guuraan tijaabooyinka la xakameeyo una gudbaan hab-socodka taageerada wax-soo-saarka si loo helo triage degdeg ah iyo aragti cad."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Hagaajinta Nidaamyada Bixinta",
+        "description": "Hababka isbeddelka ee lagu tijaabiyo shaybaarka ayaa loo beddelaa matoorada hagaajinta ee jadwalka iyo qaybinta."
+      },
+      "edgeDecisioning": {
+        "title": "Go'aanka Edge",
+        "description": "Tijaabooyinka IoT iyo edge inference waxaa loo adkeeyay adeegyo low latency ah oo leh xaddidaad kalsooni adag."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Hadda",
+        "title": "Aasaaska AI ee La Adeegsaday",
+        "description": "Ballaari templates-ka adeegga moodeelka ee dib loo isticmaali karo, xirmooyinka qiimeynta, iyo heerarka la socodka ee kooxaha alaabta."
+      },
+      "next": {
+        "phase": "Xiga",
+        "title": "Hababka Injineerinka Madax-bannaan",
+        "description": "Ka hawlgeli qaab-dhismeedyada otomaatiga ah ee yareeya khatarta deployment-ka iyo gaabinta wareegyada feedback-ka ee rarista."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 bilood",
+        "title": "Sirdoonka Edge-Native",
+        "description": "Kordhi qaab-dhismeedka isku dhafan ee cloud-edge si loo helo inference ku dhow waqtiga-dhabta ah deegaanada xasaasiga ah ee latency-ga."
+      },
+      "longHorizon": {
+        "phase": "Long Horizon",
+        "title": "Nidaamyada Hagaajinta Joogtada ah",
+        "description": "Midee tijaabooyinka, kormeerka, iyo hagaajinta si nidaamyadu si ammaan ah ula qabsan karaan xaaladaha isbeddelaya."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Injineernimada Nidaamyada AI ee Sii Aaminaya Inta Lagu Jiro Soo Saarista",
+        "summary": "Aragti wax ku ool ah oo ku saabsan isku dheelitirka xawaaraha tijaabada iyo maamulka wax soo saarka.",
+        "cta": "Akhri aragtiyo"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Qaababka Qaab-dhismeedka Qaybsan ee Madalaha Kobaca Sare",
+        "summary": "Qoraallada goobta ee tijaabooyinka dhismaha waxay diiradda saareen waxqabadka, adkaysiga, iyo fudaydka hawlgalka.",
+        "cta": "Dib u eeg daraasado kiisaska"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Khariidaynta R&D ee Natiijooyinka Ganacsiga",
+        "summary": "Sida aan u dhisno hindisaha hal-abuurka si helitaanku uga gudbaan tijaabada ilaa qiimaha la cabbiri karo.",
+        "cta": "Sahamin daabacaadaha"
+      }
+    },
+    "cta": {
+      "title": "Dhis Horizon Innovation Lab",
+      "description": "Nala shaqee si aan u xaqiijino fikradaha waaweyn si dhaqso ah loona wareejiyo fikradaha la xaqiijiyay nidaamyo wax-soo-saar oo ammaan ah oo la ballaarin karo.",
+      "primary": "Bilow wada hadal",
+      "secondary": "Daawo Natiijooyinka Gaarsiinta"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Nidaamyada AI ee la adeegsado",
+      "description": "Guudmar wax ku ool ah sida Horizon u naqshadeynto, u hirgeliso, una maamusho nidaamyada barashada mashiinka laga bilaabo prototype ilaa wax-soo-saarka.",
+      "back": "Ku noqoshada Innovation Lab",
+      "tags": {
+        "appliedAi": "AI la adeegsaday",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Dhuumaha Barashada Mashiinka",
+        "description": "Production AI waxay ka bilaabataa pipelines la soo celin karo oo isku xira xogta, tijaabada, xaqiijinta, iyo jawaab celinta."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Qaababka Fidinta Moodooyinka",
+        "description": "Istaraatiijiyadda hawlgalka waxaa lagu doortaa iyadoo lagu saleynayo shuruudaha dib u dhaca, muhiimadda ganacsiga, iyo adkaysiga hawlgalka."
+      },
+      "mlopsOperatingModel": {
+        "title": "Qaabka Hawlgalka MLOps",
+        "description": "Hababka MLOps waxay hubiyaan in nidaamyada AI ay noqdaan kuwo lagu kalsoonaan karo, la maamuli karo, lana miisaan karo marka isticmaalku sii kordho."
+      },
+      "monitoringAndReliability": {
+        "title": "Kormeerka iyo Kalsoonida",
+        "description": "Observationability waxay xirtaa loop-ka u dhexeeya dhaqanka moodelka iyo natiijooyinka hawlgalka."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Xogta iyo Injineerinka Astaamaha",
+        "description": "Qaadashada xogta nooca la beddelay, hubinta tayada, iyo qeexitaannada astaamaha dib loo isticmaali karo waxay abuuraan saldhig lagu kalsoonaan karo oo loogu talagalay tababarka moodeelka."
+      },
+      "modelDevelopment": {
+        "title": "Horumarinta Moodeelka",
+        "description": "Tijaabooyinka waxaa la raacaa iyadoo la adeegsanayo qaabab la soo celin karo, cabbirro bartilmaameed, iyo saldhigyo isbarbardhig otomaatig ah."
+      },
+      "validationAndSafetyGates": {
+        "title": "Xaqiijinta iyo Albaabada Badbaadada",
+        "description": "Tusaalooyinka musharixiinta waxay maraan hubinta waxqabadka, adkeysiga, iyo siyaasadda ka hor inta aan la oggolaan in la sii daayo."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Wareegyada Jawaab-celinta Hawlgalka",
+        "description": "Telemetry-ga kadib hawlgalka wuxuu ogeysiiyaa mudnaanta dib-u-tababarka, go'aannada dib-u-celinta, iyo qorsheynta soo socota."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Adeegyada Saadaalinta Waqtiga-dhabta ah",
+        "description": "API-yada slow-latency ee codsiyada is-dhexgalka leh oo leh autoscaling, caching, iyo observation level-level."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Saadaasha Kooxaha iyo Qulqulka",
+        "description": "Dhuumaha jadwalka leh iyo kuwa dhacdooyinka ku saleysan ee loogu talagalay dhibcaha mugga badan ee falanqaynta iyo habraacyada hawlgalka."
+      },
+      "edgeAwareDeployment": {
+        "title": "Hawlgelinta Edge-Aware",
+        "description": "Qaababka adeegga daruurta edge ee isku dhafan ee deegaanada u baahan inference maxalliga ah iyo maamulka moodeelka dhexe."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI/CD ee Moodooyinka",
+        "description": "Hababka otomaatiga ah ee dhisidda, tijaabiya, iyo sii deynta ayaa yareeya khatarta hawlgelinta iyadoo la ilaalinayo xawaaraha gaarsiinta."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Diiwaanka Moodeelka iyo Wareegga Nolosha",
+        "description": "Qalabka moodeelka ee la beddelay oo leh marxaladaha dhiirrigelinta, asalka iyo habraacyada ansixinta ayaa kor u qaada xakamaynta iyo raadraaca."
+      },
+      "servingInfrastructure": {
+        "title": "Adeegga Kaabayaasha",
+        "description": "Lakabyada adeegga ee la miisaan karo oo leh xeelado rollout sida canary iyo shadow deployments waxay taageeraan maareynta isbeddelka ammaan ah."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Tayada saadaasha iyo ogaanshaha drift-ka",
+      "latencyThroughputAndCostEfficiencyTracking": "Dib u dhac, awood, iyo raadraaca waxtarka kharashka",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Digniinaha dib-u-celinta tayada xogta iyo hababka hagaajinta",
+      "auditabilityForComplianceAndIncidentAnalysis": "Kormeerka ee u hoggaansanaanta iyo falanqaynta dhacdooyinka"
+    },
+    "cta": {
+      "title": "Cabbirka AI-ga La Adeegsado Si Kalsooni leh",
+      "description": "Haddii aad qorsheyneyso mashaariicda AI ee u baahan natiijooyin la cabbiri karo iyo dayactir waqti dheer, Horizon waxay ka caawin kartaa naqshadeynta iyo hawlgalka wareegga nolosha nidaamka oo dhan.",
+      "primary": "La hadal kooxdeena",
+      "secondary": "Sahmin Shaqo Shaybaar oo Dheeraad Ah"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "NLP-ga Luqado Badan",
+      "description": "Sahmiyo awoodaha farsamaynta luqadda dabiiciga ah ee wax ku oolka ah iyo sida ay u kordhiyaan nidaamyo wax soo saar oo lagu kalsoonaan karo oo luqado badan leh.",
+      "back": "Ku noqoshada Innovation Lab",
+      "tags": {
+        "demo": "Demo Is-dhexgal ah",
+        "intelligence": "Sirdoonka Luqadda"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Aasaaska NLP",
+        "description": "Farsamaynta luqadda dabiiciga ah waxay isku darsataa calaamadaha luqadeed iyo barashada mashiinka si ay uga soo saarto macnaha, ujeeddada, iyo qaab-dhismeedka qoraalka."
+      },
+      "workbench": {
+        "title": "Is-dhexgalka NLP Workbench",
+        "description": "Isticmaal demo-ga si aad u tijaabiso ogaanshaha luqadda, qiimeynta dareenka, soo saarista entity-ga, iyo dhaqanka turjumaadda waqtiga dhabta ah."
+      },
+      "productionApplications": {
+        "title": "Sida Horizon U Dabaqo NLP ee Soo Saarista",
+        "description": "Awoodaha NLP waxaa lagu dhex daray hab-socodka ganacsiga iyadoo la adeegsanayo ilaalinta waxqabadka iyo cabbirrada tayada cad."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Kalsoonida iyo Mabaadi'da Maamulka",
+        "description": "Wax-soo-saarka NLP wuxuu u baahan yahay wax ka badan tayada moodeelka; Waxay ku tiirsan tahay hababka badbaadada ee soo bandhigista iyo xaqiijinta joogtada ah."
+      }
+    },
+    "foundations": {
+      "intro1": "Nidaamyada casriga ah ee NLP waxay taageeraan otomaatiga, xiriirka raadinta, soo saarista aqoonta, iyo iskaashiga luqado badan. Hirgelinta wax ku ool ah waxay u baahan tahay tayada moodeelka iyo xakameyn hawlgal oo xooggan.",
+      "intro2": "Horizon, waxaan diiradda saarnaa nidaamyada NLP ee dhammaadka ilaa dhammaadka oo isku dara aragti adag, la daawado, maamul, iyo saameyn wax soo saar la cabbiri karo."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Ogaanshaha Luqadda",
+        "description": "Waxay aqoonsataa luqadda laga bilaabo qaybaha qoraalka gaaban ama dheer si loo mariyo codsiyada nidaamka habka ee saxda ah."
+      },
+      "sentimentAnalysis": {
+        "title": "Falanqaynta Dareenka",
+        "description": "Waxay soo saartaa ujeeddo dareen iyo kala duwanaansho loogu talagalay sirdoonka macaamiisha, triage-ka taageerada, iyo wareegyada jawaab-celinta alaabta."
+      },
+      "entityExtraction": {
+        "title": "Soo saarista Entity",
+        "description": "Waxay ogaataa walxo la dhisay sida magacyada, shirkadaha, goobaha, iyo taariikhaha laga helo qoraal aan nidaamsanayn."
+      },
+      "translation": {
+        "title": "Tarjumaad",
+        "description": "Waxay taageertaa hab-socodka luqado badan iyadoo la turjumayo qoraalka ay soo saarto ama hawlgalka iyadoo la haynayo macnaha."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Taageerada iyo Sirdoonka Tigidhada",
+        "description": "Kala saar codsiyada soo galaya iyadoo loo eegayo degdegga, ujeeddada, iyo dareenka si loo dedejiyo tayada marin-biyoodka iyo jawaabta."
+      },
+      "governedContentOperations": {
+        "title": "Hawlaha Mawduuca ee La Xakameeyo",
+        "description": "Ku dabaq shaandhadyada luqadda ee siyaasadda iyo hubinta dhexdhexaadnimada iyadoo la isticmaalayo saxnaan la cabbiri karo iyo bartilmaameedyo xasuus ah."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Fahamka Ganacsiga ee ku saleysan qoraalka",
+        "description": "Isku ururi isbeddellada dukumentiyada, dib-u-eegista, iyo isgaarsiinta si loo fahmo go'aannada istiraatiijiyadda iyo hawlgalka."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Qiimeynta Kiiska Isticmaalka",
+        "description": "Moodooyinka waxaa lagu barbar dhigaa xogta domain-ka ka hor inta aan la gaarin go'aannada sii deynta."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Ilaalinta Aadanaha ee Wareegga",
+        "description": "Saadaasha saameynta sare leh waxaa ka mid ah waddooyinka dib-u-eegista, xeerarka kor u qaadista, iyo calaamado kalsooni oo hufan."
+      },
+      "continuousMonitoring": {
+        "title": "Kormeerka Joogtada ah",
+        "description": "Drift-ka, latency-ga, iyo hoos u dhaca tayada ayaa si joogto ah loo socdaa si joogto ah sidaas darteed dib-u-tababarka iyo dib u celinta waa mid firfircoon."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Qiyaasta Algorithm-ka Hidde-sideyaasha",
+      "description": "Sahamin xisaabinta isbeddelka ee deegaan is-dhexgal ah oo arag sida mabaadi'daas isku mid ah loogu beddelo nidaamyada hagaajinta wax-soo-saarka.",
+      "back": "Ku noqoshada Innovation Lab",
+      "tags": {
+        "demo": "Demo Is-dhexgal ah",
+        "optimizationScience": "Sayniska Hagaajinta"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Aasaaska Sayniska",
+        "description": "Algorithms-ka hidde-sideyaasha waa hababka hagaajinta ee ku saleysan tirada dadka, kuwaas oo dhiirrigeliyay xulashada dabiiciga ah iyo la qabsashada."
+      },
+      "interactiveEnvironment": {
+        "title": "Deegaanka Isbeddelka Is-dhexgalka",
+        "description": "Orod simulation-ka si aad u aragto horumarka jiilka jiilka jiilka iyo sida cadaadiska xulashada uu u saameeyo natiijooyinka."
+      },
+      "productionUse": {
+        "title": "Sida Horizon U Isticmaasho Tan Soo Saarista",
+        "description": "Isla farsamooyinka raadinta ee lagu isticmaalay demo-gan ayaa faahfaahinaya pipeline-yada hagaajinta ee lagu rakibo nidaamyada hawlgalka."
+      },
+      "applicationDomains": {
+        "title": "Goobaha Codsiga Ballaaran",
+        "description": "Hagaajinta isbeddelka ayaa si gaar ah qiimo leh nidaamyada leh ujeeddooyin firfircoon iyo xaddidaadaha is khilaafsan."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Taa beddelkeeda, halkii hal xal la raadin lahaa, algorithms-ka hidde-sideyaasha waxay horumariyaan bulsho kala duwan oo musharrixiin ah. Jiil kasta waxaa lagu qiimeeyaa iyadoo la eegayo function fitness function waxaana la hagaajiyaa iyadoo la adeegsanayo doorasho, is-dhexgal, iyo isbeddel.",
+      "intro2": "Tani waxay ka dhigaysaa kuwo waxtar leh dhibaatooyinka cabbirka sare leh ee leh xaddidaadaha aan tooska ahayn, halkaas oo hababka deterministic-ka ay noqdaan kuwo jilicsan ama xisaab ahaan qaali ah."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Xulashada",
+        "description": "Musharaxiinta waxqabadka sare leh ayaa u badan inay badbaadaan oo saameyn ku yeeshaan jiilka xiga."
+      },
+      "crossover": {
+        "title": "Isku-dhafka",
+        "description": "Sifooyinka xooggan ayaa dib loo isku darayaa si loo abuuro xalal cusub oo musharax ah oo leh awoodo isku dhafan."
+      },
+      "mutation": {
+        "title": "Isbeddelka",
+        "description": "Randomness-ka la xakameeyo wuxuu keenaa kala duwanaansho si raadinta aysan u istaagin agagaarka maxalliga ah."
+      },
+      "convergence": {
+        "title": "Isku-darka",
+        "description": "Jiilal badan, dadka ayaa u janjeera xalal deggan oo tayo sare leh."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Jadwalka Kheyraadka",
+        "description": "Waxaan isticmaalnaa xeeladaha isbeddelka si aan u hagaajino jadwalka xaddidaadaha badan halka raadinta xoogga badan aysan suurtagal ahayn."
+      },
+      "architectureTuning": {
+        "title": "Habaynta Dhismaha",
+        "description": "Qaabeynta kaabayaasha musharixiinta ayaa si isdaba joog ah loo qiimeeyaa si loo hagaajiyo waxqabadka iyo waxtarka kharashka."
+      },
+      "continuousOptimization": {
+        "title": "Hagaajinta Joogtada ah",
+        "description": "Shaqooyinka hagaajinta waxay ku socdaan wareegyo xakameysan oo leh jawaab celin telemetry, si nidaamyadu ula qabsadaan marka astaamaha baahida ay is beddesho."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Qorsheynta Waddada iyo Saadka",
+        "description": "Qorsheynta gaarsiinta adag iyo dirista waxay ka faa'iidaystaan raadinta isbeddelka marka xaddidaadaha si degdeg ah isu beddelaan."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Raadinta moodelka iyo hyperparameter",
+        "description": "Raadinta hidde-sideyaasha waxay heli kartaa qaabeynta moodeelka tayo sare leh marka dusha bartilmaameedka ay buuq badan yihiin oo aan toos ahayn."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Dhibaatooyinka Kaydka iyo Qaybinta",
+        "description": "Hagaajinta hoos yimaada yoolalka tartamaya waxaa lagu tilmaami karaa is-weydaarsi caafimaad oo u dhexeeya kooxaha musharixiinta ee isbeddelaya."
+      }
+    }
+  }
+}

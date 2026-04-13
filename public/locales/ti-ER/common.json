@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "መበገሲ",
+    "company": "ኩባንያ",
+    "solutions": "መፍትሒታት",
+    "resources": "ምንጭታት",
+    "innovationLab": "ኢኖቬሽን ላብ",
+    "contact": "ርክብ",
+    "about": {
+      "title": "ብዛዕባ",
+      "description": "ተልእኾናን ራእይናን ታሪኽናን"
+    },
+    "team": {
+      "title": "ጕጅለ",
+      "description": "ምስቶም ብድሕሪ ሆሪዞን ቴክ ዘለዉ ሰባት ተራኸብ"
+    },
+    "careers": {
+      "title": "ሞያ",
+      "description": "ምስ ጕጅለና ሓቢርካ ንመጻኢ ሃነጽ"
+    },
+    "enterpriseSoftware": {
+      "title": "ናይ ትካል ሶፍትዌር ምዕባለ",
+      "description": "ዘመናዊ መዋቕር ዘለዎ ናይ ትካል ኣፕሊኬሽናት"
+    },
+    "aiMl": {
+      "title": "AI ML & Business Intelligence",
+      "description": "ምሉእ AI/ML ቱቦታትን BI ዳሽቦርድን"
+    },
+    "cloudArchitecture": {
+      "title": "ክላውድ ስነ-ህንጻን መሰረተ ልማትን",
+      "description": "ብዙሕ ደበና መፍትሒታትን ኮንቴይነር ኦርኬስትራን"
+    },
+    "iot": {
+      "title": "IoT & Edge Computing",
+      "description": "እተተሓሓዘ መሳርሒታት ኢኮሲስተምን ዲጂታል ማንታታትን"
+    },
+    "devops": {
+      "title": "DevOps & Platform Engineering",
+      "description": "CI/CD ቱቦታትን መሰረተ ልማትን ከም ኮድ"
+    },
+    "digitalTransformation": {
+      "title": "ዲጂታል ትራንስፎርሜሽን ስትራተጂ",
+      "description": "ናይ ትካል ለውጢ ካርታታትን ምኽርን"
+    },
+    "caseStudies": {
+      "title": "ናይ ጉዳይ መጽናዕትታት",
+      "description": "ናይ ዓወት ዛንታታት ካብ ዓማዊልና",
+      "featured": {
+        "title": "ፍሉይ ናይ ጉዳይ መጽናዕቲ",
+        "description": "ኣብ ምሉእ ኣኼባ ኣዕሚቝካ ምጥሓል"
+      }
+    },
+    "blog": {
+      "title": "ብሎግ",
+      "description": "ምስትውዓል፣ መምሃሪ ትምህርትን ናይ ኢንዱስትሪ ኣንፈት",
+      "featured": {
+        "title": "ፍሉይ ናይ ብሎግ ፖስት",
+        "description": "ሓደ ኻብቲ ናይ ቀረባ እዋን ናይ ምህንድስና ሓሳባትና ኣንብብ"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "ሓፈሻዊ ትሕዝቶ ናይ ኢኖቬሽን ላብ",
+      "description": "ንዅሉ ናይ ምርምር ቦታታትን ናይ ፈተነ መገድታትን ተመልከት"
+    },
+    "innovationLabAiSystems": {
+      "title": "ኣፕሊኬሽን AI ሲስተምስ",
+      "description": "ንምህርቲ እተዳለወ ናይ ማሽን ትምህርቲ ንድፊ ስነ-ህንጻ"
+    },
+    "innovationLabNlp": {
+      "title": "ብብዙሕ ቋንቋታት NLP",
+      "description": "ኢንተርናሽናል ተፈጥሮኣዊ ቛንቛ ናይ ምስራሕ ክእለት"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "ጀነቲካዊ ኣልጎሪዝም ሲሙሌሽን",
+      "description": "ፍልቀት ምምሕያሽ ኣብ መስተጋብራዊ ሃዋህው"
+    },
+    "navigation": "ዳህሳስ",
+    "skipToContent": "ናብ ትሕዝቶ ዝለል",
+    "toggleMenu": "ሜኑ ቀያይር",
+    "dashboard": "ዳሽቦርድ",
+    "myWorkspace": "ናይ ስራሕ ቦታይ",
+    "profile": "ፕሮፋይል",
+    "adminPanel": "ኣመሓዳሪ ፓነል",
+    "practiceManagement": "ምምሕዳር ልምምድ",
+    "logOut": "ምውጻእ",
+    "education": {
+      "title": "ተክኒካዊ ምንጪታት",
+      "description": "መምርሒታትን መምርሒታትን ብሉጽ ልምድታትን ካብ ጕጅለ ሆሪዞን ቴክ"
+    },
+    "support": {
+      "title": "ማእከል ደገፍ",
+      "description": "ኣብ ናይ ሶፍትዌር ኣገልግሎትና ሓገዝ ርኸብ"
+    }
+  },
+  "footer": {
+    "description": "ኣብ ሳራየቮ ቦዝንያ እተመስረተ ናይ ሶፍትዌር ምምዕባል ጅማሮ። ፍሉይ ሶፍትዌር፣ AI/ML መፍትሒታት፣ ናይ ደበና ስነ-ህንጻ ከምኡውን ኣውቶማቲክ ሲስተም ንሃንጽ ኢና።",
+    "features": "ባህርያት",
+    "resources": "ምንጭታት",
+    "company": "ኩባንያ",
+    "legal": "ሕጋዊ",
+    "dashboard": "ዳሽቦርድ",
+    "components": "ተዋጽኦታት",
+    "documentation": "ሰነዳት",
+    "apiReference": "መወከሲ ኤፒአይ",
+    "gettingStarted": "ምጅማር",
+    "examples": "ኣብነታት",
+    "community": "ማሕበረሰብ",
+    "blog": "ብሎግ",
+    "caseStudies": "ናይ ጉዳይ መጽናዕትታት",
+    "innovationLabOverview": "ሓፈሻዊ ትሕዝቶ ናይ ኢኖቬሽን ላብ",
+    "appliedAiSystems": "ኣፕሊኬሽን AI ሲስተምስ",
+    "nlpDemo": "ብብዙሕ ቋንቋታት NLP",
+    "geneticAlgorithmSimulation": "ጀነቲካዊ ኣልጎሪዝም ሲሙሌሽን",
+    "featuredBlogPost": "ፍሉይ ናይ ብሎግ ፖስት",
+    "featuredCaseStudy": "ፍሉይ ናይ ጉዳይ መጽናዕቲ",
+    "about": "ብዛዕባ",
+    "contact": "ርክብ",
+    "partners": "መሻርኽቲ",
+    "careers": "ሞያ",
+    "privacyPolicy": "ናይ ብሕቲ ፖሊሲ",
+    "termsOfService": "ናይ ኣገልግሎት ስምምዕ",
+    "cookiePolicy": "ፖሊሲ ኩኪስ",
+    "license": "ፍቓድ",
+    "copyright": "© {{year}} ሆሪዞን ቴክ። ኵሉ መሰላት እተሓለወ እዩ።",
+    "subscribe": "ኣብ ጋዜጣ ተመዝገቡ"
+  },
+  "header": {
+    "badge": "ኢንተርፕራይዝ ተክኖሎጂ ሶሉሽንስ",
+    "titleLine1": "ንንግዳዊ ንጥፈታትካ ብምቕያር",
+    "titleLine2": "ብሉጽ ተክኖሎጂ",
+    "description": "ካብ ናይ ትካል ሶፍትዌር ምዕባለን AI ዝምራሕ ናይ ንግዲ ምስትውዓልን ክሳዕ ናይ ደበና መሰረተ ልማትን IoT መፍትሒታትን - ሓድሽ ምህዞታት ዘምጽእን ዕቤት ዘቀላጥፍን ሰፊሕ ተክኖሎጅያዊ ኣገልግሎታት ንህብ ኢና።",
+    "getStarted": "ጀምር",
+    "exploreSolutions": "መፍትሒታት ዳህስ",
+    "trustedBy": "ንቕድሚት ዚሓስቡ ኩባንያታት ዚኣምኑ",
+    "microsoftPartner": "ናይ ማይክሮሶፍት ፓርትነር",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "ኢንተርፕራይዝ ሶሉሽንስ"
+  },
+  "mobileNav": {
+    "navigation": "ተንቀሳቓሲ ዳህሳስ",
+    "home": "መበገሲ",
+    "solutions": "መፍትሒታት",
+    "caseStudies": "ጕዳያት",
+    "aiSystems": "AI ላብ",
+    "blog": "ብሎግ",
+    "resources": "ምንጭታት",
+    "contact": "ርክብ"
+  },
+  "sideNav": {
+    "scroll": "ጥቕላል",
+    "navigateTo": "ናብ {{section}}",
+    "sections": {
+      "home": "መበገሲ",
+      "solutions": "መፍትሒታት",
+      "credibility": "ተኣማንነት",
+      "partners": "መሻርኽቲ",
+      "caseStudies": "ናይ ጉዳይ መጽናዕትታት",
+      "blog": "ብሎግ",
+      "innovationLab": "ኢኖቬሽን ላብ",
+      "faq": "ብዙሕ ግዜ ዝሕተት ሕቶ"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "ቋንቋ ምቕያር",
+    "searchPlaceholder": "ቛንቛ ድለዩ -",
+    "noResults": "ቋንቋታት ኣይተረኽበን።"
+  },
+  "common": {
+    "menu": "ሜኑ",
+    "account": "ሕሳብ"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "ኣብዚ ቐረባ ግዜ እተገብረ መጽናዕትታት",
+      "description": "ኣብ ፊንቴክ ክንክን ጥዕና ሎጅስቲክስ ከምኡውን ህዝባዊ ትካላት ፕሮግራማት ናይ ምቕራብ ውጽኢት ቅጽበታዊ ስእሊ።",
+      "cta": "ንዅሉ ናይ ጉዳይ መጽናዕትታት ርአ"
+    },
+    "blog": {
+      "title": "ካብ ብሎግና ዝወጸ እዋናዊ ሓበሬታ",
+      "description": "ካብ ናይ ቀረባ ግዜ AI ፕላትፎርም ከምኡውን ደበና ናይ ምልኣኽ ዕዮ ግብራዊ ናይ ምህንድስና መዘኻኸሪታት።",
+      "cta": "ንዅሉ ዓንቀጻት ኣንብብ"
+    },
+    "innovationLab": {
+      "title": "ኢኖቬሽን ላብ",
+      "description": "ካብ ጕጅለ ምህንድስና ሆሪዞን ቴክ እተወስደ ፕሮቶታይፕ፣ ፈተነታትን ኣወዓዕላን ምርምርን ፕሮጀክትታትን ዳህሰስ።",
+      "cta": "ናይ ኢኖቬሽን ላብ ዳህሰስ"
+    }
+  },
+  "caseStudyCard": {
+    "read": "ናይ ጉዳይ መጽናዕቲ ኣንብብ",
+    "industries": {
+      "fintech": "ፊንቴክ",
+      "healthcare": "ክንክን ጥዕና",
+      "logistics": "ሎጅስቲክስ",
+      "manufacturing": "ማኑፋክቸሪንግ",
+      "government": "መንግስቲ"
+    }
+  },
+  "blogCard": {
+    "read": "ኣንብብ"
+  }
+}

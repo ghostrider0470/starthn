@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Tekivu",
+    "ctaSecondary": "Tuvanaki ni Veivakatarogi"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Vakatorocaketaki ni parokaramu ni Enterprise",
+      "description": "Na ivolakerekere ni bisinisi ena icavacava ki na icavacava vata kei na ituvatuva vou, API-imatai ni vale, kei na scalability ni o-taukei."
+    },
+    "sections": {
+      "problem": {
+        "title": "Frame ni leqa ni bisinisi",
+        "subtitle": "Na vanua e yali kina na totolo ni parokaramu ni bisinisi, ilavo vakailavo, kei na tuvatuva vakatulewa"
+      },
+      "approach": {
+        "title": "Iwalewale ni Idinia",
+        "subtitle": "Na sala eda vukica kina na veika e gadrevi ki na vatatara vakarau ni production"
+      },
+      "principles": {
+        "title": "iVakavuvuli ni Architecture",
+        "subtitle": "Tuvanaka na vakatulewa ka maroroya na ivakarau ni bisinisi ena kena ivakatagedegede"
+      },
+      "capabilities": {
+        "title": "Na Veika Eda Tara Cake",
+        "subtitle": "Na rawa ni vakatorocaketaki ni parokaramu ni parokaramu"
+      },
+      "technology": {
+        "title": "Noda iVukevuke ni Tekinolaji",
+        "subtitle": "Tekinolaji vou ka vakadinadinataki me baleta na veikauyaki ni bisinisi"
+      },
+      "breakdown": {
+        "title": "Kavoro ni Veiqaravi",
+        "subtitle": "E dua na gaunisala tuvanaki mai na kunei ki na kena soli na cakacaka tudei"
+      }
+    },
+    "problem": {
+      "overview": "Na timi ni bisinisi era dau kauta tiko na cakacaka bibi ena gacagaca fragmented, ka vakavuna na gauna balavu, itukutuku sega ni veiraurautaki, kei na veicokotaki ni ivolavakarau sau levu ena kedra maliwa na tabacakacaka.",
+      "painPointsTitle": "Mosi ni Bisinisi Dau Yaco Tikoga",
+      "impactSignalsTitle": "Na Veika Era Dau Dikeva na iLiuliu",
+      "painPoints": [
+        "Na veivakadeitaki ni veikauyaki e lutu baleta ni sega ni qaravi na vakararavi ena veitimi",
+        "Na vakasama ni bisinisi uto e vakaruataki ena veisala kei na ivoli",
+        "Legacy integrations make new feature launches high-risk and slow"
+      ],
+      "impactSignals": [
+        "Roadmap throughput drops while engineering spending increase",
+        "E tubu cake na leqa e sotavi ira na kasitama ena gauna ni sereki",
+        "Vakamalua na vakatulewa ena vuku ni sega ni veiraurau na ripote ni cakacaka"
+      ]
+    },
+    "approach": {
+      "overview": "Eda vakayacora vata kei na architecture-first discovery, veisoliyaki ni konitaraki, kei na idinia ni sereki vakatulewa me rawa ni vakau na yaga ni bisinisi ena predictable increments.",
+      "pillars": [
+        {
+          "title": "Domain Modeling & Bounded Contexts",
+          "detail": "Eda mapetaka na domains me vagalalataki kina na iyalayala ni veiqaravi me vakalailaitaka na veisemati ni timi ka vakamatatataka na kena itaukei."
+        },
+        {
+          "title": "iTuvatuva ni Veisemati Taumada ni API-First",
+          "detail": "Eda vakadeitaka taumada na konitaraki tudei, ka rawa kina na veivakatorocaketaki vakatautauvata kei na veisemati vinaka cake kei na ivakarau ni bisinisi."
+        },
+        {
+          "title": "Progressive Delivery Workflow",
+          "detail": "Eda vakayagataka na kuila ni gacagaca, rollouts staged, kei na matamata vinaka me sereki vakatotolo ka sega ni destabilizing na cakacaka."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Na noda vakatulewa ni vale e vakaliuca na bula balavu, operability, kei na matata ni taukeni me rawa ni adaptable tikoga na vatavata ni sa tubu cake na ivakatagedegede ni bisinisi.",
+      "items": [
+        {
+          "title": "iYalayala ni Veiqaravi Modular",
+          "detail": "Na veika e rawa ni caka wavoki ena veivanua ni bisinisi me maroroi kina na revurevu ni veisau ena kena vanua."
+        },
+        {
+          "title": "Veisemati ena Veika e Yaco",
+          "detail": "Asynchronous workflows are used where latency tolerance exists to improve resilience and decouple systems."
+        },
+        {
+          "title": "Observability by Design",
+          "detail": "Na vakadikevi, metrics, kei na ivola tuvanaki era sa vakamacalataki taumada me tokona na cakacaka nuitaki kei na veiliutaki ni SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "iVolakerekere ni Mataveilawa Tudei",
+      "Vakatorocaketaki ni Mobile App",
+      "Veivakatorocaketaki kei na Veisemati ni API",
+      "Microservices Architecture",
+      "iWali ni O-Native",
+      "Vakavoui ni iVakarau ni Legacy"
+    ],
+    "technologies": [
+      {
+        "name": "Veisautaka",
+        "category": "Frontend",
+        "icon": "Veisautaka"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "Dotnet"
+      },
+      {
+        "name": "Na Python",
+        "category": "Backend",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Vosa",
+        "icon": "Typescript"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "GraphQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "iTukutuku ni itukutuku",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "iTukutuku ni itukutuku",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Discovery & Architecture",
+        "summary": "Eda mapetaka na veika me vakaliuci ena bisinisi, yalani vakamisini, kei na ituvatuva ni takete ni bera ni tekivu na kena vakayacori.",
+        "deliverables": [
+          "Vuli ni vakatautauvatataki ni ivoli kei na veika e gadrevi",
+          "Ituvatuva ni ituvatuva ni iwali",
+          "iTuvatuva ni veikauyaki yavutaki ena milestone"
+        ]
+      },
+      {
+        "title": "Tarai cake kei na Veisemati",
+        "summary": "Na noda timi era vakayagataka na gacagaca uto, veisemati ni veisemati, kei na veitaqomaki vinaka ena gauna vata oqo.",
+        "deliverables": [
+          "Vakatorocaketaki ni gacagaca ena iterative sprints",
+          "API kei na ikatolu ni soqo ni veisemati",
+          "Vakatovotovo vakamisini kei na jeke ni vakavakarau ni sereki"
+        ]
+      },
+      {
+        "title": "Tavoci kei na Evolution",
+        "summary": "Ni oti na go-live, eda vakadeitaka na cakacaka ka vakadeitaka na ituvatuva ni veivakatorocaketaki e tarava e yavutaki ena kena vakayagataki dina.",
+        "deliverables": [
+          "iVolatukutuku ni cakacaka ni cakacaka",
+          "Vakatulewa ni cakacaka kei na nuitaki",
+          "Ni oti na tavoci ni gaunisala kei na backlog ni veivakatorocaketaki"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Vakarau mo tara cake na nomu kerekere e tarava?",
+      "description": "Meda tuvanaka ka vakauta e dua na iwali e vakavuna na macala ni bisinisi e vakarautaki rawa.",
+      "button": "Tekivuna na Nomu Cakacaka"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML & Business Intelligence",
+      "description": "Mai na ivakaraitaki prediction ki na dashboard ni liu, eda tara cake na ivakarau taucoko ni AI/BI ka tokona na vakatulewa ena kena ivakatagedegede."
+    },
+    "sections": {
+      "problem": {
+        "title": "Frame ni leqa ni bisinisi",
+        "subtitle": "Na vuna e dredre tiko kina vei ira na veisoqosoqo vutuniyau ena itukutuku me ra vakatulewa nuidei"
+      },
+      "approach": {
+        "title": "Iwalewale ni Idinia",
+        "subtitle": "Na sala eda cakacakataka kina na ivoli ni itukutuku, ivakaraitaki ni ML, kei na cakacaka ni BI"
+      },
+      "principles": {
+        "title": "iVakavuvuli ni Architecture",
+        "subtitle": "iTukutuku kei na ivakaraitaki ni ituvatuva me baleta na vuku ni vakatulewa nuitaki"
+      },
+      "capabilities": {
+        "title": "Na Noda Rawa Ka",
+        "subtitle": "iWali raraba ni AI, ML, kei na BI"
+      },
+      "technology": {
+        "title": "Noda iVukevuke ni Tekinolaji",
+        "subtitle": "Iyaya ni cakacaka e liu ena cakacaka me baleta na itukutuku kei na AI"
+      },
+      "breakdown": {
+        "title": "Kavoro ni Veiqaravi",
+        "subtitle": "Na sala eda toso kina mai na itukutuku fragmented ki na vuku ni ivakatagedegede ni production"
+      }
+    },
+    "problem": {
+      "overview": "Na veisoqosoqo era dau vakasokumuna e levu na itukutuku ia era sega ni vakadewataka ki na forecasting nuitaki, vakatulewa ni cakacaka, se cakacaka vakabisinisi e vakarautaki rawa.",
+      "painPointsTitle": "Mosi ni Bisinisi Dau Yaco Tikoga",
+      "impactSignalsTitle": "Na Veika Era Dau Dikeva na iLiuliu",
+      "painPoints": [
+        "E duidui na vakasama ni ripotetaki ena veitimi, ka vakavuna na veisaqasaqa ni itukutuku ni KPI",
+        "Na ivakaraitaki ena vakatovotovo tikoga ka sega ni yacova na cakacaka ni cakacaka",
+        "Na veika vinaka ni itukutuku e vakamalumalumutaka na veivakabauti ena analytics kei na dashboard ni veiliutaki"
+      ],
+      "impactSignals": [
+        "Na cycle ni vakatulewa e berabera baleta ni timi veibataka na dodonu ni itukutuku ka sega ni cakacaka",
+        "Na dodonu ni forecasting kei na tuvatuva e sega ni veiraurau ena dua na vulatolu",
+        "Na vakatubu ilavo ni analytics e vakaraitaka na lailai ni kena vakayagataki ena taudaku ni ilawalawa ni dauvakadidike"
+      ]
+    },
+    "approach": {
+      "overview": "We deliver AI and BI platforms as production systems, coupling data engineering, model lifecycle operations, and decision workflow integration.",
+      "pillars": [
+        {
+          "title": "Yavu ni iVoli ni iTukutuku",
+          "detail": "Na ivoli ni itukutuku e tauyavutaka na kena vakayagataki tale, vakatulewataki, kei na ivakatagedegede cecere me baleta na analytics kei na ML."
+        },
+        {
+          "title": "MLOps Lifecycle Automation",
+          "detail": "Na vuli, deployment, vakadikevi, kei na vakatulewa ni drift sa vakalivaliva me maroroi kina na ivakaraitaki nuitaki ena cakacaka."
+        },
+        {
+          "title": "Vakatulewa Workflow Integration",
+          "detail": "Na vakasama era sa vakacurumi ena iyaya ni cakacaka kei na dashboard me rawa kina vei ira na timi me ra cakacaka ena vuku ena loma ni iwalewale ni veisiga."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Na noda ituvatuva ni AI/BI e vakaliuca na itukutuku nuitaki, ivakaraitaki e rawa ni vakamacalataki, kei na iwalewale ni curu ki na bisinisi taucoko.",
+      "items": [
+        {
+          "title": "iVakamacala ni Metric Duabau",
+          "detail": "Critical KPIs are defined once through shared semantic models to eliminate conflicting reporting logic."
+        },
+        {
+          "title": "Vakatulewa ni Nuitaki ni Ivakaraitaki",
+          "detail": "Performance thresholds, drift detection, and rollback mechanisms protect decision quality in production."
+        },
+        {
+          "title": "Veitaqomaki kei na Veiliutaki ena Droini",
+          "detail": "Na ituvatuva ni itukutuku, curu yavutaki ena itavi, kei na vakatulewa vakarau ni dikevi fika era sa vakacurumi tu ena pipeline yadua."
+        }
+      ]
+    },
+    "capabilities": [
+      "Na iVakatagedegede ni Vuli ni Misini kei na Pipelines",
+      "Power BI Dashboards & Ripote",
+      "Predictive Analytics",
+      "Vakadrodroi ni itukutuku ena gauna dina",
+      "iWali ni Warehousing ni iTukutuku"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Vatavata",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Warehouse ni iTukutuku",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Idinia ni iTukutuku",
+        "icon": "databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "Vatavata ni ML",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "iYavu ni ML",
+        "icon": "Na Drodro ni Tensors"
+      },
+      {
+        "name": "Na PyTorch",
+        "category": "iYavu ni ML",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tabana ni Tabana",
+        "category": "Vakadidike",
+        "icon": "Tabana"
+      },
+      {
+        "name": "Na lidi ni Apache",
+        "category": "Cakacakataki",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Vosa",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Yavu ni iTukutuku",
+        "summary": "Eda dikevi fika na ivurevure, vakadeitaka na konitaraki ni itukutuku, ka tauyavutaka na veiliutaki me tekivu kina na ivakaraitaki yadua ena input nuitaki.",
+        "deliverables": [
+          "iVurevure ni itukutuku kei na dikevi ni ivakatagedegede",
+          "Idinia ni gacagaca kei na tuvatuva ni ituvatuva",
+          "Na yavu ni veitaqomaki kei na veiliutaki"
+        ]
+      },
+      {
+        "title": "Soli ni iVakaraitaki kei na Vakasama",
+        "summary": "Eda tara cake na ivakaraitaki kei na dashboard ni vakatulewa ka semati ki na taro vakabisinisi kei na KPIs.",
+        "deliverables": [
+          "Vakatorocaketaki kei na veivakadeitaki ni ivakaraitaki",
+          "Dashboard ni veiliutaki kei na ripote ni cakacaka",
+          "Vakatulewa ni cakacaka ni cakacaka ni vakatulewa"
+        ]
+      },
+      {
+        "title": "MLOps kei na veisusu",
+        "summary": "Eda cakacakataka na kena vakayagataki, vakadikevi, kei na vakadidike ni timi me rawa ni nuitaki kina na kena isau ena dua na gauna.",
+        "deliverables": [
+          "Pipelines ni vakayagataki ni ivakaraitaki vakamisini",
+          "Drift, dodonu, kei na kena vakadikevi na kena vakayagataki",
+          "Veisoliyaki ni timi kei na ivola ni cakacaka"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Veisautaka na Nomu iTukutuku ki na Insight",
+      "description": "Vukica na itukutuku fragmented ki na matata, actionable intelligence.",
+      "button": "Tekivutaka na Nomu Ilakolako"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Architecture kei na iYauqaqa ni O",
+      "description": "Multi-cloud platforms, resilient architecture, and scalable infrastructure designed for long-term growth."
+    },
+    "sections": {
+      "problem": {
+        "title": "Frame ni leqa ni bisinisi",
+        "subtitle": "Na cava na vuna e tu kina na cakacaka ni o ni oti na imatai ni ua ni biuvanua"
+      },
+      "approach": {
+        "title": "Iwalewale ni Idinia",
+        "subtitle": "Na sala eda tara cake kina na vatavata ni o taqomaki, scalable vata kei na ririkotaki ni veitosoyaki vakatulewa"
+      },
+      "principles": {
+        "title": "iVakavuvuli ni Architecture",
+        "subtitle": "Vakatulewa ni vatavata e vakatautauvatataka na agility, resilience, kei na veiliutaki"
+      },
+      "capabilities": {
+        "title": "Veiqaravi ni O",
+        "subtitle": "Tara, vakayagataka, ka vakatautauvatani ena o"
+      },
+      "technology": {
+        "title": "Kenadau ni Multi-Cloud",
+        "subtitle": "Platform-agnostic na iwali ni o"
+      },
+      "breakdown": {
+        "title": "Kavoro ni Veiqaravi",
+        "subtitle": "E dua na ituvatuva matata me baleta na droini, veitosoyaki, kei na cicivaki ni vatavata ni o"
+      }
+    },
+    "problem": {
+      "overview": "E vuqa na isoqosoqo era vakacavara na veitosoyaki taumada ni o ia era se cakacaka tikoga me vaka na timi ni on-prem, vata kei na sega ni rawa ni laurai, sega ni veiraurau na lewa, kei na tubu cake ni vakayagataki ilavo.",
+      "painPointsTitle": "Mosi ni Bisinisi Dau Yaco Tikoga",
+      "impactSignalsTitle": "Na Veika Era Dau Dikeva na iLiuliu",
+      "painPoints": [
+        "Era sa tokitaki na cakacaka ka sega na ivakarau ni veitaqomaki kei na veitaratara ni veitaratara",
+        "Tubu totolo cake na isau ni o mai na yaga ni bisinisi e soli",
+        "Na vakarautaki ni ituvaki ni bula e tiko ga ena ivolavakarau ka sega ni veiraurau ena veitimi"
+      ],
+      "impactSignals": [
+        "Na veika e yaco wasoma e vu mai na configuration drift between environments",
+        "Na vakavakarau ni dikevi fika e lutu sobu ena vuku ni fragmented na iwalewale ni veiliutaki",
+        "Na gauna ni veiliutaki ni iyauqaqa e vakaberaberataki kina na cakacaka ni ivoli kei na itukutuku"
+      ]
+    },
+    "approach": {
+      "overview": "Eda tuvanaka na vatavata ni o me ivoli, vakayagataka na iyauqaqa ni iyauqaqa, itataqomaki ni lawatu, kei na ua ni veitosoyaki e salavata kei na bibi ni bisinisi.",
+      "pillars": [
+        {
+          "title": "Landing Zone me nabavuni",
+          "detail": "Identity, networking, security, and policy baselines are codified for repeatability and auditability."
+        },
+        {
+          "title": "Wave-Based Migration Strategy",
+          "detail": "Workloads move in controlled phases with dependency-aware sequencing and rollback readiness."
+        },
+        {
+          "title": "SRE + FinOps Operating Loop",
+          "detail": "Na ivakatakilakila ni nuitaki kei na iwasewase ni economics era railesuvi vata me vakatorocaketaki kina na gauna ni cakacaka kei na vakayagataki ilavo."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Na noda ivakaraitaki ni architecture e tokona na itukutuku ni cakacaka, lailai duadua na galala, kei na vatavata composable e tokona na totolo ni kena soli na ivoli.",
+      "items": [
+        {
+          "title": "iVakarau ni iYauqaqa Sega ni Veisau",
+          "detail": "Sa tarai cake tale na ituvaki mai na nabavuni versioned me vakalailaitaka na drift ka vakarawarawataka na vakalesui mai ni cakacaka."
+        },
+        {
+          "title": "Yavu ni Veitaqomaki ena Lalai",
+          "detail": "Zero-trust access controls and policy enforcement are embedded in every environment lifecycle."
+        },
+        {
+          "title": "Resilience Through Distribution",
+          "detail": "Critical workloads are designed for multi-zone or multi-region failure tolerance where business impact requires it."
+        }
+      ]
+    },
+    "capabilities": [
+      "Multi-Cloud Strategy & Implementation",
+      "Container Orchestration (Kubernetes)",
+      "Serverless Computing",
+      "Veiqaravi ni Veitosoyaki ni O",
+      "High Availability Architecture"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "O",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Na AWS",
+        "category": "O",
+        "icon": "AmazonWebServices"
+      },
+      {
+        "name": "GCP",
+        "category": "O",
+        "icon": "googlecloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Na iVakatakarakara",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Koniteina",
+        "icon": "Dauveiqaravi ni Waqa"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Template ni ARM",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Tauyavutaki ni O",
+        "category": "IaC",
+        "icon": "AmazonWebServices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Architecture kei na Landing Zone",
+        "summary": "Eda vakadeitaka na ituvaki takete, guardrails, kei na ivakatagedegede ni vatavata ni bera ni toso na cakacaka.",
+        "deliverables": [
+          "Takete ni droini ni o",
+          "iVakatakilakila, veitaratara, kei na yavu ni veitaqomaki",
+          "Itataqomaki ni isau kei na vakamuri"
+        ]
+      },
+      {
+        "title": "Migration & Platform Build",
+        "summary": "Eda vakayacora na ua ni veitosoyaki ka tucake na gacagaca ni vatavata ni o-native vata kei na repeatable automation.",
+        "deliverables": [
+          "Veitaravi ni veitosoyaki ni cakacaka",
+          "Vakaduri ni vatavata ni koniteina kei na serverless",
+          "Infrastructure as Code modules"
+        ]
+      },
+      {
+        "title": "Nuitaki kei na FinOps",
+        "summary": "Eda vakatorocaketaka na nuitaki ni cakacaka ka tomana tikoga na vakayagataki ilavo ni o e yavutaki ena telemetry bula.",
+        "deliverables": [
+          "SLOs, vakadikevi, kei na cakacaka ni veika e yaco",
+          "Veivakadeitaki ni Resilience kei na Disaster Recovery",
+          "Cost optimization backlog and governance cadence"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Scale Your Infrastructure",
+      "description": "Tara cake na yavu ni o ka tudei tiko ena ruku ni icolacola ni vuravura dina.",
+      "button": "Tuvanaka na Nomu iTuvatuva ni O"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Na pipeline ni veikauyaki vakalivaliva, observability, kei na ivakarau ni vatavata e vakatorocaketaka na totolo ka sega ni sorovaki kina na kena nuitaki."
+    },
+    "sections": {
+      "problem": {
+        "title": "Frame ni leqa ni bisinisi",
+        "subtitle": "Na vuna e lutu kina na totolo ni veikauyaki ni sa tubu cake na dredre ni vatavata"
+      },
+      "approach": {
+        "title": "Iwalewale ni Idinia",
+        "subtitle": "Na sala eda standardize kina na pipeline ni veikauyaki ka sega ni vakaberaberataki na timi ni ivoli"
+      },
+      "principles": {
+        "title": "iVakavuvuli ni Architecture",
+        "subtitle": "Na iwalewale ni idinia ni vatavata e tautauvata na nuitaki kei na galala ni timi"
+      },
+      "capabilities": {
+        "title": "Veiqaravi ni DevOps",
+        "subtitle": "Automate, dikeva, ka vakavinakataka na nomu ivakarau ni bula ni veikauyaki"
+      },
+      "technology": {
+        "title": "iYaya ni Cakacaka kei na Vatavata ni DevOps",
+        "subtitle": "Na iyaya ni cakacaka vinaka duadua ni DevOps"
+      },
+      "breakdown": {
+        "title": "Kavoro ni Veiqaravi",
+        "subtitle": "E dua na mape ni gaunisala mai na bottlenecks ni veikauyaki ki na drodro ni sereki ni veivakabauti cecere"
+      }
+    },
+    "problem": {
+      "overview": "Na veisoqosoqo era dau vakatubura na iyaya ni cakacaka ni CI/CD ia era se dredre tikoga ena veisereki sega ni tudei, veivakadonui berabera, kei na fragmented na kena taukeni ena veivanua taucoko.",
+      "painPointsTitle": "Mosi ni Bisinisi Dau Yaco Tikoga",
+      "impactSignalsTitle": "Na Veika Era Dau Dikeva na iLiuliu",
+      "painPoints": [
+        "E duidui na ibalebale ni pipeline ena veitimi, ka vakavuna na matamata ni ivakatagedegede sega ni veiraurau",
+        "Vakadonui ni vakayagataki ena ivolavakarau lokuyarataki vakaberaberataka na hotfix kei na gauna ni vagalalataki ni gacagaca",
+        "Na leqa ni cakacaka e yaco tale baleta ni sega ni taucoko se siloed na telemetry"
+      ],
+      "impactSignals": [
+        "Na gauna ni veisau e toso cake tikoga dina ga ni vakayagataki vakamisini",
+        "Veisau na iwiliwili ni druka spikes ena gauna ni vakau levu",
+        "Developer productivity declines due to tooling friction and context switching"
+      ]
+    },
+    "approach": {
+      "overview": "Eda tauyavutaka e dua na ivakaraitaki ni vatavata ni veivakatorocaketaki ena loma vata kei na gacagaca ni pipeline reusable, veiliutaki vakalawatu, kei na vakadidike taucoko ni lifecycle.",
+      "pillars": [
+        {
+          "title": "Golden Path Pipeline Templates",
+          "detail": "Reusable CI/CD blueprints standardize tara, vakatovotovo, jeke ni veitaqomaki, kei na cakacaka ni deployment."
+        },
+        {
+          "title": "API ni vatavata kei na veiqaravi vakataki koya",
+          "detail": "Teams vakarautaka na draki ni bula ka sereka na iyauqaqa ena veitaratara ni veiqaravi vakataki koya."
+        },
+        {
+          "title": "Reliability Feedback Loops",
+          "detail": "Na ivakarau ni veika e yaco, bula ni SLO, kei na deployment telemetry e tukuna na tomani ni cakacaka kei na vakatorocaketaki ni vale."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Na noda DevOps architecture aligns na totolo ni veikauyaki kei na veiliutaki ena automating na vakatulewa kei na vakalailaitaki ni cakacaka vakadua ga.",
+      "items": [
+        {
+          "title": "Na veika kece me vaka na nabavuni versioned",
+          "detail": "Pipelines, infrastructure, and policy rules are managed in source control for auditability and repeatability."
+        },
+        {
+          "title": "Veivakadeitaki Torocake",
+          "detail": "Na ivakarau vinaka, veitaqomaki, kei na jeke ni cakacaka era veitaravi ena veitagedegede me kilai kina na ririkotaki vakatotolo."
+        },
+        {
+          "title": "iTavi ni Vatavata Wasei",
+          "detail": "Na timi ni vatavata era vakarautaka na gaunisala ni gaunisala ka ra maroroya tiko na timi ni ivoli na kena itaukei."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI/CD Pipeline Design",
+      "Infrastructure me vaka na Code",
+      "Vakatovotovo vakamisini",
+      "Deployment Automation",
+      "Vakadikevi kei na Vakadidike"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Vatavata",
+        "icon": "AzureDevOps"
+      },
+      {
+        "name": "Cakacaka ni GitHub",
+        "category": "CI/CD",
+        "icon": "GitHubActions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "O Helm",
+        "category": "iYaya",
+        "icon": "Veiliutaki"
+      },
+      {
+        "name": "Na Vosa ni Vakasama",
+        "category": "Vakamisini",
+        "icon": "Na Veika E Rawa Ni T"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Vakadikevi tiko",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Vakadidike",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Vakadidike ni Vatavata",
+        "summary": "Eda dikeva na nomu sinucodo ni soli parokaramu ena gauna oqo me kilai kina na veika ririkotaki kei na yalani ni totolo.",
+        "deliverables": [
+          "Mape ni cakacaka ni veisoliyaki ena gauna oqo",
+          "Vakadidike ni bottleneck ni pipeline",
+          "Takete DevOps maturity roadmap"
+        ]
+      },
+      {
+        "title": "Pipeline & Automation Build",
+        "summary": "Eda vakayagataka na CI/CD nuitaki, matamata vinaka, kei na gacagaca ni iyauqaqa me baleta na veisereki tudei.",
+        "deliverables": [
+          "E rawa ni vakayagataki tale na template ni CI/CD",
+          "Iyauqaqa kei na ituvaki ni bula",
+          "Vakatovotovo vakamisini kei na vakatulewa ni sereki"
+        ]
+      },
+      {
+        "title": "Cakacaka ka Vakatorocaketaki",
+        "summary": "Eda tauyavutaka na vakadidike kei na veiliutaki e tokona na vakatorocaketaki ni veikauyaki.",
+        "deliverables": [
+          "Vakadikevi ni dashboard kei na lawatu ni veivakayadrati",
+          "Release governance and incident playbooks",
+          "Tomani tiko na ivakarau ni vakatorocaketaki kei na railesuva"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Vakatotolotaka na Nomu Veikauyaki",
+      "description": "Vakalailaitaka na friction ni sereki ka vakatorocaketaka na kena nuitaki ena ivakarau matua ni DevOps.",
+      "button": "Veisautaka na Nomu Pipeline"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Veisau kei na iTuvatuva ni Livaliva",
+      "description": "Strategic advisory and execution support to modernize platforms, teams, and operating models."
+    },
+    "sections": {
+      "problem": {
+        "title": "Frame ni leqa ni bisinisi",
+        "subtitle": "Na vanua e yali kina na kaukauwa kei na nuidei ni veiliutaki na parokaramu ni veisau"
+      },
+      "capabilities": {
+        "title": "Veiqaravi ni Veivakasalataki",
+        "subtitle": "Veidusimaki vakatulewa me baleta na rawa-ka vakalivaliva"
+      },
+      "approach": {
+        "title": "Iwalewale ni Idinia",
+        "subtitle": "Na sala eda vakadewataka kina na ituvatuva ki na veisau e tokoni mai na tekinolaji"
+      },
+      "principles": {
+        "title": "iVakavuvuli ni Architecture",
+        "subtitle": "Na ivakarau ni cakacaka kei na digidigi ni vatavata e taqomaki kina na revurevu ni veisau"
+      },
+      "technology": {
+        "title": "Stack ni Tekinolaji",
+        "subtitle": "Vatavata kei na ituvatuva eda vakayagataka me operationalize na veisau"
+      },
+      "breakdown": {
+        "title": "Kavoro ni Veiqaravi",
+        "subtitle": "Veisau tuvanaki mai na ivakamacala ni ituvatuva ki na yaga ni bisinisi e vakarautaki"
+      }
+    },
+    "problem": {
+      "overview": "Na sasaga vakalivaliva e dau tekivu ena inaki kaukauwa ia e sega ni rawa ni veisautaki ki na kena soli ena vuku ni sega ni matata na kena itaukei, iyaya ni cakacaka sega ni veisemati, kei na veika me vakaliuci.",
+      "painPointsTitle": "Mosi ni Bisinisi Dau Yaco Tikoga",
+      "impactSignalsTitle": "Na Veika Era Dau Dikeva na iLiuliu",
+      "painPoints": [
+        "Sa vakamacalataki na roadmap ni veisau ia e sega ni vakadewataki ki na veiliutaki ni veikauyaki",
+        "Duidui na veika me vakaliuci ena bisinisi kei na idinia ni oti na ituvatuva taumada",
+        "Na ivakarau ni cakacaka makawa e tarova na kena vakayagataki na iwalewale ni kena soli na ivoli ena gauna oqo"
+      ],
+      "impactSignals": [
+        "Tubu cake na vakayagataki ilavo ni parokaramu ni toso tiko ga na KPI",
+        "Initiatives calata na veitikina ni handoff ena maliwa ni ituvatuva, architecture, kei na kena vakayacori",
+        "Era sotava na timi na oca ni veisau ka yalani na yaga ni bisinisi"
+      ]
+    },
+    "approach": {
+      "overview": "We combine strategic advisory with delivery architecture, aligning operating model design, platform capability, and execution cadence around measurable takes.",
+      "pillars": [
+        {
+          "title": "Vakaliuci ni Value Stream",
+          "detail": "We sequence initiatives based on measurable business impact and technical dependency constraints."
+        },
+        {
+          "title": "Target Operating Model Design",
+          "detail": "Na itavi, veiliutaki, kei na dodonu ni vakatulewa sa vakamacalataki me tokona na kena vakayacori vakatotolo ena timi ni bisinisi kei na tekinolaji."
+        },
+        {
+          "title": "Portfolio Delivery Governance",
+          "detail": "Na toso ni veisau e cicivaki mai na checkpoints semati ki na KPI kei na vakatulewa ni ririkotaki ena portfolio-level."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Na noda ituvatuva ni veisau e vakabibitaka na vakavoui vakatorocaketaki kei na vakatulewa matata, levea na veivolavolai tale vakaleqai ka sega ni vakadonui kina na bisinisi.",
+      "items": [
+        {
+          "title": "Vakatautauvatataki ni Rawa ni Bisinisi",
+          "detail": "Na veisau ni tekinolaji e tuvanaki wavoki ena veika e rawa ni vakamacalataki vakadodonu ki na ilavo, ituvaki ni veiqaravi, se isau vinaka."
+        },
+        {
+          "title": "iTuvatuva ni Vatavata Composable",
+          "detail": "Era digitaki na gacagaca ni vatavata me baleta na interoperability me tokona na veitosoyaki vakawasoma kei na vakatotolotaki ni veivakamatautaki vakatotolo."
+        },
+        {
+          "title": "Veiliutaki vata kei na Cadence ni Veikauyaki",
+          "detail": "Na forum ni vakatulewa kei na veivanua ni vakatulewa era sa vakacurumi tu ena sprint kei na veivulatolu, sega ni okati me dua na sala duidui ni bureaucratic."
+        }
+      ]
+    },
+    "capabilities": [
+      "Digital Transformation Roadmaps",
+      "Vakatorocaketaki ni iTuvatuva ni Tekinolaji",
+      "Cloud Adoption Frameworks",
+      "Optimization ni iwalewale",
+      "Veiliutaki ni Veisau"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Yavu ni O",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Vatavata ni iTukutuku",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Vakatulewa ni Vuku",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Vatavata ni Kaukauwa",
+        "category": "iVakatagedegede Lailai",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Cakacaka vata",
+        "icon": "MicrosoftSharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Alignment ni iTuvatuva",
+        "summary": "Eda vakatautauvatataka na veika me vakaliuci ena veiliutaki kei na inaki vakalivaliva me tauyavutaki kina e dua na veidusimaki ni veisau wasei",
+        "deliverables": [
+          "Inaki ni veisau kei na ivakatagedegede ni rawa-ka",
+          "Capacity maturity and gap assessment",
+          "Portfolio ni vakatulewa vakaliuci"
+        ]
+      },
+      {
+        "title": "iTuvatuva ni Veivakamatei",
+        "summary": "Eda vakadeitaka na ivakarau ni cakacaka takete, ivakatagedegede ni vale, kei na ituvatuva ni kena vakayacori.",
+        "deliverables": [
+          "Ivakarau ni cakacaka kei na ituvatuva ni veiliutaki",
+          "iVakatagedegede ni tekinolaji kei na cakacaka ni cakacaka",
+          "Phased implementation roadmap"
+        ]
+      },
+      {
+        "title": "Veisau kei na Yavunilewa",
+        "summary": "Eda draiva na veivakurabuitaki, vakamuria na veitosoyaki ni KPI, ka vakavinakataka na sasaga e yavutaki ena macala ni veisoliyaki.",
+        "deliverables": [
+          "iTuvatuva ni Adoption kei na Enablement",
+          "Cadence ni ivakarau ni KPI",
+          "Backlog ni optimization ena veivulatolu"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Tekivutaka na Nomu iVakarau ni Veisau",
+      "description": "Raica na veisau ena veika matata me vakaliuci kei na ituvatuva ni kena vakayagataki.",
+      "button": "Tuvanaka na Soqoni ni iTuvatuva"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT kei na Edge Computing",
+      "description": "Veisemati na gacagaca mai na gacagaca ki na o, vata kei na pipeline ni telemetry kei na vuku ni yasana me baleta na ivakarau ni cakacaka."
+    },
+    "sections": {
+      "problem": {
+        "title": "Frame ni leqa ni bisinisi",
+        "subtitle": "Na vuna e sega ni rawa kina na parokaramu ni gacagaca veisemati me sivia na deployment ni pailate"
+      },
+      "approach": {
+        "title": "Iwalewale ni Idinia",
+        "subtitle": "Na sala eda tuvanaka kina na ivakarau ni IoT taqomaki, operable mai na firmware ni misini ki na API ni o"
+      },
+      "principles": {
+        "title": "iVakavuvuli ni Architecture",
+        "subtitle": "Na lawa ni droini ni edge-to-cloud me baleta na nuitaki, latency, kei na veiliutaki ni fleet"
+      },
+      "capabilities": {
+        "title": "iWali ni IoT",
+        "subtitle": "Sema, vakadikeva, ka vakavinakataka na nomu misini"
+      },
+      "technology": {
+        "title": "IoT Technology Stack",
+        "subtitle": "Mai na gacagaca ki na o"
+      },
+      "breakdown": {
+        "title": "Kavoro ni Veiqaravi",
+        "subtitle": "Na sala eda solia kina na gacagaca veisemati mai na gacagaca ni yasana ki na vuku ni o"
+      }
+    },
+    "problem": {
+      "overview": "IoT initiatives often prove technical feasibility in pilots but fail at scale because of unreliable connectivity, weak fleet controls, and poor integration with business workflows.",
+      "painPointsTitle": "Mosi ni Bisinisi Dau Yaco Tikoga",
+      "impactSignalsTitle": "Na Veika Era Dau Dikeva na iLiuliu",
+      "painPoints": [
+        "Na onboarding ni gacagaca kei na qaravi ni lifecycle ena ivolavakarau kei na cala rawarawa",
+        "Telemetry pipelines vakavurea na rorogo, sega ni taucoko, se berabera na itukutuku ni cakacaka",
+        "Remote command and firmware updates introduce safety and security risk"
+      ],
+      "impactSignals": [
+        "E qaqa na draki ni pailate, ia na gauna ni rollout ni cakacaka e dau lutu vakawasoma",
+        "Na timi ni cakacaka ena vanua era dau cakava na veika e yaco ka sega ni laurai rawa",
+        "Na ivakarau ni bisinisi e sega ni rawa ni reliably vakayagataka na vuku ni gacagaca ena gauna dina"
+      ]
+    },
+    "approach": {
+      "overview": "We architect IoT platforms as controlled distributed systems, cokovata na ivakatagedegede ni runtime ni yasana taqomaki, ingestion ni soqoni, kei na veiliutaki ni cakacaka ena ivakarau ni fleet.",
+      "pillars": [
+        {
+          "title": "Taqomaki ni Lifecycle ni Gacagaca",
+          "detail": "Provisioning, identity, key rotation, and firmware updates are automated to reduce operational risk."
+        },
+        {
+          "title": "Vale ni Telemetry ni Veika e Yaco",
+          "detail": "Streaming pipelines normalize, validate, and route device events for analytics and control in near real time."
+        },
+        {
+          "title": "Waqavuka ni Vakatulewa ni Cakacaka ni Fleet",
+          "detail": "Na kena vakadikevi, veivakayadrati, kei na cakacaka ni veivakaroti vakayawa e vakarautaka na veituberi nuitaki ena veisoliyaki ni iyautaukeni."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Na noda ituvatuva ni IoT e vakatautauvatataka na vakatulewa ni yasana low-latency vata kei na veiliutaki centralized, observability, kei na vakamuri ni veitaqomaki.",
+      "items": [
+        {
+          "title": "Edge Autonomy vata kei na Cloud Coordination",
+          "detail": "Critical local operations continue during network degradation while syncing state to cloud systems when available."
+        },
+        {
+          "title": "Schemas ni Soqo Konitaraki",
+          "detail": "Na timi ni gacagaca kei na vatavata era vakayagataka na ituvatuva vakatulewa me maroroi kina na duavata ni telemetry ena veimataqali mataqali mataqali"
+        },
+        {
+          "title": "Zero-Trust Device Security",
+          "detail": "Na veivakadeitaki ni duavata kei na galala lailai duadua, kei na veikauyaki vunitaki e vakaukauwataki ena veitaratara kece ni gacagaca."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT Device Management",
+      "iWali ni drua livaliva",
+      "Vakayagataki ni Edge Computing",
+      "Telemetry ena Gauna Dina",
+      "Predictive Maintenance"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Matamata ni O",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Drua livaliva",
+        "category": "Vakaraitaki",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Na bati ni yasana",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protocol",
+        "icon": "mqtt"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protocol",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "iYaya ni Cakacaka",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "iYaya ni Cakacaka",
+        "icon": "Raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "DB ni ituvatuva ni gauna",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "iTuvatuva ni Device & Edge",
+        "summary": "Eda vakamacalataka na ivakarau ni veisemati, ivakatagedegede ni runtime ni yasana, kei na vakarautaki ni veitaqomaki me baleta na gacagaca ni lomanibai.",
+        "deliverables": [
+          "Ivakarau ni onboarding kei na veisemati ni misini",
+          "Edge runtime kei na ituvatuva ni deployment",
+          "Yavu ni veitaqomaki ni waqawaqa"
+        ]
+      },
+      {
+        "title": "Telemetry & Control Plane",
+        "summary": "Eda tara cake na pipeline ka toboka na veika e yaco, ivakaraitaki ni drua livaliva, ka rawa kina na cakacaka ni vakatulewa yawa.",
+        "deliverables": [
+          "Real-time ingestion and event schema design",
+          "Vakayagataki ni drua livaliva kei na ivakaraitaki ni iyautaukeni",
+          "Command and control API layer"
+        ]
+      },
+      {
+        "title": "Cakacaka kei na iVakatagedegede",
+        "summary": "We operationalize fleet management and reliability controls for production-scale IoT environments.",
+        "deliverables": [
+          "Vakadikevi kei na veivakayadrati ni gacagaca",
+          "Predictive maintenance and anomaly detection",
+          "Rollout kei na ituvatuva ni veitokoni ni lifecycle"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Semata na nomu misini",
+      "description": "Tara cake na iwali nuitaki ni IoT sa vakarau tu me baleta na ituvaki dina ni buli.",
+      "button": "Tekivuna na Nomu Cakacaka ni IoT"
+    }
+  }
+}

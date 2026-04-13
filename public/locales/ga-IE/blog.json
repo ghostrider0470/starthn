@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Gach rud"
+  },
+  "categories": {
+    "aiEngineering": "Innealtóireacht AI",
+    "enterpriseArchitecture": "Ailtireacht Fiontraíochta",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Córais Uathoibrithe",
+    "softwareReliabilityDesign": "Iontaofacht agus Dearadh Bogearraí"
+  },
+  "readTime": "{{minutes}} nóiméad léite",
+  "tagsLabel": "Clibeanna",
+  "relatedPosts": "Poist ghaolmhara",
+  "author": {
+    "role": "Foilsitheoir"
+  },
+  "editor": {
+    "emptyPreview": "Tosaigh ag scríobh chun réamhamharc a fheiceáil..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Innealtóireacht Pras",
+    "observability": "Inbhreathnaitheacht",
+    "safety": "Sábháilteacht",
+    "domainDesign": "Dearadh Fearainn",
+    "integration": "Comhtháthú",
+    "governance": "Rialachas",
+    "platformStrategy": "Straitéis an Ardáin",
+    "platformEngineering": "Innealtóireacht Ardáin",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Taithí an Fhorbróra",
+    "eventDriven": "Imeachta-Tiomáinte",
+    "workflowOrchestration": "Ceolfhoireann Sreabhadh Oibre",
+    "controlPlanes": "Plánaí Rialaithe",
+    "resilience": "Athléimneacht",
+    "sre": "SRE",
+    "slos": "SLOanna",
+    "failureModes": "Modhanna Teipe",
+    "resilienceEngineering": "Innealtóireacht Athléimneachta",
+    "evaluation": "Meastóireacht",
+    "qualityEngineering": "Innealtóireacht Cáilíochta",
+    "datasets": "Tacair sonraí",
+    "releaseManagement": "Bainistíocht Eisiúintí",
+    "incidentManagement": "Bainistíocht Teagmhais",
+    "architectureEvolution": "Éabhlóid na hAiltireachta",
+    "riskReduction": "Laghdú Riosca",
+    "postmortems": "Postmortems",
+    "progressiveDelivery": "Seachadadh Forásach",
+    "canaryReleases": "Eisiúintí Canáracha",
+    "featureFlags": "Bratacha Gné"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "هەمووی"
+  },
+  "categories": {
+    "aiEngineering": "ئەندازیاریی AI",
+    "enterpriseArchitecture": "تەلارسازی کۆمپانیا",
+    "cloudDevOps": "Cloud &DevOps",
+    "automationSystems": "سیستەمەکانی ئۆتۆماتیکی",
+    "softwareReliabilityDesign": "متمانەپێکراوی نەرمەواڵە / دیزاین"
+  },
+  "readTime": "{{minutes}} خولەک خوێندنەوە",
+  "tagsLabel": "تاگەکان",
+  "relatedPosts": "بابەتە پەیوەندیدارەکان",
+  "author": {
+    "role": "بڵاوکەرەوە"
+  },
+  "editor": {
+    "emptyPreview": "دەست بە نووسین بکە بۆ بینینی پێشدیمەن..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "ئەندازیاری خێرا",
+    "observability": "توانای چاودێریکردن",
+    "safety": "سەلامەتی",
+    "domainDesign": "دیزاینی دۆمەین",
+    "integration": "یەکخستن",
+    "governance": "حوکمڕانی",
+    "platformStrategy": "ستراتیجی پلاتفۆرم",
+    "platformEngineering": "ئەندازیاریی پلاتفۆرم",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "ئەزموونی پەرەپێدەر",
+    "eventDriven": "بەڕێوبردنی ڕووداو",
+    "workflowOrchestration": "ڕێکخستنی ۆرکفلۆ",
+    "controlPlanes": "کۆنترۆڵی تەختەکان",
+    "resilience": "خۆڕاگری",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "مۆدەکانی سەرنەکەوتن",
+    "resilienceEngineering": "ئەندازیاریی بەرگری",
+    "evaluation": "هەڵسەنگاندن",
+    "qualityEngineering": "ئەندازیاریی چۆنیەتی",
+    "datasets": "کۆمەڵە داتاکان",
+    "releaseManagement": "بەڕێوەبردنی وەشانەکان",
+    "incidentManagement": "بەڕێوەبردنی ڕووداو",
+    "architectureEvolution": "پەرەسەندنی تەلارسازی",
+    "riskReduction": "کەمکردنەوەی مەترسی",
+    "postmortems": "پاش مردنەکان",
+    "progressiveDelivery": "گەیاندنی پێشکەوتوو",
+    "canaryReleases": "بڵاوکراوەی کەناری",
+    "featureFlags": "نیشانەی تایبەتمەندی"
+  }
+}

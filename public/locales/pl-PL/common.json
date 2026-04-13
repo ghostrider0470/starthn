@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Dom",
+    "company": "Firma",
+    "solutions": "Rozwiązania",
+    "resources": "Zasoby",
+    "innovationLab": "Laboratorium Innowacji",
+    "contact": "Kontakt",
+    "about": {
+      "title": "O nas",
+      "description": "Nasza misja, wizja i historia"
+    },
+    "team": {
+      "title": "Drużyna",
+      "description": "Poznaj ludzi stojących za Horizon Tech"
+    },
+    "careers": {
+      "title": "Kariera",
+      "description": "Dołącz do naszego zespołu i buduj przyszłość"
+    },
+    "enterpriseSoftware": {
+      "title": "Rozwój oprogramowania dla przedsiębiorstw",
+      "description": "Niestandardowe aplikacje korporacyjne z nowoczesnymi frameworkami"
+    },
+    "aiMl": {
+      "title": "AI, ML i Business Intelligence",
+      "description": "Kompletne pipeline'y AI/ML i dashboardy BI"
+    },
+    "cloudArchitecture": {
+      "title": "Architektura chmurowa i infrastruktura",
+      "description": "Rozwiązania wielochmurowe i orkiestracja kontenerów"
+    },
+    "iot": {
+      "title": "IoT i edge computing",
+      "description": "Ekosystemy urządzeń połączonych i bliźniaki cyfrowe"
+    },
+    "devops": {
+      "title": "DevOps i inżynieria platform",
+      "description": "Potoki CI/CD i infrastruktura jako kod"
+    },
+    "digitalTransformation": {
+      "title": "Transformacja cyfrowa i strategia",
+      "description": "Plany drogowe transformacji przedsiębiorstwa i zalecenia"
+    },
+    "caseStudies": {
+      "title": "Studia przypadków",
+      "description": "Historie sukcesu naszych klientów",
+      "featured": {
+        "title": "Wyróżnione studium przypadku",
+        "description": "Dogłębne zanurzenie się w pełnym zaangażowaniu dostawczym"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Wgląd, tutoriale i trendy branżowe",
+      "featured": {
+        "title": "Wyróżniony wpis na blogu",
+        "description": "Przeczytaj jedną z naszych najnowszych inżynierskich informacji"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Przegląd Innovation Lab",
+      "description": "Zobacz wszystkie obszary badawcze i ścieżki eksperymentalne"
+    },
+    "innovationLabAiSystems": {
+      "title": "Stosowane systemy AI",
+      "description": "Wzorce architektury uczenia maszynowego gotowe do produkcji"
+    },
+    "innovationLabNlp": {
+      "title": "Wielojęzyczne NLP",
+      "description": "Interaktywne możliwości przetwarzania języka naturalnego"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Symulacja algorytmów genetycznych",
+      "description": "Optymalizacja ewolucyjna w środowisku interaktywnym"
+    },
+    "navigation": "Nawigacja",
+    "skipToContent": "Przejdź do treści",
+    "toggleMenu": "Menu przełączania",
+    "dashboard": "Dashboard",
+    "myWorkspace": "Moje miejsce pracy",
+    "profile": "Profil",
+    "adminPanel": "Panel administracyjny",
+    "practiceManagement": "Zarządzanie praktyką",
+    "logOut": "Wyloguj się",
+    "education": {
+      "title": "Zasoby techniczne",
+      "description": "Poradniki, tutoriale i najlepsze praktyki od zespołu Horizon Tech"
+    },
+    "support": {
+      "title": "Centrum Wsparcia",
+      "description": "Uzyskaj pomoc w naszych usługach tworzenia oprogramowania"
+    }
+  },
+  "footer": {
+    "description": "Startup programistyczny z siedzibą w Sarajewie, Bośnia. Budujemy oprogramowanie na zamówienie, rozwiązania AI/ML, architekturę chmurową oraz systemy automatyzacji.",
+    "features": "Cechy",
+    "resources": "Zasoby",
+    "company": "Firma",
+    "legal": "Prawne",
+    "dashboard": "Dashboard",
+    "components": "Komponenty",
+    "documentation": "Dokumentacja",
+    "apiReference": "Referencja API",
+    "gettingStarted": "Zaczynamy",
+    "examples": "Przykłady",
+    "community": "Społeczność",
+    "blog": "Blog",
+    "caseStudies": "Studia przypadków",
+    "innovationLabOverview": "Przegląd Innovation Lab",
+    "appliedAiSystems": "Stosowane systemy AI",
+    "nlpDemo": "Wielojęzyczne NLP",
+    "geneticAlgorithmSimulation": "Symulacja algorytmów genetycznych",
+    "featuredBlogPost": "Wyróżniony wpis na blogu",
+    "featuredCaseStudy": "Wyróżnione studium przypadku",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "partners": "Partnerzy",
+    "careers": "Kariera",
+    "privacyPolicy": "Polityka prywatności",
+    "termsOfService": "Regulamin",
+    "cookiePolicy": "Polityka plików cookie",
+    "license": "Licencja",
+    "copyright": "© {{year}} Horizon Tech. Wszelkie prawa zastrzeżone.",
+    "subscribe": "Zapisz się do newslettera"
+  },
+  "header": {
+    "badge": "Rozwiązania technologiczne dla przedsiębiorstw",
+    "titleLine1": "Przetransformuj swój biznes dzięki",
+    "titleLine2": "Nowoczesna technologia",
+    "description": "Od tworzenia oprogramowania korporacyjnego i inteligencji biznesowej opartej na AI po infrastrukturę chmurową i rozwiązania IoT — dostarczamy kompleksowe usługi technologiczne, które napędzają innowacje i przyspieszają wzrost.",
+    "getStarted": "Zacznij",
+    "exploreSolutions": "Odkrywaj rozwiązania",
+    "trustedBy": "Zaufanie dla przedsiębiorstw myślących przyszłościowo",
+    "microsoftPartner": "Microsoft Partner",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "Rozwiązania dla przedsiębiorstw"
+  },
+  "mobileNav": {
+    "navigation": "Nawigacja mobilna",
+    "home": "Dom",
+    "solutions": "Rozwiązania",
+    "caseStudies": "Sprawy",
+    "aiSystems": "AI Lab",
+    "blog": "Blog",
+    "resources": "Zasoby",
+    "contact": "Kontakt"
+  },
+  "sideNav": {
+    "scroll": "Zwój",
+    "navigateTo": "Przejdź do {{section}}",
+    "sections": {
+      "home": "Dom",
+      "solutions": "Rozwiązania",
+      "credibility": "Wiarygodność",
+      "partners": "Partnerzy",
+      "caseStudies": "Studia przypadków",
+      "blog": "Blog",
+      "innovationLab": "Laboratorium Innowacji",
+      "faq": "FAQ"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Język przełącznika",
+    "searchPlaceholder": "Wyszukaj język...",
+    "noResults": "Nie znaleziono żadnych języków."
+  },
+  "common": {
+    "menu": "Menu",
+    "account": "Relacja"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Najnowsze studia przypadków",
+      "description": "Przegląd efektów realizacji w sektorze fintech, opieki zdrowotnej, logistyki oraz programów sektora publicznego.",
+      "cta": "Zobacz wszystkie studia przypadków"
+    },
+    "blog": {
+      "title": "Najnowsze informacje z naszego bloga",
+      "description": "Praktyczne notatki inżynierskie z ostatnich prac nad AI, platformami i chmurą.",
+      "cta": "Przeczytaj wszystkie artykuły"
+    },
+    "innovationLab": {
+      "title": "Laboratorium Innowacji",
+      "description": "Poznaj prototypy, eksperymenty oraz praktyczne projekty badawczo-rozwojowe zespołu inżynieryjnego Horizon Tech.",
+      "cta": "Odkryj Innovation Lab"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Przeczytaj studium przypadku",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Opieka zdrowotna",
+      "logistics": "Logistyka",
+      "manufacturing": "Produkcja",
+      "government": "Rząd"
+    }
+  },
+  "blogCard": {
+    "read": "Przeczytaj"
+  }
+}

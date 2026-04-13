@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "創新實驗室",
+    "description": "探索我們工程團隊的互動演示、實驗和技術展示。",
+    "primary": "探索示範",
+    "secondary": "查看研究"
+  },
+  "overview": {
+    "hero": {
+      "title": "創新實驗室",
+      "description": "我哋探索人工智能、自動化同分佈式系統嘅實際領域，然後將經過驗證嘅研究轉化為可靠嘅生產能力。",
+      "primary": "探索研究領域",
+      "secondary": "商討合作"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "研究領域",
+        "description": "每個重點領域都將探索性研究與為現實世界系統設計的實施途徑配對。",
+        "cardCta": "探焦點"
+      },
+      "detailedFocusBriefs": {
+        "title": "詳細焦點簡介",
+        "description": "近期研究計劃目前從架構驗證轉向交付計劃。"
+      },
+      "fromLabToProduction": {
+        "title": "從實驗室到生產",
+        "description": "Horizon嘅創新係用付運嘅成果來量度，而唔係孤立嘅原型。"
+      },
+      "roadmap": {
+        "title": "研發路線圖",
+        "description": "從能力建設到適應性強，不斷改進嘅系統。"
+      },
+      "publications": {
+        "title": "著作與見解",
+        "description": "持續創新工作嘅技術寫作同實施筆記。"
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "應用人工智能系統",
+        "description": "以生產為中心的人工智能架構，涵蓋模型服務、功能編排和受監管的實驗。"
+      },
+      "automationFrameworks": {
+        "title": "自動化框架",
+        "description": "用於部署安全、事件響應和可重複工程工作流程的內部自動化工具。"
+      },
+      "advancedArchitecture": {
+        "title": "先進架構實驗",
+        "description": "研究針對效能、容錯和規模進行最佳化的彈性分散式架構。"
+      },
+      "edgeAndIot": {
+        "title": "邊緣運算與物聯網智慧",
+        "description": "邊緣智能，用於低延遲決策、遙測處理和設備群協調。"
+      },
+      "nlp": {
+        "title": "自然語言處理",
+        "description": "用於分類、提取、翻譯和對話系統的多語言理解管道。"
+      },
+      "evolutionaryAlgorithms": {
+        "title": "進化算法與優化",
+        "description": "受自然選擇啟發嘅搜尋同優化系統，用嚟解決高維工程挑戰。"
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "自動化框架",
+        "description": "我們正在構建可組合的工作流程框架，用於發布編排、質量門和部署後驗證，以減少手動摩擦，同時提高可靠性。"
+      },
+      "advancedArchitecture": {
+        "title": "先進架構實驗",
+        "description": "我們的架構實驗著重於服務分解策略、跨區域彈性模式，以及在不穩定需求下運行的系統的性能包絡。"
+      },
+      "edgeAndIot": {
+        "title": "邊緣運算與物聯網智慧",
+        "description": "我們正在驗證事件流和邊緣推理設計，這些設計能夠更快地做出本地決策，同時保留集中控制、可審計性和模型生命週期治理。"
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "適應性容量規劃",
+        "description": "實驗室原型會針對模擬工作負載進行驗證，然後整合到平台自動擴展策略中。"
+      },
+      "operationalIntelligence": {
+        "title": "行動情報",
+        "description": "NLP管道從受控實驗轉移到生產支援工作流程，以加快分類速度，獲得更清晰的見解。"
+      },
+      "optimizationInDeliverySystems": {
+        "title": "優化交付系統",
+        "description": "喺實驗室測試嘅進化方法被轉化為優化引擎，用嚟調度同分配。"
+      },
+      "edgeDecisioning": {
+        "title": "邊緣決策",
+        "description": "物聯網和邊緣推理實驗被強化為具有嚴格可靠性限制的低延遲服務。"
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "而家",
+        "title": "應用人工智能基礎",
+        "description": "擴展可重複使用的模型服務模板、評估套件和跨產品團隊的可觀察性標準。"
+      },
+      "next": {
+        "phase": "接住落嚟",
+        "title": "自主工程工作流程",
+        "description": "實施自動化框架，降低部署風險並縮短運輸反饋循環。"
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18個月",
+        "title": "邊緣原生智能",
+        "description": "擴展混合雲邊緣架構，在對延遲敏感的環境中進行近乎實時的推理。"
+      },
+      "longHorizon": {
+        "phase": "遠視",
+        "title": "持續優化系統",
+        "description": "統一實驗、監控和優化，以便系統能夠安全地適應環境的變化。"
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "設計人工智能系統喺生產中保持可靠",
+        "summary": "平衡實驗速度與生產治理的實用觀點。",
+        "cta": "閱讀見解"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "高增長平台嘅分佈式架構模式",
+        "summary": "架構試驗的現場筆記著重於性能、彈性和操作簡單性。",
+        "cta": "回顧案例"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping 應用研發促進業務成果",
+        "summary": "我哋點樣組織創新計劃令發現由原型變成可衡量嘅價值",
+        "cta": "瀏覽刊物"
+      }
+    },
+    "cta": {
+      "title": "與地平線創新實驗室一起構建",
+      "description": "與我們合作，快速驗證雄心勃勃的想法，並將經過驗證的概念轉移到安全、可擴展的生產系統中。",
+      "primary": "傾偈",
+      "secondary": "查看交付成果"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "應用人工智能系統",
+      "description": "Horizon如何設計、部署和操作機器學習系統從原型到生產的實用概述。",
+      "back": "返回創新實驗室",
+      "tags": {
+        "appliedAi": "應用人工智能",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "機器學習管道",
+        "description": "生產人工智能由可重現的管道開始，這些管道將數據、實驗、驗證和反饋連接起來。"
+      },
+      "modelDeploymentPatterns": {
+        "title": "模型部署模式",
+        "description": "部署策略是根據延遲要求、業務關鍵性和營運複雜性來選擇的。"
+      },
+      "mlopsOperatingModel": {
+        "title": "MLOps營運模式",
+        "description": "MLOps實踐確保人工智能系統隨著使用量的增長而保持可靠、可治理和可擴展。"
+      },
+      "monitoringAndReliability": {
+        "title": "監控與可靠性",
+        "description": "可觀察性係模型行為同營運結果之間嘅循環。"
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "數據與特徵工程",
+        "description": "版本化數據攝取、質量檢查和可重複使用的特徵定義為模型訓練奠定了可靠的基礎。"
+      },
+      "modelDevelopment": {
+        "title": "模發",
+        "description": "實驗會用可重現嘅配置，客觀嘅量度，同埋自動比較基線來追蹤。"
+      },
+      "validationAndSafetyGates": {
+        "title": "驗證和安全門",
+        "description": "候選模型在批准發布之前會通過性能、穩健性和政策檢查。"
+      },
+      "operationalFeedbackLoops": {
+        "title": "操作反饋循環",
+        "description": "部署後遙測數據會告知重新訓練的優先次序、回滾決策和下一次迭代計劃。"
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "實時推理服務",
+        "description": "低延遲 API，適用於互動式應用程式，具有自動擴展、快取和請求級可觀察性。"
+      },
+      "batchAndStreamingPredictions": {
+        "title": "批量和流式預測",
+        "description": "計劃和事件驅動的管道，用於跨分析和運營工作流程進行大量評分。"
+      },
+      "edgeAwareDeployment": {
+        "title": "邊緣感知部署",
+        "description": "混合雲邊緣服務模式，適用於需要本地推理和集中模型治理的環境。"
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "模型 CI/CD",
+        "description": "自動化的構建、測試和發布工作流程降低了部署風險，同時保持了交付速度。"
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "模型註冊表同生命週期",
+        "description": "具有升級階段、沿襲和審批工作流程的版本化模型工件可改善控制和可追溯性。"
+      },
+      "servingInfrastructure": {
+        "title": "服務基建",
+        "description": "具有金絲雀和影子部署等推出策略的可擴展服務層支援安全的變更管理。"
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "預測質量與漂移檢測",
+      "latencyThroughputAndCostEfficiencyTracking": "延遲、吞吐量和成本效率追蹤",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "數據質量回歸警報和補救工作流程",
+      "auditabilityForComplianceAndIncidentAnalysis": "合規性和事件分析的可審計性"
+    },
+    "cta": {
+      "title": "充滿信心地擴展應用人工智能",
+      "description": "如果你正在規劃需要可衡量成果和長期可維護性的人工智能計劃，Horizon可以幫助設計和運營整個系統生命週期。",
+      "primary": "與我們的團隊交談",
+      "secondary": "探索更多實驗室工作"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "多語言NLP",
+      "description": "探索實用嘅自然語言處理能力，以及佢哋點樣擴展成可靠嘅多語言生產系統。",
+      "back": "返回創新實驗室",
+      "tags": {
+        "demo": "互動示範",
+        "intelligence": "語智"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "NLP基礎",
+        "description": "自然語言處理結合語言信號同機器學習，從文字中提取意義、意圖同結構。"
+      },
+      "workbench": {
+        "title": "互動NLP工作台",
+        "description": "使用演示來實時測試語言檢測、情感評分、實體提取和翻譯行為。"
+      },
+      "productionApplications": {
+        "title": "Horizon點樣將NLP應用喺製作上",
+        "description": "NLP功能被整合到業務工作流程中，有效能護欄和清晰的品質指標。"
+      },
+      "reliabilityAndGovernance": {
+        "title": "可靠性與治理原則",
+        "description": "生產NLP需要嘅唔單止係模型質量; 這取決於安全的推出實踐和持續的驗證。"
+      }
+    },
+    "foundations": {
+      "intro1": "現代NLP系統支援自動化、搜尋相關性、知識提取和多語言協作。 要有效實施，需要模型質量同強大嘅營運控制。",
+      "intro2": "在Horizon，我們專注於端到端的NLP系統，該系統將強大的推理與可觀察性、治理和可衡量的生產影響相結合。"
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "語言檢測",
+        "description": "從短或長文本片段中識別語言，將請求路由到正確的處理管道。"
+      },
+      "sentimentAnalysis": {
+        "title": "情緒分析",
+        "description": "提取情感意圖和極性，用於客戶情報、支援分類和產品反饋循環。"
+      },
+      "entityExtraction": {
+        "title": "實體提取",
+        "description": "從非結構化文本中檢測結構化實體，例如名稱、公司、地點和日期。"
+      },
+      "translation": {
+        "title": "翻譯",
+        "description": "支援多語言工作流程，翻譯使用者生成或操作文字，同時保留上下文。"
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "支援與票務情報",
+        "description": "根據緊急程度、意圖和情緒對傳入的請求進行分類，以加快路由和回應質量。"
+      },
+      "governedContentOperations": {
+        "title": "受規管嘅內容營運",
+        "description": "應用政策感知語言過濾器和審核檢查，具有可衡量的精確度和召回率目標。"
+      },
+      "textDrivenBusinessInsights": {
+        "title": "文字驅動嘅商業洞察",
+        "description": "從文件、審查和溝通中匯總趨勢，為戰略和運營決策提供信息。"
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "按用例評估",
+        "description": "模型係根據特定領域嘅數據集進行基準測試，然後再作出發佈決定。"
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "人機交互保障措施",
+        "description": "高影響力的預測包括審查路徑、升級規則和透明的信心信號。"
+      },
+      "continuousMonitoring": {
+        "title": "持續監控",
+        "description": "漂移、延遲和質量下降會持續跟踪，因此重新訓練和回滾是主動的。"
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "遺傳算法模擬",
+      "description": "喺互動嘅環境中探索進化計算，睇吓同樣嘅原理點樣轉化為生產優化系統。",
+      "back": "返回創新實驗室",
+      "tags": {
+        "demo": "互動示範",
+        "optimizationScience": "優化科學"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "科基",
+        "description": "遺傳算法係一種基於群體嘅優化方法，受到自然選擇同適應嘅啟發。"
+      },
+      "interactiveEnvironment": {
+        "title": "互動演化環境",
+        "description": "進行模擬測試，睇到適應度逐代提高，睇下選擇壓力點樣影響結果。"
+      },
+      "productionUse": {
+        "title": "Horizon點樣用喺製作上",
+        "description": "呢個示範所用嘅相同搜尋機制，亦會為部署喺操作系統中嘅優化管道提供資訊。"
+      },
+      "applicationDomains": {
+        "title": "更廣泛的應用領域",
+        "description": "演化優化喺有動態目標同相互衝突嘅約束嘅系統中特別有價值。"
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "遺傳算法唔係一次只搵一個解決方案，而係進化出一群唔同嘅候選者。 每一代都會根據一個適應函數進行評估，然後通過選擇、交叉和突變來提煉。",
+      "intro2": "這使得它們對於具有非線性約束的高維問題非常有效，在這些問題中，確定性方法變得脆弱或計算成本高昂。"
+    },
+    "mechanics": {
+      "selection": {
+        "title": "遴選",
+        "description": "表現優異的候選人更有可能生存下來並影響下一代。"
+      },
+      "crossover": {
+        "title": "跨界車",
+        "description": "強者被重新組合，創造出具有混合優勢的新候選解決方案。"
+      },
+      "mutation": {
+        "title": "突變",
+        "description": "受控隨機性引入了多樣性，所以搜尋不會停滯在局部最優值附近。"
+      },
+      "convergence": {
+        "title": "匯聚",
+        "description": "經過好幾代人，人們趨向穩定、優質嘅解決方案。"
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "資源調度",
+        "description": "我哋用進化嘅策略嚟優化多重約束嘅調度，而暴力搜索係唔可行嘅。"
+      },
+      "architectureTuning": {
+        "title": "架構調校",
+        "description": "候選基礎架構配置會反覆評估，以提高效能和成本效益。"
+      },
+      "continuousOptimization": {
+        "title": "不斷優化",
+        "description": "優化工作以遙測反饋的受控循環運行，因此系統可以隨著需求曲線的變化而適應。"
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "路線與物流規劃",
+        "description": "複雜嘅送貨同派遣計劃可以喺限制快速變化嘅時候受益於進化式搜尋。"
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "模型與超參數搜尋",
+        "description": "基因搜索可以喺物觀表面嘈雜同非線性嘅時候發現高質量嘅模型配置。"
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "投資組合和分配問題",
+        "description": "喺相互競爭嘅目標下優化，可以歸結為喺不斷演變嘅候選者組合之間嘅適應度取捨。"
+      }
+    }
+  }
+}

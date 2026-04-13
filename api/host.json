@@ -1,0 +1,19 @@
+{
+    "version": "2.0",
+    "logging": {
+        "logLevel": {
+            "default": "Information"
+        }
+    },
+    "extensions": {
+        "http": {
+            "maxConcurrentRequests": 100,
+            "maxOutstandingRequests": 200
+        }
+    },
+    "concurrency": {
+        "dynamicConcurrencyEnabled": true,
+        "snapshotPersistenceEnabled": true
+    },
+    "functionTimeout": "00:05:00"
+}

@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "ທັງຫມົດ"
+  },
+  "categories": {
+    "aiEngineering": "ວິສະວະກອນ AI",
+    "enterpriseArchitecture": "ສະຖາປະນິກທຸລະກິດ",
+    "cloudDevOps": "ເມກ ແລະ DevOps",
+    "automationSystems": "ລະບົບອັດຕະໂນມັດ",
+    "softwareReliabilityDesign": "ຄວາມເຊື່ອຖື ແລະ ການອອກແບບຂອງໂປຣແກຣມ"
+  },
+  "readTime": "{{minutes}} ນາທີ ອ່ານ",
+  "tagsLabel": "ແທັກ",
+  "relatedPosts": "ບົດ ຄວາມ ທີ່ ກ່ຽວ ຂ້ອງ",
+  "author": {
+    "role": "ຜູ້ຈັດພິມ"
+  },
+  "editor": {
+    "emptyPreview": "ເລີ່ມຂຽນເພື່ອເບິ່ງພາບລ່ວງຫນ້າ..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "ວິສະວະກອນກະຕຸ້ນ",
+    "observability": "ການ ສັງ ເກດ ເຫັນ ໄດ້",
+    "safety": "ຄວາມ ປອດ ໄພ",
+    "domainDesign": "ການອອກແບບ Domain",
+    "integration": "ການລວມເຂົ້າກັນ",
+    "governance": "ການ ປົກຄອງ",
+    "platformStrategy": "ຍຸດທະສາດຂອງລະບົບ",
+    "platformEngineering": "ວິສະວະກອນພື້ນຖານ",
+    "ciCd": "CI / CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "ປະສົບການຂອງຜູ້ພັດທະນາ",
+    "eventDriven": "ເຫດການທີ່ກະຕຸ້ນ",
+    "workflowOrchestration": "ການປະສານງານຂອງຂະບວນການ",
+    "controlPlanes": "ຍົນ ຄວບ ຄຸມ",
+    "resilience": "ຄວາມ ອົດທົນ",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "Failure Modes",
+    "resilienceEngineering": "ວິສະວະກອນຄວາມອົດທົນ",
+    "evaluation": "ການ ປະ ເມີນ",
+    "qualityEngineering": "ວິສະວະກອນຄຸນນະພາບ",
+    "datasets": "ຂໍ້ມູນ",
+    "releaseManagement": "ການຈັດການປ່ອຍຕົວ",
+    "incidentManagement": "ການຈັດການກັບອຸບັດຕິເຫດ",
+    "architectureEvolution": "ວິວັດທະນາການສະຖາປະນິກ",
+    "riskReduction": "ການຫລຸດຜ່ອນຄວາມສ່ຽງ",
+    "postmortems": "ຫລັງ ຈາກ ການ ຕາຍ",
+    "progressiveDelivery": "ການຂົນສົ່ງທີ່ກ້າວຫນ້າ",
+    "canaryReleases": "ການປົດປ່ອຍ Canary",
+    "featureFlags": "ທຸງລັກສະນະເດັ່ນ"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Hafan",
+    "company": "Cwmni",
+    "solutions": "Atebion",
+    "resources": "Adnoddau",
+    "innovationLab": "Labordy Arloesi",
+    "contact": "Cyswllt",
+    "about": {
+      "title": "Ynglŷn â",
+      "description": "Ein cenhadaeth, ein gweledigaeth a'n stori"
+    },
+    "team": {
+      "title": "Tîm",
+      "description": "Cwrdd â'r bobl y tu ôl i Horizon Tech"
+    },
+    "careers": {
+      "title": "Gyrfaoedd",
+      "description": "Ymunwch â'n tîm ac adeiladu'r dyfodol"
+    },
+    "enterpriseSoftware": {
+      "title": "Datblygu Meddalwedd Menter",
+      "description": "Cymwysiadau menter wedi'u haddasu gyda fframweithiau modern"
+    },
+    "aiMl": {
+      "title": "AI, ML a Deallusrwydd Busnes",
+      "description": "Cwblhau piblinellau AI / ML a dangosfyrddau BI"
+    },
+    "cloudArchitecture": {
+      "title": "Pensaernïaeth a Seilwaith Cwmwl",
+      "description": "Datrysiadau aml-gwmwl a cherddorfa cynhwysydd"
+    },
+    "iot": {
+      "title": "IoT a Chyfrifiadura Edge",
+      "description": "Ecosystemau dyfeisiau cysylltiedig ac efeilliaid digidol"
+    },
+    "devops": {
+      "title": "DevOps a Pheirianneg Llwyfan",
+      "description": "Piblinellau a seilwaith CI / CD fel cod"
+    },
+    "digitalTransformation": {
+      "title": "Trawsnewid a Strategaeth Ddigidol",
+      "description": "Mapiau ffordd trawsnewid menter a chyngor"
+    },
+    "caseStudies": {
+      "title": "Astudiaethau Achos",
+      "description": "Straeon llwyddiant gan ein cleientiaid",
+      "featured": {
+        "title": "Astudiaeth Achos dan Sylw",
+        "description": "Plymio'n ddwfn i ymgysylltiad cyflawni llawn"
+      }
+    },
+    "blog": {
+      "title": "Newyddion",
+      "description": "Mewnwelediadau, tiwtorialau, a thueddiadau'r diwydiant",
+      "featured": {
+        "title": "Swydd Blog dan Sylw",
+        "description": "Darllenwch un o'n mewnwelediadau peirianneg diweddaraf"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Trosolwg o'r Lab Arloesi",
+      "description": "Gweld yr holl feysydd ymchwil a thraciau arbrofol"
+    },
+    "innovationLabAiSystems": {
+      "title": "Systemau AI Cymhwysol",
+      "description": "Patrymau pensaernïaeth dysgu peiriant sy'n barod i gynhyrchu"
+    },
+    "innovationLabNlp": {
+      "title": "NLP Aml-Iaith",
+      "description": "Galluoedd prosesu iaith naturiol rhyngweithiol"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Efelychu Algorithm Genetig",
+      "description": "Optimeiddio esblygiadol mewn amgylchedd rhyngweithiol"
+    },
+    "navigation": "Llywio",
+    "skipToContent": "Skip i'r cynnwys",
+    "toggleMenu": "Toglu dewislen",
+    "dashboard": "Dangosfwrdd",
+    "myWorkspace": "Fy Ngweithfan",
+    "profile": "Proffil",
+    "adminPanel": "Panel Gweinyddol",
+    "practiceManagement": "Rheoli Practis",
+    "logOut": "Allgofnodi",
+    "education": {
+      "title": "Adnoddau Technegol",
+      "description": "Canllawiau, tiwtorialau ac arferion gorau gan dîm Horizon Tech"
+    },
+    "support": {
+      "title": "Canolfan Gymorth",
+      "description": "Mynnwch help gyda'n gwasanaethau datblygu meddalwedd"
+    }
+  },
+  "footer": {
+    "description": "Startup datblygu meddalwedd wedi'i leoli yn Sarajevo, Bosnia. Rydym yn adeiladu meddalwedd arferol, datrysiadau AI / ML, pensaernïaeth cwmwl, a systemau awtomeiddio.",
+    "features": "Nodweddion",
+    "resources": "Adnoddau",
+    "company": "Cwmni",
+    "legal": "Cyfreithiol",
+    "dashboard": "Dangosfwrdd",
+    "components": "Cydrannau",
+    "documentation": "Dogfennaeth",
+    "apiReference": "Cyfeirnod API",
+    "gettingStarted": "Dechrau arni",
+    "examples": "Enghreifftiau",
+    "community": "Cymuned",
+    "blog": "Newyddion",
+    "caseStudies": "Astudiaethau Achos",
+    "innovationLabOverview": "Trosolwg o'r Lab Arloesi",
+    "appliedAiSystems": "Systemau AI Cymhwysol",
+    "nlpDemo": "NLP Aml-Iaith",
+    "geneticAlgorithmSimulation": "Efelychu Algorithm Genetig",
+    "featuredBlogPost": "Swydd Blog dan Sylw",
+    "featuredCaseStudy": "Astudiaeth Achos dan Sylw",
+    "about": "Ynglŷn â",
+    "contact": "Cyswllt",
+    "partners": "Partneriaid",
+    "careers": "Gyrfaoedd",
+    "privacyPolicy": "Polisi Preifatrwydd",
+    "termsOfService": "Telerau Gwasanaeth",
+    "cookiePolicy": "Polisi Cwcis",
+    "license": "Trwydded",
+    "copyright": "© {{year}} Horizon Tech. Cedwir pob hawl.",
+    "subscribe": "Tanysgrifiwch i'r cylchlythyr"
+  },
+  "header": {
+    "badge": "Datrysiadau Technoleg Menter",
+    "titleLine1": "Trawsnewid Eich Busnes gyda",
+    "titleLine2": "Technoleg Arloesol",
+    "description": "O ddatblygu meddalwedd menter a deallusrwydd busnes wedi'i bweru gan AI i seilwaith cwmwl ac atebion IoT - rydym yn darparu gwasanaethau technoleg cynhwysfawr sy'n gyrru arloesedd ac yn cyflymu twf.",
+    "getStarted": "Dechrau arni",
+    "exploreSolutions": "Archwilio Atebion",
+    "trustedBy": "Ymddiried ynddo gan fentrau blaengar",
+    "microsoftPartner": "Microsoft Partner",
+    "azureCertified": "Ardystiedig Azure",
+    "enterpriseSolutions": "Datrysiadau Menter"
+  },
+  "mobileNav": {
+    "navigation": "Llywio symudol",
+    "home": "Hafan",
+    "solutions": "Atebion",
+    "caseStudies": "Achosion",
+    "aiSystems": "Labordy AI",
+    "blog": "Newyddion",
+    "resources": "Adnoddau",
+    "contact": "Cyswllt"
+  },
+  "sideNav": {
+    "scroll": "Sgrolio",
+    "navigateTo": "Llywio i {{section}}",
+    "sections": {
+      "home": "Hafan",
+      "solutions": "Atebion",
+      "credibility": "Hygrededd",
+      "partners": "Partneriaid",
+      "caseStudies": "Astudiaethau Achos",
+      "blog": "Newyddion",
+      "innovationLab": "Labordy Arloesi",
+      "faq": "CAOYA"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Newid iaith",
+    "searchPlaceholder": "Iaith chwilio...",
+    "noResults": "Ni chanfuwyd unrhyw ieithoedd."
+  },
+  "common": {
+    "menu": "Dewislen",
+    "account": "Cyfrif"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Astudiaethau Achos Diweddar",
+      "description": "Cipolwg ar ganlyniadau cyflawni ar draws fintech, gofal iechyd, logisteg, a rhaglenni sector cyhoeddus.",
+      "cta": "Gweld yr holl Astudiaethau Achos"
+    },
+    "blog": {
+      "title": "Y diweddaraf o'n blog",
+      "description": "Nodiadau peirianneg ymarferol o waith cyflenwi AI, platfform a cwmwl diweddar.",
+      "cta": "Darllenwch yr holl erthyglau"
+    },
+    "innovationLab": {
+      "title": "Labordy Arloesi",
+      "description": "Archwiliwch brototeipiau, arbrofion a phrosiectau ymchwil a datblygu cymhwysol gan dîm peirianneg Horizon Tech.",
+      "cta": "Archwilio'r Lab Arloesi"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Darllenwch Astudiaeth Achos",
+    "industries": {
+      "fintech": "Technoleg Ariannol",
+      "healthcare": "Gofal Iechyd",
+      "logistics": "Logisteg",
+      "manufacturing": "Gweithgynhyrchu",
+      "government": "Llywodraethu"
+    }
+  },
+  "blogCard": {
+    "read": "Darllen"
+  }
+}

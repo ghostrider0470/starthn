@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "అన్నీ"
+  },
+  "categories": {
+    "aiEngineering": "AI ఇంజనీరింగ్",
+    "enterpriseArchitecture": "ఎంటర్ ప్రైజ్ ఆర్కిటెక్చర్",
+    "cloudDevOps": "క్లౌడ్ & DevOps",
+    "automationSystems": "ఆటోమేషన్ సిస్టమ్స్",
+    "softwareReliabilityDesign": "సాఫ్ట్వేర్ విశ్వసనీయత & రూపకల్పన"
+  },
+  "readTime": "{{minutes}} నిమిషం చదవండి",
+  "tagsLabel": "ట్యాగులు",
+  "relatedPosts": "సంబంధిత పోస్టులు",
+  "author": {
+    "role": "ప్రచురణకర్త"
+  },
+  "editor": {
+    "emptyPreview": "ప్రివ్యూ చూడటం కొరకు రాయడం ప్రారంభించండి..."
+  },
+  "tags": {
+    "llmOps": "LLM ఆప్స్",
+    "promptEngineering": "ప్రాంప్ట్ ఇంజనీరింగ్",
+    "observability": "పరిశీలన[మార్చు]",
+    "safety": "భద్రత",
+    "domainDesign": "డొమైన్ డిజైన్",
+    "integration": "ఇంటిగ్రేషన్",
+    "governance": "పాలన",
+    "platformStrategy": "ప్లాట్ ఫాం వ్యూహం",
+    "platformEngineering": "ప్లాట్ ఫాం ఇంజనీరింగ్",
+    "ciCd": "CI/CD",
+    "kubernetes": "కుబెర్నెట్స్",
+    "developerExperience": "డెవలపర్ అనుభవం",
+    "eventDriven": "ఈవెంట్-డ్రైవ్",
+    "workflowOrchestration": "వర్క్ ఫ్లో ఆర్కెస్ట్రేషన్",
+    "controlPlanes": "నియంత్రణ విమానాలు",
+    "resilience": "స్థితిస్థాపకత",
+    "sre": "SRE",
+    "slos": "SLOలు",
+    "failureModes": "వైఫల్య మోడ్ లు",
+    "resilienceEngineering": "రెసిలెన్స్ ఇంజనీరింగ్",
+    "evaluation": "మూల్యాంకనం",
+    "qualityEngineering": "క్వాలిటీ ఇంజనీరింగ్",
+    "datasets": "డేటాసెట్లు",
+    "releaseManagement": "విడుదల నిర్వహణ",
+    "incidentManagement": "సంఘటన నిర్వహణ",
+    "architectureEvolution": "వాస్తుశిల్పం పరిణామం[మార్చు]",
+    "riskReduction": "రిస్క్ తగ్గింపు",
+    "postmortems": "పోస్టుమార్టం",
+    "progressiveDelivery": "ప్రగతిశీల డెలివరీ",
+    "canaryReleases": "కానరీ విడుదలలు",
+    "featureFlags": "ఫీచర్ జెండాలు"
+  }
+}

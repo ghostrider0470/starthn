@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Duk"
+  },
+  "categories": {
+    "aiEngineering": "Injiniyan AI",
+    "enterpriseArchitecture": "Gine-ginen Kasuwanci",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Tsarin sarrafa kansa",
+    "softwareReliabilityDesign": "Software Reliability & Design"
+  },
+  "readTime": "{{minutes}} min karanta",
+  "tagsLabel": "Tags",
+  "relatedPosts": "Related Posts",
+  "author": {
+    "role": "Mai wallafa"
+  },
+  "editor": {
+    "emptyPreview": "Fara rubutu don ganin wani abu mai ban sha'awa ..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Injiniya mai sauri",
+    "observability": "Observability",
+    "safety": "Tsaro",
+    "domainDesign": "Tsarin Yankin",
+    "integration": "Haɗin kai",
+    "governance": "Mulki",
+    "platformStrategy": "Platform Strategy",
+    "platformEngineering": "Injiniyan Platform",
+    "ciCd": "CI / CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Kwarewar mai haɓakawa",
+    "eventDriven": "Abubuwan da suka faru",
+    "workflowOrchestration": "Workflow Orchestration",
+    "controlPlanes": "Jiragen sama na sarrafawa",
+    "resilience": "Juriya",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "Yanayin gazawa",
+    "resilienceEngineering": "Injiniyan Resilience",
+    "evaluation": "Kimantawa",
+    "qualityEngineering": "Injiniya mai inganci",
+    "datasets": "Bayanan bayanai",
+    "releaseManagement": "Gudanar da sakin",
+    "incidentManagement": "Gudanar da abubuwan da suka faru",
+    "architectureEvolution": "Juyin halitta na gine-gine",
+    "riskReduction": "Rage haɗari",
+    "postmortems": "Postmortems",
+    "progressiveDelivery": "Ci gaba da bayarwa",
+    "canaryReleases": "Canary Releases",
+    "featureFlags": "Siffofin Flags"
+  }
+}

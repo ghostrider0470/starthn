@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Mō tāua",
+    "hero": {
+      "titlePrefix": "Te Hanga i te Hangarau o Āpōpō,",
+      "titleHighlight": "Āianei",
+      "description": "Ko Horizon Tech d.o.o. tētahi kamupene hangarau ā-ao e noho ana i Sarajevo, e tuku ana i ngā rongoā pūmanawa tapa-tapa ki ngā hinonga puta noa i ngā whenua e toru."
+    },
+    "sections": {
+      "mission": {
+        "title": "Te Mahi",
+        "description": "Ka āwhina mātou i ngā whakahaere ki te huri i ngā whakaaro nui hei hua matihiko pono e waihanga ana i te uara pakihi ine.",
+        "points": [
+          "Whakaritea te tukunga hangarau ki ngā putanga pakihi mārama.",
+          "Hangaia ngā pūnaha mo te wā roa ka taea tonu te pupuri i te tauine o ngā tīma.",
+          "Partner closely with stakeholders from strategy through execution."
+        ]
+      },
+      "expertise": {
+        "title": "tohungatanga",
+        "description": "Ka whakakotahitia e ā mātou tīma maha te hōhonutanga pūkaha me te whakaaro hua puta noa i ngā tāpae hangarau hou.",
+        "points": [
+          "Pūkaha tukutuku me te pūhara kōeke hinonga.",
+          "Hoahoa kapua, aunoatanga DevOps, me te hanganga pakari.",
+          "Hoatu AI/ML, ngā rerengamahi raraunga, me ngā hua whakahohe IoT."
+        ]
+      },
+      "approach": {
+        "title": "whakatata",
+        "description": "Ka kawea e mātou me tētahi tauira pūataata, auau e pupuri ana i te tukunga me te whakaiti i te mōrea hua.",
+        "points": [
+          "Kitea: tautuhi wawe i te whānuitanga, ngā manakē, me ngā ine angitu.",
+          "Hanga: kaipuke i ngā āpitihanga arotahi me ngā koromeke urupare motukore.",
+          "Arotautia: aroturuki i ngā putanga me te whakapai ake i te mahinga i roto i te wā."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Kua rite koe ki te panoni i tō pakihi?",
+      "description": "Hono atu ki te rārangi tipu o ngā kamupene e whakawhirinaki ana ki a Horizon Tech ki te tuku rongoā auaha me ngā hua tino pai.",
+      "primary": "Tīmata",
+      "secondary": "Tirohia ngā Pūrākau Angitu"
+    }
+  },
+  "contact": {
+    "badge": "Whakapā mai",
+    "hero": {
+      "title": "Whakapā mai ki a Mātou",
+      "description": "He kaupapa kei roto i te hinengaro? E hiahia ana mātou ki te whakarongo mai i a koe. Toro atu ki te matapaki me pēhea mātou e āwhina ai ki te whakaora i ō whakaaro."
+    },
+    "info": {
+      "title": "Mōhiohio Whakapā"
+    },
+    "booking": {
+      "title": "Tāpuia he Hui",
+      "description": "Whakaritea he waea hura 30 meneti koreutu"
+    },
+    "methods": {
+      "email": {
+        "title": "Īmēra",
+        "description": "Tukuna mai he īmēra ki a mātou i ngā wā katoa",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Tauwāhi",
+        "description": "E ai ki",
+        "value": "Sarajevo, Pōngia me Herekowina"
+      },
+      "response": {
+        "title": "Wā Urupare",
+        "description": "I te nuinga o te wā ka urupare mātou i roto i",
+        "value": "24-48 hāora"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Kaupapa Hōu"
+      },
+      "support": {
+        "label": "Tautoko Hangarau"
+      },
+      "partnerships": {
+        "label": "Ngā Mahi Ngātahi"
+      },
+      "careers": {
+        "label": "Ngā Mahi"
+      },
+      "general": {
+        "label": "Uiui Ahuwhānui"
+      }
+    },
+    "form": {
+      "title": "Tukua he karere ki a mātou",
+      "success": "Tēnā koe mō tō karere. Ka hoki atu mātou ki a koe i roto i te 24-48 haora.",
+      "error": "Something went wrong. Ngana anō, īmēra hāngai mai rānei.",
+      "fullName": "Ingoa Katoa*",
+      "email": "Wāhitau īmēra*",
+      "company": "Kamupene",
+      "subject": "Marau:*",
+      "message": "Karere *",
+      "placeholders": {
+        "name": "Ko tō ingoa",
+        "email": "you@example.com",
+        "company": "Tō kamupene",
+        "subject": "He aha tā mātou e āwhina ai?",
+        "message": "Kōrero mai mō tō kaupapa, uiui rānei..."
+      },
+      "validation": {
+        "required": {
+          "name": "E hiahiatia ana te ingoa katoa.",
+          "email": "E hiahiatia ana te wāhitau īmēra.",
+          "subject": "Kōwhiria koa he kaupapa.",
+          "message": "E hiahiatia ana he karere."
+        },
+        "email": "Tāuru koa i tētahi wāhitau īmēra tika.",
+        "messageMinLength": "Kia {{count}} neke atu rānei ngā pūāhua te roa o te karere."
+      },
+      "sending": "Tukua ana...",
+      "submit": "Tuku karere"
+    },
+    "reasonsTitle": "He aha te take e mahi tahi ai me mātou?",
+    "reasons": [
+      "Tohungatanga whanaketanga pūmanawa tāpae katoa",
+      "AI/ML me ngā tohunga hoahoa kapua",
+      "Whanaketanga agile me te whakawhitiwhitinga pūataata",
+      "Tautoko me te tautiakitanga mo te wā roa"
+    ],
+    "custom": {
+      "title": "Ngā Rongoā Ritenga",
+      "description": "Kei te kimi rongoā kua whakaritea? Ka mahi ngātahi mātou me ngā kiritaki kia mārama ki ngā hiahia ahurei me te tuku pūmanawa ritenga e whakahaere ana i ngā hua ine.",
+      "cta": "Matapakihia tō kaupapa"
+    },
+    "faq": {
+      "title": "He pātai anō?",
+      "description": "Tirohia tā mātou wāhanga FAQ mō ngā whakautu tere",
+      "cta": "Tirotiro i ngā FAQ"
+    }
+  },
+  "team": {
+    "badge": "Tō mātou Tīma",
+    "hero": {
+      "titlePrefix": "Tūtaki ki ngā Hinengaro i Muri",
+      "titleHighlight": "Hangarau Horizon",
+      "description": "He rōpū hangarau rerekē, kaihoahoa, me ngā kaitohutohu e hanga tahi ana i ngā hua matihiko pānga nui."
+    },
+    "section": {
+      "title": "Te Tīma Kaiārahi",
+      "description": "Ko ngā kaiārahi pūkenga e ārahi ana i te kitenga me te tipu o Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Kaiwhakarewa, Tumuaki Whakahaere & CTO",
+        "bio": "He kaiārahi matakite me te kaihoahoa hangarau me te 10+ tau i roto i ngā pūmanawa hinonga, e tohunga ana ki te AI/ML, ngā pūhara kapua, me te hoahoa hua tauine.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Hoahoa Rongoā",
+          "Pūkaha Kapua"
+        ]
+      },
+      "ahmet": {
+        "role": "Kaihoahoa Haumarutanga Matua",
+        "bio": "I arotahi te tohunga haumarutanga ki te hoahoa haumarutanga hinonga, te hanganga haumaru i runga i te rohe, me te tukunga tuatahi mō ngā taiao kua whakaritea.",
+        "expertise": [
+          "Haumarutanga ā-ipurangi",
+          "Ngā Pūnaha Ā-Rohe",
+          "Hoahoa Haumarutanga",
+          "Te Whakatikatika",
+          "Haumarutanga Hanganga"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Īmēra {{name}}",
+      "linkedin": "{{name}} kōtaha LinkedIn"
+    },
+    "culture": {
+      "title": "Te Ora i Horizon Tech",
+      "description": "We foster a culture of innovation, collaboration, and continuous learning",
+      "remoteFirst": {
+        "title": "Ahurea Mamao-Tuatahi",
+        "description": "Mahi mai i hea me ngā haora ngāwari me te arotahi ki ngā hua, kaua ki te tauwāhi."
+      },
+      "collaborative": {
+        "title": "Taiao Ngātahi",
+        "description": "Ngā takahanga tīma auau, ngā wātū tiritiri mātauranga, me te ngātahitanga whakawhiti-taumahinga."
+      },
+      "workLife": {
+        "title": "Whārite Mahi-Ora",
+        "description": "Te kaupapa hararei ohaoha, te tautoko hauora hinengaro, me te whakaute i te wā whaiaro."
+      },
+      "innovation": {
+        "title": "Wā Hou",
+        "description": "20% wā mō ngā kaupapa whaiaro, hackathons, me te tūhura i ngā hangarau hou."
+      },
+      "stats": {
+        "teamMembers": "Ngā Mema o te Tīma",
+        "countries": "Ngā Whenua",
+        "techStacks": "Ngā Tāpae Hangarau",
+        "remoteReady": "Kua Reri Mamao"
+      }
+    },
+    "cta": {
+      "title": "E hiahia ana koe ki te hono ki tā mātou tīma?",
+      "description": "Kei te kimi tonu mātou i ngā tāngata whai pūkenga e māharahara ana ki te mahi mahi, te rangatiratanga, me te mahi hou.",
+      "button": "Whakapā mai"
+    }
+  },
+  "careers": {
+    "badge": "Hono ki tā mātou tīma",
+    "hero": {
+      "titlePrefix": "Hangaia te Wā Heke Mai",
+      "titleHighlight": "Ki a Mātou",
+      "description": "Hono atu ki tētahi tīma kaipūkaha e hanga ana i ngā pūmanawa tapa-tapa mō ngā kiritaki huri noa. Mahi mamao, tipu tonu, me te whai pānga tūturu.",
+      "button": "Tirohia ngā Tūnga"
+    },
+    "process": {
+      "title": "Tā mātou Tukanga Tono",
+      "description": "Pūataata, māia, me te whakaute i tō wā",
+      "steps": [
+        {
+          "title": "Hoatu",
+          "description": "Tukuna tō tono, ā, ka arotakea e mātou i roto i ngā rā mahi e 3."
+        },
+        {
+          "title": "Kōrerorero Tuatahi",
+          "description": "He waea ataata 30 meneti hei kōrerorero i ō wheako me ō tūmanako."
+        },
+        {
+          "title": "Hangarau",
+          "description": "Uiuinga hangarau, mahi ā-ringa rānei hei whakaatu i ō pūkenga."
+        },
+        {
+          "title": "Tukunga",
+          "description": "Tūtaki ki te tīma me te whiwhi i tō tono kia uru ki Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Ngā Tūnga Whakatuwhera",
+      "description": "Find your next opportunity and join our growing team",
+      "unavailable": "Kāore i te whakaae ki ngā taupānga i tēnei wā",
+      "apply": "Hoatu Ināianei",
+      "noMatch": "Kāore koe e kite i te tūranga tino tika?",
+      "sendCv": "Tukuna mai tō CV ki a mātou",
+      "listings": [
+        {
+          "title": "Kaipūkaha Tāpae-Katoa Matua",
+          "department": "Mātai pūhanga",
+          "location": "Mamao (Rohe Wā EU)",
+          "type": "Wā Katoa",
+          "description": "Hangaia ngā taupānga hinonga tauine mā te whakamahi i ngā hangarau React, Node.js, me ngā hangarau kapua.",
+          "tags": [
+            "Tauhohenga",
+            "Node.js",
+            "HōtuhiPatopato",
+            "AWS"
+          ]
+        },
+        {
+          "title": "Kaipūkaha DevOps",
+          "department": "Mātai pūhanga",
+          "location": "Sarajevo / Mamao",
+          "type": "Wā Katoa",
+          "description": "Hoahoa me te pupuri i ngā paipa CI/CD, hanganga hei waehere, me ngā pūnaha aroturuki.",
+          "tags": [
+            "Kubernetes",
+            "Pūtāmau",
+            "puka whenua",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "Kaipūkaha AI/ML",
+          "department": "Taiwhanga Whakahaere Hou",
+          "location": "Mamao",
+          "type": "Wā Katoa",
+          "description": "Whakawhanake i ngā tauira ako mīhini me ngā rongoā AI mō ngā kiritaki hinonga.",
+          "tags": [
+            "Python",
+            "RerengaTensorTensor",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Kaihoahoa Hua",
+          "department": "Hoahoa",
+          "location": "Mamao",
+          "type": "Wā Katoa",
+          "description": "Waihangatia ngā wheako kaiwhakamahi ātaahua, mōhio hoki mō ngā taupānga hinonga matatini.",
+          "tags": [
+            "Figma",
+            "Rangahau Kaiwhakamahi",
+            "UI/UX",
+            "Ngā Pūnaha Hoahoa"
+          ]
+        },
+        {
+          "title": "Kaihoahoa Rongoā",
+          "department": "Mātai pūhanga",
+          "location": "Mamao",
+          "type": "Wā Katoa",
+          "description": "Hoahoa i ngā rongoā hangarau mutunga-ki-te-mutunga me te ārahi i ngā kiritaki mā te panoni mamati.",
+          "tags": [
+            "Hoahoa Kapua",
+            "Hoahoa Pūnaha",
+            "Te Tohutohu"
+          ]
+        },
+        {
+          "title": "Kaituhi Hangarau",
+          "department": "Ngā Mahi",
+          "location": "Mamao",
+          "type": "Wā-Wā",
+          "description": "Waihangatia ngā tuhinga whānui, ngā akoranga, me ngā ihirangi hangarau.",
+          "tags": [
+            "Tuhinga",
+            "Ngā Tuhinga API",
+            "tuhituhi hangarau"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "He pātai mō te mahi i konei?",
+      "description": "E hiahia ana mātou ki te whakarongo mai i a koe. Toro atu, ā, mā mātou e whakautu ētahi pātai mō te oranga i Horizon Tech.",
+      "button": "Whakapā mai ki a Mātou"
+    }
+  },
+  "caseStudies": {
+    "badge": "Ngā Pūrākau Angitu",
+    "hero": {
+      "titlePrefix": "Te tuku i ngā hua e",
+      "titleHighlight": "matū",
+      "description": "Tūhura he pēhea tā mātou āwhina i ngā kamupene puta noa i ngā umanga ki te panoni i ngā mahi mā te hangarau ā-ringa, pānga tiketike.",
+      "tags": {
+        "delivery": "Tukunga Pūkaha",
+        "outcomes": "Ngā Putanga Inenga"
+      }
+    },
+    "stats": {
+      "projects": "Ngā Kaupapa i Tukua",
+      "clients": "Ngā kiritaki harikoa",
+      "efficiency": "Whiwhinga tōtika toharite",
+      "retention": "Pupuritanga Kiritaki"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Te Kaporeihana FinTech Huri noa",
+        "industry": "Ngā Ratonga Pūtea",
+        "title": "Hekenga Kapua me te Whakahoutanga",
+        "description": "I whakahekea ngā pūnaha pēke tawhito ki te hanganga kapua AWS me te kore wā heke.",
+        "challenge": "Ko te hoahoa monolithic tuku iho e puta ai ngā take tauine",
+        "result": "I tutuki pai te heke ki ngā ratonga moroiti i AWS",
+        "metrics": [
+          {
+            "label": "Whakaiti Utu",
+            "value": "40%"
+          },
+          {
+            "label": "Whiwhinga Mahinga",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Ngā Ratongaiti",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "Ngā Rongoā HealthTech",
+        "industry": "Hauora",
+        "title": "Pūhara Tātaritanga Hiko-AI",
+        "description": "I hangaia ngā tauira ML mō te tātari atahanga rongoā me te tika 95%+.",
+        "challenge": "He roa rawa ngā tukanga tātaritanga ā-ringa",
+        "result": "Ngā tātaritanga aunoa me AI/ML",
+        "metrics": [
+          {
+            "label": "Wā i Tiakina",
+            "value": "70%"
+          },
+          {
+            "label": "Tika",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "RerengaTensorTensor",
+          "Tauhohenga",
+          "Hauora"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Matua E-Tauhokohoko",
+        "industry": "Hokohoko",
+        "title": "Paemana Tātaritanga Wā-Tūturu",
+        "description": "I hangaia te pūhara BI e tukatuka ana i ngā takahanga 10M+ ia rā.",
+        "challenge": "Kāore he kitenga wā tūturu ki ngā ine pakihi matua",
+        "result": "Pūhara tātaritanga me ngā kitenga wā-tūturu",
+        "metrics": [
+          {
+            "label": "Ngā Takahanga/Rā",
+            "value": "10M+"
+          },
+          {
+            "label": "Wā Urupare",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "UiuiNui",
+          "Kafka",
+          "Tauhohenga",
+          "Pūkaha Raraunga"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kua rite koe ki te tuhi i tō pūrākau angitu?",
+      "description": "Me matapaki tātou me pēhea mātou e āwhina ai i a koe ki te whakatutuki i ngā putanga ōrite me te tauine i runga i te maia."
+    },
+    "filters": {
+      "title": "Tātari Ahumahi",
+      "all": "Ngā Ahumahi Katoa",
+      "empty": "Kāore he akoranga take e ōrite ana ki te tātari umanga kua tīpakohia."
+    }
+  },
+  "blog": {
+    "badge": "Rangitaki",
+    "hero": {
+      "titlePrefix": "Ngā Kitenga me ngā Whakaaro mai i",
+      "titleHighlight": "Hangarau Horizon",
+      "description": "Ngā akoranga hangarau, ngā mōhiotanga ahumahi, me ngā akoranga ā-ringa mai i ngā mahi tuku tūturu."
+    },
+    "categories": [
+      "Ngā Whakairinga Katoa",
+      "Hoahoa Kapua",
+      "DevOps",
+      "AI/ML",
+      "Muamua",
+      "Mutungamuri",
+      "Raraunga"
+    ],
+    "featuredPost": {
+      "id": "whakaaturanga",
+      "title": "Te Wā Heke mai o te Whanaketanga Kapua-Māori: Ngā Āhuatanga hei Mātakitaki i te 2025",
+      "excerpt": "Tūhura i ngā āhuatanga hou o te whanaketanga kapua-māori, mai i ngā hoahoa tūmau kore ki te rorohiko tapa.",
+      "author": {
+        "name": "Ētita Horizon Tech"
+      },
+      "date": "15 Nov 2025",
+      "readTime": "8 meneti te pānui",
+      "category": "Hoahoa Kapua",
+      "tags": [
+        "Kapua",
+        "Azure",
+        "Ngā Ia"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Hanga i ngā ratonga moroiti tauine mā te Ratonga Azure Kubernetes",
+        "excerpt": "He aratohu ā-ringa ki te hoahoa me te hora i ngā ratonga moroiti mā te whakamahi i te AKS.",
+        "author": {
+          "name": "Ētita Horizon Tech"
+        },
+        "date": "12 o Whiringa 2025",
+        "readTime": "6 meneti te pānui",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Ngā Ratongaiti",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Ako Mīhini i roto i te Whakanaotanga: Ngā Akoranga i Akona",
+        "excerpt": "Ngā akoranga i whakamātauria e te āpure mai i te hora i ngā tauira ML i te tauine.",
+        "author": {
+          "name": "Ētita Horizon Tech"
+        },
+        "date": "10 Nov 2025",
+        "readTime": "10 meneti te pānui",
+        "category": "AI/ML",
+        "tags": [
+          "Ako Mīhini",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Urupare 19: He aha ngā mea hōu me te take e hira ai",
+        "excerpt": "He ruku hōhonu ki ngā āhuahira React 19 me ngā pānga mahinga.",
+        "author": {
+          "name": "Ētita Horizon Tech"
+        },
+        "date": "8 Nov 2025",
+        "readTime": "5 meneti te pānui",
+        "category": "Muamua",
+        "tags": [
+          "Tauhohenga",
+          "JavaScript",
+          "Whanaketanga Tukutuku"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Ohauru ki tā mātou pānui",
+      "description": "Tīkina ngā tuhinga, ngā akoranga, me ngā kitenga hōu rawa i ia wiki.",
+      "placeholder": "your.email@example.com",
+      "button": "Ohauru",
+      "note": "Kāore he spam. Weteohauru i ngā wā katoa."
+    },
+    "index": {
+      "hero": {
+        "title": "Rangitaki Pūkaha Hangarau Horizon",
+        "description": "Ngā tuhipoka āpure me ngā tauira ā-ringa mai i ngā tīma e hanga ana i ngā hua AI, ngā pūnaha hinonga, me ngā pūhara kapua pono."
+      },
+      "filters": {
+        "postsInView": "{{count}} ngā whakairinga i te tirohanga"
+      },
+      "featured": {
+        "badge": "Hōu Rawa",
+        "readCta": "Pānuitia te whakairinga whakahirahira"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Uta ana i te kōtaha...",
+    "title": "Ngā Tautuhinga Kōtaha",
+    "subtitle": "Whakahaerehia ō tautuhinga pūkete me ō manakohanga",
+    "photoButton": "Hurihia te Whakaahua",
+    "tabs": {
+      "general": "Whānui",
+      "security": "Haumarutanga",
+      "preferences": "Ngā Manakohanga"
+    },
+    "messages": {
+      "profileUpdated": "I tutuki pai te whakahōunga kōtaha",
+      "profileUpdateFailed": "I rahua te whakahōu i te kōtaha",
+      "passwordsNoMatch": "Kāore ngā kupuhipa hōu i te ōrite",
+      "passwordTooShort": "Kia 8 neke atu rānei ngā pūāhua te roa o te kupuhipa",
+      "passwordChanged": "I tutuki pai te hurihanga kupuhipa",
+      "passwordChangeFailed": "I rahua te huri kupuhipa",
+      "optedOut": "Kua kōwhiria kia puta i ngā pūrongo whakaharatau",
+      "optedIn": "I kōwhiri ki te whakaharatau pūrongo",
+      "optOutFailed": "I rahua te whakahōu i te tūnga kōwhiri-atu"
+    },
+    "general": {
+      "title": "Mōhiohio Whaiaro",
+      "description": "Whakahōungia ō taipitopito whaiaro me ō mōhiohio hoapā",
+      "firstName": "Ingoa Tuatahi",
+      "firstNamePlaceholder": "John",
+      "lastName": "Ingoa whakamutunga",
+      "lastNamePlaceholder": "Kupa",
+      "email": "Wāhitau īmēra",
+      "emailNotice": "Kāore e taea te huri i te īmēra. Whakapā atu ki te tautoko mēnā kei te hiahia āwhina koe.",
+      "phone": "Tau waea:",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Tiakina ngā huringa"
+    },
+    "security": {
+      "title": "Tautuhinga haumarutanga",
+      "description": "Whakahaerehia ō kupuhipa me ō manakohanga haumarutanga",
+      "currentPassword": "Kupuhipa o nāianei",
+      "currentPasswordPlaceholder": "Tāurua te kupuhipa onāianei",
+      "newPassword": "Kupuhipa hōu",
+      "newPasswordPlaceholder": "Tāurua te kupuhipa hōu",
+      "confirmPassword": "Whakaūkia te kupuhipa hōu",
+      "confirmPasswordPlaceholder": "Whakaūkia te kupuhipa hōu",
+      "passwordHint": "Kia 8 neke atu rānei ngā pūāhua te roa",
+      "changePassword": "Hurihia te hupuhipa"
+    },
+    "preferences": {
+      "title": "Ngā Manakohanga Whakamōhiotanga",
+      "description": "Whakahaere me pēhea tō whiwhi whakahōu me ngā whakamōhiotanga",
+      "email": {
+        "title": "Ngā Whakamōhiotanga Īmēra",
+        "description": "Whiwhi whakahōu me ngā matohi mā te īmēra"
+      },
+      "sms": {
+        "title": "Ngā Whakamōhiotanga SMS",
+        "description": "Whiwhi matohi hira mā te karere kuputuhi"
+      },
+      "optOut": {
+        "title": "Kōwhiri Atu i ngā Pūrongo Whakaharatau",
+        "description": "Hunaia ō pūrongo mai i te kaipupuru mahi"
+      },
+      "actions": {
+        "title": "Ngā Hohenga Pūkete",
+        "downloadData": "Tikiake Raraunga Pūkete",
+        "deleteAccount": "Muku Pūkete"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Hoki ki te Kāinga",
+    "title": "Pokapū Tautoko",
+    "subtitle": "Tiki āwhina ki ā mātou ratonga whanaketanga pūmanawa",
+    "cards": {
+      "email": {
+        "title": "Tautoko Īmēra",
+        "description": "Tukuna mai he īmēra ki a mātou mō ētahi uiui"
+      },
+      "project": {
+        "title": "Ngā Uiui Kaupapa",
+        "description": "Matapakihia ō whakaritenga kaupapa",
+        "button": "Whakapā mai ki a Mātou"
+      },
+      "resources": {
+        "title": "Ngā Rauemi",
+        "description": "Ngā rauemi hangarau me ngā kaiārahi",
+        "button": "Tirohia ngā rauemi"
+      }
+    },
+    "faqTitle": "Ngā Pātai Auau",
+    "faqDescription": "Ngā whakautu tere ki ngā pātai auau",
+    "faqs": [
+      {
+        "question": "He aha ngā ratonga e tukuna ana e Horizon Tech?",
+        "answer": "Ka whakarato mātou i te whanaketanga pūmanawa ritenga, ngā rongoā AI/ML, te hoahoa kapua, te DevOps, te mōhiohio pakihi, me ngā ratonga IoT."
+      },
+      {
+        "question": "Me pēhea taku tīmata i tētahi kaupapa me Horizon Tech?",
+        "answer": "Whakapā mai mā te puka, īmēra rānei me ō whakaritenga. Ka whakaritea e mātou he waea hura me te tiritiri i tētahi kaupapa."
+      },
+      {
+        "question": "E whakarato ana koe i te tautoko me te tautiakitanga haere tonu?",
+        "answer": "Āe. Ka tukuna e mātou ngā mōkī tautoko me te tautiakitanga kei roto ko ngā whakatika iro, ngā whakahōutanga haumarutanga, me ngā whakapainga āhuahira."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Hoki ki te Kāinga",
+    "title": "Ngā Rauemi Hangarau",
+    "subtitle": "Ngā kaiārahi, ngā akoranga, me ngā mahi tino pai mai i te tīma Horizon Tech",
+    "hub": {
+      "title": "Pokapū Ako",
+      "description": "Tūhura i ā mātou rauemi hangarau kua whakaritea puta noa i te kapua, AI/ML, DevOps, me te whanaketanga pūmanawa hōu.",
+      "note": "E hāngai ana ēnei rauemi ki te wheako kaupapa tūturu, ā, ka whakahōutia auautia."
+    },
+    "categories": [
+      {
+        "icon": "kapua",
+        "title": "Hoahoa Kapua",
+        "description": "Azure, AWS, me ngā tauira kapua-māori",
+        "resources": [
+          {
+            "title": "Ngā Mahi Pai o te Hoahoa Azure",
+            "type": "Kaiārahi"
+          },
+          {
+            "title": "Ngā Rautaki Hekenga Kapua",
+            "type": "Tuhinga"
+          }
+        ]
+      },
+      {
+        "icon": "roro",
+        "title": "AI & Ako Mīhini",
+        "description": "Ngā tauira ML, pūtaiao raraunga, me te whakaurunga AI",
+        "resources": [
+          {
+            "title": "Kupu Whakataki ki Azure ML",
+            "type": "Akoranga"
+          },
+          {
+            "title": "Hanga i ngā Paipa ML Whakanao",
+            "type": "Kaiārahi"
+          }
+        ]
+      },
+      {
+        "icon": "Ngā Tautuhinga",
+        "title": "DevOps & Pūhara",
+        "description": "CI/CD, hanganga hei waehere, aunoatanga",
+        "resources": [
+          {
+            "title": "Tatūnga Paipa Azure DevOps",
+            "type": "Akoranga"
+          },
+          {
+            "title": "Hanganga hei Waehere me Terraform",
+            "type": "Kaiārahi"
+          }
+        ]
+      },
+      {
+        "icon": "Waehere:",
+        "title": "Whanaketanga Pūmanawa",
+        "description": ".NET, React, me ngā mahi whanaketanga hōu",
+        "resources": [
+          {
+            "title": "Mā te Hoahoa i roto i te .NET",
+            "type": "Kaiārahi"
+          },
+          {
+            "title": "Ngā Mahi Pai Rawa Urupare",
+            "type": "Tuhinga"
+          }
+        ]
+      },
+      {
+        "icon": "pātengi raraunga",
+        "title": "Raraunga & Tātaritanga",
+        "description": "BI, putunga raraunga, me ngā pūhara tātaritanga",
+        "resources": [
+          {
+            "title": "Hoahoa Paemana Power BI",
+            "type": "Akoranga"
+          },
+          {
+            "title": "Hoahoa Whare Putunga Raraunga",
+            "type": "Kaiārahi"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "E hiahia ana koe ki te whakangungu ritenga?",
+      "description": "Ka tukuna e mātou ngā wānanga kua whakaritea mō ngā tīma pūkaha me ngā hua",
+      "text": "E hiahia ana koe ki te whakangungu ā-ringa? Ka whakarato mātou i ngā akoranga ritenga mō te hoahoa kapua, DevOps, me ngā tikanga tuku hou.",
+      "button": "Whakapā mai"
+    }
+  },
+  "unauthorized": {
+    "title": "Aukatinga Uru",
+    "description": "Kāore i a koe te whakaaetanga kia whakaahei i tēnei whārangi. Whakapā atu ki tō kaiwhakahaere ki te whakaaro koe he hē tēnei.",
+    "primary": "Haere ki te Kōtaha",
+    "secondary": "Hoki ki te Kāinga"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Kāore i kitea te whakairinga",
+      "description": "Kāore he pou rangitaki mō te slug: {{slug}}",
+      "back": "Hoki ki te rangitaki"
+    },
+    "back": "Hoki ki te rangitaki",
+    "publisher": "Hangarau Horizon"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Kāore i kitea te akoranga kēhi",
+      "description": "Kāore he akoranga take mō te id: {{id}}",
+      "back": "Hoki ki ngā akoranga kēhi"
+    },
+    "back": "Hoki ki ngā akoranga kēhi",
+    "sections": {
+      "executiveSummary": "Whakarāpopototanga Nui",
+      "businessChallenge": "wero pakihi",
+      "technicalSolution": "Rongoā Hangarau",
+      "architectureDecisions": "Ngā Whakataunga Hoahoa",
+      "technologyStack": "Tāpae Hangarau",
+      "resultsImpact": "Ngā Hua me te Pānga"
+    },
+    "client": "kiritaki",
+    "keyOutcomes": "Ngā Putanga Matua",
+    "decision": "Whakatau {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Kua Ngaro te Tohu",
+      "title": "Kāore i Kitea te Whārangi",
+      "description": "Kāore te ara i tonoa e koe i te tīariari, kua nuku rānei. Me whakahoki tātou i a koe ki tētahi whakamutunga Horizon Tech whaimana.",
+      "requestedPath": "Ara i tonoa",
+      "terminal": {
+        "prompt": "$ pae-pouara whakatau --ara",
+        "line1": "Whakatau ana i te kauwhata ararere... Kāore i tutuki",
+        "line2": "Take: kāore he kōwae ararere ōrite",
+        "line3": "Kua whakahohea te kawa whakahoki",
+        "line4": "Whakamahia tētahi o ngā pokatata o raro nei hei haere tonu"
+      },
+      "links": {
+        "home": "Whārangi kāinga",
+        "services": "Ngā Ratonga",
+        "blog": "Rangitaki",
+        "caseStudies": "Ngā Akoranga Kēhi"
+      }
+    },
+    "runtime": {
+      "badge": "Hapa Wāhaere",
+      "title": "I pakaru tētahi mea i tēnei whārangi",
+      "description": "Nā tētahi take ohorere i haukotia te tāhuahua. Ka taea e koe te ngana haumaru anō, te hoki rānei ki te whārangi kāinga.",
+      "retry": "Whakamātau anō",
+      "home": "Hoki ki te Whārangi Kāinga",
+      "unknown": "Hapa wāhaere tē mōhiotia"
+    }
+  },
+  "meta": {
+    "siteName": "Rangitaki Hangarau Horizon"
+  },
+  "admin": {
+    "blog": {
+      "title": "Whakahaerenga Rangitaki",
+      "subtitle": "Waihanga, whakatika, me te whakahaere i ō whakairinga rangitaki",
+      "newPost": "Whakairinga Hōu",
+      "seedData": "Raraunga Kākano",
+      "allPosts": "Ngā Whakairinga Katoa",
+      "published": "Kua Whakaputaina",
+      "draft": "Hukihuki",
+      "featured": "Whakaaturanga",
+      "setFeatured": "Tautuhi Whakaaturanga",
+      "removeFeatured": "Tango Whakaaturanga",
+      "table": {
+        "title": "Taitara",
+        "category": "Kāwai",
+        "status": "Mana",
+        "date": "Rā",
+        "actions": "Ngā Hohenga"
+      },
+      "empty": {
+        "message": "Kāore anō kia whai whakairinga rangitaki. Waihangatia tō raraunga tauira whakairinga tuatahi, kākano rānei.",
+        "seed": "Raraunga Tauira Kākano",
+        "create": "Waihanga Whakairinga"
+      },
+      "delete": {
+        "title": "Mukua te Whakairinga",
+        "confirmation": "E tika ana kia mukua tēnei whakairinga? Kāore e taea te wete i tēnei hohenga.",
+        "delete": "Whakakore",
+        "cancel": "Whakakore"
+      }
+    },
+    "editor": {
+      "bannerHint": "Whakaaturia hei kara whānui ki runga o te pou",
+      "bannerImage": "Atahanga Kara",
+      "coverHint": "Whakaaturia ki ngā kāri whakarārangi rangitaki",
+      "coverImage": "Atahanga Uhi",
+      "editSlug": "Whakatika slug",
+      "posts": "Ngā Whakairinga",
+      "publish": "Whakaputa",
+      "update": "Whakahōu",
+      "form": {
+        "contentPlaceholder": "Tuhia tō ihirangi whakairinga ki konei...",
+        "excerptPlaceholder": "He whakarāpopototanga poto o te pou...",
+        "pickDate": "Kōwhiria he rā",
+        "readTimePlaceholder": "hei tauira, 5 meneti pānui",
+        "titlePlaceholder": "Taitara whakairinga..."
+      },
+      "meta": {
+        "publisher": "Kaiwhakaputa",
+        "unknownAuthor": "Kaituhi tē mōhiotia"
+      },
+      "modes": {
+        "edit": "Whakatika",
+        "editOnly": "Whakatika anake",
+        "preview": "Arokite",
+        "previewOnly": "Arokite anake",
+        "sideBySide": "Taha ki te taha",
+        "split": "Ritua"
+      },
+      "tags": {
+        "heading": "Ngā Tūtohu",
+        "placeholder": "Tāpirihia he tūtohu..."
+      },
+      "translations": {
+        "auto": "Aunoa",
+        "autoTranslate": "Whakamāori-aunoa",
+        "clear": "Mahea",
+        "existing": "Tīariari",
+        "heading": "Ngā Whakawhitinga",
+        "language": "Reo",
+        "languages": "Ngā reo",
+        "edit": "Whakatika",
+        "manual": "ā-ringa",
+        "preview": "Arokite",
+        "searchPlaceholder": "Rapua ngā reo...",
+        "translate": "Whakamāorihia"
+      }
+    },
+    "caseStudies": {
+      "title": "Ngā Akoranga Kēhi",
+      "subtitle": "Whakahaere i ngā akoranga take me ngā whakaaturanga kaupapa",
+      "newCaseStudy": "Akoranga Kēhi Hōu",
+      "seedData": "Raraunga Kākano",
+      "allCaseStudies": "Ngā Akoranga Kēhi Katoa",
+      "published": "Kua Whakaputaina",
+      "draft": "Hukihuki",
+      "table": {
+        "title": "Taitara",
+        "industry": "ahumahi",
+        "client": "kiritaki",
+        "status": "Mana",
+        "actions": "Ngā Hohenga"
+      },
+      "empty": {
+        "message": "Kāore anō kia whai mātauranga kēhi.",
+        "seed": "Raraunga Kākano",
+        "create": "Waihanga Tuatahi"
+      },
+      "delete": {
+        "title": "Mukua te Mātauranga Pū",
+        "confirmation": "E tika ana kia mukua tēnei akoranga kēhi? Kāore e taea te wete i tēnei hohenga.",
+        "delete": "Whakakore",
+        "cancel": "Whakakore"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Ngā Akoranga Kēhi",
+      "published": "Kua Whakaputaina",
+      "draft": "Hukihuki",
+      "update": "Whakahōu",
+      "create": "Waihanga",
+      "sections": {
+        "basicInfo": "Mōhiohio Taketake",
+        "narrative": "Kōrero",
+        "architectureDecisions": "Ngā Whakataunga Hoahoa",
+        "techStack": "Tāpae Hangarau",
+        "results": "Ngā hua",
+        "tags": "Ngā Tūtohu"
+      },
+      "fields": {
+        "title": "Taitara",
+        "titlePlaceholder": "Taitara akoranga kēhi",
+        "slug": "pukoro",
+        "slugPlaceholder": "hanga-aunoa-mai-te-taitara",
+        "client": "kiritaki",
+        "clientPlaceholder": "Ingoa kiritaki",
+        "industry": "ahumahi",
+        "industryPlaceholder": "Tīpako ahumahi",
+        "description": "Whakamārama:",
+        "descriptionPlaceholder": "Whakaahuatanga poto (e whakaaturia ana ki ngā kāri)",
+        "executiveSummary": "Whakarāpopototanga Nui",
+        "executiveSummaryPlaceholder": "Tirohanga whānui taumata tiketike o te tautohetohe",
+        "challenge": "wero",
+        "challengePlaceholder": "He aha te raru i anga atu ki te kiritaki?",
+        "solution": "Rongoā",
+        "solutionPlaceholder": "I pēhea te whakaoti i te raruraru?",
+        "decision": "whakatau",
+        "decisionPlaceholder": "He aha te mea i whakatauria",
+        "rationale": "Pūtake",
+        "rationalePlaceholder": "He aha i kōwhiria ai tēnei huarahi",
+        "metric": "Ngahuru",
+        "metricPlaceholder": "hei tauira, Settlement Latency",
+        "value": "Uara",
+        "valuePlaceholder": "hei tauira, -63% 4.8h rānei -> 11m",
+        "resultDescription": "Whakamārama:",
+        "resultDescriptionPlaceholder": "He aha te tikanga o tēnei hua",
+        "techPlaceholder": "Tāpiri hangarau (pēhia te Tāuru)",
+        "tagPlaceholder": "Tāpiri tūtohu (pēhia te Tāuru)"
+      },
+      "add": "Tāpiri",
+      "noArchDecisions": "Kāore anō kia tāpirihia he whakataunga hoahoa.",
+      "noResults": "Kāore anō kia tāpirihia he hua.",
+      "decisionLabel": "Whakatau {{number}}",
+      "resultLabel": "Hua {{number}}",
+      "controls": {
+        "published": "Kua Whakaputaina",
+        "publishedDescription": "Kia kitea tēnei akoranga take i te iwi whānui",
+        "featured": "Whakaaturanga",
+        "featuredDescription": "Miramirahia tēnei akoranga take"
+      }
+    },
+    "imageCrop": {
+      "apply": "Hoatu",
+      "cancel": "Whakakore",
+      "cropTitle": "Poroa te Atahanga",
+      "dropText": "Whakataka tētahi atahanga ki konei, pāwhiri rānei hei tukuatu",
+      "flipHorizontal": "Pore whakapae",
+      "flipVertical": "Pore tūtika",
+      "replace": "Whakakapi",
+      "reset": "Tautuhi anō",
+      "rotateLeft": "Huri ki mauī",
+      "rotateRight": "Huri ki te matau",
+      "uploading": "Tukuatu ana...",
+      "toast": {
+        "invalidFile": "Kōnae muhu",
+        "invalidFileDesc": "Tukuatu koa i tētahi kōnae atahanga tika.",
+        "uploadFailed": "I rahua te tukuatu",
+        "uploadFailedDesc": "Something went wrong. Tēnā kia ngana anō.",
+        "uploaded": "Atahanga kua tukuatu",
+        "uploadedDesc": "Kua tutuki pai te tukuatu i tō atahanga."
+      }
+    }
+  }
+}

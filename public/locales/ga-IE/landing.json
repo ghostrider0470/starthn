@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Córais Innealtóireachta a Scála",
+    "subtitle": "Bogearraí Fiontraíochta · AI & Foghlaim Meaisín · Bonneagar Scamall · IoT & Imeall",
+    "description": "Ó uathoibriú cliste go hardáin scamall-dhúchasacha, déanaimid ailtireacht agus seachadadh ar an teicneolaíocht a chumhachtaíonn gnólachtaí uaillmhianacha - in am, ar bhuiséad, ar scála.",
+    "cta": {
+      "primary": "Tosaigh Tionscadal",
+      "secondary": "Féach ar ár gcuid oibre"
+    },
+    "trustLine": "Iontaofa ag cuideachtaí ar fud an domhain"
+  },
+  "services": {
+    "subtitle": "Ár Seirbhísí",
+    "title": "Innealtóireacht Lán-Speictrim",
+    "description": "Sé réimse cleachtais. Foireann amháin. Gach ciseal de do stack teicneolaíochta - ó ghléasanna imeall go dashboards fiontraíochta.",
+    "commentMarker": "SEIRBHÍSÍ",
+    "items": {
+      "customSoftware": {
+        "title": "Forbairt Bogearraí Saincheaptha",
+        "description": "Feidhmchláir nua-aimseartha tógtha le micreasheirbhísí, APIanna, agus ailtireacht scamall-dhúchasach."
+      },
+      "aiMl": {
+        "title": "AI, ML & Faisnéis Ghnó",
+        "description": "Píblínte AI / ML, dashboards Power BI, agus anailísíocht chun cinn a iompaíonn sonraí ina gcinntí."
+      },
+      "cloud": {
+        "title": "Ailtireacht agus Bonneagar Scamall",
+        "description": "Bonneagar il-scamall le coimeádáin, gan freastalaí, agus scalability domhanda tógtha isteach."
+      },
+      "iot": {
+        "title": "IoT & Ríomhaireacht Imeall",
+        "description": "Gléasanna ceangailte, cúpla digiteach, agus ríomhaireacht imeall do Thionscal 4.0."
+      },
+      "devops": {
+        "title": "DevOps & Innealtóireacht Ardáin",
+        "description": "Píblínte CI / CD, bonneagar mar chód, agus inbhreathnaitheacht ó thiomantas go táirgeadh."
+      },
+      "digital": {
+        "title": "Claochlú Digiteach & Comhairliúchán",
+        "description": "Straitéis teicneolaíochta, treochláir nuachóirithe, agus comhairliúchán praiticiúil."
+      }
+    },
+    "cta": {
+      "title": "Déanaimis rud éigin tromchúiseach a thógáil",
+      "description": "Ó fhorbairt bogearraí saincheaptha agus réitigh faoi thiomáint AI go bonneagar scamall agus uathoibriú - soláthraímid seirbhísí teicneolaíochta end-to-end atá curtha in oiriúint do do chuid riachtanas.",
+      "primary": "Cuir tús le do thionscadal",
+      "secondary": "Sceideal Comhairliúchán"
+    },
+    "learnMore": "Faigh tuilleadh eolais"
+  },
+  "credibility": {
+    "subtitle": "Ár dTaifead Teiste",
+    "title": "Torthaí, ní <gradient>Gealltanais</gradient>",
+    "titlePlain": "Torthaí, ní Gealltanais",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Ó Sarajevo go Osló, Amstardam, agus Beirlín. Córais fiontraíochta a sheachadadh in am, gach uair.",
+    "stats": {
+      "experience": "Blianta Taithí Comhcheangailte",
+      "countries": "Tíortha a bhfreastalaítear orthu",
+      "systems": "Córais Seachadta",
+      "industries": "Tionscail a Sheirbheáiltear"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM do Atlas Copco",
+        "outcome": "Ailtireacht an chéad bhonneagar One Identity scamall-bhunaithe do Atlas Copco ar Azure Kubernetes, ag laghdú costais agus comhlíonadh fiontraíochta a chothabháil."
+      },
+      "orange": {
+        "label": "Ardán Cibearchosanta Oráiste",
+        "outcome": "Forbairt bonneagar Azure Kubernetes, píblínte CI / CD, agus comhtháthú saincheaptha ServiceNow do phríomhghnólacht cibearshlándála na hEorpa."
+      },
+      "telecom": {
+        "label": "Ardán GIS & AR Telecom",
+        "outcome": "Ardán GIS tógtha ag mapáil fóntais faoi thalamh ar fud na Gearmáine le braite imbhuailtí a chosc damáiste bonneagair ilmhilliún Euro."
+      },
+      "iot": {
+        "label": "Ardán Cloud IoT & Edge",
+        "outcome": "Azure IoT Hub ag bainistiú na mílte feiste, Synapse ag próiseáil billiúin sraitheanna teiliméadrachta, le comhiomlánú imeall ag gearradh costais teachtaireachta ag ~ 90%."
+      },
+      "drone": {
+        "label": "Ardán Drone Uathrialach",
+        "outcome": "Rialtóir eitilte saincheaptha le droichead 4G-go-Azure IoT Hub a chumasaíonn eitiltí BVLOS uathrialacha le haghaidh monatóireachta talmhaíochta agus seachadadh pálasta."
+      },
+      "payment": {
+        "label": "Tarrthála an Chórais Íocaíochta",
+        "outcome": "Rescued failing payment gateway for Norwegian mobile app by reverse-engineering undocumented legacy code. Zero payment downtime post-modernization."
+      },
+      "game": {
+        "label": "Uirlisí Dev Cluiche AAA",
+        "outcome": "Breiseán Maya tógtha a ghearr am samhaltaithe agus beochana 3D 50% ag stiúideo mór AAA, a glacadh mar uirlis chaighdeánach sa phíblíne táirgeachta."
+      },
+      "social": {
+        "label": "Ardán Sóisialta Suíomh-Bhunaithe",
+        "outcome": "Aip dhátú ailtireachta do radharc saol oíche na Spáinne le meaitseáil geoshuímh, teachtaireachtaí fíor-ama, agus fógraí brú do chliant sa Ríocht Aontaithe."
+      },
+      "iga": {
+        "label": "Ardán IGA Il-Tionóntaí",
+        "outcome": "Backend lárnach tógtha d'ardán rialachais aitheantais scamall-dhúchasach a fhreastalaíonn ar chliaint Fortune 500 le saincheaptha ASP.NET Core Identity for NoSQL ar scála fiontraíochta."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "Seachadadh domhanda in aice láimhe leis an AE",
+        "description": "Uaireanta oibre CET le taithí a chuimsíonn an Iorua, an Ísiltír, an Ghearmáin, agus níos faide anonn."
+      },
+      "yourEngineers": {
+        "title": "Do Innealtóirí, ní Díoltóir",
+        "description": "Baill foirne tiomnaithe leabaithe i do shreabhadh oibre agus uirlisí. Gan bainisteoirí cuntais, gan scuainí ticéad."
+      },
+      "hardwareToCloud": {
+        "title": "Crua-earraí go Cloud",
+        "description": "Ó fhirmware gléas leabaithe go píblínte fiontraíochta Azure Synapse. Bogearraí lán-stack ar fud gach ciseal."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Stack Teicneolaíochta",
+    "title": "<gradient>Stack</gradient> Cath-Tástáil",
+    "titlePlain": "Stack Cath-Tástáil",
+    "commentMarker": "TECH_STACK",
+    "description": "Ní hamháin go n-úsáidimid na huirlisí seo - tá córais táirgeachta seolta againn leo. Ó Microsoft Azure go Kubernetes, tá saineolas fíor-saoil ag ár n-innealtóirí.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Scamall & Bonneagar",
+        "description": "Ailtireacht il-scamall le ceolfhoireann coimeádáin agus bonneagar mar chód."
+      },
+      "frontend": {
+        "label": "Tosaigh",
+        "description": "Creataí comhpháirteanna nua-aimseartha le sábháilteacht cineál agus uirlisí tógála optamaithe."
+      },
+      "backend": {
+        "label": "Inneall & APIanna",
+        "description": "Ardáin freastalaí grád fiontraíochta, teangacha córais, agus paraidímí API nua-aimseartha."
+      },
+      "data": {
+        "label": "Stóráil Sonraí",
+        "description": "Stórais ghaolmhara, doiciméad agus in-chuimhne le cuardach lántéacs."
+      },
+      "devops": {
+        "label": "DevOps & Uirlisí",
+        "description": "Píblínte CI / CD, rialú leagan, agus táirgiúlacht forbróra."
+      }
+    },
+    "scanning": "MINICÍOCHTAÍ SCANADH...",
+    "summary": {
+      "cloudNative": {
+        "title": "Scamall-dhúchasach de réir réamhshocraithe",
+        "description": "Tá gach tionscadal coimeádánaithe, CI / CD-tiomáinte, agus tógtha le haghaidh scála cothrománach ón gcéad lá."
+      },
+      "fullStack": {
+        "title": "Líofacht Lán-Stack",
+        "description": "Ó frontends React go micreasheirbhísí .NET go braislí Kubernetes - foireann amháin, ó cheann go deireadh."
+      },
+      "productionProven": {
+        "title": "Táirgeadh-Cruthaithe",
+        "description": "Ní teicneolaíochtaí taispeána iad seo. Cumhachtaíonn gach uirlis atá liostaithe fíorchórais a fhreastalaíonn ar fhíor-úsáideoirí sa lá atá inniu ann."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Lógónna teicneolaíochta as a chéile 1",
+      "row2Aria": "Lógónna teicneolaíochta as a chéile 2",
+      "row3Aria": "Lógónna teicneolaíochta as a chéile 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Bunachar Eolais",
+    "title": "<gradient>Ceisteanna</gradient> Coitianta",
+    "titlePlain": "Ceisteanna Coitianta",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Gach rud atá uait ar an eolas faoi bheith ag obair le Horizon Tech",
+    "items": {
+      "scope": {
+        "question": "Cad é do raon feidhme oibre?",
+        "answer": "Soláthraímid tionscadail teicneolaíochta ó dheireadh go deireadh: bogearraí fiontraíochta saincheaptha, píblínte AI / ML, bonneagar scamall, córais IoT, uathoibriú DevOps, agus comhairliúchán claochlaithe digiteach. Cibé an dteastaíonn ardán iomlán uait tógtha ón tús nó comhtháthú spriocdhírithe le do stack atá ann cheana, láimhseálann muid ailtireacht, forbairt, tástáil agus imscaradh."
+      },
+      "stack": {
+        "question": "Cad é do chairn teicneolaíochta lárnach?",
+        "answer": "Díríonn ár gcroí-stack ar ardáin de ghrád fiontraíochta: Azure agus AWS le haghaidh scamall, .NET agus Node.js le haghaidh backend, React agus Angular le haghaidh frontend, Kubernetes agus Docker le haghaidh ceolfhoirne, agus Terraform le haghaidh bonneagair mar chód. Oibrímid go forleathan freisin le Python le haghaidh ualaí oibre AI / ML, Power BI agus Fabric le haghaidh faisnéise gnó, agus PostgreSQL, SQL Server, agus MongoDB le haghaidh sonraí."
+      },
+      "enterprise": {
+        "question": "Conas a láimhseálann tú tionscadail fiontraíochta?",
+        "answer": "Tosaíonn gach rannpháirtíocht le céim fionnachtana chun raon feidhme, ailtireacht agus garspriocanna a shainiú. Faigheann tú foireann thiomnaithe le luaidhe theicniúil, athbhreithnithe cloch mhíle rialta, agus rochtain dhíreach ar na hinnealtóirí a thógann do chóras. Leanaimid sprints lúfar le taispeántais páirtithe leasmhara, coinnímid boird tionscadail trédhearcacha, agus soláthraímid tuarascálacha seachtainiúla ar dhul chun cinn."
+      },
+      "support": {
+        "question": "Cén chuma atá ar thacaíocht iar-lainseála?",
+        "answer": "Cuirimid sraitheanna tacaíochta struchtúrtha ar fáil le SLAanna sainithe, lena n-áirítear monatóireacht 24/7, freagairt teagmhais, barrfheabhsú feidhmíochta, agus atriall gné. Clúdaíonn ár gcomhaontuithe tacaíochta ceartúcháin fabht, paistí slándála, scálú bonneagair, agus seiceálacha sláinte réamhghníomhacha - curtha in oiriúint do do riachtanais uptime agus am freagartha."
+      },
+      "integration": {
+        "question": "An féidir leat comhtháthú lenár mbonneagar atá ann cheana?",
+        "answer": "Cinnte. Speisialtóireacht againn i nuachóiriú oidhreachta, comhtháthú API-first, agus imirce scamall hibrideach. Cibé an gá duit ceangal le córais ERP ar an áitreabh, aistriú ó monoliths go micreasheirbhísí, nó bunachair shonraí oidhreachta a dhroichead le frontends nua-aimseartha, tá na leabhair súgartha imirce agus an taithí comhtháthaithe againn chun é a dhéanamh gan uaim."
+      },
+      "industries": {
+        "question": "Cad iad na tionscail a d'oibrigh tú?",
+        "answer": "Tá tionscadail curtha ar fáil ag ár bhfoireann ar fud earnálacha fintech, cúram sláinte, lóistíochta, ríomhthráchtála, fuinnimh agus rialtais. Tuigimid riachtanais a bhaineann go sonrach leis an tionscal cosúil le PCI-DSS le haghaidh íocaíochtaí, breithnithe HIPAA maidir le sonraí sláinte, comhlíonadh GDPR do mhargaí an AE, agus teiliméadracht fíor-ama do IoT tionsclaíoch."
+      },
+      "engagement": {
+        "question": "Cén chuma atá ar an bpróiseas rannpháirtíochta?",
+        "answer": "Tosaíonn sé le glao fionnachtana chun do spriocanna agus do thírdhreach teicniúil a thuiscint. Ón áit sin, seachadann muid doiciméad scóipe le moltaí ailtireachta, amlíne, agus miondealú infheistíochta. Nuair a bheidh sé ceadaithe, tosaímid le foireann thiomnaithe, ar bord i do chuid uirlisí agus sreafaí oibre, agus tosaímid ar an gcéad sprint laistigh de laethanta."
+      }
+    },
+    "stillHaveQuestions": "An bhfuil ceisteanna agat fós?",
+    "ctaDescription": "An bhfuil tionscadal agat? Labhraímid faoi raon feidhme, amlíne, agus buiséad.",
+    "readCaseStudies": "Léigh ár gCás-Staidéir",
+    "scheduleCall": "Sceidealaigh Glao"
+  }
+}

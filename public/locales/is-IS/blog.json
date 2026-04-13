@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Allir"
+  },
+  "categories": {
+    "aiEngineering": "Gervigreindarverkfræði",
+    "enterpriseArchitecture": "Fyrirtækjaarkitektúr",
+    "cloudDevOps": "Ský og DevOps",
+    "automationSystems": "Sjálfvirknikerfi",
+    "softwareReliabilityDesign": "Áreiðanleiki og hönnun hugbúnaðar"
+  },
+  "readTime": "{{minutes}} mínútu lestur",
+  "tagsLabel": "Merkimiðar",
+  "relatedPosts": "Tengdar færslur",
+  "author": {
+    "role": "Útgefandi"
+  },
+  "editor": {
+    "emptyPreview": "Byrjaðu að skrifa til að sjá forskoðun..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Forritun",
+    "observability": "Sýnileiki",
+    "safety": "Öryggi",
+    "domainDesign": "Lénshönnun",
+    "integration": "Samþætting",
+    "governance": "Stjórnun",
+    "platformStrategy": "Stefnu vettvangsins",
+    "platformEngineering": "Vettvangsverkfræði",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Þróunarupplifun",
+    "eventDriven": "Atburðadrifið",
+    "workflowOrchestration": "Verkflæðisútsetning",
+    "controlPlanes": "Stýriflötur",
+    "resilience": "Seigla",
+    "sre": "SRE",
+    "slos": "SLO",
+    "failureModes": "Bilunarhamir",
+    "resilienceEngineering": "Seigluverkfræði",
+    "evaluation": "Mat",
+    "qualityEngineering": "Gæðaverkfræði",
+    "datasets": "Gagnasöfn",
+    "releaseManagement": "Útgáfustjórnun",
+    "incidentManagement": "Atvikastjórnun",
+    "architectureEvolution": "Þróun arkitektúrs",
+    "riskReduction": "Áhættuminnkun",
+    "postmortems": "Krufningar",
+    "progressiveDelivery": "Framsækin afhending",
+    "canaryReleases": "Canary útgáfur",
+    "featureFlags": "Eiginleikafánar"
+  }
+}

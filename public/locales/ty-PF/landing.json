@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Te mau faanahoraa aravihi o te faito rahi",
+    "subtitle": "Enterprise Software · AI & Machine Learning · Cloud Infrastructure · IoT & Edge",
+    "description": "Mai te matini roro uira maramarama e tae atu i te mau rave'a no te cloud, te hamani nei matou e te horo'a nei matou i te mau rave'a aravihi o te faatere i te mau taiete rahi — i te hora ti'a, i te haamau'araa moni, i te faito rahi.",
+    "cta": {
+      "primary": "Haamata i te hoê opuaraa",
+      "secondary": "A hi'o i ta matou ohipa"
+    },
+    "trustLine": "Te ti'aturihia e te mau taiete na te ao atoa nei"
+  },
+  "services": {
+    "subtitle": "Ta matou mau ohipa",
+    "title": "Te mau rave'a aravihi",
+    "description": "E ono vahi haapiipiiraa. Hoê pŭpŭ. Te mau tuhaa atoa o ta outou mau rave'a apî — mai te mau matini e tae atu i te mau tapura ohipa.",
+    "commentMarker": "TE MAU OHIPA",
+    "items": {
+      "customSoftware": {
+        "title": "Te hamaniraa i te mau faanahoraa roro uira",
+        "description": "Te mau faanahoraa apî tei hamanihia e te mau microservices, te mau API e te faanahoraa cloud-native."
+      },
+      "aiMl": {
+        "title": "AI, ML & Business Intelligence",
+        "description": "Te mau rave'a AI/ML, te mau tabula Power BI, e te mau hi'opo'araa apî o te faariro i te mau haamaramaramaraa ei mau faaotiraa."
+      },
+      "cloud": {
+        "title": "Cloud Architecture & Infrastructure",
+        "description": "Te mau faanahoraa e rave rahi cloud e te mau farii, aita e server, e te faito rahi na te ao atoa nei."
+      },
+      "iot": {
+        "title": "IoT & Edge Computing",
+        "description": "Te mau matini tu'atiraa, te mau maehaa roro uira, e te edge computing no te Industry 4.0."
+      },
+      "devops": {
+        "title": "DevOps & Platform Engineering",
+        "description": "Te mau pipelines CI/CD, te faanahoraa ei code, e te hi'opo'araa mai te fafauraa e tae atu i te hamaniraa."
+      },
+      "digital": {
+        "title": "Tauiraa roro uira e te tauturu",
+        "description": "Faanahoraa no te mau rave'a apî, te mau hoho'a arata'iraa no te faaapîraa, e te tautururaa i te ohipa."
+      }
+    },
+    "cta": {
+      "title": "E patu ana'e tatou i te hoê mea papû",
+      "description": "Mai te hamaniraa i te mau faanahoraa roro uira e te mau rave'a faaterehia e te AI e tae noa'tu i te mau faanahoraa cloud e te matini uira — te horo'a nei matou i te mau rave'a apî no te mau rave'a apî tei faatanohia i ni'a i to outou mau hinaaro.",
+      "primary": "A haamata i ta outou opuaraa",
+      "secondary": "Tarena aparauraa"
+    },
+    "learnMore": "A haapii atu â"
+  },
+  "credibility": {
+    "subtitle": "To matou aamu",
+    "title": "Te mau hopearaa, eiaha râ te <gradient>mau parau fafau</gradient>",
+    "titlePlain": "Te mau hopearaa, eiaha râ te mau parau fafau",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Mai Sarajevo e tae atu i Oslo, Amsterdam e Berlin. Ua horo'ahia te mau faanahoraa i te hora ti'a, i te mau taime atoa.",
+    "stats": {
+      "experience": "Te mau matahiti ohipa amui",
+      "countries": "Te mau fenua i tavinihia",
+      "systems": "Te mau faanahoraa tei horo'ahia",
+      "industries": "Te mau fare hamaniraa tauihaa"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM no Atlas Copco",
+        "outcome": "Ua hamani i te faanahoraa One Identity matamua no Atlas Copco i ni'a i te Azure Kubernetes, ma te faaiti i te mau haamau'araa ma te tape'a noa i te haapa'oraa a te taiete."
+      },
+      "orange": {
+        "label": "Orange Cyberdefense Platform",
+        "outcome": "Ua hamani i te faanahoraa Azure Kubernetes, te mau pipeline CI/CD, e te tu'atiraa ServiceNow no te taiete rahi no Europa."
+      },
+      "telecom": {
+        "label": "Telecom GIS & AR Platform",
+        "outcome": "Ua hamanihia te faanahoraa GIS no te faanaho i te mau faanahoraa i raro i te fenua na te fenua Heremani ma te hi'opo'araa i te ûraa e arai i te ino o te mau faanahoraa e rave rahi milioni farane."
+      },
+      "iot": {
+        "label": "Cloud IoT & Edge Platform",
+        "outcome": "Te faatere nei te Azure IoT Hub e rave rahi tauatini matini, e rave rahi miria ana'iraa telemetry, e ua faaiti te haaputuraa i te mau haamau'araa o te mau poro'i i te ~90%."
+      },
+      "drone": {
+        "label": "Faanahoraa drone",
+        "outcome": "Te hoê hi'opo'araa manureva taa ê e te e'aturu 4G-to-Azure IoT Hub e faati'a ai i te mau manureva BVLOS no te hi'opo'araa i te ohipa faaapu e no te haponoraa i te mau tauihaa tauihaa."
+      },
+      "payment": {
+        "label": "Te faaoraraa i te faanahoraa no te aufauraa",
+        "outcome": "Ua faaora i te uputa aufauraa manuïa ore no te faanahoraa afa'ifa'i no Norevetia na roto i te faaho'iraa i te faanahoraa tahito aita i papa'ihia. Aita e taime aufauraa i muri a'e i te faaapîraa."
+      },
+      "game": {
+        "label": "AAA Game Dev Tooling",
+        "outcome": "Ua hamanihia te matini Maya o te faaiti i te taime no te faahoho'araa e te faaha'utiraa 3D i te 50% i roto i te hoê piha hamaniraa AAA."
+      },
+      "social": {
+        "label": "Faanahoraa sotiare niuhia i ni'a i te vahi",
+        "outcome": "Faanahoraa arapaeraa hamanihia no te oraraa i te pô i Paniora ma te faatu'ati i te vahi nohoraa, te poro'i i te taime mau, e te mau faaararaa no te hoê hoani no te fenua Peretane."
+      },
+      "iga": {
+        "label": "Multi-Tenant IGA Platform",
+        "outcome": "Ua hamanihia te backend core no te cloud-native identity management platform no te tavini i te mau hoani Fortune 500 e te mau ASP.NET Core Identity no NoSQL i te faito taiete."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "Opereraa na te ao atoa nei i piha'i iho i te EU",
+        "description": "Te mau hora ohipa CET e te iteraa i Norevetia, Holane, Helemani, e i te tahi atu vahi."
+      },
+      "yourEngineers": {
+        "title": "Ta outou mau taata aravihi e ere i te hoê taata hoo",
+        "description": "Te mau melo o te pŭpŭ tei tuuhia i roto i ta outou tereraa ohipa e ta outou mau mauhaa. Aita e taata haapa'o moni, aita e ana'iraa titeti."
+      },
+      "hardwareToCloud": {
+        "title": "Te mau tauihaa i roto i te cloud",
+        "description": "Mai te firmware o te matini e tae atu i te mau pipelines Azure Synapse. Te mau faanahoraa roro uira i roto i te mau tuhaa atoa."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Haaputuraa o te mau rave'a apî",
+    "title": "<gradient>Haaputuraa</gradient> tei tamatahia i roto i te tama'i",
+    "titlePlain": "Haaputuraa tei tamatahia i roto i te tama'i",
+    "commentMarker": "TECH_STACK",
+    "description": "Aita matou e faaohipa noa nei i teie mau mauhaa — ua hapono atoa matou i te mau faanahoraa hamaniraa. Mai te Microsoft Azure e tae atu i te Kubernetes, te vai nei to matou mau taata aravihi i roto i te ao mau.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Cloud & Infrastructure",
+        "description": "Multi-cloud architecture with container orchestration and infrastructure as code."
+      },
+      "frontend": {
+        "label": "Te mau hoho'a matamua",
+        "description": "Te mau faanahoraa no te mau tuhaa apî e te parururaa i te huru e te mau mauhaa hamaniraa maitai a'e."
+      },
+      "backend": {
+        "label": "Backend & APIs",
+        "description": "Te mau faanahoraa no te mau faanahoraa no te taiete, te mau reo o te mau faanahoraa e te mau hi'oraa API apî."
+      },
+      "data": {
+        "label": "Te mau haamaramaramaraa e te haaputuraa",
+        "description": "Te mau haaputuraa no te mau auraa e te mau parau e te mau haamana'oraa na roto i te ma'imiraa i te mau papa'iraa taatoa."
+      },
+      "devops": {
+        "label": "DevOps & Tooling",
+        "description": "Te mau rave'a CI/CD, te hi'opo'araa i te mau hoho'a, e te faatupuraa i te ohipa a te feia faanaho."
+      }
+    },
+    "scanning": "TE MAU FAITO HI'OPO'ARAA...",
+    "summary": {
+      "cloudNative": {
+        "title": "Cloud-Native na roto i te tautauraa",
+        "description": "Ua hamanihia te mau opuaraa tata'itahi i roto i te mau afata mai te mahana matamua."
+      },
+      "fullStack": {
+        "title": "Te aravihi rahi",
+        "description": "Mai te mau frontends React e tae atu i te mau faanahoraa na'ina'i .NET e tae atu i te mau pŭpŭ Kubernetes — hoê pŭpŭ, e tae atu i te hopea."
+      },
+      "productionProven": {
+        "title": "Ua haapapuhia te hamaniraa",
+        "description": "E ere teie i te mau rave'a no te faaiteraa. Te mau mauhaa tata'itahi i tabulahia, e faatere ïa i te mau faanahoraa mau no te mau taata mau i teie mahana."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Ana'iraa 1 no te mau tapa'o no te mau rave'a apî",
+      "row2Aria": "Ana'iraa 2 no te mau hoho'a apî",
+      "row3Aria": "Ana'iraa 3 no te mau tapa'o no te mau rave'a apî"
+    }
+  },
+  "faq": {
+    "subtitle": "Te niu o te ite",
+    "title": "<gradient>Te mau uiraa</gradient> pinepine",
+    "titlePlain": "Te mau uiraa pinepine",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Te mau mea atoa e ti'a ia outou ia ite no ni'a i te raveraa i te ohipa e te Horizon Tech",
+    "items": {
+      "scope": {
+        "question": "Eaha ta outou ohipa ?",
+        "answer": "Te horo'a nei matou i te mau opuaraa no te mau rave'a apî : te mau faanahoraa no te taiete, te mau rave'a AI/ML, te mau faanahoraa cloud, te mau faanahoraa IoT, te DevOps automation, e te rave'a no te tauiraa roro uira. E hinaaro anei outou i te hoê faanahoraa taatoa tei hamanihia mai te haamataraa e aore râ, te hoê tu'atiraa i ni'a i ta outou haaputuraa e vai ra, na matou e haapa'o i te hamaniraa, te faanahonahoraa, te tamataraa e te faaohiparaa."
+      },
+      "stack": {
+        "question": "Eaha ta outou mau rave'a apî ?",
+        "answer": "Ua faatumuhia ta matou faanahoraa tumu i ni'a i te mau faanahoraa : Azure e AWS no te cloud, .NET e Node.js no te backend, React e Angular no te frontend, Kubernetes e Docker no te faanahoraa e Terraform no te faanahoraa ei code. Te rave atoa nei matou i te ohipa i piha'i iho i te Python no te mau ohipa AI/ML, Power BI e Fabric no te haamaramaramaraa no te ohipa, e PostgreSQL, SQL Server e MongoDB no te mau haamaramaramaraa."
+      },
+      "enterprise": {
+        "question": "Nahea outou i te rave i te mau opuaraa a te taiete ?",
+        "answer": "E haamata te mau ohipa atoa na roto i te hoê tuhaa no te faataa i te aano, te hamaniraa e te mau taahiraa rahi. E roaa ia outou te hoê pŭpŭ pŭpŭ taa ê e te hoê taata arata'i i te pae no te matini, te mau hi'opo'araa tamau i te mau taahiraa faufaa, e te farereiraa afaro atu i te mau taata aravihi e hamani nei i ta outou faanahoraa. Te pee nei matou i te mau tere vitiviti e te mau faaiteiteraa a te feia e rave i te ohipa, te tape'a nei matou i te mau tapura ohipa papû, e te horo'a nei matou i te mau parau faataaraa i te mau hepetoma atoa."
+      },
+      "support": {
+        "question": "Eaha te huru o te patururaa i muri a'e i te haamataraa ?",
+        "answer": "Te pûpû nei matou i te mau tuhaa patururaa faanahohia e te mau SLA faataahia, mai te hi'opo'araa 24/7, te pahonoraa i te mau ati, te faananearaa i te ohipa, e te hi'opo'araa i te mau rave'a. Ta matou mau parau faaau patururaa no ni'a ïa i te mau faatîraa i te mau pepe, te mau faaapîraa no te parururaa, te faananearaa i te mau rave'a, e te mau hi'opo'araa i te ea — tei faatanohia i ni'a i te mau titauraa no te taime ohiparaa e te taime pahonoraa."
+      },
+      "integration": {
+        "question": "E nehenehe anei ta outou e amui atu i roto i ta matou mau faanahoraa e vai nei ?",
+        "answer": "Oia mau. E mea aravihi matou i roto i te faaapîraa tahito, te mau faaôraa API-matamua, e te mau tauiraa i roto i te cloud hybrid. E hinaaro anei outou e tu'ati i ni'a i te mau faanahoraa ERP i ni'a i te vahi iho, e taui mai te mau monolith i te mau faanahoraa na'ina'i, e aore râ, e tu'ati i te mau pu'e parau tahito e te mau rave'a apî, te vai nei ta matou mau buka arata'iraa e te iteraa no te faananea i te reira."
+      },
+      "industries": {
+        "question": "Eaha te mau ohipa ta oe i rave ?",
+        "answer": "Ua horo'a ta matou pŭpŭ i te mau opuaraa i roto i te mau tuhaa no te fintech, te utuuturaa ma'i, te faanahoraa ohipa, te e-commerce, te ito e te hau. Ua maramarama matou i te mau titauraa taa ê no te taiete mai te PCI-DSS no te aufauraa, te mau hi'opo'araa HIPAA no te mau haamaramaramaraa no te ea, te haapa'oraa i te GDPR no te mau matete no te EU, e te telemetry i te taime mau no te IoT tapihooraa."
+      },
+      "engagement": {
+        "question": "Eaha te huru o te ohipa momo'araa ?",
+        "answer": "E haamata te reira na roto i te hoê piiraa no te ite i ta outou mau opuaraa e ta outou mau rave'a aravihi. Mai reira, e horo'a matou i te hoê parau faataaraa e te mau mana'o no ni'a i te hamaniraa, te tabula taime e te tabula haamau'araa. Ia oti te parau faati'a, e haamata matou na roto i te hoê pŭpŭ pŭpŭ, e faaô atu i roto i ta outou mau mauhaa e ta outou mau tereraa ohipa, e e haamata i te hororaa matamua i roto i te tahi tau mahana."
+      }
+    },
+    "stillHaveQuestions": "Te vai noa ra anei ta outou mau uiraa ?",
+    "ctaDescription": "Te vai ra anei te hoê opuaraa i roto i te feruriraa ? E paraparau ana'e tatou no ni'a i te aano, te taime e te haamau'araa faufaa.",
+    "readCaseStudies": "A tai'o i ta matou mau tuatapaparaa",
+    "scheduleCall": "A tarena i te hoê niuniu"
+  }
+}

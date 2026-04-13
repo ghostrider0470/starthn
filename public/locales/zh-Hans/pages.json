@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "关于我们",
+    "hero": {
+      "titlePrefix": "打造未来的科技，",
+      "titleHighlight": "现今",
+      "description": "Horizon Tech d.o.o. 是一家总部位于萨拉热窝的全球科技公司，为三大洲的企业提供尖端软件解决方案。"
+    },
+    "sections": {
+      "mission": {
+        "title": "使命",
+        "description": "我们帮助组织将雄心勃勃的想法转化为可靠的数字产品，创造可衡量的商业价值。",
+        "points": [
+          "将技术交付与明确的业务成果保持一致。",
+          "构建长期系统，使其在团队规模扩大时仍可维护。",
+          "从战略到执行，与利益相关者紧密合作。"
+        ]
+      },
+      "expertise": {
+        "title": "专业领域",
+        "description": "我们的多学科团队将工程深度与产品思维相结合，跨越现代技术栈。",
+        "points": [
+          "企业级网页与平台工程。",
+          "云架构、DevOps 自动化和弹性基础设施。",
+          "应用AI/ML、数据工作流程和物联网产品。"
+        ]
+      },
+      "approach": {
+        "title": "方法介绍",
+        "description": "我们采用透明、迭代的模型执行，确保交付可预测性，同时降低产品风险。",
+        "points": [
+          "发现：及早定义范围、优先事项和成功指标。",
+          "构建：以持续反馈循环的方式，分批发货。",
+          "优化：监测结果并随着时间提升绩效。"
+        ]
+      }
+    },
+    "cta": {
+      "title": "准备好转型您的业务了吗？",
+      "description": "加入日益增长的信赖Horizon Tech提供创新解决方案和卓越成果的公司行列。",
+      "primary": "开始",
+      "secondary": "查看成功案例"
+    }
+  },
+  "contact": {
+    "badge": "联系我们",
+    "hero": {
+      "title": "联系我们",
+      "description": "有心中的项目吗？我们很期待听到你的声音。欢迎联系我们，讨论我们如何帮助您实现创意。"
+    },
+    "info": {
+      "title": "联系方式"
+    },
+    "booking": {
+      "title": "预约会议",
+      "description": "预约一次免费的30分钟发现电话"
+    },
+    "methods": {
+      "email": {
+        "title": "电子邮件",
+        "description": "随时给我们发邮件",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "位置",
+        "description": "基地在",
+        "value": "波斯尼亚和黑塞哥维那萨拉热窝"
+      },
+      "response": {
+        "title": "响应时间",
+        "description": "我们通常会在内心回应",
+        "value": "24-48小时"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "新项目"
+      },
+      "support": {
+        "label": "技术支持"
+      },
+      "partnerships": {
+        "label": "合作伙伴关系"
+      },
+      "careers": {
+        "label": "职业生涯"
+      },
+      "general": {
+        "label": "一般调查"
+      }
+    },
+    "form": {
+      "title": "给我们留言",
+      "success": "谢谢你的留言。我们会在24-48小时内回复您。",
+      "error": "出了点问题。请再试或直接给我们发邮件。",
+      "fullName": "全名 *",
+      "email": "电子邮件地址 *",
+      "company": "公司",
+      "subject": "主题 *",
+      "message": "信息 *",
+      "placeholders": {
+        "name": "你的名字",
+        "email": "you@example.com",
+        "company": "你的公司",
+        "subject": "我们能帮什么忙？",
+        "message": "请谈谈您的项目或探究......"
+      },
+      "validation": {
+        "required": {
+          "name": "请填写全名。",
+          "email": "需要提供电子邮件地址。",
+          "subject": "请选择一个主题。",
+          "message": "需要留言。"
+        },
+        "email": "请输入有效的电子邮件地址。",
+        "messageMinLength": "信息必须至少有 {{count}} 字符。"
+      },
+      "sending": "发送......",
+      "submit": "发送消息"
+    },
+    "reasonsTitle": "为什么要和我们合作？",
+    "reasons": [
+      "全栈软件开发专业知识",
+      "AI/ML与云架构专家",
+      "敏捷开发与透明沟通",
+      "长期支持与维护"
+    ],
+    "custom": {
+      "title": "定制解决方案",
+      "description": "在寻找量身定制的解决方案吗？我们与客户紧密合作，了解独特需求，提供定制化软件，推动可衡量的成果。",
+      "cta": "讨论你的项目"
+    },
+    "faq": {
+      "title": "还有更多问题吗？",
+      "description": "请查看我们的常见问题部分，获取快速解答",
+      "cta": "浏览常见问题解答"
+    }
+  },
+  "team": {
+    "badge": "我们的团队",
+    "hero": {
+      "titlePrefix": "认识幕后思想",
+      "titleHighlight": "地平线科技",
+      "description": "一支由技术人员、设计师和战略家组成的多元化团队，共同打造高影响力的数字产品。"
+    },
+    "section": {
+      "title": "领导团队",
+      "description": "经验丰富的领导者引领Horizon Tech的愿景与成长"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "创始人、首席执行官兼首席技术官",
+        "bio": "具远见的领导者和技术架构师，拥有10+年企业软件经验，专注于AI/ML、云平台和可扩展产品架构。",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "蟒蛇",
+          "解决方案架构",
+          "云工程"
+        ]
+      },
+      "ahmet": {
+        "role": "首席安全架构师",
+        "bio": "网络安全专家，专注于企业安全架构、安全的本地基础设施以及为受监管环境提供以合规为先的交付。",
+        "expertise": [
+          "网络安全",
+          "本地系统",
+          "安全架构",
+          "合规",
+          "基础设施安全"
+        ]
+      }
+    },
+    "aria": {
+      "email": "电子邮件 {{name}}",
+      "linkedin": "{{name}} LinkedIn简介"
+    },
+    "culture": {
+      "title": "地平线科技大学的生活",
+      "description": "我们营造创新、协作与持续学习的文化",
+      "remoteFirst": {
+        "title": "远程优先文化",
+        "description": "可以在任何地方工作，时间灵活，注重结果而非地点。"
+      },
+      "collaborative": {
+        "title": "协作环境",
+        "description": "定期的团队活动、知识分享会议以及跨职能协作。"
+      },
+      "workLife": {
+        "title": "工作与生活的平衡",
+        "description": "宽松的假期政策、心理健康支持以及对个人时间的尊重。"
+      },
+      "innovation": {
+        "title": "创新时间",
+        "description": "20%的时间用于个人项目、黑客马拉松和探索新技术。"
+      },
+      "stats": {
+        "teamMembers": "团队成员",
+        "countries": "国家",
+        "techStacks": "科技堆栈",
+        "remoteReady": "远程准备"
+      }
+    },
+    "cta": {
+      "title": "想加入我们的团队吗？",
+      "description": "我们一直在寻找那些关心工艺、拥有权和创新的才华横溢的人。",
+      "button": "联系我们"
+    }
+  },
+  "careers": {
+    "badge": "加入我们的团队",
+    "hero": {
+      "titlePrefix": "建设未来",
+      "titleHighlight": "与我们同行",
+      "description": "加入一支为全球客户打造尖端软件的工程师团队。远程工作，持续成长，产生真正的影响。",
+      "button": "参见立场"
+    },
+    "process": {
+      "title": "我们的招聘流程",
+      "description": "透明、高效且尊重你的时间",
+      "steps": [
+        {
+          "title": "申请",
+          "description": "提交申请，我们将在3个工作日内审核。"
+        },
+        {
+          "title": "初始聊天",
+          "description": "30分钟的视频通话，讨论你的体验和期望。"
+        },
+        {
+          "title": "技术",
+          "description": "技术面试或实践练习来展示你的技能。"
+        },
+        {
+          "title": "提议",
+          "description": "认识团队，并收到加入Horizon Tech的录取通知。"
+        }
+      ]
+    },
+    "jobs": {
+      "title": "空缺职位",
+      "description": "寻找您的下一个机会，加入我们不断壮大的团队",
+      "unavailable": "目前不接受申请",
+      "apply": "立即申请",
+      "noMatch": "看不到完美的角色？",
+      "sendCv": "请将您的简历寄给我们",
+      "listings": [
+        {
+          "title": "高级全栈工程师",
+          "department": "工程",
+          "location": "远程（欧盟时区）",
+          "type": "全职",
+          "description": "利用React、Node.js和云技术构建可扩展的企业应用。",
+          "tags": [
+            "反应",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps 工程师",
+          "department": "工程",
+          "location": "萨拉热窝 / 偏远",
+          "type": "全职",
+          "description": "设计和维护CI/CD流水线、基础设施即代码和监控系统。",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "地球化",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "人工智能/机器学习工程师",
+          "department": "创新实验室",
+          "location": "远程",
+          "type": "全职",
+          "description": "为企业客户开发机器学习模型和人工智能解决方案。",
+          "tags": [
+            "蟒蛇",
+            "张量流",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "产品设计师",
+          "department": "设计",
+          "location": "远程",
+          "type": "全职",
+          "description": "为复杂的企业应用创造美观直观的用户体验。",
+          "tags": [
+            "菲格玛",
+            "用户研究",
+            "用户界面/用户体验",
+            "设计系统"
+          ]
+        },
+        {
+          "title": "解决方案架构师",
+          "department": "工程",
+          "location": "远程",
+          "type": "全职",
+          "description": "设计端到端技术解决方案，引导客户完成数字化转型。",
+          "tags": [
+            "云架构",
+            "系统设计",
+            "咨询"
+          ]
+        },
+        {
+          "title": "技术写作",
+          "department": "运营",
+          "location": "远程",
+          "type": "兼职",
+          "description": "创建全面的文档、教程和技术内容。",
+          "tags": [
+            "文献资料",
+            "API 文档",
+            "技术写作"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "关于在这里工作有疑问吗？",
+      "description": "我们很期待听到你的声音。欢迎联系我们，我们将解答关于Horizon Tech生活的任何问题。",
+      "button": "联系我们"
+    }
+  },
+  "caseStudies": {
+    "badge": "成功故事",
+    "hero": {
+      "titlePrefix": "交付结果",
+      "titleHighlight": "物质",
+      "description": "探索我们如何通过实用且高影响力的技术帮助各行各业的公司实现运营转型。",
+      "tags": {
+        "delivery": "工程交付",
+        "outcomes": "测量结果"
+      }
+    },
+    "stats": {
+      "projects": "已交付项目",
+      "clients": "满意的客户",
+      "efficiency": "平均效率提升",
+      "retention": "客户留存"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "环球金融科技公司",
+        "industry": "金融服务",
+        "title": "云迁移与现代化",
+        "description": "将遗留银行系统迁移到AWS云基础设施，零停机。",
+        "challenge": "遗留的单体架构导致的可扩展性问题",
+        "result": "成功迁移到AWS上的微服务",
+        "metrics": [
+          {
+            "label": "成本降低",
+            "value": "40%"
+          },
+          {
+            "label": "性能提升",
+            "value": "3次"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "微服务",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "健康科技解决方案",
+        "industry": "医疗保健",
+        "title": "人工智能驱动的诊断平台",
+        "description": "构建了95%+准确率的医学图像分析机器学习模型。",
+        "challenge": "人工诊断过程耗时过长",
+        "result": "AI/机器学习自动化诊断",
+        "metrics": [
+          {
+            "label": "节省的时间",
+            "value": "70%"
+          },
+          {
+            "label": "准确性",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "蟒蛇",
+          "张量流",
+          "反应",
+          "医疗保健"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "电子商务巨擘",
+        "industry": "零售",
+        "title": "实时分析仪表盘",
+        "description": "开发了BI平台，每天处理10M+事件。",
+        "challenge": "没有对关键业务指标的实时可视化",
+        "result": "实时分析与洞察平台",
+        "metrics": [
+          {
+            "label": "活动/当天",
+            "value": "10M+"
+          },
+          {
+            "label": "响应时间",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "大查询",
+          "卡夫卡",
+          "反应",
+          "数据工程"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "准备好写下你的成功故事了吗？",
+      "description": "让我们讨论如何帮助您实现类似成果并自信地扩展规模。"
+    },
+    "filters": {
+      "title": "行业滤波器",
+      "all": "所有产业",
+      "empty": "没有案例研究能匹配所选行业筛选。"
+    }
+  },
+  "blog": {
+    "badge": "博客",
+    "hero": {
+      "titlePrefix": "见解与想法来自",
+      "titleHighlight": "地平线科技",
+      "description": "技术教程、行业见解以及来自真实配送工作的实用经验。"
+    },
+    "categories": [
+      "所有帖子",
+      "云架构",
+      "DevOps",
+      "AI/ML",
+      "前端",
+      "后端",
+      "数据"
+    ],
+    "featuredPost": {
+      "id": "特色",
+      "title": "云原生开发的未来：2025年值得关注的趋势",
+      "excerpt": "探索云原生开发的最新趋势，从无服务器架构到边缘计算。",
+      "author": {
+        "name": "地平线科技社论"
+      },
+      "date": "2025年11月15日",
+      "readTime": "阅读时间8分钟",
+      "category": "云架构",
+      "tags": [
+        "克劳德",
+        "Azure",
+        "趋势"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "利用 Azure Kubernetes Service 构建可扩展的微服务",
+        "excerpt": "使用AKS架构和部署微服务的实用指南。",
+        "author": {
+          "name": "地平线科技社论"
+        },
+        "date": "2025年11月12日",
+        "readTime": "阅读6分钟",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "微服务",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "生产中的机器学习：经验教训",
+        "excerpt": "大规模部署机器学习模型的实地验证经验教训。",
+        "author": {
+          "name": "地平线科技社论"
+        },
+        "date": "2025年11月10日",
+        "readTime": "10分钟阅读",
+        "category": "AI/ML",
+        "tags": [
+          "机器学习",
+          "MLOps",
+          "蟒蛇"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19：新动态及其重要性",
+        "excerpt": "深入解析 React 19 的特性及其性能影响。",
+        "author": {
+          "name": "地平线科技社论"
+        },
+        "date": "2025年11月8日",
+        "readTime": "5分钟阅读",
+        "category": "前端",
+        "tags": [
+          "反应",
+          "JavaScript",
+          "网页开发"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "订阅我们的新闻通讯",
+      "description": "每周获取最新文章、教程和见解。",
+      "placeholder": "your.email@example.com",
+      "button": "订阅",
+      "note": "没有垃圾信息。随时取消订阅。"
+    },
+    "index": {
+      "hero": {
+        "title": "地平线科技工程博客",
+        "description": "来自构建AI产品、企业系统和可靠云平台团队的现场笔记和实用模式。"
+      },
+      "filters": {
+        "postsInView": "{{count}} 篇文章正在查看"
+      },
+      "featured": {
+        "badge": "最新消息",
+        "readCta": "阅读精选文章"
+      }
+    }
+  },
+  "profile": {
+    "loading": "加载配置文件......",
+    "title": "配置文件设置",
+    "subtitle": "管理您的账户设置和偏好设置",
+    "photoButton": "更换照片",
+    "tabs": {
+      "general": "概述",
+      "security": "安全性",
+      "preferences": "偏好"
+    },
+    "messages": {
+      "profileUpdated": "资料已成功更新",
+      "profileUpdateFailed": "未能更新个人资料",
+      "passwordsNoMatch": "新密码不匹配",
+      "passwordTooShort": "密码必须至少8个字符",
+      "passwordChanged": "密码已成功更改",
+      "passwordChangeFailed": "密码更改失败",
+      "optedOut": "选择退出练习报告",
+      "optedIn": "选择参与报告练习",
+      "optOutFailed": "未能更新退出状态"
+    },
+    "general": {
+      "title": "个人信息",
+      "description": "更新您的个人信息和联系方式",
+      "firstName": "名字",
+      "firstNamePlaceholder": "John",
+      "lastName": "姓氏",
+      "lastNamePlaceholder": "无名氏",
+      "email": "电子邮件地址",
+      "emailNotice": "邮箱无法更改。需要帮助时请联系客服。",
+      "phone": "电话号码",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "存档更改"
+    },
+    "security": {
+      "title": "安全设置",
+      "description": "管理您的密码和安全偏好",
+      "currentPassword": "当前密码",
+      "currentPasswordPlaceholder": "输入当前密码",
+      "newPassword": "新密码",
+      "newPasswordPlaceholder": "输入新密码",
+      "confirmPassword": "确认新密码",
+      "confirmPasswordPlaceholder": "确认新密码",
+      "passwordHint": "必须至少有8个字符",
+      "changePassword": "更改密码"
+    },
+    "preferences": {
+      "title": "通知偏好设置",
+      "description": "控制您如何接收更新和通知",
+      "email": {
+        "title": "电子邮件通知",
+        "description": "通过电子邮件接收更新和提醒"
+      },
+      "sms": {
+        "title": "短信通知",
+        "description": "通过短信接收重要提醒"
+      },
+      "optOut": {
+        "title": "选择退出实践报告",
+        "description": "把你的报告藏起来，不让诊所老板知道"
+      },
+      "actions": {
+        "title": "账户操作",
+        "downloadData": "下载账户数据",
+        "deleteAccount": "删除账户"
+      }
+    }
+  },
+  "support": {
+    "backHome": "回到家",
+    "title": "支持中心",
+    "subtitle": "获取我们的软件开发服务帮助",
+    "cards": {
+      "email": {
+        "title": "电子邮件支持",
+        "description": "如有任何咨询，请发送电子邮件给我们"
+      },
+      "project": {
+        "title": "项目咨询",
+        "description": "讨论你的项目需求",
+        "button": "联系我们"
+      },
+      "resources": {
+        "title": "资源",
+        "description": "技术资源与指南",
+        "button": "查看资源"
+      }
+    },
+    "faqTitle": "常见问题解答",
+    "faqDescription": "常见问题快速回答",
+    "faqs": [
+      {
+        "question": "Horizon Tech 提供哪些服务？",
+        "answer": "我们提供定制软件开发、AI/ML解决方案、云架构、DevOps、商业智能和物联网服务。"
+      },
+      {
+        "question": "我该如何开始使用Horizon Tech的项目？",
+        "answer": "请通过表格或电子邮件联系我们，告知您的需求。我们将安排一次证据披露电话并分享提案。"
+      },
+      {
+        "question": "你是否提供持续的支持和维护？",
+        "answer": "是的。我们提供支持和维护包，包括修复错误、安全更新和功能改进。"
+      }
+    ]
+  },
+  "education": {
+    "backHome": "回到家",
+    "title": "技术资源",
+    "subtitle": "Horizon Tech团队提供的指南、教程和最佳实践",
+    "hub": {
+      "title": "学习中心",
+      "description": "探索我们精心策划的云、人工智能/机器学习、DevOps 及现代软件开发技术资源。",
+      "note": "这些材料基于真实项目经验，并定期更新。"
+    },
+    "categories": [
+      {
+        "icon": "云",
+        "title": "云架构",
+        "description": "Azure、AWS 及云原生模式",
+        "resources": [
+          {
+            "title": "Azure Architecture 最佳实践",
+            "type": "指南"
+          },
+          {
+            "title": "云迁移策略",
+            "type": "文章"
+          }
+        ]
+      },
+      {
+        "icon": "大脑",
+        "title": "人工智能与机器学习",
+        "description": "机器学习模型、数据科学与人工智能集成",
+        "resources": [
+          {
+            "title": "Azure ML 简介",
+            "type": "教程"
+          },
+          {
+            "title": "构建生产机器学习管道",
+            "type": "指南"
+          }
+        ]
+      },
+      {
+        "icon": "背景设定",
+        "title": "DevOps 与平台",
+        "description": "CI/CD、基础设施即代码、自动化",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "教程"
+          },
+          {
+            "title": "基础设施即代码与Terraform",
+            "type": "指南"
+          }
+        ]
+      },
+      {
+        "icon": "代码",
+        "title": "软件开发",
+        "description": ".NET、React 以及现代开发实践",
+        "resources": [
+          {
+            "title": ".NET 中的清洁架构",
+            "type": "指南"
+          },
+          {
+            "title": "React 最佳实践",
+            "type": "文章"
+          }
+        ]
+      },
+      {
+        "icon": "数据库",
+        "title": "数据与分析",
+        "description": "商业智能、数据仓储和分析平台",
+        "resources": [
+          {
+            "title": "Power BI 仪表盘设计",
+            "type": "教程"
+          },
+          {
+            "title": "数据仓库架构",
+            "type": "指南"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "需要定制培训吗？",
+      "description": "我们为工程和产品团队提供量身定制的工作坊",
+      "text": "需要团队实操培训吗？我们提供关于云架构、DevOps 和现代交付实践的定制研讨会。",
+      "button": "联系我们"
+    }
+  },
+  "unauthorized": {
+    "title": "访问被拒",
+    "description": "您没有权限访问本页面。如果你认为这是错误，请联系你的管理员。",
+    "primary": "前往个人资料页",
+    "secondary": "回到家"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "帖子未找到",
+      "description": "slug： {{slug}} 没有博客文章",
+      "back": "返回博客"
+    },
+    "back": "返回博客",
+    "publisher": "地平线科技"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "案例研究未找到",
+      "description": "目前没有关于id： {{id}}的案例研究",
+      "back": "返回案例研究"
+    },
+    "back": "返回案例研究",
+    "sections": {
+      "executiveSummary": "执行摘要",
+      "businessChallenge": "商业挑战",
+      "technicalSolution": "技术解决方案",
+      "architectureDecisions": "架构决策",
+      "technologyStack": "技术栈",
+      "resultsImpact": "结果与影响"
+    },
+    "client": "客户",
+    "keyOutcomes": "主要成果",
+    "decision": "判决 {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // 信号丢失",
+      "title": "页面未找到",
+      "description": "你请求的路线不存在或已经移动。让我们带你回到一个有效的Horizon Tech终端。",
+      "requestedPath": "请求路径",
+      "terminal": {
+        "prompt": "$ horizon-router 解析 --path",
+        "line1": "解析路线图......失败了",
+        "line2": "原因：没有匹配的路由模块",
+        "line3": "启动备用协议",
+        "line4": "请使用下面的快捷方式继续"
+      },
+      "links": {
+        "home": "主页",
+        "services": "服务",
+        "blog": "博客",
+        "caseStudies": "案例研究"
+      }
+    },
+    "runtime": {
+      "badge": "运行时错误",
+      "title": "本页出了问题",
+      "description": "渲染过程中出现了意外问题。你可以安全重试，或者返回主页。",
+      "retry": "重试",
+      "home": "返回主页",
+      "unknown": "未知运行时错误"
+    }
+  },
+  "meta": {
+    "siteName": "地平线科技博客"
+  },
+  "admin": {
+    "blog": {
+      "title": "博客管理",
+      "subtitle": "创建、编辑和管理你的博客文章",
+      "newPost": "新帖",
+      "seedData": "种子数据",
+      "allPosts": "所有帖子",
+      "published": "发表",
+      "draft": "选秀",
+      "featured": "特色",
+      "setFeatured": "布景特色",
+      "removeFeatured": "移除精选",
+      "table": {
+        "title": "标题",
+        "category": "类别",
+        "status": "现状",
+        "date": "日期",
+        "actions": "行动"
+      },
+      "empty": {
+        "message": "还没有博客文章。创建你的第一个帖子或种子样本数据。",
+        "seed": "种子样本数据",
+        "create": "创建帖子"
+      },
+      "delete": {
+        "title": "删除帖子",
+        "confirmation": "你确定要删除这篇帖子吗？这一行为无法撤销。",
+        "delete": "删除",
+        "cancel": "取消"
+      }
+    },
+    "editor": {
+      "bannerHint": "以宽幅横幅形式展示在柱顶",
+      "bannerImage": "横幅图像",
+      "coverHint": "显示在博客列表卡中",
+      "coverImage": "封面图片",
+      "editSlug": "编辑 slug",
+      "posts": "职位",
+      "publish": "发布",
+      "update": "更新",
+      "form": {
+        "contentPlaceholder": "请在这里写下你的帖子内容......",
+        "excerptPlaceholder": "帖子简要总结......",
+        "pickDate": "选个日期吧",
+        "readTimePlaceholder": "例如，5分钟阅读",
+        "titlePlaceholder": "帖子标题......"
+      },
+      "meta": {
+        "publisher": "出版商",
+        "unknownAuthor": "作者不详"
+      },
+      "modes": {
+        "edit": "编辑",
+        "editOnly": "仅编辑",
+        "preview": "预览",
+        "previewOnly": "仅限预览",
+        "sideBySide": "并排",
+        "split": "分裂"
+      },
+      "tags": {
+        "heading": "标签",
+        "placeholder": "加个标签......"
+      },
+      "translations": {
+        "auto": "自动",
+        "autoTranslate": "自动翻译",
+        "clear": "清场",
+        "existing": "现存",
+        "heading": "译本",
+        "language": "语言",
+        "languages": "语言",
+        "edit": "编辑",
+        "manual": "手动",
+        "preview": "预览",
+        "searchPlaceholder": "搜索语言......",
+        "translate": "翻译"
+      }
+    },
+    "caseStudies": {
+      "title": "案例研究",
+      "subtitle": "管理案例研究和项目展示",
+      "newCaseStudy": "新案例研究",
+      "seedData": "种子数据",
+      "allCaseStudies": "所有案例研究",
+      "published": "发表",
+      "draft": "选秀",
+      "table": {
+        "title": "标题",
+        "industry": "工业",
+        "client": "客户",
+        "status": "现状",
+        "actions": "行动"
+      },
+      "empty": {
+        "message": "还没有案例研究。",
+        "seed": "种子数据",
+        "create": "优先创造"
+      },
+      "delete": {
+        "title": "删除案例研究",
+        "confirmation": "你确定要删除这个案例研究吗？这一行为无法撤销。",
+        "delete": "删除",
+        "cancel": "取消"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "案例研究",
+      "published": "发表",
+      "draft": "选秀",
+      "update": "更新",
+      "create": "创作",
+      "sections": {
+        "basicInfo": "基本信息",
+        "narrative": "叙述",
+        "architectureDecisions": "架构决策",
+        "techStack": "技术栈",
+        "results": "选举结果",
+        "tags": "标签"
+      },
+      "fields": {
+        "title": "标题",
+        "titlePlaceholder": "案例研究标题",
+        "slug": "蛞蝓",
+        "slugPlaceholder": "自动生成",
+        "client": "客户",
+        "clientPlaceholder": "客户名称",
+        "industry": "工业",
+        "industryPlaceholder": "精选行业",
+        "description": "描述",
+        "descriptionPlaceholder": "简要介绍（显示在卡片上）",
+        "executiveSummary": "执行摘要",
+        "executiveSummaryPlaceholder": "交战高层概述",
+        "challenge": "挑战",
+        "challengePlaceholder": "客户遇到了什么问题？",
+        "solution": "解决方案",
+        "solutionPlaceholder": "问题是如何解决的？",
+        "decision": "判决",
+        "decisionPlaceholder": "决定内容",
+        "rationale": "理由",
+        "rationalePlaceholder": "为何选择这种方法",
+        "metric": "度规",
+        "metricPlaceholder": "例如：结算延迟",
+        "value": "价值",
+        "valuePlaceholder": "例如：-63%或4.8小时->11米",
+        "resultDescription": "描述",
+        "resultDescriptionPlaceholder": "这一结果意味着什么",
+        "techPlaceholder": "添加技术（按回车键）",
+        "tagPlaceholder": "添加标签（按回车键）"
+      },
+      "add": "添加",
+      "noArchDecisions": "还没有新增架构决策。",
+      "noResults": "目前还没有新增结果。",
+      "decisionLabel": "判决 {{number}}",
+      "resultLabel": "结果 {{number}}",
+      "controls": {
+        "published": "发表",
+        "publishedDescription": "让这个案例研究公开",
+        "featured": "特色",
+        "featuredDescription": "突出此案例研究"
+      }
+    },
+    "imageCrop": {
+      "apply": "申请",
+      "cancel": "取消",
+      "cropTitle": "裁剪图像",
+      "dropText": "请在这里发布图片或点击上传",
+      "flipHorizontal": "水平翻转",
+      "flipVertical": "垂直转",
+      "replace": "替换",
+      "reset": "重置",
+      "rotateLeft": "向左转",
+      "rotateRight": "向右旋转",
+      "uploading": "上传中......",
+      "toast": {
+        "invalidFile": "无效文件",
+        "invalidFileDesc": "请上传有效的图片文件。",
+        "uploadFailed": "上传失败",
+        "uploadFailedDesc": "出了点问题。请再试一次。",
+        "uploaded": "图片上传",
+        "uploadedDesc": "您的图片已成功上传。"
+      }
+    }
+  }
+}

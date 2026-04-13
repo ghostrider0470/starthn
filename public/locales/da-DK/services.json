@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Kom i gang",
+    "ctaSecondary": "Book-konsultation"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Udvikling af virksomhedssoftware",
+      "description": "End-to-end virksomhedsapplikationer med moderne rammer, API-først arkitektur og cloud-native skalerbarhed."
+    },
+    "sections": {
+      "problem": {
+        "title": "Forretningsproblemformulering",
+        "subtitle": "Hvor virksomhedsprogrammer mister hastighed, budget og strategisk tilpasning"
+      },
+      "approach": {
+        "title": "Ingeniørmetode",
+        "subtitle": "Hvordan vi omsætter tvetydige krav til produktionsklare platforme"
+      },
+      "principles": {
+        "title": "Arkitekturprincipper",
+        "subtitle": "Designbeslutninger, der holder virksomhedens systemer vedligeholdelsesvenlige i stor skala"
+      },
+      "capabilities": {
+        "title": "Hvad vi bygger",
+        "subtitle": "Omfattende softwareudviklingsmuligheder"
+      },
+      "technology": {
+        "title": "Vores teknologistack",
+        "subtitle": "Moderne, gennemprøvede teknologier til enterprise-levering"
+      },
+      "breakdown": {
+        "title": "Serviceopdeling",
+        "subtitle": "En struktureret vej fra opdagelse til stabil produktionslevering"
+      }
+    },
+    "problem": {
+      "overview": "Enterprise-teams håndterer ofte kritiske arbejdsgange på fragmenterede systemer, hvilket skaber lange leveringstider, inkonsistente data og dyr manuel koordinering mellem afdelinger.",
+      "painPointsTitle": "Tilbagevendende forretningssmerter",
+      "impactSignalsTitle": "Hvad ledere normalt observerer",
+      "painPoints": [
+        "Leveringsforpligtelser skrider ud, fordi afhængigheder på tværs af teams ikke håndteres",
+        "Kerneforretningslogikken er duplikeret på tværs af kanaler og produkter",
+        "Legacy-integrationer gør nye funktionslanceringer højrisiko- og langsomme"
+      ],
+      "impactSignals": [
+        "Roadmap-gennemstrømningen falder, mens ingeniørudgifterne stiger",
+        "Kundevendte fejl stiger i udgivelsesperioder",
+        "Beslutningstagningen går langsommere på grund af inkonsekvent operationel rapportering"
+      ]
+    },
+    "approach": {
+      "overview": "Vi udfører med arkitektur-først opdagelse, kontraktstyret levering og kontrolleret release engineering, så forretningsværdi leveres i forudsigelige trin.",
+      "pillars": [
+        {
+          "title": "Domænemodellering og begrænsede kontekster",
+          "detail": "Vi kortlægger domæner for at klare servicegrænser, reducere tværteam-kobling og tydeliggøre ejerskab."
+        },
+        {
+          "title": "API-First integrationsstrategi",
+          "detail": "Vi definerer stabile kontrakter tidligt, hvilket muliggør parallel udvikling og sikrere integration med virksomhedssystemer."
+        },
+        {
+          "title": "Progressiv leveringsarbejdsgang",
+          "detail": "Vi bruger feature-flags, staged rollouts og kvalitetsgates for at udgive hurtigt uden at destabilisere produktionen."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Vores arkitekturbeslutninger prioriterer levetid, driftsdygtighed og klart ejerskab, så platformene forbliver tilpasningsdygtige, efterhånden som forretningsomfanget vokser.",
+      "items": [
+        {
+          "title": "Modulære servicegrænser",
+          "detail": "Kapaciteter pakkes omkring forretningsdomæner for at holde forandringspåvirkning lokaliseret."
+        },
+        {
+          "title": "Hændelsesdrevet integration",
+          "detail": "Asynkrone arbejdsgange anvendes, hvor latenstolerance eksisterer, for at forbedre robusthed og afkoble systemer."
+        },
+        {
+          "title": "Observerbarhed ved design",
+          "detail": "Sporing, metrikker og strukturerede logfiler defineres på forhånd for at understøtte pålidelige operationer og SLA-styring."
+        }
+      ]
+    },
+    "capabilities": [
+      "Skræddersyede webapplikationer",
+      "Udvikling af mobilapps",
+      "API-udvikling og integration",
+      "Mikroservicesarkitektur",
+      "Cloud-native løsninger",
+      "Modernisering af ældre systemer"
+    ],
+    "technologies": [
+      {
+        "name": "Reager",
+        "category": "Frontend",
+        "icon": "React"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Sprog",
+        "icon": "Typescript"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "graphql"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Database",
+        "icon": "PostGreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Database",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Opdagelse og arkitektur",
+        "summary": "Vi kortlægger forretningsprioriteter, tekniske begrænsninger og målarkitektur, før implementeringen starter.",
+        "deliverables": [
+          "Workshop om produkt- og kravtilpasning",
+          "Løsningsarkitektur-blueprint",
+          "Milepælsbaseret leveringsplan"
+        ]
+      },
+      {
+        "title": "Byg og Integration",
+        "summary": "Vores teams implementerer kernefunktioner, integrationslag og kvalitetssikringer parallelt.",
+        "deliverables": [
+          "Featureudvikling i iterative sprints",
+          "API- og tredjepartsintegrationer",
+          "Automatiseret test og kontrol af frigivelsesberedskab"
+        ]
+      },
+      {
+        "title": "Lancering og udvikling",
+        "summary": "Efter go-live stabiliserer vi driften og definerer den næste forbedringscyklus baseret på reel brug.",
+        "deliverables": [
+          "Produktionsudrulnings-runbook",
+          "Ydelse og pålidelighedsjustering",
+          "Køreplan efter lancering og efter-lancering af forbedringsbacklog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Klar til at bygge din næste applikation?",
+      "description": "Lad os designe og lancere en løsning, der skaber målbare forretningsresultater.",
+      "button": "Start dit projekt"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML og Business Intelligence",
+      "description": "Fra prædiktive modeller til ledelsesdashboards bygger vi komplette AI/BI-systemer, der understøtter beslutninger i stor skala."
+    },
+    "sections": {
+      "problem": {
+        "title": "Forretningsproblemformulering",
+        "subtitle": "Hvorfor data-rige organisationer stadig har svært ved at træffe sikre beslutninger"
+      },
+      "approach": {
+        "title": "Ingeniørmetode",
+        "subtitle": "Hvordan vi operationaliserer dataprodukter, ML-modeller og BI-arbejdsgange"
+      },
+      "principles": {
+        "title": "Arkitekturprincipper",
+        "subtitle": "Data- og modelarkitekturmønstre for pålidelig beslutningsintelligens"
+      },
+      "capabilities": {
+        "title": "Vores kapaciteter",
+        "subtitle": "Omfattende AI-, ML- og BI-løsninger"
+      },
+      "technology": {
+        "title": "Vores teknologistack",
+        "subtitle": "Brancheførende værktøjer til data og AI"
+      },
+      "breakdown": {
+        "title": "Serviceopdeling",
+        "subtitle": "Hvordan vi bevæger os fra fragmenterede data til intelligens på produktionsniveau"
+      }
+    },
+    "problem": {
+      "overview": "Organisationer indsamler ofte store mængder data, men formår ikke at omsætte dem til pålidelige prognoser, driftsbeslutninger eller målbar forretningshandling.",
+      "painPointsTitle": "Tilbagevendende forretningssmerter",
+      "impactSignalsTitle": "Hvad ledere normalt observerer",
+      "painPoints": [
+        "Rapporteringslogikken varierer mellem teams, hvilket resulterer i modstridende KPI-fortællinger",
+        "Modellerne forbliver i eksperimentering og når aldrig produktionsarbejdsgange",
+        "Datakvalitetsproblemer underminerer tilliden til analyser og ledelsesdashboards"
+      ],
+      "impactSignals": [
+        "Beslutningscyklusser går langsomt, fordi holdene debatterer datavaliditet i stedet for handling",
+        "Prognose- og planlægningsnøjagtighed forbliver inkonsekvent kvartal for kvartal",
+        "Analytiske investeringer viser lav adoption uden for specialiserede analytikergrupper"
+      ]
+    },
+    "approach": {
+      "overview": "Vi leverer AI- og BI-platforme som produktionssystemer, hvor vi kobler dataengineering, modellivscyklusoperationer og integration af beslutningsarbejdsgange.",
+      "pillars": [
+        {
+          "title": "Data Product Foundation",
+          "detail": "Domænetilpassede dataprodukter etablerer genanvendelige, styrede og højkvalitetsinput til analyse og ML."
+        },
+        {
+          "title": "MLOps livscyklusautomatisering",
+          "detail": "Træning, implementering, overvågning og drift kontrol automatiseres for at holde modellerne pålidelige i produktionen."
+        },
+        {
+          "title": "Integration af beslutningsarbejdsgange",
+          "detail": "Indsigter er indlejret i operationelle værktøjer og dashboards, så teams handler ud fra intelligens i daglige processer."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Vores AI/BI-arkitektur prioriterer pålidelige data, forklarlige modeller og styrede adgangsmønstre på tværs af virksomheden.",
+      "items": [
+        {
+          "title": "Enkeltmetrikdefinitioner",
+          "detail": "Kritiske KPI'er defineres én gang gennem delte semantiske modeller for at eliminere modstridende rapporteringslogik."
+        },
+        {
+          "title": "Modelpålidelighedskontroller",
+          "detail": "Præstationstærskler, driftdetektion og rollback-mekanismer beskytter beslutningskvaliteten i produktionen."
+        },
+        {
+          "title": "Sikkerhed og styring ved design",
+          "detail": "Datalinje, rollebaseret adgang og audit-klare kontroller er indlejret i hver pipeline."
+        }
+      ]
+    },
+    "capabilities": [
+      "Maskinlæringsmodeller og -pipelines",
+      "Power BI Dashboards & Rapporter",
+      "Prædiktiv analyse",
+      "Realtids datastreaming",
+      "Datalagerløsninger"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Platform",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "powerbi"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Datalager",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Dataingeniørarbejde",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML-platformen",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML-rammeværket",
+        "icon": "tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML-rammeværket",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Analyse",
+        "icon": "tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Behandling",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Sprog",
+        "icon": "PostGreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Data Foundation",
+        "summary": "Vi reviderer kilder, definerer datakontrakter og etablerer styring, så hver model starter med pålidelige input.",
+        "deliverables": [
+          "Datakilde- og kvalitetsvurdering",
+          "Feature-engineering og skemaplanlægning",
+          "Sikkerheds- og styringsbaseline"
+        ]
+      },
+      {
+        "title": "Model- og indsigtslevering",
+        "summary": "Vi bygger modeller og beslutningsdashboards knyttet til målbare forretningsspørgsmål og KPI'er.",
+        "deliverables": [
+          "Modeludvikling og validering",
+          "Ledelsesdashboards og operationel rapportering",
+          "Integration af beslutningsarbejdsgange"
+        ]
+      },
+      {
+        "title": "MLOps & Adoption",
+        "summary": "Vi operationaliserer implementering, overvågning og teamaktivering for at holde resultaterne pålidelige over tid.",
+        "deliverables": [
+          "Automatiserede modeludrulningspipelines",
+          "Overvågning af drift, nøjagtighed og forbrug",
+          "Teamoverdragelse og driftsstrategi"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Forvandl dine data til indsigt",
+      "description": "Omdanne fragmenterede data til klar, handlingsorienteret efterretning.",
+      "button": "Start din rejse"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Cloud-arkitektur og infrastruktur",
+      "description": "Multi-cloud-platforme, robust arkitektur og skalerbar infrastruktur designet til langsigtet vækst."
+    },
+    "sections": {
+      "problem": {
+        "title": "Forretningsproblemformulering",
+        "subtitle": "Hvorfor cloud-initiativer går i stå efter den første migrationsbølge"
+      },
+      "approach": {
+        "title": "Ingeniørmetode",
+        "subtitle": "Hvordan vi bygger sikre, skalerbare cloud-platforme med kontrolleret migrationsrisiko"
+      },
+      "principles": {
+        "title": "Arkitekturprincipper",
+        "subtitle": "Platformbeslutninger, der balancerer agilitet, robusthed og styring"
+      },
+      "capabilities": {
+        "title": "Cloud-tjenester",
+        "subtitle": "Byg, udrul og skaler i skyen"
+      },
+      "technology": {
+        "title": "Multi-Cloud ekspertise",
+        "subtitle": "Platform-agnostiske cloud-løsninger"
+      },
+      "breakdown": {
+        "title": "Serviceopdeling",
+        "subtitle": "En klar rækkefølge for design, migrering og drift af cloud-platforme"
+      }
+    },
+    "problem": {
+      "overview": "Mange organisationer gennemfører de indledende cloud-migreringer, men fungerer stadig som on-prem teams med dårlig synlighed, inkonsekvente kontroller og stigende udgifter.",
+      "painPointsTitle": "Tilbagevendende forretningssmerter",
+      "impactSignalsTitle": "Hvad ledere normalt observerer",
+      "painPoints": [
+        "Arbejdsbelastninger migreres uden standard sikkerheds- og netværkskontroller",
+        "Cloud-omkostningerne vokser hurtigere, end den forretningsværdi leveres.",
+        "Miljøprovisionering forbliver manuel og inkonsekvent på tværs af teams"
+      ],
+      "impactSignals": [
+        "Hyppige hændelser forårsaget af konfigurationsdrift mellem miljøer",
+        "Revisionsparathed forringes på grund af fragmenterede governance-praksisser",
+        "Infrastruktur-ledetider, forsinkelse af produkt- og datainitiativer"
+      ]
+    },
+    "approach": {
+      "overview": "Vi designer cloud-platforme som produkter ved hjælp af infrastrukturautomatisering, politik-sikkerhedsrammer og migrationsbølger, der er tilpasset forretningskritisk betydning.",
+      "pillars": [
+        {
+          "title": "Landingszone som kode",
+          "detail": "Identitet, netværk, sikkerhed og politikbaser er kodificeret for gentagbarhed og auditbarhed."
+        },
+        {
+          "title": "Bølgebaseret migrationsstrategi",
+          "detail": "Arbejdsbelastninger bevæger sig i kontrollerede faser med afhængighedsbevidst sekventering og rollback-parathed."
+        },
+        {
+          "title": "SRE + FinOps driftssløjfe",
+          "detail": "Pålidelighedsindikatorer og enhedsøkonomi gennemgås sammen for at forbedre både oppetid og forbrugseffektivitet."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Vores arkitekturmodel favoriserer deklarativ infrastruktur, adgang med mindst mulige privilegier og sammensatte platforme, der understøtter hurtig produktlevering.",
+      "items": [
+        {
+          "title": "Uforanderlige infrastrukturmønstre",
+          "detail": "Miljøerne genopbygges fra versionsbaseret kode for at minimere drift og forenkle operationel gendannelse."
+        },
+        {
+          "title": "Sikkerhedsbaseline som standard",
+          "detail": "Zero-trust adgangskontroller og håndhævelse af politikker er indlejret i alle miljølivscyklusser."
+        },
+        {
+          "title": "Modstandsdygtighed gennem distribution",
+          "detail": "Kritiske arbejdsbelastninger er designet til fejltolerance i flere zoner eller flere regioner, hvor forretningspåvirkning kræver det."
+        }
+      ]
+    },
+    "capabilities": [
+      "Multi-Cloud strategi og implementering",
+      "Containerorkestrering (Kubernetes)",
+      "Serverløs databehandling",
+      "Cloud-migreringstjenester",
+      "Højtilgængelighedsarkitektur"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Cloud",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "AWS",
+        "category": "Cloud",
+        "icon": "AmazonWebServices"
+      },
+      {
+        "name": "GCP",
+        "category": "Cloud",
+        "icon": "googlecloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orkestrering",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Beholdere",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "ARM-skabeloner",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "AmazonWebServices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Arkitektur og landingszone",
+        "summary": "Vi definerer måltilstanden, sikkerhedsforanstaltninger og basisplatformstandarder, før arbejdsbelastningerne flyttes.",
+        "deliverables": [
+          "Målrettet cloud-arkitekturdesign",
+          "Identitet, netværk og sikkerhedsbaseline",
+          "Omkostnings- og overholdelsesretningslinjer"
+        ]
+      },
+      {
+        "title": "Migration og platformopbygning",
+        "summary": "Vi udfører migrationsbølger og opstiller cloud-native platformkomponenter med gentagelig automatisering.",
+        "deliverables": [
+          "Arbejdsbelastningsmigreringssekventering",
+          "Opsætning af container- og serverløs platform",
+          "Infrastruktur som kode-moduler"
+        ]
+      },
+      {
+        "title": "Pålidelighed og FinOps",
+        "summary": "Vi forbedrer driftspålideligheden og optimerer løbende cloud-forbruget baseret på live telemetri.",
+        "deliverables": [
+          "SLO'er, overvågning og hændelsesarbejdsgange",
+          "Validering af modstandsdygtighed og katastrofeberedskab",
+          "Omkostningsoptimerings-efterslæb og styringsrytme"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Skaler din infrastruktur",
+      "description": "Byg cloud-fundamenter, der forbliver robuste under reel belastning.",
+      "button": "Planlæg din cloud-strategi"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Automatiserede leveringspipelines, observabilitet og platformpraksis, der forbedrer hastigheden uden at gå på kompromis med pålideligheden."
+    },
+    "sections": {
+      "problem": {
+        "title": "Forretningsproblemformulering",
+        "subtitle": "Hvorfor leveringshastigheden falder, efterhånden som platformens kompleksitet øges"
+      },
+      "approach": {
+        "title": "Ingeniørmetode",
+        "subtitle": "Hvordan vi standardiserer leveringspipelines uden at bremse produktteams"
+      },
+      "principles": {
+        "title": "Arkitekturprincipper",
+        "subtitle": "Platform engineering-mønstre, der skalerer pålidelighed og teamets autonomi"
+      },
+      "capabilities": {
+        "title": "DevOps-tjenester",
+        "subtitle": "Automatiser, overvåg og optimer din leveringslivscyklus"
+      },
+      "technology": {
+        "title": "DevOps-værktøjer og platforme",
+        "subtitle": "Bedst i klassen DevOps-værktøjskæde"
+      },
+      "breakdown": {
+        "title": "Serviceopdeling",
+        "subtitle": "En praktisk køreplan fra leveringsflaskehalse til høj-tillidsfuld udgivelsesflow"
+      }
+    },
+    "problem": {
+      "overview": "Organisationer investerer ofte i CI/CD-værktøjer, men kæmper stadig med ustabile udgivelser, langsomme godkendelser og fragmenteret ejerskab på tværs af miljøer.",
+      "painPointsTitle": "Tilbagevendende forretningssmerter",
+      "impactSignalsTitle": "Hvad ledere normalt observerer",
+      "painPoints": [
+        "Pipeline-definitioner varierer fra team til hold, hvilket skaber inkonsistente kvalitetsporte",
+        "Manuelle godkendelser af udrulning forsinker hotfix- og funktionsudgivelsestidslinjer",
+        "Operationelle hændelser gentager sig, fordi telemetri er ufuldstændig eller isoleret"
+      ],
+      "impactSignals": [
+        "Leveringstiden for ændringer fortsætter med at stige trods automatiseringsforbruget",
+        "Ændringsfejlraten spidser under leveringsperioder med højt volumen",
+        "Udviklerproduktiviteten falder på grund af værktøjsfriktion og kontekstskift"
+      ]
+    },
+    "approach": {
+      "overview": "Vi etablerer en intern udviklerplatformmodel med genanvendelige pipeline-skabeloner, politikstyret styring og fuld livscyklus-observabilitet.",
+      "pillars": [
+        {
+          "title": "Golden Path pipeline-skabeloner",
+          "detail": "Genanvendelige CI/CD-blueprints standardiserer build, test, sikkerhedstjek og implementeringsworkflows."
+        },
+        {
+          "title": "Platform API & Selvbetjening",
+          "detail": "Teams leverer miljøer og frigiver infrastruktur gennem kontrollerede selvbetjeningsgrænseflader."
+        },
+        {
+          "title": "Pålidelighedsfeedback-sløjfer",
+          "detail": "Hændelsestendenser, SLO-sundhed og implementeringstelemetri informerer løbende proces- og arkitekturforbedringer."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Vores DevOps-arkitektur tilpasser leveringshastighed til governance ved at automatisere kontroller og minimere engangsoperationelt arbejde.",
+      "items": [
+        {
+          "title": "Alt som versioneret kode",
+          "detail": "Pipelines, infrastruktur og politikregler administreres i versionskontrol for auditabilitet og gentagbarhed."
+        },
+        {
+          "title": "Progressiv verifikation",
+          "detail": "Kvalitets-, sikkerheds- og ydelsestjek lægges på tværs af trin for at opdage risiko tidligere."
+        },
+        {
+          "title": "Ansvar for delt platform",
+          "detail": "Platformteams leverer asfalterede muligheder, mens produktteams bevarer leveringsejerskabet."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI/CD-pipelinedesign",
+      "Infrastruktur som kode",
+      "Automatiseret testning",
+      "Implementeringsautomatisering",
+      "Overvågning og observerbarhed"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Platform",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "GitHub-handlinger",
+        "category": "CI/CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Styring",
+        "category": "Emballage",
+        "icon": "Hjelm"
+      },
+      {
+        "name": "Ansible",
+        "category": "Automatisering",
+        "icon": "ansible"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Overvågning",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Observerbarhed",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Platformvurdering",
+        "summary": "Vi evaluerer din nuværende softwareleveringskæde for at identificere risikopunkter og hastighedsbegrænsninger.",
+        "deliverables": [
+          "Workflowkort over levering af nuværende tilstand",
+          "Pipeline-flaskehalsanalyse",
+          "Målrettet DevOps-modenhedsplan"
+        ]
+      },
+      {
+        "title": "Pipeline- og automatiseringsbygning",
+        "summary": "Vi implementerer pålidelig CI/CD, kvalitetsgates og infrastrukturautomatisering for konsistente udgivelser.",
+        "deliverables": [
+          "Genanvendelige CI/CD-skabeloner",
+          "Automatisering af infrastruktur og miljø",
+          "Automatiseret testning og frigivelseskontrol"
+        ]
+      },
+      {
+        "title": "Drift & Forbegynd",
+        "summary": "Vi etablerer observabilitets- og styringsloops, der understøtter kontinuerlig leveringsforbedring.",
+        "deliverables": [
+          "Overvågningsdashboards og alarmpolitikker",
+          "Udgivelsesstyring og hændelsesregler",
+          "Løbende forbedringsmålinger og gennemgange"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Accelerérér din levering",
+      "description": "Reducer friktion ved udgivelser og forbedr pålideligheden med modne DevOps-praksisser.",
+      "button": "Transformér din pipeline"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Digital transformation og strategi",
+      "description": "Strategisk rådgivning og eksekveringsstøtte for at modernisere platforme, teams og driftsmodeller."
+    },
+    "sections": {
+      "problem": {
+        "title": "Forretningsproblemformulering",
+        "subtitle": "Hvor transformationsprogrammer mister momentum og ledelsens selvtillid"
+      },
+      "capabilities": {
+        "title": "Konsulenttjenester",
+        "subtitle": "Strategisk vejledning for digital succes"
+      },
+      "approach": {
+        "title": "Ingeniørmetode",
+        "subtitle": "Hvordan vi omsætter strategi til eksekverbar, teknologiunderstøttet forandring"
+      },
+      "principles": {
+        "title": "Arkitekturprincipper",
+        "subtitle": "Driftsmodel- og platformvalg, der beskytter transformationsresultater"
+      },
+      "technology": {
+        "title": "Teknologistakk",
+        "subtitle": "Platforme og rammer, vi bruger til at operationalisere transformationen"
+      },
+      "breakdown": {
+        "title": "Serviceopdeling",
+        "subtitle": "Struktureret transformation fra strategidefinition til målbar forretningsværdi"
+      }
+    },
+    "problem": {
+      "overview": "Digitale initiativer starter ofte med stærk intention, men omsættes ikke til leveringsresultater på grund af uklart ejerskab, usammenhængende værktøjer og konkurrerende prioriteter.",
+      "painPointsTitle": "Tilbagevendende forretningssmerter",
+      "impactSignalsTitle": "Hvad ledere normalt observerer",
+      "painPoints": [
+        "Transformationsplaner defineres, men oversættes ikke til leveringsstyring",
+        "Forretnings- og ingeniørprioriteter adskiller sig efter de indledende planlægningscyklusser",
+        "Ældre driftsmodeller blokerer indførelsen af moderne produktleveringspraksisser"
+      ],
+      "impactSignals": [
+        "Programudgifterne stiger, mens den strategiske KPI-bevægelse forbliver uændret",
+        "Initiativer misser overleveringspunkter mellem strategi, arkitektur og udførelse",
+        "Teams oplever forandringstræthed med begrænset realiseret forretningsværdi"
+      ]
+    },
+    "approach": {
+      "overview": "Vi kombinerer strategisk rådgivning med leveringsarkitektur, hvor vi tilpasser design af driftsmodel, platformkapacitet og eksekveringsrytme omkring målbare mål.",
+      "pillars": [
+        {
+          "title": "Prioritering af værdistrømme",
+          "detail": "Vi sekvenserer initiativer baseret på målbar forretningspåvirkning og tekniske afhængighedsbegrænsninger."
+        },
+        {
+          "title": "Design af måldriftsmodellen",
+          "detail": "Roller, styring og beslutningsrettigheder defineres for at understøtte hurtigere eksekvering på tværs af forretnings- og teknologiteams."
+        },
+        {
+          "title": "Porteføljeleveringsstyring",
+          "detail": "Transformationsfremskridt styres gennem KPI-tilknyttede kontrolpunkter og porteføljeniveau-risikokontrol."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Vores transformationsarkitektur lægger vægt på inkrementel modernisering og klar ansvarlighed og undgår forstyrrende omskrivninger uden forretningsmæssig begrundelse.",
+      "items": [
+        {
+          "title": "Forretningskapabilitetsjustering",
+          "detail": "Teknologiske ændringer er organiseret omkring kapaciteter, der direkte svarer til omsætning, servicekvalitet eller omkostningseffektivitet."
+        },
+        {
+          "title": "Strategi for sammensatte platforme",
+          "detail": "Platformkomponenterne vælges for interoperabilitet for at understøtte faseopdelt migration og hurtigere tilpasning."
+        },
+        {
+          "title": "Styring med leveringsrytme",
+          "detail": "Beslutningsfora og kontrolpunkter er indlejret i sprint- og kvartalscyklusser og behandles ikke som separate bureaukratiske spor."
+        }
+      ]
+    },
+    "capabilities": [
+      "Digital transformationskort",
+      "Udvikling af teknologistrategi",
+      "Cloud-adoptionsrammeværk",
+      "Procesoptimering",
+      "Forandringsledelse"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Foundation",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Dataplatform",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Beslutningsintelligens",
+        "icon": "powerbi"
+      },
+      {
+        "name": "Kraftplatform",
+        "category": "Low-Code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Samarbejde",
+        "icon": "MicrosoftSharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strategitilpasning",
+        "summary": "Vi tilpasser ledelsesprioriteter og digitale mål for at skabe en fælles transformationsretning.",
+        "deliverables": [
+          "Transformationsmål og succeskriterier",
+          "Kapacitetsmodenhed og vurdering af gap",
+          "Prioriteret initiativportefølje"
+        ]
+      },
+      {
+        "title": "Henrettelsesplan",
+        "summary": "Vi definerer målmodellen for driften, arkitekturstandarder og faseopdelt implementeringssekvens.",
+        "deliverables": [
+          "Driftsmodel og governance-design",
+          "Teknologi- og procesarkitekturstandarder",
+          "Faseopdelt implementeringsplan"
+        ]
+      },
+      {
+        "title": "Forandring og værdirealisering",
+        "summary": "Vi driver adoption, følger KPI-bevægelser og forfiner initiativer baseret på leveringsresultater.",
+        "deliverables": [
+          "Adoptions- og muliggørelsesplan",
+          "KPI-målekadence",
+          "Kvartalsvis optimeringsbacklog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Start din transformationsrejse",
+      "description": "Naviger forandring med klare prioriteter og praktiske leveringsplaner.",
+      "button": "Planlæg strategisession"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Forbundne systemer fra enhed til sky, med telemetripipelines og edge intelligence til industriel skala."
+    },
+    "sections": {
+      "problem": {
+        "title": "Forretningsproblemformulering",
+        "subtitle": "Hvorfor programmer til tilsluttede enheder ikke skalerer ud over pilotimplementeringer"
+      },
+      "approach": {
+        "title": "Ingeniørmetode",
+        "subtitle": "Hvordan vi designer sikre, funktionsdygtige IoT-systemer fra enhedsfirmware til cloud-API'er"
+      },
+      "principles": {
+        "title": "Arkitekturprincipper",
+        "subtitle": "Edge-to-cloud designregler for pålidelighed, latenstid og flådestyring"
+      },
+      "capabilities": {
+        "title": "IoT-løsninger",
+        "subtitle": "Forbind, overvåg og optimer dine enheder"
+      },
+      "technology": {
+        "title": "IoT Teknologistack",
+        "subtitle": "Fra hardware til cloud"
+      },
+      "breakdown": {
+        "title": "Serviceopdeling",
+        "subtitle": "Hvordan vi leverer forbundne systemer fra edge-enheder til cloud intelligence"
+      }
+    },
+    "problem": {
+      "overview": "IoT-initiativer viser sig ofte at være teknisk gennemførlige i pilotprojekter, men fejler i stor skala på grund af upålidelig forbindelse, svage flådekontroller og dårlig integration med forretningsarbejdsgange.",
+      "painPointsTitle": "Tilbagevendende forretningssmerter",
+      "impactSignalsTitle": "Hvad ledere normalt observerer",
+      "painPoints": [
+        "Onboarding af enheder og livscyklusstyring forbliver manuelle og fejlbehæftede",
+        "Telemetripipelines producerer støjende, ufuldstændige eller forsinkede driftsdata",
+        "Fjernkommando og firmwareopdateringer introducerer sikkerheds- og tryghedsrisici"
+      ],
+      "impactSignals": [
+        "Pilotmiljøer lykkes, men produktionsudrulningstidsplaner forsinkes gentagne gange",
+        "Feltoperationsteams reagerer på hændelser uden forudsigende synlighed",
+        "Forretningssystemer kan ikke pålideligt forbruge enhedsintelligens i realtid"
+      ]
+    },
+    "approach": {
+      "overview": "Vi designer IoT-platforme som kontrollerede distribuerede systemer, der kombinerer sikre edge runtime-standarder, hændelsesdrevet indtastning og operationel styring i flådeskala.",
+      "pillars": [
+        {
+          "title": "Sikker enhedslivscyklusstyring",
+          "detail": "Provisionering, identitet, nøglerotation og firmwareopdateringer automatiseres for at reducere operationel risiko."
+        },
+        {
+          "title": "Hændelsesdrevet telemetriarkitektur",
+          "detail": "Streaming-pipelines normaliserer, validerer og dirigerer enhedshændelser til analyse og kontrol næsten i realtid."
+        },
+        {
+          "title": "Flådeoperationskontrolplan",
+          "detail": "Overvågning, alarmering og fjernkommando-workflows giver pålidelig overvågning på tværs af distribuerede aktiver."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Vores IoT-arkitektur balancerer lav-latens edge-beslutninger med centraliseret styring, observabilitet og sikkerhedsoverholdelse.",
+      "items": [
+        {
+          "title": "Kantautonomi med sky-koordinering",
+          "detail": "Kritiske lokale operationer fortsætter under netværksforringelse, mens tilstanden synkroniseres til cloud-systemer, når det er muligt."
+        },
+        {
+          "title": "Kontrakterede hændelsesskemaer",
+          "detail": "Enheds- og platformteams bruger styrede skemaer for at bevare telemetrikonsistens på tværs af versioner."
+        },
+        {
+          "title": "Zero-Trust enhedssikkerhed",
+          "detail": "Gensidig autentificering, least privilege og krypteret transport håndhæves på tværs af alle enhedsinteraktioner."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT Enhedsstyring",
+      "Digitale tvillingeløsninger",
+      "Edge computing-implementering",
+      "Realtidstelemetri",
+      "Prædiktiv vedligeholdelse"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Digitale tvillinger",
+        "category": "Simulation",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Kant",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protokol",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protokol",
+        "icon": "lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Hardware",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Hardware",
+        "icon": "hindbærrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Tidsserie-DB",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Enheds- og Edge-strategi",
+        "summary": "Vi definerer forbindelsesmønstre, edge-runtime-standarder og sikker provisionering for feltenheder.",
+        "deliverables": [
+          "Enhedsonboarding og forbindelsesmodel",
+          "Edge-runtime og implementeringsblueprint",
+          "Flådesikkerhedsbaseline"
+        ]
+      },
+      {
+        "title": "Telemetri- og kontrolplan",
+        "summary": "Vi bygger pipelines, der opfanger begivenheder, modellerer digitale tvillinger og muliggør fjernstyringsworkflows.",
+        "deliverables": [
+          "Realtids-indlæsning og design af hændelsesskemaer",
+          "Digital tvilling og implementering af aktivmodeller",
+          "Kommando- og kontrol-API-lag"
+        ]
+      },
+      {
+        "title": "Drift og skala",
+        "summary": "Vi operationaliserer flådestyring og pålidelighedskontrol til IoT-miljøer i produktionsskala.",
+        "deliverables": [
+          "Overvågning og alarmering af enhedsflåden",
+          "Forudsigende vedligeholdelse og afvigelsesdetektion",
+          "Udrulning og livscyklussupportplan"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Forbind dine enheder",
+      "description": "Byg pålidelige IoT-løsninger klar til reelle produktionsmiljøer.",
+      "button": "Start dit IoT-projekt"
+    }
+  }
+}

@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Dechrau arni",
+    "ctaSecondary": "Trefnu Ymgynghoriad"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Datblygu Meddalwedd Menter",
+      "description": "Cymwysiadau menter o'r diwedd i'r diwedd gyda fframweithiau modern, pensaernïaeth API-gyntaf, a scalability cwmwl-frodorol."
+    },
+    "sections": {
+      "problem": {
+        "title": "Fframio Problemau Busnes",
+        "subtitle": "Lle mae rhaglenni menter yn colli cyflymder, cyllideb, ac aliniad strategol"
+      },
+      "approach": {
+        "title": "Dull Peirianneg",
+        "subtitle": "Sut rydyn ni'n troi gofynion amwys yn lwyfannau sy'n barod i gynhyrchu"
+      },
+      "principles": {
+        "title": "Egwyddorion Pensaernïaeth",
+        "subtitle": "Penderfyniadau dylunio sy'n cadw systemau menter yn gynhaliol ar raddfa"
+      },
+      "capabilities": {
+        "title": "Beth rydyn ni'n ei adeiladu",
+        "subtitle": "Galluoedd datblygu meddalwedd cynhwysfawr"
+      },
+      "technology": {
+        "title": "Ein Pentwr Technoleg",
+        "subtitle": "Technolegau modern, profedig ar gyfer cyflenwi menter"
+      },
+      "breakdown": {
+        "title": "Dadansoddiad Gwasanaeth",
+        "subtitle": "Llwybr strwythuredig o ddarganfod i gyflenwi cynhyrchu sefydlog"
+      }
+    },
+    "problem": {
+      "overview": "Mae timau menter yn aml yn cario llifoedd gwaith beirniadol ar systemau tameidiog, gan greu amseroedd arweiniol hir, data anghyson, a chydlynu llaw drud rhwng adrannau.",
+      "painPointsTitle": "Poen Busnes Ailadroddus",
+      "impactSignalsTitle": "Beth mae arweinwyr fel arfer yn ei arsylwi",
+      "painPoints": [
+        "Mae ymrwymiadau cyflenwi yn llithro oherwydd bod dibyniaethau ar draws timau heb eu rheoli",
+        "Mae rhesymeg busnes craidd yn cael ei ddyblygu ar draws sianeli a chynhyrchion",
+        "Mae integreiddiadau etifeddiaeth yn gwneud lansiadau nodwedd newydd yn risg uchel ac yn araf"
+      ],
+      "impactSignals": [
+        "Mae trwybwn map ffordd yn gostwng tra bod gwariant peirianneg yn cynyddu",
+        "Mae diffygion sy'n wynebu cwsmeriaid yn cynyddu yn ystod cyfnodau rhyddhau",
+        "Mae gwneud penderfyniadau yn arafu oherwydd adroddiadau gweithredol anghyson"
+      ]
+    },
+    "approach": {
+      "overview": "Rydym yn gweithredu gyda darganfyddiad pensaernïaeth yn gyntaf, cyflenwi wedi'i yrru gan gontract, a pheirianneg rhyddhau rheoledig fel bod gwerth busnes yn cael ei gludo mewn cynnydd rhagweladwy.",
+      "pillars": [
+        {
+          "title": "Modelu Parth a Chyd-destunau Cyfyngedig",
+          "detail": "Rydym yn mapio parthau i glirio ffiniau gwasanaeth i leihau cyplu traws-dîm ac egluro perchnogaeth."
+        },
+        {
+          "title": "Strategaeth Integreiddio API-First",
+          "detail": "Rydym yn diffinio contractau sefydlog yn gynnar, gan alluogi datblygiad cyfochrog ac integreiddio mwy diogel â systemau menter."
+        },
+        {
+          "title": "Llif Gwaith Cyflenwi Blaengar",
+          "detail": "Rydym yn defnyddio baneri nodwedd, cyflwyniadau wedi'u llwyfannu, a gatiau o ansawdd i ryddhau'n gyflym heb ansefydlogi cynhyrchiad."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Mae ein penderfyniadau pensaernïaeth yn blaenoriaethu hirhoedledd, gweithredadwyedd, a pherchnogaeth glir fel bod llwyfannau yn parhau i fod yn addasadwy wrth i gwmpas busnes dyfu.",
+      "items": [
+        {
+          "title": "Ffiniau Gwasanaeth Modiwlaidd",
+          "detail": "Mae galluoedd wedi'u pecynnu o amgylch parthau busnes i gadw effaith newid yn lleol."
+        },
+        {
+          "title": "Integreiddio sy'n cael ei yrru gan ddigwyddiadau",
+          "detail": "Defnyddir llifoedd gwaith asyncronig lle mae goddefgarwch latency yn bodoli i wella gwytnwch a datgysylltu systemau."
+        },
+        {
+          "title": "Arsylwadwyedd trwy Ddylunio",
+          "detail": "Diffinnir olrhain, metrigau, a logiau strwythuredig ymlaen llaw i gefnogi gweithrediadau dibynadwy a llywodraethu SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Rhaglenni Gwe Addasedig",
+      "Datblygu Apiau Symudol",
+      "Datblygu ac Integreiddio API",
+      "Pensaernïaeth Microservices",
+      "Datrysiadau Brodorol Cwmwl",
+      "Moderneiddio System Etifeddiaeth"
+    ],
+    "technologies": [
+      {
+        "name": "Ymateb",
+        "category": "Ochr flaen",
+        "icon": "ymateb"
+      },
+      {
+        "name": "Node.js",
+        "category": "Ochr gefn",
+        "icon": "Mewngofnodi"
+      },
+      {
+        "name": ".NET",
+        "category": "Ochr gefn",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Ochr gefn",
+        "icon": "Mewngofnodi"
+      },
+      {
+        "name": "Teipysgrif",
+        "category": "Iaith",
+        "icon": "teipysgrif"
+      },
+      {
+        "name": "GraffQL",
+        "category": "API",
+        "icon": "grafftextattr"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Cronfa ddata",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Cronfa ddata",
+        "icon": "Mewngofnodi"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Darganfod a Phensaernïaeth",
+        "summary": "Rydym yn mapio blaenoriaethau busnes, cyfyngiadau technegol, a phensaernïaeth targed cyn dechrau gweithredu.",
+        "deliverables": [
+          "Gweithdy alinio cynnyrch a gofynion",
+          "Glasbrint pensaernïaeth datrysiad",
+          "Cynllun cyflawni yn seiliedig ar garreg filltir"
+        ]
+      },
+      {
+        "title": "Adeiladu ac Integreiddio",
+        "summary": "Mae ein timau yn gweithredu nodweddion craidd, haenau integreiddio, a mesurau diogelu ansawdd yn gyfochrog.",
+        "deliverables": [
+          "Datblygu nodweddion mewn sbrintiau ailadroddus",
+          "API ac integreiddiadau trydydd parti",
+          "Profi awtomataidd a gwiriadau parodrwydd rhyddhau"
+        ]
+      },
+      {
+        "title": "Lansio ac Esblygiad",
+        "summary": "Ar ôl mynd yn fyw, rydym yn sefydlogi gweithrediadau ac yn diffinio'r cylch gwella nesaf yn seiliedig ar ddefnydd go iawn.",
+        "deliverables": [
+          "Llyfr rhediad cyflwyno cynhyrchu",
+          "Tiwnio perfformiad a dibynadwyedd",
+          "Ôl-lansiad map ffordd ac ôl-groniad gwella"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Yn barod i adeiladu eich cais nesaf?",
+      "description": "Gadewch i ni ddylunio a llongio datrysiad sy'n gyrru canlyniadau busnes mesuradwy.",
+      "button": "Dechrau Eich Prosiect"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML a Deallusrwydd Busnes",
+      "description": "O fodelau rhagfynegol i ddangosfyrddau gweithredol, rydym yn adeiladu systemau AI / BI cyflawn sy'n cefnogi penderfyniadau ar raddfa."
+    },
+    "sections": {
+      "problem": {
+        "title": "Fframio Problemau Busnes",
+        "subtitle": "Pam mae sefydliadau sy'n gyfoethog o ddata yn dal i gael trafferth gwneud penderfyniadau hyderus"
+      },
+      "approach": {
+        "title": "Dull Peirianneg",
+        "subtitle": "Sut rydym yn gweithredu cynhyrchion data, modelau ML, a llifoedd gwaith BI"
+      },
+      "principles": {
+        "title": "Egwyddorion Pensaernïaeth",
+        "subtitle": "Patrymau pensaernïaeth data a model ar gyfer deallusrwydd penderfyniadau dibynadwy"
+      },
+      "capabilities": {
+        "title": "Ein Galluoedd",
+        "subtitle": "Datrysiadau AI, ML a BI cynhwysfawr"
+      },
+      "technology": {
+        "title": "Ein Pentwr Technoleg",
+        "subtitle": "Offer sy'n arwain y diwydiant ar gyfer data ac AI"
+      },
+      "breakdown": {
+        "title": "Dadansoddiad Gwasanaeth",
+        "subtitle": "Sut rydym yn symud o ddata tameidiog i ddeallusrwydd gradd cynhyrchu"
+      }
+    },
+    "problem": {
+      "overview": "Mae sefydliadau yn aml yn casglu cyfeintiau mawr o ddata ond yn methu â'i gyfieithu i ragfynegiadau dibynadwy, penderfyniadau gweithredol, neu weithredu busnes mesuradwy.",
+      "painPointsTitle": "Poen Busnes Ailadroddus",
+      "impactSignalsTitle": "Beth mae arweinwyr fel arfer yn ei arsylwi",
+      "painPoints": [
+        "Mae rhesymeg adrodd yn wahanol ar draws timau, gan arwain at naratifau KPI gwrthdaro",
+        "Mae modelau'n parhau i arbrofi a byth yn cyrraedd llifoedd gwaith cynhyrchu",
+        "Mae materion ansawdd data yn tanseilio ymddiriedaeth mewn dadansoddeg a dangosfyrddau gweithredol"
+      ],
+      "impactSignals": [
+        "Mae cylchoedd penderfynu yn araf oherwydd bod timau yn trafod dilysrwydd data yn hytrach na gweithredu",
+        "Mae cywirdeb rhagfynegi a chynllunio yn parhau i fod yn anghyson chwarter ar chwarter",
+        "Mae buddsoddiadau dadansoddeg yn dangos mabwysiadu isel y tu allan i grwpiau dadansoddwyr arbenigol"
+      ]
+    },
+    "approach": {
+      "overview": "Rydym yn darparu llwyfannau AI ac BI fel systemau cynhyrchu, peirianneg data, gweithrediadau cylch bywyd modelau, ac integreiddio llif gwaith penderfyniadau.",
+      "pillars": [
+        {
+          "title": "Sefydliad Cynnyrch Data",
+          "detail": "Mae cynhyrchion data wedi'u halinio â pharth yn sefydlu mewnbynnau ailddefnyddiadwy, wedi'u llywodraethu ac o ansawdd uchel ar gyfer dadansoddeg a ML."
+        },
+        {
+          "title": "Awtomeiddio Cylch Bywyd MLOps",
+          "detail": "Mae hyfforddiant, defnyddio, monitro, a rheoli drifft yn awtomataidd i gadw modelau yn ddibynadwy wrth gynhyrchu."
+        },
+        {
+          "title": "Integreiddio Llif Gwaith Penderfyniadau",
+          "detail": "Mae mewnwelediadau wedi'u hymgorffori mewn offer gweithredol a dangosfyrddau fel bod timau yn gweithredu ar ddeallusrwydd o fewn prosesau dyddiol."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Mae ein pensaernïaeth AI / BI yn blaenoriaethu data dibynadwy, modelau esboniadwy, a phatrymau mynediad llywodraethedig ar draws y fenter.",
+      "items": [
+        {
+          "title": "Diffiniadau Metrig Sengl",
+          "detail": "Mae KPIs critigol yn cael eu diffinio unwaith trwy fodelau semantig a rennir i ddileu rhesymeg adrodd gwrthdaro."
+        },
+        {
+          "title": "Rheolaethau Dibynadwyedd Model",
+          "detail": "Mae trothwyon perfformiad, canfod drifft, a mecanweithiau dychwelyd yn amddiffyn ansawdd penderfyniadau wrth gynhyrchu."
+        },
+        {
+          "title": "Diogelwch a Llywodraethu trwy Ddylunio",
+          "detail": "Mae llinach data, mynediad seiliedig ar rôl, a rheolaethau sy'n barod i archwilio wedi'u hymgorffori ym mhob piblinell."
+        }
+      ]
+    },
+    "capabilities": [
+      "Modelau a Piblinellau Dysgu Peiriant",
+      "Dangosfyrddau ac Adroddiadau Power BI",
+      "Dadansoddeg Rhagfynegol",
+      "Ffrydio Data Amser Real",
+      "Datrysiadau Warws Data"
+    ],
+    "technologies": [
+      {
+        "name": "Ffabrig Microsoft",
+        "category": "Llwyfan",
+        "icon": "Cartref"
+      },
+      {
+        "name": "Pŵer BI",
+        "category": "Mewngofnodi",
+        "icon": "pŵerau"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Warws Data",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Cartref",
+        "category": "Peirianneg Data",
+        "icon": "brics data"
+      },
+      {
+        "name": "Azure ML",
+        "category": "Llwyfan ML",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Llif TensorName",
+        "category": "Fframwaith ML",
+        "icon": "Llif TensorLlif"
+      },
+      {
+        "name": "PyTorch",
+        "category": "Fframwaith ML",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Bwrdd",
+        "category": "Dadansoddeg",
+        "icon": "bwrdd bwrdd"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Prosesu",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "Cartref",
+        "category": "Iaith",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Sylfaen Data",
+        "summary": "Rydym yn archwilio ffynonellau, yn diffinio contractau data, ac yn sefydlu llywodraethu fel bod pob model yn dechrau gyda mewnbynnau dibynadwy.",
+        "deliverables": [
+          "Ffynhonnell data ac asesu ansawdd",
+          "Peirianneg nodwedd a chynllunio sgema",
+          "Llinell sylfaen diogelwch a llywodraethu"
+        ]
+      },
+      {
+        "title": "Cyflwyno Model a Mewnwelediad",
+        "summary": "Rydym yn adeiladu modelau a dangosfyrddau penderfyniadau sy'n gysylltiedig â chwestiynau busnes mesuradwy a KPIs.",
+        "deliverables": [
+          "Datblygu a dilysu modelau",
+          "Dangosfyrddau gweithredol ac adroddiadau gweithredol",
+          "Integreiddio llif gwaith penderfyniadau"
+        ]
+      },
+      {
+        "title": "MLOps a Mabwysiadu",
+        "summary": "Rydym yn gweithredu defnyddio, monitro a galluogi tîm i gadw canlyniadau yn ddibynadwy dros amser.",
+        "deliverables": [
+          "Piblinellau defnyddio modelau awtomataidd",
+          "Monitro drifft, cywirdeb, a defnydd",
+          "Trosglwyddo tîm a llyfr chwarae gweithredu"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Trawsnewid eich data yn fewnwelediad",
+      "description": "Trowch ddata tameidiog yn ddeallusrwydd clir, gweithredadwy.",
+      "button": "Dechreuwch Eich Taith"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Pensaernïaeth a Seilwaith Cwmwl",
+      "description": "Llwyfannau aml-gwmwl, pensaernïaeth wydn, a seilwaith graddadwy wedi'i gynllunio ar gyfer twf hirdymor."
+    },
+    "sections": {
+      "problem": {
+        "title": "Fframio Problemau Busnes",
+        "subtitle": "Pam mae mentrau cwmwl yn stopio ar ôl y don fudo gyntaf"
+      },
+      "approach": {
+        "title": "Dull Peirianneg",
+        "subtitle": "Sut rydym yn adeiladu llwyfannau cwmwl diogel, graddadwy gyda risg mudo dan reolaeth"
+      },
+      "principles": {
+        "title": "Egwyddorion Pensaernïaeth",
+        "subtitle": "Penderfyniadau platfform sy'n cydbwyso ystwythder, gwytnwch a llywodraethu"
+      },
+      "capabilities": {
+        "title": "Gwasanaethau Cwmwl",
+        "subtitle": "Adeiladu, defnyddio a graddio yn y cwmwl"
+      },
+      "technology": {
+        "title": "Arbenigedd Aml-Cwmwl",
+        "subtitle": "Datrysiadau cwmwl agnostig ar blatfform"
+      },
+      "breakdown": {
+        "title": "Dadansoddiad Gwasanaeth",
+        "subtitle": "Dilyniant clir ar gyfer dylunio, mudo a gweithredu llwyfannau cwmwl"
+      }
+    },
+    "problem": {
+      "overview": "Mae llawer o sefydliadau yn cwblhau mudo cwmwl cychwynnol ond yn dal i weithredu fel timau ar y presennol, gyda gwelededd gwael, rheolaethau anghyson, a gwariant cynyddol.",
+      "painPointsTitle": "Poen Busnes Ailadroddus",
+      "impactSignalsTitle": "Beth mae arweinwyr fel arfer yn ei arsylwi",
+      "painPoints": [
+        "Mae llwythi gwaith yn cael eu mudo heb reolaethau diogelwch a rhwydweithio safonol",
+        "Mae costau'r cwmwl yn tyfu'n gyflymach na'r gwerth busnes a ddarperir",
+        "Mae darpariaeth amgylchedd yn parhau i fod â llaw ac yn anghyson ar draws timau"
+      ],
+      "impactSignals": [
+        "Digwyddiadau aml a achosir gan drifft cyfluniad rhwng amgylcheddau",
+        "Mae parodrwydd archwilio yn dirywio oherwydd arferion llywodraethu tameidiog",
+        "Mae amseroedd arweiniol seilwaith yn oedi mentrau cynnyrch a data"
+      ]
+    },
+    "approach": {
+      "overview": "Rydym yn dylunio llwyfannau cwmwl fel cynhyrchion, gan ddefnyddio awtomeiddio seilwaith, rheiliau gwarchod polisi, a thonnau mudo wedi'u halinio â critigolrwydd busnes.",
+      "pillars": [
+        {
+          "title": "Parth Glanio fel Cod",
+          "detail": "Mae gwaelodlin hunaniaeth, rhwydweithio, diogelwch a pholisi wedi'u codio ar gyfer ailadroddadwyedd ac archwilio."
+        },
+        {
+          "title": "Strategaeth mudo yn seiliedig ar donnau",
+          "detail": "Mae llwythi gwaith yn symud mewn cyfnodau rheoledig gyda dilyniannu sy'n ymwybodol o ddibyniaeth a pharodrwydd dychwelyd yn ôl."
+        },
+        {
+          "title": "Dolen Weithredu SRE + FinOps",
+          "detail": "Mae dangosyddion dibynadwyedd ac economeg uned yn cael eu hadolygu gyda'i gilydd i wella effeithlonrwydd uptime a gwariant."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Mae ein model pensaernïaeth yn ffafrio seilwaith datganol, mynediad lleiaf-fraint, a llwyfannau cyfansoddadwy sy'n cefnogi cyflenwi cynnyrch cyflym.",
+      "items": [
+        {
+          "title": "Patrymau Seilwaith Immutable",
+          "detail": "Mae amgylcheddau yn cael eu hailadeiladu o god fersiynol i leihau drifft a symleiddio adferiad gweithredol."
+        },
+        {
+          "title": "Llinell sylfaen diogelwch yn rhagosodedig",
+          "detail": "Mae rheolaethau mynediad sero ymddiriedaeth a gorfodi polisi wedi'u hymgorffori ym mhob cylch bywyd amgylcheddol."
+        },
+        {
+          "title": "Gwytnwch trwy ddosbarthu",
+          "detail": "Mae llwythi gwaith critigol wedi'u cynllunio ar gyfer goddefgarwch methiant aml-barth neu aml-ranbarth lle mae effaith busnes yn gofyn amdano."
+        }
+      ]
+    },
+    "capabilities": [
+      "Strategaeth a Gweithredu Aml-Cwmwl",
+      "Cerddorfa Cynhwysydd (Kubernetes)",
+      "Cyfrifiadura Di-weinydd",
+      "Gwasanaethau Mudo Cwmwl",
+      "Pensaernïaeth Argaeledd Uchel"
+    ],
+    "technologies": [
+      {
+        "name": "Eiddo",
+        "category": "Cwmwl",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Cartref",
+        "category": "Cwmwl",
+        "icon": "Cysylltu â ni"
+      },
+      {
+        "name": "Cartref",
+        "category": "Cwmwl",
+        "icon": "Cysylltu â ni"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Cerddorfa",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Dociwr",
+        "category": "Cynwysyddion",
+        "icon": "dociwr"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Templedi ARM",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Ffurfio Cwmwl",
+        "category": "IaC",
+        "icon": "Cysylltu â ni"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Pensaernïaeth a Pharth Glanio",
+        "summary": "Rydym yn diffinio'r cyflwr targed, rheiliau gwarchod, a safonau platfform gwaelodlin cyn i lwythi gwaith symud.",
+        "deliverables": [
+          "Dyluniad pensaernïaeth cwmwl targed",
+          "Gwaelodlin hunaniaeth, rhwydweithio a diogelwch",
+          "Rheiliau gwarchod cost a chydymffurfiaeth"
+        ]
+      },
+      {
+        "title": "Mudo ac Adeiladu Platfform",
+        "summary": "Rydym yn gweithredu tonnau mudo ac yn sefyll i fyny cydrannau platfform cwmwl-frodorol gydag awtomeiddio ailadroddadwy.",
+        "deliverables": [
+          "Dilyniannu mudo llwyth gwaith",
+          "Gosod llwyfan cynhwysydd a di-weinydd",
+          "Seilwaith fel modiwlau Cod"
+        ]
+      },
+      {
+        "title": "Dibynadwyedd a FinOps",
+        "summary": "Rydym yn gwella dibynadwyedd gweithredol ac yn gwneud y gorau o wariant cwmwl yn barhaus yn seiliedig ar telemetreg fyw.",
+        "deliverables": [
+          "SLOs, monitro a llifoedd gwaith digwyddiadau",
+          "Dilysu gwytnwch ac adfer trychineb",
+          "Ôl-groniad optimeiddio costau a cadence llywodraethu"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Graddio Eich Seilwaith",
+      "description": "Adeiladu sylfeini cwmwl sy'n aros yn wydn o dan lwyth y byd go iawn.",
+      "button": "Cynllunio Eich Strategaeth Cwmwl"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps a Pheirianneg Llwyfan",
+      "description": "Piblinellau cyflenwi awtomataidd, arsylwadwyedd, ac arferion platfform sy'n gwella cyflymder heb aberthu dibynadwyedd."
+    },
+    "sections": {
+      "problem": {
+        "title": "Fframio Problemau Busnes",
+        "subtitle": "Pam mae cyflymder cyflenwi yn gostwng wrth i gymhlethdod y platfform gynyddu"
+      },
+      "approach": {
+        "title": "Dull Peirianneg",
+        "subtitle": "Sut rydym yn safoni piblinellau cyflenwi heb arafu timau cynnyrch"
+      },
+      "principles": {
+        "title": "Egwyddorion Pensaernïaeth",
+        "subtitle": "Patrymau peirianneg platfform sy'n graddio dibynadwyedd ac ymreolaeth tîm"
+      },
+      "capabilities": {
+        "title": "Gwasanaethau DevOps",
+        "subtitle": "Awtomeiddio, monitro a optimeiddio eich cylch bywyd cyflenwi"
+      },
+      "technology": {
+        "title": "Offer a Llwyfannau DevOps",
+        "subtitle": "Cadwyn offer DevOps gorau yn y dosbarth"
+      },
+      "breakdown": {
+        "title": "Dadansoddiad Gwasanaeth",
+        "subtitle": "Map ffordd ymarferol o dagfeydd cyflenwi i lif rhyddhau ymddiriedaeth uchel"
+      }
+    },
+    "problem": {
+      "overview": "Mae sefydliadau yn aml yn buddsoddi mewn offer CI / CD ond yn dal i gael trafferth gyda datganiadau ansefydlog, cymeradwyaethau araf, a pherchnogaeth dameidiog ar draws amgylcheddau.",
+      "painPointsTitle": "Poen Busnes Ailadroddus",
+      "impactSignalsTitle": "Beth mae arweinwyr fel arfer yn ei arsylwi",
+      "painPoints": [
+        "Mae diffiniadau piblinell yn wahanol yn ôl tîm, gan greu gatiau ansawdd anghyson",
+        "Cymeradwyaethau defnyddio â llaw, oedi, hotfix ac amserlenni rhyddhau nodweddion",
+        "Mae digwyddiadau gweithredol yn digwydd oherwydd bod telemetreg yn anghyflawn neu'n seilo"
+      ],
+      "impactSignals": [
+        "Mae amser arweiniol ar gyfer newidiadau yn parhau i gynyddu er gwaethaf gwariant awtomeiddio",
+        "Mae cyfradd methiant newid yn cynyddu yn ystod cyfnodau cyflenwi cyfaint uchel",
+        "Mae cynhyrchiant datblygwyr yn gostwng oherwydd ffrithiant offer a newid cyd-destun"
+      ]
+    },
+    "approach": {
+      "overview": "Rydym yn sefydlu model platfform datblygwr mewnol gyda templedi piblinell y gellir eu hailddefnyddio, llywodraethu sy'n cael ei yrru gan bolisi, ac arsylwadwyedd cylch bywyd llawn.",
+      "pillars": [
+        {
+          "title": "Templedi Piblinell Llwybr Aur",
+          "detail": "Mae glasbrintiau CI / CD y gellir eu hailddefnyddio yn safoni llifoedd gwaith adeiladu, profi, diogelwch, a defnyddio llifoedd gwaith."
+        },
+        {
+          "title": "API Platfform a Hunanwasanaeth",
+          "detail": "Mae timau yn darparu amgylcheddau ac yn rhyddhau seilwaith trwy ryngwynebau hunanwasanaeth a reolir."
+        },
+        {
+          "title": "Dolenni Adborth Dibynadwyedd",
+          "detail": "Mae tueddiadau digwyddiadau, iechyd SLO, a thelemetreg defnyddio yn llywio gwelliannau prosesau a phensaernïaeth parhaus."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Mae ein pensaernïaeth DevOps yn alinio cyflymder cyflwyno â llywodraethu trwy awtomeiddio rheolaethau a lleihau gwaith gweithredol untro.",
+      "items": [
+        {
+          "title": "Popeth fel Cod Fersiynol",
+          "detail": "Mae piblinellau, seilwaith, a rheolau polisi yn cael eu rheoli mewn rheolaeth ffynhonnell ar gyfer archwiliadwyedd ac ailadroddadwyedd."
+        },
+        {
+          "title": "Dilysu Cynyddol",
+          "detail": "Mae gwiriadau ansawdd, diogelwch a pherfformiad yn cael eu haenu ar draws camau i ganfod risg yn gynharach."
+        },
+        {
+          "title": "Cyfrifoldeb Platfform a Rennir",
+          "detail": "Mae timau platfform yn darparu galluoedd ffordd palmantedig tra bod timau cynnyrch yn cadw perchnogaeth cyflenwi."
+        }
+      ]
+    },
+    "capabilities": [
+      "Dylunio Piblinell CI / CD",
+      "Seilwaith fel Cod",
+      "Profi Awtomataidd",
+      "Awtomeiddio Defnyddio",
+      "Monitro ac Arsylwadwyedd"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Llwyfan",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "Gweithredoedd GitHub",
+        "category": "CI / CD",
+        "icon": "Githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI / CD",
+        "icon": "Cartref"
+      },
+      {
+        "name": "Helm",
+        "category": "Pecynnu",
+        "icon": "llyw"
+      },
+      {
+        "name": "Atebiadwy",
+        "category": "Awtomeiddio",
+        "icon": "ateb"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Monitro",
+        "icon": "prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Arsylwadwyedd",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Asesiad Platfform",
+        "summary": "Rydym yn gwerthuso eich cadwyn gyflenwi meddalwedd gyfredol i nodi pwyntiau risg a chyfyngiadau cyflymder.",
+        "deliverables": [
+          "Map llif gwaith cyflenwi cyfredol",
+          "Dadansoddiad tagfeydd piblinell",
+          "Map ffordd aeddfedrwydd DevOps Targed"
+        ]
+      },
+      {
+        "title": "Adeiladu Piblinell ac Awtomeiddio",
+        "summary": "Rydym yn gweithredu CI / CD dibynadwy, gatiau ansawdd, ac awtomeiddio seilwaith ar gyfer datganiadau cyson.",
+        "deliverables": [
+          "Templedi CI/CD y gellir eu hailddefnyddio",
+          "Awtomeiddio seilwaith a'r amgylchedd",
+          "Profi awtomataidd a rheolaethau rhyddhau"
+        ]
+      },
+      {
+        "title": "Gweithredu a Gwella",
+        "summary": "Rydym yn sefydlu dolenni arsylwi a llywodraethu sy'n cefnogi gwella cyflawni parhaus.",
+        "deliverables": [
+          "Monitro dangosfyrddau a pholisïau rhybudd",
+          "Rhyddhau llyfrau chwarae llywodraethu a digwyddiadau",
+          "Metrigau ac adolygiadau gwella parhaus"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Cyflymu Eich Cyflenwi",
+      "description": "Lleihau ffrithiant rhyddhau a gwella dibynadwyedd gydag arferion DevOps aeddfed.",
+      "button": "Trawsnewid eich piblinell"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Trawsnewid a Strategaeth Ddigidol",
+      "description": "Cymorth cynghori a gweithredu strategol i foderneiddio llwyfannau, timau a modelau gweithredu."
+    },
+    "sections": {
+      "problem": {
+        "title": "Fframio Problemau Busnes",
+        "subtitle": "Lle mae rhaglenni trawsnewid yn colli momentwm a hyder gweithredol"
+      },
+      "capabilities": {
+        "title": "Gwasanaethau Ymgynghori",
+        "subtitle": "Canllawiau strategol ar gyfer llwyddiant digidol"
+      },
+      "approach": {
+        "title": "Dull Peirianneg",
+        "subtitle": "Sut rydym yn cyfieithu strategaeth i newid gweithredadwy, wedi'i gefnogi gan dechnoleg"
+      },
+      "principles": {
+        "title": "Egwyddorion Pensaernïaeth",
+        "subtitle": "Dewisiadau model gweithredu a llwyfan sy'n diogelu canlyniadau trawsnewid"
+      },
+      "technology": {
+        "title": "Pentwr Technoleg",
+        "subtitle": "Llwyfannau a fframweithiau rydyn ni'n eu defnyddio i weithredu trawsnewid"
+      },
+      "breakdown": {
+        "title": "Dadansoddiad Gwasanaeth",
+        "subtitle": "Trawsnewid strwythuredig o ddiffiniad strategaeth i werth busnes mesuradwy"
+      }
+    },
+    "problem": {
+      "overview": "Mae mentrau digidol yn aml yn dechrau gyda bwriad cryf ond yn methu â throsi'n ganlyniadau cyflawni oherwydd perchnogaeth aneglur, offer datgysylltiedig, a blaenoriaethau cystadleuol.",
+      "painPointsTitle": "Poen Busnes Ailadroddus",
+      "impactSignalsTitle": "Beth mae arweinwyr fel arfer yn ei arsylwi",
+      "painPoints": [
+        "Mae mapiau ffordd trawsnewid yn cael eu diffinio ond nid ydynt yn cael eu cyfieithu i lywodraethu cyflawni",
+        "Blaenoriaethau busnes a pheirianneg yn amrywio ar ôl cylchoedd cynllunio cychwynnol",
+        "Mae modelau gweithredu etifeddiaeth yn rhwystro mabwysiadu arferion cyflenwi cynnyrch modern"
+      ],
+      "impactSignals": [
+        "Gwariant rhaglen yn codi tra bod symudiad KPI strategol yn aros yn wastad",
+        "Mae mentrau yn colli pwyntiau trosglwyddo rhwng strategaeth, pensaernïaeth, a gweithredu",
+        "Mae timau'n profi blinder newid gyda gwerth busnes cyfyngedig"
+      ]
+    },
+    "approach": {
+      "overview": "Rydym yn cyfuno cyngor strategol â phensaernïaeth gyflenwi, gan alinio dyluniad model gweithredu, gallu platfform, a cadence gweithredu o amgylch amcanion mesuradwy.",
+      "pillars": [
+        {
+          "title": "Blaenoriaethu Ffrwd Gwerth",
+          "detail": "Rydym yn dilyniannu mentrau yn seiliedig ar effaith busnes mesuradwy a chyfyngiadau dibyniaeth dechnegol."
+        },
+        {
+          "title": "Dylunio Model Gweithredu Targed",
+          "detail": "Diffinnir rolau, llywodraethu a hawliau penderfynu i gefnogi gweithrediad cyflymach ar draws timau busnes a thechnoleg."
+        },
+        {
+          "title": "Llywodraethu Cyflenwi Portffolio",
+          "detail": "Mae cynnydd trawsnewid yn cael ei reoli trwy bwyntiau gwirio sy'n gysylltiedig â KPI a rheolaethau risg ar lefel portffolio."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Mae ein pensaernïaeth trawsnewid yn pwysleisio moderneiddio cynyddol ac atebolrwydd clir, gan osgoi ailysgrifennu aflonyddgar heb gyfiawnhad busnes.",
+      "items": [
+        {
+          "title": "Aliniad Gallu Busnes",
+          "detail": "Mae newidiadau technoleg wedi'u trefnu o amgylch galluoedd sy'n mapio'n uniongyrchol i refeniw, ansawdd gwasanaeth, neu effeithlonrwydd cost."
+        },
+        {
+          "title": "Strategaeth Platfform Cyfansoddadwy",
+          "detail": "Dewisir cydrannau platfform ar gyfer rhyngweithrededd i gefnogi mudo graddol ac addasu cyflymach."
+        },
+        {
+          "title": "Llywodraethu gyda Cadence Cyflenwi",
+          "detail": "Mae fforymau penderfynu a phwyntiau rheoli wedi'u hymgorffori mewn cylchoedd sbrint a chwarterol, heb eu trin fel traciau biwrocrataidd ar wahân."
+        }
+      ]
+    },
+    "capabilities": [
+      "Mapiau Ffordd Trawsnewid Digidol",
+      "Datblygu Strategaeth Dechnoleg",
+      "Fframweithiau Mabwysiadu Cwmwl",
+      "Optimeiddio Prosesau",
+      "Rheoli Newid"
+    ],
+    "technologies": [
+      {
+        "name": "Parth Glanio Azure",
+        "category": "Sylfaen Cwmwl",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Ffabrig Microsoft",
+        "category": "Llwyfan Data",
+        "icon": "Cartref"
+      },
+      {
+        "name": "Pŵer BI",
+        "category": "Cudd-wybodaeth Penderfyniadau",
+        "icon": "pŵerau"
+      },
+      {
+        "name": "Llwyfan Pŵer",
+        "category": "Côd Isel",
+        "icon": "Cartref"
+      },
+      {
+        "name": "Rhannu Pwynt",
+        "category": "Cydweithio",
+        "icon": "MicrosoftSharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP / CRM",
+        "icon": "Cartref"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Aliniad Strategaeth",
+        "summary": "Rydym yn alinio blaenoriaethau arweinyddiaeth ac amcanion digidol i greu cyfeiriad trawsnewid a rennir.",
+        "deliverables": [
+          "Amcanion trawsnewid a meini prawf llwyddiant",
+          "Asesiad aeddfedrwydd gallu a bwlch",
+          "Portffolio menter â blaenoriaeth"
+        ]
+      },
+      {
+        "title": "Glasbrint Gweithredu",
+        "summary": "Rydym yn diffinio'r model gweithredu targed, safonau pensaernïaeth, a dilyniant gweithredu fesul cam.",
+        "deliverables": [
+          "Model gweithredu a dylunio llywodraethu",
+          "Technoleg a safonau pensaernïaeth prosesau",
+          "Map ffordd gweithredu fesul cam"
+        ]
+      },
+      {
+        "title": "Newid a Gwireddu Gwerth",
+        "summary": "Rydym yn gyrru mabwysiadu, olrhain symudiad KPI, a mireinio mentrau yn seiliedig ar ganlyniadau cyflawni.",
+        "deliverables": [
+          "Cynllun mabwysiadu a galluogi",
+          "Cadence mesur KPI",
+          "Ôl-groniad optimeiddio chwarterol"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Dechreuwch Eich Taith Trawsnewid",
+      "description": "Llywio newid gyda blaenoriaethau clir a chynlluniau cyflawni ymarferol.",
+      "button": "Trefnu Sesiwn Strategaeth"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT a Chyfrifiadura Edge",
+      "description": "Systemau cysylltiedig o ddyfais i gwmwl, gyda phiblinellau telemetreg a deallusrwydd ymyl ar raddfa ddiwydiannol."
+    },
+    "sections": {
+      "problem": {
+        "title": "Fframio Problemau Busnes",
+        "subtitle": "Pam mae rhaglenni dyfeisiau cysylltiedig yn methu â graddio y tu hwnt i ddefnyddiau peilot"
+      },
+      "approach": {
+        "title": "Dull Peirianneg",
+        "subtitle": "Sut rydym yn dylunio systemau IoT diogel, gweithredadwy o firmware dyfeisiau i APIs cwmwl"
+      },
+      "principles": {
+        "title": "Egwyddorion Pensaernïaeth",
+        "subtitle": "Rheolau dylunio ymyl-i-gwmwl ar gyfer dibynadwyedd, latency, a llywodraethu fflyd"
+      },
+      "capabilities": {
+        "title": "Datrysiadau IoT",
+        "subtitle": "Cysylltu, monitro a gwneud y gorau o'ch dyfeisiau"
+      },
+      "technology": {
+        "title": "Pentwr Technoleg IoT",
+        "subtitle": "O galedwedd i'r cwmwl"
+      },
+      "breakdown": {
+        "title": "Dadansoddiad Gwasanaeth",
+        "subtitle": "Sut rydym yn darparu systemau cysylltiedig o ddyfeisiau ymyl i ddeallusrwydd cwmwl"
+      }
+    },
+    "problem": {
+      "overview": "Mae mentrau IoT yn aml yn profi dichonoldeb technegol mewn peilotiaid ond yn methu ar raddfa oherwydd cysylltedd annibynadwy, rheolaethau fflyd gwan, ac integreiddio gwael â llifoedd gwaith busnes.",
+      "painPointsTitle": "Poen Busnes Ailadroddus",
+      "impactSignalsTitle": "Beth mae arweinwyr fel arfer yn ei arsylwi",
+      "painPoints": [
+        "Mae onboarding dyfeisiau a rheoli cylch bywyd yn parhau i fod â llaw ac yn dueddol o wallau",
+        "Mae piblinellau telemetreg yn cynhyrchu data gweithredol swnllyd, anghyflawn neu oedi",
+        "Mae diweddariadau gorchymyn a firmware o bell yn cyflwyno risg diogelwch a diogelwch"
+      ],
+      "impactSignals": [
+        "Mae amgylcheddau peilot yn llwyddo, ond mae amserlenni cyflwyno cynhyrchu yn llithro dro ar ôl tro",
+        "Mae timau gweithrediadau maes yn ymateb i ddigwyddiadau heb welededd rhagfynegol",
+        "Ni all systemau busnes ddefnyddio'n ddibynadwy deallusrwydd dyfeisiau mewn amser real"
+      ]
+    },
+    "approach": {
+      "overview": "Rydym yn pensaernïo llwyfannau IoT fel systemau dosbarthedig a reolir, gan gyfuno safonau amser rhedeg ymyl diogel, amlyncu a yrrir gan ddigwyddiadau, a llywodraethu gweithredol ar raddfa fflyd.",
+      "pillars": [
+        {
+          "title": "Rheoli Cylch Bywyd Dyfeisiau Diogel",
+          "detail": "Mae darpariaeth, hunaniaeth, cylchdroi allweddol, a diweddariadau firmware yn awtomeiddio i leihau risg weithredol."
+        },
+        {
+          "title": "Pensaernïaeth Telemetreg wedi'i Yrru gan Ddigwyddiadau",
+          "detail": "Mae piblinellau ffrydio yn normaleiddio, dilysu, a llwybr digwyddiadau dyfeisiau ar gyfer dadansoddeg a rheoli mewn amser real bron."
+        },
+        {
+          "title": "Awyren Rheoli Gweithrediadau Fflyd",
+          "detail": "Mae llifoedd gwaith monitro, rhybuddio a gorchymyn o bell yn darparu goruchwyliaeth ddibynadwy ar draws asedau dosbarthedig."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Mae ein pensaernïaeth IoT yn cydbwyso penderfyniadau ymyl latency isel gyda llywodraethu canolog, arsylwadwyedd a chydymffurfiaeth diogelwch.",
+      "items": [
+        {
+          "title": "Ymreolaeth Ymyl gyda Chydlynu Cwmwl",
+          "detail": "Mae gweithrediadau lleol critigol yn parhau yn ystod diraddio rhwydwaith wrth gydamseru cyflwr â systemau cwmwl pan fydd ar gael."
+        },
+        {
+          "title": "Sgemâu Digwyddiadau a Gontractiwyd",
+          "detail": "Mae timau dyfeisiau a llwyfan yn defnyddio sgemâu llywodraethedig i gadw cysondeb telemetreg ar draws fersiynau."
+        },
+        {
+          "title": "Diogelwch Dyfeisiau Di-Ymddiriedaeth",
+          "detail": "Mae dilysu cydfuddiannol, braint leiaf, a chludiant wedi'i amgryptio yn cael eu gorfodi ar draws pob rhyngweithio dyfais."
+        }
+      ]
+    },
+    "capabilities": [
+      "Rheoli Dyfeisiau IoT",
+      "Datrysiadau Twin Digidol",
+      "Defnyddio Cyfrifiadura Edge",
+      "Telemetreg Amser Real",
+      "Cynnal a Chadw Rhagfynegol"
+    ],
+    "technologies": [
+      {
+        "name": "Hyb IoT",
+        "category": "Porth Cwmwl",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Efeilliaid Digidol",
+        "category": "Efelychiad",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Cyfrifiadura Ymyl",
+        "category": "Ymyl",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protocol",
+        "icon": "mqtt"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protocol",
+        "icon": "Mewngofnodi"
+      },
+      {
+        "name": "Ardduño",
+        "category": "Caledwedd",
+        "icon": "ardduño"
+      },
+      {
+        "name": "Pi mafon",
+        "category": "Caledwedd",
+        "icon": "mafon"
+      },
+      {
+        "name": "Mewnlifiad DB",
+        "category": "Cyfres Amser DB",
+        "icon": "mewnlifiad"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strategaeth Dyfais ac Ymyl",
+        "summary": "Rydym yn diffinio patrymau cysylltedd, safonau amser rhedeg ymyl, a darpariaeth ddiogel ar gyfer dyfeisiau maes.",
+        "deliverables": [
+          "Model onboarding a chysylltedd dyfeisiau",
+          "Glasbrint amser rhedeg a defnyddio ymyl",
+          "Llinell sylfaen diogelwch y fflyd"
+        ]
+      },
+      {
+        "title": "Telemetreg ac Awyren Rheoli",
+        "summary": "Rydym yn adeiladu piblinellau sy'n dal digwyddiadau, modelu efeilliaid digidol, ac yn galluogi llifoedd gwaith rheoli o bell.",
+        "deliverables": [
+          "Dyluniad amlyncu amser real a sgema digwyddiadau",
+          "Gweithredu efeilliaid digidol a model asedau",
+          "Haen API gorchymyn a rheoli"
+        ]
+      },
+      {
+        "title": "Gweithrediadau a Graddfa",
+        "summary": "Rydym yn gweithredu rheoli fflyd a rheolaethau dibynadwyedd ar gyfer amgylcheddau IoT ar raddfa gynhyrchu.",
+        "deliverables": [
+          "Monitro a rhybuddio fflyd dyfeisiau",
+          "Cynnal a chadw rhagfynegol a chanfod anghysondebau",
+          "Cynllun cymorth cyflwyno a chylch bywyd"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Cysylltu eich dyfeisiau",
+      "description": "Adeiladu atebion IoT dibynadwy sy'n barod ar gyfer amgylcheddau cynhyrchu go iawn.",
+      "button": "Dechrau Eich Prosiect IoT"
+    }
+  }
+}

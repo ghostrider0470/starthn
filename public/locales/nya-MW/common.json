@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Kunyumba",
+    "company": "Kampani",
+    "solutions": "Njira zothetsera vutoli",
+    "resources": "Chuma",
+    "innovationLab": "Innovation Lab",
+    "contact": "Lumikizanani",
+    "about": {
+      "title": "Za",
+      "description": "Ntchito yathu, masomphenya, ndi nkhani"
+    },
+    "team": {
+      "title": "Gulu",
+      "description": "Kumanani ndi anthu omwe ali kumbuyo kwa Horizon Tech"
+    },
+    "careers": {
+      "title": "Ntchito",
+      "description": "Lowani nawo gulu lathu ndikumanga tsogolo"
+    },
+    "enterpriseSoftware": {
+      "title": "Enterprise Software Development",
+      "description": "Mapulogalamu amakampani omwe ali ndi mapangidwe amakono"
+    },
+    "aiMl": {
+      "title": "AI, ML ndi Business Intelligence",
+      "description": "Mapaipi athunthu a AI / ML ndi ma dashboard a BI"
+    },
+    "cloudArchitecture": {
+      "title": "Zomangamanga za Mtambo ndi Zomangamanga",
+      "description": "Njira zothetsera mitambo yambiri ndi orchestration ya chidebe"
+    },
+    "iot": {
+      "title": "IoT & Edge Computing",
+      "description": "Zachilengedwe za chipangizo cholumikizidwa ndi mapasa a digito"
+    },
+    "devops": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Mapaipi a CI / CD ndi zomangamanga monga code"
+    },
+    "digitalTransformation": {
+      "title": "Kusintha kwa Digito ndi Njira",
+      "description": "Njira zosinthira zamakampani ndi uphungu"
+    },
+    "caseStudies": {
+      "title": "Maphunziro a Milandu",
+      "description": "Nkhani zopambana kuchokera kwa makasitomala athu",
+      "featured": {
+        "title": "Phunziro la Nkhani Yowonetsedwa",
+        "description": "Kuzama kwambiri mu mgwirizano wathunthu woperekera"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Kuzindikira, maphunziro, ndi zochitika zamakampani",
+      "featured": {
+        "title": "Featured Blog Post",
+        "description": "Werengani chimodzi mwazidziwitso zathu zaposachedwa za uinjiniya"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Chidule cha Innovation Lab",
+      "description": "Onani malo onse ofufuza ndi mayendedwe oyeserera"
+    },
+    "innovationLabAiSystems": {
+      "title": "Machitidwe a AI ogwiritsidwa ntchito",
+      "description": "Kupanga makina ophunzirira zomangamanga"
+    },
+    "innovationLabNlp": {
+      "title": "NLP ya zilankhulo zambiri",
+      "description": "Mphamvu zogwiritsira ntchito chilankhulo chachilengedwe"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Genetic Algorithm Simulation",
+      "description": "Kukhathamiritsa kwa chisinthiko m'malo oyankhulana"
+    },
+    "navigation": "Kuyenda",
+    "skipToContent": "Skip to content",
+    "toggleMenu": "Toggle menyu",
+    "dashboard": "Dashboard",
+    "myWorkspace": "Malo Anga Ogwirira Ntchito",
+    "profile": "Mbiri",
+    "adminPanel": "Gulu la Admin",
+    "practiceManagement": "Kasamalidwe ka Machitidwe",
+    "logOut": "Tulukani",
+    "education": {
+      "title": "Zida zaukadaulo",
+      "description": "Zitsogozo, maphunziro, ndi njira zabwino kuchokera ku gulu la Horizon Tech"
+    },
+    "support": {
+      "title": "Malo Othandizira",
+      "description": "Pezani thandizo ndi ntchito zathu zopangira mapulogalamu"
+    }
+  },
+  "footer": {
+    "description": "Kuyambitsa mapulogalamu oyambira omwe ali ku Sarajevo, Bosnia. Timamanga mapulogalamu achizolowezi, njira za AI / ML, zomangamanga zamtambo, ndi machitidwe okhazikika.",
+    "features": "Mbali",
+    "resources": "Chuma",
+    "company": "Kampani",
+    "legal": "Malamulo",
+    "dashboard": "Dashboard",
+    "components": "Zigawo",
+    "documentation": "Zolemba",
+    "apiReference": "Zolemba za API",
+    "gettingStarted": "Kuyamba",
+    "examples": "Zitsanzo",
+    "community": "Dera",
+    "blog": "Blog",
+    "caseStudies": "Maphunziro a Milandu",
+    "innovationLabOverview": "Chidule cha Innovation Lab",
+    "appliedAiSystems": "Machitidwe a AI ogwiritsidwa ntchito",
+    "nlpDemo": "NLP ya zilankhulo zambiri",
+    "geneticAlgorithmSimulation": "Genetic Algorithm Simulation",
+    "featuredBlogPost": "Featured Blog Post",
+    "featuredCaseStudy": "Phunziro la Nkhani Yowonetsedwa",
+    "about": "Za",
+    "contact": "Lumikizanani",
+    "partners": "Othandizana nawo",
+    "careers": "Ntchito",
+    "privacyPolicy": "Mfundo Zachinsinsi",
+    "termsOfService": "Malamulo a Utumiki",
+    "cookiePolicy": "Ndondomeko ya Cookie",
+    "license": "Chilolezo",
+    "copyright": "© {{year}} Horizon Tech. Maumwini onse ndi otetezedwa.",
+    "subscribe": "Lembetsani ku nyuzipepala"
+  },
+  "header": {
+    "badge": "Enterprise Technology Solutions",
+    "titleLine1": "Sinthani Bizinesi Yanu ndi",
+    "titleLine2": "Tekinoloje Yotsogola",
+    "description": "Kuchokera pakupanga mapulogalamu ogwira ntchito komanso nzeru zamalonda zoyendetsedwa ndi AI kupita ku zomangamanga zamtambo ndi njira za IoT - timapereka ntchito zamakono zomwe zimayendetsa zatsopano ndikufulumizitsa kukula.",
+    "getStarted": "Yambani",
+    "exploreSolutions": "Fufuzani Njira Zothetsera",
+    "trustedBy": "Wodalirika ndi makampani otsogola",
+    "microsoftPartner": "Mnzake wa Microsoft",
+    "azureCertified": "Azure Yotsimikizika",
+    "enterpriseSolutions": "Njira Zothetsera Makampani"
+  },
+  "mobileNav": {
+    "navigation": "Kuyenda kwa mafoni",
+    "home": "Kunyumba",
+    "solutions": "Njira zothetsera vutoli",
+    "caseStudies": "Milandu",
+    "aiSystems": "Labu ya AI",
+    "blog": "Blog",
+    "resources": "Chuma",
+    "contact": "Lumikizanani"
+  },
+  "sideNav": {
+    "scroll": "Mpukutu",
+    "navigateTo": "Pitani ku {{section}}",
+    "sections": {
+      "home": "Kunyumba",
+      "solutions": "Njira zothetsera vutoli",
+      "credibility": "Kukhulupirika",
+      "partners": "Othandizana nawo",
+      "caseStudies": "Maphunziro a Milandu",
+      "blog": "Blog",
+      "innovationLab": "Innovation Lab",
+      "faq": "Mafunso Ofunsidwa Kawirikawiri"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Sinthani chilankhulo",
+    "searchPlaceholder": "Fufuzani chilankhulo...",
+    "noResults": "Palibe zilankhulo zomwe zapezeka."
+  },
+  "common": {
+    "menu": "Menyu",
+    "account": "Akaunti"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Maphunziro Aposachedwa",
+      "description": "Chithunzithunzi cha zotsatira zoperekera kudutsa fintech, zaumoyo, kayendetsedwe ka zinthu, ndi mapulogalamu aboma.",
+      "cta": "Onani Maphunziro Onse a Milandu"
+    },
+    "blog": {
+      "title": "Zatsopano Kuchokera ku Blog Yathu",
+      "description": "Zolemba zothandiza zomangamanga kuchokera ku AI yaposachedwa, nsanja, ndi ntchito yoperekera mtambo.",
+      "cta": "Werengani nkhani zonse"
+    },
+    "innovationLab": {
+      "title": "Innovation Lab",
+      "description": "Fufuzani ma prototypes, kuyesera, ndi ntchito zogwiritsidwa ntchito za R &D kuchokera ku gulu la zomangamanga la Horizon Tech.",
+      "cta": "Fufuzani Innovation Lab"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Werengani Phunziro la Milandu",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Zaumoyo",
+      "logistics": "Logistics",
+      "manufacturing": "Kupanga",
+      "government": "Boma"
+    }
+  },
+  "blogCard": {
+    "read": "Werengani"
+  }
+}

@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Über uns",
+    "hero": {
+      "titlePrefix": "Die Technologie von morgen aufbauen,",
+      "titleHighlight": "Heute",
+      "description": "Horizon Tech d.o.o. ist ein globales Technologieunternehmen mit Hauptsitz in Sarajevo, das Unternehmen auf drei Kontinenten modernste Softwarelösungen liefert."
+    },
+    "sections": {
+      "mission": {
+        "title": "Mission",
+        "description": "Wir helfen Organisationen, ambitionierte Ideen in zuverlässige digitale Produkte umzuwandeln, die messbaren Geschäftswert schaffen.",
+        "points": [
+          "Richten Sie die Technologielieferung auf klare Geschäftsergebnisse aus.",
+          "Baue langfristige Systeme, die wartbar bleiben, während Teams wachsen.",
+          "Arbeiten Sie eng mit den Stakeholdern von der Strategie bis zur Umsetzung zusammen."
+        ]
+      },
+      "expertise": {
+        "title": "Fachwissen",
+        "description": "Unsere multidisziplinären Teams verbinden technische Tiefe mit Produktdenken über moderne Technologie-Stacks hinweg.",
+        "points": [
+          "Web- und Plattformentwicklung auf Unternehmensebene.",
+          "Cloud-Architektur, DevOps-Automatisierung und widerstandsfähige Infrastruktur.",
+          "Angewandte KI/ML, Datenworkflows und IoT-fähige Produkte."
+        ]
+      },
+      "approach": {
+        "title": "Herangehensweise",
+        "description": "Wir setzen ein transparentes, iteratives Modell um, das die Lieferung vorhersehbar hält und gleichzeitig das Produktrisiko reduziert.",
+        "points": [
+          "Entdecken: Definieren Sie Umfang, Prioritäten und Erfolgskennzahlen frühzeitig.",
+          "Bauen: Liefern Sie in fokussierten Schritten mit kontinuierlichen Rückkopplungsschleifen aus.",
+          "Optimieren: Ergebnisse überwachen und die Leistung im Laufe der Zeit verbessern."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihr Unternehmen zu transformieren?",
+      "description": "Schließen Sie sich der wachsenden Liste von Unternehmen an, die Horizon Tech vertrauen, innovative Lösungen und außergewöhnliche Ergebnisse zu liefern.",
+      "primary": "Leg los",
+      "secondary": "Erfolgsgeschichten ansehen"
+    }
+  },
+  "contact": {
+    "badge": "Nehmen Sie Kontakt auf",
+    "hero": {
+      "title": "Kontaktieren Sie uns",
+      "description": "Hast du ein Projekt im Kopf? Wir würden uns freuen, von Ihnen zu hören. Nehmen Sie Kontakt auf, um zu besprechen, wie wir Ihnen helfen können, Ihre Ideen zum Leben zu erwecken."
+    },
+    "info": {
+      "title": "Kontaktinformationen"
+    },
+    "booking": {
+      "title": "Buchen Sie ein Treffen",
+      "description": "Vereinbaren Sie einen kostenlosen 30-minütigen Entdeckungstermin"
+    },
+    "methods": {
+      "email": {
+        "title": "E-Mail",
+        "description": "Senden Sie uns jederzeit eine E-Mail",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Lage",
+        "description": "Mit Sitz in",
+        "value": "Sarajevo, Bosnien und Herzegowina"
+      },
+      "response": {
+        "title": "Reaktionszeit",
+        "description": "Wir reagieren typischerweise innerhalb des Bereichs",
+        "value": "24-48 Stunden"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Neues Projekt"
+      },
+      "support": {
+        "label": "Technische Unterstützung"
+      },
+      "partnerships": {
+        "label": "Partnerschaften"
+      },
+      "careers": {
+        "label": "Karrieren"
+      },
+      "general": {
+        "label": "Allgemeine Untersuchung"
+      }
+    },
+    "form": {
+      "title": "Senden Sie uns eine Nachricht",
+      "success": "Danke für deine Nachricht. Wir melden uns innerhalb von 24-48 Stunden bei Ihnen.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt eine E-Mail.",
+      "fullName": "Vollständiger Name *",
+      "email": "E-Mail-Adresse *",
+      "company": "Gesellschaft",
+      "subject": "Thema *",
+      "message": "Nachricht *",
+      "placeholders": {
+        "name": "Dein Name",
+        "email": "you@example.com",
+        "company": "Deine Firma",
+        "subject": "Wobei können wir helfen?",
+        "message": "Erzählen Sie uns von Ihrem Projekt oder Ihrer Anfrage..."
+      },
+      "validation": {
+        "required": {
+          "name": "Vollständiger Name ist erforderlich.",
+          "email": "Eine E-Mail-Adresse ist erforderlich.",
+          "subject": "Bitte wählen Sie ein Thema.",
+          "message": "Eine Nachricht ist erforderlich."
+        },
+        "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+        "messageMinLength": "Die Nachricht muss mindestens {{count}} Zeichen lang sein."
+      },
+      "sending": "Senden...",
+      "submit": "Nachricht senden"
+    },
+    "reasonsTitle": "Warum mit uns zusammenarbeiten?",
+    "reasons": [
+      "Full-Stack-Softwareentwicklungsexpertise",
+      "Spezialisten für KI/ML und Cloud-Architektur",
+      "Agile Entwicklung mit transparenter Kommunikation",
+      "Langfristige Unterstützung und Wartung"
+    ],
+    "custom": {
+      "title": "Maßgefertigte Lösungen",
+      "description": "Suchen Sie eine maßgeschneiderte Lösung? Wir arbeiten eng mit den Kunden zusammen, um einzigartige Bedürfnisse zu verstehen und maßgeschneiderte Software bereitzustellen, die messbare Ergebnisse erzielt.",
+      "cta": "Diskutieren Sie Ihr Projekt"
+    },
+    "faq": {
+      "title": "Hast du noch mehr Fragen?",
+      "description": "Schau dir unseren FAQ-Bereich für schnelle Antworten an",
+      "cta": "Durchstöbern Sie häufig gestellte Fragen"
+    }
+  },
+  "team": {
+    "badge": "Unser Team",
+    "hero": {
+      "titlePrefix": "Lernen Sie die Köpfe dahinter kennen",
+      "titleHighlight": "Horizon Tech",
+      "description": "Ein vielfältiges Team aus Technologen, Designern und Strategen entwickelt gemeinsam hochwertige digitale Produkte."
+    },
+    "section": {
+      "title": "Führungsteam",
+      "description": "Die erfahrenen Führungskräfte leiten die Vision und das Wachstum von Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Gründer, CEO & CTO",
+        "bio": "Visionärer Leiter und technischer Architekt mit 10+ Jahren Erfahrung in Unternehmenssoftware, spezialisiert auf KI/ML, Cloud-Plattformen und skalierbare Produktarchitektur.",
+        "expertise": [
+          "KI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Lösungsarchitektur",
+          "Cloud-Engineering"
+        ]
+      },
+      "ahmet": {
+        "role": "Chef-Sicherheitsarchitekt",
+        "bio": "Cybersicherheitsspezialist mit Schwerpunkt auf Unternehmenssicherheitsarchitektur, sichere On-Prem-Infrastruktur und compliance-orientierte Bereitstellung für regulierte Umgebungen.",
+        "expertise": [
+          "Cybersicherheit",
+          "On-Premises-Systeme",
+          "Sicherheitsarchitektur",
+          "Einhaltung",
+          "Infrastruktursicherheit"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Schreiben Sie {{name}}",
+      "linkedin": "{{name}} LinkedIn-Profil"
+    },
+    "culture": {
+      "title": "Leben bei Horizon Tech",
+      "description": "Wir fördern eine Kultur der Innovation, Zusammenarbeit und kontinuierlichen Lernens",
+      "remoteFirst": {
+        "title": "Remote-First-Kultur",
+        "description": "Arbeite von überall mit flexiblen Arbeitszeiten und Fokus auf Ergebnisse, nicht auf den Standort."
+      },
+      "collaborative": {
+        "title": "Kollaborative Umgebung",
+        "description": "Regelmäßige Teamveranstaltungen, Wissensaustausch-Sitzungen und interfunktionale Zusammenarbeit."
+      },
+      "workLife": {
+        "title": "Work-Life-Balance",
+        "description": "Großzügige Urlaubsregelung, Unterstützung für psychische Gesundheit und Respekt für persönliche Zeit."
+      },
+      "innovation": {
+        "title": "Innovationszeit",
+        "description": "20 % Zeit für persönliche Projekte, Hackathons und das Erkunden neuer Technologien."
+      },
+      "stats": {
+        "teamMembers": "Teammitglieder",
+        "countries": "Länder",
+        "techStacks": "Tech-Stacks",
+        "remoteReady": "Remote Ready"
+      }
+    },
+    "cta": {
+      "title": "Möchten Sie unserem Team beitreten?",
+      "description": "Wir suchen immer talentierte Menschen, denen Handwerk, Eigentum und Innovation wichtig sind.",
+      "button": "Nehmen Sie Kontakt auf"
+    }
+  },
+  "careers": {
+    "badge": "Tritt unserem Team bei.",
+    "hero": {
+      "titlePrefix": "Baue die Zukunft",
+      "titleHighlight": "Mit uns",
+      "description": "Schließen Sie sich einem Team von Ingenieuren an, die modernste Software für globale Kunden entwickeln. Arbeiten Sie remote, wachsen Sie kontinuierlich und erzielen Sie echten Einfluss.",
+      "button": "Siehe Positionen"
+    },
+    "process": {
+      "title": "Unser Einstellungsprozess",
+      "description": "Transparent, effizient und respektvoll mit Ihrer Zeit",
+      "steps": [
+        {
+          "title": "Bewerben Sie sich",
+          "description": "Reichen Sie Ihre Bewerbung ein und wir prüfen sie innerhalb von 3 Werktagen."
+        },
+        {
+          "title": "Erstes Gespräch",
+          "description": "Ein 30-minütiger Videoanruf, um Ihre Erfahrungen und Erwartungen zu besprechen."
+        },
+        {
+          "title": "Technisch",
+          "description": "Technisches Vorstellungsgespräch oder praktische Übung, um deine Fähigkeiten zu zeigen."
+        },
+        {
+          "title": "Angebot",
+          "description": "Lernen Sie das Team kennen und erhalten Sie Ihr Angebot, bei Horizon Tech zu arbeiten."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Offene Positionen",
+      "description": "Finden Sie Ihre nächste Chance und schließen Sie sich unserem wachsenden Team an",
+      "unavailable": "Derzeit werden keine Bewerbungen entgegengenommen",
+      "apply": "Jetzt bewerben",
+      "noMatch": "Siehst du nicht die perfekte Rolle?",
+      "sendCv": "Senden Sie uns Ihren Lebenslauf",
+      "listings": [
+        {
+          "title": "Senior Full-Stack Engineer",
+          "department": "Ingenieurwesen",
+          "location": "Remote (EU-Zeitzonen)",
+          "type": "Vollzeit",
+          "description": "Bauen Sie skalierbare Unternehmensanwendungen mit React-, Node.js- und Cloud-Technologien.",
+          "tags": [
+            "Reagieren",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps-Ingenieur",
+          "department": "Ingenieurwesen",
+          "location": "Sarajevo / Remote",
+          "type": "Vollzeit",
+          "description": "CI/CD-Pipelines, Infrastruktur als Code und Überwachungssysteme entwerfen und warten.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "KI/ML-Ingenieur",
+          "department": "Innovation Lab",
+          "location": "Fernbedienung",
+          "type": "Vollzeit",
+          "description": "Entwickeln Sie Machine-Learning-Modelle und KI-Lösungen für Unternehmenskunden.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Produktdesigner",
+          "department": "Konstruktion",
+          "location": "Fernbedienung",
+          "type": "Vollzeit",
+          "description": "Schaffen Sie wunderschöne, intuitive Benutzererfahrungen für komplexe Unternehmensanwendungen.",
+          "tags": [
+            "Figma",
+            "Nutzerforschung",
+            "UI/UX",
+            "Designsysteme"
+          ]
+        },
+        {
+          "title": "Solutions Architect",
+          "department": "Ingenieurwesen",
+          "location": "Fernbedienung",
+          "type": "Vollzeit",
+          "description": "Entwerfen Sie End-to-End-technische Lösungen und begleiten Sie Kunden durch die digitale Transformation.",
+          "tags": [
+            "Cloud-Architektur",
+            "Systemdesign",
+            "Beratung"
+          ]
+        },
+        {
+          "title": "Technischer Redakteur",
+          "department": "Betrieb",
+          "location": "Fernbedienung",
+          "type": "Teilzeit",
+          "description": "Erstellen Sie umfassende Dokumentation, Tutorials und technische Inhalte.",
+          "tags": [
+            "Dokumentation",
+            "API Docs",
+            "Technisches Schreiben"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Fragen zur Arbeit hier?",
+      "description": "Wir würden uns freuen, von Ihnen zu hören. Melde dich, und wir beantworten alle Fragen zum Leben an der Horizon Tech.",
+      "button": "Kontaktieren Sie uns"
+    }
+  },
+  "caseStudies": {
+    "badge": "Erfolgsgeschichten",
+    "hero": {
+      "titlePrefix": "Ergebnisse liefern, die",
+      "titleHighlight": "Materie",
+      "description": "Entdecken Sie, wie wir Unternehmen branchenübergreifend geholfen haben, ihre Abläufe durch praktische, wirkungsvolle Technologien zu transformieren.",
+      "tags": {
+        "delivery": "Technische Umsetzung",
+        "outcomes": "Gemessene Ergebnisse"
+      }
+    },
+    "stats": {
+      "projects": "Umgesetzte Projekte",
+      "clients": "Zufriedene Kunden",
+      "efficiency": "Durchschnittseffizienzsteigerung",
+      "retention": "Kundenbindung"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Finanzdienstleistungen",
+        "title": "Cloud-Migration und Modernisierung",
+        "description": "Legacy-Banking-Systeme wurden ohne jegliche Ausfallzeiten auf die AWS-Cloud-Infrastruktur migriert.",
+        "challenge": "Legacy-monolithische Architektur verursacht Skalierbarkeitsprobleme",
+        "result": "Erfolgreich auf Microservices auf AWS migriert",
+        "metrics": [
+          {
+            "label": "Kostensenkung",
+            "value": "40%"
+          },
+          {
+            "label": "Leistungssteigerung",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Microservices",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech-Lösungen",
+        "industry": "Gesundheitswesen",
+        "title": "KI-gestützte Diagnoseplattform",
+        "description": "ML-Modelle für medizinische Bildanalyse mit 95%+ Genauigkeit erstellt.",
+        "challenge": "Manuelle Diagnoseprozesse dauern zu lange",
+        "result": "Automatisierte Diagnosen mit KI/ML",
+        "metrics": [
+          {
+            "label": "Zeitersparnis",
+            "value": "70%"
+          },
+          {
+            "label": "Genauigkeit",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "Reagieren",
+          "Gesundheitswesen"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "E-Commerce-Gigant",
+        "industry": "Einzelhandel",
+        "title": "Echtzeit-Analyse-Dashboard",
+        "description": "Ich habe eine BI-Plattform entwickelt, die täglich 10 Mio. Events verarbeitet.",
+        "challenge": "Keine Echtzeit-Transparenz wichtiger Geschäftskennzahlen",
+        "result": "Echtzeit-Analyse- und Insights-Plattform",
+        "metrics": [
+          {
+            "label": "Veranstaltungen/Tag",
+            "value": "10M+"
+          },
+          {
+            "label": "Reaktionszeit",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "Reagieren",
+          "Datentechnik"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Bereit, deine Erfolgsgeschichte zu schreiben?",
+      "description": "Lassen Sie uns besprechen, wie wir Ihnen helfen können, ähnliche Ergebnisse zu erzielen und mit Vertrauen zu skalieren."
+    },
+    "filters": {
+      "title": "Industriefilter",
+      "all": "Alle Industrien",
+      "empty": "Keine Fallstudien passen zum ausgewählten Industriefilter."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Einblicke & Ideen von",
+      "titleHighlight": "Horizon Tech",
+      "description": "Technische Tutorials, Brancheneinblicke und praktische Lektionen aus echten Lieferarbeiten."
+    },
+    "categories": [
+      "Alle Beiträge",
+      "Cloud-Architektur",
+      "DevOps",
+      "KI/ML",
+      "Frontend",
+      "Backend",
+      "Daten"
+    ],
+    "featuredPost": {
+      "id": "Vorgestellt",
+      "title": "Die Zukunft der cloudnativen Entwicklung: Trends, die man 2025 im Auge behalten sollte",
+      "excerpt": "Entdecken Sie die neuesten Trends in der cloudnativen Entwicklung, von serverlosen Architekturen bis hin zu Edge Computing.",
+      "author": {
+        "name": "Horizon Tech Leitartikel"
+      },
+      "date": "15. Nov. 2025",
+      "readTime": "8 Minuten Lesezeit",
+      "category": "Cloud-Architektur",
+      "tags": [
+        "Cloud",
+        "Azure",
+        "Trends"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Skalierbare Microservices mit Azure Kubernetes Service bauen",
+        "excerpt": "Ein praktischer Leitfaden zur Architektur und Bereitstellung von Microservices mit AKS.",
+        "author": {
+          "name": "Horizon Tech Leitartikel"
+        },
+        "date": "12. Nov. 2025",
+        "readTime": "6 Minuten Lesezeit",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Microservices",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Maschinelles Lernen in der Produktion: Gelernte Lektionen",
+        "excerpt": "Praxiserprobte Lehren aus dem Einsatz von ML-Modellen im großen Maßstab.",
+        "author": {
+          "name": "Horizon Tech Leitartikel"
+        },
+        "date": "10. Nov. 2025",
+        "readTime": "10 Minuten Lesezeit",
+        "category": "KI/ML",
+        "tags": [
+          "Maschinelles Lernen",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Was ist neu und warum es wichtig ist",
+        "excerpt": "Ein tiefgehender Einblick in die Funktionen von React 19 und die Auswirkungen auf die Performance.",
+        "author": {
+          "name": "Horizon Tech Leitartikel"
+        },
+        "date": "8. Nov. 2025",
+        "readTime": "5 Minuten Lesezeit",
+        "category": "Frontend",
+        "tags": [
+          "Reagieren",
+          "JavaScript",
+          "Webentwicklung"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Abonnieren Sie unseren Newsletter",
+      "description": "Erhalten Sie wöchentlich die neuesten Artikel, Tutorials und Einblicke.",
+      "placeholder": "your.email@example.com",
+      "button": "Abonnieren",
+      "note": "Kein Spam. Abmelden Sie sich jederzeit ab."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering Blog",
+        "description": "Feldnotizen und praktische Muster von Teams, die KI-Produkte, Unternehmenssysteme und zuverlässige Cloud-Plattformen entwickeln."
+      },
+      "filters": {
+        "postsInView": "{{count}} Beiträge im Blick"
+      },
+      "featured": {
+        "badge": "Neueste Meldung",
+        "readCta": "Lesen Sie den vorgestellten Beitrag"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Ladeprofil wird geladen...",
+    "title": "Profileinstellungen",
+    "subtitle": "Verwalten Sie Ihre Kontoeinstellungen und -präferenzen",
+    "photoButton": "Foto wechseln",
+    "tabs": {
+      "general": "Allgemeines",
+      "security": "Sicherheit",
+      "preferences": "Präferenzen"
+    },
+    "messages": {
+      "profileUpdated": "Profil erfolgreich aktualisiert",
+      "profileUpdateFailed": "Profil wurde nicht aktualisiert",
+      "passwordsNoMatch": "Neue Passwörter stimmen nicht überein",
+      "passwordTooShort": "Das Passwort muss mindestens 8 Zeichen lang sein",
+      "passwordChanged": "Passwort erfolgreich geändert",
+      "passwordChangeFailed": "Passwort nicht geändert",
+      "optedOut": "Berichte zum Abmelden der Praxis",
+      "optedIn": "Meldete sich für Übungsberichte an",
+      "optOutFailed": "Der Opt-out-Status wurde nicht aktualisiert"
+    },
+    "general": {
+      "title": "Persönliche Informationen",
+      "description": "Aktualisieren Sie Ihre persönlichen Daten und Kontaktdaten",
+      "firstName": "Vorname",
+      "firstNamePlaceholder": "John",
+      "lastName": "Nachname",
+      "lastNamePlaceholder": "Doe",
+      "email": "E-Mail-Adresse",
+      "emailNotice": "Die E-Mail kann nicht geändert werden. Kontaktieren Sie den Support, wenn Sie Hilfe benötigen.",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Speicheränderungen"
+    },
+    "security": {
+      "title": "Sicherheitseinstellungen",
+      "description": "Verwalten Sie Ihr Passwort und Ihre Sicherheitseinstellungen",
+      "currentPassword": "Aktuelles Passwort",
+      "currentPasswordPlaceholder": "Geben Sie das aktuelle Passwort ein",
+      "newPassword": "Neues Passwort",
+      "newPasswordPlaceholder": "Geben Sie neues Passwort ein",
+      "confirmPassword": "Neues Passwort bestätigen",
+      "confirmPasswordPlaceholder": "Bestätigen Sie das neue Passwort",
+      "passwordHint": "Muss mindestens 8 Zeichen lang sein",
+      "changePassword": "Passwort ändern"
+    },
+    "preferences": {
+      "title": "Benachrichtigungspräferenzen",
+      "description": "Kontrollieren Sie, wie Sie Updates und Benachrichtigungen erhalten",
+      "email": {
+        "title": "E-Mail-Benachrichtigungen",
+        "description": "Erhalten Sie Updates und Benachrichtigungen per E-Mail"
+      },
+      "sms": {
+        "title": "SMS-Benachrichtigungen",
+        "description": "Wichtige Benachrichtigungen per SMS erhalten"
+      },
+      "optOut": {
+        "title": "Berichte zum Abmelden von Praxis",
+        "description": "Verstecken Sie Ihre Berichte vor dem Praxisinhaber"
+      },
+      "actions": {
+        "title": "Kontoaktionen",
+        "downloadData": "Kontodaten herunterladen",
+        "deleteAccount": "Konto löschen"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Zurück nach Hause",
+    "title": "Unterstützungszentrum",
+    "subtitle": "Holen Sie sich Hilfe mit unseren Softwareentwicklungsdiensten",
+    "cards": {
+      "email": {
+        "title": "E-Mail-Support",
+        "description": "Senden Sie uns eine E-Mail bei Fragen"
+      },
+      "project": {
+        "title": "Projektanfragen",
+        "description": "Bespreche deine Projektanforderungen",
+        "button": "Kontaktieren Sie uns"
+      },
+      "resources": {
+        "title": "Ressourcen",
+        "description": "Technische Ressourcen und Leitfäden",
+        "button": "Ressourcen anzeigen"
+      }
+    },
+    "faqTitle": "Häufig gestellte Fragen",
+    "faqDescription": "Schnelle Antworten auf häufige Fragen",
+    "faqs": [
+      {
+        "question": "Welche Dienstleistungen bietet Horizon Tech an?",
+        "answer": "Wir bieten maßgeschneiderte Softwareentwicklung, KI/ML-Lösungen, Cloud-Architektur, DevOps, Business Intelligence und IoT-Dienste an."
+      },
+      {
+        "question": "Wie starte ich ein Projekt bei Horizon Tech?",
+        "answer": "Kontaktieren Sie uns per Formular oder E-Mail mit Ihren Anforderungen. Wir vereinbaren einen Discovery Call und teilen einen Vorschlag."
+      },
+      {
+        "question": "Bieten Sie fortlaufende Unterstützung und Wartung an?",
+        "answer": "Ja. Wir bieten Support- und Wartungspakete an, die Fehlerbehebungen, Sicherheitsupdates und Funktionsverbesserungen enthalten."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Zurück nach Hause",
+    "title": "Technische Ressourcen",
+    "subtitle": "Anleitungen, Tutorials und Best Practices vom Horizon Tech-Team",
+    "hub": {
+      "title": "Learning Hub",
+      "description": "Entdecken Sie unsere kuratierten technischen Ressourcen in den Bereichen Cloud, KI/ML, DevOps und moderne Softwareentwicklung.",
+      "note": "Diese Materialien basieren auf realen Projekterfahrungen und werden regelmäßig aktualisiert."
+    },
+    "categories": [
+      {
+        "icon": "Cloud",
+        "title": "Cloud-Architektur",
+        "description": "Azure, AWS und cloud-native Patterns",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Führer"
+          },
+          {
+            "title": "Cloud-Migrationsstrategien",
+            "type": "Artikel"
+          }
+        ]
+      },
+      {
+        "icon": "Gehirn",
+        "title": "KI & Maschinelles Lernen",
+        "description": "ML-Modelle, Data Science und KI-Integration",
+        "resources": [
+          {
+            "title": "Einführung in Azure ML",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Aufbau von ML-Produktionspipelines",
+            "type": "Führer"
+          }
+        ]
+      },
+      {
+        "icon": "Einstellungen",
+        "title": "DevOps & Plattform",
+        "description": "CI/CD, Infrastruktur als Code, Automatisierung",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Infrastruktur als Code mit Terraform",
+            "type": "Führer"
+          }
+        ]
+      },
+      {
+        "icon": "Code",
+        "title": "Softwareentwicklung",
+        "description": ".NET, React und moderne Entwicklungspraktiken",
+        "resources": [
+          {
+            "title": "Saubere Architektur in .NET",
+            "type": "Führer"
+          },
+          {
+            "title": "React Best Practices",
+            "type": "Artikel"
+          }
+        ]
+      },
+      {
+        "icon": "Datenbank",
+        "title": "Daten & Analytics",
+        "description": "BI-, Data-Warehousing- und Analyseplattformen",
+        "resources": [
+          {
+            "title": "Power BI Dashboard-Design",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Data-Warehouse-Architektur",
+            "type": "Führer"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Brauchen Sie eine individuelle Schulung?",
+      "description": "Wir bieten maßgeschneiderte Workshops für Engineering- und Produktteams an",
+      "text": "Brauchen Sie praktische Teamschulung? Wir bieten maßgeschneiderte Workshops zu Cloud-Architektur, DevOps und modernen Lieferpraktiken an.",
+      "button": "Nehmen Sie Kontakt auf"
+    }
+  },
+  "unauthorized": {
+    "title": "Zugang verweigert",
+    "description": "Sie haben keine Berechtigung, auf diese Seite zuzugreifen. Kontaktiere deinen Administrator, wenn du denkst, dass das ein Fehler ist.",
+    "primary": "Gehe zum Profil",
+    "secondary": "Zurück nach Hause"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Beitrag nicht gefunden",
+      "description": "Es existiert kein Blogbeitrag für Slug: {{slug}}",
+      "back": "Zurück zum Blog"
+    },
+    "back": "Zurück zum Blog",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Fallstudie nicht gefunden",
+      "description": "Es existiert keine Fallstudie für id: {{id}}",
+      "back": "Zurück zu Fallstudien"
+    },
+    "back": "Zurück zu Fallstudien",
+    "sections": {
+      "executiveSummary": "Zusammenfassung",
+      "businessChallenge": "Geschäftsliche Herausforderung",
+      "technicalSolution": "Technische Lösung",
+      "architectureDecisions": "Architekturentscheidungen",
+      "technologyStack": "Technologie-Stack",
+      "resultsImpact": "Ergebnisse & Auswirkungen"
+    },
+    "client": "Auftraggeber",
+    "keyOutcomes": "Wichtige Ergebnisse",
+    "decision": "Entscheidung {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Signal verloren",
+      "title": "Seite nicht gefunden",
+      "description": "Die von Ihnen angeforderte Route existiert nicht oder ist verschoben. Bringen wir Sie zurück zu einem gültigen Horizon Tech-Endpunkt.",
+      "requestedPath": "Angeforderter Pfad",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Routendiagramm auflösen... Fehlgeschlagen",
+        "line2": "Grund: kein Matching-Route-Modul",
+        "line3": "Rückfallprotokoll aktiviert",
+        "line4": "Nutzen Sie eine der untenstehenden Abkürzungen, um fortzufahren"
+      },
+      "links": {
+        "home": "Startseite",
+        "services": "Dienstleistungen",
+        "blog": "Blog",
+        "caseStudies": "Fallstudien"
+      }
+    },
+    "runtime": {
+      "badge": "Laufzeitfehler",
+      "title": "Etwas ist auf dieser Seite kaputtgegangen",
+      "description": "Ein unerwartetes Problem unterbrach das Rendering. Sie können es sicher erneut versuchen oder zur Startseite zurückkehren.",
+      "retry": "Wiederholungsversuch",
+      "home": "Zurück zur Startseite",
+      "unknown": "Unbekannter Laufzeitfehler"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Blog-Management",
+      "subtitle": "Erstellen Sie, bearbeiten und verwalten Sie Ihre Blogbeiträge",
+      "newPost": "Neuer Posten",
+      "seedData": "Saatgutdaten",
+      "allPosts": "Alle Beiträge",
+      "published": "Veröffentlicht",
+      "draft": "Entwurf",
+      "featured": "Vorgestellt",
+      "setFeatured": "Set-Featured",
+      "removeFeatured": "Featured entfernen",
+      "table": {
+        "title": "Titel",
+        "category": "Kategorie",
+        "status": "Status",
+        "date": "Datum",
+        "actions": "Aktionen"
+      },
+      "empty": {
+        "message": "Noch keine Blogbeiträge. Erstellen Sie Ihren ersten Beitrag oder Ihre ersten Seed-Sample-Daten.",
+        "seed": "Saatgutprobendaten",
+        "create": "Beitrag erstellen"
+      },
+      "delete": {
+        "title": "Beitrag löschen",
+        "confirmation": "Bist du sicher, dass du diesen Beitrag löschen willst? Diese Maßnahme kann nicht rückgängig gemacht werden.",
+        "delete": "Löschen",
+        "cancel": "Stornieren"
+      }
+    },
+    "editor": {
+      "bannerHint": "Als breites Banner oben am Pfosten gezeigt",
+      "bannerImage": "Bannerbild",
+      "coverHint": "Angezeigt in Blog-Listenkarten",
+      "coverImage": "Titelbild",
+      "editSlug": "Bearbeiten Slug",
+      "posts": "Ämter",
+      "publish": "Veröffentlichen",
+      "update": "Update",
+      "form": {
+        "contentPlaceholder": "Schreibe deinen Beitrag hier...",
+        "excerptPlaceholder": "Kurze Zusammenfassung des Beitrags...",
+        "pickDate": "Such dir ein Datum aus",
+        "readTimePlaceholder": "z. B. 5-minütiges Lesen",
+        "titlePlaceholder": "Beitragstitel..."
+      },
+      "meta": {
+        "publisher": "Verlag",
+        "unknownAuthor": "Unbekannter Autor"
+      },
+      "modes": {
+        "edit": "Bearbeitung",
+        "editOnly": "Nur Bearbeitung",
+        "preview": "Vorschau",
+        "previewOnly": "Nur Vorschau",
+        "sideBySide": "Seite an Seite",
+        "split": "Spaltung"
+      },
+      "tags": {
+        "heading": "Tags",
+        "placeholder": "Füge einen Tag hinzu..."
+      },
+      "translations": {
+        "auto": "Auto",
+        "autoTranslate": "Auto-Übersetzung",
+        "clear": "Frei",
+        "existing": "Existenz",
+        "heading": "Übersetzungen",
+        "language": "Sprache",
+        "languages": "Sprachen",
+        "edit": "Bearbeitung",
+        "manual": "Manuell",
+        "preview": "Vorschau",
+        "searchPlaceholder": "Suchsprachen...",
+        "translate": "Übersetzen"
+      }
+    },
+    "caseStudies": {
+      "title": "Fallstudien",
+      "subtitle": "Fallstudien und Projektpräsentationen verwalten",
+      "newCaseStudy": "Neue Fallstudie",
+      "seedData": "Saatgutdaten",
+      "allCaseStudies": "Alle Fallstudien",
+      "published": "Veröffentlicht",
+      "draft": "Entwurf",
+      "table": {
+        "title": "Titel",
+        "industry": "Industrie",
+        "client": "Auftraggeber",
+        "status": "Status",
+        "actions": "Aktionen"
+      },
+      "empty": {
+        "message": "Noch keine Fallstudien.",
+        "seed": "Saatgutdaten",
+        "create": "Erstellen Sie zuerst"
+      },
+      "delete": {
+        "title": "Fallstudie löschen",
+        "confirmation": "Bist du sicher, dass du diese Fallstudie löschen willst? Diese Maßnahme kann nicht rückgängig gemacht werden.",
+        "delete": "Löschen",
+        "cancel": "Stornieren"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Fallstudien",
+      "published": "Veröffentlicht",
+      "draft": "Entwurf",
+      "update": "Update",
+      "create": "Erstellen Sie",
+      "sections": {
+        "basicInfo": "Grundlegende Informationen",
+        "narrative": "Erzählung",
+        "architectureDecisions": "Architekturentscheidungen",
+        "techStack": "Tech-Stack",
+        "results": "Ergebnisse",
+        "tags": "Tags"
+      },
+      "fields": {
+        "title": "Titel",
+        "titlePlaceholder": "Fallstudientitel",
+        "slug": "Slug",
+        "slugPlaceholder": "Auto-generiert-von-Titel-Charakter",
+        "client": "Auftraggeber",
+        "clientPlaceholder": "Mandantenname",
+        "industry": "Industrie",
+        "industryPlaceholder": "Ausgewählte Branche",
+        "description": "Beschreibung",
+        "descriptionPlaceholder": "Kurze Beschreibung (auf den Karten gezeigt)",
+        "executiveSummary": "Zusammenfassung",
+        "executiveSummaryPlaceholder": "Überblick auf hoher Ebene über das Engagement",
+        "challenge": "Herausforderung",
+        "challengePlaceholder": "Welches Problem hatte der Mandant?",
+        "solution": "Lösung",
+        "solutionPlaceholder": "Wie wurde das Problem gelöst?",
+        "decision": "Entscheidung",
+        "decisionPlaceholder": "Was wurde entschieden",
+        "rationale": "Begründung",
+        "rationalePlaceholder": "Warum dieser Ansatz gewählt wurde",
+        "metric": "Metrik",
+        "metricPlaceholder": "z. B. Abrechnungslatenz",
+        "value": "Wert",
+        "valuePlaceholder": "z. B. -63 % oder 4,8 Stunden -> 11 m",
+        "resultDescription": "Beschreibung",
+        "resultDescriptionPlaceholder": "Was dieses Ergebnis bedeutet",
+        "techPlaceholder": "Technologie hinzufügen (Enter drücken)",
+        "tagPlaceholder": "Tag hinzufügen (Enter drücken)"
+      },
+      "add": "Hinzufügen",
+      "noArchDecisions": "Noch keine Architekturentscheidungen hinzugefügt.",
+      "noResults": "Noch keine Ergebnisse vorliegen.",
+      "decisionLabel": "Entscheidung {{number}}",
+      "resultLabel": "Ergebnis {{number}}",
+      "controls": {
+        "published": "Veröffentlicht",
+        "publishedDescription": "Machen Sie diese Fallstudie öffentlich sichtbar",
+        "featured": "Vorgestellt",
+        "featuredDescription": "Hervorheben Sie diese Fallstudie"
+      }
+    },
+    "imageCrop": {
+      "apply": "Bewerben Sie sich",
+      "cancel": "Stornieren",
+      "cropTitle": "Bild zuschneiden",
+      "dropText": "Fügen Sie hier ein Bild ein oder klicken Sie zum Hochladen",
+      "flipHorizontal": "Horizontale Umdrehung",
+      "flipVertical": "Vertikale Flip",
+      "replace": "Ersetzen",
+      "reset": "Reset",
+      "rotateLeft": "Drehe nach links",
+      "rotateRight": "Nach rechts drehen",
+      "uploading": "Lade hoch...",
+      "toast": {
+        "invalidFile": "Ungültige Datei",
+        "invalidFileDesc": "Bitte laden Sie eine gültige Bilddatei hoch.",
+        "uploadFailed": "Upload fehlgeschlagen",
+        "uploadFailedDesc": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+        "uploaded": "Bild hochgeladen",
+        "uploadedDesc": "Dein Bild wurde erfolgreich hochgeladen."
+      }
+    }
+  }
+}

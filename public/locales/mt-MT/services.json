@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Ibda",
+    "ctaSecondary": "Konsultazzjoni dwar l-Iskeda"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Żvilupp tas-Software għall-Intrapriżi",
+      "description": "Applikazzjonijiet ta' intrapriża minn tarf sa tarf b'qafas moderni, arkitettura API-first, u skalabbiltà cloud-native."
+    },
+    "sections": {
+      "problem": {
+        "title": "Qafas tal-Problema tan-Negozju",
+        "subtitle": "Fejn il-programmi ta' intrapriża jitilfu l-veloċità, il-baġit, u l-allinjament strateġiku"
+      },
+      "approach": {
+        "title": "Approċċ tal-Inġinerija",
+        "subtitle": "Kif inbiddlu rekwiżiti ambigwi f'pjattaformi lesti għall-produzzjoni"
+      },
+      "principles": {
+        "title": "Prinċipji tal-Arkitettura",
+        "subtitle": "Deċiżjonijiet tad-disinn li jżommu s-sistemi tal-intrapriża li jistgħu jinżammu fuq skala"
+      },
+      "capabilities": {
+        "title": "X'NIBNU",
+        "subtitle": "Kapaċitajiet komprensivi ta' żvilupp tas-softwer"
+      },
+      "technology": {
+        "title": "Il-Pakkett Teknoloġiku Tagħna",
+        "subtitle": "Teknoloġiji moderni u ppruvati għall-kunsinna tal-intrapriżi"
+      },
+      "breakdown": {
+        "title": "Falliment tas-Servizz",
+        "subtitle": "Triq strutturata mill-iskoperta sal-kunsinna stabbli tal-produzzjoni"
+      }
+    },
+    "problem": {
+      "overview": "It-timijiet tal-intrapriżi spiss iġorru flussi tax-xogħol kritiċi fuq sistemi frammentati, li joħolqu ħinijiet twal ta' ħin, data inkonsistenti, u koordinazzjoni manwali għolja bejn dipartimenti.",
+      "painPointsTitle": "Uġigħ Rikorrenti tan-Negozju",
+      "impactSignalsTitle": "Dak li l-Mexxejja normalment josservaw",
+      "painPoints": [
+        "L-impenn fil-kunsinna jonqos minħabba li d-dipendenzi bejn it-timijiet mhumiex immaniġġjati",
+        "Il-loġika tan-negozju ewlenija hija duplikata bejn kanali u prodotti",
+        "L-integrazzjonijiet legacy jagħmlu l-lansaġġi ta' karatteristiċi ġodda ta' riskju għoli u bil-mod"
+      ],
+      "impactSignals": [
+        "Il-throughput tal-pjan tar-rotta jonqos waqt li l-infiq tal-inġinerija jiżdied",
+        "Id-difetti li jiffaċċjaw il-klijent jogħlew matul il-perjodi tar-rilaxx",
+        "Id-deċiżjonijiet jonqsu minħabba rapportar operattiv inkonsistenti"
+      ]
+    },
+    "approach": {
+      "overview": "Aħna nwettqu b'skoperta b'arkitettura l-ewwel, kunsinna bbażata fuq kuntratti, u inġinerija ta' rilaxx kontrollata sabiex il-valur tan-negozju jitwassal f'incrementi prevedibbli.",
+      "pillars": [
+        {
+          "title": "Mudellar tad-Dominju u Kuntesti Limitati",
+          "detail": "Aħna nimappjaw id-dominji biex jikklerjaw il-fruntieri tas-servizz biex inaqqsu l-koppja bejn timijiet u nispjegaw is-sjieda."
+        },
+        {
+          "title": "Strateġija ta' Integrazjoni API-First",
+          "detail": "Niddefinixxu kuntratti stabbli kmieni, li jippermettu żvilupp parallelu u integrazzjoni aktar sigura mas-sistemi tal-intrapriża."
+        },
+        {
+          "title": "Fluss tax-xogħol ta' kunsinna progressiva",
+          "detail": "Aħna nużaw feature flags, rollouts f'fażijiet, u gate ta' kwalità biex nilaxxaw malajr mingħajr ma nħassru l-produzzjoni."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Id-deċiżjonijiet tagħna dwar l-arkitettura jagħtu prijorità lill-lonġevità, operabilità, u proprjetà ċara sabiex il-pjattaformi jibqgħu adattabbli hekk kif l-ambitu tan-negozju jikber.",
+      "items": [
+        {
+          "title": "Fruntieri tas-Servizz Modulari",
+          "detail": "Il-kapaċitajiet huma ppakkjati madwar id-dominji tan-negozju biex iżommu l-impatt tal-bidla lokalizzat."
+        },
+        {
+          "title": "Integrazjoni Immexxija mill-Avvenimenti",
+          "detail": "Flussi tax-xogħol asinkroni jintużaw fejn teżisti tolleranza tal-latenza biex itejbu r-reżiljenza u d-dekonparazzjoni tas-sistema."
+        },
+        {
+          "title": "Osservabbiltà skont id-Disinn",
+          "detail": "It-traċċar, metriċi, u logs strutturati huma definiti minn qabel biex jappoġġjaw operazzjonijiet affidabbli u governanza SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Applikazzjonijiet Web Personalizzati",
+      "Żvilupp ta' App Mobbli",
+      "Żvilupp u Integrazjoni tal-API",
+      "Arkitettura tal-mikroservizzi",
+      "Soluzzjonijiet Cloud-Native",
+      "Modernizzazzjoni tas-Sistema Legacy"
+    ],
+    "technologies": [
+      {
+        "name": "React",
+        "category": "Frontend",
+        "icon": "Reazzjoni"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Lingwa",
+        "icon": "typescript"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "GraphQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Database",
+        "icon": "postgresql"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Database",
+        "icon": "mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Skoperta u Arkitettura",
+        "summary": "Nippjanaw il-prijoritajiet tan-negozju, il-limitazzjonijiet tekniċi, u l-arkitettura tal-miri qabel tibda l-implimentazzjoni.",
+        "deliverables": [
+          "Workshop dwar l-allinjament tal-prodott u r-rekwiżiti",
+          "Blueprint tal-arkitettura tas-soluzzjoni",
+          "Pjan ta' kunsinna bbażat fuq milestones"
+        ]
+      },
+      {
+        "title": "Bini u Integrazjoni",
+        "summary": "It-timijiet tagħna jimplimentaw karatteristiċi ewlenin, saffi ta' integrazzjoni, u salvagwardji ta' kwalità b'mod parallelu.",
+        "deliverables": [
+          "Żvilupp ta' karatteristiċi f'sprints iterattivi",
+          "API u integrazzjonijiet ta' partijiet terzi",
+          "Testijiet awtomatizzati u kontrolli ta' lesti għall-ħruġ"
+        ]
+      },
+      {
+        "title": "Tnedija u Evoluzzjoni",
+        "summary": "Wara l-go-live, nistabbilizzaw l-operazzjonijiet u niddeterminaw iċ-ċiklu ta' titjib li jmiss ibbażat fuq l-użu reali.",
+        "deliverables": [
+          "Runbook ta' rollout tal-produzzjoni",
+          "Aġġustament tal-prestazzjoni u l-affidabbiltà",
+          "Roadmap wara t-tnedija u backlog ta' titjib"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Lest biex tibni l-applikazzjoni li jmiss tiegħek?",
+      "description": "Ejja niddisinjaw u nippreżentaw soluzzjoni li twassal għal riżultati tan-negozju li jistgħu jitkejlu.",
+      "button": "Ibda l-Proġett Tiegħek"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML u Intelliġenza tan-Negozju",
+      "description": "Minn mudelli predittivi sa dashboards eżekuttivi, nibnu sistemi kompleti ta' AI/BI li jappoġġjaw id-deċiżjonijiet b'mod skalari."
+    },
+    "sections": {
+      "problem": {
+        "title": "Qafas tal-Problema tan-Negozju",
+        "subtitle": "Għaliex l-organizzazzjonijiet b'data rikka għadhom jiffaċċjaw diffikultajiet biex jieħdu deċiżjonijiet kunfidenti"
+      },
+      "approach": {
+        "title": "Approċċ tal-Inġinerija",
+        "subtitle": "Kif noperalizzaw prodotti tad-data, mudelli ta' ML, u flussi tax-xogħol tal-BI"
+      },
+      "principles": {
+        "title": "Prinċipji tal-Arkitettura",
+        "subtitle": "Mudelli ta' data u arkitettura tal-mudelli għal intelliġenza ta' deċiżjoni affidabbli"
+      },
+      "capabilities": {
+        "title": "Il-Kapaċitajiet Tagħna",
+        "subtitle": "Soluzzjonijiet komprensivi ta' AI, ML, u BI"
+      },
+      "technology": {
+        "title": "Il-Pakkett Teknoloġiku Tagħna",
+        "subtitle": "Għodod ewlenin fl-industrija għad-data u l-AI"
+      },
+      "breakdown": {
+        "title": "Falliment tas-Servizz",
+        "subtitle": "Kif nimxu minn data frammentata għal intelliġenza ta' livell ta' produzzjoni"
+      }
+    },
+    "problem": {
+      "overview": "L-organizzazzjonijiet spiss jiġbru volumi kbar ta' data iżda jonqsu milli jittraduċuha f'previsjoni affidabbli, deċiżjonijiet operattivi, jew azzjoni tan-negozju li tista' tiġi mkejla.",
+      "painPointsTitle": "Uġigħ Rikorrenti tan-Negozju",
+      "impactSignalsTitle": "Dak li l-Mexxejja normalment josservaw",
+      "painPoints": [
+        "Il-loġika tar-rapportar tvarja bejn it-timijiet, u twassal għal narrattivi kunflittwali tal-KPI",
+        "Il-mudelli jibqgħu fl-esperimentazzjoni u qatt ma jilħqu l-flussi tax-xogħol tal-produzzjoni",
+        "Kwistjonijiet ta' kwalità tad-dejta jnaqqsu l-fiduċja fl-analiżi u fid-dashboards eżekuttivi"
+      ],
+      "impactSignals": [
+        "Iċ-ċikli tad-deċiżjoni bil-mod għax it-timijiet jiddiskutu l-validità tad-data minflok l-azzjoni",
+        "L-eżattezza fil-previżjoni u l-ippjanar tibqa' inkonsistenti kwart għal kwart",
+        "L-investimenti fl-analiżi juru adozzjoni baxxa barra gruppi speċjalizzati ta' analisti"
+      ]
+    },
+    "approach": {
+      "overview": "Aħna nwasslu pjattaformi AI u BI bħala sistemi ta' produzzjoni, billi ngħaqqdu l-inġinerija tad-dejta, l-operazzjonijiet taċ-ċiklu tal-ħajja tal-mudell, u l-integrazzjoni tal-fluss tax-xogħol tad-deċiżjoni.",
+      "pillars": [
+        {
+          "title": "Fondazzjoni tal-Prodott tad-Data",
+          "detail": "Prodotti ta' data allinjati mad-dominju jistabbilixxu inputs riutilizzabbli, immexxija u ta' kwalità għolja għall-analiżi u l-ML."
+        },
+        {
+          "title": "Awtomazzjoni tal-Ħajja tal-MLOps",
+          "detail": "It-taħriġ, id-dispjazzament, il-monitoraġġ u l-kontroll tad-drift huma awtomatizzati biex il-mudelli jibqgħu affidabbli fil-produzzjoni."
+        },
+        {
+          "title": "Integrazzjoni tal-Fluss tax-Xogħol tad-Deċiżjoni",
+          "detail": "L-għarfien huwa integrat fl-għodod operattivi u l-dashboards sabiex it-timijiet jaġixxu fuq intelliġenza fil-proċessi ta' kuljum."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "L-arkitettura tagħna ta' AI/BI tagħti prijorità lil data affidabbli, mudelli spjegabbli, u mudelli ta' aċċess immexxija madwar l-intrapriża.",
+      "items": [
+        {
+          "title": "Definizzjonijiet ta' Metrika Waħda",
+          "detail": "Il-KPIs kritiċi jiġu definiti darba permezz ta' mudelli semantiċi kondiviżi biex jitneħħew loġika ta' rapportar li tikkonflittwix."
+        },
+        {
+          "title": "Kontrolli ta' Affidabbiltà tal-Mudell",
+          "detail": "Il-limiti tal-prestazzjoni, id-detezzjoni tad-drift, u l-mekkaniżmi ta' rollback jipproteġu l-kwalità tad-deċiżjoni fil-produzzjoni."
+        },
+        {
+          "title": "Sigurtà u Governanza bid-Disinn",
+          "detail": "Il-linja tad-data, l-aċċess ibbażat fuq ir-rwol, u kontrolli lesti għall-awditjar huma inkorporati f'kull pipeline."
+        }
+      ]
+    },
+    "capabilities": [
+      "Mudelli u Pipelines tat-Tagħlim bil-Magni",
+      "Dashboards u Rapporti ta' Power BI",
+      "Analiżi Predittiva",
+      "Streaming tad-Data f'Ħin Reali",
+      "Soluzzjonijiet ta' Ħażna tad-Data"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Pjattaforma",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Data Warehouse",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Inġinerija tad-Data",
+        "icon": "databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "Pjattaforma ML",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "Qafas ta' ML",
+        "icon": "tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "Qafas ta' ML",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tabella",
+        "category": "Analitika",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Ipproċessar",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Lingwa",
+        "icon": "postgresql"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Data Foundation",
+        "summary": "Aħna nawdjaw is-sorsi, niddefinixxu kuntratti tad-dejta, u nistabbilixxu governanza sabiex kull mudell jibda b'input affidabbli.",
+        "deliverables": [
+          "Sors tad-dejta u valutazzjoni tal-kwalità",
+          "Inġinerija tal-karatteristiċi u pjanar ta' skemi",
+          "Bażi ta' sigurtà u governanza"
+        ]
+      },
+      {
+        "title": "Kunsinna ta' Mudell u Għarfien",
+        "summary": "Nibnu mudelli u dashboards ta' deċiżjoni marbuta ma' mistoqsijiet tan-negozju u KPIs li jistgħu jiġu mkejla.",
+        "deliverables": [
+          "Żvilupp u validazzjoni tal-mudell",
+          "Dashboards eżekuttivi u rapporti operattivi",
+          "Integrazzjoni tal-fluss tax-xogħol tad-deċiżjoni"
+        ]
+      },
+      {
+        "title": "MLOps u Adozzjoni",
+        "summary": "Aħna noperalizzaw id-deployment, il-monitoraġġ, u l-enablement tat-tim biex inżommu r-riżultati affidabbli maż-żmien.",
+        "deliverables": [
+          "Pipelines awtomatizzati ta' distribuzzjoni ta' mudelli",
+          "Drift, preċiżjoni, u monitoraġġ tal-użu",
+          "Trasferiment tat-tim u playbook operattiv"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ittrasforma d-Data Tiegħek f'Għarfien",
+      "description": "Biddel data frammentata f'intelliġenza ċara u prattika.",
+      "button": "Ibda l-Vjaġġ Tiegħek"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Arkitettura u Infrastruttura tal-Cloud",
+      "description": "Pjattaformi multi-cloud, arkitettura reżiljenti, u infrastruttura skalabbli mfassla għal tkabbir fit-tul."
+    },
+    "sections": {
+      "problem": {
+        "title": "Qafas tal-Problema tan-Negozju",
+        "subtitle": "Għaliex l-inizjattivi tal-cloud waqfu wara l-ewwel mewġa ta' migrazzjoni"
+      },
+      "approach": {
+        "title": "Approċċ tal-Inġinerija",
+        "subtitle": "Kif nibnu pjattaformi cloud siguri u skalabbli b'riskju ta' migrazzjoni kkontrollat"
+      },
+      "principles": {
+        "title": "Prinċipji tal-Arkitettura",
+        "subtitle": "Deċiżjonijiet tal-pjattaforma li jibbilanċjaw l-agilità, ir-reżiljenza, u l-governanza"
+      },
+      "capabilities": {
+        "title": "Servizzi tal-Cloud",
+        "subtitle": "Ibni, implimenta, u skala fil-cloud"
+      },
+      "technology": {
+        "title": "Kompetenza f'Multi-Cloud",
+        "subtitle": "Soluzzjonijiet tal-cloud agnostiċi għall-pjattaforma"
+      },
+      "breakdown": {
+        "title": "Falliment tas-Servizz",
+        "subtitle": "Sekwenza ċara għad-disinn, il-migrazzjoni, u l-operazzjoni ta' pjattaformi tal-cloud"
+      }
+    },
+    "problem": {
+      "overview": "Ħafna organizzazzjonijiet jlestu l-migrazzjonijiet inizjali fil-cloud iżda għadhom jaħdmu bħal timijiet on-prem, b'viżibilità fqira, kontrolli inkonsistenti, u żieda fl-infiq.",
+      "painPointsTitle": "Uġigħ Rikorrenti tan-Negozju",
+      "impactSignalsTitle": "Dak li l-Mexxejja normalment josservaw",
+      "painPoints": [
+        "Il-kompiti tax-xogħol jiġu migrati mingħajr kontrolli standard ta' sigurtà u netwerking",
+        "Il-ispejjeż tal-cloud jikbru aktar malajr mill-valur tan-negozju mogħti",
+        "Il-provvista tal-ambjent tibqa' manwali u inkonsistenti bejn it-timijiet"
+      ],
+      "impactSignals": [
+        "Inċidenti frekwenti kkawżati minn drift fil-konfigurazzjoni bejn l-ambjenti",
+        "Il-preparazzjoni għall-awditjar tiddegrada minħabba prattiċi ta' governanza frammentati",
+        "Il-ħinijiet ta' introduzzjoni tal-infrastruttura jdewmu l-inizjattivi tal-prodott u tad-data"
+      ]
+    },
+    "approach": {
+      "overview": "Aħna niddisinjaw pjattaformi cloud bħala prodotti, billi nużaw awtomazzjoni tal-infrastruttura, protezzjonijiet tal-politika, u mewġ ta' migrazzjoni allinjati mal-kritikità tan-negozju.",
+      "pillars": [
+        {
+          "title": "Żona tal-Inżul bħala Kodiċi",
+          "detail": "L-identità, in-netwerking, is-sigurtà, u l-linji bażiċi tal-politika huma kkodifikati għal ripetibbiltà u awditabbiltà."
+        },
+        {
+          "title": "Strateġija ta' Migrazzjoni Ibbażata fuq Mewġ",
+          "detail": "Workloads jimxu f'fażijiet kontrollati b'sekwenzar konxju tad-dipendenzi u lesta għall-rollback."
+        },
+        {
+          "title": "SRE + Ċirku Operattiv FinOps",
+          "detail": "L-indikaturi ta' affidabbiltà u l-ekonomija tal-unitajiet jiġu riveduti flimkien biex itejbu kemm l-uptime kif ukoll l-effiċjenza tal-infiq."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Il-mudell tal-arkitettura tagħna jippreferi infrastruttura dikjarattiva, aċċess b'privileġġ minimu, u pjattaformi kompożibbli li jappoġġjaw kunsinna rapida tal-prodott.",
+      "items": [
+        {
+          "title": "Mudelli ta' Infrastruttura Immutabbli",
+          "detail": "L-ambjenti jiġu mibnija mill-ġdid minn kodiċi verżjonat biex jitnaqqas id-drift u jissimplifika r-rkupru operattiv."
+        },
+        {
+          "title": "Linja ta' Bażi tas-Sigurtà b'Default",
+          "detail": "Il-kontrolli ta' aċċess b'zero-trust u l-implimentazzjoni tal-politika huma inkorporati f'kull ċiklu ta' ħajja ambjentali."
+        },
+        {
+          "title": "Reżiljenza permezz tad-Distribuzzjoni",
+          "detail": "Ix-xogħlijiet kritiċi huma ddisinjati għal tolleranza għal fallimenti f'żoni multipli jew f'reġjuni multipli fejn l-impatt tan-negozju jeħtieġ dan."
+        }
+      ]
+    },
+    "capabilities": [
+      "Strateġija u Implimentazzjoni Multi-Cloud",
+      "Orkestrazzjoni ta' Kontenituri (Kubernetes)",
+      "Kalkolu Serverless",
+      "Servizzi ta' Migrazzjoni fil-Cloud",
+      "Arkitettura ta' Disponibbiltà Għolja"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Cloud",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "AWS",
+        "category": "Cloud",
+        "icon": "AmazonWebServices"
+      },
+      {
+        "name": "GCP",
+        "category": "Cloud",
+        "icon": "GoogleCloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orkestrazzjoni",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Kontenituri",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Mudelli ARM",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "AmazonWebServices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Arkitettura u Żona tal-Inżul",
+        "summary": "Niddefinixxu l-istat tal-mira, il-barrieri, u l-istandards bażiċi tal-pjattaforma qabel ma l-kompiti jittrasferixxu.",
+        "deliverables": [
+          "Disinn tal-arkitettura tal-cloud fil-mira",
+          "Bażi ta' identità, netwerking, u sigurtà",
+          "Barrieri ta' spiża u konformità"
+        ]
+      },
+      {
+        "title": "Migrazzjoni u Bini tal-Pjattaforma",
+        "summary": "Aħna nwettqu mewġ ta' migrazzjoni u npoġġu komponenti ta' pjattaforma cloud-native b'awtomazzjoni ripetuta.",
+        "deliverables": [
+          "Sekwenza tal-migrazzjoni tal-piż tax-xogħol",
+          "Setup ta' kontenituri u pjattaformi serverless",
+          "Moduli tal-Infrastruttura bħala Kodiċi"
+        ]
+      },
+      {
+        "title": "Affidabbiltà u FinOps",
+        "summary": "Aħna ntejbu r-reliabbiltà operattiva u nottimizzaw kontinwament l-infiq fil-cloud ibbażat fuq it-telemetrija ħajja.",
+        "deliverables": [
+          "SLOs, monitoraġġ u flussi tax-xogħol ta' inċidenti",
+          "Reżiljenza u validazzjoni ta' rkupru f'każ ta' diżastri",
+          "Backlog ta' ottimizzazzjoni tal-ispejjeż u kadenza ta' governanza"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Iskala l-Infrastruttura Tiegħek",
+      "description": "Ibni fondazzjonijiet tal-cloud li jibqgħu reżiljenti taħt tagħbija reali.",
+      "button": "Ippjana l-Istrateġija tal-Cloud Tiegħek"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps u Inġinerija tal-Pjattaforma",
+      "description": "Pipelines ta' kunsinna awtomatizzati, osservabbiltà, u prattiċi tal-pjattaforma li jtejbu l-veloċità mingħajr ma jissagrifikaw ir-reliabbiltà."
+    },
+    "sections": {
+      "problem": {
+        "title": "Qafas tal-Problema tan-Negozju",
+        "subtitle": "Għaliex il-veloċità tal-kunsinna tonqos hekk kif il-kumplessità tal-pjattaforma tiżdied"
+      },
+      "approach": {
+        "title": "Approċċ tal-Inġinerija",
+        "subtitle": "Kif standardizzaw il-pipelines ta' kunsinna mingħajr ma nnaqqsu t-timijiet tal-prodott"
+      },
+      "principles": {
+        "title": "Prinċipji tal-Arkitettura",
+        "subtitle": "Mudelli ta' inġinerija tal-pjattaforma li jkabbru l-affidabbiltà u l-awtonomija tat-tim"
+      },
+      "capabilities": {
+        "title": "Servizzi DevOps",
+        "subtitle": "Awtomatizza, issegwi u ottimizza ċ-ċiklu tal-ħajja tal-kunsinna tiegħek"
+      },
+      "technology": {
+        "title": "Għodod u Pjattaformi DevOps",
+        "subtitle": "L-aqwa katina ta' għodod DevOps fil-klassi"
+      },
+      "breakdown": {
+        "title": "Falliment tas-Servizz",
+        "subtitle": "Roadmap prattiku minn bottlenecks fil-kunsinna għal fluss ta' rilaxx ta' fiduċja għolja"
+      }
+    },
+    "problem": {
+      "overview": "L-organizzazzjonijiet spiss jinvestu f'għodod CI/CD iżda għadhom jiffaċċjaw diffikultajiet ta' rilaxxijiet instabbli, approvazzjonijiet bil-mod, u proprjetà frammentata bejn ambjenti.",
+      "painPointsTitle": "Uġigħ Rikorrenti tan-Negozju",
+      "impactSignalsTitle": "Dak li l-Mexxejja normalment josservaw",
+      "painPoints": [
+        "Id-definizzjonijiet tal-pipeline jvarjaw skont it-tim, u joħolqu gates ta' kwalità inkonsistenti",
+        "Approvazzjonijiet manwali ta' implimentazzjoni, dewmien, hotfix u skemi ta' rilaxx ta' karatteristiċi",
+        "Inċidenti operattivi jerġgħu jidhru għax it-telemetrija hija inkompluta jew magħluqa"
+      ],
+      "impactSignals": [
+        "Il-ħin ta' qabel għall-bidliet jibqa' jiżdied minkejja l-ispejjeż awtomatizzati",
+        "Ir-rata ta' falliment tal-bidla tiżdied waqt perjodi ta' kunsinna b'volum għoli",
+        "Il-produttività tal-iżviluppaturi tonqos minħabba frizzjoni fl-għodod u l-bidla fil-kuntest"
+      ]
+    },
+    "approach": {
+      "overview": "Aħna nistabbilixxu mudell ta' pjattaforma interna għall-iżviluppaturi b'mudelli ta' pipeline riutilizzabbli, governanza mmexxija mill-politika, u osservabbiltà sħiħa taċ-ċiklu tal-ħajja.",
+      "pillars": [
+        {
+          "title": "Mudelli tal-Pipeline Golden Path",
+          "detail": "Il-blueprints CI/CD riutilizzabbli jistandardizzaw il-kostruzzjoni, it-test, iċ-ċekkijiet tas-sigurtà, u l-flussi tax-xogħol ta' implimentazzjoni."
+        },
+        {
+          "title": "API tal-Pjattaforma u Self-Service",
+          "detail": "It-timijiet jipprovdu ambjenti u jirrilaxxaw infrastruttura permezz ta' interfaces ta' self-service kontrollati."
+        },
+        {
+          "title": "Loops ta' Feedback ta' Affidabbiltà",
+          "detail": "It-trends tal-inċidenti, is-saħħa tal-SLO, u t-telemetrija tad-distribuzzjoni jgħinu titjib kontinwu fil-proċessi u l-arkitettura."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "L-arkitettura DevOps tagħna tallinja l-veloċità tal-kunsinna mal-gvernanza billi awtomatizza l-kontrolli u tnaqqas ix-xogħol operattiv wieħed biss.",
+      "items": [
+        {
+          "title": "Kollox bħala Kodiċi Verżjonat",
+          "detail": "Il-pipelines, l-infrastruttura, u r-regoli tal-politika jiġu mmexxija fil-kontroll tas-sors għall-awditabbiltà u r-ripetibbiltà."
+        },
+        {
+          "title": "Verifika Progressiva",
+          "detail": "Iċ-ċekkijiet tal-kwalità, is-sigurtà u tal-prestazzjoni huma mqassma fuq stadji differenti biex jiġu skoperti r-riskju aktar kmieni."
+        },
+        {
+          "title": "Responsabbiltà tal-Pjattaforma Kondiviża",
+          "detail": "It-timijiet tal-pjattaforma jipprovdu kapaċitajiet ta' triq asfaltata filwaqt li t-timijiet tal-prodott iżommu s-sjieda tal-kunsinna."
+        }
+      ]
+    },
+    "capabilities": [
+      "Disinn tal-Pipeline CI/CD",
+      "Infrastruttura bħala Kodiċi",
+      "Testijiet Awtomatizzati",
+      "Awtomazzjoni tad-Distribuzzjoni",
+      "Monitoraġġ u Osservabbiltà"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Pjattaforma",
+        "icon": "AzureDevOps"
+      },
+      {
+        "name": "Azzjonijiet fuq GitHub",
+        "category": "CI/CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Ippakkjar",
+        "icon": "Helm"
+      },
+      {
+        "name": "Ansible",
+        "category": "Awtomazzjoni",
+        "icon": "ansible"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Monitoraġġ",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Osservabbiltà",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Valutazzjoni tal-Pjattaforma",
+        "summary": "Aħna nivvalutaw il-katina attwali ta' distribuzzjoni tas-softwer tiegħek biex nidentifikaw punti ta' riskju u restrizzjonijiet ta' veloċità.",
+        "deliverables": [
+          "Mappa tal-fluss tax-xogħol tal-kunsinna tal-istat kurrenti",
+          "Analiżi tal-bottleneck tal-pipeline",
+          "Mappa ta' maturità ta' DevOps fil-mira"
+        ]
+      },
+      {
+        "title": "Bini ta' Pipeline u Awtomazzjoni",
+        "summary": "Nimplimentaw CI/CD affidabbli, gates ta' kwalità, u awtomazzjoni tal-infrastruttura għal rilaxxijiet konsistenti.",
+        "deliverables": [
+          "Mudelli CI/CD riutilizzabbli",
+          "Awtomazzjoni tal-infrastruttura u l-ambjent",
+          "Testijiet awtomatizzati u kontrolli tar-rilaxx"
+        ]
+      },
+      {
+        "title": "Operazzjoni u Titjib",
+        "summary": "Nistabbilixxu loops ta' osservabbiltà u governanza li jappoġġjaw it-titjib kontinwu tal-kunsinna.",
+        "deliverables": [
+          "Monitoraġġ ta' dashboards u politiki ta' twissija",
+          "Ħruġ ta' kotba ta' governanza u ta' inċidenti",
+          "Metriċi u reviżjonijiet ta' titjib kontinwu"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Aċċellera l-Kunsinna Tiegħek",
+      "description": "Naqqas il-frizzjoni tar-rilaxx u ittejjeb ir-reliabbiltà b'prattiċi DevOps maturi.",
+      "button": "Trasforma l-Pipeline Tiegħek"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Trasformazzjoni Diġitali u Strateġija",
+      "description": "Konsulenza strateġika u appoġġ għall-eżekuzzjoni biex jiġu modernizzati pjattaformi, timijiet, u mudelli operattivi."
+    },
+    "sections": {
+      "problem": {
+        "title": "Qafas tal-Problema tan-Negozju",
+        "subtitle": "Fejn il-programmi ta' trasformazzjoni jitilfu l-momentum u l-kunfidenza eżekuttiva"
+      },
+      "capabilities": {
+        "title": "Servizzi ta' Konsulenza",
+        "subtitle": "Gwida strateġika għas-suċċess diġitali"
+      },
+      "approach": {
+        "title": "Approċċ tal-Inġinerija",
+        "subtitle": "Kif nittraduċu l-istrateġija f'bidla eżegwibbli u appoġġjata mit-teknoloġija"
+      },
+      "principles": {
+        "title": "Prinċipji tal-Arkitettura",
+        "subtitle": "Għażliet ta' mudell operattiv u pjattaforma li jipproteġu r-riżultati tat-trasformazzjoni"
+      },
+      "technology": {
+        "title": "Stack tat-Teknoloġija",
+        "subtitle": "Pjattaformi u qafas li nużaw biex inħaddmu t-trasformazzjoni"
+      },
+      "breakdown": {
+        "title": "Falliment tas-Servizz",
+        "subtitle": "Trasformazzjoni strutturata mill-definizzjoni tal-istrateġija għal valur tan-negozju li jista' jiġi mkejjel"
+      }
+    },
+    "problem": {
+      "overview": "L-inizjattivi diġitali spiss jibdew b'intenzjoni qawwija iżda jonqsu milli jikkonvertu f'riżultati ta' kunsinna minħabba proprjetà mhux ċara, għodod mhux konnessi, u prijoritajiet kompetittivi.",
+      "painPointsTitle": "Uġigħ Rikorrenti tan-Negozju",
+      "impactSignalsTitle": "Dak li l-Mexxejja normalment josservaw",
+      "painPoints": [
+        "Il-pjanijiet tat-trasformazzjoni huma definiti iżda mhux tradotti f'governanza tal-kunsinna",
+        "Il-prijoritajiet tan-negozju u tal-inġinerija jiddifferixxu wara ċikli inizjali ta' pjanar",
+        "Mudelli operattivi antiki jimblukkaw l-adozzjoni ta' prattiċi moderni ta' kunsinna tal-prodotti"
+      ],
+      "impactSignals": [
+        "L-ispejjeż tal-programmi jiżdiedu filwaqt li l-moviment strateġiku tal-KPI jibqa' stabbli",
+        "L-inizjattivi jonqsu mill-punti ta' trasferiment bejn l-istrateġija, l-arkitettura, u l-eżekuzzjoni",
+        "It-timijiet jesperjenzaw għeja tal-bidla b'valur tan-negozju limitat"
+      ]
+    },
+    "approach": {
+      "overview": "Ngħaqqdu pariri strateġiċi ma' arkitettura ta' kunsinna, billi nallinjaw id-disinn tal-mudell operattiv, il-kapaċità tal-pjattaforma, u l-kadenza tal-eżekuzzjoni madwar għanijiet li jistgħu jiġu mkejla.",
+      "pillars": [
+        {
+          "title": "Prijorità tal-Fluss tal-Valur",
+          "detail": "Aħna nissekwenzjaw inizjattivi bbażati fuq l-impatt tan-negozju li jista' jiġi mkejla u r-restrizzjonijiet ta' dipendenza teknika."
+        },
+        {
+          "title": "Disinn tal-Mudell Operattiv tal-Miri",
+          "detail": "Ir-rwoli, il-governanza, u d-drittijiet tad-deċiżjoni huma definiti biex jappoġġjaw eżekuzzjoni aktar mgħaġġla bejn it-timijiet tan-negozju u tat-teknoloġija."
+        },
+        {
+          "title": "Governanza tal-Kunsinna tal-Portafoll",
+          "detail": "Il-progress tat-trasformazzjoni jiġi mmexxi permezz ta' checkpoints marbuta ma' KPIs u kontrolli tar-riskju fil-livell tal-portafoll."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "L-arkitettura tat-trasformazzjoni tagħna tiffoka fuq modernizzazzjoni inkrementali u responsabbiltà ċara, u tevita riżkrizzjonijiet diżruttivi mingħajr ġustifikazzjoni tan-negozju.",
+      "items": [
+        {
+          "title": "Allinjament tal-Kapaċità tan-Negozju",
+          "detail": "Il-bidliet fit-teknoloġija huma organizzati madwar kapaċitajiet li jirrappreżentaw direttament id-dħul, il-kwalità tas-servizz, jew l-effiċjenza tal-ispejjeż."
+        },
+        {
+          "title": "Strateġija tal-Pjattaforma Kompożibbli",
+          "detail": "Il-komponenti tal-pjattaforma jiġu magħżula għall-interoperabilità biex jappoġġjaw il-migrazzjoni fażalizzata u adattament aktar mgħaġġel."
+        },
+        {
+          "title": "Gvernanza b'Kadenzja ta' Kunsinna",
+          "detail": "Il-forums tad-deċiżjoni u l-punti ta' kontroll huma inkorporati f'ċikli ta' sprint u kwartali, mhux trattati bħala traċċi burokratiċi separati."
+        }
+      ]
+    },
+    "capabilities": [
+      "Roadmaps tat-Trasformazzjoni Diġitali",
+      "Żvilupp ta' Strateġija Teknoloġika",
+      "Qafas ta' Adozzjoni tal-Cloud",
+      "Ottimizzazzjoni tal-Proċess",
+      "Ġestjoni tal-Bidla"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Foundation",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Pjattaforma tad-Data",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Intelliġenza tad-Deċiżjoni",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Pjattaforma tal-Enerġija",
+        "category": "Low-Code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Kollaborazzjoni",
+        "icon": "MicrosoftSharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Allinjament strateġiku",
+        "summary": "Nallinjaw il-prijoritajiet tal-mexxejja u l-għanijiet diġitali biex noħolqu direzzjoni ta' trasformazzjoni kondiviża.",
+        "deliverables": [
+          "Għanijiet ta' trasformazzjoni u kriterji ta' suċċess",
+          "Valutazzjoni tal-maturità tal-kapaċitajiet u l-vojt",
+          "Portafoll ta' inizjattivi prijoritarji"
+        ]
+      },
+      {
+        "title": "Pjan ta' Eżekuzzjoni",
+        "summary": "Aħna niddeterminaw il-mudell operattiv fil-mira, l-istandards tal-arkitettura, u s-sekwenza ta' implimentazzjoni fażjonata.",
+        "deliverables": [
+          "Mudell operattiv u disinn ta' governanza",
+          "Istandards tat-teknoloġija u l-arkitettura tal-proċess",
+          "Pjan ta' implimentazzjoni b'fażijiet"
+        ]
+      },
+      {
+        "title": "Bidla u Realizzazzjoni tal-Valur",
+        "summary": "Aħna nħeġġu l-adozzjoni, nsegwu l-moviment tal-KPI, u nirfinaw l-inizjattivi bbażati fuq ir-riżultati tal-kunsinna.",
+        "deliverables": [
+          "Pjan ta' adozzjoni u abbiltà",
+          "Kadenza tal-kejl tal-KPI",
+          "Backlog ta' ottimizzazzjoni kwartali"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ibda l-Vjaġġ ta' Trasformazzjoni Tiegħek",
+      "description": "Naviga l-bidla b'prijoritajiet ċari u pjanijiet ta' kunsinna prattiċi.",
+      "button": "Sessjoni ta' Skeda ta' Strateġija"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT u Kalkolu tal-Fruntiera",
+      "description": "Sistemi konnessi mill-apparat sal-cloud, b'pipelines tat-telemetrija u intelliġenza tal-fruntiera għal skala industrijali."
+    },
+    "sections": {
+      "problem": {
+        "title": "Qafas tal-Problema tan-Negozju",
+        "subtitle": "Għaliex il-programmi ta' apparat konness jonqsu milli jiskalaw lil hinn mid-deploys pilota"
+      },
+      "approach": {
+        "title": "Approċċ tal-Inġinerija",
+        "subtitle": "Kif niddisinjaw sistemi IoT siguri u operabbli mill-firmware tal-apparat sa APIs tal-cloud"
+      },
+      "principles": {
+        "title": "Prinċipji tal-Arkitettura",
+        "subtitle": "Regoli tad-disinn mill-edge sal-cloud għall-affidabbiltà, il-latenza, u l-governanza tal-flotta"
+      },
+      "capabilities": {
+        "title": "Soluzzjonijiet IoT",
+        "subtitle": "Ikkonnettja, jissorvelja, u ottimizza l-apparati tiegħek"
+      },
+      "technology": {
+        "title": "Stack tat-Teknoloġija IoT",
+        "subtitle": "Mill-hardware għall-cloud"
+      },
+      "breakdown": {
+        "title": "Falliment tas-Servizz",
+        "subtitle": "Kif inwasslu sistemi konnessi minn apparati tal-fruntiera sa intelliġenza tas-sħab"
+      }
+    },
+    "problem": {
+      "overview": "L-inizjattivi IoT spiss juru li huma fattibbiltà teknika fil-piloti iżda jonqsu fuq skala minħabba konnettività mhux affidabbli, kontrolli dgħajfa tal-flotta, u integrazzjoni fqira mal-flussi tax-xogħol tan-negozju.",
+      "painPointsTitle": "Uġigħ Rikorrenti tan-Negozju",
+      "impactSignalsTitle": "Dak li l-Mexxejja normalment josservaw",
+      "painPoints": [
+        "L-onboarding tal-apparat u l-ġestjoni taċ-ċiklu tal-ħajja jibqgħu manwali u suxxettibbli għal żbalji",
+        "Il-pipelines tat-telemetrija jipproduċu data operattiva b'ħsejjes, mhux kompluta, jew dewmien",
+        "Aġġornamenti ta' kmand remot u firmware jintroduċu riskju ta' sigurtà u protezzjoni"
+      ],
+      "impactSignals": [
+        "L-ambjenti tal-piloti jirnexxew, iżda l-iskedi tar-rilaxx tal-produzzjoni jitilqu ripetutament",
+        "It-timijiet tal-operazzjonijiet fil-kamp jirreaġixxu għal inċidenti mingħajr viżibilità predittiva",
+        "Is-sistemi tan-negozju ma jistgħux jikkonsmaw b'mod affidabbli l-intelliġenza tal-apparat f'ħin reali"
+      ]
+    },
+    "approach": {
+      "overview": "Aħna nħolqu pjattaformi IoT bħala sistemi distribwiti kkontrollati, li jikkombinaw standards ta' runtime ta' edge siguri, inġestjoni mmexxija minn avvenimenti, u governanza operattiva fuq skala ta' flotta.",
+      "pillars": [
+        {
+          "title": "Ġestjoni Sigura taċ-Ċiklu tal-Ħajja tal-Apparat",
+          "detail": "Il-provvistaġġ, l-identità, ir-rotazzjoni tal-keys, u l-aġġornamenti tal-firmware huma awtomatizzati biex jitnaqqas ir-riskju operattiv."
+        },
+        {
+          "title": "Arkitettura tat-Telemetrija Immexxija minn Avvenimenti",
+          "detail": "Il-pipelines ta' streaming jinnormalizzaw, jivvalidaw u jindirizzaw avvenimenti tal-apparat għall-analiżi u kontroll kważi f'ħin reali."
+        },
+        {
+          "title": "Ajruplan ta' Kontroll tal-Operazzjonijiet tal-Flotta",
+          "detail": "Il-flussi tax-xogħol ta' monitorjar, twissija u kmand remot jipprovdu superviżjoni affidabbli fuq assi distribwiti."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "L-arkitettura IoT tagħna tibbilanċja deċiżjonijiet ta' edge b'latenza baxxa ma' governanza ċentralizzata, osservabbiltà, u konformità tas-sigurtà.",
+      "items": [
+        {
+          "title": "Awtonomija tal-Fruntieri b'Koordinazzjoni tal-Cloud",
+          "detail": "Operazzjonijiet lokali kritiċi jkomplu waqt id-degradazzjoni tan-netwerk waqt li jiġu sinkronizzati l-istat mas-sistemi cloud meta jkun disponibbli."
+        },
+        {
+          "title": "Skemi ta' Avvenimenti Kuntrattati",
+          "detail": "It-timijiet tal-apparat u tal-pjattaforma jużaw skemi mmexxija biex iżommu l-konsistenza tat-telemetrija bejn il-verżjonijiet."
+        },
+        {
+          "title": "Sigurtà ta' Apparat Zero-Trust",
+          "detail": "L-awtentikazzjoni reċiproka, l-inqas privileġġ, u t-trasport enkritat huma implimentati f'kull interazzjoni ma' apparat."
+        }
+      ]
+    },
+    "capabilities": [
+      "Ġestjoni tal-Apparat IoT",
+      "Soluzzjonijiet ta' Digital Twin",
+      "Implimentazzjoni tal-Kompjuters fuq il-Fruntiera",
+      "Telemetrija f'Ħin Reali",
+      "Manutenzjoni Predittiva"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Twins Diġitali",
+        "category": "Simulazzjoni",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Kalkolu tal-Fruntiera",
+        "category": "Edge",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protokoll",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protokoll",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Hardware",
+        "icon": "arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Hardware",
+        "icon": "Raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Serje taż-Żmien DB",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strateġija ta' Apparat u Edge",
+        "summary": "Aħna niddeterminaw mudelli ta' konnettività, standards ta' runtime tal-edge, u provvista sigura għal apparati fil-qasam.",
+        "deliverables": [
+          "Mudell ta' onboarding u konnettività tal-apparat",
+          "Ħin ta' eżekuzzjoni tal-fruntiera u pjan ta' implimentazzjoni",
+          "Bażi tas-sigurtà tal-flotta"
+        ]
+      },
+      {
+        "title": "Telemetrija u Pjan ta' Kontroll",
+        "summary": "Aħna nibnu pipelines li jaqbdu l-avvenimenti, jimmodellaw digital twins, u nippermettu workflows ta' kontroll remot.",
+        "deliverables": [
+          "Inġestjoni f'ħin reali u disinn ta' skema ta' avvenimenti",
+          "Implimentazzjoni ta' dual diġitali u mudelli ta' assi",
+          "Livell API ta' kmand u kontroll"
+        ]
+      },
+      {
+        "title": "Operazzjonijiet u Skala",
+        "summary": "Aħna noperalizzaw il-ġestjoni tal-flotta u kontrolli ta' affidabbiltà għal ambjenti IoT fuq skala ta' produzzjoni.",
+        "deliverables": [
+          "Monitoraġġ u twissija tal-flotta ta' apparati",
+          "Manutenzjoni predittiva u skoperta ta' anomaliji",
+          "Pjan ta' tnedija u ta' appoġġ għall-ħajja"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ikkonnettja l-Apparati Tiegħek",
+      "description": "Ibni soluzzjonijiet affidabbli tal-IoT lesti għal ambjenti reali ta' produzzjoni.",
+      "button": "Ibda l-Proġett Tiegħek tal-IoT"
+    }
+  }
+}

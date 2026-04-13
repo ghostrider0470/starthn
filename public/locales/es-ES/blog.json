@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Todos"
+  },
+  "categories": {
+    "aiEngineering": "Ingeniería de IA",
+    "enterpriseArchitecture": "Arquitectura empresarial",
+    "cloudDevOps": "Nube y DevOps",
+    "automationSystems": "Sistemas de automatización",
+    "softwareReliabilityDesign": "Fiabilidad y Diseño de Software"
+  },
+  "readTime": "{{minutes}} lectura de un minuto",
+  "tagsLabel": "Etiquetas",
+  "relatedPosts": "Publicaciones relacionadas",
+  "author": {
+    "role": "Editorial"
+  },
+  "editor": {
+    "emptyPreview": "Empieza a escribir para ver un avance..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Ingeniería de Prompt",
+    "observability": "Observabilidad",
+    "safety": "Seguridad",
+    "domainDesign": "Diseño de dominios",
+    "integration": "Integración",
+    "governance": "Gobernanza",
+    "platformStrategy": "Estrategia de plataforma",
+    "platformEngineering": "Ingeniería de Plataformas",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Experiencia del desarrollador",
+    "eventDriven": "Impulsado por eventos",
+    "workflowOrchestration": "Orquestación de flujos de trabajo",
+    "controlPlanes": "Planos de control",
+    "resilience": "Resiliencia",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "Modos de fallo",
+    "resilienceEngineering": "Ingeniería de Resiliencia",
+    "evaluation": "Evaluación",
+    "qualityEngineering": "Ingeniería de la Calidad",
+    "datasets": "Conjuntos de datos",
+    "releaseManagement": "Gestión de Lanzamientos",
+    "incidentManagement": "Gestión de incidentes",
+    "architectureEvolution": "Evolución de la arquitectura",
+    "riskReduction": "Reducción de riesgos",
+    "postmortems": "Autopsias",
+    "progressiveDelivery": "Entrega progresiva",
+    "canaryReleases": "Lanzamientos de Canary",
+    "featureFlags": "Banderas de Características"
+  }
+}

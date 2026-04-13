@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Laboratuara Nûjeniyê",
+    "description": "Demoyên înteraktîf, ceribandin û pêşandanên teknîkî yên tîma me ya endezyariyê keşf bikin.",
+    "primary": "Explore Demos",
+    "secondary": "Lêkolînê bibînin"
+  },
+  "overview": {
+    "hero": {
+      "title": "Laboratuara Nûjeniyê",
+      "description": "Em di AI, otomasyon û pergalên belavkirî de sînorên pratîkî vedikolin, paşê lêkolînên pejirandî vediguherînin kapasîteyên hilberîna pêbawer.",
+      "primary": "Qadên Lêkolînê Keşf Bikin",
+      "secondary": "Hevkariyê nîqaş bikin"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Qadên Lêkolînê",
+        "description": "Her qada fokusê lêkolînên keşfê bi rêyên sepandinê yên ku ji bo pergalên cîhana rastîn hatine sêwirandin re cot dike.",
+        "cardCta": "Fokusê keşf bikin"
+      },
+      "detailedFocusBriefs": {
+        "title": "Kurteyên Fokusê yên Berfireh",
+        "description": "Însiyatîfên lêkolînê yên nêzîk ên ku niha ji pejirandina mîmariyê ber bi planên teslîmkirinê ve diçin."
+      },
+      "fromLabToProduction": {
+        "title": "Ji Laboratuarê ber bi Hilberînê",
+        "description": "Nûjenî li Horizon bi encamên şandinê tê pîvandin, ne prototîpên îzolekirî."
+      },
+      "roadmap": {
+        "title": "Nexşeya Rê ya R&D",
+        "description": "Pêşveçûnek qonaxî ji avakirina kapasîteyê ber bi pergalên adaptîf û bi domdarî baştir dibe."
+      },
+      "publications": {
+        "title": "Weşan û Dîtin",
+        "description": "Nivîsandina teknîkî û notên sepandinê ji xebata nûjeniyê ya domdar."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Pergalên AI-yê yên Applied",
+        "description": "Mîmariyên AI-yê yên ku li ser hilberîna hilberînê xizmeta modelê, orkestrasyona taybetmendiyê, û ceribandinên birêkûpêk pêk tînin."
+      },
+      "automationFrameworks": {
+        "title": "Çarçoveyên Otomasyonê",
+        "description": "Amûrên otomasyona navxweyî ji bo ewlehiya belavkirinê, bersiva bûyerê, û herikîna endezyariyê ya dubarekirî."
+      },
+      "advancedArchitecture": {
+        "title": "Ezmûna Mîmariya Pêşkeftî",
+        "description": "Lêkolîna li ser mîmariyên berbiçav û belavkirî yên ku ji bo performansê, toleransa xeletiyê û pîvanê optîmîze kirine."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Îstîxbarata li qiraxa ji bo biryara kêm-dereng, pêvajoyên telemetrî û koordînasyona fîloya cîhazê."
+      },
+      "nlp": {
+        "title": "Pêvajoya Zimanê Xwezayî",
+        "description": "Xetên têgihîştina pirzimanî ji bo dabeşkirin, derxistin, wergerandin û pergalên axaftinê."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Algorîtmayên Evolutionary & Optimization",
+        "description": "Pergalên lêgerîn û optimîzasyonê yên ku ji hilbijartina xwezayî îlham digirin ji bo çareserkirina pirsgirêkên endezyariya bilind."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Çarçoveyên Otomasyonê",
+        "description": "Em ji bo orkestrasyona berdanê, deriyên kalîteyê û piştrastkirina piştî belavkirinê çarçoveyên herikîna tevlihev ava dikin da ku pevçûna manuel kêm bikin û pêbaweriyê baştir bikin."
+      },
+      "advancedArchitecture": {
+        "title": "Ezmûna Mîmariya Pêşkeftî",
+        "description": "Ezmûnên mîmariya me li ser stratejiyên hilweşîna karûbar, şêwazên berxwedêriya herêmê, û zerfên performansê ji bo pergalên ku di bin daxwaziya volatile de dixebitin disekinin."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Em sêwiranên herikîna bûyerê û encamên qeraxê piştrast dikin ku biryarên herêmî yên zûtir pêk tînin dema ku kontrola navendî, kontrolkirin û rêveberiya çerxa jiyanê ya modelê diparêzin."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Plansaziya Kapasîteya Adaptîf",
+        "description": "Prototîpên laboratuarê li dijî barên xebatê yên simulated têne pejirandin û paşê di stratejiyên otomatîkî yên platformê de têne entegre kirin."
+      },
+      "operationalIntelligence": {
+        "title": "Îstîxbarata Operasyonel",
+        "description": "Lûleyên NLP ji ceribandinên kontrolkirî ber bi herikîna piştgiriya hilberînê ve diçin ji bo triage zûtir û têgihiştinên zelal."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Optîmîzasyona di Pergalên Teslîmkirinê de",
+        "description": "Rêbazên peresanê yên ku di laboratuarê de hatine ceribandin ji bo bername û dabeşkirinê di motorên optimîzasyonê de têne wergerandin."
+      },
+      "edgeDecisioning": {
+        "title": "Biryara Edge",
+        "description": "Ezmûnên IoT û qeraxê di karûbarên kêm-dereng de bi sînorên pêbaweriya hişk ve têne hişkkirin."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Niha",
+        "title": "Bingehên AI-yê yên Applied",
+        "description": "Li seranserê tîmên hilberê şablonên karûbarê modelên ku ji nû ve têne bikar anîn, paketên nirxandinê, û standardên çavdêriyê berfireh bikin."
+      },
+      "next": {
+        "phase": "Piştre",
+        "title": "Karên Endezyariya Xweser",
+        "description": "Çarçoveyên otomasyonê yên ku rîska belavkirinê kêm dikin û ji bo barkirinê çerxên paşvegerê kurt dikin, xebitandin."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 meh",
+        "title": "Îstîxbarata Edge-Native",
+        "description": "Ji bo derdorên hestiyar ên dereng ên dereng mîmariyên ewr-qeraxê yên hîbrîd bipîvin."
+      },
+      "longHorizon": {
+        "phase": "Asoya Dirêj",
+        "title": "Pergalên Optîmîzasyona Domdar",
+        "description": "Ezmûn, çavdêrî û optimîzasyonê bikin yek da ku pergal bi ewlehî dema ku kontekst diguherin."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Pergalên AI-yê yên Endezyariyê ku di hilberînê de ewle dimînin",
+        "summary": "Perspektîfek pratîkî li ser hevsengiya leza ceribandinê bi rêveberiya hilberînê.",
+        "cta": "Nêrînan bixwînin"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Modelên Mîmariya Belavkirî ji bo Platformên Mezinbûna Bilind",
+        "summary": "Nîşeyên zeviyê ji ceribandinên mîmariyê li ser performans, zexmbûn û sadebûna xebitandinê sekinîn.",
+        "cta": "Lêkolînên bûyerê binirxînin"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Nexşeya Rê ya R&D ji bo Encamên Karsaziyê",
+        "summary": "Em çawa însiyatîfên nûjeniyê ava dikin da ku keşif ji prototîpê ber bi nirxa pîvandî ve biçin.",
+        "cta": "Weşanan keşf bikin"
+      }
+    },
+    "cta": {
+      "title": "Bi Horizon Innovation Lab re ava bikin",
+      "description": "Bi me re hevkariyê bikin da ku hûn ramanên azwer zû piştrast bikin û têgehên îspatkirî derbasî pergalên hilberîna ewle û pîvanbar bikin.",
+      "primary": "Dest bi axaftinê bikin",
+      "secondary": "Encamên Teslîmkirinê Bibînin"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Pergalên AI-yê yên Applied",
+      "description": "Nêrînek pratîkî ya ku Horizon çawa pergalên fêrbûna makîneyê ji prototîp heya hilberînê sêwirandin, belav dike û dixebite.",
+      "back": "Vegere Laboratuara Nûjeniyê",
+      "tags": {
+        "appliedAi": "AI-ya Applied",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Xetên Fêrbûna Makîneyê",
+        "description": "Hilberîna AI-yê bi xetên dubarekirî yên ku dane, ceribandin, pejirandin û paşvegerê bi hev ve girêdidin, dest pê dike."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Modelên Belavkirina Modelê",
+        "description": "Stratejiya belavkirinê li ser bingeha hewcedariyên derengmayînê, krîtîk karsaziyê, û tevliheviya operasyonê tê hilbijartin."
+      },
+      "mlopsOperatingModel": {
+        "title": "Modela Xebitandinê ya MLOps",
+        "description": "Pêkanînên MLOps piştrast dikin ku pergalên AI-yê her ku zêde dibe pêbawer, birêvebirin û pîvanbar bimînin."
+      },
+      "monitoringAndReliability": {
+        "title": "Çavdêrî û Ewlehî",
+        "description": "Çavdêrî di navbera tevgerên modelê û encamên operasyonê de digire."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Endezyariya Daneyên û Taybetmendiyê",
+        "description": "Danûstendina danûstendinê, kontrolên kalîteyê û pênaseyên taybetmendiyên ku ji nû ve têne bikar anîn ji bo perwerdehiya modelê bingehek pêbawer diafirînin."
+      },
+      "modelDevelopment": {
+        "title": "Pêşveçûna Modelê",
+        "description": "Tecrûbeyên bi vesazkirinên dubarekirin, pîvanên objektîf û bingehên berhevkirina otomatîkî têne şopandin."
+      },
+      "validationAndSafetyGates": {
+        "title": "Deriyên Erêkirin û Ewlehiyê",
+        "description": "Modelên namzet berî ku ji bo serbestberdanê werin pejirandin performans, zexm û kontrolên polîtîkayê derbas dikin."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Çerxên Vegera Operasyonel",
+        "description": "Telemetriya piştî belavkirinê pêşîniyên ji nû ve perwerdehiyê, biryarên paşveçûnê û plansaziya dubarekirina din agahdar dike."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Karûbarên Encamên Real-Time",
+        "description": "API-yên kêm-dereng ji bo sepanên înteraktîf ên bi pîvana otomatîkî, cache û çavdêriya asta daxwazê."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Pêşbîniyên Batch û Streaming",
+        "description": "Xetên plankirî û bûyerê ji bo puankirina bilind li seranserê analîzan û herikîna karûbar."
+      },
+      "edgeAwareDeployment": {
+        "title": "Belavkirina Edge-Aware",
+        "description": "Ji bo hawîrdorên ku hewceyê encamên herêmî û rêveberiya modela navendî ne."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI / CD ji bo Modelan",
+        "description": "Çêkirin, ceribandin û berdana otomatîkî dema ku leza radestkirinê diparêze, rîska belavkirinê kêm dike."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Qeyda Modelê û Çerxa Jiyanê",
+        "description": "Berhemên modela guhertoyî yên bi qonaxên danasînê, rêz û herikîna pejirandinê kontrol û şopandinê baştir dikin."
+      },
+      "servingInfrastructure": {
+        "title": "Xizmeta Binesaziyê",
+        "description": "Tebeqeyên karûbarê pîvandî yên bi stratejiyên belavkirinê yên wekî belavkirina kanarya û siyê piştgirî didin rêveberiya guhertina ewle."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Qalîteya pêşbîniyê û tespîtkirina drift",
+      "latencyThroughputAndCostEfficiencyTracking": "Derengmayîn, hilberîn û şopandina karîgeriya lêçûnê",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Hişyariyên paşveçûna kalîteya daneyê û herikîna herikîna sererastkirinê",
+      "auditabilityForComplianceAndIncidentAnalysis": "Kontrolkirina ji bo lihevhatinê û analîzkirina bûyerê"
+    },
+    "cta": {
+      "title": "Bi Bawerî AI-ya Serîlêdanê Pîvan",
+      "description": "Heke hûn înîsiyatîfên AI-yê plan dikin ku hewceyê encamên pîvandî û domdariya demdirêj in, Horizon dikare ji bo sêwirandin û xebitandina çerxa jiyana tevahiya pergalê bibe alîkar.",
+      "primary": "Bi tîma me re biaxive",
+      "secondary": "Zêdetir Xebata Laboratuarê Keşf Bikin"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "NLP ya Pirzimanî",
+      "description": "Kapasîteyên pêvajoyên zimanê xwezayî yên pratîkî û çawa ew di pergalên hilberîna pêbawer û pirzimanî de têne pîvandin.",
+      "back": "Vegere Laboratuara Nûjeniyê",
+      "tags": {
+        "demo": "Demo Înteraktîf",
+        "intelligence": "Îstîxbarata Ziman"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Weqfên NLP",
+        "description": "Pêvajoyên zimanê xwezayî nîşanên zimanî û fêrbûna makîneyê bi hev re dike da ku wate, armanc û avahiyê ji nivîsê derxîne."
+      },
+      "workbench": {
+        "title": "Xebata NLP ya înteraktîf",
+        "description": "Demo bikar bînin da ku tespîtkirina ziman, puankirina hestiyariyê, derxistina hebûnê û tevgerên wergerê di dema rastîn de biceribînin."
+      },
+      "productionApplications": {
+        "title": "Horizon çawa NLP-ê di hilberînê de bikar tîne",
+        "description": "Kapasîteyên NLP bi parastinên performansê û pîvanên kalîteyê yên zelal di nav herikîna karsaziyê de têne entegre kirin."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Prensîbên Ewlehî û Rêveberiyê",
+        "description": "Hilberîna NLP ji kalîteya modelê bêtir hewce dike; Ew bi pratîkên belavkirina ewle û piştrastkirina domdar ve girêdayî ye."
+      }
+    },
+    "foundations": {
+      "intro1": "Pergalên nûjen ên NLP-ê otomatîk, têkildariya lêgerînê, derxistina zanînê, û hevkariya pirzimanî piştgirî dikin. Pêkanîna bi bandor hem kalîteya modelê û hem jî kontrolên xebitandinê yên bihêz hewce dike.",
+      "intro2": "Li Horizon, em li ser pergalên NLP-ê yên dawî-bi-dawî disekinin ku encamên bihêz bi çavdêrî, rêveberî û bandora hilberîna pîvandî re hevbeş dikin."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Tespîtkirina Ziman",
+        "description": "Ziman ji beşên nivîsê yên kurt an dirêj nas dike da ku daxwazan ber bi xeta pêvajoyê ya rast ve rêve bibe."
+      },
+      "sentimentAnalysis": {
+        "title": "Analîza Hestyariyê",
+        "description": "Ji bo îstîxbarata xerîdar, triage piştgirî û çerxên paşvegera hilberê mebesta hestyarî û polarîteyê derdixe."
+      },
+      "entityExtraction": {
+        "title": "Derxistina Entity",
+        "description": "Hebûnên sazkirî yên wekî nav, pargîdanî, cih û dîrokên ji nivîsa nesazkirî tespît dike."
+      },
+      "translation": {
+        "title": "Werger",
+        "description": "Bi wergerandina nivîsa ku ji hêla bikarhêner ve hatî çêkirin an xebitandinê dema ku kontekstê digire piştgirî dide herikîna pirzimanî."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Piştgirî û Îstîxbarata Bilêtê",
+        "description": "Daxwazên hatî li gorî lezgînî, armanc û hestyariyê dabeş bikin da ku rêwîtî û kalîteya bersivê bilez bikin."
+      },
+      "governedContentOperations": {
+        "title": "Operasyonên Naveroka Rêvebir",
+        "description": "Fîltreyên zimanî yên polîtîka û kontrolên moderatoriyê bi hesasiyeta pîvandî û armancên bîranînê bicîh bînin."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Têgihiştinên Karsaziyê yên Nivîskî",
+        "description": "Meylên ji belge, nirxandin û ragihandinê berhev bikin da ku strateji û biryarên operasyonê agahdar bikin."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Nirxandina li gorî Doza Bikaranînê",
+        "description": "Modelên li dijî datasetên taybetî yên domainê têne nirxandin berî ku biryarên berdanê werin dayîn."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Ewlekariyên Mirov-in-the-Loop",
+        "description": "Pêşbîniyên bandora bilind rêyên nirxandinê, qaîdeyên bilindkirinê, û nîşanên pêbaweriyê yên zelal hene."
+      },
+      "continuousMonitoring": {
+        "title": "Çavdêriya domdar",
+        "description": "Drift, derengmayîn û hilweşîna kalîteyê bi domdarî têne şopandin, ji ber vê yekê ji nû ve perwerdekirin û paşveçûn çalak in."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Sîmulasyona Algorîtmaya Genetîk",
+      "description": "Di hawîrdorek înteraktîf de hesabkirina peresanê vekolin û bibînin ka heman prensîb çawa di pergalên optimîzasyona hilberînê de werdigerin.",
+      "back": "Vegere Laboratuara Nûjeniyê",
+      "tags": {
+        "demo": "Demo Înteraktîf",
+        "optimizationScience": "Zanista Optîmîzasyonê"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Weqfa Zanistî",
+        "description": "Algorîtmayên genetîk rêbazên optimîzasyona nifûsê ne ku ji hilbijartina xwezayî û adaptasyonê îlham girtine."
+      },
+      "interactiveEnvironment": {
+        "title": "Jîngeha Pêşveçûna Înteraktîf",
+        "description": "Simulasyonê bimeşînin da ku bibînin ku fitness nifş bi nifş baştir dibe û bibînin ka zexta hilbijartinê çawa bandorê li encaman dike."
+      },
+      "productionUse": {
+        "title": "Horizon Vê Çawa Di Hilberînê de Bikar Tîne",
+        "description": "Heman mekanîzmayên lêgerînê yên ku di vê demoyê de têne bikar anîn, xetên optimîzasyonê yên ku di pergalên xebitandinê de hatine bicîh kirin agahdar dikin."
+      },
+      "applicationDomains": {
+        "title": "Qadên Serîlêdanê yên Berfireh",
+        "description": "Optîmîzasyona peresanê bi taybetî di pergalên bi armancên dînamîk û sînorên nakokî de girîng e."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Li şûna ku li yek çareseriyê bigerin, algorîtmayên genetîkî nifûsa cûrbecûr a namzetan pêşve dibin. Her nifş li dijî fonksiyona fitnesê tê nirxandin û bi hilbijartin, crossover û mutasyonê tê safî kirin.",
+      "intro2": "Ev wan ji bo pirsgirêkên bilind-dîmenî yên bi sînorên ne-linear bandor dike, ku nêzîkatiyên determinîst dibin şikestî an jî bihayê ye."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Hilbijartin",
+        "description": "Namzetên performansa bilind bêtir dibe ku sax bimînin û bandorê li nifşê nû bikin."
+      },
+      "crossover": {
+        "title": "Crossover",
+        "description": "Taybetmendiyên bihêz ji nû ve têne hevbeş kirin da ku çareseriyên namzetên nû yên bi hêza tevlihev biafirînin."
+      },
+      "mutation": {
+        "title": "Mutasyon",
+        "description": "Randomness kontrolkirî cihêrengiyê pêşkêş dike, ji ber vê yekê lêgerîn li dora optima herêmî nasekine."
+      },
+      "convergence": {
+        "title": "Nêzîkbûn",
+        "description": "Di gelek nifşan de, nifûs ber bi çareseriyên stabîl û kalîteya bilind ve diçin."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Bernameya Çavkaniyê",
+        "description": "Em stratejiyên pêşveçûnê bikar tînin da ku bernameya pir-sînorkirî çêtir bikin ku lêgerîna brute-force ne gengaz e."
+      },
+      "architectureTuning": {
+        "title": "Sazkirina Mîmariyê",
+        "description": "Mîhengên binesaziya berbiçav ji bo baştirkirina performans û lêçûnê têne nirxandin."
+      },
+      "continuousOptimization": {
+        "title": "Optîmîzasyona domdar",
+        "description": "Karên optimîzasyonê di çerxên kontrolkirî de bi paşvegera telemetriyê re dixebitin, ji ber vê yekê pergal wekî profîlên daxwazê diguherin."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Plansaziya Rê û Lojîstîk",
+        "description": "Dema ku sînor zû diguherin, plansaziya radestkirina tevlihev û şandinê ji lêgerîna peresanê sûd werdigire."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Lêgerîna Model û Hyperparameter",
+        "description": "Lêgerîna genetîk dikare dema ku rûberên objektîf bi deng û ne-xêz in, mîhengên modela kalîteya bilind kifş bike."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Pirsgirêkên portfolyo û dabeşkirinê",
+        "description": "Optîmîzasyona di bin armancên pêşbaziyê de dikare wekî bazirganiya fitnesê li seranserê komên namzetên pêşveçûnê were çêkirin."
+      }
+    }
+  }
+}

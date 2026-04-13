@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "可扩展的工程系统",
+    "subtitle": "企业软件·人工智能与机器学习 ·云基础设施·物联网与边缘",
+    "description": "从智能自动化到云原生平台，我们设计并交付支持雄心勃勃企业的技术——按时、按预算、大规模实现。",
+    "cta": {
+      "primary": "启动一个项目",
+      "secondary": "查看我们的工作"
+    },
+    "trustLine": "全球企业信赖"
+  },
+  "services": {
+    "subtitle": "我们的服务",
+    "title": "全谱工程",
+    "description": "六个执业领域。一队。你技术栈的每一个层面——从边缘设备到企业仪表盘。",
+    "commentMarker": "服务",
+    "items": {
+      "customSoftware": {
+        "title": "定制软件开发",
+        "description": "现代应用采用微服务、API和云原生架构构建。"
+      },
+      "aiMl": {
+        "title": "人工智能、机器学习与商业智能",
+        "description": "AI/ML流水线、Power BI仪表盘以及将数据转化为决策的高级分析。"
+      },
+      "cloud": {
+        "title": "云架构与基础设施",
+        "description": "多云基础设施，内置容器、无服务器和全球可扩展性。"
+      },
+      "iot": {
+        "title": "物联网与边缘计算",
+        "description": "工业4.0的互联设备、数字孪生和边缘计算。"
+      },
+      "devops": {
+        "title": "DevOps 与平台工程",
+        "description": "CI/CD流水线、基础设施即代码，以及从提交到生产的可观察性。"
+      },
+      "digital": {
+        "title": "数字化转型与咨询",
+        "description": "技术战略、现代化路线图和实践咨询。"
+      }
+    },
+    "cta": {
+      "title": "让我们一起建立点认真的东西",
+      "description": "从定制软件开发和人工智能驱动解决方案，到云基础设施和自动化——我们提供量身定制的端到端技术服务。",
+      "primary": "开始你的项目",
+      "secondary": "预约咨询"
+    },
+    "learnMore": "了解更多"
+  },
+  "credibility": {
+    "subtitle": "我们的业绩记录",
+    "title": "结果，而非 <gradient>承诺</gradient>",
+    "titlePlain": "结果，而非承诺",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "从萨拉热窝到奥斯陆、阿姆斯特丹和柏林。企业系统每次都准时交付。",
+    "stats": {
+      "experience": "年资综合经验",
+      "countries": "服务国家",
+      "systems": "已交付的系统",
+      "industries": "服务行业"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM for Atlas Copco",
+        "outcome": "在Azure Kubernetes上为Atlas Copco构建了首个基于云的统一身份基础设施，既降低成本又保持企业合规性。"
+      },
+      "orange": {
+        "label": "橙色网络防御平台",
+        "outcome": "为欧洲领先的网络安全公司开发了Azure Kubernetes基础设施、CI/CD流水线及定制ServiceNow集成。"
+      },
+      "telecom": {
+        "label": "电信地理信息系统与增强现实平台",
+        "outcome": "构建了GIS平台，绘制德国地下公用设施地图，配备碰撞检测，防止数百万美元的基础设施损失。"
+      },
+      "iot": {
+        "label": "云物联网与边缘平台",
+        "outcome": "Azure IoT Hub 管理数千台设备，Synapse 处理数十亿遥测行，边缘聚合将消息成本降低了 ~90%。"
+      },
+      "drone": {
+        "label": "自主无人机平台",
+        "outcome": "定制飞行控制器，配备4G到Azure物联网枢纽桥，支持自主BVLOS飞行，用于农业监测和有效载荷投放。"
+      },
+      "payment": {
+        "label": "支付系统救援",
+        "outcome": "通过逆向工程未公开的遗留代码，挽救了挪威移动应用的失败支付网关。现代化后零付款暂停时间。"
+      },
+      "game": {
+        "label": "AAA游戏开发工具",
+        "outcome": "在一家大型AAA工作室开发了Maya插件，将3D建模和动画时间缩短了50%，并被采纳为制作流程的标准工具。"
+      },
+      "social": {
+        "label": "基于位置的社交平台",
+        "outcome": "为西班牙夜生活场景打造的架构交友应用，具备地理定位匹配、实时消息和推送通知，面向英国客户。"
+      },
+      "iga": {
+        "label": "多租户IGA平台",
+        "outcome": "为企业规模的NoSQL定制 ASP.NET 核心身份，为财富500强客户打造核心后端，服务于财富500强客户。"
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "欧盟邻近全球交付",
+        "description": "CET工作时间，拥有跨越挪威、荷兰、德国及其他地区的经验。"
+      },
+      "yourEngineers": {
+        "title": "你的工程师，不是供应商",
+        "description": "专门的团队成员嵌入您的工作流程和工具中。没有客户经理，没有工单排队。"
+      },
+      "hardwareToCloud": {
+        "title": "硬件到云端",
+        "description": "From embedded device firmware to enterprise Azure Synapse pipelines.全栈软件覆盖每层。"
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "技术栈",
+    "title": "经过实战考验 <gradient>的堆栈</gradient>",
+    "titlePlain": "经过实战考验的堆栈",
+    "commentMarker": "TECH_STACK",
+    "description": "我们不仅使用这些工具——我们还随生产系统一起出货。从Microsoft Azure到Kubernetes，我们的工程师都拥有丰富的实际世界专业知识。",
+    "categories": {
+      "cloudInfra": {
+        "label": "云与基础设施",
+        "description": "多云架构，包含容器编排和基础设施代码。"
+      },
+      "frontend": {
+        "label": "前端",
+        "description": "现代组件框架，配备类型安全和优化构建工具。"
+      },
+      "backend": {
+        "label": "后端与API",
+        "description": "企业级服务器平台、系统语言和现代API范式。"
+      },
+      "data": {
+        "label": "数据与存储",
+        "description": "支持关系型、文档型和内存存储，支持全文搜索。"
+      },
+      "devops": {
+        "label": "DevOps 与工具",
+        "description": "CI/CD流水线、版本控制和开发者生产力。"
+      }
+    },
+    "scanning": "扫描频率......",
+    "summary": {
+      "cloudNative": {
+        "title": "默认云原生",
+        "description": "每个项目从一开始就被容器化、CI/CD驱动，并面向横向规模构建。"
+      },
+      "fullStack": {
+        "title": "全栈流畅度",
+        "description": "从React前端到.NET微服务再到Kubernet集群——一个团队，端到端。"
+      },
+      "productionProven": {
+        "title": "生产证明",
+        "description": "这些不是演示技术。上述每一个工具都驱动着真实系统，服务于真实用户。"
+      }
+    },
+    "logoRows": {
+      "row1Aria": "技术标志 第1排",
+      "row2Aria": "科技标志 第2排",
+      "row3Aria": "技术标志 第3排"
+    }
+  },
+  "faq": {
+    "subtitle": "知识库",
+    "title": "常见问题<gradient>解</gradient>答",
+    "titlePlain": "常见问题解答",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "关于与Horizon Tech合作你需要知道的一切",
+    "items": {
+      "scope": {
+        "question": "你的工作范围是什么？",
+        "answer": "我们提供端到端技术项目：定制企业软件、AI/ML流水线、云基础设施、物联网系统、DevOps自动化和数字化转型咨询。无论您需要从零构建完整平台，还是与现有技术栈进行有针对性的集成，我们都能处理架构、开发、测试和部署。"
+      },
+      "stack": {
+        "question": "你们的核心技术栈是什么？",
+        "answer": "我们的核心栈以企业级平台为核心：Azure和AWS用于云端，.NET和Node.js用于后端，React和Angular作为前端，Kubernetes和Docker用于编排，Terraform用于基础设施即代码。我们还广泛使用 Python处理 AI/ML 工作负载，Power BI 和 Fabric 用于商业智能，PostgreSQL、SQL Server 和 MongoDB 用于数据。"
+      },
+      "enterprise": {
+        "question": "你是如何处理企业项目的？",
+        "answer": "每次合作都从探索阶段开始，以定义范围、架构和里程碑。你会拥有一支专职团队，配备技术负责人，定期回顾里程碑，并能直接接触到构建系统的工程师。我们通过敏捷冲刺和利益相关者演示，保持透明的项目委员会，并每周提供进展报告。"
+      },
+      "support": {
+        "question": "发布后的支持是什么样的？",
+        "answer": "我们提供结构化的支持层级，并有明确的SLA，包括全天候监控、事件响应、性能优化和功能迭代。我们的支持协议涵盖漏洞修复、安全补丁、基础设施扩展和主动健康检查——根据您的正常运行时间和响应时间需求量身定制。"
+      },
+      "integration": {
+        "question": "你能与我们现有的基础设施集成吗？",
+        "answer": "绝对是。我们专注于遗留系统现代化、API优先集成和混合云迁移。无论您需要连接本地ERP系统，从单体迁移到微服务，还是将遗留数据库与现代前端桥接，我们都有迁移手册和集成经验，使一切无缝。"
+      },
+      "industries": {
+        "question": "你曾在哪些行业工作过？",
+        "answer": "我们的团队已在金融科技、医疗、物流、电子商务、能源和政府部门完成了项目。我们理解行业特定要求，如支付的PCI-DSS、健康数据的HIPAA考量、欧盟市场的GDPR合规性以及工业物联网的实时遥测。"
+      },
+      "engagement": {
+        "question": "参与流程是怎样的？",
+        "answer": "它从一个探索电话开始，以了解你的目标和技术环境。随后，我们会提供一份包含架构建议、时间表和投资细分的范围文件。一旦获批，我们会派出专门团队，正式接入你的工具和工作流程，并在几天内启动第一个冲刺。"
+      }
+    },
+    "stillHaveQuestions": "还有问题吗？",
+    "ctaDescription": "有心中的项目吗？让我们谈谈范围、时间表和预算。",
+    "readCaseStudies": "阅读我们的案例研究",
+    "scheduleCall": "预约通话"
+  }
+}

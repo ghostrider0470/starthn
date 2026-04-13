@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Բոլորը"
+  },
+  "categories": {
+    "aiEngineering": "AI ճարտարագիտություն",
+    "enterpriseArchitecture": "Ձեռնարկությունների ճարտարապետություն",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Ավտոմատացման համակարգեր",
+    "softwareReliabilityDesign": "Ծրագրային ապահովման հուսալիություն եւ դիզայն"
+  },
+  "readTime": "{{minutes}} min read",
+  "tagsLabel": "Tags",
+  "relatedPosts": "Related Posts",
+  "author": {
+    "role": "Հրատարակիչ"
+  },
+  "editor": {
+    "emptyPreview": "Սկսեք գրել՝ նախադիտումը տեսնելու համար..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Prompt Engineering",
+    "observability": "Դիտարկելիություն",
+    "safety": "Անվտանգություն",
+    "domainDesign": "Դոմենի դիզայն",
+    "integration": "Ինտեգրում",
+    "governance": "Կառավարում",
+    "platformStrategy": "Պլատֆորմի ռազմավարություն",
+    "platformEngineering": "Պլատֆորմի ճարտարագիտություն",
+    "ciCd": "CI / CD",
+    "kubernetes": "Կուբերնետես",
+    "developerExperience": "Մշակողի փորձ",
+    "eventDriven": "Իրադարձությունների վրա հիմնված",
+    "workflowOrchestration": "Աշխատանքային հոսքի նվագախումբ",
+    "controlPlanes": "Կառավարման ինքնաթիռներ",
+    "resilience": "Դիմադրողականություն",
+    "sre": "ԼՐԱՀՈՍ",
+    "slos": "SLOs",
+    "failureModes": "Ձախողման ռեժիմներ",
+    "resilienceEngineering": "Դիմադրողականության ճարտարագիտություն",
+    "evaluation": "Գնահատում",
+    "qualityEngineering": "որակի ճարտարագիտություն",
+    "datasets": "Տվյալների հավաքածուներ",
+    "releaseManagement": "Թողարկումների կառավարում",
+    "incidentManagement": "Միջադեպերի կառավարում",
+    "architectureEvolution": "Ճարտարապետության էվոլյուցիա",
+    "riskReduction": "Ռիսկերի նվազեցում",
+    "postmortems": "Հետմահու",
+    "progressiveDelivery": "Progressive Delivery",
+    "canaryReleases": "Կանարյան թողարկումներ",
+    "featureFlags": "Feature Դրոշներ"
+  }
+}

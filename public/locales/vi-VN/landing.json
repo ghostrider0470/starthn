@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Hệ thống kỹ thuật mở rộng quy mô",
+    "subtitle": "Phần mềm doanh nghiệp · AI & Học máy · Cơ sở hạ tầng đám mây · IoT & Biên",
+    "description": "Từ tự động hóa thông minh đến nền tảng đám mây, chúng tôi kiến trúc và cung cấp công nghệ hỗ trợ các doanh nghiệp đầy tham vọng — đúng thời hạn, ngân sách, trên quy mô lớn.",
+    "cta": {
+      "primary": "Bắt đầu một dự án",
+      "secondary": "Xem công việc của chúng tôi"
+    },
+    "trustLine": "Được các công ty trên toàn thế giới tin cậy"
+  },
+  "services": {
+    "subtitle": "Dịch vụ của chúng tôi",
+    "title": "Kỹ thuật toàn phổ",
+    "description": "Sáu lĩnh vực thực hành. Một đội. Mọi lớp công nghệ của bạn — từ thiết bị biên đến bảng điều khiển doanh nghiệp.",
+    "commentMarker": "DỊCH VỤ",
+    "items": {
+      "customSoftware": {
+        "title": "Phát triển phần mềm tùy chỉnh",
+        "description": "Các ứng dụng hiện đại được xây dựng với vi dịch vụ, API và kiến trúc gốc đám mây."
+      },
+      "aiMl": {
+        "title": "AI, ML và Business Intelligence",
+        "description": "Quy trình AI/ML, bảng thông tin Power BI và phân tích nâng cao giúp biến dữ liệu thành quyết định."
+      },
+      "cloud": {
+        "title": "Kiến trúc và cơ sở hạ tầng đám mây",
+        "description": "Cơ sở hạ tầng đa đám mây với bộ chứa, phi máy chủ và khả năng mở rộng toàn cầu được tích hợp sẵn."
+      },
+      "iot": {
+        "title": "IoT & Điện toán biên",
+        "description": "Các thiết bị được kết nối, bản sao kỹ thuật số và điện toán biên cho Công nghiệp 4.0."
+      },
+      "devops": {
+        "title": "DevOps & Kỹ thuật nền tảng",
+        "description": "Quy trình CI/CD, cơ sở hạ tầng dưới dạng mã và khả năng quan sát từ cam kết đến sản xuất."
+      },
+      "digital": {
+        "title": "Chuyển đổi số & Tư vấn",
+        "description": "Chiến lược công nghệ, lộ trình hiện đại hóa và tư vấn thực hành."
+      }
+    },
+    "cta": {
+      "title": "Hãy xây dựng một cái gì đó nghiêm túc",
+      "description": "Từ phát triển phần mềm tùy chỉnh và các giải pháp hỗ trợ AI đến cơ sở hạ tầng đám mây và tự động hóa - chúng tôi cung cấp các dịch vụ công nghệ đầu cuối phù hợp với yêu cầu của bạn.",
+      "primary": "Bắt đầu dự án của bạn",
+      "secondary": "Đặt lịch tư vấn"
+    },
+    "learnMore": "Tìm hiểu thêm"
+  },
+  "credibility": {
+    "subtitle": "Hồ sơ theo dõi của chúng tôi",
+    "title": "Kết quả, không phải <gradient>lời hứa</gradient>",
+    "titlePlain": "Kết quả, không phải lời hứa",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Từ Sarajevo đến Oslo, Amsterdam và Berlin. Hệ thống doanh nghiệp được giao đúng hạn, mọi lúc.",
+    "stats": {
+      "experience": "Nhiều năm kinh nghiệm kết hợp",
+      "countries": "Quốc gia phục vụ",
+      "systems": "Hệ thống được cung cấp",
+      "industries": "Các ngành công nghiệp phục vụ"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "IAM đám mây dành cho Atlas Copco",
+        "outcome": "Thiết kế cơ sở hạ tầng One Identity dựa trên đám mây đầu tiên cho Atlas Copco trên Azure Kubernetes, giảm chi phí trong khi vẫn duy trì sự tuân thủ của doanh nghiệp."
+      },
+      "orange": {
+        "label": "Nền tảng phòng thủ mạng màu cam",
+        "outcome": "Phát triển cơ sở hạ tầng Azure Kubernetes, quy trình CI/CD và tích hợp ServiceNow tùy chỉnh cho công ty an ninh mạng hàng đầu châu Âu."
+      },
+      "telecom": {
+        "label": "Nền tảng GIS & AR viễn thông",
+        "outcome": "Xây dựng nền tảng GIS lập bản đồ các tiện ích ngầm trên khắp nước Đức với tính năng phát hiện va chạm ngăn chặn thiệt hại cơ sở hạ tầng trị giá hàng triệu Euro."
+      },
+      "iot": {
+        "label": "Nền tảng Cloud IoT & Edge",
+        "outcome": "Azure IoT Hub quản lý hàng nghìn thiết bị, Synapse xử lý hàng tỷ hàng đo từ xa, với tính năng tổng hợp biên cắt giảm chi phí tin nhắn ~90%."
+      },
+      "drone": {
+        "label": "Nền tảng máy bay không người lái tự động",
+        "outcome": "Bộ điều khiển chuyến bay tùy chỉnh với cầu nối 4G-to-Azure IoT Hub cho phép các chuyến bay BVLOS tự động để giám sát nông nghiệp và phân phối tải trọng."
+      },
+      "payment": {
+        "label": "Giải cứu hệ thống thanh toán",
+        "outcome": "Giải cứu cổng thanh toán bị lỗi cho ứng dụng di động Na Uy bằng cách thiết kế ngược mã kế thừa không có tài liệu. Không thanh toán thời gian ngừng hoạt động sau khi hiện đại hóa."
+      },
+      "game": {
+        "label": "Công cụ phát triển trò chơi AAA",
+        "outcome": "Xây dựng plugin Maya giúp cắt giảm 50% thời gian mô hình và hoạt hình 3D tại một studio AAA lớn, được sử dụng như một công cụ tiêu chuẩn trong quy trình sản xuất."
+      },
+      "social": {
+        "label": "Nền tảng xã hội dựa trên vị trí",
+        "outcome": "Ứng dụng hẹn hò được kiến trúc cho cuộc sống về đêm của Tây Ban Nha với kết hợp vị trí địa lý, nhắn tin thời gian thực và thông báo đẩy cho khách hàng Vương quốc Anh."
+      },
+      "iga": {
+        "label": "Nền tảng IGA nhiều người thuê",
+        "outcome": "Xây dựng phần phụ trợ cốt lõi cho nền tảng quản trị danh tính gốc đám mây phục vụ khách hàng trong danh sách Fortune 500 với ASP.NET Core Identity tùy chỉnh cho NoSQL ở quy mô doanh nghiệp."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "Liền kề EU, Giao hàng toàn cầu",
+        "description": "Giờ làm việc của CET với kinh nghiệm trải dài ở Na Uy, Hà Lan, Đức và hơn thế nữa."
+      },
+      "yourEngineers": {
+        "title": "Kỹ sư của bạn, không phải nhà cung cấp",
+        "description": "Các thành viên trong nhóm tận tâm được nhúng vào quy trình làm việc và công cụ của bạn. Không có người quản lý tài khoản, không có hàng đợi phiếu."
+      },
+      "hardwareToCloud": {
+        "title": "Phần cứng lên đám mây",
+        "description": "Từ chương trình cơ sở thiết bị nhúng đến quy trình Azure Synapse dành cho doanh nghiệp. Phần mềm full-stack trên mọi lớp."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Ngăn xếp công nghệ",
+    "title": "<gradient>Ngăn xếp</gradient> đã được thử nghiệm trong trận chiến",
+    "titlePlain": "Ngăn xếp đã được thử nghiệm trong trận chiến",
+    "commentMarker": "TECH_STACK",
+    "description": "Chúng tôi không chỉ sử dụng các công cụ này - chúng tôi đã vận chuyển các hệ thống sản xuất với chúng. Từ Microsoft Azure đến Kubernetes, các kỹ sư của chúng tôi có kiến thức chuyên môn trong thế giới thực.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Đám mây & Cơ sở hạ tầng",
+        "description": "Kiến trúc đa đám mây với điều phối bộ chứa và cơ sở hạ tầng dưới dạng mã."
+      },
+      "frontend": {
+        "label": "Giao diện người dùng",
+        "description": "Các khung thành phần hiện đại với an toàn kiểu và công cụ xây dựng được tối ưu hóa."
+      },
+      "backend": {
+        "label": "Phụ trợ & API",
+        "description": "Nền tảng máy chủ cấp doanh nghiệp, ngôn ngữ hệ thống và mô hình API hiện đại."
+      },
+      "data": {
+        "label": "Dữ liệu & Lưu trữ",
+        "description": "Lưu trữ quan hệ, tài liệu và trong bộ nhớ với tìm kiếm toàn văn bản."
+      },
+      "devops": {
+        "label": "DevOps & Công cụ",
+        "description": "Quy trình CI/CD, kiểm soát phiên bản và năng suất của nhà phát triển."
+      }
+    },
+    "scanning": "TẦN SỐ QUÉT...",
+    "summary": {
+      "cloudNative": {
+        "title": "Cloud-Native theo mặc định",
+        "description": "Mọi dự án đều được đóng trong bộ chứa, điều khiển CI/CD và được xây dựng theo quy mô ngang ngay từ ngày đầu tiên."
+      },
+      "fullStack": {
+        "title": "Lưu loát toàn ngăn xếp",
+        "description": "Từ giao diện người dùng React đến vi dịch vụ .NET đến các cụm Kubernetes - một nhóm, từ đầu đến cuối."
+      },
+      "productionProven": {
+        "title": "Sản xuất đã được chứng minh",
+        "description": "Đây không phải là công nghệ demo. Mỗi công cụ được liệt kê cung cấp năng lượng cho các hệ thống thực phục vụ người dùng thực ngày nay."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Logo công nghệ hàng 1",
+      "row2Aria": "Logo công nghệ hàng 2",
+      "row3Aria": "Logo công nghệ hàng 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Cơ sở kiến thức",
+    "title": "Những <gradient>câu hỏi</gradient> thường gặp",
+    "titlePlain": "Những câu hỏi thường gặp",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Mọi thứ bạn cần biết khi làm việc với Horizon Tech",
+    "items": {
+      "scope": {
+        "question": "Phạm vi công việc của bạn là gì?",
+        "answer": "Chúng tôi cung cấp các dự án công nghệ toàn diện: phần mềm doanh nghiệp tùy chỉnh, quy trình AI/ML, cơ sở hạ tầng đám mây, hệ thống IoT, tự động hóa DevOps và tư vấn chuyển đổi kỹ thuật số. Cho dù bạn cần một nền tảng đầy đủ được xây dựng từ đầu hay tích hợp có mục tiêu với ngăn xếp hiện có, chúng tôi xử lý kiến trúc, phát triển, thử nghiệm và triển khai."
+      },
+      "stack": {
+        "question": "Công nghệ cốt lõi của bạn là gì?",
+        "answer": "Ngăn xếp cốt lõi của chúng tôi tập trung vào các nền tảng cấp doanh nghiệp: Azure và AWS cho đám mây, .NET và Node.js cho phụ trợ, React và Angular cho giao diện người dùng, Kubernetes và Docker để điều phối và Terraform cho cơ sở hạ tầng dưới dạng mã. Chúng tôi cũng làm việc rộng rãi với Python cho khối lượng công việc AI/ML, Power BI và Fabric cho nghiệp vụ thông minh và PostgreSQL, SQL Server và MongoDB cho dữ liệu."
+      },
+      "enterprise": {
+        "question": "Làm thế nào để bạn xử lý các dự án doanh nghiệp?",
+        "answer": "Mọi cam kết đều bắt đầu bằng giai đoạn khám phá để xác định phạm vi, kiến trúc và các mốc quan trọng. Bạn sẽ nhận được một đội ngũ tận tâm với trưởng nhóm kỹ thuật, đánh giá các mốc quan trọng thường xuyên và tiếp cận trực tiếp với các kỹ sư xây dựng hệ thống của bạn. Chúng tôi theo dõi các sprint linh hoạt với các bản demo của các bên liên quan, duy trì bảng dự án minh bạch và cung cấp báo cáo tiến độ hàng tuần."
+      },
+      "support": {
+        "question": "Hỗ trợ sau khi ra mắt trông như thế nào?",
+        "answer": "Chúng tôi cung cấp các bậc hỗ trợ có cấu trúc với SLA đã xác định, bao gồm giám sát 24/7, ứng phó sự cố, tối ưu hóa hiệu suất và lặp lại tính năng. Các thỏa thuận hỗ trợ của chúng tôi bao gồm các bản sửa lỗi, bản vá bảo mật, thay đổi quy mô cơ sở hạ tầng và kiểm tra tình trạng chủ động — phù hợp với yêu cầu về thời gian hoạt động và thời gian phản hồi của bạn."
+      },
+      "integration": {
+        "question": "Bạn có thể tích hợp với cơ sở hạ tầng hiện có của chúng tôi không?",
+        "answer": "Chắc chắn rồi. Chúng tôi chuyên về hiện đại hóa kế thừa, tích hợp ưu tiên API và di chuyển đám mây lai. Cho dù bạn cần kết nối với các hệ thống ERP tại chỗ, di chuyển từ nguyên khối sang vi dịch vụ hay kết nối cơ sở dữ liệu cũ với giao diện người dùng hiện đại, chúng tôi đều có cẩm nang di chuyển và trải nghiệm tích hợp để làm cho việc này trở nên liền mạch."
+      },
+      "industries": {
+        "question": "Bạn đã làm việc trong những ngành nào?",
+        "answer": "Nhóm của chúng tôi đã cung cấp các dự án trên các lĩnh vực fintech, chăm sóc sức khỏe, hậu cần, thương mại điện tử, năng lượng và chính phủ. Chúng tôi hiểu các yêu cầu cụ thể của ngành như PCI-DSS đối với thanh toán, cân nhắc HIPAA đối với dữ liệu sức khỏe, tuân thủ GDPR đối với thị trường EU và đo từ xa theo thời gian thực đối với IoT công nghiệp."
+      },
+      "engagement": {
+        "question": "Quá trình tham gia trông như thế nào?",
+        "answer": "Nó bắt đầu bằng một cuộc gọi khám phá để hiểu mục tiêu và bối cảnh kỹ thuật của bạn. Từ đó, chúng tôi cung cấp tài liệu xác định phạm vi với các khuyến nghị kiến trúc, tiến trình và phân tích đầu tư. Sau khi được phê duyệt, chúng tôi bắt đầu với một nhóm chuyên dụng, tham gia vào các công cụ và quy trình làm việc của bạn, đồng thời bắt đầu sprint đầu tiên trong vòng vài ngày."
+      }
+    },
+    "stillHaveQuestions": "Bạn vẫn còn thắc mắc?",
+    "ctaDescription": "Bạn có một dự án trong đầu? Hãy nói về phạm vi, dòng thời gian và ngân sách.",
+    "readCaseStudies": "Đọc các nghiên cứu điển hình của chúng tôi",
+    "scheduleCall": "Lên lịch cuộc gọi"
+  }
+}

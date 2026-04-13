@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Dar",
+    "company": "Kumpanija",
+    "solutions": "Soluzzjonijiet",
+    "resources": "Riżorsi",
+    "innovationLab": "Laboratorju ta' Innovazzjoni",
+    "contact": "Kuntatt",
+    "about": {
+      "title": "Dwar",
+      "description": "Il-missjoni, il-viżjoni, u l-istorja tagħna"
+    },
+    "team": {
+      "title": "Tim",
+      "description": "Iltaqa' mal-persuni wara Horizon Tech"
+    },
+    "careers": {
+      "title": "Karrieri",
+      "description": "Ingħaqad mat-tim tagħna u bena l-futur"
+    },
+    "enterpriseSoftware": {
+      "title": "Żvilupp tas-Software għall-Intrapriżi",
+      "description": "Applikazzjonijiet ta' intrapriża personalizzati b'qafas modern"
+    },
+    "aiMl": {
+      "title": "AI, ML u Intelliġenza tan-Negozju",
+      "description": "Pipelines kompleti ta' AI/ML u dashboards tal-BI"
+    },
+    "cloudArchitecture": {
+      "title": "Arkitettura u Infrastruttura tal-Cloud",
+      "description": "Soluzzjonijiet multi-cloud u orkestrazzjoni ta' kontenituri"
+    },
+    "iot": {
+      "title": "IoT u Kalkolu tal-Fruntiera",
+      "description": "Ekosistemi ta' apparati konnessi u twins diġitali"
+    },
+    "devops": {
+      "title": "DevOps u Inġinerija tal-Pjattaforma",
+      "description": "Pipelines u infrastruttura CI/CD bħala kodiċi"
+    },
+    "digitalTransformation": {
+      "title": "Trasformazzjoni Diġitali u Strateġija",
+      "description": "Roadmaps tat-trasformazzjoni tal-intrapriżi u pariri"
+    },
+    "caseStudies": {
+      "title": "Studji ta' Każ",
+      "description": "Stejjer ta' suċċess mill-klijenti tagħna",
+      "featured": {
+        "title": "Studju ta' Każ Prominenti",
+        "description": "Daħla fil-fond f'kuntratt sħiħ ta' kunsinna"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Għarfien, tutorials, u tendenzi tal-industrija",
+      "featured": {
+        "title": "Post tal-Blog Prominenti",
+        "description": "Aqra wieħed mill-aħħar għarfien tagħna dwar l-inġinerija"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Ħarsa Ġenerali tal-Laboratorju tal-Innovazzjoni",
+      "description": "Ara l-oqsma kollha tar-riċerka u l-binarji esperimentali kollha"
+    },
+    "innovationLabAiSystems": {
+      "title": "Sistemi ta' AI Applikati",
+      "description": "Mudelli ta' arkitettura ta' machine learning lesti għall-produzzjoni"
+    },
+    "innovationLabNlp": {
+      "title": "NLP Multi-lingwa",
+      "description": "Kapaċitajiet ta' proċessar interattiv tal-lingwa naturali"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Simulazzjoni ta' Algoritmi Ġenetiċi",
+      "description": "Ottimizzazzjoni evoluzzjonarja f'ambjent interattiv"
+    },
+    "navigation": "Navigazzjoni",
+    "skipToContent": "Aqleb għall-kontenut",
+    "toggleMenu": "Menu toggle",
+    "dashboard": "Dashboard",
+    "myWorkspace": "Ix-Xogħol Tiegħi",
+    "profile": "Profil",
+    "adminPanel": "Pannell ta' Amministrazzjoni",
+    "practiceManagement": "Ġestjoni tal-Prattika",
+    "logOut": "Ħruġ il-log",
+    "education": {
+      "title": "Riżorsi Tekniċi",
+      "description": "Gwidi, tutorials, u l-aħjar prattiki mit-tim ta' Horizon Tech"
+    },
+    "support": {
+      "title": "Ċentru ta' Appoġġ",
+      "description": "Ikseb għajnuna bis-servizzi tagħna ta' żvilupp tas-softwer"
+    }
+  },
+  "footer": {
+    "description": "Startup ta' żvilupp tas-softwer bbażata f'Sarajevo, Bożnija. Nibnu softwer personalizzat, soluzzjonijiet AI/ML, arkitettura tal-cloud, u sistemi ta' awtomazzjoni.",
+    "features": "Karatteristiċi",
+    "resources": "Riżorsi",
+    "company": "Kumpanija",
+    "legal": "Legali",
+    "dashboard": "Dashboard",
+    "components": "Komponenti",
+    "documentation": "Dokumentazzjoni",
+    "apiReference": "Referenza API",
+    "gettingStarted": "Bidu",
+    "examples": "Eżempji",
+    "community": "Komunità",
+    "blog": "Blog",
+    "caseStudies": "Studji ta' Każ",
+    "innovationLabOverview": "Ħarsa Ġenerali tal-Laboratorju tal-Innovazzjoni",
+    "appliedAiSystems": "Sistemi ta' AI Applikati",
+    "nlpDemo": "NLP Multi-lingwa",
+    "geneticAlgorithmSimulation": "Simulazzjoni ta' Algoritmi Ġenetiċi",
+    "featuredBlogPost": "Post tal-Blog Prominenti",
+    "featuredCaseStudy": "Studju ta' Każ Prominenti",
+    "about": "Dwar",
+    "contact": "Kuntatt",
+    "partners": "Sħab",
+    "careers": "Karrieri",
+    "privacyPolicy": "Politika dwar il-Privatezza",
+    "termsOfService": "Termini ta' Servizz",
+    "cookiePolicy": "Politika tal-Cookies",
+    "license": "Liċenzja",
+    "copyright": "© {{year}} Horizon Tech. Id-drittijiet kollha riservati.",
+    "subscribe": "Issottoskrivi għall-newsletter"
+  },
+  "header": {
+    "badge": "Soluzzjonijiet tat-Teknoloġija għall-Intrapriżi",
+    "titleLine1": "Ibdel in-Negozju Tiegħek b'",
+    "titleLine2": "Teknoloġija Avvanzata",
+    "description": "Mill-iżvilupp tas-softwer għall-intrapriżi u l-intelliġenza tan-negozju mmexxija bl-AI sa infrastruttura cloud u soluzzjonijiet IoT — nipprovdu servizzi teknoloġiċi komprensivi li jħeġġu l-innovazzjoni u jħaffu t-tkabbir.",
+    "getStarted": "Ibda",
+    "exploreSolutions": "Esplora Soluzzjonijiet",
+    "trustedBy": "Fidat minn intrapriżi b'ħsieb avvanzat",
+    "microsoftPartner": "Microsoft Partner",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "Soluzzjonijiet għall-Intrapriżi"
+  },
+  "mobileNav": {
+    "navigation": "Navigazzjoni mobbli",
+    "home": "Dar",
+    "solutions": "Soluzzjonijiet",
+    "caseStudies": "Każijiet",
+    "aiSystems": "AI Lab",
+    "blog": "Blog",
+    "resources": "Riżorsi",
+    "contact": "Kuntatt"
+  },
+  "sideNav": {
+    "scroll": "Scroll",
+    "navigateTo": "Naviga lejn {{section}}",
+    "sections": {
+      "home": "Dar",
+      "solutions": "Soluzzjonijiet",
+      "credibility": "Kredibbiltà",
+      "partners": "Sħab",
+      "caseStudies": "Studji ta' Każ",
+      "blog": "Blog",
+      "innovationLab": "Laboratorju ta' Innovazzjoni",
+      "faq": "FAQ"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Lingwa tas-swiċċ",
+    "searchPlaceholder": "Lingwa tat-tfittxija...",
+    "noResults": "M'hemm l-ebda lingwi misjuba."
+  },
+  "common": {
+    "menu": "Menu",
+    "account": "Kont"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Studji ta' Każijiet Riċenti",
+      "description": "Ħarsa ġenerali tar-riżultati tal-kunsinna f'setturi tal-fintech, kura tas-saħħa, loġistika, u programmi tas-settur pubbliku.",
+      "cta": "Ara l-Istudji tal-Każ Kollha"
+    },
+    "blog": {
+      "title": "L-Aħħar Aħbarijiet Mill-Blog Tagħna",
+      "description": "Nodi prattiċi ta' inġinerija minn xogħol riċenti ta' AI, pjattaforma, u kunsinna fil-cloud.",
+      "cta": "Aqra l-Artikli kollha"
+    },
+    "innovationLab": {
+      "title": "Laboratorju ta' Innovazzjoni",
+      "description": "Esplora prototipi, esperimenti, u proġetti ta' R&D applikati mit-tim tal-inġinerija ta' Horizon Tech.",
+      "cta": "Esplora l-Laboratorju tal-Innovazzjoni"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Aqra l-Istudju tal-Każ",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Kura tas-Saħħa",
+      "logistics": "Loġistika",
+      "manufacturing": "Manifattura",
+      "government": "Gvern"
+    }
+  },
+  "blogCard": {
+    "read": "Aqra"
+  }
+}

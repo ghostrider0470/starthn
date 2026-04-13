@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Laboratorium Innowacji",
+    "description": "Poznaj interaktywne demonstracje, eksperymenty i techniczne prezentacje naszego zespołu inżynierskiego.",
+    "primary": "Eksploruj dema",
+    "secondary": "Zobacz badania"
+  },
+  "overview": {
+    "hero": {
+      "title": "Laboratorium Innowacji",
+      "description": "Badamy praktyczne granice w AI, automatyzacji i systemach rozproszonych, a następnie przekładamy zweryfikowane badania na niezawodne możliwości produkcyjne.",
+      "primary": "Eksploruj obszary badawcze",
+      "secondary": "Dyskutuj o współpracy"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Obszary badawcze",
+        "description": "Każdy obszar koncentracji łączy badania eksploracyjne ze ścieżkami wdrożeniowymi zaprojektowanymi dla systemów rzeczywistych.",
+        "cardCta": "Eksploruj skupienie"
+      },
+      "detailedFocusBriefs": {
+        "title": "Szczegółowe Briefy Tematyczne",
+        "description": "Inicjatywy badawcze w krótkim terminie przechodzą obecnie od walidacji architektury do planów realizacji."
+      },
+      "fromLabToProduction": {
+        "title": "Od laboratorium do produkcji",
+        "description": "Innowacje w Horizon mierzone są przez wyniki wysyłki, a nie na podstawie pojedynczych prototypów."
+      },
+      "roadmap": {
+        "title": "Plan rozwoju badań i rozwoju",
+        "description": "Stopniowy proces od budowania kompetencji do adaptacyjnych, nieustannie doskonalących systemów."
+      },
+      "publications": {
+        "title": "Publikacje i spostrzeżenia",
+        "description": "Notatki techniczne i wdrożone z bieżących prac innowacyjnych."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Stosowane systemy AI",
+        "description": "Architektury AI skoncentrowane na produkcji obejmujące serwowanie modeli, orkiestrację funkcji oraz kontrolowane eksperymenty."
+      },
+      "automationFrameworks": {
+        "title": "Frameworki automatyzacji",
+        "description": "Narzędzia automatyzacji wewnętrznej dla bezpieczeństwa wdrożenia, reagowania na incydenty oraz powtarzalnych procesów inżynierskich."
+      },
+      "advancedArchitecture": {
+        "title": "Eksperymenty z zaawansowaną architekturą",
+        "description": "Badania nad odpornymi, rozproszonymi architekturami zoptymalizowanymi pod kątem wydajności, odporności na błędy i skalowalności."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing i inteligencja IoT",
+        "description": "Inteligencja na krawędzi do podejmowania decyzji o niskim opóźnieniu, przetwarzania telemetrii i koordynacji floty urządzeń."
+      },
+      "nlp": {
+        "title": "Przetwarzanie języka naturalnego",
+        "description": "Wielojęzyczne potoki zrozumienia do klasyfikacji, ekstrakcji, tłumaczenia i systemów konwersacyjnych."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Algorytmy ewolucyjne i optymalizacja",
+        "description": "Systemy wyszukiwania i optymalizacji inspirowane doborem naturalnym do rozwiązywania wyzwań inżynieryjnych o wysokich wymiarach."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Frameworki automatyzacji",
+        "description": "Budujemy kompozywalne frameworki workflow do orkiestracji wydawnictwa, bramek jakości oraz weryfikacji po wdrożeniu, aby zmniejszyć ręczne tarcia i jednocześnie poprawić niezawodność."
+      },
+      "advancedArchitecture": {
+        "title": "Eksperymenty z zaawansowaną architekturą",
+        "description": "Nasze eksperymenty architektoniczne koncentrują się na strategiach dekompozycji usług, wzorcach odporności międzyregionalnej oraz zakresach wydajności dla systemów działających pod zmiennym popytem."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing i inteligencja IoT",
+        "description": "Walidujemy projekty streamingu zdarzeń i wnioskowania krawędziowego, które umożliwiają szybsze lokalne decyzje, jednocześnie zachowując scentralizowaną kontrolę, audytowalność i zarządzanie cyklem życia modeli."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Planowanie Adaptacyjnej Zdolności",
+        "description": "Prototypy laboratoryjne są weryfikowane na podstawie symulowanych obciążeń, a następnie integrowane ze strategiami automatycznego skalowania platformy."
+      },
+      "operationalIntelligence": {
+        "title": "Wywiad operacyjny",
+        "description": "Potoki NLP przechodzą od kontrolowanych eksperymentów do przepływów wsparcia produkcji, co przyspiesza triage i daje wyraźniejsze wnioski."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Optymalizacja w systemach dostarczania",
+        "description": "Metody ewolucyjne testowane w laboratorium są przekładane na silniki optymalizacyjne do harmonogramowania i alokacji."
+      },
+      "edgeDecisioning": {
+        "title": "Edge Decisioning",
+        "description": "Eksperymenty IoT i wnioskowania brzegowego są udoskonalane do usług o niskim opóźnieniu i ścisłych ograniczeń niezawodności."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Teraz",
+        "title": "Podstawy stosowanej AI",
+        "description": "Rozszerzyć wielokrotnego użytku szablony do obsługi modeli, zestawy ewaluacyjne oraz standardy obserwowalności w zespołach produktowych."
+      },
+      "next": {
+        "phase": "Następny",
+        "title": "Autonomiczne procesy inżynierskie",
+        "description": "Uruchom ramy automatyzacji, które zmniejszają ryzyko wdrożenia i skracają pętle zwrotne dla wysyłki."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 miesięcy",
+        "title": "Edge-Native Inteligencja",
+        "description": "Skalowanie hybrydowych architektur cloud-edge dla wnioskowania niemal w czasie rzeczywistym w środowiskach wrażliwych na opóźnienia."
+      },
+      "longHorizon": {
+        "phase": "Długi Horyzont",
+        "title": "Systemy optymalizacji ciągłej",
+        "description": "Zjednoczenie eksperymentów, monitorowania i optymalizacji, aby systemy mogły bezpiecznie dostosowywać się do zmieniających się kontekstów."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Inżynieria systemów AI, które pozostają niezawodne w produkcji",
+        "summary": "Praktyczna perspektywa na równoważenie szybkości eksperymentów z zarządzaniem produkcją.",
+        "cta": "Przeczytaj spostrzeżenia"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Wzorce architektury rozproszonej dla platform o szybkim rozwoju",
+        "summary": "Notatki terenowe z prób architektonicznych koncentrowały się na wydajności, odporności i prostocie operacyjnej.",
+        "cta": "Przegląd studiów przypadków"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping stosowany w badaniach i rozwoju dla wyników biznesowych",
+        "summary": "Jak strukturyzujemy inicjatywy innowacyjne, aby odkrycia przechodziły od prototypu do mierzalnej wartości.",
+        "cta": "Poznaj publikacje"
+      }
+    },
+    "cta": {
+      "title": "Buduj z Horizon Innovation Lab",
+      "description": "Współpracuj z nami, aby szybko weryfikować ambitne pomysły i przenosić sprawdzone koncepcje do bezpiecznych, skalowalnych systemów produkcyjnych.",
+      "primary": "Rozpocznij rozmowę",
+      "secondary": "Zobacz wyniki dostawy"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Stosowane systemy AI",
+      "description": "Praktyczny przegląd tego, jak Horizon projektuje, wdraża i obsługuje systemy uczenia maszynowego od prototypu po produkcję.",
+      "back": "Powrót do Laboratorium Innowacji",
+      "tags": {
+        "appliedAi": "Stosowana sztuczna inteligencja",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Potoki uczenia maszynowego",
+        "description": "Production AI zaczyna się od powtarzalnych pipeline'ów, które łączą dane, eksperymenty, walidację i informacje zwrotne."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Wzorce wdrażania modeli",
+        "description": "Strategia wdrożenia jest wybierana na podstawie wymagań dotyczących opóźnień, krytyczności biznesowej oraz złożoności operacyjnej."
+      },
+      "mlopsOperatingModel": {
+        "title": "Model operacyjny MLOps",
+        "description": "Praktyki MLOps zapewniają, że systemy AI pozostają niezawodne, zarządzalne i skalowalne wraz ze wzrostem użytkowania."
+      },
+      "monitoringAndReliability": {
+        "title": "Monitorowanie i niezawodność",
+        "description": "Obserwacja zamyka pętlę między zachowaniem modelu a wynikami operacyjnymi."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Inżynieria danych i cech",
+        "description": "Wersjonowane pobieranie danych, kontrole jakości oraz wielokrotnego użytku definicje funkcji tworzą niezawodną podstawę do trenowania modeli."
+      },
+      "modelDevelopment": {
+        "title": "Rozwój modelu",
+        "description": "Eksperymenty są śledzone za pomocą powtarzalnych konfiguracji, obiektywnych metryk oraz zautomatyzowanych punktów odniesienia."
+      },
+      "validationAndSafetyGates": {
+        "title": "Bramy walidacyjne i bezpieczeństwa",
+        "description": "Modele kandydujące przechodzą kontrole wydajności, odporności i polityki przed zatwierdzeniem do wydania."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Pętle sprzężenia zwrotnego operacyjnego",
+        "description": "Telemetria po wdrożeniu informuje o priorytetach ponownego szkolenia, decyzjach o cofnięciu oraz planowaniu kolejnej iteracji."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Usługi wnioskowania w czasie rzeczywistym",
+        "description": "API o niskich opóźnieniach dla aplikacji interaktywnych z automatycznym skalowaniem, buforowaniem i obserwacją na poziomie żądań."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Prognozy wsadowe i strumieniowe",
+        "description": "Zaplanowane i zdarzane potoki do wysokiego wolumenowego punktowania w zakresie analityki i procesów operacyjnych."
+      },
+      "edgeAwareDeployment": {
+        "title": "Wdrażanie Edge-Aware",
+        "description": "Hybrydowe wzorce obsługi chmury na krawędzi dla środowisk wymagających wnioskowania lokalnego i scentralizowanego zarządzania modelami."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI/CD dla modeli",
+        "description": "Automatyczne procesy budowy, testowania i wydawania zmniejszają ryzyko wdrożenia, jednocześnie zachowując szybkość dostawy."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Rejestr Modelu i cykl życia",
+        "description": "Wersjonowane artefakty modeli z etapami promocji, pochodzeniem i procesami zatwierdzania poprawiają kontrolę i śledzenie."
+      },
+      "servingInfrastructure": {
+        "title": "Obsługa infrastruktury",
+        "description": "Skalowalne warstwy serwujące z wdrożeniami, takimi jak wdrożenia canary i shadow, wspierają bezpieczne zarządzanie zmianami."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Jakość predykcji i detekcja dryfu",
+      "latencyThroughputAndCostEfficiencyTracking": "Śledzenie opóźnień, przepustowości i efektywności kosztowej",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Alerty regresji jakości danych i procesy naprawcze",
+      "auditabilityForComplianceAndIncidentAnalysis": "Audytowalność dla zgodności i analizy incydentów"
+    },
+    "cta": {
+      "title": "Skaluj stosowaną AI z pewnością",
+      "description": "Jeśli planujesz inicjatywy AI, które wymagają mierzalnych rezultatów i długoterminowej utrzymalności, Horizon może pomóc zaprojektować i uruchomić cały cykl życia systemu.",
+      "primary": "Porozmawiaj z naszym zespołem",
+      "secondary": "Poznaj więcej prac laboratoryjnych"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "Wielojęzyczne NLP",
+      "description": "Poznaj praktyczne możliwości przetwarzania języka naturalnego i sposoby ich skalowania w niezawodnych, wielojęzycznych systemach produkcyjnych.",
+      "back": "Powrót do Laboratorium Innowacji",
+      "tags": {
+        "demo": "Interaktywne Demo",
+        "intelligence": "Inteligencja językowa"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Podstawy NLP",
+        "description": "Przetwarzanie języka naturalnego łączy sygnały językowe i uczenie maszynowe, aby wydobyć znaczenie, intencję i strukturę z tekstu."
+      },
+      "workbench": {
+        "title": "Interaktywny stół roboczy NLP",
+        "description": "Wykorzystaj demo, aby w czasie rzeczywistym testować wykrywanie języka, oceny sentymentu, ekstrakcję encji i zachowania tłumaczeń."
+      },
+      "productionApplications": {
+        "title": "Jak Horizon stosuje NLP w produkcji",
+        "description": "Możliwości NLP są zintegrowane z przepływami pracy biznesowymi z ramionami wydajności i jasnymi wskaźnikami jakości."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Zasady niezawodności i zarządzania",
+        "description": "Produkcyjne NLP wymaga czegoś więcej niż tylko jakości modelu; To zależy od bezpiecznych praktyk wdrażania i ciągłej weryfikacji."
+      }
+    },
+    "foundations": {
+      "intro1": "Nowoczesne systemy NLP wspierają automatyzację, trafność wyszukiwania, ekstrakcję wiedzy oraz wielojęzyczną współpracę. Skuteczna implementacja wymaga zarówno jakości modelu, jak i silnych kontrol operacyjnych.",
+      "intro2": "W Horizon koncentrujemy się na systemach NLP end-to-end, które łączą solidne wnioskowanie z obserwowalnością, zarządzaniem oraz mierzalnym wpływem na produkcję."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Wykrywanie języka",
+        "description": "Identyfikuje język z krótkich lub długich segmentów tekstu, aby kierować żądania do właściwego potoku przetwarzającego."
+      },
+      "sentimentAnalysis": {
+        "title": "Analiza nastrojów",
+        "description": "Wydobywa emocjonalne intencje i polaryzację dla informacji o klientach, triage wsparcia oraz pętli informacji zwrotnej o produktach."
+      },
+      "entityExtraction": {
+        "title": "Ekstrakcja Bytu",
+        "description": "Wykrywa strukturalne podmioty, takie jak nazwy, firmy, lokalizacje i daty na podstawie tekstów nieustrukturyzowanych."
+      },
+      "translation": {
+        "title": "Tłumaczenie",
+        "description": "Wspiera wielojęzyczne przepływy pracy poprzez tłumaczenie tekstu generowanego przez użytkownika lub tekstu operacyjnego, zachowując jednocześnie kontekst."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Wsparcie i Inteligencja Ticketów",
+        "description": "Klasyfikuj przychodzące zapytania według pilności, intencji i sentymentu, aby przyspieszyć routing i jakość odpowiedzi."
+      },
+      "governedContentOperations": {
+        "title": "Zarządzane operacje treści",
+        "description": "Stosuj filtry językowe i kontrole moderacji uwzględniające politykę z mierzalną precyzją i przypominaj sobie cele."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Wnioski biznesowe oparte na tekście",
+        "description": "Agreguj trendy z dokumentów, przeglądów i komunikatów, aby informować strategię i decyzje operacyjne."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Ocena według przypadku użycia",
+        "description": "Modele są porównywane z konkretnymi dla domeny zbiorami danych przed podjęciem decyzji o wydaniu."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Zabezpieczenia z udziałem człowieka w pętli",
+        "description": "Prognozy o dużym wpływie obejmują ścieżki przeglądu, zasady eskalacji oraz przejrzyste sygnały ufności."
+      },
+      "continuousMonitoring": {
+        "title": "Ciągły monitoring",
+        "description": "Dryf, opóźnienia i degradacja jakości są śledzone nieustannie, więc ponowne szkolenie i cofanie są proaktywne."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Symulacja algorytmów genetycznych",
+      "description": "Poznaj obliczenia ewolucyjne w interaktywnym środowisku i zobacz, jak te same zasady przekładają się na systemy optymalizacji produkcji.",
+      "back": "Powrót do Laboratorium Innowacji",
+      "tags": {
+        "demo": "Interaktywne Demo",
+        "optimizationScience": "Nauka o optymalizacji"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Fundacja naukowa",
+        "description": "Algorytmy genetyczne to metody optymalizacji oparte na populacji, inspirowane doborem naturalnym i adaptacją."
+      },
+      "interactiveEnvironment": {
+        "title": "Interaktywne środowisko ewolucji",
+        "description": "Uruchom symulację, aby zobaczyć, jak poprawa sprawności generuje się pokolenie po pokoleniu i obserwować, jak presja selekcyjna wpływa na wyniki."
+      },
+      "productionUse": {
+        "title": "Jak Horizon wykorzystuje to w produkcji",
+        "description": "Te same mechaniki wyszukiwania, które zastosowano w tym demie, wpływają na pipeline'y optymalizacyjne wdrażane w systemach operacyjnych."
+      },
+      "applicationDomains": {
+        "title": "Szersze domeny zastosowań",
+        "description": "Optymalizacja ewolucyjna jest szczególnie cenna w systemach o dynamicznych celach i sprzecznych ograniczeniach."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Zamiast szukać jednego rozwiązania na raz, algorytmy genetyczne ewoluują zróżnicowaną populację kandydatów. Każde pokolenie jest oceniane względem funkcji przystosowania i udoskonalane poprzez selekcję, przenikanie się i mutacje.",
+      "intro2": "Dzięki temu są skuteczne w problemach wysokowymiarowych z ograniczeniami nieliniowymi, gdzie podejścia deterministyczne stają się kruche lub kosztowne obliczeniowo."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Selekcja",
+        "description": "Kandydaci o wysokich wynikach mają większe szanse na przetrwanie i wpływ na kolejne pokolenie."
+      },
+      "crossover": {
+        "title": "Crossover",
+        "description": "Cechy silne są łączone, tworząc nowe rozwiązania kandydatów o mieszanych mocnych stronach."
+      },
+      "mutation": {
+        "title": "Mutacja",
+        "description": "Kontrolowana losowość wprowadza różnorodność, dzięki czemu wyszukiwanie nie zatrzymuje się wokół lokalnych optymisów."
+      },
+      "convergence": {
+        "title": "Konwergencja",
+        "description": "Przez wiele pokoleń populacje dążyły do stabilnych, wysokiej jakości rozwiązań."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Harmonogramowanie zasobów",
+        "description": "Stosujemy strategie ewolucyjne do optymalizacji harmonogramowania z wieloma ograniczeniami tam, gdzie przeszukiwanie brute-force jest niewykonalne."
+      },
+      "architectureTuning": {
+        "title": "Strojenie architektury",
+        "description": "Konfiguracje infrastruktury kandydatów są oceniane iteracyjnie, aby poprawić wydajność i efektywność kosztową."
+      },
+      "continuousOptimization": {
+        "title": "Optymalizacja ciągła",
+        "description": "Zadania optymalizacyjne działają w kontrolowanych pętlach z telemetrią, dzięki czemu systemy dostosowują się do zmieniających się profili popytu."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Planowanie tras i logistyki",
+        "description": "Złożone planowanie dostaw i wysyłki korzysta z poszukiwań ewolucyjnych, gdy ograniczenia zmieniają się gwałtownie."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Wyszukiwanie modelu i hiperparametrów",
+        "description": "Wyszukiwanie genetyczne pozwala wykryć wysokiej jakości konfiguracje modeli, gdy powierzchnie obiektywne są hałaśliwe i nieliniowe."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Problemy z portfelem i alokacją",
+        "description": "Optymalizacja przy konkurencyjnych celach może być postrzegana jako kompromisy dopasowania pomiędzy ewoluującymi zestawami kandydatów."
+      }
+    }
+  }
+}

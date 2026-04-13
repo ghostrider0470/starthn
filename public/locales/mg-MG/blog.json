@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Rehetra"
+  },
+  "categories": {
+    "aiEngineering": "Injeniera AI",
+    "enterpriseArchitecture": "Enterprise Architecture",
+    "cloudDevOps": "Rahona sy DevOps",
+    "automationSystems": "Rafitra automatique",
+    "softwareReliabilityDesign": "Ny fahamendrehan'ny rindrambaiko sy ny famolavolana"
+  },
+  "readTime": "{{minutes}} minitra famakiana",
+  "tagsLabel": "Tags",
+  "relatedPosts": "Lahatsoratra mifandraika amin'izany",
+  "author": {
+    "role": "Mpamoaka boky"
+  },
+  "editor": {
+    "emptyPreview": "Atombohy ny fanoratana mba hahitana ny topi-maso ..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Injeniera haingana",
+    "observability": "Fandinihana",
+    "safety": "Fiarovana",
+    "domainDesign": "Famolavolana sehatra",
+    "integration": "Fampidirana",
+    "governance": "Fitantanana",
+    "platformStrategy": "Paikady amin'ny sehatra",
+    "platformEngineering": "Injeniera amin'ny sehatra",
+    "ciCd": "CI / CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Traikefa amin'ny mpamorona",
+    "eventDriven": "Hetsika tarihin'ny hetsika",
+    "workflowOrchestration": "Workflow Orchestration",
+    "controlPlanes": "Fiaramanidina fanaraha-maso",
+    "resilience": "Faharetana",
+    "sre": "SRE",
+    "slos": "SLO",
+    "failureModes": "Fomba tsy fahombiazana",
+    "resilienceEngineering": "Injenieran'ny faharetana",
+    "evaluation": "Fanombanana",
+    "qualityEngineering": "Quality Engineering",
+    "datasets": "Datasets",
+    "releaseManagement": "Fitantanana famoahana",
+    "incidentManagement": "Fitantanana ny tranga",
+    "architectureEvolution": "Fivoaran'ny maritrano",
+    "riskReduction": "Fampihenana ny risika",
+    "postmortems": "Postmortems",
+    "progressiveDelivery": "Fandefasana mandroso",
+    "canaryReleases": "Famoahana Canary",
+    "featureFlags": "Sainam-pirenena"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Sistemi ta' Inġinerija li Jiskalaw",
+    "subtitle": "Softwer għall-Intrapriża · AI u Tagħlim bil-Magni · Infrastruttura tal-Cloud · IoT & Edge",
+    "description": "Minn awtomazzjoni intelliġenti sa pjattaformi cloud-native, aħna nħolqu u nwasslu t-teknoloġija li tappoġġja negozji ambizzjużi — fil-ħin, fil-baġit, fuq skala.",
+    "cta": {
+      "primary": "Ibda Proġett",
+      "secondary": "Ara x-Xogħol Tagħna"
+    },
+    "trustLine": "Trusted minn kumpaniji madwar id-dinja"
+  },
+  "services": {
+    "subtitle": "Is-servizzi tagħna",
+    "title": "Inġinerija ta' Spettru Sħiħ",
+    "description": "Sitt oqsma ta' prattika. Tim wieħed. Kull saff tal-istack tat-teknoloġija tiegħek — minn apparati tal-fruntiera sa dashboards ta' intrapriża.",
+    "commentMarker": "SERVIZZI",
+    "items": {
+      "customSoftware": {
+        "title": "Żvilupp tas-Softwer Apposta",
+        "description": "Applikazzjonijiet moderni mibnija b'mikroservizzi, APIs, u arkitettura cloud-native."
+      },
+      "aiMl": {
+        "title": "AI, ML u Intelliġenza tan-Negozju",
+        "description": "Pipelines ta' AI/ML, dashboards ta' Power BI, u analiżi avvanzata li jbiddlu d-data f'deċiżjonijiet."
+      },
+      "cloud": {
+        "title": "Arkitettura u Infrastruttura tal-Cloud",
+        "description": "Infrastruttura multi-cloud b'containers, serverless, u skalabbiltà globali integrati."
+      },
+      "iot": {
+        "title": "IoT u Kalkolu tal-Fruntiera",
+        "description": "Apparati konnessi, twins diġitali, u edge computing għall-Industrija 4.0."
+      },
+      "devops": {
+        "title": "DevOps u Inġinerija tal-Pjattaforma",
+        "description": "Pipelines CI/CD, infrastruttura bħala kodiċi, u osservabbiltà mill-commit sal-produzzjoni."
+      },
+      "digital": {
+        "title": "Trasformazzjoni Diġitali u Konsulenza",
+        "description": "Strateġija tat-teknoloġija, roadmaps ta' modernizzazzjoni, u konsulenza prattika."
+      }
+    },
+    "cta": {
+      "title": "Ejja Nibnu Xi Ħaġa Serja",
+      "description": "Minn żvilupp ta' softwer personalizzat u soluzzjonijiet b'AI sa infrastruttura cloud u awtomazzjoni — aħna nipprovdu servizzi teknoloġiċi kompli adattati għall-ħtiġijiet tiegħek.",
+      "primary": "Ibda l-Proġett Tiegħek",
+      "secondary": "Konsultazzjoni dwar l-Iskeda"
+    },
+    "learnMore": "Tgħallem aktar"
+  },
+  "credibility": {
+    "subtitle": "Ir-Rekord Tagħna",
+    "title": "Riżultati, Mhux <gradient>Promessi</gradient>",
+    "titlePlain": "Riżultati, Mhux Promessi",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Minn Sarajevo għal Oslo, Amsterdam, u Berlin. Sistemi ta' intrapriża ġew imwassla fil-ħin, kull darba.",
+    "stats": {
+      "experience": "Snin ta' Esperjenza Konġunta",
+      "countries": "Pajjiżi Servuti",
+      "systems": "Sistemi Imwassla",
+      "industries": "Industriji Servuti"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM għal Atlas Copco",
+        "outcome": "Arkitett l-ewwel infrastruttura One Identity bbażata fuq il-cloud għal Atlas Copco fuq Azure Kubernetes, tnaqqas l-ispejjeż filwaqt li żammet il-konformità tal-intrapriża."
+      },
+      "orange": {
+        "label": "Pjattaforma ta' Difiża Ċibernetika Oranġjo",
+        "outcome": "Żviluppa infrastruttura Azure Kubernetes, pipelines CI/CD, u integrazzjoni personalizzata ta' ServiceNow għall-kumpanija ewlenija tas-sigurtà ċibernetika fl-Ewropa."
+      },
+      "telecom": {
+        "label": "Pjattaforma GIS u AR tat-Telekomunikazzjoni",
+        "outcome": "Bnew pjattaforma GIS li mappja utilities taħt l-art madwar il-Ġermanja b'skoperta ta' kolliżjoni li tipprevjeni ħsara fl-infrastruttura ta' miljuni ta' Ewro."
+      },
+      "iot": {
+        "label": "Pjattaforma tal-Cloud IoT & Edge",
+        "outcome": "Azure IoT Hub li jimmaniġġja eluf ta' apparati, Synapse jipproċessa biljuni ta' ringieli tat-telemetrija, b'aggregazzjoni tal-fruntieri li tnaqqas l-ispejjeż tal-messaġġi b'~90%."
+      },
+      "drone": {
+        "label": "Pjattaforma Awtonoma tad-Drone",
+        "outcome": "Kontrollur tat-titjira personalizzat b'pont 4G-to-Azure IoT Hub li jippermetti titjiriet BVLOS awtonomi għal monitoraġġ agrikolu u kunsinna ta' payload."
+      },
+      "payment": {
+        "label": "Salvataġġ tas-Sistema ta' Ħlas",
+        "outcome": "Salvat gateway ta' ħlas fallut għall-app mobbli Norveġiża billi għamel reverse engineering ta' kodiċi legacy mhux dokumentat. Ħin ta' waqfien ta' ħlas żero wara l-modernizzazzjoni."
+      },
+      "game": {
+        "label": "Għodod ta' Żvilupp ta' Logħob AAA",
+        "outcome": "Bnew plugin Maya li naqqas il-ħin tal-mudellar u l-animazzjoni 3D b'50% f'studio AAA kbir, adottat bħala għodda standard fil-pipeline tal-produzzjoni."
+      },
+      "social": {
+        "label": "Pjattaforma Soċjali Ibbażata fuq il-Post",
+        "outcome": "App ta' dating arkitetta għas-sena tal-ħajja bil-lejl ta' Spanja b'tqabbil ġeolokazzjoni, messaġġi f'ħin reali, u notifiki push għal klijent fir-Renju Unit."
+      },
+      "iga": {
+        "label": "Pjattaforma IGA Multi-Tenant",
+        "outcome": "Bniet backend ewlieni għal pjattaforma ta' governanza tal-identità cloud-native li sservi klijenti Fortune 500 b'ASP.NET Core Identity personalizzat għal NoSQL fuq skala ta' intrapriża."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "Kunsinna Globali Marbuta mal-UE",
+        "description": "Ħinijiet ta' xogħol ta' CET b'esperjenza li tkopri Norveġja, l-Olanda, il-Ġermanja, u lil hinn minnha."
+      },
+      "yourEngineers": {
+        "title": "L-Inġiniera Tiegħek, Mhux Bejjiegħ",
+        "description": "Membri dedikati tat-tim inkorporati fil-fluss tax-xogħol u l-għodod tiegħek. L-ebda maniġers tal-kont, l-ebda kju tal-biljetti."
+      },
+      "hardwareToCloud": {
+        "title": "Hardware għal Cloud",
+        "description": "Minn firmware ta' apparat embedded għal pipelines Azure Synapse għall-intrapriża. Softwer full-stack fuq kull saff."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Stack tat-Teknoloġija",
+    "title": "<gradient>Stack</gradient> Ippruvat fil-Battalja",
+    "titlePlain": "Stack Ippruvat fil-Battalja",
+    "commentMarker": "TECH_STACK",
+    "description": "Aħna ma nużajniex biss dawn l-għodod — aħna nħarġu magħhom sistemi ta' produzzjoni. Minn Microsoft Azure sa Kubernetes, l-inġiniera tagħna għandhom esperjenza reali.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Cloud & Infrastruttura",
+        "description": "Arkitettura multi-cloud b'orkestrazzjoni ta' kontenituri u infrastruttura bħala kodiċi."
+      },
+      "frontend": {
+        "label": "Frontend",
+        "description": "Qafas modern ta' komponenti b'sigurtà tat-tip u għodod ottimizzati għall-bini."
+      },
+      "backend": {
+        "label": "Backend u APIs",
+        "description": "Pjattaformi ta' server ta' livell ta' intrapriża, lingwi tas-sistemi, u paradigmi moderni ta' API."
+      },
+      "data": {
+        "label": "Data u Ħażna",
+        "description": "Ħażna relazzjonali, dokumentali, u fil-memorja b'tfittxija b'test sħiħ."
+      },
+      "devops": {
+        "label": "DevOps u Għodod",
+        "description": "Pipelines CI/CD, kontroll tal-verżjonijiet, u produttività tal-iżviluppaturi."
+      }
+    },
+    "scanning": "FREKWENZI TA' SKANNJAR...",
+    "summary": {
+      "cloudNative": {
+        "title": "Cloud-native b'mod default",
+        "description": "Kull proġett huwa kontenitur, imħaddem fuq CI/CD, u mibni għal skala orizzontali mill-ewwel ġurnata."
+      },
+      "fullStack": {
+        "title": "Fluwenza Full-Stack",
+        "description": "Minn frontends ta' React għal mikroservizzi .NET għal klusters Kubernetes — tim wieħed, minn tarf sa tarf."
+      },
+      "productionProven": {
+        "title": "Prodott Ippruvat",
+        "description": "Dawn mhumiex teknoloġiji demo. Kull għodda msemmija tmexxi sistemi reali li jservu lill-utenti reali llum."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Logos tat-teknoloġija ringiela 1",
+      "row2Aria": "Logos tat-teknoloġija ringiela 2",
+      "row3Aria": "Logos tat-teknoloġija ringiela 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Bażi ta' Għarfien",
+    "title": "<gradient>Mistoqsijiet</gradient> Frekwenti",
+    "titlePlain": "Mistoqsijiet Frekwenti",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Kollox li għandek bżonn tkun taf dwar kif taħdem ma' Horizon Tech",
+    "items": {
+      "scope": {
+        "question": "X'inhuma l-ambitu tax-xogħol tiegħek?",
+        "answer": "Aħna nwasslu proġetti tat-teknoloġija minn tarf sa tarf: softwer ta' intrapriża personalizzat, pipelines ta' AI/ML, infrastruttura cloud, sistemi IoT, awtomazzjoni DevOps, u konsulenza dwar it-trasformazzjoni diġitali. Kemm jekk għandek bżonn pjattaforma sħiħa mibnija mill-bidu jew integrazzjoni mmirata mal-istack eżistenti tiegħek, aħna nħaddmu l-arkitettura, l-iżvilupp, it-testjar u d-deployment."
+      },
+      "stack": {
+        "question": "X'inhu l-pakkett teknoloġiku ewlieni tiegħek?",
+        "answer": "L-istack ewlieni tagħna jiffoka fuq pjattaformi ta' livell ta' intrapriża: Azure u AWS għall-cloud, .NET u Node.js għall-backend, React u Angular għall-frontend, Kubernetes u Docker għall-orkestrazzjoni, u Terraform għall-infrastruttura bħala kodiċi. Naħdmu wkoll b'mod estensiv ma' Python għal workloads ta' AI/ML, Power BI u Fabric għall-intelliġenza tan-negozju, u PostgreSQL, SQL Server, u MongoDB għad-dejta."
+      },
+      "enterprise": {
+        "question": "Kif timmaniġġja proġetti ta' intrapriża?",
+        "answer": "Kull impenn jibda b'fażi ta' skoperta biex tiddefinixxi l-ambitu, l-arkitettura, u l-milestones. Tikseb tim dedikat b'mexxej tekniku, reviżjonijiet regolari ta' milestones, u aċċess dirett għall-inġiniera li jibnu s-sistema tiegħek. Insegwu sprints agili b'demos tal-partijiet interessati, inżommu bordijiet ta' proġetti trasparenti, u nipprovdu rapporti ta' progress kull ġimgħa."
+      },
+      "support": {
+        "question": "Kif jidher l-appoġġ wara t-tnedija?",
+        "answer": "Noffru livelli ta' appoġġ strutturati b'SLAs definiti, inkluż monitoraġġ 24/7, rispons għal inċidenti, ottimizzazzjoni tal-prestazzjoni, u iterazzjoni ta' karatteristiċi. Il-ftehimiet ta' appoġġ tagħna jkopru tiswijiet ta' bugs, patches ta' sigurtà, skala tal-infrastruttura, u kontrolli proattivi tas-saħħa — adattati għall-ħtiġijiet tiegħek ta' uptime u response time."
+      },
+      "integration": {
+        "question": "Tista' tintegra mal-infrastruttura eżistenti tagħna?",
+        "answer": "Assolutament. Aħna speċjalizzati fil-modernizzazzjoni tal-wirt, integrazzjonijiet API-first, u migrazzjonijiet ibridi fil-cloud. Kemm jekk għandek bżonn tikkonnettja ma' sistemi ERP on-situe, timmigra minn monoliti għal mikroservizzi, jew tgħaqqad databases antiki ma' frontends moderni, għandna l-playbooks tal-migrazzjoni u l-esperjenza ta' integrazzjoni biex nagħmluha bla xkiel."
+      },
+      "industries": {
+        "question": "F'liema industriji ħdimt?",
+        "answer": "It-tim tagħna wassal proġetti f'setturi fintech, saħħa, loġistika, kummerċ elettroniku, enerġija u gvern. Nifhmu rekwiżiti speċifiċi għall-industrija bħal PCI-DSS għall-ħlasijiet, konsiderazzjonijiet HIPAA għad-data tas-saħħa, konformità mal-GDPR għas-swieq tal-UE, u telemetrija f'ħin reali għall-IoT industrijali."
+      },
+      "engagement": {
+        "question": "Kif jidher il-proċess tal-involviment?",
+        "answer": "Jibda b'sejħa ta' skoperta biex tifhem il-miri u l-pajsaġġ tekniku tiegħek. Minn hemm, nipprovdu dokument ta' skop b'rakkomandazzjonijiet ta' arkitettura, żmien ta' żmien, u tqassim tal-investiment. Ladarba jiġu approvati, nibdew b'tim dedikat, nidħlu fl-għodod u l-flussi tax-xogħol tiegħek, u nibdew l-ewwel sprint fi ftit jiem."
+      }
+    },
+    "stillHaveQuestions": "Għad għandek mistoqsijiet?",
+    "ctaDescription": "Għandek proġett f'moħħok? Ejja nitkellmu dwar l-ambitu, il-linja taż-żmien, u l-baġit.",
+    "readCaseStudies": "Aqra l-Istudji tal-Każijiet tagħna",
+    "scheduleCall": "Skeda ta' Sejħa"
+  }
+}

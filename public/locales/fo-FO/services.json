@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Kom í gongd",
+    "ctaSecondary": "Tíðarætlanarráðgeving"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Menning av fyritøkuforritum",
+      "description": "End-to-end fyritøkuforrit við nútímans rammum, API-fyrst arkitektur og ský-native skalanleika."
+    },
+    "sections": {
+      "problem": {
+        "title": "Innramming av vinnuligum trupulleikum",
+        "subtitle": "Har fyritøkuætlanir missa ferð, fígging og strategiska samanhang"
+      },
+      "approach": {
+        "title": "Verkfrøðilig tilgongd",
+        "subtitle": "Hvussu vit gera ógreið krøv til framleiðsluklárar pallplatir"
+      },
+      "principles": {
+        "title": "Arkitekturprinsipp",
+        "subtitle": "Sniðgevingaravgerðir, sum halda fyritøkuskipanir viðlíkahaldandi í stórum vavi"
+      },
+      "capabilities": {
+        "title": "Hvat vit byggja",
+        "subtitle": "Alment umfatandi forritsmenningarmøguleikar"
+      },
+      "technology": {
+        "title": "Okkara tøkni-stakk",
+        "subtitle": "Nútímans, prógvaðar tøkni til vinnuliga útvegan"
+      },
+      "breakdown": {
+        "title": "Tænastubrot",
+        "subtitle": "Ein skipaður vegur frá uppdaging til støðuga framleiðslu"
+      }
+    },
+    "problem": {
+      "overview": "Enterprise-toymi hava ofta týdningarmiklar arbeiðsgongdir á sundurbýttum skipanum, sum skapa langar leiðslutíðir, ójavnar dátur og dýr handvirk samordning millum deildir.",
+      "painPointsTitle": "Endurtakandi vinnutrupulleikar",
+      "impactSignalsTitle": "Tað, sum leiðarar vanliga síggja",
+      "painPoints": [
+        "Útberingarskyldur verða seinkaðar, tí treytirnar millum liðini eru óstýrdar",
+        "Kjarnuvinnulogikkurin er tvífaldaður tvørtur um kanalar og vørur",
+        "Gamlar integratiónir gera nýggjar funktiónsútgávur høgar vandar og seinar"
+      ],
+      "impactSignals": [
+        "Vegakortsgjøgnumstreymið minkar, meðan verkfrøðiligar útreiðslur vaksa",
+        "Kundavendir feilur vaksa í útgávutíðarskeiðum",
+        "Avgerðartøkan seinkar vegna ójavna rakstrarfrágreiðing"
+      ]
+    },
+    "approach": {
+      "overview": "Vit fremja við arkitektur-fyrst uppdaging, sáttmáladrivnari levering og stýrdari útgávutøkni, so vinnuvirði verður flutt í fyrisigbarum stigum.",
+      "pillars": [
+        {
+          "title": "Økismodellering og avmarkaðir samanhangir",
+          "detail": "Vit kortleggja domænir fyri at greiða tænastumark, minka um samstarv tvørtur um lið og greiða frá eigaraskapi."
+        },
+        {
+          "title": "API-Fyrst Integratiónsstrategi",
+          "detail": "Vit áseta støðugar sáttmálar tíðliga, sum ger tað møguligt at menna samstundis og tryggja integratión við fyritøkuskipanir."
+        },
+        {
+          "title": "Framstigandi útberingararbeiðsgongd",
+          "detail": "Vit brúka feature flags, stigvísar rullingar og quality gates fyri at geva út skjótt uttan at órógva framleiðsluna."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Okkara arkitekturavgerðir leggja stóran dent á langlíti, rakstrarføri og greiða eigaraskap, so pallarnir kunnu vera tillagandi, tá virksemið økist.",
+      "items": [
+        {
+          "title": "Modulær tænastumark",
+          "detail": "Førleikar eru pakkaðir rundan um vinnuøki fyri at halda broytingarávirkan staðbundnan."
+        },
+        {
+          "title": "Hendingadrivin integratión",
+          "detail": "Asynkronar arbeiðsgongdir verða nýttar, har latencytoleransa er til staðar, fyri at betra um mótstøðu og skilja skipanir sundur."
+        },
+        {
+          "title": "Observabilitetur við sniði",
+          "detail": "Sporing, metrikkar og skipaðar loggar verða ásettar frammanundan fyri at stuðla álítandi rakstri og SLA-stýring."
+        }
+      ]
+    },
+    "capabilities": [
+      "Serstakar vevforrit",
+      "Menning av fartelefonappum",
+      "API-menning og integratión",
+      "Mikrotænastuarkitektur",
+      "Ský-innføddar loysnir",
+      "Nútímansgerð av eldri skipanum"
+    ],
+    "technologies": [
+      {
+        "name": "React",
+        "category": "Framendi",
+        "icon": "React"
+      },
+      {
+        "name": "Node.js",
+        "category": "Bakendi",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Bakendi",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Bakendi",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Mál",
+        "icon": "Maskinskrivað"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "GRAPHQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Gagnagrunnur",
+        "icon": "postgresql"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Gagnagrunnur",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Uppdaging og arkitektur",
+        "summary": "Vit kortleggja vinnuligar raðfestingar, tøkniligar avmarkingar og málarkitektur áðrenn innleiðing byrjar.",
+        "deliverables": [
+          "Verkstaður um vøru- og kravsamsvar",
+          "Loysnararkitektur blueprint",
+          "Málsgrundað veitingarætlan"
+        ]
+      },
+      {
+        "title": "Bygging og integratión",
+        "summary": "Okkara toymi innføra kjarnueginleikar, integratiónsløg og góðskutrygd samstundis.",
+        "deliverables": [
+          "Menning av eginleikum í iterativum sprintum",
+          "API og triðjaparts integratiónir",
+          "Sjálvvirkandi royndir og klárar kanningar av útgávu"
+        ]
+      },
+      {
+        "title": "Uppskot og menning",
+        "summary": "Eftir go-live stabilisera vit virksemið og áseta næsta betringarumfar út frá veruligari nýtslu.",
+        "deliverables": [
+          "Framleiðsluútbreiðslu-runbook",
+          "Framførsla og álítandi tuning",
+          "Vegakort eftir útgávu og eftirlisti til betringar"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Klárur at byggja tína næstu umsókn?",
+      "description": "Lat okkum sniðgeva og senda eina loysn, sum gevur mátandi vinnulig úrslit.",
+      "button": "Byrja títt verkætlan"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML og Business Intelligence",
+      "description": "Frá fyrivarandi modellum til leiðslu-dashboards, byggja vit fullfíggjaðar AI/BI skipanir, sum stuðla avgerðum í stórum vavi."
+    },
+    "sections": {
+      "problem": {
+        "title": "Innramming av vinnuligum trupulleikum",
+        "subtitle": "Hví dáturíkar fyritøkur framvegis hava trupult við at taka tryggar avgerðir"
+      },
+      "approach": {
+        "title": "Verkfrøðilig tilgongd",
+        "subtitle": "Hvussu vit seta dátuvørur, ML-modellir og BI-arbeiðsgongdir í gongd"
+      },
+      "principles": {
+        "title": "Arkitekturprinsipp",
+        "subtitle": "Data- og modellarkitekturmynstur fyri álítandi avgerðarintelligens"
+      },
+      "capabilities": {
+        "title": "Okkara førleikar",
+        "subtitle": "Heildar AI-, ML- og BI-loysnir"
+      },
+      "technology": {
+        "title": "Okkara tøkni-stakk",
+        "subtitle": "Leiðandi amboð til dátur og AI í vinnuni"
+      },
+      "breakdown": {
+        "title": "Tænastubrot",
+        "subtitle": "Hvussu vit flyta okkum frá brotnum dátum til framleiðslustøði intelligens"
+      }
+    },
+    "problem": {
+      "overview": "Stovnar savna ofta stórar mongdir av dátum, men megna ikki at umseta tær til álítandi spádóm, rakstraravgerðir ella mátandi vinnuligar átøk.",
+      "painPointsTitle": "Endurtakandi vinnutrupulleikar",
+      "impactSignalsTitle": "Tað, sum leiðarar vanliga síggja",
+      "painPoints": [
+        "Frágreiðingarlogikkur er ymiskur millum bólkar, sum førir til mótsagnarligar KPI-frásagnir",
+        "Modellini eru framvegis í royndararbeiði og koma ongantíð í framleiðsluarbeiðsgongdir",
+        "Dátugóðskutrupulleikar undirgrava álitið á greiningar- og leiðslustýringartól"
+      ],
+      "impactSignals": [
+        "Avgerðarsyklurnar ganga seint, tí liðini kjakast um dátugildi í staðin fyri at gera",
+        "Nágreiniligheit í spádómum og ætlanum er framvegis óstøðug, kvartal fyri kvartal",
+        "Greiningaríleggingar vísa lága nýtslu uttan fyri serkønar greiningarbólkar"
+      ]
+    },
+    "approach": {
+      "overview": "Vit veita AI- og BI-platformar sum framleiðsluskipanir, har vit knýta dátuverkfrøði, modelllívscyklusvirksemi og integratión av avgerðararbeiðsgongdum.",
+      "pillars": [
+        {
+          "title": "Data Product Foundation",
+          "detail": "Dátuvørur, sum eru lagdar til økið, stovna endurnýtanligar, stýrdar og dygdargóðar inntøkur til greiningar og ML."
+        },
+        {
+          "title": "MLOps lívscyklus sjálvvirkni",
+          "detail": "Venjing, útbreiðsla, eftirlit og driftstýring eru sjálvvirkandi fyri at halda modellini álítandi í framleiðslu."
+        },
+        {
+          "title": "Integratión av avgerðararbeiðsgongdum",
+          "detail": "Innlit eru innbygd í rakstraramboð og dashboards, so lið virka út frá intelligens í dagligum arbeiðsgongdum."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Okkara AI/BI-arkitektur setur álítandi dátur, greiðar modellir og stýrdar atgongdarmynstur í forgangi í fyritøkuni.",
+      "items": [
+        {
+          "title": "Einstøk metrikdefinisjónir",
+          "detail": "Kritiskir KPI-ar verða ásettir einaferð gjøgnum felags semantiskar modellir fyri at sleppa undan mótsigandi frágreiðingarlógikki."
+        },
+        {
+          "title": "Stýring av álítandi modellum",
+          "detail": "Framførslumark, drift-detektering og rollback-mekanismur verja avgerðargóðsku í framleiðslu."
+        },
+        {
+          "title": "Trygd og stýring við sniði",
+          "detail": "Dátulinja, leiklutabundin atgongd og eftirlitsklárar stýringar eru innbygdar í hvørja rørleiðing."
+        }
+      ]
+    },
+    "capabilities": [
+      "Maskinlærumodellir og rørleiðingar",
+      "Power BI Dashboards & Frágreiðingar",
+      "Fyrivarandi greining",
+      "Raðtíðar dátustreyming",
+      "Dátugoymsluloysnir"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Pallur",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Data Warehouse",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Data Engineering",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML pallurin",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML-rammukervið",
+        "icon": "tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML-rammukervið",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Greining",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Viðgerð",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Mál",
+        "icon": "postgresql"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Data Foundation",
+        "summary": "Vit kanna keldur, áseta dátusáttmálar og stovna stýring, so hvør modell byrjar við álítandi inntøkum.",
+        "deliverables": [
+          "Dátukelda og góðskumeting",
+          "Funktiónsverkfrøði og skemaætlan",
+          "Trygd og stýrisgrundarlag"
+        ]
+      },
+      {
+        "title": "Model & Insight Delivery",
+        "summary": "Vit byggja modellir og avgerðartalvur, sum eru knýttar at mátbarum vinnuspurningum og KPI'um.",
+        "deliverables": [
+          "Modellmenning og váttan",
+          "Leiðslu-dashboards og rakstrarfrágreiðing",
+          "Integratión av avgerðararbeiðsgongdum"
+        ]
+      },
+      {
+        "title": "MLOps & Nýtsla",
+        "summary": "Vit seta í verk útbreiðslu, eftirlit og liðsstyrking fyri at tryggja úrslitini álítandi yvir tíð.",
+        "deliverables": [
+          "Sjálvvirkandi modellútbreiðslu-pipelines",
+          "Drift, neyvleiki og nýtslueftirlit",
+          "Liðhandyvir og rakstrarleikbók"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Umskapa tínar dátur til innlit",
+      "description": "Ger brotnar dátur til greiðar, virknar upplýsingar.",
+      "button": "Byrja tína ferð"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Skýggjaarkitektur og infrakervi",
+      "description": "Fleirskýggjapallar, sterkur arkitektur og skalanlig infrakervi ætlað til langtíðarvøkstur."
+    },
+    "sections": {
+      "problem": {
+        "title": "Innramming av vinnuligum trupulleikum",
+        "subtitle": "Hví skýggjaátøk steðga eftir fyrstu flutningsbylgjuna"
+      },
+      "approach": {
+        "title": "Verkfrøðilig tilgongd",
+        "subtitle": "Hvussu vit byggja tryggar, skalanligar skýggjaplatformar við stýrdari flutningsvanda"
+      },
+      "principles": {
+        "title": "Arkitekturprinsipp",
+        "subtitle": "Pallavgerðir, sum javnviga smidligheit, mótstøðu og stýring"
+      },
+      "capabilities": {
+        "title": "Skýggjatænastur",
+        "subtitle": "Bygg, útbreiða og skala í skýnum"
+      },
+      "technology": {
+        "title": "Multi-Cloud serkunnleiki",
+        "subtitle": "Platform-óheftar skýloysnir"
+      },
+      "breakdown": {
+        "title": "Tænastubrot",
+        "subtitle": "Ein greið røð til at sniðgeva, flyta og reka skýggjapallar"
+      }
+    },
+    "problem": {
+      "overview": "Mong feløg gera fyrstu skýggjaflutningarnar, men virka framvegis sum on-prem bólkar, við vánaligari sjónligheit, óstøðugum stýringum og vaksandi útreiðslum.",
+      "painPointsTitle": "Endurtakandi vinnutrupulleikar",
+      "impactSignalsTitle": "Tað, sum leiðarar vanliga síggja",
+      "painPoints": [
+        "Arbeiðsbyrðar verða fluttar uttan vanligar trygdar- og netverksstýringar",
+        "Skýggjakostnaðurin veksur skjótari enn virðið fyri vinnuna",
+        "Umhvørvisútvegan er framvegis handalig og óstøðug millum lið"
+      ],
+      "impactSignals": [
+        "Tíðarligar hendingar orsakaðar av konfiguratiónsskifti millum umhvørvi",
+        "Grannskoðanarklárleikin versnar orsakað av sundurbýttum stjórnarháttum",
+        "Infrastruktur-leiðitíðir, seinkaðar vøru- og dátuátøk"
+      ]
+    },
+    "approach": {
+      "overview": "Vit hanna skýggjaplatformar sum vørur, við at brúka sjálvvirkandi infrakervi, politiskar trygdarskipanir og flytingarbylgjur, sum eru lagaðar eftir vinnuligum kritiskum týdningi.",
+      "pillars": [
+        {
+          "title": "Lendingarøki sum kóði",
+          "detail": "Identitetur, netverk, trygd og politikkgrundarlag eru kodifiserað fyri endurtøku og eftirlit."
+        },
+        {
+          "title": "Bylgjubundin flutningsstrategi",
+          "detail": "Arbeiðsbyrðar flyta seg í stýrdum stigum við treytaleysari raðfylgju og rollback-klárleika."
+        },
+        {
+          "title": "SRE + FinOps arbeiðsloop",
+          "detail": "Álítandi vísitøl og eindarøkonomi verða gjøgnumgingin saman fyri at betra bæði uppitíð og nýtslueffektivitet."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Arkitekturmodellið okkara leggur stóran dent á deklarativa infrakervi, minstarættindi atgongd og samansetanligar pallar, sum stuðla skjótari vørulevering.",
+      "items": [
+        {
+          "title": "Óbroytilig innviðarmynstur",
+          "detail": "Umhvørvi verða endurbygd úr útgávukóða fyri at minka um drift og einfaldari rakstrarendurvinning."
+        },
+        {
+          "title": "Trygdargrundarlag sum standard",
+          "detail": "Zero-trust atgongdarstýring og regluframfylging eru innbygd í hvørja lívsleið í umhvørvinum."
+        },
+        {
+          "title": "Seiglu gjøgnum útbreiðslu",
+          "detail": "Kritiskar arbeiðsbyrðar eru sniðgivnar til at tola mistøk í fleiri økjum ella fleiri øki, har ávirkan á vinnuna krevur tað."
+        }
+      ]
+    },
+    "capabilities": [
+      "Multi-skýggja strategi og framførsla",
+      "Container-orkestrering (Kubernetes)",
+      "Serverleys teldutøkni",
+      "Skýggjaflutningstænastur",
+      "Høg Tøknilig Arkitektur"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Skýggj",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "AWS",
+        "category": "Skýggj",
+        "icon": "AmazonWebServices"
+      },
+      {
+        "name": "GCP",
+        "category": "Skýggj",
+        "icon": "googlecloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orkestrering",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Ílát",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "ARM-sniðmát",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "AmazonWebServices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Arkitektur og lendingarøki",
+        "summary": "Vit áseta málstøðu, trygdarreglur og grundstøð fyri pall, áðrenn arbeiðsbyrðar flyta seg.",
+        "deliverables": [
+          "Mál-skýarkitektur sniðgeving",
+          "Identitetur, netverk og trygdargrundarlag",
+          "Kostnaðar- og samsvarsreglur"
+        ]
+      },
+      {
+        "title": "Flutningur og pallbygging",
+        "summary": "Vit fremja flutningsbylgjur og seta upp ský-native platform-komponentar við endurtakandi sjálvvirkni.",
+        "deliverables": [
+          "Arbeiðsflutningssekvensering",
+          "Container- og serverleys palluppseting",
+          "Infrakervi sum kodumodulir"
+        ]
+      },
+      {
+        "title": "Álítandi og FinOps",
+        "summary": "Vit betra um rakstrartrygdina og optimera støðugt skýútgjøldini grundað á livandi telemetri.",
+        "deliverables": [
+          "SLOs, eftirlit og hendingararbeiðsgongdir",
+          "Staðfesting av mótstøðuføri og endurbygging eftir vanlukkur",
+          "Kostnaðaroptimering og stýringartaktur"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Skala tína infrakervi",
+      "description": "Bygg skýggjagrundarlag, sum heldur seg haldførar undir veruligum álagi.",
+      "button": "Legg ætlan fyri tína skýggjastrategi"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Sjálvvirkandi veitingarrør, observabilitet og pallvenjur, sum betra ferðina uttan at missa álitið."
+    },
+    "sections": {
+      "problem": {
+        "title": "Innramming av vinnuligum trupulleikum",
+        "subtitle": "Hví útberingarhraðin minkar, tá fløkjustigið á pallinum økist"
+      },
+      "approach": {
+        "title": "Verkfrøðilig tilgongd",
+        "subtitle": "Hvussu vit standardisera útberingarrørini uttan at seinka vørutoymum"
+      },
+      "principles": {
+        "title": "Arkitekturprinsipp",
+        "subtitle": "Platform-verkfrøðilig mynstur, sum skala álit og sjálvstýri hjá liðnum"
+      },
+      "capabilities": {
+        "title": "DevOps tænastur",
+        "subtitle": "Sjálvvirkna, fylgja við og optimera tín leveringslívsleið"
+      },
+      "technology": {
+        "title": "DevOps amboð og platformar",
+        "subtitle": "Best-in-class DevOps amboðskeðjan"
+      },
+      "breakdown": {
+        "title": "Tænastubrot",
+        "subtitle": "Ein praktiskur vegvísir frá leveringstrupulleikum til høgt álit á útgávu"
+      }
+    },
+    "problem": {
+      "overview": "Feløg leggja ofta pening í CI/CD-amboð, men stríðast framvegis við óstøðugum útgávum, seinkaðum góðkenningum og brotnum eigaraskapi í ymiskum umhvørvum.",
+      "painPointsTitle": "Endurtakandi vinnutrupulleikar",
+      "impactSignalsTitle": "Tað, sum leiðarar vanliga síggja",
+      "painPoints": [
+        "Pipeline-definisjónir eru ymiskar eftir liði, og skapa ójavnar góðskugáttir",
+        "Manuell útbreiðslugóðkenning, seinking av hotfix og útgávu av funktiónum",
+        "Rakstrarhendingar koma aftur, tí telemetri er ófullfíggjað ella sundurbýtt"
+      ],
+      "impactSignals": [
+        "Fyrireikingartíðin til broytingar heldur fram at vaksa, hóast sjálvvirkandi útreiðslur",
+        "Broytingarmistøk eru spikar undir stórum útberingartíðum",
+        "Framleiðni hjá mennarum minkar orsakað av friktion í amboðum og kontekstskifti"
+      ]
+    },
+    "approach": {
+      "overview": "Vit stovna ein innanhýsis mennaraplatformmodell við endurnýtanligum pipeline-sniðmátum, politikkdrivnari stýring og fullari lívscyklus eygleiðing.",
+      "pillars": [
+        {
+          "title": "Golden Path Pipeline-sniðmát",
+          "detail": "Endurnýtanligar CI/CD blueprints standardisera bygging, test, trygdarkanningar og útbreiðsluarbeiðsgongdir."
+        },
+        {
+          "title": "Platform API & Sjálvtænasta",
+          "detail": "Bólkar veita umhvørvi og lata infrastruktur út gjøgnum stýrdar sjálvtænastu-viðmót."
+        },
+        {
+          "title": "Álitandi afturvirkandi ringrásir",
+          "detail": "Hendingartrendar, SLO-heilsa og útsetingartelemetri geva grundarlag fyri støðugum arbeiðsgongdum og arkitekturbetringum."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Okkara DevOps-arkitektur samrøkir útberingarhraða við stýring við at sjálvvirkna stýringar og minka um einstøk rakstrararbeiði.",
+      "items": [
+        {
+          "title": "Alt sum útgávukoda",
+          "detail": "Rørleiðingar, infrakervi og politikkreglur verða stýrdar í keldustýring fyri eftirlit og endurtøku."
+        },
+        {
+          "title": "Framstigandi váttan",
+          "detail": "Góðsku-, trygdar- og framførslukanningar verða lagdar tvørtur um stig fyri at finna vanda fyrr."
+        },
+        {
+          "title": "Felags pallábyrgd",
+          "detail": "Pallbólkar veita asfalteraðar førleikar, meðan vøruteymi varðveita eigaraskap av leveringini."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI/CD Rørleiðingarsnið",
+      "Infrakervi sum kóði",
+      "Sjálvvirkandi royndir",
+      "Útbreiðsluautomatión",
+      "Eftirlit og Eygleiðing"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Pallur",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "GitHub Tiltøk",
+        "category": "CI/CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Pakking",
+        "icon": "Hjálmur"
+      },
+      {
+        "name": "Ansible",
+        "category": "Sjálvvirkni",
+        "icon": "Ansible"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Eftirlit",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Sjónligheit",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Pallmeting",
+        "summary": "Vit meta um núverandi forritsútberingarkeðju tykkara fyri at finna vandapunkt og skjótari avmarkingar.",
+        "deliverables": [
+          "Kortlegging av útberingararbeiðsgongdum í núverandi støðu",
+          "Rørleiðingarfløskuhálsgreining",
+          "Málrættað DevOps mótunarætlan"
+        ]
+      },
+      {
+        "title": "Pipeline- og sjálvvirknibygging",
+        "summary": "Vit innføra álítandi CI/CD, góðskugáttir og infrastrukturautomatisering fyri støðugar útgávur.",
+        "deliverables": [
+          "Endurnýtanlig CI/CD-sniðmát",
+          "Infrakervi og umhvørvisautomatisering",
+          "Sjálvvirkandi royndir og útgávustýringar"
+        ]
+      },
+      {
+        "title": "Reka og betra",
+        "summary": "Vit stovna observabilitets- og stýrislykkjur, sum stuðla undir støðuga betring av leveringini.",
+        "deliverables": [
+          "Eftirlitspanelar og ávaringarpolitikkir",
+          "Útgávustýring og hendingarleikbøkur",
+          "Støðugar betringarmátar og ummæli"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Skunda undir leveringina",
+      "description": "Minka um friktion við útgávum og betra álítandi við vaksnum DevOps-venjum.",
+      "button": "Broyt tína rørleiðing"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Talgild Umskipan & Strategi",
+      "description": "Strategisk ráðgeving og framførslustuðul til at nútímansgera pallarnar, liðini og rakstrarmodellini."
+    },
+    "sections": {
+      "problem": {
+        "title": "Innramming av vinnuligum trupulleikum",
+        "subtitle": "Har broytingarætlanir missa ferð og sjálvsálit hjá leiðsluni"
+      },
+      "capabilities": {
+        "title": "Ráðgevingartænastur",
+        "subtitle": "Strategisk vegleiðing fyri talgildan framgongd"
+      },
+      "approach": {
+        "title": "Verkfrøðilig tilgongd",
+        "subtitle": "Hvussu vit umseta strategi til framførandi, tøkni-grundaðar broytingar"
+      },
+      "principles": {
+        "title": "Arkitekturprinsipp",
+        "subtitle": "Rakstrarmodell og pallval, sum verja broytingarúrslit"
+      },
+      "technology": {
+        "title": "Tøkni Stack",
+        "subtitle": "Platformar og rammur, sum vit brúka til at seta broytingar í gongd"
+      },
+      "breakdown": {
+        "title": "Tænastubrot",
+        "subtitle": "Skipað umskipan frá strategi-áseting til mátandi vinnuvirði"
+      }
+    },
+    "problem": {
+      "overview": "Digitalar verkætlanir byrja ofta við sterkari ætlan, men miseydnast at umsetast til úrslit vegna ógreiða eigaraskap, ósamanhangandi amboð og kappingarførar raðfestingar.",
+      "painPointsTitle": "Endurtakandi vinnutrupulleikar",
+      "impactSignalsTitle": "Tað, sum leiðarar vanliga síggja",
+      "painPoints": [
+        "Umskipanarætlanir eru ásettar, men ikki umsettar til veitingarstýring",
+        "Vinnuligar og verkfrøðiligar raðfestingar skiljast eftir fyrstu ætlanargongdirnar",
+        "Eldri rakstrarmodellir forða fyri at taka nútímans vøruútberingarhættir í nýtslu"
+      ],
+      "impactSignals": [
+        "Útreiðslurnar til skránna vaksa, meðan strategiska KPI-rørslan heldur seg óbroytt",
+        "Átøk missa yvirtøkupunkt millum strategi, arkitektur og framførslu",
+        "Lið uppliva broytingartroyttleika við avmarkaðum veruligum virkisvirði"
+      ]
+    },
+    "approach": {
+      "overview": "Vit sameina strategiska ráðgeving við leveringsarkitektur, har vit samstilla rakstrarmodelldesign, pallførleika og framleiðslutakt kring mátandi mál.",
+      "pillars": [
+        {
+          "title": "Virðisstreymsraðfesting",
+          "detail": "Vit raðfesta átøk út frá mátandi ávirkan av vinnuni og tøkniligum treytum."
+        },
+        {
+          "title": "Málvirkandi modelldesign",
+          "detail": "Leiklutir, stýring og avgerðarrættindi eru ásett fyri at stuðla skjótari framleiðslu millum vinnu- og tøkni-lið."
+        },
+        {
+          "title": "Stýring av porteføljuveiting",
+          "detail": "Umskipanargongdin verður stýrd við KPI-tengdum eftirlitsstøðum og váðastýringum á porteføljustigi."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Okkara broytingararkitektur leggur dent á stigvísari nútímansgerð og greiða ábyrgd, og forðar fyri órógvandi umskrivingum uttan vinnuliga grundgeving.",
+      "items": [
+        {
+          "title": "Samanseting av vinnuførleikum",
+          "detail": "Tøknibroytingar eru skipaðar kring førleikar, sum beinleiðis samsvara við inntøku, tænastugóðsku ella kostnaðareffektivitet."
+        },
+        {
+          "title": "Composable Platform Strategi",
+          "detail": "Pallpartar verða valdir fyri samvirkni fyri at stuðla stigvísari flyting og skjótari tillaging."
+        },
+        {
+          "title": "Stýring við framførslutakti",
+          "detail": "Avgerðarforum og kontrollpunkt eru innbygd í sprint- og ársfjórðingssyklur, ikki viðgjørd sum sjálvstøðug byråkratisk spor."
+        }
+      ]
+    },
+    "capabilities": [
+      "Digital Transformation Roadmaps",
+      "Menning av tøknistrategi",
+      "Ský-innleiðingarrammur",
+      "Framleiðsluoptimering",
+      "Broytingarstýring"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Foundation",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Dátupallur",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Avgerðarintelligens",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Kraftplattformur",
+        "category": "Low-Code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Samarbeiði",
+        "icon": "microsoftsharepoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strategi-samsvar",
+        "summary": "Vit samstilla leiðslufyrimunir og digital mál fyri at skapa eina felags broytingarleið.",
+        "deliverables": [
+          "Umskapanarmál og úrslitskrøv",
+          "Førleikamogn og glopp meting",
+          "Raðfest verkætlanarportføll"
+        ]
+      },
+      {
+        "title": "Avrættingarætlan",
+        "summary": "Vit áseta málmodellið, arkitekturstandardar og stigvísu framleiðslurøðina.",
+        "deliverables": [
+          "Rakstrarmodell og stýrissniðgeving",
+          "Tøkni- og framleiðsluarkitekturstandardar",
+          "Stigvís framførsluætlan"
+        ]
+      },
+      {
+        "title": "Broyting og virðisgerð",
+        "summary": "Vit stýra innleiðing, fylgja við KPI-rørslum og betra átøk út frá úrslitum av levering.",
+        "deliverables": [
+          "Adoptións- og førleikaætlan",
+          "KPI-mátingarkadens",
+          "Kvartalsbundin optimeringslisti"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Byrja tína broytingarferð",
+      "description": "Navigera broytingar við greiðum raðfestingum og praktiskum veitingarætlanum.",
+      "button": "Skipa fyri strategifundi"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Tengdar skipanir frá tólum til skýggja, við telemetri-rørleiðingum og edge intelligence til vinnuligan skala."
+    },
+    "sections": {
+      "problem": {
+        "title": "Innramming av vinnuligum trupulleikum",
+        "subtitle": "Hví forrit við knýttum eindum ikki megna at vaksa longur enn royndarútsetingar"
+      },
+      "approach": {
+        "title": "Verkfrøðilig tilgongd",
+        "subtitle": "Hvussu vit hanna tryggar, virknar IoT-skipanir frá eindarfirmware til ský-API'ir"
+      },
+      "principles": {
+        "title": "Arkitekturprinsipp",
+        "subtitle": "Edge-to-cloud sniðreglur fyri álítandi, seinking og flotastýring"
+      },
+      "capabilities": {
+        "title": "IoT-loysnir",
+        "subtitle": "Knýt teg til, fylg við og optimera tínar eindir"
+      },
+      "technology": {
+        "title": "IoT tøkni stakkur",
+        "subtitle": "Frá tólum til skýggj"
+      },
+      "breakdown": {
+        "title": "Tænastubrot",
+        "subtitle": "Hvussu vit veita knýttar skipanir frá kanttólum til skýggjaintelligens"
+      }
+    },
+    "problem": {
+      "overview": "IoT-átøk vísa ofta tekniska møguleika í royndarverkætlanum, men miseydnast í stórum vavi vegna ótrygga sambinding, veikar flotastýringar og vánaliga integratión við vinnugongdir.",
+      "painPointsTitle": "Endurtakandi vinnutrupulleikar",
+      "impactSignalsTitle": "Tað, sum leiðarar vanliga síggja",
+      "painPoints": [
+        "Innleiðing av tólum og lívsleiðsla eru framvegis handvirk og feilviðkvæm",
+        "Telemetri-rørleiðingar framleiða larmandi, ófullfíggjað ella seinkað rakstrardátur",
+        "Fjarstýring og firmware-uppdateringar føra við sær trygdar- og trygdarvanda"
+      ],
+      "impactSignals": [
+        "Pilot-umhvørvi eydnast, men framleiðsluútbreiðslutíðarætlanir verða aftur og aftur útsettar",
+        "Arbeiðsbólkar á staðnum reagera á hendingar uttan fyrivarandi sjónligheit",
+        "Vinnuskipanir kunnu ikki álítandi brúka eindaintelligens í veruligum tíð"
+      ]
+    },
+    "approach": {
+      "overview": "Vit hanna IoT-pallarnar sum stýrdar býttar skipanir, har tryggar kant-runtime-standardar, hendingardrivin inntøka og rakstrarstýring í flotastødd verða sameinað.",
+      "pillars": [
+        {
+          "title": "Trygg lívsleiðsla av tólum",
+          "detail": "Útvegan, samleiki, lykilsnúningur og firmware-uppdateringar eru sjálvvirkandi fyri at minka um rakstrarvanda."
+        },
+        {
+          "title": "Hendingardrivin telemetriarkitektur",
+          "detail": "Streymleiðingar normalisera, vátta og leiða eindarhendingar til greining og stýring nærum í veruligum tíð."
+        },
+        {
+          "title": "Flotastýringarflogfar",
+          "detail": "Eftirlit, ávaring og fjarstýringararbeiðsgongdir veita álítandi eftirlit tvørtur um býttar eindir."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Okkara IoT-arkitektur javnvigar lágseinkaðar kantavgerðir við miðsavnaða stýring, eygleiðing og trygdarsamsvar.",
+      "items": [
+        {
+          "title": "Edge Autonomi við Cloud Coordination",
+          "detail": "Kritiskar lokalar rakstrar halda fram undir netverksniðurgangi, meðan støðan verður samstillað við skýggjaskipanir, tá tað er tøkt."
+        },
+        {
+          "title": "Kontrakteraðar hendingarskema",
+          "detail": "Tól- og pallbólkar brúka stýrdar skemar fyri at varðveita telemetri-samsvar millum útgávur."
+        },
+        {
+          "title": "Zero-Trust tóltrygd",
+          "detail": "Innanhýsis autentisering, minsta rættindi og krypterað flutningur verða framd í øllum samskiftisviðurskiftum við tól."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT eindastýring",
+      "Digitalar Tvíburaloysnir",
+      "Útbreiðsla av kantteldutøkni",
+      "Raðtíðar telemetri",
+      "Fyrivarandi viðlíkahald"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Digitalir tvíburar",
+        "category": "Simulering",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Kantur",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protokoll",
+        "icon": "mqtt"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protokoll",
+        "icon": "lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Útgerð",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Útgerð",
+        "icon": "hindberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Tíðarrøð DB",
+        "icon": "InfluxDB"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Tól- og kantstrategi",
+        "summary": "Vit áseta sambindingarmynstur, kant-runtime-standardar og trygga útvegan til útgerð á staðnum.",
+        "deliverables": [
+          "Tól-onboarding og sambindingarmodell",
+          "Edge runtime og deployment blueprint",
+          "Trygdargrundarlag fyri flotan"
+        ]
+      },
+      {
+        "title": "Telemetri- og stýriplan",
+        "summary": "Vit byggja pipelines, sum fanga hendingar, modellera digitalar tvíburar og gera fjarstýringararbeiðsgongdir møguligar.",
+        "deliverables": [
+          "Raðtíðar inntøka og hendingarskema-design",
+          "Digital tvíbura- og ognarmodell-innleiðing",
+          "Kommando- og stýri API-lagið"
+        ]
+      },
+      {
+        "title": "Rakstur og Stødd",
+        "summary": "Vit seta flotastýring og álítandi stýring í rakstur til IoT-umhvørvi í framleiðsluskala.",
+        "deliverables": [
+          "Tólflotaeftirlit og ávaring",
+          "Fyrivarandi viðlíkahald og avviksuppdaging",
+          "Útbreiðsla og lívsrenslisstuðulsætlan"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Knýt tólini til",
+      "description": "Bygg álítandi IoT-loysnir, sum eru klárar til veruligar framleiðsluumhvørvi.",
+      "button": "Byrja títt IoT-verkætlan"
+    }
+  }
+}

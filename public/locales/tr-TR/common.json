@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "company": "Şirket",
+    "solutions": "Çözümler",
+    "resources": "Kaynaklar",
+    "innovationLab": "İnovasyon Laboratuvarı",
+    "contact": "İletişim",
+    "about": {
+      "title": "Hakkında",
+      "description": "Misyonumuz, vizyonumuz ve hikayemiz"
+    },
+    "team": {
+      "title": "Takım",
+      "description": "Horizon Tech'in arkasındaki insanlarla tanışın"
+    },
+    "careers": {
+      "title": "Kariyerler",
+      "description": "Ekibimize katılın ve geleceği inşa edin"
+    },
+    "enterpriseSoftware": {
+      "title": "Kurumsal Yazılım Geliştirme",
+      "description": "Modern çerçevelerle özel kurumsal uygulamalar"
+    },
+    "aiMl": {
+      "title": "Yapay Zeka, Makine Öğrenimi ve İş Zekası",
+      "description": "Tam AI/ML pipelines ve BI dashboardları"
+    },
+    "cloudArchitecture": {
+      "title": "Bulut Mimarisi ve Altyapısı",
+      "description": "Çok bulutlu çözümler ve konteyner düzenlemesi"
+    },
+    "iot": {
+      "title": "IoT ve Kenar Bilişim",
+      "description": "Bağlı cihaz ekosistemleri ve dijital ikizler"
+    },
+    "devops": {
+      "title": "DevOps ve Platform Mühendisliği",
+      "description": "CI/CD boru hatları ve altyapı kod olarak"
+    },
+    "digitalTransformation": {
+      "title": "Dijital Dönüşüm ve Strateji",
+      "description": "Kurumsal dönüşüm yol haritaları ve danışmanlık"
+    },
+    "caseStudies": {
+      "title": "Vaka Çalışmaları",
+      "description": "Müşterilerimizden başarı hikayeleri",
+      "featured": {
+        "title": "Öne Çıkan Vaka Çalışması",
+        "description": "Tam teslimat sürecine derinlemesine dalış"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "İçgörüler, eğitimler ve sektör trendleri",
+      "featured": {
+        "title": "Öne Çıkan Blog Yazısı",
+        "description": "En son mühendislik görüşlerimizden birini okuyun"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "İnovasyon Laboratuvarı Genel Bakış",
+      "description": "Tüm araştırma alanlarını ve deneysel yolları görün"
+    },
+    "innovationLabAiSystems": {
+      "title": "Uygulamalı Yapay Zeka Sistemleri",
+      "description": "Üretime hazır makine öğrenimi mimarisi kalıpları"
+    },
+    "innovationLabNlp": {
+      "title": "Çok Dilli NLP",
+      "description": "Etkileşimli doğal dil işleme yetenekleri"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Genetik Algoritma Simülasyonu",
+      "description": "Etkileşimli bir ortamda evrimsel optimizasyon"
+    },
+    "navigation": "Navigasyon",
+    "skipToContent": "İçeriğe geç",
+    "toggleMenu": "Menü değiştirme",
+    "dashboard": "Dashboard",
+    "myWorkspace": "Çalışma Alanım",
+    "profile": "Profil",
+    "adminPanel": "Yönetim Paneli",
+    "practiceManagement": "Uygulama Yönetimi",
+    "logOut": "Çıkış",
+    "education": {
+      "title": "Teknik Kaynaklar",
+      "description": "Horizon Tech ekibinden rehberler, eğitimler ve en iyi uygulamalar"
+    },
+    "support": {
+      "title": "Destek Merkezi",
+      "description": "Yazılım geliştirme hizmetlerimizde yardım alın"
+    }
+  },
+  "footer": {
+    "description": "Saraybosna, Bosna merkezli yazılım geliştirme girişimi. Özel yazılımlar, yapay zeka/makine öğrenimi çözümleri, bulut mimarisi ve otomasyon sistemleri geliştiriyoruz.",
+    "features": "Özellikler",
+    "resources": "Kaynaklar",
+    "company": "Şirket",
+    "legal": "Hukuki",
+    "dashboard": "Dashboard",
+    "components": "Bileşenler",
+    "documentation": "Dokümantasyon",
+    "apiReference": "API Referansı",
+    "gettingStarted": "Başlamak",
+    "examples": "Örnekler",
+    "community": "Topluluk",
+    "blog": "Blog",
+    "caseStudies": "Vaka Çalışmaları",
+    "innovationLabOverview": "İnovasyon Laboratuvarı Genel Bakış",
+    "appliedAiSystems": "Uygulamalı Yapay Zeka Sistemleri",
+    "nlpDemo": "Çok Dilli NLP",
+    "geneticAlgorithmSimulation": "Genetik Algoritma Simülasyonu",
+    "featuredBlogPost": "Öne Çıkan Blog Yazısı",
+    "featuredCaseStudy": "Öne Çıkan Vaka Çalışması",
+    "about": "Hakkında",
+    "contact": "İletişim",
+    "partners": "Ortaklar",
+    "careers": "Kariyerler",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Hizmet Şartları",
+    "cookiePolicy": "Çerez Politikası",
+    "license": "Lisans",
+    "copyright": "© {{year}} Horizon Tech. Tüm haklar saklıdır.",
+    "subscribe": "Bültene abone olun"
+  },
+  "header": {
+    "badge": "Kurumsal Teknoloji Çözümleri",
+    "titleLine1": "İşinizi Dönüştürün",
+    "titleLine2": "En Son Teknoloji",
+    "description": "Kurumsal yazılım geliştirme ve yapay zeka destekli iş zekasından bulut altyapısı ve IoT çözümlerine kadar — yeniliği teşvik eden ve büyümeyi hızlandıran kapsamlı teknoloji hizmetleri sunuyoruz.",
+    "getStarted": "Başlayın",
+    "exploreSolutions": "Çözümleri Keşfedin",
+    "trustedBy": "İleri düşünen işletmeler tarafından güvenilen",
+    "microsoftPartner": "Microsoft Partner",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "Kurumsal Çözümler"
+  },
+  "mobileNav": {
+    "navigation": "Mobil navigasyon",
+    "home": "Ana Sayfa",
+    "solutions": "Çözümler",
+    "caseStudies": "Davalar",
+    "aiSystems": "AI Laboratuvarı",
+    "blog": "Blog",
+    "resources": "Kaynaklar",
+    "contact": "İletişim"
+  },
+  "sideNav": {
+    "scroll": "Parşömen",
+    "navigateTo": "Yönlendirin {{section}}",
+    "sections": {
+      "home": "Ana Sayfa",
+      "solutions": "Çözümler",
+      "credibility": "Güvenilirlik",
+      "partners": "Ortaklar",
+      "caseStudies": "Vaka Çalışmaları",
+      "blog": "Blog",
+      "innovationLab": "İnovasyon Laboratuvarı",
+      "faq": "SSS"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Anahtar dili",
+    "searchPlaceholder": "Arama dili...",
+    "noResults": "Dil bulunamadı."
+  },
+  "common": {
+    "menu": "Menü",
+    "account": "Hesap"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Son Vaka Çalışmaları",
+      "description": "Fintech, sağlık hizmetleri, lojistik ve kamu sektörü programlarında teslimat sonuçlarının anlık görüntüsü.",
+      "cta": "Tüm Vaka Çalışmalarını Gör"
+    },
+    "blog": {
+      "title": "Blogumuzdan En Son Haberler",
+      "description": "Son yapay zeka, platform ve bulut sunumu çalışmalarından pratik mühendislik notları.",
+      "cta": "Tüm Makaleleri Oku"
+    },
+    "innovationLab": {
+      "title": "İnovasyon Laboratuvarı",
+      "description": "Horizon Tech mühendislik ekibinin prototiplerini, deneylerini ve uygulamalı Ar-Ge projelerini keşfedin.",
+      "cta": "Innovation Lab'ı Keşfedin"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Vaka Çalışması Oku",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Sağlık Hizmetleri",
+      "logistics": "Lojistik",
+      "manufacturing": "Üretim",
+      "government": "Yönetim"
+    }
+  },
+  "blogCard": {
+    "read": "Oku"
+  }
+}

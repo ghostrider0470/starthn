@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Tietoja meistä",
+    "hero": {
+      "titlePrefix": "Rakentamassa huomisen teknologiaa,",
+      "titleHighlight": "Tänään",
+      "description": "Horizon Tech d.o.o. on maailmanlaajuinen teknologiayritys, jonka pääkonttori sijaitsee Sarajevossa ja joka toimittaa huipputason ohjelmistoratkaisuja yrityksille kolmella mantereella."
+    },
+    "sections": {
+      "mission": {
+        "title": "Tehtävä",
+        "description": "Autamme organisaatioita muuttamaan kunnianhimoiset ideat luotettaviksi digitaalisiksi tuotteiksi, jotka luovat mitattavissa olevaa liiketoiminta-arvoa.",
+        "points": [
+          "Sovita teknologian toimitus selkeisiin liiketoimintatuloksiin.",
+          "Rakenna pitkäaikaisia järjestelmiä, jotka pysyvät ylläpidettävissä tiimien kasvaessa.",
+          "Tee tiivistä yhteistyötä sidosryhmien kanssa strategiasta toteutukseen."
+        ]
+      },
+      "expertise": {
+        "title": "Asiantuntemus",
+        "description": "Monitieteiset tiimimme yhdistävät insinöörisyvyyttä tuoteajatteluun nykyaikaisissa teknologiapinoissa.",
+        "points": [
+          "Yritystason web- ja alustatekniikka.",
+          "Pilviarkkitehtuuri, DevOps-automaatio ja kestävä infrastruktuuri.",
+          "Sovellettu tekoäly/koneoppimis, datatyönkulut ja IoT-tuotteet."
+        ]
+      },
+      "approach": {
+        "title": "Lähestymistapa",
+        "description": "Toteutamme läpinäkyvällä, iteratiivisella mallilla, joka pitää toimituksen ennustettavana ja vähentää tuoteriskiä.",
+        "points": [
+          "Löydä: määrittele laajuus, prioriteetit ja menestysmittarit ajoissa.",
+          "Build: toimitetaan tarkkoja vaiheita jatkuvilla palautesilmukoilla.",
+          "Optimoi: seuraa tuloksia ja paranna suorituskykyä ajan myötä."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Oletko valmis muuttamaan liiketoimintaasi?",
+      "description": "Liity kasvavaan listaan yrityksiä, jotka luottavat Horizon Techiin innovatiivisten ratkaisujen ja poikkeuksellisten tulosten tarjoamisessa.",
+      "primary": "Aloita",
+      "secondary": "Katso menestystarinoita"
+    }
+  },
+  "contact": {
+    "badge": "Ota yhteyttä",
+    "hero": {
+      "title": "Ota yhteyttä",
+      "description": "Onko sinulla projekti mielessä? Haluaisimme kuulla sinusta. Ota yhteyttä keskustellaksesi siitä, miten voimme auttaa tuomaan ideasi eloon."
+    },
+    "info": {
+      "title": "Yhteystiedot"
+    },
+    "booking": {
+      "title": "Varaa kokous",
+      "description": "Varaa ilmainen 30 minuutin löytöpuhelu"
+    },
+    "methods": {
+      "email": {
+        "title": "Sähköposti",
+        "description": "Lähetä meille sähköpostia milloin tahansa",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Sijainti",
+        "description": "Toimipaikka",
+        "value": "Sarajevo, Bosnia ja Hertsegovina"
+      },
+      "response": {
+        "title": "Vasteaika",
+        "description": "Yleensä vastaamme sisällä",
+        "value": "24–48 tuntia"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Uusi projekti"
+      },
+      "support": {
+        "label": "Tekninen tuki"
+      },
+      "partnerships": {
+        "label": "Kumppanuudet"
+      },
+      "careers": {
+        "label": "Urat"
+      },
+      "general": {
+        "label": "Yleinen tutkimus"
+      }
+    },
+    "form": {
+      "title": "Lähetä meille viesti",
+      "success": "Kiitos viestistäsi. Palaamme asiaan 24–48 tunnin sisällä.",
+      "error": "Jokin meni pieleen. Yritäthän uudelleen tai lähetä meille suoraa sähköpostia.",
+      "fullName": "Koko nimi *",
+      "email": "Sähköpostiosoite *",
+      "company": "Yhtiö",
+      "subject": "Aihe *",
+      "message": "Viesti *",
+      "placeholders": {
+        "name": "Nimesi",
+        "email": "you@example.com",
+        "company": "Yrityksesi",
+        "subject": "Miten voimme auttaa?",
+        "message": "Kerro meille projektistasi tai tutkimuksestasi..."
+      },
+      "validation": {
+        "required": {
+          "name": "Koko nimi vaaditaan.",
+          "email": "Sähköpostiosoite vaaditaan.",
+          "subject": "Valitse aihe, kiitos.",
+          "message": "Viesti vaaditaan."
+        },
+        "email": "Syötäthän kelvollisen sähköpostiosoitteen.",
+        "messageMinLength": "Viestin tulee olla vähintään {{count}} merkkiä pitkä."
+      },
+      "sending": "Lähetetään...",
+      "submit": "Lähetä viesti"
+    },
+    "reasonsTitle": "Miksi työskennellä kanssamme?",
+    "reasons": [
+      "Full-stack-ohjelmistokehityksen asiantuntemus",
+      "AI/ML- ja pilviarkkitehtuurin asiantuntijat",
+      "Ketterä kehitys läpinäkyvällä viestinnällä",
+      "Pitkäaikainen tuki ja ylläpito"
+    ],
+    "custom": {
+      "title": "Räätälöidyt ratkaisut",
+      "description": "Etsitkö räätälöityä ratkaisua? Teemme tiivistä yhteistyötä asiakkaiden kanssa ymmärtääksemme ainutlaatuisia tarpeita ja toimittaaksemme räätälöityjä ohjelmistoja, jotka tuottavat mitattavia tuloksia.",
+      "cta": "Keskustele projektistasi"
+    },
+    "faq": {
+      "title": "Onko sinulla lisää kysymyksiä?",
+      "description": "Katso UKK-osiomme saadaksesi nopeita vastauksia",
+      "cta": "Selaa usein kysyttyjä kysymyksiä"
+    }
+  },
+  "team": {
+    "badge": "Meidän tiimimme",
+    "hero": {
+      "titlePrefix": "Tapaa mielet takana",
+      "titleHighlight": "Horizon Tech",
+      "description": "Monipuolinen tiimi teknologeja, suunnittelijoita ja strategistoja rakentamassa yhdessä vaikuttavia digitaalisia tuotteita."
+    },
+    "section": {
+      "title": "Johtoryhmä",
+      "description": "Kokeneet johtajat, jotka ohjaavat Horizon Techin visiota ja kasvua"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Perustaja, toimitusjohtaja ja teknologiajohtaja",
+        "bio": "Visionäärinen johtaja ja tekninen arkkitehti, jolla on 10+ vuoden kokemus yritysohjelmistoista, erikoistuen tekoälyyn/koneoppimiseen, pilvialustoihin ja skaalautuvaan tuotearkkitehtuuriin.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Ratkaisuarkkitehtuuri",
+          "Pilvitekniikka"
+        ]
+      },
+      "ahmet": {
+        "role": "Pääturvallisuusarkkitehti",
+        "bio": "Kyberturvallisuuden asiantuntija, joka keskittyy yritysturvallisuusarkkitehtuuriin, turvalliseen paikalliseen infrastruktuuriin ja vaatimustenmukaisuuden ensisijaiseen toteutukseen säännellyissä ympäristöissä.",
+        "expertise": [
+          "Kyberturvallisuus",
+          "Paikalliset järjestelmät",
+          "Turvallisuusarkkitehtuuri",
+          "Vaatimustenmukaisuus",
+          "Infrastruktuurin turvallisuus"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Lähetä sähköpostia {{name}}",
+      "linkedin": "{{name}} LinkedIn-profiili"
+    },
+    "culture": {
+      "title": "Elämä Horizon Techillä",
+      "description": "Edistämme innovaation, yhteistyön ja jatkuvan oppimisen kulttuuria",
+      "remoteFirst": {
+        "title": "Etä-ensimmäinen kulttuuri",
+        "description": "Työskentele mistä tahansa, joustavat työajat ja keskittyminen tuloksiin, ei sijaintiin."
+      },
+      "collaborative": {
+        "title": "Yhteistyöympäristö",
+        "description": "Säännöllisiä tiimitapahtumia, tiedonjakotilaisuuksia ja poikkitoiminnallista yhteistyötä."
+      },
+      "workLife": {
+        "title": "Työn ja vapaa-ajan tasapaino",
+        "description": "Antelias lomapolitiikka, mielenterveystuki ja henkilökohtaisen ajan kunnioittaminen."
+      },
+      "innovation": {
+        "title": "Innovaatioaika",
+        "description": "20 % aikaa henkilökohtaisille projekteille, hackathoneille ja uusien teknologioiden tutkimiselle."
+      },
+      "stats": {
+        "teamMembers": "Joukkueen jäsenet",
+        "countries": "Maat",
+        "techStacks": "Teknologiapinnot",
+        "remoteReady": "Kauko-ohjausvalmius"
+      }
+    },
+    "cta": {
+      "title": "Haluatko liittyä tiimiimme?",
+      "description": "Etsimme aina lahjakkaita ihmisiä, jotka välittävät käsityötaidosta, omistajuudesta ja innovaatioista.",
+      "button": "Ota yhteyttä"
+    }
+  },
+  "careers": {
+    "badge": "Liity tiimiimme",
+    "hero": {
+      "titlePrefix": "Rakenna tulevaisuutta",
+      "titleHighlight": "Kanssamme",
+      "description": "Liity insinööritiimiin, joka rakentaa huipputason ohjelmistoja globaaleille asiakkaille. Työskentele etänä, kasva jatkuvasti ja tee todellista vaikutusta.",
+      "button": "Katso Tehtävät"
+    },
+    "process": {
+      "title": "Rekrytointiprosessimme",
+      "description": "Läpinäkyvä, tehokas ja kunnioittava ajastasi kohtaan",
+      "steps": [
+        {
+          "title": "Hae",
+          "description": "Lähetä hakemuksesi, niin käsittelemme sen kolmen arkipäivän kuluessa."
+        },
+        {
+          "title": "Alkuperäinen keskustelu",
+          "description": "30 minuutin videopuhelu, jossa keskustellaan kokemuksistasi ja odotuksistasi."
+        },
+        {
+          "title": "Tekninen",
+          "description": "Tekninen haastattelu tai käytännön harjoitus taitojesi esittelyyn."
+        },
+        {
+          "title": "Tarjous",
+          "description": "Tapaa tiimi ja saat tarjouksesi liittyä Horizon Techiin."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Avoimet tehtävät",
+      "description": "Löydä seuraava mahdollisuutesi ja liity kasvavaan tiimiimme",
+      "unavailable": "En ota hakemuksia vastaan tällä hetkellä",
+      "apply": "Hae nyt",
+      "noMatch": "Etkö näe täydellistä roolia?",
+      "sendCv": "Lähetä meille CV:si",
+      "listings": [
+        {
+          "title": "Vanhempi full-stack-insinööri",
+          "department": "Tekniikka",
+          "location": "Etä (EU:n aikavyöhykkeet)",
+          "type": "Kokopäiväinen",
+          "description": "Rakenna skaalautuvia yrityssovelluksia käyttäen React-, Node.js- ja pilviteknologioita.",
+          "tags": [
+            "Reagoi",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps-insinööri",
+          "department": "Tekniikka",
+          "location": "Sarajevo / Syrjäinen",
+          "type": "Kokopäiväinen",
+          "description": "Suunnittele ja ylläpidä CI/CD-putkia, infrastruktuuria koodina ja valvontajärjestelmiä.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI/ML-insinööri",
+          "department": "Innovaatiolaboratorio",
+          "location": "Etä",
+          "type": "Kokopäiväinen",
+          "description": "Kehitä koneoppimismalleja ja tekoälyratkaisuja yritysasiakkaille.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Tuotesuunnittelija",
+          "department": "Suunnittelu",
+          "location": "Etä",
+          "type": "Kokopäiväinen",
+          "description": "Luo kauniita, intuitiivisia käyttäjäkokemuksia monimutkaisiin yrityssovelluksiin.",
+          "tags": [
+            "Figma",
+            "Käyttäjätutkimus",
+            "UI/UX",
+            "Suunnittelujärjestelmät"
+          ]
+        },
+        {
+          "title": "Ratkaisuarkkitehti",
+          "department": "Tekniikka",
+          "location": "Etä",
+          "type": "Kokopäiväinen",
+          "description": "Suunnittele kokonaisvaltaisia teknisiä ratkaisuja ja ohjaa asiakkaita digitaalisen muutoksen läpi.",
+          "tags": [
+            "Pilviarkkitehtuuri",
+            "Järjestelmäsuunnittelu",
+            "Konsultointi"
+          ]
+        },
+        {
+          "title": "Tekninen kirjoittaja",
+          "department": "Toiminta",
+          "location": "Etä",
+          "type": "Osa-aikainen",
+          "description": "Luo kattavaa dokumentaatiota, opetusmateriaaleja ja teknistä sisältöä.",
+          "tags": [
+            "Dokumentaatio",
+            "API-dokumentit",
+            "Tekninen kirjoittaminen"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Kysymyksiä työskentelystä täällä?",
+      "description": "Haluaisimme kuulla sinusta. Ota yhteyttä, niin vastaamme kaikkiin kysymyksiin Horizon Techin elämästä.",
+      "button": "Ota yhteyttä"
+    }
+  },
+  "caseStudies": {
+    "badge": "Menestystarinoita",
+    "hero": {
+      "titlePrefix": "Tulosten tuottaminen, jotka",
+      "titleHighlight": "Aine",
+      "description": "Tutustu, miten olemme auttaneet yrityksiä eri toimialoilla muuttamaan toimintaansa käytännöllisen, vaikuttavan teknologian avulla.",
+      "tags": {
+        "delivery": "Insinöörien toimitus",
+        "outcomes": "Mitatut tulokset"
+      }
+    },
+    "stats": {
+      "projects": "Toteutetut projektit",
+      "clients": "Onnelliset asiakkaat",
+      "efficiency": "Keskimääräinen tehokkuuden kasvu",
+      "retention": "Asiakaspysyvyys"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Rahoituspalvelut",
+        "title": "Pilvimigraatio ja modernisointi",
+        "description": "Siirsin vanhat pankkijärjestelmät AWS:n pilvi-infrastruktuuriin ilman käyttökatkoja.",
+        "challenge": "Perintömonoliittinen arkkitehtuuri aiheuttaa skaalautuvuusongelmia",
+        "result": "Onnistuneesti siirretty AWS:n mikropalveluihin",
+        "metrics": [
+          {
+            "label": "Kustannusten vähentäminen",
+            "value": "40%"
+          },
+          {
+            "label": "Suorituskyvyn parannus",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Mikropalvelut",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech-ratkaisut",
+        "industry": "Terveydenhuolto",
+        "title": "Tekoälypohjainen diagnostiikkaalusta",
+        "description": "Rakensi koneoppimismalleja lääketieteelliseen kuvananalyysiin 95 %+ tarkkuudella.",
+        "challenge": "Manuaaliset diagnostiikkaprosessit kestävät liian kauan",
+        "result": "Automaattinen diagnostiikka AI/ML:llä",
+        "metrics": [
+          {
+            "label": "Säästetty aika",
+            "value": "70%"
+          },
+          {
+            "label": "Tarkkuus",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "Reagoi",
+          "Terveydenhuolto"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Verkkokaupan jättiläinen",
+        "industry": "Vähittäiskauppa",
+        "title": "Reaaliaikainen analytiikan hallintapaneeli",
+        "description": "Kehitti BI-alustan, joka käsittelee päivittäin 10 miljoonaa tapahtumaa.",
+        "challenge": "Ei reaaliaikaista näkyvyyttä keskeisistä liiketoiminnan mittareista",
+        "result": "Reaaliaikainen analytiikka- ja oivallusalusta",
+        "metrics": [
+          {
+            "label": "Tapahtumat/päivä",
+            "value": "10M+"
+          },
+          {
+            "label": "Vasteaika",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "Reagoi",
+          "Data-insinöörityö"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Valmiina kirjoittamaan menestystarinasi?",
+      "description": "Keskustellaan, miten voimme auttaa sinua saavuttamaan samankaltaisia tuloksia ja skaalaamaan itsevarmasti."
+    },
+    "filters": {
+      "title": "Teollisuuden suodatin",
+      "all": "Kaikki teollisuudenalat",
+      "empty": "Yksikään tapaustutkimus ei vastaa valittua toimialasuodatinta."
+    }
+  },
+  "blog": {
+    "badge": "Blogi",
+    "hero": {
+      "titlePrefix": "Näkemyksiä ja ideoita",
+      "titleHighlight": "Horizon Tech",
+      "description": "Teknisiä opastuksia, alan näkemyksiä ja käytännön oppeja todellisesta toimitustyöstä."
+    },
+    "categories": [
+      "Kaikki julkaisut",
+      "Pilviarkkitehtuuri",
+      "DevOps",
+      "AI/ML",
+      "Frontend",
+      "Taustajärjestelmä",
+      "Tiedot"
+    ],
+    "featuredPost": {
+      "id": "Esillä",
+      "title": "Pilvipohjaisen kehityksen tulevaisuus: trendejä, joita kannattaa seurata vuonna 2025",
+      "excerpt": "Tutustu uusimpiin pilvipohjaisen kehityksen trendeihin, palvelimettomista arkkitehtuureista reunalaskentaan.",
+      "author": {
+        "name": "Horizon Techin pääkirjoitus"
+      },
+      "date": "15. marraskuuta 2025",
+      "readTime": "8 min lukukokemus",
+      "category": "Pilviarkkitehtuuri",
+      "tags": [
+        "Pilvi",
+        "Azure",
+        "Trendit"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Skaalautuvien mikropalveluiden rakentaminen Azure Kubernetes -palvelulla",
+        "excerpt": "Käytännön opas mikropalveluiden arkkitehtuuriin ja käyttöönottoon AKS:n avulla.",
+        "author": {
+          "name": "Horizon Techin pääkirjoitus"
+        },
+        "date": "12. marraskuuta 2025",
+        "readTime": "6 min lukukokemus",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Mikropalvelut",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Koneoppiminen tuotannossa: Opitut opit",
+        "excerpt": "Kenttätestattuja oppeja koneoppimismallien laajamittaisesta käyttöönotosta.",
+        "author": {
+          "name": "Horizon Techin pääkirjoitus"
+        },
+        "date": "10. marraskuuta 2025",
+        "readTime": "10 minuutin lukukokemus",
+        "category": "AI/ML",
+        "tags": [
+          "Koneoppiminen",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Mitä uutta ja miksi sillä on merkitystä",
+        "excerpt": "Syväsukellus React 19:n ominaisuuksiin ja suorituskykyyn liittyviin vaikutuksiin.",
+        "author": {
+          "name": "Horizon Techin pääkirjoitus"
+        },
+        "date": "8. marraskuuta 2025",
+        "readTime": "5 minuutin lukukokemus",
+        "category": "Frontend",
+        "tags": [
+          "Reagoi",
+          "JavaScript",
+          "Verkkokehitys"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Tilaa uutiskirjeemme",
+      "description": "Saat viikoittaiset viikoisimmat artikkelit, opetusvideot ja oivallukset.",
+      "placeholder": "your.email@example.com",
+      "button": "Tilaa",
+      "note": "Ei roskapostia. Peruuta tilaus milloin tahansa."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering -blogi",
+        "description": "Kenttämuistiinpanot ja käytännön mallit tiimeiltä, jotka rakentavat tekoälytuotteita, yritysjärjestelmiä ja luotettavia pilvialustoja."
+      },
+      "filters": {
+        "postsInView": "{{count}} postauksia näkyvissä"
+      },
+      "featured": {
+        "badge": "Viimeisimmät tiedot",
+        "readCta": "Lue esittelykirjoitus"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Profiili ladataan...",
+    "title": "Profiiliasetukset",
+    "subtitle": "Hallinnoi tilisi asetuksia ja asetuksia",
+    "photoButton": "Vaihda kuva",
+    "tabs": {
+      "general": "Yleiset",
+      "security": "Turvallisuus",
+      "preferences": "Mieltymykset"
+    },
+    "messages": {
+      "profileUpdated": "Profiili päivitetty onnistuneesti",
+      "profileUpdateFailed": "Profiilin päivittäminen epäonnistui",
+      "passwordsNoMatch": "Uudet salasanat eivät täsmää.",
+      "passwordTooShort": "Salasanan tulee olla vähintään 8 merkkiä pitkä",
+      "passwordChanged": "Salasana vaihdettu onnistuneesti",
+      "passwordChangeFailed": "Salasanan vaihtaminen epäonnistui",
+      "optedOut": "Jätti pois harjoitteluraportit",
+      "optedIn": "Valitsin harjoitusraportit",
+      "optOutFailed": "Ei päivitetty opt-out-tilaa"
+    },
+    "general": {
+      "title": "Henkilökohtaiset tiedot",
+      "description": "Päivitä henkilökohtaiset tietosi ja yhteystietosi",
+      "firstName": "Etunimi",
+      "firstNamePlaceholder": "John",
+      "lastName": "Sukunimi",
+      "lastNamePlaceholder": "Naaraspeura",
+      "email": "Sähköpostiosoite",
+      "emailNotice": "Sähköpostia ei voi muuttaa. Ota yhteyttä tukeen, jos tarvitset apua.",
+      "phone": "Puhelinnumero",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Tallennuksen muutokset"
+    },
+    "security": {
+      "title": "Turvallisuusasetukset",
+      "description": "Hallinnoi salasanaasi ja turvallisuusasetuksiasi",
+      "currentPassword": "Nykyinen salasana",
+      "currentPasswordPlaceholder": "Syötä nykyinen salasana",
+      "newPassword": "Uusi salasana",
+      "newPasswordPlaceholder": "Syötä uusi salasana",
+      "confirmPassword": "Vahvista uusi salasana",
+      "confirmPasswordPlaceholder": "Vahvista uusi salasana",
+      "passwordHint": "Sen täytyy olla vähintään 8 merkkiä pitkä",
+      "changePassword": "Vaihda salasana"
+    },
+    "preferences": {
+      "title": "Ilmoitusasetukset",
+      "description": "Hallitse, miten saat päivitykset ja ilmoitukset",
+      "email": {
+        "title": "Sähköposti-ilmoitukset",
+        "description": "Saat päivityksiä ja hälytyksiä sähköpostitse"
+      },
+      "sms": {
+        "title": "SMS-ilmoitukset",
+        "description": "Vastaanota tärkeitä hälytyksiä tekstiviestillä"
+      },
+      "optOut": {
+        "title": "Opt of Practice -raportit",
+        "description": "Piilota raporttisi vastaanoton omistajalta"
+      },
+      "actions": {
+        "title": "Tilitoiminnot",
+        "downloadData": "Lataa tilitiedot",
+        "deleteAccount": "Poista tili"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Takaisin kotiin",
+    "title": "Tukikeskus",
+    "subtitle": "Saat apua ohjelmistokehityspalveluissamme",
+    "cards": {
+      "email": {
+        "title": "Sähköpostituki",
+        "description": "Lähetä meille sähköpostia, jos sinulla on kysymyksiä"
+      },
+      "project": {
+        "title": "Projektikyselyt",
+        "description": "Keskustele projektivaatimuksistasi",
+        "button": "Ota yhteyttä"
+      },
+      "resources": {
+        "title": "Lähteet",
+        "description": "Tekniset resurssit ja oppaat",
+        "button": "Katso resursseja"
+      }
+    },
+    "faqTitle": "Usein kysytyt kysymykset",
+    "faqDescription": "Pikavastauksia yleisiin kysymyksiin",
+    "faqs": [
+      {
+        "question": "Mitä palveluita Horizon Tech tarjoaa?",
+        "answer": "Tarjoamme räätälöityä ohjelmistokehitystä, tekoäly- ja koneoppimisratkaisuja, pilviarkkitehtuuria, DevOpsia, liiketoimintatietoa ja IoT-palveluita."
+      },
+      {
+        "question": "Miten aloitan projektin Horizon Techin kanssa?",
+        "answer": "Ota yhteyttä lomakkeella tai sähköpostitse tarpeidesi kanssa. Sovitaan löytöpuhelu ja jaetaan ehdotus."
+      },
+      {
+        "question": "Tarjoatko jatkuvaa tukea ja ylläpitoa?",
+        "answer": "Kyllä. Tarjoamme tuki- ja ylläpitopaketteja, jotka sisältävät bugikorjauksia, tietoturvapäivityksiä ja ominaisuuksien parannuksia."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Takaisin kotiin",
+    "title": "Tekniset resurssit",
+    "subtitle": "Horizon Techin tiimin oppaat, tutoriaalit ja parhaat käytännöt",
+    "hub": {
+      "title": "Learning Hub",
+      "description": "Tutustu kuratoituihin teknisiin resursseihimme pilven, tekoälyn ja koneoppimisen, DevOpsin ja nykyaikaisen ohjelmistokehityksen parissa.",
+      "note": "Nämä materiaalit perustuvat todelliseen projektikokemukseen ja niitä päivitetään säännöllisesti."
+    },
+    "categories": [
+      {
+        "icon": "Pilvi",
+        "title": "Pilviarkkitehtuuri",
+        "description": "Azure-, AWS- ja pilvipohjaiset mallit",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Opas"
+          },
+          {
+            "title": "Pilvimigraatiostrategiat",
+            "type": "Artikkeli"
+          }
+        ]
+      },
+      {
+        "icon": "aivot",
+        "title": "Tekoäly ja koneoppiminen",
+        "description": "ML-mallit, data-analytiikka ja tekoälyintegraatio",
+        "resources": [
+          {
+            "title": "Introduction to Azure ML",
+            "type": "Opastus"
+          },
+          {
+            "title": "Rakennuksen tuotantokonekoneen putkistot",
+            "type": "Opas"
+          }
+        ]
+      },
+      {
+        "icon": "Ympäristöt",
+        "title": "DevOps ja alusta",
+        "description": "CI/CD, infrastruktuuri koodina, automaatio",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Opastus"
+          },
+          {
+            "title": "Infrastruktuuri koodina Terraformin avulla",
+            "type": "Opas"
+          }
+        ]
+      },
+      {
+        "icon": "Koodi",
+        "title": "Ohjelmistokehitys",
+        "description": ".NET, React ja nykyaikaiset kehityskäytännöt",
+        "resources": [
+          {
+            "title": "Puhdas arkkitehtuuri .NET:ssä",
+            "type": "Opas"
+          },
+          {
+            "title": "Reactin parhaat käytännöt",
+            "type": "Artikkeli"
+          }
+        ]
+      },
+      {
+        "icon": "Tietokanta",
+        "title": "Data ja analytiikka",
+        "description": "BI, tietovarastointi ja analytiikkaalustat",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Design",
+            "type": "Opastus"
+          },
+          {
+            "title": "Tietovarastoarkkitehtuuri",
+            "type": "Opas"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Tarvitsetko räätälöityä koulutusta?",
+      "description": "Tarjoamme räätälöityjä työpajoja insinööri- ja tuotetiimeille",
+      "text": "Tarvitsetko käytännön tiimikoulutusta? Tarjoamme räätälöityjä työpajoja pilviarkkitehtuurista, DevOpsista ja nykyaikaisista toimituskäytännöistä.",
+      "button": "Ota yhteyttä"
+    }
+  },
+  "unauthorized": {
+    "title": "Pääsy evätty",
+    "description": "Sinulla ei ole lupaa päästä tälle sivulle. Ota yhteyttä ylläpitäjääsi, jos epäilet tämän olevan virhe.",
+    "primary": "Mene profiiliin",
+    "secondary": "Takaisin kotiin"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Viesti ei löytynyt",
+      "description": "Slugille ei ole olemassa blogikirjoitusta: {{slug}}",
+      "back": "Takaisin blogiin"
+    },
+    "back": "Takaisin blogiin",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Tapaustutkimusta ei löydetty",
+      "description": "id:lle ei ole olemassa tapaustutkimusta: {{id}}",
+      "back": "Takaisin tapaustutkimuksiin"
+    },
+    "back": "Takaisin tapaustutkimuksiin",
+    "sections": {
+      "executiveSummary": "Tiivistelmä",
+      "businessChallenge": "Business Challenge",
+      "technicalSolution": "Tekninen ratkaisu",
+      "architectureDecisions": "Arkkitehtuuripäätökset",
+      "technologyStack": "Technology Stack",
+      "resultsImpact": "Tulokset ja vaikutukset"
+    },
+    "client": "Asiakas",
+    "keyOutcomes": "Keskeiset tulokset",
+    "decision": "Päätös {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Signaali menetetty",
+      "title": "Sivua ei löydy",
+      "description": "Pyytämääsi reittiä ei ole olemassa tai se on siirtynyt. Viedään sinut takaisin pätevään Horizon Tech -päätepisteeseen.",
+      "requestedPath": "Pyydetty reitti",
+      "terminal": {
+        "prompt": "$ horisontti-reititin ratkaisu --polku",
+        "line1": "Reittikaavion ratkaiseminen... epäonnistui",
+        "line2": "Syy: ei yhteensopivaa reittimoduulia",
+        "line3": "Varajärjestelmä otetaan käyttöön",
+        "line4": "Käytä jotakin alla olevista pikanäppäimistä jatkaaksesi"
+      },
+      "links": {
+        "home": "Kotisivu",
+        "services": "Palvelut",
+        "blog": "Blogi",
+        "caseStudies": "Tapaustutkimuksia"
+      }
+    },
+    "runtime": {
+      "badge": "Ajonaikainen virhe",
+      "title": "Jotain meni rikki tällä sivulla",
+      "description": "Yllättävä ongelma keskeytti renderöinnin. Voit yrittää uudelleen turvallisesti tai palata etusivulle.",
+      "retry": "Uudelleenyritys",
+      "home": "Takaisin kotisivulle",
+      "unknown": "Tuntematon ajonaikainen virhe"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech -blogi"
+  },
+  "admin": {
+    "blog": {
+      "title": "Blogin hallinta",
+      "subtitle": "Luo, muokkaa ja hallinnoi blogikirjoituksiasi",
+      "newPost": "Uusi virka",
+      "seedData": "Siementiedot",
+      "allPosts": "Kaikki julkaisut",
+      "published": "Julkaistu",
+      "draft": "Draftaus",
+      "featured": "Esittelyt",
+      "setFeatured": "Esillä oleva setti",
+      "removeFeatured": "Poista Esitelty",
+      "table": {
+        "title": "Nimi",
+        "category": "Kategoria",
+        "status": "Tila",
+        "date": "Päivämäärä",
+        "actions": "Toimet"
+      },
+      "empty": {
+        "message": "Ei vielä blogikirjoituksia. Luo ensimmäinen julkaisusi tai siemennäytedatasi.",
+        "seed": "Siemennäytetiedot",
+        "create": "Luo julkaisu"
+      },
+      "delete": {
+        "title": "Poista viesti",
+        "confirmation": "Oletko varma, että haluat poistaa tämän postauksen? Tätä tekoa ei voi peruuttaa.",
+        "delete": "Poista",
+        "cancel": "Peruuta"
+      }
+    },
+    "editor": {
+      "bannerHint": "Näkyy leveänä bannerina tolpan yläosassa",
+      "bannerImage": "Bannerikuva",
+      "coverHint": "Näytetään blogilistauskorteissa",
+      "coverImage": "Kansikuva",
+      "editSlug": "Muokkaa slugia",
+      "posts": "Tehtävät",
+      "publish": "Julkaise",
+      "update": "Päivitys",
+      "form": {
+        "contentPlaceholder": "Kirjoita postauksesi sisältö tähän...",
+        "excerptPlaceholder": "Lyhyt yhteenveto postauksesta...",
+        "pickDate": "Valitse päivämäärä",
+        "readTimePlaceholder": "esim. 5 minuutin lukeminen",
+        "titlePlaceholder": "Postauksen otsikko..."
+      },
+      "meta": {
+        "publisher": "Kustantaja",
+        "unknownAuthor": "Tuntematon kirjoittaja"
+      },
+      "modes": {
+        "edit": "Muokkaus",
+        "editOnly": "Vain muokkaus",
+        "preview": "Esikatselu",
+        "previewOnly": "Vain esikatselu",
+        "sideBySide": "Rinnakkain",
+        "split": "Hajaantuminen"
+      },
+      "tags": {
+        "heading": "Tagit",
+        "placeholder": "Lisää tunniste..."
+      },
+      "translations": {
+        "auto": "Auto",
+        "autoTranslate": "Automaattinen käännös",
+        "clear": "Selvä",
+        "existing": "Olemassa olevat",
+        "heading": "Käännökset",
+        "language": "Kieli",
+        "languages": "Kielet",
+        "edit": "Muokkaus",
+        "manual": "Manuaali",
+        "preview": "Esikatselu",
+        "searchPlaceholder": "Etsi kieliä...",
+        "translate": "Käännä"
+      }
+    },
+    "caseStudies": {
+      "title": "Tapaustutkimuksia",
+      "subtitle": "Hallinnoi tapaustutkimuksia ja projektiesittelyjä",
+      "newCaseStudy": "Uusi tapaustutkimus",
+      "seedData": "Siementiedot",
+      "allCaseStudies": "Kaikki tapaustutkimukset",
+      "published": "Julkaistu",
+      "draft": "Draftaus",
+      "table": {
+        "title": "Nimi",
+        "industry": "Teollisuus",
+        "client": "Asiakas",
+        "status": "Tila",
+        "actions": "Toimet"
+      },
+      "empty": {
+        "message": "Tapaustutkimuksia ei ole vielä.",
+        "seed": "Siementiedot",
+        "create": "Luo ensin"
+      },
+      "delete": {
+        "title": "Poista tapaustutkimus",
+        "confirmation": "Oletko varma, että haluat poistaa tämän tapaustutkimuksen? Tätä tekoa ei voi peruuttaa.",
+        "delete": "Poista",
+        "cancel": "Peruuta"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Tapaustutkimuksia",
+      "published": "Julkaistu",
+      "draft": "Draftaus",
+      "update": "Päivitys",
+      "create": "Luo",
+      "sections": {
+        "basicInfo": "Perustiedot",
+        "narrative": "Kertomus",
+        "architectureDecisions": "Arkkitehtuuripäätökset",
+        "techStack": "Tech Stack",
+        "results": "Tulokset",
+        "tags": "Tagit"
+      },
+      "fields": {
+        "title": "Nimi",
+        "titlePlaceholder": "Tapaustutkimuksen otsikko",
+        "slug": "Slug",
+        "slugPlaceholder": "automaattisesti luotu otsikosta",
+        "client": "Asiakas",
+        "clientPlaceholder": "Asiakkaan nimi",
+        "industry": "Teollisuus",
+        "industryPlaceholder": "Valikoitu teollisuus",
+        "description": "Kuvaus",
+        "descriptionPlaceholder": "Lyhyt kuvaus (näkyy korteissa)",
+        "executiveSummary": "Tiivistelmä",
+        "executiveSummaryPlaceholder": "Korkean tason yleiskatsaus osallistumisesta",
+        "challenge": "Haaste",
+        "challengePlaceholder": "Mikä ongelma asiakkaalla oli?",
+        "solution": "Ratkaisu",
+        "solutionPlaceholder": "Miten ongelma ratkaistiin?",
+        "decision": "Päätös",
+        "decisionPlaceholder": "Mitä päätettiin",
+        "rationale": "Perustelut",
+        "rationalePlaceholder": "Miksi tämä lähestymistapa valittiin",
+        "metric": "Metriikka",
+        "metricPlaceholder": "esim. Settlement Latency",
+        "value": "Arvo",
+        "valuePlaceholder": "esim. -63 % tai 4,8 tuntia -> 11 miljoonaa",
+        "resultDescription": "Kuvaus",
+        "resultDescriptionPlaceholder": "Mitä tämä tulos tarkoittaa",
+        "techPlaceholder": "Lisää teknologiaa (paina Enter)",
+        "tagPlaceholder": "Lisää tagi (paina Enter)"
+      },
+      "add": "Add",
+      "noArchDecisions": "Arkkitehtuuripäätöksiä ei ole vielä lisätty.",
+      "noResults": "Tuloksia ei ole vielä lisätty.",
+      "decisionLabel": "Päätös {{number}}",
+      "resultLabel": "Tulos {{number}}",
+      "controls": {
+        "published": "Julkaistu",
+        "publishedDescription": "Tee tämä tapaustutkimus julkisesti näkyväksi",
+        "featured": "Esittelyt",
+        "featuredDescription": "Korosta tätä tapaustutkimusta"
+      }
+    },
+    "imageCrop": {
+      "apply": "Hae",
+      "cancel": "Peruuta",
+      "cropTitle": "Rajauskuva",
+      "dropText": "Laita kuva tähän tai klikkaa lataaaksesi",
+      "flipHorizontal": "Käänne vaakasuunnassa",
+      "flipVertical": "Kääntösuuntainen pystysuuntainen",
+      "replace": "Korvaa",
+      "reset": "Nollaus",
+      "rotateLeft": "Käännä vasemmalle",
+      "rotateRight": "Käänny oikealle",
+      "uploading": "Ladataan...",
+      "toast": {
+        "invalidFile": "Virheellinen tiedosto",
+        "invalidFileDesc": "Lataa kelvollinen kuvatiedosto.",
+        "uploadFailed": "Lataus epäonnistui",
+        "uploadFailedDesc": "Jokin meni pieleen. Ole hyvä ja yritä uudelleen.",
+        "uploaded": "Kuva ladattu",
+        "uploadedDesc": "Kuvasi on ladattu onnistuneesti."
+      }
+    }
+  }
+}

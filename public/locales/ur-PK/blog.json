@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "سب"
+  },
+  "categories": {
+    "aiEngineering": "AI انجینئرنگ",
+    "enterpriseArchitecture": "انٹرپرائز آرکیٹیکچر",
+    "cloudDevOps": "کلاؤڈ اور ڈیو آپس",
+    "automationSystems": "آٹومیشن سسٹمز",
+    "softwareReliabilityDesign": "سافٹ ویئر ریلی ایبیلٹی اور ڈیزائن"
+  },
+  "readTime": "{{minutes}} منٹ کی پڑھائی",
+  "tagsLabel": "ٹیگز",
+  "relatedPosts": "متعلقہ پوسٹس",
+  "author": {
+    "role": "ناشر"
+  },
+  "editor": {
+    "emptyPreview": "لکھنا شروع کریں تاکہ پریویو دیکھ سکیں..."
+  },
+  "tags": {
+    "llmOps": "ایل ایل ایم آپریشنز",
+    "promptEngineering": "پرامپٹ انجینئرنگ",
+    "observability": "مشاہدہ پذیری",
+    "safety": "حفاظت",
+    "domainDesign": "ڈومین ڈیزائن",
+    "integration": "انضمام",
+    "governance": "حکمرانی",
+    "platformStrategy": "پلیٹ فارم اسٹریٹجی",
+    "platformEngineering": "پلیٹ فارم انجینئرنگ",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "ڈویلپر کا تجربہ",
+    "eventDriven": "ایونٹ-ڈرائیون",
+    "workflowOrchestration": "ورک فلو آرکسٹریشن",
+    "controlPlanes": "کنٹرول پلینز",
+    "resilience": "مضبوطی",
+    "sre": "SRE",
+    "slos": "ایس ایل اوز",
+    "failureModes": "فیلئر موڈز",
+    "resilienceEngineering": "ریزیلینس انجینئرنگ",
+    "evaluation": "جائزہ",
+    "qualityEngineering": "کوالٹی انجینئرنگ",
+    "datasets": "ڈیٹا سیٹس",
+    "releaseManagement": "ریلیز مینجمنٹ",
+    "incidentManagement": "واقعہ مینجمنٹ",
+    "architectureEvolution": "معماری کی ترقی",
+    "riskReduction": "خطرے میں کمی",
+    "postmortems": "پوسٹ مارٹمز",
+    "progressiveDelivery": "پروگریسو ڈیلیوری",
+    "canaryReleases": "کینری ریلیزز",
+    "featureFlags": "فیچر فلیگز"
+  }
+}

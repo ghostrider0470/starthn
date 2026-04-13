@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Email Address *",
+    "ctaSecondary": "Mag-iskedyul ng Konsultasyon"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Pag-unlad ng Software ng Enterprise",
+      "description": "End-to-end enterprise application na may mga modernong framework, API-first architecture, at cloud-native scalability."
+    },
+    "sections": {
+      "problem": {
+        "title": "Pag-frame ng Problema sa Negosyo",
+        "subtitle": "Kung saan ang mga programa ng enterprise ay nawawalan ng bilis, badyet, at madiskarteng pagkakahanay"
+      },
+      "approach": {
+        "title": "Diskarte sa Engineering",
+        "subtitle": "Paano namin i-on ang mga hindi malinaw na kinakailangan sa mga platform na handa na sa produksyon"
+      },
+      "principles": {
+        "title": "Mga Prinsipyo ng Arkitektura",
+        "subtitle": "Mga desisyon sa pagdidisenyo na nagpapanatili ng mga sistema ng enterprise na mapanatili sa sukat"
+      },
+      "capabilities": {
+        "title": "Ano ang Itinatayo Namin",
+        "subtitle": "Komprehensibong kakayahan sa pag-unlad ng software"
+      },
+      "technology": {
+        "title": "Ang aming Stack ng Teknolohiya",
+        "subtitle": "Moderno, napatunayan na mga teknolohiya para sa paghahatid ng enterprise"
+      },
+      "breakdown": {
+        "title": "Pagkasira ng Serbisyo",
+        "subtitle": "Isang nakabalangkas na landas mula sa pagtuklas hanggang sa matatag na paghahatid ng produksyon"
+      }
+    },
+    "problem": {
+      "overview": "Ang mga koponan ng enterprise ay madalas na nagdadala ng mga kritikal na daloy ng trabaho sa mga fragmented system, na lumilikha ng mahabang oras ng lead, hindi pare-pareho ang data, at mamahaling manu-manong koordinasyon sa pagitan ng mga departamento.",
+      "painPointsTitle": "Paulit-ulit na Sakit sa Negosyo",
+      "impactSignalsTitle": "Ano ang Karaniwang Obserbahan ng mga Lider",
+      "painPoints": [
+        "Ang mga pangako sa paghahatid ay nadulas dahil ang mga dependency sa iba't ibang koponan ay hindi pinamamahalaan",
+        "Ang pangunahing lohika ng negosyo ay nadoble sa iba't ibang mga channel at produkto",
+        "Ang mga pagsasama ng legacy ay ginagawang mataas ang panganib at mabagal na paglulunsad ng bagong tampok"
+      ],
+      "impactSignals": [
+        "Bumaba ang throughput ng roadmap habang tumataas ang gastusin sa engineering",
+        "Ang mga depekto na nakaharap sa customer ay tumataas sa panahon ng paglabas",
+        "Bumabagal ang paggawa ng desisyon dahil sa hindi pare-pareho na pag-uulat ng operasyon"
+      ]
+    },
+    "approach": {
+      "overview": "Isinasagawa namin ang pagtuklas ng arkitektura, paghahatid na hinihimok ng kontrata, at kinokontrol na paglabas ng engineering upang ang halaga ng negosyo ay ipinadala sa mahuhulaan na mga pagtaas.",
+      "pillars": [
+        {
+          "title": "Pagmomodelo ng Domain at Mga Konteksto ng Hangganan",
+          "detail": "Mapa namin ang mga domain upang i-clear ang mga hangganan ng serbisyo upang mabawasan ang pag-uugnay ng cross-team at linawin ang pagmamay-ari."
+        },
+        {
+          "title": "Diskarte sa Pagsasama ng API-First",
+          "detail": "Tinutukoy namin ang matatag na mga kontrata nang maaga, na nagbibigay-daan sa parallel na pag-unlad at mas ligtas na pagsasama sa mga sistema ng enterprise."
+        },
+        {
+          "title": "Progresibong daloy ng Paghahatid",
+          "detail": "Gumagamit kami ng mga tampok na bandila, mga staged rollout, at mga de-kalidad na gate upang mabilis na mailabas nang hindi nagpapatatag sa produksyon."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ang aming mga desisyon sa arkitektura ay inuuna ang kahabaan ng buhay, kakayahang operahin, at malinaw na pagmamay-ari upang ang mga platform ay mananatiling madaling iakma habang lumalaki ang saklaw ng negosyo.",
+      "items": [
+        {
+          "title": "Mga Hangganan ng Modular Service",
+          "detail": "Ang mga kakayahan ay nakabalot sa paligid ng mga domain ng negosyo upang mapanatili ang epekto ng pagbabago na naisalokal."
+        },
+        {
+          "title": "Pagsasama na hinihimok ng kaganapan",
+          "detail": "Ang mga asynchronous workflow ay ginagamit kung saan umiiral ang latency tolerance upang mapabuti ang katatagan at i-decouple ang mga system."
+        },
+        {
+          "title": "Kakayahang Obserbahan sa pamamagitan ng Disenyo",
+          "detail": "Ang pagsubaybay, sukatan, at nakabalangkas na mga log ay tinukoy nang maaga upang suportahan ang maaasahang mga operasyon at pamamahala ng SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Mga Pasadyang Web Application",
+      "Pag-unlad ng Mobile App",
+      "Pag-unlad at Pagsasama ng API",
+      "Arkitektura ng Microservices",
+      "Mga Solusyon sa Cloud-Native",
+      "Modernisasyon ng Legacy System"
+    ],
+    "technologies": [
+      {
+        "name": "Tumugon",
+        "category": "Frontend",
+        "icon": "reaksyon"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Wika",
+        "icon": "Typescript"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "graphql"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Database",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Database",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Pagtuklas at Arkitektura",
+        "summary": "I-map namin ang mga prayoridad sa negosyo, mga teknikal na hadlang, at target na arkitektura bago magsimula ang pagpapatupad.",
+        "deliverables": [
+          "Workshop sa pagkakahanay ng produkto at kinakailangan",
+          "Blueprint ng arkitektura ng solusyon",
+          "Plano sa paghahatid na nakabatay sa milestone"
+        ]
+      },
+      {
+        "title": "Pagbuo at Pagsasama",
+        "summary": "Ipinatutupad ng aming mga koponan ang mga pangunahing tampok, mga layer ng pagsasama, at mga pangangalaga sa kalidad nang magkatulad.",
+        "deliverables": [
+          "Tampok na pag-unlad sa paulit-ulit na sprints",
+          "API at mga pagsasama ng third-party",
+          "Awtomatikong pagsubok at mga tseke sa kahandaan sa paglabas"
+        ]
+      },
+      {
+        "title": "Paglulunsad at Ebolusyon",
+        "summary": "Pagkatapos ng go-live, pinapatatag namin ang mga operasyon at tinutukoy ang susunod na siklo ng pagpapabuti batay sa tunay na paggamit.",
+        "deliverables": [
+          "Runbook ng paglulunsad ng produksyon",
+          "Pagganap at pagiging maaasahan ng pag-tune",
+          "Post-launch roadmap at enhancement backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Handa na bang i-install ang iyong susunod na application?",
+      "description": "Magdisenyo at magpadala tayo ng isang solusyon na nagtutulak ng masusukat na mga resulta ng negosyo.",
+      "button": "Simulan ang Iyong Proyekto"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML at Business Intelligence",
+      "description": "Mula sa mga mahuhulaan na modelo hanggang sa mga executive dashboard, bumubuo kami ng kumpletong mga sistema ng AI / BI na sumusuporta sa mga desisyon sa sukat."
+    },
+    "sections": {
+      "problem": {
+        "title": "Pag-frame ng Problema sa Negosyo",
+        "subtitle": "Bakit Nahihirapan Pa Rin ang Mga Organisasyong Mayaman sa Data na Gumawa ng Mga Desisyon sa Kumpiyansa"
+      },
+      "approach": {
+        "title": "Diskarte sa Engineering",
+        "subtitle": "Paano namin isinasagawa ang mga produkto ng data, mga modelo ng ML, at mga daloy ng trabaho ng BI"
+      },
+      "principles": {
+        "title": "Mga Prinsipyo ng Arkitektura",
+        "subtitle": "Mga pattern ng arkitektura ng data at modelo para sa mapagkakatiwalaang katalinuhan sa desisyon"
+      },
+      "capabilities": {
+        "title": "Ang aming mga kakayahan",
+        "subtitle": "Komprehensibong mga solusyon sa AI, ML, at BI"
+      },
+      "technology": {
+        "title": "Ang aming Stack ng Teknolohiya",
+        "subtitle": "Mga tool na nangunguna sa industriya para sa data at AI"
+      },
+      "breakdown": {
+        "title": "Pagkasira ng Serbisyo",
+        "subtitle": "Paano Lumipat Mula sa Fragmented Data sa Production-Grade Intelligence"
+      }
+    },
+    "problem": {
+      "overview": "Ang mga organisasyon ay madalas na nangongolekta ng malalaking dami ng data ngunit nabigo na isalin ito sa maaasahang pagtataya, mga desisyon sa pagpapatakbo, o masusukat na pagkilos sa negosyo.",
+      "painPointsTitle": "Paulit-ulit na Sakit sa Negosyo",
+      "impactSignalsTitle": "Ano ang Karaniwang Obserbahan ng mga Lider",
+      "painPoints": [
+        "Ang lohika ng pag-uulat ay naiiba sa iba't ibang koponan, na nagreresulta sa magkasalungat na mga salaysay ng KPI",
+        "Ang mga modelo ay nananatili sa eksperimento at hindi kailanman maabot ang mga daloy ng trabaho ng produksyon",
+        "Ang mga isyu sa kalidad ng data ay nagpapahina sa tiwala sa analytics at mga dashboard ng ehekutibo"
+      ],
+      "impactSignals": [
+        "Mabagal ang pag-ikot ng desisyon dahil pinagtatalunan ng mga koponan ang bisa ng data sa halip na pagkilos",
+        "Ang katumpakan ng pagtataya at pagpaplano ay nananatiling hindi pare-pareho sa quarter over quarter",
+        "Ang mga pamumuhunan sa Analytics ay nagpapakita ng mababang pag-aampon sa labas ng mga dalubhasang grupo ng analyst"
+      ]
+    },
+    "approach": {
+      "overview": "Naghahatid kami ng mga platform ng AI at BI bilang mga sistema ng produksyon, pagsasama ng engineering ng data, mga operasyon ng lifecycle ng modelo, at pagsasama ng daloy ng trabaho ng desisyon.",
+      "pillars": [
+        {
+          "title": "Pundasyon ng Produkto ng Data",
+          "detail": "Ang mga produktong data na nakahanay sa domain ay nagtatatag ng magagamit muli, pinamamahalaan, at mataas na kalidad na mga input para sa analytics at ML."
+        },
+        {
+          "title": "MLOps Lifecycle Automation",
+          "detail": "Ang pagsasanay, pag-deploy, pagsubaybay, at pagkontrol ng drift ay awtomatiko upang mapanatiling maaasahan ang mga modelo sa produksyon."
+        },
+        {
+          "title": "Pagsasama ng daloy ng trabaho ng desisyon",
+          "detail": "Ang mga pananaw ay naka-embed sa mga tool sa pagpapatakbo at mga dashboard upang ang mga koponan ay kumilos sa katalinuhan sa loob ng pang-araw-araw na proseso."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ang aming arkitektura ng AI / BI ay inuuna ang mapagkakatiwalaang data, maipaliwanag na mga modelo, at pinamamahalaang mga pattern ng pag-access sa buong enterprise.",
+      "items": [
+        {
+          "title": "Mga Kahulugan ng Single Metric",
+          "detail": "Ang mga kritikal na KPI ay tinukoy nang isang beses sa pamamagitan ng ibinahaging mga modelo ng semantiko upang maalis ang magkasalungat na lohika ng pag-uulat."
+        },
+        {
+          "title": "Mga Kontrol sa Pagiging Maaasahan ng Modelo",
+          "detail": "Ang mga threshold ng pagganap, pagtuklas ng drift, at mga mekanismo ng rollback ay nagpoprotekta sa kalidad ng desisyon sa produksyon."
+        },
+        {
+          "title": "Seguridad at Pamamahala sa pamamagitan ng Disenyo",
+          "detail": "Ang angkan ng data, pag-access na nakabatay sa tungkulin, at mga kontrol na handa na sa pag-audit ay naka-embed sa bawat pipeline."
+        }
+      ]
+    },
+    "capabilities": [
+      "Mga Modelo ng Pag-aaral ng Makina at Mga Pipeline",
+      "Mga Dashboard at Ulat ng Power BI",
+      "Predictive Analytics",
+      "Real-time na Pag-stream ng Data",
+      "Mga Solusyon sa Warehousing ng Data"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Platform",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Data Warehouse",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Mga Databrick",
+        "category": "Data Engineering",
+        "icon": "Mga Databrick"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML Platform",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "Balangkas ng ML",
+        "icon": "Tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "Balangkas ng ML",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Analytics",
+        "icon": "tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Pagproseso",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Wika",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Pundasyon ng Data",
+        "summary": "Ina-audit namin ang mga mapagkukunan, tinutukoy ang mga kontrata ng data, at nagtatatag ng pamamahala upang ang bawat modelo ay nagsisimula sa mga pinagkakatiwalaang input.",
+        "deliverables": [
+          "Pinagmulan ng data at pagtatasa ng kalidad",
+          "Tampok na engineering at pagpaplano ng schema",
+          "Baseline ng seguridad at pamamahala"
+        ]
+      },
+      {
+        "title": "Paghahatid ng Modelo at Pananaw",
+        "summary": "Bumubuo kami ng mga modelo at mga dashboard ng desisyon na nakatali sa masusukat na mga katanungan sa negosyo at KPI.",
+        "deliverables": [
+          "Pag-unlad at pagpapatunay ng modelo",
+          "Mga dashboard ng ehekutibo at pag-uulat ng pagpapatakbo",
+          "Pagsasama ng daloy ng trabaho ng desisyon"
+        ]
+      },
+      {
+        "title": "MLOps & Pag-aampon",
+        "summary": "Pinapatakbo namin ang pag-deploy, pagsubaybay, at pagpapagana ng koponan upang mapanatiling maaasahan ang mga kinalabasan sa paglipas ng panahon.",
+        "deliverables": [
+          "Mga awtomatikong pipeline ng pag-deploy ng modelo",
+          "Pagsubaybay sa pag-andar, katumpakan, at paggamit",
+          "Paghahatid ng koponan at pagpapatakbo ng playbook"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ibahin ang Anyo ng Iyong Data sa Pananaw",
+      "description": "I-on ang fragmented data sa malinaw, naaaksyunan na katalinuhan.",
+      "button": "Simulan ang Iyong Paglalakbay"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Arkitektura at Imprastraktura ng Cloud",
+      "description": "Multi-cloud platform, nababanat na arkitektura, at nasusukat na imprastraktura na idinisenyo para sa pangmatagalang paglago."
+    },
+    "sections": {
+      "problem": {
+        "title": "Pag-frame ng Problema sa Negosyo",
+        "subtitle": "Bakit ang mga inisyatibo sa ulap ay tumigil pagkatapos ng unang alon ng paglipat"
+      },
+      "approach": {
+        "title": "Diskarte sa Engineering",
+        "subtitle": "Paano kami bumubuo ng ligtas, nasusukat na mga platform ng ulap na may kinokontrol na panganib sa paglipat"
+      },
+      "principles": {
+        "title": "Mga Prinsipyo ng Arkitektura",
+        "subtitle": "Mga desisyon sa platform na nagbabalanse ng liksi, katatagan, at pamamahala"
+      },
+      "capabilities": {
+        "title": "Mga Serbisyo sa Cloud",
+        "subtitle": "Bumuo, mag-deploy, at mag-scale sa ulap"
+      },
+      "technology": {
+        "title": "Kadalubhasaan sa Multi-Cloud",
+        "subtitle": "Mga solusyon sa ulap na agnostiko ng platform"
+      },
+      "breakdown": {
+        "title": "Pagkasira ng Serbisyo",
+        "subtitle": "Isang malinaw na pagkakasunud-sunod para sa pagdidisenyo, paglipat, at pagpapatakbo ng mga platform ng ulap"
+      }
+    },
+    "problem": {
+      "overview": "Maraming mga organisasyon ang nakumpleto ang mga paunang paglipat ng ulap ngunit nagpapatakbo pa rin tulad ng mga on-prem na koponan, na may mahinang kakayahang makita, hindi pare-pareho ang mga kontrol, at pagtaas ng paggastos.",
+      "painPointsTitle": "Paulit-ulit na Sakit sa Negosyo",
+      "impactSignalsTitle": "Ano ang Karaniwang Obserbahan ng mga Lider",
+      "painPoints": [
+        "Ang mga workload ay inilipat nang walang karaniwang mga kontrol sa seguridad at networking",
+        "Ang mga gastos sa ulap ay lumalaki nang mas mabilis kaysa sa naihatid na halaga ng negosyo",
+        "Ang pagbibigay ng kapaligiran ay nananatiling manu-manong at hindi pare-pareho sa iba't ibang mga koponan"
+      ],
+      "impactSignals": [
+        "Madalas na mga insidente na sanhi ng configuration drift sa pagitan ng mga kapaligiran",
+        "Ang kahandaan sa pag-audit ay bumababa dahil sa fragmented na mga kasanayan sa pamamahala",
+        "Ang mga oras ng lead ng imprastraktura ay nagpapaantala ng mga inisyatibo sa produkto at data"
+      ]
+    },
+    "approach": {
+      "overview": "Nagdidisenyo kami ng mga platform ng ulap bilang mga produkto, gamit ang automation ng imprastraktura, mga guardrail ng patakaran, at mga alon ng paglipat na nakahanay sa pagiging kritikal ng negosyo.",
+      "pillars": [
+        {
+          "title": "Landing Zone bilang Code",
+          "detail": "Ang pagkakakilanlan, networking, seguridad, at mga baseline ng patakaran ay naka-code para sa paulit-ulit at kakayahang ma-audit."
+        },
+        {
+          "title": "Diskarte sa Paglipat na Batay sa Alon",
+          "detail": "Ang mga workload ay gumagalaw sa mga kinokontrol na yugto na may pag-asa sa pagkakasunud-sunod at kahandaan sa pag-rollback."
+        },
+        {
+          "title": "SRE + FinOps Operating Loop",
+          "detail": "Ang mga tagapagpahiwatig ng pagiging maaasahan at unit-economics ay sinusuri nang magkasama upang mapabuti ang parehong uptime at kahusayan sa paggastos."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ang aming modelo ng arkitektura ay pinapaboran ang deklaratibong imprastraktura, hindi bababa sa pribilehiyo na pag-access, at mga composable platform na sumusuporta sa mabilis na paghahatid ng produkto.",
+      "items": [
+        {
+          "title": "Hindi nababago na mga pattern ng imprastraktura",
+          "detail": "Ang mga kapaligiran ay muling itinayo mula sa bersyon ng code upang mabawasan ang drift at gawing simple ang pagbawi ng pagpapatakbo."
+        },
+        {
+          "title": "Baseline ng Seguridad sa pamamagitan ng Default",
+          "detail": "Ang mga kontrol sa pag-access sa zero-trust at pagpapatupad ng patakaran ay naka-embed sa bawat lifecycle ng kapaligiran."
+        },
+        {
+          "title": "Katatagan sa pamamagitan ng pamamahagi",
+          "detail": "Ang mga kritikal na workload ay idinisenyo para sa multi-zone o multi-region failure tolerance kung saan kinakailangan ito ng epekto ng negosyo."
+        }
+      ]
+    },
+    "capabilities": [
+      "Diskarte at Pagpapatupad ng Multi-Cloud",
+      "Orkestrasyon ng Lalagyan (Kubernetes)",
+      "Serverless Computing",
+      "Mga Serbisyo sa Paglipat ng Cloud",
+      "Arkitektura ng Mataas na Availability"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Ulap",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "AWS",
+        "category": "Ulap",
+        "icon": "Mga Serbisyo ng AmazonWebS"
+      },
+      {
+        "name": "GCP",
+        "category": "Ulap",
+        "icon": "googlecloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orkestrasyon",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Email Address *",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Mga Template ng ARM",
+        "category": "IaC",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "Mga Serbisyo ng AmazonWebS"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Arkitektura at Landing Zone",
+        "summary": "Tinutukoy namin ang target na estado, guardrails, at mga pamantayan ng baseline platform bago lumipat ang mga workload.",
+        "deliverables": [
+          "Target na disenyo ng arkitektura ng ulap",
+          "Pagkakakilanlan, networking, at baseline ng seguridad",
+          "Gastos at pagsunod guardrails"
+        ]
+      },
+      {
+        "title": "Paglipat at Pagbuo ng Platform",
+        "summary": "Nagpapatupad kami ng mga alon ng paglipat at tumayo ng mga bahagi ng platform na katutubong ulap na may paulit-ulit na automation.",
+        "deliverables": [
+          "Pagkakasunud-sunod ng paglipat ng workload",
+          "Pag-setup ng lalagyan at serverless platform",
+          "Mga module ng imprastraktura bilang Code"
+        ]
+      },
+      {
+        "title": "Pagiging maaasahan at FinOps",
+        "summary": "Pinapabuti namin ang pagiging maaasahan sa pagpapatakbo at patuloy na na-optimize ang paggastos sa ulap batay sa live na telemetry.",
+        "deliverables": [
+          "SLOs, pagsubaybay, at mga daloy ng trabaho ng insidente",
+          "Katatagan at pagpapatunay ng pagbawi ng sakuna",
+          "Backlog ng pag-optimize ng gastos at cadence ng pamamahala"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Sukatin ang Iyong Imprastraktura",
+      "description": "Bumuo ng mga pundasyon ng ulap na mananatiling nababanat sa ilalim ng real-world load.",
+      "button": "Planuhin ang Iyong Diskarte sa Cloud"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Awtomatikong mga pipeline ng paghahatid, kakayahang maobserbahan, at mga kasanayan sa platform na nagpapabuti sa bilis nang hindi isinasakripisyo ang pagiging maaasahan."
+    },
+    "sections": {
+      "problem": {
+        "title": "Pag-frame ng Problema sa Negosyo",
+        "subtitle": "Bakit bumababa ang bilis ng paghahatid habang tumataas ang pagiging kumplikado ng platform"
+      },
+      "approach": {
+        "title": "Diskarte sa Engineering",
+        "subtitle": "Paano namin pamantayan ang mga pipeline ng paghahatid nang hindi nagpapabagal sa mga koponan ng produkto"
+      },
+      "principles": {
+        "title": "Mga Prinsipyo ng Arkitektura",
+        "subtitle": "Mga pattern ng engineering ng platform na sumusukat ng pagiging maaasahan at awtonomiya ng koponan"
+      },
+      "capabilities": {
+        "title": "Mga Serbisyo ng DevOps",
+        "subtitle": "I-automate, subaybayan, at i-optimize ang iyong lifecycle ng paghahatid"
+      },
+      "technology": {
+        "title": "Mga Tool at Platform ng DevOps",
+        "subtitle": "Pinakamahusay na toolchain ng DevOps"
+      },
+      "breakdown": {
+        "title": "Pagkasira ng Serbisyo",
+        "subtitle": "Isang praktikal na roadmap mula sa mga bottleneck ng paghahatid hanggang sa daloy ng paglabas ng mataas na tiwala"
+      }
+    },
+    "problem": {
+      "overview": "Ang mga organisasyon ay madalas na namumuhunan sa mga tool ng CI / CD ngunit nakikipagpunyagi pa rin sa hindi matatag na paglabas, mabagal na pag-apruba, at fragmented na pagmamay-ari sa iba't ibang mga kapaligiran.",
+      "painPointsTitle": "Paulit-ulit na Sakit sa Negosyo",
+      "impactSignalsTitle": "Ano ang Karaniwang Obserbahan ng mga Lider",
+      "painPoints": [
+        "Ang mga kahulugan ng pipeline ay naiiba ayon sa koponan, na lumilikha ng hindi pare-pareho na kalidad ng mga gate",
+        "Manu-manong pag-apruba ng pag-deploy ng pagkaantala ng hotfix at mga timeline ng paglabas ng tampok",
+        "Ang mga insidente sa pagpapatakbo ay paulit-ulit dahil ang telemetry ay hindi kumpleto o naka-silo"
+      ],
+      "impactSignals": [
+        "Ang oras ng lead para sa mga pagbabago ay patuloy na tumataas sa kabila ng paggastos sa automation",
+        "Baguhin ang mga spike ng rate ng pagkabigo sa panahon ng paghahatid ng mataas na dami",
+        "Ang pagiging produktibo ng developer ay bumababa dahil sa alitan ng tooling at paglipat ng konteksto"
+      ]
+    },
+    "approach": {
+      "overview": "Nagtatatag kami ng isang panloob na modelo ng platform ng developer na may magagamit muli na mga template ng pipeline, pamamahala na hinihimok ng patakaran, at buong pagmamasid sa lifecycle.",
+      "pillars": [
+        {
+          "title": "Mga Template ng Pipeline ng Ginintuang Landas",
+          "detail": "Ang mga magagamit muli na blueprint ng CI / CD ay nag-standardize ng mga daloy ng trabaho sa pagbuo, pagsubok, mga tseke sa seguridad, at pag-deploy."
+        },
+        {
+          "title": "Platform API & Self-Service",
+          "detail": "Ang mga koponan ay nagbibigay ng mga kapaligiran at naglalabas ng imprastraktura sa pamamagitan ng kinokontrol na mga interface ng self-service."
+        },
+        {
+          "title": "Mga Loop ng Feedback ng Pagiging Maaasahan",
+          "detail": "Ang mga trend ng insidente, kalusugan ng SLO, at telemetry ng pag-deploy ay nagpapaalam sa patuloy na pagpapabuti ng proseso at arkitektura."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ang aming arkitektura ng DevOps ay nakahanay sa bilis ng paghahatid sa pamamahala sa pamamagitan ng pag-automate ng mga kontrol at pag-minimize ng one-off na gawain sa pagpapatakbo.",
+      "items": [
+        {
+          "title": "Lahat ng Bagay Bilang Versioned Code",
+          "detail": "Ang mga pipeline, imprastraktura, at mga patakaran sa patakaran ay pinamamahalaan sa kontrol ng mapagkukunan para sa kakayahang ma-audit at paulit-ulit."
+        },
+        {
+          "title": "Progresibong Pag-verify",
+          "detail": "Ang mga tseke sa kalidad, seguridad, at pagganap ay naka-layer sa iba't ibang yugto upang matukoy ang panganib nang mas maaga."
+        },
+        {
+          "title": "Ibinahaging Responsibilidad sa Platform",
+          "detail": "Ang mga koponan ng platform ay nagbibigay ng mga kakayahan sa sementadong kalsada habang ang mga koponan ng produkto ay nagpapanatili ng pagmamay-ari ng paghahatid."
+        }
+      ]
+    },
+    "capabilities": [
+      "Disenyo ng Pipeline ng CI / CD",
+      "Imprastraktura bilang Code",
+      "Awtomatikong Pagsubok",
+      "Automation ng Pag-deploy",
+      "Pagsubaybay at Pagmamasid"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Platform",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "Mga Pagkilos ng GitHub",
+        "category": "CI / CD",
+        "icon": "Mga Aksyon ng GitHub"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI / CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Email Address *",
+        "icon": "Timon"
+      },
+      {
+        "name": "Ansible",
+        "category": "Automation",
+        "icon": "Mga Bagay na Dapat Gawin"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Pagsubaybay",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Kakayahang maobserbahan",
+        "icon": "grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Pagtatasa ng Platform",
+        "summary": "Sinusuri namin ang iyong kasalukuyang kadena ng paghahatid ng software upang matukoy ang mga punto ng panganib at mga hadlang sa bilis.",
+        "deliverables": [
+          "Mapa ng daloy ng trabaho ng kasalukuyang estado ng paghahatid",
+          "Pagsusuri ng bottleneck ng pipeline",
+          "Target DevOps maturity roadmap"
+        ]
+      },
+      {
+        "title": "Pipeline & Automation Build",
+        "summary": "Nagpapatupad kami ng maaasahang CI / CD, kalidad ng gate, at automation ng imprastraktura para sa pare-pareho na paglabas.",
+        "deliverables": [
+          "Magagamit muli ang mga template ng CI / CD",
+          "Automation ng imprastraktura at kapaligiran",
+          "Awtomatikong pagsubok at paglabas ng mga kontrol"
+        ]
+      },
+      {
+        "title": "Patakbuhin at Pagbutihin",
+        "summary": "Nagtatatag kami ng mga loop ng kakayahang maobserbahan at pamamahala na sumusuporta sa patuloy na pagpapabuti ng paghahatid.",
+        "deliverables": [
+          "Pagsubaybay sa mga dashboard at mga patakaran sa alerto",
+          "Ilabas ang mga playbook ng pamamahala at insidente",
+          "Patuloy na mga sukatan at pagsusuri sa pagpapabuti"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Pabilisin ang Iyong Paghahatid",
+      "description": "Bawasan ang alitan sa paglabas at pagbutihin ang pagiging maaasahan sa mga mature na kasanayan sa DevOps.",
+      "button": "Ibahin ang anyo ng iyong pipeline"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Digital na Pagbabagong-anyo at Diskarte",
+      "description": "Madiskarteng pagpapayo at suporta sa pagpapatupad upang gawing makabago ang mga platform, koponan, at mga modelo ng pagpapatakbo."
+    },
+    "sections": {
+      "problem": {
+        "title": "Pag-frame ng Problema sa Negosyo",
+        "subtitle": "Kung saan ang mga programa sa pagbabagong-anyo ay nawawalan ng momentum at kumpiyansa ng ehekutibo"
+      },
+      "capabilities": {
+        "title": "Mga Serbisyo sa Pagkonsulta",
+        "subtitle": "Madiskarteng patnubay para sa digital na tagumpay"
+      },
+      "approach": {
+        "title": "Diskarte sa Engineering",
+        "subtitle": "Paano namin isinasalin ang diskarte sa maipapatupad at suportado ng teknolohiya na pagbabago"
+      },
+      "principles": {
+        "title": "Mga Prinsipyo ng Arkitektura",
+        "subtitle": "Mga pagpipilian sa modelo ng pagpapatakbo at platform na nagpoprotekta sa mga kinalabasan ng pagbabagong-anyo"
+      },
+      "technology": {
+        "title": "Stack ng Teknolohiya",
+        "subtitle": "Mga platform at balangkas na ginagamit namin upang mapatakbo ang pagbabagong-anyo"
+      },
+      "breakdown": {
+        "title": "Pagkasira ng Serbisyo",
+        "subtitle": "Nakabalangkas na pagbabagong-anyo mula sa kahulugan ng diskarte hanggang sa nasusukat na halaga ng negosyo"
+      }
+    },
+    "problem": {
+      "overview": "Ang mga digital na inisyatibo ay madalas na nagsisimula sa malakas na layunin ngunit nabigo na i-convert sa mga kinalabasan ng paghahatid dahil sa hindi malinaw na pagmamay-ari, hindi konektado na tooling, at nakikipagkumpitensya na mga priyoridad.",
+      "painPointsTitle": "Paulit-ulit na Sakit sa Negosyo",
+      "impactSignalsTitle": "Ano ang Karaniwang Obserbahan ng mga Lider",
+      "painPoints": [
+        "Ang mga roadmap ng pagbabagong-anyo ay tinukoy ngunit hindi isinalin sa pamamahala ng paghahatid",
+        "Ang mga prayoridad sa negosyo at engineering ay nag-iiba pagkatapos ng mga paunang siklo ng pagpaplano",
+        "Hinaharangan ng mga legacy operating model ang pag-aampon ng mga modernong kasanayan sa paghahatid ng produkto"
+      ],
+      "impactSignals": [
+        "Ang paggastos sa programa ay tumataas habang ang strategic KPI movement ay nananatiling flat",
+        "Ang mga inisyatibo ay hindi nakamit ang mga punto ng handoff sa pagitan ng diskarte, arkitektura, at pagpapatupad",
+        "Ang mga koponan ay nakakaranas ng pagkapagod sa pagbabago na may limitadong natanto na halaga ng negosyo"
+      ]
+    },
+    "approach": {
+      "overview": "Pinagsasama namin ang madiskarteng payo sa arkitektura ng paghahatid, pag-align ng disenyo ng modelo ng pagpapatakbo, kakayahan ng platform, at cadence ng pagpapatupad sa paligid ng mga nasusukat na layunin.",
+      "pillars": [
+        {
+          "title": "Prayoridad ng Value Stream",
+          "detail": "Sinusunud-sunod namin ang mga inisyatibo batay sa nasusukat na epekto ng negosyo at mga hadlang sa teknikal na dependency."
+        },
+        {
+          "title": "Target na Disenyo ng Modelo ng Pagpapatakbo",
+          "detail": "Ang mga tungkulin, pamamahala, at mga karapatan sa desisyon ay tinukoy upang suportahan ang mas mabilis na pagpapatupad sa mga koponan ng negosyo at teknolohiya."
+        },
+        {
+          "title": "Pamamahala ng Paghahatid ng Portfolio",
+          "detail": "Ang pag-unlad ng pagbabagong-anyo ay pinamamahalaan sa pamamagitan ng mga checkpoint na naka-link sa KPI at mga kontrol sa panganib sa antas ng portfolio."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Binibigyang-diin ng aming arkitektura ng pagbabagong-anyo ang incremental modernization at malinaw na pananagutan, na iniiwasan ang nakakagambala na muling pagsulat nang walang katwiran sa negosyo.",
+      "items": [
+        {
+          "title": "Pagkakahanay ng Kakayahan sa Negosyo",
+          "detail": "Ang mga pagbabago sa teknolohiya ay nakaayos sa paligid ng mga kakayahan na direktang mapa sa kita, kalidad ng serbisyo, o kahusayan sa gastos."
+        },
+        {
+          "title": "Binubuo na Diskarte sa Platform",
+          "detail": "Ang mga bahagi ng platform ay pinili para sa interoperability upang suportahan ang phased migration at mas mabilis na pagbagay."
+        },
+        {
+          "title": "Pamamahala na may Delivery Cadence",
+          "detail": "Ang mga forum ng desisyon at mga control point ay naka-embed sa sprint at quarterly cycles, hindi itinuturing na magkakahiwalay na burukratikong track."
+        }
+      ]
+    },
+    "capabilities": [
+      "Mga Roadmap ng Digital Transformation",
+      "Pag-unlad ng Diskarte sa Teknolohiya",
+      "Mga Balangkas ng Pag-aampon ng Cloud",
+      "Pag-optimize ng Proseso",
+      "Pamamahala ng Pagbabago"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Pundasyon ng Ulap",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Data Platform",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Katalinuhan ng Desisyon",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Platform ng Kapangyarihan",
+        "category": "Mababang Code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Pakikipagtulungan",
+        "icon": "microsoftsharepoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP / CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Pagkakahanay ng Diskarte",
+        "summary": "Inihanay namin ang mga priyoridad sa pamumuno at mga digital na layunin upang lumikha ng isang ibinahaging direksyon ng pagbabagong-anyo.",
+        "deliverables": [
+          "Mga layunin ng pagbabagong-anyo at pamantayan sa tagumpay",
+          "Kapanahunan ng kakayahan at pagtatasa ng agwat",
+          "Prayoridad na portfolio ng inisyatibo"
+        ]
+      },
+      {
+        "title": "Blueprint ng Pagpapatupad",
+        "summary": "Tinutukoy namin ang target na modelo ng pagpapatakbo, mga pamantayan ng arkitektura, at phased na pagkakasunud-sunod ng pagpapatupad.",
+        "deliverables": [
+          "Modelo ng pagpapatakbo at disenyo ng pamamahala",
+          "Mga pamantayan sa teknolohiya at arkitektura ng proseso",
+          "Phased implementation roadmap"
+        ]
+      },
+      {
+        "title": "Pagbabago at Pagsasakatuparan ng Halaga",
+        "summary": "Hinihimok namin ang pag-aampon, sinusubaybayan ang paggalaw ng KPI, at pinuhin ang mga inisyatibo batay sa mga resulta ng paghahatid.",
+        "deliverables": [
+          "Plano sa pag-aampon at pagpapagana",
+          "Cadence ng pagsukat ng KPI",
+          "Quarterly optimization backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Simulan ang Iyong Paglalakbay sa Pagbabagong-anyo",
+      "description": "Mag-navigate sa pagbabago na may malinaw na mga priyoridad at praktikal na mga plano sa paghahatid.",
+      "button": "Mag-iskedyul ng Sesyon ng Diskarte"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT at Edge Computing",
+      "description": "Mga konektadong system mula sa aparato hanggang sa ulap, na may mga pipeline ng telemetry at edge intelligence para sa pang-industriya na sukat."
+    },
+    "sections": {
+      "problem": {
+        "title": "Pag-frame ng Problema sa Negosyo",
+        "subtitle": "Bakit nabigo ang mga programang konektado na aparato na masukat nang lampas sa mga pag-deploy ng piloto"
+      },
+      "approach": {
+        "title": "Diskarte sa Engineering",
+        "subtitle": "Paano namin dinisenyo ang ligtas, mapatakbo na mga sistema ng IoT mula sa firmware ng aparato hanggang sa mga cloud API"
+      },
+      "principles": {
+        "title": "Mga Prinsipyo ng Arkitektura",
+        "subtitle": "Mga panuntunan sa disenyo ng edge-to-cloud para sa pagiging maaasahan, latency, at pamamahala ng fleet"
+      },
+      "capabilities": {
+        "title": "Mga Solusyon sa IoT",
+        "subtitle": "Kumonekta, subaybayan, at i-optimize ang iyong mga aparato"
+      },
+      "technology": {
+        "title": "IoT Technology Stack",
+        "subtitle": "Mula sa hardware hanggang sa ulap"
+      },
+      "breakdown": {
+        "title": "Pagkasira ng Serbisyo",
+        "subtitle": "Paano namin inihahatid ang mga konektadong system mula sa mga aparato sa gilid hanggang sa katalinuhan sa ulap"
+      }
+    },
+    "problem": {
+      "overview": "Ang mga inisyatibo ng IoT ay madalas na nagpapatunay ng teknikal na pagiging posible sa mga piloto ngunit nabigo sa sukat dahil sa hindi maaasahang pagkakakonekta, mahinang kontrol ng fleet, at mahinang pagsasama sa mga daloy ng trabaho ng negosyo.",
+      "painPointsTitle": "Paulit-ulit na Sakit sa Negosyo",
+      "impactSignalsTitle": "Ano ang Karaniwang Obserbahan ng mga Lider",
+      "painPoints": [
+        "Ang onboarding ng aparato at pamamahala ng lifecycle ay nananatiling manu-manong at madaling kapitan ng error",
+        "Ang mga pipeline ng telemetry ay gumagawa ng maingay, hindi kumpleto, o naantala na data ng pagpapatakbo",
+        "Ang mga remote command at pag-update ng firmware ay nagpapakilala ng panganib sa kaligtasan at seguridad"
+      ],
+      "impactSignals": [
+        "Ang mga kapaligiran ng pilot ay nagtagumpay, ngunit ang mga timeline ng paglulunsad ng produksyon ay paulit-ulit na nadulas",
+        "Ang mga koponan ng operasyon sa patlang ay tumutugon sa mga insidente nang walang mahuhulaan na kakayahang makita",
+        "Ang mga sistema ng negosyo ay hindi maaasahan na ubusin ang katalinuhan ng aparato sa real time"
+      ]
+    },
+    "approach": {
+      "overview": "Iniarkitekto namin ang mga platform ng IoT bilang kinokontrol na ipinamamahagi na mga system, pinagsasama ang mga secure na pamantayan sa runtime ng gilid, pag-inom ng kaganapan, at pamamahala ng pagpapatakbo sa sukat ng fleet.",
+      "pillars": [
+        {
+          "title": "Secure na Pamamahala ng Lifecycle ng Device",
+          "detail": "Ang paglalaan, pagkakakilanlan, pag-ikot ng key, at pag-update ng firmware ay awtomatiko upang mabawasan ang panganib sa pagpapatakbo."
+        },
+        {
+          "title": "Arkitektura ng Telemetry na Hinihimok ng Kaganapan",
+          "detail": "Ang mga streaming pipeline ay nag-normalize, nagpapatunay, at nag-ruta ng mga kaganapan sa aparato para sa analytics at kontrol sa malapit na real time."
+        },
+        {
+          "title": "Fleet Operations Control Plane",
+          "detail": "Ang pagsubaybay, pag-alerto, at remote command workflows ay nagbibigay ng maaasahang pangangasiwa sa buong ipinamamahagi na mga asset."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Binabalanse ng aming arkitektura ng IoT ang mga desisyon sa gilid na may mababang latency na may sentralisadong pamamahala, kakayahang makita, at pagsunod sa seguridad.",
+      "items": [
+        {
+          "title": "Awtonomiya ng Edge na may Koordinasyon ng Cloud",
+          "detail": "Ang mga kritikal na lokal na operasyon ay nagpapatuloy sa panahon ng pagkasira ng network habang nag-sync ng estado sa mga cloud system kapag magagamit."
+        },
+        {
+          "title": "Mga Scheme ng Kaganapan na Kinontrata",
+          "detail": "Ang mga koponan ng aparato at platform ay gumagamit ng mga pinamamahalaang schema upang mapanatili ang pagkakapare-pareho ng telemetry sa iba't ibang bersyon."
+        },
+        {
+          "title": "Zero-Trust Device Security",
+          "detail": "Ang mutual authentication, hindi bababa sa pribilehiyo, at naka-encrypt na transportasyon ay ipinatutupad sa bawat pakikipag-ugnayan ng device."
+        }
+      ]
+    },
+    "capabilities": [
+      "Pamamahala ng IoT Device",
+      "Mga Solusyon sa Digital Twin",
+      "Pag-deploy ng Edge Computing",
+      "Real-Time Telemetry",
+      "Mahuhulaan na Pagpapanatili"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Mga Digital na Kambal",
+        "category": "Simulation",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Gilid",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protocol",
+        "icon": "mqtt"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protocol",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Hardware",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Hardware",
+        "icon": "Raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "DB ng Serye ng Oras",
+        "icon": "Influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Diskarte sa Device & Edge",
+        "summary": "Tinutukoy namin ang mga pattern ng pagkakakonekta, mga pamantayan sa runtime ng gilid, at ligtas na paglalaan para sa mga aparato sa patlang.",
+        "deliverables": [
+          "Modelo ng onboarding at pagkakakonekta ng aparato",
+          "Edge runtime at deployment blueprint",
+          "Baseline ng seguridad ng fleet"
+        ]
+      },
+      {
+        "title": "Telemetry & Control Plane",
+        "summary": "Nagtatayo kami ng mga pipeline na kumukuha ng mga kaganapan, nagmomodelo ng mga digital twin, at nagbibigay-daan sa mga daloy ng remote control.",
+        "deliverables": [
+          "Real-time na pag-inom at disenyo ng schema ng kaganapan",
+          "Pagpapatupad ng Digital Twin at Asset Model",
+          "Command at control API layer"
+        ]
+      },
+      {
+        "title": "Mga Operasyon at Scale",
+        "summary": "Pinapatakbo namin ang pamamahala ng fleet at mga kontrol sa pagiging maaasahan para sa mga kapaligiran ng IoT na sukat ng produksyon.",
+        "deliverables": [
+          "Pagsubaybay at pag-alerto ng fleet ng aparato",
+          "Predictive maintenance at pagtuklas ng anomalya",
+          "Plano sa paglulunsad at suporta sa lifecycle"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ikonekta ang Iyong Mga Device",
+      "description": "Bumuo ng maaasahang mga solusyon sa IoT na handa na para sa tunay na mga kapaligiran sa produksyon.",
+      "button": "Simulan ang Iyong Proyekto sa IoT"
+    }
+  }
+}

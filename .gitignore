@@ -1,0 +1,46 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+count.txt
+.env
+.env.development
+.env.local
+.env.*.local
+.nitro
+.tanstack
+
+# All locale files now served from public/ as Workers static assets
+
+# Translation script config (contains API keys) and runtime state
+scripts/translate.config.json
+scripts/translate.state.json
+scripts/translate.log
+
+# Azure Functions build artifacts
+api/bin/
+api/obj/
+api/local.settings.json
+
+# Windows metadata artifacts
+*:\Zone.Identifier
+*:\mshield
+.wrangler/
+scripts/kv-translations.json
+
+# Lighthouse local reports
+lighthouse-*.json
+lighthouse-report.json
+
+# Local DB migration outputs
+scripts/migration-output.sql
+
+# Git worktrees
+.worktrees/
+
+# Claude Code local settings (per-developer, machine-specific)
+.claude/settings.local.*
+
+# Session memory (per-developer, rewritten each session)
+.remember/

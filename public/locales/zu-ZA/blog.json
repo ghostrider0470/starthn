@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Konke"
+  },
+  "categories": {
+    "aiEngineering": "Ubunjiniyela be-AI",
+    "enterpriseArchitecture": "Ukwakhiwa kwebhizinisi",
+    "cloudDevOps": "Ifu ne-DevOps",
+    "automationSystems": "Izinhlelo zokuzenzekelayo",
+    "softwareReliabilityDesign": "Ukuthembeka kwesoftware nokuklama"
+  },
+  "readTime": "{{minutes}} min read",
+  "tagsLabel": "Amathegi",
+  "relatedPosts": "Okuthunyelwe okuhlobene",
+  "author": {
+    "role": "Umshicileli"
+  },
+  "editor": {
+    "emptyPreview": "Qala ukubhala ukuze ubone ukubuka kuqala ..."
+  },
+  "tags": {
+    "llmOps": "I-LLM Ops",
+    "promptEngineering": "Ubunjiniyela obusheshayo",
+    "observability": "Ukubonwa",
+    "safety": "Ukuphepha",
+    "domainDesign": "Idizayini Yesizinda",
+    "integration": "Ukuhlanganiswa",
+    "governance": "Ukubusa",
+    "platformStrategy": "Isu lepulatifomu",
+    "platformEngineering": "Ubunjiniyela bepulatifomu",
+    "ciCd": "CI / CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Okuhlangenwe nakho konjiniyela",
+    "eventDriven": "Umcimbi Oqhutshwa",
+    "workflowOrchestration": "I-Orchestration Yokuhamba Kwesikhathi",
+    "controlPlanes": "Izindiza zokulawula",
+    "resilience": "Ukuqina",
+    "sre": "I-SRE",
+    "slos": "Ama-SLO",
+    "failureModes": "Izindlela Zokwehluleka",
+    "resilienceEngineering": "Ubunjiniyela bokuqina",
+    "evaluation": "Ukuhlolwa",
+    "qualityEngineering": "Ubunjiniyela bekhwalithi",
+    "datasets": "Ama-dataset",
+    "releaseManagement": "Ukuphathwa Kokukhishwa",
+    "incidentManagement": "Ukuphathwa Kwezigameko",
+    "architectureEvolution": "Ukuziphendukela kwemvelo kwezakhiwo",
+    "riskReduction": "Ukunciphisa ingozi",
+    "postmortems": "Ukuhlolwa kwesidumbu",
+    "progressiveDelivery": "Ukulethwa okuqhubekayo",
+    "canaryReleases": "Ukukhishwa kweCanary",
+    "featureFlags": "Amafulegi Wesici"
+  }
+}

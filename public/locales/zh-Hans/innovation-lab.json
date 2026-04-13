@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "创新实验室",
+    "description": "探索我们工程团队的互动演示、实验和技术展示。",
+    "primary": "探索演示",
+    "secondary": "查看研究"
+  },
+  "overview": {
+    "hero": {
+      "title": "创新实验室",
+      "description": "我们探索人工智能、自动化和分布式系统的实际前沿，并将经过验证的研究转化为可靠的生产能力。",
+      "primary": "探索研究领域",
+      "secondary": "讨论合作"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "研究领域",
+        "description": "每个重点领域都将探索性研究与为现实世界系统设计的实施路径相结合。",
+        "cardCta": "探索焦点"
+      },
+      "detailedFocusBriefs": {
+        "title": "详细重点简报",
+        "description": "近期研究项目正从架构验证转向交付计划。"
+      },
+      "fromLabToProduction": {
+        "title": "从实验室到生产",
+        "description": "地平线的创新是以交付成果衡量，而非孤立的原型。"
+      },
+      "roadmap": {
+        "title": "研发路线图",
+        "description": "这是从能力建设到适应性强、持续改进系统的分阶段进阶。"
+      },
+      "publications": {
+        "title": "出版物与见解",
+        "description": "来自持续创新工作的技术写作和实施笔记。"
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "应用人工智能系统",
+        "description": "以生产为核心的人工智能架构，涵盖模型服务、特征编排和受控实验。"
+      },
+      "automationFrameworks": {
+        "title": "自动化框架",
+        "description": "内部自动化工具，用于部署安全、事件响应和可重复的工程工作流程。"
+      },
+      "advancedArchitecture": {
+        "title": "高级架构实验",
+        "description": "研究针对性能、容错和规模优化的弹性分布式架构。"
+      },
+      "edgeAndIot": {
+        "title": "边缘计算与物联网智能",
+        "description": "边缘智能化，实现低延迟决策、遥测处理和设备队伍协调。"
+      },
+      "nlp": {
+        "title": "自然语言处理",
+        "description": "多语言理解管道用于分类、提取、翻译和会话系统。"
+      },
+      "evolutionaryAlgorithms": {
+        "title": "进化算法与优化",
+        "description": "受自然选择启发的搜索与优化系统，用于解决高维工程难题。"
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "自动化框架",
+        "description": "我们正在构建可组合的工作流程框架，用于发布编排、质量门和部署后验证，以减少手动摩擦，同时提升可靠性。"
+      },
+      "advancedArchitecture": {
+        "title": "高级架构实验",
+        "description": "我们的架构实验聚焦于服务分解策略、跨区域弹性模式以及在波动性需求下运行系统的性能包络。"
+      },
+      "edgeAndIot": {
+        "title": "边缘计算与物联网智能",
+        "description": "我们正在验证事件流和边缘推理设计，这些设计能够实现更快的本地决策，同时保持集中控制、可审计性和模型生命周期治理。"
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "自适应容量规划",
+        "description": "实验室原型会根据模拟工作负载进行验证，然后集成到平台自动扩展策略中。"
+      },
+      "operationalIntelligence": {
+        "title": "作战情报",
+        "description": "NLP流程从受控实验转向生产支持工作流，以加快分流速度和更清晰的洞察。"
+      },
+      "optimizationInDeliverySystems": {
+        "title": "传递系统中的优化",
+        "description": "实验室测试的进化方法被转化为调度和分配的优化引擎。"
+      },
+      "edgeDecisioning": {
+        "title": "边缘决策",
+        "description": "物联网和边缘推断实验被强化为低延迟服务，并有严格的可靠性约束。"
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "现在",
+        "title": "应用人工智能基础",
+        "description": "扩展可重复使用的模型服务模板、评估套件和可观测性标准，覆盖整个产品团队。"
+      },
+      "next": {
+        "phase": "下一个",
+        "title": "自主工程工作流程",
+        "description": "落实自动化框架，降低部署风险，缩短运输反馈循环。"
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18个月",
+        "title": "边缘-原生智能",
+        "description": "在延迟敏感环境中扩展混合云边缘架构，实现近实时推理。"
+      },
+      "longHorizon": {
+        "phase": "长远地平线",
+        "title": "连续优化系统",
+        "description": "统一实验、监控和优化，使系统能够安全地适应环境变化。"
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "工程中可持续的人工智能系统",
+        "summary": "关于平衡实验速度与生产治理的实用视角。",
+        "cta": "阅读见解"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "高速增长平台的分布式架构模式",
+        "summary": "架构试验的现场笔记聚焦于性能、弹性和操作简洁性。",
+        "cta": "案例回顾"
+      },
+      "roadmappingAppliedRd": {
+        "title": "应用研发与业务成果路线图",
+        "summary": "我们如何构建创新项目，使发现从原型迈向可衡量的价值。",
+        "cta": "探索出版物"
+      }
+    },
+    "cta": {
+      "title": "与地平线创新实验室一起构建",
+      "description": "与我们合作，快速验证雄心勃勃的想法，并将经过验证的概念转化为安全、可扩展的生产系统。",
+      "primary": "开启对话",
+      "secondary": "查看交付成果"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "应用人工智能系统",
+      "description": "关于Horizon如何设计、部署和运营从原型到生产的机器学习系统，提供实用概述。",
+      "back": "回到创新实验室",
+      "tags": {
+        "appliedAi": "应用人工智能",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "机器学习流程",
+        "description": "生产人工智能始于可重复的流程，连接数据、实验、验证和反馈。"
+      },
+      "modelDeploymentPatterns": {
+        "title": "模型部署模式",
+        "description": "部署策略的选择基于延迟需求、业务关键性和运营复杂性。"
+      },
+      "mlopsOperatingModel": {
+        "title": "MLOps 操作系统模型",
+        "description": "MLOps实践确保AI系统在使用量增长时保持可靠、可治理和可扩展性。"
+      },
+      "monitoringAndReliability": {
+        "title": "监控与可靠性",
+        "description": "可观察性实现了模型行为与运营结果之间的闭合环。"
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "数据与特征工程",
+        "description": "版本化数据摄取、质量检查和可复用特征定义为模型训练奠定了可靠的基础。"
+      },
+      "modelDevelopment": {
+        "title": "模型开发",
+        "description": "实验通过可重复的配置、客观指标和自动比较基线进行跟踪。"
+      },
+      "validationAndSafetyGates": {
+        "title": "验证与安全门",
+        "description": "候选模型在批准发布前需通过性能、鲁棒性和政策检查。"
+      },
+      "operationalFeedbackLoops": {
+        "title": "操作反馈循环",
+        "description": "部署后的遥测数据为重新训练优先级、回滚决策和下一轮迭代规划提供参考。"
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "实时推理服务",
+        "description": "低延迟API，支持交互式应用，具备自动扩展、缓存和请求级可观测性。"
+      },
+      "batchAndStreamingPredictions": {
+        "title": "批量和流媒体预测",
+        "description": "计划和事件驱动的流水线，支持分析和运营工作流程中的高量评分。"
+      },
+      "edgeAwareDeployment": {
+        "title": "边缘感知部署",
+        "description": "适用于需要本地推理和集中式模型治理环境的混合云边缘服务模式。"
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "模型CI/CD模型",
+        "description": "自动化的构建、测试和发布工作流程降低部署风险，同时保持交付速度。"
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "模型注册与生命周期",
+        "description": "带有晋升阶段、血缘关系和审批工作流程的版本化模型工件提升了控制和可追溯性。"
+      },
+      "servingInfrastructure": {
+        "title": "基础设施服务",
+        "description": "可扩展的服务层配合如金丝雀和影子部署等部署策略，支持安全的变更管理。"
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "预测质量与漂移检测",
+      "latencyThroughputAndCostEfficiencyTracking": "延迟、吞吐量和成本效率跟踪",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "数据质量回归警报与修复工作流程",
+      "auditabilityForComplianceAndIncidentAnalysis": "合规和事件分析的可审计性"
+    },
+    "cta": {
+      "title": "自信地扩展应用人工智能",
+      "description": "如果您正在规划需要可衡量成果和长期可维护性的人工智能项目，Horizon可以帮助您设计和运营整个系统生命周期。",
+      "primary": "与我们的团队交流",
+      "secondary": "探索更多实验室工作"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "多语言自然语言处理",
+      "description": "探索实用的自然语言处理能力，以及它们如何扩展到可靠的多语言生产系统中。",
+      "back": "回到创新实验室",
+      "tags": {
+        "demo": "互动演示",
+        "intelligence": "语言智能"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "自然语言处理基础",
+        "description": "自然语言处理结合了语言信号和机器学习，从文本中提取意义、意图和结构。"
+      },
+      "workbench": {
+        "title": "交互式自然语言处理工作台",
+        "description": "利用演示实时测试语言检测、情感评分、实体提取和翻译行为。"
+      },
+      "productionApplications": {
+        "title": "地平线如何将自然语言处理应用于生产",
+        "description": "NLP功能已集成到业务工作流程中，设有性能保护和清晰的质量指标。"
+      },
+      "reliabilityAndGovernance": {
+        "title": "可靠性与治理原则",
+        "description": "生产NLP不仅需要模型质量;这取决于安全部署的做法和持续的验证。"
+      }
+    },
+    "foundations": {
+      "intro1": "现代NLP系统支持自动化、搜索相关性、知识提取和多语言协作。有效实施需要模型质量和强有力的运营控制。",
+      "intro2": "在Horizon，我们专注于端到端的自然语言处理系统，结合了稳健的推理、可观测性、治理和可衡量的生产影响。"
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "语言检测",
+        "description": "识别短文本或长文本段的语言，将请求路由到正确的处理流水线。"
+      },
+      "sentimentAnalysis": {
+        "title": "情感分析",
+        "description": "提取情感意图和极性，用于客户情报、支持分流和产品反馈循环。"
+      },
+      "entityExtraction": {
+        "title": "实体提取",
+        "description": "从非结构化文本中检测结构化实体，如名称、公司、地点和日期。"
+      },
+      "translation": {
+        "title": "翻译",
+        "description": "通过翻译用户生成或操作性文本，同时保留上下文，支持多语言工作流程。"
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "支持与工单智能",
+        "description": "按紧急度、意图和情感分类来请求，以加快路由和响应质量。"
+      },
+      "governedContentOperations": {
+        "title": "受控内容运营",
+        "description": "应用具有政策意识的语言过滤器和可测量的精准度和召回目标的审核。"
+      },
+      "textDrivenBusinessInsights": {
+        "title": "文本驱动的商业洞察",
+        "description": "汇总文件、审查和沟通的趋势，以指导战略和运营决策。"
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "按用例进行评估",
+        "description": "在发布决策前，模型会与领域特定数据集进行基准测试。"
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "人机参与保障",
+        "description": "高影响力预测包括审查路径、升级规则和透明的信心信号。"
+      },
+      "continuousMonitoring": {
+        "title": "持续监测",
+        "description": "漂移、延迟和质量下降会持续追踪，因此重新训练和回滚是主动的。"
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "遗传算法模拟",
+      "description": "在交互环境中探索进化计算，看看这些原理如何转化为生产优化系统。",
+      "back": "回到创新实验室",
+      "tags": {
+        "demo": "互动演示",
+        "optimizationScience": "优化科学"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "科学基金会",
+        "description": "遗传算法是基于群体的优化方法，灵感来源于自然选择和适应。"
+      },
+      "interactiveEnvironment": {
+        "title": "交互式进化环境",
+        "description": "运行模拟，观察适应度逐代提升，并观察选择压力如何影响结果。"
+      },
+      "productionUse": {
+        "title": "Horizon 在生产中如何使用这一点",
+        "description": "本次演示中使用的搜索机制同样适用于运行系统中部署的优化流程。"
+      },
+      "applicationDomains": {
+        "title": "更广泛的应用领域",
+        "description": "进化优化在具有动态目标和冲突约束的系统中尤为有价值。"
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "遗传算法不再一次寻找一个解，而是演化出多样化的候选群体。每一代都基于适应度函数进行评估，并通过选择、交叉和突变进行细化。",
+      "intro2": "这使得它们在高维非线性约束问题中非常有效，因为确定性方法变得脆弱或计算成本高昂。"
+    },
+    "mechanics": {
+      "selection": {
+        "title": "选择",
+        "description": "表现优异的候选人更有可能存活下来，并影响下一代。"
+      },
+      "crossover": {
+        "title": "跨界",
+        "description": "强性状被重新组合，形成具有混合优势的新候选解。"
+      },
+      "mutation": {
+        "title": "突变",
+        "description": "受控随机引入多样性，使搜索不会在局部最优处停滞。"
+      },
+      "convergence": {
+        "title": "收敛",
+        "description": "经过多代人，人口趋向于稳定、高质量的解决方案。"
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "资源调度",
+        "description": "我们运用进化策略优化多约束调度，尤其是在暴力破解搜索不可行的情况下。"
+      },
+      "architectureTuning": {
+        "title": "架构调优",
+        "description": "候选基础设施配置会通过迭代评估，以提升性能和成本效益。"
+      },
+      "continuousOptimization": {
+        "title": "连续优化",
+        "description": "优化作业以受控循环运行，并带有遥测反馈，系统会随着需求曲线的变化而调整。"
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "路线与后勤规划",
+        "description": "当约束快速变化时，复杂的交付和派遣规划受益于进化搜索。"
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "模型与超参数搜索",
+        "description": "当目标曲面噪声大且非线性时，遗传搜索可以发现高质量的模型配置。"
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "投资组合与配置问题",
+        "description": "在竞争目标下的优化可以被框架为在不断演变的候选对象集合间的适应度权衡。"
+      }
+    }
+  }
+}

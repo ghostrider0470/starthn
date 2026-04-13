@@ -1,0 +1,41 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "horizon-frontend",
+  "compatibility_date": "2026-04-01",
+  "compatibility_flags": ["nodejs_compat_v2"],
+  "main": "src/server.ts",
+  "routes": [
+    { "pattern": "horizon-tech.io/*", "zone_name": "horizon-tech.io" },
+    { "pattern": "www.horizon-tech.io/*", "zone_name": "horizon-tech.io" }
+  ],
+  "vars": {
+    "API_ORIGIN": "https://ht-func-prod.azurewebsites.net"
+    // JWT_SECRET is set via `npx wrangler secret put JWT_SECRET` (not here — sensitive)
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "horizon-db",
+      "database_id": "f6834707-533f-4e6f-aace-f8034ad19f27",
+      "migrations_dir": "src/server/db/migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "IMG_CACHE",
+      "bucket_name": "horizon-img-cache"
+    }
+  ],
+  "queues": {
+    "producers": [
+      { "binding": "IMG_WRITE_QUEUE", "queue": "img-r2-writes" }
+    ],
+    "consumers": [
+      {
+        "queue": "img-r2-writes",
+        "max_retries": 3,
+        "dead_letter_queue": "img-r2-writes-dlq"
+      }
+    ]
+  }
+}

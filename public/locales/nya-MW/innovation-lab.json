@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Innovation Lab",
+    "description": "Fufuzani ma demos oyankhulana, kuyesera, ndi zowonetsera zaukadaulo kuchokera ku gulu lathu la zomangamanga.",
+    "primary": "Fufuzani Demos",
+    "secondary": "Onani Kafukufuku"
+  },
+  "overview": {
+    "hero": {
+      "title": "Innovation Lab",
+      "description": "Timafufuza malire othandiza mu AI, makina, ndi machitidwe ogawidwa, kenako timamasulira kafukufuku wotsimikizika kukhala mphamvu zodalirika zopanga.",
+      "primary": "Fufuzani Malo Ofufuza",
+      "secondary": "Kambiranani Mgwirizano"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Malo Ofufuza",
+        "description": "Malo aliwonse oyang'ana amagwirizanitsa kafukufuku wofufuza ndi njira zogwiritsira ntchito zomwe zimapangidwira machitidwe enieni.",
+        "cardCta": "Fufuzani cholinga"
+      },
+      "detailedFocusBriefs": {
+        "title": "Zolemba Zoyang'ana Mwatsatanetsatane",
+        "description": "Ntchito zofufuzira zaposachedwa pakali pano zikuyenda kuchokera ku chitsimikizo cha zomangamanga kupita ku mapulani operekera."
+      },
+      "fromLabToProduction": {
+        "title": "Kuchokera ku Lab kupita ku Kupanga",
+        "description": "Zatsopano ku Horizon zimayesedwa ndi zotsatira zotumizidwa, osati ma prototypes okhaokha."
+      },
+      "roadmap": {
+        "title": "Mapu a R &D",
+        "description": "Kupita patsogolo kwapang'onopang'ono kuchokera pakumanga luso kupita ku kusinthasintha, kupitiliza kuwongolera machitidwe."
+      },
+      "publications": {
+        "title": "Zofalitsa ndi Kuzindikira",
+        "description": "Zolemba zaukadaulo ndi zolemba zogwiritsira ntchito kuchokera ku ntchito yatsopano yopitilira."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Machitidwe a AI ogwiritsidwa ntchito",
+        "description": "Zomangamanga za AI zopangidwa zomwe zimaphatikizapo kutumikira chitsanzo, mawonekedwe a orchestration, ndi kuyesa."
+      },
+      "automationFrameworks": {
+        "title": "Makina Opangira Makina",
+        "description": "Zida zamkati zogwiritsira ntchito chitetezo chotumizira, kuyankha kwa zochitika, ndi ntchito zobwerezabwereza za zomangamanga."
+      },
+      "advancedArchitecture": {
+        "title": "Kuyesera Zomangamanga Zapamwamba",
+        "description": "Kafukufuku wa zomangamanga zolimba, zogawidwa zomwe zimapangidwira ntchito, kulekerera zolakwika, ndi mlingo."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Nzeru pamphepete kwa zosankha zochepa-latency, kukonza telemetry, ndi kugwirizana kwa zombo za chipangizo."
+      },
+      "nlp": {
+        "title": "Kukonza Chilankhulo Chachilengedwe",
+        "description": "Mapaipi omvetseta zilankhulo zambiri kuti agawidwe, kutulutsa, kumasulira, ndi machitidwe okambirana."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Evolutionary Algorithms & Optimization",
+        "description": "Njira zofufuzira ndi kukonza zomwe zimauziridwa ndi kusankha kwachilengedwe kuti zithetse zovuta zapamwamba za zomangamanga."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Makina Opangira Makina",
+        "description": "Tikumanga ndondomeko zogwirira ntchito zogwirira ntchito zotulutsa orchestration, zipata zabwino, ndi kutsimikiziridwa pambuyo pa kutumiza kuti muchepetse mikangano yamanja pamene tikuwongolera kudalirika."
+      },
+      "advancedArchitecture": {
+        "title": "Kuyesera Zomangamanga Zapamwamba",
+        "description": "Zoyeserera zathu zomangamanga zimayang'ana pa njira zowonongeka kwa utumiki, njira zowonongeka za mtanda, ndi maenvulopu ogwira ntchito kwa machitidwe omwe akugwira ntchito pansi pa kufunika kosinthasintha."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Tikutsimikizira zochitika-kusonkhana ndi m'mphepete inference mapangidwe kuti zimathandiza mofulumira zosankha m'deralo pamene kusunga ulamuliro central, auditability, ndi chitsanzo moyo kayendetsedwe kake."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Kukonzekera Mphamvu Zosinthika",
+        "description": "Ma prototypes a labu amatsimikiziridwa motsutsana ndi ntchito zoyerekeza kenako ndikuphatikizidwa mu njira zowonongeka za nsanja."
+      },
+      "operationalIntelligence": {
+        "title": "Nzeru Zogwirira Ntchito",
+        "description": "Mapaipi a NLP amachoka pazoyeserera zolamulidwa kupita ku ntchito zothandizira kupanga kuti mupange mwachangu komanso kuzindikira bwino."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Kukhathamiritsa mu Njira Zoperekera",
+        "description": "Njira zosinthika zomwe zimayesedwa mu labu zimamasuliridwa kukhala injini zowonongeka kwa ndandanda ndi kugawidwa."
+      },
+      "edgeDecisioning": {
+        "title": "Kusankha M'mphepete",
+        "description": "IoT ndi kuyesa kwa m'mphepete mwa inference kumalimbikitsidwa kukhala ntchito zochepa za latency ndi zopinga zodalirika zokhwima."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Tsopano",
+        "title": "Maziko Ogwiritsira Ntchito AI",
+        "description": "Wonjezerani ma tempuleti ogwiritsidwanso ntchito a chitsanzo, zipinda zowunikira, ndi miyezo yowonera m'magulu onse a mankhwala."
+      },
+      "next": {
+        "phase": "Chotsatira",
+        "title": "Ntchito Zodziyimira pawokha",
+        "description": "Gwiritsani ntchito makina ogwiritsira ntchito makina omwe amachepetsa chiopsezo chotumizira ndikufupikitsa mayankho otumizira."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "Miyezi 12-18",
+        "title": "Nzeru za m'mphepete",
+        "description": "Sinthani zomangamanga zamtambo wa hybrid pafupi ndi nthawi yeniyeni m'malo okhudzidwa ndi latency."
+      },
+      "longHorizon": {
+        "phase": "Kutalika kwa Horizon",
+        "title": "Njira Zopitilira Kukonza",
+        "description": "Gwirizanitsani kuyesera, kuyang'anira, ndi kukonza kuti machitidwe athe kusintha bwino pamene nkhani zikusintha."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Machitidwe a AI a Engineering omwe Amakhala Odalirika Pakupanga",
+        "summary": "Lingaliro lothandiza pakulinganiza liwiro loyesera ndi kayendetsedwe ka kupanga.",
+        "cta": "Werengani nzeru"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Njira Zogawidwa Zomangamanga za Mapulatifomu Apamwamba",
+        "summary": "Zolemba zam'munda kuchokera ku mayesero a zomangamanga zomwe zimayang'ana pa ntchito, kupirira, ndi kuphweka kwa ntchito.",
+        "cta": "Bwezerani maphunziro a milandu"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping Ntchito R &D kwa Zotsatira za Bizinesi",
+        "summary": "Momwe timapangira njira zatsopano kotero kuti zopezedwa zimachokera ku chitsanzo kupita ku mtengo woyezeka.",
+        "cta": "Fufuzani zofalitsa"
+      }
+    },
+    "cta": {
+      "title": "Pangani ndi Horizon Innovation Lab",
+      "description": "Thandizani nafe kuti mutsimikizire malingaliro ofunitsitsa mwachangu ndikusunthira malingaliro otsimikiziridwa kukhala njira zotetezeka, zowonongeka.",
+      "primary": "Yambani Kukambirana",
+      "secondary": "Onani Zotsatira Zoperekera"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Machitidwe a AI ogwiritsidwa ntchito",
+      "description": "Chidule chothandiza cha momwe Horizon imapangira, kugwiritsira ntchito, ndi kugwiritsa ntchito makina ophunzirira makina kuchokera ku prototype mpaka kupanga.",
+      "back": "Bwererani ku Innovation Lab",
+      "tags": {
+        "appliedAi": "AI yogwiritsidwa ntchito",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Mapaipi Ophunzirira Makina",
+        "description": "Kupanga AI kumayamba ndi mapaipi obwezeretsanso omwe amalumikiza deta, kuyesera, kutsimikizira, ndi malingaliro."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Zitsanzo Zogwiritsira Ntchito Zitsanzo",
+        "description": "Njira yotumizira imasankhidwa potengera zofunikira za latency, kutsutsa kwa bizinesi, ndi zovuta zogwirira ntchito."
+      },
+      "mlopsOperatingModel": {
+        "title": "Chitsanzo Chogwirira Ntchito cha MLOps",
+        "description": "Machitidwe a MLOps amatsimikizira kuti machitidwe a AI amakhala odalirika, olamulira, komanso osinthika pamene ntchito ikukula."
+      },
+      "monitoringAndReliability": {
+        "title": "Kuwunika ndi Kudalirika",
+        "description": "Kuwona kumatseka kuzungulira pakati pa khalidwe lachitsanzo ndi zotsatira zogwirira ntchito."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Data ndi Feature Engineering",
+        "description": "Versioned deta ingestion, macheke khalidwe, ndi matanthauzo reusable mbali kulenga maziko odalirika maphunziro chitsanzo."
+      },
+      "modelDevelopment": {
+        "title": "Chitukuko cha Model",
+        "description": "Kuyesera kumatsatiridwa ndi makonzedwe obwezeretsanso, zolinga zolinga, ndi maziko oyerekeza okha."
+      },
+      "validationAndSafetyGates": {
+        "title": "Kutsimikiziridwa ndi Zipata Zachitetezo",
+        "description": "Zitsanzo zofunsira zimadutsa magwiridwe antchito, kulimba, ndi macheke a ndondomeko asanavomereze kuti atulutsidwe."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Njira Zogwirira Ntchito",
+        "description": "Pambuyo pa kutumizidwa kwa telemetry kumadziwitsa zofunikira kuphunzitsanso, zosankha zobwezeretsanso, ndi kukonzekera kwa iteration yotsatira."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Ntchito Zenizeni za Inference",
+        "description": "Ma API otsika kwambiri a ntchito zogwirizana ndi autoscaling, caching, ndi kuwonera kwa pempho."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Batch ndi Streaming Predictions",
+        "description": "Mapaipi okonzedwa ndi zochitika zoyendetsedwa ndi zolemba zapamwamba kwambiri pa analytics ndi ntchito zogwirira ntchito."
+      },
+      "edgeAwareDeployment": {
+        "title": "Kutumizidwa kwa M'mphepete",
+        "description": "Hybrid mtambo-m'mphepete kutumikira zitsanzo kwa malo amafuna inference m'deralo ndi centralized chitsanzo kayendetsedwe kake."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI / CD ya Zitsanzo",
+        "description": "Makina omanga, kuyesa, ndi kutulutsa ntchito zimachepetsa chiopsezo chotumizira pamene akusunga liwiro loperekera."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Model Registry ndi Lifecycle",
+        "description": "Versioned chitsanzo zojambulajambula ndi magawo kukwezedwa, mzere, ndi chivomerezo workflows bwino kulamulira ndi traceability."
+      },
+      "servingInfrastructure": {
+        "title": "Kutumikira Zomangamanga",
+        "description": "Scalable kutumikira zigawo ndi njira rollout monga canary ndi mthunzi deployments kuthandiza otetezeka kusintha kasamalidwe."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Kuneneratu khalidwe ndi kudziwika kwa drift",
+      "latencyThroughputAndCostEfficiencyTracking": "Latency, kudutsa, ndi kutsatira mtengo",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Zidziwitso za regression khalidwe la deta ndi ntchito zowongolera",
+      "auditabilityForComplianceAndIncidentAnalysis": "Kuwunika kwa kutsatira ndi kusanthula zochitika"
+    },
+    "cta": {
+      "title": "Scale Applied AI ndi Chidaliro",
+      "description": "Ngati mukukonzekera njira za AI zomwe zimafunikira zotsatira zoyeza komanso kusungidwa kwa nthawi yayitali, Horizon ingathandize kupanga ndi kugwiritsa ntchito moyo wonse wa dongosolo.",
+      "primary": "Lankhulani ndi Gulu Lathu",
+      "secondary": "Fufuzani Ntchito Zambiri za Labu"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "NLP ya zilankhulo zambiri",
+      "description": "Fufuzani mphamvu zothandiza zogwiritsira ntchito chinenero chachilengedwe komanso momwe zimakhalira kukhala njira zodalirika, zopangira zilankhulo zambiri.",
+      "back": "Bwererani ku Innovation Lab",
+      "tags": {
+        "demo": "Chiwonetsero Choyankhulana",
+        "intelligence": "Nzeru za Chilankhulo"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Maziko a NLP",
+        "description": "Kusintha kwa chilankhulo chachilengedwe kumaphatikiza zizindikiro za chilankhulo ndi makina ophunzira kuti atulutse tanthauzo, cholinga, ndi kapangidwe kuchokera ku malemba."
+      },
+      "workbench": {
+        "title": "Interactive NLP Workbench",
+        "description": "Gwiritsani ntchito chiwonetserocho kuti muyese kudziwika kwa chinenero, zolemba malingaliro, kutulutsa mabungwe, ndi makhalidwe omasulira munthawi yeniyeni."
+      },
+      "productionApplications": {
+        "title": "Momwe Horizon Imagwiritsira Ntchito NLP Pakupanga",
+        "description": "Mphamvu za NLP zimaphatikizidwa mu ntchito zamalonda ndi ma guardrails ogwira ntchito komanso ma metrics omveka bwino a khalidwe."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Mfundo Zodalirika ndi Ulamuliro",
+        "description": "Kupanga NLP kumafuna zambiri kuposa khalidwe lachitsanzo; zimadalira njira zotetezeka zoyendetsera komanso kutsimikiziridwa kosalekeza."
+      }
+    },
+    "foundations": {
+      "intro1": "Machitidwe amakono a NLP amapatsa mphamvu zothandizira makina, kufunika kofufuzira, kutulutsa chidziwitso, ndi mgwirizano wa zilankhulo zambiri. Kugwiritsa ntchito bwino kumafuna khalidwe lachitsanzo komanso maulamuliro amphamvu ogwira ntchito.",
+      "intro2": "Ku Horizon, timayang'ana pa machitidwe omaliza a NLP omwe amaphatikiza chidziwitso cholimba ndi kuwonera, kayendetsedwe kake, ndi zotsatira zoyezeka zopanga."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Kuzindikira kwa Chilankhulo",
+        "description": "Amazindikiritsa chilankhulo kuchokera ku zigawo zazifupi kapena zazitali za malemba kuti atsogolere zopempha mu payipi yoyenera yowonongeka."
+      },
+      "sentimentAnalysis": {
+        "title": "Kusanthula kwa Malingaliro",
+        "description": "Amatulutsa cholinga cha malingaliro ndi polarity kwa nzeru za makasitomala, chithandizo cha triage, ndi mayankho a mankhwala."
+      },
+      "entityExtraction": {
+        "title": "Kutulutsa kwa Entity",
+        "description": "Amazindikira mabungwe olinganizidwa monga mayina, makampani, malo, ndi masiku kuchokera ku malemba osakonzedwa."
+      },
+      "translation": {
+        "title": "Kutanthauzira",
+        "description": "Amathandizira ntchito za zilankhulo zambiri pomasulira zolemba zopangidwa ndi ogwiritsa ntchito kapena ogwira ntchito pamene akusunga nkhani."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Thandizo ndi Chidziwitso cha Tiketi",
+        "description": "Gawani zopempha zomwe zikubwera mwachangu, cholinga, ndi malingaliro kuti mufulumire kuyendetsa ndi kuyankha."
+      },
+      "governedContentOperations": {
+        "title": "Ntchito Zolamulidwa",
+        "description": "Gwiritsani ntchito zosefera za chilankhulo chodziwa ndondomeko ndi macheke odziletsa ndi zolinga zoyezeka komanso zokumbukira."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Chidziwitso cha Bizinesi Yoyendetsedwa ndi Malemba",
+        "description": "Phatikizani zochitika kuchokera ku zikalata, ndemanga, ndi kulumikizana kuti mudziwitse njira ndi zosankha zogwirira ntchito."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Kuwunika ndi Ntchito Yogwiritsira Ntchito",
+        "description": "Zitsanzo zimayesedwa motsutsana ndi ma datasets enieni a gawo asanasankhe kumasulidwa kupangidwa."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Chitetezo cha Human-in-the-Loop",
+        "description": "Zolosera zapamwamba zimaphatikizapo njira zowunikira, malamulo owonjezera, ndi zizindikiro zowoneka bwino za chidaliro."
+      },
+      "continuousMonitoring": {
+        "title": "Kuwunika Kosalekeza",
+        "description": "Kuthamanga, latency, ndi kuwonongeka kwa khalidwe kumatsatiridwa mosalekeza kotero kuphunzitsanso ndi kubwezeretsa ndi proactive."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Genetic Algorithm Simulation",
+      "description": "Fufuzani kuwerengera kwa chisinthiko m'malo oyankhulana ndikuwona momwe mfundo zomwezo zimamasulira mu machitidwe opangira kupanga.",
+      "back": "Bwererani ku Innovation Lab",
+      "tags": {
+        "demo": "Chiwonetsero Choyankhulana",
+        "optimizationScience": "Kukhathamiritsa Sayansi"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Maziko a Sayansi",
+        "description": "Ma aligorivimu a majini ndi njira zowonongeka za anthu zomwe zimauziridwa ndi kusankha kwachilengedwe ndi kusintha."
+      },
+      "interactiveEnvironment": {
+        "title": "Malo Osinthika Ogwirizana",
+        "description": "Yendetsani kayeseleledwe kuti muwone kulimbitsa thupi kusintha m'badwo ndi m'badwo ndikuwona momwe kupanikizika kwa kusankha kumakhudzira zotsatira."
+      },
+      "productionUse": {
+        "title": "Momwe Horizon Amagwiritsira Ntchito Izi Popanga",
+        "description": "Makina ofufuza omwewo omwe amagwiritsidwa ntchito pachiwonetserochi amadziwitsa mapaipi owongolera omwe amagwiritsidwa ntchito mu machitidwe ogwirira ntchito."
+      },
+      "applicationDomains": {
+        "title": "Madera Ambiri Ogwiritsira Ntchito",
+        "description": "Kukhathamiritsa kwa chisinthiko ndikofunikira kwambiri m'machitidwe omwe ali ndi zolinga zamphamvu komanso zopinga zotsutsana."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "M'malo mofunafuna njira imodzi panthawi imodzi, ma aligorivimu a majini amasintha anthu osiyanasiyana omwe akufuna. M'badwo uliwonse umayesedwa motsutsana ndi ntchito yolimbitsa thupi ndikuwongoleredwa kudzera mu kusankha, kuwoloka, ndi kusintha.",
+      "intro2": "Izi zimapangitsa kuti zikhale zogwira mtima pamavuto apamwamba omwe ali ndi zopinga zopanda liniya, pomwe njira za deterministic zimakhala zosalimba kapena zodula zowerengera."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Kusankhidwa",
+        "description": "Otsatira apamwamba amatha kupulumuka ndikukhudza m'badwo wotsatira."
+      },
+      "crossover": {
+        "title": "Kuwoloka",
+        "description": "Makhalidwe amphamvu amaphatikizidwanso kuti apange njira zatsopano zofunsira ndi mphamvu zosakanikirana."
+      },
+      "mutation": {
+        "title": "Kusintha",
+        "description": "Kulamulidwa mwachisawawa kumayambitsa kusiyanasiyana kotero kufufuza sikuyimilira mozungulira optima yakomweko."
+      },
+      "convergence": {
+        "title": "Kugwirizana",
+        "description": "M'mibadwo yambiri, anthu amapita ku njira zokhazikika, zapamwamba."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Ndandanda ya Resource",
+        "description": "Timagwiritsa ntchito njira zosinthika kuti tiwongolere nda zambiri zomwe kufufuza kwamphamvu sikungatheke."
+      },
+      "architectureTuning": {
+        "title": "Kusintha kwa Zomangamanga",
+        "description": "Makonzedwe a zomangamanga omwe amasankhidwa amayesedwa mobwerezabwereza kuti apititse patsogolo ntchito ndi mtengo wamtengo wapatali."
+      },
+      "continuousOptimization": {
+        "title": "Kukhathamiritsa Kosalekeza",
+        "description": "Ntchito zowonongeka zimayenda m'njira zolamulidwa ndi mayankho a telemetry kotero machitidwe amasintha pamene mbiri yofunikira imasintha."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Njira ndi Kukonzekera Logistics",
+        "description": "Kukonzekera kovuta koperekera ndi kutumiza kumapindula ndi kufufuza kwa chisinthiko pamene zopinga zimasintha mofulumira."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Chitsanzo ndi Hyperparameter Search",
+        "description": "Kufufuza kwa majini kumatha kupeza mawonekedwe apamwamba a chitsanzo pamene malo ofunikira ali phokoso komanso osakhala a linear."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Mavuto a Portfolio ndi Kugawa",
+        "description": "Kukhathamiritsa pansi pa zolinga zopikisana kumatha kupangidwa ngati malonda olimbitsa thupi kudutsa magulu osinthika."
+      }
+    }
+  }
+}

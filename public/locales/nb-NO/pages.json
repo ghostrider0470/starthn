@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Om oss",
+    "hero": {
+      "titlePrefix": "Bygger morgendagens teknologi,",
+      "titleHighlight": "I dag",
+      "description": "Horizon Tech d.o.o. er et globalt teknologiselskap med hovedkontor i Sarajevo, som leverer banebrytende programvareløsninger til bedrifter på tre kontinenter."
+    },
+    "sections": {
+      "mission": {
+        "title": "Oppdrag",
+        "description": "Vi hjelper organisasjoner med å omsette ambisiøse ideer til pålitelige digitale produkter som skaper målbar forretningsverdi.",
+        "points": [
+          "Samsvar teknologilevering med klare forretningsresultater.",
+          "Bygg langsiktige systemer som forblir vedlikeholdbare etter hvert som teamene vokser.",
+          "Samarbeid tett med interessenter fra strategi til gjennomføring."
+        ]
+      },
+      "expertise": {
+        "title": "Ekspertise",
+        "description": "Våre tverrfaglige team kombinerer ingeniørdybde med produkttenkning på tvers av moderne teknologistakker.",
+        "points": [
+          "Web- og plattformutvikling på bedriftsnivå.",
+          "Skyarkitektur, DevOps-automatisering og robust infrastruktur.",
+          "Anvendt AI/ML, dataflyter og IoT-aktiverte produkter."
+        ]
+      },
+      "approach": {
+        "title": "Tilnærming",
+        "description": "Vi gjennomfører med en transparent, iterativ modell som holder leveransen forutsigbar samtidig som produktrisikoen reduseres.",
+        "points": [
+          "Oppdag: definer omfang, prioriteringer og suksessmålinger tidlig.",
+          "Bygg: send i fokuserte trinn med kontinuerlige tilbakemeldingssløyfer.",
+          "Optimaliser: overvåk resultater og forbedre ytelsen over tid."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Klar til å forvandle virksomheten din?",
+      "description": "Bli med på den stadig voksende listen over selskaper som stoler på Horizon Tech til å levere innovative løsninger og eksepsjonelle resultater.",
+      "primary": "Kom i gang",
+      "secondary": "Se suksesshistorier"
+    }
+  },
+  "contact": {
+    "badge": "Ta kontakt",
+    "hero": {
+      "title": "Kontakt oss",
+      "description": "Har du et prosjekt i tankene? Vi vil gjerne høre fra deg. Ta kontakt for å diskutere hvordan vi kan hjelpe deg med å realisere ideene dine."
+    },
+    "info": {
+      "title": "Kontaktinformasjon"
+    },
+    "booking": {
+      "title": "Book et møte",
+      "description": "Bestill en gratis 30-minutters oppdagelsessamtale"
+    },
+    "methods": {
+      "email": {
+        "title": "E-post",
+        "description": "Send oss en e-post når som helst",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Beliggenhet",
+        "description": "Basert i",
+        "value": "Sarajevo, Bosnia-Hercegovina"
+      },
+      "response": {
+        "title": "Responstid",
+        "description": "Vi svarer vanligvis innenfor",
+        "value": "24-48 timer"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Nytt prosjekt"
+      },
+      "support": {
+        "label": "Teknisk støtte"
+      },
+      "partnerships": {
+        "label": "Partnerskap"
+      },
+      "careers": {
+        "label": "Karrierer"
+      },
+      "general": {
+        "label": "Generell undersøkelse"
+      }
+    },
+    "form": {
+      "title": "Send oss en melding",
+      "success": "Takk for meldingen din. Vi tar kontakt innen 24-48 timer.",
+      "error": "Noe gikk galt. Vennligst prøv igjen eller send oss en e-post direkte.",
+      "fullName": "Fullt navn *",
+      "email": "E-postadresse *",
+      "company": "Selskap",
+      "subject": "Emne *",
+      "message": "Melding *",
+      "placeholders": {
+        "name": "Ditt navn",
+        "email": "you@example.com",
+        "company": "Ditt selskap",
+        "subject": "Hva kan vi hjelpe med?",
+        "message": "Fortell oss om prosjektet eller forespørselen din..."
+      },
+      "validation": {
+        "required": {
+          "name": "Fullt navn kreves.",
+          "email": "E-postadresse kreves.",
+          "subject": "Vennligst velg et.",
+          "message": "Melding kreves."
+        },
+        "email": "Vennligst oppgi en gyldig e-postadresse.",
+        "messageMinLength": "Meldingen må være minst {{count}} tegn lang."
+      },
+      "sending": "Sender...",
+      "submit": "Send melding"
+    },
+    "reasonsTitle": "Hvorfor samarbeide med oss?",
+    "reasons": [
+      "Kompetanse innen fullstack-programvareutvikling",
+      "AI/ML- og skyarkitekturspesialister",
+      "Smidig utvikling med åpen kommunikasjon",
+      "Langsiktig støtte og vedlikehold"
+    ],
+    "custom": {
+      "title": "Skreddersydde løsninger",
+      "description": "Leter du etter en skreddersydd løsning? Vi jobber tett med kundene for å forstå unike behov og levere skreddersydd programvare som gir målbare resultater.",
+      "cta": "Diskuter prosjektet ditt"
+    },
+    "faq": {
+      "title": "Har du flere spørsmål?",
+      "description": "Sjekk ut FAQ-seksjonen vår for raske svar",
+      "cta": "Bla gjennom ofte stilte spørsmål"
+    }
+  },
+  "team": {
+    "badge": "Vårt team",
+    "hero": {
+      "titlePrefix": "Møt sinnene bak",
+      "titleHighlight": "Horizon Tech",
+      "description": "Et mangfoldig team av teknologer, designere og strateger bygger sammen digitale produkter med stor innvirkning."
+    },
+    "section": {
+      "title": "Lederteam",
+      "description": "De erfarne lederne styrer Horizon Techs visjon og vekst"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Grunnlegger, administrerende direktør og CTO",
+        "bio": "Visjonær leder og teknisk arkitekt med 10+ års erfaring innen bedriftsprogramvare, med spesialisering i AI/ML, skyplattformer og skalerbar produktarkitektur.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Løsningsarkitektur",
+          "Sky-ingeniørkunst"
+        ]
+      },
+      "ahmet": {
+        "role": "Sjefsarkitekt for sikkerhet",
+        "bio": "Cybersikkerhetsspesialist med fokus på bedriftssikkerhetsarkitektur, sikker lokal infrastruktur og levering med fokus på compliance for regulerte miljøer.",
+        "expertise": [
+          "Cybersikkerhet",
+          "On-Premises-systemer",
+          "Sikkerhetsarkitektur",
+          "Overholdelse",
+          "Infrastruktursikkerhet"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Send e-post {{name}}",
+      "linkedin": "{{name}} LinkedIn-profil"
+    },
+    "culture": {
+      "title": "Livet ved Horizon Tech",
+      "description": "Vi fremmer en kultur preget av innovasjon, samarbeid og kontinuerlig læring",
+      "remoteFirst": {
+        "title": "Fjern-først-kulturen",
+        "description": "Jobb hvor som helst med fleksible arbeidstider og fokus på resultater, ikke sted."
+      },
+      "collaborative": {
+        "title": "Samarbeidsmiljø",
+        "description": "Regelmessige teamarrangementer, kunnskapsdelingsøkter og tverrfaglig samarbeid."
+      },
+      "workLife": {
+        "title": "Balanse mellom arbeid og fritid",
+        "description": "Generøs feriepolitikk, støtte til mental helse og respekt for personlig tid."
+      },
+      "innovation": {
+        "title": "Innovasjonstid",
+        "description": "20 % tid til personlige prosjekter, hackathons og utforskning av ny teknologi."
+      },
+      "stats": {
+        "teamMembers": "Lagmedlemmer",
+        "countries": "Land",
+        "techStacks": "Teknologistabler",
+        "remoteReady": "Fjernkontroll klar"
+      }
+    },
+    "cta": {
+      "title": "Vil du bli med i teamet vårt?",
+      "description": "Vi ser alltid etter talentfulle mennesker som bryr seg om håndverk, eierskap og innovasjon.",
+      "button": "Ta kontakt"
+    }
+  },
+  "careers": {
+    "badge": "Bli med i vårt team",
+    "hero": {
+      "titlePrefix": "Bygg fremtiden",
+      "titleHighlight": "Med oss",
+      "description": "Bli med i et team av ingeniører som bygger banebrytende programvare for globale kunder. Jobb eksternt, voks kontinuerlig, og gjør en reell forskjell.",
+      "button": "Se stillinger"
+    },
+    "process": {
+      "title": "Vår ansettelsesprosess",
+      "description": "Gjennomsiktig, effektiv og respektfull overfor tiden din",
+      "steps": [
+        {
+          "title": "Søk",
+          "description": "Send inn søknaden din, så vurderer vi den innen 3 virkedager."
+        },
+        {
+          "title": "Innledende samtale",
+          "description": "En 30-minutters videosamtale for å diskutere dine erfaringer og forventninger."
+        },
+        {
+          "title": "Teknisk",
+          "description": "Teknisk intervju eller praktisk øvelse for å vise ferdighetene dine."
+        },
+        {
+          "title": "Tilbud",
+          "description": "Møt teamet og motta tilbudet om å bli med i Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Ledige stillinger",
+      "description": "Finn din neste mulighet og bli med i vårt voksende team",
+      "unavailable": "Tar ikke imot søknader for øyeblikket",
+      "apply": "Søk nå",
+      "noMatch": "Ser du ikke den perfekte rollen?",
+      "sendCv": "Send oss CV-en din",
+      "listings": [
+        {
+          "title": "Senior fullstack-ingeniør",
+          "department": "Ingeniørfag",
+          "location": "Fjern (EU-tidssoner)",
+          "type": "Fulltid",
+          "description": "Bygg skalerbare bedriftsapplikasjoner ved bruk av React, Node.js og skyteknologier.",
+          "tags": [
+            "React",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps-ingeniør",
+          "department": "Ingeniørfag",
+          "location": "Sarajevo / Fjernkontroll",
+          "type": "Fulltid",
+          "description": "Design og vedlikehold CI/CD-rørledninger, infrastruktur som kode, og overvåkingssystemer.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI/ML-ingeniør",
+          "department": "Innovasjonslaboratorium",
+          "location": "Fjernkontroll",
+          "type": "Fulltid",
+          "description": "Utvikle maskinlæringsmodeller og KI-løsninger for bedriftskunder.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Produktdesigner",
+          "department": "Design",
+          "location": "Fjernkontroll",
+          "type": "Fulltid",
+          "description": "Lag vakre, intuitive brukeropplevelser for komplekse bedriftsapplikasjoner.",
+          "tags": [
+            "Figma",
+            "Brukerforskning",
+            "UI/UX",
+            "Designsystemer"
+          ]
+        },
+        {
+          "title": "Løsningsarkitekt",
+          "department": "Ingeniørfag",
+          "location": "Fjernkontroll",
+          "type": "Fulltid",
+          "description": "Design komplette tekniske løsninger og veiled kunder gjennom digital transformasjon.",
+          "tags": [
+            "Skyarkitektur",
+            "Systemdesign",
+            "Konsulentvirksomhet"
+          ]
+        },
+        {
+          "title": "Teknisk skribent",
+          "department": "Drift",
+          "location": "Fjernkontroll",
+          "type": "Deltid",
+          "description": "Lag omfattende dokumentasjon, veiledninger og teknisk innhold.",
+          "tags": [
+            "Dokumentasjon",
+            "API-dokumentasjon",
+            "Teknisk skriving"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Spørsmål om å jobbe her?",
+      "description": "Vi vil gjerne høre fra deg. Ta kontakt, så svarer vi på alle spørsmål om livet ved Horizon Tech.",
+      "button": "Kontakt oss"
+    }
+  },
+  "caseStudies": {
+    "badge": "Suksesshistorier",
+    "hero": {
+      "titlePrefix": "Å levere resultater som",
+      "titleHighlight": "Materie",
+      "description": "Utforsk hvordan vi har hjulpet selskaper på tvers av bransjer med å transformere driften gjennom praktisk, kraftfull teknologi.",
+      "tags": {
+        "delivery": "Ingeniørleveranse",
+        "outcomes": "Målte utfall"
+      }
+    },
+    "stats": {
+      "projects": "Gjennomførte prosjekter",
+      "clients": "Fornøyde kunder",
+      "efficiency": "Gjennomsnittlig effektivitetsgevinst",
+      "retention": "Kundelojalitet"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Finansielle tjenester",
+        "title": "Skymigrasjon og modernisering",
+        "description": "Migrerte eldre banksystemer til AWS skyinfrastruktur uten nedetid.",
+        "challenge": "Legacy-monolittisk arkitektur som forårsaker skalerbarhetsproblemer",
+        "result": "Migrerte vellykket til mikrotjenester på AWS",
+        "metrics": [
+          {
+            "label": "Kostnadsreduksjon",
+            "value": "40%"
+          },
+          {
+            "label": "Ytelsesgevinst",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Mikrotjenester",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech-løsninger",
+        "industry": "Helsevesenet",
+        "title": "AI-drevet diagnostisk plattform",
+        "description": "Bygde ML-modeller for medisinsk bildeanalyse med 95%+ nøyaktighet.",
+        "challenge": "Manuelle diagnostiske prosesser tar for lang tid",
+        "result": "Automatisert diagnostikk med AI/ML",
+        "metrics": [
+          {
+            "label": "Spart tid",
+            "value": "70%"
+          },
+          {
+            "label": "Nøyaktighet",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "React",
+          "Helsevesenet"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "E-handelsgiganten",
+        "industry": "Detaljhandel",
+        "title": "Sanntidsanalysedashbord",
+        "description": "Utviklet BI-plattformen som behandler 10 millioner hendelser daglig.",
+        "challenge": "Ingen sanntidsinnsikt i viktige forretningsmålinger",
+        "result": "Plattform for sanntidsanalyse og innsikt",
+        "metrics": [
+          {
+            "label": "Arrangementer/Dag",
+            "value": "10M+"
+          },
+          {
+            "label": "Responstid",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "React",
+          "Dataingeniørfag"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Klar til å skrive suksesshistorien din?",
+      "description": "La oss diskutere hvordan vi kan hjelpe deg å oppnå lignende resultater og skalere med selvtillit."
+    },
+    "filters": {
+      "title": "Industrifilter",
+      "all": "Alle industrier",
+      "empty": "Ingen casestudier matcher det valgte industrifilteret."
+    }
+  },
+  "blog": {
+    "badge": "Blogg",
+    "hero": {
+      "titlePrefix": "Innsikter og ideer fra",
+      "titleHighlight": "Horizon Tech",
+      "description": "Tekniske veiledninger, bransjeinnsikt og praktiske lærdommer fra ekte leveringsarbeid."
+    },
+    "categories": [
+      "Alle innlegg",
+      "Skyarkitektur",
+      "DevOps",
+      "AI/ML",
+      "Frontend",
+      "Backend",
+      "Data"
+    ],
+    "featuredPost": {
+      "id": "Fremhevet",
+      "title": "Fremtiden for skybasert utvikling: Trender å følge med på i 2025",
+      "excerpt": "Utforsk de nyeste trendene innen skybasert utvikling, fra serverløse arkitekturer til edge computing.",
+      "author": {
+        "name": "Horizon Techs redaksjon"
+      },
+      "date": "15. november 2025",
+      "readTime": "8 minutters lesing",
+      "category": "Skyarkitektur",
+      "tags": [
+        "Cloud",
+        "Azure",
+        "Trender"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Bygging av skalerbare mikrotjenester med Azure Kubernetes Service",
+        "excerpt": "En praktisk guide til å arkitektere og distribuere mikrotjenester ved bruk av AKS.",
+        "author": {
+          "name": "Horizon Techs redaksjon"
+        },
+        "date": "12. november 2025",
+        "readTime": "6 minutters lesing",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Mikrotjenester",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Maskinlæring i produksjon: Lærdommer",
+        "excerpt": "Felttestede lærdommer fra bruk av ML-modeller i stor skala.",
+        "author": {
+          "name": "Horizon Techs redaksjon"
+        },
+        "date": "10. november 2025",
+        "readTime": "10 minutters lesing",
+        "category": "AI/ML",
+        "tags": [
+          "Maskinlæring",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Hva er nytt og hvorfor det er viktig",
+        "excerpt": "En grundig gjennomgang av React 19-funksjoner og ytelsesimplikasjoner.",
+        "author": {
+          "name": "Horizon Techs redaksjon"
+        },
+        "date": "8. november 2025",
+        "readTime": "5 minutters lesing",
+        "category": "Frontend",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Webutvikling"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Abonner på vårt nyhetsbrev",
+      "description": "Få de nyeste artiklene, veiledningene og innsiktene levert ukentlig.",
+      "placeholder": "your.email@example.com",
+      "button": "Abonner",
+      "note": "Ingen spam. Avslutt abonnementet når som helst."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Ingeniørblogg",
+        "description": "Feltnotater og praktiske mønstre fra team som bygger AI-produkter, bedriftssystemer og pålitelige skyplattformer."
+      },
+      "filters": {
+        "postsInView": "{{count}} innlegg i sikte"
+      },
+      "featured": {
+        "badge": "Siste nytt",
+        "readCta": "Les utvalgt innlegg"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Laster profil...",
+    "title": "Profilinnstillinger",
+    "subtitle": "Administrer kontoinnstillingene og preferansene dine",
+    "photoButton": "Endre bilde",
+    "tabs": {
+      "general": "Generelt",
+      "security": "Sikkerhet",
+      "preferences": "Preferanser"
+    },
+    "messages": {
+      "profileUpdated": "Profil oppdatert vellykket",
+      "profileUpdateFailed": "Mislyktes i å oppdatere profilen",
+      "passwordsNoMatch": "Nye passord stemmer ikke overens",
+      "passwordTooShort": "Passordet må være minst 8 tegn langt",
+      "passwordChanged": "Passord endret vellykket",
+      "passwordChangeFailed": "Klarte ikke å endre passord",
+      "optedOut": "Rapporter om å ikke delta i praksis",
+      "optedIn": "Valgte å delta i treningsrapporter",
+      "optOutFailed": "Klarte ikke å oppdatere status for å melde seg ut"
+    },
+    "general": {
+      "title": "Personlig informasjon",
+      "description": "Oppdater dine personlige opplysninger og kontaktinformasjon",
+      "firstName": "Fornavn",
+      "firstNamePlaceholder": "John",
+      "lastName": "Etternavn",
+      "lastNamePlaceholder": "Doe",
+      "email": "E-postadresse",
+      "emailNotice": "E-post kan ikke endres. Kontakt support hvis du trenger hjelp.",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Endringer i lagring"
+    },
+    "security": {
+      "title": "Sikkerhetsinnstillinger",
+      "description": "Administrer passordet ditt og sikkerhetsinnstillingene dine",
+      "currentPassword": "Nåværende passord",
+      "currentPasswordPlaceholder": "Skriv inn nåværende passord",
+      "newPassword": "Nytt passord",
+      "newPasswordPlaceholder": "Skriv inn nytt passord",
+      "confirmPassword": "Bekreft nytt passord",
+      "confirmPasswordPlaceholder": "Bekreft nytt passord",
+      "passwordHint": "Må være minst 8 tegn lang",
+      "changePassword": "Endre passord"
+    },
+    "preferences": {
+      "title": "Varslingsinnstillinger",
+      "description": "Kontroller hvordan du mottar oppdateringer og varsler",
+      "email": {
+        "title": "E-postvarsler",
+        "description": "Motta oppdateringer og varsler på e-post"
+      },
+      "sms": {
+        "title": "SMS-varsler",
+        "description": "Motta viktige varsler via tekstmelding"
+      },
+      "optOut": {
+        "title": "Rapporter om å melde seg ut av praksis",
+        "description": "Skjul rapportene dine for praksiseieren"
+      },
+      "actions": {
+        "title": "Kontohandlinger",
+        "downloadData": "Last ned kontodata",
+        "deleteAccount": "Slett konto"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Tilbake til hjemmet",
+    "title": "Støttesenter",
+    "subtitle": "Få hjelp med våre programvareutviklingstjenester",
+    "cards": {
+      "email": {
+        "title": "E-poststøtte",
+        "description": "Send oss en e-post hvis du har henvendelser"
+      },
+      "project": {
+        "title": "Prosjektforespørsler",
+        "description": "Diskuter prosjektkravene dine",
+        "button": "Kontakt oss"
+      },
+      "resources": {
+        "title": "Ressurser",
+        "description": "Tekniske ressurser og veiledninger",
+        "button": "Se ressurser"
+      }
+    },
+    "faqTitle": "Ofte stilte spørsmål",
+    "faqDescription": "Raske svar på vanlige spørsmål",
+    "faqs": [
+      {
+        "question": "Hvilke tjenester tilbyr Horizon Tech?",
+        "answer": "Vi tilbyr skreddersydd programvareutvikling, AI/ML-løsninger, skyarkitektur, DevOps, forretningsintelligens og IoT-tjenester."
+      },
+      {
+        "question": "Hvordan starter jeg et prosjekt med Horizon Tech?",
+        "answer": "Kontakt oss via skjema eller e-post med dine behov. Vi avtaler en opplysningssamtale og deler et forslag."
+      },
+      {
+        "question": "Gir dere løpende støtte og vedlikehold?",
+        "answer": "Ja. Vi tilbyr støtte- og vedlikeholdspakker som inkluderer feilrettinger, sikkerhetsoppdateringer og funksjonsforbedringer."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Tilbake til hjemmet",
+    "title": "Tekniske ressurser",
+    "subtitle": "Guider, veiledninger og beste praksis fra Horizon Tech-teamet",
+    "hub": {
+      "title": "Læringshub",
+      "description": "Utforsk våre kuraterte tekniske ressurser innen sky, AI/ML, DevOps og moderne programvareutvikling.",
+      "note": "Disse materialene er basert på reell prosjekterfaring og oppdateres jevnlig."
+    },
+    "categories": [
+      {
+        "icon": "Sky",
+        "title": "Skyarkitektur",
+        "description": "Azure, AWS og sky-native mønstre",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Guide"
+          },
+          {
+            "title": "Skymigrasjonsstrategier",
+            "type": "Artikkel"
+          }
+        ]
+      },
+      {
+        "icon": "hjerne",
+        "title": "AI og maskinlæring",
+        "description": "ML-modeller, datavitenskap og AI-integrasjon",
+        "resources": [
+          {
+            "title": "Introduksjon til Azure ML",
+            "type": "Veiledning"
+          },
+          {
+            "title": "Bygging av produksjons-ML-rørledninger",
+            "type": "Guide"
+          }
+        ]
+      },
+      {
+        "icon": "Innstillinger",
+        "title": "DevOps og plattform",
+        "description": "CI/CD, infrastruktur som kode, automatisering",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Veiledning"
+          },
+          {
+            "title": "Infrastruktur som kode med Terraform",
+            "type": "Guide"
+          }
+        ]
+      },
+      {
+        "icon": "Kode",
+        "title": "Programvareutvikling",
+        "description": ".NET, React og moderne utviklingspraksis",
+        "resources": [
+          {
+            "title": "Ren arkitektur i .NET",
+            "type": "Guide"
+          },
+          {
+            "title": "React beste praksis",
+            "type": "Artikkel"
+          }
+        ]
+      },
+      {
+        "icon": "Database",
+        "title": "Data og analyse",
+        "description": "BI, datavare- og analyseplattformer",
+        "resources": [
+          {
+            "title": "Power BI Dashborddesign",
+            "type": "Veiledning"
+          },
+          {
+            "title": "Datalagerarkitektur",
+            "type": "Guide"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Trenger du tilpasset opplæring?",
+      "description": "Vi tilbyr skreddersydde workshops for ingeniør- og produktteam",
+      "text": "Trenger du praktisk teamtrening? Vi tilbyr skreddersydde workshops om skyarkitektur, DevOps og moderne leveringsmetoder.",
+      "button": "Ta kontakt"
+    }
+  },
+  "unauthorized": {
+    "title": "Tilgang nektet",
+    "description": "Du har ikke tillatelse til å få tilgang til denne siden. Kontakt administratoren din hvis du mener dette er en feil.",
+    "primary": "Gå til Profil",
+    "secondary": "Tilbake til hjemmet"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Innlegg ikke funnet",
+      "description": "Det finnes ikke noe blogginnlegg om slug: {{slug}}",
+      "back": "Tilbake til bloggen"
+    },
+    "back": "Tilbake til bloggen",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Casestudie ikke funnet",
+      "description": "Det finnes ingen casestudie for id: {{id}}",
+      "back": "Tilbake til casestudiene"
+    },
+    "back": "Tilbake til casestudiene",
+    "sections": {
+      "executiveSummary": "Sammendrag",
+      "businessChallenge": "Forretningsutfordring",
+      "technicalSolution": "Teknisk løsning",
+      "architectureDecisions": "Arkitekturbeslutninger",
+      "technologyStack": "Teknologistakk",
+      "resultsImpact": "Resultater og innvirkning"
+    },
+    "client": "Klient",
+    "keyOutcomes": "Nøkkelresultater",
+    "decision": "Avgjørelse {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Signal tapt",
+      "title": "Siden ikke funnet",
+      "description": "Ruten du ba om eksisterer ikke eller har flyttet seg. La oss få deg tilbake til et gyldig Horizon Tech-endepunkt.",
+      "requestedPath": "Forespurt sti",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Løser rutegraf... mislyktes",
+        "line2": "Årsak: ingen matchende rutemodul",
+        "line3": "Fallback-protokoll aktivert",
+        "line4": "Bruk en av snarveiene nedenfor for å fortsette"
+      },
+      "links": {
+        "home": "Hjemmeside",
+        "services": "Tjenester",
+        "blog": "Blogg",
+        "caseStudies": "Casestudier"
+      }
+    },
+    "runtime": {
+      "badge": "Kjøretidsfeil",
+      "title": "Noe gikk i stykker på denne siden",
+      "description": "Et uventet problem avbrøt renderingen. Du kan prøve på nytt trygt, eller gå tilbake til forsiden.",
+      "retry": "Nytt forsøk",
+      "home": "Tilbake til forsiden",
+      "unknown": "Ukjent kjøretidsfeil"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Bloggadministrasjon",
+      "subtitle": "Lag, rediger og administrer blogginnleggene dine",
+      "newPost": "Ny stilling",
+      "seedData": "Frødata",
+      "allPosts": "Alle innlegg",
+      "published": "Publisert",
+      "draft": "Draft",
+      "featured": "Fremhevet",
+      "setFeatured": "Sett med",
+      "removeFeatured": "Fjern fremhevet",
+      "table": {
+        "title": "Tittel",
+        "category": "Kategori",
+        "status": "Status",
+        "date": "Dato",
+        "actions": "Handlinger"
+      },
+      "empty": {
+        "message": "Ingen blogginnlegg ennå. Lag ditt første innlegg eller seed sample-data.",
+        "seed": "Frøprøvedata",
+        "create": "Opprett innlegg"
+      },
+      "delete": {
+        "title": "Slett innlegg",
+        "confirmation": "Er du sikker på at du vil slette dette innlegget? Denne handlingen kan ikke gjøres om.",
+        "delete": "Slett",
+        "cancel": "Avbryt"
+      }
+    },
+    "editor": {
+      "bannerHint": "Vises som et bredt banner øverst på stolpen",
+      "bannerImage": "Bannerbilde",
+      "coverHint": "Vises i blogger-oppføringskort",
+      "coverImage": "Omslagsbilde",
+      "editSlug": "Rediger slug",
+      "posts": "Stillinger",
+      "publish": "Publiser",
+      "update": "Oppdatering",
+      "form": {
+        "contentPlaceholder": "Skriv innholdet ditt her...",
+        "excerptPlaceholder": "Kort oppsummering av innlegget...",
+        "pickDate": "Velg en dato",
+        "readTimePlaceholder": "f.eks. 5 minutters lesing",
+        "titlePlaceholder": "Innleggstittel..."
+      },
+      "meta": {
+        "publisher": "Forlag",
+        "unknownAuthor": "Ukjent forfatter"
+      },
+      "modes": {
+        "edit": "Redigering",
+        "editOnly": "Kun redigering",
+        "preview": "Forhåndsvisning",
+        "previewOnly": "Kun forhåndsvisning",
+        "sideBySide": "Side om side",
+        "split": "Splittelse"
+      },
+      "tags": {
+        "heading": "Stikkord",
+        "placeholder": "Legg til en..."
+      },
+      "translations": {
+        "auto": "Auto",
+        "autoTranslate": "Auto-oversettelse",
+        "clear": "Klart",
+        "existing": "Eksisterende",
+        "heading": "Oversettelser",
+        "language": "Språk",
+        "languages": "Språk",
+        "edit": "Redigering",
+        "manual": "Manuell",
+        "preview": "Forhåndsvisning",
+        "searchPlaceholder": "Søkespråk...",
+        "translate": "Oversett"
+      }
+    },
+    "caseStudies": {
+      "title": "Casestudier",
+      "subtitle": "Administrere casestudier og prosjektpresentasjoner",
+      "newCaseStudy": "Ny casestudie",
+      "seedData": "Frødata",
+      "allCaseStudies": "Alle casestudier",
+      "published": "Publisert",
+      "draft": "Draft",
+      "table": {
+        "title": "Tittel",
+        "industry": "Industri",
+        "client": "Klient",
+        "status": "Status",
+        "actions": "Handlinger"
+      },
+      "empty": {
+        "message": "Ingen casestudier ennå.",
+        "seed": "Frødata",
+        "create": "Create First"
+      },
+      "delete": {
+        "title": "Slett casestudie",
+        "confirmation": "Er du sikker på at du vil slette denne casestudien? Denne handlingen kan ikke gjøres om.",
+        "delete": "Slett",
+        "cancel": "Avbryt"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Casestudier",
+      "published": "Publisert",
+      "draft": "Draft",
+      "update": "Oppdatering",
+      "create": "Lag",
+      "sections": {
+        "basicInfo": "Grunnleggende informasjon",
+        "narrative": "Fortelling",
+        "architectureDecisions": "Arkitekturbeslutninger",
+        "techStack": "Teknologistakk",
+        "results": "Resultater",
+        "tags": "Stikkord"
+      },
+      "fields": {
+        "title": "Tittel",
+        "titlePlaceholder": "Casestudietittel",
+        "slug": "Slug",
+        "slugPlaceholder": "automatisk generert-fra-tittel",
+        "client": "Klient",
+        "clientPlaceholder": "Klientnavn",
+        "industry": "Industri",
+        "industryPlaceholder": "Utvalgt bransje",
+        "description": "Beskrivelse",
+        "descriptionPlaceholder": "Kort beskrivelse (vist på kortene)",
+        "executiveSummary": "Sammendrag",
+        "executiveSummaryPlaceholder": "Overordnet oversikt over engasjementet",
+        "challenge": "Utfordring",
+        "challengePlaceholder": "Hvilket problem sto klienten overfor?",
+        "solution": "Løsning",
+        "solutionPlaceholder": "Hvordan ble problemet løst?",
+        "decision": "Avgjørelse",
+        "decisionPlaceholder": "Hva som ble bestemt",
+        "rationale": "Begrunnelse",
+        "rationalePlaceholder": "Hvorfor denne tilnærmingen ble valgt",
+        "metric": "Metrikk",
+        "metricPlaceholder": "f.eks. oppgjørsforsinkelse",
+        "value": "Verdi",
+        "valuePlaceholder": "f.eks. -63 % eller 4,8 timer -> 11 m",
+        "resultDescription": "Beskrivelse",
+        "resultDescriptionPlaceholder": "Hva dette resultatet betyr",
+        "techPlaceholder": "Legg til teknologi (trykk Enter)",
+        "tagPlaceholder": "Legg til tag (trykk Enter)"
+      },
+      "add": "Legg til",
+      "noArchDecisions": "Ingen arkitekturbeslutninger lagt til ennå.",
+      "noResults": "Ingen resultater lagt til ennå.",
+      "decisionLabel": "Avgjørelse {{number}}",
+      "resultLabel": "Resultat {{number}}",
+      "controls": {
+        "published": "Publisert",
+        "publishedDescription": "Gjør denne casestudien offentlig synlig",
+        "featured": "Fremhevet",
+        "featuredDescription": "Fremhev denne casestudien"
+      }
+    },
+    "imageCrop": {
+      "apply": "Søk",
+      "cancel": "Avbryt",
+      "cropTitle": "Beskjære bilde",
+      "dropText": "Legg ut et bilde her eller klikk for å laste opp",
+      "flipHorizontal": "Vend horisontalt",
+      "flipVertical": "Flip vertikal",
+      "replace": "Bytt ut",
+      "reset": "Tilbakestilling",
+      "rotateLeft": "Roter til venstre",
+      "rotateRight": "Roter til høyre",
+      "uploading": "Laster opp...",
+      "toast": {
+        "invalidFile": "Ugyldig fil",
+        "invalidFileDesc": "Vennligst last opp en gyldig bildefil.",
+        "uploadFailed": "Oplasting mislyktes",
+        "uploadFailedDesc": "Noe gikk galt. Vennligst prøv igjen.",
+        "uploaded": "Bilde lastet opp",
+        "uploadedDesc": "Bildet ditt har blitt lastet opp med suksess."
+      }
+    }
+  }
+}

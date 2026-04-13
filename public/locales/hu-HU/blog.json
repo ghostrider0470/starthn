@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Mind"
+  },
+  "categories": {
+    "aiEngineering": "MI mérnöki tevékenység",
+    "enterpriseArchitecture": "Vállalati architektúra",
+    "cloudDevOps": "Felhő és DevOps",
+    "automationSystems": "Automatizációs rendszerek",
+    "softwareReliabilityDesign": "Szoftver megbízhatóság és tervezés"
+  },
+  "readTime": "{{minutes}} min olvasás",
+  "tagsLabel": "Címkék",
+  "relatedPosts": "Kapcsolódó bejegyzések",
+  "author": {
+    "role": "Kiadó"
+  },
+  "editor": {
+    "emptyPreview": "Kezdj el írni, hogy láss egy előzeteset..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Prompt Engineering",
+    "observability": "Megfigyelhetőség",
+    "safety": "Biztonság",
+    "domainDesign": "Domain Design",
+    "integration": "Integráció",
+    "governance": "Kormányzás",
+    "platformStrategy": "Platform Stratégia",
+    "platformEngineering": "Platformmérnöki munka",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Fejlesztői tapasztalat",
+    "eventDriven": "Eseményvezérelt",
+    "workflowOrchestration": "Munkafolyamatok orkrárációja",
+    "controlPlanes": "Irányító síkok",
+    "resilience": "Ellenálló képesség",
+    "sre": "SRE",
+    "slos": "SLO-k",
+    "failureModes": "Hibamódok",
+    "resilienceEngineering": "Rezisztenszenciás mérnökség",
+    "evaluation": "Értékelés",
+    "qualityEngineering": "Minőségi mérnökség",
+    "datasets": "Adathalmazok",
+    "releaseManagement": "Kiadáskezelés",
+    "incidentManagement": "Eseménykezelés",
+    "architectureEvolution": "Az építészet fejlődése",
+    "riskReduction": "Kockázatcsökkentés",
+    "postmortems": "Boncolások",
+    "progressiveDelivery": "Progresszív Előadás",
+    "canaryReleases": "Kanári kiadások",
+    "featureFlags": "Kiemelt zászlók"
+  }
+}

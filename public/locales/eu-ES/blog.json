@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Denak"
+  },
+  "categories": {
+    "aiEngineering": "AI ingeniaritza",
+    "enterpriseArchitecture": "Enpresa arkitektura",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Automatizazio sistemak",
+    "softwareReliabilityDesign": "Softwarearen fidagarritasuna eta diseinua"
+  },
+  "readTime": "{{minutes}} minutu irakurrita",
+  "tagsLabel": "Etiketak",
+  "relatedPosts": "Erlazionatutako mezuak",
+  "author": {
+    "role": "Argitaratzailea"
+  },
+  "editor": {
+    "emptyPreview": "Hasi idazten aurrebista bat ikusteko..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Ingeniaritza azkarra",
+    "observability": "Behagarritasuna",
+    "safety": "Segurtasuna",
+    "domainDesign": "Domeinuaren diseinua",
+    "integration": "Integrazioa",
+    "governance": "Gobernantza",
+    "platformStrategy": "Plataformaren estrategia",
+    "platformEngineering": "Plataforma ingeniaritza",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Garatzaileen esperientzia",
+    "eventDriven": "Gertaerek gidatutako",
+    "workflowOrchestration": "Lan-fluxuaren orkestrazioa",
+    "controlPlanes": "Kontrol-planoak",
+    "resilience": "Erresilientzia",
+    "sre": "SRE",
+    "slos": "SLOak",
+    "failureModes": "Hutsegite moduak",
+    "resilienceEngineering": "Erresilientzia Ingeniaritza",
+    "evaluation": "Ebaluazioa",
+    "qualityEngineering": "Kalitatezko ingeniaritza",
+    "datasets": "Datu-multzoak",
+    "releaseManagement": "Argitalpenen kudeaketa",
+    "incidentManagement": "Gertakarien kudeaketa",
+    "architectureEvolution": "Arkitekturaren bilakaera",
+    "riskReduction": "Arriskua murriztea",
+    "postmortems": "Heriotza ostekoak",
+    "progressiveDelivery": "Entrega progresiboa",
+    "canaryReleases": "Kanariar askapenak",
+    "featureFlags": "Ezaugarrien banderak"
+  }
+}

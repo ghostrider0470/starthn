@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Awọn ọna šiše imọ-ẹrọ ti o ṣe iwọn",
+    "subtitle": "Sọfitiwia Idawọlẹ · AI ati Ẹkọ Ẹrọ · Awọn amayederun awọsanma · IoT & Edge",
+    "description": "Lati adaṣe ọlọgbọn si awọn iru ẹrọ abinibi awọsanma, a ṣe apẹrẹ ati fi imọ-ẹrọ ti o ni agbara awọn iṣowo ti o ni agbara — ni akoko, lori isuna, ni iwọn.",
+    "cta": {
+      "primary": "Bẹrẹ iṣẹ akanṣe kan",
+      "secondary": "Wo Iṣẹ́ Wa"
+    },
+    "trustLine": "Igbẹkẹle nipasẹ awọn ile-iṣẹ ni agbaye"
+  },
+  "services": {
+    "subtitle": "Awọn iṣẹ wa",
+    "title": "Imọ-ẹrọ Imọ-ẹrọ ni kikun",
+    "description": "Awọn agbegbe adaṣe mẹfa. Ẹgbẹ kan. Gbogbo fẹlẹfẹlẹ ti akopọ imọ-ẹrọ rẹ — lati awọn ẹrọ eti si awọn dasibodu ile-iṣẹ.",
+    "commentMarker": "AWỌN IṢẸ",
+    "items": {
+      "customSoftware": {
+        "title": "Aṣa Software Development",
+        "description": "Awọn ohun elo igbalode ti a kọ pẹlu awọn microservices, awọn API, ati faaji abinibi awọsanma."
+      },
+      "aiMl": {
+        "title": "AI, ML ati Oye Iṣowo",
+        "description": "Awọn opo gigun ti AI / ML, awọn dasibodu Power BI, ati awọn atupale to ti ni ilọsiwaju ti o yi data pada si awọn ipinnu."
+      },
+      "cloud": {
+        "title": "Awọsanma faaji ati amayederun",
+        "description": "Awọn amayederun awọsanma pupọ pẹlu awọn apoti, ti ko ni olupin, ati iwọntunwọnsi agbaye ti a ṣe sinu."
+      },
+      "iot": {
+        "title": "IoT & Edge Computing",
+        "description": "Awọn ẹrọ ti a sopọ, awọn ibeji oni-nọmba, ati iširo eti fun Ile-iṣẹ 4.0."
+      },
+      "devops": {
+        "title": "DevOps & Platform Engineering",
+        "description": "Awọn opo gigun ti CI / CD, amayederun bi koodu, ati akiyesi lati ṣe si iṣelọpọ."
+      },
+      "digital": {
+        "title": "Iyipada Digital ati Ijumọsọrọ",
+        "description": "Ilana imọ-ẹrọ, awọn ọna opopona igbalode, ati ijumọsọrọ ọwọ."
+      }
+    },
+    "cta": {
+      "title": "Jẹ ki a kọ nkan ti o ṣe pataki.",
+      "description": "Lati idagbasoke sọfitiwia aṣa ati awọn solusan ti o ni agbara AI si awọn amayederun awọsanma ati adaṣe — a pese awọn iṣẹ imọ-ẹrọ opin-si-opin ti a ṣe deede si awọn ibeere rẹ.",
+      "primary": "Bẹrẹ iṣẹ akanṣe rẹ",
+      "secondary": "Ijumọsọrọ Iṣeto"
+    },
+    "learnMore": "Kọ́ ẹ̀kọ́ púpọ̀ síi"
+  },
+  "credibility": {
+    "subtitle": "Wa Track Record",
+    "title": "Awọn abajade, kii ṣe <gradient>awọn ileri</gradient>",
+    "titlePlain": "Awọn abajade, kii ṣe awọn ileri",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Lati Sarajevo si Oslo, Amsterdam ati Berlin. Awọn ile-iṣẹ ti a firanṣẹ ni akoko, ni gbogbo igba.",
+    "stats": {
+      "experience": "Awọn ọdun ti o ni iriri",
+      "countries": "Àwọn orílẹ̀-èdè tí wọ́n ń sìn",
+      "systems": "Awọn ọna šiše ti a firanṣẹ",
+      "industries": "Awọn ile-iṣẹ ti o ṣiṣẹ"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Awọsanma IAM fun Atlas Copco",
+        "outcome": "Ṣe agbekalẹ awọn amayederun Idanimọ Ọkan ti o da lori awọsanma akọkọ fun Atlas Copco lori Azure Kubernetes, idinku awọn idiyele lakoko mimu ibamu ile-iṣẹ."
+      },
+      "orange": {
+        "label": "Syeed Cyberdefense Orange",
+        "outcome": "Ṣe agbekalẹ awọn amayederun Azure Kubernetes, awọn opo gigun CI / CD, ati iṣọpọ ServiceNow aṣa fun ile-iṣẹ cybersecurity ti Yuroopu."
+      },
+      "telecom": {
+        "label": "Telecom GIS & AR Platform",
+        "outcome": "Syeed GIS ti a kọ ni awọn ohun elo ipamo kọja Jẹmánì pẹlu iṣawari ikọlu ti o ṣe idiwọ ibajẹ amayederun miliọnu Euro pupọ."
+      },
+      "iot": {
+        "label": "Cloud IoT & Edge Platform",
+        "outcome": "Azure IoT Hub ti n ṣakoso ẹgbẹẹgbẹrun awọn ẹrọ, Synapse ṣiṣe awọn ọkẹ àìmọye ti awọn ila telemetry, pẹlu akopọ eti gige awọn idiyele ifiranṣẹ nipasẹ ~ 90%."
+      },
+      "drone": {
+        "label": "Syeed Drone adase",
+        "outcome": "Oludari ọkọ ofurufu aṣa pẹlu afara 4G-to-Azure IoT Hub ti o jẹ ki awọn ọkọ ofurufu BVLOS adase fun ibojuwo ogbin ati ifijiṣẹ isanwo."
+      },
+      "payment": {
+        "label": "Owo System Rescue",
+        "outcome": "Ti o ti fipamọ ẹnu-ọna isanwo ti o kuna fun ohun elo alagbeka Norwegian nipasẹ yiyipada-imọ-ẹrọ koodu ti ko ni iwe-aṣẹ. Akoko isanwo odo lẹhin igbalode."
+      },
+      "game": {
+        "label": "AAA Game Dev Tooling",
+        "outcome": "Kọ ohun itanna Maya ti o ge awoṣe 3D ati akoko iwara nipasẹ 50% ni ile-iṣẹ AAA pataki kan, ti a gba bi ọpa boṣewa ninu opo gigun ti iṣelọpọ."
+      },
+      "social": {
+        "label": "Syeed Awujọ ti o da lori Ipo",
+        "outcome": "Ohun elo ibaṣepọ ti a ṣe apẹrẹ fun aaye igbesi aye alẹ ti Ilu Sipeeni pẹlu ibaramu geolocation, fifiranṣẹ akoko gidi, ati awọn iwifunni titari fun alabara UK kan."
+      },
+      "iga": {
+        "label": "Syeed IGA Ọpọlọpọ-Tenant",
+        "outcome": "Kọ ẹhin mojuto fun pẹpẹ iṣakoso idanimọ awọsanma ti n sin awọn alabara Fortune 500 pẹlu aṣa ASP.NET Core Identity fun NoSQL ni ipele ile-iṣẹ."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "EU-Adjacent, Ifijiṣẹ Agbaye",
+        "description": "Awọn wakati iṣẹ CET pẹlu iriri ti o kọja Norway, Netherlands, Jẹmánì, ati kọja."
+      },
+      "yourEngineers": {
+        "title": "Awọn onimọ-ẹrọ rẹ, kii ṣe olutaja",
+        "description": "Awọn ọmọ ẹgbẹ ẹgbẹ ifiṣootọ ti a fi sinu iṣẹ rẹ ati awọn irinṣẹ. Ko si awọn alakoso akọọlẹ, ko si awọn ila tikẹti."
+      },
+      "hardwareToCloud": {
+        "title": "Hardware si awọsanma",
+        "description": "Lati famuwia ẹrọ ti a fi sii si awọn opo gigun ti ile-iṣẹ Azure Synapse. Full-stack software kọja gbogbo fẹlẹfẹlẹ."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Akopọ Imọ-ẹrọ",
+    "title": "<gradient>Akopọ</gradient> Idanwo Ogun",
+    "titlePlain": "Akopọ Idanwo Ogun",
+    "commentMarker": "TECH_STACK",
+    "description": "A ko lo awọn irinṣẹ wọnyi nikan — a ti firanṣẹ awọn eto iṣelọpọ pẹlu wọn. Lati Microsoft Azure si Kubernetes, awọn onise-ẹrọ wa ni imọ-ẹrọ gidi-aye.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Awọsanma ati amayederun",
+        "description": "Faaji awọsanma pupọ pẹlu orchestration eiyan ati awọn amayederun bi koodu."
+      },
+      "frontend": {
+        "label": "Iwaju iwaju",
+        "description": "Modern paati frameworks pẹlu iru ailewu ati iṣapeye kọ tooling."
+      },
+      "backend": {
+        "label": "Backend & APIs",
+        "description": "Awọn iru ẹrọ olupin ile-iṣẹ, awọn ede eto, ati awọn ilana API igbalode."
+      },
+      "data": {
+        "label": "Data & Ibi ipamọ",
+        "description": "Awọn ile itaja ibatan, iwe, ati awọn ile itaja iranti pẹlu wiwa ọrọ ni kikun."
+      },
+      "devops": {
+        "label": "DevOps & Tooling",
+        "description": "Awọn opo gigun CI / CD, iṣakoso ẹya, ati iṣelọpọ Olùgbéejáde."
+      }
+    },
+    "scanning": "AWỌN IGBOHUNSAFẸFẸ ỌLỌJẸ ...",
+    "summary": {
+      "cloudNative": {
+        "title": "Õî÷ó ïîìî÷ü, ÷òî ó ìåíÿ íåò íèêàêèõ",
+        "description": "Gbogbo ise agbese ti wa ni containerized, CI / CD-ìṣó, ati itumọ ti fun petele asekale lati ọjọ akọkọ."
+      },
+      "fullStack": {
+        "title": "Full-Stack Fluency",
+        "description": "Lati React frontends si awọn microservices .NET si awọn iṣupọ Kubernetes — ẹgbẹ kan, opin si opin."
+      },
+      "productionProven": {
+        "title": "Iṣelọpọ-Fihan",
+        "description": "Iwọnyi kii ṣe awọn imọ-ẹrọ demo. Ọpa kọọkan ti a ṣe akojọ ṣe agbara awọn ọna ṣiṣe gidi ti n ṣiṣẹ awọn olumulo gidi loni."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Technology logos ila 1",
+      "row2Aria": "Awọn aami imọ-ẹrọ ila 2",
+      "row3Aria": "Technology logos ila 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Imọ Base",
+    "title": "Awọn <gradient>ibeere</gradient> ti a beere nigbagbogbo",
+    "titlePlain": "Awọn ibeere ti a beere nigbagbogbo",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Ohun gbogbo ti o nilo lati mọ nipa ṣiṣẹ pẹlu Horizon Tech",
+    "items": {
+      "scope": {
+        "question": "Kini aaye iṣẹ rẹ?",
+        "answer": "A fi awọn iṣẹ imọ-ẹrọ opin-si-opin ranṣẹ: sọfitiwia ile-iṣẹ aṣa, awọn opo gigun AI / ML, awọn amayederun awọsanma, awọn ọna ṣiṣe IoT, adaṣe DevOps, ati ijumọsọrọ iyipada oni-nọmba. Boya o nilo pẹpẹ kikun ti a kọ lati ibẹrẹ tabi iṣọpọ ti a fojusi pẹlu akopọ rẹ ti o wa tẹlẹ, a mu faaji, idagbasoke, idanwo, ati gbigbe."
+      },
+      "stack": {
+        "question": "Kini akopọ imọ-ẹrọ ipilẹ rẹ?",
+        "answer": "Akopọ ipilẹ wa lori awọn iru ẹrọ ile-iṣẹ: Azure ati AWS fun awọsanma, .NET ati Node.js fun backend, React ati Angular fun frontend, Kubernetes ati Docker fun orchestration, ati Terraform fun awọn amayederun bi koodu. A tun ṣiṣẹ lọpọlọpọ pẹlu Python fun awọn iṣẹ AI / ML, Power BI ati Fabric fun oye iṣowo, ati PostgreSQL, SQL Server, ati MongoDB fun data."
+      },
+      "enterprise": {
+        "question": "Bawo ni o ṣe ṣe itọju awọn iṣẹ akanṣe ile-iṣẹ?",
+        "answer": "Gbogbo adehun bẹrẹ pẹlu ipele iṣawari lati ṣalaye iwọn, faaji, ati awọn iṣẹlẹ. O gba ẹgbẹ ifiṣootọ pẹlu itọsọna imọ-ẹrọ, awọn atunyẹwo iṣẹlẹ deede, ati iraye si taara si awọn onise-ẹrọ ti o kọ eto rẹ. A tẹle awọn sprints agile pẹlu awọn demos ti awọn alabaṣepọ, ṣetọju awọn igbimọ iṣẹ akanṣe ti o han gbangba, ati pese awọn ijabọ ilọsiwaju ọsẹ."
+      },
+      "support": {
+        "question": "Bawo ni atilẹyin lẹhin ifilole ṣe dabi?",
+        "answer": "A nfunni ni awọn ipele atilẹyin ti a ṣeto pẹlu awọn SLA ti a ṣalaye, pẹlu ibojuwo 24/7, idahun iṣẹlẹ, iṣapeye iṣẹ, ati ẹya ẹya. Awọn adehun atilẹyin wa bo awọn atunṣe kokoro, awọn abulẹ aabo, iwọn amayederun, ati awọn sọwedowo ilera ti o ni ilọsiwaju — ti a ṣe deede si akoko rẹ ati awọn ibeere akoko idahun."
+      },
+      "integration": {
+        "question": "Ṣe o le ṣepọ pẹlu awọn amayederun wa ti o wa tẹlẹ?",
+        "answer": "Dajudaju. A ṣe amọja ni isọdọtun ogun, awọn iṣọpọ API-akọkọ, ati awọn iṣipopada awọsanma arabara. Boya o nilo lati sopọ si awọn eto ERP lori agbegbe, ṣilọ lati awọn monoliths si awọn microservices, tabi ṣe afara awọn ibi ipamọ data ti o ni ilọsiwaju pẹlu awọn iwaju igbalode, a ni awọn iwe ere ijira ati iriri iṣọpọ lati jẹ ki o rọrun pupọ."
+      },
+      "industries": {
+        "question": "Awọn ile-iṣẹ wo ni o ti ṣiṣẹ ninu?",
+        "answer": "Ẹgbẹ wa ti fi awọn iṣẹ akanṣe ranṣẹ kọja fintech, ilera, awọn eekaderi, e-commerce, agbara, ati awọn apa ijọba. A loye awọn ibeere ile-iṣẹ kan pato bi PCI-DSS fun awọn sisanwo, awọn ero HIPAA fun data ilera, ibamu GDPR fun awọn ọja EU, ati telemetry akoko gidi fun IoT ile-iṣẹ."
+      },
+      "engagement": {
+        "question": "Bawo ni ilana adehun naa ṣe dabi?",
+        "answer": "O bẹrẹ pẹlu ipe awari lati ni oye awọn ibi-afẹde rẹ ati imọ-ẹrọ imọ-ẹrọ. Lati ibẹ, a fi iwe scoping kan pẹlu awọn iṣeduro faaji, akoko, ati idinku idoko-owo. Lọgan ti a fọwọsi, a bẹrẹ pẹlu ẹgbẹ ifiṣootọ, sinu awọn irinṣẹ rẹ ati awọn iṣan-iṣẹ, ati bẹrẹ sprint akọkọ laarin awọn ọjọ."
+      }
+    },
+    "stillHaveQuestions": "Ṣi ni awọn ibeere?",
+    "ctaDescription": "Ṣe o ni iṣẹ akanṣe kan ni lokan? Jẹ ki a sọrọ nipa akoko, akoko, ati isuna.",
+    "readCaseStudies": "Ka awọn iwadii ọran wa",
+    "scheduleCall": "Ṣètò ìpè kan"
+  }
+}

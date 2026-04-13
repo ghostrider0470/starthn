@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Uy",
+    "company": "Kompaniya",
+    "solutions": "Yechimlar",
+    "resources": "Manbalar",
+    "innovationLab": "Innovatsiya laboratoriyasi",
+    "contact": "Aloqa",
+    "about": {
+      "title": "Haqida",
+      "description": "Bizning missiyamiz, qarashimiz va hikoyamiz"
+    },
+    "team": {
+      "title": "Jamoa",
+      "description": "Horizon Tech ortidagi odamlar bilan tanishing"
+    },
+    "careers": {
+      "title": "Faoliyati",
+      "description": "Jamoamizga qo'shiling va kelajakni quring"
+    },
+    "enterpriseSoftware": {
+      "title": "Korxona dasturiy ta'minotini ishlab chiqish",
+      "description": "Zamonaviy ramkalar bilan maxsus korporativ ilovalar"
+    },
+    "aiMl": {
+      "title": "Sun'iy intellekt, ML va biznes intellekti",
+      "description": "To'liq AI/ML pipeline'lari va BI boshqaruv panellari"
+    },
+    "cloudArchitecture": {
+      "title": "Bulutli arxitektura va infratuzilma",
+      "description": "Ko'p bulutli yechimlar va konteyner orkestratsiyasi"
+    },
+    "iot": {
+      "title": "IoT va Edge Computing",
+      "description": "Ulangan qurilma ekotizimlari va raqamli egizaklar"
+    },
+    "devops": {
+      "title": "DevOps va Platforma Muhandisligi",
+      "description": "CI/CD quvurlari va infratuzilmasi kod sifatida"
+    },
+    "digitalTransformation": {
+      "title": "Raqamli transformatsiya va strategiya",
+      "description": "Korxonani transformatsiya qilish yo'l xaritalari va maslahatlar"
+    },
+    "caseStudies": {
+      "title": "Misollar",
+      "description": "Mijozlarimizdan muvaffaqiyat hikoyalari",
+      "featured": {
+        "title": "Tanlangan holat",
+        "description": "To'liq yetkazib berish jarayoniga chuqur nazar tashlang"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Tahlillar, darsliklar va sanoat tendentsiyalari",
+      "featured": {
+        "title": "Tanlangan blog posti",
+        "description": "Bizning eng so'nggi muhandislik bilimlarimizdan birini o'qing"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Innovatsiya laboratoriyasi haqida umumiy ma'lumot",
+      "description": "Barcha tadqiqot yo'nalishlari va tajriba yo'nalishlarini ko'ring"
+    },
+    "innovationLabAiSystems": {
+      "title": "Qo'llaniladigan sun'iy intellekt tizimlari",
+      "description": "Ishlab chiqarishga tayyor mashina o'rganish arxitekturasi naqshlari"
+    },
+    "innovationLabNlp": {
+      "title": "Ko'p tilli NLP",
+      "description": "Interaktiv tabiiy tilni qayta ishlash imkoniyatlari"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Genetik algoritm simulyatsiyasi",
+      "description": "Interaktiv muhitda evolyutsion optimallashtirish"
+    },
+    "navigation": "Navigatsiya",
+    "skipToContent": "Mazmunga o'tish",
+    "toggleMenu": "O'chirish menyusi",
+    "dashboard": "Dashboard",
+    "myWorkspace": "Mening ish joyim",
+    "profile": "Profil",
+    "adminPanel": "Admin Panel",
+    "practiceManagement": "Amaliyot boshqaruvi",
+    "logOut": "Chiqish",
+    "education": {
+      "title": "Texnik resurslar",
+      "description": "Horizon Tech jamoasidan qo'llanmalar, darsliklar va eng yaxshi amaliyotlar"
+    },
+    "support": {
+      "title": "Qo'llab-quvvatlash markazi",
+      "description": "Dasturiy ta'minot ishlab chiqish xizmatlarimizda yordam oling"
+    }
+  },
+  "footer": {
+    "description": "Sarayevo, Bosniyada joylashgan dasturiy ta'minot ishlab chiqish startapi. Biz maxsus dasturiy ta'minot, AI/ML yechimlari, bulut arxitekturasi va avtomatlashtirish tizimlarini yaratamiz.",
+    "features": "Xususiyatlari",
+    "resources": "Manbalar",
+    "company": "Kompaniya",
+    "legal": "Huquqiy",
+    "dashboard": "Dashboard",
+    "components": "Tarkibiy qismlar",
+    "documentation": "Hujjatlar",
+    "apiReference": "API ma'lumotnomasi",
+    "gettingStarted": "Boshlash",
+    "examples": "Misollar",
+    "community": "Jamiyat",
+    "blog": "Blog",
+    "caseStudies": "Misollar",
+    "innovationLabOverview": "Innovatsiya laboratoriyasi haqida umumiy ma'lumot",
+    "appliedAiSystems": "Qo'llaniladigan sun'iy intellekt tizimlari",
+    "nlpDemo": "Ko'p tilli NLP",
+    "geneticAlgorithmSimulation": "Genetik algoritm simulyatsiyasi",
+    "featuredBlogPost": "Tanlangan blog posti",
+    "featuredCaseStudy": "Tanlangan holat",
+    "about": "Haqida",
+    "contact": "Aloqa",
+    "partners": "Hamkorlar",
+    "careers": "Faoliyati",
+    "privacyPolicy": "Maxfiylik siyosati",
+    "termsOfService": "Xizmat shartlari",
+    "cookiePolicy": "Cookie siyosati",
+    "license": "Litsenziya",
+    "copyright": "© {{year}} Horizon Tech. Barcha huquqlar himoyalangan.",
+    "subscribe": "Axborot byulleteniga obuna bo'ling"
+  },
+  "header": {
+    "badge": "Korporativ Texnologiya Yechimlari",
+    "titleLine1": "Biznesingizni Transformatsiya qiling",
+    "titleLine2": "Eng so'nggi texnologiyalar",
+    "description": "Korxona dasturiy ta'minotini ishlab chiqish va sun'iy intellektga asoslangan biznes intellektidan tortib, bulutli infratuzilma va IoT yechimlarigacha — biz innovatsiyalarni rag'batlantiruvchi va o'sishni tezlashtiruvchi keng qamrovli texnologik xizmatlarni taqdim etamiz.",
+    "getStarted": "Boshlang",
+    "exploreSolutions": "Yechimlarni o'rganing",
+    "trustedBy": "Ilg'or korxonalar tomonidan ishonchli",
+    "microsoftPartner": "Microsoft Hamkori",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "Korxona yechimlari"
+  },
+  "mobileNav": {
+    "navigation": "Mobil navigatsiya",
+    "home": "Uy",
+    "solutions": "Yechimlar",
+    "caseStudies": "Ishlar",
+    "aiSystems": "AI Lab",
+    "blog": "Blog",
+    "resources": "Manbalar",
+    "contact": "Aloqa"
+  },
+  "sideNav": {
+    "scroll": "Scroll",
+    "navigateTo": "Manzilga o' {{section}}",
+    "sections": {
+      "home": "Uy",
+      "solutions": "Yechimlar",
+      "credibility": "Ishonchlilik",
+      "partners": "Hamkorlar",
+      "caseStudies": "Misollar",
+      "blog": "Blog",
+      "innovationLab": "Innovatsiya laboratoriyasi",
+      "faq": "Ko'p so'raladigan savollar"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Kalit tili",
+    "searchPlaceholder": "Tilni qidirish...",
+    "noResults": "Hech qanday til topilmadi."
+  },
+  "common": {
+    "menu": "Menyu",
+    "account": "Hisob"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "So'nggi holatlar",
+      "description": "Fintech, sog'liqni saqlash, logistika va davlat sektori dasturlari bo'yicha yetkazib berish natijalarining qisqacha tasviri.",
+      "cta": "Barcha holatlarni ko'rish"
+    },
+    "blog": {
+      "title": "Blogimizdan so'nggi ma'lumotlar",
+      "description": "So'nggi AI, platforma va bulut yetkazib berish ishlaridan amaliy muhandislik eslatmalari.",
+      "cta": "Barcha maqolalarni o'qing"
+    },
+    "innovationLab": {
+      "title": "Innovatsiya laboratoriyasi",
+      "description": "Horizon Tech muhandislik jamoasining prototiplari, tajribalari va amaliy ilmiy-tadqiqot loyihalarini o'rganing.",
+      "cta": "Innovatsiya laboratoriyasini o'rganing"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Case Studyni o'qing",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Sog'liqni saqlash",
+      "logistics": "Logistika",
+      "manufacturing": "Ishlab chiqarish",
+      "government": "Hukumat"
+    }
+  },
+  "blogCard": {
+    "read": "O'qish"
+  }
+}

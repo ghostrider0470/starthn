@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "ཡོད་ཚད་"
+  },
+  "categories": {
+    "aiEngineering": "AI བཟོ་སྐྲུན།",
+    "enterpriseArchitecture": "ཁེ་ལས་ཀྱི་བཟོ་བཀོད་",
+    "cloudDevOps": "སྤྲིན་དང་DevOps",
+    "automationSystems": "རང་འགུལ་ཅན་གྱི་མ་ལག",
+    "softwareReliabilityDesign": "མཉེན་ཆས་ཀྱི་བློས་འགེལ་ཆོག་པ་དང་ཇུས་འགོད་"
+  },
+  "readTime": "{{minutes}} སྐར་མ་ཀློག་པ།",
+  "tagsLabel": "ངོ་རྟགས།",
+  "relatedPosts": "འབྲེལ་ཡོད་རྩོམ་ཡིག་",
+  "author": {
+    "role": "དཔེ་སྐྲུན་མཁན།"
+  },
+  "editor": {
+    "emptyPreview": "རྩོམ་ཡིག་འབྲི་འགོ་བརྩམས་ཏེ་སྔོན་ལྟ་ལ་བལྟ་དགོས།"
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "མྱུར་བའི་ལས་གྲྭ།",
+    "observability": "ལྟ་ཞིབ་བྱེད་ནུས།",
+    "safety": "བདེ་འཇགས།",
+    "domainDesign": "ཁྱབ་ཁོངས་ཇུས་འགོད་",
+    "integration": "མཉམ་འདྲེས་ཀྱི་གནས་ཚུལ།",
+    "governance": "བཅོས་སྐྱོང་།",
+    "platformStrategy": "སྟེགས་བུའི་ཐབས་ཇུས།",
+    "platformEngineering": "སྟེགས་བུའི་བཟོ་སྐྲུན།",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "གསར་སྤེལ་པའི་ཉམས་མྱོང་།",
+    "eventDriven": "དོན་རྐྱེན་གྱིས་སྐུལ་ཁྲིད་བྱས་པ།",
+    "workflowOrchestration": "ལས་ཀའི་བརྒྱུད་རིམ་གྱི་སྒྲིག་སྟངས་",
+    "controlPlanes": "ཚོད་འཛིན་གནམ་གྲུ",
+    "resilience": "མཁྲེགས་ཤུགས་ཀྱི་རང་བཞིན།",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "ཕམ་ཁ་འབྱུང་བའི་རྣམ་པ།",
+    "resilienceEngineering": "འགོག་ཤུགས་ལས་གྲྭ།",
+    "evaluation": "གདེང་འཇོག",
+    "qualityEngineering": "སྤུས་ཚད་ལས་གྲྭ།",
+    "datasets": "གཞི་གྲངས་ཆ་ཚང་",
+    "releaseManagement": "འགྲེམ་སྤེལ་དོ་དམ་",
+    "incidentManagement": "དོན་རྐྱེན་དོ་དམ།",
+    "architectureEvolution": "བཟོ་བཀོད་འཕེལ་འགྱུར་",
+    "riskReduction": "ཉེན་ཁ་ཇེ་ཉུང་དུ་གཏོང་བ",
+    "postmortems": "འདས་རྗེས།",
+    "progressiveDelivery": "རིམ་གྱིས་སྐྱེལ་སྤྲོད།",
+    "canaryReleases": "Canary Releases",
+    "featureFlags": "ཁྱད་ལྡན་དར་ཆ་"
+  }
+}

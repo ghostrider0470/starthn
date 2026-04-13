@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Барыһы ла"
+  },
+  "categories": {
+    "aiEngineering": "Яһалма интеллект инженерияһы",
+    "enterpriseArchitecture": "Предприятие архитектураһы",
+    "cloudDevOps": "Облако һәм DevOps",
+    "automationSystems": "Автоматлаштырыу системалары",
+    "softwareReliabilityDesign": "Программа тәьминәте ышаныслылығы һәм проектлау"
+  },
+  "readTime": "{{minutes}} минут уҡыу",
+  "tagsLabel": "Тегтар",
+  "relatedPosts": "Бәйле яҙмалар",
+  "author": {
+    "role": "Нәшриәтсе"
+  },
+  "editor": {
+    "emptyPreview": "Алдан ҡарау өсөн яҙа башлағыҙ..."
+  },
+  "tags": {
+    "llmOps": "LLM операциялары",
+    "promptEngineering": "Prompt Engineering",
+    "observability": "Күҙәтеү мөмкинлеге",
+    "safety": "Хәүефһеҙлек",
+    "domainDesign": "Домен дизайны",
+    "integration": "Интеграция",
+    "governance": "Идара итеү",
+    "platformStrategy": "Платформа стратегияһы",
+    "platformEngineering": "Платформа инженерлығы",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Эшләүсе тәжрибәһе",
+    "eventDriven": "Ваҡиғаларға нигеҙләнгән",
+    "workflowOrchestration": "Эш ағымын оркестрациялау",
+    "controlPlanes": "Идара итеү пландары",
+    "resilience": "Сыҙамлылыҡ",
+    "sre": "SRE",
+    "slos": "SLO-лар",
+    "failureModes": "Өҙөлөү режимдары",
+    "resilienceEngineering": "Сыҙамлылыҡ инженерияһы",
+    "evaluation": "Баһалау",
+    "qualityEngineering": "Сифат инженерияһы",
+    "datasets": "Мәғлүмәт йыйылмалары",
+    "releaseManagement": "Релиздарҙы идара итеү",
+    "incidentManagement": "Ваҡиғаларҙы идара итеү",
+    "architectureEvolution": "Архитектураның үҫеше",
+    "riskReduction": "Хәүефте кәметеү",
+    "postmortems": "Патологоанатомия",
+    "progressiveDelivery": "Прогрессив еткереү",
+    "canaryReleases": "Canary релиздары",
+    "featureFlags": "Функция флагтары"
+  }
+}

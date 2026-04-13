@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Ölçegli inženerçilik sistemalary",
+    "subtitle": "Enterprise Software · AI & Machine Learning · Bulut infrastrukturasy · IoT & Edge",
+    "description": "Akylly awtomatlaşdyrmadan başlap, buluta esaslanan platformalara çenli biz abraýly kärhanalary güýçlendirýän tehnologiýany öz wagtynda, býujete we möçberde hödürleýäris.",
+    "cta": {
+      "primary": "Proýekt başlat",
+      "secondary": "Biziň işimize serediň"
+    },
+    "trustLine": "Bütin dünýädäki kompaniýalar tarapyndan ynanylýar"
+  },
+  "services": {
+    "subtitle": "Biziň hyzmatlarymyz",
+    "title": "Doly spektrli inženerçilik",
+    "description": "Alty sany türgenleşik meýdançasy. Bir topar. Tehnologiýa stackyňyzyň her bir gatlaky - edge enjamlardan başlap, enterprise dashboardlaryna çenli.",
+    "commentMarker": "HYZMATLAR",
+    "items": {
+      "customSoftware": {
+        "title": "Ýörite programma taýýarlamak",
+        "description": "Mikroservisler, API-ler we bulut-native arhitektura bilen gurlan häzirki zaman programmalar."
+      },
+      "aiMl": {
+        "title": "AI, ML we Business Intelligence",
+        "description": "AI / ML pipelines, Power BI dashboardlary we maglumatlary karara öwürýän öňdebaryjy analitikler."
+      },
+      "cloud": {
+        "title": "Bulut arhitekturasy we infrastrukturasy",
+        "description": "Konteýnerler, serversiz we global ölçegli multi-cloud infrastrukturasy."
+      },
+      "iot": {
+        "title": "IoT & Edge Computing",
+        "description": "Industry 4.0 üçin baglanyşykly enjamlar, digital ekizler we edge computing."
+      },
+      "devops": {
+        "title": "DevOps & Platforma inženerligi",
+        "description": "CI/CD pipelines, kod hökmünde infrastruktura we combetden öndürijilige çenli göze görünýänlik."
+      },
+      "digital": {
+        "title": "Digital transformasiýa we maslahat",
+        "description": "Tehnologiýa strategiýasy, modernizasiýa ýol kartasy we gönüden-göni maslahat bermek."
+      }
+    },
+    "cta": {
+      "title": "Gel, çynlakaý bir zat guralyň",
+      "description": "Ýörite programma taýýarlamakdan we AI esasly çözgütlerden başlap, bulut infrastrukturasyna we awtomatlaşdyrmaga çenli - biz siziň talaplaryňyza laýyk gelýän tehnologiýa hyzmatlaryny hödürleýäris.",
+      "primary": "Proýektiňize başlaň",
+      "secondary": "Gün tertibi boýunça maslahat"
+    },
+    "learnMore": "Kän öwrenmek"
+  },
+  "credibility": {
+    "subtitle": "Biziň gazanan üstünliklerimiz",
+    "title": "Wada däl-de, netije <gradient></gradient>",
+    "titlePlain": "Wada däl-de, netije",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Saraýewodan Oslo, Amsterdam we Berline çenli. Enterprise sistemalary hemişe öz wagtynda eltýär.",
+    "stats": {
+      "experience": "Ýyllar birleşen tejribesi",
+      "countries": "Gulluk edilen ýurtlar",
+      "systems": "Berilýän sistemalar",
+      "industries": "Hyzmat edilýän senagat"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Atlas Copco üçin Cloud IAM",
+        "outcome": "Azure Kubernetes-de Atlas Copco üçin ilkinji bulut esasly One Identity infrastrukturasyny döretdi."
+      },
+      "orange": {
+        "label": "Orange Cyberdefense Platformasy",
+        "outcome": "Ýewropanyň öňdebaryjy kiber howpsuzlyk firmasy üçin Azure Kubernetes infrastrukturasyny, CI / CD pipelines we ýörite ServiceNow integrasiýasyny işläp taýýarlady."
+      },
+      "telecom": {
+        "label": "Telekom GIS & AR Platformasy",
+        "outcome": "Millionlarça ýewro infrastruktura zyýan ýetirilmeginiň öňüni almak üçin Germaniýanyň ähli ýerasty üpjünçiliklerini kartalaşdyrýan GIS platformasyny gurdy."
+      },
+      "iot": {
+        "label": "Cloud IoT & Edge Platform",
+        "outcome": "Azure IoT Hub müňlerçe enjamlary dolandyrýar, Synapse milliardlarça telemetriýa setirlerini işleýär, edge aggregation bilen habar çykdajylaryny ~90% azaltýar."
+      },
+      "drone": {
+        "label": "Awtonom dron platformasy",
+        "outcome": "4G-to-Azure IoT Hub köprüsi bilen ýörite uçuş kontrolörü oba hojalyk monitoringi we ýük eltmek üçin özbaşdak BVLOS uçuşlaryny amala aşyrmaga mümkinçilik berýär."
+      },
+      "payment": {
+        "label": "Töleg sistemasyny halas etmek",
+        "outcome": "Norwegiýanyň mobil programmasy üçin şowsuz töleg geçelgesini dokumentleşdirilmedik köne kodlary tersine inženerçilik arkaly halas etdi. Modernizasiýadan soň tölegleriň zero bozulmagy."
+      },
+      "game": {
+        "label": "AAA Game Dev Tooling",
+        "outcome": "Esasy AAA studiosynda 3D modelleşdirme we animasiýa wagtyny 50% gysgaltýan Maya pluginini ýasady."
+      },
+      "social": {
+        "label": "Ýerleşýän ýere esaslanan sosial platforma",
+        "outcome": "Ispaniýanyň gijeki durmuşy üçin geolokasiýa gabat gelmegi, hakyky wagtly habarlaşma we UK müşderileri üçin push bildirişleri bilen duşuşmak programmasy."
+      },
+      "iga": {
+        "label": "Köp kärendeçi IGA platformasy",
+        "outcome": "Enterprise möçberinde NoSQL üçin ýörite ASP.NET Core Identity bilen Fortune 500 müşderilerine hyzmat edýän buluta esaslanan kimlik dolandyryş platformasy üçin esasy backend guruldy."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "Ýewropa Bileleşigine goňşy global üpjünçilik",
+        "description": "CET Norwegiýada, Niderlandiýada, Germaniýada we beýleki ýurtlarda tejribeli iş sagatlary."
+      },
+      "yourEngineers": {
+        "title": "Satyjy däl-de, inženerleriňiz",
+        "description": "Siziň iş akışyňyza we gurallaryňyza ýerleşdirilen özüni bagyş eden toparyň agzalary. Hasabat müdirleri we bilet nobatlary ýok."
+      },
+      "hardwareToCloud": {
+        "title": "Hardware to Cloud",
+        "description": "Embedded device firmware-den başlap, enterprise Azure Synapse pipeline-a çenli. Her gatlakda doly stack programma."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Tehnologiýa Stack",
+    "title": "Söweşde synalan <gradient>stack</gradient>",
+    "titlePlain": "Söweşde synalan stack",
+    "commentMarker": "TECH_STACK",
+    "description": "Biz bu gurallary diňe bir ulanman, eýsem, öndürijilik sistemalaryny hem iberýäris. Microsoft Azure-dan Kubernetes-e çenli biziň inženerlerimiz hakyky dünýä tejribesine eýedir.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Bulut we infrastruktura",
+        "description": "Konteyner orkestrasyony we kod hökmünde infrastruktura bilen multi-cloud arhitekturasy."
+      },
+      "frontend": {
+        "label": "Frontend",
+        "description": "Tip howpsuzlygy we optimallaşdyrylan gurluşyk gurallary bilen häzirki zaman komponent frameworkleri."
+      },
+      "backend": {
+        "label": "Backend & APIs",
+        "description": "Enterprise derejeli server platformalary, sistem dilleri we häzirki API paradigmalary."
+      },
+      "data": {
+        "label": "Maglumat we saklaýyş",
+        "description": "Doly tekst gözlegli relational, dokument we in-memory saklaýjylary."
+      },
+      "devops": {
+        "label": "DevOps & Tooling",
+        "description": "CI / CD pipelines, wersiýa kontroly we developer netijeliligi."
+      }
+    },
+    "scanning": "SKANER ÝYGYLYKLARY...",
+    "summary": {
+      "cloudNative": {
+        "title": "Öň bellenilen bulutda",
+        "description": "Her bir proýekt konteýnerli, CI / CD-driven we birinji günden gorizontal möçberde gurulýar."
+      },
+      "fullStack": {
+        "title": "Full-stack akgynlylygy",
+        "description": "React frontendlerinden başlap, .NET mikroservislerine we Kubernetes klasterlerine çenli — bir topar, başdan-aýak."
+      },
+      "productionProven": {
+        "title": "Prodýuserlikde subut edilen",
+        "description": "Bular demo tehnologiýalary däl. Her bir gural şu günki hakyky ulanyjylara hyzmat edýän hakyky sistemalary güýçlendirýär."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Tehnologiýa logosynyň 1-nji setiri",
+      "row2Aria": "Tehnologiýa logosy 2-nji setir",
+      "row3Aria": "Tehnologiýa logosy 3-nji setir"
+    }
+  },
+  "faq": {
+    "subtitle": "Bilim bazasy",
+    "title": "Ýygy-ýygydan <gradient>berilýän soraglar</gradient>",
+    "titlePlain": "Ýygy-ýygydan berilýän soraglar",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Horizon Tech bilen işleşmek barada bilmeli ähli zatlaryňyz",
+    "items": {
+      "scope": {
+        "question": "Siziň işiňiz näme?",
+        "answer": "Biz hususy enterprise programmalaryny, AI / ML pipelines, bulut infrastrukturasyny, IoT sistemalaryny, DevOps awtomatlaşdyrmasyny we digital transformasiýa boýunça maslahatlary hödürleýäris. Size sıfırdan gurlan doly platforma ýa-da bar bolan stackyňyz bilen maksada gönükdirilen integrasiýa gerek bolsa-da, biz arhitektura, ösüş, barlag we ýerleşdirme işlerini edýäris."
+      },
+      "stack": {
+        "question": "Siziň esasy tehnologiýa stackyňyz näme?",
+        "answer": "Biziň esasy stackymyz enterprise derejeli platformalara esaslanýar: bulut üçin Azure we AWS, backend üçin .NET we Node.js, frontend üçin React we Angular, orkestrasyon üçin Kubernetes we Docker, kod hökmünde infrastruktura üçin Terraform. Şeýle hem biz AI / ML iş ýükleri üçin Python, iş akyly üçin Power BI we Fabric, maglumat üçin PostgreSQL, SQL Server we MongoDB bilen köp işleşýäris."
+      },
+      "enterprise": {
+        "question": "Siz kärhana proýektlerini nädip dolandyrýarsyňyz?",
+        "answer": "Her bir gatnaşyk möçberi, arhitekturany we ähmiýetli wakalary kesgitlemek üçin açyş tapgyryndan başlanýar. Siz tehniki ýolbaşçy bilen ýörite topar alýarsyňyz, möhüm tapgyrlary yzygiderli gözden geçirýärsiňiz we sistemaňyzy gurýan inženerler bilen gös-göni gürrüňdeş bolýarsyňyz. Biz agile sprintleri gyzyklanýan adamlaryň demolary bilen yzarlaýarys, açyk proýekt tagtalaryny saklaýarys we her hepde gazanylan üstünlikler barada hasabat berýäris."
+      },
+      "support": {
+        "question": "Başlangyçdan soň goldaw nämä meňzeýär?",
+        "answer": "Biz 24/7 monitoring, wakalara jogap bermek, performans optimallaşdyrmak we aýratynlyklary gaýtalamak ýaly kesgitlenen SLA-lar bilen guramaçylykly goldaw derejelerini hödürleýäris. Biziň goldaw şertnamalarymyz ýalňyşlyklary düzetmek, howpsuzlyk düzedişleri, infrastrukturanyň möçberini artdyrmak we siziň uptime we jogap beriş wagtyňyzyň talaplaryna laýyk gelýän öňünden saglyk barlaglaryny öz içine alýar."
+      },
+      "integration": {
+        "question": "Siz bar bolan infrastrukturamyz bilen integrasiýa edip bilermisiňiz?",
+        "answer": "Elbetde. Biz mirasy modernizasiýa, API-first integrasiýasy we hybrid bulut migrasiýasy boýunça hünärmendiris. On-premise ERP sistemalaryna birikmek, monolitlerden mikroservislere geçmek ýa-da öňki maglumat bazalaryny häzirki frontendler bilen köprülemek isleseňiz-de, bizde migrasiýa playbooklary we integrasiýa tejribesi bar."
+      },
+      "industries": {
+        "question": "Siz haýsy pudaklarda işlediňiz?",
+        "answer": "Biziň toparymyz fintech, saglygy goraýyş, logistika, elektron söwda, energetika we döwlet pudaklarynda proýektleri amala aşyrdy. Biz tölegler üçin PCI-DSS, saglyk maglumatlary üçin HIPAA pikirleri, EU bazarlary üçin GDPR laýyklygy we senagat IoT üçin hakyky wagtly telemetriýa ýaly senagatyň talaplaryna düşünýäris."
+      },
+      "engagement": {
+        "question": "Adaglanmak prosesi nähili?",
+        "answer": "Bu siziň maksatlaryňyza we tehniki landşaftyňyza düşünmek üçin açyş çagyryşyndan başlanýar. Ol ýerden biz arhitektura maslahatlary, wagt möhleti we maýa goýumlarynyň bölünişigi bilen ölçeg dokumentini berýäris. Tassyklanandan soň, biz ýörite topar bilen siziň gurallaryňyza we iş akışlaryňyza goşulyp, birnäçe günüň içinde ilkinji sprinte başlaýarys."
+      }
+    },
+    "stillHaveQuestions": "Henizem soraglaryňyz barmy?",
+    "ctaDescription": "Bir proýekt göz öňünde tutýarmysyňyz? Gel, möçber, wagt we býujet barada gürrüň edeliň.",
+    "readCaseStudies": "Mysal barlaglarymyzy okaň",
+    "scheduleCall": "Jaň etmegi planlaşdyryň"
+  }
+}

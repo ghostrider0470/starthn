@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Inženjerski sistemi koji se skaliraju",
+    "subtitle": "Enterprise softver · AI i mašinsko učenje · Cloud infrastruktura · IoT & Edge",
+    "description": "Od inteligentne automatizacije do cloud-native platformi, dizajniramo i isporučujemo tehnologiju koja pokreće ambiciozne biznise — na vrijeme, u okviru budžeta, u velikom obimu.",
+    "cta": {
+      "primary": "Pokreni projekat",
+      "secondary": "Pogledajte naš rad"
+    },
+    "trustLine": "Pouzdani od strane kompanija širom svijeta"
+  },
+  "services": {
+    "subtitle": "Naše usluge",
+    "title": "Inženjering punog spektra",
+    "description": "Šest oblasti prakse. Jedan tim. Svaki sloj vašeg tehnološkog sloja — od edge uređaja do enterprise kontrolnih tabli.",
+    "commentMarker": "USLUGE",
+    "items": {
+      "customSoftware": {
+        "title": "Razvoj prilagođenog softvera",
+        "description": "Moderne aplikacije izgrađene na mikroservisima, API-jima i cloud-native arhitekturi."
+      },
+      "aiMl": {
+        "title": "AI, ML i poslovna inteligencija",
+        "description": "AI/ML pipeline-ovi, Power BI kontrolne table i napredna analitika koja pretvara podatke u odluke."
+      },
+      "cloud": {
+        "title": "Cloud arhitektura i infrastruktura",
+        "description": "Multi-cloud infrastruktura sa ugrađenim kontejnerima, serverless i globalnom skalabilnošću."
+      },
+      "iot": {
+        "title": "IoT i edge računarstvo",
+        "description": "Povezani uređaji, digitalni blizanci i edge computing za Industriju 4.0."
+      },
+      "devops": {
+        "title": "DevOps i platformsko inženjerstvo",
+        "description": "CI/CD cjevovodi, infrastruktura kao kod i posmatranost od commit-a do produkcije."
+      },
+      "digital": {
+        "title": "Digitalna transformacija i konsalting",
+        "description": "Strategija tehnologije, planovi modernizacije i praktično savjetovanje."
+      }
+    },
+    "cta": {
+      "title": "Hajde da napravimo nešto ozbiljno",
+      "description": "Od razvoja softvera po mjeri i rješenja pokretanih umjetnom inteligencijom do cloud infrastrukture i automatizacije — pružamo sveobuhvatne tehnološke usluge prilagođene vašim zahtjevima.",
+      "primary": "Pokrenite svoj projekat",
+      "secondary": "Zakazivanje konsultacija"
+    },
+    "learnMore": "Uči više"
+  },
+  "credibility": {
+    "subtitle": "Naš dosadašnji rad",
+    "title": "Rezultati, ne <gradient>obećanja</gradient>",
+    "titlePlain": "Rezultati, ne obećanja",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Od Sarajeva do Osla, Amsterdama i Berlina. Enterprise sistemi isporučeni na vrijeme, svaki put.",
+    "stats": {
+      "experience": "Godine ukupnog iskustva",
+      "countries": "Zemlje kojima se služi",
+      "systems": "Isporučeni sistemi",
+      "industries": "Industrije kojima se pruža"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM za Atlas Copco",
+        "outcome": "Arhitektirao je prvu cloud-baziranu One Identity infrastrukturu za Atlas Copco na Azure Kubernetesu, smanjujući troškove uz održavanje usklađenosti preduzeća."
+      },
+      "orange": {
+        "label": "Orange platforma za sajber odbranu",
+        "outcome": "Razvio Azure Kubernetes infrastrukturu, CI/CD pipeline-ove i prilagođenu ServiceNow integraciju za vodeću evropsku firmu za sajber sigurnost."
+      },
+      "telecom": {
+        "label": "Telekom GIS i AR platforma",
+        "outcome": "Izgrađena GIS platforma koja mapira podzemne komunalne instalacije širom Njemačke sa detekcijom sudara koja sprječava višemilionsku štetu na infrastrukturi."
+      },
+      "iot": {
+        "label": "Cloud IoT i edge platforma",
+        "outcome": "Azure IoT Hub upravlja hiljadama uređaja, Synapse obrađuje milijarde redova telemetrije, a edge agregacija smanjuje troškove poruka za ~90%."
+      },
+      "drone": {
+        "label": "Autonomna platforma dronova",
+        "outcome": "Prilagođeni kontroler leta sa 4G-to-Azure IoT Hub mostom koji omogućava autonomne BVLOS letove za praćenje poljoprivrede i isporuku tereta."
+      },
+      "payment": {
+        "label": "Spašavanje platnog sistema",
+        "outcome": "Spašen neispravan platni gateway za norvešku mobilnu aplikaciju reverznim inženjeringom nedokumentovanog naslijeđenog koda. Nema zastoja u plaćanju nakon modernizacije."
+      },
+      "game": {
+        "label": "AAA alati za razvoj igara",
+        "outcome": "Napravio sam Maya plugin koji je skraćivao vrijeme 3D modeliranja i animacije za 50% u velikom AAA studiju, usvojen kao standardni alat u produkcijskom procesu."
+      },
+      "social": {
+        "label": "Društvena platforma zasnovana na lokaciji",
+        "outcome": "Dizajnirana aplikacija za upoznavanje za španski noćni život sa geolokacijskim usklađivanjem, porukama u realnom vremenu i push notifikacijama za britanskog klijenta."
+      },
+      "iga": {
+        "label": "Multi-Tenant IGA Platforma",
+        "outcome": "Izgradio sam core backend za cloud-native platformu za upravljanje identitetima koja služi Fortune 500 klijentima sa prilagođenim ASP.NET Core Identity za NoSQL na enterprise nivou."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "Globalna isporuka u blizini EU-a",
+        "description": "CET radno vrijeme sa iskustvom iz Norveške, Holandije, Njemačke i šire."
+      },
+      "yourEngineers": {
+        "title": "Vaši inženjeri, ne dobavljač",
+        "description": "Posvećeni članovi tima ugrađeni u vaš radni proces i alate. Nema menadžera naloga, nema redova za tikete."
+      },
+      "hardwareToCloud": {
+        "title": "Hardver u Cloud",
+        "description": "Od ugrađenog firmware-a uređaja do enterprise Azure Synapse pipeline-ova. Full-stack softver na svakom sloju."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Technology Stack",
+    "title": "<gradient>Borbeni Testirani Stack</gradient>",
+    "titlePlain": "Borbeni Testirani Stack",
+    "commentMarker": "TECH_STACK",
+    "description": "Ne koristimo samo ove alate — isporučili smo proizvodne sisteme s njima. Od Microsoft Azure-a do Kubernetesa, naši inženjeri posjeduju stručnost iz stvarnog svijeta.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Cloud i infrastruktura",
+        "description": "Multi-cloud arhitektura sa orkestracijom kontejnera i infrastrukturom kao kodom."
+      },
+      "frontend": {
+        "label": "Frontend",
+        "description": "Moderni sistemi komponenti sa sigurnošću slova i optimiziranim alatima za izradu."
+      },
+      "backend": {
+        "label": "Backend i API-ji",
+        "description": "Enterprise serverske platforme, sistemski jezici i moderni API paradigmi."
+      },
+      "data": {
+        "label": "Podaci i skladištenje",
+        "description": "Relacijske, dokumentarne i memorijske memorije sa pretragom punog teksta."
+      },
+      "devops": {
+        "label": "DevOps i alati",
+        "description": "CI/CD pipeline-ovi, kontrola verzija i produktivnost developera."
+      }
+    },
+    "scanning": "FREKVENCIJE SKENIRANJA...",
+    "summary": {
+      "cloudNative": {
+        "title": "Cloud-Native po defaultu",
+        "description": "Svaki projekat je kontejnerizovan, CI/CD-vođen i od prvog dana izgrađen za horizontalnu skalu."
+      },
+      "fullStack": {
+        "title": "Full-Stack Fluency",
+        "description": "Od React frontenda do .NET mikroservisa do Kubernetes klastera — jedan tim, od kraja do kraja."
+      },
+      "productionProven": {
+        "title": "Dokazano u proizvodnji",
+        "description": "Ovo nisu demo tehnologije. Svaki navedeni alat pokreće stvarne sisteme koji danas služe stvarnim korisnicima."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Tehnološki logotipi red 1",
+      "row2Aria": "Tehnološki logotipi red 2",
+      "row3Aria": "Tehnološki logotipi red 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Baza znanja",
+    "title": "<gradient>Često postavljana pitanja</gradient>",
+    "titlePlain": "Često postavljana pitanja",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Sve što trebate znati o radu sa Horizon Tech-om",
+    "items": {
+      "scope": {
+        "question": "Koji je vaš obim posla?",
+        "answer": "Isporučujemo sveobuhvatne tehnološke projekte: prilagođeni enterprise softver, AI/ML pipeline-ove, cloud infrastrukturu, IoT sisteme, DevOps automatizaciju i konsultantske usluge digitalne transformacije. Bilo da vam treba kompletna platforma izgrađena od nule ili ciljana integracija sa postojećim stackom, mi se bavimo arhitekturom, razvojem, testiranjem i implementacijom."
+      },
+      "stack": {
+        "question": "Koji je vaš osnovni tehnološki stack?",
+        "answer": "Naš osnovni stack se fokusira na enterprise platforme: Azure i AWS za cloud, .NET i Node.js za backend, React i Angular za frontend, Kubernetes i Docker za orkestraciju, te Terraform za infrastrukturu kao kod. Također intenzivno radimo sa Pythonom za AI/ML radna opterećenja, Power BI i Fabric za poslovnu inteligenciju, te PostgreSQL-om, SQL Serverom i MongoDB-om za podatke."
+      },
+      "enterprise": {
+        "question": "Kako vodite enterprise projekte?",
+        "answer": "Svaki angažman počinje fazom otkrivanja kako bi se definisao obim, arhitektura i prekretnice. Dobijate posvećen tim sa tehničkim vođom, redovnim pregledima prekretnica i direktnim pristupom inženjerima koji prave vaš sistem. Pratimo agilne sprintove demonstracijama sa zainteresovanim stranama, održavamo transparentne projektne table i pružamo sedmične izvještaje o napretku."
+      },
+      "support": {
+        "question": "Kako izgleda podrška nakon lansiranja?",
+        "answer": "Nudimo strukturirane nivoe podrške sa definisanim SLA-ovima, uključujući 24/7 nadzor, odgovor na incidente, optimizaciju performansi i iteraciju funkcionalnosti. Naši ugovori o podršci pokrivaju ispravke grešaka, sigurnosne zakrpe, skaliranje infrastrukture i proaktivne provjere zdravlja — prilagođene vašim zahtjevima za dostupnost i vrijeme odgovora."
+      },
+      "integration": {
+        "question": "Možete li se integrisati s našom postojećom infrastrukturom?",
+        "answer": "Apsolutno. Specijalizirani smo za modernizaciju naslijeđenog softvera, integracije sa API-jem i migracije hibridnog oblaka. Bilo da vam je potrebno povezivanje na lokalne ERP sisteme, migracija sa monolita na mikroservise ili povezivanje naslijeđenih baza podataka sa modernim frontendima, imamo priručnike za migraciju i iskustvo integracije da sve bude besprijekorno."
+      },
+      "industries": {
+        "question": "U kojim ste industrijama radili?",
+        "answer": "Naš tim je realizovao projekte u fintechu, zdravstvu, logistici, e-trgovini, energetici i državnim sektorima. Razumijemo zahtjeve specifične za industriju kao što su PCI-DSS za plaćanja, HIPAA razmatranja za zdravstvene podatke, usklađenost sa GDPR-om za tržišta EU i telemetriju u realnom vremenu za industrijski IoT."
+      },
+      "engagement": {
+        "question": "Kako izgleda proces angažmana?",
+        "answer": "Sve počinje pozivom za otkrivanje kako biste razumjeli svoje ciljeve i tehničko okruženje. Nakon toga, isporučujemo dokument sa preporukama za arhitekturu, vremenskim okvirom i analizom investicija. Nakon odobrenja, započinjemo sa posvećenim timom, uvodimo u vaše alate i radne tokove, te započinjemo prvi sprint za nekoliko dana."
+      }
+    },
+    "stillHaveQuestions": "Još imate pitanja?",
+    "ctaDescription": "Imate li neki projekat na umu? Hajde da pričamo o obimu, vremenskom okviru i budžetu.",
+    "readCaseStudies": "Pročitajte naše studije slučaja",
+    "scheduleCall": "Zakažite poziv"
+  }
+}

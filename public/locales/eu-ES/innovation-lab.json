@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Berrikuntza laborategia",
+    "description": "Arakatu gure ingeniaritza taldearen demo interaktiboak, esperimentuak eta erakusleiho teknikoak.",
+    "primary": "Arakatu demoak",
+    "secondary": "Ikusi ikerketa"
+  },
+  "overview": {
+    "hero": {
+      "title": "Berrikuntza laborategia",
+      "description": "AI, automatizazioan eta sistema banatuen muga praktikoak aztertzen ditugu, eta, ondoren, baliozkotutako ikerketak ekoizpen-gaitasun fidagarri bihurtzen ditugu.",
+      "primary": "Esploratu ikerketa-eremuak",
+      "secondary": "Lankidetza bati buruz hitz egitea"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Ikerketa-eremuak",
+        "description": "Foku-eremu bakoitzak esplorazio-ikerketa mundu errealeko sistemetarako diseinatutako inplementazio-bideekin parekatzen du.",
+        "cardCta": "Arakatu fokua"
+      },
+      "detailedFocusBriefs": {
+        "title": "Foku-laburpen xeheak",
+        "description": "Epe laburreko ikerketa-ekimenak gaur egun arkitekturaren baliozkotzetik entrega planetara pasatzen dira."
+      },
+      "fromLabToProduction": {
+        "title": "Laborategitik ekoizpenera",
+        "description": "Horizon-en berrikuntza bidalitako emaitzen arabera neurtzen da, ez prototipo isolatuekin."
+      },
+      "roadmap": {
+        "title": "Ikerketa eta garapenaren ibilbide-orria",
+        "description": "Gaitasunak eraikitzeko eta etengabe hobetzen diren sistemetara aurrerapen graduala."
+      },
+      "publications": {
+        "title": "Argitalpenak eta ikuspegiak",
+        "description": "Idazketa teknikoa eta inplementazio oharrak etengabeko berrikuntza lanetan."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Adimen artifizialeko sistema aplikatuak",
+        "description": "Ekoizpenera bideratutako AI arkitekturak, ereduen zerbitzua, ezaugarrien orkestrazioa eta esperimentazio gobernatua barne hartzen dituztenak."
+      },
+      "automationFrameworks": {
+        "title": "Automatizazio-esparruak",
+        "description": "Barne automatizazio tresnak hedapenaren segurtasunerako, gertakariei erantzuteko eta ingeniaritza lan-fluxu errepikagarrietarako."
+      },
+      "advancedArchitecture": {
+        "title": "Arkitektura aurreratuaren esperimentazioa",
+        "description": "Errendimendua, akatsen tolerantzia eta eskala optimizatutako arkitektura erresilienteak eta banatuak ikertzea."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing eta IoT adimena",
+        "description": "Inteligentzia ertzean latentzia baxuko erabakiak hartzeko, telemetria prozesatzeko eta gailuen flotaren koordinaziorako."
+      },
+      "nlp": {
+        "title": "Hizkuntza naturalaren prozesamendua",
+        "description": "Sailkapen, erauzketa, itzulpen eta elkarrizketa-sistemetarako ulermen-kanalizazio eleanizkorrak."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Algoritmo ebolutiboak eta optimizazioa",
+        "description": "Hautespen naturalean inspiratutako bilaketa- eta optimizazio-sistemak, dimentsio handiko ingeniaritza erronkak konpontzeko."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Automatizazio-esparruak",
+        "description": "Lan-fluxu konposagarriak eraikitzen ari gara argitalpenen orkestraziorako, kalitate ateetarako eta hedapen osteko egiaztapenerako, eskuzko marruskadura murrizteko eta fidagarritasuna hobetzeko."
+      },
+      "advancedArchitecture": {
+        "title": "Arkitektura aurreratuaren esperimentazioa",
+        "description": "Gure arkitektura esperimentuak zerbitzuen deskonposizio estrategietan, eskualde arteko erresilientzia ereduetan eta eskaera lurrunkorrean funtzionatzen duten sistemen errendimendu-inguratzaileetan zentratzen dira."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing eta IoT adimena",
+        "description": "Gertaeren streaming eta ertzetako inferentzia diseinuak balioztatzen ari gara, tokiko erabaki azkarragoak ahalbidetzen dituztenak, kontrol zentralizatua, ikuskagarritasuna eta ereduen bizi-zikloaren gobernantza mantenduz."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Gaitasun egokitzaileen plangintza",
+        "description": "Laborategiko prototipoak simulatutako lan-kargen aurka balioztatzen dira eta, ondoren, plataformaren eskalatze automatikoko estrategietan integratzen dira."
+      },
+      "operationalIntelligence": {
+        "title": "Inteligentzia operatiboa",
+        "description": "NLP kanalizazioak esperimentu kontrolatuetatik produkzio-euskarriko lan-fluxuetara igarotzen dira triaje azkarragoa eta ikuspegi argiagoa lortzeko."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Entrega sistemen optimizazioa",
+        "description": "Laborategian probatutako metodo ebolutiboak planifikaziorako eta esleipenerako optimizazio-motorretan bihurtzen dira."
+      },
+      "edgeDecisioning": {
+        "title": "Ertzaren erabakiak hartzea",
+        "description": "IoT eta ertzetako inferentzia esperimentuak latentzia baxuko zerbitzuetan gogortzen dira, fidagarritasun murrizketa zorrotzak dituztenak."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Orain",
+        "title": "Adimen artifizialeko oinarri aplikatuak",
+        "description": "Zabaldu eredu berrerabilgarriak zerbitzatzeko txantiloiak, ebaluazio suiteak eta behagarritasun estandarrak produktu-taldeetan."
+      },
+      "next": {
+        "phase": "Hurrengoa",
+        "title": "Ingeniaritza autonomoko lan-fluxuak",
+        "description": "Automatizazio esparruak operatiboki operatizatu, hedapen arriskua murrizten duten eta bidalketetarako feedback begiztak laburtzen dituztenak."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 hilabete",
+        "title": "Edge-Native Intelligence",
+        "description": "Eskalatu hodeiko ertzetako arkitektura hibridoak ia denbora errealean inferentzia lortzeko latentzia-sentikorrak diren inguruneetan."
+      },
+      "longHorizon": {
+        "phase": "Horizonte luzea",
+        "title": "Etengabeko optimizazio sistemak",
+        "description": "Esperimentazioa, monitorizazioa eta optimizazioa bateratu, sistemak testuinguruak aldatzen diren heinean segurtasunez egokitu daitezen."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Ekoizpenean fidagarriak diren adimen artifizialeko sistemak ingeniaritza",
+        "summary": "Esperimentazio-abiadura eta produkzio-gobernantza orekatzeko ikuspegi praktikoa.",
+        "cta": "Irakurri ikuspegiak"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Arkitektura banatuaren ereduak hazkunde handiko plataformetarako",
+        "summary": "Arkitektura probetako landa-oharrak errendimenduan, erresilientzian eta sinpletasun operatiboan zentratu ziren.",
+        "cta": "Aztertu kasuen azterketak"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Enpresa-emaitzetarako Ikerketa eta Garapen Aplikatua",
+        "summary": "Nola egituratzen ditugun berrikuntza ekimenak, aurkikuntzak prototipotik balio neurgarrira igarotzeko.",
+        "cta": "Arakatu argitalpenak"
+      }
+    },
+    "cta": {
+      "title": "Horizon Innovation Lab-ekin sortu",
+      "description": "Lankidetzan aritu gurekin anbizio handiko ideiak azkar baliozkotzeko eta frogatutako kontzeptuak ekoizpen sistema seguru eta eskalagarrietara eramateko.",
+      "primary": "Hasi solasaldia",
+      "secondary": "Ikusi entrega emaitzak"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Adimen artifizialeko sistema aplikatuak",
+      "description": "Horizon-ek ikaskuntza automatikoko sistemak nola diseinatu, hedatzen eta funtzionatzen dituen ikuspegi praktikoa.",
+      "back": "Berrikuntza laborategira itzuli",
+      "tags": {
+        "appliedAi": "Adimen artifizial aplikatua",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Ikaskuntza automatikoko kanalizazioak",
+        "description": "Ekoizpen AI datuak, esperimentazioa, baliozkotzea eta feedbacka konektatzen dituzten kanalizazio erreproduzigarriekin hasten da."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Ereduaren hedapen-ereduak",
+        "description": "Inplementazio estrategia latentzia eskakizunen, negozioaren kritikotasunaren eta konplexutasun operatiboaren arabera hautatzen da."
+      },
+      "mlopsOperatingModel": {
+        "title": "MLOps-en eredu eragilea",
+        "description": "MLOps praktikek AI sistemak fidagarriak, gobernagarriak eta eskalagarriak izaten jarraitzen dutela ziurtatzen dute erabilera hazten den heinean."
+      },
+      "monitoringAndReliability": {
+        "title": "Monitorizazioa eta fidagarritasuna",
+        "description": "Behagarritasunak ereduaren portaeraren eta emaitza operatiboen arteko zirkulua ixten du."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Datuen eta ezaugarrien ingeniaritza",
+        "description": "Bertsiozko datuen irensteak, kalitate egiaztapenak eta ezaugarri berrerabilgarrien definizioak oinarri fidagarria sortzen dute ereduen prestakuntzarako."
+      },
+      "modelDevelopment": {
+        "title": "Ereduaren garapena",
+        "description": "Esperimentuak konfigurazio erreproduzigarriekin, metrika objektiboekin eta konparazio automatikoko oinarriekin jarraitzen dira."
+      },
+      "validationAndSafetyGates": {
+        "title": "Baliozkotze eta segurtasun ateak",
+        "description": "Eredu hautagaiek errendimendua, sendotasuna eta politika egiaztapenak gainditzen dituzte kaleratu aurretik."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Feedback begizta operatiboa",
+        "description": "Inplementazio osteko telemetriak birprestakuntza lehentasunak, atzera egiteko erabakiak eta hurrengo iterazioaren plangintza informatzen ditu."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Denbora errealeko inferentzia zerbitzuak",
+        "description": "Latentzia baxuko APIak aplikazio interaktiboetarako, eskalatze automatikoarekin, cachearekin eta eskaera mailako behagarritasunarekin."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Batch eta streaming iragarpenak",
+        "description": "Programatutako eta gertaeretan oinarritutako kanalizazioak bolumen handiko puntuaziorako analitika eta lan-fluxu operatiboetan."
+      },
+      "edgeAwareDeployment": {
+        "title": "Edge-aware hedapena",
+        "description": "Hodeiko ertzak zerbitzatzeko eredu hibridoak tokiko inferentzia eta eredu gobernantza zentralizatua eskatzen duten inguruneetarako."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "Modeloetarako CI/CD",
+        "description": "Eraikuntza, proba eta kaleratze lan-fluxu automatizatuek hedapen-arriskua murrizten dute, entrega abiadura mantenduz."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Ereduen erregistroa eta bizi-zikloa",
+        "description": "Bertsioatutako eredu artefaktuek sustapen faseekin, leinuarekin eta onarpen-lanekin kontrola eta trazabilitatea hobetzen dituzte."
+      },
+      "servingInfrastructure": {
+        "title": "Azpiegituren zerbitzua",
+        "description": "Zerbitzatzeko geruza eskalagarriak hedapen estrategiekin, hala nola canary eta itzaleko hedapenekin, aldaketaren kudeaketa segurua onartzen dute."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Iragarpenaren kalitatea eta drift detekzioa",
+      "latencyThroughputAndCostEfficiencyTracking": "Latentzia, errendimendua eta kostu-eraginkortasunaren jarraipena",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Datuen kalitatearen erregresio-alertak eta konponketa-fluxuak",
+      "auditabilityForComplianceAndIncidentAnalysis": "Betetze- eta gertakarien analisirako ikuskagarritasuna"
+    },
+    "cta": {
+      "title": "Eskalatu AI aplikatua konfiantzaz",
+      "description": "Emaitza neurgarriak eta epe luzerako mantengarritasuna behar dituzten AI ekimenak planifikatzen ari bazara, Horizon-ek sistemaren bizi-ziklo osoa diseinatzen eta funtzionatzen lagun dezake.",
+      "primary": "Hitz egin gure taldearekin",
+      "secondary": "Aztertu laborategiko lan gehiago"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "Hizkuntza anitzeko NLP",
+      "description": "Aztertu hizkuntza naturala prozesatzeko gaitasun praktikoak eta nola eskalatzen diren produkzio sistema fidagarri eta eleaniztunetan.",
+      "back": "Berrikuntza laborategira itzuli",
+      "tags": {
+        "demo": "Demo interaktiboa",
+        "intelligence": "Hizkuntza-adimena"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "NLP oinarriak",
+        "description": "Hizkuntza naturalaren prozesamenduak seinale linguistikoak eta ikaskuntza automatikoa konbinatzen ditu testutik esanahia, asmoa eta egitura ateratzeko."
+      },
+      "workbench": {
+        "title": "NLP lan-mahaia interaktiboa",
+        "description": "Erabili demoa hizkuntzaren detekzioa, sentimenduen puntuazioa, entitateen erauzketa eta itzulpen-portaerak denbora errealean probatzeko."
+      },
+      "productionApplications": {
+        "title": "Horizon-ek NLP ekoizpenean nola aplikatzen duen",
+        "description": "NLP gaitasunak negozio-lan-fluxuetan integratzen dira errendimendu-babesekin eta kalitate metrika argiekin."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Fidagarritasun eta gobernantza printzipioak",
+        "description": "Produkzio NLPk modeloaren kalitatea baino gehiago eskatzen du; hedapen praktika seguruen eta etengabeko egiaztapenaren araberakoa da."
+      }
+    },
+    "foundations": {
+      "intro1": "NLP sistema modernoek automatizazioa, bilaketa-garrantzia, ezagutza erauztea eta lankidetza eleaniztunak onartzen dituzte. Inplementazio eraginkorrak ereduaren kalitatea eta kontrol operatibo sendoak eskatzen ditu.",
+      "intro2": "Horizon-en, end-to-end NLP sistemetan zentratzen gara, inferentzia sendoa behagarritasunarekin, gobernantza eta ekoizpen-eragin neurgarriarekin konbinatzen dituztenak."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Hizkuntza detektatzea",
+        "description": "Hizkuntza identifikatzen du testu segmentu labur edo luzeetatik eskaerak prozesatzeko kanalizazio egokira bideratzeko."
+      },
+      "sentimentAnalysis": {
+        "title": "Sentimenduen analisia",
+        "description": "Bezeroaren adimena, laguntza triajea eta produktuen feedback begiztak ateratzeko asmo emozionala eta polaritatea ateratzen ditu."
+      },
+      "entityExtraction": {
+        "title": "Entitate-erauzketa",
+        "description": "Egituratu gabeko testuetatik entitate egituratuak detektatzen ditu, hala nola izenak, enpresak, kokapenak eta datak."
+      },
+      "translation": {
+        "title": "Itzulpena",
+        "description": "Hizkuntza anitzeko lan-fluxuak onartzen ditu, erabiltzaileek sortutako edo testu operatiboa itzuliz, testuingurua mantenduz."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Laguntza eta txartelen adimena",
+        "description": "Sailkatu sarrerako eskaerak urgentziaren, asmoaren eta sentimenduaren arabera, bideratze eta erantzunaren kalitatea azkartzeko."
+      },
+      "governedContentOperations": {
+        "title": "Kontrolatutako edukien eragiketak",
+        "description": "Aplikatu hizkuntza-iragazkiak eta moderazio-egiaztapenak zehaztasun neurgarriarekin eta gogoratze helburuekin."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Testu-gidatutako negozio-ikuspegiak",
+        "description": "Dokumentuen, berrikuspenen eta komunikazioen joerak agregatu estrategia eta erabaki operatiboak informatzeko."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Erabilera kasuen araberako ebaluazioa",
+        "description": "Ereduak domeinu espezifikoen datu-multzoekin konparatzen dira kaleratze erabakiak hartu aurretik."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Giza begizta babesak",
+        "description": "Eragin handiko iragarpenak berrikuspen bideak, eskalatze arauak eta konfiantza-seinale gardenak barne hartzen ditu."
+      },
+      "continuousMonitoring": {
+        "title": "Etengabeko monitorizazioa",
+        "description": "Drift, latentzia eta kalitatearen degradazioa etengabe jarraitzen dira, beraz, birprestakuntza eta rollback proaktiboak dira."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Algoritmo genetikoaren simulazioa",
+      "description": "Esploratu konputazio ebolutiboa ingurune interaktibo batean eta ikusi nola printzipio berberak produkzioa optimizatzeko sistemetan eragiten diren.",
+      "back": "Berrikuntza laborategira itzuli",
+      "tags": {
+        "demo": "Demo interaktiboa",
+        "optimizationScience": "Optimizazioaren zientzia"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Fundazio zientifikoa",
+        "description": "Algoritmo genetikoak hautespen naturalean eta egokitzapenean inspiratutako populazioan oinarritutako optimizazio-metodoak dira."
+      },
+      "interactiveEnvironment": {
+        "title": "Evolution-en ingurune interaktiboa",
+        "description": "Exekutatu simulazioa fitness belaunaldiz belaunaldi hobetzen ikusteko eta hautaketa presioak emaitzetan nola eragiten duen ikusteko."
+      },
+      "productionUse": {
+        "title": "Horizon-ek ekoizpenean nola erabiltzen duen",
+        "description": "Demo honetan erabilitako bilaketa-mekanika berberak sistema operatiboetan ezarritako optimizazio-hodiak informatzen ditu."
+      },
+      "applicationDomains": {
+        "title": "Aplikazio-domeinu zabalagoak",
+        "description": "Optimizazio ebolutiboa bereziki baliotsua da helburu dinamikoak eta muga kontrajarriak dituzten sistemetan."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Irtenbide bat aldi berean bilatu beharrean, algoritmo genetikoek hautagaien populazio anitz eboluzionatzen dute. Belaunaldi bakoitza fitness funtzio baten arabera ebaluatzen da eta hautapen, gurutzaketa eta mutazioaren bidez fintzen da.",
+      "intro2": "Horrek eraginkorrak bihurtzen ditu murrizketa ez-linealak dituzten dimentsio handiko arazoetarako, non ikuspegi deterministak hauskorrak edo konputazionalki garestiak bihurtzen diren."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Hautapena",
+        "description": "Errendimendu handiko hautagaiek bizirik irauteko eta hurrengo belaunaldian eragina izateko aukera handiagoa dute."
+      },
+      "crossover": {
+        "title": "Gurutzaketa",
+        "description": "Ezaugarri indartsuak berriro konbinatzen dira hautagai irtenbide berriak sortzeko, indar mistoekin."
+      },
+      "mutation": {
+        "title": "Mutazioa",
+        "description": "Ausazkotasun kontrolatuak aniztasuna sartzen du, beraz, bilaketa ez da tokiko optimoen inguruan gelditzen."
+      },
+      "convergence": {
+        "title": "Konbergentzia",
+        "description": "Belaunaldi askotan, biztanleriak kalitate handiko irtenbide egonkor eta egonkor batera jotzen ditu."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Baliabideen planifikazioa",
+        "description": "Estrategia ebolutiboak erabiltzen ditugu murrizketa anitzeko planifikazioa optimizatzeko, indar brute-bilaketa bideraezina denean."
+      },
+      "architectureTuning": {
+        "title": "Arkitekturaren doikuntza",
+        "description": "Azpiegitura hautagaien konfigurazioak iteratiboki ebaluatzen dira errendimendua eta kostu-eraginkortasuna hobetzeko."
+      },
+      "continuousOptimization": {
+        "title": "Etengabeko optimizazioa",
+        "description": "Optimizazio lanak begizta kontrolatuetan exekutatzen dira telemetria feedbackarekin, sistemak eskariaren profilak aldatzen diren heinean egokitzeko."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Ibilbide eta logistika plangintza",
+        "description": "Entrega eta bidalketa plangintza konplexuak bilaketa ebolutiboari etekina ateratzen dio murrizketak azkar aldatzen direnean."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Eredu eta hiperparametroen bilaketa",
+        "description": "Bilaketa genetikoak kalitate handiko ereduen konfigurazioak aurki ditzake gainazal objektiboak zaratatsuak eta ez linealak direnean."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Zorroa eta esleipenaren arazoak",
+        "description": "Helburu lehiakorren araberako optimizazioa fitness tradeoffs gisa markatu daiteke eboluzionatzen ari diren hautagaien multzoetan."
+      }
+    }
+  }
+}

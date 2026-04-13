@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Барлығы"
+  },
+  "categories": {
+    "aiEngineering": "AI инженериясы",
+    "enterpriseArchitecture": "Кәсіпорын архитектурасы",
+    "cloudDevOps": "Cloud және DevOps",
+    "automationSystems": "Автоматтандыру жүйелері",
+    "softwareReliabilityDesign": "Бағдарламалық қамтамасыз етудің сенімділігі және жобалау"
+  },
+  "readTime": "{{minutes}} минут оқу",
+  "tagsLabel": "Тегтер",
+  "relatedPosts": "Қатысты жазбалар",
+  "author": {
+    "role": "Баспагер"
+  },
+  "editor": {
+    "emptyPreview": "Алдын ала көру үшін жазуды бастаңыз..."
+  },
+  "tags": {
+    "llmOps": "LLM операциялары",
+    "promptEngineering": "Prompt Engineering",
+    "observability": "Бақылау мүмкіндігі",
+    "safety": "Қауіпсіздік",
+    "domainDesign": "Домендік дизайн",
+    "integration": "Интеграция",
+    "governance": "Басқару",
+    "platformStrategy": "Платформа стратегиясы",
+    "platformEngineering": "Платформа инженериясы",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Әзірлеуші тәжірибесі",
+    "eventDriven": "Оқиғаға негізделген",
+    "workflowOrchestration": "Жұмыс процесін оркестрациялау",
+    "controlPlanes": "Басқару жазықтары",
+    "resilience": "Төзімділік",
+    "sre": "SRE",
+    "slos": "SLO-лар",
+    "failureModes": "Істен шығу режимдері",
+    "resilienceEngineering": "Төзімділік инженериясы",
+    "evaluation": "Бағалау",
+    "qualityEngineering": "Сапа инженериясы",
+    "datasets": "Деректер жиынтықтары",
+    "releaseManagement": "Шығарылымдарды басқару",
+    "incidentManagement": "Оқиғаларды басқару",
+    "architectureEvolution": "Архитектураның дамуы",
+    "riskReduction": "Тәуекелді азайту",
+    "postmortems": "Өлімнен кейінгі сараптама",
+    "progressiveDelivery": "Прогрессивті жеткізу",
+    "canaryReleases": "Canary шығарылымдары",
+    "featureFlags": "Ерекшелік тулары"
+  }
+}

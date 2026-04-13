@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Engineering Systems That Scale",
+    "subtitle": "Enterprise Software · AI & Machine Learning · Cloud Infrastructure · IoT & Edge",
+    "description": "From intelligent automation to cloud-native platforms, we architect and deliver the technology that powers ambitious businesses — on time, on budget, at scale.",
+    "cta": {
+      "primary": "Start a Project",
+      "secondary": "See Our Work"
+    },
+    "trustLine": "Trusted by companies worldwide"
+  },
+  "services": {
+    "subtitle": "Our Services",
+    "title": "Full-Spectrum Engineering",
+    "description": "Six practice areas. One team. Every layer of your technology stack — from edge devices to enterprise dashboards.",
+    "commentMarker": "// SERVICES",
+    "items": {
+      "customSoftware": {
+        "title": "Custom Software Development",
+        "description": "Modern applications built with microservices, APIs, and cloud-native architecture."
+      },
+      "aiMl": {
+        "title": "AI, ML & Business Intelligence",
+        "description": "AI/ML pipelines, Power BI dashboards, and advanced analytics that turn data into decisions."
+      },
+      "cloud": {
+        "title": "Cloud Architecture & Infrastructure",
+        "description": "Multi-cloud infrastructure with containers, serverless, and global scalability built in."
+      },
+      "iot": {
+        "title": "IoT & Edge Computing",
+        "description": "Connected devices, digital twins, and edge computing for Industry 4.0."
+      },
+      "devops": {
+        "title": "DevOps & Platform Engineering",
+        "description": "CI/CD pipelines, infrastructure as code, and observability from commit to production."
+      },
+      "digital": {
+        "title": "Digital Transformation & Consulting",
+        "description": "Technology strategy, modernization roadmaps, and hands-on consulting."
+      }
+    },
+    "cta": {
+      "title": "Let's Build Something Serious",
+      "description": "From custom software development and AI-powered solutions to cloud infrastructure and automation — we deliver end-to-end technology services tailored to your requirements.",
+      "primary": "Start Your Project",
+      "secondary": "Schedule Consultation"
+    },
+    "learnMore": "Learn More"
+  },
+  "credibility": {
+    "subtitle": "Our Track Record",
+    "title": "Results, Not <gradient>Promises</gradient>",
+    "titlePlain": "Results, Not Promises",
+    "commentMarker": "// OUR_TRACK_RECORD",
+    "description": "From Sarajevo to Oslo, Amsterdam, and Berlin. Enterprise systems delivered on time, every time.",
+    "stats": {
+      "experience": "Years Combined Experience",
+      "countries": "Countries Served",
+      "systems": "Systems Delivered",
+      "industries": "Industries Served"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM for Atlas Copco",
+        "outcome": "Architected the first-ever cloud-based One Identity infrastructure for Atlas Copco on Azure Kubernetes, reducing costs while maintaining enterprise compliance."
+      },
+      "orange": {
+        "label": "Orange Cyberdefense Platform",
+        "outcome": "Developed Azure Kubernetes infrastructure, CI/CD pipelines, and custom ServiceNow integration for Europe's leading cybersecurity firm."
+      },
+      "telecom": {
+        "label": "Telecom GIS & AR Platform",
+        "outcome": "Built GIS platform mapping underground utilities across Germany with collision detection preventing multi-million Euro infrastructure damage."
+      },
+      "iot": {
+        "label": "Cloud IoT & Edge Platform",
+        "outcome": "Azure IoT Hub managing thousands of devices, Synapse processing billions of telemetry rows, with edge aggregation cutting message costs by ~90%."
+      },
+      "drone": {
+        "label": "Autonomous Drone Platform",
+        "outcome": "Custom flight controller with 4G-to-Azure IoT Hub bridge enabling autonomous BVLOS flights for agricultural monitoring and payload delivery."
+      },
+      "payment": {
+        "label": "Payment System Rescue",
+        "outcome": "Rescued failing payment gateway for Norwegian mobile app by reverse-engineering undocumented legacy code. Zero payment downtime post-modernization."
+      },
+      "game": {
+        "label": "AAA Game Dev Tooling",
+        "outcome": "Built Maya plugin that cut 3D modeling and animation time by 50% at a major AAA studio, adopted as a standard tool in the production pipeline."
+      },
+      "social": {
+        "label": "Location-Based Social Platform",
+        "outcome": "Architected dating app for Spain's nightlife scene with geolocation matching, real-time messaging, and push notifications for a UK client."
+      },
+      "iga": {
+        "label": "Multi-Tenant IGA Platform",
+        "outcome": "Built core backend for cloud-native identity governance platform serving Fortune 500 clients with custom ASP.NET Core Identity for NoSQL at enterprise scale."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "EU-Adjacent, Global Delivery",
+        "description": "CET working hours with experience spanning Norway, Netherlands, Germany, and beyond."
+      },
+      "yourEngineers": {
+        "title": "Your Engineers, Not a Vendor",
+        "description": "Dedicated team members embedded in your workflow and tools. No account managers, no ticket queues."
+      },
+      "hardwareToCloud": {
+        "title": "Hardware to Cloud",
+        "description": "From embedded device firmware to enterprise Azure Synapse pipelines. Full-stack software across every layer."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Technology Stack",
+    "title": "Battle-Tested <gradient>Stack</gradient>",
+    "titlePlain": "Battle-Tested Stack",
+    "commentMarker": "// TECH_STACK",
+    "description": "We don't just use these tools — we've shipped production systems with them. From Microsoft Azure to Kubernetes, our engineers hold real-world expertise.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Cloud & Infrastructure",
+        "description": "Multi-cloud architecture with container orchestration and infrastructure as code."
+      },
+      "frontend": {
+        "label": "Frontend",
+        "description": "Modern component frameworks with type safety and optimized build tooling."
+      },
+      "backend": {
+        "label": "Backend & APIs",
+        "description": "Enterprise-grade server platforms, systems languages, and modern API paradigms."
+      },
+      "data": {
+        "label": "Data & Storage",
+        "description": "Relational, document, and in-memory stores with full-text search."
+      },
+      "devops": {
+        "label": "DevOps & Tooling",
+        "description": "CI/CD pipelines, version control, and developer productivity."
+      }
+    },
+    "scanning": "SCANNING FREQUENCIES...",
+    "summary": {
+      "cloudNative": {
+        "title": "Cloud-Native by Default",
+        "description": "Every project is containerized, CI/CD-driven, and built for horizontal scale from day one."
+      },
+      "fullStack": {
+        "title": "Full-Stack Fluency",
+        "description": "From React frontends to .NET microservices to Kubernetes clusters — one team, end to end."
+      },
+      "productionProven": {
+        "title": "Production-Proven",
+        "description": "These aren't demo technologies. Each tool listed powers real systems serving real users today."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Technology logos row 1",
+      "row2Aria": "Technology logos row 2",
+      "row3Aria": "Technology logos row 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Knowledge Base",
+    "title": "Frequently Asked <gradient>Questions</gradient>",
+    "titlePlain": "Frequently Asked Questions",
+    "commentMarker": "// KNOWLEDGE_BASE",
+    "description": "Everything you need to know about working with Horizon Tech",
+    "items": {
+      "scope": {
+        "question": "What's your scope of work?",
+        "answer": "We deliver end-to-end technology projects: custom enterprise software, AI/ML pipelines, cloud infrastructure, IoT systems, DevOps automation, and digital transformation consulting. Whether you need a full platform built from scratch or a targeted integration with your existing stack, we handle architecture, development, testing, and deployment."
+      },
+      "stack": {
+        "question": "What's your core technology stack?",
+        "answer": "Our core stack centers on enterprise-grade platforms: Azure and AWS for cloud, .NET and Node.js for backend, React and Angular for frontend, Kubernetes and Docker for orchestration, and Terraform for infrastructure as code. We also work extensively with Python for AI/ML workloads, Power BI and Fabric for business intelligence, and PostgreSQL, SQL Server, and MongoDB for data."
+      },
+      "enterprise": {
+        "question": "How do you handle enterprise projects?",
+        "answer": "Every engagement starts with a discovery phase to define scope, architecture, and milestones. You get a dedicated team with a technical lead, regular milestone reviews, and direct access to the engineers building your system. We follow agile sprints with stakeholder demos, maintain transparent project boards, and provide weekly progress reports."
+      },
+      "support": {
+        "question": "What does post-launch support look like?",
+        "answer": "We offer structured support tiers with defined SLAs, including 24/7 monitoring, incident response, performance optimization, and feature iteration. Our support agreements cover bug fixes, security patches, infrastructure scaling, and proactive health checks — tailored to your uptime and response-time requirements."
+      },
+      "integration": {
+        "question": "Can you integrate with our existing infrastructure?",
+        "answer": "Absolutely. We specialize in legacy modernization, API-first integrations, and hybrid cloud migrations. Whether you need to connect to on-premise ERP systems, migrate from monoliths to microservices, or bridge legacy databases with modern frontends, we have the migration playbooks and integration experience to make it seamless."
+      },
+      "industries": {
+        "question": "What industries have you worked in?",
+        "answer": "Our team has delivered projects across fintech, healthcare, logistics, e-commerce, energy, and government sectors. We understand industry-specific requirements like PCI-DSS for payments, HIPAA considerations for health data, GDPR compliance for EU markets, and real-time telemetry for industrial IoT."
+      },
+      "engagement": {
+        "question": "What does the engagement process look like?",
+        "answer": "It starts with a discovery call to understand your goals and technical landscape. From there, we deliver a scoping document with architecture recommendations, timeline, and investment breakdown. Once approved, we kick off with a dedicated team, onboard into your tools and workflows, and begin the first sprint within days."
+      }
+    },
+    "stillHaveQuestions": "Still Have Questions?",
+    "ctaDescription": "Have a project in mind? Let's talk scope, timeline, and budget.",
+    "readCaseStudies": "Read Our Case Studies",
+    "scheduleCall": "Schedule a Call"
+  }
+}

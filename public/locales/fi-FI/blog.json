@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Kaikki"
+  },
+  "categories": {
+    "aiEngineering": "Tekoälytekniikka",
+    "enterpriseArchitecture": "Yritysarkkitehtuuri",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Automaatiojärjestelmät",
+    "softwareReliabilityDesign": "Ohjelmiston luotettavuus ja suunnittelu"
+  },
+  "readTime": "{{minutes}} min luku",
+  "tagsLabel": "Tagit",
+  "relatedPosts": "Aiheeseen liittyvät julkaisut",
+  "author": {
+    "role": "Kustantaja"
+  },
+  "editor": {
+    "emptyPreview": "Aloita kirjoittaminen nähdäksesi ennakkonäytön..."
+  },
+  "tags": {
+    "llmOps": "LLM-operaatiot",
+    "promptEngineering": "Prompt Engineering",
+    "observability": "Havaittavuus",
+    "safety": "Turvallisuus",
+    "domainDesign": "Verkkotunnussuunnittelu",
+    "integration": "Integraatio",
+    "governance": "Hallinto",
+    "platformStrategy": "Alustastrategia",
+    "platformEngineering": "Alustatekniikka",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Kehittäjäkokemus",
+    "eventDriven": "Tapahtumavetoinen",
+    "workflowOrchestration": "Työnkulun orkestrointi",
+    "controlPlanes": "Ohjaustasot",
+    "resilience": "Resilienssi",
+    "sre": "SRE",
+    "slos": "SLO:t",
+    "failureModes": "Vikatilat",
+    "resilienceEngineering": "Resilienssitekniikka",
+    "evaluation": "Arviointi",
+    "qualityEngineering": "Laatutekniikka",
+    "datasets": "Aineistot",
+    "releaseManagement": "Julkaisujen hallinta",
+    "incidentManagement": "Tapahtumien hallinta",
+    "architectureEvolution": "Arkkitehtuurin kehitys",
+    "riskReduction": "Riskien vähentäminen",
+    "postmortems": "Ruumiinavaukset",
+    "progressiveDelivery": "Progressiivinen toimitus",
+    "canaryReleases": "Kanarian julkaisut",
+    "featureFlags": "Pääliput"
+  }
+}

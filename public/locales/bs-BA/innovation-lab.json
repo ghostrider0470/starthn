@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Inovacijski laboratorij",
+    "description": "Istražite interaktivne demonstracije, eksperimente i tehničke prezentacije našeg inženjerskog tima.",
+    "primary": "Istražite demonstracije",
+    "secondary": "Pogledaj istraživanje"
+  },
+  "overview": {
+    "hero": {
+      "title": "Inovacijski laboratorij",
+      "description": "Istražujemo praktične granice u AI, automatizaciji i distribuiranim sistemima, a zatim prevodimo potvrđena istraživanja u pouzdane proizvodne kapacitete.",
+      "primary": "Istražite istraživačke oblasti",
+      "secondary": "Razgovarajte o saradnji"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Istraživačke oblasti",
+        "description": "Svako fokusno područje spaja istraživačka istraživanja sa putevima implementacije dizajniranim za sisteme iz stvarnog svijeta.",
+        "cardCta": "Istraži fokus"
+      },
+      "detailedFocusBriefs": {
+        "title": "Detaljni fokusni sažeci",
+        "description": "Kratkoročne istraživačke inicijative trenutno prelaze sa validacije arhitekture na planove isporuke."
+      },
+      "fromLabToProduction": {
+        "title": "Od laboratorije do produkcije",
+        "description": "Inovacije u Horizonu mjere se prema isporučenim rezultatima, a ne prema izoliranim prototipima."
+      },
+      "roadmap": {
+        "title": "Mapa puta istraživanja i razvoja",
+        "description": "Postepeni prelazak od izgradnje kapaciteta do adaptivnih, kontinuirano unapređenih sistema."
+      },
+      "publications": {
+        "title": "Publikacije i uvidi",
+        "description": "Tehničko pisanje i bilješke o implementaciji iz tekućeg rada na inovacijama."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Primijenjeni AI sistemi",
+        "description": "AI arhitekture fokusirane na produkciju koje obuhvataju serviranje modela, orkestraciju funkcija i upravljano eksperimentisanje."
+      },
+      "automationFrameworks": {
+        "title": "Okviri za automatizaciju",
+        "description": "Interni alati za automatizaciju za sigurnost implementacije, odgovor na incidente i ponovljive inženjerske radne tokove."
+      },
+      "advancedArchitecture": {
+        "title": "Eksperimentisanje sa naprednom arhitekturom",
+        "description": "Istraživanja otpornih, distribuiranih arhitektura optimiziranih za performanse, otpornost na greške i skaliranje."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing i IoT inteligencija",
+        "description": "Inteligencija na ivici za donošenje odluka sa niskom latencijom, obradu telemetrije i koordinaciju flote uređaja."
+      },
+      "nlp": {
+        "title": "Obrada prirodnog jezika",
+        "description": "Višejezični procesi za razumijevanje za klasifikaciju, ekstrakciju, prevođenje i konverzacijske sisteme."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Evolucijski algoritmi i optimizacija",
+        "description": "Sistemi pretrage i optimizacije inspirisani prirodnom selekcijom za rješavanje inženjerskih izazova visokih dimenzija."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Okviri za automatizaciju",
+        "description": "Gradimo kompozabilne radne okvire za orkestraciju release-a, quality gate-ove i verifikaciju nakon implementacije kako bismo smanjili ručne prepreke i poboljšali pouzdanost."
+      },
+      "advancedArchitecture": {
+        "title": "Eksperimentisanje sa naprednom arhitekturom",
+        "description": "Naši arhitektonski eksperimenti fokusirani su na strategije dekompozicije usluga, obrasce otpornosti na međuregionalnim područjima i okvire performansi za sisteme koji rade pod nestabilnom potražnjom."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing i IoT inteligencija",
+        "description": "Validiramo dizajne streaminga događaja i edge inference koji omogućavaju brže lokalne odluke uz očuvanje centralizovane kontrole, revizije i upravljanja životnim ciklusom modela."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Adaptivno planiranje kapaciteta",
+        "description": "Laboratorijski prototipovi se validiraju na simuliranim radnim opterećenjima i zatim integrišu u strategije automatskog skaliranja platforme."
+      },
+      "operationalIntelligence": {
+        "title": "Operativna obavještajna služba",
+        "description": "NLP procesi prelaze sa kontrolisanih eksperimenata na radne tokove podrške produkciji radi brže trijaže i jasnijih uvida."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Optimizacija u sistemima isporuke",
+        "description": "Evolucijske metode testirane u laboratoriji prevode se u optimizacione mehanizme za raspoređivanje i alokaciju."
+      },
+      "edgeDecisioning": {
+        "title": "Edge Decisioning",
+        "description": "IoT i eksperimenti inferencije na ivicama su ojačani u usluge niske latencije uz stroga ograničenja pouzdanosti."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Sada",
+        "title": "Primijenjene AI osnove",
+        "description": "Proširite višekratne predloške za serviranje modela, evaluacione pakete i standarde posmatranosti među proizvodnim timovima."
+      },
+      "next": {
+        "phase": "Sljedeći",
+        "title": "Autonomni inženjerski tokovi rada",
+        "description": "Operacionalizujte okvire za automatizaciju koji smanjuju rizik od implementacije i skraćuju povratne petlje za transport."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 mjeseci",
+        "title": "Edge-nativna inteligencija",
+        "description": "Skaliranje hibridnih cloud-edge arhitektura za gotovo realno-vremensku inferenciju u okruženjima osjetljivim na latenciju."
+      },
+      "longHorizon": {
+        "phase": "Dugi horizont",
+        "title": "Sistemi kontinuirane optimizacije",
+        "description": "Ujedinite eksperimentisanje, praćenje i optimizaciju kako bi se sistemi mogli sigurno prilagoditi kako se konteksti mijenjaju."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Inženjering AI sistema koji ostaju pouzdani u proizvodnji",
+        "summary": "Praktična perspektiva o balansiranju brzine eksperimentisanja sa upravljanjem proizvodnjom.",
+        "cta": "Pročitajte uvide"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Obrasci distribuirane arhitekture za platforme visokog rasta",
+        "summary": "Terenske bilješke sa arhitektonskih proba fokusirale su se na performanse, otpornost i operativnu jednostavnost.",
+        "cta": "Pregled studija slučaja"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping primjenjuje istraživanje i razvoj za poslovne rezultate",
+        "summary": "Kako strukturiramo inovacijske inicijative tako da otkrića prelaze iz prototipa u mjerljivu vrijednost.",
+        "cta": "Istražite publikacije"
+      }
+    },
+    "cta": {
+      "title": "Izgradnja sa Horizon Innovation Lab",
+      "description": "Saradjujte s nama kako biste brzo potvrdili ambiciozne ideje i premjestili provjerene koncepte u sigurne, skalabilne produkcijske sisteme.",
+      "primary": "Započnite razgovor",
+      "secondary": "Pogledajte ishode isporuke"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Primijenjeni AI sistemi",
+      "description": "Praktičan pregled kako Horizon dizajnira, implementira i upravlja sistemima mašinskog učenja od prototipa do produkcije.",
+      "back": "Nazad na Inovacijski laboratorij",
+      "tags": {
+        "appliedAi": "Primijenjena umjetna inteligencija",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Cjevovodi mašinskog učenja",
+        "description": "Produkcijska AI počinje sa ponovljivim pipeline-ovima koji povezuju podatke, eksperimentisanje, validaciju i povratne informacije."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Obrasci implementacije modela",
+        "description": "Strategija implementacije se bira na osnovu zahtjeva za latencijom, poslovne kritičnosti i operativne složenosti."
+      },
+      "mlopsOperatingModel": {
+        "title": "MLOps operativni model",
+        "description": "MLOps prakse osiguravaju da AI sistemi ostanu pouzdani, upravljivi i skalabilni kako upotreba raste."
+      },
+      "monitoringAndReliability": {
+        "title": "Nadzor i pouzdanost",
+        "description": "Posmatranost zatvara petlju između ponašanja modela i operativnih rezultata."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Inženjering podataka i karakteristika",
+        "description": "Versifikovani unos podataka, provjere kvaliteta i višekratne definicije funkcija stvaraju pouzdanu osnovu za treniranje modela."
+      },
+      "modelDevelopment": {
+        "title": "Razvoj modela",
+        "description": "Eksperimenti se prate pomoću ponovljivih konfiguracija, objektivnih metrika i automatizovanih referentnih linija."
+      },
+      "validationAndSafetyGates": {
+        "title": "Validacija i sigurnosne kapije",
+        "description": "Kandidatski modeli prolaze provjere performansi, robusnosti i politika prije nego što budu odobreni za objavljivanje."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Operativne povratne petlje",
+        "description": "Telemetrija nakon implementacije informiše prioritete ponovne obuke, odluke o vraćanju i planiranje naredne iteracije."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Usluge inferencije u realnom vremenu",
+        "description": "API-ji sa niskom latencijom za interaktivne aplikacije sa automatskim skaliranjem, keširanjem i posmatranjem na nivou zahtjeva."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Batch i streaming predviđanja",
+        "description": "Planirani i događajima vođeni pipeline-ovi za ocjenjivanje velikog volumena kroz analitiku i operativne tokove rada."
+      },
+      "edgeAwareDeployment": {
+        "title": "Edge-Aware implementacija",
+        "description": "Hibridni obrasci serviranja na rubu oblaka za okruženja koja zahtijevaju lokalnu inferenciju i centralizovano upravljanje modelima."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI/CD za modele",
+        "description": "Automatizovani tokovi izgradnje, testiranja i izdavanja smanjuju rizik od implementacije, a istovremeno čuvaju brzinu isporuke."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Registar modela i životni ciklus",
+        "description": "Verzionisani artefakti modela sa fazama promocije, porijeklom i radnim tokovima odobravanja poboljšavaju kontrolu i praćenje."
+      },
+      "servingInfrastructure": {
+        "title": "Opsluživanje infrastrukture",
+        "description": "Skalabilni slojevi serviranja sa strategijama implementacije poput canary i shadow implementacija podržavaju sigurno upravljanje promjenama."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Kvalitet predviđanja i detekcija drifta",
+      "latencyThroughputAndCostEfficiencyTracking": "Praćenje latencije, protoka i efikasnosti troškova",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Upozorenja o regresiji kvaliteta podataka i radni tokovi za sanaciju",
+      "auditabilityForComplianceAndIncidentAnalysis": "Revizija za usklađenost i analizu incidenata"
+    },
+    "cta": {
+      "title": "Skalirajte primijenjenu AI s povjerenjem",
+      "description": "Ako planirate AI inicijative koje zahtijevaju mjerljive rezultate i dugoročnu održivost, Horizon može pomoći u dizajniranju i operacionalizaciji cijelog životnog ciklusa sistema.",
+      "primary": "Razgovarajte s našim timom",
+      "secondary": "Istražite više laboratorijskog rada"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "Višejezični NLP",
+      "description": "Istražite praktične mogućnosti obrade prirodnog jezika i kako se one skaliraju u pouzdane, višejezične produkcijske sisteme.",
+      "back": "Nazad na Inovacijski laboratorij",
+      "tags": {
+        "demo": "Interaktivna demonstracija",
+        "intelligence": "Jezička inteligencija"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "NLP Osnove",
+        "description": "Obrada prirodnog jezika kombinuje jezičke signale i mašinsko učenje kako bi izvukla značenje, namjeru i strukturu iz teksta."
+      },
+      "workbench": {
+        "title": "Interaktivni NLP radni sto",
+        "description": "Koristite demo za testiranje detekcije jezika, ocjenjivanja sentimenta, ekstrakcije entiteta i ponašanja prevođenja u realnom vremenu."
+      },
+      "productionApplications": {
+        "title": "Kako Horizon primjenjuje NLP u produkciji",
+        "description": "NLP mogućnosti su integrisane u poslovne tokove rada sa zaštitnim mjerama performansi i jasnim mjerilima kvaliteta."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Principi pouzdanosti i upravljanja",
+        "description": "Produkcijski NLP zahtijeva više od kvaliteta modela; Zavisi od sigurnih praksi uvođenja i kontinuirane verifikacije."
+      }
+    },
+    "foundations": {
+      "intro1": "Moderni NLP sistemi podržavaju automatizaciju, relevantnost pretrage, ekstrakciju znanja i višejezičnu saradnju. Efikasna implementacija zahtijeva i kvalitet modela i snažne operativne kontrole.",
+      "intro2": "U Horizonu se fokusiramo na end-to-end NLP sisteme koji kombinuju robusnu inferenciju sa posmatranjem, upravljanjem i mjerljivim uticajem na produkciju."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Detekcija jezika",
+        "description": "Identifikuje jezik iz kratkih ili dugih tekstualnih segmenata za usmjeravanje zahtjeva u odgovarajući procesni proces."
+      },
+      "sentimentAnalysis": {
+        "title": "Analiza sentimenta",
+        "description": "Izvlači emocionalnu namjeru i polaritet za korisničku inteligenciju, trijažu podrške i povratne petlje proizvoda."
+      },
+      "entityExtraction": {
+        "title": "Izvlačenje entiteta",
+        "description": "Detektuje strukturirane entitete kao što su imena, kompanije, lokacije i datumi iz nestrukturiranog teksta."
+      },
+      "translation": {
+        "title": "Prijevod",
+        "description": "Podržava višejezične radne tokove prevođenjem korisnički generisanog ili operativnog teksta uz zadržavanje konteksta."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Podrška i obavještajne informacije o tiketama",
+        "description": "Klasificirajte dolazne zahtjeve prema hitnosti, namjeri i sentimentu kako biste ubrzali rutiranje i kvalitet odgovora."
+      },
+      "governedContentOperations": {
+        "title": "Upravljane operacije sadržaja",
+        "description": "Primijenite jezične filtere i provjere moderacije koje su svjesne politika s mjerljivom preciznošću i prisjetite se ciljeva."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Poslovni uvidi vođeni tekstom",
+        "description": "Agregirajte trendove iz dokumenata, pregleda i komunikacija kako biste informisali strateške i operativne odluke."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Evaluacija po slučaju upotrebe",
+        "description": "Modeli se upoređuju sa domen-specifičnim skupovima podataka prije donošenja odluka o izdanju."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Zaštitne mjere sa čovjekom u petlji",
+        "description": "Predviđanja visokog uticaja uključuju pregledne putanje, pravila eskalacije i transparentne signale pouzdanosti."
+      },
+      "continuousMonitoring": {
+        "title": "Kontinuirano praćenje",
+        "description": "Drift, latencija i degradacija kvaliteta se kontinuirano prate, tako da su retraining i rollback proaktivni."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Simulacija genetskih algoritama",
+      "description": "Istražite evolucijsko računanje u interaktivnom okruženju i vidite kako se isti principi prenose u sisteme za optimizaciju produkcije.",
+      "back": "Nazad na Inovacijski laboratorij",
+      "tags": {
+        "demo": "Interaktivna demonstracija",
+        "optimizationScience": "Nauka o optimizaciji"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Naučna osnova",
+        "description": "Genetski algoritmi su metode optimizacije zasnovane na populaciji inspirisane prirodnom selekcijom i adaptacijom."
+      },
+      "interactiveEnvironment": {
+        "title": "Interaktivno evolucijsko okruženje",
+        "description": "Pokrenite simulaciju da vidite kako se fitness poboljšava generaciju po generaciju i posmatrajte kako selekcioni pritisak utiče na ishode."
+      },
+      "productionUse": {
+        "title": "Kako Horizon koristi ovo u produkciji",
+        "description": "Iste mehanike pretrage korištene u ovoj demonstraciji informišu optimizacijske pipeline-ove implementirane u operativnim sistemima."
+      },
+      "applicationDomains": {
+        "title": "Širi domeni primjene",
+        "description": "Evolucijska optimizacija je posebno vrijedna u sistemima sa dinamičnim ciljevima i suprotstavljenim ograničenjima."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Umjesto da traže jedno rješenje u isto vrijeme, genetski algoritmi razvijaju raznoliku populaciju kandidata. Svaka generacija se procjenjuje prema funkciji prilagođenosti i usavršava selekcijom, crossoverom i mutacijom.",
+      "intro2": "To ih čini efikasnim za probleme visokih dimenzija sa nelinearnim ograničenjima, gdje deterministički pristupi postaju krhki ili računski zahtjevni."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Izbor",
+        "description": "Kandidati sa visokim rezultatima imaju veće šanse da prežive i utiču na narednu generaciju."
+      },
+      "crossover": {
+        "title": "Crossover",
+        "description": "Jake osobine se ponovo kombinuju kako bi se stvorila nova kandidatska rješenja sa mješovitim snagama."
+      },
+      "mutation": {
+        "title": "Mutacija",
+        "description": "Kontrolisana nasumičnost uvodi raznolikost kako pretraga ne bi zastala oko lokalnih optimuma."
+      },
+      "convergence": {
+        "title": "Konvergencija",
+        "description": "Kroz mnoge generacije, populacije teže ka stabilnim, visokokvalitetnim rješenjima."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Raspoređivanje resursa",
+        "description": "Koristimo evolutivne strategije za optimizaciju raspoređivanja sa više ograničenja tamo gdje je pretraga sirovom silom nemoguća."
+      },
+      "architectureTuning": {
+        "title": "Podešavanje arhitekture",
+        "description": "Konfiguracije infrastrukture kandidata se procjenjuju iterativno radi poboljšanja performansi i efikasnosti troškova."
+      },
+      "continuousOptimization": {
+        "title": "Kontinuirana optimizacija",
+        "description": "Optimizacijski zadaci rade u kontrolisanim petljama sa telemetrijskim povratnim informacijama kako bi se sistemi prilagođavali promjenama profila potražnje."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Planiranje ruta i logistike",
+        "description": "Složeno planiranje isporuke i slanja ima koristi od evolucijskog pretraživanja kada se ograničenja brzo mijenjaju."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Pretraga modela i hiperparametara",
+        "description": "Genetska pretraga može otkriti visokokvalitetne konfiguracije modela kada su objektivne površine bučne i nelinearne."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Problemi portfolija i alokacije",
+        "description": "Optimizacija pod konkurentskim ciljevima može se predstaviti kao kompromisi prilagođenosti između evoluirajućih skupova kandidata."
+      }
+    }
+  }
+}

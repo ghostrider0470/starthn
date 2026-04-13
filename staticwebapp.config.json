@@ -1,0 +1,43 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/api/*", "/assets/*", "/sitemap*.xml", "*.png", "*.jpg", "*.webp", "*.svg", "*.ico", "*.json", "*.xml", "*.txt", "*.js", "*.css", "*.woff2"]
+  },
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+  },
+  "routes": [
+    {
+      "route": "/assets/*",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "route": "*.woff2",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "route": "/sitemap.xml",
+      "headers": {
+        "Content-Type": "text/xml",
+        "Cache-Control": "public, max-age=3600"
+      }
+    },
+    {
+      "route": "/robots.txt",
+      "headers": {
+        "Cache-Control": "public, max-age=3600"
+      }
+    }
+  ],
+  "mimeTypes": {
+    ".xml": "text/xml"
+  },
+  "responseOverrides": {}
+}

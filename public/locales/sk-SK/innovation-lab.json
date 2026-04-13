@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Inovačné laboratórium",
+    "description": "Preskúmajte interaktívne ukážky, experimenty a technické prezentácie od nášho inžinierskeho tímu.",
+    "primary": "Preskúmajte demá",
+    "secondary": "Zobraziť výskum"
+  },
+  "overview": {
+    "hero": {
+      "title": "Inovačné laboratórium",
+      "description": "Skúmame praktické hranice v oblasti AI, automatizácie a distribuovaných systémov, potom prekladáme overený výskum do spoľahlivých výrobných schopností.",
+      "primary": "Preskúmajte výskumné oblasti",
+      "secondary": "Diskutujte o spolupráci"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Výskumné oblasti",
+        "description": "Každá oblasť zamerania spája prieskumný výskum s implementačnými cestami navrhnutými pre reálne systémy.",
+        "cardCta": "Preskúmajte zameranie"
+      },
+      "detailedFocusBriefs": {
+        "title": "Podrobné stručné prehľady",
+        "description": "Krátkodobé výskumné iniciatívy sa momentálne presúvajú od validácie architektúry k plánom dodania."
+      },
+      "fromLabToProduction": {
+        "title": "Od laboratória k produkcii",
+        "description": "Inovácie v Horizon sa merajú podľa výsledkov odoslaných, nie izolovaných prototypov."
+      },
+      "roadmap": {
+        "title": "Plán výskumu a vývoja",
+        "description": "Postupný postup od budovania schopností k adaptívnym, neustále sa zlepšovajúcim systémom."
+      },
+      "publications": {
+        "title": "Publikácie a poznatky",
+        "description": "Technické písanie a implementačné poznámky z prebiehajúcej inovačnej práce."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Aplikované AI systémy",
+        "description": "AI architektúry zamerané na produkciu, zahŕňajúce obsluhu modelov, orchestráciu funkcií a riadené experimentovanie."
+      },
+      "automationFrameworks": {
+        "title": "Automatizačné rámce",
+        "description": "Interné automatizačné nástroje pre bezpečnosť nasadenia, reakciu na incidenty a opakovateľné inžinierske pracovné postupy."
+      },
+      "advancedArchitecture": {
+        "title": "Experimentovanie s pokročilou architektúrou",
+        "description": "Výskum odolných, distribuovaných architektúr optimalizovaných pre výkon, odolnosť voči chybám a škálovateľnosť."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing a IoT inteligencia",
+        "description": "Inteligencia na hrane pre rozhodovanie s nízkou latenciou, spracovanie telemetrie a koordináciu flotily zariadení."
+      },
+      "nlp": {
+        "title": "Spracovanie prirodzeného jazyka",
+        "description": "Viacjazyčné porozumenie na klasifikáciu, extrakciu, preklad a konverzačné systémy."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Evolučné algoritmy a optimalizácia",
+        "description": "Vyhľadávacie a optimalizačné systémy inšpirované prírodným výberom na riešenie vysokorozmerných inžinierskych výziev."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Automatizačné rámce",
+        "description": "Budujeme kompozovateľné rámce workflow pre orchestraciu vydaní, quality gates a overovanie po nasadení, aby sme znížili manuálne prekážky a zároveň zlepšili spoľahlivosť."
+      },
+      "advancedArchitecture": {
+        "title": "Experimentovanie s pokročilou architektúrou",
+        "description": "Naše architektonické experimenty sa zameriavajú na stratégie rozkladu služieb, vzory odolnosti naprieč regiónmi a výkonnostné obálky pre systémy pracujúce pod volatilným dopytom."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing a IoT inteligencia",
+        "description": "Overujeme dizajny streamovania udalostí a edge inference, ktoré umožňujú rýchlejšie lokálne rozhodovanie a zároveň zachovávajú centralizovanú kontrolu, auditovateľnosť a riadenie životného cyklu modelu."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Adaptívne plánovanie kapacít",
+        "description": "Laboratórne prototypy sa overujú proti simulovaným pracovným záťažiam a následne integrujú do stratégií automatického škálovania platformy."
+      },
+      "operationalIntelligence": {
+        "title": "Operačné spravodajstvo",
+        "description": "NLP pipeline prechádzajú od kontrolovaných experimentov k produkčným podporným pracovným postupom pre rýchlejšie triedenie a jasnejšie poznatky."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Optimalizácia v doručovacích systémoch",
+        "description": "Evolučné metódy testované v laboratóriu sa prekladajú do optimalizačných enginov pre plánovanie a alokáciu."
+      },
+      "edgeDecisioning": {
+        "title": "Rozhodovanie o hranách",
+        "description": "Experimenty IoT a edge inference sú spevnené na služby s nízkou latenciou a prísnymi obmedzeniami spoľahlivosti."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Teraz",
+        "title": "Základy aplikovanej umelej inteligencie",
+        "description": "Rozšírte opakovane použiteľné šablóny na slúženie modelov, hodnotiace sady a štandardy pozorovateľnosti naprieč produktovými tímami."
+      },
+      "next": {
+        "phase": "Ďalej",
+        "title": "Autonómne inžinierske pracovné postupy",
+        "description": "Prevádzkujte automatizačné rámce, ktoré znižujú riziko nasadenia a skracujú spätné väzby pri expedícii."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 mesiacov",
+        "title": "Edge-Native inteligencia",
+        "description": "Škálovať hybridné cloud-edge architektúry pre takmer reálny čas inferencie v prostrediach citlivých na latenciu."
+      },
+      "longHorizon": {
+        "phase": "Dlhý horizont",
+        "title": "Systémy kontinuálnej optimalizácie",
+        "description": "Zjednoťte experimentovanie, monitorovanie a optimalizáciu, aby sa systémy mohli bezpečne prispôsobovať meniacim sa kontextom."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Navrhovanie AI systémov, ktoré zostávajú spoľahlivé v produkcii",
+        "summary": "Praktický pohľad na vyváženie rýchlosti experimentovania s riadením výroby.",
+        "cta": "Prečítajte si postrehy"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Distribuované architektonické vzory pre platformy s vysokým rastom",
+        "summary": "Terénne poznámky z architektonických testov sa zameriavali na výkon, odolnosť a jednoduchosť prevádzky.",
+        "cta": "Prehľad prípadových štúdií"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping aplikovaný výskum a vývoj pre obchodné výsledky",
+        "summary": "Ako štruktúrujeme inovačné iniciatívy tak, aby objavy prechádzali od prototypu k merateľnej hodnote.",
+        "cta": "Preskúmajte publikácie"
+      }
+    },
+    "cta": {
+      "title": "Budujte s Horizon Innovation Lab",
+      "description": "Spolupracujte s nami na rýchlej validácii ambicióznych nápadov a presunie overené koncepty do bezpečných, škálovateľných produkčných systémov.",
+      "primary": "Začnite rozhovor",
+      "secondary": "Zobraziť výsledky doručenia"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Aplikované AI systémy",
+      "description": "Praktický prehľad o tom, ako Horizon navrhuje, nasadzuje a prevádzkuje systémy strojového učenia od prototypu až po produkciu.",
+      "back": "Späť na Inovačné laboratórium",
+      "tags": {
+        "appliedAi": "Aplikovaná AI",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Pipeline strojového učenia",
+        "description": "Produkčná AI začína reprodukovateľnými pipeline, ktoré prepájajú dáta, experimentovanie, validáciu a spätnú väzbu."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Vzory nasadzovania modelu",
+        "description": "Stratégia nasadenia sa vyberá na základe požiadaviek na latenciu, obchodnej kritickosti a operačnej zložitosti."
+      },
+      "mlopsOperatingModel": {
+        "title": "Prevádzkový model MLOps",
+        "description": "MLOps postupy zabezpečujú, že AI systémy zostávajú spoľahlivé, ovládateľné a škálovateľné s rastúcim používaním."
+      },
+      "monitoringAndReliability": {
+        "title": "Monitorovanie a spoľahlivosť",
+        "description": "Pozorovateľnosť uzatvára slučku medzi správaním modelu a operačnými výsledkami."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Inžinierstvo dát a vlastností",
+        "description": "Verzované prijímanie dát, kontroly kvality a opakovane použiteľné definície funkcií vytvárajú spoľahlivý základ pre trénovanie modelu."
+      },
+      "modelDevelopment": {
+        "title": "Vývoj modelu",
+        "description": "Experimenty sa sledujú pomocou reprodukovateľných konfigurácií, objektívnych metrík a automatizovaných porovnávacích základov."
+      },
+      "validationAndSafetyGates": {
+        "title": "Validácia a bezpečnostné brány",
+        "description": "Kandidátske modely prejdú kontrolami výkonnosti, robustnosti a politík predtým, než sú schválené na vydanie."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Prevádzkové spätné väzby",
+        "description": "Telemetria po nasadení informuje o prioritách preškolenia, rozhodnutiach o návrate späť a plánovaní ďalších iterácií."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Služby inferencie v reálnom čase",
+        "description": "API s nízkou latenciou pre interaktívne aplikácie s automatickým škálovaním, cachovaním a pozorovateľnosťou na úrovni požiadaviek."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Dávkové a streamovacie predikcie",
+        "description": "Plánované a udalostí riadené pipeline pre vysokoobjemové skórovanie naprieč analytikou a prevádzkovými pracovnými postupmi."
+      },
+      "edgeAwareDeployment": {
+        "title": "Edge-Aware nasadenie",
+        "description": "Hybridné cloud-edge servisné vzory pre prostredia vyžadujúce lokálnu inferenciu a centralizovanú správu modelov."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI/CD pre modely",
+        "description": "Automatizované pracovné postupy zostavovania, testovania a vydávania znižujú riziko nasadenia a zároveň zachovávajú rýchlosť doručenia."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Registr modelov a životný cyklus",
+        "description": "Artefakty verzovaných modelov s postupmi propagácie, pôvodom a schvaľovaním zlepšujú kontrolu a sledovateľnosť."
+      },
+      "servingInfrastructure": {
+        "title": "Obsluha infraštruktúry",
+        "description": "Škálovateľné servisné vrstvy s implementačnými stratégiami, ako sú canary a shadow nasadenia, podporujú bezpečné riadenie zmien."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Kvalita predikcie a detekcia driftu",
+      "latencyThroughputAndCostEfficiencyTracking": "Sledovanie latencie, priepustnosti a nákladovej efektívnosti",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Upozornenia na regresiu kvality dát a pracovné postupy nápravy",
+      "auditabilityForComplianceAndIncidentAnalysis": "Auditovateľnosť pre súlad a analýzu incidentov"
+    },
+    "cta": {
+      "title": "Škálujte aplikovanú AI s istotou",
+      "description": "Ak plánujete AI iniciatívy, ktoré potrebujú merateľné výsledky a dlhodobú udržateľnosť, Horizon vám môže pomôcť navrhnúť a uviesť do prevádzky celý životný cyklus systému.",
+      "primary": "Porozprávajte sa s naším tímom",
+      "secondary": "Preskúmajte viac laboratórnej práce"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "Viacjazyčné NLP",
+      "description": "Preskúmajte praktické možnosti spracovania prirodzeného jazyka a ako sa škálujú do spoľahlivých, viacjazyčných produkčných systémov.",
+      "back": "Späť na Inovačné laboratórium",
+      "tags": {
+        "demo": "Interaktívna ukážka",
+        "intelligence": "Jazyková inteligencia"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Základy NLP",
+        "description": "Spracovanie prirodzeného jazyka kombinuje jazykové signály a strojové učenie na získanie významu, zámeru a štruktúry z textu."
+      },
+      "workbench": {
+        "title": "Interaktívny NLP pracovný stôl",
+        "description": "Použite demo na testovanie detekcie jazyka, hodnotenia sentimentu, extrakcie entít a prekladateľského správania v reálnom čase."
+      },
+      "productionApplications": {
+        "title": "Ako Horizon aplikuje NLP v produkcii",
+        "description": "NLP schopnosti sú integrované do obchodných pracovných postupov s výkonnostnými ochrannými opatreniami a jasnými kvalitatívnymi metrikami."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Zásady spoľahlivosti a riadenia",
+        "description": "Produkčné NLP vyžaduje viac než len kvalitu modelu; Závisí to od bezpečných postupov pri zavádzaní a neustáleho overovania."
+      }
+    },
+    "foundations": {
+      "intro1": "Moderné NLP systémy podporujú automatizáciu, relevantnosť vyhľadávania, extrakciu znalostí a viacjazyčnú spoluprácu. Efektívna implementácia si vyžaduje kvalitu modelu aj silné prevádzkové kontroly.",
+      "intro2": "V Horizon sa zameriavame na end-to-end NLP systémy, ktoré kombinujú robustnú inferenciu s pozorovateľnosťou, správou a merateľným dopadom na produkciu."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Detekcia jazyka",
+        "description": "Identifikuje jazyk z krátkych alebo dlhých textových segmentov na smerovanie požiadaviek do správnej spracovateľskej pipeline."
+      },
+      "sentimentAnalysis": {
+        "title": "Analýza sentimentu",
+        "description": "Extrahuje emocionálny zámer a polaritu pre zákaznícku inteligenciu, triedenie podpory a spätnú väzbu produktu."
+      },
+      "entityExtraction": {
+        "title": "Extrakcia entít",
+        "description": "Detekuje štruktúrované entity ako mená, spoločnosti, lokality a dátumy z neštruktúrovaného textu."
+      },
+      "translation": {
+        "title": "Preklad",
+        "description": "Podporuje viacjazyčné pracovné postupy prekladom používateľsky generovaného alebo operačného textu pri zachovaní kontextu."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Podpora a spravodajstvo o ticketoch",
+        "description": "Klasifikujte prichádzajúce požiadavky podľa naliehavosti, zámeru a sentimentu, aby ste urýchlili smerovanie a kvalitu odpovede."
+      },
+      "governedContentOperations": {
+        "title": "Riadené obsahové operácie",
+        "description": "Aplikujte jazykové filtre a kontroly moderácie s merateľnou presnosťou a pripomeňte si ciele."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Textové obchodné poznatky",
+        "description": "Agregujte trendy z dokumentov, prehľadov a komunikácií na informovanie strategických a prevádzkových rozhodnutí."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Hodnotenie podľa použitia",
+        "description": "Modely sa porovnávajú s doménovo špecifickými datasetmi pred prijatím rozhodnutí o vydaní."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Ochrany s človekom v cykle",
+        "description": "Predpovede s vysokým dopadom zahŕňajú kontrolné cesty, pravidlá eskalácie a transparentné signály spoľahlivosti."
+      },
+      "continuousMonitoring": {
+        "title": "Kontinuálne monitorovanie",
+        "description": "Drift, latencia a degradácia kvality sa sledujú priebežne, takže preškolenie a návrat sú proaktívne."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Simulácia genetického algoritmu",
+      "description": "Preskúmajte evolučné výpočty v interaktívnom prostredí a zistite, ako sa rovnaké princípy premietajú do systémov optimalizácie produkcie.",
+      "back": "Späť na Inovačné laboratórium",
+      "tags": {
+        "demo": "Interaktívna ukážka",
+        "optimizationScience": "Optimalizačná veda"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Vedecký základ",
+        "description": "Genetické algoritmy sú metódy optimalizácie založené na populácii, inšpirované prirodzeným výberom a adaptáciou."
+      },
+      "interactiveEnvironment": {
+        "title": "Interaktívne evolučné prostredie",
+        "description": "Spustite simuláciu, aby ste sledovali, ako sa fitness zlepšuje generáciu po generácii a sledujte, ako selekčný tlak ovplyvňuje výsledky."
+      },
+      "productionUse": {
+        "title": "Ako to Horizon využíva vo výrobe",
+        "description": "Rovnaké vyhľadávacie mechaniky použité v tejto ukážke ovplyvňujú optimalizačné pipeline nasadené v operačných systémoch."
+      },
+      "applicationDomains": {
+        "title": "Širšie aplikačné domény",
+        "description": "Evolučná optimalizácia je obzvlášť cenná v systémoch s dynamickými cieľmi a protichodnými obmedzeniami."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Namiesto hľadania jedného riešenia naraz, genetické algoritmy vyvíjajú rozmanitú populáciu kandidátov. Každá generácia je hodnotená podľa fitness funkcie a zdokonaľovaná selekciou, crossoverom a mutáciou.",
+      "intro2": "To ich robí efektívnymi pre vysokorozmerné problémy s nelineárnymi obmedzeniami, kde deterministické prístupy sú krehké alebo výpočtovo náročné."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Výber",
+        "description": "Vysoko výkonní kandidáti majú väčšiu šancu prežiť a ovplyvniť ďalšiu generáciu."
+      },
+      "crossover": {
+        "title": "Crossover",
+        "description": "Silné vlastnosti sa kombinujú, aby vznikli nové kandidátske riešenia s rôznymi silnými stránkami."
+      },
+      "mutation": {
+        "title": "Mutácia",
+        "description": "Kontrolovaná náhodnosť prináša rozmanitosť, takže vyhľadávanie sa nezasekne okolo lokálnych optim."
+      },
+      "convergence": {
+        "title": "Konvergencia",
+        "description": "Počas mnohých generácií sa populácie prikláňajú k stabilným, kvalitným riešeniam."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Plánovanie zdrojov",
+        "description": "Používame evolučné stratégie na optimalizáciu plánovania s viacerými obmedzeniami tam, kde je hrubé vyhľadávanie neuskutočniteľné."
+      },
+      "architectureTuning": {
+        "title": "Ladenie architektúry",
+        "description": "Kandidátske konfigurácie infraštruktúry sa hodnotia iteratívne na zlepšenie výkonu a nákladovej efektívnosti."
+      },
+      "continuousOptimization": {
+        "title": "Kontinuálna optimalizácia",
+        "description": "Optimalizačné úlohy bežia v riadených slučkách s telemetrickou spätnou väzbou, takže systémy sa prispôsobujú meniacim sa profilom dopytu."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Plánovanie trás a logistiky",
+        "description": "Komplexné plánovanie doručenia a odoslania profituje z evolučného vyhľadávania v čase, keď sa obmedzenia menia rýchlo."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Vyhľadávanie modelov a hyperparametrov",
+        "description": "Genetické vyhľadávanie dokáže odhaliť kvalitné modelové konfigurácie, keď sú objektívne povrchy hlučné a nelineárne."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Portfólio a problémy s alokáciou",
+        "description": "Optimalizáciu za konkurenčných cieľov možno rámcovať ako kompromisy medzi vyvíjajúcimi sa kandidátskymi množinami."
+      }
+    }
+  }
+}

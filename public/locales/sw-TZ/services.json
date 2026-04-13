@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Anza",
+    "ctaSecondary": "Ratiba ya Ushauri"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Maendeleo ya Programu ya Biashara",
+      "description": "Programu za biashara za mwisho hadi mwisho zilizo na mifumo ya kisasa, usanifu wa kwanza wa API, na uboreshaji wa asili wa wingu."
+    },
+    "sections": {
+      "problem": {
+        "title": "Uundaji wa Shida ya Biashara",
+        "subtitle": "Ambapo programu za biashara hupoteza kasi, bajeti, na mpangilio wa kimkakati"
+      },
+      "approach": {
+        "title": "Mbinu ya Uhandisi",
+        "subtitle": "Jinsi tunavyogeuza mahitaji yasiyoeleweka kuwa majukwaa yaliyo tayari kwa uzalishaji"
+      },
+      "principles": {
+        "title": "Kanuni za Usanifu",
+        "subtitle": "Kubuni maamuzi ambayo huweka mifumo ya biashara kudumishwa kwa kiwango"
+      },
+      "capabilities": {
+        "title": "Tunachojenga",
+        "subtitle": "Uwezo wa kina wa ukuzaji wa programu"
+      },
+      "technology": {
+        "title": "Rafu yetu ya Teknolojia",
+        "subtitle": "Teknolojia za kisasa, zilizothibitishwa kwa utoaji wa biashara"
+      },
+      "breakdown": {
+        "title": "Uchanganuzi wa Huduma",
+        "subtitle": "Njia iliyopangwa kutoka kwa ugunduzi hadi utoaji thabiti wa uzalishaji"
+      }
+    },
+    "problem": {
+      "overview": "Timu za biashara mara nyingi hubeba mtiririko muhimu wa kazi kwenye mifumo iliyogawanyika, na kuunda muda mrefu wa kuongoza, data isiyolingana, na uratibu wa gharama kubwa kati ya idara.",
+      "painPointsTitle": "Maumivu ya Biashara ya Mara kwa Mara",
+      "impactSignalsTitle": "Kile ambacho viongozi kawaida huzingatia",
+      "painPoints": [
+        "Ahadi za uwasilishaji huteleza kwa sababu utegemezi katika timu zote hazijasimamiwa",
+        "Mantiki ya msingi ya biashara inarudiwa kwenye vituo na bidhaa",
+        "Ujumuishaji wa urithi hufanya uzinduzi wa huduma mpya kuwa hatari kubwa na polepole"
+      ],
+      "impactSignals": [
+        "Upitishaji wa ramani ya barabara unapungua wakati matumizi ya uhandisi yanaongezeka",
+        "Kasoro zinazowakabili wateja huongezeka wakati wa kutolewa",
+        "Kufanya maamuzi hupungua kwa sababu ya kuripoti kwa uendeshaji kutofautiana"
+      ]
+    },
+    "approach": {
+      "overview": "Tunatekeleza kwa ugunduzi wa kwanza wa usanifu, utoaji unaoendeshwa na mkataba, na uhandisi wa kutolewa unaodhibitiwa ili thamani ya biashara isafirishwe kwa nyongeza zinazotabirika.",
+      "pillars": [
+        {
+          "title": "Uundaji wa Kikoa na Miktadha Iliyofungwa",
+          "detail": "Tunaweka ramani ya vikoa ili kufuta mipaka ya huduma ili kupunguza uunganisho wa timu na kufafanua umiliki."
+        },
+        {
+          "title": "Mkakati wa Ujumuishaji wa API-Kwanza",
+          "detail": "Tunafafanua mikataba thabiti mapema, kuwezesha maendeleo sambamba na ujumuishaji salama na mifumo ya biashara."
+        },
+        {
+          "title": "Mtiririko wa Uwasilishaji unaoendelea",
+          "detail": "Tunatumia bendera za vipengele, uchapishaji uliopangwa, na milango ya ubora ili kutolewa haraka bila kudhoofisha uzalishaji."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Maamuzi yetu ya usanifu yanatanguliza maisha marefu, utendaji, na umiliki wazi ili majukwaa yaendelee kubadilika kadiri wigo wa biashara unavyokua.",
+      "items": [
+        {
+          "title": "Mipaka ya Huduma ya Kawaida",
+          "detail": "Uwezo umewekwa karibu na vikoa vya biashara ili kuweka athari za mabadiliko zilizojanibishwa."
+        },
+        {
+          "title": "Ujumuishaji unaoendeshwa na tukio",
+          "detail": "Mtiririko wa kazi wa asynchronous hutumiwa ambapo uvumilivu wa latency upo ili kuboresha uthabiti na kutenganisha mifumo."
+        },
+        {
+          "title": "Kuzingatiwa kwa Ubunifu",
+          "detail": "Ufuatiliaji, vipimo, na kumbukumbu zilizopangwa hufafanuliwa mapema ili kusaidia shughuli za kuaminika na utawala wa SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Maombi maalum ya wavuti",
+      "Maendeleo ya Programu ya Simu",
+      "Maendeleo na Ujumuishaji wa API",
+      "Usanifu wa huduma ndogo",
+      "Ufumbuzi wa asili ya wingu",
+      "Uboreshaji wa Mfumo wa Urithi"
+    ],
+    "technologies": [
+      {
+        "name": "Kuguswa",
+        "category": "Sehemu ya mbele",
+        "icon": "kuguswa"
+      },
+      {
+        "name": "Node.js",
+        "category": "Mwisho wa nyuma",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".WAVU",
+        "category": "Mwisho wa nyuma",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Chatu",
+        "category": "Mwisho wa nyuma",
+        "icon": "Chatu"
+      },
+      {
+        "name": "Hati ya Aina",
+        "category": "Lugha",
+        "icon": "maandishi"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "GraphQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Hifadhidata",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Hifadhidata",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Ugunduzi na Usanifu",
+        "summary": "Tunaweka ramani ya vipaumbele vya biashara, vikwazo vya kiufundi, na usanifu unaolengwa kabla ya utekelezaji kuanza.",
+        "deliverables": [
+          "Warsha ya upatanishi wa bidhaa na mahitaji",
+          "Mpango wa usanifu wa suluhisho",
+          "Mpango wa utoaji wa msingi wa hatua muhimu"
+        ]
+      },
+      {
+        "title": "Jenga na Ujumuishaji",
+        "summary": "Timu zetu hutekeleza vipengele vya msingi, tabaka za ujumuishaji, na ulinzi wa ubora sambamba.",
+        "deliverables": [
+          "Ukuzaji wa kipengele katika mbio za kurudia",
+          "API na miunganisho ya wahusika wengine",
+          "Upimaji wa kiotomatiki na ukaguzi wa utayari wa kutolewa"
+        ]
+      },
+      {
+        "title": "Uzinduzi na Mageuzi",
+        "summary": "Baada ya kwenda moja kwa moja, tunaimarisha shughuli na kufafanua mzunguko unaofuata wa uboreshaji kulingana na matumizi halisi.",
+        "deliverables": [
+          "Kitabu cha kukimbia cha uzalishaji",
+          "Urekebishaji wa utendaji na kuegemea",
+          "Ramani ya barabara ya baada ya uzinduzi na mrundikano wa uboreshaji"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Je, uko tayari kuunda programu yako inayofuata?",
+      "description": "Wacha tubuni na tusafirishe suluhisho ambalo linaendesha matokeo ya biashara yanayoweza kupimika.",
+      "button": "Anza mradi wako"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML na Ujasusi wa Biashara",
+      "description": "Kuanzia miundo ya ubashiri hadi dashibodi za utendaji, tunaunda mifumo kamili ya AI/BI inayosaidia maamuzi kwa kiwango."
+    },
+    "sections": {
+      "problem": {
+        "title": "Uundaji wa Shida ya Biashara",
+        "subtitle": "Kwa nini mashirika yenye utajiri wa data bado yanajitahidi kufanya maamuzi ya ujasiri"
+      },
+      "approach": {
+        "title": "Mbinu ya Uhandisi",
+        "subtitle": "Jinsi tunavyotekeleza bidhaa za data, miundo ya ML, na mtiririko wa kazi wa BI"
+      },
+      "principles": {
+        "title": "Kanuni za Usanifu",
+        "subtitle": "Mifumo ya usanifu wa data na mfano kwa akili ya uamuzi wa kuaminika"
+      },
+      "capabilities": {
+        "title": "Uwezo wetu",
+        "subtitle": "Ufumbuzi wa kina wa AI, ML, na BI"
+      },
+      "technology": {
+        "title": "Rafu yetu ya Teknolojia",
+        "subtitle": "Zana zinazoongoza katika tasnia ya data na AI"
+      },
+      "breakdown": {
+        "title": "Uchanganuzi wa Huduma",
+        "subtitle": "Jinsi tunavyohama kutoka kwa data iliyogawanyika hadi akili ya kiwango cha uzalishaji"
+      }
+    },
+    "problem": {
+      "overview": "Mashirika mara nyingi hukusanya idadi kubwa ya data lakini hushindwa kutafsiri kuwa utabiri wa kuaminika, maamuzi ya uendeshaji, au hatua ya biashara inayoweza kupimika.",
+      "painPointsTitle": "Maumivu ya Biashara ya Mara kwa Mara",
+      "impactSignalsTitle": "Kile ambacho viongozi kawaida huzingatia",
+      "painPoints": [
+        "Mantiki ya kuripoti inatofautiana katika timu, na kusababisha masimulizi yanayokinzana ya KPI",
+        "Mifano hubaki katika majaribio na kamwe haifikii mtiririko wa uzalishaji",
+        "Masuala ya ubora wa data yanadhoofisha uaminifu katika uchanganuzi na dashibodi za watendaji"
+      ],
+      "impactSignals": [
+        "Mizunguko ya uamuzi polepole kwa sababu timu zinajadili uhalali wa data badala ya hatua",
+        "Usahihi wa utabiri na upangaji bado hauendani robo kwa robo",
+        "Uwekezaji wa uchanganuzi unaonyesha kupitishwa kwa chini nje ya vikundi maalum vya wachambuzi"
+      ]
+    },
+    "approach": {
+      "overview": "Tunatoa majukwaa ya AI na BI kama mifumo ya uzalishaji, uhandisi wa data wa kuunganisha, uendeshaji wa mzunguko wa maisha wa mfano, na ujumuishaji wa mtiririko wa kazi wa uamuzi.",
+      "pillars": [
+        {
+          "title": "Msingi wa Bidhaa ya Data",
+          "detail": "Bidhaa za data zinazolingana na kikoa huanzisha pembejeo zinazoweza kutumika tena, zinazosimamiwa, na za ubora wa juu kwa uchanganuzi na ML."
+        },
+        {
+          "title": "Uendeshaji wa Mzunguko wa Maisha wa MLOps",
+          "detail": "Mafunzo, upelekaji, ufuatiliaji, na udhibiti wa kuteleza ni otomatiki ili kuweka mifano ya kuaminika katika uzalishaji."
+        },
+        {
+          "title": "Ujumuishaji wa Mtiririko wa Kazi wa Uamuzi",
+          "detail": "Maarifa yamepachikwa kwenye zana za uendeshaji na dashibodi ili timu zichukue hatua kwa ujasusi ndani ya michakato ya kila siku."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Usanifu wetu wa AI/BI unatanguliza data inayoaminika, miundo inayoelezeka, na mifumo ya ufikiaji inayodhibitiwa katika biashara nzima.",
+      "items": [
+        {
+          "title": "Ufafanuzi wa kipimo kimoja",
+          "detail": "KPIs muhimu hufafanuliwa mara moja kupitia mifano ya semantic iliyoshirikiwa ili kuondoa mantiki ya kuripoti."
+        },
+        {
+          "title": "Udhibiti wa Kuegemea kwa Mfano",
+          "detail": "Vizingiti vya utendaji, utambuzi wa drift, na mifumo ya kurudisha nyuma hulinda ubora wa uamuzi katika uzalishaji."
+        },
+        {
+          "title": "Usalama na Utawala kwa Ubunifu",
+          "detail": "Ukoo wa data, ufikiaji unaotegemea jukumu, na vidhibiti vilivyo tayari ukaguzi vimepachikwa kwenye kila bomba."
+        }
+      ]
+    },
+    "capabilities": [
+      "Mifano ya Kujifunza kwa Mashine na Mabomba",
+      "Dashibodi na Ripoti za Power BI",
+      "Uchanganuzi wa Utabiri",
+      "Utiririshaji wa Data wa Wakati Halisi",
+      "Ufumbuzi wa Hifadhi ya Data"
+    ],
+    "technologies": [
+      {
+        "name": "Kitambaa cha Microsoft",
+        "category": "Jukwaa",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Nguvu BI",
+        "category": "BI",
+        "icon": "nguvu"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Ghala la Data",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Matofali ya data",
+        "category": "Uhandisi wa Data",
+        "icon": "Matofali ya data"
+      },
+      {
+        "name": "Azure ML",
+        "category": "Jukwaa la ML",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Mtiririko wa Tensor",
+        "category": "Mfumo wa ML",
+        "icon": "Mtiririko wa Tensor"
+      },
+      {
+        "name": "PyTorch",
+        "category": "Mfumo wa ML",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Jedwali",
+        "category": "Uchanganuzi",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Cheche ya Apache",
+        "category": "Usindikaji",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "Maswali",
+        "category": "Lugha",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Msingi wa Data",
+        "summary": "Tunakagua vyanzo, kufafanua mikataba ya data, na kuanzisha utawala ili kila mfano uanze na pembejeo zinazoaminika.",
+        "deliverables": [
+          "Chanzo cha data na tathmini ya ubora",
+          "Uhandisi wa kipengele na upangaji wa schema",
+          "Msingi wa usalama na utawala"
+        ]
+      },
+      {
+        "title": "Utoaji wa Mfano na Maarifa",
+        "summary": "Tunaunda mifano na dashibodi za maamuzi zilizounganishwa na maswali ya biashara yanayoweza kupimika na KPIs.",
+        "deliverables": [
+          "Ukuzaji wa mfano na uthibitishaji",
+          "Dashibodi za mtendaji na ripoti ya uendeshaji",
+          "Ujumuishaji wa mtiririko wa kazi wa uamuzi"
+        ]
+      },
+      {
+        "title": "MLOps na Kupitishwa",
+        "summary": "Tunatekeleza upelekaji, ufuatiliaji, na uwezeshaji wa timu ili kuweka matokeo ya kuaminika kwa muda.",
+        "deliverables": [
+          "Mabomba ya uwekaji wa mfano wa kiotomatiki",
+          "Drift, usahihi, na ufuatiliaji wa matumizi",
+          "Makabidhiano ya timu na kitabu cha kucheza cha uendeshaji"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Badilisha Data yako kuwa Maarifa",
+      "description": "Geuza data iliyogawanyika kuwa akili iliyo wazi, inayoweza kutekelezeka.",
+      "button": "Anza safari yako"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Usanifu wa Wingu na Miundombinu",
+      "description": "Majukwaa ya wingu nyingi, usanifu thabiti, na miundombinu hatari iliyoundwa kwa ukuaji wa muda mrefu."
+    },
+    "sections": {
+      "problem": {
+        "title": "Uundaji wa Shida ya Biashara",
+        "subtitle": "Kwa nini mipango ya wingu inakwama baada ya wimbi la kwanza la uhamiaji"
+      },
+      "approach": {
+        "title": "Mbinu ya Uhandisi",
+        "subtitle": "Jinsi tunavyounda majukwaa salama na hatari ya uhamiaji"
+      },
+      "principles": {
+        "title": "Kanuni za Usanifu",
+        "subtitle": "Maamuzi ya jukwaa ambayo yanasawazisha wepesi, uthabiti, na utawala"
+      },
+      "capabilities": {
+        "title": "Huduma za Wingu",
+        "subtitle": "Jenga, peleka, na uongeze katika wingu"
+      },
+      "technology": {
+        "title": "Utaalam wa Wingu Nyingi",
+        "subtitle": "Ufumbuzi wa wingu wa jukwaa-agnostic"
+      },
+      "breakdown": {
+        "title": "Uchanganuzi wa Huduma",
+        "subtitle": "Mlolongo wazi wa kubuni, kuhama, na kuendesha majukwaa ya wingu"
+      }
+    },
+    "problem": {
+      "overview": "Mashirika mengi hukamilisha uhamiaji wa awali wa wingu lakini bado hufanya kazi kama timu za ndani, na mwonekano duni, udhibiti usiolingana na kuongezeka kwa matumizi.",
+      "painPointsTitle": "Maumivu ya Biashara ya Mara kwa Mara",
+      "impactSignalsTitle": "Kile ambacho viongozi kawaida huzingatia",
+      "painPoints": [
+        "Mzigo wa kazi huhamishwa bila usalama wa kawaida na udhibiti wa mitandao",
+        "Gharama za wingu hukua haraka kuliko thamani ya biashara inayotolewa",
+        "Utoaji wa mazingira unabaki kuwa mwongozo na hauendani katika timu zote"
+      ],
+      "impactSignals": [
+        "Matukio ya mara kwa mara yanayosababishwa na utelezi wa usanidi kati ya mazingira",
+        "Utayari wa ukaguzi hupungua kwa sababu ya mazoea ya utawala yaliyogawanyika",
+        "Nyakati za kuongoza za miundombinu huchelewesha mipango ya bidhaa na data"
+      ]
+    },
+    "approach": {
+      "overview": "Tunabuni majukwaa ya wingu kama bidhaa, kwa kutumia otomatiki ya miundombinu, ulinzi wa sera, na mawimbi ya uhamiaji yanayolingana na umuhimu wa biashara.",
+      "pillars": [
+        {
+          "title": "Eneo la kutua kama msimbo",
+          "detail": "Utambulisho, mitandao, usalama, na misingi ya sera imeratibiwa kwa kurudia na ukaguzi."
+        },
+        {
+          "title": "Mkakati wa uhamiaji unaotegemea wimbi",
+          "detail": "Mzigo wa kazi husogea katika awamu zinazodhibitiwa na mpangilio unaofahamu utegemezi na utayari wa kurudisha nyuma."
+        },
+        {
+          "title": "Kitanzi cha Uendeshaji cha SRE + FinOps",
+          "detail": "Viashiria vya kuegemea na uchumi wa kitengo hupitiwa pamoja ili kuboresha muda wa ziada na ufanisi wa matumizi."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Muundo wetu wa usanifu unapendelea miundombinu ya kutangaza, ufikiaji wa upendeleo mdogo, na majukwaa yanayoweza kutungwa ambayo yanasaidia uwasilishaji wa haraka wa bidhaa.",
+      "items": [
+        {
+          "title": "Mifumo ya Miundombinu isiyobadilika",
+          "detail": "Mazingira hujengwa upya kutoka kwa nambari iliyotolewa ili kupunguza kuteleza na kurahisisha urejeshaji wa uendeshaji."
+        },
+        {
+          "title": "Msingi wa Usalama kwa Chaguo-msingi",
+          "detail": "Udhibiti wa ufikiaji wa uaminifu na utekelezaji wa sera umepachikwa katika kila mzunguko wa maisha wa mazingira."
+        },
+        {
+          "title": "Ustahimilivu kupitia usambazaji",
+          "detail": "Mzigo muhimu wa kazi umeundwa kwa uvumilivu wa kushindwa kwa kanda nyingi au mikoa mingi ambapo athari za biashara zinahitaji."
+        }
+      ]
+    },
+    "capabilities": [
+      "Mkakati na utekelezaji wa wingu nyingi",
+      "Upangaji wa Kontena (Kubernetes)",
+      "Kompyuta isiyo na seva",
+      "Huduma za Uhamiaji wa Wingu",
+      "Usanifu wa Upatikanaji wa Juu"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Wingu",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "AWS",
+        "category": "Wingu",
+        "icon": "Huduma za Wavuti za Amazon"
+      },
+      {
+        "name": "GCP",
+        "category": "Wingu",
+        "icon": "Wingu la Google"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orchestration",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Vyombo",
+        "icon": "Docker"
+      },
+      {
+        "name": "Fomu ya Terra",
+        "category": "IaC",
+        "icon": "Fomu ya Terra"
+      },
+      {
+        "name": "Violezo vya ARM",
+        "category": "IaC",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Uundaji wa wingu",
+        "category": "IaC",
+        "icon": "Huduma za Wavuti za Amazon"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Usanifu na Eneo la Kutua",
+        "summary": "Tunafafanua hali lengwa, ulinzi, na viwango vya msingi vya jukwaa kabla ya mzigo wa kazi kuhama.",
+        "deliverables": [
+          "Ubunifu wa usanifu wa wingu unaolengwa",
+          "Utambulisho, mitandao, na msingi wa usalama",
+          "Gharama na ulinzi wa kufuata"
+        ]
+      },
+      {
+        "title": "Uhamiaji na Ujenzi wa Jukwaa",
+        "summary": "Tunatekeleza mawimbi ya uhamiaji na kusimama vifaa vya jukwaa la asili la wingu na otomatiki inayoweza kurudiwa.",
+        "deliverables": [
+          "Mpangilio wa uhamiaji wa mzigo wa kazi",
+          "Usanidi wa jukwaa la kontena na seva",
+          "Miundombinu kama moduli za Msimbo"
+        ]
+      },
+      {
+        "title": "Kuegemea na FinOps",
+        "summary": "Tunaboresha uaminifu wa uendeshaji na kuendelea kuboresha matumizi ya wingu kulingana na telemetry ya moja kwa moja.",
+        "deliverables": [
+          "SLOs, ufuatiliaji, na mtiririko wa matukio",
+          "Ustahimilivu na uthibitishaji wa uokoaji wa maafa",
+          "Mrundikano wa uboreshaji wa gharama na mwako wa utawala"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ongeza miundombinu yako",
+      "description": "Jenga misingi ya wingu ambayo inakaa thabiti chini ya mzigo wa ulimwengu halisi.",
+      "button": "Panga Mkakati wako wa Wingu"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "Uhandisi wa DevOps na Jukwaa",
+      "description": "Mabomba ya uwasilishaji wa kiotomatiki, uangalizi, na mazoea ya jukwaa ambayo huboresha kasi bila kuacha kuegemea."
+    },
+    "sections": {
+      "problem": {
+        "title": "Uundaji wa Shida ya Biashara",
+        "subtitle": "Kwa nini kasi ya uwasilishaji inapungua kadiri ugumu wa jukwaa unavyoongezeka"
+      },
+      "approach": {
+        "title": "Mbinu ya Uhandisi",
+        "subtitle": "Jinsi tunavyosawazisha mabomba ya uwasilishaji bila kupunguza kasi ya timu za bidhaa"
+      },
+      "principles": {
+        "title": "Kanuni za Usanifu",
+        "subtitle": "Mifumo ya uhandisi wa jukwaa ambayo huongeza kuegemea na uhuru wa timu"
+      },
+      "capabilities": {
+        "title": "Huduma za DevOps",
+        "subtitle": "Otomatiki, fuatilia, na uboreshe mzunguko wako wa maisha ya uwasilishaji"
+      },
+      "technology": {
+        "title": "Zana na Majukwaa ya DevOps",
+        "subtitle": "Mnyororo wa zana bora zaidi wa DevOps"
+      },
+      "breakdown": {
+        "title": "Uchanganuzi wa Huduma",
+        "subtitle": "Ramani ya barabara ya vitendo kutoka kwa vikwazo vya uwasilishaji hadi mtiririko wa kutolewa kwa uaminifu mkubwa"
+      }
+    },
+    "problem": {
+      "overview": "Mashirika mara nyingi huwekeza katika zana za CI/CD lakini bado hupambana na matoleo yasiyo thabiti, idhini polepole, na umiliki uliogawanyika katika mazingira yote.",
+      "painPointsTitle": "Maumivu ya Biashara ya Mara kwa Mara",
+      "impactSignalsTitle": "Kile ambacho viongozi kawaida huzingatia",
+      "painPoints": [
+        "Ufafanuzi wa bomba hutofautiana kulingana na timu, na kuunda milango ya ubora isiyolingana",
+        "Uidhinishaji wa usambazaji wa mwongozo huchelewesha hotfix na ratiba za kutolewa kwa huduma",
+        "Matukio ya uendeshaji hujirudia kwa sababu telemetry haijakamilika au imefungwa"
+      ],
+      "impactSignals": [
+        "Muda wa kuongoza kwa mabadiliko unaendelea kuongezeka licha ya matumizi ya kiotomatiki",
+        "Badilisha ongezeko la kiwango cha kutofaulu wakati wa utoaji wa kiwango cha juu",
+        "Uzalishaji wa msanidi programu hupungua kwa sababu ya msuguano wa zana na kubadili muktadha"
+      ]
+    },
+    "approach": {
+      "overview": "Tunaanzisha muundo wa jukwaa la ndani la msanidi programu na templeti za bomba zinazoweza kutumika tena, utawala unaoendeshwa na sera, na uangalizi kamili wa mzunguko wa maisha.",
+      "pillars": [
+        {
+          "title": "Violezo vya Bomba la Njia ya Dhahabu",
+          "detail": "Ramani za CI/CD zinazoweza kutumika tena husawazisha uujenzi, majaribio, ukaguzi wa usalama na mtiririko wa kazi wa kupeleka."
+        },
+        {
+          "title": "API ya Jukwaa na Huduma ya Kibinafsi",
+          "detail": "Timu hutoa mazingira na kutolewa kwa miundombinu kupitia miingiliano ya huduma ya kibinafsi inayodhibitiwa."
+        },
+        {
+          "title": "Vitanzi vya Maoni ya Kuegemea",
+          "detail": "Mwenendo wa matukio, afya ya SLO, na telemetry ya upelekaji huarifu mchakato endelevu na uboreshaji wa usanifu."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Usanifu wetu wa DevOps huoanisha kasi ya uwasilishaji na utawala kwa kudhibiti kiotomatiki na kupunguza kazi ya uendeshaji ya mara moja.",
+      "items": [
+        {
+          "title": "Kila kitu kama Msimbo wa Toleo",
+          "detail": "Bomba, miundombinu, na sheria za sera zinasimamiwa katika udhibiti wa chanzo kwa ukaguzi na kurudia."
+        },
+        {
+          "title": "Uthibitishaji unaoendelea",
+          "detail": "Ukaguzi wa ubora, usalama, na utendakazi umewekwa katika hatua zote ili kugundua hatari mapema."
+        },
+        {
+          "title": "Wajibu wa Jukwaa la Pamoja",
+          "detail": "Timu za jukwaa hutoa uwezo wa barabara ya lami huku timu za bidhaa zikihifadhi umiliki wa uwasilishaji."
+        }
+      ]
+    },
+    "capabilities": [
+      "Ubunifu wa Bomba la CI/CD",
+      "Miundombinu kama Kanuni",
+      "Upimaji wa kiotomatiki",
+      "Uendeshaji wa Usambazaji",
+      "Ufuatiliaji na Uangalizi"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Jukwaa",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "Vitendo vya GitHub",
+        "category": "CI / CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Fomu ya Terra",
+        "category": "IaC",
+        "icon": "Fomu ya Terra"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI / CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Usukani",
+        "category": "Ufungaji",
+        "icon": "Usukani"
+      },
+      {
+        "name": "Inawezekana",
+        "category": "Uendeshaji",
+        "icon": "Inawezekana"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Ufuatiliaji",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Uangalizi",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Tathmini ya Jukwaa",
+        "summary": "Tunatathmini msururu wako wa sasa wa uwasilishaji wa programu ili kutambua pointi za hatari na vikwazo vya kasi.",
+        "deliverables": [
+          "Ramani ya mtiririko wa kazi ya uwasilishaji wa hali ya sasa",
+          "Uchambuzi wa kizuizi cha bomba",
+          "Ramani ya kukomaa ya DevOps"
+        ]
+      },
+      {
+        "title": "Bomba na ujenzi wa otomatiki",
+        "summary": "Tunatekeleza CI/CD inayotegemewa, milango ya ubora, na otomatiki ya miundombinu kwa matoleo thabiti.",
+        "deliverables": [
+          "Violezo vya CI/CD vinavyoweza kutumika tena",
+          "Miundombinu na otomatiki ya mazingira",
+          "Upimaji wa kiotomatiki na udhibiti wa kutolewa"
+        ]
+      },
+      {
+        "title": "Fanya kazi na uboreshe",
+        "summary": "Tunaanzisha utambuzi na vitanzi vya utawala ambavyo vinasaidia uboreshaji endelevu wa uwasilishaji.",
+        "deliverables": [
+          "Dashibodi za ufuatiliaji na sera za tahadhari",
+          "Toa utawala na vitabu vya kucheza vya matukio",
+          "Vipimo na hakiki zinazoendelea za uboreshaji"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kuharakisha uwasilishaji wako",
+      "description": "Punguza msuguano wa kutolewa na uboreshe kuegemea kwa mazoea ya DevOps yaliyokomaa.",
+      "button": "Badilisha bomba lako"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Mabadiliko ya Dijiti na Mkakati",
+      "description": "Ushauri wa kimkakati na usaidizi wa utekelezaji ili kuboresha majukwaa, timu na miundo ya uendeshaji."
+    },
+    "sections": {
+      "problem": {
+        "title": "Uundaji wa Shida ya Biashara",
+        "subtitle": "Ambapo programu za mabadiliko hupoteza kasi na ujasiri wa mtendaji"
+      },
+      "capabilities": {
+        "title": "Huduma za Ushauri",
+        "subtitle": "Mwongozo wa kimkakati wa mafanikio ya kidijitali"
+      },
+      "approach": {
+        "title": "Mbinu ya Uhandisi",
+        "subtitle": "Jinsi tunavyotafsiri mkakati kuwa mabadiliko yanayoweza kutekelezwa, yanayoungwa mkono na teknolojia"
+      },
+      "principles": {
+        "title": "Kanuni za Usanifu",
+        "subtitle": "Muundo wa uendeshaji na uchaguzi wa jukwaa ambao unalinda matokeo ya mabadiliko"
+      },
+      "technology": {
+        "title": "Rafu ya Teknolojia",
+        "subtitle": "Majukwaa na mifumo tunayotumia kutekeleza mabadiliko"
+      },
+      "breakdown": {
+        "title": "Uchanganuzi wa Huduma",
+        "subtitle": "Mabadiliko yaliyopangwa kutoka kwa ufafanuzi wa mkakati hadi thamani ya biashara inayoweza kupimika"
+      }
+    },
+    "problem": {
+      "overview": "Mipango ya kidijitali mara nyingi huanza kwa nia thabiti lakini hushindwa kubadilika kuwa matokeo ya uwasilishaji kwa sababu ya umiliki usio wazi, zana zilizotenganishwa, na vipaumbele vinavyoshindana.",
+      "painPointsTitle": "Maumivu ya Biashara ya Mara kwa Mara",
+      "impactSignalsTitle": "Kile ambacho viongozi kawaida huzingatia",
+      "painPoints": [
+        "Ramani za barabara za mabadiliko zinafafanuliwa lakini hazijatafsiriwa katika utawala wa uwasilishaji",
+        "Vipaumbele vya biashara na uhandisi hutofautiana baada ya mizunguko ya awali ya kupanga",
+        "Mifano ya uendeshaji ya urithi inazuia kupitishwa kwa mazoea ya kisasa ya utoaji wa bidhaa"
+      ],
+      "impactSignals": [
+        "Matumizi ya programu yanaongezeka wakati harakati za kimkakati za KPI zinabaki tambarare",
+        "Mipango hukosa pointi za kukabidhiwa kati ya mkakati, usanifu, na utekelezaji",
+        "Timu hupata uchovu wa mabadiliko na thamani ndogo ya biashara"
+      ]
+    },
+    "approach": {
+      "overview": "Tunachanganya ushauri wa kimkakati na usanifu wa uwasilishaji, kuoanisha muundo wa muundo wa uendeshaji, uwezo wa jukwaa, na mwako wa utekelezaji karibu na malengo yanayoweza kupimika.",
+      "pillars": [
+        {
+          "title": "Kipaumbele cha Mkondo wa Thamani",
+          "detail": "Tunapanga mipango kulingana na athari za biashara zinazoweza kupimika na vikwazo vya utegemezi wa kiufundi."
+        },
+        {
+          "title": "Ubunifu wa Mfano wa Uendeshaji wa Lengo",
+          "detail": "Majukumu, utawala, na haki za uamuzi zinafafanuliwa ili kusaidia utekelezaji wa haraka katika timu za biashara na teknolojia."
+        },
+        {
+          "title": "Utawala wa Uwasilishaji wa Kwingineko",
+          "detail": "Maendeleo ya mabadiliko yanasimamiwa kupitia vituo vya ukaguzi vilivyounganishwa na KPI na udhibiti wa hatari wa kiwango cha kwingineko."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Usanifu wetu wa mabadiliko unasisitiza uboreshaji wa kisasa na uwajibikaji wazi, kuzuia uandishi upya wa usumbufu bila uhalali wa biashara.",
+      "items": [
+        {
+          "title": "Upatanishi wa Uwezo wa Biashara",
+          "detail": "Mabadiliko ya teknolojia yamepangwa karibu na uwezo ambao huweka ramani moja kwa moja kwa mapato, ubora wa huduma, au ufanisi wa gharama."
+        },
+        {
+          "title": "Mkakati wa Jukwaa linaloweza kutungwa",
+          "detail": "Vipengele vya jukwaa huchaguliwa kwa ushirikiano ili kusaidia uhamiaji wa awamu na urekebishaji wa haraka."
+        },
+        {
+          "title": "Utawala na Cadence ya Uwasilishaji",
+          "detail": "Vikao vya maamuzi na pointi za udhibiti zimeingizwa katika mizunguko ya mbio na robo mwaka, hazichukuliwi kama nyimbo tofauti za ukiritimba."
+        }
+      ]
+    },
+    "capabilities": [
+      "Ramani za Mabadiliko ya Dijiti",
+      "Maendeleo ya Mkakati wa Teknolojia",
+      "Mifumo ya Kupitishwa kwa Wingu",
+      "Uboreshaji wa Mchakato",
+      "Usimamizi wa Mabadiliko"
+    ],
+    "technologies": [
+      {
+        "name": "Eneo la Kutua la Azure",
+        "category": "Msingi wa Wingu",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Kitambaa cha Microsoft",
+        "category": "Jukwaa la Data",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Nguvu BI",
+        "category": "Uamuzi wa Akili",
+        "icon": "nguvu"
+      },
+      {
+        "name": "Jukwaa la Nguvu",
+        "category": "Msimbo wa chini",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Ushirikiano",
+        "icon": "Microsoft SharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP / CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Mpangilio wa Mkakati",
+        "summary": "Tunaoanisha vipaumbele vya uongozi na malengo ya dijiti ili kuunda mwelekeo wa pamoja wa mabadiliko.",
+        "deliverables": [
+          "Malengo ya mabadiliko na vigezo vya mafanikio",
+          "Ukomavu wa uwezo na tathmini ya pengo",
+          "Kwingineko ya mpango uliopewa kipaumbele"
+        ]
+      },
+      {
+        "title": "Mpango wa utekelezaji",
+        "summary": "Tunafafanua mtindo wa uendeshaji unaolengwa, viwango vya usanifu, na mlolongo wa utekelezaji wa awamu.",
+        "deliverables": [
+          "Mfano wa uendeshaji na muundo wa utawala",
+          "Teknolojia na viwango vya usanifu wa mchakato",
+          "Ramani ya utekelezaji wa awamu"
+        ]
+      },
+      {
+        "title": "Mabadiliko na Utambuzi wa Thamani",
+        "summary": "Tunaendesha kupitishwa, kufuatilia harakati za KPI, na kuboresha mipango kulingana na matokeo ya uwasilishaji.",
+        "deliverables": [
+          "Mpango wa kupitishwa na uwezeshaji",
+          "Mwako wa kipimo cha KPI",
+          "Mrundikano wa uboreshaji wa kila robo mwaka"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Anza safari yako ya mabadiliko",
+      "description": "Pitia mabadiliko na vipaumbele wazi na mipango ya utoaji wa vitendo.",
+      "button": "Ratiba ya Kikao cha Mkakati"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Mifumo iliyounganishwa kutoka kwa kifaa hadi wingu, na mabomba ya telemetry na akili ya makali kwa kiwango cha viwanda."
+    },
+    "sections": {
+      "problem": {
+        "title": "Uundaji wa Shida ya Biashara",
+        "subtitle": "Kwa nini programu za vifaa vilivyounganishwa zinashindwa kuongeza zaidi ya upelekaji wa majaribio"
+      },
+      "approach": {
+        "title": "Mbinu ya Uhandisi",
+        "subtitle": "Jinsi tunavyobuni mifumo salama na inayoweza kutumika ya IoT kutoka kwa programu dhibiti ya kifaa hadi API za wingu"
+      },
+      "principles": {
+        "title": "Kanuni za Usanifu",
+        "subtitle": "Sheria za muundo wa ukingo-kwa-wingu kwa kuegemea, latency, na utawala wa meli"
+      },
+      "capabilities": {
+        "title": "Ufumbuzi wa IoT",
+        "subtitle": "Unganisha, fuatilia na uboreshe vifaa vyako"
+      },
+      "technology": {
+        "title": "Rafu ya Teknolojia ya IoT",
+        "subtitle": "Kutoka kwa vifaa hadi wingu"
+      },
+      "breakdown": {
+        "title": "Uchanganuzi wa Huduma",
+        "subtitle": "Jinsi tunavyotoa mifumo iliyounganishwa kutoka kwa vifaa vya makali hadi akili ya wingu"
+      }
+    },
+    "problem": {
+      "overview": "Mipango ya IoT mara nyingi huthibitisha uwezekano wa kiufundi katika marubani lakini hushindwa kwa kiwango kwa sababu ya muunganisho usioaminika, udhibiti dhaifu wa meli, na ujumuishaji duni na mtiririko wa kazi wa biashara.",
+      "painPointsTitle": "Maumivu ya Biashara ya Mara kwa Mara",
+      "impactSignalsTitle": "Kile ambacho viongozi kawaida huzingatia",
+      "painPoints": [
+        "Uingizaji wa kifaa na usimamizi wa mzunguko wa maisha unasalia kuwa mwongozo na unakabiliwa na makosa",
+        "Mabomba ya telemetry hutoa data ya uendeshaji yenye kelele, isiyokamilika au iliyochelewa",
+        "Amri ya mbali na sasisho za firmware huleta hatari ya usalama na usalama"
+      ],
+      "impactSignals": [
+        "Mazingira ya majaribio yanafanikiwa, lakini ratiba za uchapishaji wa uzalishaji huteleza mara kwa mara",
+        "Timu za uendeshaji wa shamba huguswa na matukio bila mwonekano wa utabiri",
+        "Mifumo ya biashara haiwezi kutumia akili ya kifaa kwa uaminifu kwa wakati halisi"
+      ]
+    },
+    "approach": {
+      "overview": "Tunasanifu majukwaa ya IoT kama mifumo inayodhibitiwa iliyosambazwa, ikichanganya viwango salama vya wakati wa kukimbia, uingizaji unaoendeshwa na hafla, na utawala wa uendeshaji kwa kiwango cha meli.",
+      "pillars": [
+        {
+          "title": "Usimamizi salama wa mzunguko wa maisha ya kifaa",
+          "detail": "Utoaji, utambulisho, mzunguko wa ufunguo, na sasisho za firmware ni otomatiki ili kupunguza hatari ya uendeshaji."
+        },
+        {
+          "title": "Usanifu wa Telemetry unaoendeshwa na tukio",
+          "detail": "Mabomba ya utiririshaji hurekebisha, kuthibitisha, na kuelekeza matukio ya kifaa kwa uchanganuzi na udhibiti kwa wakati halisi."
+        },
+        {
+          "title": "Ndege ya Udhibiti wa Uendeshaji wa Fleet",
+          "detail": "Ufuatiliaji, tahadhari, na mtiririko wa kazi wa amri za mbali hutoa usimamizi wa kuaminika katika mali zilizosambazwa."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Usanifu wetu wa IoT husawazisha maamuzi ya makali ya chini ya latency na utawala wa kati, uangalifu, na utiifu wa usalama.",
+      "items": [
+        {
+          "title": "Uhuru wa Edge na Uratibu wa Wingu",
+          "detail": "Uendeshaji muhimu wa ndani unaendelea wakati wa uharibifu wa mtandao wakati wa kusawazisha hali na mifumo ya wingu inapopatikana."
+        },
+        {
+          "title": "Schemas za Tukio la Mkataba",
+          "detail": "Timu za vifaa na jukwaa hutumia skimu zinazotawaliwa ili kuhifadhi uthabiti wa telemetry katika matoleo yote."
+        },
+        {
+          "title": "Usalama wa Kifaa cha Zero-Trust",
+          "detail": "Uthibitishaji wa pande zote, upendeleo mdogo, na usafiri uliosimbwa kwa njia fiche hutekelezwa katika kila mwingiliano wa kifaa."
+        }
+      ]
+    },
+    "capabilities": [
+      "Usimamizi wa Kifaa cha IoT",
+      "Ufumbuzi wa Pacha wa Dijiti",
+      "Usambazaji wa Kompyuta ya Edge",
+      "Telemetry ya Wakati Halisi",
+      "Matengenezo ya Utabiri"
+    ],
+    "technologies": [
+      {
+        "name": "Kitovu cha IoT",
+        "category": "Lango la Wingu",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Mapacha wa Dijiti",
+        "category": "Uigaji",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Kompyuta ya makali",
+        "category": "Makali",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Itifaki",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Itifaki",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Vifaa",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Vifaa",
+        "icon": "Raspberrypi"
+      },
+      {
+        "name": "Utitiri",
+        "category": "Mfululizo wa Wakati DB",
+        "icon": "Utilitaji"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Mkakati wa Kifaa na Makali",
+        "summary": "Tunafafanua mifumo ya muunganisho, viwango vya wakati wa kukimbia, na utoaji salama wa vifaa vya uwanja.",
+        "deliverables": [
+          "Mfano wa uingizaji wa kifaa na muunganisho",
+          "Muda wa kukimbia wa makali na ramani ya kupelekwa",
+          "Msingi wa usalama wa meli"
+        ]
+      },
+      {
+        "title": "Telemetry & Ndege ya Kudhibiti",
+        "summary": "Tunaunda mabomba ambayo hunasa matukio, kuiga mapacha ya dijiti, na kuwezesha mtiririko wa kazi wa udhibiti wa mbali.",
+        "deliverables": [
+          "Kumeza kwa wakati halisi na muundo wa schema ya hafla",
+          "Utekelezaji wa muundo wa pacha wa dijiti na mali",
+          "Amri na udhibiti safu ya API"
+        ]
+      },
+      {
+        "title": "Uendeshaji na Kiwango",
+        "summary": "Tunatekeleza usimamizi wa meli na udhibiti wa kuegemea kwa mazingira ya IoT ya kiwango cha uzalishaji.",
+        "deliverables": [
+          "Ufuatiliaji wa meli za kifaa na tahadhari",
+          "Matengenezo ya utabiri na utambuzi wa hitilafu",
+          "Uchapishaji na mpango wa usaidizi wa mzunguko wa maisha"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Unganisha vifaa vyako",
+      "description": "Jenga suluhisho za kuaminika za IoT tayari kwa mazingira halisi ya uzalishaji.",
+      "button": "Anza mradi wako wa IoT"
+    }
+  }
+}

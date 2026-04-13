@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "可擴展的工程系統",
+    "subtitle": "企業軟體 ·人工智慧與機器學習 ·雲端基礎建設·物聯網與邊緣",
+    "description": "從智慧自動化到雲端原生平台，我們設計並交付驅動雄心勃勃企業的技術——準時、按預算、大規模實現。",
+    "cta": {
+      "primary": "開始一個專案",
+      "secondary": "查看我們的作品"
+    },
+    "trustLine": "全球企業信賴"
+  },
+  "services": {
+    "subtitle": "我們的服務",
+    "title": "全光譜工程",
+    "description": "六個執業領域。一隊。你技術堆疊的每一層——從邊緣設備到企業儀表板。",
+    "commentMarker": "服務",
+    "items": {
+      "customSoftware": {
+        "title": "客製化軟體開發",
+        "description": "現代應用程式以微服務、API 及雲原生架構建構。"
+      },
+      "aiMl": {
+        "title": "人工智慧、機器學習與商業智慧",
+        "description": "AI/ML 流程、Power BI 儀表板，以及將資料轉化為決策的先進分析。"
+      },
+      "cloud": {
+        "title": "雲端架構與基礎架構",
+        "description": "多雲基礎設施，內建容器、無伺服器及全球擴展性。"
+      },
+      "iot": {
+        "title": "物聯網與邊緣運算",
+        "description": "工業4.0的連網裝置、數位孿生與邊緣運算。"
+      },
+      "devops": {
+        "title": "DevOps 與平台工程",
+        "description": "CI/CD 管線、基礎設施即程式碼，以及從提交到生產環境的可觀察性。"
+      },
+      "digital": {
+        "title": "數位轉型與顧問",
+        "description": "技術策略、現代化路線圖與實務顧問服務。"
+      }
+    },
+    "cta": {
+      "title": "讓我們來建立一些認真的東西",
+      "description": "從客製化軟體開發、AI 驅動解決方案，到雲端基礎設施與自動化——我們提供量身打造的端到端技術服務。",
+      "primary": "開始你的專案",
+      "secondary": "預約諮詢"
+    },
+    "learnMore": "了解更多"
+  },
+  "credibility": {
+    "subtitle": "我們的成績紀錄",
+    "title": "結果，而非 <gradient>承諾</gradient>",
+    "titlePlain": "結果，而非承諾",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "從薩拉熱窩到奧斯陸、阿姆斯特丹和柏林。企業系統每次都準時交付。",
+    "stats": {
+      "experience": "累積經驗年資",
+      "countries": "服務國家",
+      "systems": "交付系統",
+      "industries": "服務產業"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM for Atlas Copco",
+        "outcome": "在 Azure Kubernetes 上為 Atlas Copco 架構了首個雲端統一身份基礎架構，降低成本同時維持企業合規性。"
+      },
+      "orange": {
+        "label": "橘色網路防禦平台",
+        "outcome": "為歐洲領先的資安公司開發 Azure Kubernetes 基礎架構、CI/CD 管線及客製化 ServiceNow 整合。"
+      },
+      "telecom": {
+        "label": "電信地理資訊系統與擴增益關係平台",
+        "outcome": "建置了GIS平台，繪製德國地下設施地圖，並具備碰撞偵測功能，避免數百萬歐元的基礎設施損失。"
+      },
+      "iot": {
+        "label": "雲端物聯網與邊緣平台",
+        "outcome": "Azure IoT Hub 管理數千台裝置，Synapse 處理數十億次遙測資料列，邊緣聚合可將訊息成本降低約 90%。"
+      },
+      "drone": {
+        "label": "自主無人機平台",
+        "outcome": "客製化飛行控制器配備 4G 至 Azure 物聯網樞紐橋接，實現自主 BVLOS 飛行，用於農業監測與有效載荷運送。"
+      },
+      "payment": {
+        "label": "支付系統救援",
+        "outcome": "透過逆向工程未公開的舊有程式碼，拯救了挪威行動應用程式即將失敗的支付閘道。現代化後零還款停機時間。"
+      },
+      "game": {
+        "label": "AAA 遊戲開發工具",
+        "outcome": "在一家大型 AAA 工作室開發了 Maya 插件，將 3D 建模和動畫時間縮短了 50%，並被採用為製作流程的標準工具。"
+      },
+      "social": {
+        "label": "基於位置的社交平台",
+        "outcome": "專為西班牙夜生活場景打造的交友應用程式，具備地理定位匹配、即時訊息及推播通知，專為英國客戶服務。"
+      },
+      "iga": {
+        "label": "多租戶 IGA 平台",
+        "outcome": "為企業規模的 NoSQL ASP.NET Cloud 原生身份治理平台打造核心後端，服務財富 500 強客戶。"
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "歐盟鄰近全球交付",
+        "description": "CET 工作時數涵蓋挪威、荷蘭、德國及其他地區。"
+      },
+      "yourEngineers": {
+        "title": "是你的工程師，不是供應商",
+        "description": "專屬團隊成員嵌入您的工作流程與工具中。沒有帳戶經理，沒有工單排隊。"
+      },
+      "hardwareToCloud": {
+        "title": "硬體轉雲端",
+        "description": "From embedded device firmware to enterprise Azure Synapse pipelines.全層軟體涵蓋每一層。"
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "技術堆疊",
+    "title": "經過實戰考驗 <gradient>的軍團</gradient>",
+    "titlePlain": "經過實戰考驗的軍團",
+    "commentMarker": "TECH_STACK",
+    "description": "我們不只是使用這些工具——我們甚至已經隨同生產系統一起出貨。從 Microsoft Azure 到 Kubernetes，我們的工程師都擁有實務經驗。",
+    "categories": {
+      "cloudInfra": {
+        "label": "雲端與基礎架構",
+        "description": "多雲架構，結合容器編排與基礎設施作為程式碼。"
+      },
+      "frontend": {
+        "label": "前端",
+        "description": "現代元件框架，具備型別安全與優化建置工具。"
+      },
+      "backend": {
+        "label": "後端與 API",
+        "description": "企業級伺服器平台、系統語言與現代 API 範式。"
+      },
+      "data": {
+        "label": "資料與儲存",
+        "description": "關聯式、文件式及記憶體儲存，具備全文搜尋功能。"
+      },
+      "devops": {
+        "label": "DevOps 與工具",
+        "description": "CI/CD 流程、版本控制與開發生產力。"
+      }
+    },
+    "scanning": "掃描頻率......",
+    "summary": {
+      "cloudNative": {
+        "title": "預設為雲端原生",
+        "description": "每個專案從第一天起都是容器化、CI/CD 驅動，並且為橫向規模打造。"
+      },
+      "fullStack": {
+        "title": "全端流暢度",
+        "description": "從 React 前端到 .NET 微服務，再到 Kubernetes 叢集——一個團隊，從頭到尾。"
+      },
+      "productionProven": {
+        "title": "生產驗證",
+        "description": "這些不是示範技術。上述每一項工具都驅動著真實系統，服務於真實使用者。"
+      }
+    },
+    "logoRows": {
+      "row1Aria": "科技標誌 第一排",
+      "row2Aria": "科技標誌 第二排",
+      "row3Aria": "科技標誌 第3排"
+    }
+  },
+  "faq": {
+    "subtitle": "知識庫",
+    "title": "常見問題<gradient></gradient>",
+    "titlePlain": "常見問題",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "關於與 Horizon Tech 合作你需要知道的一切",
+    "items": {
+      "scope": {
+        "question": "你的工作範圍是什麼？",
+        "answer": "我們提供端到端的技術專案：客製化企業軟體、AI/ML 流程、雲端基礎架構、物聯網系統、DevOps 自動化及數位轉型顧問服務。無論您需要從零開始打造完整平台，或是針對現有技術棧的整合，我們都能處理架構、開發、測試與部署。"
+      },
+      "stack": {
+        "question": "你們的核心技術棧是什麼？",
+        "answer": "我們的核心堆疊以企業級平台為核心：Azure 和 AWS 用於雲端，.NET 和 Node.js 負責後端，React 和 Angular 負責前端，Kubernetes 和 Docker 用於協調，Terraform 則用於基礎設施即程式碼。我們也廣泛使用 Python處理 AI/ML 工作負載，Power BI 和 Fabric 用於商業智慧，以及 PostgreSQL、SQL Server 和 MongoDB 處理資料。"
+      },
+      "enterprise": {
+        "question": "你如何處理企業專案？",
+        "answer": "每次合作都從探索階段開始，以定義範圍、架構與里程碑。你會有一個專責團隊，有技術負責人，定期檢討里程碑，並能直接接觸到正在打造系統的工程師。我們持續追蹤敏捷衝刺並進行利害關係人示範，維護透明的專案看板，並提供每週進度報告。"
+      },
+      "support": {
+        "question": "後續支援會是什麼樣子？",
+        "answer": "我們提供結構化的支援層級，並有明確的 SLA，包括 24 小時監控、事件回應、效能優化及功能迭代。我們的支援協議涵蓋錯誤修正、安全修補程式、基礎設施擴展及主動健康檢查——依您的正常運作時間與回應時間需求量身打造。"
+      },
+      "integration": {
+        "question": "你能與我們現有的基礎設施整合嗎？",
+        "answer": "絕對是。我們專注於舊有系統現代化、API 優先整合及混合雲遷移。無論你需要連接本地 ERP 系統、從單體遷移到微服務，或是將舊有資料庫與現代前端橋接，我們都有遷移手冊與整合經驗，讓一切無縫接軌。"
+      },
+      "industries": {
+        "question": "你曾在哪些產業工作過？",
+        "answer": "我們的團隊曾在金融科技、醫療保健、物流、電子商務、能源及政府等多個領域執行專案。我們了解產業特定要求，如支付的 PCI-DSS、健康資料的 HIPAA 考量、歐盟市場的 GDPR 合規，以及工業物聯網的即時遙測。"
+      },
+      "engagement": {
+        "question": "參與流程是怎麼樣的？",
+        "answer": "這一切從一通探索電話開始，了解你的目標和技術環境。接著，我們會提供一份包含架構建議、時間表及投資細分的範疇文件。一旦核准，我們會派出專屬團隊，導入你的工具與工作流程，並在數天內啟動第一個衝刺階段。"
+      }
+    },
+    "stillHaveQuestions": "還有問題嗎？",
+    "ctaDescription": "有心中的專案嗎？讓我們來談談範圍、時間表和預算。",
+    "readCaseStudies": "閱讀我們的案例研究",
+    "scheduleCall": "預約通話"
+  }
+}

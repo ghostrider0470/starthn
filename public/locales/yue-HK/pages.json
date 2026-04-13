@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "關於我哋",
+    "hero": {
+      "titlePrefix": "創造未來嘅技術，",
+      "titleHighlight": "今時今日",
+      "description": "Horizon Tech d.o.o.是一家總部位於薩拉熱窩的全球性科技公司，為三大洲的企業提供尖端的軟件解決方案。"
+    },
+    "sections": {
+      "mission": {
+        "title": "使命",
+        "description": "我哋幫助企業將雄心勃勃嘅意念轉化為可靠嘅數碼產品創造可衡量嘅商業價值。",
+        "points": [
+          "將技術交付與明確的業務成果保持一致。",
+          "建立長期嘅系統，隨著團隊規模嘅擴大，佢哋仍然可以維護。",
+          "從策略到執行，與持份者緊密合作。"
+        ]
+      },
+      "expertise": {
+        "title": "專長",
+        "description": "我哋嘅跨學科團隊將工程深度同產品思維結合喺現代技術堆疊中。",
+        "points": [
+          "企業級網絡和平台工程。",
+          "雲端架構、DevOps 自動化和彈性基礎設施。",
+          "應用人工智能/機器學習、數據工作流程和物聯網產品。"
+        ]
+      },
+      "approach": {
+        "title": "行近",
+        "description": "我哋以透明、迭代嘅模式執行，令交付保持可預測性，同時降低產品風險。",
+        "points": [
+          "發現：及早定義範圍、優先次序和成功指標。",
+          "構建：以集中嘅增量方式交付，並有持續嘅反饋循環。",
+          "優化：監控結果並隨著時間的推移提高績效。"
+        ]
+      }
+    },
+    "cta": {
+      "title": "準備好改變你的業務了嗎？",
+      "description": "加入越來越多信任Horizon Tech提供創新解決方案和卓越成果的公司行列。",
+      "primary": "開始",
+      "secondary": "查看成功案例"
+    }
+  },
+  "contact": {
+    "badge": "聯絡",
+    "hero": {
+      "title": "聯絡我們",
+      "description": "有計劃嗎？ 我哋很樂意聽取你嘅意見。 請聯絡我們討論我們如何幫助您將想法變為現實。"
+    },
+    "info": {
+      "title": "聯絡方式"
+    },
+    "booking": {
+      "title": "約會",
+      "description": "預約一個30分鐘免費嘅探索電話會議"
+    },
+    "methods": {
+      "email": {
+        "title": "電子郵件",
+        "description": "隨時發電郵畀我哋",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "地點",
+        "description": "立足於",
+        "value": "波斯尼亞和黑塞哥維那，薩拉熱窩"
+      },
+      "response": {
+        "title": "回應時間",
+        "description": "我哋通常會喺",
+        "value": "24-48小時"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "新項目"
+      },
+      "support": {
+        "label": "技術支持"
+      },
+      "partnerships": {
+        "label": "合夥"
+      },
+      "careers": {
+        "label": "職業"
+      },
+      "general": {
+        "label": "總詢"
+      }
+    },
+    "form": {
+      "title": "留言畀我哋",
+      "success": "多謝你嘅留言。 我哋會喺24-48小時內回覆你。",
+      "error": "出咗啲嘢。 請再試一次或直接發電子郵件給我們。",
+      "fullName": "全名 *",
+      "email": "電郵地址 *",
+      "company": "公司",
+      "subject": "主題*",
+      "message": "消息*",
+      "placeholders": {
+        "name": "你貴姓",
+        "email": "you@example.com",
+        "company": "貴公司",
+        "subject": "我哋可以幫到乜嘢？",
+        "message": "講下你嘅計劃或查詢..."
+      },
+      "validation": {
+        "required": {
+          "name": "需要全名。",
+          "email": "電郵地址係必填嘅。",
+          "subject": "唔該揀題目。",
+          "message": "留言係必填嘅。"
+        },
+        "email": "請輸入有效嘅電郵地址。",
+        "messageMinLength": "訊息長度必須至少 {{count}} 字元。"
+      },
+      "sending": "發送...",
+      "submit": "寄語"
+    },
+    "reasonsTitle": "點解要同我哋合作？",
+    "reasons": [
+      "全棧軟件開發專業知識",
+      "人工智能/機器學習和雲架構專家",
+      "靈活開發，透明溝通",
+      "長期支持與維護"
+    ],
+    "custom": {
+      "title": "客製化解決方案",
+      "description": "想搵度身訂造嘅解決方案？ 我們與客戶密切合作，了解獨特需求並提供客製化軟體，從而帶來可衡量的結果。",
+      "cta": "討論你嘅計劃"
+    },
+    "faq": {
+      "title": "仲有問題嗎？",
+      "description": "睇下我哋嘅常見問題解答",
+      "cta": "瀏覽常見問題"
+    }
+  },
+  "team": {
+    "badge": "我們的團隊",
+    "hero": {
+      "titlePrefix": "認識背後嘅思想",
+      "titleHighlight": "地平線科技",
+      "description": "一個由技術專家、設計師和策略師組成的多元化團隊，共同構建高影響力的數字產品。"
+    },
+    "section": {
+      "title": "領導班子",
+      "description": "經驗豐富的領導者指導Horizon Tech的願景和發展"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "創辦人、行政總裁兼首席技術官",
+        "bio": "有遠見的領導者和技術架構師，擁有 10+ 年企業軟件經驗，專門從事 AI/ML、雲平台和可擴展產品架構。",
+        "expertise": [
+          "人工智能/機器學習",
+          "蔚",
+          ".NET",
+          "蟒蛇",
+          "方案架構",
+          "雲工程"
+        ]
+      },
+      "ahmet": {
+        "role": "總安全架構師",
+        "bio": "網絡安全專家專注於企業安全架構、安全的本地基礎設施以及為受監管環境提供合規優先的交付。",
+        "expertise": [
+          "網絡安全",
+          "本地系統",
+          "安全架構",
+          "合規",
+          "基建安全"
+        ]
+      }
+    },
+    "aria": {
+      "email": "電郵 {{name}}",
+      "linkedin": "{{name}} LinkedIn 簡介"
+    },
+    "culture": {
+      "title": "地平線科技生活",
+      "description": "我們培養創新、協作和持續學習的文化",
+      "remoteFirst": {
+        "title": "遙距優先文化",
+        "description": "你可以喺任何地方工作，工作時間靈活，注重結果，而唔係地點。"
+      },
+      "collaborative": {
+        "title": "協作環境",
+        "description": "定期嘅團隊活動，知識分享會，跨職能合作。"
+      },
+      "workLife": {
+        "title": "工作與生活平衡",
+        "description": "慷慨嘅假期政策，精神健康支援，尊重私人時間。"
+      },
+      "innovation": {
+        "title": "創新時",
+        "description": "20%嘅時間係個人項目，黑客馬拉松，同埋探索新科技。"
+      },
+      "stats": {
+        "teamMembers": "隊員",
+        "countries": "國家",
+        "techStacks": "科技堆疊",
+        "remoteReady": "遙控就緒"
+      }
+    },
+    "cta": {
+      "title": "想加入我哋嘅團隊嗎？",
+      "description": "我哋成日都搵有才華嘅人，佢哋關心工藝，主人翁精神同創新。",
+      "button": "聯絡"
+    }
+  },
+  "careers": {
+    "badge": "加入我們的團隊",
+    "hero": {
+      "titlePrefix": "開創未來",
+      "titleHighlight": "同我哋一齊",
+      "description": "加入工程師團隊為全球客戶構建尖端軟件。 遙距工作，持續成長，產生真正嘅影響。",
+      "button": "參見職位"
+    },
+    "process": {
+      "title": "我哋嘅招聘流程",
+      "description": "透明，有效率，尊重你嘅時間",
+      "steps": [
+        {
+          "title": "徵用",
+          "description": "提交申請，我哋會喺3個工作天內審核。"
+        },
+        {
+          "title": "初聊",
+          "description": "一個30分鐘嘅視像通話，討論你嘅經驗同期望。"
+        },
+        {
+          "title": "技術性",
+          "description": "技術面試或實踐練習，以展示你的技能。"
+        },
+        {
+          "title": "獻",
+          "description": "與團隊見面，並收到加入Horizon Tech的邀請。"
+        }
+      ]
+    },
+    "jobs": {
+      "title": "空缺職位",
+      "description": "尋找下一個機會，加入我們不斷壯大的團隊",
+      "unavailable": "唔接受申請",
+      "apply": "立即申請",
+      "noMatch": "睇唔到最完美嘅角色？",
+      "sendCv": "將你的履歷表寄給我們",
+      "listings": [
+        {
+          "title": "高級全棧工程師",
+          "department": "工學",
+          "location": "偏遠地區 （歐盟時區）",
+          "type": "全職",
+          "description": "使用 React、Node.js 和雲技術構建可擴展的企業應用程序。",
+          "tags": [
+            "反應",
+            "Node.js",
+            "打字稿",
+            "AWS嘅"
+          ]
+        },
+        {
+          "title": "DevOps工程師",
+          "department": "工學",
+          "location": "薩拉熱窩 / 偏遠地區",
+          "type": "全職",
+          "description": "設計和維護CI/CD管道、基礎設施即代碼和監控系統。",
+          "tags": [
+            "Kubernetes",
+            "碼頭工人",
+            "地球形態",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "人工智能/機器學習工程師",
+          "department": "創新實驗室",
+          "location": "偏遠",
+          "type": "全職",
+          "description": "為企業客戶開發機器學習模型和人工智能解決方案。",
+          "tags": [
+            "蟒蛇",
+            "張量流",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "產品設計師",
+          "department": "設計",
+          "location": "偏遠",
+          "type": "全職",
+          "description": "為複雜的企業應用程式創造美觀、直覺的使用者體驗。",
+          "tags": [
+            "菲格瑪",
+            "用戶研究",
+            "用戶界面/用戶體驗",
+            "設計系統"
+          ]
+        },
+        {
+          "title": "解決方案架構師",
+          "department": "工學",
+          "location": "偏遠",
+          "type": "全職",
+          "description": "設計端到端的技術解決方案並指導客戶進行數字化轉型。",
+          "tags": [
+            "雲架構",
+            "系統設計",
+            "諮詢"
+          ]
+        },
+        {
+          "title": "技術撰稿人",
+          "department": "營運",
+          "location": "偏遠",
+          "type": "兼職",
+          "description": "創建全面的文檔、教程和技術內容。",
+          "tags": [
+            "文件",
+            "API文檔",
+            "技術寫作"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "對喺呢度工作有疑問？",
+      "description": "我哋很樂意聽取你嘅意見。 請聯絡我們，我們將解答有關Horizon Tech生活的任何問題。",
+      "button": "聯絡我們"
+    }
+  },
+  "caseStudies": {
+    "badge": "成功案例",
+    "hero": {
+      "titlePrefix": "提供嘅成果",
+      "titleHighlight": "搞作",
+      "description": "了解我哋點樣透過實用、高影響力嘅技術，幫助各行各業嘅企業改變營運模式。",
+      "tags": {
+        "delivery": "工程交付",
+        "outcomes": "測量結果"
+      }
+    },
+    "stats": {
+      "projects": "交付的項目",
+      "clients": "開心嘅客戶",
+      "efficiency": "平均效率增益",
+      "retention": "客戶保留"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "環球金融科技公司",
+        "industry": "金融服務",
+        "title": "雲端遷移與現代化",
+        "description": "將傳統銀行系統遷移到 AWS 雲端基礎設施，零停機時間。",
+        "challenge": "遺留的單體架構導致可擴展性問題",
+        "result": "成功遷移到AWS上的微服務",
+        "metrics": [
+          {
+            "label": "減費",
+            "value": "40%"
+          },
+          {
+            "label": "績效增益",
+            "value": "3倍"
+          }
+        ],
+        "tags": [
+          "AWS嘅",
+          "Kubernetes",
+          "微服務",
+          "開發開發方案"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "健康科技解決方案",
+        "industry": "醫療保健",
+        "title": "人工智能診斷平台",
+        "description": "建立用於醫學影像分析的機器學習模型，準確度為95%+。",
+        "challenge": "人手診斷過程需要太長時間",
+        "result": "利用人工智能/機器學習進行自動診斷",
+        "metrics": [
+          {
+            "label": "節省時間",
+            "value": "70%"
+          },
+          {
+            "label": "準確度",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "蟒蛇",
+          "張量流",
+          "反應",
+          "醫療保健"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "電商巨頭",
+        "industry": "零售",
+        "title": "實時分析儀表板",
+        "description": "開發了 BI 平台，每天處理 10M+ 事件。",
+        "challenge": "無法實時查看關鍵業務指標",
+        "result": "實時分析和洞察平台",
+        "metrics": [
+          {
+            "label": "活動/日",
+            "value": "10M+"
+          },
+          {
+            "label": "回應時間",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "大查詢",
+          "卡夫卡",
+          "反應",
+          "數據工程"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "準備好寫下你嘅成功故事了嗎？",
+      "description": "我哋來討論下我哋點樣可以幫你達到類似嘅成果，並充滿信心地擴展規模。"
+    },
+    "filters": {
+      "title": "業濾",
+      "all": "各行各業",
+      "empty": "沒有案例研究與所選行業過濾器相匹配。"
+    }
+  },
+  "blog": {
+    "badge": "博客",
+    "hero": {
+      "titlePrefix": "見解與想法來自",
+      "titleHighlight": "地平線科技",
+      "description": "技術教程，行業見解，以及實際送貨工作的實踐經驗。"
+    },
+    "categories": [
+      "所有貼文",
+      "雲架構",
+      "開發開發方案",
+      "人工智能/機器學習",
+      "前端",
+      "後端",
+      "數據"
+    ],
+    "featuredPost": {
+      "id": "精選",
+      "title": "雲端原生開發的未來：2025年值得關注的趨勢",
+      "excerpt": "探索雲端原生開發的最新趨勢，從無伺服器架構到邊緣運算。",
+      "author": {
+        "name": "Horizon Tech社論"
+      },
+      "date": "2025年11月15日",
+      "readTime": "8分鐘閱讀",
+      "category": "雲架構",
+      "tags": [
+        "雲",
+        "蔚",
+        "趨勢"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "使用 Azure Kubernetes Service 構建可擴展的微服務",
+        "excerpt": "使用 AKS 架構和部署微服務的實用指南。",
+        "author": {
+          "name": "Horizon Tech社論"
+        },
+        "date": "2025年11月12日",
+        "readTime": "6分鐘閱讀",
+        "category": "開發開發方案",
+        "tags": [
+          "Kubernetes",
+          "微服務",
+          "蔚"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "生產中的機器學習：經驗教訓",
+        "excerpt": "大規模部署機器學習模型的實地測試經驗教訓。",
+        "author": {
+          "name": "Horizon Tech社論"
+        },
+        "date": "2025年11月10日",
+        "readTime": "10分鐘閱讀",
+        "category": "人工智能/機器學習",
+        "tags": [
+          "機器學習",
+          "MLOps",
+          "蟒蛇"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19：乜嘢係新嘅，點解重要",
+        "excerpt": "深入探討 React 19 的特性和性能影響。",
+        "author": {
+          "name": "Horizon Tech社論"
+        },
+        "date": "2025年11月8日",
+        "readTime": "5分鐘閱讀",
+        "category": "前端",
+        "tags": [
+          "反應",
+          "JavaScript嘅",
+          "網頁開發"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "訂閱我們的電子報",
+      "description": "獲取每週提供的最新文章、教程和見解。",
+      "placeholder": "your.email@example.com",
+      "button": "訂閱",
+      "note": "冇垃圾郵件。 隨時取消訂閱。"
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering 博客",
+        "description": "來自構建人工智能產品、企業系統和可靠雲平台的團隊的實地筆記和實際模式。"
+      },
+      "filters": {
+        "postsInView": "有{{count}}篇文章"
+      },
+      "featured": {
+        "badge": "最新",
+        "readCta": "閱讀精選文章"
+      }
+    }
+  },
+  "profile": {
+    "loading": "載入設定檔...",
+    "title": "個人資料設定",
+    "subtitle": "管理你嘅帳戶設定同偏好",
+    "photoButton": "換相",
+    "tabs": {
+      "general": "將軍",
+      "security": "穩妥性",
+      "preferences": "喜好"
+    },
+    "messages": {
+      "profileUpdated": "個人資料更新成功",
+      "profileUpdateFailed": "無法更新個人資料",
+      "passwordsNoMatch": "新密碼不符",
+      "passwordTooShort": "密碼長度必須至少為8個字符",
+      "passwordChanged": "改口成功",
+      "passwordChangeFailed": "改唔到密碼",
+      "optedOut": "選擇退出執業報告",
+      "optedIn": "選擇參加執業報告",
+      "optOutFailed": "未能更新選擇退出狀態"
+    },
+    "general": {
+      "title": "個人資料",
+      "description": "更新你嘅個人資料同聯絡方式",
+      "firstName": "頭名",
+      "firstNamePlaceholder": "John",
+      "lastName": "姓氏",
+      "lastNamePlaceholder": "母鹿",
+      "email": "電郵地址",
+      "emailNotice": "電郵地址唔可以更改。 如果你需要幫助，請聯絡支援人員。",
+      "phone": "電話號碼",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "儲存更改"
+    },
+    "security": {
+      "title": "保安設定",
+      "description": "管理你的密碼和安全偏好",
+      "currentPassword": "當前密碼",
+      "currentPasswordPlaceholder": "輸入當前密碼",
+      "newPassword": "新密碼",
+      "newPasswordPlaceholder": "輸入新密碼",
+      "confirmPassword": "確認新密碼",
+      "confirmPasswordPlaceholder": "確認新密碼",
+      "passwordHint": "長度必須至少為8個字符",
+      "changePassword": "改口"
+    },
+    "preferences": {
+      "title": "通知偏好設定",
+      "description": "控制你接收更新同通知嘅方式",
+      "email": {
+        "title": "電郵通知",
+        "description": "通過電子郵件接收更新和警報"
+      },
+      "sms": {
+        "title": "短訊通知",
+        "description": "透過短訊接收重要提示"
+      },
+      "optOut": {
+        "title": "選擇退出執業報告",
+        "description": "向診所老闆隱瞞你的報告"
+      },
+      "actions": {
+        "title": "帳戶操作",
+        "downloadData": "下載帳戶資料",
+        "deleteAccount": "除賬"
+      }
+    }
+  },
+  "support": {
+    "backHome": "回首頁",
+    "title": "支援中心",
+    "subtitle": "取得軟件開發服務嘅幫助",
+    "cards": {
+      "email": {
+        "title": "電郵支援",
+        "description": "如有任何查詢，請發電郵給我們"
+      },
+      "project": {
+        "title": "項目查詢",
+        "description": "討論你嘅項目要求",
+        "button": "聯絡我們"
+      },
+      "resources": {
+        "title": "資源",
+        "description": "技術資源及指南",
+        "button": "查看資源"
+      }
+    },
+    "faqTitle": "常見問題",
+    "faqDescription": "常見問題快速解答",
+    "faqs": [
+      {
+        "question": "Horizon Tech提供乜嘢服務？",
+        "answer": "我們提供客製化軟體開發、人工智慧/機器學習解決方案、雲端架構、DevOps、商業智慧和物聯網服務。"
+      },
+      {
+        "question": "我點樣開始用Horizon Tech做一個項目？",
+        "answer": "透過表格或電郵聯絡我們，並提出你的要求。 我哋會安排一個發現電話會議，同大家分享一個建議。"
+      },
+      {
+        "question": "你哋有冇提供持續嘅支援同維護？",
+        "answer": "係。 我們提供支援和維護包，包括錯誤修復、安全更新和功能改進。"
+      }
+    ]
+  },
+  "education": {
+    "backHome": "回首頁",
+    "title": "技術資源",
+    "subtitle": "Horizon Tech團隊嘅指南、教程同最佳實踐",
+    "hub": {
+      "title": "學習樞紐",
+      "description": "探索我們精選的技術資源，涵蓋雲端、AI/ML、DevOps 和現代軟體開發。",
+      "note": "呢啲材料係基於實際項目經驗，並會定期更新。"
+    },
+    "categories": [
+      {
+        "icon": "雲",
+        "title": "雲架構",
+        "description": "Azure、AWS 和雲端原生模式",
+        "resources": [
+          {
+            "title": "Azure 架構最佳做法",
+            "type": "引導"
+          },
+          {
+            "title": "雲端遷移策略",
+            "type": "條文"
+          }
+        ]
+      },
+      {
+        "icon": "腦",
+        "title": "人工智能與機器學習",
+        "description": "機器學習模型、數據科學同人工智能整合",
+        "resources": [
+          {
+            "title": "Azure ML 簡介",
+            "type": "教學"
+          },
+          {
+            "title": "建立生產機器學習管道",
+            "type": "引導"
+          }
+        ]
+      },
+      {
+        "icon": "設置",
+        "title": "DevOps & Platform",
+        "description": "CI/CD、基礎設施即程式碼、自動化",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "教學"
+          },
+          {
+            "title": "Terraform 的基礎設施即程式碼",
+            "type": "引導"
+          }
+        ]
+      },
+      {
+        "icon": "代碼",
+        "title": "軟件開發",
+        "description": ".NET、React 同現代開發實踐",
+        "resources": [
+          {
+            "title": ".NET 中的乾淨架構",
+            "type": "引導"
+          },
+          {
+            "title": "React 最佳實踐",
+            "type": "條文"
+          }
+        ]
+      },
+      {
+        "icon": "資料庫",
+        "title": "數據與分析",
+        "description": "商業智能、數據倉庫和分析平台",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Design",
+            "type": "教學"
+          },
+          {
+            "title": "數據倉庫架構",
+            "type": "引導"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "需要客製化培訓嗎？",
+      "description": "我哋為工程同產品團隊度身訂造工作坊",
+      "text": "需要實際嘅團隊培訓？ 我們提供關於雲端架構、DevOps 和現代交付實踐的客製化研討會。",
+      "button": "聯絡"
+    }
+  },
+  "unauthorized": {
+    "title": "訪問被拒絕",
+    "description": "你無權訪問呢個頁面。 如果你認為呢個係一個錯誤，請聯絡你嘅管理員。",
+    "primary": "去簡介",
+    "secondary": "回首頁"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "找不到帖子",
+      "description": "冇關於蛞蝓嘅部落格文章： {{slug}}",
+      "back": "返回博客"
+    },
+    "back": "返回博客",
+    "publisher": "地平線科技"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "未找到案例研究",
+      "description": "id：{{id}}冇任何案例研究",
+      "back": "回到案例研究"
+    },
+    "back": "回到案例研究",
+    "sections": {
+      "executiveSummary": "內容提要",
+      "businessChallenge": "商業挑戰",
+      "technicalSolution": "技術方案",
+      "architectureDecisions": "架構決策",
+      "technologyStack": "科技棧",
+      "resultsImpact": "結果與影響"
+    },
+    "client": "委託人",
+    "keyOutcomes": "主要成果",
+    "decision": "裁決 {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // 信號丟失",
+      "title": "未找到頁面",
+      "description": "你要求嘅路線唔存在或者已經移動。 讓我們帶你回到一個有效的Horizon Tech端點。",
+      "requestedPath": "所求徑",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "解析路線圖... 爆煲",
+        "line2": "原因：冇匹配嘅路由模組",
+        "line3": "使用後備協議",
+        "line4": "使用以下其中一個捷徑繼續"
+      },
+      "links": {
+        "home": "首頁",
+        "services": "服務",
+        "blog": "博客",
+        "caseStudies": "個案研究"
+      }
+    },
+    "runtime": {
+      "badge": "運行時錯誤",
+      "title": "呢頁有啲嘢壞咗",
+      "description": "一個意想不到的問題中斷了渲染。 你可以安全地重試，或者返回主頁。",
+      "retry": "重試",
+      "home": "返回首頁",
+      "unknown": "未知運行時錯誤"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech 博客"
+  },
+  "admin": {
+    "blog": {
+      "title": "網誌管理",
+      "subtitle": "建立、編輯和管理你的部落格文章",
+      "newPost": "新崗",
+      "seedData": "種子數據",
+      "allPosts": "所有貼文",
+      "published": "發表",
+      "draft": "擬定",
+      "featured": "特輯",
+      "setFeatured": "套裝精選",
+      "removeFeatured": "刪除精選",
+      "table": {
+        "title": "頭銜",
+        "category": "門類",
+        "status": "身價",
+        "date": "約會",
+        "actions": "所作所為"
+      },
+      "empty": {
+        "message": "仲未有部落格文章。 建立你嘅第一篇文章或種子樣本數據。",
+        "seed": "種子樣本數據",
+        "create": "創貼"
+      },
+      "delete": {
+        "title": "刪除帖子",
+        "confirmation": "你確定要刪除呢篇文章嗎？ 呢個行動係唔可以撤銷嘅。",
+        "delete": "刪去",
+        "cancel": "取消"
+      }
+    },
+    "editor": {
+      "bannerHint": "在柱子頂部以寬大的橫額顯示",
+      "bannerImage": "橫幅圖片",
+      "coverHint": "顯示喺網誌列表卡中",
+      "coverImage": "封面圖片",
+      "editSlug": "編輯蛞蝓",
+      "posts": "貼文",
+      "publish": "發表",
+      "update": "更新",
+      "form": {
+        "contentPlaceholder": "喺呢度寫你嘅文章內容...",
+        "excerptPlaceholder": "貼文簡介...",
+        "pickDate": "揀日",
+        "readTimePlaceholder": "例如：5分鐘閱讀",
+        "titlePlaceholder": "帖子標題..."
+      },
+      "meta": {
+        "publisher": "出版商",
+        "unknownAuthor": "作者不詳"
+      },
+      "modes": {
+        "edit": "編輯",
+        "editOnly": "僅編輯",
+        "preview": "預覽",
+        "previewOnly": "僅預覽",
+        "sideBySide": "並排",
+        "split": "劈叉"
+      },
+      "tags": {
+        "heading": "標籤",
+        "placeholder": "加個標籤..."
+      },
+      "translations": {
+        "auto": "自動",
+        "autoTranslate": "自動翻譯",
+        "clear": "瀅",
+        "existing": "現存",
+        "heading": "譯本",
+        "language": "語言",
+        "languages": "語言",
+        "edit": "編輯",
+        "manual": "手動",
+        "preview": "預覽",
+        "searchPlaceholder": "搜尋語言...",
+        "translate": "翻譯"
+      }
+    },
+    "caseStudies": {
+      "title": "個案研究",
+      "subtitle": "管理個案研究同項目展示",
+      "newCaseStudy": "新案例研究",
+      "seedData": "種子數據",
+      "allCaseStudies": "所有個案研究",
+      "published": "發表",
+      "draft": "擬定",
+      "table": {
+        "title": "頭銜",
+        "industry": "業內",
+        "client": "委託人",
+        "status": "身價",
+        "actions": "所作所為"
+      },
+      "empty": {
+        "message": "仲未有案例研究。",
+        "seed": "種子數據",
+        "create": "創先"
+      },
+      "delete": {
+        "title": "刪除個案研究",
+        "confirmation": "你確定要刪除呢個案例嗎？ 呢個行動係唔可以撤銷嘅。",
+        "delete": "刪去",
+        "cancel": "取消"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "個案研究",
+      "published": "發表",
+      "draft": "擬定",
+      "update": "更新",
+      "create": "締造",
+      "sections": {
+        "basicInfo": "基本資料",
+        "narrative": "敘事",
+        "architectureDecisions": "架構決策",
+        "techStack": "技術堆疊",
+        "results": "結果",
+        "tags": "標籤"
+      },
+      "fields": {
+        "title": "頭銜",
+        "titlePlaceholder": "個案題目",
+        "slug": "蛞蝓",
+        "slugPlaceholder": "auto-generated-from-title",
+        "client": "委託人",
+        "clientPlaceholder": "客戶名",
+        "industry": "業內",
+        "industryPlaceholder": "選業",
+        "description": "簡介",
+        "descriptionPlaceholder": "簡要說明（顯示在卡片上）",
+        "executiveSummary": "內容提要",
+        "executiveSummaryPlaceholder": "交戰概況",
+        "challenge": "挑戰",
+        "challengePlaceholder": "客戶遇到咩問題？",
+        "solution": "解決方法",
+        "solutionPlaceholder": "問題係點樣解決嘅？",
+        "decision": "定論",
+        "decisionPlaceholder": "所定",
+        "rationale": "理據",
+        "rationalePlaceholder": "點解要揀呢種方法",
+        "metric": "公制",
+        "metricPlaceholder": "例如結算延遲",
+        "value": "睇起",
+        "valuePlaceholder": "例如-63% 或 4.8h -> 11m",
+        "resultDescription": "簡介",
+        "resultDescriptionPlaceholder": "呢個結果代表乜嘢",
+        "techPlaceholder": "加入技術 （按回車鍵）",
+        "tagPlaceholder": "添加標籤 （按 Enter 鍵）"
+      },
+      "add": "加進",
+      "noArchDecisions": "仲未加入任何架構決定。",
+      "noResults": "仲未有結果。",
+      "decisionLabel": "裁決 {{number}}",
+      "resultLabel": "結果 {{number}}",
+      "controls": {
+        "published": "發表",
+        "publishedDescription": "將呢個案例研究公諸於世",
+        "featured": "特輯",
+        "featuredDescription": "重點介紹呢個案例研究"
+      }
+    },
+    "imageCrop": {
+      "apply": "徵用",
+      "cancel": "取消",
+      "cropTitle": "裁剪圖像",
+      "dropText": "喺呢度放張圖片或者點擊上載",
+      "flipHorizontal": "翻橫",
+      "flipVertical": "翻豎",
+      "replace": "撤換",
+      "reset": "重設",
+      "rotateLeft": "左旋",
+      "rotateRight": "轉右",
+      "uploading": "上載中...",
+      "toast": {
+        "invalidFile": "無效檔",
+        "invalidFileDesc": "請上傳一個有效嘅圖片檔案。",
+        "uploadFailed": "上載失敗",
+        "uploadFailedDesc": "出咗啲嘢。 請再試一次。",
+        "uploaded": "上載圖片",
+        "uploadedDesc": "你嘅圖片已經上載成功。"
+      }
+    }
+  }
+}

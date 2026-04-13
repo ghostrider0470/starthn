@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "کور",
+    "company": "شرکت",
+    "solutions": "حل لارې",
+    "resources": "سرچینې",
+    "innovationLab": "د نوښت لابراتوار",
+    "contact": "تماس",
+    "about": {
+      "title": "په اړه",
+      "description": "زموږ ماموریت، لید، او کیسه"
+    },
+    "team": {
+      "title": "ټیم",
+      "description": "د هورایزن ټیک شاته خلک وپیژنئ"
+    },
+    "careers": {
+      "title": "مسلکونه",
+      "description": "زموږ ټیم سره یوځای شئ او راتلونکی جوړ کړئ"
+    },
+    "enterpriseSoftware": {
+      "title": "د تصدۍ سافټویر پراختیا",
+      "description": "دودیز تصدۍ غوښتنلیکونه د عصری چوکاټونو سره"
+    },
+    "aiMl": {
+      "title": "مصنوعی هوښیاری، ML او سوداګریز استخبارات",
+      "description": "بشپړ AI/ML پایپ لاینونه او د BI ډشبورډ"
+    },
+    "cloudArchitecture": {
+      "title": "کلاوډ معمارۍ او زیربنا",
+      "description": "څو-کلاوډ حلونه او کانتینر ارکستراسیون"
+    },
+    "iot": {
+      "title": "IoT & څنډې محاسبې",
+      "description": "وصل شوی وسیلو ایکوسیستمونه او ډیجیټل ټوینز"
+    },
+    "devops": {
+      "title": "DevOps & Platform Engineering",
+      "description": "CI/CD پایپ لاینونه او زیربنا د کوډ په توګه"
+    },
+    "digitalTransformation": {
+      "title": "ډیجیټل بدلون او ستراتیژی",
+      "description": "د تصدۍ د بدلون نقشې او مشورې"
+    },
+    "caseStudies": {
+      "title": "قضیې مطالعې",
+      "description": "زموږ د مراجعینو د بریا کیسې",
+      "featured": {
+        "title": "ځانګړې قضیه مطالعه",
+        "description": "د بشپړ تحویلی تعامل ژوره کتنه وکړئ"
+      }
+    },
+    "blog": {
+      "title": "بلاګ",
+      "description": "لیدونه، لارښوونې، او د صنعت تمایلونه",
+      "featured": {
+        "title": "ځانګړی بلاګ پوسټ",
+        "description": "زموږ له وروستیو انجینری لیدونو څخه یوه ولولئ"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "د نوښت لابراتوار عمومی کتنه",
+      "description": "ټول څیړنیز برخې او تجربوی لارې وګورئ"
+    },
+    "innovationLabAiSystems": {
+      "title": "تطبیقی AI سیسټمونه",
+      "description": "د تولید لپاره چمتو ماشین زده کړې معمارۍ نمونې"
+    },
+    "innovationLabNlp": {
+      "title": "د څو ژبې NLP",
+      "description": "د طبیعی ژبې متقابل پروسس وړتیاوې"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "د جنیټیک الګوریتم سمولیشن",
+      "description": "په تعاملی چاپېریال کې تکاملی اصلاح"
+    },
+    "navigation": "نیویګیشن",
+    "skipToContent": "منځپانګې ته لاړ شئ",
+    "toggleMenu": "مینو ټوګل کړئ",
+    "dashboard": "داشبورډ",
+    "myWorkspace": "زما کاری ځای",
+    "profile": "پروفایل",
+    "adminPanel": "د اداری پینل",
+    "practiceManagement": "د عمل مدیریت",
+    "logOut": "نښلول",
+    "education": {
+      "title": "تخنیکی سرچینې",
+      "description": "لارښودونه، لارښوونې، او غوره کړنلارې د Horizon Tech ټیم څخه"
+    },
+    "support": {
+      "title": "د ملاتړ مرکز",
+      "description": "زموږ د سافټویر پراختیا خدماتو سره مرسته ترلاسه کړئ"
+    }
+  },
+  "footer": {
+    "description": "د سافټویر پراختیا پیل چې په سارایوو، بوسنیا کې موقعیت لری. موږ ځانګړی سافټویر، AI/ML حلونه، کلاوډ معماری، او اتومات سیسټمونه جوړوو.",
+    "features": "ځانګړتیاوې",
+    "resources": "سرچینې",
+    "company": "شرکت",
+    "legal": "قانونی",
+    "dashboard": "داشبورډ",
+    "components": "اجزاوې",
+    "documentation": "اسناد",
+    "apiReference": "د API حواله",
+    "gettingStarted": "پیل کول",
+    "examples": "بیلګې",
+    "community": "ټولنه",
+    "blog": "بلاګ",
+    "caseStudies": "قضیې مطالعې",
+    "innovationLabOverview": "د نوښت لابراتوار عمومی کتنه",
+    "appliedAiSystems": "تطبیقی AI سیسټمونه",
+    "nlpDemo": "د څو ژبې NLP",
+    "geneticAlgorithmSimulation": "د جنیټیک الګوریتم سمولیشن",
+    "featuredBlogPost": "ځانګړی بلاګ پوسټ",
+    "featuredCaseStudy": "ځانګړې قضیه مطالعه",
+    "about": "په اړه",
+    "contact": "تماس",
+    "partners": "شریکان",
+    "careers": "مسلکونه",
+    "privacyPolicy": "د محرمیت پالیسۍ",
+    "termsOfService": "د خدمت شرایط",
+    "cookiePolicy": "د کوکی پالیسۍ",
+    "license": "جواز",
+    "copyright": "© {{year}} هورایزن ټیک. ټول حقوق خوندی دی.",
+    "subscribe": "د خبرپاڼې ګډون وکړئ"
+  },
+  "header": {
+    "badge": "تصدۍ ټیکنالوژی حلونه",
+    "titleLine1": "خپل کاروبار بدل کړئ",
+    "titleLine2": "نوې ټیکنالوژی",
+    "description": "له تصدۍ سافټویر پراختیا او د مصنوعی هوښیارۍ پر بنسټ سوداګریز هوښیارۍ څخه نیولې تر کلاوډ زیربنا او IoT حللارو پورې — موږ پراخ ټیکنالوژی خدمات وړاندې کوو چې نوښت ته وده ورکوی او وده ګړندۍ کوی.",
+    "getStarted": "پیل وکړئ",
+    "exploreSolutions": "حل لارې وپلټئ",
+    "trustedBy": "د مخکښو شرکتونو لخوا باور شوی",
+    "microsoftPartner": "مایکروسافټ شریک",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "تصدۍ حل لارې"
+  },
+  "mobileNav": {
+    "navigation": "ګرځنده نیویګیشن",
+    "home": "کور",
+    "solutions": "حل لارې",
+    "caseStudies": "قضیې",
+    "aiSystems": "AI لابراتوار",
+    "blog": "بلاګ",
+    "resources": "سرچینې",
+    "contact": "تماس"
+  },
+  "sideNav": {
+    "scroll": "سکرول",
+    "navigateTo": "لاره {{section}}",
+    "sections": {
+      "home": "کور",
+      "solutions": "حل لارې",
+      "credibility": "اعتبار",
+      "partners": "شریکان",
+      "caseStudies": "قضیې مطالعې",
+      "blog": "بلاګ",
+      "innovationLab": "د نوښت لابراتوار",
+      "faq": "زیاتې ترسره کېدونکې پوښتنې"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "د سویچ ژبه",
+    "searchPlaceholder": "د لټون ژبه...",
+    "noResults": "هیڅ ژبه نه ده موندل شوې."
+  },
+  "common": {
+    "menu": "مینو",
+    "account": "حساب"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "وروستی قضیې مطالعات",
+      "description": "د فینټیک، روغتیا، لوژستیک، او عامه سکتور پروګرامونو کې د وړاندې کولو پایلو یوه لنډیز.",
+      "cta": "ټولې قضیې مطالعې وګورئ"
+    },
+    "blog": {
+      "title": "زموږ د بلاګ وروستی خبرونه",
+      "description": "د وروستیو مصنوعی هوښیارۍ، پلاتفارم، او کلاوډ د تحویلی کارونو عملی یادښتونه.",
+      "cta": "ټولې مقالې ولولئ"
+    },
+    "innovationLab": {
+      "title": "د نوښت لابراتوار",
+      "description": "د Horizon Tech انجینری ټیم څخه نمونه، تجربې، او تطبیقی R&D پروژې وپلټئ.",
+      "cta": "د نوښت لابراتوار وپلټئ"
+    }
+  },
+  "caseStudyCard": {
+    "read": "د قضیې مطالعه ولولئ",
+    "industries": {
+      "fintech": "فینټیک",
+      "healthcare": "روغتیا",
+      "logistics": "لوژستیک",
+      "manufacturing": "تولید",
+      "government": "حکومت"
+    }
+  },
+  "blogCard": {
+    "read": "ولولئ"
+  }
+}

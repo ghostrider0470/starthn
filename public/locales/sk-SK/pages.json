@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "O nás",
+    "hero": {
+      "titlePrefix": "Budovanie technológií zajtrajška,",
+      "titleHighlight": "Dnes",
+      "description": "Horizon Tech d.o.o. je globálna technologická spoločnosť so sídlom v Sarajeve, ktorá poskytuje špičkové softvérové riešenia podnikom na troch kontinentoch."
+    },
+    "sections": {
+      "mission": {
+        "title": "Poslanie",
+        "description": "Pomáhame organizáciám premeniť ambiciózne nápady na spoľahlivé digitálne produkty, ktoré vytvárajú merateľnú obchodnú hodnotu.",
+        "points": [
+          "Zosúladiť dodávky technológií s jasnými obchodnými výsledkami.",
+          "Budujte dlhodobé systémy, ktoré zostávajú udržateľné aj pri raste tímov.",
+          "Úzko spolupracujte so zainteresovanými stranami od stratégie až po realizáciu."
+        ]
+      },
+      "expertise": {
+        "title": "Odbornosť",
+        "description": "Naše multidisciplinárne tímy kombinujú inžiniersku hĺbku s produktovým myslením naprieč modernými technologickými stackmi.",
+        "points": [
+          "Podnikové webové a platformové inžinierstvo.",
+          "Cloudová architektúra, DevOps automatizácia a odolná infraštruktúra.",
+          "Aplikovaná AI/ML, dátové pracovné postupy a produkty s podporou IoT."
+        ]
+      },
+      "approach": {
+        "title": "Prístup",
+        "description": "Realizujeme transparentný, iteratívny model, ktorý udržiava dodávky predvídateľné a zároveň znižuje riziko produktu.",
+        "points": [
+          "Objavte: definujte rozsah, priority a metriky úspechu včas.",
+          "Build: loď v zameraných kročkách s nepretržitými spätnými väzbami.",
+          "Optimalizovať: sledovať výsledky a zlepšovať výkonnosť v priebehu času."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Ste pripravení transformovať svoje podnikanie?",
+      "description": "Pridajte sa k rastúcemu zoznamu spoločností, ktoré dôverujú Horizon Tech, že prinesie inovatívne riešenia a výnimočné výsledky.",
+      "primary": "Začnite",
+      "secondary": "Pozrite si úspešné príbehy"
+    }
+  },
+  "contact": {
+    "badge": "Kontaktujte nás",
+    "hero": {
+      "title": "Kontaktujte nás",
+      "description": "Máte nejaký projekt na mysli? Radi by sme o vás počuli. Kontaktujte nás a porozprávajte sa o tom, ako vám môžeme pomôcť pretaviť vaše nápady do reality."
+    },
+    "info": {
+      "title": "Kontaktné informácie"
+    },
+    "booking": {
+      "title": "Rezervujte si stretnutie",
+      "description": "Naplánujte si bezplatný 30-minútový discovery call"
+    },
+    "methods": {
+      "email": {
+        "title": "Email",
+        "description": "Pošlite nám e-mail kedykoľvek",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Poloha",
+        "description": "Založený v",
+        "value": "Sarajevo, Bosna a Hercegovina"
+      },
+      "response": {
+        "title": "Čas odozvy",
+        "description": "Zvyčajne reagujeme v rámci",
+        "value": "24-48 hodín"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Nový projekt"
+      },
+      "support": {
+        "label": "Technická podpora"
+      },
+      "partnerships": {
+        "label": "Partnerstvá"
+      },
+      "careers": {
+        "label": "Kariéra"
+      },
+      "general": {
+        "label": "Všeobecné vyšetrovanie"
+      }
+    },
+    "form": {
+      "title": "Pošlite nám správu",
+      "success": "Ďakujem za tvoju správu. Ozveme sa vám do 24-48 hodín.",
+      "error": "Niečo sa pokazilo. Skúste to prosím znova alebo nám napíšte priamo e-mail.",
+      "fullName": "Celé meno *",
+      "email": "E-mailová adresa *",
+      "company": "Spoločnosť",
+      "subject": "Predmet *",
+      "message": "Správa *",
+      "placeholders": {
+        "name": "Tvoje meno",
+        "email": "you@example.com",
+        "company": "Vaša firma",
+        "subject": "S čím môžeme pomôcť?",
+        "message": "Povedzte nám o vašom projekte alebo dopyte..."
+      },
+      "validation": {
+        "required": {
+          "name": "Je potrebné celé meno.",
+          "email": "Je potrebná e-mailová adresa.",
+          "subject": "Prosím, vyberte si tému.",
+          "message": "Správa je potrebná."
+        },
+        "email": "Zadajte prosím platnú e-mailovú adresu.",
+        "messageMinLength": "Správa musí mať aspoň {{count}} znakov."
+      },
+      "sending": "Posielam...",
+      "submit": "Odoslať správu"
+    },
+    "reasonsTitle": "Prečo spolupracovať s nami?",
+    "reasons": [
+      "Odborné znalosti vo vývoji full-stack softvéru",
+      "Špecialisti na AI/ML a cloudovú architektúru",
+      "Agilný vývoj s transparentnou komunikáciou",
+      "Dlhodobá podpora a údržba"
+    ],
+    "custom": {
+      "title": "Vlastné riešenia",
+      "description": "Hľadáte riešenie na mieru? Úzko spolupracujeme s klientmi, aby sme pochopili jedinečné potreby a dodali na mieru šitý softvér, ktorý prináša merateľné výsledky.",
+      "cta": "Diskutujte o svojom projekte"
+    },
+    "faq": {
+      "title": "Máte ďalšie otázky?",
+      "description": "Pozrite si našu sekciu FAQ pre rýchle odpovede",
+      "cta": "Prehliadajte často kladené otázky"
+    }
+  },
+  "team": {
+    "badge": "Náš tím",
+    "hero": {
+      "titlePrefix": "Zoznámte sa s mysľami za nami",
+      "titleHighlight": "Horizon Tech",
+      "description": "Rôznorodý tím technológov, dizajnérov a stratégov, ktorí spoločne vytvárajú digitálne produkty s vysokým dopadom."
+    },
+    "section": {
+      "title": "Vedenie tímu",
+      "description": "Skúsení lídri, ktorí vedú víziu a rast Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Zakladateľ, generálny riaditeľ a CTO",
+        "bio": "Vizionársky líder a technický architekt s 10+ rokmi skúseností v podnikovom softvéri, špecializujúci sa na AI/ML, cloudové platformy a škálovateľnú produktovú architektúru.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Architektúra riešenia",
+          "Cloudové inžinierstvo"
+        ]
+      },
+      "ahmet": {
+        "role": "Hlavný bezpečnostný architekt",
+        "bio": "Špecialista na kybernetickú bezpečnosť so zameraním na podnikovú bezpečnostnú architektúru, bezpečnú on-prem infraštruktúru a dodávku s dôrazom na súlad v regulovaných prostrediach.",
+        "expertise": [
+          "Kybernetická bezpečnosť",
+          "On-prem systémy",
+          "Bezpečnostná architektúra",
+          "Dodržiavanie predpisov",
+          "Bezpečnosť infraštruktúry"
+        ]
+      }
+    },
+    "aria": {
+      "email": "E-mail {{name}}",
+      "linkedin": "{{name}} profil na LinkedIn"
+    },
+    "culture": {
+      "title": "Život v Horizon Tech",
+      "description": "Podporujeme kultúru inovácií, spolupráce a neustáleho učenia",
+      "remoteFirst": {
+        "title": "Kultúra zameraná na diaľku",
+        "description": "Pracuj odkiaľkoľvek s flexibilným pracovným časom a zameraním na výsledky, nie na lokalitu."
+      },
+      "collaborative": {
+        "title": "Spolupracujúce prostredie",
+        "description": "Pravidelné tímové podujatia, zdieľanie vedomostí a medziodborová spolupráca."
+      },
+      "workLife": {
+        "title": "Rovnováha medzi prácou a osobným životom",
+        "description": "Štedrá dovolenková politika, podpora duševného zdravia a rešpekt k osobnému času."
+      },
+      "innovation": {
+        "title": "Inovačný čas",
+        "description": "20 % času na osobné projekty, hackathony a objavovanie nových technológií."
+      },
+      "stats": {
+        "teamMembers": "Členovia tímu",
+        "countries": "Krajiny",
+        "techStacks": "Technologické zásobníky",
+        "remoteReady": "Pripravený na diaľku"
+      }
+    },
+    "cta": {
+      "title": "Chcete sa pridať k nášmu tímu?",
+      "description": "Vždy hľadáme talentovaných ľudí, ktorým záleží na remesle, vlastníctve a inováciách.",
+      "button": "Kontaktujte nás"
+    }
+  },
+  "careers": {
+    "badge": "Pridajte sa k nášmu tímu",
+    "hero": {
+      "titlePrefix": "Budujte budúcnosť",
+      "titleHighlight": "S nami",
+      "description": "Pridajte sa k tímu inžinierov, ktorí vyvíjajú špičkový softvér pre globálnych klientov. Pracujte na diaľku, neustále rastite a dosahujte skutočný vplyv.",
+      "button": "Pozri pozície"
+    },
+    "process": {
+      "title": "Náš náborový proces",
+      "description": "Transparentné, efektívne a s rešpektom k vášmu času",
+      "steps": [
+        {
+          "title": "Prihláste sa",
+          "description": "Podajte svoju žiadosť a my ju posúdime do 3 pracovných dní."
+        },
+        {
+          "title": "Úvodný rozhovor",
+          "description": "30-minútový videohovor na diskusiu o vašich skúsenostiach a očakávaniach."
+        },
+        {
+          "title": "Technické techniky",
+          "description": "Technický pohovor alebo praktické cvičenie na ukázanie vašich schopností."
+        },
+        {
+          "title": "Ponuka",
+          "description": "Zoznámte sa s tímom a získajte ponuku pripojiť sa k Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Voľné pozície",
+      "description": "Nájdite svoju ďalšiu príležitosť a pridajte sa k nášmu rastúcemu tímu",
+      "unavailable": "Momentálne neprijímame prihlášky",
+      "apply": "Prihláste sa teraz",
+      "noMatch": "Nevidíte dokonalú rolu?",
+      "sendCv": "Pošlite nám svoj životopis",
+      "listings": [
+        {
+          "title": "Senior full-stack inžinier",
+          "department": "Inžinierstvo",
+          "location": "Vzdialené (časové pásma EÚ)",
+          "type": "Plný úväzok",
+          "description": "Budujte škálovateľné podnikové aplikácie pomocou technológií React, Node.js a cloudu.",
+          "tags": [
+            "React",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps inžinier",
+          "department": "Inžinierstvo",
+          "location": "Sarajevo / Remote",
+          "type": "Plný úväzok",
+          "description": "Navrhovať a udržiavať CI/CD pipeline, infraštruktúru ako kód a monitorovacie systémy.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraforma",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI/ML inžinier",
+          "department": "Inovačné laboratórium",
+          "location": "Diaľkové ovládanie",
+          "type": "Plný úväzok",
+          "description": "Vyvíjajte modely strojového učenia a AI riešenia pre podnikových klientov.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Produktový dizajnér",
+          "department": "Dizajn",
+          "location": "Diaľkové ovládanie",
+          "type": "Plný úväzok",
+          "description": "Vytvárajte krásne, intuitívne používateľské zážitky pre komplexné podnikové aplikácie.",
+          "tags": [
+            "Figma",
+            "Výskum používateľov",
+            "UI/UX",
+            "Dizajnové systémy"
+          ]
+        },
+        {
+          "title": "Solutions Architect",
+          "department": "Inžinierstvo",
+          "location": "Diaľkové ovládanie",
+          "type": "Plný úväzok",
+          "description": "Navrhujte komplexné technické riešenia a sprevádzajte klientov digitálnou transformáciou.",
+          "tags": [
+            "Cloudová architektúra",
+            "Návrh systému",
+            "Poradenstvo"
+          ]
+        },
+        {
+          "title": "Technický autor",
+          "department": "Prevádzka",
+          "location": "Diaľkové ovládanie",
+          "type": "Na čiastočný úväzok",
+          "description": "Vytvárajte komplexnú dokumentáciu, tutoriály a technický obsah.",
+          "tags": [
+            "Dokumentácia",
+            "API dokumentácia",
+            "Technické písanie"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Máte otázky ohľadom práce tu?",
+      "description": "Radi by sme o vás počuli. Ozvite sa nám a odpovieme na akékoľvek otázky o živote v Horizon Tech.",
+      "button": "Kontaktujte nás"
+    }
+  },
+  "caseStudies": {
+    "badge": "Úspešné príbehy",
+    "hero": {
+      "titlePrefix": "Poskytovanie výsledkov, ktoré",
+      "titleHighlight": "Materiál",
+      "description": "Preskúmajte, ako sme pomohli firmám naprieč odvetviami transformovať prevádzku prostredníctvom praktických, vysoko účinných technológií.",
+      "tags": {
+        "delivery": "Inžinierska realizácia",
+        "outcomes": "Merané výsledky"
+      }
+    },
+    "stats": {
+      "projects": "Realizované projekty",
+      "clients": "Spokojní klienti",
+      "efficiency": "Priemerný nárast efektivity",
+      "retention": "Udržanie klientov"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Finančné služby",
+        "title": "Migrácia a modernizácia cloudu",
+        "description": "Migroval som staršie bankové systémy na AWS cloudovú infraštruktúru bez akýchkoľvek výpadkov.",
+        "challenge": "Legacy monolitická architektúra spôsobujúca problémy so škálovateľnosťou",
+        "result": "Úspešne migrovaný na mikroslužby v AWS",
+        "metrics": [
+          {
+            "label": "Zníženie nákladov",
+            "value": "40%"
+          },
+          {
+            "label": "Zvýšenie výkonu",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Mikroslužby",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech riešenia",
+        "industry": "Zdravotná starostlivosť",
+        "title": "Diagnostická platforma poháňaná umelou inteligenciou",
+        "description": "Vytvoril ML modely na analýzu medicínskych obrazov s presnosťou 95%+.",
+        "challenge": "Manuálne diagnostické procesy trvajú príliš dlho",
+        "result": "Automatizovaná diagnostika s AI/ML",
+        "metrics": [
+          {
+            "label": "Ušetrený čas",
+            "value": "70%"
+          },
+          {
+            "label": "Presnosť",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "React",
+          "Zdravotná starostlivosť"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Gigant e-commerce",
+        "industry": "Maloobchod",
+        "title": "Dashboard analytiky v reálnom čase",
+        "description": "Vyvinul som BI platformu, ktorá denne spracováva 10M+ udalostí.",
+        "challenge": "Žiadny aktuálny prehľad o kľúčových obchodných metrikách v reálnom čase",
+        "result": "Platforma pre analytiku a poznatky v reálnom čase",
+        "metrics": [
+          {
+            "label": "Podujatia/Deň",
+            "value": "10M+"
+          },
+          {
+            "label": "Čas odozvy",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "React",
+          "Dátové inžinierstvo"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ste pripravení napísať svoj úspešný príbeh?",
+      "description": "Poďme sa porozprávať o tom, ako vám môžeme pomôcť dosiahnuť podobné výsledky a škálovať s istotou."
+    },
+    "filters": {
+      "title": "Priemyselný filter",
+      "all": "Všetky odvetvia",
+      "empty": "Žiadne prípadové štúdie nezapadajú do vybraného priemyselného filtra."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Postrehy a nápady z",
+      "titleHighlight": "Horizon Tech",
+      "description": "Technické tutoriály, poznatky z odvetvia a praktické lekcie z reálnej dodávky."
+    },
+    "categories": [
+      "Všetky funkcie",
+      "Cloudová architektúra",
+      "DevOps",
+      "AI/ML",
+      "Frontend",
+      "Backend",
+      "Dáta"
+    ],
+    "featuredPost": {
+      "id": "Predstavené",
+      "title": "Budúcnosť cloud-native vývoja: Trendy, ktoré treba sledovať v roku 2025",
+      "excerpt": "Preskúmajte najnovšie trendy v cloud-native vývoji, od serverless architektúr až po edge computing.",
+      "author": {
+        "name": "Horizon Tech Editorial"
+      },
+      "date": "15. november 2025",
+      "readTime": "8 min čítania",
+      "category": "Cloudová architektúra",
+      "tags": [
+        "Cloud",
+        "Azure",
+        "Trendy"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Budovanie škálovateľných mikroservisov pomocou Azure Kubernetes Service",
+        "excerpt": "Praktický sprievodca architektúrou a nasadením mikroslužieb pomocou AKS.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "12. november 2025",
+        "readTime": "6 minút čítania",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Mikroslužby",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Strojové učenie v produkcii: Získané skúsenosti",
+        "excerpt": "Skúsenosti overené v teréne z nasadzovania ML modelov vo veľkom meradle.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "10. november 2025",
+        "readTime": "10 minút čítania",
+        "category": "AI/ML",
+        "tags": [
+          "Strojové učenie",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Čo je nové a prečo je to dôležité",
+        "excerpt": "Podrobný pohľad na funkcie a dopady na výkon React 19.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "8. november 2025",
+        "readTime": "5 minút čítania",
+        "category": "Frontend",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Webový vývoj"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Prihláste sa na odber nášho newslettera",
+      "description": "Získajte najnovšie články, návody a postrehy každý týždeň.",
+      "placeholder": "your.email@example.com",
+      "button": "Prihláste sa na odber",
+      "note": "Žiadny spam. Odhláste sa kedykoľvek."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering Blog",
+        "description": "Terénne poznámky a praktické vzory od tímov budujúcich AI produkty, podnikové systémy a spoľahlivé cloudové platformy."
+      },
+      "filters": {
+        "postsInView": "{{count}} príspevky v dohľade"
+      },
+      "featured": {
+        "badge": "Najnovšie",
+        "readCta": "Prečítajte si vybraný príspevok"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Načítavanie profilu...",
+    "title": "Nastavenia profilu",
+    "subtitle": "Spravujte nastavenia a preferencie účtu",
+    "photoButton": "Zmeniť fotografiu",
+    "tabs": {
+      "general": "Všeobecné",
+      "security": "Bezpečnosť",
+      "preferences": "Preferencie"
+    },
+    "messages": {
+      "profileUpdated": "Profil bol úspešne aktualizovaný",
+      "profileUpdateFailed": "Nepodarilo sa aktualizovať profil",
+      "passwordsNoMatch": "Nové heslá sa nezhodujú",
+      "passwordTooShort": "Heslo musí mať aspoň 8 znakov",
+      "passwordChanged": "Heslo úspešne zmenené",
+      "passwordChangeFailed": "Nepodarilo sa zmeniť heslo",
+      "optedOut": "Odhlásili sa z tréningových správ",
+      "optedIn": "Prihlásil som sa na cvičné správy",
+      "optOutFailed": "Nepodarilo sa aktualizovať stav odhlásenia"
+    },
+    "general": {
+      "title": "Osobné informácie",
+      "description": "Aktualizujte svoje osobné údaje a kontaktné údaje",
+      "firstName": "Krstné meno",
+      "firstNamePlaceholder": "John",
+      "lastName": "Priezvisko",
+      "lastNamePlaceholder": "Srna",
+      "email": "E-mailová adresa",
+      "emailNotice": "E-mail nie je možné zmeniť. Ak potrebujete pomoc, kontaktujte podporu.",
+      "phone": "Telefónne číslo",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Zmeny v ukladaní"
+    },
+    "security": {
+      "title": "Nastavenia bezpečnosti",
+      "description": "Spravujte svoje heslo a bezpečnostné nastavenia",
+      "currentPassword": "Aktuálne heslo",
+      "currentPasswordPlaceholder": "Zadajte aktuálne heslo",
+      "newPassword": "Nové heslo",
+      "newPasswordPlaceholder": "Zadajte nové heslo",
+      "confirmPassword": "Potvrďte nové heslo",
+      "confirmPasswordPlaceholder": "Potvrďte nové heslo",
+      "passwordHint": "Musí mať aspoň 8 znakov",
+      "changePassword": "Zmeniť heslo"
+    },
+    "preferences": {
+      "title": "Nastavenia notifikácií",
+      "description": "Kontrolujte, ako dostávate aktualizácie a notifikácie",
+      "email": {
+        "title": "E-mailové upozornenia",
+        "description": "Dostávajte aktualizácie a upozornenia e-mailom"
+      },
+      "sms": {
+        "title": "SMS upozornenia",
+        "description": "Dostávajte dôležité upozornenia prostredníctvom textovej správy"
+      },
+      "optOut": {
+        "title": "Správy o odhlásení z praxe",
+        "description": "Skryte svoje správy pred majiteľom praxe"
+      },
+      "actions": {
+        "title": "Akcie účtu",
+        "downloadData": "Stiahnite si údaje o účte",
+        "deleteAccount": "Vymazať účet"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Späť domov",
+    "title": "Podporné centrum",
+    "subtitle": "Získajte pomoc s našimi službami vývoja softvéru",
+    "cards": {
+      "email": {
+        "title": "E-mailová podpora",
+        "description": "Ak máte akékoľvek otázky, pošlite nám e-mail"
+      },
+      "project": {
+        "title": "Projektové dotazy",
+        "description": "Diskutujte o požiadavkách vášho projektu",
+        "button": "Kontaktujte nás"
+      },
+      "resources": {
+        "title": "Zdroje",
+        "description": "Technické zdroje a príručky",
+        "button": "Zobraziť zdroje"
+      }
+    },
+    "faqTitle": "Často kladené otázky",
+    "faqDescription": "Rýchle odpovede na bežné otázky",
+    "faqs": [
+      {
+        "question": "Aké služby ponúka Horizon Tech?",
+        "answer": "Poskytujeme vývoj softvéru na mieru, AI/ML riešenia, cloudovú architektúru, DevOps, business intelligence a IoT služby."
+      },
+      {
+        "question": "Ako začať projekt s Horizon Tech?",
+        "answer": "Kontaktujte nás prostredníctvom formulára alebo e-mailu so svojimi požiadavkami. Dohodneme si hovor na objavovanie dôkazov a zdieľame návrh."
+      },
+      {
+        "question": "Poskytujete priebežnú podporu a údržbu?",
+        "answer": "Áno. Ponúkame balíky podpory a údržby, ktoré zahŕňajú opravy chýb, bezpečnostné aktualizácie a vylepšenia funkcií."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Späť domov",
+    "title": "Technické zdroje",
+    "subtitle": "Návody, tutoriály a osvedčené postupy od tímu Horizon Tech",
+    "hub": {
+      "title": "Learning Hub",
+      "description": "Preskúmajte naše starostlivo vybrané technické zdroje v oblasti cloudu, AI/ML, DevOps a moderného softvérového vývoja.",
+      "note": "Tieto materiály sú založené na reálnych projektových skúsenostiach a pravidelne sa aktualizujú."
+    },
+    "categories": [
+      {
+        "icon": "Cloud",
+        "title": "Cloudová architektúra",
+        "description": "Azure, AWS a cloud-native vzory",
+        "resources": [
+          {
+            "title": "Azure Architecture Najlepšie postupy",
+            "type": "Sprievodca"
+          },
+          {
+            "title": "Stratégie migrácie do cloudu",
+            "type": "Článok"
+          }
+        ]
+      },
+      {
+        "icon": "Mozog",
+        "title": "AI a strojové učenie",
+        "description": "ML modely, dátová veda a integrácia AI",
+        "resources": [
+          {
+            "title": "Úvod do Azure ML",
+            "type": "Tutoriál"
+          },
+          {
+            "title": "Budovanie výrobných ML pipeline",
+            "type": "Sprievodca"
+          }
+        ]
+      },
+      {
+        "icon": "Prostredia",
+        "title": "DevOps & Platforma",
+        "description": "CI/CD, infraštruktúra ako kód, automatizácia",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Tutoriál"
+          },
+          {
+            "title": "Infraštruktúra ako kód s Terraformom",
+            "type": "Sprievodca"
+          }
+        ]
+      },
+      {
+        "icon": "Kód",
+        "title": "Vývoj softvéru",
+        "description": ".NET, React a moderné vývojové praktiky",
+        "resources": [
+          {
+            "title": "Čistá architektúra v .NET",
+            "type": "Sprievodca"
+          },
+          {
+            "title": "Najlepšie postupy v Reacte",
+            "type": "Článok"
+          }
+        ]
+      },
+      {
+        "icon": "Databáza",
+        "title": "Dáta a analytika",
+        "description": "BI, dátové sklady a analytické platformy",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Design",
+            "type": "Tutoriál"
+          },
+          {
+            "title": "Architektúra dátového skladu",
+            "type": "Sprievodca"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Potrebujete vlastné školenie?",
+      "description": "Ponúkame špeciálne workshopy pre inžinierske a produktové tímy",
+      "text": "Potrebujete praktický tímový tréning? Poskytujeme vlastné workshopy o cloudovej architektúre, DevOps a moderných spôsoboch dodávania.",
+      "button": "Kontaktujte nás"
+    }
+  },
+  "unauthorized": {
+    "title": "Prístup zamietnutý",
+    "description": "Nemáte povolenie na prístup na túto stránku. Ak si myslíte, že ide o chybu, kontaktujte svojho administrátora.",
+    "primary": "Prejsť na Profil",
+    "secondary": "Späť domov"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Príspevok nenájdený",
+      "description": "Neexistuje žiadny blogový príspevok o slugovi: {{slug}}",
+      "back": "Späť na blog"
+    },
+    "back": "Späť na blog",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Prípadová štúdia sa nenašla",
+      "description": "Neexistuje žiadna prípadová štúdia pre id: {{id}}",
+      "back": "Späť k prípadovým štúdiám"
+    },
+    "back": "Späť k prípadovým štúdiám",
+    "sections": {
+      "executiveSummary": "Výkonný súhrn",
+      "businessChallenge": "Podnikateľská výzva",
+      "technicalSolution": "Technické riešenie",
+      "architectureDecisions": "Architektonické rozhodnutia",
+      "technologyStack": "Technologický stack",
+      "resultsImpact": "Výsledky a dopad"
+    },
+    "client": "Klient",
+    "keyOutcomes": "Kľúčové výsledky",
+    "decision": "Rozhodnutie {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Signál stratený",
+      "title": "Stránka nenájdená",
+      "description": "Trasa, ktorú ste žiadali, neexistuje alebo sa presunula. Vráťme vás späť k platnému endpointu Horizon Tech.",
+      "requestedPath": "Požadovaná trasa",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Riešenie grafu trás... neúspešné",
+        "line2": "Dôvod: žiadny zodpovedajúci modul trasy",
+        "line3": "Záložný protokol aktivovaný",
+        "line4": "Použite jednu z nižšie uvedených skratiek, aby ste pokračovali"
+      },
+      "links": {
+        "home": "Domovská stránka",
+        "services": "Služby",
+        "blog": "Blog",
+        "caseStudies": "Prípadové štúdie"
+      }
+    },
+    "runtime": {
+      "badge": "Chyba za behu",
+      "title": "Niečo sa pokazilo na tejto stránke",
+      "description": "Nečakaný problém prerušil vykresľovanie. Môžete to bezpečne skúsiť znova, alebo sa vrátiť na domovskú stránku.",
+      "retry": "Skús znova",
+      "home": "Späť na domovskú stránku",
+      "unknown": "Neznáma chyba v čase behu"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Správa blogu",
+      "subtitle": "Vytvárajte, upravujte a spravujte svoje blogové príspevky",
+      "newPost": "Nová pozícia",
+      "seedData": "Počiatočné údaje",
+      "allPosts": "Všetky funkcie",
+      "published": "Publikované",
+      "draft": "Odvod",
+      "featured": "Vyzdvihnuté",
+      "setFeatured": "Vystúpenie",
+      "removeFeatured": "Odstrániť vybrané",
+      "table": {
+        "title": "Názov",
+        "category": "Kategória",
+        "status": "Stav",
+        "date": "Dátum",
+        "actions": "Akcie"
+      },
+      "empty": {
+        "message": "Zatiaľ žiadne blogové príspevky. Vytvorte svoj prvý príspevok alebo vzorky dát.",
+        "seed": "Vzorkové dáta zo semien",
+        "create": "Vytvoriť príspevok"
+      },
+      "delete": {
+        "title": "Vymazať príspevok",
+        "confirmation": "Si si istý, že chceš tento príspevok vymazať? Tento čin nemožno zvrátiť.",
+        "delete": "Vymazať",
+        "cancel": "Zrušiť"
+      }
+    },
+    "editor": {
+      "bannerHint": "Zobrazený ako široký banner na vrchu stĺpa",
+      "bannerImage": "Bannerový obrázok",
+      "coverHint": "Zobrazené na kartách s blogovými zoznamami",
+      "coverImage": "Obálka",
+      "editSlug": "Edit slug",
+      "posts": "Funkcie",
+      "publish": "Publikovať",
+      "update": "Aktualizácia",
+      "form": {
+        "contentPlaceholder": "Píšte svoj príspevok sem...",
+        "excerptPlaceholder": "Stručné zhrnutie príspevku...",
+        "pickDate": "Vyber si dátum",
+        "readTimePlaceholder": "napr. 5 minút čítania",
+        "titlePlaceholder": "Názov príspevku..."
+      },
+      "meta": {
+        "publisher": "Vydavateľ",
+        "unknownAuthor": "Neznámy autor"
+      },
+      "modes": {
+        "edit": "Edit",
+        "editOnly": "Iba úprava",
+        "preview": "Ukážka",
+        "previewOnly": "Iba ukážka",
+        "sideBySide": "Vedľa seba",
+        "split": "Rozdelenie"
+      },
+      "tags": {
+        "heading": "Tagy",
+        "placeholder": "Pridaj štítok..."
+      },
+      "translations": {
+        "auto": "Auto",
+        "autoTranslate": "Automatický preklad",
+        "clear": "Clear",
+        "existing": "Existujúce",
+        "heading": "Preklady",
+        "language": "Jazyk",
+        "languages": "Jazyky",
+        "edit": "Edit",
+        "manual": "Manuál",
+        "preview": "Ukážka",
+        "searchPlaceholder": "Vyhľadávajte jazyky...",
+        "translate": "Prekladajte"
+      }
+    },
+    "caseStudies": {
+      "title": "Prípadové štúdie",
+      "subtitle": "Spravovať prípadové štúdie a prezentácie projektov",
+      "newCaseStudy": "Nová prípadová štúdia",
+      "seedData": "Počiatočné údaje",
+      "allCaseStudies": "Všetky prípadové štúdie",
+      "published": "Publikované",
+      "draft": "Odvod",
+      "table": {
+        "title": "Názov",
+        "industry": "Priemysel",
+        "client": "Klient",
+        "status": "Stav",
+        "actions": "Akcie"
+      },
+      "empty": {
+        "message": "Zatiaľ žiadne prípadové štúdie.",
+        "seed": "Počiatočné údaje",
+        "create": "Create First"
+      },
+      "delete": {
+        "title": "Vymazať prípadovú štúdiu",
+        "confirmation": "Ste si istý, že chcete túto prípadovú štúdiu vymazať? Tento čin nemožno zvrátiť.",
+        "delete": "Vymazať",
+        "cancel": "Zrušiť"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Prípadové štúdie",
+      "published": "Publikované",
+      "draft": "Odvod",
+      "update": "Aktualizácia",
+      "create": "Tvor",
+      "sections": {
+        "basicInfo": "Základné informácie",
+        "narrative": "Príbeh",
+        "architectureDecisions": "Architektonické rozhodnutia",
+        "techStack": "Tech Stack",
+        "results": "Výsledky",
+        "tags": "Tagy"
+      },
+      "fields": {
+        "title": "Názov",
+        "titlePlaceholder": "Názov prípadovej štúdie",
+        "slug": "Slimák",
+        "slugPlaceholder": "automaticky generované z názvu",
+        "client": "Klient",
+        "clientPlaceholder": "Meno klienta",
+        "industry": "Priemysel",
+        "industryPlaceholder": "Vybrané odvetvia",
+        "description": "Popis",
+        "descriptionPlaceholder": "Stručný popis (zobrazený na kartách)",
+        "executiveSummary": "Výkonný súhrn",
+        "executiveSummaryPlaceholder": "Prehľad na vysokej úrovni o stretnutí",
+        "challenge": "Výzva",
+        "challengePlaceholder": "S akým problémom sa klient stretol?",
+        "solution": "Riešenie",
+        "solutionPlaceholder": "Ako sa problém vyriešil?",
+        "decision": "Rozhodnutie",
+        "decisionPlaceholder": "Čo bolo rozhodnuté",
+        "rationale": "Odôvodnenie",
+        "rationalePlaceholder": "Prečo bol zvolený tento prístup",
+        "metric": "Metrika",
+        "metricPlaceholder": "napr. latencia osídlenia",
+        "value": "Hodnota",
+        "valuePlaceholder": "napr. -63 % alebo 4,8 h -> 11m",
+        "resultDescription": "Popis",
+        "resultDescriptionPlaceholder": "Čo tento výsledok znamená",
+        "techPlaceholder": "Pridať technológiu (stlačte Enter)",
+        "tagPlaceholder": "Pridať tag (stlačte Enter)"
+      },
+      "add": "Pridať",
+      "noArchDecisions": "Zatiaľ neboli pridané žiadne architektonické rozhodnutia.",
+      "noResults": "Zatiaľ neboli pridané žiadne výsledky.",
+      "decisionLabel": "Rozhodnutie {{number}}",
+      "resultLabel": "Výsledok {{number}}",
+      "controls": {
+        "published": "Publikované",
+        "publishedDescription": "Urobte túto prípadovú štúdiu verejne viditeľnou",
+        "featured": "Vyzdvihnuté",
+        "featuredDescription": "Zdôraznite túto prípadovú štúdiu"
+      }
+    },
+    "imageCrop": {
+      "apply": "Prihláste sa",
+      "cancel": "Zrušiť",
+      "cropTitle": "Orezaný obrázok",
+      "dropText": "Vložte obrázok sem alebo kliknite na nahranie",
+      "flipHorizontal": "Flip horizontálne",
+      "flipVertical": "Flip vertical",
+      "replace": "Nahradiť",
+      "reset": "Reset",
+      "rotateLeft": "Otočte sa doľava",
+      "rotateRight": "Otočte sa doprava",
+      "uploading": "Nahrávam...",
+      "toast": {
+        "invalidFile": "Neplatný súbor",
+        "invalidFileDesc": "Prosím, nahrajte platný obrazový súbor.",
+        "uploadFailed": "Nahrávanie zlyhalo",
+        "uploadFailedDesc": "Niečo sa pokazilo. Prosím, skúste to znova.",
+        "uploaded": "Obrázok nahraný",
+        "uploadedDesc": "Váš obrázok bol úspešne nahraný."
+      }
+    }
+  }
+}

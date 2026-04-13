@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Začněte",
+    "ctaSecondary": "Naplánujte konzultaci"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Vývoj podnikového softwaru",
+      "description": "Komplexní podnikové aplikace s moderními frameworky, architekturou zaměřenou na API a škálovatelností nativenou pro cloud."
+    },
+    "sections": {
+      "problem": {
+        "title": "Rámování obchodního problému",
+        "subtitle": "Kde podnikové programy ztrácejí rychlost, rozpočet a strategické sladění"
+      },
+      "approach": {
+        "title": "Inženýrský přístup",
+        "subtitle": "Jak proměnit nejasné požadavky na platformy připravené pro produkci"
+      },
+      "principles": {
+        "title": "Principy architektury",
+        "subtitle": "Návrhová rozhodnutí, která udržují podnikové systémy udržitelné ve velkém měřítku"
+      },
+      "capabilities": {
+        "title": "Co stavíme",
+        "subtitle": "Komplexní možnosti vývoje softwaru"
+      },
+      "technology": {
+        "title": "Náš technologický stack",
+        "subtitle": "Moderní, ověřené technologie pro poskytování podnikům"
+      },
+      "breakdown": {
+        "title": "Porucha provozu",
+        "subtitle": "Strukturovaná cesta od objevování k stabilnímu dodání produkce"
+      }
+    },
+    "problem": {
+      "overview": "Podnikové týmy často nesou kritické pracovní postupy na fragmentovaných systémech, což vytváří dlouhé dodací lhůty, nekonzistentní data a nákladnou manuální koordinaci mezi odděleními.",
+      "painPointsTitle": "Opakující se pracovní bolest",
+      "impactSignalsTitle": "Co vedoucí obvykle pozorují",
+      "painPoints": [
+        "Závazky k doručení se posunou, protože závislosti napříč týmy nejsou řízeny",
+        "Základní obchodní logika je duplikována napříč kanály a produkty",
+        "Starší integrace činí spuštění nových funkcí vysoce rizikovým a pomalým"
+      ],
+      "impactSignals": [
+        "Roadmap Throughput klesá s rostoucími výdaji na inženýry",
+        "Vady určené zákazníkům rostou během období vydávání",
+        "Rozhodování se zpomaluje kvůli nekonzistentnímu provoznímu reportování"
+      ]
+    },
+    "approach": {
+      "overview": "Realizujeme s architekturou na prvním místě, dodávkami řízenými smlouvami a řízeným release engineeringem, takže obchodní hodnota je dodávána v předvídatelných krocích.",
+      "pillars": [
+        {
+          "title": "Modelování domén a omezené kontexty",
+          "detail": "Mapujeme domény tak, abychom vyjasnili hranice služeb, snížili propojení mezi týmy a vyjasnili vlastnictví."
+        },
+        {
+          "title": "Strategie integrace API-First",
+          "detail": "Stabilní smlouvy definujeme včas, což umožňuje paralelní vývoj a bezpečnější integraci s podnikovými systémy."
+        },
+        {
+          "title": "Postupný postup doručení",
+          "detail": "Používáme feature flagy, postupné zavádění a quality gates, abychom vydali rychle bez destabilizace produkce."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naše rozhodnutí o architektuře kladou důraz na dlouhověkost, provozovatelnost a jasné vlastnictví, aby platformy zůstaly přizpůsobivé i při rozšiřování obchodního rozsahu.",
+      "items": [
+        {
+          "title": "Modulární hranice služeb",
+          "detail": "Schopnosti jsou baleny v obchodních doménách, aby dopad změn zůstal lokalizovaný."
+        },
+        {
+          "title": "Integrace řízená událostmi",
+          "detail": "Asynchronní pracovní postupy se používají tam, kde existuje tolerance latence, aby se zlepšila odolnost a oddělily systémy."
+        },
+        {
+          "title": "Pozorovatelnost podle návrhu",
+          "detail": "Trasování, metriky a strukturované logy jsou definovány hned na začátku pro podporu spolehlivého provozu a správy SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Vlastní webové aplikace",
+      "Vývoj mobilních aplikací",
+      "Vývoj a integrace API",
+      "Architektura mikroslužeb",
+      "Cloud-Native řešení",
+      "Modernizace dědictví systémů"
+    ],
+    "technologies": [
+      {
+        "name": "React",
+        "category": "Frontend",
+        "icon": "reakce"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Jazyk",
+        "icon": "Strojopis"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "GraphQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Databáze",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Databáze",
+        "icon": "mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Objev a architektura",
+        "summary": "Před zahájením implementace mapujeme obchodní priority, technická omezení a cílovou architekturu.",
+        "deliverables": [
+          "Workshop na sladění produktů a požadavků",
+          "Plán architektury řešení",
+          "Plán doručení založený na milnících"
+        ]
+      },
+      {
+        "title": "Build & Integrace",
+        "summary": "Naše týmy současně implementují základní funkce, integrační vrstvy a bezpečnostní opatření kvality.",
+        "deliverables": [
+          "Vývoj rysů v iterativních sprintech",
+          "API a integrace třetích stran",
+          "Automatizované testování a kontroly připravenosti na vydání"
+        ]
+      },
+      {
+        "title": "Uvedení na trh a vývoj",
+        "summary": "Po spuštění stabilizujeme provoz a definujeme další cyklus zlepšení na základě skutečného využití.",
+        "deliverables": [
+          "Runbook pro zavádění výroby",
+          "Ladění výkonu a spolehlivosti",
+          "Plán po spuštění a backlog vylepšení"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Jste připraveni vytvořit svou další přihlášku?",
+      "description": "Navrhněme a vydajme řešení, které přináší měřitelné obchodní výsledky.",
+      "button": "Začněte svůj projekt"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML a Business Intelligence",
+      "description": "Od prediktivních modelů po výkonné dashboardy vytváříme kompletní AI/BI systémy, které podporují rozhodování ve velkém měřítku."
+    },
+    "sections": {
+      "problem": {
+        "title": "Rámování obchodního problému",
+        "subtitle": "Proč mají organizace bohaté na data stále problém činit sebevědomá rozhodnutí"
+      },
+      "approach": {
+        "title": "Inženýrský přístup",
+        "subtitle": "Jak provozujeme datové produkty, ML modely a BI workflowy"
+      },
+      "principles": {
+        "title": "Principy architektury",
+        "subtitle": "Datové a modelové architektonické vzory pro důvěryhodnou rozhodovací inteligenci"
+      },
+      "capabilities": {
+        "title": "Naše schopnosti",
+        "subtitle": "Komplexní řešení AI, ML a BI"
+      },
+      "technology": {
+        "title": "Náš technologický stack",
+        "subtitle": "Špičkové nástroje pro data a AI"
+      },
+      "breakdown": {
+        "title": "Porucha provozu",
+        "subtitle": "Jak přecházíme od fragmentovaných dat k produkční inteligenci"
+      }
+    },
+    "problem": {
+      "overview": "Organizace často shromažďují velké objemy dat, ale nedokážou je převést do spolehlivého prognózování, provozních rozhodnutí nebo měřitelných obchodních kroků.",
+      "painPointsTitle": "Opakující se pracovní bolest",
+      "impactSignalsTitle": "Co vedoucí obvykle pozorují",
+      "painPoints": [
+        "Logika reportování se mezi týmy liší, což vede k protichůdným narativům KPI",
+        "Modely zůstávají v experimentování a nikdy se nedostanou do produkčních pracovních postupů",
+        "Problémy s kvalitou dat podkopávají důvěru v analytiku a manažerské dashboardy"
+      ],
+      "impactSignals": [
+        "Rozhodovací cykly se zpomalují, protože týmy debatují o platnosti dat místo o akci",
+        "Přesnost předpovědí a plánování zůstává kvartál od čtvrtletí nekonzistentní",
+        "Investice do analytiky vykazují nízké přijetí mimo specializované analytické skupiny"
+      ]
+    },
+    "approach": {
+      "overview": "Dodáváme AI a BI platformy jako produkční systémy, které propojují datové inženýrství, modelování provozů životního cyklu a integraci rozhodovacích pracovních postupů.",
+      "pillars": [
+        {
+          "title": "Data Product Foundation",
+          "detail": "Datové produkty sladěné s doménou vytvářejí znovupoužitelné, řízené a vysoce kvalitní vstupy pro analytiku a strojové učení."
+        },
+        {
+          "title": "MLOps automatizace životního cyklu",
+          "detail": "Trénink, nasazení, monitorování a kontrola driftu jsou automatizované, aby modely byly v produkci spolehlivé."
+        },
+        {
+          "title": "Integrace rozhodovacích pracovních postupů",
+          "detail": "Poznatky jsou začleněny do provozních nástrojů a dashboardů, takže týmy jednají na základě inteligence v každodenních procesech."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naše architektura AI/BI upřednostňuje důvěryhodná data, vysvětlitelné modely a řízené přístupové vzorce napříč podnikem.",
+      "items": [
+        {
+          "title": "Definice jednotlivých metrik",
+          "detail": "Kritické KPI jsou definovány jednou pomocí sdílených sémantických modelů, aby se eliminovala protichůdná logika reportování."
+        },
+        {
+          "title": "Řízení spolehlivosti modelů",
+          "detail": "Výkonnostní prahy, detekce driftu a mechanismy rollbacku chrání kvalitu rozhodování v produkci."
+        },
+        {
+          "title": "Bezpečnost a správa podle návrhu",
+          "detail": "Datová linie, přístup založený na rolích a kontroly připravené k auditu jsou zabudovány do každého pipeline."
+        }
+      ]
+    },
+    "capabilities": [
+      "Modely a pipeline strojového učení",
+      "Power BI dashboardy a reporty",
+      "Prediktivní analytika",
+      "Streamování dat v reálném čase",
+      "Řešení datového skladování"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Platforma",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "powerBI"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Datový sklad",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricky",
+        "category": "Datové inženýrství",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML Platforma",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML Framework",
+        "icon": "tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML Framework",
+        "icon": "pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Analytika",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Zpracování",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Jazyk",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Data Foundation",
+        "summary": "Auditujeme zdroje, definujeme datové smlouvy a nastavujeme správu tak, aby každý model začínal s důvěryhodnými vstupy.",
+        "deliverables": [
+          "Hodnocení zdrojů dat a kvality",
+          "Inženýrství rysů a plánování schémat",
+          "Základní úroveň bezpečnosti a správy"
+        ]
+      },
+      {
+        "title": "Předávání modelů a poznatků",
+        "summary": "Vytváříme modely a rozhodovací dashboardy spojené s měřitelnými obchodními otázkami a KPI.",
+        "deliverables": [
+          "Vývoj a validace modelu",
+          "Dashboardy pro vedení a provozní reporting",
+          "Integrace rozhodovacích pracovních postupů"
+        ]
+      },
+      {
+        "title": "MLOps a přijetí",
+        "summary": "Operačně zavádíme nasazení, monitorování a podporu týmu, abychom udrželi výsledky spolehlivé v čase.",
+        "deliverables": [
+          "Automatizované modelové nasazovací pipeline",
+          "Monitorování driftu, přesnosti a využití",
+          "Předání týmu a provozní herní plán"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Proměňte svá data v poznatky",
+      "description": "Proměňte fragmentovaná data v jasné, akční informace.",
+      "button": "Začněte svou cestu"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Cloudová architektura a infrastruktura",
+      "description": "Multicloudové platformy, odolná architektura a škálovatelná infrastruktura navržená pro dlouhodobý růst."
+    },
+    "sections": {
+      "problem": {
+        "title": "Rámování obchodního problému",
+        "subtitle": "Proč se cloudové iniciativy zastavují po první vlně migrace"
+      },
+      "approach": {
+        "title": "Inženýrský přístup",
+        "subtitle": "Jak budujeme bezpečné, škálovatelné cloudové platformy s kontrolovaným rizikem migrace"
+      },
+      "principles": {
+        "title": "Principy architektury",
+        "subtitle": "Rozhodnutí o platformách, která vyvažují agilitu, odolnost a správu"
+      },
+      "capabilities": {
+        "title": "Cloudové služby",
+        "subtitle": "Vytvářejte, nasazujte a škálujte v cloudu"
+      },
+      "technology": {
+        "title": "Multi-cloud expertíza",
+        "subtitle": "Platformně nezávislá cloudová řešení"
+      },
+      "breakdown": {
+        "title": "Porucha provozu",
+        "subtitle": "Jasná sekvence pro návrh, migraci a provoz cloudových platforem"
+      }
+    },
+    "problem": {
+      "overview": "Mnoho organizací dokončuje počáteční migrace do cloudu, ale stále funguje jako on-prem týmy, s nízkou viditelností, nekonzistentními kontrolami a rostoucími výdaji.",
+      "painPointsTitle": "Opakující se pracovní bolest",
+      "impactSignalsTitle": "Co vedoucí obvykle pozorují",
+      "painPoints": [
+        "Pracovní zátěže jsou migrovány bez standardních bezpečnostních a síťových kontrol",
+        "Náklady na cloud rostou rychleji než dodaná obchodní hodnota",
+        "Vytváření prostředí zůstává manuální a nekonzistentní napříč týmy"
+      ],
+      "impactSignals": [
+        "Časté incidenty způsobené posunem konfigurace mezi prostředími",
+        "Připravenost na audit se zhoršuje kvůli fragmentovaným praktikám řízení",
+        "Dodací lhůty infrastruktury zpožďují produktové a datové iniciativy"
+      ]
+    },
+    "approach": {
+      "overview": "Navrhujeme cloudové platformy jako produkty, využívající automatizaci infrastruktury, politické zábrany a migrační vlny v souladu s obchodní kritickostí.",
+      "pillars": [
+        {
+          "title": "Přistávací zóna jako kód",
+          "detail": "Identita, síťování, bezpečnost a základní hodnoty politiky jsou kodifikovány pro opakovatelnost a auditovatelnost."
+        },
+        {
+          "title": "Strategie migrace na vlnové bázi",
+          "detail": "Pracovní zátěže se pohybují v kontrolovaných fázích s uvědomělým sekvenováním závislostí a připraveností na návrat zpět."
+        },
+        {
+          "title": "SRE + FinOps provozní smyčka",
+          "detail": "Indikátory spolehlivosti a jednotková ekonomika jsou přezkoumávány společně, aby se zlepšila jak dostupnost, tak efektivita výdajů."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Náš architektonický model upřednostňuje deklarativní infrastrukturu, přístup s nejmenším privilegijem a skládatelné platformy podporující rychlé dodávání produktů.",
+      "items": [
+        {
+          "title": "Vzory neměnné infrastruktury",
+          "detail": "Prostředí jsou přestavěna z verzovaného kódu, aby se minimalizoval drift a zjednodušila operační obnova."
+        },
+        {
+          "title": "Výchozí bezpečnostní úroveň",
+          "detail": "Zero-trust kontroly přístupu a vymáhání politik jsou zakotveny v každém životním cyklu prostředí."
+        },
+        {
+          "title": "Odolnost prostřednictvím distribuce",
+          "detail": "Kritické pracovní zátěže jsou navrženy tak, aby měly odolnost vůči selhání v více zónách nebo regionech tam, kde to vyžaduje dopad na podnikání."
+        }
+      ]
+    },
+    "capabilities": [
+      "Strategie a implementace multi-cloudu",
+      "Kontejnerová orchestrace (Kubernetes)",
+      "Serverless Computing",
+      "Služby migrace do cloudu",
+      "Architektura vysoké dostupnosti"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Cloud",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "AWS",
+        "category": "Cloud",
+        "icon": "amazonwebservices"
+      },
+      {
+        "name": "GCP",
+        "category": "Cloud",
+        "icon": "GoogleCloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orchestrace",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Kontejnery",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraforma",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "ARM šablony",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "amazonwebservices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Architektura a přistávací zóna",
+        "summary": "Definujeme cílový stav, ochranné bariéry a základní standardy pro platformu ještě před přesunem pracovních zátěží.",
+        "deliverables": [
+          "Návrh cílové cloudové architektury",
+          "Identita, síťování a bezpečnostní základ",
+          "Náklady a ochranné bariéry pro dodržování předpisů"
+        ]
+      },
+      {
+        "title": "Migrace a vývoj platformy",
+        "summary": "Provádíme migrační vlny a zakládáme cloud-native platformové komponenty s opakovatelnou automatizací.",
+        "deliverables": [
+          "Sekvencování migrace zátěže",
+          "Nastavení kontejnerových a serverless platforem",
+          "Infrastruktura jako kódové moduly"
+        ]
+      },
+      {
+        "title": "Spolehlivost & FinOps",
+        "summary": "Zvyšujeme provozní spolehlivost a neustále optimalizujeme výdaje na cloud na základě živé telemetrie.",
+        "deliverables": [
+          "SLO, monitorování a pracovní postupy při incidentech",
+          "Validace odolnosti a obnovy po havárii",
+          "Zpoždění optimalizace nákladů a kadence správy"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Rozšiřte svou infrastrukturu",
+      "description": "Budujte cloudové základy, které zůstanou odolné i při skutečném zatížení.",
+      "button": "Plánujte svou cloudovou strategii"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps a platformní inženýrství",
+      "description": "Automatizované doručovací pipeline, pozorovatelnost a platformní postupy, které zvyšují rychlost, aniž by obětovaly spolehlivost."
+    },
+    "sections": {
+      "problem": {
+        "title": "Rámování obchodního problému",
+        "subtitle": "Proč rychlost doručení klesá s rostoucí složitostí platformy"
+      },
+      "approach": {
+        "title": "Inženýrský přístup",
+        "subtitle": "Jak standardizovat doručovací pipeline, aniž bychom zpomalili produktové týmy"
+      },
+      "principles": {
+        "title": "Principy architektury",
+        "subtitle": "Modely platformního inženýrství, které škálují spolehlivost a autonomii týmu"
+      },
+      "capabilities": {
+        "title": "DevOps služby",
+        "subtitle": "Automatizujte, monitorujte a optimalizujte svůj životní cyklus doručení"
+      },
+      "technology": {
+        "title": "Nástroje a platformy DevOps",
+        "subtitle": "Nejlepší DevOps nástrojový řetězec ve své třídě"
+      },
+      "breakdown": {
+        "title": "Porucha provozu",
+        "subtitle": "Praktická mapa od úzkých míst v dodávkách k vysoce důvěryhodnému toku uvolňování"
+      }
+    },
+    "problem": {
+      "overview": "Organizace často investují do CI/CD nástrojů, ale stále bojují s nestabilními vydáními, pomalými schvalováními a fragmentovaným vlastnictvím napříč prostředími.",
+      "painPointsTitle": "Opakující se pracovní bolest",
+      "impactSignalsTitle": "Co vedoucí obvykle pozorují",
+      "painPoints": [
+        "Definice pipeline se liší podle týmu, což vytváří nekonzistentní kvalitativní brány",
+        "Manuální schválení nasazení zpožďuje hotfix a časové osy vydání funkcí",
+        "Operační incidenty se opakují, protože telemetrie je neúplná nebo oddělená"
+      ],
+      "impactSignals": [
+        "Doba dodacích lhůt pro změny se stále zvyšuje i přes výdaje na automatizaci",
+        "Nárůst míry selhání změn během období s vysokým objemem dodávek",
+        "Produktivita vývojářů klesá kvůli třením nástrojů a přepínání kontextu"
+      ]
+    },
+    "approach": {
+      "overview": "Zavádíme interní model platformy pro vývojáře s opakovaně použitelnými šablonami pipeline, správou řízenou politikou a sledovatelností celého životního cyklu.",
+      "pillars": [
+        {
+          "title": "Šablony pipeline Golden Path",
+          "detail": "Opakovaně použitelné CI/CD plány standardizují sestavování, testování, bezpečnostní kontroly a nasazení workflow."
+        },
+        {
+          "title": "API platformy a samoobslužné",
+          "detail": "Teams vytvářejí prostředí a uvolňují infrastrukturu prostřednictvím kontrolovaných samoobslužných rozhraní."
+        },
+        {
+          "title": "Zpětnovazební smyčky spolehlivosti",
+          "detail": "Trendy incidentů, zdraví SLO a telemetrie nasazení informují kontinuální zlepšování procesů a architektury."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naše DevOps architektura sladí rychlost doručení s řízením automatizací řízení a minimalizací jednorázové provozní práce.",
+      "items": [
+        {
+          "title": "Vše jako verze kódu",
+          "detail": "Pipeline, infrastruktura a pravidla politiky jsou ve source managementu spravovány pro auditovatelnost a opakovatelnost."
+        },
+        {
+          "title": "Postupné ověřování",
+          "detail": "Kontroly kvality, bezpečnosti a výkonu jsou vrstveny napříč jednotlivými fázemi, aby bylo riziko odhaleno dříve."
+        },
+        {
+          "title": "Sdílená odpovědnost za platformu",
+          "detail": "Týmy na platformě poskytují schopnosti na asfaltové silnici, zatímco produktové týmy si zachovávají vlastnictví dodávky."
+        }
+      ]
+    },
+    "capabilities": [
+      "Návrh CI/CD potrubí",
+      "Infrastruktura jako kód",
+      "Automatizované testování",
+      "Automatizace nasazení",
+      "Monitorování a pozorovatelnost"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Platforma",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "GitHub Actions",
+        "category": "CI/CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraforma",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Kormidlo",
+        "category": "Balení",
+        "icon": "Kormidlo"
+      },
+      {
+        "name": "Ansible",
+        "category": "Automatizace",
+        "icon": "ansible"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Monitorování",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Pozorovatelnost",
+        "icon": "grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Hodnocení platformy",
+        "summary": "Vyhodnocujeme váš současný dodavatelský řetězec softwaru, abychom identifikovali riziková místa a omezení rychlosti.",
+        "deliverables": [
+          "Mapa workflow pro současný stav doručení",
+          "Analýza úzkého hrdla potrubí",
+          "Cíl na plán zralosti DevOps"
+        ]
+      },
+      {
+        "title": "Pipeline a automatizace Build",
+        "summary": "Implementujeme spolehlivé CI/CD, kvalitní brány a automatizaci infrastruktury pro konzistentní vydání.",
+        "deliverables": [
+          "Opakovaně použitelné šablony CI/CD",
+          "Automatizace infrastruktury a prostředí",
+          "Automatizované testování a kontroly vydávání"
+        ]
+      },
+      {
+        "title": "Provozovat a zlepšovat",
+        "summary": "Zavádíme smyčky pozorovatelnosti a správy, které podporují neustálé zlepšování dodávek.",
+        "deliverables": [
+          "Monitorování dashboardů a upozornění",
+          "Vydání správních a incidentních playbooků",
+          "Metriky a přehledy kontinuálního zlepšování"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Zrychlite své doručení",
+      "description": "Snižte tření při vydávání a zlepšete spolehlivost díky vyspělým DevOps praktikám.",
+      "button": "Transformujte svůj pipeline"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Digitální transformace a strategie",
+      "description": "Strategické poradenství a podpora realizace pro modernizaci platforem, týmů a provozních modelů."
+    },
+    "sections": {
+      "problem": {
+        "title": "Rámování obchodního problému",
+        "subtitle": "Kde transformační programy ztrácejí na síle a sebevědomí vedení"
+      },
+      "capabilities": {
+        "title": "Konzultační služby",
+        "subtitle": "Strategické vedení pro digitální úspěch"
+      },
+      "approach": {
+        "title": "Inženýrský přístup",
+        "subtitle": "Jak převádíme strategii do proveditelných, technologií podpořených změn"
+      },
+      "principles": {
+        "title": "Principy architektury",
+        "subtitle": "Volby provozních modelů a platforem, které chrání výsledky transformace"
+      },
+      "technology": {
+        "title": "Technologický stack",
+        "subtitle": "Platformy a rámce, které používáme k operacionalizaci transformace"
+      },
+      "breakdown": {
+        "title": "Porucha provozu",
+        "subtitle": "Strukturovaná transformace od definice strategie k měřitelné obchodní hodnotě"
+      }
+    },
+    "problem": {
+      "overview": "Digitální iniciativy často začínají se silným záměrem, ale nedokážou se proměnit v výsledky realizace kvůli nejasnému vlastnictví, nesouvislým nástrojům a konkurenčním prioritám.",
+      "painPointsTitle": "Opakující se pracovní bolest",
+      "impactSignalsTitle": "Co vedoucí obvykle pozorují",
+      "painPoints": [
+        "Transformační roadmapy jsou definovány, ale nejsou převedeny do správy dodávek",
+        "Priority podnikání a inženýrství se po počátečních plánovacích cyklech rozcházejí",
+        "Starší provozní modely blokují přijetí moderních postupů dodávání produktů"
+      ],
+      "impactSignals": [
+        "Výdaje na programy rostou, zatímco pohyb strategických KPI zůstává stabilní",
+        "Iniciativy opomíjejí body předání mezi strategií, architekturou a realizací",
+        "Týmy zažívají únavu ze změn s omezenou realizovanou obchodní hodnotou"
+      ]
+    },
+    "approach": {
+      "overview": "Kombinujeme strategické poradenství s architekturou doručení, slaďujeme návrh operačního modelu, schopnosti platformy a tempo provádění kolem měřitelných cílů.",
+      "pillars": [
+        {
+          "title": "Prioritizace hodnotových toků",
+          "detail": "Iniciativy řadíme podle měřitelného dopadu na podnikání a technických závislostních omezení."
+        },
+        {
+          "title": "Návrh cílového operačního modelu",
+          "detail": "Role, správa a rozhodovací práva jsou definovány tak, aby podporovaly rychlejší realizaci napříč obchodními a technologickými týmy."
+        },
+        {
+          "title": "Správa portfolia",
+          "detail": "Pokrok v transformaci je řízen pomocí kontrolních bodů propojených s KPI a kontrol rizik na úrovni portfolia."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naše transformační architektura klade důraz na postupnou modernizaci a jasnou odpovědnost, čímž se vyhýbá rušivým přepisům bez obchodního odůvodnění.",
+      "items": [
+        {
+          "title": "Sladění obchodních schopností",
+          "detail": "Technologické změny jsou organizovány kolem schopností, které přímo odpovídají příjmům, kvalitě služeb nebo nákladové efektivitě."
+        },
+        {
+          "title": "Strategie pro skládatelnou platformu",
+          "detail": "Komponenty platformy jsou vybírány pro interoperabilitu, aby podporovaly fázovanou migraci a rychlejší adaptaci."
+        },
+        {
+          "title": "Správa s rytmem doručení",
+          "detail": "Rozhodovací fóra a kontrolní body jsou začleněny do sprintových a čtvrtletních cyklů, nejsou považovány za samostatné byrokratické dráhy."
+        }
+      ]
+    },
+    "capabilities": [
+      "Plány digitální transformace",
+      "Vývoj technologické strategie",
+      "Rámce pro adopci cloudu",
+      "Optimalizace procesů",
+      "Řízení změn"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Foundation",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Datová platforma",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Rozhodovací inteligence",
+        "icon": "powerBI"
+      },
+      {
+        "name": "Power Platform",
+        "category": "Low-Code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Spolupráce",
+        "icon": "Microsoftsharepoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Sladění strategie",
+        "summary": "Sladíme priority vedení a digitální cíle, abychom vytvořili společný směr transformace.",
+        "deliverables": [
+          "Cíle transformace a kritéria úspěchu",
+          "Vyspělost schopností a hodnocení mezer",
+          "Prioritní portfolio iniciativ"
+        ]
+      },
+      {
+        "title": "Plán realizace",
+        "summary": "Definujeme cílový operační model, standardy architektury a postupnou sekvenci implementace.",
+        "deliverables": [
+          "Provozní model a návrh řízení",
+          "Standardy technologie a architektury procesů",
+          "Postupná implementační plán"
+        ]
+      },
+      {
+        "title": "Změna a realizace hodnoty",
+        "summary": "Podporujeme adopci, sledujeme pohyb KPI a zdokonalujeme iniciativy na základě výsledků realizace.",
+        "deliverables": [
+          "Plán adopce a podpory",
+          "Kadence měření KPI",
+          "Čtvrtletní optimalizační backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Začněte svou transformační cestu",
+      "description": "Zvládejte změny s jasnými prioritami a praktickými plány realizace.",
+      "button": "Naplánovat strategické setkání"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT a edge Computing",
+      "description": "Propojené systémy od zařízení po cloud, s telemetrickými pipeline a edge intelligence pro průmyslové měřítko."
+    },
+    "sections": {
+      "problem": {
+        "title": "Rámování obchodního problému",
+        "subtitle": "Proč programy s připojenými zařízeními nedokážou škálovat nad rámec pilotních nasazení"
+      },
+      "approach": {
+        "title": "Inženýrský přístup",
+        "subtitle": "Jak navrhujeme bezpečné, provozovatelné IoT systémy od firmwaru zařízení až po cloudová API"
+      },
+      "principles": {
+        "title": "Principy architektury",
+        "subtitle": "Pravidla návrhu edge-to-cloud pro spolehlivost, latenci a správu flotily"
+      },
+      "capabilities": {
+        "title": "IoT řešení",
+        "subtitle": "Připojte se, monitorujte a optimalizujte svá zařízení"
+      },
+      "technology": {
+        "title": "IoT technologický stack",
+        "subtitle": "Od hardwaru k cloudu"
+      },
+      "breakdown": {
+        "title": "Porucha provozu",
+        "subtitle": "Jak dodáváme propojené systémy od edge zařízení až po cloudovou inteligenci"
+      }
+    },
+    "problem": {
+      "overview": "IoT iniciativy často prokazují technickou proveditelnost v pilotních projektech, ale selhávají ve velkém měřítku kvůli nespolehlivé konektivitě, slabému řízení flotily a špatné integraci s obchodními pracovními postupy.",
+      "painPointsTitle": "Opakující se pracovní bolest",
+      "impactSignalsTitle": "Co vedoucí obvykle pozorují",
+      "painPoints": [
+        "Onboarding zařízení a správa životního cyklu zůstávají manuální a náchylné k chybám",
+        "Telemetrické pipeline produkují šumová, neúplná nebo zpožděná provozní data",
+        "Aktualizace vzdálených příkazů a firmwaru představují bezpečnostní a bezpečnostní rizika"
+      ],
+      "impactSignals": [
+        "Pilotní prostředí uspějí, ale časové harmonogramy zavádění produkce se opakovaně posouvají",
+        "Týmy terénních operací reagují na incidenty bez prediktivní viditelnosti",
+        "Podnikové systémy nemohou spolehlivě využívat inteligenci zařízení v reálném čase"
+      ]
+    },
+    "approach": {
+      "overview": "Navrhujeme IoT platformy jako řízené distribuované systémy, kombinující bezpečné edge runtime standardy, event-driven ingestory a provozní správu na úrovni flotily.",
+      "pillars": [
+        {
+          "title": "Bezpečné řízení životního cyklu zařízení",
+          "detail": "Aktualizace zřizování, identity, rotace klíčů a firmware jsou automatizované, aby se snížilo provozní riziko."
+        },
+        {
+          "title": "Architektura řízené telemetrie",
+          "detail": "Streamovací pipeline normalizují, ověřují a směrují události zařízení pro analytiku a řízení téměř v reálném čase."
+        },
+        {
+          "title": "Řídicí letadlo pro operace flotily",
+          "detail": "Monitorování, upozornění a vzdálené příkazové workflow zajišťují spolehlivý dohled nad distribuovanými aktivy."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naše IoT architektura vyvažuje rozhodnutí na okraji s nízkou latencí s centralizovanou správou, pozorovatelností a bezpečností v souladu.",
+      "items": [
+        {
+          "title": "Autonomie hran s koordinací cloudu",
+          "detail": "Kritické lokální operace pokračují i během degradace sítě, přičemž se stav synchronizuje s cloudovými systémy, pokud je to možné."
+        },
+        {
+          "title": "Smluvní schémata událostí",
+          "detail": "Týmy pro zařízení a platformy používají řízená schémata k zachování konzistence telemetrie napříč verzemi."
+        },
+        {
+          "title": "Bezpečnost zařízení Zero-Trust",
+          "detail": "Vzájemná autentizace, nejmenší privilegia a šifrovaný přenos jsou vynucovány při každé interakci zařízení."
+        }
+      ]
+    },
+    "capabilities": [
+      "Správa IoT zařízení",
+      "Řešení digitálních dvojčat",
+      "Nasazení edge computingu",
+      "Telemetrie v reálném čase",
+      "Prediktivní údržba"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Digitální dvojčata",
+        "category": "Simulace",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Edge",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protokol",
+        "icon": "mqtt"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protokol",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Hardware",
+        "icon": "arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Hardware",
+        "icon": "raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Časová řada DB",
+        "icon": "InfluxDB"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strategie zařízení a hran",
+        "summary": "Definujeme vzory konektivity, standardy edge runtime a bezpečné provisioning pro terénní zařízení.",
+        "deliverables": [
+          "Model onboardingu a konektivity zařízení",
+          "Edge runtime a plán nasazení",
+          "Základní úroveň bezpečnosti flotily"
+        ]
+      },
+      {
+        "title": "Telemetrie a řídicí rovina",
+        "summary": "Budujeme pipeline, které zachycují události, modelují digitální dvojčata a umožňují workflow vzdáleného ovládání.",
+        "deliverables": [
+          "Návrh schémat příjmu v reálném čase a událostí",
+          "Implementace digitálního dvojčátka a modelu aktiv",
+          "Vrstva API příkazů a řízení"
+        ]
+      },
+      {
+        "title": "Provoz a rozsah",
+        "summary": "Provozujeme řízení flotily a kontrolu spolehlivosti pro produkční IoT prostředí.",
+        "deliverables": [
+          "Monitorování a upozornění na flotilu zařízení",
+          "Prediktivní údržba a detekce anomálií",
+          "Plán nasazení a podpory životního cyklu"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Připojte svá zařízení",
+      "description": "Budujte spolehlivá IoT řešení připravená pro reálná produkční prostředí.",
+      "button": "Začněte svůj IoT projekt"
+    }
+  }
+}

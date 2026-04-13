@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "සියල්ල"
+  },
+  "categories": {
+    "aiEngineering": "AI ඉංජිනේරු",
+    "enterpriseArchitecture": "ව්යවසාය ගෘහ නිර්මාණ ශිල්පය",
+    "cloudDevOps": "වලාකුළු සහ DevOps",
+    "automationSystems": "ස්වයංක්රීයකරණ පද්ධති",
+    "softwareReliabilityDesign": "මෘදුකාංග විශ්වසනීයත්වය සහ නිර්මාණ"
+  },
+  "readTime": "විනාඩි {{minutes}} කියවන්න",
+  "tagsLabel": "ඇමිණුම්",
+  "relatedPosts": "සබැඳි ලිපි",
+  "author": {
+    "role": "ප් රකාශකයා"
+  },
+  "editor": {
+    "emptyPreview": "පෙරදසුනක් බැලීමට ලිවීම ආරම්භ කරන්න..."
+  },
+  "tags": {
+    "llmOps": "එල්එල්එම් මෙහෙයුම්",
+    "promptEngineering": "කඩිනම් ඉංජිනේරු",
+    "observability": "නිරීක්ෂණය",
+    "safety": "ආරක්ෂාව",
+    "domainDesign": "වසම් නිර්මාණය",
+    "integration": "ඒකාබද්ධ කිරීම",
+    "governance": "පාලනය",
+    "platformStrategy": "වේදිකා උපාය මාර්ග",
+    "platformEngineering": "වේදිකා ඉංජිනේරු",
+    "ciCd": "CI / CD",
+    "kubernetes": "කුබර්නෙට්ස්",
+    "developerExperience": "සංවර්ධක අත්දැකීම්",
+    "eventDriven": "සිදුවීම් මත පදනම්",
+    "workflowOrchestration": "කාර්ය ප්රවාහ වාද් ය වෘන්දය",
+    "controlPlanes": "පාලක ගුවන් යානා",
+    "resilience": "ඔරොත්තු දීමේ හැකියාව",
+    "sre": "එස්ආර්ඊ",
+    "slos": "SLOs",
+    "failureModes": "අසාර්ථක මාතයන්",
+    "resilienceEngineering": "ඔරොත්තු දීමේ හැකියාව ඉංජිනේරු",
+    "evaluation": "ඇගයීම",
+    "qualityEngineering": "තත්ත්ව ඉංජිනේරු",
+    "datasets": "දත්ත කාණ්ඩ",
+    "releaseManagement": "නිදහස් කළමනාකරණය",
+    "incidentManagement": "සිදුවීම් කළමනාකරණය",
+    "architectureEvolution": "ගෘහ නිර්මාණ ශිල්පය පරිණාමය",
+    "riskReduction": "අවදානම අඩු කිරීම",
+    "postmortems": "පශ්චාත් මරණ පරීක්ෂණය",
+    "progressiveDelivery": "ප්රගතිශීලී සැපයුම",
+    "canaryReleases": "කැනරි නිකුතු",
+    "featureFlags": "විශේෂාංග කොඩි"
+  }
+}

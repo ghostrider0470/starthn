@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Ndako",
+    "company": "Kompani",
+    "solutions": "Solutions",
+    "resources": "Bisaleli",
+    "innovationLab": "Laboratoire ya Innovation",
+    "contact": "Kosolola",
+    "about": {
+      "title": "Na oyo etali",
+      "description": "Lisolo na biso, vision na biso, mpe lisolo na biso"
+    },
+    "team": {
+      "title": "Equipe",
+      "description": "Kokutana na bato oyo bazali nsima ya Horizon Tech"
+    },
+    "careers": {
+      "title": "Misala",
+      "description": "Tosangana na ekipi na biso mpe totonga lobi na biso"
+    },
+    "enterpriseSoftware": {
+      "title": "Développement ya ba logiciels ya entreprise",
+      "description": "Custom enterprise applications with modern frameworks"
+    },
+    "aiMl": {
+      "title": "AI, ML mpe Business Intelligence",
+      "description": "Kotondisa ba pipelines AI/ML mpe tableaux de bord ya BI"
+    },
+    "cloudArchitecture": {
+      "title": "Architecture ya Cloud mpe Infrastructure",
+      "description": "Multi-cloud solutions na orchestration ya conteneur"
+    },
+    "iot": {
+      "title": "IoT & Edge Computing",
+      "description": "Écosystème ya ba appareils connectés mpe mapasa numérique"
+    },
+    "devops": {
+      "title": "DevOps & Platform Engineering",
+      "description": "CI/CD pipelines and infrastructure as code"
+    },
+    "digitalTransformation": {
+      "title": "Mbongwana ya digitale mpe stratégie",
+      "description": "Mikano ya mbongwana ya kompanyi mpe toli"
+    },
+    "caseStudies": {
+      "title": "Études de cas",
+      "description": "Masolo ya succes ya ba client na biso",
+      "featured": {
+        "title": "Étude de cas en vedette",
+        "description": "Komipesa na mosala mobimba ya livraison"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Insights, tutorials, and industry trends",
+      "featured": {
+        "title": "Featured Blog Post",
+        "description": "Tanga moko ya makambo ya sika ya ba ingénieur"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Lisolo ya Innovation Lab",
+      "description": "Tala bisika nyonso ya bolukiluki mpe banzela ya komeka"
+    },
+    "innovationLabAiSystems": {
+      "title": "Ba systeme ya AI appliqué",
+      "description": "Modele ya architecture ya machine learning oyo ebongisami mpo na production"
+    },
+    "innovationLabNlp": {
+      "title": "NLP ya minoko ebele",
+      "description": "Makoki ya kosala na minɔkɔ ya mboka"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Simulation ya algorithme génétique",
+      "description": "Optimisation ya évolution na environnement interactif"
+    },
+    "navigation": "Navigation",
+    "skipToContent": "Skip to content",
+    "toggleMenu": "Toggle menu",
+    "dashboard": "Tableau de bord",
+    "myWorkspace": "Esika na ngai ya mosala",
+    "profile": "Profil",
+    "adminPanel": "Groupe d'admin",
+    "practiceManagement": "Gestion ya ba pratiques",
+    "logOut": "Kobima na libanda",
+    "education": {
+      "title": "Bisaleli ya tekiniki",
+      "description": "Ba guides, tutoriels, mpe misala ya malamu ya ekipi ya Horizon Tech"
+    },
+    "support": {
+      "title": "Esika ya lisungi",
+      "description": "Zwa lisungi na baprogramɛ na biso ya développement"
+    }
+  },
+  "footer": {
+    "description": "Tshisekedi na Sarajevo, na Bosnie. Totongaka ba software ya ndenge na ndenge, AI/ML, architecture ya cloud, mpe ba systeme ya automatisation.",
+    "features": "Makambo",
+    "resources": "Bisaleli",
+    "company": "Kompani",
+    "legal": "Mibeko",
+    "dashboard": "Tableau de bord",
+    "components": "Biloko",
+    "documentation": "Mikanda",
+    "apiReference": "Référence ya API",
+    "gettingStarted": "Ebandeli",
+    "examples": "Ndakisa",
+    "community": "Communauté",
+    "blog": "Blog",
+    "caseStudies": "Études de cas",
+    "innovationLabOverview": "Lisolo ya Innovation Lab",
+    "appliedAiSystems": "Ba systeme ya AI appliqué",
+    "nlpDemo": "NLP ya minoko ebele",
+    "geneticAlgorithmSimulation": "Simulation ya algorithme génétique",
+    "featuredBlogPost": "Featured Blog Post",
+    "featuredCaseStudy": "Étude de cas en vedette",
+    "about": "Na oyo etali",
+    "contact": "Kosolola",
+    "partners": "Partenaires",
+    "careers": "Misala",
+    "privacyPolicy": "Politique ya confidentialité",
+    "termsOfService": "Conditions de service",
+    "cookiePolicy": "Politique ya Cookie",
+    "license": "Licence",
+    "copyright": "© {{year}} Horizon Tech. Lotomo nyonso ezali réservé.",
+    "subscribe": "Inscrivez-vous à la newsletter"
+  },
+  "header": {
+    "badge": "Solutions technologiques ya entreprise",
+    "titleLine1": "Kobongola mombongo na yo na",
+    "titleLine2": "Technologie ya sika",
+    "description": "Banda na développement ya software ya entreprise mpe intelligence commerciale esimbami na AI tii na infrastructure ya cloud mpe ba solutions ya IoT — topesaka misala ya tekinoloji oyo ezali kopusa innovation mpe kokola nokinoki.",
+    "getStarted": "Bandá",
+    "exploreSolutions": "Koluka biyano",
+    "trustedBy": "Kotyelama motema na ba kompani oyo bakanisaka liboso",
+    "microsoftPartner": "Partenaire ya Microsoft",
+    "azureCertified": "Certifié Azure",
+    "enterpriseSolutions": "Solutions ya Entreprise"
+  },
+  "mobileNav": {
+    "navigation": "Navigation mobile",
+    "home": "Ndako",
+    "solutions": "Solutions",
+    "caseStudies": "Makambo",
+    "aiSystems": "Laboratoire ya AI",
+    "blog": "Blog",
+    "resources": "Bisaleli",
+    "contact": "Kosolola"
+  },
+  "sideNav": {
+    "scroll": "Rulo",
+    "navigateTo": "Kokende na {{section}}",
+    "sections": {
+      "home": "Ndako",
+      "solutions": "Solutions",
+      "credibility": "Crédibilité",
+      "partners": "Partenaires",
+      "caseStudies": "Études de cas",
+      "blog": "Blog",
+      "innovationLab": "Laboratoire ya Innovation",
+      "faq": "Mituna misusu"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Kobongola monoko",
+    "searchPlaceholder": "Koluka na munoko ya mboka ...",
+    "noResults": "Monoko moko te emonanaki."
+  },
+  "common": {
+    "menu": "Menu",
+    "account": "Lisolo"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Études de cas récentes",
+      "description": "Mwa ndambo ya misala ya fintech, ya kolongono ya nzoto, ya logistique, mpe ya misala ya leta.",
+      "cta": "View All Case Studies"
+    },
+    "blog": {
+      "title": "Makambo ya sika na blog na biso",
+      "description": "Ba notes pratiques ya ingénierie ewuti kosalema kala mingi te na AI, plateforme, mpe mosala ya livraison ya cloud.",
+      "cta": "Tángá masolo nyonso"
+    },
+    "innovationLab": {
+      "title": "Laboratoire ya Innovation",
+      "description": "Tala ba prototypes, ba expériences, mpe ba projets ya R&D appliquée na ekipi ya ba ingénieur ya Horizon Tech.",
+      "cta": "Explore Innovation Lab"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Tanga étude de cas",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Kolongono ya nzoto",
+      "logistics": "Logistique",
+      "manufacturing": "Misala ya manufacturier",
+      "government": "Gouvernement"
+    }
+  },
+  "blogCard": {
+    "read": "Botangi"
+  }
+}

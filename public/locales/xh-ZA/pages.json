@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Ngathi",
+    "hero": {
+      "titlePrefix": "Ukwakha iteknoloji yangomso,",
+      "titleHighlight": "Namhlanje",
+      "description": "I-Horizon Tech d.o.o. yinkampani yetekhnoloji yehlabathi esekelwe eSarajevo, ihambisa izisombululo zesoftware eziphambili kumashishini kumazwekazi amathathu."
+    },
+    "sections": {
+      "mission": {
+        "title": "Umsebenzi",
+        "description": "Sinceda imibutho ukuba iguqule izimvo ezinamabhongo zibe ziimveliso zedijithali ezinokuthenjwa ezenza ixabiso leshishini elinokulinganiswa.",
+        "points": [
+          "Lungelelanisa ukuhanjiswa kwetekhnoloji kunye neziphumo ezicacileyo zeshishini.",
+          "Yakha iinkqubo zexesha elide ezihlala zigcinwa njengoko amaqela ekhula.",
+          "Sebenzisana ngokusondeleyo nabachaphazelekayo ukusuka kwisicwangciso ukuya ekuphumezeni."
+        ]
+      },
+      "expertise": {
+        "title": "Ubungcali",
+        "description": "Amaqela ethu ahlukeneyo adibanisa ubunzulu bobunjineli kunye nokucinga kwemveliso kwiimfumba zetekhnoloji zale mihla.",
+        "points": [
+          "Ubunjineli beWebhu kunye neQonga.",
+          "Uyilo lwelifu, i-DevOps automation, kunye neziseko zophuhliso ezomeleleyo.",
+          "I-AI / ML esetyenzisiweyo, ukuhamba komsebenzi kwedatha, kunye neemveliso ze-IoT."
+        ]
+      },
+      "approach": {
+        "title": "Indlela",
+        "description": "Senza ngemodeli ebonakalayo, ye-iterative egcina ukuhanjiswa kuqikelelwa ngelixa kunciphisa umngcipheko wemveliso.",
+        "points": [
+          "Fumanisa: chaza ububanzi, izinto eziphambili, kunye neemetrikhi zempumelelo kwangoko.",
+          "Ukwakha: Inqanawa kwi-increments ejolise kuyo kunye neengqungquthela eziqhubekayo zempendulo.",
+          "Phucula: Ukubeka iliso kwiziphumo kunye nokuphucula ukusebenza ngokuhamba kwexesha."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Ngaba ukulungele ukutshintsha ishishini lakho?",
+      "description": "Joyina uluhlu olukhulayo lweenkampani ezithembela kwi-Horizon Tech ukuhambisa izisombululo ezintsha kunye neziphumo ezizodwa.",
+      "primary": "Qalisa",
+      "secondary": "Jonga amabali empumelelo"
+    }
+  },
+  "contact": {
+    "badge": "Nxibelelana",
+    "hero": {
+      "title": "Qhagamshelana nathi",
+      "description": "Ngaba unayo iprojekthi engqondweni? Singathanda ukuva kuwe. Nxibelelana nathi ukuze sixoxe ngendlela esinokukunceda ngayo ukuzisa izimvo zakho ebomini."
+    },
+    "info": {
+      "title": "Ulwazi loqhakamshelwano"
+    },
+    "booking": {
+      "title": "Bhukisha intlanganiso",
+      "description": "Cwangcisa umnxeba wamahhala wemizuzu engama-30"
+    },
+    "methods": {
+      "email": {
+        "title": "Imeyile",
+        "description": "Sithumelele i-imeyile nangaliphi na ixesha",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Indawo",
+        "description": "Isekelwe kwi",
+        "value": "I-Sarajevo, iBosnia neHerzegovina"
+      },
+      "response": {
+        "title": "Ixesha lokuphendula",
+        "description": "Ngokwesiqhelo siphendula ngaphakathi",
+        "value": "Iiyure ezingama-24-48"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Iprojekthi entsha"
+      },
+      "support": {
+        "label": "Inkxaso yobuchwephesha"
+      },
+      "partnerships": {
+        "label": "Intsebenziswano"
+      },
+      "careers": {
+        "label": "Imisebenzi"
+      },
+      "general": {
+        "label": "Uphando ngokubanzi"
+      }
+    },
+    "form": {
+      "title": "Sithumelele umyalezo",
+      "success": "Enkosi ngomyalezo wakho. Siza kubuyela kuwe kwiiyure ezingama-24-48.",
+      "error": "Kukho into engahambanga kakuhle. Nceda uzame kwakhona okanye usithumelele i-imeyile ngqo.",
+      "fullName": "Igama elipheleleyo *",
+      "email": "Idilesi ye-imeyile *",
+      "company": "Inkampani",
+      "subject": "Isihloko *",
+      "message": "Umyalezo *",
+      "placeholders": {
+        "name": "Igama lakho",
+        "email": "you@example.com",
+        "company": "Inkampani yakho",
+        "subject": "Yintoni esinokuyinceda?",
+        "message": "Sixelele malunga neprojekthi yakho okanye uphando ..."
+      },
+      "validation": {
+        "required": {
+          "name": "Igama elipheleleyo liyafuneka.",
+          "email": "Idilesi ye-imeyile iyafuneka.",
+          "subject": "Nceda ukhethe umxholo.",
+          "message": "Umyalezo uyafuneka."
+        },
+        "email": "Nceda ufake idilesi ye-imeyili esebenzayo.",
+        "messageMinLength": "Umyalezo kufuneka ubude ubuncinane {{count}} ubude."
+      },
+      "sending": "Ukuthumela...",
+      "submit": "Thumela umyalezo"
+    },
+    "reasonsTitle": "Kutheni usebenza nathi?",
+    "reasons": [
+      "Ubuchule bokuphuhliswa kwesoftware epheleleyo",
+      "I-AI / ML kunye neengcali zoyilo lwelifu",
+      "Uphuhliso lwe-Agile kunye nonxibelelwano olucacileyo",
+      "Inkxaso yexesha elide kunye nolondolozo"
+    ],
+    "custom": {
+      "title": "Izisombululo zesiko",
+      "description": "Ukukhangela isisombululo esifanelekileyo? Sisebenza ngokusondeleyo nabathengi ukuqonda iimfuno ezizodwa kunye nokuhambisa isoftware yesiko eqhuba iziphumo ezinokulinganiswa.",
+      "cta": "Xoxa ngeprojekthi yakho"
+    },
+    "faq": {
+      "title": "Ngaba unayo eminye imibuzo?",
+      "description": "Jonga icandelo lethu le-FAQ ukuze ufumane iimpendulo ezikhawulezayo",
+      "cta": "Khangela ii-FAQs"
+    }
+  },
+  "team": {
+    "badge": "Iqela lethu",
+    "hero": {
+      "titlePrefix": "Dibana neengqondo ngasemva",
+      "titleHighlight": "I-Horizon Tech",
+      "description": "Iqela elihlukeneyo leengcali zetekhnoloji, abayili, kunye nezicwangciso-qhinga zokwakha iimveliso zedijithali ezinefuthe eliphezulu kunye."
+    },
+    "section": {
+      "title": "Iqela lobunkokheli",
+      "description": "Iinkokheli ezinamava ezikhokela umbono kunye nokukhula kwe-Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Umsunguli, i-CEO kunye ne-CTO",
+        "bio": "Inkokeli yombono kunye nomyili wezobuchwephesha kunye neminyaka eyi-10 + kwisoftware yeshishini, egxile kwi-AI / ML, amaqonga elifu, kunye nolwakhiwo lwemveliso olunokulinganiswa.",
+        "expertise": [
+          "I-AI / ML",
+          "Azure",
+          ".NET",
+          "I-Python",
+          "Uyilo lwesisombululo",
+          "Ubunjineli belifu"
+        ]
+      },
+      "ahmet": {
+        "role": "Umyili oyintloko wokhuseleko",
+        "bio": "Ingcali ye-cybersecurity igxile kulwakhiwo lokhuseleko lweshishini, iziseko ezikhuselekileyo ze-on-prem, kunye nokuhanjiswa kokuthotyelwa kuqala kwiindawo ezilawulwayo.",
+        "expertise": [
+          "Ukhuseleko lwe-Cyber",
+          "Iinkqubo ze-On-Prem",
+          "Uyilo lokhuseleko",
+          "Ukuthotyelwa",
+          "Ukhuseleko lweziseko zophuhliso"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Imeyili {{name}}",
+      "linkedin": "{{name}} Iprofayile ye-LinkedIn"
+    },
+    "culture": {
+      "title": "Ubomi kwi-Horizon Tech",
+      "description": "Sikhuthaza inkcubeko yezinto ezintsha, intsebenziswano kunye nokufunda okuqhubekayo",
+      "remoteFirst": {
+        "title": "Inkcubeko yokuqala ekude",
+        "description": "Sebenza naphi na ngeeyure eziguquguqukayo kunye nokugxila kwiziphumo, hayi indawo."
+      },
+      "collaborative": {
+        "title": "Imeko-bume yentsebenziswano",
+        "description": "Iziganeko zeqela rhoqo, iiseshoni zokwabelana ngolwazi, kunye nentsebenziswano enqamlezileyo."
+      },
+      "workLife": {
+        "title": "Ulungelelwaniso lomsebenzi kunye nobomi",
+        "description": "Umgaqo-nkqubo weholide onobubele, inkxaso yempilo yengqondo, kunye nentlonipho yexesha lomntu."
+      },
+      "innovation": {
+        "title": "Ixesha le-Innovation",
+        "description": "Iipesenti ezingama-20 zexesha leeprojekthi zobuqu, ii-hackathons, kunye nokuphonononga itekhnoloji entsha."
+      },
+      "stats": {
+        "teamMembers": "Amalungu eqela",
+        "countries": "Amazwe",
+        "techStacks": "I-Tech Stacks",
+        "remoteReady": "Ulungele okude"
+      }
+    },
+    "cta": {
+      "title": "Ngaba uyafuna ukujoyina iqela lethu?",
+      "description": "Sihlala sikhangela abantu abanetalente abakhathalele ubugcisa, ubunini, kunye nezinto ezintsha.",
+      "button": "Nxibelelana"
+    }
+  },
+  "careers": {
+    "badge": "Joyina iqela lethu",
+    "hero": {
+      "titlePrefix": "Yakha ikamva",
+      "titleHighlight": "kunye nathi",
+      "description": "Joyina iqela leenjineli ezakha isoftware yokusika kubathengi behlabathi. Sebenza kude, ukhule ngokuqhubekayo, kwaye wenze impembelelo yokwenyani.",
+      "button": "Jonga izikhundla"
+    },
+    "process": {
+      "title": "Inkqubo yethu yokuqesha",
+      "description": "Yiba nentlonipho, ihloniphe ixesha lakho",
+      "steps": [
+        {
+          "title": "Faka isicelo",
+          "description": "Ngenisa isicelo sakho kwaye siya kuyiphonononga kwisithuba seentsuku ezi-3 zeshishini."
+        },
+        {
+          "title": "Incoko Yokuqala",
+          "description": "Umnxeba wevidiyo wemizuzu engama-30 ukuxoxa ngamava akho kunye nolindelo lwakho."
+        },
+        {
+          "title": "Ubugcisa",
+          "description": "Udliwano-ndlebe lobuchwephesha okanye ukuzivocavoca okusebenzayo ukubonisa izakhono zakho."
+        },
+        {
+          "title": "Isibonelelo",
+          "description": "Dibana neqela kwaye ufumane isithembiso sakho sokujoyina i-Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Izikhundla ezivulekileyo",
+      "description": "Fumana ithuba lakho elilandelayo kwaye ujoyine iqela lethu elikhulayo",
+      "unavailable": "Ayizamkeli izicelo ngeli xesha",
+      "apply": "Faka isicelo ngoku",
+      "noMatch": "Awuyiboni indima egqibeleleyo?",
+      "sendCv": "Sithumelele i-CV yakho",
+      "listings": [
+        {
+          "title": "Injineli ePhezulu ye-Full-Stack",
+          "department": "Ubunjineli",
+          "location": "Okude (imimandla yexesha le-EU)",
+          "type": "chrum kwik",
+          "description": "Yakha usetyenziso lweshishini olunokulinganiswa usebenzisa i-React, Node.js, kunye neetekhnoloji zefu.",
+          "tags": [
+            "Phendula",
+            "Node.js",
+            "Uhlobo lweSkripthi",
+            "I-AWS"
+          ]
+        },
+        {
+          "title": "Injineli ye-DevOps",
+          "department": "Ubunjineli",
+          "location": "ISarajevo / Indawo Ekude",
+          "type": "chrum kwik",
+          "description": "Yila kwaye ugcine imibhobho ye-CI / CD, iziseko zophuhliso njengekhowudi, kunye neenkqubo zokubeka iliso.",
+          "tags": [
+            "Kubernetes",
+            "I-Docker",
+            "I-Terraform",
+            "I-GitLab CI"
+          ]
+        },
+        {
+          "title": "Injineli ye-AI / ML",
+          "department": "ILebhu ye-Innovation",
+          "location": "Okude",
+          "type": "chrum kwik",
+          "description": "Ukuphuhlisa iimodeli zokufunda ngomatshini kunye nezisombululo ze-AI kubathengi beshishini.",
+          "tags": [
+            "I-Python",
+            "I-TensorFlow",
+            "I-PyTorch",
+            "I-MLOps"
+          ]
+        },
+        {
+          "title": "Umyili weMveliso",
+          "department": "Uyilo",
+          "location": "Okude",
+          "type": "chrum kwik",
+          "description": "Yenza amava omsebenzisi amahle, anembile kwizicelo ezintsonkothileyo zeshishini.",
+          "tags": [
+            "I-Figma",
+            "Uphando lomsebenzisi",
+            "UI / UX",
+            "Iinkqubo zoyilo"
+          ]
+        },
+        {
+          "title": "Umyili wezisombululo",
+          "department": "Ubunjineli",
+          "location": "Okude",
+          "type": "chrum kwik",
+          "description": "Yila izisombululo zobuchwephesha kunye nokukhokela abathengi ngenguqu yedijithali.",
+          "tags": [
+            "Uyilo lwelifu",
+            "Uyilo lwenkqubo",
+            "Ukubonisana"
+          ]
+        },
+        {
+          "title": "Umbhali wezobuchwephesha",
+          "department": "Imisebenzi",
+          "location": "Okude",
+          "type": "Ixesha lexeshana",
+          "description": "Yenza amaxwebhu apheleleyo, izifundo kunye nomxholo wobuchwephesha.",
+          "tags": [
+            "Amaxwebhu",
+            "Amaxwebhu e-API",
+            "Ukubhala kobuGcisa"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Imibuzo malunga nokusebenza apha?",
+      "description": "Singathanda ukuva kuwe. Nxibelelana nathi kwaye siya kuphendula nayiphi na imibuzo malunga nobomi kwi-Horizon Tech.",
+      "button": "Qhagamshelana nathi"
+    }
+  },
+  "caseStudies": {
+    "badge": "Amabali empumelelo",
+    "hero": {
+      "titlePrefix": "Ukubonelela ngeziphumo ezithi",
+      "titleHighlight": "Umcimbi",
+      "description": "Fumanisa ukuba sincede njani iinkampani kuwo onke amashishini ukuba ziguqule imisebenzi ngetekhnoloji esebenzayo, enefuthe eliphezulu.",
+      "tags": {
+        "delivery": "Ukuhanjiswa kobunjineli",
+        "outcomes": "Iziphumo ezilinganisiweyo"
+      }
+    },
+    "stats": {
+      "projects": "Iiprojekthi ezihanjisiweyo",
+      "clients": "chrum kwik",
+      "efficiency": "I-Avg. Inzuzo yokusebenza",
+      "retention": "Ukugcinwa kwabaThengi"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "I-Global FinTech Corp",
+        "industry": "IiNkonzo zezeMali",
+        "title": "Ukufuduka kwelifu kunye nokuhlaziywa",
+        "description": "Ukufudukela kwiinkqubo zebhanki zelifa kwiziseko zelifu ze-AWS ngaphandle kwexesha lokuphumla.",
+        "challenge": "Uyilo lwelifa lwe-monolithic olubangela imiba yokulinganisa",
+        "result": "Ukufudukela ngempumelelo kwi-microservices kwi-AWS",
+        "metrics": [
+          {
+            "label": "Ukuncitshiswa kweendleko",
+            "value": "40%"
+          },
+          {
+            "label": "Inzuzo yokusebenza",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "I-AWS",
+          "Kubernetes",
+          "Iinkonzo ezincinci",
+          "I-DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "Izisombululo zeHealthTech",
+        "industry": "Ukhathalelo lwempilo",
+        "title": "Iqonga lokuxilonga elixhotyiswe yi-AI",
+        "description": "Yakha iimodeli ze-ML zohlalutyo lwemifanekiso yezonyango ngokuchanekayo kwe-95% +.",
+        "challenge": "Iinkqubo zokuxilonga ngesandla zithatha ixesha elide kakhulu",
+        "result": "Ukuxilongwa okuzenzekelayo nge-AI / ML",
+        "metrics": [
+          {
+            "label": "chrum kwik",
+            "value": "70%"
+          },
+          {
+            "label": "Ukuchaneka",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "I-Python",
+          "I-TensorFlow",
+          "Phendula",
+          "Ukhathalelo lwempilo"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "I-E-Commerce Giant",
+        "industry": "Ukuthengisa",
+        "title": "Ideshibhodi yohlalutyo lwexesha lokwenyani",
+        "description": "Ukuphuhliswa kweqonga le-BI elicwangcisa iziganeko ze-10M + yonke imihla.",
+        "challenge": "Akukho mbonakalo wexesha lokwenyani kwiimetrikhi eziphambili zeshishini",
+        "result": "Uhlalutyo lwexesha lokwenyani kunye neqonga lokuqonda",
+        "metrics": [
+          {
+            "label": "Iziganeko / Usuku",
+            "value": "10M +"
+          },
+          {
+            "label": "Ixesha lokuphendula",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "I-BigQuery",
+          "Kafka",
+          "Phendula",
+          "Ubunjineli bogcino-lwazi"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ngaba ulungele ukubhala ibali lakho lempumelelo?",
+      "description": "Makhe sithethe ngendlela esinokukunceda ngayo ufezekise iziphumo ezifanayo kunye nokulinganisa ngokuzithemba."
+    },
+    "filters": {
+      "title": "Icebo lokucoca uShishino",
+      "all": "Onke amashishini",
+      "empty": "Akukho zifundo zetyala zihambelana nesihluzi soshishino esikhethiweyo."
+    }
+  },
+  "blog": {
+    "badge": "Ibhlog",
+    "hero": {
+      "titlePrefix": "Iingcamango kunye neengcamango ezivela",
+      "titleHighlight": "I-Horizon Tech",
+      "description": "Izifundo zobuchwephesha, ukuqonda kweshishini, kunye nezifundo ezisebenzayo ezivela kumsebenzi wokwenyani wokuhambisa."
+    },
+    "categories": [
+      "Zonke izithuba",
+      "Uyilo lwelifu",
+      "I-DevOps",
+      "I-AI / ML",
+      "I-Frontend",
+      "I-backend",
+      "Idatha"
+    ],
+    "featuredPost": {
+      "id": "Iboniswe",
+      "title": "Ikamva loPhuhliso lweFu-Native Development: Iindlela zokujonga ngo-2025",
+      "excerpt": "Hlola iindlela zamva nje kuphuhliso lwelifu, ukusuka kulwakhiwo olungenaseva ukuya kwikhompyuter ye-edge.",
+      "author": {
+        "name": "Umhleli we-Horizon Tech"
+      },
+      "date": "Novemba 15, 2025",
+      "readTime": "8 imizuzu yokufunda",
+      "category": "Uyilo lwelifu",
+      "tags": [
+        "Ilifu",
+        "Azure",
+        "Iindlela"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Ukwakha i-Microservices e-Scalable nge-Azure Kubernetes Service",
+        "excerpt": "Isikhokelo esisebenzayo sokuyila kunye nokuhambisa i-microservices usebenzisa i-AKS.",
+        "author": {
+          "name": "Umhleli we-Horizon Tech"
+        },
+        "date": "Novemba 12, 2025",
+        "readTime": "6 min ukufunda",
+        "category": "I-DevOps",
+        "tags": [
+          "Kubernetes",
+          "Iinkonzo ezincinci",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Ukufunda ngomatshini kwimveliso: Izifundo ezifunyenweyo",
+        "excerpt": "Izifundo ezivavanywe kwintsimi ekusebenziseni iimodeli ze-ML kwisikali.",
+        "author": {
+          "name": "Umhleli we-Horizon Tech"
+        },
+        "date": "Novemba 10, 2025",
+        "readTime": "Imizuzu eyi-10 yokufunda",
+        "category": "I-AI / ML",
+        "tags": [
+          "Ukufunda ngomatshini",
+          "I-MLOps",
+          "I-Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Impendulo 19: Yintoni entsha kwaye kutheni ibalulekile",
+        "excerpt": "Ukuntywila okunzulu kwi-React 19 iimpawu kunye neziphumo zokusebenza.",
+        "author": {
+          "name": "Umhleli we-Horizon Tech"
+        },
+        "date": "Novemba 8, 2025",
+        "readTime": "Imizuzu emi-5 yokufunda",
+        "category": "I-Frontend",
+        "tags": [
+          "Phendula",
+          "I-JavaScript",
+          "Uphuhliso lweWebhu"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Bhalisela kwincwadana yethu",
+      "description": "Fumana amanqaku akutshanje, ii-tutorials, kunye neengcamango ezihanjiswe ngeveki.",
+      "placeholder": "your.email@example.com",
+      "button": "Bhalisa",
+      "note": "Akukho gaxekile. Khupha umrhumo nangaliphi na ixesha."
+    },
+    "index": {
+      "hero": {
+        "title": "I-Horizon Tech Engineering Blog",
+        "description": "Amanqaku entsimi kunye neepateni ezisebenzayo ezivela kumaqela akha iimveliso ze-AI, iinkqubo zeshishini, kunye namaqonga elifu athembekileyo."
+      },
+      "filters": {
+        "postsInView": "{{count}} izithuba ezibonakalayo"
+      },
+      "featured": {
+        "badge": "Kutshanje",
+        "readCta": "Funda iposti ebonisiweyo"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Ukufaka inkangeleko ...",
+    "title": "Imimiselo yenkangeleko",
+    "subtitle": "Lawula imimiselo kunye nezinto ozikhethayo kwi-akhawunti yakho",
+    "photoButton": "Tshintsha ifoto",
+    "tabs": {
+      "general": "Jikelele",
+      "security": "Ukhuseleko",
+      "preferences": "Izinto Ezikhethwayo"
+    },
+    "messages": {
+      "profileUpdated": "Inkangeleko ihlaziywe ngempumelelo",
+      "profileUpdateFailed": "Ayiphumelelanga ukuhlaziya inkangeleko",
+      "passwordsNoMatch": "Ii-password ezintsha azihambelani",
+      "passwordTooShort": "Igama eligqithisiweyo kufuneka libe nophawu olusi-8 ubuncinane",
+      "passwordChanged": "I-password itshintshwe ngempumelelo",
+      "passwordChangeFailed": "Ayiphumelelanga ukutshintsha i-password",
+      "optedOut": "Ukuphuma kwiingxelo zokuziqhelanisa",
+      "optedIn": "Khetha iingxelo zokuziqhelanisa",
+      "optOutFailed": "Ayiphumelelanga ukuhlaziya ubume bokuphuma"
+    },
+    "general": {
+      "title": "Inkcazelo yobuqu",
+      "description": "Hlaziya iinkcukacha zakho zobuqu kunye neenkcukacha zoqhagamshelwano",
+      "firstName": "Igama lokuqala",
+      "firstNamePlaceholder": "John",
+      "lastName": "Igama lokugqibela",
+      "lastNamePlaceholder": "I-Doe",
+      "email": "Idilesi ye-imeyile",
+      "emailNotice": "I-imeyili ayinakutshintshwa. Nxibelelana nenkxaso ukuba ufuna uncedo.",
+      "phone": "Inombolo yefowuni",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Gcina Utshintsho"
+    },
+    "security": {
+      "title": "Imimiselo yokhuseleko",
+      "description": "Lawula i-password kunye nezinto zakho ezikhethwayo zokhuseleko",
+      "currentPassword": "I-Password ekhoyo ngoku",
+      "currentPasswordPlaceholder": "Faka i-password ekhoyo",
+      "newPassword": "Igama eligqithisiweyo elitsha",
+      "newPasswordPlaceholder": "Faka i-password entsha",
+      "confirmPassword": "Qinisekisa i-password entsha",
+      "confirmPasswordPlaceholder": "Qinisekisa i-password entsha",
+      "passwordHint": "Kufuneka ibe nonobuncinane iimpawu ezisi-8 ubude",
+      "changePassword": "Tshintsha i-password"
+    },
+    "preferences": {
+      "title": "Izinto Ezikhethwayo Zokwazisa",
+      "description": "Lawula indlela obafumana ngayo uhlaziyo nezaziso",
+      "email": {
+        "title": "Izaziso ze-imeyili",
+        "description": "Fumana uhlaziyo kunye nezilumkiso nge-imeyile"
+      },
+      "sms": {
+        "title": "Izaziso zeSMS",
+        "description": "Fumana izilumkiso ezibalulekileyo ngomyalezo obhaliweyo"
+      },
+      "optOut": {
+        "title": "Khetha ukuphuma kwiingxelo zokuziqhelanisa",
+        "description": "Fihla iingxelo zakho kumniniyo wokuziqhelanisa"
+      },
+      "actions": {
+        "title": "Izenzo ze-akhawunti",
+        "downloadData": "Khuphela idatha yeakhawunti",
+        "deleteAccount": "Cima i-akhawunti"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Buyela ekhaya",
+    "title": "Iziko leNkxaso",
+    "subtitle": "Fumana uncedo kwiinkonzo zethu zophuhliso lwesoftware",
+    "cards": {
+      "email": {
+        "title": "Inkxaso ye-imeyile",
+        "description": "Sithumelele i-imeyile ngayo nayiphi na imibuzo"
+      },
+      "project": {
+        "title": "Imibuzo yeProjekthi",
+        "description": "Xoxa ngeemfuno zakho zeprojekthi",
+        "button": "Qhagamshelana nathi"
+      },
+      "resources": {
+        "title": "Izibonelelo",
+        "description": "Izibonelelo zobuchwephesha kunye nezikhokelo",
+        "button": "Jonga izibonelelo"
+      }
+    },
+    "faqTitle": "Imibuzo Ebuzwa Rhoqo",
+    "faqDescription": "Iimpendulo ezikhawulezayo kwimibuzo ebuzwa rhoqo",
+    "faqs": [
+      {
+        "question": "Zeziphi iinkonzo ezibonelelwa yi-Horizon Tech?",
+        "answer": "Sibonelela ngophuhliso lwesoftware yesiko, izisombululo ze-AI / ML, ulwakhiwo lwamafu, i-DevOps, ubukrelekrele beshishini, kunye neenkonzo ze-IoT."
+      },
+      {
+        "question": "Ndiyiqala njani iprojekthi ngeHorizon Tech?",
+        "answer": "Nxibelelana nathi ngefom okanye nge-imeyile ngeemfuno zakho. Siza kucwangcisa umnxeba wokufumanisa kwaye sabelane ngesindululo."
+      },
+      {
+        "question": "Ngaba ubonelela ngenkxaso eqhubekayo kunye nolondolozo?",
+        "answer": "Ewe. Sinikezela ngenkxaso kunye neephakheji zolondolozo ezibandakanya ukulungiswa kwe-bug, uhlaziyo lokhuseleko, kunye nokuphuculwa kweempawu."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Buyela ekhaya",
+    "title": "Izibonelelo zobuchwephesha",
+    "subtitle": "Izikhokelo, iitutorials, kunye neendlela ezilungileyo ezivela kwiqela le-Horizon Tech",
+    "hub": {
+      "title": "Indawo yokuFunda",
+      "description": "Phonononga izixhobo zethu zobuchwephesha ezikhethiweyo kwilifu, i-AI / ML, i-DevOps, kunye nophuhliso lwesoftware yanamhlanje.",
+      "note": "Ezi zixhobo zisekwe kumava okwenyani eprojekthi kwaye zihlaziywa rhoqo."
+    },
+    "categories": [
+      {
+        "icon": "ilifu",
+        "title": "Uyilo lwelifu",
+        "description": "I-Azure, i-AWS, kunye neepateni zelifu",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Isikhokelo"
+          },
+          {
+            "title": "Izicwangciso zokufuduka kwamafu",
+            "type": "Inqaku"
+          }
+        ]
+      },
+      {
+        "icon": "ingqondo",
+        "title": "I-AI kunye nokuFunda koMatshini",
+        "description": "Iimodeli ze-ML, isayensi yedatha, kunye nokudityaniswa kwe-AI",
+        "resources": [
+          {
+            "title": "Intshayelelo kwi-Azure ML",
+            "type": "Isifundo"
+          },
+          {
+            "title": "Ukwakhiwa kweMveliso ye-ML Imibhobho",
+            "type": "Isikhokelo"
+          }
+        ]
+      },
+      {
+        "icon": "Imimiselo",
+        "title": "I-DevOps kunye neQonga",
+        "description": "CI / CD, iziseko zophuhliso njengekhowudi, ukuzenzekelayo",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Isifundo"
+          },
+          {
+            "title": "Iziseko ezingundoqo njengeKhowudi kunye neTerraform",
+            "type": "Isikhokelo"
+          }
+        ]
+      },
+      {
+        "icon": "ikhowudi",
+        "title": "Ukuphuhliswa kwesoftware",
+        "description": ".NET, React, kunye neendlela zophuhliso zanamhlanje",
+        "resources": [
+          {
+            "title": "Uyilo olucocekileyo kwi-.NET",
+            "type": "Isikhokelo"
+          },
+          {
+            "title": "Phendula Eyona Ndlela Ilungileyo",
+            "type": "Inqaku"
+          }
+        ]
+      },
+      {
+        "icon": "Isiseko sedatha",
+        "title": "Idatha kunye nohlalutyo",
+        "description": "I-BI, ukugcinwa kwedatha, kunye namaqonga ohlalutyo",
+        "resources": [
+          {
+            "title": "Uyilo lweDashboard ye-Power BI",
+            "type": "Isifundo"
+          },
+          {
+            "title": "Uyilo lwendawo yokugcina idatha",
+            "type": "Isikhokelo"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Ngaba ufuna uqeqesho lwesiko?",
+      "description": "Sinikezela ngeendibano zocweyo ezilungiselelwe ubunjineli kunye namaqela emveliso",
+      "text": "Ngaba ufuna uqeqesho lweqela lezandla? Sibonelela ngeendibano zocweyo zesiko kulwakhiwo lwamafu, i-DevOps, kunye neendlela zokuhambisa zangoku.",
+      "button": "Nxibelelana"
+    }
+  },
+  "unauthorized": {
+    "title": "Ukufikelela akuvumelekanga",
+    "description": "Awunayo imvume yokungena kweli phepha. Qhagamshelana nomphathi wakho ukuba ucinga ukuba le yimpazamo.",
+    "primary": "Yiya kwinkangeleko",
+    "secondary": "Buyela ekhaya"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Iposi ayifumaneki",
+      "description": "Akukho sithuba seblogi esikhoyo kwi-slug: {{slug}}",
+      "back": "Buyela kwibhlog"
+    },
+    "back": "Buyela kwibhlog",
+    "publisher": "I-Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Isifundo setyala asifumaneki",
+      "description": "Akukho sifundo setyala esikhoyo kwi-ID: {{id}}",
+      "back": "Buyela kwizifundo zetyala"
+    },
+    "back": "Buyela kwizifundo zetyala",
+    "sections": {
+      "executiveSummary": "Isishwankathelo esiLawulayo",
+      "businessChallenge": "Umceli mngeni wezoshishino",
+      "technicalSolution": "Isisombululo sobugcisa",
+      "architectureDecisions": "Izigqibo zoyilo",
+      "technologyStack": "Isitaki seTekhnoloji",
+      "resultsImpact": "Iziphumo kunye neMpembelelo"
+    },
+    "client": "Umthengi",
+    "keyOutcomes": "Iziphumo eziphambili",
+    "decision": "Isigqibo {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Umqondiso olahlekileyo",
+      "title": "Iphepha alifumaneki",
+      "description": "Indlela oyicelileyo ayikho okanye sele ihambisiwe. Makhe sikubuyisele kwisiphelo esifanelekileyo se-Horizon Tech.",
+      "requestedPath": "Indlela eceliweyo",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Ukusombulula igrafu yendlela ... Ayiphumelelanga",
+        "line2": "Isizathu: akukho modyuli wendlela ehambelanayo",
+        "line3": "Umthetho olandelwayo wokubuyela umva ubandakanyekile",
+        "line4": "Sebenzisa enye yeendlela ezimfutshane ezingezantsi ukuze uqhubeke"
+      },
+      "links": {
+        "home": "Iphepha lasekhaya",
+        "services": "Iinkonzo",
+        "blog": "Ibhlog",
+        "caseStudies": "Izifundo zeTyala"
+      }
+    },
+    "runtime": {
+      "badge": "Impazamo yexesha lokusebenza",
+      "title": "Kukho into eyaphukileyo kweli phepha",
+      "description": "Ingxaki engalindelekanga yaphazamisa ukunikezelwa. Ungaphinda uzame ngokukhuselekileyo, okanye ubuyele kwiphepha lasekhaya.",
+      "retry": "Phinda uzame",
+      "home": "Buyela kwiphepha lasekhaya",
+      "unknown": "Impazamo engaziwayo yexesha lokusebenza"
+    }
+  },
+  "meta": {
+    "siteName": "I-Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Ulawulo lwebhlog",
+      "subtitle": "Yila, uhlele kwaye ulawule izithuba zakho zeblogi",
+      "newPost": "Iposi elitsha",
+      "seedData": "I-Data yeMbewu",
+      "allPosts": "Zonke izithuba",
+      "published": "Ipapashwe",
+      "draft": "Uyilo",
+      "featured": "Iboniswe",
+      "setFeatured": "Iseti ebonisiweyo",
+      "removeFeatured": "Susa i-Featured",
+      "table": {
+        "title": "Isihloko",
+        "category": "Udidi",
+        "status": "Ubume",
+        "date": "Umhla",
+        "actions": "Izenzo"
+      },
+      "empty": {
+        "message": "Akukho zithuba zeblogi okwangoku. Yenza iposti yakho yokuqala okanye idatha yesampulu yembewu.",
+        "seed": "Isampulu ye-Data yeMbewu",
+        "create": "Yenza iposti"
+      },
+      "delete": {
+        "title": "Cima iposti",
+        "confirmation": "Uqinisekile ukuba ufuna ukucima esi sithuthu? Esi senzo asinakuguqulwa.",
+        "delete": "Cima",
+        "cancel": "Rhoxisa"
+      }
+    },
+    "editor": {
+      "bannerHint": "Iboniswe njengebhanile ebanzi phezulu kwesithuba",
+      "bannerImage": "Umfanekiso weBanner",
+      "coverHint": "Iboniswe kumakhadi obuhlu lwebhlog",
+      "coverImage": "Umfanekiso weCover",
+      "editSlug": "Hlela i-slug",
+      "posts": "Izithuba",
+      "publish": "Papasha",
+      "update": "Uhlaziyo",
+      "form": {
+        "contentPlaceholder": "Bhala umxholo wakho weposi apha ...",
+        "excerptPlaceholder": "Isishwankathelo esifutshane seposi ...",
+        "pickDate": "Khetha umhla",
+        "readTimePlaceholder": "Проденитения п�",
+        "titlePlaceholder": "Isihloko seposi ..."
+      },
+      "meta": {
+        "publisher": "Umshicileli",
+        "unknownAuthor": "Umbhali ongaziwayo"
+      },
+      "modes": {
+        "edit": "Hlela",
+        "editOnly": "Hlela kuphela",
+        "preview": "Ukujonga kuqala",
+        "previewOnly": "Qala kuqala kuphela",
+        "sideBySide": "Kwicala elisecaleni",
+        "split": "Ukwahlula"
+      },
+      "tags": {
+        "heading": "Tags",
+        "placeholder": "Yongeza ithegi..."
+      },
+      "translations": {
+        "auto": "Okuzenzekelayo",
+        "autoTranslate": "Ukuguqulela ngokuzenzekelayo",
+        "clear": "Cacisa",
+        "existing": "Ezikhoyo",
+        "heading": "Iinguqulelo",
+        "language": "Ulwimi",
+        "languages": "Ii-Lwimi",
+        "edit": "Hlela",
+        "manual": "Incwadana",
+        "preview": "Ukujonga kuqala",
+        "searchPlaceholder": "Khangela iilwimi ...",
+        "translate": "Ukuguqulela"
+      }
+    },
+    "caseStudies": {
+      "title": "Izifundo zeTyala",
+      "subtitle": "Ukulawula izifundo zamatyala kunye nemiboniso yeprojekthi",
+      "newCaseStudy": "Isifundo esitsha seTyala",
+      "seedData": "I-Data yeMbewu",
+      "allCaseStudies": "Zonke izifundo zeTyala",
+      "published": "Ipapashwe",
+      "draft": "Uyilo",
+      "table": {
+        "title": "Isihloko",
+        "industry": "Umzi mveliso",
+        "client": "Umthengi",
+        "status": "Ubume",
+        "actions": "Izenzo"
+      },
+      "empty": {
+        "message": "Akukho zifundo zetyala okwangoku.",
+        "seed": "I-Data yeMbewu",
+        "create": "Dala Kuqala"
+      },
+      "delete": {
+        "title": "Cima isifundo setyala",
+        "confirmation": "Uqinisekile ukuba ufuna ukucima esi sifundo? Esi senzo asinakuguqulwa.",
+        "delete": "Cima",
+        "cancel": "Rhoxisa"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Izifundo zeTyala",
+      "published": "Ipapashwe",
+      "draft": "Uyilo",
+      "update": "Uhlaziyo",
+      "create": "Yenza",
+      "sections": {
+        "basicInfo": "Ulwazi olusisiseko",
+        "narrative": "Ibali",
+        "architectureDecisions": "Izigqibo zoyilo",
+        "techStack": "I-Tech Stack",
+        "results": "Iziphumo",
+        "tags": "Tags"
+      },
+      "fields": {
+        "title": "Isihloko",
+        "titlePlaceholder": "Isihloko sesifundo",
+        "slug": "I-Slug",
+        "slugPlaceholder": "I-Auto-Ivela-Ukusuka kwi-Title",
+        "client": "Umthengi",
+        "clientPlaceholder": "Igama lomxhasi",
+        "industry": "Umzi mveliso",
+        "industryPlaceholder": "Khetha ishishini",
+        "description": "Inkcazo",
+        "descriptionPlaceholder": "Inkcazelo emfutshane (eboniswe emakhadini)",
+        "executiveSummary": "Isishwankathelo esiLawulayo",
+        "executiveSummaryPlaceholder": "Isishwankathelo esiphezulu sokubandakanyeka",
+        "challenge": "Umceli mngeni",
+        "challengePlaceholder": "Yeyiphi ingxaki umthengi ajongene nayo?",
+        "solution": "Isisombululo",
+        "solutionPlaceholder": "Yasonjululwa njani ingxaki?",
+        "decision": "Isigqibo",
+        "decisionPlaceholder": "Oko kwagqitywa",
+        "rationale": "Isizathu",
+        "rationalePlaceholder": "Kutheni le ndlela ikhethwe",
+        "metric": "Imetrikhi",
+        "metricPlaceholder": "Umzekelo, i-Settlement Latency",
+        "value": "Ixabiso",
+        "valuePlaceholder": "Umzekelo -63% okanye 4.8h -> 11m",
+        "resultDescription": "Inkcazo",
+        "resultDescriptionPlaceholder": "Kuthetha ukuthini esi siphumo",
+        "techPlaceholder": "Dibanisa ubugcisa (cinezela u-Enter)",
+        "tagPlaceholder": "Yongeza isiphawuli (cinezela u-Enter)"
+      },
+      "add": "Yongeza",
+      "noArchDecisions": "Akukho zigqibo zoyilo zongeziweyo okwangoku.",
+      "noResults": "Akukho ziphumo zongeziweyo okwangoku.",
+      "decisionLabel": "Isigqibo {{number}}",
+      "resultLabel": "Isiphumo {{number}}",
+      "controls": {
+        "published": "Ipapashwe",
+        "publishedDescription": "Yenza esi sifundo sibonakale esidlangalaleni",
+        "featured": "Iboniswe",
+        "featuredDescription": "Qaqambisa esi sifundo"
+      }
+    },
+    "imageCrop": {
+      "apply": "Faka isicelo",
+      "cancel": "Rhoxisa",
+      "cropTitle": "Isicwangciso somfanekiso",
+      "dropText": "Lahla umfanekiso apha okanye ucofe ukulayisha",
+      "flipHorizontal": "Jinga ithe tyaba",
+      "flipVertical": "Jika ngokuthe nkqo",
+      "replace": "Buyisela",
+      "reset": "Phinda kwakhona",
+      "rotateLeft": "Jikelezisa ngasekhohlo",
+      "rotateRight": "Jikelezisa ngasekunene",
+      "uploading": "Ukulayisha...",
+      "toast": {
+        "invalidFile": "Ifayili engaqinisekiswanga",
+        "invalidFileDesc": "Nceda ufake ifayili yomfanekiso esebenzayo.",
+        "uploadFailed": "Ulayisha ayiphumelelanga",
+        "uploadFailedDesc": "Kukho into engahambanga kakuhle. Nceda uzame kwakhona.",
+        "uploaded": "Umfanekiso ulayishwe",
+        "uploadedDesc": "Umfanekiso wakho ulayishwe ngempumelelo."
+      }
+    }
+  }
+}

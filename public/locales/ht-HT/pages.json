@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Sou nou",
+    "hero": {
+      "titlePrefix": "Building Tomorrows Technology,",
+      "titleHighlight": "Jodi a",
+      "description": "Horizon Tech d.o.o. se yon konpayi teknoloji mondyal ki gen katye jeneral nan Sarajevo, ki delivre solisyon lojisyèl dènye kri nan antrepriz atravè twa kontinan."
+    },
+    "sections": {
+      "mission": {
+        "title": "Misyon",
+        "description": "Nou ede òganizasyon yo vire lide anbisye nan pwodwi dijital serye ki kreye valè biznis mezirab.",
+        "points": [
+          "Aliman livrezon teknoloji ak rezilta biznis klè",
+          "Bati sistèm alontèm ki rete antretyen kòm ekip echèl.",
+          "Patnè kole ak moun ki gen enterè soti nan estrateji nan ekzekisyon."
+        ]
+      },
+      "expertise": {
+        "title": "Ekspètiz",
+        "description": "Ekip miltidisiplinè nou yo konbine pwofondè jeni ak panse pwodwi atravè pil teknoloji modèn.",
+        "points": [
+          "Enterprise-klas entènèt ak platfòm jeni.",
+          "Cloud achitekti, DevOps automatisation, ak enfrastrikti rezistan",
+          "Aplike AI / ML, workflows done, ak IoT pèmèt pwodwi yo."
+        ]
+      },
+      "approach": {
+        "title": "Apwòch",
+        "description": "Nou egzekite ak yon transparan, modèl iteratif ki kenbe livrezon previzib pandan y ap diminye risk pwodwi.",
+        "points": [
+          "Dekouvri: defini dimansyon, priyorite ak mesures siksè bonè.",
+          "Bati: bato nan ogmantasyon konsantre ak pasan fidbak kontinyèl.",
+          "Optimize: kontwole rezilta yo ak amelyore pèfòmans sou tan."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Pare pou transfòme biznis ou?",
+      "description": "Rantre nan lis la k ap grandi nan konpayi ki mete konfyans Horizon Tech pou delivre solisyon inovatè ak rezilta eksepsyonèl.",
+      "primary": "Kòmanse",
+      "secondary": "Gade Istwa Siksè"
+    }
+  },
+  "contact": {
+    "badge": "Jwenn an kontak",
+    "hero": {
+      "title": "Kontakte nou",
+      "description": "Gen yon pwojè nan tèt ou? Nou ta renmen tande w Kontakte pou diskite sou ki jan nou ka ede nou fè lide ou yo vin lavi."
+    },
+    "info": {
+      "title": "Enfòmasyon pou Kontakte"
+    },
+    "booking": {
+      "title": "Liv yon Reyinyon",
+      "description": "Orè yon apèl dekouvèt 30 minit gratis"
+    },
+    "methods": {
+      "email": {
+        "title": "Imel",
+        "description": "Voye nou yon imèl nenpòt ki lè",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Kote yo ye",
+        "description": "Ki baze nan",
+        "value": "Sarajevo, Bosni ak Erzegovin"
+      },
+      "response": {
+        "title": "Tan Repons",
+        "description": "Nou tipikman reponn nan",
+        "value": "24-48 èdtan"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Nouvo Pwojè"
+      },
+      "support": {
+        "label": "Sipò teknik"
+      },
+      "partnerships": {
+        "label": "Patenarya"
+      },
+      "careers": {
+        "label": "Karyè"
+      },
+      "general": {
+        "label": "Ankèt jeneral"
+      }
+    },
+    "form": {
+      "title": "Voye Mesaj Ban Nou",
+      "success": "Mèsi pou mesaj ou Nou pral jwenn tounen ba ou nan 24-48 èdtan.",
+      "error": "Yon bagay ale mal. Tanpri eseye ankò oswa imèl nou dirèkteman.",
+      "fullName": "Non konplè *",
+      "email": "Adrès imel *",
+      "company": "Konpayi an",
+      "subject": "Sijè *",
+      "message": "Mesaj *",
+      "placeholders": {
+        "name": "Non ou",
+        "email": "you@example.com",
+        "company": "Konpayi ou",
+        "subject": "Ak kisa nou ka ede?",
+        "message": "Di nou sou pwojè ou oswa ankèt ..."
+      },
+      "validation": {
+        "required": {
+          "name": "Non konplè obligatwa.",
+          "email": "Adrès imèl obligatwa",
+          "subject": "Tanpri chwazi yon sijè",
+          "message": "Mesaj se obligatwa"
+        },
+        "email": "Tanpri antre yon adrès imèl valab.",
+        "messageMinLength": "Mesaj yo dwe omwen {{count}} karaktè long."
+      },
+      "sending": "Voye ...",
+      "submit": "Voye mesaj"
+    },
+    "reasonsTitle": "Poukisa travay avèk nou?",
+    "reasons": [
+      "Full-stack lojisyèl devlopman ekspètiz",
+      "AI / ML ak nwaj achitekti espesyalis",
+      "Devlopman ajil ak kominikasyon transparan",
+      "Long tèm sipò ak antretyen"
+    ],
+    "custom": {
+      "title": "Solisyon Custom",
+      "description": "Looking for yon solisyon pwepare? Nou travay kole kole ak kliyan yo konprann bezwen inik ak delivre lojisyèl koutim ki kondwi rezilta mezirab.",
+      "cta": "Diskite sou Pwojè ou a"
+    },
+    "faq": {
+      "title": "Gen plis kesyon?",
+      "description": "Tcheke seksyon FAQ nou an pou repons rapid",
+      "cta": "Browse FAQ"
+    }
+  },
+  "team": {
+    "badge": "Ekip nou an",
+    "hero": {
+      "titlePrefix": "Rankontre lespri yo dèyè",
+      "titleHighlight": "Horizon Tech",
+      "description": "Yon ekip divès nan teknolojis, konsèpteur, ak stratèj bati pwodwi dijital gwo enpak ansanm."
+    },
+    "section": {
+      "title": "Ekip Lidèchip",
+      "description": "Lidè ki gen eksperyans ki gide vizyon Horizon Tech a ak kwasans"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Founder, CEO & CTO",
+        "bio": "Lidè vizyonè ak achitèk teknik ak 10+ ane nan lojisyèl antrepriz, espesyalize nan AI / ML, platfòm nwaj ak achitekti pwodwi évolutive.",
+        "expertise": [
+          "AI / ML",
+          "Azure",
+          ".NET",
+          "Piton",
+          "Achitekti solisyon",
+          "Cloud Jeni"
+        ]
+      },
+      "ahmet": {
+        "role": "Chèf Achitèk Sekirite",
+        "bio": "Espesyalis Cybersecurity konsantre sou achitekti sekirite antrepriz, sekirite sou-prem enfrastrikti, ak konfòmite-premye livrezon pou anviwònman reglemante.",
+        "expertise": [
+          "Cyber Sekirite",
+          "Sistèm On-Prem",
+          "Achitekti Sekirite",
+          "Konfòmite",
+          "Sekirite enfrastrikti"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Imèl {{name}}",
+      "linkedin": "{{name}} pwofil LinkedIn"
+    },
+    "culture": {
+      "title": "Lavi nan Horizon Tech",
+      "description": "Nou ankouraje yon kilti inovasyon, kolaborasyon, ak aprantisaj kontinyèl",
+      "remoteFirst": {
+        "title": "Remote Premye Kilti",
+        "description": "Travay soti nan nenpòt kote ak èdtan fleksib ak yon konsantre sou rezilta, pa kote."
+      },
+      "collaborative": {
+        "title": "Anviwònman kolaborasyon",
+        "description": "Regilye evènman ekip, sesyon pataje konesans, ak kolaborasyon kwa-fonksyonèl."
+      },
+      "workLife": {
+        "title": "Balans travay-lavi",
+        "description": "Règleman vakans jenere, sipò sante mantal ak respè pou tan pèsonèl"
+      },
+      "innovation": {
+        "title": "Tan Inovasyon",
+        "description": "20% tan pou pwojè pèsonèl, hackathons ak eksplore nouvo teknoloji"
+      },
+      "stats": {
+        "teamMembers": "Manm ekip yo",
+        "countries": "Peyi yo",
+        "techStacks": "Pil Tech",
+        "remoteReady": "Remote pare"
+      }
+    },
+    "cta": {
+      "title": "Vle rantre nan ekip nou an?",
+      "description": "Nou toujou ap chèche pou moun ki gen talan ki pran swen atizan konn fè, pwopriyetè ak inovasyon.",
+      "button": "Jwenn an kontak"
+    }
+  },
+  "careers": {
+    "badge": "Antre nan ekip nou an",
+    "hero": {
+      "titlePrefix": "Bati lavni an",
+      "titleHighlight": "Avèk nou",
+      "description": "Antre nan yon ekip enjenyè bati lojisyèl dènye kri pou kliyan mondyal yo. Travay adistans, grandi kontinyèlman epi fè enpak reyèl.",
+      "button": "Wè Pozisyon"
+    },
+    "process": {
+      "title": "Pwosesis anbochaj nou an",
+      "description": "Transparan, efikas ak respè nan tan ou",
+      "steps": [
+        {
+          "title": "Aplike",
+          "description": "Soumèt aplikasyon w lan epi n ap revize li nan 3 jou ouvrab."
+        },
+        {
+          "title": "Premye Chat",
+          "description": "Yon apèl videyo 30 minit diskite sou eksperyans ou ak atant"
+        },
+        {
+          "title": "Teknik",
+          "description": "Entèvyou teknik oswa egzèsis pratik pou montre konpetans ou."
+        },
+        {
+          "title": "Ofri",
+          "description": "Rankontre ekip la epi resevwa òf ou a rantre nan Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Louvri Pozisyon",
+      "description": "Jwenn pwochen opòtinite ou epi rantre nan ekip k ap grandi nou an",
+      "unavailable": "Pa aksepte aplikasyon nan moman sa a",
+      "apply": "Aplike kounye a",
+      "noMatch": "Ou pa wè wòl nan pafè?",
+      "sendCv": "Voye nou CV ou",
+      "listings": [
+        {
+          "title": "Senior Plen-Stack Engineer",
+          "department": "Jeni",
+          "location": "Remote (Zòn Tan Inyon Ewopeyen)",
+          "type": "Plen tan",
+          "description": "Bati aplikasyon antrepriz évolutive lè l sèvi avèk Reyaksyon, Node.js, ak teknoloji nwaj.",
+          "tags": [
+            "Reyaji",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps enjenyè",
+          "department": "Jeni",
+          "location": "Sarajevo / Remote",
+          "type": "Plen tan",
+          "description": "Design ak kenbe tiyo CI / CD, enfrastrikti kòm kòd ak sistèm siveyans.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI / ML Engineer",
+          "department": "Laboratwa inovasyon",
+          "location": "Remote",
+          "type": "Plen tan",
+          "description": "Devlope modèl aprantisaj machin ak solisyon AI pou kliyan antrepriz.",
+          "tags": [
+            "Piton",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Pwodwi Designer",
+          "department": "Konsepsyon",
+          "location": "Remote",
+          "type": "Plen tan",
+          "description": "Kreye bèl, eksperyans itilizatè entwisyon pou aplikasyon konplèks antrepriz",
+          "tags": [
+            "Figma",
+            "Rechèch itilizatè",
+            "UI / UX",
+            "Sistèm Design"
+          ]
+        },
+        {
+          "title": "Solutions Achitèk",
+          "department": "Jeni",
+          "location": "Remote",
+          "type": "Plen tan",
+          "description": "Konsepsyon fen-a-fen solisyon teknik ak gide kliyan atravè transfòmasyon dijital.",
+          "tags": [
+            "Cloud Achitekti",
+            "Sistèm Design",
+            "Konsiltasyon"
+          ]
+        },
+        {
+          "title": "Ekriven teknik",
+          "department": "Operasyon yo",
+          "location": "Remote",
+          "type": "Tan pasyèl",
+          "description": "Kreye dokiman konplè, leson patikilye, ak kontni teknik.",
+          "tags": [
+            "Dokimantasyon",
+            "API Docs",
+            "Ekri teknik"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Kesyon sou travay isit la?",
+      "description": "Nou ta renmen tande w Rive jwenn deyò epi nou pral reponn nenpòt kesyon sou lavi nan Horizon Tech.",
+      "button": "Kontakte nou"
+    }
+  },
+  "caseStudies": {
+    "badge": "Istwa siksè yo",
+    "hero": {
+      "titlePrefix": "Fournir Rezilta ki",
+      "titleHighlight": "Zafè",
+      "description": "Eksplore ki jan nou te ede konpayi atravè endistri transfòme operasyon atravè teknoloji pratik, gwo enpak.",
+      "tags": {
+        "delivery": "Livrezon Jeni",
+        "outcomes": "Mezire Rezilta"
+      }
+    },
+    "stats": {
+      "projects": "Pwojè Delivre",
+      "clients": "Kliyan kè kontan",
+      "efficiency": "Avg. Efikasite Genyen",
+      "retention": "Retansyon Kliyan"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Sèvis Finansye",
+        "title": "Cloud Migrasyon & modènizasyon",
+        "description": "Imigre sistèm bankè eritaj nan enfrastrikti nwaj AWS ak zewo D '.",
+        "challenge": "Legacy achitekti monolitik ki lakòz pwoblèm évolutivité",
+        "result": "Imigre avèk siksè nan mikrosèvis sou AWS",
+        "metrics": [
+          {
+            "label": "Rediksyon pri",
+            "value": "40%"
+          },
+          {
+            "label": "Pèfòmans Genyen",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Microservices",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "Solisyon HealthTech",
+        "industry": "Swen sante",
+        "title": "AI ki mache ak platfòm dyagnostik",
+        "description": "Bati modèl ML pou analiz imaj medikal ak 95% + presizyon.",
+        "challenge": "Manyèl pwosesis dyagnostik pran twò lontan",
+        "result": "Dyagnostik otomatik ak AI / ML",
+        "metrics": [
+          {
+            "label": "Tan sove",
+            "value": "70%"
+          },
+          {
+            "label": "Presizyon",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Piton",
+          "TensorFlow",
+          "Reyaji",
+          "Swen sante"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Èkomèrs jeyan",
+        "industry": "Yo Vann an Detay",
+        "title": "An tan reyèl Analytics Dashboard",
+        "description": "Devlope platfòm BI pwosesis 10M + evènman chak jou.",
+        "challenge": "Pa gen vizibilite an tan reyèl nan mezi biznis kle",
+        "result": "An tan reyèl analytics ak Sur platfòm",
+        "metrics": [
+          {
+            "label": "Evènman / Jou",
+            "value": "10M +"
+          },
+          {
+            "label": "Tan Repons",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "Reyaji",
+          "Done Jeni"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Pare pou ekri istwa siksè ou?",
+      "description": "Ann diskite sou ki jan nou ka ede w reyalize rezilta menm jan an ak echèl ak konfyans."
+    },
+    "filters": {
+      "title": "Industry Filter",
+      "all": "Tout endistri yo",
+      "empty": "Pa gen ka etid matche ak filtre endistri a chwazi."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Insights & Lide soti nan",
+      "titleHighlight": "Horizon Tech",
+      "description": "Leson patikilye teknik, Sur endistri ak leson pratik nan travay livrezon reyèl."
+    },
+    "categories": [
+      "Tout Posts",
+      "Cloud Achitekti",
+      "DevOps",
+      "AI / ML",
+      "Frontend",
+      "Backend",
+      "Done"
+    ],
+    "featuredPost": {
+      "id": "Anons Spesyal",
+      "title": "Tan kap vini an nan devlopman nwaj-natif natal: tandans yo gade nan 2025",
+      "excerpt": "Eksplore dènye tandans yo nan devlopman nwaj-natif natal, ki soti nan achitekti serverless nan informatique kwen.",
+      "author": {
+        "name": "Horizon Tech Editoryal"
+      },
+      "date": "Nov 15, 2025",
+      "readTime": "8 min li",
+      "category": "Cloud Achitekti",
+      "tags": [
+        "Nwaj",
+        "Azure",
+        "Tandans yo"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Bati Microservices évolutive ak Azure Kubernetes Sèvis",
+        "excerpt": "Yon gid pratik pou achitèk ak deplwaye mikrosèvis lè l sèvi avèk AKS",
+        "author": {
+          "name": "Horizon Tech Editoryal"
+        },
+        "date": "Nov 12, 2025",
+        "readTime": "6 min li",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Microservices",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Aprantisaj machin nan pwodiksyon: leson yo aprann",
+        "excerpt": "Leson jaden tès soti nan deplwaye modèl ML nan echèl",
+        "author": {
+          "name": "Horizon Tech Editoryal"
+        },
+        "date": "Nov 10, 2025",
+        "readTime": "10 min li",
+        "category": "AI / ML",
+        "tags": [
+          "Aprantisaj machin",
+          "MLOps",
+          "Piton"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Reyaji 19: Kisa ki Nouvo e Poukisa Sa Enpòtan",
+        "excerpt": "Yon plonje gwo twou san fon nan React 19 karakteristik ak enplikasyon pèfòmans",
+        "author": {
+          "name": "Horizon Tech Editoryal"
+        },
+        "date": "Nov 8, 2025",
+        "readTime": "5 min li",
+        "category": "Frontend",
+        "tags": [
+          "Reyaji",
+          "JavaScript",
+          "Devlopman entènèt"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Enskri pou enfòmasyon nou",
+      "description": "Jwenn dènye atik yo, leson patikilye, ak Sur delivre chak semèn.",
+      "placeholder": "your.email@example.com",
+      "button": "Abònman",
+      "note": "Pa gen Spam. Koupe abònman nenpòt ki lè."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Jeni Blog",
+        "description": "Nòt jaden ak modèl pratik nan ekip bati pwodwi AI, sistèm antrepriz, ak platfòm nwaj serye."
+      },
+      "filters": {
+        "postsInView": "{{count}} posts nan View"
+      },
+      "featured": {
+        "badge": "Dènye",
+        "readCta": "Li pòs prezante"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Loading wofil...",
+    "title": "Profile Anviwònman",
+    "subtitle": "Jere anviwònman kont ou ak preferans",
+    "photoButton": "Chanje foto",
+    "tabs": {
+      "general": "Jeneral",
+      "security": "Sekirite",
+      "preferences": "Preferans yo"
+    },
+    "messages": {
+      "profileUpdated": "Pwofil mete ajou avèk siksè",
+      "profileUpdateFailed": "Echwe pou mete ajou pwofil",
+      "passwordsNoMatch": "Nouvo modpas pa matche ak",
+      "passwordTooShort": "Modpas yo dwe omwen 8 karaktè long",
+      "passwordChanged": "Modpas chanje avèk siksè",
+      "passwordChangeFailed": "Echwe pou pou chanje modpas",
+      "optedOut": "Opted soti nan rapò pratik",
+      "optedIn": "Opted nan pratik rapò",
+      "optOutFailed": "Echwe pou mete ajou estati opt-out"
+    },
+    "general": {
+      "title": "Enfòmasyon pèsonèl",
+      "description": "Mete ajou detay pèsonèl ou ak enfòmasyon kontak",
+      "firstName": "Premye non",
+      "firstNamePlaceholder": "John",
+      "lastName": "Siyati",
+      "lastNamePlaceholder": "Dyè",
+      "email": "Adrès imèl",
+      "emailNotice": "Imèl pa ka chanje Kontakte sipò si ou bezwen èd.",
+      "phone": "Nimewo telefòn",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Sove chanjman yo"
+    },
+    "security": {
+      "title": "Anviwònman Sekirite",
+      "description": "Jere modpas ou ak preferans sekirite",
+      "currentPassword": "Modpas aktyèl",
+      "currentPasswordPlaceholder": "Antre modpas aktyèl",
+      "newPassword": "Nouvo modpas",
+      "newPasswordPlaceholder": "Antre nouvo modpas",
+      "confirmPassword": "Konfime nouvo modpas",
+      "confirmPasswordPlaceholder": "Konfime nouvo modpas",
+      "passwordHint": "Dwe omwen 8 karaktè long",
+      "changePassword": "Chanje modpas"
+    },
+    "preferences": {
+      "title": "Preferans Notifikasyon",
+      "description": "Kontwole ki jan ou resevwa dènye nouvèl ak notifikasyon",
+      "email": {
+        "title": "Notifikasyon Imèl",
+        "description": "Resevwa mizajou ak alèt pa imèl"
+      },
+      "sms": {
+        "title": "SMS Notifikasyon",
+        "description": "Resevwa alèt enpòtan atravè mesaj tèks"
+      },
+      "optOut": {
+        "title": "Patisipe soti nan rapò pratik",
+        "description": "Kache rapò ou soti nan mèt kay pratik"
+      },
+      "actions": {
+        "title": "Aksyon kont",
+        "downloadData": "Telechaje Done Kont",
+        "deleteAccount": "Efase Kont"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Retounen lakay ou",
+    "title": "Sant Sipò",
+    "subtitle": "Jwenn èd ak sèvis devlopman lojisyèl nou yo",
+    "cards": {
+      "email": {
+        "title": "Sipò Imèl",
+        "description": "Voye nou yon imèl pou nenpòt kesyon"
+      },
+      "project": {
+        "title": "Pwojè Inquiries",
+        "description": "Diskite sou kondisyon pwojè ou yo",
+        "button": "Kontakte nou"
+      },
+      "resources": {
+        "title": "Resous yo",
+        "description": "Resous teknik ak gid",
+        "button": "Gade Resous yo"
+      }
+    },
+    "faqTitle": "Kesyon yo poze souvan",
+    "faqDescription": "Repons rapid nan kesyon komen yo",
+    "faqs": [
+      {
+        "question": "Ki sèvis Horizon Tech ofri?",
+        "answer": "Nou bay devlopman lojisyèl koutim, solisyon AI / ML, achitekti nwaj, DevOps, entèlijans biznis, ak sèvis IoT."
+      },
+      {
+        "question": "Kouman pou mwen kòmanse yon pwojè ak Horizon Tech?",
+        "answer": "Kontakte nou pa fòm oswa imèl ak kondisyon ou. N ap pwograme yon apèl dekouvèt epi n ap pataje yon pwopozisyon."
+      },
+      {
+        "question": "Èske ou bay sipò kontinyèl ak antretyen?",
+        "answer": "Wi. Nou ofri pakè sipò ak antretyen ki gen ladan ranje ensèk, dènye sekirite, ak amelyorasyon karakteristik."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Retounen lakay ou",
+    "title": "Teknik Resous",
+    "subtitle": "Gid, leson patikilye ak pi bon pratik nan ekip Horizon Tech",
+    "hub": {
+      "title": "Aprantisaj Hub",
+      "description": "Eksplore resous teknik òganize nou yo atravè nwaj, AI / ML, DevOps, ak devlopman lojisyèl modèn.",
+      "note": "Materyèl sa yo baze sou eksperyans reyèl pwojè ak mete ajou regilyèman."
+    },
+    "categories": [
+      {
+        "icon": "nwaj",
+        "title": "Cloud Achitekti",
+        "description": "Azure, AWS, ak modèl nwaj natif natal",
+        "resources": [
+          {
+            "title": "Azure Achitekti pi bon pratik",
+            "type": "Gid"
+          },
+          {
+            "title": "Cloud Migrasyon Estrateji",
+            "type": "Atik"
+          }
+        ]
+      },
+      {
+        "icon": "sèvo",
+        "title": "AI & Machine Aprantisaj",
+        "description": "Modèl ML, syans done, ak entegrasyon AI",
+        "resources": [
+          {
+            "title": "Entwodiksyon nan Azure ML",
+            "type": "Leson patikilye"
+          },
+          {
+            "title": "Building Pwodiksyon ML Tuyaux",
+            "type": "Gid"
+          }
+        ]
+      },
+      {
+        "icon": "Anviwònman",
+        "title": "DevOps & platfòm",
+        "description": "CI / CD, enfrastrikti kòm kòd, automatisation",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Leson patikilye"
+          },
+          {
+            "title": "Enfrastrikti kòm Kòd ak Terraform",
+            "type": "Gid"
+          }
+        ]
+      },
+      {
+        "icon": "Kòd",
+        "title": "Devlopman lojisyèl",
+        "description": ".NET, Reyaji ak pratik devlopman modèn",
+        "resources": [
+          {
+            "title": "Netwaye Achitekti nan .NET",
+            "type": "Gid"
+          },
+          {
+            "title": "Reyaji pi bon pratik",
+            "type": "Atik"
+          }
+        ]
+      },
+      {
+        "icon": "baz done",
+        "title": "Done & Analytics",
+        "description": "BI, depo done, ak platfòm analytics",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Design",
+            "type": "Leson patikilye"
+          },
+          {
+            "title": "Achitekti Depo Done",
+            "type": "Gid"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Bezwen Fòmasyon Custom?",
+      "description": "Nou ofri atelye pwepare pou ekip jeni ak pwodwi",
+      "text": "Bezwen men-sou fòmasyon ekip? Nou bay atelye koutim sou achitekti nwaj, DevOps, ak pratik livrezon modèn.",
+      "button": "Jwenn an kontak"
+    }
+  },
+  "unauthorized": {
+    "title": "Aksè refize",
+    "description": "Ou pa gen pèmisyon pou jwenn aksè nan paj sa a. Kontakte administratè ou si ou panse sa a se yon erè.",
+    "primary": "Ale nan Profile",
+    "secondary": "Retounen lakay ou"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Post pa jwenn",
+      "description": "Pa gen okenn pòs blog ki egziste pou paresseux: {{slug}}",
+      "back": "Retounen nan blog"
+    },
+    "back": "Retounen nan blog",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Ka etid pa jwenn",
+      "description": "Pa gen etid ka egziste pou id: {{id}}",
+      "back": "Retounen nan ka etid yo"
+    },
+    "back": "Retounen nan ka etid yo",
+    "sections": {
+      "executiveSummary": "Rezime Egzekitif",
+      "businessChallenge": "Defi biznis",
+      "technicalSolution": "Solisyon teknik",
+      "architectureDecisions": "Achitekti Desizyon",
+      "technologyStack": "Teknoloji Stack",
+      "resultsImpact": "Rezilta & Enpak"
+    },
+    "client": "Kliyan",
+    "keyOutcomes": "Rezilta kle yo",
+    "decision": "Desizyon {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Siyal pèdi",
+      "title": "Paj pa jwenn",
+      "description": "Wout ou mande a pa egziste oswa deplase. Ann fè ou tounen nan yon valab Horizon Tech fini.",
+      "requestedPath": "Mande chemen",
+      "terminal": {
+        "prompt": "$ horizon-routeur rezoud --path",
+        "line1": "Rezoud graf wout ... echwe",
+        "line2": "Rezon ki fè: pa gen modil wout matche",
+        "line3": "Fallback pwotokòl angaje",
+        "line4": "Sèvi ak youn nan rakoursi ki anba yo kontinye"
+      },
+      "links": {
+        "home": "Paj Akèy",
+        "services": "Sèvis yo",
+        "blog": "Blog",
+        "caseStudies": "Ka etid yo"
+      }
+    },
+    "runtime": {
+      "badge": "Erè Runtime",
+      "title": "Yon bagay kraze sou paj sa a",
+      "description": "Yon pwoblèm inatandi entèwonp rann. Ou ka reeseye san danje, oswa retounen nan paj dakèy la.",
+      "retry": "Reeseye",
+      "home": "Retounen nan paj Akèy",
+      "unknown": "Unknown runtime erè"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Jesyon Blog",
+      "subtitle": "Kreye, modifye, ak jere posts blog ou a",
+      "newPost": "Nouvo pòs",
+      "seedData": "Done pitit pitit",
+      "allPosts": "Tout Posts",
+      "published": "Pibliye",
+      "draft": "Bouyon",
+      "featured": "Chin an tap",
+      "setFeatured": "Mete Featured",
+      "removeFeatured": "Retire Featured",
+      "table": {
+        "title": "",
+        "category": "Kategori",
+        "status": "Estati",
+        "date": "Dat",
+        "actions": "Aksyon yo"
+      },
+      "empty": {
+        "message": "Pa gen posts blog ankò. Kreye premye pòs ou oswa echantiyon grenn done",
+        "seed": "Grenn echantiyon done",
+        "create": "Kreye pòs"
+      },
+      "delete": {
+        "title": "Efase Post",
+        "confirmation": "Èske ou sèten ou vle efase pòs sa a? Aksyon sa a pa ka defèt.",
+        "delete": "Efase",
+        "cancel": "Anile"
+      }
+    },
+    "editor": {
+      "bannerHint": "Parèt kòm yon banyè lajè nan tèt la nan pòs la",
+      "bannerImage": "Banner Imaj",
+      "coverHint": "Montre nan kat lis blog",
+      "coverImage": "Imaj kouvèti",
+      "editSlug": "modifye paresseux",
+      "posts": "Afich",
+      "publish": "Pibliye",
+      "update": "Mizajou",
+      "form": {
+        "contentPlaceholder": "Ekri kontni pòs ou isit la ...",
+        "excerptPlaceholder": "Brief rezime pòs la...",
+        "pickDate": "Chwazi yon dat",
+        "readTimePlaceholder": "egzanp 5 min li",
+        "titlePlaceholder": "Post..."
+      },
+      "meta": {
+        "publisher": "Piblikatè",
+        "unknownAuthor": "Otè enkoni"
+      },
+      "modes": {
+        "edit": "modifye",
+        "editOnly": "Edite sèlman",
+        "preview": "Preview",
+        "previewOnly": "Preview sèlman",
+        "sideBySide": "Kòt a kòt",
+        "split": "Fann"
+      },
+      "tags": {
+        "heading": "Tags",
+        "placeholder": "Ajoute yon tag..."
+      },
+      "translations": {
+        "auto": "Oto",
+        "autoTranslate": "Oto-tradwi",
+        "clear": "Klè",
+        "existing": "Ki deja egziste",
+        "heading": "Tradiksyon yo",
+        "language": "Lang",
+        "languages": "Lang yo",
+        "edit": "modifye",
+        "manual": "Manyèl",
+        "preview": "Preview",
+        "searchPlaceholder": "Rechèch lang ...",
+        "translate": "Tradwi"
+      }
+    },
+    "caseStudies": {
+      "title": "Ka etid yo",
+      "subtitle": "Jere ka etid ak ekspozisyon pwojè",
+      "newCaseStudy": "Nouvo Ka Etid",
+      "seedData": "Done pitit pitit",
+      "allCaseStudies": "Tout ka etid yo",
+      "published": "Pibliye",
+      "draft": "Bouyon",
+      "table": {
+        "title": "",
+        "industry": "Endistri",
+        "client": "Kliyan",
+        "status": "Estati",
+        "actions": "Aksyon yo"
+      },
+      "empty": {
+        "message": "Pa gen ka etid ankò.",
+        "seed": "Done pitit pitit",
+        "create": "Kreye premye"
+      },
+      "delete": {
+        "title": "Efase Ka Etid",
+        "confirmation": "Èske ou sèten ou vle efase ka etid sa a? Aksyon sa a pa ka defèt.",
+        "delete": "Efase",
+        "cancel": "Anile"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Ka etid yo",
+      "published": "Pibliye",
+      "draft": "Bouyon",
+      "update": "Mizajou",
+      "create": "Kreye",
+      "sections": {
+        "basicInfo": "Enfòmasyon debaz yo",
+        "narrative": "Naratif",
+        "architectureDecisions": "Achitekti Desizyon",
+        "techStack": "Tech Stack",
+        "results": "Rezilta yo",
+        "tags": "Tags"
+      },
+      "fields": {
+        "title": "",
+        "titlePlaceholder": "etid ka",
+        "slug": "paresseux",
+        "slugPlaceholder": "Auto-pwodwi soti nan-",
+        "client": "Kliyan",
+        "clientPlaceholder": "Non kliyan an",
+        "industry": "Endistri",
+        "industryPlaceholder": "Chwazi endistri",
+        "description": "Deskripsyon",
+        "descriptionPlaceholder": "Deskripsyon brèf (montre sou kat)",
+        "executiveSummary": "Rezime Egzekitif",
+        "executiveSummaryPlaceholder": "Apèsi sou lekòl segondè nan angajman an",
+        "challenge": "Defi",
+        "challengePlaceholder": "Ki pwoblèm kliyan an te fè fas a?",
+        "solution": "Solisyon",
+        "solutionPlaceholder": "Ki jan pwoblèm nan te rezoud?",
+        "decision": "Desizyon an",
+        "decisionPlaceholder": "Ki sa ki te deside",
+        "rationale": "Rezon",
+        "rationalePlaceholder": "Poukisa yo te chwazi apwòch sa a",
+        "metric": "Metrik",
+        "metricPlaceholder": "egzanp Latansi Règleman",
+        "value": "Valè",
+        "valuePlaceholder": "egzanp -63% oswa 4.8h -> 11m",
+        "resultDescription": "Deskripsyon",
+        "resultDescriptionPlaceholder": "Ki sa rezilta sa vle di",
+        "techPlaceholder": "Ajoute teknoloji (peze Antre)",
+        "tagPlaceholder": "Ajoute tag (peze Antre)"
+      },
+      "add": "Ajoute",
+      "noArchDecisions": "Pa gen desizyon achitekti ajoute ankò.",
+      "noResults": "Pa gen rezilta ajoute ankò.",
+      "decisionLabel": "Desizyon {{number}}",
+      "resultLabel": "Rezilta {{number}}",
+      "controls": {
+        "published": "Pibliye",
+        "publishedDescription": "Fè etid ka sa a vizib piblikman",
+        "featured": "Chin an tap",
+        "featuredDescription": "Mete aksan sou ka etid sa a"
+      }
+    },
+    "imageCrop": {
+      "apply": "Aplike",
+      "cancel": "Anile",
+      "cropTitle": "Rekòt Imaj",
+      "dropText": "Drop yon imaj isit la oswa klike sou yo telechaje",
+      "flipHorizontal": "Baskile orizontal",
+      "flipVertical": "Baskile vètikal",
+      "replace": "Ranplase",
+      "reset": "Reyajiste",
+      "rotateLeft": "Thorne bò gòch",
+      "rotateRight": "Vire dwat",
+      "uploading": "Téléchargement ...",
+      "toast": {
+        "invalidFile": "Dosye ki pa valab",
+        "invalidFileDesc": "Tanpri telechaje yon dosye imaj ki valab.",
+        "uploadFailed": "Voye echwe",
+        "uploadFailedDesc": "Yon bagay ale mal. Tanpri eseye ankò.",
+        "uploaded": "Imaj Uploaded",
+        "uploadedDesc": "Imaj ou te Uploaded avèk siksè"
+      }
+    }
+  }
+}

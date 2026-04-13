@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "O nas",
+    "hero": {
+      "titlePrefix": "Gradnja tehnologije prihodnosti,",
+      "titleHighlight": "Danes",
+      "description": "Horizon Tech d.o.o. je globalno tehnološko podjetje s sedežem v Sarajevu, ki podjetjem na treh celinah zagotavlja najsodobnejše programske rešitve."
+    },
+    "sections": {
+      "mission": {
+        "title": "Poslanstvo",
+        "description": "Pomagamo organizacijam pretvoriti ambiciozne ideje v zanesljive digitalne izdelke, ki ustvarjajo merljivo poslovno vrednost.",
+        "points": [
+          "Uskladite dostavo tehnologije z jasnimi poslovnimi rezultati.",
+          "Zgradite dolgoročne sisteme, ki ostanejo vzdržljivi, ko se ekipe širijo.",
+          "Tesno sodelujte z deležniki od strategije do izvedbe."
+        ]
+      },
+      "expertise": {
+        "title": "Strokovnost",
+        "description": "Naše multidisciplinarne ekipe združujejo inženirsko globino z razmišljanjem o izdelkih na sodobnih tehnoloških področjih.",
+        "points": [
+          "Inženiring spletnih in platformnih platform na ravni podjetja.",
+          "Oblačna arhitektura, DevOps avtomatizacija in odporna infrastruktura.",
+          "Uporabna umetna inteligenca/strojno učenje, podatkovni tokovi in izdelki, ki podpirajo IoT."
+        ]
+      },
+      "approach": {
+        "title": "Pristop",
+        "description": "Izvajamo z transparentnim, iterativnim modelom, ki ohranja dostavo predvidljivo in hkrati zmanjšuje tveganje izdelka.",
+        "points": [
+          "Odkrijte: zgodaj določite obseg, prioritete in metrike uspeha.",
+          "Gradnja: ladja v osredotočenih korakih z neprekinjenimi povratnimi zankami.",
+          "Optimizirajte: spremljajte rezultate in izboljšujte uspešnost skozi čas."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Ste pripravljeni na preobrazbo svojega podjetja?",
+      "description": "Pridružite se vse večjemu seznamu podjetij, ki zaupajo Horizon Techu pri zagotavljanju inovativnih rešitev in izjemnih rezultatov.",
+      "primary": "Začnite",
+      "secondary": "Oglejte si zgodbe o uspehu"
+    }
+  },
+  "contact": {
+    "badge": "Kontaktirajte nas",
+    "hero": {
+      "title": "Kontaktirajte nas",
+      "description": "Imate kakšen projekt v mislih? Z veseljem bi slišali vaše mnenje. Kontaktirajte nas in se pogovorite o tem, kako vam lahko pomagamo uresničiti vaše ideje."
+    },
+    "info": {
+      "title": "Kontaktni podatki"
+    },
+    "booking": {
+      "title": "Rezervirajte sestanek",
+      "description": "Rezervirajte brezplačen 30-minutni klic za odkrivanje dokazov"
+    },
+    "methods": {
+      "email": {
+        "title": "E-pošta",
+        "description": "Pošljite nam e-pošto kadarkoli",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Lokacija",
+        "description": "S sedežem v",
+        "value": "Sarajevo, Bosna in Hercegovina"
+      },
+      "response": {
+        "title": "Odzivni čas",
+        "description": "Običajno odgovarjamo znotraj",
+        "value": "24-48 ur"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Novi projekt"
+      },
+      "support": {
+        "label": "Tehnična podpora"
+      },
+      "partnerships": {
+        "label": "Partnerstva"
+      },
+      "careers": {
+        "label": "Kariere"
+      },
+      "general": {
+        "label": "Splošna preiskava"
+      }
+    },
+    "form": {
+      "title": "Pošljite nam sporočilo",
+      "success": "Hvala za tvoje sporočilo. Oglasili se bomo v 24-48 urah.",
+      "error": "Nekaj je šlo narobe. Poskusite znova ali nam pišite neposredno.",
+      "fullName": "Polno ime *",
+      "email": "E-poštni naslov *",
+      "company": "Podjetje",
+      "subject": "Tema *",
+      "message": "Sporočilo *",
+      "placeholders": {
+        "name": "Tvoje ime",
+        "email": "you@example.com",
+        "company": "Vaše podjetje",
+        "subject": "Kako vam lahko pomagamo?",
+        "message": "Povejte nam kaj o svojem projektu ali raziskavi..."
+      },
+      "validation": {
+        "required": {
+          "name": "Polno ime je obvezno.",
+          "email": "Potreben je e-poštni naslov.",
+          "subject": "Prosim, izberite temo.",
+          "message": "Sporočilo je potrebno."
+        },
+        "email": "Prosimo, vnesite veljaven e-poštni naslov.",
+        "messageMinLength": "Sporočilo mora biti dolgo vsaj {{count}} znakov."
+      },
+      "sending": "Pošiljam...",
+      "submit": "Pošlji sporočilo"
+    },
+    "reasonsTitle": "Zakaj sodelovati z nami?",
+    "reasons": [
+      "Strokovnost z razvojem programske opreme za celoten sklad",
+      "Strokovnjaki za AI/ML in oblačno arhitekturo",
+      "Agilni razvoj s transparentno komunikacijo",
+      "Dolgotrajna podpora in vzdrževanje"
+    ],
+    "custom": {
+      "title": "Prilagojene rešitve",
+      "description": "Iščete prilagojeno rešitev? Tesno sodelujemo s strankami, da razumemo edinstvene potrebe in dostavimo prilagojeno programsko opremo, ki prinaša merljive rezultate.",
+      "cta": "Razpravljajte o svojem projektu"
+    },
+    "faq": {
+      "title": "Imate še kakšna vprašanja?",
+      "description": "Oglejte si naš razdelek Pogosta vprašanja za hitre odgovore",
+      "cta": "Prebrskajte pogosta vprašanja"
+    }
+  },
+  "team": {
+    "badge": "Naša ekipa",
+    "hero": {
+      "titlePrefix": "Spoznajte umove v ozadju",
+      "titleHighlight": "Horizon Tech",
+      "description": "Raznolika ekipa tehnologov, oblikovalcev in strategov, ki skupaj gradi digitalne izdelke z velikim učinkom."
+    },
+    "section": {
+      "title": "Vodstvena ekipa",
+      "description": "Izkušeni voditelji, ki usmerjajo vizijo in rast Horizon Techa"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Ustanovitelj, izvršni direktor in CTO",
+        "bio": "Vizionarski vodja in tehnični arhitekt z 10+ leti izkušenj s programsko opremo za podjetja, specializiran za AI/ML, oblačne platforme in razširljivo arhitekturo izdelkov.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Arhitektura rešitev",
+          "Inženiring oblaka"
+        ]
+      },
+      "ahmet": {
+        "role": "Glavni varnostni arhitekt",
+        "bio": "Strokovnjak za kibernetsko varnost, osredotočen na arhitekturo varnosti podjetij, varno infrastrukturo na lokaciji in zagotavljanje skladnosti v reguliranih okoljih.",
+        "expertise": [
+          "Kibernetska varnost",
+          "On-prem sistemi",
+          "Varnostna arhitektura",
+          "Skladnost",
+          "Varnost infrastrukture"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Pošlji e-pošto {{name}}",
+      "linkedin": "{{name}} LinkedIn profil"
+    },
+    "culture": {
+      "title": "Življenje pri Horizon Tech",
+      "description": "Spodbujamo kulturo inovacij, sodelovanja in nenehnega učenja",
+      "remoteFirst": {
+        "title": "Kultura na daljavo na prvem mestu",
+        "description": "Delaj od kjerkoli s prilagodljivim delovnim časom in poudarkom na rezultatih, ne na lokaciji."
+      },
+      "collaborative": {
+        "title": "Sodelovalno okolje",
+        "description": "Redni timski dogodki, izmenjava znanja in medfunkcijsko sodelovanje."
+      },
+      "workLife": {
+        "title": "Ravnovesje med delom in zasebnim življenjem",
+        "description": "Radodarna politika dopusta, podpora za duševno zdravje in spoštovanje osebnega časa."
+      },
+      "innovation": {
+        "title": "Čas inovacij",
+        "description": "20 % časa za osebne projekte, hackathone in raziskovanje novih tehnologij."
+      },
+      "stats": {
+        "teamMembers": "Člani ekipe",
+        "countries": "Države",
+        "techStacks": "Tehnološki skladi",
+        "remoteReady": "Pripravljen na daljinsko upravljanje"
+      }
+    },
+    "cta": {
+      "title": "Se želite pridružiti naši ekipi?",
+      "description": "Vedno iščemo nadarjene ljudi, ki jim je mar za rokodelstvo, lastništvo in inovacije.",
+      "button": "Kontaktirajte nas"
+    }
+  },
+  "careers": {
+    "badge": "Pridružite se naši ekipi",
+    "hero": {
+      "titlePrefix": "Zgradite prihodnost",
+      "titleHighlight": "Z nami",
+      "description": "Pridružite se ekipi inženirjev, ki razvijajo najsodobnejšo programsko opremo za globalne naročnike. Delajte na daljavo, nenehno napredujte in ustvarjajte resničen vpliv.",
+      "button": "Glej položaje"
+    },
+    "process": {
+      "title": "Naš postopek zaposlovanja",
+      "description": "Transparentno, učinkovito in spoštljivo do vašega časa",
+      "steps": [
+        {
+          "title": "Prijavite se",
+          "description": "Oddajte svojo prijavo in jo bomo pregledali v treh delovnih dneh."
+        },
+        {
+          "title": "Začetni pogovor",
+          "description": "30-minutni video klic za pogovor o vaših izkušnjah in pričakovanjih."
+        },
+        {
+          "title": "Tehnično",
+          "description": "Tehnični razgovor ali praktična vaja, da pokažete svoje sposobnosti."
+        },
+        {
+          "title": "Ponudba",
+          "description": "Spoznajte ekipo in prejmite ponudbo za pridružitev Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Odprta delovna mesta",
+      "description": "Poiščite svojo naslednjo priložnost in se pridružite naši rastoči ekipi",
+      "unavailable": "Trenutno ne sprejemamo prijav",
+      "apply": "Prijavite se zdaj",
+      "noMatch": "Ne vidiš popolne vloge?",
+      "sendCv": "Pošljite nam svoj življenjepis",
+      "listings": [
+        {
+          "title": "Višji full-stack inženir",
+          "department": "Inženiring",
+          "location": "Oddaljeno (časovni pasovi EU)",
+          "type": "Polni delovni čas",
+          "description": "Zgradite razširljive poslovne aplikacije z uporabo Reacta, Node.js in oblačnih tehnologij.",
+          "tags": [
+            "React",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps inženir",
+          "department": "Inženiring",
+          "location": "Sarajevo / Oddaljeno",
+          "type": "Polni delovni čas",
+          "description": "Načrtovati in vzdrževati CI/CD cevovode, infrastrukturo kot kodo in nadzorne sisteme.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraforma",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI/ML inženir",
+          "department": "Inovacijski laboratorij",
+          "location": "Daljinsko upravljanje",
+          "type": "Polni delovni čas",
+          "description": "Razvijajte modele strojnega učenja in rešitve umetne inteligence za poslovne stranke.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Oblikovalec izdelkov",
+          "department": "Oblikovanje",
+          "location": "Daljinsko upravljanje",
+          "type": "Polni delovni čas",
+          "description": "Ustvarite čudovite, intuitivne uporabniške izkušnje za kompleksne poslovne aplikacije.",
+          "tags": [
+            "Figma",
+            "Uporabniške raziskave",
+            "UI/UX",
+            "Oblikovalski sistemi"
+          ]
+        },
+        {
+          "title": "Arhitekt rešitev",
+          "department": "Inženiring",
+          "location": "Daljinsko upravljanje",
+          "type": "Polni delovni čas",
+          "description": "Oblikovati celovite tehnične rešitve in voditi stranke skozi digitalno preobrazbo.",
+          "tags": [
+            "Arhitektura oblaka",
+            "Sistemsko načrtovanje",
+            "Svetovanje"
+          ]
+        },
+        {
+          "title": "Tehnični pisec",
+          "department": "Obratovanje",
+          "location": "Daljinsko upravljanje",
+          "type": "Delo s krajšim delovnim časom",
+          "description": "Ustvarite obsežno dokumentacijo, vodiče in tehnično vsebino.",
+          "tags": [
+            "Dokumentacija",
+            "API dokumentacija",
+            "Tehnično pisanje"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Imate vprašanja o delu tukaj?",
+      "description": "Z veseljem bi slišali vaše mnenje. Kontaktirajte nas in odgovorili bomo na vsa vprašanja o življenju v Horizon Techu.",
+      "button": "Kontaktirajte nas"
+    }
+  },
+  "caseStudies": {
+    "badge": "Zgodbe o uspehu",
+    "hero": {
+      "titlePrefix": "Doseganje rezultatov, ki",
+      "titleHighlight": "Snov",
+      "description": "Raziščite, kako smo podjetjem iz različnih panog pomagali preoblikovati poslovanje s praktično in visoko vplivno tehnologijo.",
+      "tags": {
+        "delivery": "Inženirska izvedba",
+        "outcomes": "Izmerjeni izidi"
+      }
+    },
+    "stats": {
+      "projects": "Izvedeni projekti",
+      "clients": "Zadovoljni naročniki",
+      "efficiency": "Povprečna pridobitev učinkovitosti",
+      "retention": "Zadrževanje strank"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Finančne storitve",
+        "title": "Migracija in modernizacija oblaka",
+        "description": "Migrirali smo stare bančne sisteme v AWS oblačno infrastrukturo brez izpadov.",
+        "challenge": "Dediščinska monolitna arhitektura, ki povzroča težave s skalabilnostjo",
+        "result": "Uspešno migracija na mikroservise na AWS",
+        "metrics": [
+          {
+            "label": "Znižanje stroškov",
+            "value": "40%"
+          },
+          {
+            "label": "Povečanje zmogljivosti",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Mikroservisi",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech rešitve",
+        "industry": "Zdravstvo",
+        "title": "Diagnostična platforma, ki jo poganja umetna inteligenca",
+        "description": "Izdelal je ML modele za analizo medicinskih slik z natančnostjo 95%+.",
+        "challenge": "Ročni diagnostični postopki, ki trajajo predolgo",
+        "result": "Avtomatizirana diagnostika z AI/ML",
+        "metrics": [
+          {
+            "label": "Čas prihranjen",
+            "value": "70%"
+          },
+          {
+            "label": "Natančnost",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "React",
+          "Zdravstvo"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Velikan e-trgovine",
+        "industry": "Maloprodaja",
+        "title": "Nadzorna plošča za analitiko v realnem času",
+        "description": "Razvili smo BI platformo, ki vsak dan obdeluje 10 milijonov + dogodkov.",
+        "challenge": "Ni vpogleda v ključne poslovne metrike v realnem času",
+        "result": "Platforma za analitiko in vpoglede v realnem času",
+        "metrics": [
+          {
+            "label": "Dogodki/Dan",
+            "value": "10M+"
+          },
+          {
+            "label": "Odzivni čas",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "React",
+          "Podatkovno inženirstvo"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ste pripravljeni napisati svojo zgodbo o uspehu?",
+      "description": "Pogovorimo se o tem, kako vam lahko pomagamo doseči podobne rezultate in samozavestno skalirati."
+    },
+    "filters": {
+      "title": "Industrijski filter",
+      "all": "Vse industrije",
+      "empty": "Nobena študija primerov ne ustreza izbranemu industrijskemu filtru."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Vpogledi in ideje iz",
+      "titleHighlight": "Horizon Tech",
+      "description": "Tehnični vodiči, industrijski vpogledi in praktične lekcije iz dejanskega dela pri dostavi."
+    },
+    "categories": [
+      "Vse funkcije",
+      "Arhitektura oblaka",
+      "DevOps",
+      "AI/ML",
+      "Frontend",
+      "Backend",
+      "Podatki"
+    ],
+    "featuredPost": {
+      "id": "Predstavljeno",
+      "title": "Prihodnost razvoja, ki temelji na oblaku: Trendi, ki jih je vredno spremljati v letu 2025",
+      "excerpt": "Raziščite najnovejše trende v razvoju v oblaku, od strežniških arhitektur do edge computinga.",
+      "author": {
+        "name": "Uredniški članek Horizon Tech"
+      },
+      "date": "15. november 2025",
+      "readTime": "8 min branja",
+      "category": "Arhitektura oblaka",
+      "tags": [
+        "Oblak",
+        "Azure",
+        "Trendi"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Building Scalable Microservices with Azure Kubernetes Service",
+        "excerpt": "Praktičen vodnik za arhitekturo in nameščanje mikroservisov z uporabo AKS.",
+        "author": {
+          "name": "Uredniški članek Horizon Tech"
+        },
+        "date": "12. november 2025",
+        "readTime": "6 min branja",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Mikroservisi",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Strojno učenje v produkciji: Naučene lekcije",
+        "excerpt": "Preizkušene lekcije iz uvajanja modelov strojnega učenja v večjem obsegu.",
+        "author": {
+          "name": "Uredniški članek Horizon Tech"
+        },
+        "date": "10. november 2025",
+        "readTime": "10 minut branja",
+        "category": "AI/ML",
+        "tags": [
+          "Strojno učenje",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Kaj je novega in zakaj je pomembno",
+        "excerpt": "Poglobljen pregled funkcij in vpliva na zmogljivost React 19.",
+        "author": {
+          "name": "Uredniški članek Horizon Tech"
+        },
+        "date": "8. november 2025",
+        "readTime": "5 minut branja",
+        "category": "Frontend",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Spletni razvoj"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Naročite se na naše glasilo",
+      "description": "Prejemajte najnovejše članke, vodiče in vpoglede vsak teden.",
+      "placeholder": "your.email@example.com",
+      "button": "Naročite se",
+      "note": "Brez neželene pošte. Kadarkoli se lahko odjavite."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering Blog",
+        "description": "Terenske zapiske in praktični vzorci ekip, ki gradijo AI izdelke, podjetniške sisteme in zanesljive oblačne platforme."
+      },
+      "filters": {
+        "postsInView": "{{count}} objav na vidiku"
+      },
+      "featured": {
+        "badge": "Najnovejše",
+        "readCta": "Preberite izpostavljeno objavo"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Nalaganje profila...",
+    "title": "Nastavitve profila",
+    "subtitle": "Upravljajte nastavitve in nastavitve računa",
+    "photoButton": "Spremeni fotografijo",
+    "tabs": {
+      "general": "Splošno",
+      "security": "Varnost",
+      "preferences": "Preference"
+    },
+    "messages": {
+      "profileUpdated": "Profil je bil uspešno posodobljen",
+      "profileUpdateFailed": "Profil ni uspel posodobiti",
+      "passwordsNoMatch": "Nova gesla se ne ujemajo",
+      "passwordTooShort": "Geslo mora biti dolgo vsaj 8 znakov",
+      "passwordChanged": "Geslo uspešno spremenjeno",
+      "passwordChangeFailed": "Ni uspelo spremeniti gesla",
+      "optedOut": "Izključen iz poročil o vadbi",
+      "optedIn": "Prijavil sem se za vadbena poročila",
+      "optOutFailed": "Ni bilo posodobitve statusa odjave"
+    },
+    "general": {
+      "title": "Osebni podatki",
+      "description": "Posodobite svoje osebne podatke in kontaktne podatke",
+      "firstName": "Ime",
+      "firstNamePlaceholder": "John",
+      "lastName": "Priimek",
+      "lastNamePlaceholder": "Srna",
+      "email": "E-poštni naslov",
+      "emailNotice": "E-pošte ni mogoče spremeniti. Kontaktirajte podporo, če potrebujete pomoč.",
+      "phone": "Telefonska številka",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Spremembe shranjevanja"
+    },
+    "security": {
+      "title": "Varnostne nastavitve",
+      "description": "Upravljajte svoje geslo in varnostne nastavitve",
+      "currentPassword": "Trenutno geslo",
+      "currentPasswordPlaceholder": "Vnesite trenutno geslo",
+      "newPassword": "Novo geslo",
+      "newPasswordPlaceholder": "Vnesite novo geslo",
+      "confirmPassword": "Potrdite novo geslo",
+      "confirmPasswordPlaceholder": "Potrdite novo geslo",
+      "passwordHint": "Mora biti dolg vsaj 8 znakov",
+      "changePassword": "Spremeni geslo"
+    },
+    "preferences": {
+      "title": "Nastavitve obvestil",
+      "description": "Nadzorujte, kako prejemate posodobitve in obvestila",
+      "email": {
+        "title": "E-poštna obvestila",
+        "description": "Prejemajte posodobitve in obvestila po elektronski pošti"
+      },
+      "sms": {
+        "title": "SMS obvestila",
+        "description": "Prejmite pomembna obvestila preko SMS sporočil"
+      },
+      "optOut": {
+        "title": "Odjava iz poročil o vadbi",
+        "description": "Skrijte svoja poročila pred lastnikom prakse"
+      },
+      "actions": {
+        "title": "Dejanja računa",
+        "downloadData": "Prenesite podatke o računu",
+        "deleteAccount": "Izbriši račun"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Nazaj domov",
+    "title": "Podporni center",
+    "subtitle": "Pridobite pomoč pri naših storitvah razvoja programske opreme",
+    "cards": {
+      "email": {
+        "title": "E-poštna podpora",
+        "description": "Pošljite nam e-pošto za vsa vprašanja"
+      },
+      "project": {
+        "title": "Projektne poizvedbe",
+        "description": "Razpravljajte o zahtevah svojega projekta",
+        "button": "Kontaktirajte nas"
+      },
+      "resources": {
+        "title": "Viri",
+        "description": "Tehnični viri in vodiči",
+        "button": "Oglejte si vire"
+      }
+    },
+    "faqTitle": "Pogosto zastavljena vprašanja",
+    "faqDescription": "Hitri odgovori na pogosta vprašanja",
+    "faqs": [
+      {
+        "question": "Katere storitve ponuja Horizon Tech?",
+        "answer": "Nudimo prilagojen razvoj programske opreme, AI/ML rešitve, oblačno arhitekturo, DevOps, poslovno inteligenco in IoT storitve."
+      },
+      {
+        "question": "Kako naj začnem projekt pri Horizon Tech?",
+        "answer": "Kontaktirajte nas preko obrazca ali e-pošte s svojimi zahtevami. Dogovorili bomo razkrivalni klic in delili predlog."
+      },
+      {
+        "question": "Ali nudite stalno podporo in vzdrževanje?",
+        "answer": "Da. Ponujamo pakete podpore in vzdrževanja, ki vključujejo popravke napak, varnostne posodobitve in izboljšave funkcij."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Nazaj domov",
+    "title": "Tehnični viri",
+    "subtitle": "Vodiči, vodiči in najboljše prakse ekipe Horizon Tech",
+    "hub": {
+      "title": "Učni center",
+      "description": "Raziščite naše skrbno izbrane tehnične vire na področju oblaka, umetne inteligence/strojnega učenja, DevOps in sodobnega razvoja programske opreme.",
+      "note": "Ta gradiva temeljijo na resničnih projektnih izkušnjah in se redno posodabljajo."
+    },
+    "categories": [
+      {
+        "icon": "oblak",
+        "title": "Arhitektura oblaka",
+        "description": "Azure, AWS in cloud-native vzorci",
+        "resources": [
+          {
+            "title": "Najboljše prakse arhitekture Azure",
+            "type": "Vodnik"
+          },
+          {
+            "title": "Strategije migracije v oblak",
+            "type": "Članek"
+          }
+        ]
+      },
+      {
+        "icon": "možgani",
+        "title": "UI in strojno učenje",
+        "description": "Modeli strojnega učenja, podatkovna znanost in integracija umetne inteligence",
+        "resources": [
+          {
+            "title": "Uvod v Azure ML",
+            "type": "Vodič"
+          },
+          {
+            "title": "Gradnja proizvodnih ML cevovodov",
+            "type": "Vodnik"
+          }
+        ]
+      },
+      {
+        "icon": "Nastavitve",
+        "title": "DevOps in platforma",
+        "description": "CI/CD, infrastruktura kot koda, avtomatizacija",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Vodič"
+          },
+          {
+            "title": "Infrastruktura kot koda s Terraformom",
+            "type": "Vodnik"
+          }
+        ]
+      },
+      {
+        "icon": "Koda",
+        "title": "Razvoj programske opreme",
+        "description": ".NET, React in sodobne razvojne prakse",
+        "resources": [
+          {
+            "title": "Čista arhitektura v .NET",
+            "type": "Vodnik"
+          },
+          {
+            "title": "Najboljše prakse Reacta",
+            "type": "Članek"
+          }
+        ]
+      },
+      {
+        "icon": "Baza podatkov",
+        "title": "Podatki in analitika",
+        "description": "BI, podatkovno skladiščenje in analitične platforme",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Design",
+            "type": "Vodič"
+          },
+          {
+            "title": "Arhitektura podatkovnega skladišča",
+            "type": "Vodnik"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Potrebujete prilagojeno usposabljanje?",
+      "description": "Ponujamo prilagojene delavnice za inženirske in produktne ekipe",
+      "text": "Potrebujete praktično ekipno usposabljanje? Nudimo prilagojene delavnice o oblačni arhitekturi, DevOpsu in sodobnih praksah dostave.",
+      "button": "Kontaktirajte nas"
+    }
+  },
+  "unauthorized": {
+    "title": "Dostop zavrnjen",
+    "description": "Nimate dovoljenja za dostop do te strani. Kontaktirajte svojega administratorja, če menite, da gre za napako.",
+    "primary": "Pojdi na profil",
+    "secondary": "Nazaj domov"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Objava ni najdena",
+      "description": "Za slug ne obstaja nobena objava na blogu: {{slug}}",
+      "back": "Nazaj na blog"
+    },
+    "back": "Nazaj na blog",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Študija primera ni najdena",
+      "description": "Za id ni nobene študije primera: {{id}}",
+      "back": "Nazaj k študijam primerov"
+    },
+    "back": "Nazaj k študijam primerov",
+    "sections": {
+      "executiveSummary": "Izvršni povzetek",
+      "businessChallenge": "Poslovni izziv",
+      "technicalSolution": "Tehnična rešitev",
+      "architectureDecisions": "Arhitekturne odločitve",
+      "technologyStack": "Tehnološki sklad",
+      "resultsImpact": "Rezultati in vpliv"
+    },
+    "client": "Odjemalec",
+    "keyOutcomes": "Ključni izidi",
+    "decision": "Odločitev {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Signal izgubljen",
+      "title": "Stran ni najdena",
+      "description": "Pot, ki ste jo zahtevali, ne obstaja ali se je premaknila. Pojdimo nazaj na veljavno končno točko Horizon Tech.",
+      "requestedPath": "Zahtevana pot",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Reševanje grafa poti... neuspešno",
+        "line2": "Razlog: ni modula za ujemanje poti",
+        "line3": "Rezervni protokol aktiviran",
+        "line4": "Uporabite eno od spodnjih bližnjic, da nadaljujete"
+      },
+      "links": {
+        "home": "Domača stran",
+        "services": "Storitve",
+        "blog": "Blog",
+        "caseStudies": "Študije primerov"
+      }
+    },
+    "runtime": {
+      "badge": "Napaka med izvajanjem",
+      "title": "Nekaj se je zlomilo na tej strani",
+      "description": "Nepričakovana težava je prekinila upodabljanje. Lahko poskusite varno znova ali pa se vrnete na domačo stran.",
+      "retry": "Ponovni poskus",
+      "home": "Nazaj na domačo stran",
+      "unknown": "Neznana napaka med izvajanjem"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Upravljanje bloga",
+      "subtitle": "Ustvarjajte, urejajte in upravljajte svoje blog objave",
+      "newPost": "Nova funkcija",
+      "seedData": "Seed Data",
+      "allPosts": "Vse funkcije",
+      "published": "Objavljeno",
+      "draft": "Nabor",
+      "featured": "Izpostavljeni",
+      "setFeatured": "Predstavljeni seti",
+      "removeFeatured": "Odstrani izpostavljeno",
+      "table": {
+        "title": "Naslov",
+        "category": "Kategorija",
+        "status": "Status",
+        "date": "Datum",
+        "actions": "Dejanja"
+      },
+      "empty": {
+        "message": "Še ni blog objav. Ustvarite svojo prvo objavo ali vzorčne podatke za seed.",
+        "seed": "Podatki o vzorcih semen",
+        "create": "Ustvari objavo"
+      },
+      "delete": {
+        "title": "Izbriši objavo",
+        "confirmation": "Si prepričan, da želiš izbrisati to objavo? Tega dejanja ni mogoče razveljaviti.",
+        "delete": "Izbriši",
+        "cancel": "Prekliči"
+      }
+    },
+    "editor": {
+      "bannerHint": "Prikazan kot širok transparent na vrhu stebra",
+      "bannerImage": "Podoba na transparentu",
+      "coverHint": "Prikazano na blogerskih karticah",
+      "coverImage": "Naslovna slika",
+      "editSlug": "Uredi slug",
+      "posts": "Funkcije",
+      "publish": "Objavi",
+      "update": "Posodobitev",
+      "form": {
+        "contentPlaceholder": "Napišite svojo objavo tukaj...",
+        "excerptPlaceholder": "Kratek povzetek objave...",
+        "pickDate": "Izberi datum",
+        "readTimePlaceholder": "npr. 5 min branja",
+        "titlePlaceholder": "Naslov objave..."
+      },
+      "meta": {
+        "publisher": "Založnik",
+        "unknownAuthor": "Neznani avtor"
+      },
+      "modes": {
+        "edit": "Uredi",
+        "editOnly": "Samo urejanje",
+        "preview": "Predogled",
+        "previewOnly": "Samo predogled",
+        "sideBySide": "Drug ob drugem",
+        "split": "Razkol"
+      },
+      "tags": {
+        "heading": "Oznake",
+        "placeholder": "Dodaj oznako..."
+      },
+      "translations": {
+        "auto": "Avto",
+        "autoTranslate": "Samodejni prevod",
+        "clear": "Čisto",
+        "existing": "Obstoječe",
+        "heading": "Prevodi",
+        "language": "Jezik",
+        "languages": "Jeziki",
+        "edit": "Uredi",
+        "manual": "Ročni menjalnik",
+        "preview": "Predogled",
+        "searchPlaceholder": "Išči jezike...",
+        "translate": "Prevedi"
+      }
+    },
+    "caseStudies": {
+      "title": "Študije primerov",
+      "subtitle": "Upravljanje študij primerov in predstavitev projektov",
+      "newCaseStudy": "Nova študija primera",
+      "seedData": "Seed Data",
+      "allCaseStudies": "Vse študije primerov",
+      "published": "Objavljeno",
+      "draft": "Nabor",
+      "table": {
+        "title": "Naslov",
+        "industry": "Industrija",
+        "client": "Odjemalec",
+        "status": "Status",
+        "actions": "Dejanja"
+      },
+      "empty": {
+        "message": "Še ni študij primerov.",
+        "seed": "Seed Data",
+        "create": "Najprej ustvari"
+      },
+      "delete": {
+        "title": "Izbriši študijo primera",
+        "confirmation": "Ste prepričani, da želite izbrisati to študijo primera? Tega dejanja ni mogoče razveljaviti.",
+        "delete": "Izbriši",
+        "cancel": "Prekliči"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Študije primerov",
+      "published": "Objavljeno",
+      "draft": "Nabor",
+      "update": "Posodobitev",
+      "create": "Ustvarjaj",
+      "sections": {
+        "basicInfo": "Osnovne informacije",
+        "narrative": "Pripoved",
+        "architectureDecisions": "Arhitekturne odločitve",
+        "techStack": "Tehnološki sklad",
+        "results": "Rezultati",
+        "tags": "Oznake"
+      },
+      "fields": {
+        "title": "Naslov",
+        "titlePlaceholder": "Naslov študije primera",
+        "slug": "Polž",
+        "slugPlaceholder": "samodejno generirano-iz-naslova",
+        "client": "Odjemalec",
+        "clientPlaceholder": "Ime naročnika",
+        "industry": "Industrija",
+        "industryPlaceholder": "Izbrana industrija",
+        "description": "Opis",
+        "descriptionPlaceholder": "Kratek opis (prikazano na karticah)",
+        "executiveSummary": "Izvršni povzetek",
+        "executiveSummaryPlaceholder": "Pregled spopada na visoki ravni",
+        "challenge": "Izziv",
+        "challengePlaceholder": "S kakšno težavo se je soočila stranka?",
+        "solution": "Rešitev",
+        "solutionPlaceholder": "Kako je bil problem rešen?",
+        "decision": "Odločitev",
+        "decisionPlaceholder": "Kaj je bilo odločeno",
+        "rationale": "Utemeljitev",
+        "rationalePlaceholder": "Zakaj je bil izbran ta pristop",
+        "metric": "Metrika",
+        "metricPlaceholder": "npr. zakasnitev poravnave",
+        "value": "Vrednost",
+        "valuePlaceholder": "npr. -63 % ali 4,8 ure -> 11 m",
+        "resultDescription": "Opis",
+        "resultDescriptionPlaceholder": "Kaj ta rezultat pomeni",
+        "techPlaceholder": "Dodaj tehnologijo (pritisni Enter)",
+        "tagPlaceholder": "Dodaj oznako (pritisni Enter)"
+      },
+      "add": "Dodaj",
+      "noArchDecisions": "Za zdaj še ni dodanih arhitekturnih odločitev.",
+      "noResults": "Rezultati še niso dodani.",
+      "decisionLabel": "Odločitev {{number}}",
+      "resultLabel": "Rezultat {{number}}",
+      "controls": {
+        "published": "Objavljeno",
+        "publishedDescription": "Naj bo ta študija primera javno vidna",
+        "featured": "Izpostavljeni",
+        "featuredDescription": "Izpostavite to študijo primera"
+      }
+    },
+    "imageCrop": {
+      "apply": "Prijavite se",
+      "cancel": "Prekliči",
+      "cropTitle": "Slika obreza",
+      "dropText": "Objavite sliko tukaj ali kliknite za nalaganje",
+      "flipHorizontal": "Obrni vodoravno",
+      "flipVertical": "Obrni se navpično",
+      "replace": "Zamenjava",
+      "reset": "Ponastavitev",
+      "rotateLeft": "Zavrti levo",
+      "rotateRight": "Zavrti desno",
+      "uploading": "Nalaganje...",
+      "toast": {
+        "invalidFile": "Neveljavna datoteka",
+        "invalidFileDesc": "Prosimo, naložite veljavno slikovno datoteko.",
+        "uploadFailed": "Nalaganje ni uspelo",
+        "uploadFailedDesc": "Nekaj je šlo narobe. Prosim, poskusite znova.",
+        "uploaded": "Slika naložena",
+        "uploadedDesc": "Vaša slika je bila uspešno naložena."
+      }
+    }
+  }
+}

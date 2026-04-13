@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Thoma",
+    "ctaSecondary": "Schedule Consultation"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Tlhabollo ya Software ya Kgwebo",
+      "description": "Ditirišo tša kgwebo tša mafelelo ka dipeakanyo tša sebjalebjale, boagišani bja API-pele, le scalability ya leru."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Where Enterprise programs lose speed, budget, and strategic alignment"
+      },
+      "approach": {
+        "title": "Mokgwa wa Boentšeneere",
+        "subtitle": "How we turn ambiguous requirements into production-ready platforms"
+      },
+      "principles": {
+        "title": "Architecture Principles",
+        "subtitle": "Hlama diphetho tšeo di dirago gore ditshepedišo tša kgwebo di dule di le maemong a godimo"
+      },
+      "capabilities": {
+        "title": "Se re se agago",
+        "subtitle": "Bokgoni bjo bo feletšego bja tlhabollo ya software"
+      },
+      "technology": {
+        "title": "Our Technology Stack",
+        "subtitle": "Ditheknolotši tša sebjalebjale, tše di hlatsetšwego tša kabo ya dikgwebo"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "Tsela ye e beakantšwego go tloga go kutollo go ya go tšweletšo ye e tiilego ya tšweletšo"
+      }
+    },
+    "problem": {
+      "overview": "Dihlopha tša kgwebo gantši di rwala mešomo ye bohlokwa go ditshepedišo tše di arogantšwego, go hlola dinako tše telele tša go eta pele, data ye e sa sepelelanego, le tšhomišano ya diatla ya go tura magareng ga mafapha.",
+      "painPointsTitle": "Bohloko bja Kgwebo bjo bo Boeletšwago",
+      "impactSignalsTitle": "Seo Baetapele ba Tlwaelegilego ba se Lebelelago",
+      "painPoints": [
+        "Delivery commitments slip because dependencies across teams are unmanaged",
+        "Motheo wa kgwebo o phatlalatšwa go kgabaganya dikanale le ditšweletšwa",
+        "Legacy integrations make new feature launches high-risk and slow"
+      ],
+      "impactSignals": [
+        "Roadmap throughput drops while engineering spend increases",
+        "Diphošo tše di lebanego le bareki di oketšega nakong ya go lokollwa",
+        "Go tšea diphetho go fokotšega ka lebaka la go se sepelelane le pego ya tshepedišo"
+      ]
+    },
+    "approach": {
+      "overview": "We execute with architecture-first discovery, contract-driven delivery, and controlled release engineering so business value is sent in predictable increments.",
+      "pillars": [
+        {
+          "title": "Domain Modeling & Bounded Contexts",
+          "detail": "We map domains to clear service boundaries to reduce cross-team coupling and clear ownership."
+        },
+        {
+          "title": "API-First Integration Strategy",
+          "detail": "Re hlatholla dikontraka tše di tiilego ka pela, go kgontšha tlhabollo ye e swanago le kopanyo ye e bolokegilego le ditshepedišo tša kgwebo."
+        },
+        {
+          "title": "Progressive Delivery Workflow",
+          "detail": "We use feature flags, staged rollouts, and quality gates to release quickly without destabilizing production."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Diphetho tša rena tša boagišane di bea pele lebaka le letelele, go šoma gabotse le go ba mong yo a kwagalago gore dipolatefomo di dule di fetoga ge kgwebo e gola.",
+      "items": [
+        {
+          "title": "Mellwane ya Tirelo ya Modular",
+          "detail": "Bokgoni bo beakantšwe go dikologa mafelo a kgwebo go boloka khuetšo ya phetogo ya selegae."
+        },
+        {
+          "title": "Event-Driven Integration",
+          "detail": "Asynchronous workflows are used where latency tolerance exists to improve resilience and decouple systems."
+        },
+        {
+          "title": "Observability by Design",
+          "detail": "Tracing, metrics, and structured logs are defined upfront to support reliable operations and SLA governance."
+        }
+      ]
+    },
+    "capabilities": [
+      "Custom Web Applications",
+      "Tlhabollo ya didirišwa tša mogala",
+      "API Development & Integration",
+      "Microservices Architecture",
+      "Cloud-Native Solutions",
+      "Legacy System Modernization"
+    ],
+    "technologies": [
+      {
+        "name": "Arabela",
+        "category": "Frontend",
+        "icon": "Arabela"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "Nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Polelo",
+        "icon": "typescript"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "GraphQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Database",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Database",
+        "icon": "mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Discovery & Architecture",
+        "summary": "Re beakanya dilo tše bohlokwa tša kgwebo, mapheko a sethekniki le dibopego pele ga ge phethagatšo e thoma.",
+        "deliverables": [
+          "Product and Requirement Alignment Workshop",
+          "Solution architecture blueprint",
+          "Lenaneo la kabo ye e theilwego godimo ga Milestone."
+        ]
+      },
+      {
+        "title": "Build & Integration",
+        "summary": "Dihlopha tša rena di tsenya tirišong dikarolo tša motheo, dikarolo tša kopanyo le dišireletšo tša boleng ka go swana.",
+        "deliverables": [
+          "Feature development in iterative sprints",
+          "API le dikgokagano tša mokgatlo wa boraro",
+          "Automated testing and release readiness checks"
+        ]
+      },
+      {
+        "title": "Launch & Evolution",
+        "summary": "After go-live, we stabilize operations and define the next improvement cycle based on real usage.",
+        "deliverables": [
+          "Production rollout runbook",
+          "Tshepedišo ya go šoma le go botega",
+          "Post-launch roadmap and enhancement backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Na o ikemišeditše go dira kgopelo ya gago ye e latelago?",
+      "description": "A re hlameng le go tšweletša tharollo yeo e sepelelanago le dipoelo tše di lekalekanego tša kgwebo.",
+      "button": "Thoma projeke ya gago"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML & Business Intelligence",
+      "description": "Go tloga go mehlala ya ponelopele go ya go didashboard tša phethiši, re aga ditshepedišo tše di feletšego tša AI/BI tšeo di thekgago diphetho ka bokgoni."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Ke ka lebaka la eng mekgatlo ye e humilego ka data e sa ntše e thatafalelwa ke go dira diphetho tše di tshepagalago"
+      },
+      "approach": {
+        "title": "Mokgwa wa Boentšeneere",
+        "subtitle": "How we operationalize data products, ML models, and BI workflows"
+      },
+      "principles": {
+        "title": "Architecture Principles",
+        "subtitle": "Data and model architecture patterns for trustworthy decision intelligence"
+      },
+      "capabilities": {
+        "title": "Bokgoni bja rena",
+        "subtitle": "Ditharollo tše di feletšego tša AI, ML le BI"
+      },
+      "technology": {
+        "title": "Our Technology Stack",
+        "subtitle": "Didirišwa tše di etišago pele tša intasteri ya data le AI"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "Ka moo re fetogago ka gona go tšwa go data ye e arogantšwego go ya go bohlale bja maemo a tšweletšo"
+      }
+    },
+    "problem": {
+      "overview": "Mekgatlo gantši e kgoboketša bontšhi bjo bogolo bja data eupša e palelwa ke go e fetolela go ponelopele ye e tshephagalago, diphetho tša tshepedišo, goba ditiro tša kgwebo tše di ka lekanywago.",
+      "painPointsTitle": "Bohloko bja Kgwebo bjo bo Boeletšwago",
+      "impactSignalsTitle": "Seo Baetapele ba Tlwaelegilego ba se Lebelelago",
+      "painPoints": [
+        "Tlhalošo ya go bega e fapana go ya ka dihlopha, gomme seo se feletša ka dikanegelo tša KPI tše di thulanago",
+        "Models remain in experimentation and never reach production workflows",
+        "Mathata a boleng bja data a senya tshepo go dinyakišišo le di-dashboard tša taolo"
+      ],
+      "impactSignals": [
+        "Decision cycles slow because teams debate data validity instead of action",
+        "Forecasting and planning accuracy remains inconsistent quarter over quarter over quarter",
+        "Dipeeletšo tša dinyakišišo di bontšha kamogelo ya fase ka ntle ga dihlopha tša bahlahlobi bao ba kgethegilego"
+      ]
+    },
+    "approach": {
+      "overview": "We deliver AI and BI platforms as production systems, coupling data engineering, model lifecycle operations, and decision workflow integration.",
+      "pillars": [
+        {
+          "title": "Data Product Foundation",
+          "detail": "Ditšweletšwa tša data tše di sepelelanago le domeine di hloma dinyakwapšalo tše di ka šomišwago gape, tše di laolwago le tša boleng bja godimo tša dinyakišišo le ML."
+        },
+        {
+          "title": "MLOps Lifecycle Automation",
+          "detail": "Tlhahlo, go romelwa, go lekola le go laola drift di dirwa ka metšhene go boloka mehlala e tshepagala ka tšweletšong."
+        },
+        {
+          "title": "Decision Workflow Integration",
+          "detail": "Temogo e tsentšwe ka gare ga didirišwa tša go šoma le didashboard gore dihlopha di šome ka bohlale ka gare ga ditshepedišo tša letšatši le letšatši."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Tlhabollo ya rena ya AI/BI e bea pele data ye e tshephagalago, mehlala ye e hlalošwago, le mekgwa ya phihlelelo ye e laolwago go ralala le kgwebo.",
+      "items": [
+        {
+          "title": "Single Metric Definitions",
+          "detail": "Di-KPIs tše bohlokwa di hlalošwa gatee ka mehlala ya semantic go fediša thulano ya go bega."
+        },
+        {
+          "title": "Model Reliability Controls",
+          "detail": "Performance thresholds, drift detection, and rollback mechanisms protect decision quality in production."
+        },
+        {
+          "title": "Tšhireletšo le Taolo ka Tlhamo",
+          "detail": "Data lineage, role-based access, and audit-ready controls are embedded in every pipeline."
+        }
+      ]
+    },
+    "capabilities": [
+      "Machine Learning Models & Pipelines",
+      "Power BI Dashboards & Reports",
+      "Predictive Analytics",
+      "Real-Time Data Streaming",
+      "Data Warehousing Solutions"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Sefala",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Data Warehouse",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Boentšeneere bja Data",
+        "icon": "databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML Platform",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "Tlhako ya ML",
+        "icon": "Tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "Tlhako ya ML",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Tlhahlo",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Tshepedišo",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Polelo",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Data Foundation",
+        "summary": "We audit sources, define data contracts, and establish governance so every model begins with trusted inputs.",
+        "deliverables": [
+          "Mothopo wa data le tshekatsheko ya boleng",
+          "Feature engineering and schema planning",
+          "Motheo wa Tšhireletšo le Taolo"
+        ]
+      },
+      {
+        "title": "Model & Insight Delivery",
+        "summary": "We build models and decision dashboards linked to measurable business questions and KPIs.",
+        "deliverables": [
+          "Tlhabollo ya Mohlala le Tiišetšo",
+          "Executive dashboards and operational reporting",
+          "Decision workflow integration"
+        ]
+      },
+      {
+        "title": "MLOps & Adoption",
+        "summary": "We operationalize deployment, monitoring, and team enablement to keep results reliable over time.",
+        "deliverables": [
+          "Automated model deployment pipelines",
+          "Tshepedišo, nepagalo le tirišo ya ditaodišosengwalo",
+          "Team handover and operating playbook"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Fetoša data ya gago gore e be temogo",
+      "description": "Fetoša data ye e arogantšwego go ba bohlale bjo bo kwagalago, bjo bo kgonagalago.",
+      "button": "Thoma leeto la gago"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Cloud Architecture & Infrastructure",
+      "description": "Multi-cloud platforms, resilient architecture, and scalable infrastructure designed for long term growth."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Why cloud initiatives stall after the first migration wave"
+      },
+      "approach": {
+        "title": "Mokgwa wa Boentšeneere",
+        "subtitle": "How we build secure, scalable cloud platforms with controlled migration risk"
+      },
+      "principles": {
+        "title": "Architecture Principles",
+        "subtitle": "Platform decisions that balance agility, resilience, and governance"
+      },
+      "capabilities": {
+        "title": "Ditirelo tša Cloud",
+        "subtitle": "Go Boom, Go Gadget & Go Cloud"
+      },
+      "technology": {
+        "title": "Multi-Cloud Expertise",
+        "subtitle": "Platform-agnostic cloud solutions"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "Thulaganyo ye e kwagalago ya go hlama, go huduga le go šoma ga dipolatefomo tša maru"
+      }
+    },
+    "problem": {
+      "overview": "Mekgatlo ye mentši e feleletša go huduga ga maru a mathomo eupša e sa šoma bjalo ka dihlopha tša ka lefelong leo, ka pono ye e fokolago, ditaolo tše di sa sepelelanego, le ditshenyegelo tše di oketšegago.",
+      "painPointsTitle": "Bohloko bja Kgwebo bjo bo Boeletšwago",
+      "impactSignalsTitle": "Seo Baetapele ba Tlwaelegilego ba se Lebelelago",
+      "painPoints": [
+        "Mešomo ya mošomo e sepetšwa ka ntle le taolo ya tšhireletšo le tšhireletšo",
+        "Ditshenyegelo tša leru di gola ka lebelo go feta boleng bja kgwebo",
+        "Tshepedišo ya tikologo e dula e le ya go se lekane le go se sepelelane le dihlopha ka moka"
+      ],
+      "impactSignals": [
+        "Ditiragalo tša kgafetšakgafetša tšeo di hlolwago ke go fetoga ga tikologo",
+        "Tlhakišo ya tlhakišo e fokotšega ka lebaka la mekgwa ya taolo ye e arogantšwego",
+        "Infrastructure lead times delay product and data initiatives"
+      ]
+    },
+    "approach": {
+      "overview": "We design cloud platforms as products, using infrastructure automation, policy guardrails, and migration waves aligned to business criticality.",
+      "pillars": [
+        {
+          "title": "Landing Zone as Code",
+          "detail": "Boitšhupo, kgokagano, tšhireletšo le metheo ya pholisi di rulagantšwe gore di kgone go boeletšwa le go hlakišwa."
+        },
+        {
+          "title": "Wave-Based Migration Strategy",
+          "detail": "Mešomo e sepela ka dikgato tše di laolwago ka tatelano ya go ithekga le go itokišetša go boela morago."
+        },
+        {
+          "title": "SRE + FinOps Operating Loop",
+          "detail": "Dišupo tša go tshepagala le ekonomi ya yuniti di lekodišišwa mmogo go kaonafatša nako ya go šoma gabotse le go šoma gabotse."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our architecture model favors declarative infrastructure, minimal-privilege access, and composable platforms that support rapid product delivery.",
+      "items": [
+        {
+          "title": "Dipaterone tša Mananeokgoparara tše di sa fetogego",
+          "detail": "Tikologo e agilwe lefsa go tšwa go khoutu ya phetolelo go fokotša drift le go nolofatša tsošološo ya mošomo."
+        },
+        {
+          "title": "Security Baseline by Default",
+          "detail": "Taolo ya phihlelelo ya go hloka tshepo le phethagatšo ya melawana di tseneletše tikologong ye nngwe le ye nngwe ya bophelo."
+        },
+        {
+          "title": "Kgotlelelo ka go phatlalatša",
+          "detail": "Critical workloads are designed for multi-zone or multi-region failure tolerance where business impact requires it."
+        }
+      ]
+    },
+    "capabilities": [
+      "Multi-Cloud Strategy & Implementation",
+      "Container Orchestration (Kubernetes)",
+      "Serverless Computing",
+      "Cloud Migration Services",
+      "High Availability Architecture"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Cloud",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "AWS",
+        "category": "Cloud",
+        "icon": "AmazonWebServices"
+      },
+      {
+        "name": "GCP",
+        "category": "Cloud",
+        "icon": "GoogleCloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orchestration",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Dikhontheina",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "ARM Templates",
+        "category": "IaC",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "AmazonWebServices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Architecture & Landing Zone",
+        "summary": "We define the target state, guardrails, and baseline platform standards before workloads move.",
+        "deliverables": [
+          "Target cloud architecture design",
+          "Boitšhupo, netweke le motheo wa tšhireletšo",
+          "Ditshenyegelo le go obamela melao"
+        ]
+      },
+      {
+        "title": "Migration & Platform Build",
+        "summary": "We execute migration waves and stand up cloud-native platform components with repeatable automation.",
+        "deliverables": [
+          "Workload migration sequencing",
+          "Container and serverless platform setup",
+          "Mananeokgoparara bjalo ka dimojule tša khoutu"
+        ]
+      },
+      {
+        "title": "Reliability & FinOps",
+        "summary": "We improve operational reliability and continuously optimize cloud spend based on live telemetry.",
+        "deliverables": [
+          "SLOs, monitoring and incident workflows",
+          "Kgotlelelo le Tlhabollo ya Masetlapelo",
+          "Cost optimization backlog and governance cadence"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Scale Your Infrastructure",
+      "description": "Aga metheo ya maru yeo e dulago e tiile ka fase ga morwalo wa lefase wa mmakgonthe.",
+      "button": "Rulaganya leano la gago la maru"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Diphaephe tša go tliša ka go itiriša, go lebelelwa, le mekgwa ya sefala yeo e kaonafatšago lebelo ntle le go ikgafa ka go tshepagala."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Why delivery velocity drops as platform complexity increases"
+      },
+      "approach": {
+        "title": "Mokgwa wa Boentšeneere",
+        "subtitle": "How we standardize delivery pipelines without slowing product teams"
+      },
+      "principles": {
+        "title": "Architecture Principles",
+        "subtitle": "Platform engineering patterns that scale reliability and team autonomy"
+      },
+      "capabilities": {
+        "title": "Ditirelo tša DevOps",
+        "subtitle": "Automate, monitor, and optimize your delivery lifecycle"
+      },
+      "technology": {
+        "title": "DevOps Tools & Platforms",
+        "subtitle": "Best-in-class DevOps toolchain"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "Lenaneo le le šomago go tloga go dithekišo tša go phatlalatša go ya go tshepedišo ya godimo ya go lokollwa"
+      }
+    },
+    "problem": {
+      "overview": "Mekgatlo gantšhi e beeletša ka didirišwa tša CI/CD eupša e sa ntše e lwantšhana le ditokollo tše di sa fetogego, tumelelo ya go nanya le go arogana ga beng ba tikologo.",
+      "painPointsTitle": "Bohloko bja Kgwebo bjo bo Boeletšwago",
+      "impactSignalsTitle": "Seo Baetapele ba Tlwaelegilego ba se Lebelelago",
+      "painPoints": [
+        "Ditlhalošo tša diphaephe di fapana go ya ka sehlopha, go hlola dikgoro tša boleng tše di sa sepelelanego",
+        "Manual deployment approvals delay hotfix and feature release timelines",
+        "Operational incidents retreat because telemetry is incomplete or siloed"
+      ],
+      "impactSignals": [
+        "Nako ya go eta pele ya diphetogo e tšwela pele go oketšega le ge go na le ditshenyegelo tša metšhene",
+        "Change failure rate spikes during high-volume delivery period",
+        "Tšweletšo ya batšweletši e fokotšega ka lebaka la thulano ya didirišwa le phetogo ya tikologo"
+      ]
+    },
+    "approach": {
+      "overview": "Re hloma mohlala wa sethala sa tlhabollo sa ka gare ka dithempleite tša diphaephe tše di ka šomišwago gape, taolo ye e laolwago ke pholisi le go lebelelwa bophelo ka botlalo.",
+      "pillars": [
+        {
+          "title": "Golden Path Pipeline Templates",
+          "detail": "Reusable CI/CD blueprints standardize build, test, security checks, and deployment workflows."
+        },
+        {
+          "title": "Platform API & Self-Service",
+          "detail": "Dihlopha di fana ka tikologo le go lokolla mananeokgoparara ka dikgokagano tše di laolwago tša go itirela."
+        },
+        {
+          "title": "Reliability Feedback Loops",
+          "detail": "Incident trends, SLO health, and deployment telemetry inform continuous process and architecture improvements."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our DevOps architecture aligns delivery speed with governance by automating controls and minimizing one-off operational work.",
+      "items": [
+        {
+          "title": "Moka Pots Versioned Code",
+          "detail": "Dipeipi, mananeokgoparara le melawana ya pholisi di laolwa ka taolo ya mothopo gore di kgone go hlakišetšwa le go boeletšwa."
+        },
+        {
+          "title": "Progressive Verification",
+          "detail": "Boleng, tšhireletšo le tshekatsheko ya tiragatšo di beakantšwe ka dikgato go lemoga kotsi ka pela."
+        },
+        {
+          "title": "Shared Platform Responsibility",
+          "detail": "Dihlopha tša sethala di fana ka bokgoni bja tsela mola dihlopha tša ditšweletšwa di boloka beng ba thomelo."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI/CD Pipeline Design",
+      "Mananeokgoparara bjalo ka Khoutu",
+      "Diteko tša go itšhireletša",
+      "Deployment Automation",
+      "Monitoring & Observability"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Sefala",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "GitHub Actions",
+        "category": "CI/CD",
+        "icon": "Githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Go phuthela",
+        "icon": "Helm"
+      },
+      {
+        "name": "Ansible",
+        "category": "Automation",
+        "icon": "Lego Ninjago"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Tlhokomelo",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Observability",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Tshekatsheko ya Platform",
+        "summary": "We evaluate your current software delivery chain to identify risk points and speed constraints.",
+        "deliverables": [
+          "Current delivery delivery workflow map",
+          "Pipeline bottleneck analysis",
+          "Target DevOps maturity roadmap"
+        ]
+      },
+      {
+        "title": "Pipeline & Automation Build",
+        "summary": "We implement reliable CI/CD, quality gates, and infrastructure automation for consistent releases.",
+        "deliverables": [
+          "Reusable CI/CD templates",
+          "Mananeokgoparara le Tikologo",
+          "Automated testing and release controls"
+        ]
+      },
+      {
+        "title": "Operate & Improve",
+        "summary": "Re hloma dithulaganyo tša go lebelela le tša taolo tšeo di thekgago kaonafatšo ye e tšwelago pele.",
+        "deliverables": [
+          "Monitoring dashboards and alert policies",
+          "Release governance and incident playbooks",
+          "Continuous improvement metrics and reviews"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Akgofiša kabo ya gago",
+      "description": "Reduce release friction and improve reliability with mature DevOps practices.",
+      "button": "Fetoša Pipeline ya Gago"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Digital Transformation & Strategy",
+      "description": "Strategic advisory and execution support to modernize platforms, teams, and operating models."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Where transformation programs lose momentum and executive confidence"
+      },
+      "capabilities": {
+        "title": "Ditirelo tša Boeletši",
+        "subtitle": "Strategic guidance for digital success"
+      },
+      "approach": {
+        "title": "Mokgwa wa Boentšeneere",
+        "subtitle": "How we translate strategy into executable, technology-backed change"
+      },
+      "principles": {
+        "title": "Architecture Principles",
+        "subtitle": "Mokgwa wa go šoma le dikgetho tša sefala tšeo di šireletšago dipoelo tša phetogo"
+      },
+      "technology": {
+        "title": "Stack ya Theknolotši",
+        "subtitle": "Platforms and frameworks we use to operationalize transformation"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "Structured transformation from strategy definition to measurable business value"
+      }
+    },
+    "problem": {
+      "overview": "Diprotšeke tša titšithale gantši di thoma ka maikemišetšo a tiilego eupša di palelwa ke go fetogela go dipoelo tša kabo ka lebaka la go se kwagale gabotse, didirišwa tše di aroganego le dilo tše bohlokwa tše di tlago pele.",
+      "painPointsTitle": "Bohloko bja Kgwebo bjo bo Boeletšwago",
+      "impactSignalsTitle": "Seo Baetapele ba Tlwaelegilego ba se Lebelelago",
+      "painPoints": [
+        "Phetogo ya ditsela e hlalošwa eupša ga e fetolelwe go taolo ya kabo",
+        "Dilo tše bohlokwa tša kgwebo le tša boentšeneere di fapana ka morago ga medikologo ya peakanyo ya mathomo",
+        "Legacy operating models block adoption of modern product delivery practices"
+      ],
+      "impactSignals": [
+        "Program spend rises while strategic KPI movement remains flat",
+        "Initiatives miss handoff points between strategy, architecture, and execution",
+        "Teams experience change fatigue with limited realized business value"
+      ]
+    },
+    "approach": {
+      "overview": "We combine strategic advisory with delivery architecture, aligning operating model design, platform capability, and execution cadence around measurable goals.",
+      "pillars": [
+        {
+          "title": "Value Stream Prioritization",
+          "detail": "Re rulaganya diprotšeke go ya ka seabe sa kgwebo se se lekanywago le mapheko a go ithekga ka sethekniki."
+        },
+        {
+          "title": "Target Operating Model Design",
+          "detail": "Tema, taolo le ditokelo tša diphetho di hlalošwa go thekga phethagatšo ya ka pela go dihlopha tša kgwebo le tša theknolotši."
+        },
+        {
+          "title": "Portfolio Delivery Governance",
+          "detail": "Tšwelopele ya phetogo e laolwa ka go lekola KPI le taolo ya kotsi ya maemo a potfolio."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our transformation architecture emphasize incremental modernization and clear accountability, avoid disruptive rewrites without business justification.",
+      "items": [
+        {
+          "title": "Business Capability Alignment",
+          "detail": "Diphetogo tša theknolotši di beakantšwe go ya ka bokgoni bjo bo lebanego le letseno, boleng bja tirelo goba ditshenyegelo."
+        },
+        {
+          "title": "Composable Platform Strategy",
+          "detail": "Dikarolo tša sefala di kgethilwe go dirišana go thekga go huduga ga dikgato le phetogo ya ka lebelo."
+        },
+        {
+          "title": "Governance with Delivery Cadence",
+          "detail": "Diforamo tša diphetho le dintlha tša taolo di tsentšwe ka gare ga medikologo ya lebelo le ya kotara, e sego go tšewa bjalo ka ditsela tše di aroganego tša bureaucratic."
+        }
+      ]
+    },
+    "capabilities": [
+      "Digital Transformation Roadmaps",
+      "Tlhabollo ya Leano la Theknolotši",
+      "Cloud Adoption Frameworks",
+      "Tshepedišo ya Tshepedišo",
+      "Taolo ya Phetogo"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Foundation",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Data Platform",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Decision Intelligence",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Power Platform",
+        "category": "Low-Code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Tirišano",
+        "icon": "Microsoft SharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strategy Alignment",
+        "summary": "Re kopanya dilo tše bohlokwa tša boetapele le dinepo tša titšithale go hloma tlhahlo ya phetogo ye e abelanwago.",
+        "deliverables": [
+          "Maikemišetšo a phetogo le maemo a katlego",
+          "Bokgoni bja go gola le tshekatsheko ya sekgoba",
+          "Priority initiative portfolio"
+        ]
+      },
+      {
+        "title": "Execution Blueprint",
+        "summary": "We define the target operating model, architecture standards, and phased implementation sequence.",
+        "deliverables": [
+          "Operating model and governance design",
+          "Maemo a Theknolotši le Tshepedišo ya Tshepedišo",
+          "Phased implementation roadmap"
+        ]
+      },
+      {
+        "title": "Change & Value Realization",
+        "summary": "We drive adoption, track KPI movement, and refine initiatives based on delivery results.",
+        "deliverables": [
+          "Adoption and Enablement Plan",
+          "KPI measurement cadence",
+          "Quarterly optimization backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Thoma Leeto la Gago la Phetogo",
+      "description": "Sepelelana le diphetogo ka dilo tše bohlokwa tšeo di tlago pele le maano a phethagatšo.",
+      "button": "Schedule Strategy Session"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Connected systems from device to cloud, with telemetry pipelines and edge intelligence for industrial scale."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Why connected-device programs fail to scale beyond pilot deployments"
+      },
+      "approach": {
+        "title": "Mokgwa wa Boentšeneere",
+        "subtitle": "How we design secure, operable IoT systems from device firmware to cloud APIs"
+      },
+      "principles": {
+        "title": "Architecture Principles",
+        "subtitle": "Edge-to-cloud design rules for reliability, latency, and fleet governance"
+      },
+      "capabilities": {
+        "title": "Ditharollo tša IoT",
+        "subtitle": "Kgokaganya, hlokomela le go kaonafatša didirišwa tša gago"
+      },
+      "technology": {
+        "title": "IoT Technology Stack",
+        "subtitle": "From Hardware to Cloud"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "How we deliver connected systems from edge devices to cloud intelligence"
+      }
+    },
+    "problem": {
+      "overview": "Maiteko a IoT gantši a bontšha kgonagalo ya sethekniki go bafofiši eupša a palelwa ka lebaka la kgokagano ye e sa tshepegego, taolo ye e fokolago ya dikepe, le kopanyo ye e fokolago le mešomo ya kgwebo.",
+      "painPointsTitle": "Bohloko bja Kgwebo bjo bo Boeletšwago",
+      "impactSignalsTitle": "Seo Baetapele ba Tlwaelegilego ba se Lebelelago",
+      "painPoints": [
+        "Taolo ya didirišwa le taolo ya bophelo e dula e le ya seatla le diphošo",
+        "Diphaephe tša telemetry di tšweletša data ya lešata, yeo e sa felelago goba yeo e diegilego ya go šoma",
+        "Remote command and firmware updates introduce safety and security risk"
+      ],
+      "impactSignals": [
+        "Pilot environments succeed, but production rollout timelines repeats slip",
+        "Field operations teams react to incidents without predictive visibility",
+        "Ditshepedišo tša kgwebo di ka se kgone go diriša bohlale bja didirišwa ka nako ya nnete"
+      ]
+    },
+    "approach": {
+      "overview": "We architect IoT platforms as controlled distributed systems, combining secure edge runtime standards, event-driven ingestion, and operational governance at fleet scale.",
+      "pillars": [
+        {
+          "title": "Secure Device Lifecycle Management",
+          "detail": "Provisioning, identity, key rotation, and firmware updates are automated to reduce operational risk."
+        },
+        {
+          "title": "Event-Driven Telemetry Architecture",
+          "detail": "Diphaephe tša go phatlalatša di tlwaela, di tiišetša le go sepediša ditiragalo tša didirišwa tša go sekaseka le go laola ka nako ya nnete."
+        },
+        {
+          "title": "Fleet Operations Control Plane",
+          "detail": "Monitoring, alerting, and remote command workflows provide reliable supervision across distributed assets."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our IoT architecture balances low-latency edge decisions with centralized governance, observability, and security compliance.",
+      "items": [
+        {
+          "title": "Edge Autonomy with Cloud Coordination",
+          "detail": "Critical local operations continue during network degradation while syncing state to cloud systems when available."
+        },
+        {
+          "title": "Contracted Event Schemas",
+          "detail": "Dihlopha tša didirišwa le tša sethala di diriša dithulaganyo tše di laolwago go boloka tekatekano ya telemetry go kgabaganya diphetolelo."
+        },
+        {
+          "title": "Tšhireletšo ya Sedirišwa sa Zero-Trust",
+          "detail": "Mutual authentication, least privilege, and encrypted transport are enforced across every device interaction."
+        }
+      ]
+    },
+    "capabilities": [
+      "Taolo ya Didirišwa tša IoT",
+      "Ditharollo tša mafahla a dijithale",
+      "Edge Computing Deployment",
+      "Real-Time Telemetry",
+      "Predictive Maintenance"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Digital Twins",
+        "category": "Simulation",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Edge",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protocol",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protocol",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Hardware",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Hardware",
+        "icon": "raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Time Series DB",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Device & Edge Strategy",
+        "summary": "We define connectivity patterns, edge runtime standards, and secure provisioning for field devices.",
+        "deliverables": [
+          "Modulo",
+          "Edge runtime and deployment blueprint",
+          "Motheo wa tšhireletšo ya dikepe"
+        ]
+      },
+      {
+        "title": "Telemetry & Control Plane",
+        "summary": "Re aga diphaephe tšeo di swarago ditiragalo, go dira mohlala wa mafahla a titšithale, le go kgontšha tshepedišo ya taolo ya kgole.",
+        "deliverables": [
+          "Real-time ingestion and event schema design",
+          "Digital Twin & Asset Model Implementation",
+          "Command & Control API Layer"
+        ]
+      },
+      {
+        "title": "Operations & Scale",
+        "summary": "Re tsenya tirišong taolo ya dikepe le taolo ya go tshepagala ya tikologo ya IoT ya tšweletšo.",
+        "deliverables": [
+          "Temošo le temošo ya didirišwa tša dikepe",
+          "Predictive maintenance and anomaly detection",
+          "Rollout and lifecycle support plan"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kgokaganya didirišwa tša gago",
+      "description": "Build reliable IoT solutions ready for real production environment.",
+      "button": "Thoma projeke ya gago ya IoT"
+    }
+  }
+}

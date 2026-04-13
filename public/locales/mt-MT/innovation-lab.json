@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Laboratorju ta' Innovazzjoni",
+    "description": "Esplora demos interattivi, esperimenti, u wirjiet tekniċi mit-tim tal-inġinerija tagħna.",
+    "primary": "Esplora Demos",
+    "secondary": "Ara r-riċerka"
+  },
+  "overview": {
+    "hero": {
+      "title": "Laboratorju ta' Innovazzjoni",
+      "description": "Nesploraw il-fruntieri prattiċi fl-AI, awtomazzjoni u sistemi distribwiti, u mbagħad nittraduċu r-riċerka validata f'kapaċitajiet ta' produzzjoni affidabbli.",
+      "primary": "Esplora oqsma ta' riċerka",
+      "secondary": "Diskuti Kollaborazzjoni"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Oqsma ta' Riċerka",
+        "description": "Kull qasam ta' fokus jgħaqqad riċerka esploratorja ma' toroq ta' implimentazzjoni mfassla għal sistemi reali.",
+        "cardCta": "Esplora l-fokus"
+      },
+      "detailedFocusBriefs": {
+        "title": "Briefs Dettaljati ta' Fokus",
+        "description": "Inizjattivi ta' riċerka fit-tul qrib bħalissa qed jimxu mill-validazzjoni tal-arkitettura għal pjanijiet ta' kunsinna."
+      },
+      "fromLabToProduction": {
+        "title": "Mill-Laboratorju għall-Produzzjoni",
+        "description": "L-innovazzjoni f'Horizon titkejjel permezz tar-riżultati mibgħuta, mhux minn prototipi iżolati."
+      },
+      "roadmap": {
+        "title": "Mappa tar-R&D",
+        "description": "Progressjoni f'fażijiet minn bini ta' kapaċità għal sistemi adattivi u kontinwament itejjeb."
+      },
+      "publications": {
+        "title": "Pubblikazzjonijiet u Għarfien",
+        "description": "Kitba teknika u noti ta' implimentazzjoni minn xogħol ta' innovazzjoni kontinwu."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Sistemi ta' AI Applikati",
+        "description": "Arkitetturi ta' AI ffukati fuq il-produzzjoni li jkopru servizz ta' mudelli, orkestrazzjoni ta' karatteristiċi, u esperimentazzjoni mmexxija."
+      },
+      "automationFrameworks": {
+        "title": "Qafas ta' Awtomazzjoni",
+        "description": "Għodod ta' awtomazzjoni interna għas-sigurtà tad-deployment, rispons għal inċidenti, u workflows ta' inġinerija ripetibbli."
+      },
+      "advancedArchitecture": {
+        "title": "Esperimentazzjoni Avvanzata fl-Arkitettura",
+        "description": "Riċerka dwar arkitetturi reżiljenti u distribwiti ottimizzati għall-prestazzjoni, it-tolleranza għall-iżbalji, u l-iskala."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing u Intelliġenza IoT",
+        "description": "Intelliġenza fil-fruntiera għal deċiżjonijiet b'latenza baxxa, ipproċessar tat-telemetrija, u koordinazzjoni tal-flotta ta' apparati."
+      },
+      "nlp": {
+        "title": "Ipproċessar tal-Lingwa Naturali",
+        "description": "Pipelines ta' fehim multilingwi għal klassifikazzjoni, estrazzjoni, traduzzjoni, u sistemi ta' konversazzjoni."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Algoritmi Evoluzzjonarji u Ottimizzazzjoni",
+        "description": "Sistemi ta' tfittxija u ottimizzazzjoni ispirati mis-selezzjoni naturali biex isolvu sfidi ta' inġinerija ta' dimensjoni għolja."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Qafas ta' Awtomazzjoni",
+        "description": "Qed nibnu qafas ta' workflow kompożibbli għall-orkestrazzjoni tar-rilaxxijiet, gate tal-kwalità, u verifika wara d-distribuzzjoni biex inaqqsu l-frizzjoni manwali filwaqt li ntejbu r-reliabbiltà."
+      },
+      "advancedArchitecture": {
+        "title": "Esperimentazzjoni Avvanzata fl-Arkitettura",
+        "description": "L-esperimenti tagħna fl-arkitettura jiffokaw fuq strateġiji ta' dekompożizzjoni tas-servizzi, mudelli ta' reżiljenza bejn reġjuni, u envelopes ta' prestazzjoni għal sistemi li jaħdmu taħt domanda volatili."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing u Intelliġenza IoT",
+        "description": "Qegħdin nivvalidaw disinji ta' event streaming u inferenza fuq il-fruntiera li jippermettu deċiżjonijiet lokali aktar mgħaġġla filwaqt li nżommu kontroll ċentrali, awditabbiltà, u governanza taċ-ċiklu tal-ħajja tal-mudell."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Pjanar tal-Kapaċità Adattiva",
+        "description": "Il-prototipi tal-laboratorju jiġu vvalidati kontra workloads simulati u mbagħad integrati fis-strateġiji ta' autoscaling tal-pjattaforma."
+      },
+      "operationalIntelligence": {
+        "title": "Intelliġenza Operattiva",
+        "description": "Il-pipelines NLP jimxu minn esperimenti kkontrollati għal workflows ta' appoġġ għall-produzzjoni għal triage aktar mgħaġġel u għarfien aktar ċar."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Ottimizzazzjoni fis-Sistemi ta' Kunsinna",
+        "description": "Il-metodi evoluzzjonarji ttestjati fil-laboratorju jiġu tradotti f'magni ta' ottimizzazzjoni għall-iskedar u l-allokazzjoni."
+      },
+      "edgeDecisioning": {
+        "title": "Deċiżjoni fuq il-Fruntieri",
+        "description": "L-esperimenti tal-IoT u l-inferenza tal-fruntiera huma msaħħa f'servizzi ta' latenza baxxa b'restrizzjonijiet stretti ta' affidabbiltà."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Issa",
+        "title": "Fundamenti ta' AI Applikata",
+        "description": "Espandi mudelli li jistgħu jerġgħu jintużaw għall-mudelli, is-suites ta' evalwazzjoni, u l-istandards ta' osservabbiltà fost it-timijiet tal-prodott."
+      },
+      "next": {
+        "phase": "Li jmiss",
+        "title": "Flussi tax-xogħol awtonomi fl-inġinerija",
+        "description": "Operazzjonalizzaw qafas ta' awtomazzjoni li jnaqqsu r-riskju ta' implimentazzjoni u jnaqqsu ċ-ċirkwi ta' feedback għat-trasport."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18-il Xahar",
+        "title": "Intelliġenza Edge-Native",
+        "description": "Iskala arkitetturi ibridi cloud-edge għal inferenza kważi f'ħin reali f'ambjenti sensittivi għall-latenza."
+      },
+      "longHorizon": {
+        "phase": "Orizzont twil",
+        "title": "Sistemi ta' Ottimizzazzjoni Kontinwa",
+        "description": "Unifikat l-esperimentazzjoni, il-monitoraġġ u l-ottimizzazzjoni sabiex is-sistemi jkunu jistgħu jadattaw b'mod sigur hekk kif il-kuntesti jinbidlu."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Sistemi ta' AI Inġinerizzati li Jibqgħu Affidabbli fil-Produzzjoni",
+        "summary": "Perspettiva prattika dwar il-bilanċ bejn il-veloċità tal-esperimentazzjoni u l-gvernanza tal-produzzjoni.",
+        "cta": "Aqra Insights"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Mudelli ta' Arkitettura Distribwita għal Pjattaformi ta' Tkabbir Għoli",
+        "summary": "In-noti tal-qasam mill-provi tal-arkitettura ffukaw fuq il-prestazzjoni, ir-reżiljenza, u s-simplċità operattiva.",
+        "cta": "Reviżjoni ta' studji ta' każijiet"
+      },
+      "roadmappingAppliedRd": {
+        "title": "R&D Applikata tar-Roadmaping għar-Riżultati tan-Negozju",
+        "summary": "Kif nistrutturaw inizjattivi ta' innovazzjoni sabiex l-iskoperti jimxu minn prototip għal valur li jista' jiġi mkejl.",
+        "cta": "Esplora pubblikazzjonijiet"
+      }
+    },
+    "cta": {
+      "title": "Ibni ma' Horizon Innovation Lab",
+      "description": "Ikkollabora magħna biex tivvalida ideat ambizzjużi malajr u tmexxi kunċetti provati f'sistemi ta' produzzjoni siguri u skalabbli.",
+      "primary": "Ibda Konversazzjoni",
+      "secondary": "Ara r-Riżultati tal-Kunsinna"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Sistemi ta' AI Applikati",
+      "description": "Ħarsa prattika lejn kif Horizon tiddisinja, timplimenta u topera sistemi ta' tagħlim bil-magna mill-prototip sal-produzzjoni.",
+      "back": "Lura għall-Laboratorju tal-Innovazzjoni",
+      "tags": {
+        "appliedAi": "AI Applikata",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Pipelines ta' Tagħlim bil-Magni",
+        "description": "L-AI tal-produzzjoni tibda b'pipelines riproduċibbli li jgħaqqdu data, esperimentazzjoni, validazzjoni, u feedback."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Mudelli ta' Distribuzzjoni tal-Mudelli",
+        "description": "L-istrateġija ta' distribuzzjoni tiġi magħżula skont ir-rekwiżiti tal-latenza, il-kritikalità tan-negozju, u l-kumplessità operattiva."
+      },
+      "mlopsOperatingModel": {
+        "title": "Mudell Operattiv ta' MLOps",
+        "description": "Il-prattiċi tal-MLOps jiżguraw li s-sistemi tal-AI jibqgħu affidabbli, governabbli, u skalabbli hekk kif jikber l-użu."
+      },
+      "monitoringAndReliability": {
+        "title": "Monitoraġġ u Affidabbiltà",
+        "description": "L-osservabbiltà tagħlaq iċ-ċirku bejn l-imġiba tal-mudell u r-riżultati operattivi."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Inġinerija tad-Data u tal-Karatteristiċi",
+        "description": "L-inġestjoni ta' data b'versi, iċ-ċekkijiet tal-kwalità, u d-definizzjonijiet ta' karatteristiċi li jistgħu jerġgħu jintużaw joħolqu bażi affidabbli għat-taħriġ tal-mudelli."
+      },
+      "modelDevelopment": {
+        "title": "Żvilupp tal-Mudelli",
+        "description": "L-esperimenti jiġu segwiti b'konfigurazzjonijiet riproduċibbli, metriċi oġġettiva, u bażijiet awtomatizzati ta' paragun."
+      },
+      "validationAndSafetyGates": {
+        "title": "Bibien ta' Validazzjoni u Sigurtà",
+        "description": "Il-mudelli kandidati jgħaddu mill-verifika tal-prestazzjoni, robustezza, u politika qabel ma jiġu approvati għall-rilaxx."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Loops ta' Feedback Operattivi",
+        "description": "It-telemetrija wara d-distribuzzjoni tinforma l-prijoritajiet ta' ritaħ, id-deċiżjonijiet ta' rollback, u l-ippjanar tal-iterazzjoni li jmiss."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Servizzi ta' Inferenza f'Ħin Reali",
+        "description": "APIs b'latenza baxxa għal applikazzjonijiet interattivi b'autoscaling, caching, u osservabbiltà ta' livell ta' talba."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Previżjonijiet ta' Batch u Streaming",
+        "description": "Pipelines skedati u mmexxija minn avvenimenti għal skoring ta' volum għoli fuq l-analiżi u l-flussi tax-xogħol operattivi."
+      },
+      "edgeAwareDeployment": {
+        "title": "Implimentazzjoni Konxja mill-Fruntieri",
+        "description": "Mudelli ibridi ta' servizz cloud-edge għal ambjenti li jeħtieġu inferenza lokali u governanza ċentralizzata tal-mudell."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI/CD għall-Mudelli",
+        "description": "Workflows awtomatizzati ta' build, test, u release inaqqsu r-riskju ta' implimentazzjoni filwaqt li jżommu l-veloċità tal-kunsinna."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Reġistru tal-Mudelli u Ċiklu tal-Ħajja",
+        "description": "Artifatti tal-mudell verżjonat b'stadji ta' promozzjoni, linja ta' leġġ, u flussi tax-xogħol ta' approvazzjoni jtejbu l-kontroll u t-traċċabbiltà."
+      },
+      "servingInfrastructure": {
+        "title": "Servizz tal-Infrastruttura",
+        "description": "Saffi ta' servizz skalabbli b'strateġiji ta' rollout bħal deploys canary u shadow jappoġġjaw ġestjoni sigura tal-bidla."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Kwalità tal-previżjoni u skoperta ta' drift",
+      "latencyThroughputAndCostEfficiencyTracking": "Traċċar tal-latenza, throughput, u effiċjenza tal-ispejjeż",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Twissijiet ta' regressjoni dwar il-kwalità tad-dejta u flussi tax-xogħol ta' rimedjazzjoni",
+      "auditabilityForComplianceAndIncidentAnalysis": "Awdittabbiltà għall-konformità u l-analiżi tal-inċidenti"
+    },
+    "cta": {
+      "title": "Skala l-AI Applikata b'Kunfidenza",
+      "description": "Jekk qed tippjana inizjattivi ta' AI li jeħtieġu riżultati li jistgħu jitkejlu u manutenzjoni fit-tul, Horizon tista' tgħin tiddisinja u toperatizza ċ-ċiklu kollu tal-ħajja tas-sistema.",
+      "primary": "Tkellem mat-Tim Tagħna",
+      "secondary": "Esplora Aktar Xogħol fil-Laboratorju"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "NLP Multi-lingwa",
+      "description": "Esplora kapaċitajiet prattiċi ta' proċessar tal-lingwa naturali u kif jespandu f'sistemi ta' produzzjoni affidabbli u multilingwi.",
+      "back": "Lura għall-Laboratorju tal-Innovazzjoni",
+      "tags": {
+        "demo": "Demo Interattiv",
+        "intelligence": "Intelliġenza tal-Lingwa"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Fondazzjonijiet tal-NLP",
+        "description": "Il-proċessar tal-lingwa naturali jikkombina sinjali lingwistiċi u tagħlim bil-magna biex jestratta tifsira, intenzjoni, u struttura mit-test."
+      },
+      "workbench": {
+        "title": "Workbench Interattiv NLP",
+        "description": "Uża d-demo biex tittestja d-detezzjoni tal-lingwa, il-punteġġ tas-sentiment, l-estrazzjoni ta' entitajiet, u l-imġieba tat-traduzzjoni f'ħin reali."
+      },
+      "productionApplications": {
+        "title": "Kif Horizon Japplika l-NLP fil-Produzzjoni",
+        "description": "Il-kapaċitajiet tal-NLP huma integrati fil-flussi tax-xogħol tan-negozju b'barrieri tal-prestazzjoni u metriċi ċari tal-kwalità."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Prinċipji ta' Affidabbiltà u Governanza",
+        "description": "Il-produzzjoni NLP teħtieġ aktar minn kwalità tal-mudell; Jiddependi fuq prattiċi ta' implimentazzjoni sikura u verifika kontinwa."
+      }
+    },
+    "foundations": {
+      "intro1": "Is-sistemi moderni tal-NLP jappoġġjaw awtomazzjoni, rilevanza fit-tfittxija, estrazzjoni ta' għarfien, u kollaborazzjoni multilingwi. L-implimentazzjoni effettiva teħtieġ kemm kwalità tal-mudell kif ukoll kontrolli operattivi b'saħħithom.",
+      "intro2": "F'Horizon, niffukaw fuq sistemi NLP end-to-end li jgħaqqdu inferenza robusta ma' osservabbiltà, governanza, u impatt ta' produzzjoni li jista' jiġi mkejla."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Skoperta tal-Lingwa",
+        "description": "Jidentifika lingwa minn segmenti ta' test qosra jew twal biex jittrasferixxu t-talbiet lejn il-pipeline ta' proċessar it-tajjeb."
+      },
+      "sentimentAnalysis": {
+        "title": "Analiżi tas-Sentiment",
+        "description": "Jiġbor l-intenzjoni emozzjonali u l-polarità għall-intelliġenza tal-klijent, triage ta' appoġġ, u ċrieki ta' feedback tal-prodott."
+      },
+      "entityExtraction": {
+        "title": "Estrazzjoni ta' Entitajiet",
+        "description": "Jiskopri entitajiet strutturati bħal ismijiet, kumpaniji, postijiet, u dati minn test mhux strutturat."
+      },
+      "translation": {
+        "title": "Traduzzjoni",
+        "description": "Jappoġġja flussi tax-xogħol multilingwi billi jittraduċi test ġenerat mill-utent jew operattiv filwaqt li jżomm il-kuntest."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Appoġġ u Intelliġenza tal-Biljetti",
+        "description": "Ikklassifika t-talbiet li jaslu skont l-urġenza, l-intenzjoni u s-sentiment biex tħaffef il-kwalità tar-routing u r-risposta."
+      },
+      "governedContentOperations": {
+        "title": "Operazzjonijiet ta' Kontenut Immaniġġjat",
+        "description": "Applika filtri tal-lingwa konxji mill-politika u kontrolli ta' moderazzjoni b'preċiżjoni u miri ta' ritirata li jistgħu jiġu mkejla."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Għarfien tan-Negozju Imexxi minn Test",
+        "description": "Aggrega tendenzi minn dokumenti, reviżjonijiet, u komunikazzjonijiet biex tinfurma l-istrateġija u d-deċiżjonijiet operattivi."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Evalwazzjoni skont il-Każ ta' Użu",
+        "description": "Il-mudelli jiġu mqabbla ma' datasets speċifiċi għad-dominju qabel ma jittieħdu deċiżjonijiet dwar ir-rilaxx."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Salvagwardji tal-Bniedem fil-Loop",
+        "description": "Previżjonijiet ta' impatt għoli jinkludu toroq ta' reviżjoni, regoli ta' eskalazzjoni, u sinjali ta' kunfidenza trasparenti."
+      },
+      "continuousMonitoring": {
+        "title": "Monitoraġġ Kontinwu",
+        "description": "Id-drift, il-latency u d-degradazzjoni tal-kwalità jiġu segwiti kontinwament, għalhekk ir-ritraining u r-rollback huma proattivi."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Simulazzjoni ta' Algoritmi Ġenetiċi",
+      "description": "Esplora l-kalkolu evoluzzjonarju f'ambjent interattiv u ara kif l-istess prinċipji jittraduċu f'sistemi ta' ottimizzazzjoni tal-produzzjoni.",
+      "back": "Lura għall-Laboratorju tal-Innovazzjoni",
+      "tags": {
+        "demo": "Demo Interattiv",
+        "optimizationScience": "Xjenza ta' Ottimizzazzjoni"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Fondazzjoni Xjentifika",
+        "description": "L-algoritmi ġenetiċi huma metodi ta' ottimizzazzjoni bbażati fuq il-popolazzjoni ispirati mis-selezzjoni naturali u l-adattament."
+      },
+      "interactiveEnvironment": {
+        "title": "Ambjent ta' Evoluzzjoni Interattiva",
+        "description": "Ħu s-simulazzjoni biex tara l-fitness jitjieb ġenerazzjoni wara ġenerazzjoni u osserva kif il-pressjoni tas-selezzjoni taffettwa r-riżultati."
+      },
+      "productionUse": {
+        "title": "Kif Horizon Juża Dan fil-Produzzjoni",
+        "description": "L-istess mekkaniżmi tat-tfittxija użati f'din id-demo jinformaw pipelines ta' ottimizzazzjoni implimentati fis-sistemi operattivi."
+      },
+      "applicationDomains": {
+        "title": "Dominji ta' Applikazzjoni Usa'",
+        "description": "L-ottimizzazzjoni evoluzzjonarja hija partikolarment ta' valur f'sistemi b'għanijiet dinamici u kundizzjonijiet konflittwali."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Minflok ifittxu soluzzjoni waħda kull darba, l-algoritmi ġenetiċi jevolvu popolazzjoni diversa ta' kandidati. Kull ġenerazzjoni tiġi evalwata kontra funzjoni ta' fitness u tiġi rfinata permezz ta' għażla, crossover, u mutazzjoni.",
+      "intro2": "Dan jagħmilhom effettivi għal problemi ta' dimensjoni għolja b'restrizzjonijiet mhux lineari, fejn approċċi deterministiċi jsiru fraġli jew għaljin komputazzjonalment."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Għażla",
+        "description": "Kandidati ta' prestazzjoni għolja huma aktar probabbli li jgħixu u jinfluwenzaw il-ġenerazzjoni li jmiss."
+      },
+      "crossover": {
+        "title": "Crossover",
+        "description": "Karatteristiċi b'saħħithom jiġu rrikombinati biex jinħolqu soluzzjonijiet kandidati ġodda b'qawwiet imħallta."
+      },
+      "mutation": {
+        "title": "Mutazzjoni",
+        "description": "Il-każwalità kontrollata tintroduċi diversità sabiex it-tfittxija ma tieqafx madwar l-ottimi lokali."
+      },
+      "convergence": {
+        "title": "Konverġenza",
+        "description": "Matul ħafna ġenerazzjonijiet, il-popolazzjonijiet jiżviluppaw lejn soluzzjonijiet stabbli u ta' kwalità għolja."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Skedar tar-Riżorsi",
+        "description": "Nużaw strateġiji evoluzzjonarji biex nottimizzaw l-iskedar b'restrizzjonijiet multipli fejn it-tfittxija b'forza bruta hija invibbli."
+      },
+      "architectureTuning": {
+        "title": "Tuning tal-Arkitettura",
+        "description": "Il-konfigurazzjonijiet tal-infrastruttura kandidati jiġu evalwati b'mod iterattiv biex itejbu l-prestazzjoni u l-effiċjenza tal-ispejjeż."
+      },
+      "continuousOptimization": {
+        "title": "Ottimizzazzjoni Kontinwa",
+        "description": "Ix-xogħlijiet ta' ottimizzazzjoni jaħdmu f'loops kontrollati b'feedback tat-telemetrija sabiex is-sistemi jadattaw hekk kif il-profili tad-domanda jinbidlu."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Pjanar tar-Rotot u l-Loġistika",
+        "description": "Il-kunsinna kumplessa u l-ippjanar tad-dispatch jibbenefikaw mit-tfittxija evoluzzjonarja meta l-kundizzjonijiet jinbidlu b'mod rapidu."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Mudell u Tfittxija ta' Iperparametri",
+        "description": "It-tfittxija ġenetika tista' tiskopri konfigurazzjonijiet ta' mudell ta' kwalità għolja meta l-wiċċijiet oġġettivi jkunu storbjużi u mhux lineari."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Problemi ta' Portafoll u Allokazzjoni",
+        "description": "L-ottimizzazzjoni taħt għanijiet kompetittivi tista' tiġi ffurmata bħala kompromessi ta' fitness bejn settijiet ta' kandidati li qed jevolvu."
+      }
+    }
+  }
+}

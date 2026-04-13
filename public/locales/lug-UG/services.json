@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Tandika",
+    "ctaSecondary": "Schedule Consultation"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Enterprise Software Development",
+      "description": "End-to-end enterprise applications with modern frameworks, API-first architecture, and cloud-native scalability."
+    },
+    "sections": {
+      "problem": {
+        "title": "Obuzibu bw'obusuubuzi",
+        "subtitle": "Where enterprise programs lose speed, budget, and strategic alignment"
+      },
+      "approach": {
+        "title": "Enkola ya Tekinologiya",
+        "subtitle": "How we turn ambiguous requirements into production-ready platforms"
+      },
+      "principles": {
+        "title": "Emisingi gy'Okuzimba",
+        "subtitle": "Okuteekawo enteekateeka ezikuuma enteekateeka z'amakampuni nga zikuumibwa ku mutindo"
+      },
+      "capabilities": {
+        "title": "bye bye tuzimba",
+        "subtitle": "Comprehensive software development capabilities"
+      },
+      "technology": {
+        "title": "Our Technology Stack",
+        "subtitle": "Tekinologiya ow'omulembe era ow'omulembe ogw'okuweereza abasuubuzi"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "A structured path from discovery to stable production delivery"
+      }
+    },
+    "problem": {
+      "overview": "Ebitongole by'amakampuni bitera okukola emirimu egy'enjawulo ku nteekateeka ez'enjawulo, okuleeta obudde obuwanvu, obubaka obutakwatagana, n'enkolagana ey'ebbeeyi wakati w'ebitongole.",
+      "painPointsTitle": "Obulumi mu by'obusuubuzi",
+      "impactSignalsTitle": "Ebyo abakulembeze bye batera okulaba",
+      "painPoints": [
+        "Delivery engagements slip because dependencies across teams are unmanaged",
+        "Core business logic is duplicated across channels and products",
+        "Legacy integrations make new feature launches high-risk and slow"
+      ],
+      "impactSignals": [
+        "Roadmap throughput drops while engineering spend increases",
+        "Customer-facing defects increase during release periods",
+        "Okusalawo kukendedde olw'obutakwatagana n'emirimu gy'ekitongole"
+      ]
+    },
+    "approach": {
+      "overview": "We execute with architecture-first discovery, contract-driven delivery, and controlled release engineering so business value is sent in predictable increments.",
+      "pillars": [
+        {
+          "title": "Domain Modeling & Bounded Contexts",
+          "detail": "We map domains to clear service boundaries to reduce cross-team coupling and clear ownership."
+        },
+        {
+          "title": "API-First Integration Strategy",
+          "detail": "Tunnyonnyola endagaano enkalu nga bukyali, okusobozesa enkulaakulana ey'enjawulo n'okukwatagana obulungi n'enteekateeka za bizinensi."
+        },
+        {
+          "title": "Progressive Delivery Workflow",
+          "detail": "We use feature flags, staged rollouts, and quality gates to release quickly without destabilizing production."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our architecture decisions priority longevity, operability, and clear ownership so platforms remain adaptable as business scope grows.",
+      "items": [
+        {
+          "title": "Modular Service Boundaries",
+          "detail": "Capabilities are packed around business domains to keep change impact localized."
+        },
+        {
+          "title": "Event-Driven Integration",
+          "detail": "Asynchronous workflows are used where latency tolerance exists to improve resilience and decouple systems."
+        },
+        {
+          "title": "Observability by Design",
+          "detail": "Tracing, metrics, and structured logs are defined upfront to support reliable operations and SLA governance."
+        }
+      ]
+    },
+    "capabilities": [
+      "Custom Web Applications",
+      "Mobile App Development",
+      "API Development & Integration",
+      "Microservices Architecture",
+      "Cloud-Native Solutions",
+      "Legacy System Modernization"
+    ],
+    "technologies": [
+      {
+        "name": "Okuddamu",
+        "category": "Frontend",
+        "icon": "Okuddamu"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "Nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Olulimi",
+        "icon": "typescript"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "GraphQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Database",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Database",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Discovery & Architecture",
+        "summary": "We map business priorities, technical constraints, and target architecture before implementation starts.",
+        "deliverables": [
+          "Product and requirement alignment workshop",
+          "Solution architecture blueprint",
+          "Milestone-based delivery plan"
+        ]
+      },
+      {
+        "title": "Okuzimba n'okugatta",
+        "summary": "Ttiimu zaffe ziteeka mu nkola ebintu ebikulu, ebifo eby'enjawulo, n'obukuumi obw'omutindo mu ngeri y'emu.",
+        "deliverables": [
+          "Feature development in iterative sprints",
+          "Ebibiina by'obwegassi n'ebibiina by'obwegassi eby'okusatu bikwatagana",
+          "Automated testing and release readiness checks"
+        ]
+      },
+      {
+        "title": "Launch & Evolution",
+        "summary": "After go-live, we stabilize operations and define the next improvement cycle based on real usage.",
+        "deliverables": [
+          "Production rollout runbook",
+          "Performance and Reliability Tuning",
+          "Post-launch roadmap and enhancement backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Weetegefu okuzimba ekizimbe kyo ekiddako?",
+      "description": "Ka tuteeke n'okusindika ekirowoozo ekireeta ebivaamu eby'obusuubuzi.",
+      "button": "Tandika pulojekiti yo"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML & Business Intelligence",
+      "description": "From predictive models to executive dashboards, we build complete AI/BI systems that support decisions at scale."
+    },
+    "sections": {
+      "problem": {
+        "title": "Obuzibu bw'obusuubuzi",
+        "subtitle": "Kyaddaki abakulembeze b'ebibiina by'obwannakyewa bakyagenda mu maaso n'okulwanyisa obumenyi bw'amateeka"
+      },
+      "approach": {
+        "title": "Enkola ya Tekinologiya",
+        "subtitle": "How we operationalize data products, ML models, and BI workflows"
+      },
+      "principles": {
+        "title": "Emisingi gy'Okuzimba",
+        "subtitle": "Data and model architecture patterns for trustworthy decision intelligence"
+      },
+      "capabilities": {
+        "title": "Obusobozi bwaffe",
+        "subtitle": "Comprehensive AI, ML, and BI solutions"
+      },
+      "technology": {
+        "title": "Our Technology Stack",
+        "subtitle": "Abasuubuzi b'omu katale k'e Nakasero beekalakaasizza ne KCCA"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "Engeri gye tuva mu kunoonyereza okudda mu kunoonyereza okuzuula ekituufu"
+      }
+    },
+    "problem": {
+      "overview": "Ebitongole bitera okukuŋŋaanya obubaka obungi naye tebivvuunulwa mu kuteebereza okwesigika, okusalawo kw'enkola, oba okunoonyereza ku bizineesi.",
+      "painPointsTitle": "Obulumi mu by'obusuubuzi",
+      "impactSignalsTitle": "Ebyo abakulembeze bye batera okulaba",
+      "painPoints": [
+        "Alipoota zaawukana mu bibinja, ekiviirako okukontana kw'ebiwandiiko bya KPI",
+        "Models remain in experimentation and never reach production workflows",
+        "Data quality issues undermine trust in analytics and executive dashboards"
+      ],
+      "impactSignals": [
+        "Decision cycles slow because teams debate data validity instead of action",
+        "Forecasting and planning accuracy remains inconsistent quarter over quarter",
+        "Analytics investments show low adoption outside specialized analyst groups"
+      ]
+    },
+    "approach": {
+      "overview": "We deliver AI and BI platforms as production systems, coupling data engineering, model lifecycle operations, and decision workflow integration.",
+      "pillars": [
+        {
+          "title": "Data Product Foundation",
+          "detail": "Domain-aligned data products establish reuseable, governed, and high-quality inputs for analytics and ML."
+        },
+        {
+          "title": "MLOps Lifecycle Automation",
+          "detail": "Training, deployment, monitoring, and drift control are automated to keep models reliable in production."
+        },
+        {
+          "title": "Decision Workflow Integration",
+          "detail": "Insights are embedded into operational tools and dashboards so teams act on intelligence within daily processs."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Ekizimbe kyaffe kya AI/BI kikulembeza obubaka obwesigika, ebifaananyi ebinnyonnyola, n'engeri z'okufuna ezifugibwa mu bizinensi yonna.",
+      "items": [
+        {
+          "title": "Single Metric Definitions",
+          "detail": "Critical KPIs zinnyonnyolwa omulundi gumu okuyita mu nkola ez'enjawulo ez'enjawulo okuggyawo okukontana kw'alipoota."
+        },
+        {
+          "title": "Model Reliability Controls",
+          "detail": "Performance thresholds, drift detection, and rollback mechanisms protect decision quality in production."
+        },
+        {
+          "title": "Security & Governance by Design",
+          "detail": "Data lineage, role-based access, and audit-ready controls are embedded in every pipeline."
+        }
+      ]
+    },
+    "capabilities": [
+      "Machine Learning Models & Pipelines",
+      "Power BI Dashboards & Reports",
+      "Predictive Analytics",
+      "Real-Time Data Streaming",
+      "Data Warehousing Solutions"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Pulaani",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Data Warehouse",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Data Engineering",
+        "icon": "databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML Platform",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML Framework",
+        "icon": "Tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML Framework",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Ebigezo",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Okunoonyereza",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "Ebiwandiiko bya Wikipedia",
+        "category": "Olulimi",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Data Foundation",
+        "summary": "We audit sources, define data contracts, and establish governance so every model starts with trusted inputs.",
+        "deliverables": [
+          "Data source and quality assessment",
+          "Feature engineering and schema planning",
+          "Security and governance baseline"
+        ]
+      },
+      {
+        "title": "Model & Insight Delivery",
+        "summary": "We build models and decision dashboards linked to measurable business questions and KPIs.",
+        "deliverables": [
+          "Model development and validation",
+          "Executive dashboards and operational reporting",
+          "Decision workflow integration"
+        ]
+      },
+      {
+        "title": "MLOps & Adoption",
+        "summary": "We operationalize deployment, monitoring, and team enablement to keep results reliable over time.",
+        "deliverables": [
+          "Automated model deployment pipelines",
+          "Okulondoola, okutuufu, n'okulondoola enkozesa",
+          "Team handover and operating playbook"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kyusa obubaka bwo mu kutegeera",
+      "description": "Turn fragmented data into clear, actionable intelligence.",
+      "button": "Tandika olugendo lwo"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Cloud Architecture & Infrastructure",
+      "description": "Multi-cloud platforms, resilient architecture, and scalable infrastructure designed for long-term growth."
+    },
+    "sections": {
+      "problem": {
+        "title": "Obuzibu bw'obusuubuzi",
+        "subtitle": "Why cloud initiatives stall after the first migration wave"
+      },
+      "approach": {
+        "title": "Enkola ya Tekinologiya",
+        "subtitle": "How we build safe, scalable cloud platforms with controlled migration risk"
+      },
+      "principles": {
+        "title": "Emisingi gy'Okuzimba",
+        "subtitle": "Platform decisions that balance agility, resilience, and governance"
+      },
+      "capabilities": {
+        "title": "Cloud Services",
+        "subtitle": "Okukulaakulanya, okukulaakulanya n'okukulaakulanya ebitundu by'eggwanga eby'enjawulo"
+      },
+      "technology": {
+        "title": "Multi-Cloud Expertise",
+        "subtitle": "Platform-agnostic cloud solutions"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "Mu ngeri y'emu n'enteekateeka ennungi ey'okukulaakulanya, okukyusakyusa, n'okukozesa enkola y'okukulaakulanya ebitundu by'eggwanga eby'enjawulo"
+      }
+    },
+    "problem": {
+      "overview": "Ebitongole bingi bimaliriza okutambula kw'ebire ebisooka naye nga bikola ng'ebitongole eby'enjawulo, nga tebirina kulabika bulungi, obufuzi obutakwatagana, n'okusaasaanya ssente okweyongera.",
+      "painPointsTitle": "Obulumi mu by'obusuubuzi",
+      "impactSignalsTitle": "Ebyo abakulembeze bye batera okulaba",
+      "painPoints": [
+        "Emirimu gikyusibwa nga temuli bukuumi bwa bulijjo n'obukuumi obw'enjawulo",
+        "Cloud prices grow faster than business value delivered",
+        "Environment provisioning remains manual and inconsistent across teams"
+      ],
+      "impactSignals": [
+        "Frequent incidents caused by configuration drift between environments",
+        "Audit readiness degrades due to fragmented governance practices",
+        "Infrastructure lead times delay product and data initiatives"
+      ]
+    },
+    "approach": {
+      "overview": "We design cloud platforms as products, using infrastructure automation, policy guardrails, and migration waves aligned to business criticality.",
+      "pillars": [
+        {
+          "title": "Landing Zone as Code",
+          "detail": "Obumanyirivu, emikutu gy'empuliziganya, obukuumi, n'emisingi gy'ebyobufuzi bitegekeddwa okuddibwamu n'okukeberebwa."
+        },
+        {
+          "title": "Wave-Based Migration Strategy",
+          "detail": "Emirimu gitambula mu mitendera egy'enjawulo nga gitegekeddwa n'okudda emabega."
+        },
+        {
+          "title": "SRE + FinOps Operating Loop",
+          "detail": "Obubonero obw'obwesigwa n'ebyenfuna by'ekitongole by'ebyenfuna byekenneenyezebwa wamu okulongoosa obudde n'enkozesa y'ensimbi."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our architecture model favors declarative infrastructure, minimum-privilege access, and composable platforms that support rapid product delivery.",
+      "items": [
+        {
+          "title": "Immutable Infrastructure Patterns",
+          "detail": "Ebizimbe bizzibwa buggya okuva mu nkyukakyuka ez'enjawulo okusobola okukendeeza ku buzibu n'okulongoosa emirimu gyabwe."
+        },
+        {
+          "title": "Security Baseline by Default",
+          "detail": "Zero-trust access controls and policy enforcement are embedded in every environment lifecycle."
+        },
+        {
+          "title": "Obugumiikiriza okuyita mu kugabana",
+          "detail": "Critical workloads are designed for multi-zone or multi-region failure tolerance where business impact needs it."
+        }
+      ]
+    },
+    "capabilities": [
+      "Multi-Cloud Strategy & Implementation",
+      "Container Orchestration (Kubernetes)",
+      "Serverless Computing",
+      "Cloud Migration Services",
+      "High Availability Architecture"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Cloud",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "AWS",
+        "category": "Cloud",
+        "icon": "amazonwebservices"
+      },
+      {
+        "name": "GCP",
+        "category": "Cloud",
+        "icon": "googlecloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orchestration",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Containers",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "ARM Templates",
+        "category": "IaC",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "amazonwebservices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Architecture & Landing Zone",
+        "summary": "We define the target state, guardrails, and baseline platform standards before workloads move.",
+        "deliverables": [
+          "Target cloud architecture design",
+          "Identity, networking, and security baseline",
+          "Cost and compliance guardrails"
+        ]
+      },
+      {
+        "title": "Migration & Platform Build",
+        "summary": "We execute migration waves and stand up cloud-native platform components with repeatable automation.",
+        "deliverables": [
+          "Workload migration sequencing",
+          "Container and serverless platform setup",
+          "Infrastructure as Code modules"
+        ]
+      },
+      {
+        "title": "Reliability & FinOps",
+        "summary": "We improve operational reliability and continuously optimize cloud spend based on live telemetry.",
+        "deliverables": [
+          "SLOs, monitoring, and incident workflows",
+          "Okugumiikiriza n'okuzzaawo obubenje",
+          "Cost optimization backlog and governance cadence"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Scale Your Infrastructure",
+      "description": "Build cloud foundations that stay resilient under real-world load.",
+      "button": "Plan Your Cloud Strategy"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Automated delivery pipelines, observability, and platform practices that improve speed without sacrificing reliability."
+    },
+    "sections": {
+      "problem": {
+        "title": "Obuzibu bw'obusuubuzi",
+        "subtitle": "Why delivery velocity drops as platform complex increases"
+      },
+      "approach": {
+        "title": "Enkola ya Tekinologiya",
+        "subtitle": "How we standardize delivery pipelines without slowing product teams"
+      },
+      "principles": {
+        "title": "Emisingi gy'Okuzimba",
+        "subtitle": "Platform engineering patterns that scale reliability and team autonomy"
+      },
+      "capabilities": {
+        "title": "Obuweereza bwa DevOps",
+        "subtitle": "Automate, monitor, and optimize your delivery lifecycle"
+      },
+      "technology": {
+        "title": "DevOps Tools & Platforms",
+        "subtitle": "Best-in-class DevOps toolchain"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "A practical roadmap from delivery bottlenecks to high-trust release flow flow"
+      }
+    },
+    "problem": {
+      "overview": "Ebitongole bitera okussa ssente mu nkola ya CI/CD naye nga bikyalina obuzibu n'okufulumya ebitali binywevu, okukkirizibwa okukendeera, n'obuyinza obw'enjawulo mu bifo eby'enjawulo.",
+      "painPointsTitle": "Obulumi mu by'obusuubuzi",
+      "impactSignalsTitle": "Ebyo abakulembeze bye batera okulaba",
+      "painPoints": [
+        "Pipeline definitions differ by team, creating inconsistent quality gates",
+        "Manual deployment approvals delay hotfix and feature release timelines",
+        "Operational incidents retreat because telemetry is incomplete or siloed"
+      ],
+      "impactSignals": [
+        "Obudde bw'okukyusa enkyukakyuka bweyongedde newankubadde ng'ebikozesebwa mu by'enkyukakyuka bye",
+        "Change failure rate spikes during high-volume delivery periods",
+        "Developer productivity declines due to tooling friction and context switching"
+      ]
+    },
+    "approach": {
+      "overview": "We establish an internal developer platform model with reusable pipeline templates, policy-driven governance, and full lifecycle observability.",
+      "pillars": [
+        {
+          "title": "Golden Path Pipeline Templates",
+          "detail": "Reusable CI/CD blueprints standardize build, test, security checks, and deployment workflows."
+        },
+        {
+          "title": "Platform API & Self-Service",
+          "detail": "Teams provide environment and release infrastructure through controlled self-service interfaces."
+        },
+        {
+          "title": "Reliability Feedback Loops",
+          "detail": "Incident trends, SLO health, and deployment telemetry inform continuous process and architecture improvements."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our DevOps architecture aligns delivery speed with governance by automating controls and minimizing one-off operational work.",
+      "items": [
+        {
+          "title": "Buli kimu nga kiwandikiddwa mu nkyukakyuka",
+          "detail": "Pipelines, infrastructures, and policy rules are managed in source control for auditability and repeatability."
+        },
+        {
+          "title": "Progressive Verification",
+          "detail": "Quality, security, and performance checks are layered across stages to detect risk early."
+        },
+        {
+          "title": "Shared Platform Responsibility",
+          "detail": "Ttiimu za pulatifomu ziwa obusobozi obw'enjawulo ate ttiimu z'ebikozesebwa zisigala nga ziweereza."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI/CD Pipeline Design",
+      "Infrastructure as Code",
+      "Automated Testing",
+      "Deployment Automation",
+      "Monitoring & Observability"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Pulaani",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "GitHub Actions",
+        "category": "CI/CD",
+        "icon": "Githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Okupakira",
+        "icon": "Helm"
+      },
+      {
+        "name": "Ansible",
+        "category": "Automation",
+        "icon": "Ansible"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Okulondoola",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Observability",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Platform Assessment",
+        "summary": "We evaluate your current software delivery chain to identify risk points and speed constraints.",
+        "deliverables": [
+          "Current state delivery workflow map",
+          "Pipeline bottleneck analysis",
+          "Target DevOps maturity roadmap"
+        ]
+      },
+      {
+        "title": "Pipeline & Automation Build",
+        "summary": "We implement reliable CI/CD, quality gates, and infrastructure automation for consistent releases.",
+        "deliverables": [
+          "Reusable CI/CD templates",
+          "Infrastructure and environment automation",
+          "Ebigezo by'ebigezo n'ebitongole ebikuuma ddembe"
+        ]
+      },
+      {
+        "title": "Operate & Improve",
+        "summary": "We establish observability and governance loops that support continuous delivery improvement.",
+        "deliverables": [
+          "Monitoring dashboards and alert policies",
+          "Release governance and incident playbooks",
+          "Continuous improvement metrics and reviews"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kwanguyiza okuweereza kwo",
+      "description": "Reduce release friction and improve reliability with mature DevOps practices.",
+      "button": "Kyusa payipu yo"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Digital Transformation & Strategy",
+      "description": "Strategic advisory and execution support to modernize platforms, teams, and operating models."
+    },
+    "sections": {
+      "problem": {
+        "title": "Obuzibu bw'obusuubuzi",
+        "subtitle": "Where transformation programs lose momentum and executive confidence"
+      },
+      "capabilities": {
+        "title": "Consulting Services",
+        "subtitle": "Strategic guidance for digital success"
+      },
+      "approach": {
+        "title": "Enkola ya Tekinologiya",
+        "subtitle": "How we translate strategy into executable, technology-backed change"
+      },
+      "principles": {
+        "title": "Emisingi gy'Okuzimba",
+        "subtitle": "Operating model and platform choices that protect transformation results"
+      },
+      "technology": {
+        "title": "Technology Stack",
+        "subtitle": "Platforms and frameworks we use to operationalize transformation"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "Structured transformation from strategy definition to measurable business value"
+      }
+    },
+    "problem": {
+      "overview": "Digital initiatives often start with strong intention but fail to convert into delivery results due to unclear ownership, disconnected tooling, and competitive priorities.",
+      "painPointsTitle": "Obulumi mu by'obusuubuzi",
+      "impactSignalsTitle": "Ebyo abakulembeze bye batera okulaba",
+      "painPoints": [
+        "Enkyukakyuka mu nteekateeka z'okukyusa enkola y",
+        "Business and engineering priorities diverge after initial planning cycles",
+        "Legacy operating models block adoption of modern product delivery practices"
+      ],
+      "impactSignals": [
+        "Program spend rises while strategic KPI movement remains flat",
+        "Initiatives miss handoff points between strategy, architecture, and execution",
+        "Teams experience change fatigue with limited realized business value"
+      ]
+    },
+    "approach": {
+      "overview": "We combine strategic advisory with delivery architecture, aligning operating model design, platform capability, and execution cadence around measurable goals.",
+      "pillars": [
+        {
+          "title": "Value Stream Prioritization",
+          "detail": "We sequence initiatives based on measurable business impact and technical dependency constraints."
+        },
+        {
+          "title": "Target Operating Model Design",
+          "detail": "Obuvunaanyizibwa, obukulembeze, n'eddembe ly'okusalawo bitegekeddwa okuyamba okutuukiriza okwanguyirwa mu bizinensi ne tekinologiya."
+        },
+        {
+          "title": "Portfolio Delivery Governance",
+          "detail": "Enkulaakulana y'enkyukakyuka efugibwa okuyita mu KPI-linked checkpoints and portfolio-level risk controls."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our transformation architecture emphasize incremental modernization and clear accountability, avoid disruptive rewrites without business justification.",
+      "items": [
+        {
+          "title": "Business Capability Alignment",
+          "detail": "Enkyukakyuka za tekinologiya zitegekeddwa ku busobozi obukwata butereevu ku nnyingiza, omutindo gw'obuweereza, oba ennyingiza y'ensimbi."
+        },
+        {
+          "title": "Composable Platform Strategy",
+          "detail": "Platform components are selected for interoperability to support phased migration and faster adaptation."
+        },
+        {
+          "title": "Governance with Delivery Cadence",
+          "detail": "Decision forums and control points are embedded in sprint and quarterly cycles, not treated as separate bureaucratic tracks."
+        }
+      ]
+    },
+    "capabilities": [
+      "Digital Transformation Roadmaps",
+      "Technology Strategy Development",
+      "Cloud Adoption Frameworks",
+      "Process Optimization",
+      "Enkyukakyuka mu nkyukakyuka"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Foundation",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Data Platform",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Decision Intelligence",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Power Platform",
+        "category": "Low-code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Okukolagana",
+        "icon": "Microsoft SharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strategy Alignment",
+        "summary": "Tukwataganya ebigendererwa by'obukulembeze n'ebigendererwa bya digito okuteekawo enkyukakyuka ey'enjawulo.",
+        "deliverables": [
+          "Ebigendererwa by'enkyukakyuka n'ebigendererwa by'obuwanguzi",
+          "Ability maturity and gap assessment",
+          "Priorityd initiative portfolio"
+        ]
+      },
+      {
+        "title": "Execution Blueprint",
+        "summary": "Tunnyonnyola ekigendererwa eky'okukola, omutindo gw'ebizimbe n'enteekateeka y'okukola.",
+        "deliverables": [
+          "Operating model and governance design",
+          "Tekinologiya n'omutindo gw'enkola y'okuzimba",
+          "Phased implementation roadmap"
+        ]
+      },
+      {
+        "title": "Change & Value Realization",
+        "summary": "We drive adoption, track KPI movement, and refine initiatives based on delivery results.",
+        "deliverables": [
+          "Adoption and enablement plan",
+          "KPI measurement cadence",
+          "Quarterly optimization backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Tandika olugendo lwo olw'okukyusa",
+      "description": "Navigate change with clear priorities and practical delivery plans.",
+      "button": "Schedule Strategy Session"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Connected systems from device to cloud, with telemetry pipelines and edge intelligence for industrial scale."
+    },
+    "sections": {
+      "problem": {
+        "title": "Obuzibu bw'obusuubuzi",
+        "subtitle": "Why connected-device programs fail to scale beyond pilot deployments"
+      },
+      "approach": {
+        "title": "Enkola ya Tekinologiya",
+        "subtitle": "How we design secure, operable IoT systems from device firmware to cloud APIs"
+      },
+      "principles": {
+        "title": "Emisingi gy'Okuzimba",
+        "subtitle": "Edge-to-cloud design rules for reliability, latency, and fleet governance"
+      },
+      "capabilities": {
+        "title": "Ebirowoozo bya IoT",
+        "subtitle": "Okutereka, okulondoola, n'okulongoosa ebikozesebwa byo."
+      },
+      "technology": {
+        "title": "IoT Technology Stack",
+        "subtitle": "Okuva ku hardware okudda ku Cloud"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "How we deliver connected systems from edge devices to cloud intelligence"
+      }
+    },
+    "problem": {
+      "overview": "Enteekateeka za IoT zitera okulaga obusobozi bwa tekinologiya mu baddereeva naye zilemererwa ku kigero olw'enkolagana eyeesigika, obufuzi bw'emmeeri obunafu, n'okukwatagana obulungi n'emirimu gy'obusuubuzi.",
+      "painPointsTitle": "Obulumi mu by'obusuubuzi",
+      "impactSignalsTitle": "Ebyo abakulembeze bye batera okulaba",
+      "painPoints": [
+        "Okulondoola n'okulondoola ebyuma bikyali bya buvunaanyizibwa era nga bya buvunaanyizibwa",
+        "Payipu za telemetry zireeta obubaka obutonotono, obutajjula, oba okulwawo okukola",
+        "Remote command and firmware updates introduce safety and security risk"
+      ],
+      "impactSignals": [
+        "Pilot environments succeed, but production rollout timelines often slip",
+        "Field operations teams react to incidents without predictive visibility",
+        "Business systems cannot reliably consume device intelligence in real time"
+      ]
+    },
+    "approach": {
+      "overview": "We architect IoT platforms as controlled distributed systems, combining secure edge runtime standards, event-driven ingestion, and operational governance at fleet scale.",
+      "pillars": [
+        {
+          "title": "Secure Device Lifecycle Management",
+          "detail": "Provisioning, identity, key rotation, and firmware updates are automated to reduce operational risk."
+        },
+        {
+          "title": "Event-Driven Telemetry Architecture",
+          "detail": "Streaming pipelines normalize, validate, and route device events for analytics and control in near real time."
+        },
+        {
+          "title": "Fleet Operations Control Plane",
+          "detail": "Monitoring, alerting, and remote command workflows provide reliable supervision across distributed assets."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our IoT architecture balances low-latency edge decisions with centralized governance, observability, and security compliance.",
+      "items": [
+        {
+          "title": "Edge Autonomy with Cloud Coordination",
+          "detail": "Critical local operations continue during network degradation while syncing state to cloud systems when available."
+        },
+        {
+          "title": "Contracted Event Schemas",
+          "detail": "Ebitongole by'ebyuma n'ebitongole by'ebikozesebwa bikozesa enteekateeka ezifugibwa okukuuma enkolagana ya telemetry mu nkyukakyuka zonna."
+        },
+        {
+          "title": "Zero-Trust Device Security",
+          "detail": "Mutual authentication, least privilege, and encrypted transport are enforced across every device interaction."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT Device Management",
+      "Digital Twin Solutions",
+      "Edge Computing Deployment",
+      "Real-Time Telemetry",
+      "Predictive Maintenance"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Digital Twins",
+        "category": "Okugeraageranya",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Edge",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protocol",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protocol",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Hardware",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Hardware",
+        "icon": "Raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Time Series DB",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Device & Edge Strategy",
+        "summary": "Tunnyonnyola enkola z'okukwatagana, emitendera gy'okudduka, n'okuwaayo ebikozesebwa mu nnimiro.",
+        "deliverables": [
+          "Device onboarding and connectivity model",
+          "Edge runtime and deployment blueprint",
+          "Fleet security baseline"
+        ]
+      },
+      {
+        "title": "Telemetry & Control Plane",
+        "summary": "Tuzimba payipu ezikwata ebibaddewo, okulabirako abalongo ba digito, n'okusobozesa emirimu gy'okulondoola ewala.",
+        "deliverables": [
+          "Real-time ingestion and event schema design",
+          "Digital twin and asset model implementation",
+          "Command & Control API Layer"
+        ]
+      },
+      {
+        "title": "Operations & Scale",
+        "summary": "We operationalize fleet management and reliability controls for production-scale IoT environment.",
+        "deliverables": [
+          "Akakiiko k'ebyokulonda kakutte omuliro n'okulabula",
+          "Predictive maintenance and anomaly detection",
+          "Rollout and lifecycle support plan"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Gatta ebikozesebwa byo",
+      "description": "Build reliable IoT solutions ready for real production environment.",
+      "button": "Start Your IoT Project"
+    }
+  }
+}

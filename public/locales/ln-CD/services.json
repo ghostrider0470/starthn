@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Bandá",
+    "ctaSecondary": "Consultation ya manaka"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Développement ya ba logiciels ya entreprise",
+      "description": "Ba applications ya entreprise ya suka na suka na ba cadres ya sika, architecture ya API-ya liboso, mpe scalabilité ya cloud-native."
+    },
+    "sections": {
+      "problem": {
+        "title": "Kobongisa mikakatano ya mombongo",
+        "subtitle": "Esika ba programmes ya kompanyi ebungisaka lombango, budget mpe boyokani ya stratégie"
+      },
+      "approach": {
+        "title": "Approche ya ingénierie",
+        "subtitle": "Ndenge nini tobongolaka bosenga ya ambiguïté na ba plateformes oyo ebongisami mpo na production"
+      },
+      "principles": {
+        "title": "Principes ya architecture",
+        "subtitle": "Mikano oyo ekosala ete ba systeme ya kompanyi ebatelama na ndenge ya monene"
+      },
+      "capabilities": {
+        "title": "Oyo tozali kotonga",
+        "subtitle": "Makoki ya Développement ya Programɛ Mobimba"
+      },
+      "technology": {
+        "title": "Stack ya technologie na biso",
+        "subtitle": "Ba technologies ya sika mpe ya makasi mpo na kompanyi"
+      },
+      "breakdown": {
+        "title": "Bokabwani ya mosala",
+        "subtitle": "Nzela ebongisami kobanda na bokundoli tii na bopekisi ya malamu ya production"
+      }
+    },
+    "problem": {
+      "overview": "Mbala mingi ba-ekipe ya kompanyi esalaka mosala ya ntina mingi na ba systeme ya kokabwana, esalaka ete bansango ebongwanaka te, mpe boyokani ya ntalo mingi na badepartema na bango.",
+      "painPointsTitle": "Mpasi ya mombongo oyo ezongaka mbala na mbala",
+      "impactSignalsTitle": "Oyo mbala mingi bakambi bamonaka",
+      "painPoints": [
+        "Boyokani ya komema biloko ekitaka mpamba te dépendance kati na baekipi etambwisami te",
+        "Logique ya mombongo ya minene ekabolami na ba canal mpe biloko",
+        "Boyokani ya kala esalaka ete makambo ya sika ebima na likama makasi mpe na malembe"
+      ],
+      "impactSignals": [
+        "Roadmap ekiti ntango ba dépenses ya ba ingénieur ezali komata",
+        "Ba défauts ya bakiliya emataka na eleko ya kobima",
+        "Mikakatano mizali kokita mpo na bozangi bokengi ya misala"
+      ]
+    },
+    "approach": {
+      "overview": "Tosalaka na bokundoli ya liboso ya architecture, livraison oyo esimbami na kontra, mpe ba ingénieur ya libération contrôlé mpo ete motuya ya mombongo etindama na bisika oyo eyebani malamu.",
+      "pillars": [
+        {
+          "title": "Domain Modeling & Bounded Contexts",
+          "detail": "Tozali na karte ya domaine mpo na kolongola bandelo ya mosala mpo na kokitisa bosangani ya baekipi mpe kolimbola nkolo na yango."
+        },
+        {
+          "title": "Stratégie ya Intégration API-First",
+          "detail": "Tobongisaka ba contrats ya malamu na ebandeli, oyo ekopesa nzela na développement parallèle mpe kokotisa na likama na ba systeme ya kompani."
+        },
+        {
+          "title": "Mosala ya livraison progressive",
+          "detail": "Tosalelaka babendele ya bilembo, ba étapes, mpe bikuke ya qualité mpo na kobimisa na lombango kozanga kobebisa production."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Bikateli na biso ya architecture ekotya na esika ya liboso bomoi molai, kosala, mpe kozala nkolo ya polele mpo ete ba plateformes ebongwana ntango mombongo ezali kokola.",
+      "items": [
+        {
+          "title": "Limites de service modulaire",
+          "detail": "Makoki ezali kosalema na bisika nyonso ya mombongo mpo na kobatela impact ya mbongwana na esika na yango."
+        },
+        {
+          "title": "Intégration oyo esimbami na makambo",
+          "detail": "Misala ya asynchrone esalelamaka esika tolérance ya latence ezali mpo na kobongisa résilience mpe kokabola ba systeme."
+        },
+        {
+          "title": "Observabilité par conception",
+          "detail": "Kolanda, metric, mpe bajournal ebongisami ebongisami liboso mpo na kosunga misala ya malamu mpe gouvernance ya SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Custom Web Applications",
+      "Développement ya application mobile",
+      "Développement mpe Intégration ya API",
+      "Microservices Architecture",
+      "Cloud-Native Solutions",
+      "Modernisation ya système ya héritage"
+    ],
+    "technologies": [
+      {
+        "name": "Réaction",
+        "category": "Frontend",
+        "icon": "Réaction"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "Dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Monoko",
+        "icon": "Tapuscrit"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "Graphql"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Base de données",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Base de données",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Découverte mpe architecture",
+        "summary": "Tolandelaka makambo ya priorité ya mombongo, ba contraintes techniques, mpe architecture ya cible liboso ete misala ebanda.",
+        "deliverables": [
+          "Atelier ya alignement ya produit mpe ya exigence",
+          "Plan d'architecture ya solution",
+          "Plan ya livraison oyo esimbami na milende"
+        ]
+      },
+      {
+        "title": "Kotonga mpe Intégration",
+        "summary": "Baekipi na biso esalelaka makambo ya ntina, bacouche ya intégration, mpe bobateli ya qualité na nzela moko.",
+        "deliverables": [
+          "Développement ya feature na ba sprints itératifs",
+          "apap na kisi ko kisi ko",
+          "Automatisme ya test mpe ya komibongisa mpo na kobimisa"
+        ]
+      },
+      {
+        "title": "Lancement mpe évolution",
+        "summary": "Nsima ya kokende na bomoi, tokobongisa misala mpe toponaka cycle ya mbongwana oyo elandi na kotalela lolenge ya kosalela yango.",
+        "deliverables": [
+          "Production rollout runbook",
+          "Performance mpe fiabilité",
+          "Feuille de route post-lancement et amélioration de l'amélioration"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Omibongisi mpo na kotonga application na yo ya sika?",
+      "description": "Tika ete tosala mpe tobongisa solution oyo ekomema matomba ya mombongo.",
+      "button": "Bandá mosala na yo"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML mpe Business Intelligence",
+      "description": "Banda na bamodele ya prédiction tii na batableau ya bakambi, totongaka ba systeme mobimba ya AI/BI oyo esungaka kozwa bikateli na monene."
+    },
+    "sections": {
+      "problem": {
+        "title": "Kobongisa mikakatano ya mombongo",
+        "subtitle": "Mpo na nini bakompanyi oyo ezali na bansango mingi ezali kokoba kobunda mpo na kozwa bikateli ya malamu"
+      },
+      "approach": {
+        "title": "Approche ya ingénierie",
+        "subtitle": "Ndenge nini tosalelaka badonnées, bamodele ya ML, mpe misala ya BI"
+      },
+      "principles": {
+        "title": "Principes ya architecture",
+        "subtitle": "Badonnée mpe modele ya architecture mpo na kozwa bikateli ya malamu"
+      },
+      "capabilities": {
+        "title": "Makoki Na Biso",
+        "subtitle": "Comprehensive AI, ML, and BI solutions"
+      },
+      "technology": {
+        "title": "Stack ya technologie na biso",
+        "subtitle": "Bisaleli ya liboso mpo na badonnée mpe AI"
+      },
+      "breakdown": {
+        "title": "Bokabwani ya mosala",
+        "subtitle": "Ndenge nini tokoki kolongwa na badonnée fragmentée mpo na kokende na intelligence ya grade ya production"
+      }
+    },
+    "problem": {
+      "overview": "Mbala mingi, baorganisation esangisaka bansango mingi kasi ebongolaka yango te na prévisions ya solo, bikateli ya misala, to makambo ya mombongo.",
+      "painPointsTitle": "Mpasi ya mombongo oyo ezongaka mbala na mbala",
+      "impactSignalsTitle": "Oyo mbala mingi bakambi bamonaka",
+      "painPoints": [
+        "Logique ya kopesa rapore ekeseni na ekipi nyonso, yango esali ete masolo ya KPI ezala bongolabongola",
+        "Ba modele etikalaka na baekzamɛ mpe ekomaka ata mokolo moko te na mosala ya production",
+        "Mikakatano ya qualité ya badonnée ebebisaka confiance na ba analytics mpe batableau ya bakambi"
+      ],
+      "impactSignals": [
+        "Cycle ya décision elembaka mpamba te baekipi batyaka ntembe mpo na bosolo ya bansango na esika ya kosala",
+        "Prévisions mpe bosolo ya planification ezali kaka ndenge moko te na trimestre na trimestre",
+        "Ba investissements ya analytique elakisi ete bato bazali kosalela yango mingi te na libanda ya bituluku ya bato ya mayele"
+      ]
+    },
+    "approach": {
+      "overview": "Topesaka ba plateformes ya AI mpe BI lokola ba systeme ya production, kosangisa ba ingénierie ya badonnées, misala ya cycle ya bomoi ya modele, mpe bosangani ya mosala ya kozwa bikateli.",
+      "pillars": [
+        {
+          "title": "Fondation ya Produit de données",
+          "detail": "Biloko ya badonnée oyo eyokani na domaine esalaka ba inputs oyo ekoki kosalelama lisusu, gouverné, mpe ya malamu mingi mpo na analytics mpe ML."
+        },
+        {
+          "title": "Automatisation ya cycle de vie ya MLOps",
+          "detail": "Formation, déploiement, kolandela, mpe kolandela drift ezali automatisé mpo na kobatela bamodele ya malamu na bozalisi."
+        },
+        {
+          "title": "Intégration ya Workflow ya Décision",
+          "detail": "Mayele ekɔtisami na bisaleli ya misala mpe na batableau mpo ete baekipi basala na mayele na misala ya mokolo na mokolo."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Architecture na biso ya AI/BI ekotya na esika ya liboso bansango ya kotyelama motema, bamodele oyo ekoki kolimbolama, mpe mitindo ya kokota na kompanyi mobimba.",
+      "items": [
+        {
+          "title": "Ndimbola ya métrique moko",
+          "detail": "Ba KPIs critiques elimbolamaka mbala moko na nzela ya bamodele sémantique ya kokabola mpo na kolongola logique ya kopesa rapore ya bongolabongola."
+        },
+        {
+          "title": "Contrôle ya fiabilité ya modele",
+          "detail": "Ba seuil ya performance, détection ya dérive, mpe ba mécanismes ya kozongisa nsima ebatelaka lolenge ya kozwa bikateli na bozalisi."
+        },
+        {
+          "title": "Securite mpe gouvernance na ndenge ebongisami",
+          "detail": "Molongo ya bansango, accès na mosala, mpe contrôle ya audit ezali na kati ya pipeline nyonso."
+        }
+      ]
+    },
+    "capabilities": [
+      "Modele ya Boyekoli ya Machine mpe Pipeline",
+      "Power BI Dashboards & Reports",
+      "Analytique prédictive",
+      "Streaming ya bansango na ntango réel",
+      "Solutions ya kobomba badonnée"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Plateforme",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Esika ya kobomba bansango",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Ingénierie ya badonnée",
+        "icon": "Babriki ya databrique"
+      },
+      {
+        "name": "Azure ML",
+        "category": "Plateforme ML",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "Cadre ya ML",
+        "icon": "Tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "Cadre ya ML",
+        "icon": "Pytorche"
+      },
+      {
+        "name": "Tableau",
+        "category": "Analytique",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Étincelle ya Apache",
+        "category": "Traitement",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Monoko",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Fondation ya badonnée",
+        "summary": "Tolandelaka ba sources, toyekolaka ba contrats ya données, mpe totiaka gouvernance mpo modele nyonso ebandaka na makambo oyo endimami.",
+        "deliverables": [
+          "Liziba ya bansango mpe évaluation ya qualité",
+          "Feature engineering and schema planning",
+          "Baseline ya sécurité mpe gouvernance"
+        ]
+      },
+      {
+        "title": "Modele & Insight Delivery",
+        "summary": "Totongaka bamodele mpe batableau ya maponami ekangami na mituna ya mombongo mpe KPIs.",
+        "deliverables": [
+          "Développement ya modele mpe validation",
+          "Tableau de bord ya bakambi mpe balapolo ya misala",
+          "Intégration ya mosala ya décision"
+        ]
+      },
+      {
+        "title": "MLOps na Adoption",
+        "summary": "Tosalelaka mosala ya kotambwisa, kolandela, mpe kosalisa ekipi mpo na kobatela ba resultat ya malamu na ntango molai.",
+        "deliverables": [
+          "Ba pipelines ya déploiement ya modele automatisé",
+          "Drift, exactitude, mpe surveillance ya kosalela",
+          "Buku ya bokaboli mpe misala ya ekipi"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kobongola bansango na yo na Insight",
+      "description": "Kobongola bansango oyo ekabwani na mayele ya polele mpe ya kosalela.",
+      "button": "Bandá mobembo na yo"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Architecture ya Cloud mpe Infrastructure",
+      "description": "Ba plateformes multi-cloud, architecture résiliante, mpe infrastructure scalable oyo ebongisami mpo na kokola na ntango molai."
+    },
+    "sections": {
+      "problem": {
+        "title": "Kobongisa mikakatano ya mombongo",
+        "subtitle": "Ntina nini misala ya cloud etelemi nsima ya mbonge ya liboso ya migration"
+      },
+      "approach": {
+        "title": "Approche ya ingénierie",
+        "subtitle": "Ndenge nini totongaka ba plateformes ya cloud ya sécurisé, scalable na likama ya migration contrôlé"
+      },
+      "principles": {
+        "title": "Principes ya architecture",
+        "subtitle": "Mikano ya plateforme oyo ezali na bokatikati ya agilité, résilience, mpe gouvernance"
+      },
+      "capabilities": {
+        "title": "Misala ya Cloud",
+        "subtitle": "Kotonga, kotonga, mpe kotombola na mapata"
+      },
+      "technology": {
+        "title": "Mayele ya Multi-Cloud",
+        "subtitle": "Solution ya cloud ya plateforme"
+      },
+      "breakdown": {
+        "title": "Bokabwani ya mosala",
+        "subtitle": "Molɔngɔ ya polele mpo na kokela, migrage, mpe kosala ba plateformes ya cloud"
+      }
+    },
+    "problem": {
+      "overview": "Baorganisation mingi esalaka na ebandeli ya migration ya cloud kasi esalaka kaka lokola ba-ekipe ya on-prem, na bomoni ya malamu te, ba contrôle ya malamu te, mpe mbongo ezali komata.",
+      "painPointsTitle": "Mpasi ya mombongo oyo ezongaka mbala na mbala",
+      "impactSignalsTitle": "Oyo mbala mingi bakambi bamonaka",
+      "painPoints": [
+        "Misala ya mosala etambolaka na nzela ya sécurité te mpe ba contrôles ya réseau",
+        "Talo ya cloud ekomata noki koleka motuya ya mombongo",
+        "Provision ya environnement ezali kaka manuel mpe ebongwanaka te na baekipi nyonso"
+      ],
+      "impactSignals": [
+        "Makambo oyo esalemaka mbala na mbala mpo na bokeseni ya configuration na kati ya environnement",
+        "Préparation ya audit ezali kobeba mpo na bokabwani ya lolenge ya gouvernance",
+        "Infrastructure lead times delay product and data initiatives"
+      ]
+    },
+    "approach": {
+      "overview": "Tosalaka ba plateformes ya cloud lokola biloko oyo tosalelaki automatisation ya infrastructure, mibeko ya kobatela mibeko, mpe mbonge ya migration oyo eyokani na ntina ya mombongo.",
+      "pillars": [
+        {
+          "title": "Zone d'atterrissage comme code",
+          "detail": "Identité, réseau, sécurité, mpe mibeko ya ebandeli ebongisami mpo na kozongela yango mpe auditable."
+        },
+        {
+          "title": "Stratégie ya migration ya vague",
+          "detail": "Misala ya mosala etambolaka na baphase ya controle na kolanda dépendance mpe komibongisa mpo na kozonga nsima."
+        },
+        {
+          "title": "SRE + FinOps Operating Loop",
+          "detail": "Bilembo ya fiabilité mpe nkita ya unite etalelamaka elongo mpo na kobongisa ntango ya mosala mpe kosalela mbongo malamu."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Modele na biso ya architecture elingaka ba infrastructure ya déclarative, accès ya malamu mingi te, mpe ba plateformes composable oyo esalisaka na kobimisa biloko na lombango.",
+      "items": [
+        {
+          "title": "Mitindo ya infrastructure oyo ebongwanaka te",
+          "detail": "Environnement etongami lisusu na code ya version mpo na kokitisa dérive mpe kozongisa misala na pete."
+        },
+        {
+          "title": "Base de sécurité par défaut",
+          "detail": "Mibeko ya kolandela accès ya zero trust mpe kotosa mibeko ezali na kati ya cycle nyonso ya vie ya environnement."
+        },
+        {
+          "title": "Résilience na nzela ya bokaboli",
+          "detail": "Misala ya ntina ebongisami mpo na tolérance ya kokweya ya bisika mingi to bisika mingi esika bopusi ya kompanyi esengi yango."
+        }
+      ]
+    },
+    "capabilities": [
+      "Stratégie ya Multi-Cloud mpe Mise en œuvre",
+      "Orchestration ya conteneur (Kubernetes)",
+      "Ordinateur sans serveur",
+      "Cloud Migration Services",
+      "Architecture ya haute disponibilité"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Lipata",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "AWS",
+        "category": "Lipata",
+        "icon": "AmazonWebServices"
+      },
+      {
+        "name": "GCP",
+        "category": "Lipata",
+        "icon": "GoogleCloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orchestre",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Ba conteneurs",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraforme",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Modèles ARM",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Formation ya mapata",
+        "category": "IaC",
+        "icon": "AmazonWebServices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Architecture mpe Landing Zone",
+        "summary": "Tososolaka état cible, garde-fous, mpe mibeko ya plate-forme ya ebandeli liboso ete misala etambola.",
+        "deliverables": [
+          "Conception ya architecture ya cloud cible",
+          "Identité, réseau, mpe base ya sécurité",
+          "Kobatela talo mpe kotosa mibeko"
+        ]
+      },
+      {
+        "title": "Migration & Platform Build",
+        "summary": "Tosalaka ba vagues ya migration mpe totelemisa biloko ya plateforme native ya cloud na automatisation oyo ekoki kozongelama mbala na mbala.",
+        "deliverables": [
+          "Séquençage de migration des charges de travail",
+          "Configuration ya plateforme ya conteneur mpe serverless",
+          "Infrastructure as Code modules"
+        ]
+      },
+      {
+        "title": "Fiabilité mpe FinOps",
+        "summary": "Tozali kokolisa bokasi ya misala mpe kokoba kobongisa mosolo ya cloud na kolanda telemétrie en direct.",
+        "deliverables": [
+          "SLOs, surveillance, and incident workflows",
+          "Validation ya résilience mpe bozongi nsima ya likama",
+          "Backlog ya optimisation ya talo mpe cadence ya gouvernance"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kokolisa infrastructure na yo",
+      "description": "Kotonga fondements ya cloud oyo ekotikala makasi na bozindo ya mokili ya solo.",
+      "button": "Bongisa stratégie na yo ya cloud"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Ba pipeline ya livraison automatique, observabilité, mpe misala ya plateforme oyo ematisaka lombango kozanga kobebisa bosembo."
+    },
+    "sections": {
+      "problem": {
+        "title": "Kobongisa mikakatano ya mombongo",
+        "subtitle": "Mpo na nini vitɛsi ya livraison ekiti ntango complexité ya plateforme ezali komata"
+      },
+      "approach": {
+        "title": "Approche ya ingénierie",
+        "subtitle": "Ndenge nini tostandardiser ba pipeline ya livraison kozanga kolembisa baekipi ya biloko"
+      },
+      "principles": {
+        "title": "Principes ya architecture",
+        "subtitle": "Ba modele ya ingénierie ya plateforme oyo ematisaka bokasi mpe autonomie ya ekipi"
+      },
+      "capabilities": {
+        "title": "Misala ya DevOps",
+        "subtitle": "Automatiser, kolandela, mpe optimiser cycle ya vie ya livraison na yo"
+      },
+      "technology": {
+        "title": "DevOps Tools & Platforms",
+        "subtitle": "Best-in-class DevOps toolchain"
+      },
+      "breakdown": {
+        "title": "Bokabwani ya mosala",
+        "subtitle": "Feuille de route pratique kobanda na ba bottlenecks ya livraison tii na nzela ya kobimisa confiance makasi"
+      }
+    },
+    "problem": {
+      "overview": "Mbala mingi baorganisation batiaka mbongo na bisaleli ya CI/CD kasi bazali kaka kobunda na babimisi ya malamu te, kondimama noki te, mpe bokabwani ya bankolo na bisika nyonso.",
+      "painPointsTitle": "Mpasi ya mombongo oyo ezongaka mbala na mbala",
+      "impactSignalsTitle": "Oyo mbala mingi bakambi bamonaka",
+      "painPoints": [
+        "Ndimbola ya pipeline ekeseni na ekipi mokomoko, esalaka ete bikuke ya malamu ebongwana te",
+        "Manual deployment approvals delay hotfix and feature release timelines",
+        "Makambo ya kosala esalemaka mbala na mbala mpo telemetrie ezali ya kokoka te to ekangami te"
+      ],
+      "impactSignals": [
+        "Ngonga ya liboso mpo na mbongwana ezali kokoba komata atako automatisation ebimisaka mbongo mingi",
+        "Mbongwana ya taux ya kokweya emata na eleko ya livraison ya makasi",
+        "Productivité ya développeur ekiti mpo na friction ya bisaleli mpe mbongwana ya contexte"
+      ]
+    },
+    "approach": {
+      "overview": "Totiaka modele ya plateforme ya développeur interne na ba modèles ya pipeline oyo ekoki kosalelama lisusu, gouvernance oyo esimbami na politiki, mpe observabilité mobimba ya cycle ya bomoi.",
+      "pillars": [
+        {
+          "title": "Ba modèles ya pipeline ya Golden Path",
+          "detail": "Baplan ya CI/CD oyo esalelami lisusu ebongisaka botongi, komeka, contrôle ya sécurité, mpe misala ya déploiement."
+        },
+        {
+          "title": "API ya plateforme mpe self-service",
+          "detail": "Baekipi bapesaka ba environnements mpe kobimisa ba infrastructure na nzela ya interfaces ya self-service contrôlé."
+        },
+        {
+          "title": "Boucles de rétroaction de fiabilité",
+          "detail": "Tendances ya incident, kolongono ya nzoto ya SLO, mpe telemetrie ya déploiement esalisaka na kokoba kobongisa baprocess mpe architecture ya sika."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Architecture na biso ya DevOps eyokani na lombango ya kopesa na gouvernance na automatisation ya ba contrôles mpe kokitisa mosala ya mbala moko.",
+      "items": [
+        {
+          "title": "Alles Liebe Kode",
+          "detail": "Ba pipelines, infrastructure, mpe mibeko ya politiki etambwisami na contrôle ya source mpo na auditabilité mpe répétibilité."
+        },
+        {
+          "title": "Vérification progressive",
+          "detail": "Qualité, sécurité, mpe contrôle ya performance etyamaka na biteni nyonso mpo na koyeba likama na ebandeli."
+        },
+        {
+          "title": "Mokumba ya plateforme ya kokabola",
+          "detail": "Baekipi ya plateforme epesaka makoki ya kosala banzela ya pavema ntango baekipi ya biloko ebombaka biloko ya koteka."
+        }
+      ]
+    },
+    "capabilities": [
+      "Conception ya pipeline CI/CD",
+      "Infrastructure as Code",
+      "Komeka ya automatique",
+      "Automatisation ya déploiement",
+      "Surveillance mpe observabilité"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Plateforme",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "Misala ya GitHub",
+        "category": "CI/CD",
+        "icon": "Githubactions"
+      },
+      {
+        "name": "Terraforme",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Emballage",
+        "icon": "Helm"
+      },
+      {
+        "name": "Ansible",
+        "category": "Automatisation",
+        "icon": "Ansible"
+      },
+      {
+        "name": "Prométhée",
+        "category": "Kolandela",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Observabilité",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Evaluation ya plateforme",
+        "summary": "Totalaka chaine na yo ya kopesa software ya sika mpo na koyeba bisika ya likama mpe bopekisi ya lombangu.",
+        "deliverables": [
+          "Carte ya mosala ya livraison ya mikolo oyo",
+          "Analyse ya goulot ya pipeline",
+          "Target DevOps maturity roadmap"
+        ]
+      },
+      {
+        "title": "Kotonga pipeline mpe automatisation",
+        "summary": "Tosalelaka CI/CD ya malamu, bikuke ya qualité, mpe automatisation ya infrastructure mpo na kobimisa makambo ya malamu.",
+        "deliverables": [
+          "Ba modèles CI/CD reustables",
+          "Infrastructure mpe automatisation ya environnement",
+          "Automatisme ya ba contrôles ya bobimisami mpe ya bobimisami"
+        ]
+      },
+      {
+        "title": "Kosala mpe kobongisa",
+        "summary": "Totiaka ba boucles ya observabilité mpe ya gouvernance oyo esungaka kokoba kobongisa mosala na biso.",
+        "deliverables": [
+          "Kolandela ba tableaux de bord mpe mibeko ya kokebisa",
+          "Kobimisa babuku ya gouvernance mpe ya incident",
+          "Kokoba kobongisa ba métriques mpe ba révisions"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Sala nokinoki mosala na yo",
+      "description": "Kokitisa friction ya kobimisa mpe komatisa fiabilité na misala ya DevOps oyo ekoli.",
+      "button": "Kobongola pipeline na yo"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Mbongwana ya digitale mpe stratégie",
+      "description": "Toli ya stratégie mpe lisungi ya exécution mpo na moderniser ba plateformes, ba-ekipe, mpe modele ya misala."
+    },
+    "sections": {
+      "problem": {
+        "title": "Kobongisa mikakatano ya mombongo",
+        "subtitle": "Esika baprograme ya mbongwana ebungisaka makasi mpe confiance ya bakambi"
+      },
+      "capabilities": {
+        "title": "Misala ya kopesa toli",
+        "subtitle": "Batoli ya ntina mpo na kolonga na digitale"
+      },
+      "approach": {
+        "title": "Approche ya ingénierie",
+        "subtitle": "Ndenge nini tobongolaka stratégie na mbongwana oyo esimbami na tekinoloji"
+      },
+      "principles": {
+        "title": "Principes ya architecture",
+        "subtitle": "Modèle d'exploitation mpe maponi ya plateforme oyo ebatelaka ba resultat ya mbongwana"
+      },
+      "technology": {
+        "title": "Stack ya Technologie",
+        "subtitle": "Plateformes mpe cadres oyo tosalelaka mpo na kosala mbongwana"
+      },
+      "breakdown": {
+        "title": "Bokabwani ya mosala",
+        "subtitle": "Mbongwana structuré kolongwa na ndimbola ya stratégie tii na valeur ya mombongo oyo ekoki komekama"
+      }
+    },
+    "problem": {
+      "overview": "Misala ya digitale ebandaka mbala mingi na mokano ya makasi kasi ebongwanaka te na matomba ya kopesa mpo na nkolo na yango eyebani malamu te, bisaleli ekabwani, mpe makambo ya priorité ya kowelana.",
+      "painPointsTitle": "Mpasi ya mombongo oyo ezongaka mbala na mbala",
+      "impactSignalsTitle": "Oyo mbala mingi bakambi bamonaka",
+      "painPoints": [
+        "Ba feuilles de route ya mbongwana elimbolami kasi ebongolami te na gouvernance ya livraison",
+        "Ba priorités ya ba ingénieurs mpe ya ba ingénieur ekeseni nsima ya kobongisa makambo ya ebandeli",
+        "Lolenge ya kosala ya kala epekisaka kosalela mayele ya sika ya kopesa biloko"
+      ],
+      "impactSignals": [
+        "Mbongo ya programe ezali komata kasi mouvement stratégique ya KPI ezali kaka moke",
+        "Initiatives ezangi esika ya handoff na kati ya stratégie, architecture mpe exécution",
+        "Baekipi ekutanaka na bolɛmbu ya mbongwana na motuya moke ya mombongo"
+      ]
+    },
+    "approach": {
+      "overview": "Tosangisi toli ya strategique na architecture ya livraison, koyokanisa lolenge ya kosala mosala, makoki ya plateforme, mpe cadence ya exécution na mikano oyo ekoki komekama.",
+      "pillars": [
+        {
+          "title": "Prioritisation ya flux ya valeur",
+          "detail": "Tolandelaka mikano na kotalela impact ya mombongo mpe bopekisi ya dépendance technique."
+        },
+        {
+          "title": "Target Operating Model Design",
+          "detail": "Misala, gouvernance, mpe bonsomi ya kozwa bikateli ebongisami mpo na kosunga misala na lombango na baekipi ya tekinoloji mpe ya mombongo."
+        },
+        {
+          "title": "Gouvernance ya livraison ya portefeuille",
+          "detail": "Bokoli ya mbongwana ekambami na nzela ya checkpoints ekangami na KPI mpe kolandela likama ya portefeuille."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Architecture na biso ya mbongwana ezali kobenda likebi na modernisation ya sika mpe mokumba ya polele, koboya kokoma lisusu na ndenge ya mabe kozanga ntina ya mombongo.",
+      "items": [
+        {
+          "title": "Alignement ya makoki ya mombongo,",
+          "detail": "Mbongwana ya tekinoloji ebongisami na makoki oyo eyokani na mbongo, qualité ya service, to talo malamu."
+        },
+        {
+          "title": "Composable Platform Strategy",
+          "detail": "Biloko ya plateforme eponami mpo na interopérabilité mpo na kosunga migration étape moko mpe komesana na lombango."
+        },
+        {
+          "title": "Gouvernance na cadence ya livraison",
+          "detail": "Bisika ya kozwa bikateli mpe bisika ya kolandela ekɔtisami na bacycle ya sprint mpe ya trimestriel, etalelamaka te lokola nzela ya bureaucratie ekeseni."
+        }
+      ]
+    },
+    "capabilities": [
+      "Banzela ya mbongwana ya digitale",
+      "Développement ya Stratégie ya Technologie",
+      "Cadres d'adoption ya cloud",
+      "Optimisation ya processus",
+      "Gestion ya mbongwana"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Fondation ya Cloud",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Plateforme ya badonnée",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Mayele ya Décision",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Plate-forme ya nguya",
+        "category": "Kode ya moke",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Boyokani",
+        "icon": "microsoftsharepoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Alignement ya stratégie",
+        "summary": "Toyongisi bapriorité ya bakambi mpe mikano ya digital mpo na kosala mbongwana ya kokabola.",
+        "deliverables": [
+          "Mikano ya mbongwana mpe critère ya kolonga",
+          "Capacité, maturité mpe évaluation ya gap",
+          "Portefeuille ya initiative prioritaire"
+        ]
+      },
+      {
+        "title": "Plan d'exécution",
+        "summary": "Tozali kolimbola modele ya mosala, ba normes ya architecture, mpe ndenge ya kosalela yango mokemoke.",
+        "deliverables": [
+          "Modèle d'exploitation et conception de gouvernance",
+          "Mibeko ya tekinoloji mpe architecture ya baprocédé",
+          "Feuille de route de mise en œuvre phased"
+        ]
+      },
+      {
+        "title": "Mbongwana mpe réalisation ya valeur",
+        "summary": "Tolandelaka ndenge KPI etambolaka, mpe tobongisaka mabongisi na kotalela matomba oyo topesaka.",
+        "deliverables": [
+          "Plan d'adoption et d'enablement",
+          "Cadence ya mesure ya KPI",
+          "Backlog ya optimisation trimestrielle"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Bandá mobembo na yo ya mbongwana",
+      "description": "Kosala mbongwana na makambo ya priorité mpe mikano ya malamu.",
+      "button": "Programɛ ya Session ya Stratégie"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Ba systeme connecté uta na appareil kino na mapata, na ba pipelines ya télémétrie mpe intelligence ya pembeni mpo na échelle industrielle."
+    },
+    "sections": {
+      "problem": {
+        "title": "Kobongisa mikakatano ya mombongo",
+        "subtitle": "Mpo na nini ba programme ya ba appareils connectés ezali kokoka te koleka ba pilotes"
+      },
+      "approach": {
+        "title": "Approche ya ingénierie",
+        "subtitle": "Ndenge tozali kosala ba systeme ya IoT ya sécurisé, oyo ekoki kosalema kobanda na firmware ya appareil tii na API ya cloud"
+      },
+      "principles": {
+        "title": "Principes ya architecture",
+        "subtitle": "Mibeko ya design ya edge-to-cloud mpo na bosembo, latence, mpe gouvernance ya flotte"
+      },
+      "capabilities": {
+        "title": "IoT Solutions",
+        "subtitle": "Kobomba, kotala, mpe kobongisa bamasini na yo"
+      },
+      "technology": {
+        "title": "Stack ya Technologie ya IoT",
+        "subtitle": "Kobanda na hardware tii na cloud"
+      },
+      "breakdown": {
+        "title": "Bokabwani ya mosala",
+        "subtitle": "Ndenge nini tozali komema ba systeme connectés kobanda na ba appareils ya edge tii na intelligence ya cloud"
+      }
+    },
+    "problem": {
+      "overview": "Misala ya IoT mbala mingi elakisaka ete ekoki kosalema na ba pilote kasi elongaka te mpo na connectivité ya malamu te, kolandela flotte ya malamu te, mpe boyokani malamu te na misala ya mombongo.",
+      "painPointsTitle": "Mpasi ya mombongo oyo ezongaka mbala na mbala",
+      "impactSignalsTitle": "Oyo mbala mingi bakambi bamonaka",
+      "painPoints": [
+        "Kokotisa ba appareil mpe kotambwisa cycle ya vie ezali kaka manuel mpe ezalaka na mabunga mingi",
+        "Ba pipeline ya telemetrie ebimisaka makelele ya makelele, ya kokoka te, to ya retard",
+        "Commande ya mosika mpe ba mises à jour ya firmware ematisaka likama ya sécurité mpe ya sécurité"
+      ],
+      "impactSignals": [
+        "Bisika ya pilote elongaki, kasi ntango ya kobimisa yango elekaka mbala na mbala",
+        "Baekipi ya misala ya terrain basalaka na makambo kozanga koyeba malamu",
+        "Ba systeme ya kompanyi ekoki te kosalela mayele ya ba appareils na temps réel"
+      ]
+    },
+    "approach": {
+      "overview": "Tobongisaka ba plateformes ya IoT lokola ba systeme oyo ekabolami malamu, tosangisi mibeko ya ntango ya kotambola ya malamu, kokotisa makambo na makambo mosusu, mpe gouvernance ya misala na échelle ya flotte.",
+      "pillars": [
+        {
+          "title": "Gestion ya cycle de vie ya appareil sécurisé",
+          "detail": "Provisioning, identité, rotation ya fungola, mpe ba mises à jour ya firmware ezali automatisé mpo na kokitisa likama ya mosala."
+        },
+        {
+          "title": "Architecture ya télémétrie oyo esimbami na événement",
+          "detail": "Ba pipeline ya streaming ebongisaka, endimami, mpe etambwisaka makambo ya appareil mpo na analytics mpe kolandela na ntango ya solo."
+        },
+        {
+          "title": "Mpepo ya kolandela misala ya flotte",
+          "detail": "Kolandela, kokebisa, mpe misala ya commandement ya mosika epesaka bokengeli ya malamu na biloko oyo ekabolami."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Architecture na biso ya IoT ezali na bokatikati ya bikateli ya latence ya moke na gouvernance ya kati, kotala, mpe kotosa bokengi.",
+      "items": [
+        {
+          "title": "Edge Autonomy with Cloud Coordination",
+          "detail": "Misala ya ntina mingi ya mboka ezali kokoba na ntango ya kobeba ya réseau ntango ezali synchroniser état na ba systeme ya cloud soki ezali."
+        },
+        {
+          "title": "Contracted Event Schemas",
+          "detail": "Ba-ekipe ya bisaleli mpe ya plateforme basalelaka ba schéma oyo ebongisami mpo na kobatela boyokani ya telemetrie na baversion nyonso."
+        },
+        {
+          "title": "Sécurité ya Appareil Zero Trust",
+          "detail": "Authentification mutuelle, privilège moke, mpe transport crypté esalemi na boyokani nyonso ya appareil."
+        }
+      ]
+    },
+    "capabilities": [
+      "Gestion ya ba appareils IoT",
+      "Digital Twin Solutions",
+      "Déploiement ya Edge Computing",
+      "Télémétrie en temps réel",
+      "Maintenance prédictive"
+    ],
+    "technologies": [
+      {
+        "name": "Esika ya IoT",
+        "category": "Porte ya Cloud",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Mapasa ya digitale",
+        "category": "Simulation",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Pembeni",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protocole",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protocole",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Hardware",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Pi ya framboise",
+        "category": "Hardware",
+        "icon": "framboise"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Série Chronologique DB",
+        "icon": "InfluxDB"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Stratégie ya Device & Edge",
+        "summary": "Tozali kolimbola lolenge ya connectivité, mibeko ya ntango ya kotambola, mpe provisioning ya malamu mpo na ba appareils ya bilanga.",
+        "deliverables": [
+          "Modele ya kokotisa mpe connectivité na appareil",
+          "Edge runtime and deployment blueprint",
+          "Base ya sécurité ya flotte"
+        ]
+      },
+      {
+        "title": "Télémétrie mpe plan ya contrôle",
+        "summary": "Totongaka ba pipeline oyo ezwaka makambo oyo esalemaka, tomekolaka mapasa ya digitale, mpe esalisaka na kolandela mosala na mosika.",
+        "deliverables": [
+          "Création d'ingestion et cévénement schema en temps réel",
+          "Mise en œuvre ya mapasa numérique mpe modele ya biloko",
+          "Command & Control API Layer"
+        ]
+      },
+      {
+        "title": "Misala mpe échelle",
+        "summary": "Tolandelaka gestion ya flotte mpe kolandela fiabilité na bisika ya IoT.",
+        "deliverables": [
+          "Surveillance mpe alerte ya flotte ya appareil",
+          "Maintenance prédictive mpe détection ya anomalie",
+          "Plan ya lisungi mpe lisungi ya cycle ya bomoi"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kangisa ba appareils na yo",
+      "description": "Kotonga ba solutions ya IoT ya malamu oyo ebongisami mpo na ba environnements ya production ya solo.",
+      "button": "Bandá projet na yo ya IoT"
+    }
+  }
+}

@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Biz hakynda",
+    "hero": {
+      "titlePrefix": "Ertirki tehnologiýany gurmak,",
+      "titleHighlight": "Şu günler",
+      "description": "Horizon Tech d.o.o. — baş edarasy Saraýewoda ýerleşýän we üç kontinentiň kärhanalaryna öňdebaryjy programma çözgütlerini hödürleýän bütindünýä tehnologiýa kompaniýasy."
+    },
+    "sections": {
+      "mission": {
+        "title": "Maksat",
+        "description": "Biz guramalara abraýly pikirleri işewür gymmaty döredýän ygtybarly digital önümlere öwürmäge kömek edýäris.",
+        "points": [
+          "Tehnologiýanyň üpjünçiligini aýdyň iş netijeleri bilen baglanyşdyrmak.",
+          "Toparlaryň ösüşi bilen durnukly bolup biljek uzak möhletli sistemalary guruň.",
+          "Strategiýadan başlap, ýerine ýetirilişine çenli gatnaşyjylar bilen ýakyndan hyzmatdaşlyk etmek."
+        ]
+      },
+      "expertise": {
+        "title": "Tejribe",
+        "description": "Biziň multidisipliner toparlarymyz häzirki zaman tehnologiýa desgalarynda inženerçilik çuňlugyny önüm pikirlenişi bilen birleşdirýär.",
+        "points": [
+          "Enterprise derejesinde web we platforma inženerligi.",
+          "Bulut arhitekturasy, DevOps awtomatlaşdyrma we çydamly infrastruktura.",
+          "AI / ML, maglumat iş akışlary we IoT esasly önümler."
+        ]
+      },
+      "approach": {
+        "title": "Yaklaşım",
+        "description": "Biz önümiň howply ýagdaýyny azaltyp, eltmegiň öňünden kesgitlenilmegini üpjün edýän açyk we gaýtalanýan model bilen ýerine ýetirýäris.",
+        "points": [
+          "Açyň: möçberi, ileri tutulýan zatlary we üstünlik metriklerini irräk kesgitläň.",
+          "Gurluşyk: dowamly geribildirim döngüleri bilen ünsli goşmaça goşmaça gämileri ugradyň.",
+          "Optimizasiýa: netijelere gözegçilik ediň we wagtyň geçmegi bilen performansyňyzy gowulandyryň."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Biznesiňizi özgertmäge taýýarmysyňyz?",
+      "description": "Täze çözgütleri we üýtgeşik netijeleri hödürlemek üçin Horizon Tech-e bil baglaýan kompaniýalaryň gün-günden köpelýän sanawyna goşulyň.",
+      "primary": "Başla",
+      "secondary": "Üstünlik hekaýalaryna serediň"
+    }
+  },
+  "contact": {
+    "badge": "Habarlaşyň",
+    "hero": {
+      "title": "Biziň bilen habarlaşyň",
+      "description": "Bir proýekt göz öňünde tutýarmysyňyz? Biz sizden eşitmek isleýäris. Pikirleriňizi durmuşa geçirmäge nädip kömek edip biljekdigimiz barada pikir alyşmak üçin bize ýüz tutuň."
+    },
+    "info": {
+      "title": "Habarlaşmak üçin maglumatlar"
+    },
+    "booking": {
+      "title": "Duşuşygy rezerve ediň",
+      "description": "30 minutlyk mugt gözleg jaňyny planlaşdyryň"
+    },
+    "methods": {
+      "email": {
+        "title": "E-poçta",
+        "description": "Bize islendik wagt e-mail ugradyp bilersiňiz",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Ýerleşýän ýeri",
+        "description": "Esaslanýar",
+        "value": "Saraýewo, Bosniýa we Gersegowina"
+      },
+      "response": {
+        "title": "Jogap wagty",
+        "description": "Biz adatça içeri jogap berýäris",
+        "value": "24-48 sagat"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Täze proýekt"
+      },
+      "support": {
+        "label": "Tehniki goldaw"
+      },
+      "partnerships": {
+        "label": "Hyzmatdaşlyk"
+      },
+      "careers": {
+        "label": "Karyerasy"
+      },
+      "general": {
+        "label": "Umumy sorag-jogap"
+      }
+    },
+    "form": {
+      "title": "Bize habar iberiň",
+      "success": "Habaryňyz üçin sagbolsun aýdýaryn. Biz 24-48 sagadyň içinde size habar bereris.",
+      "error": "Bir zat ýalňyşdy. Haýyş edýäris, ýene-de synanyşyň ýa-da bize göni e-mail ugradyň.",
+      "fullName": "Doly ady *",
+      "email": "E-poçta adresi *",
+      "company": "Kompaniýa",
+      "subject": "Tema *",
+      "message": "Habar *",
+      "placeholders": {
+        "name": "Siziň adyňyz",
+        "email": "you@example.com",
+        "company": "Siziň kärhanaňyz",
+        "subject": "Biz nädip kömek edip bileris?",
+        "message": "Bize proýektiňiz ýa-da soragyňyz barada gürrüň beriň..."
+      },
+      "validation": {
+        "required": {
+          "name": "Doly at talap edilýär.",
+          "email": "E-poçta adresi talap edilýär.",
+          "subject": "Haýyş edýärin, tema saýlaň.",
+          "message": "Habar gerek."
+        },
+        "email": "Dogry e-poçta adresini giriň.",
+        "messageMinLength": "Habar azyndan {{count}} harpdan ybarat bolmaly."
+      },
+      "sending": "Ibermek...",
+      "submit": "Habar ibermek"
+    },
+    "reasonsTitle": "Näme üçin biziň bilen işleşmeli?",
+    "reasons": [
+      "Full-stack programma taýýarlamak tejribesi",
+      "AI / ML we bulut arhitekturasy boýunça hünärmenler",
+      "Açyk aragatnaşyk bilen çevik ösüş",
+      "Uzak möhletli goldaw we abatlaýyş işleri"
+    ],
+    "custom": {
+      "title": "Ýörite çözgütler",
+      "description": "Ýörite çözgüdi gözleýärmisiňiz? Biz deňsiz-taýsyz zerurlyklara düşünmek we ölçegli netijeleri berýän ýörite programmalary hödürlemek üçin müşderiler bilen ýakyndan hyzmatdaşlyk edýäris.",
+      "cta": "Öz proýektiňiz barada pikir alyşyň"
+    },
+    "faq": {
+      "title": "Ýene-de soraglaryňyz barmy?",
+      "description": "Çalt jogap almak üçin FAQ bölümimize serediň",
+      "cta": "FAQ-lara göz aýlaň"
+    }
+  },
+  "team": {
+    "badge": "Biziň toparymyz",
+    "hero": {
+      "titlePrefix": "Aň-düşünjeler bilen tanyşyň",
+      "titleHighlight": "Horizon Tech",
+      "description": "Ýokary täsirli digital önümleri bilelikde gurýan tehnologlaryň, ýasaýjylaryň we strategistleriň dürli topary."
+    },
+    "section": {
+      "title": "Ýolbaşçylyk topary",
+      "description": "Horizon Tech-iň görnüşine we ösüşine ýolbaşçylyk edýän tejribeli ýolbaşçylar"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Esaslandyryjy, CEO & CTO",
+        "bio": "AI / ML, bulut platformalary we ölçegli önüm arhitekturasy boýunça hünärmen bolan 10+ ýyl enterprise programmalarynda işlän öňdebaryjy ýolbaşçy we tehniki arhitektor.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Çözgüt arhitekturasy",
+          "Bulut inženerligi"
+        ]
+      },
+      "ahmet": {
+        "role": "Baş howpsuzlyk arhitektory",
+        "bio": "Siber howpsuzlyk boýunça spesialist kärhananyň howpsuzlyk arhitekturasyna, howpsuz on-prem infrastrukturasyna we düzgünleşdirilen şertler üçin ýerine ýetirilişine üns berdi.",
+        "expertise": [
+          "Kiber howpsuzlyk",
+          "On-Prem sistemalary",
+          "Howpsuzlyk arhitekturasy",
+          "Ýerine ýetirmek",
+          "Infrastrukturanyň howpsuzlygy"
+        ]
+      }
+    },
+    "aria": {
+      "email": "E-poçta {{name}}",
+      "linkedin": "{{name}} LinkedIn profili"
+    },
+    "culture": {
+      "title": "Horizon Tech-däki durmuş",
+      "description": "Biz innowasiýalaryň, hyzmatdaşlygyň we dowamly öwrenmegiň medeniýetini öňe sürýäris",
+      "remoteFirst": {
+        "title": "Uzakdan birinji medeniýet",
+        "description": "Ugurtapyjy sagatlary bolan we ýerleşýän ýerine däl-de, netijelere üns berýän islendik ýerden işläň."
+      },
+      "collaborative": {
+        "title": "Hyzmatdaşlyk şertleri",
+        "description": "Yzygiderli toparlaýyn çäreler, bilim alyş-çalyş duşuşyklary we dürli funksiýalarda hyzmatdaşlyk."
+      },
+      "workLife": {
+        "title": "Iş-durmuş balansy",
+        "description": "Jomart rugsat syýasaty, akyl taýdan saglyk goldawy we şahsy wagtyňa hormat goýmak."
+      },
+      "innovation": {
+        "title": "Innovasiýa wagty",
+        "description": "Şahsy proýektlere, hackathonlara we täze tehnologiýalary öwrenmäge 20% wagt."
+      },
+      "stats": {
+        "teamMembers": "Toparyň agzalary",
+        "countries": "Ýurtlar",
+        "techStacks": "Tehniki stacks",
+        "remoteReady": "Uzakdan taýýar"
+      }
+    },
+    "cta": {
+      "title": "Biziň toparymyza goşulmak isleýärmisiňiz?",
+      "description": "Biz elmydama ussatlyk, eýeçilik we innovasiýa barada alada edýän zehinli adamlary gözleýäris.",
+      "button": "Habarlaşyň"
+    }
+  },
+  "careers": {
+    "badge": "Biziň toparymyza goşulyň",
+    "hero": {
+      "titlePrefix": "Gelejegi guruň",
+      "titleHighlight": "Biziň bilen",
+      "description": "Global müşderiler üçin öňdebaryjy programmalary taýýarlaýan inženerler toparyna goşulyň. Uzakdan işläň, hemişe ösiň we hakyky täsir ediň.",
+      "button": "Pozisiýalara serediň"
+    },
+    "process": {
+      "title": "Işe almak prosesimiz",
+      "description": "Açyk, netijeli we wagtyňyza hormat goýýan",
+      "steps": [
+        {
+          "title": "Ulanmak",
+          "description": "Anketaňyzy iberiň, biz ony 3 iş gününiň içinde gözden geçireris."
+        },
+        {
+          "title": "Ilkinji söhbetdeşlik",
+          "description": "Tejribäňizi we garaşýan zatlaryňyzy ara alyp maslahatlaşmak üçin 30 minutlyk wideo jaň."
+        },
+        {
+          "title": "Tehniki",
+          "description": "Ukyplaryňyzy görkezmek üçin tehniki interwýu ýa-da praktiki türgenleşik."
+        },
+        {
+          "title": "Teklip etmek",
+          "description": "Topar bilen tanyşyň we Horizon Tech-e goşulmak teklibiňizi alyň."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Açyk wezipeler",
+      "description": "Indiki mümkinçiligiňizi tapyň we ösýän toparymyza goşulyň",
+      "unavailable": "Şu wagt anketa kabul edilmeýär",
+      "apply": "Häzir arza ýaz",
+      "noMatch": "Kämil roly görmeýärmiň?",
+      "sendCv": "CV-ňizi bize iberiň",
+      "listings": [
+        {
+          "title": "Baş full-stack inženeri",
+          "department": "Inženerçilik",
+          "location": "Uzak (EU wagt zonalary)",
+          "type": "Doly wagtly",
+          "description": "React, Node.js we bulut tehnologiýalaryny ulanyp, ölçegli enterprise programmalaryny döretmek.",
+          "tags": [
+            "Reaksiýa",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps inženeri",
+          "department": "Inženerçilik",
+          "location": "Saraýewo / Uzak",
+          "type": "Doly wagtly",
+          "description": "CI / CD pipelines, kod hökmünde infrastrukturany we monitoring sistemalaryny işläp taýýarlamak.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI/ML inženeri",
+          "department": "Innovasiýa laboratoriýasy",
+          "location": "Uzak",
+          "type": "Doly wagtly",
+          "description": "Enterprise müşderileri üçin makine öwreniş modellerini we AI çözgütlerini işläp taýýarlamak.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Önüm ýasaýjysy",
+          "department": "Taslama",
+          "location": "Uzak",
+          "type": "Doly wagtly",
+          "description": "Çylşyrymly enterprise programmalary üçin owadan, düşnükli ulanyjy tejribesini dörediň.",
+          "tags": [
+            "Figma",
+            "Ulanyjy barlagy",
+            "UI/UX",
+            "Taslama sistemalary"
+          ]
+        },
+        {
+          "title": "Çözgütler arhitektory",
+          "department": "Inženerçilik",
+          "location": "Uzak",
+          "type": "Doly wagtly",
+          "description": "Tehniki çözgütleri işläp taýýarlaň we müşderilere digital transformasiýada ýol görkeziň.",
+          "tags": [
+            "Bulut arhitekturasy",
+            "Sistemanyň gurluşy",
+            "Maslahat"
+          ]
+        },
+        {
+          "title": "Tehniki ýazyjy",
+          "department": "Operasiýalar",
+          "location": "Uzak",
+          "type": "Ýarym günlük",
+          "description": "Jikme-jik dokumentleri, sapaklary we tehniki mazmuny dörediň.",
+          "tags": [
+            "Dokumentler",
+            "API dokumentleri",
+            "Tehniki ýazmak"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bu ýerde işlemek barada soraglaryňyz barmy?",
+      "description": "Biz sizden eşitmek isleýäris. Biz Horizon Tech-däki durmuş baradaky ähli soraglara jogap bereris.",
+      "button": "Biziň bilen habarlaşyň"
+    }
+  },
+  "caseStudies": {
+    "badge": "Üstünlik hekaýalary",
+    "hero": {
+      "titlePrefix": "Netije bermek",
+      "titleHighlight": "Mesele",
+      "description": "Dürli kärhanalara praktiki we ýokary täsirli tehnologiýalar arkaly operasiýalary özgertmäge nädip kömek edendigimiz barada gürrüň ediň.",
+      "tags": {
+        "delivery": "Inženerçilik üpjünçiligi",
+        "outcomes": "Ölçenilen netijeler"
+      }
+    },
+    "stats": {
+      "projects": "Amala aşyrylan proýektler",
+      "clients": "Bagtly müşderiler",
+      "efficiency": "Ortaça netijeliligiň artmagy",
+      "retention": "Müşderileri saklamak"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Maliýe hyzmatlary",
+        "title": "Buluta göçmek we modernizasiýa",
+        "description": "Öňki bank sistemalaryny AWS bulut infrastrukturasyna hiç hili durnuksyzlyk bilen göçürmek.",
+        "challenge": "Öňki monolit arhitektura ölçeglilik kynçylyklaryna sebäp bolýar",
+        "result": "AWS-de mikroservislere üstünlikli göçürildi",
+        "metrics": [
+          {
+            "label": "Çykdajylary azaltmak",
+            "value": "40%"
+          },
+          {
+            "label": "Performansyň artmagy",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Mikrohyzmatlar",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech Solutions",
+        "industry": "Saglygy goraýyş",
+        "title": "AI esasly diagnostika platformasy",
+        "description": "Medisina surat analizi üçin 95%+ takyklyk bilen ML modellerini gurdy.",
+        "challenge": "El bilen anyklaýyş prosesleri köp wagt alýar",
+        "result": "AI / ML bilen awtomatlaşdyrylan diagnostika",
+        "metrics": [
+          {
+            "label": "Wagt tygşytlandy",
+            "value": "70%"
+          },
+          {
+            "label": "Dogrulyk",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "Reaksiýa",
+          "Saglygy goraýyş"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Elektron söwda giganty",
+        "industry": "Söwda-satyk işleri",
+        "title": "Real-Time Analytics Dashboard",
+        "description": "Günde 10M + wakalary işläp taýýarlaýan BI platformasyny işläp taýýarlady.",
+        "challenge": "Esasy iş metriklerine hakyky wagtly görnüş ýok",
+        "result": "Real-time analitik we düşünje platformasy",
+        "metrics": [
+          {
+            "label": "Wakalar/Gün",
+            "value": "10M+"
+          },
+          {
+            "label": "Jogap wagty",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "Reaksiýa",
+          "Maglumat inženerligi"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Üstünlik hekaýaňyzy ýazmaga taýýarmysyňyz?",
+      "description": "Gel, size şuňa meňzeş netijeleri gazanmaga we ynamly ölçemäge nädip kömek edip biljekdigimiz barada gürrüň edeliň."
+    },
+    "filters": {
+      "title": "Senagat filtri",
+      "all": "Ähli senagat kärhanalary",
+      "empty": "Saýlanan senagat filtrine gabat gelýän hiç bir waka barlagy ýok."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Pikirler we pikirler",
+      "titleHighlight": "Horizon Tech",
+      "description": "Tehniki sapaklar, senagat düşünjeleri we hakyky eltme işinden peýdaly sapaklar."
+    },
+    "categories": [
+      "Ähli postlar",
+      "Bulut arhitekturasy",
+      "DevOps",
+      "AI/ML",
+      "Frontend",
+      "Arka uç",
+      "Maglumatlar"
+    ],
+    "featuredPost": {
+      "id": "aýratyn",
+      "title": "Buluta esaslanan ösüşiň gelejegi: 2025-nji ýylda üns bermeli trendler",
+      "excerpt": "Serversiz arhitekturadan başlap, edge hasaplaýyşa çenli bulut-native ösüşiň iň soňky trendleri bilen tanyşyň.",
+      "author": {
+        "name": "Horizon Tech editoriallary"
+      },
+      "date": "Noýabr 15, 2025",
+      "readTime": "8 minut okamak",
+      "category": "Bulut arhitekturasy",
+      "tags": [
+        "Bulut",
+        "Azure",
+        "Trendler"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Azure Kubernetes hyzmaty bilen ölçegli mikrohyzmatlary gurmak",
+        "excerpt": "AKS-i ulanyp, mikroservisleri arhitektura etmek we ýerleşdirmek üçin peýdaly görkezme.",
+        "author": {
+          "name": "Horizon Tech editoriallary"
+        },
+        "date": "Noýabr 12, 2025",
+        "readTime": "6 minut okamak",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Mikrohyzmatlar",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Öndürijilikde makina öwrenişi: Öwrenilen sapaklar",
+        "excerpt": "ML modellerini uly möçberde ulanmakdan meýdanda synalan sapaklar.",
+        "author": {
+          "name": "Horizon Tech editoriallary"
+        },
+        "date": "Noýabr 10, 2025",
+        "readTime": "10 minut okamak",
+        "category": "AI/ML",
+        "tags": [
+          "Machine Learning",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Näme täzelikler we näme üçin wajyp?",
+        "excerpt": "React 19-yň aýratynlyklaryna we performans netijelerine çuňňur serediň.",
+        "author": {
+          "name": "Horizon Tech editoriallary"
+        },
+        "date": "Noýabr 8, 2025",
+        "readTime": "5 minut okamak",
+        "category": "Frontend",
+        "tags": [
+          "Reaksiýa",
+          "JavaScript",
+          "Web taýýarlamak"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Habar beriş serişdemize ýazylyň",
+      "description": "Her hepde berilýän iň soňky makalalary, sapaklary we düşünjeleri alyň.",
+      "placeholder": "your.email@example.com",
+      "button": "Ýazylmak",
+      "note": "Spam ýok. Islendik wagt abonelikden çykyň."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering Blogy",
+        "description": "AI önümlerini, enterprise sistemalaryny we ygtybarly bulut platformalaryny gurýan toparlaryň meýdan bellikleri we peýdaly nusgalary."
+      },
+      "filters": {
+        "postsInView": "{{count}} postlar görünýär"
+      },
+      "featured": {
+        "badge": "Soňky",
+        "readCta": "Saýlanan posty okaň"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Profil ýüklenýär...",
+    "title": "Profil düzümleri",
+    "subtitle": "Hasabyňyzyň düzümlerini we tercihlerini dolandyryň",
+    "photoButton": "Suraty üýtget",
+    "tabs": {
+      "general": "Umumy",
+      "security": "Howpsuzlyk",
+      "preferences": "Tercihler"
+    },
+    "messages": {
+      "profileUpdated": "Profil üstünlikli täzelendi",
+      "profileUpdateFailed": "Profil täzelenmedi",
+      "passwordsNoMatch": "Täze parollar gabat gelmeýär",
+      "passwordTooShort": "Parol azyndan 8 harpdan ybarat bolmaly",
+      "passwordChanged": "Parol üstünlikli üýtgedildi",
+      "passwordChangeFailed": "Parol üýtgäp bilmedi",
+      "optedOut": "Praktika hasabatlaryndan ýüz öwürdi",
+      "optedIn": "Praktika hasabatyna girmegi saýlady",
+      "optOutFailed": "Opt-out statusy täzelenip bilmedi"
+    },
+    "general": {
+      "title": "Şahsy maglumatlar",
+      "description": "Şahsy maglumatlaryňyzy we aragatnaşyk maglumatlaryňyzy täzeläň",
+      "firstName": "Ady",
+      "firstNamePlaceholder": "John",
+      "lastName": "Familiýasy",
+      "lastNamePlaceholder": "Doe",
+      "email": "E-poçta adresi",
+      "emailNotice": "E-poçtany üýtgedip bolmaýar. Kömege mätäç bolsaňyz goldaw bilen habarlaşyň.",
+      "phone": "Telefon belgisi",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Üýtgetmeleri gaýd et"
+    },
+    "security": {
+      "title": "Howpsuzlyk sazlamalary",
+      "description": "Parolyňyzy we howpsuzlyk tercihleriňizi dolandyryň",
+      "currentPassword": "Häzirki parol",
+      "currentPasswordPlaceholder": "Häzirki paroly gir",
+      "newPassword": "Täze parol",
+      "newPasswordPlaceholder": "Täze paroly gir",
+      "confirmPassword": "Täze paroly tassykla",
+      "confirmPasswordPlaceholder": "Täze paroly tassykla",
+      "passwordHint": "Uzynlygy azyndan 8 belgi bolmaly",
+      "changePassword": "Paroly Üýtget"
+    },
+    "preferences": {
+      "title": "Bildiriş Tercihleri",
+      "description": "Täzelikleri we bildirişleri nädip alýandygyňyza gözegçilik ediň",
+      "email": {
+        "title": "E-poçta bildirişleri",
+        "description": "E-poçta arkaly täzelikleri we duýduryşlary alyň"
+      },
+      "sms": {
+        "title": "SMS bildirişleri",
+        "description": "SMS arkaly wajyp duýduryşlary alyň"
+      },
+      "optOut": {
+        "title": "Praktika hasabatlaryndan ýüz öwüriň",
+        "description": "Hasabatlaryňyzy praktikanyň eýesinden gizläň"
+      },
+      "actions": {
+        "title": "Hasabat hereketleri",
+        "downloadData": "Hasabat maglumatlaryny ýükläp alyň",
+        "deleteAccount": "Hasaby sil"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Öýe dolanmak",
+    "title": "Goldaw merkezi",
+    "subtitle": "Programma taýýarlamak hyzmatlarymyzda kömek alyň",
+    "cards": {
+      "email": {
+        "title": "E-poçta goldawy",
+        "description": "Islendik sorag üçin bize e-mail ugradyň"
+      },
+      "project": {
+        "title": "Proýekt soraglary",
+        "description": "Proýekt talaplaryňyzy ara alyp maslahatlaşyň",
+        "button": "Biziň bilen habarlaşyň"
+      },
+      "resources": {
+        "title": "Serişdeler",
+        "description": "Tehniki serişdeler we görkezmeler",
+        "button": "Resurslary gör"
+      }
+    },
+    "faqTitle": "Ýygy-ýygydan berilýän soraglar",
+    "faqDescription": "Giňden ýaýran soraglara çalt jogap",
+    "faqs": [
+      {
+        "question": "Horizon Tech nähili hyzmatlary hödürleýär?",
+        "answer": "Biz ýörite programma taýýarlama, AI / ML çözgütleri, bulut arhitekturasy, DevOps, iş akyly we IoT hyzmatlaryny hödürleýäris."
+      },
+      {
+        "question": "Horizon Tech bilen proýekte nädip başlamaly?",
+        "answer": "Talaplaryňyz bilen form ýa-da e-mail arkaly biziň bilen habarlaşyň. Biz açyş jaňyny planlaşdyryp, teklibi paýlaşarys."
+      },
+      {
+        "question": "Siz hemişe goldaw we abatlaýyş işlerini edýärmisiňiz?",
+        "answer": "Hawa. Biz ýalňyşlyklary düzetmek, howpsuzlyk täzelemelerini we aýratynlyklary gowulandyrmak ýaly goldaw we abatlaýyş paketlerini hödürleýäris."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Öýe dolanmak",
+    "title": "Tehniki serişdeler",
+    "subtitle": "Horizon Tech toparynyň görkezmeleri, sapaklary we iň gowy endikleri",
+    "hub": {
+      "title": "Okuw merkezi",
+      "description": "Bulut, AI / ML, DevOps we häzirki zaman programma taýýarlamak boýunça saýlanan tehniki serişdelerimiz bilen tanyşyň.",
+      "note": "Bu materiallar hakyky proýekt tejribesine esaslanýar we yzygiderli täzelenýär."
+    },
+    "categories": [
+      {
+        "icon": "bulut",
+        "title": "Bulut arhitekturasy",
+        "description": "Azure, AWS we buluta esaslanan modeller",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Ýol görkeziji"
+          },
+          {
+            "title": "Buluta göçme strategiýalary",
+            "type": "Makala"
+          }
+        ]
+      },
+      {
+        "icon": "beýni",
+        "title": "AI & Machine Learning",
+        "description": "ML modelleri, maglumat ylymlary we AI integrasiýasy",
+        "resources": [
+          {
+            "title": "Azure ML-e giriş",
+            "type": "Okuw"
+          },
+          {
+            "title": "Gurluşyk öndürijilik ML boru hatlary",
+            "type": "Ýol görkeziji"
+          }
+        ]
+      },
+      {
+        "icon": "Şertler",
+        "title": "DevOps & Platform",
+        "description": "CI/CD, kod hökmünde infrastruktura, awtomatlaşdyrma",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Okuw"
+          },
+          {
+            "title": "Terraform bilen kod hökmünde infrastruktura",
+            "type": "Ýol görkeziji"
+          }
+        ]
+      },
+      {
+        "icon": "kod",
+        "title": "Programma taýýarlamak",
+        "description": ".NET, React we häzirki zaman ösüş endikleri",
+        "resources": [
+          {
+            "title": ".NET-de arassa arhitektura",
+            "type": "Ýol görkeziji"
+          },
+          {
+            "title": "React Best Practices",
+            "type": "Makala"
+          }
+        ]
+      },
+      {
+        "icon": "maglumat bazasy",
+        "title": "Maglumat we analitik",
+        "description": "BI, maglumat ammarlary we analitik platformalary",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Design",
+            "type": "Okuw"
+          },
+          {
+            "title": "Maglumat ammarynyň arhitekturasy",
+            "type": "Ýol görkeziji"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Ýörite okuw gerekmi?",
+      "description": "Biz inženerçilik we önüm toparlary üçin ýörite seminarlary hödürleýäris",
+      "text": "Toparda gönüden-göni tälim gerekmi? Biz bulut arhitekturasy, DevOps we häzirki zaman üpjünçilik endikleri boýunça ýörite seminarlary geçirýäris.",
+      "button": "Habarlaşyň"
+    }
+  },
+  "unauthorized": {
+    "title": "Girmäge rugsat berilmedi",
+    "description": "Bu sahypa girmäge rugsat ýok. Eger ýalňyş diýip pikir edýän bolsaňyz, administratoryňyza ýüz tutuň.",
+    "primary": "Profile git",
+    "secondary": "Öýe dolanmak"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Post tapylmady",
+      "description": "Slug üçin blog posty ýok: {{slug}}",
+      "back": "Bloga dolanyň"
+    },
+    "back": "Bloga dolanyň",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Mysal tapylmady",
+      "description": "id üçin hiç hili mysal ýok: {{id}}",
+      "back": "Mysal barlaglaryna dolanalyň"
+    },
+    "back": "Mysal barlaglaryna dolanalyň",
+    "sections": {
+      "executiveSummary": "Ýerine ýetiriji gysgaça maglumat",
+      "businessChallenge": "Işewürlik kynçylygy",
+      "technicalSolution": "Tehniki çözgüt",
+      "architectureDecisions": "Arhitektura kararlary",
+      "technologyStack": "Tehnologiýa Stack",
+      "resultsImpact": "Netijeler we täsirler"
+    },
+    "client": "Müşderi",
+    "keyOutcomes": "Esasy netijeler",
+    "decision": "Karar {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Signal ýitirildi",
+      "title": "Sahypa tapylmady",
+      "description": "Siziň haýyş eden ýoluňyz ýok ýa-da başga ýere göçdi. Gel, sizi dogry Horizon Tech uç noktasyna getireliň.",
+      "requestedPath": "Haýyş edilen ýol",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Ýol grafigini çözmek... şowsuzlyga uçrady",
+        "line2": "Sebäbi: gabat gelýän ýol moduly ýok",
+        "line3": "Fallback protokoly işe girdi",
+        "line4": "Dowam etmek üçin aşakdaky gysgaldylmalaryň birini ulanyň"
+      },
+      "links": {
+        "home": "Baş sahypa",
+        "services": "Hyzmatlar",
+        "blog": "Blog",
+        "caseStudies": "Mysal barlaglary"
+      }
+    },
+    "runtime": {
+      "badge": "Runtime hatasy",
+      "title": "Bu sahypada bir zat döwüldi",
+      "description": "Garaşylmadyk bir mesele renderi böldi. Siz howpsuz ýene-de synanyşyp bilersiňiz ýa-da baş sahypa dolanyp bilersiňiz.",
+      "retry": "Ýene-de synanyşmak",
+      "home": "Baş sahypa dolan",
+      "unknown": "Nätanyş runtime hatasy"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech blogy"
+  },
+  "admin": {
+    "blog": {
+      "title": "Bloguň dolandyrylyşy",
+      "subtitle": "Blog postlaryňyzy dörediň, düzediň we dolandyryň",
+      "newPost": "Täze post",
+      "seedData": "Tohum maglumatlary",
+      "allPosts": "Ähli postlar",
+      "published": "Çap edildi",
+      "draft": "Taslama",
+      "featured": "Aýratyn",
+      "setFeatured": "Aýratyn set",
+      "removeFeatured": "Saýlananlary aýyr",
+      "table": {
+        "title": "Ady",
+        "category": "Kategoriýa",
+        "status": "Status",
+        "date": "Sene",
+        "actions": "Hereketler"
+      },
+      "empty": {
+        "message": "Heniz blog postlary ýok. Ilkinji postuňyzy ýa-da tohum nusgasyny dörediň.",
+        "seed": "Tohum nusgasynyň maglumatlary",
+        "create": "Post Döret"
+      },
+      "delete": {
+        "title": "Posty sil",
+        "confirmation": "Siz bu posty aýyrmak isleýändigiňize ynanýarmysyňyz? Bu hereketi yzyna gaýtaryp bolmaýar.",
+        "delete": "Sil",
+        "cancel": "Ýatyrmak"
+      }
+    },
+    "editor": {
+      "bannerHint": "Postuň ýokarky böleginde giň banner hökmünde görkezilýär",
+      "bannerImage": "Banner Image",
+      "coverHint": "Blog listing kartlarynda görkezilýär",
+      "coverImage": "DAŞKY SAHYPA",
+      "editSlug": "Edit slug",
+      "posts": "Postlar",
+      "publish": "Çap etmek",
+      "update": "Täzeleniş",
+      "form": {
+        "contentPlaceholder": "Postuňyzy şu ýerde ýazyň...",
+        "excerptPlaceholder": "Postuň gysgaça gysgaça mazmuny...",
+        "pickDate": "Senäni saýlaň",
+        "readTimePlaceholder": "Mysal üçin, 5 minut okamak",
+        "titlePlaceholder": "Post ady..."
+      },
+      "meta": {
+        "publisher": "Wagyzçy",
+        "unknownAuthor": "Nätanyş awtor"
+      },
+      "modes": {
+        "edit": "Edit",
+        "editOnly": "Diňe edit",
+        "preview": "Önizleme",
+        "previewOnly": "Diňe önizleme",
+        "sideBySide": "Eginme-egin",
+        "split": "Bölünişik"
+      },
+      "tags": {
+        "heading": "Taglar",
+        "placeholder": "Etiket ekle..."
+      },
+      "translations": {
+        "auto": "Awtomatik",
+        "autoTranslate": "Awtomatik terjime etmek",
+        "clear": "Aýdyň",
+        "existing": "Bar bolan",
+        "heading": "Terjimeler",
+        "language": "Dil",
+        "languages": "Diller",
+        "edit": "Edit",
+        "manual": "El kitaby",
+        "preview": "Önizleme",
+        "searchPlaceholder": "Dilleri gözle...",
+        "translate": "Terjime et"
+      }
+    },
+    "caseStudies": {
+      "title": "Mysal barlaglary",
+      "subtitle": "Mysallary we proýektleriň görkezilişini dolandyrmak",
+      "newCaseStudy": "Täze mysal",
+      "seedData": "Tohum maglumatlary",
+      "allCaseStudies": "Ähli mysallar",
+      "published": "Çap edildi",
+      "draft": "Taslama",
+      "table": {
+        "title": "Ady",
+        "industry": "Senagat",
+        "client": "Müşderi",
+        "status": "Status",
+        "actions": "Hereketler"
+      },
+      "empty": {
+        "message": "Heniz hiç hili mysal ýok.",
+        "seed": "Tohum maglumatlary",
+        "create": "Ilki döret"
+      },
+      "delete": {
+        "title": "Mysaly aýyr",
+        "confirmation": "Siz bu wakany aýyrmak isleýändigiňize ynanýarmysyňyz? Bu hereketi yzyna gaýtaryp bolmaýar.",
+        "delete": "Sil",
+        "cancel": "Ýatyrmak"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Mysal barlaglary",
+      "published": "Çap edildi",
+      "draft": "Taslama",
+      "update": "Täzeleniş",
+      "create": "Döretmek",
+      "sections": {
+        "basicInfo": "Esasy maglumatlar",
+        "narrative": "Hekaýa",
+        "architectureDecisions": "Arhitektura kararlary",
+        "techStack": "Tech Stack",
+        "results": "Netijeler",
+        "tags": "Taglar"
+      },
+      "fields": {
+        "title": "Ady",
+        "titlePlaceholder": "Mysal barlagynyň ady",
+        "slug": "Slug",
+        "slugPlaceholder": "awtomatik döredilen-başlykdan",
+        "client": "Müşderi",
+        "clientPlaceholder": "Müşderiniň ady",
+        "industry": "Senagat",
+        "industryPlaceholder": "Saýlanan senagat",
+        "description": "Düşündiriş",
+        "descriptionPlaceholder": "Gysgaça düşündiriş (kartlarda görkezilen)",
+        "executiveSummary": "Ýerine ýetiriji gysgaça maglumat",
+        "executiveSummaryPlaceholder": "Gatnaşyklaryň ýokary derejeli gözden geçirilişi",
+        "challenge": "Kynçylyk",
+        "challengePlaceholder": "Müşderi nähili kynçylyga duş geldi?",
+        "solution": "Çözgüt",
+        "solutionPlaceholder": "Kynçylyk nädip çözüldi?",
+        "decision": "Karar",
+        "decisionPlaceholder": "Nähili karar kabul edildi",
+        "rationale": "Sebäbi",
+        "rationalePlaceholder": "Näme üçin bu usul saýlandy?",
+        "metric": "Metrik",
+        "metricPlaceholder": "Meselem, settlement gijä galmagy",
+        "value": "Gymmaty",
+        "valuePlaceholder": "mysal üçin -63% ýa-da 4,8 sagat -> 11m",
+        "resultDescription": "Düşündiriş",
+        "resultDescriptionPlaceholder": "Bu netije nämäni aňladýar?",
+        "techPlaceholder": "Tehnologiýany ekle (Enter basyň)",
+        "tagPlaceholder": "Tag ekle (Enter basyň)"
+      },
+      "add": "Ekle",
+      "noArchDecisions": "Arhitektura babatda heniz karar goşulmady.",
+      "noResults": "Heniz hiç hili netije goşulmady.",
+      "decisionLabel": "Karar {{number}}",
+      "resultLabel": "Netije {{number}}",
+      "controls": {
+        "published": "Çap edildi",
+        "publishedDescription": "Bu wakany hemmelere aýan ediň",
+        "featured": "Aýratyn",
+        "featuredDescription": "Bu mysaly nygtap geçiň"
+      }
+    },
+    "imageCrop": {
+      "apply": "Ulanmak",
+      "cancel": "Ýatyrmak",
+      "cropTitle": "Resimi Kırp",
+      "dropText": "Bu ýere surat goýuň ýa-da ýüklemek üçin basyň",
+      "flipHorizontal": "Gorizontal flip",
+      "flipVertical": "Dikligine öwrül",
+      "replace": "Çalyşmak",
+      "reset": "Reset",
+      "rotateLeft": "Çepe öwrül",
+      "rotateRight": "Sag tarapa öwrül",
+      "uploading": "Ýüklenýär...",
+      "toast": {
+        "invalidFile": "Nädogry faýl",
+        "invalidFileDesc": "Dogry resim faýly ýüklemegiňizi haýyş edýäris.",
+        "uploadFailed": "Ýüklemek başarnyksyz boldy",
+        "uploadFailedDesc": "Bir zat ýalňyşdy. Haýyş edýärin, ýene-de synanyşyň.",
+        "uploaded": "Resim ýüklendi",
+        "uploadedDesc": "Siziň resmiňiz üstünlikli ýüklendi."
+      }
+    }
+  }
+}

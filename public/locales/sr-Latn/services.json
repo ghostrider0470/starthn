@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Početak rada",
+    "ctaSecondary": "Zakažite konsultacije"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Razvoj softvera za preduzeća",
+      "description": "End-to-end poslovne aplikacije sa modernim okvirima, API-first arhitekturom i skalabilnošću u oblaku."
+    },
+    "sections": {
+      "problem": {
+        "title": "Uokvirivanje poslovnih problema",
+        "subtitle": "Gde programi preduzeća gube brzinu, budžet i strateško usklađivanje"
+      },
+      "approach": {
+        "title": "Inženjerski pristup",
+        "subtitle": "Kako dvosmislene zahteve pretvaramo u platforme spremne za proizvodnju"
+      },
+      "principles": {
+        "title": "Principi arhitekture",
+        "subtitle": "Dizajnirajte odluke koje održavaju sisteme preduzeća u velikoj meri"
+      },
+      "capabilities": {
+        "title": "Ono što gradimo",
+        "subtitle": "Sveobuhvatne mogućnosti razvoja softvera"
+      },
+      "technology": {
+        "title": "Naš tehnološki stek",
+        "subtitle": "Moderne, dokazane tehnologije za isporuku preduzeća"
+      },
+      "breakdown": {
+        "title": "Servis slom",
+        "subtitle": "Strukturirani put od otkrića do stabilne isporuke proizvodnje"
+      }
+    },
+    "problem": {
+      "overview": "Enterprise timovi često nose kritične tokove posla na fragmentiranim sistemima, stvarajući duga vremena isporuke, nekonzistentne podatke i skupu ručnu koordinaciju između odeljenja.",
+      "painPointsTitle": "Ponavljajući poslovni bol",
+      "impactSignalsTitle": "Ono što lideri obično posmatraju",
+      "painPoints": [
+        "Obaveze isporuke klize jer se ne upravlja zavisnostima između timova",
+        "Osnovna poslovna logika se duplira preko kanala i proizvoda",
+        "Nasleđe integracije čine nove funkcije pokreće visokog rizika i sporo"
+      ],
+      "impactSignals": [
+        "Propusnost mape puta opada dok se povećava potrošnja inženjeringa",
+        "Nedostaci sa kojima se suočavaju kupci rastu tokom perioda oslobađanja",
+        "Donošenje odluka usporava zbog nedoslednog operativnog izveštavanja"
+      ]
+    },
+    "approach": {
+      "overview": "Izvršavamo sa arhitekturom-prvo otkriće, isporukom na osnovu ugovora i kontrolisanim inženjeringom oslobađanja, tako da se poslovna vrednost isporučuje u predvidljivim koracima.",
+      "pillars": [
+        {
+          "title": "Modeliranje domena i ograničeni konteksti",
+          "detail": "Mapiramo domene kako bismo očistili granice usluga kako bismo smanjili spajanje između timova i razjasnili vlasništvo."
+        },
+        {
+          "title": "API-Prva strategija integracije",
+          "detail": "Rano definišemo stabilne ugovore, omogućavajući paralelni razvoj i sigurniju integraciju sa sistemima preduzeća."
+        },
+        {
+          "title": "Progresivni tok isporuke",
+          "detail": "Koristimo zastave funkcija, inscenirana uvođenja i kvalitetne kapije za brzo oslobađanje bez destabilizacije proizvodnje."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naše odluke o arhitekturi daju prioritet dugovečnosti, operativnosti i jasnom vlasništvu, tako da platforme ostaju prilagodljive kako obim poslovanja raste.",
+      "items": [
+        {
+          "title": "Modularne granice usluga",
+          "detail": "Mogućnosti su upakovane oko poslovnih domena kako bi se uticaj promena lokalizovao."
+        },
+        {
+          "title": "Integracija vođena događajima",
+          "detail": "Asinhroni tokovi posla se koriste tamo gde postoji tolerancija kašnjenja za poboljšanje otpornosti i razdvajanje sistema."
+        },
+        {
+          "title": "Posmatranje po dizajnu",
+          "detail": "Praćenje, metrike i strukturirani dnevnici su definisani unapred kako bi podržali pouzdane operacije i SLA upravljanje."
+        }
+      ]
+    },
+    "capabilities": [
+      "Prilagođene veb aplikacije",
+      "Razvoj mobilnih aplikacija",
+      "Razvoj i integracija API-ja",
+      "Arhitektura mikroservisa",
+      "Cloud-Native rešenja",
+      "Nasleđe Modernizacija sistema"
+    ],
+    "technologies": [
+      {
+        "name": "Pretraživanje",
+        "category": "Pretraživanje",
+        "icon": "reagovati"
+      },
+      {
+        "name": "Node.js",
+        "category": "Pozadina",
+        "icon": "Sortiraj"
+      },
+      {
+        "name": ".NET",
+        "category": "Pozadina",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Bilten",
+        "category": "Pozadina",
+        "icon": "piton"
+      },
+      {
+        "name": "TipeSkript",
+        "category": "Jezik",
+        "icon": "Tipografija"
+      },
+      {
+        "name": "Pretraživanje",
+        "category": "Mapa sajta",
+        "icon": "OMILjENO"
+      },
+      {
+        "name": "Preuzmite",
+        "category": "Mapa sajta",
+        "icon": "Pretraživanje"
+      },
+      {
+        "name": "Preuzmite",
+        "category": "Mapa sajta",
+        "icon": "Sortiraj"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Otkriće i arhitektura",
+        "summary": "Mapiramo poslovne prioritete, tehnička ograničenja i ciljnu arhitekturu pre početka implementacije.",
+        "deliverables": [
+          "Proizvod i zahtev usklađivanje radionica",
+          "Arhitektura rešenja",
+          "Plan isporuke zasnovan na prekretnicama"
+        ]
+      },
+      {
+        "title": "Izgradnja i integracija",
+        "summary": "Naši timovi paralelno implementiraju osnovne funkcije, slojeve integracije i zaštitne mere kvaliteta.",
+        "deliverables": [
+          "Razvoj karakteristika u iterativnim sprintovima",
+          "API i integracije nezavisnih proizvođača",
+          "Automatizovano testiranje i provere spremnosti za izdavanje"
+        ]
+      },
+      {
+        "title": "Lansiranje i evolucija",
+        "summary": "Nakon puštanja u rad, stabilizujemo operacije i definišemo sledeći ciklus poboljšanja na osnovu stvarne upotrebe.",
+        "deliverables": [
+          "Runbook za uvođenje proizvodnje",
+          "Performanse i pouzdanost podešavanje",
+          "Mapa puta nakon lansiranja i zaostatak poboljšanja"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Spremni da napravite sledeću aplikaciju?",
+      "description": "Hajde da dizajniramo i isporučimo rešenje koje pokreće merljive poslovne rezultate.",
+      "button": "Započnite svoj projekat"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML i poslovna inteligencija",
+      "description": "Od prediktivnih modela do izvršnih kontrolnih tabli, gradimo kompletne AI / BI sisteme koji podržavaju odluke u velikoj meri."
+    },
+    "sections": {
+      "problem": {
+        "title": "Uokvirivanje poslovnih problema",
+        "subtitle": "Zašto organizacije bogate podacima i dalje bore da donose pouzdane odluke"
+      },
+      "approach": {
+        "title": "Inženjerski pristup",
+        "subtitle": "Kako operacionalizujemo proizvode podataka, ML modele i BI tokove posla"
+      },
+      "principles": {
+        "title": "Principi arhitekture",
+        "subtitle": "Obrasci arhitekture podataka i modela za pouzdanu inteligenciju odlučivanja"
+      },
+      "capabilities": {
+        "title": "Naše mogućnosti",
+        "subtitle": "Sveobuhvatna AI, ML i BI rešenja"
+      },
+      "technology": {
+        "title": "Naš tehnološki stek",
+        "subtitle": "Vodeći alati za podatke i AI"
+      },
+      "breakdown": {
+        "title": "Servis slom",
+        "subtitle": "Kako prelazimo sa fragmentiranih podataka na inteligenciju proizvodnog razreda"
+      }
+    },
+    "problem": {
+      "overview": "Organizacije često prikupljaju velike količine podataka, ali ne uspevaju da ih prevedu u pouzdano predviđanje, operativne odluke ili merljive poslovne akcije.",
+      "painPointsTitle": "Ponavljajući poslovni bol",
+      "impactSignalsTitle": "Ono što lideri obično posmatraju",
+      "painPoints": [
+        "Logika izveštavanja se razlikuje od tima do timova, što rezultira konfliktnim KPI narativima",
+        "Modeli ostaju u eksperimentisanju i nikada ne dostignu proizvodne tokove posla",
+        "Problemi sa kvalitetom podataka podrivaju poverenje u analitiku i izvršne kontrolne table"
+      ],
+      "impactSignals": [
+        "Ciklusi odlučivanja usporavaju jer timovi raspravljaju o validnosti podataka umesto akcije",
+        "Tačnost predviđanja i planiranja ostaje nedosledna iz kvartala u kvartal",
+        "Ulaganja u analitiku pokazuju nisko usvajanje izvan specijalizovanih analitičkih grupa"
+      ]
+    },
+    "approach": {
+      "overview": "Isporučujemo AI i BI platforme kao proizvodne sisteme, inženjering podataka za spajanje, operacije životnog ciklusa modela i integraciju toka donošenja odluka.",
+      "pillars": [
+        {
+          "title": "Fondacija za proizvode podataka",
+          "detail": "Proizvodi podataka usklađeni sa domenom uspostavljaju višekratne, upravljane i visokokvalitetne ulaze za analitiku i ML."
+        },
+        {
+          "title": "MLOps automatizacija životnog ciklusa",
+          "detail": "Obuka, raspoređivanje, nadgledanje i kontrola drifta su automatizovani kako bi modeli bili pouzdani u proizvodnji."
+        },
+        {
+          "title": "Integracija toka odluke",
+          "detail": "Uvidi su ugrađeni u operativne alate i kontrolne table, tako da timovi deluju na inteligenciju u svakodnevnim procesima."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naša AI / BI arhitektura daje prioritet pouzdanim podacima, objašnjivim modelima i upravljanim obrascima pristupa širom preduzeća.",
+      "items": [
+        {
+          "title": "Pojedinačne metričke definicije",
+          "detail": "Kritični KPI su definisani jednom kroz zajedničke semantičke modele kako bi se eliminisala konfliktna logika izveštavanja."
+        },
+        {
+          "title": "Kontrole pouzdanosti modela",
+          "detail": "Pragovi performansi, detekcija drifta i mehanizmi za vraćanje štite kvalitet odluka u proizvodnji."
+        },
+        {
+          "title": "Bezbednost i upravljanje po dizajnu",
+          "detail": "Rod podataka, pristup zasnovan na ulozi i kontrole spremne za reviziju ugrađeni su u svaki cevovod."
+        }
+      ]
+    },
+    "capabilities": [
+      "Modeli i cevovodi mašinskog učenja",
+      "Pover BI kontrolne table i izveštaji",
+      "Prediktivna analitika",
+      "Prenos podataka u realnom vremenu",
+      "Rešenja za skladištenje podataka"
+    ],
+    "technologies": [
+      {
+        "name": "Miцrosoft tkanina",
+        "category": "Kategorije",
+        "icon": "Softver sličan mikiberu"
+      },
+      {
+        "name": "Pretraga BI",
+        "category": "Biseksualdži",
+        "icon": "Preuzmite"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Skladište podataka",
+        "icon": "Softver sličan MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Inženjering podataka",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML platforma",
+        "icon": "Softver sličan MicrosoftAzure"
+      },
+      {
+        "name": "Pretraživanje",
+        "category": "ML okvir",
+        "icon": "Sortiraj"
+      },
+      {
+        "name": "Omiljeno",
+        "category": "ML okvir",
+        "icon": "pitorh"
+      },
+      {
+        "name": "Slika",
+        "category": "Analitika",
+        "icon": "Bilten"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Pretraga",
+        "icon": "Srpsko-hrvatski"
+      },
+      {
+        "name": "Bilten",
+        "category": "Jezik",
+        "icon": "Pretraživanje"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Fondacija podataka",
+        "summary": "Mi revidiramo izvore, definišemo ugovore o podacima i uspostavljamo upravljanje tako da svaki model počinje sa pouzdanim ulazima.",
+        "deliverables": [
+          "Izvor podataka i procena kvaliteta",
+          "Inženjering karakteristika i planiranje šeme",
+          "Osnovna linija bezbednosti i upravljanja"
+        ]
+      },
+      {
+        "title": "Isporuka modela i uvida",
+        "summary": "Gradimo modele i kontrolne table za odlučivanje vezane za merljiva poslovna pitanja i KPI.",
+        "deliverables": [
+          "Razvoj i validacija modela",
+          "Izvršne kontrolne table i operativno izveštavanje",
+          "Integracija toka odluke"
+        ]
+      },
+      {
+        "title": "MLOps & Usvajanje",
+        "summary": "Operacionalizujemo raspoređivanje, praćenje i omogućavanje tima kako bi rezultati bili pouzdani tokom vremena.",
+        "deliverables": [
+          "Automatizovani cevovodi za raspoređivanje modela",
+          "Drift, tačnost i praćenje korišćenja",
+          "Priručnik o primopredaji i radu tima"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Pretvorite svoje podatke u uvid",
+      "description": "Pretvorite fragmentirane podatke u jasne, djelotvorne inteligencije.",
+      "button": "Započnite svoje putovanje"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Arhitektura i infrastruktura oblaka",
+      "description": "Multi-cloud platforme, otporna arhitektura i skalabilna infrastruktura dizajnirana za dugoročni rast."
+    },
+    "sections": {
+      "problem": {
+        "title": "Uokvirivanje poslovnih problema",
+        "subtitle": "Zašto inicijative u oblaku zastaju nakon prvog migracionog talasa"
+      },
+      "approach": {
+        "title": "Inženjerski pristup",
+        "subtitle": "Kako gradimo sigurne, skalabilne cloud platforme sa kontrolisanim rizikom migracije"
+      },
+      "principles": {
+        "title": "Principi arhitekture",
+        "subtitle": "Odluke platforme koje balansiraju agilnost, otpornost i upravljanje"
+      },
+      "capabilities": {
+        "title": "Usluge u oblaku",
+        "subtitle": "Izgradite, primenite i skalirajte u oblaku"
+      },
+      "technology": {
+        "title": "Multi-Cloud ekspertiza",
+        "subtitle": "Platformski agnostička rešenja u oblaku"
+      },
+      "breakdown": {
+        "title": "Servis slom",
+        "subtitle": "Jasan redosled za projektovanje, migraciju i upravljanje cloud platformama"
+      }
+    },
+    "problem": {
+      "overview": "Mnoge organizacije završavaju početne migracije u oblaku, ali i dalje rade kao on-prem timovi, sa slabom vidljivošću, nedoslednim kontrolama i rastućom potrošnjom.",
+      "painPointsTitle": "Ponavljajući poslovni bol",
+      "impactSignalsTitle": "Ono što lideri obično posmatraju",
+      "painPoints": [
+        "Radna opterećenja se migriraju bez standardnih bezbednosnih i mrežnih kontrola",
+        "Troškovi oblaka rastu brže od isporučene poslovne vrednosti",
+        "Obezbeđivanje okruženja ostaje ručno i nedosledno u timovima"
+      ],
+      "impactSignals": [
+        "Česti incidenti izazvani konfiguracijom drift između okruženja",
+        "Spremnost za reviziju degradira zbog fragmentiranih praksi upravljanja",
+        "Vreme isporuke infrastrukture odlaže inicijative za proizvode i podatke"
+      ]
+    },
+    "approach": {
+      "overview": "Dizajniramo cloud platforme kao proizvode, koristeći automatizaciju infrastrukture, zaštitne ograde politike i migracione talase usklađene sa kritičnošću poslovanja.",
+      "pillars": [
+        {
+          "title": "Zona sletanja kao kod",
+          "detail": "Identitet, umrežavanje, bezbednost i osnove politike su kodifikovane za ponovljivost i reviziju."
+        },
+        {
+          "title": "Strategija migracije zasnovana na talasima",
+          "detail": "Radna opterećenja se kreću u kontrolisanim fazama sa sekvenciranjem i spremnošću za vraćanje zavisnosti."
+        },
+        {
+          "title": "SRE + FinOps operativna petlja",
+          "detail": "Indikatori pouzdanosti i ekonomija jedinica se pregledavaju zajedno kako bi se poboljšalo i vreme rada i efikasnost potrošnje."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naš model arhitekture favorizuje deklarativnu infrastrukturu, pristup sa najmanjim privilegijama i kompozitne platforme koje podržavaju brzu isporuku proizvoda.",
+      "items": [
+        {
+          "title": "Nepromenljivi infrastrukturni obrasci",
+          "detail": "Okruženja su obnovljena iz verzionisanog koda kako bi se smanjio drift i pojednostavio operativni oporavak."
+        },
+        {
+          "title": "Osnovna bezbednosna linija po defaultu",
+          "detail": "Kontrole pristupa nultog poverenja i sprovođenje politike ugrađeni su u svaki životni ciklus okruženja."
+        },
+        {
+          "title": "Otpornost kroz distribuciju",
+          "detail": "Kritična radna opterećenja su dizajnirana za toleranciju neuspeha u više zona ili više regiona gde to zahteva uticaj na poslovanje."
+        }
+      ]
+    },
+    "capabilities": [
+      "Multi-Cloud strategija i implementacija",
+      "Orkestracija kontejnera (Kubernetes)",
+      "Računarstvo bez servera",
+      "Usluge migracije u oblaku",
+      "Arhitektura visoke dostupnosti"
+    ],
+    "technologies": [
+      {
+        "name": "Bilten",
+        "category": "Oblak",
+        "icon": "Softver sličan MicrosoftAzure"
+      },
+      {
+        "name": "OMILjENO",
+        "category": "Oblak",
+        "icon": "Srpskohrvatski / srpskohrvatski"
+      },
+      {
+        "name": "GCP",
+        "category": "Oblak",
+        "icon": "Mapa sajta"
+      },
+      {
+        "name": "Bilten",
+        "category": "Orkestracija",
+        "icon": "Bilten"
+      },
+      {
+        "name": "Doker",
+        "category": "Kontejneri",
+        "icon": "Bilten"
+      },
+      {
+        "name": "Pretraživanje",
+        "category": "IaC",
+        "icon": "Pretraživanje"
+      },
+      {
+        "name": "ARM Šabloni",
+        "category": "IaC",
+        "icon": "Softver sličan MicrosoftAzure"
+      },
+      {
+        "name": "Formiranje oblaka",
+        "category": "IaC",
+        "icon": "Srpskohrvatski / srpskohrvatski"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Arhitektura i zona za sletanje",
+        "summary": "Definišemo ciljno stanje, zaštitne ograde i standarde osnovne platforme pre nego što se radna opterećenja kreću.",
+        "deliverables": [
+          "Dizajn ciljne arhitekture oblaka",
+          "Identitet, umrežavanje i bezbednosna osnova",
+          "Troškovi i usklađenost ograde"
+        ]
+      },
+      {
+        "title": "Migracija i izgradnja platforme",
+        "summary": "Izvršavamo migracione talase i postavljamo komponente platforme u oblaku sa ponovljivom automatizacijom.",
+        "deliverables": [
+          "Sekvenciranje migracije radnog opterećenja",
+          "Podešavanje kontejnera i serverless platforme",
+          "Infrastruktura kao moduli koda"
+        ]
+      },
+      {
+        "title": "Pouzdanost i FinOps",
+        "summary": "Poboljšavamo operativnu pouzdanost i kontinuirano optimiziramo potrošnju u oblaku na osnovu telemetrije uživo.",
+        "deliverables": [
+          "SLO, praćenje i radni tokovi incidenata",
+          "Validacija otpornosti i oporavka od katastrofe",
+          "Zaostatak za optimizaciju troškova i ritam upravljanja"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Skalirajte svoju infrastrukturu",
+      "description": "Izgradite temelje oblaka koji ostaju otporni pod stvarnim opterećenjem.",
+      "button": "Planirajte svoju strategiju oblaka"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps i platformski inženjering",
+      "description": "Automatizovani cevovodi za isporuku, posmatranje i prakse platforme koje poboljšavaju brzinu bez žrtvovanja pouzdanosti."
+    },
+    "sections": {
+      "problem": {
+        "title": "Uokvirivanje poslovnih problema",
+        "subtitle": "Zašto brzina isporuke opada kako se povećava složenost platforme"
+      },
+      "approach": {
+        "title": "Inženjerski pristup",
+        "subtitle": "Kako standardizujemo cevovode za isporuku bez usporavanja timova proizvoda"
+      },
+      "principles": {
+        "title": "Principi arhitekture",
+        "subtitle": "Obrasci inženjeringa platforme koji skaliraju pouzdanost i autonomiju tima"
+      },
+      "capabilities": {
+        "title": "DevOps usluge",
+        "subtitle": "Automatizujte, nadgledajte i optimizujte životni ciklus isporuke"
+      },
+      "technology": {
+        "title": "DevOps alati i platforme",
+        "subtitle": "Najbolji u klasi DevOps alatni lanac"
+      },
+      "breakdown": {
+        "title": "Servis slom",
+        "subtitle": "Praktična mapa puta od uskih grla u isporuci do toka oslobađanja visokog poverenja"
+      }
+    },
+    "problem": {
+      "overview": "Organizacije često ulažu u CI / CD alate, ali se i dalje bore sa nestabilnim izdanjima, sporim odobrenjima i fragmentiranim vlasništvom u različitim okruženjima.",
+      "painPointsTitle": "Ponavljajući poslovni bol",
+      "impactSignalsTitle": "Ono što lideri obično posmatraju",
+      "painPoints": [
+        "Definicije cevovoda se razlikuju po timu, stvarajući nekonzistentne kapije kvaliteta",
+        "Ručna odobrenja za raspoređivanje odlažu hitnu ispravku i vremenske rokove za izdavanje funkcija",
+        "Operativni incidenti se ponavljaju jer je telemetrija nepotpuna ili izolirana"
+      ],
+      "impactSignals": [
+        "Olovo vreme za promene nastavlja da se povećava uprkos automatizaciji potrošnje",
+        "Promenite šiljke stope neuspeha tokom perioda isporuke velikog obima",
+        "Produktivnost programera opada zbog trenja alata i prebacivanja konteksta"
+      ]
+    },
+    "approach": {
+      "overview": "Uspostavljamo interni model platforme za programere sa šablonima cevovoda za višekratnu upotrebu, upravljanjem vođenim politikom i potpunim posmatranjem životnog ciklusa.",
+      "pillars": [
+        {
+          "title": "Zlatna staza Cevovod Šabloni",
+          "detail": "Za višekratnu upotrebu CI / CD nacrti standardizuju izgradnju, testiranje, bezbednosne provere i radne tokove primene."
+        },
+        {
+          "title": "API platforme i samoposluživanje",
+          "detail": "Timovi pružaju okruženja i oslobađaju infrastrukturu putem kontrolisanih interfejsa za samoposluživanje."
+        },
+        {
+          "title": "Povratne petlje pouzdanosti",
+          "detail": "Trendovi incidenata, SLO zdravlje i telemetrija primene informišu o kontinuiranim poboljšanjima procesa i arhitekture."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naša DevOps arhitektura usklađuje brzinu isporuke sa upravljanjem automatizacijom kontrola i minimiziranjem jednokratnog operativnog rada.",
+      "items": [
+        {
+          "title": "Sve kao verzionisani kod",
+          "detail": "Cevovodi, infrastruktura i pravila politike se upravljaju u kontroli izvora radi revizije i ponovljivosti."
+        },
+        {
+          "title": "Progresivna verifikacija",
+          "detail": "Provere kvaliteta, sigurnosti i performansi su slojevito raspoređene u fazama kako bi se ranije otkrio rizik."
+        },
+        {
+          "title": "Zajednička odgovornost platforme",
+          "detail": "Timovi platforme pružaju mogućnosti asfaltiranih puteva, dok timovi proizvoda zadržavaju vlasništvo nad isporukom."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI / CD Pipeline Dizajn",
+      "Infrastruktura kao kod",
+      "Automatsko testiranje",
+      "Automatizacija raspoređivanja",
+      "Monitoring i posmatranje"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Kategorije",
+        "icon": "mazohizam"
+      },
+      {
+        "name": "GitHub Akcije",
+        "category": "CI/CD",
+        "icon": "GitHubActions"
+      },
+      {
+        "name": "Pretraživanje",
+        "category": "IaC",
+        "icon": "Pretraživanje"
+      },
+      {
+        "name": "Dženkins",
+        "category": "CI/CD",
+        "icon": "Dženkins"
+      },
+      {
+        "name": "Bilten",
+        "category": "Pakovanje",
+        "icon": "kormilo"
+      },
+      {
+        "name": "Moguće",
+        "category": "Automatizacija",
+        "icon": "sadržina"
+      },
+      {
+        "name": "Prometej",
+        "category": "Pretraga",
+        "icon": "Prometej"
+      },
+      {
+        "name": "Grafana",
+        "category": "Posmatranje",
+        "icon": "OMILjENO"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Procena platforme",
+        "summary": "Procenjujemo vaš trenutni lanac isporuke softvera kako bismo identifikovali rizične tačke i ograničenja brzine.",
+        "deliverables": [
+          "Mapa toka toka isporuke trenutnog stanja",
+          "Analiza uskog grla cevovoda",
+          "Ciljajte mapu puta zrelosti DevOps-a"
+        ]
+      },
+      {
+        "title": "Izgradnja cevovoda i automatizacije",
+        "summary": "Implementiramo pouzdane CI / CD, kvalitetne kapije i automatizaciju infrastrukture za konzistentna izdanja.",
+        "deliverables": [
+          "CI / CD šabloni za višekratnu upotrebu",
+          "Automatizacija infrastrukture i životne sredine",
+          "Automatizovano testiranje i kontrole oslobađanja"
+        ]
+      },
+      {
+        "title": "Radite i poboljšajte",
+        "summary": "Uspostavljamo petlje posmatranja i upravljanja koje podržavaju kontinuirano poboljšanje isporuke.",
+        "deliverables": [
+          "Nadgledanje kontrolnih tabli i politika upozorenja",
+          "Objavite knjige o upravljanju i incidentima",
+          "Metrike i pregledi kontinuiranog poboljšanja"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ubrzajte isporuku",
+      "description": "Smanjite trenje oslobađanja i poboljšajte pouzdanost sa zrelim DevOps praksama.",
+      "button": "Transformišite svoj cevovod"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Digitalna transformacija i strategija",
+      "description": "Strateška savetodavna i izvršna podrška za modernizaciju platformi, timova i operativnih modela."
+    },
+    "sections": {
+      "problem": {
+        "title": "Uokvirivanje poslovnih problema",
+        "subtitle": "Gde programi transformacije gube zamah i izvršno poverenje"
+      },
+      "capabilities": {
+        "title": "Konsultantske usluge",
+        "subtitle": "Strateške smernice za digitalni uspeh"
+      },
+      "approach": {
+        "title": "Inženjerski pristup",
+        "subtitle": "Kako prevedemo strategiju u izvršnu promenu podržanu tehnologijom"
+      },
+      "principles": {
+        "title": "Principi arhitekture",
+        "subtitle": "Operativni model i izbor platforme koji štite ishode transformacije"
+      },
+      "technology": {
+        "title": "Tehnologija Stek",
+        "subtitle": "Platforme i okviri koje koristimo za operacionalizaciju transformacije"
+      },
+      "breakdown": {
+        "title": "Servis slom",
+        "subtitle": "Strukturirana transformacija od definicije strategije do merljive poslovne vrednosti"
+      }
+    },
+    "problem": {
+      "overview": "Digitalne inicijative često počinju sa jakom namerom, ali ne uspevaju da se pretvore u ishode isporuke zbog nejasnog vlasništva, nepovezanog alata i konkurentskih prioriteta.",
+      "painPointsTitle": "Ponavljajući poslovni bol",
+      "impactSignalsTitle": "Ono što lideri obično posmatraju",
+      "painPoints": [
+        "Mape puta transformacije su definisane, ali nisu prevedene u upravljanje isporukom",
+        "Poslovni i inženjerski prioriteti se razlikuju nakon početnih ciklusa planiranja",
+        "Nasleđeni operativni modeli blokiraju usvajanje savremenih praksi isporuke proizvoda"
+      ],
+      "impactSignals": [
+        "Potrošnja programa raste, dok strateški KPI pokret ostaje ravan",
+        "Inicijativama nedostaju tačke primopredaje između strategije, arhitekture i izvršenja",
+        "Timovi doživljavaju zamor od promena sa ograničenom ostvarenom poslovnom vrednošću"
+      ]
+    },
+    "approach": {
+      "overview": "Kombinujemo strateško savetovanje sa arhitekturom isporuke, usklađujući dizajn operativnog modela, sposobnost platforme i ritam izvršenja oko merljivih ciljeva.",
+      "pillars": [
+        {
+          "title": "Određivanje prioriteta toka vrednosti",
+          "detail": "Sekvenciramo inicijative zasnovane na merljivom poslovnom uticaju i tehničkim ograničenjima zavisnosti."
+        },
+        {
+          "title": "Dizajn ciljnog operativnog modela",
+          "detail": "Uloge, upravljanje i prava odlučivanja su definisani kako bi podržali brže izvršenje u poslovnim i tehnološkim timovima."
+        },
+        {
+          "title": "Upravljanje isporukom portfolija",
+          "detail": "Napretkom transformacije upravlja se putem kontrolnih punktova povezanih sa KPI i kontrola rizika na nivou portfelja."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naša arhitektura transformacije naglašava inkrementalnu modernizaciju i jasnu odgovornost, izbegavajući ometajuće prepisivanje bez poslovnog opravdanja.",
+      "items": [
+        {
+          "title": "Usklađivanje poslovnih sposobnosti",
+          "detail": "Tehnološke promene su organizovane oko mogućnosti koje direktno mapiraju na prihode, kvalitet usluga ili efikasnost troškova."
+        },
+        {
+          "title": "Strategija kompozitne platforme",
+          "detail": "Komponente platforme su odabrane za interoperabilnost kako bi podržale faznu migraciju i bržu adaptaciju."
+        },
+        {
+          "title": "Upravljanje sa ritmom isporuke",
+          "detail": "Forumi za odlučivanje i kontrolne tačke ugrađeni su u sprint i kvartalne cikluse, a ne tretiraju se kao odvojene birokratske staze."
+        }
+      ]
+    },
+    "capabilities": [
+      "Mape puta za digitalnu transformaciju",
+      "Razvoj tehnološke strategije",
+      "Okviri za usvajanje oblaka",
+      "Optimizacija procesa",
+      "Upravljanje promenama"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Fondacija za oblak",
+        "icon": "Softver sličan MicrosoftAzure"
+      },
+      {
+        "name": "Miцrosoft tkanina",
+        "category": "Platforma podataka",
+        "icon": "Softver sličan mikiberu"
+      },
+      {
+        "name": "Pretraga BI",
+        "category": "Inteligencija odluka",
+        "icon": "Preuzmite"
+      },
+      {
+        "name": "Snaga platforme",
+        "category": "Nisko-kod",
+        "icon": "Softver sličan mikiberu"
+      },
+      {
+        "name": "Fejsbuk",
+        "category": "Saradnja",
+        "icon": "Softver sličan Microsoftsharepoint-u"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP / CRM",
+        "icon": "Softver sličan mikiberu"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Usklađivanje strategije",
+        "summary": "Usklađujemo prioritete liderstva i digitalne ciljeve kako bismo stvorili zajednički pravac transformacije.",
+        "deliverables": [
+          "Ciljevi transformacije i kriterijumi uspeha",
+          "Zrelost sposobnosti i procena jaza",
+          "Prioritetni portfelj inicijativa"
+        ]
+      },
+      {
+        "title": "Izvršenje Nacrt",
+        "summary": "Definišemo ciljni operativni model, arhitektonske standarde i fazni redosled implementacije.",
+        "deliverables": [
+          "Operativni model i dizajn upravljanja",
+          "Standardi tehnologije i arhitekture procesa",
+          "Mapa puta za implementaciju u fazama"
+        ]
+      },
+      {
+        "title": "Promena i realizacija vrednosti",
+        "summary": "Pokrećemo usvajanje, pratimo kretanje KPI-a i usavršavamo inicijative na osnovu rezultata isporuke.",
+        "deliverables": [
+          "Plan usvajanja i omogućavanja",
+          "Kadenca merenja KPI",
+          "Kvartalni zaostatak optimizacije"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Započnite svoje putovanje transformacije",
+      "description": "Upravljajte promenama sa jasnim prioritetima i praktičnim planovima isporuke.",
+      "button": "Raspored strateške sesije"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Povezani sistemi od uređaja do oblaka, sa telemetrijskim cevovodima i rubnom inteligencijom za industrijske razmere."
+    },
+    "sections": {
+      "problem": {
+        "title": "Uokvirivanje poslovnih problema",
+        "subtitle": "Zašto programi povezanih uređaja ne uspevaju da se skaliraju izvan pilot primene"
+      },
+      "approach": {
+        "title": "Inženjerski pristup",
+        "subtitle": "Kako dizajniramo sigurne, operativne IoT sisteme od firmvera uređaja do oblaka API-ja"
+      },
+      "principles": {
+        "title": "Principi arhitekture",
+        "subtitle": "Pravila dizajna od ivice do oblaka za pouzdanost, latenciju i upravljanje flotom"
+      },
+      "capabilities": {
+        "title": "IoT rešenja",
+        "subtitle": "Povežite, nadgledajte i optimizujte svoje uređaje"
+      },
+      "technology": {
+        "title": "Puno tehnologija Stek",
+        "subtitle": "Od hardvera do oblaka"
+      },
+      "breakdown": {
+        "title": "Servis slom",
+        "subtitle": "Kako isporučujemo povezane sisteme od rubnih uređaja do inteligencije u oblaku"
+      }
+    },
+    "problem": {
+      "overview": "IoT inicijative često dokazuju tehničku izvodljivost u pilotima, ali ne uspevaju u velikoj meri zbog nepouzdanog povezivanja, slabe kontrole flote, i loše integracije sa poslovnim tokovima posla.",
+      "painPointsTitle": "Ponavljajući poslovni bol",
+      "impactSignalsTitle": "Ono što lideri obično posmatraju",
+      "painPoints": [
+        "Uključivanje uređaja i upravljanje životnim ciklusom ostaju ručni i skloni greškama",
+        "Telemetrijski cevovodi proizvode bučne, nepotpune ili odložene operativne podatke",
+        "Daljinska komanda i ažuriranja firmvera uvode bezbednosni i sigurnosni rizik"
+      ],
+      "impactSignals": [
+        "Pilot okruženja uspevaju, ali rokovi za uvođenje proizvodnje više puta klize",
+        "Timovi za operacije na terenu reaguju na incidente bez prediktivne vidljivosti",
+        "Poslovni sistemi ne mogu pouzdano konzumirati inteligenciju uređaja u realnom vremenu"
+      ]
+    },
+    "approach": {
+      "overview": "Mi arhitektiramo IoT platforme kao kontrolisane distribuirane sisteme, kombinujući sigurne standarde za izvođenje ivica, unos na osnovu događaja i operativno upravljanje na skali flote.",
+      "pillars": [
+        {
+          "title": "Bezbedno upravljanje životnim ciklusom uređaja",
+          "detail": "Obezbeđivanje, identitet, rotacija ključeva i ažuriranja firmvera su automatizovani kako bi se smanjio operativni rizik."
+        },
+        {
+          "title": "Arhitektura telemetrije vođena događajima",
+          "detail": "Streaming cevovodi normalizuju, potvrđuju i usmeravaju događaje uređaja za analitiku i kontrolu u skoro realnom vremenu."
+        },
+        {
+          "title": "Flota Operacije Kontrola aviona",
+          "detail": "Praćenje, uzbunjivanje i daljinski komandni tokovi pružaju pouzdan nadzor nad distribuiranim sredstvima."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Naša IoT arhitektura balansira niske latencije rubne odluke sa centralizovanim upravljanjem, posmatranjem i sigurnosnom usklađenošću.",
+      "items": [
+        {
+          "title": "Autonomija ivice sa koordinacijom oblaka",
+          "detail": "Kritične lokalne operacije se nastavljaju tokom degradacije mreže dok sinhronizuju stanje sa sistemima oblaka kada su dostupni."
+        },
+        {
+          "title": "Ugovorene šeme događaja",
+          "detail": "Timovi za uređaje i platforme koriste upravljane šeme kako bi sačuvali konzistentnost telemetrije u svim verzijama."
+        },
+        {
+          "title": "Bezbednost uređaja sa nultim poverenjem",
+          "detail": "Uzajamna autentifikacija, najmanja privilegija i šifrovani transport primenjuju se u svakoj interakciji uređaja."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT upravljanje uređajima",
+      "Digitalna rešenja za blizance",
+      "Primena ivičnog računarstva",
+      "Telemetrija u realnom vremenu",
+      "Prediktivno održavanje"
+    ],
+    "technologies": [
+      {
+        "name": "Puno hub",
+        "category": "Цloud Gatevai",
+        "icon": "Softver sličan MicrosoftAzure"
+      },
+      {
+        "name": "Digitalni blizanci",
+        "category": "Simulacija",
+        "icon": "Softver sličan MicrosoftAzure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Bilten",
+        "icon": "Softver sličan MicrosoftAzure"
+      },
+      {
+        "name": "OMILjENO",
+        "category": "Protokol",
+        "icon": "OMILjENO"
+      },
+      {
+        "name": "Preuzmite",
+        "category": "Protokol",
+        "icon": "OMILjENO"
+      },
+      {
+        "name": "Arduino",
+        "category": "hardver",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberri Pi",
+        "category": "hardver",
+        "icon": "Srpsko-hrvatski"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Vremenska serija DB",
+        "icon": "Influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strategija uređaja i ivica",
+        "summary": "Definišemo obrasce povezivanja, standarde za izvođenje ivica i sigurno obezbeđivanje za terenske uređaje.",
+        "deliverables": [
+          "Model uključivanja i povezivanja uređaja",
+          "Edge runtime i plan primene",
+          "Osnovna linija bezbednosti flote"
+        ]
+      },
+      {
+        "title": "Telemetrija i kontrolna ravan",
+        "summary": "Gradimo cevovode koji snimaju događaje, modeliraju digitalne blizance i omogućavaju radne tokove daljinskog upravljanja.",
+        "deliverables": [
+          "Dizajn šeme u realnom vremenu i događaja",
+          "Implementacija digitalnog blizanca i modela imovine",
+          "Komandni i kontrolni API sloj"
+        ]
+      },
+      {
+        "title": "Operacije i skala",
+        "summary": "Operacionalizujemo upravljanje voznim parkom i kontrolu pouzdanosti za IoT okruženja u proizvodnoj skali.",
+        "deliverables": [
+          "Praćenje i uzbunjivanje flote uređaja",
+          "Prediktivno održavanje i otkrivanje anomalija",
+          "Plan podrške za uvođenje i životni ciklus"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Povežite svoje uređaje",
+      "description": "Izgradite pouzdana IoT rešenja spremna za stvarna proizvodna okruženja.",
+      "button": "Započnite svoj IoT projekat"
+    }
+  }
+}

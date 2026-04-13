@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Усе"
+  },
+  "categories": {
+    "aiEngineering": "Інжынерыя штучнага інтэлекту",
+    "enterpriseArchitecture": "Архітэктура прадпрыемства",
+    "cloudDevOps": "Воблака і DevOps",
+    "automationSystems": "Аўтаматызаваныя сістэмы",
+    "softwareReliabilityDesign": "Надзейнасць і дызайн праграмнага забеспячэння"
+  },
+  "readTime": "{{minutes}} хвіліна чытання",
+  "tagsLabel": "Тэгі",
+  "relatedPosts": "Звязаныя паведамленні",
+  "author": {
+    "role": "Выдавец"
+  },
+  "editor": {
+    "emptyPreview": "Пачніце пісаць, каб убачыць прэв'ю..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Хуткая інжынерыя",
+    "observability": "Назіральнасць",
+    "safety": "Бяспека",
+    "domainDesign": "Дызайн дамена",
+    "integration": "Інтэграцыя",
+    "governance": "Кіраванне",
+    "platformStrategy": "Стратэгія платформы",
+    "platformEngineering": "Інжынерыя платформ",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Вопыт распрацоўшчыка",
+    "eventDriven": "Падзеі-арыентаваныя",
+    "workflowOrchestration": "Аркестроўка працоўных працэсаў",
+    "controlPlanes": "Кіравальныя плоскасці",
+    "resilience": "Устойлівасць",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "Рэжымы няўдач",
+    "resilienceEngineering": "Інжынерыя ўстойлівасці",
+    "evaluation": "Ацэнка",
+    "qualityEngineering": "Інжынерыя якасці",
+    "datasets": "Наборы дадзеных",
+    "releaseManagement": "Кіраванне выпускамі",
+    "incidentManagement": "Кіраванне інцыдэнтамі",
+    "architectureEvolution": "Эвалюцыя архітэктуры",
+    "riskReduction": "Зніжэнне рызыкі",
+    "postmortems": "Пасмяротныя даследаванні",
+    "progressiveDelivery": "Прагрэсіўная дастаўка",
+    "canaryReleases": "Выпускі Canary",
+    "featureFlags": "Флагі характарыстык"
+  }
+}

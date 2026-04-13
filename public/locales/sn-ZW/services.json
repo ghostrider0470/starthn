@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Tanga",
+    "ctaSecondary": "Chirongwa chekubvunzana"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Enterprise Software Development",
+      "description": "Yekupedzisira-kusvika-kumagumo bhizinesi kunyorera nemazuva ano masisitimu, API-yekutanga dhizaini, uye gore-chizvarwa scalability."
+    },
+    "sections": {
+      "problem": {
+        "title": "Bhizinesi Dambudziko Kuronga",
+        "subtitle": "Uko zvirongwa zvebhizinesi zvinorasikirwa nekukurumidza, bhajeti, uye kurongeka kwehurongwa"
+      },
+      "approach": {
+        "title": "Nzira yeinjiniya",
+        "subtitle": "Maitiro atinoshandura zvisinganzwisisike zvinodiwa kuita mapuratifomu akagadzirira kugadzira-akagadzirira"
+      },
+      "principles": {
+        "title": "Nheyo dzeArchitecture",
+        "subtitle": "Gadzira sarudzo dzinochengeta masisitimu emakambani achichengetedzwa pachiyero"
+      },
+      "capabilities": {
+        "title": "Zvatinovaka",
+        "subtitle": "Yakazara software yekuvandudza kugona"
+      },
+      "technology": {
+        "title": "Yedu Tekinoroji Stack",
+        "subtitle": "Tekinoroji yemazuva ano, yakasimbiswa yekutengesa mabhizinesi"
+      },
+      "breakdown": {
+        "title": "Kuparara kweSevhisi",
+        "subtitle": "Nzira yakarongeka kubva pakuwanikwa kusvika kune yakagadzikana kugadzirwa kuendesa"
+      }
+    },
+    "problem": {
+      "overview": "Zvikwata zvebhizinesi zvinowanzotakura mafambiro akakomba pane akapatsanurwa masisitimu, achigadzira nguva refu dzekutungamira, data risingaenderane, uye inodhura manyorerwo kubatana pakati pemadhipatimendi.",
+      "painPointsTitle": "Inodzokorora Bhizinesi Kurwadziwa",
+      "impactSignalsTitle": "Izvo Vatungamiriri Vanowanzocherechedza",
+      "painPoints": [
+        "Kuzvipira kwekuendesa kunotsvedza nekuti kutsamira pakati pezvikwata hazvina kutarisirwa",
+        "Core bhizinesi logic inopetwa kaviri muzviteshi uye zvigadzirwa",
+        "Kubatanidzwa kwenhaka kunoita kuti maficha matsva atange ane njodzi huru uye anononoka"
+      ],
+      "impactSignals": [
+        "Roadmap throughput inodonha nepo mari yeinjiniya ichiwedzera",
+        "Zvikanganiso zvakatarisana nevatengi zvinowedzera panguva yekuburitsa",
+        "Maitiro ekuita sarudzo anononoka nekuda kwekusagadzikana kwekushanda kwekushanda"
+      ]
+    },
+    "approach": {
+      "overview": "Isu tinoita nedhizaini-yekutanga kuwanikwa, chibvumirano-chinotungamirwa kuendesa, uye inodzorwa kuburitsa mainjiniya kuitira kuti kukosha kwebhizinesi kutumirwe mukuwedzera kunofungidzirwa.",
+      "pillars": [
+        {
+          "title": "Domain Modeling & Bounded Contexts",
+          "detail": "Isu tinogadzira mepu kuti tijekese miganhu yebasa kudzikisira muchinjikwa-timu yekubatanidza uye kujekesa muridzi."
+        },
+        {
+          "title": "API-First Integration Strategy",
+          "detail": "Isu tinotsanangura zvibvumirano zvakagadzikana pakutanga, zvichigonesa kusimudzira kwakafanana uye kusangana kwakachengeteka nemasisitimu emabhizinesi."
+        },
+        {
+          "title": "Progressive Delivery Workflow",
+          "detail": "Isu tinoshandisa mireza yemaficha, nhanho dzakarongedzwa, uye magedhi emhando yepamusoro kuburitsa nekukurumidza pasina kukanganisa kugadzirwa."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Sarudzo dzedu dzekuvaka dzinokoshesa hupenyu hurefu, kushanda, uye muridzi wakajeka kuitira kuti mapuratifomu arambe achichinjika sezvo bhizinesi rebhizinesi richikura.",
+      "items": [
+        {
+          "title": "Modular Service Miganhu",
+          "detail": "Kugona kwakarongedzwa kwakatenderedza nzvimbo dzebhizinesi kuchengetedza shanduko yenzvimbo."
+        },
+        {
+          "title": "Event-Driven Integration",
+          "detail": "Asynchronous workflows anoshandiswa uko latency kushivirira iripo kuvandudza kusimba uye kuparadzanisa masisitimu."
+        },
+        {
+          "title": "Kucherechedzwa neDhizaini",
+          "detail": "Kuteedzera, metrics, uye matanda akarongeka anotsanangurwa kumberi kutsigira mashandiro akavimbika uye SLA manejimendi."
+        }
+      ]
+    },
+    "capabilities": [
+      "Custom Web Applications",
+      "Mobile App Development",
+      "API Development & Integration",
+      "Microservices Architecture",
+      "Cloud-Native Solutions",
+      "Legacy System Modernization"
+    ],
+    "technologies": [
+      {
+        "name": "Pindura",
+        "category": "Frontend",
+        "icon": "Pindura"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "Nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Mutauro",
+        "icon": "Typescript"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "GraphQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Dhatabhesi",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Dhatabhesi",
+        "icon": "mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Discovery & Architecture",
+        "summary": "Isu tinogadzira mepu yebhizinesi, zvipingamupinyi zvehunyanzvi, uye zvivakwa zvechinangwa zvisati zvatanga.",
+        "deliverables": [
+          "Chigadzirwa uye chinodiwa kuenderana musangano",
+          "Solution architecture blueprint",
+          "Milestone-based delivery plan"
+        ]
+      },
+      {
+        "title": "Kuvaka & Kubatanidza",
+        "summary": "Zvikwata zvedu zvinoshandisa maficha epakati, kubatanidza materu, uye mhando yekuchengetedza zvakafanana.",
+        "deliverables": [
+          "Feature development in iterative sprints",
+          "API uye yechitatu-bato kubatanidzwa",
+          "Otomatiki kuyedza uye kuburitsa kugadzirira kuongororwa"
+        ]
+      },
+      {
+        "title": "Launch & Evolution",
+        "summary": "Mushure mekuenda-kurarama, isu tinodzikamisa mashandiro uye tinotsanangura inotevera yekuvandudza kutenderera zvichibva pakushandisa chaiko.",
+        "deliverables": [
+          "Production rollout runbook",
+          "Performance uye kuvimbika tuning",
+          "Post-kuburitsa roadmap uye yekuvandudza backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Wagadzirira kuvaka yako inotevera application?",
+      "description": "Ngatigadzirei uye titumire mhinduro iyo inotyaira mhedzisiro yebhizinesi inoyerwa.",
+      "button": "Tanga Chirongwa Chako"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML uye Bhizinesi Intelligence",
+      "description": "Kubva pakufungidzira mamodheru kusvika kumadhibhodhi epamusoro, isu tinovaka yakazara AI / BI masisitimu anotsigira sarudzo pachiyero."
+    },
+    "sections": {
+      "problem": {
+        "title": "Bhizinesi Dambudziko Kuronga",
+        "subtitle": "Nei masangano akapfuma e data achiri kunetseka kuita sarudzo dzakavimbika"
+      },
+      "approach": {
+        "title": "Nzira yeinjiniya",
+        "subtitle": "Mashandiro atinoita data zvigadzirwa, ML mamodheru, uye BI workflows"
+      },
+      "principles": {
+        "title": "Nheyo dzeArchitecture",
+        "subtitle": "Dhata uye modhi yekuvaka mapatani eakavimbika sarudzo njere"
+      },
+      "capabilities": {
+        "title": "Unyanzvi hwedu",
+        "subtitle": "Yakazara AI, ML, uye BI mhinduro"
+      },
+      "technology": {
+        "title": "Yedu Tekinoroji Stack",
+        "subtitle": "Zvishandiso zvinotungamira zveindasitiri uye AI"
+      },
+      "breakdown": {
+        "title": "Kuparara kweSevhisi",
+        "subtitle": "Maitiro atinoita kubva kune yakakamurwa data kuenda kune yekugadzira-giredhi huchenjeri"
+      }
+    },
+    "problem": {
+      "overview": "Masangano anowanzo unganidza mavhoriyamu makuru e data asi anokundikana kuishandura kuita fungidziro yakavimbika, sarudzo dzekushanda, kana chiito chebhizinesi chinoyerwa.",
+      "painPointsTitle": "Inodzokorora Bhizinesi Kurwadziwa",
+      "impactSignalsTitle": "Izvo Vatungamiriri Vanowanzocherechedza",
+      "painPoints": [
+        "Pfungwa yekuzivisa inosiyana pakati pezvikwata, zvichikonzera kukakavadzana kweKPI nhoroondo",
+        "Mamodheru anoramba ari mukuyedza uye haambosviki kumabasa ekugadzira",
+        "Nyaya dzemhando yedata dzinokanganisa kuvimba mu analytics uye executive dashboards"
+      ],
+      "impactSignals": [
+        "Kutenderera kwesarudzo kunononoka nekuti zvikwata zvinokakavadzana nehuchokwadi hwedata pane chiito",
+        "Kufungidzira uye kuronga kuronga kurongeka kunoramba kusingaenderane kota pamusoro pekota",
+        "Analytics investments show low adoption outside specialized analyst groups"
+      ]
+    },
+    "approach": {
+      "overview": "Isu tinoendesa AI uye BI mapuratifomu sehurongwa hwekugadzira, kubatanidza data engineering, modhi yehupenyu hwekufamba, uye sarudzo yekufamba kwebasa.",
+      "pillars": [
+        {
+          "title": "Data Chigadzirwa Foundation",
+          "detail": "Domain-yakabatana data zvigadzirwa zvinosimbisa zvinoshandiswazve, zvinodzorwa, uye zvemhando yepamusoro zvinoshandiswa zve analytics uye ML."
+        },
+        {
+          "title": "MLOps Lifecycle Automation",
+          "detail": "Kudzidziswa, kutumirwa, kuongorora, uye kutenderera kudzora kunoitwa otomatiki kuchengetedza mamodheru akavimbika mukugadzira."
+        },
+        {
+          "title": "Decision Workflow Integration",
+          "detail": "Nzwisiso yakaiswa mumaturusi anoshanda uye madhibhodhi saka zvikwata zvinoshanda pahungwaru mukati memaitiro ezuva nezuva."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Yedu AI / BI dhizaini inoisa pamberi data rakavimbika, mamodheru anotsanangurwa, uye maitiro ekuwana anotongwa mubhizinesi.",
+      "items": [
+        {
+          "title": "Single Metric Tsanangudzo",
+          "detail": "Critical KPIs inotsanangurwa kamwe chete kuburikidza neyakagovaniswa semantic mamodheru kubvisa zvinopesana zvekuzivisa pfungwa."
+        },
+        {
+          "title": "Model Kuvimbika Kudzora",
+          "detail": "Zvikumbaridzo zvekuita, kuongororwa kwekufambisa, uye nzira dzekudzosera dzinodzivirira mhando yesarudzo mukugadzira."
+        },
+        {
+          "title": "Kuchengetedzeka uye Kutonga neDhizaini",
+          "detail": "Dhata mutsara, basa-rakavakirwa kuwana, uye kuongorora-kwakagadzirira kutonga kwakaiswa mupombi yega yega."
+        }
+      ]
+    },
+    "capabilities": [
+      "Machine Learning Models & Pipelines",
+      "Power BI Dashboards & Mishumo",
+      "Predictive Analytics",
+      "Real-Time Data Streaming",
+      "Data Warehousing Solutions"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Platform",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Simba BI",
+        "category": "BI",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Data Warehouse",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Data Engineering",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML Platform",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML Framework",
+        "icon": "tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML Framework",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Kuongorora",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Kugadzirisa",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Mutauro",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Data Foundation",
+        "summary": "Isu tinoongorora masosi, tinotsanangura zvibvumirano zvedata, uye tinomisikidza hutongi saka modhi yega yega inotanga nezvakavimbika zvinopihwa.",
+        "deliverables": [
+          "Dhata sosi uye kuongororwa kwemhando",
+          "Feature engineering uye schema kuronga",
+          "Kuchengetedzeka uye Kutonga Hwaro"
+        ]
+      },
+      {
+        "title": "Model & Insight Delivery",
+        "summary": "Isu tinovaka mamodheru uye madhibhodhi esarudzo akasungirirwa kumibvunzo yebhizinesi inoyerwa uye KPIs.",
+        "deliverables": [
+          "Maitiro ekuvandudza uye kusimbiswa",
+          "Executive Dashboards uye Operational Reporting",
+          "Decision workflow integration"
+        ]
+      },
+      {
+        "title": "MLOps & Adoption",
+        "summary": "Isu tinoshandisa kuendesa, kuongorora, uye kugonesa timu kuchengetedza mhedzisiro yakavimbika nekufamba kwenguva.",
+        "deliverables": [
+          "Automated Model Deployment Pipelines",
+          "Drift, kurongeka uye kushandiswa kwekutarisa",
+          "Team Handover uye Operating Playbook"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Shandura Yako Dhata Kuita Insight",
+      "description": "Shandura data rakapatsanurwa kuita huchenjeri hwakajeka, hunoshanda.",
+      "button": "Tanga Rwendo Rwako"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Cloud Architecture & Infrastructure",
+      "description": "Multi-gore mapuratifomu, zvivakwa zvakasimba, uye zvivakwa zvinogadziriswa zvakagadzirirwa kukura kwenguva refu."
+    },
+    "sections": {
+      "problem": {
+        "title": "Bhizinesi Dambudziko Kuronga",
+        "subtitle": "Nei zvirongwa zvegore zvichimira mushure mekutanga kwekutama wave"
+      },
+      "approach": {
+        "title": "Nzira yeinjiniya",
+        "subtitle": "Maitiro atinovaka akachengeteka, scalable gore mapuratifomu ane njodzi inodzorwa yekutama"
+      },
+      "principles": {
+        "title": "Nheyo dzeArchitecture",
+        "subtitle": "Sarudzo dzepuratifomu dzinoenzanisa agility, kusimba, uye kutonga"
+      },
+      "capabilities": {
+        "title": "Cloud Services",
+        "subtitle": "Kugadzira, kuendesa, uye kukwirisa muICloud"
+      },
+      "technology": {
+        "title": "Multi-Cloud Expertise",
+        "subtitle": "Platform-agnostic Cloud Solutions"
+      },
+      "breakdown": {
+        "title": "Kuparara kweSevhisi",
+        "subtitle": "Yakajeka nhevedzano yekugadzira, kutama, uye kushandisa Cloud mapuratifomu"
+      }
+    },
+    "problem": {
+      "overview": "Masangano mazhinji anopedzisa kutama kwekutanga kwegore asi achiri kushanda se-on-prem zvikwata, nekuonekwa kwakashata, kutonga kusingaenderane, uye kukwira kwekushandisa.",
+      "painPointsTitle": "Inodzokorora Bhizinesi Kurwadziwa",
+      "impactSignalsTitle": "Izvo Vatungamiriri Vanowanzocherechedza",
+      "painPoints": [
+        "Mabasa ebasa anotamiswa pasina kuchengetedzeka kwakajairika uye network kudzora",
+        "Mutengo wegore unokura nekukurumidza kupfuura kukosha kwebhizinesi kunounzwa",
+        "Kugoverwa kwezvakatipoteredza kunoramba kuri nyore uye kusingaenderane pakati pezvikwata"
+      ],
+      "impactSignals": [
+        "Zviitiko zvinowanzoitika zvinokonzerwa nekumisikidzwa kwekumisikidza pakati pezvakatipoteredza",
+        "Audit readiness degrades due to fragmented governance practices",
+        "Infrastructure lead times kunonoka chigadzirwa uye data zvirongwa"
+      ]
+    },
+    "approach": {
+      "overview": "Isu tinogadzira gore mapuratifomu sezvigadzirwa, tichishandisa zvivakwa otomatiki, mutemo wekuchengetedza, uye mafungu ekutama anoenderana nekutsoropodza bhizinesi.",
+      "pillars": [
+        {
+          "title": "Landing Zone seKodhi",
+          "detail": "Kuzivikanwa, networking, chengetedzo, uye marongero emitemo akarongedzwa kuti adzokorore uye kuongororwa."
+        },
+        {
+          "title": "Wave-Based Migration Strategy",
+          "detail": "Mabasa ebasa anofamba muzvikamu zvinodzorwa nekutsamira-kuziva kuteedzana uye kugadzirira kudzoka."
+        },
+        {
+          "title": "SRE + FinOps Operating Loop",
+          "detail": "Zviratidzo zvekuvimbika uye unit-economics zvinoongororwa pamwechete kuti zvivandudze zvese uptime uye kushandisa kugona."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Yedu yekuvaka modhi inofarira kuzivisa zvivakwa, zvishoma-ropafadzo kuwana, uye mapuratifomu anoumbwa anotsigira kukurumidza kuendesa chigadzirwa.",
+      "items": [
+        {
+          "title": "Immutable Infrastructure Patterns",
+          "detail": "Nharaunda dzinovakwazve kubva kune yakashandurwa kodhi kudzikisira kutsauka uye kurerutsa kupora kwekushanda."
+        },
+        {
+          "title": "Security Baseline by Default",
+          "detail": "Zero-kuvimba kuwana kutonga uye kumanikidzwa kwemitemo zvakabatanidzwa mune yega yega nharaunda lifecycle."
+        },
+        {
+          "title": "Kutsungirira kuburikidza nekuparadzira",
+          "detail": "Mitoro yakakosha yakagadzirirwa yakawanda-nzvimbo kana yakawanda-dunhu kutadza kushivirira uko kukanganisa kwebhizinesi kunoda."
+        }
+      ]
+    },
+    "capabilities": [
+      "Multi-Cloud Strategy & Implementation",
+      "Container Orchestration (Kubernetes)",
+      "Serverless Computing",
+      "Cloud Migration Services",
+      "High Availability Architecture"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Gore",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "AWS",
+        "category": "Gore",
+        "icon": "amazonwebservices"
+      },
+      {
+        "name": "GCP",
+        "category": "Gore",
+        "icon": "GoogleCloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orchestration",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Midziyo",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "ARM Templates",
+        "category": "IaC",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "amazonwebservices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Architecture & Landing Zone",
+        "summary": "Isu tinotsanangura iyo yakanangwa mamiriro, guardrails, uye baseline chikuva zviyero zvisati zvafamba.",
+        "deliverables": [
+          "Target Cloud Architecture Dhizaini",
+          "Kuzivikanwa, network, uye chengetedzo baseline",
+          "Mutengo uye kutevedzera guardrails"
+        ]
+      },
+      {
+        "title": "Migration & Platform Build",
+        "summary": "Isu tinoita mafungu ekutama uye tinomira gore-chizvarwa chikuva zvikamu zvine inodzokororwa otomatiki.",
+        "deliverables": [
+          "Workload migration sequencing",
+          "Container uye serverless platform setup",
+          "Infrastructure se Code modules"
+        ]
+      },
+      {
+        "title": "Kuvimbika & FinOps",
+        "summary": "Isu tinovandudza kuvimbika kwekushanda uye tinoramba tichivandudza mashandisiro egore zvichibva pane mhenyu telemetry.",
+        "deliverables": [
+          "SLOs, kuongorora, uye zviitiko workflows",
+          "● Kudzoreredza uye kugadziriswa kwenjodzi",
+          "Mutengo wekugadzirisa backlog uye hutongi cadence"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Scale Your Infrastructure",
+      "description": "Vaka nheyo dzegore dzinogara dzakasimba pasi pemutoro chaiwo-wenyika.",
+      "button": "Ronga Yako Cloud Strategy"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Automated kuendesa mapaipi, kucherechedza, uye maitiro epuratifomu anovandudza kumhanya pasina kubayira kuvimbika."
+    },
+    "sections": {
+      "problem": {
+        "title": "Bhizinesi Dambudziko Kuronga",
+        "subtitle": "Nei kuendesa kumhanya kuchidonha sezvo kuomarara kwepuratifomu kuchiwedzera"
+      },
+      "approach": {
+        "title": "Nzira yeinjiniya",
+        "subtitle": "Maitiro atinogadzirisa mapaipi ekuendesa pasina kunonoka zvikwata zvechigadzirwa"
+      },
+      "principles": {
+        "title": "Nheyo dzeArchitecture",
+        "subtitle": "Platform engineering mapatani ayo anowedzera kuvimbika uye kuzvimiririra kwechikwata"
+      },
+      "capabilities": {
+        "title": "DevOps Services",
+        "subtitle": "Otomatiki, ongorora, uye gadzirisa yako yekuendesa lifecycle"
+      },
+      "technology": {
+        "title": "DevOps Zvishandiso uye Mapuratifomu",
+        "subtitle": "Yakanakisisa-mu-kirasi DevOps toolchain"
+      },
+      "breakdown": {
+        "title": "Kuparara kweSevhisi",
+        "subtitle": "Mugwagwa unoshanda kubva pamabhodhoro ekuendesa kusvika kune yakakwira-kuvimba kuburitsa kuyerera"
+      }
+    },
+    "problem": {
+      "overview": "Masangano anowanzo isa mari muCI / CD tooling asi achiri kunetsekana nekuburitswa kusina kugadzikana, kunonoka kubvumidzwa, uye kupatsanurwa muridzi munzvimbo dzese.",
+      "painPointsTitle": "Inodzokorora Bhizinesi Kurwadziwa",
+      "impactSignalsTitle": "Izvo Vatungamiriri Vanowanzocherechedza",
+      "painPoints": [
+        "Tsanangudzo dzepombi dzinosiyana nechikwata, zvichigadzira magedhi emhando yepamusoro asingaenderane",
+        "Manual deployment approvals kunonoka hotfix uye feature release timelines",
+        "Zviitiko zvekushanda zvinodzokororwa nekuti telemetry haina kukwana kana siloed"
+      ],
+      "impactSignals": [
+        "Nguva yekutungamira yeshanduko inoramba ichiwedzera kunyangwe kushandisa otomatiki",
+        "Chinja kukundikana mwero spikes panguva yepamusoro-vhoriyamu yekuendesa nguva",
+        "Kugadzirwa kwevagadziri kunoderera nekuda kwekukakavara kwematurusi uye shanduko yemamiriro"
+      ]
+    },
+    "approach": {
+      "overview": "Isu tinosimbisa yemukati yekuvandudza chikuva modhi ine inogadziriswazve pombi matemplate, hutongi hunotungamirwa nemutemo, uye kuzere hupenyu hwekutenderera kucherechedza.",
+      "pillars": [
+        {
+          "title": "Golden Path Pipeline Templates",
+          "detail": "Reusable CI / CD mapurogiramu anoenzanisa kuvaka, kuyedza, kuchengetedzwa cheki, uye kuendesa workflows."
+        },
+        {
+          "title": "Platform API & Self-Service",
+          "detail": "Zvikwata zvinopa nharaunda uye kuburitsa zvivakwa kuburikidza neanodzorwa ekuzvishandira interfaces."
+        },
+        {
+          "title": "Kuvimbika Feedback Loops",
+          "detail": "Chiitiko maitiro, hutano hweSLO, uye kuendesa telemetry inozivisa kuenderera mberi kwemaitiro uye kuvandudzwa kwezvivakwa."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Yedu DevOps dhizaini inoenderana nekumhanya kwekuendesa nehutongi nekugadzirisa kutonga uye kudzikisira imwechete-yekushanda basa.",
+      "items": [
+        {
+          "title": "Zvose Shanduro Shanduro",
+          "detail": "Mapaipi, zvivakwa, uye mitemo yemitemo inotarisirwa mukutonga kwesosi yekuongorora uye kudzokorora."
+        },
+        {
+          "title": "Progressive Verification",
+          "detail": "Hunhu, chengetedzo, uye mashandiro macheki akaiswa pamatanho ese kuti aone njodzi kare."
+        },
+        {
+          "title": "Shared Platform Responsibility",
+          "detail": "Zvikwata zvepuratifomu zvinopa kugona kwemugwagwa nepo zvikwata zvechigadzirwa zvichichengeta muridzi wekuendesa."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI / CD Pipeline Dhizaini",
+      "Infrastructure sekodhi",
+      "Otomatiki Kuedzwa",
+      "Kuendesa Automation",
+      "Kuongorora uye kucherechedza"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Platform",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "GitHub Zviito",
+        "category": "CI / CD",
+        "icon": "GitHubs"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI / CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Kurongedza",
+        "icon": "Helm"
+      },
+      {
+        "name": "Ansible",
+        "category": "Otomatiki",
+        "icon": "Yakazara nzira kuchinyorwa: Linux Vakapi"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Kuongorora",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Kucherechedzwa",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Platform Assessment",
+        "summary": "Isu tinoongorora yako yazvino software yekuendesa cheni kuti tione njodzi mapoinzi uye kumhanya zvipingamupinyi.",
+        "deliverables": [
+          "Current-state delivery workflow map",
+          "Pipeline bottleneck ongororo",
+          "Target DevOps maturity roadmap"
+        ]
+      },
+      {
+        "title": "Pipeline & Automation Kuvaka",
+        "summary": "Isu tinoshandisa yakavimbika CI / CD, magedhi emhando yepamusoro, uye zvivakwa otomatiki zvekuburitswa kusingachinjiki.",
+        "deliverables": [
+          "Reusable CI / CD templates",
+          "Zvivakwa uye zvakatipoteredza otomatiki",
+          "Automated kuedzwa uye kusunungura kudzora"
+        ]
+      },
+      {
+        "title": "Shanda uye Kuvandudza",
+        "summary": "Isu tinosimbisa kucherechedza uye kutonga zvishwe izvo zvinotsigira kuenderera mberi kwekuendesa kuvandudza.",
+        "deliverables": [
+          "Kuongorora madhibhodhi uye marongero ekunyevera",
+          "Release governance and incident playbooks",
+          "Kuenderera mberi kwekuvandudza metric uye ongororo"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kurumidza kuendesa kwako",
+      "description": "Deredza kuburitsa kukakavara uye uvandudze kuvimbika neakakura DevOps maitiro.",
+      "button": "Shandura Yako Pipeline"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Dhijitari Shanduko & Strategy",
+      "description": "Strategic Advisory uye kuuraya rutsigiro rwekuvandudza mapuratifomu, zvikwata, uye mamodheru anoshanda."
+    },
+    "sections": {
+      "problem": {
+        "title": "Bhizinesi Dambudziko Kuronga",
+        "subtitle": "Uko zvirongwa zvekushandura zvinorasikirwa nesimba uye kuvimba kwevatungamiriri"
+      },
+      "capabilities": {
+        "title": "Consulting Services",
+        "subtitle": "Nhungamiro yeDhijitari Kubudirira"
+      },
+      "approach": {
+        "title": "Nzira yeinjiniya",
+        "subtitle": "Maitiro atinoshandura zano kuita shanduko inoitwa, inotsigirwa netekinoroji"
+      },
+      "principles": {
+        "title": "Nheyo dzeArchitecture",
+        "subtitle": "Inoshanda modhi uye chikuva sarudzo dzinodzivirira shanduko mhedzisiro"
+      },
+      "technology": {
+        "title": "Tekinoroji Stack",
+        "subtitle": "Mapuratifomu uye masisitimu atinoshandisa kushandura"
+      },
+      "breakdown": {
+        "title": "Kuparara kweSevhisi",
+        "subtitle": "Yakarongeka shanduko kubva kune tsananguro yehurongwa kuenda kune inoyerwa bhizinesi kukosha"
+      }
+    },
+    "problem": {
+      "overview": "Zvirongwa zvemadhijitari zvinowanzotanga nechinangwa chakasimba asi zvinokundikana kushandura kuita mhedzisiro yekuendesa nekuda kwekusajeka muridzi, zvishandiso zvakaparadzaniswa, uye zvinokwikwidza zvinokosheswa.",
+      "painPointsTitle": "Inodzokorora Bhizinesi Kurwadziwa",
+      "impactSignalsTitle": "Izvo Vatungamiriri Vanowanzocherechedza",
+      "painPoints": [
+        "Shanduko yemugwagwa inotsanangurwa asi haina kushandurwa muhutongi hwekuendesa",
+        "Bhizinesi uye mainjiniya zvinokosheswa zvinosiyana mushure mekutanga kuronga kutenderera",
+        "Legacy operating models block adoption of modern product delivery practices"
+      ],
+      "impactSignals": [
+        "Program spend rises while strategic KPI movement remains flat",
+        "Zvirongwa zvinorasikirwa nehandoff mapoinzi pakati pezano, dhizaini, uye kuuraya",
+        "Zvikwata zvinosangana nekuchinja kuneta neyakaganhurirwa kukosha kwebhizinesi"
+      ]
+    },
+    "approach": {
+      "overview": "Isu tinobatanidza zano rehungwaru nekuendesa dhizaini, kuenzanisa dhizaini dhizaini, kugona kwepuratifomu, uye kuuraya cadence kutenderedza zvinangwa zvinoyerwa.",
+      "pillars": [
+        {
+          "title": "Value Stream Prioritization",
+          "detail": "Isu tinoteedzera zvirongwa zvichienderana nekukanganisa kwebhizinesi uye zvipingamupinyi zvekutsamira kwehunyanzvi."
+        },
+        {
+          "title": "Target Operating Model Dhizaini",
+          "detail": "Mabasa, hutongi, uye kodzero dzesarudzo dzinotsanangurwa kutsigira kukurumidza kuurayiwa kwemabhizimusi uye tekinoroji zvikwata."
+        },
+        {
+          "title": "Portfolio Delivery Governance",
+          "detail": "Kufambira mberi kwekushandurwa kunotarisirwa kuburikidza neKPI-yakabatana macheki uye portfolio-level njodzi kudzora."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Yedu shanduko dhizaini inosimbisa kuwedzera kwemazuva ano uye yakajeka kuzvidavirira, ichidzivirira kuvhiringidza kunyorazve pasina chikonzero chebhizinesi.",
+      "items": [
+        {
+          "title": "Bhizinesi Kugona Kuenzanisa",
+          "detail": "Shanduko dzetekinoroji dzakarongeka dzakatenderedza kugona kwakanangana nemari, mhando yebasa, kana mutengo unoshanda."
+        },
+        {
+          "title": "Composable Platform Strategy",
+          "detail": "Zvikamu zvepuratifomu zvinosarudzwa kudyidzana kutsigira kutama kwematanho uye nekukurumidza kuchinjika."
+        },
+        {
+          "title": "Governance with Delivery Cadence",
+          "detail": "Maforamu esarudzo uye mapoinzi ekutonga akaiswa mune sprint uye kota kutenderera, kwete kubatwa senzira dzakasiyana dzebureaucratic."
+        }
+      ]
+    },
+    "capabilities": [
+      "Dhijitari Shanduko Roadmaps",
+      "Tekinoroji Strategy Development",
+      "Cloud Adoption Frameworks",
+      "Maitiro ekugadzirisa",
+      "Shanduko Management"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Foundation",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Data Platform",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Simba BI",
+        "category": "Decision Intelligence",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Simba Platform",
+        "category": "Low-Code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Kubatana",
+        "icon": "Microsoft SharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP / CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strategy Alignment",
+        "summary": "Isu tinobatanidza hutungamiriri hwekutanga uye zvinangwa zvedhijitari kuti tigadzire yakagovaniswa shanduko nhungamiro.",
+        "deliverables": [
+          "Zvinangwa zvekushandura uye maitiro ekubudirira",
+          "Kugona kukura uye kuongororwa kwegap",
+          "Priority initiative portfolio"
+        ]
+      },
+      {
+        "title": "Execution Blueprint",
+        "summary": "Isu tinotsanangura iyo yakanangwa yekushandisa modhi, zviyero zvekuvaka, uye nhanho yekumisikidza kutevedzana.",
+        "deliverables": [
+          "Operating Model uye Governance Dhizaini",
+          "Tekinoroji uye maitiro ekuvaka zviyero",
+          "Phased implementation roadmap"
+        ]
+      },
+      {
+        "title": "Shanduko uye Kukosha Kuzadzikiswa",
+        "summary": "Isu tinotyaira kugamuchirwa, kuteedzera KPI kufamba, uye kunatsiridza zvirongwa zvichibva pamhedzisiro yekuendesa.",
+        "deliverables": [
+          "Chirongwa chekugamuchira uye kugonesa",
+          "KPI kuyera cadence",
+          "Quarterly optimization backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Tanga Rwendo Rwako rweShanduko",
+      "description": "Famba neshanduko nezvinhu zvakajeka uye zvirongwa zvinoshanda zvekuendesa.",
+      "button": "Schedule Strategy Session"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Yakabatana masisitimu kubva kune chishandiso kuenda kune gore, ine telemetry mapaipi uye huchenjeri hwekumucheto hwemaindasitiri chiyero."
+    },
+    "sections": {
+      "problem": {
+        "title": "Bhizinesi Dambudziko Kuronga",
+        "subtitle": "Nei zvirongwa zvakabatana-zvishandiso zvichikundikana kukwira kupfuura kuendeswa kwevatyairi"
+      },
+      "approach": {
+        "title": "Nzira yeinjiniya",
+        "subtitle": "Maitiro atinogadzira yakachengeteka, inoshanda IoT masisitimu kubva kune chishandiso firmware kuenda kune gore APIs"
+      },
+      "principles": {
+        "title": "Nheyo dzeArchitecture",
+        "subtitle": "Edge-to-Cloud Dhizaini Mitemo Yekuvimbika, Latency, uye Fleet Governance"
+      },
+      "capabilities": {
+        "title": "IoT Mhinduro",
+        "subtitle": "Batanidza, Ongorora, uye Gadzirisa Zvishandiso Zvako"
+      },
+      "technology": {
+        "title": "IoT Technology Stack",
+        "subtitle": "Kubva paHardware kuenda kuICLloud"
+      },
+      "breakdown": {
+        "title": "Kuparara kweSevhisi",
+        "subtitle": "Maitiro atinoendesa masisitimu akabatana kubva kumucheto zvishandiso kuenda kuCloud Intelligence"
+      }
+    },
+    "problem": {
+      "overview": "Zvirongwa zveIoT zvinowanzoratidza kugona kwehunyanzvi muvatyairi vendege asi zvinokundikana pachiyero nekuda kwekubatana kusingavimbike, kushomeka kwezvikepe zvekudzora, uye kusangana kwakashata nebhizinesi workflows.",
+      "painPointsTitle": "Inodzokorora Bhizinesi Kurwadziwa",
+      "impactSignalsTitle": "Izvo Vatungamiriri Vanowanzocherechedza",
+      "painPoints": [
+        "Chishandiso onboarding uye lifecycle manejimendi inoramba iri manyore uye inokanganisa-inokanganisa",
+        "Telemetry mapaipi anoburitsa ruzha, asina kukwana, kana kunonoka kushanda data",
+        "Remote kuraira uye firmware inogadziridzwa inounza njodzi yekuchengetedza uye chengetedzo"
+      ],
+      "impactSignals": [
+        "Nzvimbo dzekutyaira dzinobudirira, asi nguva dzekugadzira dzinodzokorora kutsvedza",
+        "Field operations zvikwata zvinopindura kune zviitiko pasina kufungidzira kuoneka",
+        "Bhizinesi masisitimu haakwanise kuvimbika kushandisa huchenjeri hwemidziyo munguva chaiyo"
+      ]
+    },
+    "approach": {
+      "overview": "Isu tinogadzira mapuratifomu eIoT seanodzorwa akagoverwa masisitimu, kusanganisa yakachengeteka kumucheto nguva yekumhanya zviyero, chiitiko-chinotungamirwa kumedza, uye hutongi hwekushanda pachiyero chezvikepe.",
+      "pillars": [
+        {
+          "title": "Yakachengeteka Chishandiso Lifecycle Management",
+          "detail": "Kugovera, kuzivikanwa, kiyi kutenderera, uye firmware inogadziridza otomatiki kudzikisa njodzi yekushanda."
+        },
+        {
+          "title": "Chiitiko-Chinotungamirwa Telemetry Architecture",
+          "detail": "Mapaipi ekushambadzira anogadzirisa, kusimbisa, uye kuendesa zviitiko zvemidziyo ye analytics uye kutonga mune padyo nenguva chaiyo."
+        },
+        {
+          "title": "Fleet Operations Control Plane",
+          "detail": "Kuongorora, kunyevera, uye kure kuraira workflows kunopa kutarisirwa kwakavimbika pazvinhu zvakagoverwa."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Yedu IoT dhizaini inoenzanisa yakaderera-latency kumucheto sarudzo nehutongi hwepakati, kucherechedza, uye kutevedzera kwekuchengetedza.",
+      "items": [
+        {
+          "title": "Edge Kuzvimiririra neCloud Coordination",
+          "detail": "Mashandiro akakomba emunharaunda anoenderera mberi panguva yekushomeka kwenetiweki uku uchiwiriranisa mamiriro kune gore masisitimu kana aripo."
+        },
+        {
+          "title": "Contracted Event Schemas",
+          "detail": "Zvishandiso uye zvikwata zvepuratifomu zvinoshandisa mapurogiramu anotongwa kuchengetedza telemetry kuenderana mushanduro dzese."
+        },
+        {
+          "title": "Zero-Trust Mudziyo Kuchengetedzwa",
+          "detail": "Kusimbiswa kwekudyidzana, kushoma ropafadzo, uye kutakura kwakavharidzirwa kunosimbiswa pane yega yega yekudyidzana kwemidziyo."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT Mudziyo Management",
+      "Dhijitari Mapatya Mhinduro",
+      "Edge Computing Kuendesa",
+      "Real-Time Telemetry",
+      "Predictive Maintenance"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Mapatya edhijitari",
+        "category": "Kufananidza",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Kumucheto",
+        "icon": "Microsoft Azure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protocol",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protocol",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Hardware",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Rasipiberi Pi",
+        "category": "Hardware",
+        "icon": "Raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Nguva Series DB",
+        "icon": "Influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Device & Edge Strategy",
+        "summary": "Isu tinotsanangura mapatani ekubatanidza, kumucheto kumhanya zviyero, uye kuchengetedzeka kugoverwa kwemidziyo yemunda.",
+        "deliverables": [
+          "Device onboarding uye yekubatanidza modhi",
+          "Edge runtime uye kuendesa blueprint",
+          "Fleet chengetedzo baseline"
+        ]
+      },
+      {
+        "title": "Telemetry & Control Plane",
+        "summary": "Isu tinovaka mapaipi anotora zviitiko, kuenzanisira mapatya edhijitari, uye kugonesa kure kudzora workflows.",
+        "deliverables": [
+          "Real-Time Ingestion uye Chiitiko Schema Dhizaini",
+          "Dhijitari mapatya uye asset modhi kuitiswa",
+          "Kuraira uye kudzora API Layer"
+        ]
+      },
+      {
+        "title": "Operations & Scale",
+        "summary": "Isu tinogadzirisa manejimendi manejimendi uye kuvimbika kudzora kwekugadzira-chiyero cheIoT nharaunda.",
+        "deliverables": [
+          "Zvishandiso zvezvikepe zvekutarisa uye kunyevera",
+          "Predictive Maintenance uye Anomaly Detection",
+          "Rollout uye Lifecycle rutsigiro chirongwa"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Batanidza zvishandiso zvako",
+      "description": "Vaka yakavimbika IoT mhinduro dzakagadzirira chaiyo nzvimbo dzekugadzira.",
+      "button": "Tanga Yako IoT Project"
+    }
+  }
+}

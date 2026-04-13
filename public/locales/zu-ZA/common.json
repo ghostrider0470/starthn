@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Ikhaya",
+    "company": "Inkampani",
+    "solutions": "Izixazululo",
+    "resources": "Izinsiza",
+    "innovationLab": "I-Innovation Lab",
+    "contact": "Xhumana",
+    "about": {
+      "title": "Mayelana",
+      "description": "Umsebenzi wethu, umbono kanye nomlando"
+    },
+    "team": {
+      "title": "Ithimba",
+      "description": "Hlangana nabantu abangemuva kwe-Horizon Tech"
+    },
+    "careers": {
+      "title": "Imisebenzi",
+      "description": "Joyina ithimba lethu futhi wakhe ikusasa"
+    },
+    "enterpriseSoftware": {
+      "title": "Ukuthuthukiswa kwesoftware yebhizinisi",
+      "description": "Izinhlelo zokusebenza zebhizinisi ezenziwe ngokwezifiso ezinezinhlaka zanamuhla"
+    },
+    "aiMl": {
+      "title": "I-AI, i-ML ne-Business Intelligence",
+      "description": "Qedela amapayipi we-AI / ML namadeshibhodi we-BI"
+    },
+    "cloudArchitecture": {
+      "title": "Ukwakhiwa Kwamafu Nengqalasizinda",
+      "description": "Izixazululo ze-Multi-Cloud kanye ne-Container Orchestration"
+    },
+    "iot": {
+      "title": "I-IoT ne-Edge Computing",
+      "description": "Amadivayisi axhunyiwe kanye namawele edijithali"
+    },
+    "devops": {
+      "title": "I-DevOps ne-Platform Engineering",
+      "description": "Amapayipi e-CI / CD nengqalasizinda njengekhodi"
+    },
+    "digitalTransformation": {
+      "title": "Ukuguqulwa kwedijithali neqhinga",
+      "description": "Amamephu omgwaqo wokuguqulwa kwebhizinisi kanye nokwelulekwa"
+    },
+    "caseStudies": {
+      "title": "Izifundo zamacala",
+      "description": "Izindaba zempumelelo ezivela kumakhasimende ethu",
+      "featured": {
+        "title": "Isifundo secala esifakiwe",
+        "description": "Ukucwila okujulile ekuzibandakanyeni okugcwele kokulethwa"
+      }
+    },
+    "blog": {
+      "title": "Ibhulogi",
+      "description": "Imibono, ama-tutorials, kanye nezitayela zezimboni",
+      "featured": {
+        "title": "Okuthunyelwe kwebhulogi okufakiwe",
+        "description": "Funda enye yezinto zethu zakamuva zobunjiniyela"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Ukubuka konke kweLebhu ye-Innovation",
+      "description": "Hlola ezinye izinketho ezise- Hlola ezinye izinketho ezise- La Casa de Papel namaphethe"
+    },
+    "innovationLabAiSystems": {
+      "title": "Izinhlelo ze-AI ezisetshenzisiwe",
+      "description": "Amaphethini wokwakha umshini wokufunda umshini wokukhiqiza"
+    },
+    "innovationLabNlp": {
+      "title": "I-NLP yezilimi eziningi",
+      "description": "Amakhono okucubungula ulimi lwemvelo olusebenzisanayo"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Ukulingisa kwe-Genetic Algorithm",
+      "description": "Ukuziphendukela kwemvelo ku-Interactive Environment"
+    },
+    "navigation": "Ukuzulazula",
+    "skipToContent": "Yeqa kokuqukethwe",
+    "toggleMenu": "Shintsha imenyu",
+    "dashboard": "Ideshibhodi",
+    "myWorkspace": "Indawo Yami Yokusebenzela",
+    "profile": "Iphrofayili",
+    "adminPanel": "Iphaneli Yokuphatha",
+    "practiceManagement": "Ukuphathwa Komkhuba",
+    "logOut": "Phuma",
+    "education": {
+      "title": "Izinsiza zobuchwepheshe",
+      "description": "Imihlahlandlela, ama-tutorials, kanye nemikhuba emihle evela eqenjini le-Horizon Tech"
+    },
+    "support": {
+      "title": "Isikhungo Sokusekela",
+      "description": "Thola usizo ngezinsizakalo zethu zokuthuthukiswa kwesoftware"
+    }
+  },
+  "footer": {
+    "description": "Ukuthuthukiswa kwesoftware esekelwe eSarajevo, eBosnia. Sakha isoftware yangokwezifiso, izixazululo ze-AI / ML, ukwakhiwa kwamafu, nezinhlelo ezizenzakalelayo.",
+    "features": "Izici",
+    "resources": "Izinsiza",
+    "company": "Inkampani",
+    "legal": "Zomthetho",
+    "dashboard": "Ideshibhodi",
+    "components": "Izingxenye",
+    "documentation": "Imibhalo",
+    "apiReference": "Ireferensi ye-API",
+    "gettingStarted": "Ukuqala",
+    "examples": "Izibonelo",
+    "community": "Umphakathi",
+    "blog": "Ibhulogi",
+    "caseStudies": "Izifundo zamacala",
+    "innovationLabOverview": "Ukubuka konke kweLebhu ye-Innovation",
+    "appliedAiSystems": "Izinhlelo ze-AI ezisetshenzisiwe",
+    "nlpDemo": "I-NLP yezilimi eziningi",
+    "geneticAlgorithmSimulation": "Ukulingisa kwe-Genetic Algorithm",
+    "featuredBlogPost": "Okuthunyelwe kwebhulogi okufakiwe",
+    "featuredCaseStudy": "Isifundo secala esifakiwe",
+    "about": "Mayelana",
+    "contact": "Xhumana",
+    "partners": "Abalingani",
+    "careers": "Imisebenzi",
+    "privacyPolicy": "Inqubomgomo Yobumfihlo",
+    "termsOfService": "Imigomo Yesevisi",
+    "cookiePolicy": "Inqubomgomo Yekhukhi",
+    "license": "Ilayisensi",
+    "copyright": "© {{year}} Horizon Tech. Wonke amalungelo agodliwe.",
+    "subscribe": "Bhalisela iphephandaba"
+  },
+  "header": {
+    "badge": "Izixazululo Zobuchwepheshe Bezinkampani",
+    "titleLine1": "Guqula Ibhizinisi Lakho Nge",
+    "titleLine2": "Ubuchwepheshe obunqenqemeni",
+    "description": "Kusuka ekuthuthukisweni kwesoftware yebhizinisi kanye nobuhlakani bebhizinisi obunikwe amandla yi-AI kuya kwingqalasizinda yamafu nezixazululo ze-IoT - siletha izinsizakalo zobuchwepheshe eziphelele ezishayela izinto ezintsha futhi zisheshise ukukhula.",
+    "getStarted": "Qala",
+    "exploreSolutions": "Hlola izixazululo",
+    "trustedBy": "Ukwethenjwa kwezinkampani ezicabanga phambili",
+    "microsoftPartner": "Umlingani we-Microsoft",
+    "azureCertified": "Azure eqinisekisiwe",
+    "enterpriseSolutions": "Izixazululo zebhizinisi"
+  },
+  "mobileNav": {
+    "navigation": "Ukuzulazula kweselula",
+    "home": "Ikhaya",
+    "solutions": "Izixazululo",
+    "caseStudies": "Amacala",
+    "aiSystems": "I-AI Lab",
+    "blog": "Ibhulogi",
+    "resources": "Izinsiza",
+    "contact": "Xhumana"
+  },
+  "sideNav": {
+    "scroll": "Skrolela",
+    "navigateTo": "Zulazula ku- {{section}}",
+    "sections": {
+      "home": "Ikhaya",
+      "solutions": "Izixazululo",
+      "credibility": "Ukuthembeka",
+      "partners": "Abalingani",
+      "caseStudies": "Izifundo zamacala",
+      "blog": "Ibhulogi",
+      "innovationLab": "I-Innovation Lab",
+      "faq": "Imibuzo"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Shintsha ulimi",
+    "searchPlaceholder": "Ulimi lokusesha ...",
+    "noResults": "Azikho izilimi ezitholakalayo."
+  },
+  "common": {
+    "menu": "Imenyu",
+    "account": "I-akhawunti"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Izifundo zakamuva zamacala",
+      "description": "Isifinyezo semiphumela yokulethwa kuyo yonke i-fintech, ukunakekelwa kwezempilo, ukuthuthwa kwempahla, kanye nezinhlelo zomkhakha womphakathi.",
+      "cta": "Buka Zonke Izifundo Zamacala"
+    },
+    "blog": {
+      "title": "Yakamuva kusuka kubhulogi yethu",
+      "description": "Amanothi wobunjiniyela asebenzayo avela ku-AI yakamuva, ipulatifomu, nomsebenzi wokulethwa kwefu.",
+      "cta": "Funda zonke izihloko"
+    },
+    "innovationLab": {
+      "title": "I-Innovation Lab",
+      "description": "Hlola ama-prototypes, ukuhlolwa, namaphrojekthi we-R &D asetshenzisiwe avela eqenjini lobunjiniyela be-Horizon Tech.",
+      "cta": "Hlola i-Innovation Lab"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Funda isifundo samacala",
+    "industries": {
+      "fintech": "I-FinTech",
+      "healthcare": "Ukunakekelwa kwezempilo",
+      "logistics": "Logistics",
+      "manufacturing": "Ukukhiqiza",
+      "government": "Uhulumeni"
+    }
+  },
+  "blogCard": {
+    "read": "Funda"
+  }
+}

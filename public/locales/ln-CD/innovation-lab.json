@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Laboratoire ya Innovation",
+    "description": "Tala ba démonstrations, ba expériences, mpe bilakiseli ya tekiniki ya ekipi na biso ya ba ingénieurs.",
+    "primary": "Explore Demos",
+    "secondary": "Voir la recherche"
+  },
+  "overview": {
+    "hero": {
+      "title": "Laboratoire ya Innovation",
+      "description": "Tolukaka bandelo oyo ebongi na AI, automatisation, mpe ba systeme oyo ekabolami, na nsima tobongolaka bolukiluki oyo endimami na makoki ya kobimisa oyo ebongi kotyelama motema.",
+      "primary": "Kotala bisika ya bolukiluki",
+      "secondary": "Bólobela boyokani"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Bisika ya bolukiluki",
+        "description": "Esika moko na moko esangisaka bolukiluki ya bolukiluki na banzela ya kosalela oyo ebongisami mpo na basysteme ya solo.",
+        "cardCta": "Explore focus"
+      },
+      "detailedFocusBriefs": {
+        "title": "Focus Briefs ya détail",
+        "description": "Misala ya bolukiluki ya mikolo oyo ezali kobanda na validation ya architecture kino na ba plans ya kopesa yango."
+      },
+      "fromLabToProduction": {
+        "title": "Kobanda na laboratoire tii na production",
+        "description": "Innovation na Horizon emekamaka na ba resultats ya masuwa, kasi na ba prototypes ya moke te."
+      },
+      "roadmap": {
+        "title": "Feuille de route ya R&D",
+        "description": "Bokoli ya mokemoke kolongwa na kotonga makoki mpo na kokoma na ba systeme oyo ebongisaka ntango nyonso."
+      },
+      "publications": {
+        "title": "Mikanda mpe makanisi",
+        "description": "Makomi ya tekiniki mpe banote ya mise en œuvre ya innovation oyo ezali kosalema."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Ba systeme ya AI appliqué",
+        "description": "Ba architectures ya AI oyo ebongisami mpo na kosala modele, orchestration ya bilembo, mpe kotambwisa baekzamɛ."
+      },
+      "automationFrameworks": {
+        "title": "Cadres ya automatisation",
+        "description": "Bisaleli ya automatisation interne mpo na libateli ya déploiement, eyano na likama, mpe misala ya ingénierie oyo ekoki kozongelama mbala na mbala."
+      },
+      "advancedArchitecture": {
+        "title": "Advanced Architecture Experimentation",
+        "description": "Bolukiluki na ba architectures résiliante, ekabolami oyo ebongisami mpo na performance, tolérance ya mbeba, mpe échelle."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Intelligence at the edge for low-latency decisioning, telemetry processing, and device fleet coordination."
+      },
+      "nlp": {
+        "title": "Traitement ya lokota naturel",
+        "description": "Ba pipeline ya bososoli ya minoko ebele mpo na classification, extraction, traduction, mpe ba systeme ya masolo."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Algorithme ya évolution mpe optimisation",
+        "description": "Ba systeme ya boluki mpe optimisation oyo epesami na boponi ya naturel mpo na kosilisa mikakatano ya ba ingénieur ya minene."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Cadres ya automatisation",
+        "description": "Tozali kotonga ba cadres ya mosala oyo ekoki kosalema mpo na orchestration ya bobimi, bikuke ya qualité, mpe vérification ya post-déploiement mpo na kokitisa friction manuelle mpe komatisa bosembo."
+      },
+      "advancedArchitecture": {
+        "title": "Advanced Architecture Experimentation",
+        "description": "Bolukiluki na biso ya architecture etalaka mingi mayele ya kopola ya basali, ndenge ya résilience na kati ya bituka, mpe ba enveloppe ya performance mpo na ba systeme oyo ezali kosala na bosenga makasi."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Tozali valider lolenge ya streaming ya makambo mpe ya inférence ya pembeni oyo esalisaka na kozwa bikateli ya mboka na lombango ntango tozali kobatela contrôle ya central, auditability, mpe modele ya gouvernance ya cycle de vie."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Adaptive Capacity Planning",
+        "description": "Ba prototype ya laboratoire endimami na misala ya simulé mpe na nsima esangani na mayele ya autoscaling ya plateforme."
+      },
+      "operationalIntelligence": {
+        "title": "Renseignement opérationnel",
+        "description": "Ba pipeline ya NLP elongwaki na baekzame oyo endimami mpo na kosunga production mpo na triage ya lombango mpe bososoli ya polele."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Optimisation na ba systeme ya livraison",
+        "description": "Ba methode ya évolution oyo emekami na laboratoire ebongolamaka na ba moteurs ya optimisation mpo na kosala manaka mpe kokabola yango."
+      },
+      "edgeDecisioning": {
+        "title": "Ekateli ya Edge",
+        "description": "IoT mpe baekzamɛ ya inférence ya pembeni ekómi makasi na misala ya latence ya moke na bandelo ya makasi ya bosembo."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Sikoyo",
+        "title": "Fondations d'AI appliquée",
+        "description": "Kofungola ba modèles oyo ekoki kosalelama lisusu, suites ya évaluation, mpe mibeko ya kotala na baekipi ya produit."
+      },
+      "next": {
+        "phase": "Oyo elandi",
+        "title": "Misala ya Ingénierie Autonome",
+        "description": "Kosalela ba cadres ya automatisation oyo ekitisaka likama ya déploiement mpe kokitisa banzela ya kozongisa biloko na masuwa."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "Sanza 12-18",
+        "title": "Mayele ya Edge-Native",
+        "description": "Échelle ya ba architectures hybrides ya cloud-edge mpo na inférence pene ya temps réel na ba environnements sensibles na latence."
+      },
+      "longHorizon": {
+        "phase": "Horizon molai",
+        "title": "Ba systeme ya optimisation ya continu",
+        "description": "Kosangisa baekzamɛ, kolandela, mpe optimisation mpo ba systeme emesana na likama soki makambo ebongwani."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Ba systèmes ya AI oyo etikalaka fiable na production",
+        "summary": "Likanisi ya malamu na oyo etali bokatikati ya vitɛsi ya komeka na gouvernance ya production.",
+        "cta": "Tanga makanisi"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Modele ya architecture distribuée mpo na ba plateformes ya makasi",
+        "summary": "Banote ya terrain ya komeka architecture etalaki performance, résilience, mpe simplicité ya misala.",
+        "cta": "Boyekoli ya cas"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping Applied R&D for Business Outcomes",
+        "summary": "Ndenge tobongisaka misala ya innovation mpo ete bokundoli elongwa na prototype mpo na kokende na valɛrɛ oyo ekoki komekama.",
+        "cta": "Explore publications"
+      }
+    },
+    "cta": {
+      "title": "Kotonga na Horizon Innovation Lab",
+      "description": "Kosala elongo na biso mpo na kondima makanisi ya makasi na lombango mpe komema makanisi ya malamu na ba systeme ya production ya malamu mpe ya makasi.",
+      "primary": "Bandá lisolo",
+      "secondary": "Tala ba resultats ya livraison"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Ba systeme ya AI appliqué",
+      "description": "Na mokuse ya lolenge Horizon ezali kokela, kosalela, mpe kosalela ba systeme ya koyekola na machine kobanda na prototype kino na bozalisi.",
+      "back": "Kozonga na Laboratoire ya Innovation",
+      "tags": {
+        "appliedAi": "AI appliqué",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Pipeline ya boyekoli ya machine",
+        "description": "AI ya production ebandaka na ba pipeline oyo esangisaka bansango, komeka, validation, mpe biyano."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Modele ya déploiement",
+        "description": "Stratégie ya déploiement eponami na kotalela bosenga ya latence, critique ya mombongo, mpe complexité ya misala."
+      },
+      "mlopsOperatingModel": {
+        "title": "Modèle d'exploitation ya MLOps",
+        "description": "Misala ya MLOps esalaka ete ba systeme ya AI ezala ya kotyelama motema, ya koyangela, mpe ya scalable ntango bato bazali kosalela yango mingi."
+      },
+      "monitoringAndReliability": {
+        "title": "Kolandela mpe kotyela motema",
+        "description": "Observabilité ekangi nzela na kati ya bizaleli ya modele mpe resultat ya misala."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Data and Feature Engineering",
+        "description": "Kokotisa bansango na version, vérification ya qualité, mpe bandimbola ya makambo oyo ekoki kosalelama lisusu ezali moboko ya malamu mpo na formasyo ya modele."
+      },
+      "modelDevelopment": {
+        "title": "Développement ya modele",
+        "description": "Ba ekzame elandamaka na ba configurations oyo ekoki kobotama, ba métriques objectifs, mpe ba baselines ya bokokanisi."
+      },
+      "validationAndSafetyGates": {
+        "title": "Porte ya validation mpe ya sécurité",
+        "description": "Ba modele ya candidat elekaka performance, makasi, mpe botaleli ya politiki yambo endimama mpo na kobimisa yango."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Boucles de rétroaction opérationnelle",
+        "description": "Telemetrie ya nsima ya déploiement eyebisaka makambo ya priorité ya reformation, mikano ya kozongisa nsima, mpe kobongisa makambo mosusu."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Services d'inference en temps réel",
+        "description": "API ya latence ya moke mpo na ba applications interactives na autoscaling, caching, mpe observabilité ya niveau ya demande."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Prévisions ya batch na streaming",
+        "description": "Ba pipeline ya programe mpe ya makambo mpo na kozwa bilembo ya makasi na analytique mpe misala ya misala."
+      },
+      "edgeAwareDeployment": {
+        "title": "Déploiement ya Edge-Aware",
+        "description": "Hybrid cloud-edge serving patterns for environments require local inference and centralized model governance."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI/CD mpo na ba modèles",
+        "description": "Kotonga, komeka, mpe kobimisa misala ya automatisation ekitisaka likama ya kotinda biloko mpe ebatelaka lombango ya livraison."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Registre ya modele mpe cycle ya bomoi",
+        "description": "Ba artefacts ya modele oyo ezali na etando ya promotion, lineage, mpe misala ya kondima ebongisaka kolandela mpe kolandela yango."
+      },
+      "servingInfrastructure": {
+        "title": "Kosalela ba infrastructures",
+        "description": "Scalable serving layers with rollout strategies such as canary and shadow deployments support safe change management."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Qualité ya prédiction mpe détection ya dérive",
+      "latencyThroughputAndCostEfficiencyTracking": "Latency, débit mpe kolandela malamu talo",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Alerte ya régression ya qualité ya badonnée mpe misala ya kobongisa",
+      "auditabilityForComplianceAndIncidentAnalysis": "Auditabilité ya conformité mpe analyse ya incident"
+    },
+    "cta": {
+      "title": "Scale Applied AI with Confidence",
+      "description": "Soki ozali kobongisa misala ya AI oyo esengi ba resultat ya komeka mpe kobatela yango na ntango molai, Horizon ekoki kosalisa na kobongisa mpe kosalela cycle mobimba ya bomoi ya systeme.",
+      "primary": "Solola Na Equipe Na Biso",
+      "secondary": "Explore More Lab Work"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "NLP ya minoko ebele",
+      "description": "Kotala makoki ya kosalela minoko naturel mpe ndenge nini yango ekomaka na bisaleli ya malamu mpe ya minoko ebele.",
+      "back": "Kozonga na Laboratoire ya Innovation",
+      "tags": {
+        "demo": "Demo interactif",
+        "intelligence": "Mayele ya minoko"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Fondations NLP",
+        "description": "Traitement ya lokota naturel esangisaka bilembo ya lokota mpe boyekoli ya machine mpo na kozwa ndimbola, mokano, mpe structure ya makomi."
+      },
+      "workbench": {
+        "title": "Interactive NLP Workbench",
+        "description": "Salela demo mpo na komeka détection ya lokota, bilembo ya mayoki, kobimisa entité, mpe bizaleli ya kobongola na temps réel."
+      },
+      "productionApplications": {
+        "title": "Ndenge Horizon esalelaka NLP na production",
+        "description": "Makoki ya NLP esangani na misala ya kompanyi na garde-fous ya performance mpe bamétrique ya malamu ya malamu."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Mabongisi ya bosembo, mpe ya boyangeli",
+        "description": "NLP ya production esengi mingi koleka qualité ya modele; Etaleli misala ya bosaleli ya malamu mpe vérification ya ntango nyonso."
+      }
+    },
+    "foundations": {
+      "intro1": "Ba systeme ya NLP ya sika ya kosunga nguya ya automatisation, ntina ya boluki, kozwa boyebi, mpe boyokani ya minoko ebele. Kosalela malamu esengaka lolenge ya malamu ya modele mpe kolandela misala ya makasi.",
+      "intro2": "Na Horizon, totyaka likebi na ba systeme ya NLP ya suka na suka oyo esangisi inférence ya makasi na komona, gouvernance, mpe bopusi ya production oyo ekoki komekama."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Détection ya minoko",
+        "description": "Koyeba minɔkɔ kobanda na biteni ya makomi ya mokuse to ya molai mpo na komema bosengi na nzela ya malamu ya kosalela."
+      },
+      "sentimentAnalysis": {
+        "title": "Analyse ya sentiment",
+        "description": "Ebimisaka makanisi ya mayoki mpe polarité mpo na mayele ya bakiliya, triage ya lisalisi, mpe boucle ya feedback ya produit."
+      },
+      "entityExtraction": {
+        "title": "Extraction ya entité",
+        "description": "Détecter ba entités structurées neti nkombo, ba kompani, bisika, mpe dates na makomi oyo ebongisami te."
+      },
+      "translation": {
+        "title": "Traduction",
+        "description": "Esalisaka na mosala ya minoko mingi na kobongola makomi oyo euti na basaleli to na misala ntango ebombaka contexte."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Support mpe Ticket Intelligence",
+        "description": "Classifier bosengi oyo ezali koya na lombangu, na mokano, mpe na mayoki mpo na kosala ete nzela ekende noki mpe lolenge ya koyanola."
+      },
+      "governedContentOperations": {
+        "title": "Misala ya contenu etambwisami",
+        "description": "Salela ba filtres ya lokota oyo eyebani na mibeko mpe ba contrôles ya moderation na bosikisiki mpe na mikano ya bokundoli."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Makanisi ya mombongo oyo esimbami na makomi",
+        "description": "Kosangisa mitindo ya mikanda, biyano, mpe masolo mpo na koyeba mikano mpe mikano ya misala."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Evaluation by Use Case",
+        "description": "Ba modele etalelamaka na badataset ya domaine liboso ya kozwa bikateli ya kobimisa yango."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Bobateli ya bato na kati ya boucle",
+        "description": "Prévisions ya makasi ezali banzela ya bozongisi, mibeko ya komata, mpe bilembo ya confiance ya polele."
+      },
+      "continuousMonitoring": {
+        "title": "Botaleli ya ntango nyonso",
+        "description": "Drift, latency, mpe kobeba ya qualité elandamaka ntango nyonso mpo ete retraining mpe rollback ezala proactive."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Simulation ya algorithme génétique",
+      "description": "Tala ndenge ba calculateurs ya évolution ezali na kati ya environnement interactif mpe omona ndenge mibeko wana ebongolamaka na ba systeme ya optimisation ya production.",
+      "back": "Kozonga na Laboratoire ya Innovation",
+      "tags": {
+        "demo": "Demo interactif",
+        "optimizationScience": "Siansi ya optimisation"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Fondation scientifique",
+        "description": "Ba algorithmes génétiques ezali mayele ya optimisation ya population oyo esimbami na boponi ya naturel mpe adaptation."
+      },
+      "interactiveEnvironment": {
+        "title": "Environnement interactif ya évolution",
+        "description": "Sala simulation mpo na komona fitness ezali kokola nkola na génération mpe kotala ndenge pression ya kopona esimbaka resultat."
+      },
+      "productionUse": {
+        "title": "Ndenge nini Horizon asalelaka yango na production",
+        "description": "Ba mécanique ya boluki oyo esalelamaka na demo oyo esalisaka ba pipeline ya optimisation oyo etiamaki na ba systeme opérationnels."
+      },
+      "applicationDomains": {
+        "title": "Domaines ya application ya monene",
+        "description": "Optimisation ya évolution ezali na ntina mingi mpo na ba systeme oyo ezali na mikano ya makasi mpe ya bongolabongola."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Na esika ya koluka eyano moko na mbala moko, ba algorithmes génétiques ebongwanaka na bato ndenge na ndenge. Génération moko na moko etalelamaka na mosala ya fitness mpe ebongisamaka na nzela ya kopona, crossover, mpe mutation.",
+      "intro2": "Yango esalaka ete ezala makasi mpo na mikakatano ya minene na ba contraintes non-linéaires, esika ba approches déterministes ekomaka makasi to ntalo mingi na calcul."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Kopona",
+        "description": "Ba candidats ya makasi bazali na makoki mingi ya kobika mpe kozala na bopusi na nkola ya nsima."
+      },
+      "crossover": {
+        "title": "Crossover",
+        "description": "Bizaleli ya makasi esangisamaka mpo na kobimisa biyano ya sika ya candidat na makasi ya ndenge na ndenge."
+      },
+      "mutation": {
+        "title": "Mutation",
+        "description": "Randomness contrôlé introduit diversité, donc recherche ne s'arrête pas autour de l'optima locale."
+      },
+      "convergence": {
+        "title": "Convergence",
+        "description": "Na boumeli ya bambula mingi, bato bazalaka na mposa ya biyano ya malamu mpe ya malamu."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Programɛ ya ressource",
+        "description": "Tosalelaka mayele ya évolution mpo na optimiser programɛ ya multicontrainte na bisika oyo boluki ya makasi ekoki kosalema te."
+      },
+      "architectureTuning": {
+        "title": "Kobongisa architecture",
+        "description": "Ba configurations ya infrastructure ya candidat etalelamaka mbala na mbala mpo na kobongisa performance mpe kokitisa talo."
+      },
+      "continuousOptimization": {
+        "title": "Optimisation ya kokoba",
+        "description": "Misala ya optimisation etambolaka na ba boucles contrôlées na feedback ya télémétrie mpo ba systeme ebongwanaka ntango mposa ya bato ezali kobongwana."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Planification ya nzela mpe logistique",
+        "description": "Complexe ya komema mpe kotinda biloko ezwaka matomba na boluki ya évolution ntango ba contraintes ebongwani noki."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Modele na Hyperparamètre Recherche",
+        "description": "Boluki ya ba gènes ekoki komona lolenge ya malamu ya modele soki bisika ya objectif ezali na makelele mpe ezali linéaire te."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Mikakatano ya portefeuille mpe ya kokabola biloko",
+        "description": "Optimisation na mikano ya kowelana ekoki kotalelama lokola tradeoffs ya fitness na kati ya ba candidat oyo ezali kokola."
+      }
+    }
+  }
+}

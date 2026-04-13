@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Etxea",
+    "company": "Enpresa",
+    "solutions": "Irtenbideak",
+    "resources": "Baliabideak",
+    "innovationLab": "Berrikuntza laborategia",
+    "contact": "Kontaktua",
+    "about": {
+      "title": "Honi buruz",
+      "description": "Gure misioa, ikuspegia eta istorioa"
+    },
+    "team": {
+      "title": "Taldea",
+      "description": "Ezagutu Horizon Tech-en atzean dauden pertsonak"
+    },
+    "careers": {
+      "title": "Karrerak",
+      "description": "Sartu gure taldean eta eraiki etorkizuna"
+    },
+    "enterpriseSoftware": {
+      "title": "Enpresa softwarearen garapena",
+      "description": "Enpresa aplikazio pertsonalizatuak esparru modernoekin"
+    },
+    "aiMl": {
+      "title": "AI, ML eta Business Intelligence",
+      "description": "AI / ML kanalizazio osoak eta BI panelak"
+    },
+    "cloudArchitecture": {
+      "title": "Hodeiko arkitektura eta azpiegitura",
+      "description": "Hodei anitzeko irtenbideak eta edukiontzien orkestrazioa"
+    },
+    "iot": {
+      "title": "IoT & Edge Computing",
+      "description": "Konektatutako gailuen ekosistemak eta biki digitalak"
+    },
+    "devops": {
+      "title": "DevOps eta plataforma ingeniaritza",
+      "description": "CI/CD kanalizazioak eta azpiegiturak kode gisa"
+    },
+    "digitalTransformation": {
+      "title": "Eraldaketa digitala eta estrategia",
+      "description": "Enpresa eraldaketarako ibilbide-orriak eta aholkularitza"
+    },
+    "caseStudies": {
+      "title": "Kasu azterketak",
+      "description": "Gure bezeroen arrakasta kasuak",
+      "featured": {
+        "title": "Nabarmendutako kasuen azterketa",
+        "description": "Entrega osoko konpromisoan murgiltzea"
+      }
+    },
+    "blog": {
+      "title": "Bloga",
+      "description": "Ikuspegiak, tutorialak eta industriaren joerak",
+      "featured": {
+        "title": "Nabarmendutako blogaren mezua",
+        "description": "Irakurri gure azken ingeniaritza ikuspegietako bat"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Berrikuntza laborategiaren ikuspegi orokorra",
+      "description": "Ikusi ikerketa-arlo guztiak eta esperimentu-ibilbide guztiak"
+    },
+    "innovationLabAiSystems": {
+      "title": "Adimen artifizialeko sistema aplikatuak",
+      "description": "Ekoizpenerako prest dauden ikaskuntza automatikoko arkitektura ereduak"
+    },
+    "innovationLabNlp": {
+      "title": "Hizkuntza anitzeko NLP",
+      "description": "Hizkuntza naturala prozesatzeko gaitasun interaktiboa"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Algoritmo genetikoaren simulazioa",
+      "description": "Optimizazio ebolutiboa ingurune interaktibo batean"
+    },
+    "navigation": "Nabigazioa",
+    "skipToContent": "Saltatu edukira",
+    "toggleMenu": "Txandakatu menua",
+    "dashboard": "Panela",
+    "myWorkspace": "Nire laneko area",
+    "profile": "Profila",
+    "adminPanel": "Administratzaile-panela",
+    "practiceManagement": "Praktiken kudeaketa",
+    "logOut": "Amaitu saioa",
+    "education": {
+      "title": "Baliabide teknikoak",
+      "description": "Horizon Tech taldearen gidak, tutorialak eta praktika onak"
+    },
+    "support": {
+      "title": "Laguntza zentroa",
+      "description": "Lortu laguntza gure softwarea garatzeko zerbitzuekin"
+    }
+  },
+  "footer": {
+    "description": "Software garapeneko startup Sarajevo-n, Bosnian. Software pertsonalizatuak, AI / ML irtenbideak, hodeiko arkitektura eta automatizazio sistemak eraikitzen ditugu.",
+    "features": "Ezaugarriak",
+    "resources": "Baliabideak",
+    "company": "Enpresa",
+    "legal": "Legezkoa",
+    "dashboard": "Panela",
+    "components": "Osagaiak",
+    "documentation": "Dokumentazioa",
+    "apiReference": "APIaren erreferentzia",
+    "gettingStarted": "Erabiltzen hastea",
+    "examples": "Adibideak",
+    "community": "Komunitatea",
+    "blog": "Bloga",
+    "caseStudies": "Kasu azterketak",
+    "innovationLabOverview": "Berrikuntza laborategiaren ikuspegi orokorra",
+    "appliedAiSystems": "Adimen artifizialeko sistema aplikatuak",
+    "nlpDemo": "Hizkuntza anitzeko NLP",
+    "geneticAlgorithmSimulation": "Algoritmo genetikoaren simulazioa",
+    "featuredBlogPost": "Nabarmendutako blogaren mezua",
+    "featuredCaseStudy": "Nabarmendutako kasuen azterketa",
+    "about": "Honi buruz",
+    "contact": "Kontaktua",
+    "partners": "Bazkideak",
+    "careers": "Karrerak",
+    "privacyPolicy": "Pribatutasun politika",
+    "termsOfService": "Zerbitzu baldintzak",
+    "cookiePolicy": "Cookien politika",
+    "license": "Lizentzia",
+    "copyright": "© {{year}} Horizon Tech. Eskubide guztiak erreserbatuta.",
+    "subscribe": "Harpidetu buletinera"
+  },
+  "header": {
+    "badge": "Enpresa teknologia irtenbideak",
+    "titleLine1": "Eraldatu zure negozioa",
+    "titleLine2": "Punta-puntako teknologia",
+    "description": "Enpresa softwarearen garapenetik eta AI-k bultzatutako negozio adimenetik hodeiko azpiegitura eta IoT irtenbideetara - berrikuntza bultzatzen duten eta hazkundea bizkortzen duten zerbitzu teknologiko integralak eskaintzen ditugu.",
+    "getStarted": "Hasi",
+    "exploreSolutions": "Arakatu irtenbideak",
+    "trustedBy": "Aurrera begirako enpresen konfiantza",
+    "microsoftPartner": "Microsoft-eko bazkidea",
+    "azureCertified": "Azure ziurtagiria",
+    "enterpriseSolutions": "Enpresa irtenbideak"
+  },
+  "mobileNav": {
+    "navigation": "Mugikorreko nabigazioa",
+    "home": "Etxea",
+    "solutions": "Irtenbideak",
+    "caseStudies": "Kasuak",
+    "aiSystems": "AI laborategia",
+    "blog": "Bloga",
+    "resources": "Baliabideak",
+    "contact": "Kontaktua"
+  },
+  "sideNav": {
+    "scroll": "Korritu",
+    "navigateTo": "Nabigatu {{section}}",
+    "sections": {
+      "home": "Etxea",
+      "solutions": "Irtenbideak",
+      "credibility": "Sinesgarritasuna",
+      "partners": "Bazkideak",
+      "caseStudies": "Kasu azterketak",
+      "blog": "Bloga",
+      "innovationLab": "Berrikuntza laborategia",
+      "faq": "FAQ"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Aldatu hizkuntza",
+    "searchPlaceholder": "Bilaketa-hizkuntza...",
+    "noResults": "Ez da hizkuntzarik aurkitu."
+  },
+  "common": {
+    "menu": "Menua",
+    "account": "Kontua"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Azken kasuen azterketak",
+      "description": "Fintech, osasun, logistika eta sektore publikoko programen emaitzen argazkia.",
+      "cta": "Ikusi kasu azterketa guztiak"
+    },
+    "blog": {
+      "title": "Gure blogeko azken berriak",
+      "description": "Ingeniaritza praktikoen ohar praktikoak, AI, plataforma eta hodeiko entrega lanak.",
+      "cta": "Irakurri artikulu guztiak"
+    },
+    "innovationLab": {
+      "title": "Berrikuntza laborategia",
+      "description": "Horizon Tech ingeniaritza taldeko prototipoak, esperimentuak eta ikerketa eta garapen aplikatuko proiektuak aztertu.",
+      "cta": "Arakatu berrikuntza laborategia"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Irakurri kasuen azterketa",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Osasuna",
+      "logistics": "Logistika",
+      "manufacturing": "Fabrikazioa",
+      "government": "Gobernua"
+    }
+  },
+  "blogCard": {
+    "read": "Irakurri"
+  }
+}

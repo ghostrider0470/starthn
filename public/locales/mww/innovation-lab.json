@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Innovation Lab",
+    "description": "Tshawb nrhiav kev sib tham sib demos, kev sim thiab kev nthuav qhia los ntawm peb pab pawg engineering.",
+    "primary": "Tshawb nrhiav Demos",
+    "secondary": "Saib Kev Tshawb Fawb"
+  },
+  "overview": {
+    "hero": {
+      "title": "Innovation Lab",
+      "description": "Peb tshawb nrhiav cov tswv yim ciam teb hauv AI, automation, thiab faib cov kab ke, tom qab ntawd txhais cov kev tshawb fawb tau lees paub rau hauv kev tsim khoom muaj peev xwm txhim khu kev qha.",
+      "primary": "Tshawb Nrhiav Cov Chaw Tshawb Fawb",
+      "secondary": "Sib Tham Txog Kev Sib Koom Tes"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Thaj Chaw Tshawb Fawb",
+        "description": "Txhua qhov chaw tsom mus rau kev tshawb nrhiav kev tshawb fawb nrog txoj hauv kev siv tsim rau cov kab ke tiag tiag.",
+        "cardCta": "Tshawb nrhiav kev tsom xam"
+      },
+      "detailedFocusBriefs": {
+        "title": "Cov ncauj lus kom ntxaws Focus Briefs",
+        "description": "Cov kev tshawb fawb nyob ze tam sim no txav los ntawm kev lees paub architecture mus rau cov phiaj xwm xa khoom."
+      },
+      "fromLabToProduction": {
+        "title": "Los ntawm Lab mus rau ntau lawm",
+        "description": "Kev tsim kho tshiab ntawm Horizon yog ntsuas los ntawm cov txiaj ntsig xa tawm, tsis yog cov qauv cais tawm."
+      },
+      "roadmap": {
+        "title": "R & D Daim Ntawv Qhia Txoj Kev",
+        "description": "Ib qho kev nce qib los ntawm kev tsim lub peev xwm mus rau kev yoog raws, txuas ntxiv txhim kho cov kab ke."
+      },
+      "publications": {
+        "title": "Cov Ntawv Tshaj Tawm & Kev Nkag Siab",
+        "description": "Kev sau ntawv thiab kev siv cov ntawv sau los ntawm kev ua haujlwm tshiab txuas ntxiv."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Applied AI Systems",
+        "description": "Kev tsim khoom-tsom AI architectures thoob plaws cov qauv kev pabcuam, feature orchestration, thiab kev tswj hwm kev sim."
+      },
+      "automationFrameworks": {
+        "title": "Automation Frameworks",
+        "description": "Sab hauv automation tooling rau kev xa tawm kev nyab xeeb, kev tiv thaiv xwm txheej, thiab rov ua dua engineering workflows."
+      },
+      "advancedArchitecture": {
+        "title": "Advanced Architecture Experimentation",
+        "description": "Kev tshawb fawb rau hauv kev ruaj khov, faib architectures optimized rau kev ua tau zoo, kev ua txhaum thiab nplai."
+      },
+      "edgeAndIot": {
+        "title": "Ntug Xam & IoT Kev Txawj Ntse",
+        "description": "Kev txawj ntse ntawm ntug rau kev txiav txim siab qis latency, kev ua telemetry thiab kev sib koom tes ntawm cov cuab yeej fleet."
+      },
+      "nlp": {
+        "title": "Kev Ua Lus Ntuj",
+        "description": "Multilingual to taub pipelines rau kev faib tawm, extraction, txhais lus, thiab sib tham systems."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Evolutionary Algorithms & Optimization",
+        "description": "Tshawb nrhiav thiab optimization systems inspired los ntawm ntuj xaiv los daws high-dimensional engineering cov nyom."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Automation Frameworks",
+        "description": "Peb tab tom tsim cov txheej txheem ua haujlwm composable rau kev tso tawm orchestration, lub rooj vag zoo, thiab kev txheeb xyuas tom qab xa tawm kom txo tau phau ntawv kev sib txhuam thaum txhim kho kev ntseeg siab."
+      },
+      "advancedArchitecture": {
+        "title": "Advanced Architecture Experimentation",
+        "description": "Peb cov kev sim architecture tsom mus rau cov kev pabcuam decomposition cov tswv yim, cov qauv hla cheeb tsam, thiab cov hnab ntawv ua haujlwm rau cov tshuab ua haujlwm nyob rau hauv kev xav tau tsis zoo."
+      },
+      "edgeAndIot": {
+        "title": "Ntug Xam & IoT Kev Txawj Ntse",
+        "description": "Peb tab tom lees paub qhov xwm txheej-streaming thiab ntug inference tsim uas ua rau kev txiav txim siab hauv zos sai dua thaum khaws cia kev tswj hwm hauv nruab nrab, kev tshuaj xyuas thiab cov qauv kev tswj hwm lub neej."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Kev Npaj Muaj Peev Xwm Yoog Raws",
+        "description": "Lab prototypes yog validated tiv thaiv simulated workloads thiab ces koom ua ke rau hauv platform autoscaling tswv yim."
+      },
+      "operationalIntelligence": {
+        "title": "Kev Ua Haujlwm Kev Txawj Ntse",
+        "description": "NLP cov kav dej txav los ntawm kev tswj hwm kev sim mus rau kev txhawb nqa kev tsim khoom rau kev sib tw sai dua thiab pom tseeb dua."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Kev Ua Kom Zoo Hauv Kev Xa Khoom",
+        "description": "Evolutionary txoj kev sim nyob rau hauv lub lab yog txhais ua optimization cav rau teem sijhawm thiab faib tawm."
+      },
+      "edgeDecisioning": {
+        "title": "Ntug Kev Txiav Txim Siab",
+        "description": "IoT thiab ntug inference kev sim yog hardened rau hauv low-latency cov kev pab cuam nrog nruj kev cia siab txwv."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Tam sim no",
+        "title": "Applied AI Foundations",
+        "description": "Nthuav cov qauv rov siv tau, cov qauv kev ntsuam xyuas thiab cov qauv soj ntsuam thoob plaws cov pab pawg khoom lag luam."
+      },
+      "next": {
+        "phase": "Tom ntej no",
+        "title": "Autonomous Engineering Workflows",
+        "description": "Ua haujlwm automation moj khaum uas txo qhov kev pheej hmoo xa tawm thiab luv luv cov lus tawm tswv yim rau kev xa khoom."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 Lub hlis",
+        "title": "Ntug-Haiv Neeg Kev Txawj Ntse",
+        "description": "Nplai hybrid huab-ntug architectures rau ze rau lub sijhawm tiag tiag inference hauv latency-rhiab ib puag ncig."
+      },
+      "longHorizon": {
+        "phase": "Ntev Horizon",
+        "title": "Nruam Optimization Systems",
+        "description": "Koom ua ke kev sim, saib xyuas thiab ua kom zoo kom cov kab ke tuaj yeem hloov kho kom nyab xeeb raws li cov ntsiab lus hloov pauv."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Engineering AI Systems uas nyob twj ywm txhim khu kev qha hauv kev tsim khoom",
+        "summary": "Ib qho kev xav ntawm kev sib npaug ntawm kev sim nrawm nrog kev tswj hwm kev tsim khoom.",
+        "cta": "Nyeem cov ntsiab lus"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Faib Architecture Qauv rau High-Growth Platforms",
+        "summary": "Cov ntawv sau teb los ntawm kev sim architecture tsom mus rau kev ua tau zoo, kev ua siab ntev, thiab kev ua haujlwm yooj yim.",
+        "cta": "Txheeb xyuas cov ntaub ntawv tshawb fawb"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping Applied R & D rau Cov Txiaj Ntsig Kev Lag Luam",
+        "summary": "Yuav ua li cas peb tsim innovation tswv yim kom discoveries txav los ntawm prototype mus rau measurable nqi.",
+        "cta": "Tshawb nrhiav cov ntawv tshaj tawm"
+      }
+    },
+    "cta": {
+      "title": "Tsim nrog Horizon Innovation Lab",
+      "description": "Koom tes nrog peb kom lees paub cov tswv yim txaus siab sai sai thiab txav cov tswv yim pov thawj rau hauv kev ruaj ntseg, scalable ntau lawm systems.",
+      "primary": "Pib Sib Tham",
+      "secondary": "Saib Cov Txiaj Ntsig Kev Xa Khoom"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Applied AI Systems",
+      "description": "Ib qho kev coj ua ntawm yuav ua li cas Horizon tsim, xa tawm, thiab ua haujlwm ntawm cov tshuab kev kawm los ntawm cov qauv mus rau kev tsim khoom.",
+      "back": "Rov qab mus rau Innovation Lab",
+      "tags": {
+        "appliedAi": "Applied AI",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Tshuab Kev Kawm Pipelines",
+        "description": "Kev tsim khoom AI pib nrog cov raj xa dej rov ua dua tshiab uas txuas cov ntaub ntawv, kev sim, kev lees paub thiab kev tawm tswv yim."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Cov Qauv Deployment Qauv",
+        "description": "Lub tswv yim xa tawm yog xaiv raws li cov kev xav tau latency, kev lag luam tseem ceeb, thiab kev ua haujlwm nyuaj."
+      },
+      "mlopsOperatingModel": {
+        "title": "MLOps Tus Qauv Ua Haujlwm",
+        "description": "MLOps kev coj ua kom AI cov kab ke nyob twj ywm txhim khu kev qha, tswj tau, thiab scalable raws li kev siv loj hlob."
+      },
+      "monitoringAndReliability": {
+        "title": "Kev Saib Xyuas thiab Kev Ntseeg Tau",
+        "description": "Kev soj ntsuam kaw lub voj voog ntawm tus qauv coj tus cwj pwm thiab cov txiaj ntsig kev ua haujlwm."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Cov ntaub ntawv thiab Feature Engineering",
+        "description": "Versioned cov ntaub ntawv ingestion, kev kuaj xyuas zoo, thiab cov ntsiab lus rov qab siv tau tsim lub hauv paus txhim khu kev qha rau kev cob qhia qauv."
+      },
+      "modelDevelopment": {
+        "title": "Kev Txhim Kho Tus Qauv",
+        "description": "Kev sim yog taug qab nrog kev teeb tsa rov ua dua, lub hom phiaj ntsuas, thiab tsis siv neeg sib piv hauv paus."
+      },
+      "validationAndSafetyGates": {
+        "title": "Kev Lees Paub thiab Kev Nyab Xeeb Rooj Vag",
+        "description": "Cov qauv sib tw dhau qhov kev ua tau zoo, kev ruaj khov, thiab kev tshawb xyuas txoj cai ua ntej lawv tau pom zoo tso tawm."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Kev Ua Haujlwm Tawm Tswv Yim Loops",
+        "description": "Post-deployment telemetry qhia retraining qhov tseem ceeb, kev txiav txim siab rov qab, thiab tom ntej no iteration npaj."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Cov Kev Pab Cuam Tiag Tiag",
+        "description": "Low-latency APIs rau cov ntawv thov sib tham nrog autoscaling, caching, thiab thov-theem soj ntsuam."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Batch thiab Streaming twv ua ntej",
+        "description": "Teem sijhawm thiab kev tshwm sim-tsav cov raj xa dej rau cov qhab nia siab thoob plaws analytics thiab kev ua haujlwm ua haujlwm."
+      },
+      "edgeAwareDeployment": {
+        "title": "Ntug-Paub Deployment",
+        "description": "Hybrid huab-ntug kev pabcuam cov qauv rau ib puag ncig uas yuav tsum muaj kev xav hauv zos thiab kev tswj hwm cov qauv hauv nruab nrab."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI / CD rau Cov Qauv",
+        "description": "Tsis siv neeg tsim, sim thiab tso tawm cov haujlwm ua haujlwm txo qis kev pheej hmoo xa tawm thaum khaws cia kev xa khoom ceev."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Cov Qauv Sau Npe thiab Lub Neej",
+        "description": "Versioned qauv artifacts nrog kev nce qib theem, caj ces thiab kev pom zoo workflows txhim kho kev tswj thiab traceability."
+      },
+      "servingInfrastructure": {
+        "title": "Kev Ua Haujlwm Infrastructure",
+        "description": "Scalable pab txheej nrog cov tswv yim rollout xws li canary thiab duab ntxoov ntxoo xa tawm txhawb kev tswj hwm kev hloov pauv nyab xeeb."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Kev twv ua ntej zoo thiab kev tshawb nrhiav drift",
+      "latencyThroughputAndCostEfficiencyTracking": "Latency, throughput, thiab nqi efficiency taug qab",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Cov ntaub ntawv zoo regression ceeb toom thiab kev kho cov haujlwm",
+      "auditabilityForComplianceAndIncidentAnalysis": "Kev kuaj xyuas rau kev ua raws cai thiab kev tshuaj xyuas xwm txheej"
+    },
+    "cta": {
+      "title": "Nplai Applied AI Nrog Kev Ntseeg Siab",
+      "description": "Yog tias koj tab tom npaj AI cov phiaj xwm uas xav tau cov txiaj ntsig ntsuas tau thiab kev tswj hwm mus sij hawm ntev, Horizon tuaj yeem pab tsim thiab ua haujlwm tag nrho cov kab ke lub neej.",
+      "primary": "Tham nrog Peb Pab Neeg",
+      "secondary": "Tshawb Nrhiav Ntau Lab Ua Haujlwm"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "Ntau hom lus NLP",
+      "description": "Tshawb nrhiav kev siv cov lus ntuj tsim muaj peev xwm thiab yuav ua li cas lawv ntsuas rau hauv kev txhim khu kev qha, ntau hom lus ntau lawm.",
+      "back": "Rov qab mus rau Innovation Lab",
+      "tags": {
+        "demo": "Sib tham sib demo",
+        "intelligence": "Kev txawj ntse lus"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "NLP Lub Hauv Paus",
+        "description": "Natural language processing combines linguistic teeb liab thiab tshuab kev kawm kom rho tawm lub ntsiab lus, lub hom phiaj, thiab qauv los ntawm cov ntawv nyeem."
+      },
+      "workbench": {
+        "title": "Sib tham sib NLP Workbench",
+        "description": "Siv qhov demo los kuaj cov lus ntes, kev xav tau qhab nia, qhov chaw rho tawm thiab txhais tus cwj pwm hauv lub sijhawm."
+      },
+      "productionApplications": {
+        "title": "Yuav Ua Li Cas Horizon Siv NLP Hauv Kev Tsim Khoom",
+        "description": "NLP muaj peev xwm tau koom ua ke rau hauv kev ua haujlwm ua lag luam nrog kev tiv thaiv kev ua tau zoo thiab cov kev ntsuas zoo."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Kev ntseeg tau thiab kev tswj hwm",
+        "description": "Kev tsim khoom NLP xav tau ntau dua li cov qauv zoo; Nws nyob ntawm kev nyab xeeb rollout kev coj ua thiab kev txheeb xyuas tsis tu ncua."
+      }
+    },
+    "foundations": {
+      "intro1": "Niaj hnub NLP systems lub zog txhawb nqa automation, tshawb nrhiav qhov tseem ceeb, kev paub rho tawm thiab kev sib koom tes ntau hom lus. Kev siv tau zoo yuav tsum muaj ob qho tib si qauv zoo thiab kev tswj hwm kev ua haujlwm zoo.",
+      "intro2": "Ntawm Horizon, peb tsom mus rau qhov kawg-rau-kawg NLP cov kab ke uas ua ke cov kev xav zoo nrog kev soj ntsuam, kev tswj hwm, thiab kev ntsuas tau kev tsim khoom."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Kev Tshawb Nrhiav Lus",
+        "description": "Txheeb xyuas cov lus los ntawm cov ntawv luv luv lossis ntev ntu mus rau txoj kev thov mus rau hauv txoj cai ua cov raj xa dej."
+      },
+      "sentimentAnalysis": {
+        "title": "Kev Ntsuam Xyuas Kev Xav",
+        "description": "Rho tawm lub siab lub ntsws thiab polarity rau cov neeg siv khoom txawj ntse, txhawb nqa triage, thiab cov khoom lag luam tawm tswv yim."
+      },
+      "entityExtraction": {
+        "title": "Qhov chaw Rho Tawm",
+        "description": "Kuaj pom cov qauv xws li cov npe, tuam txhab, qhov chaw, thiab hnub tim los ntawm cov ntawv tsis muaj teeb meem."
+      },
+      "translation": {
+        "title": "Kev txhais lus",
+        "description": "Txhawb nqa ntau hom lus ua haujlwm los ntawm kev txhais cov neeg siv tsim los yog cov ntawv ua haujlwm thaum khaws cov ntsiab lus."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Kev Txhawb Nqa thiab Daim Pib Kev Txawj Ntse",
+        "description": "Cais cov kev thov tuaj los ntawm kev kub ntxhov, lub hom phiaj, thiab kev xav kom nrawm nrawm rau kev sib tw thiab teb zoo."
+      },
+      "governedContentOperations": {
+        "title": "Kev Tswj Cov Ntsiab Lus Ua Haujlwm",
+        "description": "Siv cov ntxaij lim lus uas paub txog txoj cai thiab cov tshev nruab nrab nrog kev ntsuas tau thiab rov qab lub hom phiaj."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Cov Ntawv Nyeem-Tsav Kev Lag Luam Kev Lag Luam",
+        "description": "Sib sau ua ke los ntawm cov ntaub ntawv, tshuaj xyuas, thiab kev sib txuas lus los qhia cov tswv yim thiab kev txiav txim siab ua haujlwm."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Kev Ntsuam Xyuas Los Ntawm Kev Siv",
+        "description": "Cov qauv yog benchmarked tiv thaiv domain-tshwj xeeb datasets ua ntej tso tawm kev txiav txim siab."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Tib neeg-hauv-tus-Loop Kev Tiv Thaiv Kev Tiv Thaiv",
+        "description": "Kev kwv yees siab muaj xws li txoj hauv kev tshuaj xyuas, cov cai nce siab, thiab cov cim kev ntseeg siab pob tshab."
+      },
+      "continuousMonitoring": {
+        "title": "Kev Saib Xyuas Tsis Tu Ncua",
+        "description": "Drift, latency, thiab zoo degradation yog tracked tsis tu ncua li ntawd retraining thiab rollback yog proactive."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Genetic Algorithm Simulation",
+      "description": "Tshawb nrhiav kev xam evolutionary nyob rau hauv ib puag ncig sib tham thiab saib yuav ua li cas tib lub hauv paus ntsiab lus txhais ua ntau lawm optimization systems.",
+      "back": "Rov qab mus rau Innovation Lab",
+      "tags": {
+        "demo": "Sib tham sib demo",
+        "optimizationScience": "Kev Tshawb Fawb Txog Kev Ua Kom Zoo"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Scientific Foundation",
+        "description": "Genetic algorithms yog cov pejxeem-raws li kev ua kom zoo dua los ntawm kev xaiv ntuj thiab kev yoog raws."
+      },
+      "interactiveEnvironment": {
+        "title": "Sib tham sib Evolution Ib puag ncig",
+        "description": "Khiav lub simulation kom pom kev qoj ib ce txhim kho tiam dhau ib tiam thiab saib seb kev xaiv siab cuam tshuam li cas rau cov txiaj ntsig."
+      },
+      "productionUse": {
+        "title": "Yuav Ua Li Cas Horizon Siv Qhov no Hauv Kev Tsim Khoom",
+        "description": "Tib txoj kev tshawb nrhiav siv nyob rau hauv qhov demo no qhia txog kev ua kom zoo dua cov raj xa dej xa tawm hauv cov kab ke ua haujlwm."
+      },
+      "applicationDomains": {
+        "title": "Cov Ntawv Thov Dav Dav",
+        "description": "Evolutionary optimization yog tshwj xeeb tshaj yog muaj txiaj ntsig zoo nyob rau hauv cov kab ke nrog lub hom phiaj dynamic thiab kev tsis sib haum xeeb."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Es tsis txhob nrhiav ib qho kev daws teeb meem ntawm ib zaug, genetic algorithms evolve ib tug ntau haiv neeg ntawm cov neeg sib tw. Txhua tiam neeg raug ntsuam xyuas tawm tsam kev ua haujlwm qoj ib ce thiab kho kom zoo dua los ntawm kev xaiv, hla thiab kev hloov pauv.",
+      "intro2": "Qhov no ua rau lawv ua tau zoo rau high-dimensional teeb meem nrog uas tsis yog-linear txwv, qhov twg deterministic mus kom ze ua nkig los yog computationally kim."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Kev xaiv",
+        "description": "Cov neeg sib tw ua haujlwm siab muaj feem ntau yuav muaj sia nyob thiab cuam tshuam rau tiam tom ntej."
+      },
+      "crossover": {
+        "title": "Hla",
+        "description": "Cov yam ntxwv muaj zog tau rov ua dua los tsim cov neeg sib tw tshiab nrog lub zog sib xyaw."
+      },
+      "mutation": {
+        "title": "Kev hloov pauv",
+        "description": "Tswj randomness introduces ntau haiv neeg li ntawd kev tshawb nrhiav tsis stall nyob ib ncig ntawm lub zos optima."
+      },
+      "convergence": {
+        "title": "Kev sib txuas lus",
+        "description": "Nyob rau ntau tiam, cov pejxeem nyiam mus rau kev ruaj khov, cov kev daws teeb meem zoo."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Kev Teem Sijhawm",
+        "description": "Peb siv cov tswv yim evolutionary los ua kom zoo dua ntau qhov kev txwv kev teem sijhawm qhov twg brute-quab yuam tshawb nrhiav yog qhov ua tsis tau."
+      },
+      "architectureTuning": {
+        "title": "Architecture Tuning",
+        "description": "Cov neeg sib tw infrastructure configurations yog ntsuam xyuas iteratively los txhim kho kev ua tau zoo thiab tus nqi efficiency."
+      },
+      "continuousOptimization": {
+        "title": "Kev Ua Kom Zoo Nruam",
+        "description": "Optimization cov hauj lwm khiav nyob rau hauv tswj loops nrog telemetry tawm tswv yim kom systems yoog raws li thov profiles hloov."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Txoj Kev & Kev Npaj Logistics",
+        "description": "Kev xa khoom nyuaj thiab kev npaj xa tawm tau txais txiaj ntsig los ntawm kev tshawb nrhiav evolutionary thaum cov kev txwv hloov pauv sai."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Qauv thiab Hyperparameter Tshawb Nrhiav",
+        "description": "Kev tshawb nrhiav caj ces tuaj yeem tshawb pom cov qauv zoo thaum lub hom phiaj nto muaj suab nrov thiab tsis yog-kab."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Cov Teeb Meem Portfolio thiab Kev Faib Khoom",
+        "description": "Kev ua kom zoo nyob rau hauv cov hom phiaj sib tw tuaj yeem tsim raws li kev tawm dag zog kev lag luam thoob plaws cov neeg sib tw hloov zuj zus."
+      }
+    }
+  }
+}

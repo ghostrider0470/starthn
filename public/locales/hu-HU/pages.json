@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Rólunk",
+    "hero": {
+      "titlePrefix": "A holnap technológiájának építése,",
+      "titleHighlight": "Ma",
+      "description": "A Horizon Tech d.o.o. egy globális technológiai vállalat, amelynek székhelye Szarajevóban található, és élvonalbeli szoftvermegoldásokat nyújt vállalatoknak három kontinensen."
+    },
+    "sections": {
+      "mission": {
+        "title": "Küldetés",
+        "description": "Segítünk a szervezeteknek abban, hogy ambiciózus ötleteket megbízható digitális termékekké alakítsák, amelyek mérhető üzleti értéket teremtenek.",
+        "points": [
+          "A technológia szállítását egyértelmű üzleti eredményekkel kell összehangolni.",
+          "Építs hosszú távú rendszereket, amelyek továbbra is fenntarthatók maradnak, ahogy a csapatok bővülnek.",
+          "Szoros együttműködés az érintettekkel a stratégiától a megvalósításig."
+        ]
+      },
+      "expertise": {
+        "title": "Szakértelem",
+        "description": "Multidiszciplináris csapataink a mérnöki mélységet ötvözik a termékgondolkodással a modern technológiai rétegekben.",
+        "points": [
+          "Vállalati szintű web- és platformmérnökség.",
+          "Felhőarchitektúra, DevOps automatizálás és ellenálló infrastruktúra.",
+          "Alkalmazott AI/ML, adatmunkafolyamatok és IoT-kompatibilis termékek."
+        ]
+      },
+      "approach": {
+        "title": "Megközelítés",
+        "description": "Átlátható, iteratív modellt alkalmazunk, amely kiszámíthatóvá teszi a szállítást, miközben csökkenti a termékkockázatot.",
+        "points": [
+          "Fedezd fel: határozd meg korán a hatókkört, a prioritásokat és a sikermutatókat.",
+          "Build: fókuszált lépésekben, folyamatos visszacsatolási hurkokkal.",
+          "Optimalizálni: nyomon követni az eredményeket és javítani a teljesítményt idővel."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Készen áll arra, hogy átalakítsa vállalkozását?",
+      "description": "Csatlakozz a növekvő listához azoknak a cégeknek, amelyek bíznak a Horizon Tech-ben innovatív megoldások és kivételes eredmények biztosításában.",
+      "primary": "Kezdj el",
+      "secondary": "Sikertörténetek megtekintése"
+    }
+  },
+  "contact": {
+    "badge": "Vedd fel a kapcsolatot",
+    "hero": {
+      "title": "Lépjen kapcsolatba velünk",
+      "description": "Van egy projekted a fejében? Nagyon örülnénk, ha hallanánk felőled. Vedd fel a kapcsolatot, hogy megbeszéljük, hogyan segíthetünk életre keltessük az ötleteidet."
+    },
+    "info": {
+      "title": "Elérhetőségek"
+    },
+    "booking": {
+      "title": "Foglalj egy találkozót",
+      "description": "Foglalj egy ingyenes, 30 perces felfedező hívást"
+    },
+    "methods": {
+      "email": {
+        "title": "E-mail",
+        "description": "Bármikor írj nekünk e-mailt",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Elhelyezkedés",
+        "description": "Székhely",
+        "value": "Szarajevó, Bosznia-Hercegovina"
+      },
+      "response": {
+        "title": "Válaszidő",
+        "description": "Általában belül válaszolunk",
+        "value": "24-48 óra"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Új Projekt"
+      },
+      "support": {
+        "label": "Műszaki támogatás"
+      },
+      "partnerships": {
+        "label": "Partnerségek"
+      },
+      "careers": {
+        "label": "Karrierek"
+      },
+      "general": {
+        "label": "Általános vizsgálat"
+      }
+    },
+    "form": {
+      "title": "Küldjön nekünk üzenetet",
+      "success": "Köszönöm az üzenetedet. 24-48 órán belül visszaírunk.",
+      "error": "Valami félresikerült. Kérjük, próbálja meg újra, vagy írj nekünk közvetlenül.",
+      "fullName": "Teljes név *",
+      "email": "E-mail cím *",
+      "company": "Társaság",
+      "subject": "Alany *",
+      "message": "Üzenet *",
+      "placeholders": {
+        "name": "A neved",
+        "email": "you@example.com",
+        "company": "A céged",
+        "subject": "Miben segíthetünk?",
+        "message": "Meséljen a projektjéről vagy érdeklődéséről..."
+      },
+      "validation": {
+        "required": {
+          "name": "Teljes név szükséges.",
+          "email": "E-mail cím szükséges.",
+          "subject": "Kérem, válassz egy tantárgyat.",
+          "message": "Üzenet szükséges."
+        },
+        "email": "Kérjük, adjon meg egy érvényes e-mail címet.",
+        "messageMinLength": "Az üzenetnek legalább {{count}} karakter hosszúnak kell lennie."
+      },
+      "sending": "Küldve...",
+      "submit": "Üzenetküldés"
+    },
+    "reasonsTitle": "Miért dolgoznak velünk?",
+    "reasons": [
+      "Full-stack szoftverfejlesztési szakértelem",
+      "AI/ML és felhőarchitektúra szakértők",
+      "Agilis fejlesztés átlátható kommunikációval",
+      "Hosszú távú támogatás és karbantartás"
+    ],
+    "custom": {
+      "title": "Egyedi megoldások",
+      "description": "Személyre szabott megoldást keresel? Szorosan együttműködünk ügyfeleinkkel, hogy megértsük az egyedi igényeket, és egyedi szoftvereket biztosítsunk, amelyek mérhető eredményeket érnek el.",
+      "cta": "Beszélj meg a projektedről"
+    },
+    "faq": {
+      "title": "Van még kérdésed?",
+      "description": "Gyors válaszokat találsz a GYIK szekciónknak",
+      "cta": "Böngésszük a GYIK oldalakat"
+    }
+  },
+  "team": {
+    "badge": "A csapatunk",
+    "hero": {
+      "titlePrefix": "Találkozz az elme mögött",
+      "titleHighlight": "Horizon Tech",
+      "description": "Sokszínű csapat teknológusokból, tervezőkből és stratégákból, akik együtt építenek nagy hatású digitális termékeket."
+    },
+    "section": {
+      "title": "Vezetői csapat",
+      "description": "A tapasztalt vezetők, akik irányítják a Horizon Tech vízióját és növekedését"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Alapító, vezérigazgató és műszaki igazgató",
+        "bio": "Látomásos vezető és műszaki építész, aki 10+ éve van vállalati szoftverek területén, AI/ML, felhőplatformok és skálázható termékarchitektúra specializálódott.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Megoldásarchitektúra",
+          "Felhőmérnökség"
+        ]
+      },
+      "ahmet": {
+        "role": "Fő biztonsági építész",
+        "bio": "Kiberbiztonsági szakértő, amely vállalati biztonsági architektúrára, biztonságos helyi infrastruktúrára és a megfelelőség-elsőre irányuló szolgáltatásra fókuszál szabályozott környezetekben.",
+        "expertise": [
+          "Kiberbiztonság",
+          "On-Prem rendszerek",
+          "Biztonsági architektúra",
+          "Megfelelés",
+          "Infrastruktúra biztonság"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Írj {{name}}",
+      "linkedin": "{{name}} LinkedIn profil"
+    },
+    "culture": {
+      "title": "Élet a Horizon Technél",
+      "description": "Elősegítjük az innováció, az együttműködés és a folyamatos tanulás kultúráját",
+      "remoteFirst": {
+        "title": "Távoli első kultúra",
+        "description": "Dolgozz bárhonnan rugalmas munkaidővel, és az eredményekre fókuszálsz, ne a helyszínre."
+      },
+      "collaborative": {
+        "title": "Együttműködési Környezet",
+        "description": "Rendszeres csapatesemények, tudásmegosztási alkalmak és ágazatok közötti együttműködés."
+      },
+      "workLife": {
+        "title": "Munka-magánélet egyensúly",
+        "description": "Nagylelkű szabadsági szabályzat, mentális egészségügyi támogatás és a személyes idő tisztelete."
+      },
+      "innovation": {
+        "title": "Innovációs idő",
+        "description": "20% idő személyes projektekre, hackathonokra és új technológiák felfedezésére."
+      },
+      "stats": {
+        "teamMembers": "Csapattagok",
+        "countries": "Országok",
+        "techStacks": "Tech stackek",
+        "remoteReady": "Távirányítás készenléte"
+      }
+    },
+    "cta": {
+      "title": "Csatlakozol a csapatunkhoz?",
+      "description": "Mindig keresünk tehetséges embereket, akiket érdekel a kézművesség, a tulajdonjog és az innováció.",
+      "button": "Vedd fel a kapcsolatot"
+    }
+  },
+  "careers": {
+    "badge": "Csatlakozz csapatunkhoz",
+    "hero": {
+      "titlePrefix": "Építsd a jövőt",
+      "titleHighlight": "Velünk",
+      "description": "Csatlakozz egy mérnökcsapathoz, akik élvonalbeli szoftvereket építenek globális ügyfelek számára. Dolgozz távról, fejlődj folyamatosan, és valódi hatást gyakorolj.",
+      "button": "Lásd pozíciókat"
+    },
+    "process": {
+      "title": "A felvételi folyamatunk",
+      "description": "Átlátható, hatékony és tiszteletteljes az időddel szemben",
+      "steps": [
+        {
+          "title": "Jelentkezz",
+          "description": "Nyújtsd be a jelentkezésedet, és 3 munkanapon belül átnézzük."
+        },
+        {
+          "title": "Kezdeti beszélgetés",
+          "description": "Egy 30 perces videóhívás, ahol megbeszéljük a tapasztalataidat és elvárásaitokat."
+        },
+        {
+          "title": "Műszaki",
+          "description": "Technikai interjú vagy gyakorlati gyakorlat, hogy bemutasd a képességeidet."
+        },
+        {
+          "title": "Ajánlat",
+          "description": "Ismerkedj meg a csapattal, és kapd meg az ajánlatodat a Horizon Tech-hez való csatlakozásra."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Nyitott pozíciók",
+      "description": "Találd meg következő lehetőségedet, és csatlakozz növekvő csapatunkhoz",
+      "unavailable": "Jelenleg nem fogadok el jelentkezéseket",
+      "apply": "Jelentkezz most",
+      "noMatch": "Nem látod a tökéletes szerepet?",
+      "sendCv": "Küldd el nekünk az önéletrajzodat",
+      "listings": [
+        {
+          "title": "Vezető full-stack mérnök",
+          "department": "Mérnöki pálya",
+          "location": "Távoli (EU-s időzónák)",
+          "type": "Teljes munkaidős",
+          "description": "Skálázható vállalati alkalmazásokat építs React, Node.js és felhő technológiákkal.",
+          "tags": [
+            "React",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps mérnök",
+          "department": "Mérnöki pálya",
+          "location": "Szarajevo / Távoli",
+          "type": "Teljes munkaidős",
+          "description": "CI/CD vezetékek tervezése és karbantartása, infrastruktúra kódolás és monitorozási rendszerek.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI/ML mérnök",
+          "department": "Innovációs Labor",
+          "location": "Távirányítás",
+          "type": "Teljes munkaidős",
+          "description": "Gépi tanulási modellek és MI megoldások fejlesztése vállalati ügyfelek számára.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOp-ok"
+          ]
+        },
+        {
+          "title": "Terméktervező",
+          "department": "Tervezés",
+          "location": "Távirányítás",
+          "type": "Teljes munkaidős",
+          "description": "Teremts gyönyörű, intuitív felhasználói élményeket összetett vállalati alkalmazásokhoz.",
+          "tags": [
+            "Figma",
+            "Felhasználói kutatás",
+            "UI/UX",
+            "Tervezési rendszerek"
+          ]
+        },
+        {
+          "title": "Solutions Architect",
+          "department": "Mérnöki pálya",
+          "location": "Távirányítás",
+          "type": "Teljes munkaidős",
+          "description": "Tervezz végpontig technikai megoldásokat, és vezesd az ügyfeleket a digitális átalakuláson.",
+          "tags": [
+            "Felhőarchitektúra",
+            "Rendszertervezés",
+            "Tanácsadás"
+          ]
+        },
+        {
+          "title": "Műszaki író",
+          "department": "Működés",
+          "location": "Távirányítás",
+          "type": "Részmunkaidős",
+          "description": "Készíts átfogó dokumentációt, oktatóanyagokat és műszaki tartalmakat.",
+          "tags": [
+            "Dokumentáció",
+            "API Docs",
+            "Műszaki írás"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Kérdések a munkával kapcsolatban?",
+      "description": "Nagyon örülnénk, ha hallanánk felőled. Keresd fel a kapcsolatot, és válaszolunk bármilyen kérdésre a Horizon Technél végzett élettel kapcsolatban.",
+      "button": "Lépjen kapcsolatba velünk"
+    }
+  },
+  "caseStudies": {
+    "badge": "Sikertörténetek",
+    "hero": {
+      "titlePrefix": "Olyan eredmények elérése",
+      "titleHighlight": "Anyag",
+      "description": "Fedezze fel, hogyan segítettünk különböző iparágakban működő vállalatoknak a működés átalakításában gyakorlati, nagy hatású technológiával.",
+      "tags": {
+        "delivery": "Mérnöki kiképzés",
+        "outcomes": "Mért eredmények"
+      }
+    },
+    "stats": {
+      "projects": "Leszállított projektek",
+      "clients": "Boldog ügyfelek",
+      "efficiency": "Átlagos hatékonyságnövekedés",
+      "retention": "Ügyfélmegtartás"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Pénzügyi szolgáltatások",
+        "title": "Felhőmigráció és modernizáció",
+        "description": "Régi bankrendszereket áthelyeztem az AWS felhőinfrastruktúrájára, nulla leállással.",
+        "challenge": "A régi monolitikus architektúra skálázhatósági problémákat okoz",
+        "result": "Sikeresen migráltam mikroszolgáltatásokra az AWS-en",
+        "metrics": [
+          {
+            "label": "Költségcsökkentés",
+            "value": "40%"
+          },
+          {
+            "label": "Teljesítménynövelés",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Mikroszolgáltatások",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech Solutions",
+        "industry": "Egészségügy",
+        "title": "MI-alapú diagnosztikai platform",
+        "description": "ML modelleket építettem orvosi képelemzéshez 95%+ pontossággal.",
+        "challenge": "A kézi diagnosztikai folyamatok túl sokáig tartanak",
+        "result": "Automatizált diagnosztika AI/ML-vel",
+        "metrics": [
+          {
+            "label": "Időt takarítottak meg",
+            "value": "70%"
+          },
+          {
+            "label": "Pontosság",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "React",
+          "Egészségügy"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "E-kereskedelmi óriás",
+        "industry": "Kiskereskedelem",
+        "title": "Valós idejű analitikai irányítópult",
+        "description": "Fejlesztett BI platformot dolgozott fel napi 10M+ esemény feldolgozásával.",
+        "challenge": "Nincs valós idejű látás a kulcsfontosságú üzleti mutatókhoz",
+        "result": "Valós idejű analitikai és betekintési platform",
+        "metrics": [
+          {
+            "label": "Események/Nap",
+            "value": "10M+"
+          },
+          {
+            "label": "Válaszidő",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "React",
+          "Adatmérnökség"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Készen állsz arra, hogy megírd a sikertörténetedet?",
+      "description": "Beszéljük meg, hogyan segíthetünk hasonló eredményeket elérni és magabiztosan skálázni."
+    },
+    "filters": {
+      "title": "Ipari szűrő",
+      "all": "Minden iparág",
+      "empty": "Egyetlen esettanulmány sem egyezne meg a kiválasztott iparági szűrővel."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Meglátások és ötletek",
+      "titleHighlight": "Horizon Tech",
+      "description": "Technikai oktatóanyagok, iparági betekintések és gyakorlati tanulságok a valódi kézbesítési munkából."
+    },
+    "categories": [
+      "Minden bejegyzés",
+      "Felhőarchitektúra",
+      "DevOps",
+      "AI/ML",
+      "Frontend",
+      "Backend",
+      "Adatok"
+    ],
+    "featuredPost": {
+      "id": "Kiemelt",
+      "title": "A felhőalapú fejlesztés jövője: 2025-ös trendek",
+      "excerpt": "Fedezze fel a felhőalapú fejlesztés legújabb trendjeit, a szerver nélküli architektúráktól az edge computingig.",
+      "author": {
+        "name": "Horizon Tech szerkesztőségi cikke"
+      },
+      "date": "2025. november 15.",
+      "readTime": "8 perc olvasás",
+      "category": "Felhőarchitektúra",
+      "tags": [
+        "Felhő",
+        "Azure",
+        "Trendek"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Scalable Microservices építése Azure Kubernetes szolgáltatással",
+        "excerpt": "Gyakorlati útmutató a mikroszolgáltatások építéséhez és telepítéséhez AKS-szel.",
+        "author": {
+          "name": "Horizon Tech szerkesztőségi cikke"
+        },
+        "date": "2025. november 12.",
+        "readTime": "6 perc olvasás",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Mikroszolgáltatások",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Gépi tanulás a termelésben: Tanulságok",
+        "excerpt": "Terepen tesztelt tanulságok a gépi gépi modellek nagy léptékű alkalmazásából.",
+        "author": {
+          "name": "Horizon Tech szerkesztőségi cikke"
+        },
+        "date": "2025. november 10.",
+        "readTime": "10 perc olvasás",
+        "category": "AI/ML",
+        "tags": [
+          "Gépi tanulás",
+          "MLOp-ok",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Mi újság és miért számít",
+        "excerpt": "Mélyretekintés a React 19 funkcióiba és teljesítménybeli hatásaiba.",
+        "author": {
+          "name": "Horizon Tech szerkesztőségi cikke"
+        },
+        "date": "2025. november 8.",
+        "readTime": "5 perc olvasás",
+        "category": "Frontend",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Webfejlesztés"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Iratkozz fel hírlevelünkre",
+      "description": "Szerezze meg a legújabb cikkeket, oktatóanyagokat és meglátásokat heti kézbesítésben.",
+      "placeholder": "your.email@example.com",
+      "button": "Iratkozz fel",
+      "note": "Nincs spam. Bármikor töröld az előfizetést."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Mérnöki Blog",
+        "description": "Terepi jegyzetek és gyakorlati minták a csapatoktól, akik AI termékeket, vállalati rendszereket és megbízható felhőplatformokat építenek."
+      },
+      "filters": {
+        "postsInView": "{{count}} bejegyzések láthatók"
+      },
+      "featured": {
+        "badge": "Legfrissebb",
+        "readCta": "Olvasd el a kiemelt bejegyzést"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Betöltési profil...",
+    "title": "Profilbeállítások",
+    "subtitle": "Kezeld a fiókbeállításaidat és beállításaidat",
+    "photoButton": "Fotóváltás",
+    "tabs": {
+      "general": "Általános",
+      "security": "Biztonság",
+      "preferences": "Preferenciák"
+    },
+    "messages": {
+      "profileUpdated": "Profil sikeresen frissítve",
+      "profileUpdateFailed": "Nem tudtam frissíteni a profilt",
+      "passwordsNoMatch": "Az új jelszavak nem egyeznek",
+      "passwordTooShort": "A jelszónak legalább 8 karakter hosszúnak kell lennie",
+      "passwordChanged": "Jelszó sikeresen megváltoztatta",
+      "passwordChangeFailed": "Nem sikerült jelszót változtatni",
+      "optedOut": "Kivonva a gyakorlati jelentéseket",
+      "optedIn": "A gyakorlási jelentések beválasztása",
+      "optOutFailed": "Nem sikerült frissíteni az opt-out státuszt"
+    },
+    "general": {
+      "title": "Személyes adatok",
+      "description": "Frissítse személyes adatait és elérhetőségét",
+      "firstName": "Keresztnév",
+      "firstNamePlaceholder": "John",
+      "lastName": "Vezetéknév",
+      "lastNamePlaceholder": "Őz",
+      "email": "E-mail cím",
+      "emailNotice": "Az e-mail nem változtatható. Ha segítségre van szükséged, vedd fel a kapcsolatot az ügyfélszolgálattal.",
+      "phone": "Telefonszám",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Mentési változtatások"
+    },
+    "security": {
+      "title": "Biztonsági beállítások",
+      "description": "Kezeld a jelszavaid és a biztonsági beállításaidat",
+      "currentPassword": "Jelenlegi jelszó",
+      "currentPasswordPlaceholder": "Adja meg a jelenlegi jelszót",
+      "newPassword": "Új jelszó",
+      "newPasswordPlaceholder": "Új jelszót beírni",
+      "confirmPassword": "Erősítse meg az új jelszót",
+      "confirmPasswordPlaceholder": "Erősítsd meg az új jelszót",
+      "passwordHint": "Legalább 8 karakter hosszúnak kell lennie",
+      "changePassword": "Jelszó módosítása"
+    },
+    "preferences": {
+      "title": "Értesítési beállítások",
+      "description": "Irányítsd, hogyan kapod a frissítéseket és értesítéseket",
+      "email": {
+        "title": "E-mail értesítések",
+        "description": "Frissítések és értesítések kapja meg e-mailben"
+      },
+      "sms": {
+        "title": "SMS-értesítések",
+        "description": "Fontos értesítések kapja meg SMS-ben"
+      },
+      "optOut": {
+        "title": "Lelépni a gyakorlati jelentések",
+        "description": "Rejtsd el a jelentéseidet a praxistulajdonos elől"
+      },
+      "actions": {
+        "title": "Fiókműveletek",
+        "downloadData": "Fiókadatok letöltése",
+        "deleteAccount": "Fiók törlése"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Vissza az otthonba",
+    "title": "Támogató Központ",
+    "subtitle": "Segítséget kérjen szoftverfejlesztési szolgáltatásainkhoz",
+    "cards": {
+      "email": {
+        "title": "E-mail támogatás",
+        "description": "Bármilyen kérdéshez írjon nekünk e-mailt"
+      },
+      "project": {
+        "title": "Projekt lekérdezések",
+        "description": "Beszélje meg a projektkövetelményeit",
+        "button": "Lépjen kapcsolatba velünk"
+      },
+      "resources": {
+        "title": "Források",
+        "description": "Műszaki források és útmutatók",
+        "button": "Források megtekintése"
+      }
+    },
+    "faqTitle": "Gyakran Ismételt Kérdések",
+    "faqDescription": "Gyors válaszok a gyakori kérdésekre",
+    "faqs": [
+      {
+        "question": "Milyen szolgáltatásokat kínál a Horizon Tech?",
+        "answer": "Egyedi szoftverfejlesztést, MI/ML megoldásokat, felhőarchitektúrát, DevOps-ot, üzleti intelligenciát és IoT szolgáltatásokat nyújtunk."
+      },
+      {
+        "question": "Hogyan indíthatok projektet a Horizon Tech-nél?",
+        "answer": "Vegye fel velünk a kapcsolatot űrlapon vagy e-mailben a szükségleteivel. Időpontot egyeztetünk egy felfedező hívást, és megosztunk egy javaslatot."
+      },
+      {
+        "question": "Folyamatosan támogatsz és tartod a karbantartást?",
+        "answer": "Igen. Támogatási és karbantartási csomagokat kínálunk, amelyek hibajavításokat, biztonsági frissítéseket és funkciófejlesztéseket tartalmaznak."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Vissza az otthonba",
+    "title": "Műszaki források",
+    "subtitle": "Útmutatók, oktatóanyagok és legjobb gyakorlatok a Horizon Tech csapatától",
+    "hub": {
+      "title": "Learning Hub",
+      "description": "Fedezze fel gondosan kurált technikai forrásainkat a felhő, MI/ML, DevOps és modern szoftverfejlesztés területén.",
+      "note": "Ezek az anyagok valódi projektélményeken alapulnak, és rendszeresen frissítik."
+    },
+    "categories": [
+      {
+        "icon": "Felhő",
+        "title": "Felhőarchitektúra",
+        "description": "Azure, AWS és felhőalapú minták",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Útmutató"
+          },
+          {
+            "title": "Felhőmigrációs stratégiák",
+            "type": "Cikk"
+          }
+        ]
+      },
+      {
+        "icon": "agy",
+        "title": "MI és gépi tanulás",
+        "description": "ML modellek, adattudomány és MI integráció",
+        "resources": [
+          {
+            "title": "Introduction to Azure ML",
+            "type": "Oktató"
+          },
+          {
+            "title": "Építési gyártási ML vezetékek",
+            "type": "Útmutató"
+          }
+        ]
+      },
+      {
+        "icon": "Helyszínek",
+        "title": "DevOps és platform",
+        "description": "CI/CD, infrastruktúra kódként, automatizálás",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Oktató"
+          },
+          {
+            "title": "Infrastruktúra kódként terraformmal",
+            "type": "Útmutató"
+          }
+        ]
+      },
+      {
+        "icon": "Kód",
+        "title": "Szoftverfejlesztés",
+        "description": ".NET, React és modern fejlesztési gyakorlatok",
+        "resources": [
+          {
+            "title": "Tiszta architektúra a .NET-ben",
+            "type": "Útmutató"
+          },
+          {
+            "title": "React legjobb gyakorlatai",
+            "type": "Cikk"
+          }
+        ]
+      },
+      {
+        "icon": "Adatbázis",
+        "title": "Adatok és elemzések",
+        "description": "BI, adattárolók és elemző platformok",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Design",
+            "type": "Oktató"
+          },
+          {
+            "title": "Adatraktár architektúra",
+            "type": "Útmutató"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Egyedi képzésre van szükséged?",
+      "description": "Testreszabott workshopokat kínálunk mérnöki és termékcsapatok számára",
+      "text": "Gyakorlati csapatképzésre van szüksége? Egyedi workshopokat tartunk felhőarchitektúráról, DevOps-ról és modern szolgáltatási gyakorlatokról.",
+      "button": "Vedd fel a kapcsolatot"
+    }
+  },
+  "unauthorized": {
+    "title": "Hozzáférés megtagadva",
+    "description": "Nincs engedélyed erre az oldalra. Ha úgy gondolod, hogy ez hiba, vedd fel a kapcsolatot az adminisztrátoroddal.",
+    "primary": "Lépj a profilra",
+    "secondary": "Vissza az otthonba"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Bejegyzés nem talált",
+      "description": "Slug számára nincs blogbejegyzés: {{slug}}",
+      "back": "Vissza a bloghoz"
+    },
+    "back": "Vissza a bloghoz",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Esettanulmány nem talált",
+      "description": "Nincs esettanulmány az id: {{id}}",
+      "back": "Vissza az esettanulmányokhoz"
+    },
+    "back": "Vissza az esettanulmányokhoz",
+    "sections": {
+      "executiveSummary": "Összefoglaló",
+      "businessChallenge": "Üzleti kihívás",
+      "technicalSolution": "Műszaki megoldás",
+      "architectureDecisions": "Építészeti döntések",
+      "technologyStack": "Technológiai Stack",
+      "resultsImpact": "Eredmények és hatás"
+    },
+    "client": "Ügyfél",
+    "keyOutcomes": "Főbb eredmények",
+    "decision": "Döntés {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Jel elveszett",
+      "title": "Oldal nem talált meg",
+      "description": "Az általad kért útvonal nem létezik, vagy áthelyeződött. Visszaviszünk egy érvényes Horizon Tech végponthoz.",
+      "requestedPath": "Kért útvonal",
+      "terminal": {
+        "prompt": "$ horizont-router resolution --path",
+        "line1": "Útvonalgrafikon feloldása... sikertelen",
+        "line2": "Ok: nincs megfelelő útvonal modul",
+        "line3": "Tartalék protokoll bekapcsolt",
+        "line4": "Használd az alábbi rövidítéseket a folytatáshoz"
+      },
+      "links": {
+        "home": "Honlaplapunk",
+        "services": "Szolgáltatások",
+        "blog": "Blog",
+        "caseStudies": "Esettanulmányok"
+      }
+    },
+    "runtime": {
+      "badge": "Futási hiba",
+      "title": "Valami tört el ezen az oldalon",
+      "description": "Egy váratlan probléma megszakította a renderelést. Biztonságosan próbálkozhatsz újra, vagy visszatérhetsz a kezdőlapra.",
+      "retry": "Újrapróbálkozás",
+      "home": "Vissza a kezdőlapra",
+      "unknown": "Ismeretlen futási idő hiba"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Blogmenedzsment",
+      "subtitle": "Készítsd el, szerkesszd és kezeld a blogbejegyzéseidet",
+      "newPost": "Új poszt",
+      "seedData": "Magadatok",
+      "allPosts": "Minden bejegyzés",
+      "published": "Megjelent",
+      "draft": "Draft",
+      "featured": "Kiemelt",
+      "setFeatured": "Kiemelt díszlet",
+      "removeFeatured": "Eltávolítja a kiemelt",
+      "table": {
+        "title": "Cím",
+        "category": "Kategória",
+        "status": "Státusz",
+        "date": "Dátum",
+        "actions": "Akciók"
+      },
+      "empty": {
+        "message": "Még nincs blogbejegyzés. Készítsd el az első bejegyzésedet vagy magmintás adatodat.",
+        "seed": "Magminták adatai",
+        "create": "Hozzon létre bejegyzést"
+      },
+      "delete": {
+        "title": "Bejegyzés törlése",
+        "confirmation": "Biztos vagy benne, hogy törölni akarod ezt a bejegyzést? Ezt a lépést nem lehet visszavonni.",
+        "delete": "Törlés",
+        "cancel": "Törlés"
+      }
+    },
+    "editor": {
+      "bannerHint": "Széles zászlóként látható a póló tetején",
+      "bannerImage": "Banner kép",
+      "coverHint": "A bloglistás kártyákon látható",
+      "coverImage": "Borítókép",
+      "editSlug": "Szerkesztés slug",
+      "posts": "Bejegyzések",
+      "publish": "Közzététel",
+      "update": "Frissítés",
+      "form": {
+        "contentPlaceholder": "Írd meg ide a bejegyzésedet...",
+        "excerptPlaceholder": "A bejegyzés rövid összefoglalója...",
+        "pickDate": "Válassz egy dátumot",
+        "readTimePlaceholder": "például 5 perces olvasás",
+        "titlePlaceholder": "A bejegyzés címe..."
+      },
+      "meta": {
+        "publisher": "Kiadó",
+        "unknownAuthor": "Ismeretlen szerző"
+      },
+      "modes": {
+        "edit": "Szerkesztés",
+        "editOnly": "Csak szerkesztés",
+        "preview": "Előzetes",
+        "previewOnly": "Csak előnézet",
+        "sideBySide": "Egymás mellett",
+        "split": "Szétválás"
+      },
+      "tags": {
+        "heading": "Címkék",
+        "placeholder": "Adj hozzá egy címkét..."
+      },
+      "translations": {
+        "auto": "Autó",
+        "autoTranslate": "Automatikus fordítás",
+        "clear": "Tiszta",
+        "existing": "Létező",
+        "heading": "Fordítások",
+        "language": "Nyelv",
+        "languages": "Nyelvek",
+        "edit": "Szerkesztés",
+        "manual": "Kézikönyv",
+        "preview": "Előzetes",
+        "searchPlaceholder": "Keresési nyelvek...",
+        "translate": "Fordítsd"
+      }
+    },
+    "caseStudies": {
+      "title": "Esettanulmányok",
+      "subtitle": "Ügyintézés és projektbemutatók kezelése",
+      "newCaseStudy": "Új esettanulmány",
+      "seedData": "Magadatok",
+      "allCaseStudies": "Minden esettanulmány",
+      "published": "Megjelent",
+      "draft": "Draft",
+      "table": {
+        "title": "Cím",
+        "industry": "Ipar",
+        "client": "Ügyfél",
+        "status": "Státusz",
+        "actions": "Akciók"
+      },
+      "empty": {
+        "message": "Még nincs esettanulmány.",
+        "seed": "Magadatok",
+        "create": "Először teremtsünk"
+      },
+      "delete": {
+        "title": "Esettanulmány törlése",
+        "confirmation": "Biztos vagy benne, hogy törölni akarod ezt az esettanulmányt? Ezt a lépést nem lehet visszavonni.",
+        "delete": "Törlés",
+        "cancel": "Törlés"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Esettanulmányok",
+      "published": "Megjelent",
+      "draft": "Draft",
+      "update": "Frissítés",
+      "create": "Létrehozni",
+      "sections": {
+        "basicInfo": "Alapvető információk",
+        "narrative": "Történet",
+        "architectureDecisions": "Építészeti döntések",
+        "techStack": "Tech Stack",
+        "results": "Eredmények",
+        "tags": "Címkék"
+      },
+      "fields": {
+        "title": "Cím",
+        "titlePlaceholder": "Esettanulmány címe",
+        "slug": "Slug",
+        "slugPlaceholder": "automatikusan generált címből",
+        "client": "Ügyfél",
+        "clientPlaceholder": "Kliens neve",
+        "industry": "Ipar",
+        "industryPlaceholder": "Kiválasztott iparágak",
+        "description": "Leírás",
+        "descriptionPlaceholder": "Rövid leírás (kártyákon látható)",
+        "executiveSummary": "Összefoglaló",
+        "executiveSummaryPlaceholder": "A részvétel magas szintű áttekintése",
+        "challenge": "Kihívás",
+        "challengePlaceholder": "Milyen problémával szembesült az ügyfél?",
+        "solution": "Megoldás",
+        "solutionPlaceholder": "Hogyan oldották meg a problémát?",
+        "decision": "Döntés",
+        "decisionPlaceholder": "Mi volt a döntés",
+        "rationale": "Indoklás",
+        "rationalePlaceholder": "Miért választották ezt a megközelítést",
+        "metric": "Metrikus",
+        "metricPlaceholder": "például Settlement Latency",
+        "value": "Érték",
+        "valuePlaceholder": "például -63% vagy 4,8 óra -> 11 millió",
+        "resultDescription": "Leírás",
+        "resultDescriptionPlaceholder": "Mit jelent ez az eredmény",
+        "techPlaceholder": "Technológia hozzáadása (nyomd meg az Enter gombot)",
+        "tagPlaceholder": "Add hozzá a címkét (nyomd meg az Enter gombot)"
+      },
+      "add": "Add",
+      "noArchDecisions": "Még nincs hozzáadott architektúra döntés.",
+      "noResults": "Még nem került hozzá eredmény.",
+      "decisionLabel": "Döntés {{number}}",
+      "resultLabel": "Eredmény {{number}}",
+      "controls": {
+        "published": "Megjelent",
+        "publishedDescription": "Tegye nyilvánosan láthatóvá ezt az esettanulmányt",
+        "featured": "Kiemelt",
+        "featuredDescription": "Emeld ki ezt az esettanulmányt"
+      }
+    },
+    "imageCrop": {
+      "apply": "Jelentkezz",
+      "cancel": "Törlés",
+      "cropTitle": "Vágó kép",
+      "dropText": "Dobj ide képet, vagy kattints a feltöltéshez",
+      "flipHorizontal": "Fordítható vízszintes",
+      "flipVertical": "Fordított függőleges",
+      "replace": "Cseréje",
+      "reset": "Reset",
+      "rotateLeft": "Fordulj balra",
+      "rotateRight": "Fordulj jobbra",
+      "uploading": "Feltöltöm...",
+      "toast": {
+        "invalidFile": "Érvénytelen fájl",
+        "invalidFileDesc": "Kérjük, töltsön fel egy érvényes képfájlt.",
+        "uploadFailed": "Feltöltés sikertelen",
+        "uploadFailedDesc": "Valami félresikerült. Kérlek, próbáld meg újra.",
+        "uploaded": "Kép feltöltve",
+        "uploadedDesc": "A képed sikeresen feltöltötték."
+      }
+    }
+  }
+}

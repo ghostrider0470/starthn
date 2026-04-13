@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Labordy Arloesi",
+    "description": "Archwiliwch arddangosiadau rhyngweithiol, arbrofion ac arddangosfeydd technegol gan ein tîm peirianneg.",
+    "primary": "Archwilio Demos",
+    "secondary": "Gweld Ymchwil"
+  },
+  "overview": {
+    "hero": {
+      "title": "Labordy Arloesi",
+      "description": "Rydym yn archwilio ffiniau ymarferol mewn AI, awtomeiddio a systemau dosbarthedig, yna cyfieithu ymchwil ddilysu i alluoedd cynhyrchu dibynadwy.",
+      "primary": "Archwilio Meysydd Ymchwil",
+      "secondary": "Trafod cydweithrediad"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Meysydd Ymchwil",
+        "description": "Mae pob maes ffocws yn paru ymchwil archwiliol gyda llwybrau gweithredu sydd wedi'u cynllunio ar gyfer systemau byd go iawn.",
+        "cardCta": "Archwilio'r ffocws"
+      },
+      "detailedFocusBriefs": {
+        "title": "Briffiau Ffocws Manwl",
+        "description": "Mae mentrau ymchwil tymor byr ar hyn o bryd yn symud o ddilysu pensaernïaeth i gynlluniau cyflawni."
+      },
+      "fromLabToProduction": {
+        "title": "O'r Labordy i Gynhyrchu",
+        "description": "Mae arloesedd yn Horizon yn cael ei fesur gan ganlyniadau wedi'u cludo, nid prototeipiau ynysig."
+      },
+      "roadmap": {
+        "title": "Map Ffordd Ymchwil a Datblygu",
+        "description": "Dilyniant fesul cam o adeiladu gallu i systemau addasol, sy'n gwella'n barhaus."
+      },
+      "publications": {
+        "title": "Cyhoeddiadau a Mewnwelediadau",
+        "description": "Ysgrifennu technegol a nodiadau gweithredu o waith arloesi parhaus."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Systemau AI Cymhwysol",
+        "description": "Pensaernïaeth AI sy'n canolbwyntio ar gynhyrchu sy'n rhychwantu gwasanaethu model, cerddorfa nodwedd, ac arbrofi wedi'i lywodraethu."
+      },
+      "automationFrameworks": {
+        "title": "Fframweithiau Awtomeiddio",
+        "description": "Offer awtomeiddio mewnol ar gyfer diogelwch defnyddio, ymateb i ddigwyddiadau, a llifoedd gwaith peirianneg ailadroddadwy."
+      },
+      "advancedArchitecture": {
+        "title": "Arbrofi Pensaernïaeth Uwch",
+        "description": "Ymchwil i bensaernïaethau gwydn, dosbarthedig wedi'u optimeiddio ar gyfer perfformiad, goddefgarwch nam, a graddfa."
+      },
+      "edgeAndIot": {
+        "title": "Cyfrifiadura Edge a Deallusrwydd IoT",
+        "description": "Cudd-wybodaeth ar yr ymyl ar gyfer penderfynu latency isel, prosesu telemetreg, a chydlynu fflyd dyfeisiau."
+      },
+      "nlp": {
+        "title": "Prosesu Iaith Naturiol",
+        "description": "Piblinellau dealltwriaeth amlieithog ar gyfer systemau dosbarthu, echdynnu, cyfieithu a sgwrsio."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Algorithmau Esblygiadol ac Optimeiddio",
+        "description": "Systemau chwilio ac optimeiddio wedi'u hysbrydoli gan ddetholiad naturiol i ddatrys heriau peirianneg dimensiwn uchel."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Fframweithiau Awtomeiddio",
+        "description": "Rydym yn adeiladu fframweithiau llif gwaith cyfansoddadwy ar gyfer cerddorfa rhyddhau, gatiau ansawdd, a dilysu ôl-ddefnyddio i leihau ffrithiant â llaw wrth wella dibynadwyedd."
+      },
+      "advancedArchitecture": {
+        "title": "Arbrofi Pensaernïaeth Uwch",
+        "description": "Mae ein harbrofion pensaernïaeth yn canolbwyntio ar strategaethau dadelfennu gwasanaethau, patrymau gwytnwch traws-ranbarthau, ac amlenni perfformiad ar gyfer systemau sy'n gweithredu o dan alw anwadal."
+      },
+      "edgeAndIot": {
+        "title": "Cyfrifiadura Edge a Deallusrwydd IoT",
+        "description": "Rydym yn dilysu dyluniadau ffrydio digwyddiadau a chasgliadau ymyl sy'n galluogi penderfyniadau lleol cyflymach wrth gadw rheolaeth ganolog, archwiliadwyedd a llywodraethu cylch bywyd model."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Cynllunio Capasiti Addasol",
+        "description": "Mae prototeipiau labordy yn cael eu dilysu yn erbyn llwythi gwaith efelychu ac yna eu hintegreiddio i strategaethau autoscaling platfform."
+      },
+      "operationalIntelligence": {
+        "title": "Cudd-wybodaeth Weithredol",
+        "description": "Mae piblinellau NLP yn symud o arbrofion a reolir i llifoedd gwaith cymorth cynhyrchu ar gyfer brysbennu cyflymach a mewnwelediadau cliriach."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Optimeiddio mewn Systemau Cyflenwi",
+        "description": "Mae dulliau esblygiadol a brofwyd yn y labordy yn cael eu cyfieithu i beiriannau optimeiddio ar gyfer amserlennu a dyrannu."
+      },
+      "edgeDecisioning": {
+        "title": "Penderfyniadau Ymyl",
+        "description": "Mae arbrofion casglu IoT ac ymyl yn cael eu caledu i wasanaethau latency isel gyda chyfyngiadau dibynadwyedd llym."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Nawr",
+        "title": "Sylfeini AI Cymhwysol",
+        "description": "Ehangu templedi sy'n gwasanaethu modelau, ystafelloedd gwerthuso, a safonau arsylwadwyedd ar draws timau cynnyrch."
+      },
+      "next": {
+        "phase": "Nesaf",
+        "title": "Llifoedd gwaith Peirianneg Ymreolaethol",
+        "description": "Gweithredu fframweithiau awtomeiddio sy'n lleihau'r risg defnyddio ac yn byrhau dolenni adborth ar gyfer llongau."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 mis",
+        "title": "Deallusrwydd Brodorol Ymyl",
+        "description": "Graddio pensaernïaethau ymyl cwmwl hybrid ar gyfer casgliad bron amser real mewn amgylcheddau sy'n sensitif i latency."
+      },
+      "longHorizon": {
+        "phase": "Gorwel Hir",
+        "title": "Systemau Optimeiddio Parhaus",
+        "description": "Uneiddio arbrofi, monitro ac optimeiddio fel y gall systemau addasu'n ddiogel wrth i gyd-destunau newid."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Systemau AI Peirianneg sy'n Aros yn Ddibynadwy mewn Cynhyrchu",
+        "summary": "Persbectif ymarferol ar gydbwyso cyflymder arbrofi â llywodraethu cynhyrchu.",
+        "cta": "Darllenwch fewnwelediadau"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Patrymau Pensaernïaeth Dosbarthedig ar gyfer Llwyfannau Twf Uchel",
+        "summary": "Canolbwyntiodd nodiadau maes o dreialon pensaernïaeth ar berfformiad, gwytnwch a symlrwydd gweithredol.",
+        "cta": "Adolygu astudiaethau achos"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Mapio Ffordd Ymchwil a Datblygu Cymhwysol ar gyfer Canlyniadau Busnes",
+        "summary": "Sut rydym yn strwythuro mentrau arloesi fel bod darganfyddiadau yn symud o brototeip i werth mesuradwy.",
+        "cta": "Archwilio cyhoeddiadau"
+      }
+    },
+    "cta": {
+      "title": "Adeiladu gyda Horizon Innovation Lab",
+      "description": "Partner gyda ni i ddilysu syniadau uchelgeisiol yn gyflym a symud cysyniadau profedig i systemau cynhyrchu diogel, graddadwy.",
+      "primary": "Dechrau Sgwrs",
+      "secondary": "Gweld Canlyniadau Cyflawni"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Systemau AI Cymhwysol",
+      "description": "Trosolwg ymarferol o sut mae Horizon yn dylunio, defnyddio a gweithredu systemau dysgu peiriannau o'r prototeip i'r cynhyrchiad.",
+      "back": "Yn ôl i'r Lab Arloesi",
+      "tags": {
+        "appliedAi": "AI Cymhwysol",
+        "mlops": "Swyddi"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Piblinellau Dysgu Peiriant",
+        "description": "Mae AI cynhyrchu yn dechrau gyda phiblinellau atgynhyrchadwy sy'n cysylltu data, arbrofi, dilysu, ac adborth."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Patrymau Defnyddio Model",
+        "description": "Dewisir strategaeth ddefnyddio yn seiliedig ar ofynion hwyrni, critigolrwydd busnes, a chymhlethdod gweithredol."
+      },
+      "mlopsOperatingModel": {
+        "title": "Model Gweithredu MLOps",
+        "description": "Mae arferion MLOps yn sicrhau bod systemau AI yn parhau i fod yn ddibynadwy, yn llywodraethadwy ac yn raddadwy wrth i'r defnydd dyfu."
+      },
+      "monitoringAndReliability": {
+        "title": "Monitro a Dibynadwyedd",
+        "description": "Mae arsylwadwyedd yn cau'r ddolen rhwng ymddygiad model a chanlyniadau gweithredol."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Peirianneg Data a Nodweddion",
+        "description": "Mae amlyncu data wedi'u fersiynu, gwiriadau ansawdd, a diffiniadau nodweddion y gellir eu hailddefnyddio yn creu sylfaen ddibynadwy ar gyfer hyfforddiant model."
+      },
+      "modelDevelopment": {
+        "title": "Datblygu Model",
+        "description": "Mae arbrofion yn cael eu tracio gyda chyfluniadau atgynhyrchadwy, metrigau gwrthrychol, a llinellau sylfaen cymharu awtomataidd."
+      },
+      "validationAndSafetyGates": {
+        "title": "Gatiau Dilysu a Diogelwch",
+        "description": "Mae modelau ymgeiswyr yn pasio gwiriadau perfformiad, cadernid a pholisi cyn iddynt gael eu cymeradwyo i'w rhyddhau."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Dolenni Adborth Gweithredol",
+        "description": "Mae telemetreg ôl-ddefnyddio yn llywio blaenoriaethau ailhyfforddi, penderfyniadau rollback, a chynllunio iteriad nesaf."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Gwasanaethau Casgliad Amser Real",
+        "description": "APIs latency isel ar gyfer cymwysiadau rhyngweithiol gyda autoscaling, caching, ac arsylwadwyedd lefel cais."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Rhagfynegiadau Swp a Ffrydio",
+        "description": "Piblinellau wedi'u hamserlennu ac wedi'u gyrru gan ddigwyddiadau ar gyfer sgorio cyfaint uchel ar draws llifoedd gwaith dadansoddeg a gweithredol."
+      },
+      "edgeAwareDeployment": {
+        "title": "Defnyddio Ymyl-Ymwybodol",
+        "description": "Patrymau gwasanaethu ymyl cwmwl hybrid ar gyfer amgylcheddau sy'n gofyn am gasgliad lleol a llywodraethu model canolog."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI / CD ar gyfer Modelau",
+        "description": "Mae llifoedd gwaith adeiladu, profi a rhyddhau awtomataidd yn lleihau'r risg defnyddio tra'n cadw cyflymder cyflwyno."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Cofrestrfa Model a Chylch Bywyd",
+        "description": "Mae arteffactau model wedi'u fersiynau gyda chyfnodau hyrwyddo, llinach a llifoedd gwaith cymeradwyo yn gwella rheolaeth ac olrhain."
+      },
+      "servingInfrastructure": {
+        "title": "Gwasanaethu Seilwaith",
+        "description": "Mae haenau gwasanaethu graddadwy gyda strategaethau cyflwyno fel caneri a gosodiadau cysgodol yn cefnogi rheoli newid yn ddiogel."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Rhagfynegi ansawdd a chanfod drifft",
+      "latencyThroughputAndCostEfficiencyTracking": "Latency, trwybwn ac olrhain effeithlonrwydd cost",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Rhybuddion atchweliad ansawdd data a llifoedd gwaith adfer",
+      "auditabilityForComplianceAndIncidentAnalysis": "Archwiliadwyedd ar gyfer cydymffurfiaeth a dadansoddi digwyddiadau"
+    },
+    "cta": {
+      "title": "Graddio AI Cymhwysol gyda Hyder",
+      "description": "Os ydych chi'n cynllunio mentrau AI sydd angen canlyniadau mesuradwy a chynnal a chadw hirdymor, gall Horizon helpu i ddylunio a gweithredu cylch bywyd llawn y system.",
+      "primary": "Siaradwch â'n Tîm",
+      "secondary": "Archwiliwch fwy o waith labordy"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "NLP Aml-Iaith",
+      "description": "Archwilio galluoedd prosesu iaith naturiol ymarferol a sut maent yn graddio i systemau cynhyrchu dibynadwy, amlieithog.",
+      "back": "Yn ôl i'r Lab Arloesi",
+      "tags": {
+        "demo": "Demo Rhyngweithiol",
+        "intelligence": "Deallusrwydd Iaith"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Sylfeini NLP",
+        "description": "Mae prosesu iaith naturiol yn cyfuno signalau ieithyddol a dysgu peirianyddol i dynnu ystyr, bwriad a strwythur o destun."
+      },
+      "workbench": {
+        "title": "Mainc Waith NLP Rhyngweithiol",
+        "description": "Defnyddiwch y demo i brofi canfod iaith, sgorio sentiment, echdynnu endidau, ac ymddygiadau cyfieithu mewn amser real."
+      },
+      "productionApplications": {
+        "title": "Sut mae Horizon yn Cymhwyso NLP mewn Cynhyrchu",
+        "description": "Mae galluoedd NLP wedi'u hintegreiddio i llifoedd gwaith busnes gyda rheiliau gwarchod perfformiad a metrigau ansawdd clir."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Egwyddorion Dibynadwyedd a Llywodraethu",
+        "description": "Mae NLP cynhyrchu yn gofyn am fwy nag ansawdd model; Mae'n dibynnu ar arferion cyflwyno diogel a dilysu parhaus."
+      }
+    },
+    "foundations": {
+      "intro1": "Mae systemau NLP modern yn cefnogi awtomeiddio, perthnasedd chwilio, echdynnu gwybodaeth, a chydweithredu amlieithog. Mae gweithredu effeithiol yn gofyn am ansawdd model a rheolaethau gweithredol cryf.",
+      "intro2": "Yn Horizon, rydym yn canolbwyntio ar systemau NLP o'r diwedd i'r diwedd sy'n cyfuno casgliad cadarn ag arsylwadwyedd, llywodraethu, ac effaith gynhyrchu mesuradwy."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Canfod Iaith",
+        "description": "Yn nodi iaith o segmentau testun byr neu hir i lwybro ceisiadau i'r biblinell brosesu gywir."
+      },
+      "sentimentAnalysis": {
+        "title": "Dadansoddiad Teimladau",
+        "description": "Yn tynnu bwriad emosiynol a polaredd ar gyfer deallusrwydd cwsmeriaid, brysbennu cymorth, a dolenni adborth cynnyrch."
+      },
+      "entityExtraction": {
+        "title": "Echdynnu Endidau",
+        "description": "Canfod endidau strwythuredig fel enwau, cwmnïau, lleoliadau, a dyddiadau o destun anstrwythuredig."
+      },
+      "translation": {
+        "title": "Cyfieithiad",
+        "description": "Yn cefnogi llifoedd gwaith amlieithog trwy gyfieithu testun neu weithredol a gynhyrchir gan ddefnyddwyr tra'n cadw cyd-destun."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Cymorth a Deallusrwydd Tocynnau",
+        "description": "Dosbarthu ceisiadau sy'n dod i mewn yn ôl brys, bwriad a theimlad i gyflymu llwybro ac ansawdd ymateb."
+      },
+      "governedContentOperations": {
+        "title": "Gweithrediadau Cynnwys Llywodraethedig",
+        "description": "Apply policy-aware language filters and moderation checks with measurable precision and recall targets."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Mewnwelediadau Busnes wedi'u Gyrru gan Destun",
+        "description": "Agregu tueddiadau o ddogfennau, adolygiadau a chyfathrebu i lywio strategaeth a phenderfyniadau gweithredol."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Gwerthusiad yn ôl Achos Defnydd",
+        "description": "Mae modelau yn cael eu meincnodi yn erbyn setiau data parth-benodol cyn gwneud penderfyniadau rhyddhau."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Mesurau diogelu dynol yn y ddolen",
+        "description": "Mae rhagfynegiadau effaith uchel yn cynnwys llwybrau adolygu, rheolau cynyddu, a signalau hyder tryloyw."
+      },
+      "continuousMonitoring": {
+        "title": "Monitro Parhaus",
+        "description": "Mae drifft, latency, a dirywiad ansawdd yn cael eu tracio yn barhaus felly mae ailhyfforddi a rollback yn rhagweithiol."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Efelychu Algorithm Genetig",
+      "description": "Archwiliwch gyfrifiadura esblygiadol mewn amgylchedd rhyngweithiol a gweld sut mae'r un egwyddorion yn cyfieithu i systemau optimeiddio cynhyrchu.",
+      "back": "Yn ôl i'r Lab Arloesi",
+      "tags": {
+        "demo": "Demo Rhyngweithiol",
+        "optimizationScience": "Gwyddoniaeth Optimeiddio"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Sylfaen Wyddonol",
+        "description": "Mae algorithmau genetig yn ddulliau optimeiddio seiliedig ar boblogaeth wedi'u hysbrydoli gan ddetholiad ac addasu naturiol."
+      },
+      "interactiveEnvironment": {
+        "title": "Amgylchedd Evolution Rhyngweithiol",
+        "description": "Rhedeg yr efelychiad i weld ffitrwydd yn gwella cenhedlaeth wrth genhedlaeth ac arsylwi sut mae pwysau dethol yn dylanwadu ar ganlyniadau."
+      },
+      "productionUse": {
+        "title": "Sut mae Horizon yn defnyddio hyn mewn cynhyrchu",
+        "description": "Mae'r un mecaneg chwilio a ddefnyddir yn y demo hwn yn llywio piblinellau optimeiddio a ddefnyddir mewn systemau gweithredol."
+      },
+      "applicationDomains": {
+        "title": "Parthau Rhaglenni Ehangach",
+        "description": "Mae optimeiddio esblygiadol yn arbennig o werthfawr mewn systemau gydag amcanion deinamig a chyfyngiadau gwrthdaro."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Yn hytrach na chwilio am un ateb ar y tro, mae algorithmau genetig yn esblygu poblogaeth amrywiol o ymgeiswyr. Mae pob cenhedlaeth yn cael ei werthuso yn erbyn swyddogaeth ffitrwydd a'i mireinio trwy ddewis, croesi a mwtaniad.",
+      "intro2": "Mae hyn yn eu gwneud yn effeithiol ar gyfer problemau dimensiwn uchel gyda chyfyngiadau aflinol, lle mae dulliau deterministaidd yn dod yn frau neu'n gyfrifiadurol ddrud."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Dewis",
+        "description": "Mae ymgeiswyr sy'n perfformio uchel yn fwy tebygol o oroesi a dylanwadu ar y genhedlaeth nesaf."
+      },
+      "crossover": {
+        "title": "Croesfan",
+        "description": "Mae nodweddion cryf yn cael eu hailgyfuno i greu atebion ymgeiswyr newydd gyda chryfderau cymysg."
+      },
+      "mutation": {
+        "title": "Treiglad",
+        "description": "Mae hap rheoledig yn cyflwyno amrywiaeth felly nid yw chwilio yn stopio o gwmpas optima lleol."
+      },
+      "convergence": {
+        "title": "Cydgyfeirio",
+        "description": "Dros sawl cenedlaeth, mae poblogaethau yn tueddu tuag at atebion sefydlog, o ansawdd uchel."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Amserlennu Adnoddau",
+        "description": "Rydym yn defnyddio strategaethau esblygiadol i optimeiddio amserlennu aml-gyfyngiad lle mae chwilio grym creulon yn amhosibl."
+      },
+      "architectureTuning": {
+        "title": "Tiwnio Pensaernïaeth",
+        "description": "Mae cyfluniadau seilwaith ymgeiswyr yn cael eu gwerthuso'n ailadroddus i wella perfformiad ac effeithlonrwydd cost."
+      },
+      "continuousOptimization": {
+        "title": "Optimeiddio Parhaus",
+        "description": "Mae swyddi optimeiddio yn rhedeg mewn dolenni rheoledig gydag adborth telemetreg fel bod systemau'n addasu wrth i broffiliau galw newid."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Cynllunio Llwybrau a Logisteg",
+        "description": "Mae cynllunio cyflenwi a dosbarthu cymhleth yn elwa o chwilio esblygiadol pan fydd cyfyngiadau yn newid yn gyflym."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Chwilio Model a Hyperparamedr",
+        "description": "Gall chwilio genetig ddarganfod cyfluniadau model o ansawdd uchel pan fydd arwynebau gwrthrychol yn swnllyd ac yn aflinol."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Problemau Portffolio a Dyrannu",
+        "description": "Gellir fframio optimeiddio o dan amcanion cystadleuol fel cyfaddawdau ffitrwydd ar draws setiau ymgeiswyr sy'n esblygu."
+      }
+    }
+  }
+}

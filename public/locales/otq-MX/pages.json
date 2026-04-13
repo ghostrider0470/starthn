@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Dige Nugu̲je",
+    "hero": {
+      "titlePrefix": "Ár nju̲ts'i tecnología ar xudi,",
+      "titleHighlight": "Nu'bya",
+      "description": "Horizon Tech d.o.o. ge 'nar empresa tecnología global ko yá 'mui jar Sarajevo, ofrecer soluciones software vanguardia ja ya empresas a través de hñu ya continentes."
+    },
+    "sections": {
+      "mission": {
+        "title": "Ar mfeni ar mfeni ar 'be̲fi",
+        "description": "Ayudamos organizaciones convertir ideas ambiciosas jar productos digitales confiables da crean hmädi empresarial medible.",
+        "points": [
+          "Alinear ar entrega tecnología ko ya resultados comerciales claros.",
+          "Gu̲ts'i sistemas ya'bu̲ plazo da siguen mantenibles komongu ar equipos escalan.",
+          "Asociar estrechamente ko ya nt'ot'e interesada ndezu̲ ar estrategia a través de ár nt'ot'e."
+        ]
+      },
+      "expertise": {
+        "title": "Ar mfeni",
+        "description": "HMUNTS'UJE equipos multidisciplinarios combinan profundidad ingeniería ko ar pensamiento producto a través de ya pilas tecnología ja xí 'ño.",
+        "points": [
+          "Ingeniería web ne plataforma ar 'mui empresarial.",
+          "Arquitectura ar gui, automatización DevOps ne infraestructura resistente.",
+          "Aplicada AI yá ML, flujos ar 'be̲fi datos ne productos habilitados pa IoT."
+        ]
+      },
+      "approach": {
+        "title": "Enfoque",
+        "description": "Ejecutamos ko 'nar modelo transparente, iterativo da mantiene ar entrega predecible Mente reduce riesgo producto.",
+        "points": [
+          "Descubrir: definir ámbito ngatho, prioridades ne métricas éxito ngut'ä.",
+          "Gu̲ts'i: nave jar incrementos enfocados ko bucles ar retroalimentación continua.",
+          "Optimizar: monitorear ya resultados ne mejorar rendimiento ko ar pa."
+        ]
+      }
+    },
+    "cta": {
+      "title": "¿Hñoki pa transformar ár negocio?",
+      "description": "Unir bí ma jar creciente Nthuts'i ya empresas da confían jar Horizon Tech pa ofrecer soluciones innovadoras ne resultados excepcionales.",
+      "primary": "'Bu̲i",
+      "secondary": "Ga historias éxito"
+    }
+  },
+  "contact": {
+    "badge": "Ga japi ar jar contacto",
+    "hero": {
+      "title": "Ga japi ar jar contacto ko ngekagihe",
+      "description": "¿Gi pe̲ts'i 'nar 'be̲fi jar mente? Ga ho ga 'yo̲ts'u̲hu̲ nu'i Zonar pa da mä Honja podemos da 'BATS'I ba yá ideas jar ar vida."
+    },
+    "info": {
+      "title": "Ungumfädi contacto"
+    },
+    "booking": {
+      "title": "'Yot'e 'nar 'ret'a",
+      "description": "Programar 'nar llamada ar descubrimiento gratuita 30 ya t'olo ora"
+    },
+    "methods": {
+      "email": {
+        "title": "Correo electrónico",
+        "description": "Envíe ga 'nar correo electrónico 'nar",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Ja yá 'mui",
+        "description": "Basado jar",
+        "value": "Sarajevo, Bosnia ne Herzegovina"
+      },
+      "response": {
+        "title": "Pa respuesta",
+        "description": "Normalmente respondemos mbo",
+        "value": "24 — 48 ya ora"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "'Ra'yo 'be̲fi"
+      },
+      "support": {
+        "label": "Soporte técnico"
+      },
+      "partnerships": {
+        "label": "Asociaciones"
+      },
+      "careers": {
+        "label": "Carreras"
+      },
+      "general": {
+        "label": "Nt'a̲ni Nxoge"
+      }
+    },
+    "form": {
+      "title": "Envie ga 'nar 'me̲hni",
+      "success": "Di jamädi ir 'me̲hni pa Ga japi jar gí mbo ja ya 24 — 48 ya ora.",
+      "error": "'Naxtu̲i bí xi nts'oni Jaki intente ma 'nagi wa ga correo electrónico Hmunts'i.",
+      "fullName": "Thuuhu completo *",
+      "email": "'Mui correo electrónico *",
+      "company": "Empresa",
+      "subject": "Tema *",
+      "message": "'Me̲hni pa *",
+      "placeholders": {
+        "name": "Ir thuhuu",
+        "email": "you@example.com",
+        "company": "Ir empresa",
+        "subject": "¿Temu̲ podemos gi fa̲xki?",
+        "message": "Gi pede dige ár 'be̲fi wa ya nthoni..."
+      },
+      "validation": {
+        "required": {
+          "name": "Ar mahyoni thuuhu completo.",
+          "email": "Bí requiere 'mui correo electrónico.",
+          "subject": "Jaki ar mäte, elija 'nar tema",
+          "message": "Ar mahyoni 'me̲hni pa."
+        },
+        "email": "Jaki introduzca 'nar 'mui correo electrónico válida.",
+        "messageMinLength": "'Me̲hni pa da to tso̲kwa menu {{count}} caracteres largos."
+      },
+      "sending": "Pe̲hni...",
+      "submit": "Pe̲hni 'me̲hni pa"
+    },
+    "reasonsTitle": "¿Yogo'ä gi mpe̲fi ko ngekihe?",
+    "reasons": [
+      "Ar mfeni nte software full — stack",
+      "Especialistas jar AI yá ML ne arquitectura gui",
+      "Nte ágil ko comunicación transparente",
+      "Apoyo ne nja ya'bu̲ plazo"
+    ],
+    "custom": {
+      "title": "Soluciones personalizadas",
+      "description": "¿Mí honi 'nar njäts'i a medida? Trabajamos estrechamente ko ya clientes pa entender ndu únicas ne ofrecer software personalizado da impulsa resultados medibles.",
+      "cta": "Ntsambuhñä ár 'be̲fi"
+    },
+    "faq": {
+      "title": "¿Gi pe̲ts'i mäs ya nt'a̲ni?",
+      "description": "Echa 'nar vistazo ma sección FAQ pa nthädi rápidas",
+      "cta": "Examinar ya nt'a̲ni frecuentes"
+    }
+  },
+  "team": {
+    "badge": "Ma equipo",
+    "hero": {
+      "titlePrefix": "Gi pädi yá mente jár xu̲tha",
+      "titleHighlight": "Horizonte Tech",
+      "description": "'Nar equipo diverso tecnólogos, ar diseñadores ne ar estrategas gu̲ts'i productos digitales mar hñets'i impacto ga̲tho."
+    },
+    "section": {
+      "title": "Equipo liderazgo",
+      "description": "Ya líderes experimentados guiando visión ne crecimiento Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Fundador, CEO & CTO",
+        "bio": "Líder visionario ne arquitecto técnico ko 10 + ya je̲ya jar software empresarial, especializado jar AI yá ML, plataformas gui ne arquitectura producto escalable.",
+        "expertise": [
+          "AI yá ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Arquitectura njäts'i",
+          "Ingeniería ar gui"
+        ]
+      },
+      "ahmet": {
+        "role": "Arquitecto jefe ntsuni",
+        "bio": "Especialista jar ciberseguridad centrado jar arquitectura ntsuni ar empresa, infraestructura segura ja ya locales ne entrega ntsoni 'me̲t'o pa entornos regulados.",
+        "expertise": [
+          "Ntsuni cibernética",
+          "Sistemas locales",
+          "Arquitectura ntsuni",
+          "Ntsoni",
+          "Ntsuni infraestructura"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Correo electrónico {{name}}",
+      "linkedin": "{{name}} perfil LinkedIn"
+    },
+    "culture": {
+      "title": "Nzaki jar Horizon Tech",
+      "description": "Fomentamos 'nar jár 'mui ar innovación, ar colaboración ne ar meya continua",
+      "remoteFirst": {
+        "title": "Jár 'mui remota ndu̲i",
+        "description": "Mpe̲fi ndezu̲ 'na lugar ko ya ora flexibles ne 'nar enfoque resultados, hingi ja yá 'mui."
+      },
+      "collaborative": {
+        "title": "Mbo jar ximha̲i colaborativo",
+        "description": "Eventos regulares ar equipo, Hmunts'i mpa̲ti conocimientos ne colaboración multifuncional."
+      },
+      "workLife": {
+        "title": "Equilibrio 'be̲fi — nzaki",
+        "description": "Nt'eje pa ntsa̲ya̲ generosa, apoyo nzaki mental ne nt'emunsu pa ya jä'i."
+      },
+      "innovation": {
+        "title": "Ar pa innovación",
+        "description": "20% pa 'yot'e thuhuse̲, hackathons ne explorar ya 'ra'yo tecnologías."
+      },
+      "stats": {
+        "teamMembers": "Ya jä'i ar equipo",
+        "countries": "Ya ximha̲i",
+        "techStacks": "Pilas ar tecnología",
+        "remoteReady": "Listo remotamente"
+      }
+    },
+    "cta": {
+      "title": "¿Gi unir bí ma equipo?",
+      "description": "Nzäm'bu̲ je̲ya'bya mí honi ya jä'i talentosas da preocupan ar artesanía, ar ha̲i ne ar innovación.",
+      "button": "Ga japi ar jar contacto"
+    }
+  },
+  "careers": {
+    "badge": "Unir ar ja ma equipo",
+    "hero": {
+      "titlePrefix": "Gu̲ts'i ar futuro",
+      "titleHighlight": "Ko ngekagihe",
+      "description": "Unir bí ma 'nar equipo ingenieros gu̲ju̲ts'i software vanguardia pa clientes globales. Mpe̲fi remotamente, crecer ñäñho ne da impacto real.",
+      "button": "Ga posiciones"
+    },
+    "process": {
+      "title": "Ma proceso contratación",
+      "description": "Transparente, nt'ot'e xi hño ne respetoso ár pa",
+      "steps": [
+        {
+          "title": "Da t'uni",
+          "description": "Envíe ár nt'ot'e ne bí revisaremos mbo 3 pa hábiles."
+        },
+        {
+          "title": "Chat inicial",
+          "description": "'Nar videollamada 30 ya t'olo ora pa da mä ár mfeni ne ya expectativas."
+        },
+        {
+          "title": "Técnico",
+          "description": "Entrevista técnica wa nt'ot'e práctico pa mostrar yá habilidades."
+        },
+        {
+          "title": "Oferta",
+          "description": "Ga pädi ar equipo ne ga hä ár oferta pa unir bí ma Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Abrir posiciones",
+      "description": "Tingigi mbo jar Xtí nt'o̲t'e ne unir bí ma equipo creciente",
+      "unavailable": "Hingi mä hä aplicaciones nuna t'olo ora",
+      "apply": "Da t'uni nu'bya",
+      "noMatch": "¿Hingi nú ar he̲'mi perfecto?",
+      "sendCv": "Envíe ga ir CV",
+      "listings": [
+        {
+          "title": "Ingeniero Senior Full — Stack",
+          "department": "Ingeniería",
+          "location": "Remoto (zonas horaria ar UE)",
+          "type": "Ar ora completo",
+          "description": "Gu̲ts'i aplicaciones empresariales escalables utilizando React, Node.js ne tecnologías gui.",
+          "tags": [
+            "Thäni",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "Ingeniero DevOps",
+          "department": "Ingeniería",
+          "location": "Sarajevo yá remoto",
+          "type": "Ar ora completo",
+          "description": "Diseñar ne da zeti canalizaciones CI yá CD, infraestructura komongu ar código ne ya sistemas monitoreo.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "Ingeniero AI yá ML",
+          "department": "Laboratorio ar innovación",
+          "location": "Remoto",
+          "type": "Ar ora completo",
+          "description": "Nte modelos da meya automática ne soluciones IA pa clientes empresas.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Diseñador productos",
+          "department": "Diseño",
+          "location": "Remoto",
+          "type": "Ar ora completo",
+          "description": "Da t'ot'e hermosas, intuitivas experiencias usuario pa aplicaciones empresariales complejas.",
+          "tags": [
+            "Figma",
+            "Nthoni usuarios",
+            "UI/UX",
+            "Sistemas diseño"
+          ]
+        },
+        {
+          "title": "Arquitecto soluciones",
+          "department": "Ingeniería",
+          "location": "Remoto",
+          "type": "Ar ora completo",
+          "description": "Diseñar soluciones técnicas extremo ma extremo ne guiar ya clientes a través de transformación 'bede.",
+          "tags": [
+            "Arquitectura ar gui",
+            "Diseño ko ya",
+            "Consulta"
+          ]
+        },
+        {
+          "title": "Escritor técnico",
+          "department": "Ja ya",
+          "location": "Remoto",
+          "type": "Ar ora parcial",
+          "description": "Da t'ot'e documentación nxo̲ge, tutoriales ne contenido técnico.",
+          "tags": [
+            "Documentación",
+            "API Docs",
+            "Nt'ot'i nt'o̲t'e"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Ya nt'a̲ni dige ar 'be̲fi nuwa?",
+      "description": "Ga ho ga 'yo̲ts'u̲hu̲ nu'i Contactar ne responderemos 'na nt'a̲ni dige ar nzaki Horizon Tech.",
+      "button": "Ga japi ar jar contacto ko ngekagihe"
+    }
+  },
+  "caseStudies": {
+    "badge": "Historias éxito",
+    "hero": {
+      "titlePrefix": "Entrega resultados nä'ä",
+      "titleHighlight": "Ar nt'ot'e",
+      "description": "Explorar Temu̲ di ayudado empresas a través de industrias transformar ja ya ja a través de tecnología práctica, mar hñets'i impacto.",
+      "tags": {
+        "delivery": "Entrega ingeniería",
+        "outcomes": "Resultados medidos"
+      }
+    },
+    "stats": {
+      "projects": "'Yot'e entregados",
+      "clients": "Clientes johyayu̲",
+      "efficiency": "Promedio ganancia dätä nt'ot'e",
+      "retention": "Retención ar cliente"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Ya 'befi dige ar bojä",
+        "title": "Migración ar gui & Modernización",
+        "description": "Migró sistemas bancarios heredados infraestructura gui AWS ko cero pa inactividad.",
+        "challenge": "Arquitectura monolítica heredada causando hñäki escalabilidad",
+        "result": "Migró ko ya éxito da microservicios jar AWS",
+        "metrics": [
+          {
+            "label": "Reducción costes",
+            "value": "40%"
+          },
+          {
+            "label": "Ganancia rendimiento",
+            "value": "3 x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Microservicios",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "Soluciones HealthTech",
+        "industry": "Ar nzaki",
+        "title": "Plataforma diagnóstico impulsada pa ar IA",
+        "description": "Construido modelos ML pa análisis imágenes médicas ko 95% + precisión.",
+        "challenge": "Procesos diagnóstico manuales da duran 'me̲ ya pa",
+        "result": "Diagnóstico automatizado ko AI yá ML",
+        "metrics": [
+          {
+            "label": "Pa ahorrado",
+            "value": "70%"
+          },
+          {
+            "label": "Exactitud",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "Thäni",
+          "Ar nzaki"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Gigante comercio electrónico",
+        "industry": "'Ba̲ ya mar",
+        "title": "Panel análisis jar pa real",
+        "description": "Desarrollado plataforma BI procesando 10M + eventos diariamente.",
+        "challenge": "Otho ar visibilidad jar pa real ja ya métricas empresariales clave",
+        "result": "Plataforma análisis ne conocimientos jar pa real",
+        "metrics": [
+          {
+            "label": "Eventos yá pa",
+            "value": "10M +"
+          },
+          {
+            "label": "Pa respuesta",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "Thäni",
+          "Ingeniería datos"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "¿Hñoki pa 'yot'i ár 'bede ar éxito?",
+      "description": "Ma ga mä Temu̲ podemos bí da 'BATS'I da tsoni ya resultados similares ne escalar ko ya confianza."
+    },
+    "filters": {
+      "title": "Filtro ar industria",
+      "all": "Ga̲tho ya industrias",
+      "empty": "Ningún estudio ar nt'ot'e coincide ko ar filtro ar industria seleccionado."
+    }
+  },
+  "blog": {
+    "badge": "Ar blog",
+    "hero": {
+      "titlePrefix": "Conocimientos & Ideas ar",
+      "titleHighlight": "Horizonte Tech",
+      "description": "Tutoriales técnicos, conocimientos ar industria ne lecciones prácticas 'be̲fi entrega real."
+    },
+    "categories": [
+      "Ga̲tho ya mensajes",
+      "Arquitectura ar gui",
+      "DevOps",
+      "AI yá ML",
+      "Interfaz",
+      "Backend",
+      "Datos"
+    ],
+    "featuredPost": {
+      "id": "Destacado",
+      "title": "Ar futuro ár nte nativo ar gui: tendencias pa ga 2025",
+      "excerpt": "Explorar ya últimas tendencias jar nte nativo ar gui, ndezu̲ arquitecturas serverless asta edge computing.",
+      "author": {
+        "name": "Horizon Tech Editorial"
+      },
+      "date": "Nov 15, 2025",
+      "readTime": "8 min da",
+      "category": "Arquitectura ar gui",
+      "tags": [
+        "Gui",
+        "Azure",
+        "Tendencias"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Nju̲ts'i microservicios escalables ko Azure Kubernetes Service",
+        "excerpt": "'Nar guía práctica pa ar arquitectura ne ar implementación microservicios usando AKS.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "Nov 12, 2025",
+        "readTime": "6 min da",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Microservicios",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Da meya automática jar producción: lecciones aprendidas",
+        "excerpt": "Lecciones probadas hwähi implementación modelos ML escala.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "Nov 10, 2025",
+        "readTime": "10 min da",
+        "category": "AI yá ML",
+        "tags": [
+          "Da meya automática",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Reaccionar 19: Temu̲ ar 'ra'yo je̲ya ne Yogo'ä importa",
+        "excerpt": "'Nar inmersión profunda jar características React 19 ne ya implicaciones rendimiento.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "Nov 8, 2025",
+        "readTime": "5 min da",
+        "category": "Interfaz",
+        "tags": [
+          "Thäni",
+          "JavaScript",
+          "Nte web"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Suscribir bí ma boletín nt'untho",
+      "description": "Uni ya xeni Nthuts'i mäs recientes, tutoriales ne conocimientos entregados semanalmente.",
+      "placeholder": "your.email@example.com",
+      "button": "Suscribir bí ma",
+      "note": "Otho ar spam. Anular ar suscripción 'nar"
+    },
+    "index": {
+      "hero": {
+        "title": "Blog ingeniería Horizon Tech",
+        "description": "Notas hwähi ne patrones prácticos equipos nju̲ts'i productos AI, sistemas empresariales ne plataformas gui confiables."
+      },
+      "filters": {
+        "postsInView": "{{count}} ya mensajes jar thandi"
+      },
+      "featured": {
+        "badge": "Mäs reciente",
+        "readCta": "Lei post destacado"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Carga perfil...",
+    "title": "Configuración ar perfil",
+    "subtitle": "Administrar ár configuración nu ne preferencias",
+    "photoButton": "Mpa̲ti fotografiya",
+    "tabs": {
+      "general": "Nxoge",
+      "security": "Ntsuni",
+      "preferences": "Preferencias"
+    },
+    "messages": {
+      "profileUpdated": "Perfil actualizado ko éxito",
+      "profileUpdateFailed": "Falló ar actualizar ar perfil",
+      "passwordsNoMatch": "Ya 'ra'yo contraseñas hingi coinciden",
+      "passwordTooShort": "Contraseña da to tso̲kwa menu 8 caracteres largos",
+      "passwordChanged": "Contraseña cambió ko éxito",
+      "passwordChangeFailed": "Hingi ar pudo mpa̲ti ar contraseña",
+      "optedOut": "Optó nu'bu fuera ya mfädi prácticas",
+      "optedIn": "Optó pa mfaxte mfädi",
+      "optOutFailed": "Hingi ar pudo actualizar jar dätä hnini opt-out"
+    },
+    "general": {
+      "title": "Ungumfädi jä'i",
+      "description": "Actualizar yá datos thuhuse̲ ne ar ungumfädi contacto",
+      "firstName": "Thuuhu",
+      "firstNamePlaceholder": "John",
+      "lastName": "Thuhuu",
+      "lastNamePlaceholder": "Ar ze'u̲",
+      "email": "'Mui correo electrónico",
+      "emailNotice": "Correo electrónico hingi ar tsa̲ da mpa̲ti. Contactar ar soporte nu'bu̲ t'ot'e mfats'i.",
+      "phone": "'Bede ya teléfono",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Guardar ar tse̲ yá mpa̲ti"
+    },
+    "security": {
+      "title": "Configuración ntsuni",
+      "description": "Administrar ár contraseña ne preferencias ntsuni",
+      "currentPassword": "Contraseña nu'bya",
+      "currentPasswordPlaceholder": "Introduzca contraseña nu'bya",
+      "newPassword": "'Ra'yo contraseña",
+      "newPasswordPlaceholder": "Introduzca 'ra'yo contraseña",
+      "confirmPassword": "Confirmar ar 'ra'yo contraseña",
+      "confirmPasswordPlaceholder": "Confirmar ar 'ra'yo contraseña",
+      "passwordHint": "Gi 'bu̲i tso̲kwa menu 8 caracteres largos",
+      "changePassword": "Mpa̲ti contraseña"
+    },
+    "preferences": {
+      "title": "Preferencias notificación",
+      "description": "Controla Honja recibe actualizaciones ne notificaciones",
+      "email": {
+        "title": "Notificaciones correo electrónico",
+        "description": "Ga hä actualizaciones ne alertas ya correo electrónico"
+      },
+      "sms": {
+        "title": "Notificaciones SMS",
+        "description": "Ga hä alertas nsu a través de 'me̲hni pa texto"
+      },
+      "optOut": {
+        "title": "Optar por hingi mpa̲ti ya mfädi prácticas",
+        "description": "Ocultar yá mfädi propietario práctica"
+      },
+      "actions": {
+        "title": "Acciones nu",
+        "downloadData": "Descargar datos nu",
+        "deleteAccount": "Da hñäki ya nu"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Volver jar ngú",
+    "title": "Centro apoyo",
+    "subtitle": "Da mfats'i ko HMUNTS'UJE 'befi nte software",
+    "cards": {
+      "email": {
+        "title": "Soporte correo electrónico",
+        "description": "Envíe ga 'nar correo electrónico pa 'na ntha̲i"
+      },
+      "project": {
+        "title": "Ya nt'a̲ni ar 'be̲fi",
+        "description": "Ntsambuhñä yá requisitos ar 'be̲fi",
+        "button": "Ga japi ar jar contacto ko ngekagihe"
+      },
+      "resources": {
+        "title": "Recursos",
+        "description": "Recursos técnicos ne guías",
+        "button": "Ga recursos"
+      }
+    },
+    "faqTitle": "Ya nt'a̲ni frecuentes",
+    "faqDescription": "Nthädi rápidas ja ya nt'a̲ni pa ngatho",
+    "faqs": [
+      {
+        "question": "¿Temu̲ ya 'befi ofrece Horizon Tech?",
+        "answer": "Proporcionamos nte software personalizado, soluciones AI yá ML, arquitectura ar gui, DevOps, inteligencia empresarial ne ya 'befi IoT."
+      },
+      {
+        "question": "¿Tema inicio 'nar 'be̲fi ko Horizon Tech?",
+        "answer": "Ga japi ar jar contacto ko ngekagihe a través de formulario wa correo electrónico ko yá requisitos. Programaremos 'nar llamada descubrimiento ne compartiremos 'nar propuesta."
+      },
+      {
+        "question": "¿Proporciona apoyo continuo ne nja?",
+        "answer": "Hä Ofrecemos paquetes soporte ne nja da incluyen correcciones errores, actualizaciones ntsuni ne mejoras características."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Volver jar ngú",
+    "title": "Recursos técnicos",
+    "subtitle": "Guías, tutoriales ne mpädi mäs xi prácticas equipo Horizon Tech",
+    "hub": {
+      "title": "Centro ar meya",
+      "description": "Explorar HMUNTS'UJE recursos técnicos curados a través de ar gui, AI yá ML, DevOps ne nte software moderno.",
+      "note": "Nuya materiales ar basan jar mfeni real ar 'be̲fi ne actualizados regularmente."
+    },
+    "categories": [
+      {
+        "icon": "gui",
+        "title": "Arquitectura ar gui",
+        "description": "Azure, AWS ne patrones nativos ar gui",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Guía"
+          },
+          {
+            "title": "Honja migración ar gui",
+            "type": "Ar Nthuts'i"
+          }
+        ]
+      },
+      {
+        "icon": "Ar cerebro",
+        "title": "IA & Machine Learning",
+        "description": "Modelos ML, ciencia datos ne integración IA",
+        "resources": [
+          {
+            "title": "Introduction to Azure ML",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Producción nguu ML tuberías",
+            "type": "Guía"
+          }
+        ]
+      },
+      {
+        "icon": "Configuración",
+        "title": "DevOps & Plataforma",
+        "description": "CI yá CD, infraestructura komongu ar código, automatización",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Infraestructura komongu ar código ko Terraform",
+            "type": "Guía"
+          }
+        ]
+      },
+      {
+        "icon": "código",
+        "title": "Nte software",
+        "description": ".NET, Reaccionar ne prácticas nte modernos",
+        "resources": [
+          {
+            "title": "Arquitectura 'Beni jar .NET",
+            "type": "Guía"
+          },
+          {
+            "title": "Mpädi mäs xi prácticas reaccionar",
+            "type": "Ar Nthuts'i"
+          }
+        ]
+      },
+      {
+        "icon": "base ar datos",
+        "title": "Datos & análisis",
+        "description": "BI, almacenamiento datos ne plataformas análisis",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Design",
+            "type": "Tutorial"
+          },
+          {
+            "title": "Arquitectura almacenamiento datos",
+            "type": "Guía"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "¿T'ot'e formación personalizada?",
+      "description": "Ofrecemos taller personalizados pa equipos ingeniería ne productos",
+      "text": "¿T'ot'e formación equipo práctico? Proporcionamos taller personalizados jar arquitectura gui, DevOps ne prácticas ar entrega modernas.",
+      "button": "Ga japi ar jar contacto"
+    }
+  },
+  "unauthorized": {
+    "title": "Nthogi denegado",
+    "description": "Hingi gi 'raku̲'be pa acceder nuna ar página. Ga japi ar jar contacto ko ár administrador nu'bu̲ crees ke nuna gehna 'nar error.",
+    "primary": "Ma jar perfil",
+    "secondary": "Volver jar ngú"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Me̲hni hindi encontrado",
+      "description": "Ni 'na jar publicación ar blog nuna ar dängo pa babosa: {{slug}}",
+      "back": "Volver ar blog"
+    },
+    "back": "Volver ar blog",
+    "publisher": "Horizonte Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Estudio ar nt'ot'e hingi encontrado",
+      "description": "Ningún estudio ar nt'ot'e nuna ar dängo pa ar id: {{id}}",
+      "back": "Volver ya nsa̲di casos"
+    },
+    "back": "Volver ya nsa̲di casos",
+    "sections": {
+      "executiveSummary": "Resumen ejecutivo",
+      "businessChallenge": "Desafío empresarial",
+      "technicalSolution": "Njäts'i ya nt'o̲t'e",
+      "architectureDecisions": "Nt'ent'i arquitectura",
+      "technologyStack": "Pila tecnología",
+      "resultsImpact": "Resultados & Impacto"
+    },
+    "client": "Cliente",
+    "keyOutcomes": "Resultados clave",
+    "decision": "Nja ntsoni {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 /yá señal perdida",
+      "title": "Página hindi encontrado",
+      "description": "Ar ruta nä'ä gí solicitó hingi nuna ar dängo wa ar xi trasladado. Ma ga japi gi volver 'nar punto final válido Horizon Tech.",
+      "requestedPath": "Ruta solicitada",
+      "terminal": {
+        "prompt": "$ horizon — router resolver --path",
+        "line1": "Resolver gráfico ruta ... Fracasó",
+        "line2": "Mä xi hño: ningún módulo ruta coincidente",
+        "line3": "Nthuts'i nkohi alternativo comprometido",
+        "line4": "Utilice 'na ya accesos directos tso̲kwa continuación pa da 'ño"
+      },
+      "links": {
+        "home": "Página principal",
+        "services": "Ya 'befi",
+        "blog": "Ar blog",
+        "caseStudies": "Ya nsadi ar casos"
+      }
+    },
+    "runtime": {
+      "badge": "Error pa nt'eni",
+      "title": "'Naxtu̲i bí 'wagi jar nuna ar página",
+      "description": "'Nar hñäki inesperado interrumpió ar nt'udi nt'udi Tsa̲ da volver intentar ko Ntsuni, wa volver ar página inicio.",
+      "retry": "Volver japi",
+      "home": "Volver ar Página principal",
+      "unknown": "Error pa nt'eni desconocido"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Gestión ar blog",
+      "subtitle": "Da t'ot'e, editar ne administrar yá publicaciones blog",
+      "newPost": "'Ra'yo post",
+      "seedData": "Datos semilla",
+      "allPosts": "Ga̲tho ya mensajes",
+      "published": "Ar he̲'mi",
+      "draft": "'Yo̲t'e",
+      "featured": "Destacado",
+      "setFeatured": "Conjunto destacado",
+      "removeFeatured": "Pats'u̲ga̲ destacado",
+      "table": {
+        "title": "hontho",
+        "category": "Categoría",
+        "status": "Dätä hnini",
+        "date": "pa",
+        "actions": "Acciones"
+      },
+      "empty": {
+        "message": "Aún mi otho ar publicaciones ar blog. Da t'ot'e ár ndui post wa ya datos muestra semillas.",
+        "seed": "Datos muestra semilla",
+        "create": "Da t'ot'e post"
+      },
+      "delete": {
+        "title": "Borrar post",
+        "confirmation": "¿Gi pädi xi hño da ne da hñäki nuna ar post? Nuna ar nt'ot'e hingi ar tsa̲ da deshacer.",
+        "delete": "Borrar",
+        "cancel": "Cancelar"
+      }
+    },
+    "editor": {
+      "bannerHint": "Gi 'ñudi komongu 'nar nt'ot'e ho 'bui ndunthe banner jar xeni mäs xi ngu ar post",
+      "bannerImage": "Tsita banner",
+      "coverHint": "Gi 'ñudi jar tarheta listado blog",
+      "coverImage": "Tsita ar cubierta",
+      "editSlug": "Editar babosa",
+      "posts": "Postes",
+      "publish": "Publicar",
+      "update": "Actualizar",
+      "form": {
+        "contentPlaceholder": "Escriba ár contenido ar post nuwa...",
+        "excerptPlaceholder": "Breve resumen ar post...",
+        "pickDate": "Da 'ñets'i 'nar pa",
+        "readTimePlaceholder": "Nt'udi. 5 min lei",
+        "titlePlaceholder": "Post hontho ..."
+      },
+      "meta": {
+        "publisher": "Publicador",
+        "unknownAuthor": "Autor desconocido"
+      },
+      "modes": {
+        "edit": "Editar",
+        "editOnly": "Ho̲ntho editar",
+        "preview": "Thandi previa",
+        "previewOnly": "Ho̲ntho thandi previa",
+        "sideBySide": "Ngehnu̲ jar ngehnu̲",
+        "split": "Split"
+      },
+      "tags": {
+        "heading": "Etiquetas",
+        "placeholder": "Añadir 'nar etiqueta..."
+      },
+      "translations": {
+        "auto": "Auto",
+        "autoTranslate": "Auto — translate",
+        "clear": "Borrar",
+        "existing": "Ya 'bui",
+        "heading": "Traducciones",
+        "language": "Ar hñä",
+        "languages": "Ya hñä",
+        "edit": "Editar",
+        "manual": "Manual",
+        "preview": "Thandi previa",
+        "searchPlaceholder": "Hñä nthoni ...",
+        "translate": "'rats'at'u̲hñä"
+      }
+    },
+    "caseStudies": {
+      "title": "Ya nsadi ar casos",
+      "subtitle": "Gestionar ya mfädi ya casos ne ya escaparates ar 'yot'e",
+      "newCaseStudy": "'Ra'yo estudio ar nt'ot'e",
+      "seedData": "Datos semilla",
+      "allCaseStudies": "Ga̲tho ya mfädi mfädi ar casos",
+      "published": "Ar he̲'mi",
+      "draft": "'Yo̲t'e",
+      "table": {
+        "title": "hontho",
+        "industry": "Industria",
+        "client": "Cliente",
+        "status": "Dätä hnini",
+        "actions": "Acciones"
+      },
+      "empty": {
+        "message": "Tobe otho ar nt'o̲t'e",
+        "seed": "Datos semilla",
+        "create": "Da t'ot'e 'me̲t"
+      },
+      "delete": {
+        "title": "Da hñäki ya estudio ar nt'ot'e",
+        "confirmation": "¿Gi pädi xi hño da ne da hñäki ya nuna ar estudio ar nt'ot'e? Nuna ar nt'ot'e hingi ar tsa̲ da deshacer.",
+        "delete": "Borrar",
+        "cancel": "Cancelar"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Ya nsadi ar casos",
+      "published": "Ar he̲'mi",
+      "draft": "'Yo̲t'e",
+      "update": "Actualizar",
+      "create": "Da t'ot'e",
+      "sections": {
+        "basicInfo": "Ungumfädi básica",
+        "narrative": "Narrativa",
+        "architectureDecisions": "Nt'ent'i arquitectura",
+        "techStack": "Pila tecnología",
+        "results": "Ya resultados",
+        "tags": "Etiquetas"
+      },
+      "fields": {
+        "title": "hontho",
+        "titlePlaceholder": "Hontho ar estudio ar nt'ot'e",
+        "slug": "Babosa",
+        "slugPlaceholder": "auto-generado-ar-hontho",
+        "client": "Cliente",
+        "clientPlaceholder": "Thuuhu cliente",
+        "industry": "Industria",
+        "industryPlaceholder": "Seleccionar industria",
+        "description": "Descripción",
+        "descriptionPlaceholder": "Breve descripción (ar gi 'ñudi ja ya tarheta)",
+        "executiveSummary": "Resumen ejecutivo",
+        "executiveSummaryPlaceholder": "Visión Nxoge mar hñets'i za̲ ár nthe̲ ar compromiso",
+        "challenge": "Reto",
+        "challengePlaceholder": "¿Temu̲ ar hñäki enfrentó ar cliente?",
+        "solution": "Njäts'i",
+        "solutionPlaceholder": "¿Temu̲ bí solucionó ar hñäki?",
+        "decision": "Nja ntsoni",
+        "decisionPlaceholder": "Nä'ä bi nt'ets'i",
+        "rationale": "Ar mä",
+        "rationalePlaceholder": "Yogo'ä bí elegido nuna ar enfoque",
+        "metric": "Métrica",
+        "metricPlaceholder": "nt'udi. latencia ar nthäki",
+        "value": "hmädi",
+        "valuePlaceholder": "Ngu — 63% wa 4,8 h — > 11m",
+        "resultDescription": "Descripción",
+        "resultDescriptionPlaceholder": "Nä'ä ir bo̲ni nuna ar nt'uni",
+        "techPlaceholder": "Añadir tecnología (pulse Enter)",
+        "tagPlaceholder": "Añadir etiqueta (pulse Enter)"
+      },
+      "add": "Añadir",
+      "noArchDecisions": "Aún mi otho nt'ent'i arquitectura añadido.",
+      "noResults": "Aún mi otho ar resultados añadidos.",
+      "decisionLabel": "Nja ntsoni {{number}}",
+      "resultLabel": "Nt'uni {{number}}",
+      "controls": {
+        "published": "Ar he̲'mi",
+        "publishedDescription": "Gi 'yo̲t'e nuna ar estudio ar nt'ot'e públicamente visible",
+        "featured": "Destacado",
+        "featuredDescription": "Destacar nuna ar estudio ar nt'ot'e"
+      }
+    },
+    "imageCrop": {
+      "apply": "Da t'uni",
+      "cancel": "Cancelar",
+      "cropTitle": "Tsita cultivo",
+      "dropText": "Suelte 'nar tsita nuwa wa 'yot'e clic pa ndi",
+      "flipHorizontal": "Voltear horizontal",
+      "flipVertical": "Voltear vertical",
+      "replace": "Reemplazar",
+      "reset": "Reinicio",
+      "rotateLeft": "Girar ar izquierda",
+      "rotateRight": "Girar ar derecha",
+      "uploading": "Ndi ...",
+      "toast": {
+        "invalidFile": "Archivo hindi válido",
+        "invalidFileDesc": "Jaki cargar 'nar archivo ar tsita válido.",
+        "uploadFailed": "Ar subida falló",
+        "uploadFailedDesc": "'Naxtu̲i bí xi nts'oni Jaki japi ma'nagi",
+        "uploaded": "Ar tsita subida",
+        "uploadedDesc": "Ár tsita xi xi subida ko ya éxito."
+      }
+    }
+  }
+}

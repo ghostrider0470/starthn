@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Баары"
+  },
+  "categories": {
+    "aiEngineering": "Жасалма интеллект инженериясы",
+    "enterpriseArchitecture": "Ишкана архитектурасы",
+    "cloudDevOps": "Булут жана DevOps",
+    "automationSystems": "Автоматташтыруу системалары",
+    "softwareReliabilityDesign": "Программалык камсыздоонун ишенимдүүлүгү жана дизайны"
+  },
+  "readTime": "{{minutes}} мүнөт окуу",
+  "tagsLabel": "Тегдер",
+  "relatedPosts": "Тектеш посттор",
+  "author": {
+    "role": "Басмачы"
+  },
+  "editor": {
+    "emptyPreview": "Алдын ала көрүү үчүн жазып баштаңыз..."
+  },
+  "tags": {
+    "llmOps": "LLM операциялары",
+    "promptEngineering": "Prompt Engineering",
+    "observability": "Байкоо мүмкүнчүлүгү",
+    "safety": "Коопсуздук",
+    "domainDesign": "Домен дизайны",
+    "integration": "Интеграция",
+    "governance": "Башкаруу",
+    "platformStrategy": "Платформа стратегиясы",
+    "platformEngineering": "Платформа инженериясы",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Иштеп чыгуучу тажрыйбасы",
+    "eventDriven": "Иш-чарага негизделген",
+    "workflowOrchestration": "Иш агымын оркестрлөө",
+    "controlPlanes": "Башкаруу пландары",
+    "resilience": "Чыдамкайлык",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "Иштен чыгуу режимдери",
+    "resilienceEngineering": "Туруктуулук инженериясы",
+    "evaluation": "Баалоо",
+    "qualityEngineering": "Сапат инженериясы",
+    "datasets": "Маалымат топтомдору",
+    "releaseManagement": "Чыгарылыштарды башкаруу",
+    "incidentManagement": "Окуяларды башкаруу",
+    "architectureEvolution": "Архитектуранын өнүгүшү",
+    "riskReduction": "Тобокелдикти азайтуу",
+    "postmortems": "Өлүмдөн кийинки экспертиза",
+    "progressiveDelivery": "Прогрессивдүү жеткирүү",
+    "canaryReleases": "Canary релиздери",
+    "featureFlags": "Өзгөчөлүк желектери"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "الجميع"
+  },
+  "categories": {
+    "aiEngineering": "هندسة الذكاء الاصطناعي",
+    "enterpriseArchitecture": "هيكلية المؤسسات",
+    "cloudDevOps": "كلاود & ديفأوبس",
+    "automationSystems": "أنظمة الأتمتة",
+    "softwareReliabilityDesign": "موثوقية وتصميم البرمجيات"
+  },
+  "readTime": "قراءة {{minutes}} دقيقة",
+  "tagsLabel": "الوسوم",
+  "relatedPosts": "منشورات ذات صلة",
+  "author": {
+    "role": "الناشر"
+  },
+  "editor": {
+    "emptyPreview": "ابدأ بالكتابة لرؤية معاينة..."
+  },
+  "tags": {
+    "llmOps": "عمليات الماجستير في القانون",
+    "promptEngineering": "هندسة البرومبت",
+    "observability": "قابلية الرصد",
+    "safety": "السلامة",
+    "domainDesign": "تصميم المجال",
+    "integration": "التكامل",
+    "governance": "الحوكمة",
+    "platformStrategy": "استراتيجية المنصة",
+    "platformEngineering": "هندسة المنصات",
+    "ciCd": "CI/CD",
+    "kubernetes": "كوبيرنيتس",
+    "developerExperience": "تجربة المطور",
+    "eventDriven": "مدفوع بالأحداث",
+    "workflowOrchestration": "تنسيق سير العمل",
+    "controlPlanes": "طائرات التحكم",
+    "resilience": "الصمود",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "أوضاع الفشل",
+    "resilienceEngineering": "هندسة الصمود",
+    "evaluation": "التقييم",
+    "qualityEngineering": "هندسة الجودة",
+    "datasets": "مجموعات البيانات",
+    "releaseManagement": "إدارة الإصدارات",
+    "incidentManagement": "إدارة الحوادث",
+    "architectureEvolution": "تطور العمارة",
+    "riskReduction": "تقليل المخاطر",
+    "postmortems": "التشريحات",
+    "progressiveDelivery": "التوصيل التقدمي",
+    "canaryReleases": "إصدارات كاناري",
+    "featureFlags": "الأعلام الرئيسية"
+  }
+}

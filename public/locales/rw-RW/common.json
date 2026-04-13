@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Inzu",
+    "company": "Isosiyete",
+    "solutions": "Ibisubizo",
+    "resources": "Ibikoresho",
+    "innovationLab": "Innovation Lab",
+    "contact": "Contact",
+    "about": {
+      "title": "About",
+      "description": "Intego yacu, icyerekezo cyacu n'amateka yacu"
+    },
+    "team": {
+      "title": "Ikipe",
+      "description": "Sobanukirwa n'abantu bari inyuma ya Horizon Tech"
+    },
+    "careers": {
+      "title": "Akazi",
+      "description": "Join our team and build the future"
+    },
+    "enterpriseSoftware": {
+      "title": "Enterprise Software Development",
+      "description": "Custom enterprise applications with modern frameworks"
+    },
+    "aiMl": {
+      "title": "AI, ML & Business Intelligence",
+      "description": "Complete AI/ML pipelines and BI dashboards"
+    },
+    "cloudArchitecture": {
+      "title": "Cloud Architecture & Infrastructure",
+      "description": "Multi-cloud solutions and container orchestration"
+    },
+    "iot": {
+      "title": "IoT & Edge Computing",
+      "description": "Connected device ecosystems and digital twins"
+    },
+    "devops": {
+      "title": "DevOps & Platform Engineering",
+      "description": "CI/CD pipelines and infrastructure as code"
+    },
+    "digitalTransformation": {
+      "title": "Digital Transformation & Strategy",
+      "description": "Enterprise transformation roadmaps and advisory"
+    },
+    "caseStudies": {
+      "title": "Case Studies",
+      "description": "Inkuru zigezweho z'abakiriya bacu",
+      "featured": {
+        "title": "Featured Case Study",
+        "description": "Deep dive into a full delivery engagement"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Insights, tutorials, and industry trends",
+      "featured": {
+        "title": "Featured Blog Post",
+        "description": "Soma imwe mu nkuru zacu ziheruka gushyirwa mu bikorwa"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Innovation Lab Overview",
+      "description": "Reba ibice byose by'ubushakashatsi n'ibipimo by'ubushakashatsi"
+    },
+    "innovationLabAiSystems": {
+      "title": "Applied AI Systems",
+      "description": "Production-ready machine learning architecture patterns"
+    },
+    "innovationLabNlp": {
+      "title": "NLP y'indimi nyinshi",
+      "description": "Interactive natural language processing capabilities"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Genetic Algorithm Simulation",
+      "description": "Evolutionary optimization in an interactive environment"
+    },
+    "navigation": "Navigation",
+    "skipToContent": "Skip to content",
+    "toggleMenu": "Toggle menu",
+    "dashboard": "Dashboard",
+    "myWorkspace": "My Workspace",
+    "profile": "Umwirondoro",
+    "adminPanel": "Admin Panel",
+    "practiceManagement": "Imiyoborere y'imyitozo",
+    "logOut": "Sohoka",
+    "education": {
+      "title": "Ibikoresho bya tekiniki",
+      "description": "Guides, tutorials, and best practices from the Horizon Tech team"
+    },
+    "support": {
+      "title": "Support Center",
+      "description": "Shaka ubufasha ukoresheje software yacu yo kubara ibicuruzwa"
+    }
+  },
+  "footer": {
+    "description": "Ikigo cy'Igihugu gishinzwe guteza imbere Ubuhinzi n'Ubworozi (RAB) giherereye mu Mujyi wa Sarajevo mu Mujyi wa Kigali Twubaka software yihariye, ibisubizo bya AI / ML, ubwubatsi bw'ibicu, na sisitemu ya automation.",
+    "features": "Ibiranga",
+    "resources": "Ibikoresho",
+    "company": "Isosiyete",
+    "legal": "Mu mategeko",
+    "dashboard": "Dashboard",
+    "components": "Ibice",
+    "documentation": "Inyandiko",
+    "apiReference": "API Reference",
+    "gettingStarted": "Gutangira",
+    "examples": "Ingero",
+    "community": "Umuryango",
+    "blog": "Blog",
+    "caseStudies": "Case Studies",
+    "innovationLabOverview": "Innovation Lab Overview",
+    "appliedAiSystems": "Applied AI Systems",
+    "nlpDemo": "NLP y'indimi nyinshi",
+    "geneticAlgorithmSimulation": "Genetic Algorithm Simulation",
+    "featuredBlogPost": "Featured Blog Post",
+    "featuredCaseStudy": "Featured Case Study",
+    "about": "About",
+    "contact": "Contact",
+    "partners": "Abafatanyabikorwa",
+    "careers": "Akazi",
+    "privacyPolicy": "Politiki y'ibanga",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Politiki ya Cookie",
+    "license": "Uruhushya",
+    "copyright": "© {{year}} Horizon Tech. All rights reserved.",
+    "subscribe": "Subscribe to newsletter"
+  },
+  "header": {
+    "badge": "Enterprise Technology Solutions",
+    "titleLine1": "Hindura ubucuruzi bwawe ukoresheje",
+    "titleLine2": "Ikoranabuhanga rigezweho",
+    "description": "Uhereye ku iterambere rya software y'ubucuruzi n'ubwenge bw'ubucuruzi bukoreshwa na AI kugeza ku bikorwa remezo by'igicu n'ibisubizo bya IoT - dutanga serivisi zuzuye z'ikoranabuhanga zitera guhanga udushya no kwihutisha iterambere.",
+    "getStarted": "Tangira",
+    "exploreSolutions": "Explore Solutions",
+    "trustedBy": "Kwizerwa n'amasosiyete y'ubucuruzi",
+    "microsoftPartner": "Umufatanyabikorwa wa Microsoft",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "Enterprise Solutions"
+  },
+  "mobileNav": {
+    "navigation": "Mobile navigation",
+    "home": "Inzu",
+    "solutions": "Ibisubizo",
+    "caseStudies": "Imanza",
+    "aiSystems": "AI Lab",
+    "blog": "Blog",
+    "resources": "Ibikoresho",
+    "contact": "Contact"
+  },
+  "sideNav": {
+    "scroll": "Scroll",
+    "navigateTo": "Navigate to {{section}}",
+    "sections": {
+      "home": "Inzu",
+      "solutions": "Ibisubizo",
+      "credibility": "Kwizerwa",
+      "partners": "Abafatanyabikorwa",
+      "caseStudies": "Case Studies",
+      "blog": "Blog",
+      "innovationLab": "Innovation Lab",
+      "faq": "FAQ"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Hindura ururimi",
+    "searchPlaceholder": "Ururimi rwo gushakisha ...",
+    "noResults": "Nta ndimi n'imwe yabonetse."
+  },
+  "common": {
+    "menu": "Menu",
+    "account": "Inkuru"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Recent Case Studies",
+      "description": "A snapshot of delivery results across fintech, healthcare, logistics, and public sector programs.",
+      "cta": "View All Case Studies"
+    },
+    "blog": {
+      "title": "Latest From Our Blog",
+      "description": "Practical engineering notes from recent AI, platform, and cloud delivery work.",
+      "cta": "Soma inkuru zose"
+    },
+    "innovationLab": {
+      "title": "Innovation Lab",
+      "description": "Explore prototypes, experiments, and applied R&D projects from the Horizon Tech engineering team.",
+      "cta": "Explore Innovation Lab"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Read Case Study",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Ubuzima",
+      "logistics": "Logistique",
+      "manufacturing": "Inganda",
+      "government": "Guverinoma"
+    }
+  },
+  "blogCard": {
+    "read": "Soma"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Tất cả"
+  },
+  "categories": {
+    "aiEngineering": "Kỹ thuật AI",
+    "enterpriseArchitecture": "Kiến trúc doanh nghiệp",
+    "cloudDevOps": "Đám mây & DevOps",
+    "automationSystems": "Hệ thống tự động hóa",
+    "softwareReliabilityDesign": "Độ tin cậy và thiết kế phần mềm"
+  },
+  "readTime": "{{minutes}} phút đọc",
+  "tagsLabel": "thẻ",
+  "relatedPosts": "bài viết liên quan",
+  "author": {
+    "role": "Nhà xuất bản"
+  },
+  "editor": {
+    "emptyPreview": "Bắt đầu viết để xem bản xem trước..."
+  },
+  "tags": {
+    "llmOps": "Hoạt động LLM",
+    "promptEngineering": "Kỹ thuật nhắc nhở",
+    "observability": "Khả năng quan sát",
+    "safety": "Sự An Toàn",
+    "domainDesign": "Thiết kế tên miền",
+    "integration": "Tích hợp",
+    "governance": "Quản trị",
+    "platformStrategy": "Chiến lược nền tảng",
+    "platformEngineering": "Kỹ thuật nền tảng",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Trải nghiệm nhà phát triển",
+    "eventDriven": "Định hướng sự kiện",
+    "workflowOrchestration": "Điều phối quy trình làm việc",
+    "controlPlanes": "Mặt phẳng điều khiển",
+    "resilience": "Khả năng phục hồi",
+    "sre": "SRE",
+    "slos": "SLO",
+    "failureModes": "Chế độ thất bại",
+    "resilienceEngineering": "Kỹ thuật khả năng phục hồi",
+    "evaluation": "Đánh giá",
+    "qualityEngineering": "Kỹ thuật chất lượng",
+    "datasets": "Tập dữ liệu",
+    "releaseManagement": "Quản lý phát hành",
+    "incidentManagement": "Quản lý sự cố",
+    "architectureEvolution": "Sự phát triển của kiến trúc",
+    "riskReduction": "Giảm thiểu rủi ro",
+    "postmortems": "Khám nghiệm tử thi",
+    "progressiveDelivery": "Phân phối lũy tiến",
+    "canaryReleases": "Bản phát hành Canary",
+    "featureFlags": "Cờ tính năng"
+  }
+}

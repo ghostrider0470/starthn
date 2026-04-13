@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Innovation Lab",
+    "description": "Ṣawari awọn demos ibanisọrọ, awọn adanwo, ati awọn iṣafihan imọ-ẹrọ lati ẹgbẹ imọ-ẹrọ wa.",
+    "primary": "Ṣawari Demos",
+    "secondary": "Wo Iwadi"
+  },
+  "overview": {
+    "hero": {
+      "title": "Innovation Lab",
+      "description": "A ṣawari awọn aala ti o wulo ni AI, adaṣe, ati awọn ọna pinpin, lẹhinna tumọ iwadi ti a fọwọsi sinu awọn agbara iṣelọpọ ti o gbẹkẹle.",
+      "primary": "Ṣawari Awọn agbegbe Iwadi",
+      "secondary": "Sọrọ nipa ifowosowopo kan"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Awọn agbegbe Iwadi",
+        "description": "Agbegbe idojukọ kọọkan ṣe ajọṣepọ iwadi iwadii pẹlu awọn ọna imuse ti a ṣe apẹrẹ fun awọn eto gidi-aye.",
+        "cardCta": "Ṣawari idojukọ"
+      },
+      "detailedFocusBriefs": {
+        "title": "Awọn alaye Idojukọ Alaye",
+        "description": "Awọn ipilẹṣẹ iwadii ti o sunmọ lọwọlọwọ n lọ lati ifọwọsi faaji si awọn eto ifijiṣẹ."
+      },
+      "fromLabToProduction": {
+        "title": "Lati Lab si Iṣelọpọ",
+        "description": "Innovation ni Horizon ni wiwọn nipasẹ awọn abajade ti a firanṣẹ, kii ṣe awọn apẹẹrẹ ti o ya sọtọ."
+      },
+      "roadmap": {
+        "title": "R &D Roadmap",
+        "description": "Ilọsiwaju ipele lati agbara si aṣamubadọgba, imudarasi awọn ọna ṣiṣe nigbagbogbo."
+      },
+      "publications": {
+        "title": "Awọn atẹjade ati awọn oye",
+        "description": "Kikọ imọ-ẹrọ ati awọn akọsilẹ imuse lati iṣẹ imotuntun ti nlọ lọwọ."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Awọn ọna ṣiṣe AI ti a lo",
+        "description": "Awọn faaji AI ti o ni idojukọ iṣelọpọ ti o kọja iṣẹ awoṣe, orchestration ẹya-ara, ati idanwo iṣakoso."
+      },
+      "automationFrameworks": {
+        "title": "Awọn ilana adaṣiṣẹ",
+        "description": "Awọn irinṣẹ adaṣe ti abẹnu fun ailewu gbigbe, idahun iṣẹlẹ, ati awọn iṣan-iṣẹ imọ-ẹrọ ti o tun ṣeeṣe."
+      },
+      "advancedArchitecture": {
+        "title": "Idanwo faaji to ti ni ilọsiwaju",
+        "description": "Iwadi sinu awọn faaji ti o ni ilọsiwaju, ti a pin ti iṣapeye fun iṣẹ, ifarada aṣiṣe, ati iwọn."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "Ọgbọn ni eti fun ipinnu latency kekere, ṣiṣe telemetry, ati iṣọkan ọkọ oju-omi ẹrọ."
+      },
+      "nlp": {
+        "title": "Processing Ede Adayeba",
+        "description": "Awọn opo gigun ti oye multilingual fun iyasọtọ, isediwon, itumọ, ati awọn ọna ibaraẹnisọrọ."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Awọn alugoridimu Itankalẹ ati Iṣapeye",
+        "description": "Wiwa ati awọn ọna ṣiṣe ti o dara julọ ti o ni atilẹyin nipasẹ yiyan adayeba lati yanju awọn italaya imọ-ẹrọ giga."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Awọn ilana adaṣiṣẹ",
+        "description": "A n kọ awọn ilana iṣan-iṣẹ ti a le ṣe fun orchestration itusilẹ, awọn ẹnubode didara, ati ijerisi ifiweranṣẹ-ifiranṣẹ lati dinku edekoyede Afowoyi lakoko imudarasi igbẹkẹle."
+      },
+      "advancedArchitecture": {
+        "title": "Idanwo faaji to ti ni ilọsiwaju",
+        "description": "Awọn idanwo faaji wa ni idojukọ lori awọn ilana ibajẹ iṣẹ, awọn ilana imudaniloju agbelebu, ati awọn apoowe iṣẹ fun awọn ọna ṣiṣe ti n ṣiṣẹ labẹ ibeere iyipada."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing & IoT Intelligence",
+        "description": "A n jẹrisi ṣiṣanwọle iṣẹlẹ ati awọn aṣa inference eti ti o jẹ ki awọn ipinnu agbegbe yiyara lakoko ti o tọju iṣakoso aarin, iṣatunwo, ati iṣakoso igbesi aye awoṣe."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Eto Agbara Adaptive",
+        "description": "Lab prototypes ti wa ni ifọwọsi lodi si simulated workloads ati ki o si ese sinu Syeed autoscaling ogbon."
+      },
+      "operationalIntelligence": {
+        "title": "Operational Intelligence",
+        "description": "Awọn opo gigun NLP gbe lati awọn adanwo ti a ṣakoso si awọn iṣan-iṣẹ atilẹyin iṣelọpọ fun iyara iyara ati awọn oye ti o han gbangba."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Iṣapeye ni Awọn ọna Ifijiṣẹ",
+        "description": "Awọn ọna itankalẹ ti a ṣe idanwo ni laabu ni a tumọ si awọn ẹrọ iṣapeye fun iṣeto ati pinpin."
+      },
+      "edgeDecisioning": {
+        "title": "Ipinnu Edge",
+        "description": "IoT ati awọn idanwo inference eti ti wa ni lile sinu awọn iṣẹ latency kekere pẹlu awọn ihamọ igbẹkẹle ti o muna."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Bayi",
+        "title": "Awọn ipilẹ AI ti a lo",
+        "description": "Faagun awọn awoṣe awoṣe ti o le tunlo, awọn suites igbelewọn, ati awọn ajohunše akiyesi kọja awọn ẹgbẹ ọja."
+      },
+      "next": {
+        "phase": "Ti o tẹle",
+        "title": "Awọn iṣan-iṣẹ Imọ-ẹrọ Adase",
+        "description": "Ṣiṣẹ awọn ilana adaṣe ti o dinku eewu imuṣiṣẹ ati kuru awọn losiwajulosehin esi fun gbigbe."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "Awọn oṣu 12-18",
+        "title": "Ọgbọn Eti-abinibi",
+        "description": "Asekale arabara awọsanma-eti faaji fun sunmọ gidi-akoko inference ni latency-kókó agbegbe."
+      },
+      "longHorizon": {
+        "phase": "Long Horizon",
+        "title": "Awọn ọna ṣiṣe ti o dara ju lemọlemọfún",
+        "description": "Ṣọkan idanwo, ibojuwo, ati iṣapeye ki awọn ọna ṣiṣe le ṣe deede lailewu bi awọn ipo ṣe yipada."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Awọn ọna ṣiṣe AI ti o gbẹkẹle ni iṣelọpọ",
+        "summary": "A wulo irisi lori iwontunwonsi experimentation iyara pẹlu gbóògì isakoso.",
+        "cta": "Ka awọn imọran"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Awọn ilana faaji ti a pin fun awọn iru ẹrọ idagbasoke giga",
+        "summary": "Awọn akọsilẹ aaye lati awọn idanwo faaji ni idojukọ lori iṣẹ, imudaniloju, ati ayedero iṣẹ.",
+        "cta": "Ṣe atunyẹwo awọn iwadii ọran"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping Applied R&D fun Awọn abajade Iṣowo",
+        "summary": "Bawo ni a ṣe ṣe agbekalẹ awọn ipilẹṣẹ imotuntun ki awọn awari gbe lati apẹrẹ si iye wiwọn.",
+        "cta": "Ṣawari awọn atẹjade"
+      }
+    },
+    "cta": {
+      "title": "Kọ pẹlu Horizon Innovation Lab",
+      "description": "Alabaṣepọ pẹlu wa lati jẹrisi awọn imọran ifẹkufẹ ni kiakia ati gbe awọn imọran ti a fihan sinu aabo, awọn eto iṣelọpọ ti o ni aabo.",
+      "primary": "Bẹ̀rẹ̀ Ìjíròrò",
+      "secondary": "Wo Awọn abajade Ifijiṣẹ"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Awọn ọna ṣiṣe AI ti a lo",
+      "description": "Akopọ ti o wulo ti bii Horizon ṣe ṣe apẹrẹ, firanṣẹ, ati ṣiṣẹ awọn eto ẹkọ ẹrọ lati afọwọkọ si iṣelọpọ.",
+      "back": "Pada si Innovation Lab",
+      "tags": {
+        "appliedAi": "Ti a lo AI",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Awọn opo gigun ti Ẹkọ Ẹrọ",
+        "description": "Iṣelọpọ AI bẹrẹ pẹlu awọn opo gigun ti o sopọ mọ data, idanwo, ifọwọsi, ati esi."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Awọn ilana imuṣiṣẹ awoṣe",
+        "description": "Ilana imuṣiṣẹ ni a yan da lori awọn ibeere latency, iṣowo, ati idiju iṣẹ."
+      },
+      "mlopsOperatingModel": {
+        "title": "Awoṣe Ọna MLOps",
+        "description": "Awọn iṣe MLOps rii daju pe awọn eto AI wa ni igbẹkẹle, ijọba, ati iwọn bi lilo ṣe n dagba."
+      },
+      "monitoringAndReliability": {
+        "title": "Abojuwo ati igbẹkẹle",
+        "description": "Observability pa lupu laarin ihuwasi awoṣe ati awọn abajade iṣẹ."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Data ati Ẹya-ara Engineering",
+        "description": "Ingestion data ti a ṣe atunṣe, awọn sọwedowo didara, ati awọn asọye ẹya ti a tunlo ṣẹda ipilẹ ti o gbẹkẹle fun ikẹkọ awoṣe."
+      },
+      "modelDevelopment": {
+        "title": "Idagbasoke awoṣe",
+        "description": "Awọn adanwo ni a tọpinpin pẹlu awọn atunto atunto atunṣe, awọn iṣiro ibi-afẹde, ati awọn ipilẹ lafiwe adaṣe."
+      },
+      "validationAndSafetyGates": {
+        "title": "Imudaniloju ati Awọn ẹnubode Aabo",
+        "description": "Awọn awoṣe oludije kọja iṣẹ, lagbara, ati awọn sọwedowo eto imulo ṣaaju ki wọn to fọwọsi fun itusilẹ."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Operational Feedback Loops",
+        "description": "Telemetry ifiweranṣẹ-ifilọlẹ ṣe alaye awọn ipinnu atunkọ, awọn ipinnu rollback, ati eto iteration atẹle."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Awọn iṣẹ Inference Real-Time",
+        "description": "Awọn API latency kekere fun awọn ohun elo ibanisọrọ pẹlu aifọwọyi, caching, ati akiyesi ipele ibeere."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Ipele ati awọn asọtẹlẹ ṣiṣanwọle",
+        "description": "Awọn opo gigun ti a ṣeto ati iṣẹlẹ fun igbelewọn iwọn didun giga kọja awọn atupale ati awọn iṣẹ ṣiṣe."
+      },
+      "edgeAwareDeployment": {
+        "title": "Imuṣiṣẹ Edge-Aware",
+        "description": "Awọn ilana iranṣẹ awọsanma arabara fun awọn agbegbe ti o nilo inference agbegbe ati iṣakoso awoṣe aarin."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI / CD fun awọn awoṣe",
+        "description": "Laifọwọyi kọ, idanwo, ati tu workflows dinku imuṣiṣẹ ewu nigba ti fifipamọ ifijiṣẹ iyara."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Iforukọsilẹ awoṣe ati igbesi aye",
+        "description": "Awọn ohun elo awoṣe ti a ṣe pẹlu awọn ipele igbega, ila, ati awọn iṣan-iṣẹ itẹwọgba mu iṣakoso ati traceability."
+      },
+      "servingInfrastructure": {
+        "title": "Sin amayederun",
+        "description": "Awọn fẹlẹfẹlẹ iṣiṣẹ ti o ni iwọn pẹlu awọn ọgbọn yiyi bii canary ati awọn imuṣiṣẹ ojiji ṣe atilẹyin iṣakoso iyipada ailewu."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Asọtẹlẹ didara ati fiseete erin",
+      "latencyThroughputAndCostEfficiencyTracking": "Latency, throughput, ati iye owo ṣiṣe titele",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Awọn itaniji atunyẹwo didara data ati awọn iṣan-iṣẹ atunṣe",
+      "auditabilityForComplianceAndIncidentAnalysis": "Auditability fun ibamu ati onínọmbà iṣẹlẹ"
+    },
+    "cta": {
+      "title": "Asekale Applied AI pẹlu Igbẹkẹle",
+      "description": "Ti o ba n gbero awọn ipilẹṣẹ AI ti o nilo awọn abajade wiwọn ati itọju igba pipẹ, Horizon le ṣe iranlọwọ lati ṣe apẹrẹ ati ṣiṣe igbesi aye eto ni kikun.",
+      "primary": "Sọrọ si ẹgbẹ wa",
+      "secondary": "Ṣawari Iṣẹ Lab diẹ sii"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "NLP Ọpọlọpọ-ede",
+      "description": "Ṣawari awọn agbara iṣelọpọ ede adayeba ti o wulo ati bii wọn ṣe ṣe iwọn sinu igbẹkẹle, awọn eto iṣelọpọ ede pupọ.",
+      "back": "Pada si Innovation Lab",
+      "tags": {
+        "demo": "Ibanisọrọ Demo",
+        "intelligence": "Ọgbọn Ede"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Awọn ipilẹ NLP",
+        "description": "Ṣiṣe ede adayeba daapọ awọn ifihan agbara ede ati ẹkọ ẹrọ lati yọ itumọ, idi, ati eto lati ọrọ."
+      },
+      "workbench": {
+        "title": "Ibanisọrọ NLP Workbench",
+        "description": "Lo demo lati ṣe idanwo iṣawari ede, iṣiro imolara, isediwon ẹya, ati awọn ihuwasi itumọ ni akoko gidi."
+      },
+      "productionApplications": {
+        "title": "Bawo ni Horizon Ṣe Lo NLP ni Iṣelọpọ",
+        "description": "Awọn agbara NLP ti ṣepọ sinu awọn iṣan-iṣẹ iṣowo pẹlu awọn aabo iṣẹ ati awọn iṣiro didara ti o han gbangba."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Igbẹkẹle ati Awọn Ilana Ijọba",
+        "description": "Iṣelọpọ NLP nilo diẹ sii ju didara awoṣe lọ; O da lori awọn iṣe ifilọlẹ ailewu ati ijẹrisi lemọlemọfún."
+      }
+    },
+    "foundations": {
+      "intro1": "Awọn ọna NLP ti ode oni ṣe agbara atilẹyin adaṣe, ibaramu wiwa, isediwon imọ, ati ifowosowopo ede pupọ. Imuse ti o munadoko nilo didara awoṣe mejeeji ati awọn iṣakoso iṣẹ to lagbara.",
+      "intro2": "Ni Horizon, a fojusi lori awọn ọna NLP opin-si-opin ti o darapọ mọ inference ti o lagbara pẹlu akiyesi, iṣakoso, ati ipa iṣelọpọ wiwọn."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Erin ede",
+        "description": "Ṣe idanimọ ede lati awọn apa ọrọ kukuru tabi gigun lati ṣe itọsọna awọn ibeere sinu opo gigun ti o tọ."
+      },
+      "sentimentAnalysis": {
+        "title": "Onínọmbà Sentiment",
+        "description": "Yọ ero ẹdun ati polarity fun oye alabara, triage atilẹyin, ati awọn losiwajulosehin esi ọja."
+      },
+      "entityExtraction": {
+        "title": "Isediwon Nkan",
+        "description": "Ṣe awari awọn nkan ti a ṣeto gẹgẹbi awọn orukọ, awọn ile-iṣẹ, awọn ipo, ati awọn ọjọ lati ọrọ ti a ko ṣeto."
+      },
+      "translation": {
+        "title": "Itumọ",
+        "description": "Ṣe atilẹyin awọn iṣan-iṣẹ multilingual nipa itumọ ọrọ ti ipilẹṣẹ olumulo tabi ọrọ iṣiṣẹ lakoko idaduro ipo."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Atilẹyin ati Imọye Tiketi",
+        "description": "Ṣe iyasọtọ awọn ibeere ti nwọle nipasẹ kiakia, ifẹkufẹ, ati itara lati mu iyara itọsọna ati didara idahun."
+      },
+      "governedContentOperations": {
+        "title": "Awọn iṣẹ akoonu ti a ṣe akoso",
+        "description": "Lo awọn ajọ ede ti o mọ eto imulo ati awọn sọwedowo iwọntunwọnsi pẹlu deede wiwọn ati awọn ibi-afẹde iranti."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Awọn imọran Iṣowo Ọrọ",
+        "description": "Ṣajọpọ awọn aṣa lati awọn iwe aṣẹ, awọn atunyẹwo, ati awọn ibaraẹnisọrọ lati sọ fun ilana ati awọn ipinnu iṣẹ."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Igbelewọn nipasẹ Lilo Case",
+        "description": "Awọn awoṣe ti wa ni benchmarked lodi si ašẹ-pato datasets ṣaaju ki o to tu ipinnu ti wa ni ṣe."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Awọn aabo eniyan-ni-ni-Loop",
+        "description": "Awọn asọtẹlẹ ti o ni ipa giga pẹlu awọn ọna atunyẹwo, awọn ofin igbesoke, ati awọn ifihan agbara igbẹkẹle ti o han gbangba."
+      },
+      "continuousMonitoring": {
+        "title": "Abojuto lemọlemọfún",
+        "description": "Drift, latency, ati ibajẹ didara ni a tọpinpin nigbagbogbo nitorinaa atunkọ ati yiyi pada jẹ proactive."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Jiini alugoridimu kikopa",
+      "description": "Ṣawari iṣiro itankalẹ ni agbegbe ibanisọrọ ati wo bi awọn ilana kanna ṣe tumọ si awọn ọna ṣiṣe iṣapeye iṣelọpọ.",
+      "back": "Pada si Innovation Lab",
+      "tags": {
+        "demo": "Ibanisọrọ Demo",
+        "optimizationScience": "Imọ-jinlẹ ti o dara julọ"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Ipilẹ Imọ-jinlẹ",
+        "description": "Awọn alugoridimu jiini jẹ awọn ọna iṣapeye ti o da lori olugbe ti o ni atilẹyin nipasẹ yiyan adayeba ati aṣamubadọgba."
+      },
+      "interactiveEnvironment": {
+        "title": "Ayika Itankalẹ Ibaraenisepo",
+        "description": "Ṣiṣe awọn kikopa lati ri amọdaju ti mu iran nipa iran ki o si wo bi aṣayan titẹ ni ipa awọn iyọrisi."
+      },
+      "productionUse": {
+        "title": "Bawo ni Horizon ṣe nlo eyi ni iṣelọpọ",
+        "description": "Awọn isiseero wiwa kanna ti a lo ninu demo yii ṣe alaye awọn opo gigun ti o dara julọ ti a firanṣẹ ni awọn ọna ṣiṣe ṣiṣe."
+      },
+      "applicationDomains": {
+        "title": "Awọn ibugbe Ohun elo ti o gbooro sii",
+        "description": "Iṣapeye itankalẹ jẹ pataki julọ ni awọn ọna ṣiṣe pẹlu awọn ibi-afẹde ti o lagbara ati awọn idiwọn ti o tako."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Dipo wiwa ojutu kan ni akoko kan, awọn alugoridimu jiini ṣe agbekalẹ olugbe oriṣiriṣi ti awọn oludije. Iran kọọkan ni a ṣe ayẹwo lodi si iṣẹ amọdaju ati isọdọtun nipasẹ yiyan, agbelebu, ati iyipada.",
+      "intro2": "Eyi jẹ ki wọn munadoko fun awọn iṣoro ti o ga julọ pẹlu awọn idiwọ ti kii ṣe laini, nibiti awọn ọna ipinnu di brittle tabi iṣiro gbowolori."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Àṣàyàn",
+        "description": "Awọn oludije ti o ni agbara giga ni o ṣeeṣe lati yọ ninu ewu ati ni ipa lori iran ti n bọ."
+      },
+      "crossover": {
+        "title": "Agbelebu",
+        "description": "Awọn abuda ti o lagbara ni a tun ṣe atunṣe lati ṣẹda awọn solusan oludije tuntun pẹlu awọn agbara adalu."
+      },
+      "mutation": {
+        "title": "Iyipada",
+        "description": "Iṣakoso randomness ṣafihan oniruuru ki wiwa ko ni duro ni ayika agbegbe optima."
+      },
+      "convergence": {
+        "title": "Iṣọpọ",
+        "description": "Ni ọpọlọpọ awọn iran, awọn eniyan n lọ si iduroṣinṣin, awọn solusan didara giga."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Eto Awọn orisun",
+        "description": "A lo awọn ọgbọn itankalẹ lati mu iṣeto ihamọ pupọ pọ si nibiti wiwa agbara ko ṣeeṣe."
+      },
+      "architectureTuning": {
+        "title": "Faaji Tuning",
+        "description": "Awọn atunto amayederun oludije ni a ṣe ayẹwo iteratively lati mu iṣẹ ati ṣiṣe iye owo dara si."
+      },
+      "continuousOptimization": {
+        "title": "Iṣapeye lemọlemọfún",
+        "description": "Awọn iṣẹ iṣapeye ṣiṣe ni awọn losiwajulosehin ti a ṣakoso pẹlu esi telemetry ki awọn ọna ṣiṣe ṣe deede bi awọn profaili eletan ṣe yipada."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Ọna ati Eekaderi Eto",
+        "description": "Ifijiṣẹ ti o nira ati eto fifiranṣẹ ni anfani lati wiwa itankalẹ nigbati awọn idiwọ yipada ni kiakia."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Awoṣe ati Wiwa Hyperparameter",
+        "description": "Wiwa jiini le ṣe awari awọn atunto awoṣe ti o ga julọ nigbati awọn aaye ibi-afẹde jẹ ariwo ati ti kii ṣe laini."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Portfolio ati awọn iṣoro ipin",
+        "description": "Iṣapeye labẹ awọn ibi-afẹde idije le ṣee ṣe bi awọn iṣowo amọdaju kọja awọn ipilẹ oludije ti n dagbasoke."
+      }
+    }
+  }
+}

@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "ብዛዕባና",
+    "hero": {
+      "titlePrefix": "ናይ ጽባሕ ተክኖሎጂ ምህናጽ፣",
+      "titleHighlight": "ሎሚ",
+      "description": "ሆሪዞን ቴክ ዶኦ ኣብ ሳራየቮ ዝርከብ ዓለምለኻዊ ኩባንያ ተክኖሎጂ ኢዩ ኣብ ሰለስተ ኣህጉራት ንዝርከባ ትካላት ከኣ ብሉጽ ናይ ሶፍትዌር መፍትሒታት የቕርብ።"
+    },
+    "sections": {
+      "mission": {
+        "title": "ተልእኾ",
+        "description": "ውድባት ህርፋን ስልጣን ዘለዎ ሓሳባት ናብ ዜተኣማምን ዲጂታል ፍርያት ኪቕይራ ንሕግዘን ኢና።",
+        "points": [
+          "ተክኖሎጂ ምስ ንጹር ናይ ንግዲ ውጽኢት ኣሰማሚዕ።",
+          "ጕጅለታት እናሰፍሐ ምስ ከደ ክዕቀቡ ዝኽእሉ ናይ ነዊሕ ግዜ ስርዓታት ምህናጽ።",
+          "ካብ ስትራተጂ ክሳዕ ኣፈጻጽማ ምስ ተሳተፍቲ ብቐረባ ምትሕብባር።"
+        ]
+      },
+      "expertise": {
+        "title": "ክኢላ",
+        "description": "ብዙሓት ዲሲፕሊናዊ ጕጅለታትና ዕምቈት ምህንድስናን ናይ ፍርያት ኣተሓሳስባን ኣብ ዘመናዊ ተክኖሎጂ የጣምር።",
+        "points": [
+          "ናይ ትካል ደረጃ ዌብሳይትን ፕላትፎርምን ምህንድስና።",
+          "ደበና ስነ-ህንጻ DevOps አውቶማቲክ ከምኡውን ተጻዋርነት ዘለዎ መሰረተ ልማት።",
+          "ኣፕሊኬሽን AI/ML፣ ናይ ዳታ ኣሰራርሓ ከምኡውን IoT-እተዓወተ ፍርያት።"
+        ]
+      },
+      "approach": {
+        "title": "ኣቀራርባ",
+        "description": "ነቲ ናይ ፍርያት ሓደጋ እናነከየ ነቲ ኣቕሓ ኺንበ ዚኽእል ግልጽን ተደጋጋምን ሞደል ጌርና ኢና እንፍጽሞ።",
+        "points": [
+          "ርኸብ፦ ስፍሓትን ቀዳምነት ዚወሃቦ ነገራትን መዐቀኒታት ኣሳልጦን ኣቐዲምካ ግለጽ።",
+          "ህንጸት፦ ብቐጻሊ ግብረ-መልሲ ዑደት ብምትኳር መርከብ ።",
+          "ምምሕያሽ፦ ውጽኢት ምቍጽጻርን ምስ ግዜ ኣሳልጦ ምምሕያሽን"
+        ]
+      }
+    },
+    "cta": {
+      "title": "ንንግድኻ ንምቕያር ድሉው ዲኻ?",
+      "description": "ምስቶም ሓድሽ መፍትሒታትን ፍሉይ ውጽኢትን ንምሃብ ኣብ ሆሪዞን ቴክ ዚኣምኑ እናዓበየ ዚኸይድ ዘሎ ዝርዝር ኩባንያታት ተጸምበር።",
+      "primary": "ጀምር",
+      "secondary": "ናይ ዓወት ዛንታታት ርአ"
+    }
+  },
+  "contact": {
+    "badge": "ተራኸብ",
+    "hero": {
+      "title": "ምሳና ተራኸብ",
+      "description": "ኣብ ኣእምሮኻ ሓደ ፕሮጀክት ኣሎዶ? ካባኻ ክንሰምዕ ንደሊ ኢና። ሓሳባትካ ኣብ ግብሪ ንምውዓል ብኸመይ ክንሕግዝ ከም እንኽእል ተመያየጠሉ።"
+    },
+    "info": {
+      "title": "ናይ ርክብ ሓበሬታ"
+    },
+    "booking": {
+      "title": "ኣኼባ ምሓዝ",
+      "description": "ናይ 30 ደቒቕ ናጻ ናይ ምርካብ ጻውዒት መደብ ኣውጽእ"
+    },
+    "methods": {
+      "email": {
+        "title": "ኢ-መይል",
+        "description": "ኣብ ዝኾነ ግዜ ኢመይል ለኣኸልና",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "ቦታ",
+        "description": "ኣብ ተመርኲስካ",
+        "value": "ሳራየቮ ቦዝንያን ሄርዞጎቪና"
+      },
+      "response": {
+        "title": "ናይ ምላሽ ግዜ",
+        "description": "መብዛሕትኡ ግዜ ኣብ ውሽጥና ኢና እንምልስ",
+        "value": "24-48 ሰዓታት"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "ሓድሽ ፕሮጀክት"
+      },
+      "support": {
+        "label": "ተክኒካዊ ደገፍ"
+      },
+      "partnerships": {
+        "label": "ሽርክነት"
+      },
+      "careers": {
+        "label": "ሞያ"
+      },
+      "general": {
+        "label": "ሓፈሻዊ ምርመራ"
+      }
+    },
+    "form": {
+      "title": "መልእኽቲ ለኣኸልና",
+      "success": "ስለ መልእኽትኹም ነመስግነኩም። ኣብ ውሽጢ 24-48 ሰዓታት ክንድውለልካ ኢና።",
+      "error": "ገለ ነገር ተበላሽዩ እዩ። ብኽብረትኩም ደጊምኩም ፈትኑልና ወይ ብቐጥታ ኢ-መይል ለኣኹልና።",
+      "fullName": "ምሉእ ስም *",
+      "email": "ኣድራሻ ኢመይል *",
+      "company": "ኩባንያ",
+      "subject": "ርእሰ ነገር *",
+      "message": "መልእኽቲ *",
+      "placeholders": {
+        "name": "ሽምካ",
+        "email": "you@example.com",
+        "company": "ኩባንያኻ",
+        "subject": "እንታይ ኢና ኽንሕግዝ እንኽእል?",
+        "message": "ብዛዕባ ፕሮጀክትኻ ወይ ሕቶኻ ንገረና -"
+      },
+      "validation": {
+        "required": {
+          "name": "ምሉእ ስም የድሊ።",
+          "email": "ናይ ኢመይል ኣድራሻ የድሊ።",
+          "subject": "ብኽብረትኩም ሓደ ርእሰ ነገር ምረጹ።",
+          "message": "መልእኽቲ የድሊ።"
+        },
+        "email": "ብኽብረትኩም ብቑዕ ናይ ኢመይል ኣድራሻ ኣእትዉ።",
+        "messageMinLength": "እቲ መልእኽቲ እንተ ወሓደ {{count}} ገጸ-ባህርያት ዝሓዘ ኪኸውን ኣለዎ።"
+      },
+      "sending": "ምልኣኽ -",
+      "submit": "መልእኽቲ ለኣኸ"
+    },
+    "reasonsTitle": "ስለምንታይ ምሳና ኽንዓዪ ኣሎና?",
+    "reasons": [
+      "ናይ ምሉእ ተደራራቢ ሶፍትዌር ክእለት",
+      "AI / ML ከምኡውን ክኢላታት ስነ-ህንጻ ደበና",
+      "ግልጺ ሓሳብ ንሓሳብ ምልውዋጥ ዘለዎ ቅልጡፍ ምዕባለ",
+      "ናይ ነዊሕ ግዜ ደገፍን ምክንኻንን"
+    ],
+    "custom": {
+      "title": "ብጁ መፍትሒታት",
+      "description": "ብቑዕ መፍትሒ ትደሊ ዲኻ? ፍሉይ ድሌታት ንምርዳእን ኪልክዖ ዚኽእል ውጽኢት ዜምጽእ ፍሉይ ሶፍትዌር ንምቕራብን ምስ ዓማዊል ብቐረባ ንሰርሕ ኢና።",
+      "cta": "ብዛዕባ ፕሮጀክትካ ተመያየጠሉ"
+    },
+    "faq": {
+      "title": "ተወሳኺ ሕቶታት ኣለኩም ድዩ?",
+      "description": "ቅልጡፍ መልሲ ንምርካብ FAQ ዚብሃል ክፍልና ርአ።",
+      "cta": "FAQ ርኸብ"
+    }
+  },
+  "team": {
+    "badge": "ጕጅለና",
+    "hero": {
+      "titlePrefix": "ንኣእምሮ ብድሕሪት ተራኸብ",
+      "titleHighlight": "ሆሪዞን ቴክ",
+      "description": "እተፈላለዩ ጕጅለ ተክኖሎጅያውያን ነዳፊታትን ስትራተጂስትን ብሓባር ልዑል ጽልዋ ዘለዎ ዲጂታል ፍርያት ይሃንጹ።"
+    },
+    "section": {
+      "title": "ጕጅለ መሪሕነት",
+      "description": "ንራእይን ዕቤትን ሆሪዞን ቴክ ዚመርሑ ምኩራት መራሕቲ"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "መስራቲ CEO & CTO",
+        "bio": "ኣብ AI / ML ደበና ፕላትፎርም ከምኡውን ስፍሓት ዘለዎ ናይ ፍርያት ስነ-ህንጻ 10+ ዓመታት ዘለዎ ራእዪ መራሒን ተክኒካዊ ስነ-ህንጻን።",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "ፓይቶን",
+          "መፍትሒ ስነ-ህንጻ",
+          "ክላውድ ኢንጂነሪንግ"
+        ]
+      },
+      "ahmet": {
+        "role": "ሓለቓ ስነ-ህንጻ ጸጥታ",
+        "bio": "ክኢላ ናይ ሳይበር ጸጥታ ኣብ ናይ ትካል ጸጥታ ስነ-ህንጻ ውሕስነት ዘለዎ ህንጻ ከምኡውን ኣብ ትሕቲ ቝጽጽር ዝኣተወ ኣከባቢ ኣብ ምኽባር ቀዳምነት ኣብ ምሃብ ዘተኰረ እዩ።",
+        "expertise": [
+          "ሳይበር ጸጥታ",
+          "On-Prem Systems",
+          "ስነ-ህንጻ ጸጥታ",
+          "ምኽባር",
+          "ድሕንነት መሰረተ ልማት"
+        ]
+      }
+    },
+    "aria": {
+      "email": "ኢ-መይል {{name}}",
+      "linkedin": "{{name}} ሊንክድኢን ፕሮፋይል"
+    },
+    "culture": {
+      "title": "ህይወት ኣብ ሆሪዞን ቴክ",
+      "description": "ባህሊ ምህዞን ምትሕብባርን ቀጻሊ ትምህርትን ነማዕብል ኢና",
+      "remoteFirst": {
+        "title": "ናይ ርሕቀት ቀዳማይ ባህሊ",
+        "description": "ካብ ዝዀነ ይኹን ቦታ ተዓጻጻፊ ሰዓታት ብምውጻእን ኣብ ቦታ ዘይኰነስ ኣብ ውጽኢት ምትኳርን ዕየ።"
+      },
+      "collaborative": {
+        "title": "ናይ ምትሕብባር ሃዋህው",
+        "description": "ስሩዕ ናይ ጕጅለ ፍጻመታት ናይ ፍልጠት ምክፋል ኣኼባታት ከምኡውን መስቀላዊ ምትሕብባር።"
+      },
+      "workLife": {
+        "title": "ሚዛናዊ ናይ ስራሕን ህይወትን",
+        "description": "ለጋስ ናይ ዕረፍቲ ፖሊሲ፣ ደገፍ ኣእምሮኣዊ ጥዕና ከምኡውን ንውልቃዊ ግዜ ኣኽብሮት።"
+      },
+      "innovation": {
+        "title": "ናይ ፈጠራ ግዜ",
+        "description": "20 ሚእታዊት ንውልቃዊ ፕሮጀክትታት ሃካቶን ከምኡውን ሓደስቲ ተክኖሎጂ ንምድህሳስ ግዜ።"
+      },
+      "stats": {
+        "teamMembers": "ኣባላት ጕጅለ",
+        "countries": "ሃገራት",
+        "techStacks": "ተክኖሎጂ ስታክስ",
+        "remoteReady": "ናይ ርሕቀት ድሉው"
+      }
+    },
+    "cta": {
+      "title": "ምስ ጕጅለና ኽትሓብር ትደሊ ዲኻ?",
+      "description": "ኵሉ ሳዕ ብዛዕባ ኢደ ጥበብን ዋንነትን ምህዞን ዚግደሱ ክኢላታት ሰባት ንደሊ ኢና።",
+      "button": "ተራኸብ"
+    }
+  },
+  "careers": {
+    "badge": "ምስ ጕጅለና ተራኸብ",
+    "hero": {
+      "titlePrefix": "ንመጻኢ ሃነጽ",
+      "titleHighlight": "ምሳና",
+      "description": "ንዓለምለኻዊ ዓማዊል ብሉጽ ሶፍትዌር ዚሃንጹ ጕጅለ መሃንድሳት ተጸምበር። ካብ ርሑቕ ስራሕ ብቐጻሊ እናዓበየ ናይ ሓቂ ጽልዋ ግበር።",
+      "button": "ኣቀማምጣ ተመልከት"
+    },
+    "process": {
+      "title": "ናይ ስራሕ መስርሕና",
+      "description": "ግልጽን ስሉጥን ንግዜኻ ብኣኽብሮት",
+      "steps": [
+        {
+          "title": "ኣመልከት",
+          "description": "መመልከቲኻ ኣቕርብ እሞ ኣብ ውሽጢ 3 ናይ ስራሕ መዓልታት ክንምርምሮ ኢና።"
+        },
+        {
+          "title": "ናይ መጀመርታ ምይይጥ",
+          "description": "ብዛዕባ ተመክሮኻን ትጽቢታትካን ንምምይያጥ 30 ደቒቕ ዚወስድ ቪድዮ ተሌፎን።"
+        },
+        {
+          "title": "ተክኒካዊ",
+          "description": "ክእለትካ ንምርኣይ ተክኒካዊ ቃለ-መጠይቕ ወይ ግብራዊ ልምምድ።"
+        },
+        {
+          "title": "ምቕራብ",
+          "description": "ምስታ ጕጅለ ተራኸብ እሞ ምስ ሆሪዞን ቴክ ንኽትሓብር ዝቐረበልካ ዕድመ ተቐበል።"
+        }
+      ]
+    },
+    "jobs": {
+      "title": "ክፉት ቦታ",
+      "description": "እቲ ዚቕጽል ዕድልካ ርኸብ እሞ ምስ እናዓበየ ዚኸይድ ዘሎ ጕጅለና ተጸምበር",
+      "unavailable": "ኣብዚ እዋን እዚ መመልከቲ ኣይቅበልን እዩ",
+      "apply": "ሕጂ ኣመልክት",
+      "noMatch": "ፍጹም ግደ ኣይትረኣዩን ዲኹም?",
+      "sendCv": "CV ስደዱልና",
+      "listings": [
+        {
+          "title": "ላዕለዋይ ናይ ምሉእ ስታክ መሃንዲስ",
+          "department": "ምህንድስና",
+          "location": "ርሑቕ (ናይ ኤውሮጳዊ ሕብረት ናይ ሰዓት ዞባታት)",
+          "type": "ናይ ምሉእ ግዜ ስራሕ",
+          "description": "React፣ Node.js ከምኡውን ደበና ተክኖሎጂ ተጠቒምካ ስፍሓት ዘለዎ ናይ ትካል ኣፕሊኬሽናት ምህናጽ።",
+          "tags": [
+            "ምላሽ ምሃብ",
+            "Node.js",
+            "ታይፕስክሪፕት",
+            "AWS"
+          ]
+        },
+        {
+          "title": "መሃንዲስ DevOps",
+          "department": "ምህንድስና",
+          "location": "ሳራየቮ / ርሕቀት",
+          "type": "ናይ ምሉእ ግዜ ስራሕ",
+          "description": "CI/CD ቱቦታት ንድፍን ምክንኻንን መሰረተ ልማት ከም ኮድ ከምኡውን ናይ ምቍጽጻር ስርዓታት።",
+          "tags": [
+            "ኩበርኔትስ",
+            "ዶከር",
+            "ቴራፎርም",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI/ML መሃንዲስ",
+          "department": "ኢኖቬሽን ላብ",
+          "location": "ርሕቀት",
+          "type": "ናይ ምሉእ ግዜ ስራሕ",
+          "description": "ንናይ ትካል ዓማዊል ናይ ማሽን ትምህርቲ ሞዴላትን AI መፍትሒታትን ኣማዕብል።",
+          "tags": [
+            "ፓይቶን",
+            "TensorFlow",
+            "ፒቶርች",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "ነዳፊ ፍርያት",
+          "department": "ንድፊ",
+          "location": "ርሕቀት",
+          "type": "ናይ ምሉእ ግዜ ስራሕ",
+          "description": "ንእተሓላለኸ ናይ ንግዲ ኣፕሊኬሽናት ባህ ዜብልን ምስትውዓልን ተመክሮ ተጠቃሚ ፍጠር።",
+          "tags": [
+            "Figma",
+            "ምርምር ተጠቃሚ",
+            "UI/UX",
+            "ንድፊ ሲስተምስ"
+          ]
+        },
+        {
+          "title": "መፍትሒ ስነ-ህንጻ",
+          "department": "ምህንድስና",
+          "location": "ርሕቀት",
+          "type": "ናይ ምሉእ ግዜ ስራሕ",
+          "description": "ካብ ጫፍ ናብ ጫፍ ተክኒካዊ መፍትሒታት ንድፊ ከምኡውን ዓማዊል ብዲጂታል ለውጢ ይመርሕ።",
+          "tags": [
+            "ናይ ደበና ስነ-ህንጻ",
+            "ንድፊ ስርዓት",
+            "ኣማኻሪ"
+          ]
+        },
+        {
+          "title": "ተክኒካዊ ጸሓፊ",
+          "department": "ኦፐሬሽንስ",
+          "location": "ርሕቀት",
+          "type": "ናይ ክፍለ-ግዜ ግዜ",
+          "description": "ሰፊሕ ሰነዳትን መምሃሪ ትምህርትን ተክኒካዊ ትሕዝቶን ፍጠር።",
+          "tags": [
+            "ሰነዳት",
+            "ኤፒአይ ሰነዳት",
+            "ተክኒካዊ ጽሑፍ"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "ኣብዚ ብዛዕባ ስራሕ ሕቶታት ኣሎዶ?",
+      "description": "ካባኻ ክንሰምዕ ንደሊ ኢና። ተራኸብ እሞ ብዛዕባ ህይወት ኣብ ሆሪዞን ቴክ ንዝለዓል ዝዀነ ይኹን ሕቶ ኽንምልስ ኢና።",
+      "button": "ምሳና ተራኸብ"
+    }
+  },
+  "caseStudies": {
+    "badge": "ዛንታታት ዓወት",
+    "hero": {
+      "titlePrefix": "ውጽኢት ምምጻእ",
+      "titleHighlight": "ጉዳይ",
+      "description": "ኣብ መላእ ኢንዱስትሪታት ዚርከባ ኩባንያታት ብግብራውን ልዑል ጽልዋ ዘለዎን ተክኖሎጂ ኣቢለን ንስራሖም ኪቕይራ ብኸመይ ከም ዝሓገዝና መርምር።",
+      "tags": {
+        "delivery": "ምህንድስና ምቕራብ",
+        "outcomes": "እተዓቀነ ውጽኢት"
+      }
+    },
+    "stats": {
+      "projects": "እተዋህበ ፕሮጀክትታት",
+      "clients": "ሕጉሳት ዓማዊል",
+      "efficiency": "ገምጋም ስሉጥነት መኽሰብ",
+      "retention": "ዓማዊል ምዕቃብ"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "ግሎባል ፊንቴክ ኮርፕ",
+        "industry": "ፋይናንሳዊ ኣገልግሎታት",
+        "title": "ደበና ፍልሰትን ዘመናዊነትን",
+        "description": "ናይ ቀደም ናይ ባንክ ስርዓታት ናብ AWS ደበና infrastructure ብዘይ ዜሮ ናይ ምቍራጽ ግዜ ገዓዘ።",
+        "challenge": "ናይ ስፍሓት ጸገም ዜምጽእ ውርሻ ሞኖሊቲክ ስነ-ህንጻ",
+        "result": "ብዓወት ናብ ማይክሮ ሰርቪስ ኣብ AWS ተሰግዐ",
+        "metrics": [
+          {
+            "label": "ምንካይ ወጻኢታት",
+            "value": "40%"
+          },
+          {
+            "label": "ናይ ስራሕ መኽሰብ",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "ኩበርኔትስ",
+          "ማይክሮ ሰርቪስ",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "ሄልዝቴክ ሶሉሽንስ",
+        "industry": "ክንክን ጥዕና",
+        "title": "AI ዚዓዪ ናይ ምርመራ ፕላትፎርም",
+        "description": "ብ95%+ ልክዕነት ንሕክምናዊ ምስልታት ንምምርማር ሞዴላት ML ሃኒጹ።",
+        "challenge": "ብኢድ ዚግበር መርመራ ኣዝዩ ነዊሕ እዩ ዚወስድ",
+        "result": "ምስ AI/ML ዝተራኸበ ናይ መራኸቢ ብዙሓን መራኸቢ ብዙሓን",
+        "metrics": [
+          {
+            "label": "ግዜ ዘዋህለለ ግዜ",
+            "value": "70%"
+          },
+          {
+            "label": "ልክዕነት",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "ፓይቶን",
+          "TensorFlow",
+          "ምላሽ ምሃብ",
+          "ክንክን ጥዕና"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "ኤለክትሮኒካዊ ንግዲ ዓርሞሸሽ",
+        "industry": "መሸጣ",
+        "title": "ናይ ሓቂ ግዜ ትንታኔታት ዳሽቦርድ",
+        "description": "ኣብ መዓልቲ 10M+ ፍጻመታት የዳሉ BI ፕላትፎርም።",
+        "challenge": "ኣብ ናይ ንግዲ መዐቀኒታት ናይ ሓቂ ግዜ ምርኣይ የለን",
+        "result": "ናይ ሓቂ ግዜ ትንታኔን ምስትውዓልን መድረኽ",
+        "metrics": [
+          {
+            "label": "ፍጻመታት / መዓልቲ",
+            "value": "10 ሜ +"
+          },
+          {
+            "label": "ናይ ምላሽ ግዜ",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "ካፍካ",
+          "ምላሽ ምሃብ",
+          "ዳታ ኢንጂነሪንግ"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "ናይ ዓወት ታሪኽካ ንምጽሓፍ ድሉው ዲኻ?",
+      "description": "ተመሳሳሊ ውጽኢት ንኽትረክብ ብኸመይ ክንሕግዘካ ኸም እንኽእል እስከ ንርአ።"
+    },
+    "filters": {
+      "title": "ናይ ኢንዱስትሪ ማጣሪያ",
+      "all": "ኵሉ ኢንዱስትሪታት",
+      "empty": "ምስቲ እተመርጸ ናይ ኢንዱስትሪ ማጣሪያ ዚሰማማዕ መጽናዕቲ የልቦን።"
+    }
+  },
+  "blog": {
+    "badge": "ብሎግ",
+    "hero": {
+      "titlePrefix": "ሓሳባትን ሓሳባትን ካብ",
+      "titleHighlight": "ሆሪዞን ቴክ",
+      "description": "ተክኒካዊ መምሃሪታት ናይ ኢንዱስትሪ ምስትውዓል ከምኡውን ግብራዊ ትምህርትታት ካብ ናይ ሓቂ ናይ ምልኣኽ ስራሕ።"
+    },
+    "categories": [
+      "ኵሉ ጽሑፋት",
+      "ናይ ደበና ስነ-ህንጻ",
+      "DevOps",
+      "AI/ML",
+      "Frontend",
+      "ድሕሪት",
+      "ዳታ"
+    ],
+    "featuredPost": {
+      "id": "እተቐርጸ",
+      "title": "መጻኢ ናይ ደበና-መበቈል ምዕባለ፦ ኣብ 2025 ክትዕዘቦ ዘሎና ኣንፈት",
+      "excerpt": "ካብ ሰርቨር ዘይብሉ ስነ-ህንጻ ኽሳዕ ጫፍ ኮምፒውቲንግ ኣብ ደበና ዚርአ ሓድሽ ኣንፈት መርምር።",
+      "author": {
+        "name": "ሆሪዞን ቴክ ኣሰናዳኢ"
+      },
+      "date": "ሕዳር 15, 2025",
+      "readTime": "8 ደቒቕ ንባብ",
+      "category": "ናይ ደበና ስነ-ህንጻ",
+      "tags": [
+        "ደበና",
+        "Azure",
+        "ዝንባለታት"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "ብAzure Kubernetes Service Scalable Microservices ምህናጽ",
+        "excerpt": "AKS ተጠቒምካ ማይክሮ ኣገልግሎታት ንምህናጽን ንምዝርጋሕን ግብራዊ መምርሒ።",
+        "author": {
+          "name": "ሆሪዞን ቴክ ኣሰናዳኢ"
+        },
+        "date": "ሕዳር 12, 2025",
+        "readTime": "6 ደቒቕ ንባብ",
+        "category": "DevOps",
+        "tags": [
+          "ኩበርኔትስ",
+          "ማይክሮ ሰርቪስ",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "ናይ ማሽን ትምህርቲ ኣብ ምህርቲ - እተማህሮ ትምህርቲ",
+        "excerpt": "ኣብ ሜዳ እተፈተነ ሞዴላት ML ብደረጃ ምዝርጋሕ።",
+        "author": {
+          "name": "ሆሪዞን ቴክ ኣሰናዳኢ"
+        },
+        "date": "ሕዳር 10, 2025",
+        "readTime": "10 ደቒቕ ንባብ",
+        "category": "AI/ML",
+        "tags": [
+          "ናይ ማሽን ትምህርቲ",
+          "MLOps",
+          "ፓይቶን"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "ምላሽ 19፦ እንታይ ሓድሽ ነገር ኣሎ? ስለምንታይከ ኣገዳሲ?",
+        "excerpt": "ብዛዕባ React 19 ባህርያትን ሳዕቤናትን ዓሚቝ ምጥሓል ።",
+        "author": {
+          "name": "ሆሪዞን ቴክ ኣሰናዳኢ"
+        },
+        "date": "ሕዳር 8, 2025",
+        "readTime": "5 ደቒቕ ንባብ",
+        "category": "Frontend",
+        "tags": [
+          "ምላሽ ምሃብ",
+          "ጃቫስክሪፕት",
+          "ምዕባለ ወብ ሳይት"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "ኣብ ጋዜጣና ተመዝገቡ",
+      "description": "ኣብ ሰሰሙን ዚቐርብ እዋናዊ ዓንቀጻትን መምሃሪታትን ሓሳባትን ርኸብ።",
+      "placeholder": "your.email@example.com",
+      "button": "ተመዝገቡ",
+      "note": "ስፓም የልቦን። ኣብ ዝኾነ ግዜ ካብ ኣኼባ ምውጻእ።"
+    },
+    "index": {
+      "hero": {
+        "title": "ሆሪዞን ቴክ ኢንጂነሪንግ ብሎግ",
+        "description": "ናይ ወፍሪ መዘኻኸሪታትን ግብራዊ ንድፍን ካብ ፍርያት AI ናይ ትካል ስርዓታትን ዜተኣማምን ናይ ደበና መድረኻትን ዚሃንጹ ጕጅለታት።"
+      },
+      "filters": {
+        "postsInView": "{{count}} ጽሑፋት ኣብ ምርኣይ"
+      },
+      "featured": {
+        "badge": "ናይ መወዳእታ",
+        "readCta": "ፍሉይ ጽሑፍ ኣንብብ"
+      }
+    }
+  },
+  "profile": {
+    "loading": "ፕሮፋይል ጽዕነት...",
+    "title": "ናይ ፕሮፋይል ኣቀራርባ",
+    "subtitle": "ናይ ሕሳብካን ምርጫታትካን ተቘጻጸር",
+    "photoButton": "ስእሊ ምቕያር",
+    "tabs": {
+      "general": "ጀነራል",
+      "security": "ድሕንነት",
+      "preferences": "ምርጫታት"
+    },
+    "messages": {
+      "profileUpdated": "ፕሮፋይል ብዓወት ተመሓየሸ",
+      "profileUpdateFailed": "ፕሮፋይል ምምሕያሽ ኣይከኣለን",
+      "passwordsNoMatch": "ሓደስቲ ፓስዎርድ ኣይሰማማዕን እዩ",
+      "passwordTooShort": "እቲ ፓስዎርድ እንተ ወሓደ 8 ፊደላት ኪህልዎ ኣለዎ",
+      "passwordChanged": "ፓስዎርድ ብዓወት ተቐዪሩ",
+      "passwordChangeFailed": "ፓስዎርድ ምቕያር ኣይከኣለን",
+      "optedOut": "ካብ ናይ ልምዲ ጸብጻባት ምውጻእ",
+      "optedIn": "ጸብጻባት ኣብ ግብሪ ንምውዓል ዝመረጸ",
+      "optOutFailed": "ናይ ምምራጽ ምውጻእ ኩነታት ምምሕያሽ ኣይከኣለን"
+    },
+    "general": {
+      "title": "ውልቃዊ ሓበሬታ",
+      "description": "ውልቃዊ ዝርዝራትካን ናይ ርክብ ሓበሬታኻን ኣሐድሶ",
+      "firstName": "ስም ቀዳማይ",
+      "firstNamePlaceholder": "John",
+      "lastName": "ናይ መወዳእታ ስም",
+      "lastNamePlaceholder": "ዶ",
+      "email": "ናይ ኢመይል ኣድራሻ",
+      "emailNotice": "ኢ-መይል ክቕየር ኣይክእልን እዩ። ሓገዝ ምስ ዘድልየካ ምስ ሓገዝካ ተራኸብ።",
+      "phone": "ቍጽሪ ተሌፎን",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "ለውጥታት ኣቐምጥ"
+    },
+    "security": {
+      "title": "ናይ ጸጥታ ኣቀማምጣታት",
+      "description": "ናይ ፓስዎርድን ናይ ድሕንነት ምርጫታትካን ተቘጻጸር",
+      "currentPassword": "ህሉው ፓስዎርድ",
+      "currentPasswordPlaceholder": "ናይ ሕጂ ፓስዎርድ ኣእትዉ",
+      "newPassword": "ሓድሽ ፓስዎርድ",
+      "newPasswordPlaceholder": "ሓድሽ ፓስዎርድ ኣእትዉ",
+      "confirmPassword": "ሓድሽ ፓስዎርድ ኣረጋግጽ",
+      "confirmPasswordPlaceholder": "ሓድሽ ፓስዎርድ ኣረጋግጽ",
+      "passwordHint": "እንተ ወሓደ ሸሞንተ ፊደላት ክህልዉ ኣለዎም",
+      "changePassword": "ፓስዎርድ ምቕያር"
+    },
+    "preferences": {
+      "title": "ናይ ምልክታ ምርጫታት",
+      "description": "እዋናዊ መግለጺታትን ምልክታታትን ብኸመይ ከም እትቕበል ተቘጻጸር",
+      "email": {
+        "title": "ናይ ኢ-መይል ምልክታታት",
+        "description": "እዋናዊ መጠንቀቕታታትን መጠንቀቕታታትን ብኢ-መይል ተቐበል"
+      },
+      "sms": {
+        "title": "ናይ ኤስኤምኤስ ምልክታታት",
+        "description": "ኣገዳሲ መጠንቀቕታታት ብሞባይል መልእኽቲ ተቐበል"
+      },
+      "optOut": {
+        "title": "ካብ ናይ ልምምድ ጸብጻባት ምውጻእ",
+        "description": "ጸብጻባትካ ኻብ ወናኒ ልምምድ ሓብኦ"
+      },
+      "actions": {
+        "title": "ናይ ሕሳብ ስጕምትታት",
+        "downloadData": "ናይ ሕሳብ ዳታ ኣውርዱ",
+        "deleteAccount": "ሕሳብ ምጥፋእ"
+      }
+    }
+  },
+  "support": {
+    "backHome": "ናብ ቤትካ ተመለስ",
+    "title": "ማእከል ደገፍ",
+    "subtitle": "ኣብ ናይ ሶፍትዌር ኣገልግሎትና ሓገዝ ርኸብ",
+    "cards": {
+      "email": {
+        "title": "ደገፍ ኢ-መይል",
+        "description": "ንዝዀነ ይኹን ሕቶ ኢመይል ለኣኸልና"
+      },
+      "project": {
+        "title": "ሕቶታት ፕሮጀክት",
+        "description": "ብዛዕባ እቲ ንፕሮጀክትኻ ዜድልዮ ነገራት ተመያየጠሉ",
+        "button": "ምሳና ተራኸብ"
+      },
+      "resources": {
+        "title": "ምንጭታት",
+        "description": "ተክኒካዊ ምንጪታትን መምርሒታትን",
+        "button": "ምንጭታት ርአ።"
+      }
+    },
+    "faqTitle": "ብተደጋጋሚ ዝሕተቱ ሕቶታት",
+    "faqDescription": "ንልሙድ ሕቶታት ቅልጡፍ መልስታት",
+    "faqs": [
+      {
+        "question": "ሆሪዞን ቴክ እንታይ ዓይነት ኣገልግሎታት እዩ ዚህብ?",
+        "answer": "ናይ ሶፍትዌር ምምዕባል፣ AI/ML መፍትሒታት፣ ናይ ደበና ስነ-ህንጻ፣ DevOps፣ ናይ ንግዲ ኢንተሊጀንስ ከምኡውን IoT ኣገልግሎታት ንህብ ኢና።"
+      },
+      {
+        "question": "ምስ ሆሪዞን ቴክ ከመይ ገይረ ፕሮጀክት ክጅምር እኽእል?",
+        "answer": "ምስ ድሌታትካ ብፎርም ወይ ብኢመይል ተራኸበና። ናይ ርኽበት ጻውዒት መደብ ክንገብርን ሓሳብ ከነካፍልን ኢና።"
+      },
+      {
+        "question": "ቀጻሊ ደገፍን ክንክንን ትህብ ዲኻ?",
+        "answer": "እወ። ናይ ጌጋታት መአረምታ ናይ ድሕንነት ምምሕያሻት ከምኡውን ምምሕያሻት ባህርያት ዘጠቓለለ ደገፍን ጽገናን ንህብ ኢና።"
+      }
+    ]
+  },
+  "education": {
+    "backHome": "ናብ ቤትካ ተመለስ",
+    "title": "ተክኒካዊ ምንጪታት",
+    "subtitle": "መምርሒታትን መምርሒታትን ብሉጽ ልምድታትን ካብ ጕጅለ ሆሪዞን ቴክ",
+    "hub": {
+      "title": "ማእከል ትምህርቲ",
+      "description": "ኣብ ደበና፣ AI/ML፣ DevOps ከምኡውን ዘመናዊ ምዕባለ ሶፍትዌር እተኣከበ ተክኒካዊ ምንጪታትና ዳህሰስ።",
+      "note": "እዚ ናውቲ እዚ ኣብ ናይ ሓቂ ተመክሮ ፕሮጀክት እተመስረተ እዩ ኣዘውቲሩ ድማ ይሕደስ።"
+    },
+    "categories": [
+      {
+        "icon": "ደበና",
+        "title": "ናይ ደበና ስነ-ህንጻ",
+        "description": "Azure፣ AWS፣ ከምኡውን ደበና-መበቈል ንድፊ",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "መምርሒ"
+          },
+          {
+            "title": "ስትራተጂታት ፍልሰት ደበና",
+            "type": "ዓንቀጽ"
+          }
+        ]
+      },
+      {
+        "icon": "ሓንጎል",
+        "title": "AI & Machine Learning",
+        "description": "ML ሞዴላት ዳታ ሳይንስ ከምኡውን AI ውህደት",
+        "resources": [
+          {
+            "title": "መእተዊ ናብ Azure ML",
+            "type": "መምሃሪ ትምህርቲ"
+          },
+          {
+            "title": "ህንጸት ፕሮዳክሽን ኤምኤል ቱቦታት",
+            "type": "መምርሒ"
+          }
+        ]
+      },
+      {
+        "icon": "ኣቀማምጣ",
+        "title": "DevOps & Platform",
+        "description": "CI/CD, infrastructure as code, automation",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "መምሃሪ ትምህርቲ"
+          },
+          {
+            "title": "መሰረተ ልማት ከም ኮድ ምስ ቴራፎርም",
+            "type": "መምርሒ"
+          }
+        ]
+      },
+      {
+        "icon": "ኮድ",
+        "title": "ምዕባለ ሶፍትዌር",
+        "description": ".NET, React, ከምኡውን ዘመናዊ ልምዲ ምዕባለ",
+        "resources": [
+          {
+            "title": "ጽሩይ ስነ-ህንጻ ኣብ .NET",
+            "type": "መምርሒ"
+          },
+          {
+            "title": "ምላሽ ምሃብ ብሉጽ ልምዲ",
+            "type": "ዓንቀጽ"
+          }
+        ]
+      },
+      {
+        "icon": "ዳታቤዝ",
+        "title": "ዳታ & ትንታኔታት",
+        "description": "BI፣ ዳታ መኽዘን ከምኡውን ትንታኔታት ፕላትፎርም",
+        "resources": [
+          {
+            "title": "Power BI ዳሽቦርድ ንድፊ",
+            "type": "መምሃሪ ትምህርቲ"
+          },
+          {
+            "title": "ናይ ዳታ መኽዘን ስነ-ህንጻ",
+            "type": "መምርሒ"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "ፍሉይ ስልጠና የድልየካ ድዩ?",
+      "description": "ንጕጅለታት ምህንድስናን ፍርያትን እተዳለወ ስልጠናታት ንህብ ኢና",
+      "text": "ናይ ጕጅለ ስልጠና የድልየካ ድዩ? ብዛዕባ ናይ ደበና ስነ-ህንጻ DevOps ከምኡውን ዘመናዊ ናይ ምቕራብ ልምድታት ፍሉይ ስልጠናታት ንህብ ኢና።",
+      "button": "ተራኸብ"
+    }
+  },
+  "unauthorized": {
+    "title": "መእተዊ ተኸልኪሉ",
+    "description": "ነዚ ገጽ እዚ ንምእታው ፍቓድ የብልካን። እዚ ጌጋ እዩ ኢልካ እንተ ሓሲብካ ምስ ኣመሓዳሪኻ ተራኸብ።",
+    "primary": "ናብ ፕሮፋይል ኪድ",
+    "secondary": "ናብ ቤትካ ተመለስ"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "ፖስት ኣይተረኽበን",
+      "description": "ንስሉግ ዝኸውን ብሎግ ፖስት የለን {{slug}}",
+      "back": "ናብ ብሎግ ተመለስ"
+    },
+    "back": "ናብ ብሎግ ተመለስ",
+    "publisher": "ሆሪዞን ቴክ"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "ናይ ጉዳይ መጽናዕቲ ኣይተረኽበን",
+      "description": "ንመንነት ዚኸውን መጽናዕቲ የለን - {{id}}",
+      "back": "ናብ ናይ ጉዳይ መጽናዕትታት ተመለስ"
+    },
+    "back": "ናብ ናይ ጉዳይ መጽናዕትታት ተመለስ",
+    "sections": {
+      "executiveSummary": "ፈጻሚ ጽማቝ ሓሳባት",
+      "businessChallenge": "ናይ ንግዲ ብድሆ",
+      "technicalSolution": "ተክኒካዊ መፍትሒ",
+      "architectureDecisions": "ውሳነታት ስነ-ህንጻ",
+      "technologyStack": "ተክኖሎጂ ስታክ",
+      "resultsImpact": "ውፅኢትን ጽልዋን"
+    },
+    "client": "ዓማዊል",
+    "keyOutcomes": "ቀንዲ ውፅኢታት",
+    "decision": "ውሳነ {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // ምልክት ጠፊኡ",
+      "title": "ገጽ ኣይተረኽበን",
+      "description": "እቲ ዝሓተትካዮ መገዲ የለን ወይ ኣይተጓዕዘን። ናብ ቅኑዕ ናይ ሆሪዞን ቴክኖሎጅያዊ መወዳእትኡ ንመለሰካ።",
+      "requestedPath": "ዝሕተት መገዲ",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "ናይ መስመር ግራፍ ምፍታሕ - ፈሺሉ",
+        "line2": "ምኽንያት፦ ዚሰማማዕ ሞዱል መስመር የልቦን",
+        "line3": "Fallback ፕሮቶኮል ተሳቲፉ",
+        "line4": "ንምቕጻል ኣብ ታሕቲ ዘሎ ሕጽር ዝበለ መገድታት ተጠቐም"
+      },
+      "links": {
+        "home": "መበገሲ ገጽ",
+        "services": "ኣገልግሎታት",
+        "blog": "ብሎግ",
+        "caseStudies": "ናይ ጉዳይ መጽናዕትታት"
+      }
+    },
+    "runtime": {
+      "badge": "ናይ Runtime ጌጋ",
+      "title": "ኣብዚ ገጽ እዚ ገለ ነገር ተሰብረ",
+      "description": "ዘይተጸበኻዮ ጕዳይ ነቲ ኣተረጓጕማ ኣቋረጾ። ብደሓን ክትፍትኖ ትኽእል ኢኻ ወይ ከኣ ናብ መበቈል ኣድራሻኻ ኽትምለስ ትኽእል ኢኻ።",
+      "retry": "ዳግመ ፈትኑ",
+      "home": "ናብ መበቈል ገጽ ተመለስ",
+      "unknown": "ዘይተፈልጠ ናይ runtime ጌጋ"
+    }
+  },
+  "meta": {
+    "siteName": "ሆሪዞን ቴክ ብሎግ"
+  },
+  "admin": {
+    "blog": {
+      "title": "ምምሕዳር ብሎግ",
+      "subtitle": "ንጽሑፋትካ ምፍጣር ኣዐርዮ ከምኡውን ኣመሓደር",
+      "newPost": "ሓድሽ ፖስት",
+      "seedData": "ዘርኢ ዳታ",
+      "allPosts": "ኵሉ ጽሑፋት",
+      "published": "እተሓትመ",
+      "draft": "ረቂቕ",
+      "featured": "Featured",
+      "setFeatured": "እተዳለወ እተዳለወ",
+      "removeFeatured": "ኣወግድ",
+      "table": {
+        "title": "ኣርእስቲ",
+        "category": "ምድብ",
+        "status": "ኩነታት",
+        "date": "ዕለት",
+        "actions": "ስጕምትታት"
+      },
+      "empty": {
+        "message": "ክሳብ ሕጂ ናይ ጦብላሕታ ጽሑፋት የለን። ናይ መጀመርታ ፖስት ወይ ናይ ዘርኢ መርኣዪ ዳታ ፍጠር።",
+        "seed": "ናይ ዘርኢ መርኣዪ ዳታ",
+        "create": "ፖስት ፍጠር"
+      },
+      "delete": {
+        "title": "ፖስት ደምስስ",
+        "confirmation": "ነዚ ጽሑፍ እዚ ኸተጥፍኦ ኸም እትደሊ ርግጸኛ ዲኻ? እዚ ተግባር እዚ ክውገድ ኣይክእልን እዩ።",
+        "delete": "ደምስስ",
+        "cancel": "ደምስስ"
+      }
+    },
+    "editor": {
+      "bannerHint": "ኣብ ላዕለዋይ ጫፍ ከም ዓብዪ ሰንደቕ ዕላማ ተዘርጊሑ",
+      "bannerImage": "ስእሊ ሰንደቕ ዕላማ",
+      "coverHint": "ኣብ ናይ ብሎግ ዝርዝር ካርድታት ተገሊጹ ኣሎ",
+      "coverImage": "ናይ ገበር ስእሊ",
+      "editSlug": "Edit slug",
+      "posts": "ፖስት",
+      "publish": "ሕተም",
+      "update": "እዋናዊ ሓበሬታ",
+      "form": {
+        "contentPlaceholder": "ትሕዝቶ ጽሑፍካ ኣብዚ ጽሓፍ -",
+        "excerptPlaceholder": "ሓጺር ጽማቝ ናይ'ቲ ጽሑፍ።።።",
+        "pickDate": "ዕለት ምረጽ",
+        "readTimePlaceholder": "5 ደቒቕ ኣንብብ",
+        "titlePlaceholder": "ኣርእስቲ ፖስት..."
+      },
+      "meta": {
+        "publisher": "ኣስፋሒ",
+        "unknownAuthor": "ዘይተፈልጠ ደራሲ"
+      },
+      "modes": {
+        "edit": "ኣሰናዳኢ",
+        "editOnly": "ኣሰናዳኢ ጥራይ",
+        "preview": "ቅድመ-እይታ",
+        "previewOnly": "ቅድመ-እይታ ጥራይ",
+        "sideBySide": "ኣብ ጐድኒ",
+        "split": "ምክፍፋል"
+      },
+      "tags": {
+        "heading": "መለያታት",
+        "placeholder": "ታግ ወሲኽካ ..."
+      },
+      "translations": {
+        "auto": "ማኪና",
+        "autoTranslate": "ብራስ-ምትርጓም",
+        "clear": "ጽሩይ",
+        "existing": "ህሉው",
+        "heading": "ትርጕማት",
+        "language": "ቋንቋ",
+        "languages": "ቋንቋታት",
+        "edit": "ኣሰናዳኢ",
+        "manual": "መምርሒ",
+        "preview": "ቅድመ-እይታ",
+        "searchPlaceholder": "ቛንቋታት ድለዩ -",
+        "translate": "ተርጉም"
+      }
+    },
+    "caseStudies": {
+      "title": "ናይ ጉዳይ መጽናዕትታት",
+      "subtitle": "ናይ ጉዳይ መጽናዕትታትን ናይ ፕሮጀክት ምርኢታትን ምምሕዳር",
+      "newCaseStudy": "ሓድሽ መጽናዕቲ ጉዳይ",
+      "seedData": "ዘርኢ ዳታ",
+      "allCaseStudies": "ኵሉ መጽናዕትታት ጉዳይ",
+      "published": "እተሓትመ",
+      "draft": "ረቂቕ",
+      "table": {
+        "title": "ኣርእስቲ",
+        "industry": "ኢንዱስትሪ",
+        "client": "ዓማዊል",
+        "status": "ኩነታት",
+        "actions": "ስጕምትታት"
+      },
+      "empty": {
+        "message": "ክሳብ ሕጂ ናይ ጉዳይ መጽናዕትታት የለን።",
+        "seed": "ዘርኢ ዳታ",
+        "create": "መጀመርያ ፍጠር"
+      },
+      "delete": {
+        "title": "ናይ ጉዳይ መጽናዕቲ ደምስስ",
+        "confirmation": "ነዚ መጽናዕቲ እዚ ኸተጥፍኦ ኸም እትደሊ ርግጸኛ ዲኻ? እዚ ተግባር እዚ ክውገድ ኣይክእልን እዩ።",
+        "delete": "ደምስስ",
+        "cancel": "ደምስስ"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "ናይ ጉዳይ መጽናዕትታት",
+      "published": "እተሓትመ",
+      "draft": "ረቂቕ",
+      "update": "እዋናዊ ሓበሬታ",
+      "create": "ፍጠር",
+      "sections": {
+        "basicInfo": "መሰረታዊ ሓበሬታ",
+        "narrative": "ዛንታ",
+        "architectureDecisions": "ውሳነታት ስነ-ህንጻ",
+        "techStack": "ቴክ ስታክ",
+        "results": "ውጽኢት",
+        "tags": "መለያታት"
+      },
+      "fields": {
+        "title": "ኣርእስቲ",
+        "titlePlaceholder": "ኣርእስቲ መጽናዕቲ ጉዳይ",
+        "slug": "ስሉግ",
+        "slugPlaceholder": "ብማኪና እተሰርሐ - ካብ ኣርእስቲ",
+        "client": "ዓማዊል",
+        "clientPlaceholder": "ስም ዓማዊል",
+        "industry": "ኢንዱስትሪ",
+        "industryPlaceholder": "ኢንዱስትሪ ምረጽ",
+        "description": "መግለጺ",
+        "descriptionPlaceholder": "ሓጺር መግለጺ (ኣብ ካርድታት ተገሊጹ ኣሎ)",
+        "executiveSummary": "ፈጻሚ ጽማቝ ሓሳባት",
+        "executiveSummaryPlaceholder": "ላዕለዋይ ደረጃ ሓፈሻዊ ትሕዝቶ ናይቲ ተሳትፎ",
+        "challenge": "ብድሆ",
+        "challengePlaceholder": "እቲ ዓማዊል እንታይ ጸገም እዩ ኣጋጢምዎ?",
+        "solution": "መፍትሒ",
+        "solutionPlaceholder": "እቲ ጸገም ብኸመይ እዩ ተፈቲሑ?",
+        "decision": "ውሳነ",
+        "decisionPlaceholder": "እንታይ ከም እተወሰነ",
+        "rationale": "ምኽንያታዊ ምኽንያታት",
+        "rationalePlaceholder": "ስለምንታይ እዚ ኣቀራርባ እዚ ተመሪጹ",
+        "metric": "ሜትሪክ",
+        "metricPlaceholder": "ንኣብነት ናይ ሰፈራ ምድንጓይ",
+        "value": "ዋጋ",
+        "valuePlaceholder": "ንኣብነት -63% ወይ 4.8h -> 11m",
+        "resultDescription": "መግለጺ",
+        "resultDescriptionPlaceholder": "እዚ ውጽኢት እዚ እንታይ ማለት እዩ ?",
+        "techPlaceholder": "ተክኖሎጂ ወሲኽካ (Enter ግጭት)",
+        "tagPlaceholder": "Add tag (Enter ጸቕጥ)"
+      },
+      "add": "ወሲኽካ",
+      "noArchDecisions": "ገና ናይ ስነ-ህንጻ ውሳነታት ኣይተወሰኸን።",
+      "noResults": "ገና ውጽኢት ኣይተወሰኸን።",
+      "decisionLabel": "ውሳነ {{number}}",
+      "resultLabel": "ውጽኢት {{number}}",
+      "controls": {
+        "published": "እተሓትመ",
+        "publishedDescription": "ነዚ መጽናዕቲ እዚ ኣብ ቅድሚ ህዝቢ ኸም ዚርአ ግበር",
+        "featured": "Featured",
+        "featuredDescription": "ነዚ መጽናዕቲ እዚ ኣጕልሖ"
+      }
+    },
+    "imageCrop": {
+      "apply": "ኣመልከት",
+      "cancel": "ደምስስ",
+      "cropTitle": "ናይ ምቝራጽ ስእሊ",
+      "dropText": "ስእሊ ኣብዚ ደርብዮ ወይ ንምውራድ ጠውቑ",
+      "flipHorizontal": "ብትኽክል ገልብጥ",
+      "flipVertical": "ቀጥታዊ ግልበጥ",
+      "replace": "ተክኦ",
+      "reset": "ዳግም ምጅማር",
+      "rotateLeft": "ናብ ጸጋም ምዞር",
+      "rotateRight": "ናብ የማን ምዞር",
+      "uploading": "ምእታው...",
+      "toast": {
+        "invalidFile": "ዘይቅቡል ፋይል",
+        "invalidFileDesc": "ብኽብረትኩም ብቑዕ ናይ ስእሊ ፋይል ኣራግፉ።",
+        "uploadFailed": "ኣራግፍ ፈሺሉ",
+        "uploadFailedDesc": "ገለ ነገር ተበላሽዩ እዩ። በጃኻ ደጊምካ ፈትን።",
+        "uploaded": "ስእሊ ተሰቒሉ",
+        "uploadedDesc": "ምስልኻ ብዓወት ተዘርጊሑ እዩ።"
+      }
+    }
+  }
+}

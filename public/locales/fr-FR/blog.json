@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Tous"
+  },
+  "categories": {
+    "aiEngineering": "Ingénierie IA",
+    "enterpriseArchitecture": "Architecture d’entreprise",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Systèmes d’automatisation",
+    "softwareReliabilityDesign": "Fiabilité et conception logicielles"
+  },
+  "readTime": "{{minutes}} de lecture de la minute",
+  "tagsLabel": "Tags",
+  "relatedPosts": "Articles connexes",
+  "author": {
+    "role": "Éditeur"
+  },
+  "editor": {
+    "emptyPreview": "Commencez à écrire pour voir un aperçu..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Ingénierie des prompts",
+    "observability": "Observabilité",
+    "safety": "Sécurité",
+    "domainDesign": "Conception de domaine",
+    "integration": "Intégration",
+    "governance": "Gouvernance",
+    "platformStrategy": "Stratégie de plateforme",
+    "platformEngineering": "Ingénierie des plateformes",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Expérience développeur",
+    "eventDriven": "Piloté par les événements",
+    "workflowOrchestration": "Orchestration des flux de travail",
+    "controlPlanes": "Plans de contrôle",
+    "resilience": "Résilience",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "Modes de défaillance",
+    "resilienceEngineering": "Ingénierie de la résilience",
+    "evaluation": "Évaluation",
+    "qualityEngineering": "Ingénierie qualité",
+    "datasets": "Ensembles de données",
+    "releaseManagement": "Gestion des sorties",
+    "incidentManagement": "Gestion des incidents",
+    "architectureEvolution": "Évolution de l’architecture",
+    "riskReduction": "Réduction des risques",
+    "postmortems": "Analyses post-mortem",
+    "progressiveDelivery": "Livraison progressive",
+    "canaryReleases": "Sorties Canary",
+    "featureFlags": "Drapeaux de caractéristiques"
+  }
+}

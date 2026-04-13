@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Home",
+    "company": "Bedrijf",
+    "solutions": "Oplossingen",
+    "resources": "Bronnen",
+    "innovationLab": "Innovatielab",
+    "contact": "Contact",
+    "about": {
+      "title": "Over",
+      "description": "Onze missie, visie en verhaal"
+    },
+    "team": {
+      "title": "Team",
+      "description": "Maak kennis met de mensen achter Horizon Tech"
+    },
+    "careers": {
+      "title": "Carrières",
+      "description": "Sluit je aan bij ons team en bouw aan de toekomst"
+    },
+    "enterpriseSoftware": {
+      "title": "Ontwikkeling van Enterprise Software",
+      "description": "Aangepaste enterprise-applicaties met moderne frameworks"
+    },
+    "aiMl": {
+      "title": "AI, ML & Business Intelligence",
+      "description": "Volledige AI/ML-pijplijnen en BI-dashboards"
+    },
+    "cloudArchitecture": {
+      "title": "Cloudarchitectuur & Infrastructuur",
+      "description": "Multi-cloudoplossingen en containerorkestratie"
+    },
+    "iot": {
+      "title": "IoT & Edge Computing",
+      "description": "Ecosystemen van verbonden apparaten en digitale tweelingen"
+    },
+    "devops": {
+      "title": "DevOps & Platform Engineering",
+      "description": "CI/CD-pijplijnen en infrastructuur als code"
+    },
+    "digitalTransformation": {
+      "title": "Digitale Transformatie & Strategie",
+      "description": "Roadmaps en advies voor bedrijfstransformatie"
+    },
+    "caseStudies": {
+      "title": "Casestudy's",
+      "description": "Succesverhalen van onze klanten",
+      "featured": {
+        "title": "Uitgelichte casestudy",
+        "description": "Diepgaande analyse van een volledige leveringsopdracht"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Inzichten, tutorials en trends in de industrie",
+      "featured": {
+        "title": "Uitgelichte blogpost",
+        "description": "Lees een van onze nieuwste technische inzichten"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Overzicht van het Innovation Lab",
+      "description": "Bekijk alle onderzoeksgebieden en experimentele trajecten"
+    },
+    "innovationLabAiSystems": {
+      "title": "Toegepaste AI-systemen",
+      "description": "Productie-klaar machine learning architectuurpatronen"
+    },
+    "innovationLabNlp": {
+      "title": "Meertalige NLP",
+      "description": "Interactieve mogelijkheden voor natuurlijke taalverwerking"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Genetische algoritme-simulatie",
+      "description": "Evolutionaire optimalisatie in een interactieve omgeving"
+    },
+    "navigation": "Navigatie",
+    "skipToContent": "Sla naar de inhoud",
+    "toggleMenu": "Schakelmenu",
+    "dashboard": "Dashboard",
+    "myWorkspace": "Mijn werkruimte",
+    "profile": "Profiel",
+    "adminPanel": "Administratief Panel",
+    "practiceManagement": "Praktijkbeheer",
+    "logOut": "Uitloggen",
+    "education": {
+      "title": "Technische bronnen",
+      "description": "Gidsen, tutorials en best practices van het Horizon Tech-team"
+    },
+    "support": {
+      "title": "Ondersteuningscentrum",
+      "description": "Krijg hulp met onze softwareontwikkelingsdiensten"
+    }
+  },
+  "footer": {
+    "description": "Softwareontwikkelingsstartup gevestigd in Sarajevo, Bosnië. We bouwen op maat gemaakte software, AI/ML-oplossingen, cloudarchitectuur en automatiseringssystemen.",
+    "features": "Kenmerken",
+    "resources": "Bronnen",
+    "company": "Bedrijf",
+    "legal": "Juridisch",
+    "dashboard": "Dashboard",
+    "components": "Componenten",
+    "documentation": "Documentatie",
+    "apiReference": "API-referentie",
+    "gettingStarted": "Beginnen",
+    "examples": "Voorbeelden",
+    "community": "Gemeenschap",
+    "blog": "Blog",
+    "caseStudies": "Casestudy's",
+    "innovationLabOverview": "Overzicht van het Innovation Lab",
+    "appliedAiSystems": "Toegepaste AI-systemen",
+    "nlpDemo": "Meertalige NLP",
+    "geneticAlgorithmSimulation": "Genetische algoritme-simulatie",
+    "featuredBlogPost": "Uitgelichte blogpost",
+    "featuredCaseStudy": "Uitgelichte casestudy",
+    "about": "Over",
+    "contact": "Contact",
+    "partners": "Partners",
+    "careers": "Carrières",
+    "privacyPolicy": "Privacybeleid",
+    "termsOfService": "Gebruiksvoorwaarden",
+    "cookiePolicy": "Cookiebeleid",
+    "license": "Licentie",
+    "copyright": "© {{year}} Horizon Tech. Alle rechten voorbehouden.",
+    "subscribe": "Abonneer je op de nieuwsbrief"
+  },
+  "header": {
+    "badge": "Enterprise Technology Solutions",
+    "titleLine1": "Transformeer uw bedrijf met",
+    "titleLine2": "Geavanceerde technologie",
+    "description": "Van de ontwikkeling van enterprise software en AI-gedreven business intelligence tot cloudinfrastructuur en IoT-oplossingen — wij leveren uitgebreide technologische diensten die innovatie stimuleren en groei versnellen.",
+    "getStarted": "Begin",
+    "exploreSolutions": "Ontdek oplossingen",
+    "trustedBy": "Vertrouwd door vooruitstrevende ondernemingen",
+    "microsoftPartner": "Microsoft Partner",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "Enterprise-oplossingen"
+  },
+  "mobileNav": {
+    "navigation": "Mobiele navigatie",
+    "home": "Home",
+    "solutions": "Oplossingen",
+    "caseStudies": "Zaken",
+    "aiSystems": "AI Lab",
+    "blog": "Blog",
+    "resources": "Bronnen",
+    "contact": "Contact"
+  },
+  "sideNav": {
+    "scroll": "Rol",
+    "navigateTo": "Navigeer naar {{section}}",
+    "sections": {
+      "home": "Home",
+      "solutions": "Oplossingen",
+      "credibility": "Geloofwaardigheid",
+      "partners": "Partners",
+      "caseStudies": "Casestudy's",
+      "blog": "Blog",
+      "innovationLab": "Innovatielab",
+      "faq": "FAQ"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Switchtaal",
+    "searchPlaceholder": "Zoektaal...",
+    "noResults": "Geen talen gevonden."
+  },
+  "common": {
+    "menu": "Menu",
+    "account": "Verslag"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Recente casestudy's",
+      "description": "Een momentopname van leveringsresultaten binnen fintech, gezondheidszorg, logistiek en programma's in de publieke sector.",
+      "cta": "Bekijk alle casestudy's"
+    },
+    "blog": {
+      "title": "Laatste bericht van onze blog",
+      "description": "Praktische technische notities van recent werk in AI-, platform- en cloudlevering.",
+      "cta": "Lees alle artikelen"
+    },
+    "innovationLab": {
+      "title": "Innovatielab",
+      "description": "Verken prototypes, experimenten en toegepaste R&D-projecten van het Horizon Tech-engineeringteam.",
+      "cta": "Ontdek het Innovation Lab"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Lees de casestudy",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Gezondheidszorg",
+      "logistics": "Logistiek",
+      "manufacturing": "Productie",
+      "government": "Bestuur"
+    }
+  },
+  "blogCard": {
+    "read": "Lees"
+  }
+}

@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Get Started",
+    "ctaSecondary": "Schedule Consultation"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Enterprise Software Development",
+      "description": "End-to-end enterprise applications with modern frameworks, API-first architecture, and cloud-native scalability."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Where enterprise programs lose speed, budget, and strategic alignment"
+      },
+      "approach": {
+        "title": "Engineering Approach",
+        "subtitle": "How we turn ambiguous requirements into production-ready platforms"
+      },
+      "principles": {
+        "title": "Architecture Principles",
+        "subtitle": "Design decisions that keep enterprise systems maintainable at scale"
+      },
+      "capabilities": {
+        "title": "What We Build",
+        "subtitle": "Comprehensive software development capabilities"
+      },
+      "technology": {
+        "title": "Our Technology Stack",
+        "subtitle": "Modern, proven technologies for enterprise delivery"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "A structured path from discovery to stable production delivery"
+      }
+    },
+    "problem": {
+      "overview": "Enterprise teams often carry critical workflows on fragmented systems, creating long lead times, inconsistent data, and expensive manual coordination between departments.",
+      "painPointsTitle": "Recurring Business Pain",
+      "impactSignalsTitle": "What Leaders Usually Observe",
+      "painPoints": [
+        "Delivery commitments slip because dependencies across teams are unmanaged",
+        "Core business logic is duplicated across channels and products",
+        "Legacy integrations make new feature launches high-risk and slow"
+      ],
+      "impactSignals": [
+        "Roadmap throughput drops while engineering spend increases",
+        "Customer-facing defects rise during release periods",
+        "Decision-making slows due to inconsistent operational reporting"
+      ]
+    },
+    "approach": {
+      "overview": "We execute with architecture-first discovery, contract-driven delivery, and controlled release engineering so business value is shipped in predictable increments.",
+      "pillars": [
+        {
+          "title": "Domain Modeling & Bounded Contexts",
+          "detail": "We map domains to clear service boundaries to reduce cross-team coupling and clarify ownership."
+        },
+        {
+          "title": "API-First Integration Strategy",
+          "detail": "We define stable contracts early, enabling parallel development and safer integration with enterprise systems."
+        },
+        {
+          "title": "Progressive Delivery Workflow",
+          "detail": "We use feature flags, staged rollouts, and quality gates to release quickly without destabilizing production."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our architecture decisions prioritize longevity, operability, and clear ownership so platforms remain adaptable as business scope grows.",
+      "items": [
+        {
+          "title": "Modular Service Boundaries",
+          "detail": "Capabilities are packaged around business domains to keep change impact localized."
+        },
+        {
+          "title": "Event-Driven Integration",
+          "detail": "Asynchronous workflows are used where latency tolerance exists to improve resilience and decouple systems."
+        },
+        {
+          "title": "Observability by Design",
+          "detail": "Tracing, metrics, and structured logs are defined upfront to support reliable operations and SLA governance."
+        }
+      ]
+    },
+    "capabilities": [
+      "Custom Web Applications",
+      "Mobile App Development",
+      "API Development & Integration",
+      "Microservices Architecture",
+      "Cloud-Native Solutions",
+      "Legacy System Modernization"
+    ],
+    "technologies": [
+      {
+        "name": "React",
+        "category": "Frontend",
+        "icon": "react"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Language",
+        "icon": "typescript"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "graphql"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Database",
+        "icon": "postgresql"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Database",
+        "icon": "mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Discovery & Architecture",
+        "summary": "We map business priorities, technical constraints, and target architecture before implementation starts.",
+        "deliverables": [
+          "Product and requirement alignment workshop",
+          "Solution architecture blueprint",
+          "Milestone-based delivery plan"
+        ]
+      },
+      {
+        "title": "Build & Integration",
+        "summary": "Our teams implement core features, integration layers, and quality safeguards in parallel.",
+        "deliverables": [
+          "Feature development in iterative sprints",
+          "API and third-party integrations",
+          "Automated testing and release readiness checks"
+        ]
+      },
+      {
+        "title": "Launch & Evolution",
+        "summary": "After go-live, we stabilize operations and define the next improvement cycle based on real usage.",
+        "deliverables": [
+          "Production rollout runbook",
+          "Performance and reliability tuning",
+          "Post-launch roadmap and enhancement backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ready to Build Your Next Application?",
+      "description": "Let's design and ship a solution that drives measurable business outcomes.",
+      "button": "Start Your Project"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML & Business Intelligence",
+      "description": "From predictive models to executive dashboards, we build complete AI/BI systems that support decisions at scale."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Why data-rich organizations still struggle to make confident decisions"
+      },
+      "approach": {
+        "title": "Engineering Approach",
+        "subtitle": "How we operationalize data products, ML models, and BI workflows"
+      },
+      "principles": {
+        "title": "Architecture Principles",
+        "subtitle": "Data and model architecture patterns for trustworthy decision intelligence"
+      },
+      "capabilities": {
+        "title": "Our Capabilities",
+        "subtitle": "Comprehensive AI, ML, and BI solutions"
+      },
+      "technology": {
+        "title": "Our Technology Stack",
+        "subtitle": "Industry-leading tools for data and AI"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "How we move from fragmented data to production-grade intelligence"
+      }
+    },
+    "problem": {
+      "overview": "Organizations frequently collect large volumes of data but fail to translate it into reliable forecasting, operational decisions, or measurable business action.",
+      "painPointsTitle": "Recurring Business Pain",
+      "impactSignalsTitle": "What Leaders Usually Observe",
+      "painPoints": [
+        "Reporting logic differs across teams, resulting in conflicting KPI narratives",
+        "Models remain in experimentation and never reach production workflows",
+        "Data quality issues undermine trust in analytics and executive dashboards"
+      ],
+      "impactSignals": [
+        "Decision cycles slow because teams debate data validity instead of action",
+        "Forecasting and planning accuracy remains inconsistent quarter over quarter",
+        "Analytics investments show low adoption outside specialized analyst groups"
+      ]
+    },
+    "approach": {
+      "overview": "We deliver AI and BI platforms as production systems, coupling data engineering, model lifecycle operations, and decision workflow integration.",
+      "pillars": [
+        {
+          "title": "Data Product Foundation",
+          "detail": "Domain-aligned data products establish reusable, governed, and high-quality inputs for analytics and ML."
+        },
+        {
+          "title": "MLOps Lifecycle Automation",
+          "detail": "Training, deployment, monitoring, and drift control are automated to keep models reliable in production."
+        },
+        {
+          "title": "Decision Workflow Integration",
+          "detail": "Insights are embedded into operational tools and dashboards so teams act on intelligence within daily processes."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our AI/BI architecture prioritizes trustworthy data, explainable models, and governed access patterns across the enterprise.",
+      "items": [
+        {
+          "title": "Single Metric Definitions",
+          "detail": "Critical KPIs are defined once through shared semantic models to eliminate conflicting reporting logic."
+        },
+        {
+          "title": "Model Reliability Controls",
+          "detail": "Performance thresholds, drift detection, and rollback mechanisms protect decision quality in production."
+        },
+        {
+          "title": "Security & Governance by Design",
+          "detail": "Data lineage, role-based access, and audit-ready controls are embedded in every pipeline."
+        }
+      ]
+    },
+    "capabilities": [
+      "Machine Learning Models & Pipelines",
+      "Power BI Dashboards & Reports",
+      "Predictive Analytics",
+      "Real-Time Data Streaming",
+      "Data Warehousing Solutions"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Platform",
+        "icon": "microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "powerbi"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Data Warehouse",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Data Engineering",
+        "icon": "databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML Platform",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML Framework",
+        "icon": "tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML Framework",
+        "icon": "pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Analytics",
+        "icon": "tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Processing",
+        "icon": "apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Language",
+        "icon": "postgresql"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Data Foundation",
+        "summary": "We audit sources, define data contracts, and establish governance so every model starts with trusted inputs.",
+        "deliverables": [
+          "Data source and quality assessment",
+          "Feature engineering and schema planning",
+          "Security and governance baseline"
+        ]
+      },
+      {
+        "title": "Model & Insight Delivery",
+        "summary": "We build models and decision dashboards tied to measurable business questions and KPIs.",
+        "deliverables": [
+          "Model development and validation",
+          "Executive dashboards and operational reporting",
+          "Decision workflow integration"
+        ]
+      },
+      {
+        "title": "MLOps & Adoption",
+        "summary": "We operationalize deployment, monitoring, and team enablement to keep outcomes reliable over time.",
+        "deliverables": [
+          "Automated model deployment pipelines",
+          "Drift, accuracy, and usage monitoring",
+          "Team handover and operating playbook"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Transform Your Data into Insight",
+      "description": "Turn fragmented data into clear, actionable intelligence.",
+      "button": "Start Your Journey"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Cloud Architecture & Infrastructure",
+      "description": "Multi-cloud platforms, resilient architecture, and scalable infrastructure designed for long-term growth."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Why cloud initiatives stall after the first migration wave"
+      },
+      "approach": {
+        "title": "Engineering Approach",
+        "subtitle": "How we build secure, scalable cloud platforms with controlled migration risk"
+      },
+      "principles": {
+        "title": "Architecture Principles",
+        "subtitle": "Platform decisions that balance agility, resilience, and governance"
+      },
+      "capabilities": {
+        "title": "Cloud Services",
+        "subtitle": "Build, deploy, and scale in the cloud"
+      },
+      "technology": {
+        "title": "Multi-Cloud Expertise",
+        "subtitle": "Platform-agnostic cloud solutions"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "A clear sequence for designing, migrating, and operating cloud platforms"
+      }
+    },
+    "problem": {
+      "overview": "Many organizations complete initial cloud migrations but still operate like on-prem teams, with poor visibility, inconsistent controls, and rising spend.",
+      "painPointsTitle": "Recurring Business Pain",
+      "impactSignalsTitle": "What Leaders Usually Observe",
+      "painPoints": [
+        "Workloads are migrated without standard security and networking controls",
+        "Cloud costs grow faster than business value delivered",
+        "Environment provisioning remains manual and inconsistent across teams"
+      ],
+      "impactSignals": [
+        "Frequent incidents caused by configuration drift between environments",
+        "Audit readiness degrades due to fragmented governance practices",
+        "Infrastructure lead times delay product and data initiatives"
+      ]
+    },
+    "approach": {
+      "overview": "We design cloud platforms as products, using infrastructure automation, policy guardrails, and migration waves aligned to business criticality.",
+      "pillars": [
+        {
+          "title": "Landing Zone as Code",
+          "detail": "Identity, networking, security, and policy baselines are codified for repeatability and auditability."
+        },
+        {
+          "title": "Wave-Based Migration Strategy",
+          "detail": "Workloads move in controlled phases with dependency-aware sequencing and rollback readiness."
+        },
+        {
+          "title": "SRE + FinOps Operating Loop",
+          "detail": "Reliability indicators and unit-economics are reviewed together to improve both uptime and spend efficiency."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our architecture model favors declarative infrastructure, least-privilege access, and composable platforms that support rapid product delivery.",
+      "items": [
+        {
+          "title": "Immutable Infrastructure Patterns",
+          "detail": "Environments are rebuilt from versioned code to minimize drift and simplify operational recovery."
+        },
+        {
+          "title": "Security Baseline by Default",
+          "detail": "Zero-trust access controls and policy enforcement are embedded in every environment lifecycle."
+        },
+        {
+          "title": "Resilience Through Distribution",
+          "detail": "Critical workloads are designed for multi-zone or multi-region failure tolerance where business impact requires it."
+        }
+      ]
+    },
+    "capabilities": [
+      "Multi-Cloud Strategy & Implementation",
+      "Container Orchestration (Kubernetes)",
+      "Serverless Computing",
+      "Cloud Migration Services",
+      "High Availability Architecture"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Cloud",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "AWS",
+        "category": "Cloud",
+        "icon": "amazonwebservices"
+      },
+      {
+        "name": "GCP",
+        "category": "Cloud",
+        "icon": "googlecloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orchestration",
+        "icon": "kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Containers",
+        "icon": "docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "ARM Templates",
+        "category": "IaC",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "amazonwebservices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Architecture & Landing Zone",
+        "summary": "We define the target state, guardrails, and baseline platform standards before workloads move.",
+        "deliverables": [
+          "Target cloud architecture design",
+          "Identity, networking, and security baseline",
+          "Cost and compliance guardrails"
+        ]
+      },
+      {
+        "title": "Migration & Platform Build",
+        "summary": "We execute migration waves and stand up cloud-native platform components with repeatable automation.",
+        "deliverables": [
+          "Workload migration sequencing",
+          "Container and serverless platform setup",
+          "Infrastructure as Code modules"
+        ]
+      },
+      {
+        "title": "Reliability & FinOps",
+        "summary": "We improve operational reliability and continuously optimize cloud spend based on live telemetry.",
+        "deliverables": [
+          "SLOs, monitoring, and incident workflows",
+          "Resilience and disaster recovery validation",
+          "Cost optimization backlog and governance cadence"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Scale Your Infrastructure",
+      "description": "Build cloud foundations that stay resilient under real-world load.",
+      "button": "Plan Your Cloud Strategy"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Automated delivery pipelines, observability, and platform practices that improve speed without sacrificing reliability."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Why delivery velocity drops as platform complexity increases"
+      },
+      "approach": {
+        "title": "Engineering Approach",
+        "subtitle": "How we standardize delivery pipelines without slowing product teams"
+      },
+      "principles": {
+        "title": "Architecture Principles",
+        "subtitle": "Platform engineering patterns that scale reliability and team autonomy"
+      },
+      "capabilities": {
+        "title": "DevOps Services",
+        "subtitle": "Automate, monitor, and optimize your delivery lifecycle"
+      },
+      "technology": {
+        "title": "DevOps Tools & Platforms",
+        "subtitle": "Best-in-class DevOps toolchain"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "A practical roadmap from delivery bottlenecks to high-trust release flow"
+      }
+    },
+    "problem": {
+      "overview": "Organizations often invest in CI/CD tooling but still struggle with unstable releases, slow approvals, and fragmented ownership across environments.",
+      "painPointsTitle": "Recurring Business Pain",
+      "impactSignalsTitle": "What Leaders Usually Observe",
+      "painPoints": [
+        "Pipeline definitions differ by team, creating inconsistent quality gates",
+        "Manual deployment approvals delay hotfix and feature release timelines",
+        "Operational incidents recur because telemetry is incomplete or siloed"
+      ],
+      "impactSignals": [
+        "Lead time for changes keeps increasing despite automation spend",
+        "Change failure rate spikes during high-volume delivery periods",
+        "Developer productivity declines due to tooling friction and context switching"
+      ]
+    },
+    "approach": {
+      "overview": "We establish an internal developer platform model with reusable pipeline templates, policy-driven governance, and full lifecycle observability.",
+      "pillars": [
+        {
+          "title": "Golden Path Pipeline Templates",
+          "detail": "Reusable CI/CD blueprints standardize build, test, security checks, and deployment workflows."
+        },
+        {
+          "title": "Platform API & Self-Service",
+          "detail": "Teams provision environments and release infrastructure through controlled self-service interfaces."
+        },
+        {
+          "title": "Reliability Feedback Loops",
+          "detail": "Incident trends, SLO health, and deployment telemetry inform continuous process and architecture improvements."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our DevOps architecture aligns delivery speed with governance by automating controls and minimizing one-off operational work.",
+      "items": [
+        {
+          "title": "Everything as Versioned Code",
+          "detail": "Pipelines, infrastructure, and policy rules are managed in source control for auditability and repeatability."
+        },
+        {
+          "title": "Progressive Verification",
+          "detail": "Quality, security, and performance checks are layered across stages to detect risk earlier."
+        },
+        {
+          "title": "Shared Platform Responsibility",
+          "detail": "Platform teams provide paved-road capabilities while product teams retain delivery ownership."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI/CD Pipeline Design",
+      "Infrastructure as Code",
+      "Automated Testing",
+      "Deployment Automation",
+      "Monitoring & Observability"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Platform",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "GitHub Actions",
+        "category": "CI/CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Packaging",
+        "icon": "helm"
+      },
+      {
+        "name": "Ansible",
+        "category": "Automation",
+        "icon": "ansible"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Monitoring",
+        "icon": "prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Observability",
+        "icon": "grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Platform Assessment",
+        "summary": "We evaluate your current software delivery chain to identify risk points and speed constraints.",
+        "deliverables": [
+          "Current-state delivery workflow map",
+          "Pipeline bottleneck analysis",
+          "Target DevOps maturity roadmap"
+        ]
+      },
+      {
+        "title": "Pipeline & Automation Build",
+        "summary": "We implement reliable CI/CD, quality gates, and infrastructure automation for consistent releases.",
+        "deliverables": [
+          "Reusable CI/CD templates",
+          "Infrastructure and environment automation",
+          "Automated testing and release controls"
+        ]
+      },
+      {
+        "title": "Operate & Improve",
+        "summary": "We establish observability and governance loops that support continuous delivery improvement.",
+        "deliverables": [
+          "Monitoring dashboards and alert policies",
+          "Release governance and incident playbooks",
+          "Continuous improvement metrics and reviews"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Accelerate Your Delivery",
+      "description": "Reduce release friction and improve reliability with mature DevOps practices.",
+      "button": "Transform Your Pipeline"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Digital Transformation & Strategy",
+      "description": "Strategic advisory and execution support to modernize platforms, teams, and operating models."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Where transformation programs lose momentum and executive confidence"
+      },
+      "capabilities": {
+        "title": "Consulting Services",
+        "subtitle": "Strategic guidance for digital success"
+      },
+      "approach": {
+        "title": "Engineering Approach",
+        "subtitle": "How we translate strategy into executable, technology-backed change"
+      },
+      "principles": {
+        "title": "Architecture Principles",
+        "subtitle": "Operating model and platform choices that protect transformation outcomes"
+      },
+      "technology": {
+        "title": "Technology Stack",
+        "subtitle": "Platforms and frameworks we use to operationalize transformation"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "Structured transformation from strategy definition to measurable business value"
+      }
+    },
+    "problem": {
+      "overview": "Digital initiatives often start with strong intent but fail to convert into delivery outcomes due to unclear ownership, disconnected tooling, and competing priorities.",
+      "painPointsTitle": "Recurring Business Pain",
+      "impactSignalsTitle": "What Leaders Usually Observe",
+      "painPoints": [
+        "Transformation roadmaps are defined but not translated into delivery governance",
+        "Business and engineering priorities diverge after initial planning cycles",
+        "Legacy operating models block adoption of modern product delivery practices"
+      ],
+      "impactSignals": [
+        "Program spend rises while strategic KPI movement remains flat",
+        "Initiatives miss handoff points between strategy, architecture, and execution",
+        "Teams experience change fatigue with limited realized business value"
+      ]
+    },
+    "approach": {
+      "overview": "We combine strategic advisory with delivery architecture, aligning operating model design, platform capability, and execution cadence around measurable objectives.",
+      "pillars": [
+        {
+          "title": "Value Stream Prioritization",
+          "detail": "We sequence initiatives based on measurable business impact and technical dependency constraints."
+        },
+        {
+          "title": "Target Operating Model Design",
+          "detail": "Roles, governance, and decision rights are defined to support faster execution across business and technology teams."
+        },
+        {
+          "title": "Portfolio Delivery Governance",
+          "detail": "Transformation progress is managed through KPI-linked checkpoints and portfolio-level risk controls."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our transformation architecture emphasizes incremental modernization and clear accountability, avoiding disruptive rewrites without business justification.",
+      "items": [
+        {
+          "title": "Business Capability Alignment",
+          "detail": "Technology changes are organized around capabilities that directly map to revenue, service quality, or cost efficiency."
+        },
+        {
+          "title": "Composable Platform Strategy",
+          "detail": "Platform components are selected for interoperability to support phased migration and faster adaptation."
+        },
+        {
+          "title": "Governance with Delivery Cadence",
+          "detail": "Decision forums and control points are embedded in sprint and quarterly cycles, not treated as separate bureaucratic tracks."
+        }
+      ]
+    },
+    "capabilities": [
+      "Digital Transformation Roadmaps",
+      "Technology Strategy Development",
+      "Cloud Adoption Frameworks",
+      "Process Optimization",
+      "Change Management"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Foundation",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Data Platform",
+        "icon": "microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Decision Intelligence",
+        "icon": "powerbi"
+      },
+      {
+        "name": "Power Platform",
+        "category": "Low-Code",
+        "icon": "microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Collaboration",
+        "icon": "microsoftsharepoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strategy Alignment",
+        "summary": "We align leadership priorities and digital objectives to create a shared transformation direction.",
+        "deliverables": [
+          "Transformation objectives and success criteria",
+          "Capability maturity and gap assessment",
+          "Prioritized initiative portfolio"
+        ]
+      },
+      {
+        "title": "Execution Blueprint",
+        "summary": "We define the target operating model, architecture standards, and phased implementation sequence.",
+        "deliverables": [
+          "Operating model and governance design",
+          "Technology and process architecture standards",
+          "Phased implementation roadmap"
+        ]
+      },
+      {
+        "title": "Change & Value Realization",
+        "summary": "We drive adoption, track KPI movement, and refine initiatives based on delivery outcomes.",
+        "deliverables": [
+          "Adoption and enablement plan",
+          "KPI measurement cadence",
+          "Quarterly optimization backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Start Your Transformation Journey",
+      "description": "Navigate change with clear priorities and practical delivery plans.",
+      "button": "Schedule Strategy Session"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Connected systems from device to cloud, with telemetry pipelines and edge intelligence for industrial scale."
+    },
+    "sections": {
+      "problem": {
+        "title": "Business Problem Framing",
+        "subtitle": "Why connected-device programs fail to scale beyond pilot deployments"
+      },
+      "approach": {
+        "title": "Engineering Approach",
+        "subtitle": "How we design secure, operable IoT systems from device firmware to cloud APIs"
+      },
+      "principles": {
+        "title": "Architecture Principles",
+        "subtitle": "Edge-to-cloud design rules for reliability, latency, and fleet governance"
+      },
+      "capabilities": {
+        "title": "IoT Solutions",
+        "subtitle": "Connect, monitor, and optimize your devices"
+      },
+      "technology": {
+        "title": "IoT Technology Stack",
+        "subtitle": "From hardware to cloud"
+      },
+      "breakdown": {
+        "title": "Service Breakdown",
+        "subtitle": "How we deliver connected systems from edge devices to cloud intelligence"
+      }
+    },
+    "problem": {
+      "overview": "IoT initiatives often prove technical feasibility in pilots but fail at scale due to unreliable connectivity, weak fleet controls, and poor integration with business workflows.",
+      "painPointsTitle": "Recurring Business Pain",
+      "impactSignalsTitle": "What Leaders Usually Observe",
+      "painPoints": [
+        "Device onboarding and lifecycle management remain manual and error-prone",
+        "Telemetry pipelines produce noisy, incomplete, or delayed operational data",
+        "Remote command and firmware updates introduce safety and security risk"
+      ],
+      "impactSignals": [
+        "Pilot environments succeed, but production rollout timelines repeatedly slip",
+        "Field operations teams react to incidents without predictive visibility",
+        "Business systems cannot reliably consume device intelligence in real time"
+      ]
+    },
+    "approach": {
+      "overview": "We architect IoT platforms as controlled distributed systems, combining secure edge runtime standards, event-driven ingestion, and operational governance at fleet scale.",
+      "pillars": [
+        {
+          "title": "Secure Device Lifecycle Management",
+          "detail": "Provisioning, identity, key rotation, and firmware updates are automated to reduce operational risk."
+        },
+        {
+          "title": "Event-Driven Telemetry Architecture",
+          "detail": "Streaming pipelines normalize, validate, and route device events for analytics and control in near real time."
+        },
+        {
+          "title": "Fleet Operations Control Plane",
+          "detail": "Monitoring, alerting, and remote command workflows provide reliable supervision across distributed assets."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Our IoT architecture balances low-latency edge decisions with centralized governance, observability, and security compliance.",
+      "items": [
+        {
+          "title": "Edge Autonomy with Cloud Coordination",
+          "detail": "Critical local operations continue during network degradation while syncing state to cloud systems when available."
+        },
+        {
+          "title": "Contracted Event Schemas",
+          "detail": "Device and platform teams use governed schemas to preserve telemetry consistency across versions."
+        },
+        {
+          "title": "Zero-Trust Device Security",
+          "detail": "Mutual authentication, least privilege, and encrypted transport are enforced across every device interaction."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT Device Management",
+      "Digital Twin Solutions",
+      "Edge Computing Deployment",
+      "Real-Time Telemetry",
+      "Predictive Maintenance"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Digital Twins",
+        "category": "Simulation",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Edge",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protocol",
+        "icon": "mqtt"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protocol",
+        "icon": "lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Hardware",
+        "icon": "arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Hardware",
+        "icon": "raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Time Series DB",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Device & Edge Strategy",
+        "summary": "We define connectivity patterns, edge runtime standards, and secure provisioning for field devices.",
+        "deliverables": [
+          "Device onboarding and connectivity model",
+          "Edge runtime and deployment blueprint",
+          "Fleet security baseline"
+        ]
+      },
+      {
+        "title": "Telemetry & Control Plane",
+        "summary": "We build pipelines that capture events, model digital twins, and enable remote control workflows.",
+        "deliverables": [
+          "Real-time ingestion and event schema design",
+          "Digital twin and asset model implementation",
+          "Command and control API layer"
+        ]
+      },
+      {
+        "title": "Operations & Scale",
+        "summary": "We operationalize fleet management and reliability controls for production-scale IoT environments.",
+        "deliverables": [
+          "Device fleet monitoring and alerting",
+          "Predictive maintenance and anomaly detection",
+          "Rollout and lifecycle support plan"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Connect Your Devices",
+      "description": "Build reliable IoT solutions ready for real production environments.",
+      "button": "Start Your IoT Project"
+    }
+  }
+}

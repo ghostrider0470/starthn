@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Engineering Systems That Scale",
+    "subtitle": "Ngwanrọ ụlọ ọrụ · AI & Machine Learning · Akụrụngwa igwe ojii · IoT & Edge",
+    "description": "Site na akpaaka nwere ọgụgụ isi na nyiwe igwe ojii, anyị na-emepụta ma na-ewepụta teknụzụ nke na-eme ka azụmahịa dị oke egwu — n'oge, na mmefu ego, na ọnụ ọgụgụ.",
+    "cta": {
+      "primary": "Bido oru ngo",
+      "secondary": "Lelee Ọrụ Anyị"
+    },
+    "trustLine": "Tụkwasịrị obi ụlọ ọrụ n'ụwa niile"
+  },
+  "services": {
+    "subtitle": "Ọrụ anyị",
+    "title": "Injinia zuru oke",
+    "description": "Mpaghara mmega ahụ isii. Otu ìgwè. Oyi akwa ọ bụla nke teknụzụ gị — site na ngwaọrụ ihu na dashboards ụlọ ọrụ.",
+    "commentMarker": "ỌRỤ",
+    "items": {
+      "customSoftware": {
+        "title": "Omenala Software Development",
+        "description": "Ngwa nke oge a wuru na microservices, API, na igwe ojii."
+      },
+      "aiMl": {
+        "title": "AI, ML na Business Intelligence",
+        "description": "Pipeline AI / ML, Power BI dashboards, na nchịkọta dị elu nke na-atụgharị data ka ọ bụrụ mkpebi."
+      },
+      "cloud": {
+        "title": "Cloud Architecture & Infrastructure",
+        "description": "Akụrụngwa igwe ojii dị iche iche na containers, serverless, na scalability zuru ụwa ọnụ wuru n'ime."
+      },
+      "iot": {
+        "title": "IoT & Edge Computing",
+        "description": "Ngwaọrụ ejikọrọ, ejima dijitalụ, na mgbakọ ọnụ maka Industry 4.0."
+      },
+      "devops": {
+        "title": "DevOps & Platform Engineering",
+        "description": "CI / CD pipelines, akụrụngwa dị ka koodu, na observability si nkwa na mmepụta."
+      },
+      "digital": {
+        "title": "Mgbanwe Dijitalụ na Ndụmọdụ",
+        "description": "Teknụzụ teknụzụ, usoro ọgbara ọhụrụ, na ndụmọdụ aka."
+      }
+    },
+    "cta": {
+      "title": "Ka anyị mepụta ihe dị mkpa.",
+      "description": "Site na mmepe ngwanrọ omenala na ngwọta AI kwadoro na akụrụngwa igwe ojii na akpaaka - anyị na-enye ọrụ teknụzụ njedebe na njedebe ahaziri maka mkpa gị.",
+      "primary": "Malite ọrụ gị",
+      "secondary": "Usoro Ndụmọdụ"
+    },
+    "learnMore": "Mụtakwuo"
+  },
+  "credibility": {
+    "subtitle": "Ihe ndekọ anyị",
+    "title": "Nsonaazụ ya, ọ bụghị <gradient>nkwa</gradient>",
+    "titlePlain": "Nsonaazụ ya, ọ bụghị nkwa",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Site na Sarajevo ruo Oslo, Amsterdam, na Berlin. A na-enyefe usoro ụlọ ọrụ n'oge, oge ọ bụla.",
+    "stats": {
+      "experience": "Afọ Ahụmịhe Jikọtara",
+      "countries": "Mba ndị na-eje ozi",
+      "systems": "Sistemụ Anapụta",
+      "industries": "Ụlọ ọrụ na-eje ozi"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Igwe ojii IAM maka Atlas Copco",
+        "outcome": "Hazie akụrụngwa mbụ nke igwe ojii nke One Identity maka Atlas Copco na Azure Kubernetes, na-ebelata ụgwọ mgbe ị na-ejigide nnabata ụlọ ọrụ."
+      },
+      "orange": {
+        "label": "Orange Cyberdefense Platform",
+        "outcome": "Mepụtara akụrụngwa Azure Kubernetes, pipelines CI / CD, na mwekota ServiceNow omenala maka ụlọ ọrụ cybersecurity na-eduga na Europe."
+      },
+      "telecom": {
+        "label": "Telecom GIS & AR Platform",
+        "outcome": "Wuru GIS n'elu ikpo okwu na-emepụta ihe ndị dị n'okpuru ala na Germany na nchọpụta nkwekọrịta na-egbochi mmebi akụrụngwa ọtụtụ nde Euro."
+      },
+      "iot": {
+        "label": "Cloud IoT & Edge Platform",
+        "outcome": "Azure IoT Hub na-achịkwa ọtụtụ puku ngwaọrụ, Synapse na-ahazi ọtụtụ ijeri ahịrị telemetry, yana nchịkọta ọnụ na-ebelata ọnụ ahịa ozi site na ~ 90%."
+      },
+      "drone": {
+        "label": "Autonomous Drone Platform",
+        "outcome": "Onye na-ahụ maka ụgbọ elu omenala na akwa 4G-to-Azure IoT Hub na-eme ka ụgbọ elu BVLOS kwụụrụ onwe ya maka nlekota oru ugbo na nnyefe ụgwọ."
+      },
+      "payment": {
+        "label": "Ịkwụ Ụgwọ Usoro Nnapụta",
+        "outcome": "Zọpụta na-ada ada ugwo ọnụ ụzọ maka Norwegian mobile ngwa site reverse-engineering undocumented nketa koodu. Oge ịkwụ ụgwọ efu post-modernization."
+      },
+      "game": {
+        "label": "AAA Game Dev Tooling",
+        "outcome": "Wuru ngwa mgbakwunye Maya nke na-egbutu oge ngosi 3D na oge mmegharị site na 50% na nnukwu ụlọ ọrụ AAA, nakweere dị ka ngwá ọrụ ọkọlọtọ na pipeline mmepụta."
+      },
+      "social": {
+        "label": "Ebe E Si Nweta Social Platform",
+        "outcome": "Architected mkpakọrịta nwoke na nwaanyị ngwa maka Spain si nightlife idaha na geolocation kenkọtara, ezigbo oge ozi, na push ọkwa maka a UK ahịa."
+      },
+      "iga": {
+        "label": "Multi-Tenant IGA Platform",
+        "outcome": "Wuru isi backend maka igwe ojii-native njirimara nchịkwa n'elu ikpo okwu na-eje ozi Fortune 500 ahịa na omenala ASP.NET Core Identity maka NoSQL na ụlọ ọrụ ụlọ ọrụ."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "EU-Adjacent, nnyefe zuru ụwa ọnụ",
+        "description": "CET na-arụ ọrụ awa na ahụmịhe na-agafe Norway, Netherlands, Germany, na karịa."
+      },
+      "yourEngineers": {
+        "title": "Ndị na-ere ahịa gị, ọ bụghị onye na-ere ahịa",
+        "description": "Ndị otu raara onwe ha nye na-etinye aka na ọrụ gị na ngwaọrụ gị. Enweghị ndị njikwa akaụntụ, enweghị akara tiketi."
+      },
+      "hardwareToCloud": {
+        "title": "Ngwaike na ígwé ojii",
+        "description": "Site na ngwa ngwa A na-ejikọta software zuru ezu n'ofe oyi akwa ọ bụla."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Teknụzụ Stack",
+    "title": "Agha a <gradient>nwalere Stack</gradient>",
+    "titlePlain": "Agha a nwalere Stack",
+    "commentMarker": "TECH_STACK",
+    "description": "Ọ bụghị naanị na anyị na-eji ngwaọrụ ndị a eme ihe, anyị na-ebuga usoro mmepụta na ha. Site na Microsoft Azure ruo Kubernetes, ndị injinia anyị na-ejide ezigbo ahụmịhe.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Igwe ojii na akụrụngwa",
+        "description": "Multi-ígwé ojii architecture na akpa orchestration na akụrụngwa dị ka koodu."
+      },
+      "frontend": {
+        "label": "Frontend",
+        "description": "Modern akụrụngwa frameworks na ụdị nchekwa na kachasị ewu tooling."
+      },
+      "backend": {
+        "label": "Backend & API",
+        "description": "Nyiwe ihe nkesa ụlọ ọrụ, asụsụ usoro, na paradigms API nke oge a."
+      },
+      "data": {
+        "label": "Data na Nchekwa",
+        "description": "Mmekọrịta, akwụkwọ, na ebe nchekwa na-echekwa na ọchụchọ ederede zuru ezu."
+      },
+      "devops": {
+        "label": "DevOps & Tooling",
+        "description": "CI / CD pipelines, nsụgharị nsụgharị, na mmepụta mmepụta."
+      }
+    },
+    "scanning": "SCANNING FREQUENCIES ...",
+    "summary": {
+      "cloudNative": {
+        "title": "Igwe ojii na-agbanwe agbanwe site na ndabara",
+        "description": "A na-arụ ọrụ ọ bụla, CI / CD-chụpụrụ, ma wuo ya maka ọnụ ọgụgụ kwụ ọtọ site n'ụbọchị otu."
+      },
+      "fullStack": {
+        "title": "Full-Stack Fluency",
+        "description": "Site na React frontends na .NET microservices na Kubernetes ụyọkọ — otu otu, njedebe ruo ọgwụgwụ."
+      },
+      "productionProven": {
+        "title": "Mmepụta-gosipụtara",
+        "description": "Ndị a abụghị teknụzụ demo. Ngwá ọrụ ọ bụla edepụtara na-eme ka ezigbo sistemụ na-ejere ezigbo ndị ọrụ ozi taa."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Technology logos n'ahịrị 1",
+      "row2Aria": "Technology logos ahịrị 2",
+      "row3Aria": "Teknụzụ logos ahịrị 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Ntọala ihe ọmụma",
+    "title": "<gradient>Ajụjụ</gradient> Ndị A Na-ajụkarị",
+    "titlePlain": "Ajụjụ Ndị A Na-ajụkarị",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Ihe niile I Kwesịrị Ịma Banyere Ịrụ Ọrụ na Horizon Tech",
+    "items": {
+      "scope": {
+        "question": "Kedu ihe bụ ọrụ gị?",
+        "answer": "Anyị na-ewepụta ọrụ teknụzụ njedebe na njedebe: ngwanrọ ụlọ ọrụ omenala, pipeline AI / ML, akụrụngwa igwe ojii, sistemụ IoT, akpaaka DevOps, na ndụmọdụ mgbanwe dijitalụ. Ma ịchọrọ ikpo okwu zuru oke nke e wuru site na ncha ma ọ bụ njikọta ezubere iche na nchịkọta gị dị ugbu a, anyị na-ejikwa ihe owuwu, mmepe, nnwale, na nnyefe."
+      },
+      "stack": {
+        "question": "Kedu ihe bụ isi teknụzụ gị?",
+        "answer": "Isi nchịkọta anyị na-elekwasị anya na nyiwe ụlọ ọrụ: Azure na AWS maka igwe ojii, .NET na Node.js maka backend, React na Angular maka frontend, Kubernetes na Docker maka orchestration, na Terraform maka akụrụngwa dị ka koodu. Anyị na-arụkwa ọrụ nke ọma na Python maka ọrụ AI / ML, Power BI na Fabric maka ọgụgụ isi azụmahịa, na PostgreSQL, SQL Server, na MongoDB maka data."
+      },
+      "enterprise": {
+        "question": "Kedu otu esi ejikwa ọrụ ụlọ ọrụ?",
+        "answer": "Njikọ ọ bụla na-amalite site na usoro nchọpụta iji kọwaa oke, ụkpụrụ ụlọ, na milestones. Ị ga-enweta ndị otu raara onwe ha nye na ndu teknụzụ, nyocha oge niile, na ịnweta ndị injinia na-ewu usoro gị. Anyị na-agbaso agile sprints na demos ndị metụtara ya, na-edebe bọọdụ ọrụ doro anya, ma na-enye akụkọ ọganihu kwa izu."
+      },
+      "support": {
+        "question": "Kedu ihe nkwado post-mwepụta dị ka?",
+        "answer": "Anyị na-enye ọkwa nkwado ahaziri ahazi na SLA akọwapụtara, gụnyere nlekota 24/7, nzaghachi ihe merenụ, njikarịcha arụmọrụ, na ntụgharị atụmatụ. Nkwekọrịta nkwado anyị na-ekpuchi ndozi ahụhụ, nchebe nchekwa, akụrụngwa akụrụngwa, na nyocha ahụike na-arụ ọrụ — ahaziri maka oge gị na oge nzaghachi."
+      },
+      "integration": {
+        "question": "You nwere ike ijikọ akụrụngwa anyị dị ugbu a?",
+        "answer": "Kpamkpam. Anyị na-ahụ maka mmepe nke oge a, njikọta API-mbụ, na mbugharị igwe ojii ngwakọ. Ma ịchọrọ ijikọ na sistemụ ERP na-arụ ọrụ, kwaga site na monoliths gaa na microservices, ma ọ bụ jikọta ọdụ data nketa na frontends nke oge a, anyị nwere akwụkwọ egwuregwu mbugharị na ahụmịhe njikọta iji mee ka ọ bụrụ enweghị ntụpọ."
+      },
+      "industries": {
+        "question": "Kedu ụlọ ọrụ ị rụrụ ọrụ?",
+        "answer": "Ndị otu anyị enyela ọrụ gafee fintech, ahụike, lọjistik, e-commerce, ike, na ngalaba gọọmentị. Anyị ghọtara ihe ụlọ ọrụ chọrọ dị ka PCI-DSS maka ịkwụ ụgwọ, echiche HIPAA maka data ahụike, nnabata GDPR maka ahịa EU, na telemetry oge maka ụlọ ọrụ IoT."
+      },
+      "engagement": {
+        "question": "Kedu ka usoro ntinye aka si dị?",
+        "answer": "Ọ na-amalite site na ịkpọ oku nchọpụta iji ghọta ihe mgbaru ọsọ gị na ọnọdụ teknụzụ. Site n'ebe ahụ, anyị na-ewepụta akwụkwọ nyocha na ndụmọdụ ụkpụrụ ụlọ, usoro iheomume, na mmebi ego. Ozugbo akwadoro, anyị na-amalite na ndị otu raara onwe ha nye, na-abanye n'ime ngwaọrụ gị na arụmọrụ gị, wee malite sprint mbụ n'ime ụbọchị."
+      }
+    },
+    "stillHaveQuestions": "Ị ka nwere ajụjụ?",
+    "ctaDescription": "Ị nwere atụmatụ ọ bụla n'uche? Ka anyị kwuo banyere oke, usoro iheomume, na mmefu ego.",
+    "readCaseStudies": "Gụọ anyị Case Studies",
+    "scheduleCall": "Hazie oku oku"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Shtëpi",
+    "company": "Kompania",
+    "solutions": "Zgjidhjet",
+    "resources": "Burimet",
+    "innovationLab": "Laboratori i Inovacionit",
+    "contact": "Kontaktoni",
+    "about": {
+      "title": "Rreth",
+      "description": "Misioni, vizioni dhe historia jonë"
+    },
+    "team": {
+      "title": "Ekipi",
+      "description": "Njihuni me njerëzit pas Horizon Tech"
+    },
+    "careers": {
+      "title": "Karriera",
+      "description": "Bashkohuni me ekipin tonë dhe ndërtoni të ardhmen"
+    },
+    "enterpriseSoftware": {
+      "title": "Zhvillimi i softuerit të ndërmarrjeve",
+      "description": "Aplikacione të personalizuara të ndërmarrjeve me korniza moderne"
+    },
+    "aiMl": {
+      "title": "AI, ML dhe Inteligjenca e Biznesit",
+      "description": "Tubacionet e plota AI/ML dhe panelet e BI"
+    },
+    "cloudArchitecture": {
+      "title": "Arkitektura dhe Infrastruktura Cloud",
+      "description": "Zgjidhjet me shumë cloud dhe orkestrimi i kontejnerëve"
+    },
+    "iot": {
+      "title": "IoT & Edge Computing",
+      "description": "Ekosistemet e pajisjeve të lidhura dhe binjakët dixhitalë"
+    },
+    "devops": {
+      "title": "DevOps dhe inxhinieria e platformës",
+      "description": "Tubacionet CI/CD dhe infrastruktura si kod"
+    },
+    "digitalTransformation": {
+      "title": "Transformimi dhe Strategjia Dixhitale",
+      "description": "Udhërrëfyesit dhe këshillimet e transformimit të ndërmarrjeve"
+    },
+    "caseStudies": {
+      "title": "Studime të rasteve",
+      "description": "Histori suksesi nga klientët tanë",
+      "featured": {
+        "title": "Studimi i rastit të veçuar",
+        "description": "Zhytje e thellë në një angazhim të plotë të dorëzimit"
+      }
+    },
+    "blog": {
+      "title": "Blogu",
+      "description": "Vështrime, mësime dhe tendenca të industrisë",
+      "featured": {
+        "title": "Postimi i veçuar në blog",
+        "description": "Lexoni një nga njohuritë tona më të fundit inxhinierike"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Përmbledhje e laboratorit të inovacionit",
+      "description": "Shihni të gjitha fushat kërkimore dhe pistat eksperimentale"
+    },
+    "innovationLabAiSystems": {
+      "title": "Sistemet e aplikuara të AI",
+      "description": "Modelet e arkitekturës së mësimit të makinerive të gatshme për prodhim"
+    },
+    "innovationLabNlp": {
+      "title": "NLP shumëgjuhëshe",
+      "description": "Aftësitë interaktive të përpunimit të gjuhës natyrore"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Simulimi i algoritmit gjenetik",
+      "description": "Optimizimi evolucionar në një mjedis interaktiv"
+    },
+    "navigation": "Navigimi",
+    "skipToContent": "Kalo tek përmbajtja",
+    "toggleMenu": "Ndërroni menunë",
+    "dashboard": "Paneli",
+    "myWorkspace": "Hapësira ime e punës",
+    "profile": "Profili",
+    "adminPanel": "Paneli i administratorit",
+    "practiceManagement": "Menaxhimi i praktikës",
+    "logOut": "Dilni",
+    "education": {
+      "title": "Burimet teknike",
+      "description": "Udhëzues, mësime dhe praktika më të mira nga ekipi i Horizon Tech"
+    },
+    "support": {
+      "title": "Qendra e Mbështetjes",
+      "description": "Merrni ndihmë për shërbimet tona të zhvillimit të softuerit"
+    }
+  },
+  "footer": {
+    "description": "Startup-i i zhvillimit të softuerit me bazë në Sarajevë, Bosnje. Ne ndërtojmë softuer të personalizuar, zgjidhje AI/ML, arkitekturë cloud dhe sisteme automatizimi.",
+    "features": "Karakteristikat",
+    "resources": "Burimet",
+    "company": "Kompania",
+    "legal": "Ligjore",
+    "dashboard": "Paneli",
+    "components": "Komponentët",
+    "documentation": "Dokumentacioni",
+    "apiReference": "Referenca API",
+    "gettingStarted": "Fillimi",
+    "examples": "Shembuj",
+    "community": "Komuniteti",
+    "blog": "Blogu",
+    "caseStudies": "Studime të rasteve",
+    "innovationLabOverview": "Përmbledhje e laboratorit të inovacionit",
+    "appliedAiSystems": "Sistemet e aplikuara të AI",
+    "nlpDemo": "NLP shumëgjuhëshe",
+    "geneticAlgorithmSimulation": "Simulimi i algoritmit gjenetik",
+    "featuredBlogPost": "Postimi i veçuar në blog",
+    "featuredCaseStudy": "Studimi i rastit të veçuar",
+    "about": "Rreth",
+    "contact": "Kontaktoni",
+    "partners": "Partnerët",
+    "careers": "Karriera",
+    "privacyPolicy": "Politika e privatësisë",
+    "termsOfService": "Kushtet e shërbimit",
+    "cookiePolicy": "Politika e Cookies",
+    "license": "Liçensë",
+    "copyright": "© {{year}} Horizon Tech. Të gjitha të drejtat e rezervuara.",
+    "subscribe": "Abonohuni në buletinin"
+  },
+  "header": {
+    "badge": "Zgjidhjet e teknologjisë së ndërmarrjeve",
+    "titleLine1": "Transformoni biznesin tuaj me",
+    "titleLine2": "Teknologjia më e fundit",
+    "description": "Nga zhvillimi i softuerit të ndërmarrjeve dhe inteligjenca e biznesit e fuqizuar nga AI deri te infrastruktura cloud dhe zgjidhjet IoT - ne ofrojmë shërbime gjithëpërfshirëse teknologjike që nxisin inovacionin dhe përshpejtojnë rritjen.",
+    "getStarted": "Fillo",
+    "exploreSolutions": "Eksploroni zgjidhjet",
+    "trustedBy": "Të besuar nga ndërmarrjet që mendojnë përpara",
+    "microsoftPartner": "Microsoft Partner",
+    "azureCertified": "Azure i certifikuar",
+    "enterpriseSolutions": "Zgjidhjet e ndërmarrjeve"
+  },
+  "mobileNav": {
+    "navigation": "Navigimi celular",
+    "home": "Shtëpi",
+    "solutions": "Zgjidhjet",
+    "caseStudies": "Rastet",
+    "aiSystems": "Laboratori i AI",
+    "blog": "Blogu",
+    "resources": "Burimet",
+    "contact": "Kontaktoni"
+  },
+  "sideNav": {
+    "scroll": "Lëviz",
+    "navigateTo": "Lundroni te {{section}}",
+    "sections": {
+      "home": "Shtëpi",
+      "solutions": "Zgjidhjet",
+      "credibility": "Besueshmëria",
+      "partners": "Partnerët",
+      "caseStudies": "Studime të rasteve",
+      "blog": "Blogu",
+      "innovationLab": "Laboratori i Inovacionit",
+      "faq": "Pyetjet më të shpeshta"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Ndërroni gjuhën",
+    "searchPlaceholder": "Gjuha e kërkimit...",
+    "noResults": "Nuk u gjet asnjë gjuhë."
+  },
+  "common": {
+    "menu": "Menyja",
+    "account": "Llogari"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Studime të fundit të rasteve",
+      "description": "Një pamje e rezultateve të ofrimit në programet fintech, kujdesi shëndetësor, logjistika dhe sektori publik.",
+      "cta": "Shikoni të gjitha rastet studimore"
+    },
+    "blog": {
+      "title": "Të fundit nga blogu ynë",
+      "description": "Shënime praktike inxhinierike nga puna e fundit e AI, platformës dhe ofrimit cloud.",
+      "cta": "Lexoni të gjithë artikujt"
+    },
+    "innovationLab": {
+      "title": "Laboratori i Inovacionit",
+      "description": "Eksploroni prototipet, eksperimentet dhe projektet e aplikuara të R&D nga ekipi inxhinierik i Horizon Tech.",
+      "cta": "Eksploroni Laboratorin e Inovacionit"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Lexoni studimin e rastit",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Kujdesi shëndetësor",
+      "logistics": "Logjistika",
+      "manufacturing": "Prodhimi",
+      "government": "Qeveria"
+    }
+  },
+  "blogCard": {
+    "read": "Lexo"
+  }
+}

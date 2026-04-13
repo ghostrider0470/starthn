@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Commencez",
+    "ctaSecondary": "Consultation sur les rendez-vous"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Développement logiciel d’entreprise",
+      "description": "Des applications d’entreprise de bout en bout avec des cadres modernes, une architecture API-first et une évolutivité native cloud."
+    },
+    "sections": {
+      "problem": {
+        "title": "Encadrement des problèmes d’affaires",
+        "subtitle": "Là où les programmes d’entreprise perdent de la vitesse, du budget et de l’alignement stratégique"
+      },
+      "approach": {
+        "title": "Approche d’ingénierie",
+        "subtitle": "Comment transformer des exigences ambiguës en plateformes prêtes à la production"
+      },
+      "principles": {
+        "title": "Principes architecturaux",
+        "subtitle": "Des décisions de conception qui maintiennent les systèmes d’entreprise à grande échelle"
+      },
+      "capabilities": {
+        "title": "Ce que nous construisons",
+        "subtitle": "Capacités complètes de développement logiciel"
+      },
+      "technology": {
+        "title": "Notre pile technologique",
+        "subtitle": "Des technologies modernes et éprouvées pour la prestation en entreprise"
+      },
+      "breakdown": {
+        "title": "Défaillance du service",
+        "subtitle": "Un parcours structuré de la découverte à la production stable"
+      }
+    },
+    "problem": {
+      "overview": "Les équipes d’entreprise transportent souvent des flux de travail critiques sur des systèmes fragmentés, ce qui crée de longs délais d’exécution, des données incohérentes et une coordination manuelle coûteuse entre les départements.",
+      "painPointsTitle": "Douleurs récurrentes en affaires",
+      "impactSignalsTitle": "Ce que les dirigeants observent habituellement",
+      "painPoints": [
+        "Les engagements de livraison s’effacent parce que les dépendances entre équipes ne sont pas gérées",
+        "La logique d’affaires de base est dupliquée entre les canaux et les produits",
+        "Les intégrations héritées rendent les lancements de nouvelles fonctionnalités à haut risque et lents"
+      ],
+      "impactSignals": [
+        "Le débit de la feuille de route diminue alors que les dépenses en ingénierie augmentent",
+        "Les défauts destinés aux clients augmentent pendant les périodes de mise à jour",
+        "La prise de décision ralentit en raison de rapports opérationnels incohérents"
+      ]
+    },
+    "approach": {
+      "overview": "Nous exécutons avec une découverte axée sur l’architecture, une livraison guidée par contrat et une ingénierie de libération contrôlée afin que la valeur d’affaires soit livrée en incréments prévisibles.",
+      "pillars": [
+        {
+          "title": "Modélisation de domaine et contextes bornés",
+          "detail": "Nous cartographions les domaines pour délimiter les limites des services afin de réduire le couplage inter-équipes et de clarifier la propriété."
+        },
+        {
+          "title": "Stratégie d’intégration API-First",
+          "detail": "Nous définissons les contrats stables dès le départ, permettant un développement parallèle et une intégration plus sécuritaire avec les systèmes d’entreprise."
+        },
+        {
+          "title": "Flux de travail de livraison progressif",
+          "detail": "Nous utilisons des drapeaux de fonctionnalités, des déploiements par étapes et des portails de qualité pour sortir rapidement sans déstabiliser la production."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Nos décisions d’architecture privilégient la longévité, l’opérabilité et la propriété claire afin que les plateformes demeurent adaptables à mesure que l’activité s’élargit.",
+      "items": [
+        {
+          "title": "Limites de service modulaires",
+          "detail": "Les capacités sont organisées autour des domaines d’affaires pour localiser l’impact du changement."
+        },
+        {
+          "title": "Intégration pilotée par les événements",
+          "detail": "Des flux de travail asynchrones sont utilisés là où il existe une tolérance à la latence pour améliorer la résilience et découpler les systèmes."
+        },
+        {
+          "title": "Observabilité par conception",
+          "detail": "Le traçage, les métriques et les journaux structurés sont définis à l’avance pour soutenir des opérations fiables et une gouvernance SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Applications Web personnalisées",
+      "Développement d’applications mobiles",
+      "Développement et intégration d’API",
+      "Microservices Architecture",
+      "Cloud-Native Solutions",
+      "Modernisation des systèmes hérités"
+    ],
+    "technologies": [
+      {
+        "name": "Réagir",
+        "category": "Frontend",
+        "icon": "réagir"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Langue",
+        "icon": "TypeScript"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "graphQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Base de données",
+        "icon": "postgresql"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Base de données",
+        "icon": "mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Découverte et architecture",
+        "summary": "Nous cartographieons les priorités d’affaires, les contraintes techniques et l’architecture cible avant le début de la mise en œuvre.",
+        "deliverables": [
+          "Atelier d’alignement des produits et des exigences",
+          "Plan directeur de l’architecture de la solution",
+          "Plan de livraison basé sur les étapes"
+        ]
+      },
+      {
+        "title": "Construction et intégration",
+        "summary": "Nos équipes mettent en œuvre en parallèle des fonctionnalités clés, des couches d’intégration et des garanties de qualité.",
+        "deliverables": [
+          "Développement de fonctionnalités dans les sprints itératifs",
+          "API et intégrations tierces",
+          "Tests automatisés et vérifications de préparation à la sortie"
+        ]
+      },
+      {
+        "title": "Lancement et évolution",
+        "summary": "Après la mise en service, nous stabilisons les opérations et définissons le prochain cycle d’amélioration en fonction de l’utilisation réelle.",
+        "deliverables": [
+          "Manuels de déploiement de production",
+          "Réglage de la performance et de la fiabilité",
+          "Feuille de route post-lancement et arriéré d’améliorations"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Prêt à créer votre prochaine application?",
+      "description": "Concevons et livrons une solution qui génère des résultats d’affaires mesurables.",
+      "button": "Commencez votre projet"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "IA, ML et intelligence d’affaires",
+      "description": "Des modèles prédictifs aux tableaux de bord exécutifs, nous construisons des systèmes complets d’IA/BI qui soutiennent les décisions à grande échelle."
+    },
+    "sections": {
+      "problem": {
+        "title": "Encadrement des problèmes d’affaires",
+        "subtitle": "Pourquoi les organisations riches en données ont encore du mal à prendre des décisions confiantes"
+      },
+      "approach": {
+        "title": "Approche d’ingénierie",
+        "subtitle": "Comment nous opérationnalisons les produits de données, les modèles d’apprentissage automatique et les flux de travail BI"
+      },
+      "principles": {
+        "title": "Principes architecturaux",
+        "subtitle": "Modèles d’architecture de données et de modèles pour une intelligence décisionnelle fiable"
+      },
+      "capabilities": {
+        "title": "Nos capacités",
+        "subtitle": "Solutions complètes d’IA, d’apprentissage automatique et de BI"
+      },
+      "technology": {
+        "title": "Notre pile technologique",
+        "subtitle": "Outils de pointe pour les données et l’IA"
+      },
+      "breakdown": {
+        "title": "Défaillance du service",
+        "subtitle": "Comment passer de données fragmentées à une intelligence de qualité production"
+      }
+    },
+    "problem": {
+      "overview": "Les organisations collectent fréquemment de grands volumes de données, mais ne parviennent pas à les traduire en prévisions fiables, décisions opérationnelles ou actions d’affaires mesurables.",
+      "painPointsTitle": "Douleurs récurrentes en affaires",
+      "impactSignalsTitle": "Ce que les dirigeants observent habituellement",
+      "painPoints": [
+        "La logique des rapports diffère d’une équipe à l’autre, ce qui entraîne des récits de KPI contradictoires",
+        "Les modèles restent en expérimentation et n’atteignent jamais les flux de travail de production",
+        "Les problèmes de qualité des données sapent la confiance envers l’analytique et les tableaux de bord exécutifs"
+      ],
+      "impactSignals": [
+        "Les cycles de décision ralentissent parce que les équipes débattent de la validité des données plutôt que de l’action",
+        "La précision des prévisions et de la planification demeure incohérente d’un trimestre à l’autre",
+        "Les investissements en analytique montrent une faible adoption en dehors des groupes d’analystes spécialisés"
+      ]
+    },
+    "approach": {
+      "overview": "Nous offrons des plateformes d’IA et de BI comme systèmes de production, combinant l’ingénierie des données, les opérations du cycle de vie des modèles et l’intégration des flux de travail décisionnels.",
+      "pillars": [
+        {
+          "title": "Fondation des produits de données",
+          "detail": "Les produits de données alignés sur le domaine établissent des entrées réutilisables, gouvernées et de haute qualité pour l’analytique et l’apprentissage automatique."
+        },
+        {
+          "title": "Automatisation du cycle de vie MLOps",
+          "detail": "La formation, le déploiement, la surveillance et le contrôle des dérives sont automatisés pour maintenir la fiabilité des modèles en production."
+        },
+        {
+          "title": "Intégration du flux de travail décisionnel",
+          "detail": "Les insights sont intégrés dans les outils opérationnels et les tableaux de bord afin que les équipes agissent sur le renseignement dans les processus quotidiens."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Notre architecture IA/BI priorise des données fiables, des modèles explicables et des modes d’accès réglementés à travers l’entreprise.",
+      "items": [
+        {
+          "title": "Définitions à métrique unique",
+          "detail": "Les KPI critiques sont définis une fois via des modèles sémantiques partagés afin d’éliminer la logique de rapport conflictuelle."
+        },
+        {
+          "title": "Contrôles de fiabilité des modèles",
+          "detail": "Les seuils de performance, la détection de dérive et les mécanismes de rétroaction protègent la qualité des décisions en production."
+        },
+        {
+          "title": "Sécurité et gouvernance par conception",
+          "detail": "La lignée des données, l’accès basé sur les rôles et les contrôles prêts à l’audit sont intégrés dans chaque pipeline."
+        }
+      ]
+    },
+    "capabilities": [
+      "Modèles et pipelines d’apprentissage automatique",
+      "Tableaux de bord et rapports Power BI",
+      "Analytique prédictive",
+      "Diffusion de données en temps réel",
+      "Solutions d’entreposage de données"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Quai",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "powerbi"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Entrepôt de données",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Ingénierie des données",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "Plateforme ML",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "Cadre ML",
+        "icon": "Tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "Cadre ML",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Analytique",
+        "icon": "tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Traitement",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Langue",
+        "icon": "postgresql"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Fondation des données",
+        "summary": "Nous auditons les sources, définissons les contrats de données et établissons la gouvernance afin que chaque modèle commence avec des entrées fiables.",
+        "deliverables": [
+          "Évaluation de la source des données et de la qualité",
+          "Ingénierie des caractéristiques et planification de schémas",
+          "Base de sécurité et gouvernance"
+        ]
+      },
+      {
+        "title": "Livraison de modèles et d’insights",
+        "summary": "Nous construisons des modèles et des tableaux de bord décisionnels liés à des questions d’affaires mesurables et des KPI.",
+        "deliverables": [
+          "Développement et validation du modèle",
+          "Tableaux de bord exécutifs et rapports opérationnels",
+          "Intégration des flux de travail décisionnel"
+        ]
+      },
+      {
+        "title": "MLOps & Adoption",
+        "summary": "Nous mettons en œuvre le déploiement, la surveillance et l’activation des équipes afin de garder les résultats fiables au fil du temps.",
+        "deliverables": [
+          "Pipelines automatisés de déploiement de modèles",
+          "Suivi de la dérive, de la précision et de l’utilisation",
+          "Transfert d’équipe et manuel opérationnel"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Transformez vos données en informations",
+      "description": "Transformez des données fragmentées en renseignements clairs et exploitables.",
+      "button": "Commencez votre parcours"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Architecture et infrastructure cloud",
+      "description": "Plateformes multi-nuages, architecture résiliente et infrastructures évolutives conçues pour une croissance à long terme."
+    },
+    "sections": {
+      "problem": {
+        "title": "Encadrement des problèmes d’affaires",
+        "subtitle": "Pourquoi les initiatives infonuagiques stagnent après la première vague de migration"
+      },
+      "approach": {
+        "title": "Approche d’ingénierie",
+        "subtitle": "Comment construire des plateformes cloud sécurisées et évolutives avec un risque de migration contrôlé"
+      },
+      "principles": {
+        "title": "Principes architecturaux",
+        "subtitle": "Des décisions de plateforme qui équilibrent agilité, résilience et gouvernance"
+      },
+      "capabilities": {
+        "title": "Services infonuagiques",
+        "subtitle": "Construire, déployer et évoluer dans le nuage"
+      },
+      "technology": {
+        "title": "Expertise multi-nuage",
+        "subtitle": "Solutions infonuagiques indépendantes de la plateforme"
+      },
+      "breakdown": {
+        "title": "Défaillance du service",
+        "subtitle": "Une séquence claire pour concevoir, migrer et exploiter des plateformes cloud"
+      }
+    },
+    "problem": {
+      "overview": "Beaucoup d’organisations effectuent des migrations initiales vers le cloud mais fonctionnent toujours comme des équipes sur site, avec une faible visibilité, des contrôles incohérents et une augmentation des dépenses.",
+      "painPointsTitle": "Douleurs récurrentes en affaires",
+      "impactSignalsTitle": "Ce que les dirigeants observent habituellement",
+      "painPoints": [
+        "Les charges de travail sont migrées sans contrôles standards de sécurité et de réseau",
+        "Les coûts du cloud augmentent plus vite que la valeur d’affaires livrée",
+        "Le provisionnement de l’environnement demeure manuel et incohérent entre les équipes"
+      ],
+      "impactSignals": [
+        "Incidents fréquents causés par la dérive de configuration entre les environnements",
+        "La préparation à l’audit se dégrade en raison de pratiques de gouvernance fragmentées",
+        "Les délais d’exécution de l’infrastructure retardent les initiatives de produits et de données"
+      ]
+    },
+    "approach": {
+      "overview": "Nous concevons des plateformes cloud comme des produits, en utilisant l’automatisation de l’infrastructure, des garde-fous politiques et des vagues de migration adaptées à la critique des affaires.",
+      "pillars": [
+        {
+          "title": "Zone d’atterrissage en tant que code",
+          "detail": "Les bases d’identité, de réseau, de sécurité et de politiques sont codifiées pour assurer la répétabilité et l’auditabilité."
+        },
+        {
+          "title": "Stratégie de migration basée sur les vagues",
+          "detail": "Les charges de travail se déplacent en phases contrôlées avec un séquençage conscient des dépendances et une préparation au retour en arrière."
+        },
+        {
+          "title": "Boucle opérationnelle SRE + FinOps",
+          "detail": "Les indicateurs de fiabilité et l’économie unitaire sont examinés ensemble afin d’améliorer à la fois la disponibilité et l’efficacité des dépenses."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Notre modèle d’architecture privilégie l’infrastructure déclarative, l’accès à moindre privilège et des plateformes composables qui soutiennent une livraison rapide des produits.",
+      "items": [
+        {
+          "title": "Motifs d’infrastructure immuables",
+          "detail": "Les environnements sont reconstruits à partir de code versionné pour minimiser la dérive et simplifier la récupération opérationnelle."
+        },
+        {
+          "title": "Ligne de base de sécurité par défaut",
+          "detail": "Les contrôles d’accès zéro-trust et l’application des politiques sont intégrés à chaque cycle de vie de l’environnement."
+        },
+        {
+          "title": "Résilience par la distribution",
+          "detail": "Les charges de travail critiques sont conçues pour une tolérance aux pannes multi-zones ou multi-régions lorsque l’impact sur l’entreprise l’exige."
+        }
+      ]
+    },
+    "capabilities": [
+      "Stratégie multi-nuage et mise en œuvre",
+      "Orchestration de conteneurs (Kubernetes)",
+      "Informatique sans serveur",
+      "Cloud Migration Services",
+      "Architecture à haute disponibilité"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Nuage",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "AWS",
+        "category": "Nuage",
+        "icon": "Amazonwebservices"
+      },
+      {
+        "name": "GCP",
+        "category": "Nuage",
+        "icon": "GoogleCloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orchestration",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Conteneurs",
+        "icon": "docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Modèles ARM",
+        "category": "IaC",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "Amazonwebservices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Architecture et zone d’atterrissage",
+        "summary": "Nous définissons l’état cible, les garde-corps et les normes de base des plateformes avant que les charges de travail ne changent.",
+        "deliverables": [
+          "Conception de l’architecture cloud ciblée",
+          "Références d’identité, de réseautage et de sécurité",
+          "Garde-fous en matière de coûts et de conformité"
+        ]
+      },
+      {
+        "title": "Migration et construction de plateforme",
+        "summary": "Nous exécutons des vagues de migration et mettons en place des composants de plateforme cloud-native avec une automatisation répétable.",
+        "deliverables": [
+          "Séquençage de migration de charge de travail",
+          "Configuration de conteneurs et de plateformes serverless",
+          "Infrastructure comme modules de code"
+        ]
+      },
+      {
+        "title": "Fiabilité et FinOps",
+        "summary": "Nous améliorons la fiabilité opérationnelle et optimisons continuellement les dépenses en nuage grâce à la télémétrie en temps réel.",
+        "deliverables": [
+          "SLO, surveillance et flux de travail d’incidents",
+          "Résilience et validation de la reprise après sinistre",
+          "Arriéré d’optimisation des coûts et cadence de gouvernance"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Mettez votre infrastructure à l’échelle",
+      "description": "Construisez des bases cloud qui restent résilientes sous une charge réelle.",
+      "button": "Planifiez votre stratégie infonuagique"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps et ingénierie des plateformes",
+      "description": "Des pipelines de livraison automatisés, de l’observabilité et des pratiques de plateforme qui améliorent la vitesse sans sacrifier la fiabilité."
+    },
+    "sections": {
+      "problem": {
+        "title": "Encadrement des problèmes d’affaires",
+        "subtitle": "Pourquoi la vitesse de livraison diminue à mesure que la complexité des plateformes augmente"
+      },
+      "approach": {
+        "title": "Approche d’ingénierie",
+        "subtitle": "Comment standardiser les pipelines de livraison sans ralentir les équipes produit"
+      },
+      "principles": {
+        "title": "Principes architecturaux",
+        "subtitle": "Des modèles d’ingénierie de plateforme qui évoluent en termes de fiabilité et d’autonomie d’équipe"
+      },
+      "capabilities": {
+        "title": "DevOps Services",
+        "subtitle": "Automatisez, surveillez et optimisez votre cycle de vie de livraison"
+      },
+      "technology": {
+        "title": "Outils et plateformes DevOps",
+        "subtitle": "Chaîne d’outils DevOps de premier ordre"
+      },
+      "breakdown": {
+        "title": "Défaillance du service",
+        "subtitle": "Une feuille de route pratique allant des goulots d’étranglement à la livraison au flux de libération à haute confiance"
+      }
+    },
+    "problem": {
+      "overview": "Les organisations investissent souvent dans des outils CI/CD mais rencontrent tout de même des difficultés avec des versions instables, des approbations lentes et une propriété fragmentée selon les environnements.",
+      "painPointsTitle": "Douleurs récurrentes en affaires",
+      "impactSignalsTitle": "Ce que les dirigeants observent habituellement",
+      "painPoints": [
+        "Les définitions des pipelines varient selon l’équipe, créant des portes de qualité incohérentes",
+        "Les approbations de déploiement manuel retardent les correctifs et les délais de sortie des fonctionnalités",
+        "Les incidents opérationnels se reproduisent parce que la télémétrie est incomplète ou isolée"
+      ],
+      "impactSignals": [
+        "Le délai de livraison pour les changements continue d’augmenter malgré les dépenses en automatisation",
+        "Le taux de défaillance des changements augmente lors des périodes de livraison à fort volume",
+        "La productivité des développeurs diminue en raison des frictions des outils et du changement de contexte"
+      ]
+    },
+    "approach": {
+      "overview": "Nous établissons un modèle interne de plateforme pour développeurs avec des modèles de pipeline réutilisables, une gouvernance axée sur les politiques et une observabilité complète du cycle de vie.",
+      "pillars": [
+        {
+          "title": "Modèles de pipeline Golden Path",
+          "detail": "Les plans CI/CD réutilisables standardisent la compilation, les tests, les vérifications de sécurité et les flux de travail de déploiement."
+        },
+        {
+          "title": "API de plateforme et libre-service",
+          "detail": "Les équipes fournissent des environnements et publient des infrastructures via des interfaces libre-service contrôlées."
+        },
+        {
+          "title": "Boucles de rétroaction de fiabilité",
+          "detail": "Les tendances des incidents, la santé des SLO et la télémétrie de déploiement informent les améliorations continues des processus et de l’architecture."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Notre architecture DevOps aligne la vitesse de livraison avec la gouvernance en automatisant les contrôles et en minimisant les tâches opérationnelles ponctuelles.",
+      "items": [
+        {
+          "title": "Tout comme code versionné",
+          "detail": "Les pipelines, l’infrastructure et les règles de politiques sont gérés en contrôle de version pour assurer l’auditabilité et la répétabilité."
+        },
+        {
+          "title": "Vérification progressive",
+          "detail": "Les vérifications de qualité, de sécurité et de performance sont réparties à plusieurs étapes pour détecter les risques plus tôt."
+        },
+        {
+          "title": "Responsabilité partagée de la plateforme",
+          "detail": "Les équipes de plateforme offrent des capacités de route pavée tandis que les équipes produit conservent la responsabilité de la livraison."
+        }
+      ]
+    },
+    "capabilities": [
+      "Conception de pipeline CI/CD",
+      "L’infrastructure en tant que code",
+      "Tests automatisés",
+      "Automatisation du déploiement",
+      "Surveillance et observabilité"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Quai",
+        "icon": "AzureDevOps"
+      },
+      {
+        "name": "GitHub Actions",
+        "category": "CI/CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Emballage",
+        "icon": "Helm"
+      },
+      {
+        "name": "Ansible",
+        "category": "Automatisation",
+        "icon": "ansible"
+      },
+      {
+        "name": "Prométhée",
+        "category": "Surveillance",
+        "icon": "Prométhée"
+      },
+      {
+        "name": "Grafana",
+        "category": "Observabilité",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Évaluation de la plateforme",
+        "summary": "Nous évaluons votre chaîne de livraison logicielle actuelle afin d’identifier les points de risque et les contraintes de vitesse.",
+        "deliverables": [
+          "Carte du flux de travail de livraison à l’état actuel",
+          "Analyse du goulot d’étranglement du pipeline",
+          "Feuille de route pour la maturité du DevOps cible"
+        ]
+      },
+      {
+        "title": "Construction de pipeline et d’automatisation",
+        "summary": "Nous mettons en place CI/CD fiables, des portes de qualité et une automatisation de l’infrastructure pour des versions cohérentes.",
+        "deliverables": [
+          "Modèles CI/CD réutilisables",
+          "Automatisation des infrastructures et de l’environnement",
+          "Tests automatisés et contrôles de libération"
+        ]
+      },
+      {
+        "title": "Exploiter et améliorer",
+        "summary": "Nous établissons des boucles d’observabilité et de gouvernance qui soutiennent l’amélioration de la livraison continue.",
+        "deliverables": [
+          "Surveillance des tableaux de bord et des politiques d’alerte",
+          "Publier des guides de gouvernance et d’incidents",
+          "Indicateurs et évaluations d’amélioration continue"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Accélérez votre livraison",
+      "description": "Réduisez les frictions dans les sorties et améliorez la fiabilité grâce à des pratiques DevOps matures.",
+      "button": "Transformez votre pipeline"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Transformation numérique et stratégie",
+      "description": "Conseil stratégique et soutien à l’exécution pour moderniser les plateformes, équipes et modèles opérationnels."
+    },
+    "sections": {
+      "problem": {
+        "title": "Encadrement des problèmes d’affaires",
+        "subtitle": "Là où les programmes de transformation perdent de l’élan et de la confiance des cadres"
+      },
+      "capabilities": {
+        "title": "Services de consultation",
+        "subtitle": "Orientation stratégique pour la réussite numérique"
+      },
+      "approach": {
+        "title": "Approche d’ingénierie",
+        "subtitle": "Comment traduire la stratégie en un changement exécutable et soutenu par la technologie"
+      },
+      "principles": {
+        "title": "Principes architecturaux",
+        "subtitle": "Modèles d’exploitation et choix de plateformes qui protègent les résultats de la transformation"
+      },
+      "technology": {
+        "title": "Pile technologique",
+        "subtitle": "Plateformes et cadres que nous utilisons pour opérationnaliser la transformation"
+      },
+      "breakdown": {
+        "title": "Défaillance du service",
+        "subtitle": "Transformation structurée de la définition de la stratégie à la valeur d’affaires mesurable"
+      }
+    },
+    "problem": {
+      "overview": "Les initiatives numériques commencent souvent avec une forte intention, mais ne se traduisent pas en résultats de livraison en raison d’une propriété incertaine, d’outils déconnectés et de priorités concurrentes.",
+      "painPointsTitle": "Douleurs récurrentes en affaires",
+      "impactSignalsTitle": "Ce que les dirigeants observent habituellement",
+      "painPoints": [
+        "Les feuilles de route de la transformation sont définies mais non traduites en gouvernance de mise en œuvre",
+        "Les priorités d’affaires et d’ingénierie divergent après les cycles de planification initiaux",
+        "Les modèles d’exploitation hérités bloquent l’adoption des pratiques modernes de livraison de produits"
+      ],
+      "impactSignals": [
+        "Les dépenses de programmes augmentent tandis que le mouvement stratégique des KPI demeure stable",
+        "Les initiatives manquent des points de transfert entre stratégie, architecture et exécution",
+        "Les équipes vivent une fatigue liée au changement avec une valeur commerciale réalisée limitée"
+      ]
+    },
+    "approach": {
+      "overview": "Nous combinons le conseil stratégique avec l’architecture de livraison, alignant la conception du modèle opérationnel, la capacité de la plateforme et le rythme d’exécution autour d’objectifs mesurables.",
+      "pillars": [
+        {
+          "title": "Priorisation des flux de valeur",
+          "detail": "Nous séquencons les initiatives en fonction de l’impact d’affaires mesurable et des contraintes de dépendance technique."
+        },
+        {
+          "title": "Conception du modèle opérationnel de cible",
+          "detail": "Les rôles, la gouvernance et les droits de décision sont définis pour soutenir une exécution plus rapide entre les équipes d’affaires et de technologie."
+        },
+        {
+          "title": "Gouvernance de la prestation de portefeuille",
+          "detail": "Le progrès de la transformation est géré par des points de contrôle liés aux KPI et des contrôles de risque au niveau du portefeuille."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Notre architecture de transformation met l’accent sur la modernisation progressive et la responsabilité claire, évitant les réécritures perturbatrices sans justification commerciale.",
+      "items": [
+        {
+          "title": "Alignement des capacités d’affaires",
+          "detail": "Les changements technologiques sont organisés autour de capacités qui correspondent directement aux revenus, à la qualité des services ou à l’efficacité des coûts."
+        },
+        {
+          "title": "Stratégie de plateforme composable",
+          "detail": "Les composants de la plateforme sont sélectionnés pour l’interopérabilité afin de soutenir la migration progressive et une adaptation plus rapide."
+        },
+        {
+          "title": "Gouvernance avec cadence de livraison",
+          "detail": "Les forums décisionnels et les points de contrôle sont intégrés dans des cycles de sprint et trimestriels, et ne sont pas traités comme des voies bureaucratiques distinctes."
+        }
+      ]
+    },
+    "capabilities": [
+      "Feuilles de route pour la transformation numérique",
+      "Développement de la stratégie technologique",
+      "Cadres d’adoption du nuage",
+      "Optimisation des procédés",
+      "Gestion du changement"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Fondation Cloud",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Plateforme de données",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Renseignement décisionnel",
+        "icon": "powerbi"
+      },
+      {
+        "name": "Plateforme de puissance",
+        "category": "Low-Code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Collaboration",
+        "icon": "MicrosoftSharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Alignement stratégique",
+        "summary": "Nous alignons les priorités de leadership et les objectifs numériques afin de créer une direction de transformation partagée.",
+        "deliverables": [
+          "Objectifs de transformation et critères de réussite",
+          "Évaluation de la maturité des capacités et de l’écart",
+          "Portefeuille d’initiatives priorisées"
+        ]
+      },
+      {
+        "title": "Plan d’exécution",
+        "summary": "Nous définissons le modèle d’exploitation cible, les normes d’architecture et la séquence d’implémentation par phases.",
+        "deliverables": [
+          "Modèle d’exploitation et conception de gouvernance",
+          "Normes technologiques et d’architecture des procédés",
+          "Feuille de route de mise en œuvre progressive"
+        ]
+      },
+      {
+        "title": "Changement et réalisation de la valeur",
+        "summary": "Nous favorisons l’adoption, suivons le mouvement des KPI et affinons les initiatives en fonction des résultats de livraison.",
+        "deliverables": [
+          "Plan d’adoption et d’habilitation",
+          "Cadence de mesure des KPI",
+          "Arriéré trimestriel d’optimisation"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Commencez votre parcours de transformation",
+      "description": "Naviguez dans le changement avec des priorités claires et des plans de livraison concrets.",
+      "button": "Séance de planification de la stratégie"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IdO et informatique en périphérie",
+      "description": "Systèmes connectés de l’appareil au nuage, avec pipelines de télémétrie et intelligence en périphérie à l’échelle industrielle."
+    },
+    "sections": {
+      "problem": {
+        "title": "Encadrement des problèmes d’affaires",
+        "subtitle": "Pourquoi les programmes d’appareils connectés ne parviennent pas à s’étendre au-delà des déploiements pilotes"
+      },
+      "approach": {
+        "title": "Approche d’ingénierie",
+        "subtitle": "Comment concevons des systèmes IoT sécurisés et fonctionnels, du firmware des appareils aux API cloud"
+      },
+      "principles": {
+        "title": "Principes architecturaux",
+        "subtitle": "Règles de conception du secteur du secteur du nuage pour la fiabilité, la latence et la gouvernance de flotte"
+      },
+      "capabilities": {
+        "title": "IoT Solutions",
+        "subtitle": "Connectez-vous, surveillez et optimisez vos appareils"
+      },
+      "technology": {
+        "title": "Pile technologique de l’IoT",
+        "subtitle": "Du matériel au nuage"
+      },
+      "breakdown": {
+        "title": "Défaillance du service",
+        "subtitle": "Comment nous livrons des systèmes connectés, des dispositifs en périphérie à l’intelligence infonuagique"
+      }
+    },
+    "problem": {
+      "overview": "Les initiatives IdO prouvent souvent leur faisabilité technique lors de projets pilotes, mais échouent à grande échelle en raison d’une connectivité peu fiable, de contrôles de flotte faibles et d’une mauvaise intégration avec les flux de travail d’affaires.",
+      "painPointsTitle": "Douleurs récurrentes en affaires",
+      "impactSignalsTitle": "Ce que les dirigeants observent habituellement",
+      "painPoints": [
+        "L’intégration des appareils et la gestion du cycle de vie demeurent manuelles et sujettes aux erreurs",
+        "Les pipelines de télémétrie produisent des données opérationnelles bruyantes, incomplètes ou retardées",
+        "Les mises à jour de commandes à distance et de micrologiciel introduisent des risques de sécurité et de sûreté"
+      ],
+      "impactSignals": [
+        "Les environnements pilotes réussissent, mais les délais de déploiement en production repoussent à plusieurs reprises",
+        "Les équipes d’opérations sur le terrain réagissent aux incidents sans visibilité prédictive",
+        "Les systèmes d’affaires ne peuvent pas consommer de manière fiable l’intelligence des dispositifs en temps réel"
+      ]
+    },
+    "approach": {
+      "overview": "Nous concevons les plateformes IdO comme des systèmes distribués contrôlés, combinant des normes d’exécution sécurisées en périphérie, l’ingestion événementielle et la gouvernance opérationnelle à l’échelle de la flotte.",
+      "pillars": [
+        {
+          "title": "Gestion sécurisée du cycle de vie des appareils",
+          "detail": "Le provisionnement, l’identité, la rotation des clés et les mises à jour du micrologiciel sont automatisés pour réduire les risques opérationnels."
+        },
+        {
+          "title": "Architecture de télémétrie pilotée par événements",
+          "detail": "Les pipelines de streaming normalisent, valident et acheminent les événements de l’appareil pour l’analyse et le contrôle quasi en temps réel."
+        },
+        {
+          "title": "Avion de contrôle des opérations de la flotte",
+          "detail": "La surveillance, l’alerte et les flux de travail de commandes à distance assurent une supervision fiable entre les ressources distribuées."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Notre architecture IdO équilibre les décisions de bordure à faible latence avec une gouvernance centralisée, une observabilité et une conformité en matière de sécurité.",
+      "items": [
+        {
+          "title": "Autonomie en périphérie avec la coordination du nuage",
+          "detail": "Les opérations locales critiques se poursuivent pendant la dégradation du réseau tout en synchronisant l’état avec les systèmes cloud lorsque cela est disponible."
+        },
+        {
+          "title": "Schémas d’événements contractés",
+          "detail": "Les équipes d’appareils et de plateformes utilisent des schémas gouvernés pour préserver la cohérence de la télémétrie entre les versions."
+        },
+        {
+          "title": "Sécurité des dispositifs zéro confiance",
+          "detail": "L’authentification mutuelle, le moindre privilège et le transport chiffré sont appliqués à chaque interaction avec l’appareil."
+        }
+      ]
+    },
+    "capabilities": [
+      "Gestion des dispositifs IdO",
+      "Solutions pour jumeaux numériques",
+      "Déploiement de l’informatique en périphérie",
+      "Télémétrie en temps réel",
+      "Maintenance prédictive"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "Jumeaux numériques",
+        "category": "Simulation",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "Informatique en périphérie",
+        "category": "Arête",
+        "icon": "Microsoft softazure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protocole",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protocole",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Matériel",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Framboise Pi",
+        "category": "Matériel",
+        "icon": "Raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Série Temporelle DB",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Stratégie de dispositif et d’arête",
+        "summary": "Nous définissons les patrons de connectivité, les normes d’exécution en périphérie et le provisionnement sécurisé pour les dispositifs de terrain.",
+        "deliverables": [
+          "Modèle d’intégration et de connectivité des appareils",
+          "Plan d’exécution et de déploiement en périphérie",
+          "Base de sécurité de la flotte"
+        ]
+      },
+      {
+        "title": "Télémétrie et plan de contrôle",
+        "summary": "Nous construisons des pipelines qui capturent des événements, modélisent les jumeaux numériques et permettent des flux de travail contrôlés à distance.",
+        "deliverables": [
+          "Ingestion en temps réel et conception de schémas d’événements",
+          "Mise en œuvre du jumeau numérique et du modèle d’actifs",
+          "Couche API de commande et de contrôle"
+        ]
+      },
+      {
+        "title": "Opérations et Échelle",
+        "summary": "Nous mettons en œuvre la gestion de flotte et les contrôles de fiabilité pour des environnements IoT à l’échelle de la production.",
+        "deliverables": [
+          "Surveillance et alerte de la flotte d’appareils",
+          "Maintenance prédictive et détection d’anomalies",
+          "Déploiement et plan de soutien au cycle de vie"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Connectez vos appareils",
+      "description": "Construisez des solutions IdO fiables prêtes pour les environnements de production réels.",
+      "button": "Commencez votre projet IdO"
+    }
+  }
+}

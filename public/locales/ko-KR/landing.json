@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "확장 가능한 공학 시스템",
+    "subtitle": "엔터프라이즈 소프트웨어 · AI 및 머신러닝 · 클라우드 인프라 · IoT 및 엣지",
+    "description": "지능형 자동화부터 클라우드 네이티브 플랫폼에 이르기까지, 우리는 야심찬 기업을 지원할 기술을 제때, 예산 내, 대규모로 설계하고 제공합니다.",
+    "cta": {
+      "primary": "프로젝트 시작",
+      "secondary": "우리의 작품을 보기"
+    },
+    "trustLine": "전 세계 기업들이 신뢰하는"
+  },
+  "services": {
+    "subtitle": "저희 서비스",
+    "title": "전면 스펙트럼 공학",
+    "description": "여섯 개의 실무 영역. 한 팀. 엣지 디바이스부터 엔터프라이즈 대시보드에 이르기까지 기술 스택의 모든 계층을 포함합니다.",
+    "commentMarker": "서비스",
+    "items": {
+      "customSoftware": {
+        "title": "맞춤형 소프트웨어 개발",
+        "description": "마이크로서비스, API, 클라우드 네이티브 아키텍처로 구축된 현대 애플리케이션."
+      },
+      "aiMl": {
+        "title": "인공지능, 머신러닝 및 비즈니스 인텔리전스",
+        "description": "AI/ML 파이프라인, Power BI 대시보드, 그리고 데이터를 의사결정으로 전환하는 고급 분석이 포함됩니다."
+      },
+      "cloud": {
+        "title": "클라우드 아키텍처 및 인프라",
+        "description": "컨테이너, 서버리스, 글로벌 확장성이 내장된 멀티클라우드 인프라."
+      },
+      "iot": {
+        "title": "IoT 및 엣지 컴퓨팅",
+        "description": "인더스트리 4.0을 위한 연결된 기기, 디지털 트윈, 엣지 컴퓨팅."
+      },
+      "devops": {
+        "title": "DevOps 및 플랫폼 엔지니어링",
+        "description": "CI/CD 파이프라인, 코드로서의 인프라, 그리고 커밋에서 프로덕션까지의 관측 가능성."
+      },
+      "digital": {
+        "title": "디지털 전환 및 컨설팅",
+        "description": "기술 전략, 현대화 로드맵, 그리고 실무 중심의 컨설팅."
+      }
+    },
+    "cta": {
+      "title": "진지한 무언가를 만들어 봅시다",
+      "description": "맞춤형 소프트웨어 개발과 AI 기반 솔루션부터 클라우드 인프라와 자동화에 이르기까지, 고객님의 요구에 맞춘 엔드 투 엔드 기술 서비스를 제공합니다.",
+      "primary": "프로젝트 시작",
+      "secondary": "일정 상담"
+    },
+    "learnMore": "더 알아보기"
+  },
+  "credibility": {
+    "subtitle": "우리의 실적은",
+    "title": "<gradient>약속</gradient>이 아니라 결과입니다",
+    "titlePlain": "약속이 아니라 결과입니다",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "사라예보에서 오슬로, 암스테르담, 베를린까지. 기업 시스템들은 매번 제때 배송을 제공했습니다.",
+    "stats": {
+      "experience": "연수 합산 경력",
+      "countries": "서비스 대상 국가",
+      "systems": "제공된 시스템",
+      "industries": "서비스 산업"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM for Atlas Copco",
+        "outcome": "Azure Kubernetes 기반 Atlas Copco용 최초의 클라우드 기반 One Identity 인프라를 설계하여 비용을 절감하고 기업 규정을 유지했습니다."
+      },
+      "orange": {
+        "label": "오렌지 사이버방어 플랫폼",
+        "outcome": "유럽 최고의 사이버보안 기업을 위해 Azure Kubernetes 인프라, CI/CD 파이프라인, 맞춤형 ServiceNow 통합을 개발했습니다."
+      },
+      "telecom": {
+        "label": "통신 GIS 및 AR 플랫폼",
+        "outcome": "독일 전역의 지하 유틸리티를 지도화하는 GIS 플랫폼을 구축했으며, 충돌 감지 기능을 통해 수백만 유로의 인프라 피해를 방지했습니다."
+      },
+      "iot": {
+        "label": "클라우드 IoT 및 엣지 플랫폼",
+        "outcome": "Azure IoT Hub는 수천 대의 장치를 관리하고, Synapse는 수십억 개의 텔레메트리 행을 처리하며, 엣지 집계는 메시지 비용을 ~90% 절감합니다."
+      },
+      "drone": {
+        "label": "자율 드론 플랫폼",
+        "outcome": "4G-to-Azure IoT 허브 브리지를 갖춘 맞춤형 비행 컨트롤러로 농업 모니터링과 탑재체 전달을 위한 자율 BVLOS 비행을 가능하게 합니다."
+      },
+      "payment": {
+        "label": "결제 시스템 구조",
+        "outcome": "노르웨이 모바일 앱용 실패한 결제 게이트웨이를 문서화되지 않은 레거시 코드를 역설계하여 구했습니다. 현대화 이후 결제 중단 시간은 전혀 없습니다."
+      },
+      "game": {
+        "label": "AAA 게임 개발 툴링",
+        "outcome": "3D 모델링과 애니메이션 시간을 50% 단축하는 Maya 플러그인을 주요 AAA 스튜디오에서 개발했으며, 제작 파이프라인의 표준 도구로 채택되었습니다."
+      },
+      "social": {
+        "label": "위치 기반 소셜 플랫폼",
+        "outcome": "스페인 밤문화 현장을 위한 건축된 데이팅 앱으로, 영국 고객을 위한 위치 매칭, 실시간 메시징, 푸시 알림을 제공합니다."
+      },
+      "iga": {
+        "label": "다중 테넌트 IGA 플랫폼",
+        "outcome": "기업 규모에서 포춘 500대 고객을 위한 맞춤형 ASP.NET 코어 아이덴티(NoSQL)를 위한 클라우드 네이티브 아이덴티티 거버넌스 플랫폼의 핵심 백엔드를 구축했습니다."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "EU 인접 글로벌 전달",
+        "description": "노르웨이, 네덜란드, 독일 등 다양한 지역에 걸쳐 근무 중인 CET 근무 시간을 보유하고 있습니다."
+      },
+      "yourEngineers": {
+        "title": "공급업체가 아니라 엔지니어들입니다",
+        "description": "업무 흐름과 도구에 전담 팀원들이 통합되어 있습니다. 계정 관리자도, 티켓 대기열도 없습니다."
+      },
+      "hardwareToCloud": {
+        "title": "하드웨어에서 클라우드로",
+        "description": "From embedded device firmware to enterprise Azure Synapse pipelines. 모든 계층에 걸쳐 풀스택 소프트웨어."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "기술 스택",
+    "title": "전투 검증된 <gradient>스택</gradient>",
+    "titlePlain": "전투 검증된 스택",
+    "commentMarker": "TECH_STACK",
+    "description": "우리는 단순히 이 도구들을 사용하는 것이 아니라, 생산 시스템에도 함께 출시했습니다. Microsoft Azure부터 Kubernetes까지, 저희 엔지니어들은 실제 세계의 전문 지식을 보유하고 있습니다.",
+    "categories": {
+      "cloudInfra": {
+        "label": "클라우드 및 인프라",
+        "description": "컨테이너 오케스트레이션과 인프라를 코드로 활용한 멀티클라우드 아키텍처."
+      },
+      "frontend": {
+        "label": "프론트엔드",
+        "description": "타입 안전성과 최적화된 빌드 툴링을 갖춘 최신 컴포넌트 프레임워크."
+      },
+      "backend": {
+        "label": "백엔드 및 API",
+        "description": "엔터프라이즈급 서버 플랫폼, 시스템 언어, 그리고 현대적인 API 패러다임."
+      },
+      "data": {
+        "label": "데이터 및 저장",
+        "description": "관계형, 문서형, 메모리 저장소와 전체 텍스트 검색이 가능합니다."
+      },
+      "devops": {
+        "label": "DevOps 및 툴링",
+        "description": "CI/CD 파이프라인, 버전 관리, 개발자 생산성 등이 있습니다."
+      }
+    },
+    "scanning": "주파수 탐색 중...",
+    "summary": {
+      "cloudNative": {
+        "title": "기본적으로 클라우드 네이티브",
+        "description": "모든 프로젝트는 컨테이너화되고, CI/CD 기반이며, 처음부터 수평적 규모로 설계되었습니다."
+      },
+      "fullStack": {
+        "title": "풀스택 유창성",
+        "description": "React 프론트엔드부터 .NET 마이크로서비스, 쿠버네티스 클러스터까지 — 한 팀, 종단 간 협업."
+      },
+      "productionProven": {
+        "title": "프로덕션 프로듀싱",
+        "description": "이것들은 데모 기술이 아닙니다. 나열된 각 도구는 오늘날 실제 사용자에게 서비스를 제공하는 실제 시스템을 구동합니다."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "기술 로고 1열",
+      "row2Aria": "기술 로고 2열",
+      "row3Aria": "기술 로고 3열"
+    }
+  },
+  "faq": {
+    "subtitle": "지식 기반",
+    "title": "자주 묻는 <gradient>질문</gradient>",
+    "titlePlain": "자주 묻는 질문",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Horizon Tech와 함께 일할 때 알아야 할 모든 것",
+    "items": {
+      "scope": {
+        "question": "업무 범위는 어떻게 되나요?",
+        "answer": "저희는 맞춤형 엔터프라이즈 소프트웨어, AI/ML 파이프라인, 클라우드 인프라, IoT 시스템, DevOps 자동화, 디지털 전환 컨설팅 등 종합 기술 프로젝트를 제공합니다. 처음부터 완전한 플랫폼을 구축해야 하든, 기존 스택과의 맞춤형 통합이 필요하든, 저희는 아키텍처, 개발, 테스트, 배포를 담당합니다."
+      },
+      "stack": {
+        "question": "핵심 기술 스택은 무엇인가요?",
+        "answer": "우리의 핵심 스택은 엔터프라이즈급 플랫폼을 중심으로 합니다: 클라우드는 Azure와 AWS, 백엔드는 .NET과 Node.js, 프론트엔드는 React와 Angular, 오케스트레이션은 Kubernetes와 Docker, 코드로는 인프라를 사용합니다. 또한 AI/ML 작업에는 파이썬, 비즈니스 인텔리전스를 위한 Power BI와 Fabric, 데이터 작업에는 PostgreSQL, SQL Server, MongoDB를 광범위하게 사용합니다."
+      },
+      "enterprise": {
+        "question": "기업 프로젝트를 어떻게 처리하시나요?",
+        "answer": "모든 참여는 범위, 아키텍처, 마일스톤을 정의하는 발견 단계에서 시작됩니다. 전담 팀과 기술 리드, 정기적인 마일스톤 검토, 그리고 시스템을 구축하는 엔지니어들과 직접 접근할 수 있습니다. 이해관계자 데모와 함께 애자일 스프린트를 추적하고, 투명한 프로젝트 보드를 유지하며, 주간 진행 상황 보고를 제공합니다."
+      },
+      "support": {
+        "question": "출시 후 지원은 어떻게 되나요?",
+        "answer": "우리는 24시간 모니터링, 사고 대응, 성능 최적화, 기능 반복 등 정의된 SLA가 있는 구조화된 지원 계층을 제공합니다. 저희 지원 계약은 버그 수정, 보안 패치, 인프라 확장, 사전 건강 점검 등을 포함하여 귀하의 가동 시간과 응답 시간 요구에 맞춰 맞춤화되어 있습니다."
+      },
+      "integration": {
+        "question": "기존 인프라와 통합할 수 있나요?",
+        "answer": "물론입니다. 저희는 레거시 현대화, API 우선 통합, 하이브리드 클라우드 마이그레이션을 전문으로 합니다. 온프레미스 ERP 시스템에 연결해야 하거나, 모놀리스에서 마이크로서비스로 마이그레이션하거나, 기존 데이터베이스를 최신 프론트엔드로 연결해야 할 때, 저희는 마이그레이션 플레이북과 통합 경험을 통해 이를 원활하게 만듭니다."
+      },
+      "industries": {
+        "question": "어떤 산업에서 일해보셨나요?",
+        "answer": "저희 팀은 핀테크, 헬스케어, 물류, 전자상거래, 에너지, 정부 부문 전반에 걸쳐 프로젝트를 수행해 왔습니다. 우리는 결제용 PCI-DSS, 건강 데이터에 대한 HIPAA 고려사항, EU 시장의 GDPR 준수, 산업용 IoT의 실시간 텔레메트리 등 업계별 요구사항을 이해하고 있습니다."
+      },
+      "engagement": {
+        "question": "참여 과정은 어떻게 진행되나요?",
+        "answer": "목표와 기술 환경을 이해하기 위한 디스커버리 콜에서 시작됩니다. 그 후, 아키텍처 권고안, 일정, 투자 내역이 포함된 범위 문서를 제공합니다. 승인이 완료되면 전담 팀과 시작하여 도구와 워크플로우에 온보딩하고 며칠 내에 첫 스프린트를 시작합니다."
+      }
+    },
+    "stillHaveQuestions": "아직 궁금한 점이 있으신가요?",
+    "ctaDescription": "생각하는 프로젝트가 있나요? 이제 범위, 일정, 예산에 대해 이야기해 봅시다.",
+    "readCaseStudies": "사례 연구 읽기",
+    "scheduleCall": "전화 예약하기"
+  }
+}

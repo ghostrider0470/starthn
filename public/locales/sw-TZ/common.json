@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Nyumbani",
+    "company": "Kampuni",
+    "solutions": "Ufumbuzi",
+    "resources": "Rasilimali",
+    "innovationLab": "Maabara ya Ubunifu",
+    "contact": "Wasiliana",
+    "about": {
+      "title": "Kuhusu",
+      "description": "Dhamira yetu, maono, na hadithi"
+    },
+    "team": {
+      "title": "Timu",
+      "description": "Kutana na watu walio nyuma ya Horizon Tech"
+    },
+    "careers": {
+      "title": "Kazi",
+      "description": "Jiunge na timu yetu na ujenge siku zijazo"
+    },
+    "enterpriseSoftware": {
+      "title": "Maendeleo ya Programu ya Biashara",
+      "description": "Maombi maalum ya biashara na mifumo ya kisasa"
+    },
+    "aiMl": {
+      "title": "AI, ML na Ujasusi wa Biashara",
+      "description": "Mabomba kamili ya AI/ML na dashibodi za BI"
+    },
+    "cloudArchitecture": {
+      "title": "Usanifu wa Wingu na Miundombinu",
+      "description": "Ufumbuzi wa wingu nyingi na upangaji wa kontena"
+    },
+    "iot": {
+      "title": "IoT & Edge Computing",
+      "description": "Mifumo ya ikolojia ya kifaa iliyounganishwa na mapacha ya dijiti"
+    },
+    "devops": {
+      "title": "Uhandisi wa DevOps na Jukwaa",
+      "description": "Mabomba ya CI/CD na miundombinu kama msimbo"
+    },
+    "digitalTransformation": {
+      "title": "Mabadiliko ya Dijiti na Mkakati",
+      "description": "Ramani za barabara za mabadiliko ya biashara na ushauri"
+    },
+    "caseStudies": {
+      "title": "Uchunguzi kifani",
+      "description": "Hadithi za mafanikio kutoka kwa wateja wetu",
+      "featured": {
+        "title": "Uchunguzi Kifani Ulioangaziwa",
+        "description": "Ingia kwa kina katika ushiriki kamili wa utoaji"
+      }
+    },
+    "blog": {
+      "title": "Blogi",
+      "description": "Maarifa, mafunzo, na mwenendo wa tasnia",
+      "featured": {
+        "title": "Chapisho la Blogi Iliyoangaziwa",
+        "description": "Soma moja ya maarifa yetu ya hivi karibuni ya uhandisi"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Muhtasari wa Maabara ya Ubunifu",
+      "description": "Tazama maeneo yote ya utafiti na nyimbo za majaribio"
+    },
+    "innovationLabAiSystems": {
+      "title": "Mifumo ya AI inayotumika",
+      "description": "Mifumo ya usanifu wa ujifunzaji wa mashine iliyo tayari"
+    },
+    "innovationLabNlp": {
+      "title": "NLP ya lugha nyingi",
+      "description": "Uwezo wa usindikaji wa lugha asilia unaoingiliana"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Uigaji wa Algorithm ya Maumbile",
+      "description": "Uboreshaji wa mageuzi katika mazingira shirikishi"
+    },
+    "navigation": "Urambazaji",
+    "skipToContent": "Ruka kwa yaliyomo",
+    "toggleMenu": "Geuza menyu",
+    "dashboard": "Dashibodi",
+    "myWorkspace": "Nafasi yangu ya kazi",
+    "profile": "Wasifu",
+    "adminPanel": "Jopo la Msimamizi",
+    "practiceManagement": "Usimamizi wa Mazoezi",
+    "logOut": "Ondoka",
+    "education": {
+      "title": "Rasilimali za kiufundi",
+      "description": "Miongozo, mafunzo, na mbinu bora kutoka kwa timu ya Horizon Tech"
+    },
+    "support": {
+      "title": "Kituo cha Msaada",
+      "description": "Pata usaidizi na huduma zetu za ukuzaji programu"
+    }
+  },
+  "footer": {
+    "description": "Uanzishaji wa ukuzaji wa programu ulioko Sarajevo, Bosnia. Tunaunda programu maalum, suluhu za AI/ML, usanifu wa wingu, na mifumo ya otomatiki.",
+    "features": "Vipengele",
+    "resources": "Rasilimali",
+    "company": "Kampuni",
+    "legal": "Kisheria",
+    "dashboard": "Dashibodi",
+    "components": "Vipengele",
+    "documentation": "Nyaraka",
+    "apiReference": "Rejea ya API",
+    "gettingStarted": "Kuanza",
+    "examples": "Mifano",
+    "community": "Jumuiya",
+    "blog": "Blogi",
+    "caseStudies": "Uchunguzi kifani",
+    "innovationLabOverview": "Muhtasari wa Maabara ya Ubunifu",
+    "appliedAiSystems": "Mifumo ya AI inayotumika",
+    "nlpDemo": "NLP ya lugha nyingi",
+    "geneticAlgorithmSimulation": "Uigaji wa Algorithm ya Maumbile",
+    "featuredBlogPost": "Chapisho la Blogi Iliyoangaziwa",
+    "featuredCaseStudy": "Uchunguzi Kifani Ulioangaziwa",
+    "about": "Kuhusu",
+    "contact": "Wasiliana",
+    "partners": "Washirika",
+    "careers": "Kazi",
+    "privacyPolicy": "Sera ya faragha",
+    "termsOfService": "Masharti ya Huduma",
+    "cookiePolicy": "Sera ya kuki",
+    "license": "Leseni",
+    "copyright": "© {{year}} Teknolojia ya Horizon. Haki zote zimehifadhiwa.",
+    "subscribe": "Jiandikishe kwa jarida"
+  },
+  "header": {
+    "badge": "Ufumbuzi wa Teknolojia ya Biashara",
+    "titleLine1": "Badilisha Biashara Yako na",
+    "titleLine2": "Teknolojia ya kisasa",
+    "description": "Kuanzia ukuzaji wa programu ya biashara na akili ya biashara inayoendeshwa na AI hadi miundombinu ya wingu na suluhu za IoT - tunatoa huduma za kina za teknolojia zinazochochea uvumbuzi na kuharakisha ukuaji.",
+    "getStarted": "Anza",
+    "exploreSolutions": "Chunguza suluhisho",
+    "trustedBy": "Inaaminika na makampuni ya kufikiria mbele",
+    "microsoftPartner": "Mshirika wa Microsoft",
+    "azureCertified": "Azure Imethibitishwa",
+    "enterpriseSolutions": "Ufumbuzi wa Biashara"
+  },
+  "mobileNav": {
+    "navigation": "Urambazaji wa rununu",
+    "home": "Nyumbani",
+    "solutions": "Ufumbuzi",
+    "caseStudies": "Kesi",
+    "aiSystems": "Maabara ya AI",
+    "blog": "Blogi",
+    "resources": "Rasilimali",
+    "contact": "Wasiliana"
+  },
+  "sideNav": {
+    "scroll": "Tembeza",
+    "navigateTo": "Nenda kwa {{section}}",
+    "sections": {
+      "home": "Nyumbani",
+      "solutions": "Ufumbuzi",
+      "credibility": "Uaminifu",
+      "partners": "Washirika",
+      "caseStudies": "Uchunguzi kifani",
+      "blog": "Blogi",
+      "innovationLab": "Maabara ya Ubunifu",
+      "faq": "Maswali"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Badilisha lugha",
+    "searchPlaceholder": "Lugha ya utafutaji...",
+    "noResults": "Hakuna lugha zilizopatikana."
+  },
+  "common": {
+    "menu": "Menyu",
+    "account": "Akaunti"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Uchunguzi wa hivi karibuni",
+      "description": "Muhtasari wa matokeo ya uwasilishaji katika fintech, huduma ya afya, vifaa, na programu za sekta ya umma.",
+      "cta": "Tazama Uchunguzi Wote"
+    },
+    "blog": {
+      "title": "Hivi karibuni kutoka kwa blogi yetu",
+      "description": "Vidokezo vya uhandisi vya vitendo kutoka kwa AI ya hivi majuzi, jukwaa, na kazi ya utoaji wa wingu.",
+      "cta": "Soma makala zote"
+    },
+    "innovationLab": {
+      "title": "Maabara ya Ubunifu",
+      "description": "Gundua prototypes, majaribio, na miradi ya R&D iliyotumika kutoka kwa timu ya uhandisi ya Horizon Tech.",
+      "cta": "Chunguza Maabara ya Ubunifu"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Soma Uchunguzi kifani",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Huduma ya afya",
+      "logistics": "Vifaa",
+      "manufacturing": "Utengenezaji",
+      "government": "Serikali"
+    }
+  },
+  "blogCard": {
+    "read": "Kusoma"
+  }
+}

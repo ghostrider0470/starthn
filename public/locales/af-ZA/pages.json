@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Oor ons",
+    "hero": {
+      "titlePrefix": "Bou van Môre se Tegnologie,",
+      "titleHighlight": "Vandag",
+      "description": "Horizon Tech d.o.o. is 'n wêreldwye tegnologiemaatskappy met sy hoofkantoor in Sarajevo, wat gevorderde sagteware-oplossings aan ondernemings oor drie kontinente lewer."
+    },
+    "sections": {
+      "mission": {
+        "title": "Missie",
+        "description": "Ons help organisasies om ambisieuse idees om te skakel in betroubare digitale produkte wat meetbare besigheidswaarde skep.",
+        "points": [
+          "Belyn tegnologielewering met duidelike besigheidsuitkomste.",
+          "Bou langtermynstelsels wat onderhoubaar bly soos spanne groei.",
+          "Werk nou saam met belanghebbendes van strategie tot uitvoering."
+        ]
+      },
+      "expertise": {
+        "title": "Kundigheid",
+        "description": "Ons multidissiplinêre spanne kombineer ingenieursdiepte met produkdenke oor moderne tegnologiestacks heen.",
+        "points": [
+          "Ondernemingsgraad web- en platformingenieurswese.",
+          "Wolkargitektuur, DevOps-outomatisering, en veerkragtige infrastruktuur.",
+          "Toegepaste KI/ML, datawerkvloeie, en IoT-aktiewe produkte."
+        ]
+      },
+      "approach": {
+        "title": "Benadering",
+        "description": "Ons voer uit met 'n deursigtige, iteratiewe model wat lewering voorspelbaar hou terwyl produkrisiko verminder word.",
+        "points": [
+          "Ontdek: definieer omvang, prioriteite en suksesmaatstawwe vroeg.",
+          "Bou: versend in gefokusde inkremente met deurlopende terugvoerlusse.",
+          "Optimaliseer: monitor uitkomste en verbeter prestasie oor tyd."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Gereed om jou besigheid te transformeer?",
+      "description": "Sluit aan by die groeiende lys maatskappye wat Horizon Tech vertrou om innoverende oplossings en uitsonderlike resultate te lewer.",
+      "primary": "Begin",
+      "secondary": "Sien Suksesverhale"
+    }
+  },
+  "contact": {
+    "badge": "Kontak ons",
+    "hero": {
+      "title": "Kontak Ons",
+      "description": "Het jy 'n projek in gedagte? Ons sal graag van jou wil hoor. Kontak ons om te bespreek hoe ons jou idees tot lewe kan bring."
+    },
+    "info": {
+      "title": "Kontakinligting"
+    },
+    "booking": {
+      "title": "Bespreek 'n Vergadering",
+      "description": "Skeduleer 'n gratis 30-minute ontdekkingsoproep"
+    },
+    "methods": {
+      "email": {
+        "title": "E-pos",
+        "description": "Stuur vir ons enige tyd 'n e-pos",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Ligging",
+        "description": "Gebaseer in",
+        "value": "Sarajevo, Bosnië en Herzegowina"
+      },
+      "response": {
+        "title": "Reaksietyd",
+        "description": "Ons reageer gewoonlik binne",
+        "value": "24-48 uur"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Nuwe Projek"
+      },
+      "support": {
+        "label": "Tegniese Ondersteuning"
+      },
+      "partnerships": {
+        "label": "Vennootskappe"
+      },
+      "careers": {
+        "label": "Loopbane"
+      },
+      "general": {
+        "label": "Algemene Ondersoek"
+      }
+    },
+    "form": {
+      "title": "Stuur vir ons 'n boodskap",
+      "success": "Dankie vir jou boodskap. Ons sal binne 24-48 uur terugkom na jou toe.",
+      "error": "Iets het verkeerd geloop. Probeer asseblief weer of stuur vir ons 'n e-pos direk.",
+      "fullName": "Volle Naam *",
+      "email": "E-posadres *",
+      "company": "Maatskappy",
+      "subject": "Onderwerp *",
+      "message": "Boodskap *",
+      "placeholders": {
+        "name": "Jou naam",
+        "email": "you@example.com",
+        "company": "Jou maatskappy",
+        "subject": "Waarmee kan ons help?",
+        "message": "Vertel ons van jou projek of navraag..."
+      },
+      "validation": {
+        "required": {
+          "name": "Volledige naam word vereis.",
+          "email": "E-posadres is nodig.",
+          "subject": "Kies asseblief 'n onderwerp.",
+          "message": "Boodskap is nodig."
+        },
+        "email": "Voer asseblief 'n geldige e-posadres in.",
+        "messageMinLength": "Die boodskap moet minstens {{count}} karakters lank wees."
+      },
+      "sending": "Stuur...",
+      "submit": "Stuur Boodskap"
+    },
+    "reasonsTitle": "Hoekom saam met ons werk?",
+    "reasons": [
+      "Volstapel-sagteware-ontwikkelingskundigheid",
+      "KI/ML- en wolkargitektuurspesialiste",
+      "Agile ontwikkeling met deursigtige kommunikasie",
+      "Langtermynondersteuning en instandhouding"
+    ],
+    "custom": {
+      "title": "Pasgemaakte Oplossings",
+      "description": "Op soek na 'n pasgemaakte oplossing? Ons werk nou saam met kliënte om unieke behoeftes te verstaan en pasgemaakte sagteware te lewer wat meetbare resultate lewer.",
+      "cta": "Bespreek jou projek"
+    },
+    "faq": {
+      "title": "Het jy meer vrae?",
+      "description": "Kyk gerus na ons FAQ-afdeling vir vinnige antwoorde",
+      "cta": "Blaai deur Vrae en Vrae"
+    }
+  },
+  "team": {
+    "badge": "Ons Span",
+    "hero": {
+      "titlePrefix": "Ontmoet die Gedagtes Agter",
+      "titleHighlight": "Horizon Tech",
+      "description": "'n Diverse span tegnoloë, ontwerpers en strategiste bou saam hoë-impak digitale produkte."
+    },
+    "section": {
+      "title": "Leierskapspan",
+      "description": "Die ervare leiers wat Horizon Tech se visie en groei lei"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Stigter, HUB & CTO",
+        "bio": "Visionêre leier en tegniese argitek met 10+ jaar in ondernemingsagteware, gespesialiseer in KI/ML, wolkplatforms en skaalbare produkargitektuur.",
+        "expertise": [
+          "KI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Oplossingsargitektuur",
+          "Wolkingenieurswese"
+        ]
+      },
+      "ahmet": {
+        "role": "Hoof Sekuriteitsargitek",
+        "bio": "Kuberveiligheidspesialis gefokus op ondernemingssekuriteitsargitektuur, veilige op-prem infrastruktuur, en nakoming-eerste lewering vir gereguleerde omgewings.",
+        "expertise": [
+          "Kuberveiligheid",
+          "On-Premises Stelsels",
+          "Sekuriteitsargitektuur",
+          "Nakoming",
+          "Infrastruktuursekuriteit"
+        ]
+      }
+    },
+    "aria": {
+      "email": "E-pos {{name}}",
+      "linkedin": "{{name}} LinkedIn-profiel"
+    },
+    "culture": {
+      "title": "Lewe by Horizon Tech",
+      "description": "Ons bevorder 'n kultuur van innovasie, samewerking en deurlopende leer",
+      "remoteFirst": {
+        "title": "Afgeleë Eerste Kultuur",
+        "description": "Werk van enige plek af met buigsame ure en fokus op resultate, nie ligging nie."
+      },
+      "collaborative": {
+        "title": "Samewerkende Omgewing",
+        "description": "Gereelde spangeleenthede, kennisdeelsessies en kruisfunksionele samewerking."
+      },
+      "workLife": {
+        "title": "Werk-Lewe-Balans",
+        "description": "Ruim vakansiebeleid, geestesgesondheidsondersteuning en respek vir persoonlike tyd."
+      },
+      "innovation": {
+        "title": "Innovasietyd",
+        "description": "20% tyd vir persoonlike projekte, hackathons en die verkenning van nuwe tegnologieë."
+      },
+      "stats": {
+        "teamMembers": "Spanlede",
+        "countries": "Lande",
+        "techStacks": "Tegnologie-stapels",
+        "remoteReady": "Afstandsgereedheid"
+      }
+    },
+    "cta": {
+      "title": "Wil jy by ons span aansluit?",
+      "description": "Ons is altyd op soek na talentvolle mense wat omgee vir vakmanskap, eienaarskap en innovasie.",
+      "button": "Kontak ons"
+    }
+  },
+  "careers": {
+    "badge": "Sluit aan by ons span",
+    "hero": {
+      "titlePrefix": "Bou die Toekoms",
+      "titleHighlight": "Met Ons",
+      "description": "Sluit aan by 'n span ingenieurs wat gevorderde sagteware vir wêreldwye kliënte bou. Werk op afstand, groei deurlopend, en maak werklike impak.",
+      "button": "Sien Posisies"
+    },
+    "process": {
+      "title": "Ons Aanstellingsproses",
+      "description": "Deursigtig, doeltreffend en respekvol teenoor jou tyd",
+      "steps": [
+        {
+          "title": "Doen aansoek",
+          "description": "Dien jou aansoek in en ons sal dit binne 3 werksdae hersien."
+        },
+        {
+          "title": "Aanvanklike Gesprek",
+          "description": "'n 30-minute video-oproep om jou ervaring en verwagtinge te bespreek."
+        },
+        {
+          "title": "Tegnies",
+          "description": "Tegniese onderhoud of praktiese oefening om jou vaardighede te wys."
+        },
+        {
+          "title": "Aanbod",
+          "description": "Ontmoet die span en ontvang jou aanbod om by Horizon Tech aan te sluit."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Oop Posisies",
+      "description": "Vind jou volgende geleentheid en sluit aan by ons groeiende span",
+      "unavailable": "Ek aanvaar tans nie aansoeke nie",
+      "apply": "Doen Nou Aansoek",
+      "noMatch": "Sien jy nie die perfekte rol nie?",
+      "sendCv": "Stuur vir ons jou CV",
+      "listings": [
+        {
+          "title": "Senior Volstapel Ingenieur",
+          "department": "Ingenieurswese",
+          "location": "Afgeleë (EU-tydsones)",
+          "type": "Voltyds",
+          "description": "Bou skaalbare ondernemingstoepassings met behulp van React, Node.js en wolktegnologieë.",
+          "tags": [
+            "Reageer",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps Ingenieur",
+          "department": "Ingenieurswese",
+          "location": "Sarajevo / Afgeleë",
+          "type": "Voltyds",
+          "description": "Ontwerp en onderhou CI/CD-pyplyne, infrastruktuur as kode, en moniteringstelsels.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "KI/ML Ingenieur",
+          "department": "Innovasielaboratorium",
+          "location": "Afstandbeheer",
+          "type": "Voltyds",
+          "description": "Ontwikkel masjienleermodelle en KI-oplossings vir ondernemingskliënte.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Produkontwerper",
+          "department": "Ontwerp",
+          "location": "Afstandbeheer",
+          "type": "Voltyds",
+          "description": "Skep pragtige, intuïtiewe gebruikerservarings vir komplekse ondernemingstoepassings.",
+          "tags": [
+            "Figma",
+            "Gebruikersnavorsing",
+            "UI/UX",
+            "Ontwerpstelsels"
+          ]
+        },
+        {
+          "title": "Oplossingsargitek",
+          "department": "Ingenieurswese",
+          "location": "Afstandbeheer",
+          "type": "Voltyds",
+          "description": "Ontwerp end-tot-end tegniese oplossings en lei kliënte deur digitale transformasie.",
+          "tags": [
+            "Wolkargitektuur",
+            "Stelselontwerp",
+            "Konsultasie"
+          ]
+        },
+        {
+          "title": "Tegniese Skrywer",
+          "department": "Bedrywighede",
+          "location": "Afstandbeheer",
+          "type": "Deeltyds",
+          "description": "Skep omvattende dokumentasie, handleidings en tegniese inhoud.",
+          "tags": [
+            "Dokumentasie",
+            "API Docs",
+            "Tegniese Skryfwerk"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Vrae oor werk hier?",
+      "description": "Ons sal graag van jou wil hoor. Kontak ons en ons sal enige vrae oor die lewe by Horizon Tech beantwoord.",
+      "button": "Kontak Ons"
+    }
+  },
+  "caseStudies": {
+    "badge": "Suksesverhale",
+    "hero": {
+      "titlePrefix": "Lewering van resultate wat",
+      "titleHighlight": "Materie",
+      "description": "Verken hoe ons maatskappye oor verskeie bedrywe gehelp het om bedrywighede te transformeer deur praktiese, hoë-impak tegnologie.",
+      "tags": {
+        "delivery": "Ingenieurslewering",
+        "outcomes": "Gemete Uitkomste"
+      }
+    },
+    "stats": {
+      "projects": "Projekte Gelewer",
+      "clients": "Gelukkige Kliënte",
+      "efficiency": "Gemiddelde doeltreffendheidswins",
+      "retention": "Kliëntbehoud"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Globale FinTech Korporasie",
+        "industry": "Finansiële Dienste",
+        "title": "Wolkmigrasie & Modernisering",
+        "description": "Ek het ouer bankstelsels na AWS-wolkinfrastruktuur gemigreer sonder enige stilstand.",
+        "challenge": "Legacy monolitiese argitektuur veroorsaak skaalbaarheidsprobleme",
+        "result": "Suksesvol na mikrodienste op AWS gemigreer",
+        "metrics": [
+          {
+            "label": "Kostevermindering",
+            "value": "40%"
+          },
+          {
+            "label": "Prestasiewins",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Mikrodienste",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech-oplossings",
+        "industry": "Gesondheidsorg",
+        "title": "KI-aangedrewe Diagnostiese Platform",
+        "description": "ML-modelle vir mediese beeldanalise met 95%+ akkuraatheid gebou.",
+        "challenge": "Handmatige diagnostiese prosesse neem te lank",
+        "result": "Outomatiese diagnostiek met KI/ML",
+        "metrics": [
+          {
+            "label": "Tyd bespaar",
+            "value": "70%"
+          },
+          {
+            "label": "Akkuraatheid",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "Reageer",
+          "Gesondheidsorg"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "E-handelsreus",
+        "industry": "Kleinhandel",
+        "title": "Real-Time Analytics Dashboard",
+        "description": "Het 'n BI-platform ontwikkel wat daagliks 10M+ gebeure verwerk.",
+        "challenge": "Geen intydse sigbaarheid in sleutelbesigheidsmaatstawwe nie",
+        "result": "Intydse analise- en insigplatform",
+        "metrics": [
+          {
+            "label": "Gebeurtenisse/Dag",
+            "value": "10M+"
+          },
+          {
+            "label": "Reaksietyd",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "Reageer",
+          "Data-ingenieurswese"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Gereed om jou suksesverhaal te skryf?",
+      "description": "Kom ons bespreek hoe ons jou kan help om soortgelyke uitkomste te bereik en met selfvertroue te skaal."
+    },
+    "filters": {
+      "title": "Nywerheidsfilter",
+      "all": "Alle Nywerhede",
+      "empty": "Geen gevallestudies stem ooreen met die gekose industrie-filter nie."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Insigte & Idees van",
+      "titleHighlight": "Horizon Tech",
+      "description": "Tegniese tutoriaal, bedryfsinsigte, en praktiese lesse uit werklike afleweringswerk."
+    },
+    "categories": [
+      "Alle plasings",
+      "Wolkargitektuur",
+      "DevOps",
+      "KI/ML",
+      "Frontend",
+      "Agterkant",
+      "Data"
+    ],
+    "featuredPost": {
+      "id": "Uitgelig",
+      "title": "Die Toekoms van Wolk-Inheemse Ontwikkeling: Tendense om in 2025 dop te hou",
+      "excerpt": "Verken die nuutste tendense in wolk-inheemse ontwikkeling, van bedienerlose argitekture tot randrekenaars.",
+      "author": {
+        "name": "Horizon Tech Redaksionele Redaksioneel"
+      },
+      "date": "15 Nov 2025",
+      "readTime": "8 min lees",
+      "category": "Wolkargitektuur",
+      "tags": [
+        "Wolk",
+        "Azure",
+        "Tendense"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Bou van Skaalbare Mikrodienste met Azure Kubernetes Service",
+        "excerpt": "'n Praktiese gids tot die argitektuur en implementering van mikrodienste met AKS.",
+        "author": {
+          "name": "Horizon Tech Redaksionele Redaksioneel"
+        },
+        "date": "12 November 2025",
+        "readTime": "6 min lees",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Mikrodienste",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Masjienleer in Produksie: Lesse Geleer",
+        "excerpt": "Veldgetoetste lesse van die implementering van ML-modelle op skaal.",
+        "author": {
+          "name": "Horizon Tech Redaksionele Redaksioneel"
+        },
+        "date": "10 Nov 2025",
+        "readTime": "10 min lees",
+        "category": "KI/ML",
+        "tags": [
+          "Masjienleer",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Wat is nuut en hoekom dit saak maak",
+        "excerpt": "'n Diepgaande duik in React 19-funksies en prestasie-implikasies.",
+        "author": {
+          "name": "Horizon Tech Redaksionele Redaksioneel"
+        },
+        "date": "8 Nov 2025",
+        "readTime": "5 min lees",
+        "category": "Frontend",
+        "tags": [
+          "Reageer",
+          "JavaScript",
+          "Webontwikkeling"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Teken in op ons Nuusbrief",
+      "description": "Kry die nuutste artikels, handleidings en insigte weekliks gelewer.",
+      "placeholder": "your.email@example.com",
+      "button": "Teken in",
+      "note": "Geen spam nie. Teken enige tyd af."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Ingenieursblog",
+        "description": "Veldnotas en praktiese patrone van spanne wat KI-produkte, ondernemingstelsels en betroubare wolkplatforms bou."
+      },
+      "filters": {
+        "postsInView": "{{count}} plasings in sig"
+      },
+      "featured": {
+        "badge": "Nuutste",
+        "readCta": "Lees die uitgeligte plasing"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Laai profiel...",
+    "title": "Profielinstellings",
+    "subtitle": "Bestuur jou rekeninginstellings en voorkeure",
+    "photoButton": "Verander Foto",
+    "tabs": {
+      "general": "Algemeen",
+      "security": "Sekuriteit",
+      "preferences": "Voorkeure"
+    },
+    "messages": {
+      "profileUpdated": "Profiel suksesvol opgedateer",
+      "profileUpdateFailed": "Het nie die profiel opgedateer nie",
+      "passwordsNoMatch": "Nuwe wagwoorde stem nie ooreen nie",
+      "passwordTooShort": "Die wagwoord moet minstens 8 karakters lank wees",
+      "passwordChanged": "Wagwoord suksesvol verander",
+      "passwordChangeFailed": "Het nie die wagwoord verander nie",
+      "optedOut": "Afgemeld van praktykverslae",
+      "optedIn": "Het ingestem om oefenverslae te doen",
+      "optOutFailed": "Het nie die opt-out status opgedateer nie"
+    },
+    "general": {
+      "title": "Persoonlike inligting",
+      "description": "Werk jou persoonlike besonderhede en kontakbesonderhede op",
+      "firstName": "Voornaam",
+      "firstNamePlaceholder": "John",
+      "lastName": "Van",
+      "lastNamePlaceholder": "Doe",
+      "email": "E-posadres",
+      "emailNotice": "E-pos kan nie verander word nie. Kontak ondersteuning as jy hulp nodig het.",
+      "phone": "Telefoonnommer",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Stoor Veranderings"
+    },
+    "security": {
+      "title": "Sekuriteitsinstellings",
+      "description": "Bestuur jou wagwoord en sekuriteitsvoorkeure",
+      "currentPassword": "Huidige wagwoord",
+      "currentPasswordPlaceholder": "Voer huidige wagwoord in",
+      "newPassword": "Nuwe wagwoord",
+      "newPasswordPlaceholder": "Voer nuwe wagwoord in",
+      "confirmPassword": "Bevestig Nuwe Wagwoord",
+      "confirmPasswordPlaceholder": "Bevestig nuwe wagwoord",
+      "passwordHint": "Moet minstens 8 karakters lank wees",
+      "changePassword": "Verander wagwoord"
+    },
+    "preferences": {
+      "title": "Kennisgewingvoorkeure",
+      "description": "Beheer hoe jy opdaterings en kennisgewings ontvang",
+      "email": {
+        "title": "E-poskennisgewings",
+        "description": "Ontvang opdaterings en waarskuwings per e-pos"
+      },
+      "sms": {
+        "title": "SMS-kennisgewings",
+        "description": "Ontvang belangrike kennisgewings via teksboodskap"
+      },
+      "optOut": {
+        "title": "Onttrek Uit Praktykverslae",
+        "description": "Verberg jou verslae vir die praktykeienaar"
+      },
+      "actions": {
+        "title": "Rekeningaksies",
+        "downloadData": "Laai rekeningdata af",
+        "deleteAccount": "Verwyder Rekening"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Terug huis toe",
+    "title": "Ondersteuningsentrum",
+    "subtitle": "Kry hulp met ons sagteware-ontwikkelingsdienste",
+    "cards": {
+      "email": {
+        "title": "E-posondersteuning",
+        "description": "Stuur vir ons 'n e-pos vir enige navrae"
+      },
+      "project": {
+        "title": "Projeknavrae",
+        "description": "Bespreek jou projekvereistes",
+        "button": "Kontak Ons"
+      },
+      "resources": {
+        "title": "Hulpbronne",
+        "description": "Tegniese hulpbronne en gidse",
+        "button": "Sien Hulpbronne"
+      }
+    },
+    "faqTitle": "Gereelde Vrae",
+    "faqDescription": "Vinnige antwoorde op algemene vrae",
+    "faqs": [
+      {
+        "question": "Watter dienste bied Horizon Tech aan?",
+        "answer": "Ons bied pasgemaakte sagteware-ontwikkeling, KI/ML-oplossings, wolkargitektuur, DevOps, besigheidsintelligensie en IoT-dienste."
+      },
+      {
+        "question": "Hoe begin ek 'n projek met Horizon Tech?",
+        "answer": "Kontak ons via 'n vorm of e-pos met jou vereistes. Ons sal 'n ontdekkingsoproep skeduleer en 'n voorstel deel."
+      },
+      {
+        "question": "Bied jy deurlopende ondersteuning en instandhouding?",
+        "answer": "Ja. Ons bied ondersteunings- en instandhoudingspakkette wat foutoplossings, sekuriteitsopdaterings en funksieverbeterings insluit."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Terug huis toe",
+    "title": "Tegniese Hulpbronne",
+    "subtitle": "Gidse, handleidings en beste praktyke van die Horizon Tech-span",
+    "hub": {
+      "title": "Leersentrum",
+      "description": "Verken ons gekeurde tegniese hulpbronne oor wolk, KI/ML, DevOps en moderne sagteware-ontwikkeling.",
+      "note": "Hierdie materiaal is gebaseer op werklike projekervaring en word gereeld opgedateer."
+    },
+    "categories": [
+      {
+        "icon": "Wolk",
+        "title": "Wolkargitektuur",
+        "description": "Azure, AWS en wolk-inheemse patrone",
+        "resources": [
+          {
+            "title": "Azure Argitektuur Beste Praktyke",
+            "type": "Gids"
+          },
+          {
+            "title": "Wolkmigrasiestrategieë",
+            "type": "Artikel"
+          }
+        ]
+      },
+      {
+        "icon": "brein",
+        "title": "KI & Masjienleer",
+        "description": "ML-modelle, datawetenskap en KI-integrasie",
+        "resources": [
+          {
+            "title": "Inleiding tot Azure ML",
+            "type": "Tutoriaal"
+          },
+          {
+            "title": "Bou van Produksie ML-pyplyne",
+            "type": "Gids"
+          }
+        ]
+      },
+      {
+        "icon": "Omgewings",
+        "title": "DevOps & Platform",
+        "description": "CI/CD, infrastruktuur as kode, outomatisering",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Tutoriaal"
+          },
+          {
+            "title": "Infrastruktuur as Kode met Terraform",
+            "type": "Gids"
+          }
+        ]
+      },
+      {
+        "icon": "Kode",
+        "title": "Sagteware-ontwikkeling",
+        "description": ".NET, React, en moderne ontwikkelingspraktyke",
+        "resources": [
+          {
+            "title": "Skoon Argitektuur in .NET",
+            "type": "Gids"
+          },
+          {
+            "title": "React Beste Praktyke",
+            "type": "Artikel"
+          }
+        ]
+      },
+      {
+        "icon": "databasis",
+        "title": "Data & Analise",
+        "description": "BI, datawarehousing, en analitiese platforms",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Ontwerp",
+            "type": "Tutoriaal"
+          },
+          {
+            "title": "Datawarehuis Argitektuur",
+            "type": "Gids"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Het jy pasgemaakte opleiding nodig?",
+      "description": "Ons bied op maat gemaakte werksessies vir ingenieurs- en produkspanne aan",
+      "text": "Het jy praktiese spanopleiding nodig? Ons bied pasgemaakte werksessies aan oor wolkargitektuur, DevOps en moderne leweringspraktyke.",
+      "button": "Kontak ons"
+    }
+  },
+  "unauthorized": {
+    "title": "Toegang Geweier",
+    "description": "Jy het nie toestemming om toegang tot hierdie bladsy te kry nie. Kontak jou administrateur as jy dink dit is 'n fout.",
+    "primary": "Gaan na Profiel",
+    "secondary": "Terug huis toe"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Plasing nie gevind nie",
+      "description": "Daar bestaan geen blogpos vir slug nie: {{slug}}",
+      "back": "Terug na blog"
+    },
+    "back": "Terug na blog",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Gevallestudie nie gevind nie",
+      "description": "Geen gevallestudie bestaan vir id: {{id}}",
+      "back": "Terug na gevallestudies"
+    },
+    "back": "Terug na gevallestudies",
+    "sections": {
+      "executiveSummary": "Uitvoerende Opsomming",
+      "businessChallenge": "Besigheidsuitdaging",
+      "technicalSolution": "Tegniese Oplossing",
+      "architectureDecisions": "Argitektuurbesluite",
+      "technologyStack": "Tegnologiestapel",
+      "resultsImpact": "Resultate & Impak"
+    },
+    "client": "Kliënt",
+    "keyOutcomes": "Sleuteluitkomste",
+    "decision": "Besluit {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Sein verlore",
+      "title": "Bladsy Nie Gevind Nie",
+      "description": "Die roete wat jy versoek het, bestaan nie of het verskuif nie. Kom ons kry jou terug na 'n geldige Horizon Tech-eindpunt.",
+      "requestedPath": "Versoekte pad",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Oplossing van roetegrafiek... misluk",
+        "line2": "Rede: geen ooreenstemmende roete-module nie",
+        "line3": "Terugvalprotokol geaktiveer",
+        "line4": "Gebruik een van die kortpaaie hieronder om voort te gaan"
+      },
+      "links": {
+        "home": "Tuisblad",
+        "services": "Dienste",
+        "blog": "Blog",
+        "caseStudies": "Gevallestudies"
+      }
+    },
+    "runtime": {
+      "badge": "Uitvoeringsfout",
+      "title": "Iets het op hierdie bladsy gebreek",
+      "description": "'n Onverwagte probleem het die rendering onderbreek. Jy kan veilig weer probeer, of terugkeer na die tuisblad.",
+      "retry": "Herpoging",
+      "home": "Terug na die tuisblad",
+      "unknown": "Onbekende looptydfout"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Blogbestuur",
+      "subtitle": "Skep, redigeer en bestuur jou blogplasings",
+      "newPost": "Nuwe Pos",
+      "seedData": "Saaddata",
+      "allPosts": "Alle plasings",
+      "published": "Gepubliseer",
+      "draft": "Konsep",
+      "featured": "Uitgelig",
+      "setFeatured": "Stel Uitgelig",
+      "removeFeatured": "Verwyder Uitgeligte",
+      "table": {
+        "title": "Titel",
+        "category": "Kategorie",
+        "status": "Status",
+        "date": "Datum",
+        "actions": "Aksies"
+      },
+      "empty": {
+        "message": "Nog geen blogplasings nie. Skep jou eerste plasing of saadmonsterdata.",
+        "seed": "Saadmonsterdata",
+        "create": "Skep Plasing"
+      },
+      "delete": {
+        "title": "Verwyder Plasing",
+        "confirmation": "Is jy seker jy wil hierdie plasing uitvee? Hierdie aksie kan nie ongedaan gemaak word nie.",
+        "delete": "Verwyder",
+        "cancel": "Kanselleer"
+      }
+    },
+    "editor": {
+      "bannerHint": "Vertoon as 'n breë banier bo-aan die paal",
+      "bannerImage": "Banierbeeld",
+      "coverHint": "Vertoon in bloglyskaarte",
+      "coverImage": "Omslagbeeld",
+      "editSlug": "Wysig slug",
+      "posts": "Poste",
+      "publish": "Publiseer",
+      "update": "Opdatering",
+      "form": {
+        "contentPlaceholder": "Skryf jou plasinginhoud hier...",
+        "excerptPlaceholder": "Kort opsomming van die plasing...",
+        "pickDate": "Kies 'n datum",
+        "readTimePlaceholder": "bv. 5 minute lees",
+        "titlePlaceholder": "Postitel..."
+      },
+      "meta": {
+        "publisher": "Uitgewer",
+        "unknownAuthor": "Onbekende skrywer"
+      },
+      "modes": {
+        "edit": "Wysig",
+        "editOnly": "Slegs redigering",
+        "preview": "Voorskou",
+        "previewOnly": "Slegs Voorskou",
+        "sideBySide": "Langs mekaar",
+        "split": "Skeuring"
+      },
+      "tags": {
+        "heading": "Etikette",
+        "placeholder": "Voeg 'n etiket by..."
+      },
+      "translations": {
+        "auto": "Motor",
+        "autoTranslate": "Outovertaling",
+        "clear": "Duidelik",
+        "existing": "Bestaande",
+        "heading": "Vertalings",
+        "language": "Taal",
+        "languages": "Tale",
+        "edit": "Wysig",
+        "manual": "Handleiding",
+        "preview": "Voorskou",
+        "searchPlaceholder": "Soek tale...",
+        "translate": "Vertaal"
+      }
+    },
+    "caseStudies": {
+      "title": "Gevallestudies",
+      "subtitle": "Bestuur gevallestudies en projekvertonings",
+      "newCaseStudy": "Nuwe gevallestudie",
+      "seedData": "Saaddata",
+      "allCaseStudies": "Alle gevallestudies",
+      "published": "Gepubliseer",
+      "draft": "Konsep",
+      "table": {
+        "title": "Titel",
+        "industry": "Nywerheid",
+        "client": "Kliënt",
+        "status": "Status",
+        "actions": "Aksies"
+      },
+      "empty": {
+        "message": "Nog geen gevallestudies nie.",
+        "seed": "Saaddata",
+        "create": "Skep eers"
+      },
+      "delete": {
+        "title": "Verwyder gevallestudie",
+        "confirmation": "Is jy seker jy wil hierdie gevallestudie uitvee? Hierdie aksie kan nie ongedaan gemaak word nie.",
+        "delete": "Verwyder",
+        "cancel": "Kanselleer"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Gevallestudies",
+      "published": "Gepubliseer",
+      "draft": "Konsep",
+      "update": "Opdatering",
+      "create": "Skep",
+      "sections": {
+        "basicInfo": "Basiese inligting",
+        "narrative": "Narratief",
+        "architectureDecisions": "Argitektuurbesluite",
+        "techStack": "Tegnologiestapel",
+        "results": "Resultate",
+        "tags": "Etikette"
+      },
+      "fields": {
+        "title": "Titel",
+        "titlePlaceholder": "Gevallestudie-titel",
+        "slug": "Slak",
+        "slugPlaceholder": "outo-gegenereer-van-titel",
+        "client": "Kliënt",
+        "clientPlaceholder": "Kliëntnaam",
+        "industry": "Nywerheid",
+        "industryPlaceholder": "Geselekteerde bedryf",
+        "description": "Beskrywing",
+        "descriptionPlaceholder": "Kort beskrywing (op kaarte getoon)",
+        "executiveSummary": "Uitvoerende Opsomming",
+        "executiveSummaryPlaceholder": "Hoëvlak-oorsig van die geveg",
+        "challenge": "Uitdaging",
+        "challengePlaceholder": "Watter probleem het die kliënt in die gesig gestaar?",
+        "solution": "Oplossing",
+        "solutionPlaceholder": "Hoe is die probleem opgelos?",
+        "decision": "Beslissing",
+        "decisionPlaceholder": "Wat is besluit",
+        "rationale": "Rasionaal",
+        "rationalePlaceholder": "Waarom hierdie benadering gekies is",
+        "metric": "Metriek",
+        "metricPlaceholder": "bv. Vestigingslatensie",
+        "value": "Waarde",
+        "valuePlaceholder": "bv. -63% of 4.8h -> 11m",
+        "resultDescription": "Beskrywing",
+        "resultDescriptionPlaceholder": "Wat hierdie resultaat beteken",
+        "techPlaceholder": "Voeg tegnologie by (druk Enter)",
+        "tagPlaceholder": "Voeg tag by (druk Enter)"
+      },
+      "add": "Voeg by",
+      "noArchDecisions": "Nog geen argitektuurbesluite bygevoeg nie.",
+      "noResults": "Nog geen resultate bygevoeg nie.",
+      "decisionLabel": "Besluit {{number}}",
+      "resultLabel": "Resultaat {{number}}",
+      "controls": {
+        "published": "Gepubliseer",
+        "publishedDescription": "Maak hierdie gevallestudie publiek sigbaar",
+        "featured": "Uitgelig",
+        "featuredDescription": "Beklemtoon hierdie gevallestudie"
+      }
+    },
+    "imageCrop": {
+      "apply": "Doen aansoek",
+      "cancel": "Kanselleer",
+      "cropTitle": "Snybeeld",
+      "dropText": "Laat 'n beeld hier val of klik om op te laai",
+      "flipHorizontal": "Draai horisontaal om",
+      "flipVertical": "Flip vertikale",
+      "replace": "Vervang",
+      "reset": "Herstel",
+      "rotateLeft": "Draai links",
+      "rotateRight": "Draai regs",
+      "uploading": "Laai op...",
+      "toast": {
+        "invalidFile": "Ongeldige lêer",
+        "invalidFileDesc": "Laai asseblief 'n geldige beeldlêer op.",
+        "uploadFailed": "Oplaai het misluk",
+        "uploadFailedDesc": "Iets het verkeerd geloop. Probeer asseblief weer.",
+        "uploaded": "Beeld opgelaai",
+        "uploadedDesc": "Jou beeld is suksesvol opgelaai."
+      }
+    }
+  }
+}

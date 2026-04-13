@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Ingeniørsystemer som skalerer",
+    "subtitle": "Bedriftsprogramvare · AI og maskinlæring · Skyinfrastruktur · IoT & Edge",
+    "description": "Fra intelligent automatisering til skybaserte plattformer, arkitekterer og leverer vi teknologien som driver ambisiøse virksomheter — i tide, på budsjett, i stor skala.",
+    "cta": {
+      "primary": "Start et prosjekt",
+      "secondary": "Se vårt arbeid"
+    },
+    "trustLine": "Betrodd av selskaper over hele verden"
+  },
+  "services": {
+    "subtitle": "Våre tjenester",
+    "title": "Fullspektrum-ingeniørfag",
+    "description": "Seks praksisområder. Ett lag. Hvert lag i teknologistakken din – fra edge-enheter til bedriftsdashbord.",
+    "commentMarker": "TJENESTER",
+    "items": {
+      "customSoftware": {
+        "title": "Skreddersydd programvareutvikling",
+        "description": "Moderne applikasjoner bygget med mikrotjenester, API-er og skybasert arkitektur."
+      },
+      "aiMl": {
+        "title": "AI, ML og forretningsintelligens",
+        "description": "AI/ML-pipelines, Power BI-dashbord og avansert analyse som gjør data om til beslutninger."
+      },
+      "cloud": {
+        "title": "Skyarkitektur og infrastruktur",
+        "description": "Multi-sky-infrastruktur med containere, serverløs og global skalerbarhet innebygd."
+      },
+      "iot": {
+        "title": "IoT og Edge Computing",
+        "description": "Tilkoblede enheter, digitale tvillinger og edge computing for Industri 4.0."
+      },
+      "devops": {
+        "title": "DevOps og plattformutvikling",
+        "description": "CI/CD-pipelines, infrastruktur som kode, og observabilitet fra commit til produksjon."
+      },
+      "digital": {
+        "title": "Digital transformasjon og rådgivning",
+        "description": "Teknologistrategi, moderniseringsveikart og praktisk rådgivning."
+      }
+    },
+    "cta": {
+      "title": "La oss bygge noe seriøst",
+      "description": "Fra skreddersydd programvareutvikling og AI-drevne løsninger til skyinfrastruktur og automatisering – vi leverer end-to-end teknologitjenester tilpasset dine behov.",
+      "primary": "Start prosjektet ditt",
+      "secondary": "Avtale konsultasjon"
+    },
+    "learnMore": "Lær mer"
+  },
+  "credibility": {
+    "subtitle": "Vår merittliste",
+    "title": "Resultater, ikke <gradient>løfter</gradient>",
+    "titlePlain": "Resultater, ikke løfter",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "Fra Sarajevo til Oslo, Amsterdam og Berlin. Bedriftssystemer leverte i tide, hver gang.",
+    "stats": {
+      "experience": "År med samlet erfaring",
+      "countries": "Land som betjenes",
+      "systems": "Leverte systemer",
+      "industries": "Industrier som betjenes"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM for Atlas Copco",
+        "outcome": "Arkitekterte den aller første skybaserte One Identity-infrastrukturen for Atlas Copco på Azure Kubernetes, og reduserte kostnader samtidig som bedrifts-compliance ble opprettholdt."
+      },
+      "orange": {
+        "label": "Oransje Cyberdefense-plattform",
+        "outcome": "Utviklet Azure Kubernetes-infrastruktur, CI/CD-pipelines og tilpasset ServiceNow-integrasjon for Europas ledende cybersikkerhetsselskap."
+      },
+      "telecom": {
+        "label": "Telecom GIS- og AR-plattform",
+        "outcome": "Bygde GIS-plattform som kartlegger underjordiske forsyninger over hele Tyskland med kollisjonsdeteksjon som forhindrer infrastrukturskader verdt flere millioner euro."
+      },
+      "iot": {
+        "label": "Sky-IoT og Edge-plattform",
+        "outcome": "Azure IoT Hub håndterer tusenvis av enheter, Synapse behandler milliarder av telemetrirader, med edge-aggregering som reduserer meldingskostnadene med ~90 %."
+      },
+      "drone": {
+        "label": "Autonom droneplattform",
+        "outcome": "Tilpasset flykontroller med 4G-til-Azure IoT Hub-bro som muliggjør autonome BVLOS-flyvninger for landbruksovervåking og levering av nyttelast."
+      },
+      "payment": {
+        "label": "Redning av betalingssystemet",
+        "outcome": "Reddet feilende betalingsgateway for norsk mobilapp ved å reversere udokumentert gammel kode. Null betalingsnedetid etter moderniseringen."
+      },
+      "game": {
+        "label": "AAA spillutviklingsverktøy",
+        "outcome": "Bygde Maya-plugin som kuttet 3D-modellering og animasjonstid med 50 % hos et stort AAA-studio, og ble tatt i bruk som standardverktøy i produksjonsprosessen."
+      },
+      "social": {
+        "label": "Stedsbasert sosial plattform",
+        "outcome": "Utviklet datingapp for Spanias uteliv med geolokasjonsmatching, sanntidsmeldinger og push-varsler for en britisk kunde."
+      },
+      "iga": {
+        "label": "Multi-Tenant IGA-plattform",
+        "outcome": "Bygde kjerne-backend for en skybasert identitetsstyringsplattform som betjener Fortune 500-kunder med skreddersydd ASP.NET Core Identity for NoSQL på bedriftsnivå."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "EU-tilknyttet, global levering",
+        "description": "CET arbeidstimer med erfaring som spenner over Norge, Nederland, Tyskland og videre."
+      },
+      "yourEngineers": {
+        "title": "Dine ingeniører, ikke en leverandør",
+        "description": "Dedikerte teammedlemmer integrert i arbeidsflyten og verktøyene dine. Ingen kontoadministratorer, ingen billettkøer."
+      },
+      "hardwareToCloud": {
+        "title": "Maskinvare til skyen",
+        "description": "Fra innebygd enhetsfirmware til Enterprise Azure Synapse-pipelines. Fullstack-programvare på alle lag."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Teknologistakk",
+    "title": "Kamptestet <gradient>stack</gradient>",
+    "titlePlain": "Kamptestet stack",
+    "commentMarker": "TECH_STACK",
+    "description": "Vi bruker ikke bare disse verktøyene — vi har levert produksjonssystemer med dem. Fra Microsoft Azure til Kubernetes har våre ingeniører praktisk erfaring.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Sky og infrastruktur",
+        "description": "Multi-skyarkitektur med containerorkestrering og infrastruktur som kode."
+      },
+      "frontend": {
+        "label": "Frontend",
+        "description": "Moderne komponentrammeverk med typesikkerhet og optimaliserte byggeverktøy."
+      },
+      "backend": {
+        "label": "Backend og API-er",
+        "description": "Serverplattformer på bedriftsnivå, systemspråk og moderne API-paradigmer."
+      },
+      "data": {
+        "label": "Data og lagring",
+        "description": "Relasjons-, dokument- og minnelagring med fulltekstsøk."
+      },
+      "devops": {
+        "label": "DevOps og verktøy",
+        "description": "CI/CD-pipelines, versjonskontroll og utviklerproduktivitet."
+      }
+    },
+    "scanning": "SKANNER FREKVENSER...",
+    "summary": {
+      "cloudNative": {
+        "title": "Sky-native som standard",
+        "description": "Hvert prosjekt er containerisert, CI/CD-drevet, og bygget for horisontal skala fra dag én."
+      },
+      "fullStack": {
+        "title": "Fullstack-flyt",
+        "description": "Fra React-frontends til .NET-mikrotjenester til Kubernetes-klynger — ett team, ende-til-ende."
+      },
+      "productionProven": {
+        "title": "Produksjonsbevist",
+        "description": "Dette er ikke demo-teknologier. Hvert verktøy som er listet driver ekte systemer som i dag betjener ekte brukere."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Teknologilogoer rad 1",
+      "row2Aria": "Teknologilogoer rad 2",
+      "row3Aria": "Teknologilogoer rad 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Kunnskapsbase",
+    "title": "Ofte stilte <gradient>spørsmål</gradient>",
+    "titlePlain": "Ofte stilte spørsmål",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Alt du trenger å vite om å jobbe med Horizon Tech",
+    "items": {
+      "scope": {
+        "question": "Hva er ditt arbeidsområde?",
+        "answer": "Vi leverer helhetlige teknologiprosjekter: skreddersydd bedriftsprogramvare, AI/ML-pipelines, skyinfrastruktur, IoT-systemer, DevOps-automatisering og digital transformasjonsrådgivning. Enten du trenger en full plattform bygget fra bunnen av eller en målrettet integrasjon med din eksisterende stack, håndterer vi arkitektur, utvikling, testing og distribusjon."
+      },
+      "stack": {
+        "question": "Hva er din kjerneteknologistack?",
+        "answer": "Vår kjernestack fokuserer på enterprise-plattformer: Azure og AWS for skyen, .NET og Node.js for backend, React og Angular for frontend, Kubernetes og Docker for orkestrering, og Terraform for infrastruktur som kode. Vi jobber også mye med Python for AI/ML-arbeidsbelastninger, Power BI og Fabric for business intelligence, og PostgreSQL, SQL Server og MongoDB for data."
+      },
+      "enterprise": {
+        "question": "Hvordan håndterer du bedriftsprosjekter?",
+        "answer": "Hver engasjement starter med en oppdagelsesfase for å definere omfang, arkitektur og milepæler. Du får et dedikert team med teknisk leder, jevnlige milepælsgjennomganger og direkte tilgang til ingeniørene som bygger systemet ditt. Vi følger agile sprints med interessentdemonstrasjoner, vedlikeholder transparente prosjekttavler og leverer ukentlige fremdriftsrapporter."
+      },
+      "support": {
+        "question": "Hvordan ser støtte etter lansering ut?",
+        "answer": "Vi tilbyr strukturerte støttenivåer med definerte SLA-er, inkludert 24/7 overvåking, hendelsesrespons, ytelsesoptimalisering og funksjonsitering. Våre supportavtaler dekker feilrettinger, sikkerhetsoppdateringer, skalering av infrastruktur og proaktive helsesjekker — tilpasset dine krav til oppetid og responstid."
+      },
+      "integration": {
+        "question": "Kan du integrere med vår eksisterende infrastruktur?",
+        "answer": "Absolutt. Vi spesialiserer oss på modernisering av legacy, API-først-integrasjoner og hybride skymigreringer. Enten du trenger å koble til lokale ERP-systemer, migrere fra monolitter til mikrotjenester, eller bygge bro mellom eldre databaser og moderne frontends, har vi migrasjonsmanualene og integrasjonserfaringen som gjør det sømløst."
+      },
+      "industries": {
+        "question": "Hvilke bransjer har du jobbet i?",
+        "answer": "Vårt team har levert prosjekter innen fintech, helsevesen, logistikk, e-handel, energi og offentlige sektorer. Vi forstår bransjespesifikke krav som PCI-DSS for betalinger, HIPAA-hensyn for helsedata, GDPR-overholdelse for EU-markeder, og sanntidstelemetri for industriell IoT."
+      },
+      "engagement": {
+        "question": "Hvordan ser engasjementsprosessen ut?",
+        "answer": "Det starter med en opplysningssamtale for å forstå dine mål og det tekniske landskapet. Derfra leverer vi et avgrensingsdokument med arkitekturanbefalinger, tidslinje og investeringsfordeling. Når de er godkjent, starter vi med et dedikert team, integrerer verktøyene og arbeidsflytene deres, og starter den første sprinten innen få dager."
+      }
+    },
+    "stillHaveQuestions": "Har du fortsatt spørsmål?",
+    "ctaDescription": "Har du et prosjekt i tankene? La oss snakke om omfang, tidslinje og budsjett.",
+    "readCaseStudies": "Les våre casestudier",
+    "scheduleCall": "Bestill en samtale"
+  }
+}

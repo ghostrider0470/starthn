@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Laboratorio de Innovación",
+    "description": "Explora demos interactivas, experimentos e mostras técnicas do noso equipo de enxeñaría.",
+    "primary": "Explorar Demos",
+    "secondary": "Ver investigación"
+  },
+  "overview": {
+    "hero": {
+      "title": "Laboratorio de Innovación",
+      "description": "Exploramos fronteiras prácticas en IA, automatización e sistemas distribuídos, e logo traducimos a investigación validada en capacidades de produción fiables.",
+      "primary": "Explora áreas de investigación",
+      "secondary": "Discute unha colaboración"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Áreas de investigación",
+        "description": "Cada área de enfoque combina a investigación exploratoria con vías de implementación deseñadas para sistemas do mundo real.",
+        "cardCta": "Explora o enfoque"
+      },
+      "detailedFocusBriefs": {
+        "title": "Resumos Detallados de Enfoque",
+        "description": "As iniciativas de investigación a curto prazo avanzan actualmente desde a validación arquitectónica ata os plans de entrega."
+      },
+      "fromLabToProduction": {
+        "title": "Do laboratorio á produción",
+        "description": "A innovación en Horizon mídese polos resultados enviados, non polos prototipos illados."
+      },
+      "roadmap": {
+        "title": "Folla de ruta de R&D",
+        "description": "Unha progresión por etapas desde a construción de capacidades ata sistemas adaptativos e en continua mellora."
+      },
+      "publications": {
+        "title": "Publicacións e reflexións",
+        "description": "Redacción técnica e notas de implementación do traballo continuo de innovación."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Sistemas de IA aplicados",
+        "description": "Arquitecturas de IA centradas na produción que abranguen o servizo de modelos, orquestración de funcións e experimentación gobernada."
+      },
+      "automationFrameworks": {
+        "title": "Marcos de Automatización",
+        "description": "Ferramentas internas de automatización para seguridade no despregamento, resposta a incidentes e fluxos de traballo de enxeñaría repetibles."
+      },
+      "advancedArchitecture": {
+        "title": "Experimentación Avanzada de Arquitectura",
+        "description": "Investigación en arquitecturas resistentes e distribuídas optimizadas para rendemento, tolerancia a fallos e escala."
+      },
+      "edgeAndIot": {
+        "title": "Computación no Borde e Intelixencia IoT",
+        "description": "Intelixencia no límite para decisións de baixa latencia, procesamento de telemetría e coordinación da flota de dispositivos."
+      },
+      "nlp": {
+        "title": "Procesamento da linguaxe natural",
+        "description": "Canles de comprensión multilingüe para clasificación, extracción, tradución e sistemas conversacionais."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Algoritmos evolutivos e optimización",
+        "description": "Sistemas de busca e optimización inspirados na selección natural para resolver desafíos de enxeñaría de alta dimensión."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Marcos de Automatización",
+        "description": "Estamos a construír marcos de fluxo de traballo compoñibles para orquestración de lanzamentos, portas de calidade e verificación post-despregamento para reducir a fricción manual e mellorar a fiabilidade."
+      },
+      "advancedArchitecture": {
+        "title": "Experimentación Avanzada de Arquitectura",
+        "description": "Os nosos experimentos de arquitectura céntranse en estratexias de descomposición de servizos, patróns de resiliencia entre rexións e envolventes de rendemento para sistemas que operan baixo demanda volátil."
+      },
+      "edgeAndIot": {
+        "title": "Computación no Borde e Intelixencia IoT",
+        "description": "Estamos a validar deseños de transmisión de eventos e inferencia no borde que permiten tomar decisións locais máis rápidas mantendo o control centralizado, a auditabilidade e a gobernanza do ciclo de vida do modelo."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Planificación da Capacidade Adaptativa",
+        "description": "Os prototipos de laboratorio validanse fronte a cargas de traballo simuladas e logo integranse nas estratexias de autoescalado da plataforma."
+      },
+      "operationalIntelligence": {
+        "title": "Intelixencia Operativa",
+        "description": "As cadeas de PLN pasan de experimentos controlados a fluxos de traballo de soporte á produción para unha triaxe máis rápida e coñecementos máis claros."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Optimización en sistemas de entrega",
+        "description": "Os métodos evolutivos probados no laboratorio tradúcense en motores de optimización para a programación e asignación."
+      },
+      "edgeDecisioning": {
+        "title": "Toma de decisións de arestas",
+        "description": "Os experimentos de IoT e inferencia de borde reforzanse en servizos de baixa latencia con restricións estritas de fiabilidade."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Agora",
+        "title": "Fundamentos de IA Aplicada",
+        "description": "Expandir modelos reutilizables para servir modelos, suites de avaliación e estándares de observabilidade entre os equipos de produto."
+      },
+      "next": {
+        "phase": "Seguinte",
+        "title": "Fluxos de traballo autónomos de enxeñaría",
+        "description": "Operacionalizar marcos de automatización que reduzan o risco de despregamento e acurtan os ciclos de retroalimentación para o envío."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12-18 meses",
+        "title": "Intelixencia Nativa de Edges",
+        "description": "Escalar arquitecturas híbridas cloud-edge para inferencia case en tempo real en ambientes sensibles á latencia."
+      },
+      "longHorizon": {
+        "phase": "Long Horizon",
+        "title": "Sistemas de Optimización Continua",
+        "description": "Unificar experimentación, monitorización e optimización para que os sistemas poidan adaptarse de forma segura a medida que cambian os contextos."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Enxeñaría de sistemas de IA que se manteñan fiables na produción",
+        "summary": "Unha perspectiva práctica sobre o equilibrio entre a velocidade de experimentación e a gobernanza da produción.",
+        "cta": "Lea reflexións"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Patróns de Arquitectura Distribuída para Plataformas de Alto Crecemento",
+        "summary": "As notas de campo das probas arquitectónicas centráronse no rendemento, a resiliencia e a sinxeleza operativa.",
+        "cta": "Revisar estudos de caso"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Roadmapping: Investigación e desenvolvemento aplicada para resultados empresariais",
+        "summary": "Como estruturamos as iniciativas de innovación para que os descubrimentos pasen de prototipo a valor medible.",
+        "cta": "Explorar publicacións"
+      }
+    },
+    "cta": {
+      "title": "Constrúe co Horizon Innovation Lab",
+      "description": "Colabora con nós para validar ideas ambiciosas rapidamente e trasladar conceptos probados a sistemas de produción seguros e escalables.",
+      "primary": "Comeza unha conversa",
+      "secondary": "Ver resultados de entrega"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Sistemas de IA aplicados",
+      "description": "Unha visión práctica de como Horizon deseña, desprega e opera sistemas de aprendizaxe automática desde o prototipo ata a produción.",
+      "back": "Volver ao Laboratorio de Innovación",
+      "tags": {
+        "appliedAi": "IA aplicada",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Canles de Aprendizaxe Automática",
+        "description": "A IA de produción comeza con pipelines reproducibles que conectan datos, experimentación, validación e retroalimentación."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Patróns de despregamento de modelos",
+        "description": "A estratexia de despregamento escóllese en función dos requisitos de latencia, a criticidade do negocio e a complexidade operativa."
+      },
+      "mlopsOperatingModel": {
+        "title": "Modelo operativo MLOps",
+        "description": "As prácticas de MLOps aseguran que os sistemas de IA sigan sendo fiables, gobernables e escalables a medida que o seu uso crece."
+      },
+      "monitoringAndReliability": {
+        "title": "Monitorización e fiabilidade",
+        "description": "A observabilidade pecha o ciclo entre o comportamento do modelo e os resultados operativos."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Enxeñaría de Datos e Características",
+        "description": "A inxestión de datos versionada, as comprobacións de calidade e as definicións de características reutilizables crean unha base fiable para o adestramento do modelo."
+      },
+      "modelDevelopment": {
+        "title": "Desenvolvemento de modelos",
+        "description": "Os experimentos seguen con configuracións reproducibles, métricas obxectivas e liñas base de comparación automatizadas."
+      },
+      "validationAndSafetyGates": {
+        "title": "Portas de validación e seguridade",
+        "description": "Os modelos candidatos pasan as comprobacións de rendemento, robustez e políticas antes de ser aprobados para a súa publicación."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Bucles de retroalimentación operativas",
+        "description": "A telemetría posterior ao despregamento informa as prioridades de reentrenamento, as decisións de retroceso e a planificación da seguinte iteración."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Servizos de inferencia en tempo real",
+        "description": "APIs de baixa latencia para aplicacións interactivas con autoescalado, caché e observabilidade a nivel de solicitude."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Predicións por lotes e retransmisións",
+        "description": "Canles programadas e orientadas a eventos para puntuación de alto volume en análises e fluxos de traballo operativos."
+      },
+      "edgeAwareDeployment": {
+        "title": "Despregamento consciente do bordo",
+        "description": "Patróns híbridos de servizo na nube na periferia para ambientes que requiren inferencia local e gobernanza centralizada do modelo."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI/CD para modelos",
+        "description": "Os fluxos de traballo automatizados de compilación, proba e lanzamento reducen o risco de despregamento ao tempo que preservan a velocidade de entrega."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Rexistro de modelos e ciclo de vida",
+        "description": "Os artefactos de modelos versionados con etapas de promoción, liñaxe e fluxos de traballo de aprobación melloran o control e a trazabilidade."
+      },
+      "servingInfrastructure": {
+        "title": "Servizo á infraestrutura",
+        "description": "Capas de servizo escalables con estratexias de despregamento como despregamentos canario e sombra apoian a xestión segura do cambio."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Calidade da predición e detección de deriva",
+      "latencyThroughputAndCostEfficiencyTracking": "Seguimento de latencia, rendemento e eficiencia de custos",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Alertas de regresión da calidade dos datos e fluxos de traballo de remediación",
+      "auditabilityForComplianceAndIncidentAnalysis": "Auditabilidade para o cumprimento normativo e análise de incidentes"
+    },
+    "cta": {
+      "title": "Escala a IA Aplicada con Confianza",
+      "description": "Se estás a planificar iniciativas de IA que precisan resultados medibles e mantemento a longo prazo, Horizon pode axudar a deseñar e operacionalizar todo o ciclo de vida do sistema.",
+      "primary": "Fala co noso equipo",
+      "secondary": "Explora máis traballo de laboratorio"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "PLN multilingüe",
+      "description": "Explora as capacidades prácticas de procesamento da linguaxe natural e como se adaptan a sistemas de produción fiables e multilingües.",
+      "back": "Volver ao Laboratorio de Innovación",
+      "tags": {
+        "demo": "Demo interactiva",
+        "intelligence": "Intelixencia lingüística"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Fundacións do PLN",
+        "description": "O procesamento da linguaxe natural combina sinais lingüísticos e aprendizaxe automática para extraer significado, intención e estrutura do texto."
+      },
+      "workbench": {
+        "title": "Banco de traballo NLP interactivo",
+        "description": "Usa a demo para probar en tempo real a detección de linguaxes, puntuación de sentimento, extracción de entidades e comportamentos de tradución."
+      },
+      "productionApplications": {
+        "title": "Como Horizon aplica o PLN na produción",
+        "description": "As capacidades de PLN intégranse nos fluxos de traballo empresariais con barreiras de rendemento e métricas claras de calidade."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Principios de Fiabilidade e Gobernanza",
+        "description": "O NLP en produción require máis que a calidade do modelo; Depende das prácticas seguras de despregamento e da verificación continua."
+      }
+    },
+    "foundations": {
+      "intro1": "Os sistemas modernos de PLN alimentan a automatización, relevancia na busca, extracción de coñecemento e colaboración multilingüe. A implementación efectiva require tanto calidade do modelo como fortes controis operativos.",
+      "intro2": "En Horizon, centrámonos en sistemas NLP de extremo a extremo que combinan inferencia robusta con observabilidade, gobernanza e impacto medible na produción."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Detección de linguaxe",
+        "description": "Identifica a linguaxe de segmentos de texto curtos ou longos para enrutar as solicitudes na canle de procesamento correcta."
+      },
+      "sentimentAnalysis": {
+        "title": "Análise do sentimento",
+        "description": "Extrae a intención emocional e a polaridade para a intelixencia do cliente, a triaxe de soporte e os ciclos de retroalimentación do produto."
+      },
+      "entityExtraction": {
+        "title": "Extracción de Entidades",
+        "description": "Detecta entidades estruturadas como nomes, empresas, localizacións e datas a partir de textos non estruturados."
+      },
+      "translation": {
+        "title": "Tradución",
+        "description": "Soporta fluxos de traballo multilingües traducindo texto xerado polo usuario ou operativo mantendo o contexto."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Soporte e Intelixencia de Tickets",
+        "description": "Clasifica as solicitudes entrantes por urxencia, intención e sentimento para acelerar a calidade do enrutamento e da resposta."
+      },
+      "governedContentOperations": {
+        "title": "Operacións de contido gobernadas",
+        "description": "Aplicar filtros de linguaxe conscientes das políticas e comprobacións de moderación con precisión medible e obxectivos de recordo."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Perspectivas empresariais baseadas en texto",
+        "description": "Agrega tendencias de documentos, revisións e comunicacións para informar decisións estratéxicas e operativas."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Avaliación por caso de uso",
+        "description": "Os modelos comparanse con conxuntos de datos específicos do dominio antes de tomar decisións de publicación."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Salvagardas do Humano no Bucle",
+        "description": "As predicións de alto impacto inclúen camiños de revisión, regras de escalada e sinais de confianza transparentes."
+      },
+      "continuousMonitoring": {
+        "title": "Monitorización continua",
+        "description": "A deriva, a latencia e a degradación da calidade seguen continuamente, polo que o reentrenamento e o retroceso son proactivos."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Simulación de algoritmos xenéticos",
+      "description": "Explora a computación evolutiva nun entorno interactivo e observa como os mesmos principios se traducen nos sistemas de optimización da produción.",
+      "back": "Volver ao Laboratorio de Innovación",
+      "tags": {
+        "demo": "Demo interactiva",
+        "optimizationScience": "Ciencia da Optimización"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Fundación Científica",
+        "description": "Os algoritmos xenéticos son métodos de optimización baseados na poboación inspirados na selección natural e a adaptación."
+      },
+      "interactiveEnvironment": {
+        "title": "Ambiente de Evolución Interactiva",
+        "description": "Executa a simulación para ver como a aptitude mellora xeración a xeración e observa como a presión selectiva inflúe nos resultados."
+      },
+      "productionUse": {
+        "title": "Como Horizon usa isto na produción",
+        "description": "As mesmas mecánicas de busca usadas nesta demo informan os pipelines de optimización despregados nos sistemas operativos."
+      },
+      "applicationDomains": {
+        "title": "Dominios de aplicación máis amplos",
+        "description": "A optimización evolutiva é especialmente valiosa en sistemas con obxectivos dinámicos e restricións en conflito."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "En lugar de buscar unha solución á vez, os algoritmos xenéticos evolucionan unha poboación diversa de candidatos. Cada xeración é avaliada en función dunha función de aptitude e refinada mediante selección, cruzamento e mutación.",
+      "intro2": "Isto fainos efectivos para problemas de alta dimensión con restricións non lineais, onde os enfoques deterministas se volven fráxiles ou computacionalmente custosos."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Selección",
+        "description": "Os candidatos de alto rendemento teñen máis probabilidades de sobrevivir e influír na seguinte xeración."
+      },
+      "crossover": {
+        "title": "Crossover",
+        "description": "Os trazos fortes recombínanse para crear novas solucións candidatas con fortalezas mixtas."
+      },
+      "mutation": {
+        "title": "Mutación",
+        "description": "A aleatoriedade controlada introduce diversidade para que a busca non se deteña arredor dos óptimos locais."
+      },
+      "convergence": {
+        "title": "Converxencia",
+        "description": "Ao longo de moitas xeracións, as poboacións tenden cara a solucións estables e de alta calidade."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Planificación de recursos",
+        "description": "Usamos estratexias evolutivas para optimizar a planificación multi-restrición onde a busca por forza bruta é inviable."
+      },
+      "architectureTuning": {
+        "title": "Axuste arquitectónico",
+        "description": "As configuracións de infraestrutura candidatas avalíanse iterativamente para mellorar o rendemento e a eficiencia de custos."
+      },
+      "continuousOptimization": {
+        "title": "Optimización continua",
+        "description": "Os traballos de optimización executan en bucles controlados con retroalimentación de telemetría para que os sistemas se adapten a medida que cambian os perfís de demanda."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Planificación de rutas e loxística",
+        "description": "A planificación complexa da entrega e despacho benefíciase da busca evolutiva cando as limitacións cambian rapidamente."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Busca de modelos e hiperparámetros",
+        "description": "A busca xenética pode descubrir configuracións de modelos de alta calidade cando as superficies obxectiva son ruidosas e non lineais."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Problemas de carteira e asignación",
+        "description": "A optimización baixo obxectivos en competencia pode enmarcarse como compensacións de aptitude entre conxuntos candidatos en evolución."
+      }
+    }
+  }
+}

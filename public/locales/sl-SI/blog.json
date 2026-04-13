@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Vsi"
+  },
+  "categories": {
+    "aiEngineering": "Inženiring umetne inteligence",
+    "enterpriseArchitecture": "Podjetniška arhitektura",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Avtomatizacijski sistemi",
+    "softwareReliabilityDesign": "Zanesljivost in načrtovanje programske opreme"
+  },
+  "readTime": "{{minutes}} min branje",
+  "tagsLabel": "Oznake",
+  "relatedPosts": "Sorodne objave",
+  "author": {
+    "role": "Založnik"
+  },
+  "editor": {
+    "emptyPreview": "Začnite pisati, da si ogledate predogled..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Prompt Engineering",
+    "observability": "Opazljivost",
+    "safety": "Varnost",
+    "domainDesign": "Oblikovanje domene",
+    "integration": "Integracija",
+    "governance": "Upravljanje",
+    "platformStrategy": "Strategija platforme",
+    "platformEngineering": "Platformno inženirstvo",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Izkušnja razvijalca",
+    "eventDriven": "Dogodki vodeni",
+    "workflowOrchestration": "Orkestracija delovnega toka",
+    "controlPlanes": "Krmilne ravnine",
+    "resilience": "Odpornost",
+    "sre": "SRE",
+    "slos": "SLO",
+    "failureModes": "Načini okvare",
+    "resilienceEngineering": "Inženiring odpornosti",
+    "evaluation": "Vrednotenje",
+    "qualityEngineering": "Inženiring kakovosti",
+    "datasets": "Podatkovni nizi",
+    "releaseManagement": "Upravljanje izdaj",
+    "incidentManagement": "Upravljanje incidentov",
+    "architectureEvolution": "Razvoj arhitekture",
+    "riskReduction": "Zmanjševanje tveganja",
+    "postmortems": "Obdukcije",
+    "progressiveDelivery": "Progresivna dostava",
+    "canaryReleases": "Kanarčki izpusti",
+    "featureFlags": "Glavne zastave"
+  }
+}

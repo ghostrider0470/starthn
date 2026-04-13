@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Tots"
+  },
+  "categories": {
+    "aiEngineering": "Enginyeria d'IA",
+    "enterpriseArchitecture": "Arquitectura empresarial",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Sistemes d'automatització",
+    "softwareReliabilityDesign": "Fiabilitat i disseny de programari"
+  },
+  "readTime": "{{minutes}} minut de lectura",
+  "tagsLabel": "Etiquetes",
+  "relatedPosts": "Publicacions relacionades",
+  "author": {
+    "role": "Editorial"
+  },
+  "editor": {
+    "emptyPreview": "Comença a escriure per veure un avançament..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Enginyeria Prompt",
+    "observability": "Observabilitat",
+    "safety": "Seguretat",
+    "domainDesign": "Disseny de dominis",
+    "integration": "Integració",
+    "governance": "Governança",
+    "platformStrategy": "Estratègia de plataforma",
+    "platformEngineering": "Enginyeria de plataformes",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Experiència del desenvolupador",
+    "eventDriven": "Impulsat per esdeveniments",
+    "workflowOrchestration": "Orquestració de flux de treball",
+    "controlPlanes": "Plans de control",
+    "resilience": "Resiliència",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "Modes de fallada",
+    "resilienceEngineering": "Enginyeria de la Resiliència",
+    "evaluation": "Avaluació",
+    "qualityEngineering": "Enginyeria de la Qualitat",
+    "datasets": "Conjunts de dades",
+    "releaseManagement": "Gestió de llançaments",
+    "incidentManagement": "Gestió d'incidents",
+    "architectureEvolution": "Evolució de l'arquitectura",
+    "riskReduction": "Reducció de riscos",
+    "postmortems": "Autòpsies",
+    "progressiveDelivery": "Lliurament progressiu",
+    "canaryReleases": "Llançaments de Canary",
+    "featureFlags": "Banderes de Característiques"
+  }
+}

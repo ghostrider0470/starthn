@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "A haamata",
+    "ctaSecondary": "Tarena aparauraa"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Enterprise Software Development",
+      "description": "Te mau faanahoraa no te ohipa e te mau faanahoraa apî, te faanahoraa API-matamua, e te faito o te cloud."
+    },
+    "sections": {
+      "problem": {
+        "title": "Faanahoraa no te fifi i te pae no te ohipa",
+        "subtitle": "I reira te mau faanahoraa taiete e ere ai i te vitiviti, te haamau'araa e te tu'atiraa"
+      },
+      "approach": {
+        "title": "Rave'a no te ohipa aravihi",
+        "subtitle": "Nahea tatou i te faariro i te mau titauraa papû ore ei mau faanahoraa ineine no te hamaniraa"
+      },
+      "principles": {
+        "title": "Te mau parau tumu no te paturaa fare",
+        "subtitle": "A faanaho i te mau faaotiraa o te tape'a noa i te mau faanahoraa a te taiete i te faito rahi"
+      },
+      "capabilities": {
+        "title": "Te mea ta tatou e patu nei",
+        "subtitle": "Te mau rave'a no te hamaniraa i te mau faanahoraa roro uira"
+      },
+      "technology": {
+        "title": "Ta matou haaputuraa rave'a apî",
+        "subtitle": "Te mau rave'a apî e te mau rave'a apî no te horo'araa i te mau taiete"
+      },
+      "breakdown": {
+        "title": "Te fifi o te taviniraa",
+        "subtitle": "Te hoê e'a faanahohia mai te iteraa e tae atu i te horo'araa papû i te hamaniraa"
+      }
+    },
+    "problem": {
+      "overview": "E mea pinepine te mau pŭpŭ taiete i te rave i te mau tereraa ohipa faufaa roa i ni'a i te mau faanahoraa hu'ahu'a, ma te faatupu i te mau taime roa, te mau haamaramaramaraa tu'ati ore, e te faaauraa rima moni rahi i rotopu i te mau aupŭpŭ.",
+      "painPointsTitle": "Te mauiui tamau i te pae tapihooraa",
+      "impactSignalsTitle": "Te mea ta te feia faatere e hi'opo'a nei",
+      "painPoints": [
+        "E topa te mau fafauraa no te haponoraa no te mea aita te mau tuatiraa i roto i te mau pŭpŭ i faaterehia",
+        "E tapitihia te mana'o tumu o te ohipa i roto i te mau rave'a e te mau tauihaa",
+        "Na roto i te mau faaôraa tahito, e riro te mau rave'a apî ei mea atâta e te taere"
+      ],
+      "impactSignals": [
+        "E topa te tereraa o te hoho'a arata'i a maraa noa ai te mau haamau'araa i te pae no te matini",
+        "E maraa mai te mau hape i mua i te mau hoani i roto i te mau tau tuuraa",
+        "E taere te raveraa i te mau faaotiraa no te tu'ati ore o te mau parau faataaraa"
+      ]
+    },
+    "approach": {
+      "overview": "Te rave nei matou i te ohipa na mua roa i te hamaniraa, te horo'araa na roto i te parau faaau, e te rave'a hi'opo'ahia.",
+      "pillars": [
+        {
+          "title": "Domain Modeling & Bounded Contexts",
+          "detail": "E faanaho matou i te mau tuhaa fenua no te faaiti i te tu'atiraa i rotopu i te mau pŭpŭ e no te haapapû i te faturaa."
+        },
+        {
+          "title": "Rave'a no te faaôraa i te API-First",
+          "detail": "E faataa oioi matou i te mau parau faaau papû, ma te faati'a i te faatupuraa i te hoê â huru e te tu'atiraa papû a'e i roto i te mau faanahoraa taiete."
+        },
+        {
+          "title": "Te tereraa o te opereraa",
+          "detail": "Te faaohipa nei matou i te mau tapa'o no te mau rave'a, te mau faanahoraa e te mau uputa maitai no te matara vitiviti ma te ore e haafifi i te hamaniraa."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "E mea faufaa roa ta tatou mau faaotiraa no te hamaniraa i te ohipa i mua i te oraraa maoro, te faaohiparaa, e te faturaa papû ia nehenehe te mau faanahoraa ia faaau i te mau faanahoraa a tupu noa ai te ohipa i te rahi.",
+      "items": [
+        {
+          "title": "Te mau oti'a no te taviniraa modular",
+          "detail": "Ua faanahohia te mau rave'a i ni'a i te mau tuhaa ohipa no te tape'a i te tauiraa i te mau vahi atoa."
+        },
+        {
+          "title": "Te faaôraa i te mau ohipa",
+          "detail": "E faaohipahia te mau tereraa ohipa asynchronous i te mau vahi e vai ra te faaoroma'iraa no te haamaitai i te faaoroma'i e no te faataa i te mau faanahoraa."
+        },
+        {
+          "title": "Te hi'opo'araa na roto i te faanahoraa",
+          "detail": "Ua faataahia te hi'opo'araa, te mau faito e te mau papaa parau faanahohia na mua roa no te paturu i te mau ohipa ti'aturihia e te faatereraa SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Te mau faanahoraa Itenati taa ê",
+      "Faanahoraa afa'ifa'i",
+      "API Development & Integration",
+      "Microservices Architecture",
+      "Te mau rave'a no ni'a i te cloud",
+      "Faaapîraa i te faanahoraa tahito"
+    ],
+    "technologies": [
+      {
+        "name": "A pahono",
+        "category": "Te mau hoho'a matamua",
+        "icon": "A rave i te ohipa"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "Python"
+      },
+      {
+        "name": "Papa'iraa",
+        "category": "Reo",
+        "icon": "papa'iraa"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "graphql"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Pu'e parau",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Pu'e parau",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Discovery & Architecture",
+        "summary": "E faanaho matou i te mau ohipa matamua no te ohipa, te mau fifi i te pae no te matini, e te faanahoraa o te mau opuaraa hou a haamata ai te faaohiparaa.",
+        "deliverables": [
+          "Haapiipiiraa no te faaauraa i te mau tauihaa e te mau titauraa",
+          "Hoho'a no te faanahoraa o te rave'a",
+          "Faanahoraa no te horo'araa i ni'a i te mau taahiraa faufaa"
+        ]
+      },
+      {
+        "title": "Paturaa e te faaôraa",
+        "summary": "Te faaohipa nei ta matou mau pŭpŭ i te mau rave'a tumu, te mau tuhaa no te faaôraa, e te mau parururaa i te maitai.",
+        "deliverables": [
+          "Te faatupuraa i te mau rave'a i roto i te mau hororaa tamau-noa-hia",
+          "API e te mau tu'atiraa a te tahi atu mau taata",
+          "Te mau hi'opo'araa e te mau hi'opo'araa no te faaineineraa i te tuuraa"
+        ]
+      },
+      {
+        "title": "Te haamataraa e te tauiraa",
+        "summary": "I muri a'e i te haamataraa, e faaafaro matou i te mau ohipa e e faataa matou i te tereraa o te haamaitairaa i muri iho ia au i te faaohiparaa mau.",
+        "deliverables": [
+          "Buka no te hamaniraa",
+          "Faatanoraa i te tereraa e te ti'aturiraa",
+          "I muri a'e i te haamataraa e te haamauraa"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ua ineine anei outou no te hamani i ta outou faanahoraa i muri iho ?",
+      "description": "E faanaho ana'e e e hapono ana'e i te hoê rave'a o te faatupu i te mau faahopearaa o te ohipa e nehenehe e faitohia.",
+      "button": "A haamata i ta outou opuaraa"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML & Business Intelligence",
+      "description": "Mai te mau hi'oraa tohu e tae atu i te mau tapura faatere, te hamani nei matou i te mau faanahoraa AI/BI taatoa o te turu i te mau faaotiraa i te faito rahi."
+    },
+    "sections": {
+      "problem": {
+        "title": "Faanahoraa no te fifi i te pae no te ohipa",
+        "subtitle": "No te aha te mau pŭpŭ e rave rahi mau haamaramaramaraa e fifi noa nei no te rave i te mau faaotiraa papû"
+      },
+      "approach": {
+        "title": "Rave'a no te ohipa aravihi",
+        "subtitle": "Nahea tatou i te faaohipa i te mau rave'a no te mau haamaramaramaraa, te mau hoho'a ML, e te mau tereraa ohipa BI"
+      },
+      "principles": {
+        "title": "Te mau parau tumu no te paturaa fare",
+        "subtitle": "Te mau hoho'a no te mau haamaramaramaraa e te mau hoho'a no te mau faaotiraa ti'aturihia"
+      },
+      "capabilities": {
+        "title": "To tatou mau aravihi",
+        "subtitle": "Te mau rave'a rahi no te AI, te ML e te BI"
+      },
+      "technology": {
+        "title": "Ta matou haaputuraa rave'a apî",
+        "subtitle": "Te mau mauhaa no te mau haamaramaramaraa e te AI"
+      },
+      "breakdown": {
+        "title": "Te fifi o te taviniraa",
+        "subtitle": "Nahea tatou ia haere mai te mau haamaramaramaraa hu'ahu'a e tae atu i te maramarama no te hamaniraa"
+      }
+    },
+    "problem": {
+      "overview": "E mea pinepine te mau faanahonahoraa i te haaputu i te mau haamaramaramaraa e rave rahi, aita râ ratou e nehenehe e huri i te reira ei tohuraa ti'aturihia, ei faaotiraa no te faaohiparaa, e aore râ, ei ohipa tapihooraa e nehenehe e faitohia.",
+      "painPointsTitle": "Te mauiui tamau i te pae tapihooraa",
+      "impactSignalsTitle": "Te mea ta te feia faatere e hi'opo'a nei",
+      "painPoints": [
+        "E mea taa ê te mana'o no te faaiteraa i roto i te mau pŭpŭ, e no reira, aita te mau parau no te KPI e tuati ra",
+        "E vai noa te mau hoho'a i roto i te tamataraa e eita roa e tae i te tereraa ohipa no te hamaniraa",
+        "Te faaino nei te mau fifi no te maitai o te mau haamaramaramaraa i te ti'aturiraa i roto i te mau hi'opo'araa e te mau tapura faatere"
+      ],
+      "impactSignals": [
+        "E mea taere te mau faaotiraa no te mea e tau'aparau te mau pŭpŭ i te parau no te mau haamaramaramaraa eiaha râ te ohipa",
+        "Aita te mau tohuraa e te faanahoraa i tu'ati maitai i tera ava'e i muri a'e i te toru ava'e",
+        "Te faaite nei te mau haamau'araa i roto i te mau hi'opo'araa i te iti o te fariiraa i rapae i te mau p�"
+      ]
+    },
+    "approach": {
+      "overview": "Te horo'a nei matou i te mau rave'a AI e BI ei mau faanahoraa hamaniraa, te tu'atiraa i te mau rave'a no te hamaniraa, te tereraa o te oraraa o te mau hoho'a, e te faaôraa i te tereraa o te faaotiraa.",
+      "pillars": [
+        {
+          "title": "Data Product Foundation",
+          "detail": "E haamau te mau rave'a haamaramaramaraa tu'ati i ni'a i te tuhaa fenua i te mau rave'a e nehenehe e faaohipa-faahou-hia, e faaterehia e te maitai roa no te hi'opo'araa e no te ML."
+        },
+        {
+          "title": "MLOps Lifecycle Automation",
+          "detail": "Te haapiipiiraa, te faaohiparaa, te hi'opo'araa, e te hi'opo'araa i te tereraa o te mau hoho'a, ua ravehia ïa ei rave'a roro uira no te tape'a i te mau hoho'a i roto i te hamaniraa"
+        },
+        {
+          "title": "Decision Workflow Integration",
+          "detail": "Ua tuuhia te mau mana'o i roto i te mau mauhaa ohipa e te mau tapura ohipa, ia ohipa te mau pŭpŭ ia au i te maramarama i roto i te mau faanahoraa o te mau mahana atoa."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Te tuu nei ta matou faanahoraa AI/BI i te mau haamaramaramaraa ti'aturihia, te mau hoho'a e nehenehe e faataahia, e te mau faanahoraa tomoraa faaterehia i roto i te taiete.",
+      "items": [
+        {
+          "title": "Te mau tatararaa o te faito hoê",
+          "detail": "E faataahia te mau KPI faufaa rahi i te hoê taime na roto i te mau hi'oraa no te faaore i te mau mana'o tu'ati ore."
+        },
+        {
+          "title": "Te mau hi'opo'araa no te ti'aturiraa o te hoho'a",
+          "detail": "E paruru te mau oti'a no te ohipa, te iteraa i te faaheeraa, e te mau rave'a no te faaho'i i te mau faaotiraa i roto i te hamaniraa."
+        },
+        {
+          "title": "Te parururaa e te faatereraa na roto i te faanahoraa",
+          "detail": "Ua tuuhia te mau haamaramaramaraa i roto i te mau rave'a tata'itahi."
+        }
+      ]
+    },
+    "capabilities": [
+      "Te mau hoho'a e te mau rave'a no te haapii i te matini",
+      "Power BI Dashboards & Reports",
+      "Te hi'opo'araa i te mana'o",
+      "Te haapurororaa i te mau haamaramaramaraa i te taime mau",
+      "Te mau rave'a no te haaputuraa i te mau haamaramaramaraa"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Tahua",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Fare vairaa haamaramaramaraa",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Data Engineering",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "Faanahoraa ML",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML Framework",
+        "icon": "tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML Framework",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Hoho'a",
+        "category": "Tuatapaparaa",
+        "icon": "Hoho'a"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Te raveraa",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Reo",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Data Foundation",
+        "summary": "E hi'opo'a matou i te mau rave'a, e faataa i te mau parau faaau no te mau haamaramaramaraa, e e haamau matou i te faatereraa ia haamata te mau hoho'a atoa na roto i te mau mana'o ti'aturihia.",
+        "deliverables": [
+          "Te rave'a no te haamaramaramaraa e te hi'opo'araa i te maitai",
+          "Faanahoraa no te mau rave'a e te faanahoraa",
+          "Te parururaa e te faatereraa"
+        ]
+      },
+      {
+        "title": "Te horo'araa i te hoho'a e te hi'oraa",
+        "summary": "Te hamani nei matou i te mau hoho'a e te mau tapura faaotiraa tei taamuhia i ni'a i te mau uiraa e te mau KPI e nehenehe e faitohia.",
+        "deliverables": [
+          "Te hamaniraa e te haapapûraa i te mau hoho'",
+          "Te mau tabula faatere e te mau parau faataaraa no te ohipa",
+          "Te faaôraa i te tereraa ohipa o te faaotiraa"
+        ]
+      },
+      {
+        "title": "MLOps & Adoption",
+        "summary": "Te faaohipa nei matou i te faaohiparaa, te hi'opo'araa e te faati'araa i te pŭpŭ no te tape'a i te mau hopearaa i roto i te roaraa o te tau.",
+        "deliverables": [
+          "Te mau faanahoraa no te faaohiparaa i te mau hoho'a roro uira",
+          "Te hi'opo'araa i te tereraa, te afaro e te faaohiparaa",
+          "Te horo'araa i te pŭpŭ e te buka arata'iraa"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "A taui i ta outou mau haamaramaramaraa ei hi'oraa",
+      "description": "A faariro i te mau haamaramaramaraa hu'ahu'a ei haamaramaramaraa maramarama e te nehenehe e faaohipahia.",
+      "button": "A haamata i to outou tere"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Cloud Architecture & Infrastructure",
+      "description": "Te mau faanahoraa e rave rahi ata, te faanahoraa aueue ore, e te mau faanahoraa faaineinehia no te tupuraa maoro."
+    },
+    "sections": {
+      "problem": {
+        "title": "Faanahoraa no te fifi i te pae no te ohipa",
+        "subtitle": "No te aha te mau faanahoraa cloud e mau ai i muri a'e i te tereraa matamua o te tauiraa"
+      },
+      "approach": {
+        "title": "Rave'a no te ohipa aravihi",
+        "subtitle": "Nahea tatou i te hamani i te mau faanahoraa cloud papû e te faito rahi ma te hi'opo'a i te fifi no te faaru'eraa i te fenua"
+      },
+      "principles": {
+        "title": "Te mau parau tumu no te paturaa fare",
+        "subtitle": "Te mau faaotiraa o te faaaifaito i te vitiviti, te faaoroma'i e te faatereraa"
+      },
+      "capabilities": {
+        "title": "Te mau faanahoraa cloud",
+        "subtitle": "Patu, faaohipa, e faananea i roto i te cloud"
+      },
+      "technology": {
+        "title": "Te aravihi i roto i te mau cloud e rave rahi",
+        "subtitle": "Te mau rave'a cloud agnostic"
+      },
+      "breakdown": {
+        "title": "Te fifi o te taviniraa",
+        "subtitle": "Te hoê ana'iraa maramarama no te faanaho, no te faanuu e no te faaohipa i te mau faanahoraa cloud"
+      }
+    },
+    "problem": {
+      "overview": "E rave rahi mau faanahonahoraa o te rave nei i te mau tauiraa matamua i roto i te cloud, tera râ, te ohipa noa nei ratou mai te mau pŭpŭ i ni'a i te vahi, ma te ite ore, te mau hi'opo'araa tu'ati ore, e te maraaraa o te haamau'araa.",
+      "painPointsTitle": "Te mauiui tamau i te pae tapihooraa",
+      "impactSignalsTitle": "Te mea ta te feia faatere e hi'opo'a nei",
+      "painPoints": [
+        "E tauihia te mau ohipa ma te ore e hi'opo'a i te parururaa e te faanahoraa",
+        "E maraa vitiviti a'e te mau haamau'araa o te cloud i te faufaa o te ohipa",
+        "E vai noa te faanahoraa i te mau vahi nohoraa ma te rima e te tu'ati ore i roto i te mau pŭpŭ"
+      ],
+      "impactSignals": [
+        "E tupu pinepine te mau fifi no te faanahonaho i te mau vahi",
+        "E iti mai te ineineraa no te hi'opo'araa na roto i te mau amahamaharaa o te faatereraa",
+        "E faataere te mau taime arata'iraa i te mau faanahoraa i te mau opuaraa no te mau tauihaa e te mau haamaramaramaraa"
+      ]
+    },
+    "approach": {
+      "overview": "Te hamani nei matou i te mau faanahoraa cloud ei mau tauihaa, ma te faaohipa i te mau rave'a roro uira, te mau paruru faatureraa, e te mau aru no te tereraa i ni'a i te faufaa rahi o te ohipa.",
+      "pillars": [
+        {
+          "title": "Landing Zone as Code",
+          "detail": "Ua faanahohia te ti'araa taata, te mau reni itenati, te parururaa e te mau faatureraa no te faahi'opo'a-faahou-raa e te hi'opo'araa."
+        },
+        {
+          "title": "Rave'a no te faaru'eraa i te mau aru",
+          "detail": "E tere te mau ohipa i roto i te mau tuhaa hi'opo'ahia e te faaineineraa no te faaho'i i muri."
+        },
+        {
+          "title": "SRE + FinOps Operating Loop",
+          "detail": "E hi'opo'a-amui-hia te mau tapa'o no te ti'aturiraa e te tereraa faufaa no te haamaitai i te taime ohipa e te haamau'araa."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "E mea au a'e na ta matou hoho'a hamaniraa hoho'a te mau faanahoraa faaiteraa, te tomoraa iti a'e, e te mau faanahoraa e nehenehe e hamanihia o te turu i te horo'araa vitiviti i te mau tauihaa.",
+      "items": [
+        {
+          "title": "Te mau faanahoraa taui ore",
+          "detail": "Ua faaapîhia te mau vahi nohoraa mai roto mai i te mau faanahoraa no te faaiti i te nene'iraa e no te faaohie i te faaho'iraa i te tereraa."
+        },
+        {
+          "title": "Te niu o te parururaa na roto i te tauihaa",
+          "detail": "Ua tuuhia te mau hi'opo'araa no te tomoraa e te haapa'oraa i te mau faatureraa i roto i te mau vahi atoa."
+        },
+        {
+          "title": "Te faaoroma'i na roto i te opereraa",
+          "detail": "Ua faaineinehia te mau ohipa faufaa rahi no te faaoroma'i i te mau hape i roto i te mau tuhaa e rave rahi e aore râ, i roto i te mau tuhaa fenua e rave rahi, mai te mea e, e titauhia te reira i roto i te ohipa tapihooraa."
+        }
+      ]
+    },
+    "capabilities": [
+      "Rave'a e te faaohiparaa i te mau cloud e rave rahi",
+      "Container Orchestration (Kubernetes)",
+      "Te matini roro uira aita e server",
+      "Cloud Migration Services",
+      "Te hamaniraa hoho'a teitei"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Ata",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "AWS",
+        "category": "Ata",
+        "icon": "AmazonWebServices"
+      },
+      {
+        "name": "GCP",
+        "category": "Ata",
+        "icon": "googlecloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Faata'iraa upaupa",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Te mau farii",
+        "icon": "Taata haapa'o uahu"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Te mau hoho'a ARM",
+        "category": "IaC",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "AmazonWebServices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Te hamaniraa fare e te vahi tauraa",
+        "summary": "E faataa matou i te huru o te titauraa, te mau paruru e te mau faatureraa niu hou a tere ai te mau ohipa.",
+        "deliverables": [
+          "Te hoho'a o te faanahoraa o te cloud",
+          "Te ti'araa taata, te faanahoraa e te parururaa",
+          "Te mau paruru no te haamau'araa e te haapa'oraa"
+        ]
+      },
+      {
+        "title": "Migration & Platform Build",
+        "summary": "Te faatupu nei matou i te mau rave'a no te faaru'eraa i te mau rave'a e te mau rave'a roro uira e nehenehe e na ni'a iho.",
+        "deliverables": [
+          "Faanahoraa no te tauiraa o te ohipa",
+          "Faanahoraa no te farii e te faanahoraa serverless",
+          "Infrastructure as Code modules"
+        ]
+      },
+      {
+        "title": "Te ti'aturiraa e te FinOps",
+        "summary": "E haamaitai matou i te ti'aturiraa o te tereraa e e tamau noa matou i te faananea i te mau haamau'araa i ni'a i te cloud ia au i te niuniu uira.",
+        "deliverables": [
+          "Te mau SLO, te hi'opo'araa e te mau tereraa ohipa",
+          "Haapapûraa no te faaoroma'i e no te faaho'iraa mai i te ati",
+          "Te haamau'araa i muri mai e te tereraa o te faatereraa"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "A faananea i ta outou mau faanahoraa",
+      "description": "A patu i te mau niu o te cloud o te vai papû noa i raro a'e i te hopoi'a o te ao nei.",
+      "button": "A faanaho i ta outou faanahoraa cloud"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Platform Engineering",
+      "description": "Te mau rave'a no te haponoraa i te mau rave'a roro uira, te hi'opo'araa, e te mau rave'a o te haamaitai i te vitiviti ma te ore e haapae i te ti'aturiraa."
+    },
+    "sections": {
+      "problem": {
+        "title": "Faanahoraa no te fifi i te pae no te ohipa",
+        "subtitle": "No te aha e topa ai te vitiviti o te haponoraa a rahi noa ai te fifi o te faanahoraa"
+      },
+      "approach": {
+        "title": "Rave'a no te ohipa aravihi",
+        "subtitle": "Nahea tatou i te faaau i te mau rave'a opereraa ma te ore e faataere i te mau pŭpŭ tauihaa"
+      },
+      "principles": {
+        "title": "Te mau parau tumu no te paturaa fare",
+        "subtitle": "Te mau faanahoraa aravihi o te faarahi i te ti'aturiraa e te ti'amâraa o te pŭpŭ"
+      },
+      "capabilities": {
+        "title": "Te mau rave'a DevOps",
+        "subtitle": "A faananea, a hi'opo'a e a faananea i te tereraa o te oraraa o ta outou haponoraa"
+      },
+      "technology": {
+        "title": "DevOps Tools & Platforms",
+        "subtitle": "Te mau mauhaa DevOps maitai roa a'e"
+      },
+      "breakdown": {
+        "title": "Te fifi o te taviniraa",
+        "subtitle": "Te hoê hoho'a arata'i ohie mai te mau fifi no te haponoraa e tae atu i te tereraa o te ti'aturiraa rahi"
+      }
+    },
+    "problem": {
+      "overview": "E mea pinepine te mau faanahonahoraa i te tuu i te moni i roto i te mau mauhaa CI/CD, tera râ, te fifi nei ratou i te mau haamauraa papû ore, te taere o te mau parau faati'a, e te mau faturaa amahamaha i roto i te mau vahi atoa.",
+      "painPointsTitle": "Te mauiui tamau i te pae tapihooraa",
+      "impactSignalsTitle": "Te mea ta te feia faatere e hi'opo'a nei",
+      "painPoints": [
+        "E mea taa ê te tatararaa o te pipeline ia au i te pŭpŭ, e aita te reira e tu'ati ra",
+        "Te mau parau faati'a no te faaohiparaa i te mau rave'a e faataere i te mau taime no te faatitiaifaroraa i te mau rave'a",
+        "E tupu faahou te mau fifi i roto i te tereraa no te mea aita te telemétrie i hope roa e aore râ, aita i taa-ê-hia"
+      ],
+      "impactSignals": [
+        "Te maraa noa ra te taime no te mau tauiraa noa'tu te haamau'araa i te matini roro uira",
+        "E maraa te faito manuïa ore o te tauiraa i roto i te mau taime opereraa rahi",
+        "Te topa ra te hotu o te feia hamani na roto i te fifi o te mau mauhaa e te tauiraa i te mau mea e vai ra"
+      ]
+    },
+    "approach": {
+      "overview": "Te haamau nei matou i te hoê faanahoraa no te feia hamani i roto i te faanahoraa e te mau hoho'a e nehenehe e faaohipa-faahou-hia, te faatereraa arata'ihia e te mau faatureraa, e te hi'opo'araa i te taatoaraa o te tereraa o te oraraa.",
+      "pillars": [
+        {
+          "title": "Te mau hoho'a no te Golden Path Pipeline",
+          "detail": "E faaau te mau hoho'a CI/CD e nehenehe e faaohipa faahou i te mau tereraa ohipa no te hamaniraa, te tamataraa, te mau hi'opo'araa parururaa, e te faaohiparaa."
+        },
+        {
+          "title": "Platform API & Self-Service",
+          "detail": "E horo'a te mau pŭpŭ i te mau vahi nohoraa e e tuu i te mau faanahoraa na roto i te mau rave'a hi'opo'ahia e te taata iho."
+        },
+        {
+          "title": "Te mau reni no te ti'aturiraa",
+          "detail": "Na te mau ohipa i tupu, te ea o te SLO, e te faanahoraa telemetry e tauturu i te mau haamaitairaa tamau i te tereraa e te faanahoraa."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "E faatano ta matou faanahoraa DevOps i te vitiviti o te haponoraa i te faatereraa na roto i te rave'a no te hi'opo'araa e te faaitiraa i te ohipa no te hoê noa taime.",
+      "items": [
+        {
+          "title": "Te mau mea atoa mai te hoê faanahoraa",
+          "detail": "E faaterehia te mau rave'a faataheraa, te mau faanahoraa e te mau ture no te hi'opo'araa i te mau rave'a no te hi'opo'araa e no te faahiti-faahou-raa."
+        },
+        {
+          "title": "Hi'opo'araa mărû",
+          "detail": "Ua tuuhia te mau hi'opo'araa i te maitai, te parururaa e te tereraa i roto i te mau tuhaa atoa no te ite oioi i te fifi."
+        },
+        {
+          "title": "Hopoi'a no te faanahoraa",
+          "detail": "E horo'a te mau pŭpŭ tahua i te mau rave'a purumu e na te mau pŭpŭ tauihaa e tape'a i te fatu o te opereraa."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI/CD Pipeline Design",
+      "Te faanahoraa ei ture",
+      "Te mau hi'opo'araa roro uira",
+      "Faanahoraa no te faaohiparaa",
+      "Te hi'opo'araa e te hi'opo'araa"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Tahua",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "Te mau ohipa a te GitHub",
+        "category": "CI/CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Helm",
+        "category": "Puohu",
+        "icon": "Faatere"
+      },
+      {
+        "name": "Ansible",
+        "category": "Matini roro uira",
+        "icon": "Te mau parau apî"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Hi'opo'araa",
+        "icon": "Prométhée"
+      },
+      {
+        "name": "Grafana",
+        "category": "Te hi'opo'araa",
+        "icon": "grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Te hi'opo'araa i te faanahoraa",
+        "summary": "E hi'opo'a matou i ta outou faanahoraa roro uira no te ite i te mau fifi e te vitiviti.",
+        "deliverables": [
+          "Hoho'a fenua no te tereraa ohipa no te haponoraa i teie nei",
+          "Tuatapaparaa i te mau fifi o te pipeline",
+          "Target DevOps maturity roadmap"
+        ]
+      },
+      {
+        "title": "Pipeline & Automation Build",
+        "summary": "Te faaohipa nei matou i te CI/CD ti'aturihia, te mau uputa maitai, e te faanahoraa no te mau faanahoraa no te mau haamataraa tamau.",
+        "deliverables": [
+          "E nehenehe e faaohipa faahou i te mau hoho'a CI/CD",
+          "Faanahoraa no te faanahoraa e te vahi nohoraa",
+          "Te mau hi'opo'araa e te mau hi'opo'araa i te mau hi'opo'"
+        ]
+      },
+      {
+        "title": "Faatere e haamaitai",
+        "summary": "E haamau matou i te mau tereraa no te hi'opo'araa e no te faatereraa o te turu i te haamaitairaa tamau i te opereraa.",
+        "deliverables": [
+          "Te hi'opo'araa i te mau tapura e te mau faatureraa no te faaararaa",
+          "Te mau buka arata'iraa no te faatereraa e te mau ohipa i tupu",
+          "Te mau faito e te mau hi'opo'araa tamau"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "A haavitiviti i ta outou opereraa",
+      "description": "A faaiti i te fifi e a haamaitai i te ti'aturiraa na roto i te mau raveraa DevOps paari.",
+      "button": "A taui i ta outou pipeline"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Tauiraa roro uira e te faanahoraa",
+      "description": "Tauturu tauturu no te faaapî i te mau faanahoraa, te mau pŭpŭ e te mau hoho'a faaohiparaa."
+    },
+    "sections": {
+      "problem": {
+        "title": "Faanahoraa no te fifi i te pae no te ohipa",
+        "subtitle": "I reira te mau faanahoraa tauiraa e ere ai i te puai e te ti'aturiraa a te feia faatere"
+      },
+      "capabilities": {
+        "title": "Te mau ohipa tauturu",
+        "subtitle": "Arata'iraa no te manuïaraa i ni'a i te roro uira"
+      },
+      "approach": {
+        "title": "Rave'a no te ohipa aravihi",
+        "subtitle": "Nahea tatou i te huri i te faanahoraa ei tauiraa ohie e te paturuhia e te mau rave'a apî"
+      },
+      "principles": {
+        "title": "Te mau parau tumu no te paturaa fare",
+        "subtitle": "Te mau ma'itiraa i te hoho'a e te faanahoraa o te paruru i te mau hopearaa o te tauiraa"
+      },
+      "technology": {
+        "title": "Haaputuraa o te mau rave'a apî",
+        "subtitle": "Te mau faanahoraa e te mau faanahoraa ta tatou e faaohipa nei no te faatupu i te tauiraa"
+      },
+      "breakdown": {
+        "title": "Te fifi o te taviniraa",
+        "subtitle": "Tauiraa faanahohia mai te tatararaa i te opuaraa e tae atu i te faufaa o te ohipa e nehenehe e faitohia"
+      }
+    },
+    "problem": {
+      "overview": "E mea pinepine te mau opuaraa roro uira i te haamata na roto i te mana'o puai, eita râ e taui i roto i te mau hopearaa no te mea aita te faturaa i papû maitai, te mau mauhaa mo'emo'e, e te mau ohipa matamua tata'u.",
+      "painPointsTitle": "Te mauiui tamau i te pae tapihooraa",
+      "impactSignalsTitle": "Te mea ta te feia faatere e hi'opo'a nei",
+      "painPoints": [
+        "Ua faataahia te mau hoho'a arata'i no te tauiraa, aita râ i hurihia i roto i te faatereraa i te opereraa",
+        "Ua taa ê te mau ohipa matamua i muri a'e i te faanahoraa matamua",
+        "Te tape'a nei te mau faanahoraa tahito i te fariiraa i te mau rave'a apî no te horo'araa i te mau tauihaa"
+      ],
+      "impactSignals": [
+        "Te maraa nei te mau haamau'araa i roto i te faanahoraa area te KPI ra, aita ïa i taui",
+        "Aita te mau opuaraa i tufaa i rotopu i te faanahoraa, te hamaniraa e te faatupuraa",
+        "Te rohirohi nei te mau pŭpŭ i te tauiraa e te faufaa iti o te ohipa"
+      ]
+    },
+    "approach": {
+      "overview": "Te amui nei matou i te mau mana'o tauturu e te faanahoraa no te faatereraa, ma te faatu'ati i te hoho'a faatereraa, te aravihi o te rave'a, e te tereraa o te faatupuraa i ni'a i te mau opuaraa e nehenehe e faitohia.",
+      "pillars": [
+        {
+          "title": "Faufaa matamua",
+          "detail": "E faanaho matou i te mau opuaraa ia au i te mau faahopearaa o te ohipa e te mau fifi i te pae no te mau matini."
+        },
+        {
+          "title": "Hoho'a no te faanahoraa",
+          "detail": "Ua faataahia te mau ti'araa, te faatereraa e te mau ti'araa faaotiraa no te tauturu i te faatupuraa vitiviti i roto i te mau pŭpŭ ohipa e te mau rave'a apî."
+        },
+        {
+          "title": "Te faatereraa i te opereraa i te pute",
+          "detail": "E faaterehia te haereraa i mua o te tauiraa na roto i te mau vahi hi'opo'araa tu'atihia e te KPI e te hi'opo'araa i te mau fifi i roto i te pute moni."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Te haapapû nei ta matou faanahoraa tauiraa i te faaapîraa e te hopoi'a papû, ma te ape i te mau papa'iraa faahuehue ma te ore e faati'a i te ohipa tapihooraa.",
+      "items": [
+        {
+          "title": "Te faaauraa i te aravihi o te ohipa",
+          "detail": "Ua faanahohia te mau tauiraa o te mau rave'a apî i ni'a i te mau rave'a apî o te tu'ati ti'a i te moni apî, te maitai o te taviniraa, e aore râ, te haamau"
+        },
+        {
+          "title": "Faanahoraa no te faanahoraa composable",
+          "detail": "Ua ma'itihia te mau tuhaa o te tahua no te turu i te tereraa e te faatanoraa vitiviti."
+        },
+        {
+          "title": "Te faatereraa e te tereraa o te horo'araa",
+          "detail": "Ua tuuhia te mau apooraa faaotiraa e te mau vahi hi'opo'araa i roto i te mau ohuraa sprint e te mau toru ava'e, eiaha râ mai te mau e'a taa ê a te piha ohipa."
+        }
+      ]
+    },
+    "capabilities": [
+      "Te mau hoho'a arata'i no te tauiraa roro uira",
+      "Faanahoraa no te mau rave'a apî",
+      "Te mau faanahoraa no te faaohiparaa i te cloud",
+      "Te faananearaa i te mau ohipa",
+      "Faatereraa i te tauiraa"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Foundation",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Tahua haamaramaramaraa",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Haamaramaramaraa no te faaotiraa",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Faanahoraa puai",
+        "category": "Low-code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Te tahoêraa",
+        "icon": "microsoftsharepoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Faanahoraa no te faaauraa",
+        "summary": "Te faatano nei matou i te mau ohipa matamua a te feia faatere e te mau opuaraa roro uira no te faatupu i te hoê avei'a no te tauiraa amui.",
+        "deliverables": [
+          "Te mau opuaraa no te tauiraa e te mau titauraa no te manuïaraa",
+          "Te paari o te aravihi e te hi'opo'araa i te taa-ê-raa",
+          "Faanahoraa matamua"
+        ]
+      },
+      {
+        "title": "Hoho'a no te faatupuraa",
+        "summary": "E faataa matou i te hoho'a faatereraa, te mau faatureraa no te hamaniraa, e te ana'iraa o te faaohiparaa.",
+        "deliverables": [
+          "Hoho'a ohipa e te faanahoraa faatereraa",
+          "Te mau faatureraa no te mau rave'a apî e te faanahoraa",
+          "Hoho'a arata'i no te faaohiparaa"
+        ]
+      },
+      {
+        "title": "Tauiraa e te faatupuraa i te faufaa",
+        "summary": "Te arata'i nei matou i te fariiraa, te hi'opo'araa i te tereraa o te KPI, e te haamaitai nei matou i te mau opuaraa ia au i te mau hopearaa.",
+        "deliverables": [
+          "Faanahoraa no te fariiraa e te faati'araa",
+          "Te faito o te faito KPI",
+          "Te faananearaa i te mau ava'e atoa"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "A haamata i to outou tere no te tauiraa",
+      "description": "A arata'i i te tauiraa na roto i te mau ohipa matamua maramarama e te mau faanahoraa faaohiparaa.",
+      "button": "Tarena i te tuhaa pureraa no te faanahoraa"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Edge Computing",
+      "description": "Te mau faanahoraa tu'atihia mai te matini e tae atu i te ata, e te mau rave'a no te telemetry e te maramarama no te mau fare hamaniraa."
+    },
+    "sections": {
+      "problem": {
+        "title": "Faanahoraa no te fifi i te pae no te ohipa",
+        "subtitle": "No te aha te mau faanahoraa no te mau matini tu'atihia e ore ai e faarahi atu i te mau faanahoraa tamataraa"
+      },
+      "approach": {
+        "title": "Rave'a no te ohipa aravihi",
+        "subtitle": "Nahea matou i te hamani i te mau faanahoraa IoT papû e te nehenehe e faaohipahia mai te firmware o te matini e tae atu i te mau API cloud"
+      },
+      "principles": {
+        "title": "Te mau parau tumu no te paturaa fare",
+        "subtitle": "Te mau ture no te hamaniraa i te pae no te ti'aturiraa, te taereraa e te faatereraa i te mau pereoo"
+      },
+      "capabilities": {
+        "title": "IoT Solutions",
+        "subtitle": "A tu'ati, a hi'opo'a e a faananea i ta outou mau matini"
+      },
+      "technology": {
+        "title": "IoT Technology Stack",
+        "subtitle": "Mai te mau matini e tae atu i te cloud"
+      },
+      "breakdown": {
+        "title": "Te fifi o te taviniraa",
+        "subtitle": "Nahea tatou i te horo'a i te mau faanahoraa tu'atihia mai te mau matini i te pae no te cloud"
+      }
+    },
+    "problem": {
+      "overview": "E mea pinepine te mau opuaraa IoT i te haapapû i te aravihi i roto i te mau pairati manureva, tera râ, aita te reira i manuïa no te tu'atiraa papû ore, te paruparu o te hi'opo'araa i te mau manureva e te tu'atiraa ore i roto i te tereraa ohipa.",
+      "painPointsTitle": "Te mauiui tamau i te pae tapihooraa",
+      "impactSignalsTitle": "Te mea ta te feia faatere e hi'opo'a nei",
+      "painPoints": [
+        "E vai noa te faanahoraa no te faaohiparaa i te mau matini e te tereraa o te oraraa i te mau hape",
+        "E horo'a mai te mau rave'a niuniu i te mau haamaramaramaraa maniania ore, hope ore e aore râ, taere",
+        "E faatupu te mau faananearaa i te mau faanahoraa i te atea e te mau firmware i te fifi no te parururaa e te parururaa"
+      ],
+      "impactSignals": [
+        "E manuïa te mau faanahoraa no te hamaniraa, tera râ, e mea pinepine te mau taime no te hamaniraa i te ore e tupu",
+        "E ohipa te mau pŭpŭ ohipa i mua i te mau ohipa ma te ore e ite atea",
+        "Eita ta te mau faanahoraa tapihooraa e nehenehe e faaohipa i te maramarama o te matini i te taime mau"
+      ]
+    },
+    "approach": {
+      "overview": "Te hamani nei matou i te mau faanahoraa IoT mai te mau faanahoraa opereraa hi'opo'ahia, ma te amui i te mau faatureraa no te taime tereraa paruruhia, te faaohiparaa i te mau ohipa, e te faatereraa i te tereraa i te faito o te mau pereoo.",
+      "pillars": [
+        {
+          "title": "Te faatereraa papû i te tereraa o te oraraa o te mau matini",
+          "detail": "Te faanahonahoraa, te ti'araa taata, te faaohuraa i te mau taviri, e te mau faananearaa firmware no te faaiti i te fifi o te tereraa ohipa."
+        },
+        {
+          "title": "Te faanahoraa o te telemetry",
+          "detail": "Na te mau rave'a haapurororaa e faatitiaifaro, e haapapû e e arata'i i te mau ohipa o te mau matini no te hi'opo'araa e no te hi'opo'araa i te taime mau."
+        },
+        {
+          "title": "Manureva hi'opo'araa i te mau tereraa o te mau manureva",
+          "detail": "E horo'a mai te hi'opo'araa, te faaararaa e te faatereraa atea i te hi'opo'araa papû i roto i te mau tauihaa operehia."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Te faaaifaito nei ta matou faanahoraa IoT i te mau faaotiraa i te pae no te faatereraa, te hi'opo'araa e te haapa'oraa i te parururaa.",
+      "items": [
+        {
+          "title": "Te ti'amâraa o te hiti e te faaauraa i te cloud",
+          "detail": "E tamau noa te mau ohipa faufaa roa i te taime e ino ai te reni a tu'ati ai i te mau faanahoraa cloud mai te mea e, te vai ra."
+        },
+        {
+          "title": "Te mau faanahoraa no te mau ohipa i faaauhia,",
+          "detail": "E faaohipa te mau pŭpŭ no te mau matini e te mau faanahoraa no te paruru i te tu'atiraa o te telemetry i roto i te mau faanahoraa atoa."
+        },
+        {
+          "title": "Parururaa i te mau matini ti'aturiraa ore",
+          "detail": "E faahepohia te haapapûraa te tahi i te tahi, te faufaa iti a'e, e te faautaraa huna i roto i te mau matini atoa."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT Device Management",
+      "Te mau rave'a no te mau maehaa roro uira",
+      "Faaohiparaa i te Edge Computing",
+      "Telemetry i te taime mau",
+      "Te atuaturaa tohu"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Te mau maehaa roro uira",
+        "category": "Faahoho'araa",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "Edge Computing",
+        "category": "Te hiti",
+        "icon": "microsoftazure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Parau faaau",
+        "icon": "mqtt"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Parau faaau",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Te mau tauihaa",
+        "icon": "arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Te mau tauihaa",
+        "icon": "Raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Ana'iraa tau DB",
+        "icon": "InfluxDB"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Faanahoraa no te mau matini e te mau hi'opo'araa",
+        "summary": "E faataa matou i te mau hoho'a tu'atiraa, te mau faatureraa no te taime tereraa, e te faanahoraa papû no te mau matini i roto i te tahua.",
+        "deliverables": [
+          "Hoho'a no te faaohiparaa i te mau matini e te tu'atiraa",
+          "Edge runtime e te faanahoraa no te faaohiparaa",
+          "Te niu no te parururaa i te mau pahi"
+        ]
+      },
+      {
+        "title": "Telemetry & Control Plane",
+        "summary": "Te hamani nei matou i te mau rave'a no te haru i te mau ohipa, no te faahoho'a i te mau maehaa roro uira, e no te faati'a i te tereraa ohipa no te hi'opo'araa atea.",
+        "deliverables": [
+          "Te faaôraa i te taime mau e te faanahoraa o te mau ohipa",
+          "Faaohiparaa i te mau maehaa roro uira e te hoho'a faufaa",
+          "Command and control API layer"
+        ]
+      },
+      {
+        "title": "Te mau ohipa e te faito",
+        "summary": "Te faaohipa nei matou i te faatereraa i te mau pereoo e te mau hi'opo'araa i te ti'aturiraa no te mau vahi IoT no te hamaniraa.",
+        "deliverables": [
+          "Te hi'opo'araa e te faaararaa i te mau matini",
+          "Te atuaturaa e te hi'opo'araa i te mau anomali",
+          "Faanahoraa no te patururaa i te tereraa o te oraraa"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "A tu'ati i ta outou mau matini",
+      "description": "Hamani i te mau rave'a IoT papû tei ineine no te hamaniraa mau.",
+      "button": "Haamata i ta outou opuaraa IoT"
+    }
+  }
+}

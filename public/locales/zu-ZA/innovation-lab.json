@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "I-Innovation Lab",
+    "description": "Hlola ama-demos asebenzisanayo, izivivinyo, nemibukiso yezobuchwepheshe evela eqenjini lethu lonjiniyela.",
+    "primary": "Hlola ama-demos",
+    "secondary": "Buka ucwaningo"
+  },
+  "overview": {
+    "hero": {
+      "title": "I-Innovation Lab",
+      "description": "Sihlola imingcele esebenzayo ku-AI, i-automation, nezinhlelo ezisatshalalisiwe, bese sihumusha ucwaningo oluqinisekisiwe kumakhono okukhiqiza athembekile.",
+      "primary": "Hlola izindawo zocwaningo",
+      "secondary": "Xoxa ngokubambisana"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Izindawo Zocwaningo",
+        "description": "Indawo ngayinye yokugxila ihlanganisa ucwaningo lokuhlola nezindlela zokuqalisa ezenzelwe izinhlelo zomhlaba wangempela.",
+        "cardCta": "Hlola ukugxila"
+      },
+      "detailedFocusBriefs": {
+        "title": "Imininingwane Yokugxila Okuningiliziwe",
+        "description": "Izinhlelo zocwaningo zesikhathi esiseduze njengamanje zisuka ekuqinisekisweni kwezakhiwo kuya ezinhlelweni zokulethwa."
+      },
+      "fromLabToProduction": {
+        "title": "Kusuka Lab kuya ekukhiqizeni",
+        "description": "Ukuqamba ku-Horizon kulinganiswa ngemiphumela ethunyelwe, hhayi ama-prototypes ahlukene."
+      },
+      "roadmap": {
+        "title": "I-R &D Roadmap",
+        "description": "Inqubekela phambili esiteji kusuka ekwakhiweni kwamakhono kuya ezinhlelweni ezivumelanisa nezimo, eziqhubekayo ezithuthukayo."
+      },
+      "publications": {
+        "title": "Publications & Insights",
+        "description": "Ukubhala kwezobuchwepheshe kanye namanothi okuqaliswa okuvela emsebenzini oqhubekayo wokuqamba."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Izinhlelo ze-AI ezisetshenzisiwe",
+        "description": "Izakhiwo ze-AI ezigxile ekukhiqizeni ezihlanganisa ukukhonza imodeli, i-orchestration yesici, nokuhlolwa okulawulwayo."
+      },
+      "automationFrameworks": {
+        "title": "Izinhlaka ze-automation",
+        "description": "Amathuluzi okuzenzekelayo angaphakathi okuphepha kokuthunyelwa, ukuphendula kwezigameko, kanye nokuhamba komsebenzi kobunjiniyela okuphindaphindiwe."
+      },
+      "advancedArchitecture": {
+        "title": "Ukuhlolwa Kwezakhiwo Ezithuthukisiwe",
+        "description": "Ucwaningo ngezakhiwo eziqinile, ezisatshalaliswa ezilungiselelwe ukusebenza, ukubekezelelana kwamaphutha, kanye nesikali."
+      },
+      "edgeAndIot": {
+        "title": "I-Edge Computing ne-IoT Intelligence",
+        "description": "Ubuhlakani onqenqemeni lwezinqumo ze-latency ephansi, ukucubungula i-telemetry, nokuhlanganiswa kwemikhumbi yamadivayisi."
+      },
+      "nlp": {
+        "title": "Ukucubungula Ulimi Lwemvelo",
+        "description": "Amapayipi okuqonda izilimi eziningi zokuhlukanisa, ukukhipha, ukuhumusha, nezinhlelo zokuxoxa."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Ama-algorithms wokuziphendukela kwemvelo kanye nokusebenza kahle",
+        "description": "Izinhlelo zokusesha nokusebenza kahle eziphefumulelwe ukukhethwa kwemvelo ukuxazulula izinselelo zobunjiniyela obuphezulu."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Izinhlaka ze-automation",
+        "description": "Sakha izinhlaka zokuhamba komsebenzi ezihlanganisiwe zokukhishwa kwe-orchestration, amasango ekhwalithi, kanye nokuqinisekiswa kwe-post-deploy ukunciphisa ukungqubuzana kwesandla ngenkathi kuthuthukiswa ukuthembeka."
+      },
+      "advancedArchitecture": {
+        "title": "Ukuhlolwa Kwezakhiwo Ezithuthukisiwe",
+        "description": "Ukuhlolwa kwethu kwezakhiwo kugxile kumasu okubola kwezinsizakalo, amaphethini wokuqina kwesifunda, kanye nezimvilophu zokusebenza kwezinhlelo ezisebenza ngaphansi kwesidingo esiguquguqukayo."
+      },
+      "edgeAndIot": {
+        "title": "I-Edge Computing ne-IoT Intelligence",
+        "description": "Siqinisekisa ukusakazwa komcimbi kanye nemiklamo ye-inference onqenqemeni evumela izinqumo zendawo ezisheshayo ngenkathi sigcina ukulawulwa okuphakathi, ukuhlolwa, kanye nokuphathwa komjikelezo wempilo yemodeli."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Ukuhlelwa Komthamo Wokuguquguquka",
+        "description": "Ama-prototypes welebhu aqinisekisiwe ngokumelene nemithwalo yomsebenzi elinganisiwe bese ehlanganiswa namasu we-autoscaling wepulatifomu."
+      },
+      "operationalIntelligence": {
+        "title": "Ubuhlakani bokusebenza",
+        "description": "Amapayipi e-NLP asuka ekuhlolweni okulawulwayo kuya ekusekeleni ukukhiqizwa komsebenzi wokuhlunga okusheshayo nokuqonda okucacile."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Ukwenza ngcono ezinhlelweni zokulethwa",
+        "description": "Izindlela zokuziphendukela kwemvelo ezihlolwe elabhorethri zihunyushelwa zibe izinjini zokuhlela nokuhlabelwa."
+      },
+      "edgeDecisioning": {
+        "title": "Izinqumo ze-Edge",
+        "description": "Ukuhlolwa kwe-IoT kanye nokuhlolwa kwe-inference onqenqemeni kuqiniswa kumasevisi we-latency ephansi ngezingqinamba eziqinile zokuthembeka."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Manje",
+        "title": "Izisekelo ze-AI ezisetshenzisiwe",
+        "description": "Khulisa izifanekiso ezisebenzisekayo, ama-suites wokuhlola, namazinga okubuka kuwo wonke amaqembu emikhiqizo."
+      },
+      "next": {
+        "phase": "Okulandelayo",
+        "title": "I-Autonomous Engineering Workflows",
+        "description": "Sebenzisa izinhlaka ezizenzakalelayo ezinciphisa ubungozi bokuthunyelwa futhi zinciphise ama-loops wempendulo yokuthumela."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "Izinyanga ezingu-12-18",
+        "title": "Ubuhlakani be-Edge-Native",
+        "description": "Linganisa izakhiwo ze-hybrid cloud-edge zesikhathi sangempela ezindaweni ezizwela i-latency."
+      },
+      "longHorizon": {
+        "phase": "I-Long Horizon",
+        "title": "Izinhlelo zokusebenza okuqhubekayo",
+        "description": "Hlanganisa ukuhlola, ukuqapha, nokwenza ngcono ukuze izinhlelo zikwazi ukuzivumelanisa ngokuphepha njengoba izimo zishintsha."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Izinhlelo ze-AI zobunjiniyela ezihlala zithembekile ekukhiqizeni",
+        "summary": "Umbono osebenzayo wokulinganisa ijubane lokuhlola nokuphathwa kokukhiqiza.",
+        "cta": "Funda imibono"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Amaphethini wezakhiwo ezisatshalalisiwe zamapulatifomu okukhula okuphezulu",
+        "summary": "Amanothi ensimini avela ezivivinyweni zokwakha agxile ekusebenzeni, ukuqina, kanye nokusebenza okulula.",
+        "cta": "Buyekeza izifundo zamacala"
+      },
+      "roadmappingAppliedRd": {
+        "title": "I-Roadmapping Applied R &D yemiphumela yebhizinisi",
+        "summary": "Indlela esihlela ngayo imizamo emisha ukuze okutholakele kuhambe kusuka ku-prototype kuya kunani elilinganiswayo.",
+        "cta": "Hlola izincwadi"
+      }
+    },
+    "cta": {
+      "title": "Yakha nge-Horizon Innovation Lab",
+      "description": "Sebenzisana nathi ukuqinisekisa imibono yokuvelela ngokushesha futhi uhambise imiqondo efakazelwe ezinhlelweni zokukhiqiza eziphephile, eziguquguqukayo.",
+      "primary": "Qala ingxoxo",
+      "secondary": "Buka Imiphumela Yokulethwa"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Izinhlelo ze-AI ezisetshenzisiwe",
+      "description": "Ukubuka konke okusebenzayo kokuthi i-Horizon iklama, ihambisa futhi isebenze kanjani izinhlelo zokufunda ngomshini kusuka ku-prototype kuya ekukhiqizeni.",
+      "back": "Buyela emuva ku-Innovation Lab",
+      "tags": {
+        "appliedAi": "I-AI esetshenzisiwe",
+        "mlops": "Ama-MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Amapayipi wokufunda ngomshini",
+        "description": "I-AI yokukhiqiza iqala ngamapayipi akhiqiza kabusha axhumanisa idatha, ukuhlola, ukuqinisekisa, kanye nempendulo."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Amaphethini wokuthunyelwa kwemodeli",
+        "description": "Isu lokuthumela likhethwe ngokususelwa kuzidingo ze-latency, ukugxeka kwebhizinisi, kanye nobunzima bokusebenza."
+      },
+      "mlopsOperatingModel": {
+        "title": "Imodeli yokusebenza ye-MLOps",
+        "description": "Imikhuba ye-MLOps iqinisekisa ukuthi izinhlelo ze-AI zihlala zithembekile, zilawulwa, futhi ziyakwazi ukusabalala njengoba ukusetshenziswa kukhula."
+      },
+      "monitoringAndReliability": {
+        "title": "Ukuqapha nokwethenjelwa",
+        "description": "Ukubonwa kuvala i-loop phakathi kokuziphatha kwemodeli nemiphumela yokusebenza."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Ubunjiniyela bedatha nobunjiniyela bezici",
+        "description": "Ukufakwa kwedatha okunguquliwe, ukuhlolwa kwekhwalithi, nezincazelo zezici ezisebenzisekayo kudala isisekelo esithembekile sokuqeqeshwa kwemodeli."
+      },
+      "modelDevelopment": {
+        "title": "Ukuthuthukiswa kwemodeli",
+        "description": "Ukuhlolwa kulandelwa ngokucushwa okuphindaphindiwe, amamethrikhi enhloso, kanye nezisekelo zokuqhathanisa ezizenzakalelayo."
+      },
+      "validationAndSafetyGates": {
+        "title": "Amasango okuqinisekiswa nokuphepha",
+        "description": "Amamodeli wokhetho adlula ukusebenza, ukuqina, nokuhlolwa kwenqubomgomo ngaphambi kokuthi avunyelwe ukukhishwa."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Ama-loops wempendulo yokusebenza",
+        "description": "I-post-deployment telemetry yazisa izinto eziza kuqala ukuqeqesha kabusha, izinqumo zokubuyisela emuva, nokuhlelwa okulandelayo kwe-iteration."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Izinsizakalo ze-Inference yesikhathi sangempela",
+        "description": "Ama-API we-latency ephansi wezinhlelo zokusebenza ezisebenzisanayo nge-autoscaling, i-caching, kanye nokubuka kwezinga lesicelo."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Izibikezelo ze-Batch ne-Streaming",
+        "description": "Amapayipi ahleliwe futhi aqhutshwa ngumcimbi wokushaya amaphuzu aphezulu kuwo wonke ama-analytics kanye nokuhamba komsebenzi kokusebenza."
+      },
+      "edgeAwareDeployment": {
+        "title": "Ukuthunyelwa kwe-Edge-Aware",
+        "description": "Amaphethini wokukhonza amafu e-hybrid ezindaweni ezidinga ukuqondiswa kwendawo nokuphathwa kwemodeli ephakathi."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "I-CI / CD yamamodeli",
+        "description": "Ukwakhiwa okuzenzakalelayo, ukuhlola, nokukhipha ukuhamba komsebenzi kunciphisa ubungozi bokuthunyelwa ngenkathi kugcinwa ijubane lokulethwa."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Irejista Yemodeli Nomjikelezo Wokuphila",
+        "description": "Izinto ezifakiwe zemodeli ezinezigaba zokuphromotha, umugqa, kanye nokuvunywa komsebenzi kuthuthukisa ukulawula nokulandelela."
+      },
+      "servingInfrastructure": {
+        "title": "Ukukhonza ingqalasizinda",
+        "description": "Izingqimba zokukhonza ezisezingeni eliphakeme ezinamasu okukhipha afana nokuthunyelwa kwe-canary nesithunzi kusekela ukuphathwa kwezinguquko okuphephile."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Ikhwalithi yokubikezela nokutholwa kwe-drift",
+      "latencyThroughputAndCostEfficiencyTracking": "I-latency, i-throughput, kanye nokulandela umkhondo wokusebenza kahle kwezindleko",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Izixwayiso zokubuyiselwa emuva kwekhwalithi yedatha kanye nokulungiswa komsebenzi",
+      "auditabilityForComplianceAndIncidentAnalysis": "Ukuhlolwa kokuhambisana nokuhlaziywa kwezigameko"
+    },
+    "cta": {
+      "title": "Linganisa i-AI esetshenzisiwe ngokuzethemba",
+      "description": "Uma uhlela izinhlelo ze-AI ezidinga imiphumela elinganiswayo nokugcinwa kwesikhathi eside, i-Horizon ingasiza ukuklama nokusebenza komjikelezo ophelele wokuphila kohlelo.",
+      "primary": "Khuluma nethimba lethu",
+      "secondary": "Hlola Umsebenzi Welebhu Owengeziwe"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "I-NLP yezilimi eziningi",
+      "description": "Hlola amakhono okucubungula ulimi lwemvelo nokuthi akhula kanjani abe yizinhlelo zokukhiqiza ezithembekile, ezikhuluma izilimi eziningi.",
+      "back": "Buyela emuva ku-Innovation Lab",
+      "tags": {
+        "demo": "Idemo esebenzisanayo",
+        "intelligence": "Ubuhlakani bolimi"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "Izisekelo ze-NLP",
+        "description": "Ukucubungula ulimi lwemvelo kuhlanganisa izimpawu zolimi nokufunda komshini ukukhipha incazelo, inhloso, nesakhiwo embhalweni."
+      },
+      "workbench": {
+        "title": "I-NLP Workbench esebenzisanayo",
+        "description": "Sebenzisa idemo ukuhlola ukutholwa kolimi, ukushaya imizwa, ukukhishwa kwenhlangano, nokuziphatha kokuhumusha ngesikhathi sangempela."
+      },
+      "productionApplications": {
+        "title": "I-Horizon isebenzisa kanjani i-NLP ekukhiqizeni",
+        "description": "Amakhono e-NLP ahlanganiswe ekuhambeni komsebenzi webhizinisi ngama-guardrails okusebenza kanye namamethrikhi ekhwalithi ecacile."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Izimiso Zokuthembeka Nokubusa",
+        "description": "Ukukhiqizwa kwe-NLP kudinga okungaphezu kwekhwalithi yemodeli; kuncike emikhubeni ephephile yokukhishwa kanye nokuqinisekiswa okuqhubekayo."
+      }
+    },
+    "foundations": {
+      "intro1": "Izinhlelo zanamuhla ze-NLP zamandla ukusekela i-automation, ukubaluleka kokusesha, ukukhishwa kolwazi, nokusebenzisana kwezilimi eziningi. Ukuqaliswa okusebenzayo kudinga kokubili ikhwalithi yemodeli kanye nokulawulwa okuqinile kokusebenza.",
+      "intro2": "E-Horizon, sigxila ezinhlelweni ze-NLP zokuphela kokuphela ezihlanganisa ukuqwashisa okuqinile nokubonakala, ukuphatha, kanye nomthelela wokukhiqiza olinganiswayo."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Ukutholwa kolimi",
+        "description": "Ikhomba ulimi oluvela ezingxenyeni zombhalo omfushane noma omude ukuhambisa izicelo kupayipi lokucubungula elifanele."
+      },
+      "sentimentAnalysis": {
+        "title": "Ukuhlaziywa kwemizwa",
+        "description": "Ikhipha inhloso engokomzwelo kanye ne-polarity yobuhlakani bamakhasimende, ukuhlukaniswa kokusekela, kanye nama-loops wempendulo yomkhiqizo."
+      },
+      "entityExtraction": {
+        "title": "Ukukhishwa kwenhlangano",
+        "description": "Ithola izinhlangano ezihlelekile njengamagama, izinkampani, izindawo, nezinsuku ezivela embhalweni ongahlelekile."
+      },
+      "translation": {
+        "title": "Ukuhumusha",
+        "description": "Isekela ukuhamba komsebenzi kwezilimi eziningi ngokuhumusha umbhalo okhiqizwe ngumsebenzisi noma osebenzayo ngenkathi ugcina umongo."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Ukusekela kanye ne-Ticket Intelligence",
+        "description": "Hlukanisa izicelo ezingenayo ngokuphuthumayo, inhloso, kanye nemizwa yokusheshisa umzila nekhwalithi yokuphendula."
+      },
+      "governedContentOperations": {
+        "title": "Imisebenzi Yokuqukethwe Okulawulwayo",
+        "description": "Sebenzisa izihlungi zolimi ezinolwazi lwenqubomgomo kanye nokuhlolwa kokulinganisa ngokunemba okulinganisiwe nokukhumbula imigomo."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Imininingwane Yebhizinisi Eqhutshwa Umbhalo",
+        "description": "Hlanganisa amathrendi avela kumadokhumenti, ukubuyekezwa, nokuxhumana ukwazisa amasu nezinqumo zokusebenza."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Ukuhlolwa Ngecala Lokusebenzisa",
+        "description": "Amamodeli alinganiswa ngokumelene nedatha eqondene nesizinda ngaphambi kokuba kwenziwe izinqumo zokukhishwa."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Ukuvikelwa komuntu ku-in-the-loop",
+        "description": "Izibikezelo ezinomthelela omkhulu zifaka izindlela zokubuyekeza, imithetho yokukhuphuka, kanye nezimpawu zokuzethemba ezisobala."
+      },
+      "continuousMonitoring": {
+        "title": "Ukuqapha okuqhubekayo",
+        "description": "I-Drift, i-latency, kanye nokuwohloka kwekhwalithi kulandelwa ngokuqhubekayo ngakho-ke ukuqeqeshwa kabusha nokubuyiselwa emuva kuyasebenza."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Ukulingisa kwe-Genetic Algorithm",
+      "description": "Hlola ukubalwa kokuziphendukela kwemvelo endaweni esebenzisanayo futhi ubone ukuthi izimiso ezifanayo zihumusha kanjani ezinhlelweni zokukhiqiza ukukhiqizwa.",
+      "back": "Buyela emuva ku-Innovation Lab",
+      "tags": {
+        "demo": "Idemo esebenzisanayo",
+        "optimizationScience": "Isayensi Yokusebenza Kahle"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Isisekelo seSayensi",
+        "description": "Ama-algorithms wezakhi zofuzo ayindlela yokuthuthukisa abantu ephefumulelwe ukukhethwa kwemvelo nokuzivumelanisa nezimo."
+      },
+      "interactiveEnvironment": {
+        "title": "Imvelo Yokuziphendukela Kwezinto Ezisebenzisanayo",
+        "description": "Sebenzisa ukulingisa ukuze ubone ukuqina kuthuthukise isizukulwane ngesizukulwane futhi ubone ukuthi ingcindezi yokukhetha ithinta kanjani imiphumela."
+      },
+      "productionUse": {
+        "title": "I-Horizon isebenzisa kanjani lokhu ekukhiqizeni",
+        "description": "Imishini efanayo yokusesha esetshenziswe kule demo yazisa amapayipi okuthuthukisa asetshenziswa ezinhlelweni zokusebenza."
+      },
+      "applicationDomains": {
+        "title": "Izizinda Zohlelo Lokusebenza Ezibanzi",
+        "description": "Ukuziphendukela kwemvelo kubaluleke kakhulu ezinhlelweni ezinezinhloso ezinamandla nezingqinamba eziphikisanayo."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Esikhundleni sokufuna isixazululo esisodwa ngesikhathi, ama-algorithms wezakhi zofuzo ashintsha inani elihlukahlukene labantu abakhethiwe. Isizukulwane ngasinye sihlolwa ngokumelene nomsebenzi wokuqina futhi sihlanjululwe ngokukhetha, ukuwela, nokuguqulwa.",
+      "intro2": "Lokhu kubenza baphumelele ezinkingeni eziphezulu ngezingqinamba ezingezona zomugqa, lapho izindlela zokunquma ziba buthakathaka noma zibiza kakhulu."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Ukukhethwa",
+        "description": "Abazongenela ukhetho oluphezulu maningi amathuba okuthi basinde futhi babe nomthelela esizukulwaneni esilandelayo."
+      },
+      "crossover": {
+        "title": "I-Crossover",
+        "description": "Izimfanelo eziqinile zihlanganiswa kabusha ukudala izixazululo ezintsha ezinamandla ahlanganisiwe."
+      },
+      "mutation": {
+        "title": "Ukuguqulwa",
+        "description": "Ukungahleliwe okulawulwayo kuletha ukwehluka ukuze ukusesha kungami ezungeze i-optima yendawo."
+      },
+      "convergence": {
+        "title": "Ukuhlanganiswa",
+        "description": "Ezizukulwaneni eziningi, abantu bathambekele ekuxazululeni izixazululo ezizinzile, ezisezingeni eliphakeme."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Ukuhlelwa Kwemithombo",
+        "description": "Sisebenzisa amasu okuziphendukela kwemvelo ukwenza ngcono ukuhlelwa kwezingqinamba eziningi lapho ukusesha okunamandla kungenakwenzeka."
+      },
+      "architectureTuning": {
+        "title": "Ukulungiswa kwezakhiwo",
+        "description": "Ukucushwa kwengqalasizinda yokhetho kuhlolwa ngokuphindaphindiwe ukuze kuthuthukiswe ukusebenza nokusebenza kahle kwezindleko."
+      },
+      "continuousOptimization": {
+        "title": "Ukwenza kahle okuqhubekayo",
+        "description": "Imisebenzi yokuthuthukisa isebenza kuma-loops alawulwayo ngempendulo ye-telemetry ukuze izinhlelo zivumelane njengoba amaphrofayli okufunwa eshintsha."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Ukuhlelwa komzila kanye ne-Logistics",
+        "description": "Ukulethwa okuyinkimbinkimbi nokuhlelwa kokuthumela kuzuza ekusesheni okuziphendukela kwemvelo lapho izingqinamba zishintsha ngokushesha."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Imodeli kanye ne-Hyperparameter Search",
+        "description": "Ukusesha kwezakhi zofuzo kungathola ukucushwa kwemodeli esezingeni eliphakeme lapho izindawo ezihlosiwe zinomsindo futhi zingahambisani nomugqa."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Izinkinga zephothifoliyo kanye nokwabiwa",
+        "description": "Ukwenza kahle ngaphansi kwemigomo yokuncintisana kungahlelwa njenge-tradeoffs yokuqina kuwo wonke amasethi aguqukayo."
+      }
+    }
+  }
+}

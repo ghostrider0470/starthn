@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Mal",
+    "company": "Şîrket",
+    "solutions": "Çareserî",
+    "resources": "Çavkanî",
+    "innovationLab": "Laboratuara Nûjeniyê",
+    "contact": "Têkilî",
+    "about": {
+      "title": "Derbarê",
+      "description": "Mîsyon, vîzyon û çîroka me"
+    },
+    "team": {
+      "title": "Tîm",
+      "description": "Bi mirovên li pişt Horizon Tech re hevdîtin bikin"
+    },
+    "careers": {
+      "title": "Kariyer",
+      "description": "Beşdarî tîma me bibin û pêşerojê ava bikin"
+    },
+    "enterpriseSoftware": {
+      "title": "Pêşveçûna Nermalava Enterprise",
+      "description": "Serîlêdanên pargîdaniya xwerû yên bi çarçoveyên nûjen"
+    },
+    "aiMl": {
+      "title": "AI, ML û Îstîxbarata Karsaziyê",
+      "description": "Pipelines AI / ML û dashboardên BI temam bikin"
+    },
+    "cloudArchitecture": {
+      "title": "Mîmarî û Binesaziya Cloud",
+      "description": "Çareseriyên pir-ewr û orkestrasyona konteynerê"
+    },
+    "iot": {
+      "title": "IoT & Edge Computing",
+      "description": "Ekosîstemên cîhazên girêdayî û cêwiyên dîjîtal"
+    },
+    "devops": {
+      "title": "DevOps û Endezyariya Platformê",
+      "description": "Xetên borî yên CI / CD û binesaziya wekî kod"
+    },
+    "digitalTransformation": {
+      "title": "Veguherîn û Stratejiya Dîjîtal",
+      "description": "Nexşeyên rê û şêwirmendiya veguherîna pargîdaniyê"
+    },
+    "caseStudies": {
+      "title": "Lêkolînên Bûyerê",
+      "description": "Çîrokên serfiraziyê ji xerîdarên me",
+      "featured": {
+        "title": "Lêkolîna Bûyerê ya Bijartî",
+        "description": "Kûr li tevlêbûnek radestkirina tevahî bigerin"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Têgihiştin, tutorials û trendên pîşesaziyê",
+      "featured": {
+        "title": "Posta Blogê ya Bijartî",
+        "description": "Yek ji ramanên me yên endezyariyê yên herî dawî bixwînin"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Lêkolîna Laboratuara Nûjeniyê",
+      "description": "Hemî qadên lêkolînê û şopên ezmûnî bibînin"
+    },
+    "innovationLabAiSystems": {
+      "title": "Pergalên AI-yê yên Applied",
+      "description": "Modelên mîmariya fêrbûna makîneyê yên amade yên hilberînê"
+    },
+    "innovationLabNlp": {
+      "title": "NLP ya Pirzimanî",
+      "description": "Kapasîteyên pêvajoyên zimanê xwezayî yên înteraktîf"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Sîmulasyona Algorîtmaya Genetîk",
+      "description": "Optîmîzasyona peresanê di hawîrdora înteraktîf de"
+    },
+    "navigation": "Navîgasyon",
+    "skipToContent": "Derbasî naverokê bibe",
+    "toggleMenu": "Menuya guherandinê",
+    "dashboard": "Dashboard",
+    "myWorkspace": "Qada Xebata Min",
+    "profile": "Profîl",
+    "adminPanel": "Panela Rêveberiyê",
+    "practiceManagement": "Rêveberiya Pratîkê",
+    "logOut": "Derketin",
+    "education": {
+      "title": "Çavkaniyên Teknîkî",
+      "description": "Rêber, tutorials û pratîkên çêtirîn ji tîma Horizon Tech"
+    },
+    "support": {
+      "title": "Navenda Piştgiriyê",
+      "description": "Ji bo xizmetên me yên pêşvebirina nermalavê alîkariyê bistînin"
+    }
+  },
+  "footer": {
+    "description": "Destpêka pêşveçûna nermalavê ya ku li Sarajevo, Bosniya ye. Em nermalava xwerû, çareseriyên AI / ML, mîmariya ewr û pergalên otomasyonê ava dikin.",
+    "features": "Taybetmendiyên",
+    "resources": "Çavkanî",
+    "company": "Şîrket",
+    "legal": "Qanûnî",
+    "dashboard": "Dashboard",
+    "components": "Pêkhate",
+    "documentation": "Belgekirin",
+    "apiReference": "Referansa API",
+    "gettingStarted": "Destpêkirin",
+    "examples": "Mînak",
+    "community": "Civak",
+    "blog": "Blog",
+    "caseStudies": "Lêkolînên Bûyerê",
+    "innovationLabOverview": "Lêkolîna Laboratuara Nûjeniyê",
+    "appliedAiSystems": "Pergalên AI-yê yên Applied",
+    "nlpDemo": "NLP ya Pirzimanî",
+    "geneticAlgorithmSimulation": "Sîmulasyona Algorîtmaya Genetîk",
+    "featuredBlogPost": "Posta Blogê ya Bijartî",
+    "featuredCaseStudy": "Lêkolîna Bûyerê ya Bijartî",
+    "about": "Derbarê",
+    "contact": "Têkilî",
+    "partners": "Hevkar",
+    "careers": "Kariyer",
+    "privacyPolicy": "Siyaseta Taybetmendiyê",
+    "termsOfService": "Şertên Xizmetê",
+    "cookiePolicy": "Polîtîkaya Cookie",
+    "license": "Lîsans",
+    "copyright": "© {{year}} Horizon Tech. Hemû maf parastî ne.",
+    "subscribe": "Bibin abone bultenê"
+  },
+  "header": {
+    "badge": "Çareseriyên Teknolojiya Enterprise",
+    "titleLine1": "Karsaziya xwe bi veguherînin",
+    "titleLine2": "Teknolojiya Herî Pêşketî",
+    "description": "Ji pêşveçûna nermalava pargîdanî û îstîxbarata karsaziyê ya AI-powered heya binesaziya ewr û çareseriyên IoT - em karûbarên teknolojiyê yên berfireh pêşkêş dikin ku nûjeniyê dimeşînin û mezinbûnê bilez dikin.",
+    "getStarted": "Dest pê bikin",
+    "exploreSolutions": "Çareseriyan Keşf Bikin",
+    "trustedBy": "Ji hêla pargîdaniyên pêşerojê ve ewle ne",
+    "microsoftPartner": "Hevkarê Microsoft",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "Çareseriyên Enterprise"
+  },
+  "mobileNav": {
+    "navigation": "Navîgasyona mobîl",
+    "home": "Mal",
+    "solutions": "Çareserî",
+    "caseStudies": "Doz",
+    "aiSystems": "AI Lab",
+    "blog": "Blog",
+    "resources": "Çavkanî",
+    "contact": "Têkilî"
+  },
+  "sideNav": {
+    "scroll": "Scroll",
+    "navigateTo": "Li {{section}}",
+    "sections": {
+      "home": "Mal",
+      "solutions": "Çareserî",
+      "credibility": "Bawerî",
+      "partners": "Hevkar",
+      "caseStudies": "Lêkolînên Bûyerê",
+      "blog": "Blog",
+      "innovationLab": "Laboratuara Nûjeniyê",
+      "faq": "Pirsên gişpirsî"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Ziman biguherîne",
+    "searchPlaceholder": "Zimanê lêgerînê...",
+    "noResults": "Ziman nehatin dîtin."
+  },
+  "common": {
+    "menu": "Menu",
+    "account": "hesab"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Lêkolînên Bûyerên Dawî",
+      "description": "Dîmenek encamên radestkirinê li seranserê fintech, tenduristî, lojîstîk û bernameyên sektora gelemperî.",
+      "cta": "Hemî Lêkolînên Bûyerê Bibînin"
+    },
+    "blog": {
+      "title": "Herî dawî ji bloga me",
+      "description": "Nîşeyên endezyariya pratîkî ji xebata dawî ya AI, platform û radestkirina ewr.",
+      "cta": "Hemû gotaran bixwînin"
+    },
+    "innovationLab": {
+      "title": "Laboratuara Nûjeniyê",
+      "description": "Prototîp, ceribandin, û projeyên R&D yên ji tîma endezyariya Horizon Tech vekolin.",
+      "cta": "Laboratuara Nûjeniyê Keşf Bikin"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Lêkolîna Bûyerê bixwînin",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Tenduristî",
+      "logistics": "Lojîstîk",
+      "manufacturing": "Hilberîn",
+      "government": "Hikûmet"
+    }
+  },
+  "blogCard": {
+    "read": "Bixwîne"
+  }
+}

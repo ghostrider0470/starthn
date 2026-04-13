@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Alusta",
+    "ctaSecondary": "Ajakava konsultatsioon"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Ettevõtte tarkvaraarendus",
+      "description": "Otsast lõpuni ettevõtterakendused kaasaegsete raamistikude, API-põhise arhitektuuri ja pilvepõhise skaleeritavusega."
+    },
+    "sections": {
+      "problem": {
+        "title": "Äriprobleemide raamistamine",
+        "subtitle": "Kus ettevõtte programmid kaotavad kiiruse, eelarve ja strateegilise kooskõla"
+      },
+      "approach": {
+        "title": "Insenerilähenemine",
+        "subtitle": "Kuidas muuta ebamäärased nõuded tootmisvalmis platvormideks"
+      },
+      "principles": {
+        "title": "Arhitektuuri põhimõtted",
+        "subtitle": "Disainiotsused, mis hoiavad ettevõtte süsteeme suures mahus hooldatavana"
+      },
+      "capabilities": {
+        "title": "Mida me ehitame",
+        "subtitle": "Terviklikud tarkvaraarenduse võimalused"
+      },
+      "technology": {
+        "title": "Meie tehnoloogiapakk",
+        "subtitle": "Kaasaegsed, tõestatud tehnoloogiad ettevõtete tarnimiseks"
+      },
+      "breakdown": {
+        "title": "Teenuse jaotus",
+        "subtitle": "Struktureeritud tee avastamisest stabiilse tootmise tarnimiseni"
+      }
+    },
+    "problem": {
+      "overview": "Ettevõtte meeskonnad kannavad sageli kriitilisi töövooge killustatud süsteemidel, mis tekitab pikki tarneaegu, ebajärjekindlaid andmeid ja kulukat käsitsi koordineerimist osakondade vahel.",
+      "painPointsTitle": "Korduv äriline valu",
+      "impactSignalsTitle": "Mida juhid tavaliselt tähele panevad",
+      "painPoints": [
+        "Kohaletoimetamise kohustused langevad, sest meeskondade sõltuvused on haldamata",
+        "Põhiline äriloogika dubleerub kanalite ja toodete vahel",
+        "Pärandintegratsioonid muudavad uute funktsioonide käivitamise kõrge riskiga ja aeglaseks"
+      ],
+      "impactSignals": [
+        "Teekaardi läbilaskevõime langeb, samal ajal kui insenerikulud kasvavad",
+        "Kliendile suunatud defektid suurenevad väljalaskeperioodidel",
+        "Otsuste tegemine aeglustub ebajärjekindla operatiivse aruandluse tõttu"
+      ]
+    },
+    "approach": {
+      "overview": "Teostame arhitektuuripõhise avastuse, lepingupõhise tarnetöö ja kontrollitud väljalaske inseneriteaduse kaudu, nii et äriväärtus jõuab etteaimatavate sammudena.",
+      "pillars": [
+        {
+          "title": "Domeenimudelid ja piiratud kontekstid",
+          "detail": "Me kaardistame domeenid, et puhastada teenuse piire, et vähendada meeskondadevahelist sidumist ja selgitada omandit."
+        },
+        {
+          "title": "API-põhise integratsioonistrateegia",
+          "detail": "Määratleme stabiilsed lepingud varakult, võimaldades paralleelset arendust ja turvalisemat integreerimist ettevõtte süsteemidega."
+        },
+        {
+          "title": "Progressiivne tarne töövoog",
+          "detail": "Kasutame funktsioonilippe, etappilisi juurutusi ja kvaliteediväravaid, et kiiresti välja anda ilma tootmist destabiliseerimata."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Meie arhitektuurilised otsused seavad esikohale pikaealise, töökindluse ja selge omandi, et platvormid jääksid kohanemisvõimeliseks, kui ärivaldkond kasvab.",
+      "items": [
+        {
+          "title": "Moodulteenuste piirid",
+          "detail": "Võimekused on koondatud ärivaldkondadesse, et hoida muutuste mõju lokaalsena."
+        },
+        {
+          "title": "Sündmuspõhine integratsioon",
+          "detail": "Asünkroonseid töövooge kasutatakse latentsustaluvuse kohtades, et parandada vastupidavust ja lahutada süsteeme."
+        },
+        {
+          "title": "Jälgitavus disaini järgi",
+          "detail": "Jälgimine, mõõdikud ja struktureeritud logid on ette määratud, et toetada usaldusväärset tegevust ja SLA juhtimist."
+        }
+      ]
+    },
+    "capabilities": [
+      "Kohandatud veebirakendused",
+      "Mobiilirakenduste arendus",
+      "API arendus ja integratsioon",
+      "Mikroteenuste arhitektuur",
+      "Pilvepõhised lahendused",
+      "Pärandsüsteemi moderniseerimine"
+    ],
+    "technologies": [
+      {
+        "name": "Reageeri",
+        "category": "Frontend",
+        "icon": "React"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Keel",
+        "icon": "Masinakiri"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "graphql"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Andmebaas",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Andmebaas",
+        "icon": "mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Avastamine ja arhitektuur",
+        "summary": "Kaardistame äriprioriteedid, tehnilised piirangud ja sihtarhitektuuri enne rakendamise algust.",
+        "deliverables": [
+          "Toodete ja nõuete kooskõlastamise töötuba",
+          "Lahenduse arhitektuuri plaan",
+          "Verstapostipõhine tarneplaan"
+        ]
+      },
+      {
+        "title": "Ehitamine ja integreerimine",
+        "summary": "Meie meeskonnad rakendavad paralleelselt põhifunktsioone, integratsioonikihte ja kvaliteedikaitset.",
+        "deliverables": [
+          "Funktsioonide arendamine iteratiivsetes sprintides",
+          "API ja kolmandate osapoolte integratsioonid",
+          "Automatiseeritud testimise ja väljalaskevalmiduse kontrollid"
+        ]
+      },
+      {
+        "title": "Käivitamine ja areng",
+        "summary": "Pärast kasutuselevõttu stabiliseerime tegevuse ja määratleme järgmise parendustsükli reaalse kasutuse põhjal.",
+        "deliverables": [
+          "Tootmise käivitamise tööraamat",
+          "Jõudluse ja töökindluse häälestus",
+          "Pärast lansseerimist ja täiustuste tagajärjekord"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kas oled valmis ehitama oma järgmist rakendust?",
+      "description": "Kujundame ja tarnime lahenduse, mis toob mõõdetavaid ärilisi tulemusi.",
+      "button": "Alusta oma projekti"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "Tehisintellekt, masinõpe ja äriluure",
+      "description": "Alates ennustavatest mudelitest kuni juhtide juhtpaneelideni ehitame täielikke AI/BI süsteeme, mis toetavad otsuseid suures mahus."
+    },
+    "sections": {
+      "problem": {
+        "title": "Äriprobleemide raamistamine",
+        "subtitle": "Miks andmerikkad organisatsioonid võitlevad endiselt kindlate otsuste tegemisega"
+      },
+      "approach": {
+        "title": "Insenerilähenemine",
+        "subtitle": "Kuidas me rakendame andmetooteid, masinõppe mudeleid ja BI töövooge"
+      },
+      "principles": {
+        "title": "Arhitektuuri põhimõtted",
+        "subtitle": "Andme- ja mudeliarhitektuuri mustrid usaldusväärse otsustusintellekti jaoks"
+      },
+      "capabilities": {
+        "title": "Meie võimed",
+        "subtitle": "Terviklikud tehisintellekti, masinõppe ja BI lahendused"
+      },
+      "technology": {
+        "title": "Meie tehnoloogiapakk",
+        "subtitle": "Tööstusharu juhtivad tööriistad andmete ja tehisintellekti jaoks"
+      },
+      "breakdown": {
+        "title": "Teenuse jaotus",
+        "subtitle": "Kuidas liigume killustatud andmetest tootmistasemel intelligentsile"
+      }
+    },
+    "problem": {
+      "overview": "Organisatsioonid koguvad sageli suuri andmemahtu, kuid ei suuda neid tõlkida usaldusväärseks prognoosimiseks, operatiivseteks otsusteks ega mõõdetavateks äritegevusteks.",
+      "painPointsTitle": "Korduv äriline valu",
+      "impactSignalsTitle": "Mida juhid tavaliselt tähele panevad",
+      "painPoints": [
+        "Aruandlusloogika erineb meeskondade lõikes, mis põhjustab vastuolulisi KPI narratiive",
+        "Mudelid jäävad katsetama ega jõua kunagi tootmisvoogudesse",
+        "Andmete kvaliteedi probleemid õõnestavad usaldust analüütika ja juhtpaneelide vastu"
+      ],
+      "impactSignals": [
+        "Otsustustsüklid aeglustuvad, sest meeskonnad arutlevad andmete kehtivuse üle, mitte tegutsemise üle",
+        "Prognoosimise ja planeerimise täpsus jääb kvartali lõikes ebastabiilseks",
+        "Analüütikainvesteeringud näitavad madalat kasutust väljaspool spetsialiseerunud analüütikugruppe"
+      ]
+    },
+    "approach": {
+      "overview": "Pakume tehisintellekti ja BI platvorme tootmissüsteemidena, andmeinseneriteaduse ühendamise, mudeli elutsükli operatsioonide ja otsuste töövoo integreerimisena.",
+      "pillars": [
+        {
+          "title": "Andmetoodete Sihtasutus",
+          "detail": "Domeenipõhised andmetooted loovad taaskasutatavaid, reguleeritud ja kvaliteetseid sisendeid analüütika ja masinõppe jaoks."
+        },
+        {
+          "title": "MLOps elutsükli automatiseerimine",
+          "detail": "Koolitus, juurutamine, jälgimine ja triivikontroll on automatiseeritud, et mudelid oleksid tootmises usaldusväärsed."
+        },
+        {
+          "title": "Otsuste töövoo integreerimine",
+          "detail": "Teadmised on integreeritud operatiivsetesse tööriistadesse ja juhtpaneelidesse, nii et meeskonnad tegutsevad igapäevastes protsessides luureandmete põhjal."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Meie AI/BI arhitektuur seab prioriteediks usaldusväärsed andmed, seletatavad mudelid ja juhitud ligipääsumustrid kogu ettevõttes.",
+      "items": [
+        {
+          "title": "Ühe meetri definitsioonid",
+          "detail": "Kriitilised KPI-d määratletakse korra jagatud semantiliste mudelite kaudu, et kõrvaldada vastuoluline aruandluse loogika."
+        },
+        {
+          "title": "Mudeli usaldusväärsuse kontrollid",
+          "detail": "Jõudlusläved, triivide tuvastamine ja tagasipööramise mehhanismid kaitsevad otsuste kvaliteeti tootmises."
+        },
+        {
+          "title": "Turvalisus ja juhtimine disaini järgi",
+          "detail": "Andmete päritolu, rollipõhine ligipääs ja auditivalmis kontrollid on igas torujuhtmes sisse ehitatud."
+        }
+      ]
+    },
+    "capabilities": [
+      "Masinõppe mudelid ja torujuhtmed",
+      "Power BI juhtpaneelid ja aruanded",
+      "Ennustav analüütika",
+      "Reaalajas andmevoogedastus",
+      "Andmelao lahendused"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Platvorm",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Andmeladu",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Andmetehnika",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML platvorm",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML raamistik",
+        "icon": "Tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML raamistik",
+        "icon": "pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Analüütika",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Töötlemine",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Keel",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Data Foundation",
+        "summary": "Me auditeerime allikaid, määratleme andmelepinguid ja loome juhtimise, nii et iga mudel algab usaldusväärsetest sisenditest.",
+        "deliverables": [
+          "Andmeallikad ja kvaliteedi hindamine",
+          "Funktsioonide inseneriteadus ja skeemide planeerimine",
+          "Turvalisuse ja valitsemise alus"
+        ]
+      },
+      {
+        "title": "Mudeli ja teadmiste edastamine",
+        "summary": "Me ehitame mudeleid ja otsustusjuhtpaneele, mis on seotud mõõdetavate äriküsimuste ja KPI-dega.",
+        "deliverables": [
+          "Mudeli arendamine ja valideerimine",
+          "Juhtpaneelid ja operatiivaruandlus",
+          "Otsuste töövoo integreerimine"
+        ]
+      },
+      {
+        "title": "MLOps ja kasutuselevõtt",
+        "summary": "Me operaliseerime juurutamise, jälgimise ja meeskonna toetamise, et hoida tulemused usaldusväärsed aja jooksul.",
+        "deliverables": [
+          "Automatiseeritud mudelite juurutamise torujuhtmed",
+          "Drift, täpsus ja kasutuse jälgimine",
+          "Meeskonna üleandmine ja tegevuskava"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Muuda oma andmed teadmisteks",
+      "description": "Muuda killustatud andmed selgeks, rakendatavaks luureks.",
+      "button": "Alusta oma teekonda"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Pilvearhitektuur ja infrastruktuur",
+      "description": "Mitmepilveplatvormid, vastupidav arhitektuur ja skaleeritav infrastruktuur, mis on loodud pikaajaliseks kasvuks."
+    },
+    "sections": {
+      "problem": {
+        "title": "Äriprobleemide raamistamine",
+        "subtitle": "Miks pilvealgatused pärast esimest migratsioonilainet peatuvad"
+      },
+      "approach": {
+        "title": "Insenerilähenemine",
+        "subtitle": "Kuidas ehitame turvalisi ja skaleeritavaid pilveplatvorme kontrollitud migratsiooniriskiga"
+      },
+      "principles": {
+        "title": "Arhitektuuri põhimõtted",
+        "subtitle": "Platvormi otsused, mis tasakaalustavad paindlikkust, vastupidavust ja juhtimist"
+      },
+      "capabilities": {
+        "title": "Pilveteenused",
+        "subtitle": "Ehita, juuruta ja skaleeri pilves"
+      },
+      "technology": {
+        "title": "Mitme pilve ekspertiis",
+        "subtitle": "Platvormist sõltumatud pilvelahendused"
+      },
+      "breakdown": {
+        "title": "Teenuse jaotus",
+        "subtitle": "Selge järjestus pilveplatvormide projekteerimiseks, migreerimiseks ja haldamiseks"
+      }
+    },
+    "problem": {
+      "overview": "Paljud organisatsioonid teevad esialgsed pilvemigratsioonid, kuid tegutsevad endiselt nagu kohapealsed meeskonnad, halva nähtavuse, ebajärjekindlate kontrollide ja kasvava kulutamisega.",
+      "painPointsTitle": "Korduv äriline valu",
+      "impactSignalsTitle": "Mida juhid tavaliselt tähele panevad",
+      "painPoints": [
+        "Töökoormused migreeritakse ilma standardsete turva- ja võrgukontrollideta",
+        "Pilvekulud kasvavad kiiremini kui äriline väärtus",
+        "Keskkonna loomine jääb käsitsi ja meeskondade vahel ebajärjekindlaks"
+      ],
+      "impactSignals": [
+        "Sagedased juhtumid, mis on põhjustatud konfiguratsiooni nihkumisest keskkondade vahel",
+        "Auditivalmidus halveneb killustatud juhtimistavade tõttu",
+        "Infrastruktuuri tarneajad viivitavad toote- ja andmealgatusi"
+      ]
+    },
+    "approach": {
+      "overview": "Me kujundame pilveplatvorme toodetena, kasutades infrastruktuuri automatiseerimist, poliitikapiirdeid ja migratsioonilaineid, mis on kooskõlas ärikriitilisusega.",
+      "pillars": [
+        {
+          "title": "Maandumistsoon kui kood",
+          "detail": "Identiteet, võrgud, turvalisus ja poliitikad on kodeeritud korduvuse ja auditeeritavuse tagamiseks."
+        },
+        {
+          "title": "Lainepõhine migratsioonistrateegia",
+          "detail": "Töökoormused liiguvad kontrollitud etappides, sõltuvusteadliku järjestamise ja tagasipööramise valmisolekuga."
+        },
+        {
+          "title": "SRE + FinOps tööahel",
+          "detail": "Usaldusväärsuse indikaatorid ja ühikumajandus vaadatakse koos üle, et parandada nii tööaega kui ka kulutõhusust."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Meie arhitektuurimudel soosib deklaratiivset infrastruktuuri, madalaima privileegiga ligipääsu ja komposiittavaid platvorme, mis toetavad kiiret tootetarne.",
+      "items": [
+        {
+          "title": "Muutumatud infrastruktuurimustrid",
+          "detail": "Keskkonnad ehitatakse ümber versioonitud koodist, et minimeerida drifti ja lihtsustada operatiivset taastamist."
+        },
+        {
+          "title": "Vaikimisi turvalisuse baasjoon",
+          "detail": "Nullusalduse juurdepääsukontrollid ja poliitikate jõustamine on integreeritud igasse keskkonna elutsüklisse."
+        },
+        {
+          "title": "Vastupidavus jaotuse kaudu",
+          "detail": "Kriitilised töökoormused on loodud mitme tsooni või mitme piirkonna rikete taluvuseks, kus äriline mõju seda nõuab."
+        }
+      ]
+    },
+    "capabilities": [
+      "Mitme pilve strateegia ja rakendamine",
+      "Konteineri orkestreerimine (Kubernetes)",
+      "Serverita arvutamine",
+      "Pilvemigratsiooniteenused",
+      "Kõrge kättesaadavusega arhitektuur"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Pilv",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "AWS",
+        "category": "Pilv",
+        "icon": "AmazonWebServices"
+      },
+      {
+        "name": "GCP",
+        "category": "Pilv",
+        "icon": "GoogleCloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orkestreerimine",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Konteinerid",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "ARM mallid",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "AmazonWebServices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Arhitektuur ja maandumisala",
+        "summary": "Määratleme sihtoleku, piirderaamid ja platvormi baasstandardid enne töökoormuse liikumist.",
+        "deliverables": [
+          "Targeti pilvearhitektuuri disain",
+          "Identiteet, võrgu ja turvalisuse alus",
+          "Kulu- ja vastavuspiirded"
+        ]
+      },
+      {
+        "title": "Migratsioon ja platvormi ehitamine",
+        "summary": "Me käivitame migratsioonilained ja seadistame pilvepõhised platvormikomponendid korduva automatiseerimisega.",
+        "deliverables": [
+          "Töökoormuse migratsiooni järjestamine",
+          "Konteineri ja serverita platvormi seadistus",
+          "Taristu kui koodimoodulid"
+        ]
+      },
+      {
+        "title": "Töökindlus ja FinOps",
+        "summary": "Parandame operatiivset töökindlust ja optimeerime pidevalt pilvekulutusi reaalajas telemeetria põhjal.",
+        "deliverables": [
+          "SLO-d, jälgimine ja intsidentide töövood",
+          "Vastupidavus ja katastroofide taastumise valideerimine",
+          "Kulude optimeerimise järjekord ja juhtimisrütm"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Suurenda oma infrastruktuuri",
+      "description": "Ehita pilvealuseid, mis püsivad vastupidavad ka reaalse koormuse korral.",
+      "button": "Planeeri oma pilvestrateegia"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps ja platvormiinseneriteadus",
+      "description": "Automatiseeritud tarnetorud, jälgitavus ja platvormi praktikad, mis parandavad kiirust ilma usaldusväärsust ohverdamata."
+    },
+    "sections": {
+      "problem": {
+        "title": "Äriprobleemide raamistamine",
+        "subtitle": "Miks tarnekiirus langeb, kui platvormi keerukus kasvab"
+      },
+      "approach": {
+        "title": "Insenerilähenemine",
+        "subtitle": "Kuidas standardiseerida tarnetorusid ilma tootemeeskondi aeglustamata"
+      },
+      "principles": {
+        "title": "Arhitektuuri põhimõtted",
+        "subtitle": "Platvormi insenerimustrid, mis skaleerivad töökindlust ja meeskonna autonoomiat"
+      },
+      "capabilities": {
+        "title": "DevOps teenused",
+        "subtitle": "Automatiseeri, jälgi ja optimeeri oma tarne elutsükkel"
+      },
+      "technology": {
+        "title": "DevOps tööriistad ja platvormid",
+        "subtitle": "Parim oma klassi DevOps tööriistakett"
+      },
+      "breakdown": {
+        "title": "Teenuse jaotus",
+        "subtitle": "Praktiline teekaart tarnepudelikaeltest kõrge usalduse vabastamisvooni"
+      }
+    },
+    "problem": {
+      "overview": "Organisatsioonid investeerivad sageli CI/CD tööriistadesse, kuid võitlevad endiselt ebastabiilsete väljaannete, aeglaste kinnituste ja killustatud omandiõigusega erinevates keskkondades.",
+      "painPointsTitle": "Korduv äriline valu",
+      "impactSignalsTitle": "Mida juhid tavaliselt tähele panevad",
+      "painPoints": [
+        "Torujuhtme definitsioonid erinevad meeskonnati, tekitades ebajärjekindlaid kvaliteediväravaid",
+        "Käsitsi juurutamise kinnitused, viivitused, kiirparandused ja funktsioonide avaldamise ajajooned",
+        "Operatiivsed juhtumid korduvad, kuna telemeetria on puudulik või eraldatud"
+      ],
+      "impactSignals": [
+        "Muudatuste ettevalmistusaeg kasvab pidevalt, hoolimata automatiseerimise kuludest",
+        "Muudatuste rikete määr tõuseb suure mahuga tarneperioodidel",
+        "Arendajate tootlikkus langeb tööriistade hõõrdumise ja konteksti vahetuse tõttu"
+      ]
+    },
+    "approach": {
+      "overview": "Loome sisemise arendaja platvormimudeli, kus on korduvkasutatavad torujuhtme mallid, poliitikapõhine juhtimine ja täielik elutsükli jälgitavus.",
+      "pillars": [
+        {
+          "title": "Golden Path torujuhtme mallid",
+          "detail": "Korduvkasutatavad CI/CD plaanid standardiseerivad ehituse, testimise, turvakontrolli ja juurutamise töövooge."
+        },
+        {
+          "title": "Platvormi API ja iseteenindus",
+          "detail": "Meeskonnad loovad keskkondi ja vabastavad infrastruktuuri kontrollitud iseteenindusliideste kaudu."
+        },
+        {
+          "title": "Usaldusväärsuse tagasisideahelad",
+          "detail": "Intsidentide trendid, SLO tervis ja juurutustelemeetria suunavad pidevaid protsesside ja arhitektuuri parendusi."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Meie DevOps arhitektuur seob tarnekiiruse juhtimisega, automatiseerides juhtimist ja minimeerides ühekordset operatiivset tööd.",
+      "items": [
+        {
+          "title": "Kõik on versioonitud kood",
+          "detail": "Torujuhtmeid, infrastruktuuri ja poliitikareegleid hallatakse lähtekoodihalduses auditeeritavuse ja korduvuse tagamiseks."
+        },
+        {
+          "title": "Progressiivne kontrollimine",
+          "detail": "Kvaliteedi-, turvalisus- ja jõudluskontrollid on kihilised etappide vahel, et riski varakult tuvastada."
+        },
+        {
+          "title": "Jagatud platvormi vastutus",
+          "detail": "Platvormimeeskonnad pakuvad asfalteeritud võimalusi, samal ajal kui tootetiimid säilitavad tarnemeeskonna omandiõiguse."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI/CD torujuhtme disain",
+      "Taristu kui kood",
+      "Automatiseeritud testimine",
+      "Juurutamise automatiseerimine",
+      "Jälgimine ja jälgitavus"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Platvorm",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "GitHubi tegevused",
+        "category": "CI/CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Rool",
+        "category": "Pakendamine",
+        "icon": "Rool"
+      },
+      {
+        "name": "Ansible",
+        "category": "Automatiseerimine",
+        "icon": "ansible"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Jälgimine",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Jälgitavus",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Platvormi hindamine",
+        "summary": "Hindame teie praegust tarkvaratarneahelat, et tuvastada riskikohad ja kiiruspiirangud.",
+        "deliverables": [
+          "Praeguse oleku edastustöövoo kaart",
+          "Torujuhtme kitsaskoha analüüs",
+          "Sihtimise DevOps küpsuse teekaart"
+        ]
+      },
+      {
+        "title": "Torujuhtme ja automatiseerimise ehitus",
+        "summary": "Rakendame usaldusväärseid CI/CD-sid, kvaliteetseid väravaid ja infrastruktuuri automatiseerimist järjepidevate väljalaskete jaoks.",
+        "deliverables": [
+          "Korduvkasutatavad CI/CD mallid",
+          "Infrastruktuuri ja keskkonna automatiseerimine",
+          "Automatiseeritud testimise ja vabastamise kontrollid"
+        ]
+      },
+      {
+        "title": "Tööta ja paranda",
+        "summary": "Loome jälgitavuse ja juhtimistsüklid, mis toetavad pidevat tarnimise parandamist.",
+        "deliverables": [
+          "Jälgimisjuhtpaneelid ja hoiatuspoliitikad",
+          "Väljalaske juhtimise ja intsidentide mänguraamatud",
+          "Pideva parendamise mõõdikud ja ülevaated"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Kiirenda oma kohaletoimetamist",
+      "description": "Vähenda vabastuste hõõrdumist ja paranda töökindlust küpsete DevOps praktikatega.",
+      "button": "Muuda oma töövoogu"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Digitaalne transformatsioon ja strateegia",
+      "description": "Strateegiline nõustamine ja elluviimise tugi platvormide, meeskondade ja operatsioonimudelite moderniseerimiseks."
+    },
+    "sections": {
+      "problem": {
+        "title": "Äriprobleemide raamistamine",
+        "subtitle": "Kus transformatsiooniprogrammid kaotavad hoogu ja juhtkonna enesekindluse"
+      },
+      "capabilities": {
+        "title": "Konsultatsiooniteenused",
+        "subtitle": "Strateegiline juhendamine digitaalse edu saavutamiseks"
+      },
+      "approach": {
+        "title": "Insenerilähenemine",
+        "subtitle": "Kuidas me tõlgime strateegia teostatavaks, tehnoloogiapõhiseks muutuseks"
+      },
+      "principles": {
+        "title": "Arhitektuuri põhimõtted",
+        "subtitle": "Tegevusmudeli ja platvormi valikud, mis kaitsevad transformatsiooni tulemusi"
+      },
+      "technology": {
+        "title": "Tehnoloogia virn",
+        "subtitle": "Platvormid ja raamistikud, mida kasutame transformatsiooni operaliseerimiseks"
+      },
+      "breakdown": {
+        "title": "Teenuse jaotus",
+        "subtitle": "Struktureeritud transformatsioon strateegia määratlemisest mõõdetava äriväärtuseni"
+      }
+    },
+    "problem": {
+      "overview": "Digitaalsed algatused algavad sageli tugeva kavatsusega, kuid ei suuda muutuda tulemusteks ebaselge omandi, lahknenud tööriistade ja konkureerivate prioriteetide tõttu.",
+      "painPointsTitle": "Korduv äriline valu",
+      "impactSignalsTitle": "Mida juhid tavaliselt tähele panevad",
+      "painPoints": [
+        "Transformatsiooni teekaardid on määratletud, kuid neid ei rakendata tarnejuhtimisse",
+        "Äri- ja inseneriprioriteedid lahknevad pärast esialgseid planeerimistsükleid",
+        "Vananenud töömudelid takistavad kaasaegsete tootetarnepraktikate kasutuselevõttu"
+      ],
+      "impactSignals": [
+        "Programmi kulutused kasvavad, samal ajal kui strateegiline KPI liikumine jääb stabiilseks",
+        "Algatused jätavad vahele üleminekupunktid strateegia, arhitektuuri ja elluviimise vahel",
+        "Meeskonnad kogevad muutusväsimust piiratud realiseeritud ärilise väärtuse tõttu"
+      ]
+    },
+    "approach": {
+      "overview": "Ühendame strateegilise nõustamise tarnearhitektuuriga, kohandades operatsioonimudeli disaini, platvormi võimekust ja elluviimise rütmi mõõdetavate eesmärkide ümber.",
+      "pillars": [
+        {
+          "title": "Väärtusvoo prioriseerimine",
+          "detail": "Me järjestame algatused mõõdetava ärilise mõju ja tehniliste sõltuvuste piirangute põhjal."
+        },
+        {
+          "title": "Sihtmärgi töömudeli disain",
+          "detail": "Rollid, juhtimine ja otsustusõigused on määratletud nii, et toetada kiiremat täitmist äri- ja tehnoloogiameeskondade vahel."
+        },
+        {
+          "title": "Portfelli kohaletoimetamise juhtimine",
+          "detail": "Transformatsiooni edenemist juhitakse KPI-ga seotud kontrollpunktide ja portfelli tasandi riskikontrollide kaudu."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Meie transformatsiooniarhitektuur rõhutab järkjärgulist moderniseerimist ja selget vastutust, vältides häirivaid ümberkirjutusi ilma ärilise põhjenduseta.",
+      "items": [
+        {
+          "title": "Ärivõimekuse joondamine",
+          "detail": "Tehnoloogilised muutused on korraldatud võimekuse ümber, mis seostuvad otseselt tulu, teenuse kvaliteedi või kulutõhususega."
+        },
+        {
+          "title": "Kombineeritava platvormi strateegia",
+          "detail": "Platvormikomponendid valitakse koostalitlusvõime tagamiseks, et toetada faasilist migratsiooni ja kiiremat kohanemist."
+        },
+        {
+          "title": "Juhtimine koos esituse rütmiga",
+          "detail": "Otsustusfoorumid ja kontrollpunktid on põimitud sprindi- ja kvartalitsüklitesse, neid ei käsitleta eraldi bürokraatlike radadena."
+        }
+      ]
+    },
+    "capabilities": [
+      "Digitaalse transformatsiooni teekaardid",
+      "Tehnoloogiastrateegia arendamine",
+      "Pilve kasutuselevõtu raamistikud",
+      "Protsesside optimeerimine",
+      "Muutuste juhtimine"
+    ],
+    "technologies": [
+      {
+        "name": "Azure maandumispiirkond",
+        "category": "Pilvefond",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Andmeplatvorm",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Otsustusintelligentsus",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Power Platform",
+        "category": "Madala koodiga",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Koostöö",
+        "icon": "MicrosoftSharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strateegia joondamine",
+        "summary": "Me joondame juhtimisprioriteedid ja digitaalsed eesmärgid, et luua ühine transformatsiooni suund.",
+        "deliverables": [
+          "Transformatsiooni eesmärgid ja edukriteeriumid",
+          "Võimekuse küpsus ja lünkade hindamine",
+          "Prioriteetne algatusportfell"
+        ]
+      },
+      {
+        "title": "Täideviimise plaan",
+        "summary": "Määratleme sihttöömudeli, arhitektuuristandardid ja faasilise rakendusjärjestuse.",
+        "deliverables": [
+          "Töömudel ja juhtimisdisain",
+          "Tehnoloogia ja protsessiarhitektuuri standardid",
+          "Etapilise rakendamise tegevuskava"
+        ]
+      },
+      {
+        "title": "Muutused ja väärtuse realiseerimine",
+        "summary": "Me edendame kasutuselevõttu, jälgime KPI-de liikumist ja täiustame algatusi vastavalt elluviimise tulemustele.",
+        "deliverables": [
+          "Kasutuselevõtu ja toetamise plaan",
+          "KPI mõõtmise sagedus",
+          "Kvartalipõhine optimeerimisjärjekord"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Alusta oma muutumisteekonda",
+      "description": "Navigeeri muutustega selgete prioriteetide ja praktiliste elluviimisplaanidega.",
+      "button": "Ajakava strateegia sessioon"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT ja servaarvutus",
+      "description": "Ühendatud süsteemid seadmest pilve, telemeetria torujuhtmete ja servaintellektiga tööstuslikuks mastaabiks."
+    },
+    "sections": {
+      "problem": {
+        "title": "Äriprobleemide raamistamine",
+        "subtitle": "Miks ühendatud seadmed ei skaleeru pilootjuurutustest kaugemale."
+      },
+      "approach": {
+        "title": "Insenerilähenemine",
+        "subtitle": "Kuidas me kujundame turvalisi ja töötavaid IoT-süsteeme alates seadme püsivarast kuni pilvepõhiste API-deni"
+      },
+      "principles": {
+        "title": "Arhitektuuri põhimõtted",
+        "subtitle": "Edge-to-cloud disainireeglid töökindluse, latentsuse ja pargi juhtimise jaoks"
+      },
+      "capabilities": {
+        "title": "IoT lahendused",
+        "subtitle": "Ühenda, jälgi ja optimeeri oma seadmeid"
+      },
+      "technology": {
+        "title": "IoT tehnoloogia virn",
+        "subtitle": "Riistvarast pilveni"
+      },
+      "breakdown": {
+        "title": "Teenuse jaotus",
+        "subtitle": "Kuidas me tarnime ühendatud süsteeme servaseadmetest pilveintelligentseni."
+      }
+    },
+    "problem": {
+      "overview": "IoT algatused osutuvad tihti tehniliselt teostatavaks pilootprojektides, kuid ebaõnnestuvad suures mahus ebausaldusväärse ühenduvuse, nõrkade pargikontrollide ja kehva integreerituse tõttu ärivoogudega.",
+      "painPointsTitle": "Korduv äriline valu",
+      "impactSignalsTitle": "Mida juhid tavaliselt tähele panevad",
+      "painPoints": [
+        "Seadme sisseelamine ja elutsükli haldamine on endiselt käsitsi ja vigadele vastuvõtlikud",
+        "Telemeetria torujuhtmed toodavad mürarikkaid, puudulikke või hilinenud tööandmeid",
+        "Kaugjuhtimise ja püsivara uuendused toovad kaasa ohutus- ja kaitseriski"
+      ],
+      "impactSignals": [
+        "Pilootkeskkonnad õnnestuvad, kuid tootmise käivitamise ajakavad nihkuvad korduvalt",
+        "Välioperatsioonide meeskonnad reageerivad intsidentidele ilma ennustava nähtavuseta",
+        "Ärisüsteemid ei saa seadme intelligentsust reaalajas usaldusväärselt tarbida"
+      ]
+    },
+    "approach": {
+      "overview": "Me arhitektuureerime IoT platvorme kui kontrollitud hajutatud süsteeme, ühendades turvalised serva käitusajastandardid, sündmuspõhise vastuvõtu ja operatiivse juhtimise pargi tasandil.",
+      "pillars": [
+        {
+          "title": "Turvalise seadme elutsükli haldamine",
+          "detail": "Prominent, identiteet, võtmete pööramine ja püsivara uuendused on automatiseeritud, et vähendada operatiivseid riske."
+        },
+        {
+          "title": "Sündmuspõhine telemeetria arhitektuur",
+          "detail": "Voogedastuse torujuhtmed normaliseerivad, valideerivad ja suunavad seadme sündmusi analüütika ja juhtimise jaoks peaaegu reaalajas."
+        },
+        {
+          "title": "Laevastiku operatsioonide juhtimislennuk",
+          "detail": "Jälgimine, teavitamine ja kaugjuhtimise töövood tagavad usaldusväärse järelevalve hajutatud varade vahel."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Meie IoT arhitektuur tasakaalustab madala latentsusega servaotsuseid tsentraliseeritud juhtimise, jälgitavuse ja turvalisuse vastavusega.",
+      "items": [
+        {
+          "title": "Servade autonoomia pilvekoordineerimisega",
+          "detail": "Kriitilised kohalikud toimingud jätkuvad võrgu halvenemise ajal, sünkroniseerides olekut pilvesüsteemidega, kui see on saadaval."
+        },
+        {
+          "title": "Lepingulised sündmuste skeemid",
+          "detail": "Seadmete ja platvormide meeskonnad kasutavad juhitud skeeme, et säilitada telemeetria järjepidevus erinevate versioonide vahel."
+        },
+        {
+          "title": "Nullusaldusega seadmete turvalisus",
+          "detail": "Vastastikune autentimine, väikseim privileeg ja krüpteeritud transport on tagatud igas seadme interaktsioonis."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT seadmete haldus",
+      "Digitaalsed kaksiklahendused",
+      "Servaarvutuse juurutamine",
+      "Reaalajas telemeetria",
+      "Ennustav hooldus"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Cloud Gateway",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Digitaalsed kaksikud",
+        "category": "Simulatsioon",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Servaarvutus",
+        "category": "Serv",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protokoll",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protokoll",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Riistvara",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Riistvara",
+        "icon": "raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Ajaseeria DB",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Seadme ja serva strateegia",
+        "summary": "Määratleme ühenduvusmustrid, servajooksu standardid ja turvalise provisioneerimise väliseadmete jaoks.",
+        "deliverables": [
+          "Seadme kasutuselevõtu ja ühenduvuse mudel",
+          "Serva käitusaeg ja juurutamise plaan",
+          "Laevastiku turvalisuse baasjoon"
+        ]
+      },
+      {
+        "title": "Telemeetria ja juhttasand",
+        "summary": "Me ehitame torujuhtmeid, mis salvestavad sündmusi, modelleerivad digitaalseid kaksikuid ja võimaldavad kaugjuhtimise töövooge.",
+        "deliverables": [
+          "Reaalajas vastuvõtt ja sündmuste skeemide disain",
+          "Digitaalse kaksiku ja varamudeli rakendamine",
+          "Käsu- ja kontrolli API kiht"
+        ]
+      },
+      {
+        "title": "Tegevus ja mõõtkava",
+        "summary": "Me operationaliseerime autopargi juhtimise ja töökindluse kontrollid tootmismahus IoT keskkondades.",
+        "deliverables": [
+          "Seadmete pargi jälgimine ja hoiatus",
+          "Ennustav hooldus ja anomaaliate tuvastamine",
+          "Kasutuselevõtt ja elutsükli tugiplaan"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ühenda oma seadmed",
+      "description": "Loo usaldusväärsed IoT lahendused, mis on valmis reaalseteks tootmiskeskkondadeks.",
+      "button": "Alusta oma IoT projekti"
+    }
+  }
+}

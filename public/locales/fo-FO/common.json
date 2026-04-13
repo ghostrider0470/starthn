@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Heim",
+    "company": "Felagið",
+    "solutions": "Loysnir",
+    "resources": "Keldur",
+    "innovationLab": "Nýskapanarlaboratoriið",
+    "contact": "Samband",
+    "about": {
+      "title": "Um",
+      "description": "Okkara endamál, visjón og søga"
+    },
+    "team": {
+      "title": "Liðið",
+      "description": "Hitt fólkini aftanfyri Horizon Tech"
+    },
+    "careers": {
+      "title": "Starvsleiðir",
+      "description": "Ver við í okkara toymi og bygg framtíðina"
+    },
+    "enterpriseSoftware": {
+      "title": "Menning av fyritøkuforritum",
+      "description": "Serstakar vinnuforrit við nútímans rammum"
+    },
+    "aiMl": {
+      "title": "AI, ML og Business Intelligence",
+      "description": "Fullfíggjað AI/ML pipelines og BI dashboards"
+    },
+    "cloudArchitecture": {
+      "title": "Skýggjaarkitektur og infrakervi",
+      "description": "Fleir-skýggja loysnir og container-orkestrering"
+    },
+    "iot": {
+      "title": "IoT & Edge Computing",
+      "description": "Tengdar eindarskipanir og digitalar tvíburar"
+    },
+    "devops": {
+      "title": "DevOps & Platform Engineering",
+      "description": "CI/CD rørleiðingar og infrastruktur sum kóði"
+    },
+    "digitalTransformation": {
+      "title": "Talgild Umskipan & Strategi",
+      "description": "Ætlanir og ráðgeving um umskipan av fyritøkum"
+    },
+    "caseStudies": {
+      "title": "Dømisøgur",
+      "description": "Søgur um eydnu frá okkara kundum",
+      "featured": {
+        "title": "Útvald málssøga",
+        "description": "Djúpt innlit í eina fulla leveringsuppgávu"
+      }
+    },
+    "blog": {
+      "title": "Bloggur",
+      "description": "Innlit, vegleiðingar og vinnutrendir",
+      "featured": {
+        "title": "Útvald blogggrein",
+        "description": "Les eina av okkara nýggjastu verkfrøðiligu innlitum"
+      }
+    },
+    "innovationLabOverview": {
+      "title": "Yvirlit yvir Innovation Lab",
+      "description": "Sí øll granskingarøki og royndarleiðir"
+    },
+    "innovationLabAiSystems": {
+      "title": "Nýttar AI-skipanir",
+      "description": "Framleiðsluklárar maskinlæruarkitekturmynstur"
+    },
+    "innovationLabNlp": {
+      "title": "Fleirmáls NLP",
+      "description": "Interaktivar náttúrligar málviðgerðarførleikar"
+    },
+    "innovationLabGeneticAlgorithm": {
+      "title": "Genetiskur algoritmusimulering",
+      "description": "Evolutiónsoptimering í einum samskiftandi umhvørvi"
+    },
+    "navigation": "Navigatión",
+    "skipToContent": "Far til innihaldið",
+    "toggleMenu": "Sløkkja valmynd",
+    "dashboard": "Dashboard",
+    "myWorkspace": "Mítt arbeiðspláss",
+    "profile": "Profilur",
+    "adminPanel": "Umsitingarpanel",
+    "practiceManagement": "Praksisstýring",
+    "logOut": "Logga út",
+    "education": {
+      "title": "Tøkniligar Keldur",
+      "description": "Vegleiðingar, vegleiðingar og bestu arbeiðshættir frá Horizon Tech-toyminum"
+    },
+    "support": {
+      "title": "Stuðulsmiðstøðin",
+      "description": "Fá hjálp við okkara forritanartænastum"
+    }
+  },
+  "footer": {
+    "description": "Forritanarútvikling, sum hevur heimstað í Sarajevo, Bosnia. Vit byggja sergjørd forrit, AI/ML-loysnir, skýggjaarkitektur og automatiseringsskipanir.",
+    "features": "Eginleikar",
+    "resources": "Keldur",
+    "company": "Felagið",
+    "legal": "Løgfrøði",
+    "dashboard": "Dashboard",
+    "components": "Partar",
+    "documentation": "Dokumentatión",
+    "apiReference": "API-ávísing",
+    "gettingStarted": "At byrja",
+    "examples": "Dømi",
+    "community": "Samfelag",
+    "blog": "Bloggur",
+    "caseStudies": "Dømisøgur",
+    "innovationLabOverview": "Yvirlit yvir Innovation Lab",
+    "appliedAiSystems": "Nýttar AI-skipanir",
+    "nlpDemo": "Fleirmáls NLP",
+    "geneticAlgorithmSimulation": "Genetiskur algoritmusimulering",
+    "featuredBlogPost": "Útvald blogggrein",
+    "featuredCaseStudy": "Útvald málssøga",
+    "about": "Um",
+    "contact": "Samband",
+    "partners": "Partnarar",
+    "careers": "Starvsleiðir",
+    "privacyPolicy": "Privatlívspolitikkur",
+    "termsOfService": "Tænastuskilmálar",
+    "cookiePolicy": "Cookie-politikkur",
+    "license": "Loyvi",
+    "copyright": "© {{year}} Horizon Tech. Øll rættindi varðveitt.",
+    "subscribe": "Tekna teg til tíðindabrævið"
+  },
+  "header": {
+    "badge": "Tøkni-loysnir fyri fyritøkur",
+    "titleLine1": "Broyt títt virksemi við",
+    "titleLine2": "Framkomin tøkni",
+    "description": "Frá menning av fyritøkuforritum og AI-drivnum business intelligence til skýggjainfrakervi og IoT-loysnir — vit veita umfatandi tøkni-tænastur, sum fremja nýskapan og skjótari vøkstur.",
+    "getStarted": "Kom í gongd",
+    "exploreSolutions": "Kanna loysnir",
+    "trustedBy": "Álit hjá framskygdum fyritøkum",
+    "microsoftPartner": "Microsoft Partner",
+    "azureCertified": "Azure Certified",
+    "enterpriseSolutions": "Enterprise-loysnir"
+  },
+  "mobileNav": {
+    "navigation": "Fartelefon navigatión",
+    "home": "Heim",
+    "solutions": "Loysnir",
+    "caseStudies": "Mál",
+    "aiSystems": "AI Lab",
+    "blog": "Bloggur",
+    "resources": "Keldur",
+    "contact": "Samband"
+  },
+  "sideNav": {
+    "scroll": "Rulla",
+    "navigateTo": "Navigera til {{section}}",
+    "sections": {
+      "home": "Heim",
+      "solutions": "Loysnir",
+      "credibility": "Trúvirði",
+      "partners": "Partnarar",
+      "caseStudies": "Dømisøgur",
+      "blog": "Bloggur",
+      "innovationLab": "Nýskapanarlaboratoriið",
+      "faq": "OSS"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Skiftimál",
+    "searchPlaceholder": "Leitimál...",
+    "noResults": "Eingin mál funnin."
+  },
+  "common": {
+    "menu": "Matskrá",
+    "account": "Konta"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Nýggjari dømisøgur",
+      "description": "Eitt yvirlit yvir úrslitini innan fintech, heilsu, logistik og almennar skipanir.",
+      "cta": "Sí øll dømi"
+    },
+    "blog": {
+      "title": "Nýggjasta tíðindi frá okkara bloggi",
+      "description": "Praktiskar verkfrøðiligar notur frá nýggjari AI-, platform- og skýveitingararbeiði.",
+      "cta": "Les allar greinar"
+    },
+    "innovationLab": {
+      "title": "Nýskapanarlaboratoriið",
+      "description": "Kanna prototýpur, royndir og nýttar R&D-verkætlanir frá Horizon Tech verkfrøðitoyminum.",
+      "cta": "Kanna Innovation Lab"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Les Case-kanning",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Heilsurøkt",
+      "logistics": "Logistikkur",
+      "manufacturing": "Framleiðsla",
+      "government": "Stýri"
+    }
+  },
+  "blogCard": {
+    "read": "Les"
+  }
+}

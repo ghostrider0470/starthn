@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Guri buruz",
+    "hero": {
+      "titlePrefix": "Etorkizuneko teknologia eraikitzen,",
+      "titleHighlight": "Gaur",
+      "description": "Horizon Tech d.o.o. Sarajevoko egoitza duen teknologia enpresa globala da, hiru kontinenteetako enpresei punta-puntako software irtenbideak eskaintzen dizkiena."
+    },
+    "sections": {
+      "mission": {
+        "title": "Misioa",
+        "description": "Erakundeei laguntzen diegu anbizio handiko ideiak negozio-balio neurgarria sortzen duten produktu digital fidagarri bihurtzen.",
+        "points": [
+          "Lerrokatu teknologiaren entrega negozio-emaitza argiekin.",
+          "Eraiki epe luzerako sistemak, taldeak eskalatzen diren heinean mantengarriak izaten jarraitzen dutenak.",
+          "Lankidetzan aritu interes-taldeekin estrategiatik exekuzioraino."
+        ]
+      },
+      "expertise": {
+        "title": "Esperientzia",
+        "description": "Gure diziplina anitzeko taldeek ingeniaritza sakontasuna eta produktuen pentsamendua konbinatzen dituzte teknologia modernoen piletan.",
+        "points": [
+          "Enpresa-mailako web eta plataforma ingeniaritza.",
+          "Hodeiko arkitektura, DevOps automatizazioa eta azpiegitura erresilientea.",
+          "AI / ML aplikatua, datuen lan-fluxuak eta IoT gaitutako produktuak."
+        ]
+      },
+      "approach": {
+        "title": "Hurbilketa",
+        "description": "Eredu gardena eta iteratiboa erabiltzen dugu, entrega aurreikusgarria mantentzen duena produktuaren arriskua murrizten duen bitartean.",
+        "points": [
+          "Aurkitu: definitu esparrua, lehentasunak eta arrakasta metrikak goiz.",
+          "Eraiki: bidali gehikuntza fokatuetan etengabeko feedback begiztuekin.",
+          "Optimizatu: emaitzak monitorizatu eta denboran zehar errendimendua hobetu."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Zure negozioa eraldatzeko prest?",
+      "description": "Sartu Horizon Tech-en konfiantza duten enpresen zerrenda gero eta handiagoan, irtenbide berritzaileak eta emaitza bikainak eskaintzeko.",
+      "primary": "Hasi",
+      "secondary": "Ikusi arrakasta kasuak"
+    }
+  },
+  "contact": {
+    "badge": "Jarri harremanetan",
+    "hero": {
+      "title": "Jarri gurekin harremanetan",
+      "description": "Proiekturen bat duzu buruan? Zure berri izatea gustatuko litzaiguke. Jar zaitez harremanetan zure ideiak nola lagun dezakegun azaltzeko."
+    },
+    "info": {
+      "title": "Harremanetarako informazioa"
+    },
+    "booking": {
+      "title": "Erreserbatu bilera bat",
+      "description": "Antolatu 30 minutuko doako deialdia"
+    },
+    "methods": {
+      "email": {
+        "title": "Posta elektronikoa",
+        "description": "Bidal iezaguzu mezu elektroniko bat edozein unetan",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Kokalekua",
+        "description": "Oinarrituta",
+        "value": "Sarajevo, Bosnia-Herzegovina"
+      },
+      "response": {
+        "title": "Erantzun-denbora",
+        "description": "Normalean barruan erantzuten dugu",
+        "value": "24-48 ordu"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Proiektu berria"
+      },
+      "support": {
+        "label": "Laguntza teknikoa"
+      },
+      "partnerships": {
+        "label": "Lankidetza"
+      },
+      "careers": {
+        "label": "Karrerak"
+      },
+      "general": {
+        "label": "Kontsulta orokorra"
+      }
+    },
+    "form": {
+      "title": "Bidal iezaguzu mezu bat",
+      "success": "Eskerrik asko zure mezuagatik. 24-48 orduko epean harremanetan jarriko gara.",
+      "error": "Zerbait gaizki joan zen. Mesedez, saiatu berriro edo bidali iezaguzu zuzenean mezu elektronikoa.",
+      "fullName": "Izen-abizenak *",
+      "email": "Helbide elektronikoa *",
+      "company": "Enpresa",
+      "subject": "Subjektua *",
+      "message": "Mezua *",
+      "placeholders": {
+        "name": "Zure izena",
+        "email": "you@example.com",
+        "company": "Zure enpresa",
+        "subject": "Zertan lagun dezakegu?",
+        "message": "Konta iezaguzu zure proiektua edo kontsulta..."
+      },
+      "validation": {
+        "required": {
+          "name": "Izen-abizenak beharrezkoak dira.",
+          "email": "Helbide elektronikoa beharrezkoa da.",
+          "subject": "Aukeratu gai bat, mesedez.",
+          "message": "Mezua beharrezkoa da."
+        },
+        "email": "Idatzi baliozko helbide elektroniko bat.",
+        "messageMinLength": "Mezuak gutxienez {{count}} karaktere izan behar ditu."
+      },
+      "sending": "Bidaltzen...",
+      "submit": "Bidali mezua"
+    },
+    "reasonsTitle": "Zergatik lan egin gurekin?",
+    "reasons": [
+      "Full-stack software garapenerako esperientzia",
+      "AI / ML eta hodeiko arkitektura espezialistak",
+      "Garapen azkarra komunikazio gardenarekin",
+      "Epe luzerako laguntza eta mantentze-lanak"
+    ],
+    "custom": {
+      "title": "Irtenbide pertsonalizatuak",
+      "description": "Neurrira egindako irtenbide baten bila zabiltza? Bezeroekin lankidetzan aritzen gara behar bereziak ulertzeko eta emaitza neurgarriak lortzen dituen software pertsonalizatua emateko.",
+      "cta": "Eztabaidatu zure proiektua"
+    },
+    "faq": {
+      "title": "Galdera gehiago dituzu?",
+      "description": "Begiratu gure FAQ atala erantzun azkarrak lortzeko",
+      "cta": "Arakatu ohiko galderak"
+    }
+  },
+  "team": {
+    "badge": "Gure taldea",
+    "hero": {
+      "titlePrefix": "Atzean dauden adimenak ezagutu",
+      "titleHighlight": "Horizon Tech",
+      "description": "Teknologo, diseinatzaile eta estrategen talde anitza inpaktu handiko produktu digitalak elkarrekin eraikitzen."
+    },
+    "section": {
+      "title": "Zuzendaritza taldea",
+      "description": "Horizon Tech-en ikuspegia eta hazkundea gidatzen dituzten lider esperientziadunak"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Sortzailea, zuzendari nagusia eta CTO",
+        "bio": "Lider ikusgarria eta arkitekto teknikoa 10+ urteko enpresa softwarean, AI / ML, hodeiko plataformetan eta produktuen arkitektura eskalagarrian espezializatua.",
+        "expertise": [
+          "AI / ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Irtenbidearen arkitektura",
+          "Hodeiko ingeniaritza"
+        ]
+      },
+      "ahmet": {
+        "role": "Segurtasun arkitekto nagusia",
+        "bio": "Zibersegurtasuneko espezialista enpresen segurtasun arkitekturan, lokaleko azpiegitura seguruan eta araututako inguruneetarako betetze-lehen entregan zentratu zen.",
+        "expertise": [
+          "Zibersegurtasuna",
+          "On-Prem sistemak",
+          "Segurtasun arkitektura",
+          "Betetzea",
+          "Azpiegituren segurtasuna"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Posta elektronikoa {{name}}",
+      "linkedin": "{{name}} LinkedIn-eko profila"
+    },
+    "culture": {
+      "title": "Horizon Tech-en bizitza",
+      "description": "Berrikuntzaren, lankidetzaren eta etengabeko ikaskuntzaren kultura sustatzen dugu",
+      "remoteFirst": {
+        "title": "Urruneko lehenengo kultura",
+        "description": "Lan egin edozein lekutatik, ordutegi malguekin eta emaitzetan arreta jarriz, ez kokapenarekin."
+      },
+      "collaborative": {
+        "title": "Ingurune kolaboratiboa",
+        "description": "Taldeko ekitaldi erregularrak, ezagutza partekatzeko saioak eta lankidetza funtzionalak."
+      },
+      "workLife": {
+        "title": "Lan-bizitza oreka",
+        "description": "Oporretako politika eskuzabala, osasun mentaleko laguntza eta denbora pertsonalarekiko errespetua."
+      },
+      "innovation": {
+        "title": "Berrikuntza denbora",
+        "description": "% 20ko denbora proiektu pertsonaletarako, hackathonetarako eta teknologia berriak esploratzeko."
+      },
+      "stats": {
+        "teamMembers": "Taldeko kideak",
+        "countries": "Herrialdeak",
+        "techStacks": "Pila teknologikoak",
+        "remoteReady": "Urruneko prest"
+      }
+    },
+    "cta": {
+      "title": "Gure taldean sartu nahi duzu?",
+      "description": "Artisautza, jabetza eta berrikuntza zaintzen duten talentu handiko pertsonen bila gabiltza beti.",
+      "button": "Jarri harremanetan"
+    }
+  },
+  "careers": {
+    "badge": "Sartu gure taldean",
+    "hero": {
+      "titlePrefix": "Etorkizuna eraiki",
+      "titleHighlight": "Gurekin",
+      "description": "Sartu bezero globalentzako punta-puntako softwarea eraikitzen duen ingeniari talde batean. Urrunetik lan egin, etengabe hazi eta benetako eragina izan.",
+      "button": "Ikusi posizioak"
+    },
+    "process": {
+      "title": "Gure kontratazio prozesua",
+      "description": "Gardena, eraginkorra eta zure denbora errespetatzen duena",
+      "steps": [
+        {
+          "title": "Aplikatu",
+          "description": "Aurkeztu zure eskaera eta 3 laneguneko epean aztertuko dugu."
+        },
+        {
+          "title": "Hasierako berriketan",
+          "description": "30 minutuko bideo-deia, zure esperientzia eta itxaropenak azaltzeko."
+        },
+        {
+          "title": "Teknikoa",
+          "description": "Elkarrizketa teknikoa edo ariketa praktikoa zure trebetasunak erakusteko."
+        },
+        {
+          "title": "Eskaintza",
+          "description": "Ezagutu taldea eta jaso zure eskaintza Horizon Tech-en sartzeko."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Irekitako posizioak",
+      "description": "Aurkitu zure hurrengo aukera eta sartu gure hazten ari den taldea",
+      "unavailable": "Une honetan ez dira eskabiderik onartzen",
+      "apply": "Aplikatu orain",
+      "noMatch": "Ez duzu rol perfektua ikusten?",
+      "sendCv": "Bidal iezaguzu zure CVa",
+      "listings": [
+        {
+          "title": "Senior Full-Stack Ingeniaria",
+          "department": "Ingeniaritza",
+          "location": "Urrunekoa (EBko ordu-zonak)",
+          "type": "Lanaldi osoa",
+          "description": "Eraiki enpresa aplikazio eskalagarriak React, Node.js eta hodeiko teknologiak erabiliz.",
+          "tags": [
+            "Erreakzionatu",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps ingeniaria",
+          "department": "Ingeniaritza",
+          "location": "Sarajevo / Urrunekoa",
+          "type": "Lanaldi osoa",
+          "description": "Diseinatu eta mantendu CI / CD hoditeriak, azpiegitura kode gisa eta monitorizazio sistemak.",
+          "tags": [
+            "Kubernetes",
+            "Atrakatzailea",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI / ML ingeniaria",
+          "department": "Berrikuntza laborategia",
+          "location": "Urrunekoa",
+          "type": "Lanaldi osoa",
+          "description": "Ikaskuntza automatikoko ereduak eta AI irtenbideak garatzea enpresa bezeroentzat.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Produktuen diseinatzailea",
+          "department": "Diseinua",
+          "location": "Urrunekoa",
+          "type": "Lanaldi osoa",
+          "description": "Sortu erabiltzaile esperientzia ederrak eta intuitiboak enpresa aplikazio konplexuetarako.",
+          "tags": [
+            "Figma",
+            "Erabiltzaileen ikerketa",
+            "UI / UX",
+            "Diseinu sistemak"
+          ]
+        },
+        {
+          "title": "Soluzioen arkitektoa",
+          "department": "Ingeniaritza",
+          "location": "Urrunekoa",
+          "type": "Lanaldi osoa",
+          "description": "Diseinatu muturreko irtenbide teknikoak eta gidatu bezeroak eraldaketa digitalean.",
+          "tags": [
+            "Hodeiko arkitektura",
+            "Sistemaren diseinua",
+            "Aholkularitza"
+          ]
+        },
+        {
+          "title": "Idazle teknikoa",
+          "department": "Eragiketak",
+          "location": "Urrunekoa",
+          "type": "Lanaldi partziala",
+          "description": "Sortu dokumentazio osoa, tutorialak eta eduki teknikoa.",
+          "tags": [
+            "Dokumentazioa",
+            "APIaren dokumentuak",
+            "Idazketa teknikoa"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Hemen lan egiteko galderak?",
+      "description": "Zure berri izatea gustatuko litzaiguke. Jarri harremanetan eta Horizon Tech-en bizitzari buruzko galdera guztiei erantzungo diegu.",
+      "button": "Jarri gurekin harremanetan"
+    }
+  },
+  "caseStudies": {
+    "badge": "Arrakasta istorioak",
+    "hero": {
+      "titlePrefix": "Emaitzak lortzea",
+      "titleHighlight": "Materia",
+      "description": "Ezagutu nola lagundu diegu industria guztietako enpresei eragiketak eraldatzen inpaktu handiko teknologia praktikoen bidez.",
+      "tags": {
+        "delivery": "Ingeniaritza entrega",
+        "outcomes": "Neurtutako emaitzak"
+      }
+    },
+    "stats": {
+      "projects": "Entregatutako proiektuak",
+      "clients": "Bezero zoriontsuak",
+      "efficiency": "Batez besteko eraginkortasunaren irabazia",
+      "retention": "Bezeroen atxikipena"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "FinTech Corp globala",
+        "industry": "Finantza zerbitzuak",
+        "title": "Hodeiko migrazioa eta modernizazioa",
+        "description": "Migratu ondareko banku-sistemak AWS hodeiko azpiegiturara zero downtime-rekin.",
+        "challenge": "Arkitektura monolitiko zaharrak eskalagarritasun arazoak eragiten ditu",
+        "result": "Arrakastaz migratu da AWS-n mikrozerbitzuetara",
+        "metrics": [
+          {
+            "label": "Kostuen murrizketa",
+            "value": "40%"
+          },
+          {
+            "label": "Errendimenduaren irabazia",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Mikrozerbitzuak",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech irtenbideak",
+        "industry": "Osasuna",
+        "title": "Adimen artifizialeko diagnostiko-plataforma",
+        "description": "Irudi medikoen analisirako ML ereduak eraiki zituen% 95 + zehaztasunarekin.",
+        "challenge": "Eskuzko diagnostiko-prozesuek denbora gehiegi behar dute",
+        "result": "Diagnostiko automatikoa AI / ML bidez",
+        "metrics": [
+          {
+            "label": "Gordetako denbora",
+            "value": "70%"
+          },
+          {
+            "label": "Zehaztasuna",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "Erreakzionatu",
+          "Osasuna"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Merkataritza elektronikoko erraldoia",
+        "industry": "Txikizkako merkataritza",
+        "title": "Denbora errealeko analisiaren panela",
+        "description": "BI plataforma garatu zuen egunero 10M + gertaerak prozesatzen dituena.",
+        "challenge": "Ez denbora errealean ikusgarritasunik negozioaren funtsezko metriken inguruan",
+        "result": "Denbora errealeko analisi eta ikuspegi plataforma",
+        "metrics": [
+          {
+            "label": "Ekitaldiak / Eguna",
+            "value": "10M +"
+          },
+          {
+            "label": "Erantzun-denbora",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery (en)",
+          "Kafka",
+          "Erreakzionatu",
+          "Datuen ingeniaritza"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Zure arrakasta istorioa idazteko prest?",
+      "description": "Eztabaida dezagun nola lagun zaitzakegun antzeko emaitzak lortzen eta konfiantzaz eskalatzen."
+    },
+    "filters": {
+      "title": "Industriaren iragazkia",
+      "all": "Industria guztiak",
+      "empty": "Ez kasu azterketa bat hautatutako industriaren iragazkiarekin."
+    }
+  },
+  "blog": {
+    "badge": "Bloga",
+    "hero": {
+      "titlePrefix": "Ikuspegiak eta ideiak",
+      "titleHighlight": "Horizon Tech",
+      "description": "Tutorial teknikoak, industriaren ikuspegiak eta benetako entrega lanaren ikasgai praktikoak."
+    },
+    "categories": [
+      "Mezu guztiak",
+      "Hodeiko arkitektura",
+      "DevOps",
+      "AI / ML",
+      "Interfazea",
+      "Motorra",
+      "Datuak"
+    ],
+    "featuredPost": {
+      "id": "Nabarmendutako",
+      "title": "Hodeiko jatorrizko garapenaren etorkizuna: 2025ean begiratu beharreko joerak",
+      "excerpt": "Arakatu hodeiko jatorrizko garapenaren azken joerak, zerbitzaririk gabeko arkitekturetatik hasi eta edge computing-era.",
+      "author": {
+        "name": "Horizon Tech editoriala"
+      },
+      "date": "Azaroa 15, 2025",
+      "readTime": "8 minutuko irakurketa",
+      "category": "Hodeiko arkitektura",
+      "tags": [
+        "Hodeia",
+        "Azure",
+        "Joerak"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Mikrozerbitzu eskalagarriak Azure Kubernetes zerbitzuarekin eraikitzea",
+        "excerpt": "AKS erabiliz mikrozerbitzuak arkitekturatzeko eta hedatzeko gida praktikoa.",
+        "author": {
+          "name": "Horizon Tech editoriala"
+        },
+        "date": "Azaroa 12, 2025",
+        "readTime": "6 minutuko irakurketa",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Mikrozerbitzuak",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Ikaskuntza automatikoa produkzioan: ikasitako ikasgaiak",
+        "excerpt": "ML ereduak eskalan hedatzeko ikasgaiak.",
+        "author": {
+          "name": "Horizon Tech editoriala"
+        },
+        "date": "Azaroa 10, 2025",
+        "readTime": "10 minutuko irakurketa",
+        "category": "AI / ML",
+        "tags": [
+          "Ikaskuntza automatikoa",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "19. artikulua.– Zer da berria eta zertarako balio du",
+        "excerpt": "React 19-ren ezaugarrietan eta errendimendu-inplikazioetan murgildu zaitezke.",
+        "author": {
+          "name": "Horizon Tech editoriala"
+        },
+        "date": "Azaroa 8, 2025",
+        "readTime": "5 minutuko irakurketa",
+        "category": "Interfazea",
+        "tags": [
+          "Erreakzionatu",
+          "JavaScript",
+          "Web garapena"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Harpidetu zaitez gure buletinera",
+      "description": "Lortu azken artikuluak, tutorialak eta ikuspegiak astero entregatuta.",
+      "placeholder": "your.email@example.com",
+      "button": "Harpidetu",
+      "note": "Spamik ez. Kendu harpidetza edozein unetan."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Ingeniaritza Bloga",
+        "description": "AI produktuak, enpresa sistemak eta hodeiko plataforma fidagarriak eraikitzen dituzten taldeen eremu-oharrak eta eredu praktikoak."
+      },
+      "filters": {
+        "postsInView": "{{count}} postuak ikusgai"
+      },
+      "featured": {
+        "badge": "Berriena",
+        "readCta": "Irakurri nabarmendutako mezua"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Profila kargatzen...",
+    "title": "Profilaren ezarpenak",
+    "subtitle": "Kudeatu zure kontuaren ezarpenak eta hobespenak",
+    "photoButton": "Aldatu argazkia",
+    "tabs": {
+      "general": "Orokorra",
+      "security": "Segurtasuna",
+      "preferences": "Hobespenak"
+    },
+    "messages": {
+      "profileUpdated": "Profila ongi eguneratu da",
+      "profileUpdateFailed": "Huts egin du profila eguneratzean",
+      "passwordsNoMatch": "Pasahitz berriak ez datoz bat",
+      "passwordTooShort": "Pasahitzak gutxienez 8 karaktere izan behar ditu",
+      "passwordChanged": "Pasahitza ongi aldatu da",
+      "passwordChangeFailed": "Huts egin du pasahitza aldatzean",
+      "optedOut": "Praktika txostenak baztertu",
+      "optedIn": "Praktika txostenak egiteko aukera",
+      "optOutFailed": "Huts egin du baztertze-egoera eguneratzean"
+    },
+    "general": {
+      "title": "Informazio pertsonala",
+      "description": "Eguneratu zure datu pertsonalak eta harremanetarako informazioa",
+      "firstName": "Izena",
+      "firstNamePlaceholder": "John",
+      "lastName": "Abizena",
+      "lastNamePlaceholder": "Oreina",
+      "email": "Helbide elektronikoa",
+      "emailNotice": "Posta elektronikoa ezin da aldatu. Jarri harremanetan laguntzarekin laguntza behar izanez gero.",
+      "phone": "Telefono zenbakia",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Gorde aldaketak"
+    },
+    "security": {
+      "title": "Segurtasun-ezarpenak",
+      "description": "Kudeatu pasahitza eta segurtasun-hobespenak",
+      "currentPassword": "Uneko pasahitza",
+      "currentPasswordPlaceholder": "Idatzi uneko pasahitza",
+      "newPassword": "Pasahitz berria",
+      "newPasswordPlaceholder": "Idatzi pasahitz berria",
+      "confirmPassword": "Berretsi pasahitz berria",
+      "confirmPasswordPlaceholder": "Berretsi pasahitz berria",
+      "passwordHint": "Gutxienez 8 karaktere izan behar ditu",
+      "changePassword": "Aldatu pasahitza"
+    },
+    "preferences": {
+      "title": "Jakinarazpenen hobespenak",
+      "description": "Kontrolatu eguneratzeak eta jakinarazpenak nola jasotzen dituzun",
+      "email": {
+        "title": "Posta elektronikoko jakinarazpenak",
+        "description": "Eguneratzeak eta alertak posta elektronikoz jaso"
+      },
+      "sms": {
+        "title": "SMS jakinarazpenak",
+        "description": "Jaso alerta garrantzitsuak testu mezu bidez"
+      },
+      "optOut": {
+        "title": "Praktika txostenak baztertzea",
+        "description": "Ezkutatu zure txostenak praktikaren jabeari"
+      },
+      "actions": {
+        "title": "Kontuaren ekintzak",
+        "downloadData": "Deskargatu kontuaren datuak",
+        "deleteAccount": "Ezabatu kontua"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Etxera itzuli",
+    "title": "Laguntza zentroa",
+    "subtitle": "Lortu laguntza gure softwarea garatzeko zerbitzuekin",
+    "cards": {
+      "email": {
+        "title": "Posta elektronikoko laguntza",
+        "description": "Bidal iezaguzu mezu elektroniko bat edozein kontsulta egiteko"
+      },
+      "project": {
+        "title": "Proiektuaren kontsultak",
+        "description": "Eztabaidatu zure proiektuaren eskakizunak",
+        "button": "Jarri gurekin harremanetan"
+      },
+      "resources": {
+        "title": "Baliabideak",
+        "description": "Baliabide teknikoak eta gidak",
+        "button": "Ikusi baliabideak"
+      }
+    },
+    "faqTitle": "Maiz egiten diren galderak",
+    "faqDescription": "Ohiko galderei erantzun azkarrak",
+    "faqs": [
+      {
+        "question": "Zer zerbitzu eskaintzen ditu Horizon Tech-ek?",
+        "answer": "Software pertsonalizatuen garapena, AI / ML irtenbideak, hodeiko arkitektura, DevOps, negozio adimena eta IoT zerbitzuak eskaintzen ditugu."
+      },
+      {
+        "question": "Nola hasi proiektu bat Horizon Tech-ekin?",
+        "answer": "Jarri gurekin harremanetan formulario edo posta elektroniko bidez zure eskakizunekin. Aurkikuntza deialdia antolatuko dugu eta proposamen bat partekatuko dugu."
+      },
+      {
+        "question": "Etengabeko laguntza eta mantentze-lanak eskaintzen dituzue?",
+        "answer": "Bai. Laguntza eta mantentze paketeak eskaintzen ditugu, akatsen konponketak, segurtasun eguneratzeak eta ezaugarrien hobekuntzak barne."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Etxera itzuli",
+    "title": "Baliabide teknikoak",
+    "subtitle": "Horizon Tech taldearen gidak, tutorialak eta praktika onak",
+    "hub": {
+      "title": "Ikaskuntza zentroa",
+      "description": "Arakatu gure baliabide tekniko komisarioak hodeian, AI / ML, DevOps eta software modernoaren garapenean.",
+      "note": "Material hauek proiektu errealeko esperientzian oinarritzen dira eta aldizka eguneratzen dira."
+    },
+    "categories": [
+      {
+        "icon": "hodeia",
+        "title": "Hodeiko arkitektura",
+        "description": "Azure, AWS eta hodeiko jatorrizko ereduak",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Gida"
+          },
+          {
+            "title": "Hodeiko migrazio estrategiak",
+            "type": "Artikulua"
+          }
+        ]
+      },
+      {
+        "icon": "garuna",
+        "title": "Adimen artifiziala eta ikaskuntza automatikoa",
+        "description": "ML ereduak, datuen zientzia eta AI integrazioa",
+        "resources": [
+          {
+            "title": "Azure ML-ren sarrera",
+            "type": "Tutoriala"
+          },
+          {
+            "title": "Ekoizpen ML hodiak eraikitzea",
+            "type": "Gida"
+          }
+        ]
+      },
+      {
+        "icon": "ezarpenak",
+        "title": "DevOps & plataforma",
+        "description": "CI/CD, azpiegitura kode gisa, automatizazioa",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Tutoriala"
+          },
+          {
+            "title": "Azpiegitura kode gisa Terraform-ekin",
+            "type": "Gida"
+          }
+        ]
+      },
+      {
+        "icon": "kodea",
+        "title": "Softwarearen garapena",
+        "description": ".NET, React eta garapen modernoko praktikak",
+        "resources": [
+          {
+            "title": "Arkitektura garbia .NET-en",
+            "type": "Gida"
+          },
+          {
+            "title": "Erreakzionatzeko praktika onak",
+            "type": "Artikulua"
+          }
+        ]
+      },
+      {
+        "icon": "Datu-basea",
+        "title": "Datuen eta analisiak",
+        "description": "BI, datuen biltegiratze eta analitika plataformak",
+        "resources": [
+          {
+            "title": "Power BI panelaren diseinua",
+            "type": "Tutoriala"
+          },
+          {
+            "title": "Datuen biltegiaren arkitektura",
+            "type": "Gida"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Prestakuntza pertsonalizatua behar duzu?",
+      "description": "Ingeniaritza eta produktu taldeentzako neurrira egindako tailerrak eskaintzen ditugu",
+      "text": "Taldeko prestakuntza praktikoa behar duzu? Hodeiko arkitektura, DevOps eta entrega praktika modernoei buruzko tailer pertsonalizatuak eskaintzen ditugu.",
+      "button": "Jarri harremanetan"
+    }
+  },
+  "unauthorized": {
+    "title": "Sarbidea ukatuta",
+    "description": "Ez duzu baimenik orrialde honetara sartzeko. Jarri harremanetan administratzailearekin akats bat dela uste baduzu.",
+    "primary": "Joan profilera",
+    "secondary": "Etxera itzuli"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Mezua ez da aurkitu",
+      "description": "Ez blogeko mezurik Slug-entzat: {{slug}}",
+      "back": "Itzuli blogera"
+    },
+    "back": "Itzuli blogera",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Kasu azterketa ez da aurkitu",
+      "description": "Ez IDaren kasu-azterketarik: {{id}}",
+      "back": "Itzuli kasu azterketetara"
+    },
+    "back": "Itzuli kasu azterketetara",
+    "sections": {
+      "executiveSummary": "Laburpen exekutiboa",
+      "businessChallenge": "Negozio erronka",
+      "technicalSolution": "Irtenbide teknikoa",
+      "architectureDecisions": "Arkitekturaren erabakiak",
+      "technologyStack": "Teknologia pila",
+      "resultsImpact": "Emaitzak eta eragina"
+    },
+    "client": "Bezeroa",
+    "keyOutcomes": "Emaitza nagusiak",
+    "decision": "Erabakia {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Galdutako seinalea",
+      "title": "Orrialdea ez da aurkitu",
+      "description": "Eskatu duzun bidea ez da existitzen edo mugitu egin da. Itzul gaitezen Horizon Tech-en baliozko amaiera batera.",
+      "requestedPath": "Eskatutako bide-izena",
+      "terminal": {
+        "prompt": "$ horizon-routerraren ebazpena --path",
+        "line1": "Ibilbidearen grafikoa ebazten... Huts egin du",
+        "line2": "Arrazoia: ez datorren ibilbide-modulurik",
+        "line3": "Fallback protokoloa aktibatuta",
+        "line4": "Erabili beheko laster-tekletako bat jarraitzeko"
+      },
+      "links": {
+        "home": "Hasierako orrialdea",
+        "services": "Zerbitzuak",
+        "blog": "Bloga",
+        "caseStudies": "Kasu azterketak"
+      }
+    },
+    "runtime": {
+      "badge": "Exekuzio-denborako errorea",
+      "title": "Zerbait apurtu da orrialde honetan",
+      "description": "Ustekabeko arazo batek errendatzea eten du. Segurtasunez saiatu zaitezke berriro edo hasierako orrira itzuli.",
+      "retry": "Saiatu berriro",
+      "home": "Itzuli hasierako orrira",
+      "unknown": "Exekuzio-denborako errore ezezaguna"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech bloga"
+  },
+  "admin": {
+    "blog": {
+      "title": "Blogaren kudeaketa",
+      "subtitle": "Sortu, editatu eta kudeatu zure blogeko mezuak",
+      "newPost": "Mezu berria",
+      "seedData": "Haziaren datuak",
+      "allPosts": "Mezu guztiak",
+      "published": "Argitaratua",
+      "draft": "Zirriborroa",
+      "featured": "Nabarmenduak",
+      "setFeatured": "Ezarri nabarmenduak",
+      "removeFeatured": "Ezabatu nabarmenduak",
+      "table": {
+        "title": "Izenburua",
+        "category": "Kategoria",
+        "status": "Egoera",
+        "date": "Data",
+        "actions": "Ekintzak"
+      },
+      "empty": {
+        "message": "Oraindik ez blogeko mezurik. Sortu zure lehenengo mezua edo haziaren laginaren datuak.",
+        "seed": "Haziaren laginaren datuak",
+        "create": "Sortu mezua"
+      },
+      "delete": {
+        "title": "Ezabatu mezua",
+        "confirmation": "Ziur zaude mezu hau ezabatu nahi duzula? Ekintza hau ezin da desegin.",
+        "delete": "Ezabatu",
+        "cancel": "Bertan behera utzi"
+      }
+    },
+    "editor": {
+      "bannerHint": "Banner zabal gisa agertzen da mezuaren goialdean",
+      "bannerImage": "Bannerraren irudia",
+      "coverHint": "Blogaren zerrendako txarteletan bistaratuta",
+      "coverImage": "Azaleko irudia",
+      "editSlug": "Editatu slug",
+      "posts": "Mezuak",
+      "publish": "Argitaratu",
+      "update": "Eguneratu",
+      "form": {
+        "contentPlaceholder": "Idatzi zure mezuaren edukia hemen...",
+        "excerptPlaceholder": "Artikuluaren laburpen labur bat...",
+        "pickDate": "Aukeratu data bat",
+        "readTimePlaceholder": "Adibidez, 5 minutu irakurri",
+        "titlePlaceholder": "Mezuaren izenburua..."
+      },
+      "meta": {
+        "publisher": "Argitaratzailea",
+        "unknownAuthor": "Egile ezezaguna"
+      },
+      "modes": {
+        "edit": "Editatu",
+        "editOnly": "Editatu soilik",
+        "preview": "Aurrebista",
+        "previewOnly": "Aurrebista soilik",
+        "sideBySide": "Bata bestearen ondoan",
+        "split": "Zatitu"
+      },
+      "tags": {
+        "heading": "Etiketak",
+        "placeholder": "Gehitu etiketa bat..."
+      },
+      "translations": {
+        "auto": "Automatikoa",
+        "autoTranslate": "Itzulpen automatikoa",
+        "clear": "Garbitu",
+        "existing": "Lehendik",
+        "heading": "Itzulpenak",
+        "language": "Hizkuntza",
+        "languages": "Hizkuntzak",
+        "edit": "Editatu",
+        "manual": "Eskuliburua",
+        "preview": "Aurrebista",
+        "searchPlaceholder": "Bilaketa-hizkuntzak...",
+        "translate": "Itzuli"
+      }
+    },
+    "caseStudies": {
+      "title": "Kasu azterketak",
+      "subtitle": "Kasuen azterketak eta proiektuen erakusleihoak kudeatzea",
+      "newCaseStudy": "Kasu azterketa berria",
+      "seedData": "Haziaren datuak",
+      "allCaseStudies": "Kasu azterketa guztiak",
+      "published": "Argitaratua",
+      "draft": "Zirriborroa",
+      "table": {
+        "title": "Izenburua",
+        "industry": "Industria",
+        "client": "Bezeroa",
+        "status": "Egoera",
+        "actions": "Ekintzak"
+      },
+      "empty": {
+        "message": "Oraindik ez kasu azterketarik.",
+        "seed": "Haziaren datuak",
+        "create": "Sortu lehenengoa"
+      },
+      "delete": {
+        "title": "Ezabatu kasu-azterketa",
+        "confirmation": "Ziur zaude kasu azterketa hau ezabatu nahi duzula? Ekintza hau ezin da desegin.",
+        "delete": "Ezabatu",
+        "cancel": "Bertan behera utzi"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Kasu azterketak",
+      "published": "Argitaratua",
+      "draft": "Zirriborroa",
+      "update": "Eguneratu",
+      "create": "Sortu",
+      "sections": {
+        "basicInfo": "Oinarrizko informazioa",
+        "narrative": "Narrazioa",
+        "architectureDecisions": "Arkitekturaren erabakiak",
+        "techStack": "Pila teknologikoa",
+        "results": "Emaitzak",
+        "tags": "Etiketak"
+      },
+      "fields": {
+        "title": "Izenburua",
+        "titlePlaceholder": "Kasu azterketaren izenburua",
+        "slug": "Slug",
+        "slugPlaceholder": "automatikoki sortutako izenburutik",
+        "client": "Bezeroa",
+        "clientPlaceholder": "Bezeroaren izena",
+        "industry": "Industria",
+        "industryPlaceholder": "Hautatu industria",
+        "description": "Deskribapena",
+        "descriptionPlaceholder": "Deskribapen laburra (txarteletan agertzen da)",
+        "executiveSummary": "Laburpen exekutiboa",
+        "executiveSummaryPlaceholder": "Konpromisoaren ikuspegi orokorra",
+        "challenge": "Erronka",
+        "challengePlaceholder": "Zein arazori aurre egin zion bezeroari?",
+        "solution": "Irtenbidea",
+        "solutionPlaceholder": "Nola konpondu zen arazoa?",
+        "decision": "Erabakia",
+        "decisionPlaceholder": "Erabakita dagoena",
+        "rationale": "Arrazoia",
+        "rationalePlaceholder": "Zergatik aukeratu zen planteamendu hau",
+        "metric": "Metrikoa",
+        "metricPlaceholder": "Adibidez, likidazio-latentzia",
+        "value": "Balioa",
+        "valuePlaceholder": "Adibidez, -% 63 edo 4,8h -> 11m",
+        "resultDescription": "Deskribapena",
+        "resultDescriptionPlaceholder": "Zer esan nahi du emaitza honek",
+        "techPlaceholder": "Gehitu teknologia (sakatu Sartu)",
+        "tagPlaceholder": "Gehitu etiketa (sakatu Sartu)"
+      },
+      "add": "Gehitu",
+      "noArchDecisions": "Oraindik ez da arkitektura erabakirik gehitu.",
+      "noResults": "Oraindik ez da emaitzarik gehitu.",
+      "decisionLabel": "Erabakia {{number}}",
+      "resultLabel": "Emaitza {{number}}",
+      "controls": {
+        "published": "Argitaratua",
+        "publishedDescription": "Kasu hau publikoki ikusgai jarri",
+        "featured": "Nabarmenduak",
+        "featuredDescription": "Nabarmendu kasu azterketa hau"
+      }
+    },
+    "imageCrop": {
+      "apply": "Aplikatu",
+      "cancel": "Bertan behera utzi",
+      "cropTitle": "Moztu irudia",
+      "dropText": "Jarri irudi bat hemen edo egin klik igotzeko",
+      "flipHorizontal": "Irauli horizontalki",
+      "flipVertical": "Irauli bertikalki",
+      "replace": "Ordeztu",
+      "reset": "Berrezarri",
+      "rotateLeft": "Biratu ezkerrera",
+      "rotateRight": "Biratu eskuinera",
+      "uploading": "Kargatzen...",
+      "toast": {
+        "invalidFile": "Fitxategi baliogabea",
+        "invalidFileDesc": "Igo baliozko irudi-fitxategi bat.",
+        "uploadFailed": "Huts egin du igotzean",
+        "uploadFailedDesc": "Zerbait gaizki joan zen. Saiatu berriro.",
+        "uploaded": "Irudia kargatuta",
+        "uploadedDesc": "Zure irudia ongi igo da."
+      }
+    }
+  }
+}

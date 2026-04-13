@@ -1,0 +1,387 @@
+{
+  "hero": {
+    "title": "Innovation Lab",
+    "description": "Qiniqlugit ilauqatigiingnikkut tautuktitiyut, uuktuutit, uvalu ayungnaqtutigut qungiaqtitiyut hapkunanga hanayiit iligiit.",
+    "primary": "Qiniqhialugit Demos",
+    "secondary": "Takulugit Ihivgiugutit"
+  },
+  "overview": {
+    "hero": {
+      "title": "Innovation Lab",
+      "description": "Qiniqhiayugut ihuaqtunik kiklighainik AImi, aatumatikkut, uvalu tuniuqhainikkut auladjutit, nuutiqhugit tutqighaqhimayut ihivriurutit ihuangnikkut havauhiit piyaangnirit.",
+      "primary": "Qiniqlugit Ihivriungnikkut Nayugait",
+      "secondary": "Uqautigilugu havaqatigiingniq"
+    },
+    "sections": {
+      "researchAreas": {
+        "title": "Qauyiharnikkut Nayugait",
+        "description": "Tamarmik ihumagilluaqtangit malruuknik qinirhiayuq ihivriuqniq iniqtirutinganut apqutingit piliurhimayuq piqpiaqtumut nunaryuaptikni timiqutigiyangit.",
+        "cardCta": "Qinirhialutit ihumagilluaqtakhanik"
+      },
+      "detailedFocusBriefs": {
+        "title": "Naunaijattiaqhimajut Ihumagijakhat Naittumik",
+        "description": "Qanitukkut-kikliqaqtut ihivriungnikkut pinahuarutit tadja nuutiqtut igluqpinikkut tutqighainirmun tunihinirmun upalungaiyautit."
+      },
+      "fromLabToProduction": {
+        "title": "Ilituqhaivikmit Hanayauniganit",
+        "description": "Nutaanguqtiriniq Horizon-mi naunaiyaqtauvaktuq agyaqtauhimayunit qanurittaakhaanik, avaliittumik uuktuutigiyauyut."
+      },
+      "roadmap": {
+        "title": "R&D Apqutikhaliuqhimayuq",
+        "description": "Ihuaqhaqhimayut pivalliadjutit piyaangnikkut-havaklugit hungiutinirmun, aulahimaaqtumik ihuaqhiyuumiqlugit auladjutit."
+      },
+      "publications": {
+        "title": "Makpiraaliuqhimayut Ihumagiyauyullu",
+        "description": "Ayurnaqtunik titirarniq atulirnikhanut titiraqhimayut aullaranginaqtumik nutannguqtiutikhanut havaakhat."
+      }
+    },
+    "researchAreas": {
+      "appliedAi": {
+        "title": "Atuqtauyut AI Auladjutit",
+        "description": "Piliurninnga-ihumagilluaqtait AI piliurninnga piyut uuktuutimut piyuq, pipkaidjutinga ihuarhainiq, unalu munariyauyuq uuktuutingit."
+      },
+      "automationFrameworks": {
+        "title": "Qaritauyakkuugutiqhanut Havaaqhat",
+        "description": "Iluani aatumatikkut hanalrutit auladjutinun qayangnautit, hulaqutinun kiudjutit, uvalu atuffaaqtaaqtut ingniqutiliqinikkut havauhiit."
+      },
+      "advancedArchitecture": {
+        "title": "Hivutunirmik Napaqtirutikharnik Uuktuutikharnik",
+        "description": "Qaujiharniq mahulingaittunik, tuniuqhaqtauhimajunik nappaqtirutinik ihuarhaqtauhimajun havagutainnun, ihuirutikkut pidjutinun, aktikkulaanganullu."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing unalu IoT Intelligence",
+        "description": "Intelligence at the edge for low latency ihumaliurniq, alrujaqtuqtunik naunaijainiq, unalu hunavaluit aulapkaininnga."
+      },
+      "nlp": {
+        "title": "Uqauhikkut Havauhiit",
+        "description": "Amihunik uqauhilgit kangiqhimaniq naunaiyaininnganut, piiqtauniq, numiktirniq, uqaqatigiikniqmullu timiqutigiyangit."
+      },
+      "evolutionaryAlgorithms": {
+        "title": "Evolutionary Algorithms & Optimization",
+        "description": "Qiniqhianiq uvalu ihuaqhainikkut auladjutit pidjutiqaqtut nunamin tikuaqhinikkut ihuaqhaidjutighanik anginiqhaqmik ingniqutiliqinikkut ayuqhautinik."
+      }
+    },
+    "detailedFocusBriefs": {
+      "automationFrameworks": {
+        "title": "Qaritauyakkuugutiqhanut Havaaqhat",
+        "description": "Piliuliqtugut composable workflow frameworks release orchestration, quality gates, imaalu kinguagut-iliuraidjutaanut naunaiqhitikhat ikiglinahuarutikhanik makpiranut ihuirutauvaktunut ihuaqhijuuminahuaqhugit ihuarnikhanut."
+      },
+      "advancedArchitecture": {
+        "title": "Hivutunirmik Napaqtirutikharnik Uuktuutikharnik",
+        "description": "Nappaktirinirmun uuktuutivut ihumagiplugit ikayuutikhanut ahiruqtiqpalliadjutikhanut qanuriliurutikhat, aallatqiinut avikturniinni mahulingaitkutikhanut atuqtakhat, havaktauyakhanullu atuqtakhanut aulayut aallanguqtaaqtunut piyumayauyunut."
+      },
+      "edgeAndIot": {
+        "title": "Edge Computing unalu IoT Intelligence",
+        "description": "Tutqighaliqtavut hulidjutinun-auladjutit uvalu kikliit inference idjuhiit tapkua pipkaiyut kayumitqiamik nunamingni ihumaliurutinik pihimablugu qitqani munaridjutit, ihivriurutit, uvalu atugahat hivituniitigut ataniudjutit."
+      }
+    },
+    "productionExamples": {
+      "adaptiveCapacityPlanning": {
+        "title": "Hungiutinikkut Aktilaangitigut Upalungaiyautit",
+        "description": "Qaujiharvingmi prototypet naunaiqtauhimajut aadjikkiiktunik havaakhanik imaalu iliuraqtauplutik atuqtakhanut autoscaling qanuriliurutikhat."
+      },
+      "operationalIntelligence": {
+        "title": "Aulapkainiqmut Ayuittiarniq",
+        "description": "NLP turhuangit nuutpaktut munariyauyunit uuktuutinit piliurninnganut ikayuutikhaq havaangit kayumitqiamik naunaiyaigiami naunaitqiamiklu tautuktuuyaaqtamiknik."
+      },
+      "optimizationInDeliverySystems": {
+        "title": "Ihuarhainiq Tuniqhaininnganut Timiqutigiyangillu",
+        "description": "Aadlangurninnga qanuriliurutingit uuktuqtauyut naunaiyaivikmi numiktiqtauyut ihuarhaininnganut ihuarhaininnganut tuniqhaininngalu."
+      },
+      "edgeDecisioning": {
+        "title": "Edge Ihumaliurniq",
+        "description": "IoT unalu edge inference uuktuutit hakugikhiyuumiqtut mikiyumik-latency kivgaqtuutit akhut ihuangnikkut kikliqaqhutik."
+      }
+    },
+    "roadmap": {
+      "now": {
+        "phase": "Tadja",
+        "title": "Atuqtauyut AI Tungaviit",
+        "description": "Angikliyuumiqlugu atuffaaqtaaqtut uuktuutit-kivgaqtuqtut uuktuutit, naunaiyainikkut katitiqhimayut, uvalu qungiangnikkut atugahat tamaini tamayani havaqatigiit."
+      },
+      "next": {
+        "phase": "Tuklia",
+        "title": "Inmikkut Ingniqutiliqinikkut Havauhiit",
+        "description": "Aulapkailiqlugit qaritauyakkuugutiqhat ikiqliyuummiklugit atuqtittiyaami qayarnaktunik naittumiklu tuhaqtittiyaami agyaqtauyaami."
+      },
+      "twelveToEighteenMonths": {
+        "phase": "12min-18mun Tatqiqhiutit",
+        "title": "Edge-Native Intelligence",
+        "description": "Aktikkulaanga hybrid-cloud-edge architectures qanituani piqpiaqtumik inference latency-qayaknaqtut avatingit."
+      },
+      "longHorizon": {
+        "phase": "Hivituyuq Horizon",
+        "title": "Aulahimaaqtumik Ihuaqhainikkut Auladjutit",
+        "description": "Atauttimungaqtirlugit uuktuutit, munariniq, ihuarhainiqlu taimaa timiqutigiyangit hungiutigiami qayangnaittumik avatingit aadlangurumi."
+      }
+    },
+    "publications": {
+      "aiReliability": {
+        "title": "Havaklugit AI Auladjutit tapkua ihuaqtut havaktauyut",
+        "summary": "Ihuaqtut ihumagiyauyut aadjikiingnirmun uuktuutit kayumiktilaangit havaktauyullu ataniudjutit.",
+        "cta": "Taiguqlugit ihumagiyauyut"
+      },
+      "distributedArchitecturePatterns": {
+        "title": "Tuniuqhaktauhimayut Nappaktirinirmun Uuktuutit Anggiyuamik Amigaikyuummiktut Tunngaviit",
+        "summary": "Maniqami titiraqhimayut igluqpinikkut uuktuutini turaaqhimayut havauhiitigut, mahulingainikkut, uvalu auladjutikkut ayungnaitumik.",
+        "cta": "Ihivriuqlugit uuktuutigiyauyut"
+      },
+      "roadmappingAppliedRd": {
+        "title": "Apqutikhaliurniq Iliuraqhimayuq R&D Havakvikmi Qanurittaakhaanik",
+        "summary": "Qanuqtut ihuaqhaqtavut nutaanguqtiriniq havauhikhat taimaa nalvaaqhiyut nuugiamikni uuktuutigiyauyumit naunaiyaqtaaqtuq akinganik.",
+        "cta": "Qiniqlugit makpiraaliuqhimayut"
+      }
+    },
+    "cta": {
+      "title": "Havaklugit haffumuuna Horizon Innovation Lab",
+      "description": "Havaqatigiluta tutqighaqlugit ihumagiyauyut qilamik uvalu nuutiqlugit itquumayut ihumagiyauyut qayangnaitumik, aktilaaqtaaqtut havauhiit auladjutait.",
+      "primary": "Uqaqatigiliqlugu",
+      "secondary": "Tautuklugit Auladjutikharnik Iniqhimayut"
+    }
+  },
+  "aiSystems": {
+    "hero": {
+      "title": "Atuqtauyut AI Auladjutit",
+      "description": "Ihuaqtut kangiqhidjutit qanuq Horizon idjuhiit, atuliqtitugit, uvalu auladjutait machine learning auladjutit prototypenin havaktauyunun.",
+      "back": "Utiffaaqluni Nutaanguqtirinikkut Ilituqhaivikmun",
+      "tags": {
+        "appliedAi": "Iliuraqhimayuq AI",
+        "mlops": "MLOps"
+      }
+    },
+    "sections": {
+      "machineLearningPipelines": {
+        "title": "Machine Learning Pipelines",
+        "description": "Piliurninnga AI pilihaaliqtuq piliuffaaqtaaqtunik turhuanik atayuq nampanik, uuktuutinik, naunaiyainiq, kiudjutiniklu."
+      },
+      "modelDeploymentPatterns": {
+        "title": "Uuktuutinga Iliuraininnga Uuktuutingit",
+        "description": "Iliuraininnga maliganga tikkuaqtauyuq piyuq latency ihariagiyanginnik, havakvikmi akhuurutauyuq, aulapkaininngalu ayurnarninnga."
+      },
+      "mlopsOperatingModel": {
+        "title": "MLOps Aulapkaiyuq Uuktuutinga",
+        "description": "MLOps atuqhimaaqtangit naunaiyainiaqtun AI hanaqidjutikhangit aulayaangat atuguminaqtunik, kavamaliqidjutiqaqtunik, atuguminaqtuniklu atuqtauhimaaqtunik angikliyumiligumik."
+      },
+      "monitoringAndReliability": {
+        "title": "Munariniq Nakuuninngalu",
+        "description": "Qun'ngiarniq umiktiqtaa atuqtauyuq ukunanit uuktuutip pitquhinga aulapkaininngalu qanurittaakhaanik."
+      }
+    },
+    "pipelineStages": {
+      "dataAndFeatureEngineering": {
+        "title": "Nampanik Hunavalungniklu Piliurninnga",
+        "description": "Versioned nampangit iliurainiq, qanurittaakhaanik naunaiyainiq, unalu atuffaanginnarialik qanurittaakhaanik piliuqtuq nakuuyumik tunngavinga uuktuutimut ayuirhainiq."
+      },
+      "modelDevelopment": {
+        "title": "Uuktuutimut Pivallianiq",
+        "description": "Uuktuutit naunaiyaqtauyut piliuffaaqtaaqtunik ihuaqhaidjutinik, tikinnahuarutingit uuktuutingit, inmikkuuqtumiklu naunaiyainiq tunngavinga."
+      },
+      "validationAndSafetyGates": {
+        "title": "Tutqighainikkut uvalu Qayangnautikkut Ukkuangit",
+        "description": "Uuktuqtut atugahat qangiutiyut havauhiinun, hakugingnikkut, maliruagahanunlu ihivriurutit angiqtautinagit tuhaqtidjutinun."
+      },
+      "operationalFeedbackLoops": {
+        "title": "Aulapkaiyuq Qanuqtut Kiudjutikhaq Iliuraqtauyuq",
+        "description": "Kinguagut-aullaqtirninganit alrujaqtuqtunik naunaijaidjutit naunaiqhitivaktut ajuiqhaffaarutikhanik hivulliutijakhanik, utiqtiffaarlugit ihumaliurutikhat, imaalu tuklianik atuqtakhanik upalungaijautikhaliurnirmik."
+      }
+    },
+    "deploymentPatterns": {
+      "realTimeInferenceServices": {
+        "title": "Talvainnakmi Inference Services",
+        "description": "Mikiyumik-latency APIs ilauqatigiingnikkut atuqtakhat autoscaling, cache , unalu request-level qun'ngiarniq."
+      },
+      "batchAndStreamingPredictions": {
+        "title": "Batch unalu Streaming Itqurnarutingit",
+        "description": "Ihuaqhaqhimayut hulipkaidjutikhanullu turhuangit amigaitpiaktunik naunaiyaidjutikhanut naunaiyaidjutikhanut aulapkaidjutikhanullu havaktauyakhanut."
+      },
+      "edgeAwareDeployment": {
+        "title": "Edge-Aware Déploiement",
+        "description": "Hybrid-cloud-edge kivgaqtuidjutikhat atuqtakhat avatingnut pijariaqaqtut nunamingni inference imaalu qitqani atuqtakhat ataniqtuqtuidjutikhat."
+      }
+    },
+    "mlopsCapabilities": {
+      "ciCdForModels": {
+        "title": "CI/CD Uuktuutinut",
+        "description": "Inmikkut piliurniq, uukturniq, tuniqhaininngalu havaangit ikikliyuumiutiyuq iliuraininnga qayangnautinga pihimaplugulu tuniqhaininnga kayumiktumik."
+      },
+      "modelRegistryAndLifecycle": {
+        "title": "Qanurittumik Atiliurniq Aturninngalu",
+        "description": "Versioned model artifacts with promotion stages, lineage, and approval workflows ihuaqhivaalirutauyut munaritjutainut naunaipkutauyumiklu."
+      },
+      "servingInfrastructure": {
+        "title": "Kivgaqtuqtut Aulapkaidjutikhanik",
+        "description": "Aktilaaqtaaqtuq kivgaqtungnikkut aktilaangit atulingnikkut hanaqidjutit imaatun canary uvalu shadow iliurainiq ikayuutauyuq qayangnaitumik aalanguqtirnirmun munaridjutit."
+      }
+    },
+    "monitoringPillars": {
+      "predictionQualityAndDriftDetection": "Itqungniarutit qanuginiit uvalu ahinungaqniitigut naunaiyautit",
+      "latencyThroughputAndCostEfficiencyTracking": "Latency, throughput, unalu akinganik ihuarninnga naunaiyainiq",
+      "dataQualityRegressionAlertsAndRemediationWorkflows": "Nampangit qanurittaakhaanik mamianaaqtumik naunaipkainiq ihuarhaininngalu havaangit",
+      "auditabilityForComplianceAndIncidentAnalysis": "Ihivriuqhittaaqtut maliqatiyakhainik imaalu qanurilidjutainik qauyihaidjutikhanik"
+    },
+    "cta": {
+      "title": "Aktikkulaanga Iliuraqhimayuq AI qanurunaaqhimaittumik",
+      "description": "Upalungaiyaiguvin AI pinahuagutinik tapkua ihagiahuktut aktilaagutiqaqtunik qanuginiinik uvalu hivituyumik ihuaqhaidjutait, Horizon ikayuqtaaqtuq idjuhikhaanik uvalu aulapkaqlugu tamaat auladjutit auladjutait.",
+      "primary": "Uqaqatigilugit havaqativut",
+      "secondary": "Qiniqhialutik Qauyihaivingmi Havaaghanik"
+    }
+  },
+  "nlp": {
+    "hero": {
+      "title": "Amihunut-Uqauhiit NLP",
+      "description": "Qinirhialuni ihuaqtunik uqauhikkut havagutinik pittaarnirnik qanuqtullu aktilaanginni nakuujunun, amigaittunun uqauhiqaqtunun piliuqnikkut pidjutinun.",
+      "back": "Utiffaaqluni Nutaanguqtirinikkut Ilituqhaivikmun",
+      "tags": {
+        "demo": "Ilaulukaarutikharnik Tautuktitiyut",
+        "intelligence": "Uqauhirmik Ayuittiaqhimayunik"
+      }
+    },
+    "sections": {
+      "foundations": {
+        "title": "NLP Tunngavikhangit",
+        "description": "Uqauhikkut havauhiit attautimukhimayut uqauhikkut naunaiyautit uvalu machine learning unguvaqtiqhugit kangiqhidjutait, pinahuarutait, uvalu havauhiit titiraqhimayunin."
+      },
+      "workbench": {
+        "title": "Ilaulukaarniq NLPngit Havagviangit",
+        "description": "Atuqlugu tautuktitiniq uukturiangani uqauhikkut naunaiyautit, mihingnautikkut kihiqtitautait, hunanik unguvaqtirutit, numiktirinirmunlu idjuhiit tadjainaq."
+      },
+      "productionApplications": {
+        "title": "Qanuqtut Horizon Iliuraqtaa NLP Piliurninngani",
+        "description": "NLP pittaarninnga ilaliutihimayuq havakvikmi havaangit havaangit havaamut hapummiutinga naunaittumiklu qanurittaakhaanik uuktuutingit."
+      },
+      "reliabilityAndGovernance": {
+        "title": "Nakuuninnga unalu Piyunnautinga Maliktakhat",
+        "description": "Piliurninnga NLP ihariagiyuq amigaitqiamik uuktuutimik qanurittaakhaanik; pidjutiqaqtuq qajangnaittumik aullaqtiutikhanut atuqtakhanik imaalu aullaranginnaqtumik naunaijautikhanik."
+      }
+    },
+    "foundations": {
+      "intro1": "Nutaat NLP timiqutigiyangit hakugiktipkaiyuq ikayuqtuq ayurhautimik, qinirhianiq akhuurutauyuq, ilihimaniq piiqtauniq, amihuniklu uqauhilgit havaqatigiikniq. Nakuuyumik iniqtirutinga ihariagiyuq tamarmik uuktuutinga qanurittaakhaanik hakugiktumiklu aulapkaiyuq munariniq.",
+      "intro2": "Horizon-mi, ihumagilluaqtavut nunguvinganit nunguvinganut NLP timiqutigiyangit ilaliutiyuq nakuuqpiaqtumik inference qun'ngiarniqmut, piyunnautinga, unalu naunaiyainiq piliurninnga pilaqutinga."
+    },
+    "capabilities": {
+      "languageDetection": {
+        "title": "Uqauhirmik Naunaiyainiq",
+        "description": "Ilitariyait uqauhinga naittumit takiyumikluuniit titiraqhimaninnga iliurariami apirhuutingit ihuaqtumut havaamut piyuq."
+      },
+      "sentimentAnalysis": {
+        "title": "Mihingnautinun Naunaiyautit",
+        "description": "Unguvaqtiqhugit ihumakkut pidjutit uvalu ihuangnirit akiliqtuiyut kangiqhimadjutait, ikayuutikkut ihuaqhaidjutit, uvalu hunat uqautigiyait."
+      },
+      "entityExtraction": {
+        "title": "Hunavalungnik Piiqtauniq",
+        "description": "Ilituriblugit ihuaqhaqhimayut hunat atiit, nanminiqaqtut, nayugait, uvalu ubluit ihuaqhaqhimangitut titiraqhimayut."
+      },
+      "translation": {
+        "title": "Numiktikhimayuq",
+        "description": "Ikayuqtuq amihunik uqauhilgit havaangit numiktiriyuq atuqtumit aulapkaiyuq titiraqhimaninnganikluuniit pihimahimmaaqtillugu qanurittaakhaanik."
+      }
+    },
+    "productionApplications": {
+      "supportAndTicketIntelligence": {
+        "title": "Ikayuqtikhat Tikisinik Qauyimattiarniq",
+        "description": "Naunaiyaqlugit qaiyut apirhuutit qilamiurutikkut, pinahuaqtaitigut, mihingnautainullu qilamiurutigiyaangani auladjutait kiudjutillu qanuriniit."
+      },
+      "governedContentOperations": {
+        "title": "Munariyauyut Iluaniitut Auladjutit",
+        "description": "Atuqlugit maliruagahanun-ilihimanikkut uqauhikkut halumaqhidjutinik uvalu ihuaqhainikkut naunaiyautinik aktilaaqaqtunik ihuaqpiaqtumik uvalu itqaumalugit turaarutait."
+      },
+      "textDrivenBusinessInsights": {
+        "title": "Titiraqhimayut-Pihimayut Nanminikkut Kangiqhidjutit",
+        "description": "Katitirlugit qanuriliurutingit titiqqanit, ihivriurutit, uqaqatigiikniqlu naunaipkariami maliganga aulapkaininnganullu ihumaliurutingit."
+      }
+    },
+    "operatingPrinciples": {
+      "evaluationByUseCase": {
+        "title": "Naunaiyainiq Aturninnga",
+        "description": "Atugahat naunaiyaqtauhimayut hapkununga nayugainun-kitunun naunaiyautinun hivuani tuhaqtitinikkut ihumaliurutit havaktautinagit."
+      },
+      "humanInTheLoopSafeguards": {
+        "title": "Inungmit Atuqtaunginnaqtuq Hapummiutingit",
+        "description": "Akhuraaluk pilaqutinga itqurnarutinga ilaliutiyuq ihivriuqniq apqutingit, angikliyuumiqtuq maliktakhat, takunnaqtumiklu ilihimaniq naunaitkutat."
+      },
+      "continuousMonitoring": {
+        "title": "Munarihimmaarniq",
+        "description": "Ahiruqtirniit, kinguvaqtirutit, nakuuniillu mikhivallianiit naunaijaqtauraanginnaqtun taimaatun ajuirhaffaarniq utiffaarnirlu ihuaqtun."
+      }
+    }
+  },
+  "geneticAlgorithm": {
+    "hero": {
+      "title": "Qanuritmangaangit Qaritauyaliqidjutingnik Auladjutikharnik",
+      "description": "Qiniqlugit aalanguqpalianikkut qaritauyaliqutit ilauqatigiingnikkut avatingni uvalu takulugit qanuq aadjikiit hivunikhaliurutit pidjutauyut havauhiinun ihuaqhiyuumingnikkut auladjutit.",
+      "back": "Utiffaaqluni Nutaanguqtirinikkut Ilituqhaivikmun",
+      "tags": {
+        "demo": "Ilaulukaarutikharnik Tautuktitiyut",
+        "optimizationScience": "Optimisation Nalunaqtunik"
+      }
+    },
+    "sections": {
+      "scientificFoundation": {
+        "title": "Nalunaqtunik Naunaiyainiq Tunngavinga",
+        "description": "Qanuritmangaangit naunairutingit amihuuninngit-piyuq ihuarhainiq qanuriliurutingit pipkaidjutiyuq uumannga nunamit tikkuarninnga hungiutiniqlu."
+      },
+      "interactiveEnvironment": {
+        "title": "Ilaulukaarniq Auladjutikharnik Avatiliqinikkut",
+        "description": "Aulatitilugu uuktuutikhaq tautugianganik iqaiyaliqinikkut ihuaryumirutikharnik ukiuqaqtunik qunngiagianganiklu qanuq pukuktauyukharnik ayungnautigivakhimayaingit naunairutingnik."
+      },
+      "productionUse": {
+        "title": "Qanuq Horizon atuqpagait hamna piliuqhutik",
+        "description": "Aadjikiit qiniqhiadjutit atuqtauyut uvani tautuktitiyuni kangiqhidjutauyut ihuaqhainikkut tughuat aulapkaqtauyut auladjutinun auladjutinun."
+      },
+      "applicationDomains": {
+        "title": "Hivitutqiaq Uuktuutingit",
+        "description": "Angikliyuumirninnga ihuarhainiq akhuurutaulluaqtuq timiqutigiyauyunut akhuurutauyumut tikinnahuarutingit ayurhautipkaiyullu kiklikhangit."
+      }
+    },
+    "scientificFoundation": {
+      "intro1": "Qiniqhiangitkaluaqhuni attauhiqmik ihuaqhaidjutighamik, idjuhiitigut naunaiyautit pidjutiqaqtut aalakiinik inugiangnirnun uuktuqtunun. Attautit kinguliriit ihivriuqtauyut iqaiyangnikkut auladjutainun uvalu ihuaqhaqtaublutik tikuaqhinikkut, avatingnun, uvalu aalanguqataaqhutik.",
+      "intro2": "Una nakuuqpiaqtuq quulitqiamut ayurhautingit aadjikutaringittumik kiklikhangit, talvani naunaiyaininnga qanuriliurutingit ahiruqtaaqtuq qaritauyakkulluuniit akituvallaaqtuq."
+    },
+    "mechanics": {
+      "selection": {
+        "title": "Tikuaqhiniq",
+        "description": "Anginiqhakkut-havadjagiktut uuktuqtut annaumaniaqtut uvalu pidjutigilugit kingulikhavut."
+      },
+      "crossover": {
+        "title": "Avatingnun",
+        "description": "Hakugiktut idjuhiit attautimuktauffaaqtut piliugiangini nutaanik uuktuqtut ihuaqhaidjutighanik aalakiinik hakugingniinik."
+      },
+      "mutation": {
+        "title": "Aalanguqtuq",
+        "description": "Munariyauyuq quyaginaq pidjutiqaqtuq aalakiikniqmik taimaali qiniqhianiq nutqangittaangani nunamingni optima."
+      },
+      "convergence": {
+        "title": "Atauttimungaqtirniq",
+        "description": "Amihuni ukiuni, amihuuninngit piyut nakuuyumik, quulitqiamik ihuarhaidjutikhanik."
+      }
+    },
+    "productionUses": {
+      "resourceScheduling": {
+        "title": "Ikayuutikhamut Naunaiyainiq",
+        "description": "Atuqtavut angikliyuumirninnga maligangit ihuarhigiami amihunik-kikliqaqtuq ihuarhainiq talvani akhuurutauyuq qinirhianiq pilimaittuq."
+      },
+      "architectureTuning": {
+        "title": "Nappaktirinirmun Ihuaqhainiq",
+        "description": "Uuktuqtut aulapkaitjutikhanik ihuarhaininngit ihivriuqtauyut ihuarhigiami havaangit akingalu ihuarninnga."
+      },
+      "continuousOptimization": {
+        "title": "Aulahimaaqtumik Ihuaqhainiq",
+        "description": "Ihuarhainiqmut havaat piyut munariyauyumik alruyaqtuqtumik naunaiyainiq kiudjutinga taimaa timiqutigiyangit hungiutigiami piumayanganik aadlanguraangat."
+      }
+    },
+    "realWorldApplications": {
+      "routeAndLogisticsPlanning": {
+        "title": "Apqutikhainut Auladjutikhanullu Upalungaiyautikhat",
+        "description": "Ayungnavyaktut tuyuqtaunikkut uvalu tuyungnikkut upalungaiyautit ikayuutauyut aalanguqpalianikkut qiniqhianirmun humi ayuqhautit aalanguqataaqtut qilamik."
+      },
+      "modelAndHyperparameterSearch": {
+        "title": "Qanurittumik unalu Hyperparameter Qinirhianiq",
+        "description": "Qanuritmangaangit qiniqhiadjutikhangit nalvaaqhiniaqtun anginirmik atuqtakharnik atuqtakharnik taima hivunikhangit qaangit nipiquqtuyumik nallaumangitunlu."
+      },
+      "portfolioAndAllocationProblems": {
+        "title": "Naunaitkutingit Tuniqhaininngalu Ayurhautingit",
+        "description": "Nakuuhivallianiq ataani akitaqutautiyut tikinnahuarutingit pittaaqtuq nakuuqpiaqtumik himmautinga tamainni aadlanguqtuq uuktuqtut piyut."
+      }
+    }
+  }
+}

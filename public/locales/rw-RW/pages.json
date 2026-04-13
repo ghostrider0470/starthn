@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Ibitwerekeyeho",
+    "hero": {
+      "titlePrefix": "Kubaka ikoranabuhanga ry'ejo hazaza",
+      "titleHighlight": "Uyu munsi",
+      "description": "Horizon Tech d.o.o. ni isosiyete y'ikoranabuhanga ku isi ifite icyicaro i Sarajevo, itanga ibisubizo bya software bigezweho ku bigo byo ku migabane itatu."
+    },
+    "sections": {
+      "mission": {
+        "title": "Mission",
+        "description": "We help organizations turn ambitious ideas into reliable digital products that create measurable business value.",
+        "points": [
+          "Guhuza itangwa ry'ikoranabuhanga n'ibisubizo by'ubucuruzi bisobanutse.",
+          "Kubaka sisitemu y'igihe kirekire ikomeza kubungabunga uko amatsinda ayongera.",
+          "Gukorana bya hafi n'abafatanyabikorwa kuva ku ngamba kugeza mu ishyirwa mu bikorwa."
+        ]
+      },
+      "expertise": {
+        "title": "Ubuhanga",
+        "description": "Amatsinda yacu y'ubuhanga butandukanye ahuza ubuhanga n'ibitekerezo by'ibicuruzwa mu mifuka y'ikoranabuhanga rigezweho.",
+        "points": [
+          "Enterprise-grade web and platform engineering.",
+          "Cloud architecture, DevOps automation, and resilient infrastructure.",
+          "Applied AI / ML, data workflows, and IoT-enabled products."
+        ]
+      },
+      "approach": {
+        "title": "Uburyo",
+        "description": "We execute with a transparent, iterative model that keeps delivery predictable while reducing product risk.",
+        "points": [
+          "Discover: define scope, priorities, and success metrics early.",
+          "Build: ship in focused increments with continuous feedback loops.",
+          "Optimize: Monitor results and improve performance over time."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Waba witeguye guhindura ubucuruzi bwawe?",
+      "description": "Kwinjira ku rutonde rugenda rukura rw'ibigo byizera Horizon Tech mu gutanga ibisubizo bishya n'ibisubizo bidasanzwe.",
+      "primary": "Tangira",
+      "secondary": "View Success Stories"
+    }
+  },
+  "contact": {
+    "badge": "Vugana nawe",
+    "hero": {
+      "title": "Contact Us",
+      "description": "Waba ufite umushinga mu bitekerezo? Twifuza kumva ibyawe. Kanda hano urebe uko twagufasha kugera ku ntego zawe mu buzima bwawe."
+    },
+    "info": {
+      "title": "Contact Information"
+    },
+    "booking": {
+      "title": "Book a Meeting",
+      "description": "Teganya guhamagara ku buntu mu gihe cy'iminota 30"
+    },
+    "methods": {
+      "email": {
+        "title": "Email",
+        "description": "Nyoherereza ubutumwa bugufi kuri email igihe icyo ari cyo cyose",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Aho hantu",
+        "description": "Based in",
+        "value": "Sarajevo, Bosnia and Herzegovina"
+      },
+      "response": {
+        "title": "Igihe cyo gusubiza",
+        "description": "Akenshi dusubiza imbere mu gihugu",
+        "value": "Amasaha 24-48"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Umushinga mushya"
+      },
+      "support": {
+        "label": "Ubufasha bwa tekiniki"
+      },
+      "partnerships": {
+        "label": "Ubufatanye"
+      },
+      "careers": {
+        "label": "Akazi"
+      },
+      "general": {
+        "label": "Iperereza rusange"
+      }
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "success": "Murakoze cyane kubw'ubutumwa bwanyu. Turindikira ubutumwa bwawe mumasaha 24-48.",
+      "error": "Hari ikintu kitagenda neza. Please try again or email us directly.",
+      "fullName": "Full Name *",
+      "email": "Email Address *",
+      "company": "Isosiyete",
+      "subject": "Ingingo *",
+      "message": "Ubutumwa *",
+      "placeholders": {
+        "name": "Izina ryawe",
+        "email": "you@example.com",
+        "company": "Isosiyete yawe",
+        "subject": "Ni iki twafasha?",
+        "message": "Tubwire igitekerezo cyawe cyangwa igitekerezo cyawe..."
+      },
+      "validation": {
+        "required": {
+          "name": "Izina ryuzuye rirakenewe.",
+          "email": "Aderesi ya email irakenewe.",
+          "subject": "Nyamuneka hitamo ingingo runaka.",
+          "message": "Ubutumwa burakenewe."
+        },
+        "email": "Nyamuneka shyiramo aderesi ya email yemewe.",
+        "messageMinLength": "Ubutumwa bugomba kuba bufite nibura inyuguti {{count}} ndebure."
+      },
+      "sending": "Sending...",
+      "submit": "Send Message"
+    },
+    "reasonsTitle": "Kuki dukorana natwe?",
+    "reasons": [
+      "Full-stack software development expertise",
+      "AI/ML and cloud architecture specialists",
+      "Agile development with transparent communication",
+      "Gushyigikira no kubungabunga ibidukikije mu buryo burambye"
+    ],
+    "custom": {
+      "title": "Ibisubizo byihariye",
+      "description": "Gushaka igisubizo cyiza? Dukorana bya hafi n'abakiriya kugira ngo dusobanukirwe ibyifuzo byihariye no gutanga software yihariye itanga ibisubizo bipimwa.",
+      "cta": "Discuss Your Project"
+    },
+    "faq": {
+      "title": "Waba ufite ibindi bibazo?",
+      "description": "Reba igice cyacu cya FAQ kugirango ubone ibisubizo byihuse",
+      "cta": "Browse FAQs"
+    }
+  },
+  "team": {
+    "badge": "Itsinda ryacu",
+    "hero": {
+      "titlePrefix": "Meet the Minds Behind",
+      "titleHighlight": "Horizon Tech",
+      "description": "Itsinda ritandukanye ry'abahanga mu ikoranabuhanga, abashushanya, n'abahanga mu by'imitekerereze bubaka ibicuruzwa bya digitale bigezweho hamwe."
+    },
+    "section": {
+      "title": "Itsinda ry'ubuyobozi",
+      "description": "Abayobozi b'ibigo by'imari iciriritse bayoboye icyerekezo n'iterambere ry'Ikigo cy'Igihugu cy'Imisoro n'Amahoro"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Founder, CEO & CTO",
+        "bio": "Umuyobozi w'icyerekezo n'umwubatsi wa tekiniki ufite imyaka 10+ muri software y'ubucuruzi, umwihariko muri AI / ML, imbuga z'ibicu, n'ubwubatsi bw'ibicuruzwa bigezweho.",
+        "expertise": [
+          "AI / ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Igisubizo cy'ubwubatsi",
+          "Cloud Engineering"
+        ]
+      },
+      "ahmet": {
+        "role": "Chief Security Architect",
+        "bio": "Cybersecurity specialist focused on enterprise security architecture, secure on-prem infrastructure, and compliance-first delivery for regulated environment.",
+        "expertise": [
+          "Cyber Security",
+          "Sisitemu ya On-Prem",
+          "Ubwubatsi bw'umutekano",
+          "Compliance",
+          "Umutekano w'ibikorwa remezo"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Email {{name}}",
+      "linkedin": "{{name}} LinkedIn profile"
+    },
+    "culture": {
+      "title": "Ubuzima muri Horizon Tech",
+      "description": "Duteza imbere umuco wo guhanga udushya, ubufatanye no kwiga mu buryo buhoraho",
+      "remoteFirst": {
+        "title": "Kure-First Culture",
+        "description": "Gukora ahantu hose ukoresheje amasaha y'akazi kandi wibanda ku byavuye mu matora, aho kwibanda ku bintu."
+      },
+      "collaborative": {
+        "title": "Ibidukikije by'ubufatanye",
+        "description": "Regular team events, knowledge sharing sessions, and cross-functional collaboration."
+      },
+      "workLife": {
+        "title": "Uburinganire hagati y'akazi n'ubuzima",
+        "description": "Politiki y'ikiruhuko, ubufasha bw'ubuzima bwo mu mutwe, no kubaha igihe cy'umuntu ku giti cye."
+      },
+      "innovation": {
+        "title": "Igihe cyo guhanga udushya",
+        "description": "20% by'igihe cyo gukora imishinga y'umuntu ku giti cye, hackathons, no gushakisha ikoranabuhanga rishya."
+      },
+      "stats": {
+        "teamMembers": "Abagize itsinda",
+        "countries": "Ibihugu",
+        "techStacks": "Ibipimo bya tekiniki",
+        "remoteReady": "Remote Ready"
+      }
+    },
+    "cta": {
+      "title": "Urashaka kwinjira mu itsinda ryacu?",
+      "description": "Buri gihe dushakisha abantu bafite impano bita ku bukorikori, ubutunzi no guhanga udushya.",
+      "button": "Vugana nawe"
+    }
+  },
+  "careers": {
+    "badge": "Join Our Team",
+    "hero": {
+      "titlePrefix": "Kubaka ejo hazaza",
+      "titleHighlight": "Hamwe natwe",
+      "description": "Join a team of engineers building cutting-edge software for global clients. Kora kure, gukura buri gihe, kandi ugire ingaruka nyazo.",
+      "button": "Reba imyanya"
+    },
+    "process": {
+      "title": "Our Hiring Process",
+      "description": "Shyira mu gaciro, ushyira mu gaciro, kandi wubaha igihe cyawe",
+      "steps": [
+        {
+          "title": "Apply",
+          "description": "Tanga ubusabe bwawe kandi tuzabisuzuma mu minsi 3 y'akazi."
+        },
+        {
+          "title": "Ikiganiro cya mbere",
+          "description": "Guhamagara kuri videwo mu gihe cy'iminota 30 kugira ngo uganire ku bunararibonye bwawe n'ibyo wifuza."
+        },
+        {
+          "title": "Tekiniki",
+          "description": "Technical interview or practical exercise to showcase your skills."
+        },
+        {
+          "title": "Gutanga",
+          "description": "Meet the team and receive your offer to join Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Imyanya ifunguye",
+      "description": "Find your next opportunity and join our growing team",
+      "unavailable": "Mu gihe cy'ubugimbi n'ubwangavu, ntibyemewe n'amategeko",
+      "apply": "Apply Now",
+      "noMatch": "Ntubona uruhare rutunganye?",
+      "sendCv": "Send Us Your CV",
+      "listings": [
+        {
+          "title": "Senior Full-Stack Engineer",
+          "department": "Ubwubatsi",
+          "location": "Remote (EU Time Zones)",
+          "type": "Igihe cyose",
+          "description": "Kubaka porogaramu z'ubucuruzi zigezweho ukoresheje ikoranabuhanga rya React, Node.js, na Cloud.",
+          "tags": [
+            "Igisubizo",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps Engineer",
+          "department": "Ubwubatsi",
+          "location": "Sarajevo / Remote",
+          "type": "Igihe cyose",
+          "description": "Gushushanya no kubungabunga imiyoboro ya CI / CD, ibikorwa remezo nka code, na sisitemu yo kugenzura.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI/ML Engineer",
+          "department": "Innovation Lab",
+          "location": "Kure",
+          "type": "Igihe cyose",
+          "description": "Develop machine learning models and AI solutions for enterprise clients.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Product Designer",
+          "department": "Igishushanyo mbonera",
+          "location": "Kure",
+          "type": "Igihe cyose",
+          "description": "Create beautiful, intuitive user experiences for complex enterprise applications.",
+          "tags": [
+            "Figma",
+            "Ubushakashatsi bw'abakoresha",
+            "UI / UX",
+            "Igishushanyo mbonera"
+          ]
+        },
+        {
+          "title": "Solutions Architect",
+          "department": "Ubwubatsi",
+          "location": "Kure",
+          "type": "Igihe cyose",
+          "description": "Gutegura ibisubizo bya tekiniki no kuyobora abakiriya binyuze mu mpinduka za digitale.",
+          "tags": [
+            "Cloud Architecture",
+            "Igishushanyo mbonera",
+            "Ubujyanama"
+          ]
+        },
+        {
+          "title": "Umwanditsi wa tekiniki",
+          "department": "Ibikorwa",
+          "location": "Kure",
+          "type": "Igice cy'igihe",
+          "description": "Create comprehensive documentation, tutorials, and technical content.",
+          "tags": [
+            "Inyandiko",
+            "API Docs",
+            "Technical Writing"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ibibazo bijyanye no gukora hano?",
+      "description": "Twifuza kumva ibyawe. Tuzakomeza kubagezaho ibisubizo by'ibibazo byose bijyanye n'ubuzima bw'imyororokere.",
+      "button": "Contact Us"
+    }
+  },
+  "caseStudies": {
+    "badge": "Inkuru z'intsinzi",
+    "hero": {
+      "titlePrefix": "Gutanga umusaruro",
+      "titleHighlight": "Matter",
+      "description": "Explore how we've helped companies across industries transform operations through practical, high-impact technology.",
+      "tags": {
+        "delivery": "Itangwa ry'Ubwubatsi",
+        "outcomes": "Ibyavuye mu bushakashatsi"
+      }
+    },
+    "stats": {
+      "projects": "Imishinga yatanzwe",
+      "clients": "Abakiriya bishimye",
+      "efficiency": "Avg. Efficiency Gain",
+      "retention": "Kubungabunga abakiriya"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Serivisi z'imari",
+        "title": "Cloud Migration & Modernization",
+        "description": "Migrated legacy banking systems to AWS cloud infrastructure with zero downtime.",
+        "challenge": "Legacy monolithic architecture causing scalability issues",
+        "result": "Rayon Sports yatsinze Rayon Sports mu mukino wa gicuti",
+        "metrics": [
+          {
+            "label": "Kugabanya ibiciro",
+            "value": "40%"
+          },
+          {
+            "label": "Performance Gain",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Microservices",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech Solutions",
+        "industry": "Ubuzima",
+        "title": "AI-Powered Diagnostic Platform",
+        "description": "Built ML models for medical image analysis with 95%+ accuracy.",
+        "challenge": "Manual diagnostic processes taking too long",
+        "result": "Ibipimo by'ubuziranenge bw'ibinyabiziga bifashishije AI / ML",
+        "metrics": [
+          {
+            "label": "Time Saved",
+            "value": "70%"
+          },
+          {
+            "label": "Accuracy",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "Igisubizo",
+          "Ubuzima"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "E-Commerce Giant",
+        "industry": "Ubucuruzi",
+        "title": "Real-Time Analytics Dashboard",
+        "description": "Developed BI platform processing 10M+ events daily.",
+        "challenge": "No real time visibility into key business metrics",
+        "result": "Real-time analytics and insights platform",
+        "metrics": [
+          {
+            "label": "Events/Day",
+            "value": "10M+"
+          },
+          {
+            "label": "Igihe cyo gusubiza",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "Igisubizo",
+          "Data Engineering"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Waba witeguye kwandika inkuru y'intsinzi yawe?",
+      "description": "Reka turebere hamwe uko twagufasha kugera ku ntego nk'izo kandi ukagira icyizere cyinshi."
+    },
+    "filters": {
+      "title": "Industry Filter",
+      "all": "Inganda zose",
+      "empty": "No case studies match the selected industry filter."
+    }
+  },
+  "blog": {
+    "badge": "Blog",
+    "hero": {
+      "titlePrefix": "Ibitekerezo n'ibitekerezo",
+      "titleHighlight": "Horizon Tech",
+      "description": "Technical tutorials, industry insights, and practical lessons from real delivery work."
+    },
+    "categories": [
+      "All Posts",
+      "Cloud Architecture",
+      "DevOps",
+      "AI / ML",
+      "Imbere",
+      "Backend",
+      "Amakuru"
+    ],
+    "featuredPost": {
+      "id": "Featured",
+      "title": "Ahazaza h'ibicu n'ibicucu: Trends to Watch in 2025",
+      "excerpt": "Explore the latest trends in cloud-native development, from serverless architectures to edge computing.",
+      "author": {
+        "name": "Horizon Tech Editorial"
+      },
+      "date": "15 Ugushyingo 2025",
+      "readTime": "8 min read",
+      "category": "Cloud Architecture",
+      "tags": [
+        "Igicu",
+        "Azure",
+        "Trends"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Building Scalable Microservices with Azure Kubernetes Service",
+        "excerpt": "Ubuyobozi bw'Akarere ka Gicumbi buvuga ko bugiye gukurikirana no gukurikirana ishyirwa mu bikorwa ry'imyanzuro y'Inama y'Abaminisitiri.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "12 Ugushyingo 2025",
+        "readTime": "6 min read",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Microservices",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Machine Learning in Production: Lessons Learned",
+        "excerpt": "Field-tested lessons from deploying ML models at scale.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "10 Ugushyingo 2025",
+        "readTime": "10 min read",
+        "category": "AI / ML",
+        "tags": [
+          "Kwiga imashini",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "INGINGO YA 19: Ni iki gishya n'impamvu yacyo",
+        "excerpt": "19 Sobanukirwa n'imiterere y'umubiri w'umuntu n'ingaruka zabyo.",
+        "author": {
+          "name": "Horizon Tech Editorial"
+        },
+        "date": "Ugushyingo 8, 2025",
+        "readTime": "5 min read",
+        "category": "Imbere",
+        "tags": [
+          "Igisubizo",
+          "JavaScript",
+          "Iterambere ry'urubuga"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Subscribe to Our Newsletter",
+      "description": "Menya ibitabo bishya, ibitabo n'ibitekerezo byatanzwe buri cyumweru.",
+      "placeholder": "your.email@example.com",
+      "button": "Subscribe",
+      "note": "Nta spam. Kwiyandikisha igihe icyo ari cyo cyose."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering Blog",
+        "description": "Inyandiko z'ubutaka n'imiterere y'amatsinda yubaka ibicuruzwa bya AI, sisitemu y'ubucuruzi, hamwe n'ibicu bizewe."
+      },
+      "filters": {
+        "postsInView": "{{count}} posts in view"
+      },
+      "featured": {
+        "badge": "Vuba aha",
+        "readCta": "Read featured post"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Loading profile...",
+    "title": "Profile Settings",
+    "subtitle": "Kugenzura imiterere ya konti yawe n'ibyo ukunda",
+    "photoButton": "Hindura ifoto",
+    "tabs": {
+      "general": "Rusange",
+      "security": "Umutekano",
+      "preferences": "Ibyifuzo"
+    },
+    "messages": {
+      "profileUpdated": "Profile updated successfully",
+      "profileUpdateFailed": "Failed to update profile",
+      "passwordsNoMatch": "Amagambo mashya y'ibanga ntaho ahuriye n'amagambo y'ibanga",
+      "passwordTooShort": "Ijambo ry'ibanga rigomba kuba rifite nibura inyuguti 8 z'uburebure",
+      "passwordChanged": "Ijambo ry'ibanga ryahinduwe neza",
+      "passwordChangeFailed": "Yananiwe guhindura ijambo ry'ibanga",
+      "optedOut": "Kwirukanwa muri raporo z'imyitozo ngororamubiri",
+      "optedIn": "Guhitamo gutanga raporo z'imyitozo",
+      "optOutFailed": "Failed to update opt-out status"
+    },
+    "general": {
+      "title": "Amakuru bwite",
+      "description": "Vugurura amakuru yawe bwite n'amakuru y'aho uherereye",
+      "firstName": "Izina rya mbere",
+      "firstNamePlaceholder": "John",
+      "lastName": "Izina rya nyuma",
+      "lastNamePlaceholder": "Doe",
+      "email": "Aderesi ya imeyili",
+      "emailNotice": "Ubutumwa bugufi ntibushobora guhinduka. Nyamuneka hamagara ubufasha niba ukeneye ubufasha.",
+      "phone": "Nimero ya telefoni",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Save Changes"
+    },
+    "security": {
+      "title": "Ibipimo by'umutekano",
+      "description": "Genzura ijambo ry'ibanga ryawe n'ibyifuzo by'umutekano",
+      "currentPassword": "Ijambo ry'ibanga rihari",
+      "currentPasswordPlaceholder": "Enter current password",
+      "newPassword": "Ijambo ry'ibanga rishya",
+      "newPasswordPlaceholder": "Enter new password",
+      "confirmPassword": "Confirm New Password",
+      "confirmPasswordPlaceholder": "Confirm new password",
+      "passwordHint": "Agomba kuba afite nibura inyuguti 8 z'uburebure",
+      "changePassword": "Hindura ijambo ry'ibanga"
+    },
+    "preferences": {
+      "title": "Notification Preferences",
+      "description": "Kugenzura uko wakira amakuru n'amabwiriza",
+      "email": {
+        "title": "Email Notifications",
+        "description": "Kwakira amakuru n'amakuru ukoresheje imeyili"
+      },
+      "sms": {
+        "title": "SMS Notifications",
+        "description": "Kwakira ubutumwa bugufi ukoresheje ubutumwa bugufi"
+      },
+      "optOut": {
+        "title": "Opt Out of Practice Reports",
+        "description": "Hide your reports from practice owner"
+      },
+      "actions": {
+        "title": "Account Actions",
+        "downloadData": "Download Account Data",
+        "deleteAccount": "Delete Account"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Gusubira mu rugo",
+    "title": "Support Center",
+    "subtitle": "Shaka ubufasha ukoresheje software yacu yo kubara ibicuruzwa",
+    "cards": {
+      "email": {
+        "title": "Email Support",
+        "description": "Nyamuneka twandikire kuri email yawe ku kibazo icyo ari cyo cyose"
+      },
+      "project": {
+        "title": "Project Inquiries",
+        "description": "Discuss your project requirements",
+        "button": "Contact Us"
+      },
+      "resources": {
+        "title": "Ibikoresho",
+        "description": "Ibikoresho bya tekiniki n'amabwiriza",
+        "button": "View Resources"
+      }
+    },
+    "faqTitle": "Ibibazo bikunze kubazwa",
+    "faqDescription": "Ibisubizo byihuse by'ibibazo abantu bakunze kwibaza",
+    "faqs": [
+      {
+        "question": "Ni izihe serivisi Horizon Tech itanga?",
+        "answer": "Dutanga iterambere rya software yihariye, ibisubizo bya AI / ML, ubwubatsi bw'igicu, DevOps, ubwenge bw'ubucuruzi, na serivisi za IoT."
+      },
+      {
+        "question": "Ni gute natangira umushinga hamwe na Horizon Tech?",
+        "answer": "Watwandikira ukoresheje fomu cyangwa imeyili ukoresheje ibyo ukeneye. Tuzakora igenzura ryimbitse kandi dusangire ibitekerezo."
+      },
+      {
+        "question": "Waba utanga ubufasha n'ubufasha mu buryo buhoraho?",
+        "answer": "Yego. Dutanga ubufasha no kubungabunga ibicuruzwa birimo gukosora amakosa, kuvugurura umutekano, no kunoza ibintu."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Gusubira mu rugo",
+    "title": "Ibikoresho bya tekiniki",
+    "subtitle": "Guides, tutorials, and best practices from the Horizon Tech team",
+    "hub": {
+      "title": "Learning Hub",
+      "description": "Explore our curated technical resources across cloud, AI / ML, DevOps, and modern software development.",
+      "note": "These materials are based on real project experience and updated always."
+    },
+    "categories": [
+      {
+        "icon": "Igicu",
+        "title": "Cloud Architecture",
+        "description": "Azure, AWS, and cloud-native patterns",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Ubuyobozi"
+          },
+          {
+            "title": "Cloud Migration Strategies",
+            "type": "Article"
+          }
+        ]
+      },
+      {
+        "icon": "Ubwonko",
+        "title": "AI & Machine Learning",
+        "description": "ML models, data science, and AI integration",
+        "resources": [
+          {
+            "title": "Introduction to Azure ML",
+            "type": "Inyigisho"
+          },
+          {
+            "title": "Building Production ML Pipelines",
+            "type": "Ubuyobozi"
+          }
+        ]
+      },
+      {
+        "icon": "Settings",
+        "title": "DevOps & Platform",
+        "description": "CI / CD, infrastructure as code, automation",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Inyigisho"
+          },
+          {
+            "title": "Infrastructure as Code with Terraform",
+            "type": "Ubuyobozi"
+          }
+        ]
+      },
+      {
+        "icon": "Code",
+        "title": "Iterambere rya software",
+        "description": ".NET, React, and modern development practices",
+        "resources": [
+          {
+            "title": "Clean Architecture in .NET",
+            "type": "Ubuyobozi"
+          },
+          {
+            "title": "React Best Practices",
+            "type": "Article"
+          }
+        ]
+      },
+      {
+        "icon": "database",
+        "title": "Data & Analytics",
+        "description": "BI, ububiko bw'amakuru, na analytics platforms",
+        "resources": [
+          {
+            "title": "Power BI Dashboard Design",
+            "type": "Inyigisho"
+          },
+          {
+            "title": "Data Warehouse Architecture",
+            "type": "Ubuyobozi"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Ukeneye imyitozo isanzwe?",
+      "description": "Dutanga amahugurwa ajyanye n'amatsinda y'abahanga n'abahanga mu by'ubucuruzi",
+      "text": "Ukeneye imyitozo y'amatsinda y'intoki? Dutanga amahugurwa yihariye kubijyanye n'ubwubatsi bw'igicu, DevOps, n'uburyo bugezweho bwo gutanga ibicuruzwa.",
+      "button": "Vugana nawe"
+    }
+  },
+  "unauthorized": {
+    "title": "Access Denied",
+    "description": "Nta burenganzira ufite bwo kwinjira kuri uru rubuga. Vugana n'umuyobozi wawe niba utekereza ko ari ikosa.",
+    "primary": "Go to Profile",
+    "secondary": "Gusubira mu rugo"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Post not found",
+      "description": "Nta muyobozi w'Akarere ka Nyamasheke wahawe ikamba rya Nyampinga w'u Rwanda - {{slug}}",
+      "back": "Back to blog"
+    },
+    "back": "Back to blog",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Case study not found",
+      "description": "No case study exists for ID: {{id}}",
+      "back": "Back to case studies"
+    },
+    "back": "Back to case studies",
+    "sections": {
+      "executiveSummary": "Executive Summary",
+      "businessChallenge": "Imbogamizi y'ubucuruzi",
+      "technicalSolution": "Igisubizo cya tekiniki",
+      "architectureDecisions": "Ibyemezo by'ubwubatsi",
+      "technologyStack": "Technology Stack",
+      "resultsImpact": "Results & Impact"
+    },
+    "client": "Umukiriya",
+    "keyOutcomes": "Ibyavuye mu matora",
+    "decision": "Icyemezo {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Signal Lost",
+      "title": "Page Not Found",
+      "description": "Inzira mwasabye ntiyigeze iba ihari cyangwa ngo ihinduke. Reka tugaruke kuri Horizon Tech Finalpoint.",
+      "requestedPath": "Inzira yasabwe",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Bye Bye Route Graph... Failed",
+        "line2": "Reason: no matching route module",
+        "line3": "Fallback protocol engaged",
+        "line4": "Koresha imwe mu nzira ngufi iri hasi kugira ngo ukomeze"
+      },
+      "links": {
+        "home": "Urupapuro rw'ibanze",
+        "services": "Services",
+        "blog": "Blog",
+        "caseStudies": "Case Studies"
+      }
+    },
+    "runtime": {
+      "badge": "Runtime Error",
+      "title": "Something Broke On This Page",
+      "description": "An unexpected issue interrupted rendering. Ushobora kugaruka ku rubuga rwawe mu mutekano cyangwa ugasubira ku rubuga rwawe.",
+      "retry": "Ongera kugerageza",
+      "home": "Back to Homepage",
+      "unknown": "Unknown runtime error"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Blog Management",
+      "subtitle": "Create, edit, and manage your blog posts",
+      "newPost": "New Post",
+      "seedData": "Amakuru y'imbuto",
+      "allPosts": "All Posts",
+      "published": "Byasohotse",
+      "draft": "Draft",
+      "featured": "Featured",
+      "setFeatured": "Set Featured",
+      "removeFeatured": "Remove Featured",
+      "table": {
+        "title": "Umutwe",
+        "category": "Catégorie",
+        "status": "Status",
+        "date": "Itariki",
+        "actions": "Ibikorwa"
+      },
+      "empty": {
+        "message": "No blog posts yet. Create your first post or seed sample data.",
+        "seed": "Seed Sample Data",
+        "create": "Create Post"
+      },
+      "delete": {
+        "title": "Delete Post",
+        "confirmation": "Waba wizeye neza ko wifuza gusiba iyi nyandiko? Iki gikorwa ntigishobora gukurwaho.",
+        "delete": "Delete",
+        "cancel": "Hagarika"
+      }
+    },
+    "editor": {
+      "bannerHint": "Ni ibendera rinini riri hejuru y'urubuga rw'itora",
+      "bannerImage": "Banner Image",
+      "coverHint": "Filed Under: Featured, Mu Rwanda Tagged With:",
+      "coverImage": "Cover Image",
+      "editSlug": "Edit slug",
+      "posts": "Posts",
+      "publish": "Publish",
+      "update": "Kuvugurura",
+      "form": {
+        "contentPlaceholder": "Andika inyandiko yawe hano...",
+        "excerptPlaceholder": "Mu ncamake y'iyi nyandiko...",
+        "pickDate": "Hitamo itariki",
+        "readTimePlaceholder": "Bye Bye 5 min read",
+        "titlePlaceholder": "Post title..."
+      },
+      "meta": {
+        "publisher": "Umwanditsi",
+        "unknownAuthor": "Umwanditsi utazwi"
+      },
+      "modes": {
+        "edit": "Edit",
+        "editOnly": "Edit only",
+        "preview": "Preview",
+        "previewOnly": "Preview only",
+        "sideBySide": "Side by side",
+        "split": "Split"
+      },
+      "tags": {
+        "heading": "Tags",
+        "placeholder": "Add a tag..."
+      },
+      "translations": {
+        "auto": "Imodoka",
+        "autoTranslate": "Auto-translate",
+        "clear": "Clear",
+        "existing": "Existing",
+        "heading": "Ubuhinduzi",
+        "language": "Ururimi",
+        "languages": "Indimi",
+        "edit": "Edit",
+        "manual": "Manual",
+        "preview": "Preview",
+        "searchPlaceholder": "Shakisha indimi ...",
+        "translate": "Semura"
+      }
+    },
+    "caseStudies": {
+      "title": "Case Studies",
+      "subtitle": "Manage case studies and project showcases",
+      "newCaseStudy": "New Case Study",
+      "seedData": "Amakuru y'imbuto",
+      "allCaseStudies": "All Case Studies",
+      "published": "Byasohotse",
+      "draft": "Draft",
+      "table": {
+        "title": "Umutwe",
+        "industry": "Inganda",
+        "client": "Umukiriya",
+        "status": "Status",
+        "actions": "Ibikorwa"
+      },
+      "empty": {
+        "message": "No case studies yet.",
+        "seed": "Amakuru y'imbuto",
+        "create": "Create First"
+      },
+      "delete": {
+        "title": "Delete Case Study",
+        "confirmation": "Waba wifuza gukuraho iyi nyigisho? Iki gikorwa ntigishobora gukurwaho.",
+        "delete": "Delete",
+        "cancel": "Hagarika"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Case Studies",
+      "published": "Byasohotse",
+      "draft": "Draft",
+      "update": "Kuvugurura",
+      "create": "Kurema",
+      "sections": {
+        "basicInfo": "Amakuru y'ibanze",
+        "narrative": "Inkuru",
+        "architectureDecisions": "Ibyemezo by'ubwubatsi",
+        "techStack": "Tech Stack",
+        "results": "Ibyavuye mu matora",
+        "tags": "Tags"
+      },
+      "fields": {
+        "title": "Umutwe",
+        "titlePlaceholder": "Case study title",
+        "slug": "Slug",
+        "slugPlaceholder": "Auto-Generated-From-Title",
+        "client": "Umukiriya",
+        "clientPlaceholder": "Izina ry'umukiriya",
+        "industry": "Inganda",
+        "industryPlaceholder": "Hitamo inganda",
+        "description": "Ibisobanuro",
+        "descriptionPlaceholder": "Ibisobanuro bigufi (bigaragara ku makarita)",
+        "executiveSummary": "Executive Summary",
+        "executiveSummaryPlaceholder": "Igishushanyo mbonera cy'umuhango wo gushyingura",
+        "challenge": "Imbogamizi",
+        "challengePlaceholder": "Ni ikihe kibazo umukiriya yahuye nacyo?",
+        "solution": "Igisubizo",
+        "solutionPlaceholder": "Ikibazo cyakemuwe gute?",
+        "decision": "Icyemezo",
+        "decisionPlaceholder": "Ibyemezo byafashwe",
+        "rationale": "Impamvu",
+        "rationalePlaceholder": "Impamvu iyi gahunda yatoranyijwe",
+        "metric": "Igipimo",
+        "metricPlaceholder": "e.g. Settlement Latency",
+        "value": "Agaciro",
+        "valuePlaceholder": "e.g. -63% or 4.8h -> 11m",
+        "resultDescription": "Ibisobanuro",
+        "resultDescriptionPlaceholder": "Iki gitekerezo gisobanura iki",
+        "techPlaceholder": "Add technology (press Enter)",
+        "tagPlaceholder": "Add tag (press Enter)"
+      },
+      "add": "Ongeraho",
+      "noArchDecisions": "Kugeza ubu nta cyemezo cy'ubwubatsi cyongeweho.",
+      "noResults": "No results added yet.",
+      "decisionLabel": "Icyemezo {{number}}",
+      "resultLabel": "Result {{number}}",
+      "controls": {
+        "published": "Byasohotse",
+        "publishedDescription": "Make this case study public visible",
+        "featured": "Featured",
+        "featuredDescription": "Highlight this case study"
+      }
+    },
+    "imageCrop": {
+      "apply": "Apply",
+      "cancel": "Hagarika",
+      "cropTitle": "Igishushanyo mbonera",
+      "dropText": "Drop an image here or click to upload",
+      "flipHorizontal": "Flip horizontal",
+      "flipVertical": "Flip vertical",
+      "replace": "Gusimbuza",
+      "reset": "Reset",
+      "rotateLeft": "Zunguruka ibumoso",
+      "rotateRight": "Zunguruka iburyo",
+      "uploading": "Uploading...",
+      "toast": {
+        "invalidFile": "Dosiye idasanzwe",
+        "invalidFileDesc": "Please upload a valid image file.",
+        "uploadFailed": "Upload failed",
+        "uploadFailedDesc": "Hari ikintu kitagenda neza. Please try again.",
+        "uploaded": "Image uploaded",
+        "uploadedDesc": "Ifoto yawe yashyizwe ahagaragara mu buryo bugezweho."
+      }
+    }
+  }
+}

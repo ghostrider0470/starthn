@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Om oss",
+    "hero": {
+      "titlePrefix": "Bygga morgondagens teknik,",
+      "titleHighlight": "Idag",
+      "description": "Horizon Tech d.o.o. är ett globalt teknikföretag med huvudkontor i Sarajevo som levererar banbrytande mjukvarulösningar till företag på tre kontinenter."
+    },
+    "sections": {
+      "mission": {
+        "title": "Uppdrag",
+        "description": "Vi hjälper organisationer att omvandla ambitiösa idéer till pålitliga digitala produkter som skapar mätbart affärsvärde.",
+        "points": [
+          "Anpassa teknikleveransen med tydliga affärsresultat.",
+          "Bygg långsiktiga system som förblir underhållbara när teamen växer.",
+          "Samarbeta nära med intressenter från strategi till genomförande."
+        ]
+      },
+      "expertise": {
+        "title": "Expertis",
+        "description": "Våra tvärvetenskapliga team kombinerar ingenjörsdjup med produkttänkande över moderna teknikstackar.",
+        "points": [
+          "Företagsinriktad webb- och plattformsteknik.",
+          "Molnarkitektur, DevOps-automation och motståndskraftig infrastruktur.",
+          "Tillämpad AI/ML, dataflöden och IoT-aktiverade produkter."
+        ]
+      },
+      "approach": {
+        "title": "Tillvägagångssätt",
+        "description": "Vi genomför en transparent, iterativ modell som håller leveransen förutsägbar samtidigt som produktrisken minskas.",
+        "points": [
+          "Upptäck: definiera omfattning, prioriteringar och framgångsmått tidigt.",
+          "Bygg: leverera i fokuserade steg med kontinuerliga återkopplingsslingor.",
+          "Optimera: övervaka resultat och förbättra prestationen över tid."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Redo att omvandla ditt företag?",
+      "description": "Gå med i den växande listan av företag som litar på Horizon Tech för att leverera innovativa lösningar och exceptionella resultat.",
+      "primary": "Kom igång",
+      "secondary": "Visa framgångshistorier"
+    }
+  },
+  "contact": {
+    "badge": "Hör av dig",
+    "hero": {
+      "title": "Kontakta oss",
+      "description": "Har du ett projekt i åtanke? Vi skulle gärna vilja höra från dig. Ta kontakt för att diskutera hur vi kan hjälpa dig att förverkliga dina idéer."
+    },
+    "info": {
+      "title": "Kontaktinformation"
+    },
+    "booking": {
+      "title": "Boka ett möte",
+      "description": "Boka ett gratis 30-minuters upptäcktssamtal"
+    },
+    "methods": {
+      "email": {
+        "title": "E-post",
+        "description": "Skicka oss ett mejl när som helst",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Läge",
+        "description": "Baserad i",
+        "value": "Sarajevo, Bosnien och Hercegovina"
+      },
+      "response": {
+        "title": "Svarstid",
+        "description": "Vi brukar svara inom",
+        "value": "24–48 timmar"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Nytt projekt"
+      },
+      "support": {
+        "label": "Tekniskt stöd"
+      },
+      "partnerships": {
+        "label": "Partnerskap"
+      },
+      "careers": {
+        "label": "Karriärer"
+      },
+      "general": {
+        "label": "Allmän utredning"
+      }
+    },
+    "form": {
+      "title": "Skicka oss ett meddelande",
+      "success": "Tack för ditt meddelande. Vi återkommer inom 24–48 timmar.",
+      "error": "Något gick fel. Försök igen eller skicka ett e-postmeddelande direkt till oss.",
+      "fullName": "Fullständigt namn *",
+      "email": "E-postadress *",
+      "company": "Företaget",
+      "subject": "Ämne *",
+      "message": "Meddelande *",
+      "placeholders": {
+        "name": "Ditt namn",
+        "email": "you@example.com",
+        "company": "Ditt företag",
+        "subject": "Vad kan vi hjälpa till med?",
+        "message": "Berätta om ditt projekt eller din förfrågan..."
+      },
+      "validation": {
+        "required": {
+          "name": "Fullständigt namn krävs.",
+          "email": "E-postadress krävs.",
+          "subject": "Var vänlig välj ett ämne.",
+          "message": "Meddelande krävs."
+        },
+        "email": "Vänligen ange en giltig e-postadress.",
+        "messageMinLength": "Meddelandet måste vara minst {{count}} tecken långt."
+      },
+      "sending": "Skickar...",
+      "submit": "Skicka meddelande"
+    },
+    "reasonsTitle": "Varför samarbeta med oss?",
+    "reasons": [
+      "Fullstack-mjukvaruutveckling",
+      "AI/ML- och molnarkitekturspecialister",
+      "Agil utveckling med transparent kommunikation",
+      "Långsiktigt stöd och underhåll"
+    ],
+    "custom": {
+      "title": "Skräddarsydda lösningar",
+      "description": "Letar du efter en skräddarsydd lösning? Vi arbetar nära kunder för att förstå unika behov och leverera skräddarsydd programvara som ger mätbara resultat.",
+      "cta": "Diskutera ditt projekt"
+    },
+    "faq": {
+      "title": "Har du fler frågor?",
+      "description": "Kolla in vår FAQ-sektion för snabba svar",
+      "cta": "Bläddra bland vanliga frågor"
+    }
+  },
+  "team": {
+    "badge": "Vårt team",
+    "hero": {
+      "titlePrefix": "Möt sinnena bakom",
+      "titleHighlight": "Horizon Tech",
+      "description": "Ett mångsidigt team av teknologer, designers och strateger bygger tillsammans digitala produkter med hög genomslagskraft."
+    },
+    "section": {
+      "title": "Ledarteam",
+      "description": "De erfarna ledarna styr Horizon Techs vision och tillväxt"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Grundare, VD och CTO",
+        "bio": "Visionär ledare och teknisk arkitekt med 10+ års erfarenhet av företagsprogramvara, specialiserad på AI/ML, molnplattformar och skalbar produktarkitektur.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Lösningsarkitektur",
+          "Molnteknik"
+        ]
+      },
+      "ahmet": {
+        "role": "Chefssäkerhetsarkitekt",
+        "bio": "Cybersäkerhetsspecialist med fokus på företagssäkerhetsarkitektur, säker lokal infrastruktur och efterlevnadsförstahandsleverans för reglerade miljöer.",
+        "expertise": [
+          "Cybersäkerhet",
+          "On-Premises-system",
+          "Säkerhetsarkitektur",
+          "Efterlevnad",
+          "Infrastruktursäkerhet"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Mejla {{name}}",
+      "linkedin": "{{name}} LinkedIn-profil"
+    },
+    "culture": {
+      "title": "Livet på Horizon Tech",
+      "description": "Vi främjar en kultur av innovation, samarbete och kontinuerligt lärande",
+      "remoteFirst": {
+        "title": "Distansförst-kulturen",
+        "description": "Arbeta var som helst med flexibla arbetstider och fokus på resultat, inte plats."
+      },
+      "collaborative": {
+        "title": "Samarbetsmiljö",
+        "description": "Regelbundna teamevenemang, kunskapsdelningssessioner och tvärfunktionellt samarbete."
+      },
+      "workLife": {
+        "title": "Balans mellan arbete och privatliv",
+        "description": "Generös semesterpolicy, stöd för mental hälsa och respekt för personlig tid."
+      },
+      "innovation": {
+        "title": "Innovationstid",
+        "description": "20% tid för personliga projekt, hackathons och att utforska ny teknik."
+      },
+      "stats": {
+        "teamMembers": "Lagmedlemmar",
+        "countries": "Länder",
+        "techStacks": "Teknikstackar",
+        "remoteReady": "Fjärrkontroll"
+      }
+    },
+    "cta": {
+      "title": "Vill du gå med i vårt team?",
+      "description": "Vi letar alltid efter talangfulla personer som bryr sig om hantverk, ägande och innovation.",
+      "button": "Hör av dig"
+    }
+  },
+  "careers": {
+    "badge": "Gå med i vårt team",
+    "hero": {
+      "titlePrefix": "Bygg framtiden",
+      "titleHighlight": "Med oss",
+      "description": "Gå med i ett team av ingenjörer som bygger banbrytande mjukvara för globala kunder. Arbeta på distans, väx kontinuerligt och gör verklig skillnad.",
+      "button": "Se positioner"
+    },
+    "process": {
+      "title": "Vår anställningsprocess",
+      "description": "Transparent, effektiv och respektfull mot din tid",
+      "steps": [
+        {
+          "title": "Ansök",
+          "description": "Skicka in din ansökan så granskar vi den inom 3 arbetsdagar."
+        },
+        {
+          "title": "Inledande chatt",
+          "description": "Ett 30-minuters videosamtal för att diskutera din erfarenhet och dina förväntningar."
+        },
+        {
+          "title": "Tekniskt",
+          "description": "Teknisk intervju eller praktisk övning för att visa dina färdigheter."
+        },
+        {
+          "title": "Erbjudande",
+          "description": "Möt teamet och få ditt erbjudande om att börja på Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Öppna tjänster",
+      "description": "Hitta din nästa möjlighet och gå med i vårt växande team",
+      "unavailable": "Tar inte emot ansökningar just nu",
+      "apply": "Ansök nu",
+      "noMatch": "Ser du inte den perfekta rollen?",
+      "sendCv": "Skicka oss ditt CV",
+      "listings": [
+        {
+          "title": "Senior fullstackingenjör",
+          "department": "Teknik",
+          "location": "Fjärrstyrd (EU-tidszoner)",
+          "type": "Heltid",
+          "description": "Bygg skalbara företagsapplikationer med hjälp av React, Node.js och molnteknologier.",
+          "tags": [
+            "React",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps-ingenjör",
+          "department": "Teknik",
+          "location": "Sarajevo / Fjärrkontroll",
+          "type": "Heltid",
+          "description": "Designa och underhåll CI/CD-pipelines, infrastruktur som kod och övervakningssystem.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI/ML-ingenjör",
+          "department": "Innovationslabbet",
+          "location": "Fjärrkontroll",
+          "type": "Heltid",
+          "description": "Utveckla maskininlärningsmodeller och AI-lösningar för företagskunder.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Produktdesigner",
+          "department": "Design",
+          "location": "Fjärrkontroll",
+          "type": "Heltid",
+          "description": "Skapa vackra, intuitiva användarupplevelser för komplexa företagsapplikationer.",
+          "tags": [
+            "Figma",
+            "Användarforskning",
+            "UI/UX",
+            "Designsystem"
+          ]
+        },
+        {
+          "title": "Solutions Architect",
+          "department": "Teknik",
+          "location": "Fjärrkontroll",
+          "type": "Heltid",
+          "description": "Designa tekniska lösningar från början till slut och vägled kunder genom digital transformation.",
+          "tags": [
+            "Molnarkitektur",
+            "Systemdesign",
+            "Konsultverksamhet"
+          ]
+        },
+        {
+          "title": "Teknisk skribent",
+          "department": "Drift",
+          "location": "Fjärrkontroll",
+          "type": "Deltid",
+          "description": "Skapa omfattande dokumentation, handledningar och tekniskt innehåll.",
+          "tags": [
+            "Dokumentation",
+            "API-dokumentation",
+            "Tekniskt skrivande"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Frågor om att arbeta här?",
+      "description": "Vi skulle gärna vilja höra från dig. Hör av dig så svarar vi på alla frågor om livet på Horizon Tech.",
+      "button": "Kontakta oss"
+    }
+  },
+  "caseStudies": {
+    "badge": "Framgångshistorier",
+    "hero": {
+      "titlePrefix": "Levererar resultat som",
+      "titleHighlight": "Materie",
+      "description": "Utforska hur vi har hjälpt företag inom olika branscher att omvandla verksamheten genom praktisk, högpåverkande teknik.",
+      "tags": {
+        "delivery": "Ingenjörsleverans",
+        "outcomes": "Mätta utfall"
+      }
+    },
+    "stats": {
+      "projects": "Genomförda projekt",
+      "clients": "Nöjda kunder",
+      "efficiency": "Genomsnittlig effektivitetsvinst",
+      "retention": "Kundretention"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech-koncern",
+        "industry": "Finansiella tjänster",
+        "title": "Molnmigration och modernisering",
+        "description": "Migrerade äldre banksystem till AWS molninfrastruktur utan driftstopp.",
+        "challenge": "Legacy monolitisk arkitektur orsakar skalbarhetsproblem",
+        "result": "Migrerade framgångsrikt till mikrotjänster på AWS",
+        "metrics": [
+          {
+            "label": "Kostnadsreduktion",
+            "value": "40%"
+          },
+          {
+            "label": "Prestandaökning",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Mikrotjänster",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech-lösningar",
+        "industry": "Sjukvård",
+        "title": "AI-driven diagnostikplattform",
+        "description": "Byggde ML-modeller för medicinsk bildanalys med 95%+ noggrannhet.",
+        "challenge": "Manuella diagnostiska processer tar för lång tid",
+        "result": "Automatiserad diagnostik med AI/ML",
+        "metrics": [
+          {
+            "label": "Sparad tid",
+            "value": "70%"
+          },
+          {
+            "label": "Noggrannhet",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "React",
+          "Sjukvård"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "E-handelsjätten",
+        "industry": "Detaljhandel",
+        "title": "Realtidsanalysdashboard",
+        "description": "Utvecklade en BI-plattform som behandlar 10 miljoner händelser dagligen.",
+        "challenge": "Ingen realtidsinsyn i viktiga affärsmått",
+        "result": "Plattform för realtidsanalys och insikter",
+        "metrics": [
+          {
+            "label": "Evenemang/Dag",
+            "value": "10M+"
+          },
+          {
+            "label": "Svarstid",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "React",
+          "Datateknik"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Redo att skriva din framgångssaga?",
+      "description": "Låt oss diskutera hur vi kan hjälpa dig att uppnå liknande resultat och skala med självförtroende."
+    },
+    "filters": {
+      "title": "Industrifilter",
+      "all": "Alla industrier",
+      "empty": "Inga fallstudier matchar det valda branschfiltret."
+    }
+  },
+  "blog": {
+    "badge": "Blogg",
+    "hero": {
+      "titlePrefix": "Insikter och idéer från",
+      "titleHighlight": "Horizon Tech",
+      "description": "Tekniska handledningar, branschinsikter och praktiska lärdomar från verkligt leveransarbete."
+    },
+    "categories": [
+      "Alla inlägg",
+      "Molnarkitektur",
+      "DevOps",
+      "AI/ML",
+      "Frontend",
+      "Backend",
+      "Data"
+    ],
+    "featuredPost": {
+      "id": "Utvald",
+      "title": "Framtiden för molnbaserad utveckling: Trender att följa 2025",
+      "excerpt": "Utforska de senaste trenderna inom molnbaserad utveckling, från serverlösa arkitekturer till edge computing.",
+      "author": {
+        "name": "Horizon Techs redaktion"
+      },
+      "date": "15 november 2025",
+      "readTime": "8 min läsning",
+      "category": "Molnarkitektur",
+      "tags": [
+        "Cloud",
+        "Azure",
+        "Trender"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Bygga skalbara mikrotjänster med Azure Kubernetes Service",
+        "excerpt": "En praktisk guide för att arkitektera och distribuera mikrotjänster med AKS.",
+        "author": {
+          "name": "Horizon Techs redaktion"
+        },
+        "date": "12 november 2025",
+        "readTime": "6 min läsning",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Mikrotjänster",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Maskininlärning i produktion: Lärdomar",
+        "excerpt": "Fälttestade lärdomar från att implementera ML-modeller i stor skala.",
+        "author": {
+          "name": "Horizon Techs redaktion"
+        },
+        "date": "10 november 2025",
+        "readTime": "10 min läsning",
+        "category": "AI/ML",
+        "tags": [
+          "Maskininlärning",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Vad är nytt och varför det är viktigt",
+        "excerpt": "En djupdykning i React 19:s funktioner och prestandaimplikationer.",
+        "author": {
+          "name": "Horizon Techs redaktion"
+        },
+        "date": "8 nov 2025",
+        "readTime": "5 min läsning",
+        "category": "Frontend",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Webbutveckling"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Prenumerera på vårt nyhetsbrev",
+      "description": "Få de senaste artiklarna, handledningarna och insikterna levererade varje vecka.",
+      "placeholder": "your.email@example.com",
+      "button": "Prenumerera",
+      "note": "Ingen spam. Avprenumerera när som helst."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech Engineering-blogg",
+        "description": "Fältnoteringar och praktiska mönster från team som bygger AI-produkter, företagssystem och pålitliga molnplattformar."
+      },
+      "filters": {
+        "postsInView": "{{count}} inlägg i sikte"
+      },
+      "featured": {
+        "badge": "Senaste",
+        "readCta": "Läs utvalt inlägg"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Laddar profil...",
+    "title": "Profilinställningar",
+    "subtitle": "Hantera dina kontoinställningar och inställningar",
+    "photoButton": "Byt foto",
+    "tabs": {
+      "general": "Allmänt",
+      "security": "Säkerhet",
+      "preferences": "Preferenser"
+    },
+    "messages": {
+      "profileUpdated": "Profil uppdaterad framgångsrikt",
+      "profileUpdateFailed": "Misslyckades med att uppdatera profilen",
+      "passwordsNoMatch": "Nya lösenord stämmer inte överens",
+      "passwordTooShort": "Lösenordet måste vara minst 8 tecken långt",
+      "passwordChanged": "Lösenord ändrat framgångsrikt",
+      "passwordChangeFailed": "Misslyckades med att ändra lösenord",
+      "optedOut": "Anmälningar om att avstå från praktiken",
+      "optedIn": "Anmälde sig till övningsrapporter",
+      "optOutFailed": "Misslyckades med att uppdatera opt-out-statusen"
+    },
+    "general": {
+      "title": "Personlig information",
+      "description": "Uppdatera dina personuppgifter och kontaktuppgifter",
+      "firstName": "Förnamn",
+      "firstNamePlaceholder": "John",
+      "lastName": "Efternamn",
+      "lastNamePlaceholder": "Hind",
+      "email": "E-postadress",
+      "emailNotice": "E-post kan inte ändras. Kontakta supporten om du behöver hjälp.",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Sparändringar"
+    },
+    "security": {
+      "title": "Säkerhetsinställningar",
+      "description": "Hantera ditt lösenord och dina säkerhetsinställningar",
+      "currentPassword": "Nuvarande lösenord",
+      "currentPasswordPlaceholder": "Ange aktuellt lösenord",
+      "newPassword": "Nytt lösenord",
+      "newPasswordPlaceholder": "Ange nytt lösenord",
+      "confirmPassword": "Bekräfta nytt lösenord",
+      "confirmPasswordPlaceholder": "Bekräfta nytt lösenord",
+      "passwordHint": "Måste vara minst 8 tecken lång",
+      "changePassword": "Byt lösenord"
+    },
+    "preferences": {
+      "title": "Notifieringsinställningar",
+      "description": "Kontrollera hur du får uppdateringar och notiser",
+      "email": {
+        "title": "E-postnotiser",
+        "description": "Ta emot uppdateringar och aviseringar via e-post"
+      },
+      "sms": {
+        "title": "SMS-notiser",
+        "description": "Ta emot viktiga aviseringar via sms"
+      },
+      "optOut": {
+        "title": "Rapporter om avhopp från praktik",
+        "description": "Dold dina rapporter för praktikägaren"
+      },
+      "actions": {
+        "title": "Kontoåtgärder",
+        "downloadData": "Ladda ner kontodata",
+        "deleteAccount": "Radera konto"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Tillbaka hem",
+    "title": "Stödcenter",
+    "subtitle": "Få hjälp med våra mjukvaruutvecklingstjänster",
+    "cards": {
+      "email": {
+        "title": "E-postsupport",
+        "description": "Skicka oss ett mejl om du har några frågor"
+      },
+      "project": {
+        "title": "Projektfrågor",
+        "description": "Diskutera dina projektkrav",
+        "button": "Kontakta oss"
+      },
+      "resources": {
+        "title": "Resurser",
+        "description": "Tekniska resurser och guider",
+        "button": "Visa resurser"
+      }
+    },
+    "faqTitle": "Vanliga frågor",
+    "faqDescription": "Snabba svar på vanliga frågor",
+    "faqs": [
+      {
+        "question": "Vilka tjänster erbjuder Horizon Tech?",
+        "answer": "Vi erbjuder skräddarsydd mjukvaruutveckling, AI/ML-lösningar, molnarkitektur, DevOps, business intelligence och IoT-tjänster."
+      },
+      {
+        "question": "Hur startar jag ett projekt med Horizon Tech?",
+        "answer": "Kontakta oss via formulär eller e-post med dina önskemål. Vi bokar ett upptäckande samtal och delar ett förslag."
+      },
+      {
+        "question": "Ger ni löpande stöd och underhåll?",
+        "answer": "Ja. Vi erbjuder support- och underhållspaket som inkluderar buggfixar, säkerhetsuppdateringar och funktionsförbättringar."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Tillbaka hem",
+    "title": "Tekniska resurser",
+    "subtitle": "Guider, handledningar och bästa praxis från Horizon Tech-teamet",
+    "hub": {
+      "title": "Lärande Hub",
+      "description": "Utforska våra kuraterade tekniska resurser inom moln, AI/ML, DevOps och modern mjukvaruutveckling.",
+      "note": "Dessa material baseras på verklig projekterfarenhet och uppdateras regelbundet."
+    },
+    "categories": [
+      {
+        "icon": "moln",
+        "title": "Molnarkitektur",
+        "description": "Azure, AWS och molnbaserade mönster",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Guide"
+          },
+          {
+            "title": "Strategier för molnmigration",
+            "type": "Artikel"
+          }
+        ]
+      },
+      {
+        "icon": "hjärna",
+        "title": "AI och maskininlärning",
+        "description": "ML-modeller, datavetenskap och AI-integration",
+        "resources": [
+          {
+            "title": "Introduktion till Azure ML",
+            "type": "Handledning"
+          },
+          {
+            "title": "Bygga produktions-ML-pipelines",
+            "type": "Guide"
+          }
+        ]
+      },
+      {
+        "icon": "Miljöer",
+        "title": "DevOps & Plattform",
+        "description": "CI/CD, infrastruktur som kod, automation",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Handledning"
+          },
+          {
+            "title": "Infrastruktur som kod med terraform",
+            "type": "Guide"
+          }
+        ]
+      },
+      {
+        "icon": "Kod",
+        "title": "Mjukvaruutveckling",
+        "description": ".NET, React och moderna utvecklingsmetoder",
+        "resources": [
+          {
+            "title": "Ren arkitektur i .NET",
+            "type": "Guide"
+          },
+          {
+            "title": "React bästa praxis",
+            "type": "Artikel"
+          }
+        ]
+      },
+      {
+        "icon": "databas",
+        "title": "Data & analys",
+        "description": "BI, datavaruhus och analysplattformar",
+        "resources": [
+          {
+            "title": "Power BI-instrumentpaneldesign",
+            "type": "Handledning"
+          },
+          {
+            "title": "Datalagerarkitektur",
+            "type": "Guide"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Behöver du skräddarsydd utbildning?",
+      "description": "Vi erbjuder skräddarsydda workshops för ingenjörs- och produktteam",
+      "text": "Behöver du praktisk teamträning? Vi erbjuder skräddarsydda workshops om molnarkitektur, DevOps och moderna leveransmetoder.",
+      "button": "Hör av dig"
+    }
+  },
+  "unauthorized": {
+    "title": "Tillträde nekas",
+    "description": "Du har inte behörighet att komma åt denna sida. Kontakta din administratör om du tycker att detta är ett misstag.",
+    "primary": "Gå till Profil",
+    "secondary": "Tillbaka hem"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Inlägg ej hittat",
+      "description": "Inget blogginlägg finns för slug: {{slug}}",
+      "back": "Tillbaka till bloggen"
+    },
+    "back": "Tillbaka till bloggen",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Fallstudie ej hittad",
+      "description": "Det finns ingen fallstudie för id: {{id}}",
+      "back": "Tillbaka till fallstudier"
+    },
+    "back": "Tillbaka till fallstudier",
+    "sections": {
+      "executiveSummary": "Sammanfattning",
+      "businessChallenge": "Affärsutmaning",
+      "technicalSolution": "Teknisk lösning",
+      "architectureDecisions": "Arkitekturbeslut",
+      "technologyStack": "Teknologistack",
+      "resultsImpact": "Resultat och påverkan"
+    },
+    "client": "Klient",
+    "keyOutcomes": "Viktiga resultat",
+    "decision": "Beslut {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Signal förlorad",
+      "title": "Sidan hittades inte",
+      "description": "Den rutt du begärde finns inte eller har flyttats. Låt oss få dig tillbaka till en giltig Horizon Tech-endpoint.",
+      "requestedPath": "Begärd väg",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Löser ruttgrafen... misslyckades",
+        "line2": "Anledning: ingen matchande ruttmodul",
+        "line3": "Tillbakagångsprotokoll aktiverat",
+        "line4": "Använd en av genvägarna nedan för att fortsätta"
+      },
+      "links": {
+        "home": "Startsida",
+        "services": "Tjänster",
+        "blog": "Blogg",
+        "caseStudies": "Fallstudier"
+      }
+    },
+    "runtime": {
+      "badge": "Körtidsfel",
+      "title": "Något gick sönder på den här sidan",
+      "description": "Ett oväntat problem avbröt renderingen. Du kan försöka igen på ett säkert sätt, eller återvända till startsidan.",
+      "retry": "Omprövning",
+      "home": "Tillbaka till hemsidan",
+      "unknown": "Okänt körtidsfel"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech Blog"
+  },
+  "admin": {
+    "blog": {
+      "title": "Blogghantering",
+      "subtitle": "Skapa, redigera och hantera dina blogginlägg",
+      "newPost": "Ny post",
+      "seedData": "Frödata",
+      "allPosts": "Alla inlägg",
+      "published": "Publicerad",
+      "draft": "Draft",
+      "featured": "Medverkande",
+      "setFeatured": "Scenografi",
+      "removeFeatured": "Ta bort utvalda",
+      "table": {
+        "title": "Titel",
+        "category": "Kategori",
+        "status": "Status",
+        "date": "Datum",
+        "actions": "Åtgärder"
+      },
+      "empty": {
+        "message": "Inga blogginlägg än. Skapa ditt första inlägg eller seed-provdata.",
+        "seed": "Fröprovsdata",
+        "create": "Skapa inlägg"
+      },
+      "delete": {
+        "title": "Ta bort inlägg",
+        "confirmation": "Är du säker på att du vill ta bort det här inlägget? Denna åtgärd kan inte göras ogjort.",
+        "delete": "Radera",
+        "cancel": "Avbryt"
+      }
+    },
+    "editor": {
+      "bannerHint": "Visas som en bred banderoll högst upp på stolpen",
+      "bannerImage": "Bannerbild",
+      "coverHint": "Visas i blogglistningskort",
+      "coverImage": "Omslagsbild",
+      "editSlug": "Redigera slug",
+      "posts": "Poster",
+      "publish": "Publicera",
+      "update": "Uppdatering",
+      "form": {
+        "contentPlaceholder": "Skriv ditt inläggsinnehåll här...",
+        "excerptPlaceholder": "Kort sammanfattning av inlägget...",
+        "pickDate": "Välj ett datum",
+        "readTimePlaceholder": "t.ex. 5 minuters läsning",
+        "titlePlaceholder": "Inläggets titel..."
+      },
+      "meta": {
+        "publisher": "Förläggare",
+        "unknownAuthor": "Okänd författare"
+      },
+      "modes": {
+        "edit": "Redigering",
+        "editOnly": "Endast redigering",
+        "preview": "Förhandsvisning",
+        "previewOnly": "Endast förhandsvisning",
+        "sideBySide": "Sida vid sida",
+        "split": "Splittring"
+      },
+      "tags": {
+        "heading": "Taggar",
+        "placeholder": "Lägg till en tagg..."
+      },
+      "translations": {
+        "auto": "Auto",
+        "autoTranslate": "Autoöversättning",
+        "clear": "Klart",
+        "existing": "Existerande",
+        "heading": "Översättningar",
+        "language": "Språk",
+        "languages": "Språk",
+        "edit": "Redigering",
+        "manual": "Manuell",
+        "preview": "Förhandsvisning",
+        "searchPlaceholder": "Sökspråk...",
+        "translate": "Översätt"
+      }
+    },
+    "caseStudies": {
+      "title": "Fallstudier",
+      "subtitle": "Hantera fallstudier och projektpresentationer",
+      "newCaseStudy": "Ny fallstudie",
+      "seedData": "Frödata",
+      "allCaseStudies": "Alla fallstudier",
+      "published": "Publicerad",
+      "draft": "Draft",
+      "table": {
+        "title": "Titel",
+        "industry": "Industri",
+        "client": "Klient",
+        "status": "Status",
+        "actions": "Åtgärder"
+      },
+      "empty": {
+        "message": "Inga fallstudier än.",
+        "seed": "Frödata",
+        "create": "Skapa först"
+      },
+      "delete": {
+        "title": "Ta bort fallstudien",
+        "confirmation": "Är du säker på att du vill radera denna fallstudie? Denna åtgärd kan inte göras ogjort.",
+        "delete": "Radera",
+        "cancel": "Avbryt"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Fallstudier",
+      "published": "Publicerad",
+      "draft": "Draft",
+      "update": "Uppdatering",
+      "create": "Skapa",
+      "sections": {
+        "basicInfo": "Grundläggande information",
+        "narrative": "Berättelse",
+        "architectureDecisions": "Arkitekturbeslut",
+        "techStack": "Teknikstack",
+        "results": "Resultat",
+        "tags": "Taggar"
+      },
+      "fields": {
+        "title": "Titel",
+        "titlePlaceholder": "Fallstudietitel",
+        "slug": "Slug",
+        "slugPlaceholder": "Automatiskt genererat från-titel",
+        "client": "Klient",
+        "clientPlaceholder": "Kundnamn",
+        "industry": "Industri",
+        "industryPlaceholder": "Utvald bransch",
+        "description": "Beskrivning",
+        "descriptionPlaceholder": "Kort beskrivning (visas på korten)",
+        "executiveSummary": "Sammanfattning",
+        "executiveSummaryPlaceholder": "Översikt på hög nivå av striden",
+        "challenge": "Utmaning",
+        "challengePlaceholder": "Vilket problem hade klienten?",
+        "solution": "Lösning",
+        "solutionPlaceholder": "Hur löstes problemet?",
+        "decision": "Beslut",
+        "decisionPlaceholder": "Vad som bestämdes",
+        "rationale": "Motivering",
+        "rationalePlaceholder": "Varför detta tillvägagångssätt valdes",
+        "metric": "Metrik",
+        "metricPlaceholder": "t.ex. avsättningslatens",
+        "value": "Värde",
+        "valuePlaceholder": "t.ex. -63 % eller 4,8 timmar till > 11 m",
+        "resultDescription": "Beskrivning",
+        "resultDescriptionPlaceholder": "Vad detta resultat betyder",
+        "techPlaceholder": "Lägg till teknik (tryck Enter)",
+        "tagPlaceholder": "Lägg till tagg (tryck på Enter)"
+      },
+      "add": "Lägg till",
+      "noArchDecisions": "Inga arkitektbeslut lades till än.",
+      "noResults": "Inga resultat har lagts fram än.",
+      "decisionLabel": "Beslut {{number}}",
+      "resultLabel": "Resultat {{number}}",
+      "controls": {
+        "published": "Publicerad",
+        "publishedDescription": "Gör denna fallstudie offentligt synlig",
+        "featured": "Medverkande",
+        "featuredDescription": "Lyft fram denna fallstudie"
+      }
+    },
+    "imageCrop": {
+      "apply": "Ansök",
+      "cancel": "Avbryt",
+      "cropTitle": "Beskär bild",
+      "dropText": "Lägg en bild här eller klicka för att ladda upp",
+      "flipHorizontal": "Vänd horisontellt",
+      "flipVertical": "Vänd vertikalt",
+      "replace": "Byt ut",
+      "reset": "Återställ",
+      "rotateLeft": "Rotera vänster",
+      "rotateRight": "Rotera åt höger",
+      "uploading": "Laddar upp...",
+      "toast": {
+        "invalidFile": "Ogiltig fil",
+        "invalidFileDesc": "Vänligen ladda upp en giltig bildfil.",
+        "uploadFailed": "Uppladdningen misslyckades",
+        "uploadFailedDesc": "Något gick fel. Försök igen, tack.",
+        "uploaded": "Bild uppladdad",
+        "uploadedDesc": "Din bild har laddats upp framgångsrikt."
+      }
+    }
+  }
+}

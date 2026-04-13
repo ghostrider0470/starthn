@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "সব"
+  },
+  "categories": {
+    "aiEngineering": "এআই ইঞ্জিনিয়ারিং",
+    "enterpriseArchitecture": "এন্টারপ্রাইজ আর্কিটেকচার",
+    "cloudDevOps": "ক্লাউড এবং ডেভওপস",
+    "automationSystems": "অটোমেশন সিস্টেম",
+    "softwareReliabilityDesign": "সফ্টওয়্যার নির্ভরযোগ্যতা ও নকশা"
+  },
+  "readTime": "{{minutes}} মিনিট পড়া হয়েছে",
+  "tagsLabel": "ট্যাগ",
+  "relatedPosts": "সম্পর্কিত পোস্ট",
+  "author": {
+    "role": "প্রকাশক"
+  },
+  "editor": {
+    "emptyPreview": "একটি পূর্বরূপ দেখতে লেখা শুরু করুন..."
+  },
+  "tags": {
+    "llmOps": "এলএলএম অপস",
+    "promptEngineering": "প্রম্পট ইঞ্জিনিয়ারিং",
+    "observability": "পর্যবেক্ষণযোগ্যতা",
+    "safety": "নিরাপত্তা",
+    "domainDesign": "ডোমেইন ডিজাইন",
+    "integration": "ইন্টিগ্রেশন",
+    "governance": "গভর্নেন্স",
+    "platformStrategy": "প্ল্যাটফর্ম কৌশল",
+    "platformEngineering": "প্ল্যাটফর্ম ইঞ্জিনিয়ারিং",
+    "ciCd": "সিআই/সিডি",
+    "kubernetes": "কুবেরনেটস",
+    "developerExperience": "ডেভেলপার অভিজ্ঞতা",
+    "eventDriven": "ইভেন্ট-চালিত",
+    "workflowOrchestration": "ওয়ার্কফ্লো অর্কেস্ট্রেশন",
+    "controlPlanes": "কন্ট্রোল প্লেন",
+    "resilience": "স্থিতিস্থাপকতা",
+    "sre": "এসআরই",
+    "slos": "এসএলও",
+    "failureModes": "ব্যর্থতা মোড",
+    "resilienceEngineering": "রেজিলিয়েন্স ইঞ্জিনিয়ারিং",
+    "evaluation": "মূল্যায়ন",
+    "qualityEngineering": "কোয়ালিটি ইঞ্জিনিয়ারিং",
+    "datasets": "ডেটাসেট",
+    "releaseManagement": "রিলিজ ম্যানেজমেন্ট",
+    "incidentManagement": "ইনসিডেন্ট ম্যানেজমেন্ট",
+    "architectureEvolution": "স্থাপত্য বিবর্তন",
+    "riskReduction": "ঝুঁকি হ্রাস",
+    "postmortems": "ময়নাতদন্ত",
+    "progressiveDelivery": "প্রগতিশীল ডেলিভারি",
+    "canaryReleases": "ক্যানারি রিলিজ",
+    "featureFlags": "বৈশিষ্ট্য পতাকা"
+  }
+}

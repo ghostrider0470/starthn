@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Byrjaðu",
+    "ctaSecondary": "Bóka ráðgjöf"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Þróun fyrirtækjahugbúnaðar",
+      "description": "End-to-end fyrirtækjaforrit með nútímalegum ramma, API-fyrst arkitektúr og skýjainnfæddri stækkunarmöguleika."
+    },
+    "sections": {
+      "problem": {
+        "title": "Rammagerð viðskiptavandamála",
+        "subtitle": "Þar sem fyrirtækjaforrit missa hraða, fjárhagsáætlun og stefnumótandi samræmingu"
+      },
+      "approach": {
+        "title": "Verkfræðileg nálgun",
+        "subtitle": "Hvernig við breytum óljósum kröfum í framleiðsluhæfar vettvanga"
+      },
+      "principles": {
+        "title": "Arkitektúrreglur",
+        "subtitle": "Hönnunarákvarðanir sem halda fyrirtækjakerfum viðhaldshæfum í stórum stíl"
+      },
+      "capabilities": {
+        "title": "Það sem við byggjum",
+        "subtitle": "Yfirgripsmikil hugbúnaðarþróunargeta"
+      },
+      "technology": {
+        "title": "Tæknistaflan okkar",
+        "subtitle": "Nútímaleg, sönnuð tækni fyrir fyrirtækjaafhendingu"
+      },
+      "breakdown": {
+        "title": "Þjónustuskipting",
+        "subtitle": "Skipulögð leið frá uppgötvun til stöðugrar framleiðslu"
+      }
+    },
+    "problem": {
+      "overview": "Fyrirtækjateymi bera oft mikilvæga vinnuflæði á sundurlausum kerfum, sem skapar langan afhendingartíma, ósamræmd gögn og kostnaðarsama handvirka samhæfingu milli deilda.",
+      "painPointsTitle": "Endurtekin viðskiptavandamál",
+      "impactSignalsTitle": "Það sem leiðtogar taka venjulega eftir",
+      "painPoints": [
+        "Afhendingarskuldbindingar dragast vegna þess að háð milli teyma er óstjórnað",
+        "Kjarnaviðskiptalógík er tvítekin milli rása og vara",
+        "Eldri samþættingar gera nýjar eiginleikar áhættusamar og hægar"
+      ],
+      "impactSignals": [
+        "Vegakortsafkast lækkar á meðan verkfræðikostnaður eykst",
+        "Gallar sem tengjast viðskiptavinum aukast á útgáfutímabilum",
+        "Ákvarðanataka hægist vegna ósamræmdrar rekstrarskýrslugerðar"
+      ]
+    },
+    "approach": {
+      "overview": "Við framkvæmum með arkitektúr-fyrst uppgötvun, samningsstýrðri afhendingu og stýrðri útgáfuverkfræði svo viðskiptavirði sé flutt í fyrirsjáanlegum skrefum.",
+      "pillars": [
+        {
+          "title": "Sviðalíkanagerð og takmörkuð samhengi",
+          "detail": "Við kortleggjum lén til að skýra þjónustumörk, draga úr tengslum milli teyma og skýra eignarhald."
+        },
+        {
+          "title": "API-First samþættingarstefna",
+          "detail": "Við skilgreinum stöðuga samninga snemma, sem gerir kleift samhliða þróun og öruggari samþættingu við fyrirtækjakerfi."
+        },
+        {
+          "title": "Stigvaxandi afhendingarferli",
+          "detail": "Við notum eiginleikamerki, stigskiptar útgáfur og gæðahlið til að gefa út hratt án þess að trufla framleiðslu."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Arkitektúrákvarðanir okkar leggja áherslu á langlífi, rekstrarhæfni og skýra eignarhald svo vettvangar haldist aðlögunarhæfir eftir því sem viðskiptaumfang eykst.",
+      "items": [
+        {
+          "title": "Mótunarþjónustumörk",
+          "detail": "Hæfileikar eru pakkaðir út frá viðskiptasvæðum til að halda áhrifum breytinga staðbundnum."
+        },
+        {
+          "title": "Atburðadrifin samþætting",
+          "detail": "Ósamstillt vinnuflæði eru notuð þar sem biðþol er til staðar til að bæta þol og aðskilja kerfi."
+        },
+        {
+          "title": "Áhorfanleiki með hönnun",
+          "detail": "Rekjanir, mælikvarðar og uppbyggðar skrár eru skilgreindar fyrirfram til að styðja við áreiðanlegan rekstur og stjórnun SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Sérsniðin vefforrit",
+      "Þróun farsímaforrita",
+      "API þróun og samþætting",
+      "Örþjónustuarkitektúr",
+      "Skýjainnfæddar lausnir",
+      "Nútímavæðing eldri kerfa"
+    ],
+    "technologies": [
+      {
+        "name": "React",
+        "category": "Framendi",
+        "icon": "React"
+      },
+      {
+        "name": "Node.js",
+        "category": "Bakendi",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Bakendi",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Bakendi",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Tungumál",
+        "icon": "Vélrit"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "GRAPHQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Gagnagrunnur",
+        "icon": "PostGreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Gagnagrunnur",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Uppgötvun og arkitektúr",
+        "summary": "Við kortleggjum viðskiptaforgangsröðun, tæknilegar takmarkanir og markmiðsarkitektúr áður en innleiðing hefst.",
+        "deliverables": [
+          "Verkstæði um vöru- og kröfusamræmingu",
+          "Lausnararkitektúr teikning",
+          "Áfangamiðuð afhendingaráætlun"
+        ]
+      },
+      {
+        "title": "Bygging og samþætting",
+        "summary": "Teymin okkar innleiða kjarnaeiginleika, samþættingarlög og gæðavarnir samhliða.",
+        "deliverables": [
+          "Þróun eiginleika í endurteknum sprettum",
+          "API og samþættingar þriðja aðila",
+          "Sjálfvirkar prófanir og tilbúningathuganir á útgáfu"
+        ]
+      },
+      {
+        "title": "Upphaf og þróun",
+        "summary": "Eftir að farið er í loftið stöðvum við rekstur og skilgreinum næsta umbótarhring út frá raunverulegri notkun.",
+        "deliverables": [
+          "Runbook fyrir framleiðsluútbreiðslu",
+          "Afköst og áreiðanleikastillingar",
+          "Vegakort eftir útgáfu og biðröð eftir endurbætur"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ertu tilbúin(n) að búa til næsta forrit?",
+      "description": "Við skulum hanna og koma með lausn sem skilar mælanlegum viðskiptaniðurstöðum.",
+      "button": "Byrjaðu verkefnið þitt"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "Gervigreind, vélrænt nám og viðskiptagreind",
+      "description": "Frá spálíkönum til stjórnendamælaborða byggjum við fullkomin AI/BI kerfi sem styðja ákvarðanir í stórum stíl."
+    },
+    "sections": {
+      "problem": {
+        "title": "Rammagerð viðskiptavandamála",
+        "subtitle": "Af hverju gagnarík fyrirtæki eiga enn erfitt með að taka öruggar ákvarðanir"
+      },
+      "approach": {
+        "title": "Verkfræðileg nálgun",
+        "subtitle": "Hvernig við notum gagnavörur, vélrænt nám líkön og BI vinnuflæði"
+      },
+      "principles": {
+        "title": "Arkitektúrreglur",
+        "subtitle": "Mynstur í gagna- og líkanarkitektúr fyrir áreiðanlega ákvörðunargreind"
+      },
+      "capabilities": {
+        "title": "Hæfileikar okkar",
+        "subtitle": "Alhliða AI-, ML- og BI-lausnir"
+      },
+      "technology": {
+        "title": "Tæknistaflan okkar",
+        "subtitle": "Leiðandi verkfæri í greininni fyrir gögn og gervigreind"
+      },
+      "breakdown": {
+        "title": "Þjónustuskipting",
+        "subtitle": "Hvernig við förum frá brotakenndum gögnum yfir í framleiðslugreind"
+      }
+    },
+    "problem": {
+      "overview": "Fyrirtæki safna oft miklu magni gagna en tekst ekki að umbreyta þeim í áreiðanlegar spár, rekstrarákvarðanir eða mælanlega viðskiptaaðgerðir.",
+      "painPointsTitle": "Endurtekin viðskiptavandamál",
+      "impactSignalsTitle": "Það sem leiðtogar taka venjulega eftir",
+      "painPoints": [
+        "Skýrslugerð er mismunandi milli teyma, sem leiðir til mótsagnakenndra KPI-frásagna",
+        "Líkönin eru áfram í tilraunum og komast aldrei í framleiðsluferla",
+        "Gæði gagna grafa undan trausti á greiningum og stjórnendamælum"
+      ],
+      "impactSignals": [
+        "Ákvarðanatökuferli hægjast vegna þess að lið ræða gildi gagna í stað aðgerða",
+        "Spár og nákvæmni áætlunar eru enn ósamræmdar ársfjórðungur frá ársfjórðungi",
+        "Greiningarfjárfestingar sýna litla notkun utan sérhæfðra greiningarhópa"
+      ]
+    },
+    "approach": {
+      "overview": "Við afhendum gervigreindar- og BI-vettvanga sem framleiðslukerfi, þar sem við tengjum gagnaverkfræði, lífsferilsferilsaðgerðir líkana og samþættingu ákvörðunarferla.",
+      "pillars": [
+        {
+          "title": "Gagnavörustofnun",
+          "detail": "Lénssamræmdar gagnavörur skapa endurnýtanleg, stýrð og hágæða inntak fyrir greiningar og vélrænt nám."
+        },
+        {
+          "title": "MLOps líftímasjálfvirkni",
+          "detail": "Þjálfun, dreifing, eftirlit og rekstýring eru sjálfvirk til að halda líkönum áreiðanlegum í framleiðslu."
+        },
+        {
+          "title": "Samþætting ákvörðunarflæðis",
+          "detail": "Innsýn er innbyggð í rekstrarverkfæri og mælaborð svo teymi vinni eftir greind innan daglegra ferla."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "AI/BI arkitektúr okkar leggur áherslu á áreiðanleg gögn, útskýranleg líkön og stýrð aðgangsmynstur um allt fyrirtækið.",
+      "items": [
+        {
+          "title": "Skilgreiningar á einstökum mælikvörðum",
+          "detail": "Mikilvægir lykilmælikvarðar eru skilgreindir einu sinni með sameiginlegum merkingarlíkönum til að útrýma mótsagnakenndri skýrslugerð."
+        },
+        {
+          "title": "Áreiðanleikastýringar líkans",
+          "detail": "Frammistöðuþröskuldar, rekgreining og afturköllunarkerfi vernda gæði ákvarðana í framleiðslu."
+        },
+        {
+          "title": "Öryggi og stjórnun með hönnun",
+          "detail": "Gagnalínur, hlutverkabundinn aðgangur og endurskoðunartilbúnar stýringar eru innbyggðar í hverja leiðslu."
+        }
+      ]
+    },
+    "capabilities": [
+      "Vélanámslíkön og pípur",
+      "Power BI mælaborð og skýrslur",
+      "Forspárgreining",
+      "Rauntíma gagnastraumur",
+      "Gagnageymslulausnir"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Vettvangur",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Gagnageymsla",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Gagnaverkfræði",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML vettvangur",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML rammi",
+        "icon": "Tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML rammi",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Tafla",
+        "category": "Greining",
+        "icon": "Tafla"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Vinnsla",
+        "icon": "apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Tungumál",
+        "icon": "PostGreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Data Foundation",
+        "summary": "Við endurskoðum heimildir, skilgreinum gagnasamninga og setjum upp stjórnun þannig að hvert líkan byrjar á traustum inntaki.",
+        "deliverables": [
+          "Mat á gagnauppsprettu og gæðum",
+          "Eiginleikaverkfræði og skemaskipulag",
+          "Öryggis- og stjórnunargrunnur"
+        ]
+      },
+      {
+        "title": "Líkan- og innsýnarafhending",
+        "summary": "Við byggjum líkön og ákvarðanamælaborð sem tengjast mælanlegum viðskiptaspurningum og lykilmælikvörðum.",
+        "deliverables": [
+          "Þróun og staðfesting líkans",
+          "Stjórnendamælaborð og rekstrarskýrsla",
+          "Samþætting ákvörðunarferla"
+        ]
+      },
+      {
+        "title": "MLOps og upptaka",
+        "summary": "Við gerum innleiðingu, eftirlit og teymisstuðning í framkvæmd til að halda niðurstöðum áreiðanlegum yfir tíma.",
+        "deliverables": [
+          "Sjálfvirkar líkandreifingarpípur",
+          "Rek, nákvæmni og notkunarvöktun",
+          "Liðsafhending og rekstrarleikbók"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Umbreyttu gögnum þínum í innsýn",
+      "description": "Breyttu brotakenndum gögnum í skýrar, framkvæmanlegar upplýsingar.",
+      "button": "Byrjaðu ferðalagið þitt"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Skýjaarkitektúr og innviðir",
+      "description": "Fjölskýjakerfi, þolin arkitektúr og stigstærð innviðir hannaðir fyrir langtíma vöxt."
+    },
+    "sections": {
+      "problem": {
+        "title": "Rammagerð viðskiptavandamála",
+        "subtitle": "Af hverju stöðvast skýjafrumkvæði eftir fyrstu flutningsbylgjuna"
+      },
+      "approach": {
+        "title": "Verkfræðileg nálgun",
+        "subtitle": "Hvernig við byggjum öruggar, skalanlegar skýjalausnir með stýrðri flutningsáhættu"
+      },
+      "principles": {
+        "title": "Arkitektúrreglur",
+        "subtitle": "Ákvarðanir á vettvangi sem vega saman sveigjanleika, seiglu og stjórnun"
+      },
+      "capabilities": {
+        "title": "Skýjaþjónustur",
+        "subtitle": "Byggja, setja upp og stækka í skýinu"
+      },
+      "technology": {
+        "title": "Fjölskýjasérfræðiþekking",
+        "subtitle": "Vettvangsóháður skýjalausnir"
+      },
+      "breakdown": {
+        "title": "Þjónustuskipting",
+        "subtitle": "Skýr röð fyrir hönnun, flutning og rekstur skýjavettvanga"
+      }
+    },
+    "problem": {
+      "overview": "Margir stofnanir klára fyrstu skýjaflutninga en starfa samt eins og staðbundin teymi, með lélega sýnileika, ósamræmdar stjórnanir og auknum útgjöldum.",
+      "painPointsTitle": "Endurtekin viðskiptavandamál",
+      "impactSignalsTitle": "Það sem leiðtogar taka venjulega eftir",
+      "painPoints": [
+        "Vinnuálag er flutt án staðlaðra öryggis- og netstýringa",
+        "Skýjakostnaður hækkar hraðar en viðskiptalegt virði sem skilað er",
+        "Umhverfisúthlutun er handvirk og óstöðug milli teyma"
+      ],
+      "impactSignals": [
+        "Tíðar atvik sem stafa af stillingarflutningi milli umhverfa",
+        "Endurskoðunarhæfni versnar vegna sundurleitra stjórnunarhátta",
+        "Innviðir seinka afhendingartíma, vöru- og gagnaverkefnum"
+      ]
+    },
+    "approach": {
+      "overview": "Við hönnum skýjalausnir sem vörur, með því að nota sjálfvirkni innviða, stefnumótunarreglur og flutningsbylgjur sem eru í samræmi við viðskiptalega mikilvægi.",
+      "pillars": [
+        {
+          "title": "Lendingarsvæði sem kóði",
+          "detail": "Auðkenni, netkerfi, öryggi og stefnumótun eru staðfest til að tryggja endurtekningu og endurskoðanleika."
+        },
+        {
+          "title": "Bylgjubundin flutningsstefna",
+          "detail": "Vinnuálag fer fram í stýrðum áföngum með meðvitaða raðgreiningu og tilbúinni endurvinnslu."
+        },
+        {
+          "title": "SRE + FinOps rekstrarhringur",
+          "detail": "Áreiðanleikavísar og einingahagfræði eru skoðuð saman til að bæta bæði rekstrartíma og eyðsluhagkvæmni."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Arkitektúrlíkan okkar kýs lýsandi innviði, aðgang með minnstu réttindum og samsetanlega vettvanga sem styðja hraða afhendingu vöru.",
+      "items": [
+        {
+          "title": "Óbreytanleg innviðamynstur",
+          "detail": "Umhverfi eru endurbyggð úr útgáfukóða til að lágmarka rek og einfalda rekstrarendurheimt."
+        },
+        {
+          "title": "Öryggisgrunnlína sjálfgefið",
+          "detail": "Zero-trust aðgangsstýringar og framkvæmd stefnu eru innbyggðar í alla lífsferla umhverfisins."
+        },
+        {
+          "title": "Seigla í gegnum dreifingu",
+          "detail": "Mikilvæg vinnuálög eru hönnuð fyrir bilunarþol í mörgum svæðum eða mörgum svæðum þar sem viðskiptaáhrif krefjast þess."
+        }
+      ]
+    },
+    "capabilities": [
+      "Fjölskýjastefna og innleiðing",
+      "Gámaskipan (Kubernetes)",
+      "Serverlaus tölvuvinnsla",
+      "Skýjaflutningsþjónusta",
+      "Há aðgengileg arkitektúr"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Ský",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "AWS",
+        "category": "Ský",
+        "icon": "amazonwebservices"
+      },
+      {
+        "name": "GCP",
+        "category": "Ský",
+        "icon": "googlecloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Hljómsveitarútsetning",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Ílát",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "ARM sniðmát",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "amazonwebservices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Arkitektúr og lendingarsvæði",
+        "summary": "Við skilgreinum markmiðsástand, vegrið og grunnstaðla fyrir vettvang áður en vinnuálag færist.",
+        "deliverables": [
+          "Markhönnun skýjaarkitektúrs",
+          "Auðkenni, netkerfi og öryggisgrunnlína",
+          "Kostnaðar- og samræmisreglur"
+        ]
+      },
+      {
+        "title": "Flutningur og vettvangsbygging",
+        "summary": "Við framkvæmum flutningsbylgjur og setjum upp skýjainnfædda vettvangsþætti með endurteknum sjálfvirkni.",
+        "deliverables": [
+          "Röðun vinnuálagsflutnings",
+          "Uppsetning gáma- og þjónustulausra palla",
+          "Innviðir sem kóðaeiningar"
+        ]
+      },
+      {
+        "title": "Áreiðanleiki og FinOps",
+        "summary": "Við bætum rekstraráreiðanleika og hámörkum stöðugt skýjakostnað byggðan á lifandi fjarskiptum.",
+        "deliverables": [
+          "SLO, vöktun og atvikavinnuferlar",
+          "Staðfesting á þoli og endurheimt eftir hamfarir",
+          "Kostnaðarhagræðingarbiðröð og stjórnunartaktur"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Stækkaðu innviði þína",
+      "description": "Byggðu skýjagrunna sem haldast þolnir undir raunverulegu álagi.",
+      "button": "Skipuleggðu skýjastefnu þína"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps og vettvangsverkfræði",
+      "description": "Sjálfvirkar afhendingarleiðir, áhorfanleiki og vettvangsvenjur sem bæta hraða án þess að fórna áreiðanleika."
+    },
+    "sections": {
+      "problem": {
+        "title": "Rammagerð viðskiptavandamála",
+        "subtitle": "Af hverju afhendingarhraði minnkar þegar flækjustig vettvangsins eykst"
+      },
+      "approach": {
+        "title": "Verkfræðileg nálgun",
+        "subtitle": "Hvernig við staðluðum afhendingarpípur án þess að hægja á vöruhópum"
+      },
+      "principles": {
+        "title": "Arkitektúrreglur",
+        "subtitle": "Verkfræðimynstur á vettvangi sem stækka áreiðanleika og sjálfstæði teymisins"
+      },
+      "capabilities": {
+        "title": "DevOps þjónustur",
+        "subtitle": "Sjálfvirknivæða, fylgjast með og hámarka afhendingarferil þinn"
+      },
+      "technology": {
+        "title": "DevOps verkfæri og vettvangar",
+        "subtitle": "Besti DevOps verkfærakeðjan"
+      },
+      "breakdown": {
+        "title": "Þjónustuskipting",
+        "subtitle": "Hagnýt leiðarvísir frá afhendingarflöskuhálsum til trausts á útgáfuflæði"
+      }
+    },
+    "problem": {
+      "overview": "Fyrirtæki fjárfesta oft í CI/CD tólum en eiga samt í erfiðleikum með óstöðugar útgáfur, hægar samþykktir og sundurlausa eignarhald milli umhverfa.",
+      "painPointsTitle": "Endurtekin viðskiptavandamál",
+      "impactSignalsTitle": "Það sem leiðtogar taka venjulega eftir",
+      "painPoints": [
+        "Skilgreiningar á leiðslum eru mismunandi eftir teymum, sem skapar ósamræmdar gæðahlið",
+        "Handvirk samþykki fyrir uppsetningu seinkar hraðleiðréttingum og tímamörkum fyrir útgáfu eiginleika",
+        "Rekstraratvik endurtaka sig vegna þess að fjarskipti eru ófullkomin eða einangruð"
+      ],
+      "impactSignals": [
+        "Afhendingartími breytinga heldur áfram að aukast þrátt fyrir sjálfvirknikostnað",
+        "Breytingar á bilunartíðni hækka á miklum afhendingartímum",
+        "Framleiðni forritara minnkar vegna núnings í verkfærum og samhengisskipta"
+      ]
+    },
+    "approach": {
+      "overview": "Við setjum upp innra þróunarvettvangslíkan með endurnýtanlegum pipeline-sniðmátum, stefnustýrðri stjórnun og fullri lífsferlissýn.",
+      "pillars": [
+        {
+          "title": "Golden Path pípusniðmát",
+          "detail": "Endurnýtanlegar CI/CD teikningar staðla uppsetningu, prófanir, öryggisathuganir og dreifingarferla."
+        },
+        {
+          "title": "Vettvangs-API og sjálfsafgreiðsla",
+          "detail": "Teymi útvega umhverfi og losa innviði með stýrðum sjálfsafgreiðsluviðmótum."
+        },
+        {
+          "title": "Áreiðanleikaendurgjöf",
+          "detail": "Atvikaþróun, heilsa SLO og dreifingarmælingar veita stöðugar endurbætur á ferlum og arkitektúr."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "DevOps-arkitektúr okkar samræmir afhendingarhraða við stjórnun með því að sjálfvirknivæða stjórnun og lágmarka einstaka rekstrarvinnu.",
+      "items": [
+        {
+          "title": "Allt sem útgáfukóða",
+          "detail": "Pípur, innviðir og stefnureglur eru stjórnað í útgáfustýringu til að tryggja endurskoðun og endurtekningu."
+        },
+        {
+          "title": "Framstigandi staðfesting",
+          "detail": "Gæða-, öryggis- og frammistöðuprófanir eru lagðar á milli stiga til að greina áhættu fyrr."
+        },
+        {
+          "title": "Sameiginleg ábyrgð á vettvangi",
+          "detail": "Vettvangsteymi bjóða upp á malbikaða möguleika á meðan vöruteymi halda ábyrgð á afhendingu."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI/CD pípuhönnun",
+      "Innviðir sem reglugerð",
+      "Sjálfvirk prófun",
+      "Sjálfvirkni í dreifingu",
+      "Vöktun og eftirlit"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Vettvangur",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "GitHub aðgerðir",
+        "category": "CI/CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Stýri",
+        "category": "Pökkun",
+        "icon": "Stýri"
+      },
+      {
+        "name": "Ansible",
+        "category": "Sjálfvirkni",
+        "icon": "Ansible"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Vöktun",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Sýnileiki",
+        "icon": "Grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Mat á vettvangi",
+        "summary": "Við metum núverandi afhendingarkeðju hugbúnaðar til að greina áhættupunkta og hraðatakmarkanir.",
+        "deliverables": [
+          "Núverandi afhendingarferlakort",
+          "Greining á flöskuhálsi í pípu",
+          "Markmið DevOps þroskakorts"
+        ]
+      },
+      {
+        "title": "Pípu- og sjálfvirknibygging",
+        "summary": "Við innleiðum áreiðanlega CI/CD, gæðahlið og sjálfvirkni innviða fyrir samræmdar útgáfur.",
+        "deliverables": [
+          "Endurnýtanleg CI/CD sniðmát",
+          "Innviðir og umhverfissjálfvirkni",
+          "Sjálfvirkar prófanir og útgáfustýringar"
+        ]
+      },
+      {
+        "title": "Reka og bæta",
+        "summary": "Við setjum upp eftirlits- og stjórnunarhringrásir sem styðja við stöðugar umbætur á afhendingu.",
+        "deliverables": [
+          "Eftirlitsmælaborð og viðvörunarstefnur",
+          "Útgáfustjórnun og atvikaleikrit",
+          "Stöðugar umbótamælingar og endurskoðanir"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Flýttu fyrir afhendingu þinni",
+      "description": "Minnkaðu núningsmótstöðu við útgáfur og bættu áreiðanleika með þroskuðum DevOps aðferðum.",
+      "button": "Umbreyttu píplínunni þinni"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Stafræn umbreyting og stefna",
+      "description": "Stefnumótandi ráðgjöf og framkvæmdarstuðningur til að nútímavæða vettvanga, teymi og rekstrarlíkön."
+    },
+    "sections": {
+      "problem": {
+        "title": "Rammagerð viðskiptavandamála",
+        "subtitle": "Þar sem umbreytingaráætlanir missa skriðþunga og sjálfstraust stjórnenda"
+      },
+      "capabilities": {
+        "title": "Ráðgjafaþjónusta",
+        "subtitle": "Stefnumótandi leiðsögn fyrir stafrænan árangur"
+      },
+      "approach": {
+        "title": "Verkfræðileg nálgun",
+        "subtitle": "Hvernig við umbreytum stefnu í framkvæmanlegar, tæknistuddar breytingar"
+      },
+      "principles": {
+        "title": "Arkitektúrreglur",
+        "subtitle": "Rekstrarlíkan og val á vettvangi sem verndar umbreytingarniðurstöður"
+      },
+      "technology": {
+        "title": "Tæknistafli",
+        "subtitle": "Vettvangar og ramma sem við notum til að framkvæma umbreytingu"
+      },
+      "breakdown": {
+        "title": "Þjónustuskipting",
+        "subtitle": "Uppbyggð umbreyting frá stefnumótun til mælanlegs viðskiptavirðis"
+      }
+    },
+    "problem": {
+      "overview": "Stafrænar frumkvæði byrja oft með sterkum ásetningi en ná ekki að umbreytast í afhendingarniðurstöður vegna óljósrar eignarhalds, ósamhengis verkfæra og samkeppni í forgangsröðun.",
+      "painPointsTitle": "Endurtekin viðskiptavandamál",
+      "impactSignalsTitle": "Það sem leiðtogar taka venjulega eftir",
+      "painPoints": [
+        "Umbreytingarvegakort eru skilgreind en ekki þýdd í stjórnun afhendingar",
+        "Viðskipta- og verkfræðiforgangsröðun skilast eftir fyrstu áætlanagerðir",
+        "Eldri rekstrarlíkön hindra innleiðingu nútíma afhendingaraðferða"
+      ],
+      "impactSignals": [
+        "Útgjöld til verkefna aukast á meðan stefnumarkandi KPI-hreyfing helst óbreytt",
+        "Frumkvæði missa af afhendingarpunktum milli stefnu, arkitektúrs og framkvæmdar",
+        "Teymi upplifa breytingaþreytu með takmörkuðu raunverulegu viðskiptagildi"
+      ]
+    },
+    "approach": {
+      "overview": "Við sameinum stefnumótandi ráðgjöf við afhendingararkitektúr, samræmum hönnun rekstrarlíkans, vettvangsgetu og framkvæmdarflæði í kringum mælanleg markmið.",
+      "pillars": [
+        {
+          "title": "Forgangsröðun virðisstraums",
+          "detail": "Við raðum verkefnum út frá mælanlegum viðskiptalegum áhrifum og takmörkunum á tæknilegri háð."
+        },
+        {
+          "title": "Hönnun markrekstrarlíkans",
+          "detail": "Hlutverk, stjórnun og ákvarðanaréttindi eru skilgreind til að styðja hraðari framkvæmd milli viðskipta- og tækniteyma."
+        },
+        {
+          "title": "Stjórnun eignasafnsafhendingar",
+          "detail": "Framvinda umbreytingarinnar er stýrt með KPI-tengdum eftirlitsstöðvum og áhættustýringum á eignasafnsstigi."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Umbreytingararkitektúr okkar leggur áherslu á stigvaxandi nútímavæðingu og skýra ábyrgð, forðast truflandi endurskrif án viðskiptalegrar réttlætingar.",
+      "items": [
+        {
+          "title": "Samræming viðskiptagetu",
+          "detail": "Tæknibreytingar eru skipulagðar í kringum hæfileika sem beint tengjast tekjum, þjónustugæðum eða kostnaðarhagkvæmni."
+        },
+        {
+          "title": "Samsetningarvettvangsstefna",
+          "detail": "Vettvangshlutar eru valdir fyrir samhæfni til að styðja við stigvaxandi flutning og hraðari aðlögun."
+        },
+        {
+          "title": "Stjórnun með afhendingarstigi",
+          "detail": "Ákvörðunarvettvangar og stjórnstöðvar eru innbyggðar í sprett- og ársfjórðungshringi, ekki meðhöndlaðar sem aðskildar skrifræðisleiðir."
+        }
+      ]
+    },
+    "capabilities": [
+      "Vegvísir stafrænnar umbreytingar",
+      "Þróun tæknistefnu",
+      "Skýjaupptökurammar",
+      "Ferlabestun",
+      "Breytingastjórnun"
+    ],
+    "technologies": [
+      {
+        "name": "Azure Landing Zone",
+        "category": "Cloud Foundation",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Gagnapallur",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Ákvörðunargreind",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Orkuvettvangur",
+        "category": "Lágkóði",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Samstarf",
+        "icon": "microsoftsharepoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Samræming stefnu",
+        "summary": "Við samræmum forgangsröðun leiðtoga og stafrænar markmið til að skapa sameiginlega stefnu umbreytingar.",
+        "deliverables": [
+          "Markmið umbreytingar og árangursviðmið",
+          "Hæfniþroski og mat á bilum",
+          "Forgangsverkefni"
+        ]
+      },
+      {
+        "title": "Aftökuáætlun",
+        "summary": "Við skilgreinum markrekstrarlíkanið, arkitektúrstaðla og stigvaxandi innleiðingarröð.",
+        "deliverables": [
+          "Rekstrarlíkan og stjórnunarhönnun",
+          "Tækni- og ferlaarkitektúrstaðlar",
+          "Stigvaxandi innleiðingaráætlun"
+        ]
+      },
+      {
+        "title": "Breyting og verðmætisgerð",
+        "summary": "Við stuðlum að innleiðingu, fylgjumst með þróun KPI og fínstillum verkefni út frá árangri afhendingar.",
+        "deliverables": [
+          "Ættleiðingar- og stuðningsáætlun",
+          "KPI mælingartakt",
+          "Fjórðungslegur hagræðingarbiðlisti"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Byrjaðu umbreytingarferð þína",
+      "description": "Taktu breytingum með skýrum forgangsröðun og hagnýtum afhendingaráætlunum.",
+      "button": "Skipuleggðu stefnumótun"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT og jaðarútreikningar",
+      "description": "Tengd kerfi frá tæki til skýja, með fjarskiptaleiðum og jaðargreind fyrir iðnaðarstærð."
+    },
+    "sections": {
+      "problem": {
+        "title": "Rammagerð viðskiptavandamála",
+        "subtitle": "Af hverju forrit tengd tæki ná ekki að stækka lengra en tilraunaverkefni"
+      },
+      "approach": {
+        "title": "Verkfræðileg nálgun",
+        "subtitle": "Hvernig við hönnum örugg, rekstrarhæf IoT kerfi, allt frá fastbúnaði tækja til skýja-API"
+      },
+      "principles": {
+        "title": "Arkitektúrreglur",
+        "subtitle": "Edge-to-cloud hönnunarreglur fyrir áreiðanleika, biðtíma og stjórnun flotans"
+      },
+      "capabilities": {
+        "title": "IoT lausnir",
+        "subtitle": "Tengja, fylgjast með og hámarka tækin þín"
+      },
+      "technology": {
+        "title": "IoT tæknistafli",
+        "subtitle": "Frá vélbúnaði til skýja"
+      },
+      "breakdown": {
+        "title": "Þjónustuskipting",
+        "subtitle": "Hvernig við afhendum tengd kerfi frá jaðartækjum til skýjagreindar"
+      }
+    },
+    "problem": {
+      "overview": "IoT-verkefni sýna oft tæknilega hagkvæmni í tilraunaverkefnum en mistakast í stórum stíl vegna óáreiðanlegrar tengingar, veikra flotastýringa og lélegrar samþættingar við viðskiptaferla.",
+      "painPointsTitle": "Endurtekin viðskiptavandamál",
+      "impactSignalsTitle": "Það sem leiðtogar taka venjulega eftir",
+      "painPoints": [
+        "Innleiðing tækja og líftímastjórnun eru áfram handvirk og viðkvæm fyrir villum",
+        "Fjarskiptapípur framleiða hávaðasamar, ófullkomnar eða seinkaðar rekstrargögn",
+        "Fjarstýring og fastbúnaðaruppfærslur bæta við öryggis- og öryggisáhættu"
+      ],
+      "impactSignals": [
+        "Prófunarumhverfi ná árangri, en framleiðsluútgáfa seinkar sífellt",
+        "Vettvangsrekstrarteymi bregðast við atvikum án forspársýnileika",
+        "Viðskiptakerfi geta ekki áreiðanlega neytt tækjagreindar í rauntíma"
+      ]
+    },
+    "approach": {
+      "overview": "Við hönnum IoT vettvanga sem stýrð dreifð kerfi, sem sameina örugga jaðarkeyrslustaðla, atburðastýrða innflutning og rekstrarstjórnun á flotaskala.",
+      "pillars": [
+        {
+          "title": "Örugg stjórnun líftíma tækja",
+          "detail": "Úthlutun, auðkenni, lykilsnúningur og hugbúnaðaruppfærslur eru sjálfvirkar til að draga úr rekstraráhættu."
+        },
+        {
+          "title": "Atburðadrifin fjarskiptaarkitektúr",
+          "detail": "Streymispípur normalisera, staðfesta og leiða atburði tækja til greiningar og stjórnunar í nánast rauntíma."
+        },
+        {
+          "title": "Stjórnflugvél flotans",
+          "detail": "Vöktun, viðvaranir og fjarstýringar veita áreiðanlegt eftirlit yfir dreifðar eignir."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "IoT arkitektúrinn okkar jafnar lága töf á jaðarmörkum við miðlæga stjórnun, sýnileika og öryggissamræmi.",
+      "items": [
+        {
+          "title": "Jaðarsjálfstæði með skýjasamhæfingu",
+          "detail": "Mikilvægar staðbundnar aðgerðir halda áfram á meðan netið versnar á meðan ástand er samstillt við skýjakerfi þegar það er í boði."
+        },
+        {
+          "title": "Samningsbundin atburðaskema",
+          "detail": "Tækja- og vettvangsteymi nota stýrðar skema til að viðhalda samræmni milli útgáfa."
+        },
+        {
+          "title": "Öryggi án trausts tækja",
+          "detail": "Gagnkvæm auðkenning, minnstu forréttindi og dulkóðuð flutningur eru framfylgt í öllum samskiptum tækja."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT tækjastjórnun",
+      "Stafrænar tvíburalausnir",
+      "Útbreiðsla jaðartölvunnar",
+      "Rauntíma fjarskipti",
+      "Forspárviðhald"
+    ],
+    "technologies": [
+      {
+        "name": "IoT miðstöð",
+        "category": "Cloud Gateway",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Stafrænir tvíburar",
+        "category": "Hermun",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Brúnarútreikningar",
+        "category": "Brún",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Samskiptareglur",
+        "icon": "mqtt"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Samskiptareglur",
+        "icon": "lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Vélbúnaður",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Vélbúnaður",
+        "icon": "hindberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Tímaröð DB",
+        "icon": "InfluxDB"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Tækja- og jaðarstefna",
+        "summary": "Við skilgreinum tengimynstur, jaðarkeyrslustaðla og örugga úthlutun fyrir vettvangstæki.",
+        "deliverables": [
+          "Tækjainnleiðing og tengingarlíkan",
+          "Brúnkeyrslu- og dreifingaráætlun",
+          "Öryggisgrunnur flotans"
+        ]
+      },
+      {
+        "title": "Fjarskipta- og stýriflötur",
+        "summary": "Við byggjum pípur sem fanga atburði, líkja eftir stafrænum tvíburum og gera fjarstýringarvinnuflæði mögulegt.",
+        "deliverables": [
+          "Rauntíma inntak og hönnun atburðaskema",
+          "Innleiðing stafræns tvíbura og eignalíkans",
+          "Skipana- og stjórnunar-API lag"
+        ]
+      },
+      {
+        "title": "Rekstur og umfang",
+        "summary": "Við rekstrarhæfum flotastjórnun og áreiðanleikastýringar fyrir IoT umhverfi á stórum skala.",
+        "deliverables": [
+          "Vöktun og viðvörun í tækjaflota",
+          "Forspárviðhald og greining frávika",
+          "Innleiðing og stuðningsáætlun fyrir lífsferil"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Tengdu tækin þín",
+      "description": "Byggðu áreiðanlegar IoT lausnir tilbúnar fyrir raunveruleg framleiðsluumhverfi.",
+      "button": "Byrjaðu IoT-verkefnið þitt"
+    }
+  }
+}

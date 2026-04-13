@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "title": "Systemau Peirianneg sy'n Graddio",
+    "subtitle": "Meddalwedd Menter · AI a Dysgu Peirianyddol · Seilwaith Cwmwl · IoT ac Edge",
+    "description": "O awtomeiddio deallus i lwyfannau cwmwl-frodorol, rydym yn pensaernïo ac yn darparu'r dechnoleg sy'n pweru busnesau uchelgeisiol - ar amser, ar gyllideb, ar raddfa.",
+    "cta": {
+      "primary": "Dechrau Prosiect",
+      "secondary": "Gweld ein gwaith"
+    },
+    "trustLine": "Ymddiried yn ymddiried gan gwmnïau ledled y byd"
+  },
+  "services": {
+    "subtitle": "Ein Gwasanaethau",
+    "title": "Peirianneg Sbectrwm Llawn",
+    "description": "Chwe maes ymarfer. Un tîm. Mae pob haen o'ch pentwr technoleg - o ddyfeisiau ymyl i ddangosfyrddau menter.",
+    "commentMarker": "GWASANAETHAU",
+    "items": {
+      "customSoftware": {
+        "title": "Datblygu Meddalwedd Addasedig",
+        "description": "Cymwysiadau modern wedi'u hadeiladu gyda microservices, APIs, a phensaernïaeth brodorol cwmwl."
+      },
+      "aiMl": {
+        "title": "AI, ML a Deallusrwydd Busnes",
+        "description": "Piblinellau AI / ML, dangosfyrddau Power BI, a dadansoddeg uwch sy'n troi data yn benderfyniadau."
+      },
+      "cloud": {
+        "title": "Pensaernïaeth a Seilwaith Cwmwl",
+        "description": "Seilwaith aml-gwmwl gyda chynwysyddion, di-weinydd, a scalability byd-eang wedi'i adeiladu."
+      },
+      "iot": {
+        "title": "IoT a Chyfrifiadura Edge",
+        "description": "Dyfeisiau cysylltiedig, efeilliaid digidol, a chyfrifiadura ymyl ar gyfer Diwydiant 4.0."
+      },
+      "devops": {
+        "title": "DevOps a Pheirianneg Llwyfan",
+        "description": "Piblinellau CI / CD, seilwaith fel cod, ac arsylwadwyedd o ymrwymo i gynhyrchu."
+      },
+      "digital": {
+        "title": "Trawsnewid Digidol ac Ymgynghori",
+        "description": "Strategaeth dechnoleg, mapiau ffordd moderneiddio, ac ymgynghori ymarferol."
+      }
+    },
+    "cta": {
+      "title": "Gadewch i ni adeiladu rhywbeth difrifol",
+      "description": "O ddatblygu meddalwedd arferol ac atebion wedi'u pweru gan AI i seilwaith cwmwl ac awtomeiddio - rydym yn darparu gwasanaethau technoleg o'r diwedd i'r diwedd wedi'u teilwra i'ch gofynion.",
+      "primary": "Dechrau Eich Prosiect",
+      "secondary": "Trefnu Ymgynghoriad"
+    },
+    "learnMore": "Dysgu mwy"
+  },
+  "credibility": {
+    "subtitle": "Ein hanes",
+    "title": "Canlyniadau, Nid <gradient>Addewidion</gradient>",
+    "titlePlain": "Canlyniadau, Nid Addewidion",
+    "commentMarker": "OUR_TRACK_RECORD",
+    "description": "O Sarajevo i Oslo, Amsterdam, a Berlin. Systemau menter wedi'u cyflwyno ar amser, bob tro.",
+    "stats": {
+      "experience": "Blynyddoedd o Brofiad Cyfunol",
+      "countries": "Gwledydd a wasanaethir",
+      "systems": "Systemau wedi'u cyflwyno",
+      "industries": "Diwydiannau a wasanaethir"
+    },
+    "proofCards": {
+      "atlascopco": {
+        "label": "Cloud IAM ar gyfer Atlas Copco",
+        "outcome": "Pensaernïaeth y seilwaith One Identity cyntaf erioed ar gyfer Atlas Copco ar Azure Kubernetes, gan leihau costau wrth gynnal cydymffurfiaeth menter."
+      },
+      "orange": {
+        "label": "Llwyfan Seiberamddiffyn Oren",
+        "outcome": "Datblygu seilwaith Azure Kubernetes, piblinellau CI / CD, ac integreiddio ServiceNow arferol ar gyfer cwmni seiberddiogelwch blaenllaw Ewrop."
+      },
+      "telecom": {
+        "label": "Llwyfan GIS ac AR Telecom",
+        "outcome": "Platfform GIS wedi'i adeiladu mapio cyfleustodau tanddaearol ledled yr Almaen gyda chanfod gwrthdrawiadau yn atal difrod seilwaith gwerth miliynau Ewro."
+      },
+      "iot": {
+        "label": "Llwyfan Cwmwl IoT ac Edge",
+        "outcome": "Azure IoT Hub yn rheoli miloedd o ddyfeisiau, Synapse yn prosesu biliynau o resi telemetreg, gyda chydgrynhoi ymyl yn torri costau negeseuon gan ~ 90%."
+      },
+      "drone": {
+        "label": "Llwyfan Drôn Ymreolaethol",
+        "outcome": "Rheolydd hedfan arferol gyda phont 4G-i-Azure IoT Hub sy'n galluogi hediadau BVLOS ymreolaethol ar gyfer monitro amaethyddol a chyflenwi llwyth tâl."
+      },
+      "payment": {
+        "label": "Achub System Talu",
+        "outcome": "Rescued failing payment gateway for Norwegian mobile app by reverse-engineering undocumented legacy code. Zero payment downtime ôl-foderneiddio."
+      },
+      "game": {
+        "label": "Offer Datblygu Gêm AAA",
+        "outcome": "Adeiladwyd ategyn Maya sy'n torri amser modelu ac animeiddio 3D gan 50% mewn stiwdio AAA fawr, a fabwysiadwyd fel offeryn safonol yn y biblinell gynhyrchu."
+      },
+      "social": {
+        "label": "Llwyfan Cymdeithasol Seiliedig ar Leoliad",
+        "outcome": "Ap dyddio pensaernïol ar gyfer golygfa bywyd nos Sbaen gyda paru geolocation, negeseuon amser real, a hysbysiadau gwthio ar gyfer cleient y DU."
+      },
+      "iga": {
+        "label": "Llwyfan IGA Aml-Denant",
+        "outcome": "Backend craidd wedi'i adeiladu ar gyfer platfform llywodraethu hunaniaeth cwmwl-frodorol sy'n gwasanaethu cleientiaid Fortune 500 gyda Hunaniaeth Graidd ASP.NET arferol ar gyfer NoSQL ar raddfa fenter."
+      }
+    },
+    "differentiators": {
+      "euAdjacent": {
+        "title": "Cyflenwi Byd-eang cyfagos i'r UE",
+        "description": "Oriau gwaith CET gyda phrofiad yn rhychwantu Norwy, yr Iseldiroedd, yr Almaen, a thu hwnt."
+      },
+      "yourEngineers": {
+        "title": "Eich Peirianwyr, Nid Gwerthwr",
+        "description": "Aelodau tîm ymroddedig wedi'u hymgorffori yn eich llif gwaith a'ch offer. Dim rheolwyr cyfrifon, dim ciwiau tocynnau."
+      },
+      "hardwareToCloud": {
+        "title": "Caledwedd i'r Cwmwl",
+        "description": "O firmware dyfais fewnosod i biblinellau Azure Synapse menter. Meddalwedd pentwr llawn ar draws pob haen."
+      }
+    }
+  },
+  "partners": {
+    "subtitle": "Pentwr Technoleg",
+    "title": "<gradient>Pentwr</gradient> wedi'i brofi gan y frwydr",
+    "titlePlain": "Pentwr wedi'i brofi gan y frwydr",
+    "commentMarker": "TECH_STACK",
+    "description": "Nid ydym yn defnyddio'r offer hyn yn unig - rydym wedi cludo systemau cynhyrchu gyda nhw. O Microsoft Azure i Kubernetes, mae gan ein peirianwyr arbenigedd yn y byd go iawn.",
+    "categories": {
+      "cloudInfra": {
+        "label": "Cwmwl a Seilwaith",
+        "description": "Pensaernïaeth aml-gwmwl gyda cherddorfa cynhwysydd a seilwaith fel cod."
+      },
+      "frontend": {
+        "label": "Ochr flaen",
+        "description": "Fframweithiau cydrannau modern gyda diogelwch math ac offer adeiladu wedi'u optimeiddio."
+      },
+      "backend": {
+        "label": "APIs ochr gefn",
+        "description": "Llwyfannau gweinydd gradd menter, ieithoedd systemau, a pharamedrau API modern."
+      },
+      "data": {
+        "label": "Data a Storio",
+        "description": "Storfeydd perthnasol, dogfennau ac yn y cof gyda chwiliad testun llawn."
+      },
+      "devops": {
+        "label": "DevOps ac Offer",
+        "description": "Piblinellau CI / CD, rheoli fersiwn, a chynhyrchiant datblygwyr."
+      }
+    },
+    "scanning": "AMLEDDAU SGANIO...",
+    "summary": {
+      "cloudNative": {
+        "title": "Brodorol yn y cwmwl yn ddiofyn",
+        "description": "Mae pob prosiect yn cael ei gynwysyddu, wedi'i yrru gan CI / CD, ac wedi'i adeiladu ar gyfer graddfa lorweddol o'r diwrnod cyntaf."
+      },
+      "fullStack": {
+        "title": "Rhuglder Pentwr Llawn",
+        "description": "O frontends React i microwasanaethau .NET i glystyrau Kubernetes - un tîm, o'r diwedd i'r diwedd."
+      },
+      "productionProven": {
+        "title": "Cynhyrchu-Profedig",
+        "description": "Nid technolegau demo yw'r rhain. Mae pob offeryn a restrir yn pweru systemau go iawn sy'n gwasanaethu defnyddwyr go iawn heddiw."
+      }
+    },
+    "logoRows": {
+      "row1Aria": "Logos technoleg rhes 1",
+      "row2Aria": "Logos technoleg rhes 2",
+      "row3Aria": "Logos technoleg rhes 3"
+    }
+  },
+  "faq": {
+    "subtitle": "Sylfaen Wybodaeth",
+    "title": "<gradient>Cwestiynau</gradient> Cyffredin",
+    "titlePlain": "Cwestiynau a ofynnir yn aml",
+    "commentMarker": "KNOWLEDGE_BASE",
+    "description": "Popeth sydd angen i chi ei wybod am weithio gyda Horizon Tech",
+    "items": {
+      "scope": {
+        "question": "Beth yw eich cwmpas gwaith?",
+        "answer": "Rydym yn darparu prosiectau technoleg o'r diwedd i'r diwedd: meddalwedd menter arferol, piblinellau AI / ML, seilwaith cwmwl, systemau IoT, awtomeiddio DevOps, ac ymgynghori trawsnewid digidol. P'un a oes angen platfform llawn wedi'i adeiladu o'r dechrau neu integreiddiad wedi'i dargedu â'ch pentwr presennol, rydym yn ymdrin â phensaernïaeth, datblygu, profi a defnyddio."
+      },
+      "stack": {
+        "question": "Beth yw eich pentwr technoleg craidd?",
+        "answer": "Mae ein pentwr craidd yn canolbwyntio ar lwyfannau gradd menter: Azure ac AWS ar gyfer cwmwl, .NET a Node.js ar gyfer backend, React ac Angular ar gyfer frontend, Kubernetes a Docker ar gyfer cerddorfa, a Terraform ar gyfer seilwaith fel cod. Rydym hefyd yn gweithio'n helaeth gyda Python ar gyfer llwythi gwaith AI / ML, Power BI a Fabric ar gyfer deallusrwydd busnes, a PostgreSQL, SQL Server, a MongoDB ar gyfer data."
+      },
+      "enterprise": {
+        "question": "Sut ydych chi'n ymdrin â phrosiectau menter?",
+        "answer": "Mae pob ymgysylltiad yn dechrau gyda cham darganfod i ddiffinio cwmpas, pensaernïaeth a cherrig milltir. Rydych chi'n cael tîm ymroddedig gydag arweinydd technegol, adolygiadau carreg filltir rheolaidd, a mynediad uniongyrchol i'r peirianwyr sy'n adeiladu'ch system. Rydym yn dilyn sbrintiau ystwyth gyda demos rhanddeiliaid, cynnal byrddau prosiect tryloyw, ac yn darparu adroddiadau cynnydd wythnosol."
+      },
+      "support": {
+        "question": "Sut olwg sydd ar gefnogaeth ôl-lansio?",
+        "answer": "Rydym yn cynnig haenau cymorth strwythuredig gyda SLAs diffiniedig, gan gynnwys monitro 24/7, ymateb i ddigwyddiadau, optimeiddio perfformiad, ac iteriad nodwedd. Mae ein cytundebau cymorth yn cwmpasu atgyweiriadau nam, clytiau diogelwch, graddio seilwaith, a gwiriadau iechyd rhagweithiol - wedi'u teilwra i'ch gofynion uptime ac amser ymateb."
+      },
+      "integration": {
+        "question": "Allwch chi integreiddio â'n seilwaith presennol?",
+        "answer": "Yn hollol. Rydym yn arbenigo mewn moderneiddio etifeddiaeth, integreiddiadau API-gyntaf, a mudo cwmwl hybrid. P'un a oes angen i chi gysylltu â systemau ERP ar y safle, mudo o monoliths i ficrowasanaethau, neu bontio cronfeydd data etifeddiaeth gyda blaeniau modern, mae gennym y llyfrau chwarae mudo a'r profiad integreiddio i'w wneud yn ddi-dor."
+      },
+      "industries": {
+        "question": "Pa ddiwydiannau ydych chi wedi gweithio ynddynt?",
+        "answer": "Mae ein tîm wedi cyflawni prosiectau ar draws sectorau fintech, gofal iechyd, logisteg, e-fasnach, ynni a llywodraeth. Rydym yn deall gofynion diwydiant-benodol fel PCI-DSS ar gyfer taliadau, ystyriaethau HIPAA ar gyfer data iechyd, cydymffurfiaeth GDPR ar gyfer marchnadoedd yr UE, a thelemetreg amser real ar gyfer IoT diwydiannol."
+      },
+      "engagement": {
+        "question": "Sut olwg sydd ar y broses ymgysylltu?",
+        "answer": "Mae'n dechrau gyda galwad darganfod i ddeall eich nodau a'ch tirwedd dechnegol. Oddi yno, rydym yn cyflwyno dogfen gwmpasu gydag argymhellion pensaernïaeth, amserlen, a dadansoddiad buddsoddi. Ar ôl ei gymeradwyo, rydym yn cychwyn gyda thîm ymroddedig, yn ymuno â'ch offer a'ch llifoedd gwaith, ac yn dechrau'r sbrint cyntaf o fewn dyddiau."
+      }
+    },
+    "stillHaveQuestions": "Oes gennych gwestiynau o hyd?",
+    "ctaDescription": "Oes gennych brosiect mewn golwg? Gadewch i ni siarad cwmpas, amserlen, a chyllideb.",
+    "readCaseStudies": "Darllenwch ein hastudiaethau achos",
+    "scheduleCall": "Trefnu Galwad"
+  }
+}

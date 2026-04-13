@@ -1,0 +1,54 @@
+{
+  "filters": {
+    "all": "Bonna"
+  },
+  "categories": {
+    "aiEngineering": "AI Engineering",
+    "enterpriseArchitecture": "Enterprise Architecture",
+    "cloudDevOps": "Cloud & DevOps",
+    "automationSystems": "Automation Systems",
+    "softwareReliabilityDesign": "Software Reliability & Design"
+  },
+  "readTime": "{{minutes}} mins read",
+  "tagsLabel": "Tags",
+  "relatedPosts": "Related Posts",
+  "author": {
+    "role": "Omuwandiisi"
+  },
+  "editor": {
+    "emptyPreview": "Mukomye okuwandiika ebitabo by'Obusiraamu nga mwetegereze..."
+  },
+  "tags": {
+    "llmOps": "LLM Ops",
+    "promptEngineering": "Prompt Engineering",
+    "observability": "Observability",
+    "safety": "Obukuumi",
+    "domainDesign": "Domain Design",
+    "integration": "Okugatta",
+    "governance": "Obufuzi",
+    "platformStrategy": "Platform Strategy",
+    "platformEngineering": "Platform Engineering",
+    "ciCd": "CI/CD",
+    "kubernetes": "Kubernetes",
+    "developerExperience": "Developer Experience",
+    "eventDriven": "Event-Driven",
+    "workflowOrchestration": "Workflow Orchestration",
+    "controlPlanes": "Ennyonyi ezifuga",
+    "resilience": "Obugumiikiriza",
+    "sre": "SRE",
+    "slos": "SLOs",
+    "failureModes": "Engeri z'okulemererwa",
+    "resilienceEngineering": "Resilience Engineering",
+    "evaluation": "Evaluation",
+    "qualityEngineering": "Quality Engineering",
+    "datasets": "Datasets",
+    "releaseManagement": "Release Management",
+    "incidentManagement": "Incident Management",
+    "architectureEvolution": "Architecture Evolution",
+    "riskReduction": "Okukendeeza ku kabi",
+    "postmortems": "Postmortems",
+    "progressiveDelivery": "Progressive Delivery",
+    "canaryReleases": "Canary Releases",
+    "featureFlags": "Feature Flags"
+  }
+}

@@ -1,0 +1,987 @@
+{
+  "about": {
+    "badge": "Um okkur",
+    "hero": {
+      "titlePrefix": "Að byggja upp tækni morgundagsins,",
+      "titleHighlight": "Í dag",
+      "description": "Horizon Tech d.o.o. er alþjóðlegt tæknifyrirtæki með höfuðstöðvar í Sarajevo, sem býður upp á háþróaðar hugbúnaðarlausnir til fyrirtækja á þremur heimsálfum."
+    },
+    "sections": {
+      "mission": {
+        "title": "Hlutverk",
+        "description": "Við hjálpum fyrirtækjum að umbreyta metnaðarfullum hugmyndum í áreiðanlegar stafrænar vörur sem skapa mælanlegt viðskiptagildi.",
+        "points": [
+          "Samræmdu afhendingu tækni við skýrar viðskiptaniðurstöður.",
+          "Byggðu langtímakerfi sem eru viðhaldshæf eftir því sem teymi stækka.",
+          "Vinna náið með hagsmunaaðilum frá stefnu til framkvæmdar."
+        ]
+      },
+      "expertise": {
+        "title": "Sérfræðiþekking",
+        "description": "Þverfagleg teymi okkar sameina verkfræðilega dýpt og vöruhugsun yfir nútíma tæknilausnir.",
+        "points": [
+          "Vef- og vettvangsverkfræði á fyrirtækjastigi.",
+          "Skýjaarkitektúr, DevOps sjálfvirkni og þolin innviði.",
+          "Beitt gervigreind/vélrænt nám, gagnaflæði og IoT-virkar vörur."
+        ]
+      },
+      "approach": {
+        "title": "Aðferð",
+        "description": "Við framkvæmum með gegnsæju, endurteknum líkani sem heldur afhendingu fyrirsjáanlegri á sama tíma og það dregur úr áhættu vörunnar.",
+        "points": [
+          "Uppgötva: skilgreindu umfang, forgangsröðun og árangursmælikvarða snemma.",
+          "Byggja: gefðu út í einbeittum skrefum með stöðugum endurgjöfarlykkjum.",
+          "Hámarka: fylgjast með árangri og bæta frammistöðu með tímanum."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Ertu tilbúin(n) að umbreyta fyrirtækinu þínu?",
+      "description": "Taktu þátt í vaxandi lista fyrirtækja sem treysta Horizon Tech til að skila nýstárlegum lausnum og framúrskarandi árangri.",
+      "primary": "Byrjaðu",
+      "secondary": "Skoðaðu árangurssögur"
+    }
+  },
+  "contact": {
+    "badge": "Hafðu samband",
+    "hero": {
+      "title": "Hafðu samband við okkur",
+      "description": "Ertu með verkefni í huga? Við viljum gjarnan heyra frá þér. Hafðu samband til að ræða hvernig við getum hjálpað þér að láta hugmyndir þínar verða að veruleika."
+    },
+    "info": {
+      "title": "Tengiliðaupplýsingar"
+    },
+    "booking": {
+      "title": "Bókaðu fund",
+      "description": "Pantaðu ókeypis 30 mínútna uppgötvunarsímtal"
+    },
+    "methods": {
+      "email": {
+        "title": "Netfang",
+        "description": "Sendu okkur tölvupóst hvenær sem er",
+        "value": "hello@horizon-tech.io"
+      },
+      "location": {
+        "title": "Staðsetning",
+        "description": "Með aðsetur í",
+        "value": "Sarajevo, Bosnía og Hersegóvína"
+      },
+      "response": {
+        "title": "Viðbragðstími",
+        "description": "Við bregðumst venjulega við innan",
+        "value": "24-48 klukkustundir"
+      }
+    },
+    "departments": {
+      "project": {
+        "label": "Nýtt verkefni"
+      },
+      "support": {
+        "label": "Tæknilegur stuðningur"
+      },
+      "partnerships": {
+        "label": "Samstarf"
+      },
+      "careers": {
+        "label": "Ferill"
+      },
+      "general": {
+        "label": "Almenn fyrirspurn"
+      }
+    },
+    "form": {
+      "title": "Sendu okkur skilaboð",
+      "success": "Takk fyrir skilaboðin. Við munum hafa samband innan 24-48 klukkustunda.",
+      "error": "Eitthvað fór úrskeiðis. Vinsamlegast reyndu aftur eða sendu okkur tölvupóst beint.",
+      "fullName": "Fullt nafn *",
+      "email": "Netfang *",
+      "company": "Félag",
+      "subject": "Viðfangsefni *",
+      "message": "Skilaboð *",
+      "placeholders": {
+        "name": "Nafn þitt",
+        "email": "you@example.com",
+        "company": "Fyrirtækið þitt",
+        "subject": "Hvað getum við hjálpað með?",
+        "message": "Segðu okkur frá verkefninu þínu eða fyrirspurninni..."
+      },
+      "validation": {
+        "required": {
+          "name": "Fullt nafn er nauðsynlegt.",
+          "email": "Netfang er nauðsynlegt.",
+          "subject": "Vinsamlegast veldu viðfangsefni.",
+          "message": "Skilaboð eru nauðsynleg."
+        },
+        "email": "Vinsamlegast sláðu inn gilt netfang.",
+        "messageMinLength": "Skilaboðin verða að vera að minnsta kosti {{count}} stöfum löng."
+      },
+      "sending": "Sendi...",
+      "submit": "Sendu skilaboð"
+    },
+    "reasonsTitle": "Af hverju að vinna með okkur?",
+    "reasons": [
+      "Sérþekking á full-stack hugbúnaðarþróun",
+      "Sérfræðingar í gervigreind/vélanámi og skýjaarkitektúr",
+      "Agil þróun með gegnsæjum samskiptum",
+      "Langtíma stuðningur og viðhald"
+    ],
+    "custom": {
+      "title": "Sérsniðnar lausnir",
+      "description": "Ertu að leita að sérsniðinni lausn? Við vinnum náið með viðskiptavinum til að skilja einstakar þarfir og afhenda sérsniðinn hugbúnað sem skilar mælanlegum árangri.",
+      "cta": "Ræddu verkefnið þitt"
+    },
+    "faq": {
+      "title": "Ertu með fleiri spurningar?",
+      "description": "Skoðaðu algengar spurningar okkar fyrir skjót svör",
+      "cta": "Skoðaðu algengar spurningar"
+    }
+  },
+  "team": {
+    "badge": "Liðið okkar",
+    "hero": {
+      "titlePrefix": "Hittu hugina á bak við",
+      "titleHighlight": "Horizon Tech",
+      "description": "Fjölbreytt teymi tæknifræðinga, hönnuða og stefnumótenda sem byggja saman upp áhrifamiklar stafrænar vörur."
+    },
+    "section": {
+      "title": "Leiðtogateymi",
+      "description": "Reynslumiklir leiðtogar stýra framtíðarsýn og vexti Horizon Tech"
+    },
+    "leadership": {
+      "hamza": {
+        "role": "Stofnandi, forstjóri og tæknistjóri",
+        "bio": "Framsýnn leiðtogi og tæknilegur arkitekt með 10+ ára reynslu af fyrirtækjahugbúnaði, sérhæfður í gervigreind/vélrænu námi, skýjalausnum og stigstærðum vöruarkitektúrum.",
+        "expertise": [
+          "AI/ML",
+          "Azure",
+          ".NET",
+          "Python",
+          "Lausnararkitektúr",
+          "Skýjaverkfræði"
+        ]
+      },
+      "ahmet": {
+        "role": "Aðalöryggisarkitekt",
+        "bio": "Sérfræðingur í netöryggi með áherslu á öryggi fyrirtækja, örugga innviði á staðnum og afhendingu sem byggir á samræmi fyrir reglugerðarumhverfi.",
+        "expertise": [
+          "Netöryggi",
+          "Kerfi á staðnum",
+          "Öryggisarkitektúr",
+          "Samræmis",
+          "Innviðaöryggi"
+        ]
+      }
+    },
+    "aria": {
+      "email": "Sendu tölvupóst {{name}}",
+      "linkedin": "{{name}} LinkedIn prófíll"
+    },
+    "culture": {
+      "title": "Lífið hjá Horizon Tech",
+      "description": "Við stuðlum að menningu nýsköpunar, samstarfs og stöðugs náms",
+      "remoteFirst": {
+        "title": "Menningin sem er fyrst og fremst í fjarlægu",
+        "description": "Vinnaðu hvar sem er með sveigjanlegum vinnutíma og áherslu á árangur, ekki staðsetningu."
+      },
+      "collaborative": {
+        "title": "Samstarfsumhverfi",
+        "description": "Reglulegir hópviðburðir, þekkingarmiðlun og þverfaglegt samstarf."
+      },
+      "workLife": {
+        "title": "Jafnvægi milli vinnu og einkalífs",
+        "description": "Rausnarleg orlofsstefna, stuðningur við andlega heilsu og virðing fyrir persónulegum tíma."
+      },
+      "innovation": {
+        "title": "Nýsköpunartími",
+        "description": "20% tími fyrir persónuleg verkefni, hackathon og að kanna nýja tækni."
+      },
+      "stats": {
+        "teamMembers": "Liðsmenn",
+        "countries": "Lönd",
+        "techStacks": "Tæknistaflar",
+        "remoteReady": "Fjarstýrt tilbúið"
+      }
+    },
+    "cta": {
+      "title": "Viltu ganga til liðs við teymið okkar?",
+      "description": "Við erum alltaf að leita að hæfileikaríku fólki sem leggur áherslu á handverk, eignarhald og nýsköpun.",
+      "button": "Hafðu samband"
+    }
+  },
+  "careers": {
+    "badge": "Gakktu til liðs við teymið okkar",
+    "hero": {
+      "titlePrefix": "Byggðu framtíðina",
+      "titleHighlight": "Með okkur",
+      "description": "Gakktu til liðs við teymi verkfræðinga sem byggja háþróaðan hugbúnað fyrir alþjóðlega viðskiptavini. Vinnðu fjarvinnu, vaxðu stöðugt og gerðu raunveruleg áhrif.",
+      "button": "Sjá stöður"
+    },
+    "process": {
+      "title": "Ráðningarferlið okkar",
+      "description": "Gegnsær, skilvirkur og virðingarfullur gagnvart tíma þínum",
+      "steps": [
+        {
+          "title": "Sækja um",
+          "description": "Sendu inn umsóknina þína og við skoðum hana innan 3 virkra daga."
+        },
+        {
+          "title": "Upphaflegt spjall",
+          "description": "30 mínútna myndsímtal til að ræða reynslu þína og væntingar."
+        },
+        {
+          "title": "Tæknilegt",
+          "description": "Tæknilegt viðtal eða verkleg æfing til að sýna hæfileika þína."
+        },
+        {
+          "title": "Tilboð",
+          "description": "Kynntu þér teymið og fáðu tilboðið þitt um að ganga til liðs við Horizon Tech."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Opnar stöður",
+      "description": "Finndu næsta tækifæri og bættu þig við vaxandi teymi okkar",
+      "unavailable": "Ég tek ekki við umsóknum núna",
+      "apply": "Sækja um núna",
+      "noMatch": "Sérðu ekki fullkomið hlutverk?",
+      "sendCv": "Sendu okkur ferilskrána þína",
+      "listings": [
+        {
+          "title": "Yfirmaður full-stack verkfræðings",
+          "department": "Verkfræði",
+          "location": "Fjarstýrt (ESB tímabelti)",
+          "type": "Fullt starf",
+          "description": "Byggðu skalanleg fyrirtækjaforrit með React, Node.js og skýjatækni.",
+          "tags": [
+            "React",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+          ]
+        },
+        {
+          "title": "DevOps verkfræðingur",
+          "department": "Verkfræði",
+          "location": "Sarajevo / Fjarlæg",
+          "type": "Fullt starf",
+          "description": "Hanna og viðhalda CI/CD pípum, innviðum sem kóða og eftirlitskerfum.",
+          "tags": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "GitLab CI"
+          ]
+        },
+        {
+          "title": "AI/ML verkfræðingur",
+          "department": "Nýsköpunarlaboratoríið",
+          "location": "Fjarstýrt",
+          "type": "Fullt starf",
+          "description": "Þróaðu vélrænt nám líkön og gervigreindarlausnir fyrir fyrirtækjaviðskiptavini.",
+          "tags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "MLOps"
+          ]
+        },
+        {
+          "title": "Vöruhönnuður",
+          "department": "Hönnun",
+          "location": "Fjarstýrt",
+          "type": "Fullt starf",
+          "description": "Búðu til fallegar, notendavænar notendaupplifanir fyrir flókin fyrirtækjaforrit.",
+          "tags": [
+            "Figma",
+            "Notendarannsóknir",
+            "UI/UX",
+            "Hönnunarkerfi"
+          ]
+        },
+        {
+          "title": "Lausnaarkitekt",
+          "department": "Verkfræði",
+          "location": "Fjarstýrt",
+          "type": "Fullt starf",
+          "description": "Hannaðu tæknilausnir frá upphafi til enda og leiðbeindu viðskiptavinum í gegnum stafræna umbreytingu.",
+          "tags": [
+            "Skýjaarkitektúr",
+            "Kerfishönnun",
+            "Ráðgjöf"
+          ]
+        },
+        {
+          "title": "Tæknilegur rithöfundur",
+          "department": "Rekstur",
+          "location": "Fjarstýrt",
+          "type": "Hlutastarf",
+          "description": "Búðu til ítarlega skjölun, kennsluefni og tæknilegt efni.",
+          "tags": [
+            "Skjölun",
+            "API skjöl",
+            "Tæknileg ritun"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Spurningar um að vinna hér?",
+      "description": "Við viljum gjarnan heyra frá þér. Hafðu samband og við svörum öllum spurningum um lífið hjá Horizon Tech.",
+      "button": "Hafðu samband við okkur"
+    }
+  },
+  "caseStudies": {
+    "badge": "Árangurssögur",
+    "hero": {
+      "titlePrefix": "Að skila árangri sem",
+      "titleHighlight": "Efni",
+      "description": "Kynntu þér hvernig við höfum hjálpað fyrirtækjum úr ýmsum atvinnugreinum að umbreyta rekstri með hagnýtri, áhrifamikilli tækni.",
+      "tags": {
+        "delivery": "Verkfræðileg afhending",
+        "outcomes": "Mældar niðurstöður"
+      }
+    },
+    "stats": {
+      "projects": "Verkefni sem hafa verið afhent",
+      "clients": "Ánægðir viðskiptavinir",
+      "efficiency": "Meðalhagkvæmni",
+      "retention": "Viðskiptavinahald"
+    },
+    "items": [
+      {
+        "id": "1",
+        "client": "Global FinTech Corp",
+        "industry": "Fjármálaþjónusta",
+        "title": "Skýjaflutningur og nútímavæðing",
+        "description": "Flutti eldri bankakerfi yfir í AWS skýjainnviði án nokkurrar niðurtíma.",
+        "challenge": "Arfleifð einhliða arkitektúr veldur vandamálum með stigstærð",
+        "result": "Flutti með góðum árangri yfir í örþjónustur á AWS",
+        "metrics": [
+          {
+            "label": "Kostnaðarlækkun",
+            "value": "40%"
+          },
+          {
+            "label": "Frammistöðuaukning",
+            "value": "3x"
+          }
+        ],
+        "tags": [
+          "AWS",
+          "Kubernetes",
+          "Örþjónustur",
+          "DevOps"
+        ]
+      },
+      {
+        "id": "2",
+        "client": "HealthTech lausnir",
+        "industry": "Heilbrigðisþjónusta",
+        "title": "AI-knúinn greiningarvettvangur",
+        "description": "Byggði vélræn vélræn líkön fyrir læknisfræðilega myndgreiningu með 95%+ nákvæmni.",
+        "challenge": "Handvirk greiningarferli taka of langan tíma",
+        "result": "Sjálfvirkar greiningar með gervigreind/vélrænu námi",
+        "metrics": [
+          {
+            "label": "Sparnaður tími",
+            "value": "70%"
+          },
+          {
+            "label": "Nákvæmni",
+            "value": "95%"
+          }
+        ],
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "React",
+          "Heilbrigðisþjónusta"
+        ]
+      },
+      {
+        "id": "3",
+        "client": "Risi í netverslun",
+        "industry": "Smásala",
+        "title": "Rauntíma greiningarmælaborð",
+        "description": "Þróaði BI vettvang sem vinnur úr 10M+ atburðum daglega.",
+        "challenge": "Engin rauntímasýn í lykilmælikvarða fyrirtækisins",
+        "result": "Rauntíma greiningar- og innsýnarvettvangur",
+        "metrics": [
+          {
+            "label": "Viðburðir/Dagur",
+            "value": "10M+"
+          },
+          {
+            "label": "Viðbragðstími",
+            "value": "<100ms"
+          }
+        ],
+        "tags": [
+          "BigQuery",
+          "Kafka",
+          "React",
+          "Gagnaverkfræði"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ertu tilbúin(n) að skrifa þína velgengnissögu?",
+      "description": "Ræðum hvernig við getum hjálpað þér að ná svipuðum árangri og vaxa með sjálfstrausti."
+    },
+    "filters": {
+      "title": "Iðnaðarsíu",
+      "all": "Allar atvinnugreinar",
+      "empty": "Engar tilviksrannsóknir passa við valda iðnaðarsíu."
+    }
+  },
+  "blog": {
+    "badge": "Blogg",
+    "hero": {
+      "titlePrefix": "Innsýn og hugmyndir frá",
+      "titleHighlight": "Horizon Tech",
+      "description": "Tæknileg kennsluefni, innsýn í iðnaðinn og hagnýtar lexíur úr raunverulegu afhendingarstarfi."
+    },
+    "categories": [
+      "Allar stöður",
+      "Skýjaarkitektúr",
+      "DevOps",
+      "AI/ML",
+      "Framendi",
+      "Bakendi",
+      "Gögn"
+    ],
+    "featuredPost": {
+      "id": "Aðalhlutverk",
+      "title": "Framtíð skýjainnfæddrar þróunar: Stefnur sem vert er að fylgjast með árið 2025",
+      "excerpt": "Kynntu þér nýjustu strauma í skýjainnfæddri þróun, allt frá þjónustulausum arkitektúrum til jaðartölvuvinnslu.",
+      "author": {
+        "name": "Ritstjórnargrein Horizon Tech"
+      },
+      "date": "15. nóvember 2025",
+      "readTime": "8 mínútna lestur",
+      "category": "Skýjaarkitektúr",
+      "tags": [
+        "Ský",
+        "Azure",
+        "Þróun"
+      ]
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "Að byggja skalanlegar örþjónustur með Azure Kubernetes Service",
+        "excerpt": "Hagnýt leiðarvísir um hönnun og innleiðingu örþjónustur með AKS.",
+        "author": {
+          "name": "Ritstjórnargrein Horizon Tech"
+        },
+        "date": "12. nóvember 2025",
+        "readTime": "6 mínútna lestur",
+        "category": "DevOps",
+        "tags": [
+          "Kubernetes",
+          "Örþjónustur",
+          "Azure"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Vélanám í framleiðslu: Lærdómur",
+        "excerpt": "Vettvangsprófaðar lexíur af því að innleiða ML-líkön í stórum stíl.",
+        "author": {
+          "name": "Ritstjórnargrein Horizon Tech"
+        },
+        "date": "10. nóvember 2025",
+        "readTime": "10 mínútna lestur",
+        "category": "AI/ML",
+        "tags": [
+          "Vélrænt nám",
+          "MLOps",
+          "Python"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "React 19: Hvað er nýtt og af hverju það skiptir máli",
+        "excerpt": "Djúp rannsókn á eiginleikum React 19 og afköstum.",
+        "author": {
+          "name": "Ritstjórnargrein Horizon Tech"
+        },
+        "date": "8. nóvember 2025",
+        "readTime": "5 mínútna lestur",
+        "category": "Framendi",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Vefþróun"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Gerast áskrifandi að fréttabréfi okkar",
+      "description": "Fáðu nýjustu greinar, kennsluefni og innsýn afhent vikulega.",
+      "placeholder": "your.email@example.com",
+      "button": "Gerast áskrifandi",
+      "note": "Enginn ruslpóstur. Afskrifaðu þig hvenær sem er."
+    },
+    "index": {
+      "hero": {
+        "title": "Horizon Tech verkfræðiblogg",
+        "description": "Vettvangsathugasemdir og hagnýt mynstur frá teymum sem byggja gervigreindarvörur, fyrirtækjakerfi og áreiðanleg skýjakerfi."
+      },
+      "filters": {
+        "postsInView": "{{count}} færslur í sjónmáli"
+      },
+      "featured": {
+        "badge": "Nýjasta fréttin",
+        "readCta": "Lestu valda færslu"
+      }
+    }
+  },
+  "profile": {
+    "loading": "Hleðsla prófíll...",
+    "title": "Stillingar á prófíl",
+    "subtitle": "Stjórnaðu stillingum og stillingum reikningsins þíns",
+    "photoButton": "Breyta mynd",
+    "tabs": {
+      "general": "Almennt",
+      "security": "Öryggi",
+      "preferences": "Óskir"
+    },
+    "messages": {
+      "profileUpdated": "Prófíll uppfærður með góðum árangri",
+      "profileUpdateFailed": "Mistókst að uppfæra prófílinn",
+      "passwordsNoMatch": "Ný lykilorð passa ekki saman",
+      "passwordTooShort": "Lykilorðið verður að vera að minnsta kosti 8 stafi langt",
+      "passwordChanged": "Lykilorð breytt með góðum árangri",
+      "passwordChangeFailed": "Tókst ekki að breyta lykilorði",
+      "optedOut": "Afþakkað fyrir sig starfsskýrslur",
+      "optedIn": "Samþykkti að taka þátt í æfingaskýrslum",
+      "optOutFailed": "Mistókst að uppfæra stöðu afskráningar"
+    },
+    "general": {
+      "title": "Persónuupplýsingar",
+      "description": "Uppfærðu persónuupplýsingar þínar og tengiliðaupplýsingar",
+      "firstName": "Fornafn",
+      "firstNamePlaceholder": "John",
+      "lastName": "Eftirnafn",
+      "lastNamePlaceholder": "Doe",
+      "email": "Netfang",
+      "emailNotice": "Netfangið er ekki hægt að breyta. Hafðu samband við þjónustuver ef þú þarft aðstoð.",
+      "phone": "Símanúmer",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "save": "Breytingar á vistun"
+    },
+    "security": {
+      "title": "Öryggisstillingar",
+      "description": "Stjórnaðu lykilorðinu þínu og öryggisstillingum",
+      "currentPassword": "Núverandi lykilorð",
+      "currentPasswordPlaceholder": "Sláðu inn núverandi lykilorð",
+      "newPassword": "Nýtt lykilorð",
+      "newPasswordPlaceholder": "Sláðu inn nýtt lykilorð",
+      "confirmPassword": "Staðfestu nýtt lykilorð",
+      "confirmPasswordPlaceholder": "Staðfestu nýtt lykilorð",
+      "passwordHint": "Verður að vera að minnsta kosti 8 stafir að lengd",
+      "changePassword": "Breyttu lykilorði"
+    },
+    "preferences": {
+      "title": "Tilkynningarstillingar",
+      "description": "Stjórnaðu hvernig þú færð uppfærslur og tilkynningar",
+      "email": {
+        "title": "Tölvupósttilkynningar",
+        "description": "Fáðu uppfærslur og tilkynningar í tölvupósti"
+      },
+      "sms": {
+        "title": "SMS tilkynningar",
+        "description": "Fáðu mikilvægar tilkynningar í gegnum textaskilaboð"
+      },
+      "optOut": {
+        "title": "Skýrslur um að afþakka starfsnám",
+        "description": "Feldu skýrslurnar þínar fyrir eiganda stofunnar"
+      },
+      "actions": {
+        "title": "Reikningsaðgerðir",
+        "downloadData": "Sæktu reikningsgögn",
+        "deleteAccount": "Eyða reikningi"
+      }
+    }
+  },
+  "support": {
+    "backHome": "Aftur heim",
+    "title": "Stuðningsmiðstöð",
+    "subtitle": "Fáðu aðstoð með hugbúnaðarþróunarþjónustu okkar",
+    "cards": {
+      "email": {
+        "title": "Tölvupóststuðningur",
+        "description": "Sendu okkur tölvupóst ef þú hefur fyrirspurnir"
+      },
+      "project": {
+        "title": "Fyrirspurnir um verkefni",
+        "description": "Ræddu verkefniskröfur þínar",
+        "button": "Hafðu samband við okkur"
+      },
+      "resources": {
+        "title": "Heimildir",
+        "description": "Tæknilegar auðlindir og leiðbeiningar",
+        "button": "Skoðaðu auðlindir"
+      }
+    },
+    "faqTitle": "Algengar spurningar",
+    "faqDescription": "Fljótleg svör við algengum spurningum",
+    "faqs": [
+      {
+        "question": "Hvaða þjónustu býður Horizon Tech upp á?",
+        "answer": "Við bjóðum upp á sérsniðna hugbúnaðarþróun, AI/ML lausnir, skýjaarkitektúr, DevOps, viðskiptagreind og IoT þjónustu."
+      },
+      {
+        "question": "Hvernig byrja ég verkefni með Horizon Tech?",
+        "answer": "Hafðu samband við okkur í gegnum eyðublað eða tölvupóst með þínum óskum. Við skipuleggjum fund um uppgötvun og deilum tillögu."
+      },
+      {
+        "question": "Veitir þú stöðugan stuðning og viðhald?",
+        "answer": "Já. Við bjóðum upp á stuðnings- og viðhaldspakka sem innihalda villuleiðréttingar, öryggisuppfærslur og endurbætur á eiginleikum."
+      }
+    ]
+  },
+  "education": {
+    "backHome": "Aftur heim",
+    "title": "Tæknilegar auðlindir",
+    "subtitle": "Leiðbeiningar, kennsluefni og bestu vinnubrögð frá Horizon Tech teyminu",
+    "hub": {
+      "title": "Námsmiðstöð",
+      "description": "Kynntu þér valin tæknileg úrræði okkar á sviði skýja, gervigreindar/vélræns nám, DevOps og nútíma hugbúnaðarþróunar.",
+      "note": "Þessi gögn byggja á raunverulegri verkefnareynslu og eru reglulega uppfærð."
+    },
+    "categories": [
+      {
+        "icon": "Ský",
+        "title": "Skýjaarkitektúr",
+        "description": "Azure, AWS og skýjabundin mynstur",
+        "resources": [
+          {
+            "title": "Azure Architecture Best Practices",
+            "type": "Leiðarvísir"
+          },
+          {
+            "title": "Skýjaflutningsstefnur",
+            "type": "Grein"
+          }
+        ]
+      },
+      {
+        "icon": "heili",
+        "title": "Gervigreind og vélrænt nám",
+        "description": "ML-líkön, gagnavísindi og samþætting gervigreindar",
+        "resources": [
+          {
+            "title": "Inngangur að Azure ML",
+            "type": "Kennsla"
+          },
+          {
+            "title": "Að byggja framleiðslu ML pípur",
+            "type": "Leiðarvísir"
+          }
+        ]
+      },
+      {
+        "icon": "Umhverfi",
+        "title": "DevOps og vettvangur",
+        "description": "CI/CD, innviðir sem kóði, sjálfvirkni",
+        "resources": [
+          {
+            "title": "Azure DevOps Pipeline Setup",
+            "type": "Kennsla"
+          },
+          {
+            "title": "Innviðir sem kóði með Terraform",
+            "type": "Leiðarvísir"
+          }
+        ]
+      },
+      {
+        "icon": "Kóði",
+        "title": "Hugbúnaðarþróun",
+        "description": ".NET, React og nútíma þróunaraðferðir",
+        "resources": [
+          {
+            "title": "Hrein arkitektúr í .NET",
+            "type": "Leiðarvísir"
+          },
+          {
+            "title": "Bestu starfsvenjur React",
+            "type": "Grein"
+          }
+        ]
+      },
+      {
+        "icon": "Gagnagrunnur",
+        "title": "Gögn og greining",
+        "description": "BI, gagnavöruhús og greiningarvettvangar",
+        "resources": [
+          {
+            "title": "Hönnun Power BI mælaborðs",
+            "type": "Kennsla"
+          },
+          {
+            "title": "Gagnageymsluarkitektúr",
+            "type": "Leiðarvísir"
+          }
+        ]
+      }
+    ],
+    "training": {
+      "title": "Þarftu sérsniðna þjálfun?",
+      "description": "Við bjóðum upp á sérsniðnar vinnustofur fyrir verkfræði- og vöruteymi",
+      "text": "Þarftu verklega þjálfun í teyminu? Við bjóðum upp á sérsniðnar vinnustofur um skýjaarkitektúr, DevOps og nútímalegar afhendingaraðferðir.",
+      "button": "Hafðu samband"
+    }
+  },
+  "unauthorized": {
+    "title": "Aðgangur hafnað",
+    "description": "Þú hefur ekki leyfi til að opna þessa síðu. Hafðu samband við stjórnanda þinn ef þú telur þetta vera mistök.",
+    "primary": "Farðu á prófíl",
+    "secondary": "Aftur heim"
+  },
+  "blogPost": {
+    "notFound": {
+      "title": "Færsla fannst ekki",
+      "description": "Engin bloggfærsla er til um slug: {{slug}}",
+      "back": "Til baka á bloggið"
+    },
+    "back": "Til baka á bloggið",
+    "publisher": "Horizon Tech"
+  },
+  "caseStudyDetail": {
+    "notFound": {
+      "title": "Tilviksrannsókn ekki fundin",
+      "description": "Engin tilvikarannsókn er til fyrir id: {{id}}",
+      "back": "Til baka í dæmisögur"
+    },
+    "back": "Til baka í dæmisögur",
+    "sections": {
+      "executiveSummary": "Framkvæmdayfirlit",
+      "businessChallenge": "Viðskiptaáskorun",
+      "technicalSolution": "Tæknilausn",
+      "architectureDecisions": "Arkitektúrákvarðanir",
+      "technologyStack": "Tæknistafli",
+      "resultsImpact": "Niðurstöður og áhrif"
+    },
+    "client": "Viðskiptavinur",
+    "keyOutcomes": "Helstu niðurstöður",
+    "decision": "Úrskurður {{number}}"
+  },
+  "error": {
+    "notFound": {
+      "badge": "404 // Merki tapað",
+      "title": "Síða fannst ekki",
+      "description": "Leiðin sem þú baðst um er ekki til eða hefur færst. Við skulum koma þér aftur á gilt Horizon Tech endapunkt.",
+      "requestedPath": "Beðin leið",
+      "terminal": {
+        "prompt": "$ horizon-router resolve --path",
+        "line1": "Leysa leiðarlínuritið... Mistókst",
+        "line2": "Ástæða: enginn samsvarandi leiðarmódel",
+        "line3": "Varasamskiptareglur virkjaðar",
+        "line4": "Notaðu einn af flýtileiðunum hér að neðan til að halda áfram"
+      },
+      "links": {
+        "home": "Heimasíða",
+        "services": "Þjónusta",
+        "blog": "Blogg",
+        "caseStudies": "Dæmisögur"
+      }
+    },
+    "runtime": {
+      "badge": "Keyrsluvilla",
+      "title": "Eitthvað brotnaði á þessari síðu",
+      "description": "Óvænt vandamál truflaði myndgerðina. Þú getur reynt aftur á öruggan hátt, eða farið aftur á forsíðuna.",
+      "retry": "Endurtilraun",
+      "home": "Til baka á forsíðu",
+      "unknown": "Óþekkt keyrsluvilla"
+    }
+  },
+  "meta": {
+    "siteName": "Horizon Tech bloggið"
+  },
+  "admin": {
+    "blog": {
+      "title": "Stjórnun bloggsins",
+      "subtitle": "Búðu til, breyttu og stjórnaðu bloggfærslum þínum",
+      "newPost": "Ný staða",
+      "seedData": "Frægögn",
+      "allPosts": "Allar stöður",
+      "published": "Útgefið",
+      "draft": "Dráttur",
+      "featured": "Aðalhlutverk",
+      "setFeatured": "Sett í aðalhlutverki",
+      "removeFeatured": "Fjarlægðu valinn",
+      "table": {
+        "title": "Titill",
+        "category": "Flokkur",
+        "status": "Staða",
+        "date": "Dagsetning",
+        "actions": "Aðgerðir"
+      },
+      "empty": {
+        "message": "Engar bloggfærslur ennþá. Búðu til fyrstu færslu eða frægögn.",
+        "seed": "Fræsýnisgögn",
+        "create": "Búðu til færslu"
+      },
+      "delete": {
+        "title": "Eyða færslu",
+        "confirmation": "Ertu viss um að þú viljir eyða þessari færslu? Þessi aðgerð er ekki hægt að afturkalla.",
+        "delete": "Eyða",
+        "cancel": "Hætta við"
+      }
+    },
+    "editor": {
+      "bannerHint": "Sýnt sem breiður borði efst á stönginni",
+      "bannerImage": "Borðamynd",
+      "coverHint": "Sýnt í bloggkortum",
+      "coverImage": "Kápumynd",
+      "editSlug": "Breytt slug",
+      "posts": "Stöður",
+      "publish": "Birta",
+      "update": "Uppfærsla",
+      "form": {
+        "contentPlaceholder": "Skrifaðu efni færslunnar þinnar hér...",
+        "excerptPlaceholder": "Stutt samantekt á færslunni...",
+        "pickDate": "Veldu dagsetningu",
+        "readTimePlaceholder": "t.d. 5 mínútna lestur",
+        "titlePlaceholder": "Titill færslu..."
+      },
+      "meta": {
+        "publisher": "Útgefandi",
+        "unknownAuthor": "Óþekktur höfundur"
+      },
+      "modes": {
+        "edit": "Breyting",
+        "editOnly": "Aðeins breyting",
+        "preview": "Forskoðun",
+        "previewOnly": "Aðeins forskoðun",
+        "sideBySide": "Hlið við hlið",
+        "split": "Skipting"
+      },
+      "tags": {
+        "heading": "Merkimiðar",
+        "placeholder": "Bættu við merki..."
+      },
+      "translations": {
+        "auto": "Auto",
+        "autoTranslate": "Sjálfvirk þýðing",
+        "clear": "Hreint",
+        "existing": "Til staðar",
+        "heading": "Þýðingar",
+        "language": "Tungumál",
+        "languages": "Tungumál",
+        "edit": "Breyting",
+        "manual": "Handbók",
+        "preview": "Forskoðun",
+        "searchPlaceholder": "Leitarmál...",
+        "translate": "Þýða"
+      }
+    },
+    "caseStudies": {
+      "title": "Dæmisögur",
+      "subtitle": "Stjórna tilvikarannsóknum og verkefnasýningum",
+      "newCaseStudy": "Nýtt dæmi",
+      "seedData": "Frægögn",
+      "allCaseStudies": "Allar tilviksrannsóknir",
+      "published": "Útgefið",
+      "draft": "Dráttur",
+      "table": {
+        "title": "Titill",
+        "industry": "Iðnaður",
+        "client": "Viðskiptavinur",
+        "status": "Staða",
+        "actions": "Aðgerðir"
+      },
+      "empty": {
+        "message": "Engar dæmisögur ennþá.",
+        "seed": "Frægögn",
+        "create": "Búðu fyrst til"
+      },
+      "delete": {
+        "title": "Eyða tilviksrannsókn",
+        "confirmation": "Ertu viss um að þú viljir eyða þessari rannsókn? Þessi aðgerð er ekki hægt að afturkalla.",
+        "delete": "Eyða",
+        "cancel": "Hætta við"
+      }
+    },
+    "caseStudyEditor": {
+      "back": "Dæmisögur",
+      "published": "Útgefið",
+      "draft": "Dráttur",
+      "update": "Uppfærsla",
+      "create": "Búðu til",
+      "sections": {
+        "basicInfo": "Grunnupplýsingar",
+        "narrative": "Frásögn",
+        "architectureDecisions": "Arkitektúrákvarðanir",
+        "techStack": "Tæknistafli",
+        "results": "Niðurstöður",
+        "tags": "Merkimiðar"
+      },
+      "fields": {
+        "title": "Titill",
+        "titlePlaceholder": "Titill tilvikssögunnar",
+        "slug": "Slug",
+        "slugPlaceholder": "sjálfvirkt búið til úr titli",
+        "client": "Viðskiptavinur",
+        "clientPlaceholder": "Nafn viðskiptavinar",
+        "industry": "Iðnaður",
+        "industryPlaceholder": "Valin atvinnugrein",
+        "description": "Lýsing",
+        "descriptionPlaceholder": "Stutt lýsing (sýnd á spilum)",
+        "executiveSummary": "Framkvæmdayfirlit",
+        "executiveSummaryPlaceholder": "Yfirlit yfir átökin á háu stigi",
+        "challenge": "Áskorun",
+        "challengePlaceholder": "Hvaða vandamál stóð viðskiptavinurinn frammi fyrir?",
+        "solution": "Lausn",
+        "solutionPlaceholder": "Hvernig var vandamálið leyst?",
+        "decision": "Niðurstaða",
+        "decisionPlaceholder": "Hvað var ákveðið",
+        "rationale": "Rökstuðningur",
+        "rationalePlaceholder": "Af hverju þessi nálgun var valin",
+        "metric": "Mælikvarði",
+        "metricPlaceholder": "t.d. uppgjörseinkun",
+        "value": "Gildi",
+        "valuePlaceholder": "t.d. -63% eða 4,8 klst - > 11 m",
+        "resultDescription": "Lýsing",
+        "resultDescriptionPlaceholder": "Hvað þessi niðurstaða þýðir",
+        "techPlaceholder": "Bættu við tækni (ýttu á Enter)",
+        "tagPlaceholder": "Bættu við merki (ýttu á Enter)"
+      },
+      "add": "Bæta við",
+      "noArchDecisions": "Engar arkitektúrákvarðanir bættar við ennþá.",
+      "noResults": "Engar niðurstöður hafa verið lagðar fram enn.",
+      "decisionLabel": "Úrskurður {{number}}",
+      "resultLabel": "Niðurstaða {{number}}",
+      "controls": {
+        "published": "Útgefið",
+        "publishedDescription": "Gerðu þetta dæmi sýnilegt opinberlega",
+        "featured": "Aðalhlutverk",
+        "featuredDescription": "Dragðu fram þessa rannsókn"
+      }
+    },
+    "imageCrop": {
+      "apply": "Sækja um",
+      "cancel": "Hætta við",
+      "cropTitle": "Klippa mynd",
+      "dropText": "Settu mynd hér eða smelltu til að hlaða upp",
+      "flipHorizontal": "Snúðu láréttu",
+      "flipVertical": "Snúðu lóðréttu",
+      "replace": "Skipta út",
+      "reset": "Endurstilla",
+      "rotateLeft": "Snúðu til vinstri",
+      "rotateRight": "Snúðu til hægri",
+      "uploading": "Hlaða upp...",
+      "toast": {
+        "invalidFile": "Ógild skrá",
+        "invalidFileDesc": "Vinsamlegast hlaðið upp gildri myndaskrá.",
+        "uploadFailed": "Upphleðsla mistókst",
+        "uploadFailedDesc": "Eitthvað fór úrskeiðis. Vinsamlegast reyndu aftur.",
+        "uploaded": "Mynd hlaðin upp",
+        "uploadedDesc": "Myndin þín hefur verið hlaðin upp með góðum árangri."
+      }
+    }
+  }
+}

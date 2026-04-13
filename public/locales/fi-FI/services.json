@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Aloita",
+    "ctaSecondary": "Aikataulun konsultointi"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Yritysohjelmistokehitys",
+      "description": "Päästä päähän -yrityssovellukset moderneilla kehyksillä, API-ensisijaisella arkkitehtuurilla ja pilvipohjaisella skaalautuvuudella."
+    },
+    "sections": {
+      "problem": {
+        "title": "Liiketoiminnan ongelman kehystys",
+        "subtitle": "Missä yritysohjelmat menettävät nopeutta, budjettia ja strategista yhdenmukaisuutta"
+      },
+      "approach": {
+        "title": "Insinöörilähestymistapa",
+        "subtitle": "Miten muutamme epämääräiset vaatimukset tuotantovalmiiksi alustoiksi"
+      },
+      "principles": {
+        "title": "Arkkitehtuurin periaatteet",
+        "subtitle": "Suunnittelupäätökset, jotka pitävät yritysjärjestelmät ylläpidettävissä laajassa mittakaavassa"
+      },
+      "capabilities": {
+        "title": "Mitä rakennamme",
+        "subtitle": "Kattavat ohjelmistokehityskyvyt"
+      },
+      "technology": {
+        "title": "Teknologiapino",
+        "subtitle": "Modernit, todistetut teknologiat yrityskäyttöön."
+      },
+      "breakdown": {
+        "title": "Palvelun erittely",
+        "subtitle": "Rakenteellinen polku löytämisestä vakaaseen tuotantotoimitukseen"
+      }
+    },
+    "problem": {
+      "overview": "Yritystiimit kantavat usein kriittisiä työnkulkuja pirstaleisilla järjestelmillä, mikä aiheuttaa pitkiä toimitusaikoja, epäjohdonmukaista dataa ja kallista manuaalista koordinointia osastojen välillä.",
+      "painPointsTitle": "Toistuva liiketoiminnan kipu",
+      "impactSignalsTitle": "Mitä johtajat yleensä havaitsevat",
+      "painPoints": [
+        "Toimitusvelvoitteet vähenevät, koska tiimien väliset riippuvuudet eivät ole hallinnassa",
+        "Ydinliiketoimintalogiikka toistuu eri kanavien ja tuotteiden välillä",
+        "Perintöintegraatiot tekevät uusien ominaisuuksien lanseerauksesta riskialttiita ja hitaita"
+      ],
+      "impactSignals": [
+        "Tiekartan läpimenokapasiteetti laskee, kun taas insinöörikulut kasvavat",
+        "Asiakaskohtaiset viat lisääntyvät julkaisujaksojen aikana",
+        "Päätöksenteko hidastuu epäjohdonmukaisen operatiivisen raportoinnin vuoksi"
+      ]
+    },
+    "approach": {
+      "overview": "Toteutamme arkkitehtuurilähtöisellä etsinnällä, sopimuslähtöisellä toimituksella ja kontrolloidulla julkaisusuunnittelulla, jotta liiketoiminnan arvo toimitetaan ennustettavissa olevina askelina.",
+      "pillars": [
+        {
+          "title": "Aluemallinnus ja rajoitetut kontekstit",
+          "detail": "Kartoitamme domainit palvelurajojen selkeyttämiseksi tiimien välisen kytkennän vähentämiseksi ja omistajuuden selkeyttämiseksi."
+        },
+        {
+          "title": "API-ensisijaisen integraatiostrategian",
+          "detail": "Määrittelemme vakaat sopimukset varhain, mahdollistaen rinnakkaisen kehityksen ja turvallisemman integraation yritysjärjestelmiin."
+        },
+        {
+          "title": "Progressiivisen toimituksen työnkulku",
+          "detail": "Käytämme ominaisuuslippuja, vaiheittaisia julkaisuja ja laatuportteja julkaistaksemme nopeasti ilman, että tuotanto horjuttuu."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Arkkitehtuuripäätöksemme asettavat etusijalle pitkäikäisyyden, toimivuuden ja selkeän omistajuuden, jotta alustat pysyvät sopeutuvina liiketoiminnan laajuuden kasvaessa.",
+      "items": [
+        {
+          "title": "Modulaariset palvelurajat",
+          "detail": "Kyvykkyydet on paketoitu liiketoiminta-alueiden ympärille, jotta muutosvaikutus pysyy paikallisena."
+        },
+        {
+          "title": "Tapahtumalähtöinen integraatio",
+          "detail": "Asynkronisia työnkulkuja käytetään viiveen sietokyvyn parantamiseksi ja järjestelmien irrottamiseksi."
+        },
+        {
+          "title": "Havaittavuus suunnittelun mukaan",
+          "detail": "Jäljitys, mittarit ja rakenteelliset lokit määritellään etukäteen tukemaan luotettavaa toimintaa ja SLA-hallintaa."
+        }
+      ]
+    },
+    "capabilities": [
+      "Mukautetut verkkosovellukset",
+      "Mobiilisovelluskehitys",
+      "API-kehitys ja integraatio",
+      "Mikropalveluiden arkkitehtuuri",
+      "Pilvipohjaiset ratkaisut",
+      "Perintöjärjestelmien modernisointi"
+    ],
+    "technologies": [
+      {
+        "name": "Reagoi",
+        "category": "Frontend",
+        "icon": "React"
+      },
+      {
+        "name": "Node.js",
+        "category": "Taustajärjestelmä",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Taustajärjestelmä",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Taustajärjestelmä",
+        "icon": "python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Kieli",
+        "icon": "Konekirjoitus"
+      },
+      {
+        "name": "GraphQL",
+        "category": "API",
+        "icon": "graphql"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Tietokanta",
+        "icon": "postgresql"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Tietokanta",
+        "icon": "mongoDB"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Löytö ja arkkitehtuuri",
+        "summary": "Kartoitamme liiketoiminnan prioriteetit, tekniset rajoitteet ja kohdearkkitehtuurin ennen toteutuksen aloittamista.",
+        "deliverables": [
+          "Tuote- ja vaatimusten yhdenmukaistamistyöpaja",
+          "Ratkaisuarkkitehtuurin pohjapiirros",
+          "Virstanpylväspohjainen toimitussuunnitelma"
+        ]
+      },
+      {
+        "title": "Rakentaminen ja integrointi",
+        "summary": "Tiimimme toteuttavat ydinominaisuudet, integraatiokerrokset ja laadunvarmistukset rinnakkain.",
+        "deliverables": [
+          "Ominaisuuksien kehitys iteratiivisissa sprinteissä",
+          "API- ja kolmannen osapuolen integraatiot",
+          "Automaattiset testaus- ja julkaisuvalmiustarkistukset"
+        ]
+      },
+      {
+        "title": "Lanseeraus ja kehitys",
+        "summary": "Käyttöönoton jälkeen vakauttavat toiminnot ja määrittelemme seuraavan parannussyklin todellisen käytön perusteella.",
+        "deliverables": [
+          "Tuotannon käyttöönotto",
+          "Suorituskyky- ja luotettavuusviritys",
+          "Julkaisun jälkeinen tiekartta ja parannusten backlog"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Oletko valmis rakentamaan seuraavan sovelluksesi?",
+      "description": "Suunnitellaan ja toimitetaan ratkaisu, joka tuottaa mitattavia liiketoimintatuloksia.",
+      "button": "Aloita projektisi"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "Tekoäly, koneoppiminen ja liiketoimintaäly",
+      "description": "Ennakoivista malleista johtajien hallintapaneeliin rakennamme kokonaisia AI/BI-järjestelmiä, jotka tukevat päätöksiä laajassa mittakaavassa."
+    },
+    "sections": {
+      "problem": {
+        "title": "Liiketoiminnan ongelman kehystys",
+        "subtitle": "Miksi datarikkaat organisaatiot edelleen kamppailevat tehdäkseen itsevarmoja päätöksiä"
+      },
+      "approach": {
+        "title": "Insinöörilähestymistapa",
+        "subtitle": "Miten operasionalisoimme datatuotteet, koneoppimismallit ja BI-työnkulut"
+      },
+      "principles": {
+        "title": "Arkkitehtuurin periaatteet",
+        "subtitle": "Data- ja malliarkkitehtuurin mallit luotettavaan päätöksentekoälyyn"
+      },
+      "capabilities": {
+        "title": "Kyvykkyytemme",
+        "subtitle": "Kattavat tekoäly-, koneoppimis- ja BI-ratkaisut"
+      },
+      "technology": {
+        "title": "Teknologiapino",
+        "subtitle": "Alan johtavat työkalut datalle ja tekoälylle"
+      },
+      "breakdown": {
+        "title": "Palvelun erittely",
+        "subtitle": "Miten siirrymme pirstaleisesta datasta tuotantotason älykkyyteen"
+      }
+    },
+    "problem": {
+      "overview": "Organisaatiot keräävät usein suuria määriä dataa, mutta eivät pysty muuttamaan sitä luotettavaksi ennustamiseksi, operatiivisiksi päätöksiksi tai mitattavaksi liiketoimintatoimiksi.",
+      "painPointsTitle": "Toistuva liiketoiminnan kipu",
+      "impactSignalsTitle": "Mitä johtajat yleensä havaitsevat",
+      "painPoints": [
+        "Raportointilogiikka vaihtelee joukkueittain, mikä johtaa ristiriitaisiin KPI-kertomuksiin",
+        "Mallit pysyvät kokeiluissa eivätkä koskaan saavuta tuotantotyönkulkuja",
+        "Datan laatuongelmat heikentävät luottamusta analytiikkaan ja johtajien hallintapaneeleihin"
+      ],
+      "impactSignals": [
+        "Päätössyklit hidastuvat, koska tiimit keskustelevat datan pätevyydestä toiminnan sijaan",
+        "Ennustamisen ja suunnittelun tarkkuus on vaihtelevaa neljännesvuosittaista toisensa jälkeen",
+        "Analytiikkainvestoinnit osoittavat alhaista käyttöönottoa erikoistuneiden analyytikkoryhmien ulkopuolella"
+      ]
+    },
+    "approach": {
+      "overview": "Toimitamme tekoäly- ja BI-alustoja tuotantojärjestelminä, yhdistäen data-insinööriin, mallin elinkaaren operaatioita ja päätöksenteon työnkulkujen integrointia.",
+      "pillars": [
+        {
+          "title": "Data Product Foundation",
+          "detail": "Toimialakohtaiset datatuotteet luovat uudelleenkäytettäviä, säädeltyjä ja korkealaatuisia syötteitä analytiikkaan ja koneoppimiseen."
+        },
+        {
+          "title": "MLOpsin elinkaaren automaatio",
+          "detail": "Koulutus, käyttöönotto, valvonta ja driftin hallinta automatisoidaan, jotta mallit pysyvät luotettavina tuotannossa."
+        },
+        {
+          "title": "Päätöksenteon työnkulun integrointi",
+          "detail": "Oivallukset on upotettu operatiivisiin työkaluihin ja hallintapaneeliin, joten tiimit toimivat päivittäisissä prosesseissa älykkyyden pohjalta."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "AI/BI-arkkitehtuurimme priorisoi luotettavaa dataa, selitettäviä malleja ja hallittuja pääsymalleja koko yrityksessä.",
+      "items": [
+        {
+          "title": "Yksittäisen metriikan määritelmät",
+          "detail": "Kriittiset KPI:t määritellään kerran jaettujen semanttisten mallien avulla ristiriitaisen raportointilogiikan poistamiseksi."
+        },
+        {
+          "title": "Mallin luotettavuuskontrollit",
+          "detail": "Suorituskykykynnysarvot, driftin havaitseminen ja palautusmekanismit suojaavat päätösten laatua tuotannossa."
+        },
+        {
+          "title": "Turvallisuus ja hallinto suunnittelun mukaan",
+          "detail": "Datan linjaus, roolipohjainen pääsy ja auditointivalmiit kontrollit ovat upotettuina jokaiseen putkistoon."
+        }
+      ]
+    },
+    "capabilities": [
+      "Koneoppimismallit ja putket",
+      "Power BI:n hallintapaneelit ja raportit",
+      "Ennakoiva analytiikka",
+      "Reaaliaikainen datan suoratoisto",
+      "Tietovarastoratkaisut"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Alusta",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Tietovarasto",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Data-insinöörityö",
+        "icon": "Databricks"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML-alusta",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "TensorFlow",
+        "category": "ML-kehys",
+        "icon": "tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "category": "ML-kehys",
+        "icon": "pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Analytiikka",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Apache Spark",
+        "category": "Käsittely",
+        "icon": "Apachespark"
+      },
+      {
+        "name": "SQL",
+        "category": "Kieli",
+        "icon": "postgresql"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Data Foundation",
+        "summary": "Tarkastamme lähteitä, määrittelemme datasopimuksia ja luomme hallinnan, jotta jokainen malli alkaa luotettavilla syötteillä.",
+        "deliverables": [
+          "Tietolähde ja laadunarviointi",
+          "Ominaisuuksien suunnittelu ja skeemasuunnittelu",
+          "Turvallisuus ja hallinto -perusta"
+        ]
+      },
+      {
+        "title": "Mallin ja oivalluksen toteutus",
+        "summary": "Rakennamme malleja ja päätösnäyttöjä, jotka liittyvät mitattaviin liiketoimintakysymyksiin ja KPI-mittareihin.",
+        "deliverables": [
+          "Mallin kehitys ja validointi",
+          "Johtajien hallintapaneelit ja operatiivinen raportointi",
+          "Päätöksenteon työnkulun integrointi"
+        ]
+      },
+      {
+        "title": "MLOps ja käyttöönotto",
+        "summary": "Toteutamme käyttöönoton, valvonnan ja tiimien mahdollistamisen, jotta tulokset pysyvät luotettavina ajan myötä.",
+        "deliverables": [
+          "Automatisoidut mallin käyttöönottoputket",
+          "Drift, tarkkuus ja käytön seuranta",
+          "Joukkueen siirto ja toimintamalli"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Muunna tietosi oivallukseksi",
+      "description": "Muuta pirstaleinen data selkeäksi, toiminnankelpoiseksi tiedusteluksi.",
+      "button": "Aloita matkasi"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Pilviarkkitehtuuri ja infrastruktuuri",
+      "description": "Monipilvialustat, kestävä arkkitehtuuri ja skaalautuva infrastruktuuri, joka on suunniteltu pitkäaikaiseen kasvuun."
+    },
+    "sections": {
+      "problem": {
+        "title": "Liiketoiminnan ongelman kehystys",
+        "subtitle": "Miksi pilvihankkeet pysähtyvät ensimmäisen siirtymäaallon jälkeen"
+      },
+      "approach": {
+        "title": "Insinöörilähestymistapa",
+        "subtitle": "Miten rakennamme turvallisia, skaalautuvia pilvialustoja, joissa on hallittu migraatioriski"
+      },
+      "principles": {
+        "title": "Arkkitehtuurin periaatteet",
+        "subtitle": "Alustapäätökset, jotka tasapainottavat ketteryyden, resilienssin ja hallinnon"
+      },
+      "capabilities": {
+        "title": "Pilvipalvelut",
+        "subtitle": "Rakenna, ota käyttöön ja skaalaa pilvessä"
+      },
+      "technology": {
+        "title": "Monipilvi-asiantuntemus",
+        "subtitle": "Alustariippumattomat pilviratkaisut"
+      },
+      "breakdown": {
+        "title": "Palvelun erittely",
+        "subtitle": "Selkeä sarja pilvialustojen suunnitteluun, siirrokseen ja operointiin"
+      }
+    },
+    "problem": {
+      "overview": "Monet organisaatiot suorittavat alkuperäiset pilvisiirtymät, mutta toimivat silti paikallisina tiimeinä, huonolla näkyvyydellä, epäjohdonmukaisilla kontrolleilla ja kasvavalla kulutuksella.",
+      "painPointsTitle": "Toistuva liiketoiminnan kipu",
+      "impactSignalsTitle": "Mitä johtajat yleensä havaitsevat",
+      "painPoints": [
+        "Työkuormat siirretään ilman standardoituja tietoturva- ja verkkovalvontajärjestelmiä",
+        "Pilvikustannukset kasvavat nopeammin kuin liiketoiminnan tuotettu arvo",
+        "Ympäristön luominen pysyy manuaalisena ja epäjohdonmukaisena tiimien välillä"
+      ],
+      "impactSignals": [
+        "Yleiset tapahtumat, jotka johtuvat konfiguraation siirtymisestä ympäristöjen välillä",
+        "Tarkastusvalmius heikkenee pirstoutuneiden hallintokäytäntöjen vuoksi",
+        "Infrastruktuurin toimitusajat viivästyttävät tuote- ja datahankkeita"
+      ]
+    },
+    "approach": {
+      "overview": "Suunnittelemme pilvialustat tuotteiksi, hyödyntäen infrastruktuuriautomaatiota, politiikkarajoituksia ja migraatioaaltoja, jotka on linjassa liiketoiminnan kriittisyyteen.",
+      "pillars": [
+        {
+          "title": "Laskeutumisalue koodina",
+          "detail": "Identiteetti-, verkot-, turvallisuus- ja politiikkaperusteet koodataan toistettavuuden ja auditoitavuuden varmistamiseksi."
+        },
+        {
+          "title": "Aaltopohjainen muuttostrategia",
+          "detail": "Työkuormat liikkuvat hallituissa vaiheissa, joissa on riippuvuustietoinen sekvensointi ja palautusvalmius."
+        },
+        {
+          "title": "SRE + FinOps-toimintasilmukka",
+          "detail": "Luotettavuusindikaattoreita ja yksikkötaloutta tarkastellaan yhdessä parantamaan sekä käyttöaikaa että kulutustehokkuutta."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Arkkitehtuurimallimme suosii deklaratiivista infrastruktuuria, vähiten etuoikeuksia ja yhdistetettäviä alustoja, jotka tukevat nopeaa tuotetoimitusta.",
+      "items": [
+        {
+          "title": "Muuttumattomat infrastruktuurimallit",
+          "detail": "Ympäristöt rakennetaan uudelleen versioidusta koodista driftin minimoimiseksi ja operatiivisen palautuksen yksinkertaistamiseksi."
+        },
+        {
+          "title": "Turvaperusta oletuksena",
+          "detail": "Nollaluottamuksen käyttöoikeuksien hallinta ja politiikkojen valvonta sisältyvät jokaiseen ympäristön elinkaareen."
+        },
+        {
+          "title": "Resilienssi jakautumisen kautta",
+          "detail": "Kriittiset työkuormat on suunniteltu monialueiseen tai monialueiseen vikaantumissietokykyyn, kun liiketoiminnan vaikutus sitä vaatii."
+        }
+      ]
+    },
+    "capabilities": [
+      "Monipilvistrategia ja toteutus",
+      "Konttien orkestrointi (Kubernetes)",
+      "Palvelimeton laskenta",
+      "Pilvimigraatiopalvelut",
+      "Korkean käytettävyyden arkkitehtuuri"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Pilvi",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "AWS",
+        "category": "Pilvi",
+        "icon": "AmazonWebServices"
+      },
+      {
+        "name": "GCP",
+        "category": "Pilvi",
+        "icon": "Googlecloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orkestrointi",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Docker",
+        "category": "Säiliöt",
+        "icon": "Docker"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "ARM-mallipohjat",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "CloudFormation",
+        "category": "IaC",
+        "icon": "AmazonWebServices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Arkkitehtuuri ja laskeutumisalue",
+        "summary": "Määrittelemme kohdetilan, kaiteet ja perustason alustastandardit ennen kuin työkuormat siirtyvät.",
+        "deliverables": [
+          "Target-pilviarkkitehtuurin suunnittelu",
+          "Identiteetti-, verkottumis- ja turvallisuuslähtökohdat",
+          "Kustannus- ja vaatimustenmukaisuuskaiteet"
+        ]
+      },
+      {
+        "title": "Migraatio ja alustan rakentaminen",
+        "summary": "Suoritamme migraatioaaltoja ja nostamme pilvipohjaiset alustakomponentit toistettavalla automaatiolla.",
+        "deliverables": [
+          "Työkuorman migraation sekvensointi",
+          "Kontti- ja palvelinvapaan alustan kokoonpano",
+          "Infrastruktuuri koodimoduuleina"
+        ]
+      },
+      {
+        "title": "Luotettavuus ja FinOps",
+        "summary": "Parannamme operatiivista luotettavuutta ja optimoimme jatkuvasti pilvikuluja reaaliaikaisen telemetrian perusteella.",
+        "deliverables": [
+          "SLO:t, valvonta ja tapahtumatyönkulut",
+          "Resilienssin ja katastrofipalautuksen validointi",
+          "Kustannusoptimoinnin backlog ja hallinnon rytmi"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Skaalaa infrastruktuurisi",
+      "description": "Rakenna pilvipohjat, jotka pysyvät kestävinä todellisen kuormituksen alla.",
+      "button": "Suunnittele pilvistrategiasi"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps ja alustatekniikka",
+      "description": "Automatisoidut toimitusputket, havaittavuus ja alustakäytännöt, jotka parantavat nopeutta tinkimättä luotettavuudesta."
+    },
+    "sections": {
+      "problem": {
+        "title": "Liiketoiminnan ongelman kehystys",
+        "subtitle": "Miksi toimitusnopeus laskee, kun alustan monimutkaisuus kasvaa"
+      },
+      "approach": {
+        "title": "Insinöörilähestymistapa",
+        "subtitle": "Miten standardoimme toimitusputket hidastamatta tuotetiimejä"
+      },
+      "principles": {
+        "title": "Arkkitehtuurin periaatteet",
+        "subtitle": "Alustan suunnittelumallit, jotka skaalaavat luotettavuutta ja tiimien autonomiaa"
+      },
+      "capabilities": {
+        "title": "DevOps-palvelut",
+        "subtitle": "Automatisoi, seuraa ja optimoi toimitusketjusi"
+      },
+      "technology": {
+        "title": "DevOps-työkalut ja alustat",
+        "subtitle": "Luokkansa paras DevOps-työkaluketju"
+      },
+      "breakdown": {
+        "title": "Palvelun erittely",
+        "subtitle": "Käytännöllinen tiekartta toimituspullonkauloista korkean luottamuksen vapautusvirtaan"
+      }
+    },
+    "problem": {
+      "overview": "Organisaatiot investoivat usein CI/CD-työkaluihin, mutta kamppailevat edelleen epävakaiden julkaisujen, hitaiden hyväksyntöjen ja pirstoutuneen omistajuuden kanssa eri ympäristöissä.",
+      "painPointsTitle": "Toistuva liiketoiminnan kipu",
+      "impactSignalsTitle": "Mitä johtajat yleensä havaitsevat",
+      "painPoints": [
+        "Putkistomääritelmät vaihtelevat joukkueittain, mikä luo epäjohdonmukaisia laatuportteja",
+        "Manuaaliset käyttöönoton hyväksynnät viivästyttävät hotfix- ja ominaisuuksien julkaisuaikataulut",
+        "Operatiiviset tapahtumat toistuvat, koska telemetria on puutteellista tai eriytynyttä"
+      ],
+      "impactSignals": [
+        "Muutosten toimitusaika kasvaa jatkuvasti, vaikka automaatioon kulutetaan",
+        "Muutoksen vikaantumisprosentti nousee piikkiin suurten toimituskausien aikana",
+        "Kehittäjien tuottavuus heikkenee työkalujen kitkan ja kontekstin vaihdon vuoksi"
+      ]
+    },
+    "approach": {
+      "overview": "Perustamme sisäisen kehittäjäalustamallin, jossa on uudelleenkäytettäviä putkipohjia, politiikkalähtöinen hallinto ja täysi elinkaaren havaittavuus.",
+      "pillars": [
+        {
+          "title": "Golden Path -putkimallipohjat",
+          "detail": "Uudelleenkäytettävät CI/CD-piirustukset standardoivat rakennus-, testaus-, tietoturvatarkistukset ja käyttöönoton työnkulut."
+        },
+        {
+          "title": "Alustan API ja itsepalvelu",
+          "detail": "Tiimit tarjoavat ympäristöjä ja julkaisuinfrastruktuuria hallittujen itsepalvelurajapintojen kautta."
+        },
+        {
+          "title": "Luotettavuuspalautesilmukat",
+          "detail": "Tapahtumatrendit, SLO:n terveys ja käyttöönoton telemetria ohjaavat jatkuvia prosessi- ja arkkitehtuurin parannuksia."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "DevOps-arkkitehtuurimme yhdistää toimitusnopeuden hallintaan automatisoimalla kontrollit ja minimoimalla kertaluonteisen operatiivisen työn.",
+      "items": [
+        {
+          "title": "Kaikki versioituna koodina",
+          "detail": "Putkistoja, infrastruktuuria ja politiikkasääntöjä hallitaan lähdekoodin hallinnassa auditoitavuuden ja toistettavuuden varmistamiseksi."
+        },
+        {
+          "title": "Progressiivinen verifiointi",
+          "detail": "Laatu-, turvallisuus- ja suorituskyvyn tarkistukset on kerrostettu vaiheiden välillä, jotta riskit havaitaan aikaisemmin."
+        },
+        {
+          "title": "Jaettu alustavastuu",
+          "detail": "Alustatiimit tarjoavat päällystettyjä ominaisuuksia, kun taas tuotetiimit säilyttävät toimitusten omistajuuden."
+        }
+      ]
+    },
+    "capabilities": [
+      "CI/CD-putkistosuunnittelu",
+      "Infrastruktuuri koodina",
+      "Automaattinen testaus",
+      "Käyttöönoton automaatio",
+      "Seuranta ja havaittavuus"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Alusta",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "GitHub-toiminnot",
+        "category": "CI/CD",
+        "icon": "githubactions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Ohjaus",
+        "category": "Pakkaus",
+        "icon": "Ohjaus"
+      },
+      {
+        "name": "Ansible",
+        "category": "Automaatio",
+        "icon": "ansible"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Seuranta",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grafana",
+        "category": "Havaittavuus",
+        "icon": "grafana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Alustan arviointi",
+        "summary": "Arvioimme nykyisen ohjelmiston toimitusketjusi tunnistaaksemme riskipisteet ja nopeusrajoitteet.",
+        "deliverables": [
+          "Nykyisen tilan toimitustyönkulun kartta",
+          "Putkiston pullonkaulan analyysi",
+          "Kohteena oleva DevOps-kypsyystiekartta"
+        ]
+      },
+      {
+        "title": "Putkiston ja automaation rakentaminen",
+        "summary": "Toteutamme luotettavan CI/CD:n, laadukkaat portit ja infrastruktuuriautomaation johdonmukaisia julkaisuja varten.",
+        "deliverables": [
+          "Uudelleenkäytettävät CI/CD-mallipohjat",
+          "Infrastruktuurin ja ympäristön automaatio",
+          "Automatisoidut testaus- ja julkaisukontrollit"
+        ]
+      },
+      {
+        "title": "Toimi ja paranna",
+        "summary": "Luomme havaittavuuden ja hallinnon silmukoita, jotka tukevat jatkuvaa toimituksen parantamista.",
+        "deliverables": [
+          "Valvontapaneelit ja hälytyskäytännöt",
+          "Julkaisun hallinta ja tapahtumakirjat",
+          "Jatkuvan parantamisen mittarit ja arvostelut"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Nopeuta toimitustasi",
+      "description": "Vähennä vapautuksen kitkaa ja paranna luotettavuutta kypsillä DevOps-käytännöillä.",
+      "button": "Muunna putkistosi"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Digitaalinen muutos ja strategia",
+      "description": "Strateginen neuvonta- ja toteutustuki alustojen, tiimien ja toimintamallien modernisoimiseksi."
+    },
+    "sections": {
+      "problem": {
+        "title": "Liiketoiminnan ongelman kehystys",
+        "subtitle": "Missä muutosohjelmat menettävät vauhtinsa ja johtajien luottamuksensa"
+      },
+      "capabilities": {
+        "title": "Konsultointipalvelut",
+        "subtitle": "Strateginen ohjaus digitaaliseen menestykseen"
+      },
+      "approach": {
+        "title": "Insinöörilähestymistapa",
+        "subtitle": "Miten muutamme strategian toteutettavaksi, teknologiaan perustuvaksi muutokseksi"
+      },
+      "principles": {
+        "title": "Arkkitehtuurin periaatteet",
+        "subtitle": "Toimintamallin ja alustan valinnat, jotka suojaavat muutosten tuloksia"
+      },
+      "technology": {
+        "title": "Technology Stack",
+        "subtitle": "Alustat ja viitekehykset, joita käytämme muutoksen operationalisoimiseen"
+      },
+      "breakdown": {
+        "title": "Palvelun erittely",
+        "subtitle": "Rakenteellinen muutos strategian määrittelystä mitattavaan liiketoiminta-arvoon"
+      }
+    },
+    "problem": {
+      "overview": "Digitaaliset aloitteet alkavat usein vahvalla aikomuksella, mutta eivät toteutu toimitustuloksissa epäselvän omistajuuden, erillisten työkalujen ja kilpailevien prioriteettien vuoksi.",
+      "painPointsTitle": "Toistuva liiketoiminnan kipu",
+      "impactSignalsTitle": "Mitä johtajat yleensä havaitsevat",
+      "painPoints": [
+        "Muutoksen tiekartat on määritelty, mutta niitä ei käännetä toteutuksen hallintaan",
+        "Liiketoiminnan ja insinöörien painopisteet eroavat toisistaan alkuvaiheen suunnittelusyklien jälkeen",
+        "Perinnölliset toimintamallit estävät nykyaikaisten tuotetoimituskäytäntöjen omaksumisen"
+      ],
+      "impactSignals": [
+        "Ohjelmamenot kasvavat, kun taas strateginen KPI-liike pysyy ennallaan",
+        "Aloitteet ohittavat siirtymäpisteet strategian, arkkitehtuurin ja toteutuksen välillä",
+        "Tiimit kokevat muutosväsymystä, kun liiketoiminta-arvo on rajallista"
+      ]
+    },
+    "approach": {
+      "overview": "Yhdistämme strategisen neuvonnan toimitusarkkitehtuuriin, sovittaen toimintamallin suunnittelun, alustan kyvykkyyden ja toteutusrytmin mitattavien tavoitteiden ympärille.",
+      "pillars": [
+        {
+          "title": "Arvovirran priorisointi",
+          "detail": "Järjestämme aloitteet mitattavien liiketoimintavaikutusten ja teknisten riippuvuusrajoitteiden perusteella."
+        },
+        {
+          "title": "Kohdetoimintamallin suunnittelu",
+          "detail": "Roolit, hallinto ja päätöksenteko-oikeudet on määritelty tukemaan nopeampaa toteutusta liiketoiminta- ja teknologiatiimien välillä."
+        },
+        {
+          "title": "Salkunhoidon hallinta",
+          "detail": "Muutoksen etenemistä hallinnoidaan KPI-linkitettyjen tarkistuspisteiden ja salkkutason riskienhallintajärjestelmien avulla."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Muutosarkkitehtuurimme korostaa asteittaista modernisointia ja selkeää vastuullisuutta, välttäen häiritsevät uudelleenkirjoitukset ilman liiketoiminnan perusteita.",
+      "items": [
+        {
+          "title": "Liiketoimintakyvykkyyden linjaus",
+          "detail": "Teknologian muutokset järjestetään kyvykkyyksien ympärille, jotka vastaavat suoraan liikevaihtoa, palvelun laatua tai kustannustehokkuutta."
+        },
+        {
+          "title": "Yhdistettävän alustan strategia",
+          "detail": "Alustakomponentit valitaan yhteentoimivuuden vuoksi tukemaan vaiheittaista siirtymistä ja nopeampaa sopeutumista."
+        },
+        {
+          "title": "Hallinto ja toimitusrytmi",
+          "detail": "Päätösfoorumit ja kontrollipisteet ovat sisäänrakennettuja sprintti- ja neljännesvuosittaisissa sykleissä, eivätkä niitä käsitellä erillisinä byrokraattisina polkuina."
+        }
+      ]
+    },
+    "capabilities": [
+      "Digitaalisen muutoksen tiekartat",
+      "Teknologiastrategian kehittäminen",
+      "Pilvipalveluiden käyttöönoton kehykset",
+      "Prosessien optimointi",
+      "Muutosjohtaminen"
+    ],
+    "technologies": [
+      {
+        "name": "Azure-laskeutumisalue",
+        "category": "Cloud Foundation",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Data-alusta",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Päätöksentekoäly",
+        "icon": "Powerbi"
+      },
+      {
+        "name": "Power Platform",
+        "category": "Low-Code",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Yhteistyö",
+        "icon": "MicrosoftSharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strategian linjaus",
+        "summary": "Sovitamme johtajuuden prioriteetit ja digitaaliset tavoitteet yhteen luodaksemme yhteisen muutoksen suunnan.",
+        "deliverables": [
+          "Muutostavoitteet ja onnistumiskriteerit",
+          "Kyvykkyyden kypsyys ja aukon arviointi",
+          "Priorisoitu aloiteportfolio"
+        ]
+      },
+      {
+        "title": "Toteutussuunnitelma",
+        "summary": "Määrittelemme kohdetoimintamallin, arkkitehtuuristandardit ja vaiheittaisen toteutusjärjestyksen.",
+        "deliverables": [
+          "Toimintamalli ja hallintosuunnittelu",
+          "Teknologian ja prosessiarkkitehtuurin standardit",
+          "Vaiheittaisen toteutuksen tiekartta"
+        ]
+      },
+      {
+        "title": "Muutos ja arvon realisointi",
+        "summary": "Edistämme käyttöönottoa, seuraamme KPI:n liikkeitä ja hiomme aloitteita toimitustulosten perusteella.",
+        "deliverables": [
+          "Adoptio- ja tukisuunnitelma",
+          "KPI-mittausrytmi",
+          "Neljännesvuosittainen optimointivarasto"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Aloita muutosmatkasi",
+      "description": "Navigoi muutosta selkein prioriteetein ja käytännön toteutussuunnitelmin.",
+      "button": "Aikataulustrategiaistunto"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT ja reunalaskenta",
+      "description": "Yhdistetyt järjestelmät laitteesta pilveen, telemetriaputket ja reunaälykkyys teollisessa mittakaavassa."
+    },
+    "sections": {
+      "problem": {
+        "title": "Liiketoiminnan ongelman kehystys",
+        "subtitle": "Miksi yhdistetyt laiteohjelmat eivät skaalaudu pilottikäyttöönottoa pidemmälle kuin"
+      },
+      "approach": {
+        "title": "Insinöörilähestymistapa",
+        "subtitle": "Miten suunnittelemme turvallisia, toimivia IoT-järjestelmiä laiteohjelmistosta pilvirajapintoihin"
+      },
+      "principles": {
+        "title": "Arkkitehtuurin periaatteet",
+        "subtitle": "Edge-to-cloud -suunnittelusäännöt luotettavuuden, viiveen ja kaluston hallinnan osalta"
+      },
+      "capabilities": {
+        "title": "IoT-ratkaisut",
+        "subtitle": "Yhdistä, valvo ja optimoi laitteesi"
+      },
+      "technology": {
+        "title": "IoT-teknologiapino",
+        "subtitle": "Laitteistosta pilveen"
+      },
+      "breakdown": {
+        "title": "Palvelun erittely",
+        "subtitle": "Miten toimitamme yhdistetyt järjestelmät reunalaitteista pilvitietoon"
+      }
+    },
+    "problem": {
+      "overview": "IoT-aloitteet osoittautuvat usein teknisesti toteutettaviksi piloteissa, mutta epäonnistuvat laajassa mittakaavassa epäluotettavien yhteyksien, heikkojen kaluston hallintajärjestelmien ja huonon integraation vuoksi liiketoiminnan työnkulkuihin.",
+      "painPointsTitle": "Toistuva liiketoiminnan kipu",
+      "impactSignalsTitle": "Mitä johtajat yleensä havaitsevat",
+      "painPoints": [
+        "Laitteen käyttöönotto ja elinkaaren hallinta pysyvät manuaalisina ja virhealttiina",
+        "Telemetriaputket tuottavat kohinaa, puutteellista tai viivästynyttä toimintadataa",
+        "Etäkomento- ja laiteohjelmistopäivitykset tuovat turvallisuus- ja suojausriskejä"
+      ],
+      "impactSignals": [
+        "Pilottiympäristöt onnistuvat, mutta tuotannon julkaisuaikataulut liukuvat toistuvasti",
+        "Kenttäoperaatiotiimit reagoivat tapauksiin ilman ennakoivaa näkyvyyttä",
+        "Liiketoimintajärjestelmät eivät voi käyttää laiteälyä luotettavasti reaaliajassa"
+      ]
+    },
+    "approach": {
+      "overview": "Suunnittelemme IoT-alustat hallituiksi hajautetuiksi järjestelmiksi, jotka yhdistävät turvalliset reunan ajonaikaiset standardit, tapahtumalähtöisen vastaanoton ja operatiivisen hallinnan kaluston mittakaavassa.",
+      "pillars": [
+        {
+          "title": "Turvallisen laitteen elinkaaren hallinta",
+          "detail": "Provisiointi, identiteetti, avainten kierto ja laiteohjelmistopäivitykset automatisoidaan operatiivisen riskin vähentämiseksi."
+        },
+        {
+          "title": "Tapahtumapohjainen telemetria-arkkitehtuuri",
+          "detail": "Suoratoistoputket normalisoivat, validoivat ja reitittävät laitetapahtumia analytiikkaa ja ohjausta varten lähes reaaliajassa."
+        },
+        {
+          "title": "Laivaston operaatioiden ohjauskone",
+          "detail": "Valvonta-, hälytys- ja etäkomentotyönkulut tarjoavat luotettavan valvonnan hajautetuissa resursseissa."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "IoT-arkkitehtuurimme tasapainottaa matalan viiveen reunapäätökset keskitetyn hallinnan, havainnoinnin ja tietoturvavaatimustenmukaisuuden kanssa.",
+      "items": [
+        {
+          "title": "Reunojen autonomia pilvikoordinoinnin avulla",
+          "detail": "Kriittiset paikalliset toiminnot jatkuvat verkon heikkenemisen aikana ja synkronoivat tilan pilvijärjestelmiin, kun niitä on saatavilla."
+        },
+        {
+          "title": "Sopimuspohjaiset tapahtumaskeemat",
+          "detail": "Laite- ja alustatiimit käyttävät säädeltyjä skeemoja säilyttääkseen telemetrian johdonmukaisuuden eri versioiden välillä."
+        },
+        {
+          "title": "Nollaluottamuksen laitteiden turvallisuus",
+          "detail": "Molemminpuolinen tunnistautuminen, vähiten oikeuksien käyttö ja salattu siirto ovat pakotettuja jokaisessa laitevuorovaikutuksessa."
+        }
+      ]
+    },
+    "capabilities": [
+      "IoT-laitteiden hallinta",
+      "Digitaaliset kaksoisratkaisut",
+      "Reunalaskennan käyttöönotto",
+      "Reaaliaikainen telemetria",
+      "Ennakoiva ylläpito"
+    ],
+    "technologies": [
+      {
+        "name": "IoT-keskus",
+        "category": "Cloud Gateway",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Digitaaliset kaksoset",
+        "category": "Simulointi",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Reunalaskenta",
+        "category": "Reuna",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protokolla",
+        "icon": "MQTT"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protokolla",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Laitteisto",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Laitteisto",
+        "icon": "raspberrypi"
+      },
+      {
+        "name": "InfluxDB",
+        "category": "Aikasarja DB",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Laite- ja reunastrategia",
+        "summary": "Määrittelemme yhteyskuviot, reunan ajonaikaiset standardit ja turvallisen provisionoinnin kenttälaitteille.",
+        "deliverables": [
+          "Laitteen käyttöönotto ja yhteysmalli",
+          "Reunan ajonaika- ja käyttöönottosuunnitelma",
+          "Kaluston turvallisuuslähtökohta"
+        ]
+      },
+      {
+        "title": "Telemetria ja ohjaustaso",
+        "summary": "Rakennamme putkia, jotka tallentavat tapahtumia, mallintavat digitaalisia kaksosia ja mahdollistavat etäohjaustyönkulut.",
+        "deliverables": [
+          "Reaaliaikainen vastaanotto ja tapahtumaskeeman suunnittelu",
+          "Digitaalisen kaksois- ja omaisuusmallin toteutus",
+          "Komento- ja ohjaus-API-kerros"
+        ]
+      },
+      {
+        "title": "Toiminta ja mittakaava",
+        "summary": "Operationalisoimme kaluston hallinnan ja luotettavuuskontrollit tuotantomittakaavan IoT-ympäristöissä.",
+        "deliverables": [
+          "Laitekaluston valvonta ja hälytys",
+          "Ennakoiva ylläpito ja poikkeavuuksien havaitseminen",
+          "Käyttöönotto ja elinkaaren tukisuunnitelma"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Yhdistä laitteesi",
+      "description": "Rakenna luotettavia IoT-ratkaisuja, jotka ovat valmiita todellisiin tuotantoympäristöihin.",
+      "button": "Aloita IoT-projektisi"
+    }
+  }
+}

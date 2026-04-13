@@ -1,0 +1,991 @@
+{
+  "common": {
+    "ctaPrimary": "Memulai",
+    "ctaSecondary": "Jadwalkan Konsultasi"
+  },
+  "enterprise": {
+    "hero": {
+      "title": "Pengembangan Perangkat Lunak Perusahaan",
+      "description": "Aplikasi perusahaan end-to-end dengan kerangka kerja modern, arsitektur API-first, dan skalabilitas cloud-native."
+    },
+    "sections": {
+      "problem": {
+        "title": "Pembingkaian Masalah Bisnis",
+        "subtitle": "Di mana program perusahaan kehilangan kecepatan, anggaran, dan keselarasan strategis"
+      },
+      "approach": {
+        "title": "Pendekatan Rekayasa",
+        "subtitle": "Bagaimana kami mengubah persyaratan ambigu menjadi platform siap produksi"
+      },
+      "principles": {
+        "title": "Prinsip Arsitektur",
+        "subtitle": "Merancang keputusan yang menjaga sistem perusahaan tetap dapat dipelihara dalam skala besar"
+      },
+      "capabilities": {
+        "title": "Apa yang Kami Bangun",
+        "subtitle": "Kemampuan pengembangan perangkat lunak yang komprehensif"
+      },
+      "technology": {
+        "title": "Tumpukan Teknologi Kami",
+        "subtitle": "Teknologi modern dan terbukti untuk pengiriman perusahaan"
+      },
+      "breakdown": {
+        "title": "Kerusakan Layanan",
+        "subtitle": "Jalur terstruktur dari penemuan ke pengiriman produksi yang stabil"
+      }
+    },
+    "problem": {
+      "overview": "Tim perusahaan sering kali membawa alur kerja penting pada sistem yang terfragmentasi, menciptakan waktu tunggu yang lama, data yang tidak konsisten, dan koordinasi manual yang mahal antar departemen.",
+      "painPointsTitle": "Nyeri Bisnis Berulang",
+      "impactSignalsTitle": "Apa yang Biasanya Amati Pemimpin",
+      "painPoints": [
+        "Komitmen pengiriman tergelincir karena dependensi di seluruh tim tidak dikelola",
+        "Logika bisnis inti diduplikasi di seluruh saluran dan produk",
+        "Integrasi lama membuat peluncuran fitur baru berisiko tinggi dan lambat"
+      ],
+      "impactSignals": [
+        "Throughput peta jalan turun saat pengeluaran teknik meningkat",
+        "Cacat yang dihadapi pelanggan meningkat selama periode rilis",
+        "Pengambilan keputusan melambat karena pelaporan operasional yang tidak konsisten"
+      ]
+    },
+    "approach": {
+      "overview": "Kami mengeksekusi dengan penemuan yang mengutamakan arsitektur, pengiriman berbasis kontrak, dan rekayasa rilis terkontrol sehingga nilai bisnis dikirimkan dalam peningkatan yang dapat diprediksi.",
+      "pillars": [
+        {
+          "title": "Pemodelan Domain & Konteks Terbatas",
+          "detail": "Kami memetakan domain untuk menghapus batas layanan guna mengurangi kopling lintas tim dan memperjelas kepemilikan."
+        },
+        {
+          "title": "Strategi Integrasi API-First",
+          "detail": "Kami menentukan kontrak yang stabil sejak dini, memungkinkan pengembangan paralel dan integrasi yang lebih aman dengan sistem perusahaan."
+        },
+        {
+          "title": "Alur Kerja Pengiriman Progresif",
+          "detail": "Kami menggunakan bendera fitur, peluncuran bertahap, dan gerbang berkualitas untuk dirilis dengan cepat tanpa mengganggu stabilitas produksi."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Keputusan arsitektur kami memprioritaskan umur panjang, pengoperasian, dan kepemilikan yang jelas sehingga platform tetap dapat beradaptasi seiring dengan pertumbuhan ruang lingkup bisnis.",
+      "items": [
+        {
+          "title": "Batas Layanan Modular",
+          "detail": "Kemampuan dikemas di sekitar domain bisnis untuk menjaga dampak perubahan tetap terlokal."
+        },
+        {
+          "title": "Integrasi Berbasis Peristiwa",
+          "detail": "Alur kerja asinkron digunakan di mana toleransi latensi ada untuk meningkatkan ketahanan dan memisahkan sistem."
+        },
+        {
+          "title": "Observabilitas berdasarkan Desain",
+          "detail": "Pelacakan, metrik, dan log terstruktur ditentukan di muka untuk mendukung operasi yang andal dan tata kelola SLA."
+        }
+      ]
+    },
+    "capabilities": [
+      "Aplikasi Web Kustom",
+      "Pengembangan Aplikasi Seluler",
+      "Pengembangan & Integrasi API",
+      "Arsitektur Layanan Mikro",
+      "Solusi Cloud-Native",
+      "Modernisasi Sistem Lama"
+    ],
+    "technologies": [
+      {
+        "name": "Bereaksi",
+        "category": "Bagian depan",
+        "icon": "bereaksi"
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "icon": "nodedotjs"
+      },
+      {
+        "name": ".NET",
+        "category": "Backend",
+        "icon": "dotnet"
+      },
+      {
+        "name": "Python",
+        "category": "Backend",
+        "icon": "Python"
+      },
+      {
+        "name": "TypeScript",
+        "category": "Bahasa",
+        "icon": "Skrip ketik"
+      },
+      {
+        "name": "GrafikQL",
+        "category": "API",
+        "icon": "GrafQL"
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "Basis data",
+        "icon": "PostgreSQL"
+      },
+      {
+        "name": "MongoDB",
+        "category": "Basis data",
+        "icon": "Mongodb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Penemuan & Arsitektur",
+        "summary": "Kami memetakan prioritas bisnis, kendala teknis, dan arsitektur target sebelum implementasi dimulai.",
+        "deliverables": [
+          "Bengkel penyelarasan produk dan persyaratan",
+          "Cetak biru arsitektur solusi",
+          "Rencana pengiriman berbasis pencapaian"
+        ]
+      },
+      {
+        "title": "Membangun & Integrasi",
+        "summary": "Tim kami menerapkan fitur inti, lapisan integrasi, dan perlindungan kualitas secara paralel.",
+        "deliverables": [
+          "Pengembangan fitur dalam sprint berulang",
+          "API dan integrasi pihak ketiga",
+          "Pengujian otomatis dan pemeriksaan kesiapan rilis"
+        ]
+      },
+      {
+        "title": "Peluncuran & Evolusi",
+        "summary": "Setelah peluncuran, kami menstabilkan operasi dan menentukan siklus peningkatan berikutnya berdasarkan penggunaan nyata.",
+        "deliverables": [
+          "Runbook peluncuran produksi",
+          "Penyetelan kinerja dan keandalan",
+          "Peta jalan pasca-peluncuran dan backlog penyempurnaan"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Siap untuk Membangun Aplikasi Anda Berikutnya?",
+      "description": "Mari rancang dan kirimkan solusi yang mendorong hasil bisnis yang terukur.",
+      "button": "Mulai Proyek Anda"
+    }
+  },
+  "aiml": {
+    "hero": {
+      "title": "AI, ML & Intelijen Bisnis",
+      "description": "Dari model prediktif hingga dasbor eksekutif, kami membangun sistem AI/BI lengkap yang mendukung keputusan dalam skala besar."
+    },
+    "sections": {
+      "problem": {
+        "title": "Pembingkaian Masalah Bisnis",
+        "subtitle": "Mengapa organisasi kaya data masih kesulitan membuat keputusan yang percaya diri"
+      },
+      "approach": {
+        "title": "Pendekatan Rekayasa",
+        "subtitle": "Cara kami mengoperasionalkan produk data, model ML, dan alur kerja BI"
+      },
+      "principles": {
+        "title": "Prinsip Arsitektur",
+        "subtitle": "Pola arsitektur data dan model untuk kecerdasan keputusan yang dapat dipercaya"
+      },
+      "capabilities": {
+        "title": "Kemampuan Kami",
+        "subtitle": "Solusi AI, ML, dan BI yang komprehensif"
+      },
+      "technology": {
+        "title": "Tumpukan Teknologi Kami",
+        "subtitle": "Alat terdepan di industri untuk data dan AI"
+      },
+      "breakdown": {
+        "title": "Kerusakan Layanan",
+        "subtitle": "Bagaimana kita beralih dari data terfragmentasi ke kecerdasan tingkat produksi"
+      }
+    },
+    "problem": {
+      "overview": "Organisasi sering mengumpulkan data dalam jumlah besar tetapi gagal menerjemahkannya ke dalam perkiraan yang andal, keputusan operasional, atau tindakan bisnis yang terukur.",
+      "painPointsTitle": "Nyeri Bisnis Berulang",
+      "impactSignalsTitle": "Apa yang Biasanya Amati Pemimpin",
+      "painPoints": [
+        "Logika pelaporan berbeda di seluruh tim, menghasilkan narasi KPI yang bertentangan",
+        "Model tetap dalam eksperimen dan tidak pernah mencapai alur kerja produksi",
+        "Masalah kualitas data merusak kepercayaan pada analitik dan dasbor eksekutif"
+      ],
+      "impactSignals": [
+        "Siklus keputusan lambat karena tim memperdebatkan validitas data alih-alih tindakan",
+        "Akurasi perkiraan dan perencanaan tetap tidak konsisten dari kuartal ke kuartal",
+        "Investasi analitik menunjukkan adopsi yang rendah di luar grup analis khusus"
+      ]
+    },
+    "approach": {
+      "overview": "Kami menghadirkan platform AI dan BI sebagai sistem produksi, rekayasa data kopling, operasi siklus hidup model, dan integrasi alur kerja keputusan.",
+      "pillars": [
+        {
+          "title": "Fondasi Produk Data",
+          "detail": "Produk data yang selaras dengan domain membuat input yang dapat digunakan kembali, diatur, dan berkualitas tinggi untuk analitik dan ML."
+        },
+        {
+          "title": "Otomatisasi Siklus Hidup MLOps",
+          "detail": "Pelatihan, penerapan, pemantauan, dan kontrol penyimpangan diotomatisasi untuk menjaga model tetap andal dalam produksi."
+        },
+        {
+          "title": "Integrasi Alur Kerja Keputusan",
+          "detail": "Wawasan disematkan ke dalam alat operasional dan dasbor sehingga tim bertindak berdasarkan kecerdasan dalam proses sehari-hari."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Arsitektur AI/BI kami memprioritaskan data yang dapat dipercaya, model yang dapat dijelaskan, dan pola akses yang diatur di seluruh perusahaan.",
+      "items": [
+        {
+          "title": "Definisi Metrik Tunggal",
+          "detail": "KPI penting ditentukan sekali melalui model semantik bersama untuk menghilangkan logika pelaporan yang bertentangan."
+        },
+        {
+          "title": "Kontrol Keandalan Model",
+          "detail": "Ambang batas performa, deteksi penyimpangan, dan mekanisme pengembalian melindungi kualitas keputusan dalam produksi."
+        },
+        {
+          "title": "Keamanan & Tata Kelola berdasarkan Desain",
+          "detail": "Silsilah data, akses berbasis peran, dan kontrol siap audit disematkan di setiap alur."
+        }
+      ]
+    },
+    "capabilities": [
+      "Model & Pipeline Pembelajaran Mesin",
+      "Dasbor & Laporan Power BI",
+      "Analisis Prediktif",
+      "Real-Time Data Streaming",
+      "Solusi Pergudangan Data"
+    ],
+    "technologies": [
+      {
+        "name": "Microsoft Fabric",
+        "category": "Platform",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "BI",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Azure Synapse",
+        "category": "Gudang Data",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Databricks",
+        "category": "Rekayasa Data",
+        "icon": "Batu bata data"
+      },
+      {
+        "name": "Azure ML",
+        "category": "ML Platform",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Aliran TensorTensorAliran",
+        "category": "Kerangka Kerja ML",
+        "icon": "Aliran tensor"
+      },
+      {
+        "name": "PyTorch",
+        "category": "Kerangka Kerja ML",
+        "icon": "Obor Pytorch"
+      },
+      {
+        "name": "Tableau",
+        "category": "Analisis",
+        "icon": "Tableau"
+      },
+      {
+        "name": "Percikan Apache",
+        "category": "Pemrosesan",
+        "icon": "Taman Apaches"
+      },
+      {
+        "name": "SQL",
+        "category": "Bahasa",
+        "icon": "PostgreSQL"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Yayasan Data",
+        "summary": "Kami mengaudit sumber, menentukan kontrak data, dan menetapkan tata kelola sehingga setiap model dimulai dengan input tepercaya.",
+        "deliverables": [
+          "Sumber data dan penilaian kualitas",
+          "Rekayasa fitur dan perencanaan skema",
+          "Garis besar keamanan dan tata kelola"
+        ]
+      },
+      {
+        "title": "Pengiriman Model & Wawasan",
+        "summary": "Kami membangun model dan dasbor keputusan yang terkait dengan pertanyaan bisnis dan KPI yang terukur.",
+        "deliverables": [
+          "Pengembangan dan validasi model",
+          "Dasbor eksekutif dan pelaporan operasional",
+          "Integrasi alur kerja keputusan"
+        ]
+      },
+      {
+        "title": "MLOps & Adopsi",
+        "summary": "Kami mengoperasionalkan penerapan, pemantauan, dan pemberdayaan tim untuk menjaga hasil tetap andal dari waktu ke waktu.",
+        "deliverables": [
+          "Alur penyebaran model otomatis",
+          "Pemantauan penyimpangan, akurasi, dan penggunaan",
+          "Penyerahan tim dan buku pedoman pengoperasian"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Ubah Data Anda menjadi Wawasan",
+      "description": "Ubah data yang terfragmentasi menjadi kecerdasan yang jelas dan dapat ditindaklanjuti.",
+      "button": "Mulailah Perjalanan Anda"
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Arsitektur & Infrastruktur Cloud",
+      "description": "Platform multi-cloud, arsitektur tangguh, dan infrastruktur yang dapat diskalakan yang dirancang untuk pertumbuhan jangka panjang."
+    },
+    "sections": {
+      "problem": {
+        "title": "Pembingkaian Masalah Bisnis",
+        "subtitle": "Mengapa inisiatif cloud terhenti setelah gelombang migrasi pertama"
+      },
+      "approach": {
+        "title": "Pendekatan Rekayasa",
+        "subtitle": "Cara kami membangun platform cloud yang aman dan dapat diskalakan dengan risiko migrasi terkendali"
+      },
+      "principles": {
+        "title": "Prinsip Arsitektur",
+        "subtitle": "Keputusan platform yang menyeimbangkan kelincahan, ketahanan, dan tata kelola"
+      },
+      "capabilities": {
+        "title": "Layanan Cloud",
+        "subtitle": "Membangun, menyebarkan, dan menskalakan di cloud"
+      },
+      "technology": {
+        "title": "Keahlian Multi-Cloud",
+        "subtitle": "Solusi cloud platform-agnostik"
+      },
+      "breakdown": {
+        "title": "Kerusakan Layanan",
+        "subtitle": "Urutan yang jelas untuk merancang, memigrasikan, dan mengoperasikan platform cloud"
+      }
+    },
+    "problem": {
+      "overview": "Banyak organisasi menyelesaikan migrasi cloud awal tetapi masih beroperasi seperti tim lokal, dengan visibilitas yang buruk, kontrol yang tidak konsisten, dan pengeluaran yang meningkat.",
+      "painPointsTitle": "Nyeri Bisnis Berulang",
+      "impactSignalsTitle": "Apa yang Biasanya Amati Pemimpin",
+      "painPoints": [
+        "Beban kerja dimigrasikan tanpa kontrol keamanan dan jaringan standar",
+        "Biaya cloud tumbuh lebih cepat daripada nilai bisnis yang diberikan",
+        "Penyediaan lingkungan tetap manual dan tidak konsisten di seluruh tim"
+      ],
+      "impactSignals": [
+        "Insiden yang sering disebabkan oleh penyimpangan konfigurasi antar lingkungan",
+        "Kesiapan audit menurun karena praktik tata kelola yang terfragmentasi",
+        "Waktu tunggu infrastruktur menunda inisiatif produk dan data"
+      ]
+    },
+    "approach": {
+      "overview": "Kami merancang platform cloud sebagai produk, menggunakan otomatisasi infrastruktur, pagar pembatas kebijakan, dan gelombang migrasi yang selaras dengan kekritisan bisnis.",
+      "pillars": [
+        {
+          "title": "Zona Pendaratan sebagai Kode",
+          "detail": "Identitas, jaringan, keamanan, dan garis besar kebijakan dikodifikasikan untuk pengulangan dan auditabilitas."
+        },
+        {
+          "title": "Strategi Migrasi Berbasis Gelombang",
+          "detail": "Beban kerja bergerak dalam fase terkontrol dengan pengurutan sadar dependensi dan kesiapan pengembalian."
+        },
+        {
+          "title": "Loop Operasi SRE + FinOps",
+          "detail": "Indikator keandalan dan ekonomi unit ditinjau bersama untuk meningkatkan efisiensi waktu kerja dan pengeluaran."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Model arsitektur kami mendukung infrastruktur deklaratif, akses dengan hak istimewa paling rendah, dan platform composable yang mendukung pengiriman produk yang cepat.",
+      "items": [
+        {
+          "title": "Pola Infrastruktur yang Tidak Dapat Diubah",
+          "detail": "Lingkungan dibangun ulang dari kode berversi untuk meminimalkan penyimpangan dan menyederhanakan pemulihan operasional."
+        },
+        {
+          "title": "Garis Besar Keamanan Secara Default",
+          "detail": "Kontrol akses zero-trust dan penegakan kebijakan tertanam dalam setiap siklus hidup lingkungan."
+        },
+        {
+          "title": "Ketahanan Melalui Distribusi",
+          "detail": "Beban kerja penting dirancang untuk toleransi kegagalan multi-zona atau multi-wilayah di mana dampak bisnis memerlukannya."
+        }
+      ]
+    },
+    "capabilities": [
+      "Strategi & Implementasi Multi-Cloud",
+      "Orkestrasi Kontainer (Kubernetes)",
+      "Komputasi Nirserver",
+      "Layanan Migrasi Cloud",
+      "Arsitektur Ketersediaan Tinggi"
+    ],
+    "technologies": [
+      {
+        "name": "Azure",
+        "category": "Awan",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "AWS",
+        "category": "Awan",
+        "icon": "amazonwebservices"
+      },
+      {
+        "name": "GCP",
+        "category": "Awan",
+        "icon": "googlecloud"
+      },
+      {
+        "name": "Kubernetes",
+        "category": "Orkestrasi",
+        "icon": "Kubernetes"
+      },
+      {
+        "name": "Pelayan pelabuhan",
+        "category": "Kontainer",
+        "icon": "buruh pelabuhan"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Templat ARM",
+        "category": "IaC",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Formasi Awan",
+        "category": "IaC",
+        "icon": "amazonwebservices"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Arsitektur & Zona Pendaratan",
+        "summary": "Kami menentukan status target, pagar pembatas, dan standar platform dasar sebelum beban kerja bergerak.",
+        "deliverables": [
+          "Desain arsitektur cloud target",
+          "Identitas, jaringan, dan garis besar keamanan",
+          "Pagar pembatas biaya dan kepatuhan"
+        ]
+      },
+      {
+        "title": "Migrasi & Membangun Platform",
+        "summary": "Kami menjalankan gelombang migrasi dan berdiri di atas komponen platform cloud-native dengan otomatisasi yang dapat diulang.",
+        "deliverables": [
+          "Pengurutan migrasi beban kerja",
+          "Penyiapan platform kontainer dan nirserver",
+          "Modul Infrastruktur sebagai Kode"
+        ]
+      },
+      {
+        "title": "Keandalan & FinOps",
+        "summary": "Kami meningkatkan keandalan operasional dan terus mengoptimalkan pengeluaran cloud berdasarkan telemetri langsung.",
+        "deliverables": [
+          "SLO, pemantauan, dan alur kerja insiden",
+          "Ketahanan dan validasi pemulihan bencana",
+          "Backlog pengoptimalan biaya dan irama tata kelola"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Skalakan Infrastruktur Anda",
+      "description": "Bangun fondasi cloud yang tetap tangguh di bawah beban dunia nyata.",
+      "button": "Rencanakan Strategi Cloud Anda"
+    }
+  },
+  "devops": {
+    "hero": {
+      "title": "DevOps & Rekayasa Platform",
+      "description": "Alur pengiriman otomatis, observabilitas, dan praktik platform yang meningkatkan kecepatan tanpa mengorbankan keandalan."
+    },
+    "sections": {
+      "problem": {
+        "title": "Pembingkaian Masalah Bisnis",
+        "subtitle": "Mengapa kecepatan pengiriman turun seiring dengan meningkatnya kompleksitas platform"
+      },
+      "approach": {
+        "title": "Pendekatan Rekayasa",
+        "subtitle": "Cara kami menstandarkan pipeline pengiriman tanpa memperlambat tim produk"
+      },
+      "principles": {
+        "title": "Prinsip Arsitektur",
+        "subtitle": "Pola rekayasa platform yang menskalakan keandalan dan otonomi tim"
+      },
+      "capabilities": {
+        "title": "Layanan DevOps",
+        "subtitle": "Otomatiskan, pantau, dan optimalkan siklus hidup pengiriman Anda"
+      },
+      "technology": {
+        "title": "Alat & Platform DevOps",
+        "subtitle": "Rantai alat DevOps terbaik di kelasnya"
+      },
+      "breakdown": {
+        "title": "Kerusakan Layanan",
+        "subtitle": "Peta jalan praktis dari kemacetan pengiriman hingga alur rilis kepercayaan tinggi"
+      }
+    },
+    "problem": {
+      "overview": "Organisasi sering berinvestasi dalam perkakas CI/CD tetapi masih berjuang dengan rilis yang tidak stabil, persetujuan yang lambat, dan kepemilikan yang terfragmentasi di seluruh lingkungan.",
+      "painPointsTitle": "Nyeri Bisnis Berulang",
+      "impactSignalsTitle": "Apa yang Biasanya Amati Pemimpin",
+      "painPoints": [
+        "Definisi alur berbeda menurut tim, menciptakan gerbang kualitas yang tidak konsisten",
+        "Persetujuan penerapan manual menunda hotfix dan linimasa rilis fitur",
+        "Insiden operasional berulang karena telemetri tidak lengkap atau terpencil"
+      ],
+      "impactSignals": [
+        "Waktu tunggu untuk perubahan terus meningkat meskipun ada pengeluaran otomatisasi",
+        "Mengubah lonjakan tingkat kegagalan selama periode pengiriman volume tinggi",
+        "Produktivitas pengembang menurun karena gesekan perkakas dan peralihan konteks"
+      ]
+    },
+    "approach": {
+      "overview": "Kami membangun model platform pengembang internal dengan templat alur yang dapat digunakan kembali, tata kelola berbasis kebijakan, dan observabilitas siklus hidup penuh.",
+      "pillars": [
+        {
+          "title": "Templat Alur Jalur Emas",
+          "detail": "Cetak biru CI/CD yang dapat digunakan kembali menstandarkan alur kerja build, pengujian, pemeriksaan keamanan, dan penyebaran."
+        },
+        {
+          "title": "API Platform & Layanan Mandiri",
+          "detail": "Teams menyediakan lingkungan dan merilis infrastruktur melalui antarmuka layanan mandiri yang dikontrol."
+        },
+        {
+          "title": "Loop Umpan Balik Keandalan",
+          "detail": "Tren insiden, kesehatan SLO, dan telemetri penyebaran menginformasikan peningkatan proses dan arsitektur yang berkelanjutan."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Arsitektur DevOps kami menyelaraskan kecepatan pengiriman dengan tata kelola dengan mengotomatiskan kontrol dan meminimalkan pekerjaan operasional satu kali.",
+      "items": [
+        {
+          "title": "Semuanya sebagai kode versi",
+          "detail": "Alur, infrastruktur, dan aturan kebijakan dikelola dalam kontrol sumber untuk auditabilitas dan pengulangan."
+        },
+        {
+          "title": "Verifikasi Progresif",
+          "detail": "Pemeriksaan kualitas, keamanan, dan kinerja dilapisi di seluruh tahapan untuk mendeteksi risiko lebih awal."
+        },
+        {
+          "title": "Tanggung Jawab Platform Bersama",
+          "detail": "Tim platform menyediakan kemampuan jalan beraspal sementara tim produk mempertahankan kepemilikan pengiriman."
+        }
+      ]
+    },
+    "capabilities": [
+      "Desain Pipa CI/CD",
+      "Infrastruktur sebagai Kode",
+      "Pengujian Otomatis",
+      "Otomatisasi Penerapan",
+      "Pemantauan & Observabilitas"
+    ],
+    "technologies": [
+      {
+        "name": "Azure DevOps",
+        "category": "Platform",
+        "icon": "azuredevops"
+      },
+      {
+        "name": "Tindakan GitHub",
+        "category": "CI/CD",
+        "icon": "GitHubActions"
+      },
+      {
+        "name": "Terraform",
+        "category": "IaC",
+        "icon": "Terraform"
+      },
+      {
+        "name": "Jenkins",
+        "category": "CI/CD",
+        "icon": "Jenkins"
+      },
+      {
+        "name": "Kemudi",
+        "category": "Kemasan",
+        "icon": "Kemudi"
+      },
+      {
+        "name": "Dapat diterima",
+        "category": "Otomatisasi",
+        "icon": "Dapat diterima"
+      },
+      {
+        "name": "Prometheus",
+        "category": "Pemantauan",
+        "icon": "Prometheus"
+      },
+      {
+        "name": "Grampannya",
+        "category": "Observabilitas",
+        "icon": "Grana"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Penilaian Platform",
+        "summary": "Kami mengevaluasi rantai pengiriman perangkat lunak Anda saat ini untuk mengidentifikasi titik risiko dan kendala kecepatan.",
+        "deliverables": [
+          "Peta alur kerja pengiriman status saat ini",
+          "Analisis kemacetan pipa",
+          "Peta jalan kematangan DevOps target"
+        ]
+      },
+      {
+        "title": "Pipeline & Otomatisasi Build",
+        "summary": "Kami menerapkan CI/CD yang andal, gerbang kualitas, dan otomatisasi infrastruktur untuk rilis yang konsisten.",
+        "deliverables": [
+          "Templat CI/CD yang dapat digunakan kembali",
+          "Otomatisasi infrastruktur dan lingkungan",
+          "Pengujian otomatis dan kontrol rilis"
+        ]
+      },
+      {
+        "title": "Operasikan & Tingkatkan",
+        "summary": "Kami menetapkan lingkaran observabilitas dan tata kelola yang mendukung peningkatan pengiriman berkelanjutan.",
+        "deliverables": [
+          "Memantau dasbor dan kebijakan pemberitahuan",
+          "Rilis tata kelola dan buku pedoman insiden",
+          "Metrik dan ulasan peningkatan berkelanjutan"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Percepat Pengiriman Anda",
+      "description": "Kurangi gesekan rilis dan tingkatkan keandalan dengan praktik DevOps yang matang.",
+      "button": "Ubah Pipeline Anda"
+    }
+  },
+  "digital": {
+    "hero": {
+      "title": "Transformasi & Strategi Digital",
+      "description": "Dukungan konsultasi dan eksekusi strategis untuk memodernisasi platform, tim, dan model operasi."
+    },
+    "sections": {
+      "problem": {
+        "title": "Pembingkaian Masalah Bisnis",
+        "subtitle": "Di mana program transformasi kehilangan momentum dan kepercayaan diri eksekutif"
+      },
+      "capabilities": {
+        "title": "Layanan Konsultasi",
+        "subtitle": "Panduan strategis untuk kesuksesan digital"
+      },
+      "approach": {
+        "title": "Pendekatan Rekayasa",
+        "subtitle": "Bagaimana kami menerjemahkan strategi menjadi perubahan yang dapat dieksekusi dan didukung teknologi"
+      },
+      "principles": {
+        "title": "Prinsip Arsitektur",
+        "subtitle": "Model operasi dan pilihan platform yang melindungi hasil transformasi"
+      },
+      "technology": {
+        "title": "Tumpukan Teknologi",
+        "subtitle": "Platform dan kerangka kerja yang kami gunakan untuk mengoperasionalkan transformasi"
+      },
+      "breakdown": {
+        "title": "Kerusakan Layanan",
+        "subtitle": "Transformasi terstruktur dari definisi strategi ke nilai bisnis yang terukur"
+      }
+    },
+    "problem": {
+      "overview": "Inisiatif digital sering dimulai dengan niat yang kuat tetapi gagal diubah menjadi hasil pengiriman karena kepemilikan yang tidak jelas, alat yang terputus, dan prioritas yang bersaing.",
+      "painPointsTitle": "Nyeri Bisnis Berulang",
+      "impactSignalsTitle": "Apa yang Biasanya Amati Pemimpin",
+      "painPoints": [
+        "Peta jalan transformasi didefinisikan tetapi tidak diterjemahkan ke dalam tata kelola pengiriman",
+        "Prioritas bisnis dan teknik menyimpang setelah siklus perencanaan awal",
+        "Model operasi lama memblokir adopsi praktik pengiriman produk modern"
+      ],
+      "impactSignals": [
+        "Belanja program naik sementara pergerakan KPI strategis tetap datar",
+        "Inisiatif melewatkan titik serah terima antara strategi, arsitektur, dan eksekusi",
+        "Tim mengalami kelelahan perubahan dengan nilai bisnis yang terbatas"
+      ]
+    },
+    "approach": {
+      "overview": "Kami menggabungkan penasihat strategis dengan arsitektur pengiriman, menyelaraskan desain model operasi, kemampuan platform, dan irama eksekusi di sekitar tujuan yang terukur.",
+      "pillars": [
+        {
+          "title": "Prioritas Aliran Nilai",
+          "detail": "Kami mengurutkan inisiatif berdasarkan dampak bisnis yang terukur dan kendala ketergantungan teknis."
+        },
+        {
+          "title": "Desain Model Operasi Target",
+          "detail": "Peran, tata kelola, dan hak keputusan ditentukan untuk mendukung eksekusi yang lebih cepat di seluruh tim bisnis dan teknologi."
+        },
+        {
+          "title": "Tata Kelola Pengiriman Portofolio",
+          "detail": "Kemajuan transformasi dikelola melalui pos pemeriksaan terkait KPI dan kontrol risiko tingkat portofolio."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Arsitektur transformasi kami menekankan modernisasi inkremental dan akuntabilitas yang jelas, menghindari penulisan ulang yang mengganggu tanpa pembenaran bisnis.",
+      "items": [
+        {
+          "title": "Penyelarasan Kemampuan Bisnis",
+          "detail": "Perubahan teknologi diatur di sekitar kemampuan yang secara langsung memetakan pendapatan, kualitas layanan, atau efisiensi biaya."
+        },
+        {
+          "title": "Strategi Platform Composable",
+          "detail": "Komponen platform dipilih untuk interoperabilitas untuk mendukung migrasi bertahap dan adaptasi yang lebih cepat."
+        },
+        {
+          "title": "Tata Kelola dengan Irama Pengiriman",
+          "detail": "Forum keputusan dan titik kontrol tertanam dalam siklus sprint dan triwulanan, tidak diperlakukan sebagai jalur birokrasi yang terpisah."
+        }
+      ]
+    },
+    "capabilities": [
+      "Peta Jalan Transformasi Digital",
+      "Pengembangan Strategi Teknologi",
+      "Kerangka Kerja Adopsi Cloud",
+      "Optimasi Proses",
+      "Manajemen Perubahan"
+    ],
+    "technologies": [
+      {
+        "name": "Zona Pendaratan Azure",
+        "category": "Yayasan Cloud",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "category": "Data Platform",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "Power BI",
+        "category": "Kecerdasan Keputusan",
+        "icon": "PowerBI"
+      },
+      {
+        "name": "Platform Daya",
+        "category": "Kode Rendah",
+        "icon": "Microsoft"
+      },
+      {
+        "name": "SharePoint",
+        "category": "Kolaborasi",
+        "icon": "MicrosoftsharePoint"
+      },
+      {
+        "name": "Dynamics 365",
+        "category": "ERP/CRM",
+        "icon": "Microsoft"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Penyelarasan Strategi",
+        "summary": "Kami menyelaraskan prioritas kepemimpinan dan tujuan digital untuk menciptakan arah transformasi bersama.",
+        "deliverables": [
+          "Tujuan transformasi dan kriteria keberhasilan",
+          "Penilaian kematangan dan kesenjangan kemampuan",
+          "Portofolio inisiatif yang diprioritaskan"
+        ]
+      },
+      {
+        "title": "Cetak Biru Eksekusi",
+        "summary": "Kami menentukan model operasi target, standar arsitektur, dan urutan implementasi bertahap.",
+        "deliverables": [
+          "Model operasi dan desain tata kelola",
+          "Standar teknologi dan arsitektur proses",
+          "Peta jalan implementasi bertahap"
+        ]
+      },
+      {
+        "title": "Realisasi Perubahan & Nilai",
+        "summary": "Kami mendorong adopsi, melacak pergerakan KPI, dan menyempurnakan inisiatif berdasarkan hasil pengiriman.",
+        "deliverables": [
+          "Rencana adopsi dan pemberdayaan",
+          "Irama pengukuran KPI",
+          "Backlog pengoptimalan triwulanan"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Mulai Perjalanan Transformasi Anda",
+      "description": "Navigasi perubahan dengan prioritas yang jelas dan rencana pengiriman yang praktis.",
+      "button": "Jadwalkan Sesi Strategi"
+    }
+  },
+  "iot": {
+    "hero": {
+      "title": "IoT & Komputasi Edge",
+      "description": "Sistem yang terhubung dari perangkat ke cloud, dengan alur telemetri dan kecerdasan tepi untuk skala industri."
+    },
+    "sections": {
+      "problem": {
+        "title": "Pembingkaian Masalah Bisnis",
+        "subtitle": "Mengapa program perangkat yang terhubung gagal menskalakan melampaui penerapan percontohan"
+      },
+      "approach": {
+        "title": "Pendekatan Rekayasa",
+        "subtitle": "Cara kami merancang sistem IoT yang aman dan dapat dioperasikan mulai dari firmware perangkat hingga API cloud"
+      },
+      "principles": {
+        "title": "Prinsip Arsitektur",
+        "subtitle": "Aturan desain edge-to-cloud untuk keandalan, latensi, dan tata kelola armada"
+      },
+      "capabilities": {
+        "title": "Solusi IoT",
+        "subtitle": "Hubungkan, pantau, dan optimalkan perangkat Anda"
+      },
+      "technology": {
+        "title": "Tumpukan Teknologi IoT",
+        "subtitle": "Dari perangkat keras ke cloud"
+      },
+      "breakdown": {
+        "title": "Kerusakan Layanan",
+        "subtitle": "Bagaimana kami menghadirkan sistem yang terhubung dari perangkat edge hingga kecerdasan cloud"
+      }
+    },
+    "problem": {
+      "overview": "Inisiatif IoT sering membuktikan kelayakan teknis dalam percontohan tetapi gagal dalam skala besar karena konektivitas yang tidak dapat diandalkan, kontrol armada yang lemah, dan integrasi yang buruk dengan alur kerja bisnis.",
+      "painPointsTitle": "Nyeri Bisnis Berulang",
+      "impactSignalsTitle": "Apa yang Biasanya Amati Pemimpin",
+      "painPoints": [
+        "Orientasi perangkat dan manajemen siklus hidup tetap manual dan rawan kesalahan",
+        "Alur telemetri menghasilkan data operasional yang berisik, tidak lengkap, atau tertunda",
+        "Pembaruan perintah jarak jauh dan firmware memperkenalkan risiko keselamatan dan keamanan"
+      ],
+      "impactSignals": [
+        "Lingkungan percontohan berhasil, tetapi garis waktu peluncuran produksi berulang kali tergelincir",
+        "Tim operasi lapangan bereaksi terhadap insiden tanpa visibilitas prediktif",
+        "Sistem bisnis tidak dapat mengonsumsi kecerdasan perangkat secara real time"
+      ]
+    },
+    "approach": {
+      "overview": "Kami merancang platform IoT sebagai sistem terdistribusi yang terkontrol, menggabungkan standar runtime edge yang aman, penyerapan berbasis peristiwa, dan tata kelola operasional dalam skala armada.",
+      "pillars": [
+        {
+          "title": "Manajemen Siklus Hidup Perangkat yang Aman",
+          "detail": "Penyediaan, identitas, rotasi kunci, dan pembaruan firmware diotomatisasi untuk mengurangi risiko operasional."
+        },
+        {
+          "title": "Arsitektur Telemetri Berbasis Peristiwa",
+          "detail": "Alur streaming menormalkan, memvalidasi, dan merutekan peristiwa perangkat untuk analitik dan kontrol hampir secara real time."
+        },
+        {
+          "title": "Pesawat Kontrol Operasi Armada",
+          "detail": "Alur kerja pemantauan, pemberitahuan, dan perintah jarak jauh memberikan pengawasan yang andal di seluruh aset terdistribusi."
+        }
+      ]
+    },
+    "principles": {
+      "overview": "Arsitektur IoT kami menyeimbangkan keputusan edge latensi rendah dengan tata kelola terpusat, observabilitas, dan kepatuhan keamanan.",
+      "items": [
+        {
+          "title": "Otonomi Edge dengan Koordinasi Cloud",
+          "detail": "Operasi lokal yang penting berlanjut selama degradasi jaringan saat menyinkronkan status ke sistem cloud jika tersedia."
+        },
+        {
+          "title": "Skema Peristiwa yang Dikontrak",
+          "detail": "Tim perangkat dan platform menggunakan skema yang diatur untuk menjaga konsistensi telemetri di seluruh versi."
+        },
+        {
+          "title": "Keamanan Perangkat Zero-Trust",
+          "detail": "Autentikasi bersama, hak istimewa paling rendah, dan transportasi terenkripsi diterapkan di setiap interaksi perangkat."
+        }
+      ]
+    },
+    "capabilities": [
+      "Manajemen Perangkat IoT",
+      "Solusi Kembaran Digital",
+      "Penerapan Komputasi Tepi",
+      "Telemetri Real-Time",
+      "Pemeliharaan Prediktif"
+    ],
+    "technologies": [
+      {
+        "name": "IoT Hub",
+        "category": "Gerbang Cloud",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Kembar Digital",
+        "category": "Simulasi",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "Komputasi Tepi",
+        "category": "Tepi",
+        "icon": "MicrosoftAzure"
+      },
+      {
+        "name": "MQTT",
+        "category": "Protokol",
+        "icon": "mqtt"
+      },
+      {
+        "name": "LoRaWAN",
+        "category": "Protokol",
+        "icon": "Lora"
+      },
+      {
+        "name": "Arduino",
+        "category": "Perangkat keras",
+        "icon": "Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "category": "Perangkat keras",
+        "icon": "raspberrypi"
+      },
+      {
+        "name": "MasukDB",
+        "category": "DB Deret Waktu",
+        "icon": "influxdb"
+      }
+    ],
+    "breakdown": [
+      {
+        "title": "Strategi Perangkat & Edge",
+        "summary": "Kami menentukan pola konektivitas, standar runtime edge, dan provisi aman untuk perangkat lapangan.",
+        "deliverables": [
+          "Model orientasi dan konektivitas perangkat",
+          "Cetak biru runtime dan penyebaran edge",
+          "Dasar keamanan armada"
+        ]
+      },
+      {
+        "title": "Telemetri & Bidang Kontrol",
+        "summary": "Kami membangun alur yang menangkap peristiwa, memodelkan kembar digital, dan mengaktifkan alur kerja kendali jarak jauh.",
+        "deliverables": [
+          "Penyerapan real-time dan desain skema peristiwa",
+          "Implementasi model kembaran digital dan aset",
+          "Lapisan API perintah dan kontrol"
+        ]
+      },
+      {
+        "title": "Operasi & Skala",
+        "summary": "Kami mengoperasionalkan manajemen armada dan kontrol keandalan untuk lingkungan IoT skala produksi.",
+        "deliverables": [
+          "Pemantauan dan peringatan armada perangkat",
+          "Pemeliharaan prediktif dan deteksi anomali",
+          "Rencana dukungan peluncuran dan siklus hidup"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Hubungkan Perangkat Anda",
+      "description": "Bangun solusi IoT andal yang siap untuk lingkungan produksi nyata.",
+      "button": "Mulai Proyek IoT Anda"
+    }
+  }
+}
