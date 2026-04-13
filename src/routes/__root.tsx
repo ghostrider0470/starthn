@@ -140,7 +140,7 @@ function RootComponent() {
   )
 
   return (
-    <ThemeProvider defaultTheme="system" storageKey="horizon-tech-theme">
+    <ThemeProvider defaultTheme="system" storageKey="starthn-theme">
       <CRTSoundProvider>
         <QueryClientProvider client={queryClient}>
           <AuthProvider>
@@ -149,7 +149,7 @@ function RootComponent() {
               <Suspense
                 fallback={
                   isOnline ? (
-                    <LoadingState fullPage message="Loading Horizon Tech..." />
+                    <LoadingState fullPage message="Loading Start HN..." />
                   ) : (
                     <OfflineFallback fullPage />
                   )
@@ -172,7 +172,7 @@ function RootComponent() {
 // Blocking inline script that applies the theme class before first paint,
 // eliminating the light→dark CLS flash that happens when ThemeProvider's
 // useEffect runs after hydration.
-const THEME_INIT_SCRIPT = `(function(){var t=localStorage.getItem('horizon-tech-theme');var d=t==='dark'||(t!=='light'&&matchMedia('(prefers-color-scheme:dark)').matches);document.documentElement.classList.toggle('dark',d);document.documentElement.classList.toggle('light',!d);document.documentElement.style.colorScheme=d?'dark':'light'})()`
+const THEME_INIT_SCRIPT = `(function(){var t=localStorage.getItem('starthn-theme');var d=t==='dark'||(t!=='light'&&matchMedia('(prefers-color-scheme:dark)').matches);document.documentElement.classList.toggle('dark',d);document.documentElement.classList.toggle('light',!d);document.documentElement.style.colorScheme=d?'dark':'light'})()`
 
 function RootDocument({ children }: { children: React.ReactNode }) {
   return (
@@ -194,24 +194,24 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
     meta: [
       { charSet: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, interactive-widget=resizes-content' },
-      { name: 'theme-color', content: '#FF6B35' },
+      { name: 'theme-color', content: '#B8860B' },
       {
         name: 'description',
         content:
-          'Horizon Tech delivers enterprise software, AI solutions, cloud architecture, and IoT systems. From intelligent automation to cloud-native platforms — on time, on budget, at scale.',
+          'Računovodstvene usluge, porezno savjetovanje i finansijski menadžment. Start HN — vaš partner za rast.',
       },
       {
         name: 'keywords',
         content:
           'enterprise software development, AI solutions, cloud architecture, IoT, DevOps, digital transformation, Azure, Sarajevo, Bosnia',
       },
-      { name: 'author', content: 'Horizon Tech d.o.o.' },
+      { name: 'author', content: 'Start HN' },
       { name: 'robots', content: 'index,follow' },
       { property: 'og:type', content: 'website' },
-      { property: 'og:site_name', content: 'Horizon Tech' },
+      { property: 'og:site_name', content: 'Start HN' },
       {
         property: 'og:title',
-        content: 'Horizon Tech — Engineering Systems That Scale',
+        content: 'Start HN — Računovodstvena agencija',
       },
       {
         property: 'og:description',
