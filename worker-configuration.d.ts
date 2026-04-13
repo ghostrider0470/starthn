@@ -9,7 +9,7 @@ declare namespace Cloudflare {
 		IMG_CACHE: R2Bucket;
 		DB: D1Database;
 		IMG_WRITE_QUEUE: Queue;
-		API_ORIGIN: "https://ht-func-prod.azurewebsites.net";
+		API_ORIGIN: "https://starthn-func-prod.azurewebsites.net";
 	}
 }
 interface Env extends Cloudflare.Env {}

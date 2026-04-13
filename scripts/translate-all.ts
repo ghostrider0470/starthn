@@ -33,7 +33,7 @@ const TRANSLATOR_API_VERSION = '3.0'
 
 // ── Azure Blob Storage Configuration ────────────────────────────────────────
 
-const STORAGE_ACCOUNT = 'htstorageprod'
+const STORAGE_ACCOUNT = process.env.AZURE_STORAGE_ACCOUNT || 'starthnstorage'
 const STORAGE_KEY = process.env.AZURE_STORAGE_KEY || ''
 const STORAGE_CONTAINER = 'locales'
 const STORAGE_API_VERSION = '2020-10-02'

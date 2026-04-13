@@ -20,7 +20,7 @@ import json
 import sys
 from pathlib import Path
 
-LOCALES_DIR = Path(__file__).resolve().parent.parent / "horizon-frontend" / "public" / "locales" / "en-US"
+LOCALES_DIR = Path(__file__).resolve().parent.parent / "public" / "locales" / "en-US"
 SOURCE = LOCALES_DIR / "translation.json"
 
 # Which top-level keys go into each namespace

@@ -60,7 +60,7 @@ export async function handleAdminRoute(
   const authResult = await requireAuth(request, env.JWT_SECRET, env.DB)
   if (authResult instanceof Response) return authResult
   const auth = authResult as AuthResult
-  const apiOrigin = env.API_ORIGIN || 'https://ht-func-prod.azurewebsites.net'
+  const apiOrigin = env.API_ORIGIN || 'https://starthn-func-prod.azurewebsites.net'
 
   const db = createDb(env.DB)
 

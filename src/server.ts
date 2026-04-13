@@ -18,13 +18,11 @@ const app = new Hono<{ Bindings: Bindings }>()
 
 // ─── Constants ─────────────────────────────────────────────
 const ALLOWED_ORIGINS = [
-  'https://horizon-tech.io',
-  'https://www.horizon-tech.io',
   'http://localhost:3000',
 ]
 
 function getApiOrigin(env: Bindings): string {
-  return env?.API_ORIGIN || 'https://ht-func-prod.azurewebsites.net'
+  return env?.API_ORIGIN || 'https://starthn-func-prod.azurewebsites.net'
 }
 
 // ─── Middleware ─────────────────────────────────────────────
@@ -35,7 +33,7 @@ app.use('/api/*', cors({
     if (ALLOWED_ORIGINS.includes(origin) || origin.endsWith('.workers.dev')) {
       return origin
     }
-    return 'https://www.horizon-tech.io'
+    return origin
   },
   allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowHeaders: ['Content-Type', 'X-Authorization', 'Authorization'],

@@ -1,5 +1,5 @@
 {
-  "name": "horizon-template",
+  "name": "starthn",
   "private": true,
   "type": "module",
   "engines": {
@@ -18,10 +18,10 @@
     "deploy": "npm run build && wrangler deploy && bash scripts/indexnow-ping.sh",
     "generate:sitemap": "tsx scripts/generate-sitemap.ts",
     "i18n:translate": "tsx scripts/translate-all.ts",
-    "i18n:translate:fast": "tsx scripts/translate-all.ts --langs bs-BA,hr-HR,sr-Latn",
+    "i18n:translate:fast": "tsx scripts/translate-all.ts --langs bs-BA",
     "i18n:upload-en": "tsx scripts/translate-all.ts --upload-en",
     "blog:translate": "tsx scripts/translate-blogs.ts",
-    "blog:translate:live": "tsx scripts/translate-blogs.ts --api-url https://www.horizon-tech.io/api"
+    "blog:translate:live": "tsx scripts/translate-blogs.ts --api-url https://starthn.ba/api"
   },
   "dependencies": {
     "@faker-js/faker": "^9.6.0",

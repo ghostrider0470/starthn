@@ -14,7 +14,7 @@ import json
 import sys
 from pathlib import Path
 
-LANGUAGES_TS = Path(__file__).parent.parent / "horizon-frontend" / "src" / "lib" / "languages.ts"
+LANGUAGES_TS = Path(__file__).parent.parent / "src" / "lib" / "languages.ts"
 
 def parse_languages(content: str) -> list[dict]:
     """Parse the LANGUAGES array from TypeScript source."""

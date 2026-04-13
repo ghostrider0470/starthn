@@ -2,7 +2,7 @@
 # Ping IndexNow with ALL pages from sitemaps
 # Usage: ./scripts/indexnow-ping.sh
 
-HOST="www.horizon-tech.io"
+HOST="starthn.ba"
 KEY="ccf536f39896412a92fb14422b4d89d3"
 SITEMAP_INDEX="https://$HOST/sitemap.xml"
 TMPFILE=$(mktemp)

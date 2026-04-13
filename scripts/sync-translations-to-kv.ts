@@ -7,7 +7,7 @@
  * By default, syncs only the primary locales. Use --all for everything.
  */
 
-const BLOB_BASE = 'https://htstorageprod.blob.core.windows.net/locales'
+const BLOB_BASE = 'https://starthnstorage.blob.core.windows.net/locales'
 const NAMESPACES = ['common', 'seo', 'landing', 'auth', 'blog', 'pages', 'services', 'innovation-lab']
 
 // Primary locales to sync (add more as needed)

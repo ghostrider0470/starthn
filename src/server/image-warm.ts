@@ -1,7 +1,7 @@
 import type { Context } from 'hono'
 import type { Bindings } from './bindings'
 
-const AZURE_BLOB_ORIGIN = 'https://htstorageprod.blob.core.windows.net'
+const AZURE_BLOB_ORIGIN = 'https://starthnstorage.blob.core.windows.net'
 
 interface WarmPayload {
   items: Array<{

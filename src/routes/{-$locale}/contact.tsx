@@ -50,13 +50,12 @@ declare global {
 }
 
 const TURNSTILE_SITE_KEY = '0x4AAAAAACZzTuT3G2MhmZ8O'
-const BOOKING_URL =
-  'https://outlook.office.com/book/OnlineBooking@horizon-tech.io/'
+const BOOKING_URL = ''
 
 export const Route = createFileRoute('/{-$locale}/contact')({
   head: () => ({
     meta: [
-      { title: 'Contact — Horizon Tech' },
+      { title: 'Contact — StartHN' },
       {
         name: 'description',
         content:
@@ -183,7 +182,7 @@ function ContactPage() {
       title: t('contact.methods.email.title'),
       description: t('contact.methods.email.description'),
       value: t('contact.methods.email.value'),
-      action: 'mailto:hello@horizon-tech.io',
+      action: 'mailto:info@starthn.ba',
     },
     {
       id: 'location',

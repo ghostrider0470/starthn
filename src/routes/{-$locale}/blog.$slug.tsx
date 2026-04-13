@@ -39,12 +39,12 @@ export const Route = createFileRoute('/{-$locale}/blog/$slug')({
   },
   head: ({ loaderData }) => {
     const post = loaderData as any
-    const title = `${post?.title ?? 'Blog'} — Horizon Tech`
+    const title = `${post?.title ?? 'Blog'} — StartHN`
     const description = post?.excerpt ?? 'Read our latest blog post.'
     const rawImage = post?.bannerImage ?? post?.coverImage
     const ogImage = rawImage
-      ? `https://www.horizon-tech.io${img(rawImage, { width: 1200, format: 'auto' })}`
-      : 'https://www.horizon-tech.io/clean-square.png'
+      ? img(rawImage, { width: 1200, format: 'auto' })
+      : '/clean-square.png'
 
     return {
       meta: [

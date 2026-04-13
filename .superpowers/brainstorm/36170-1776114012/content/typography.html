@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StartHN — Typography</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Inter',sans-serif; background:#0a0a0a; color:#e8e8e8; padding:32px; }
+
+  .header { text-align:center; margin-bottom:48px; }
+  .header h1 { font-size:28px; font-weight:700; background:linear-gradient(135deg,#DEBD4E,#B8860B); -webkit-background-clip:text; -webkit-text-fill-color:transparent; margin-bottom:8px; }
+  .header p { color:#888; font-size:14px; }
+
+  .options { display:flex; flex-direction:column; gap:24px; margin-bottom:48px; }
+
+  .type-option { border:1px solid #222; border-radius:16px; overflow:hidden; cursor:pointer; transition:border-color 0.2s; }
+  .type-option:hover { border-color:#DEBD4E44; }
+  .type-option.selected { border-color:#DEBD4E; }
+
+  .type-option-header { display:flex; justify-content:space-between; align-items:center; padding:16px 24px; background:#111; }
+  .type-option-header .label { font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:2px; color:#DEBD4E; }
+  .type-option-header .tag { font-size:10px; color:#888; background:#1a1a1a; padding:4px 10px; border-radius:4px; }
+
+  .type-preview { padding:32px; }
+
+  /* Light preview block */
+  .light-block { background:#FAFAFA; border-radius:12px; padding:32px; margin-bottom:16px; }
+  .dark-block { background:#0F1115; border-radius:12px; padding:32px; border:1px solid #1a1d23; }
+
+  .type-scale { display:flex; flex-direction:column; gap:16px; }
+  .type-row { display:flex; align-items:baseline; gap:20px; }
+  .type-label { width:80px; font-size:10px; color:#888; font-family:'Inter',monospace; flex-shrink:0; text-align:right; }
+  .type-label-dark { color:#555; }
+
+  .type-sample-light { color:#1e2023; }
+  .type-sample-dark { color:#F0ECE0; }
+  .type-body-light { color:#4b535d; }
+  .type-body-dark { color:#9da3ad; }
+  .type-muted-light { color:#7a828c; }
+  .type-muted-dark { color:#666; }
+  .type-accent { color:#B8860B; }
+  .type-accent-dark { color:#DEBD4E; }
+
+  /* Option A: Plus Jakarta Sans + Public Sans */
+  .opt-a-heading { font-family:'Plus Jakarta Sans',sans-serif; }
+  .opt-a-body { font-family:'Public Sans',sans-serif; }
+
+  /* Option B: DM Sans for both */
+  .opt-b-heading { font-family:'DM Sans',sans-serif; }
+  .opt-b-body { font-family:'DM Sans',sans-serif; }
+
+  /* Option C: Inter for both */
+  .opt-c-heading { font-family:'Inter',sans-serif; }
+  .opt-c-body { font-family:'Inter',sans-serif; }
+
+  .divider { height:1px; background:#1a1a1a; margin:12px 0; }
+
+  /* Mini nav + service preview */
+  .mini-preview { margin-top:20px; }
+  .mini-nav { display:flex; align-items:center; gap:20px; padding:10px 0; border-bottom:1px solid; margin-bottom:16px; }
+  .mini-nav-light { border-color:#e8e4d8; }
+  .mini-nav-dark { border-color:#2a2d33; }
+  .mini-nav .nav-logo { font-weight:700; font-size:16px; }
+  .mini-nav .nav-item { font-size:13px; font-weight:500; }
+  .mini-nav .nav-cta { font-size:12px; font-weight:600; padding:6px 14px; border-radius:6px; margin-left:auto; }
+  .mini-nav .nav-cta-light { background:#B8860B; color:#fff; }
+  .mini-nav .nav-cta-dark { background:#DEBD4E; color:#0F1115; }
+
+  .mini-service { display:flex; justify-content:space-between; align-items:baseline; padding:12px 0; border-bottom:1px solid; }
+  .mini-service-light { border-color:#e8e4d8; }
+  .mini-service-dark { border-color:#2a2d33; }
+  .mini-service:last-child { border-bottom:none; }
+  .mini-service .svc-num { font-size:12px; font-weight:600; width:30px; }
+  .mini-service .svc-name { font-size:14px; font-weight:600; flex:1; }
+  .mini-service .svc-desc { font-size:12px; flex:1.5; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Start HN — Typography</h1>
+  <p>Existing site uses GT Walsheim Pro (headings) + Public Sans (body). Here are three free alternatives.</p>
+</div>
+
+<!-- Option A -->
+<div class="type-option" data-choice="a" onclick="toggleSelect(this)">
+  <div class="type-option-header">
+    <span class="label">A — Plus Jakarta Sans + Public Sans</span>
+    <span class="tag">Recommended — closest to GT Walsheim Pro</span>
+  </div>
+  <div class="type-preview">
+    <div class="light-block">
+      <div class="type-scale">
+        <div class="type-row">
+          <span class="type-label">H1 / 48px</span>
+          <span class="opt-a-heading type-sample-light" style="font-size:48px;font-weight:700;line-height:1.1;letter-spacing:-0.5px;">Računovodstvo</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">H2 / 32px</span>
+          <span class="opt-a-heading type-sample-light" style="font-size:32px;font-weight:600;line-height:1.2;letter-spacing:-0.3px;">Naše ključne usluge</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">H3 / 22px</span>
+          <span class="opt-a-heading type-sample-light" style="font-size:22px;font-weight:600;line-height:1.3;">Porezno savjetovanje</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">Body / 16px</span>
+          <span class="opt-a-body type-body-light" style="font-size:16px;font-weight:400;line-height:1.6;">Gradimo dugoročne odnose s klijentima na temelju tačnosti, integriteta i razumijevanja.</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">Small / 14px</span>
+          <span class="opt-a-body type-muted-light" style="font-size:14px;font-weight:400;line-height:1.5;">Pon – Pet: 8:00 – 16:00 / info@starthn.ba</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">CTA / 14px</span>
+          <span class="opt-a-heading type-accent" style="font-size:14px;font-weight:600;letter-spacing:0.3px;">Krenimo u saradnju →</span>
+        </div>
+      </div>
+      <div class="mini-preview">
+        <div class="mini-nav mini-nav-light">
+          <span class="nav-logo opt-a-heading type-sample-light">Start <span class="type-accent">HN</span></span>
+          <span class="nav-item opt-a-body type-body-light">O nama</span>
+          <span class="nav-item opt-a-body type-body-light">Usluge</span>
+          <span class="nav-item opt-a-body type-body-light">Blog</span>
+          <span class="nav-cta nav-cta-light opt-a-heading">Saradnja</span>
+        </div>
+        <div class="mini-service mini-service-light">
+          <span class="svc-num opt-a-heading type-accent">01</span>
+          <span class="svc-name opt-a-heading type-sample-light">Knjigovodstvo</span>
+          <span class="svc-desc opt-a-body type-body-light">Vođenje poslovnih knjiga, tačno i pravovremeno</span>
+        </div>
+        <div class="mini-service mini-service-light">
+          <span class="svc-num opt-a-heading type-accent">02</span>
+          <span class="svc-name opt-a-heading type-sample-light">Porezno savjetovanje</span>
+          <span class="svc-desc opt-a-body type-body-light">Usklađenost sa propisima i optimizacija</span>
+        </div>
+      </div>
+    </div>
+    <div class="dark-block">
+      <div class="type-scale">
+        <div class="type-row">
+          <span class="type-label type-label-dark">H1 / 48px</span>
+          <span class="opt-a-heading type-sample-dark" style="font-size:48px;font-weight:700;line-height:1.1;letter-spacing:-0.5px;">Računovodstvo</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label type-label-dark">Body / 16px</span>
+          <span class="opt-a-body type-body-dark" style="font-size:16px;font-weight:400;line-height:1.6;">Gradimo dugoročne odnose s klijentima na temelju tačnosti, integriteta i razumijevanja.</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label type-label-dark">CTA / 14px</span>
+          <span class="opt-a-heading type-accent-dark" style="font-size:14px;font-weight:600;letter-spacing:0.3px;">Krenimo u saradnju →</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Option B -->
+<div class="type-option" data-choice="b" onclick="toggleSelect(this)">
+  <div class="type-option-header">
+    <span class="label">B — DM Sans (single font family)</span>
+    <span class="tag">Clean, geometric, modern — one font for everything</span>
+  </div>
+  <div class="type-preview">
+    <div class="light-block">
+      <div class="type-scale">
+        <div class="type-row">
+          <span class="type-label">H1 / 48px</span>
+          <span class="opt-b-heading type-sample-light" style="font-size:48px;font-weight:700;line-height:1.1;letter-spacing:-0.5px;">Računovodstvo</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">H2 / 32px</span>
+          <span class="opt-b-heading type-sample-light" style="font-size:32px;font-weight:600;line-height:1.2;">Naše ključne usluge</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">H3 / 22px</span>
+          <span class="opt-b-heading type-sample-light" style="font-size:22px;font-weight:600;line-height:1.3;">Porezno savjetovanje</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">Body / 16px</span>
+          <span class="opt-b-body type-body-light" style="font-size:16px;font-weight:400;line-height:1.6;">Gradimo dugoročne odnose s klijentima na temelju tačnosti, integriteta i razumijevanja.</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">Small / 14px</span>
+          <span class="opt-b-body type-muted-light" style="font-size:14px;font-weight:400;line-height:1.5;">Pon – Pet: 8:00 – 16:00 / info@starthn.ba</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">CTA / 14px</span>
+          <span class="opt-b-heading type-accent" style="font-size:14px;font-weight:600;letter-spacing:0.3px;">Krenimo u saradnju →</span>
+        </div>
+      </div>
+      <div class="mini-preview">
+        <div class="mini-nav mini-nav-light">
+          <span class="nav-logo opt-b-heading type-sample-light">Start <span class="type-accent">HN</span></span>
+          <span class="nav-item opt-b-body type-body-light">O nama</span>
+          <span class="nav-item opt-b-body type-body-light">Usluge</span>
+          <span class="nav-item opt-b-body type-body-light">Blog</span>
+          <span class="nav-cta nav-cta-light opt-b-heading">Saradnja</span>
+        </div>
+        <div class="mini-service mini-service-light">
+          <span class="svc-num opt-b-heading type-accent">01</span>
+          <span class="svc-name opt-b-heading type-sample-light">Knjigovodstvo</span>
+          <span class="svc-desc opt-b-body type-body-light">Vođenje poslovnih knjiga, tačno i pravovremeno</span>
+        </div>
+        <div class="mini-service mini-service-light">
+          <span class="svc-num opt-b-heading type-accent">02</span>
+          <span class="svc-name opt-b-heading type-sample-light">Porezno savjetovanje</span>
+          <span class="svc-desc opt-b-body type-body-light">Usklađenost sa propisima i optimizacija</span>
+        </div>
+      </div>
+    </div>
+    <div class="dark-block">
+      <div class="type-scale">
+        <div class="type-row">
+          <span class="type-label type-label-dark">H1 / 48px</span>
+          <span class="opt-b-heading type-sample-dark" style="font-size:48px;font-weight:700;line-height:1.1;letter-spacing:-0.5px;">Računovodstvo</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label type-label-dark">Body / 16px</span>
+          <span class="opt-b-body type-body-dark" style="font-size:16px;font-weight:400;line-height:1.6;">Gradimo dugoročne odnose s klijentima na temelju tačnosti, integriteta i razumijevanja.</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label type-label-dark">CTA / 14px</span>
+          <span class="opt-b-heading type-accent-dark" style="font-size:14px;font-weight:600;letter-spacing:0.3px;">Krenimo u saradnju →</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Option C -->
+<div class="type-option" data-choice="c" onclick="toggleSelect(this)">
+  <div class="type-option-header">
+    <span class="label">C — Inter (current Horizon font)</span>
+    <span class="tag">Already in the codebase — zero migration effort</span>
+  </div>
+  <div class="type-preview">
+    <div class="light-block">
+      <div class="type-scale">
+        <div class="type-row">
+          <span class="type-label">H1 / 48px</span>
+          <span class="opt-c-heading type-sample-light" style="font-size:48px;font-weight:700;line-height:1.1;letter-spacing:-0.5px;">Računovodstvo</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">H2 / 32px</span>
+          <span class="opt-c-heading type-sample-light" style="font-size:32px;font-weight:600;line-height:1.2;">Naše ključne usluge</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">H3 / 22px</span>
+          <span class="opt-c-heading type-sample-light" style="font-size:22px;font-weight:600;line-height:1.3;">Porezno savjetovanje</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">Body / 16px</span>
+          <span class="opt-c-body type-body-light" style="font-size:16px;font-weight:400;line-height:1.6;">Gradimo dugoročne odnose s klijentima na temelju tačnosti, integriteta i razumijevanja.</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">Small / 14px</span>
+          <span class="opt-c-body type-muted-light" style="font-size:14px;font-weight:400;line-height:1.5;">Pon – Pet: 8:00 – 16:00 / info@starthn.ba</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label">CTA / 14px</span>
+          <span class="opt-c-heading type-accent" style="font-size:14px;font-weight:600;letter-spacing:0.3px;">Krenimo u saradnju →</span>
+        </div>
+      </div>
+      <div class="mini-preview">
+        <div class="mini-nav mini-nav-light">
+          <span class="nav-logo opt-c-heading type-sample-light">Start <span class="type-accent">HN</span></span>
+          <span class="nav-item opt-c-body type-body-light">O nama</span>
+          <span class="nav-item opt-c-body type-body-light">Usluge</span>
+          <span class="nav-item opt-c-body type-body-light">Blog</span>
+          <span class="nav-cta nav-cta-light opt-c-heading">Saradnja</span>
+        </div>
+        <div class="mini-service mini-service-light">
+          <span class="svc-num opt-c-heading type-accent">01</span>
+          <span class="svc-name opt-c-heading type-sample-light">Knjigovodstvo</span>
+          <span class="svc-desc opt-c-body type-body-light">Vođenje poslovnih knjiga, tačno i pravovremeno</span>
+        </div>
+        <div class="mini-service mini-service-light">
+          <span class="svc-num opt-c-heading type-accent">02</span>
+          <span class="svc-name opt-c-heading type-sample-light">Porezno savjetovanje</span>
+          <span class="svc-desc opt-c-body type-body-light">Usklađenost sa propisima i optimizacija</span>
+        </div>
+      </div>
+    </div>
+    <div class="dark-block">
+      <div class="type-scale">
+        <div class="type-row">
+          <span class="type-label type-label-dark">H1 / 48px</span>
+          <span class="opt-c-heading type-sample-dark" style="font-size:48px;font-weight:700;line-height:1.1;letter-spacing:-0.5px;">Računovodstvo</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label type-label-dark">Body / 16px</span>
+          <span class="opt-c-body type-body-dark" style="font-size:16px;font-weight:400;line-height:1.6;">Gradimo dugoročne odnose s klijentima na temelju tačnosti, integriteta i razumijevanja.</span>
+        </div>
+        <div class="type-row">
+          <span class="type-label type-label-dark">CTA / 14px</span>
+          <span class="opt-c-heading type-accent-dark" style="font-size:14px;font-weight:600;letter-spacing:0.3px;">Krenimo u saradnju →</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

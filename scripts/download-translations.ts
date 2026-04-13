@@ -7,7 +7,7 @@
 import fs from 'fs'
 import path from 'path'
 
-const BLOB_BASE = 'https://htstorageprod.blob.core.windows.net/locales'
+const BLOB_BASE = 'https://starthnstorage.blob.core.windows.net/locales'
 const NAMESPACES = ['common', 'seo', 'landing', 'auth', 'blog', 'pages', 'services', 'innovation-lab']
 const OUTPUT_DIR = path.resolve(import.meta.dirname, '..', 'public', 'locales')
 

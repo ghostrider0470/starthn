@@ -30,13 +30,11 @@ const PUBLIC_DIR = resolve(__dirname, '..', 'public')
 
 // ── Config ──────────────────────────────────────────────────────────────────
 
-const ORIGIN = 'https://www.horizon-tech.io'
-const API_URL = process.env.API_URL ?? 'https://www.horizon-tech.io/api'
+const ORIGIN = 'https://starthn.ba'
+const API_URL = process.env.API_URL ?? 'https://starthn.ba/api'
 
 const SEO_PRIORITY_LOCALES = [
-  'en-US', 'bs-BA', 'hr-HR', 'sr-Latn', 'de-DE', 'fr-FR', 'es-ES',
-  'it-IT', 'tr-TR', 'ar-SA', 'pt-BR', 'nl-NL', 'ru-RU', 'ja-JP',
-  'zh-Hans', 'ko-KR',
+  'en-US', 'bs-BA',
 ] as const
 
 const DEFAULT_LOCALE = 'en-US'

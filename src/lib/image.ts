@@ -5,7 +5,7 @@
  * Source images live in Azure Blob → /img/ proxy caches + resizes via CF Image Resizing.
  */
 
-const AZURE_BLOB = 'https://htstorageprod.blob.core.windows.net/'
+const AZURE_BLOB = 'https://starthnstorage.blob.core.windows.net/'
 
 /** Known image container prefixes */
 const CONTAINER_PREFIXES = ['avatars/', 'blog-images/', 'page-images/']

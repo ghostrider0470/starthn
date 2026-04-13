@@ -10,7 +10,7 @@
 set -euo pipefail
 
 : "${IMAGE_SWEEP_SECRET:?Set IMAGE_SWEEP_SECRET first}"
-URL="https://ht-func-prod.azurewebsites.net/api/manage/images/sweep?batchSize=20"
+URL="https://starthn-func-prod.azurewebsites.net/api/manage/images/sweep?batchSize=20"
 
 total_processed=0
 total_errors=0

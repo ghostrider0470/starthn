@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StartHN — Complete Brand System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Public Sans',sans-serif; background:#0a0a0a; color:#e8e8e8; padding:32px; }
+  h1,h2,h3,h4,.heading { font-family:'Plus Jakarta Sans',sans-serif; }
+
+  .header { text-align:center; margin-bottom:56px; }
+  .header h1 { font-size:32px; font-weight:800; background:linear-gradient(135deg,#DEBD4E,#B8860B); -webkit-background-clip:text; -webkit-text-fill-color:transparent; margin-bottom:8px; letter-spacing:-0.5px; }
+  .header p { color:#888; font-size:14px; }
+
+  .section-title { font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:3px; color:#DEBD4E; margin-bottom:24px; }
+
+  /* ─── MODES ─── */
+  .modes { display:grid; grid-template-columns:1fr 1fr; gap:32px; margin-bottom:56px; }
+  .mode-card { border-radius:16px; overflow:hidden; border:1px solid #222; }
+  .mode-label { padding:14px 24px; font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:2px; }
+  .light .mode-label { background:#f0ece0; color:#4b535d; }
+  .dark .mode-label { background:#1a1d23; color:#9da3ad; }
+
+  /* ─── LIGHT PREVIEW ─── */
+  .light .preview { background:#FAFAFA; padding:24px; }
+  .light .nav { display:flex; align-items:center; justify-content:space-between; padding:10px 16px; background:#fff; border-radius:10px; border:1px solid #e8e4d8; margin-bottom:16px; }
+  .light .nav .logo { font-weight:800; font-size:16px; color:#1e2023; letter-spacing:-0.3px; }
+  .light .nav .logo span { color:#B8860B; }
+  .light .nav .links { display:flex; gap:14px; font-size:12px; color:#4b535d; font-weight:500; }
+  .light .nav .cta { background:#B8860B; color:#fff; padding:6px 14px; border-radius:6px; font-size:11px; font-weight:600; font-family:'Plus Jakarta Sans',sans-serif; }
+
+  .light .hero { background:linear-gradient(135deg,#FBF8EF,#F5F0E0,#EDE4C8); border-radius:12px; padding:28px; margin-bottom:16px; position:relative; overflow:hidden; }
+  .light .hero::before { content:''; position:absolute; top:-60px; right:-30px; width:180px; height:180px; background:radial-gradient(circle,rgba(184,134,11,0.08) 0%,transparent 70%); border-radius:50%; }
+  .light .hero::after { content:''; position:absolute; bottom:-40px; left:30%; width:120px; height:120px; background:radial-gradient(circle,rgba(222,189,78,0.06) 0%,transparent 70%); border-radius:50%; }
+  .light .hero .overline { font-size:10px; font-weight:600; text-transform:uppercase; letter-spacing:2px; color:#B8860B; margin-bottom:10px; font-family:'Plus Jakarta Sans',sans-serif; }
+  .light .hero h2 { font-size:24px; font-weight:800; color:#1e2023; margin-bottom:8px; line-height:1.15; letter-spacing:-0.5px; }
+  .light .hero p { font-size:13px; color:#4b535d; margin-bottom:16px; line-height:1.6; max-width:80%; }
+  .light .hero .btns { display:flex; gap:8px; position:relative; z-index:1; }
+  .light .hero .btn-p { background:#B8860B; color:#fff; padding:8px 18px; border-radius:8px; font-size:11px; font-weight:600; font-family:'Plus Jakarta Sans',sans-serif; }
+  .light .hero .btn-o { background:transparent; color:#B8860B; padding:8px 18px; border-radius:8px; font-size:11px; font-weight:600; border:1.5px solid #B8860B; font-family:'Plus Jakarta Sans',sans-serif; }
+
+  .light .services { }
+  .light .svc { display:flex; align-items:center; padding:12px 0; border-bottom:1px solid #e8e4d8; gap:16px; }
+  .light .svc:last-child { border-bottom:none; }
+  .light .svc .num { font-size:12px; font-weight:700; color:#B8860B; font-family:'Plus Jakarta Sans',sans-serif; width:28px; }
+  .light .svc .name { font-size:14px; font-weight:600; color:#1e2023; flex:1; font-family:'Plus Jakarta Sans',sans-serif; }
+  .light .svc .desc { font-size:12px; color:#4b535d; flex:1.5; line-height:1.4; }
+  .light .svc .arrow { color:#B8860B; font-size:14px; font-weight:600; }
+
+  .light .testimonial { background:#fff; border:1px solid #e8e4d8; border-radius:10px; padding:16px; margin-top:16px; }
+  .light .testimonial .quote { font-size:13px; color:#4b535d; font-style:italic; line-height:1.6; margin-bottom:10px; }
+  .light .testimonial .author { font-size:12px; font-weight:600; color:#1e2023; font-family:'Plus Jakarta Sans',sans-serif; }
+  .light .testimonial .role { font-size:11px; color:#7a828c; }
+
+  .light .footer { background:#1e2023; border-radius:10px; padding:16px 20px; margin-top:16px; display:flex; justify-content:space-between; align-items:center; }
+  .light .footer .f-logo { font-weight:800; font-size:14px; color:#F0ECE0; font-family:'Plus Jakarta Sans',sans-serif; }
+  .light .footer .f-logo span { color:#DEBD4E; }
+  .light .footer .f-info { font-size:10px; color:#9da3ad; text-align:right; line-height:1.5; }
+
+  /* ─── DARK PREVIEW ─── */
+  .dark .preview { background:#0F1115; padding:24px; }
+  .dark .nav { display:flex; align-items:center; justify-content:space-between; padding:10px 16px; background:#1a1d23; border-radius:10px; border:1px solid #2a2d33; margin-bottom:16px; }
+  .dark .nav .logo { font-weight:800; font-size:16px; color:#F0ECE0; letter-spacing:-0.3px; }
+  .dark .nav .logo span { color:#DEBD4E; }
+  .dark .nav .links { display:flex; gap:14px; font-size:12px; color:#9da3ad; font-weight:500; }
+  .dark .nav .cta { background:#DEBD4E; color:#0F1115; padding:6px 14px; border-radius:6px; font-size:11px; font-weight:600; font-family:'Plus Jakarta Sans',sans-serif; }
+
+  .dark .hero { background:linear-gradient(135deg,#1A1810,#1E1B14,#22200F); border-radius:12px; padding:28px; margin-bottom:16px; position:relative; overflow:hidden; border:1px solid #2a2718; }
+  .dark .hero::before { content:''; position:absolute; top:-60px; right:-30px; width:180px; height:180px; background:radial-gradient(circle,rgba(222,189,78,0.06) 0%,transparent 70%); border-radius:50%; }
+  .dark .hero::after { content:''; position:absolute; bottom:-40px; left:30%; width:120px; height:120px; background:radial-gradient(circle,rgba(222,189,78,0.04) 0%,transparent 70%); border-radius:50%; }
+  .dark .hero .overline { font-size:10px; font-weight:600; text-transform:uppercase; letter-spacing:2px; color:#DEBD4E; margin-bottom:10px; font-family:'Plus Jakarta Sans',sans-serif; }
+  .dark .hero h2 { font-size:24px; font-weight:800; color:#F0ECE0; margin-bottom:8px; line-height:1.15; letter-spacing:-0.5px; }
+  .dark .hero p { font-size:13px; color:#9da3ad; margin-bottom:16px; line-height:1.6; max-width:80%; }
+  .dark .hero .btns { display:flex; gap:8px; position:relative; z-index:1; }
+  .dark .hero .btn-p { background:#DEBD4E; color:#0F1115; padding:8px 18px; border-radius:8px; font-size:11px; font-weight:600; font-family:'Plus Jakarta Sans',sans-serif; }
+  .dark .hero .btn-o { background:transparent; color:#DEBD4E; padding:8px 18px; border-radius:8px; font-size:11px; font-weight:600; border:1.5px solid #DEBD4E; font-family:'Plus Jakarta Sans',sans-serif; }
+
+  .dark .services { }
+  .dark .svc { display:flex; align-items:center; padding:12px 0; border-bottom:1px solid #2a2d33; gap:16px; }
+  .dark .svc:last-child { border-bottom:none; }
+  .dark .svc .num { font-size:12px; font-weight:700; color:#DEBD4E; font-family:'Plus Jakarta Sans',sans-serif; width:28px; }
+  .dark .svc .name { font-size:14px; font-weight:600; color:#F0ECE0; flex:1; font-family:'Plus Jakarta Sans',sans-serif; }
+  .dark .svc .desc { font-size:12px; color:#9da3ad; flex:1.5; line-height:1.4; }
+  .dark .svc .arrow { color:#DEBD4E; font-size:14px; font-weight:600; }
+
+  .dark .testimonial { background:#1a1d23; border:1px solid #2a2d33; border-radius:10px; padding:16px; margin-top:16px; }
+  .dark .testimonial .quote { font-size:13px; color:#9da3ad; font-style:italic; line-height:1.6; margin-bottom:10px; }
+  .dark .testimonial .author { font-size:12px; font-weight:600; color:#F0ECE0; font-family:'Plus Jakarta Sans',sans-serif; }
+  .dark .testimonial .role { font-size:11px; color:#666; }
+
+  .dark .footer { background:#0a0b0e; border:1px solid #1a1d23; border-radius:10px; padding:16px 20px; margin-top:16px; display:flex; justify-content:space-between; align-items:center; }
+  .dark .footer .f-logo { font-weight:800; font-size:14px; color:#F0ECE0; font-family:'Plus Jakarta Sans',sans-serif; }
+  .dark .footer .f-logo span { color:#DEBD4E; }
+  .dark .footer .f-info { font-size:10px; color:#666; text-align:right; line-height:1.5; }
+
+  /* ─── TYPOGRAPHY SCALE ─── */
+  .type-section { margin-bottom:56px; }
+  .type-grid { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+  .type-block { border:1px solid #222; border-radius:12px; padding:24px; }
+  .type-block.light-bg { background:#FAFAFA; }
+  .type-block.dark-bg { background:#0F1115; }
+  .type-row { display:flex; align-items:baseline; gap:16px; margin-bottom:14px; }
+  .type-row:last-child { margin-bottom:0; }
+  .type-meta { width:70px; font-size:9px; color:#666; font-family:monospace; text-align:right; flex-shrink:0; line-height:1.3; }
+
+  /* ─── SWATCHES ─── */
+  .palette-section { margin-bottom:56px; }
+  .swatch-row { display:flex; gap:12px; margin-bottom:20px; flex-wrap:wrap; }
+  .swatch { width:130px; border-radius:12px; overflow:hidden; border:1px solid #222; }
+  .swatch-color { height:64px; }
+  .swatch-info { padding:8px 10px; background:#111; }
+  .swatch-info .name { font-size:10px; font-weight:600; color:#e8e8e8; margin-bottom:1px; font-family:'Plus Jakarta Sans',sans-serif; }
+  .swatch-info .hex { font-size:9px; color:#888; font-family:monospace; }
+  .swatch-info .role { font-size:8px; color:#555; margin-top:2px; }
+
+  .gradient-strip { height:40px; border-radius:10px; margin-bottom:8px; border:1px solid #222; }
+  .gradient-label { font-size:10px; color:#666; margin-bottom:16px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Start HN — Complete Brand System</h1>
+  <p>Plus Jakarta Sans (headings) + Public Sans (body) · Gold/Amber · Dual themes</p>
+</div>
+
+<!-- ═══════════ LIVE UI PREVIEWS ═══════════ -->
+<div class="section-title">Live UI Preview</div>
+<div class="modes">
+  <div class="mode-card light">
+    <div class="mode-label">Light Mode</div>
+    <div class="preview">
+      <div class="nav">
+        <div class="logo heading">Start <span>HN</span></div>
+        <div class="links"><span>O nama</span><span>Usluge</span><span>Blog</span><span>Kontakt</span></div>
+        <div class="cta">Saradnja</div>
+      </div>
+      <div class="hero">
+        <div class="overline">Računovodstvena agencija</div>
+        <h2>Računovodstvo koje<br>razumije vaš posao</h2>
+        <p>Iskustvo, tačnost i rješenja koja prate vaše ciljeve. Uz Start HN niste sami.</p>
+        <div class="btns">
+          <div class="btn-p">Krenimo u saradnju</div>
+          <div class="btn-o">Naše usluge</div>
+        </div>
+      </div>
+      <div class="services">
+        <div class="svc"><span class="num">01</span><span class="name heading">Knjigovodstvo</span><span class="desc">Vođenje poslovnih knjiga, tačno i pravovremeno</span><span class="arrow">→</span></div>
+        <div class="svc"><span class="num">02</span><span class="name heading">Porezno savjetovanje</span><span class="desc">Usklađenost sa propisima i optimizacija</span><span class="arrow">→</span></div>
+        <div class="svc"><span class="num">03</span><span class="name heading">Virtualni CFO</span><span class="desc">Strateška finansijska podrška i planiranje</span><span class="arrow">→</span></div>
+      </div>
+      <div class="testimonial">
+        <div class="quote">"Profesionalnost i posvećenost Start HN tima daleko su premašili naša očekivanja."</div>
+        <div class="author">Nedim Kulašin</div>
+        <div class="role">qla.dev — Vlasnik i direktor</div>
+      </div>
+      <div class="footer">
+        <div class="f-logo heading">Start <span>HN</span></div>
+        <div class="f-info">info@starthn.ba<br>+387 61/135-377</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mode-card dark">
+    <div class="mode-label">Dark Mode</div>
+    <div class="preview">
+      <div class="nav">
+        <div class="logo heading">Start <span>HN</span></div>
+        <div class="links"><span>O nama</span><span>Usluge</span><span>Blog</span><span>Kontakt</span></div>
+        <div class="cta">Saradnja</div>
+      </div>
+      <div class="hero">
+        <div class="overline">Računovodstvena agencija</div>
+        <h2>Računovodstvo koje<br>razumije vaš posao</h2>
+        <p>Iskustvo, tačnost i rješenja koja prate vaše ciljeve. Uz Start HN niste sami.</p>
+        <div class="btns">
+          <div class="btn-p">Krenimo u saradnju</div>
+          <div class="btn-o">Naše usluge</div>
+        </div>
+      </div>
+      <div class="services">
+        <div class="svc"><span class="num">01</span><span class="name heading">Knjigovodstvo</span><span class="desc">Vođenje poslovnih knjiga, tačno i pravovremeno</span><span class="arrow">→</span></div>
+        <div class="svc"><span class="num">02</span><span class="name heading">Porezno savjetovanje</span><span class="desc">Usklađenost sa propisima i optimizacija</span><span class="arrow">→</span></div>
+        <div class="svc"><span class="num">03</span><span class="name heading">Virtualni CFO</span><span class="desc">Strateška finansijska podrška i planiranje</span><span class="arrow">→</span></div>
+      </div>
+      <div class="testimonial">
+        <div class="quote">"Profesionalnost i posvećenost Start HN tima daleko su premašili naša očekivanja."</div>
+        <div class="author">Nedim Kulašin</div>
+        <div class="role">qla.dev — Vlasnik i direktor</div>
+      </div>
+      <div class="footer">
+        <div class="f-logo heading">Start <span>HN</span></div>
+        <div class="f-info">info@starthn.ba<br>+387 61/135-377</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ TYPOGRAPHY ═══════════ -->
+<div class="section-title">Typography Scale</div>
+<div class="type-section">
+  <div class="type-grid">
+    <div class="type-block light-bg">
+      <div class="type-row">
+        <span class="type-meta">Display<br>48 / 800</span>
+        <span class="heading" style="font-size:42px;font-weight:800;color:#1e2023;line-height:1.1;letter-spacing:-0.8px;">Vaš partner</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">H1<br>36 / 700</span>
+        <span class="heading" style="font-size:32px;font-weight:700;color:#1e2023;line-height:1.15;letter-spacing:-0.5px;">Naše ključne usluge</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">H2<br>24 / 600</span>
+        <span class="heading" style="font-size:22px;font-weight:600;color:#1e2023;line-height:1.25;">Porezno savjetovanje</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">H3<br>18 / 600</span>
+        <span class="heading" style="font-size:17px;font-weight:600;color:#1e2023;line-height:1.3;">Finansijsko izvještavanje</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">Overline<br>11 / 600</span>
+        <span class="heading" style="font-size:11px;font-weight:600;color:#B8860B;text-transform:uppercase;letter-spacing:2px;">Računovodstvena agencija</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">Body<br>16 / 400</span>
+        <span style="font-size:15px;font-weight:400;color:#4b535d;line-height:1.6;">Gradimo dugoročne odnose s klijentima na temelju tačnosti i integriteta.</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">Small<br>14 / 400</span>
+        <span style="font-size:13px;font-weight:400;color:#7a828c;line-height:1.5;">Pon – Pet: 8:00 – 16:00</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">CTA<br>14 / 600</span>
+        <span class="heading" style="font-size:13px;font-weight:600;color:#B8860B;letter-spacing:0.2px;">Krenimo u saradnju →</span>
+      </div>
+    </div>
+
+    <div class="type-block dark-bg">
+      <div class="type-row">
+        <span class="type-meta">Display<br>48 / 800</span>
+        <span class="heading" style="font-size:42px;font-weight:800;color:#F0ECE0;line-height:1.1;letter-spacing:-0.8px;">Vaš partner</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">H1<br>36 / 700</span>
+        <span class="heading" style="font-size:32px;font-weight:700;color:#F0ECE0;line-height:1.15;letter-spacing:-0.5px;">Naše ključne usluge</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">H2<br>24 / 600</span>
+        <span class="heading" style="font-size:22px;font-weight:600;color:#F0ECE0;line-height:1.25;">Porezno savjetovanje</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">H3<br>18 / 600</span>
+        <span class="heading" style="font-size:17px;font-weight:600;color:#F0ECE0;line-height:1.3;">Finansijsko izvještavanje</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">Overline<br>11 / 600</span>
+        <span class="heading" style="font-size:11px;font-weight:600;color:#DEBD4E;text-transform:uppercase;letter-spacing:2px;">Računovodstvena agencija</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">Body<br>16 / 400</span>
+        <span style="font-size:15px;font-weight:400;color:#9da3ad;line-height:1.6;">Gradimo dugoročne odnose s klijentima na temelju tačnosti i integriteta.</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">Small<br>14 / 400</span>
+        <span style="font-size:13px;font-weight:400;color:#666;line-height:1.5;">Pon – Pet: 8:00 – 16:00</span>
+      </div>
+      <div class="type-row">
+        <span class="type-meta">CTA<br>14 / 600</span>
+        <span class="heading" style="font-size:13px;font-weight:600;color:#DEBD4E;letter-spacing:0.2px;">Krenimo u saradnju →</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ COLORS ═══════════ -->
+<div class="section-title">Brand Colors</div>
+<div class="palette-section">
+  <div class="swatch-row">
+    <div class="swatch"><div class="swatch-color" style="background:linear-gradient(135deg,#DEBD4E,#B8860B);"></div><div class="swatch-info"><div class="name">Gold Gradient</div><div class="hex">#DEBD4E → #B8860B</div><div class="role">Brand mark, accents</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#B8860B;"></div><div class="swatch-info"><div class="name">Dark Gold</div><div class="hex">#B8860B</div><div class="role">Light mode primary</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#DEBD4E;"></div><div class="swatch-info"><div class="name">Gold</div><div class="hex">#DEBD4E</div><div class="role">Dark mode primary</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#E8CC6A;"></div><div class="swatch-info"><div class="name">Bright Gold</div><div class="hex">#E8CC6A</div><div class="role">Hover states</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#9A7209;"></div><div class="swatch-info"><div class="name">Deep Gold</div><div class="hex">#9A7209</div><div class="role">Active / pressed</div></div></div>
+  </div>
+
+  <div class="section-title" style="margin-top:32px;">Light Surfaces</div>
+  <div class="swatch-row">
+    <div class="swatch"><div class="swatch-color" style="background:#FAFAFA;border-bottom:1px solid #ddd;"></div><div class="swatch-info"><div class="name">Background</div><div class="hex">#FAFAFA</div><div class="role">Page bg</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#FFFFFF;border-bottom:1px solid #ddd;"></div><div class="swatch-info"><div class="name">Surface</div><div class="hex">#FFFFFF</div><div class="role">Cards, nav</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#F5F0E0;border-bottom:1px solid #ddd;"></div><div class="swatch-info"><div class="name">Warm Cream</div><div class="hex">#F5F0E0</div><div class="role">Accent sections</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#1e2023;"></div><div class="swatch-info"><div class="name">Foreground</div><div class="hex">#1E2023</div><div class="role">Headings</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#4b535d;"></div><div class="swatch-info"><div class="name">Muted</div><div class="hex">#4B535D</div><div class="role">Body text</div></div></div>
+  </div>
+
+  <div class="section-title" style="margin-top:32px;">Dark Surfaces</div>
+  <div class="swatch-row">
+    <div class="swatch"><div class="swatch-color" style="background:#0F1115;"></div><div class="swatch-info"><div class="name">Background</div><div class="hex">#0F1115</div><div class="role">Page bg</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#1A1D23;"></div><div class="swatch-info"><div class="name">Surface</div><div class="hex">#1A1D23</div><div class="role">Cards, nav</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#1E1B14;"></div><div class="swatch-info"><div class="name">Warm Dark</div><div class="hex">#1E1B14</div><div class="role">Accent sections</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#F0ECE0;"></div><div class="swatch-info"><div class="name">Foreground</div><div class="hex">#F0ECE0</div><div class="role">Headings</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#9DA3AD;"></div><div class="swatch-info"><div class="name">Muted</div><div class="hex">#9DA3AD</div><div class="role">Body text</div></div></div>
+  </div>
+</div>
+
+<!-- ═══════════ GRADIENTS ═══════════ -->
+<div class="section-title">Gradients</div>
+<div class="palette-section">
+  <div class="gradient-strip" style="background:linear-gradient(135deg,#DEBD4E,#B8860B);"></div>
+  <div class="gradient-label">Primary — hero, brand accents</div>
+  <div class="gradient-strip" style="background:linear-gradient(135deg,#FBF8EF,#F5F0E0,#EDE4C8);"></div>
+  <div class="gradient-label">Warm light — featured sections (light mode)</div>
+  <div class="gradient-strip" style="background:linear-gradient(135deg,#1A1810,#1E1B14,#22200F);"></div>
+  <div class="gradient-label">Warm dark — featured sections (dark mode)</div>
+  <div class="gradient-strip" style="background:linear-gradient(135deg,#B8860B,#9A7209,#7D5C07);"></div>
+  <div class="gradient-label">Deep gold — footer, dark CTAs</div>
+</div>
+
+</body>
+</html>

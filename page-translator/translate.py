@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Azure Translator script for Horizon Tech i18n.
+Azure Translator script for StartHN i18n.
 
-Translates horizon-frontend/public/locales/en/translation.json into target languages
+Translates public/locales/en/translation.json into target languages
 using the Azure Translator API.
 
 Usage:
@@ -36,7 +36,7 @@ TARGET_LANGUAGES = ["bs"]  # Add more: "de", "fr", "ar", "tr", "ja", etc.
 
 BATCH_SIZE = 50  # Azure allows up to 100, staying conservative
 
-LOCALES_DIR = Path(__file__).parent.parent / "horizon-frontend" / "public" / "locales"
+LOCALES_DIR = Path(__file__).parent.parent / "public" / "locales"
 SOURCE_LANG = "en"
 SOURCE_FILE = LOCALES_DIR / SOURCE_LANG / "translation.json"
 

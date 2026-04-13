@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StartHN — Brand Palette v3</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Inter',sans-serif; background:#0a0a0a; color:#e8e8e8; padding:32px; }
+
+  .header { text-align:center; margin-bottom:48px; }
+  .header h1 { font-size:28px; font-weight:700; background:linear-gradient(135deg,#DEBD4E,#B8860B); -webkit-background-clip:text; -webkit-text-fill-color:transparent; margin-bottom:8px; }
+  .header p { color:#888; font-size:14px; }
+
+  .modes { display:grid; grid-template-columns:1fr 1fr; gap:32px; margin-bottom:48px; }
+
+  .mode-card { border-radius:16px; overflow:hidden; border:1px solid #222; }
+  .mode-label { padding:14px 24px; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:2px; }
+  .light .mode-label { background:#f0ece0; color:#4b535d; }
+  .dark .mode-label { background:#1a1d23; color:#9da3ad; }
+
+  /* Light mode preview */
+  .light .preview { background:#FAFAFA; padding:28px; }
+  .light .preview-nav { display:flex; align-items:center; justify-content:space-between; padding:12px 20px; background:#fff; border-radius:12px; border:1px solid #e8e4d8; margin-bottom:20px; }
+  .light .preview-nav .logo { font-weight:700; font-size:15px; color:#1e2023; }
+  .light .preview-nav .logo span { color:#B8860B; }
+  .light .preview-nav .nav-links { display:flex; gap:16px; font-size:12px; color:#4b535d; }
+  .light .preview-nav .nav-cta { background:#B8860B; color:#fff; padding:6px 16px; border-radius:6px; font-size:11px; font-weight:600; }
+
+  .light .hero-block { background:linear-gradient(135deg, #FBF8EF 0%, #F5F0E0 50%, #EDE4C8 100%); border-radius:12px; padding:32px; margin-bottom:20px; position:relative; overflow:hidden; }
+  .light .hero-block::after { content:''; position:absolute; top:-40px; right:-40px; width:160px; height:160px; background:radial-gradient(circle, rgba(184,134,11,0.12) 0%, transparent 70%); border-radius:50%; }
+  .light .hero-block h2 { font-size:20px; color:#1e2023; margin-bottom:8px; line-height:1.3; }
+  .light .hero-block p { font-size:12px; color:#4b535d; margin-bottom:16px; line-height:1.6; }
+  .light .hero-block .btn-row { display:flex; gap:10px; }
+  .light .hero-block .btn-primary { background:#B8860B; color:#fff; padding:8px 20px; border-radius:8px; font-size:11px; font-weight:600; border:none; }
+  .light .hero-block .btn-outline { background:transparent; color:#B8860B; padding:8px 20px; border-radius:8px; font-size:11px; font-weight:600; border:1.5px solid #B8860B; }
+
+  .light .services-list { display:flex; flex-direction:column; gap:0; }
+  .light .service-item { display:flex; justify-content:space-between; align-items:center; padding:14px 0; border-bottom:1px solid #e8e4d8; }
+  .light .service-item:last-child { border-bottom:none; }
+  .light .service-item .num { font-size:11px; color:#B8860B; font-weight:600; width:28px; }
+  .light .service-item .name { font-size:13px; color:#1e2023; font-weight:600; flex:1; }
+  .light .service-item .desc { font-size:11px; color:#4b535d; flex:1.5; }
+  .light .service-item .arrow { color:#B8860B; font-size:14px; }
+
+  /* Dark mode preview */
+  .dark .preview { background:#0F1115; padding:28px; }
+  .dark .preview-nav { display:flex; align-items:center; justify-content:space-between; padding:12px 20px; background:#1a1d23; border-radius:12px; border:1px solid #2a2d33; margin-bottom:20px; }
+  .dark .preview-nav .logo { font-weight:700; font-size:15px; color:#F0ECE0; }
+  .dark .preview-nav .logo span { color:#DEBD4E; }
+  .dark .preview-nav .nav-links { display:flex; gap:16px; font-size:12px; color:#9da3ad; }
+  .dark .preview-nav .nav-cta { background:#DEBD4E; color:#0F1115; padding:6px 16px; border-radius:6px; font-size:11px; font-weight:600; }
+
+  .dark .hero-block { background:linear-gradient(135deg, #1A1810 0%, #1E1B14 50%, #22200F 100%); border-radius:12px; padding:32px; margin-bottom:20px; position:relative; overflow:hidden; border:1px solid #2a2718; }
+  .dark .hero-block::after { content:''; position:absolute; top:-40px; right:-40px; width:160px; height:160px; background:radial-gradient(circle, rgba(222,189,78,0.1) 0%, transparent 70%); border-radius:50%; }
+  .dark .hero-block h2 { font-size:20px; color:#F0ECE0; margin-bottom:8px; line-height:1.3; }
+  .dark .hero-block p { font-size:12px; color:#9da3ad; margin-bottom:16px; line-height:1.6; }
+  .dark .hero-block .btn-row { display:flex; gap:10px; }
+  .dark .hero-block .btn-primary { background:#DEBD4E; color:#0F1115; padding:8px 20px; border-radius:8px; font-size:11px; font-weight:600; border:none; }
+  .dark .hero-block .btn-outline { background:transparent; color:#DEBD4E; padding:8px 20px; border-radius:8px; font-size:11px; font-weight:600; border:1.5px solid #DEBD4E; }
+
+  .dark .services-list { display:flex; flex-direction:column; gap:0; }
+  .dark .service-item { display:flex; justify-content:space-between; align-items:center; padding:14px 0; border-bottom:1px solid #2a2d33; }
+  .dark .service-item:last-child { border-bottom:none; }
+  .dark .service-item .num { font-size:11px; color:#DEBD4E; font-weight:600; width:28px; }
+  .dark .service-item .name { font-size:13px; color:#F0ECE0; font-weight:600; flex:1; }
+  .dark .service-item .desc { font-size:11px; color:#9da3ad; flex:1.5; }
+  .dark .service-item .arrow { color:#DEBD4E; font-size:14px; }
+
+  /* Palette swatches */
+  .palette-section { margin-bottom:48px; }
+  .palette-section h2 { font-size:18px; font-weight:600; margin-bottom:20px; color:#e8e8e8; }
+
+  .swatch-row { display:flex; gap:12px; margin-bottom:24px; flex-wrap:wrap; }
+  .swatch { width:140px; border-radius:12px; overflow:hidden; border:1px solid #222; }
+  .swatch-color { height:72px; }
+  .swatch-info { padding:10px 12px; background:#111; }
+  .swatch-info .name { font-size:11px; font-weight:600; color:#e8e8e8; margin-bottom:2px; }
+  .swatch-info .hex { font-size:10px; color:#888; font-family:monospace; }
+  .swatch-info .role { font-size:9px; color:#666; margin-top:3px; }
+
+  .gradient-strip { height:48px; border-radius:12px; margin-bottom:12px; border:1px solid #222; }
+  .gradient-label { font-size:11px; color:#888; margin-bottom:16px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Start HN — Brand System</h1>
+  <p>Gold & Amber palette with dual theme modes</p>
+</div>
+
+<div class="modes">
+  <div class="mode-card light">
+    <div class="mode-label">Light Mode</div>
+    <div class="preview">
+      <div class="preview-nav">
+        <div class="logo">Start <span>HN</span></div>
+        <div class="nav-links">
+          <span>O nama</span>
+          <span>Usluge</span>
+          <span>Blog</span>
+          <span>Kontakt</span>
+        </div>
+        <div class="nav-cta">Saradnja</div>
+      </div>
+      <div class="hero-block">
+        <h2>Računovodstvo koje<br>razumije vaš posao</h2>
+        <p>Iskustvo, tačnost i rješenja koja prate vaše ciljeve. Uz Start HN niste sami.</p>
+        <div class="btn-row">
+          <div class="btn-primary">Krenimo u saradnju</div>
+          <div class="btn-outline">Naše usluge</div>
+        </div>
+      </div>
+      <div class="services-list">
+        <div class="service-item">
+          <span class="num">01</span>
+          <span class="name">Knjigovodstvo</span>
+          <span class="desc">Vođenje poslovnih knjiga, tačno i pravovremeno</span>
+          <span class="arrow">&rarr;</span>
+        </div>
+        <div class="service-item">
+          <span class="num">02</span>
+          <span class="name">Porezno savjetovanje</span>
+          <span class="desc">Usklađenost sa propisima i optimizacija troškova</span>
+          <span class="arrow">&rarr;</span>
+        </div>
+        <div class="service-item">
+          <span class="num">03</span>
+          <span class="name">Virtualni CFO</span>
+          <span class="desc">Strateška finansijska podrška i planiranje</span>
+          <span class="arrow">&rarr;</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mode-card dark">
+    <div class="mode-label">Dark Mode</div>
+    <div class="preview">
+      <div class="preview-nav">
+        <div class="logo">Start <span>HN</span></div>
+        <div class="nav-links">
+          <span>O nama</span>
+          <span>Usluge</span>
+          <span>Blog</span>
+          <span>Kontakt</span>
+        </div>
+        <div class="nav-cta">Saradnja</div>
+      </div>
+      <div class="hero-block">
+        <h2>Računovodstvo koje<br>razumije vaš posao</h2>
+        <p>Iskustvo, tačnost i rješenja koja prate vaše ciljeve. Uz Start HN niste sami.</p>
+        <div class="btn-row">
+          <div class="btn-primary">Krenimo u saradnju</div>
+          <div class="btn-outline">Naše usluge</div>
+        </div>
+      </div>
+      <div class="services-list">
+        <div class="service-item">
+          <span class="num">01</span>
+          <span class="name">Knjigovodstvo</span>
+          <span class="desc">Vođenje poslovnih knjiga, tačno i pravovremeno</span>
+          <span class="arrow">&rarr;</span>
+        </div>
+        <div class="service-item">
+          <span class="num">02</span>
+          <span class="name">Porezno savjetovanje</span>
+          <span class="desc">Usklađenost sa propisima i optimizacija troškova</span>
+          <span class="arrow">&rarr;</span>
+        </div>
+        <div class="service-item">
+          <span class="num">03</span>
+          <span class="name">Virtualni CFO</span>
+          <span class="desc">Strateška finansijska podrška i planiranje</span>
+          <span class="arrow">&rarr;</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Color tokens -->
+<div class="palette-section">
+  <h2>Brand Colors</h2>
+  <div class="swatch-row">
+    <div class="swatch">
+      <div class="swatch-color" style="background:linear-gradient(135deg,#DEBD4E,#B8860B);"></div>
+      <div class="swatch-info">
+        <div class="name">Gold Gradient</div>
+        <div class="hex">#DEBD4E → #B8860B</div>
+        <div class="role">Brand gradient, logo accent</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#B8860B;"></div>
+      <div class="swatch-info">
+        <div class="name">Dark Gold</div>
+        <div class="hex">#B8860B</div>
+        <div class="role">Light mode primary</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#DEBD4E;"></div>
+      <div class="swatch-info">
+        <div class="name">Gold</div>
+        <div class="hex">#DEBD4E</div>
+        <div class="role">Dark mode primary</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#E8CC6A;"></div>
+      <div class="swatch-info">
+        <div class="name">Bright Gold</div>
+        <div class="hex">#E8CC6A</div>
+        <div class="role">Hover / highlight</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#9A7209;"></div>
+      <div class="swatch-info">
+        <div class="name">Deep Gold</div>
+        <div class="hex">#9A7209</div>
+        <div class="role">Active / pressed</div>
+      </div>
+    </div>
+  </div>
+
+  <h2 style="margin-top:32px;">Light Mode Surfaces</h2>
+  <div class="swatch-row">
+    <div class="swatch">
+      <div class="swatch-color" style="background:#FAFAFA; border-bottom:1px solid #e0e0e0;"></div>
+      <div class="swatch-info">
+        <div class="name">Background</div>
+        <div class="hex">#FAFAFA</div>
+        <div class="role">Page background</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#FFFFFF; border-bottom:1px solid #e0e0e0;"></div>
+      <div class="swatch-info">
+        <div class="name">Card</div>
+        <div class="hex">#FFFFFF</div>
+        <div class="role">Elevated surfaces</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#F5F0E0; border-bottom:1px solid #e0e0e0;"></div>
+      <div class="swatch-info">
+        <div class="name">Warm Cream</div>
+        <div class="hex">#F5F0E0</div>
+        <div class="role">Accent sections</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#1e2023;"></div>
+      <div class="swatch-info">
+        <div class="name">Foreground</div>
+        <div class="hex">#1E2023</div>
+        <div class="role">Headings</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#4b535d;"></div>
+      <div class="swatch-info">
+        <div class="name">Muted</div>
+        <div class="hex">#4B535D</div>
+        <div class="role">Body text</div>
+      </div>
+    </div>
+  </div>
+
+  <h2 style="margin-top:32px;">Dark Mode Surfaces</h2>
+  <div class="swatch-row">
+    <div class="swatch">
+      <div class="swatch-color" style="background:#0F1115;"></div>
+      <div class="swatch-info">
+        <div class="name">Background</div>
+        <div class="hex">#0F1115</div>
+        <div class="role">Page background</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#1A1D23;"></div>
+      <div class="swatch-info">
+        <div class="name">Card</div>
+        <div class="hex">#1A1D23</div>
+        <div class="role">Elevated surfaces</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#1E1B14;"></div>
+      <div class="swatch-info">
+        <div class="name">Warm Dark</div>
+        <div class="hex">#1E1B14</div>
+        <div class="role">Accent sections</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#F0ECE0;"></div>
+      <div class="swatch-info">
+        <div class="name">Foreground</div>
+        <div class="hex">#F0ECE0</div>
+        <div class="role">Headings</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#9DA3AD;"></div>
+      <div class="swatch-info">
+        <div class="name">Muted</div>
+        <div class="hex">#9DA3AD</div>
+        <div class="role">Body text</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="palette-section">
+  <h2>Brand Gradients</h2>
+  <div class="gradient-strip" style="background:linear-gradient(135deg,#DEBD4E,#B8860B);"></div>
+  <div class="gradient-label">Primary gradient — hero backgrounds, brand accents</div>
+  <div class="gradient-strip" style="background:linear-gradient(135deg,#FBF8EF,#F5F0E0,#EDE4C8);"></div>
+  <div class="gradient-label">Warm surface — light mode highlighted sections</div>
+  <div class="gradient-strip" style="background:linear-gradient(135deg,#1A1810,#1E1B14,#22200F);"></div>
+  <div class="gradient-label">Dark warm surface — dark mode highlighted sections</div>
+  <div class="gradient-strip" style="background:linear-gradient(135deg,#B8860B,#9A7209,#7D5C07);"></div>
+  <div class="gradient-label">Deep gold — footer, dark section backgrounds</div>
+</div>
+
+</body>
+</html>

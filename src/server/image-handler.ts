@@ -2,7 +2,7 @@ import type { Context } from 'hono'
 import type { Bindings, ImageWriteMessage } from './bindings'
 import { CircuitBreaker } from './circuit-breaker'
 
-const AZURE_BLOB_ORIGIN = 'https://htstorageprod.blob.core.windows.net'
+const AZURE_BLOB_ORIGIN = 'https://starthnstorage.blob.core.windows.net'
 
 const CONTAINER_WIDTHS: Record<string, number[]> = {
   avatars: [48, 96, 192],

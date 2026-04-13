@@ -268,10 +268,10 @@ function PrivacyPolicyPage() {
                 </p>
                 <div className="ml-4 space-y-1">
                   <p>
-                    <strong>Horizon Tech d.o.o.</strong>
+                    <strong>StartHN</strong>
                   </p>
                   <p>Sarajevo, Bosnia and Herzegovina</p>
-                  <p>Email: hello@horizon-tech.io</p>
+                  <p>Email: info@starthn.ba</p>
                 </div>
               </section>
             </div>

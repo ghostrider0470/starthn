@@ -215,28 +215,26 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       },
       {
         property: 'og:description',
-        content:
-          'Enterprise software, AI solutions, cloud architecture, and IoT systems. From intelligent automation to cloud-native platforms — on time, on budget, at scale.',
+        content: 'StartHN',
       },
       {
         property: 'og:image',
-        content: 'https://www.horizon-tech.io/clean-square.png',
+        content: '/clean-square.png',
       },
-      { property: 'og:url', content: 'https://www.horizon-tech.io' },
+      { property: 'og:url', content: 'https://starthn.ba' },
       { property: 'og:locale', content: 'en_US' },
       { name: 'twitter:card', content: 'summary_large_image' },
       {
         name: 'twitter:title',
-        content: 'Horizon Tech — Engineering Systems That Scale',
+        content: 'StartHN',
       },
       {
         name: 'twitter:description',
-        content:
-          'Enterprise software, AI solutions, cloud architecture, and IoT systems.',
+        content: 'StartHN',
       },
       {
         name: 'twitter:image',
-        content: 'https://www.horizon-tech.io/clean-square.png',
+        content: '/clean-square.png',
       },
     ],
     links: [
@@ -244,7 +242,7 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       { rel: 'icon', type: 'image/png', href: '/favicon-32.png' },
       { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
       { rel: 'manifest', href: '/manifest.json' },
-      { rel: 'canonical', href: 'https://www.horizon-tech.io/en-US' },
+      { rel: 'canonical', href: 'https://starthn.ba/en-US' },
       { rel: 'preload', as: 'image', href: '/logo-64.webp', type: 'image/webp' },
     ],
     scripts: [

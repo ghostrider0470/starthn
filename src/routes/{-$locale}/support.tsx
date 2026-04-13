@@ -79,8 +79,8 @@ function SupportPage() {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <a href="mailto:hello@horizon-tech.io">
-              <Button className="w-full">hello@horizon-tech.io</Button>
+            <a href="mailto:info@starthn.ba">
+              <Button className="w-full">info@starthn.ba</Button>
             </a>
           </CardContent>
         </Card>
