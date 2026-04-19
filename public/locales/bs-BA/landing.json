@@ -1,13 +1,217 @@
 {
   "hero": {
-    "title": "Računovodstvo koje razumije vaš posao",
-    "subtitle": "Knjigovodstvo · Porezno savjetovanje · Virtualni CFO · Finansijsko savjetovanje",
-    "description": "Od urednih knjiga do strateških finansijskih planova, pružamo stručnu računovodstvenu podršku koja potiče održivi rast — usklađenu, pouzdanu i prilagođenu vašim ciljevima.",
+    "slides": [
+      {
+        "overline": "Preciznost i transparentnost u svakom koraku",
+        "title": "Usluge po mjeri vašeg biznisa",
+        "subtitle": "Mi vodimo vaše knjige, vi vodite svoj posao — bez stresa i neizvjesnosti.",
+        "cta": "Započnimo saradnju",
+        "href": "/contact"
+      },
+      {
+        "overline": "Sveobuhvatno vođenje knjiga za mikro, mala i srednja preduzeća",
+        "title": "Vaše knjige u pravim rukama",
+        "subtitle": "Naš tim osigurava tačnost i usklađenost sa svim propisima, oslobađajući vam vrijeme za razvoj poslovanja.",
+        "cta": "Naše usluge",
+        "href": "/services"
+      },
+      {
+        "overline": "Iskoristite stručnu podršku za održivi rast",
+        "title": "Računovodstvo koje razumije vaš posao",
+        "subtitle": "Iskustvo, tačnost i rješenja koja prate vaše ciljeve.",
+        "cta": "Saznajte više o Start HN",
+        "href": "/about"
+      }
+    ],
     "cta": {
-      "primary": "Počnite danas",
+      "primary": "Započnimo saradnju",
       "secondary": "Naše usluge"
     },
     "trustLine": "Povjerenje preduzeća širom Bosne i Hercegovine"
+  },
+  "valueProps": {
+    "trust": {
+      "title": "Povjerenje koje traje",
+      "description": "Gradimo dugoročne odnose s klijentima na temelju tačnosti, integriteta i dubokog razumijevanja njihovog poslovanja.",
+      "cta": "Saznajte više",
+      "href": "/about"
+    },
+    "services": {
+      "title": "Naše usluge",
+      "description": "Knjigovodstvo, porezno savjetovanje i Virtualni CFO — transparentni procesi prilagođeni vašem biznisu.",
+      "cta": "Pregledajte usluge",
+      "href": "/services"
+    },
+    "expertise": {
+      "title": "Iskustvo i stručnost",
+      "description": "Naš tim pruža savjete i analize na temelju dokaza, osiguravajući da donosite informisane poslovne odluke.",
+      "cta": "Upoznajte tim",
+      "href": "/team"
+    }
+  },
+  "whyChoose": {
+    "overline": "Zašto odabrati Start HN",
+    "title": "Vaš partner u rastu, od prvog računa do konsolidacije",
+    "description": "Računovodstvena agencija Start HN iz Sarajeva pruža podršku udruženjima, obrtnicima, te mikro, malim i srednjim biznisima. Naš rad se temelji na ažurnosti, preciznosti i potpunoj posvećenosti klijentima — ne hvatamo „zadnji voz\", već pravovremeno pratimo sve rokove i zakonske obaveze.",
+    "body": "Pratimo izmjene propisa i zalažemo se za digitalizaciju računovodstvenih procesa — bilo kroz uspostavu internih programa kod klijenata sa stalnim uvidom u podatke, bilo kroz rad na dokumentaciji dostavljenoj fizički ili e-mailom. Za one koji žele dublju podršku, nudimo uslugu Virtualnog CFO-a.",
+    "features": {
+      "personal": "Individualizirani pristup",
+      "vcfo": "Virtualni CFO",
+      "tailored": "Prilagođena rješenja",
+      "online": "Online dokumenti",
+      "education": "Kontinuirana edukacija",
+      "loyalty": "Program lojalnosti"
+    },
+    "cta": "Sve usluge"
+  },
+  "stats": {
+    "overline": "Naša evidencija",
+    "title": "Vaš biznis zaslužuje računovodstvo koje misli unaprijed, reaguje na vrijeme i uvijek stoji iza svojih brojki.",
+    "cta": "Započnimo saradnju",
+    "items": {
+      "clients": {
+        "value": 50,
+        "suffix": "+",
+        "label": "Klijenata",
+        "description": "Mikro i mala privredna društva, samostalni poduzetnici i udruženja koja nam vjeruju i razvijaju se uz našu podršku."
+      },
+      "experience": {
+        "value": 15,
+        "suffix": "+",
+        "label": "Godina iskustva",
+        "description": "Kombinovano iskustvo u računovodstvu, poreznom savjetovanju i finansijskom menadžmentu."
+      },
+      "hours": {
+        "value": 5000,
+        "suffix": "+",
+        "label": "Sati godišnje",
+        "description": "Godišnje posvećeni analizi, savjetovanju i podršci klijentima na svim poljima gdje smo potrebni."
+      },
+      "retention": {
+        "value": 95,
+        "suffix": "%",
+        "label": "Klijenata preporučuje",
+        "description": "Naš rast temelji se na povjerenju i preporukama zadovoljnih klijenata koji nas dalje preporučuju."
+      }
+    }
+  },
+  "features": {
+    "overline": "Naše prednosti",
+    "title": "Gradimo povjerenje, težimo izvrsnosti",
+    "items": {
+      "digital": {
+        "title": "Digitalna preciznost podataka",
+        "description": "Savremeni računovodstveni softver i digitalizovani procesi — tačni izvještaji i jasne analize za bolje poslovne odluke."
+      },
+      "grow": {
+        "title": "Računovodstvo koje raste s vama",
+        "description": "Fleksibilne usluge od prvog računa do stabilnog rasta — prilagođene preduzećima, poduzetnicima i udruženjima."
+      },
+      "licensed": {
+        "title": "Licencirana sigurnost osoblja",
+        "description": "Certificirani računovođe, agencija upisana pri Ministarstvu finansija — usluge usklađene sa zakonom, bez kompromisa."
+      }
+    }
+  },
+  "testimonials": {
+    "overline": "Drugi o nama",
+    "title": "Šta kažu naši klijenti",
+    "items": [
+      {
+        "quote": "Kao tehnološka kompanija cijenimo preciznost — Start HN nam daje upravo to. Bez kašnjenja, bez iznenađenja, i uvijek korak ispred propisa.",
+        "author": "Hamza Abdagić",
+        "role": "Vlasnik i direktor, Horizon Tech d.o.o.",
+        "image": "/testimonials/hamza.webp"
+      },
+      {
+        "quote": "Profesionalnost i posvećenost Start HN tima daleko su premašili naša očekivanja. Knjige su uvijek uredne i pravovremene, a savjeti praktični.",
+        "author": "Nedim Kulašin",
+        "role": "Vlasnik i direktor, qla.dev",
+        "image": "/testimonials/nedim.webp"
+      },
+      {
+        "quote": "Prešli smo na Start HN iz frustracije s prethodnim knjigovođom. Razlika je bila primjetna od prvog mjeseca — komunikacija, tačnost i proaktivno savjetovanje.",
+        "author": "Amra Begić",
+        "role": "Osnivačica, Fleki Caffe",
+        "image": "/testimonials/amra.webp"
+      },
+      {
+        "quote": "Virtual CFO usluga nam je promijenila način poslovanja. Konačno imamo realnu sliku kuda nam novac odlazi i gdje možemo rasti.",
+        "author": "Mirza Hadžić",
+        "role": "CEO, BH Gradnja",
+        "image": "/testimonials/mirza.webp"
+      }
+    ]
+  },
+  "values": {
+    "overline": "Naše vrijednosti",
+    "title": "Gradimo povjerenje, težimo izvrsnosti",
+    "description": "Integritet je temelj povjerenja — svaki naš savjet i preporuka slijede visoke profesionalne i etičke standarde, s ciljem potpunog očuvanja vaših interesa.",
+    "items": {
+      "integrity": { "name": "Integritet", "description": "Osnova svakog savjeta i odluke koju donosimo." },
+      "accountability": { "name": "Odgovornost", "description": "Stojimo iza svake preporuke i svakog izvještaja." },
+      "accessibility": { "name": "Pristupačnost", "description": "Direktan kontakt s računovođom, bez birokratije." },
+      "excellence": { "name": "Izvrsnost", "description": "Viša mjera za svaki izvještaj i svaku analizu." },
+      "transparency": { "name": "Transparentnost", "description": "Jasne brojke, jasni razgovori — bez skrivenih stavki." },
+      "dedication": { "name": "Posvećenost", "description": "Vaš uspjeh je naš uspjeh — rastemo zajedno s vama." }
+    },
+    "bullets": [
+      "Neprekidno usklađivanje s važećim propisima i etikom",
+      "Potpuna otvorenost i poštenje u komunikaciji",
+      "Stroga zaštita i povjerljivost svih poslovnih podataka"
+    ]
+  },
+  "promos": {
+    "team": {
+      "label": "Upoznajte naš tim",
+      "description": "Start HN čine računovođe s dugogodišnjim iskustvom u realnom sektoru i agencijskom knjigovodstvu. Praktično znanje i iskrena posvećenost čine nas partnerom u vašem rastu.",
+      "cta": "Upoznajte tim",
+      "href": "/team",
+      "image": "/promos/team.webp"
+    },
+    "services": {
+      "label": "Naše usluge",
+      "description": "Knjigovodstvo, porezno savjetovanje i Virtualni CFO — svako rješenje prilagodimo vašem biznisu, uz digitalne procese i tradicionalni pristup tamo gdje je potrebno.",
+      "cta": "Pregledajte usluge",
+      "href": "/services",
+      "image": "/promos/services.webp"
+    }
+  },
+  "contactCta": {
+    "overline": "Krenimo u saradnju",
+    "title": "Promjena počinje razgovorom",
+    "description": "Pokrećete biznis ili tražite pouzdanog partnera za računovodstvo? Uz Start HN niste sami — vodimo vas kroz prve korake i stojimo uz vas u svakodnevnom poslovanju.",
+    "bullets": [
+      "Siguran partner od samog osnivanja firme",
+      "Ažurno vođenje knjiga i izvještavanje",
+      "Digitalizacija i virtualni CFO"
+    ],
+    "formTitle": "Ispunite formular ispod",
+    "fields": {
+      "name": "Ime i prezime",
+      "email": "Email",
+      "service": "Potrebna usluga",
+      "message": "Poruka"
+    },
+    "servicePlaceholder": "Odaberite uslugu",
+    "serviceOptions": ["Knjigovodstvo i računovodstvo", "Porezno savjetovanje", "Virtualni CFO", "Finansijsko izvještavanje", "Edukacija", "Drugo"],
+    "submit": "Pošalji upit",
+    "success": "Hvala! Javit ćemo vam se u roku od jednog radnog dana."
+  },
+  "clients": {
+    "title": "Neki od naših lojalnih klijenata",
+    "items": [
+      { "name": "Advokat Tanja Srdanović", "logo": "/clients/srdanovic.webp", "href": "https://www.advokatsrdanovic.com" },
+      { "name": "Horizon Tech d.o.o.", "logo": "/clients/horizon.webp", "showLabel": true, "href": "https://www.horizon-tech.io" },
+      { "name": "qla.dev", "logo": "/clients/qladev.webp", "href": "https://qla.dev" },
+      { "name": "edu.ba", "logo": "/clients/edu-t.webp", "showLabel": true, "href": "https://edu.ba" },
+      { "name": "BH Gradnja", "logo": "/clients/bhgradnja-t.webp" },
+      { "name": "Caffe Fleki", "logo": "/clients/fleki-t.webp" },
+      { "name": "Feniks Car Holding", "logo": "/clients/feniks-t.webp" },
+      { "name": "Grafiden", "logo": "/clients/grafiden-t.webp" },
+      { "name": "Hit Start", "logo": "/clients/hitstart.webp" },
+      { "name": "Coco", "logo": "/clients/coco.webp" }
+    ]
   },
   "services": {
     "subtitle": "Naše usluge",
@@ -161,6 +365,18 @@
       "row2Aria": "Logotipi profesionalnih certifikacija, red 2",
       "row3Aria": "Logotipi regulatornih tijela, red 3"
     }
+  },
+  "chat": {
+    "badge": "AI asistent",
+    "title": "Pitajte nas bilo šta",
+    "description": "Razgovarajte s našim AI asistentom o našim uslugama, cijenama i načinu rada. Bez formulara, bez čekanja.",
+    "panelTitle": "Razgovor sa Start HN",
+    "prompts": [
+      "Kako mogu početi saradnju?",
+      "Koliko košta mjesečno knjigovodstvo?",
+      "Šta uključuje Virtualni CFO?",
+      "Radite li sa startupima i obrtnicima?"
+    ]
   },
   "faq": {
     "subtitle": "Česta pitanja",

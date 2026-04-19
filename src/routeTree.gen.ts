@@ -33,7 +33,6 @@ import { Route as Char123LocaleChar125AboutRouteImport } from './routes/{-$local
 import { Route as Char123LocaleChar125404RouteImport } from './routes/{-$locale}/404'
 import { Route as Char123LocaleChar125SplatRouteImport } from './routes/{-$locale}/$'
 import { Route as Char123LocaleChar125TeamIndexRouteImport } from './routes/{-$locale}/team.index'
-import { Route as Char123LocaleChar125CaseStudiesIndexRouteImport } from './routes/{-$locale}/case-studies.index'
 import { Route as Char123LocaleChar125BlogIndexRouteImport } from './routes/{-$locale}/blog.index'
 import { Route as Char123LocaleChar125AdminIndexRouteImport } from './routes/{-$locale}/admin/index'
 import { Route as Char123LocaleChar125TeamSlugRouteImport } from './routes/{-$locale}/team.$slug'
@@ -43,7 +42,6 @@ import { Route as Char123LocaleChar125ServicesDigitalTransformationRouteImport }
 import { Route as Char123LocaleChar125ServicesDevopsPlatformEngineeringRouteImport } from './routes/{-$locale}/services/devops-platform-engineering'
 import { Route as Char123LocaleChar125ServicesCloudArchitectureRouteImport } from './routes/{-$locale}/services/cloud-architecture'
 import { Route as Char123LocaleChar125ServicesAiMlBusinessIntelligenceRouteImport } from './routes/{-$locale}/services/ai-ml-business-intelligence'
-import { Route as Char123LocaleChar125CaseStudiesIdRouteImport } from './routes/{-$locale}/case-studies.$id'
 import { Route as Char123LocaleChar125BlogSlugRouteImport } from './routes/{-$locale}/blog.$slug'
 import { Route as Char123LocaleChar125AuthCallbackRouteImport } from './routes/{-$locale}/auth.callback'
 import { Route as Char123LocaleChar125AdminUsersRouteImport } from './routes/{-$locale}/admin/users'
@@ -198,12 +196,6 @@ const Char123LocaleChar125TeamIndexRoute =
     path: '/team/',
     getParentRoute: () => Char123LocaleChar125Route,
   } as any)
-const Char123LocaleChar125CaseStudiesIndexRoute =
-  Char123LocaleChar125CaseStudiesIndexRouteImport.update({
-    id: '/case-studies/',
-    path: '/case-studies/',
-    getParentRoute: () => Char123LocaleChar125Route,
-  } as any)
 const Char123LocaleChar125BlogIndexRoute =
   Char123LocaleChar125BlogIndexRouteImport.update({
     id: '/blog/',
@@ -256,12 +248,6 @@ const Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute =
   Char123LocaleChar125ServicesAiMlBusinessIntelligenceRouteImport.update({
     id: '/services/ai-ml-business-intelligence',
     path: '/services/ai-ml-business-intelligence',
-    getParentRoute: () => Char123LocaleChar125Route,
-  } as any)
-const Char123LocaleChar125CaseStudiesIdRoute =
-  Char123LocaleChar125CaseStudiesIdRouteImport.update({
-    id: '/case-studies/$id',
-    path: '/case-studies/$id',
     getParentRoute: () => Char123LocaleChar125Route,
   } as any)
 const Char123LocaleChar125BlogSlugRoute =
@@ -364,7 +350,6 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
   '/{-$locale}/auth/callback': typeof Char123LocaleChar125AuthCallbackRoute
   '/{-$locale}/blog/$slug': typeof Char123LocaleChar125BlogSlugRoute
-  '/{-$locale}/case-studies/$id': typeof Char123LocaleChar125CaseStudiesIdRoute
   '/{-$locale}/services/ai-ml-business-intelligence': typeof Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute
   '/{-$locale}/services/cloud-architecture': typeof Char123LocaleChar125ServicesCloudArchitectureRoute
   '/{-$locale}/services/devops-platform-engineering': typeof Char123LocaleChar125ServicesDevopsPlatformEngineeringRoute
@@ -374,7 +359,6 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/team/$slug': typeof Char123LocaleChar125TeamSlugRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/blog/': typeof Char123LocaleChar125BlogIndexRoute
-  '/{-$locale}/case-studies/': typeof Char123LocaleChar125CaseStudiesIndexRoute
   '/{-$locale}/team/': typeof Char123LocaleChar125TeamIndexRoute
   '/{-$locale}/admin/blog/editor': typeof Char123LocaleChar125AdminBlogEditorRoute
   '/{-$locale}/admin/case-studies/editor': typeof Char123LocaleChar125AdminCaseStudiesEditorRoute
@@ -410,7 +394,6 @@ export interface FileRoutesByTo {
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
   '/{-$locale}/auth/callback': typeof Char123LocaleChar125AuthCallbackRoute
   '/{-$locale}/blog/$slug': typeof Char123LocaleChar125BlogSlugRoute
-  '/{-$locale}/case-studies/$id': typeof Char123LocaleChar125CaseStudiesIdRoute
   '/{-$locale}/services/ai-ml-business-intelligence': typeof Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute
   '/{-$locale}/services/cloud-architecture': typeof Char123LocaleChar125ServicesCloudArchitectureRoute
   '/{-$locale}/services/devops-platform-engineering': typeof Char123LocaleChar125ServicesDevopsPlatformEngineeringRoute
@@ -420,7 +403,6 @@ export interface FileRoutesByTo {
   '/{-$locale}/team/$slug': typeof Char123LocaleChar125TeamSlugRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/blog': typeof Char123LocaleChar125BlogIndexRoute
-  '/{-$locale}/case-studies': typeof Char123LocaleChar125CaseStudiesIndexRoute
   '/{-$locale}/team': typeof Char123LocaleChar125TeamIndexRoute
   '/{-$locale}/admin/blog/editor': typeof Char123LocaleChar125AdminBlogEditorRoute
   '/{-$locale}/admin/case-studies/editor': typeof Char123LocaleChar125AdminCaseStudiesEditorRoute
@@ -459,7 +441,6 @@ export interface FileRoutesById {
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
   '/{-$locale}/auth/callback': typeof Char123LocaleChar125AuthCallbackRoute
   '/{-$locale}/blog/$slug': typeof Char123LocaleChar125BlogSlugRoute
-  '/{-$locale}/case-studies/$id': typeof Char123LocaleChar125CaseStudiesIdRoute
   '/{-$locale}/services/ai-ml-business-intelligence': typeof Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute
   '/{-$locale}/services/cloud-architecture': typeof Char123LocaleChar125ServicesCloudArchitectureRoute
   '/{-$locale}/services/devops-platform-engineering': typeof Char123LocaleChar125ServicesDevopsPlatformEngineeringRoute
@@ -469,7 +450,6 @@ export interface FileRoutesById {
   '/{-$locale}/team/$slug': typeof Char123LocaleChar125TeamSlugRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/blog/': typeof Char123LocaleChar125BlogIndexRoute
-  '/{-$locale}/case-studies/': typeof Char123LocaleChar125CaseStudiesIndexRoute
   '/{-$locale}/team/': typeof Char123LocaleChar125TeamIndexRoute
   '/{-$locale}/admin/blog_/editor': typeof Char123LocaleChar125AdminBlogEditorRoute
   '/{-$locale}/admin/case-studies_/editor': typeof Char123LocaleChar125AdminCaseStudiesEditorRoute
@@ -509,7 +489,6 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin/users'
     | '/{-$locale}/auth/callback'
     | '/{-$locale}/blog/$slug'
-    | '/{-$locale}/case-studies/$id'
     | '/{-$locale}/services/ai-ml-business-intelligence'
     | '/{-$locale}/services/cloud-architecture'
     | '/{-$locale}/services/devops-platform-engineering'
@@ -519,7 +498,6 @@ export interface FileRouteTypes {
     | '/{-$locale}/team/$slug'
     | '/{-$locale}/admin/'
     | '/{-$locale}/blog/'
-    | '/{-$locale}/case-studies/'
     | '/{-$locale}/team/'
     | '/{-$locale}/admin/blog/editor'
     | '/{-$locale}/admin/case-studies/editor'
@@ -555,7 +533,6 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin/users'
     | '/{-$locale}/auth/callback'
     | '/{-$locale}/blog/$slug'
-    | '/{-$locale}/case-studies/$id'
     | '/{-$locale}/services/ai-ml-business-intelligence'
     | '/{-$locale}/services/cloud-architecture'
     | '/{-$locale}/services/devops-platform-engineering'
@@ -565,7 +542,6 @@ export interface FileRouteTypes {
     | '/{-$locale}/team/$slug'
     | '/{-$locale}/admin'
     | '/{-$locale}/blog'
-    | '/{-$locale}/case-studies'
     | '/{-$locale}/team'
     | '/{-$locale}/admin/blog/editor'
     | '/{-$locale}/admin/case-studies/editor'
@@ -603,7 +579,6 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin/users'
     | '/{-$locale}/auth/callback'
     | '/{-$locale}/blog/$slug'
-    | '/{-$locale}/case-studies/$id'
     | '/{-$locale}/services/ai-ml-business-intelligence'
     | '/{-$locale}/services/cloud-architecture'
     | '/{-$locale}/services/devops-platform-engineering'
@@ -613,7 +588,6 @@ export interface FileRouteTypes {
     | '/{-$locale}/team/$slug'
     | '/{-$locale}/admin/'
     | '/{-$locale}/blog/'
-    | '/{-$locale}/case-studies/'
     | '/{-$locale}/team/'
     | '/{-$locale}/admin/blog_/editor'
     | '/{-$locale}/admin/case-studies_/editor'
@@ -793,13 +767,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125TeamIndexRouteImport
       parentRoute: typeof Char123LocaleChar125Route
     }
-    '/{-$locale}/case-studies/': {
-      id: '/{-$locale}/case-studies/'
-      path: '/case-studies'
-      fullPath: '/{-$locale}/case-studies/'
-      preLoaderRoute: typeof Char123LocaleChar125CaseStudiesIndexRouteImport
-      parentRoute: typeof Char123LocaleChar125Route
-    }
     '/{-$locale}/blog/': {
       id: '/{-$locale}/blog/'
       path: '/blog'
@@ -861,13 +828,6 @@ declare module '@tanstack/react-router' {
       path: '/services/ai-ml-business-intelligence'
       fullPath: '/{-$locale}/services/ai-ml-business-intelligence'
       preLoaderRoute: typeof Char123LocaleChar125ServicesAiMlBusinessIntelligenceRouteImport
-      parentRoute: typeof Char123LocaleChar125Route
-    }
-    '/{-$locale}/case-studies/$id': {
-      id: '/{-$locale}/case-studies/$id'
-      path: '/case-studies/$id'
-      fullPath: '/{-$locale}/case-studies/$id'
-      preLoaderRoute: typeof Char123LocaleChar125CaseStudiesIdRouteImport
       parentRoute: typeof Char123LocaleChar125Route
     }
     '/{-$locale}/blog/$slug': {
@@ -1011,7 +971,6 @@ interface Char123LocaleChar125RouteChildren {
   Char123LocaleChar125IndexRoute: typeof Char123LocaleChar125IndexRoute
   Char123LocaleChar125AuthCallbackRoute: typeof Char123LocaleChar125AuthCallbackRoute
   Char123LocaleChar125BlogSlugRoute: typeof Char123LocaleChar125BlogSlugRoute
-  Char123LocaleChar125CaseStudiesIdRoute: typeof Char123LocaleChar125CaseStudiesIdRoute
   Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute: typeof Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute
   Char123LocaleChar125ServicesCloudArchitectureRoute: typeof Char123LocaleChar125ServicesCloudArchitectureRoute
   Char123LocaleChar125ServicesDevopsPlatformEngineeringRoute: typeof Char123LocaleChar125ServicesDevopsPlatformEngineeringRoute
@@ -1020,7 +979,6 @@ interface Char123LocaleChar125RouteChildren {
   Char123LocaleChar125ServicesIotEdgeComputingRoute: typeof Char123LocaleChar125ServicesIotEdgeComputingRoute
   Char123LocaleChar125TeamSlugRoute: typeof Char123LocaleChar125TeamSlugRoute
   Char123LocaleChar125BlogIndexRoute: typeof Char123LocaleChar125BlogIndexRoute
-  Char123LocaleChar125CaseStudiesIndexRoute: typeof Char123LocaleChar125CaseStudiesIndexRoute
   Char123LocaleChar125TeamIndexRoute: typeof Char123LocaleChar125TeamIndexRoute
 }
 
@@ -1052,8 +1010,6 @@ const Char123LocaleChar125RouteChildren: Char123LocaleChar125RouteChildren = {
   Char123LocaleChar125IndexRoute: Char123LocaleChar125IndexRoute,
   Char123LocaleChar125AuthCallbackRoute: Char123LocaleChar125AuthCallbackRoute,
   Char123LocaleChar125BlogSlugRoute: Char123LocaleChar125BlogSlugRoute,
-  Char123LocaleChar125CaseStudiesIdRoute:
-    Char123LocaleChar125CaseStudiesIdRoute,
   Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute:
     Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute,
   Char123LocaleChar125ServicesCloudArchitectureRoute:
@@ -1068,8 +1024,6 @@ const Char123LocaleChar125RouteChildren: Char123LocaleChar125RouteChildren = {
     Char123LocaleChar125ServicesIotEdgeComputingRoute,
   Char123LocaleChar125TeamSlugRoute: Char123LocaleChar125TeamSlugRoute,
   Char123LocaleChar125BlogIndexRoute: Char123LocaleChar125BlogIndexRoute,
-  Char123LocaleChar125CaseStudiesIndexRoute:
-    Char123LocaleChar125CaseStudiesIndexRoute,
   Char123LocaleChar125TeamIndexRoute: Char123LocaleChar125TeamIndexRoute,
 }
 

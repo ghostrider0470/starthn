@@ -43,7 +43,10 @@ i18n
  */
 export async function loadTranslationsForSSR(locale: string): Promise<void> {
   if (typeof window !== 'undefined') return
-  if (i18n.hasResourceBundle(locale, 'common')) {
+  // In dev, always reload from disk so JSON edits pick up without a server restart.
+  // In prod the Worker's module/ASSETS layer is already the cache — re-reading is cheap
+  // but the hasResourceBundle short-circuit saves a few cycles per request.
+  if (!import.meta.env.DEV && i18n.hasResourceBundle(locale, 'common')) {
     if (i18n.language !== locale) await i18n.changeLanguage(locale)
     return
   }

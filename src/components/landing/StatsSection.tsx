@@ -1,100 +1,107 @@
-import { TrendingUp, Users, BarChart3, Clock } from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
+import { Link, useLocation } from '@tanstack/react-router'
+import { motion, useInView, useMotionValue, useTransform, animate } from 'motion/react'
+import { ArrowRight } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+import { Button } from '@/components/ui/button'
+import { designSystem } from '@/lib/design-system'
+import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
+import { cn } from '@/lib/utils'
 
-const stats = [
-  {
-    icon: Users,
-    value: '200+',
-    label: 'Projects Delivered',
-    description: 'Across diverse industries',
-  },
-  {
-    icon: BarChart3,
-    value: '50+',
-    label: 'Enterprise Clients',
-    description: 'Trusting our solutions',
-  },
-  {
-    icon: Clock,
-    value: '99%',
-    label: 'Client Satisfaction',
-    description: 'Consistently exceeding expectations',
-  },
-  {
-    icon: TrendingUp,
-    value: '99.9%',
-    label: 'Uptime SLA',
-    description: 'Reliable systems, always on',
-  },
-]
+const STAT_KEYS = ['clients', 'experience', 'hours', 'retention'] as const
+
+type StatItem = {
+  value: number
+  suffix: string
+  label: string
+  description: string
+}
+
+function Counter({ to, suffix, duration = 1.6 }: { to: number; suffix: string; duration?: number }) {
+  const ref = useRef<HTMLSpanElement>(null)
+  const inView = useInView(ref, { once: true, margin: '-80px' })
+  const count = useMotionValue(0)
+  const rounded = useTransform(count, (v) => Math.round(v).toLocaleString('bs-BA'))
+  const [display, setDisplay] = useState('0')
+
+  useEffect(() => {
+    if (!inView) return
+    const controls = animate(count, to, { duration, ease: [0.16, 1, 0.3, 1] })
+    const unsub = rounded.on('change', (v) => setDisplay(v))
+    return () => {
+      controls.stop()
+      unsub()
+    }
+  }, [inView, to, duration, count, rounded])
+
+  return (
+    <span ref={ref} className="tabular-nums">
+      {display}
+      <span className="text-primary">{suffix}</span>
+    </span>
+  )
+}
 
 export function StatsSection() {
+  const { t } = useTranslation('landing')
+  const location = useLocation()
+  const currentLocale = getLocaleFromPath(location.pathname)
+  const contactHref = withLocalePath('/contact', currentLocale)
+  const rawItems = t('stats.items', { returnObjects: true })
+  const items: Record<string, StatItem> =
+    rawItems && typeof rawItems === 'object' && !Array.isArray(rawItems)
+      ? (rawItems as Record<string, StatItem>)
+      : ({} as Record<string, StatItem>)
+
   return (
-    <section className="bg-gradient-to-b from-background via-primary/[0.04] to-background px-4 py-24">
-      <div className="container mx-auto max-w-7xl">
-        <div className="mb-12 text-center">
-          <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            Trusted by Industry Leaders Worldwide
-          </h2>
-          <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Partnering with forward-thinking organizations to build
-            exceptional software
-          </p>
-        </div>
+    <section className="relative bg-background py-20 md:py-28">
+      <div className={cn(designSystem.spacing.page.container, 'max-w-6xl')}>
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-80px' }}
+          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+          className="mb-14 flex flex-col items-start justify-between gap-6 border-b border-border/60 pb-10 md:flex-row md:items-end"
+        >
+          <div className="max-w-3xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
+              {t('stats.overline')}
+            </p>
+            <h2 className="mt-4 font-heading text-2xl font-bold leading-snug tracking-tight text-foreground sm:text-3xl md:text-4xl">
+              {t('stats.title')}
+            </h2>
+          </div>
+          <Button asChild size="lg" className="landing-cta-primary group shrink-0">
+            <Link to={contactHref}>
+              {t('stats.cta')}
+              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </Link>
+          </Button>
+        </motion.div>
 
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-          {stats.map((stat) => {
-            const Icon = stat.icon
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
+          {STAT_KEYS.map((key, i) => {
+            const stat = items[key]
             return (
-              <div
-                key={stat.label}
-                className="group relative overflow-hidden rounded-lg border bg-background p-6 transition-all hover:shadow-lg"
+              <motion.div
+                key={key}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-80px' }}
+                transition={{ duration: 0.5, delay: i * 0.08, ease: [0.16, 1, 0.3, 1] }}
               >
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
-
-                <div className="relative">
-                  <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                    <Icon className="h-6 w-6" />
-                  </div>
-
-                  <div className="space-y-2">
-                    <p className="text-3xl font-bold">{stat.value}</p>
-                    <p className="font-semibold">{stat.label}</p>
-                    <p className="text-sm text-muted-foreground">
-                      {stat.description}
-                    </p>
-                  </div>
+                <div className="font-heading text-5xl font-bold leading-none tracking-tight text-foreground md:text-6xl">
+                  <Counter to={stat.value} suffix={stat.suffix} />
                 </div>
-              </div>
+                <h3 className="mt-3 text-sm font-semibold uppercase tracking-wide text-foreground/80">
+                  {stat.label}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                  {stat.description}
+                </p>
+              </motion.div>
             )
           })}
-        </div>
-
-        <div className="mt-16 grid gap-8 lg:grid-cols-3">
-          <div className="rounded-lg border bg-background p-6">
-            <h3 className="mb-2 text-lg font-semibold">Technical Excellence</h3>
-            <p className="text-sm text-muted-foreground">
-              Built by senior engineers with deep expertise in cloud-native
-              architectures, microservices, and modern DevOps practices.
-            </p>
-          </div>
-
-          <div className="rounded-lg border bg-background p-6">
-            <h3 className="mb-2 text-lg font-semibold">Battle-Tested</h3>
-            <p className="text-sm text-muted-foreground">
-              Our solutions are proven in production at scale, handling
-              millions of transactions across diverse industries.
-            </p>
-          </div>
-
-          <div className="rounded-lg border bg-background p-6">
-            <h3 className="mb-2 text-lg font-semibold">
-              Continuous Delivery
-            </h3>
-            <p className="text-sm text-muted-foreground">
-              Automated pipelines, comprehensive testing, and iterative
-              releases ensure rapid, reliable delivery.
-            </p>
-          </div>
         </div>
       </div>
     </section>

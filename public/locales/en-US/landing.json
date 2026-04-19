@@ -1,13 +1,217 @@
 {
   "hero": {
-    "title": "Accounting That Understands Your Business",
-    "subtitle": "Bookkeeping · Tax Consulting · Virtual CFO · Financial Advisory",
-    "description": "From accurate books to strategic financial planning, we provide expert accounting support that fuels sustainable growth — compliant, reliable, and tailored to your goals.",
+    "slides": [
+      {
+        "overline": "Precision and transparency at every step",
+        "title": "Accounting tailored to your business",
+        "subtitle": "We run your books, you run your business — no stress, no surprises.",
+        "cta": "Start a conversation",
+        "href": "/contact"
+      },
+      {
+        "overline": "Comprehensive bookkeeping for micro, small, and medium businesses",
+        "title": "Your books in trusted hands",
+        "subtitle": "Our team ensures accuracy and regulatory compliance, freeing up your time to grow the business.",
+        "cta": "Explore our services",
+        "href": "/services"
+      },
+      {
+        "overline": "Expert support for sustainable growth",
+        "title": "Accounting that understands your business",
+        "subtitle": "Experience, precision, and solutions aligned with your goals.",
+        "cta": "Learn more about Start HN",
+        "href": "/about"
+      }
+    ],
     "cta": {
-      "primary": "Get Started",
-      "secondary": "Our Services"
+      "primary": "Start a conversation",
+      "secondary": "Our services"
     },
     "trustLine": "Trusted by businesses across Bosnia and Herzegovina"
+  },
+  "valueProps": {
+    "trust": {
+      "title": "Trust that lasts",
+      "description": "We build long-term client relationships rooted in accuracy, integrity, and a deep understanding of your business.",
+      "cta": "Learn more",
+      "href": "/about"
+    },
+    "services": {
+      "title": "Our services",
+      "description": "Bookkeeping, tax consulting, and Virtual CFO — transparent processes tailored to your business.",
+      "cta": "See services",
+      "href": "/services"
+    },
+    "expertise": {
+      "title": "Experience and expertise",
+      "description": "Our team delivers evidence-based advice and analysis so you can make confident business decisions.",
+      "cta": "Meet the team",
+      "href": "/team"
+    }
+  },
+  "whyChoose": {
+    "overline": "Why Start HN",
+    "title": "Your partner in growth — from the first invoice to group consolidation",
+    "description": "Start HN in Sarajevo supports associations, sole traders, and micro, small, and medium businesses. Our work is grounded in being up-to-date, precise, and fully committed to our clients — we don't chase deadlines, we stay ahead of them.",
+    "body": "We track regulatory changes and champion the digitalization of accounting — whether that means deploying internal systems with real-time visibility or handling documents delivered physically or by email. For clients who want deeper support, we offer a Virtual CFO service.",
+    "features": {
+      "personal": "Personal, individual approach",
+      "vcfo": "Virtual CFO",
+      "tailored": "Tailored solutions",
+      "online": "Online documents",
+      "education": "Continuous education",
+      "loyalty": "Loyalty program"
+    },
+    "cta": "All services"
+  },
+  "stats": {
+    "overline": "Our track record",
+    "title": "Your business deserves accounting that thinks ahead, reacts on time, and stands behind its numbers.",
+    "cta": "Start a conversation",
+    "items": {
+      "clients": {
+        "value": 50,
+        "suffix": "+",
+        "label": "Clients",
+        "description": "Micro and small businesses, sole traders, and associations who trust us and grow alongside our support."
+      },
+      "experience": {
+        "value": 15,
+        "suffix": "+",
+        "label": "Years of experience",
+        "description": "Combined experience in accounting, tax consulting, and financial management."
+      },
+      "hours": {
+        "value": 5000,
+        "suffix": "+",
+        "label": "Hours yearly",
+        "description": "Dedicated annually to analysis, advisory, and client support — wherever we're needed."
+      },
+      "retention": {
+        "value": 95,
+        "suffix": "%",
+        "label": "Referral rate",
+        "description": "Our growth is built on the trust and word-of-mouth of happy clients who keep sending us theirs."
+      }
+    }
+  },
+  "features": {
+    "overline": "Our strengths",
+    "title": "We build trust and aim for excellence",
+    "items": {
+      "digital": {
+        "title": "Digital precision with data",
+        "description": "Modern accounting software and digitalized processes — accurate reports and clear analysis for better decisions."
+      },
+      "grow": {
+        "title": "Accounting that grows with you",
+        "description": "Flexible services from your first invoice to steady growth — tailored for businesses, sole traders, and associations."
+      },
+      "licensed": {
+        "title": "Licensed, regulated professionals",
+        "description": "Certified accountants, agency registered with the Ministry of Finance — fully compliant, no compromises."
+      }
+    }
+  },
+  "testimonials": {
+    "overline": "What clients say",
+    "title": "Testimonials",
+    "items": [
+      {
+        "quote": "As a tech company we live and die by precision — Start HN gives us exactly that. No delays, no surprises, and always a step ahead of regulations.",
+        "author": "Hamza Abdagić",
+        "role": "Owner & Director, Horizon Tech d.o.o.",
+        "image": "/testimonials/hamza.webp"
+      },
+      {
+        "quote": "The professionalism and dedication of the Start HN team exceeded our expectations. The books are always accurate and on time, and the advice is practical.",
+        "author": "Nedim Kulašin",
+        "role": "Owner & Director, qla.dev",
+        "image": "/testimonials/nedim.webp"
+      },
+      {
+        "quote": "We moved to Start HN after frustration with our previous bookkeeper. The difference was clear from the first month — communication, accuracy, and proactive advice.",
+        "author": "Amra Begić",
+        "role": "Founder, Fleki Caffe",
+        "image": "/testimonials/amra.webp"
+      },
+      {
+        "quote": "The Virtual CFO service changed how we run our business. We finally have a real picture of where our money goes and where we can grow.",
+        "author": "Mirza Hadžić",
+        "role": "CEO, BH Gradnja",
+        "image": "/testimonials/mirza.webp"
+      }
+    ]
+  },
+  "values": {
+    "overline": "Our values",
+    "title": "We build trust and aim for excellence",
+    "description": "Integrity is the foundation of trust — every recommendation we make follows high professional and ethical standards, with the single goal of protecting your interests.",
+    "items": {
+      "integrity": { "name": "Integrity", "description": "The foundation of every recommendation we make." },
+      "accountability": { "name": "Accountability", "description": "We stand behind every report and every piece of advice." },
+      "accessibility": { "name": "Accessibility", "description": "Direct access to your accountant — no bureaucracy." },
+      "excellence": { "name": "Excellence", "description": "A higher bar for every report and analysis we produce." },
+      "transparency": { "name": "Transparency", "description": "Clear numbers, clear conversations — no hidden items." },
+      "dedication": { "name": "Dedication", "description": "Your success is our success — we grow alongside you." }
+    },
+    "bullets": [
+      "Continuous alignment with current regulations and ethics",
+      "Full openness and honesty in communication",
+      "Strict protection and confidentiality of business data"
+    ]
+  },
+  "promos": {
+    "team": {
+      "label": "Meet the team",
+      "description": "Start HN is a team of accountants with years of experience in the real economy and agency bookkeeping. Practical expertise and a genuine commitment make us partners in your growth.",
+      "cta": "Meet the team",
+      "href": "/team",
+      "image": "/promos/team.webp"
+    },
+    "services": {
+      "label": "Our services",
+      "description": "Bookkeeping, tax consulting, and Virtual CFO — we tailor every solution to your business, combining digital processes with a traditional approach where it counts.",
+      "cta": "See services",
+      "href": "/services",
+      "image": "/promos/services.webp"
+    }
+  },
+  "contactCta": {
+    "overline": "Let's get started",
+    "title": "Change begins with a conversation",
+    "description": "Launching a business or looking for a reliable accounting partner? With Start HN you're not on your own — we guide you through the first steps and stand by you in day-to-day operations.",
+    "bullets": [
+      "A trusted partner from company formation onward",
+      "On-time bookkeeping and reporting",
+      "Digitalization and Virtual CFO support"
+    ],
+    "formTitle": "Fill in the form below",
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "service": "Service needed",
+      "message": "Message"
+    },
+    "servicePlaceholder": "Choose a service",
+    "serviceOptions": ["Bookkeeping & Accounting", "Tax Consulting", "Virtual CFO", "Financial Reporting", "Education", "Other"],
+    "submit": "Send message",
+    "success": "Thanks! We'll get back to you within one business day."
+  },
+  "clients": {
+    "title": "Some of our long-standing clients",
+    "items": [
+      { "name": "Advokat Tanja Srdanović", "logo": "/clients/srdanovic.webp", "href": "https://www.advokatsrdanovic.com" },
+      { "name": "Horizon Tech d.o.o.", "logo": "/clients/horizon.webp", "showLabel": true, "href": "https://www.horizon-tech.io" },
+      { "name": "qla.dev", "logo": "/clients/qladev.webp", "href": "https://qla.dev" },
+      { "name": "edu.ba", "logo": "/clients/edu-t.webp", "showLabel": true, "href": "https://edu.ba" },
+      { "name": "BH Gradnja", "logo": "/clients/bhgradnja-t.webp" },
+      { "name": "Caffe Fleki", "logo": "/clients/fleki-t.webp" },
+      { "name": "Feniks Car Holding", "logo": "/clients/feniks-t.webp" },
+      { "name": "Grafiden", "logo": "/clients/grafiden-t.webp" },
+      { "name": "Hit Start", "logo": "/clients/hitstart.webp" },
+      { "name": "Coco", "logo": "/clients/coco.webp" }
+    ]
   },
   "services": {
     "subtitle": "Our Services",
@@ -161,6 +365,18 @@
       "row2Aria": "Professional certification logos row 2",
       "row3Aria": "Regulatory body logos row 3"
     }
+  },
+  "chat": {
+    "badge": "AI assistant",
+    "title": "Ask us anything",
+    "description": "Chat with our AI assistant about our services, pricing, and how we work. No forms, no waiting.",
+    "panelTitle": "Chat with Start HN",
+    "prompts": [
+      "How do I get started?",
+      "How much does monthly bookkeeping cost?",
+      "What does the Virtual CFO service include?",
+      "Do you work with startups and sole traders?"
+    ]
   },
   "faq": {
     "subtitle": "Common Questions",

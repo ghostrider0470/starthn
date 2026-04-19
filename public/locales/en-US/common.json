@@ -93,36 +93,45 @@
     }
   },
   "footer": {
-    "description": "Accounting agency based in Sarajevo, Bosnia. We provide bookkeeping, tax consulting, virtual CFO services, and financial reporting for businesses across BiH.",
-    "features": "Services",
-    "resources": "Resources",
+    "description": "Start HN is an accounting agency based in Sarajevo. We provide bookkeeping, tax consulting, Virtual CFO, and financial reporting for businesses across Bosnia and Herzegovina.",
+    "services": "Services",
+    "servicesList": {
+      "bookkeeping": "Bookkeeping",
+      "tax": "Tax consulting",
+      "vcfo": "Virtual CFO",
+      "reporting": "Financial reporting",
+      "consulting": "Business consulting",
+      "education": "Education"
+    },
     "company": "Company",
-    "legal": "Legal",
-    "dashboard": "Dashboard",
-    "components": "Components",
-    "documentation": "Documentation",
-    "apiReference": "API Reference",
-    "gettingStarted": "Getting Started",
-    "examples": "Examples",
-    "community": "Community",
-    "blog": "Blog",
-    "caseStudies": "Case Studies",
-    "innovationLabOverview": "Insights Overview",
-    "appliedAiSystems": "Tax & Compliance Updates",
-    "nlpDemo": "Accounting Best Practices",
-    "geneticAlgorithmSimulation": "Business Finance Tips",
-    "featuredBlogPost": "Featured Article",
-    "featuredCaseStudy": "Featured Case Study",
-    "about": "About",
+    "companyLinks": {
+      "about": "About",
+      "team": "Our team",
+      "blog": "Blog",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
     "contact": "Contact",
-    "partners": "Partners",
-    "careers": "Careers",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "cookiePolicy": "Cookie Policy",
-    "license": "License",
+    "contactInfo": {
+      "email": "klijenti@starthn.ba",
+      "phone": "+387 61 135-377",
+      "street": "Ibrahima Ljubovića 47",
+      "locality": "Ilidža",
+      "region": "Sarajevo Canton",
+      "country": "Bosnia and Herzegovina",
+      "hours": "Mon–Fri: 08:00–16:00",
+      "holidays": "Closed on public holidays"
+    },
+    "legal": "Legal",
+    "legalLinks": {
+      "privacyPolicy": "Privacy policy",
+      "termsOfService": "Terms of service",
+      "cookiePolicy": "Cookie policy"
+    },
     "copyright": "© {{year}} Start HN. All rights reserved.",
-    "subscribe": "Subscribe to newsletter"
+    "ctaTitle": "Ready to talk?",
+    "ctaDescription": "Schedule a free intro consultation — we'll respond within one business day.",
+    "ctaButton": "Contact us"
   },
   "header": {
     "badge": "Professional Accounting Services",

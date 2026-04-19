@@ -158,8 +158,8 @@ function RootComponent() {
           </AppErrorBoundary>
         </AuthProvider>
         <Suspense fallback={null}>
-          <TanStackRouterDevtools />
-          <ReactQueryDevtools buttonPosition="bottom-right" />
+          {/*<TanStackRouterDevtools />*/}
+          {/*<ReactQueryDevtools buttonPosition="bottom-right" />*/}
         </Suspense>
       </QueryClientProvider>
     </ThemeProvider>
@@ -244,6 +244,7 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       { rel: 'manifest', href: '/manifest.json' },
       { rel: 'canonical', href: 'https://starthn.ba/en-US' },
       { rel: 'preload', as: 'image', href: '/logo-64.webp', type: 'image/webp' },
+      { rel: 'preload', as: 'image', href: '/hero/slide-1.webp', type: 'image/webp', fetchPriority: 'high' },
     ],
     scripts: [
     ],

@@ -93,36 +93,45 @@
     }
   },
   "footer": {
-    "description": "Računovodstvena agencija sa sjedištem u Sarajevu, Bosna. Pružamo usluge knjigovodstva, poreznog savjetovanja, virtualnog CFO-a i finansijskog izvještavanja za preduzeća širom BiH.",
-    "features": "Usluge",
-    "resources": "Resursi",
+    "description": "Start HN je računovodstvena agencija sa sjedištem u Sarajevu. Pružamo knjigovodstvo, porezno savjetovanje, Virtualni CFO i finansijsko izvještavanje za preduzeća širom Bosne i Hercegovine.",
+    "services": "Usluge",
+    "servicesList": {
+      "bookkeeping": "Knjigovodstvo",
+      "tax": "Porezno savjetovanje",
+      "vcfo": "Virtualni CFO",
+      "reporting": "Finansijsko izvještavanje",
+      "consulting": "Poslovno savjetovanje",
+      "education": "Edukacija"
+    },
     "company": "Kompanija",
-    "legal": "Pravno",
-    "dashboard": "Kontrolna tabla",
-    "components": "Komponente",
-    "documentation": "Dokumentacija",
-    "apiReference": "API referenca",
-    "gettingStarted": "Početak rada",
-    "examples": "Primjeri",
-    "community": "Zajednica",
-    "blog": "Blog",
-    "caseStudies": "Studije slučaja",
-    "innovationLabOverview": "Pregled uvida",
-    "appliedAiSystems": "Porezne i usklađenosne novosti",
-    "nlpDemo": "Najbolje prakse u računovodstvu",
-    "geneticAlgorithmSimulation": "Savjeti za poslovne finansije",
-    "featuredBlogPost": "Istaknuti članak",
-    "featuredCaseStudy": "Istaknuta studija slučaja",
-    "about": "O nama",
+    "companyLinks": {
+      "about": "O nama",
+      "team": "Naš tim",
+      "blog": "Uspješne priče",
+      "careers": "Karijere",
+      "contact": "Kontakt"
+    },
     "contact": "Kontakt",
-    "partners": "Partneri",
-    "careers": "Karijere",
-    "privacyPolicy": "Politika privatnosti",
-    "termsOfService": "Uslovi korištenja",
-    "cookiePolicy": "Politika kolačića",
-    "license": "Licenca",
+    "contactInfo": {
+      "email": "klijenti@starthn.ba",
+      "phone": "+387 61 135-377",
+      "street": "Ibrahima Ljubovića 47",
+      "locality": "Ilidža",
+      "region": "Kanton Sarajevo",
+      "country": "Bosna i Hercegovina",
+      "hours": "Pon–Pet: 08:00–16:00",
+      "holidays": "Praznicima ne radimo"
+    },
+    "legal": "Pravno",
+    "legalLinks": {
+      "privacyPolicy": "Politika privatnosti",
+      "termsOfService": "Uslovi korištenja",
+      "cookiePolicy": "Politika kolačića"
+    },
     "copyright": "© {{year}} Start HN. Sva prava zadržana.",
-    "subscribe": "Pretplatite se na bilten"
+    "ctaTitle": "Spremni za razgovor?",
+    "ctaDescription": "Zakažite besplatnu uvodnu konsultaciju — odgovorit ćemo u roku od jednog radnog dana.",
+    "ctaButton": "Kontaktirajte nas"
   },
   "header": {
     "badge": "Profesionalne računovodstvene usluge",
