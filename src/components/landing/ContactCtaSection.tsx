@@ -64,7 +64,7 @@ export function ContactCtaSection() {
             transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
             className="relative overflow-hidden rounded-2xl bg-primary p-8 text-primary-foreground shadow-xl shadow-primary/20 md:p-10"
           >
-            <div aria-hidden className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-[oklch(0.85_0.15_90)]/30 blur-3xl" />
+            <div aria-hidden className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-[oklch(0.95_0.06_90)]/40 blur-3xl" />
             <h3 className="mb-6 font-heading text-xl font-semibold">
               {t('contactCta.formTitle')}
             </h3>

@@ -132,10 +132,10 @@ export function HeroSection() {
                   )}
                   aria-hidden={!active}
                 >
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[oklch(0.85_0.15_90)] sm:text-sm">
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[oklch(0.92_0.08_90)] sm:text-sm">
                     {slide.overline}
                   </p>
-                  <div className="my-5 h-px w-14 bg-[oklch(0.85_0.15_90)]/80" />
+                  <div className="my-5 h-px w-14 bg-[oklch(0.92_0.08_90)]/80" />
                   <h1 className="mb-6 font-heading text-4xl font-bold leading-[1.05] tracking-[-0.02em] text-white [text-wrap:balance] sm:text-5xl md:text-6xl lg:text-7xl">
                     {slide.title}
                   </h1>
@@ -207,14 +207,14 @@ export function HeroSection() {
                         {i === index && !effectivePaused && (
                           <motion.span
                             key={progressKey}
-                            className="absolute inset-y-0 left-0 rounded-full bg-[oklch(0.85_0.15_90)]"
+                            className="absolute inset-y-0 left-0 rounded-full bg-[oklch(0.92_0.08_90)]"
                             initial={{ width: '0%' }}
                             animate={{ width: '100%' }}
                             transition={{ duration: AUTO_ADVANCE_MS / 1000, ease: 'linear' }}
                           />
                         )}
                         {i === index && effectivePaused && (
-                          <span className="absolute inset-y-0 left-0 w-full rounded-full bg-[oklch(0.85_0.15_90)]" />
+                          <span className="absolute inset-y-0 left-0 w-full rounded-full bg-[oklch(0.92_0.08_90)]" />
                         )}
                       </span>
                     </button>
@@ -225,7 +225,7 @@ export function HeroSection() {
                   type="button"
                   onClick={next}
                   aria-label="Next slide"
-                  className="group grid h-11 w-11 place-items-center rounded-full border border-[oklch(0.85_0.15_90)]/70 bg-[oklch(0.55_0.14_85)] text-white shadow-lg shadow-black/20 transition hover:bg-[oklch(0.60_0.15_85)] sm:h-12 sm:w-12"
+                  className="group grid h-11 w-11 place-items-center rounded-full border border-[oklch(0.92_0.08_90)]/70 bg-[oklch(0.82_0.09_88)] text-[oklch(0.25_0.04_80)] shadow-lg shadow-black/20 transition hover:bg-[oklch(0.88_0.08_90)] sm:h-12 sm:w-12"
                 >
                   <ChevronRight className="h-5 w-5 transition-transform group-hover:translate-x-0.5" />
                 </button>
