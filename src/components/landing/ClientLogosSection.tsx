@@ -26,15 +26,15 @@ function ClientCell({ item }: { item: ClientItem }) {
 
   const content = (
     <>
-      <div className="flex h-16 w-full items-center justify-center px-2 py-2 md:h-[4.75rem]">
+      <div className="flex h-24 w-full items-center justify-center px-4 py-3 md:h-32">
         {item.logo ? (
           <>
             <img
               src={item.logo}
               alt={alt}
               title={item.name}
-              width={160}
-              height={64}
+              width={240}
+              height={120}
               loading="lazy"
               decoding="async"
               className={cn(
@@ -147,7 +147,7 @@ export function ClientLogosSection() {
       itemScope
       itemType="https://schema.org/Organization"
     >
-      <div className={cn(designSystem.spacing.page.container, 'max-w-3xl')}>
+      <div className={cn(designSystem.spacing.page.container, 'max-w-4xl')}>
         <motion.h2
           id="clients-heading"
           initial={{ opacity: 0 }}
