@@ -175,33 +175,33 @@ pre code {
   --card-foreground: oklch(0.15 0.02 250);
   --popover: oklch(0.995 0.003 80);
   --popover-foreground: oklch(0.15 0.02 250);
-  --primary: oklch(0.82 0.09 88);
-  --primary-foreground: oklch(0.25 0.04 80);
+  --primary: oklch(0.652 0.132 82);
+  --primary-foreground: oklch(0.98 0.005 80);
   --secondary: oklch(0.96 0.01 80);
   --secondary-foreground: oklch(0.25 0.02 250);
   --muted: oklch(0.94 0.01 80);
   --muted-foreground: oklch(0.4 0.02 250);
-  --accent: oklch(0.9 0.07 90);
+  --accent: oklch(0.80 0.09 82);
   --accent-foreground: oklch(0.25 0.04 80);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.98 0 0);
   --border: oklch(0.92 0.01 80);
   --input: oklch(0.92 0.01 80);
-  --ring: oklch(0.82 0.09 88);
-  /* Chart colors: pastel gold spectrum */
-  --chart-1: oklch(0.68 0.1 85); /* Warm deep */
-  --chart-2: oklch(0.75 0.1 87); /* Warm gold */
-  --chart-3: oklch(0.82 0.09 88); /* Pastel gold */
-  --chart-4: oklch(0.88 0.08 90); /* Soft gold */
-  --chart-5: oklch(0.93 0.05 90); /* Pale cream */
+  --ring: oklch(0.652 0.132 82);
+  /* Chart colors: dark gold spectrum */
+  --chart-1: oklch(0.52 0.13 80); /* Deep amber */
+  --chart-2: oklch(0.59 0.13 81); /* Rich gold */
+  --chart-3: oklch(0.652 0.132 82); /* Primary gold */
+  --chart-4: oklch(0.74 0.09 83); /* Soft gold */
+  --chart-5: oklch(0.86 0.05 84); /* Pale gold */
   --sidebar: oklch(0.975 0.007 80);
   --sidebar-foreground: oklch(0.15 0.02 250);
-  --sidebar-primary: oklch(0.82 0.09 88);
-  --sidebar-primary-foreground: oklch(0.25 0.04 80);
+  --sidebar-primary: oklch(0.652 0.132 82);
+  --sidebar-primary-foreground: oklch(0.98 0.005 80);
   --sidebar-accent: oklch(0.94 0.01 80);
   --sidebar-accent-foreground: oklch(0.15 0.02 250);
   --sidebar-border: oklch(0.92 0.01 80);
-  --sidebar-ring: oklch(0.82 0.09 88);
+  --sidebar-ring: oklch(0.652 0.132 82);
 }
 
 .dark {
@@ -211,33 +211,33 @@ pre code {
   --card-foreground: oklch(0.93 0.01 80);
   --popover: oklch(0.18 0.01 260);
   --popover-foreground: oklch(0.93 0.01 80);
-  --primary: oklch(0.82 0.07 88);
+  --primary: oklch(0.72 0.12 82);
   --primary-foreground: oklch(0.16 0.02 260);
   --secondary: oklch(0.24 0.01 260);
   --secondary-foreground: oklch(0.93 0.01 80);
   --muted: oklch(0.22 0.01 260);
   --muted-foreground: oklch(0.65 0.02 80);
-  --accent: oklch(0.72 0.08 88);
+  --accent: oklch(0.62 0.12 82);
   --accent-foreground: oklch(0.16 0.02 260);
   --destructive: oklch(0.704 0.191 22.216);
   --destructive-foreground: oklch(0.14 0.01 260);
   --border: oklch(1 0 0 / 14%);
   --input: oklch(1 0 0 / 18%);
-  --ring: oklch(0.82 0.07 88);
-  /* Dark chart colors: pastel gold spectrum */
-  --chart-1: oklch(0.86 0.06 90); /* Pale gold */
-  --chart-2: oklch(0.78 0.07 88); /* Soft gold */
-  --chart-3: oklch(0.7 0.08 87); /* Mid warm */
-  --chart-4: oklch(0.6 0.08 85); /* Deeper warm */
-  --chart-5: oklch(0.52 0.07 84); /* Muted warm */
+  --ring: oklch(0.72 0.12 82);
+  /* Dark chart colors: dark gold spectrum */
+  --chart-1: oklch(0.84 0.07 84); /* Pale gold */
+  --chart-2: oklch(0.76 0.09 83); /* Soft gold */
+  --chart-3: oklch(0.68 0.11 82); /* Mid gold */
+  --chart-4: oklch(0.58 0.12 81); /* Deeper gold */
+  --chart-5: oklch(0.50 0.10 80); /* Muted amber */
   --sidebar: oklch(0.17 0.01 260);
   --sidebar-foreground: oklch(0.93 0.01 80);
-  --sidebar-primary: oklch(0.82 0.07 88);
+  --sidebar-primary: oklch(0.72 0.12 82);
   --sidebar-primary-foreground: oklch(0.16 0.02 260);
   --sidebar-accent: oklch(0.22 0.01 260);
   --sidebar-accent-foreground: oklch(0.93 0.01 80);
   --sidebar-border: oklch(1 0 0 / 14%);
-  --sidebar-ring: oklch(0.82 0.07 88);
+  --sidebar-ring: oklch(0.72 0.12 82);
 }
 
 @layer base {
@@ -266,8 +266,8 @@ pre code {
 .bg-starthn-gradient {
   background: linear-gradient(
     135deg,
-    oklch(0.9 0.07 90) 0%,
-    oklch(0.76 0.08 88) 100%
+    oklch(0.76 0.10 83) 0%,
+    oklch(0.62 0.12 81) 100%
   );
 }
 
@@ -302,8 +302,8 @@ pre code {
 .text-starthn-gradient {
   background: linear-gradient(
     135deg,
-    oklch(0.86 0.08 90) 0%,
-    oklch(0.72 0.08 88) 100%
+    oklch(0.76 0.10 83) 0%,
+    oklch(0.60 0.13 81) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
