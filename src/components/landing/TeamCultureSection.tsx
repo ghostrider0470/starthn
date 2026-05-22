@@ -5,7 +5,13 @@ import { cn } from '@/lib/utils'
 import { PageContainer } from '@/components/layout/PageContainer'
 import { StandardCard } from '@/components/ui/standard-card'
 
-export function TeamCultureSection() {
+interface TeamCultureSectionProps {
+  embedded?: boolean
+}
+
+export function TeamCultureSection({
+  embedded = false,
+}: TeamCultureSectionProps) {
   const { t } = useTranslation('pages')
 
   const cultureHighlights = [
@@ -39,16 +45,11 @@ export function TeamCultureSection() {
   ]
 
   return (
-    <section className="bg-muted/30">
-      <PageContainer>
-        <div className="py-16 md:py-24">
+    <section className={embedded ? 'bg-transparent' : 'bg-muted/30'}>
+      <PageContainer maxWidth="xl" spacing={embedded ? 'none' : 'md'}>
+        <div className={embedded ? '' : 'py-16 md:py-24'}>
           <div className="text-center mb-12">
-            <h2
-              className={cn(
-                designSystem.typography.heading.h2,
-                'mb-4',
-              )}
-            >
+            <h2 className={cn(designSystem.typography.heading.h2, 'mb-4')}>
               {t('team.culture.title')}
             </h2>
             <p
@@ -81,10 +82,7 @@ export function TeamCultureSection() {
                     <Icon className="h-5 w-5 text-primary" />
                   </div>
                   <h3
-                    className={cn(
-                      designSystem.typography.heading.h5,
-                      'mb-1.5',
-                    )}
+                    className={cn(designSystem.typography.heading.h5, 'mb-1.5')}
                   >
                     {highlight.title}
                   </h3>

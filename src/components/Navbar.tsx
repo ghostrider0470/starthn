@@ -151,9 +151,14 @@ export function Navbar() {
           description: t('nav.about.description'),
         },
         {
-          title: t('nav.team.title'),
-          href: '/team',
-          description: t('nav.team.description'),
+          title: t('nav.missionVision.title'),
+          href: '/mission-vision',
+          description: t('nav.missionVision.description'),
+        },
+        {
+          title: t('nav.certificates.title'),
+          href: '/certificates',
+          description: t('nav.certificates.description'),
         },
         {
           title: t('nav.careers.title'),

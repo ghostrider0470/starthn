@@ -20,6 +20,7 @@ import { Route as Char123LocaleChar125RegisterRouteImport } from './routes/{-$lo
 import { Route as Char123LocaleChar125ProfileRouteImport } from './routes/{-$locale}/profile'
 import { Route as Char123LocaleChar125PrivacyRouteImport } from './routes/{-$locale}/privacy'
 import { Route as Char123LocaleChar125MyPageRouteImport } from './routes/{-$locale}/my-page'
+import { Route as Char123LocaleChar125MissionVisionRouteImport } from './routes/{-$locale}/mission-vision'
 import { Route as Char123LocaleChar125LoginRouteImport } from './routes/{-$locale}/login'
 import { Route as Char123LocaleChar125ForgotPasswordRouteImport } from './routes/{-$locale}/forgot-password'
 import { Route as Char123LocaleChar125FirstTimeSetupRouteImport } from './routes/{-$locale}/first-time-setup'
@@ -27,6 +28,7 @@ import { Route as Char123LocaleChar125EducationRouteImport } from './routes/{-$l
 import { Route as Char123LocaleChar125DashboardRouteImport } from './routes/{-$locale}/dashboard'
 import { Route as Char123LocaleChar125ContactRouteImport } from './routes/{-$locale}/contact'
 import { Route as Char123LocaleChar125ConfirmEmailRouteImport } from './routes/{-$locale}/confirm-email'
+import { Route as Char123LocaleChar125CertificatesRouteImport } from './routes/{-$locale}/certificates'
 import { Route as Char123LocaleChar125CareersRouteImport } from './routes/{-$locale}/careers'
 import { Route as Char123LocaleChar125AdminRouteImport } from './routes/{-$locale}/admin'
 import { Route as Char123LocaleChar125AboutRouteImport } from './routes/{-$locale}/about'
@@ -126,6 +128,12 @@ const Char123LocaleChar125MyPageRoute =
     path: '/my-page',
     getParentRoute: () => Char123LocaleChar125Route,
   } as any)
+const Char123LocaleChar125MissionVisionRoute =
+  Char123LocaleChar125MissionVisionRouteImport.update({
+    id: '/mission-vision',
+    path: '/mission-vision',
+    getParentRoute: () => Char123LocaleChar125Route,
+  } as any)
 const Char123LocaleChar125LoginRoute =
   Char123LocaleChar125LoginRouteImport.update({
     id: '/login',
@@ -166,6 +174,12 @@ const Char123LocaleChar125ConfirmEmailRoute =
   Char123LocaleChar125ConfirmEmailRouteImport.update({
     id: '/confirm-email',
     path: '/confirm-email',
+    getParentRoute: () => Char123LocaleChar125Route,
+  } as any)
+const Char123LocaleChar125CertificatesRoute =
+  Char123LocaleChar125CertificatesRouteImport.update({
+    id: '/certificates',
+    path: '/certificates',
     getParentRoute: () => Char123LocaleChar125Route,
   } as any)
 const Char123LocaleChar125CareersRoute =
@@ -373,6 +387,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/about': typeof Char123LocaleChar125AboutRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteWithChildren
   '/{-$locale}/careers': typeof Char123LocaleChar125CareersRoute
+  '/{-$locale}/certificates': typeof Char123LocaleChar125CertificatesRoute
   '/{-$locale}/confirm-email': typeof Char123LocaleChar125ConfirmEmailRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/dashboard': typeof Char123LocaleChar125DashboardRoute
@@ -380,6 +395,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/first-time-setup': typeof Char123LocaleChar125FirstTimeSetupRoute
   '/{-$locale}/forgot-password': typeof Char123LocaleChar125ForgotPasswordRoute
   '/{-$locale}/login': typeof Char123LocaleChar125LoginRoute
+  '/{-$locale}/mission-vision': typeof Char123LocaleChar125MissionVisionRoute
   '/{-$locale}/my-page': typeof Char123LocaleChar125MyPageRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/profile': typeof Char123LocaleChar125ProfileRoute
@@ -424,6 +440,7 @@ export interface FileRoutesByTo {
   '/{-$locale}/404': typeof Char123LocaleChar125404Route
   '/{-$locale}/about': typeof Char123LocaleChar125AboutRoute
   '/{-$locale}/careers': typeof Char123LocaleChar125CareersRoute
+  '/{-$locale}/certificates': typeof Char123LocaleChar125CertificatesRoute
   '/{-$locale}/confirm-email': typeof Char123LocaleChar125ConfirmEmailRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/dashboard': typeof Char123LocaleChar125DashboardRoute
@@ -431,6 +448,7 @@ export interface FileRoutesByTo {
   '/{-$locale}/first-time-setup': typeof Char123LocaleChar125FirstTimeSetupRoute
   '/{-$locale}/forgot-password': typeof Char123LocaleChar125ForgotPasswordRoute
   '/{-$locale}/login': typeof Char123LocaleChar125LoginRoute
+  '/{-$locale}/mission-vision': typeof Char123LocaleChar125MissionVisionRoute
   '/{-$locale}/my-page': typeof Char123LocaleChar125MyPageRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/profile': typeof Char123LocaleChar125ProfileRoute
@@ -478,6 +496,7 @@ export interface FileRoutesById {
   '/{-$locale}/about': typeof Char123LocaleChar125AboutRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteWithChildren
   '/{-$locale}/careers': typeof Char123LocaleChar125CareersRoute
+  '/{-$locale}/certificates': typeof Char123LocaleChar125CertificatesRoute
   '/{-$locale}/confirm-email': typeof Char123LocaleChar125ConfirmEmailRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/dashboard': typeof Char123LocaleChar125DashboardRoute
@@ -485,6 +504,7 @@ export interface FileRoutesById {
   '/{-$locale}/first-time-setup': typeof Char123LocaleChar125FirstTimeSetupRoute
   '/{-$locale}/forgot-password': typeof Char123LocaleChar125ForgotPasswordRoute
   '/{-$locale}/login': typeof Char123LocaleChar125LoginRoute
+  '/{-$locale}/mission-vision': typeof Char123LocaleChar125MissionVisionRoute
   '/{-$locale}/my-page': typeof Char123LocaleChar125MyPageRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
   '/{-$locale}/profile': typeof Char123LocaleChar125ProfileRoute
@@ -533,6 +553,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/about'
     | '/{-$locale}/admin'
     | '/{-$locale}/careers'
+    | '/{-$locale}/certificates'
     | '/{-$locale}/confirm-email'
     | '/{-$locale}/contact'
     | '/{-$locale}/dashboard'
@@ -540,6 +561,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/first-time-setup'
     | '/{-$locale}/forgot-password'
     | '/{-$locale}/login'
+    | '/{-$locale}/mission-vision'
     | '/{-$locale}/my-page'
     | '/{-$locale}/privacy'
     | '/{-$locale}/profile'
@@ -584,6 +606,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/404'
     | '/{-$locale}/about'
     | '/{-$locale}/careers'
+    | '/{-$locale}/certificates'
     | '/{-$locale}/confirm-email'
     | '/{-$locale}/contact'
     | '/{-$locale}/dashboard'
@@ -591,6 +614,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/first-time-setup'
     | '/{-$locale}/forgot-password'
     | '/{-$locale}/login'
+    | '/{-$locale}/mission-vision'
     | '/{-$locale}/my-page'
     | '/{-$locale}/privacy'
     | '/{-$locale}/profile'
@@ -637,6 +661,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/about'
     | '/{-$locale}/admin'
     | '/{-$locale}/careers'
+    | '/{-$locale}/certificates'
     | '/{-$locale}/confirm-email'
     | '/{-$locale}/contact'
     | '/{-$locale}/dashboard'
@@ -644,6 +669,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/first-time-setup'
     | '/{-$locale}/forgot-password'
     | '/{-$locale}/login'
+    | '/{-$locale}/mission-vision'
     | '/{-$locale}/my-page'
     | '/{-$locale}/privacy'
     | '/{-$locale}/profile'
@@ -767,6 +793,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125MyPageRouteImport
       parentRoute: typeof Char123LocaleChar125Route
     }
+    '/{-$locale}/mission-vision': {
+      id: '/{-$locale}/mission-vision'
+      path: '/mission-vision'
+      fullPath: '/{-$locale}/mission-vision'
+      preLoaderRoute: typeof Char123LocaleChar125MissionVisionRouteImport
+      parentRoute: typeof Char123LocaleChar125Route
+    }
     '/{-$locale}/login': {
       id: '/{-$locale}/login'
       path: '/login'
@@ -814,6 +847,13 @@ declare module '@tanstack/react-router' {
       path: '/confirm-email'
       fullPath: '/{-$locale}/confirm-email'
       preLoaderRoute: typeof Char123LocaleChar125ConfirmEmailRouteImport
+      parentRoute: typeof Char123LocaleChar125Route
+    }
+    '/{-$locale}/certificates': {
+      id: '/{-$locale}/certificates'
+      path: '/certificates'
+      fullPath: '/{-$locale}/certificates'
+      preLoaderRoute: typeof Char123LocaleChar125CertificatesRouteImport
       parentRoute: typeof Char123LocaleChar125Route
     }
     '/{-$locale}/careers': {
@@ -1092,6 +1132,7 @@ interface Char123LocaleChar125RouteChildren {
   Char123LocaleChar125AboutRoute: typeof Char123LocaleChar125AboutRoute
   Char123LocaleChar125AdminRoute: typeof Char123LocaleChar125AdminRouteWithChildren
   Char123LocaleChar125CareersRoute: typeof Char123LocaleChar125CareersRoute
+  Char123LocaleChar125CertificatesRoute: typeof Char123LocaleChar125CertificatesRoute
   Char123LocaleChar125ConfirmEmailRoute: typeof Char123LocaleChar125ConfirmEmailRoute
   Char123LocaleChar125ContactRoute: typeof Char123LocaleChar125ContactRoute
   Char123LocaleChar125DashboardRoute: typeof Char123LocaleChar125DashboardRoute
@@ -1099,6 +1140,7 @@ interface Char123LocaleChar125RouteChildren {
   Char123LocaleChar125FirstTimeSetupRoute: typeof Char123LocaleChar125FirstTimeSetupRoute
   Char123LocaleChar125ForgotPasswordRoute: typeof Char123LocaleChar125ForgotPasswordRoute
   Char123LocaleChar125LoginRoute: typeof Char123LocaleChar125LoginRoute
+  Char123LocaleChar125MissionVisionRoute: typeof Char123LocaleChar125MissionVisionRoute
   Char123LocaleChar125MyPageRoute: typeof Char123LocaleChar125MyPageRoute
   Char123LocaleChar125PrivacyRoute: typeof Char123LocaleChar125PrivacyRoute
   Char123LocaleChar125ProfileRoute: typeof Char123LocaleChar125ProfileRoute
@@ -1135,6 +1177,7 @@ const Char123LocaleChar125RouteChildren: Char123LocaleChar125RouteChildren = {
   Char123LocaleChar125AboutRoute: Char123LocaleChar125AboutRoute,
   Char123LocaleChar125AdminRoute: Char123LocaleChar125AdminRouteWithChildren,
   Char123LocaleChar125CareersRoute: Char123LocaleChar125CareersRoute,
+  Char123LocaleChar125CertificatesRoute: Char123LocaleChar125CertificatesRoute,
   Char123LocaleChar125ConfirmEmailRoute: Char123LocaleChar125ConfirmEmailRoute,
   Char123LocaleChar125ContactRoute: Char123LocaleChar125ContactRoute,
   Char123LocaleChar125DashboardRoute: Char123LocaleChar125DashboardRoute,
@@ -1144,6 +1187,8 @@ const Char123LocaleChar125RouteChildren: Char123LocaleChar125RouteChildren = {
   Char123LocaleChar125ForgotPasswordRoute:
     Char123LocaleChar125ForgotPasswordRoute,
   Char123LocaleChar125LoginRoute: Char123LocaleChar125LoginRoute,
+  Char123LocaleChar125MissionVisionRoute:
+    Char123LocaleChar125MissionVisionRoute,
   Char123LocaleChar125MyPageRoute: Char123LocaleChar125MyPageRoute,
   Char123LocaleChar125PrivacyRoute: Char123LocaleChar125PrivacyRoute,
   Char123LocaleChar125ProfileRoute: Char123LocaleChar125ProfileRoute,

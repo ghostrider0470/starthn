@@ -14,7 +14,7 @@ const SOCIALS = [
 ] as const
 
 const SERVICE_KEYS = ['bookkeeping', 'tax', 'vcfo', 'consulting', 'reporting', 'education'] as const
-const COMPANY_KEYS = ['about', 'team', 'blog', 'careers', 'contact'] as const
+const COMPANY_KEYS = ['about', 'missionVision', 'certificates', 'blog', 'careers', 'contact'] as const
 const LEGAL_KEYS = ['privacyPolicy', 'termsOfService', 'cookiePolicy'] as const
 
 const serviceHrefs: Record<(typeof SERVICE_KEYS)[number], string> = {
@@ -28,7 +28,8 @@ const serviceHrefs: Record<(typeof SERVICE_KEYS)[number], string> = {
 
 const companyHrefs: Record<(typeof COMPANY_KEYS)[number], string> = {
   about: '/about',
-  team: '/team',
+  missionVision: '/mission-vision',
+  certificates: '/certificates',
   blog: '/blog',
   careers: '/careers',
   contact: '/contact',

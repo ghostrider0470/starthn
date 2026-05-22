@@ -4,56 +4,163 @@
     "hero": {
       "titlePrefix": "Pouzdano računovodstvo,",
       "titleHighlight": "Pravo partnerstvo",
-      "description": "Start HN d.o.o. je sarajevska računovodstvena agencija koja pomaže poduzetnicima, malim i srednjim preduzećima da upravljaju finansijama s pouzdanjem i jasnošću."
+      "description": "Start HN je računovodstvena agencija posvećena rastu i uspjehu poduzetnika, te mikro i malih privrednih društava u Bosni i Hercegovini."
     },
-    "sections": {
-      "mission": {
-        "title": "Misija",
-        "description": "Pomažemo vlasnicima biznisa da se fokusiraju na rast, dok mi preuzimamo teret računovodstva i zakonske usklađenosti.",
-        "points": [
-          "Tačno i pravovremeno knjiženje na koje možete računati.",
-          "Proaktivno poresko planiranje koje minimizira obaveze.",
-          "Jasni finansijski izvještaji koji podržavaju bolje poslovne odluke."
-        ]
-      },
-      "expertise": {
-        "title": "Stručnost",
-        "description": "Naši certificirani računovođe donose duboko znanje poreskog zakonodavstva BiH, obračuna plata i finansijskog izvještavanja.",
-        "points": [
-          "Kompletno knjigovodstvo i upravljanje poslovnim knjigama.",
-          "Usklađenost s PDV-om, porezom na dohodak i obračunom plata.",
-          "vCFO savjetovanje za preduzeća koja su spremna za rast."
-        ]
-      },
-      "approach": {
-        "title": "Pristup",
-        "description": "Funkcionišemo kao pravo proširenje vašeg tima — brzi, transparentni i uvijek korak ispred rokova.",
-        "points": [
-          "Onboarding: upoznajemo vaš biznis, sisteme i obaveze.",
-          "Upravljanje: vodimo sve svakodnevno računovodstvo i podnošenje prijava na vrijeme.",
-          "Savjetovanje: pružamo uvide koji vam pomažu da rastete s pouzdanjem."
-        ]
-      }
+    "welcome": {
+      "tagline": "Svaki dan dokazujemo da stručnost i jasnoća finansijskih izvještaja grade čvrstu podlogu za nove poslovne prilike.",
+      "para1": "Računovodstvena agencija START HN iz Sarajeva pruža podršku udruženjima, obrtnicima, mikro, malim i srednjim privrednim društvima. Naš rad temelji se na ažurnosti, stručnosti i povjerenju — ne hvatamo 'zadnji voz', već osiguravamo da sve zakonske obaveze budu ispunjene na vrijeme.",
+      "para2": "Od samog osnivanja, naš cilj je bio jasan: spojiti računovodstvenu preciznost i digitalizaciju procesa. Vjerujemo da računovodstvo nije samo bilježenje prošlih događaja, već alat za donošenje pravovremenih poslovnih odluka. Zato se zalažemo za uvođenje digitalnih rješenja koja omogućavaju klijentima stalni uvid u svoje podatke, ali nudimo i tradicionalan pristup za one koji radije dostavljaju dokumentaciju fizički ili e-mailom.",
+      "para3": "Pored redovnog vođenja knjiga, našim klijentima pružamo i dodatnu vrijednost kroz uslugu Virtualnog CFO-a, koja omogućava strateško finansijsko savjetovanje i dublju analizu poslovanja. Posebno mjesto zauzimaju startup kompanije, kojima nudimo pogodnosti i punu podršku od prvog dana poslovanja."
     },
+    "whyUs": {
+      "title": "Zašto Start HN?",
+      "subtitle": "Kako Vam možemo olakšati poslovanje?",
+      "description": "Kombinujemo iskustvo iz lokalnog poslovnog okruženja i savremene računovodstvene prakse kako bismo vam osigurali tačne informacije, pravovremene odluke i stabilan rast.",
+      "pillars": [
+        "Pravovremeno i tačno računovodstvo",
+        "Prilagođene usluge",
+        "Neprekidna podrška i savjetovanje",
+        "Jasne cijene i bez skrivenih troškova"
+      ]
+    },
+    "features": [
+      { "icon": "award", "title": "Iskustvo i stručnost", "description": "Naš tim donosi desetljeće praktične prakse i certifikate iz računovodstva." },
+      { "icon": "barChart3", "title": "Detaljne analize", "description": "Prilagođeni izvještaji i budžeti pomažu vam donositi informirane odluke." },
+      { "icon": "settings2", "title": "Prilagođena rješenja", "description": "Automatiziramo rutinske zadatke koristeći cloud i moderne platforme." },
+      { "icon": "userCheck", "title": "Individualiziran pristup", "description": "Svakom klijentu pristupamo s posebnom pažnjom i predanošću, osiguravajući iskustvo na najvišem nivou." },
+      { "icon": "trendingUp", "title": "Proaktivno savjetovanje", "description": "Redovno identificiramo prilike za uštedu i optimizaciju prije nego što postanu problem." },
+      { "icon": "shieldCheck", "title": "Iskrenost i integritet", "description": "Naša komunikacija je uvijek otvorena i poštena, uz strogo poštivanje profesionalnih i etičkih standarda." }
+    ],
     "cta": {
-      "title": "Spremni da pojednostavite računovodstvo?",
-      "description": "Pridružite se rastućoj listi preduzeća koja vjeruju Start HN-u da drži knjige u redu i poreze na vrijeme.",
-      "primary": "Počnite",
+      "title": "Sarađujte sa nama",
+      "description": "Od strategija rasta za startupe u ranoj fazi do podrške postojećim privrednim društvima — mi to radimo od samog početka! Rezultati sami govore.",
+      "primary": "Kontaktirajte nas",
       "secondary": "Pogledajte naše usluge"
     }
   },
-  "contact": {
-    "badge": "Kontaktirajte nas",
+  "missionVision": {
+    "badge": "Ko smo mi",
     "hero": {
-      "title": "Kontaktirajte nas",
-      "description": "Imate li neki projekat na umu? Voljeli bismo čuti vaše mišljenje. Javite se da razgovaramo o tome kako vam možemo pomoći da vaše ideje ostvare."
+      "title": "Misija, vizija",
+      "titleHighlight": "i vrijednosti",
+      "description": "Jasni ciljevi, snažne vrijednosti i neprekidna težnja ka izvrsnosti koja nas vodi u svakom koraku."
+    },
+    "mission": {
+      "label": "Naša misija",
+      "heading": "Pravovremene informacije. Individualan pristup.",
+      "body": "Omogućiti klijentima ažurne i pravovremene informacije uz savremena rješenja i individualan pristup, podržavajući i digitalne i tradicionalne modele rada."
+    },
+    "vision": {
+      "label": "Naša vizija",
+      "heading": "Biti prvi izbor za MSP-ove i startupe u BiH.",
+      "body": "Biti prvi izbor za mala i srednja preduzeća i startupe u BiH kroz digitalizaciju računovodstva i razvoj sistema koji olakšavaju rad i ubrzavaju poslovne odluke."
+    },
+    "values": {
+      "label": "Naše vrijednosti",
+      "heading": "Principi koji stoje iza svega što radimo",
+      "items": [
+        {
+          "icon": "target",
+          "title": "Rezultati kroz povjerenje i tačnost",
+          "description": "Naša misija je da budemo pouzdan partner, koji svojim znanjem i pravovremenim informacijama omogućava klijentima sigurnost i jasnu osnovu za donošenje poslovnih odluka."
+        },
+        {
+          "icon": "shieldCheck",
+          "title": "Odgovornost u svemu što radimo",
+          "description": "Svaki izvještaj, svaka prijava i svaka preporuka nose naš potpis. Preuzimamo punu odgovornost za svoj rad, jer znamo koliko je važna tačnost i ažurnost u poslovanju naših klijenata."
+        },
+        {
+          "icon": "users",
+          "title": "Klijent u centru pažnje",
+          "description": "Bilo da se radi o startupu koji tek počinje ili o firmi sa dugogodišnjim iskustvom, naš pristup je uvijek isti: slušamo, razumijemo i prilagođavamo se potrebama klijenta, nudeći rješenja po mjeri."
+        },
+        {
+          "icon": "zap",
+          "title": "Digitalizacija kao pravac razvoja",
+          "description": "Vjerujemo da je digitalizacija računovodstva ključna za brže i efikasnije poslovanje. Zbog toga se stalno usavršavamo i uvodimo nova rješenja kako bismo našim klijentima omogućili stalni uvid u njihove finansije."
+        },
+        {
+          "icon": "lock",
+          "title": "Poslovna etika i povjerljivost",
+          "description": "Čuvanje povjerljivosti i poštovanje najviših etičkih standarda temelj su našeg rada. Naši klijenti znaju da njihovi podaci ostaju sigurni, a da naš savjet uvijek dolazi iz profesionalne i stručne namjere."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Spremni za saradnju?",
+      "description": "Kontaktirajte nas i pokažimo vam kako možemo podržati vaše poslovanje s preciznošću, integritetom i predanošću.",
+      "button": "Kontaktirajte nas"
+    }
+  },
+  "certificates": {
+    "badge": "Ovlaštenja",
+    "hero": {
+      "title": "Certifikati i",
+      "titleHighlight": "priznanja",
+      "description": "Naša predanost izvrsnosti potvrđena kroz profesionalne licence i ostvarene rezultate."
+    },
+    "intro": {
+      "heading": "Po čemu se izdvajamo",
+      "para1": "U računovodstvu povjerenje nije samo riječ – ono se gradi na stručnosti, zakonitosti i odgovornosti. Zato je za nas u START HN svaki certifikat i svaka zvanična potvrda mnogo više od dokumenta: to je dokaz da naš rad prolazi kroz najstrože provjere, da poštujemo propise i da njegujemo profesionalne i etičke standarde.",
+      "para2": "Kroz godine ulaganja u znanje, edukaciju i razvoj, stekli smo licence i priznanja koja potvrđuju našu posvećenost klijentima i kvalitetu usluga koje pružamo. Oni su ujedno i garancija da nas možete birati s punim povjerenjem, znajući da vaše poslovanje gradimo na čvrstim i zakonitim temeljima."
+    },
+    "gallery": {
+      "heading": "Naši certifikati",
+      "items": [
+        {
+          "image": "/certificates/srrf-bih.png",
+          "title": "Certificirani računovođa",
+          "description": "Dokaz o stručnosti i sticanju zvanja u računovodstvenoj profesiji"
+        },
+        {
+          "image": "/certificates/kpmg-expert.webp",
+          "title": "Forenzički revizor",
+          "description": "Potvrda dodatne ekspertize u oblasti finansijske forenzike"
+        },
+        {
+          "image": "/certificates/award-consulting.webp",
+          "title": "EU Fondovi – kako do bespovratnih sredstava",
+          "description": "Znanje o procesima apliciranja i mogućnostima povlačenja EU sredstava."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Radite sa certificiranim timom",
+      "description": "Naše licence i profesionalne certifikacije su vaša garancija da je vaše računovodstvo u sigurnim, stručnim rukama.",
+      "button": "Kontaktirajte nas"
+    }
+  },
+  "contact": {
+    "badge": "Kontakt Start HN",
+    "hero": {
+      "title": "Razgovarajmo o vašem računovodstvu",
+      "description": "Recite nam gdje je vaš biznis danas i šta vam treba dalje. Usmjerit ćemo vas ka pravoj računovodstvenoj, poreskoj ili savjetodavnoj podršci bez komplikovanja prvog koraka."
     },
     "info": {
       "title": "Kontakt informacije"
     },
     "booking": {
       "title": "Zakažite sastanak",
-      "description": "Zakažite besplatan 30-minutni poziv za otkrivanje dokaza"
+      "description": "Zatražite fokusirane 30-minutne konsultacije"
+    },
+    "channels": {
+      "title": "Počnite kroz pravi kanal",
+      "description": "Odaberite put koji odgovara zadatku: zatražite konsultacije, pošaljite detalje pisano ili otvorite asistenta kada je chat dostupan.",
+      "meeting": {
+        "title": "Zakažite sastanak",
+        "description": "Pošaljite zahtjev za sastanak i uskladit ćemo prvi dostupan termin za konsultacije.",
+        "action": "Zatražite termin"
+      },
+      "form": {
+        "title": "Pošaljite poruku",
+        "description": "Podijelite kontekst jednom, a mi ćemo odgovoriti s pravim sljedećim korakom.",
+        "action": "Otvorite formu"
+      },
+      "chat": {
+        "title": "Razgovarajte s AI asistentom",
+        "description": "Dobijte brze odgovore o uslugama, dokumentima i čestim računovodstvenim pitanjima.",
+        "action": "Otvorite chat"
+      }
     },
     "methods": {
       "email": {
@@ -69,7 +176,7 @@
       "response": {
         "title": "Vrijeme reakcije",
         "description": "Obično reagujemo unutar",
-        "value": "24-48 sati"
+        "value": "jednog radnog dana"
       }
     },
     "departments": {
@@ -77,7 +184,7 @@
         "label": "Novi projekat"
       },
       "support": {
-        "label": "Tehnička podrška"
+        "label": "Računovodstvena podrška"
       },
       "partnerships": {
         "label": "Partnerstva"
@@ -86,7 +193,7 @@
         "label": "Karijere"
       },
       "general": {
-        "label": "Opća istraga"
+        "label": "Opći upit"
       }
     },
     "form": {
@@ -211,122 +318,140 @@
   "careers": {
     "badge": "Pridružite se našem timu",
     "hero": {
-      "titlePrefix": "Izgradite budućnost",
-      "titleHighlight": "Sa nama",
-      "description": "Pridružite se timu inženjera koji razvijaju najsavremeniji softver za globalne klijente. Radite na daljinu, stalno napredujte i ostvarite stvaran utjecaj.",
-      "button": "Vidi Pozicije"
+      "title": "Rastite s nama u",
+      "titleHighlight": "Računovodstvu i finansijama",
+      "description": "Start HN je rastuća računovodstvena agencija. Tražimo posvećene stručnjake koji žele izgraditi smislenu karijeru u računovodstvu, porezu i finansijskim uslugama.",
+      "button": "Pogledajte otvorena mjesta"
     },
+    "perks": [
+      { "title": "Stabilno zaposlenje", "description": "Dugoročna karijera u rastućoj računovodstvenoj agenciji" },
+      { "title": "Profesionalni razvoj", "description": "Obuke, mentorstvo i podrška za certifikate" },
+      { "title": "Timska podrška", "description": "Pozitivno okruženje u kojem ćete biti saslušani" }
+    ],
     "process": {
-      "title": "Naš proces zapošljavanja",
-      "description": "Transparentan, efikasan i poštuje vaše vrijeme",
+      "title": "Kako zapošljavamo",
+      "description": "Jednostavan, transparentan proces s poštovanjem vašeg vremena",
       "steps": [
         {
-          "title": "Prijavite se",
-          "description": "Pošaljite svoju prijavu i mi ćemo je pregledati u roku od 3 radna dana."
+          "title": "Pošaljite CV",
+          "description": "Pošaljite nam vaš CV i motivaciono pismo na našu e-mail adresu."
         },
         {
-          "title": "Početni razgovor",
-          "description": "30-minutni video poziv za razgovor o vašem iskustvu i očekivanjima."
+          "title": "Poziv na intervju",
+          "description": "Kontaktiramo kandidate koji zadovolje uvjete i pozivamo ih na razgovor."
         },
         {
-          "title": "Tehnički podaci",
-          "description": "Tehnički intervju ili praktična vježba da pokažete svoje vještine."
-        },
-        {
-          "title": "Ponuda",
-          "description": "Upoznajte tim i primite ponudu da se pridružite Start HN-u."
+          "title": "Zapošljavanje",
+          "description": "Nakon uspješnog intervjua, nudimo ugovor o radu i proces onboardinga."
         }
       ]
     },
     "jobs": {
       "title": "Otvorene pozicije",
-      "description": "Pronađite svoju sljedeću priliku i pridružite se našem rastućem timu",
-      "unavailable": "Trenutno ne prihvatam prijave",
-      "apply": "Prijavite se sada",
-      "noMatch": "Ne vidite savršenu ulogu?",
-      "sendCv": "Pošaljite nam svoj CV",
+      "description": "Pronađite svoje mjesto u našem računovodstvenom timu",
+      "apply": "Prijavite se",
+      "noMatch": "Ne vidite pravu poziciju?",
+      "sendCv": "Pošaljite nam vaš CV",
+      "labels": {
+        "responsibilities": "Odgovornosti",
+        "requirements": "Zahtjevi",
+        "offers": "Šta nudimo"
+      },
       "listings": [
         {
-          "title": "Viši full-stack inženjer",
-          "department": "Inženjering",
-          "location": "Remote (EU vremenske zone)",
-          "type": "Puno radno vrijeme",
-          "description": "Izgradite skalabilne poslovne aplikacije koristeći React, Node.js i cloud tehnologije.",
-          "tags": [
-            "React",
-            "Node.js",
-            "TypeScript",
-            "AWS"
+          "title": "Certificirani računovođa",
+          "summary": "Vodite poslovne knjige i finansijsko izvještavanje za naše klijente — mala i srednja preduzeća.",
+          "responsibilities": [
+            "Vođenje poslovnih knjiga za mala i srednja preduzeća",
+            "Priprema finansijskih izvještaja (bilans stanja, bilans uspjeha)",
+            "Usklađivanje računa, blagajne i bankovnih izvoda",
+            "Saradnja sa revizorima i poreznim savjetnicima"
+          ],
+          "requirements": [
+            "VI ili VII stepen stručne spreme iz oblasti računovodstva ili finansija",
+            "Aktivna licenca certificiranog računovođe",
+            "Minimum 3 godine radnog iskustva u računovodstvenoj agenciji",
+            "Odlično poznavanje lokalnih računovodstvenih standarda i propisa",
+            "Vješto rukovanje računovodstvenim softverom (Pantheon, iCenter ili slično)"
+          ],
+          "offers": [
+            "Redovnu i konkurentnu plaću",
+            "Mogućnost stručnog usavršavanja i pohađanja obuka",
+            "Pozitivno radno okruženje i timsku podršku",
+            "Fleksibilne radne sate u dogovoru"
           ]
         },
         {
-          "title": "DevOps inženjer",
-          "department": "Inženjering",
-          "location": "Sarajevo / Remote",
-          "type": "Puno radno vrijeme",
-          "description": "Dizajnirati i održavati CI/CD cjevovode, infrastrukturu kao kod i sisteme za nadzor.",
-          "tags": [
-            "Kubernetes",
-            "Docker",
-            "Terraform",
-            "GitLab CI"
+          "title": "Porezni savjetnik",
+          "summary": "Savjetujte klijente o poreznom planiranju, usklađenosti i zastupanju pred Poreznom upravom.",
+          "responsibilities": [
+            "Savjetovanje klijenata o pitanjima poreznog planiranja i optimizacije",
+            "Priprema i podnošenje poreznih prijava (PDV, porez na dohodak, porez na dobit)",
+            "Praćenje izmjena poreznih propisa i informisanje klijenata",
+            "Zastupanje klijenata u komunikaciji s Poreznom upravom"
+          ],
+          "requirements": [
+            "Diploma iz računovodstva, prava ili srodnih oblasti",
+            "Certifikat iz poreznog savjetništva (prednost)",
+            "Minimum 4 godine iskustva u oblasti oporezivanja",
+            "Poznavanje BiH poreznog zakonodavstva",
+            "Analitičke sposobnosti i pažnja na detalje"
+          ],
+          "offers": [
+            "Redovnu i konkurentnu plaću",
+            "Profesionalni razvoj i edukacije iz oblasti poreznog prava",
+            "Dinamičan tim u ugodnom radnom okruženju",
+            "Mogućnost napredovanja u karijeri"
           ]
         },
         {
-          "title": "AI/ML inženjer",
-          "department": "Inovacijski laboratorij",
-          "location": "Daljinsko upravljanje",
-          "type": "Puno radno vrijeme",
-          "description": "Razvijajte modele mašinskog učenja i AI rješenja za poslovne klijente.",
-          "tags": [
-            "Python",
-            "TensorFlow",
-            "PyTorch",
-            "MLOps"
+          "title": "Junior računovođa",
+          "summary": "Podržite senior računovođe u vođenju knjiga, kontroli dokumenata i pripremi finansijskih izvještaja.",
+          "responsibilities": [
+            "Podrška senior računovođama u vođenju poslovnih knjiga",
+            "Unos i kontrola knjigovodstvenih isprava",
+            "Pripreme za finansijsko izvještavanje",
+            "Obavljanje administrativnih zadataka vezanih za računovodstvo"
+          ],
+          "requirements": [
+            "IV ili VI stepen stručne spreme iz oblasti računovodstva ili ekonomije",
+            "Poznavanje osnova računovodstva",
+            "Pažnja na detalje i organizacijske sposobnosti",
+            "Poželjno prethodno radno iskustvo (stažiranje ili slično)"
+          ],
+          "offers": [
+            "Mentorstvo od strane iskusnih računovođa",
+            "Mogućnost pohađanja stručnih obuka i sticanja certifikata",
+            "Stimulativna plaća i bonusi za uspješnost",
+            "Perspektiva napredovanja unutar firme"
           ]
         },
         {
-          "title": "Dizajner proizvoda",
-          "department": "Dizajn",
-          "location": "Daljinsko upravljanje",
-          "type": "Puno radno vrijeme",
-          "description": "Kreirajte lijepa, intuitivna korisnička iskustva za složene poslovne aplikacije.",
-          "tags": [
-            "Figma",
-            "Istraživanje korisnika",
-            "UI/UX",
-            "Sistemi dizajna"
-          ]
-        },
-        {
-          "title": "Solutions Architect",
-          "department": "Inženjering",
-          "location": "Daljinsko upravljanje",
-          "type": "Puno radno vrijeme",
-          "description": "Dizajnirajte tehnička rješenja od početka do kraja i vodite klijente kroz digitalnu transformaciju.",
-          "tags": [
-            "Cloud arhitektura",
-            "Dizajn sistema",
-            "Konsalting"
-          ]
-        },
-        {
-          "title": "Tehnički pisac",
-          "department": "Operacije",
-          "location": "Daljinsko upravljanje",
-          "type": "Skraćeno radno vrijeme",
-          "description": "Kreirajte sveobuhvatnu dokumentaciju, tutorijale i tehnički sadržaj.",
-          "tags": [
-            "Dokumentacija",
-            "API dokumentacija",
-            "Tehničko pisanje"
+          "title": "Office Manager / Administrativni asistent",
+          "summary": "Osigurajte nesmetan rad kancelarije — prijem klijenata, upravljanje dokumentima i interna koordinacija.",
+          "responsibilities": [
+            "Organizacija i administracija kancelarijskog poslovanja",
+            "Prijem klijenata i upravljanje komunikacijom (telefon, e-pošta)",
+            "Arhiviranje dokumenata i vođenje evidencija",
+            "Koordinacija internih procesa i podrška timu"
+          ],
+          "requirements": [
+            "Srednja ili viša stručna sprema, poželjna ekonomska ili administrativna",
+            "Iskustvo na administrativnim poslovima min. 1-2 godine",
+            "Odlične komunikacijske i organizacijske vještine",
+            "Vješto rukovanje MS Office alatima"
+          ],
+          "offers": [
+            "Ugodno i dinamično radno okruženje",
+            "Mogućnost napredovanja",
+            "Redovnu plaću i beneficije"
           ]
         }
       ]
     },
     "cta": {
-      "title": "Pitanja o radu ovdje?",
-      "description": "Voljeli bismo čuti vaše mišljenje. Javite se i odgovorit ćemo na sva pitanja o radu u Start HN-u.",
+      "title": "Spremni da nam se pridružite?",
+      "description": "Pošaljite vaš CV na info@starthn.ba i javit ćemo vam se što je prije moguće.",
       "button": "Kontaktirajte nas"
     }
   },

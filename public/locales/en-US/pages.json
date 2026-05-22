@@ -4,56 +4,163 @@
     "hero": {
       "titlePrefix": "Reliable Accounting,",
       "titleHighlight": "Real Partnership",
-      "description": "Start HN d.o.o. is a Sarajevo-based accounting agency helping entrepreneurs, SMEs, and growing companies manage their finances with confidence and clarity."
+      "description": "Start HN is an accounting agency dedicated to the growth and success of entrepreneurs and small businesses in Bosnia and Herzegovina."
     },
-    "sections": {
-      "mission": {
-        "title": "Mission",
-        "description": "We help business owners focus on growth by taking the burden of accounting and compliance off their shoulders.",
-        "points": [
-          "Accurate, timely bookkeeping you can rely on.",
-          "Proactive tax planning that minimizes liability.",
-          "Clear financial reporting that supports better decisions."
-        ]
-      },
-      "expertise": {
-        "title": "Expertise",
-        "description": "Our certified accountants bring deep knowledge of BiH tax law, payroll, and financial reporting standards.",
-        "points": [
-          "Full-service bookkeeping and ledger management.",
-          "Payroll, PDV, and income tax compliance.",
-          "vCFO advisory for businesses ready to scale."
-        ]
-      },
-      "approach": {
-        "title": "Approach",
-        "description": "We operate as a true extension of your team — responsive, transparent, and always one step ahead of deadlines.",
-        "points": [
-          "Onboard: understand your business, systems, and obligations.",
-          "Manage: handle all day-to-day accounting and filings on time.",
-          "Advise: provide insights that help you grow with confidence."
-        ]
-      }
+    "welcome": {
+      "tagline": "Every day we prove that expertise and clear financial reporting build a solid foundation for new business opportunities.",
+      "para1": "Start HN accounting agency from Sarajevo supports associations, sole traders, and micro, small, and medium-sized businesses. Our work is grounded in timeliness, expertise, and trust — we ensure all legal obligations are fulfilled on time.",
+      "para2": "From the very beginning our goal was clear: combine accounting precision with process digitalisation. We believe accounting is not just a record of the past — it is a tool for making timely business decisions. That is why we offer digital solutions that give clients continuous access to their data, alongside a traditional approach for those who prefer physical or email delivery.",
+      "para3": "Alongside regular bookkeeping, we provide added value through our Virtual CFO service — strategic financial advisory and in-depth business analysis. We also have a special place for startups, offering benefits and full support from day one."
     },
+    "whyUs": {
+      "title": "Why Start HN?",
+      "subtitle": "How can we make your business easier?",
+      "description": "We combine experience from the local business environment with modern accounting practices to ensure accurate information, timely decisions, and stable growth.",
+      "pillars": [
+        "Timely and accurate accounting",
+        "Tailored services",
+        "Continuous support and advisory",
+        "Transparent pricing — no hidden costs"
+      ]
+    },
+    "features": [
+      { "icon": "award", "title": "Experience & Expertise", "description": "Our team brings a decade of hands-on practice and certified accounting qualifications." },
+      { "icon": "barChart3", "title": "Detailed Analysis", "description": "Tailored reports and budgets help you make informed business decisions." },
+      { "icon": "settings2", "title": "Tailored Solutions", "description": "We automate routine tasks using cloud technology and modern platforms." },
+      { "icon": "userCheck", "title": "Individual Approach", "description": "We treat each client with dedicated attention, ensuring the highest level of service." },
+      { "icon": "trendingUp", "title": "Proactive Advisory", "description": "We regularly identify savings opportunities and optimisations before they become problems." },
+      { "icon": "shieldCheck", "title": "Honesty & Integrity", "description": "Our communication is always open and honest, with strict adherence to professional and ethical standards." }
+    ],
     "cta": {
-      "title": "Ready to Simplify Your Accounting?",
-      "description": "Join the growing list of businesses that trust Start HN to keep their books in order and their taxes on time.",
-      "primary": "Get Started",
+      "title": "Let's Work Together",
+      "description": "From growth strategies for early-stage startups to support for established businesses — we have been doing this from day one. Results speak for themselves.",
+      "primary": "Contact Us",
       "secondary": "View Our Services"
     }
   },
-  "contact": {
-    "badge": "Get in Touch",
+  "missionVision": {
+    "badge": "Who We Are",
     "hero": {
-      "title": "Contact Us",
-      "description": "Have a project in mind? We'd love to hear from you. Reach out to discuss how we can help bring your ideas to life."
+      "title": "Mission, Vision",
+      "titleHighlight": "& Values",
+      "description": "Clear goals, strong values and a continuous pursuit of excellence that guides every step we take."
+    },
+    "mission": {
+      "label": "Our Mission",
+      "heading": "Timely information. Individual approach.",
+      "body": "To provide clients with timely and accurate information through modern solutions and an individual approach — supporting both digital and traditional working models."
+    },
+    "vision": {
+      "label": "Our Vision",
+      "heading": "First choice for SMEs and startups in BiH.",
+      "body": "To be the first choice for small and medium-sized businesses and startups in Bosnia and Herzegovina, through the digitalisation of accounting and the development of systems that simplify work and accelerate business decisions."
+    },
+    "values": {
+      "label": "Our Values",
+      "heading": "The principles behind everything we do",
+      "items": [
+        {
+          "icon": "target",
+          "title": "Results Through Trust and Accuracy",
+          "description": "Our mission is to be a reliable partner — providing the knowledge and timely information that gives clients certainty and a clear basis for business decisions."
+        },
+        {
+          "icon": "shieldCheck",
+          "title": "Responsibility in Everything We Do",
+          "description": "Every report, every filing, every recommendation carries our signature. We take full responsibility for our work, because we know how important accuracy and timeliness are."
+        },
+        {
+          "icon": "users",
+          "title": "Client at the Centre",
+          "description": "Whether it is a startup just starting out or an established company, our approach is always the same: we listen, understand, and adapt to the client's needs, offering tailored solutions."
+        },
+        {
+          "icon": "zap",
+          "title": "Digitalisation as a Direction",
+          "description": "We believe that the digitalisation of accounting is key to faster, more efficient business. We continuously improve and introduce new solutions to give clients ongoing access to their finances."
+        },
+        {
+          "icon": "lock",
+          "title": "Business Ethics and Confidentiality",
+          "description": "Protecting confidentiality and upholding the highest ethical standards is the foundation of our work. Our clients know their data is safe and our advice is always professional."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Work Together?",
+      "description": "Contact us and let us show you how we can support your business with precision, integrity, and dedication.",
+      "button": "Contact Us"
+    }
+  },
+  "certificates": {
+    "badge": "Credentials",
+    "hero": {
+      "title": "Certificates &",
+      "titleHighlight": "Recognition",
+      "description": "Our commitment to excellence confirmed through professional licences and achieved results."
+    },
+    "intro": {
+      "heading": "What Sets Us Apart",
+      "para1": "In accounting, trust is not just a word — it is built on expertise, legality, and responsibility. For us at Start HN, every certificate and every official confirmation is much more than a document: it is proof that our work passes the strictest checks, that we respect regulations, and that we uphold professional and ethical standards.",
+      "para2": "Through years of investment in knowledge, education, and development, we have obtained licences and recognitions that confirm our commitment to our clients and the quality of the services we provide. They are also a guarantee that you can choose us with full confidence, knowing that we are building your business on solid and legal foundations."
+    },
+    "gallery": {
+      "heading": "Our Certificates",
+      "items": [
+        {
+          "image": "/certificates/srrf-bih.png",
+          "title": "Certified Accountant",
+          "description": "Proof of professional competence and qualification in the accounting profession"
+        },
+        {
+          "image": "/certificates/kpmg-expert.webp",
+          "title": "Forensic Auditor",
+          "description": "Confirmation of additional expertise in financial forensics"
+        },
+        {
+          "image": "/certificates/award-consulting.webp",
+          "title": "EU Funds – Access to Grants",
+          "description": "Knowledge of application processes and opportunities for EU funding"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Work With a Certified Team",
+      "description": "Our licences and professional certifications are your assurance that your accounting is in safe, qualified hands.",
+      "button": "Contact Us"
+    }
+  },
+  "contact": {
+    "badge": "Contact Start HN",
+    "hero": {
+      "title": "Let's talk about your accounting",
+      "description": "Tell us where your business is today and what you need next. We will route you to the right accounting, tax, or advisory support without making the first step complicated."
     },
     "info": {
-      "title": "Contact Information"
+      "title": "Contact information"
     },
     "booking": {
       "title": "Book a Meeting",
-      "description": "Schedule a free 30-minute discovery call"
+      "description": "Request a focused 30-minute consultation"
+    },
+    "channels": {
+      "title": "Start with the right channel",
+      "description": "Use the path that fits the job: request a consultation, send the details in writing, or open the assistant when chat is available.",
+      "meeting": {
+        "title": "Book a Meeting",
+        "description": "Send a meeting request and we will coordinate the next available consultation slot.",
+        "action": "Request a time"
+      },
+      "form": {
+        "title": "Send a Message",
+        "description": "Share the context once and we will respond with the right next step.",
+        "action": "Open the form"
+      },
+      "chat": {
+        "title": "Talk to Our AI",
+        "description": "Get quick answers about services, documents, and common accounting questions.",
+        "action": "Open chat"
+      }
     },
     "methods": {
       "email": {
@@ -69,7 +176,7 @@
       "response": {
         "title": "Response Time",
         "description": "We typically respond within",
-        "value": "24-48 hours"
+        "value": "one business day"
       }
     },
     "departments": {
@@ -77,7 +184,7 @@
         "label": "New Project"
       },
       "support": {
-        "label": "Technical Support"
+        "label": "Accounting Support"
       },
       "partnerships": {
         "label": "Partnerships"
@@ -211,122 +318,140 @@
   "careers": {
     "badge": "Join Our Team",
     "hero": {
-      "titlePrefix": "Build the Future",
-      "titleHighlight": "With Us",
-      "description": "Join a team of engineers building cutting-edge software for global clients. Work remotely, grow continuously, and make real impact.",
-      "button": "See Positions"
+      "title": "Grow With Us in",
+      "titleHighlight": "Accounting & Finance",
+      "description": "Start HN is a growing accounting agency. We're looking for dedicated professionals who want to build a meaningful career in accounting, tax, and financial services.",
+      "button": "See Open Positions"
     },
+    "perks": [
+      { "title": "Stable Employment", "description": "Long-term career in a growing accounting agency" },
+      { "title": "Professional Growth", "description": "Training, mentorship, and certification support" },
+      { "title": "Collaborative Team", "description": "Supportive environment where you will be heard" }
+    ],
     "process": {
-      "title": "Our Hiring Process",
-      "description": "Transparent, efficient, and respectful of your time",
+      "title": "How We Hire",
+      "description": "A simple, transparent process with respect for your time",
       "steps": [
         {
-          "title": "Apply",
-          "description": "Submit your application and we'll review it within 3 business days."
+          "title": "Send Your CV",
+          "description": "Send us your CV and cover letter to our email address."
         },
         {
-          "title": "Initial Chat",
-          "description": "A 30-minute video call to discuss your experience and expectations."
+          "title": "Interview Invitation",
+          "description": "We contact candidates who meet the requirements and invite them for an interview."
         },
         {
-          "title": "Technical",
-          "description": "Technical interview or practical exercise to showcase your skills."
-        },
-        {
-          "title": "Offer",
-          "description": "Meet the team and receive your offer to join Start HN."
+          "title": "Hiring",
+          "description": "After a successful interview, we offer an employment contract and onboarding."
         }
       ]
     },
     "jobs": {
       "title": "Open Positions",
-      "description": "Find your next opportunity and join our growing team",
-      "unavailable": "Not accepting applications at this time",
+      "description": "Find your place in our accounting team",
       "apply": "Apply Now",
-      "noMatch": "Don't see the perfect role?",
+      "noMatch": "Don't see the right fit?",
       "sendCv": "Send Us Your CV",
+      "labels": {
+        "responsibilities": "Responsibilities",
+        "requirements": "Requirements",
+        "offers": "What We Offer"
+      },
       "listings": [
         {
-          "title": "Senior Full-Stack Engineer",
-          "department": "Engineering",
-          "location": "Remote (EU Time Zones)",
-          "type": "Full-Time",
-          "description": "Build scalable enterprise applications using React, Node.js, and cloud technologies.",
-          "tags": [
-            "React",
-            "Node.js",
-            "TypeScript",
-            "AWS"
+          "title": "Certified Accountant",
+          "summary": "Lead bookkeeping and financial reporting for our small and medium-sized business clients.",
+          "responsibilities": [
+            "Maintain business records for SMEs",
+            "Prepare financial statements (balance sheet, income statement)",
+            "Reconcile accounts, cash registers, and bank statements",
+            "Collaborate with auditors and tax advisors"
+          ],
+          "requirements": [
+            "Bachelor's degree in accounting or finance (VI/VII level)",
+            "Active certified accountant licence",
+            "Minimum 3 years' experience in an accounting agency",
+            "Excellent knowledge of local accounting standards and regulations",
+            "Proficiency in accounting software (Pantheon, iCenter, or similar)"
+          ],
+          "offers": [
+            "Competitive and regular salary",
+            "Professional training and development opportunities",
+            "Positive work environment and team support",
+            "Flexible working hours by agreement"
           ]
         },
         {
-          "title": "DevOps Engineer",
-          "department": "Engineering",
-          "location": "Sarajevo / Remote",
-          "type": "Full-Time",
-          "description": "Design and maintain CI/CD pipelines, infrastructure as code, and monitoring systems.",
-          "tags": [
-            "Kubernetes",
-            "Docker",
-            "Terraform",
-            "GitLab CI"
+          "title": "Tax Advisor",
+          "summary": "Guide clients through tax planning, compliance, and representation before the Tax Authority.",
+          "responsibilities": [
+            "Advise clients on tax planning and optimisation",
+            "Prepare and file tax returns (VAT, income tax, corporate tax)",
+            "Monitor regulatory changes and keep clients informed",
+            "Represent clients in communications with the Tax Authority"
+          ],
+          "requirements": [
+            "Degree in accounting, law, or a related field",
+            "Tax advisory certificate (preferred)",
+            "Minimum 4 years' experience in taxation",
+            "Knowledge of BiH tax legislation",
+            "Analytical skills and strong attention to detail"
+          ],
+          "offers": [
+            "Competitive and regular salary",
+            "Professional development and tax law training",
+            "Dynamic team in a pleasant work environment",
+            "Career advancement opportunities"
           ]
         },
         {
-          "title": "AI/ML Engineer",
-          "department": "Innovation Lab",
-          "location": "Remote",
-          "type": "Full-Time",
-          "description": "Develop machine learning models and AI solutions for enterprise clients.",
-          "tags": [
-            "Python",
-            "TensorFlow",
-            "PyTorch",
-            "MLOps"
+          "title": "Junior Accountant",
+          "summary": "Support senior accountants with bookkeeping, document control, and financial reporting preparation.",
+          "responsibilities": [
+            "Assist senior accountants with bookkeeping",
+            "Enter and verify accounting documents",
+            "Prepare for financial reporting",
+            "Perform administrative tasks related to accounting"
+          ],
+          "requirements": [
+            "Secondary or bachelor's degree in accounting or economics (IV/VI level)",
+            "Knowledge of accounting fundamentals",
+            "Attention to detail and strong organisational skills",
+            "Previous experience (internship or similar) preferred"
+          ],
+          "offers": [
+            "Mentorship from experienced accountants",
+            "Professional training and certification opportunities",
+            "Performance bonuses",
+            "Career advancement within the company"
           ]
         },
         {
-          "title": "Product Designer",
-          "department": "Design",
-          "location": "Remote",
-          "type": "Full-Time",
-          "description": "Create beautiful, intuitive user experiences for complex enterprise applications.",
-          "tags": [
-            "Figma",
-            "User Research",
-            "UI/UX",
-            "Design Systems"
-          ]
-        },
-        {
-          "title": "Solutions Architect",
-          "department": "Engineering",
-          "location": "Remote",
-          "type": "Full-Time",
-          "description": "Design end-to-end technical solutions and guide clients through digital transformation.",
-          "tags": [
-            "Cloud Architecture",
-            "System Design",
-            "Consulting"
-          ]
-        },
-        {
-          "title": "Technical Writer",
-          "department": "Operations",
-          "location": "Remote",
-          "type": "Part-Time",
-          "description": "Create comprehensive documentation, tutorials, and technical content.",
-          "tags": [
-            "Documentation",
-            "API Docs",
-            "Technical Writing"
+          "title": "Office Manager / Administrative Assistant",
+          "summary": "Keep our office running smoothly — client reception, document management, and internal coordination.",
+          "responsibilities": [
+            "Organise and administer office operations",
+            "Greet clients and manage communications (phone, email)",
+            "Archive documents and maintain records",
+            "Coordinate internal processes and support the team"
+          ],
+          "requirements": [
+            "Secondary or higher education, preferably in economics or administration",
+            "1–2 years of administrative experience",
+            "Excellent communication and organisational skills",
+            "Proficiency in MS Office tools"
+          ],
+          "offers": [
+            "Pleasant and dynamic work environment",
+            "Advancement opportunities",
+            "Regular salary and benefits"
           ]
         }
       ]
     },
     "cta": {
-      "title": "Questions About Working Here?",
-      "description": "We'd love to hear from you. Reach out and we'll answer any questions about working at Start HN.",
+      "title": "Ready to Join Us?",
+      "description": "Send your CV to info@starthn.ba and we'll be in touch as soon as possible.",
       "button": "Contact Us"
     }
   },
