@@ -1,16 +1,10 @@
 import { useEffect, useRef, useState } from 'react'
 import { ArrowUp, RotateCcw } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { useChat } from '@/contexts/ChatContext'
 import { ChatMessage } from './ChatMessage'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
-
-const QUICK_STARTERS = [
-  'What services do you offer?',
-  'What is your tech stack?',
-  'How does your team model work?',
-  'I have a project idea',
-]
 
 interface ChatPanelProps {
   className?: string
@@ -20,9 +14,13 @@ interface ChatPanelProps {
 
 export function ChatPanel({ className, height = 'h-[400px]', hideStarters }: ChatPanelProps) {
   const { messages, send, isStreaming, error, clearMessages } = useChat()
+  const { t } = useTranslation('landing')
   const [input, setInput] = useState('')
   const scrollRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
+
+  const rawPrompts = t('chat.prompts', { returnObjects: true })
+  const prompts: string[] = Array.isArray(rawPrompts) ? rawPrompts : []
 
   useEffect(() => {
     const el = scrollRef.current
@@ -48,10 +46,10 @@ export function ChatPanel({ className, height = 'h-[400px]', hideStarters }: Cha
         {messages.length === 0 && !hideStarters && (
           <div className="flex flex-col items-center gap-4 pt-6">
             <p className="text-sm text-muted-foreground">
-              Hi! How can we help you today?
+              {t('chat.greeting')}
             </p>
             <div className="flex flex-wrap justify-center gap-2">
-              {QUICK_STARTERS.map((prompt) => (
+              {prompts.map((prompt) => (
                 <button
                   key={prompt}
                   onClick={() => send(prompt)}
@@ -85,8 +83,8 @@ export function ChatPanel({ className, height = 'h-[400px]', hideStarters }: Cha
               onClick={clearMessages}
               disabled={isStreaming}
               className="rounded-lg p-2 text-muted-foreground hover:bg-muted hover:text-foreground transition-colors disabled:opacity-50"
-              aria-label="Start over"
-              title="Start over"
+              aria-label={t('chat.startOver')}
+              title={t('chat.startOver')}
             >
               <RotateCcw className="h-4 w-4" />
             </button>
@@ -97,7 +95,7 @@ export function ChatPanel({ className, height = 'h-[400px]', hideStarters }: Cha
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder="Type a message..."
+            placeholder={t('chat.inputPlaceholder')}
             disabled={isStreaming}
             className={cn(
               'flex-1 min-w-0 rounded-lg border border-border bg-background px-3 py-2 text-base sm:text-sm',
@@ -107,7 +105,7 @@ export function ChatPanel({ className, height = 'h-[400px]', hideStarters }: Cha
           />
           <Button
             size="icon"
-            aria-label="Send message"
+            aria-label={t('chat.startOver')}
             onClick={handleSend}
             disabled={!input.trim() || isStreaming}
             className="h-9 w-9 shrink-0 rounded-lg"

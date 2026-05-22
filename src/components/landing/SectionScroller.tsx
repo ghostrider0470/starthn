@@ -218,7 +218,7 @@ export function SectionScroller({
         </div>
       ))}
 
-      <div className="pointer-events-none fixed right-4 top-1/2 z-50 hidden -translate-y-1/2 flex-col items-center gap-3 2xl:flex">
+      <div className="pointer-events-none fixed right-4 top-1/2 z-50 hidden -translate-y-1/2 flex-col items-center gap-3 xl:flex">
         <button
           type="button"
           onClick={() => scrollTo(current - 1)}

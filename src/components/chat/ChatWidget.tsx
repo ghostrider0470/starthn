@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import { MessageCircle, X } from 'lucide-react'
 import { useLocation } from '@tanstack/react-router'
 import { AnimatePresence, motion } from 'motion/react'
+import { useTranslation } from 'react-i18next'
 import { useChat } from '@/contexts/ChatContext'
 import { ChatPanel } from './ChatPanel'
 import { cn } from '@/lib/utils'
@@ -9,6 +10,7 @@ import { featureFlags } from '@/lib/feature-flags'
 
 export function ChatWidget() {
   const { isOpen, setIsOpen, messages } = useChat()
+  const { t } = useTranslation('landing')
   const location = useLocation()
   const panelRef = useRef<HTMLDivElement>(null)
 
@@ -92,7 +94,7 @@ export function ChatWidget() {
               'transition-shadow hover:shadow-xl hover:shadow-primary/25',
               messages.length === 0 && 'animate-pulse',
             )}
-            aria-label="Open chat"
+            aria-label={t('chat.openChat')}
           >
             <MessageCircle className="h-6 w-6" />
           </motion.button>
@@ -113,12 +115,12 @@ export function ChatWidget() {
             <div className="flex items-center justify-between border-b border-border bg-muted/30 px-4 py-3 max-sm:pt-[max(0.75rem,env(safe-area-inset-top))]">
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-green-500" />
-                <span className="text-sm font-semibold">Chat with Start HN</span>
+                <span className="text-sm font-semibold">{t('chat.panelTitle')}</span>
               </div>
               <button
                 onClick={() => setIsOpen(false)}
                 className="rounded-md p-2 text-muted-foreground hover:bg-muted hover:text-foreground transition-colors"
-                aria-label="Close chat"
+                aria-label={t('chat.closeChat')}
               >
                 <X className="h-5 w-5" />
               </button>

@@ -225,10 +225,13 @@
   },
   "clients": {
     "title": "Neki od naših lojalnih klijenata",
+    "logoAlt": "{{name}} logotip",
+    "openClient": "{{name}} — otvorite web stranicu klijenta",
     "items": [
       {
         "name": "Advokat Tanja Srdanović",
         "logo": "/clients/srdanovic.webp",
+        "darkLogo": "/clients/srdanovic-dark.webp",
         "href": "https://www.advokatsrdanovic.com"
       },
       {
@@ -240,19 +243,39 @@
       {
         "name": "qla.dev",
         "logo": "/clients/qladev.webp",
+        "darkLogo": "/clients/qladev-dark.webp",
         "href": "https://qla.dev"
       },
       {
         "name": "edu.ba",
         "logo": "/clients/edu-t.webp",
+        "darkLogo": "/clients/edu-dark.webp",
         "showLabel": true,
         "href": "https://edu.ba"
       },
-      { "name": "BH Gradnja", "logo": "/clients/bhgradnja-t.webp" },
+      {
+        "name": "BH Gradnja",
+        "logo": "/clients/bhgradnja-t.webp",
+        "darkLogo": "/clients/bhgradnja-dark.webp"
+      },
       { "name": "Caffe Fleki", "logo": "/clients/fleki-t.webp" },
-      { "name": "Feniks Car Holding", "logo": "/clients/feniks-t.webp" },
-      { "name": "Grafiden", "logo": "/clients/grafiden-t.webp" },
-      { "name": "Hit Start", "logo": "/clients/hitstart.webp" },
+      {
+        "name": "Feniks Car Holding",
+        "logo": "/clients/feniks-t.webp",
+        "darkLogo": "/clients/feniks-dark.webp"
+      },
+      {
+        "name": "Grafiden",
+        "logo": "/clients/grafiden-t.webp",
+        "darkLogo": "/clients/grafiden-dark.webp"
+      },
+      {
+        "name": "HITStart",
+        "logo": "/clients/hitstart.svg",
+        "darkLogo": "/clients/hitstart-dark.svg",
+        "showLabel": true,
+        "href": "https://www.hitstart.ba"
+      },
       { "name": "Coco", "logo": "/clients/coco.webp" }
     ]
   },
@@ -414,6 +437,11 @@
     "title": "Pitajte nas bilo šta",
     "description": "Razgovarajte s našim AI asistentom o našim uslugama, cijenama i načinu rada. Bez formulara, bez čekanja.",
     "panelTitle": "Razgovor sa Start HN",
+    "greeting": "Zdravo! Kako vam možemo pomoći danas?",
+    "inputPlaceholder": "Upišite poruku...",
+    "startOver": "Počni iznova",
+    "openChat": "Otvori razgovor",
+    "closeChat": "Zatvori razgovor",
     "prompts": [
       "Kako mogu početi saradnju?",
       "Koliko košta mjesečno knjigovodstvo?",

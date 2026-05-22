@@ -1,139 +1,158 @@
-import { MapPin, Clock, Briefcase, ArrowRight, Ban } from 'lucide-react'
+import { ArrowRight, CheckCircle2, Gift, ClipboardList, UserCheck } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { designSystem } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
-import { StandardCard } from '@/components/ui/standard-card'
-import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/ui/accordion'
+
+interface JobListing {
+  title: string
+  summary: string
+  responsibilities: string[]
+  requirements: string[]
+  offers: string[]
+}
+
+interface JobLabels {
+  responsibilities: string
+  requirements: string
+  offers: string
+}
+
+const SECTION_ICONS = {
+  responsibilities: ClipboardList,
+  requirements: UserCheck,
+  offers: Gift,
+}
 
 export function JobListingsSection() {
   const { t } = useTranslation('pages')
 
   const jobsRaw = t('careers.jobs.listings', { returnObjects: true })
-  const jobs = (typeof jobsRaw === 'string' ? [] : jobsRaw) as {
-    title: string
-    department: string
-    location: string
-    type: string
-    description: string
-    tags: string[]
-  }[]
+  const jobs = (typeof jobsRaw === 'string' ? [] : jobsRaw) as JobListing[]
+
+  const labelsRaw = t('careers.jobs.labels', { returnObjects: true })
+  const labels = (typeof labelsRaw === 'string' ? {} : labelsRaw) as JobLabels
 
   return (
-    <section className="py-16 md:py-24 bg-muted/30">
-      <div className="text-center mb-16">
-        <h2
-          className={cn(
-            designSystem.typography.heading.h2,
-            'mb-6 text-4xl font-bold',
-          )}
-        >
+    <div className="py-14">
+      <div className="mb-10 text-center">
+        <h2 className={cn(designSystem.typography.heading.h2, 'mb-3')}>
           {t('careers.jobs.title')}
         </h2>
-        <p
-          className={cn(
-            designSystem.typography.body.large,
-            designSystem.typography.muted,
-            'max-w-3xl mx-auto mb-6',
-          )}
-        >
+        <p className={cn(designSystem.typography.body.large, designSystem.typography.muted)}>
           {t('careers.jobs.description')}
         </p>
-        <Badge
-          variant="outline"
-          className="border-muted-foreground/30 text-muted-foreground px-4 py-1.5 text-sm"
-        >
-          <Ban className="mr-2 h-3.5 w-3.5" />
-          {t('careers.jobs.unavailable')}
-        </Badge>
       </div>
 
-      <div className="space-y-6 opacity-50 pointer-events-none select-none">
-        {jobs.map((job) => (
-          <StandardCard key={job.title} variant="hover" className="group">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-              <div className="flex-1">
-                <div className="flex items-start gap-3 mb-3">
-                  <div className="flex-1">
-                    <h3
-                      className={cn(
-                        designSystem.typography.heading.h4,
-                        'mb-2',
-                      )}
-                    >
-                      {job.title}
-                    </h3>
-                    <div className="flex flex-wrap gap-3 mb-3">
-                      <div className="flex items-center gap-1 text-muted-foreground">
-                        <Briefcase className="h-4 w-4" />
-                        <span className={designSystem.typography.body.small}>
-                          {job.department}
-                        </span>
-                      </div>
-                      <div className="flex items-center gap-1 text-muted-foreground">
-                        <MapPin className="h-4 w-4" />
-                        <span className={designSystem.typography.body.small}>
-                          {job.location}
-                        </span>
-                      </div>
-                      <div className="flex items-center gap-1 text-muted-foreground">
-                        <Clock className="h-4 w-4" />
-                        <span className={designSystem.typography.body.small}>
-                          {job.type}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <p
-                  className={cn(
-                    designSystem.typography.body.base,
-                    designSystem.typography.muted,
-                    'mb-3',
-                  )}
-                >
-                  {job.description}
-                </p>
-
-                <div className="flex flex-wrap gap-2">
-                  {job.tags.map((tag) => (
-                    <Badge key={tag} variant="secondary" className="text-xs">
-                      {tag}
-                    </Badge>
-                  ))}
+      <Accordion type="single" collapsible className="space-y-3 max-w-3xl mx-auto">
+        {jobs.map((job, index) => (
+          <AccordionItem
+            key={job.title}
+            value={`job-${index}`}
+            className="rounded-2xl border border-border bg-card shadow-sm overflow-hidden last:border-b border-l-4 border-l-primary"
+          >
+            <AccordionTrigger className="hover:no-underline px-6 py-5 text-base [&>svg]:shrink-0">
+              <div className="flex items-start gap-4 flex-1 text-left">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary mt-0.5">
+                  {String(index + 1).padStart(2, '0')}
+                </span>
+                <div>
+                  <p className={cn(designSystem.typography.heading.h4)}>{job.title}</p>
+                  <p className={cn(designSystem.typography.body.small, designSystem.typography.muted, 'mt-1 font-normal')}>
+                    {job.summary}
+                  </p>
                 </div>
               </div>
+            </AccordionTrigger>
 
-              <div className="md:flex-shrink-0">
-                <Button
-                  variant="outline"
-                  className="w-full md:w-auto"
-                  disabled
-                >
-                  {t('careers.jobs.apply')}
-                  <ArrowRight className="ml-2 h-4 w-4" />
+            <AccordionContent className="px-6">
+              <div className="grid md:grid-cols-3 gap-6 pb-2 pt-2 border-t border-border">
+                <JobSection
+                  icon={SECTION_ICONS.responsibilities}
+                  title={labels.responsibilities}
+                  items={job.responsibilities}
+                  iconColor="text-blue-500"
+                  bgColor="bg-blue-500/10"
+                />
+                <JobSection
+                  icon={SECTION_ICONS.requirements}
+                  title={labels.requirements}
+                  items={job.requirements}
+                  iconColor="text-amber-500"
+                  bgColor="bg-amber-500/10"
+                />
+                <JobSection
+                  icon={SECTION_ICONS.offers}
+                  title={labels.offers}
+                  items={job.offers}
+                  iconColor="text-green-500"
+                  bgColor="bg-green-500/10"
+                />
+              </div>
+              <div className="py-4">
+                <Button size="sm" asChild>
+                  <a href="mailto:info@starthn.ba">
+                    {t('careers.jobs.apply')}
+                    <ArrowRight className="ml-2 h-3.5 w-3.5" />
+                  </a>
                 </Button>
               </div>
-            </div>
-          </StandardCard>
+            </AccordionContent>
+          </AccordionItem>
         ))}
-      </div>
+      </Accordion>
 
-      <div className="mt-12 text-center">
-        <p
-          className={cn(
-            designSystem.typography.body.large,
-            designSystem.typography.muted,
-            'mb-4',
-          )}
-        >
+      <div className="mt-10 text-center">
+        <p className={cn(designSystem.typography.body.base, designSystem.typography.muted, 'mb-3')}>
           {t('careers.jobs.noMatch')}
         </p>
-        <Button variant="outline" size="lg">
-          {t('careers.jobs.sendCv')}
+        <Button variant="outline" asChild>
+          <a href="mailto:info@starthn.ba">
+            {t('careers.jobs.sendCv')}
+          </a>
         </Button>
       </div>
-    </section>
+    </div>
+  )
+}
+
+function JobSection({
+  icon: Icon,
+  title,
+  items,
+  iconColor,
+  bgColor,
+}: {
+  icon: React.ElementType
+  title: string
+  items: string[]
+  iconColor: string
+  bgColor: string
+}) {
+  return (
+    <div className="pt-4">
+      <div className="flex items-center gap-2 mb-3">
+        <span className={cn('flex h-6 w-6 items-center justify-center rounded-md', bgColor)}>
+          <Icon className={cn('h-3.5 w-3.5', iconColor)} />
+        </span>
+        <h4 className={cn(designSystem.typography.heading.h6)}>{title}</h4>
+      </div>
+      <ul className="space-y-2">
+        {items.map((item) => (
+          <li key={item} className="flex items-start gap-2">
+            <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-muted-foreground/50" />
+            <span className={cn(designSystem.typography.body.small, designSystem.typography.muted)}>
+              {item}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
   )
 }

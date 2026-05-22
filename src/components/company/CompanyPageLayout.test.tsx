@@ -60,10 +60,10 @@ describe('CompanyPageLayout', () => {
 
   it('localizes company section labels for the scroller controls', () => {
     expect(
-      getCompanySectionLabels('en-US', ['overview', 'team', 'start']),
-    ).toEqual(['Overview', 'Team', 'Start'])
+      getCompanySectionLabels('en-US', ['overview', 'gallery', 'start']),
+    ).toEqual(['Overview', 'Gallery', 'Start'])
     expect(
-      getCompanySectionLabels('bs-BA', ['overview', 'team', 'start']),
-    ).toEqual(['Pregled', 'Tim', 'Početak'])
+      getCompanySectionLabels('bs-BA', ['overview', 'gallery', 'start']),
+    ).toEqual(['Pregled', 'Galerija', 'Početak'])
   })
 })

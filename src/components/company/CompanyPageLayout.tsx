@@ -6,6 +6,7 @@ export type CompanySectionId =
   | 'overview'
   | 'story'
   | 'proof'
+  | 'gallery'
   | 'values'
   | 'team'
   | 'culture'
@@ -22,6 +23,7 @@ const SECTION_LABELS: Record<'en' | 'bs', Record<CompanySectionId, string>> = {
     overview: 'Overview',
     story: 'Story',
     proof: 'Proof',
+    gallery: 'Gallery',
     values: 'Values',
     team: 'Team',
     culture: 'Culture',
@@ -35,6 +37,7 @@ const SECTION_LABELS: Record<'en' | 'bs', Record<CompanySectionId, string>> = {
     overview: 'Pregled',
     story: 'Priča',
     proof: 'Dokaz',
+    gallery: 'Galerija',
     values: 'Vrijednosti',
     team: 'Tim',
     culture: 'Kultura',

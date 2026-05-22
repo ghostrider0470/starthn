@@ -1,7 +1,9 @@
 import { describe, expect, it } from 'vitest'
 import {
   LEGACY_SERVICE_REDIRECTS,
+  SERVICE_DETAIL_SECTION_IDS,
   SERVICE_IDS,
+  SERVICE_INDEX_SECTION_IDS,
   SERVICE_ROUTES,
 } from './service-routes'
 
@@ -42,5 +44,14 @@ describe('service route registry', () => {
         /enterprise-software|ai-ml|cloud-architecture|iot-edge|devops|digital-transformation/,
       )
     }
+  })
+
+  it('uses dense slideshow sections for services pages', () => {
+    expect(SERVICE_INDEX_SECTION_IDS).toEqual(['overview', 'services', 'start'])
+    expect(SERVICE_DETAIL_SECTION_IDS).toEqual([
+      'overview',
+      'scope-process',
+      'deliverables',
+    ])
   })
 })

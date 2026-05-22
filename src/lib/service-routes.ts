@@ -28,6 +28,14 @@ export const LEGACY_SERVICE_REDIRECTS = {
   '/services/digital-transformation': SERVICE_ROUTES.education,
 } as const
 
+export const SERVICE_INDEX_SECTION_IDS = ['overview', 'services', 'start'] as const
+
+export const SERVICE_DETAIL_SECTION_IDS = [
+  'overview',
+  'scope-process',
+  'deliverables',
+] as const
+
 export function getServiceRoute(serviceId: ServiceId): string {
   return SERVICE_ROUTES[serviceId]
 }

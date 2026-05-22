@@ -6,25 +6,51 @@ import { cn } from '@/lib/utils'
 type ClientItem = {
   name: string
   logo?: string
+  darkLogo?: string
   href?: string
   showLabel?: boolean
 }
 
 function ClientCell({ item }: { item: ClientItem }) {
+  const { t } = useTranslation('landing')
+  const alt = t('clients.logoAlt', {
+    name: item.name,
+    defaultValue: `${item.name} logo`,
+  })
+  const logoClassName =
+    'max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-105'
+
   const content = (
     <>
-      <div className="flex h-14 w-full items-center justify-center md:h-16">
+      <div className="flex h-16 w-full items-center justify-center px-2 py-2 md:h-[4.75rem]">
         {item.logo ? (
-          <img
-            src={item.logo}
-            alt={`${item.name} — klijent Start HN`}
-            title={item.name}
-            width={160}
-            height={64}
-            loading="lazy"
-            decoding="async"
-            className="max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-105"
-          />
+          <>
+            <img
+              src={item.logo}
+              alt={alt}
+              title={item.name}
+              width={160}
+              height={64}
+              loading="lazy"
+              decoding="async"
+              className={cn(
+                logoClassName,
+                item.darkLogo && 'dark:hidden',
+              )}
+            />
+            {item.darkLogo && (
+              <img
+                src={item.darkLogo}
+                alt={alt}
+                title={item.name}
+                width={160}
+                height={64}
+                loading="lazy"
+                decoding="async"
+                className={cn(logoClassName, 'hidden dark:block')}
+              />
+            )}
+          </>
         ) : (
           <span className="font-heading text-base font-bold uppercase tracking-wide text-foreground">
             {item.name}
@@ -32,7 +58,7 @@ function ClientCell({ item }: { item: ClientItem }) {
         )}
       </div>
       {item.showLabel && (
-        <span className="text-center text-[11px] font-medium uppercase tracking-[0.12em] text-muted-foreground/70 transition-colors group-hover:text-foreground">
+        <span className="text-center text-[11px] font-medium uppercase tracking-[0.12em] text-muted-foreground/75 transition-colors group-hover:text-foreground dark:text-foreground/70">
           {item.name}
         </span>
       )}
@@ -45,8 +71,11 @@ function ClientCell({ item }: { item: ClientItem }) {
         href={item.href}
         target="_blank"
         rel="noopener noreferrer external"
-        aria-label={`${item.name} — otvori u novoj kartici`}
-        className="group flex w-full flex-col items-center justify-end gap-2 px-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-4 focus-visible:ring-offset-background rounded-md"
+        aria-label={t('clients.openClient', {
+          name: item.name,
+          defaultValue: `${item.name} - open client website`,
+        })}
+        className="group flex w-full flex-col items-center justify-end gap-2 rounded-md px-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-4 focus-visible:ring-offset-background"
         itemProp="funder"
         itemScope
         itemType="https://schema.org/Organization"
@@ -74,8 +103,8 @@ function ClientCell({ item }: { item: ClientItem }) {
 export function ClientLogosSection() {
   const { t } = useTranslation('landing')
   const rawItems = t('clients.items', { returnObjects: true })
-  const items: ClientItem[] = Array.isArray(rawItems)
-    ? (rawItems as ClientItem[])
+  const items: Array<ClientItem> = Array.isArray(rawItems)
+    ? (rawItems as Array<ClientItem>)
     : []
 
   return (
