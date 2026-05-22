@@ -60,7 +60,7 @@ export function TestimonialsSection() {
           </h2>
         </div>
 
-        <div className="relative min-h-[16rem] md:min-h-[14rem]">
+        <div className="relative grid">
           <Quote
             aria-hidden
             className="pointer-events-none absolute -top-4 left-0 h-16 w-16 text-primary/15 md:h-24 md:w-24"
@@ -72,8 +72,9 @@ export function TestimonialsSection() {
               <div
                 key={i}
                 aria-hidden={!active}
+                style={{ gridArea: '1 / 1' }}
                 className={cn(
-                  'absolute inset-0 transition-all ease-out',
+                  'transition-all ease-out',
                   active
                     ? 'opacity-100 translate-y-0 duration-[700ms] delay-[120ms]'
                     : 'opacity-0 pointer-events-none translate-y-4 duration-300',
