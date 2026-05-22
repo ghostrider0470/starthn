@@ -12,7 +12,7 @@ public class CaseStudyRepository : ICaseStudyRepository
 
     public CaseStudyRepository(CosmosClient client)
     {
-        _container = client.GetContainer("horizon", "caseStudies");
+        _container = client.GetContainer("starthn", "caseStudies");
     }
 
     public async Task<List<CaseStudyEntity>> GetPublishedAsync()

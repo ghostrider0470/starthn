@@ -42,5 +42,8 @@ scripts/migration-output.sql
 # Claude Code local settings (per-developer, machine-specific)
 .claude/settings.local.*
 
+# JetBrains IDE local project state
+.idea/
+
 # Session memory (per-developer, rewritten each session)
 .remember/

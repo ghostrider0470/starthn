@@ -12,7 +12,7 @@ public class BlogPostTranslationRepository : IBlogPostTranslationRepository
 
     public BlogPostTranslationRepository(CosmosClient client)
     {
-        _container = client.GetContainer("horizon", "blogPostTranslations");
+        _container = client.GetContainer("starthn", "blogPostTranslations");
     }
 
     public async Task<BlogPostTranslationEntity?> GetAsync(string postSlug, string lang)

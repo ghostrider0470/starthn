@@ -74,12 +74,14 @@ function ClientCell({ item }: { item: ClientItem }) {
 export function ClientLogosSection() {
   const { t } = useTranslation('landing')
   const rawItems = t('clients.items', { returnObjects: true })
-  const items: ClientItem[] = Array.isArray(rawItems) ? (rawItems as ClientItem[]) : []
+  const items: ClientItem[] = Array.isArray(rawItems)
+    ? (rawItems as ClientItem[])
+    : []
 
   return (
     <section
       aria-labelledby="clients-heading"
-      className="relative border-y border-border/60 bg-background py-14 md:py-16"
+      className="relative border-y border-border/60 bg-background py-10 md:py-12"
       itemScope
       itemType="https://schema.org/Organization"
     >
@@ -90,7 +92,7 @@ export function ClientLogosSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4 }}
-          className="mb-10 text-center text-sm font-medium uppercase tracking-[0.18em] text-muted-foreground"
+          className="mb-7 text-center text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground"
         >
           {t('clients.title')}
         </motion.h2>
@@ -102,7 +104,7 @@ export function ClientLogosSection() {
             hidden: {},
             visible: { transition: { staggerChildren: 0.06 } },
           }}
-          className="mx-auto grid max-w-5xl grid-cols-2 items-center gap-x-4 gap-y-8 sm:grid-cols-3 md:grid-cols-5"
+          className="mx-auto grid max-w-5xl grid-cols-2 items-center gap-x-4 gap-y-5 sm:grid-cols-3 md:grid-cols-5"
         >
           {items.map((item) => (
             <motion.li

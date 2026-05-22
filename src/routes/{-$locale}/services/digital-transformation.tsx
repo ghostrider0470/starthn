@@ -1,38 +1,24 @@
-import { createFileRoute } from '@tanstack/react-router'
-import { ChartNoAxesCombined, Landmark, Target } from 'lucide-react'
-import { ServicePageTemplate } from '@/components/services/ServicePageTemplate'
+import { createFileRoute, redirect } from '@tanstack/react-router'
+import {
+  DEFAULT_LOCALE,
+  isValidLocale,
+  withLocalePath,
+} from '@/lib/i18n-utils'
+import { SERVICE_ROUTES } from '@/lib/service-routes'
 
 export const Route = createFileRoute(
   '/{-$locale}/services/digital-transformation',
 )({
-  head: () => ({
-    meta: [
-      { title: 'Digital Transformation — Start HN' },
-      {
-        name: 'description',
-        content:
-          'Digital transformation consulting and implementation by Start HN. Modernize your business with enterprise technology.',
-      },
-      {
-        property: 'og:title',
-        content: 'Digital Transformation — Start HN',
-      },
-      {
-        property: 'og:description',
-        content:
-          'Digital transformation consulting and implementation by Start HN. Modernize your business with enterprise technology.',
-      },
-    ],
-  }),
-  component: DigitalTransformation,
+  beforeLoad: ({ params }) => {
+    const locale = isValidLocale(params.locale) ? params.locale : DEFAULT_LOCALE
+    throw redirect({
+      to: withLocalePath(SERVICE_ROUTES.education, locale) as never,
+      replace: true,
+    })
+  },
+  component: LegacyServiceRoute,
 })
 
-const icons = [
-  Target,
-  ChartNoAxesCombined,
-  Landmark,
-]
-
-function DigitalTransformation() {
-  return <ServicePageTemplate serviceKey="digital" icons={icons} />
+function LegacyServiceRoute() {
+  return null
 }

@@ -12,7 +12,7 @@ public class TagRepository : ITagRepository
 
     public TagRepository(CosmosClient client)
     {
-        _container = client.GetContainer("horizon", "tags");
+        _container = client.GetContainer("starthn", "tags");
     }
 
     public async Task<List<TagEntity>> GetAllAsync()

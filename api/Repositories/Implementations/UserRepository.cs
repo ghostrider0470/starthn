@@ -11,7 +11,7 @@ public class UserRepository : IUserRepository
 
     public UserRepository(CosmosClient client)
     {
-        _container = client.GetContainer("horizon", "users");
+        _container = client.GetContainer("starthn", "users");
     }
 
     public async Task<UserEntity?> GetByIdAsync(string id)

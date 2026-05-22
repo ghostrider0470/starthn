@@ -19,6 +19,10 @@ const app = new Hono<{ Bindings: Bindings }>()
 // ─── Constants ─────────────────────────────────────────────
 const ALLOWED_ORIGINS = [
   'http://localhost:3000',
+  'http://localhost:4173',
+  'http://localhost:5173',
+  'https://starthn.ba',
+  'https://www.starthn.ba',
 ]
 
 function getApiOrigin(env: Bindings): string {
@@ -28,23 +32,30 @@ function getApiOrigin(env: Bindings): string {
 // ─── Middleware ─────────────────────────────────────────────
 
 // CORS for all /api/* routes
-app.use('/api/*', cors({
-  origin: (origin) => {
-    if (ALLOWED_ORIGINS.includes(origin) || origin.endsWith('.workers.dev')) {
-      return origin
-    }
-    return origin
-  },
-  allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-  allowHeaders: ['Content-Type', 'X-Authorization', 'Authorization'],
-  maxAge: 86400,
-}))
+app.use(
+  '/api/*',
+  cors({
+    origin: (origin) => {
+      if (!origin) return 'https://starthn.ba'
+      if (ALLOWED_ORIGINS.includes(origin) || origin.endsWith('.workers.dev')) {
+        return origin
+      }
+      return 'https://starthn.ba'
+    },
+    allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+    allowHeaders: ['Content-Type', 'X-Authorization', 'Authorization'],
+    maxAge: 86400,
+  }),
+)
 
 // Security headers for API responses
-app.use('/api/*', secureHeaders({
-  xFrameOptions: 'DENY',
-  referrerPolicy: 'strict-origin-when-cross-origin',
-}))
+app.use(
+  '/api/*',
+  secureHeaders({
+    xFrameOptions: 'DENY',
+    referrerPolicy: 'strict-origin-when-cross-origin',
+  }),
+)
 
 // ─── Image proxy ────────────────────────────────────────────
 app.get('/img/*', (c) => handleImageRequest(c))
@@ -115,7 +126,10 @@ async function proxyToAzure(c: any): Promise<Response> {
   const proxyRequest = new Request(targetUrl, {
     method: request.method,
     headers,
-    body: request.method !== 'GET' && request.method !== 'HEAD' ? request.body : undefined,
+    body:
+      request.method !== 'GET' && request.method !== 'HEAD'
+        ? request.body
+        : undefined,
     redirect: 'manual',
   })
 
@@ -142,7 +156,8 @@ async function proxyToAzure(c: any): Promise<Response> {
 
 function getCacheTtl(pathname: string): number | null {
   if (/^\/api\/(blog|case-studies|team)\/[^/]+$/.test(pathname)) return 3600
-  if (/^\/api\/(blog|case-studies|team|categories|tags)$/.test(pathname)) return 300
+  if (/^\/api\/(blog|case-studies|team|categories|tags)$/.test(pathname))
+    return 300
   return null
 }
 
@@ -170,8 +185,14 @@ app.all('*', async (c) => {
 
     if (response.headers.get('Content-Type')?.includes('text/html')) {
       const headers = new Headers(response.headers)
-      headers.set('Cache-Control', 'public, max-age=0, s-maxage=60, stale-while-revalidate=300')
-      const cacheable = new Response(response.body, { status: response.status, headers })
+      headers.set(
+        'Cache-Control',
+        'public, max-age=0, s-maxage=60, stale-while-revalidate=300',
+      )
+      const cacheable = new Response(response.body, {
+        status: response.status,
+        headers,
+      })
 
       if (cache && cacheKey && response.status === 200) {
         c.executionCtx?.waitUntil(cache.put(cacheKey, cacheable.clone()))

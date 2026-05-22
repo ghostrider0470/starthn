@@ -32,7 +32,7 @@ export function MobileBottomNav() {
       {
         icon: <BriefcaseBusiness className="h-6 w-6" />,
         label: t('nav.solutions'),
-        href: '/services/cloud-architecture',
+        href: '/services',
         activePrefix: '/services',
       },
       ...(featureFlags.caseStudies

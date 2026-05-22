@@ -1,7 +1,13 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { motion, useReducedMotion } from 'motion/react'
 import { Link, useLocation } from '@tanstack/react-router'
-import { ArrowRight, ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react'
+import {
+  ArrowRight,
+  ChevronLeft,
+  ChevronRight,
+  Pause,
+  Play,
+} from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
 import { designSystem } from '@/lib/design-system'
@@ -17,9 +23,9 @@ type Slide = {
 }
 
 const SLIDE_IMAGES = [
+  '/hero/slide-3.webp',
   '/hero/slide-1.webp',
   '/hero/slide-2.webp',
-  '/hero/slide-3.webp',
 ] as const
 
 const AUTO_ADVANCE_MS = 7000
@@ -30,9 +36,9 @@ export function HeroSection() {
   const currentLocale = getLocaleFromPath(location.pathname)
   const reduceMotion = useReducedMotion()
 
-  const slides = useMemo<Slide[]>(() => {
+  const slides = useMemo<Array<Slide>>(() => {
     const raw = t('hero.slides', { returnObjects: true })
-    return Array.isArray(raw) ? (raw as Slide[]) : []
+    return Array.isArray(raw) ? (raw as Array<Slide>) : []
   }, [t])
 
   const [index, setIndex] = useState(0)
@@ -41,7 +47,7 @@ export function HeroSection() {
   const [progressKey, setProgressKey] = useState(0)
   const touchStartX = useRef<number | null>(null)
 
-  const total = slides?.length ?? 0
+  const total = slides.length
   const effectivePaused = paused || userPaused || !!reduceMotion
 
   const goTo = useCallback(
@@ -115,7 +121,12 @@ export function HeroSection() {
         ))}
 
         {/* Content stack — all rendered, active fades + slides */}
-        <div className={cn(designSystem.spacing.page.container, 'relative z-10 flex min-h-[inherit] items-center pb-32 pt-20 md:pb-36 md:pt-24')}>
+        <div
+          className={cn(
+            designSystem.spacing.page.container,
+            'relative z-10 flex min-h-[inherit] items-center pb-32 pt-20 md:pb-36 md:pt-24',
+          )}
+        >
           <div className="relative w-full max-w-2xl min-h-[26rem] sm:min-h-[28rem] md:min-h-[30rem]">
             {slides.map((slide, i) => {
               const active = i === index
@@ -143,7 +154,12 @@ export function HeroSection() {
                     {slide.subtitle}
                   </p>
                   <div className="flex flex-wrap items-center gap-5">
-                    <Button asChild size="lg" className="landing-cta-primary group shadow-lg shadow-black/25" tabIndex={active ? 0 : -1}>
+                    <Button
+                      asChild
+                      size="lg"
+                      className="landing-cta-primary group shadow-lg shadow-black/25"
+                      tabIndex={active ? 0 : -1}
+                    >
                       <Link to={href}>
                         {slide.cta}
                         <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -166,7 +182,9 @@ export function HeroSection() {
 
         {/* Control bar */}
         <div className="absolute inset-x-0 bottom-0 z-20">
-          <div className={cn(designSystem.spacing.page.container, 'pb-6 md:pb-10')}>
+          <div
+            className={cn(designSystem.spacing.page.container, 'pb-6 md:pb-10')}
+          >
             <div className="flex items-center justify-between gap-4">
               <div
                 className="font-mono text-xs font-medium tracking-[0.2em] text-white/70 tabular-nums"
@@ -187,7 +205,11 @@ export function HeroSection() {
                   <ChevronLeft className="h-5 w-5 transition-transform group-hover:-translate-x-0.5" />
                 </button>
 
-                <div className="mx-2 flex items-center gap-2" role="tablist" aria-label="Slides">
+                <div
+                  className="mx-2 flex items-center gap-2"
+                  role="tablist"
+                  aria-label="Slides"
+                >
                   {slides.map((_, i) => (
                     <button
                       key={i}
@@ -201,20 +223,25 @@ export function HeroSection() {
                       <span
                         className={cn(
                           'relative h-1.5 rounded-full transition-all duration-500',
-                          i === index ? 'w-12 bg-white/20' : 'w-6 bg-white/30 group-hover:bg-white/50',
+                          i === index
+                            ? 'w-12 bg-white/20'
+                            : 'w-6 bg-white/30 group-hover:bg-white/50',
                         )}
                       >
                         {i === index && !effectivePaused && (
                           <motion.span
                             key={progressKey}
-                            className="absolute inset-y-0 left-0 rounded-full bg-[oklch(0.92_0.08_90)]"
+                            className="absolute inset-y-0 left-0 rounded-full bg-white/90"
                             initial={{ width: '0%' }}
                             animate={{ width: '100%' }}
-                            transition={{ duration: AUTO_ADVANCE_MS / 1000, ease: 'linear' }}
+                            transition={{
+                              duration: AUTO_ADVANCE_MS / 1000,
+                              ease: 'linear',
+                            }}
                           />
                         )}
                         {i === index && effectivePaused && (
-                          <span className="absolute inset-y-0 left-0 w-full rounded-full bg-[oklch(0.92_0.08_90)]" />
+                          <span className="absolute inset-y-0 left-0 w-full rounded-full bg-white/90" />
                         )}
                       </span>
                     </button>
@@ -225,7 +252,7 @@ export function HeroSection() {
                   type="button"
                   onClick={next}
                   aria-label="Next slide"
-                  className="group grid h-11 w-11 place-items-center rounded-full border border-[oklch(0.92_0.08_90)]/70 bg-[oklch(0.82_0.09_88)] text-[oklch(0.25_0.04_80)] shadow-lg shadow-black/20 transition hover:bg-[oklch(0.88_0.08_90)] sm:h-12 sm:w-12"
+                  className="group grid h-11 w-11 place-items-center rounded-full border border-white/25 bg-black/30 text-white/90 shadow-lg shadow-black/20 backdrop-blur-sm transition hover:border-white/70 hover:bg-black/60 sm:h-12 sm:w-12"
                 >
                   <ChevronRight className="h-5 w-5 transition-transform group-hover:translate-x-0.5" />
                 </button>
@@ -238,7 +265,11 @@ export function HeroSection() {
                 aria-pressed={userPaused}
                 className="grid h-9 w-9 place-items-center rounded-full border border-white/20 text-white/70 transition hover:border-white/50 hover:text-white sm:h-10 sm:w-10"
               >
-                {userPaused ? <Play className="h-4 w-4" /> : <Pause className="h-4 w-4" />}
+                {userPaused ? (
+                  <Play className="h-4 w-4" />
+                ) : (
+                  <Pause className="h-4 w-4" />
+                )}
               </button>
             </div>
           </div>

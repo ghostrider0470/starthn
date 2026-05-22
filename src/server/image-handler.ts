@@ -2,8 +2,6 @@ import type { Context } from 'hono'
 import type { Bindings, ImageWriteMessage } from './bindings'
 import { CircuitBreaker } from './circuit-breaker'
 
-const AZURE_BLOB_ORIGIN = 'https://starthnstorage.blob.core.windows.net'
-
 const CONTAINER_WIDTHS: Record<string, number[]> = {
   avatars: [48, 96, 192],
   'blog-images': [400, 800, 1200, 1600, 2000],
@@ -97,7 +95,7 @@ export async function handleImageRequest(
 
     // 3b. Azure variant (circuit breaker protected)
     if (!azureBreaker.isOpen()) {
-      const azureVariantUrl = `${AZURE_BLOB_ORIGIN}/${blobPath}/w${snapped}.webp`
+      const azureVariantUrl = `${c.env.AZURE_BLOB_ORIGIN}/${blobPath}/w${snapped}.webp`
       try {
         const upstream = await fetch(azureVariantUrl)
         if (upstream.ok && upstream.body) {
@@ -125,20 +123,37 @@ export async function handleImageRequest(
         }
       } catch (err) {
         azureBreaker.recordFailure()
-        console.error('[img] Azure fetch failed, circuit breaker recording failure', err)
+        console.error(
+          '[img] Azure fetch failed, circuit breaker recording failure',
+          err,
+        )
       }
     } else {
       // Circuit open — skip Azure, fall through to CF Image Resizing
-      console.warn('[img] circuit breaker open, using CF Image Resizing fallback')
+      console.warn(
+        '[img] circuit breaker open, using CF Image Resizing fallback',
+      )
     }
   }
 
   // 4. Fallback: original + CF Image Resizing
   const fetchOpts: RequestInit & { cf?: Record<string, unknown> } =
     w > 0
-      ? { cf: { image: { width: w, quality: parseInt(q, 10), format: f, fit: 'scale-down' } } }
+      ? {
+          cf: {
+            image: {
+              width: w,
+              quality: parseInt(q, 10),
+              format: f,
+              fit: 'scale-down',
+            },
+          },
+        }
       : {}
-  const upstream = await fetch(`${AZURE_BLOB_ORIGIN}/${blobPath}`, fetchOpts)
+  const upstream = await fetch(
+    `${c.env.AZURE_BLOB_ORIGIN}/${blobPath}`,
+    fetchOpts,
+  )
   if (!upstream.ok) return new Response('Not found', { status: 404 })
 
   const headers = new Headers(upstream.headers)

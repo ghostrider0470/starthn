@@ -64,7 +64,7 @@ public class GraphEmailService : IEmailService
             <a href="mailto:{System.Net.WebUtility.HtmlEncode(request.Email)}">{System.Net.WebUtility.HtmlEncode(request.Email)}</a></p>
             <br>
             <hr style="border: none; border-top: 1px solid #ccc;">
-            <p style="color: #888; font-size: 12px;">Sent via horizon-tech.io contact form &middot; Category: {System.Net.WebUtility.HtmlEncode(subjectLabel)}</p>
+            <p style="color: #888; font-size: 12px;">Sent via starthn.ba contact form &middot; Category: {System.Net.WebUtility.HtmlEncode(subjectLabel)}</p>
             """;
 
         var payload = new

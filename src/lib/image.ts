@@ -4,8 +4,11 @@
  *
  * Source images live in Azure Blob → /img/ proxy caches + resizes via CF Image Resizing.
  */
+import { env } from '@/env'
 
-const AZURE_BLOB = 'https://starthnstorage.blob.core.windows.net/'
+const AZURE_BLOB =
+  (env.VITE_AZURE_BLOB_ORIGIN ??
+    'https://starthnstorage.blob.core.windows.net') + '/'
 
 /** Known image container prefixes */
 const CONTAINER_PREFIXES = ['avatars/', 'blog-images/', 'page-images/']
@@ -39,7 +42,7 @@ export function img(src: string | null | undefined, opts?: ImageOpts): string {
   if (src.startsWith(AZURE_BLOB)) {
     // Legacy full Azure URL — strip origin
     path = src.slice(AZURE_BLOB.length)
-  } else if (CONTAINER_PREFIXES.some(p => src.startsWith(p))) {
+  } else if (CONTAINER_PREFIXES.some((p) => src.startsWith(p))) {
     // New relative path (e.g., "avatars/userId/guid.webp")
     path = src
   } else {
@@ -60,9 +63,12 @@ export function img(src: string | null | undefined, opts?: ImageOpts): string {
  * Generate srcSet for responsive images.
  * Returns srcSet string with multiple widths using auto format negotiation.
  */
-export function imgSrcSet(src: string | null | undefined, widths: readonly number[]): string {
+export function imgSrcSet(
+  src: string | null | undefined,
+  widths: readonly number[],
+): string {
   if (!src) return ''
   return widths
-    .map(w => `${img(src, { width: w, format: 'auto' })} ${w}w`)
+    .map((w) => `${img(src, { width: w, format: 'auto' })} ${w}w`)
     .join(', ')
 }

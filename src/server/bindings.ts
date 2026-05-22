@@ -19,6 +19,7 @@ export type Bindings = {
   IMG_CACHE: R2Bucket
   IMG_WRITE_QUEUE: Queue<ImageWriteMessage>
   API_ORIGIN: string
+  AZURE_BLOB_ORIGIN: string
   JWT_SECRET: string
   SYNC_SECRET: string
 }

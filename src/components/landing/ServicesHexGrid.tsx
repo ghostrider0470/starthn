@@ -3,16 +3,8 @@ import { motion } from 'motion/react'
 import { useTranslation } from 'react-i18next'
 import { designSystem } from '@/lib/design-system'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
+import { SERVICE_IDS, SERVICE_ROUTES } from '@/lib/service-routes'
 import { cn } from '@/lib/utils'
-
-const serviceKeys = [
-  'customSoftware',
-  'aiMl',
-  'cloud',
-  'iot',
-  'devops',
-  'digital',
-] as const
 
 const rowVariants = {
   hidden: { opacity: 0, y: designSystem.animation.motion.distance.slideUp },
@@ -30,15 +22,17 @@ export function ServicesHexGrid() {
   const { t } = useTranslation('landing')
   const location = useLocation()
   const currentLocale = getLocaleFromPath(location.pathname)
-  const contactHref = withLocalePath('/contact', currentLocale)
 
   return (
-    <section className="relative py-24 bg-background overflow-hidden">
-      <div className="container mx-auto px-6 lg:px-8 relative z-30 max-w-5xl">
+    <section className="relative overflow-hidden bg-background py-14 md:py-16">
+      <div className="container relative z-30 mx-auto max-w-6xl px-6 lg:px-8">
         {/* Header */}
         <motion.div
-          className="text-center mb-16 max-w-3xl mx-auto"
-          initial={{ opacity: 0, y: designSystem.animation.motion.distance.slideUp }}
+          className="mx-auto mb-9 max-w-3xl text-center"
+          initial={{
+            opacity: 0,
+            y: designSystem.animation.motion.distance.slideUp,
+          }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-50px' }}
           transition={{
@@ -46,13 +40,13 @@ export function ServicesHexGrid() {
             ease: designSystem.animation.motion.ease.out,
           }}
         >
-          <span className="text-sm font-medium uppercase tracking-widest text-primary mb-3 block">
+          <span className="mb-3 block text-xs font-semibold uppercase tracking-[0.2em] text-primary">
             {t('services.subtitle')}
           </span>
           <h2
             className={cn(
               designSystem.typography.heading.h1,
-              'landing-section-heading text-4xl md:text-5xl font-bold text-foreground'
+              'landing-section-heading text-3xl font-bold text-foreground md:text-4xl',
             )}
           >
             {t('services.title')}
@@ -60,7 +54,7 @@ export function ServicesHexGrid() {
           <p
             className={cn(
               designSystem.typography.body.large,
-              'landing-section-lead text-muted-foreground'
+              'landing-section-lead mx-auto mt-3 max-w-2xl text-base leading-relaxed text-muted-foreground',
             )}
           >
             {t('services.description')}
@@ -68,10 +62,10 @@ export function ServicesHexGrid() {
         </motion.div>
 
         {/* Service list */}
-        <div className="border-t border-border">
-          {serviceKeys.map((key, i) => (
+        <div className="grid gap-x-8 border-t border-border md:grid-cols-2">
+          {SERVICE_IDS.map((serviceId, i) => (
             <motion.div
-              key={key}
+              key={serviceId}
               variants={rowVariants}
               initial="hidden"
               whileInView="visible"
@@ -79,30 +73,30 @@ export function ServicesHexGrid() {
               transition={{ delay: i * 0.06 }}
             >
               <Link
-                to={contactHref}
+                to={withLocalePath(SERVICE_ROUTES[serviceId], currentLocale)}
                 className={cn(
-                  'group flex flex-col md:flex-row md:items-center gap-2 md:gap-6',
-                  'py-5 border-b border-border',
-                  'transition-colors hover:bg-muted/30'
+                  'group grid grid-cols-[2rem_1fr] gap-x-4 gap-y-1',
+                  'border-b border-border py-4',
+                  'transition-colors hover:bg-muted/30',
                 )}
               >
                 {/* Number */}
-                <span className="text-primary font-bold text-sm shrink-0 w-8">
+                <span className="text-sm font-bold text-primary">
                   {String(i + 1).padStart(2, '0')}
                 </span>
 
                 {/* Title */}
-                <span className="font-semibold text-foreground shrink-0 md:w-56">
-                  {t(`services.items.${key}.title`)}
+                <span className="font-semibold text-foreground">
+                  {t(`services.items.${serviceId}.title`)}
                 </span>
 
                 {/* Description */}
-                <span className="text-muted-foreground text-sm flex-1">
-                  {t(`services.items.${key}.description`)}
+                <span className="col-start-2 text-sm leading-relaxed text-muted-foreground">
+                  {t(`services.items.${serviceId}.description`)}
                 </span>
 
                 {/* Arrow */}
-                <span className="text-primary shrink-0 transition-transform group-hover:translate-x-1 hidden md:inline">
+                <span className="col-start-2 text-primary transition-transform group-hover:translate-x-1">
                   &rarr;
                 </span>
               </Link>

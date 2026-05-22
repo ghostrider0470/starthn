@@ -32,7 +32,7 @@ type BlogArticleMeta = {
   description: string
   path: string
   datePublished?: string
-  tags: string[]
+  tags: Array<string>
 }
 
 type ResolvedSeoMeta = {
@@ -41,7 +41,7 @@ type ResolvedSeoMeta = {
   titleKey?: string
   descriptionKey?: string
   type?: 'website' | 'article' | 'profile'
-  keywords?: string[]
+  keywords?: Array<string>
   robots?: string
   blogArticle?: BlogArticleMeta
 }
@@ -61,7 +61,7 @@ const NOINDEX_PREFIXES = [
   '/workspace',
 ]
 
-const SEO_ROUTE_MAP: Record<string, SeoMetaTranslation> = {
+const SEO_ROUTE_MAP: Partial<Record<string, SeoMetaTranslation>> = {
   '/': { titleKey: 'seo:pages.home.title', descriptionKey: 'seo:pages.home.description' },
   '/about': { titleKey: 'seo:pages.about.title', descriptionKey: 'seo:pages.about.description' },
   '/team': { titleKey: 'seo:pages.team.title', descriptionKey: 'seo:pages.team.description' },
@@ -97,29 +97,33 @@ const SEO_ROUTE_MAP: Record<string, SeoMetaTranslation> = {
     descriptionKey: 'seo:pages.confirmEmail.description',
   },
   '/admin': { titleKey: 'seo:pages.admin.title', descriptionKey: 'seo:pages.admin.description' },
-  '/services/enterprise-software-development': {
-    titleKey: 'seo:pages.servicesEnterprise.title',
-    descriptionKey: 'seo:pages.servicesEnterprise.description',
+  '/services': {
+    titleKey: 'seo:pages.services.title',
+    descriptionKey: 'seo:pages.services.description',
   },
-  '/services/ai-ml-business-intelligence': {
-    titleKey: 'seo:pages.servicesAiMl.title',
-    descriptionKey: 'seo:pages.servicesAiMl.description',
+  '/services/bookkeeping-accounting': {
+    titleKey: 'seo:pages.services.title',
+    descriptionKey: 'seo:pages.services.description',
   },
-  '/services/cloud-architecture': {
-    titleKey: 'seo:pages.servicesCloudArchitecture.title',
-    descriptionKey: 'seo:pages.servicesCloudArchitecture.description',
+  '/services/tax-consulting': {
+    titleKey: 'seo:pages.services.title',
+    descriptionKey: 'seo:pages.services.description',
   },
-  '/services/iot-edge-computing': {
-    titleKey: 'seo:pages.servicesIotEdge.title',
-    descriptionKey: 'seo:pages.servicesIotEdge.description',
+  '/services/virtual-cfo': {
+    titleKey: 'seo:pages.services.title',
+    descriptionKey: 'seo:pages.services.description',
   },
-  '/services/devops-platform-engineering': {
-    titleKey: 'seo:pages.servicesDevOps.title',
-    descriptionKey: 'seo:pages.servicesDevOps.description',
+  '/services/business-consulting': {
+    titleKey: 'seo:pages.services.title',
+    descriptionKey: 'seo:pages.services.description',
   },
-  '/services/digital-transformation': {
-    titleKey: 'seo:pages.servicesDigitalTransformation.title',
-    descriptionKey: 'seo:pages.servicesDigitalTransformation.description',
+  '/services/financial-reporting': {
+    titleKey: 'seo:pages.services.title',
+    descriptionKey: 'seo:pages.services.description',
+  },
+  '/services/education-courses': {
+    titleKey: 'seo:pages.services.title',
+    descriptionKey: 'seo:pages.services.description',
   },
   '/innovation-lab': {
     titleKey: 'seo:pages.innovationLab.title',
@@ -144,9 +148,9 @@ const SEO_ROUTE_MAP: Record<string, SeoMetaTranslation> = {
 }
 
 function upsertPropertyMeta(name: string, content: string) {
-  let node = document.head.querySelector(
+  let node = document.head.querySelector<HTMLMetaElement>(
     `meta[property="${name}"][data-seo-article-meta="true"]`,
-  ) as HTMLMetaElement | null
+  )
 
   if (!node) {
     node = document.createElement('meta')
@@ -300,7 +304,7 @@ export function useI18nMeta() {
   const seoMeta = useMemo(() => resolveSeoMeta(normalizedPath), [normalizedPath])
 
   useEffect(() => {
-    const currentLocale = (SUPPORTED_LOCALES as readonly string[]).includes(locale)
+    const currentLocale = (SUPPORTED_LOCALES as ReadonlyArray<string>).includes(locale)
       ? locale
       : DEFAULT_LOCALE
     const title = seoMeta.title ??
@@ -318,7 +322,7 @@ export function useI18nMeta() {
 
     const origin = window.location.origin
 
-    const isPriorityLocale = (SEO_PRIORITY_LOCALES as readonly string[]).includes(currentLocale)
+    const isPriorityLocale = (SEO_PRIORITY_LOCALES as ReadonlyArray<string>).includes(currentLocale)
 
     // Route-based noindex (private pages) takes priority, then locale-based noindex
     const robots = seoMeta.robots

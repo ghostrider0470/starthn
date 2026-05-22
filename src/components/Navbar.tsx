@@ -10,7 +10,7 @@ import {
 import { useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
-import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar'
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { useAuth } from '@/contexts/AuthContext'
 import { img } from '@/lib/image'
 import {
@@ -50,6 +50,7 @@ import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { UserDropdownMenu } from '@/components/UserDropdownMenu'
 import { featureFlags } from '@/lib/feature-flags'
+import { SERVICE_ROUTES } from '@/lib/service-routes'
 
 type NavRouteItem = {
   title: string
@@ -86,32 +87,32 @@ export function Navbar() {
       const solutionItems: Array<NavRouteItem> = [
         {
           title: t('nav.enterpriseSoftware.title'),
-          href: '/services/enterprise-software-development',
+          href: SERVICE_ROUTES.bookkeeping,
           description: t('nav.enterpriseSoftware.description'),
         },
         {
           title: t('nav.aiMl.title'),
-          href: '/services/ai-ml-business-intelligence',
+          href: SERVICE_ROUTES.taxConsulting,
           description: t('nav.aiMl.description'),
         },
         {
           title: t('nav.cloudArchitecture.title'),
-          href: '/services/cloud-architecture',
+          href: SERVICE_ROUTES.virtualCfo,
           description: t('nav.cloudArchitecture.description'),
         },
         {
           title: t('nav.iot.title'),
-          href: '/services/iot-edge-computing',
+          href: SERVICE_ROUTES.businessConsulting,
           description: t('nav.iot.description'),
         },
         {
           title: t('nav.devops.title'),
-          href: '/services/devops-platform-engineering',
+          href: SERVICE_ROUTES.financialReporting,
           description: t('nav.devops.description'),
         },
         {
           title: t('nav.digitalTransformation.title'),
-          href: '/services/digital-transformation',
+          href: SERVICE_ROUTES.education,
           description: t('nav.digitalTransformation.description'),
         },
       ]
@@ -197,7 +198,7 @@ export function Navbar() {
           type: 'link',
           id: 'solutions',
           title: t('nav.solutions'),
-          href: '/services/enterprise-software-development',
+          href: '/services',
         },
         ...(featureFlags.caseStudies
           ? [
@@ -232,13 +233,12 @@ export function Navbar() {
     <nav
       aria-label={t('nav.navigation')}
       className={cn(
-        'fixed top-0 left-0 right-0 z-[70] w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60',
-        'transition-all duration-300 shadow-lg shadow-primary/20',
-        'border-primary',
+        'fixed top-0 left-0 right-0 z-[70] w-full border-b border-border/70 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/70',
+        'transition-all duration-300 shadow-sm shadow-black/5',
       )}
     >
       {/* Subtle gradient accent */}
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-accent/5 pointer-events-none z-0" />
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-accent/5 pointer-events-none z-0 opacity-60" />
       {/* Match global layout container */}
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
@@ -369,7 +369,12 @@ export function Navbar() {
                       aria-label="Open user menu"
                     >
                       <Avatar className="h-9 w-9 border-2 border-transparent hover:border-primary transition-colors">
-                        <AvatarImage src={img(user?.avatarUrl, { width: 96, format: 'auto' })} />
+                        <AvatarImage
+                          src={img(user?.avatarUrl, {
+                            width: 96,
+                            format: 'auto',
+                          })}
+                        />
                         <AvatarFallback className="bg-primary/10 text-sm font-semibold text-primary">
                           {user?.firstName[0]}
                           {user?.lastName[0]}
@@ -404,11 +409,7 @@ export function Navbar() {
             {/* Mobile menu trigger */}
             <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
               <SheetTrigger asChild className="lg:hidden">
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="h-9 w-9"
-                >
+                <Button variant="ghost" size="icon" className="h-9 w-9">
                   <Menu className="h-5 w-5" />
                   <span className="sr-only">{t('nav.toggleMenu')}</span>
                 </Button>
@@ -450,7 +451,12 @@ export function Navbar() {
                       </div>
                       {isAuthenticated && (
                         <Avatar className="h-9 w-9">
-                          <AvatarImage src={img(user?.avatarUrl, { width: 96, format: 'auto' })} />
+                          <AvatarImage
+                            src={img(user?.avatarUrl, {
+                              width: 96,
+                              format: 'auto',
+                            })}
+                          />
                           <AvatarFallback
                             className={cn(
                               'bg-primary/10',
@@ -540,7 +546,7 @@ export function Navbar() {
                               {t('nav.dashboard')}
                             </span>
                           </Link>
-<Link
+                          <Link
                             to={withLocalePath('/my-page', currentLocale)}
                             onClick={() => setMobileMenuOpen(false)}
                             className="rounded-lg px-3 py-2.5 text-sm hover:bg-primary/10 hover:text-primary"

@@ -5,7 +5,8 @@
   "compatibility_flags": ["nodejs_compat_v2"],
   "main": "src/server.ts",
   "vars": {
-    "API_ORIGIN": "https://starthn-func-prod.azurewebsites.net"
+    "API_ORIGIN": "https://starthn-func-prod.azurewebsites.net",
+    "AZURE_BLOB_ORIGIN": "https://starthnstorage.blob.core.windows.net"
     // JWT_SECRET is set via `npx wrangler secret put JWT_SECRET` (not here — sensitive)
   },
   "d1_databases": [

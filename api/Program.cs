@@ -51,7 +51,7 @@ builder.Services.AddSingleton(_ =>
 });
 
 builder.Services.AddSingleton(sp =>
-    sp.GetRequiredService<CosmosClient>().GetDatabase("horizon"));
+    sp.GetRequiredService<CosmosClient>().GetDatabase("starthn"));
 
 // Repositories
 builder.Services.AddScoped<IUserRepository, UserRepository>();

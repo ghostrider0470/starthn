@@ -33,14 +33,21 @@ import { Route as Char123LocaleChar125AboutRouteImport } from './routes/{-$local
 import { Route as Char123LocaleChar125404RouteImport } from './routes/{-$locale}/404'
 import { Route as Char123LocaleChar125SplatRouteImport } from './routes/{-$locale}/$'
 import { Route as Char123LocaleChar125TeamIndexRouteImport } from './routes/{-$locale}/team.index'
+import { Route as Char123LocaleChar125ServicesIndexRouteImport } from './routes/{-$locale}/services.index'
 import { Route as Char123LocaleChar125BlogIndexRouteImport } from './routes/{-$locale}/blog.index'
 import { Route as Char123LocaleChar125AdminIndexRouteImport } from './routes/{-$locale}/admin/index'
 import { Route as Char123LocaleChar125TeamSlugRouteImport } from './routes/{-$locale}/team.$slug'
+import { Route as Char123LocaleChar125ServicesVirtualCfoRouteImport } from './routes/{-$locale}/services/virtual-cfo'
+import { Route as Char123LocaleChar125ServicesTaxConsultingRouteImport } from './routes/{-$locale}/services/tax-consulting'
 import { Route as Char123LocaleChar125ServicesIotEdgeComputingRouteImport } from './routes/{-$locale}/services/iot-edge-computing'
+import { Route as Char123LocaleChar125ServicesFinancialReportingRouteImport } from './routes/{-$locale}/services/financial-reporting'
 import { Route as Char123LocaleChar125ServicesEnterpriseSoftwareDevelopmentRouteImport } from './routes/{-$locale}/services/enterprise-software-development'
+import { Route as Char123LocaleChar125ServicesEducationCoursesRouteImport } from './routes/{-$locale}/services/education-courses'
 import { Route as Char123LocaleChar125ServicesDigitalTransformationRouteImport } from './routes/{-$locale}/services/digital-transformation'
 import { Route as Char123LocaleChar125ServicesDevopsPlatformEngineeringRouteImport } from './routes/{-$locale}/services/devops-platform-engineering'
 import { Route as Char123LocaleChar125ServicesCloudArchitectureRouteImport } from './routes/{-$locale}/services/cloud-architecture'
+import { Route as Char123LocaleChar125ServicesBusinessConsultingRouteImport } from './routes/{-$locale}/services/business-consulting'
+import { Route as Char123LocaleChar125ServicesBookkeepingAccountingRouteImport } from './routes/{-$locale}/services/bookkeeping-accounting'
 import { Route as Char123LocaleChar125ServicesAiMlBusinessIntelligenceRouteImport } from './routes/{-$locale}/services/ai-ml-business-intelligence'
 import { Route as Char123LocaleChar125BlogSlugRouteImport } from './routes/{-$locale}/blog.$slug'
 import { Route as Char123LocaleChar125AuthCallbackRouteImport } from './routes/{-$locale}/auth.callback'
@@ -196,6 +203,12 @@ const Char123LocaleChar125TeamIndexRoute =
     path: '/team/',
     getParentRoute: () => Char123LocaleChar125Route,
   } as any)
+const Char123LocaleChar125ServicesIndexRoute =
+  Char123LocaleChar125ServicesIndexRouteImport.update({
+    id: '/services/',
+    path: '/services/',
+    getParentRoute: () => Char123LocaleChar125Route,
+  } as any)
 const Char123LocaleChar125BlogIndexRoute =
   Char123LocaleChar125BlogIndexRouteImport.update({
     id: '/blog/',
@@ -214,16 +227,40 @@ const Char123LocaleChar125TeamSlugRoute =
     path: '/team/$slug',
     getParentRoute: () => Char123LocaleChar125Route,
   } as any)
+const Char123LocaleChar125ServicesVirtualCfoRoute =
+  Char123LocaleChar125ServicesVirtualCfoRouteImport.update({
+    id: '/services/virtual-cfo',
+    path: '/services/virtual-cfo',
+    getParentRoute: () => Char123LocaleChar125Route,
+  } as any)
+const Char123LocaleChar125ServicesTaxConsultingRoute =
+  Char123LocaleChar125ServicesTaxConsultingRouteImport.update({
+    id: '/services/tax-consulting',
+    path: '/services/tax-consulting',
+    getParentRoute: () => Char123LocaleChar125Route,
+  } as any)
 const Char123LocaleChar125ServicesIotEdgeComputingRoute =
   Char123LocaleChar125ServicesIotEdgeComputingRouteImport.update({
     id: '/services/iot-edge-computing',
     path: '/services/iot-edge-computing',
     getParentRoute: () => Char123LocaleChar125Route,
   } as any)
+const Char123LocaleChar125ServicesFinancialReportingRoute =
+  Char123LocaleChar125ServicesFinancialReportingRouteImport.update({
+    id: '/services/financial-reporting',
+    path: '/services/financial-reporting',
+    getParentRoute: () => Char123LocaleChar125Route,
+  } as any)
 const Char123LocaleChar125ServicesEnterpriseSoftwareDevelopmentRoute =
   Char123LocaleChar125ServicesEnterpriseSoftwareDevelopmentRouteImport.update({
     id: '/services/enterprise-software-development',
     path: '/services/enterprise-software-development',
+    getParentRoute: () => Char123LocaleChar125Route,
+  } as any)
+const Char123LocaleChar125ServicesEducationCoursesRoute =
+  Char123LocaleChar125ServicesEducationCoursesRouteImport.update({
+    id: '/services/education-courses',
+    path: '/services/education-courses',
     getParentRoute: () => Char123LocaleChar125Route,
   } as any)
 const Char123LocaleChar125ServicesDigitalTransformationRoute =
@@ -242,6 +279,18 @@ const Char123LocaleChar125ServicesCloudArchitectureRoute =
   Char123LocaleChar125ServicesCloudArchitectureRouteImport.update({
     id: '/services/cloud-architecture',
     path: '/services/cloud-architecture',
+    getParentRoute: () => Char123LocaleChar125Route,
+  } as any)
+const Char123LocaleChar125ServicesBusinessConsultingRoute =
+  Char123LocaleChar125ServicesBusinessConsultingRouteImport.update({
+    id: '/services/business-consulting',
+    path: '/services/business-consulting',
+    getParentRoute: () => Char123LocaleChar125Route,
+  } as any)
+const Char123LocaleChar125ServicesBookkeepingAccountingRoute =
+  Char123LocaleChar125ServicesBookkeepingAccountingRouteImport.update({
+    id: '/services/bookkeeping-accounting',
+    path: '/services/bookkeeping-accounting',
     getParentRoute: () => Char123LocaleChar125Route,
   } as any)
 const Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute =
@@ -351,14 +400,21 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/auth/callback': typeof Char123LocaleChar125AuthCallbackRoute
   '/{-$locale}/blog/$slug': typeof Char123LocaleChar125BlogSlugRoute
   '/{-$locale}/services/ai-ml-business-intelligence': typeof Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute
+  '/{-$locale}/services/bookkeeping-accounting': typeof Char123LocaleChar125ServicesBookkeepingAccountingRoute
+  '/{-$locale}/services/business-consulting': typeof Char123LocaleChar125ServicesBusinessConsultingRoute
   '/{-$locale}/services/cloud-architecture': typeof Char123LocaleChar125ServicesCloudArchitectureRoute
   '/{-$locale}/services/devops-platform-engineering': typeof Char123LocaleChar125ServicesDevopsPlatformEngineeringRoute
   '/{-$locale}/services/digital-transformation': typeof Char123LocaleChar125ServicesDigitalTransformationRoute
+  '/{-$locale}/services/education-courses': typeof Char123LocaleChar125ServicesEducationCoursesRoute
   '/{-$locale}/services/enterprise-software-development': typeof Char123LocaleChar125ServicesEnterpriseSoftwareDevelopmentRoute
+  '/{-$locale}/services/financial-reporting': typeof Char123LocaleChar125ServicesFinancialReportingRoute
   '/{-$locale}/services/iot-edge-computing': typeof Char123LocaleChar125ServicesIotEdgeComputingRoute
+  '/{-$locale}/services/tax-consulting': typeof Char123LocaleChar125ServicesTaxConsultingRoute
+  '/{-$locale}/services/virtual-cfo': typeof Char123LocaleChar125ServicesVirtualCfoRoute
   '/{-$locale}/team/$slug': typeof Char123LocaleChar125TeamSlugRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/blog/': typeof Char123LocaleChar125BlogIndexRoute
+  '/{-$locale}/services/': typeof Char123LocaleChar125ServicesIndexRoute
   '/{-$locale}/team/': typeof Char123LocaleChar125TeamIndexRoute
   '/{-$locale}/admin/blog/editor': typeof Char123LocaleChar125AdminBlogEditorRoute
   '/{-$locale}/admin/case-studies/editor': typeof Char123LocaleChar125AdminCaseStudiesEditorRoute
@@ -395,14 +451,21 @@ export interface FileRoutesByTo {
   '/{-$locale}/auth/callback': typeof Char123LocaleChar125AuthCallbackRoute
   '/{-$locale}/blog/$slug': typeof Char123LocaleChar125BlogSlugRoute
   '/{-$locale}/services/ai-ml-business-intelligence': typeof Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute
+  '/{-$locale}/services/bookkeeping-accounting': typeof Char123LocaleChar125ServicesBookkeepingAccountingRoute
+  '/{-$locale}/services/business-consulting': typeof Char123LocaleChar125ServicesBusinessConsultingRoute
   '/{-$locale}/services/cloud-architecture': typeof Char123LocaleChar125ServicesCloudArchitectureRoute
   '/{-$locale}/services/devops-platform-engineering': typeof Char123LocaleChar125ServicesDevopsPlatformEngineeringRoute
   '/{-$locale}/services/digital-transformation': typeof Char123LocaleChar125ServicesDigitalTransformationRoute
+  '/{-$locale}/services/education-courses': typeof Char123LocaleChar125ServicesEducationCoursesRoute
   '/{-$locale}/services/enterprise-software-development': typeof Char123LocaleChar125ServicesEnterpriseSoftwareDevelopmentRoute
+  '/{-$locale}/services/financial-reporting': typeof Char123LocaleChar125ServicesFinancialReportingRoute
   '/{-$locale}/services/iot-edge-computing': typeof Char123LocaleChar125ServicesIotEdgeComputingRoute
+  '/{-$locale}/services/tax-consulting': typeof Char123LocaleChar125ServicesTaxConsultingRoute
+  '/{-$locale}/services/virtual-cfo': typeof Char123LocaleChar125ServicesVirtualCfoRoute
   '/{-$locale}/team/$slug': typeof Char123LocaleChar125TeamSlugRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/blog': typeof Char123LocaleChar125BlogIndexRoute
+  '/{-$locale}/services': typeof Char123LocaleChar125ServicesIndexRoute
   '/{-$locale}/team': typeof Char123LocaleChar125TeamIndexRoute
   '/{-$locale}/admin/blog/editor': typeof Char123LocaleChar125AdminBlogEditorRoute
   '/{-$locale}/admin/case-studies/editor': typeof Char123LocaleChar125AdminCaseStudiesEditorRoute
@@ -442,14 +505,21 @@ export interface FileRoutesById {
   '/{-$locale}/auth/callback': typeof Char123LocaleChar125AuthCallbackRoute
   '/{-$locale}/blog/$slug': typeof Char123LocaleChar125BlogSlugRoute
   '/{-$locale}/services/ai-ml-business-intelligence': typeof Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute
+  '/{-$locale}/services/bookkeeping-accounting': typeof Char123LocaleChar125ServicesBookkeepingAccountingRoute
+  '/{-$locale}/services/business-consulting': typeof Char123LocaleChar125ServicesBusinessConsultingRoute
   '/{-$locale}/services/cloud-architecture': typeof Char123LocaleChar125ServicesCloudArchitectureRoute
   '/{-$locale}/services/devops-platform-engineering': typeof Char123LocaleChar125ServicesDevopsPlatformEngineeringRoute
   '/{-$locale}/services/digital-transformation': typeof Char123LocaleChar125ServicesDigitalTransformationRoute
+  '/{-$locale}/services/education-courses': typeof Char123LocaleChar125ServicesEducationCoursesRoute
   '/{-$locale}/services/enterprise-software-development': typeof Char123LocaleChar125ServicesEnterpriseSoftwareDevelopmentRoute
+  '/{-$locale}/services/financial-reporting': typeof Char123LocaleChar125ServicesFinancialReportingRoute
   '/{-$locale}/services/iot-edge-computing': typeof Char123LocaleChar125ServicesIotEdgeComputingRoute
+  '/{-$locale}/services/tax-consulting': typeof Char123LocaleChar125ServicesTaxConsultingRoute
+  '/{-$locale}/services/virtual-cfo': typeof Char123LocaleChar125ServicesVirtualCfoRoute
   '/{-$locale}/team/$slug': typeof Char123LocaleChar125TeamSlugRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/blog/': typeof Char123LocaleChar125BlogIndexRoute
+  '/{-$locale}/services/': typeof Char123LocaleChar125ServicesIndexRoute
   '/{-$locale}/team/': typeof Char123LocaleChar125TeamIndexRoute
   '/{-$locale}/admin/blog_/editor': typeof Char123LocaleChar125AdminBlogEditorRoute
   '/{-$locale}/admin/case-studies_/editor': typeof Char123LocaleChar125AdminCaseStudiesEditorRoute
@@ -490,14 +560,21 @@ export interface FileRouteTypes {
     | '/{-$locale}/auth/callback'
     | '/{-$locale}/blog/$slug'
     | '/{-$locale}/services/ai-ml-business-intelligence'
+    | '/{-$locale}/services/bookkeeping-accounting'
+    | '/{-$locale}/services/business-consulting'
     | '/{-$locale}/services/cloud-architecture'
     | '/{-$locale}/services/devops-platform-engineering'
     | '/{-$locale}/services/digital-transformation'
+    | '/{-$locale}/services/education-courses'
     | '/{-$locale}/services/enterprise-software-development'
+    | '/{-$locale}/services/financial-reporting'
     | '/{-$locale}/services/iot-edge-computing'
+    | '/{-$locale}/services/tax-consulting'
+    | '/{-$locale}/services/virtual-cfo'
     | '/{-$locale}/team/$slug'
     | '/{-$locale}/admin/'
     | '/{-$locale}/blog/'
+    | '/{-$locale}/services/'
     | '/{-$locale}/team/'
     | '/{-$locale}/admin/blog/editor'
     | '/{-$locale}/admin/case-studies/editor'
@@ -534,14 +611,21 @@ export interface FileRouteTypes {
     | '/{-$locale}/auth/callback'
     | '/{-$locale}/blog/$slug'
     | '/{-$locale}/services/ai-ml-business-intelligence'
+    | '/{-$locale}/services/bookkeeping-accounting'
+    | '/{-$locale}/services/business-consulting'
     | '/{-$locale}/services/cloud-architecture'
     | '/{-$locale}/services/devops-platform-engineering'
     | '/{-$locale}/services/digital-transformation'
+    | '/{-$locale}/services/education-courses'
     | '/{-$locale}/services/enterprise-software-development'
+    | '/{-$locale}/services/financial-reporting'
     | '/{-$locale}/services/iot-edge-computing'
+    | '/{-$locale}/services/tax-consulting'
+    | '/{-$locale}/services/virtual-cfo'
     | '/{-$locale}/team/$slug'
     | '/{-$locale}/admin'
     | '/{-$locale}/blog'
+    | '/{-$locale}/services'
     | '/{-$locale}/team'
     | '/{-$locale}/admin/blog/editor'
     | '/{-$locale}/admin/case-studies/editor'
@@ -580,14 +664,21 @@ export interface FileRouteTypes {
     | '/{-$locale}/auth/callback'
     | '/{-$locale}/blog/$slug'
     | '/{-$locale}/services/ai-ml-business-intelligence'
+    | '/{-$locale}/services/bookkeeping-accounting'
+    | '/{-$locale}/services/business-consulting'
     | '/{-$locale}/services/cloud-architecture'
     | '/{-$locale}/services/devops-platform-engineering'
     | '/{-$locale}/services/digital-transformation'
+    | '/{-$locale}/services/education-courses'
     | '/{-$locale}/services/enterprise-software-development'
+    | '/{-$locale}/services/financial-reporting'
     | '/{-$locale}/services/iot-edge-computing'
+    | '/{-$locale}/services/tax-consulting'
+    | '/{-$locale}/services/virtual-cfo'
     | '/{-$locale}/team/$slug'
     | '/{-$locale}/admin/'
     | '/{-$locale}/blog/'
+    | '/{-$locale}/services/'
     | '/{-$locale}/team/'
     | '/{-$locale}/admin/blog_/editor'
     | '/{-$locale}/admin/case-studies_/editor'
@@ -767,6 +858,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125TeamIndexRouteImport
       parentRoute: typeof Char123LocaleChar125Route
     }
+    '/{-$locale}/services/': {
+      id: '/{-$locale}/services/'
+      path: '/services'
+      fullPath: '/{-$locale}/services/'
+      preLoaderRoute: typeof Char123LocaleChar125ServicesIndexRouteImport
+      parentRoute: typeof Char123LocaleChar125Route
+    }
     '/{-$locale}/blog/': {
       id: '/{-$locale}/blog/'
       path: '/blog'
@@ -788,6 +886,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125TeamSlugRouteImport
       parentRoute: typeof Char123LocaleChar125Route
     }
+    '/{-$locale}/services/virtual-cfo': {
+      id: '/{-$locale}/services/virtual-cfo'
+      path: '/services/virtual-cfo'
+      fullPath: '/{-$locale}/services/virtual-cfo'
+      preLoaderRoute: typeof Char123LocaleChar125ServicesVirtualCfoRouteImport
+      parentRoute: typeof Char123LocaleChar125Route
+    }
+    '/{-$locale}/services/tax-consulting': {
+      id: '/{-$locale}/services/tax-consulting'
+      path: '/services/tax-consulting'
+      fullPath: '/{-$locale}/services/tax-consulting'
+      preLoaderRoute: typeof Char123LocaleChar125ServicesTaxConsultingRouteImport
+      parentRoute: typeof Char123LocaleChar125Route
+    }
     '/{-$locale}/services/iot-edge-computing': {
       id: '/{-$locale}/services/iot-edge-computing'
       path: '/services/iot-edge-computing'
@@ -795,11 +907,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125ServicesIotEdgeComputingRouteImport
       parentRoute: typeof Char123LocaleChar125Route
     }
+    '/{-$locale}/services/financial-reporting': {
+      id: '/{-$locale}/services/financial-reporting'
+      path: '/services/financial-reporting'
+      fullPath: '/{-$locale}/services/financial-reporting'
+      preLoaderRoute: typeof Char123LocaleChar125ServicesFinancialReportingRouteImport
+      parentRoute: typeof Char123LocaleChar125Route
+    }
     '/{-$locale}/services/enterprise-software-development': {
       id: '/{-$locale}/services/enterprise-software-development'
       path: '/services/enterprise-software-development'
       fullPath: '/{-$locale}/services/enterprise-software-development'
       preLoaderRoute: typeof Char123LocaleChar125ServicesEnterpriseSoftwareDevelopmentRouteImport
+      parentRoute: typeof Char123LocaleChar125Route
+    }
+    '/{-$locale}/services/education-courses': {
+      id: '/{-$locale}/services/education-courses'
+      path: '/services/education-courses'
+      fullPath: '/{-$locale}/services/education-courses'
+      preLoaderRoute: typeof Char123LocaleChar125ServicesEducationCoursesRouteImport
       parentRoute: typeof Char123LocaleChar125Route
     }
     '/{-$locale}/services/digital-transformation': {
@@ -821,6 +947,20 @@ declare module '@tanstack/react-router' {
       path: '/services/cloud-architecture'
       fullPath: '/{-$locale}/services/cloud-architecture'
       preLoaderRoute: typeof Char123LocaleChar125ServicesCloudArchitectureRouteImport
+      parentRoute: typeof Char123LocaleChar125Route
+    }
+    '/{-$locale}/services/business-consulting': {
+      id: '/{-$locale}/services/business-consulting'
+      path: '/services/business-consulting'
+      fullPath: '/{-$locale}/services/business-consulting'
+      preLoaderRoute: typeof Char123LocaleChar125ServicesBusinessConsultingRouteImport
+      parentRoute: typeof Char123LocaleChar125Route
+    }
+    '/{-$locale}/services/bookkeeping-accounting': {
+      id: '/{-$locale}/services/bookkeeping-accounting'
+      path: '/services/bookkeeping-accounting'
+      fullPath: '/{-$locale}/services/bookkeeping-accounting'
+      preLoaderRoute: typeof Char123LocaleChar125ServicesBookkeepingAccountingRouteImport
       parentRoute: typeof Char123LocaleChar125Route
     }
     '/{-$locale}/services/ai-ml-business-intelligence': {
@@ -972,13 +1112,20 @@ interface Char123LocaleChar125RouteChildren {
   Char123LocaleChar125AuthCallbackRoute: typeof Char123LocaleChar125AuthCallbackRoute
   Char123LocaleChar125BlogSlugRoute: typeof Char123LocaleChar125BlogSlugRoute
   Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute: typeof Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute
+  Char123LocaleChar125ServicesBookkeepingAccountingRoute: typeof Char123LocaleChar125ServicesBookkeepingAccountingRoute
+  Char123LocaleChar125ServicesBusinessConsultingRoute: typeof Char123LocaleChar125ServicesBusinessConsultingRoute
   Char123LocaleChar125ServicesCloudArchitectureRoute: typeof Char123LocaleChar125ServicesCloudArchitectureRoute
   Char123LocaleChar125ServicesDevopsPlatformEngineeringRoute: typeof Char123LocaleChar125ServicesDevopsPlatformEngineeringRoute
   Char123LocaleChar125ServicesDigitalTransformationRoute: typeof Char123LocaleChar125ServicesDigitalTransformationRoute
+  Char123LocaleChar125ServicesEducationCoursesRoute: typeof Char123LocaleChar125ServicesEducationCoursesRoute
   Char123LocaleChar125ServicesEnterpriseSoftwareDevelopmentRoute: typeof Char123LocaleChar125ServicesEnterpriseSoftwareDevelopmentRoute
+  Char123LocaleChar125ServicesFinancialReportingRoute: typeof Char123LocaleChar125ServicesFinancialReportingRoute
   Char123LocaleChar125ServicesIotEdgeComputingRoute: typeof Char123LocaleChar125ServicesIotEdgeComputingRoute
+  Char123LocaleChar125ServicesTaxConsultingRoute: typeof Char123LocaleChar125ServicesTaxConsultingRoute
+  Char123LocaleChar125ServicesVirtualCfoRoute: typeof Char123LocaleChar125ServicesVirtualCfoRoute
   Char123LocaleChar125TeamSlugRoute: typeof Char123LocaleChar125TeamSlugRoute
   Char123LocaleChar125BlogIndexRoute: typeof Char123LocaleChar125BlogIndexRoute
+  Char123LocaleChar125ServicesIndexRoute: typeof Char123LocaleChar125ServicesIndexRoute
   Char123LocaleChar125TeamIndexRoute: typeof Char123LocaleChar125TeamIndexRoute
 }
 
@@ -1012,18 +1159,32 @@ const Char123LocaleChar125RouteChildren: Char123LocaleChar125RouteChildren = {
   Char123LocaleChar125BlogSlugRoute: Char123LocaleChar125BlogSlugRoute,
   Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute:
     Char123LocaleChar125ServicesAiMlBusinessIntelligenceRoute,
+  Char123LocaleChar125ServicesBookkeepingAccountingRoute:
+    Char123LocaleChar125ServicesBookkeepingAccountingRoute,
+  Char123LocaleChar125ServicesBusinessConsultingRoute:
+    Char123LocaleChar125ServicesBusinessConsultingRoute,
   Char123LocaleChar125ServicesCloudArchitectureRoute:
     Char123LocaleChar125ServicesCloudArchitectureRoute,
   Char123LocaleChar125ServicesDevopsPlatformEngineeringRoute:
     Char123LocaleChar125ServicesDevopsPlatformEngineeringRoute,
   Char123LocaleChar125ServicesDigitalTransformationRoute:
     Char123LocaleChar125ServicesDigitalTransformationRoute,
+  Char123LocaleChar125ServicesEducationCoursesRoute:
+    Char123LocaleChar125ServicesEducationCoursesRoute,
   Char123LocaleChar125ServicesEnterpriseSoftwareDevelopmentRoute:
     Char123LocaleChar125ServicesEnterpriseSoftwareDevelopmentRoute,
+  Char123LocaleChar125ServicesFinancialReportingRoute:
+    Char123LocaleChar125ServicesFinancialReportingRoute,
   Char123LocaleChar125ServicesIotEdgeComputingRoute:
     Char123LocaleChar125ServicesIotEdgeComputingRoute,
+  Char123LocaleChar125ServicesTaxConsultingRoute:
+    Char123LocaleChar125ServicesTaxConsultingRoute,
+  Char123LocaleChar125ServicesVirtualCfoRoute:
+    Char123LocaleChar125ServicesVirtualCfoRoute,
   Char123LocaleChar125TeamSlugRoute: Char123LocaleChar125TeamSlugRoute,
   Char123LocaleChar125BlogIndexRoute: Char123LocaleChar125BlogIndexRoute,
+  Char123LocaleChar125ServicesIndexRoute:
+    Char123LocaleChar125ServicesIndexRoute,
   Char123LocaleChar125TeamIndexRoute: Char123LocaleChar125TeamIndexRoute,
 }
 

@@ -1,10 +1,11 @@
 import { Link, useLocation } from '@tanstack/react-router'
-import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin, Clock, ArrowRight } from 'lucide-react'
+import { ArrowRight, Clock, Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { Separator } from '@/components/ui/separator'
 import { cn } from '@/lib/utils'
 import { designSystem } from '@/lib/design-system'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
+import { SERVICE_ROUTES } from '@/lib/service-routes'
 
 const SOCIALS = [
   { name: 'LinkedIn', Icon: Linkedin, href: 'https://www.linkedin.com/company/start-hn' },
@@ -12,9 +13,18 @@ const SOCIALS = [
   { name: 'Facebook', Icon: Facebook, href: 'https://www.facebook.com/starthn.ba' },
 ] as const
 
-const SERVICE_KEYS = ['bookkeeping', 'tax', 'vcfo', 'reporting', 'consulting', 'education'] as const
+const SERVICE_KEYS = ['bookkeeping', 'tax', 'vcfo', 'consulting', 'reporting', 'education'] as const
 const COMPANY_KEYS = ['about', 'team', 'blog', 'careers', 'contact'] as const
 const LEGAL_KEYS = ['privacyPolicy', 'termsOfService', 'cookiePolicy'] as const
+
+const serviceHrefs: Record<(typeof SERVICE_KEYS)[number], string> = {
+  bookkeeping: SERVICE_ROUTES.bookkeeping,
+  tax: SERVICE_ROUTES.taxConsulting,
+  vcfo: SERVICE_ROUTES.virtualCfo,
+  consulting: SERVICE_ROUTES.businessConsulting,
+  reporting: SERVICE_ROUTES.financialReporting,
+  education: SERVICE_ROUTES.education,
+}
 
 const companyHrefs: Record<(typeof COMPANY_KEYS)[number], string> = {
   about: '/about',
@@ -101,7 +111,7 @@ export function Footer() {
               {SERVICE_KEYS.map((key) => (
                 <li key={key}>
                   <Link
-                    to={withLocale('/services')}
+                    to={withLocale(serviceHrefs[key])}
                     className="block text-sm text-muted-foreground transition-colors hover:text-primary"
                   >
                     {t(`footer.servicesList.${key}`)}

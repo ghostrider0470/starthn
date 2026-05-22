@@ -1,35 +1,26 @@
-import { createFileRoute } from '@tanstack/react-router'
-import { CloudCog, Network, Server } from 'lucide-react'
-import { ServicePageTemplate } from '@/components/services/ServicePageTemplate'
+import { createFileRoute, redirect } from '@tanstack/react-router'
+import {
+  DEFAULT_LOCALE,
+  isValidLocale,
+  withLocalePath,
+} from '@/lib/i18n-utils'
+import { SERVICE_ROUTES } from '@/lib/service-routes'
 
 export const Route = createFileRoute('/{-$locale}/services/cloud-architecture')(
   {
-    head: () => ({
-      meta: [
-        { title: 'Cloud Architecture — Start HN' },
-        {
-          name: 'description',
-          content:
-            'Cloud architecture, migration, and cloud-native platform engineering by Start HN.',
-        },
-        { property: 'og:title', content: 'Cloud Architecture — Start HN' },
-        {
-          property: 'og:description',
-          content:
-            'Cloud architecture, migration, and cloud-native platform engineering by Start HN.',
-        },
-      ],
-    }),
-    component: CloudArchitecture,
+    beforeLoad: ({ params }) => {
+      const locale = isValidLocale(params.locale)
+        ? params.locale
+        : DEFAULT_LOCALE
+      throw redirect({
+        to: withLocalePath(SERVICE_ROUTES.virtualCfo, locale) as never,
+        replace: true,
+      })
+    },
+    component: LegacyServiceRoute,
   },
 )
 
-const icons = [
-  CloudCog,
-  Network,
-  Server,
-]
-
-function CloudArchitecture() {
-  return <ServicePageTemplate serviceKey="cloud" icons={icons} />
+function LegacyServiceRoute() {
+  return null
 }

@@ -143,7 +143,7 @@ public class ChatFunction
 
             _logger.LogInformation("Chat lead detected: {Email} (session {SessionId})", userEmail, chatRequest.SessionId);
 
-            // Ask the LLM to summarize the conversation for the sales team
+            // Ask the LLM to summarize the conversation for the team
             var summary = await GenerateLeadSummaryAsync(chatRequest.Messages);
 
             await _emailService.SendContactEmailAsync(new ContactRequest
@@ -173,7 +173,7 @@ public class ChatFunction
             {
                 Role = "user",
                 Content = $"""
-                    You are an internal assistant at Horizon Tech. Summarize this chatbot conversation into a lead notification email for the sales team.
+                    You are an internal assistant at Start HN. Summarize this chatbot conversation into a lead notification email for the team.
 
                     Output ONLY valid HTML (no markdown). Use <h3>, <ul><li>, <p>, <strong> tags.
 
@@ -181,9 +181,9 @@ public class ChatFunction
                     <h3>Lead Summary</h3>
                     <ul>
                       <li><strong>Contact:</strong> name, email, company</li>
-                      <li><strong>Looking for:</strong> project type, technologies, timeline</li>
+                      <li><strong>Looking for:</strong> accounting service, business type, timeline</li>
                       <li><strong>Budget:</strong> range if mentioned, or "Not discussed"</li>
-                      <li><strong>Pain points:</strong> key requirements</li>
+                      <li><strong>Pain points:</strong> key accounting or tax requirements</li>
                     </ul>
                     <h3>Recommended Next Steps</h3>
                     <ul><li>...</li></ul>

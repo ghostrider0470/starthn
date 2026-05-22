@@ -12,7 +12,7 @@ public class BlogPostRepository : IBlogPostRepository
 
     public BlogPostRepository(CosmosClient client)
     {
-        _container = client.GetContainer("horizon", "blogPosts");
+        _container = client.GetContainer("starthn", "blogPosts");
     }
 
     public async Task<List<BlogPostEntity>> GetPublishedAsync()

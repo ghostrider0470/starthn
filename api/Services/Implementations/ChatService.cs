@@ -2,9 +2,13 @@ using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
+using System.Threading.Channels;
+using Azure.AI.OpenAI;
 using Api.DTOs.Chat;
 using Api.Services.Interfaces;
 using Microsoft.Extensions.Logging;
+using OpenAI.Chat;
+using System.ClientModel;
 
 namespace Api.Services.Implementations;
 
@@ -15,35 +19,36 @@ public class ChatService : IChatService
     private readonly ILogger<ChatService> _logger;
 
     private static string BuildSystemPrompt(string? locale, string? pageContext) => $"""
-        You are a friendly tech expert working at Horizon Tech, an EU-based software consultancy headquartered in Sarajevo, Bosnia and Herzegovina.
+        You are a friendly accounting advisor working at Start HN, an accounting agency based in Sarajevo, Bosnia and Herzegovina.
 
-        About Horizon Tech:
-        - Services: Enterprise Software Development, AI/ML & Business Intelligence, Cloud Architecture, IoT & Edge Computing, DevOps & Platform Engineering, Digital Transformation
-        - Tech stack: .NET, C#, React, TypeScript, Node.js, Python, Azure, AWS, Kubernetes, Docker, Terraform, PostgreSQL, MongoDB, and more
-        - Team: 25+ engineers across 9+ countries, remote-first, CET timezone
-        - Engagement model: Dedicated teams embedded in your workflow — not body-shopping. No account managers or ticket queues.
-        - Website: https://www.horizon-tech.io
+        About Start HN:
+        - Focus: helping entrepreneurs, sole traders, small businesses, and growing companies keep finances clear, compliant, and predictable.
+        - Services: bookkeeping, accounting, payroll, tax consulting, VAT/PDV registration and reporting, virtual CFO support, business consulting, and accounting education.
+        - Typical work: monthly bookkeeping, financial reports, tax deadlines, payroll calculations, company setup support, advisory calls, and practical guidance for business owners.
+        - Address: Ibrahima Ljubovica 47, Ilidza, Sarajevo Canton, Bosnia and Herzegovina.
+        - Website: https://starthn.ba
 
         Your personality:
-        - Friendly, conversational, knowledgeable — like chatting with a senior engineer
+        - Friendly, precise, calm, and practical — like talking to an experienced accountant.
         - Not salesy or pushy. Be helpful and honest.
-        - IMPORTANT: The user's website locale is "{locale ?? "en-US"}". Always respond in the language corresponding to this locale. For example: "bs-BA" = Bosnian, "de-DE" = German, "fr-FR" = French, "ar-SA" = Arabic, etc. If the user writes in a different language, match their language instead.
-        - Keep responses concise (2-4 sentences unless they ask for detail)
+        - IMPORTANT: The user's website locale is "{locale ?? "en-US"}". Always respond in the language corresponding to this locale. For example: "bs-BA" = Bosnian and "en-US" = English. If the user writes in a different language, match their language instead.
+        - Keep responses concise (2-4 sentences unless they ask for detail).
+        - Do not invent legal deadlines, fees, or tax rules. If exact current law matters, explain that Start HN should confirm it directly.
 
         Page context:
-        - The user is currently viewing: {pageContext ?? "unknown page"}
-        - Use this to give relevant answers. For example, if they're on a service page, focus on that service. If they're reading a blog post, reference the article topic.
+        - The user is currently viewing: {pageContext ?? "unknown page"}.
+        - Use this to give relevant answers. For example, if they're on a service page, focus on that accounting service.
         - Don't explicitly mention "I see you're on..." unless it's natural to do so.
 
         Conversation strategy:
-        - Your primary goal is to be genuinely helpful AND capture lead information (name, email, company) so the sales team can follow up
-        - After 2-3 exchanges, naturally steer toward understanding their specific needs: "What are you working on?" or "What's the biggest challenge you're facing right now?"
-        - Once they describe a need, offer a concrete next step: "Our team has done exactly this — want me to have someone reach out? Just drop your email and I'll connect you with the right engineer."
-        - If they share an email, confirm it warmly and wrap up: "Perfect, you'll hear from us within 24 hours."
-        - If they decline, suggest /contact as a fallback — don't push again
+        - Your primary goal is to be genuinely helpful AND capture lead information (name, email, company/business type) so the Start HN team can follow up.
+        - After 2-3 exchanges, naturally ask what kind of business they run and what accounting problem they need help with.
+        - Once they describe a need, offer a concrete next step: "If you want, leave your email and the Start HN team can suggest the right accounting package."
+        - If they share an email, confirm it warmly and wrap up: "Perfect, the Start HN team will get back to you shortly."
+        - If they decline, suggest /contact as a fallback — don't push again.
         - Never ask for email in your first response. Build rapport first.
-        - After collecting lead info, gracefully wrap the conversation — don't keep chatting indefinitely
-        - If the conversation has gone 5+ exchanges without lead info, make one natural attempt: "By the way, if you'd like us to put together a proposal or hop on a quick call, just share your email and we'll set it up."
+        - After collecting lead info, gracefully wrap the conversation — don't keep chatting indefinitely.
+        - If the conversation has gone 5+ exchanges without lead info, make one natural attempt: "If you'd like Start HN to review your situation, share your email and the team can follow up."
         """;
 
     public ChatService(HttpClient http, ILlmProviderService providerService, ILogger<ChatService> logger)
@@ -65,18 +70,46 @@ public class ChatService : IChatService
         };
         fullMessages.AddRange(messages.TakeLast(20).Select(m => new { role = m.Role, content = m.Content }));
 
-        var stream = await TryDbProviderAsync(fullMessages, cancellationToken)
-            ?? await TryEnvProviderAsync(fullMessages, cancellationToken)
-            ?? await TryNvidiaFallbackAsync(fullMessages, cancellationToken);
-
-        if (stream == null)
+        var envReturnedTokens = false;
+        await foreach (var token in StreamEnvAzureOpenAiAsync(messages, locale, pageContext, cancellationToken))
         {
-            yield return "I'm temporarily unavailable. Please try again later or visit our contact page at /contact.";
+            envReturnedTokens = true;
+            yield return token;
+        }
+        if (envReturnedTokens)
+        {
             yield break;
         }
 
+        var stream = await TryDbProviderAsync(fullMessages, cancellationToken);
+        if (stream != null)
+        {
+            await foreach (var token in StreamServerSentEventTokensAsync(stream, cancellationToken))
+            {
+                yield return token;
+            }
+            yield break;
+        }
+
+        stream = await TryNvidiaFallbackAsync(fullMessages, cancellationToken);
+        if (stream != null)
+        {
+            await foreach (var token in StreamServerSentEventTokensAsync(stream, cancellationToken))
+            {
+                yield return token;
+            }
+            yield break;
+        }
+
+        yield return "I'm temporarily unavailable. Please try again later or visit our contact page at /contact.";
+    }
+
+    private static async IAsyncEnumerable<string> StreamServerSentEventTokensAsync(
+        Stream stream,
+        [EnumeratorCancellation] CancellationToken cancellationToken = default)
+    {
         using var reader = new StreamReader(stream);
-        while (!reader.EndOfStream && !cancellationToken.IsCancellationRequested)
+        while (!cancellationToken.IsCancellationRequested)
         {
             var line = await reader.ReadLineAsync(cancellationToken);
             if (line == null) break;
@@ -131,36 +164,89 @@ public class ChatService : IChatService
         }
     }
 
-    private async Task<Stream?> TryEnvProviderAsync(List<object> messages, CancellationToken ct)
+    private IAsyncEnumerable<string> StreamEnvAzureOpenAiAsync(
+        List<ChatMessageDto> messages,
+        string? locale,
+        string? pageContext,
+        CancellationToken ct = default)
     {
         var endpoint = Environment.GetEnvironmentVariable("CHAT_LLM_ENDPOINT");
         var deployment = Environment.GetEnvironmentVariable("CHAT_LLM_DEPLOYMENT");
         var apiKey = Environment.GetEnvironmentVariable("CHAT_LLM_API_KEY");
 
         if (string.IsNullOrEmpty(endpoint) || string.IsNullOrEmpty(deployment) || string.IsNullOrEmpty(apiKey))
-            return null;
+            return EmptyAsyncEnumerable();
 
-        try
+        var channel = Channel.CreateUnbounded<string>(new UnboundedChannelOptions
         {
-            _logger.LogInformation("Chat: using env Azure OpenAI ({Deployment})", deployment);
-            var url = $"{endpoint.TrimEnd('/')}/openai/deployments/{deployment}/chat/completions?api-version=2024-10-21";
+            SingleReader = true,
+            SingleWriter = true,
+        });
 
-            var body = new { messages, stream = true };
-            var request = new HttpRequestMessage(HttpMethod.Post, url)
+        _ = Task.Run(async () =>
+        {
+            try
             {
-                Content = new StringContent(JsonSerializer.Serialize(body), Encoding.UTF8, "application/json")
-            };
-            request.Headers.Add("api-key", apiKey);
+                _logger.LogInformation("Chat: using env Azure OpenAI ({Deployment})", deployment);
 
-            var response = await _http.SendAsync(request, HttpCompletionOption.ResponseHeadersRead, ct);
-            response.EnsureSuccessStatusCode();
-            return await response.Content.ReadAsStreamAsync(ct);
-        }
-        catch (Exception ex)
+                var azureClient = new AzureOpenAIClient(
+                    new Uri(endpoint),
+                    new ApiKeyCredential(apiKey));
+                var chatClient = azureClient.GetChatClient(deployment);
+
+                var sdkMessages = BuildSdkMessages(messages, locale, pageContext);
+                var completionUpdates = chatClient.CompleteChatStreamingAsync(sdkMessages, cancellationToken: ct);
+                await foreach (var completionUpdate in completionUpdates)
+                {
+                    foreach (var contentPart in completionUpdate.ContentUpdate)
+                    {
+                        if (!string.IsNullOrEmpty(contentPart.Text))
+                        {
+                            await channel.Writer.WriteAsync(contentPart.Text, ct);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogWarning(ex, "Chat: env Azure OpenAI failed, trying NVIDIA fallback");
+            }
+            finally
+            {
+                channel.Writer.TryComplete();
+            }
+        }, CancellationToken.None);
+
+        return channel.Reader.ReadAllAsync(ct);
+    }
+
+    private static async IAsyncEnumerable<string> EmptyAsyncEnumerable()
+    {
+        await Task.CompletedTask;
+        yield break;
+    }
+
+    private static List<ChatMessage> BuildSdkMessages(
+        List<ChatMessageDto> messages,
+        string? locale,
+        string? pageContext)
+    {
+        var sdkMessages = new List<ChatMessage>
         {
-            _logger.LogWarning(ex, "Chat: env Azure OpenAI failed, trying NVIDIA fallback");
-            return null;
+            new SystemChatMessage(BuildSystemPrompt(locale, pageContext)),
+        };
+
+        foreach (var message in messages.TakeLast(20))
+        {
+            sdkMessages.Add(message.Role.ToLowerInvariant() switch
+            {
+                "assistant" => new AssistantChatMessage(message.Content),
+                "system" => new SystemChatMessage(message.Content),
+                _ => new UserChatMessage(message.Content),
+            });
         }
+
+        return sdkMessages;
     }
 
     private async Task<Stream?> TryNvidiaFallbackAsync(List<object> messages, CancellationToken ct)

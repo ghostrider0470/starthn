@@ -12,7 +12,7 @@ public class RoleRepository : IRoleRepository
 
     public RoleRepository(CosmosClient client)
     {
-        _container = client.GetContainer("horizon", "roles");
+        _container = client.GetContainer("starthn", "roles");
     }
 
     public async Task<List<RoleEntity>> GetAllAsync()

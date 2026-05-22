@@ -10,6 +10,7 @@ declare namespace Cloudflare {
 		DB: D1Database;
 		IMG_WRITE_QUEUE: Queue;
 		API_ORIGIN: "https://starthn-func-prod.azurewebsites.net";
+		AZURE_BLOB_ORIGIN: "https://starthnstorage.blob.core.windows.net";
 	}
 }
 interface Env extends Cloudflare.Env {}

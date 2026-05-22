@@ -2,6 +2,13 @@
   "hero": {
     "slides": [
       {
+        "overline": "Iskoristite stručnu podršku za održivi rast",
+        "title": "Računovodstvo koje razumije vaš posao",
+        "subtitle": "Iskustvo, tačnost i rješenja koja prate vaše ciljeve.",
+        "cta": "Saznajte više o Start HN",
+        "href": "/about"
+      },
+      {
         "overline": "Preciznost i transparentnost u svakom koraku",
         "title": "Usluge po mjeri vašeg biznisa",
         "subtitle": "Mi vodimo vaše knjige, vi vodite svoj posao — bez stresa i neizvjesnosti.",
@@ -14,13 +21,6 @@
         "subtitle": "Naš tim osigurava tačnost i usklađenost sa svim propisima, oslobađajući vam vrijeme za razvoj poslovanja.",
         "cta": "Naše usluge",
         "href": "/services"
-      },
-      {
-        "overline": "Iskoristite stručnu podršku za održivi rast",
-        "title": "Računovodstvo koje razumije vaš posao",
-        "subtitle": "Iskustvo, tačnost i rješenja koja prate vaše ciljeve.",
-        "cta": "Saznajte više o Start HN",
-        "href": "/about"
       }
     ],
     "cta": {
@@ -148,12 +148,30 @@
     "title": "Gradimo povjerenje, težimo izvrsnosti",
     "description": "Integritet je temelj povjerenja — svaki naš savjet i preporuka slijede visoke profesionalne i etičke standarde, s ciljem potpunog očuvanja vaših interesa.",
     "items": {
-      "integrity": { "name": "Integritet", "description": "Osnova svakog savjeta i odluke koju donosimo." },
-      "accountability": { "name": "Odgovornost", "description": "Stojimo iza svake preporuke i svakog izvještaja." },
-      "accessibility": { "name": "Pristupačnost", "description": "Direktan kontakt s računovođom, bez birokratije." },
-      "excellence": { "name": "Izvrsnost", "description": "Viša mjera za svaki izvještaj i svaku analizu." },
-      "transparency": { "name": "Transparentnost", "description": "Jasne brojke, jasni razgovori — bez skrivenih stavki." },
-      "dedication": { "name": "Posvećenost", "description": "Vaš uspjeh je naš uspjeh — rastemo zajedno s vama." }
+      "integrity": {
+        "name": "Integritet",
+        "description": "Osnova svakog savjeta i odluke koju donosimo."
+      },
+      "accountability": {
+        "name": "Odgovornost",
+        "description": "Stojimo iza svake preporuke i svakog izvještaja."
+      },
+      "accessibility": {
+        "name": "Pristupačnost",
+        "description": "Direktan kontakt s računovođom, bez birokratije."
+      },
+      "excellence": {
+        "name": "Izvrsnost",
+        "description": "Viša mjera za svaki izvještaj i svaku analizu."
+      },
+      "transparency": {
+        "name": "Transparentnost",
+        "description": "Jasne brojke, jasni razgovori — bez skrivenih stavki."
+      },
+      "dedication": {
+        "name": "Posvećenost",
+        "description": "Vaš uspjeh je naš uspjeh — rastemo zajedno s vama."
+      }
     },
     "bullets": [
       "Neprekidno usklađivanje s važećim propisima i etikom",
@@ -194,17 +212,42 @@
       "message": "Poruka"
     },
     "servicePlaceholder": "Odaberite uslugu",
-    "serviceOptions": ["Knjigovodstvo i računovodstvo", "Porezno savjetovanje", "Virtualni CFO", "Finansijsko izvještavanje", "Edukacija", "Drugo"],
+    "serviceOptions": [
+      "Knjigovodstvo i računovodstvo",
+      "Porezno savjetovanje",
+      "Virtualni CFO",
+      "Finansijsko izvještavanje",
+      "Edukacija",
+      "Drugo"
+    ],
     "submit": "Pošalji upit",
     "success": "Hvala! Javit ćemo vam se u roku od jednog radnog dana."
   },
   "clients": {
     "title": "Neki od naših lojalnih klijenata",
     "items": [
-      { "name": "Advokat Tanja Srdanović", "logo": "/clients/srdanovic.webp", "href": "https://www.advokatsrdanovic.com" },
-      { "name": "Horizon Tech d.o.o.", "logo": "/clients/horizon.webp", "showLabel": true, "href": "https://www.horizon-tech.io" },
-      { "name": "qla.dev", "logo": "/clients/qladev.webp", "href": "https://qla.dev" },
-      { "name": "edu.ba", "logo": "/clients/edu-t.webp", "showLabel": true, "href": "https://edu.ba" },
+      {
+        "name": "Advokat Tanja Srdanović",
+        "logo": "/clients/srdanovic.webp",
+        "href": "https://www.advokatsrdanovic.com"
+      },
+      {
+        "name": "Horizon Tech d.o.o.",
+        "logo": "/clients/horizon.webp",
+        "showLabel": true,
+        "href": "https://www.horizon-tech.io"
+      },
+      {
+        "name": "qla.dev",
+        "logo": "/clients/qladev.webp",
+        "href": "https://qla.dev"
+      },
+      {
+        "name": "edu.ba",
+        "logo": "/clients/edu-t.webp",
+        "showLabel": true,
+        "href": "https://edu.ba"
+      },
       { "name": "BH Gradnja", "logo": "/clients/bhgradnja-t.webp" },
       { "name": "Caffe Fleki", "logo": "/clients/fleki-t.webp" },
       { "name": "Feniks Car Holding", "logo": "/clients/feniks-t.webp" },
@@ -219,27 +262,27 @@
     "description": "Šest uslužnih oblasti. Jedan posvećen tim. Svaki aspekt vaših finansijskih operacija — od svakodnevnog knjigovodstva do dugoročne finansijske strategije.",
     "commentMarker": "USLUGE",
     "items": {
-      "customSoftware": {
+      "bookkeeping": {
         "title": "Knjigovodstvo i računovodstvo",
         "description": "Tačno i pravovremeno vođenje poslovnih knjiga, zakonskih finansijskih izvještaja i obračuna u potpunoj usklađenosti s lokalnim propisima."
       },
-      "aiMl": {
-        "title": "Porezno praćenje i savjetovanje",
+      "taxConsulting": {
+        "title": "Porezno savjetovanje",
         "description": "Kontinuirano praćenje poreznih propisa, proaktivno savjetovanje o usklađenosti i stručno vođenje radi minimiziranja poreznog opterećenja uz puno zakonsko poštovanje."
       },
-      "cloud": {
+      "virtualCfo": {
         "title": "Virtualni CFO",
         "description": "Strateška finansijska podrška na zahtjev — analize, izvještaji, budžetiranje i planiranje koji vam daju uvid na izvršnom nivou bez troška stalnog zaposlenja."
       },
-      "iot": {
+      "businessConsulting": {
         "title": "Poslovno savjetovanje",
         "description": "Praktični savjeti o poslovnoj strukturi, strategiji rasta, finansijskim odlukama i operativnoj efikasnosti prilagođeni vašoj industriji i ciljevima."
       },
-      "devops": {
+      "financialReporting": {
         "title": "Finansijsko izvještavanje",
         "description": "Jasni i tačni finansijski izvještaji i menadžerski izvještaji koji zadovoljavaju regulatorne standarde i daju vam pravu sliku o poslovnim rezultatima."
       },
-      "digital": {
+      "education": {
         "title": "Edukacija i kursevi",
         "description": "Radionice i kursevi iz računovodstva, poreza i finansijskog upravljanja — osposobljavamo vas i vaš tim za bolje finansijske odluke."
       }

@@ -12,7 +12,7 @@ public class CategoryRepository : ICategoryRepository
 
     public CategoryRepository(CosmosClient client)
     {
-        _container = client.GetContainer("horizon", "categories");
+        _container = client.GetContainer("starthn", "categories");
     }
 
     public async Task<List<CategoryEntity>> GetAllAsync()

@@ -32,7 +32,7 @@ public class ForceSyncFunction
         _http = httpFactory.CreateClient();
         _syncEndpoint = config["ManifestSync:SyncEndpoint"]
             ?? config["ManifestSync:Endpoint"]?.Replace("/image-manifest", "/sync")
-            ?? "https://www.horizon-tech.io/api/internal/sync";
+            ?? "https://starthn.ba/api/internal/sync";
         _syncSecret = config["ManifestSync:Secret"]
             ?? throw new InvalidOperationException("ManifestSync:Secret not configured");
         _logger = logger;

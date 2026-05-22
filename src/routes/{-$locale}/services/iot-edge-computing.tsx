@@ -1,38 +1,26 @@
-import { createFileRoute } from '@tanstack/react-router'
-import { Cpu, Radar, Router } from 'lucide-react'
-import { ServicePageTemplate } from '@/components/services/ServicePageTemplate'
+import { createFileRoute, redirect } from '@tanstack/react-router'
+import {
+  DEFAULT_LOCALE,
+  isValidLocale,
+  withLocalePath,
+} from '@/lib/i18n-utils'
+import { SERVICE_ROUTES } from '@/lib/service-routes'
 
 export const Route = createFileRoute('/{-$locale}/services/iot-edge-computing')(
   {
-    head: () => ({
-      meta: [
-        { title: 'IoT & Edge Computing — Start HN' },
-        {
-          name: 'description',
-          content:
-            'IoT and edge computing solutions by Start HN. Connected devices, real-time data processing, and intelligent edge systems.',
-        },
-        {
-          property: 'og:title',
-          content: 'IoT & Edge Computing — Start HN',
-        },
-        {
-          property: 'og:description',
-          content:
-            'IoT and edge computing solutions by Start HN. Connected devices, real-time data processing, and intelligent edge systems.',
-        },
-      ],
-    }),
-    component: IoTEdgeComputing,
+    beforeLoad: ({ params }) => {
+      const locale = isValidLocale(params.locale)
+        ? params.locale
+        : DEFAULT_LOCALE
+      throw redirect({
+        to: withLocalePath(SERVICE_ROUTES.businessConsulting, locale) as never,
+        replace: true,
+      })
+    },
+    component: LegacyServiceRoute,
   },
 )
 
-const icons = [
-  Router,
-  Cpu,
-  Radar,
-]
-
-function IoTEdgeComputing() {
-  return <ServicePageTemplate serviceKey="iot" icons={icons} />
+function LegacyServiceRoute() {
+  return null
 }

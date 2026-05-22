@@ -1,7 +1,8 @@
-import { createFileRoute, Outlet, redirect } from '@tanstack/react-router'
+import { Outlet, createFileRoute, redirect } from '@tanstack/react-router'
 import {
   DEFAULT_LOCALE,
   detectPreferredLocale,
+  getLocaleFromPath,
   isValidLocale,
   stripLocalePrefix,
   withLocalePath,
@@ -11,9 +12,21 @@ import i18n, { loadTranslationsForSSR } from '@/i18n'
 export const Route = createFileRoute('/{-$locale}')({
   beforeLoad: async ({ params, location }) => {
     const localeParam = params.locale
-    const hasLocaleParam = typeof localeParam === 'string' && localeParam.length > 0
+    const hasLocaleParam =
+      typeof localeParam === 'string' && localeParam.length > 0
+    const pathSegments = location.pathname.split('/').filter(Boolean)
+    const firstPathSegment = pathSegments[0]
+    const compoundPathLocale =
+      pathSegments.length >= 2 ? `${pathSegments[0]}-${pathSegments[1]}` : ''
+    const hasLocaleInPath =
+      isValidLocale(firstPathSegment) || isValidLocale(compoundPathLocale)
+    const localeFromPath = getLocaleFromPath(location.pathname)
     const preferredLocale = detectPreferredLocale()
-    const resolvedLocale = isValidLocale(localeParam) ? localeParam : preferredLocale
+    const resolvedLocale = hasLocaleInPath
+      ? localeFromPath
+      : isValidLocale(localeParam)
+        ? localeParam
+        : preferredLocale
 
     // Skip locale redirect for auth callback — the redirect corrupts OAuth
     // search params (authorization code, state) via TanStack Router's
@@ -28,7 +41,8 @@ export const Route = createFileRoute('/{-$locale}')({
 
     const hash = typeof location.hash === 'string' ? location.hash : ''
     // Use raw browser search string to preserve unknown params (e.g. OAuth code, state)
-    const rawSearch = typeof window !== 'undefined' ? window.location.search : ''
+    const rawSearch =
+      typeof window !== 'undefined' ? window.location.search : ''
     const search = rawSearch
       ? Object.fromEntries(new URLSearchParams(rawSearch))
       : (location as any).search

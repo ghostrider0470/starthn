@@ -12,7 +12,7 @@ public class ProcessedImageRepository : IProcessedImageRepository
 
     public ProcessedImageRepository(CosmosClient client)
     {
-        _container = client.GetContainer("horizon", "processedImages");
+        _container = client.GetContainer("starthn", "processedImages");
     }
 
     public async Task UpsertAsync(

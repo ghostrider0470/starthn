@@ -1,38 +1,24 @@
-import { createFileRoute } from '@tanstack/react-router'
-import { BrainCircuit, ChartColumnIncreasing, Database } from 'lucide-react'
-import { ServicePageTemplate } from '@/components/services/ServicePageTemplate'
+import { createFileRoute, redirect } from '@tanstack/react-router'
+import {
+  DEFAULT_LOCALE,
+  isValidLocale,
+  withLocalePath,
+} from '@/lib/i18n-utils'
+import { SERVICE_ROUTES } from '@/lib/service-routes'
 
 export const Route = createFileRoute(
   '/{-$locale}/services/ai-ml-business-intelligence',
 )({
-  head: () => ({
-    meta: [
-      { title: 'AI & Machine Learning — Start HN' },
-      {
-        name: 'description',
-        content:
-          'AI, machine learning, and business intelligence solutions by Start HN. From predictive analytics to intelligent automation.',
-      },
-      {
-        property: 'og:title',
-        content: 'AI & Machine Learning — Start HN',
-      },
-      {
-        property: 'og:description',
-        content:
-          'AI, machine learning, and business intelligence solutions by Start HN. From predictive analytics to intelligent automation.',
-      },
-    ],
-  }),
-  component: AIMLBusinessIntelligence,
+  beforeLoad: ({ params }) => {
+    const locale = isValidLocale(params.locale) ? params.locale : DEFAULT_LOCALE
+    throw redirect({
+      to: withLocalePath(SERVICE_ROUTES.taxConsulting, locale) as never,
+      replace: true,
+    })
+  },
+  component: LegacyServiceRoute,
 })
 
-const icons = [
-  BrainCircuit,
-  Database,
-  ChartColumnIncreasing,
-]
-
-function AIMLBusinessIntelligence() {
-  return <ServicePageTemplate serviceKey="aiml" icons={icons} />
+function LegacyServiceRoute() {
+  return null
 }

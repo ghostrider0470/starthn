@@ -19,7 +19,9 @@ export function NotFoundPage() {
 
   // Tell search engines not to index 404 pages
   useEffect(() => {
-    let meta = document.head.querySelector('meta[name="robots"]') as HTMLMetaElement | null
+    let meta = document.head.querySelector<HTMLMetaElement>(
+      'meta[name="robots"]',
+    )
     if (!meta) {
       meta = document.createElement('meta')
       meta.setAttribute('name', 'robots')
@@ -28,7 +30,7 @@ export function NotFoundPage() {
     meta.setAttribute('content', 'noindex,nofollow')
 
     return () => {
-      meta?.setAttribute('content', 'index,follow')
+      meta.setAttribute('content', 'index,follow')
     }
   }, [])
 
@@ -41,7 +43,7 @@ export function NotFoundPage() {
     },
     {
       key: 'services' as const,
-      to: withLocalePath('/services/enterprise-software-development', locale),
+      to: withLocalePath('/services', locale),
       icon: BriefcaseBusiness,
       primary: false,
     },

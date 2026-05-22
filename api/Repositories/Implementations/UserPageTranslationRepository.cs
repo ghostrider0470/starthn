@@ -12,7 +12,7 @@ public class UserPageTranslationRepository : IUserPageTranslationRepository
 
     public UserPageTranslationRepository(CosmosClient client)
     {
-        _container = client.GetContainer("horizon", "userPageTranslations");
+        _container = client.GetContainer("starthn", "userPageTranslations");
     }
 
     public async Task<UserPageTranslationEntity?> GetAsync(string userId, string lang)

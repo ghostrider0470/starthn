@@ -2,6 +2,13 @@
   "hero": {
     "slides": [
       {
+        "overline": "Expert support for sustainable growth",
+        "title": "Accounting that understands your business",
+        "subtitle": "Experience, precision, and solutions aligned with your goals.",
+        "cta": "Learn more about Start HN",
+        "href": "/about"
+      },
+      {
         "overline": "Precision and transparency at every step",
         "title": "Accounting tailored to your business",
         "subtitle": "We run your books, you run your business — no stress, no surprises.",
@@ -14,13 +21,6 @@
         "subtitle": "Our team ensures accuracy and regulatory compliance, freeing up your time to grow the business.",
         "cta": "Explore our services",
         "href": "/services"
-      },
-      {
-        "overline": "Expert support for sustainable growth",
-        "title": "Accounting that understands your business",
-        "subtitle": "Experience, precision, and solutions aligned with your goals.",
-        "cta": "Learn more about Start HN",
-        "href": "/about"
       }
     ],
     "cta": {
@@ -148,12 +148,30 @@
     "title": "We build trust and aim for excellence",
     "description": "Integrity is the foundation of trust — every recommendation we make follows high professional and ethical standards, with the single goal of protecting your interests.",
     "items": {
-      "integrity": { "name": "Integrity", "description": "The foundation of every recommendation we make." },
-      "accountability": { "name": "Accountability", "description": "We stand behind every report and every piece of advice." },
-      "accessibility": { "name": "Accessibility", "description": "Direct access to your accountant — no bureaucracy." },
-      "excellence": { "name": "Excellence", "description": "A higher bar for every report and analysis we produce." },
-      "transparency": { "name": "Transparency", "description": "Clear numbers, clear conversations — no hidden items." },
-      "dedication": { "name": "Dedication", "description": "Your success is our success — we grow alongside you." }
+      "integrity": {
+        "name": "Integrity",
+        "description": "The foundation of every recommendation we make."
+      },
+      "accountability": {
+        "name": "Accountability",
+        "description": "We stand behind every report and every piece of advice."
+      },
+      "accessibility": {
+        "name": "Accessibility",
+        "description": "Direct access to your accountant — no bureaucracy."
+      },
+      "excellence": {
+        "name": "Excellence",
+        "description": "A higher bar for every report and analysis we produce."
+      },
+      "transparency": {
+        "name": "Transparency",
+        "description": "Clear numbers, clear conversations — no hidden items."
+      },
+      "dedication": {
+        "name": "Dedication",
+        "description": "Your success is our success — we grow alongside you."
+      }
     },
     "bullets": [
       "Continuous alignment with current regulations and ethics",
@@ -194,17 +212,42 @@
       "message": "Message"
     },
     "servicePlaceholder": "Choose a service",
-    "serviceOptions": ["Bookkeeping & Accounting", "Tax Consulting", "Virtual CFO", "Financial Reporting", "Education", "Other"],
+    "serviceOptions": [
+      "Bookkeeping & Accounting",
+      "Tax Consulting",
+      "Virtual CFO",
+      "Financial Reporting",
+      "Education",
+      "Other"
+    ],
     "submit": "Send message",
     "success": "Thanks! We'll get back to you within one business day."
   },
   "clients": {
     "title": "Some of our long-standing clients",
     "items": [
-      { "name": "Advokat Tanja Srdanović", "logo": "/clients/srdanovic.webp", "href": "https://www.advokatsrdanovic.com" },
-      { "name": "Horizon Tech d.o.o.", "logo": "/clients/horizon.webp", "showLabel": true, "href": "https://www.horizon-tech.io" },
-      { "name": "qla.dev", "logo": "/clients/qladev.webp", "href": "https://qla.dev" },
-      { "name": "edu.ba", "logo": "/clients/edu-t.webp", "showLabel": true, "href": "https://edu.ba" },
+      {
+        "name": "Advokat Tanja Srdanović",
+        "logo": "/clients/srdanovic.webp",
+        "href": "https://www.advokatsrdanovic.com"
+      },
+      {
+        "name": "Horizon Tech d.o.o.",
+        "logo": "/clients/horizon.webp",
+        "showLabel": true,
+        "href": "https://www.horizon-tech.io"
+      },
+      {
+        "name": "qla.dev",
+        "logo": "/clients/qladev.webp",
+        "href": "https://qla.dev"
+      },
+      {
+        "name": "edu.ba",
+        "logo": "/clients/edu-t.webp",
+        "showLabel": true,
+        "href": "https://edu.ba"
+      },
       { "name": "BH Gradnja", "logo": "/clients/bhgradnja-t.webp" },
       { "name": "Caffe Fleki", "logo": "/clients/fleki-t.webp" },
       { "name": "Feniks Car Holding", "logo": "/clients/feniks-t.webp" },
@@ -219,27 +262,27 @@
     "description": "Six service areas. One dedicated team. Every layer of your financial operations — from daily bookkeeping to long-term financial strategy.",
     "commentMarker": "// SERVICES",
     "items": {
-      "customSoftware": {
+      "bookkeeping": {
         "title": "Bookkeeping & Accounting",
         "description": "Accurate, timely maintenance of your business books, legal financial reports, and statutory calculations in full compliance with local regulations."
       },
-      "aiMl": {
-        "title": "Tax Consulting & Compliance",
+      "taxConsulting": {
+        "title": "Tax Consulting",
         "description": "Ongoing tracking of tax regulations, proactive compliance advice, and expert guidance to minimise your tax burden while staying fully compliant."
       },
-      "cloud": {
+      "virtualCfo": {
         "title": "Virtual CFO",
         "description": "Strategic financial support on demand — analyses, reports, budgeting, and planning that give you executive-level financial insight without the overhead."
       },
-      "iot": {
+      "businessConsulting": {
         "title": "Business Consulting",
         "description": "Practical advice on business structure, growth strategy, financial decisions, and operational efficiency tailored to your industry and goals."
       },
-      "devops": {
+      "financialReporting": {
         "title": "Financial Reporting",
         "description": "Clear, accurate financial statements and management reports that meet regulatory standards and give you a true picture of your business performance."
       },
-      "digital": {
+      "education": {
         "title": "Education & Courses",
         "description": "Workshops and courses in accounting, tax, and financial management — empowering you and your team to make better-informed financial decisions."
       }

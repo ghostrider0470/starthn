@@ -20,8 +20,8 @@ public class JwtService : IJwtService
     {
         _secret = Environment.GetEnvironmentVariable("JWT_SECRET")
             ?? throw new InvalidOperationException("JWT_SECRET is not configured");
-        _issuer = Environment.GetEnvironmentVariable("JWT_ISSUER") ?? "horizon-tech";
-        _audience = Environment.GetEnvironmentVariable("JWT_AUDIENCE") ?? "horizon-frontend";
+        _issuer = Environment.GetEnvironmentVariable("JWT_ISSUER") ?? "starthn";
+        _audience = Environment.GetEnvironmentVariable("JWT_AUDIENCE") ?? "starthn-frontend";
         _accessTokenExpiryMinutes = int.TryParse(
             Environment.GetEnvironmentVariable("JWT_ACCESS_TOKEN_EXPIRY_MINUTES"), out var m) ? m : 60;
         _refreshTokenExpiryDays = int.TryParse(

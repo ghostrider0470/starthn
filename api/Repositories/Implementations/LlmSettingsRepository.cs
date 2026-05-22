@@ -11,7 +11,7 @@ public class LlmSettingsRepository : ILlmSettingsRepository
 
     public LlmSettingsRepository(CosmosClient client)
     {
-        _container = client.GetContainer("horizon", "llmSettings");
+        _container = client.GetContainer("starthn", "llmSettings");
     }
 
     public async Task<LlmSettingsEntity?> GetAsync()

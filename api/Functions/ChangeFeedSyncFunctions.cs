@@ -18,7 +18,7 @@ public class ChangeFeedSyncFunctions
 
     [Function("SyncBlogPosts")]
     public async Task SyncBlogPosts(
-        [CosmosDBTrigger("horizon", "blogPosts",
+        [CosmosDBTrigger("starthn", "blogPosts",
             Connection = "CosmosDBConnection",
             LeaseContainerName = "leases",
             LeaseContainerPrefix = "blogposts-",
@@ -31,7 +31,7 @@ public class ChangeFeedSyncFunctions
 
     [Function("SyncUsers")]
     public async Task SyncUsers(
-        [CosmosDBTrigger("horizon", "users",
+        [CosmosDBTrigger("starthn", "users",
             Connection = "CosmosDBConnection",
             LeaseContainerName = "leases",
             LeaseContainerPrefix = "users-",
@@ -44,7 +44,7 @@ public class ChangeFeedSyncFunctions
 
     [Function("SyncCategories")]
     public async Task SyncCategories(
-        [CosmosDBTrigger("horizon", "categories",
+        [CosmosDBTrigger("starthn", "categories",
             Connection = "CosmosDBConnection",
             LeaseContainerName = "leases",
             LeaseContainerPrefix = "categories-",
@@ -57,7 +57,7 @@ public class ChangeFeedSyncFunctions
 
     [Function("SyncTags")]
     public async Task SyncTags(
-        [CosmosDBTrigger("horizon", "tags",
+        [CosmosDBTrigger("starthn", "tags",
             Connection = "CosmosDBConnection",
             LeaseContainerName = "leases",
             LeaseContainerPrefix = "tags-",
@@ -70,7 +70,7 @@ public class ChangeFeedSyncFunctions
 
     [Function("SyncCaseStudies")]
     public async Task SyncCaseStudies(
-        [CosmosDBTrigger("horizon", "caseStudies",
+        [CosmosDBTrigger("starthn", "caseStudies",
             Connection = "CosmosDBConnection",
             LeaseContainerName = "leases",
             LeaseContainerPrefix = "casestudies-",
@@ -83,7 +83,7 @@ public class ChangeFeedSyncFunctions
 
     [Function("SyncRoles")]
     public async Task SyncRoles(
-        [CosmosDBTrigger("horizon", "roles",
+        [CosmosDBTrigger("starthn", "roles",
             Connection = "CosmosDBConnection",
             LeaseContainerName = "leases",
             LeaseContainerPrefix = "roles-",
@@ -96,7 +96,7 @@ public class ChangeFeedSyncFunctions
 
     [Function("SyncBlogPostTranslations")]
     public async Task SyncBlogPostTranslations(
-        [CosmosDBTrigger("horizon", "blogPostTranslations",
+        [CosmosDBTrigger("starthn", "blogPostTranslations",
             Connection = "CosmosDBConnection",
             LeaseContainerName = "leases",
             LeaseContainerPrefix = "blogposttranslations-",
@@ -109,7 +109,7 @@ public class ChangeFeedSyncFunctions
 
     [Function("SyncUserPageTranslations")]
     public async Task SyncUserPageTranslations(
-        [CosmosDBTrigger("horizon", "userPageTranslations",
+        [CosmosDBTrigger("starthn", "userPageTranslations",
             Connection = "CosmosDBConnection",
             LeaseContainerName = "leases",
             LeaseContainerPrefix = "userpagetranslations-",

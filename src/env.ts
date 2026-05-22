@@ -22,6 +22,7 @@ export const env = createEnv({
     VITE_FEATURE_TECHNICAL_RESOURCES: z.string().optional(),
     VITE_FEATURE_INNOVATION_LAB: z.string().optional(),
     VITE_FEATURE_CHAT: z.string().optional(),
+    VITE_AZURE_BLOB_ORIGIN: z.string().url().optional(),
   },
 
   /**

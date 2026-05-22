@@ -1,42 +1,24 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, redirect } from '@tanstack/react-router'
 import {
-  DatabaseZap,
-  LayoutDashboard,
-  Workflow,
-} from 'lucide-react'
-import { ServicePageTemplate } from '@/components/services/ServicePageTemplate'
+  DEFAULT_LOCALE,
+  isValidLocale,
+  withLocalePath,
+} from '@/lib/i18n-utils'
+import { SERVICE_ROUTES } from '@/lib/service-routes'
 
 export const Route = createFileRoute(
   '/{-$locale}/services/enterprise-software-development',
 )({
-  head: () => ({
-    meta: [
-      { title: 'Enterprise Software Development — Start HN' },
-      {
-        name: 'description',
-        content:
-          'Custom enterprise software development by Start HN. Scalable, secure, and production-grade applications built to last.',
-      },
-      {
-        property: 'og:title',
-        content: 'Enterprise Software Development — Start HN',
-      },
-      {
-        property: 'og:description',
-        content:
-          'Custom enterprise software development by Start HN. Scalable, secure, and production-grade applications built to last.',
-      },
-    ],
-  }),
-  component: EnterpriseSoftwareDevelopment,
+  beforeLoad: ({ params }) => {
+    const locale = isValidLocale(params.locale) ? params.locale : DEFAULT_LOCALE
+    throw redirect({
+      to: withLocalePath(SERVICE_ROUTES.bookkeeping, locale) as never,
+      replace: true,
+    })
+  },
+  component: LegacyServiceRoute,
 })
 
-const icons = [
-  LayoutDashboard,
-  Workflow,
-  DatabaseZap,
-]
-
-function EnterpriseSoftwareDevelopment() {
-  return <ServicePageTemplate serviceKey="enterprise" icons={icons} />
+function LegacyServiceRoute() {
+  return null
 }

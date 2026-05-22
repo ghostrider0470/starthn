@@ -21,7 +21,7 @@ public class SyncHealthCheckFunction
         _http = httpFactory.CreateClient();
         _logger = logger;
         _syncEndpoint = config["ManifestSync:Endpoint"]?.Replace("/image-manifest", "")
-            ?? "https://www.horizon-tech.io/api/internal";
+            ?? "https://starthn.ba/api/internal";
         _syncSecret = config["ManifestSync:Secret"]
             ?? throw new InvalidOperationException("ManifestSync:Secret not configured");
     }

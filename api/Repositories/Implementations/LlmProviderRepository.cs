@@ -12,7 +12,7 @@ public class LlmProviderRepository : ILlmProviderRepository
 
     public LlmProviderRepository(CosmosClient client)
     {
-        _container = client.GetContainer("horizon", "llmProviders");
+        _container = client.GetContainer("starthn", "llmProviders");
     }
 
     public async Task<List<LlmProviderEntity>> GetAllAsync()

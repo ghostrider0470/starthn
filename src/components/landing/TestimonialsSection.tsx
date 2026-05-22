@@ -17,14 +17,14 @@ const AUTO_ADVANCE_MS = 8000
 export function TestimonialsSection() {
   const { t } = useTranslation('landing')
   const reduceMotion = useReducedMotion()
-  const items = useMemo<Testimonial[]>(() => {
+  const items = useMemo<Array<Testimonial>>(() => {
     const raw = t('testimonials.items', { returnObjects: true })
-    return Array.isArray(raw) ? (raw as Testimonial[]) : []
+    return Array.isArray(raw) ? (raw as Array<Testimonial>) : []
   }, [t])
   const [index, setIndex] = useState(0)
   const [paused, setPaused] = useState(false)
 
-  const total = items?.length ?? 0
+  const total = items.length
   const goTo = useCallback(
     (n: number) => setIndex(((n % total) + total) % total),
     [total],
@@ -42,22 +42,25 @@ export function TestimonialsSection() {
 
   return (
     <section
-      className="relative overflow-hidden bg-background py-20 md:py-28"
+      className="relative overflow-hidden bg-background py-12 md:py-14"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-border to-transparent"
+      />
       <div className={cn(designSystem.spacing.page.container, 'max-w-4xl')}>
-        <div className="mb-12 text-center">
+        <div className="mb-8 text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
             {t('testimonials.overline')}
           </p>
-          <h2 className="mt-4 font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+          <h2 className="mt-3 font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             {t('testimonials.title')}
           </h2>
         </div>
 
-        <div className="relative min-h-[20rem] md:min-h-[18rem]">
+        <div className="relative min-h-[16rem] md:min-h-[14rem]">
           <Quote
             aria-hidden
             className="pointer-events-none absolute -top-4 left-0 h-16 w-16 text-primary/15 md:h-24 md:w-24"
@@ -71,22 +74,24 @@ export function TestimonialsSection() {
                 aria-hidden={!active}
                 className={cn(
                   'absolute inset-0 transition-all ease-out',
-                  active ? 'opacity-100 translate-y-0 duration-[700ms] delay-[120ms]' : 'opacity-0 pointer-events-none translate-y-4 duration-300',
+                  active
+                    ? 'opacity-100 translate-y-0 duration-[700ms] delay-[120ms]'
+                    : 'opacity-0 pointer-events-none translate-y-4 duration-300',
                 )}
               >
                 <blockquote className="relative z-10 px-4 md:px-12">
-                  <div className="mb-6 flex gap-1">
+                  <div className="mb-4 flex gap-1">
                     {Array.from({ length: 5 }).map((_, s) => (
                       <Star
                         key={s}
-                        className="h-4 w-4 fill-[oklch(0.78_0.14_90)] text-[oklch(0.78_0.14_90)]"
+                        className="h-4 w-4 fill-primary/70 text-primary/70"
                       />
                     ))}
                   </div>
-                  <p className="font-heading text-xl font-medium leading-relaxed text-foreground md:text-2xl">
+                  <p className="font-heading text-lg font-medium leading-relaxed text-foreground md:text-xl">
                     &ldquo;{testimonial.quote}&rdquo;
                   </p>
-                  <footer className="mt-8 flex items-center gap-4">
+                  <footer className="mt-5 flex items-center gap-4">
                     {testimonial.image ? (
                       <img
                         src={testimonial.image}
@@ -110,8 +115,12 @@ export function TestimonialsSection() {
                       </div>
                     )}
                     <div>
-                      <div className="font-semibold text-foreground">{testimonial.author}</div>
-                      <div className="text-sm text-muted-foreground">{testimonial.role}</div>
+                      <div className="font-semibold text-foreground">
+                        {testimonial.author}
+                      </div>
+                      <div className="text-sm text-muted-foreground">
+                        {testimonial.role}
+                      </div>
                     </div>
                   </footer>
                 </blockquote>
@@ -120,7 +129,7 @@ export function TestimonialsSection() {
           })}
         </div>
 
-        <div className="mt-8 flex items-center justify-center gap-4">
+        <div className="mt-5 flex items-center justify-center gap-4">
           <button
             type="button"
             onClick={prev}
@@ -139,7 +148,9 @@ export function TestimonialsSection() {
                 aria-current={i === index}
                 className={cn(
                   'h-1.5 rounded-full transition-all',
-                  i === index ? 'w-8 bg-primary' : 'w-4 bg-border hover:bg-border/70',
+                  i === index
+                    ? 'w-8 bg-primary'
+                    : 'w-4 bg-border hover:bg-border/70',
                 )}
               />
             ))}
@@ -148,7 +159,7 @@ export function TestimonialsSection() {
             type="button"
             onClick={next}
             aria-label="Next testimonial"
-            className="group grid h-10 w-10 place-items-center rounded-full border border-primary/30 bg-primary text-primary-foreground transition hover:border-primary hover:brightness-110"
+            className="group grid h-10 w-10 place-items-center rounded-full border border-border bg-background text-foreground/70 transition hover:border-primary/40 hover:text-foreground"
           >
             <ChevronRight className="h-4 w-4" />
           </button>

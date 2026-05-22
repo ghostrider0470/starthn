@@ -1,8 +1,6 @@
 import type { Context } from 'hono'
 import type { Bindings } from './bindings'
 
-const AZURE_BLOB_ORIGIN = 'https://starthnstorage.blob.core.windows.net'
-
 interface WarmPayload {
   items: Array<{
     r2Key: string
@@ -28,10 +26,14 @@ export async function handleImageWarm(
 
   for (const item of payload.items) {
     try {
-      const azureUrl = `${AZURE_BLOB_ORIGIN}/${item.blobPath}/w${item.width}.webp`
+      const azureUrl = `${c.env.AZURE_BLOB_ORIGIN}/${item.blobPath}/w${item.width}.webp`
       const response = await fetch(azureUrl)
       if (!response.ok || !response.body) {
-        results.push({ r2Key: item.r2Key, ok: false, error: `fetch ${response.status}` })
+        results.push({
+          r2Key: item.r2Key,
+          ok: false,
+          error: `fetch ${response.status}`,
+        })
         continue
       }
       await c.env.IMG_CACHE.put(item.r2Key, response.body, {

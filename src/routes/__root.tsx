@@ -6,15 +6,16 @@ import {
   useLocation,
 } from '@tanstack/react-router'
 import { QueryClientProvider } from '@tanstack/react-query'
-import { lazy, Suspense, useEffect, useState } from 'react'
+import { Suspense, lazy, useEffect, useState } from 'react'
 
+import { useTranslation } from 'react-i18next'
 import { Navbar } from '../components/Navbar'
 import { Footer } from '../components/Footer'
 import { MobileBottomNav } from '../components/MobileBottomNav'
 import { useI18nMeta } from '../hooks/useI18nMeta'
 import { useAnalytics } from '../hooks/useAnalytics'
-import { useTranslation } from 'react-i18next'
 
+import type { QueryClient } from '@tanstack/react-query'
 import { ThemeProvider } from '@/components/theme-provider'
 import { AuthProvider } from '@/contexts/AuthContext'
 import { RouteErrorBoundary } from '@/components/errors/RouteErrorBoundary'
@@ -23,6 +24,9 @@ import { LoadingState } from '@/components/layout/LoadingState'
 import { OfflineFallback } from '@/components/layout/OfflineFallback'
 import { Toaster } from '@/components/ui/toaster'
 import { ChatProvider } from '@/contexts/ChatContext'
+
+import appCss from '@/styles.css?url'
+import i18n from '@/i18n'
 
 // Lazy-load browser-only components that use useIsDarkMode / document APIs
 const ChatWidget = lazy(() =>
@@ -62,11 +66,6 @@ const ReactQueryDevtools = import.meta.env.DEV
       })),
     )
   : () => null
-
-import appCss from '@/styles.css?url'
-import i18n from '@/i18n'
-
-import type { QueryClient } from '@tanstack/react-query'
 
 interface MyRouterContext {
   queryClient: QueryClient
@@ -158,8 +157,8 @@ function RootComponent() {
           </AppErrorBoundary>
         </AuthProvider>
         <Suspense fallback={null}>
-          {/*<TanStackRouterDevtools />*/}
-          {/*<ReactQueryDevtools buttonPosition="bottom-right" />*/}
+          {/* <TanStackRouterDevtools />*/}
+          {/* <ReactQueryDevtools buttonPosition="bottom-right" />*/}
         </Suspense>
       </QueryClientProvider>
     </ThemeProvider>
@@ -173,7 +172,7 @@ const THEME_INIT_SCRIPT = `(function(){var t=localStorage.getItem('starthn-theme
 
 function RootDocument({ children }: { children: React.ReactNode }) {
   return (
-    <html lang={(i18n.language ?? 'en-US').split('-')[0]} suppressHydrationWarning>
+    <html lang={i18n.language.split('-')[0]} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
         <HeadContent />
@@ -190,8 +189,12 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
   head: () => ({
     meta: [
       { charSet: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1, interactive-widget=resizes-content' },
-      { name: 'theme-color', content: '#B8860B' },
+      {
+        name: 'viewport',
+        content:
+          'width=device-width, initial-scale=1, interactive-widget=resizes-content',
+      },
+      { name: 'theme-color', content: '#E6CE82' },
       {
         name: 'description',
         content:
@@ -200,7 +203,7 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       {
         name: 'keywords',
         content:
-          'enterprise software development, AI solutions, cloud architecture, IoT, DevOps, digital transformation, Azure, Sarajevo, Bosnia',
+          'računovodstvo, knjigovodstvo, porezno savjetovanje, virtualni CFO, finansijsko izvještavanje, Sarajevo, Ilidža, Bosna i Hercegovina',
       },
       { name: 'author', content: 'Start HN' },
       { name: 'robots', content: 'index,follow' },
@@ -212,7 +215,8 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       },
       {
         property: 'og:description',
-        content: 'StartHN',
+        content:
+          'Računovodstvene usluge, porezno savjetovanje i finansijski menadžment za firme, obrte i udruženja.',
       },
       {
         property: 'og:image',
@@ -223,11 +227,12 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       { name: 'twitter:card', content: 'summary_large_image' },
       {
         name: 'twitter:title',
-        content: 'StartHN',
+        content: 'Start HN — Računovodstvena agencija',
       },
       {
         name: 'twitter:description',
-        content: 'StartHN',
+        content:
+          'Računovodstvene usluge, porezno savjetovanje i finansijski menadžment za firme, obrte i udruženja.',
       },
       {
         name: 'twitter:image',
@@ -236,18 +241,35 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
     ],
     links: [
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossOrigin: 'anonymous' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Public+Sans:wght@400;500;600&display=swap' },
+      {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossOrigin: 'anonymous',
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Public+Sans:wght@400;500;600&display=swap',
+      },
       { rel: 'stylesheet', href: appCss },
       { rel: 'icon', type: 'image/png', href: '/favicon-32.png' },
       { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
       { rel: 'manifest', href: '/manifest.json' },
       { rel: 'canonical', href: 'https://starthn.ba/en-US' },
-      { rel: 'preload', as: 'image', href: '/logo-64.webp', type: 'image/webp' },
-      { rel: 'preload', as: 'image', href: '/hero/slide-1.webp', type: 'image/webp', fetchPriority: 'high' },
+      {
+        rel: 'preload',
+        as: 'image',
+        href: '/logo-64.webp',
+        type: 'image/webp',
+      },
+      {
+        rel: 'preload',
+        as: 'image',
+        href: '/hero/slide-1.webp',
+        type: 'image/webp',
+        fetchPriority: 'high',
+      },
     ],
-    scripts: [
-    ],
+    scripts: [],
   }),
   shellComponent: RootDocument,
   component: RootComponent,
