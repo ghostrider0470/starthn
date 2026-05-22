@@ -115,8 +115,8 @@ export function HeroSection() {
               decoding="async"
               className="h-full w-full object-cover object-center"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-black/65 via-black/40 to-black/10" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/28 to-black/5" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/28 via-transparent to-transparent" />
           </div>
         ))}
 
