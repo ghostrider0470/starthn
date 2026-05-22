@@ -51,9 +51,9 @@
   },
   "whyChoose": {
     "overline": "Why Start HN",
-    "title": "Your partner in growth — from the first invoice to group consolidation",
+    "title": "Your partner in growth",
     "description": "Start HN in Sarajevo supports associations, sole traders, and micro, small, and medium businesses. Our work is grounded in being up-to-date, precise, and fully committed to our clients — we don't chase deadlines, we stay ahead of them.",
-    "body": "We track regulatory changes and champion the digitalization of accounting — whether that means deploying internal systems with real-time visibility or handling documents delivered physically or by email. For clients who want deeper support, we offer a Virtual CFO service.",
+    "body": "We track regulatory changes and champion the digitalization of accounting — whether that means deploying internal systems with real-time visibility or handling documents delivered physically or by email. For clients who want additional support, we offer a Virtual CFO service.",
     "features": {
       "personal": "Personal, individual approach",
       "vcfo": "Virtual CFO",
@@ -70,7 +70,7 @@
     "cta": "Start a conversation",
     "items": {
       "clients": {
-        "value": 50,
+        "value": 30,
         "suffix": "+",
         "label": "Clients",
         "description": "Micro and small businesses, sole traders, and associations who trust us and grow alongside our support."
@@ -82,7 +82,7 @@
         "description": "Combined experience in accounting, tax consulting, and financial management."
       },
       "hours": {
-        "value": 5000,
+        "value": 1000,
         "suffix": "+",
         "label": "Hours yearly",
         "description": "Dedicated annually to analysis, advisory, and client support — wherever we're needed."
@@ -90,7 +90,7 @@
       "retention": {
         "value": 95,
         "suffix": "%",
-        "label": "Referral rate",
+        "label": "Referred clients",
         "description": "Our growth is built on the trust and word-of-mouth of happy clients who keep sending us theirs."
       }
     }
@@ -276,7 +276,13 @@
         "showLabel": true,
         "href": "https://www.hitstart.ba"
       },
-      { "name": "Coco", "logo": "/clients/coco.webp" }
+      { "name": "Coco", "logo": "/clients/coco.webp" },
+      {
+        "name": "Wincome",
+        "logo": "/clients/wincome.svg",
+        "darkLogo": "/clients/wincome-dark.svg",
+        "href": "https://wincome.webflow.io/"
+      }
     ]
   },
   "services": {

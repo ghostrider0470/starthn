@@ -51,9 +51,9 @@
   },
   "whyChoose": {
     "overline": "Zašto odabrati Start HN",
-    "title": "Vaš partner u rastu, od prvog računa do konsolidacije",
+    "title": "Vaš partner u rastu",
     "description": "Računovodstvena agencija Start HN iz Sarajeva pruža podršku udruženjima, obrtnicima, te mikro, malim i srednjim biznisima. Naš rad se temelji na ažurnosti, preciznosti i potpunoj posvećenosti klijentima — ne hvatamo „zadnji voz\", već pravovremeno pratimo sve rokove i zakonske obaveze.",
-    "body": "Pratimo izmjene propisa i zalažemo se za digitalizaciju računovodstvenih procesa — bilo kroz uspostavu internih programa kod klijenata sa stalnim uvidom u podatke, bilo kroz rad na dokumentaciji dostavljenoj fizički ili e-mailom. Za one koji žele dublju podršku, nudimo uslugu Virtualnog CFO-a.",
+    "body": "Pratimo izmjene propisa i zalažemo se za digitalizaciju računovodstvenih procesa — bilo kroz uspostavu internih programa kod klijenata sa stalnim uvidom u podatke, bilo kroz rad na dokumentaciji dostavljenoj fizički ili e-mailom. Za one koji žele stručniju podršku, nudimo uslugu Virtualnog CFO-a.",
     "features": {
       "personal": "Individualizirani pristup",
       "vcfo": "Virtualni CFO",
@@ -70,7 +70,7 @@
     "cta": "Započnimo saradnju",
     "items": {
       "clients": {
-        "value": 50,
+        "value": 30,
         "suffix": "+",
         "label": "Klijenata",
         "description": "Mikro i mala privredna društva, samostalni poduzetnici i udruženja koja nam vjeruju i razvijaju se uz našu podršku."
@@ -82,7 +82,7 @@
         "description": "Kombinovano iskustvo u računovodstvu, poreznom savjetovanju i finansijskom menadžmentu."
       },
       "hours": {
-        "value": 5000,
+        "value": 1000,
         "suffix": "+",
         "label": "Sati godišnje",
         "description": "Godišnje posvećeni analizi, savjetovanju i podršci klijentima na svim poljima gdje smo potrebni."
@@ -90,7 +90,7 @@
       "retention": {
         "value": 95,
         "suffix": "%",
-        "label": "Klijenata preporučuje",
+        "label": "Klijenata na preporuku",
         "description": "Naš rast temelji se na povjerenju i preporukama zadovoljnih klijenata koji nas dalje preporučuju."
       }
     }
@@ -276,7 +276,13 @@
         "showLabel": true,
         "href": "https://www.hitstart.ba"
       },
-      { "name": "Coco", "logo": "/clients/coco.webp" }
+      { "name": "Coco", "logo": "/clients/coco.webp" },
+      {
+        "name": "Wincome",
+        "logo": "/clients/wincome.svg",
+        "darkLogo": "/clients/wincome-dark.svg",
+        "href": "https://wincome.webflow.io/"
+      }
     ]
   },
   "services": {
