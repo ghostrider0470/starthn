@@ -247,6 +247,12 @@
         "href": "https://qla.dev"
       },
       {
+        "name": "Wincome",
+        "logo": "/clients/wincome.svg",
+        "darkLogo": "/clients/wincome-dark.svg",
+        "href": "https://wincome.webflow.io/"
+      },
+      {
         "name": "edu.ba",
         "logo": "/clients/edu-t.webp",
         "darkLogo": "/clients/edu-dark.webp",
@@ -276,13 +282,7 @@
         "showLabel": true,
         "href": "https://www.hitstart.ba"
       },
-      { "name": "Coco", "logo": "/clients/coco.webp" },
-      {
-        "name": "Wincome",
-        "logo": "/clients/wincome.svg",
-        "darkLogo": "/clients/wincome-dark.svg",
-        "href": "https://wincome.webflow.io/"
-      }
+      { "name": "Coco", "logo": "/clients/coco.webp" }
     ]
   },
   "services": {
