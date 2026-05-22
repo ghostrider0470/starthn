@@ -3,6 +3,33 @@ import { Link, useLocation } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
 import type { ReactNode } from 'react'
 import type { ServiceId } from '@/lib/service-routes'
+
+const SERVICE_IMAGES: Partial<Record<ServiceId, { hero: string; interior: string }>> = {
+  bookkeeping: {
+    hero: '/pages/bookkeeping-hero.jpg',
+    interior: '/pages/bookkeeping-interior.jpg',
+  },
+  taxConsulting: {
+    hero: '/pages/tax-consulting-hero.jpg',
+    interior: '/pages/tax-consulting-interior.jpg',
+  },
+  virtualCfo: {
+    hero: '/pages/virtual-cfo-hero.jpg',
+    interior: '/pages/virtual-cfo-interior.jpg',
+  },
+  businessConsulting: {
+    hero: '/pages/business-consulting-hero.jpg',
+    interior: '/pages/business-consulting-interior.jpg',
+  },
+  financialReporting: {
+    hero: '/pages/financial-reporting-hero.jpg',
+    interior: '/pages/financial-reporting-interior.jpg',
+  },
+  education: {
+    hero: '/pages/education-hero.jpg',
+    interior: '/pages/education-interior.jpg',
+  },
+}
 import { Button } from '@/components/ui/button'
 import { PageContainer } from '@/components/layout/PageContainer'
 import { SectionScroller } from '@/components/landing/SectionScroller'
@@ -59,6 +86,7 @@ export function ServicePageTemplate({ serviceId }: ServicePageTemplateProps) {
   const contactHref = withLocalePath('/contact', locale)
   const servicesHref = withLocalePath('/services', locale)
   const sectionLabels = getServiceSectionLabels(locale)
+  const images = SERVICE_IMAGES[serviceId]
   const rawContent = t(`items.${serviceId}`, { returnObjects: true })
   const service = isServiceContent(rawContent)
     ? rawContent
@@ -131,6 +159,17 @@ export function ServicePageTemplate({ serviceId }: ServicePageTemplateProps) {
               </div>
 
               <div className="border-t border-border pt-6 lg:border-t-0 lg:border-l lg:pl-8">
+                {images && (
+                  <div className="mb-6 overflow-hidden rounded-lg border border-border">
+                    <img
+                      src={images.hero}
+                      alt={service.title}
+                      className="w-full object-cover"
+                      loading="eager"
+                      decoding="async"
+                    />
+                  </div>
+                )}
                 <p className="text-sm font-semibold uppercase tracking-[0.16em] text-muted-foreground">
                   {service.bestForTitle}
                 </p>
@@ -222,6 +261,17 @@ export function ServicePageTemplate({ serviceId }: ServicePageTemplateProps) {
                 <h2 className="mt-3 max-w-3xl text-3xl font-bold tracking-tight text-foreground md:text-4xl">
                   {service.deliverablesTitle}
                 </h2>
+                {images && (
+                  <div className="mb-6 overflow-hidden rounded-lg border border-border">
+                    <img
+                      src={images.interior}
+                      alt={service.deliverablesTitle}
+                      className="aspect-video w-full object-cover"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
+                )}
                 <ul className="mt-7 grid gap-x-8 gap-y-3 border-y border-border py-5 sm:grid-cols-2">
                   {service.deliverables.map((deliverable) => (
                     <li

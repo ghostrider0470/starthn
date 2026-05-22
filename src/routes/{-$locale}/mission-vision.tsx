@@ -94,6 +94,15 @@ function MissionVisionPage() {
             </div>
 
             <div className="border-t border-border pt-6 lg:border-t-0 lg:border-l lg:pl-8">
+              <div className="mb-6 overflow-hidden rounded-lg border border-border">
+                <img
+                  src="/pages/mission-vision-hero.jpg"
+                  alt="Professionals planning strategy"
+                  className="w-full object-cover"
+                  loading="eager"
+                  decoding="async"
+                />
+              </div>
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
                 {t('missionVision.values.label')}
               </p>
@@ -151,6 +160,15 @@ function MissionVisionPage() {
             </p>
           </div>
 
+          <div className="mb-8 overflow-hidden rounded-lg border border-border">
+            <img
+              src="/pages/mission-vision-interior.jpg"
+              alt="Trust and partnership"
+              className="aspect-video w-full object-cover"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
             {values.map((value) => {
               const Icon = VALUE_ICONS[value.icon] ?? ShieldCheck

@@ -106,6 +106,15 @@ function AboutPage() {
             </div>
 
             <div className="border-t border-border pt-6 lg:border-t-0 lg:border-l lg:pl-8">
+              <div className="mb-6 overflow-hidden rounded-lg border border-border">
+                <img
+                  src="/pages/about-hero.jpg"
+                  alt="Start HN team collaborating"
+                  className="w-full object-cover"
+                  loading="eager"
+                  decoding="async"
+                />
+              </div>
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
                 {t('about.whyUs.title')}
               </p>
@@ -144,6 +153,15 @@ function AboutPage() {
             </div>
 
             <div className="lg:col-span-2">
+              <div className="mb-6 overflow-hidden rounded-lg border border-border">
+                <img
+                  src="/pages/about-interior.jpg"
+                  alt="Accountant reviewing documents with a client"
+                  className="w-full object-cover"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
               <h2 className="text-2xl font-bold tracking-tight text-foreground md:text-3xl">
                 {t('about.whyUs.title')}
               </h2>
