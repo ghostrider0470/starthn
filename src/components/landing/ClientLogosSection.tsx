@@ -33,38 +33,45 @@ function ClientCell({ item }: { item: ClientItem }) {
     'max-h-full max-w-full object-contain transition-opacity duration-300 group-hover:opacity-80'
 
   const content = (
-    <div className="flex h-14 w-full items-center justify-center px-3">
-      {item.logo ? (
-        <>
-          <img
-            src={item.logo}
-            alt={alt}
-            title={item.name}
-            width={200}
-            height={56}
-            loading="lazy"
-            decoding="async"
-            className={cn(logoClassName, item.darkLogo && 'dark:hidden')}
-          />
-          {item.darkLogo && (
+    <>
+      <div className="flex h-14 w-full items-center justify-center px-3">
+        {item.logo ? (
+          <>
             <img
-              src={item.darkLogo}
+              src={item.logo}
               alt={alt}
               title={item.name}
               width={200}
               height={56}
               loading="lazy"
               decoding="async"
-              className={cn(logoClassName, 'hidden dark:block')}
+              className={cn(logoClassName, item.darkLogo && 'dark:hidden')}
             />
-          )}
-        </>
-      ) : (
-        <span className="font-heading text-sm font-bold uppercase tracking-wide text-foreground/70">
+            {item.darkLogo && (
+              <img
+                src={item.darkLogo}
+                alt={alt}
+                title={item.name}
+                width={200}
+                height={56}
+                loading="lazy"
+                decoding="async"
+                className={cn(logoClassName, 'hidden dark:block')}
+              />
+            )}
+          </>
+        ) : (
+          <span className="font-heading text-sm font-bold uppercase tracking-wide text-foreground/70">
+            {item.name}
+          </span>
+        )}
+      </div>
+      {item.showLabel && (
+        <span className="block text-center text-[10px] font-medium uppercase tracking-[0.12em] text-muted-foreground/70">
           {item.name}
         </span>
       )}
-    </div>
+    </>
   )
 
   if (item.href) {
