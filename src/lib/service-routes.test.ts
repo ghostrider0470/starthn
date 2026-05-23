@@ -50,7 +50,8 @@ describe('service route registry', () => {
     expect(SERVICE_INDEX_SECTION_IDS).toEqual(['overview', 'services', 'start'])
     expect(SERVICE_DETAIL_SECTION_IDS).toEqual([
       'overview',
-      'scope-process',
+      'scope',
+      'process',
       'deliverables',
     ])
   })
