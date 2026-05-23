@@ -264,7 +264,7 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       {
         rel: 'preload',
         as: 'image',
-        href: '/hero/slide-1.webp',
+        href: '/hero/slide-3-1440.webp',
         type: 'image/webp',
         fetchPriority: 'high',
       },

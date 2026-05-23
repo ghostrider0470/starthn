@@ -1,13 +1,13 @@
 import { Link, useLocation } from '@tanstack/react-router'
 import { motion } from 'motion/react'
 import {
-  UserCheck,
-  LineChart,
-  Layers,
+  ArrowRight,
+  BadgeCheck,
   Cloud,
   GraduationCap,
-  BadgeCheck,
-  ArrowRight,
+  Layers,
+  LineChart,
+  UserCheck,
 } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
@@ -87,13 +87,15 @@ export function WhyStartHNSection() {
           >
             <div className="relative aspect-[4/5] max-h-[min(52svh,500px)] min-h-[360px] overflow-hidden rounded-2xl shadow-xl shadow-black/5 lg:mr-auto lg:w-full">
               <img
-                src="/why-start-hn.webp"
+                src="/why-start-hn-900.webp"
+                srcSet="/why-start-hn-600.webp 600w, /why-start-hn-900.webp 900w, /why-start-hn.webp 1200w"
+                sizes="(min-width: 1280px) 520px, (min-width: 1024px) 42vw, 100vw"
                 alt={t('whyChoose.title', { defaultValue: '' })}
                 className="absolute inset-0 h-full w-full object-cover"
                 loading="lazy"
                 decoding="async"
-                width={1200}
-                height={1500}
+                width={900}
+                height={1125}
               />
             </div>
           </motion.div>

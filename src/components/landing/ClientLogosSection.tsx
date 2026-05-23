@@ -1,15 +1,20 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { motion } from 'motion/react'
 import { useTranslation } from 'react-i18next'
 import { designSystem } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
 
-type ClientItem = {
+export type ClientItem = {
   name: string
   logo?: string
   darkLogo?: string
   href?: string
   showLabel?: boolean
+}
+
+export function splitClientLogoRows(items: Array<ClientItem>) {
+  const mid = Math.ceil(items.length / 2)
+  return [items.slice(0, mid), items.slice(mid)] as const
 }
 
 const MARQUEE_CSS = `
@@ -28,6 +33,10 @@ function ClientCell({ item }: { item: ClientItem }) {
   const alt = t('clients.logoAlt', {
     name: item.name,
     defaultValue: `${item.name} logo`,
+  })
+  const openLabel = t('clients.openClient', {
+    name: item.name,
+    defaultValue: `${item.name} - open client website`,
   })
   const logoClassName =
     'max-h-full max-w-full object-contain transition-opacity duration-300 group-hover:opacity-80'
@@ -80,11 +89,9 @@ function ClientCell({ item }: { item: ClientItem }) {
         href={item.href}
         target="_blank"
         rel="noopener noreferrer external"
-        aria-label={t('clients.openClient', {
-          name: item.name,
-          defaultValue: `${item.name} - open client website`,
-        })}
+        aria-label={`${alt}. ${openLabel}`}
         className="group block w-44 flex-shrink-0 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-4"
+        data-client-logo={item.name}
         itemProp="funder"
         itemScope
         itemType="https://schema.org/Organization"
@@ -99,6 +106,7 @@ function ClientCell({ item }: { item: ClientItem }) {
   return (
     <div
       className="group block w-44 flex-shrink-0"
+      data-client-logo={item.name}
       itemProp="funder"
       itemScope
       itemType="https://schema.org/Organization"
@@ -115,7 +123,7 @@ function MarqueeRow({
   duration,
   paused,
 }: {
-  items: ClientItem[]
+  items: Array<ClientItem>
   direction: 'left' | 'right'
   duration: number
   paused: boolean
@@ -141,20 +149,30 @@ export function ClientLogosSection() {
     : []
 
   const [paused, setPaused] = useState(false)
+  const [isActive, setIsActive] = useState(false)
+  const sectionRef = useRef<HTMLElement | null>(null)
 
-  const [row1, row2] = useMemo(() => {
-    const arr = [...items]
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1))
-      ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  const [row1, row2] = useMemo(() => splitClientLogoRows(items), [items])
+
+  useEffect(() => {
+    const section = sectionRef.current
+    if (!section) return
+    if (!('IntersectionObserver' in window)) {
+      setIsActive(true)
+      return
     }
-    const mid = Math.ceil(arr.length / 2)
-    // Split into two halves — each row shows different clients simultaneously
-    return [arr.slice(0, mid), arr.slice(mid)]
+
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsActive(entry.isIntersecting),
+      { threshold: 0.15 },
+    )
+    observer.observe(section)
+    return () => observer.disconnect()
   }, [])
 
   return (
     <section
+      ref={sectionRef}
       aria-labelledby="clients-heading"
       className="relative overflow-hidden border-y border-border/60 bg-background py-10 md:py-12"
       onMouseEnter={() => setPaused(true)}
@@ -188,10 +206,20 @@ export function ClientLogosSection() {
         }}
       >
         <div className="mb-5 overflow-hidden">
-          <MarqueeRow items={row1} direction="left" duration={28} paused={paused} />
+          <MarqueeRow
+            items={row1}
+            direction="left"
+            duration={28}
+            paused={paused || !isActive}
+          />
         </div>
         <div className="overflow-hidden">
-          <MarqueeRow items={row2} direction="right" duration={22} paused={paused} />
+          <MarqueeRow
+            items={row2}
+            direction="right"
+            duration={22}
+            paused={paused || !isActive}
+          />
         </div>
       </div>
     </section>

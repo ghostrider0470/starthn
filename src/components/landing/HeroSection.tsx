@@ -23,9 +23,27 @@ type Slide = {
 }
 
 const SLIDE_IMAGES = [
-  '/hero/slide-3.webp',
-  '/hero/slide-1.webp',
-  '/hero/slide-2.webp',
+  {
+    src: '/hero/slide-3-1440.webp',
+    srcSet:
+      '/hero/slide-3-960.webp 960w, /hero/slide-3-1440.webp 1440w, /hero/slide-3.webp 1920w',
+    width: 1920,
+    height: 1280,
+  },
+  {
+    src: '/hero/slide-1-1440.webp',
+    srcSet:
+      '/hero/slide-1-960.webp 960w, /hero/slide-1-1440.webp 1440w, /hero/slide-1.webp 1920w',
+    width: 1920,
+    height: 1281,
+  },
+  {
+    src: '/hero/slide-2-1440.webp',
+    srcSet:
+      '/hero/slide-2-960.webp 960w, /hero/slide-2-1440.webp 1440w, /hero/slide-2.webp 1920w',
+    width: 1920,
+    height: 1282,
+  },
 ] as const
 
 const AUTO_ADVANCE_MS = 4000
@@ -120,9 +138,14 @@ export function HeroSection() {
             aria-hidden
           >
             <img
-              src={SLIDE_IMAGES[i]}
+              src={SLIDE_IMAGES[i].src}
+              srcSet={SLIDE_IMAGES[i].srcSet}
+              sizes="100vw"
               alt=""
+              width={SLIDE_IMAGES[i].width}
+              height={SLIDE_IMAGES[i].height}
               loading={i === 0 ? 'eager' : 'lazy'}
+              fetchPriority={i === 0 ? 'high' : undefined}
               decoding="async"
               className="h-full w-full object-cover object-center"
             />

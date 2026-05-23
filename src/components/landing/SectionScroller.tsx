@@ -234,22 +234,27 @@ export function SectionScroller({
           <ChevronUp className="h-4 w-4" />
         </button>
 
-        <div className="flex flex-col gap-1.5 rounded-full border border-border/60 bg-background/70 px-2 py-2 shadow-sm backdrop-blur-md">
+        <div className="flex flex-col gap-1 rounded-full border border-border/60 bg-background/70 px-1.5 py-2 shadow-sm backdrop-blur-md">
           {sections.map((_, i) => (
             <button
               key={i}
               type="button"
               onClick={() => scrollTo(i)}
               title={labels[i] ?? `Section ${i + 1}`}
-              className={cn(
-                'pointer-events-auto h-1.5 rounded-full transition-all duration-300',
-                i === current
-                  ? 'w-5 bg-primary/75'
-                  : 'w-1.5 bg-muted-foreground/35 hover:bg-primary/45',
-              )}
+              className="group pointer-events-auto grid h-6 w-6 place-items-center rounded-full"
               aria-label={labels[i] ?? `Go to section ${i + 1}`}
               aria-current={i === current ? 'true' : undefined}
-            />
+            >
+              <span
+                aria-hidden
+                className={cn(
+                  'h-1.5 rounded-full transition-all duration-300',
+                  i === current
+                    ? 'w-5 bg-primary/75'
+                    : 'w-1.5 bg-muted-foreground/35 group-hover:bg-primary/45',
+                )}
+              />
+            </button>
           ))}
         </div>
 

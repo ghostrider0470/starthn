@@ -103,7 +103,11 @@ export function ContactCtaSection() {
                   placeholder={t('contactCta.fields.email')}
                   className="bg-background/80"
                 />
+                <label htmlFor="contact-service" className="sr-only">
+                  {t('contactCta.servicePlaceholder')}
+                </label>
                 <select
+                  id="contact-service"
                   name="service"
                   required
                   defaultValue=""
