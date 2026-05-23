@@ -78,6 +78,13 @@ export function HeroSection() {
     return () => window.removeEventListener('keydown', onKey)
   }, [next, prev])
 
+  // Reset hover-pause when window loses focus (tab switch while hovering)
+  useEffect(() => {
+    const reset = () => setPaused(false)
+    window.addEventListener('blur', reset)
+    return () => window.removeEventListener('blur', reset)
+  }, [])
+
   if (!total) return null
 
   return (
@@ -88,7 +95,11 @@ export function HeroSection() {
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onFocus={() => setPaused(true)}
-      onBlur={() => setPaused(false)}
+      onBlur={(e) => {
+        if (!e.currentTarget.contains(e.relatedTarget as Node)) {
+          setPaused(false)
+        }
+      }}
       onTouchStart={(e) => (touchStartX.current = e.touches[0].clientX)}
       onTouchEnd={(e) => {
         if (touchStartX.current == null) return
