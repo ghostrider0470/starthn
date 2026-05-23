@@ -13,7 +13,7 @@ import {
   useDeleteBlogTranslation,
   useUpdateBlogTranslation,
 } from '@/hooks/useBlogQueries'
-import { usePublicCategories } from '@/hooks/useCategoryQueries'
+import { useAdminCategories } from '@/hooks/useCategoryQueries'
 import blogService from '@/services/blog.service'
 import type { CreateBlogPostDto, UpdateBlogPostDto } from '@/services/blog.service'
 import { Button } from '@/components/ui/button'
@@ -117,7 +117,7 @@ function BlogEditorPage() {
   const editSlug = searchParams.get('slug')
 
   const { data: posts } = useAdminBlogPosts()
-  const { data: allCategories = [] } = usePublicCategories()
+  const { data: allCategories = [] } = useAdminCategories()
   const createMutation = useCreateBlogPost()
   const updateMutation = useUpdateBlogPost()
 
@@ -461,6 +461,7 @@ function BlogEditorPage() {
                           hint={t('admin.editor.coverHint', { defaultValue: 'Used on cards (16:9)' })}
                           value={coverImage}
                           onChange={setCoverImage}
+                          onUpload={(file) => blogService.uploadImage(file, coverImage ?? undefined)}
                           previewHeight="h-48"
                         />
                         <ImageCropUpload
@@ -469,6 +470,7 @@ function BlogEditorPage() {
                           hint={t('admin.editor.bannerHint', { defaultValue: 'Article header (21:9)' })}
                           value={bannerImage}
                           onChange={setBannerImage}
+                          onUpload={(file) => blogService.uploadImage(file, bannerImage ?? undefined)}
                           previewHeight="h-36"
                         />
                       </div>

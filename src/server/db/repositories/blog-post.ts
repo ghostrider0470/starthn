@@ -85,6 +85,7 @@ export class BlogPostRepository {
     const result = await this.db
       .select({ count: sql<number>`COUNT(*)` })
       .from(blogPosts)
+      .where(eq(blogPosts.isPublished, 1))
     return result[0]?.count ?? 0
   }
 

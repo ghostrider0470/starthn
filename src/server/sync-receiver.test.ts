@@ -1,5 +1,5 @@
-import { describe, it, expect } from 'vitest'
-import { buildUpsertStatements } from './sync-receiver'
+import { describe, it, expect, vi } from 'vitest'
+import { buildUpsertStatements, handleSync } from './sync-receiver'
 
 describe('buildUpsertStatements', () => {
   it('returns empty for unknown entity', () => {
@@ -294,5 +294,55 @@ describe('buildUpsertStatements', () => {
     const stmts = buildUpsertStatements('blogPostTranslations', items)
     expect(stmts).toHaveLength(1)
     expect(stmts[0].sql).toContain('DELETE FROM blog_post_translations WHERE id = ?')
+  })
+})
+
+describe('handleSync', () => {
+  it('executes all item statements in one D1 batch', async () => {
+    const batch = vi.fn().mockResolvedValue([
+      { meta: { changes: 1 } },
+      { meta: { changes: 1 } },
+      { meta: { changes: 1 } },
+      { meta: { changes: 1 } },
+    ])
+    const prepare = vi.fn((sql: string) => ({
+      bind: (...params: unknown[]) => ({ sql, params }),
+    }))
+    const json = vi.fn((body: unknown, status = 200) =>
+      Response.json(body, { status }),
+    )
+
+    const response = await handleSync({
+      req: {
+        header: (name: string) => (name === 'X-Internal-Auth' ? 'secret' : undefined),
+        json: async () => ({
+          entity: 'tags',
+          schemaVersion: 1,
+          timestamp: '2026-05-23T00:00:00.000Z',
+          items: [
+            { id: 'tag-1', slug: 'react', label: 'React', translations: {} },
+            { id: 'tag-2', slug: 'vue', label: 'Vue', translations: {} },
+          ],
+        }),
+      },
+      env: {
+        SYNC_SECRET: 'secret',
+        DB: { prepare, batch },
+      },
+      json,
+    } as never)
+
+    const body = await response.json()
+
+    expect(response.status).toBe(200)
+    expect(body).toMatchObject({
+      ok: true,
+      entity: 'tags',
+      itemCount: 2,
+      statementsExecuted: 4,
+      rowsWritten: 4,
+    })
+    expect(batch).toHaveBeenCalledTimes(1)
+    expect(prepare).toHaveBeenCalledTimes(4)
   })
 })

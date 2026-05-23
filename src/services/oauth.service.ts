@@ -76,7 +76,7 @@ class OAuthService {
     const nonce = Math.random().toString(36).substring(7);
     const state = `Microsoft_${nonce}`;
 
-    const authUrl = `https://login.microsoftonline.com/common/oauth2/v2.0/authorize?` +
+    const authUrl = `https://login.microsoftonline.com/aa722524-5f12-410b-b06c-d5a8d54b1ddf/oauth2/v2.0/authorize?` +
       `client_id=${clientId}&` +
       `response_type=code&` +
       `redirect_uri=${redirectUri}&` +

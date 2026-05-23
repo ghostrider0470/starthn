@@ -4,6 +4,7 @@ import Cropper from 'react-easy-crop'
 import type { Area, Point } from 'react-easy-crop'
 import { getCroppedImg, readFileAsDataUrl } from '@/utils/imageUtils'
 import blogService from '@/services/blog.service'
+import { img } from '@/lib/image'
 import { toast } from '@/hooks/use-toast'
 import {
   Dialog,
@@ -172,7 +173,7 @@ export function ImageCropUpload({
           cropShape === 'round' ? (
             <div className="flex items-center gap-3">
               <img
-                src={value}
+                src={img(value, { width: 192 })}
                 alt={label}
                 className="h-20 w-20 shrink-0 rounded-full object-cover border-2 border-border"
               />
@@ -194,7 +195,7 @@ export function ImageCropUpload({
           ) : (
             <div className={cn('relative overflow-hidden rounded-xl', previewHeight)}>
               <img
-                src={value}
+                src={img(value, { width: 800 })}
                 alt={label}
                 className="h-full w-full object-cover"
               />

@@ -31,3 +31,15 @@ export function useUpdateUserStatus() {
     onSuccess: () => qc.invalidateQueries({ queryKey: userManagementKeys.all }),
   })
 }
+
+export function useUpdateUserAuthorProfile() {
+  const qc = useQueryClient()
+  return useMutation({
+    mutationFn: ({ id, slug, profession }: { id: string; slug?: string | null; profession?: string }) =>
+      userManagementService.updateAuthorProfile(id, { slug, profession }),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: userManagementKeys.all })
+      qc.invalidateQueries({ queryKey: ['authors'] })
+    },
+  })
+}

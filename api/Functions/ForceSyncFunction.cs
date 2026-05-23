@@ -47,6 +47,23 @@ public class ForceSyncFunction
             || authValues.FirstOrDefault() != _syncSecret)
             return req.CreateResponse(HttpStatusCode.Unauthorized);
 
+        var results = await SyncAllAsync();
+        return await req.CreateJsonResponseAsync(HttpStatusCode.OK, results);
+    }
+
+    // Runs every hour at minute 0, re-syncs all live Cosmos items to D1.
+    [Function("PeriodicSync")]
+    public async Task RunTimer([TimerTrigger("0 0 * * * *")] TimerInfo timer)
+    {
+        _logger.LogInformation("PeriodicSync started (isPastDue={IsPastDue})", timer.IsPastDue);
+        var results = await SyncAllAsync();
+        var errors = results.Values.OfType<Dictionary<string, string>>().Count(v => v.ContainsKey("error"));
+        _logger.LogInformation("PeriodicSync complete - {Containers} containers, {Errors} errors",
+            results.Count, errors);
+    }
+
+    private async Task<Dictionary<string, object>> SyncAllAsync()
+    {
         var results = new Dictionary<string, object>();
 
         foreach (var containerName in Containers)
@@ -70,7 +87,6 @@ public class ForceSyncFunction
 
                 if (rawItems.Count > 0)
                 {
-                    // Build the JSON payload manually from raw strings
                     var itemsJson = "[" + string.Join(",", rawItems) + "]";
                     var payloadJson = $$"""{"entity":"{{containerName}}","schemaVersion":1,"items":{{itemsJson}},"timestamp":"{{DateTimeOffset.UtcNow:O}}"}""";
 
@@ -85,15 +101,15 @@ public class ForceSyncFunction
                 }
 
                 results[containerName] = new { synced = rawItems.Count };
-                _logger.LogInformation("ForceSync: {Container} — {Count} items", containerName, rawItems.Count);
+                _logger.LogInformation("Sync: {Container} - {Count} items", containerName, rawItems.Count);
             }
             catch (Exception ex)
             {
-                results[containerName] = new { error = ex.Message };
-                _logger.LogError(ex, "ForceSync failed for {Container}", containerName);
+                results[containerName] = new Dictionary<string, string> { ["error"] = ex.Message };
+                _logger.LogError(ex, "Sync failed for {Container}", containerName);
             }
         }
 
-        return await req.CreateJsonResponseAsync(HttpStatusCode.OK, results);
+        return results;
     }
 }

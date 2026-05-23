@@ -19,8 +19,9 @@ public partial class BlogService : IBlogService
     private readonly ILlmReviewService _llmReview;
     private readonly IMapper _mapper;
     private readonly ILogger<BlogService> _logger;
+    private readonly IWorkerSyncService _sync;
 
-    public BlogService(IBlogPostRepository blogRepo, IBlogPostTranslationRepository translationRepo, IUserRepository userRepo, ILlmReviewService llmReview, IMapper mapper, ILogger<BlogService> logger)
+    public BlogService(IBlogPostRepository blogRepo, IBlogPostTranslationRepository translationRepo, IUserRepository userRepo, ILlmReviewService llmReview, IMapper mapper, ILogger<BlogService> logger, IWorkerSyncService sync)
     {
         _blogRepo = blogRepo;
         _translationRepo = translationRepo;
@@ -28,6 +29,7 @@ public partial class BlogService : IBlogService
         _llmReview = llmReview;
         _mapper = mapper;
         _logger = logger;
+        _sync = sync;
     }
 
     // Public endpoints
@@ -186,6 +188,7 @@ public partial class BlogService : IBlogService
             await UnfeatureOthersInCategoryAsync(doc.Category, doc.Id);
         }
 
+        _ = _sync.TrySyncOneAsync("blogPosts", doc);
         _logger.LogInformation("Blog post created: {Slug}", slug);
 
         UserEntity? author = null;
@@ -227,6 +230,8 @@ public partial class BlogService : IBlogService
             await UnfeatureOthersInCategoryAsync(updated.Category, updated.Id);
         }
 
+        _ = _sync.TrySyncOneAsync("blogPosts", updated);
+
         UserEntity? author = null;
         if (updated.AuthorId != null)
             author = await _userRepo.GetByIdAsync(updated.AuthorId);
@@ -236,7 +241,9 @@ public partial class BlogService : IBlogService
 
     public async Task<bool> DeleteAsync(string slug)
     {
-        return await _blogRepo.DeleteAsync(slug);
+        var result = await _blogRepo.DeleteAsync(slug);
+        if (result) _ = _sync.TrySyncDeleteAsync("blogPosts", slug);
+        return result;
     }
 
     public async Task<int> SeedAsync(List<CreateBlogPostRequest> posts, string? authorName)
@@ -376,6 +383,7 @@ public partial class BlogService : IBlogService
                     TranslatedAt = dtoTranslation.TranslatedAt,
                 };
                 await _translationRepo.UpsertAsync(entity);
+                _ = _sync.TrySyncOneAsync("blogPostTranslations", entity);
                 allResults[lang] = entity;
             }
 
@@ -406,6 +414,7 @@ public partial class BlogService : IBlogService
         existing.TranslatedAt = DateTime.UtcNow;
 
         await _translationRepo.UpsertAsync(existing);
+        _ = _sync.TrySyncOneAsync("blogPostTranslations", existing);
 
         return existing;
     }
@@ -426,6 +435,7 @@ public partial class BlogService : IBlogService
         if (existing == null) return false;
 
         await _translationRepo.DeleteAsync(slug, lang);
+        _ = _sync.TrySyncDeleteAsync("blogPostTranslations", $"{slug}:{lang}");
         return true;
     }
 

@@ -143,4 +143,35 @@ public class WorkerSyncService : IWorkerSyncService
 
         _logger.LogInformation("ChangeFeed -> D1: synced {Count} {Entity}", items.Count, entityType);
     }
+
+    private static readonly JsonSerializerOptions _camelCaseOptions = new()
+    {
+        PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+    };
+
+    public async Task TrySyncOneAsync<T>(string entityType, T item)
+    {
+        try
+        {
+            var element = JsonSerializer.SerializeToElement(item, _camelCaseOptions);
+            await SyncEntityAsync(entityType, [element]);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogWarning(ex, "Write-through sync failed for {EntityType}", entityType);
+        }
+    }
+
+    public async Task TrySyncDeleteAsync(string entityType, string id)
+    {
+        try
+        {
+            var element = JsonSerializer.SerializeToElement(new { id, _deleted = true });
+            await SyncEntityAsync(entityType, [element]);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogWarning(ex, "Write-through delete sync failed for {EntityType} id={Id}", entityType, id);
+        }
+    }
 }

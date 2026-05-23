@@ -220,7 +220,7 @@ public class AuthService : IAuthService
         switch (request.Provider)
         {
             case "Microsoft":
-                tokenUrl = "https://login.microsoftonline.com/common/oauth2/v2.0/token";
+                tokenUrl = "https://login.microsoftonline.com/aa722524-5f12-410b-b06c-d5a8d54b1ddf/oauth2/v2.0/token";
                 var msClientId = Environment.GetEnvironmentVariable("MICROSOFT_CLIENT_ID")
                     ?? throw new InvalidOperationException("MICROSOFT_CLIENT_ID is not configured");
                 var msClientSecret = Environment.GetEnvironmentVariable("MICROSOFT_CLIENT_SECRET")

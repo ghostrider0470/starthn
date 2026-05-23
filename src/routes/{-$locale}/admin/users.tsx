@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState, useEffect, useMemo } from 'react'
-import { useAdminUsers, useUpdateUserRoles, useUpdateUserStatus } from '@/hooks/useUserManagementQueries'
+import { useAdminUsers, useUpdateUserRoles, useUpdateUserStatus, useUpdateUserAuthorProfile } from '@/hooks/useUserManagementQueries'
 import type { AdminUser } from '@/services/user-management.service'
 import { ROLES, ROLE_LABELS, ROLE_VARIANTS } from '@/lib/rbac'
 import { useAdminRoles } from '@/hooks/useRoleQueries'
@@ -30,7 +30,8 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table'
-import { Pencil, Loader2, Users, Search, ChevronLeft, ChevronRight } from 'lucide-react'
+import { Pencil, Loader2, Users, Search, ChevronLeft, ChevronRight, Eye, EyeOff } from 'lucide-react'
+import { Input } from '@/components/ui/input'
 import { cn } from '@/lib/utils'
 
 export const Route = createFileRoute('/{-$locale}/admin/users')({
@@ -78,11 +79,13 @@ function EditUserDialog({
   currentUserId: string
   roleNames: string[]
   onClose: () => void
-  onSave: (roles: string[], isActive: boolean) => void
+  onSave: (roles: string[], isActive: boolean, slug: string) => void
   isSaving: boolean
 }) {
   const [selectedRoles, setSelectedRoles] = useState<string[]>(editingUser.roles)
   const [isActive, setIsActive] = useState(editingUser.isActive)
+  const [slug, setSlug] = useState(editingUser.slug ?? '')
+  const [showOnTeam, setShowOnTeam] = useState(!!editingUser.slug)
 
   const isSelf = currentUserId === editingUser.id
 
@@ -90,6 +93,18 @@ function EditUserDialog({
     setSelectedRoles((prev) =>
       prev.includes(role) ? prev.filter((r) => r !== role) : [...prev, role],
     )
+  }
+
+  function handleTeamToggle(checked: boolean) {
+    setShowOnTeam(checked)
+    if (!checked) setSlug('')
+    else if (!slug) {
+      const fallback = `${editingUser.firstName}-${editingUser.lastName}`
+        .toLowerCase()
+        .replace(/\s+/g, '-')
+        .replace(/[^a-z0-9-]/g, '')
+      setSlug(fallback)
+    }
   }
 
   return (
@@ -156,13 +171,43 @@ function EditUserDialog({
               <span>Active</span>
             </label>
           </div>
+
+          {/* Team page visibility */}
+          <div className="space-y-2 rounded-lg border border-border/60 p-3">
+            <label className="flex items-center gap-2 text-sm font-medium cursor-pointer">
+              <input
+                type="checkbox"
+                checked={showOnTeam}
+                onChange={(e) => handleTeamToggle(e.target.checked)}
+                className="rounded"
+              />
+              <span>Show on team page</span>
+              {showOnTeam
+                ? <Eye className="h-4 w-4 text-accent ml-auto" />
+                : <EyeOff className="h-4 w-4 text-muted-foreground ml-auto" />
+              }
+            </label>
+            {showOnTeam && (
+              <div className="mt-2 space-y-1">
+                <p className="text-xs text-muted-foreground">Profile slug (URL: /team/…)</p>
+                <Input
+                  value={slug}
+                  onChange={(e) =>
+                    setSlug(e.target.value.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, ''))
+                  }
+                  placeholder="e.g. john-doe"
+                  className="h-8 text-sm"
+                />
+              </div>
+            )}
+          </div>
         </div>
 
         <DialogFooter>
           <Button variant="outline" onClick={onClose}>
             Cancel
           </Button>
-          <Button onClick={() => onSave(selectedRoles, isActive)} disabled={isSaving}>
+          <Button onClick={() => onSave(selectedRoles, isActive, showOnTeam ? slug : '')} disabled={isSaving}>
             {isSaving && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
             Save
           </Button>
@@ -213,30 +258,31 @@ function AdminUsersPage() {
   const { data, isLoading } = useAdminUsers(queryParams)
   const updateRolesMutation = useUpdateUserRoles()
   const updateStatusMutation = useUpdateUserStatus()
+  const updateAuthorMutation = useUpdateUserAuthorProfile()
 
   const users = data?.users ?? []
   const total = data?.total ?? 0
   const totalPages = Math.ceil(total / PAGE_SIZE)
 
-  async function handleSave(roles: string[], isActive: boolean) {
+  async function handleSave(roles: string[], isActive: boolean, slug: string) {
     if (!editingUser) return
 
     const rolesChanged =
       roles.length !== editingUser.roles.length ||
       roles.some((r) => !editingUser.roles.includes(r))
     const statusChanged = isActive !== editingUser.isActive
+    const slugChanged = slug !== (editingUser.slug ?? '')
 
-    if (rolesChanged) {
-      await updateRolesMutation.mutateAsync({ id: editingUser.id, roles })
-    }
-    if (statusChanged) {
-      await updateStatusMutation.mutateAsync({ id: editingUser.id, isActive })
-    }
+    await Promise.all([
+      rolesChanged ? updateRolesMutation.mutateAsync({ id: editingUser.id, roles }) : Promise.resolve(),
+      statusChanged ? updateStatusMutation.mutateAsync({ id: editingUser.id, isActive }) : Promise.resolve(),
+      slugChanged ? updateAuthorMutation.mutateAsync({ id: editingUser.id, slug: slug || null }) : Promise.resolve(),
+    ])
 
     setEditingUser(null)
   }
 
-  const isSaving = updateRolesMutation.isPending || updateStatusMutation.isPending
+  const isSaving = updateRolesMutation.isPending || updateStatusMutation.isPending || updateAuthorMutation.isPending
 
   return (
     <div className="py-6 lg:py-8">
@@ -301,6 +347,7 @@ function AdminUsersPage() {
                       <TableHead>Email</TableHead>
                       <TableHead>Roles</TableHead>
                       <TableHead>Status</TableHead>
+                      <TableHead>Team</TableHead>
                       <TableHead className="text-right">Actions</TableHead>
                     </TableRow>
                   </TableHeader>
@@ -337,6 +384,12 @@ function AdminUsersPage() {
                           <Badge variant={u.isActive ? 'success' : 'outline'}>
                             {u.isActive ? 'Active' : 'Inactive'}
                           </Badge>
+                        </TableCell>
+                        <TableCell>
+                          {u.slug
+                            ? <Eye className="h-4 w-4 text-accent" title={`/team/${u.slug}`} />
+                            : <EyeOff className="h-4 w-4 text-muted-foreground/40" title="Hidden from team page" />
+                          }
                         </TableCell>
                         <TableCell className="text-right">
                           <Button

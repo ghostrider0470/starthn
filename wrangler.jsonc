@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "starthn",
+  "account_id": "14e66a44c223436e076dbd6073c78d98",
   "compatibility_date": "2026-04-01",
   "compatibility_flags": ["nodejs_compat_v2"],
   "main": "src/server.ts",
@@ -8,15 +9,15 @@
     "binding": "ASSETS"
   },
   "vars": {
-    "API_ORIGIN": "https://starthn-func-prod.azurewebsites.net",
-    "AZURE_BLOB_ORIGIN": "https://starthnstorage.blob.core.windows.net"
+    "API_ORIGIN": "https://starthn-api-prod.azurewebsites.net",
+    "AZURE_BLOB_ORIGIN": "https://starthnwebprod.blob.core.windows.net"
     // JWT_SECRET is set via `npx wrangler secret put JWT_SECRET` (not here — sensitive)
   },
   "d1_databases": [
     {
       "binding": "DB",
       "database_name": "starthn-db",
-      "database_id": "81809bca-2c2d-4e55-9c70-d02efd9bff65",
+      "database_id": "3be8b3ef-b0b9-4f54-9950-ba168c757cde",
       "migrations_dir": "src/server/db/migrations"
     }
   ],

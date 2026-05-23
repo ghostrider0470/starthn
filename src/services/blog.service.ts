@@ -131,10 +131,9 @@ class BlogService {
 
   // Image upload
 
-  async uploadImage(file: File, slug?: string, replaceUrl?: string): Promise<{ url: string }> {
+  async uploadImage(file: File, replaceUrl?: string): Promise<{ url: string }> {
     const formData = new FormData()
     formData.append('original', file, file.name)
-    if (slug) formData.append('slug', slug)
     if (replaceUrl) formData.append('replaceUrl', replaceUrl)
 
     try {

@@ -48,27 +48,23 @@ public class ImageUploadFunction
 
         var parsed = await MultipartFormDataParser.ParseAsync(req.Body);
 
-        // 1. Require slug
-        var slug = parsed.GetParameterValue("slug");
-        if (string.IsNullOrWhiteSpace(slug))
-            throw new AppValidationException("slug", "slug is required.");
-
-        // 2. Optional replaceUrl for delete-on-replace
+        // 1. Optional replaceUrl for delete-on-replace
         var replaceUrl = parsed.GetParameterValue("replaceUrl");
 
         var original = parsed.Files.FirstOrDefault(f => f.Name == "original")
             ?? parsed.Files.FirstOrDefault()
             ?? throw new AppValidationException("file", "No image file provided.");
 
-        // 3. Read original stream
+        // 2. Read original stream
         using var originalStream = new MemoryStream();
         await original.Data.CopyToAsync(originalStream);
         originalStream.Position = 0;
 
-        // 4. Derive slug-based blob path
-        var blobPath = $"{slug}/{Guid.NewGuid():N}.webp";
+        // 3. UUID-keyed blob path — stable regardless of post slug or title changes
+        var imageId = Guid.NewGuid().ToString("N");
+        var blobPath = $"{imageId}.webp";
 
-        // 5. Upload original to slug-based path
+        // 4. Upload original
         await _blobService.UploadImageAsync(Container, blobPath, originalStream, original.ContentType);
 
         var source = "backend";
