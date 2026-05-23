@@ -1,5 +1,5 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
-import { motion, AnimatePresence } from 'motion/react'
+import { useMemo, useState } from 'react'
+import { motion } from 'motion/react'
 import { useTranslation } from 'react-i18next'
 import { designSystem } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
@@ -12,8 +12,16 @@ type ClientItem = {
   showLabel?: boolean
 }
 
-const VISIBLE = 3
-const ROTATE_MS = 3000
+const MARQUEE_CSS = `
+  @keyframes marquee-left {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+  @keyframes marquee-right {
+    from { transform: translateX(-50%); }
+    to   { transform: translateX(0); }
+  }
+`
 
 function ClientCell({ item }: { item: ClientItem }) {
   const { t } = useTranslation('landing')
@@ -22,51 +30,41 @@ function ClientCell({ item }: { item: ClientItem }) {
     defaultValue: `${item.name} logo`,
   })
   const logoClassName =
-    'max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-105'
+    'max-h-full max-w-full object-contain transition-opacity duration-300 group-hover:opacity-80'
 
   const content = (
-    <>
-      <div className="flex h-24 w-full items-center justify-center px-4 py-3 md:h-32">
-        {item.logo ? (
-          <>
+    <div className="flex h-14 w-full items-center justify-center px-3">
+      {item.logo ? (
+        <>
+          <img
+            src={item.logo}
+            alt={alt}
+            title={item.name}
+            width={200}
+            height={56}
+            loading="lazy"
+            decoding="async"
+            className={cn(logoClassName, item.darkLogo && 'dark:hidden')}
+          />
+          {item.darkLogo && (
             <img
-              src={item.logo}
+              src={item.darkLogo}
               alt={alt}
               title={item.name}
-              width={240}
-              height={120}
+              width={200}
+              height={56}
               loading="lazy"
               decoding="async"
-              className={cn(
-                logoClassName,
-                item.darkLogo && 'dark:hidden',
-              )}
+              className={cn(logoClassName, 'hidden dark:block')}
             />
-            {item.darkLogo && (
-              <img
-                src={item.darkLogo}
-                alt={alt}
-                title={item.name}
-                width={160}
-                height={64}
-                loading="lazy"
-                decoding="async"
-                className={cn(logoClassName, 'hidden dark:block')}
-              />
-            )}
-          </>
-        ) : (
-          <span className="font-heading text-base font-bold uppercase tracking-wide text-foreground">
-            {item.name}
-          </span>
-        )}
-      </div>
-      {item.showLabel && (
-        <span className="text-center text-[11px] font-medium uppercase tracking-[0.12em] text-muted-foreground/75 transition-colors group-hover:text-foreground dark:text-foreground/70">
+          )}
+        </>
+      ) : (
+        <span className="font-heading text-sm font-bold uppercase tracking-wide text-foreground/70">
           {item.name}
         </span>
       )}
-    </>
+    </div>
   )
 
   if (item.href) {
@@ -79,7 +77,7 @@ function ClientCell({ item }: { item: ClientItem }) {
           name: item.name,
           defaultValue: `${item.name} - open client website`,
         })}
-        className="group flex w-full flex-col items-center justify-end gap-2 rounded-md px-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-4 focus-visible:ring-offset-background"
+        className="group block w-44 flex-shrink-0 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-4"
         itemProp="funder"
         itemScope
         itemType="https://schema.org/Organization"
@@ -93,7 +91,7 @@ function ClientCell({ item }: { item: ClientItem }) {
 
   return (
     <div
-      className="group flex w-full flex-col items-center justify-end gap-2 px-3"
+      className="group block w-44 flex-shrink-0"
       itemProp="funder"
       itemScope
       itemType="https://schema.org/Organization"
@@ -104,76 +102,91 @@ function ClientCell({ item }: { item: ClientItem }) {
   )
 }
 
+function MarqueeRow({
+  items,
+  direction,
+  duration,
+  paused,
+}: {
+  items: ClientItem[]
+  direction: 'left' | 'right'
+  duration: number
+  paused: boolean
+}) {
+  const doubled = [...items, ...items]
+  return (
+    <div className="flex w-max gap-4" style={{
+      animation: `marquee-${direction} ${duration}s linear infinite`,
+      animationPlayState: paused ? 'paused' : 'running',
+    }}>
+      {doubled.map((item, i) => (
+        <ClientCell key={`${item.name}-${i}`} item={item} />
+      ))}
+    </div>
+  )
+}
+
 export function ClientLogosSection() {
   const { t } = useTranslation('landing')
   const rawItems = t('clients.items', { returnObjects: true })
-  const allItems: Array<ClientItem> = Array.isArray(rawItems)
+  const items: Array<ClientItem> = Array.isArray(rawItems)
     ? (rawItems as Array<ClientItem>)
     : []
 
-  const shuffled = useMemo(() => {
-    const arr = [...allItems]
+  const [paused, setPaused] = useState(false)
+
+  const [row1, row2] = useMemo(() => {
+    const arr = [...items]
     for (let i = arr.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1))
       ;[arr[i], arr[j]] = [arr[j], arr[i]]
     }
-    return arr
-  }, []) // shuffle once on mount
-
-  const [offset, setOffset] = useState(0)
-
-  const visible = useMemo(
-    () =>
-      Array.from(
-        { length: Math.min(VISIBLE, shuffled.length) },
-        (_, i) => shuffled[(offset + i) % shuffled.length],
-      ),
-    [shuffled, offset],
-  )
-
-  useEffect(() => {
-    if (shuffled.length <= VISIBLE) return
-    const id = window.setTimeout(
-      () => setOffset((o) => (o + 1) % shuffled.length),
-      ROTATE_MS,
-    )
-    return () => window.clearTimeout(id)
-  }, [offset, shuffled.length])
+    const mid = Math.ceil(arr.length / 2)
+    // Row 2 starts from the midpoint so the two rows look visually distinct
+    const r2 = [...arr.slice(mid), ...arr.slice(0, mid)]
+    return [arr, r2]
+  }, [])
 
   return (
     <section
       aria-labelledby="clients-heading"
-      className="relative border-y border-border/60 bg-background py-10 md:py-12"
+      className="relative overflow-hidden border-y border-border/60 bg-background py-10 md:py-12"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
       itemScope
       itemType="https://schema.org/Organization"
     >
-      <div className={cn(designSystem.spacing.page.container, 'max-w-4xl')}>
+      <style>{MARQUEE_CSS}</style>
+
+      <div className={cn(designSystem.spacing.page.container, 'max-w-6xl')}>
         <motion.h2
           id="clients-heading"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4 }}
-          className="mb-7 text-center text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground"
+          className="mb-8 text-center text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground"
         >
           {t('clients.title')}
         </motion.h2>
-        <ul className="mx-auto grid grid-cols-3 items-center gap-x-4 gap-y-5">
-          <AnimatePresence mode="popLayout">
-            {visible.map((item) => (
-              <motion.li
-                key={item.name}
-                initial={{ opacity: 0, scale: 0.92 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.92 }}
-                transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                className="flex items-center justify-center"
-              >
-                <ClientCell item={item} />
-              </motion.li>
-            ))}
-          </AnimatePresence>
-        </ul>
+      </div>
+
+      {/* Edge fade masks */}
+      <div
+        className="relative"
+        style={{
+          maskImage:
+            'linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%)',
+          WebkitMaskImage:
+            'linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%)',
+        }}
+      >
+        <div className="mb-5 overflow-hidden">
+          <MarqueeRow items={row1} direction="left" duration={28} paused={paused} />
+        </div>
+        <div className="overflow-hidden">
+          <MarqueeRow items={row2} direction="right" duration={22} paused={paused} />
+        </div>
       </div>
     </section>
   )
