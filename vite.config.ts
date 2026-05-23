@@ -10,6 +10,19 @@ import { resolve } from 'path'
 export default defineConfig({
   plugins: [
     cloudflare({ viteEnvironment: { name: 'ssr' } }),
+    // Auto-reload when locale JSON files change
+    {
+      name: 'locale-hmr',
+      configureServer(server) {
+        const localeGlob = './public/locales/**/*.json'
+        server.watcher.add(localeGlob)
+        server.watcher.on('change', (path) => {
+          if (path.includes('public/locales') && path.endsWith('.json')) {
+            server.ws.send({ type: 'full-reload' })
+          }
+        })
+      },
+    },
     // Fix XML content type for sitemaps in dev server
     {
       name: 'xml-content-type',
