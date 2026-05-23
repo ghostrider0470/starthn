@@ -12,7 +12,7 @@ type Testimonial = {
   image?: string
 }
 
-const AUTO_ADVANCE_MS = 4000
+const AUTO_ADVANCE_MS = 2500
 
 export function TestimonialsSection() {
   const { t } = useTranslation('landing')
