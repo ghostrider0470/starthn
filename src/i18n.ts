@@ -64,14 +64,15 @@ export async function loadTranslationsForSSR(locale: string): Promise<void> {
             i18n.addResourceBundle(locale, ns, await res.json(), true, true)
           }
         } else {
-          // Dev: dynamically import the glob module to avoid bundling
-          // 137 locale chunks into the production server build
-          const { localeModules } = await import('./i18n-dev-locales')
-          const key = `/public/locales/${locale}/${ns}.json`
-          const loader = localeModules[key]
-          if (loader) {
-            const mod = (await loader()) as { default?: Record<string, unknown> }
-            i18n.addResourceBundle(locale, ns, mod.default ?? mod, true, true)
+          // Dev: fetch from Vite's static server — always reads fresh from disk,
+          // bypassing the import.meta.glob module cache in the miniflare worker.
+          try {
+            const res = await fetch(`http://localhost:3000/locales/${locale}/${ns}.json`)
+            if (res.ok) {
+              i18n.addResourceBundle(locale, ns, await res.json(), true, true)
+            }
+          } catch {
+            // namespace may not exist for this locale
           }
         }
       } catch (e) {
