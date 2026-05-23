@@ -15,10 +15,10 @@ type ClientItem = {
 const MARQUEE_CSS = `
   @keyframes marquee-left {
     from { transform: translateX(0); }
-    to   { transform: translateX(-50%); }
+    to   { transform: translateX(-33.333%); }
   }
   @keyframes marquee-right {
-    from { transform: translateX(-50%); }
+    from { transform: translateX(-33.333%); }
     to   { transform: translateX(0); }
   }
 `
@@ -113,13 +113,13 @@ function MarqueeRow({
   duration: number
   paused: boolean
 }) {
-  const doubled = [...items, ...items]
+  const tripled = [...items, ...items, ...items]
   return (
     <div className="flex w-max gap-4" style={{
       animation: `marquee-${direction} ${duration}s linear infinite`,
       animationPlayState: paused ? 'paused' : 'running',
     }}>
-      {doubled.map((item, i) => (
+      {tripled.map((item, i) => (
         <ClientCell key={`${item.name}-${i}`} item={item} />
       ))}
     </div>
@@ -142,9 +142,8 @@ export function ClientLogosSection() {
       ;[arr[i], arr[j]] = [arr[j], arr[i]]
     }
     const mid = Math.ceil(arr.length / 2)
-    // Row 2 starts from the midpoint so the two rows look visually distinct
-    const r2 = [...arr.slice(mid), ...arr.slice(0, mid)]
-    return [arr, r2]
+    // Split into two halves — each row shows different clients simultaneously
+    return [arr.slice(0, mid), arr.slice(mid)]
   }, [])
 
   return (
