@@ -28,7 +28,7 @@ const SLIDE_IMAGES = [
   '/hero/slide-2.webp',
 ] as const
 
-const AUTO_ADVANCE_MS = 7000
+const AUTO_ADVANCE_MS = 4000
 
 export function HeroSection() {
   const { t } = useTranslation('landing')
