@@ -12,9 +12,10 @@
  * Usage: npx tsx scripts/generate-sitemap.ts
  */
 
-import { mkdirSync, readFileSync, writeFileSync } from 'fs'
-import { resolve, dirname } from 'path'
-import { fileURLToPath } from 'url'
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { dirname, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
+import { SERVICE_ROUTES } from '../src/lib/service-routes'
 
 // Load .env.production so feature flags match deployed config
 const envProd = resolve(dirname(fileURLToPath(import.meta.url)), '..', '.env.production')
@@ -34,7 +35,22 @@ const ORIGIN = 'https://starthn.ba'
 const API_URL = process.env.API_URL ?? 'https://starthn.ba/api'
 
 const SEO_PRIORITY_LOCALES = [
-  'en-US', 'bs-BA',
+  'en-US',
+  'bs-BA',
+  'hr-HR',
+  'sr-Latn',
+  'de-DE',
+  'fr-FR',
+  'es-ES',
+  'it-IT',
+  'tr-TR',
+  'ar-SA',
+  'pt-BR',
+  'nl-NL',
+  'ru-RU',
+  'ja-JP',
+  'zh-Hans',
+  'ko-KR',
 ] as const
 
 const DEFAULT_LOCALE = 'en-US'
@@ -58,47 +74,38 @@ interface RouteEntry {
 const TODAY = new Date().toISOString().slice(0, 10)
 
 // Feature flags — read from .env.production (matches deployed config)
-const FEATURE_CASE_STUDIES = process.env.VITE_FEATURE_CASE_STUDIES === 'true'
 const FEATURE_TECHNICAL_RESOURCES = process.env.VITE_FEATURE_TECHNICAL_RESOURCES === 'true'
 
-const STATIC_ROUTES: RouteEntry[] = [
+const STATIC_ROUTES: Array<RouteEntry> = [
   { path: '/', lastmod: TODAY },
+  { path: '/services', lastmod: TODAY },
+  ...Object.values(SERVICE_ROUTES).map((path) => ({ path, lastmod: TODAY })),
   { path: '/about', lastmod: TODAY },
+  { path: '/mission-vision', lastmod: TODAY },
+  { path: '/certificates', lastmod: TODAY },
   { path: '/team', lastmod: TODAY },
   { path: '/careers', lastmod: TODAY },
   { path: '/contact', lastmod: TODAY },
   { path: '/blog', lastmod: TODAY },
   { path: '/privacy', lastmod: TODAY },
   { path: '/terms', lastmod: TODAY },
-  { path: '/services/enterprise-software-development', lastmod: TODAY },
-  { path: '/services/ai-ml-business-intelligence', lastmod: TODAY },
-  { path: '/services/cloud-architecture', lastmod: TODAY },
-  { path: '/services/iot-edge-computing', lastmod: TODAY },
-  { path: '/services/devops-platform-engineering', lastmod: TODAY },
-  { path: '/services/digital-transformation', lastmod: TODAY },
   // Feature-flagged routes — only include when enabled
-  ...(FEATURE_CASE_STUDIES ? [{ path: '/case-studies', lastmod: TODAY }] : []),
   ...(FEATURE_TECHNICAL_RESOURCES ? [
     { path: '/education', lastmod: TODAY },
     { path: '/support', lastmod: TODAY },
-    { path: '/innovation-lab', lastmod: TODAY },
-    { path: '/innovation-lab/ai-systems', lastmod: TODAY },
-    { path: '/innovation-lab/nlp', lastmod: TODAY },
-    { path: '/innovation-lab/genetic-algorithm', lastmod: TODAY },
   ] : []),
 ]
 
 // ── API Fetchers ────────────────────────────────────────────────────────────
 
 interface BlogPost { slug: string; publishedAt?: string }
-interface CaseStudy { slug: string }
 interface Author { slug?: string }
 
-async function fetchJson<T>(url: string, label: string): Promise<T[]> {
+async function fetchJson<T>(url: string, label: string): Promise<Array<T>> {
   try {
     const res = await fetch(url)
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
-    return (await res.json()) as T[]
+    return (await res.json())
   } catch (err) {
     console.warn(`  WARNING: Could not fetch ${label}: ${err}`)
     return []
@@ -126,7 +133,7 @@ function localeUrl(locale: string, path: string): string {
 
 function buildUrlEntry(route: RouteEntry, locale: string): string {
   const loc = escapeXml(localeUrl(locale, route.path))
-  const lines: string[] = []
+  const lines: Array<string> = []
 
   lines.push('  <url>')
   lines.push(`    <loc>${loc}</loc>`)
@@ -144,7 +151,7 @@ function buildUrlEntry(route: RouteEntry, locale: string): string {
   return lines.join('\n')
 }
 
-function buildLocaleSitemap(routes: RouteEntry[], locale: string): string {
+function buildLocaleSitemap(routes: Array<RouteEntry>, locale: string): string {
   const header = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
@@ -157,7 +164,7 @@ function buildLocaleSitemap(routes: RouteEntry[], locale: string): string {
 
 // ── Sitemap Index Generation ────────────────────────────────────────────────
 
-function buildSitemapIndex(locales: readonly string[]): string {
+function buildSitemapIndex(locales: ReadonlyArray<string>): string {
   const header = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
@@ -199,26 +206,20 @@ async function pingSearchEngines() {
 async function main() {
   // Fetch dynamic content in parallel
   console.log('Fetching dynamic content...')
-  const [blogPosts, caseStudies, authors] = await Promise.all([
+  const [blogPosts, authors] = await Promise.all([
     fetchJson<BlogPost>(`${API_URL}/blog`, 'blog posts'),
-    FEATURE_CASE_STUDIES ? fetchJson<CaseStudy>(`${API_URL}/case-studies`, 'case studies') : Promise.resolve([]),
     fetchJson<Author>(`${API_URL}/authors`, 'team members'),
   ])
 
   console.log(`  Blog posts:   ${blogPosts.length}`)
-  console.log(`  Case studies: ${caseStudies.length}`)
   console.log(`  Team members: ${authors.filter((a) => a.slug).length}`)
 
   // Build dynamic route entries
-  const dynamicRoutes: RouteEntry[] = [
+  const dynamicRoutes: Array<RouteEntry> = [
     ...blogPosts.map((post) => ({
       path: `/blog/${post.slug}`,
       lastmod: toIsoDate(post.publishedAt),
     })),
-    ...(FEATURE_CASE_STUDIES ? caseStudies.map((cs) => ({
-      path: `/case-studies/${cs.slug}`,
-      lastmod: TODAY,
-    })) : []),
     ...authors.filter((a) => a.slug).map((a) => ({
       path: `/team/${a.slug!}`,
       lastmod: TODAY,
