@@ -1004,46 +1004,52 @@ function BlogEditorPage() {
       {/* ── Edit Translation Dialog ── */}
       {editingTranslation && editingPost && (
         <Dialog open onOpenChange={(v) => !v && setEditingTranslation(null)}>
-          <DialogContent className="max-w-2xl max-h-[90vh] flex flex-col">
-            <DialogHeader>
-              <DialogTitle className="flex items-center gap-2">
-                <span>{LANGUAGE_MAP.get(editingTranslation.lang)?.name ?? editingTranslation.lang}</span>
-                <span className="text-xs font-mono text-muted-foreground">({editingTranslation.lang})</span>
+          <DialogContent className="!inset-0 !translate-x-0 !translate-y-0 !w-screen !h-screen !max-w-none !max-h-none !rounded-none p-0 flex flex-col gap-0">
+            {/* Header */}
+            <DialogHeader className="flex-shrink-0 px-6 py-4 border-b flex-row items-center gap-3 space-y-0">
+              <DialogTitle className="flex items-center gap-2.5">
+                <span className="text-xl font-semibold">{LANGUAGE_MAP.get(editingTranslation.lang)?.name ?? editingTranslation.lang}</span>
+                <span className="text-sm font-mono text-muted-foreground bg-muted px-1.5 py-0.5 rounded">({editingTranslation.lang})</span>
               </DialogTitle>
+              <span className="text-sm text-muted-foreground">— {editingPost.title}</span>
             </DialogHeader>
 
-            <div className="flex-1 overflow-y-auto space-y-4 py-2 pr-1">
-              <div className="space-y-1">
-                <label className="text-sm font-medium">{t('admin.editor.form.titlePlaceholder')}</label>
-                <input
-                  value={editingTranslation.title}
-                  onChange={(e) => setEditingTranslation((prev) => prev && ({ ...prev, title: e.target.value }))}
-                  className="w-full rounded-md border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-primary/30"
-                />
-              </div>
+            {/* Scrollable body */}
+            <div className="flex-1 overflow-y-auto">
+              <div className="max-w-4xl mx-auto px-6 py-6 space-y-5">
+                <div className="space-y-1.5">
+                  <label className="text-sm font-medium">{t('admin.editor.form.titlePlaceholder')}</label>
+                  <input
+                    value={editingTranslation.title}
+                    onChange={(e) => setEditingTranslation((prev) => prev && ({ ...prev, title: e.target.value }))}
+                    className="w-full rounded-md border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-primary/30"
+                  />
+                </div>
 
-              <div className="space-y-1">
-                <label className="text-sm font-medium">{t('admin.editor.form.excerptPlaceholder')}</label>
-                <textarea
-                  value={editingTranslation.excerpt}
-                  onChange={(e) => setEditingTranslation((prev) => prev && ({ ...prev, excerpt: e.target.value }))}
-                  rows={3}
-                  className="w-full rounded-md border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-primary/30 resize-none"
-                />
-              </div>
+                <div className="space-y-1.5">
+                  <label className="text-sm font-medium">{t('admin.editor.form.excerptPlaceholder')}</label>
+                  <textarea
+                    value={editingTranslation.excerpt}
+                    onChange={(e) => setEditingTranslation((prev) => prev && ({ ...prev, excerpt: e.target.value }))}
+                    rows={3}
+                    className="w-full rounded-md border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-primary/30 resize-none"
+                  />
+                </div>
 
-              <div className="space-y-1">
-                <label className="text-sm font-medium">{t('admin.editor.form.contentPlaceholder')}</label>
-                <RichTextEditor
-                  content={editingTranslation.content}
-                  onUpdate={(html) => setEditingTranslation((prev) => prev && ({ ...prev, content: html }))}
-                  minHeight="240px"
-                  onImageUpload={(file) => blogService.uploadImage(file)}
-                />
+                <div className="space-y-1.5">
+                  <label className="text-sm font-medium">{t('admin.editor.form.contentPlaceholder')}</label>
+                  <RichTextEditor
+                    content={editingTranslation.content}
+                    onUpdate={(html) => setEditingTranslation((prev) => prev && ({ ...prev, content: html }))}
+                    minHeight="calc(100vh - 380px)"
+                    onImageUpload={(file) => blogService.uploadImage(file)}
+                  />
+                </div>
               </div>
             </div>
 
-            <DialogFooter className="pt-4 border-t">
+            {/* Footer */}
+            <DialogFooter className="flex-shrink-0 px-6 py-4 border-t bg-background">
               <Button variant="outline" onClick={() => setEditingTranslation(null)}>
                 {t('admin.blog.delete.cancel')}
               </Button>
