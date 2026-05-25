@@ -1,5 +1,6 @@
 import bcrypt from 'bcryptjs'
 import { signJwt, loadUserPermissions, verifyJwt } from '../auth'
+import { createDb, UserRepository, RoleRepository } from '../db'
 
 interface AuthEnv {
   DB: D1Database
@@ -101,6 +102,22 @@ async function buildAuthResponse(
   })
 }
 
+async function promoteIfAdminEmail(
+  email: string,
+  userId: string,
+  adminEmails: string,
+  db: ReturnType<typeof createDb>,
+  userRepo: UserRepository,
+): Promise<string[]> {
+  const list = adminEmails.split(',').map((e) => e.trim()).filter(Boolean)
+  if (!list.includes(email)) return []
+  const roleRepo = new RoleRepository(db)
+  const adminRole = await roleRepo.getByName('MasterAdmin')
+  if (!adminRole) return []
+  await userRepo.updateRoles(userId, ['MasterAdmin'])
+  return ['MasterAdmin']
+}
+
 export async function handleAuthRoute(
   request: Request,
   env: AuthEnv,
@@ -156,27 +173,9 @@ export async function handleAuthRoute(
         )
         .run()
 
-      const adminEmails = (env.ADMIN_EMAILS ?? '')
-        .split(',')
-        .map((e) => e.trim())
-        .filter(Boolean)
-      let roleNames: string[] = []
-
-      if (adminEmails.includes(body.email)) {
-        const adminRole = await env.DB.prepare(
-          'SELECT id FROM roles WHERE name = ?',
-        )
-          .bind('MasterAdmin')
-          .first<{ id: string }>()
-        if (adminRole) {
-          await env.DB.prepare(
-            'INSERT INTO user_roles (user_id, role_id) VALUES (?, ?)',
-          )
-            .bind(userId, adminRole.id)
-            .run()
-          roleNames = ['MasterAdmin']
-        }
-      }
+      const db = createDb(env.DB)
+      const userRepo = new UserRepository(db)
+      const roleNames = await promoteIfAdminEmail(body.email, userId, env.ADMIN_EMAILS ?? '', db, userRepo)
 
       return buildAuthResponse(
         userId,
@@ -270,16 +269,12 @@ export async function handleAuthRoute(
     // Revoke token
     if (path === '/api/auth/revoke-token' && method === 'POST') {
       const authHeader = request.headers.get('Authorization')
-      if (authHeader?.startsWith('Bearer ')) {
-        const payload = await verifyJwt(authHeader.slice(7), env.JWT_SECRET)
-        if (payload?.sub) {
-          await env.DB.prepare(
-            'DELETE FROM refresh_tokens WHERE user_id = ?',
-          )
-            .bind(payload.sub)
-            .run()
-        }
-      }
+      if (!authHeader?.startsWith('Bearer ')) return json({ error: 'Missing authorization' }, 401)
+
+      const payload = await verifyJwt(authHeader.slice(7), env.JWT_SECRET)
+      if (!payload?.sub) return json({ error: 'Invalid or expired token' }, 401)
+
+      await env.DB.prepare('DELETE FROM refresh_tokens WHERE user_id = ?').bind(payload.sub).run()
       return new Response(null, { status: 204 })
     }
 
@@ -336,95 +331,58 @@ export async function handleAuthRoute(
       return json({ error: 'Unsupported provider' }, 400)
     }
 
-    // External login (OAuth id_token)
+    // External login (OAuth access_token verified via userinfo endpoint)
     if (path === '/api/auth/external-login' && method === 'POST') {
-      const body = (await request.json()) as {
-        provider?: string
-        idToken?: string
-      }
-      if (!body.provider || !body.idToken) {
-        return json({ error: 'Missing provider or idToken' }, 400)
+      const body = (await request.json()) as { provider?: string; accessToken?: string }
+      if (!body.provider || !body.accessToken) return json({ error: 'Missing provider or accessToken' }, 400)
+
+      let email: string
+      let firstName: string
+      let lastName: string
+
+      if (body.provider === 'microsoft') {
+        const resp = await fetch('https://graph.microsoft.com/v1.0/me', {
+          headers: { Authorization: `Bearer ${body.accessToken}` },
+        })
+        if (!resp.ok) return json({ error: 'Invalid Microsoft access token' }, 401)
+        const profile = await resp.json() as {
+          mail?: string; userPrincipalName?: string;
+          givenName?: string; surname?: string; displayName?: string
+        }
+        email = profile.mail || profile.userPrincipalName || ''
+        firstName = profile.givenName || (profile.displayName || '').split(' ')[0] || ''
+        lastName = profile.surname || (profile.displayName || '').split(' ').slice(1).join(' ') || ''
+      } else if (body.provider === 'google') {
+        const resp = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
+          headers: { Authorization: `Bearer ${body.accessToken}` },
+        })
+        if (!resp.ok) return json({ error: 'Invalid Google access token' }, 401)
+        const profile = await resp.json() as {
+          email?: string; given_name?: string; family_name?: string; name?: string
+        }
+        email = profile.email || ''
+        firstName = profile.given_name || (profile.name || '').split(' ')[0] || ''
+        lastName = profile.family_name || (profile.name || '').split(' ').slice(1).join(' ') || ''
+      } else {
+        return json({ error: 'Unsupported provider' }, 400)
       }
 
-      let claims: Record<string, any>
-      try {
-        const [, payloadB64] = body.idToken.split('.')
-        const pad =
-          payloadB64 +
-          '='.repeat((4 - (payloadB64.length % 4)) % 4)
-        claims = JSON.parse(
-          atob(pad.replace(/-/g, '+').replace(/_/g, '/')),
-        )
-      } catch {
-        return json({ error: 'Invalid id_token' }, 400)
-      }
+      if (!email) return json({ error: 'Could not determine email from provider' }, 400)
 
-      const email = (
-        (claims.email || claims.preferred_username || '') as string
-      ).toLowerCase()
-      if (!email) return json({ error: 'No email in id_token' }, 400)
-
-      let user = await env.DB.prepare(
-        'SELECT id, email, first_name, last_name, is_active FROM users WHERE email = ?',
-      )
-        .bind(email)
-        .first<Omit<UserRow, 'password_hash'>>()
+      const db = createDb(env.DB)
+      const userRepo = new UserRepository(db)
+      let user = await userRepo.getByEmail(email)
+      if (user && !user.isActive) return json({ error: 'Account disabled' }, 403)
 
       if (!user) {
-        const nameParts = ((claims.name as string) || '').split(' ')
-        const firstName =
-          (claims.given_name as string) || nameParts[0] || ''
-        const lastName =
-          (claims.family_name as string) ||
-          nameParts.slice(1).join(' ') ||
-          ''
-        const newId = crypto.randomUUID().replace(/-/g, '')
-        const now = new Date().toISOString()
-
-        await env.DB.prepare(
-          'INSERT INTO users (id, email, first_name, last_name, is_active, created_at, updated_at) VALUES (?, ?, ?, ?, 1, ?, ?)',
-        )
-          .bind(newId, email, firstName, lastName, now, now)
-          .run()
-
-        const adminEmails = (env.ADMIN_EMAILS ?? '')
-          .split(',')
-          .map((e) => e.trim())
-          .filter(Boolean)
-        if (adminEmails.includes(email)) {
-          const adminRole = await env.DB.prepare(
-            'SELECT id FROM roles WHERE name = ?',
-          )
-            .bind('MasterAdmin')
-            .first<{ id: string }>()
-          if (adminRole) {
-            await env.DB.prepare(
-              'INSERT INTO user_roles (user_id, role_id) VALUES (?, ?)',
-            )
-              .bind(newId, adminRole.id)
-              .run()
-          }
-        }
-
-        user = await env.DB.prepare(
-          'SELECT id, email, first_name, last_name, is_active FROM users WHERE id = ?',
-        )
-          .bind(newId)
-          .first<Omit<UserRow, 'password_hash'>>()
+        const newUser = await userRepo.create({ email, firstName, lastName })
+        await promoteIfAdminEmail(email, newUser.id, env.ADMIN_EMAILS ?? '', db, userRepo)
+        user = await userRepo.getById(newUser.id) as typeof user
       }
 
       if (!user) return json({ error: 'Failed to create user' }, 500)
 
-      const roleNames = await getUserRoles(user.id, env.DB)
-
-      return buildAuthResponse(
-        user.id,
-        user.email,
-        user.first_name ?? '',
-        user.last_name ?? '',
-        roleNames,
-        env,
-      )
+      return buildAuthResponse(user.id, user.email, user.firstName ?? '', user.lastName ?? '', user.roles, env)
     }
   } catch (err) {
     console.error('[auth-route]', err)

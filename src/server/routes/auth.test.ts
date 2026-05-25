@@ -71,3 +71,72 @@ describe('handleAuthRoute returns null for unknown routes', () => {
     expect(res).toBeNull()
   })
 })
+
+describe('POST /api/auth/external-login', () => {
+  it('returns 400 when accessToken is missing', async () => {
+    const req = new Request('https://x/api/auth/external-login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ provider: 'google' }),
+    })
+    const res = await handleAuthRoute(req, ENV as any)
+    expect(res?.status).toBe(400)
+    const body = await res?.json() as { error?: string }
+    expect(body.error).toMatch(/accessToken/i)
+  })
+
+  it('returns 400 when provider is missing', async () => {
+    const req = new Request('https://x/api/auth/external-login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ accessToken: 'some-token' }),
+    })
+    const res = await handleAuthRoute(req, ENV as any)
+    expect(res?.status).toBe(400)
+  })
+
+  it('returns 400 for unsupported provider', async () => {
+    const req = new Request('https://x/api/auth/external-login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ provider: 'twitter', accessToken: 'some-token' }),
+    })
+    const res = await handleAuthRoute(req, ENV as any)
+    expect(res?.status).toBe(400)
+    const body = await res?.json() as { error?: string }
+    expect(body.error).toMatch(/unsupported provider/i)
+  })
+})
+
+describe('POST /api/auth/revoke-token', () => {
+  it('returns 401 when no Authorization header is present', async () => {
+    const req = new Request('https://x/api/auth/revoke-token', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+    })
+    const res = await handleAuthRoute(req, ENV as any)
+    expect(res?.status).toBe(401)
+    const body = await res?.json() as { error?: string }
+    expect(body.error).toMatch(/missing authorization/i)
+  })
+
+  it('returns 401 when Authorization header does not start with Bearer', async () => {
+    const req = new Request('https://x/api/auth/revoke-token', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Authorization: 'Basic abc123' },
+    })
+    const res = await handleAuthRoute(req, ENV as any)
+    expect(res?.status).toBe(401)
+  })
+
+  it('returns 401 when JWT is invalid', async () => {
+    const req = new Request('https://x/api/auth/revoke-token', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Authorization: 'Bearer not.a.valid.jwt' },
+    })
+    const res = await handleAuthRoute(req, ENV as any)
+    expect(res?.status).toBe(401)
+    const body = await res?.json() as { error?: string }
+    expect(body.error).toMatch(/invalid or expired/i)
+  })
+})
