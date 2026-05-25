@@ -70,7 +70,13 @@ export async function handleD1Route(request: Request, env: Env): Promise<Respons
       } else {
         const repo = new BlogPostRepository(db)
         const post = await repo.getBySlug(slug, locale)
-        if (!post) return json({ error: 'Not found' }, 404)
+        if (!post) {
+          // If a locale was requested, D1 may just be missing the translation — fall through to Azure.
+          // For English (or no locale), D1 is authoritative so a null is a true 404.
+          const isEnglish = !locale || locale === 'en' || locale === 'en-US'
+          if (!isEnglish) return null
+          return json({ error: 'Not found' }, 404)
+        }
         return json(post, 200, 3600)
       }
     }

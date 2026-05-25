@@ -64,6 +64,12 @@ export class BlogPostRepository {
       .limit(1)
 
     if (rows.length === 0) return null
+
+    // If a non-English locale was requested but no translation exists in D1,
+    // return null so the caller can fall back to Azure (which has the real translation).
+    const isEnglish = loc === 'en' || loc === 'en-US'
+    if (!isEnglish && rows[0].blog_post_translations === null) return null
+
     return this.toDto(
       rows[0].blog_posts,
       rows[0].blog_post_translations,
