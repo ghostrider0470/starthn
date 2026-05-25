@@ -848,13 +848,7 @@ export const RichTextEditor: FC<RichTextEditorProps> = ({
     }
   }, [contextMenu])
 
-  const closeAfter = (fn: () => void) => {
-    fn()
-    setContextMenu(null)
-    editor?.chain().focus().run()
-  }
-
-  // ── Context menu sections ─────────────────────────────────
+  // ── Context menu data ─────────────────────────────────────
   type CMenuItem = {
     icon: React.ReactNode
     label: string
@@ -866,129 +860,106 @@ export const RichTextEditor: FC<RichTextEditorProps> = ({
   }
   type CMSection = { label?: string; items: CMenuItem[] }
 
+  const run = (fn: () => unknown) => {
+    // Restore focus+selection before running, then close
+    editor?.view.focus()
+    fn()
+    setContextMenu(null)
+  }
+
   const buildMenuSections = (): CMSection[] => {
     if (!editor) return []
+    const e = editor
 
-    if (editor.isActive('table')) {
+    if (e.isActive('table')) {
       return [
         {
-          label: 'Rows',
+          label: 'Row',
           items: [
-            { icon: <ArrowUp className="h-3.5 w-3.5" />, label: 'Add row above', action: () => editor.chain().addRowBefore().run() },
-            { icon: <ArrowDown className="h-3.5 w-3.5" />, label: 'Add row below', action: () => editor.chain().addRowAfter().run() },
-            { icon: <Trash2 className="h-3.5 w-3.5" />, label: 'Delete row', danger: true, action: () => editor.chain().deleteRow().run() },
+            { icon: <ArrowUp className="h-3 w-3" />, label: 'Insert row above', action: () => run(() => e.chain().focus().addRowBefore().run()) },
+            { icon: <ArrowDown className="h-3 w-3" />, label: 'Insert row below', action: () => run(() => e.chain().focus().addRowAfter().run()) },
+            { icon: <Trash2 className="h-3 w-3" />, label: 'Delete row', danger: true, action: () => run(() => e.chain().focus().deleteRow().run()) },
           ],
         },
         {
-          label: 'Columns',
+          label: 'Column',
           items: [
-            { icon: <ArrowLeft className="h-3.5 w-3.5" />, label: 'Add column left', action: () => editor.chain().addColumnBefore().run() },
-            { icon: <ArrowRight className="h-3.5 w-3.5" />, label: 'Add column right', action: () => editor.chain().addColumnAfter().run() },
-            { icon: <Trash2 className="h-3.5 w-3.5" />, label: 'Delete column', danger: true, action: () => editor.chain().deleteColumn().run() },
+            { icon: <ArrowLeft className="h-3 w-3" />, label: 'Insert column left', action: () => run(() => e.chain().focus().addColumnBefore().run()) },
+            { icon: <ArrowRight className="h-3 w-3" />, label: 'Insert column right', action: () => run(() => e.chain().focus().addColumnAfter().run()) },
+            { icon: <Trash2 className="h-3 w-3" />, label: 'Delete column', danger: true, action: () => run(() => e.chain().focus().deleteColumn().run()) },
           ],
         },
         {
-          label: 'Cells',
+          label: 'Cell',
           items: [
-            { icon: <Combine className="h-3.5 w-3.5" />, label: 'Merge cells', action: () => editor.chain().mergeCells().run() },
-            { icon: <Scissors className="h-3.5 w-3.5" />, label: 'Split cell', action: () => editor.chain().splitCell().run() },
-            { icon: <Check className="h-3.5 w-3.5" />, label: 'Toggle header row', active: editor.isActive('tableHeader'), action: () => editor.chain().toggleHeaderRow().run() },
-            { icon: <Check className="h-3.5 w-3.5" />, label: 'Toggle header column', action: () => editor.chain().toggleHeaderColumn().run() },
+            { icon: <Combine className="h-3 w-3" />, label: 'Merge cells', action: () => run(() => e.chain().focus().mergeCells().run()) },
+            { icon: <Scissors className="h-3 w-3" />, label: 'Split cell', action: () => run(() => e.chain().focus().splitCell().run()) },
+            { icon: <Check className="h-3 w-3" />, label: 'Toggle header row', active: e.isActive('tableHeader'), action: () => run(() => e.chain().focus().toggleHeaderRow().run()) },
+            { icon: <Check className="h-3 w-3" />, label: 'Toggle header column', action: () => run(() => e.chain().focus().toggleHeaderColumn().run()) },
           ],
         },
         {
           items: [
-            { icon: <Trash2 className="h-3.5 w-3.5" />, label: 'Delete table', danger: true, action: () => editor.chain().deleteTable().run() },
+            { icon: <Trash2 className="h-3 w-3" />, label: 'Delete table', danger: true, action: () => run(() => e.chain().focus().deleteTable().run()) },
           ],
         },
       ]
     }
 
+    const notAlign = (a: string) => !e.isActive({ textAlign: 'center' }) && !e.isActive({ textAlign: 'right' }) && !e.isActive({ textAlign: 'justify' })
+
     return [
       {
-        label: 'Style',
+        label: 'Text style',
         items: [
-          {
-            icon: <Type className="h-3.5 w-3.5" />,
-            label: 'Normal text',
-            active: !editor.isActive('heading'),
-            action: () => editor.chain().setParagraph().run(),
-          },
-          {
-            icon: <span className="font-bold text-sm leading-none">H1</span>,
-            label: 'Heading 1',
-            active: editor.isActive('heading', { level: 2 }),
-            action: () => editor.chain().toggleHeading({ level: 2 }).run(),
-          },
-          {
-            icon: <span className="font-bold text-xs leading-none">H2</span>,
-            label: 'Heading 2',
-            active: editor.isActive('heading', { level: 3 }),
-            action: () => editor.chain().toggleHeading({ level: 3 }).run(),
-          },
-          {
-            icon: <span className="font-semibold text-[10px] leading-none">H3</span>,
-            label: 'Heading 3',
-            active: editor.isActive('heading', { level: 4 }),
-            action: () => editor.chain().toggleHeading({ level: 4 }).run(),
-          },
-          {
-            icon: <Quote className="h-3.5 w-3.5" />,
-            label: 'Blockquote',
-            active: editor.isActive('blockquote'),
-            action: () => editor.chain().toggleBlockquote().run(),
-          },
+          { icon: <Type className="h-3 w-3" />, label: 'Normal text', active: !e.isActive('heading') && !e.isActive('blockquote'), action: () => run(() => e.chain().focus().setParagraph().run()) },
+          { icon: <span className="font-extrabold text-[11px]">H1</span>, label: 'Heading 1', active: e.isActive('heading', { level: 2 }), action: () => run(() => e.chain().focus().toggleHeading({ level: 2 }).run()) },
+          { icon: <span className="font-bold text-[10px]">H2</span>, label: 'Heading 2', active: e.isActive('heading', { level: 3 }), action: () => run(() => e.chain().focus().toggleHeading({ level: 3 }).run()) },
+          { icon: <span className="font-semibold text-[9px]">H3</span>, label: 'Heading 3', active: e.isActive('heading', { level: 4 }), action: () => run(() => e.chain().focus().toggleHeading({ level: 4 }).run()) },
+          { icon: <Quote className="h-3 w-3" />, label: 'Blockquote', active: e.isActive('blockquote'), action: () => run(() => e.chain().focus().toggleBlockquote().run()) },
         ],
       },
       {
         label: 'Format',
         items: [
-          { icon: <Bold className="h-3.5 w-3.5" />, label: 'Bold', shortcut: 'Ctrl+B', active: editor.isActive('bold'), action: () => editor.chain().toggleBold().run() },
-          { icon: <Italic className="h-3.5 w-3.5" />, label: 'Italic', shortcut: 'Ctrl+I', active: editor.isActive('italic'), action: () => editor.chain().toggleItalic().run() },
-          { icon: <UnderlineIcon className="h-3.5 w-3.5" />, label: 'Underline', shortcut: 'Ctrl+U', active: editor.isActive('underline'), action: () => editor.chain().toggleUnderline().run() },
-          { icon: <Strikethrough className="h-3.5 w-3.5" />, label: 'Strikethrough', active: editor.isActive('strike'), action: () => editor.chain().toggleStrike().run() },
-          { icon: <Code className="h-3.5 w-3.5" />, label: 'Inline code', active: editor.isActive('code'), action: () => editor.chain().toggleCode().run() },
-          { icon: <Eraser className="h-3.5 w-3.5" />, label: 'Clear formatting', action: () => editor.chain().unsetAllMarks().clearNodes().run() },
+          { icon: <Bold className="h-3 w-3" />, label: 'Bold', shortcut: '⌃B', active: e.isActive('bold'), action: () => run(() => e.chain().focus().toggleBold().run()) },
+          { icon: <Italic className="h-3 w-3" />, label: 'Italic', shortcut: '⌃I', active: e.isActive('italic'), action: () => run(() => e.chain().focus().toggleItalic().run()) },
+          { icon: <UnderlineIcon className="h-3 w-3" />, label: 'Underline', shortcut: '⌃U', active: e.isActive('underline'), action: () => run(() => e.chain().focus().toggleUnderline().run()) },
+          { icon: <Strikethrough className="h-3 w-3" />, label: 'Strikethrough', active: e.isActive('strike'), action: () => run(() => e.chain().focus().toggleStrike().run()) },
+          { icon: <Code className="h-3 w-3" />, label: 'Inline code', active: e.isActive('code'), action: () => run(() => e.chain().focus().toggleCode().run()) },
+          { icon: <Eraser className="h-3 w-3" />, label: 'Clear formatting', action: () => run(() => e.chain().focus().unsetAllMarks().clearNodes().run()) },
         ],
       },
       {
-        label: 'Alignment',
+        label: 'Align',
         items: [
-          { icon: <AlignLeft className="h-3.5 w-3.5" />, label: 'Align left', active: editor.isActive({ textAlign: 'left' }) || !editor.isActive({ textAlign: 'center' }) && !editor.isActive({ textAlign: 'right' }) && !editor.isActive({ textAlign: 'justify' }), action: () => editor.chain().setTextAlign('left').run() },
-          { icon: <AlignCenter className="h-3.5 w-3.5" />, label: 'Align center', active: editor.isActive({ textAlign: 'center' }), action: () => editor.chain().setTextAlign('center').run() },
-          { icon: <AlignRight className="h-3.5 w-3.5" />, label: 'Align right', active: editor.isActive({ textAlign: 'right' }), action: () => editor.chain().setTextAlign('right').run() },
-          { icon: <AlignJustify className="h-3.5 w-3.5" />, label: 'Justify', active: editor.isActive({ textAlign: 'justify' }), action: () => editor.chain().setTextAlign('justify').run() },
+          { icon: <AlignLeft className="h-3 w-3" />, label: 'Left', active: notAlign('') || e.isActive({ textAlign: 'left' }), action: () => run(() => e.chain().focus().setTextAlign('left').run()) },
+          { icon: <AlignCenter className="h-3 w-3" />, label: 'Center', active: e.isActive({ textAlign: 'center' }), action: () => run(() => e.chain().focus().setTextAlign('center').run()) },
+          { icon: <AlignRight className="h-3 w-3" />, label: 'Right', active: e.isActive({ textAlign: 'right' }), action: () => run(() => e.chain().focus().setTextAlign('right').run()) },
+          { icon: <AlignJustify className="h-3 w-3" />, label: 'Justify', active: e.isActive({ textAlign: 'justify' }), action: () => run(() => e.chain().focus().setTextAlign('justify').run()) },
         ],
       },
       {
         label: 'Lists',
         items: [
-          { icon: <List className="h-3.5 w-3.5" />, label: 'Bullet list', active: editor.isActive('bulletList'), action: () => editor.chain().toggleBulletList().run() },
-          { icon: <ListOrdered className="h-3.5 w-3.5" />, label: 'Numbered list', active: editor.isActive('orderedList'), action: () => editor.chain().toggleOrderedList().run() },
+          { icon: <List className="h-3 w-3" />, label: 'Bullet list', active: e.isActive('bulletList'), action: () => run(() => e.chain().focus().toggleBulletList().run()) },
+          { icon: <ListOrdered className="h-3 w-3" />, label: 'Numbered list', active: e.isActive('orderedList'), action: () => run(() => e.chain().focus().toggleOrderedList().run()) },
         ],
       },
       {
         label: 'Insert',
         items: [
-          { icon: <Table2Icon className="h-3.5 w-3.5" />, label: 'Table (3 × 3)', action: () => editor.chain().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run() },
-          ...(onImageUpload ? [{ icon: <ImageIcon className="h-3.5 w-3.5" />, label: 'Image', action: () => { setContextMenu(null); handleImageUploadContext() } } as CMenuItem] : []),
-          {
-            icon: <LinkIcon className="h-3.5 w-3.5" />,
-            label: 'Link…',
-            active: editor.isActive('link'),
-            action: () => {
-              const url = window.prompt('Enter URL:')
-              if (url) editor.chain().extendMarkRange('link').setLink({ href: url }).run()
-            },
-          },
-          { icon: <SeparatorHorizontal className="h-3.5 w-3.5" />, label: 'Horizontal rule', action: () => editor.chain().setHorizontalRule().run() },
+          { icon: <Table2Icon className="h-3 w-3" />, label: 'Table', action: () => run(() => e.chain().focus().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run()) },
+          ...(onImageUpload ? [{ icon: <ImageIcon className="h-3 w-3" />, label: 'Image', action: () => { setContextMenu(null); handleImageUploadContext() } } as CMenuItem] : []),
+          { icon: <LinkIcon className="h-3 w-3" />, label: 'Link…', active: e.isActive('link'), action: () => { const u = window.prompt('URL:'); if (u) run(() => e.chain().focus().extendMarkRange('link').setLink({ href: u }).run()); else setContextMenu(null) } },
+          { icon: <SeparatorHorizontal className="h-3 w-3" />, label: 'Divider', action: () => run(() => e.chain().focus().setHorizontalRule().run()) },
         ],
       },
       {
         label: 'History',
         items: [
-          { icon: <Undo className="h-3.5 w-3.5" />, label: 'Undo', shortcut: 'Ctrl+Z', disabled: !editor.can().undo(), action: () => editor.chain().undo().run() },
-          { icon: <Redo className="h-3.5 w-3.5" />, label: 'Redo', shortcut: 'Ctrl+Y', disabled: !editor.can().redo(), action: () => editor.chain().redo().run() },
+          { icon: <Undo className="h-3 w-3" />, label: 'Undo', shortcut: '⌃Z', disabled: !e.can().undo(), action: () => run(() => e.chain().focus().undo().run()) },
+          { icon: <Redo className="h-3 w-3" />, label: 'Redo', shortcut: '⌃Y', disabled: !e.can().redo(), action: () => run(() => e.chain().focus().redo().run()) },
         ],
       },
     ]
@@ -1050,58 +1021,56 @@ export const RichTextEditor: FC<RichTextEditorProps> = ({
       {contextMenu && editor && (() => {
         const vw = typeof window !== 'undefined' ? window.innerWidth : 800
         const vh = typeof window !== 'undefined' ? window.innerHeight : 600
-        const menuW = 240
-        const menuH = editor.isActive('table') ? 280 : 460
+        const menuW = 220
+        const menuH = editor.isActive('table') ? 260 : 440
         const x = contextMenu.x + 4 + menuW > vw ? Math.max(4, contextMenu.x - menuW) : contextMenu.x + 4
         const y = contextMenu.y + 4 + menuH > vh ? Math.max(4, contextMenu.y - menuH) : contextMenu.y + 4
         const sections = buildMenuSections()
 
         return (
           <div
-            className="fixed z-[200] bg-popover border border-border rounded-xl shadow-2xl py-1.5 overflow-hidden"
-            style={{ left: x, top: y, width: menuW, maxHeight: '70vh', overflowY: 'auto' }}
+            className="fixed z-[200] bg-popover border border-border rounded-lg shadow-xl py-1 select-none"
+            style={{ left: x, top: y, width: menuW, maxHeight: '75vh', overflowY: 'auto' }}
             onMouseDown={(e) => e.stopPropagation()}
           >
             {sections.map((section, si) => (
               <div key={si}>
-                {si > 0 && <div className="my-1 h-px bg-border mx-2" />}
+                {si > 0 && <div className="my-0.5 h-px bg-border/60 mx-1" />}
                 {section.label && (
-                  <div className="px-2.5 pt-1.5 pb-0.5 text-[10px] font-semibold uppercase tracking-widest text-muted-foreground/60 select-none">
+                  <div className="px-3 pt-1.5 pb-0.5 text-[10px] font-medium uppercase tracking-wider text-muted-foreground/50 select-none">
                     {section.label}
                   </div>
                 )}
-                <div className="px-1">
-                  {section.items.map((item, ii) => (
-                    <button
-                      key={ii}
-                      type="button"
-                      disabled={item.disabled}
-                      className={cn(
-                        'w-full flex items-center gap-2 px-2 py-1.5 text-sm rounded-md transition-colors text-left',
-                        'disabled:opacity-35 disabled:pointer-events-none',
-                        item.danger
-                          ? 'text-destructive hover:bg-destructive/10'
-                          : item.active
-                            ? 'text-primary bg-primary/5 hover:bg-primary/10 font-medium'
-                            : 'text-foreground hover:bg-accent',
-                      )}
-                      onClick={() => closeAfter(item.action)}
-                    >
-                      <span className="w-4 h-4 flex items-center justify-center shrink-0">
-                        {item.icon}
+                {section.items.map((item, ii) => (
+                  <button
+                    key={ii}
+                    type="button"
+                    disabled={item.disabled}
+                    className={cn(
+                      'w-full flex items-center gap-2 px-2.5 py-[5px] text-[13px] rounded transition-colors text-left mx-0.5',
+                      'disabled:opacity-30 disabled:pointer-events-none',
+                      item.danger
+                        ? 'text-destructive hover:bg-destructive/10'
+                        : item.active
+                          ? 'text-primary hover:bg-primary/10'
+                          : 'text-foreground hover:bg-accent',
+                    )}
+                    onClick={item.action}
+                  >
+                    <span className="w-3.5 h-3.5 flex items-center justify-center shrink-0 opacity-70">
+                      {item.icon}
+                    </span>
+                    <span className="flex-1 truncate">{item.label}</span>
+                    {item.active && !item.shortcut && (
+                      <Check className="h-3 w-3 shrink-0" />
+                    )}
+                    {item.shortcut && (
+                      <span className="text-[10px] font-mono text-muted-foreground/70 shrink-0">
+                        {item.shortcut}
                       </span>
-                      <span className="flex-1 truncate">{item.label}</span>
-                      {item.active && !item.shortcut && (
-                        <Check className="h-3.5 w-3.5 shrink-0 opacity-70" />
-                      )}
-                      {item.shortcut && (
-                        <span className="text-[10px] font-mono text-muted-foreground shrink-0">
-                          {item.shortcut}
-                        </span>
-                      )}
-                    </button>
-                  ))}
-                </div>
+                    )}
+                  </button>
+                ))}
               </div>
             ))}
           </div>
