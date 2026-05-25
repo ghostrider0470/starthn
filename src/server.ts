@@ -60,6 +60,17 @@ app.use(
   }),
 )
 
+// ─── Maintenance mode ───────────────────────────────────────
+app.use('/api/*', async (c, next) => {
+  if (c.env?.MAINTENANCE_MODE === 'true') {
+    const method = c.req.method
+    if (method !== 'GET' && method !== 'HEAD' && method !== 'OPTIONS') {
+      return c.json({ error: 'Maintenance in progress. Write endpoints are temporarily unavailable.' }, 503)
+    }
+  }
+  await next()
+})
+
 // ─── Image proxy ────────────────────────────────────────────
 app.get('/img/*', (c) => handleImageRequest(c))
 

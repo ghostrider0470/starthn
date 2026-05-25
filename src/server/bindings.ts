@@ -30,4 +30,6 @@ export type Bindings = {
   MICROSOFT_CLIENT_SECRET: string
   GOOGLE_CLIENT_ID: string
   GOOGLE_CLIENT_SECRET: string
+  /** "true" = return 503 for all write endpoints during cutover window */
+  MAINTENANCE_MODE: string
 }
