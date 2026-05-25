@@ -30,6 +30,8 @@ interface ExternalProfile {
   lastName: string
 }
 
+const DEFAULT_MICROSOFT_TENANT_ID = 'aa722524-5f12-410b-b06c-d5a8d54b1ddf'
+
 function json(data: unknown, status = 200) {
   return new Response(JSON.stringify(data), {
     status,
@@ -98,6 +100,24 @@ function profileFromIdToken(idToken: string): ExternalProfile | null {
   if (!payload) return null
   const claims = decodeBase64UrlJson<Record<string, unknown>>(payload)
   return claims ? profileFromClaims(claims) : null
+}
+
+async function profileFromAccessToken(
+  provider: OAuthProviderKey,
+  accessToken: string,
+): Promise<ExternalProfile | null> {
+  const userInfoUrl =
+    provider === 'microsoft'
+      ? 'https://graph.microsoft.com/oidc/userinfo'
+      : 'https://www.googleapis.com/oauth2/v3/userinfo'
+
+  const resp = await fetch(userInfoUrl, {
+    headers: { Authorization: `Bearer ${accessToken}` },
+  })
+  if (!resp.ok) return null
+
+  const claims = (await resp.json()) as Record<string, unknown>
+  return profileFromClaims(claims)
 }
 
 async function getUserRoles(userId: string, db: D1Database): Promise<string[]> {
@@ -322,7 +342,7 @@ export async function handleAuthRoute(
 
     // Revoke token
     if (path === '/api/auth/revoke-token' && method === 'POST') {
-      const authHeader = request.headers.get('Authorization')
+      const authHeader = request.headers.get('X-Authorization') || request.headers.get('Authorization')
       if (!authHeader?.startsWith('Bearer ')) return json({ error: 'Missing authorization' }, 401)
 
       const payload = await verifyJwt(authHeader.slice(7), env.JWT_SECRET)
@@ -344,19 +364,26 @@ export async function handleAuthRoute(
         return json({ error: 'Missing provider, code, or redirectUri' }, 400)
       }
 
-      const provider = body.provider.toLowerCase()
+      const provider = normalizeProvider(body.provider)
+      if (!provider) return json({ error: 'Unsupported provider' }, 400)
 
       if (provider === 'microsoft') {
+        if (!env.MICROSOFT_CLIENT_ID || !env.MICROSOFT_CLIENT_SECRET) {
+          return json({ error: 'Microsoft OAuth is not configured' }, 500)
+        }
+
+        const tenantId = env.MICROSOFT_TENANT_ID?.trim() || DEFAULT_MICROSOFT_TENANT_ID
         const params = new URLSearchParams({
-          client_id: env.MICROSOFT_CLIENT_ID ?? '',
-          client_secret: env.MICROSOFT_CLIENT_SECRET ?? '',
+          client_id: env.MICROSOFT_CLIENT_ID,
+          client_secret: env.MICROSOFT_CLIENT_SECRET,
           code: body.code,
           redirect_uri: body.redirectUri,
           grant_type: 'authorization_code',
+          scope: 'openid profile email',
         })
         if (body.codeVerifier) params.set('code_verifier', body.codeVerifier)
         const resp = await fetch(
-          'https://login.microsoftonline.com/common/oauth2/v2.0/token',
+          `https://login.microsoftonline.com/${tenantId}/oauth2/v2.0/token`,
           {
             method: 'POST',
             body: params,
@@ -370,9 +397,13 @@ export async function handleAuthRoute(
       }
 
       if (provider === 'google') {
+        if (!env.GOOGLE_CLIENT_ID || !env.GOOGLE_CLIENT_SECRET) {
+          return json({ error: 'Google OAuth is not configured' }, 500)
+        }
+
         const params = new URLSearchParams({
-          client_id: env.GOOGLE_CLIENT_ID ?? '',
-          client_secret: env.GOOGLE_CLIENT_SECRET ?? '',
+          client_id: env.GOOGLE_CLIENT_ID,
+          client_secret: env.GOOGLE_CLIENT_SECRET,
           code: body.code,
           redirect_uri: body.redirectUri,
           grant_type: 'authorization_code',
