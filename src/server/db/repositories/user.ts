@@ -161,6 +161,7 @@ export class UserRepository {
     profession?: string
     expertise?: string[]
     slug?: string
+    avatarUrl?: string | null
     socialLinks?: { linkedIn?: string; twitter?: string; gitHub?: string; website?: string }
   }): Promise<UserDto | null> {
     const found = await this.db.select({ id: users.id }).from(users).where(eq(users.id, userId)).limit(1)
@@ -173,6 +174,7 @@ export class UserRepository {
     if (data.profession !== undefined) updates.profession = data.profession
     if (data.expertise !== undefined) updates.expertise = JSON.stringify(data.expertise)
     if (data.slug !== undefined) updates.slug = data.slug
+    if (data.avatarUrl !== undefined) updates.avatarUrl = data.avatarUrl
     if (data.socialLinks) {
       const s = data.socialLinks
       if (s.linkedIn !== undefined) updates.socialLinkedin = s.linkedIn
