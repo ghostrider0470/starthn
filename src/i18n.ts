@@ -52,7 +52,7 @@ export async function loadTranslationsForSSR(locale: string): Promise<void> {
   }
 
   const { getAssets } = await import('./server/assets-context')
-  const assets = getAssets()
+  const assets = import.meta.env.DEV ? null : getAssets()
 
   await Promise.all(
     I18N_NAMESPACES.map(async (ns) => {
@@ -64,15 +64,14 @@ export async function loadTranslationsForSSR(locale: string): Promise<void> {
             i18n.addResourceBundle(locale, ns, await res.json(), true, true)
           }
         } else {
-          // Dev: fetch from Vite's static server — always reads fresh from disk,
-          // bypassing the import.meta.glob module cache in the miniflare worker.
-          try {
-            const res = await fetch(`http://localhost:3000/locales/${locale}/${ns}.json`)
-            if (res.ok) {
-              i18n.addResourceBundle(locale, ns, await res.json(), true, true)
-            }
-          } catch {
-            // namespace may not exist for this locale
+          // Dev: import.meta.glob — works inside Workerd where fetch to localhost is unreliable.
+          // Dynamically imported so the 137 locale chunks are never bundled into the prod build.
+          const { localeModules } = await import('./i18n-dev-locales')
+          const key = `/public/locales/${locale}/${ns}.json`
+          const loader = localeModules[key]
+          if (loader) {
+            const mod = (await loader()) as { default?: Record<string, unknown> }
+            i18n.addResourceBundle(locale, ns, mod.default ?? mod, true, true)
           }
         }
       } catch (e) {

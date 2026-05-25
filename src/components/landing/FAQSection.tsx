@@ -9,6 +9,23 @@ import {
 import { designSystem } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
 
+function BoldText({ text }: { text: string }) {
+  const parts = text.split(/(\*\*.*?\*\*)/)
+  return (
+    <>
+      {parts.map((part, i) =>
+        part.startsWith('**') && part.endsWith('**') ? (
+          <strong key={i} className="font-semibold text-foreground">
+            {part.slice(2, -2)}
+          </strong>
+        ) : (
+          part
+        ),
+      )}
+    </>
+  )
+}
+
 const faqKeys = [
   'scope',
   'stack',
@@ -75,7 +92,7 @@ export function FAQSection() {
                   {t(`faq.items.${key}.question`)}
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground leading-relaxed">
-                  {t(`faq.items.${key}.answer`)}
+                  <BoldText text={t(`faq.items.${key}.answer`)} />
                 </AccordionContent>
               </AccordionItem>
             ))}

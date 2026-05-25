@@ -52,7 +52,7 @@ declare global {
   }
 }
 
-const TURNSTILE_SITE_KEY = '0x4AAAAAACZzTuT3G2MhmZ8O'
+const TURNSTILE_SITE_KEY = '0x4AAAAAADU9_4ZjC1jF2VSK'
 
 const CONTACT_SECTION_IDS = [
   'overview',

@@ -102,6 +102,7 @@ export function StatsSection() {
         <div className="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
           {STAT_KEYS.map((key, i) => {
             const stat = items[key]
+            if (!stat) return null
             return (
               <motion.div
                 key={key}
