@@ -22,10 +22,10 @@ describe('handleProfileRoute', () => {
     expect(res?.status).toBe(401)
   })
 
-  it('returns null for routes it does not handle', async () => {
+  it('returns 401 for unauthenticated POST /api/user/avatar (no longer proxied)', async () => {
     const req = new Request('https://x/api/user/avatar', { method: 'POST' })
     const res = await handleProfileRoute(req, makeEnv() as any)
-    expect(res).toBeNull()
+    expect(res?.status).toBe(401)
   })
 
   it('returns null for /api/user/page/translate (proxy route)', async () => {

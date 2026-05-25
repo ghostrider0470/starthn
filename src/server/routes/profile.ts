@@ -7,6 +7,7 @@ import { requireAuth } from '../auth'
 interface ProfileEnv {
   DB: D1Database
   JWT_SECRET: string
+  IMG_CACHE?: R2Bucket
 }
 
 function json(data: unknown, status = 200) {
@@ -18,8 +19,6 @@ function json(data: unknown, status = 200) {
 
 // These routes are delegated to Azure — return null to proxy
 const AZURE_PROXY_PATHS = new Set([
-  '/api/user/avatar',
-  '/api/user/page-image',
   '/api/user/page/translate',
 ])
 
@@ -35,7 +34,6 @@ export async function handleProfileRoute(request: Request, env: ProfileEnv): Pro
 
   // Proxy to Azure for compute routes
   if (AZURE_PROXY_PATHS.has(path)) return null
-  if (path.startsWith('/api/user/avatar')) return null
 
   // Require authentication
   const authResult = await requireAuth(request, env.JWT_SECRET, env.DB)
@@ -211,6 +209,27 @@ export async function handleProfileRoute(request: Request, env: ProfileEnv): Pro
         ).bind(userId, locale).run()
         return new Response(null, { status: 204 })
       }
+    }
+
+    // ─── Delete avatar ─────────────────────────────────
+    if (path === '/api/user/avatar' && method === 'DELETE') {
+      const user = await userRepo.getById(userId)
+      if (user?.avatarUrl) {
+        const r2Prefix = user.avatarUrl.startsWith('/img/')
+          ? user.avatarUrl.slice(5)
+          : user.avatarUrl
+        const listed = await (env as any).IMG_CACHE?.list({ prefix: r2Prefix })
+        await Promise.all(
+          (listed?.objects ?? []).map((obj: { key: string }) =>
+            (env as any).IMG_CACHE?.delete(obj.key)
+          )
+        )
+        await env.DB.prepare('DELETE FROM processed_images WHERE path = ?')
+          .bind(r2Prefix)
+          .run()
+        await userRepo.updateProfile(userId, { avatarUrl: null })
+      }
+      return new Response(null, { status: 204 })
     }
 
   } catch (err) {

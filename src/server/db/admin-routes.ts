@@ -176,11 +176,6 @@ export async function handleAdminRoute(
       return json(await repo.getMissingTranslations())
     }
 
-    // Blog image upload — needs R2 or Azure blob, proxy to Azure
-    if (path === '/api/manage/blog/upload-image' && method === 'POST') {
-      return null
-    }
-
     // ─── Categories ────────────────────────────────────────
     if (path === '/api/manage/categories') {
       const repo = new CategoryRepository(db)
