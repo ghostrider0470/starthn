@@ -16,6 +16,10 @@ const proseStyles = cn(
   '[&_hr]:border-border [&_hr]:my-6',
   '[&_strong]:font-semibold',
   '[&_img]:rounded-lg [&_img]:max-w-full [&_img]:h-auto [&_img]:my-6',
+  '[&_table]:w-full [&_table]:border-collapse [&_table]:my-6 [&_table]:text-sm',
+  '[&_td]:border [&_td]:border-border [&_td]:px-3 [&_td]:py-2 [&_td]:align-top',
+  '[&_th]:border [&_th]:border-border [&_th]:px-3 [&_th]:py-2 [&_th]:font-semibold [&_th]:bg-primary/10 [&_th]:text-foreground',
+  '[&_tr:nth-child(even)_td]:bg-muted/30',
 )
 
 interface BlogProseContentProps {

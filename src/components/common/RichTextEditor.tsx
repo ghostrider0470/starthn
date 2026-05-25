@@ -1,4 +1,4 @@
-import { FC, useEffect, useCallback, useRef } from 'react'
+import { FC, useEffect, useCallback, useRef, useState } from 'react'
 import { useEditor, EditorContent } from '@tiptap/react'
 import StarterKit from '@tiptap/starter-kit'
 import TiptapLink from '@tiptap/extension-link'
@@ -9,6 +9,7 @@ import ListItem from '@tiptap/extension-list-item'
 import Blockquote from '@tiptap/extension-blockquote'
 import Heading from '@tiptap/extension-heading'
 import Image from '@tiptap/extension-image'
+import { Table, TableRow, TableCell, TableHeader } from '@tiptap/extension-table'
 import { Extension, mergeAttributes } from '@tiptap/core'
 import { ReactNodeViewRenderer } from '@tiptap/react'
 import { ImageNodeView } from './ImageNodeView'
@@ -22,6 +23,11 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select'
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from '@/components/ui/popover'
 import {
   Bold,
   Italic,
@@ -42,6 +48,7 @@ import {
   Outdent,
   SeparatorHorizontal,
   ImageIcon,
+  Table2 as Table2Icon,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
@@ -210,6 +217,9 @@ const FONT_SIZES = [
 ]
 
 const EditorToolbar: FC<EditorToolbarProps> = ({ editor, onImageUpload }) => {
+  const [tablePickerOpen, setTablePickerOpen] = useState(false)
+  const [hoverCell, setHoverCell] = useState<[number, number] | null>(null)
+
   if (!editor) return null
 
   const handleImageUpload = () => {
@@ -412,6 +422,114 @@ const EditorToolbar: FC<EditorToolbarProps> = ({ editor, onImageUpload }) => {
             <ImageIcon className="h-4 w-4" />
           </button>
         )}
+
+        {/* Table */}
+        <Popover open={tablePickerOpen} onOpenChange={setTablePickerOpen}>
+          <PopoverTrigger asChild>
+            <button
+              type="button"
+              className={cn(
+                'h-8 w-8 flex items-center justify-center hover:bg-accent text-foreground transition-colors rounded-md p-0 shrink-0',
+                editor.isActive('table') && 'bg-primary/20 text-primary',
+              )}
+              title="Table"
+            >
+              <Table2Icon className="h-4 w-4" />
+            </button>
+          </PopoverTrigger>
+          <PopoverContent className="p-3 w-auto" align="start" side="bottom">
+            {!editor.isActive('table') ? (
+              <div>
+                <p className="text-xs font-medium text-muted-foreground mb-2">Insert Table</p>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(8, 1fr)', gap: '3px' }}>
+                  {Array.from({ length: 6 }, (_, row) =>
+                    Array.from({ length: 8 }, (_, col) => (
+                      <div
+                        key={`${row}-${col}`}
+                        className={cn(
+                          'w-5 h-5 border rounded-sm cursor-pointer transition-colors',
+                          hoverCell && row <= hoverCell[0] && col <= hoverCell[1]
+                            ? 'bg-primary/40 border-primary/60'
+                            : 'border-border/60 bg-background hover:bg-muted',
+                        )}
+                        onMouseEnter={() => setHoverCell([row, col])}
+                        onMouseLeave={() => setHoverCell(null)}
+                        onClick={() => {
+                          editor
+                            .chain()
+                            .focus()
+                            .insertTable({ rows: row + 2, cols: col + 1, withHeaderRow: true })
+                            .run()
+                          setTablePickerOpen(false)
+                          setHoverCell(null)
+                        }}
+                      />
+                    )),
+                  )}
+                </div>
+                <p className="text-xs text-muted-foreground mt-2 text-center h-4">
+                  {hoverCell ? `${hoverCell[1] + 1} × ${hoverCell[0] + 2} table` : ''}
+                </p>
+              </div>
+            ) : (
+              <div className="flex flex-col gap-0.5 min-w-[160px]">
+                <p className="text-xs font-medium text-muted-foreground mb-1 px-1">Rows</p>
+                <button
+                  type="button"
+                  className="text-sm text-left px-2 py-1.5 rounded hover:bg-accent transition-colors"
+                  onClick={() => { editor.chain().focus().addRowBefore().run(); setTablePickerOpen(false) }}
+                >
+                  Add row above
+                </button>
+                <button
+                  type="button"
+                  className="text-sm text-left px-2 py-1.5 rounded hover:bg-accent transition-colors"
+                  onClick={() => { editor.chain().focus().addRowAfter().run(); setTablePickerOpen(false) }}
+                >
+                  Add row below
+                </button>
+                <button
+                  type="button"
+                  className="text-sm text-left px-2 py-1.5 rounded hover:bg-destructive/10 text-destructive transition-colors"
+                  onClick={() => { editor.chain().focus().deleteRow().run(); setTablePickerOpen(false) }}
+                >
+                  Delete row
+                </button>
+                <div className="h-px bg-border my-1" />
+                <p className="text-xs font-medium text-muted-foreground mb-1 px-1">Columns</p>
+                <button
+                  type="button"
+                  className="text-sm text-left px-2 py-1.5 rounded hover:bg-accent transition-colors"
+                  onClick={() => { editor.chain().focus().addColumnBefore().run(); setTablePickerOpen(false) }}
+                >
+                  Add column left
+                </button>
+                <button
+                  type="button"
+                  className="text-sm text-left px-2 py-1.5 rounded hover:bg-accent transition-colors"
+                  onClick={() => { editor.chain().focus().addColumnAfter().run(); setTablePickerOpen(false) }}
+                >
+                  Add column right
+                </button>
+                <button
+                  type="button"
+                  className="text-sm text-left px-2 py-1.5 rounded hover:bg-destructive/10 text-destructive transition-colors"
+                  onClick={() => { editor.chain().focus().deleteColumn().run(); setTablePickerOpen(false) }}
+                >
+                  Delete column
+                </button>
+                <div className="h-px bg-border my-1" />
+                <button
+                  type="button"
+                  className="text-sm text-left px-2 py-1.5 rounded hover:bg-destructive/10 text-destructive transition-colors"
+                  onClick={() => { editor.chain().focus().deleteTable().run(); setTablePickerOpen(false) }}
+                >
+                  Delete table
+                </button>
+              </div>
+            )}
+          </PopoverContent>
+        </Popover>
       </div>
 
       <div className={dividerClass} />
@@ -595,6 +713,10 @@ export const RichTextEditor: FC<RichTextEditorProps> = ({
       FontSize,
       TextAlign.configure({ types: ['heading', 'paragraph'] }),
       IndentExtension,
+      Table.configure({ resizable: false }),
+      TableRow,
+      TableHeader,
+      TableCell,
       Image.extend({
         addAttributes() {
           return {
@@ -711,6 +833,10 @@ export const RichTextEditor: FC<RichTextEditorProps> = ({
             '[&_.ProseMirror_blockquote]:border-l-4 [&_.ProseMirror_blockquote]:border-primary [&_.ProseMirror_blockquote]:pl-4 [&_.ProseMirror_blockquote]:italic [&_.ProseMirror_blockquote]:text-muted-foreground',
             '[&_.ProseMirror_a]:text-primary [&_.ProseMirror_a]:underline',
             '[&_.ProseMirror_hr]:border-border [&_.ProseMirror_hr]:my-4',
+            '[&_.ProseMirror_table]:w-full [&_.ProseMirror_table]:border-collapse [&_.ProseMirror_table]:my-4',
+            '[&_.ProseMirror_table_td]:border [&_.ProseMirror_table_td]:border-border [&_.ProseMirror_table_td]:p-2 [&_.ProseMirror_table_td]:align-top [&_.ProseMirror_table_td]:min-w-[3em] [&_.ProseMirror_table_td]:text-sm',
+            '[&_.ProseMirror_table_th]:border [&_.ProseMirror_table_th]:border-border [&_.ProseMirror_table_th]:p-2 [&_.ProseMirror_table_th]:font-semibold [&_.ProseMirror_table_th]:bg-muted/60 [&_.ProseMirror_table_th]:text-foreground [&_.ProseMirror_table_th]:text-sm',
+            '[&_.ProseMirror_.selectedCell]:bg-primary/10 [&_.ProseMirror_.selectedCell]:outline [&_.ProseMirror_.selectedCell]:outline-1 [&_.ProseMirror_.selectedCell]:outline-primary/40',
             `[&_.ProseMirror]:min-h-[calc(${minHeight}-2rem)]`,
           )}
           style={{ minHeight }}
