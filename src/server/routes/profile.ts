@@ -214,17 +214,22 @@ export async function handleProfileRoute(request: Request, env: ProfileEnv): Pro
     // ─── Delete avatar ─────────────────────────────────
     if (path === '/api/user/avatar' && method === 'DELETE') {
       const user = await userRepo.getById(userId)
-      if (user?.avatarUrl?.startsWith('/img/')) {
-        const r2Prefix = user.avatarUrl.slice(5)
-        const listed = await env.IMG_CACHE?.list({ prefix: r2Prefix })
-        await Promise.all(
-          (listed?.objects ?? []).map((obj: { key: string }) =>
-            env.IMG_CACHE?.delete(obj.key)
+      if (user?.avatarUrl) {
+        // Normalize: strip /img/ prefix if present (legacy or new paths without prefix are both valid)
+        const r2Prefix = user.avatarUrl.startsWith('/img/')
+          ? user.avatarUrl.slice(5)
+          : user.avatarUrl
+        if (r2Prefix.startsWith('avatars/')) {
+          const listed = await env.IMG_CACHE?.list({ prefix: r2Prefix })
+          await Promise.all(
+            (listed?.objects ?? []).map((obj: { key: string }) =>
+              env.IMG_CACHE?.delete(obj.key)
+            )
           )
-        )
-        await env.DB.prepare('DELETE FROM processed_images WHERE path = ?')
-          .bind(r2Prefix)
-          .run()
+          await env.DB.prepare('DELETE FROM processed_images WHERE path = ?')
+            .bind(r2Prefix)
+            .run()
+        }
       }
       await userRepo.updateProfile(userId, { avatarUrl: null })
       return new Response(null, { status: 204 })

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { img } from '@/lib/image'
 import { Link, useLocation } from '@tanstack/react-router'
 import {
   ArrowLeft,
@@ -219,7 +220,7 @@ function SidebarFooterSection({ locale, onNavigate }: SidebarFooterProps) {
       <div className="flex items-center gap-2.5 rounded-md border bg-muted/40 px-2.5 py-2">
         {user?.avatarUrl ? (
           <img
-            src={user.avatarUrl}
+            src={img(user.avatarUrl, { width: 56, format: 'auto' })}
             alt={fullName}
             className="size-7 shrink-0 rounded-full object-cover"
             width={28}
