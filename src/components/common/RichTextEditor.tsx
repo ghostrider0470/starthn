@@ -37,6 +37,7 @@ import {
   Link as LinkIcon,
   Quote,
   Undo,
+  Redo,
   Minus,
   Plus,
   Eraser,
@@ -49,6 +50,17 @@ import {
   SeparatorHorizontal,
   ImageIcon,
   Table2 as Table2Icon,
+  Strikethrough,
+  Code,
+  Check,
+  Type,
+  Trash2,
+  ArrowUp,
+  ArrowDown,
+  ArrowLeft,
+  ArrowRight,
+  Scissors,
+  Combine,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
@@ -842,10 +854,145 @@ export const RichTextEditor: FC<RichTextEditorProps> = ({
     editor?.chain().focus().run()
   }
 
-  const menuItemClass = 'w-full text-left px-3 py-1.5 text-sm hover:bg-accent transition-colors rounded-sm cursor-pointer flex items-center gap-2'
-  const menuDestructClass = 'w-full text-left px-3 py-1.5 text-sm hover:bg-destructive/10 text-destructive transition-colors rounded-sm cursor-pointer'
-  const menuLabelClass = 'px-3 py-1 text-xs font-semibold text-muted-foreground uppercase tracking-wide select-none'
-  const menuSepClass = 'my-1 h-px bg-border'
+  // ── Context menu sections ─────────────────────────────────
+  type CMenuItem = {
+    icon: React.ReactNode
+    label: string
+    shortcut?: string
+    active?: boolean
+    disabled?: boolean
+    danger?: boolean
+    action: () => void
+  }
+  type CMSection = { label?: string; items: CMenuItem[] }
+
+  const buildMenuSections = (): CMSection[] => {
+    if (!editor) return []
+
+    if (editor.isActive('table')) {
+      return [
+        {
+          label: 'Rows',
+          items: [
+            { icon: <ArrowUp className="h-3.5 w-3.5" />, label: 'Add row above', action: () => editor.chain().addRowBefore().run() },
+            { icon: <ArrowDown className="h-3.5 w-3.5" />, label: 'Add row below', action: () => editor.chain().addRowAfter().run() },
+            { icon: <Trash2 className="h-3.5 w-3.5" />, label: 'Delete row', danger: true, action: () => editor.chain().deleteRow().run() },
+          ],
+        },
+        {
+          label: 'Columns',
+          items: [
+            { icon: <ArrowLeft className="h-3.5 w-3.5" />, label: 'Add column left', action: () => editor.chain().addColumnBefore().run() },
+            { icon: <ArrowRight className="h-3.5 w-3.5" />, label: 'Add column right', action: () => editor.chain().addColumnAfter().run() },
+            { icon: <Trash2 className="h-3.5 w-3.5" />, label: 'Delete column', danger: true, action: () => editor.chain().deleteColumn().run() },
+          ],
+        },
+        {
+          label: 'Cells',
+          items: [
+            { icon: <Combine className="h-3.5 w-3.5" />, label: 'Merge cells', action: () => editor.chain().mergeCells().run() },
+            { icon: <Scissors className="h-3.5 w-3.5" />, label: 'Split cell', action: () => editor.chain().splitCell().run() },
+            { icon: <Check className="h-3.5 w-3.5" />, label: 'Toggle header row', active: editor.isActive('tableHeader'), action: () => editor.chain().toggleHeaderRow().run() },
+            { icon: <Check className="h-3.5 w-3.5" />, label: 'Toggle header column', action: () => editor.chain().toggleHeaderColumn().run() },
+          ],
+        },
+        {
+          items: [
+            { icon: <Trash2 className="h-3.5 w-3.5" />, label: 'Delete table', danger: true, action: () => editor.chain().deleteTable().run() },
+          ],
+        },
+      ]
+    }
+
+    return [
+      {
+        label: 'Style',
+        items: [
+          {
+            icon: <Type className="h-3.5 w-3.5" />,
+            label: 'Normal text',
+            active: !editor.isActive('heading'),
+            action: () => editor.chain().setParagraph().run(),
+          },
+          {
+            icon: <span className="font-bold text-sm leading-none">H1</span>,
+            label: 'Heading 1',
+            active: editor.isActive('heading', { level: 2 }),
+            action: () => editor.chain().toggleHeading({ level: 2 }).run(),
+          },
+          {
+            icon: <span className="font-bold text-xs leading-none">H2</span>,
+            label: 'Heading 2',
+            active: editor.isActive('heading', { level: 3 }),
+            action: () => editor.chain().toggleHeading({ level: 3 }).run(),
+          },
+          {
+            icon: <span className="font-semibold text-[10px] leading-none">H3</span>,
+            label: 'Heading 3',
+            active: editor.isActive('heading', { level: 4 }),
+            action: () => editor.chain().toggleHeading({ level: 4 }).run(),
+          },
+          {
+            icon: <Quote className="h-3.5 w-3.5" />,
+            label: 'Blockquote',
+            active: editor.isActive('blockquote'),
+            action: () => editor.chain().toggleBlockquote().run(),
+          },
+        ],
+      },
+      {
+        label: 'Format',
+        items: [
+          { icon: <Bold className="h-3.5 w-3.5" />, label: 'Bold', shortcut: 'Ctrl+B', active: editor.isActive('bold'), action: () => editor.chain().toggleBold().run() },
+          { icon: <Italic className="h-3.5 w-3.5" />, label: 'Italic', shortcut: 'Ctrl+I', active: editor.isActive('italic'), action: () => editor.chain().toggleItalic().run() },
+          { icon: <UnderlineIcon className="h-3.5 w-3.5" />, label: 'Underline', shortcut: 'Ctrl+U', active: editor.isActive('underline'), action: () => editor.chain().toggleUnderline().run() },
+          { icon: <Strikethrough className="h-3.5 w-3.5" />, label: 'Strikethrough', active: editor.isActive('strike'), action: () => editor.chain().toggleStrike().run() },
+          { icon: <Code className="h-3.5 w-3.5" />, label: 'Inline code', active: editor.isActive('code'), action: () => editor.chain().toggleCode().run() },
+          { icon: <Eraser className="h-3.5 w-3.5" />, label: 'Clear formatting', action: () => editor.chain().unsetAllMarks().clearNodes().run() },
+        ],
+      },
+      {
+        label: 'Alignment',
+        items: [
+          { icon: <AlignLeft className="h-3.5 w-3.5" />, label: 'Align left', active: editor.isActive({ textAlign: 'left' }) || !editor.isActive({ textAlign: 'center' }) && !editor.isActive({ textAlign: 'right' }) && !editor.isActive({ textAlign: 'justify' }), action: () => editor.chain().setTextAlign('left').run() },
+          { icon: <AlignCenter className="h-3.5 w-3.5" />, label: 'Align center', active: editor.isActive({ textAlign: 'center' }), action: () => editor.chain().setTextAlign('center').run() },
+          { icon: <AlignRight className="h-3.5 w-3.5" />, label: 'Align right', active: editor.isActive({ textAlign: 'right' }), action: () => editor.chain().setTextAlign('right').run() },
+          { icon: <AlignJustify className="h-3.5 w-3.5" />, label: 'Justify', active: editor.isActive({ textAlign: 'justify' }), action: () => editor.chain().setTextAlign('justify').run() },
+        ],
+      },
+      {
+        label: 'Lists',
+        items: [
+          { icon: <List className="h-3.5 w-3.5" />, label: 'Bullet list', active: editor.isActive('bulletList'), action: () => editor.chain().toggleBulletList().run() },
+          { icon: <ListOrdered className="h-3.5 w-3.5" />, label: 'Numbered list', active: editor.isActive('orderedList'), action: () => editor.chain().toggleOrderedList().run() },
+        ],
+      },
+      {
+        label: 'Insert',
+        items: [
+          { icon: <Table2Icon className="h-3.5 w-3.5" />, label: 'Table (3 × 3)', action: () => editor.chain().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run() },
+          ...(onImageUpload ? [{ icon: <ImageIcon className="h-3.5 w-3.5" />, label: 'Image', action: () => { setContextMenu(null); handleImageUploadContext() } } as CMenuItem] : []),
+          {
+            icon: <LinkIcon className="h-3.5 w-3.5" />,
+            label: 'Link…',
+            active: editor.isActive('link'),
+            action: () => {
+              const url = window.prompt('Enter URL:')
+              if (url) editor.chain().extendMarkRange('link').setLink({ href: url }).run()
+            },
+          },
+          { icon: <SeparatorHorizontal className="h-3.5 w-3.5" />, label: 'Horizontal rule', action: () => editor.chain().setHorizontalRule().run() },
+        ],
+      },
+      {
+        label: 'History',
+        items: [
+          { icon: <Undo className="h-3.5 w-3.5" />, label: 'Undo', shortcut: 'Ctrl+Z', disabled: !editor.can().undo(), action: () => editor.chain().undo().run() },
+          { icon: <Redo className="h-3.5 w-3.5" />, label: 'Redo', shortcut: 'Ctrl+Y', disabled: !editor.can().redo(), action: () => editor.chain().redo().run() },
+        ],
+      },
+    ]
+  }
 
   return (
     <div className="space-y-2">
@@ -900,62 +1047,66 @@ export const RichTextEditor: FC<RichTextEditorProps> = ({
       )}
 
       {/* Right-click context menu */}
-      {contextMenu && editor && (
-        <div
-          className="fixed z-[200] bg-popover border border-border rounded-lg shadow-xl py-1.5 min-w-[190px]"
-          style={{
-            left: Math.min(contextMenu.x + 4, (typeof window !== 'undefined' ? window.innerWidth : 800) - 200),
-            top: Math.min(contextMenu.y + 4, (typeof window !== 'undefined' ? window.innerHeight : 600) - 320),
-          }}
-          onMouseDown={(e) => e.stopPropagation()}
-        >
-          {editor.isActive('table') ? (
-            <>
-              <div className={menuLabelClass}>Rows</div>
-              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().addRowBefore().run())}>Add row above</button>
-              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().addRowAfter().run())}>Add row below</button>
-              <button type="button" className={menuDestructClass} onClick={() => closeAfter(() => editor.chain().deleteRow().run())}>Delete row</button>
-              <div className={menuSepClass} />
-              <div className={menuLabelClass}>Columns</div>
-              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().addColumnBefore().run())}>Add column left</button>
-              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().addColumnAfter().run())}>Add column right</button>
-              <button type="button" className={menuDestructClass} onClick={() => closeAfter(() => editor.chain().deleteColumn().run())}>Delete column</button>
-              <div className={menuSepClass} />
-              <button type="button" className={menuDestructClass} onClick={() => closeAfter(() => editor.chain().deleteTable().run())}>Delete table</button>
-            </>
-          ) : (
-            <>
-              <div className={menuLabelClass}>Format</div>
-              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().toggleBold().run())}>
-                <span className="font-bold text-xs w-4">B</span> Bold
-              </button>
-              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().toggleItalic().run())}>
-                <span className="italic text-xs w-4">I</span> Italic
-              </button>
-              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().toggleUnderline().run())}>
-                <span className="underline text-xs w-4">U</span> Underline
-              </button>
-              <div className={menuSepClass} />
-              <div className={menuLabelClass}>Insert</div>
-              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run())}>
-                <Table2Icon className="h-3.5 w-3.5" /> Insert table (3×3)
-              </button>
-              {onImageUpload && (
-                <button type="button" className={menuItemClass} onClick={() => { setContextMenu(null); handleImageUploadContext() }}>
-                  <ImageIcon className="h-3.5 w-3.5" /> Insert image
-                </button>
-              )}
-              <button type="button" className={menuItemClass} onClick={() => {
-                const url = window.prompt('Enter URL:')
-                if (url) closeAfter(() => editor.chain().extendMarkRange('link').setLink({ href: url }).run())
-                else setContextMenu(null)
-              }}>
-                <LinkIcon className="h-3.5 w-3.5" /> Insert link
-              </button>
-            </>
-          )}
-        </div>
-      )}
+      {contextMenu && editor && (() => {
+        const vw = typeof window !== 'undefined' ? window.innerWidth : 800
+        const vh = typeof window !== 'undefined' ? window.innerHeight : 600
+        const menuW = 240
+        const menuH = editor.isActive('table') ? 280 : 460
+        const x = contextMenu.x + 4 + menuW > vw ? Math.max(4, contextMenu.x - menuW) : contextMenu.x + 4
+        const y = contextMenu.y + 4 + menuH > vh ? Math.max(4, contextMenu.y - menuH) : contextMenu.y + 4
+        const sections = buildMenuSections()
+
+        return (
+          <div
+            className="fixed z-[200] bg-popover border border-border rounded-xl shadow-2xl py-1.5 overflow-hidden"
+            style={{ left: x, top: y, width: menuW, maxHeight: '70vh', overflowY: 'auto' }}
+            onMouseDown={(e) => e.stopPropagation()}
+          >
+            {sections.map((section, si) => (
+              <div key={si}>
+                {si > 0 && <div className="my-1 h-px bg-border mx-2" />}
+                {section.label && (
+                  <div className="px-2.5 pt-1.5 pb-0.5 text-[10px] font-semibold uppercase tracking-widest text-muted-foreground/60 select-none">
+                    {section.label}
+                  </div>
+                )}
+                <div className="px-1">
+                  {section.items.map((item, ii) => (
+                    <button
+                      key={ii}
+                      type="button"
+                      disabled={item.disabled}
+                      className={cn(
+                        'w-full flex items-center gap-2 px-2 py-1.5 text-sm rounded-md transition-colors text-left',
+                        'disabled:opacity-35 disabled:pointer-events-none',
+                        item.danger
+                          ? 'text-destructive hover:bg-destructive/10'
+                          : item.active
+                            ? 'text-primary bg-primary/5 hover:bg-primary/10 font-medium'
+                            : 'text-foreground hover:bg-accent',
+                      )}
+                      onClick={() => closeAfter(item.action)}
+                    >
+                      <span className="w-4 h-4 flex items-center justify-center shrink-0">
+                        {item.icon}
+                      </span>
+                      <span className="flex-1 truncate">{item.label}</span>
+                      {item.active && !item.shortcut && (
+                        <Check className="h-3.5 w-3.5 shrink-0 opacity-70" />
+                      )}
+                      {item.shortcut && (
+                        <span className="text-[10px] font-mono text-muted-foreground shrink-0">
+                          {item.shortcut}
+                        </span>
+                      )}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        )
+      })()}
     </div>
   )
 }
