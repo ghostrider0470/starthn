@@ -240,6 +240,31 @@ export class BlogPostRepository {
     return true
   }
 
+  /** Get list of missing translations for published posts */
+  async getMissingTranslations(): Promise<{ slug: string; title: string; locale: string }[]> {
+    const publishedPosts = await this.db
+      .select({ id: blogPosts.id, slug: blogPosts.slug, title: blogPosts.title })
+      .from(blogPosts)
+      .where(eq(blogPosts.isPublished, 1))
+
+    const translations = await this.db
+      .select({ postId: blogPostTranslations.postId, locale: blogPostTranslations.locale })
+      .from(blogPostTranslations)
+
+    const locales = [...new Set(translations.map(t => t.locale))]
+    const translated = new Set(translations.map(t => `${t.postId}:${t.locale}`))
+
+    const missing: { slug: string; title: string; locale: string }[] = []
+    for (const post of publishedPosts) {
+      for (const locale of locales) {
+        if (!translated.has(`${post.id}:${locale}`)) {
+          missing.push({ slug: post.slug, title: post.title, locale })
+        }
+      }
+    }
+    return missing
+  }
+
   private async syncTags(postId: string, tagSlugs: string[]) {
     // Remove existing
     await this.db.delete(blogPostTags).where(eq(blogPostTags.postId, postId))

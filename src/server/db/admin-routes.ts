@@ -168,6 +168,14 @@ export async function handleAdminRoute(
       return json({ message: `Seeded ${inserted} posts`, inserted })
     }
 
+    // Blog: missing translations
+    if (path === '/api/manage/blog/missing-translations' && method === 'GET') {
+      const perm = requirePermission(auth.payload, 'manage:blog')
+      if (perm) return perm
+      const repo = new BlogPostRepository(db)
+      return json(await repo.getMissingTranslations())
+    }
+
     // Blog image upload — needs R2 or Azure blob, proxy to Azure
     if (path === '/api/manage/blog/upload-image' && method === 'POST') {
       return null
