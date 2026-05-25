@@ -117,7 +117,7 @@ public class BlogPostRepository : IBlogPostRepository
     public async Task InsertAsync(BlogPostEntity post)
     {
         post.Id = post.Slug;
-        await _container.CreateItemAsync(post, new PartitionKey(post.Slug));
+        await _container.UpsertItemAsync(post, new PartitionKey(post.Slug));
     }
 
     public async Task<BlogPostEntity> ReplaceAsync(BlogPostEntity entity)

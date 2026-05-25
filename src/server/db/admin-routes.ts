@@ -100,6 +100,33 @@ export async function handleAdminRoute(
       return null
     }
 
+    // Force-sync: re-push a D1 post to Azure (POST upserts in Azure after fix)
+    const syncMatch = path.match(/^\/api\/manage\/blog\/([^/]+)\/sync$/)
+    if (syncMatch && method === 'POST') {
+      const perm = requirePermission(auth.payload, 'manage:blog')
+      if (perm) return perm
+      const repo = new BlogPostRepository(db)
+      const post = await repo.getBySlug(syncMatch[1])
+      if (!post) return err('Post not found in D1', 404)
+      const payload = {
+        slug: post.slug,
+        title: post.title,
+        excerpt: post.excerpt ?? '',
+        publishedAt: post.publishedAt ?? new Date().toISOString(),
+        readTime: String(post.readTime ?? ''),
+        category: post.category ?? '',
+        subcategory: post.subcategory,
+        tags: post.tags ?? [],
+        content: post.content ?? [],
+        isPublished: post.isPublished,
+        isFeatured: post.isFeatured,
+        coverImage: post.coverImage,
+        bannerImage: post.bannerImage,
+      }
+      syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/blog', payload, auth.token)
+      return json({ ok: true, slug: post.slug })
+    }
+
     const blogSlug = path.match(/^\/api\/manage\/blog\/([^/]+)$/)
     if (blogSlug) {
       const slug = blogSlug[1]
