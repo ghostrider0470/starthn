@@ -89,21 +89,20 @@ export async function handleAdminRoute(
       return json(post, 201)
     }
 
+    // Translations sub-routes (must be checked before exact slug match)
+    const transMatch = path.match(/^\/api\/manage\/blog\/([^/]+)\/translations(?:\/([^/]+))?$/)
+    if (transMatch) {
+      return handleBlogTranslations(db, method, transMatch[1], transMatch[2], request, auth, ctx, apiOrigin)
+    }
+
+    // Translate trigger — requires AI, proxy to Azure
+    if (path.match(/^\/api\/manage\/blog\/[^/]+\/translate$/) && method === 'POST') {
+      return null
+    }
+
     const blogSlug = path.match(/^\/api\/manage\/blog\/([^/]+)$/)
     if (blogSlug) {
       const slug = blogSlug[1]
-
-      // Translations sub-routes
-      const transMatch = path.match(/^\/api\/manage\/blog\/([^/]+)\/translations(?:\/([^/]+))?$/)
-      if (transMatch) {
-        return handleBlogTranslations(db, method, transMatch[1], transMatch[2], request, auth, ctx, apiOrigin)
-      }
-
-      // Translate trigger
-      if (path.match(/^\/api\/manage\/blog\/[^/]+\/translate$/) && method === 'POST') {
-        // Translation requires AI — proxy to Azure
-        return null
-      }
 
       if (method === 'PUT') {
         const perm = requirePermission(auth.payload, 'manage:blog')
