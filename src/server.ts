@@ -4,6 +4,8 @@ import { secureHeaders } from 'hono/secure-headers'
 import handler, { createServerEntry } from '@tanstack/react-start/server-entry'
 import { handleD1Route } from './server/db/api-routes'
 import { handleAdminRoute } from './server/db/admin-routes'
+import { handleAuthRoute } from './server/routes/auth'
+import { handleProfileRoute } from './server/routes/profile'
 import { setD1, clearD1 } from './server/d1-context'
 import { setAssets, clearAssets } from './server/assets-context'
 import { handleImageRequest } from './server/image-handler'
@@ -60,26 +62,35 @@ app.use(
 // ─── Image proxy ────────────────────────────────────────────
 app.get('/img/*', (c) => handleImageRequest(c))
 
-// ─── Admin routes ──────────────────────────────────────────
-// All admin traffic goes to Azure (Cosmos = source of truth).
-// D1 is populated passively by the Cosmos Change Feed — public reads only.
-app.all('/api/manage/*', (c) => proxyToAzure(c))
-app.get('/api/roles', (c) => proxyToAzure(c))
-app.get('/api/roles/*', (c) => proxyToAzure(c))
-app.get('/api/permissions', (c) => proxyToAzure(c))
+// ─── D1_PRIMARY feature-flag routing ───────────────────────
+// When D1_PRIMARY=true, route auth/profile/admin through D1 handlers.
+// Falls through to Azure if the flag is off, DB/JWT_SECRET missing, or
+// the handler returns null.
+type RouteHandler = (request: Request, env: any) => Promise<Response | null>
 
-async function handleEdgeAdmin(c: any) {
-  if (!c.env?.DB || !c.env?.JWT_SECRET) return proxyToAzure(c)
-
-  try {
-    const response = await handleAdminRoute(c.req.raw, c.env, c.executionCtx)
-    if (response) return response
-  } catch (e) {
-    console.error('[admin] Error, falling through to Azure:', e)
+async function handleD1PrimaryRoute(c: any, handler: RouteHandler) {
+  if (c.env?.D1_PRIMARY === 'true' && c.env?.DB && c.env?.JWT_SECRET) {
+    try {
+      const response = await handler(c.req.raw, c.env)
+      if (response) return response
+    } catch (e) {
+      console.error('[d1-primary] Error, falling through to Azure:', e)
+    }
   }
-
   return proxyToAzure(c)
 }
+
+// ─── Auth routes ────────────────────────────────────────────
+app.all('/api/auth/*', (c) => handleD1PrimaryRoute(c, handleAuthRoute))
+
+// ─── User/profile routes ────────────────────────────────────
+app.all('/api/user/*', (c) => handleD1PrimaryRoute(c, handleProfileRoute))
+
+// ─── Admin routes ──────────────────────────────────────────
+app.all('/api/manage/*', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx)))
+app.get('/api/roles', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx)))
+app.get('/api/roles/*', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx)))
+app.get('/api/permissions', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx)))
 
 // ─── Public reads (D1 at edge) ─────────────────────────────
 app.get('/api/blog', handleEdgeRead)
