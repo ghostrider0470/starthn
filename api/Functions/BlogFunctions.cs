@@ -284,7 +284,7 @@ public class BlogFunctions
         var resultTasks = publishedPosts.Select(async p =>
         {
             var existingTranslations = await _blogTranslationRepo.GetAllForPostAsDictAsync(p.Slug);
-            var missing = AllLanguages.Where(lang => !existingTranslations.ContainsKey(lang)).ToList();
+            var missing = SeoLanguages.Where(lang => !existingTranslations.ContainsKey(lang)).ToList();
             return new { p.Slug, missing };
         });
 
