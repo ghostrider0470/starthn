@@ -1,7 +1,7 @@
 import api from './api'
 import type { BlogPost } from '@/data/blog-posts'
 import { toTranslatorLocaleCode } from '@/lib/i18n-utils'
-import { convertToWebpVariants } from '@/lib/image-convert'
+import { uploadImage as uploadImageToR2 } from './upload.service'
 
 // Admin-only fields extending the public BlogPost type
 export interface AdminBlogPost extends BlogPost {
@@ -131,24 +131,9 @@ class BlogService {
 
   // Image upload
 
-  async uploadImage(file: File, replaceUrl?: string): Promise<{ url: string }> {
-    const formData = new FormData()
-    formData.append('original', file, file.name)
-    if (replaceUrl) formData.append('replaceUrl', replaceUrl)
-
-    try {
-      const variants = await convertToWebpVariants(file)
-      for (const v of variants) {
-        formData.append(`variant_${v.width}`, v.blob, `${file.name}.w${v.width}.webp`)
-      }
-    } catch (err) {
-      console.warn('[upload] client-side webp conversion failed, uploading original only', err)
-    }
-
-    const response = await api.post<{ url: string }>('/manage/blog/upload-image', formData, {
-      headers: { 'Content-Type': 'multipart/form-data' },
-    })
-    return response.data
+  async uploadImage(file: File): Promise<{ url: string }> {
+    const result = await uploadImageToR2(file, 'blog-images')
+    return { url: result.url }
   }
 
   // Admin endpoints
