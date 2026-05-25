@@ -6,6 +6,7 @@ import { handleD1Route } from './server/db/api-routes'
 import { handleAdminRoute } from './server/db/admin-routes'
 import { handleAuthRoute } from './server/routes/auth'
 import { handleProfileRoute } from './server/routes/profile'
+import { handleUploadRoute } from './server/routes/upload'
 import { setD1, clearD1 } from './server/d1-context'
 import { setAssets, clearAssets } from './server/assets-context'
 import { handleImageRequest } from './server/image-handler'
@@ -91,6 +92,9 @@ app.all('/api/manage/*', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdmi
 app.get('/api/roles', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx)))
 app.get('/api/roles/*', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx)))
 app.get('/api/permissions', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx)))
+
+// ─── Upload routes ─────────────────────────────────────────
+app.post('/api/upload/image', (c) => handleD1PrimaryRoute(c, handleUploadRoute))
 
 // ─── Public reads (D1 at edge) ─────────────────────────────
 app.get('/api/blog', handleEdgeRead)
