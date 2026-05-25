@@ -131,6 +131,66 @@ export class UserRepository {
     return { totalUsers: userCount, totalPosts: postCount, publishedPosts: publishedCount }
   }
 
+  async create(data: {
+    id?: string
+    email: string
+    passwordHash?: string | null
+    firstName: string
+    lastName: string
+  }): Promise<UserDto> {
+    const id = data.id ?? crypto.randomUUID().replace(/-/g, '')
+    const now = new Date().toISOString()
+    await this.db.insert(users).values({
+      id,
+      email: data.email,
+      passwordHash: data.passwordHash ?? null,
+      firstName: data.firstName,
+      lastName: data.lastName,
+      isActive: 1,
+      createdAt: now,
+      updatedAt: now,
+    })
+    return (await this.getById(id))!
+  }
+
+  async updateProfile(userId: string, data: {
+    firstName?: string
+    lastName?: string
+    phoneNumber?: string
+    bio?: string
+    profession?: string
+    expertise?: string[]
+    slug?: string
+    socialLinks?: { linkedIn?: string; twitter?: string; gitHub?: string; website?: string }
+  }): Promise<UserDto | null> {
+    const found = await this.db.select({ id: users.id }).from(users).where(eq(users.id, userId)).limit(1)
+    if (found.length === 0) return null
+    const updates: Record<string, any> = { updatedAt: new Date().toISOString() }
+    if (data.firstName !== undefined) updates.firstName = data.firstName
+    if (data.lastName !== undefined) updates.lastName = data.lastName
+    if (data.phoneNumber !== undefined) updates.phoneNumber = data.phoneNumber
+    if (data.bio !== undefined) updates.bio = data.bio
+    if (data.profession !== undefined) updates.profession = data.profession
+    if (data.expertise !== undefined) updates.expertise = JSON.stringify(data.expertise)
+    if (data.slug !== undefined) updates.slug = data.slug
+    if (data.socialLinks) {
+      const s = data.socialLinks
+      if (s.linkedIn !== undefined) updates.socialLinkedin = s.linkedIn
+      if (s.twitter !== undefined) updates.socialTwitter = s.twitter
+      if (s.gitHub !== undefined) updates.socialGithub = s.gitHub
+      if (s.website !== undefined) updates.socialWebsite = s.website
+    }
+    await this.db.update(users).set(updates).where(eq(users.id, userId))
+    return this.getById(userId)
+  }
+
+  async updatePasswordHash(userId: string, passwordHash: string): Promise<boolean> {
+    const found = await this.db.select({ id: users.id }).from(users).where(eq(users.id, userId)).limit(1)
+    if (found.length === 0) return false
+    await this.db.update(users).set({ passwordHash, updatedAt: new Date().toISOString() }).where(eq(users.id, userId))
+    return true
+  }
+
   async getAuthors(): Promise<AuthorDto[]> {
     const rows = await this.db
       .select({
