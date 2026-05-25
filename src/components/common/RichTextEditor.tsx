@@ -1,4 +1,5 @@
 import { FC, useEffect, useCallback, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { useEditor, EditorContent } from '@tiptap/react'
 import StarterKit from '@tiptap/starter-kit'
 import TiptapLink from '@tiptap/extension-link'
@@ -1017,8 +1018,8 @@ export const RichTextEditor: FC<RichTextEditorProps> = ({
         </p>
       )}
 
-      {/* Right-click context menu */}
-      {contextMenu && editor && (() => {
+      {/* Right-click context menu — portaled to body to escape any stacking context */}
+      {contextMenu && editor && typeof document !== 'undefined' && createPortal((() => {
         const vw = typeof window !== 'undefined' ? window.innerWidth : 800
         const vh = typeof window !== 'undefined' ? window.innerHeight : 600
         const menuW = 220
@@ -1075,7 +1076,7 @@ export const RichTextEditor: FC<RichTextEditorProps> = ({
             ))}
           </div>
         )
-      })()}
+      })(), document.body)}
     </div>
   )
 }
