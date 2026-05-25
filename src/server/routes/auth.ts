@@ -338,6 +338,7 @@ export async function handleAuthRoute(
         provider?: string
         code?: string
         redirectUri?: string
+        codeVerifier?: string
       }
       if (!body.provider || !body.code || !body.redirectUri) {
         return json({ error: 'Missing provider, code, or redirectUri' }, 400)
@@ -353,6 +354,7 @@ export async function handleAuthRoute(
           redirect_uri: body.redirectUri,
           grant_type: 'authorization_code',
         })
+        if (body.codeVerifier) params.set('code_verifier', body.codeVerifier)
         const resp = await fetch(
           'https://login.microsoftonline.com/common/oauth2/v2.0/token',
           {
