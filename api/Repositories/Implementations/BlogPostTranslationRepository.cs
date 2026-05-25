@@ -38,13 +38,17 @@ public class BlogPostTranslationRepository : IBlogPostTranslationRepository
         var results = new List<BlogPostTranslationEntity>();
         while (iterator.HasMoreResults)
             results.AddRange(await iterator.ReadNextAsync());
-        return results;
+        return results.Where(t => !t.IsDeleted).ToList();
     }
 
     public async Task<Dictionary<string, BlogPostTranslationEntity>> GetAllForPostAsDictAsync(string postSlug)
     {
         var list = await GetAllForPostAsync(postSlug);
-        return list.ToDictionary(t => t.Lang);
+        // Last-write-wins for any duplicate lang keys (can occur from parallel auto-translate runs)
+        var dict = new Dictionary<string, BlogPostTranslationEntity>();
+        foreach (var t in list)
+            dict[t.Lang] = t;
+        return dict;
     }
 
     public async Task UpsertAsync(BlogPostTranslationEntity translation)
