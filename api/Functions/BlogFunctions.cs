@@ -28,18 +28,11 @@ public class BlogFunctions
     private readonly IValidator<TranslateBlogPostRequest> _translateValidator;
     private readonly IValidator<UpdateTranslationRequest> _updateTranslationValidator;
 
-    /// <summary>All Azure Translator language codes (excluding English).</summary>
-    private static readonly List<string> AllLanguages =
+    /// <summary>SEO-priority Azure Translator language codes (excluding English).</summary>
+    private static readonly List<string> SeoLanguages =
     [
-        "af","am","ar","as","az","ba","be","bg","bho","bn","bo","brx","bs","ca","cs","cy","da","de",
-        "doi","dsb","dv","el","es","et","eu","fa","fi","fil","fj","fo","fr","fr-CA","ga","gl","gom",
-        "gu","ha","he","hi","hne","hr","hsb","ht","hu","hy","id","ig","ikt","is","it","iu","iu-Latn",
-        "ja","ka","kk","km","kmr","kn","ko","ks","ku","ky","lb","ln","lo","lt","lug","lv","lzh","mai",
-        "mg","mi","mk","ml","mn-Cyrl","mn-Mong","mni","mr","ms","mt","mww","my","nb","ne","nl","nso",
-        "nya","or","otq","pa","pl","prs","ps","pt","pt-PT","ro","ru","run","rw","sd","si","sk","sl",
-        "sm","sn","so","sq","sr-Cyrl","sr-Latn","st","sv","sw","ta","te","th","ti","tk","tlh-Latn",
-        "tlh-Piqd","tn","to","tr","tt","ty","ug","uk","ur","uz","vi","xh","yo","yua","yue","zh-Hans",
-        "zh-Hant","zu"
+        "bs", "hr", "sr-Latn", "de", "fr", "es", "it", "tr",
+        "ar", "pt", "nl", "ru", "ja", "zh-Hans", "ko"
     ];
 
     public BlogFunctions(
@@ -75,7 +68,7 @@ public class BlogFunctions
     /// <summary>Fire-and-forget: translate a published blog post in the background.</summary>
     private void AutoTranslateInBackground(string slug, List<string>? languages = null)
     {
-        var langs = languages ?? AllLanguages;
+        var langs = languages ?? SeoLanguages;
         _ = Task.Run(async () =>
         {
             try

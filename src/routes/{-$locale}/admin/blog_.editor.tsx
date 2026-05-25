@@ -2,7 +2,7 @@ import { createFileRoute, useNavigate } from '@tanstack/react-router'
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
-import { TRANSLATOR_CODE_MAP } from '@/lib/languages'
+import { TRANSLATOR_CODE_MAP, AZURE_TRANSLATOR_DISPLAY_NAMES } from '@/lib/languages'
 import { localizeBlogCategory } from '@/lib/blog-i18n'
 import {
   useAdminBlogPosts,
@@ -920,7 +920,8 @@ function BlogEditorPage() {
                       </p>
                       <div className="divide-y rounded-lg border">
                         {Object.entries(translations).map(([lang, translation]) => {
-                          const meta = LANGUAGE_MAP.get(lang)
+                          const meta = LANGUAGE_MAP.get(lang) ?? TRANSLATOR_CODE_MAP.get(lang)
+                          const displayName = meta?.name ?? AZURE_TRANSLATOR_DISPLAY_NAMES[lang] ?? lang
                           return (
                             <div
                               key={lang}
@@ -934,7 +935,7 @@ function BlogEditorPage() {
                                 )}
                                 <div className="min-w-0">
                                   <span className="text-sm font-medium">
-                                    {meta?.name ?? lang}
+                                    {displayName}
                                   </span>
                                   <span className="text-xs text-muted-foreground ml-2">
                                     {translation.isAutoTranslated ? t('admin.editor.translations.auto') : t('admin.editor.translations.manual')}
@@ -1008,7 +1009,11 @@ function BlogEditorPage() {
             {/* Header */}
             <DialogHeader className="flex-shrink-0 px-6 py-4 border-b flex-row items-center gap-3 space-y-0">
               <DialogTitle className="flex items-center gap-2.5">
-                <span className="text-xl font-semibold">{LANGUAGE_MAP.get(editingTranslation.lang)?.name ?? editingTranslation.lang}</span>
+                <span className="text-xl font-semibold">
+                  {(LANGUAGE_MAP.get(editingTranslation.lang) ?? TRANSLATOR_CODE_MAP.get(editingTranslation.lang))?.name
+                    ?? AZURE_TRANSLATOR_DISPLAY_NAMES[editingTranslation.lang]
+                    ?? editingTranslation.lang}
+                </span>
                 <span className="text-sm font-mono text-muted-foreground bg-muted px-1.5 py-0.5 rounded">({editingTranslation.lang})</span>
               </DialogTitle>
               <span className="text-sm text-muted-foreground">— {editingPost.title}</span>
