@@ -803,6 +803,50 @@ export const RichTextEditor: FC<RichTextEditorProps> = ({
     }
   }, [content, editor])
 
+  // ── Image upload helper for context menu ─────────────────
+  const handleImageUploadContext = () => {
+    if (!onImageUpload || !editor) return
+    const input = document.createElement('input')
+    input.type = 'file'
+    input.accept = 'image/*'
+    input.onchange = async () => {
+      const file = input.files?.[0]
+      if (!file) return
+      if (file.size > 5 * 1024 * 1024) { alert('Image must be under 5 MB'); return }
+      try {
+        const { url } = await onImageUpload(file)
+        editor.chain().focus().setImage({ src: url, alt: file.name }).run()
+      } catch { alert('Failed to upload image') }
+    }
+    input.click()
+  }
+
+  // ── Context menu ──────────────────────────────────────────
+  const [contextMenu, setContextMenu] = useState<{ x: number; y: number } | null>(null)
+
+  useEffect(() => {
+    if (!contextMenu) return
+    const close = () => setContextMenu(null)
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setContextMenu(null) }
+    document.addEventListener('mousedown', close)
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.removeEventListener('mousedown', close)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [contextMenu])
+
+  const closeAfter = (fn: () => void) => {
+    fn()
+    setContextMenu(null)
+    editor?.chain().focus().run()
+  }
+
+  const menuItemClass = 'w-full text-left px-3 py-1.5 text-sm hover:bg-accent transition-colors rounded-sm cursor-pointer flex items-center gap-2'
+  const menuDestructClass = 'w-full text-left px-3 py-1.5 text-sm hover:bg-destructive/10 text-destructive transition-colors rounded-sm cursor-pointer'
+  const menuLabelClass = 'px-3 py-1 text-xs font-semibold text-muted-foreground uppercase tracking-wide select-none'
+  const menuSepClass = 'my-1 h-px bg-border'
+
   return (
     <div className="space-y-2">
       <div
@@ -840,6 +884,10 @@ export const RichTextEditor: FC<RichTextEditorProps> = ({
             `[&_.ProseMirror]:min-h-[calc(${minHeight}-2rem)]`,
           )}
           style={{ minHeight }}
+          onContextMenu={(e) => {
+            e.preventDefault()
+            setContextMenu({ x: e.clientX, y: e.clientY })
+          }}
         >
           <EditorContent editor={editor} />
         </div>
@@ -849,6 +897,64 @@ export const RichTextEditor: FC<RichTextEditorProps> = ({
         <p className="text-sm text-destructive flex items-center gap-1.5 mt-1">
           {validationError}
         </p>
+      )}
+
+      {/* Right-click context menu */}
+      {contextMenu && editor && (
+        <div
+          className="fixed z-[200] bg-popover border border-border rounded-lg shadow-xl py-1.5 min-w-[190px]"
+          style={{
+            left: Math.min(contextMenu.x + 4, (typeof window !== 'undefined' ? window.innerWidth : 800) - 200),
+            top: Math.min(contextMenu.y + 4, (typeof window !== 'undefined' ? window.innerHeight : 600) - 320),
+          }}
+          onMouseDown={(e) => e.stopPropagation()}
+        >
+          {editor.isActive('table') ? (
+            <>
+              <div className={menuLabelClass}>Rows</div>
+              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().addRowBefore().run())}>Add row above</button>
+              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().addRowAfter().run())}>Add row below</button>
+              <button type="button" className={menuDestructClass} onClick={() => closeAfter(() => editor.chain().deleteRow().run())}>Delete row</button>
+              <div className={menuSepClass} />
+              <div className={menuLabelClass}>Columns</div>
+              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().addColumnBefore().run())}>Add column left</button>
+              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().addColumnAfter().run())}>Add column right</button>
+              <button type="button" className={menuDestructClass} onClick={() => closeAfter(() => editor.chain().deleteColumn().run())}>Delete column</button>
+              <div className={menuSepClass} />
+              <button type="button" className={menuDestructClass} onClick={() => closeAfter(() => editor.chain().deleteTable().run())}>Delete table</button>
+            </>
+          ) : (
+            <>
+              <div className={menuLabelClass}>Format</div>
+              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().toggleBold().run())}>
+                <span className="font-bold text-xs w-4">B</span> Bold
+              </button>
+              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().toggleItalic().run())}>
+                <span className="italic text-xs w-4">I</span> Italic
+              </button>
+              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().toggleUnderline().run())}>
+                <span className="underline text-xs w-4">U</span> Underline
+              </button>
+              <div className={menuSepClass} />
+              <div className={menuLabelClass}>Insert</div>
+              <button type="button" className={menuItemClass} onClick={() => closeAfter(() => editor.chain().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run())}>
+                <Table2Icon className="h-3.5 w-3.5" /> Insert table (3×3)
+              </button>
+              {onImageUpload && (
+                <button type="button" className={menuItemClass} onClick={() => { setContextMenu(null); handleImageUploadContext() }}>
+                  <ImageIcon className="h-3.5 w-3.5" /> Insert image
+                </button>
+              )}
+              <button type="button" className={menuItemClass} onClick={() => {
+                const url = window.prompt('Enter URL:')
+                if (url) closeAfter(() => editor.chain().extendMarkRange('link').setLink({ href: url }).run())
+                else setContextMenu(null)
+              }}>
+                <LinkIcon className="h-3.5 w-3.5" /> Insert link
+              </button>
+            </>
+          )}
+        </div>
       )}
     </div>
   )
