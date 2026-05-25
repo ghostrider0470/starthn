@@ -6,6 +6,7 @@ interface AuthEnv {
   DB: D1Database
   JWT_SECRET: string
   ADMIN_EMAILS?: string
+  MICROSOFT_TENANT_ID?: string
   MICROSOFT_CLIENT_ID?: string
   MICROSOFT_CLIENT_SECRET?: string
   GOOGLE_CLIENT_ID?: string
@@ -19,6 +20,14 @@ interface UserRow {
   first_name: string | null
   last_name: string | null
   is_active: number
+}
+
+type OAuthProviderKey = 'microsoft' | 'google'
+
+interface ExternalProfile {
+  email: string
+  firstName: string
+  lastName: string
 }
 
 function json(data: unknown, status = 200) {
@@ -44,6 +53,51 @@ async function sha256Hex(value: string): Promise<string> {
   return Array.from(new Uint8Array(hash))
     .map((b) => b.toString(16).padStart(2, '0'))
     .join('')
+}
+
+function normalizeProvider(provider: string | undefined): OAuthProviderKey | null {
+  const normalized = provider?.trim().toLowerCase()
+  return normalized === 'microsoft' || normalized === 'google' ? normalized : null
+}
+
+function decodeBase64UrlJson<T>(segment: string): T | null {
+  try {
+    const b64 = segment.replace(/-/g, '+').replace(/_/g, '/')
+    const padded = b64 + '='.repeat((4 - (b64.length % 4)) % 4)
+    return JSON.parse(atob(padded)) as T
+  } catch {
+    return null
+  }
+}
+
+function splitDisplayName(name: string): { firstName: string; lastName: string } {
+  const parts = name.trim().split(/\s+/)
+  return {
+    firstName: parts[0] ?? '',
+    lastName: parts.slice(1).join(' '),
+  }
+}
+
+function profileFromClaims(claims: Record<string, unknown>): ExternalProfile | null {
+  const email = String(
+    claims.email ?? claims.preferred_username ?? claims.upn ?? claims.unique_name ?? '',
+  ).trim()
+  if (!email) return null
+
+  const displayName = String(claims.name ?? claims.displayName ?? '').trim()
+  const split = splitDisplayName(displayName)
+  return {
+    email: email.toLowerCase(),
+    firstName: String(claims.given_name ?? claims.givenName ?? split.firstName).trim(),
+    lastName: String(claims.family_name ?? claims.surname ?? split.lastName).trim(),
+  }
+}
+
+function profileFromIdToken(idToken: string): ExternalProfile | null {
+  const [, payload] = idToken.split('.')
+  if (!payload) return null
+  const claims = decodeBase64UrlJson<Record<string, unknown>>(payload)
+  return claims ? profileFromClaims(claims) : null
 }
 
 async function getUserRoles(userId: string, db: D1Database): Promise<string[]> {
@@ -289,7 +343,9 @@ export async function handleAuthRoute(
         return json({ error: 'Missing provider, code, or redirectUri' }, 400)
       }
 
-      if (body.provider === 'microsoft') {
+      const provider = body.provider.toLowerCase()
+
+      if (provider === 'microsoft') {
         const params = new URLSearchParams({
           client_id: env.MICROSOFT_CLIENT_ID ?? '',
           client_secret: env.MICROSOFT_CLIENT_SECRET ?? '',
@@ -311,7 +367,7 @@ export async function handleAuthRoute(
         return json(data, resp.ok ? 200 : resp.status)
       }
 
-      if (body.provider === 'google') {
+      if (provider === 'google') {
         const params = new URLSearchParams({
           client_id: env.GOOGLE_CLIENT_ID ?? '',
           client_secret: env.GOOGLE_CLIENT_SECRET ?? '',
@@ -336,11 +392,12 @@ export async function handleAuthRoute(
       const body = (await request.json()) as { provider?: string; accessToken?: string }
       if (!body.provider || !body.accessToken) return json({ error: 'Missing provider or accessToken' }, 400)
 
+      const externalProvider = body.provider.toLowerCase()
       let email: string
       let firstName: string
       let lastName: string
 
-      if (body.provider === 'microsoft') {
+      if (externalProvider === 'microsoft') {
         const resp = await fetch('https://graph.microsoft.com/v1.0/me', {
           headers: { Authorization: `Bearer ${body.accessToken}` },
         })
@@ -352,7 +409,7 @@ export async function handleAuthRoute(
         email = profile.mail || profile.userPrincipalName || ''
         firstName = profile.givenName || (profile.displayName || '').split(' ')[0] || ''
         lastName = profile.surname || (profile.displayName || '').split(' ').slice(1).join(' ') || ''
-      } else if (body.provider === 'google') {
+      } else if (externalProvider === 'google') {
         const resp = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
           headers: { Authorization: `Bearer ${body.accessToken}` },
         })
