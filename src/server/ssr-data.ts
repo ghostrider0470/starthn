@@ -8,14 +8,6 @@ import { CategoryRepository } from './db/repositories/category'
 import { TagRepository } from './db/repositories/tag'
 import { CaseStudyRepository } from './db/repositories/case-study'
 import { UserRepository } from './db/repositories/user'
-import { toTranslatorLocaleCode } from '@/lib/i18n-utils'
-
-// D1 stores translations under Azure Translator codes (e.g. "bs", not "bs-BA").
-// Route loaders pass BCP47 URL locales, so we normalise before hitting D1.
-function toD1Locale(locale?: string): string | undefined {
-  if (!locale || locale === 'en-US' || locale === 'en') return undefined
-  return toTranslatorLocaleCode(locale)
-}
 
 /** Fetch paginated blog posts — direct D1 on server, HTTP fallback on client */
 export async function ssrBlogPosts(locale?: string, page = 1, pageSize = 9) {
@@ -24,7 +16,7 @@ export async function ssrBlogPosts(locale?: string, page = 1, pageSize = 9) {
 
   const repo = new BlogPostRepository(db)
   const [items, total] = await Promise.all([
-    repo.getPublished(toD1Locale(locale), page, pageSize),
+    repo.getPublished(locale, page, pageSize),
     repo.getCount(),
   ])
   return { items, totalCount: total, page, pageSize, totalPages: Math.ceil(total / pageSize) }
@@ -34,28 +26,28 @@ export async function ssrBlogPosts(locale?: string, page = 1, pageSize = 9) {
 export async function ssrBlogPost(slug: string, locale?: string) {
   const db = getD1()
   if (!db) return null
-  return new BlogPostRepository(db).getBySlug(slug, toD1Locale(locale))
+  return new BlogPostRepository(db).getBySlug(slug, locale)
 }
 
 /** Fetch all categories — direct D1 */
 export async function ssrCategories(locale?: string) {
   const db = getD1()
   if (!db) return null
-  return new CategoryRepository(db).getAll(toD1Locale(locale))
+  return new CategoryRepository(db).getAll(locale)
 }
 
 /** Fetch all tags — direct D1 */
 export async function ssrTags(locale?: string) {
   const db = getD1()
   if (!db) return null
-  return new TagRepository(db).getAll(toD1Locale(locale))
+  return new TagRepository(db).getAll(locale)
 }
 
 /** Fetch published case studies — direct D1 */
 export async function ssrCaseStudies(locale?: string) {
   const db = getD1()
   if (!db) return null
-  return new CaseStudyRepository(db).getPublished(toD1Locale(locale))
+  return new CaseStudyRepository(db).getPublished(locale)
 }
 
 /** Fetch authors — direct D1 */
