@@ -18,7 +18,7 @@ public class BlogPostRepository : IBlogPostRepository
     public async Task<List<BlogPostEntity>> GetPublishedAsync()
     {
         var query = _container.GetItemLinqQueryable<BlogPostEntity>()
-            .Where(p => p.IsPublished)
+            .Where(p => p.IsPublished && !p.IsDeleted)
             .OrderByDescending(p => p.PublishedAt);
         using var iterator = query.ToFeedIterator();
         var results = new List<BlogPostEntity>();
@@ -104,6 +104,7 @@ public class BlogPostRepository : IBlogPostRepository
     public async Task<List<BlogPostEntity>> GetAllAsync(string? filterAuthorId = null)
     {
         IQueryable<BlogPostEntity> query = _container.GetItemLinqQueryable<BlogPostEntity>()
+            .Where(p => !p.IsDeleted)
             .OrderByDescending(p => p.PublishedAt);
         if (filterAuthorId != null)
             query = query.Where(p => p.AuthorId == filterAuthorId);
