@@ -439,6 +439,33 @@ public partial class BlogService : IBlogService
         return true;
     }
 
+    public async Task<bool> SyncToEdgeAsync(string slug)
+    {
+        var post = await _blogRepo.GetBySlugAsync(slug);
+        if (post == null) return false;
+        await _sync.TrySyncOneAsync("blogPosts", post);
+
+        var translations = await _translationRepo.GetAllForPostAsync(slug);
+        foreach (var t in translations)
+            await _sync.TrySyncOneAsync("blogPostTranslations", t);
+
+        return true;
+    }
+
+    public async Task<int> SyncAllToEdgeAsync()
+    {
+        var posts = await _blogRepo.GetAllAsync();
+        var published = posts.Where(p => p.IsPublished && !p.IsDeleted).ToList();
+        foreach (var post in published)
+        {
+            await _sync.TrySyncOneAsync("blogPosts", post);
+            var translations = await _translationRepo.GetAllForPostAsync(post.Slug);
+            foreach (var t in translations)
+                await _sync.TrySyncOneAsync("blogPostTranslations", t);
+        }
+        return published.Count;
+    }
+
     // Helpers
 
     private static string GenerateAuthorSlug(UserEntity user)

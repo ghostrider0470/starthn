@@ -210,6 +210,15 @@ class BlogService {
   async deleteTranslation(slug: string, lang: string): Promise<void> {
     await api.delete(`/manage/blog/${slug}/translations/${lang}`)
   }
+
+  async syncToEdge(slug: string): Promise<void> {
+    await api.post(`/manage/blog/${slug}/sync`)
+  }
+
+  async syncAllToEdge(): Promise<{ synced: number }> {
+    const response = await api.post<{ synced: number }>('/manage/blog/sync-all')
+    return response.data
+  }
 }
 
 export default new BlogService()

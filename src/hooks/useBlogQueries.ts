@@ -192,3 +192,15 @@ export function useDeleteBlogTranslation() {
     },
   })
 }
+
+export function useSyncBlogPost() {
+  return useMutation({
+    mutationFn: (slug: string) => blogService.syncToEdge(slug),
+  })
+}
+
+export function useSyncAllBlogPosts() {
+  return useMutation({
+    mutationFn: () => blogService.syncAllToEdge(),
+  })
+}

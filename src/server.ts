@@ -61,16 +61,12 @@ app.use(
 app.get('/img/*', (c) => handleImageRequest(c))
 
 // ─── Admin routes ──────────────────────────────────────────
-// Reads: serve from D1 at edge (fast).
-// Writes: proxy to Azure → Cosmos (source of truth). Change Feed syncs back to D1.
-app.get('/api/manage/*', handleEdgeAdmin)
-app.get('/api/roles', handleEdgeAdmin)
-app.get('/api/roles/*', handleEdgeAdmin)
-app.get('/api/permissions', handleEdgeAdmin)
-app.post('/api/manage/*', (c) => proxyToAzure(c))
-app.put('/api/manage/*', (c) => proxyToAzure(c))
-app.patch('/api/manage/*', (c) => proxyToAzure(c))
-app.delete('/api/manage/*', (c) => proxyToAzure(c))
+// All admin traffic goes to Azure (Cosmos = source of truth).
+// D1 is populated passively by the Cosmos Change Feed — public reads only.
+app.all('/api/manage/*', (c) => proxyToAzure(c))
+app.get('/api/roles', (c) => proxyToAzure(c))
+app.get('/api/roles/*', (c) => proxyToAzure(c))
+app.get('/api/permissions', (c) => proxyToAzure(c))
 
 async function handleEdgeAdmin(c: any) {
   if (!c.env?.DB || !c.env?.JWT_SECRET) return proxyToAzure(c)

@@ -9,6 +9,7 @@ import {
   useDeleteBlogPost,
   useUpdateBlogPost,
   useSeedBlogPosts,
+  useSyncAllBlogPosts,
 } from '@/hooks/useBlogQueries'
 import { usePublicCategories } from '@/hooks/useCategoryQueries'
 import type { AdminBlogPost, CreateBlogPostDto } from '@/services/blog.service'
@@ -41,6 +42,7 @@ import {
   FileText,
   Upload,
   Loader2,
+  RefreshCw,
 } from 'lucide-react'
 
 export const Route = createFileRoute('/{-$locale}/admin/blog')({
@@ -59,6 +61,7 @@ function AdminBlogPage() {
   const deleteMutation = useDeleteBlogPost()
   const updateMutation = useUpdateBlogPost()
   const seedMutation = useSeedBlogPosts()
+  const syncAllMutation = useSyncAllBlogPosts()
 
   const [deleteDialogOpen, setDeleteDialogOpen] = useState(false)
   const [deletingSlug, setDeletingSlug] = useState<string | null>(null)
@@ -126,6 +129,17 @@ function AdminBlogPage() {
             </p>
           </div>
           <div className="flex gap-2">
+            {canManageAllBlogs && (
+              <Button
+                variant="outline"
+                onClick={() => syncAllMutation.mutate()}
+                disabled={syncAllMutation.isPending}
+                title="Force-sync all published posts to Cloudflare edge"
+              >
+                <RefreshCw className={`mr-2 h-4 w-4 ${syncAllMutation.isPending ? 'animate-spin' : ''}`} />
+                {syncAllMutation.isPending ? 'Syncing…' : 'Sync All'}
+              </Button>
+            )}
             {canManageAllBlogs && (
               <Button variant="outline" onClick={handleSeed} disabled={seedMutation.isPending}>
                 {seedMutation.isPending ? (

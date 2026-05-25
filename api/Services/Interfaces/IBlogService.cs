@@ -24,4 +24,6 @@ public interface IBlogService
     Task<BlogPostTranslationEntity?> UpdateTranslationAsync(string slug, string lang, UpdateTranslationRequest request);
     Task<Dictionary<string, BlogPostTranslationEntity>?> GetTranslationsAsync(string slug);
     Task<bool?> DeleteTranslationAsync(string slug, string lang);
+    Task<bool> SyncToEdgeAsync(string slug);
+    Task<int> SyncAllToEdgeAsync();
 }

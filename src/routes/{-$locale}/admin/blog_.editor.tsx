@@ -12,6 +12,7 @@ import {
   useTranslateBlogPost,
   useDeleteBlogTranslation,
   useUpdateBlogTranslation,
+  useSyncBlogPost,
 } from '@/hooks/useBlogQueries'
 import { useAdminCategories } from '@/hooks/useCategoryQueries'
 import blogService from '@/services/blog.service'
@@ -45,6 +46,7 @@ import {
   PenLine,
   Columns2,
   Pencil,
+  RefreshCw,
 } from 'lucide-react'
 import {
   Dialog,
@@ -158,6 +160,7 @@ function BlogEditorPage() {
   const translateMutation = useTranslateBlogPost()
   const deleteTranslationMutation = useDeleteBlogTranslation()
   const updateTranslationMutation = useUpdateBlogTranslation()
+  const syncMutation = useSyncBlogPost()
 
   // Edit translation dialog state
   const [editingTranslation, setEditingTranslation] = useState<{
@@ -412,6 +415,18 @@ function BlogEditorPage() {
                 {t('admin.blog.featured')}
               </span>
             </div>
+            {isEditing && editSlug && (
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => syncMutation.mutate(editSlug)}
+                disabled={syncMutation.isPending}
+                title="Force-sync this post to Cloudflare edge"
+              >
+                <RefreshCw className={`mr-2 h-4 w-4 ${syncMutation.isPending ? 'animate-spin' : ''}`} />
+                Sync
+              </Button>
+            )}
             <Button
               onClick={handleSave}
               disabled={isMutating || !title}

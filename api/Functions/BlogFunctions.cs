@@ -323,6 +323,26 @@ public class BlogFunctions
         return await req.CreateJsonResponseAsync(HttpStatusCode.OK, translation);
     }
 
+    [Function("AdminSyncBlogPostToEdge")]
+    public async Task<HttpResponseData> AdminSyncToEdge(
+        [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "manage/blog/{slug}/sync")] HttpRequestData req,
+        string slug)
+    {
+        await _auth.RequirePermissionAsync(req, "manage:blog");
+        var ok = await _blogService.SyncToEdgeAsync(slug);
+        if (!ok) throw new NotFoundException("Post not found.");
+        return await req.CreateJsonResponseAsync(HttpStatusCode.OK, new { ok = true, slug });
+    }
+
+    [Function("AdminSyncAllBlogPostsToEdge")]
+    public async Task<HttpResponseData> AdminSyncAllToEdge(
+        [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "manage/blog/sync-all")] HttpRequestData req)
+    {
+        await _auth.RequirePermissionAsync(req, "manage:blog");
+        var synced = await _blogService.SyncAllToEdgeAsync();
+        return await req.CreateJsonResponseAsync(HttpStatusCode.OK, new { ok = true, synced });
+    }
+
     [Function("AdminDeleteBlogPostTranslation")]
     public async Task<HttpResponseData> AdminDeleteTranslation(
         [HttpTrigger(AuthorizationLevel.Anonymous, "delete", Route = "manage/blog/{slug}/translations/{lang}")] HttpRequestData req,
