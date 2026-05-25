@@ -5,6 +5,7 @@ import {
   splitClientLogoRows,
 } from './ClientLogosSection'
 import { ContactCtaSection } from './ContactCtaSection'
+import { StatsSection } from './StatsSection'
 import type { ClientItem } from './ClientLogosSection'
 import { Footer } from '@/components/Footer'
 
@@ -32,6 +33,35 @@ const translations: Record<string, unknown> = {
   'contactCta.servicePlaceholder': 'Choose a service',
   'contactCta.submit': 'Send',
   'contactCta.success': 'Message sent',
+  'stats.overline': 'Stats',
+  'stats.title': 'Track record',
+  'stats.cta': 'Contact us',
+  'stats.items': {
+    clients: {
+      value: 30,
+      suffix: '+',
+      label: 'Clients',
+      description: 'Active clients',
+    },
+    experience: {
+      value: 15,
+      suffix: '+',
+      label: 'Years',
+      description: 'Combined experience',
+    },
+    hours: {
+      value: 1000,
+      suffix: '+',
+      label: 'Hours',
+      description: 'Annual support hours',
+    },
+    retention: {
+      value: 95,
+      suffix: '%',
+      label: 'Referral',
+      description: 'Referred clients',
+    },
+  },
   'footer.description': 'Accounting agency in Sarajevo.',
   'footer.services': 'Services',
   'footer.company': 'Company',
@@ -138,11 +168,22 @@ describe('landing Lighthouse regressions', () => {
     )
   })
 
-  it('keeps footer text contrast high on the primary background', () => {
+  it('renders final stats values before in-view animation starts', () => {
+    const { container } = render(<StatsSection />)
+
+    expect(
+      Array.from(container.querySelectorAll('.tabular-nums')).map((node) =>
+        node.textContent,
+      ),
+    ).toEqual(['30+', '15+', '1.000+', '95%'])
+  })
+
+  it('keeps footer on the restored light background', () => {
     const { container } = render(<Footer />)
     const footer = container.querySelector('footer')
 
-    expect(footer?.className).toContain('bg-primary')
+    expect(footer?.className).toContain('bg-background')
+    expect(footer?.className).not.toContain('bg-primary')
     expect(footer?.querySelector('.text-white\\/60')).toBeNull()
     expect(footer?.querySelector('.text-white\\/80')).toBeNull()
   })

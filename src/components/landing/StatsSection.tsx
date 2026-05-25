@@ -23,6 +23,12 @@ type StatItem = {
   description: string
 }
 
+function formatStatValue(value: number) {
+  return Math.round(value)
+    .toString()
+    .replace(/\B(?=(\d{3})+(?!\d))/g, '.')
+}
+
 function Counter({
   to,
   suffix,
@@ -33,15 +39,17 @@ function Counter({
   duration?: number
 }) {
   const ref = useRef<HTMLSpanElement>(null)
+  const hasAnimatedRef = useRef(false)
   const inView = useInView(ref, { once: true, margin: '-80px' })
   const count = useMotionValue(0)
-  const rounded = useTransform(count, (v) =>
-    Math.round(v).toLocaleString('bs-BA'),
-  )
-  const [display, setDisplay] = useState('0')
+  const rounded = useTransform(count, formatStatValue)
+  const [display, setDisplay] = useState(() => formatStatValue(to))
 
   useEffect(() => {
-    if (!inView) return
+    if (!inView || hasAnimatedRef.current) return
+    hasAnimatedRef.current = true
+    count.set(0)
+    setDisplay(formatStatValue(0))
     const controls = animate(count, to, { duration, ease: [0.16, 1, 0.3, 1] })
     const unsub = rounded.on('change', (v) => setDisplay(v))
     return () => {
