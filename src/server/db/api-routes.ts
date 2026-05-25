@@ -8,6 +8,7 @@ import { CategoryRepository } from './repositories/category'
 import { TagRepository } from './repositories/tag'
 import { CaseStudyRepository } from './repositories/case-study'
 import { UserRepository } from './repositories/user'
+import { toTranslatorLocaleCode } from '@/lib/i18n-utils'
 
 interface Env {
   DB: D1Database
@@ -31,7 +32,11 @@ export async function handleD1Route(request: Request, env: Env): Promise<Respons
 
   const url = new URL(request.url)
   const path = url.pathname
-  const locale = url.searchParams.get('lang') || url.searchParams.get('locale') || undefined
+  // Normalise BCP47 URL locales (e.g. "bs-BA") to Azure Translator codes ("bs") — D1 uses the latter.
+  const rawLocale = url.searchParams.get('lang') || url.searchParams.get('locale') || undefined
+  const locale = rawLocale && rawLocale !== 'en-US' && rawLocale !== 'en'
+    ? toTranslatorLocaleCode(rawLocale)
+    : rawLocale
 
   const db = createDb(env.DB)
 
