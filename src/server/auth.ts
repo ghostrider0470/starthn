@@ -1,7 +1,6 @@
 /**
- * JWT verification for Cloudflare Workers using Web Crypto API.
- * Verifies HS256 tokens issued by the Azure Functions backend.
- * Token ISSUANCE stays on Azure — Workers only VERIFY.
+ * JWT signing and verification using Web Crypto API with HS256.
+ * Also handles API key validation against D1 and role-based permissions.
  */
 
 export interface JwtPayload {
@@ -31,14 +30,13 @@ function base64UrlDecode(str: string): Uint8Array {
   return bytes
 }
 
-async function importKey(secret: string): Promise<CryptoKey> {
-  const enc = new TextEncoder()
+async function importKey(secret: string, usage: KeyUsage[]): Promise<CryptoKey> {
   return crypto.subtle.importKey(
     'raw',
-    enc.encode(secret),
+    new TextEncoder().encode(secret),
     { name: 'HMAC', hash: 'SHA-256' },
     false,
-    ['verify'],
+    usage,
   )
 }
 
@@ -53,16 +51,6 @@ function base64UrlEncode(input: Uint8Array | string): string {
   return btoa(str).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '')
 }
 
-async function importSignKey(secret: string): Promise<CryptoKey> {
-  return crypto.subtle.importKey(
-    'raw',
-    new TextEncoder().encode(secret),
-    { name: 'HMAC', hash: 'SHA-256' },
-    false,
-    ['sign'],
-  )
-}
-
 /** Sign a new HS256 JWT. expiresInSeconds defaults to 3600. */
 export async function signJwt(
   payload: Omit<JwtPayload, 'exp'> & { exp?: number },
@@ -75,7 +63,7 @@ export async function signJwt(
   }
   const header = base64UrlEncode(JSON.stringify({ alg: 'HS256', typ: 'JWT' }))
   const body = base64UrlEncode(JSON.stringify(fullPayload))
-  const key = await importSignKey(secret)
+  const key = await importKey(secret, ['sign'])
   const sig = await crypto.subtle.sign(
     'HMAC',
     key,
@@ -109,7 +97,7 @@ export async function verifyJwt(token: string, secret: string): Promise<JwtPaylo
 
   try {
     // Verify signature
-    const key = await importKey(secret)
+    const key = await importKey(secret, ['verify'])
     const data = new TextEncoder().encode(`${headerB64}.${payloadB64}`)
     const signature = base64UrlDecode(signatureB64)
 
