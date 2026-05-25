@@ -64,24 +64,32 @@ export async function handleUploadRoute(
   const now = new Date().toISOString()
   const version = Math.floor(Date.now() / 1000)
   const uploadedWidths: number[] = []
+  const writtenKeys: string[] = []
 
-  for (const width of CONTAINER_WIDTHS[container]) {
-    const file = formData.get(`w${width}`) as File | null
-    if (!file) continue
-    const r2Key = `${basePath}/w${width}-v${version}.webp`
-    await env.IMG_CACHE.put(r2Key, file, {
-      httpMetadata: { contentType: 'image/webp' },
-    })
-    uploadedWidths.push(width)
+  try {
+    for (const width of CONTAINER_WIDTHS[container]) {
+      const file = formData.get(`w${width}`) as File | null
+      if (!file) continue
+      const r2Key = `${basePath}/w${width}-v${version}.webp`
+      await env.IMG_CACHE.put(r2Key, await file.arrayBuffer(), {
+        httpMetadata: { contentType: 'image/webp' },
+      })
+      writtenKeys.push(r2Key)
+      uploadedWidths.push(width)
+    }
+
+    if (uploadedWidths.length === 0) return json({ error: 'No variants provided' }, 400)
+
+    await env.DB.prepare(
+      'INSERT INTO processed_images (path, container, format, widths, processed_at, source) VALUES (?, ?, ?, ?, ?, ?)',
+    )
+      .bind(basePath, container, 'webp', JSON.stringify(uploadedWidths), now, 'worker')
+      .run()
+  } catch (err) {
+    console.error('[upload] failed, rolling back R2 writes', err)
+    await Promise.allSettled(writtenKeys.map(key => env.IMG_CACHE.delete(key)))
+    return json({ error: 'Upload failed' }, 500)
   }
-
-  if (uploadedWidths.length === 0) return json({ error: 'No variants provided' }, 400)
-
-  await env.DB.prepare(
-    'INSERT INTO processed_images (path, container, format, widths, processed_at, source) VALUES (?, ?, ?, ?, ?, ?)',
-  )
-    .bind(basePath, container, 'webp', JSON.stringify(uploadedWidths), now, 'worker')
-    .run()
 
   return json({ path: basePath, url: `/img/${basePath}` })
 }
