@@ -12,7 +12,7 @@
     "API_ORIGIN": "https://starthn-api-prod.azurewebsites.net",
     "AZURE_BLOB_ORIGIN": "https://starthnwebprod.blob.core.windows.net",
     "D1_PRIMARY": "true",
-    "ADMIN_EMAILS": "",
+    "ADMIN_EMAILS": "hamza.abdagic@horizon-tech.io",
     "MAINTENANCE_MODE": "false"
     // JWT_SECRET is set via `npx wrangler secret put JWT_SECRET` (not here — sensitive)
   },
