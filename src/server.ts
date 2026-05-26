@@ -15,6 +15,10 @@ import { handleSync } from './server/sync-receiver'
 import { handleHealth } from './server/health'
 import type { Bindings, ImageWriteMessage } from './server/bindings'
 import { handleR2WriteQueue } from './server/r2-queue-consumer'
+import {
+  getD1PrimaryMissingBindings,
+  isD1PrimaryEnabled,
+} from './server/d1-primary-routing'
 import { getLocaleFromPath } from '@/lib/i18n-utils'
 
 const app = new Hono<{ Bindings: Bindings }>()
@@ -76,36 +80,72 @@ app.get('/img/*', (c) => handleImageRequest(c))
 
 // ─── D1_PRIMARY feature-flag routing ───────────────────────
 // When D1_PRIMARY=true, route auth/profile/admin through D1 handlers.
-// Falls through to Azure if the flag is off, DB/JWT_SECRET missing, or
-// the handler returns null.
+// Missing bindings and handler errors fail closed so local Wrangler cannot
+// silently proxy to Azure and hide a broken D1/R2 setup.
 type RouteHandler = (request: Request, env: any) => Promise<Response | null>
 
-async function handleD1PrimaryRoute(c: any, handler: RouteHandler) {
-  if (c.env?.D1_PRIMARY === 'true' && c.env?.DB && c.env?.JWT_SECRET) {
-    try {
-      const response = await handler(c.req.raw, c.env)
-      if (response) return response
-    } catch (e) {
-      console.error('[d1-primary] Error, falling through to Azure:', e)
-    }
+type D1PrimaryRouteOptions = {
+  requiredBindings?: readonly string[]
+  proxyOnNull?: boolean
+}
+
+function d1PrimaryError(message: string, status = 500, extra: Record<string, unknown> = {}) {
+  return new Response(JSON.stringify({ error: message, ...extra }), {
+    status,
+    headers: { 'Content-Type': 'application/json' },
+  })
+}
+
+async function handleD1PrimaryRoute(
+  c: any,
+  handler: RouteHandler,
+  options: D1PrimaryRouteOptions = {},
+) {
+  if (!isD1PrimaryEnabled(c.env)) return proxyToAzure(c)
+
+  const missing = getD1PrimaryMissingBindings(c.env, options.requiredBindings)
+  if (missing.length > 0) {
+    return d1PrimaryError('D1_PRIMARY is enabled but required Worker bindings are missing.', 500, {
+      missingBindings: missing,
+      hint: 'For local `npx wrangler dev`, set these in .dev.vars. Do not let this route proxy to Azure.',
+    })
   }
-  return proxyToAzure(c)
+
+  try {
+    const response = await handler(c.req.raw, c.env)
+    if (response) return response
+  } catch (e) {
+    console.error('[d1-primary] Local route failed:', e)
+    return d1PrimaryError('D1_PRIMARY route failed locally.', 500)
+  }
+
+  if (options.proxyOnNull) {
+    return proxyToAzure(c)
+  }
+
+  return d1PrimaryError('D1_PRIMARY route is not implemented locally.', 501, {
+    path: c.req.path,
+  })
 }
 
 // ─── Auth routes ────────────────────────────────────────────
 app.all('/api/auth/*', (c) => handleD1PrimaryRoute(c, handleAuthRoute))
 
 // ─── User/profile routes ────────────────────────────────────
-app.all('/api/user/*', (c) => handleD1PrimaryRoute(c, handleProfileRoute))
+app.all('/api/user/*', (c) => handleD1PrimaryRoute(c, handleProfileRoute, { proxyOnNull: true }))
 
 // ─── Admin routes ──────────────────────────────────────────
-app.all('/api/manage/*', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx)))
-app.get('/api/roles', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx)))
-app.get('/api/roles/*', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx)))
-app.get('/api/permissions', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx)))
+app.all('/api/manage/*', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx), { proxyOnNull: true }))
+app.get('/api/roles', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx), { proxyOnNull: true }))
+app.get('/api/roles/*', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx), { proxyOnNull: true }))
+app.get('/api/permissions', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx), { proxyOnNull: true }))
 
 // ─── Upload routes ─────────────────────────────────────────
-app.post('/api/upload/image', (c) => handleD1PrimaryRoute(c, handleUploadRoute))
+app.post('/api/upload/image', (c) =>
+  handleD1PrimaryRoute(c, handleUploadRoute, {
+    requiredBindings: ['DB', 'JWT_SECRET', 'IMG_CACHE'],
+  }),
+)
 
 // ─── Public reads (D1 at edge) ─────────────────────────────
 app.get('/api/blog', handleEdgeRead)
