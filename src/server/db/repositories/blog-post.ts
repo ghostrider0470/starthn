@@ -242,6 +242,8 @@ export class BlogPostRepository {
 
   /** Get list of missing translations for published posts */
   async getMissingTranslations(): Promise<{ slug: string; title: string; locale: string }[]> {
+    const SEO_LOCALES = new Set(['bs-BA', 'hr-HR', 'sr-Latn', 'de-DE', 'fr-FR', 'es-ES', 'it-IT', 'tr-TR', 'ar-SA', 'pt-BR', 'nl-NL', 'ru-RU', 'ja-JP', 'zh-Hans', 'ko-KR'])
+
     const publishedPosts = await this.db
       .select({ id: blogPosts.id, slug: blogPosts.slug, title: blogPosts.title })
       .from(blogPosts)
@@ -251,12 +253,13 @@ export class BlogPostRepository {
       .select({ postId: blogPostTranslations.postId, locale: blogPostTranslations.locale })
       .from(blogPostTranslations)
 
-    const locales = [...new Set(translations.map(t => t.locale))]
+    // Union: always track SEO locales + any extra locales already in use
+    const targetLocales = new Set([...SEO_LOCALES, ...translations.map(t => t.locale)])
     const translated = new Set(translations.map(t => `${t.postId}:${t.locale}`))
 
     const missing: { slug: string; title: string; locale: string }[] = []
     for (const post of publishedPosts) {
-      for (const locale of locales) {
+      for (const locale of targetLocales) {
         if (!translated.has(`${post.id}:${locale}`)) {
           missing.push({ slug: post.slug, title: post.title, locale })
         }
