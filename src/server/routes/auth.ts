@@ -176,20 +176,23 @@ async function buildAuthResponse(
   })
 }
 
-async function promoteIfAdminEmail(
+async function syncAdminRole(
   email: string,
   userId: string,
   adminEmails: string,
   db: ReturnType<typeof createDb>,
   userRepo: UserRepository,
-): Promise<string[]> {
-  const list = adminEmails.split(',').map((e) => e.trim()).filter(Boolean)
-  if (!list.includes(email)) return []
-  const roleRepo = new RoleRepository(db)
-  const adminRole = await roleRepo.getByName('MasterAdmin')
-  if (!adminRole) return []
-  await userRepo.updateRoles(userId, ['MasterAdmin'])
-  return ['MasterAdmin']
+): Promise<void> {
+  const list = adminEmails.split(',').map((e) => e.trim().toLowerCase()).filter(Boolean)
+  const isAdmin = list.includes(email.toLowerCase())
+  const currentUser = await userRepo.getById(userId)
+  if (!currentUser) return
+  const hasMasterAdmin = currentUser.roles.includes('MasterAdmin')
+  if (isAdmin && !hasMasterAdmin) {
+    await userRepo.updateRoles(userId, [...currentUser.roles, 'MasterAdmin'])
+  } else if (!isAdmin && hasMasterAdmin) {
+    await userRepo.updateRoles(userId, currentUser.roles.filter((r) => r !== 'MasterAdmin'))
+  }
 }
 
 export async function handleAuthRoute(
@@ -249,14 +252,15 @@ export async function handleAuthRoute(
 
       const db = createDb(env.DB)
       const userRepo = new UserRepository(db)
-      const roleNames = await promoteIfAdminEmail(body.email, userId, env.ADMIN_EMAILS ?? '', db, userRepo)
+      await syncAdminRole(body.email, userId, env.ADMIN_EMAILS ?? '', db, userRepo)
+      const createdUser = await userRepo.getById(userId)
 
       return buildAuthResponse(
         userId,
         body.email,
         body.firstName,
         body.lastName,
-        roleNames,
+        createdUser?.roles ?? [],
         env,
       )
     }
@@ -454,8 +458,11 @@ export async function handleAuthRoute(
           firstName: profile.firstName,
           lastName: profile.lastName,
         })
-        await promoteIfAdminEmail(profile.email, newUser.id, env.ADMIN_EMAILS ?? '', db, userRepo)
+        await syncAdminRole(profile.email, newUser.id, env.ADMIN_EMAILS ?? '', db, userRepo)
         user = await userRepo.getById(newUser.id) as typeof user
+      } else {
+        await syncAdminRole(profile.email, user.id, env.ADMIN_EMAILS ?? '', db, userRepo)
+        user = await userRepo.getById(user.id) as typeof user
       }
 
       if (!user) return json({ error: 'Failed to create user' }, 500)
