@@ -420,53 +420,41 @@ export async function handleAuthRoute(
       return json({ error: 'Unsupported provider' }, 400)
     }
 
-    // External login (OAuth access_token verified via userinfo endpoint)
+    // External login (OAuth profile from userinfo when access_token is present;
+    // fall back to ID token claims for compatibility with the existing Azure path).
     if (path === '/api/auth/external-login' && method === 'POST') {
-      const body = (await request.json()) as { provider?: string; accessToken?: string }
-      if (!body.provider || !body.accessToken) return json({ error: 'Missing provider or accessToken' }, 400)
+      const body = (await request.json()) as {
+        provider?: string
+        accessToken?: string
+        idToken?: string
+      }
+      if (!body.provider) return json({ error: 'Missing provider' }, 400)
 
-      const externalProvider = body.provider.toLowerCase()
-      let email: string
-      let firstName: string
-      let lastName: string
-
-      if (externalProvider === 'microsoft') {
-        const resp = await fetch('https://graph.microsoft.com/v1.0/me', {
-          headers: { Authorization: `Bearer ${body.accessToken}` },
-        })
-        if (!resp.ok) return json({ error: 'Invalid Microsoft access token' }, 401)
-        const profile = await resp.json() as {
-          mail?: string; userPrincipalName?: string;
-          givenName?: string; surname?: string; displayName?: string
-        }
-        email = profile.mail || profile.userPrincipalName || ''
-        firstName = profile.givenName || (profile.displayName || '').split(' ')[0] || ''
-        lastName = profile.surname || (profile.displayName || '').split(' ').slice(1).join(' ') || ''
-      } else if (externalProvider === 'google') {
-        const resp = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
-          headers: { Authorization: `Bearer ${body.accessToken}` },
-        })
-        if (!resp.ok) return json({ error: 'Invalid Google access token' }, 401)
-        const profile = await resp.json() as {
-          email?: string; given_name?: string; family_name?: string; name?: string
-        }
-        email = profile.email || ''
-        firstName = profile.given_name || (profile.name || '').split(' ')[0] || ''
-        lastName = profile.family_name || (profile.name || '').split(' ').slice(1).join(' ') || ''
-      } else {
-        return json({ error: 'Unsupported provider' }, 400)
+      const externalProvider = normalizeProvider(body.provider)
+      if (!externalProvider) return json({ error: 'Unsupported provider' }, 400)
+      if (!body.accessToken && !body.idToken) {
+        return json({ error: 'Missing idToken or accessToken' }, 400)
       }
 
-      if (!email) return json({ error: 'Could not determine email from provider' }, 400)
+      const profile =
+        (body.accessToken
+          ? await profileFromAccessToken(externalProvider, body.accessToken)
+          : null) || (body.idToken ? profileFromIdToken(body.idToken) : null)
+
+      if (!profile) return json({ error: 'Could not determine profile from provider' }, 401)
 
       const db = createDb(env.DB)
       const userRepo = new UserRepository(db)
-      let user = await userRepo.getByEmail(email)
+      let user = await userRepo.getByEmail(profile.email)
       if (user && !user.isActive) return json({ error: 'Account disabled' }, 403)
 
       if (!user) {
-        const newUser = await userRepo.create({ email, firstName, lastName })
-        await promoteIfAdminEmail(email, newUser.id, env.ADMIN_EMAILS ?? '', db, userRepo)
+        const newUser = await userRepo.create({
+          email: profile.email,
+          firstName: profile.firstName,
+          lastName: profile.lastName,
+        })
+        await promoteIfAdminEmail(profile.email, newUser.id, env.ADMIN_EMAILS ?? '', db, userRepo)
         user = await userRepo.getById(newUser.id) as typeof user
       }
 
