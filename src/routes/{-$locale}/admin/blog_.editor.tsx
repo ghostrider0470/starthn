@@ -69,6 +69,17 @@ import { cn } from '@/lib/utils'
 
 const SEO_NON_EN: string[] = SEO_PRIORITY_LOCALES.filter((l) => l !== 'en-US')
 
+// Translator codes already covered by SEO priority locales + English
+const SEO_TRANSLATOR_CODES = new Set([
+  'en',
+  ...SEO_NON_EN.map((code) => LANGUAGE_MAP.get(code)?.translatorCode).filter(Boolean),
+])
+
+// Extra languages: all Azure Translator codes not covered by SEO locales
+const EXTRA_LANGUAGES = Object.entries(AZURE_TRANSLATOR_DISPLAY_NAMES)
+  .filter(([code]) => !SEO_TRANSLATOR_CODES.has(code))
+  .map(([code, name]) => ({ code, name }))
+
 type EditorMode = 'edit' | 'split' | 'preview'
 
 export const Route = createFileRoute('/{-$locale}/admin/blog_/editor')({
@@ -844,14 +855,11 @@ function BlogEditorPage() {
                             className="w-full rounded-md border bg-background px-3 py-1.5 text-sm focus:outline-none focus:ring-1 focus:ring-primary/30"
                           />
                           <div className="flex flex-wrap gap-1.5 max-h-28 overflow-y-auto">
-                            {LANGUAGES.filter(
+                            {EXTRA_LANGUAGES.filter(
                               (l) =>
-                                l.code !== 'en-US' &&
-                                !SEO_NON_EN.includes(l.code) &&
-                                (langSearch === '' ||
-                                  l.name.toLowerCase().includes(langSearch.toLowerCase()) ||
-                                  l.nativeName.toLowerCase().includes(langSearch.toLowerCase()) ||
-                                  l.code.toLowerCase().includes(langSearch.toLowerCase())),
+                                langSearch === '' ||
+                                l.name.toLowerCase().includes(langSearch.toLowerCase()) ||
+                                l.code.toLowerCase().includes(langSearch.toLowerCase()),
                             )
                               .slice(0, langSearch ? 100 : 30)
                               .map((lang) => {
@@ -875,12 +883,7 @@ function BlogEditorPage() {
                                       hasTranslation && !isSelected && 'border-green-500/30 bg-green-500/5',
                                     )}
                                   >
-                                    {lang.countryCode && (
-                                      <span className="text-sm leading-none">
-                                        {countryCodeToEmoji(lang.countryCode)}
-                                      </span>
-                                    )}
-                                    {lang.code}
+                                    {lang.name}
                                     {isSelected && <Check className="h-3 w-3" />}
                                     {hasTranslation && !isSelected && (
                                       <span className="h-1.5 w-1.5 rounded-full bg-green-500" />
