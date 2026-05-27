@@ -1,8 +1,10 @@
 import { useQuery, useMutation, useQueryClient, keepPreviousData } from '@tanstack/react-query'
 import blogService from '@/services/blog.service'
+import type { BlogPost } from '@/data/blog-posts'
 import type {
   BlogQueryParams,
   CreateBlogPostDto,
+  PaginatedBlogResponse,
   UpdateBlogPostDto,
   UpdateTranslationDto,
 } from '@/services/blog.service'
@@ -60,10 +62,13 @@ export function useBlogPost(slug: string, lang?: string, initialData?: BlogPost 
   })
 }
 
-export function useRelatedBlogPosts(locale: string, category: string, excludeSlug: string) {
+export function useRelatedBlogPosts(locale: string, category: string | undefined, excludeSlug: string) {
   const query = useBlogPosts(locale)
-  const relatedPosts = (query.data ?? [])
-    .filter((p) => p.category === category && p.slug !== excludeSlug)
+  const relatedPosts = !category ? [] : (query.data ?? [])
+    .filter((p) => p.category && p.slug !== excludeSlug && (
+      p.category === category ||
+      p.category.toLowerCase() === category.toLowerCase()
+    ))
     .slice(0, 3)
   return { ...query, data: relatedPosts }
 }
@@ -151,11 +156,13 @@ export function useTranslateBlogPost() {
   return useMutation({
     mutationFn: ({
       slug,
-      languages,
+      targets,
+      postData,
     }: {
       slug: string
-      languages: string[]
-    }) => blogService.translateBlogPost(slug, languages),
+      targets: { localeCode: string; translatorCode: string }[]
+      postData?: { sourceLocale: string; title?: string; excerpt?: string; content?: string[] }
+    }) => blogService.translateBlogPost(slug, targets, postData),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: blogKeys.all })
     },
@@ -193,14 +200,3 @@ export function useDeleteBlogTranslation() {
   })
 }
 
-export function useSyncBlogPost() {
-  return useMutation({
-    mutationFn: (slug: string) => blogService.syncToEdge(slug),
-  })
-}
-
-export function useSyncAllBlogPosts() {
-  return useMutation({
-    mutationFn: () => blogService.syncAllToEdge(),
-  })
-}

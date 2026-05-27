@@ -158,6 +158,7 @@ public partial class BlogService : IBlogService
         var doc = new BlogPostEntity
         {
             Slug = slug,
+            Lang = string.IsNullOrWhiteSpace(request.Lang) ? "en-US" : request.Lang,
             Title = request.Title,
             Excerpt = request.Excerpt,
             PublishedAt = publishedAt ?? DateTime.UtcNow,
@@ -204,6 +205,7 @@ public partial class BlogService : IBlogService
         if (existing == null) return null;
 
         if (request.Slug != null) existing.Slug = request.Slug;
+        if (!string.IsNullOrWhiteSpace(request.Lang)) existing.Lang = request.Lang;
         if (request.Title != null) existing.Title = request.Title;
         if (request.Excerpt != null) existing.Excerpt = request.Excerpt;
         if (request.PublishedAt != null)
@@ -309,14 +311,22 @@ public partial class BlogService : IBlogService
     // Translation methods
 
     public async Task<Dictionary<string, BlogPostTranslationEntity>?> TranslateAsync(
-        string slug, List<string> languages, ITranslationService translationService)
+        string slug, List<(string localeCode, string translatorCode)> targets, ITranslationService translationService, string sourceLocale = "en-US", BlogPostEntity? postData = null)
     {
-        var post = await _blogRepo.GetBySlugAsync(slug);
+        // Use D1-supplied post data when provided; only fall back to Cosmos DB if not
+        var post = postData ?? await _blogRepo.GetBySlugAsync(slug);
         if (post == null) return null;
 
+        var effectiveSourceLocale = !string.IsNullOrWhiteSpace(sourceLocale) ? sourceLocale : post.Lang;
+        var sourceTranslatorCode = ToAzureSourceCode(effectiveSourceLocale);
+
+        // Build reverse map: translatorCode → localeCode for result storage
+        var codeMap = targets.ToDictionary(t => t.translatorCode, t => t.localeCode);
+        var translatorCodes = targets.Select(t => t.translatorCode).ToList();
+
         // ── Phase 1: Batch translate via Azure Translator (10 langs per request) ──
-        _logger.LogInformation("[{Slug}] Phase 1: Azure Translator — {Count} languages", slug, languages.Count);
-        var machineTranslations = await translationService.TranslateBlogPostBatchAsync(post, languages);
+        _logger.LogInformation("[{Slug}] Phase 1: Azure Translator — {Count} languages from {Source}", slug, translatorCodes.Count, sourceTranslatorCode);
+        var machineTranslations = await translationService.TranslateBlogPostBatchAsync(post, translatorCodes, sourceTranslatorCode);
         _logger.LogInformation("[{Slug}] Phase 1 complete — {Count} translations received", slug, machineTranslations.Count);
 
         // ── Phase 2: LLM review in parallel (bounded by semaphore in LlmReviewService) ──
@@ -341,12 +351,12 @@ public partial class BlogService : IBlogService
                     var dtoBatch = machineTranslations[lang];
 
                     // Review title, excerpt, and content blocks in parallel
-                    var titleTask = _llmReview.ReviewAsync(post.Title, dtoBatch.Title, lang);
-                    var excerptTask = _llmReview.ReviewAsync(post.Excerpt, dtoBatch.Excerpt, lang);
+                    var titleTask = _llmReview.ReviewAsync(post.Title, dtoBatch.Title, lang, effectiveSourceLocale);
+                    var excerptTask = _llmReview.ReviewAsync(post.Excerpt, dtoBatch.Excerpt, lang, effectiveSourceLocale);
                     var contentTasks = dtoBatch.Content.Select((block, idx) =>
                     {
                         var originalBlock = idx < contentStrings.Count ? contentStrings[idx] : "";
-                        return _llmReview.ReviewAsync(originalBlock, block, lang);
+                        return _llmReview.ReviewAsync(originalBlock, block, lang, effectiveSourceLocale);
                     }).ToList();
 
                     await Task.WhenAll(titleTask, excerptTask, Task.WhenAll(contentTasks));
@@ -369,13 +379,14 @@ public partial class BlogService : IBlogService
 
             var results = await Task.WhenAll(tasks);
 
-            // Save batch to separate translation container
-            foreach (var (lang, dtoTranslation, _) in results)
+            // Save batch — store by localeCode (e.g. "bs-BA"), not translatorCode ("bs")
+            foreach (var (translatorCode, dtoTranslation, _) in results)
             {
+                var localeCode = codeMap.TryGetValue(translatorCode, out var lc) ? lc : translatorCode;
                 var entity = new BlogPostTranslationEntity
                 {
                     PostSlug = slug,
-                    Lang = lang,
+                    Lang = localeCode,
                     Title = dtoTranslation.Title,
                     Excerpt = dtoTranslation.Excerpt,
                     Content = dtoTranslation.Content.Cast<object>().ToList(),
@@ -384,16 +395,25 @@ public partial class BlogService : IBlogService
                 };
                 await _translationRepo.UpsertAsync(entity);
                 _ = _sync.TrySyncOneAsync("blogPostTranslations", entity);
-                allResults[lang] = entity;
+                allResults[localeCode] = entity;
             }
 
             _logger.LogInformation("[{Slug}] Saved batch of {Count} translations ({Completed}/{Total})",
                 slug, results.Length, completed, total);
         }
 
-        _logger.LogInformation("[{Slug}] Translation complete — {Count} languages", slug, languages.Count);
+        _logger.LogInformation("[{Slug}] Translation complete — {Count} languages", slug, targets.Count);
         return allResults;
     }
+
+    // Azure Translator source codes: most are the 2-letter base, but a few use the full tag
+    private static string ToAzureSourceCode(string locale) => locale switch
+    {
+        "zh-Hans" or "zh-CN" => "zh-Hans",
+        "zh-Hant" or "zh-TW" => "zh-Hant",
+        "sr-Latn" => "sr-Latn",
+        _ => locale.Split('-')[0].ToLowerInvariant(),
+    };
 
     public async Task<BlogPostTranslationEntity?> UpdateTranslationAsync(
         string slug, string lang, UpdateTranslationRequest request)

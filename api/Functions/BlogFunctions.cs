@@ -28,13 +28,6 @@ public class BlogFunctions
     private readonly IValidator<TranslateBlogPostRequest> _translateValidator;
     private readonly IValidator<UpdateTranslationRequest> _updateTranslationValidator;
 
-    /// <summary>SEO-priority Azure Translator language codes (excluding English).</summary>
-    private static readonly List<string> SeoLanguages =
-    [
-        "bs", "hr", "sr-Latn", "de", "fr", "es", "it", "tr",
-        "ar", "pt", "nl", "ru", "ja", "zh-Hans", "ko"
-    ];
-
     public BlogFunctions(
         IBlogService blogService,
         ITagService tagService,
@@ -65,24 +58,6 @@ public class BlogFunctions
         _updateTranslationValidator = updateTranslationValidator;
     }
 
-    /// <summary>Fire-and-forget: translate a published blog post in the background.</summary>
-    private void AutoTranslateInBackground(string slug, List<string>? languages = null)
-    {
-        var langs = languages ?? SeoLanguages;
-        _ = Task.Run(async () =>
-        {
-            try
-            {
-                _logger.LogInformation("Auto-translating blog post '{Slug}' to {Count} languages", slug, langs.Count);
-                await _blogService.TranslateAsync(slug, langs, _translationService);
-                _logger.LogInformation("Auto-translation completed for '{Slug}'", slug);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Auto-translation failed for '{Slug}'", slug);
-            }
-        });
-    }
 
     // Public endpoints
 
@@ -166,11 +141,6 @@ public class BlogFunctions
             authorName = $"{user.FirstName} {user.LastName}".Trim();
 
         var result = await _blogService.CreateAsync(request, authorId, authorName);
-
-        // Auto-translate in background — LLM doesn't wait
-        if (request.IsPublished)
-            AutoTranslateInBackground(result.Slug);
-
         return await req.CreateJsonResponseAsync(HttpStatusCode.Created, result);
     }
 
@@ -192,11 +162,6 @@ public class BlogFunctions
         var request = await FunctionHelper.DeserializeAndValidateAsync<UpdateBlogPostRequest>(req, _updateValidator);
         var result = await _blogService.UpdateAsync(slug, request)
             ?? throw new NotFoundException("Post not found.");
-
-        // Re-translate if content changed
-        if (request.Title != null || request.Excerpt != null || request.Content != null)
-            AutoTranslateInBackground(result.Slug);
-
         return await req.CreateJsonResponseAsync(HttpStatusCode.OK, result);
     }
 
@@ -264,11 +229,28 @@ public class BlogFunctions
         await _auth.RequirePermissionAsync(req, "manage:blog");
         var request = await FunctionHelper.DeserializeAndValidateAsync<TranslateBlogPostRequest>(req, _translateValidator);
 
-        var translations = await _blogService.TranslateAsync(slug, request.Languages, _translationService)
+        var targets = request.Targets.Select(t => (t.LocaleCode, t.TranslatorCode)).ToList();
+        _logger.LogInformation("[{Slug}] Translate: sourceLocale={SourceLocale} hasTitle={HasTitle}", slug, request.SourceLocale, request.Title != null);
+
+        // Build post from D1-supplied content so Cosmos DB is not read
+        Api.Entities.BlogPostEntity? postData = null;
+        if (request.Title != null)
+        {
+            postData = new Api.Entities.BlogPostEntity
+            {
+                Slug = slug,
+                Lang = request.SourceLocale,
+                Title = request.Title,
+                Excerpt = request.Excerpt,
+                Content = request.Content?.Cast<object>().ToList(),
+            };
+        }
+
+        var translations = await _blogService.TranslateAsync(slug, targets, _translationService, request.SourceLocale, postData)
             ?? throw new NotFoundException("Post not found.");
 
         return await req.CreateJsonResponseAsync(HttpStatusCode.OK,
-            new { message = $"Translated '{slug}' to {request.Languages.Count} language(s).", count = request.Languages.Count });
+            new { message = $"Translated '{slug}' to {targets.Count} language(s).", count = targets.Count });
     }
 
     /// <summary>Returns a list of published posts and which languages they're missing.</summary>
@@ -281,10 +263,16 @@ public class BlogFunctions
         var posts = await _blogService.GetAllAsync();
         var publishedPosts = posts.Where(p => p.IsPublished).ToList();
 
+        List<string> seoLocales =
+        [
+            "bs-BA", "hr-HR", "sr-Latn", "de-DE", "fr-FR", "es-ES", "it-IT", "tr-TR",
+            "ar-SA", "pt-BR", "nl-NL", "ru-RU", "ja-JP", "zh-Hans", "ko-KR"
+        ];
+
         var resultTasks = publishedPosts.Select(async p =>
         {
             var existingTranslations = await _blogTranslationRepo.GetAllForPostAsDictAsync(p.Slug);
-            var missing = SeoLanguages.Where(lang => !existingTranslations.ContainsKey(lang)).ToList();
+            var missing = seoLocales.Where(lang => !existingTranslations.ContainsKey(lang)).ToList();
             return new { p.Slug, missing };
         });
 
@@ -355,5 +343,42 @@ public class BlogFunctions
         if (result == false)
             throw new NotFoundException("Translation not found.");
         return await req.CreateJsonResponseAsync(HttpStatusCode.OK, new { message = "Translation deleted." });
+    }
+
+    [Function("AdminPurgeBadTranslations")]
+    public async Task<HttpResponseData> AdminPurgeBadTranslations(
+        [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "manage/blog/purge-bad-translations")] HttpRequestData req)
+    {
+        await _auth.RequirePermissionAsync(req, "manage:blog");
+
+        // Translations stored under raw translator codes instead of locale codes
+        var badCodes = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+        {
+            "bs", "hr", "de", "fr", "es", "it", "tr", "ar", "pt", "nl", "ru", "ja", "ko"
+        };
+
+        var posts = await _blogService.GetAllAsync();
+        var deleted = 0;
+        var items = new List<object>();
+
+        foreach (var post in posts)
+        {
+            var translations = await _blogTranslationRepo.GetAllForPostAsync(post.Slug);
+            foreach (var t in translations)
+            {
+                if (!badCodes.Contains(t.Lang)) continue;
+                await _blogService.DeleteTranslationAsync(post.Slug, t.Lang);
+                deleted++;
+                items.Add(new { post.Slug, lang = t.Lang });
+            }
+        }
+
+        _logger.LogInformation("Purged {Count} bad translations", deleted);
+        return await req.CreateJsonResponseAsync(HttpStatusCode.OK, new
+        {
+            message = $"Purged {deleted} bad translation(s).",
+            deleted,
+            items,
+        });
     }
 }

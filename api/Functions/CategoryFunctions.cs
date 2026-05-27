@@ -89,7 +89,8 @@ public class CategoryFunctions
             .Where(t => !string.IsNullOrWhiteSpace(t.LocaleCode) && !string.IsNullOrWhiteSpace(t.TranslatorCode))
             .Select(t => (t.LocaleCode, t.TranslatorCode));
 
-        var result = await _categoryService.TranslateAsync(id, targets, _translationService)
+        var sourceLang = request.SourceLocale.Split('-')[0];
+        var result = await _categoryService.TranslateAsync(id, targets, _translationService, request.Label, sourceLang)
             ?? throw new NotFoundException("Category not found.");
         return await req.CreateJsonResponseAsync(HttpStatusCode.OK, result);
     }

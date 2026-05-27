@@ -74,9 +74,13 @@ export async function handleImageRequest(
   // No manifest = image was deleted or never existed — do not fall through to Azure
   if (!manifest) return new Response('Not found', { status: 404 })
 
-  if (w > 0) {
-    const available = CONTAINER_WIDTHS[container]
-    const snapped = snapWidth(w, available)
+  // When no width is requested, default to the largest available for this container
+  // so R2-hosted images are served without requiring a ?w= param.
+  const available = CONTAINER_WIDTHS[container]
+  const effectiveW = w > 0 ? w : available[available.length - 1]
+
+  if (effectiveW > 0) {
+    const snapped = snapWidth(effectiveW, available)
     const version = Math.floor(new Date(manifest.processed_at).getTime() / 1000)
     const r2Key = `${blobPath}/w${snapped}-v${version}.webp`
 
@@ -138,11 +142,11 @@ export async function handleImageRequest(
 
   // 4. Fallback: original + CF Image Resizing
   const fetchOpts: RequestInit & { cf?: Record<string, unknown> } =
-    w > 0
+    effectiveW > 0
       ? {
           cf: {
             image: {
-              width: w,
+              width: effectiveW,
               quality: parseInt(q, 10),
               format: f,
               fit: 'scale-down',

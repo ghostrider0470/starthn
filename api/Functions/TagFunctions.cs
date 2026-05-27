@@ -89,7 +89,8 @@ public class TagFunctions
             .Where(t => !string.IsNullOrWhiteSpace(t.LocaleCode) && !string.IsNullOrWhiteSpace(t.TranslatorCode))
             .Select(t => (t.LocaleCode, t.TranslatorCode));
 
-        var result = await _tagService.TranslateAsync(id, targets, _translationService)
+        var sourceLang = request.SourceLocale.Split('-')[0];
+        var result = await _tagService.TranslateAsync(id, targets, _translationService, request.Label, sourceLang)
             ?? throw new NotFoundException("Tag not found.");
         return await req.CreateJsonResponseAsync(HttpStatusCode.OK, result);
     }

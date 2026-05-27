@@ -39,13 +39,19 @@ export async function handleD1Route(request: Request, env: Env): Promise<Respons
     // GET /api/blog — if page param: paginated response; otherwise: plain array
     if (path === '/api/blog') {
       const repo = new BlogPostRepository(db)
+      const filters = {
+        category: url.searchParams.get('category') || undefined,
+        subcategory: url.searchParams.get('subcategory') || undefined,
+        tag: url.searchParams.get('tag') || undefined,
+        q: url.searchParams.get('q') || undefined,
+      }
 
       if (url.searchParams.has('page') || url.searchParams.has('pageSize')) {
         const page = parseInt(url.searchParams.get('page') || '1')
         const pageSize = parseInt(url.searchParams.get('pageSize') || '10')
         const [items, total] = await Promise.all([
-          repo.getPublished(locale, page, pageSize),
-          repo.getCount(),
+          repo.getPublished(locale, page, pageSize, filters),
+          repo.getCount(filters),
         ])
         return json({
           items,
@@ -57,7 +63,7 @@ export async function handleD1Route(request: Request, env: Env): Promise<Respons
       }
 
       // No pagination — return plain array (used by useBlogPosts hook)
-      return json(await repo.getPublished(locale, 1, 100), 200, 300)
+      return json(await repo.getPublished(locale, 1, 100, filters), 200, 300)
     }
 
     // GET /api/blog/{slug}

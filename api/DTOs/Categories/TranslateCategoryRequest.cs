@@ -8,6 +8,9 @@ public class TranslateCategoryRequest
     /// TranslatorCode = Azure Translator API code (e.g. "bs").
     /// </summary>
     public List<TranslateCategoryTarget> Targets { get; set; } = [];
+    /// <summary>Label from D1 (source of truth). When present, Cosmos DB is not read.</summary>
+    public string? Label { get; set; }
+    public string SourceLocale { get; set; } = "en-US";
 }
 
 public class TranslateCategoryTarget

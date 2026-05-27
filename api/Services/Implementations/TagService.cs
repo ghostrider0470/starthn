@@ -62,20 +62,32 @@ public class TagService : ITagService
     public async Task<TagResponse?> TranslateAsync(
         string id,
         IEnumerable<(string localeCode, string translatorCode)> targets,
-        ITranslationService translationService)
+        ITranslationService translationService,
+        string? labelOverride = null,
+        string sourceLang = "en")
     {
-        var tag = await _tagRepo.GetBySlugAsync(id);
-        if (tag == null) return null;
+        TagEntity? tag;
+        if (labelOverride != null)
+        {
+            tag = new TagEntity { Id = id, Label = labelOverride, Translations = [] };
+        }
+        else
+        {
+            tag = await _tagRepo.GetBySlugAsync(id);
+            if (tag == null) return null;
+        }
 
-        // Always include the English label
-        tag.Translations["en-US"] = tag.Label;
+        var translated = await translationService.TranslateToManyAsync(tag.Label, targets, sourceLang);
 
-        var translated = await translationService.TranslateToManyAsync(tag.Label, targets);
-        foreach (var (locale, text) in translated)
-            tag.Translations[locale] = text;
+        if (labelOverride == null)
+        {
+            tag.Translations["en-US"] = tag.Label;
+            foreach (var (locale, text) in translated)
+                tag.Translations[locale] = text;
+            await _tagRepo.ReplaceAsync(tag);
+        }
 
-        await _tagRepo.ReplaceAsync(tag);
-        return _mapper.Map<TagResponse>(tag);
+        return new TagResponse { Id = id, Label = tag.Label, Translations = translated };
     }
 
     public async Task<bool> DeleteAsync(string id)

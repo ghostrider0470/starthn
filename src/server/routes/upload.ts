@@ -1,4 +1,4 @@
-import { verifyJwt } from '../auth'
+import { verifyJwt, hasPermission, hasRole } from '../auth'
 
 interface UploadEnv {
   DB: D1Database
@@ -19,11 +19,6 @@ function json(data: unknown, status = 200) {
   })
 }
 
-function hasPermission(permission: string | string[] | undefined, perm: string): boolean {
-  if (!permission) return false
-  if (Array.isArray(permission)) return permission.includes(perm)
-  return permission === perm
-}
 
 export async function handleUploadRoute(
   request: Request,
@@ -33,7 +28,7 @@ export async function handleUploadRoute(
   if (new URL(request.url).pathname !== '/api/upload/image') return null
   if (!env?.DB || !env?.IMG_CACHE || !env?.JWT_SECRET) return null
 
-  const authHeader = request.headers.get('Authorization')
+  const authHeader = request.headers.get('X-Authorization') || request.headers.get('Authorization')
   if (!authHeader?.startsWith('Bearer ')) return json({ error: 'Unauthorized' }, 401)
   const payload = await verifyJwt(authHeader.slice(7), env.JWT_SECRET)
   if (!payload?.sub) return json({ error: 'Unauthorized' }, 401)
@@ -50,7 +45,7 @@ export async function handleUploadRoute(
     return json({ error: 'Invalid container' }, 400)
   }
 
-  if (container === 'blog-images' && !hasPermission(payload.permission, 'manage:blog')) {
+  if (container === 'blog-images' && !hasPermission(payload, 'manage:blog') && !hasRole(payload, 'MasterAdmin', 'superadmin')) {
     return json({ error: 'Forbidden' }, 403)
   }
 

@@ -64,20 +64,39 @@ public class CategoryService : ICategoryService
     public async Task<CategoryResponse?> TranslateAsync(
         string id,
         IEnumerable<(string localeCode, string translatorCode)> targets,
-        ITranslationService translationService)
+        ITranslationService translationService,
+        string? labelOverride = null,
+        string sourceLang = "en")
     {
-        var category = await _categoryRepo.GetBySlugAsync(id);
-        if (category == null) return null;
+        CategoryEntity? category;
+        if (labelOverride != null)
+        {
+            // Use D1-supplied label; skip Cosmos DB read
+            category = new CategoryEntity { Id = id, Label = labelOverride, Translations = [] };
+        }
+        else
+        {
+            category = await _categoryRepo.GetBySlugAsync(id);
+            if (category == null) return null;
+        }
 
-        // Always include the English label
-        category.Translations["en-US"] = category.Label;
+        var translated = await translationService.TranslateToManyAsync(category.Label, targets, sourceLang);
 
-        var translated = await translationService.TranslateToManyAsync(category.Label, targets);
-        foreach (var (locale, text) in translated)
-            category.Translations[locale] = text;
+        if (labelOverride == null)
+        {
+            // Only persist back to Cosmos when we actually read from it
+            category.Translations["en-US"] = category.Label;
+            foreach (var (locale, text) in translated)
+                category.Translations[locale] = text;
+            await _categoryRepo.ReplaceAsync(category);
+        }
 
-        await _categoryRepo.ReplaceAsync(category);
-        return _mapper.Map<CategoryResponse>(category);
+        return new CategoryResponse
+        {
+            Id = id,
+            Label = category.Label,
+            Translations = translated,
+        };
     }
 
     public async Task<bool> DeleteAsync(string id)

@@ -20,7 +20,7 @@ public interface IBlogService
     Task<int> SeedAsync(List<CreateBlogPostRequest> posts, string? authorName);
     Task<Dictionary<string, int>> GetPostCountsByAuthorIdsAsync(IEnumerable<string> authorIds);
     Task<(long total, long published)> GetStatsAsync();
-    Task<Dictionary<string, BlogPostTranslationEntity>?> TranslateAsync(string slug, List<string> languages, ITranslationService translationService);
+    Task<Dictionary<string, BlogPostTranslationEntity>?> TranslateAsync(string slug, List<(string localeCode, string translatorCode)> targets, ITranslationService translationService, string sourceLocale = "en-US", BlogPostEntity? postData = null);
     Task<BlogPostTranslationEntity?> UpdateTranslationAsync(string slug, string lang, UpdateTranslationRequest request);
     Task<Dictionary<string, BlogPostTranslationEntity>?> GetTranslationsAsync(string slug);
     Task<bool?> DeleteTranslationAsync(string slug, string lang);
