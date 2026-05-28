@@ -103,6 +103,27 @@ function loadLanguageMap(): { localeToAzure: Map<string, string>; azureToLocale:
 
 // ── JSON Flatten / Unflatten ─────────────────────────────────────────────────
 
+const NON_TRANSLATABLE_KEYS = new Set([
+  'href',
+  'src',
+  'url',
+  'image',
+  'avatar',
+  'icon',
+  'commentMarker',
+  'id',
+  'slug',
+])
+
+const NON_TRANSLATABLE_VALUE_RE =
+  /^(?:https?:\/\/|mailto:|tel:|\/|[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|\+?[0-9][0-9 ()-]{5,}|[A-Z0-9_]{2,})$/
+
+function shouldTranslateString(path: string, value: string): boolean {
+  const key = path.split('.').at(-1) ?? ''
+  if (NON_TRANSLATABLE_KEYS.has(key)) return false
+  return !NON_TRANSLATABLE_VALUE_RE.test(value.trim())
+}
+
 function flattenJson(obj: Record<string, unknown> | unknown[], prefix = ''): FlatItems {
   const items: FlatItems = []
   const entries: Array<[string, unknown]> = Array.isArray(obj)
@@ -115,7 +136,7 @@ function flattenJson(obj: Record<string, unknown> | unknown[], prefix = ''): Fla
       items.push(...flattenJson(value, path))
     } else if (typeof value === 'object' && value !== null) {
       items.push(...flattenJson(value as Record<string, unknown>, path))
-    } else if (typeof value === 'string') {
+    } else if (typeof value === 'string' && shouldTranslateString(path, value)) {
       items.push([path, value])
     }
   }

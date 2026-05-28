@@ -93,7 +93,20 @@ def restore_interpolations(text: str) -> str:
 # ── JSON Flattening / Unflattening ──────────────────────────────────────────
 
 
-_SKIP_KEYS = frozenset({"href", "src", "url", "email", "phone", "image", "avatar"})
+_SKIP_KEYS = frozenset(
+    {"href", "src", "url", "image", "avatar", "icon", "commentMarker", "id", "slug"}
+)
+_SKIP_VALUE_RE = re.compile(
+    r"^(?:https?://|mailto:|tel:|/|[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|\+?[0-9][0-9 ()-]{5,}|[A-Z0-9_]{2,})$"
+)
+
+
+def should_translate(path: str, value: str) -> bool:
+    """Skip machine identifiers and literal contact values, not UI labels."""
+    key = path.rsplit(".", 1)[-1]
+    if key in _SKIP_KEYS:
+        return False
+    return not _SKIP_VALUE_RE.match(value.strip())
 
 
 def flatten_json(obj: dict | list, prefix: str = "") -> list[tuple[str, str]]:
@@ -101,19 +114,17 @@ def flatten_json(obj: dict | list, prefix: str = "") -> list[tuple[str, str]]:
     items: list[tuple[str, str]] = []
     if isinstance(obj, dict):
         for key, value in obj.items():
-            if key in _SKIP_KEYS:
-                continue
             path = f"{prefix}.{key}" if prefix else str(key)
             if isinstance(value, (dict, list)):
                 items.extend(flatten_json(value, path))
-            elif isinstance(value, str):
+            elif isinstance(value, str) and should_translate(path, value):
                 items.append((path, value))
     elif isinstance(obj, list):
         for i, value in enumerate(obj):
             path = f"{prefix}.{i}" if prefix else str(i)
             if isinstance(value, (dict, list)):
                 items.extend(flatten_json(value, path))
-            elif isinstance(value, str):
+            elif isinstance(value, str) and should_translate(path, value):
                 items.append((path, value))
     return items
 
