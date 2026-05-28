@@ -93,16 +93,36 @@ def restore_interpolations(text: str) -> str:
 # ── JSON Flattening / Unflattening ──────────────────────────────────────────
 
 
-def flatten_json(obj: dict, prefix: str = "") -> list[tuple[str, str]]:
+_SKIP_KEYS = frozenset({"href", "src", "url", "email", "phone"})
+
+
+def flatten_json(obj: dict | list, prefix: str = "") -> list[tuple[str, str]]:
     """Flatten nested JSON to (dotpath, value) pairs for leaf strings."""
     items: list[tuple[str, str]] = []
-    for key, value in obj.items():
-        path = f"{prefix}.{key}" if prefix else key
-        if isinstance(value, dict):
-            items.extend(flatten_json(value, path))
-        elif isinstance(value, str):
-            items.append((path, value))
+    if isinstance(obj, dict):
+        for key, value in obj.items():
+            if key in _SKIP_KEYS:
+                continue
+            path = f"{prefix}.{key}" if prefix else str(key)
+            if isinstance(value, (dict, list)):
+                items.extend(flatten_json(value, path))
+            elif isinstance(value, str):
+                items.append((path, value))
+    elif isinstance(obj, list):
+        for i, value in enumerate(obj):
+            path = f"{prefix}.{i}" if prefix else str(i)
+            if isinstance(value, (dict, list)):
+                items.extend(flatten_json(value, path))
+            elif isinstance(value, str):
+                items.append((path, value))
     return items
+
+
+def _nav(node: dict | list, key: str) -> dict | list:
+    try:
+        return node[int(key)]  # type: ignore[index]
+    except (ValueError, TypeError):
+        return node[key]  # type: ignore[index]
 
 
 def unflatten_json(items: list[tuple[str, str]], template: dict) -> dict:
@@ -110,10 +130,14 @@ def unflatten_json(items: list[tuple[str, str]], template: dict) -> dict:
     result = json.loads(json.dumps(template))
     for path, value in items:
         keys = path.split(".")
-        node = result
+        node: dict | list = result
         for k in keys[:-1]:
-            node = node[k]
-        node[keys[-1]] = value
+            node = _nav(node, k)
+        last = keys[-1]
+        try:
+            node[int(last)] = value  # type: ignore[index]
+        except (ValueError, TypeError):
+            node[last] = value  # type: ignore[index]
     return result
 
 # ── Azure Translator API ────────────────────────────────────────────────────
