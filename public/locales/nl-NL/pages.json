@@ -25,7 +25,7 @@
     },
     "features": [
       {
-        "icon": "Prijs",
+        "icon": "award",
         "title": "Ervaring en expertise",
         "description": "Ons team brengt een decennium aan praktijkervaring en certificeringen in accountancy mee."
       },
@@ -35,7 +35,7 @@
         "description": "Op maat gemaakte rapporten en budgetten helpen je weloverwogen beslissingen te nemen."
       },
       {
-        "icon": "Instellingen2",
+        "icon": "settings2",
         "title": "Op maat gemaakte oplossingen",
         "description": "We automatiseren routinetaken met behulp van de cloud en moderne platforms."
       },
@@ -84,7 +84,7 @@
       "heading": "De principes achter alles wat we doen",
       "items": [
         {
-          "icon": "Doel",
+          "icon": "target",
           "title": "Resultaten door vertrouwen en nauwkeurigheid",
           "description": "Onze missie is een betrouwbare partner te zijn, die met zijn kennis en tijdige informatie klanten veiligheid en een duidelijke basis biedt voor het nemen van zakelijke beslissingen."
         },
@@ -94,17 +94,17 @@
           "description": "Elk rapport, elke aanvraag en elke aanbeveling draagt onze handtekening. Wij nemen de volledige verantwoordelijkheid voor ons werk, omdat we weten hoe belangrijk nauwkeurigheid en tijdigheid zijn in het bedrijf van onze klanten."
         },
         {
-          "icon": "Gebruikers",
+          "icon": "users",
           "title": "De klant in de schijnwerpers",
           "description": "Of het nu gaat om een startup die net begint of een bedrijf met vele jaren ervaring, onze aanpak is altijd hetzelfde: we luisteren, begrijpen en passen ons aan de behoeften van de klant, en bieden oplossingen op maat gemaakt."
         },
         {
-          "icon": "Zap",
+          "icon": "zap",
           "title": "Digitalisering als ontwikkelingsrichting",
           "description": "Wij geloven dat digitalisering van boekhouding de sleutel is tot sneller en efficiënter zaken. Daarom verbeteren en introduceren we voortdurend nieuwe oplossingen om onze klanten voortdurend inzicht te geven in hun financiën."
         },
         {
-          "icon": "Slot",
+          "icon": "lock",
           "title": "Bedrijfsethiek en vertrouwelijkheid",
           "description": "Het handhaven van vertrouwelijkheid en het respecteren van de hoogste ethische normen vormen de basis van ons werk. Onze cliënten weten dat hun gegevens veilig blijven en dat ons advies altijd voortkomt uit professionele en deskundige intentie."
         }
@@ -132,7 +132,7 @@
       "heading": "Onze certificeringen",
       "items": [
         {
-          "image": "/certificaten/srrf-bih.png",
+          "image": "/certificates/srrf-bih.png",
           "title": "Gecertificeerd Accountant",
           "description": "Bewijs van bekwaamheid en het verwerven van een titel in het accountantsvak"
         },
@@ -188,8 +188,8 @@
     },
     "methods": {
       "email": {
-        "title": "E-pošta",
-        "description": "Pošaljite nam email u bilo koje vrijeme",
+        "title": "E-mail",
+        "description": "Stuur ons op elk moment een e-mail",
         "value": "info@starthn.ba"
       },
       "location": {
@@ -225,7 +225,7 @@
       "success": "Dank je wel voor je bericht. We nemen binnen 24-48 uur contact met u op.",
       "error": "Er ging iets mis. Probeer het opnieuw of stuur ons rechtstreeks een e-mail.",
       "fullName": "Volledige naam *",
-      "email": "Email adresa *",
+      "email": "E-mailadres *",
       "company": "Over ons",
       "subject": "Onderwerp *",
       "message": "Boodschap *",
@@ -239,11 +239,11 @@
       "validation": {
         "required": {
           "name": "Een volledige naam is vereist.",
-          "email": "Potrebna je email adresa.",
+          "email": "E-mailadres is verplicht.",
           "subject": "Selecteer alstublieft een onderwerp.",
           "message": "De boodschap is verplicht."
         },
-        "email": "Molimo unesite važeću email adresu.",
+        "email": "Voer een geldig e-mailadres in.",
         "messageMinLength": "Het bericht moet minstens {{count}} tekens lang zijn."
       },
       "sending": "Ik stuur...",
@@ -304,7 +304,7 @@
       }
     },
     "aria": {
-      "email": "Pošaljite email {{name}}",
+      "email": "E-mail {{name}}",
       "linkedin": "{{name}} LinkedIn-profiel"
     },
     "culture": {
@@ -676,7 +676,7 @@
     "newsletter": {
       "title": "Abonneer je op onze nieuwsbrief",
       "description": "Ontvang de nieuwste boekhoudkundige tips, belastingmeldingen en zakelijk nieuws direct in je inbox.",
-      "placeholder": "vasa.adresa@email.com",
+      "placeholder": "you@example.com",
       "button": "Abonneer je",
       "note": "Geen spam. Log op elk moment uit."
     },
@@ -722,9 +722,9 @@
       "firstNamePlaceholder": "John",
       "lastName": "Achternaam",
       "lastNamePlaceholder": "Doe",
-      "email": "Email adresa",
+      "email": "E-mailadres",
       "emailNotice": "E-mail kan niet worden gewijzigd. Neem contact op met de support als je hulp nodig hebt.",
-      "phone": "Broj telefona",
+      "phone": "Telefoonnummer",
       "phonePlaceholder": "+1 (555) 000-0000",
       "save": "Wijzigingen in het opslaan"
     },
@@ -744,8 +744,8 @@
       "title": "Meldingsinstellingen",
       "description": "Bepaal hoe je updates en meldingen ontvangt",
       "email": {
-        "title": "Email obavijesti",
-        "description": "Primajte obavijesti i obavijesti putem e-pošte"
+        "title": "E-mailmeldingen",
+        "description": "Ontvang updates en meldingen via e-mail"
       },
       "sms": {
         "title": "SMS-meldingen",
@@ -768,8 +768,8 @@
     "subtitle": "Krijg hulp met onze softwareontwikkelingsdiensten.",
     "cards": {
       "email": {
-        "title": "Email podrška",
-        "description": "Pošaljite nam email za bilo kakve upite"
+        "title": "E-mailondersteuning",
+        "description": "Stuur ons een e-mail voor vragen"
       },
       "project": {
         "title": "Vragen over het project",
@@ -810,7 +810,7 @@
     },
     "categories": [
       {
-        "icon": "Cloud",
+        "icon": "cloud",
         "title": "Cloudarchitectuur",
         "description": "Azure, AWS en cloud-native vormen",
         "resources": [
@@ -825,7 +825,7 @@
         ]
       },
       {
-        "icon": "Brain",
+        "icon": "brain",
         "title": "AI en Machine Learning",
         "description": "ML-modellen, datawetenschap en AI-integratie",
         "resources": [
@@ -840,7 +840,7 @@
         ]
       },
       {
-        "icon": "Instellingen",
+        "icon": "settings",
         "title": "DevOps & Platform",
         "description": "CI/CD, infrastructuur als code, automatisering",
         "resources": [
@@ -855,7 +855,7 @@
         ]
       },
       {
-        "icon": "Code",
+        "icon": "code",
         "title": "Softwareontwikkeling",
         "description": ".NET, React en moderne ontwikkelingspraktijken",
         "resources": [
@@ -870,7 +870,7 @@
         ]
       },
       {
-        "icon": "Database",
+        "icon": "database",
         "title": "Data & Analytics",
         "description": "BI-, Data Warehousing- en Analytics-platforms",
         "resources": [

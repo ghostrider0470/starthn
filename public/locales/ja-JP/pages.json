@@ -25,32 +25,32 @@
     },
     "features": [
       {
-        "icon": "受賞歴",
+        "icon": "award",
         "title": "経験と専門性",
         "description": "当チームは10年以上の実務経験と会計認定資格を持っています。"
       },
       {
-        "icon": "バーチャート3",
+        "icon": "barChart3",
         "title": "詳細な分析",
         "description": "カスタマイズされたレポートや予算は、情報に基づいた意思決定を支援します。"
       },
       {
-        "icon": "舞台設定2",
+        "icon": "settings2",
         "title": "カスタマイズされたソリューション",
         "description": "私たちはクラウドと最新のプラットフォームを活用してルーチン業務を自動化しています。"
       },
       {
-        "icon": "ユーザーチェック",
+        "icon": "userCheck",
         "title": "個別化されたアプローチ",
         "description": "私たちは各クライアントに特別な配慮と献身をもって接し、最高レベルの体験をお約束します。"
       },
       {
-        "icon": "トレンドアップ",
+        "icon": "trendingUp",
         "title": "積極的なコンサルティング",
         "description": "問題になる前に節約や最適化の機会を定期的に特定しています。"
       },
       {
-        "icon": "シールドチェック",
+        "icon": "shieldCheck",
         "title": "誠実さと誠実さ",
         "description": "私たちのコミュニケーションは常にオープンかつ正直であり、専門的かつ倫理的な基準を厳格に遵守しています。"
       }
@@ -84,27 +84,27 @@
       "heading": "私たちが行うすべての背後にある原則",
       "items": [
         {
-          "icon": "ターゲット",
+          "icon": "target",
           "title": "信頼と正確さによる結果",
           "description": "私たちの使命は、信頼できるパートナーであり、その知識とタイムリーな情報により、クライアントに安心感と明確なビジネス意思決定の基盤を提供することです。"
         },
         {
-          "icon": "シールドチェック",
+          "icon": "shieldCheck",
           "title": "私たちが行うすべてのことにおける責任",
           "description": "すべての報告書、すべての申請書、そしてすべての勧告には私たちの署名が入っています。私たちは、クライアントのビジネスにおいて正確さとタイムリーさがいかに重要かを理解しているため、自社の仕事に全責任を負っています。"
         },
         {
-          "icon": "ユーザー",
+          "icon": "users",
           "title": "スポットライトを浴びる顧客",
           "description": "スタートアップであれ、長年の経験を持つ企業であれ、私たちのアプローチは常に同じです。クライアントのニーズに耳を傾け、理解し、適応し、オーダーメイドのソリューションを提供します。"
         },
         {
-          "icon": "ザップ",
+          "icon": "zap",
           "title": "開発の方向性としてのデジタル化",
           "description": "私たちは、会計のデジタル化がより迅速かつ効率的なビジネスの鍵であると信じています。そのため、私たちは常に改善し、新しいソリューションを導入し、クライアントの財務状況を常に把握できるよう努めています。"
         },
         {
-          "icon": "ロック",
+          "icon": "lock",
           "title": "ビジネス倫理と機密保持",
           "description": "機密保持と最高の倫理基準の遵守が私たちの仕事の基盤です。クライアントは自分たちのデータが安全であることを知っており、私たちのアドバイスは常にプロフェッショナルかつ専門的な意図から来ています。"
         }
@@ -132,7 +132,7 @@
       "heading": "当社の認定",
       "items": [
         {
-          "image": "/証明書/srrf-bih.png",
+          "image": "/certificates/srrf-bih.png",
           "title": "公認会計士",
           "description": "会計職における能力証明および称号取得"
         },
@@ -188,8 +188,8 @@
     },
     "methods": {
       "email": {
-        "title": "E-pošta",
-        "description": "Pošaljite nam email u bilo koje vrijeme",
+        "title": "メール",
+        "description": "いつでもメールでお問い合わせください",
         "value": "info@starthn.ba"
       },
       "location": {
@@ -225,7 +225,7 @@
       "success": "メッセージありがとうございます。24〜48時間以内にご連絡いたします。",
       "error": "何かがうまくいかなかった。もう一度お試しいただくか、直接メールをお送りください。",
       "fullName": "フルネーム *",
-      "email": "Email adresa *",
+      "email": "メールアドレス *",
       "company": "私たちについて",
       "subject": "トピック*",
       "message": "メッセージ*",
@@ -239,11 +239,11 @@
       "validation": {
         "required": {
           "name": "フルネームの記載が必要です。",
-          "email": "Potrebna je email adresa.",
+          "email": "メールアドレスは必須です。",
           "subject": "トピックを選んでください。",
           "message": "メッセージは必須です。"
         },
-        "email": "Molimo unesite važeću email adresu.",
+        "email": "有効なメールアドレスを入力してください。",
         "messageMinLength": "メッセージは少なくとも {{count}} 文字以上でなければなりません。"
       },
       "sending": "送るよ...",
@@ -304,7 +304,7 @@
       }
     },
     "aria": {
-      "email": "Pošaljite email {{name}}",
+      "email": "{{name}}にメールを送信",
       "linkedin": "{{name}} LinkedInプロフィール"
     },
     "culture": {
@@ -676,7 +676,7 @@
     "newsletter": {
       "title": "ニュースレターを購読してください",
       "description": "最新の会計のヒント、税務アラート、ビジネスニュースをメールでお届けします。",
-      "placeholder": "vasa.adresa@email.com",
+      "placeholder": "you@example.com",
       "button": "購読",
       "note": "スパム禁止。いつでもログアウトしてください。"
     },
@@ -722,9 +722,9 @@
       "firstNamePlaceholder": "John",
       "lastName": "姓",
       "lastNamePlaceholder": "ドウ",
-      "email": "Email adresa",
+      "email": "メールアドレス",
       "emailNotice": "メールアドレスは変更できません。助けが必要ならサポートに連絡してください。",
-      "phone": "Broj telefona",
+      "phone": "電話番号",
       "phonePlaceholder": "+1 (555) 000-0000",
       "save": "セーブの変更"
     },
@@ -744,8 +744,8 @@
       "title": "通知設定",
       "description": "更新や通知の受け取り方をコントロールしましょう",
       "email": {
-        "title": "Email obavijesti",
-        "description": "Primajte obavijesti i obavijesti putem e-pošte"
+        "title": "メール通知",
+        "description": "メールで更新情報と通知を受け取る"
       },
       "sms": {
         "title": "SMS通知",
@@ -768,8 +768,8 @@
     "subtitle": "ソフトウェア開発サービスのサポートを受けてください。",
     "cards": {
       "email": {
-        "title": "Email podrška",
-        "description": "Pošaljite nam email za bilo kakve upite"
+        "title": "メールサポート",
+        "description": "お問い合わせはメールでお送りください"
       },
       "project": {
         "title": "プロジェクトに関するお問い合わせ",
@@ -810,7 +810,7 @@
     },
     "categories": [
       {
-        "icon": "クラウド",
+        "icon": "cloud",
         "title": "クラウドアーキテクチャ",
         "description": "Azure、AWS、そしてクラウドネイティブフォーム",
         "resources": [
@@ -825,7 +825,7 @@
         ]
       },
       {
-        "icon": "ブレイン",
+        "icon": "brain",
         "title": "AIと機械学習",
         "description": "MLモデル、データサイエンス、AI統合",
         "resources": [
@@ -840,7 +840,7 @@
         ]
       },
       {
-        "icon": "舞台設定",
+        "icon": "settings",
         "title": "DevOpsとプラットフォーム",
         "description": "CI/CD、コードとしてのインフラストラクチャ、自動化",
         "resources": [
@@ -855,7 +855,7 @@
         ]
       },
       {
-        "icon": "コード",
+        "icon": "code",
         "title": "ソフトウェア開発",
         "description": ".NET、React、そして現代の開発手法",
         "resources": [
@@ -870,7 +870,7 @@
         ]
       },
       {
-        "icon": "データベース",
+        "icon": "database",
         "title": "データと分析",
         "description": "BI、データウェアハウジング、分析プラットフォーム",
         "resources": [

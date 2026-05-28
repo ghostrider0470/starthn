@@ -25,7 +25,7 @@
     },
     "features": [
       {
-        "icon": "Ödül",
+        "icon": "award",
         "title": "Deneyim ve uzmanlık",
         "description": "Ekibimiz, on yıllık uygulamalı uygulama ve muhasebe sertifikaları getiriyor."
       },
@@ -35,7 +35,7 @@
         "description": "Özelleştirilmiş raporlar ve bütçeler, bilinçli kararlar almanıza yardımcı olur."
       },
       {
-        "icon": "ayarlar2",
+        "icon": "settings2",
         "title": "Özelleştirilmiş çözümler",
         "description": "Rutin görevleri bulut ve modern platformlarla otomatikleştiriyoruz."
       },
@@ -84,7 +84,7 @@
       "heading": "Yaptığımız Her Şeyin Arkasındaki İlkeler",
       "items": [
         {
-          "icon": "Hedef",
+          "icon": "target",
           "title": "Güven ve doğruluk yoluyla sonuçlar",
           "description": "Misyonumuz, bilgi ve zamanında bilgiyle müşterilere güvenlik ve iş kararları vermeleri için net bir temel sağlayan güvenilir bir ortak olmaktır."
         },
@@ -94,7 +94,7 @@
           "description": "Her rapor, her başvuru ve her öneri bizim imzamızı taşıyor. İşimizin tam sorumluluğunu üstliyoruz, çünkü müşterilerimizin işinde doğruluk ve zamanında olmanın ne kadar önemli olduğunu biliyoruz."
         },
         {
-          "icon": "Kullanıcılar",
+          "icon": "users",
           "title": "Spot ışığındaki müşteri",
           "description": "İster yeni başlayan bir startup olsun, ister uzun yıllara sahip bir şirket olsun, yaklaşımımız her zaman aynıdır: dinler, anlar ve müşterinin ihtiyaçlarına uyum sağlarız, özel çözümler sunarız."
         },
@@ -104,7 +104,7 @@
           "description": "Muhasebenin dijitalleşmesinin daha hızlı ve verimli iş için anahtar olduğuna inanıyoruz. Bu yüzden, müşterilerimize finansal durumları hakkında sürekli bilgi sağlamak için sürekli olarak geliştiriyor ve yeni çözümler sunuyoruz."
         },
         {
-          "icon": "Kilit",
+          "icon": "lock",
           "title": "İş etiği ve gizlilik",
           "description": "Gizliliği korumak ve en yüksek etik standartlara saygı göstermek çalışmalarımızın teminidir. Müşterilerimiz, verilerinin güvende kaldığını ve tavsiyelerimizin her zaman profesyonel ve uzman niyetle geldiğini biliyor."
         }
@@ -132,7 +132,7 @@
       "heading": "Sertifikalarımız",
       "items": [
         {
-          "image": "/sertifikalar/srrf-bih.png",
+          "image": "/certificates/srrf-bih.png",
           "title": "Sertifikalı Muhasebeci",
           "description": "Muhasebe mesleğinde yeterlilik kanıtı ve unvan edinilmesi"
         },
@@ -188,8 +188,8 @@
     },
     "methods": {
       "email": {
-        "title": "E-pošta",
-        "description": "Pošaljite nam email u bilo koje vrijeme",
+        "title": "E-posta",
+        "description": "Bize istediğiniz zaman e-posta gönderin",
         "value": "info@starthn.ba"
       },
       "location": {
@@ -225,7 +225,7 @@
       "success": "Mesajınız için teşekkürler. 24-48 saat içinde size geri döneceğiz.",
       "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin veya doğrudan bize e-posta gönderin.",
       "fullName": "Tam İsim *",
-      "email": "Email adresa *",
+      "email": "E-posta adresi *",
       "company": "Hakkımızda",
       "subject": "Konu *",
       "message": "Mesaj *",
@@ -239,11 +239,11 @@
       "validation": {
         "required": {
           "name": "Tam bir isim gereklidir.",
-          "email": "Potrebna je email adresa.",
+          "email": "E-posta adresi gereklidir.",
           "subject": "Lütfen bir konu seçin.",
           "message": "Mesaj zorunludur."
         },
-        "email": "Molimo unesite važeću email adresu.",
+        "email": "Lütfen geçerli bir e-posta adresi girin.",
         "messageMinLength": "Mesaj en az {{count}} karakter uzunluğunda olmalı."
       },
       "sending": "Gönderiyorum...",
@@ -304,7 +304,7 @@
       }
     },
     "aria": {
-      "email": "Pošaljite email {{name}}",
+      "email": "{{name}} kişisine e-posta gönder",
       "linkedin": "{{name}} LinkedIn profili"
     },
     "culture": {
@@ -676,7 +676,7 @@
     "newsletter": {
       "title": "Bültenimize abone olun",
       "description": "En son muhasebe ipuçları, vergi uyarıları ve iş haberleri gelen kutunuza alın.",
-      "placeholder": "vasa.adresa@email.com",
+      "placeholder": "you@example.com",
       "button": "Abone Olun",
       "note": "Spam yok. İstediğiniz zaman çıkış yapabilirsiniz."
     },
@@ -722,9 +722,9 @@
       "firstNamePlaceholder": "John",
       "lastName": "Soyadı",
       "lastNamePlaceholder": "Doe",
-      "email": "Email adresa",
+      "email": "E-posta adresi",
       "emailNotice": "E-posta değiştirilemez. Yardıma ihtiyacınız olursa destek ekibiyle iletişime geçin.",
-      "phone": "Broj telefona",
+      "phone": "Telefon numarası",
       "phonePlaceholder": "+1 (555) 000-0000",
       "save": "Kayıt değişiklikleri"
     },
@@ -744,8 +744,8 @@
       "title": "Bildirim ayarları",
       "description": "Güncellemeleri ve bildirimleri nasıl alacağınızı kontrol edin",
       "email": {
-        "title": "Email obavijesti",
-        "description": "Primajte obavijesti i obavijesti putem e-pošte"
+        "title": "E-posta bildirimleri",
+        "description": "Güncellemeleri ve bildirimleri e-posta ile alın"
       },
       "sms": {
         "title": "SMS bildirimleri",
@@ -768,8 +768,8 @@
     "subtitle": "Yazılım geliştirme hizmetlerimizde yardım alın.",
     "cards": {
       "email": {
-        "title": "Email podrška",
-        "description": "Pošaljite nam email za bilo kakve upite"
+        "title": "E-posta desteği",
+        "description": "Her türlü soru için bize e-posta gönderin"
       },
       "project": {
         "title": "Proje hakkında sorular",
@@ -810,7 +810,7 @@
     },
     "categories": [
       {
-        "icon": "bulut",
+        "icon": "cloud",
         "title": "Bulut mimarisi",
         "description": "Azure, AWS ve bulut-native formlar",
         "resources": [
@@ -825,7 +825,7 @@
         ]
       },
       {
-        "icon": "Beyin",
+        "icon": "brain",
         "title": "Yapay Zeka ve Makine Öğrenimi",
         "description": "ML Modelleri, Veri Bilimi ve Yapay Zeka Entegrasyonu",
         "resources": [
@@ -840,7 +840,7 @@
         ]
       },
       {
-        "icon": "Ortamlar",
+        "icon": "settings",
         "title": "DevOps & Platform",
         "description": "CI/CD, kod olarak altyapı, otomasyon",
         "resources": [
@@ -855,7 +855,7 @@
         ]
       },
       {
-        "icon": "Kod",
+        "icon": "code",
         "title": "Yazılım Geliştirme",
         "description": ".NET, React ve Modern Geliştirme Uygulamaları",
         "resources": [
@@ -870,7 +870,7 @@
         ]
       },
       {
-        "icon": "Veritabanı",
+        "icon": "database",
         "title": "Veri ve Analitik",
         "description": "BI, Veri Depolama ve Analitik Platformları",
         "resources": [

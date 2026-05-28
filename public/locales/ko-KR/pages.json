@@ -25,32 +25,32 @@
     },
     "features": [
       {
-        "icon": "수상",
+        "icon": "award",
         "title": "경험과 전문성",
         "description": "저희 팀은 10년간의 실무 경험과 회계 자격증을 보유하고 있습니다."
       },
       {
-        "icon": "바차트3",
+        "icon": "barChart3",
         "title": "상세 분석",
         "description": "맞춤형 보고서와 예산은 정보에 기반한 결정을 내릴 수 있도록 도와줍니다."
       },
       {
-        "icon": "설정2",
+        "icon": "settings2",
         "title": "맞춤형 솔루션",
         "description": "우리는 클라우드와 최신 플랫폼을 활용해 일상적인 업무를 자동화합니다."
       },
       {
-        "icon": "사용자 확인",
+        "icon": "userCheck",
         "title": "개별화된 접근",
         "description": "저희는 각 고객에게 특별한 세심함과 헌신을 가지고 접근하여 최고 수준의 경험을 보장합니다."
       },
       {
-        "icon": "트렌딩업",
+        "icon": "trendingUp",
         "title": "선제적 컨설팅",
         "description": "우리는 절약과 최적화 기회가 문제가 되기 전에 정기적으로 이를 식별합니다."
       },
       {
-        "icon": "방패체크",
+        "icon": "shieldCheck",
         "title": "정직과 성실함",
         "description": "저희는 항상 개방적이고 정직하며, 전문적이고 윤리적인 기준을 엄격히 준수합니다."
       }
@@ -84,27 +84,27 @@
       "heading": "우리가 하는 모든 일의 원칙",
       "items": [
         {
-          "icon": "목표",
+          "icon": "target",
           "title": "신뢰와 정확성을 통한 결과",
           "description": "우리의 사명은 신뢰할 수 있는 파트너가 되는 것이며, 지식과 시기적절한 정보를 바탕으로 고객에게 안정성과 명확한 비즈니스 의사결정 기반을 제공하는 것입니다."
         },
         {
-          "icon": "방패체크",
+          "icon": "shieldCheck",
           "title": "우리가 하는 모든 일에 책임감이 있습니다",
           "description": "모든 보고서, 모든 신청서, 모든 권고안에는 저희의 서명이 담겨 있습니다. 저희는 고객사의 비즈니스에서 정확성과 시기 준수가 얼마나 중요한지 잘 알기 때문에 업무에 대해 전적으로 책임을 집니다."
         },
         {
-          "icon": "사용자",
+          "icon": "users",
           "title": "스포트라이트를 받는 고객",
           "description": "신생 스타트업이든 다년간의 경험을 가진 회사든, 저희의 접근 방식은 항상 같습니다: 고객의 요구를 경청하고 이해하며 적응하여 맞춤형 솔루션을 제공합니다."
         },
         {
-          "icon": "찌릿",
+          "icon": "zap",
           "title": "디지털화를 발전 방향으로서",
           "description": "우리는 회계의 디지털화가 더 빠르고 효율적인 비즈니스의 열쇠라고 믿습니다. 그래서 우리는 고객들에게 재정에 대한 지속적인 통찰을 제공하기 위해 끊임없이 개선하고 새로운 솔루션을 도입하고 있습니다."
         },
         {
-          "icon": "잠금장치",
+          "icon": "lock",
           "title": "비즈니스 윤리 및 기밀 유지",
           "description": "비밀 유지 및 최고 윤리 기준 준수가 우리 업무의 근간입니다. 고객들은 자신의 데이터가 안전하게 유지되며, 우리의 조언은 항상 전문적이고 전문적인 의도에서 비롯된다는 것을 알고 있습니다."
         }
@@ -132,7 +132,7 @@
       "heading": "우리의 인증",
       "items": [
         {
-          "image": "/인증서/srrf-bih.png",
+          "image": "/certificates/srrf-bih.png",
           "title": "공인회계사",
           "description": "회계 직종 능력 증명 및 직함 취득"
         },
@@ -188,8 +188,8 @@
     },
     "methods": {
       "email": {
-        "title": "E-pošta",
-        "description": "Pošaljite nam email u bilo koje vrijeme",
+        "title": "이메일",
+        "description": "언제든지 이메일로 문의하세요",
         "value": "info@starthn.ba"
       },
       "location": {
@@ -225,7 +225,7 @@
       "success": "메시지 감사합니다. 24-48시간 이내에 연락드리겠습니다.",
       "error": "뭔가 잘못됐어. 다시 시도하시거나 직접 이메일을 보내주시기 바랍니다.",
       "fullName": "전체 이름 *",
-      "email": "Email adresa *",
+      "email": "이메일 주소 *",
       "company": "저희 소개",
       "subject": "주제 *",
       "message": "메시지 *",
@@ -239,11 +239,11 @@
       "validation": {
         "required": {
           "name": "전체 이름이 필요합니다.",
-          "email": "Potrebna je email adresa.",
+          "email": "이메일 주소는 필수입니다.",
           "subject": "주제를 선택해 주세요.",
           "message": "메시지는 필수입니다."
         },
-        "email": "Molimo unesite važeću email adresu.",
+        "email": "유효한 이메일 주소를 입력하세요.",
         "messageMinLength": "메시지는 최소 {{count}} 자 이상이어야 합니다."
       },
       "sending": "보내고 있어...",
@@ -304,7 +304,7 @@
       }
     },
     "aria": {
-      "email": "Pošaljite email {{name}}",
+      "email": "{{name}}에게 이메일 보내기",
       "linkedin": "{{name}} 링크드 프로필"
     },
     "culture": {
@@ -676,7 +676,7 @@
     "newsletter": {
       "title": "뉴스레터 구독하세요",
       "description": "최신 회계 팁, 세금 알림, 비즈니스 뉴스를 이메일로 받아보세요.",
-      "placeholder": "vasa.adresa@email.com",
+      "placeholder": "you@example.com",
       "button": "구독하세요",
       "note": "스팸 금지. 언제든지 로그아웃할 수 있습니다."
     },
@@ -722,9 +722,9 @@
       "firstNamePlaceholder": "John",
       "lastName": "성",
       "lastNamePlaceholder": "암컷",
-      "email": "Email adresa",
+      "email": "이메일 주소",
       "emailNotice": "이메일은 변경할 수 없습니다. 도움이 필요하면 지원팀에 연락하세요.",
-      "phone": "Broj telefona",
+      "phone": "전화번호",
       "phonePlaceholder": "+1 (555) 000-0000",
       "save": "저장 변경 사항"
     },
@@ -744,8 +744,8 @@
       "title": "알림 설정",
       "description": "업데이트와 알림을 받는 방식을 직접 통제하세요",
       "email": {
-        "title": "Email obavijesti",
-        "description": "Primajte obavijesti i obavijesti putem e-pošte"
+        "title": "이메일 알림",
+        "description": "이메일로 업데이트와 알림을 받습니다"
       },
       "sms": {
         "title": "SMS 알림",
@@ -768,8 +768,8 @@
     "subtitle": "소프트웨어 개발 서비스에 대한 도움을 받아보세요.",
     "cards": {
       "email": {
-        "title": "Email podrška",
-        "description": "Pošaljite nam email za bilo kakve upite"
+        "title": "이메일 지원",
+        "description": "문의 사항은 이메일로 보내주세요"
       },
       "project": {
         "title": "프로젝트에 대한 문의",
@@ -810,7 +810,7 @@
     },
     "categories": [
       {
-        "icon": "구름",
+        "icon": "cloud",
         "title": "클라우드 아키텍처",
         "description": "Azure, AWS, 그리고 클라우드 네이티브 폼",
         "resources": [
@@ -825,7 +825,7 @@
         ]
       },
       {
-        "icon": "뇌",
+        "icon": "brain",
         "title": "AI와 머신러닝",
         "description": "ML 모델, 데이터 과학, AI 통합",
         "resources": [
@@ -840,7 +840,7 @@
         ]
       },
       {
-        "icon": "설정",
+        "icon": "settings",
         "title": "DevOps 및 플랫폼",
         "description": "CI/CD, 코드로서의 인프라, 자동화",
         "resources": [
@@ -855,7 +855,7 @@
         ]
       },
       {
-        "icon": "코드",
+        "icon": "code",
         "title": "소프트웨어 개발",
         "description": ".NET, React, 그리고 현대 개발 관행",
         "resources": [
@@ -870,7 +870,7 @@
         ]
       },
       {
-        "icon": "데이터베이스",
+        "icon": "database",
         "title": "데이터 및 분석",
         "description": "BI, 데이터 웨어하우징, 분석 플랫폼",
         "resources": [

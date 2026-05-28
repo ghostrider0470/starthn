@@ -25,7 +25,7 @@
     },
     "features": [
       {
-        "icon": "Auszeichnung",
+        "icon": "award",
         "title": "Erfahrung und Fachwissen",
         "description": "Unser Team bringt ein Jahrzehnt praktische Erfahrung und Zertifikate im Bereich Buchhaltung mit."
       },
@@ -35,7 +35,7 @@
         "description": "Maßgeschneiderte Berichte und Budgets helfen Ihnen, fundierte Entscheidungen zu treffen."
       },
       {
-        "icon": "Settings2",
+        "icon": "settings2",
         "title": "Maßgeschneiderte Lösungen",
         "description": "Wir automatisieren Routineaufgaben mithilfe der Cloud und moderner Plattformen."
       },
@@ -84,7 +84,7 @@
       "heading": "Die Prinzipien hinter allem, was wir tun",
       "items": [
         {
-          "icon": "Ziel",
+          "icon": "target",
           "title": "Ergebnisse durch Vertrauen und Genauigkeit",
           "description": "Unsere Mission ist es, ein verlässlicher Partner zu sein, der mit seinem Wissen und zeitnahen Informationen den Kunden Sicherheit und eine klare Grundlage für Geschäftsentscheidungen bietet."
         },
@@ -94,7 +94,7 @@
           "description": "Jeder Bericht, jede Bewerbung und jede Empfehlung trägt unsere Unterschrift. Wir übernehmen die volle Verantwortung für unsere Arbeit, weil wir wissen, wie wichtig Genauigkeit und Pünktlichkeit im Geschäft unserer Kunden sind."
         },
         {
-          "icon": "Nutzer",
+          "icon": "users",
           "title": "Der Kunde im Rampenlicht",
           "description": "Ob es sich um ein Start-up handelt oder um ein Unternehmen mit vielen Jahren Erfahrung – unser Ansatz ist immer derselbe: Wir hören zu, verstehen und passen uns den Bedürfnissen des Kunden an und bieten maßgeschneiderte Lösungen an."
         },
@@ -104,7 +104,7 @@
           "description": "Wir sind überzeugt, dass die Digitalisierung der Buchhaltung der Schlüssel zu schnelleren und effizienteren Geschäften ist. Deshalb verbessern und führen wir ständig neue Lösungen ein, um unseren Kunden ständige Einblicke in ihre Finanzen zu geben."
         },
         {
-          "icon": "Lock",
+          "icon": "lock",
           "title": "Geschäftsethik und Vertraulichkeit",
           "description": "Die Wahrung der Vertraulichkeit und die Einhaltung der höchsten ethischen Standards bilden die Grundlage unserer Arbeit. Unsere Kunden wissen, dass ihre Daten sicher bleiben und dass unsere Beratung stets aus professioneller und fachkundiger Absicht beruht."
         }
@@ -132,7 +132,7 @@
       "heading": "Unsere Zertifizierungen",
       "items": [
         {
-          "image": "/Zertifikate/srrf-bih.png",
+          "image": "/certificates/srrf-bih.png",
           "title": "Wirtschaftsprüfer",
           "description": "Nachweis der Kompetenz und Erwerb eines Titels im Rechnungswesen"
         },
@@ -188,8 +188,8 @@
     },
     "methods": {
       "email": {
-        "title": "E-pošta",
-        "description": "Pošaljite nam email u bilo koje vrijeme",
+        "title": "E-Mail",
+        "description": "Senden Sie uns jederzeit eine E-Mail",
         "value": "info@starthn.ba"
       },
       "location": {
@@ -225,7 +225,7 @@
       "success": "Danke für deine Nachricht. Wir melden uns innerhalb von 24-48 Stunden bei Ihnen.",
       "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder senden Sie uns direkt eine E-Mail.",
       "fullName": "Vollständiger Name *",
-      "email": "Email adresa *",
+      "email": "E-Mail-Adresse *",
       "company": "Über uns",
       "subject": "Thema *",
       "message": "Nachricht *",
@@ -239,11 +239,11 @@
       "validation": {
         "required": {
           "name": "Ein vollständiger Name ist erforderlich.",
-          "email": "Potrebna je email adresa.",
+          "email": "E-Mail-Adresse ist erforderlich.",
           "subject": "Bitte wählen Sie ein Thema.",
           "message": "Die Nachricht ist verpflichtend."
         },
-        "email": "Molimo unesite važeću email adresu.",
+        "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
         "messageMinLength": "Die Nachricht muss mindestens {{count}} Zeichen lang sein."
       },
       "sending": "Ich schicke...",
@@ -304,7 +304,7 @@
       }
     },
     "aria": {
-      "email": "Pošaljite email {{name}}",
+      "email": "E-Mail an {{name}} senden",
       "linkedin": "{{name}} LinkedIn-Profil"
     },
     "culture": {
@@ -676,7 +676,7 @@
     "newsletter": {
       "title": "Abonnieren Sie unseren Newsletter",
       "description": "Erhalten Sie die neuesten Buchhaltungstipps, Steuerwarnungen und Geschäftsnachrichten direkt in Ihren Posteingang.",
-      "placeholder": "vasa.adresa@email.com",
+      "placeholder": "you@example.com",
       "button": "Abonnieren",
       "note": "Kein Spam. Melden Sie sich jederzeit aus."
     },
@@ -722,9 +722,9 @@
       "firstNamePlaceholder": "John",
       "lastName": "Nachname",
       "lastNamePlaceholder": "Doe",
-      "email": "Email adresa",
+      "email": "E-Mail-Adresse",
       "emailNotice": "Die E-Mail kann nicht geändert werden. Kontaktiere den Support, wenn du Hilfe brauchst.",
-      "phone": "Broj telefona",
+      "phone": "Telefonnummer",
       "phonePlaceholder": "+1 (555) 000-0000",
       "save": "Speicheränderungen"
     },
@@ -744,8 +744,8 @@
       "title": "Benachrichtigungseinstellungen",
       "description": "Kontrollieren Sie, wie Sie Updates und Benachrichtigungen erhalten",
       "email": {
-        "title": "Email obavijesti",
-        "description": "Primajte obavijesti i obavijesti putem e-pošte"
+        "title": "E-Mail-Benachrichtigungen",
+        "description": "Erhalten Sie Updates und Benachrichtigungen per E-Mail"
       },
       "sms": {
         "title": "SMS-Benachrichtigungen",
@@ -768,8 +768,8 @@
     "subtitle": "Holen Sie sich Hilfe mit unseren Softwareentwicklungsdienstleistungen.",
     "cards": {
       "email": {
-        "title": "Email podrška",
-        "description": "Pošaljite nam email za bilo kakve upite"
+        "title": "E-Mail-Support",
+        "description": "Senden Sie uns bei Fragen eine E-Mail"
       },
       "project": {
         "title": "Anfragen zum Projekt",
@@ -810,7 +810,7 @@
     },
     "categories": [
       {
-        "icon": "Cloud",
+        "icon": "cloud",
         "title": "Cloud-Architektur",
         "description": "Azure, AWS und cloud-native Formen",
         "resources": [
@@ -825,7 +825,7 @@
         ]
       },
       {
-        "icon": "Gehirn",
+        "icon": "brain",
         "title": "KI und maschinelles Lernen",
         "description": "ML-Modelle, Data Science und KI-Integration",
         "resources": [
@@ -840,7 +840,7 @@
         ]
       },
       {
-        "icon": "Einstellungen",
+        "icon": "settings",
         "title": "DevOps & Plattform",
         "description": "CI/CD, Infrastruktur als Code, Automatisierung",
         "resources": [
@@ -855,7 +855,7 @@
         ]
       },
       {
-        "icon": "Code",
+        "icon": "code",
         "title": "Softwareentwicklung",
         "description": ".NET, React und moderne Entwicklungspraktiken",
         "resources": [
@@ -870,7 +870,7 @@
         ]
       },
       {
-        "icon": "Datenbank",
+        "icon": "database",
         "title": "Daten & Analytics",
         "description": "BI-, Data-Warehousing- und Analyseplattformen",
         "resources": [

@@ -25,32 +25,32 @@
     },
     "features": [
       {
-        "icon": "奖项",
+        "icon": "award",
         "title": "经验与专业",
         "description": "我们的团队拥有十年的会计实践经验和认证经验。"
       },
       {
-        "icon": "条形图3",
+        "icon": "barChart3",
         "title": "详细分析",
         "description": "定制报告和预算帮助您做出明智的决策。"
       },
       {
-        "icon": "场景2",
+        "icon": "settings2",
         "title": "定制解决方案",
         "description": "我们利用云和现代平台自动化日常任务。"
       },
       {
-        "icon": "用户检查",
+        "icon": "userCheck",
         "title": "个性化方法",
         "description": "我们以特别的关怀和专注对待每位客户，确保体验达到最高水平。"
       },
       {
-        "icon": "趋势上升",
+        "icon": "trendingUp",
         "title": "主动咨询",
         "description": "我们经常在节省和优化成为问题之前发现机会。"
       },
       {
-        "icon": "盾牌检查",
+        "icon": "shieldCheck",
         "title": "诚实与正直",
         "description": "我们的沟通始终坦诚开放，严格遵守专业和道德标准。"
       }
@@ -84,27 +84,27 @@
       "heading": "我们所做一切背后的原则",
       "items": [
         {
-          "icon": "目标",
+          "icon": "target",
           "title": "通过信任和准确性取得成果",
           "description": "我们的使命是成为一个可靠的合作伙伴，凭借其专业知识和及时的信息，为客户提供安全保障和明确的商业决策基础。"
         },
         {
-          "icon": "盾牌检查",
+          "icon": "shieldCheck",
           "title": "责任感在我们所做的一切中",
           "description": "每一份报告、每份申请和每一份推荐都带有我们的签名。我们对自己的工作负全部责任，因为我们深知准确性和及时性在客户业务中的重要性。"
         },
         {
-          "icon": "用户",
+          "icon": "users",
           "title": "成为焦点中的顾客",
           "description": "无论是刚起步的初创企业，还是拥有多年经验的公司，我们的方法始终如一：倾听、理解并适应客户需求，提供量身定制的解决方案。"
         },
         {
-          "icon": "电击",
+          "icon": "zap",
           "title": "数字化作为发展方向",
           "description": "我们相信，会计数字化是实现业务更快更高效的关键。这就是为什么我们不断改进并推出新解决方案，为客户提供对财务的持续洞察。"
         },
         {
-          "icon": "锁",
+          "icon": "lock",
           "title": "商业伦理与保密",
           "description": "保持保密和尊重最高道德标准是我们工作的基础。我们的客户知道他们的数据安全无虞，我们的建议始终源自专业和专家的意图。"
         }
@@ -132,17 +132,17 @@
       "heading": "我们的认证",
       "items": [
         {
-          "image": "/证书/srrf-bih.png",
+          "image": "/certificates/srrf-bih.png",
           "title": "注册会计师",
           "description": "会计专业能力证明及头衔取得"
         },
         {
-          "image": "/证书/毕马威专家.webp",
+          "image": "/certificates/kpmg-expert.webp",
           "title": "法务审计员",
           "description": "确认在金融法医领域具备额外专业知识"
         },
         {
-          "image": "/证书/award-consulting.webp",
+          "image": "/certificates/award-consulting.webp",
           "title": "欧盟基金——如何获得资助",
           "description": "了解申请流程及提取欧盟资金的可能性。"
         }
@@ -188,8 +188,8 @@
     },
     "methods": {
       "email": {
-        "title": "E-pošta",
-        "description": "Pošaljite nam email u bilo koje vrijeme",
+        "title": "电子邮件",
+        "description": "随时给我们发送电子邮件",
         "value": "info@starthn.ba"
       },
       "location": {
@@ -225,7 +225,7 @@
       "success": "谢谢你的留言。我们会在24-48小时内回复您。",
       "error": "出了点问题。请再试或直接给我们发邮件。",
       "fullName": "全名 *",
-      "email": "Email adresa *",
+      "email": "电子邮件地址 *",
       "company": "关于我们",
       "subject": "主题 *",
       "message": "信息 *",
@@ -239,11 +239,11 @@
       "validation": {
         "required": {
           "name": "需要提供全名。",
-          "email": "Potrebna je email adresa.",
+          "email": "电子邮件地址为必填项。",
           "subject": "请选择一个主题。",
           "message": "这条信息是必须的。"
         },
-        "email": "Molimo unesite važeću email adresu.",
+        "email": "请输入有效的电子邮件地址。",
         "messageMinLength": "信息必须至少有 {{count}} 个字符。"
       },
       "sending": "我正在发送......",
@@ -304,7 +304,7 @@
       }
     },
     "aria": {
-      "email": "Pošaljite email {{name}}",
+      "email": "给 {{name}} 发送电子邮件",
       "linkedin": "{{name}} LinkedIn简介"
     },
     "culture": {
@@ -676,7 +676,7 @@
     "newsletter": {
       "title": "订阅我们的新闻通讯",
       "description": "将最新的会计技巧、税务提醒和商业新闻直达您的邮箱。",
-      "placeholder": "vasa.adresa@email.com",
+      "placeholder": "you@example.com",
       "button": "订阅",
       "note": "没有垃圾信息。随时登出。"
     },
@@ -722,9 +722,9 @@
       "firstNamePlaceholder": "John",
       "lastName": "姓氏",
       "lastNamePlaceholder": "无名氏",
-      "email": "Email adresa",
+      "email": "电子邮件地址",
       "emailNotice": "邮箱不能更改。需要帮助时请联系客服。",
-      "phone": "Broj telefona",
+      "phone": "电话号码",
       "phonePlaceholder": "+1 (555) 000-0000",
       "save": "存档更改"
     },
@@ -744,8 +744,8 @@
       "title": "通知设置",
       "description": "控制您如何接收更新和通知",
       "email": {
-        "title": "Email obavijesti",
-        "description": "Primajte obavijesti i obavijesti putem e-pošte"
+        "title": "电子邮件通知",
+        "description": "通过电子邮件接收更新和提醒"
       },
       "sms": {
         "title": "短信通知",
@@ -768,8 +768,8 @@
     "subtitle": "获取我们的软件开发服务帮助。",
     "cards": {
       "email": {
-        "title": "Email podrška",
-        "description": "Pošaljite nam email za bilo kakve upite"
+        "title": "电子邮件支持",
+        "description": "如有任何问题，请给我们发送电子邮件"
       },
       "project": {
         "title": "关于该项目的咨询",
@@ -810,7 +810,7 @@
     },
     "categories": [
       {
-        "icon": "云",
+        "icon": "cloud",
         "title": "云架构",
         "description": "Azure、AWS 以及云原生表单",
         "resources": [
@@ -825,7 +825,7 @@
         ]
       },
       {
-        "icon": "大脑",
+        "icon": "brain",
         "title": "人工智能与机器学习",
         "description": "机器学习模型、数据科学与人工智能集成",
         "resources": [
@@ -840,7 +840,7 @@
         ]
       },
       {
-        "icon": "背景设定",
+        "icon": "settings",
         "title": "DevOps 与平台",
         "description": "CI/CD、基础设施即代码、自动化",
         "resources": [
@@ -855,7 +855,7 @@
         ]
       },
       {
-        "icon": "代码",
+        "icon": "code",
         "title": "软件开发",
         "description": ".NET、React 与现代开发实践",
         "resources": [
@@ -870,7 +870,7 @@
         ]
       },
       {
-        "icon": "数据库",
+        "icon": "database",
         "title": "数据与分析",
         "description": "商业智能、数据仓储和分析平台",
         "resources": [

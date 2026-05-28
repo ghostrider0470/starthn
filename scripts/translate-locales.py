@@ -93,7 +93,7 @@ def restore_interpolations(text: str) -> str:
 # ── JSON Flattening / Unflattening ──────────────────────────────────────────
 
 
-_SKIP_KEYS = frozenset({"href", "src", "url", "email", "phone"})
+_SKIP_KEYS = frozenset({"href", "src", "url", "email", "phone", "image", "avatar"})
 
 
 def flatten_json(obj: dict | list, prefix: str = "") -> list[tuple[str, str]]:

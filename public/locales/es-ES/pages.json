@@ -25,7 +25,7 @@
     },
     "features": [
       {
-        "icon": "Premio",
+        "icon": "award",
         "title": "Experiencia y conocimientos",
         "description": "Nuestro equipo aporta una década de práctica práctica y certificaciones en contabilidad."
       },
@@ -35,7 +35,7 @@
         "description": "Informes y presupuestos personalizados te ayudan a tomar decisiones informadas."
       },
       {
-        "icon": "Ajustes2",
+        "icon": "settings2",
         "title": "Soluciones personalizadas",
         "description": "Automatizamos tareas rutinarias usando la nube y plataformas modernas."
       },
@@ -84,7 +84,7 @@
       "heading": "Los principios detrás de todo lo que hacemos",
       "items": [
         {
-          "icon": "Objetivo",
+          "icon": "target",
           "title": "Resultados gracias a la confianza y la precisión",
           "description": "Nuestra misión es ser un socio fiable que, gracias a su conocimiento e información oportuna, proporcione a los clientes seguridad y una base clara para tomar decisiones empresariales."
         },
@@ -94,17 +94,17 @@
           "description": "Cada informe, cada solicitud y cada recomendación lleva nuestra firma. Asumimos toda la responsabilidad de nuestro trabajo, porque sabemos lo importantes que son la precisión y la puntualidad en el negocio de nuestros clientes."
         },
         {
-          "icon": "Usuarios",
+          "icon": "users",
           "title": "El cliente en el foco",
           "description": "Ya sea una startup que acaba de empezar o una empresa con muchos años de experiencia, nuestro enfoque siempre es el mismo: escuchamos, entendemos y nos adaptamos a las necesidades del cliente, ofreciendo soluciones a medida."
         },
         {
-          "icon": "Zap",
+          "icon": "zap",
           "title": "La digitalización como dirección de desarrollo",
           "description": "Creemos que la digitalización de la contabilidad es la clave para un negocio más rápido y eficiente. Por eso estamos constantemente mejorando e introduciendo nuevas soluciones para ofrecer a nuestros clientes una visión constante de sus finanzas."
         },
         {
-          "icon": "Cerradura",
+          "icon": "lock",
           "title": "Ética empresarial y confidencialidad",
           "description": "Mantener la confidencialidad y respetar los más altos estándares éticos son la base de nuestro trabajo. Nuestros clientes saben que sus datos permanecen seguros y que nuestros consejos siempre provienen de la intención profesional y de los expertos."
         }
@@ -132,7 +132,7 @@
       "heading": "Nuestras certificaciones",
       "items": [
         {
-          "image": "/certificados/srrf-bih.png",
+          "image": "/certificates/srrf-bih.png",
           "title": "Contable Certificado",
           "description": "Prueba de competencia y adquisición de un título en la profesión contable"
         },
@@ -142,7 +142,7 @@
           "description": "Confirmación de una experiencia adicional en el campo de la forense financiera"
         },
         {
-          "image": "/certificados/consultoría-premios.webp",
+          "image": "/certificates/award-consulting.webp",
           "title": "Fondos de la UE – Cómo conseguir subvenciones",
           "description": "Conocimiento del proceso de solicitud y de las posibilidades de retirar fondos de la UE."
         }
@@ -188,8 +188,8 @@
     },
     "methods": {
       "email": {
-        "title": "E-pošta",
-        "description": "Pošaljite nam email u bilo koje vrijeme",
+        "title": "Correo electrónico",
+        "description": "Envíanos un correo electrónico en cualquier momento",
         "value": "info@starthn.ba"
       },
       "location": {
@@ -225,7 +225,7 @@
       "success": "Gracias por tu mensaje. Nos pondremos en contacto con usted en un plazo de 24-48 horas.",
       "error": "Algo salió mal. Por favor, inténtalo de nuevo o envíanos un correo electrónico directamente.",
       "fullName": "Nombre completo *",
-      "email": "Email adresa *",
+      "email": "Correo electrónico *",
       "company": "Sobre nosotros",
       "subject": "Tema *",
       "message": "Mensaje *",
@@ -239,11 +239,11 @@
       "validation": {
         "required": {
           "name": "Se requiere un nombre completo.",
-          "email": "Potrebna je email adresa.",
+          "email": "El correo electrónico es obligatorio.",
           "subject": "Por favor, selecciona un tema.",
           "message": "El mensaje es obligatorio."
         },
-        "email": "Molimo unesite važeću email adresu.",
+        "email": "Introduce un correo electrónico válido.",
         "messageMinLength": "El mensaje debe tener al menos {{count}} caracteres."
       },
       "sending": "Estoy enviando...",
@@ -304,7 +304,7 @@
       }
     },
     "aria": {
-      "email": "Pošaljite email {{name}}",
+      "email": "Enviar correo electrónico a {{name}}",
       "linkedin": "{{name}} perfil de LinkedIn"
     },
     "culture": {
@@ -676,7 +676,7 @@
     "newsletter": {
       "title": "Suscríbete a nuestro boletín",
       "description": "Recibe los últimos consejos contables, alertas fiscales y noticias empresariales directamente en tu bandeja de entrada.",
-      "placeholder": "vasa.adresa@email.com",
+      "placeholder": "you@example.com",
       "button": "Suscríbete",
       "note": "Nada de spam. Cierra sesión en cualquier momento."
     },
@@ -722,9 +722,9 @@
       "firstNamePlaceholder": "John",
       "lastName": "Apellido",
       "lastNamePlaceholder": "Cierva",
-      "email": "Email adresa",
+      "email": "Correo electrónico",
       "emailNotice": "El correo electrónico no se puede cambiar. Contacta con el soporte si necesitas ayuda.",
-      "phone": "Broj telefona",
+      "phone": "Número de teléfono",
       "phonePlaceholder": "+1 (555) 000-0000",
       "save": "Cambios de guardado"
     },
@@ -744,8 +744,8 @@
       "title": "Configuración de notificaciones",
       "description": "Controla cómo recibes actualizaciones y notificaciones",
       "email": {
-        "title": "Email obavijesti",
-        "description": "Primajte obavijesti i obavijesti putem e-pošte"
+        "title": "Notificaciones por correo electrónico",
+        "description": "Recibe actualizaciones y avisos por correo electrónico"
       },
       "sms": {
         "title": "Notificaciones SMS",
@@ -768,8 +768,8 @@
     "subtitle": "Obtén ayuda con nuestros servicios de desarrollo de software.",
     "cards": {
       "email": {
-        "title": "Email podrška",
-        "description": "Pošaljite nam email za bilo kakve upite"
+        "title": "Soporte por correo electrónico",
+        "description": "Envíanos un correo para cualquier consulta"
       },
       "project": {
         "title": "Consultas sobre el proyecto",
@@ -810,7 +810,7 @@
     },
     "categories": [
       {
-        "icon": "Nube",
+        "icon": "cloud",
         "title": "Arquitectura de la nube",
         "description": "Azure, AWS y formularios nativos en la nube",
         "resources": [
@@ -825,7 +825,7 @@
         ]
       },
       {
-        "icon": "Cerebro",
+        "icon": "brain",
         "title": "IA y aprendizaje automático",
         "description": "Modelos de ML, Ciencia de Datos e Integración de IA",
         "resources": [
@@ -840,7 +840,7 @@
         ]
       },
       {
-        "icon": "Escenarios",
+        "icon": "settings",
         "title": "DevOps y Plataforma",
         "description": "CI/CD, infraestructura como código, automatización",
         "resources": [
@@ -855,7 +855,7 @@
         ]
       },
       {
-        "icon": "Código",
+        "icon": "code",
         "title": "Desarrollo de software",
         "description": ".NET, React y prácticas modernas de desarrollo",
         "resources": [
@@ -870,7 +870,7 @@
         ]
       },
       {
-        "icon": "Base de datos",
+        "icon": "database",
         "title": "Datos y Análisis",
         "description": "Plataformas de BI, almacenamiento de datos y analítica",
         "resources": [

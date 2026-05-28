@@ -25,7 +25,7 @@
     },
     "features": [
       {
-        "icon": "Nagrada",
+        "icon": "award",
         "title": "Iskustvo i stručnost",
         "description": "Naš tim donosi deceniju praktične prakse i sertifikata u računovodstvu."
       },
@@ -35,7 +35,7 @@
         "description": "Prilagođeni izveštaji i budžeti pomažu vam da donosite informisane odluke."
       },
       {
-        "icon": "Podešavanja2",
+        "icon": "settings2",
         "title": "Prilagođena rešenja",
         "description": "Automatizujemo rutinske zadatke koristeći oblak i moderne platforme."
       },
@@ -45,12 +45,12 @@
         "description": "Svakom klijentu pristupamo sa posebnom pažnjom i posvećenošću, obezbeđujući iskustvo na najvišem nivou."
       },
       {
-        "icon": "Pretraživanje",
+        "icon": "trendingUp",
         "title": "Proaktivno savetovanje",
         "description": "Redovno identifikujemo mogućnosti za uštedu i optimizaciju pre nego što postanu problem."
       },
       {
-        "icon": "štit Provera",
+        "icon": "shieldCheck",
         "title": "Iskrenost i integritet",
         "description": "Naša komunikacija je uvek otvorena i iskrena, uz striktno poštovanje profesionalnih i etičkih standarda."
       }
@@ -84,27 +84,27 @@
       "heading": "Principi iza svega što radimo",
       "items": [
         {
-          "icon": "Cilj",
+          "icon": "target",
           "title": "Rezultati kroz poverenje i tačnost",
           "description": "Naša misija je da budemo pouzdan partner, koji svojim znanjem i pravovremenim informacijama klijentima pruža sigurnost i jasnu osnovu za donošenje poslovnih odluka."
         },
         {
-          "icon": "štit Provera",
+          "icon": "shieldCheck",
           "title": "Odgovornost u svemu što radimo",
           "description": "Svaki izveštaj, svaka aplikacija i svaka preporuka nosi naš potpis. Preuzimamo punu odgovornost za naš rad, jer znamo koliko su tačnost i pravovremenost važni u poslovanju naših klijenata."
         },
         {
-          "icon": "Korisniцi",
+          "icon": "users",
           "title": "Kupac u centru pažnje",
           "description": "Bilo da se radi o startupu koji tek počinje ili kompaniji sa dugogodišnjim iskustvom, naš pristup je uvek isti: slušamo, razumemo i prilagođavamo se potrebama klijenta, nudeći rešenja po meri."
         },
         {
-          "icon": "mazohizam",
+          "icon": "zap",
           "title": "Digitalizacija kao pravac razvoja",
           "description": "Smatramo da je digitalizacija računovodstva ključ bržeg i efikasnijeg poslovanja. Zato se stalno usavršavamo i uvodimo nova rešenja kako bismo našim klijentima pružili stalan uvid u njihove finansije."
         },
         {
-          "icon": "Zaključavanje",
+          "icon": "lock",
           "title": "Poslovna etika i poverljivost",
           "description": "Održavanje poverljivosti i poštovanje najviših etičkih standarda su osnova našeg rada. Naši klijenti znaju da njihovi podaci ostaju bezbedni i da naši saveti uvek dolaze iz profesionalne i stručne namere."
         }
@@ -132,12 +132,12 @@
       "heading": "Naši sertifikati",
       "items": [
         {
-          "image": "/sertifikati/srrf-bih.png",
+          "image": "/certificates/srrf-bih.png",
           "title": "Sertifikovani računovođa",
           "description": "Dokaz o kompetentnosti i sticanje titule u računovodstvenoj profesiji"
         },
         {
-          "image": "/certificates/kpmg-ekpert.webp",
+          "image": "/certificates/kpmg-expert.webp",
           "title": "Forenzički revizor",
           "description": "Potvrda dodatne ekspertize u oblasti finansijske forenzike"
         },
@@ -810,7 +810,7 @@
     },
     "categories": [
       {
-        "icon": "oblak",
+        "icon": "cloud",
         "title": "Arhitektura oblaka",
         "description": "Azure, AVS i oblici u oblaku",
         "resources": [
@@ -825,7 +825,7 @@
         ]
       },
       {
-        "icon": "Mozak",
+        "icon": "brain",
         "title": "AI i mašinsko učenje",
         "description": "ML modeli, nauka o podacima i AI integracija",
         "resources": [
@@ -840,7 +840,7 @@
         ]
       },
       {
-        "icon": "Podešavanja",
+        "icon": "settings",
         "title": "DevOps i platforma",
         "description": "CI / CD, infrastruktura kao kod, automatizacija",
         "resources": [
@@ -855,7 +855,7 @@
         ]
       },
       {
-        "icon": "Kod",
+        "icon": "code",
         "title": "Razvoj softvera",
         "description": ".NET, React, i savremene razvojne prakse",
         "resources": [
@@ -870,7 +870,7 @@
         ]
       },
       {
-        "icon": "Mapa sajta",
+        "icon": "database",
         "title": "Podaci i analitika",
         "description": "BI, skladištenje podataka i analitičke platforme",
         "resources": [

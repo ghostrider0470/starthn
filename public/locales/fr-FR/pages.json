@@ -25,7 +25,7 @@
     },
     "features": [
       {
-        "icon": "Distinction",
+        "icon": "award",
         "title": "Expérience et expertise",
         "description": "Notre équipe apporte une décennie de pratique pratique et des certifications en comptabilité."
       },
@@ -35,7 +35,7 @@
         "description": "Des rapports et budgets personnalisés vous aident à prendre des décisions éclairées."
       },
       {
-        "icon": "Paramètres 2",
+        "icon": "settings2",
         "title": "Solutions personnalisées",
         "description": "Nous automatisons les tâches routinières en utilisant le cloud et les plateformes modernes."
       },
@@ -45,7 +45,7 @@
         "description": "Nous abordons chaque client avec un soin et un dévouement particuliers, garantissant une expérience au plus haut niveau."
       },
       {
-        "icon": "tendanceHausse",
+        "icon": "trendingUp",
         "title": "Conseil proactif",
         "description": "Nous identifions régulièrement des opportunités d’épargne et d’optimisation avant qu’elles ne deviennent un problème."
       },
@@ -84,7 +84,7 @@
       "heading": "Les principes derrière tout ce que nous faisons",
       "items": [
         {
-          "icon": "Cible",
+          "icon": "target",
           "title": "Résultats grâce à la confiance et à la précision",
           "description": "Notre mission est d’être un partenaire fiable, qui, grâce à sa connaissance et à ses informations en temps opportun, offre aux clients une sécurité et une base claire pour prendre des décisions commerciales."
         },
@@ -94,17 +94,17 @@
           "description": "Chaque rapport, chaque demande et chaque recommandation porte notre signature. Nous assumons l’entière responsabilité de notre travail, car nous savons à quel point la précision et la rapidité sont importantes dans le secteur de nos clients."
         },
         {
-          "icon": "Utilisateurs",
+          "icon": "users",
           "title": "Le client sous les projecteurs",
           "description": "Qu’il s’agisse d’une startup débutante ou d’une entreprise avec de nombreuses années d’expérience, notre approche reste toujours la même : nous écoutons, comprenons et nous adaptons aux besoins du client, en proposant des solutions sur mesure."
         },
         {
-          "icon": "Zap",
+          "icon": "zap",
           "title": "La numérisation comme orientation de développement",
           "description": "Nous pensons que la numérisation de la comptabilité est la clé d’une activité plus rapide et plus efficace. C’est pourquoi nous améliorons constamment et introduisons de nouvelles solutions pour offrir à nos clients un aperçu constant de leurs finances."
         },
         {
-          "icon": "Serrure",
+          "icon": "lock",
           "title": "Éthique commerciale et confidentialité",
           "description": "Maintenir la confidentialité et respecter les plus hauts standards éthiques sont la base de notre travail. Nos clients savent que leurs données restent protégées et que nos conseils reposent toujours sur l’intention professionnelle et experte."
         }
@@ -132,7 +132,7 @@
       "heading": "Nos certifications",
       "items": [
         {
-          "image": "/certificats/srrf-bih.png",
+          "image": "/certificates/srrf-bih.png",
           "title": "Expert-comptable agréé",
           "description": "Preuve de compétence et acquisition d’un titre dans la profession comptable"
         },
@@ -142,7 +142,7 @@
           "description": "Confirmation d’une expertise supplémentaire dans le domaine de la criminalistique financière"
         },
         {
-          "image": "/certificats/award-consulting.webp",
+          "image": "/certificates/award-consulting.webp",
           "title": "Fonds de l’UE – Comment obtenir des subventions",
           "description": "Connaissance du processus de demande et des possibilités de retrait des fonds de l’UE."
         }
@@ -188,8 +188,8 @@
     },
     "methods": {
       "email": {
-        "title": "E-pošta",
-        "description": "Pošaljite nam email u bilo koje vrijeme",
+        "title": "E-mail",
+        "description": "Envoyez-nous un e-mail à tout moment",
         "value": "info@starthn.ba"
       },
       "location": {
@@ -225,7 +225,7 @@
       "success": "Merci pour votre message. Nous vous recontacterons dans les 24 à 48 heures.",
       "error": "Quelque chose a mal tourné. Veuillez réessayer ou nous envoyer un e-mail directement.",
       "fullName": "Nom complet *",
-      "email": "Email adresa *",
+      "email": "Adresse e-mail *",
       "company": "À propos de nous",
       "subject": "Sujet *",
       "message": "Message *",
@@ -239,11 +239,11 @@
       "validation": {
         "required": {
           "name": "Un nom complet est requis.",
-          "email": "Potrebna je email adresa.",
+          "email": "L'adresse e-mail est obligatoire.",
           "subject": "Veuillez choisir un sujet.",
           "message": "Le message est obligatoire."
         },
-        "email": "Molimo unesite važeću email adresu.",
+        "email": "Veuillez saisir une adresse e-mail valide.",
         "messageMinLength": "Le message doit faire au moins {{count}} caractères."
       },
       "sending": "J’envoie...",
@@ -304,7 +304,7 @@
       }
     },
     "aria": {
-      "email": "Pošaljite email {{name}}",
+      "email": "Envoyer un e-mail à {{name}}",
       "linkedin": "{{name}} profil LinkedIn"
     },
     "culture": {
@@ -676,7 +676,7 @@
     "newsletter": {
       "title": "Abonnez-vous à notre newsletter",
       "description": "Recevez les dernières astuces comptables, alertes fiscales et actualités professionnelles directement dans votre boîte mail.",
-      "placeholder": "vasa.adresa@email.com",
+      "placeholder": "you@example.com",
       "button": "Abonnez-vous",
       "note": "Pas de spam. Déconnectez-vous à tout moment."
     },
@@ -722,9 +722,9 @@
       "firstNamePlaceholder": "John",
       "lastName": "Nom de famille",
       "lastNamePlaceholder": "Doe",
-      "email": "Email adresa",
+      "email": "Adresse e-mail",
       "emailNotice": "L’email ne peut pas être modifié. Contactez le support si vous avez besoin d’aide.",
-      "phone": "Broj telefona",
+      "phone": "Numéro de téléphone",
       "phonePlaceholder": "+1 (555) 000-0000",
       "save": "Modifications des sauvegardes"
     },
@@ -744,8 +744,8 @@
       "title": "Paramètres de notification",
       "description": "Contrôlez la manière dont vous recevez les mises à jour et les notifications",
       "email": {
-        "title": "Email obavijesti",
-        "description": "Primajte obavijesti i obavijesti putem e-pošte"
+        "title": "Notifications par e-mail",
+        "description": "Recevez des mises à jour et des alertes par e-mail"
       },
       "sms": {
         "title": "Notifications SMS",
@@ -768,8 +768,8 @@
     "subtitle": "Obtenez de l’aide avec nos services de développement logiciel.",
     "cards": {
       "email": {
-        "title": "Email podrška",
-        "description": "Pošaljite nam email za bilo kakve upite"
+        "title": "Assistance par e-mail",
+        "description": "Envoyez-nous un e-mail pour toute demande"
       },
       "project": {
         "title": "Demandes concernant le projet",
@@ -810,7 +810,7 @@
     },
     "categories": [
       {
-        "icon": "Cloud",
+        "icon": "cloud",
         "title": "Architecture cloud",
         "description": "Azure, AWS et formulaires natifs cloud",
         "resources": [
@@ -825,7 +825,7 @@
         ]
       },
       {
-        "icon": "Cerveau",
+        "icon": "brain",
         "title": "IA et apprentissage automatique",
         "description": "Modèles ML, Data Science et Intégration de l’IA",
         "resources": [
@@ -840,7 +840,7 @@
         ]
       },
       {
-        "icon": "Décors",
+        "icon": "settings",
         "title": "DevOps & Plateforme",
         "description": "CI/CD, infrastructure en tant que code, automatisation",
         "resources": [
@@ -855,7 +855,7 @@
         ]
       },
       {
-        "icon": "Code",
+        "icon": "code",
         "title": "Développement logiciel",
         "description": ".NET, React et pratiques modernes de développement",
         "resources": [
@@ -870,7 +870,7 @@
         ]
       },
       {
-        "icon": "Base de données",
+        "icon": "database",
         "title": "Données & Analytique",
         "description": "Plateformes de BI, d’entreposage de données et d’analyse",
         "resources": [
