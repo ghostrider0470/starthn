@@ -114,7 +114,7 @@ public class TranslationService : ITranslationService
     /// exploits that to minimize API calls while staying within rate limits.
     /// </summary>
     public async Task<Dictionary<string, BlogPostTranslation>> TranslateBlogPostBatchAsync(
-        BlogPostEntity post, List<string> targetLangs)
+        BlogPostEntity post, List<string> targetLangs, string sourceLang = "en")
     {
         var results = new Dictionary<string, BlogPostTranslation>();
         if (targetLangs.Count == 0) return results;
@@ -127,7 +127,7 @@ public class TranslationService : ITranslationService
         // Scale down target langs per request based on content size.
         var totalChars = allTexts.Sum(t => t.Length);
         var maxLangs = Math.Max(2, Math.Min(MaxTargetLanguagesPerRequest, 45000 / Math.Max(1, totalChars)));
-        _logger.LogInformation("Blog batch translate: {Chars} chars, {MaxLangs} langs/request", totalChars, maxLangs);
+        _logger.LogInformation("Blog batch translate: {Chars} chars, {MaxLangs} langs/request, source={Source}", totalChars, maxLangs, sourceLang);
 
         var langChunks = targetLangs.Chunk(maxLangs).ToList();
 
@@ -136,7 +136,7 @@ public class TranslationService : ITranslationService
             try
             {
                 var toParams = string.Join("&", chunk.Select(l => $"to={Uri.EscapeDataString(l)}"));
-                var url = $"{_endpoint}/translate?api-version=3.0&from=en&{toParams}&textType=html";
+                var url = $"{_endpoint}/translate?api-version=3.0&from={Uri.EscapeDataString(sourceLang)}&{toParams}&textType=html";
 
                 var body = allTexts.Select(t => new TranslationRequestItem { Text = t }).ToList();
 

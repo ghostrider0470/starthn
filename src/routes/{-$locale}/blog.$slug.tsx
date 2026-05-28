@@ -219,6 +219,11 @@ function BlogPostPage() {
           excerpt={post.excerpt}
           author={post.author}
           category={localizeBlogCategory(categories, post.category, currentLocale)}
+          subcategory={
+            post.subcategory
+              ? localizeBlogCategory(categories, post.subcategory, currentLocale)
+              : undefined
+          }
           publishedAt={post.publishedAt}
           readTime={localizeBlogReadTime(t, post.readTime)}
           content={post.content}

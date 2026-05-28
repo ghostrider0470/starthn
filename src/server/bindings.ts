@@ -32,4 +32,6 @@ export type Bindings = {
   GOOGLE_CLIENT_SECRET: string
   /** "true" = return 503 for all write endpoints during cutover window */
   MAINTENANCE_MODE: string
+  JWT_ISSUER: string
+  JWT_AUDIENCE: string
 }

@@ -56,18 +56,18 @@ export function transformBlogPost(doc: Record<string, any>): {
       title: doc.title,
       excerpt: doc.excerpt ?? null,
       content: typeof doc.content === 'string' ? doc.content : JSON.stringify(doc.content ?? []),
-      isPublished: doc.isPublished ? 1 : 0,
-      isFeatured: doc.isFeatured ? 1 : 0,
-      publishedAt: doc.publishedAt ?? null,
-      readTime: doc.readTime ?? null,
+      is_published: doc.isPublished ? 1 : 0,
+      is_featured: doc.isFeatured ? 1 : 0,
+      published_at: doc.publishedAt ?? null,
+      read_time: doc.readTime ?? null,
       category: doc.category ?? null,
       subcategory: doc.subcategory ?? null,
-      coverImage: doc.coverImage ?? null,
-      bannerImage: doc.bannerImage ?? null,
-      authorId: doc.authorId ?? null,
-      authorName: doc.author ?? doc.authorName ?? null,
-      createdAt: doc.createdAt ?? new Date().toISOString(),
-      updatedAt: doc.updatedAt ?? new Date().toISOString(),
+      cover_image: doc.coverImage ?? null,
+      banner_image: doc.bannerImage ?? null,
+      author_id: doc.authorId ?? null,
+      author_name: doc.author ?? doc.authorName ?? null,
+      created_at: doc.createdAt ?? new Date().toISOString(),
+      updated_at: doc.updatedAt ?? new Date().toISOString(),
     },
     tagSlugs: Array.isArray(doc.tags) ? doc.tags : [],
   }
@@ -107,26 +107,26 @@ export function transformUser(doc: Record<string, any>): {
     user: {
       id: doc.id,
       email: doc.email,
-      passwordHash: doc.passwordHash ?? null,
-      firstName: doc.firstName ?? '',
-      lastName: doc.lastName ?? '',
-      phoneNumber: doc.phoneNumber ?? null,
-      isActive: doc.isActive ? 1 : 0,
-      isOptedOut: doc.isOptedOut ? 1 : 0,
-      emailNotifications: doc.emailNotifications !== false ? 1 : 0,
-      smsNotifications: doc.smsNotifications ? 1 : 0,
-      avatarUrl: doc.avatarUrl ?? null,
+      password_hash: doc.passwordHash ?? null,
+      first_name: doc.firstName ?? '',
+      last_name: doc.lastName ?? '',
+      phone_number: doc.phoneNumber ?? null,
+      is_active: doc.isActive ? 1 : 0,
+      is_opted_out: doc.isOptedOut ? 1 : 0,
+      email_notifications: doc.emailNotifications !== false ? 1 : 0,
+      sms_notifications: doc.smsNotifications ? 1 : 0,
+      avatar_url: doc.avatarUrl ?? null,
       bio: doc.bio ?? null,
       profession: doc.profession ?? null,
       expertise: JSON.stringify(doc.expertise ?? []),
-      socialLinkedin: socialLinks.linkedIn ?? null,
-      socialTwitter: socialLinks.twitter ?? null,
-      socialGithub: socialLinks.gitHub ?? null,
-      socialWebsite: socialLinks.website ?? null,
+      social_linkedin: socialLinks.linkedIn ?? null,
+      social_twitter: socialLinks.twitter ?? null,
+      social_github: socialLinks.gitHub ?? null,
+      social_website: socialLinks.website ?? null,
       slug: doc.slug ?? null,
-      pageContent: JSON.stringify(doc.pageContent ?? []),
-      createdAt: doc.createdAt ?? new Date().toISOString(),
-      updatedAt: doc.updatedAt ?? new Date().toISOString(),
+      page_content: JSON.stringify(doc.pageContent ?? []),
+      created_at: doc.createdAt ?? new Date().toISOString(),
+      updated_at: doc.updatedAt ?? new Date().toISOString(),
     },
     roleNames: Array.isArray(doc.roles) ? doc.roles : [],
   }
@@ -147,9 +147,9 @@ export function transformCategory(doc: Record<string, any>): {
       id: doc.id,
       slug: doc.slug,
       label: doc.label,
-      parentId: doc.parentId ?? null,
-      createdAt: doc.createdAt ?? new Date().toISOString(),
-      updatedAt: doc.updatedAt ?? new Date().toISOString(),
+      parent_id: doc.parentId ?? null,
+      created_at: doc.createdAt ?? new Date().toISOString(),
+      updated_at: doc.updatedAt ?? new Date().toISOString(),
     },
     translations,
   }
@@ -170,8 +170,8 @@ export function transformTag(doc: Record<string, any>): {
       id: doc.id,
       slug: doc.slug,
       label: doc.label,
-      createdAt: doc.createdAt ?? new Date().toISOString(),
-      updatedAt: doc.updatedAt ?? new Date().toISOString(),
+      created_at: doc.createdAt ?? new Date().toISOString(),
+      updated_at: doc.updatedAt ?? new Date().toISOString(),
     },
     translations,
   }
@@ -185,9 +185,9 @@ export function transformRole(doc: Record<string, any>): Record<string, any> | n
     slug: doc.slug ?? doc.name.toLowerCase().replace(/\s+/g, '-'),
     description: doc.description ?? null,
     permissions: typeof doc.permissions === 'string' ? doc.permissions : JSON.stringify(doc.permissions ?? []),
-    isSystem: doc.isSystem ? 1 : 0,
-    createdAt: doc.createdAt ?? new Date().toISOString(),
-    updatedAt: doc.updatedAt ?? new Date().toISOString(),
+    is_system: doc.isSystem ? 1 : 0,
+    created_at: doc.createdAt ?? new Date().toISOString(),
+    updated_at: doc.updatedAt ?? new Date().toISOString(),
   }
 }
 
@@ -232,16 +232,16 @@ export function transformCaseStudy(doc: Record<string, any>): {
       client: doc.client ?? null,
       industry: doc.industry ?? null,
       description: doc.description ?? null,
-      executiveSummary: doc.executiveSummary ?? null,
+      executive_summary: doc.executiveSummary ?? null,
       challenge: doc.challenge ?? null,
       solution: doc.solution ?? null,
-      techStack: JSON.stringify(doc.techStack ?? []),
+      tech_stack: JSON.stringify(doc.techStack ?? []),
       tags: JSON.stringify(doc.tags ?? []),
-      isPublished: doc.isPublished ? 1 : 0,
-      isFeatured: doc.isFeatured ? 1 : 0,
-      coverImage: doc.coverImage ?? null,
-      createdAt: doc.createdAt ?? new Date().toISOString(),
-      updatedAt: doc.updatedAt ?? new Date().toISOString(),
+      is_published: doc.isPublished ? 1 : 0,
+      is_featured: doc.isFeatured ? 1 : 0,
+      cover_image: doc.coverImage ?? null,
+      created_at: doc.createdAt ?? new Date().toISOString(),
+      updated_at: doc.updatedAt ?? new Date().toISOString(),
     },
     decisions,
     results,
@@ -305,7 +305,7 @@ async function exportFromCosmos(outDir: string) {
 
 // ─── SQL import file generation ──────────────────────────────
 
-function generateImportSql(inDir: string): { sqlFiles: Map<string, string[]>; counts: Record<string, number> } {
+export function generateImportSql(inDir: string): { sqlFiles: Map<string, string[]>; counts: Record<string, number> } {
   const sqlFiles = new Map<string, string[]>()
   const counts: Record<string, number> = {}
 
@@ -363,7 +363,7 @@ function generateImportSql(inDir: string): { sqlFiles: Map<string, string[]>; co
     stmts.push(toInsertSql('blog_posts', result.post))
     for (const tagSlug of result.tagSlugs) {
       stmts.push(
-        `INSERT OR IGNORE INTO blog_post_tags (post_id, tag_id) SELECT ${esc(result.post.id)}, id FROM tags WHERE slug = ${esc(tagSlug)};`,
+        `INSERT OR IGNORE INTO blog_post_tags (post_id, tag_id) SELECT ${esc(result.post.id)}, id FROM tags WHERE slug = ${esc(tagSlug)} OR label = ${esc(tagSlug)};`,
       )
     }
   }

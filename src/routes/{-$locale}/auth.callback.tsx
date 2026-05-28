@@ -82,7 +82,11 @@ function OAuthCallback() {
           const tokenResponse = await oauthService.exchangeCodeForTokens(code, 'Microsoft', state)
           console.log('[OAuth] Exchange response:', { hasIdToken: !!tokenResponse.id_token, hasAccessToken: !!tokenResponse.access_token })
           if (_cancelled) return
-          await externalLogin({ provider: 'Microsoft', idToken: tokenResponse.id_token })
+          await externalLogin({
+            provider: 'Microsoft',
+            idToken: tokenResponse.id_token,
+            accessToken: tokenResponse.access_token,
+          })
           console.log('[OAuth] External login complete, stored token:', !!localStorage.getItem('accessToken'))
           if (_cancelled) return
           navigateAfterLogin(currentLocale, navigate)
@@ -92,7 +96,11 @@ function OAuthCallback() {
         if (code && state?.startsWith('Google_')) {
           const tokenResponse = await oauthService.exchangeCodeForTokens(code, 'Google', state)
           if (_cancelled) return
-          await externalLogin({ provider: 'Google', idToken: tokenResponse.id_token })
+          await externalLogin({
+            provider: 'Google',
+            idToken: tokenResponse.id_token,
+            accessToken: tokenResponse.access_token,
+          })
           if (_cancelled) return
           navigateAfterLogin(currentLocale, navigate)
           return

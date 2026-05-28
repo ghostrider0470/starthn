@@ -51,14 +51,34 @@ const ENTITY_HANDLERS: Record<
 
     const stmts: PreparedStatement[] = [
       {
-        sql: `INSERT OR REPLACE INTO blog_posts
-          (id, slug, title, excerpt, content, is_published, is_featured,
+        // Use upsert (ON CONFLICT) instead of INSERT OR REPLACE so that
+        // D1-only fields like `lang` are preserved when Azure doesn't send them.
+        sql: `INSERT INTO blog_posts
+          (id, slug, lang, title, excerpt, content, is_published, is_featured,
            published_at, read_time, category, subcategory, cover_image,
            banner_image, author_id, author_name, created_at, updated_at)
-          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ON CONFLICT(id) DO UPDATE SET
+          slug         = excluded.slug,
+          lang         = COALESCE(excluded.lang, lang),
+          title        = excluded.title,
+          excerpt      = excluded.excerpt,
+          content      = excluded.content,
+          is_published = excluded.is_published,
+          is_featured  = excluded.is_featured,
+          published_at = excluded.published_at,
+          read_time    = excluded.read_time,
+          category     = excluded.category,
+          subcategory  = excluded.subcategory,
+          cover_image  = excluded.cover_image,
+          banner_image = excluded.banner_image,
+          author_id    = excluded.author_id,
+          author_name  = excluded.author_name,
+          updated_at   = excluded.updated_at`,
         params: [
           item.id,
           item.slug,
+          item.lang ?? null,
           item.title,
           item.excerpt,
           JSON.stringify(item.content ?? []),
@@ -84,11 +104,11 @@ const ENTITY_HANDLERS: Record<
       sql: `DELETE FROM blog_post_tags WHERE post_id = ?`,
       params: [item.id],
     })
-    for (const tagSlug of tags) {
+    for (const tagValue of tags) {
       stmts.push({
         sql: `INSERT OR IGNORE INTO blog_post_tags (post_id, tag_id)
-          SELECT ?, id FROM tags WHERE slug = ?`,
-        params: [item.id, tagSlug],
+          SELECT ?, id FROM tags WHERE slug = ? OR label = ?`,
+        params: [item.id, tagValue, tagValue],
       })
     }
 
@@ -170,11 +190,18 @@ const ENTITY_HANDLERS: Record<
 
     const stmts: PreparedStatement[] = [
       {
-        sql: `INSERT OR REPLACE INTO categories (id, slug, label, parent_id, created_at, updated_at)
-          VALUES (?, ?, ?, ?, ?, ?)`,
+        sql: `INSERT INTO categories (id, slug, lang, label, parent_id, created_at, updated_at)
+          VALUES (?, ?, ?, ?, ?, ?, ?)
+        ON CONFLICT(id) DO UPDATE SET
+          slug      = excluded.slug,
+          lang      = COALESCE(excluded.lang, lang),
+          label     = excluded.label,
+          parent_id = excluded.parent_id,
+          updated_at = excluded.updated_at`,
         params: [
           item.id,
           item.slug,
+          item.lang ?? null,
           item.label,
           item.parentId,
           item.createdAt,
@@ -210,11 +237,17 @@ const ENTITY_HANDLERS: Record<
 
     const stmts: PreparedStatement[] = [
       {
-        sql: `INSERT OR REPLACE INTO tags (id, slug, label, created_at, updated_at)
-          VALUES (?, ?, ?, ?, ?)`,
+        sql: `INSERT INTO tags (id, slug, lang, label, created_at, updated_at)
+          VALUES (?, ?, ?, ?, ?, ?)
+        ON CONFLICT(id) DO UPDATE SET
+          slug      = excluded.slug,
+          lang      = COALESCE(excluded.lang, lang),
+          label     = excluded.label,
+          updated_at = excluded.updated_at`,
         params: [
           item.id,
           item.slug,
+          item.lang ?? null,
           item.label,
           item.createdAt,
           item.updatedAt,

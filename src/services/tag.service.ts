@@ -3,18 +3,21 @@ import api from './api'
 export interface Tag {
   id: string
   slug: string
+  lang: string
   label: string
   translations: Record<string, string>
 }
 
 export interface CreateTagDto {
   slug: string
+  lang?: string
   label: string
   translations: Record<string, string>
 }
 
 export interface UpdateTagDto {
   slug?: string
+  lang?: string
   label?: string
   translations?: Record<string, string>
 }

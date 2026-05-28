@@ -63,9 +63,11 @@ describe('buildUpsertStatements', () => {
     const stmts = buildUpsertStatements('blogPosts', items)
     // 1 upsert + 1 delete tags + 2 insert tags = 4
     expect(stmts).toHaveLength(4)
-    expect(stmts[0].sql).toContain('INSERT OR REPLACE INTO blog_posts')
+    expect(stmts[0].sql).toContain('INSERT INTO blog_posts')
     expect(stmts[1].sql).toContain('DELETE FROM blog_post_tags')
     expect(stmts[2].sql).toContain('INSERT OR IGNORE INTO blog_post_tags')
+    expect(stmts[2].sql).toContain('slug = ? OR label = ?')
+    expect(stmts[2].params).toEqual(['post-1', 'javascript', 'javascript'])
   })
 
   it('clears tags when tags array is empty', () => {

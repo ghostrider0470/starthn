@@ -5,6 +5,8 @@ import { createDb, UserRepository, RoleRepository } from '../db'
 interface AuthEnv {
   DB: D1Database
   JWT_SECRET: string
+  JWT_ISSUER?: string
+  JWT_AUDIENCE?: string
   ADMIN_EMAILS?: string
   MICROSOFT_TENANT_ID?: string
   MICROSOFT_CLIENT_ID?: string
@@ -151,6 +153,8 @@ async function buildAuthResponse(
       family_name: lastName,
       role: roleNames,
       permission: permissions,
+      iss: env.JWT_ISSUER ?? 'starthn',
+      aud: env.JWT_AUDIENCE ?? 'starthn-frontend',
     } as any,
     env.JWT_SECRET,
     expiresInSeconds,

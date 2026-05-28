@@ -29,6 +29,13 @@ import {
   TableRow,
 } from '@/components/ui/table'
 import { Plus, Pencil, Trash2, Tag as TagIcon, Loader2, Languages, ChevronDown, Check } from 'lucide-react'
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select'
 import { cn } from '@/lib/utils'
 import { SEO_PRIORITY_LOCALES } from '@/lib/seo'
 import { countryCodeToEmoji } from '@/lib/languages'
@@ -38,11 +45,15 @@ export const Route = createFileRoute('/{-$locale}/admin/tags')({
   component: AdminTagsPage,
 })
 
-const SEO_NON_EN: string[] = SEO_PRIORITY_LOCALES.filter((l) => l !== 'en-US')
+function seoTargetLocales(primaryLang: string): string[] {
+  return SEO_PRIORITY_LOCALES.filter((l) => l !== primaryLang)
+}
 
-const ALL_TARGETS: TranslateTagTarget[] = LANGUAGES
-  .filter((l) => l.code !== 'en-US')
-  .map((l) => ({ localeCode: l.code, translatorCode: l.translatorCode }))
+function allTargets(primaryLang: string): TranslateTagTarget[] {
+  return LANGUAGES
+    .filter((l) => l.code !== primaryLang)
+    .map((l) => ({ localeCode: l.code, translatorCode: l.translatorCode }))
+}
 
 function generateSlug(label: string): string {
   return label
@@ -63,11 +74,12 @@ function CreateTagDialog({
 }: {
   open: boolean
   onClose: () => void
-  onSubmit: (label: string, slug: string) => void
+  onSubmit: (label: string, slug: string, lang: string) => void
   isPending: boolean
 }) {
   const [label, setLabel] = useState('')
   const [slug, setSlug] = useState('')
+  const [lang, setLang] = useState('en-US')
 
   function handleLabelChange(value: string) {
     setLabel(value)
@@ -77,8 +89,11 @@ function CreateTagDialog({
   function handleClose() {
     setLabel('')
     setSlug('')
+    setLang('en-US')
     onClose()
   }
+
+  const selectedLangName = LANGUAGE_MAP.get(lang)?.name ?? lang
 
   return (
     <Dialog open={open} onOpenChange={(v) => !v && handleClose()}>
@@ -92,7 +107,22 @@ function CreateTagDialog({
 
         <div className="space-y-4 py-2">
           <div className="space-y-1">
-            <label className="text-sm font-medium">Label (English)</label>
+            <label className="text-sm font-medium">Primary Language</label>
+            <Select value={lang} onValueChange={setLang}>
+              <SelectTrigger className="w-full">
+                <SelectValue placeholder="Select language" />
+              </SelectTrigger>
+              <SelectContent>
+                {LANGUAGES.map((l) => (
+                  <SelectItem key={l.code} value={l.code}>
+                    {l.name}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+          <div className="space-y-1">
+            <label className="text-sm font-medium">Label ({selectedLangName})</label>
             <input
               value={label}
               onChange={(e) => handleLabelChange(e.target.value)}
@@ -114,7 +144,7 @@ function CreateTagDialog({
         <DialogFooter>
           <Button variant="outline" onClick={handleClose}>Cancel</Button>
           <Button
-            onClick={() => onSubmit(label, slug)}
+            onClick={() => onSubmit(label, slug, lang)}
             disabled={isPending || !label.trim() || !slug.trim()}
           >
             {isPending && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
@@ -145,14 +175,27 @@ function EditTagDialog({
 }) {
   const [label, setLabel] = useState(tag.label)
   const [slug, setSlug] = useState(tag.slug)
+  const [lang, setLang] = useState(tag.lang ?? 'en-US')
   const [translations, setTranslations] = useState<Record<string, string>>(tag.translations)
-  const [selectedTargets, setSelectedTargets] = useState<string[]>(SEO_NON_EN)
+  const seoLocales = seoTargetLocales(lang)
+  const [selectedTargets, setSelectedTargets] = useState<string[]>(seoLocales)
   const [showAllLangs, setShowAllLangs] = useState(false)
   const [langSearch, setLangSearch] = useState('')
 
   function handleLabelChange(value: string) {
     setLabel(value)
-    setTranslations((prev) => ({ ...prev, 'en-US': value }))
+    setTranslations((prev) => ({ ...prev, [lang]: value }))
+  }
+
+  function handleLangChange(newLang: string) {
+    setTranslations((prev) => {
+      const next = { ...prev }
+      delete next[lang]
+      next[newLang] = label
+      return next
+    })
+    setLang(newLang)
+    setSelectedTargets(seoTargetLocales(newLang))
   }
 
   function setLocale(code: string, value: string) {
@@ -183,7 +226,7 @@ function EditTagDialog({
           {/* Label + Slug */}
           <div className="grid grid-cols-2 gap-3">
             <div className="space-y-1">
-              <label className="text-sm font-medium">Label (English)</label>
+              <label className="text-sm font-medium">Label ({LANGUAGE_MAP.get(lang)?.name ?? lang})</label>
               <input
                 value={label}
                 onChange={(e) => handleLabelChange(e.target.value)}
@@ -200,6 +243,21 @@ function EditTagDialog({
             </div>
           </div>
 
+          {/* Primary language */}
+          <div className="space-y-1">
+            <label className="text-sm font-medium">Primary Language</label>
+            <Select value={lang} onValueChange={handleLangChange}>
+              <SelectTrigger className="w-full">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                {LANGUAGES.map((l) => (
+                  <SelectItem key={l.code} value={l.code}>{l.name}</SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+
           {/* Translations */}
           <div className="space-y-2">
             <div className="space-y-2">
@@ -214,7 +272,7 @@ function EditTagDialog({
                   size="sm"
                   variant="outline"
                   onClick={() => {
-                    const targets = ALL_TARGETS.filter((t) => selectedTargets.includes(t.localeCode))
+                    const targets = allTargets(lang).filter((t) => selectedTargets.includes(t.localeCode))
                     onTranslate(targets)
                   }}
                   disabled={isTranslating || !label.trim() || selectedTargets.length === 0}
@@ -233,7 +291,7 @@ function EditTagDialog({
                 <div className="flex items-center justify-between">
                   <span className="text-xs text-muted-foreground">SEO priority locales</span>
                   <div className="flex items-center gap-2">
-                    <button onClick={() => setSelectedTargets(SEO_NON_EN)} className="text-xs text-primary hover:underline">
+                    <button onClick={() => setSelectedTargets(seoLocales)} className="text-xs text-primary hover:underline">
                       Select all
                     </button>
                     <span className="text-muted-foreground/40 text-xs">·</span>
@@ -243,7 +301,7 @@ function EditTagDialog({
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-1">
-                  {SEO_NON_EN.map((code) => {
+                  {seoLocales.map((code) => {
                     const lang = LANGUAGE_MAP.get(code)
                     const isSelected = selectedTargets.includes(code)
                     return (
@@ -292,8 +350,8 @@ function EditTagDialog({
                   <div className="flex flex-wrap gap-1 max-h-24 overflow-y-auto">
                     {LANGUAGES.filter(
                       (l) =>
-                        l.code !== 'en-US' &&
-                        !SEO_NON_EN.includes(l.code) &&
+                        l.code !== lang &&
+                        !seoLocales.includes(l.code) &&
                         (langSearch === '' ||
                           l.name.toLowerCase().includes(langSearch.toLowerCase()) ||
                           l.nativeName.toLowerCase().includes(langSearch.toLowerCase()) ||
@@ -364,7 +422,7 @@ function EditTagDialog({
         <DialogFooter className="pt-4 border-t">
           <Button variant="outline" onClick={onClose}>Cancel</Button>
           <Button
-            onClick={() => onSave({ slug, label, translations })}
+            onClick={() => onSave({ slug, lang, label, translations })}
             disabled={isSaving || !label.trim() || !slug.trim()}
           >
             {isSaving && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
@@ -389,8 +447,8 @@ function AdminTagsPage() {
   const [editingTag, setEditingTag] = useState<Tag | null>(null)
   const [deletingTag, setDeletingTag] = useState<Tag | null>(null)
 
-  async function handleCreate(label: string, slug: string) {
-    const dto: CreateTagDto = { slug, label, translations: { 'en-US': label } }
+  async function handleCreate(label: string, slug: string, lang: string) {
+    const dto: CreateTagDto = { slug, lang, label, translations: { [lang]: label } }
     await createMutation.mutateAsync(dto)
     setCreateOpen(false)
   }

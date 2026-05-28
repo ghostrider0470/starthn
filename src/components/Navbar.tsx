@@ -135,11 +135,6 @@ export function Navbar() {
                 href: '/support',
                 description: t('nav.support.description'),
               },
-              {
-                title: t('nav.innovationLabOverview.title'),
-                href: '/innovation-lab',
-                description: t('nav.innovationLabOverview.description'),
-              },
             ]
           : []),
       ]

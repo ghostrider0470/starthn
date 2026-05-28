@@ -45,11 +45,15 @@ export const Route = createFileRoute('/{-$locale}/admin/categories')({
   component: AdminCategoriesPage,
 })
 
-const SEO_NON_EN: string[] = SEO_PRIORITY_LOCALES.filter((l) => l !== 'en-US')
+function seoTargetLocales(primaryLang: string): string[] {
+  return SEO_PRIORITY_LOCALES.filter((l) => l !== primaryLang)
+}
 
-const ALL_TARGETS: TranslateCategoryTarget[] = LANGUAGES
-  .filter((l) => l.code !== 'en-US')
-  .map((l) => ({ localeCode: l.code, translatorCode: l.translatorCode }))
+function allTargets(primaryLang: string): TranslateCategoryTarget[] {
+  return LANGUAGES
+    .filter((l) => l.code !== primaryLang)
+    .map((l) => ({ localeCode: l.code, translatorCode: l.translatorCode }))
+}
 
 function generateSlug(label: string): string {
   return label
@@ -71,12 +75,13 @@ function CreateCategoryDialog({
 }: {
   open: boolean
   onClose: () => void
-  onSubmit: (label: string, slug: string, parentId?: string) => void
+  onSubmit: (label: string, slug: string, lang: string, parentId?: string) => void
   isPending: boolean
   topLevelCategories: Category[]
 }) {
   const [label, setLabel] = useState('')
   const [slug, setSlug] = useState('')
+  const [lang, setLang] = useState('en-US')
   const [parentId, setParentId] = useState('__none__')
 
   function handleLabelChange(value: string) {
@@ -87,9 +92,12 @@ function CreateCategoryDialog({
   function handleClose() {
     setLabel('')
     setSlug('')
+    setLang('en-US')
     setParentId('__none__')
     onClose()
   }
+
+  const selectedLangName = LANGUAGE_MAP.get(lang)?.name ?? lang
 
   return (
     <Dialog open={open} onOpenChange={(v) => !v && handleClose()}>
@@ -103,7 +111,22 @@ function CreateCategoryDialog({
 
         <div className="space-y-4 py-2">
           <div className="space-y-1">
-            <label className="text-sm font-medium">Label (English)</label>
+            <label className="text-sm font-medium">Primary Language</label>
+            <Select value={lang} onValueChange={setLang}>
+              <SelectTrigger className="w-full">
+                <SelectValue placeholder="Select language" />
+              </SelectTrigger>
+              <SelectContent>
+                {LANGUAGES.map((l) => (
+                  <SelectItem key={l.code} value={l.code}>
+                    {l.name}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+          <div className="space-y-1">
+            <label className="text-sm font-medium">Label ({selectedLangName})</label>
             <input
               value={label}
               onChange={(e) => handleLabelChange(e.target.value)}
@@ -141,7 +164,7 @@ function CreateCategoryDialog({
         <DialogFooter>
           <Button variant="outline" onClick={handleClose}>Cancel</Button>
           <Button
-            onClick={() => onSubmit(label, slug, parentId === '__none__' ? undefined : parentId)}
+            onClick={() => onSubmit(label, slug, lang, parentId === '__none__' ? undefined : parentId)}
             disabled={isPending || !label.trim() || !slug.trim()}
           >
             {isPending && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
@@ -174,15 +197,28 @@ function EditCategoryDialog({
 }) {
   const [label, setLabel] = useState(category.label)
   const [slug, setSlug] = useState(category.slug)
+  const [lang, setLang] = useState(category.lang ?? 'en-US')
   const [parentId, setParentId] = useState(category.parentId ?? '__none__')
   const [translations, setTranslations] = useState<Record<string, string>>(category.translations)
-  const [selectedTargets, setSelectedTargets] = useState<string[]>(SEO_NON_EN)
+  const seoLocales = seoTargetLocales(lang)
+  const [selectedTargets, setSelectedTargets] = useState<string[]>(seoLocales)
   const [showAllLangs, setShowAllLangs] = useState(false)
   const [langSearch, setLangSearch] = useState('')
 
   function handleLabelChange(value: string) {
     setLabel(value)
-    setTranslations((prev) => ({ ...prev, 'en-US': value }))
+    setTranslations((prev) => ({ ...prev, [lang]: value }))
+  }
+
+  function handleLangChange(newLang: string) {
+    setTranslations((prev) => {
+      const next = { ...prev }
+      delete next[lang]
+      next[newLang] = label
+      return next
+    })
+    setLang(newLang)
+    setSelectedTargets(seoTargetLocales(newLang))
   }
 
   function setLocale(code: string, value: string) {
@@ -212,7 +248,7 @@ function EditCategoryDialog({
           {/* Label + Slug */}
           <div className="grid grid-cols-2 gap-3">
             <div className="space-y-1">
-              <label className="text-sm font-medium">Label (English)</label>
+              <label className="text-sm font-medium">Label ({LANGUAGE_MAP.get(lang)?.name ?? lang})</label>
               <input
                 value={label}
                 onChange={(e) => handleLabelChange(e.target.value)}
@@ -227,6 +263,21 @@ function EditCategoryDialog({
                 className="w-full rounded-md border bg-background px-3 py-2 text-sm font-mono focus:outline-none focus:ring-1 focus:ring-primary/30"
               />
             </div>
+          </div>
+
+          {/* Primary language */}
+          <div className="space-y-1">
+            <label className="text-sm font-medium">Primary Language</label>
+            <Select value={lang} onValueChange={handleLangChange}>
+              <SelectTrigger className="w-full">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                {LANGUAGES.map((l) => (
+                  <SelectItem key={l.code} value={l.code}>{l.name}</SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
           </div>
 
           {/* Parent category */}
@@ -261,7 +312,7 @@ function EditCategoryDialog({
                   size="sm"
                   variant="outline"
                   onClick={() => {
-                    const targets = ALL_TARGETS.filter((t) => selectedTargets.includes(t.localeCode))
+                    const targets = allTargets(lang).filter((t) => selectedTargets.includes(t.localeCode))
                     onTranslate(targets)
                   }}
                   disabled={isTranslating || !label.trim() || selectedTargets.length === 0}
@@ -280,7 +331,7 @@ function EditCategoryDialog({
                 <div className="flex items-center justify-between">
                   <span className="text-xs text-muted-foreground">SEO priority locales</span>
                   <div className="flex items-center gap-2">
-                    <button onClick={() => setSelectedTargets(SEO_NON_EN)} className="text-xs text-primary hover:underline">
+                    <button onClick={() => setSelectedTargets(seoLocales)} className="text-xs text-primary hover:underline">
                       Select all
                     </button>
                     <span className="text-muted-foreground/40 text-xs">·</span>
@@ -290,7 +341,7 @@ function EditCategoryDialog({
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-1">
-                  {SEO_NON_EN.map((code) => {
+                  {seoLocales.map((code) => {
                     const lang = LANGUAGE_MAP.get(code)
                     const isSelected = selectedTargets.includes(code)
                     return (
@@ -339,8 +390,8 @@ function EditCategoryDialog({
                   <div className="flex flex-wrap gap-1 max-h-24 overflow-y-auto">
                     {LANGUAGES.filter(
                       (l) =>
-                        l.code !== 'en-US' &&
-                        !SEO_NON_EN.includes(l.code) &&
+                        l.code !== lang &&
+                        !seoLocales.includes(l.code) &&
                         (langSearch === '' ||
                           l.name.toLowerCase().includes(langSearch.toLowerCase()) ||
                           l.nativeName.toLowerCase().includes(langSearch.toLowerCase()) ||
@@ -411,7 +462,7 @@ function EditCategoryDialog({
         <DialogFooter className="pt-4 border-t">
           <Button variant="outline" onClick={onClose}>Cancel</Button>
           <Button
-            onClick={() => onSave({ slug, label, translations, parentId: parentId === '__none__' ? undefined : parentId })}
+            onClick={() => onSave({ slug, lang, label, translations, parentId: parentId === '__none__' ? undefined : parentId })}
             disabled={isSaving || !label.trim() || !slug.trim()}
           >
             {isSaving && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
@@ -444,11 +495,12 @@ function AdminCategoriesPage() {
     return parent?.label ?? parentId
   }
 
-  async function handleCreate(label: string, slug: string, parentId?: string) {
+  async function handleCreate(label: string, slug: string, lang: string, parentId?: string) {
     const dto: CreateCategoryDto = {
       slug,
+      lang,
       label,
-      translations: { 'en-US': label },
+      translations: { [lang]: label },
       parentId: parentId || null,
     }
     await createMutation.mutateAsync(dto)

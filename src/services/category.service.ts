@@ -3,6 +3,7 @@ import api from './api'
 export interface Category {
   id: string
   slug: string
+  lang: string
   label: string
   translations: Record<string, string>
   parentId: string | null
@@ -10,6 +11,7 @@ export interface Category {
 
 export interface CreateCategoryDto {
   slug: string
+  lang?: string
   label: string
   translations: Record<string, string>
   parentId?: string | null
@@ -17,6 +19,7 @@ export interface CreateCategoryDto {
 
 export interface UpdateCategoryDto {
   slug?: string
+  lang?: string
   label?: string
   translations?: Record<string, string>
   parentId?: string | null

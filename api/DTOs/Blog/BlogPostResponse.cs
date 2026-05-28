@@ -7,6 +7,9 @@ public class BlogPostResponse
     [JsonPropertyName("slug")]
     public string Slug { get; set; } = string.Empty;
 
+    [JsonPropertyName("lang")]
+    public string Lang { get; set; } = "en-US";
+
     [JsonPropertyName("title")]
     public string Title { get; set; } = string.Empty;
 

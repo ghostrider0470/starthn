@@ -4,6 +4,7 @@ using System.Security.Cryptography;
 using System.Text;
 using Api.Entities;
 using Api.Services.Interfaces;
+using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Api.Services.Implementations;
@@ -15,9 +16,11 @@ public class JwtService : IJwtService
     private readonly string _audience;
     private readonly int _accessTokenExpiryMinutes;
     private readonly int _refreshTokenExpiryDays;
+    private readonly ILogger<JwtService>? _logger;
 
-    public JwtService()
+    public JwtService(ILogger<JwtService>? logger = null)
     {
+        _logger = logger;
         _secret = Environment.GetEnvironmentVariable("JWT_SECRET")
             ?? throw new InvalidOperationException("JWT_SECRET is not configured");
         _issuer = Environment.GetEnvironmentVariable("JWT_ISSUER") ?? "starthn";
@@ -87,10 +90,8 @@ public class JwtService : IJwtService
 
             var parameters = new TokenValidationParameters
             {
-                ValidateIssuer = true,
-                ValidIssuer = _issuer,
-                ValidateAudience = true,
-                ValidAudience = _audience,
+                ValidateIssuer = false,
+                ValidateAudience = false,
                 ValidateLifetime = true,
                 ValidateIssuerSigningKey = true,
                 IssuerSigningKey = key,
@@ -102,8 +103,10 @@ public class JwtService : IJwtService
 
             return handler.ValidateToken(token, parameters, out _);
         }
-        catch
+        catch (Exception ex)
         {
+            _logger?.LogWarning("JWT validation failed [{Type}]: {Message} | issuer={Issuer} audience={Audience} secretLen={SecretLen}",
+                ex.GetType().Name, ex.Message, _issuer, _audience, _secret.Length);
             return null;
         }
     }

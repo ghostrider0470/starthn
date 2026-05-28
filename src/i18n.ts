@@ -7,7 +7,7 @@ import {
   isValidLocale,
 } from '@/lib/i18n-utils'
 
-export const I18N_NAMESPACES = ['common', 'seo', 'landing', 'auth', 'blog', 'pages', 'services', 'innovation-lab']
+export const I18N_NAMESPACES = ['common', 'seo', 'landing', 'auth', 'blog', 'pages', 'services']
 
 const isClient = typeof window !== 'undefined'
 const languageFromPath = isClient ? getLocaleFromPath(window.location.pathname) : DEFAULT_LOCALE

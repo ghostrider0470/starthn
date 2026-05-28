@@ -102,6 +102,20 @@ describe('handleUploadRoute', () => {
     expect((env.IMG_CACHE.put as ReturnType<typeof vi.fn>).mock.calls).toHaveLength(3)
   })
 
+  it('accepts the app client X-Authorization header', async () => {
+    const t = await token({ sub: 'user-1' })
+    const fd = new FormData()
+    fd.append('container', 'avatars')
+    fd.append('w48', new Blob(['px'], { type: 'image/webp' }), 'w48.webp')
+    const req = new Request('https://x/api/upload/image', {
+      method: 'POST',
+      headers: { 'X-Authorization': `Bearer ${t}` },
+      body: fd,
+    })
+    const res = await handleUploadRoute(req, makeEnv() as any)
+    expect(res?.status).toBe(200)
+  })
+
   it('scopes blog-images path without userId', async () => {
     const t = await token({ sub: 'user-1', permission: ['manage:blog'] })
     const fd = new FormData()

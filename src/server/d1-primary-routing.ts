@@ -1,10 +1,16 @@
-export function isD1PrimaryEnabled(env: Record<string, unknown>): boolean {
-  return env?.D1_PRIMARY === 'true' || env?.D1_PRIMARY === true
+export const DEFAULT_D1_PRIMARY_REQUIRED_BINDINGS = ['DB', 'JWT_SECRET'] as const
+
+type EnvLike = Record<string, unknown> | null | undefined
+
+export function isD1PrimaryEnabled(env: EnvLike): boolean {
+  return String(env?.D1_PRIMARY ?? '').toLowerCase() === 'true'
 }
 
-export function getD1PrimaryMissingBindings(env: Record<string, unknown>): string[] {
-  const missing: string[] = []
-  if (!env?.DB) missing.push('DB')
-  if (!env?.JWT_SECRET) missing.push('JWT_SECRET')
-  return missing
+export function getD1PrimaryMissingBindings(
+  env: EnvLike,
+  requiredBindings: readonly string[] = DEFAULT_D1_PRIMARY_REQUIRED_BINDINGS,
+): string[] {
+  if (!isD1PrimaryEnabled(env)) return []
+  return requiredBindings.filter((name) => !env?.[name])
 }
+

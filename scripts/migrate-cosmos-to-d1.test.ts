@@ -1,5 +1,9 @@
 import { describe, it, expect } from 'vitest'
+import { mkdtempSync, rmSync, writeFileSync } from 'fs'
+import { tmpdir } from 'os'
+import path from 'path'
 import {
+  generateImportSql,
   normalizeLocale,
   transformBlogPost,
   transformBlogPostTranslation,
@@ -54,6 +58,46 @@ describe('transformBlogPost', () => {
 
   it('skips deleted documents', () => {
     expect(transformBlogPost({ ...doc, _deleted: true })).toBeNull()
+  })
+
+  it('keeps tag values unchanged so import SQL can resolve either slug or label', () => {
+    const result = transformBlogPost({
+      ...doc,
+      tags: ['business-registration', 'Accounting & Bookkeeping'],
+    })
+
+    expect(result!.tagSlugs).toEqual([
+      'business-registration',
+      'Accounting & Bookkeeping',
+    ])
+  })
+
+  it('generates tag association SQL that resolves labels as well as slugs', () => {
+    const dir = mkdtempSync(path.join(tmpdir(), 'starthn-d1-import-'))
+    try {
+      writeFileSync(
+        path.join(dir, 'blogPosts.json'),
+        JSON.stringify([
+          {
+            id: 'post-1',
+            slug: 'post-1',
+            title: 'Post',
+            content: [],
+            isPublished: true,
+            tags: ['Accounting & Bookkeeping'],
+          },
+        ]),
+      )
+
+      const { sqlFiles } = generateImportSql(dir)
+      const sql = Array.from(sqlFiles.values()).flat().join('\n')
+
+      expect(sql).toContain(
+        "WHERE slug = 'Accounting & Bookkeeping' OR label = 'Accounting & Bookkeeping'",
+      )
+    } finally {
+      rmSync(dir, { recursive: true, force: true })
+    }
   })
 })
 

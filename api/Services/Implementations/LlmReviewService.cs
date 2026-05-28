@@ -37,7 +37,7 @@ public class LlmReviewService : ILlmReviewService
     /// Reviews a single machine-translated text for a given locale.
     /// Returns the original if the provider is disabled or fails.
     /// </summary>
-    public async Task<string> ReviewAsync(string original, string translated, string localeCode)
+    public async Task<string> ReviewAsync(string original, string translated, string localeCode, string sourceLocale = "en-US")
     {
         var provider = await GetProviderAsync();
         if (provider == null || !provider.IsEnabled || string.IsNullOrWhiteSpace(translated))
@@ -47,7 +47,8 @@ public class LlmReviewService : ILlmReviewService
         try
         {
             var languageName = LocaleName(localeCode);
-            var result = await provider.ReviewTranslationAsync(original, translated, languageName, localeCode);
+            var sourceLanguageName = LocaleName(sourceLocale);
+            var result = await provider.ReviewTranslationAsync(original, translated, languageName, localeCode, sourceLanguageName);
             _logger.LogDebug("[{Locale}] reviewed: {Preview}", localeCode, result[..Math.Min(80, result.Length)]);
             return result;
         }
@@ -66,7 +67,7 @@ public class LlmReviewService : ILlmReviewService
     /// Reviews all locale → translation pairs in parallel, each individually.
     /// Concurrency is bounded by the setting stored in DB.
     /// </summary>
-    public async Task<Dictionary<string, string>> ReviewManyAsync(string original, Dictionary<string, string> translations)
+    public async Task<Dictionary<string, string>> ReviewManyAsync(string original, Dictionary<string, string> translations, string sourceLocale = "en-US")
     {
         var provider = await GetProviderAsync();
         if (provider == null || !provider.IsEnabled)
@@ -74,7 +75,7 @@ public class LlmReviewService : ILlmReviewService
 
         var tasks = translations.Select(async kvp =>
         {
-            var reviewed = await ReviewAsync(original, kvp.Value, kvp.Key);
+            var reviewed = await ReviewAsync(original, kvp.Value, kvp.Key, sourceLocale);
             return (kvp.Key, reviewed);
         });
 
@@ -183,22 +184,22 @@ public class LlmReviewService : ILlmReviewService
 internal interface ILlmProvider
 {
     bool IsEnabled { get; }
-    Task<string> ReviewTranslationAsync(string original, string translated, string languageName, string localeCode);
+    Task<string> ReviewTranslationAsync(string original, string translated, string languageName, string localeCode, string sourceLanguageName);
 }
 
 // ── Shared prompt ─────────────────────────────────────────────────────────────
 
 internal static class TranslationReviewPrompt
 {
-    internal static string Build(string original, string translated, string languageName, string localeCode) => $"""
+    internal static string Build(string original, string translated, string languageName, string localeCode, string sourceLanguageName) => $"""
         You are a professional translator and linguistic quality reviewer specializing in tech-industry content.
 
         Review the machine translation below and return a corrected version.
 
-        Source language: English
+        Source language: {sourceLanguageName}
         Target language: {languageName} ({localeCode})
 
-        Original (English):
+        Original ({sourceLanguageName}):
         {original}
 
         Machine translation:
@@ -240,13 +241,13 @@ internal sealed class AnthropicProvider : ILlmProvider
         _logger = logger;
     }
 
-    public async Task<string> ReviewTranslationAsync(string original, string translated, string languageName, string localeCode)
+    public async Task<string> ReviewTranslationAsync(string original, string translated, string languageName, string localeCode, string sourceLanguageName)
     {
         var requestBody = new
         {
             model = _model,
             max_tokens = _maxTokens,
-            messages = new[] { new { role = "user", content = TranslationReviewPrompt.Build(original, translated, languageName, localeCode) } }
+            messages = new[] { new { role = "user", content = TranslationReviewPrompt.Build(original, translated, languageName, localeCode, sourceLanguageName) } }
         };
 
         var msgPath = _baseUrl.EndsWith("/v1", StringComparison.OrdinalIgnoreCase)
@@ -301,7 +302,7 @@ internal sealed class OpenAiCompatibleProvider : ILlmProvider
         _logger = logger;
     }
 
-    public async Task<string> ReviewTranslationAsync(string original, string translated, string languageName, string localeCode)
+    public async Task<string> ReviewTranslationAsync(string original, string translated, string languageName, string localeCode, string sourceLanguageName)
     {
         var requestBody = new
         {
@@ -310,7 +311,7 @@ internal sealed class OpenAiCompatibleProvider : ILlmProvider
             messages = new[]
             {
                 new { role = "system", content = "You are a professional translation reviewer. Return only the corrected translation text, nothing else." },
-                new { role = "user", content = TranslationReviewPrompt.Build(original, translated, languageName, localeCode) }
+                new { role = "user", content = TranslationReviewPrompt.Build(original, translated, languageName, localeCode, sourceLanguageName) }
             }
         };
 

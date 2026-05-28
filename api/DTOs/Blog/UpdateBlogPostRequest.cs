@@ -3,6 +3,7 @@ namespace Api.DTOs.Blog;
 public class UpdateBlogPostRequest
 {
     public string? Slug { get; set; }
+    public string? Lang { get; set; }
     public string? Title { get; set; }
     public string? Excerpt { get; set; }
     public string? PublishedAt { get; set; }

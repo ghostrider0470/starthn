@@ -3,6 +3,7 @@ namespace Api.DTOs.Blog;
 public class CreateBlogPostRequest
 {
     public string? Slug { get; set; }
+    public string Lang { get; set; } = "en-US";
     public string Title { get; set; } = string.Empty;
     public string Excerpt { get; set; } = string.Empty;
     public string PublishedAt { get; set; } = string.Empty;

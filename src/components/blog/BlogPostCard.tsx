@@ -3,7 +3,7 @@ import { ArrowRight, Clock, FileText } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import type { BlogPost } from '@/data/blog-posts'
 import type { SupportedLocale } from '@/lib/i18n-utils'
-import { localizeBlogCategory, localizeBlogTag, localizeBlogReadTime } from '@/lib/blog-i18n'
+import { formatBlogPublishedDate, localizeBlogCategory, localizeBlogTag, localizeBlogReadTime } from '@/lib/blog-i18n'
 import { usePublicCategories } from '@/hooks/useCategoryQueries'
 import { usePublicTags } from '@/hooks/useTagQueries'
 import { designSystem } from '@/lib/design-system'
@@ -18,15 +18,6 @@ interface BlogPostCardProps {
   compact?: boolean
 }
 
-function formatPublishedDate(date: string, locale: SupportedLocale): string {
-  return new Date(date).toLocaleDateString(locale, {
-    month: 'short',
-    day: 'numeric',
-    year: 'numeric',
-    timeZone: 'UTC',
-  })
-}
-
 export function BlogPostCard({
   post,
   locale,
@@ -38,6 +29,10 @@ export function BlogPostCard({
   const { data: tags = [] } = usePublicTags()
   const postHref = withLocalePath(`/blog/${post.slug}`, locale)
   const displayTags = (post.tags ?? []).slice(0, 2)
+  const localizedCategory = localizeBlogCategory(categories, post.category, locale)
+  const localizedSubcategory = post.subcategory
+    ? localizeBlogCategory(categories, post.subcategory, locale)
+    : ''
 
   return (
     <Link to={postHref} className={cn('group block h-full', className)}>
@@ -75,10 +70,17 @@ export function BlogPostCard({
           )}
           {/* Gradient overlay for badge readability */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-          {/* Category badge on image */}
-          <span className="absolute bottom-3 left-3 rounded-full bg-primary/90 px-2.5 py-0.5 text-[11px] font-semibold text-primary-foreground backdrop-blur-sm">
-            {localizeBlogCategory(categories, post.category, locale)}
-          </span>
+          {/* Category badges on image */}
+          <div className="absolute bottom-3 left-3 right-3 flex flex-wrap gap-1.5">
+            <span className="rounded-full bg-primary/90 px-2.5 py-0.5 text-[11px] font-semibold text-primary-foreground backdrop-blur-sm">
+              {localizedCategory}
+            </span>
+            {localizedSubcategory && (
+              <span className="rounded-full bg-background/90 px-2.5 py-0.5 text-[11px] font-semibold text-foreground backdrop-blur-sm">
+                {localizedSubcategory}
+              </span>
+            )}
+          </div>
         </div>
 
         {/* Content */}
@@ -86,7 +88,7 @@ export function BlogPostCard({
           {/* Meta line */}
           <div className="mb-2.5 flex items-center gap-2 text-xs text-muted-foreground">
             <time dateTime={post.publishedAt}>
-              {formatPublishedDate(post.publishedAt, locale)}
+              {formatBlogPublishedDate(post.publishedAt, locale)}
             </time>
             <span className="text-border">·</span>
             <span className="inline-flex items-center gap-1">

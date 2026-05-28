@@ -13,7 +13,9 @@
     "AZURE_BLOB_ORIGIN": "https://starthnwebprod.blob.core.windows.net",
     "D1_PRIMARY": "true",
     "ADMIN_EMAILS": "hamza.abdagic@horizon-tech.io,selma.hadzic@starthn.ba",
-    "MAINTENANCE_MODE": "false"
+    "MAINTENANCE_MODE": "false",
+    "JWT_ISSUER": "starthn",
+    "JWT_AUDIENCE": "starthn-frontend"
     // JWT_SECRET is set via `npx wrangler secret put JWT_SECRET` (not here — sensitive)
   },
   "d1_databases": [
