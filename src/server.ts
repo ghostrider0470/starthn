@@ -13,6 +13,7 @@ import { handleImageRequest } from './server/image-handler'
 import { handleImageWarm } from './server/image-warm'
 import { handleSync } from './server/sync-receiver'
 import { handleHealth } from './server/health'
+import { handleSitemap } from './server/sitemap'
 import type { Bindings, ImageWriteMessage } from './server/bindings'
 import { handleR2WriteQueue } from './server/r2-queue-consumer'
 import {
@@ -176,6 +177,12 @@ async function handleEdgeRead(c: any) {
 
   return proxyToAzure(c)
 }
+
+// ─── Sitemaps (dynamic: includes published blog posts from D1) ─
+app.get('/sitemap.xml', (c) => handleSitemap(c.req.raw, c.env).then(r => r!))
+app.get('/sitemap-:locale{[a-zA-Z-]+}.xml', (c) =>
+  handleSitemap(c.req.raw, c.env).then(r => r ?? c.notFound()),
+)
 
 // ─── Internal sync endpoints (shared-secret auth) ──────────
 app.post('/api/internal/image-warm', (c) => handleImageWarm(c))
