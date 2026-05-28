@@ -20,17 +20,17 @@ const SOCIALS = [
   {
     name: 'LinkedIn',
     Icon: Linkedin,
-    href: 'https://www.linkedin.com/company/start-hn',
+    href: 'https://www.linkedin.com/in/selma-had%C5%BEi%C4%87-150907323',
   },
   {
     name: 'Instagram',
     Icon: Instagram,
-    href: 'https://www.instagram.com/starthn.ba',
+    href: 'https://www.instagram.com/racunovodstvo_starthn',
   },
   {
     name: 'Facebook',
     Icon: Facebook,
-    href: 'https://www.facebook.com/starthn.ba',
+    href: 'https://www.facebook.com/share/17g7GGdBqK/',
   },
 ] as const
 
