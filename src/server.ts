@@ -179,10 +179,10 @@ async function handleEdgeRead(c: any) {
 }
 
 // ─── Sitemaps (dynamic: includes published blog posts from D1) ─
-app.get('/sitemap.xml', (c) => handleSitemap(c.req.raw, c.env).then(r => r!))
-app.get('/sitemap-:locale{[a-zA-Z-]+}.xml', (c) =>
-  handleSitemap(c.req.raw, c.env).then(r => r ?? c.notFound()),
-)
+app.get('/sitemap*', async (c) => {
+  const res = await handleSitemap(c.req.raw, c.env)
+  return res ?? c.notFound()
+})
 
 // ─── Internal sync endpoints (shared-secret auth) ──────────
 app.post('/api/internal/image-warm', (c) => handleImageWarm(c))
