@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Početna",
-    "company": "Kompanija",
+    "company": "O nama",
     "solutions": "Usluge",
     "resources": "Resursi",
     "contact": "Kontakt",
@@ -11,15 +11,15 @@
     },
     "missionVision": {
       "title": "Misija, vizija i vrijednosti",
-      "description": "Principi i ciljevi koji vode sve što radimo"
+      "description": "Načela i ciljevi koji vode sve što radimo"
     },
     "certificates": {
       "title": "Certifikati i priznanja",
       "description": "Naše licence i profesionalna ovlaštenja"
     },
     "team": {
-      "title": "Tim",
-      "description": "Upoznajte ljude iza Start HN-a"
+      "title": "Momčad",
+      "description": "Upoznajte ljude iza Start HN"
     },
     "careers": {
       "title": "Karijere",
@@ -27,27 +27,27 @@
     },
     "enterpriseSoftware": {
       "title": "Računovodstvo i knjigovodstvo",
-      "description": "Cjelovite knjigovodstvene i računovodstvene usluge za preduzeća svih veličina"
+      "description": "Sveobuhvatne knjigovodstvene i računovodstvene usluge za tvrtke svih veličina"
     },
     "aiMl": {
       "title": "Porezno savjetovanje",
-      "description": "Stručno planiranje poreza i usklađenost za fizička i pravna lica"
+      "description": "Profesionalno porezno planiranje i usklađenost za fizičke i pravne osobe"
     },
     "cloudArchitecture": {
       "title": "Virtualni CFO",
-      "description": "Strateško finansijsko vodstvo bez troškova stalnog zaposlenja"
+      "description": "Strateško financijsko vodstvo bez troškova stalnog zaposlenja."
     },
     "iot": {
       "title": "Poslovno savjetovanje",
-      "description": "Praktični savjeti koji pomažu vašem poslovanju da raste i napreduje"
+      "description": "Praktični savjeti koji će pomoći vašem poslovanju da raste i napreduje"
     },
     "devops": {
-      "title": "Finansijsko izvještavanje",
-      "description": "Tačni i pravovremeni finansijski izvještaji i upravljačke analize"
+      "title": "Financijsko izvještavanje",
+      "description": "Točni i pravovremeni financijski izvještaji i analize upravljanja"
     },
     "digitalTransformation": {
-      "title": "Edukacija i kursevi",
-      "description": "Radionice i kursevi iz računovodstva, poreza i finansija"
+      "title": "Obrazovanje i tečajevi",
+      "description": "Radionice i tečajevi iz računovodstva, poreza i financija"
     },
     "caseStudies": {
       "title": "Studije slučaja",
@@ -59,24 +59,24 @@
     },
     "blog": {
       "title": "Blog",
-      "description": "Uvidi, vodiči i novosti od tima Start HN-a",
+      "description": "Uvidi, vodiči i vijesti od Start HN tima",
       "featured": {
         "title": "Istaknuti članak",
-        "description": "Pročitajte jedan od naših najnovijih računovodstvenih i finansijskih uvida"
+        "description": "Pročitajte jedan od naših najnovijih računovodstvenih i financijskih uvida."
       }
     },
     "navigation": "Navigacija",
     "skipToContent": "Preskoči na sadržaj",
-    "toggleMenu": "Preklopi meni",
-    "dashboard": "Kontrolna tabla",
+    "toggleMenu": "Izbornik prekidača",
+    "dashboard": "Upravljačka ploča",
     "myWorkspace": "Moj radni prostor",
     "profile": "Profil",
     "adminPanel": "Administrativni panel",
     "practiceManagement": "Upravljanje praksom",
-    "logOut": "Odjavi se",
+    "logOut": "Prijavite se",
     "education": {
       "title": "Resursi i vodiči",
-      "description": "Praktični računovodstveni i finansijski resursi od tima Start HN-a"
+      "description": "Praktični računovodstveni i financijski resursi tima Start HN"
     },
     "support": {
       "title": "Centar za podršku",
@@ -84,23 +84,23 @@
     }
   },
   "footer": {
-    "description": "Start HN je računovodstvena agencija sa sjedištem u Sarajevu. Pružamo knjigovodstvo, porezno savjetovanje, Virtualni CFO i finansijsko izvještavanje za preduzeća širom Bosne i Hercegovine.",
+    "description": "Start HN je računovodstvena agencija sa sjedištem u Sarajevu. Pružamo knjigovodstvo, porezno savjetovanje, virtualne financijske direktore i financijsko izvještavanje za tvrtke diljem Bosne i Hercegovine.",
     "services": "Usluge",
     "servicesList": {
       "bookkeeping": "Knjigovodstvo",
       "tax": "Porezno savjetovanje",
       "vcfo": "Virtualni CFO",
-      "reporting": "Finansijsko izvještavanje",
+      "reporting": "Financijsko izvještavanje",
       "consulting": "Poslovno savjetovanje",
-      "education": "Edukacija"
+      "education": "Obrazovanje"
     },
-    "company": "Kompanija",
+    "company": "O nama",
     "companyLinks": {
       "about": "O nama",
       "missionVision": "Misija i vrijednosti",
       "certificates": "Certifikati",
       "team": "Naš tim",
-      "blog": "Uspješne priče",
+      "blog": "Priče o uspjehu",
       "careers": "Karijere",
       "contact": "Kontakt"
     },
@@ -110,50 +110,50 @@
       "phone": "+387 61 135-377",
       "street": "Ibrahima Ljubovića 47",
       "locality": "Ilidža",
-      "region": "Kanton Sarajevo",
+      "region": "Sarajevski kanton",
       "country": "Bosna i Hercegovina",
-      "hours": "Pon–Pet: 08:00–16:00",
-      "holidays": "Praznicima ne radimo"
+      "hours": "Ponedjeljak–petak: 08:00–16:00",
+      "holidays": "Ne radimo za praznike"
     },
-    "legal": "Pravno",
+    "legal": "Pravni",
     "legalLinks": {
       "privacyPolicy": "Politika privatnosti",
-      "termsOfService": "Uslovi korištenja",
+      "termsOfService": "Uvjeti korištenja",
       "cookiePolicy": "Politika kolačića"
     },
-    "copyright": "© {{year}} Start HN. Sva prava zadržana.",
+    "copyright": "© {{year}} Počni s HN. Sva prava pridržana.",
     "ctaTitle": "Spremni za razgovor?",
-    "ctaDescription": "Zakažite besplatnu uvodnu konsultaciju — odgovorit ćemo u roku od jednog radnog dana.",
+    "ctaDescription": "Dogovorite besplatne uvodne konzultacije — odgovorit ćemo vam u roku od jednog radnog dana.",
     "ctaButton": "Kontaktirajte nas"
   },
   "header": {
     "badge": "Profesionalne računovodstvene usluge",
-    "titleLine1": "Pouzdano računovodstvo i finansije",
+    "titleLine1": "Pouzdano računovodstvo i financije",
     "titleLine2": "za vaše poslovanje u BiH",
-    "description": "Od knjigovodstva i poreznog savjetovanja do usluga virtualnog CFO-a i finansijskog izvještavanja — Start HN pruža sveobuhvatnu računovodstvenu stručnost koja čuva vaše poslovanje usklađenim, informisanim i spremnim za rast.",
-    "getStarted": "Počni",
+    "description": "Od knjigovodstva i poreznog savjetovanja do virtualnih usluga financijskog direktora i financijskog izvještavanja — Start HN pruža sveobuhvatno računovodstveno znanje koje održava vaše poslovanje usklađenim, informiranim i spremnim za rast.",
+    "getStarted": "Započnite",
     "exploreSolutions": "Istražite usluge",
-    "trustedBy": "Povjerenje preduzeća širom Bosne i Hercegovine",
+    "trustedBy": "Povjerenje tvrtki diljem Bosne i Hercegovine",
     "microsoftPartner": "Ovlašteni računovođe",
-    "azureCertified": "Registrovano za PDV",
+    "azureCertified": "Registrirani za PDV",
     "enterpriseSolutions": "Cjelovito računovodstvo"
   },
   "mobileNav": {
     "navigation": "Mobilna navigacija",
     "home": "Početna",
     "solutions": "Usluge",
-    "caseStudies": "Slučajevi",
+    "caseStudies": "Predmeti",
     "blog": "Blog",
     "resources": "Resursi",
     "contact": "Kontakt"
   },
   "sideNav": {
-    "scroll": "Skrolaj",
-    "navigateTo": "Idite na {{section}}",
+    "scroll": "Svitak",
+    "navigateTo": "Idi na {{section}}",
     "sections": {
       "home": "Početna",
       "solutions": "Usluge",
-      "credibility": "Kredibilitet",
+      "credibility": "Vjerodostojnost",
       "partners": "Partneri",
       "caseStudies": "Studije slučaja",
       "blog": "Blog",
@@ -161,23 +161,23 @@
     }
   },
   "languageSwitcher": {
-    "srLabel": "Promijeni jezik",
+    "srLabel": "Promijenite jezik",
     "searchPlaceholder": "Pretraži jezik...",
     "noResults": "Nema pronađenih jezika."
   },
   "common": {
     "menu": "Meni",
-    "account": "Nalog"
+    "account": "Red"
   },
   "homePage": {
     "caseStudies": {
       "title": "Nedavne studije slučaja",
-      "description": "Pregled rezultata koje smo ostvarili za klijente u maloprodaji, ugostiteljstvu, proizvodnji i javnom sektoru.",
+      "description": "Pregled rezultata koje smo postigli za klijente u maloprodaji, ugostiteljstvu, proizvodnji i javnom sektoru.",
       "cta": "Pogledajte sve studije slučaja"
     },
     "blog": {
       "title": "Najnovije s našeg bloga",
-      "description": "Praktične računovodstvene i finansijske bilješke od tima Start HN-a.",
+      "description": "Praktične računovodstvene i financijske bilješke tima Start HN.",
       "cta": "Pročitajte sve članke"
     }
   },
@@ -187,11 +187,11 @@
       "fintech": "FinTech",
       "healthcare": "Zdravstvo",
       "logistics": "Logistika",
-      "manufacturing": "Proizvodnja",
+      "manufacturing": "Produkcija",
       "government": "Javni sektor"
     }
   },
   "blogCard": {
-    "read": "Pročitajte"
+    "read": "Pročitajte više"
   }
 }

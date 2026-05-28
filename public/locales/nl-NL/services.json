@@ -1,0 +1,384 @@
+{
+  "common": {
+    "fallbackTitle": "Dienst",
+    "service": "Dienst",
+    "overview": "Overzicht",
+    "scope": "Wat We Behandelen",
+    "process": "Hoe we werken",
+    "outputs": "Resultaten",
+    "nextStep": "Volgende stap",
+    "learnMore": "Lees meer",
+    "ctaPrimary": "Begin een gesprek",
+    "ctaSecondary": "Bekijk alle diensten",
+    "backToServices": "Terug in dienst"
+  },
+  "index": {
+    "overline": "Diensten starten HN",
+    "title": "Boekhoudkundige ondersteuning voor elke fase van het bedrijf.",
+    "description": "Zes duidelijke servicegebieden bestrijken boekhouding, belastingverplichtingen, rapportage, consultancy en educatie, waardoor uw bedrijf beter controle heeft.",
+    "introOverline": "Diensten",
+    "introTitle": "Eén team, een duidelijk financieel beeld",
+    "introBody": "Start HN verbindt praktische boekhouding, belastingmonitoring, financiële rapportage en adviesondersteuning, zodat eigenaren en management beslissingen kunnen nemen op basis van betrouwbare gegevens, niet op basis van bulkdocumentatie.",
+    "cta": {
+      "title": "Weet je niet zeker welke service je nodig hebt?",
+      "description": "Vertel ons hoe uw bedrijf momenteel functioneert en wij zullen de juiste ondersteuningsomvang aanbevelen: regelmatige boekhouding, diepgaand advies of gerichte consultatie.",
+      "button": "Plan een consult in"
+    }
+  },
+  "items": {
+    "bookkeeping": {
+      "label": "01",
+      "title": "Boekhouding en boekhouding",
+      "shortDescription": "Volledige boekhouding, boekhoudkundige administratie, loonadministratie, btw-gegevens en eindrapporten voor ambachten en bedrijven.",
+      "heroDescription": "Betrouwbare boeken vormen de operationele basis van elk bedrijf. Wij houden uw administratie nauwkeurig, actueel en klaar voor belastingdeadlines, banken en managementbeslissingen.",
+      "overviewTitle": "Dagelijkse records zonder dagelijkse belasting",
+      "overview": "Wij organiseren de volledige boekhoudcyclus: ontvangst van documentatie, boeking van facturen en kosten, berekening van salarissen en bijdragen, btw-administratie, juridische aanvragen en jaarlijkse afsluiting. Het doel is simpel: nette administratie, duidelijke verantwoordelijkheden en geen verrassingen voor deadlines.",
+      "bestForTitle": "Het beste voor",
+      "bestFor": [
+        "Mala i srednja preduzeća kojima treba redovna računovodstvena podrška",
+        "Obrte i samostalne djelatnosti koje žele uredne zakonske evidencije",
+        "Timove koji prelaze od drugog računovođe",
+        "Vlasnike koji žele jasne mjesečne brojeve, a ne samo godišnje prijave"
+      ],
+      "detailsTitle": "Reikwijdte van de boekhouding",
+      "details": [
+        {
+          "title": "Postavka i preuzimanje knjiga",
+          "description": "Pregledamo registraciju, postojeće evidencije, početna stanja, podatke o plaćama i kalendar obaveza kako bi usluga krenula iz čiste osnove."
+        },
+        {
+          "title": "Mjesečno računovodstveno poslovanje",
+          "description": "Fakture, troškovi, bankovni promet, plaće, doprinosi, PDV evidencije i redovne zakonske obaveze obrađujemo u predvidivom mjesečnom ritmu."
+        },
+        {
+          "title": "Završni računi i godišnje zatvaranje",
+          "description": "Pripremamo završne obračune, finansijske izvještaje, porezne prijave i prateću dokumentaciju kako bi poslovanje ostalo usklađeno i spremno za kontrole."
+        }
+      ],
+      "processTitle": "Voorspelbaar maandritme",
+      "process": [
+        {
+          "title": "Prikupljanje",
+          "description": "Dokumentaciju dostavljate digitalno ili fizički prema dogovorenom toku rada."
+        },
+        {
+          "title": "Obrada",
+          "description": "Knjižimo transakcije, obračunavamo obaveze i provjeravamo evidencije prije rokova."
+        },
+        {
+          "title": "Izvještavanje",
+          "description": "Dobijate jasne sažetke i naredne korake, a pitanja se rješavaju prije nego što postanu rizik."
+        }
+      ],
+      "deliverablesTitle": "Typische resultaten",
+      "deliverables": [
+        "Mjesečne knjigovodstvene evidencije",
+        "PDV i porezne evidencije",
+        "Obračuni plaća i doprinosa",
+        "Godišnji finansijski izvještaji",
+        "Potvrde predaje prijava",
+        "Redovno računovodstveno savjetovanje"
+      ],
+      "cta": {
+        "title": "Klaar om je boeken te redigeren?",
+        "description": "We zullen uw huidige administratie beoordelen en een maandelijkse boekhoudstroom vaststellen die overeenkomt met de manier waarop uw bedrijf daadwerkelijk opereert.",
+        "button": "Vraag boekhoudondersteuning aan"
+      }
+    },
+    "taxConsulting": {
+      "label": "02",
+      "title": "Fiscaal advies",
+      "shortDescription": "Belastingmonitoring, planning, ondersteuning bij aanvragen, het bijhouden van deadlines en praktische begeleiding voor particulieren en rechtspersonen.",
+      "heroDescription": "Belastingverplichtingen veranderen snel, en fouten zijn kostbaar. Wij helpen u te begrijpen wat van toepassing is, wat verschuldigd is en hoe u binnen de regelgeving kunt plannen.",
+      "overviewTitle": "Belastingadvies voordat er een probleem ontstaat",
+      "overview": "Onze belastingondersteuning verbindt naleving en planning: we volgen deadlines, beoordelen verplichtingen, leggen regelgevende wijzigingen uit, bereiden aangiften op en adviseren voordat beslissingen onnodige kosten of risico's veroorzaken.",
+      "bestForTitle": "Het beste voor",
+      "bestFor": [
+        "Kompanije kojima treba redovno porezno praćenje",
+        "Vlasnike koji donose odluke o investicijama, zapošljavanju ili cijenama",
+        "Fizička lica i poduzetnike s prijavnim obavezama",
+        "Poslovanja koja žele smanjiti kazne i naknadne korekcije"
+      ],
+      "detailsTitle": "Reikwijdte van belastingadvies",
+      "details": [
+        {
+          "title": "Pregled obaveza",
+          "description": "Pregledamo aktivne registracije, ranije prijave, izloženost PDV-u i plaćama te predstojeće rokove."
+        },
+        {
+          "title": "Usklađenost i podrška prijavama",
+          "description": "Pripremamo i pregledamo porezne prijave, pratimo rokove i pomažemo ispraviti propuste prije nego postanu kazne."
+        },
+        {
+          "title": "Planiranje i podrška odlukama",
+          "description": "Objašnjavamo porezne posljedice poslovnih odluka, odbitaka, promjena organizacije, zapošljavanja, isplata i drugih čestih finansijskih pitanja."
+        }
+      ],
+      "processTitle": "Belastingsteun die een stap verder gaat",
+      "process": [
+        {
+          "title": "Procjena",
+          "description": "Mapiramo trenutnu poreznu poziciju i identifikujemo otvorene obaveze ili rizične tačke."
+        },
+        {
+          "title": "Plan",
+          "description": "Definišemo rokove, odgovornosti i zakonske mogućnosti za porezno planiranje."
+        },
+        {
+          "title": "Održavanje",
+          "description": "Prijave i savjete usklađujemo s vašim poslovnim aktivnostima i regulatornim izmjenama."
+        }
+      ],
+      "deliverablesTitle": "Typische resultaten",
+      "deliverables": [
+        "Kalendar poreznih obaveza",
+        "Smjernice za PDV i porez na dohodak/dobit",
+        "Smjernice za doprinose iz plaća",
+        "Pregled i korekcije prijava",
+        "Bilješke poreznog planiranja",
+        "Podrška rokovima i usklađenosti"
+      ],
+      "cta": {
+        "title": "Heeft u duidelijkheid nodig over uw belastingverplichtingen?",
+        "description": "Stuur ons uw huidige situatie en wij helpen u te begrijpen wat er verschuldigd is, wat verbeterd kan worden en wat de volgende stap is.",
+        "button": "Dat is belastingsteun"
+      }
+    },
+    "virtualCfo": {
+      "label": "03",
+      "title": "Virtueel CFO",
+      "shortDescription": "Senior financieel inzicht zonder vaste CFO: cashflow, budgetten, KPI's en besluitvormingsondersteuning.",
+      "heroDescription": "Een virtuele CFO geeft eigenaren en management een duidelijker beeld van financiële gezondheid, cashflow, winstgevendheid en strategische keuzes.",
+      "overviewTitle": "Financieel beheer op een flexibele basis.",
+      "overview": "We vertalen boekhoudkundige gegevens naar praktische managementinzichten: budgetten, prognoses, cashflowplanning, winstgevendheidsanalyses en financiële indicatoren die laten zien waar het bedrijf sterk is en waar aandacht nodig is.",
+      "bestForTitle": "Het beste voor",
+      "bestFor": [
+        "Rastuće kompanije kojima treba više od knjigovodstva",
+        "Vlasnike koji pripremaju finansiranje ili investicione odluke",
+        "Timove bez internog finansijskog direktora",
+        "Menadžere koji žele pretvoriti mjesečne brojeve u akciju"
+      ],
+      "detailsTitle": "De rol van een virtuele CFO",
+      "details": [
+        {
+          "title": "Pregled finansijskog zdravlja",
+          "description": "Analiziramo profitabilnost, likvidnost, strukturu troškova, potraživanja, obaveze i ključne rizike u trenutnoj finansijskoj slici."
+        },
+        {
+          "title": "Planiranje i prognoziranje",
+          "description": "Pripremamo budžete, prognoze novčanog toka, scenarije i pretpostavke koje menadžerske odluke čine lakšim za procjenu."
+        },
+        {
+          "title": "Menadžersko izvještavanje",
+          "description": "Definišemo KPI-jeve i formate izvještaja koji povezuju finansijske podatke s odlukama o rastu, troškovima, cijenama i operacijama."
+        }
+      ],
+      "processTitle": "Van archieven tot beslissingen",
+      "process": [
+        {
+          "title": "Dijagnoza",
+          "description": "Pregledamo postojeće izvještaje i identifikujemo finansijska pitanja na koja menadžment treba odgovor."
+        },
+        {
+          "title": "Modeliranje",
+          "description": "Gradimo praktične budžete, prognoze i scenarije na osnovu realnih poslovnih pretpostavki."
+        },
+        {
+          "title": "Savjetovanje",
+          "description": "Redovno objašnjavamo rezultate, rizike i preporučene naredne korake."
+        }
+      ],
+      "deliverablesTitle": "Typische resultaten",
+      "deliverables": [
+        "Mjesečni menadžerski izvještaj",
+        "Prognoza novčanog toka",
+        "Budžet i analiza odstupanja",
+        "Struktura KPI izvještaja",
+        "Analiza profitabilnosti",
+        "Savjetodavni sastanci"
+      ],
+      "cta": {
+        "title": "Heb je duidelijkheid nodig op CFO-niveau?",
+        "description": "Wij kunnen uw boekhoudkundige gegevens omzetten in een managementoverzicht dat groei, financiering en betere beslissingen ondersteunt.",
+        "button": "Vertel eens over de Virtual CFO"
+      }
+    },
+    "businessConsulting": {
+      "label": "04",
+      "title": "Bedrijfsadvies",
+      "shortDescription": "Praktisch bedrijfsadvies voor organisatie, groei, interne processen, kosten, prijsstelling en operationele beslissingen.",
+      "heroDescription": "Een goed boekhoudkundig verslag laat zien wat er is gebeurd. Een goed consult helpt je beslissen wat er nu moet gebeuren.",
+      "overviewTitle": "Praktische richtlijnen op basis van cijfers",
+      "overview": "Wij ondersteunen eigenaren en managers bij financiële en operationele beslissingen: bedrijfsorganisatie, procesverbetering, kostenbeheersing, prijsstelling, facturatiediscipline, interne documentatie en groeiplanning.",
+      "bestForTitle": "Het beste voor",
+      "bestFor": [
+        "Nova poslovanja koja postavljaju finansijske procese",
+        "Kompanije koje unapređuju interne kontrole i tok dokumentacije",
+        "Vlasnike koji procjenjuju troškove, cijene ili širenje",
+        "Timove koji žele savjet povezan s računovodstvenom stvarnošću"
+      ],
+      "detailsTitle": "Reikwijdte van bedrijfsadvies",
+      "details": [
+        {
+          "title": "Organizacija i postavka poslovanja",
+          "description": "Pomažemo definisati tok dokumentacije, odgovornosti za izvještavanje, računovodstvene rutine i praktične kontrole u dnevnom radu."
+        },
+        {
+          "title": "Podrška finansijskim odlukama",
+          "description": "Pregledamo troškove, marže, cijene, potrebe za gotovinom i planirane investicije kako bi odluke imale mjerljiv efekat."
+        },
+        {
+          "title": "Unapređenje procesa",
+          "description": "Identifikujemo gdje se dokumentacija, odobrenja, izvještavanje ili naplata mogu pojednostaviti i učiniti pouzdanijim."
+        }
+      ],
+      "processTitle": "Consulting zonder lege theorie",
+      "process": [
+        {
+          "title": "Mapiranje",
+          "description": "Mapiramo postojeći proces, dokumente i finansijska pitanja."
+        },
+        {
+          "title": "Prioriteti",
+          "description": "Izdvajamo promjene koje donose najbržu i najvažniju poslovnu vrijednost."
+        },
+        {
+          "title": "Primjena",
+          "description": "Definišemo praktične korake, odgovornosti i naknadno praćenje."
+        }
+      ],
+      "deliverablesTitle": "Typische resultaten",
+      "deliverables": [
+        "Pregled poslovnih procesa",
+        "Bilješke o troškovima i maržama",
+        "Smjernice za cijene i novčani tok",
+        "Preporuke za interne kontrole",
+        "Postavka toka dokumentacije",
+        "Savjetodavni sastanci s vlasnikom"
+      ],
+      "cta": {
+        "title": "Heeft u een hands-on overzicht van uw bedrijf nodig?",
+        "description": "We bekijken uw cijfers en operationele trechter en bevelen vervolgens wijzigingen aan die de controle en winstgevendheid het meest verbeteren.",
+        "button": "Vraag een consult aan"
+      }
+    },
+    "financialReporting": {
+      "label": "05",
+      "title": "Financiële verslaggeving",
+      "shortDescription": "Duidelijke juridische en managementrapporten die helpen om resultaten, aansprakelijkheden en financiële trends te begrijpen.",
+      "heroDescription": "Rapporten hoeven geen onbegrijpelijke bestanden te zijn die alleen een deadline halen. Ze moeten weten wat er in het bedrijfsleven gebeurt.",
+      "overviewTitle": "Rapporten die het management daadwerkelijk gebruikt",
+      "overview": "Wij stellen juridische rapporten, samenvattingen van het management, financiële overzichten en analytische formaten op die het begrip van inkomsten, kosten, winsten, liquiditeit en verplichtingen vergemakkelijken.",
+      "bestForTitle": "Het beste voor",
+      "bestFor": [
+        "Kompanije kojima treba jasnije mjesečno izvještavanje",
+        "Menadžere koji pripremaju dokumentaciju za banke, partnere ili investitore",
+        "Vlasnike koji žele stalno pratiti profit i gotovinu",
+        "Poslovanja kojima treba uskladiti zakonski i menadžerski pogled"
+      ],
+      "detailsTitle": "Reikwijdte van rapportage",
+      "details": [
+        {
+          "title": "Zakonsko finansijsko izvještavanje",
+          "description": "Pripremamo zakonom propisane finansijske izvještaje i prateće preglede na osnovu urednih računovodstvenih evidencija."
+        },
+        {
+          "title": "Menadžersko izvještavanje",
+          "description": "Kreiramo sažete mjesečne ili kvartalne preglede koji objašnjavaju rezultate, obaveze, marže i trendove."
+        },
+        {
+          "title": "Finansijska analiza",
+          "description": "Brojeve tumačimo kroz pokazatelje, poređenja i komentare koji podržavaju odluke, a ne samo evidenciju."
+        }
+      ],
+      "processTitle": "Duidelijke rapportagecyclus",
+      "process": [
+        {
+          "title": "Struktura",
+          "description": "Definišemo na koja pitanja izvještaj treba odgovoriti i ko će ga koristiti."
+        },
+        {
+          "title": "Priprema",
+          "description": "Sastavljamo tačne podatke iz računovodstvenih evidencija i prateće dokumentacije."
+        },
+        {
+          "title": "Objašnjenje",
+          "description": "Sažimamo trendove, rizike i naredne korake jednostavnim jezikom."
+        }
+      ],
+      "deliverablesTitle": "Typische resultaten",
+      "deliverables": [
+        "Finansijski izvještaji",
+        "Mjesečni menadžerski sažeci",
+        "Analiza profita i troškova",
+        "Pregled gotovine i obaveza",
+        "Paketi izvještaja za banke ili partnere",
+        "Podrška završnom izvještavanju"
+      ],
+      "cta": {
+        "title": "Wil je rapporten die makkelijker te gebruiken zijn?",
+        "description": "We kunnen boekhoudkundige gegevens omzetten in een duidelijk formaat voor management, partners, banken of interne planning.",
+        "button": "Verbeteren van rapportage"
+      }
+    },
+    "education": {
+      "label": "06",
+      "title": "Onderwijs & Cursussen",
+      "shortDescription": "Workshops over accountancy, belastingen en financiën die eigenaren en teams helpen verantwoordelijkheden te begrijpen en betere beslissingen te nemen.",
+      "heroDescription": "Betere financiële geletterdheid vermindert fouten, verbetert de interne communicatie en helpt teams effectiever samen te werken met accountants.",
+      "overviewTitle": "Kennis die het dagelijks werk makkelijker maakt",
+      "overview": "Wij organiseren praktische trainingen voor eigenaren, managers en administratieve teams: basisprincipes van boekhouding, voorbereiding van documentatie, belastingdeadlines, basisprincipes van salarissen, interpretatie van rapporten en betere samenwerking met boekhouding.",
+      "bestForTitle": "Het beste voor",
+      "bestFor": [
+        "Vlasnike koji žele razumjeti svoje obaveze",
+        "Administrativno osoblje koje rukuje dokumentima i fakturama",
+        "Timove koji uvode nove procese izvještavanja",
+        "Menadžere koji žele sigurnije čitati finansijske izvještaje"
+      ],
+      "detailsTitle": "Reikwijdte van het onderwijs",
+      "details": [
+        {
+          "title": "Osnove računovodstva",
+          "description": "Objašnjavamo evidencije, dokumente i rokove koji utiču na svakodnevno poslovanje."
+        },
+        {
+          "title": "Porezi i plaće u praksi",
+          "description": "Obrađujemo česte obaveze, redovne rokove, osnove doprinosa i praktične tačke rizika."
+        },
+        {
+          "title": "Finansijsko izvještavanje",
+          "description": "Pomažemo timovima razumjeti finansijske izvještaje, menadžerske preglede i pitanja na koja ti izvještaji trebaju odgovoriti."
+        }
+      ],
+      "processTitle": "Onderwijs gebaseerd op echt werk",
+      "process": [
+        {
+          "title": "Definisanje",
+          "description": "Utvrđujemo šta tim treba razumjeti i koje greške treba spriječiti."
+        },
+        {
+          "title": "Edukacija",
+          "description": "Vodimo praktične sesije uz primjere bliske vašem svakodnevnom radu."
+        },
+        {
+          "title": "Primjena",
+          "description": "Tim dobija kontrolne liste, rutine i jasnije odgovornosti."
+        }
+      ],
+      "deliverablesTitle": "Typische resultaten",
+      "deliverables": [
+        "Radionice i kratki kursevi",
+        "Kontrolne liste za računovodstveni proces",
+        "Pregled poreznih rokova",
+        "Smjernice za pripremu dokumentacije",
+        "Sesije za čitanje izvještaja",
+        "Pitanja i odgovori za tim"
+      ],
+      "cta": {
+        "title": "Wil je dat je team cijfers beter begrijpt?",
+        "description": "We kunnen een gerichte workshop voorbereiden over uw boekhoudproces, rapportage of belastingvragen.",
+        "button": "Plan je training"
+      }
+    }
+  }
+}

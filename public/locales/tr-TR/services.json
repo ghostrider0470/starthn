@@ -1,0 +1,384 @@
+{
+  "common": {
+    "fallbackTitle": "Hizmet",
+    "service": "Hizmet",
+    "overview": "Genel Bakış",
+    "scope": "Neleri Ele Alırız",
+    "process": "Nasıl çalışıyoruz",
+    "outputs": "Sonuçlar",
+    "nextStep": "Sonraki adım",
+    "learnMore": "Daha fazla bilgi edinin",
+    "ctaPrimary": "Bir sohbet başlat",
+    "ctaSecondary": "Tüm hizmetleri görüntüle",
+    "backToServices": "Hizmete dönüş"
+  },
+  "index": {
+    "overline": "Hizmetler HN başlıyor",
+    "title": "İşin her aşaması için muhasebe desteği.",
+    "description": "Altı net hizmet alanı, muhasebe, vergi yükümlülükleri, raporlama, danışmanlık ve işletmenize daha iyi kontrol sağlayan eğitimi kapsar.",
+    "introOverline": "Hizmetler",
+    "introTitle": "Tek bir takım, net bir finansal tablo",
+    "introBody": "Start HN, pratik muhasebe, vergi izleme, finansal raporlama ve danışmanlık desteğini birleştirerek sahipler ve yönetimin kararlarını toplu dokümantasyondan değil, güvenilir verilere dayanarak verebilir.",
+    "cta": {
+      "title": "Hangi servise ihtiyacınız olduğundan emin değil misiniz?",
+      "description": "İşletmenizin şu anda nasıl işlediğini bize anlatın, biz de doğru destek kapsamını öneririz: düzenli muhasebe, derinlemesine danışmanlık veya odaklanmış danışmanlık.",
+      "button": "Bir danışmanlık planı yapın"
+    }
+  },
+  "items": {
+    "bookkeeping": {
+      "label": "01",
+      "title": "Muhasebe ve muhasebe",
+      "shortDescription": "El işleri ve şirketler için tam muhasebe, muhasebe kayıtları, bordro, KDV kayıtları ve nihai raporlar.",
+      "heroDescription": "Güvenilir kitaplar, herhangi bir işletmenin operasyonel temelidir. Kayıtlarınızı doğru, güncel ve vergi teslim tarihlerine, bankalara ve yönetici kararlarına hazır tutarız.",
+      "overviewTitle": "Günlük yük olmadan günlük kayıtlar",
+      "overview": "Tüm muhasebe döngüsünü organize ediyoruz: belgelerin alınması, faturaların ve giderlerin ilan edilmesi, maaş ve katkıların hesaplanması, KDV kayıtları, yasal başvurular ve yıllık kapanış. Amaç basit: düzenli kayıtlar, net sorumluluklar ve son teslim tarihlerinden önce sürpriz olmadan.",
+      "bestForTitle": "En iyisi",
+      "bestFor": [
+        "Mala i srednja preduzeća kojima treba redovna računovodstvena podrška",
+        "Obrte i samostalne djelatnosti koje žele uredne zakonske evidencije",
+        "Timove koji prelaze od drugog računovođe",
+        "Vlasnike koji žele jasne mjesečne brojeve, a ne samo godišnje prijave"
+      ],
+      "detailsTitle": "Muhasebe Kapsamı",
+      "details": [
+        {
+          "title": "Postavka i preuzimanje knjiga",
+          "description": "Pregledamo registraciju, postojeće evidencije, početna stanja, podatke o plaćama i kalendar obaveza kako bi usluga krenula iz čiste osnove."
+        },
+        {
+          "title": "Mjesečno računovodstveno poslovanje",
+          "description": "Fakture, troškovi, bankovni promet, plaće, doprinosi, PDV evidencije i redovne zakonske obaveze obrađujemo u predvidivom mjesečnom ritmu."
+        },
+        {
+          "title": "Završni računi i godišnje zatvaranje",
+          "description": "Pripremamo završne obračune, finansijske izvještaje, porezne prijave i prateću dokumentaciju kako bi poslovanje ostalo usklađeno i spremno za kontrole."
+        }
+      ],
+      "processTitle": "Öngörülebilir aylık ritim",
+      "process": [
+        {
+          "title": "Prikupljanje",
+          "description": "Dokumentaciju dostavljate digitalno ili fizički prema dogovorenom toku rada."
+        },
+        {
+          "title": "Obrada",
+          "description": "Knjižimo transakcije, obračunavamo obaveze i provjeravamo evidencije prije rokova."
+        },
+        {
+          "title": "Izvještavanje",
+          "description": "Dobijate jasne sažetke i naredne korake, a pitanja se rješavaju prije nego što postanu rizik."
+        }
+      ],
+      "deliverablesTitle": "Tipik sonuçlar",
+      "deliverables": [
+        "Mjesečne knjigovodstvene evidencije",
+        "PDV i porezne evidencije",
+        "Obračuni plaća i doprinosa",
+        "Godišnji finansijski izvještaji",
+        "Potvrde predaje prijava",
+        "Redovno računovodstveno savjetovanje"
+      ],
+      "cta": {
+        "title": "Kitaplarınızı düzenlemeye hazır mısınız?",
+        "description": "Mevcut kayıtlarınızı inceleyecek ve işletmenizin gerçekte işleyişine uygun aylık bir muhasebe akışı tanımlayacağız.",
+        "button": "Muhasebe desteği talep edin"
+      }
+    },
+    "taxConsulting": {
+      "label": "02",
+      "title": "Vergi danışmanlığı",
+      "shortDescription": "Vergi izleme, planlama, başvuru desteği, son tarih takibi ve bireyler ile tüzel kişiler için pratik rehberlik hizmetleri sunmaktadır.",
+      "heroDescription": "Vergi yükümlülükleri hızla değişir ve hatalar maliyetlidir. Neyin uygulanabileceğini, nelerin hak edileceğini ve düzenlemeler çerçevesinde nasıl plan yapacağınızı anlamanıza yardımcı oluruz.",
+      "overviewTitle": "Bir sorun ortaya çıkmadan önce vergi tavsiyesi",
+      "overview": "Vergi desteğimiz uyum ve planlamayı birbirine bağlar: son teslim tarihlerini takip eder, yükümlülükleri gözden geçirir, düzenleyici değişiklikleri açıklar, beyannameler hazırlar ve kararlar gereksiz maliyet veya risk yaratmadan önce tavsiye verir.",
+      "bestForTitle": "En iyisi",
+      "bestFor": [
+        "Kompanije kojima treba redovno porezno praćenje",
+        "Vlasnike koji donose odluke o investicijama, zapošljavanju ili cijenama",
+        "Fizička lica i poduzetnike s prijavnim obavezama",
+        "Poslovanja koja žele smanjiti kazne i naknadne korekcije"
+      ],
+      "detailsTitle": "Vergi danışmanlığının kapsamı",
+      "details": [
+        {
+          "title": "Pregled obaveza",
+          "description": "Pregledamo aktivne registracije, ranije prijave, izloženost PDV-u i plaćama te predstojeće rokove."
+        },
+        {
+          "title": "Usklađenost i podrška prijavama",
+          "description": "Pripremamo i pregledamo porezne prijave, pratimo rokove i pomažemo ispraviti propuste prije nego postanu kazne."
+        },
+        {
+          "title": "Planiranje i podrška odlukama",
+          "description": "Objašnjavamo porezne posljedice poslovnih odluka, odbitaka, promjena organizacije, zapošljavanja, isplata i drugih čestih finansijskih pitanja."
+        }
+      ],
+      "processTitle": "Bir adım önde olan vergi desteği",
+      "process": [
+        {
+          "title": "Procjena",
+          "description": "Mapiramo trenutnu poreznu poziciju i identifikujemo otvorene obaveze ili rizične tačke."
+        },
+        {
+          "title": "Plan",
+          "description": "Definišemo rokove, odgovornosti i zakonske mogućnosti za porezno planiranje."
+        },
+        {
+          "title": "Održavanje",
+          "description": "Prijave i savjete usklađujemo s vašim poslovnim aktivnostima i regulatornim izmjenama."
+        }
+      ],
+      "deliverablesTitle": "Tipik sonuçlar",
+      "deliverables": [
+        "Kalendar poreznih obaveza",
+        "Smjernice za PDV i porez na dohodak/dobit",
+        "Smjernice za doprinose iz plaća",
+        "Pregled i korekcije prijava",
+        "Bilješke poreznog planiranja",
+        "Podrška rokovima i usklađenosti"
+      ],
+      "cta": {
+        "title": "Vergi yükümlülükleriniz hakkında netlik mi istiyorsunuz?",
+        "description": "Mevcut durumunuzu bize gönderin, neyin hak ettiğini, neyin iyileştirilebileceğini ve bir sonraki adımın ne olduğunu anlamanıza yardımcı olalım.",
+        "button": "Vergi desteğinden bahsediyorsunuz"
+      }
+    },
+    "virtualCfo": {
+      "label": "03",
+      "title": "Sanal CFO",
+      "shortDescription": "Kalıcı bir CFO olmadan kıdemli finansal içgörü: nakit akışı, bütçeler, KPI'lar ve karar desteği.",
+      "heroDescription": "Sanal bir CFO, sahiplere ve yönetime finansal sağlık, nakit akışı, kârlılık ve stratejik tercihler hakkında daha net bir görüş sunar.",
+      "overviewTitle": "Esnek bir şekilde finansal yönetim.",
+      "overview": "Muhasebe verilerini pratik yönetici içgörülerine dönüştürüyoruz: bütçeler, tahminler, nakit akışı planlaması, kârlılık analizi ve şirketin güçlü yerlerini ve dikkat gerektiren finansal göstergeler.",
+      "bestForTitle": "En iyisi",
+      "bestFor": [
+        "Rastuće kompanije kojima treba više od knjigovodstva",
+        "Vlasnike koji pripremaju finansiranje ili investicione odluke",
+        "Timove bez internog finansijskog direktora",
+        "Menadžere koji žele pretvoriti mjesečne brojeve u akciju"
+      ],
+      "detailsTitle": "Sanal CFO'nun Rolü",
+      "details": [
+        {
+          "title": "Pregled finansijskog zdravlja",
+          "description": "Analiziramo profitabilnost, likvidnost, strukturu troškova, potraživanja, obaveze i ključne rizike u trenutnoj finansijskoj slici."
+        },
+        {
+          "title": "Planiranje i prognoziranje",
+          "description": "Pripremamo budžete, prognoze novčanog toka, scenarije i pretpostavke koje menadžerske odluke čine lakšim za procjenu."
+        },
+        {
+          "title": "Menadžersko izvještavanje",
+          "description": "Definišemo KPI-jeve i formate izvještaja koji povezuju finansijske podatke s odlukama o rastu, troškovima, cijenama i operacijama."
+        }
+      ],
+      "processTitle": "Kayıtlardan kararlara",
+      "process": [
+        {
+          "title": "Dijagnoza",
+          "description": "Pregledamo postojeće izvještaje i identifikujemo finansijska pitanja na koja menadžment treba odgovor."
+        },
+        {
+          "title": "Modeliranje",
+          "description": "Gradimo praktične budžete, prognoze i scenarije na osnovu realnih poslovnih pretpostavki."
+        },
+        {
+          "title": "Savjetovanje",
+          "description": "Redovno objašnjavamo rezultate, rizike i preporučene naredne korake."
+        }
+      ],
+      "deliverablesTitle": "Tipik sonuçlar",
+      "deliverables": [
+        "Mjesečni menadžerski izvještaj",
+        "Prognoza novčanog toka",
+        "Budžet i analiza odstupanja",
+        "Struktura KPI izvještaja",
+        "Analiza profitabilnosti",
+        "Savjetodavni sastanci"
+      ],
+      "cta": {
+        "title": "CFO seviyesinde netlik mi gerekiyor?",
+        "description": "Muhasebe verilerinizi, büyüme, finansman ve daha iyi kararları destekleyen yönetici bir genel bakış haline dönüştürebiliriz.",
+        "button": "Sanal CFO hakkında konuşun"
+      }
+    },
+    "businessConsulting": {
+      "label": "04",
+      "title": "İş danışmanlığı",
+      "shortDescription": "Organizasyon, büyüme, iç süreçler, maliyetler, fiyatlandırma ve operasyonel kararlar için pratik iş tavsiyeleri.",
+      "heroDescription": "İyi bir muhasebe hesabı olanları gösterir. İyi bir danışmanlık, sonraki adımda ne olacağına karar vermenize yardımcı olur.",
+      "overviewTitle": "Sayılara dayalı pratik rehberler",
+      "overview": "İşletme organizasyonu, süreç iyileştirme, maliyet kontrolü, fiyatlandırma, faturalandırma disiplinleri, iç dokümantasyon ve büyüme planlaması gibi finansal ve operasyonel kararlarda sahipleri ve yöneticileri destekliyoruz.",
+      "bestForTitle": "En iyisi",
+      "bestFor": [
+        "Nova poslovanja koja postavljaju finansijske procese",
+        "Kompanije koje unapređuju interne kontrole i tok dokumentacije",
+        "Vlasnike koji procjenjuju troškove, cijene ili širenje",
+        "Timove koji žele savjet povezan s računovodstvenom stvarnošću"
+      ],
+      "detailsTitle": "İş danışmanlığının kapsamı",
+      "details": [
+        {
+          "title": "Organizacija i postavka poslovanja",
+          "description": "Pomažemo definisati tok dokumentacije, odgovornosti za izvještavanje, računovodstvene rutine i praktične kontrole u dnevnom radu."
+        },
+        {
+          "title": "Podrška finansijskim odlukama",
+          "description": "Pregledamo troškove, marže, cijene, potrebe za gotovinom i planirane investicije kako bi odluke imale mjerljiv efekat."
+        },
+        {
+          "title": "Unapređenje procesa",
+          "description": "Identifikujemo gdje se dokumentacija, odobrenja, izvještavanje ili naplata mogu pojednostaviti i učiniti pouzdanijim."
+        }
+      ],
+      "processTitle": "Boş teori olmadan danışmanlık",
+      "process": [
+        {
+          "title": "Mapiranje",
+          "description": "Mapiramo postojeći proces, dokumente i finansijska pitanja."
+        },
+        {
+          "title": "Prioriteti",
+          "description": "Izdvajamo promjene koje donose najbržu i najvažniju poslovnu vrijednost."
+        },
+        {
+          "title": "Primjena",
+          "description": "Definišemo praktične korake, odgovornosti i naknadno praćenje."
+        }
+      ],
+      "deliverablesTitle": "Tipik sonuçlar",
+      "deliverables": [
+        "Pregled poslovnih procesa",
+        "Bilješke o troškovima i maržama",
+        "Smjernice za cijene i novčani tok",
+        "Preporuke za interne kontrole",
+        "Postavka toka dokumentacije",
+        "Savjetodavni sastanci s vlasnikom"
+      ],
+      "cta": {
+        "title": "İşletmenizin uygulamalı bir genel görünümüne mi ihtiyacınız var?",
+        "description": "Sayılarınıza ve operasyonel huninize bakacağız, ardından kontrol ve kârlılığı en çok artıran değişiklikler önereceğiz.",
+        "button": "Danışma talebinde bulun"
+      }
+    },
+    "financialReporting": {
+      "label": "05",
+      "title": "Mali Raporlama",
+      "shortDescription": "Sonuçları, yükümlülükleri ve finansal eğilimleri anlamaya yardımcı olan net hukuki ve yönetsel raporlar.",
+      "heroDescription": "Raporların sadece bir teslim tarihine ulaşan anlaşılmaz dosyalar olması gerekmez. İş dünyasında neler olup bittiğini bilmeleri gerekiyor.",
+      "overviewTitle": "Yönetimin gerçekten kullandığı raporlar",
+      "overview": "Gelir, gider, kâr, likidite ve yükümlülüklerin anlaşılmasını kolaylaştıran hukuki raporlar, yönetici özetler, finansal tablolar ve analitik formatlar hazırlıyoruz.",
+      "bestForTitle": "En iyisi",
+      "bestFor": [
+        "Kompanije kojima treba jasnije mjesečno izvještavanje",
+        "Menadžere koji pripremaju dokumentaciju za banke, partnere ili investitore",
+        "Vlasnike koji žele stalno pratiti profit i gotovinu",
+        "Poslovanja kojima treba uskladiti zakonski i menadžerski pogled"
+      ],
+      "detailsTitle": "Raporlama kapsamı",
+      "details": [
+        {
+          "title": "Zakonsko finansijsko izvještavanje",
+          "description": "Pripremamo zakonom propisane finansijske izvještaje i prateće preglede na osnovu urednih računovodstvenih evidencija."
+        },
+        {
+          "title": "Menadžersko izvještavanje",
+          "description": "Kreiramo sažete mjesečne ili kvartalne preglede koji objašnjavaju rezultate, obaveze, marže i trendove."
+        },
+        {
+          "title": "Finansijska analiza",
+          "description": "Brojeve tumačimo kroz pokazatelje, poređenja i komentare koji podržavaju odluke, a ne samo evidenciju."
+        }
+      ],
+      "processTitle": "Açık raporlama döngüsü",
+      "process": [
+        {
+          "title": "Struktura",
+          "description": "Definišemo na koja pitanja izvještaj treba odgovoriti i ko će ga koristiti."
+        },
+        {
+          "title": "Priprema",
+          "description": "Sastavljamo tačne podatke iz računovodstvenih evidencija i prateće dokumentacije."
+        },
+        {
+          "title": "Objašnjenje",
+          "description": "Sažimamo trendove, rizike i naredne korake jednostavnim jezikom."
+        }
+      ],
+      "deliverablesTitle": "Tipik sonuçlar",
+      "deliverables": [
+        "Finansijski izvještaji",
+        "Mjesečni menadžerski sažeci",
+        "Analiza profita i troškova",
+        "Pregled gotovine i obaveza",
+        "Paketi izvještaja za banke ili partnere",
+        "Podrška završnom izvještavanju"
+      ],
+      "cta": {
+        "title": "Kullanımı daha kolay raporlar mı istiyorsunuz?",
+        "description": "Muhasebe verilerini yönetim, ortaklar, bankalar veya iç planlama için net bir formata dönüştürebiliriz.",
+        "button": "Raporlamayı iyileştirin"
+      }
+    },
+    "education": {
+      "label": "06",
+      "title": "Eğitim ve Kurslar",
+      "shortDescription": "Muhasebe, vergi ve finans alanlarında çalışanlar, sahiplerin ve ekiplerin sorumlulukları anlamalarına ve daha iyi kararlar almasına yardımcı olur.",
+      "heroDescription": "Daha iyi finansal okuryazarlık hataları azaltır, iç iletişimi geliştirir ve ekiplerin muhasebecilerle daha etkili iş birliği yapmasına yardımcı olur.",
+      "overviewTitle": "Günlük işleri kolaylaştıran bilgi",
+      "overview": "Sahipler, yöneticiler ve idari ekipler için muhasebe temelleri, dokümantasyon hazırlama, vergi teslim tarihleri, maaşların temelleri, raporların yorumlanması ve muhasebe ile daha iyi iş birliği gibi pratik eğitimler düzenliyoruz.",
+      "bestForTitle": "En iyisi",
+      "bestFor": [
+        "Vlasnike koji žele razumjeti svoje obaveze",
+        "Administrativno osoblje koje rukuje dokumentima i fakturama",
+        "Timove koji uvode nove procese izvještavanja",
+        "Menadžere koji žele sigurnije čitati finansijske izvještaje"
+      ],
+      "detailsTitle": "Eğitim kapsamı",
+      "details": [
+        {
+          "title": "Osnove računovodstva",
+          "description": "Objašnjavamo evidencije, dokumente i rokove koji utiču na svakodnevno poslovanje."
+        },
+        {
+          "title": "Porezi i plaće u praksi",
+          "description": "Obrađujemo česte obaveze, redovne rokove, osnove doprinosa i praktične tačke rizika."
+        },
+        {
+          "title": "Finansijsko izvještavanje",
+          "description": "Pomažemo timovima razumjeti finansijske izvještaje, menadžerske preglede i pitanja na koja ti izvještaji trebaju odgovoriti."
+        }
+      ],
+      "processTitle": "Gerçek çalışma etrafında kurulu eğitim",
+      "process": [
+        {
+          "title": "Definisanje",
+          "description": "Utvrđujemo šta tim treba razumjeti i koje greške treba spriječiti."
+        },
+        {
+          "title": "Edukacija",
+          "description": "Vodimo praktične sesije uz primjere bliske vašem svakodnevnom radu."
+        },
+        {
+          "title": "Primjena",
+          "description": "Tim dobija kontrolne liste, rutine i jasnije odgovornosti."
+        }
+      ],
+      "deliverablesTitle": "Tipik sonuçlar",
+      "deliverables": [
+        "Radionice i kratki kursevi",
+        "Kontrolne liste za računovodstveni proces",
+        "Pregled poreznih rokova",
+        "Smjernice za pripremu dokumentacije",
+        "Sesije za čitanje izvještaja",
+        "Pitanja i odgovori za tim"
+      ],
+      "cta": {
+        "title": "Ekibinizin sayıları daha iyi anlamasını mı istiyorsunuz?",
+        "description": "Muhasebe süreciniz, raporlama veya vergi SSS'iniz etrafında odaklanmış bir atölye hazırlayabiliriz.",
+        "button": "Eğitiminizi planlayın"
+      }
+    }
+  }
+}

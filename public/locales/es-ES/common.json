@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "company": "Sobre nosotros",
+    "solutions": "Servicios",
+    "resources": "Recursos",
+    "contact": "Contacto",
+    "about": {
+      "title": "Sobre nosotros",
+      "description": "Nuestra misión, visión e historia"
+    },
+    "missionVision": {
+      "title": "Misión, visión y valores",
+      "description": "Los principios y objetivos que guían todo lo que hacemos"
+    },
+    "certificates": {
+      "title": "Certificados y reconocimientos",
+      "description": "Nuestras licencias y autorizaciones profesionales"
+    },
+    "team": {
+      "title": "Equipo",
+      "description": "Conoce a las personas detrás de Start HN"
+    },
+    "careers": {
+      "title": "Carreras",
+      "description": "Únete a nuestro equipo y crece con nosotros"
+    },
+    "enterpriseSoftware": {
+      "title": "Contabilidad y gestión de libros",
+      "description": "Servicios integrales de contabilidad y gestión de libros para empresas de todos los tamaños"
+    },
+    "aiMl": {
+      "title": "Consultoría fiscal",
+      "description": "Planificación y cumplimiento fiscal profesional para particulares y entidades jurídicas"
+    },
+    "cloudArchitecture": {
+      "title": "Virtual CFO",
+      "description": "Liderazgo financiero estratégico sin el coste de un empleo permanente."
+    },
+    "iot": {
+      "title": "Consultoría empresarial",
+      "description": "Consejos prácticos para ayudar a que tu negocio crezca y prospere"
+    },
+    "devops": {
+      "title": "Informes financieros",
+      "description": "Estados financieros y análisis de gestión precisos y oportunos"
+    },
+    "digitalTransformation": {
+      "title": "Educación y cursos",
+      "description": "Talleres y cursos de Contabilidad, Impuestos y Finanzas"
+    },
+    "caseStudies": {
+      "title": "Estudios de caso",
+      "description": "Historias de éxito de nuestros clientes",
+      "featured": {
+        "title": "Estudio de caso destacado",
+        "description": "Un relato detallado de cómo ayudamos al cliente a tener éxito"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Perspectivas, guías y noticias del equipo de Start HN",
+      "featured": {
+        "title": "Artículo destacado",
+        "description": "Lee una de nuestras últimas perspectivas sobre contabilidad y finanzas."
+      }
+    },
+    "navigation": "Navegación",
+    "skipToContent": "Saltar al contenido",
+    "toggleMenu": "Menú de cambio",
+    "dashboard": "Panel de control",
+    "myWorkspace": "Mi espacio de trabajo",
+    "profile": "Perfil",
+    "adminPanel": "Panel Administrativo",
+    "practiceManagement": "Gestión de la práctica",
+    "logOut": "Regístrate",
+    "education": {
+      "title": "Recursos y guías",
+      "description": "Recursos prácticos de contabilidad y finanzas del equipo de Start HN"
+    },
+    "support": {
+      "title": "Centro de Apoyo",
+      "description": "Obtén ayuda con nuestros servicios de contabilidad y asesoramiento"
+    }
+  },
+  "footer": {
+    "description": "Start HN es una agencia de contabilidad con sede en Sarajevo. Ofrecemos contabilidad, consultoría fiscal, CFO virtual e informes financieros para empresas de toda Bosnia y Herzegovina.",
+    "services": "Servicios",
+    "servicesList": {
+      "bookkeeping": "Contabilidad",
+      "tax": "Consultoría fiscal",
+      "vcfo": "Virtual CFO",
+      "reporting": "Informes financieros",
+      "consulting": "Consultoría empresarial",
+      "education": "Educación"
+    },
+    "company": "Sobre nosotros",
+    "companyLinks": {
+      "about": "Sobre nosotros",
+      "missionVision": "Misión y valores",
+      "certificates": "Certificados",
+      "team": "Nuestro equipo",
+      "blog": "Historias de éxito",
+      "careers": "Carreras",
+      "contact": "Contacto"
+    },
+    "contact": "Contacto",
+    "contactInfo": {
+      "email": "klijenti@starthn.ba",
+      "phone": "+387 61 135-377",
+      "street": "Ibrahima Ljubovića 47",
+      "locality": "Ilidža",
+      "region": "Cantón de Sarajevo",
+      "country": "Bosnia y Herzegovina",
+      "hours": "Lun–Vie: 08:00–16:00",
+      "holidays": "No trabajamos en festivos"
+    },
+    "legal": "Legal",
+    "legalLinks": {
+      "privacyPolicy": "Política de privacidad",
+      "termsOfService": "Términos de uso",
+      "cookiePolicy": "Política de Cookies"
+    },
+    "copyright": "© {{year}} Empieza con HN. Todos los derechos reservados.",
+    "ctaTitle": "¿Listo para hablar?",
+    "ctaDescription": "Programa una consulta introductoria gratuita — te responderemos en un día laborable.",
+    "ctaButton": "Contáctanos"
+  },
+  "header": {
+    "badge": "Servicios Profesionales de Contabilidad",
+    "titleLine1": "Contabilidad y finanzas fiables",
+    "titleLine2": "para tu negocio en Bosnia y Herzegovina",
+    "description": "Desde contabilidad y consultoría fiscal hasta servicios virtuales de CFO e informes financieros — Start HN ofrece una experiencia contable integral que mantiene tu empresa alineada, informada y lista para crecer.",
+    "getStarted": "Empieza",
+    "exploreSolutions": "Explora servicios",
+    "trustedBy": "Confianza de empresas en toda Bosnia y Herzegovina",
+    "microsoftPartner": "Contables Colegiados",
+    "azureCertified": "Registrado para el IVA",
+    "enterpriseSolutions": "Contabilidad de extremo a extremo"
+  },
+  "mobileNav": {
+    "navigation": "Navegación móvil",
+    "home": "Inicio",
+    "solutions": "Servicios",
+    "caseStudies": "Casos",
+    "blog": "Blog",
+    "resources": "Recursos",
+    "contact": "Contacto"
+  },
+  "sideNav": {
+    "scroll": "Pergamino",
+    "navigateTo": "Ve a {{section}}",
+    "sections": {
+      "home": "Inicio",
+      "solutions": "Servicios",
+      "credibility": "Credibilidad",
+      "partners": "Socios",
+      "caseStudies": "Estudios de caso",
+      "blog": "Blog",
+      "faq": "Preguntas frecuentes"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "Cambiar el idioma",
+    "searchPlaceholder": "Lenguaje de búsqueda...",
+    "noResults": "No se han encontrado idiomas."
+  },
+  "common": {
+    "menu": "Para mí",
+    "account": "Orden"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "Estudios de caso recientes",
+      "description": "Una visión general de los resultados que hemos logrado para clientes en el sector minorista, hostelería, manufactura y el sector público.",
+      "cta": "Ver todos los estudios de caso"
+    },
+    "blog": {
+      "title": "Últimas novedades de nuestro blog",
+      "description": "Notas prácticas de contabilidad y finanzas del equipo de Start HN.",
+      "cta": "Lee todos los artículos"
+    }
+  },
+  "caseStudyCard": {
+    "read": "Lee el estudio de caso",
+    "industries": {
+      "fintech": "FinTech",
+      "healthcare": "Sanidad",
+      "logistics": "Logística",
+      "manufacturing": "Producción",
+      "government": "Sector público"
+    }
+  },
+  "blogCard": {
+    "read": "Leer más"
+  }
+}

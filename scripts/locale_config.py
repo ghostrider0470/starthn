@@ -25,15 +25,14 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 LOCALES_DIR = PROJECT_ROOT / "public" / "locales"
 LANGUAGES_TS = PROJECT_ROOT / "src" / "lib" / "languages.ts"
 
-SOURCE_LANG = "en"
-SOURCE_LOCALE = "en-US"
+SOURCE_LANG = "bs"
+SOURCE_LOCALE = "bs-BA"
 
 NAMESPACES = [
     "common",
     "landing",
     "pages",
     "services",
-    "innovation-lab",
     "auth",
     "seo",
     "blog",

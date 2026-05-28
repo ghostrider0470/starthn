@@ -1,0 +1,384 @@
+{
+  "common": {
+    "fallbackTitle": "服役经历",
+    "service": "服役经历",
+    "overview": "概述",
+    "scope": "我们报道的内容",
+    "process": "我们的工作方式",
+    "outputs": "选举结果",
+    "nextStep": "下一步",
+    "learnMore": "了解更多",
+    "ctaPrimary": "开始对话",
+    "ctaSecondary": "查看所有服务",
+    "backToServices": "重返服役"
+  },
+  "index": {
+    "overline": "服务开始 HN",
+    "title": "为业务的每个阶段提供会计支持。",
+    "description": "六个明确的服务领域涵盖簿记、税务义务、报告、咨询和教育，帮助您更好地掌控业务。",
+    "introOverline": "服务",
+    "introTitle": "一队，财务状况清晰",
+    "introBody": "Start HN将实用的簿记、税务监控、财务报告和咨询支持相结合，使业主和管理层能够基于可靠数据而非批量文档做出决策。",
+    "cta": {
+      "title": "不确定你需要哪种服务？",
+      "description": "请告诉我们您的业务目前的运作情况，我们将建议合适的支持范围：定期簿记、深入咨询或专注咨询。",
+      "button": "预约咨询"
+    }
+  },
+  "items": {
+    "bookkeeping": {
+      "label": "01",
+      "title": "会计与簿记",
+      "shortDescription": "为工艺品和企业提供完整的簿记、会计记录、工资、增值税记录及最终报告。",
+      "heroDescription": "可靠的账本是任何企业的运营基础。我们准确、及时更新您的记录，并随时准备应对报税截止日期、银行和管理决策。",
+      "overviewTitle": "无日负载的每日记录",
+      "overview": "我们组织整个会计流程：文件接收、发票和费用过账、工资和缴款计算、增值税记录、法律申请和年度结算。目标很简单：整洁的记录，明确的职责，并且在截止日期前不发生意外。",
+      "bestForTitle": "最佳",
+      "bestFor": [
+        "Mala i srednja preduzeća kojima treba redovna računovodstvena podrška",
+        "Obrte i samostalne djelatnosti koje žele uredne zakonske evidencije",
+        "Timove koji prelaze od drugog računovođe",
+        "Vlasnike koji žele jasne mjesečne brojeve, a ne samo godišnje prijave"
+      ],
+      "detailsTitle": "会计范围",
+      "details": [
+        {
+          "title": "Postavka i preuzimanje knjiga",
+          "description": "Pregledamo registraciju, postojeće evidencije, početna stanja, podatke o plaćama i kalendar obaveza kako bi usluga krenula iz čiste osnove."
+        },
+        {
+          "title": "Mjesečno računovodstveno poslovanje",
+          "description": "Fakture, troškovi, bankovni promet, plaće, doprinosi, PDV evidencije i redovne zakonske obaveze obrađujemo u predvidivom mjesečnom ritmu."
+        },
+        {
+          "title": "Završni računi i godišnje zatvaranje",
+          "description": "Pripremamo završne obračune, finansijske izvještaje, porezne prijave i prateću dokumentaciju kako bi poslovanje ostalo usklađeno i spremno za kontrole."
+        }
+      ],
+      "processTitle": "可预测的月度节律",
+      "process": [
+        {
+          "title": "Prikupljanje",
+          "description": "Dokumentaciju dostavljate digitalno ili fizički prema dogovorenom toku rada."
+        },
+        {
+          "title": "Obrada",
+          "description": "Knjižimo transakcije, obračunavamo obaveze i provjeravamo evidencije prije rokova."
+        },
+        {
+          "title": "Izvještavanje",
+          "description": "Dobijate jasne sažetke i naredne korake, a pitanja se rješavaju prije nego što postanu rizik."
+        }
+      ],
+      "deliverablesTitle": "典型结果",
+      "deliverables": [
+        "Mjesečne knjigovodstvene evidencije",
+        "PDV i porezne evidencije",
+        "Obračuni plaća i doprinosa",
+        "Godišnji finansijski izvještaji",
+        "Potvrde predaje prijava",
+        "Redovno računovodstveno savjetovanje"
+      ],
+      "cta": {
+        "title": "准备好编辑你的书籍了吗？",
+        "description": "我们将审查您当前的记录，并定义一个与您业务实际运作方式相符的月度会计流程。",
+        "button": "请求簿记支持"
+      }
+    },
+    "taxConsulting": {
+      "label": "02",
+      "title": "税务咨询",
+      "shortDescription": "税务监控、规划、申请支持、截止日期跟踪以及为个人和法人实体提供实用指导。",
+      "heroDescription": "税务义务变化迅速，错误代价高昂。我们帮助您了解适用内容、应缴金额以及如何在法规内进行规划。",
+      "overviewTitle": "问题出现前的税务建议",
+      "overview": "我们的税务支持将合规与规划相结合：我们跟踪截止日期，审查义务，解释监管变更，准备申报并在决策产生不必要成本或风险前提供建议。",
+      "bestForTitle": "最佳",
+      "bestFor": [
+        "Kompanije kojima treba redovno porezno praćenje",
+        "Vlasnike koji donose odluke o investicijama, zapošljavanju ili cijenama",
+        "Fizička lica i poduzetnike s prijavnim obavezama",
+        "Poslovanja koja žele smanjiti kazne i naknadne korekcije"
+      ],
+      "detailsTitle": "税务咨询的范围",
+      "details": [
+        {
+          "title": "Pregled obaveza",
+          "description": "Pregledamo aktivne registracije, ranije prijave, izloženost PDV-u i plaćama te predstojeće rokove."
+        },
+        {
+          "title": "Usklađenost i podrška prijavama",
+          "description": "Pripremamo i pregledamo porezne prijave, pratimo rokove i pomažemo ispraviti propuste prije nego postanu kazne."
+        },
+        {
+          "title": "Planiranje i podrška odlukama",
+          "description": "Objašnjavamo porezne posljedice poslovnih odluka, odbitaka, promjena organizacije, zapošljavanja, isplata i drugih čestih finansijskih pitanja."
+        }
+      ],
+      "processTitle": "领先一步的税收支持",
+      "process": [
+        {
+          "title": "Procjena",
+          "description": "Mapiramo trenutnu poreznu poziciju i identifikujemo otvorene obaveze ili rizične tačke."
+        },
+        {
+          "title": "Plan",
+          "description": "Definišemo rokove, odgovornosti i zakonske mogućnosti za porezno planiranje."
+        },
+        {
+          "title": "Održavanje",
+          "description": "Prijave i savjete usklađujemo s vašim poslovnim aktivnostima i regulatornim izmjenama."
+        }
+      ],
+      "deliverablesTitle": "典型结果",
+      "deliverables": [
+        "Kalendar poreznih obaveza",
+        "Smjernice za PDV i porez na dohodak/dobit",
+        "Smjernice za doprinose iz plaća",
+        "Pregled i korekcije prijava",
+        "Bilješke poreznog planiranja",
+        "Podrška rokovima i usklađenosti"
+      ],
+      "cta": {
+        "title": "需要明确您的税务义务吗？",
+        "description": "请将您的当前情况发送给我们，我们将帮助您了解应得的部分、可改进的部分以及下一步该做什么。",
+        "button": "谈谈税务支持"
+      }
+    },
+    "virtualCfo": {
+      "label": "03",
+      "title": "虚拟首席财务官",
+      "shortDescription": "没有固定CFO的高级财务洞察：现金流、预算、关键绩效指标（KPI）和决策支持。",
+      "heroDescription": "虚拟CFO让所有者和管理层能够更清晰地了解财务健康状况、现金流、盈利能力及战略选择。",
+      "overviewTitle": "灵活的财务管理。",
+      "overview": "我们将会计数据转化为实用的管理洞察：预算、预测、现金流规划、盈利能力分析和财务指标，显示公司优势所在及需要关注的领域。",
+      "bestForTitle": "最佳",
+      "bestFor": [
+        "Rastuće kompanije kojima treba više od knjigovodstva",
+        "Vlasnike koji pripremaju finansiranje ili investicione odluke",
+        "Timove bez internog finansijskog direktora",
+        "Menadžere koji žele pretvoriti mjesečne brojeve u akciju"
+      ],
+      "detailsTitle": "虚拟首席财务官的角色",
+      "details": [
+        {
+          "title": "Pregled finansijskog zdravlja",
+          "description": "Analiziramo profitabilnost, likvidnost, strukturu troškova, potraživanja, obaveze i ključne rizike u trenutnoj finansijskoj slici."
+        },
+        {
+          "title": "Planiranje i prognoziranje",
+          "description": "Pripremamo budžete, prognoze novčanog toka, scenarije i pretpostavke koje menadžerske odluke čine lakšim za procjenu."
+        },
+        {
+          "title": "Menadžersko izvještavanje",
+          "description": "Definišemo KPI-jeve i formate izvještaja koji povezuju finansijske podatke s odlukama o rastu, troškovima, cijenama i operacijama."
+        }
+      ],
+      "processTitle": "从记录到判决",
+      "process": [
+        {
+          "title": "Dijagnoza",
+          "description": "Pregledamo postojeće izvještaje i identifikujemo finansijska pitanja na koja menadžment treba odgovor."
+        },
+        {
+          "title": "Modeliranje",
+          "description": "Gradimo praktične budžete, prognoze i scenarije na osnovu realnih poslovnih pretpostavki."
+        },
+        {
+          "title": "Savjetovanje",
+          "description": "Redovno objašnjavamo rezultate, rizike i preporučene naredne korake."
+        }
+      ],
+      "deliverablesTitle": "典型结果",
+      "deliverables": [
+        "Mjesečni menadžerski izvještaj",
+        "Prognoza novčanog toka",
+        "Budžet i analiza odstupanja",
+        "Struktura KPI izvještaja",
+        "Analiza profitabilnosti",
+        "Savjetodavni sastanci"
+      ],
+      "cta": {
+        "title": "你需要在首席财务官层面明确吗？",
+        "description": "我们可以将您的会计数据转化为支持增长、资金和更好决策的管理概览。",
+        "button": "谈谈虚拟首席财务官"
+      }
+    },
+    "businessConsulting": {
+      "label": "04",
+      "title": "商业咨询",
+      "shortDescription": "为组织、增长、内部流程、成本、定价及运营决策提供实用的商业建议。",
+      "heroDescription": "一份好的会计账目能显示发生了什么。一次好的咨询能帮助你决定下一步该怎么做。",
+      "overviewTitle": "基于数字的实用指导原则",
+      "overview": "我们支持业主和管理层进行财务和运营决策：业务组织、流程改进、成本控制、定价、计费纪律、内部文档和增长规划。",
+      "bestForTitle": "最佳",
+      "bestFor": [
+        "Nova poslovanja koja postavljaju finansijske procese",
+        "Kompanije koje unapređuju interne kontrole i tok dokumentacije",
+        "Vlasnike koji procjenjuju troškove, cijene ili širenje",
+        "Timove koji žele savjet povezan s računovodstvenom stvarnošću"
+      ],
+      "detailsTitle": "商业咨询的范围",
+      "details": [
+        {
+          "title": "Organizacija i postavka poslovanja",
+          "description": "Pomažemo definisati tok dokumentacije, odgovornosti za izvještavanje, računovodstvene rutine i praktične kontrole u dnevnom radu."
+        },
+        {
+          "title": "Podrška finansijskim odlukama",
+          "description": "Pregledamo troškove, marže, cijene, potrebe za gotovinom i planirane investicije kako bi odluke imale mjerljiv efekat."
+        },
+        {
+          "title": "Unapređenje procesa",
+          "description": "Identifikujemo gdje se dokumentacija, odobrenja, izvještavanje ili naplata mogu pojednostaviti i učiniti pouzdanijim."
+        }
+      ],
+      "processTitle": "无空理论的咨询",
+      "process": [
+        {
+          "title": "Mapiranje",
+          "description": "Mapiramo postojeći proces, dokumente i finansijska pitanja."
+        },
+        {
+          "title": "Prioriteti",
+          "description": "Izdvajamo promjene koje donose najbržu i najvažniju poslovnu vrijednost."
+        },
+        {
+          "title": "Primjena",
+          "description": "Definišemo praktične korake, odgovornosti i naknadno praćenje."
+        }
+      ],
+      "deliverablesTitle": "典型结果",
+      "deliverables": [
+        "Pregled poslovnih procesa",
+        "Bilješke o troškovima i maržama",
+        "Smjernice za cijene i novčani tok",
+        "Preporuke za interne kontrole",
+        "Postavka toka dokumentacije",
+        "Savjetodavni sastanci s vlasnikom"
+      ],
+      "cta": {
+        "title": "需要亲身体验您的业务概览吗？",
+        "description": "我们会查看你的数据和运营漏斗，然后建议最能提升控制权和盈利能力的变革。",
+        "button": "请求咨询"
+      }
+    },
+    "financialReporting": {
+      "label": "05",
+      "title": "财务报告",
+      "shortDescription": "清晰的法律和管理报告，帮助理解结果、负债和财务趋势。",
+      "heroDescription": "报告不必是那些难以理解、只是赶在截止日期前完成的文件。他们需要了解商业中的动态。",
+      "overviewTitle": "管理层实际使用的报告",
+      "overview": "我们准备法律报告、管理摘要、财务报表和分析格式，帮助理解收入、支出、利润、流动性和负债。",
+      "bestForTitle": "最佳",
+      "bestFor": [
+        "Kompanije kojima treba jasnije mjesečno izvještavanje",
+        "Menadžere koji pripremaju dokumentaciju za banke, partnere ili investitore",
+        "Vlasnike koji žele stalno pratiti profit i gotovinu",
+        "Poslovanja kojima treba uskladiti zakonski i menadžerski pogled"
+      ],
+      "detailsTitle": "报告范围",
+      "details": [
+        {
+          "title": "Zakonsko finansijsko izvještavanje",
+          "description": "Pripremamo zakonom propisane finansijske izvještaje i prateće preglede na osnovu urednih računovodstvenih evidencija."
+        },
+        {
+          "title": "Menadžersko izvještavanje",
+          "description": "Kreiramo sažete mjesečne ili kvartalne preglede koji objašnjavaju rezultate, obaveze, marže i trendove."
+        },
+        {
+          "title": "Finansijska analiza",
+          "description": "Brojeve tumačimo kroz pokazatelje, poređenja i komentare koji podržavaju odluke, a ne samo evidenciju."
+        }
+      ],
+      "processTitle": "清晰的报告周期",
+      "process": [
+        {
+          "title": "Struktura",
+          "description": "Definišemo na koja pitanja izvještaj treba odgovoriti i ko će ga koristiti."
+        },
+        {
+          "title": "Priprema",
+          "description": "Sastavljamo tačne podatke iz računovodstvenih evidencija i prateće dokumentacije."
+        },
+        {
+          "title": "Objašnjenje",
+          "description": "Sažimamo trendove, rizike i naredne korake jednostavnim jezikom."
+        }
+      ],
+      "deliverablesTitle": "典型结果",
+      "deliverables": [
+        "Finansijski izvještaji",
+        "Mjesečni menadžerski sažeci",
+        "Analiza profita i troškova",
+        "Pregled gotovine i obaveza",
+        "Paketi izvještaja za banke ili partnere",
+        "Podrška završnom izvještavanju"
+      ],
+      "cta": {
+        "title": "想要更易用的报表？",
+        "description": "我们可以将会计数据转化为清晰的格式，供管理层、合作伙伴、银行或内部规划使用。",
+        "button": "改进报告"
+      }
+    },
+    "education": {
+      "label": "06",
+      "title": "教育与课程",
+      "shortDescription": "会计、税务和财务工作坊，帮助业主和团队理解职责并做出更好的决策。",
+      "heroDescription": "更高的财务素养减少错误，改善内部沟通，并帮助团队更有效地与会计师协作。",
+      "overviewTitle": "让日常工作变得更轻松的知识",
+      "overview": "我们为业主、经理和管理团队组织实践培训：会计基础、文件准备、报税截止日期、薪资基础、报告解读以及更好地与会计合作。",
+      "bestForTitle": "最佳",
+      "bestFor": [
+        "Vlasnike koji žele razumjeti svoje obaveze",
+        "Administrativno osoblje koje rukuje dokumentima i fakturama",
+        "Timove koji uvode nove procese izvještavanja",
+        "Menadžere koji žele sigurnije čitati finansijske izvještaje"
+      ],
+      "detailsTitle": "教育范围",
+      "details": [
+        {
+          "title": "Osnove računovodstva",
+          "description": "Objašnjavamo evidencije, dokumente i rokove koji utiču na svakodnevno poslovanje."
+        },
+        {
+          "title": "Porezi i plaće u praksi",
+          "description": "Obrađujemo česte obaveze, redovne rokove, osnove doprinosa i praktične tačke rizika."
+        },
+        {
+          "title": "Finansijsko izvještavanje",
+          "description": "Pomažemo timovima razumjeti finansijske izvještaje, menadžerske preglede i pitanja na koja ti izvještaji trebaju odgovoriti."
+        }
+      ],
+      "processTitle": "围绕真实工作的教育",
+      "process": [
+        {
+          "title": "Definisanje",
+          "description": "Utvrđujemo šta tim treba razumjeti i koje greške treba spriječiti."
+        },
+        {
+          "title": "Edukacija",
+          "description": "Vodimo praktične sesije uz primjere bliske vašem svakodnevnom radu."
+        },
+        {
+          "title": "Primjena",
+          "description": "Tim dobija kontrolne liste, rutine i jasnije odgovornosti."
+        }
+      ],
+      "deliverablesTitle": "典型结果",
+      "deliverables": [
+        "Radionice i kratki kursevi",
+        "Kontrolne liste za računovodstveni proces",
+        "Pregled poreznih rokova",
+        "Smjernice za pripremu dokumentacije",
+        "Sesije za čitanje izvještaja",
+        "Pitanja i odgovori za tim"
+      ],
+      "cta": {
+        "title": "想让你的团队更好地理解数字吗？",
+        "description": "我们可以为您准备一场关于会计流程、报告或税务常见问题解答的专项研讨会。",
+        "button": "规划你的训练"
+      }
+    }
+  }
+}

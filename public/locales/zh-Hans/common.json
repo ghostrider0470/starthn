@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "首页",
+    "company": "关于我们",
+    "solutions": "服务",
+    "resources": "资源",
+    "contact": "联系方式",
+    "about": {
+      "title": "关于我们",
+      "description": "我们的使命、愿景与故事"
+    },
+    "missionVision": {
+      "title": "使命、愿景与价值观",
+      "description": "指导我们一切的原则和目标"
+    },
+    "certificates": {
+      "title": "证书与荣誉",
+      "description": "我们的执照和专业授权"
+    },
+    "team": {
+      "title": "团队",
+      "description": "认识一下Start HN背后的团队"
+    },
+    "careers": {
+      "title": "职业生涯",
+      "description": "加入我们的团队，与我们一起成长"
+    },
+    "enterpriseSoftware": {
+      "title": "会计与簿记",
+      "description": "为各种规模的企业提供全面的簿记和会计服务"
+    },
+    "aiMl": {
+      "title": "税务咨询",
+      "description": "个人和法人实体的专业税务规划与合规"
+    },
+    "cloudArchitecture": {
+      "title": "虚拟首席财务官",
+      "description": "战略性财务领导，却不承担永久雇佣的代价。"
+    },
+    "iot": {
+      "title": "商业咨询",
+      "description": "实用建议，助力您的企业成长和繁荣"
+    },
+    "devops": {
+      "title": "财务报告",
+      "description": "准确及时的财务报表和管理分析"
+    },
+    "digitalTransformation": {
+      "title": "教育与课程",
+      "description": "会计、税务与金融的研讨会与课程"
+    },
+    "caseStudies": {
+      "title": "案例研究",
+      "description": "我们客户的成功案例",
+      "featured": {
+        "title": "特色案例研究",
+        "description": "详细说明我们如何帮助客户取得成功"
+      }
+    },
+    "blog": {
+      "title": "博客",
+      "description": "Start HN 团队的见解、指南和新闻",
+      "featured": {
+        "title": "精选文章",
+        "description": "阅读我们最新的会计与财务见解。"
+      }
+    },
+    "navigation": "导航",
+    "skipToContent": "跳转到内容",
+    "toggleMenu": "切换菜单",
+    "dashboard": "控制面板",
+    "myWorkspace": "我的工作空间",
+    "profile": "简介",
+    "adminPanel": "行政小组",
+    "practiceManagement": "诊所管理",
+    "logOut": "注册",
+    "education": {
+      "title": "资源与指南",
+      "description": "Start HN 团队提供的实用会计和财务资源"
+    },
+    "support": {
+      "title": "支持中心",
+      "description": "获取我们的会计和咨询服务帮助"
+    }
+  },
+  "footer": {
+    "description": "Start HN 是一家总部位于萨拉热窝的会计机构。我们为波斯尼亚和黑塞哥维那的企业提供簿记、税务咨询、虚拟首席财务官和财务报告服务。",
+    "services": "服务",
+    "servicesList": {
+      "bookkeeping": "簿记",
+      "tax": "税务咨询",
+      "vcfo": "虚拟首席财务官",
+      "reporting": "财务报告",
+      "consulting": "商业咨询",
+      "education": "教育背景"
+    },
+    "company": "关于我们",
+    "companyLinks": {
+      "about": "关于我们",
+      "missionVision": "使命与价值观",
+      "certificates": "证书",
+      "team": "我们的团队",
+      "blog": "成功案例",
+      "careers": "职业生涯",
+      "contact": "联系方式"
+    },
+    "contact": "联系方式",
+    "contactInfo": {
+      "email": "klijenti@starthn.ba",
+      "phone": "+387 61 135-377",
+      "street": "易卜拉欣·柳博维察 47",
+      "locality": "伊丽扎",
+      "region": "萨拉热窝州",
+      "country": "波斯尼亚和黑塞哥维那",
+      "hours": "周一至周五：08：00–16：00",
+      "holidays": "我们节假日不工作"
+    },
+    "legal": "法律",
+    "legalLinks": {
+      "privacyPolicy": "隐私政策",
+      "termsOfService": "使用条款",
+      "cookiePolicy": "Cookie政策"
+    },
+    "copyright": "© {{year}} 开始HN。版权所有。",
+    "ctaTitle": "准备好谈话了吗？",
+    "ctaDescription": "预约免费入门咨询——我们将在一个工作日内回复您。",
+    "ctaButton": "联系我们"
+  },
+  "header": {
+    "badge": "专业会计服务",
+    "titleLine1": "可靠的会计与财务",
+    "titleLine2": "为你在波黑的业务",
+    "description": "从簿记和税务咨询到虚拟首席财务官和财务报告服务——Start HN提供全面的会计专业知识，帮助您的企业保持协调、信息灵通，并为增长做好准备。",
+    "getStarted": "开始",
+    "exploreSolutions": "探索服务",
+    "trustedBy": "波斯尼亚和黑塞哥维那各地企业的信任",
+    "microsoftPartner": "特许会计师",
+    "azureCertified": "已注册增值税",
+    "enterpriseSolutions": "端到端会计"
+  },
+  "mobileNav": {
+    "navigation": "移动导航",
+    "home": "首页",
+    "solutions": "服务",
+    "caseStudies": "案例",
+    "blog": "博客",
+    "resources": "资源",
+    "contact": "联系方式"
+  },
+  "sideNav": {
+    "scroll": "卷轴",
+    "navigateTo": "去 {{section}}",
+    "sections": {
+      "home": "首页",
+      "solutions": "服务",
+      "credibility": "可信度",
+      "partners": "合作伙伴",
+      "caseStudies": "案例研究",
+      "blog": "博客",
+      "faq": "常见问题解答"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "更改语言",
+    "searchPlaceholder": "搜索语言......",
+    "noResults": "未发现语言。"
+  },
+  "common": {
+    "menu": "对我来说",
+    "account": "秩序"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "近期案例研究",
+      "description": "以下是我们为零售、酒店、制造业和公共部门客户取得的成果概述。",
+      "cta": "查看所有案例研究"
+    },
+    "blog": {
+      "title": "我们博客的最新消息",
+      "description": "来自Start HN团队的实用会计和财务笔记。",
+      "cta": "阅读所有文章"
+    }
+  },
+  "caseStudyCard": {
+    "read": "阅读案例研究",
+    "industries": {
+      "fintech": "金融科技",
+      "healthcare": "医疗保健",
+      "logistics": "后勤",
+      "manufacturing": "制作",
+      "government": "公共部门"
+    }
+  },
+  "blogCard": {
+    "read": "阅读更多"
+  }
+}

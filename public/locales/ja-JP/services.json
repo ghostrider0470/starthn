@@ -1,0 +1,384 @@
+{
+  "common": {
+    "fallbackTitle": "運用",
+    "service": "運用",
+    "overview": "概要",
+    "scope": "カバー内容",
+    "process": "私たちの働き方",
+    "outputs": "結果",
+    "nextStep": "次のステップ",
+    "learnMore": "詳しくはこちら",
+    "ctaPrimary": "会話を始めましょう",
+    "ctaSecondary": "すべてのサービスを見る",
+    "backToServices": "復帰"
+  },
+  "index": {
+    "overline": "サービス開始 HN",
+    "title": "ビジネスのあらゆる段階に対応できる会計サポート。",
+    "description": "6つの明確なサービス分野は、簿記、税務義務、報告、コンサルティング、教育をカバーし、あなたのビジネスをより良く管理できるようにします。",
+    "introOverline": "サービス",
+    "introTitle": "一つのチーム、明確な財務状況",
+    "introBody": "Start HNは、実用的な簿記、税務監視、財務報告、助言支援を連携させ、オーナーや経営陣が大量の書類ではなく信頼できるデータに基づいて意思決定できるようにします。",
+    "cta": {
+      "title": "どのサービスが必要か分からないですか?",
+      "description": "現在のビジネスの運営状況を教えていただければ、適切なサポート範囲を提案します:定期的な簿記、詳細なコンサルティング、または焦点を絞ったコンサルテーション。",
+      "button": "相談の予約をしてください"
+    }
+  },
+  "items": {
+    "bookkeeping": {
+      "label": "01",
+      "title": "会計と簿記",
+      "shortDescription": "職人や企業向けの完全な簿記、会計記録、給与計算、付加価値税記録、最終報告書。",
+      "heroDescription": "信頼できる帳簿は、あらゆるビジネスの運営基盤です。私たちはあなたの記録を正確かつ最新に保ち、税務の締め切り、銀行、経営判断に備えます。",
+      "overviewTitle": "日負荷なしの日次記録",
+      "overview": "会計サイクル全体を手配しています:書類の受領、請求書や経費の記録、給与・拠出金の計算、VAT記録、法的申請、年次クロージングなどです。目標はシンプルです:きちんとした記録、明確な責任、そして締め切り前の驚きのないことです。",
+      "bestForTitle": "ベスト",
+      "bestFor": [
+        "Mala i srednja preduzeća kojima treba redovna računovodstvena podrška",
+        "Obrte i samostalne djelatnosti koje žele uredne zakonske evidencije",
+        "Timove koji prelaze od drugog računovođe",
+        "Vlasnike koji žele jasne mjesečne brojeve, a ne samo godišnje prijave"
+      ],
+      "detailsTitle": "会計の範囲",
+      "details": [
+        {
+          "title": "Postavka i preuzimanje knjiga",
+          "description": "Pregledamo registraciju, postojeće evidencije, početna stanja, podatke o plaćama i kalendar obaveza kako bi usluga krenula iz čiste osnove."
+        },
+        {
+          "title": "Mjesečno računovodstveno poslovanje",
+          "description": "Fakture, troškovi, bankovni promet, plaće, doprinosi, PDV evidencije i redovne zakonske obaveze obrađujemo u predvidivom mjesečnom ritmu."
+        },
+        {
+          "title": "Završni računi i godišnje zatvaranje",
+          "description": "Pripremamo završne obračune, finansijske izvještaje, porezne prijave i prateću dokumentaciju kako bi poslovanje ostalo usklađeno i spremno za kontrole."
+        }
+      ],
+      "processTitle": "予測可能な月間リズム",
+      "process": [
+        {
+          "title": "Prikupljanje",
+          "description": "Dokumentaciju dostavljate digitalno ili fizički prema dogovorenom toku rada."
+        },
+        {
+          "title": "Obrada",
+          "description": "Knjižimo transakcije, obračunavamo obaveze i provjeravamo evidencije prije rokova."
+        },
+        {
+          "title": "Izvještavanje",
+          "description": "Dobijate jasne sažetke i naredne korake, a pitanja se rješavaju prije nego što postanu rizik."
+        }
+      ],
+      "deliverablesTitle": "典型的な結果",
+      "deliverables": [
+        "Mjesečne knjigovodstvene evidencije",
+        "PDV i porezne evidencije",
+        "Obračuni plaća i doprinosa",
+        "Godišnji finansijski izvještaji",
+        "Potvrde predaje prijava",
+        "Redovno računovodstveno savjetovanje"
+      ],
+      "cta": {
+        "title": "本の編集準備はできていますか?",
+        "description": "現在の記録を確認し、実際の事業運営に対応した月次会計フローを定義します。",
+        "button": "簿記サポートをリクエスト"
+      }
+    },
+    "taxConsulting": {
+      "label": "02",
+      "title": "税務コンサルティング",
+      "shortDescription": "税務監視、計画、申請サポート、締め切り追跡、個人および法人のための実践的なガイダンス。",
+      "heroDescription": "税務の義務は急速に変わり、ミスは高額な費用を伴います。何が適用されるのか、何が期限で、規則内でどのように計画すべきかをご理解いただけるお手伝いをします。",
+      "overviewTitle": "問題が発生する前の税務アドバイス",
+      "overview": "当社の税務サポートはコンプライアンスと計画を結びつけており、締め切りの追跡、義務の確認、規制変更の説明、申告書の作成、そして不要なコストやリスクを生む決定前に助言を行います。",
+      "bestForTitle": "ベスト",
+      "bestFor": [
+        "Kompanije kojima treba redovno porezno praćenje",
+        "Vlasnike koji donose odluke o investicijama, zapošljavanju ili cijenama",
+        "Fizička lica i poduzetnike s prijavnim obavezama",
+        "Poslovanja koja žele smanjiti kazne i naknadne korekcije"
+      ],
+      "detailsTitle": "税務コンサルティングの範囲",
+      "details": [
+        {
+          "title": "Pregled obaveza",
+          "description": "Pregledamo aktivne registracije, ranije prijave, izloženost PDV-u i plaćama te predstojeće rokove."
+        },
+        {
+          "title": "Usklađenost i podrška prijavama",
+          "description": "Pripremamo i pregledamo porezne prijave, pratimo rokove i pomažemo ispraviti propuste prije nego postanu kazne."
+        },
+        {
+          "title": "Planiranje i podrška odlukama",
+          "description": "Objašnjavamo porezne posljedice poslovnih odluka, odbitaka, promjena organizacije, zapošljavanja, isplata i drugih čestih finansijskih pitanja."
+        }
+      ],
+      "processTitle": "一歩先を行った税制支援",
+      "process": [
+        {
+          "title": "Procjena",
+          "description": "Mapiramo trenutnu poreznu poziciju i identifikujemo otvorene obaveze ili rizične tačke."
+        },
+        {
+          "title": "Plan",
+          "description": "Definišemo rokove, odgovornosti i zakonske mogućnosti za porezno planiranje."
+        },
+        {
+          "title": "Održavanje",
+          "description": "Prijave i savjete usklađujemo s vašim poslovnim aktivnostima i regulatornim izmjenama."
+        }
+      ],
+      "deliverablesTitle": "典型的な結果",
+      "deliverables": [
+        "Kalendar poreznih obaveza",
+        "Smjernice za PDV i porez na dohodak/dobit",
+        "Smjernice za doprinose iz plaća",
+        "Pregled i korekcije prijava",
+        "Bilješke poreznog planiranja",
+        "Podrška rokovima i usklađenosti"
+      ],
+      "cta": {
+        "title": "税務義務について明確にしたいですか?",
+        "description": "現在の状況を教えていただければ、何が課題で何が改善できるか、次に何ができるのかをご案内いたします。",
+        "button": "税金支援について話すと"
+      }
+    },
+    "virtualCfo": {
+      "label": "03",
+      "title": "バーチャルCFO",
+      "shortDescription": "常勤CFOなしのシニア財務洞察:キャッシュフロー、予算、KPI、意思決定サポート。",
+      "heroDescription": "バーチャルCFOは、オーナーや経営陣に財務の健全性、キャッシュフロー、収益性、戦略的選択肢をより明確に把握できるようにします。",
+      "overviewTitle": "柔軟な財務管理。",
+      "overview": "会計データを実用的な管理インサイトに変換します。予算、予測、キャッシュフロー計画、収益性分析、財務指標などで、会社の強みと注目が必要な点を示します。",
+      "bestForTitle": "ベスト",
+      "bestFor": [
+        "Rastuće kompanije kojima treba više od knjigovodstva",
+        "Vlasnike koji pripremaju finansiranje ili investicione odluke",
+        "Timove bez internog finansijskog direktora",
+        "Menadžere koji žele pretvoriti mjesečne brojeve u akciju"
+      ],
+      "detailsTitle": "バーチャルCFOの役割",
+      "details": [
+        {
+          "title": "Pregled finansijskog zdravlja",
+          "description": "Analiziramo profitabilnost, likvidnost, strukturu troškova, potraživanja, obaveze i ključne rizike u trenutnoj finansijskoj slici."
+        },
+        {
+          "title": "Planiranje i prognoziranje",
+          "description": "Pripremamo budžete, prognoze novčanog toka, scenarije i pretpostavke koje menadžerske odluke čine lakšim za procjenu."
+        },
+        {
+          "title": "Menadžersko izvještavanje",
+          "description": "Definišemo KPI-jeve i formate izvještaja koji povezuju finansijske podatke s odlukama o rastu, troškovima, cijenama i operacijama."
+        }
+      ],
+      "processTitle": "記録から判決へ",
+      "process": [
+        {
+          "title": "Dijagnoza",
+          "description": "Pregledamo postojeće izvještaje i identifikujemo finansijska pitanja na koja menadžment treba odgovor."
+        },
+        {
+          "title": "Modeliranje",
+          "description": "Gradimo praktične budžete, prognoze i scenarije na osnovu realnih poslovnih pretpostavki."
+        },
+        {
+          "title": "Savjetovanje",
+          "description": "Redovno objašnjavamo rezultate, rizike i preporučene naredne korake."
+        }
+      ],
+      "deliverablesTitle": "典型的な結果",
+      "deliverables": [
+        "Mjesečni menadžerski izvještaj",
+        "Prognoza novčanog toka",
+        "Budžet i analiza odstupanja",
+        "Struktura KPI izvještaja",
+        "Analiza profitabilnosti",
+        "Savjetodavni sastanci"
+      ],
+      "cta": {
+        "title": "CFOレベルで明確さが必要ですか?",
+        "description": "私たちは、あなたの会計データを成長、資金調達、より良い意思決定を支援する管理概要に変換します。",
+        "button": "バーチャルCFOについて話しましょう"
+      }
+    },
+    "businessConsulting": {
+      "label": "04",
+      "title": "ビジネスコンサルティング",
+      "shortDescription": "組織、成長、内部プロセス、コスト、価格設定、運営上の意思決定に関する実践的なビジネスアドバイス。",
+      "heroDescription": "良い会計帳簿は何が起こったかを示している。良い相談は、次に何をすべきかを決める助けとなります。",
+      "overviewTitle": "数値に基づく実践的指針",
+      "overview": "私たちはオーナーやマネージャーの財務および運営上の意思決定を支援します:事業組織化、プロセス改善、コスト管理、価格設定、請求規律、社内文書化、成長計画など。",
+      "bestForTitle": "ベスト",
+      "bestFor": [
+        "Nova poslovanja koja postavljaju finansijske procese",
+        "Kompanije koje unapređuju interne kontrole i tok dokumentacije",
+        "Vlasnike koji procjenjuju troškove, cijene ili širenje",
+        "Timove koji žele savjet povezan s računovodstvenom stvarnošću"
+      ],
+      "detailsTitle": "ビジネスコンサルティングの範囲",
+      "details": [
+        {
+          "title": "Organizacija i postavka poslovanja",
+          "description": "Pomažemo definisati tok dokumentacije, odgovornosti za izvještavanje, računovodstvene rutine i praktične kontrole u dnevnom radu."
+        },
+        {
+          "title": "Podrška finansijskim odlukama",
+          "description": "Pregledamo troškove, marže, cijene, potrebe za gotovinom i planirane investicije kako bi odluke imale mjerljiv efekat."
+        },
+        {
+          "title": "Unapređenje procesa",
+          "description": "Identifikujemo gdje se dokumentacija, odobrenja, izvještavanje ili naplata mogu pojednostaviti i učiniti pouzdanijim."
+        }
+      ],
+      "processTitle": "空虚理論のないコンサルティング",
+      "process": [
+        {
+          "title": "Mapiranje",
+          "description": "Mapiramo postojeći proces, dokumente i finansijska pitanja."
+        },
+        {
+          "title": "Prioriteti",
+          "description": "Izdvajamo promjene koje donose najbržu i najvažniju poslovnu vrijednost."
+        },
+        {
+          "title": "Primjena",
+          "description": "Definišemo praktične korake, odgovornosti i naknadno praćenje."
+        }
+      ],
+      "deliverablesTitle": "典型的な結果",
+      "deliverables": [
+        "Pregled poslovnih procesa",
+        "Bilješke o troškovima i maržama",
+        "Smjernice za cijene i novčani tok",
+        "Preporuke za interne kontrole",
+        "Postavka toka dokumentacije",
+        "Savjetodavni sastanci s vlasnikom"
+      ],
+      "cta": {
+        "title": "ビジネスの実務的な概要が必要ですか?",
+        "description": "私たちはあなたの数字とオペレーションファネルを検討し、コントロールと収益性を最も向上させる変更を提案します。",
+        "button": "相談を依頼する"
+      }
+    },
+    "financialReporting": {
+      "label": "05",
+      "title": "財務報告",
+      "shortDescription": "結果、負債、財務動向を理解するのに役立つ明確な法務・管理報告書。",
+      "heroDescription": "レポートは、締め切りに間に合うだけの理解不能なファイルである必要はありません。彼らはビジネスの現状を知る必要があります。",
+      "overviewTitle": "管理職が実際に使うレポート",
+      "overview": "法的報告書、経営要約、財務諸表、分析フォーマットを作成し、収益、費用、利益、流動性、負債の理解を助けます。",
+      "bestForTitle": "ベスト",
+      "bestFor": [
+        "Kompanije kojima treba jasnije mjesečno izvještavanje",
+        "Menadžere koji pripremaju dokumentaciju za banke, partnere ili investitore",
+        "Vlasnike koji žele stalno pratiti profit i gotovinu",
+        "Poslovanja kojima treba uskladiti zakonski i menadžerski pogled"
+      ],
+      "detailsTitle": "報告範囲",
+      "details": [
+        {
+          "title": "Zakonsko finansijsko izvještavanje",
+          "description": "Pripremamo zakonom propisane finansijske izvještaje i prateće preglede na osnovu urednih računovodstvenih evidencija."
+        },
+        {
+          "title": "Menadžersko izvještavanje",
+          "description": "Kreiramo sažete mjesečne ili kvartalne preglede koji objašnjavaju rezultate, obaveze, marže i trendove."
+        },
+        {
+          "title": "Finansijska analiza",
+          "description": "Brojeve tumačimo kroz pokazatelje, poređenja i komentare koji podržavaju odluke, a ne samo evidenciju."
+        }
+      ],
+      "processTitle": "明確な報告サイクル",
+      "process": [
+        {
+          "title": "Struktura",
+          "description": "Definišemo na koja pitanja izvještaj treba odgovoriti i ko će ga koristiti."
+        },
+        {
+          "title": "Priprema",
+          "description": "Sastavljamo tačne podatke iz računovodstvenih evidencija i prateće dokumentacije."
+        },
+        {
+          "title": "Objašnjenje",
+          "description": "Sažimamo trendove, rizike i naredne korake jednostavnim jezikom."
+        }
+      ],
+      "deliverablesTitle": "典型的な結果",
+      "deliverables": [
+        "Finansijski izvještaji",
+        "Mjesečni menadžerski sažeci",
+        "Analiza profita i troškova",
+        "Pregled gotovine i obaveza",
+        "Paketi izvještaja za banke ili partnere",
+        "Podrška završnom izvještavanju"
+      ],
+      "cta": {
+        "title": "使いやすいレポートが欲しいですか?",
+        "description": "会計データを管理職、パートナー、銀行、内部計画向けに明確なフォーマットに変換できます。",
+        "button": "報告の改善"
+      }
+    },
+    "education": {
+      "label": "06",
+      "title": "教育とコース",
+      "shortDescription": "会計、税務、財務に関するワークショップを通じて、オーナーやチームが責任を理解し、より良い意思決定ができるよう支援します。",
+      "heroDescription": "より良い金融リテラシーはミスを減らし、社内コミュニケーションを改善し、チームが会計士とより効果的に協力できるようにします。",
+      "overviewTitle": "日常の仕事を楽にする知識",
+      "overview": "オーナー、マネージャー、管理チーム向けに、会計の基礎、書類作成、税務期限、給与の基礎、報告書の解釈、会計とのより良い協力など、実践的な研修を開催しています。",
+      "bestForTitle": "ベスト",
+      "bestFor": [
+        "Vlasnike koji žele razumjeti svoje obaveze",
+        "Administrativno osoblje koje rukuje dokumentima i fakturama",
+        "Timove koji uvode nove procese izvještavanja",
+        "Menadžere koji žele sigurnije čitati finansijske izvještaje"
+      ],
+      "detailsTitle": "教育範囲",
+      "details": [
+        {
+          "title": "Osnove računovodstva",
+          "description": "Objašnjavamo evidencije, dokumente i rokove koji utiču na svakodnevno poslovanje."
+        },
+        {
+          "title": "Porezi i plaće u praksi",
+          "description": "Obrađujemo česte obaveze, redovne rokove, osnove doprinosa i praktične tačke rizika."
+        },
+        {
+          "title": "Finansijsko izvještavanje",
+          "description": "Pomažemo timovima razumjeti finansijske izvještaje, menadžerske preglede i pitanja na koja ti izvještaji trebaju odgovoriti."
+        }
+      ],
+      "processTitle": "実際の仕事を中心とした教育",
+      "process": [
+        {
+          "title": "Definisanje",
+          "description": "Utvrđujemo šta tim treba razumjeti i koje greške treba spriječiti."
+        },
+        {
+          "title": "Edukacija",
+          "description": "Vodimo praktične sesije uz primjere bliske vašem svakodnevnom radu."
+        },
+        {
+          "title": "Primjena",
+          "description": "Tim dobija kontrolne liste, rutine i jasnije odgovornosti."
+        }
+      ],
+      "deliverablesTitle": "典型的な結果",
+      "deliverables": [
+        "Radionice i kratki kursevi",
+        "Kontrolne liste za računovodstveni proces",
+        "Pregled poreznih rokova",
+        "Smjernice za pripremu dokumentacije",
+        "Sesije za čitanje izvještaja",
+        "Pitanja i odgovori za tim"
+      ],
+      "cta": {
+        "title": "チームに数字をより理解してほしいですか?",
+        "description": "会計プロセス、報告、税務FAQに関するワークショップをご用意いたします。",
+        "button": "トレーニングの計画を立てましょう"
+      }
+    }
+  }
+}
