@@ -219,7 +219,7 @@
     "formTitle": "请填写下面的表格",
     "fields": {
       "name": "姓名与姓氏",
-      "email": "Email",
+      "email": "电子邮件",
       "service": "所需服务",
       "message": "信息"
     },
@@ -260,8 +260,8 @@
       },
       {
         "name": "收入",
-        "logo": "/客户/wincome.svg",
-        "darkLogo": "/客户/wincome-dark.svg",
+        "logo": "/clients/wincome.svg",
+        "darkLogo": "/clients/wincome-dark.svg",
         "href": "https://wincome.webflow.io/"
       },
       {
@@ -291,7 +291,7 @@
       },
       {
         "name": "热门",
-        "logo": "/客户/hitstart.png",
+        "logo": "/clients/hitstart.png",
         "href": "https://www.hitstart.ba"
       },
       {
@@ -300,7 +300,7 @@
       },
       {
         "name": "安慰",
-        "logo": "/客户/utjeha.png"
+        "logo": "/clients/utjeha.png"
       },
       {
         "name": "森塔尔市青年委员会",
@@ -308,19 +308,19 @@
       },
       {
         "name": "支持之手",
-        "logo": "/客户/rukapodrske.png",
+        "logo": "/clients/rukapodrske.png",
         "href": "https://share.google/AeeL2hMaIbyN2Xbic"
       },
       {
         "name": "MJO",
-        "logo": "/客户/mjo.png",
-        "darkLogo": "/客户/mjo-dark.png",
+        "logo": "/clients/mjo.png",
+        "darkLogo": "/clients/mjo-dark.png",
         "href": "https://mjo.ba/"
       },
       {
         "name": "重新思考",
-        "logo": "/客户/rebrained.png",
-        "darkLogo": "/客户/rebrained-dark.png",
+        "logo": "/clients/rebrained.png",
+        "darkLogo": "/clients/rebrained-dark.png",
         "href": "https://www.rebrained.de/"
       }
     ]
@@ -329,7 +329,7 @@
     "subtitle": "我们的服务",
     "title": "综合会计",
     "description": "共有6个服务区域。一支敬业的团队。您财务运营的方方面面——从日常簿记到长期财务战略。",
-    "commentMarker": "服务",
+    "commentMarker": "USLUGE",
     "items": {
       "bookkeeping": {
         "title": "簿记与会计",

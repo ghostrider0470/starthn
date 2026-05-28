@@ -94,10 +94,12 @@ def restore_interpolations(text: str) -> str:
 
 
 _SKIP_KEYS = frozenset(
-    {"href", "src", "url", "image", "avatar", "icon", "commentMarker", "id", "slug"}
+    {"href", "src", "url", "image", "avatar", "icon", "logo", "darkLogo",
+     "commentMarker", "id", "slug"}
 )
+# Skip values that look like paths, URLs, emails, phones, or all-caps identifiers
 _SKIP_VALUE_RE = re.compile(
-    r"^(?:https?://|mailto:|tel:|/|[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|\+?[0-9][0-9 ()-]{5,}|[A-Z0-9_]{2,})$"
+    r"^(?:https?://|mailto:|tel:|/\S|[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|\+?[0-9][0-9 ()-]{5,}|[A-Z0-9_]{2,})$"
 )
 
 

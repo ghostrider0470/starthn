@@ -219,7 +219,7 @@
     "formTitle": "Rellena el formulario de abajo",
     "fields": {
       "name": "Nombre y apellido",
-      "email": "Email",
+      "email": "Correo electrónico",
       "service": "Servicio requerido",
       "message": "Mensaje"
     },
@@ -260,8 +260,8 @@
       },
       {
         "name": "Wincome",
-        "logo": "/clientes/wincome.svg",
-        "darkLogo": "/clientes/wincome-dark.svg",
+        "logo": "/clients/wincome.svg",
+        "darkLogo": "/clients/wincome-dark.svg",
         "href": "https://wincome.webflow.io/"
       },
       {
@@ -277,7 +277,7 @@
       },
       {
         "name": "Caffe Fleki",
-        "logo": "/clientes/fleki-t.webp"
+        "logo": "/clients/fleki-t.webp"
       },
       {
         "name": "Feniks Car Holding",
@@ -286,21 +286,21 @@
       },
       {
         "name": "Grafeno",
-        "logo": "/clientes/grafiden-t.webp",
-        "darkLogo": "/clientes/grafiden-dark.webp"
+        "logo": "/clients/grafiden-t.webp",
+        "darkLogo": "/clients/grafiden-dark.webp"
       },
       {
         "name": "HITStart",
-        "logo": "/clientes/hitstart.png",
+        "logo": "/clients/hitstart.png",
         "href": "https://www.hitstart.ba"
       },
       {
         "name": "Coco",
-        "logo": "/clientes/coco.webp"
+        "logo": "/clients/coco.webp"
       },
       {
         "name": "Consolación",
-        "logo": "/clientes/utjeha.png"
+        "logo": "/clients/utjeha.png"
       },
       {
         "name": "Consejo Juvenil del Municipio de Centar",
@@ -308,19 +308,19 @@
       },
       {
         "name": "Una mano de apoyo",
-        "logo": "/clientes/rukapodrske.png",
+        "logo": "/clients/rukapodrske.png",
         "href": "https://share.google/AeeL2hMaIbyN2Xbic"
       },
       {
         "name": "MJO",
-        "logo": "/clientes/mjo.png",
-        "darkLogo": "/clientes/mjo-dark.png",
+        "logo": "/clients/mjo.png",
+        "darkLogo": "/clients/mjo-dark.png",
         "href": "https://mjo.ba/"
       },
       {
         "name": "rebrained",
-        "logo": "/clientes/rebrained.png",
-        "darkLogo": "/clientes/rebrained-dark.png",
+        "logo": "/clients/rebrained.png",
+        "darkLogo": "/clients/rebrained-dark.png",
         "href": "https://www.rebrained.de/"
       }
     ]
@@ -329,7 +329,7 @@
     "subtitle": "Nuestros servicios",
     "title": "Contabilidad integral",
     "description": "Hay 6 áreas de servicio. Un equipo dedicado. Cada aspecto de tus operaciones financieras — desde la contabilidad diaria hasta la estrategia financiera a largo plazo.",
-    "commentMarker": "SERVICIOS",
+    "commentMarker": "USLUGE",
     "items": {
       "bookkeeping": {
         "title": "Contabilidad y Gestión de Libros",

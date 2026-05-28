@@ -219,7 +219,7 @@
     "formTitle": "Ispunite obrazac u nastavku",
     "fields": {
       "name": "Ime i prezime",
-      "email": "Email",
+      "email": "E-mail",
       "service": "Potrebna služba",
       "message": "Poruka"
     },
@@ -260,8 +260,8 @@
       },
       {
         "name": "Prihodi",
-        "logo": "/klijenti/wincome.svg",
-        "darkLogo": "/klijenti/wincome-dark.svg",
+        "logo": "/clients/wincome.svg",
+        "darkLogo": "/clients/wincome-dark.svg",
         "href": "https://wincome.webflow.io/"
       },
       {
@@ -291,7 +291,7 @@
       },
       {
         "name": "HITStart",
-        "logo": "/klijenti/hitstart.png",
+        "logo": "/clients/hitstart.png",
         "href": "https://www.hitstart.ba"
       },
       {
@@ -300,7 +300,7 @@
       },
       {
         "name": "Utjeha",
-        "logo": "/klijenti/utjeha.png"
+        "logo": "/clients/utjeha.png"
       },
       {
         "name": "Vijeće mladih Općine Centar",
@@ -308,19 +308,19 @@
       },
       {
         "name": "Ruka podrške",
-        "logo": "/klijenti/rukapodrske.png",
+        "logo": "/clients/rukapodrske.png",
         "href": "https://share.google/AeeL2hMaIbyN2Xbic"
       },
       {
         "name": "MJO",
-        "logo": "/klijenti/mjo.png",
-        "darkLogo": "/klijenti/mjo-dark.png",
+        "logo": "/clients/mjo.png",
+        "darkLogo": "/clients/mjo-dark.png",
         "href": "https://mjo.ba/"
       },
       {
         "name": "rebrained",
-        "logo": "/klijenti/rebrained.png",
-        "darkLogo": "/klijenti/rebrained-dark.png",
+        "logo": "/clients/rebrained.png",
+        "darkLogo": "/clients/rebrained-dark.png",
         "href": "https://www.rebrained.de/"
       }
     ]

@@ -219,7 +219,7 @@
     "formTitle": "Vul het onderstaande formulier in",
     "fields": {
       "name": "Naam en achternaam",
-      "email": "Email",
+      "email": "E-mail",
       "service": "Vereiste dienst",
       "message": "Boodschap"
     },
@@ -260,8 +260,8 @@
       },
       {
         "name": "Wincome",
-        "logo": "/klanten/wincome.svg",
-        "darkLogo": "/klanten/wincome-dark.svg",
+        "logo": "/clients/wincome.svg",
+        "darkLogo": "/clients/wincome-dark.svg",
         "href": "https://wincome.webflow.io/"
       },
       {
@@ -291,7 +291,7 @@
       },
       {
         "name": "HITStart",
-        "logo": "/klanten/hitstart.png",
+        "logo": "/clients/hitstart.png",
         "href": "https://www.hitstart.ba"
       },
       {
@@ -300,7 +300,7 @@
       },
       {
         "name": "Troost",
-        "logo": "/klanten/utjeha.png"
+        "logo": "/clients/utjeha.png"
       },
       {
         "name": "Jeugdraad van de gemeente Centar",
@@ -308,19 +308,19 @@
       },
       {
         "name": "Een hand van steun",
-        "logo": "/klanten/rukapodrske.png",
+        "logo": "/clients/rukapodrske.png",
         "href": "https://share.google/AeeL2hMaIbyN2Xbic"
       },
       {
         "name": "MJO",
-        "logo": "/klanten/mjo.png",
-        "darkLogo": "/klanten/mjo-dark.png",
+        "logo": "/clients/mjo.png",
+        "darkLogo": "/clients/mjo-dark.png",
         "href": "https://mjo.ba/"
       },
       {
         "name": "Rebrained",
-        "logo": "/klanten/rebrained.png",
-        "darkLogo": "/klanten/rebrained-dark.png",
+        "logo": "/clients/rebrained.png",
+        "darkLogo": "/clients/rebrained-dark.png",
         "href": "https://www.rebrained.de/"
       }
     ]
@@ -329,7 +329,7 @@
     "subtitle": "Onze diensten",
     "title": "Uitgebreide boekhouding",
     "description": "Er zijn 6 servicegebieden. Een toegewijd team. Elk aspect van uw financiële operaties — van de dagelijkse boekhouding tot de langetermijnstrategie van de financiële strategie.",
-    "commentMarker": "DIENSTEN",
+    "commentMarker": "USLUGE",
     "items": {
       "bookkeeping": {
         "title": "Boekhouding en boekhouding",
