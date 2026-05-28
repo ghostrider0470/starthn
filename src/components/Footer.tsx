@@ -275,7 +275,27 @@ export function Footer() {
         <Separator className="my-8 bg-border/60" />
 
         <div className="flex flex-col items-start justify-between gap-3 text-sm text-muted-foreground sm:flex-row sm:items-center">
-          <p suppressHydrationWarning>{t('footer.copyright', { year })}</p>
+          <div className="flex flex-col gap-1">
+            <p suppressHydrationWarning>{t('footer.copyright', { year })}</p>
+            <p className="flex items-center gap-2">
+              {t('footer.developedBy')}{' '}
+              <a
+                href="https://horizon-tech.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 transition-opacity hover:opacity-80"
+              >
+                <img
+                  src="/clients/horizon.webp"
+                  alt="Horizon Tech d.o.o."
+                  width={20}
+                  height={20}
+                  className="h-5 w-auto"
+                />
+                <span className="hover:text-primary transition-colors">Horizon Tech d.o.o.</span>
+              </a>
+            </p>
+          </div>
           <nav aria-label={t('footer.legal')}>
             <ul className="flex flex-wrap items-center gap-x-6 gap-y-2">
               {LEGAL_KEYS.map((key) => (
