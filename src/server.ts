@@ -38,12 +38,12 @@ function getApiOrigin(env: Bindings): string {
 
 // ─── Middleware ─────────────────────────────────────────────
 
-// Redirect www → apex
+// Redirect apex → www
 app.use('*', async (c, next) => {
   const host = c.req.header('host') ?? ''
-  if (host.startsWith('www.')) {
+  if (host === 'starthn.ba') {
     const url = new URL(c.req.url)
-    url.hostname = url.hostname.replace(/^www\./, '')
+    url.hostname = 'www.starthn.ba'
     return c.redirect(url.toString(), 301)
   }
   return next()
