@@ -40,7 +40,7 @@ const SERVICE_IMAGES: Partial<
     interior: '/pages/financial-reporting-interior.jpg',
   },
   education: {
-    hero: '/pages/education-hero.jpg',
+    hero: '/pages/education-hero.png',
     interior: '/pages/education-interior.jpg',
   },
 }
