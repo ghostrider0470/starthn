@@ -56,7 +56,7 @@ export interface PageSeoDocument {
 }
 
 const DEFAULT_SITE_NAME = 'Start HN'
-const DEFAULT_OG_IMAGE = '/clean-square.png'
+const DEFAULT_OG_IMAGE = '/og-image.png'
 
 function normalizePath(pathname: string): string {
   if (!pathname) return '/'
