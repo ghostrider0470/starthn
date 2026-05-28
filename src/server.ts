@@ -38,6 +38,17 @@ function getApiOrigin(env: Bindings): string {
 
 // ─── Middleware ─────────────────────────────────────────────
 
+// Redirect www → apex
+app.use('*', async (c, next) => {
+  const host = c.req.header('host') ?? ''
+  if (host.startsWith('www.')) {
+    const url = new URL(c.req.url)
+    url.hostname = url.hostname.replace(/^www\./, '')
+    return c.redirect(url.toString(), 301)
+  }
+  return next()
+})
+
 // CORS for all /api/* routes
 app.use(
   '/api/*',

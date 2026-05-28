@@ -5,6 +5,10 @@
   "compatibility_date": "2026-04-01",
   "compatibility_flags": ["nodejs_compat_v2"],
   "main": "src/server.ts",
+  "routes": [
+    { "pattern": "starthn.ba/*", "zone_name": "starthn.ba" },
+    { "pattern": "www.starthn.ba/*", "zone_name": "starthn.ba" }
+  ],
   "assets": {
     "binding": "ASSETS"
   },
