@@ -50,16 +50,16 @@ function alternates(path: string): string {
   return links.join('\n')
 }
 
-function urlEntry(path: string, lastmod: string): string {
-  return `  <url>\n    <loc>${BASE}${path}</loc>\n    <lastmod>${lastmod}</lastmod>\n${alternates(path)}\n  </url>`
+function urlEntry(localizedPath: string, lastmod: string, basePath: string): string {
+  return `  <url>\n    <loc>${BASE}${localizedPath}</loc>\n    <lastmod>${lastmod}</lastmod>\n${alternates(basePath)}\n  </url>`
 }
 
 function localeSitemap(locale: string, slugs: Array<{ slug: string; lastmod: string }>): string {
   const staticEntries = STATIC_PATHS.map((p) =>
-    urlEntry(`/${locale}${p}`, today()),
+    urlEntry(`/${locale}${p}`, today(), p),
   )
   const blogEntries = slugs.map(({ slug, lastmod }) =>
-    urlEntry(`/${locale}/blog/${slug}`, lastmod),
+    urlEntry(`/${locale}/blog/${slug}`, lastmod, `/blog/${slug}`),
   )
   const entries = [...staticEntries, ...blogEntries].join('\n')
   return `<?xml version="1.0" encoding="UTF-8"?>

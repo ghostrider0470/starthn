@@ -178,11 +178,9 @@ async function handleEdgeRead(c: any) {
   return proxyToAzure(c)
 }
 
-// ─── Sitemaps (dynamic: includes published blog posts from D1) ─
-app.get('/sitemap*', async (c) => {
-  const res = await handleSitemap(c.req.raw, c.env)
-  return res ?? c.notFound()
-})
+// Sitemap handling is done inside the SSR catch-all below (before TanStack)
+// because Hono's wildcard routing doesn't match paths with a leading '.' in
+// the wildcard portion (e.g. '/sitemap*' won't match '/sitemap.xml').
 
 // ─── Internal sync endpoints (shared-secret auth) ──────────
 app.post('/api/internal/image-warm', (c) => handleImageWarm(c))
@@ -245,6 +243,15 @@ function getCacheTtl(pathname: string): number | null {
 app.all('*', async (c) => {
   const request = c.req.raw
   const url = new URL(request.url)
+
+  // Sitemaps: must intercept before TanStack SSR, which redirects unknown
+  // paths to the default locale (/en-US).
+  const { pathname } = url
+  if (pathname === '/sitemap.xml' || (pathname.startsWith('/sitemap-') && pathname.endsWith('.xml'))) {
+    const res = await handleSitemap(request, c.env)
+    if (res) return res
+    return c.notFound()
+  }
 
   // Edge-cache HTML responses via the Cache API.
   // (s-maxage headers alone have no effect when a Worker handles the request.)
