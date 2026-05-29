@@ -30,7 +30,7 @@ const STATIC_PATHS = [
   '/services/education-courses',
   '/about',
   '/mission-vision',
-  '/team',
+  // '/team' — temporarily disabled (route 307-redirects to home); re-add when live.
   '/careers',
   '/certificates',
   '/blog',
