@@ -44,7 +44,7 @@ export const Route = createFileRoute('/{-$locale}/blog/$slug')({
     const rawImage = post?.bannerImage ?? post?.coverImage
     const ogImage = rawImage
       ? img(rawImage, { width: 1200, format: 'auto' })
-      : '/clean-square.png'
+      : 'https://www.starthn.ba/og-image.png'
 
     return {
       meta: [

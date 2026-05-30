@@ -10,14 +10,6 @@ const SEO_LOCALES = [
   'zh-Hans', 'ko-KR',
 ] as const
 
-// hreflang codes for each locale
-const HREFLANG: Record<string, string> = {
-  'en-US': 'en', 'bs-BA': 'bs', 'hr-HR': 'hr', 'sr-Latn': 'sr-Latn',
-  'de-DE': 'de', 'fr-FR': 'fr', 'es-ES': 'es', 'it-IT': 'it',
-  'tr-TR': 'tr', 'ar-SA': 'ar', 'pt-BR': 'pt', 'nl-NL': 'nl',
-  'ru-RU': 'ru', 'ja-JP': 'ja', 'zh-Hans': 'zh-Hans', 'ko-KR': 'ko',
-}
-
 // Static paths (no locale prefix — prepended per locale below)
 const STATIC_PATHS = [
   '',
@@ -42,29 +34,24 @@ function today(): string {
   return new Date().toISOString().slice(0, 10)
 }
 
-function alternates(path: string): string {
-  const links = SEO_LOCALES.map(
-    (loc) => `    <xhtml:link rel="alternate" hreflang="${HREFLANG[loc]}" href="${BASE}/${loc}${path}"/>`,
-  )
-  links.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE}/en-US${path}"/>`)
-  return links.join('\n')
-}
-
-function urlEntry(localizedPath: string, lastmod: string, basePath: string): string {
-  return `  <url>\n    <loc>${BASE}${localizedPath}</loc>\n    <lastmod>${lastmod}</lastmod>\n${alternates(basePath)}\n  </url>`
+// Per-page hreflang alternates are emitted as <link rel="alternate"> tags in
+// each page's <head> (see src/lib/seo.ts). We intentionally do NOT duplicate
+// them as <xhtml:link> here: the xhtml namespace makes Chrome/Edge skip their
+// native XML tree viewer, rendering the sitemap as an unreadable text blob.
+function urlEntry(localizedPath: string, lastmod: string): string {
+  return `  <url>\n    <loc>${BASE}${localizedPath}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </url>`
 }
 
 function localeSitemap(locale: string, slugs: Array<{ slug: string; lastmod: string }>): string {
   const staticEntries = STATIC_PATHS.map((p) =>
-    urlEntry(`/${locale}${p}`, today(), p),
+    urlEntry(`/${locale}${p}`, today()),
   )
   const blogEntries = slugs.map(({ slug, lastmod }) =>
-    urlEntry(`/${locale}/blog/${slug}`, lastmod, `/blog/${slug}`),
+    urlEntry(`/${locale}/blog/${slug}`, lastmod),
   )
   const entries = [...staticEntries, ...blogEntries].join('\n')
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${entries}
 </urlset>`
 }

@@ -220,7 +220,14 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       },
       {
         property: 'og:image',
-        content: '/clean-square.png',
+        content: 'https://www.starthn.ba/og-image.png',
+      },
+      { property: 'og:image:width', content: '1200' },
+      { property: 'og:image:height', content: '630' },
+      { property: 'og:image:type', content: 'image/png' },
+      {
+        property: 'og:image:alt',
+        content: 'Start HN — Računovodstvena agencija',
       },
       { property: 'og:url', content: 'https://starthn.ba' },
       { property: 'og:locale', content: 'en_US' },
@@ -236,7 +243,7 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       },
       {
         name: 'twitter:image',
-        content: '/clean-square.png',
+        content: 'https://www.starthn.ba/og-image.png',
       },
     ],
     links: [
