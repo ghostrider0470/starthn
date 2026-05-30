@@ -28,6 +28,7 @@ import {
 } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
 import { img } from '@/lib/image'
+import { SEO_ORIGIN } from '@/lib/seo'
 
 export const Route = createFileRoute('/{-$locale}/blog/$slug')({
   loader: async ({ params }) => {
@@ -42,9 +43,14 @@ export const Route = createFileRoute('/{-$locale}/blog/$slug')({
     const title = `${post?.title ?? 'Blog'} — StartHN`
     const description = post?.excerpt ?? 'Read our latest blog post.'
     const rawImage = post?.bannerImage ?? post?.coverImage
-    const ogImage = rawImage
-      ? img(rawImage, { width: 1200, format: 'auto' })
-      : 'https://www.starthn.ba/og-image.png'
+    // og:image / twitter:image MUST be absolute — link-preview crawlers
+    // (Teams, WhatsApp, Facebook…) can't resolve relative /img/ proxy URLs.
+    const optimized = rawImage ? img(rawImage, { width: 1200, format: 'auto' }) : null
+    const ogImage = optimized
+      ? optimized.startsWith('http')
+        ? optimized
+        : `${SEO_ORIGIN}${optimized}`
+      : `${SEO_ORIGIN}/og-image.png`
 
     return {
       meta: [
