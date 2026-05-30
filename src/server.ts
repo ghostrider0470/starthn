@@ -14,6 +14,7 @@ import { handleImageWarm } from './server/image-warm'
 import { handleSync } from './server/sync-receiver'
 import { handleHealth } from './server/health'
 import { handleSitemap } from './server/sitemap'
+import { isHackSpam } from './server/spam-guard'
 import type { Bindings, ImageWriteMessage } from './server/bindings'
 import { handleR2WriteQueue } from './server/r2-queue-consumer'
 import {
@@ -23,6 +24,30 @@ import {
 import { getLocaleFromPath } from '@/lib/i18n-utils'
 
 const app = new Hono<{ Bindings: Bindings }>()
+
+// ─── Hacked-spam URL tombstoning (MUST be first) ───────────
+// A prior compromise injected ~1.19M spam URLs (/items/… and locale-prefixed
+// letter+digit IDs like /en-US/B471837416). Today the locale router 307s them
+// and they land on a soft-404 that returns HTTP 200 — which keeps them in
+// Google's index. Return 410 Gone instead: the strongest "permanently deleted"
+// signal, so Google deindexes fastest and stops re-crawling soonest.
+//
+// This guard MUST run before every other middleware/route — Hono executes in
+// registration order and the first Response wins, so placing it here ensures it
+// beats the apex→www redirect and the SSR locale router. Matchers live in
+// ./server/spam-guard (unit-tested against real routes to prevent false 410s).
+app.use('*', async (c, next) => {
+  if (isHackSpam(new URL(c.req.url).pathname)) {
+    return new Response('410 Gone', {
+      status: 410,
+      headers: {
+        'content-type': 'text/plain; charset=utf-8',
+        'cache-control': 'no-store',
+      },
+    })
+  }
+  return next()
+})
 
 // ─── Constants ─────────────────────────────────────────────
 const ALLOWED_ORIGINS = [
