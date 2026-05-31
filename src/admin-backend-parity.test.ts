@@ -20,20 +20,16 @@ describe('admin and backend Ponte parity', () => {
   })
 
   it('keeps StartHN on the configured Microsoft tenant for OAuth', () => {
+    // OAuth token exchange moved from the Azure AuthService to the Cloudflare
+    // Worker auth handler; the frontend still builds the authorize URL.
     const frontendOauth = readProjectFile('src', 'services', 'oauth.service.ts')
-    const backendAuth = readProjectFile(
-      'api',
-      'Services',
-      'Implementations',
-      'AuthService.cs',
-    )
+    const workerAuth = readProjectFile('src', 'server', 'routes', 'auth.ts')
 
     expect(frontendOauth).toContain(
       'https://login.microsoftonline.com/aa722524-5f12-410b-b06c-d5a8d54b1ddf/oauth2/v2.0/authorize',
     )
-    expect(backendAuth).toContain(
-      'https://login.microsoftonline.com/aa722524-5f12-410b-b06c-d5a8d54b1ddf/oauth2/v2.0/token',
-    )
+    expect(workerAuth).toContain('aa722524-5f12-410b-b06c-d5a8d54b1ddf')
+    expect(workerAuth).toContain('oauth2/v2.0/token')
   })
 
   it('counts only published blog posts for public totals', () => {

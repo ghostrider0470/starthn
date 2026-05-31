@@ -59,10 +59,8 @@ builder.Services.AddScoped<IBlogPostRepository, BlogPostRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ITagRepository, TagRepository>();
 builder.Services.AddScoped<IRoleRepository, RoleRepository>();
-builder.Services.AddScoped<ICaseStudyRepository, CaseStudyRepository>();
 builder.Services.AddScoped<ILlmProviderRepository, LlmProviderRepository>();
 builder.Services.AddScoped<ILlmSettingsRepository, LlmSettingsRepository>();
-builder.Services.AddScoped<IProcessedImageRepository, ProcessedImageRepository>();
 builder.Services.AddScoped<IBlogPostTranslationRepository, BlogPostTranslationRepository>();
 builder.Services.AddScoped<IUserPageTranslationRepository, UserPageTranslationRepository>();
 
@@ -73,17 +71,15 @@ builder.Services.AddSingleton<IJwtService, JwtService>();
 builder.Services.AddScoped<IRoleService, RoleService>();
 builder.Services.AddScoped<IPermissionService>(sp => (IPermissionService)sp.GetRequiredService<IRoleService>());
 
-// Auth & User
-builder.Services.AddScoped<IAuthService, AuthService>();
+// Auth helpers (token validation + API-key auth for the surviving endpoints).
+// NOTE: login/register/token-issuance moved to the Cloudflare Worker; only JWT
+// validation + permission checks remain here.
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IApiKeyService, ApiKeyService>();
 builder.Services.AddScoped<AuthHelper>();
 
-// Blog
+// Blog (kept for AI translate; BlogService → LlmReview → LlmProvider + WorkerSync)
 builder.Services.AddScoped<IBlogService, BlogService>();
-
-// Case Studies
-builder.Services.AddScoped<ICaseStudyService, CaseStudyService>();
 
 // Tags
 builder.Services.AddScoped<ITagService, TagService>();
@@ -91,18 +87,14 @@ builder.Services.AddScoped<ITagService, TagService>();
 // Categories
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 
-// LLM
+// LLM (used by BlogService's review pass and the Chat endpoint)
 builder.Services.AddScoped<ILlmProviderService, LlmProviderService>();
 builder.Services.AddScoped<ILlmReviewService, LlmReviewService>();
 
 // Chat
 builder.Services.AddHttpClient<IChatService, ChatService>();
 
-// Blob Storage
-builder.Services.AddSingleton<IBlobStorageService, BlobStorageService>();
-
-// Image Pipeline
-builder.Services.AddSingleton<IImageProcessingService, ImageProcessingService>();
+// Worker sync (BlogService warms edge image manifests)
 builder.Services.AddHttpClient<IWorkerSyncService, WorkerSyncService>();
 
 // Translation

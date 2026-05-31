@@ -10,7 +10,6 @@ import { handleUploadRoute } from './server/routes/upload'
 import { setD1, clearD1 } from './server/d1-context'
 import { setAssets, clearAssets } from './server/assets-context'
 import { handleImageRequest } from './server/image-handler'
-import { handleImageWarm } from './server/image-warm'
 import { handleSync } from './server/sync-receiver'
 import { handleHealth } from './server/health'
 import { handleSitemap } from './server/sitemap'
@@ -208,7 +207,8 @@ async function handleEdgeRead(c: any) {
 // the wildcard portion (e.g. '/sitemap*' won't match '/sitemap.xml').
 
 // ─── Internal sync endpoints (shared-secret auth) ──────────
-app.post('/api/internal/image-warm', (c) => handleImageWarm(c))
+// /api/internal/sync receives blog-translation upserts pushed by the Azure
+// translate path (BlogService → WorkerSyncService). Still live.
 app.post('/api/internal/sync', (c) => handleSync(c))
 app.get('/api/internal/health', (c) => handleHealth(c))
 
