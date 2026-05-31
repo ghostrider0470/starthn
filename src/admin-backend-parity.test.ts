@@ -50,14 +50,8 @@ describe('admin and backend Ponte parity', () => {
     expect(getCount).toContain('where(eq(blogPosts.isPublished, 1))')
   })
 
-  it('keeps the Azure force sync hourly safety net', () => {
-    const forceSync = readProjectFile(
-      'api',
-      'Functions',
-      'ForceSyncFunction.cs',
-    )
-
-    expect(forceSync).toContain('[Function("PeriodicSync")]')
-    expect(forceSync).toContain('[TimerTrigger("0 0 * * * *")]')
-  })
+  // NOTE: The Azure→D1 hourly force-sync safety net was intentionally removed when
+  // D1 became the sole store and the Cosmos mirror was dropped (ForceSyncFunction
+  // and the rest of the sync machinery were deleted). Azure now only hosts the AI
+  // translate + chat + contact endpoints, so there is no sync net to assert.
 })

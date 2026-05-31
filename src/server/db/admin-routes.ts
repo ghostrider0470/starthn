@@ -13,7 +13,6 @@ import { RoleRepository } from './repositories/role'
 import { LlmProviderRepository } from './repositories/llm-provider'
 import { LlmSettingsRepository } from './repositories/llm-settings'
 import { requireAuth, requirePermission, type AuthResult } from '../auth'
-import { syncToAzure } from '../sync'
 
 interface Env {
   DB: D1Database
@@ -163,7 +162,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const body = await readBody(request)
         const cat = await repo.create(body)
-        syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/categories', body, auth.token)
         return json(cat, 201)
       }
     }
@@ -207,7 +205,6 @@ export async function handleAdminRoute(
         const body = await readBody(request)
         const updated = await repo.update(id, body)
         if (!updated) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/categories/${id}`, body, auth.token)
         return json(updated)
       }
 
@@ -216,7 +213,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const deleted = await repo.delete(id)
         if (!deleted) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'DELETE', `/api/manage/categories/${id}`, undefined, auth.token)
         return new Response(null, { status: 204 })
       }
     }
@@ -234,7 +230,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const body = await readBody(request)
         const tag = await repo.create(body)
-        syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/tags', body, auth.token)
         return json(tag, 201)
       }
     }
@@ -278,7 +273,6 @@ export async function handleAdminRoute(
         const body = await readBody(request)
         const updated = await repo.update(id, body)
         if (!updated) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/tags/${id}`, body, auth.token)
         return json(updated)
       }
 
@@ -287,7 +281,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const deleted = await repo.delete(id)
         if (!deleted) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'DELETE', `/api/manage/tags/${id}`, undefined, auth.token)
         return new Response(null, { status: 204 })
       }
     }
@@ -307,7 +300,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const body = await readBody(request)
         const cs = await repo.create(body)
-        syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/case-studies', body, auth.token)
         return json(cs, 201)
       }
     }
@@ -323,7 +315,6 @@ export async function handleAdminRoute(
         const body = await readBody(request)
         const updated = await repo.update(slug, body)
         if (!updated) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/case-studies/${slug}`, body, auth.token)
         return json(updated)
       }
 
@@ -332,7 +323,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const deleted = await repo.delete(slug)
         if (!deleted) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'DELETE', `/api/manage/case-studies/${slug}`, undefined, auth.token)
         return new Response(null, { status: 204 })
       }
     }
@@ -348,7 +338,6 @@ export async function handleAdminRoute(
         await repo.create(item)
         inserted++
       }
-      syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/case-studies/seed', items, auth.token)
       return json({ message: `Seeded ${inserted} case studies`, inserted })
     }
 
@@ -382,7 +371,6 @@ export async function handleAdminRoute(
       const repo = new UserRepository(db)
       const ok = await repo.updateRoles(userRolesMatch[1], body.roles)
       if (!ok) return err('Not found', 404)
-      syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/users/${userRolesMatch[1]}/roles`, body, auth.token)
       return json({ success: true })
     }
 
@@ -394,7 +382,6 @@ export async function handleAdminRoute(
       const repo = new UserRepository(db)
       const ok = await repo.updateStatus(userStatusMatch[1], body.isActive)
       if (!ok) return err('Not found', 404)
-      syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/users/${userStatusMatch[1]}/status`, body, auth.token)
       return json({ success: true })
     }
 
@@ -410,7 +397,6 @@ export async function handleAdminRoute(
       const repo = new UserRepository(db)
       const updated = await repo.updateAuthorProfile(authorUpdateMatch[1], body)
       if (!updated) return err('Not found', 404)
-      syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/authors/${authorUpdateMatch[1]}`, body, auth.token)
       return json(updated)
     }
 
@@ -432,7 +418,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const body = await readBody(request)
         const role = await repo.create(body)
-        syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/roles', body, auth.token)
         return json(role, 201)
       }
     }
@@ -448,7 +433,6 @@ export async function handleAdminRoute(
         const body = await readBody(request)
         const updated = await repo.update(id, body)
         if (!updated) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/roles/${id}`, body, auth.token)
         return json(updated)
       }
 
@@ -457,7 +441,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const deleted = await repo.delete(id)
         if (!deleted) return err('Cannot delete', 400)
-        syncToAzure(ctx, apiOrigin, 'DELETE', `/api/manage/roles/${id}`, undefined, auth.token)
         return new Response(null, { status: 204 })
       }
     }
@@ -475,7 +458,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const body = await readBody(request)
         const provider = await repo.create(body)
-        syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/llm/providers', body, auth.token)
         return json(provider, 201)
       }
     }
@@ -491,7 +473,6 @@ export async function handleAdminRoute(
         const body = await readBody(request)
         const updated = await repo.update(key, body)
         if (!updated) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/llm/providers/${key}`, body, auth.token)
         return json(updated)
       }
 
@@ -500,7 +481,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const deleted = await repo.delete(key)
         if (!deleted) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'DELETE', `/api/manage/llm/providers/${key}`, undefined, auth.token)
         return new Response(null, { status: 204 })
       }
     }
@@ -518,7 +498,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const body = await readBody(request)
         await repo.upsert(body)
-        syncToAzure(ctx, apiOrigin, 'PUT', '/api/manage/llm/settings', body, auth.token)
         return json(await repo.get())
       }
     }
