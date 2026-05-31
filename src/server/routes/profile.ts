@@ -8,6 +8,9 @@ interface ProfileEnv {
   DB: D1Database
   JWT_SECRET: string
   IMG_CACHE?: R2Bucket
+  API_ORIGIN?: string
+  // Shared secret forwarded to Azure for the page-translate compute call.
+  SYNC_SECRET: string
 }
 
 function json(data: unknown, status = 200) {
@@ -16,11 +19,6 @@ function json(data: unknown, status = 200) {
     headers: { 'Content-Type': 'application/json' },
   })
 }
-
-// These routes are delegated to Azure — return null to proxy
-const AZURE_PROXY_PATHS = new Set([
-  '/api/user/page/translate',
-])
 
 export async function handleProfileRoute(request: Request, env: ProfileEnv): Promise<Response | null> {
   if (!env?.DB || !env?.JWT_SECRET) return null
@@ -32,14 +30,23 @@ export async function handleProfileRoute(request: Request, env: ProfileEnv): Pro
   // Not a /api/user/* path
   if (!path.startsWith('/api/user/')) return null
 
-  // Proxy to Azure for compute routes
-  if (AZURE_PROXY_PATHS.has(path)) return null
-
   // Require authentication
   const authResult = await requireAuth(request, env.JWT_SECRET, env.DB)
   if (authResult instanceof Response) return authResult
   const auth = authResult
   const userId = auth.payload.sub
+
+  // Page translation is AI compute delegated to Azure. Azure has no user auth —
+  // we authenticate here and forward the shared secret + resolved user id.
+  if (path === '/api/user/page/translate' && method === 'POST') {
+    const apiOrigin = env.API_ORIGIN || 'https://starthn-func-prod.azurewebsites.net'
+    const headers = new Headers(request.headers)
+    headers.set('Host', new URL(apiOrigin).host)
+    headers.set('X-Internal-Auth', env.SYNC_SECRET)
+    headers.set('X-User-Id', userId)
+    headers.delete('content-length')
+    return fetch(new Request(`${apiOrigin}${path}`, { method: 'POST', headers, body: request.body }))
+  }
 
   const db = createDb(env.DB)
   const userRepo = new UserRepository(db)

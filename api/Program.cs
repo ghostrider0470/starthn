@@ -1,7 +1,4 @@
-using System.IdentityModel.Tokens.Jwt;
-using Api.Helpers;
 using Api.Middleware;
-using Api.Repositories;
 using Api.Repositories.Implementations;
 using Api.Repositories.Interfaces;
 using Api.Services;
@@ -13,11 +10,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Azure.Cosmos;
 using Microsoft.Azure.Cosmos.Fluent;
-
-// Prevent default claim type mapping (short names like "nameid" → long URIs)
-// Must be done once at startup, before any JWT operations
-JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
-JwtSecurityTokenHandler.DefaultOutboundClaimTypeMap.Clear();
 
 var builder = FunctionsApplication.CreateBuilder(args);
 
@@ -58,25 +50,15 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IBlogPostRepository, BlogPostRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ITagRepository, TagRepository>();
-builder.Services.AddScoped<IRoleRepository, RoleRepository>();
 builder.Services.AddScoped<ILlmProviderRepository, LlmProviderRepository>();
 builder.Services.AddScoped<ILlmSettingsRepository, LlmSettingsRepository>();
 builder.Services.AddScoped<IBlogPostTranslationRepository, BlogPostTranslationRepository>();
 builder.Services.AddScoped<IUserPageTranslationRepository, UserPageTranslationRepository>();
 
-// JWT
-builder.Services.AddSingleton<IJwtService, JwtService>();
-
-// Roles & Permissions
-builder.Services.AddScoped<IRoleService, RoleService>();
-builder.Services.AddScoped<IPermissionService>(sp => (IPermissionService)sp.GetRequiredService<IRoleService>());
-
-// Auth helpers (token validation + API-key auth for the surviving endpoints).
-// NOTE: login/register/token-issuance moved to the Cloudflare Worker; only JWT
-// validation + permission checks remain here.
+// User lookup (page translate resolves the user by the Worker-forwarded id).
+// No user auth on Azure — the Worker authenticates and forwards a shared secret
+// (see Api.Helpers.InternalAuth).
 builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IApiKeyService, ApiKeyService>();
-builder.Services.AddScoped<AuthHelper>();
 
 // Blog (kept for AI translate; BlogService → LlmReview → LlmProvider + WorkerSync)
 builder.Services.AddScoped<IBlogService, BlogService>();
@@ -101,13 +83,6 @@ builder.Services.AddHttpClient<IWorkerSyncService, WorkerSyncService>();
 builder.Services.AddHttpClient<ITranslationService, TranslationService>();
 
 var app = builder.Build();
-
-// Seed default roles
-using (var scope = app.Services.CreateScope())
-{
-    var roleService = scope.ServiceProvider.GetRequiredService<IRoleService>();
-    await roleService.SeedDefaultRolesAsync();
-}
 
 await app.RunAsync();
 

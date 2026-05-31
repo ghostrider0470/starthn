@@ -28,10 +28,13 @@ describe('handleProfileRoute', () => {
     expect(res?.status).toBe(401)
   })
 
-  it('returns null for /api/user/page/translate (proxy route)', async () => {
+  it('requires auth for /api/user/page/translate before forwarding to Azure', async () => {
+    // Azure has no user auth; the Worker authenticates here and forwards the
+    // shared secret + X-User-Id. So an unauthenticated request is rejected (401),
+    // not proxied.
     const req = new Request('https://x/api/user/page/translate', { method: 'POST' })
     const res = await handleProfileRoute(req, makeEnv() as any)
-    expect(res).toBeNull()
+    expect(res?.status).toBe(401)
   })
 
   it('returns null for paths not starting with /api/user/', async () => {

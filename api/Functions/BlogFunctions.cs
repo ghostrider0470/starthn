@@ -6,6 +6,7 @@ using Api.Services.Interfaces;
 using FluentValidation;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
 namespace Api.Functions;
@@ -14,24 +15,26 @@ namespace Api.Functions;
 // Cloudflare Worker (D1). Only AI translation compute remains here — the Worker
 // proxies the translate trigger to Azure, then persists the returned translations
 // to D1 itself (see src/server/db/admin-routes.ts → blog translate + translations).
+// No user auth on Azure: the Worker authenticates the admin and forwards a shared
+// secret (InternalAuth).
 public class BlogFunctions
 {
     private readonly IBlogService _blogService;
     private readonly ITranslationService _translationService;
-    private readonly AuthHelper _auth;
+    private readonly IConfiguration _config;
     private readonly ILogger<BlogFunctions> _logger;
     private readonly IValidator<TranslateBlogPostRequest> _translateValidator;
 
     public BlogFunctions(
         IBlogService blogService,
         ITranslationService translationService,
-        AuthHelper auth,
+        IConfiguration config,
         ILogger<BlogFunctions> logger,
         IValidator<TranslateBlogPostRequest> translateValidator)
     {
         _blogService = blogService;
         _translationService = translationService;
-        _auth = auth;
+        _config = config;
         _logger = logger;
         _translateValidator = translateValidator;
     }
@@ -41,7 +44,7 @@ public class BlogFunctions
         [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "manage/blog/{slug}/translate")] HttpRequestData req,
         string slug)
     {
-        await _auth.RequirePermissionAsync(req, "manage:blog");
+        InternalAuth.Verify(req, _config);
         var request = await FunctionHelper.DeserializeAndValidateAsync<TranslateBlogPostRequest>(req, _translateValidator);
 
         var targets = request.Targets.Select(t => (t.LocaleCode, t.TranslatorCode)).ToList();

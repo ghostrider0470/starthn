@@ -18,6 +18,8 @@ interface Env {
   DB: D1Database
   JWT_SECRET: string
   API_ORIGIN: string
+  // Shared secret forwarded to Azure (no user auth on Azure; it trusts this).
+  SYNC_SECRET: string
 }
 
 function json(data: unknown, status = 200) {
@@ -99,6 +101,7 @@ export async function handleAdminRoute(
       const targetUrl = `${apiOrigin}${path}`
       const headers = new Headers(request.headers)
       headers.set('Host', new URL(apiOrigin).host)
+      headers.set('X-Internal-Auth', env.SYNC_SECRET)
       headers.delete('content-length')
       return fetch(new Request(targetUrl, { method: 'POST', headers, body: request.body }))
     }
@@ -183,7 +186,7 @@ export async function handleAdminRoute(
       }
       const azureRes = await fetch(new Request(`${apiOrigin}${path}`, {
         method: 'POST',
-        headers: new Headers({ ...Object.fromEntries(new Headers(request.headers)), 'Content-Type': 'application/json', 'Host': new URL(apiOrigin).host }),
+        headers: new Headers({ ...Object.fromEntries(new Headers(request.headers)), 'Content-Type': 'application/json', 'Host': new URL(apiOrigin).host, 'X-Internal-Auth': env.SYNC_SECRET }),
         body: JSON.stringify(enrichedBody),
       }))
       if (!azureRes.ok) return new Response(await azureRes.text(), { status: azureRes.status })
@@ -251,7 +254,7 @@ export async function handleAdminRoute(
       }
       const azureRes = await fetch(new Request(`${apiOrigin}${path}`, {
         method: 'POST',
-        headers: new Headers({ ...Object.fromEntries(new Headers(request.headers)), 'Content-Type': 'application/json', 'Host': new URL(apiOrigin).host }),
+        headers: new Headers({ ...Object.fromEntries(new Headers(request.headers)), 'Content-Type': 'application/json', 'Host': new URL(apiOrigin).host, 'X-Internal-Auth': env.SYNC_SECRET }),
         body: JSON.stringify(enrichedBody),
       }))
       if (!azureRes.ok) return new Response(await azureRes.text(), { status: azureRes.status })

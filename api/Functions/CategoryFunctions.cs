@@ -6,28 +6,30 @@ using Api.Services.Interfaces;
 using FluentValidation;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
+using Microsoft.Extensions.Configuration;
 
 namespace Api.Functions;
 
 // NOTE: All category CRUD + public reads now live in the Cloudflare Worker (D1).
 // Only AI translation remains here, since the Worker proxies translate requests
 // to Azure for compute (see src/server/db/admin-routes.ts → category translate).
+// No user auth on Azure — the Worker forwards a shared secret (InternalAuth).
 public class CategoryFunctions
 {
     private readonly ICategoryService _categoryService;
     private readonly ITranslationService _translationService;
-    private readonly AuthHelper _auth;
+    private readonly IConfiguration _config;
     private readonly IValidator<TranslateCategoryRequest> _translateValidator;
 
     public CategoryFunctions(
         ICategoryService categoryService,
         ITranslationService translationService,
-        AuthHelper auth,
+        IConfiguration config,
         IValidator<TranslateCategoryRequest> translateValidator)
     {
         _categoryService = categoryService;
         _translationService = translationService;
-        _auth = auth;
+        _config = config;
         _translateValidator = translateValidator;
     }
 
@@ -36,7 +38,7 @@ public class CategoryFunctions
         [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "manage/categories/{id}/translate")] HttpRequestData req,
         string id)
     {
-        await _auth.RequirePermissionAsync(req, "manage:categories");
+        InternalAuth.Verify(req, _config);
         var request = await FunctionHelper.DeserializeAndValidateAsync<TranslateCategoryRequest>(req, _translateValidator);
 
         var targets = request.Targets
