@@ -36,16 +36,62 @@ export async function handleProfileRoute(request: Request, env: ProfileEnv): Pro
   const auth = authResult
   const userId = auth.payload.sub
 
-  // Page translation is AI compute delegated to Azure. Azure has no user auth —
-  // we authenticate here and forward the shared secret + resolved user id.
+  // Page translation is AI compute delegated to Azure, which is now stateless:
+  // we read the source content from D1, send it to Azure for translation, then
+  // persist the returned translations back to D1. Azure touches no datastore.
   if (path === '/api/user/page/translate' && method === 'POST') {
+    const { languages } = (await request.json().catch(() => ({}))) as { languages?: string[] }
+    if (!Array.isArray(languages) || languages.length === 0) {
+      return json({ error: 'languages[] required' }, 400)
+    }
+
+    const user = await new UserRepository(createDb(env.DB)).getById(userId)
+    if (!user) return json({ error: 'Not found' }, 404)
+
     const apiOrigin = env.API_ORIGIN || 'https://starthn-func-prod.azurewebsites.net'
-    const headers = new Headers(request.headers)
-    headers.set('Host', new URL(apiOrigin).host)
-    headers.set('X-Internal-Auth', env.SYNC_SECRET)
-    headers.set('X-User-Id', userId)
-    headers.delete('content-length')
-    return fetch(new Request(`${apiOrigin}${path}`, { method: 'POST', headers, body: request.body }))
+    const azureRes = await fetch(`${apiOrigin}/api/user/page/translate`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Host: new URL(apiOrigin).host,
+        // Azure trusts X-Internal-Auth + X-User-Id; the user's token is not forwarded.
+        'X-Internal-Auth': env.SYNC_SECRET,
+        'X-User-Id': userId,
+      },
+      body: JSON.stringify({ languages, bio: user.bio ?? null, pageContent: user.pageContent ?? null }),
+    })
+
+    if (!azureRes.ok) {
+      console.error('[page-translate] azure', azureRes.status, await azureRes.text().catch(() => ''))
+      return json({ error: 'Translation service unavailable' }, 502)
+    }
+
+    const data = (await azureRes.json()) as {
+      translations?: Record<string, { bio?: string; pageContent?: string; isAutoTranslated?: boolean; translatedAt?: string }>
+    }
+    const translations = data.translations ?? {}
+
+    // Persist each returned translation to D1 (upsert). page_content is stored
+    // JSON-encoded to match the manual PUT path and the GET reader's JSON.parse.
+    for (const [locale, t] of Object.entries(translations)) {
+      const now = t.translatedAt ?? new Date().toISOString()
+      const pageContent = t.pageContent != null ? JSON.stringify(t.pageContent) : null
+      const existing = await env.DB.prepare(
+        'SELECT id FROM user_page_translations WHERE user_id = ? AND locale = ?',
+      ).bind(userId, locale).first<{ id: string }>()
+
+      if (existing) {
+        await env.DB.prepare(
+          'UPDATE user_page_translations SET bio = ?, page_content = ?, is_auto_translated = 1, translated_at = ? WHERE user_id = ? AND locale = ?',
+        ).bind(t.bio ?? null, pageContent, now, userId, locale).run()
+      } else {
+        await env.DB.prepare(
+          'INSERT INTO user_page_translations (id, user_id, locale, bio, page_content, is_auto_translated, translated_at) VALUES (?, ?, ?, ?, ?, 1, ?)',
+        ).bind(crypto.randomUUID().replace(/-/g, ''), userId, locale, t.bio ?? null, pageContent, now).run()
+      }
+    }
+
+    return json(translations)
   }
 
   const db = createDb(env.DB)
