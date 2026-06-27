@@ -47,3 +47,9 @@ scripts/migration-output.sql
 
 # Session memory (per-developer, rewritten each session)
 .remember/
+
+# Migration data exports
+scripts/data/*.json
+scripts/data/*.sql
+scripts/data/*/
+.dev.vars

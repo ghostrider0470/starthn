@@ -13,12 +13,13 @@ import { RoleRepository } from './repositories/role'
 import { LlmProviderRepository } from './repositories/llm-provider'
 import { LlmSettingsRepository } from './repositories/llm-settings'
 import { requireAuth, requirePermission, type AuthResult } from '../auth'
-import { syncToAzure } from '../sync'
 
 interface Env {
   DB: D1Database
   JWT_SECRET: string
   API_ORIGIN: string
+  // Shared secret forwarded to Azure (no user auth on Azure; it trusts this).
+  SYNC_SECRET: string
 }
 
 function json(data: unknown, status = 200) {
@@ -85,7 +86,6 @@ export async function handleAdminRoute(
       const body = await readBody(request)
       const repo = new BlogPostRepository(db)
       const post = await repo.create(body, auth.payload.sub, auth.payload.given_name)
-      syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/blog', body, auth.token)
       return json(post, 201)
     }
 
@@ -95,36 +95,15 @@ export async function handleAdminRoute(
       return handleBlogTranslations(db, method, transMatch[1], transMatch[2], request, auth, ctx, apiOrigin)
     }
 
-    // Translate trigger — requires AI, proxy to Azure
-    if (path.match(/^\/api\/manage\/blog\/[^/]+\/translate$/) && method === 'POST') {
-      return null
-    }
-
-    // Force-sync: re-push a D1 post to Azure (POST upserts in Azure after fix)
-    const syncMatch = path.match(/^\/api\/manage\/blog\/([^/]+)\/sync$/)
-    if (syncMatch && method === 'POST') {
-      const perm = requirePermission(auth.payload, 'manage:blog')
-      if (perm) return perm
-      const repo = new BlogPostRepository(db)
-      const post = await repo.getBySlug(syncMatch[1])
-      if (!post) return err('Post not found in D1', 404)
-      const payload = {
-        slug: post.slug,
-        title: post.title,
-        excerpt: post.excerpt ?? '',
-        publishedAt: post.publishedAt ?? new Date().toISOString(),
-        readTime: String(post.readTime ?? ''),
-        category: post.category ?? '',
-        subcategory: post.subcategory,
-        tags: post.tags ?? [],
-        content: post.content ?? [],
-        isPublished: post.isPublished,
-        isFeatured: post.isFeatured,
-        coverImage: post.coverImage,
-        bannerImage: post.bannerImage,
-      }
-      syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/blog', payload, auth.token)
-      return json({ ok: true, slug: post.slug })
+    // Translate trigger — proxy to Azure; sourceLocale + content are supplied by the frontend
+    const translateMatch = path.match(/^\/api\/manage\/blog\/([^/]+)\/translate$/)
+    if (translateMatch && method === 'POST') {
+      const targetUrl = `${apiOrigin}${path}`
+      const headers = new Headers(request.headers)
+      headers.set('Host', new URL(apiOrigin).host)
+      headers.set('X-Internal-Auth', env.SYNC_SECRET)
+      headers.delete('content-length')
+      return fetch(new Request(targetUrl, { method: 'POST', headers, body: request.body }))
     }
 
     const blogSlug = path.match(/^\/api\/manage\/blog\/([^/]+)$/)
@@ -138,7 +117,6 @@ export async function handleAdminRoute(
         const repo = new BlogPostRepository(db)
         const updated = await repo.update(slug, body)
         if (!updated) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/blog/${slug}`, body, auth.token)
         return json(updated)
       }
 
@@ -148,7 +126,6 @@ export async function handleAdminRoute(
         const repo = new BlogPostRepository(db)
         const deleted = await repo.delete(slug)
         if (!deleted) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'DELETE', `/api/manage/blog/${slug}`, undefined, auth.token)
         return new Response(null, { status: 204 })
       }
     }
@@ -164,13 +141,15 @@ export async function handleAdminRoute(
         await repo.create(item, auth.payload.sub, auth.payload.given_name)
         inserted++
       }
-      syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/blog/seed', items, auth.token)
       return json({ message: `Seeded ${inserted} posts`, inserted })
     }
 
-    // Blog image upload — needs R2 or Azure blob, proxy to Azure
-    if (path === '/api/manage/blog/upload-image' && method === 'POST') {
-      return null
+    // Blog: missing translations
+    if (path === '/api/manage/blog/missing-translations' && method === 'GET') {
+      const perm = requirePermission(auth.payload, 'manage:blog')
+      if (perm) return perm
+      const repo = new BlogPostRepository(db)
+      return json(await repo.getMissingTranslations())
     }
 
     // ─── Categories ────────────────────────────────────────
@@ -186,9 +165,36 @@ export async function handleAdminRoute(
         if (perm) return perm
         const body = await readBody(request)
         const cat = await repo.create(body)
-        syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/categories', body, auth.token)
         return json(cat, 201)
       }
+    }
+
+    // Category translate — enrich with D1 label, proxy to Azure, save results to D1
+    const catTranslateMatch = path.match(/^\/api\/manage\/categories\/([^/]+)\/translate$/)
+    if (catTranslateMatch && method === 'POST') {
+      const perm = requirePermission(auth.payload, 'manage:categories')
+      if (perm) return perm
+      const id = catTranslateMatch[1]
+      const repo = new CategoryRepository(db)
+      const category = await repo.getById(id)
+      if (!category) return err('Category not found', 404)
+      const body = await readBody(request)
+      const enrichedBody = {
+        ...body,
+        label: category.label,
+        sourceLocale: category.lang ?? 'en-US',
+      }
+      const azureRes = await fetch(new Request(`${apiOrigin}${path}`, {
+        method: 'POST',
+        headers: new Headers({ ...Object.fromEntries(new Headers(request.headers)), 'Content-Type': 'application/json', 'Host': new URL(apiOrigin).host, 'X-Internal-Auth': env.SYNC_SECRET }),
+        body: JSON.stringify(enrichedBody),
+      }))
+      if (!azureRes.ok) return new Response(await azureRes.text(), { status: azureRes.status })
+      const azureData = await azureRes.json() as { translations?: Record<string, string> }
+      if (azureData.translations && Object.keys(azureData.translations).length > 0) {
+        await repo.update(id, { translations: azureData.translations })
+      }
+      return json(await repo.getById(id))
     }
 
     const catIdMatch = path.match(/^\/api\/manage\/categories\/([^/]+)$/)
@@ -202,7 +208,6 @@ export async function handleAdminRoute(
         const body = await readBody(request)
         const updated = await repo.update(id, body)
         if (!updated) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/categories/${id}`, body, auth.token)
         return json(updated)
       }
 
@@ -211,12 +216,8 @@ export async function handleAdminRoute(
         if (perm) return perm
         const deleted = await repo.delete(id)
         if (!deleted) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'DELETE', `/api/manage/categories/${id}`, undefined, auth.token)
         return new Response(null, { status: 204 })
       }
-
-      // Translate trigger — proxy to Azure (needs AI)
-      if (path.endsWith('/translate') && method === 'POST') return null
     }
 
     // ─── Tags ──────────────────────────────────────────────
@@ -232,9 +233,36 @@ export async function handleAdminRoute(
         if (perm) return perm
         const body = await readBody(request)
         const tag = await repo.create(body)
-        syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/tags', body, auth.token)
         return json(tag, 201)
       }
+    }
+
+    // Tag translate — enrich with D1 label, proxy to Azure, save results to D1
+    const tagTranslateMatch = path.match(/^\/api\/manage\/tags\/([^/]+)\/translate$/)
+    if (tagTranslateMatch && method === 'POST') {
+      const perm = requirePermission(auth.payload, 'manage:tags')
+      if (perm) return perm
+      const id = tagTranslateMatch[1]
+      const repo = new TagRepository(db)
+      const tag = await repo.getById(id)
+      if (!tag) return err('Tag not found', 404)
+      const body = await readBody(request)
+      const enrichedBody = {
+        ...body,
+        label: tag.label,
+        sourceLocale: tag.lang ?? 'en-US',
+      }
+      const azureRes = await fetch(new Request(`${apiOrigin}${path}`, {
+        method: 'POST',
+        headers: new Headers({ ...Object.fromEntries(new Headers(request.headers)), 'Content-Type': 'application/json', 'Host': new URL(apiOrigin).host, 'X-Internal-Auth': env.SYNC_SECRET }),
+        body: JSON.stringify(enrichedBody),
+      }))
+      if (!azureRes.ok) return new Response(await azureRes.text(), { status: azureRes.status })
+      const azureData = await azureRes.json() as { translations?: Record<string, string> }
+      if (azureData.translations && Object.keys(azureData.translations).length > 0) {
+        await repo.update(id, { translations: azureData.translations })
+      }
+      return json(await repo.getById(id))
     }
 
     const tagIdMatch = path.match(/^\/api\/manage\/tags\/([^/]+)$/)
@@ -248,7 +276,6 @@ export async function handleAdminRoute(
         const body = await readBody(request)
         const updated = await repo.update(id, body)
         if (!updated) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/tags/${id}`, body, auth.token)
         return json(updated)
       }
 
@@ -257,11 +284,8 @@ export async function handleAdminRoute(
         if (perm) return perm
         const deleted = await repo.delete(id)
         if (!deleted) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'DELETE', `/api/manage/tags/${id}`, undefined, auth.token)
         return new Response(null, { status: 204 })
       }
-
-      if (path.endsWith('/translate') && method === 'POST') return null
     }
 
     // ─── Case Studies ──────────────────────────────────────
@@ -279,7 +303,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const body = await readBody(request)
         const cs = await repo.create(body)
-        syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/case-studies', body, auth.token)
         return json(cs, 201)
       }
     }
@@ -295,7 +318,6 @@ export async function handleAdminRoute(
         const body = await readBody(request)
         const updated = await repo.update(slug, body)
         if (!updated) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/case-studies/${slug}`, body, auth.token)
         return json(updated)
       }
 
@@ -304,7 +326,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const deleted = await repo.delete(slug)
         if (!deleted) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'DELETE', `/api/manage/case-studies/${slug}`, undefined, auth.token)
         return new Response(null, { status: 204 })
       }
     }
@@ -320,7 +341,6 @@ export async function handleAdminRoute(
         await repo.create(item)
         inserted++
       }
-      syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/case-studies/seed', items, auth.token)
       return json({ message: `Seeded ${inserted} case studies`, inserted })
     }
 
@@ -354,7 +374,6 @@ export async function handleAdminRoute(
       const repo = new UserRepository(db)
       const ok = await repo.updateRoles(userRolesMatch[1], body.roles)
       if (!ok) return err('Not found', 404)
-      syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/users/${userRolesMatch[1]}/roles`, body, auth.token)
       return json({ success: true })
     }
 
@@ -366,7 +385,6 @@ export async function handleAdminRoute(
       const repo = new UserRepository(db)
       const ok = await repo.updateStatus(userStatusMatch[1], body.isActive)
       if (!ok) return err('Not found', 404)
-      syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/users/${userStatusMatch[1]}/status`, body, auth.token)
       return json({ success: true })
     }
 
@@ -382,7 +400,6 @@ export async function handleAdminRoute(
       const repo = new UserRepository(db)
       const updated = await repo.updateAuthorProfile(authorUpdateMatch[1], body)
       if (!updated) return err('Not found', 404)
-      syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/authors/${authorUpdateMatch[1]}`, body, auth.token)
       return json(updated)
     }
 
@@ -404,7 +421,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const body = await readBody(request)
         const role = await repo.create(body)
-        syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/roles', body, auth.token)
         return json(role, 201)
       }
     }
@@ -420,7 +436,6 @@ export async function handleAdminRoute(
         const body = await readBody(request)
         const updated = await repo.update(id, body)
         if (!updated) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/roles/${id}`, body, auth.token)
         return json(updated)
       }
 
@@ -429,7 +444,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const deleted = await repo.delete(id)
         if (!deleted) return err('Cannot delete', 400)
-        syncToAzure(ctx, apiOrigin, 'DELETE', `/api/manage/roles/${id}`, undefined, auth.token)
         return new Response(null, { status: 204 })
       }
     }
@@ -447,7 +461,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const body = await readBody(request)
         const provider = await repo.create(body)
-        syncToAzure(ctx, apiOrigin, 'POST', '/api/manage/llm/providers', body, auth.token)
         return json(provider, 201)
       }
     }
@@ -463,7 +476,6 @@ export async function handleAdminRoute(
         const body = await readBody(request)
         const updated = await repo.update(key, body)
         if (!updated) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/llm/providers/${key}`, body, auth.token)
         return json(updated)
       }
 
@@ -472,7 +484,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const deleted = await repo.delete(key)
         if (!deleted) return err('Not found', 404)
-        syncToAzure(ctx, apiOrigin, 'DELETE', `/api/manage/llm/providers/${key}`, undefined, auth.token)
         return new Response(null, { status: 204 })
       }
     }
@@ -490,7 +501,6 @@ export async function handleAdminRoute(
         if (perm) return perm
         const body = await readBody(request)
         await repo.upsert(body)
-        syncToAzure(ctx, apiOrigin, 'PUT', '/api/manage/llm/settings', body, auth.token)
         return json(await repo.get())
       }
     }
@@ -547,14 +557,12 @@ async function handleBlogTranslations(
     const body = await readBody(request)
     const result = await repo.upsertTranslation(slug, locale, body)
     if (!result) return err('Not found', 404)
-    syncToAzure(ctx, apiOrigin, 'PUT', `/api/manage/blog/${slug}/translations/${locale}`, body, auth.token)
     return json(result)
   }
 
   if (method === 'DELETE' && locale) {
     const ok = await repo.deleteTranslation(slug, locale)
     if (!ok) return err('Not found', 404)
-    syncToAzure(ctx, apiOrigin, 'DELETE', `/api/manage/blog/${slug}/translations/${locale}`, undefined, auth.token)
     return new Response(null, { status: 204 })
   }
 

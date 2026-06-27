@@ -1,0 +1,384 @@
+{
+  "common": {
+    "fallbackTitle": "Dienst",
+    "service": "Dienst",
+    "overview": "Overzicht",
+    "scope": "Wat We Behandelen",
+    "process": "Hoe we werken",
+    "outputs": "Resultaten",
+    "nextStep": "Volgende stap",
+    "learnMore": "Lees meer",
+    "ctaPrimary": "Een gesprek starten",
+    "ctaSecondary": "Bekijk alle diensten",
+    "backToServices": "Terug naar diensten"
+  },
+  "index": {
+    "overline": "Start HN-diensten",
+    "title": "Boekhoudkundige ondersteuning voor elke fase van het bedrijf.",
+    "description": "Zes duidelijke servicegebieden bestrijken boekhouding, belastingverplichtingen, rapportage, consultancy en educatie, waardoor uw bedrijf beter controle heeft.",
+    "introOverline": "Diensten",
+    "introTitle": "Eén team, een duidelijk financieel beeld",
+    "introBody": "Start HN verbindt praktische boekhouding, belastingmonitoring, financiële rapportage en adviesondersteuning, zodat eigenaren en management beslissingen kunnen nemen op basis van betrouwbare gegevens, niet op basis van bulkdocumentatie.",
+    "cta": {
+      "title": "Weet je niet zeker welke service je nodig hebt?",
+      "description": "Vertel ons hoe uw bedrijf momenteel functioneert en wij zullen de juiste ondersteuningsomvang aanbevelen: regelmatige boekhouding, diepgaand advies of gerichte consultatie.",
+      "button": "Plan een consult in"
+    }
+  },
+  "items": {
+    "bookkeeping": {
+      "label": "01",
+      "title": "Boekhouding en administratie",
+      "shortDescription": "Volledige boekhouding, boekhoudkundige administratie, loonadministratie, btw-gegevens en eindrapporten voor ambachten en bedrijven.",
+      "heroDescription": "Betrouwbare boeken vormen de operationele basis van elk bedrijf. Wij houden uw administratie nauwkeurig, actueel en klaar voor belastingdeadlines, banken en managementbeslissingen.",
+      "overviewTitle": "Dagelijkse records zonder dagelijkse belasting",
+      "overview": "Wij organiseren de volledige boekhoudcyclus: ontvangst van documentatie, boeking van facturen en kosten, berekening van salarissen en bijdragen, btw-administratie, juridische aanvragen en jaarlijkse afsluiting. Het doel is simpel: nette administratie, duidelijke verantwoordelijkheden en geen verrassingen voor deadlines.",
+      "bestForTitle": "Het beste voor",
+      "bestFor": [
+        "Kleine en middelgrote bedrijven die regelmatige boekhoudkundige ondersteuning nodig hebben.",
+        "Ambachten en zelfstandige bedrijven die op zoek zijn naar een juiste juridische registratie",
+        "Teams die overstappen van een andere accountant",
+        "Eigenaren die duidelijke maandelijkse cijfers willen, niet alleen jaarverslagen"
+      ],
+      "detailsTitle": "Reikwijdte van de boekhouding",
+      "details": [
+        {
+          "title": "Boekhoudkundige inrichting en overdracht",
+          "description": "We bekijken registratie, bestaande administratie, startsaldi, salarisgegevens en het schema van verplichtingen om de dienst van de grond te krijgen."
+        },
+        {
+          "title": "Maandelijkse boekhoudkundige operaties",
+          "description": "Facturen, kosten, banktransacties, salarissen, bijdragen, btw-administratie en reguliere wettelijke verplichtingen worden in een voorspelbaar maandelijks tempo verwerkt."
+        },
+        {
+          "title": "Jaarrekening en jaarlijkse sluiting",
+          "description": "We bereiden eindberekeningen, financiële overzichten, belastingaangiften en ondersteunende documentatie op om het bedrijf op één lijn te houden en klaar voor controles."
+        }
+      ],
+      "processTitle": "Voorspelbaar maandritme",
+      "process": [
+        {
+          "title": "Collectie",
+          "description": "Je dient de documentatie digitaal of fysiek in volgens de afgesproken workflow."
+        },
+        {
+          "title": "Verwerking",
+          "description": "We boeken transacties, berekenen verplichtingen en controleren administratie vóór deadlines."
+        },
+        {
+          "title": "Verslaggeving",
+          "description": "Je krijgt duidelijke samenvattingen en volgende stappen, en vragen worden beantwoord voordat ze een risico worden."
+        }
+      ],
+      "deliverablesTitle": "Typische resultaten",
+      "deliverables": [
+        "Maandelijkse boekhoudkundige gegevens",
+        "BTW en belastinggegevens",
+        "Loon- en bijdrageberekeningen",
+        "Jaarlijkse Financiële Rapporten",
+        "Bevestigingen van indiening van aanvragen",
+        "Regulier accountingadvies"
+      ],
+      "cta": {
+        "title": "Klaar om je boeken te redigeren?",
+        "description": "We zullen uw huidige administratie beoordelen en een maandelijkse boekhoudstroom vaststellen die overeenkomt met de manier waarop uw bedrijf daadwerkelijk opereert.",
+        "button": "Vraag boekhoudondersteuning aan"
+      }
+    },
+    "taxConsulting": {
+      "label": "02",
+      "title": "Fiscaal advies",
+      "shortDescription": "Belastingmonitoring, planning, ondersteuning bij aanvragen, het bijhouden van deadlines en praktische begeleiding voor particulieren en rechtspersonen.",
+      "heroDescription": "Belastingverplichtingen veranderen snel, en fouten zijn kostbaar. Wij helpen u te begrijpen wat van toepassing is, wat verschuldigd is en hoe u binnen de regelgeving kunt plannen.",
+      "overviewTitle": "Belastingadvies voordat er een probleem ontstaat",
+      "overview": "Onze belastingondersteuning verbindt naleving en planning: we volgen deadlines, beoordelen verplichtingen, leggen regelgevende wijzigingen uit, bereiden aangiften op en adviseren voordat beslissingen onnodige kosten of risico's veroorzaken.",
+      "bestForTitle": "Het beste voor",
+      "bestFor": [
+        "Bedrijven die regelmatige belastingmonitoring nodig hebben",
+        "Eigenaren die beslissingen nemen over investeringen, werkgelegenheid of prijzen",
+        "Natuurlijke personen en ondernemers met rapportageverplichtingen",
+        "Bedrijven die boetes en daaropvolgende correcties willen verminderen"
+      ],
+      "detailsTitle": "Reikwijdte van belastingadvies",
+      "details": [
+        {
+          "title": "Overzicht van taken",
+          "description": "We beoordelen actieve registraties, vroege registraties, btw- en loonblootstelling, en aankomende deadlines."
+        },
+        {
+          "title": "Naleving en rapportageondersteuning",
+          "description": "Wij bereiden belastingaangiften op en beoordelen ze, volgen deadlines en helpen bij het corrigeren van nalatigheden voordat ze tot boetes leiden."
+        },
+        {
+          "title": "Planning en besluitvormingsondersteuning",
+          "description": "We leggen de fiscale gevolgen uit van zakelijke beslissingen, aftrekposten, organisatiewijzigingen, aanwervingen, betalingen en andere veelvoorkomende financiële kwesties."
+        }
+      ],
+      "processTitle": "Belastingsteun die een stap verder gaat",
+      "process": [
+        {
+          "title": "Beoordeling",
+          "description": "We brengen de huidige belastingpositie in kaart en identificeren openstaande verplichtingen of risicopunten."
+        },
+        {
+          "title": "Plan",
+          "description": "Wij definiëren deadlines, verantwoordelijkheden en juridische opties voor belastingplanning."
+        },
+        {
+          "title": "Onderhoud",
+          "description": "Wij stemmen rapporten en advies af op uw bedrijfsactiviteiten en regelgevende wijzigingen."
+        }
+      ],
+      "deliverablesTitle": "Typische resultaten",
+      "deliverables": [
+        "Kalender van belastingverplichtingen",
+        "Richtlijnen voor btw en inkomsten-/winstbelasting",
+        "Richtlijnen voor loonbijdragen",
+        "Beoordeling en correcties van applicaties",
+        "Notities over belastingplanning",
+        "Deadline en nalevingsondersteuning"
+      ],
+      "cta": {
+        "title": "Heeft u duidelijkheid nodig over uw belastingverplichtingen?",
+        "description": "Stuur ons uw huidige situatie en wij helpen u te begrijpen wat er verschuldigd is, wat verbeterd kan worden en wat de volgende stap is.",
+        "button": "Dat is belastingsteun"
+      }
+    },
+    "virtualCfo": {
+      "label": "03",
+      "title": "Virtueel CFO",
+      "shortDescription": "Senior financieel inzicht zonder vaste CFO: cashflow, budgetten, KPI's en besluitvormingsondersteuning.",
+      "heroDescription": "Een virtuele CFO geeft eigenaren en management een duidelijker beeld van financiële gezondheid, cashflow, winstgevendheid en strategische keuzes.",
+      "overviewTitle": "Financieel beheer op een flexibele basis.",
+      "overview": "We vertalen boekhoudkundige gegevens naar praktische managementinzichten: budgetten, prognoses, cashflowplanning, winstgevendheidsanalyses en financiële indicatoren die laten zien waar het bedrijf sterk is en waar aandacht nodig is.",
+      "bestForTitle": "Het beste voor",
+      "bestFor": [
+        "Groeiende bedrijven die meer nodig hebben dan alleen boekhouding.",
+        "Eigenaren die financiering of investeringsbeslissingen voorbereiden",
+        "Teams zonder interne CFO",
+        "Managers die maandelijkse cijfers in actie willen omzetten"
+      ],
+      "detailsTitle": "De rol van een virtuele CFO",
+      "details": [
+        {
+          "title": "Een overzicht van financiële gezondheid",
+          "description": "We analyseren winstgevendheid, liquiditeit, kostenstructuur, vorderingen, verplichtingen en belangrijke risico's in het huidige financiële beeld."
+        },
+        {
+          "title": "Planning en voorspelling",
+          "description": "We stellen budgetten, kasstroomprognoses, scenario's en aannames op die het beoordelen van managementbeslissingen makkelijker maken."
+        },
+        {
+          "title": "Managerrapportage",
+          "description": "We definiëren KPI's en rapportformaten die financiële data koppelen aan beslissingen over groei, kosten, prijsstelling en operaties."
+        }
+      ],
+      "processTitle": "Van archieven tot beslissingen",
+      "process": [
+        {
+          "title": "Diagnose",
+          "description": "We beoordelen bestaande rapporten en identificeren financiële vragen waar het management antwoord op nodig heeft."
+        },
+        {
+          "title": "Modelleren",
+          "description": "We stellen praktische budgetten, prognoses en scenario's op op basis van realistische zakelijke aannames."
+        },
+        {
+          "title": "Consultancy",
+          "description": "We leggen regelmatig de resultaten, risico's en aanbevolen volgende stappen uit."
+        }
+      ],
+      "deliverablesTitle": "Typische resultaten",
+      "deliverables": [
+        "Maandelijks Managementrapport",
+        "Kasstroomprognose",
+        "Begrotings- en afwijkingsanalyse",
+        "Structuur van KPI-rapporten",
+        "Winstgevendheidsanalyse",
+        "Adviesvergaderingen"
+      ],
+      "cta": {
+        "title": "Heb je duidelijkheid nodig op CFO-niveau?",
+        "description": "Wij kunnen uw boekhoudkundige gegevens omzetten in een managementoverzicht dat groei, financiering en betere beslissingen ondersteunt.",
+        "button": "Vertel eens over de Virtual CFO"
+      }
+    },
+    "businessConsulting": {
+      "label": "04",
+      "title": "Bedrijfsadvies",
+      "shortDescription": "Praktisch bedrijfsadvies voor organisatie, groei, interne processen, kosten, prijsstelling en operationele beslissingen.",
+      "heroDescription": "Een goed boekhoudkundig verslag laat zien wat er is gebeurd. Een goed consult helpt je beslissen wat er nu moet gebeuren.",
+      "overviewTitle": "Praktische richtlijnen op basis van cijfers",
+      "overview": "Wij ondersteunen eigenaren en managers bij financiële en operationele beslissingen: bedrijfsorganisatie, procesverbetering, kostenbeheersing, prijsstelling, facturatiediscipline, interne documentatie en groeiplanning.",
+      "bestForTitle": "Het beste voor",
+      "bestFor": [
+        "Nieuwe bedrijven die financiële processen opzetten",
+        "Bedrijven die interne controles en de documentatiestroom verbeteren",
+        "Eigenaren die kosten, prijzen of uitbreiding inschatten",
+        "Teams die advies willen over de boekhoudkundige realiteit"
+      ],
+      "detailsTitle": "Reikwijdte van bedrijfsadvies",
+      "details": [
+        {
+          "title": "Organisatie en opzet van het bedrijf",
+          "description": "Wij helpen bij het definiëren van de stroom van documentatie, rapportagetaken, boekhoudkundige routines en praktische controles in het dagelijkse werk."
+        },
+        {
+          "title": "Financiële beslissingen ondersteunen.",
+          "description": "We beoordelen kosten, marges, prijzen, kasbehoeften en geplande investeringen zodat beslissingen meetbaar effect hebben."
+        },
+        {
+          "title": "Procesverbetering",
+          "description": "We identificeren waar documentatie, goedkeuringen, rapportages of facturering gestroomlijnd en betrouwbaarder kunnen worden gemaakt."
+        }
+      ],
+      "processTitle": "Consulting zonder lege theorie",
+      "process": [
+        {
+          "title": "Mapping",
+          "description": "We brengen het bestaande proces, documenten en financiële kwesties in kaart."
+        },
+        {
+          "title": "Prioriteiten",
+          "description": "We belichten de veranderingen die de snelste en belangrijkste bedrijfswaarde opleveren."
+        },
+        {
+          "title": "Toepassing",
+          "description": "We definiëren praktische stappen, verantwoordelijkheden en opvolging."
+        }
+      ],
+      "deliverablesTitle": "Typische resultaten",
+      "deliverables": [
+        "Overzicht van bedrijfsprocessen",
+        "Notities over kosten en marges",
+        "Prijsstelling en kasstroomrichtlijnen",
+        "Aanbevelingen voor interne controles.",
+        "Documentatiestroominstelling",
+        "Adviesvergaderingen met de eigenaar"
+      ],
+      "cta": {
+        "title": "Heeft u een hands-on overzicht van uw bedrijf nodig?",
+        "description": "We bekijken uw cijfers en operationele trechter en bevelen vervolgens wijzigingen aan die de controle en winstgevendheid het meest verbeteren.",
+        "button": "Vraag een consult aan"
+      }
+    },
+    "financialReporting": {
+      "label": "05",
+      "title": "Financiële verslaggeving",
+      "shortDescription": "Duidelijke juridische en managementrapporten die helpen om resultaten, aansprakelijkheden en financiële trends te begrijpen.",
+      "heroDescription": "Rapporten hoeven geen onbegrijpelijke bestanden te zijn die alleen een deadline halen. Ze moeten weten wat er in het bedrijfsleven gebeurt.",
+      "overviewTitle": "Rapporten die het management daadwerkelijk gebruikt",
+      "overview": "Wij stellen juridische rapporten, samenvattingen van het management, financiële overzichten en analytische formaten op die het begrip van inkomsten, kosten, winsten, liquiditeit en verplichtingen vergemakkelijken.",
+      "bestForTitle": "Het beste voor",
+      "bestFor": [
+        "Bedrijven die duidelijkere maandelijkse rapportages nodig hebben",
+        "Managers die documentatie voorbereiden voor banken, partners of investeerders",
+        "Eigenaren die te allen tijde winst en contant geld willen bijhouden",
+        "Bedrijven die juridische en managementopvattingen moeten harmoniseren"
+      ],
+      "detailsTitle": "Reikwijdte van rapportage",
+      "details": [
+        {
+          "title": "Wettelijke financiële rapportage",
+          "description": "Wij stellen wettelijk voorgeschreven financiële overzichten en bijbehorende beoordelingen op op basis van de juiste boekhoudkundige gegevens."
+        },
+        {
+          "title": "Managerrapportage",
+          "description": "We maken beknopte maandelijkse of kwartaaloverzichten die resultaten, verplichtingen, marges en trends uitleggen."
+        },
+        {
+          "title": "Financiële analyse",
+          "description": "We interpreteren cijfers via indicatoren, vergelijkingen en opmerkingen die beslissingen ondersteunen, niet alleen administratief."
+        }
+      ],
+      "processTitle": "Duidelijke rapportagecyclus",
+      "process": [
+        {
+          "title": "Structuur",
+          "description": "We definiëren welke vragen het rapport beantwoord moet worden en wie het zal gebruiken."
+        },
+        {
+          "title": "Bereiding",
+          "description": "Wij verzamelen nauwkeurige gegevens uit boekhoudkundige administratie en ondersteunende documentatie."
+        },
+        {
+          "title": "Uitleg",
+          "description": "We vatten trends, risico's en volgende stappen samen in eenvoudige taal."
+        }
+      ],
+      "deliverablesTitle": "Typische resultaten",
+      "deliverables": [
+        "Financiële overzichten",
+        "Maandelijkse managementsamenvattingen",
+        "Winst- en kostenanalyse",
+        "Overzicht van contanten en passiva's",
+        "Rapportpakketten voor banken of partners",
+        "Eindrapportageondersteuning"
+      ],
+      "cta": {
+        "title": "Wil je rapporten die makkelijker te gebruiken zijn?",
+        "description": "We kunnen boekhoudkundige gegevens omzetten in een duidelijk formaat voor management, partners, banken of interne planning.",
+        "button": "Verbeteren van rapportage"
+      }
+    },
+    "education": {
+      "label": "06",
+      "title": "Onderwijs & Cursussen",
+      "shortDescription": "Workshops over accountancy, belastingen en financiën die eigenaren en teams helpen verantwoordelijkheden te begrijpen en betere beslissingen te nemen.",
+      "heroDescription": "Betere financiële geletterdheid vermindert fouten, verbetert de interne communicatie en helpt teams effectiever samen te werken met accountants.",
+      "overviewTitle": "Kennis die het dagelijks werk makkelijker maakt",
+      "overview": "Wij organiseren praktische trainingen voor eigenaren, managers en administratieve teams: basisprincipes van boekhouding, voorbereiding van documentatie, belastingdeadlines, basisprincipes van salarissen, interpretatie van rapporten en betere samenwerking met boekhouding.",
+      "bestForTitle": "Het beste voor",
+      "bestFor": [
+        "Eigenaren die hun verplichtingen willen begrijpen",
+        "Administratief personeel dat documenten en facturen behandelt",
+        "Teams die nieuwe rapportageprocessen introduceren",
+        "Managers die de financiële overzichten met meer vertrouwen willen lezen"
+      ],
+      "detailsTitle": "Reikwijdte van het onderwijs",
+      "details": [
+        {
+          "title": "Basisprincipes van boekhouding",
+          "description": "We leggen de documenten, documenten en deadlines uit die de dagelijkse gang van zaken van toepassing zijn."
+        },
+        {
+          "title": "Belastingen en lonen in de praktijk",
+          "description": "We behandelen frequente verplichtingen, regelmatige deadlines, bijdragebasisprincipes en praktische risicopunten."
+        },
+        {
+          "title": "Financiële verslaggeving",
+          "description": "Wij helpen teams financiële overzichten, managementbeoordelingen en de vragen die deze rapporten moeten beantwoorden te begrijpen."
+        }
+      ],
+      "processTitle": "Onderwijs gebaseerd op echt werk",
+      "process": [
+        {
+          "title": "Definitie",
+          "description": "Wij bepalen wat het team moet begrijpen en welke fouten voorkomen moeten worden."
+        },
+        {
+          "title": "Opleiding",
+          "description": "We houden praktische sessies met voorbeelden dicht bij je dagelijkse werk."
+        },
+        {
+          "title": "Toepassing",
+          "description": "Het team krijgt checklists, routines en duidelijkere verantwoordelijkheden."
+        }
+      ],
+      "deliverablesTitle": "Typische resultaten",
+      "deliverables": [
+        "Workshops en korte cursussen",
+        "Checklists voor het boekhoudproces",
+        "Overzicht van belastingdeadlines",
+        "Richtlijnen voor het opstellen van documentatie",
+        "Sessies voor het lezen van rapporten",
+        "Vragen en antwoorden voor het team"
+      ],
+      "cta": {
+        "title": "Wil je dat je team cijfers beter begrijpt?",
+        "description": "We kunnen een gerichte workshop voorbereiden over uw boekhoudproces, rapportage of belastingvragen.",
+        "button": "Plan je training"
+      }
+    }
+  }
+}

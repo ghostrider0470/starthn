@@ -4,6 +4,7 @@ import { Link } from '@tanstack/react-router'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Badge } from '@/components/ui/badge'
 import { BlogProseContent } from '@/components/blog/BlogProseContent'
+import { formatBlogPublishedDate } from '@/lib/blog-i18n'
 import { designSystem } from '@/lib/design-system'
 import { withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
@@ -14,6 +15,7 @@ export interface BlogPostPreviewProps {
   excerpt: string
   author: string
   category: string
+  subcategory?: string
   publishedAt: string
   readTime: string
   /** HTML string for rich content (from editor) */
@@ -41,19 +43,12 @@ function getAuthorInitials(author: string): string {
     .toUpperCase()
 }
 
-function formatPublishedDate(date: string, locale?: string): string {
-  if (!date) return ''
-  return new Date(date.includes('T') ? date : `${date}T00:00:00Z`).toLocaleDateString(
-    locale ?? 'en-US',
-    { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' },
-  )
-}
-
 export function BlogPostPreview({
   title,
   excerpt,
   author,
   category,
+  subcategory,
   publishedAt,
   readTime,
   htmlContent,
@@ -90,10 +85,16 @@ export function BlogPostPreview({
       )}
 
       <header className="mb-10">
-        {category && (
-          <Badge variant="secondary" className="mb-3">
-            {category}
-          </Badge>
+        {(category || subcategory || tags.length > 0) && (
+          <div className={cn('mb-3 flex flex-wrap items-center', designSystem.spacing.gap.sm)}>
+            {category && <Badge variant="secondary">{category}</Badge>}
+            {subcategory && <Badge variant="outline">{subcategory}</Badge>}
+            {tags.map((tag) => (
+              <Badge key={tag} variant="outline" className="text-muted-foreground">
+                {tag}
+              </Badge>
+            ))}
+          </div>
         )}
 
         <h1
@@ -174,7 +175,7 @@ export function BlogPostPreview({
                 )}
               >
                 <CalendarDays className="mr-2 h-4 w-4" />
-                {formatPublishedDate(publishedAt, locale)}
+                {formatBlogPublishedDate(publishedAt, locale)}
               </p>
             )}
             {readTime && (
@@ -203,20 +204,6 @@ export function BlogPostPreview({
         )}
       </section>
 
-      {tags.length > 0 && (
-        <footer className="mb-12 border-t pt-6">
-          <h2 className={cn(designSystem.typography.heading.h5, 'mb-3')}>
-            {t('blog:tagsLabel')}
-          </h2>
-          <div className={cn('flex flex-wrap', designSystem.spacing.gap.sm)}>
-            {tags.map((tag) => (
-              <Badge key={tag} variant="outline">
-                {tag}
-              </Badge>
-            ))}
-          </div>
-        </footer>
-      )}
     </article>
   )
 }

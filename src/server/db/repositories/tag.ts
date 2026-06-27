@@ -5,6 +5,7 @@ import type { TagDto } from '../types/dtos'
 
 export interface CreateTagInput {
   slug: string
+  lang?: string
   label: string
   translations?: Record<string, string>
 }
@@ -29,6 +30,7 @@ export class TagRepository {
       return {
         id: tag.id,
         slug: tag.slug,
+        lang: tag.lang,
         label: (locale && tr[locale]) ? tr[locale] : tag.label,
         translations: tr,
       }
@@ -42,6 +44,7 @@ export class TagRepository {
     await this.db.insert(tags).values({
       id,
       slug: input.slug,
+      lang: input.lang ?? 'en-US',
       label: input.label,
       createdAt: now,
       updatedAt: now,
@@ -69,6 +72,7 @@ export class TagRepository {
 
     const updates: Record<string, any> = { updatedAt: new Date().toISOString() }
     if (input.slug !== undefined) updates.slug = input.slug
+    if (input.lang !== undefined) updates.lang = input.lang
     if (input.label !== undefined) updates.label = input.label
 
     await this.db.update(tags).set(updates).where(eq(tags.id, id))
@@ -105,6 +109,6 @@ export class TagRepository {
     const trans = await this.db.select().from(tagTranslations).where(eq(tagTranslations.tagId, id))
     const tr: Record<string, string> = {}
     for (const t of trans) tr[t.locale] = t.label
-    return { id: tag.id, slug: tag.slug, label: tag.label, translations: tr }
+    return { id: tag.id, slug: tag.slug, lang: tag.lang, label: tag.label, translations: tr }
   }
 }

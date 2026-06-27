@@ -6,6 +6,7 @@ public class BlogPostEntity
 {
     [JsonPropertyName("id")] public string Id { get; set; } = Guid.NewGuid().ToString("N");
     [JsonPropertyName("slug")] public string Slug { get; set; } = string.Empty;
+    [JsonPropertyName("lang")] public string Lang { get; set; } = "en-US";
     [JsonPropertyName("title")] public string Title { get; set; } = string.Empty;
     [JsonPropertyName("excerpt")] public string? Excerpt { get; set; }
     [JsonPropertyName("publishedAt")] public DateTime? PublishedAt { get; set; }

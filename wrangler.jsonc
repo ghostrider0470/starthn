@@ -5,12 +5,21 @@
   "compatibility_date": "2026-04-01",
   "compatibility_flags": ["nodejs_compat_v2"],
   "main": "src/server.ts",
+  "routes": [
+    { "pattern": "starthn.ba/*", "zone_name": "starthn.ba" },
+    { "pattern": "www.starthn.ba/*", "zone_name": "starthn.ba" }
+  ],
   "assets": {
     "binding": "ASSETS"
   },
   "vars": {
     "API_ORIGIN": "https://starthn-api-prod.azurewebsites.net",
-    "AZURE_BLOB_ORIGIN": "https://starthnwebprod.blob.core.windows.net"
+    "AZURE_BLOB_ORIGIN": "https://starthnwebprod.blob.core.windows.net",
+    "D1_PRIMARY": "true",
+    "ADMIN_EMAILS": "hamza.abdagic@horizon-tech.io,selma.hadzic@starthn.ba",
+    "MAINTENANCE_MODE": "false",
+    "JWT_ISSUER": "starthn",
+    "JWT_AUDIENCE": "starthn-frontend"
     // JWT_SECRET is set via `npx wrangler secret put JWT_SECRET` (not here — sensitive)
   },
   "d1_databases": [

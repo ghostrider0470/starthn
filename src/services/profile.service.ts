@@ -1,4 +1,5 @@
 import api from './api';
+import { uploadImage } from './upload.service';
 import type { SocialLinks } from './author.service';
 
 interface ProfileData {
@@ -80,16 +81,9 @@ class ProfileService {
   }
 
   async uploadAvatar(file: File): Promise<{ avatarUrl: string }> {
-    const formData = new FormData();
-    formData.append('file', file);
-    
-    const response = await api.post('/user/avatar', formData, {
-      headers: {
-        'Content-Type': 'multipart/form-data',
-      },
-    });
-    
-    return response.data;
+    const result = await uploadImage(file, 'avatars');
+    await api.put('/user/profile', { avatarUrl: result.path });
+    return { avatarUrl: result.url };
   }
 
   async removeAvatar(): Promise<void> {

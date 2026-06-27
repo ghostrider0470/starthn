@@ -28,8 +28,8 @@ const SERVICE_IMAGES: Partial<
     interior: '/pages/tax-consulting-interior.jpg',
   },
   virtualCfo: {
-    hero: '/pages/virtual-cfo-hero.jpg',
-    interior: '/pages/virtual-cfo-interior.jpg',
+    hero: '/pages/virtual-cfo-hero.webp',
+    interior: '/pages/virtual-cfo-interior.webp',
   },
   businessConsulting: {
     hero: '/pages/business-consulting-hero.jpg',
@@ -40,7 +40,7 @@ const SERVICE_IMAGES: Partial<
     interior: '/pages/financial-reporting-interior.jpg',
   },
   education: {
-    hero: '/pages/education-hero.jpg',
+    hero: '/pages/education-hero.webp',
     interior: '/pages/education-interior.jpg',
   },
 }

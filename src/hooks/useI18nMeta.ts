@@ -125,22 +125,6 @@ const SEO_ROUTE_MAP: Partial<Record<string, SeoMetaTranslation>> = {
     titleKey: 'seo:pages.services.title',
     descriptionKey: 'seo:pages.services.description',
   },
-  '/innovation-lab': {
-    titleKey: 'seo:pages.innovationLab.title',
-    descriptionKey: 'seo:pages.innovationLab.description',
-  },
-  '/innovation-lab/ai-systems': {
-    titleKey: 'seo:pages.innovationLabAiSystems.title',
-    descriptionKey: 'seo:pages.innovationLabAiSystems.description',
-  },
-  '/innovation-lab/nlp': {
-    titleKey: 'seo:pages.innovationLabNlp.title',
-    descriptionKey: 'seo:pages.innovationLabNlp.description',
-  },
-  '/innovation-lab/genetic-algorithm': {
-    titleKey: 'seo:pages.innovationLabGeneticAlgorithm.title',
-    descriptionKey: 'seo:pages.innovationLabGeneticAlgorithm.description',
-  },
   '/unauthorized': {
     titleKey: 'seo:pages.unauthorized.title',
     descriptionKey: 'seo:pages.unauthorized.description',
@@ -246,14 +230,6 @@ function resolveSeoMeta(normalizedPath: string): ResolvedSeoMeta {
     }
   }
 
-  if (normalizedPath.startsWith('/innovation-lab')) {
-    return {
-      titleKey: 'seo:pages.innovationLab.title',
-      descriptionKey: 'seo:pages.innovationLab.description',
-      robots,
-    }
-  }
-
   if (normalizedPath.startsWith('/auth/callback')) {
     return {
       titleKey: 'seo:pages.authCallback.title',
@@ -277,7 +253,6 @@ const BREADCRUMB_SEGMENT_LABEL_KEY: Record<string, string> = {
   'case-studies': 'nav.caseStudies.title',
   blog: 'nav.blog.title',
   services: 'nav.solutions',
-  'innovation-lab': 'nav.innovationLab',
   education: 'nav.education.title',
   support: 'nav.support.title',
 }

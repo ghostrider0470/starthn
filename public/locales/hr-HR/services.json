@@ -1,0 +1,384 @@
+{
+  "common": {
+    "fallbackTitle": "Služba",
+    "service": "Služba",
+    "overview": "Pregled",
+    "scope": "Što pokrivamo",
+    "process": "Kako radimo",
+    "outputs": "Rezultati",
+    "nextStep": "Sljedeći korak",
+    "learnMore": "Saznajte više",
+    "ctaPrimary": "Započnite razgovor",
+    "ctaSecondary": "Pogledajte sve usluge",
+    "backToServices": "Povratak u službu"
+  },
+  "index": {
+    "overline": "Početak usluga HN",
+    "title": "Računovodstvena podrška za svaku fazu poslovanja.",
+    "description": "Šest jasnih područja usluga obuhvaća knjigovodstvo, porezne obveze, izvještavanje, savjetovanje i obrazovanje, što vašem poslovanju daje bolju kontrolu.",
+    "introOverline": "Usluge",
+    "introTitle": "Jedan tim, jasna financijska slika",
+    "introBody": "Start HN povezuje praktično knjigovodstvo, porezno praćenje, financijsko izvještavanje i savjetodavnu podršku kako bi vlasnici i uprava mogli donositi odluke na temelju pouzdanih podataka, a ne masovne dokumentacije.",
+    "cta": {
+      "title": "Niste sigurni koju uslugu trebate?",
+      "description": "Recite nam kako vaše poslovanje trenutno funkcionira i predložit ćemo vam odgovarajući opseg podrške: redovito knjigovodstvo, detaljno savjetovanje ili fokusirano savjetovanje.",
+      "button": "Dogovorite konzultacije"
+    }
+  },
+  "items": {
+    "bookkeeping": {
+      "label": "01",
+      "title": "Računovodstvo i knjigovodstvo",
+      "shortDescription": "Potpuna knjigovodstvena dokumentacija, evidencija o plaćama, PDV-u i završna izvješća za obrte i tvrtke.",
+      "heroDescription": "Pouzdane knjige su operativna osnova svakog poslovanja. Vaše evidencije vodimo točno, ažurno i spremno za porezne rokove, banke i upravljačke odluke.",
+      "overviewTitle": "Dnevni zapisi bez dnevnog opterećenja",
+      "overview": "Organiziramo cijeli računovodstveni ciklus: primanje dokumentacije, knjiženje računa i troškova, izračun plaća i doprinosa, evidenciju PDV-a, pravne prijave i godišnje zatvaranje. Cilj je jednostavan: uredni zapisi, jasne odgovornosti i bez iznenađenja prije rokova.",
+      "bestForTitle": "Najbolje za",
+      "bestFor": [
+        "Mala i srednja poduzeća kojima je potrebna redovita računovodstvena podrška.",
+        "Obrti i samozaposleni poslovi koji žele odgovarajuće pravne zapise",
+        "Timovi koji prelaze s drugog računovođe",
+        "Vlasnici koji žele jasne mjesečne brojke, a ne samo godišnja izvješća"
+      ],
+      "detailsTitle": "Opseg računovodstva",
+      "details": [
+        {
+          "title": "Postavljanje i preuzimanje knjiga",
+          "description": "Pregledavamo registraciju, postojeće evidencije, početna stanja, podatke o plaćama i raspored obveza kako bismo pokrenuli uslugu."
+        },
+        {
+          "title": "Mjesečne računovodstvene operacije",
+          "description": "Računi, troškovi, bankovne transakcije, plaće, doprinosi, evidencija PDV-a i redovne pravne obveze obrađuju se predvidivim mjesečnim tempom."
+        },
+        {
+          "title": "Godišnji izvještaji i godišnje zatvaranje",
+          "description": "Pripremamo završne izračune, financijske izvještaje, porezne prijave i prateću dokumentaciju kako bismo poslovanje održali usklađenim i spremnim za kontrole."
+        }
+      ],
+      "processTitle": "Predvidljiv mjesečni ritam",
+      "process": [
+        {
+          "title": "Zbirka",
+          "description": "Dokumentaciju predajete digitalno ili fizički prema dogovorenom tijeku rada."
+        },
+        {
+          "title": "Obrada",
+          "description": "Evidentiramo transakcije, izračunavamo obveze i provjeravamo evidenciju prije rokova."
+        },
+        {
+          "title": "Izvještavanje",
+          "description": "Dobivate jasne sažetke i sljedeće korake, a pitanja se rješavaju prije nego što postanu rizična."
+        }
+      ],
+      "deliverablesTitle": "Tipični rezultati",
+      "deliverables": [
+        "Mjesečni računovodstveni zapisi",
+        "PDV i porezne evidencije",
+        "Izračuni plaća i doprinosa",
+        "Godišnja financijska izvješća",
+        "Potvrde o podnošenju prijava",
+        "Redovito računovodstveno savjetovanje"
+      ],
+      "cta": {
+        "title": "Spremni za uređivanje svojih knjiga?",
+        "description": "Pregledat ćemo vaše trenutne evidencije i definirati mjesečni računovodstveni tok koji odgovara stvarnom načinu poslovanja vašeg poslovanja.",
+        "button": "Zatražite podršku za knjigovodstvo"
+      }
+    },
+    "taxConsulting": {
+      "label": "02",
+      "title": "Porezno savjetovanje",
+      "shortDescription": "Porezno praćenje, planiranje, podrška u prijavama, praćenje rokova i praktično vođenje za pojedince i pravne osobe.",
+      "heroDescription": "Porezne obveze se brzo mijenjaju, a pogreške su skupe. Pomažemo vam razumjeti što je primjenjivo, što je potrebno i kako planirati unutar propisa.",
+      "overviewTitle": "Porezni savjeti prije nego što nastane problem",
+      "overview": "Naša porezna podrška povezuje usklađenost i planiranje: pratimo rokove, pregledavamo obveze, objašnjavamo regulatorne promjene, pripremamo prijave i savjetujemo prije nego što odluke stvore nepotrebne troškove ili rizik.",
+      "bestForTitle": "Najbolje za",
+      "bestFor": [
+        "Tvrtke kojima je potrebna redovita porezna kontrola",
+        "Vlasnici koji donose odluke o ulaganjima, zaposlenju ili cijenama",
+        "Fizičke osobe i poduzetnici s obvezama izvještavanja",
+        "Tvrtke koje žele smanjiti kazne i naknadne korekcije"
+      ],
+      "detailsTitle": "Opseg poreznog savjetovanja",
+      "details": [
+        {
+          "title": "Pregled zadataka",
+          "description": "Pregledavamo aktivne registracije, rane registracije, izloženost PDV-u i plaćama te nadolazeće rokove."
+        },
+        {
+          "title": "Podrška za usklađenost i izvještavanje",
+          "description": "Pripremamo i pregledavamo porezne prijave, pratimo rokove i pomažemo ispraviti propuste prije nego što postanu kazne."
+        },
+        {
+          "title": "Planiranje i podrška odlučivanju",
+          "description": "Objašnjavamo porezne implikacije poslovnih odluka, odbitaka, organizacijskih promjena, zapošljavanja, plaćanja i drugih uobičajenih financijskih pitanja."
+        }
+      ],
+      "processTitle": "Porezna podrška koja ide korak naprijed",
+      "process": [
+        {
+          "title": "Procjena",
+          "description": "Mapiramo trenutnu poreznu poziciju i identificiramo otvorene obveze ili točke rizika."
+        },
+        {
+          "title": "Plan",
+          "description": "Definiramo rokove, odgovornosti i pravne opcije za porezno planiranje."
+        },
+        {
+          "title": "Održavanje",
+          "description": "Usklađujemo izvještaje i savjete s vašim poslovnim aktivnostima i regulatornim promjenama."
+        }
+      ],
+      "deliverablesTitle": "Tipični rezultati",
+      "deliverables": [
+        "Kalendar poreznih obveza",
+        "Smjernice za PDV i porez na dohodak/dobit",
+        "Smjernice za doprinose plaće",
+        "Pregled i ispravci prijava",
+        "Bilješke o poreznom planiranju",
+        "Rok i podrška u usklađenosti"
+      ],
+      "cta": {
+        "title": "Trebate jasnoću oko svojih poreznih obveza?",
+        "description": "Pošaljite nam svoju trenutnu situaciju i pomoći ćemo vam razumjeti što je potrebno, što se može poboljšati i koji je sljedeći korak.",
+        "button": "Pričaj o poreznoj potpori"
+      }
+    },
+    "virtualCfo": {
+      "label": "03",
+      "title": "Virtualni CFO",
+      "shortDescription": "Viši financijski uvid bez stalnog financijskog direktora: novčani tok, proračuni, KPI-jevi i podrška pri odlučivanju.",
+      "heroDescription": "Virtualni CFO daje vlasnicima i menadžmentu jasniji uvid u financijsko zdravlje, novčani tok, profitabilnost i strateške odluke.",
+      "overviewTitle": "Financijsko upravljanje na fleksibilnoj osnovi.",
+      "overview": "Prevodimo računovodstvene podatke u praktične menadžerske uvide: proračune, prognoze, planiranje novčanog toka, analizu profitabilnosti i financijske pokazatelje koji pokazuju gdje je tvrtka snažna i gdje je potrebna pažnja.",
+      "bestForTitle": "Najbolje za",
+      "bestFor": [
+        "Rastuće tvrtke kojima treba više od samog knjigovodstva.",
+        "Vlasnici koji pripremaju odluke o financiranju ili ulaganju",
+        "Timovi bez internog financijskog direktora",
+        "Menadžeri koji žele pretvoriti mjesečne brojke u akciju"
+      ],
+      "detailsTitle": "Uloga virtualnog financijskog direktora",
+      "details": [
+        {
+          "title": "Pregled financijskog zdravlja",
+          "description": "Analiziramo profitabilnost, likvidnost, strukturu troškova, potraživanja, obveze i ključne rizike u trenutnoj financijskoj slici."
+        },
+        {
+          "title": "Planiranje i prognoziranje",
+          "description": "Pripremamo proračune, prognoze novčanog toka, scenarije i pretpostavke koje olakšavaju procjenu menadžerskih odluka."
+        },
+        {
+          "title": "Menadžersko izvještavanje",
+          "description": "Definiramo KPI-jeve i formate izvještaja koji povezuju financijske podatke s odlukama o rastu, troškovima, cijenama i operacijama."
+        }
+      ],
+      "processTitle": "Od zapisa do odluka",
+      "process": [
+        {
+          "title": "Dijagnoza",
+          "description": "Pregledavamo postojeća izvješća i identificiramo financijska pitanja na koja menadžment treba odgovore."
+        },
+        {
+          "title": "Modeliranje",
+          "description": "Izrađujemo praktične proračune, prognoze i scenarije na temelju realnih poslovnih pretpostavki."
+        },
+        {
+          "title": "Konzultantski rad",
+          "description": "Redovito objašnjavamo rezultate, rizike i preporučene sljedeće korake."
+        }
+      ],
+      "deliverablesTitle": "Tipični rezultati",
+      "deliverables": [
+        "Mjesečno izvješće o upravljanju",
+        "Prognoza novčanog toka",
+        "Analiza proračuna i odstupanja",
+        "Struktura KPI izvještaja",
+        "Analiza profitabilnosti",
+        "Savjetodavni sastanci"
+      ],
+      "cta": {
+        "title": "Trebate li jasnoću na razini CFO-a?",
+        "description": "Možemo pretvoriti vaše računovodstvene podatke u menadžerski pregled koji podržava rast, financiranje i bolje odluke.",
+        "button": "Pričajte o virtualnom financijskom direktoru"
+      }
+    },
+    "businessConsulting": {
+      "label": "04",
+      "title": "Poslovno savjetovanje",
+      "shortDescription": "Praktični poslovni savjeti za organizaciju, rast, interne procese, troškove, cijene i operativne odluke.",
+      "heroDescription": "Dobar računovodstveni račun pokazuje što se dogodilo. Dobra konzultacija pomaže vam odlučiti što dalje treba učiniti.",
+      "overviewTitle": "Praktične smjernice temeljene na brojevima",
+      "overview": "Podržavamo vlasnike i menadžere u financijskim i operativnim odlukama: poslovnoj organizaciji, poboljšanju procesa, kontroli troškova, određivanju cijena, disciplini naplate, internoj dokumentaciji i planiranju rasta.",
+      "bestForTitle": "Najbolje za",
+      "bestFor": [
+        "Nova poduzeća koja uspostavljaju financijske procese",
+        "Tvrtke koje poboljšavaju interne kontrole i protok dokumentacije",
+        "Vlasnici koji procjenjuju troškove, cijene ili širenje",
+        "Timovi koji žele savjete vezane uz računovodstvenu stvarnost"
+      ],
+      "detailsTitle": "Opseg poslovnog savjetovanja",
+      "details": [
+        {
+          "title": "Organizacija i uspostava poslovanja",
+          "description": "Pomažemo definirati tijek dokumentacije, odgovornosti izvještavanja, računovodstvene rutine i praktične kontrole u svakodnevnom radu."
+        },
+        {
+          "title": "Podrška financijskim odlukama.",
+          "description": "Pregledavamo troškove, marže, cijene, novčane potrebe i planirana ulaganja kako bi odluke imale mjerljiv učinak."
+        },
+        {
+          "title": "Poboljšanje procesa",
+          "description": "Identificiramo gdje se dokumentacija, odobrenja, izvještavanje ili naplata mogu pojednostaviti i učiniti pouzdanijima."
+        }
+      ],
+      "processTitle": "Konzultacije bez prazne teorije",
+      "process": [
+        {
+          "title": "Preslikavanje",
+          "description": "Mapiramo postojeći proces, dokumente i financijske probleme."
+        },
+        {
+          "title": "Prioriteti",
+          "description": "Ističemo promjene koje donose najbržu i najvažniju poslovnu vrijednost."
+        },
+        {
+          "title": "Primjena",
+          "description": "Definiramo praktične korake, odgovornosti i daljnje postupke."
+        }
+      ],
+      "deliverablesTitle": "Tipični rezultati",
+      "deliverables": [
+        "Pregled poslovnih procesa",
+        "Bilješke o troškovima i maržama",
+        "Smjernice za određivanje cijena i novčani tok",
+        "Preporuke za unutarnje kontrole.",
+        "Postavljanje toka dokumentacije",
+        "Savjetodavni sastanci s vlasnikom"
+      ],
+      "cta": {
+        "title": "Trebate praktičan pregled svog poslovanja?",
+        "description": "Pogledat ćemo vaše brojke i operativni lijevak, a zatim preporučiti promjene koje najviše poboljšavaju kontrolu i profitabilnost.",
+        "button": "Zatražite konzultacije"
+      }
+    },
+    "financialReporting": {
+      "label": "05",
+      "title": "Financijsko izvještavanje",
+      "shortDescription": "Jasna pravna i upravljačka izvješća koja pomažu u razumijevanju rezultata, obveza i financijskih trendova.",
+      "heroDescription": "Izvještaji ne moraju biti nerazumljive datoteke koje samo ispunjavaju rok. Moraju znati što se događa u poslovanju.",
+      "overviewTitle": "Izvještaji koje uprava zapravo koristi",
+      "overview": "Pripremamo pravna izvješća, sažetke upravljanja, financijske izvještaje i analitičke formate koji olakšavaju razumijevanje prihoda, rashoda, dobiti, likvidnosti i obveza.",
+      "bestForTitle": "Najbolje za",
+      "bestFor": [
+        "Tvrtke kojima je potrebna jasnija mjesečna izvještavanja",
+        "Menadžeri koji pripremaju dokumentaciju za banke, partnere ili investitore",
+        "Vlasnici koji žele stalno pratiti dobit i gotovinu",
+        "Poduzeća koja trebaju uskladiti pravne i upravljačke stavove"
+      ],
+      "detailsTitle": "Opseg izvještavanja",
+      "details": [
+        {
+          "title": "Zakonsko financijsko izvještavanje",
+          "description": "Pripremamo zakonski propisane financijske izvještaje i prateće preglede na temelju pravilnih računovodstvenih evidencija."
+        },
+        {
+          "title": "Menadžersko izvještavanje",
+          "description": "Izrađujemo sažete mjesečne ili kvartalne preglede koji objašnjavaju rezultate, obveze, marže i trendove."
+        },
+        {
+          "title": "Financijska analiza",
+          "description": "Brojke tumačimo kroz pokazatelje, usporedbe i komentare koji podržavaju odluke, a ne samo zapise."
+        }
+      ],
+      "processTitle": "Jasan ciklus izvještavanja",
+      "process": [
+        {
+          "title": "Struktura",
+          "description": "Definiramo na koja pitanja izvještaj treba odgovoriti i tko će ga koristiti."
+        },
+        {
+          "title": "Priprema",
+          "description": "Prikupljamo točne podatke iz računovodstvenih evidencija i prateće dokumentacije."
+        },
+        {
+          "title": "Objašnjenje",
+          "description": "Sažimamo trendove, rizike i sljedeće korake jednostavnim jezikom."
+        }
+      ],
+      "deliverablesTitle": "Tipični rezultati",
+      "deliverables": [
+        "Financijski izvještaji",
+        "Mjesečni sažeci upravljanja",
+        "Analiza dobiti i troškova",
+        "Pregled gotovine i obveza",
+        "Paketi izvještaja za banke ili partnere",
+        "Završna podrška izvještavanju"
+      ],
+      "cta": {
+        "title": "Želite izvještaje koji su lakši za korištenje?",
+        "description": "Možemo pretvoriti računovodstvene podatke u jasan format za menadžment, partnere, banke ili interno planiranje.",
+        "button": "Poboljšajte izvještavanje"
+      }
+    },
+    "education": {
+      "label": "06",
+      "title": "Obrazovanje i tečajevi",
+      "shortDescription": "Radionice iz računovodstva, poreza i financija koje pomažu vlasnicima i timovima razumjeti odgovornosti i donijeti bolje odluke.",
+      "heroDescription": "Bolja financijska pismenost smanjuje pogreške, poboljšava internu komunikaciju i pomaže timovima da učinkovitije surađuju s računovođama.",
+      "overviewTitle": "Znanje koje olakšava svakodnevni rad",
+      "overview": "Organiziramo praktične edukacije za vlasnike, menadžere i administrativne timove: osnove računovodstva, pripremu dokumentacije, porezne rokove, osnove plaća, tumačenje izvještaja i bolju suradnju s računovodstvom.",
+      "bestForTitle": "Najbolje za",
+      "bestFor": [
+        "Vlasnici koji žele razumjeti svoje obveze",
+        "Administrativno osoblje koje obrađuje dokumente i račune",
+        "Timovi koji uvode nove procese izvještavanja",
+        "Menadžeri koji žele samouvjerenije čitati financijske izvještaje"
+      ],
+      "detailsTitle": "Opseg obrazovanja",
+      "details": [
+        {
+          "title": "Osnove računovodstva",
+          "description": "Objašnjavamo zapise, dokumente i rokove koji utječu na svakodnevno poslovanje."
+        },
+        {
+          "title": "Porezi i plaće u praksi",
+          "description": "Pokrivamo česte obveze, redovite rokove, osnove doprinosa i praktične rizike."
+        },
+        {
+          "title": "Financijsko izvještavanje",
+          "description": "Pomažemo timovima razumjeti financijske izvještaje, menadžerske preglede i pitanja na koja ti izvještaji trebaju odgovoriti."
+        }
+      ],
+      "processTitle": "Obrazovanje izgrađeno oko stvarnog rada",
+      "process": [
+        {
+          "title": "Definicija",
+          "description": "Mi određujemo što tim treba razumjeti, a koje pogreške treba spriječiti."
+        },
+        {
+          "title": "Obrazovanje",
+          "description": "Održavamo praktične radionice s primjerima bliskim vašem svakodnevnom radu."
+        },
+        {
+          "title": "Primjena",
+          "description": "Tim dobiva kontrolne liste, rutine i jasnije odgovornosti."
+        }
+      ],
+      "deliverablesTitle": "Tipični rezultati",
+      "deliverables": [
+        "Radionice i kratki tečajevi",
+        "Kontrolni popisi za računovodstveni proces",
+        "Pregled poreznih rokova",
+        "Smjernice za pripremu dokumentacije",
+        "Sesije za čitanje izvještaja",
+        "Pitanja i odgovori za momčad"
+      ],
+      "cta": {
+        "title": "Želite da vaš tim bolje razumije brojeve?",
+        "description": "Možemo pripremiti fokusiranu radionicu o vašem računovodstvenom procesu, izvještavanju ili često postavljanim pitanjima o porezima.",
+        "button": "Planirajte svoj trening"
+      }
+    }
+  }
+}

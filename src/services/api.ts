@@ -106,6 +106,7 @@ async function request<T>(
   _retry = false,
 ): Promise<ApiResponse<T>> {
   const isAuthEndpoint = path.startsWith('/auth/');
+  const authHeaderAllowed = !isAuthEndpoint || path === '/auth/revoke-token';
   const token = getAccessToken();
 
   const headers: Record<string, string> = {};
@@ -115,8 +116,8 @@ async function request<T>(
     headers['Content-Type'] = 'application/json';
   }
 
-  // Auth header (skip for /auth/ endpoints)
-  if (token && !isAuthEndpoint) {
+  // Auth header (skip public /auth/ endpoints, but revoke-token needs it)
+  if (token && authHeaderAllowed) {
     headers['X-Authorization'] = `Bearer ${token}`;
   }
 

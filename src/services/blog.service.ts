@@ -1,7 +1,6 @@
 import api from './api'
 import type { BlogPost } from '@/data/blog-posts'
-import { toTranslatorLocaleCode } from '@/lib/i18n-utils'
-import { convertToWebpVariants } from '@/lib/image-convert'
+import { uploadImage as uploadImageToR2 } from './upload.service'
 
 // Admin-only fields extending the public BlogPost type
 export interface AdminBlogPost extends BlogPost {
@@ -16,6 +15,7 @@ export interface AdminBlogPost extends BlogPost {
 
 export interface CreateBlogPostDto {
   slug?: string
+  lang?: string
   title: string
   excerpt: string
   publishedAt: string
@@ -32,6 +32,7 @@ export interface CreateBlogPostDto {
 
 export interface UpdateBlogPostDto {
   slug?: string
+  lang?: string
   title?: string
   excerpt?: string
   publishedAt?: string
@@ -96,19 +97,17 @@ class BlogService {
   // Public endpoints
 
   async fetchBlogPosts(lang?: string): Promise<BlogPost[]> {
-    const translatorCode = lang && lang !== 'en-US' ? toTranslatorLocaleCode(lang) : undefined
-    const params = translatorCode ? { lang: translatorCode } : {}
+    const params = lang && lang !== 'en-US' ? { lang } : {}
     const response = await api.get<BlogPost[]>('/blog', { params })
     return response.data
   }
 
   async fetchBlogPostsPaged(lang?: string, query?: BlogQueryParams): Promise<PaginatedBlogResponse> {
-    const translatorCode = lang && lang !== 'en-US' ? toTranslatorLocaleCode(lang) : undefined
     const params: Record<string, string | number> = {
       page: query?.page ?? 1,
       pageSize: query?.pageSize ?? 9,
     }
-    if (translatorCode) params.lang = translatorCode
+    if (lang && lang !== 'en-US') params.lang = lang
     if (query?.category) params.category = query.category
     if (query?.subcategory) params.subcategory = query.subcategory
     if (query?.tag) params.tag = query.tag
@@ -118,8 +117,7 @@ class BlogService {
   }
 
   async fetchBlogPostBySlug(slug: string, lang?: string): Promise<BlogPost> {
-    const translatorCode = lang && lang !== 'en-US' ? toTranslatorLocaleCode(lang) : undefined
-    const params = translatorCode ? { lang: translatorCode } : {}
+    const params = lang && lang !== 'en-US' ? { lang } : {}
     const response = await api.get<BlogPost>(`/blog/${slug}`, { params })
     return response.data
   }
@@ -131,24 +129,9 @@ class BlogService {
 
   // Image upload
 
-  async uploadImage(file: File, replaceUrl?: string): Promise<{ url: string }> {
-    const formData = new FormData()
-    formData.append('original', file, file.name)
-    if (replaceUrl) formData.append('replaceUrl', replaceUrl)
-
-    try {
-      const variants = await convertToWebpVariants(file)
-      for (const v of variants) {
-        formData.append(`variant_${v.width}`, v.blob, `${file.name}.w${v.width}.webp`)
-      }
-    } catch (err) {
-      console.warn('[upload] client-side webp conversion failed, uploading original only', err)
-    }
-
-    const response = await api.post<{ url: string }>('/manage/blog/upload-image', formData, {
-      headers: { 'Content-Type': 'multipart/form-data' },
-    })
-    return response.data
+  async uploadImage(file: File): Promise<{ url: string }> {
+    const result = await uploadImageToR2(file, 'blog-images')
+    return { url: result.url }
   }
 
   // Admin endpoints
@@ -184,10 +167,14 @@ class BlogService {
 
   // Translation endpoints
 
-  async translateBlogPost(slug: string, languages: string[]): Promise<Record<string, BlogPostTranslation>> {
+  async translateBlogPost(
+    slug: string,
+    targets: { localeCode: string; translatorCode: string }[],
+    postData?: { sourceLocale: string; title?: string; excerpt?: string; content?: string[] },
+  ): Promise<Record<string, BlogPostTranslation>> {
     const response = await api.post<Record<string, BlogPostTranslation>>(
       `/manage/blog/${slug}/translate`,
-      { languages },
+      { targets, ...postData },
     )
     return response.data
   }
@@ -211,14 +198,6 @@ class BlogService {
     await api.delete(`/manage/blog/${slug}/translations/${lang}`)
   }
 
-  async syncToEdge(slug: string): Promise<void> {
-    await api.post(`/manage/blog/${slug}/sync`)
-  }
-
-  async syncAllToEdge(): Promise<{ synced: number }> {
-    const response = await api.post<{ synced: number }>('/manage/blog/sync-all')
-    return response.data
-  }
 }
 
 export default new BlogService()

@@ -5,6 +5,7 @@ import type { CategoryDto } from '../types/dtos'
 
 export interface CreateCategoryInput {
   slug: string
+  lang?: string
   label: string
   parentId?: string | null
   translations?: Record<string, string>
@@ -30,6 +31,7 @@ export class CategoryRepository {
       return {
         id: c.id,
         slug: c.slug,
+        lang: c.lang,
         label: (locale && tr[locale]) ? tr[locale] : c.label,
         parentId: c.parentId,
         translations: tr,
@@ -44,6 +46,7 @@ export class CategoryRepository {
     await this.db.insert(categories).values({
       id,
       slug: input.slug,
+      lang: input.lang ?? 'en-US',
       label: input.label,
       parentId: input.parentId ?? null,
       createdAt: now,
@@ -72,6 +75,7 @@ export class CategoryRepository {
 
     const updates: Record<string, any> = { updatedAt: new Date().toISOString() }
     if (input.slug !== undefined) updates.slug = input.slug
+    if (input.lang !== undefined) updates.lang = input.lang
     if (input.label !== undefined) updates.label = input.label
     if (input.parentId !== undefined) updates.parentId = input.parentId
 
@@ -110,6 +114,6 @@ export class CategoryRepository {
     const trans = await this.db.select().from(categoryTranslations).where(eq(categoryTranslations.categoryId, id))
     const tr: Record<string, string> = {}
     for (const t of trans) tr[t.locale] = t.label
-    return { id: c.id, slug: c.slug, label: c.label, parentId: c.parentId, translations: tr }
+    return { id: c.id, slug: c.slug, lang: c.lang, label: c.label, parentId: c.parentId, translations: tr }
   }
 }

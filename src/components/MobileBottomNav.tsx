@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { Link, useLocation } from '@tanstack/react-router'
-import { BarChart3, BookOpen, BriefcaseBusiness, Home, Mail, Sparkles } from 'lucide-react'
+import { BarChart3, BookOpen, BriefcaseBusiness, Home, Mail } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import type { ReactNode } from 'react'
 import { cn } from '@/lib/utils'
@@ -42,16 +42,6 @@ export function MobileBottomNav() {
               label: t('mobileNav.caseStudies'),
               href: '/case-studies',
               activePrefix: '/case-studies',
-            },
-          ]
-        : []),
-      ...(featureFlags.technicalResources
-        ? [
-            {
-              icon: <Sparkles className="h-6 w-6" />,
-              label: t('mobileNav.aiSystems'),
-              href: '/innovation-lab/ai-systems',
-              activePrefix: '/innovation-lab',
             },
           ]
         : []),

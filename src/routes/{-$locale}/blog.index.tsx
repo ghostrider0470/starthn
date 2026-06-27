@@ -18,7 +18,7 @@ import { StandardCard } from '@/components/ui/standard-card'
 import { useBlogPostsPaged } from '@/hooks/useBlogQueries'
 import { usePublicCategories } from '@/hooks/useCategoryQueries'
 import { usePublicTags } from '@/hooks/useTagQueries'
-import { localizeBlogCategory, localizeBlogTag, localizeBlogReadTime } from '@/lib/blog-i18n'
+import { formatBlogPublishedDate, localizeBlogCategory, localizeBlogTag, localizeBlogReadTime } from '@/lib/blog-i18n'
 import { designSystem } from '@/lib/design-system'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
@@ -76,16 +76,6 @@ export const Route = createFileRoute('/{-$locale}/blog/')({
   pendingComponent: BlogPendingPage,
   validateSearch: blogSearchSchema,
 })
-
-// ── Helpers ──────────────────────────────────────────────────────────────────
-
-function formatPublishedDate(date: string, locale: string): string {
-  return new Date(date).toLocaleDateString(locale, {
-    month: 'long',
-    day: 'numeric',
-    year: 'numeric',
-  })
-}
 
 // ── Page ─────────────────────────────────────────────────────────────────────
 
@@ -181,9 +171,9 @@ function BlogIndexPage() {
   const hasActiveFilters =
     selectedCategory !== 'All' || !!selectedSubcategory || !!selectedTag || !!searchQuery.trim()
 
-  // Featured post is the first one returned by the API (sorted by isFeatured desc, then date desc)
-  const featuredPost = posts[0] ?? null
-  const remainingPosts = posts.slice(1)
+  // Prefer the explicitly featured post; fall back to most recent
+  const featuredPost = posts.find((p) => p.isFeatured) ?? posts[0] ?? null
+  const remainingPosts = posts.filter((p) => p !== featuredPost)
 
   // ── Pagination helpers ────────────────────────────────────────────────────
 
@@ -581,6 +571,20 @@ function BlogIndexPage() {
                           currentLocale,
                         )}
                       </Badge>
+                      {featuredPost.subcategory && (
+                        <Badge variant="outline">
+                          {localizeBlogCategory(
+                            categories,
+                            featuredPost.subcategory,
+                            currentLocale,
+                          )}
+                        </Badge>
+                      )}
+                      {(featuredPost.tags ?? []).slice(0, 3).map((tag) => (
+                        <Badge key={tag} variant="outline" className="text-muted-foreground">
+                          {localizeBlogTag(tags, tag, currentLocale)}
+                        </Badge>
+                      ))}
                     </div>
 
                     <h2
@@ -609,12 +613,11 @@ function BlogIndexPage() {
                         'mb-5',
                       )}
                     >
-                      {featuredPost.author} ·{' '}
-                      {formatPublishedDate(
-                        featuredPost.publishedAt,
-                        currentLocale,
-                      )}{' '}
-                      · {localizeBlogReadTime(t, featuredPost.readTime)}
+                      {featuredPost.author}
+                      {featuredPost.publishedAt && (
+                        <> · {formatBlogPublishedDate(featuredPost.publishedAt, currentLocale)}</>
+                      )}
+                      {' '}· {localizeBlogReadTime(t, featuredPost.readTime)}
                     </p>
 
                     <Button asChild className="w-fit">

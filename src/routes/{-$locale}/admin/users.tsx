@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { img } from '@/lib/image'
 import { useState, useEffect, useMemo } from 'react'
 import { useAdminUsers, useUpdateUserRoles, useUpdateUserStatus, useUpdateUserAuthorProfile } from '@/hooks/useUserManagementQueries'
 import type { AdminUser } from '@/services/user-management.service'
@@ -49,7 +50,7 @@ function UserAvatar({ user, size = 'sm' }: { user: AdminUser; size?: 'sm' | 'lg'
   if (user.avatarUrl) {
     return (
       <img
-        src={user.avatarUrl}
+        src={img(user.avatarUrl, { width: 96, format: 'auto' })}
         alt={`${user.firstName} ${user.lastName}`}
         className={cn('rounded-full object-cover shrink-0', dim)}
         width={48}

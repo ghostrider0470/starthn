@@ -16,13 +16,15 @@ describe('public SEO files', () => {
     expect(robots).not.toMatch(/Disallow:\s*\/\*\/careers\b/)
   })
 
-  it('points crawlers at the Start HN sitemap origin', () => {
+  it('points crawlers at the www Start HN sitemap origin', () => {
+    // The sitemap is generated dynamically by the Worker (see src/server/sitemap.ts),
+    // so there is no static public/sitemap.xml to assert against. robots.txt must
+    // point at the www host to match the canonical/og:url origin (the apex 301s to
+    // www, so an apex sitemap URL would add a needless redirect hop for crawlers).
     const robots = readPublicFile('robots.txt')
-    const sitemap = readPublicFile('sitemap.xml')
 
-    expect(robots).toContain('Sitemap: https://starthn.ba/sitemap.xml')
-    expect(sitemap).toContain('https://starthn.ba/sitemap-en-US.xml')
-    expect(sitemap).not.toContain('horizon-tech.io')
+    expect(robots).toContain('Sitemap: https://www.starthn.ba/sitemap.xml')
+    expect(robots).not.toContain('horizon-tech.io')
   })
 
   it('publishes a valid llms.txt file', () => {

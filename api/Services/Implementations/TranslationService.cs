@@ -1,5 +1,6 @@
 using System.Net.Http.Json;
 using System.Text.Json.Serialization;
+using Api.DTOs.Auth;
 using Api.DTOs.Blog;
 using Api.Entities;
 using Api.Services.Interfaces;
@@ -114,7 +115,7 @@ public class TranslationService : ITranslationService
     /// exploits that to minimize API calls while staying within rate limits.
     /// </summary>
     public async Task<Dictionary<string, BlogPostTranslation>> TranslateBlogPostBatchAsync(
-        BlogPostEntity post, List<string> targetLangs)
+        BlogPostEntity post, List<string> targetLangs, string sourceLang = "en")
     {
         var results = new Dictionary<string, BlogPostTranslation>();
         if (targetLangs.Count == 0) return results;
@@ -127,7 +128,7 @@ public class TranslationService : ITranslationService
         // Scale down target langs per request based on content size.
         var totalChars = allTexts.Sum(t => t.Length);
         var maxLangs = Math.Max(2, Math.Min(MaxTargetLanguagesPerRequest, 45000 / Math.Max(1, totalChars)));
-        _logger.LogInformation("Blog batch translate: {Chars} chars, {MaxLangs} langs/request", totalChars, maxLangs);
+        _logger.LogInformation("Blog batch translate: {Chars} chars, {MaxLangs} langs/request, source={Source}", totalChars, maxLangs, sourceLang);
 
         var langChunks = targetLangs.Chunk(maxLangs).ToList();
 
@@ -136,7 +137,7 @@ public class TranslationService : ITranslationService
             try
             {
                 var toParams = string.Join("&", chunk.Select(l => $"to={Uri.EscapeDataString(l)}"));
-                var url = $"{_endpoint}/translate?api-version=3.0&from=en&{toParams}&textType=html";
+                var url = $"{_endpoint}/translate?api-version=3.0&from={Uri.EscapeDataString(sourceLang)}&{toParams}&textType=html";
 
                 var body = allTexts.Select(t => new TranslationRequestItem { Text = t }).ToList();
 
@@ -168,22 +169,16 @@ public class TranslationService : ITranslationService
         return results;
     }
 
-    public async Task<UserPageTranslationEntity> TranslateUserPageAsync(UserEntity user, string targetLang)
+    public async Task<PageTranslation> TranslateUserPageAsync(string? bio, string? pageContent, string targetLang)
     {
-        var pageContentText = user.PageContent != null
-            ? string.Join("\n", user.PageContent.Select(c => c?.ToString() ?? ""))
-            : "";
-
-        var texts = new List<string> { user.Bio ?? "", pageContentText };
+        var texts = new List<string> { bio ?? "", pageContent ?? "" };
 
         var translated = await TranslateTextsAsync(texts, targetLang);
 
-        return new UserPageTranslationEntity
+        return new PageTranslation
         {
-            UserId = user.Id,
-            Lang = targetLang,
             Bio = translated[0],
-            PageContent = string.IsNullOrEmpty(translated[1]) ? null : new List<object> { translated[1] },
+            PageContent = translated[1],
             IsAutoTranslated = true,
             TranslatedAt = DateTime.UtcNow,
         };

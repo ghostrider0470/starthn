@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { img } from '@/lib/image'
 import { Link, useLocation } from '@tanstack/react-router'
 import {
   ArrowLeft,
@@ -168,7 +169,7 @@ export function AdminNavbar() {
                 >
                   <Avatar className="h-7 w-7 bg-primary/10">
                     {user?.avatarUrl ? (
-                      <img src={user.avatarUrl} alt={fullName} className="h-full w-full rounded-full object-cover" />
+                      <img src={img(user.avatarUrl, { width: 56, format: 'auto' })} alt={fullName} className="h-full w-full rounded-full object-cover" />
                     ) : (
                       <div className="flex items-center justify-center w-full h-full text-sm font-medium">
                         {user?.firstName?.[0]}

@@ -56,7 +56,74 @@ export interface PageSeoDocument {
 }
 
 const DEFAULT_SITE_NAME = 'Start HN'
-const DEFAULT_OG_IMAGE = '/clean-square.png'
+const DEFAULT_OG_IMAGE = '/og-image.png'
+
+/**
+ * Absolute origin used for server-rendered canonical / og:url / hreflang.
+ * Always the production www host — canonical URLs must point at production
+ * regardless of the host that served the request (apex redirects to www, and
+ * dev/preview hosts should never appear in a canonical tag).
+ */
+export const SEO_ORIGIN = 'https://www.starthn.ba'
+
+export interface LocalizedSeoHead {
+  /** Self-referencing canonical (priority locales) or en-US canonical (others). */
+  canonicalUrl: string
+  /** hreflang alternates incl. x-default; empty for non-priority locales. */
+  alternates: Array<{ hreflang: string; href: string }>
+  /** index,follow for priority locales; noindex,follow for the rest. */
+  robots: string
+}
+
+/**
+ * Computes the server-renderable SEO head signals (canonical, hreflang
+ * alternates, robots) for a page. Pure and SSR-safe — no DOM/window access —
+ * so it can run inside a route loader during SSR.
+ *
+ * Mirrors the client-side logic in {@link buildPageSeo} (see useI18nMeta):
+ * priority locales self-canonicalize and emit the full hreflang set; non-priority
+ * locales canonicalize to en-US, drop alternates, and are marked noindex.
+ *
+ * @param normalizedPath locale-stripped path (e.g. "/blog/my-post", "/")
+ */
+export function buildLocalizedSeoHead(
+  normalizedPath: string,
+  locale: string,
+): LocalizedSeoHead {
+  const isPriority = (SEO_PRIORITY_LOCALES as ReadonlyArray<string>).includes(
+    locale,
+  )
+  const canonicalLocale = isPriority ? locale : DEFAULT_LOCALE
+  const canonicalUrl = toAbsoluteUrl(
+    SEO_ORIGIN,
+    withLocalePath(normalizedPath, canonicalLocale as any),
+  )
+
+  const alternates = isPriority
+    ? [
+        ...SEO_PRIORITY_LOCALES.map((priorityLocale) => ({
+          hreflang: priorityLocale,
+          href: toAbsoluteUrl(
+            SEO_ORIGIN,
+            withLocalePath(normalizedPath, priorityLocale),
+          ),
+        })),
+        {
+          hreflang: 'x-default',
+          href: toAbsoluteUrl(
+            SEO_ORIGIN,
+            withLocalePath(normalizedPath, DEFAULT_LOCALE),
+          ),
+        },
+      ]
+    : []
+
+  return {
+    canonicalUrl,
+    alternates,
+    robots: isPriority ? 'index,follow' : 'noindex,follow',
+  }
+}
 
 function normalizePath(pathname: string): string {
   if (!pathname) return '/'

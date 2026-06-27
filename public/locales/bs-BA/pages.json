@@ -24,12 +24,36 @@
       ]
     },
     "features": [
-      { "icon": "award", "title": "Iskustvo i stručnost", "description": "Naš tim donosi desetljeće praktične prakse i certifikate iz računovodstva." },
-      { "icon": "barChart3", "title": "Detaljne analize", "description": "Prilagođeni izvještaji i budžeti pomažu vam donositi informirane odluke." },
-      { "icon": "settings2", "title": "Prilagođena rješenja", "description": "Automatiziramo rutinske zadatke koristeći cloud i moderne platforme." },
-      { "icon": "userCheck", "title": "Individualiziran pristup", "description": "Svakom klijentu pristupamo s posebnom pažnjom i predanošću, osiguravajući iskustvo na najvišem nivou." },
-      { "icon": "trendingUp", "title": "Proaktivno savjetovanje", "description": "Redovno identificiramo prilike za uštedu i optimizaciju prije nego što postanu problem." },
-      { "icon": "shieldCheck", "title": "Iskrenost i integritet", "description": "Naša komunikacija je uvijek otvorena i poštena, uz strogo poštivanje profesionalnih i etičkih standarda." }
+      {
+        "icon": "award",
+        "title": "Iskustvo i stručnost",
+        "description": "Naš tim donosi desetljeće praktične prakse i certifikate iz računovodstva."
+      },
+      {
+        "icon": "barChart3",
+        "title": "Detaljne analize",
+        "description": "Prilagođeni izvještaji i budžeti pomažu vam donositi informirane odluke."
+      },
+      {
+        "icon": "settings2",
+        "title": "Prilagođena rješenja",
+        "description": "Automatiziramo rutinske zadatke koristeći cloud i moderne platforme."
+      },
+      {
+        "icon": "userCheck",
+        "title": "Individualiziran pristup",
+        "description": "Svakom klijentu pristupamo s posebnom pažnjom i predanošću, osiguravajući iskustvo na najvišem nivou."
+      },
+      {
+        "icon": "trendingUp",
+        "title": "Proaktivno savjetovanje",
+        "description": "Redovno identificiramo prilike za uštedu i optimizaciju prije nego što postanu problem."
+      },
+      {
+        "icon": "shieldCheck",
+        "title": "Iskrenost i integritet",
+        "description": "Naša komunikacija je uvijek otvorena i poštena, uz strogo poštivanje profesionalnih i etičkih standarda."
+      }
     ],
     "cta": {
       "title": "Sarađujte sa nama",
@@ -324,9 +348,18 @@
       "button": "Pogledajte otvorena mjesta"
     },
     "perks": [
-      { "title": "Stabilno zaposlenje", "description": "Dugoročna karijera u rastućoj računovodstvenoj agenciji" },
-      { "title": "Profesionalni razvoj", "description": "Obuke, mentorstvo i podrška za certifikate" },
-      { "title": "Timska podrška", "description": "Pozitivno okruženje u kojem ćete biti saslušani" }
+      {
+        "title": "Stabilno zaposlenje",
+        "description": "Dugoročna karijera u rastućoj računovodstvenoj agenciji"
+      },
+      {
+        "title": "Profesionalni razvoj",
+        "description": "Obuke, mentorstvo i podrška za certifikate"
+      },
+      {
+        "title": "Timska podrška",
+        "description": "Pozitivno okruženje u kojem ćete biti saslušani"
+      }
     ],
     "process": {
       "title": "Kako zapošljavamo",
@@ -777,7 +810,7 @@
     },
     "categories": [
       {
-        "icon": "oblak",
+        "icon": "cloud",
         "title": "Cloud arhitektura",
         "description": "Azure, AWS i cloud-native obrasci",
         "resources": [
@@ -792,7 +825,7 @@
         ]
       },
       {
-        "icon": "mozak",
+        "icon": "brain",
         "title": "AI i mašinsko učenje",
         "description": "ML modeli, nauka o podacima i integracija AI",
         "resources": [
@@ -807,7 +840,7 @@
         ]
       },
       {
-        "icon": "Postavke",
+        "icon": "settings",
         "title": "DevOps & Platforma",
         "description": "CI/CD, infrastruktura kao kod, automatizacija",
         "resources": [
@@ -822,7 +855,7 @@
         ]
       },
       {
-        "icon": "Kod",
+        "icon": "code",
         "title": "Razvoj softvera",
         "description": ".NET, React i savremene razvojne prakse",
         "resources": [
@@ -837,7 +870,7 @@
         ]
       },
       {
-        "icon": "Baza podataka",
+        "icon": "database",
         "title": "Podaci i analitika",
         "description": "BI, skladištenje podataka i analitičke platforme",
         "resources": [

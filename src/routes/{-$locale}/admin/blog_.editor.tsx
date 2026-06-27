@@ -12,7 +12,6 @@ import {
   useTranslateBlogPost,
   useDeleteBlogTranslation,
   useUpdateBlogTranslation,
-  useSyncBlogPost,
 } from '@/hooks/useBlogQueries'
 import { useAdminCategories } from '@/hooks/useCategoryQueries'
 import blogService from '@/services/blog.service'
@@ -46,7 +45,6 @@ import {
   PenLine,
   Columns2,
   Pencil,
-  RefreshCw,
 } from 'lucide-react'
 import {
   Dialog,
@@ -68,6 +66,17 @@ import { SEO_PRIORITY_LOCALES } from '@/lib/seo'
 import { cn } from '@/lib/utils'
 
 const SEO_NON_EN: string[] = SEO_PRIORITY_LOCALES.filter((l) => l !== 'en-US')
+
+// Translator codes already covered by SEO priority locales + English
+const SEO_TRANSLATOR_CODES = new Set([
+  'en',
+  ...SEO_NON_EN.map((code) => LANGUAGE_MAP.get(code)?.translatorCode).filter(Boolean),
+])
+
+// Extra languages: all Azure Translator codes not covered by SEO locales
+const EXTRA_LANGUAGES = Object.entries(AZURE_TRANSLATOR_DISPLAY_NAMES)
+  .filter(([code]) => !SEO_TRANSLATOR_CODES.has(code))
+  .map(([code, name]) => ({ code, name }))
 
 type EditorMode = 'edit' | 'split' | 'preview'
 
@@ -136,6 +145,7 @@ function BlogEditorPage() {
   const [editingSlug, setEditingSlug] = useState(false)
   const [excerpt, setExcerpt] = useState('')
   const [readTimeMinutes, setReadTimeMinutes] = useState<number | ''>('')
+  const [lang, setLang] = useState('en-US')
   const [category, setCategory] = useState('')
   const [subcategory, setSubcategory] = useState('')
   const [selectedTags, setSelectedTags] = useState<string[]>([])
@@ -151,6 +161,13 @@ function BlogEditorPage() {
   // Editor mode: edit | split | preview
   const [editorMode, setEditorMode] = useState<EditorMode>('edit')
 
+  // Dynamic SEO locales for translations: excludes the post's source language.
+  // When source is non-English this includes en-US as a target and drops the source.
+  const seoTranslationLocales = useMemo(
+    () => SEO_PRIORITY_LOCALES.filter((l) => l !== lang) as string[],
+    [lang],
+  )
+
   // Translation state
   const [translationsOpen, setTranslationsOpen] = useState(false)
   const [selectedLangs, setSelectedLangs] = useState<string[]>(SEO_NON_EN)
@@ -160,8 +177,6 @@ function BlogEditorPage() {
   const translateMutation = useTranslateBlogPost()
   const deleteTranslationMutation = useDeleteBlogTranslation()
   const updateTranslationMutation = useUpdateBlogTranslation()
-  const syncMutation = useSyncBlogPost()
-
   // Edit translation dialog state
   const [editingTranslation, setEditingTranslation] = useState<{
     lang: string
@@ -211,15 +226,19 @@ function BlogEditorPage() {
       setTitle(editingPost.title)
       setSlug(editingPost.slug)
       setExcerpt(editingPost.excerpt)
-      const parsedMinutes = parseInt(editingPost.readTime)
-      setReadTimeMinutes(isNaN(parsedMinutes) ? '' : parsedMinutes)
+      const initHtml = contentToHtml(editingPost.content)
+      const parsedMinutes = parseInt(String(editingPost.readTime ?? ''))
+      setReadTimeMinutes(isNaN(parsedMinutes) ? calculateReadTime(initHtml) : parsedMinutes)
+      const sourceLang = editingPost.lang ?? 'en-US'
+      setLang(sourceLang)
+      setSelectedLangs(SEO_PRIORITY_LOCALES.filter((l) => l !== sourceLang) as string[])
       setCategory(editingPost.category)
       setSubcategory(editingPost.subcategory ?? '')
       setSelectedTags(editingPost.tags)
-      setPublishedAt(editingPost.publishedAt)
+      setPublishedAt(editingPost.publishedAt?.split('T')[0] ?? new Date().toISOString().split('T')[0])
       setIsPublished(editingPost.isPublished)
       setIsFeatured(editingPost.isFeatured ?? false)
-      setHtmlContent(contentToHtml(editingPost.content))
+      setHtmlContent(initHtml)
       setCoverImage(editingPost.coverImage ?? null)
       setBannerImage(editingPost.bannerImage ?? null)
     }
@@ -246,6 +265,7 @@ function BlogEditorPage() {
       const data: UpdateBlogPostDto = {
         title,
         slug,
+        lang,
         excerpt,
         author,
         readTime,
@@ -270,6 +290,7 @@ function BlogEditorPage() {
       const data: CreateBlogPostDto = {
         title,
         slug: slug || undefined,
+        lang,
         excerpt,
         readTime,
         category,
@@ -415,18 +436,6 @@ function BlogEditorPage() {
                 {t('admin.blog.featured')}
               </span>
             </div>
-            {isEditing && editSlug && (
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={() => syncMutation.mutate(editSlug)}
-                disabled={syncMutation.isPending}
-                title="Force-sync this post to Cloudflare edge"
-              >
-                <RefreshCw className={`mr-2 h-4 w-4 ${syncMutation.isPending ? 'animate-spin' : ''}`} />
-                Sync
-              </Button>
-            )}
             <Button
               onClick={handleSave}
               disabled={isMutating || !title}
@@ -490,8 +499,22 @@ function BlogEditorPage() {
                         />
                       </div>
 
-                      {/* Category */}
+                      {/* Category + source language */}
                       <div className="mb-3 flex flex-wrap items-center gap-2">
+                        <Select value={lang} onValueChange={setLang}>
+                          <SelectTrigger className="h-auto w-auto border-none bg-primary/10 px-2.5 py-0.5 text-xs font-medium shadow-none hover:bg-primary/20 focus:ring-1 focus:ring-primary/30 rounded-full text-primary">
+                            <Languages className="mr-1 h-3 w-3" />
+                            <SelectValue />
+                          </SelectTrigger>
+                          <SelectContent>
+                            {LANGUAGES.map((l) => (
+                              <SelectItem key={l.code} value={l.code}>
+                                {l.name}
+                              </SelectItem>
+                            ))}
+                          </SelectContent>
+                        </Select>
+
                         <Select
                           value={category}
                           onValueChange={(v) => {
@@ -718,6 +741,7 @@ function BlogEditorPage() {
                     excerpt={excerpt}
                     author={author}
                     category={category}
+                    subcategory={subcategory || undefined}
                     publishedAt={publishedAt}
                     readTime={`${readTimeMinutes || calculateReadTime(htmlContent)} min read`}
                     htmlContent={htmlContent}
@@ -775,7 +799,7 @@ function BlogEditorPage() {
                           <span className="text-xs text-muted-foreground font-medium">SEO priority locales</span>
                           <div className="flex items-center gap-2">
                             <button
-                              onClick={() => setSelectedLangs(SEO_NON_EN)}
+                              onClick={() => setSelectedLangs(seoTranslationLocales)}
                               className="text-xs text-primary hover:underline"
                             >
                               Select all
@@ -790,7 +814,7 @@ function BlogEditorPage() {
                           </div>
                         </div>
                         <div className="flex flex-wrap gap-1.5">
-                          {SEO_NON_EN.map((code) => {
+                          {seoTranslationLocales.map((code) => {
                             const lang = LANGUAGE_MAP.get(code)
                             const isSelected = selectedLangs.includes(code)
                             const hasTranslation = translations?.[code]
@@ -844,14 +868,11 @@ function BlogEditorPage() {
                             className="w-full rounded-md border bg-background px-3 py-1.5 text-sm focus:outline-none focus:ring-1 focus:ring-primary/30"
                           />
                           <div className="flex flex-wrap gap-1.5 max-h-28 overflow-y-auto">
-                            {LANGUAGES.filter(
+                            {EXTRA_LANGUAGES.filter(
                               (l) =>
-                                l.code !== 'en-US' &&
-                                !SEO_NON_EN.includes(l.code) &&
-                                (langSearch === '' ||
-                                  l.name.toLowerCase().includes(langSearch.toLowerCase()) ||
-                                  l.nativeName.toLowerCase().includes(langSearch.toLowerCase()) ||
-                                  l.code.toLowerCase().includes(langSearch.toLowerCase())),
+                                langSearch === '' ||
+                                l.name.toLowerCase().includes(langSearch.toLowerCase()) ||
+                                l.code.toLowerCase().includes(langSearch.toLowerCase()),
                             )
                               .slice(0, langSearch ? 100 : 30)
                               .map((lang) => {
@@ -875,12 +896,7 @@ function BlogEditorPage() {
                                       hasTranslation && !isSelected && 'border-green-500/30 bg-green-500/5',
                                     )}
                                   >
-                                    {lang.countryCode && (
-                                      <span className="text-sm leading-none">
-                                        {countryCodeToEmoji(lang.countryCode)}
-                                      </span>
-                                    )}
-                                    {lang.code}
+                                    {lang.name}
                                     {isSelected && <Check className="h-3 w-3" />}
                                     {hasTranslation && !isSelected && (
                                       <span className="h-1.5 w-1.5 rounded-full bg-green-500" />
@@ -899,9 +915,19 @@ function BlogEditorPage() {
                             onClick={() => {
                               translateMutation.mutate({
                                 slug: editingPost.slug,
-                                languages: selectedLangs,
+                                targets: selectedLangs.map((localeCode) => ({
+                                  localeCode,
+                                  translatorCode:
+                                    LANGUAGE_MAP.get(localeCode)?.translatorCode ?? localeCode,
+                                })),
+                                postData: {
+                                  sourceLocale: editingPost.lang ?? 'en-US',
+                                  title: editingPost.title,
+                                  excerpt: editingPost.excerpt,
+                                  content: editingPost.content,
+                                },
                               })
-                              setSelectedLangs(SEO_NON_EN)
+                              setSelectedLangs(seoTranslationLocales)
                               setShowAllLangs(false)
                             }}
                             disabled={translateMutation.isPending}

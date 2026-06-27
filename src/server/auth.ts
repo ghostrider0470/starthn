@@ -1,7 +1,6 @@
 /**
- * JWT verification for Cloudflare Workers using Web Crypto API.
- * Verifies HS256 tokens issued by the Azure Functions backend.
- * Token ISSUANCE stays on Azure — Workers only VERIFY.
+ * JWT signing and verification using Web Crypto API with HS256.
+ * Also handles API key validation against D1 and role-based permissions.
  */
 
 export interface JwtPayload {
@@ -31,15 +30,62 @@ function base64UrlDecode(str: string): Uint8Array {
   return bytes
 }
 
-async function importKey(secret: string): Promise<CryptoKey> {
-  const enc = new TextEncoder()
+async function importKey(secret: string, usage: KeyUsage[]): Promise<CryptoKey> {
   return crypto.subtle.importKey(
     'raw',
-    enc.encode(secret),
+    new TextEncoder().encode(secret),
     { name: 'HMAC', hash: 'SHA-256' },
     false,
-    ['verify'],
+    usage,
   )
+}
+
+function base64UrlEncode(input: Uint8Array | string): string {
+  let str: string
+  if (typeof input === 'string') {
+    str = input
+  } else {
+    str = ''
+    for (const b of input) str += String.fromCharCode(b)
+  }
+  return btoa(str).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '')
+}
+
+/** Sign a new HS256 JWT. expiresInSeconds defaults to 3600. */
+export async function signJwt(
+  payload: Omit<JwtPayload, 'exp'> & { exp?: number },
+  secret: string,
+  expiresInSeconds = 3600,
+): Promise<string> {
+  const fullPayload = {
+    ...payload,
+    exp: payload.exp ?? Math.floor(Date.now() / 1000) + expiresInSeconds,
+  }
+  const header = base64UrlEncode(JSON.stringify({ alg: 'HS256', typ: 'JWT' }))
+  const body = base64UrlEncode(JSON.stringify(fullPayload))
+  const key = await importKey(secret, ['sign'])
+  const sig = await crypto.subtle.sign(
+    'HMAC',
+    key,
+    new TextEncoder().encode(`${header}.${body}`),
+  )
+  return `${header}.${body}.${base64UrlEncode(new Uint8Array(sig))}`
+}
+
+/** Load all permissions for a user by joining user_roles → roles.permissions. */
+export async function loadUserPermissions(userId: string, db: D1Database): Promise<string[]> {
+  const rows = await db
+    .prepare(
+      `SELECT r.permissions FROM user_roles ur
+       JOIN roles r ON r.id = ur.role_id WHERE ur.user_id = ?`,
+    )
+    .bind(userId)
+    .all<{ permissions: string }>()
+  const permissions: string[] = []
+  for (const row of rows.results ?? []) {
+    try { permissions.push(...(JSON.parse(row.permissions) as string[])) } catch {}
+  }
+  return [...new Set(permissions)]
 }
 
 /** Verify an HS256 JWT and return the decoded payload, or null if invalid. */
@@ -51,7 +97,7 @@ export async function verifyJwt(token: string, secret: string): Promise<JwtPaylo
 
   try {
     // Verify signature
-    const key = await importKey(secret)
+    const key = await importKey(secret, ['verify'])
     const data = new TextEncoder().encode(`${headerB64}.${payloadB64}`)
     const signature = base64UrlDecode(signatureB64)
 

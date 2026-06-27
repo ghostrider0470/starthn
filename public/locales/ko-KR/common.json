@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "home": "홈",
+    "company": "저희 소개",
+    "solutions": "서비스",
+    "resources": "자료",
+    "contact": "연락처",
+    "about": {
+      "title": "저희 소개",
+      "description": "우리의 사명, 비전 그리고 이야기"
+    },
+    "missionVision": {
+      "title": "사명, 비전 및 가치",
+      "description": "우리가 하는 모든 일을 이끄는 원칙과 목표"
+    },
+    "certificates": {
+      "title": "수상 및 인정",
+      "description": "저희 면허 및 전문 인가"
+    },
+    "team": {
+      "title": "팀",
+      "description": "Start HN의 배경 인물을 만나보세요"
+    },
+    "careers": {
+      "title": "경력",
+      "description": "저희 팀에 합류하여 함께 성장하세요"
+    },
+    "enterpriseSoftware": {
+      "title": "회계 및 부기",
+      "description": "모든 규모의 기업을 위한 종합 부기 및 회계 서비스"
+    },
+    "aiMl": {
+      "title": "세무 컨설팅",
+      "description": "개인 및 법인을 위한 전문적인 세금 계획 및 준수"
+    },
+    "cloudArchitecture": {
+      "title": "가상 CFO",
+      "description": "정규직 고용 비용 없이 전략적 재무 리더십."
+    },
+    "iot": {
+      "title": "비즈니스 컨설팅",
+      "description": "비즈니스가 성장하고 번창할 수 있도록 돕는 실용적인 팁"
+    },
+    "devops": {
+      "title": "재무 보고",
+      "description": "정확하고 시기적절한 재무제표 및 경영 분석"
+    },
+    "digitalTransformation": {
+      "title": "교육 및 과정",
+      "description": "회계, 세무 및 재무 워크숍 및 과정"
+    },
+    "caseStudies": {
+      "title": "사례 연구",
+      "description": "고객들의 성공 사례",
+      "featured": {
+        "title": "주요 사례 연구",
+        "description": "고객이 성공할 수 있도록 어떻게 도왔는지에 대한 상세한 기록입니다"
+      }
+    },
+    "blog": {
+      "title": "블로그",
+      "description": "Start HN 팀의 통찰, 가이드 및 뉴스",
+      "featured": {
+        "title": "특집 기사",
+        "description": "최신 회계 및 재무 인사이트 중 하나를 읽어보세요."
+      }
+    },
+    "navigation": "항해",
+    "skipToContent": "내용으로 건너뛰기",
+    "toggleMenu": "스위치 메뉴",
+    "dashboard": "제어판",
+    "myWorkspace": "내 작업 공간",
+    "profile": "프로필",
+    "adminPanel": "행정 위원회",
+    "practiceManagement": "진료 관리",
+    "logOut": "가입하기",
+    "education": {
+      "title": "자료 및 가이드",
+      "description": "Start HN 팀의 실무 회계 및 재무 자원"
+    },
+    "support": {
+      "title": "지원 센터",
+      "description": "회계 및 자문 서비스에 도움을 받아보세요"
+    }
+  },
+  "footer": {
+    "description": "Start HN은 사라예보에 본사를 둔 회계 회사입니다. 저희는 보스니아 헤르체고비나 전역의 기업들을 위해 부기, 세무 컨설팅, 가상 CFO 및 재무 보고 서비스를 제공합니다.",
+    "services": "서비스",
+    "servicesList": {
+      "bookkeeping": "부기",
+      "tax": "세무 컨설팅",
+      "vcfo": "가상 CFO",
+      "reporting": "재무 보고",
+      "consulting": "비즈니스 컨설팅",
+      "education": "교육"
+    },
+    "company": "저희 소개",
+    "companyLinks": {
+      "about": "저희 소개",
+      "missionVision": "사명 및 가치",
+      "certificates": "수료증",
+      "team": "우리 팀",
+      "blog": "성공 사례",
+      "careers": "경력",
+      "contact": "연락처"
+    },
+    "contact": "연락처",
+    "contactInfo": {
+      "email": "klijenti@starthn.ba",
+      "phone": "+387 61 135-377",
+      "street": "이브라히마 류보비치 47",
+      "locality": "일리자",
+      "region": "사라예보 주",
+      "country": "보스니아 헤르체고비나",
+      "hours": "월요일부터 금요일까지: 08:00–16:00",
+      "holidays": "우리는 휴일에는 일하지 않아요"
+    },
+    "legal": "법적",
+    "legalLinks": {
+      "privacyPolicy": "개인정보처리방침",
+      "termsOfService": "이용 약관",
+      "cookiePolicy": "쿠키 정책"
+    },
+    "copyright": "© {{year}} HN을 시작하세요. 판권 소유.",
+    "developedBy": "개발:",
+    "ctaTitle": "이야기할 준비 됐어?",
+    "ctaDescription": "무료 소개 상담을 예약하세요 — 영업일 1일 이내에 연락드리겠습니다.",
+    "ctaButton": "문의하기"
+  },
+  "header": {
+    "badge": "전문 회계 서비스",
+    "titleLine1": "신뢰할 수 있는 회계 및 재무",
+    "titleLine2": "BiH에서의 귀하의 비즈니스를 위해서입니다",
+    "description": "부기 및 세무 컨설팅부터 가상 CFO 및 재무보고 서비스까지 — Start HN은 귀하의 비즈니스를 정렬하고 정보를 파악하며 성장에 대비할 수 있도록 포괄적인 회계 전문 지식을 제공합니다.",
+    "getStarted": "시작하기",
+    "exploreSolutions": "서비스 탐색",
+    "trustedBy": "보스니아 헤르체고비나 전역의 기업 신뢰",
+    "microsoftPartner": "공인회계사",
+    "azureCertified": "부가가치세 등록",
+    "enterpriseSolutions": "종단 간 회계"
+  },
+  "mobileNav": {
+    "navigation": "이동식 내비게이션",
+    "home": "홈",
+    "solutions": "서비스",
+    "caseStudies": "사건",
+    "blog": "블로그",
+    "resources": "자료",
+    "contact": "연락처"
+  },
+  "sideNav": {
+    "scroll": "스크롤",
+    "navigateTo": "{{section}}로 가세요",
+    "sections": {
+      "home": "홈",
+      "solutions": "서비스",
+      "credibility": "신뢰성",
+      "partners": "파트너",
+      "caseStudies": "사례 연구",
+      "blog": "블로그",
+      "faq": "자주 묻는 질문"
+    }
+  },
+  "languageSwitcher": {
+    "srLabel": "언어 변경",
+    "searchPlaceholder": "언어를 검색해...",
+    "noResults": "언어는 찾지 못했습니다."
+  },
+  "common": {
+    "menu": "나한테",
+    "account": "순서"
+  },
+  "homePage": {
+    "caseStudies": {
+      "title": "최근 사례 연구",
+      "description": "소매, 환대, 제조업 및 공공 부문 고객을 위해 달성한 성과에 대한 개요입니다.",
+      "cta": "모든 사례 연구 보기"
+    },
+    "blog": {
+      "title": "저희 블로그의 최신 소식",
+      "description": "Start HN 팀의 실용적인 회계 및 재무 노트.",
+      "cta": "모든 기사를 읽기"
+    }
+  },
+  "caseStudyCard": {
+    "read": "사례 연구를 읽어보세요",
+    "industries": {
+      "fintech": "핀테크",
+      "healthcare": "의료",
+      "logistics": "물류",
+      "manufacturing": "제작",
+      "government": "공공 부문"
+    }
+  },
+  "blogCard": {
+    "read": "더 읽기"
+  }
+}

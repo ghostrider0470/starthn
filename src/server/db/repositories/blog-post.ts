@@ -1,10 +1,18 @@
-import { eq, desc, sql, and, like } from 'drizzle-orm'
+import { eq, desc, sql, and, like, isNotNull } from 'drizzle-orm'
 import { parseJson, type Database } from '../client'
-import { blogPosts, blogPostTranslations, blogPostTags, tags, users } from '../schema'
+import { blogPosts, blogPostTranslations, blogPostTags, categories, tags, users } from '../schema'
 import type { BlogPostDto } from '../types/dtos'
+
+export interface BlogPostFilters {
+  category?: string
+  subcategory?: string
+  tag?: string
+  q?: string
+}
 
 export interface CreateBlogPostInput {
   slug?: string
+  lang?: string
   title: string
   excerpt?: string
   content: string[]
@@ -24,7 +32,7 @@ export type UpdateBlogPostInput = Partial<CreateBlogPostInput>
 export class BlogPostRepository {
   constructor(private db: Database) {}
 
-  async getPublished(locale?: string, page = 1, pageSize = 10): Promise<BlogPostDto[]> {
+  async getPublished(locale?: string, page = 1, pageSize = 10, filters: BlogPostFilters = {}): Promise<BlogPostDto[]> {
     const offset = (page - 1) * pageSize
     const loc = locale ?? 'en-US'
 
@@ -36,8 +44,8 @@ export class BlogPostRepository {
         eq(blogPostTranslations.locale, loc),
       ))
       .leftJoin(users, eq(users.id, blogPosts.authorId))
-      .where(eq(blogPosts.isPublished, 1))
-      .orderBy(desc(blogPosts.publishedAt))
+      .where(this.buildPublishedWhere(filters))
+      .orderBy(desc(blogPosts.isFeatured), desc(blogPosts.publishedAt))
       .limit(pageSize)
       .offset(offset)
 
@@ -65,13 +73,17 @@ export class BlogPostRepository {
 
     if (rows.length === 0) return null
 
-    // If a non-English locale was requested but no translation exists in D1,
-    // return null so the caller can fall back to Azure (which has the real translation).
-    const isEnglish = loc === 'en' || loc === 'en-US'
-    if (!isEnglish && rows[0].blog_post_translations === null) return null
+    const post = rows[0].blog_posts
+
+    // Return null (fall through to Azure) if the requested locale is not the
+    // post's native language and no translation row exists in D1.
+    const requestedLocale = locale ?? 'en-US'
+    const postLang = post.lang ?? 'en-US'
+    const isNativeLanguage = requestedLocale === postLang
+    if (!isNativeLanguage && rows[0].blog_post_translations === null) return null
 
     return this.toDto(
-      rows[0].blog_posts,
+      post,
       rows[0].blog_post_translations,
       rows[0].users?.avatarUrl,
       rows[0].users?.slug,
@@ -87,11 +99,11 @@ export class BlogPostRepository {
     return Promise.all(rows.map(r => this.toDto(r)))
   }
 
-  async getCount(): Promise<number> {
+  async getCount(filters: BlogPostFilters = {}): Promise<number> {
     const result = await this.db
       .select({ count: sql<number>`COUNT(*)` })
       .from(blogPosts)
-      .where(eq(blogPosts.isPublished, 1))
+      .where(this.buildPublishedWhere(filters))
     return result[0]?.count ?? 0
   }
 
@@ -115,6 +127,7 @@ export class BlogPostRepository {
     await this.db.insert(blogPosts).values({
       id,
       slug,
+      lang: input.lang ?? 'en-US',
       title: input.title,
       excerpt: input.excerpt ?? null,
       content: JSON.stringify(input.content),
@@ -137,15 +150,16 @@ export class BlogPostRepository {
       await this.syncTags(id, input.tags)
     }
 
-    return (await this.getBySlug(slug))!
+    return (await this.getBySlug(slug, input.lang ?? 'en-US'))!
   }
 
   async update(slug: string, input: UpdateBlogPostInput): Promise<BlogPostDto | null> {
-    const existing = await this.db.select({ id: blogPosts.id }).from(blogPosts).where(eq(blogPosts.slug, slug)).limit(1)
+    const existing = await this.db.select({ id: blogPosts.id, lang: blogPosts.lang }).from(blogPosts).where(eq(blogPosts.slug, slug)).limit(1)
     if (existing.length === 0) return null
     const postId = existing[0].id
 
     const updates: Record<string, any> = { updatedAt: new Date().toISOString() }
+    if (input.lang !== undefined) updates.lang = input.lang
     if (input.title !== undefined) updates.title = input.title
     if (input.slug !== undefined) updates.slug = input.slug
     if (input.excerpt !== undefined) updates.excerpt = input.excerpt
@@ -161,12 +175,20 @@ export class BlogPostRepository {
 
     await this.db.update(blogPosts).set(updates).where(eq(blogPosts.id, postId))
 
+    // When lang changes, the post itself becomes the content in that language.
+    // Delete any same-locale translation row that would shadow it.
+    if (input.lang !== undefined) {
+      await this.db.delete(blogPostTranslations)
+        .where(and(eq(blogPostTranslations.postId, postId), eq(blogPostTranslations.locale, input.lang)))
+    }
+
     if (input.tags !== undefined) {
       await this.syncTags(postId, input.tags)
     }
 
     const finalSlug = input.slug ?? slug
-    return this.getBySlug(finalSlug)
+    const finalLang = input.lang ?? existing[0].lang ?? 'en-US'
+    return this.getBySlug(finalSlug, finalLang)
   }
 
   async delete(slug: string): Promise<boolean> {
@@ -240,15 +262,50 @@ export class BlogPostRepository {
     return true
   }
 
-  private async syncTags(postId: string, tagSlugs: string[]) {
+  /** Get list of missing translations for published posts */
+  async getMissingTranslations(): Promise<{ slug: string; title: string; locale: string }[]> {
+    const SEO_LOCALES = new Set(['bs-BA', 'hr-HR', 'sr-Latn', 'de-DE', 'fr-FR', 'es-ES', 'it-IT', 'tr-TR', 'ar-SA', 'pt-BR', 'nl-NL', 'ru-RU', 'ja-JP', 'zh-Hans', 'ko-KR'])
+
+    const publishedPosts = await this.db
+      .select({ id: blogPosts.id, slug: blogPosts.slug, title: blogPosts.title })
+      .from(blogPosts)
+      .where(eq(blogPosts.isPublished, 1))
+
+    const translations = await this.db
+      .select({ postId: blogPostTranslations.postId, locale: blogPostTranslations.locale })
+      .from(blogPostTranslations)
+
+    // Extra locales are only tracked if used in ≥2 posts (intentional, not a one-off)
+    const localeCounts = new Map<string, number>()
+    for (const t of translations) localeCounts.set(t.locale, (localeCounts.get(t.locale) ?? 0) + 1)
+    const extraLocales = [...localeCounts.entries()].filter(([, n]) => n >= 2).map(([l]) => l)
+    const targetLocales = new Set([...SEO_LOCALES, ...extraLocales])
+    const translated = new Set(translations.map(t => `${t.postId}:${t.locale}`))
+
+    const missing: { slug: string; title: string; locale: string }[] = []
+    for (const post of publishedPosts) {
+      for (const locale of targetLocales) {
+        if (!translated.has(`${post.id}:${locale}`)) {
+          missing.push({ slug: post.slug, title: post.title, locale })
+        }
+      }
+    }
+    return missing
+  }
+
+  private async syncTags(postId: string, tagValues: string[]) {
     // Remove existing
     await this.db.delete(blogPostTags).where(eq(blogPostTags.postId, postId))
     // Re-add
-    if (tagSlugs.length === 0) return
-    const tagRows = await this.db.select({ id: tags.id, slug: tags.slug }).from(tags)
-    const slugToId = new Map(tagRows.map(t => [t.slug, t.id]))
-    for (const slug of tagSlugs) {
-      const tagId = slugToId.get(slug)
+    if (tagValues.length === 0) return
+    const tagRows = await this.db.select({ id: tags.id, slug: tags.slug, label: tags.label }).from(tags)
+    const tagToId = new Map<string, string>()
+    for (const tag of tagRows) {
+      tagToId.set(tag.slug, tag.id)
+      tagToId.set(tag.label, tag.id)
+    }
+    for (const value of tagValues) {
+      const tagId = tagToId.get(value)
       if (tagId) {
         await this.db.insert(blogPostTags).values({ postId, tagId })
       }
@@ -265,7 +322,56 @@ export class BlogPostRepository {
       .from(blogPostTags)
       .innerJoin(tags, eq(tags.id, blogPostTags.tagId))
       .where(eq(blogPostTags.postId, postId))
+      .orderBy(tags.label)
     return rows.map(r => r.slug)
+  }
+
+  private buildPublishedWhere(filters: BlogPostFilters = {}) {
+    const conditions = [eq(blogPosts.isPublished, 1)]
+
+    if (filters.category) {
+      conditions.push(this.categoryValueMatches(blogPosts.category, filters.category))
+    }
+
+    if (filters.subcategory) {
+      conditions.push(this.categoryValueMatches(blogPosts.subcategory, filters.subcategory))
+    }
+
+    if (filters.tag) {
+      conditions.push(sql`EXISTS (
+        SELECT 1
+        FROM ${blogPostTags}
+        INNER JOIN ${tags} ON ${tags.id} = ${blogPostTags.tagId}
+        WHERE ${blogPostTags.postId} = ${blogPosts.id}
+          AND (${tags.slug} = ${filters.tag} OR ${tags.label} = ${filters.tag})
+      )`)
+    }
+
+    const query = filters.q?.trim()
+    if (query) {
+      const pattern = `%${query}%`
+      conditions.push(sql`(
+        ${blogPosts.title} LIKE ${pattern}
+        OR ${blogPosts.excerpt} LIKE ${pattern}
+        OR ${blogPosts.content} LIKE ${pattern}
+      )`)
+    }
+
+    return and(...conditions)
+  }
+
+  private categoryValueMatches(
+    column: typeof blogPosts.category | typeof blogPosts.subcategory,
+    value: string,
+  ) {
+    return sql`(
+      ${column} = ${value}
+      OR ${column} IN (
+        SELECT ${categories.label}
+        FROM ${categories}
+        WHERE ${categories.slug} = ${value}
+      )
+    )`
   }
 
   private async toDto(
@@ -275,12 +381,16 @@ export class BlogPostRepository {
     authorSlug?: string | null,
   ): Promise<BlogPostDto> {
     const tagSlugs = await this.getTagSlugs(post.id)
+    // A translation whose locale matches the post's own language is redundant — ignore it
+    // so the base post content always wins for its native language.
+    const t = translation?.locale === post.lang ? null : translation
     return {
       id: post.id,
       slug: post.slug,
-      title: translation?.title ?? post.title,
-      excerpt: translation?.excerpt ?? post.excerpt,
-      content: parseJson<string[]>(translation?.content ?? post.content, []),
+      lang: post.lang,
+      title: t?.title ?? post.title,
+      excerpt: t?.excerpt ?? post.excerpt,
+      content: parseJson<string[]>(t?.content ?? post.content, []),
       isPublished: post.isPublished === 1,
       isFeatured: post.isFeatured === 1,
       publishedAt: post.publishedAt,

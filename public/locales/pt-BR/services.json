@@ -1,0 +1,384 @@
+{
+  "common": {
+    "fallbackTitle": "Serviço",
+    "service": "Serviço",
+    "overview": "Visão geral",
+    "scope": "O que Cobrimos",
+    "process": "Como trabalhamos",
+    "outputs": "Resultados",
+    "nextStep": "Próximo passo",
+    "learnMore": "Saiba mais",
+    "ctaPrimary": "Iniciar uma conversa",
+    "ctaSecondary": "Veja todos os serviços",
+    "backToServices": "Voltar aos serviços"
+  },
+  "index": {
+    "overline": "Serviços da Start HN",
+    "title": "Suporte contábil para todas as etapas do negócio.",
+    "description": "Seis áreas de serviço claras abrangem contabilidade, obrigações fiscais, relatórios, consultoria e educação, o que proporciona melhor controle ao seu negócio.",
+    "introOverline": "Serviços",
+    "introTitle": "Uma equipe, um quadro financeiro claro",
+    "introBody": "A Start HN conecta contabilidade prática, monitoramento fiscal, relatórios financeiros e suporte de consultoria para que proprietários e gerentes possam tomar decisões baseadas em dados confiáveis, e não em documentação em massa.",
+    "cta": {
+      "title": "Não sabe qual serviço você precisa?",
+      "description": "Conte-nos como seu negócio está funcionando atualmente e sugeriremos o escopo certo de suporte: contabilidade regular, consultoria aprofundada ou consultoria focada.",
+      "button": "Agende uma consulta"
+    }
+  },
+  "items": {
+    "bookkeeping": {
+      "label": "01",
+      "title": "Escrituração e contabilidade",
+      "shortDescription": "Contabilidade completa, registros contábeis, folha de pagamento, registros de IVA e relatórios finais para artesanato e empresas.",
+      "heroDescription": "Livros confiáveis são a base operacional de qualquer negócio. Mantemos seus registros precisos, atualizados e prontos para prazos fiscais, bancos e decisões gerenciais.",
+      "overviewTitle": "Registros diários sem carga diária",
+      "overview": "Organizamos todo o ciclo contábil: recebimento de documentação, registro de faturas e despesas, cálculo de salários e contribuições, registros de IVA, solicitações legais e fechamento anual. O objetivo é simples: registros organizados, responsabilidades claras e sem surpresas antes dos prazos.",
+      "bestForTitle": "Melhor para",
+      "bestFor": [
+        "Pequenas e médias empresas que precisam de suporte contábil regular.",
+        "Negócios de artesanato e autônomos que querem registros legais adequados",
+        "Equipes que Mudam de Outro Contador",
+        "Proprietários que querem números mensais claros, não apenas relatórios anuais"
+      ],
+      "detailsTitle": "Escopo da Contabilidade",
+      "details": [
+        {
+          "title": "Configuração e transferência da contabilidade",
+          "description": "Revisamos registros, registros existentes, saldos iniciais, dados salariais e cronograma de obrigações para colocar o serviço em prática."
+        },
+        {
+          "title": "Operações contábeis mensais",
+          "description": "Faturas, despesas, transações bancárias, salários, contribuições, registros de IVA e obrigações legais regulares são processados em um ritmo mensal previsível."
+        },
+        {
+          "title": "Contas anuais e fechamento anual",
+          "description": "Preparamos cálculos finais, demonstrações financeiras, declarações de imposto de renda e documentação de apoio para manter o negócio alinhado e pronto para os controles."
+        }
+      ],
+      "processTitle": "Ritmo mensal previsível",
+      "process": [
+        {
+          "title": "Coleção",
+          "description": "Você envia a documentação digital ou fisicamente de acordo com o fluxo de trabalho acordado."
+        },
+        {
+          "title": "Processamento",
+          "description": "Registramos transações, calculamos passivos e verificamos os registros antes dos prazos."
+        },
+        {
+          "title": "Relatórios",
+          "description": "Você recebe resumos claros e próximos passos, e as perguntas são respondidas antes que se tornem um risco."
+        }
+      ],
+      "deliverablesTitle": "Resultados típicos",
+      "deliverables": [
+        "Registros contábeis mensais",
+        "Registros de IVA e impostos",
+        "Cálculos de folha de pagamento e contribuições",
+        "Relatórios Financeiros Anuais",
+        "Confirmações de submissão de pedidos",
+        "Consultoria contábil regular"
+      ],
+      "cta": {
+        "title": "Pronto para editar seus livros?",
+        "description": "Revisaremos seus registros atuais e definiremos um fluxo contábil mensal que corresponda à forma como seu negócio realmente opera.",
+        "button": "Solicite suporte contábil"
+      }
+    },
+    "taxConsulting": {
+      "label": "02",
+      "title": "Consultoria tributária",
+      "shortDescription": "Monitoramento fiscal, planejamento, suporte à solicitação, acompanhamento de prazos e orientação prática para indivíduos e entidades jurídicas.",
+      "heroDescription": "As obrigações fiscais mudam rapidamente e erros são caros. Ajudamos você a entender o que é aplicável, o que é devido e como planejar dentro das regulamentações.",
+      "overviewTitle": "Aconselhamento fiscal antes que surja um problema",
+      "overview": "Nosso suporte fiscal conecta conformidade e planejamento: acompanhamos prazos, revisamos obrigações, explicamos mudanças regulatórias, preparamos declarações e aconselhamos antes que decisões criem custos ou riscos desnecessários.",
+      "bestForTitle": "Melhor para",
+      "bestFor": [
+        "Empresas que precisam de monitoramento fiscal regular",
+        "Proprietários que tomam decisões sobre investimentos, emprego ou preços",
+        "Pessoas físicas e empreendedores com obrigações de reporte",
+        "Empresas que querem reduzir multas e correções subsequentes"
+      ],
+      "detailsTitle": "Escopo da consultoria tributária",
+      "details": [
+        {
+          "title": "Visão Geral do Agendamento",
+          "description": "Revisamos registros ativos, registros antecipados, exposição ao IVA e folha de pagamento, e prazos futuros."
+        },
+        {
+          "title": "Suporte à conformidade e relatórios",
+          "description": "Preparamos e revisamos declarações de imposto, acompanhamos prazos e ajudamos a corrigir omissões antes que se tornem penalidades."
+        },
+        {
+          "title": "Planejamento e suporte à decisão",
+          "description": "Explicamos as implicações fiscais de decisões empresariais, deduções, mudanças organizacionais, contratações, pagamentos e outras questões financeiras comuns."
+        }
+      ],
+      "processTitle": "Apoio fiscal que vai um passo além",
+      "process": [
+        {
+          "title": "Avaliação",
+          "description": "Mapeamos a posição fiscal atual e identificamos passivos abertos ou pontos de risco."
+        },
+        {
+          "title": "Plano",
+          "description": "Definimos prazos, responsabilidades e opções legais para o planejamento tributário."
+        },
+        {
+          "title": "Manutenção",
+          "description": "Alinhamos relatórios e conselhos com as atividades do seu negócio e mudanças regulatórias."
+        }
+      ],
+      "deliverablesTitle": "Resultados típicos",
+      "deliverables": [
+        "Calendário de obrigações fiscais",
+        "Diretrizes de IVA e Imposto de Renda/Lucro",
+        "Diretrizes para contribuições salariais",
+        "Revisão e correções de candidaturas",
+        "Notas de Planejamento Tributário",
+        "Suporte a prazos e conformidade"
+      ],
+      "cta": {
+        "title": "Precisa de esclarecimento sobre suas obrigações fiscais?",
+        "description": "Envie-nos sua situação atual e vamos te ajudar a entender o que é devido, o que pode ser melhorado e qual é o próximo passo.",
+        "button": "Fale sobre apoio fiscal"
+      }
+    },
+    "virtualCfo": {
+      "label": "03",
+      "title": "Virtual CFO",
+      "shortDescription": "Visão financeira sênior sem um CFO permanente: fluxo de caixa, orçamentos, KPIs e suporte à decisão.",
+      "heroDescription": "Um CFO virtual oferece aos proprietários e à gestão uma visão mais clara da saúde financeira, fluxo de caixa, lucratividade e escolhas estratégicas.",
+      "overviewTitle": "Gestão financeira em base flexível.",
+      "overview": "Traduzimos dados contábeis em insights gerenciais práticos: orçamentos, previsões, planejamento de fluxo de caixa, análise de lucratividade e indicadores financeiros que mostram onde a empresa está forte e onde a atenção é necessária.",
+      "bestForTitle": "Melhor para",
+      "bestFor": [
+        "Empresas em crescimento que precisam de mais do que apenas contabilidade.",
+        "Proprietários que estão preparando decisões de financiamento ou investimento",
+        "Equipes sem um CFO interno",
+        "Gerentes que querem transformar os números mensais em ação"
+      ],
+      "detailsTitle": "O Papel de um CFO Virtual",
+      "details": [
+        {
+          "title": "Uma visão geral da saúde financeira",
+          "description": "Analisamos lucratividade, liquidez, estrutura de custos, contas a receber, passivos e riscos chave no cenário financeiro atual."
+        },
+        {
+          "title": "Planejamento e previsão",
+          "description": "Preparamos orçamentos, previsões de fluxo de caixa, cenários e pressupostos que facilitam a avaliação das decisões gerenciais."
+        },
+        {
+          "title": "Relatórios gerenciais",
+          "description": "Definimos KPIs e formatos de relatórios que vinculam dados financeiros a decisões sobre crescimento, custos, preços e operações."
+        }
+      ],
+      "processTitle": "Dos registros às decisões",
+      "process": [
+        {
+          "title": "Diagnóstico",
+          "description": "Revisamos relatórios existentes e identificamos questões financeiras para as quais a gestão precisa responder."
+        },
+        {
+          "title": "Modelagem",
+          "description": "Construímos orçamentos práticos, previsões e cenários baseados em pressupostos realistas de negócios."
+        },
+        {
+          "title": "Consultoria",
+          "description": "Explicamos regularmente os resultados, riscos e os próximos passos recomendados."
+        }
+      ],
+      "deliverablesTitle": "Resultados típicos",
+      "deliverables": [
+        "Relatório Mensal de Gestão",
+        "Previsão de Fluxo de Caixa",
+        "Análise de Orçamento e Desvio",
+        "Estrutura dos relatórios de KPI",
+        "Análise de Lucratividade",
+        "Reuniões consultivas"
+      ],
+      "cta": {
+        "title": "Você precisa de clareza no nível de CFO?",
+        "description": "Podemos transformar seus dados contábeis em uma visão gerencial que apoia o crescimento, o financiamento e melhores decisões.",
+        "button": "Fale sobre o CFO Virtual"
+      }
+    },
+    "businessConsulting": {
+      "label": "04",
+      "title": "Consultoria empresarial",
+      "shortDescription": "Conselhos práticos de negócios para organização, crescimento, processos internos, custos, precificação e decisões operacionais.",
+      "heroDescription": "Uma boa conta contábil mostra o que aconteceu. Uma boa consulta ajuda você a decidir o que deve acontecer a seguir.",
+      "overviewTitle": "Diretrizes práticas baseadas em números",
+      "overview": "Apoiamos proprietários e gestores em decisões financeiras e operacionais: organização do negócio, melhoria de processos, controle de custos, precificação, disciplina de faturamento, documentação interna e planejamento de crescimento.",
+      "bestForTitle": "Melhor para",
+      "bestFor": [
+        "Novos Negócios que Implementam Processos Financeiros",
+        "Empresas que melhoram os controles internos e o fluxo de documentação",
+        "Proprietários que estimam custos, preços ou expansão",
+        "Equipes que querem conselhos relacionados à realidade contábil"
+      ],
+      "detailsTitle": "Escopo da consultoria empresarial",
+      "details": [
+        {
+          "title": "Organização e organização do negócio",
+          "description": "Ajudamos a definir o fluxo de documentação, responsabilidades de relatório, rotinas contábeis e controles práticos no trabalho diário."
+        },
+        {
+          "title": "Apoiar decisões financeiras.",
+          "description": "Revisamos custos, margens, preços, necessidades de caixa e investimentos planejados para que as decisões tenham um efeito mensurável."
+        },
+        {
+          "title": "Melhoria de Processos",
+          "description": "Identificamos onde documentação, aprovações, relatórios ou faturamento podem ser simplificados e tornados mais confiáveis."
+        }
+      ],
+      "processTitle": "Consultoria sem teoria do vazio",
+      "process": [
+        {
+          "title": "Mapeamento",
+          "description": "Mapeamos o processo existente, documentos e questões financeiras."
+        },
+        {
+          "title": "Prioridades",
+          "description": "Destacamos as mudanças que trazem o valor empresarial mais rápido e importante."
+        },
+        {
+          "title": "Aplicação",
+          "description": "Definimos passos práticos, responsabilidades e acompanhamento."
+        }
+      ],
+      "deliverablesTitle": "Resultados típicos",
+      "deliverables": [
+        "Visão Geral dos Processos de Negócios",
+        "Notas sobre custos e margens",
+        "Diretrizes de precificação e fluxo de caixa",
+        "Recomendações para controles internos.",
+        "Configuração do Fluxo de Documentação",
+        "Reuniões consultivas com o proprietário"
+      ],
+      "cta": {
+        "title": "Precisa de uma visão prática do seu negócio?",
+        "description": "Vamos analisar seus números e funil operacional, e então recomendar mudanças que melhoram o controle e a lucratividade ao máximo.",
+        "button": "Solicite uma consulta"
+      }
+    },
+    "financialReporting": {
+      "label": "05",
+      "title": "Relatórios financeiros",
+      "shortDescription": "Relatórios legais e gerenciais claros que ajudam a entender resultados, passivos e tendências financeiras.",
+      "heroDescription": "Relatórios não precisam ser arquivos incompreensíveis que apenas cumprem um prazo. Eles precisam saber o que está acontecendo nos negócios.",
+      "overviewTitle": "Relatórios que a gestão realmente utiliza",
+      "overview": "Preparamos relatórios jurídicos, resumos gerenciais, demonstrações financeiras e formatos analíticos que facilitam a compreensão de receitas, despesas, lucros, liquidez e passivos.",
+      "bestForTitle": "Melhor para",
+      "bestFor": [
+        "Empresas que precisam de relatórios mensais mais claros",
+        "Gerentes que preparam documentação para bancos, parceiros ou investidores",
+        "Proprietários que querem acompanhar os lucros e o dinheiro o tempo todo",
+        "Empresas que precisam harmonizar visões jurídicas e gerenciais"
+      ],
+      "detailsTitle": "Escopo da denúncia",
+      "details": [
+        {
+          "title": "Relatórios Financeiros Estatutários",
+          "description": "Preparamos demonstrações financeiras legalmente prescritas e revisões acompanhantes com base em registros contábeis adequados."
+        },
+        {
+          "title": "Relatórios gerenciais",
+          "description": "Criamos revisões mensais ou trimestrais concisas que explicam resultados, passivos, margens e tendências."
+        },
+        {
+          "title": "Análise Financeira",
+          "description": "Interpretamos números por meio de indicadores, comparações e comentários que apoiam decisões, não apenas registros."
+        }
+      ],
+      "processTitle": "Ciclo de relatórios claros",
+      "process": [
+        {
+          "title": "Estrutura",
+          "description": "Definimos quais perguntas o relatório precisa ser respondido e quem o utilizará."
+        },
+        {
+          "title": "Preparação",
+          "description": "Compilamos dados precisos a partir de registros contábeis e documentação de apoio."
+        },
+        {
+          "title": "Explicação",
+          "description": "Resumimos tendências, riscos e próximos passos em linguagem simples."
+        }
+      ],
+      "deliverablesTitle": "Resultados típicos",
+      "deliverables": [
+        "Demonstrações financeiras",
+        "Resumos mensais de gestão",
+        "Análise de lucro e custo",
+        "Visão geral sobre dinheiro e passivos",
+        "Reporte pacotes para bancos ou parceiros",
+        "Suporte Final de Relatórios"
+      ],
+      "cta": {
+        "title": "Quer relatórios mais fáceis de usar?",
+        "description": "Podemos transformar os dados contábeis em um formato claro para gestão, parceiros, bancos ou planejamento interno.",
+        "button": "Melhorar o relatório."
+      }
+    },
+    "education": {
+      "label": "06",
+      "title": "Educação e Cursos",
+      "shortDescription": "Oficinas em contabilidade, impostos e finanças que ajudam proprietários e equipes a entenderem responsabilidades e tomarem melhores decisões.",
+      "heroDescription": "Uma melhor educação financeira reduz erros, melhora a comunicação interna e ajuda as equipes a colaborarem de forma mais eficaz com contadores.",
+      "overviewTitle": "Conhecimento que facilita o trabalho cotidiano",
+      "overview": "Organizamos treinamentos práticos para proprietários, gestores e equipes administrativas: noções básicas de contabilidade, preparação de documentação, prazos fiscais, noções básicas de salários, interpretação de relatórios e melhor cooperação com a contabilidade.",
+      "bestForTitle": "Melhor para",
+      "bestFor": [
+        "Proprietários que querem entender suas obrigações",
+        "Equipe administrativa que lida com documentos e faturas",
+        "Equipes que introduzem novos processos de reporte",
+        "Gerentes que querem ler demonstrações financeiras com mais confiança"
+      ],
+      "detailsTitle": "Escopo da educação",
+      "details": [
+        {
+          "title": "Noções Básicas da Contabilidade",
+          "description": "Explicamos os registros, documentos e prazos que afetam o dia a dia dos negócios."
+        },
+        {
+          "title": "Impostos e salários na prática",
+          "description": "Cobrimos compromissos frequentes, prazos regulares, fundamentos de contribuição e pontos práticos de risco."
+        },
+        {
+          "title": "Relatórios financeiros",
+          "description": "Ajudamos as equipes a entender demonstrações financeiras, revisões gerenciais e as perguntas que esses relatórios precisam responder."
+        }
+      ],
+      "processTitle": "Educação construída em torno do trabalho real",
+      "process": [
+        {
+          "title": "Definição",
+          "description": "Determinamos o que a equipe precisa entender e quais erros precisam ser evitados."
+        },
+        {
+          "title": "Educação",
+          "description": "Realizamos sessões práticas com exemplos próximos ao seu trabalho diário."
+        },
+        {
+          "title": "Aplicação",
+          "description": "A equipe recebe listas de verificação, rotinas e responsabilidades mais claras."
+        }
+      ],
+      "deliverablesTitle": "Resultados típicos",
+      "deliverables": [
+        "Oficinas e cursos curtos",
+        "Listas de verificação para o processo contábil",
+        "Visão geral dos prazos fiscais",
+        "Diretrizes para a preparação de documentação",
+        "Sessões para leitura de relatórios",
+        "Perguntas e respostas para a equipe"
+      ],
+      "cta": {
+        "title": "Quer que sua equipe entenda melhor os números?",
+        "description": "Podemos preparar um workshop focado no seu processo contábil, relatórios ou perguntas frequentes sobre impostos.",
+        "button": "Planeje seu treinamento"
+      }
+    }
+  }
+}

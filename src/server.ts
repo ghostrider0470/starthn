@@ -4,17 +4,48 @@ import { secureHeaders } from 'hono/secure-headers'
 import handler, { createServerEntry } from '@tanstack/react-start/server-entry'
 import { handleD1Route } from './server/db/api-routes'
 import { handleAdminRoute } from './server/db/admin-routes'
+import { handleAuthRoute } from './server/routes/auth'
+import { handleProfileRoute } from './server/routes/profile'
+import { handleUploadRoute } from './server/routes/upload'
 import { setD1, clearD1 } from './server/d1-context'
 import { setAssets, clearAssets } from './server/assets-context'
 import { handleImageRequest } from './server/image-handler'
-import { handleImageWarm } from './server/image-warm'
-import { handleSync } from './server/sync-receiver'
 import { handleHealth } from './server/health'
+import { handleSitemap } from './server/sitemap'
+import { isHackSpam } from './server/spam-guard'
 import type { Bindings, ImageWriteMessage } from './server/bindings'
 import { handleR2WriteQueue } from './server/r2-queue-consumer'
+import {
+  getD1PrimaryMissingBindings,
+  isD1PrimaryEnabled,
+} from './server/d1-primary-routing'
 import { getLocaleFromPath } from '@/lib/i18n-utils'
 
 const app = new Hono<{ Bindings: Bindings }>()
+
+// ─── Hacked-spam URL tombstoning (MUST be first) ───────────
+// A prior compromise injected ~1.19M spam URLs (/items/… and locale-prefixed
+// letter+digit IDs like /en-US/B471837416). Today the locale router 307s them
+// and they land on a soft-404 that returns HTTP 200 — which keeps them in
+// Google's index. Return 410 Gone instead: the strongest "permanently deleted"
+// signal, so Google deindexes fastest and stops re-crawling soonest.
+//
+// This guard MUST run before every other middleware/route — Hono executes in
+// registration order and the first Response wins, so placing it here ensures it
+// beats the apex→www redirect and the SSR locale router. Matchers live in
+// ./server/spam-guard (unit-tested against real routes to prevent false 410s).
+app.use('*', async (c, next) => {
+  if (isHackSpam(new URL(c.req.url).pathname)) {
+    return new Response('410 Gone', {
+      status: 410,
+      headers: {
+        'content-type': 'text/plain; charset=utf-8',
+        'cache-control': 'no-store',
+      },
+    })
+  }
+  return next()
+})
 
 // ─── Constants ─────────────────────────────────────────────
 const ALLOWED_ORIGINS = [
@@ -30,6 +61,17 @@ function getApiOrigin(env: Bindings): string {
 }
 
 // ─── Middleware ─────────────────────────────────────────────
+
+// Redirect apex → www
+app.use('*', async (c, next) => {
+  const host = c.req.header('host') ?? ''
+  if (host === 'starthn.ba') {
+    const url = new URL(c.req.url)
+    url.hostname = 'www.starthn.ba'
+    return c.redirect(url.toString(), 301)
+  }
+  return next()
+})
 
 // CORS for all /api/* routes
 app.use(
@@ -57,29 +99,88 @@ app.use(
   }),
 )
 
+// ─── Maintenance mode ───────────────────────────────────────
+app.use('/api/*', async (c, next) => {
+  if (c.env?.MAINTENANCE_MODE === 'true') {
+    const method = c.req.method
+    if (method !== 'GET' && method !== 'HEAD' && method !== 'OPTIONS') {
+      return c.json({ error: 'Maintenance in progress. Write endpoints are temporarily unavailable.' }, 503)
+    }
+  }
+  await next()
+})
+
 // ─── Image proxy ────────────────────────────────────────────
 app.get('/img/*', (c) => handleImageRequest(c))
 
-// ─── Admin routes ──────────────────────────────────────────
-// All admin traffic goes to Azure (Cosmos = source of truth).
-// D1 is populated passively by the Cosmos Change Feed — public reads only.
-app.all('/api/manage/*', (c) => proxyToAzure(c))
-app.get('/api/roles', (c) => proxyToAzure(c))
-app.get('/api/roles/*', (c) => proxyToAzure(c))
-app.get('/api/permissions', (c) => proxyToAzure(c))
+// ─── D1_PRIMARY feature-flag routing ───────────────────────
+// When D1_PRIMARY=true, route auth/profile/admin through D1 handlers.
+// Missing bindings and handler errors fail closed so local Wrangler cannot
+// silently proxy to Azure and hide a broken D1/R2 setup.
+type RouteHandler = (request: Request, env: any) => Promise<Response | null>
 
-async function handleEdgeAdmin(c: any) {
-  if (!c.env?.DB || !c.env?.JWT_SECRET) return proxyToAzure(c)
+type D1PrimaryRouteOptions = {
+  requiredBindings?: readonly string[]
+  proxyOnNull?: boolean
+}
 
-  try {
-    const response = await handleAdminRoute(c.req.raw, c.env, c.executionCtx)
-    if (response) return response
-  } catch (e) {
-    console.error('[admin] Error, falling through to Azure:', e)
+function d1PrimaryError(message: string, status = 500, extra: Record<string, unknown> = {}) {
+  return new Response(JSON.stringify({ error: message, ...extra }), {
+    status,
+    headers: { 'Content-Type': 'application/json' },
+  })
+}
+
+async function handleD1PrimaryRoute(
+  c: any,
+  handler: RouteHandler,
+  options: D1PrimaryRouteOptions = {},
+) {
+  if (!isD1PrimaryEnabled(c.env)) return proxyToAzure(c)
+
+  const missing = getD1PrimaryMissingBindings(c.env, options.requiredBindings)
+  if (missing.length > 0) {
+    return d1PrimaryError('D1_PRIMARY is enabled but required Worker bindings are missing.', 500, {
+      missingBindings: missing,
+      hint: 'For local `npx wrangler dev`, set these in .dev.vars. Do not let this route proxy to Azure.',
+    })
   }
 
-  return proxyToAzure(c)
+  try {
+    const response = await handler(c.req.raw, c.env)
+    if (response) return response
+  } catch (e) {
+    console.error('[d1-primary] Local route failed:', e)
+    return d1PrimaryError('D1_PRIMARY route failed locally.', 500)
+  }
+
+  if (options.proxyOnNull) {
+    return proxyToAzure(c)
+  }
+
+  return d1PrimaryError('D1_PRIMARY route is not implemented locally.', 501, {
+    path: c.req.path,
+  })
 }
+
+// ─── Auth routes ────────────────────────────────────────────
+app.all('/api/auth/*', (c) => handleD1PrimaryRoute(c, handleAuthRoute))
+
+// ─── User/profile routes ────────────────────────────────────
+app.all('/api/user/*', (c) => handleD1PrimaryRoute(c, handleProfileRoute, { proxyOnNull: true }))
+
+// ─── Admin routes ──────────────────────────────────────────
+app.all('/api/manage/*', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx), { proxyOnNull: true }))
+app.get('/api/roles', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx), { proxyOnNull: true }))
+app.get('/api/roles/*', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx), { proxyOnNull: true }))
+app.get('/api/permissions', (c) => handleD1PrimaryRoute(c, (req, env) => handleAdminRoute(req, env, c.executionCtx), { proxyOnNull: true }))
+
+// ─── Upload routes ─────────────────────────────────────────
+app.post('/api/upload/image', (c) =>
+  handleD1PrimaryRoute(c, handleUploadRoute, {
+    requiredBindings: ['DB', 'JWT_SECRET', 'IMG_CACHE'],
+  }),
+)
 
 // ─── Public reads (D1 at edge) ─────────────────────────────
 app.get('/api/blog', handleEdgeRead)
@@ -100,9 +201,11 @@ async function handleEdgeRead(c: any) {
   return proxyToAzure(c)
 }
 
-// ─── Internal sync endpoints (shared-secret auth) ──────────
-app.post('/api/internal/image-warm', (c) => handleImageWarm(c))
-app.post('/api/internal/sync', (c) => handleSync(c))
+// Sitemap handling is done inside the SSR catch-all below (before TanStack)
+// because Hono's wildcard routing doesn't match paths with a leading '.' in
+// the wildcard portion (e.g. '/sitemap*' won't match '/sitemap.xml').
+
+// ─── Internal endpoints (shared-secret auth) ───────────────
 app.get('/api/internal/health', (c) => handleHealth(c))
 
 // ─── Azure proxy fallback (auth, chat, uploads, etc.) ──────
@@ -161,6 +264,15 @@ function getCacheTtl(pathname: string): number | null {
 app.all('*', async (c) => {
   const request = c.req.raw
   const url = new URL(request.url)
+
+  // Sitemaps: must intercept before TanStack SSR, which redirects unknown
+  // paths to the default locale (/en-US).
+  const { pathname } = url
+  if (pathname === '/sitemap.xml' || (pathname.startsWith('/sitemap-') && pathname.endsWith('.xml'))) {
+    const res = await handleSitemap(request, c.env)
+    if (res) return res
+    return c.notFound()
+  }
 
   // Edge-cache HTML responses via the Cache API.
   // (s-maxage headers alone have no effect when a Worker handles the request.)

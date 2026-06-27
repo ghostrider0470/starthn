@@ -7,6 +7,11 @@ public class TranslateBlogPostRequestValidator : AbstractValidator<TranslateBlog
 {
     public TranslateBlogPostRequestValidator()
     {
-        RuleFor(x => x.Languages).NotEmpty();
+        RuleFor(x => x.Targets).NotEmpty();
+        RuleForEach(x => x.Targets).ChildRules(t =>
+        {
+            t.RuleFor(x => x.LocaleCode).NotEmpty();
+            t.RuleFor(x => x.TranslatorCode).NotEmpty();
+        });
     }
 }

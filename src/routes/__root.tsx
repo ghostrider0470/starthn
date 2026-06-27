@@ -220,9 +220,18 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       },
       {
         property: 'og:image',
-        content: '/clean-square.png',
+        content: 'https://www.starthn.ba/og-image.png',
       },
-      { property: 'og:url', content: 'https://starthn.ba' },
+      { property: 'og:image:width', content: '1200' },
+      { property: 'og:image:height', content: '630' },
+      { property: 'og:image:type', content: 'image/png' },
+      {
+        property: 'og:image:alt',
+        content: 'Start HN — Računovodstvena agencija',
+      },
+      // og:url, twitter:url, canonical and hreflang are server-rendered per-page
+      // by the {-$locale} layout route (see its head()), which knows the locale
+      // and full path. They are intentionally NOT set here on the static root.
       { property: 'og:locale', content: 'en_US' },
       { name: 'twitter:card', content: 'summary_large_image' },
       {
@@ -236,7 +245,7 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       },
       {
         name: 'twitter:image',
-        content: '/clean-square.png',
+        content: 'https://www.starthn.ba/og-image.png',
       },
     ],
     links: [
@@ -254,7 +263,6 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       { rel: 'icon', type: 'image/png', href: '/favicon-32.png' },
       { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
       { rel: 'manifest', href: '/manifest.json' },
-      { rel: 'canonical', href: 'https://starthn.ba/en-US' },
       {
         rel: 'preload',
         as: 'image',

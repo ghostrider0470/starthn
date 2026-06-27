@@ -75,6 +75,11 @@ export class RoleRepository {
     return this.toDto(rows[0])
   }
 
+  async getByName(name: string): Promise<RoleDto | null> {
+    const rows = await this.db.select().from(roles).where(eq(roles.name, name)).limit(1)
+    return rows[0] ? this.toDto(rows[0]) : null
+  }
+
   private toDto(row: typeof roles.$inferSelect): RoleDto {
     return {
       id: row.id,

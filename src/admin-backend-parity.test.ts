@@ -20,20 +20,16 @@ describe('admin and backend Ponte parity', () => {
   })
 
   it('keeps StartHN on the configured Microsoft tenant for OAuth', () => {
+    // OAuth token exchange moved from the Azure AuthService to the Cloudflare
+    // Worker auth handler; the frontend still builds the authorize URL.
     const frontendOauth = readProjectFile('src', 'services', 'oauth.service.ts')
-    const backendAuth = readProjectFile(
-      'api',
-      'Services',
-      'Implementations',
-      'AuthService.cs',
-    )
+    const workerAuth = readProjectFile('src', 'server', 'routes', 'auth.ts')
 
     expect(frontendOauth).toContain(
       'https://login.microsoftonline.com/aa722524-5f12-410b-b06c-d5a8d54b1ddf/oauth2/v2.0/authorize',
     )
-    expect(backendAuth).toContain(
-      'https://login.microsoftonline.com/aa722524-5f12-410b-b06c-d5a8d54b1ddf/oauth2/v2.0/token',
-    )
+    expect(workerAuth).toContain('aa722524-5f12-410b-b06c-d5a8d54b1ddf')
+    expect(workerAuth).toContain('oauth2/v2.0/token')
   })
 
   it('counts only published blog posts for public totals', () => {
@@ -50,14 +46,8 @@ describe('admin and backend Ponte parity', () => {
     expect(getCount).toContain('where(eq(blogPosts.isPublished, 1))')
   })
 
-  it('keeps the Azure force sync hourly safety net', () => {
-    const forceSync = readProjectFile(
-      'api',
-      'Functions',
-      'ForceSyncFunction.cs',
-    )
-
-    expect(forceSync).toContain('[Function("PeriodicSync")]')
-    expect(forceSync).toContain('[TimerTrigger("0 0 * * * *")]')
-  })
+  // NOTE: The Azure→D1 hourly force-sync safety net was intentionally removed when
+  // D1 became the sole store and the Cosmos mirror was dropped (ForceSyncFunction
+  // and the rest of the sync machinery were deleted). Azure now only hosts the AI
+  // translate + chat + contact endpoints, so there is no sync net to assert.
 })

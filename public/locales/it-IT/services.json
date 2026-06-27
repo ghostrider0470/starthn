@@ -1,0 +1,384 @@
+{
+  "common": {
+    "fallbackTitle": "Servizio",
+    "service": "Servizio",
+    "overview": "Panoramica",
+    "scope": "Cosa trattiamo",
+    "process": "Come lavoriamo",
+    "outputs": "Risultati",
+    "nextStep": "Passo successivo",
+    "learnMore": "Scopri di più",
+    "ctaPrimary": "Avvia una conversazione",
+    "ctaSecondary": "Visualizza tutti i servizi",
+    "backToServices": "Torna ai servizi"
+  },
+  "index": {
+    "overline": "Servizi Start HN",
+    "title": "Supporto contabile per ogni fase dell'azienda.",
+    "description": "Sei aree di servizio chiare coprono la contabilità, gli obblighi fiscali, la rendicontazione, la consulenza e la formazione che danno alla tua azienda un miglior controllo.",
+    "introOverline": "Servizi",
+    "introTitle": "Una squadra, un quadro finanziario chiaro",
+    "introBody": "Start HN collega la contabilità pratica, il monitoraggio fiscale, la rendicontazione finanziaria e il supporto alla consulenza, così che proprietari e dirigenti possano prendere decisioni basate su dati affidabili, non su documentazione di massa.",
+    "cta": {
+      "title": "Non sei sicuro di quale servizio ti serve?",
+      "description": "Raccontaci come funziona attualmente la tua azienda e ti suggeriremo il giusto ambito di supporto: contabilità regolare, consulenza approfondita o consulenza mirata.",
+      "button": "Prenota una consulenza"
+    }
+  },
+  "items": {
+    "bookkeeping": {
+      "label": "01",
+      "title": "Tenuta contabile e contabilità",
+      "shortDescription": "Contabilità completa, registri contabili, busti paga, registri IVA e rapporti finali per artigiani e aziende.",
+      "heroDescription": "I libri affidabili sono la base operativa di qualsiasi attività. Manteniamo i tuoi documenti accurati, aggiornati e pronti per scadenze fiscali, banche e decisioni manageriali.",
+      "overviewTitle": "Record giornalieri senza carico giornaliero",
+      "overview": "Organizziamo l'intero ciclo contabile: ricezione della documentazione, registrazione di fatture e spese, calcolo di stipendi e contributi, registrazioni IVA, domande legali e chiusura annuale. L'obiettivo è semplice: registri ordinati, responsabilità chiare e nessuna sorpresa prima delle scadenze.",
+      "bestForTitle": "Il meglio per",
+      "bestFor": [
+        "Piccole e medie imprese che necessitano di supporto contabile regolare.",
+        "Attività artigianali e autonome che desiderano registrazioni legali adeguate",
+        "Squadre che si trasferiscono da un altro contabile",
+        "I proprietari che vogliono numeri mensili chiari, non solo rapporti annuali"
+      ],
+      "detailsTitle": "Ambito della contabilità",
+      "details": [
+        {
+          "title": "Configurazione e passaggio della contabilità",
+          "description": "Esaminiamo registrazioni, registri esistenti, saldi iniziali, dati salariali e calendario degli obblighi per far partire il servizio."
+        },
+        {
+          "title": "Operazioni contabili mensili",
+          "description": "Fatture, spese, transazioni bancarie, stipendi, contributi, atti IVA e obblighi legali regolari vengono elaborati a un ritmo mensile prevedibile."
+        },
+        {
+          "title": "Conti annuali e chiusura annuale",
+          "description": "Prepariamo calcoli finali, bilanci, dichiarazioni fiscali e documentazione di supporto per mantenere l'azienda allineata e pronta per i controlli."
+        }
+      ],
+      "processTitle": "Ritmo mensile prevedibile",
+      "process": [
+        {
+          "title": "Collezione",
+          "description": "Invii la documentazione digitalmente o fisicamente secondo il flusso di lavoro concordato."
+        },
+        {
+          "title": "Lavorazione",
+          "description": "Registriamo le transazioni, calcoliamo le passività e controlliamo i registri prima delle scadenze."
+        },
+        {
+          "title": "Reportage",
+          "description": "Ricevi riassunti chiari e i prossimi passi, e le domande vengono affrontate prima che diventino un rischio."
+        }
+      ],
+      "deliverablesTitle": "Risultati tipici",
+      "deliverables": [
+        "Registri contabili mensili",
+        "Registri di IVA e fiscali",
+        "Stipendi e calcoli dei contributi",
+        "Bilanci Annuali",
+        "Conferme della presentazione delle domande",
+        "Consulenza contabile regolare"
+      ],
+      "cta": {
+        "title": "Pronto a modificare i tuoi libri?",
+        "description": "Esamineremo i tuoi dati attuali e definiremo un flusso contabile mensile che corrisponde al modo in cui la tua azienda effettivamente opera.",
+        "button": "Richiedi assistenza contabile"
+      }
+    },
+    "taxConsulting": {
+      "label": "02",
+      "title": "Consulenza fiscale",
+      "shortDescription": "Monitoraggio fiscale, pianificazione, supporto alle domande, monitoraggio delle scadenze e indicazioni pratiche per individui e entità giuridiche.",
+      "heroDescription": "Gli obblighi fiscali cambiano rapidamente e gli errori sono costosi. Ti aiutiamo a capire cosa è applicabile, cosa è dovuto e come pianificare entro le normative.",
+      "overviewTitle": "Consulenza fiscale prima che sorga un problema",
+      "overview": "Il nostro supporto fiscale collega conformità e pianificazione: monitoriamo le scadenze, rivediamo gli obblighi, spieghiamo i cambiamenti normativi, prepariamo dichiarazioni e consigliamo prima che le decisioni generino costi o rischi inutili.",
+      "bestForTitle": "Il meglio per",
+      "bestFor": [
+        "Aziende che necessitano di un monitoraggio fiscale regolare",
+        "Proprietari che prendono decisioni su investimenti, occupazione o prezzi",
+        "Persone fisiche e imprenditori con obblighi di rendicontazione",
+        "Aziende che vogliono ridurre le multe e le successive correzioni"
+      ],
+      "detailsTitle": "Ambito della consulenza fiscale",
+      "details": [
+        {
+          "title": "Panoramica dei Da Fare",
+          "description": "Esaminiamo registrazioni attive, registrazioni anticipate, esposizione alla IVA e al salario, e scadenze imminenti."
+        },
+        {
+          "title": "Supporto alla conformità e alla reportistica",
+          "description": "Prepariamo e rivediamo le dichiarazioni dei redditi, monitoriamo le scadenze e aiutiamo a correggere le omissioni prima che diventino penalità."
+        },
+        {
+          "title": "Pianificazione e supporto decisionale",
+          "description": "Spieghiamo le implicazioni fiscali delle decisioni aziendali, delle detrazioni, dei cambiamenti organizzativi, delle assunzioni, dei pagamenti e di altre questioni finanziarie comuni."
+        }
+      ],
+      "processTitle": "Sostegno fiscale che va avanti",
+      "process": [
+        {
+          "title": "Valutazione",
+          "description": "Mappiamo la posizione fiscale attuale e individuiamo passività aperte o punti di rischio."
+        },
+        {
+          "title": "Piano",
+          "description": "Definiamo scadenze, responsabilità e opzioni legali per la pianificazione fiscale."
+        },
+        {
+          "title": "Manutenzione",
+          "description": "Allineiamo report e consulenze alle attività aziendali e ai cambiamenti normativi."
+        }
+      ],
+      "deliverablesTitle": "Risultati tipici",
+      "deliverables": [
+        "Calendario delle obbligazioni fiscali",
+        "Linee guida per l'IVA e l'imposta sul reddito/profitto",
+        "Linee guida per i contributi salariali",
+        "Revisione e correzioni delle domande",
+        "Note sulla pianificazione fiscale",
+        "Supporto alle scadenze e alla conformità"
+      ],
+      "cta": {
+        "title": "Hai bisogno di chiarezza sui tuoi obblighi fiscali?",
+        "description": "Inviaci la tua situazione attuale e ti aiuteremo a capire cosa è dovuto, cosa può essere migliorato e quale sarà il passo successivo.",
+        "button": "Parliamo di supporto fiscale"
+      }
+    },
+    "virtualCfo": {
+      "label": "03",
+      "title": "CFO virtuale",
+      "shortDescription": "Insight finanziario senior senza un CFO permanente: flusso di cassa, budget, KPI e supporto decisionale.",
+      "heroDescription": "Un CFO virtuale offre a proprietari e dirigenti una visione più chiara della salute finanziaria, del flusso di cassa, della redditività e delle scelte strategiche.",
+      "overviewTitle": "Gestione finanziaria su base flessibile.",
+      "overview": "Traduciamo i dati contabili in intuizioni manageriali pratiche: budget, previsioni, pianificazione dei flussi di cassa, analisi della redditività e indicatori finanziari che mostrano dove l'azienda è forte e dove serve attenzione.",
+      "bestForTitle": "Il meglio per",
+      "bestFor": [
+        "Aziende in crescita che hanno bisogno di più della semplice contabilità.",
+        "Proprietari che stanno preparando finanziamenti o decisioni di investimento",
+        "Squadre senza un CFO interno",
+        "Manager che vogliono trasformare i numeri mensili in azione"
+      ],
+      "detailsTitle": "Il ruolo di un CFO virtuale",
+      "details": [
+        {
+          "title": "Una panoramica della salute finanziaria",
+          "description": "Analizziamo redditività, liquidità, struttura dei costi, crediti, passività e rischi chiave nell'attuale quadro finanziario."
+        },
+        {
+          "title": "Pianificazione e previsione",
+          "description": "Prepariamo budget, previsioni di flusso di cassa, scenari e assunzioni che rendono più facile valutare le decisioni manageriali."
+        },
+        {
+          "title": "Reportistica manageriale",
+          "description": "Definiamo KPI e formati di report che collegano i dati finanziari alle decisioni su crescita, costi, prezzi e operazioni."
+        }
+      ],
+      "processTitle": "Dai record alle decisioni",
+      "process": [
+        {
+          "title": "Diagnosi",
+          "description": "Esaminiamo i report esistenti e individuiamo le domande finanziarie a cui la direzione ha bisogno di risposte."
+        },
+        {
+          "title": "Modellazione",
+          "description": "Costruiamo budget, previsioni e scenari pratici basati su assunzioni realistiche di business."
+        },
+        {
+          "title": "Consulenza",
+          "description": "Spieghiamo regolarmente i risultati, i rischi e i prossimi passi raccomandati."
+        }
+      ],
+      "deliverablesTitle": "Risultati tipici",
+      "deliverables": [
+        "Rapporto Mensile di Gestione",
+        "Previsione del flusso di cassa",
+        "Analisi del Budget e delle Deviazioni",
+        "Struttura dei report KPI",
+        "Analisi della redditività",
+        "Riunioni consultive"
+      ],
+      "cta": {
+        "title": "Hai bisogno di chiarezza a livello di CFO?",
+        "description": "Possiamo trasformare i tuoi dati contabili in una panoramica manageriale che supporta crescita, finanziamenti e decisioni migliori.",
+        "button": "Parliamo del Virtual CFO"
+      }
+    },
+    "businessConsulting": {
+      "label": "04",
+      "title": "Consulenza aziendale",
+      "shortDescription": "Consigli pratici per l'organizzazione, la crescita, i processi interni, i costi, i prezzi e le decisioni operative.",
+      "heroDescription": "Un buon conto contabile mostra cosa è successo. Una buona consulenza ti aiuta a decidere cosa fare dopo.",
+      "overviewTitle": "Linee guida pratiche basate sui numeri",
+      "overview": "Supportiamo proprietari e manager nelle decisioni finanziarie e operative: organizzazione aziendale, miglioramento dei processi, controllo dei costi, prezzi, disciplina della fatturazione, documentazione interna e pianificazione della crescita.",
+      "bestForTitle": "Il meglio per",
+      "bestFor": [
+        "Nuove imprese che istituiscono processi finanziari",
+        "Aziende che migliorano i controlli interni e il flusso della documentazione",
+        "Proprietari che stimano costi, prezzi o espansione",
+        "Team che desiderano consigli legati alla realtà contabile"
+      ],
+      "detailsTitle": "Ambito della consulenza aziendale",
+      "details": [
+        {
+          "title": "Organizzazione e avvio dell'azienda",
+          "description": "Aiutiamo a definire il flusso della documentazione, delle responsabilità di reportistica, delle routine contabili e dei controlli pratici nel lavoro quotidiano."
+        },
+        {
+          "title": "Supporto alle decisioni finanziarie.",
+          "description": "Esaminiamo costi, margini, prezzi, esigenze di liquidità e investimenti pianificati affinché le decisioni abbiano un effetto misurabile."
+        },
+        {
+          "title": "Miglioramento dei processi",
+          "description": "Individuiamo dove documentazione, approvazioni, reportistica o fatturazione possono essere semplificate e rese più affidabili."
+        }
+      ],
+      "processTitle": "Consulenza senza teoria del vuoto",
+      "process": [
+        {
+          "title": "Mappatura",
+          "description": "Mappiamo il processo esistente, i documenti e le questioni finanziarie."
+        },
+        {
+          "title": "Priorità",
+          "description": "Mettiamo in evidenza i cambiamenti che portano il valore aziendale più rapido e importante."
+        },
+        {
+          "title": "Applicazione",
+          "description": "Definiamo passaggi pratici, responsabilità e follow-up."
+        }
+      ],
+      "deliverablesTitle": "Risultati tipici",
+      "deliverables": [
+        "Panoramica dei processi aziendali",
+        "Note su costi e margini",
+        "Linee guida per prezzi e flussi di cassa",
+        "Raccomandazioni per i controlli interni.",
+        "Impostazione del flusso di documentazione",
+        "Incontri consultivi con il proprietario"
+      ],
+      "cta": {
+        "title": "Hai bisogno di una panoramica pratica della tua attività?",
+        "description": "Esamineremo i tuoi numeri e il funnel operativo, poi raccomanderemo cambiamenti che migliorano maggiormente il controllo e la redditività.",
+        "button": "Richiedi una consulenza"
+      }
+    },
+    "financialReporting": {
+      "label": "05",
+      "title": "Rendicontazione finanziaria",
+      "shortDescription": "Report legali e manageriali chiari che aiutano a comprendere risultati, passività e tendenze finanziarie.",
+      "heroDescription": "I rapporti non devono essere file incomprensibili che rispettano solo una scadenza. Devono sapere cosa succede nel mondo degli affari.",
+      "overviewTitle": "Rapporti che la direzione utilizza effettivamente",
+      "overview": "Prepariamo rapporti legali, riassunti manageriali, bilanci e formati analitici che facilitano la comprensione di ricavi, spese, profitti, liquidità e passività.",
+      "bestForTitle": "Il meglio per",
+      "bestFor": [
+        "Aziende che necessitano di una rendicontazione mensile più chiara",
+        "Gestori che preparano documentazione per banche, partner o investitori",
+        "Proprietari che vogliono tenere traccia di profitti e liquidità in ogni momento",
+        "Imprese che devono armonizzare le opinioni legali e manageriali"
+      ],
+      "detailsTitle": "Ambito del reportage",
+      "details": [
+        {
+          "title": "Rendicontazione Finanziaria Statutaria",
+          "description": "Prepariamo i bilanci previsti dalla legge e le revisioni relative sulla base di registri contabili adeguati."
+        },
+        {
+          "title": "Reportistica manageriale",
+          "description": "Creiamo revisioni mensili o trimestrali concise che spiegano risultati, passività, margini e tendenze."
+        },
+        {
+          "title": "Analisi finanziaria",
+          "description": "Interpretiamo i numeri attraverso indicatori, confronti e commenti che supportano le decisioni, non solo i documenti."
+        }
+      ],
+      "processTitle": "Ciclo di rendicontazione chiara",
+      "process": [
+        {
+          "title": "Struttura",
+          "description": "Definiamo quali domande il rapporto deve ricevere risposta e chi lo utilizzerà."
+        },
+        {
+          "title": "Preparazione",
+          "description": "Raccogliamo dati accurati da registri contabili e documentazione di supporto."
+        },
+        {
+          "title": "Spiegazione",
+          "description": "Riassumiamo tendenze, rischi e prossimi passi in un linguaggio semplice."
+        }
+      ],
+      "deliverablesTitle": "Risultati tipici",
+      "deliverables": [
+        "Bilanci",
+        "Riassunti manageriali mensili",
+        "Analisi di profitto e costi",
+        "Panoramica di contanti e passività",
+        "Segnala i pacchetti per banche o partner",
+        "Supporto alla Reportistica Finale"
+      ],
+      "cta": {
+        "title": "Vuoi report più facili da usare?",
+        "description": "Possiamo trasformare i dati contabili in un formato chiaro per la gestione, i partner, le banche o la pianificazione interna.",
+        "button": "Migliorare la rendicontazione"
+      }
+    },
+    "education": {
+      "label": "06",
+      "title": "Formazione e Corsi",
+      "shortDescription": "Workshop in contabilità, tasse e finanza che aiutano proprietari e team a comprendere le responsabilità e a prendere decisioni migliori.",
+      "heroDescription": "Una migliore alfabetizzazione finanziaria riduce gli errori, migliora la comunicazione interna e aiuta i team a collaborare più efficacemente con i commercialisti.",
+      "overviewTitle": "Conoscenza che rende il lavoro quotidiano più facile",
+      "overview": "Organizziamo corsi pratici per proprietari, manager e team amministrativi: basi della contabilità, preparazione della documentazione, scadenze fiscali, basi degli stipendi, interpretazione dei report e migliore collaborazione con la contabilità.",
+      "bestForTitle": "Il meglio per",
+      "bestFor": [
+        "Proprietari che vogliono comprendere i propri obblighi",
+        "Personale amministrativo che gestisce documenti e fatture",
+        "Team che introducono nuovi processi di reportistica",
+        "I manager che vogliono leggere i bilanci con maggiore sicurezza"
+      ],
+      "detailsTitle": "Ambito dell'istruzione",
+      "details": [
+        {
+          "title": "Nozioni di base della contabilità",
+          "description": "Spieghiamo i registri, i documenti e le scadenze che influenzano l'attività quotidiana."
+        },
+        {
+          "title": "Tasse e salari nella pratica",
+          "description": "Copriamo impegni frequenti, scadenze regolari, basi sui contributi e punti di rischio pratici."
+        },
+        {
+          "title": "Rendicontazione finanziaria",
+          "description": "Aiutiamo i team a comprendere i bilanci, le revisioni manageriali e le domande a cui questi report devono rispondere."
+        }
+      ],
+      "processTitle": "L'istruzione costruita attorno al vero lavoro",
+      "process": [
+        {
+          "title": "Definizione",
+          "description": "Determiniamo cosa il team deve comprendere e quali errori devono essere evitati."
+        },
+        {
+          "title": "Istruzione",
+          "description": "Organizziamo sessioni pratiche con esempi legati al tuo lavoro quotidiano."
+        },
+        {
+          "title": "Applicazione",
+          "description": "Il team riceve checklist, routine e responsabilità più chiare."
+        }
+      ],
+      "deliverablesTitle": "Risultati tipici",
+      "deliverables": [
+        "Laboratori e corsi brevi",
+        "Liste di controllo per il processo contabile",
+        "Panoramica delle scadenze fiscali",
+        "Linee guida per la preparazione della documentazione",
+        "Sessioni per la lettura dei rapporti",
+        "Domande e risposte per il team"
+      ],
+      "cta": {
+        "title": "Vuoi che il tuo team capisca meglio i numeri?",
+        "description": "Possiamo preparare un workshop focalizzato sul tuo processo contabile, sulle tue domande e sulle domande frequenti sulla fiscalità.",
+        "button": "Pianifica il tuo allenamento"
+      }
+    }
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "common": {
+    "fallbackTitle": "Service",
+    "service": "Service",
+    "overview": "Aperçu",
+    "scope": "Ce que nous couvrons",
+    "process": "Comment nous travaillons",
+    "outputs": "Résultats",
+    "nextStep": "Étape suivante",
+    "learnMore": "En savoir plus",
+    "ctaPrimary": "Démarrer une conversation",
+    "ctaSecondary": "Voir tous les services",
+    "backToServices": "Retour aux services"
+  },
+  "index": {
+    "overline": "Services Start HN",
+    "title": "Soutien comptable pour chaque étape de l’entreprise.",
+    "description": "Six domaines de service clairs couvrent la comptabilité, les obligations fiscales, la déclaration, le conseil et la formation, ce qui permet à votre entreprise de mieux contrôler.",
+    "introOverline": "Services",
+    "introTitle": "Une équipe, une situation financière claire",
+    "introBody": "Start HN relie la tenue de livres pratique, la surveillance fiscale, la déclaration financière et le soutien au conseil afin que les propriétaires et la direction puissent prendre des décisions basées sur des données fiables, et non sur une documentation en bloc.",
+    "cta": {
+      "title": "Vous ne savez pas quel service vous avez besoin ?",
+      "description": "Dites-nous comment fonctionne actuellement votre entreprise et nous vous suggérerons le bon champ de soutien : tenue régulière de la comptabilité, consultation approfondie ou consultation ciblée.",
+      "button": "Prenez rendez-vous pour une consultation"
+    }
+  },
+  "items": {
+    "bookkeeping": {
+      "label": "01",
+      "title": "Tenue de livres et comptabilité",
+      "shortDescription": "Tenue complète de la comptabilité, des registres comptables, des registres de paie, de la TVA et des rapports finaux pour les artisans et les entreprises.",
+      "heroDescription": "Les livres fiables sont la base opérationnelle de toute entreprise. Nous maintenons vos dossiers avec précision, à jour et prêts pour les échéances fiscales, les banques et les décisions de gestion.",
+      "overviewTitle": "Records quotidiens sans charge quotidienne",
+      "overview": "Nous organisons l’ensemble du cycle comptable : réception des documents, enregistrement des factures et des dépenses, calcul des salaires et des contributions, relevés de TVA, demandes juridiques et clôture annuelle. L’objectif est simple : des dossiers propres, des responsabilités claires et aucune surprise avant les échéances.",
+      "bestForTitle": "Le meilleur pour",
+      "bestFor": [
+        "Les petites et moyennes entreprises qui ont besoin d’un soutien comptable régulier.",
+        "Métiers d’artisanat et d’indépendants qui souhaitent des dossiers juridiques appropriés",
+        "Équipes qui passent d’un autre comptable",
+        "Des propriétaires qui veulent des chiffres mensuels clairs, pas seulement des rapports annuels"
+      ],
+      "detailsTitle": "Champ d’application de la comptabilité",
+      "details": [
+        {
+          "title": "Mise en place et transfert de la comptabilité",
+          "description": "Nous examinons l’enregistrement, les dossiers existants, les soldes de départ, les données salariales et le calendrier des obligations pour lancer le service."
+        },
+        {
+          "title": "Opérations comptables mensuelles",
+          "description": "Les factures, dépenses, transactions bancaires, salaires, contributions, registres de TVA et obligations légales régulières sont traités à un rythme mensuel prévisible."
+        },
+        {
+          "title": "Comptes annuels et fermeture annuelle",
+          "description": "Nous préparons les calculs finaux, les états financiers, les déclarations fiscales et les documents justificatifs afin de maintenir l’entreprise alignée et prête aux contrôles."
+        }
+      ],
+      "processTitle": "Rythme mensuel prévisible",
+      "process": [
+        {
+          "title": "Collection",
+          "description": "Vous soumettez la documentation en version numérique ou physique selon le flux de travail convenu."
+        },
+        {
+          "title": "Traitement",
+          "description": "Nous enregistrons les transactions, calculons les passifs et vérifions les dossiers avant les échéances."
+        },
+        {
+          "title": "Reportage",
+          "description": "Vous obtenez des résumés clairs et des prochaines étapes, et les questions sont abordées avant qu’elles ne deviennent un risque."
+        }
+      ],
+      "deliverablesTitle": "Résultats typiques",
+      "deliverables": [
+        "Registres comptables mensuels",
+        "Registres de TVA et d’impôts",
+        "Calculs de paie et de cotisations",
+        "Rapports financiers annuels",
+        "Confirmations de soumission de candidatures",
+        "Conseil comptable régulier"
+      ],
+      "cta": {
+        "title": "Prêt à éditer vos livres ?",
+        "description": "Nous examinerons vos dossiers actuels et définirons un flux comptable mensuel correspondant à la manière dont votre entreprise fonctionne réellement.",
+        "button": "Demande d’aide à la tenue de livres"
+      }
+    },
+    "taxConsulting": {
+      "label": "02",
+      "title": "Conseil fiscal",
+      "shortDescription": "Suivi fiscal, planification, support à la demande, suivi des délais et conseils pratiques pour les particuliers et les entités juridiques.",
+      "heroDescription": "Les obligations fiscales évoluent rapidement et les erreurs coûtent cher. Nous vous aidons à comprendre ce qui s’applique, ce qui est dû et comment planifier dans le respect des réglementations.",
+      "overviewTitle": "Conseils fiscaux avant qu’un problème ne survienne",
+      "overview": "Notre soutien fiscal relie conformité et planification : nous suivons les délais, examinons les obligations, expliquons les changements réglementaires, préparons des déclarations et conseillons avant que les décisions n’engendrent des coûts ou des risques inutiles.",
+      "bestForTitle": "Le meilleur pour",
+      "bestFor": [
+        "Entreprises nécessitant une surveillance fiscale régulière",
+        "Les propriétaires qui prennent des décisions concernant les investissements, l’emploi ou les prix",
+        "Personnes physiques et entrepreneurs ayant des obligations de déclaration",
+        "Les entreprises souhaitant réduire les amendes et les corrections qui en découlent"
+      ],
+      "detailsTitle": "Champ d’application du conseil fiscal",
+      "details": [
+        {
+          "title": "Aperçu des tâches à faire",
+          "description": "Nous examinons les enregistrements actifs, les inscriptions anticipées, l’exposition à la TVA et à la paie, ainsi que les échéances à venir."
+        },
+        {
+          "title": "Soutien à la conformité et à la déclaration",
+          "description": "Nous préparons et examinons les déclarations fiscales, suivons les délais et aidons à corriger les omissions avant qu’elles ne deviennent des pénalités."
+        },
+        {
+          "title": "Planification et soutien à la décision",
+          "description": "Nous expliquons les implications fiscales des décisions professionnelles, des déductions, des changements organisationnels, des embauches, des paiements et d’autres questions financières courantes."
+        }
+      ],
+      "processTitle": "Un soutien fiscal qui va un cran de plus",
+      "process": [
+        {
+          "title": "Évaluation",
+          "description": "Nous cartographions la position fiscale actuelle et identifions les passifs ouverts ou les points de risque."
+        },
+        {
+          "title": "Plan",
+          "description": "Nous définissons les échéances, responsabilités et options juridiques pour la planification fiscale."
+        },
+        {
+          "title": "Entretien",
+          "description": "Nous alignons les rapports et les conseils sur les activités de votre entreprise et les changements réglementaires."
+        }
+      ],
+      "deliverablesTitle": "Résultats typiques",
+      "deliverables": [
+        "Calendrier des obligations fiscales",
+        "Directives sur la TVA et l’impôt sur le revenu/bénéfice",
+        "Directives pour les contributions au salaire",
+        "Révision et corrections des candidatures",
+        "Notes sur la planification fiscale",
+        "Soutien aux délais et conformité"
+      ],
+      "cta": {
+        "title": "Vous avez besoin de clarté sur vos obligations fiscales ?",
+        "description": "Envoyez-nous votre situation actuelle et nous vous aiderons à comprendre ce qui est dû, ce qui peut être amélioré et quelle est la prochaine étape.",
+        "button": "Parlons de soutien fiscal"
+      }
+    },
+    "virtualCfo": {
+      "label": "03",
+      "title": "Directeur financier virtuel",
+      "shortDescription": "Analyse financière senior sans directeur financier permanent : flux de trésorerie, budgets, KPIs et support à la décision.",
+      "heroDescription": "Un CFO virtuel offre aux propriétaires et à la direction une vision plus claire de la santé financière, de la trésorerie, de la rentabilité et des choix stratégiques.",
+      "overviewTitle": "Gestion financière sur une base flexible.",
+      "overview": "Nous traduisons les données comptables en insights managériales pratiques : budgets, prévisions, planification des flux de trésorerie, analyses de rentabilité et indicateurs financiers qui montrent où l’entreprise est forte et où l’attention est nécessaire.",
+      "bestForTitle": "Le meilleur pour",
+      "bestFor": [
+        "Des entreprises en croissance qui ont besoin de plus que la simple comptabilité.",
+        "Propriétaires qui préparent des décisions de financement ou d’investissement",
+        "Équipes sans directeur financier interne",
+        "Des managers qui veulent transformer les chiffres mensuels en actions"
+      ],
+      "detailsTitle": "Le rôle d’un directeur financier virtuel",
+      "details": [
+        {
+          "title": "Aperçu de la santé financière",
+          "description": "Nous analysons la rentabilité, la liquidité, la structure des coûts, les créances, les passifs et les risques clés dans la situation financière actuelle."
+        },
+        {
+          "title": "Planification et prévisions",
+          "description": "Nous préparons des budgets, des prévisions de flux de trésorerie, des scénarios et des hypothèses qui facilitent l’évaluation des décisions managériales."
+        },
+        {
+          "title": "Rapports de gestion",
+          "description": "Nous définissons des KPI et des formats de rapports qui relient les données financières aux décisions concernant la croissance, les coûts, les prix et les opérations."
+        }
+      ],
+      "processTitle": "Des archives aux décisions",
+      "process": [
+        {
+          "title": "Diagnostic",
+          "description": "Nous examinons les rapports existants et identifions les questions financières auxquelles la direction doit répondre."
+        },
+        {
+          "title": "Modélisation",
+          "description": "Nous élaborons des budgets, des prévisions et des scénarios concrets basés sur des hypothèses commerciales réalistes."
+        },
+        {
+          "title": "Conseil",
+          "description": "Nous expliquons régulièrement les résultats, les risques et les prochaines étapes recommandées."
+        }
+      ],
+      "deliverablesTitle": "Résultats typiques",
+      "deliverables": [
+        "Rapport mensuel de gestion",
+        "Prévisions des flux de trésorerie",
+        "Analyse budgétaire et d’écartement",
+        "Structure des rapports KPI",
+        "Analyse de rentabilité",
+        "Réunions consultatives"
+      ],
+      "cta": {
+        "title": "Avez-vous besoin de clarté au niveau du directeur financier ?",
+        "description": "Nous pouvons transformer vos données comptables en une vue d’ensemble managériale qui soutient la croissance, le financement et de meilleures décisions.",
+        "button": "Parlez-nous du CFO virtuel"
+      }
+    },
+    "businessConsulting": {
+      "label": "04",
+      "title": "Conseil en affaires",
+      "shortDescription": "Conseils pratiques pour l’organisation, la croissance, les processus internes, les coûts, la tarification et les décisions opérationnelles.",
+      "heroDescription": "Un bon compte comptable montre ce qui s’est passé. Une bonne consultation vous aide à décider de la suite à donner.",
+      "overviewTitle": "Lignes directrices pratiques basées sur les chiffres",
+      "overview": "Nous accompagnons les propriétaires et les managers dans les décisions financières et opérationnelles : organisation de l’entreprise, amélioration des processus, contrôle des coûts, tarification, discipline de la facturation, documentation interne et planification de la croissance.",
+      "bestForTitle": "Le meilleur pour",
+      "bestFor": [
+        "Nouvelles entreprises qui mettent en place des processus financiers",
+        "Entreprises qui améliorent les contrôles internes et le flux de documentation",
+        "Propriétaires qui estiment les coûts, les prix ou l’expansion",
+        "Équipes qui souhaitent des conseils liés à la réalité comptable"
+      ],
+      "detailsTitle": "Champ d’action du conseil en affaires",
+      "details": [
+        {
+          "title": "Organisation et mise en place de l’entreprise",
+          "description": "Nous aidons à définir le flux de documentation, les responsabilités de rapport, les routines comptables et les contrôles pratiques dans le travail quotidien."
+        },
+        {
+          "title": "Soutenir les décisions financières.",
+          "description": "Nous examinons les coûts, les marges, les prix, les besoins en trésorerie et les investissements planifiés afin que les décisions aient un effet mesurable."
+        },
+        {
+          "title": "Amélioration des processus",
+          "description": "Nous identifions les endroits où la documentation, les approbations, les rapports ou la facturation peuvent être simplifiés et rendus plus fiables."
+        }
+      ],
+      "processTitle": "Théorie du consulting sans vide",
+      "process": [
+        {
+          "title": "Cartographie",
+          "description": "Nous cartographions le processus existant, les documents et les questions financières."
+        },
+        {
+          "title": "Priorités",
+          "description": "Nous mettons en avant les changements qui apportent la valeur commerciale la plus rapide et la plus importante."
+        },
+        {
+          "title": "Application",
+          "description": "Nous définissons les étapes pratiques, les responsabilités et le suivi."
+        }
+      ],
+      "deliverablesTitle": "Résultats typiques",
+      "deliverables": [
+        "Aperçu des processus métier",
+        "Notes sur les coûts et les marges",
+        "Directives de tarification et de flux de trésorerie",
+        "Recommandations pour les contrôles internes.",
+        "Réglage du flux de documentation",
+        "Réunions consultatives avec le propriétaire"
+      ],
+      "cta": {
+        "title": "Vous avez besoin d’un aperçu pratique de votre entreprise ?",
+        "description": "Nous examinerons vos chiffres et votre entonnoir opérationnel, puis recommanderons des changements qui amélioreront le contrôle et la rentabilité.",
+        "button": "Demandez une consultation"
+      }
+    },
+    "financialReporting": {
+      "label": "05",
+      "title": "Rapports financiers",
+      "shortDescription": "Des rapports juridiques et managériaux clairs qui aident à comprendre les résultats, les passifs et les tendances financières.",
+      "heroDescription": "Les rapports n’ont pas besoin d’être des fichiers incompréhensibles qui respectent simplement une échéance. Ils doivent savoir ce qui se passe dans les affaires.",
+      "overviewTitle": "Rapports que la direction utilise réellement",
+      "overview": "Nous préparons des rapports juridiques, des résumés de gestion, des états financiers et des formats analytiques qui facilitent la compréhension des revenus, des dépenses, des bénéfices, des liquidités et des passifs.",
+      "bestForTitle": "Le meilleur pour",
+      "bestFor": [
+        "Entreprises qui ont besoin d’un reporting mensuel plus clair",
+        "Gestionnaires qui préparent la documentation pour les banques, partenaires ou investisseurs",
+        "Propriétaires qui veulent suivre en permanence les bénéfices et la trésorerie",
+        "Les entreprises qui doivent harmoniser les vues juridiques et managériales"
+      ],
+      "detailsTitle": "Champ d’application du reporting",
+      "details": [
+        {
+          "title": "Rapports financiers statutaires",
+          "description": "Nous préparons les états financiers légalement prescrits et les revues associées sur la base de registres comptables appropriés."
+        },
+        {
+          "title": "Rapports de gestion",
+          "description": "Nous créons des revues mensuelles ou trimestrielles concises qui expliquent les résultats, les passifs, les marges et les tendances."
+        },
+        {
+          "title": "Analyse financière",
+          "description": "Nous interprétons les chiffres à travers des indicateurs, des comparaisons et des commentaires qui soutiennent les décisions, pas seulement les enregistrements."
+        }
+      ],
+      "processTitle": "Cycle de déclaration clair",
+      "process": [
+        {
+          "title": "Structure",
+          "description": "Nous définissons quelles questions le rapport doit recevoir réponse et qui l’utilisera."
+        },
+        {
+          "title": "Préparation",
+          "description": "Nous compilons des données précises à partir des registres comptables et de la documentation d’accompagnement."
+        },
+        {
+          "title": "Explication",
+          "description": "Nous récapitulons les tendances, les risques et les prochaines étapes dans un langage simple."
+        }
+      ],
+      "deliverablesTitle": "Résultats typiques",
+      "deliverables": [
+        "États financiers",
+        "Résumés mensuels des managers",
+        "Analyse des profits et des coûts",
+        "Aperçu de la trésorerie et des passifs",
+        "Déclarer les forfaits pour les banques ou partenaires",
+        "Soutien au rapport final"
+      ],
+      "cta": {
+        "title": "Vous souhaitez des rapports plus faciles à utiliser ?",
+        "description": "Nous pouvons transformer les données comptables en un format clair pour la direction, les partenaires, les banques ou la planification interne.",
+        "button": "Améliorer le reporting"
+      }
+    },
+    "education": {
+      "label": "06",
+      "title": "Formation et cours",
+      "shortDescription": "Des ateliers en comptabilité, fiscalité et finance qui aident les propriétaires et les équipes à comprendre les responsabilités et à prendre de meilleures décisions.",
+      "heroDescription": "Une meilleure littératie financière réduit les erreurs, améliore la communication interne et aide les équipes à collaborer plus efficacement avec les comptables.",
+      "overviewTitle": "Des connaissances qui facilitent le travail quotidien",
+      "overview": "Nous organisons des formations pratiques pour les propriétaires, les managers et les équipes administratives : notions de base de la comptabilité, préparation de documents, délais fiscaux, bases des salaires, interprétation des rapports et meilleure coopération avec la comptabilité.",
+      "bestForTitle": "Le meilleur pour",
+      "bestFor": [
+        "Propriétaires qui souhaitent comprendre leurs obligations",
+        "Personnel administratif traitant les documents et les factures",
+        "Équipes qui introduisent de nouveaux processus de reporting",
+        "Les managers qui souhaitent lire les états financiers avec plus d’assurance"
+      ],
+      "detailsTitle": "Champ d’études",
+      "details": [
+        {
+          "title": "Bases de la comptabilité",
+          "description": "Nous expliquons les dossiers, documents et délais qui affectent le quotidien des affaires."
+        },
+        {
+          "title": "Impôts et salaires en pratique",
+          "description": "Nous couvrons les engagements fréquents, les échéances régulières, les bases des contributions et les points de risque pratiques."
+        },
+        {
+          "title": "Rapports financiers",
+          "description": "Nous aidons les équipes à comprendre les états financiers, les revues de direction et les questions auxquelles ces rapports doivent répondre."
+        }
+      ],
+      "processTitle": "L’éducation est construite autour du vrai travail",
+      "process": [
+        {
+          "title": "Définition",
+          "description": "Nous déterminons ce que l’équipe doit comprendre et quelles erreurs doivent être évitées."
+        },
+        {
+          "title": "Éducation",
+          "description": "Nous organisons des sessions pratiques avec des exemples proches de votre travail quotidien."
+        },
+        {
+          "title": "Application",
+          "description": "L’équipe reçoit des listes de contrôle, des routines et des responsabilités plus claires."
+        }
+      ],
+      "deliverablesTitle": "Résultats typiques",
+      "deliverables": [
+        "Ateliers et cours courts",
+        "Listes de contrôle pour le processus comptable",
+        "Aperçu des échéances fiscales",
+        "Lignes directrices pour la préparation de la documentation",
+        "Sessions pour la lecture de rapports",
+        "Questions-réponses pour l’équipe"
+      ],
+      "cta": {
+        "title": "Vous voulez que votre équipe comprenne mieux les chiffres ?",
+        "description": "Nous pouvons préparer un atelier ciblé autour de votre processus comptable, de vos rapports ou de vos FAQ fiscales.",
+        "button": "Planifiez votre entraînement"
+      }
+    }
+  }
+}

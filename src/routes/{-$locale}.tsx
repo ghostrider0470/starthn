@@ -7,6 +7,7 @@ import {
   stripLocalePrefix,
   withLocalePath,
 } from '@/lib/i18n-utils'
+import { buildLocalizedSeoHead } from '@/lib/seo'
 import i18n, { loadTranslationsForSSR } from '@/i18n'
 
 export const Route = createFileRoute('/{-$locale}')({
@@ -69,6 +70,35 @@ export const Route = createFileRoute('/{-$locale}')({
     }
 
     return { locale: resolvedLocale }
+  },
+  // Server-render per-page canonical / og:url / hreflang. This layout route is
+  // on the path of every localized page, and its loader receives the full
+  // `location`, so it's the single place that can compute these correctly during
+  // SSR (the static root head() has no locale or path). On the client, the same
+  // signals are kept in sync on navigation by useI18nMeta (it upserts the same
+  // tags, so there's no duplication).
+  loader: ({ context, location }) => {
+    const normalizedPath = stripLocalePrefix(location.pathname)
+    return { seoHead: buildLocalizedSeoHead(normalizedPath, context.locale) }
+  },
+  head: ({ loaderData }) => {
+    const seoHead = loaderData?.seoHead
+    if (!seoHead) return {}
+    return {
+      meta: [
+        { name: 'robots', content: seoHead.robots },
+        { property: 'og:url', content: seoHead.canonicalUrl },
+        { name: 'twitter:url', content: seoHead.canonicalUrl },
+      ],
+      links: [
+        { rel: 'canonical', href: seoHead.canonicalUrl },
+        ...seoHead.alternates.map((alt) => ({
+          rel: 'alternate',
+          hreflang: alt.hreflang,
+          href: alt.href,
+        })),
+      ],
+    }
   },
   component: () => <Outlet />,
 })

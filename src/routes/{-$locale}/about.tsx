@@ -108,7 +108,7 @@ function AboutPage() {
             <div className="border-t border-border pt-6 lg:border-t-0 lg:border-l lg:pl-8">
               <div className="mb-6 overflow-hidden rounded-lg border border-border">
                 <img
-                  src="/pages/about-hero.jpg"
+                  src="/pages/about-hero.webp"
                   alt="Start HN team collaborating"
                   className="w-full object-cover"
                   loading="eager"

@@ -22,4 +22,16 @@ export type Bindings = {
   AZURE_BLOB_ORIGIN: string
   JWT_SECRET: string
   SYNC_SECRET: string
+  /** "true" = Workers own auth+admin D1 routes; "false" = proxy to Azure */
+  D1_PRIMARY: string
+  /** Comma-separated emails that get MasterAdmin role on first registration */
+  ADMIN_EMAILS: string
+  MICROSOFT_CLIENT_ID: string
+  MICROSOFT_CLIENT_SECRET: string
+  GOOGLE_CLIENT_ID: string
+  GOOGLE_CLIENT_SECRET: string
+  /** "true" = return 503 for all write endpoints during cutover window */
+  MAINTENANCE_MODE: string
+  JWT_ISSUER: string
+  JWT_AUDIENCE: string
 }

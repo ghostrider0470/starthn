@@ -19,6 +19,7 @@ import {
 import authService from '@/services/auth.service'
 import profileService from '@/services/profile.service'
 import api from '@/services/api'
+import { uploadImage } from '@/services/upload.service'
 import { useAuth } from '@/contexts/AuthContext'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -147,12 +148,8 @@ function MyPageEditor() {
   }
 
   async function handleImageUpload(file: File): Promise<{ url: string }> {
-    const formData = new FormData()
-    formData.append('image', file)
-    const res = await api.post<{ url: string }>('/user/page-image', formData, {
-      headers: { 'Content-Type': 'multipart/form-data' },
-    })
-    return res.data
+    const result = await uploadImage(file, 'page-images')
+    return { url: result.url }
   }
 
   const slug = user?.slug

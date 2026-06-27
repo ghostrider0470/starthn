@@ -3,6 +3,7 @@
 export interface BlogPostDto {
   id: string
   slug: string
+  lang: string
   title: string
   excerpt: string | null
   content: string[]
@@ -27,6 +28,7 @@ export interface BlogPostDto {
 export interface CategoryDto {
   id: string
   slug: string
+  lang: string
   label: string
   parentId: string | null
   translations: Record<string, string>
@@ -35,6 +37,7 @@ export interface CategoryDto {
 export interface TagDto {
   id: string
   slug: string
+  lang: string
   label: string
   translations: Record<string, string>
 }

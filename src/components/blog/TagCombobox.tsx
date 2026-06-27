@@ -19,9 +19,21 @@ export function TagCombobox({ selectedTags, onChange, placeholder = 'Search and 
   const listRef = useRef<HTMLUListElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
 
+  const isSelected = useCallback(
+    (tag: { slug: string; label: string }) =>
+      selectedTags.includes(tag.slug) || selectedTags.includes(tag.label),
+    [selectedTags],
+  )
+
+  const getTagLabel = useCallback(
+    (value: string) =>
+      allTags.find((tag) => tag.slug === value || tag.label === value)?.label ?? value,
+    [allTags],
+  )
+
   const filtered = allTags.filter(
     (tag) =>
-      !selectedTags.includes(tag.label) &&
+      !isSelected(tag) &&
       (query === '' || tag.label.toLowerCase().includes(query.toLowerCase())),
   )
 
@@ -30,8 +42,9 @@ export function TagCombobox({ selectedTags, onChange, placeholder = 'Search and 
   }, [query])
 
   const addTag = useCallback(
-    (label: string) => {
-      onChange([...selectedTags, label])
+    (value: string) => {
+      if (selectedTags.includes(value)) return
+      onChange([...selectedTags, value])
       setQuery('')
       setOpen(false)
       inputRef.current?.focus()
@@ -40,8 +53,8 @@ export function TagCombobox({ selectedTags, onChange, placeholder = 'Search and 
   )
 
   const removeTag = useCallback(
-    (label: string) => {
-      onChange(selectedTags.filter((t) => t !== label))
+    (value: string) => {
+      onChange(selectedTags.filter((tag) => tag !== value))
     },
     [selectedTags, onChange],
   )
@@ -55,7 +68,7 @@ export function TagCombobox({ selectedTags, onChange, placeholder = 'Search and 
       setActiveIndex((i) => Math.max(i - 1, 0))
     } else if (e.key === 'Enter') {
       e.preventDefault()
-      if (filtered[activeIndex]) addTag(filtered[activeIndex].label)
+      if (filtered[activeIndex]) addTag(filtered[activeIndex].slug)
     } else if (e.key === 'Escape') {
       setOpen(false)
       setQuery('')
@@ -85,13 +98,13 @@ export function TagCombobox({ selectedTags, onChange, placeholder = 'Search and 
           hasNoTags && 'opacity-60 cursor-not-allowed',
         )}
       >
-        {selectedTags.map((label) => (
-          <Badge key={label} variant="secondary" className="gap-1 pr-1 h-6 shrink-0">
+        {selectedTags.map((value) => (
+          <Badge key={value} variant="secondary" className="gap-1 pr-1 h-6 shrink-0">
             <Tag className="h-3 w-3 text-muted-foreground" />
-            {label}
+            {getTagLabel(value)}
             <button
               type="button"
-              onClick={(e) => { e.stopPropagation(); removeTag(label) }}
+              onClick={(e) => { e.stopPropagation(); removeTag(value) }}
               className="ml-0.5 rounded-full p-0.5 hover:bg-foreground/10 transition-colors"
             >
               <X className="h-3 w-3" />
@@ -147,7 +160,7 @@ export function TagCombobox({ selectedTags, onChange, placeholder = 'Search and 
             filtered.map((tag, idx) => (
               <li
                 key={tag.id}
-                onMouseDown={(e) => { e.preventDefault(); addTag(tag.label) }}
+                onMouseDown={(e) => { e.preventDefault(); addTag(tag.slug) }}
                 onMouseEnter={() => setActiveIndex(idx)}
                 className={cn(
                   'flex items-center gap-2 px-3 py-2 text-sm cursor-pointer select-none',

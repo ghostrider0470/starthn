@@ -39,6 +39,7 @@ export const users = sqliteTable('users', {
 export const blogPosts = sqliteTable('blog_posts', {
   id: id(),
   slug: text('slug').notNull().unique(),
+  lang: text('lang').notNull().default('en-US'),
   title: text('title').notNull(),
   excerpt: text('excerpt'),
   content: text('content').notNull(), // JSON array
@@ -63,6 +64,7 @@ export const blogPosts = sqliteTable('blog_posts', {
 export const categories = sqliteTable('categories', {
   id: id(),
   slug: text('slug').notNull().unique(),
+  lang: text('lang').notNull().default('en-US'),
   label: text('label').notNull(),
   parentId: text('parent_id'),
   ...timestamps,
@@ -74,6 +76,7 @@ export const categories = sqliteTable('categories', {
 export const tags = sqliteTable('tags', {
   id: id(),
   slug: text('slug').notNull().unique(),
+  lang: text('lang').notNull().default('en-US'),
   label: text('label').notNull(),
   ...timestamps,
 }, (t) => [

@@ -8,7 +8,6 @@ import { CategoryRepository } from './repositories/category'
 import { TagRepository } from './repositories/tag'
 import { CaseStudyRepository } from './repositories/case-study'
 import { UserRepository } from './repositories/user'
-import { toTranslatorLocaleCode } from '@/lib/i18n-utils'
 
 interface Env {
   DB: D1Database
@@ -32,11 +31,7 @@ export async function handleD1Route(request: Request, env: Env): Promise<Respons
 
   const url = new URL(request.url)
   const path = url.pathname
-  // Normalise BCP47 URL locales (e.g. "bs-BA") to Azure Translator codes ("bs") — D1 uses the latter.
-  const rawLocale = url.searchParams.get('lang') || url.searchParams.get('locale') || undefined
-  const locale = rawLocale && rawLocale !== 'en-US' && rawLocale !== 'en'
-    ? toTranslatorLocaleCode(rawLocale)
-    : rawLocale
+  const locale = url.searchParams.get('lang') || url.searchParams.get('locale') || undefined
 
   const db = createDb(env.DB)
 
@@ -44,13 +39,19 @@ export async function handleD1Route(request: Request, env: Env): Promise<Respons
     // GET /api/blog — if page param: paginated response; otherwise: plain array
     if (path === '/api/blog') {
       const repo = new BlogPostRepository(db)
+      const filters = {
+        category: url.searchParams.get('category') || undefined,
+        subcategory: url.searchParams.get('subcategory') || undefined,
+        tag: url.searchParams.get('tag') || undefined,
+        q: url.searchParams.get('q') || undefined,
+      }
 
       if (url.searchParams.has('page') || url.searchParams.has('pageSize')) {
         const page = parseInt(url.searchParams.get('page') || '1')
         const pageSize = parseInt(url.searchParams.get('pageSize') || '10')
         const [items, total] = await Promise.all([
-          repo.getPublished(locale, page, pageSize),
-          repo.getCount(),
+          repo.getPublished(locale, page, pageSize, filters),
+          repo.getCount(filters),
         ])
         return json({
           items,
@@ -62,7 +63,7 @@ export async function handleD1Route(request: Request, env: Env): Promise<Respons
       }
 
       // No pagination — return plain array (used by useBlogPosts hook)
-      return json(await repo.getPublished(locale, 1, 100), 200, 300)
+      return json(await repo.getPublished(locale, 1, 100, filters), 200, 300)
     }
 
     // GET /api/blog/{slug}

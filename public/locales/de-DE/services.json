@@ -1,0 +1,384 @@
+{
+  "common": {
+    "fallbackTitle": "Dienst",
+    "service": "Dienst",
+    "overview": "Überblick",
+    "scope": "Was wir abdecken",
+    "process": "Wie wir arbeiten",
+    "outputs": "Ergebnisse",
+    "nextStep": "Nächster Schritt",
+    "learnMore": "Erfahren Sie mehr",
+    "ctaPrimary": "Gespräch beginnen",
+    "ctaSecondary": "Alle Dienste ansehen",
+    "backToServices": "Zurück zu den Dienstleistungen"
+  },
+  "index": {
+    "overline": "Start HN Dienstleistungen",
+    "title": "Buchhaltungssupport für jede Phase des Unternehmens.",
+    "description": "Sechs klare Servicebereiche decken Buchhaltung, Steuerpflichten, Berichterstattung, Beratung und Schulung ab, was Ihrem Unternehmen bessere Kontrolle verschafft.",
+    "introOverline": "Dienstleistungen",
+    "introTitle": "Ein Team, ein klares finanzielles Bild",
+    "introBody": "Start HN verbindet praktische Buchhaltung, Steuerüberwachung, Finanzberichterstattung und Beratungsunterstützung, sodass Eigentümer und Management Entscheidungen auf Basis zuverlässiger Daten und nicht auf Basis von Massendokumentation treffen können.",
+    "cta": {
+      "title": "Bist du dir nicht sicher, welchen Service du brauchst?",
+      "description": "Teilen Sie uns mit, wie Ihr Unternehmen derzeit funktioniert, und wir empfehlen den richtigen Unterstützungsbereich: regelmäßige Buchhaltung, ausführliche Beratung oder gezielte Beratung.",
+      "button": "Vereinbaren Sie einen Beratungstermin"
+    }
+  },
+  "items": {
+    "bookkeeping": {
+      "label": "01",
+      "title": "Buchführung und Rechnungswesen",
+      "shortDescription": "Vollständige Buchhaltung, Buchhaltung, Gehaltsabrechnung, Mehrwertsteuerunterlagen und Abschlussberichte für Handwerke und Unternehmen.",
+      "heroDescription": "Zuverlässige Bücher sind die operative Grundlage jedes Unternehmens. Wir halten Ihre Unterlagen genau, aktuell und bereit für Steuerfristen, Banken und Managemententscheidungen.",
+      "overviewTitle": "Tägliche Aufzeichnungen ohne tägliche Last",
+      "overview": "Wir organisieren den gesamten Buchhaltungszyklus: Erhalt der Unterlagen, Buchung von Rechnungen und Ausgaben, Berechnung von Gehältern und Beiträgen, Mehrwertsteuerunterlagen, rechtliche Anträge und jährlicher Abschluss. Das Ziel ist einfach: ordentliche Unterlagen, klare Aufgaben und keine Überraschungen vor Fristen.",
+      "bestForTitle": "Am besten für",
+      "bestFor": [
+        "Kleine und mittelständische Unternehmen, die regelmäßige Buchhaltungsunterstützung benötigen.",
+        "Handwerks- und Selbstständigenunternehmen, die ordnungsgemäße rechtliche Unterlagen benötigen",
+        "Teams wechseln von einem anderen Buchhalter",
+        "Eigentümer, die klare monatliche Zahlen wollen, nicht nur Jahresberichte"
+      ],
+      "detailsTitle": "Geltungsbereich der Buchhaltung",
+      "details": [
+        {
+          "title": "Buchhaltung einrichten und Übergabe",
+          "description": "Wir überprüfen die Registrierung, bestehende Unterlagen, Anfangsbestände, Gehaltsdaten und den Terminplan der Verpflichtungen, um den Service in Betrieb zu nehmen."
+        },
+        {
+          "title": "Monatliche Buchhaltungsabläufe",
+          "description": "Rechnungen, Ausgaben, Banktransaktionen, Gehälter, Beiträge, Mehrwertsteuerunterlagen und reguläre gesetzliche Verpflichtungen werden in einem vorhersehbaren monatlichen Tempo bearbeitet."
+        },
+        {
+          "title": "Jahresabschlüsse und Jahresabschluss",
+          "description": "Wir bereiten Endberechnungen, Finanzberichte, Steuererklärungen und unterstützende Unterlagen vor, um das Unternehmen ausgerichtet und kontrollbereit zu halten."
+        }
+      ],
+      "processTitle": "Vorhersehbarer monatlicher Rhythmus",
+      "process": [
+        {
+          "title": "Sammlung",
+          "description": "Du reichst die Dokumentation digital oder physisch gemäß dem vereinbarten Workflow ein."
+        },
+        {
+          "title": "Verarbeitung",
+          "description": "Wir buchen Transaktionen, berechnen Verbindlichkeiten und überprüfen Unterlagen vor Fristen."
+        },
+        {
+          "title": "Berichterstattung",
+          "description": "Man erhält klare Zusammenfassungen und nächste Schritte, und Fragen werden beantwortet, bevor sie zu einem Risiko werden."
+        }
+      ],
+      "deliverablesTitle": "Typische Ergebnisse",
+      "deliverables": [
+        "Monatliche Buchhaltungsaufzeichnungen",
+        "Mehrwertsteuer- und Steuerunterlagen",
+        "Berechnung von Gehaltsabrechnung und Beitrag",
+        "Jahresberichte",
+        "Bestätigungen der Einreichung von Anträgen",
+        "Regelmäßige Buchhaltungsberatung"
+      ],
+      "cta": {
+        "title": "Bereit, deine Bücher zu redigieren?",
+        "description": "Wir überprüfen Ihre aktuellen Aufzeichnungen und definieren einen monatlichen Buchhaltungsfluss, der der tatsächlichen Betriebsweise Ihres Unternehmens entspricht.",
+        "button": "Buchhaltungsunterstützung anfordern"
+      }
+    },
+    "taxConsulting": {
+      "label": "02",
+      "title": "Steuerberatung",
+      "shortDescription": "Steuerüberwachung, Planung, Unterstützung bei Antragsanträgen, Fristverfolgung und praktische Beratung für Privatpersonen und juristische Personen.",
+      "heroDescription": "Steuerpflichten ändern sich schnell, und Fehler sind kostspielig. Wir helfen Ihnen zu verstehen, was anwendbar ist, was fällig ist und wie Sie im Rahmen der Vorschriften planen sollten.",
+      "overviewTitle": "Steuerberatung, bevor ein Problem auftritt",
+      "overview": "Unsere Steuerberatung verbindet Compliance und Planung: Wir verfolgen Fristen, überprüfen Verpflichtungen, erklären regulatorische Änderungen, erstellen Steuererklärungen und beraten, bevor Entscheidungen unnötige Kosten oder Risiken verursachen.",
+      "bestForTitle": "Am besten für",
+      "bestFor": [
+        "Unternehmen, die regelmäßige Steuerüberwachung benötigen",
+        "Eigentümer, die Entscheidungen über Investitionen, Beschäftigung oder Preise treffen",
+        "Natürliche Personen und Unternehmer mit Berichtspflichten",
+        "Unternehmen, die Bußgelder und anschließende Korrekturen reduzieren wollen"
+      ],
+      "detailsTitle": "Anwendungsbereich der Steuerberatung",
+      "details": [
+        {
+          "title": "To-Do-Überblick",
+          "description": "Wir prüfen aktive Anmeldungen, Frühregistrierungen, Mehrwertsteuer- und Gehaltsabrechnungsrisiken sowie bevorstehende Fristen."
+        },
+        {
+          "title": "Compliance und Meldesupport",
+          "description": "Wir erstellen und prüfen Steuererklärungen, verfolgen Fristen und helfen dabei, Auslassungen zu korrigieren, bevor sie zu Strafen werden."
+        },
+        {
+          "title": "Planung und Entscheidungsunterstützung",
+          "description": "Wir erklären die steuerlichen Auswirkungen von Geschäftsentscheidungen, Abzügen, organisatorischen Veränderungen, Einstellungen, Zahlungen und anderen häufigen finanziellen Fragen."
+        }
+      ],
+      "processTitle": "Steuerliche Unterstützung, die einen Schritt weiter geht",
+      "process": [
+        {
+          "title": "Bewertung",
+          "description": "Wir kartieren die aktuelle Steuerposition und identifizieren offene Verbindlichkeiten oder Risikopunkte."
+        },
+        {
+          "title": "Plan",
+          "description": "Wir definieren Fristen, Verantwortlichkeiten und rechtliche Optionen für die Steuerplanung."
+        },
+        {
+          "title": "Instandhaltung",
+          "description": "Wir richten Berichte und Beratung an Ihre Geschäftsaktivitäten und regulatorische Änderungen an."
+        }
+      ],
+      "deliverablesTitle": "Typische Ergebnisse",
+      "deliverables": [
+        "Kalender der Steuerlasten",
+        "Mehrwertsteuer und Einkommens-/Gewinnsteuerrichtlinien",
+        "Richtlinien für Lohnbeiträge",
+        "Überprüfung und Korrekturen von Anwendungen",
+        "Steuerplanungshinweise",
+        "Deadline- und Compliance-Unterstützung"
+      ],
+      "cta": {
+        "title": "Brauchen Sie Klarheit bezüglich Ihrer Steuerpflichten?",
+        "description": "Senden Sie uns Ihre aktuelle Situation, und wir helfen Ihnen zu verstehen, was fällig ist, was verbessert werden kann und was der nächste Schritt ist.",
+        "button": "Das ist mal eine Steuerunterstützung"
+      }
+    },
+    "virtualCfo": {
+      "label": "03",
+      "title": "Virtueller CFO",
+      "shortDescription": "Senior Financial Insight ohne festen CFO: Cashflow, Budgets, KPIs und Entscheidungsunterstützung.",
+      "heroDescription": "Ein virtueller CFO gibt Eigentümern und Management einen klareren Überblick über finanzielle Gesundheit, Cashflow, Rentabilität und strategische Entscheidungen.",
+      "overviewTitle": "Finanzmanagement auf flexibler Basis.",
+      "overview": "Wir übersetzen Buchhaltungsdaten in praktische Managementerkenntnisse: Budgets, Prognosen, Cashflow-Planung, Rentabilitätsanalysen und Finanzindikatoren, die zeigen, wo das Unternehmen stark ist und wo Aufmerksamkeit benötigt wird.",
+      "bestForTitle": "Am besten für",
+      "bestFor": [
+        "Wachsende Unternehmen, die mehr als nur Buchhaltung brauchen.",
+        "Eigentümer, die Finanzierungs- oder Investitionsentscheidungen treffen",
+        "Teams ohne internen CFO",
+        "Manager, die monatliche Zahlen in Taten umsetzen wollen"
+      ],
+      "detailsTitle": "Die Rolle eines virtuellen CFO",
+      "details": [
+        {
+          "title": "Ein Überblick über die finanzielle Gesundheit",
+          "description": "Wir analysieren Rentabilität, Liquidität, Kostenstruktur, Forderungen, Verbindlichkeiten und zentrale Risiken im aktuellen Finanzbild."
+        },
+        {
+          "title": "Planung und Prognose",
+          "description": "Wir erstellen Budgets, Cashflow-Prognosen, Szenarien und Annahmen, die die Bewertung von Managemententscheidungen erleichtern."
+        },
+        {
+          "title": "Managementberichterstattung",
+          "description": "Wir definieren KPIs und Berichtsformate, die Finanzdaten mit Entscheidungen zu Wachstum, Kosten, Preisgestaltung und Betrieb verknüpfen."
+        }
+      ],
+      "processTitle": "Von den Akten zu den Entscheidungen",
+      "process": [
+        {
+          "title": "Diagnose",
+          "description": "Wir prüfen bestehende Berichte und identifizieren finanzielle Fragen, auf die das Management Antworten benötigt."
+        },
+        {
+          "title": "Modellbau",
+          "description": "Wir erstellen praktische Budgets, Prognosen und Szenarien auf Basis realistischer Geschäftsannahmen."
+        },
+        {
+          "title": "Beratung",
+          "description": "Wir erklären regelmäßig die Ergebnisse, Risiken und empfohlene nächste Schritte."
+        }
+      ],
+      "deliverablesTitle": "Typische Ergebnisse",
+      "deliverables": [
+        "Monatlicher Managementbericht",
+        "Liquiditätsprognose",
+        "Budget- und Abweichungsanalyse",
+        "Struktur der KPI-Berichte",
+        "Rentabilitätsanalyse",
+        "Beratende Sitzungen"
+      ],
+      "cta": {
+        "title": "Brauchen Sie Klarheit auf CFO-Ebene?",
+        "description": "Wir können Ihre Buchhaltungsdaten in einen Managementüberblick verwandeln, der Wachstum, Finanzierung und bessere Entscheidungen unterstützt.",
+        "button": "Sprechen Sie über den virtuellen CFO"
+      }
+    },
+    "businessConsulting": {
+      "label": "04",
+      "title": "Unternehmensberatung",
+      "shortDescription": "Praktische Geschäftsberatung für Organisation, Wachstum, interne Prozesse, Kosten, Preisgestaltung und operative Entscheidungen.",
+      "heroDescription": "Ein guter Buchhaltungsbericht zeigt, was passiert ist. Eine gute Beratung hilft Ihnen zu entscheiden, was als Nächstes passieren sollte.",
+      "overviewTitle": "Praktische Leitlinien basierend auf Zahlen",
+      "overview": "Wir unterstützen Eigentümer und Manager bei finanziellen und operativen Entscheidungen: Unternehmensorganisation, Prozessverbesserung, Kostenkontrolle, Preisgestaltung, Abrechnungsdisziplin, interne Dokumentation und Wachstumsplanung.",
+      "bestForTitle": "Am besten für",
+      "bestFor": [
+        "Neue Unternehmen, die Finanzprozesse einrichten",
+        "Unternehmen, die interne Kontrollen und den Dokumentationsfluss verbessern",
+        "Eigentümer, die Kosten, Preise oder Expansion schätzen",
+        "Teams, die Ratschläge zur Buchhaltungsrealität suchen"
+      ],
+      "detailsTitle": "Anwendungsbereich der Unternehmensberatung",
+      "details": [
+        {
+          "title": "Organisation und Aufbau des Geschäfts",
+          "description": "Wir helfen dabei, den Ablauf der Dokumentation, Berichtspflichten, Buchhaltungsroutinen und praktische Kontrollen im täglichen Arbeitsalltag zu definieren."
+        },
+        {
+          "title": "Unterstützung finanzieller Entscheidungen.",
+          "description": "Wir überprüfen Kosten, Margen, Preise, Liquiditätsbedarf und geplante Investitionen, sodass Entscheidungen messbare Auswirkungen haben."
+        },
+        {
+          "title": "Prozessoptimierung",
+          "description": "Wir identifizieren, wo Dokumentation, Genehmigungen, Berichte oder Abrechnungen optimiert und zuverlässiger gestaltet werden können."
+        }
+      ],
+      "processTitle": "Beratung ohne leere Theorie",
+      "process": [
+        {
+          "title": "Kartierung",
+          "description": "Wir kartieren den bestehenden Prozess, Dokumente und finanzielle Aspekte."
+        },
+        {
+          "title": "Prioritäten",
+          "description": "Wir heben die Veränderungen hervor, die den schnellsten und wichtigsten Geschäftswert bringen."
+        },
+        {
+          "title": "Anwendung",
+          "description": "Wir definieren praktische Schritte, Verantwortlichkeiten und Nachverfolgung."
+        }
+      ],
+      "deliverablesTitle": "Typische Ergebnisse",
+      "deliverables": [
+        "Geschäftsprozessübersicht",
+        "Anmerkungen zu Kosten und Margen",
+        "Preisgestaltung und Cashflow-Richtlinien",
+        "Empfehlungen für interne Kontrollen.",
+        "Dokumentationsfluss-Setting",
+        "Beratungssitzungen mit dem Eigentümer"
+      ],
+      "cta": {
+        "title": "Brauchen Sie einen praktischen Überblick über Ihr Unternehmen?",
+        "description": "Wir schauen uns Ihre Zahlen und den operativen Trichter an und empfehlen dann Änderungen, die Kontrolle und Rentabilität am meisten verbessern.",
+        "button": "Fordern Sie eine Beratung an"
+      }
+    },
+    "financialReporting": {
+      "label": "05",
+      "title": "Finanzberichterstattung",
+      "shortDescription": "Klare juristische und Managementberichte, die helfen, Ergebnisse, Verbindlichkeiten und finanzielle Trends zu verstehen.",
+      "heroDescription": "Berichte müssen keine unverständlichen Dateien sein, die nur eine Frist einhalten. Sie müssen wissen, was im Geschäft vor sich geht.",
+      "overviewTitle": "Berichte, die das Management tatsächlich verwendet",
+      "overview": "Wir erstellen Rechtsberichte, Managementzusammenfassungen, Finanzberichte und analytische Formate, die das Verständnis von Umsätzen, Ausgaben, Gewinnen, Liquidität und Verbindlichkeiten erleichtern.",
+      "bestForTitle": "Am besten für",
+      "bestFor": [
+        "Unternehmen, die eine klarere monatliche Berichterstattung benötigen",
+        "Manager, die Unterlagen für Banken, Partner oder Investoren erstellen",
+        "Eigentümer, die jederzeit Gewinne und Bargeld im Blick behalten wollen",
+        "Unternehmen, die rechtliche und managementbezogene Ansichten in Einklang bringen müssen"
+      ],
+      "detailsTitle": "Berichterstattungsumfang",
+      "details": [
+        {
+          "title": "Statutory Financial Reporting",
+          "description": "Wir erstellen gesetzlich vorgeschriebene Finanzberichte und begleitende Überprüfungen auf Grundlage ordnungsgemäßer Buchhaltungsunterlagen."
+        },
+        {
+          "title": "Managementberichterstattung",
+          "description": "Wir erstellen prägnante monatliche oder vierteljährliche Überprüfungen, die Ergebnisse, Verbindlichkeiten, Margen und Trends erklären."
+        },
+        {
+          "title": "Finanzanalyse",
+          "description": "Wir interpretieren Zahlen anhand von Indikatoren, Vergleichen und Kommentaren, die Entscheidungen unterstützen, nicht nur durch Aufzeichnungen."
+        }
+      ],
+      "processTitle": "Klarer Berichtszyklus",
+      "process": [
+        {
+          "title": "Struktur",
+          "description": "Wir definieren, welche Fragen der Bericht beantwortet werden muss und wer ihn verwenden wird."
+        },
+        {
+          "title": "Zubereitung",
+          "description": "Wir sammeln genaue Daten aus Buchhaltungsunterlagen und unterstützenden Dokumenten."
+        },
+        {
+          "title": "Erklärung",
+          "description": "Wir fassen Trends, Risiken und nächste Schritte in einfacher Sprache zusammen."
+        }
+      ],
+      "deliverablesTitle": "Typische Ergebnisse",
+      "deliverables": [
+        "Finanzberichte",
+        "Monatliche Management-Zusammenfassungen",
+        "Gewinn- und Kostenanalyse",
+        "Überblick über Bar- und Verbindlichkeiten",
+        "Meldepakete für Banken oder Partner",
+        "Endgültige Berichterstattungsunterstützung"
+      ],
+      "cta": {
+        "title": "Möchten Sie Berichte, die leichter zu bedienen sind?",
+        "description": "Wir können Buchhaltungsdaten in ein klares Format für Management, Partner, Banken oder interne Planung umwandeln.",
+        "button": "Verbesserung der Berichterstattung"
+      }
+    },
+    "education": {
+      "label": "06",
+      "title": "Ausbildung & Kurse",
+      "shortDescription": "Workshops in Buchhaltung, Steuern und Finanzen, die Eigentümern und Teams helfen, Verantwortung zu verstehen und bessere Entscheidungen zu treffen.",
+      "heroDescription": "Bessere finanzielle Bildung reduziert Fehler, verbessert die interne Kommunikation und hilft Teams, effektiver mit Buchhaltern zusammenzuarbeiten.",
+      "overviewTitle": "Wissen, das die alltägliche Arbeit erleichtert",
+      "overview": "Wir organisieren praktische Schulungen für Eigentümer, Manager und Verwaltungsteams: Grundlagen der Buchhaltung, Erstellung von Unterlagen, Steuerfristen, Grundgehaltsauslegungen, Interpretation von Berichten und bessere Zusammenarbeit mit der Buchhaltung.",
+      "bestForTitle": "Am besten für",
+      "bestFor": [
+        "Eigentümer, die ihre Verpflichtungen verstehen möchten",
+        "Verwaltungspersonal, das Dokumente und Rechnungen bearbeitet",
+        "Teams, die neue Berichtsprozesse einführen",
+        "Manager, die Finanzberichte mit mehr Selbstvertrauen lesen möchten"
+      ],
+      "detailsTitle": "Umfang der Ausbildung",
+      "details": [
+        {
+          "title": "Grundlagen der Buchhaltung",
+          "description": "Wir erklären die Unterlagen, Dokumente und Fristen, die das tägliche Geschäft beeinflussen."
+        },
+        {
+          "title": "Steuern und Löhne in der Praxis",
+          "description": "Wir behandeln häufige Verpflichtungen, regelmäßige Fristen, Beiträgesgrundlagen und praktische Risikopunkte."
+        },
+        {
+          "title": "Finanzberichterstattung",
+          "description": "Wir helfen den Teams, Finanzberichte, Managementüberprüfungen und die Fragen zu verstehen, die diese Berichte beantworten müssen."
+        }
+      ],
+      "processTitle": "Bildung basiert auf echter Arbeit",
+      "process": [
+        {
+          "title": "Definition",
+          "description": "Wir bestimmen, was das Team verstehen muss und welche Fehler verhindert werden müssen."
+        },
+        {
+          "title": "Bildung",
+          "description": "Wir führen praktische Sitzungen mit Beispielen in der Nähe Ihrer täglichen Arbeit durch."
+        },
+        {
+          "title": "Anwendung",
+          "description": "Das Team erhält Checklisten, Routinen und klarere Aufgaben."
+        }
+      ],
+      "deliverablesTitle": "Typische Ergebnisse",
+      "deliverables": [
+        "Workshops und Kurzkurse",
+        "Checklisten für den Buchhaltungsprozess",
+        "Überblick über Steuerfristen",
+        "Richtlinien zur Erstellung von Dokumentationen",
+        "Sitzungen zum Lesen von Berichten",
+        "Fragen und Antworten für das Team"
+      ],
+      "cta": {
+        "title": "Möchten Sie, dass Ihr Team Zahlen besser versteht?",
+        "description": "Wir können einen fokussierten Workshop zu Ihrem Buchhaltungsprozess, Berichterstattung oder Steuer-FAQs vorbereiten.",
+        "button": "Plane dein Training"
+      }
+    }
+  }
+}
