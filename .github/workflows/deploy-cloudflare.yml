@@ -1,0 +1,51 @@
+name: Deploy to Cloudflare Workers
+
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - 'api/**'
+      - 'docs/**'
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - master
+    paths-ignore:
+      - 'api/**'
+      - 'docs/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      # The TanStack Start SSR build is memory-heavy; raise Node's heap limit so
+      # the GitHub-hosted runner doesn't OOM (FATAL heap OOM, exit 134) during
+      # `vite build`. Runner has 16 GB; 6 GB old-space is safe and sufficient.
+      NODE_OPTIONS: --max-old-space-size=6144
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate sitemap
+        run: npm run generate:sitemap
+
+      # .env.production is committed — Vite auto-loads it during production builds.
+      - name: Build
+        run: npm run build
+
+      # Deploy only on push to master. PRs run build above as a validation check.
+      - name: Deploy to Cloudflare Workers
+        if: github.event_name == 'push'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: 14e66a44c223436e076dbd6073c78d98
