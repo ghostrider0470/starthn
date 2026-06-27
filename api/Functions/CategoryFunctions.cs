@@ -46,7 +46,7 @@ public class CategoryFunctions
             .Select(t => (t.LocaleCode, t.TranslatorCode));
 
         var sourceLang = request.SourceLocale.Split('-')[0];
-        var result = await _categoryService.TranslateAsync(id, targets, _translationService, request.Label, sourceLang)
+        var result = await _categoryService.TranslateAsync(id, targets, _translationService, request.Label, sourceLang, request.LlmReview)
             ?? throw new NotFoundException("Category not found.");
         return await req.CreateJsonResponseAsync(HttpStatusCode.OK, result);
     }

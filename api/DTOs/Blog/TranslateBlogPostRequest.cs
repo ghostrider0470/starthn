@@ -10,8 +10,9 @@ public class TranslateBlogPostRequest
 {
     public List<TranslateBlogPostTarget> Targets { get; set; } = [];
     public string SourceLocale { get; set; } = "en-US";
-    // Post content from D1 (source of truth). When present, Cosmos DB is not read.
-    public string? Title { get; set; }
+    // Post content from D1 (source of truth) — always supplied by the edge.
+    public string Title { get; set; } = string.Empty;
     public string? Excerpt { get; set; }
     public List<string>? Content { get; set; }
+    public Api.DTOs.LlmReviewConfig? LlmReview { get; set; }
 }

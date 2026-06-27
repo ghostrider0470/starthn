@@ -48,26 +48,29 @@ public class BlogFunctions
         var request = await FunctionHelper.DeserializeAndValidateAsync<TranslateBlogPostRequest>(req, _translateValidator);
 
         var targets = request.Targets.Select(t => (t.LocaleCode, t.TranslatorCode)).ToList();
-        _logger.LogInformation("[{Slug}] Translate: sourceLocale={SourceLocale} hasTitle={HasTitle}", slug, request.SourceLocale, request.Title != null);
+        _logger.LogInformation("[{Slug}] Translate: sourceLocale={SourceLocale}", slug, request.SourceLocale);
 
-        // Build post from D1-supplied content so Cosmos DB is not read
-        Api.Entities.BlogPostEntity? postData = null;
-        if (request.Title != null)
+        // Post content always supplied by the edge from D1 (source of truth).
+        var postData = new Api.Entities.BlogPostEntity
         {
-            postData = new Api.Entities.BlogPostEntity
-            {
-                Slug = slug,
-                Lang = request.SourceLocale,
-                Title = request.Title,
-                Excerpt = request.Excerpt,
-                Content = request.Content?.Cast<object>().ToList(),
-            };
-        }
+            Slug = slug,
+            Lang = request.SourceLocale,
+            Title = request.Title,
+            Excerpt = request.Excerpt,
+            Content = request.Content?.Cast<object>().ToList(),
+        };
 
-        var translations = await _blogService.TranslateAsync(slug, targets, _translationService, request.SourceLocale, postData)
+        var translations = await _blogService.TranslateAsync(slug, targets, _translationService, request.SourceLocale, postData, request.LlmReview)
             ?? throw new NotFoundException("Post not found.");
 
-        return await req.CreateJsonResponseAsync(HttpStatusCode.OK,
-            new { message = $"Translated '{slug}' to {targets.Count} language(s).", count = targets.Count });
+        // Return the per-locale translations so the edge can persist them to D1.
+        return await req.CreateJsonResponseAsync(HttpStatusCode.OK, new
+        {
+            message = $"Translated '{slug}' to {targets.Count} language(s).",
+            count = targets.Count,
+            translations = translations.ToDictionary(
+                kv => kv.Key,
+                kv => new { title = kv.Value.Title, excerpt = kv.Value.Excerpt, content = kv.Value.Content }),
+        });
     }
 }

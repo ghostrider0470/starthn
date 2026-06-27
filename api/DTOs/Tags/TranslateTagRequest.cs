@@ -9,9 +9,10 @@ public class TranslateTagRequest
     /// If empty, the backend translates to all provided targets.
     /// </summary>
     public List<TranslateTagTarget> Targets { get; set; } = [];
-    /// <summary>Label from D1 (source of truth). When present, Cosmos DB is not read.</summary>
-    public string? Label { get; set; }
+    /// <summary>Label from D1 (source of truth) — always supplied by the edge.</summary>
+    public string Label { get; set; } = string.Empty;
     public string SourceLocale { get; set; } = "en-US";
+    public Api.DTOs.LlmReviewConfig? LlmReview { get; set; }
 }
 
 public class TranslateTagTarget

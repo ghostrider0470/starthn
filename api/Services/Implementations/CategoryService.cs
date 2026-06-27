@@ -1,56 +1,25 @@
 using Api.DTOs.Categories;
-using Api.Entities;
-using Api.Repositories.Interfaces;
 using Api.Services.Interfaces;
 
 namespace Api.Services.Implementations;
 
-// Trimmed to AI translation only — category CRUD/reads live in the Cloudflare
-// Worker (D1). In production the Worker supplies the label override, so the
-// Cosmos read/persist branches are a fallback.
 public class CategoryService : ICategoryService
 {
-    private readonly ICategoryRepository _categoryRepo;
-
-    public CategoryService(ICategoryRepository categoryRepo)
-    {
-        _categoryRepo = categoryRepo;
-    }
-
     public async Task<CategoryResponse?> TranslateAsync(
         string id,
         IEnumerable<(string localeCode, string translatorCode)> targets,
         ITranslationService translationService,
-        string? labelOverride = null,
-        string sourceLang = "en")
+        string label,
+        string sourceLang = "en",
+        Api.DTOs.LlmReviewConfig? llmReview = null)
     {
-        CategoryEntity? category;
-        if (labelOverride != null)
-        {
-            // Use D1-supplied label; skip Cosmos DB read
-            category = new CategoryEntity { Id = id, Label = labelOverride, Translations = [] };
-        }
-        else
-        {
-            category = await _categoryRepo.GetBySlugAsync(id);
-            if (category == null) return null;
-        }
-
-        var translated = await translationService.TranslateToManyAsync(category.Label, targets, sourceLang);
-
-        if (labelOverride == null)
-        {
-            // Only persist back to Cosmos when we actually read from it
-            category.Translations["en-US"] = category.Label;
-            foreach (var (locale, text) in translated)
-                category.Translations[locale] = text;
-            await _categoryRepo.ReplaceAsync(category);
-        }
+        // The edge always supplies the label from D1 (source of truth); Cosmos is never read.
+        var translated = await translationService.TranslateToManyAsync(label, targets, sourceLang);
 
         return new CategoryResponse
         {
             Id = id,
-            Label = category.Label,
+            Label = label,
             Translations = translated,
         };
     }

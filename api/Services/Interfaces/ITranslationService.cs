@@ -1,3 +1,4 @@
+using Api.DTOs.Auth;
 using Api.DTOs.Blog;
 using Api.Entities;
 
@@ -9,5 +10,5 @@ public interface ITranslationService
     Task<Dictionary<string, string>> TranslateToManyAsync(string text, IEnumerable<(string localeCode, string translatorCode)> targets, string sourceLang = "en");
     Task<BlogPostTranslation> TranslateBlogPostAsync(BlogPostEntity post, string targetLang);
     Task<Dictionary<string, BlogPostTranslation>> TranslateBlogPostBatchAsync(BlogPostEntity post, List<string> targetLangs, string sourceLang = "en");
-    Task<UserPageTranslationEntity> TranslateUserPageAsync(UserEntity user, string targetLang);
+    Task<PageTranslation> TranslateUserPageAsync(string? bio, string? pageContent, string targetLang);
 }

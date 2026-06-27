@@ -1,44 +1,29 @@
 using Api.Entities;
-using Api.Repositories.Interfaces;
 using Api.Services.Interfaces;
 using Microsoft.Extensions.Logging;
 
 namespace Api.Services.Implementations;
 
-// Trimmed to AI translation only — all blog CRUD/reads/sync-to-edge moved to the
-// Cloudflare Worker (D1). TranslateAsync is the AI compute path: Azure Translator
-// (phase 1) + LLM review (phase 2); results are upserted to Cosmos and pushed to
-// D1 via the Worker sync endpoint (TrySyncOneAsync → /api/internal/sync).
 public class BlogService : IBlogService
 {
-    private readonly IBlogPostRepository _blogRepo;
-    private readonly IBlogPostTranslationRepository _translationRepo;
     private readonly ILlmReviewService _llmReview;
     private readonly ILogger<BlogService> _logger;
-    private readonly IWorkerSyncService _sync;
 
-    public BlogService(
-        IBlogPostRepository blogRepo,
-        IBlogPostTranslationRepository translationRepo,
-        ILlmReviewService llmReview,
-        ILogger<BlogService> logger,
-        IWorkerSyncService sync)
+    public BlogService(ILlmReviewService llmReview, ILogger<BlogService> logger)
     {
-        _blogRepo = blogRepo;
-        _translationRepo = translationRepo;
         _llmReview = llmReview;
         _logger = logger;
-        _sync = sync;
     }
 
+    // Translation — stateless. The edge always supplies the post content (postData)
+    // from D1 (source of truth); Cosmos DB is never read or written here.
     public async Task<Dictionary<string, BlogPostTranslationEntity>?> TranslateAsync(
-        string slug, List<(string localeCode, string translatorCode)> targets, ITranslationService translationService, string sourceLocale = "en-US", BlogPostEntity? postData = null)
+        string slug, List<(string localeCode, string translatorCode)> targets, ITranslationService translationService,
+        string sourceLocale, BlogPostEntity postData, Api.DTOs.LlmReviewConfig? llmReview = null)
     {
-        // Use D1-supplied post data when provided; only fall back to Cosmos DB if not
-        var post = postData ?? await _blogRepo.GetBySlugAsync(slug);
-        if (post == null) return null;
+        var post = postData;
 
-        var effectiveSourceLocale = !string.IsNullOrWhiteSpace(sourceLocale) ? sourceLocale : post.Lang;
+        var effectiveSourceLocale = !string.IsNullOrWhiteSpace(sourceLocale) ? sourceLocale : "en-US";
         var sourceTranslatorCode = ToAzureSourceCode(effectiveSourceLocale);
 
         // Build reverse map: translatorCode → localeCode for result storage
@@ -72,12 +57,12 @@ public class BlogService : IBlogService
                     var dtoBatch = machineTranslations[lang];
 
                     // Review title, excerpt, and content blocks in parallel
-                    var titleTask = _llmReview.ReviewAsync(post.Title, dtoBatch.Title, lang, effectiveSourceLocale);
-                    var excerptTask = _llmReview.ReviewAsync(post.Excerpt, dtoBatch.Excerpt, lang, effectiveSourceLocale);
+                    var titleTask = _llmReview.ReviewAsync(post.Title, dtoBatch.Title, lang, llmReview);
+                    var excerptTask = _llmReview.ReviewAsync(post.Excerpt, dtoBatch.Excerpt, lang, llmReview);
                     var contentTasks = dtoBatch.Content.Select((block, idx) =>
                     {
                         var originalBlock = idx < contentStrings.Count ? contentStrings[idx] : "";
-                        return _llmReview.ReviewAsync(originalBlock, block, lang, effectiveSourceLocale);
+                        return _llmReview.ReviewAsync(originalBlock, block, lang, llmReview);
                     }).ToList();
 
                     await Task.WhenAll(titleTask, excerptTask, Task.WhenAll(contentTasks));
@@ -100,7 +85,7 @@ public class BlogService : IBlogService
 
             var results = await Task.WhenAll(tasks);
 
-            // Save batch — store by localeCode (e.g. "bs-BA"), not translatorCode ("bs")
+            // Collect batch — store by localeCode (e.g. "bs-BA"), not translatorCode ("bs")
             foreach (var (translatorCode, dtoTranslation, _) in results)
             {
                 var localeCode = codeMap.TryGetValue(translatorCode, out var lc) ? lc : translatorCode;
@@ -114,12 +99,10 @@ public class BlogService : IBlogService
                     IsAutoTranslated = dtoTranslation.IsAutoTranslated,
                     TranslatedAt = dtoTranslation.TranslatedAt,
                 };
-                await _translationRepo.UpsertAsync(entity);
-                _ = _sync.TrySyncOneAsync("blogPostTranslations", entity);
                 allResults[localeCode] = entity;
             }
 
-            _logger.LogInformation("[{Slug}] Saved batch of {Count} translations ({Completed}/{Total})",
+            _logger.LogInformation("[{Slug}] Collected batch of {Count} translations ({Completed}/{Total})",
                 slug, results.Length, completed, total);
         }
 

@@ -1,5 +1,6 @@
 using System.Net.Http.Json;
 using System.Text.Json.Serialization;
+using Api.DTOs.Auth;
 using Api.DTOs.Blog;
 using Api.Entities;
 using Api.Services.Interfaces;
@@ -168,22 +169,16 @@ public class TranslationService : ITranslationService
         return results;
     }
 
-    public async Task<UserPageTranslationEntity> TranslateUserPageAsync(UserEntity user, string targetLang)
+    public async Task<PageTranslation> TranslateUserPageAsync(string? bio, string? pageContent, string targetLang)
     {
-        var pageContentText = user.PageContent != null
-            ? string.Join("\n", user.PageContent.Select(c => c?.ToString() ?? ""))
-            : "";
-
-        var texts = new List<string> { user.Bio ?? "", pageContentText };
+        var texts = new List<string> { bio ?? "", pageContent ?? "" };
 
         var translated = await TranslateTextsAsync(texts, targetLang);
 
-        return new UserPageTranslationEntity
+        return new PageTranslation
         {
-            UserId = user.Id,
-            Lang = targetLang,
             Bio = translated[0],
-            PageContent = string.IsNullOrEmpty(translated[1]) ? null : new List<object> { translated[1] },
+            PageContent = translated[1],
             IsAutoTranslated = true,
             TranslatedAt = DateTime.UtcNow,
         };

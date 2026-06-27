@@ -46,7 +46,7 @@ public class TagFunctions
             .Select(t => (t.LocaleCode, t.TranslatorCode));
 
         var sourceLang = request.SourceLocale.Split('-')[0];
-        var result = await _tagService.TranslateAsync(id, targets, _translationService, request.Label, sourceLang)
+        var result = await _tagService.TranslateAsync(id, targets, _translationService, request.Label, sourceLang, request.LlmReview)
             ?? throw new NotFoundException("Tag not found.");
         return await req.CreateJsonResponseAsync(HttpStatusCode.OK, result);
     }

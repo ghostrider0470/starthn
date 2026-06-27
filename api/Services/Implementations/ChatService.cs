@@ -2,20 +2,15 @@ using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
-using System.Threading.Channels;
-using Azure.AI.OpenAI;
 using Api.DTOs.Chat;
 using Api.Services.Interfaces;
 using Microsoft.Extensions.Logging;
-using OpenAI.Chat;
-using System.ClientModel;
 
 namespace Api.Services.Implementations;
 
 public class ChatService : IChatService
 {
     private readonly HttpClient _http;
-    private readonly ILlmProviderService _providerService;
     private readonly ILogger<ChatService> _logger;
 
     private static string BuildSystemPrompt(string? locale, string? pageContext) => $"""
@@ -51,10 +46,9 @@ public class ChatService : IChatService
         - If the conversation has gone 5+ exchanges without lead info, make one natural attempt: "If you'd like Start HN to review your situation, share your email and the team can follow up."
         """;
 
-    public ChatService(HttpClient http, ILlmProviderService providerService, ILogger<ChatService> logger)
+    public ChatService(HttpClient http, ILogger<ChatService> logger)
     {
         _http = http;
-        _providerService = providerService;
         _logger = logger;
     }
 
@@ -70,46 +64,17 @@ public class ChatService : IChatService
         };
         fullMessages.AddRange(messages.TakeLast(20).Select(m => new { role = m.Role, content = m.Content }));
 
-        var envReturnedTokens = false;
-        await foreach (var token in StreamEnvAzureOpenAiAsync(messages, locale, pageContext, cancellationToken))
+        var stream = await TryEnvProviderAsync(fullMessages, cancellationToken)
+            ?? await TryNvidiaFallbackAsync(fullMessages, cancellationToken);
+
+        if (stream == null)
         {
-            envReturnedTokens = true;
-            yield return token;
-        }
-        if (envReturnedTokens)
-        {
+            yield return "I'm temporarily unavailable. Please try again later or visit our contact page at /contact.";
             yield break;
         }
 
-        var stream = await TryDbProviderAsync(fullMessages, cancellationToken);
-        if (stream != null)
-        {
-            await foreach (var token in StreamServerSentEventTokensAsync(stream, cancellationToken))
-            {
-                yield return token;
-            }
-            yield break;
-        }
-
-        stream = await TryNvidiaFallbackAsync(fullMessages, cancellationToken);
-        if (stream != null)
-        {
-            await foreach (var token in StreamServerSentEventTokensAsync(stream, cancellationToken))
-            {
-                yield return token;
-            }
-            yield break;
-        }
-
-        yield return "I'm temporarily unavailable. Please try again later or visit our contact page at /contact.";
-    }
-
-    private static async IAsyncEnumerable<string> StreamServerSentEventTokensAsync(
-        Stream stream,
-        [EnumeratorCancellation] CancellationToken cancellationToken = default)
-    {
         using var reader = new StreamReader(stream);
-        while (!cancellationToken.IsCancellationRequested)
+        while (!reader.EndOfStream && !cancellationToken.IsCancellationRequested)
         {
             var line = await reader.ReadLineAsync(cancellationToken);
             if (line == null) break;
@@ -142,111 +107,36 @@ public class ChatService : IChatService
         return null;
     }
 
-    private async Task<Stream?> TryDbProviderAsync(List<object> messages, CancellationToken ct)
-    {
-        try
-        {
-            var (provider, model) = await _providerService.GetChatActiveAsync();
-            if (provider == null || model == null)
-                return null;
-
-            var apiType = model.Api ?? provider.Api;
-            _logger.LogInformation("Chat: using DB provider {Key}/{Model} ({Api})", provider.Key, model.Id, apiType);
-
-            return apiType == "anthropic-messages"
-                ? await StreamAnthropicAsync(provider.BaseUrl, provider.ApiKey, model.Id, model.MaxTokens, provider.Headers, messages, ct)
-                : await StreamOpenAiCompatibleAsync(provider.BaseUrl, provider.ApiKey, model.Id, provider.Headers, messages, ct);
-        }
-        catch (Exception ex)
-        {
-            _logger.LogWarning(ex, "Chat: DB provider failed, trying env fallback");
-            return null;
-        }
-    }
-
-    private IAsyncEnumerable<string> StreamEnvAzureOpenAiAsync(
-        List<ChatMessageDto> messages,
-        string? locale,
-        string? pageContext,
-        CancellationToken ct = default)
+    private async Task<Stream?> TryEnvProviderAsync(List<object> messages, CancellationToken ct)
     {
         var endpoint = Environment.GetEnvironmentVariable("CHAT_LLM_ENDPOINT");
         var deployment = Environment.GetEnvironmentVariable("CHAT_LLM_DEPLOYMENT");
         var apiKey = Environment.GetEnvironmentVariable("CHAT_LLM_API_KEY");
 
         if (string.IsNullOrEmpty(endpoint) || string.IsNullOrEmpty(deployment) || string.IsNullOrEmpty(apiKey))
-            return EmptyAsyncEnumerable();
+            return null;
 
-        var channel = Channel.CreateUnbounded<string>(new UnboundedChannelOptions
+        try
         {
-            SingleReader = true,
-            SingleWriter = true,
-        });
+            _logger.LogInformation("Chat: using env Azure OpenAI ({Deployment})", deployment);
+            var url = $"{endpoint.TrimEnd('/')}/openai/deployments/{deployment}/chat/completions?api-version=2024-10-21";
 
-        _ = Task.Run(async () =>
-        {
-            try
+            var body = new { messages, stream = true };
+            var request = new HttpRequestMessage(HttpMethod.Post, url)
             {
-                _logger.LogInformation("Chat: using env Azure OpenAI ({Deployment})", deployment);
+                Content = new StringContent(JsonSerializer.Serialize(body), Encoding.UTF8, "application/json")
+            };
+            request.Headers.Add("api-key", apiKey);
 
-                var azureClient = new AzureOpenAIClient(
-                    new Uri(endpoint),
-                    new ApiKeyCredential(apiKey));
-                var chatClient = azureClient.GetChatClient(deployment);
-
-                var sdkMessages = BuildSdkMessages(messages, locale, pageContext);
-                var completionUpdates = chatClient.CompleteChatStreamingAsync(sdkMessages, cancellationToken: ct);
-                await foreach (var completionUpdate in completionUpdates)
-                {
-                    foreach (var contentPart in completionUpdate.ContentUpdate)
-                    {
-                        if (!string.IsNullOrEmpty(contentPart.Text))
-                        {
-                            await channel.Writer.WriteAsync(contentPart.Text, ct);
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                _logger.LogWarning(ex, "Chat: env Azure OpenAI failed, trying NVIDIA fallback");
-            }
-            finally
-            {
-                channel.Writer.TryComplete();
-            }
-        }, CancellationToken.None);
-
-        return channel.Reader.ReadAllAsync(ct);
-    }
-
-    private static async IAsyncEnumerable<string> EmptyAsyncEnumerable()
-    {
-        await Task.CompletedTask;
-        yield break;
-    }
-
-    private static List<ChatMessage> BuildSdkMessages(
-        List<ChatMessageDto> messages,
-        string? locale,
-        string? pageContext)
-    {
-        var sdkMessages = new List<ChatMessage>
-        {
-            new SystemChatMessage(BuildSystemPrompt(locale, pageContext)),
-        };
-
-        foreach (var message in messages.TakeLast(20))
-        {
-            sdkMessages.Add(message.Role.ToLowerInvariant() switch
-            {
-                "assistant" => new AssistantChatMessage(message.Content),
-                "system" => new SystemChatMessage(message.Content),
-                _ => new UserChatMessage(message.Content),
-            });
+            var response = await _http.SendAsync(request, HttpCompletionOption.ResponseHeadersRead, ct);
+            response.EnsureSuccessStatusCode();
+            return await response.Content.ReadAsStreamAsync(ct);
         }
-
-        return sdkMessages;
+        catch (Exception ex)
+        {
+            _logger.LogWarning(ex, "Chat: env Azure OpenAI failed, trying NVIDIA fallback");
+            return null;
+        }
     }
 
     private async Task<Stream?> TryNvidiaFallbackAsync(List<object> messages, CancellationToken ct)
