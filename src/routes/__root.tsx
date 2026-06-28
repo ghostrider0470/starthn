@@ -170,12 +170,24 @@ function RootComponent() {
 // useEffect runs after hydration.
 const THEME_INIT_SCRIPT = `(function(){var t=localStorage.getItem('starthn-theme');var d=t==='dark'||(t!=='light'&&matchMedia('(prefers-color-scheme:dark)').matches);document.documentElement.classList.toggle('dark',d);document.documentElement.classList.toggle('light',!d);document.documentElement.style.colorScheme=d?'dark':'light'})()`
 
+// Branded Google Fonts (Plus Jakarta Sans + Public Sans). Loaded
+// non-render-blocking via the loadCSS media-swap pattern so the stylesheet
+// request never blocks first paint. `display=swap` keeps text visible while
+// the web fonts load. A <noscript> fallback covers JS-disabled clients.
+const FONTS_CSS_URL =
+  'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Public+Sans:wght@400;500;600&display=swap'
+const FONTS_LOAD_SCRIPT = `(function(){var l=document.createElement('link');l.rel='stylesheet';l.href='${FONTS_CSS_URL}';l.media='print';l.onload=function(){l.media='all'};document.head.appendChild(l)})()`
+
 function RootDocument({ children }: { children: React.ReactNode }) {
   return (
     <html lang={i18n.language.split('-')[0]} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
         <HeadContent />
+        <script dangerouslySetInnerHTML={{ __html: FONTS_LOAD_SCRIPT }} />
+        <noscript>
+          <link rel="stylesheet" href={FONTS_CSS_URL} />
+        </noscript>
       </head>
       <body>
         {children}
@@ -255,10 +267,9 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
         href: 'https://fonts.gstatic.com',
         crossOrigin: 'anonymous',
       },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Public+Sans:wght@400;500;600&display=swap',
-      },
+      // Branded fonts are loaded non-render-blocking from RootDocument's head
+      // (loadCSS media-swap pattern). This preload only warms the request.
+      { rel: 'preload', as: 'style', href: FONTS_CSS_URL },
       { rel: 'stylesheet', href: appCss },
       { rel: 'icon', type: 'image/png', href: '/favicon-32.png' },
       { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
