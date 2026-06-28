@@ -1,5 +1,5 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { z } from 'zod'
 import { useAuth } from '@/contexts/AuthContext'
 import oauthService from '@/services/oauth.service'
@@ -19,11 +19,6 @@ export const Route = createFileRoute('/{-$locale}/auth/callback')({
   validateSearch: callbackSearchSchema,
   component: OAuthCallback,
 })
-
-// Module-level guards prevent double execution from React StrictMode remounts.
-// _cancelled is reset on each mount so StrictMode's fake unmount doesn't kill the async work.
-let _processing = false
-let _cancelled = false
 
 function navigateAfterLogin(currentLocale: string, navigate: ReturnType<typeof useNavigate>) {
   const token = localStorage.getItem('accessToken')
@@ -53,11 +48,17 @@ function OAuthCallback() {
   const [error, setError] = useState<string | null>(null)
   const [isProcessing, setIsProcessing] = useState(true)
   const currentLocale = getLocaleFromPath(window.location.pathname)
+  // Run-once guard scoped to THIS visit. A useRef (not a module-level flag) is
+  // fresh on every mount, so a 2nd login in the same SPA session re-processes
+  // instead of bailing out and hanging on the spinner forever. It also survives
+  // React StrictMode's dev double-invoke (the ref persists across the fake
+  // remount), so the OAuth work runs exactly once and is never cancelled
+  // mid-flight — no module-level state, no cleanup that kills the async work.
+  const startedRef = useRef(false)
 
   useEffect(() => {
-    _cancelled = false
-    if (_processing) return
-    _processing = true
+    if (startedRef.current) return
+    startedRef.current = true
 
     const handleCallback = async () => {
       try {
@@ -70,7 +71,6 @@ function OAuthCallback() {
         if (oauthError) {
           setError(errorDescription || 'OAuth authentication failed')
           setIsProcessing(false)
-          _processing = false
           return
         }
 
@@ -80,26 +80,22 @@ function OAuthCallback() {
         if (code && state?.startsWith('Microsoft_')) {
           console.log('[OAuth] Starting Microsoft code exchange...')
           const tokenResponse = await oauthService.exchangeCodeForTokens(code, 'Microsoft', state)
-          console.log('[OAuth] Exchange response:', { hasIdToken: !!tokenResponse.id_token, hasAccessToken: !!tokenResponse.access_token })
-          if (_cancelled) return
+          console.log('[OAuth] Exchange response:', { hasIdToken: !!tokenResponse.id_token })
           await externalLogin({
             provider: 'Microsoft',
             idToken: tokenResponse.id_token,
           })
           console.log('[OAuth] External login complete, stored token:', !!localStorage.getItem('accessToken'))
-          if (_cancelled) return
           navigateAfterLogin(currentLocale, navigate)
           return
         }
 
         if (code && state?.startsWith('Google_')) {
           const tokenResponse = await oauthService.exchangeCodeForTokens(code, 'Google', state)
-          if (_cancelled) return
           await externalLogin({
             provider: 'Google',
             idToken: tokenResponse.id_token,
           })
-          if (_cancelled) return
           navigateAfterLogin(currentLocale, navigate)
           return
         }
@@ -107,9 +103,7 @@ function OAuthCallback() {
         // No valid auth data
         setError('No authorization data received')
         setIsProcessing(false)
-        _processing = false
       } catch (err: any) {
-        if (_cancelled) return
         console.error('OAuth callback error:', err)
 
         let errorMessage = 'Authentication failed'
@@ -126,16 +120,11 @@ function OAuthCallback() {
 
         setError(errorMessage)
         setIsProcessing(false)
-        _processing = false
         oauthService.clearOAuthData()
       }
     }
 
     handleCallback()
-
-    return () => {
-      _cancelled = true
-    }
   }, [currentLocale, externalLogin, navigate])
 
   if (error) {
