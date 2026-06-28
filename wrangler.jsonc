@@ -19,8 +19,16 @@
     "ADMIN_EMAILS": "hamza.abdagic@horizon-tech.io,selma.hadzic@starthn.ba",
     "MAINTENANCE_MODE": "false",
     "JWT_ISSUER": "starthn",
-    "JWT_AUDIENCE": "starthn-frontend"
+    "JWT_AUDIENCE": "starthn-frontend",
+    // OIDC idToken verification (oauth-verify.ts). PUBLIC identifiers — client/tenant
+    // IDs are not secrets (the client ID ships in the frontend bundle; the tenant ID
+    // is in the OIDC issuer URL). App reg: "StartHN Microsoft Login" (single-tenant /
+    // AzureADMyOrg) in the StartHN Entra tenant aa722524.
+    "MICROSOFT_CLIENT_ID": "bcabd55c-a414-4cc0-b785-32657356c959",
+    "MICROSOFT_TENANT_ID": "aa722524-5f12-410b-b06c-d5a8d54b1ddf"
     // JWT_SECRET is set via `npx wrangler secret put JWT_SECRET` (not here — sensitive)
+    // GOOGLE_CLIENT_ID intentionally unset — no Google OAuth app is configured yet, so
+    // Google login fails closed (secure) until a real client ID is added here.
   },
   "d1_databases": [
     {
