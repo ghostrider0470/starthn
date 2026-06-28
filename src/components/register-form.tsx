@@ -250,11 +250,13 @@ export function RegisterForm({
               {t('register.orContinueWith')}
             </span>
           </div>
-          <div className="grid grid-cols-2 gap-4">
-            <Button 
-              variant="outline" 
-              type="button" 
-              className="w-full" 
+          {/* Google button is gated: hidden until VITE_GOOGLE_CLIENT_ID is configured */}
+          <div className={import.meta.env.VITE_GOOGLE_CLIENT_ID ? 'grid grid-cols-2 gap-4' : 'grid grid-cols-1 gap-4'}>
+            {import.meta.env.VITE_GOOGLE_CLIENT_ID && (
+            <Button
+              variant="outline"
+              type="button"
+              className="w-full"
               disabled={isLoading}
               onClick={handleGoogleSignup}
             >
@@ -266,6 +268,7 @@ export function RegisterForm({
               </svg>
               <span className="sr-only">{t('register.signUpWithGoogle')}</span>
             </Button>
+            )}
             <Button
               variant="outline"
               type="button"
