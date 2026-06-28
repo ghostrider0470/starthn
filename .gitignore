@@ -57,3 +57,6 @@ scripts/data/*/
 # Dynamic sitemap is served by the Worker; never commit/deploy static copies (they shadow it)
 public/sitemap.xml
 public/sitemap-*.xml
+
+# Subagent scratch reports — never commit
+.sdd-*.md
