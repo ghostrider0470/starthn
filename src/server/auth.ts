@@ -41,13 +41,12 @@ async function importKey(secret: string, usage: KeyUsage[]): Promise<CryptoKey> 
 }
 
 function base64UrlEncode(input: Uint8Array | string): string {
-  let str: string
-  if (typeof input === 'string') {
-    str = input
-  } else {
-    str = ''
-    for (const b of input) str += String.fromCharCode(b)
-  }
+  // UTF-8 encode strings to bytes first — btoa() only accepts Latin1, so a raw
+  // string containing non-ASCII chars (e.g. "Abdagić") would throw. Building the
+  // binary string from UTF-8 bytes keeps every char in the 0-255 range.
+  const bytes = typeof input === 'string' ? new TextEncoder().encode(input) : input
+  let str = ''
+  for (const b of bytes) str += String.fromCharCode(b)
   return btoa(str).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '')
 }
 

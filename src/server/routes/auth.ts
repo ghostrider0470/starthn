@@ -1,6 +1,13 @@
 import bcrypt from 'bcryptjs'
 import { signJwt, loadUserPermissions, verifyJwt } from '../auth'
 import { createDb, UserRepository, RoleRepository } from '../db'
+import { verifyOidcIdToken } from '../oauth-verify'
+
+// Precomputed bcrypt hash of a fixed dummy password. Used to equalize login
+// timing so a missing account / missing password_hash cannot be distinguished
+// from a wrong password by response latency.
+const DUMMY_BCRYPT_HASH =
+  '$2b$10$FyHBduBXvdcvrSrSf.F4deSjIUO3IAGewDtCp17LxM/A93QMhbjay'
 
 interface AuthEnv {
   DB: D1Database
@@ -64,64 +71,6 @@ function normalizeProvider(provider: string | undefined): OAuthProviderKey | nul
   return normalized === 'microsoft' || normalized === 'google' ? normalized : null
 }
 
-function decodeBase64UrlJson<T>(segment: string): T | null {
-  try {
-    const b64 = segment.replace(/-/g, '+').replace(/_/g, '/')
-    const padded = b64 + '='.repeat((4 - (b64.length % 4)) % 4)
-    return JSON.parse(atob(padded)) as T
-  } catch {
-    return null
-  }
-}
-
-function splitDisplayName(name: string): { firstName: string; lastName: string } {
-  const parts = name.trim().split(/\s+/)
-  return {
-    firstName: parts[0] ?? '',
-    lastName: parts.slice(1).join(' '),
-  }
-}
-
-function profileFromClaims(claims: Record<string, unknown>): ExternalProfile | null {
-  const email = String(
-    claims.email ?? claims.preferred_username ?? claims.upn ?? claims.unique_name ?? '',
-  ).trim()
-  if (!email) return null
-
-  const displayName = String(claims.name ?? claims.displayName ?? '').trim()
-  const split = splitDisplayName(displayName)
-  return {
-    email: email.toLowerCase(),
-    firstName: String(claims.given_name ?? claims.givenName ?? split.firstName).trim(),
-    lastName: String(claims.family_name ?? claims.surname ?? split.lastName).trim(),
-  }
-}
-
-function profileFromIdToken(idToken: string): ExternalProfile | null {
-  const [, payload] = idToken.split('.')
-  if (!payload) return null
-  const claims = decodeBase64UrlJson<Record<string, unknown>>(payload)
-  return claims ? profileFromClaims(claims) : null
-}
-
-async function profileFromAccessToken(
-  provider: OAuthProviderKey,
-  accessToken: string,
-): Promise<ExternalProfile | null> {
-  const userInfoUrl =
-    provider === 'microsoft'
-      ? 'https://graph.microsoft.com/oidc/userinfo'
-      : 'https://www.googleapis.com/oauth2/v3/userinfo'
-
-  const resp = await fetch(userInfoUrl, {
-    headers: { Authorization: `Bearer ${accessToken}` },
-  })
-  if (!resp.ok) return null
-
-  const claims = (await resp.json()) as Record<string, unknown>
-  return profileFromClaims(claims)
-}
-
 async function getUserRoles(userId: string, db: D1Database): Promise<string[]> {
   const rows = await db
     .prepare(
@@ -180,12 +129,22 @@ async function buildAuthResponse(
   })
 }
 
+async function masterAdminExists(db: D1Database): Promise<boolean> {
+  const row = await db
+    .prepare(
+      `SELECT 1 FROM user_roles ur JOIN roles r ON r.id = ur.role_id WHERE r.name = 'MasterAdmin' LIMIT 1`,
+    )
+    .first<{ 1: number }>()
+  return row != null
+}
+
 async function syncAdminRole(
   email: string,
   userId: string,
   adminEmails: string,
   db: ReturnType<typeof createDb>,
   userRepo: UserRepository,
+  rawDb: D1Database,
 ): Promise<void> {
   const list = adminEmails.split(',').map((e) => e.trim().toLowerCase()).filter(Boolean)
   const isAdmin = list.includes(email.toLowerCase())
@@ -193,6 +152,16 @@ async function syncAdminRole(
   if (!currentUser) return
   const hasMasterAdmin = currentUser.roles.includes('MasterAdmin')
   if (isAdmin && !hasMasterAdmin) {
+    // SECURITY: only auto-grant MasterAdmin during true first-time bootstrap.
+    // Once any MasterAdmin exists, the role must be assigned by an existing
+    // admin via the manage routes — never again from an unverified email list.
+    //
+    // Race note: this is a check-then-write. Concurrent registration of the
+    // *same* email is serialised by the users.email UNIQUE constraint (second
+    // attempt gets a 409 before it ever reaches syncAdminRole). With multiple
+    // ADMIN_EMAILS the first registrant wins the MasterAdmin role; full
+    // atomicity is intentionally not implemented — D1 has no advisory lock.
+    if (await masterAdminExists(rawDb)) return
     await userRepo.updateRoles(userId, [...currentUser.roles, 'MasterAdmin'])
   } else if (!isAdmin && hasMasterAdmin) {
     await userRepo.updateRoles(userId, currentUser.roles.filter((r) => r !== 'MasterAdmin'))
@@ -256,7 +225,7 @@ export async function handleAuthRoute(
 
       const db = createDb(env.DB)
       const userRepo = new UserRepository(db)
-      await syncAdminRole(body.email, userId, env.ADMIN_EMAILS ?? '', db, userRepo)
+      await syncAdminRole(body.email, userId, env.ADMIN_EMAILS ?? '', db, userRepo, env.DB)
       const createdUser = await userRepo.getById(userId)
 
       return buildAuthResponse(
@@ -286,6 +255,9 @@ export async function handleAuthRoute(
         .first<UserRow>()
 
       if (!user || !user.password_hash) {
+        // Equalize timing: run a dummy bcrypt compare so response latency does
+        // not reveal whether the account exists or has a usable password.
+        await bcrypt.compare(body.password, DUMMY_BCRYPT_HASH)
         return json({ error: 'Invalid credentials' }, 401)
       }
       if (!user.is_active) {
@@ -313,23 +285,21 @@ export async function handleAuthRoute(
       if (!body.refreshToken) return json({ error: 'Missing refreshToken' }, 400)
 
       const tokenHash = await sha256Hex(body.refreshToken)
-      const row = await env.DB.prepare(
-        `SELECT user_id FROM refresh_tokens WHERE token_hash = ? AND expires_at > datetime('now')`,
+      // Atomically consume exactly the presented token. Compares ISO-to-ISO
+      // (expires_at is stored as an ISO string), and RETURNING makes the
+      // delete-and-read a single race-free operation, so token reuse fails.
+      const nowIso = new Date().toISOString()
+      const consumed = await env.DB.prepare(
+        'DELETE FROM refresh_tokens WHERE token_hash = ? AND expires_at > ? RETURNING user_id',
       )
-        .bind(tokenHash)
+        .bind(tokenHash, nowIso)
         .first<{ user_id: string }>()
-      if (!row) return json({ error: 'Invalid or expired refresh token' }, 401)
-
-      await env.DB.prepare(
-        'DELETE FROM refresh_tokens WHERE user_id = ?',
-      )
-        .bind(row.user_id)
-        .run()
+      if (!consumed) return json({ error: 'Invalid or expired refresh token' }, 401)
 
       const user = await env.DB.prepare(
         'SELECT id, email, first_name, last_name, is_active FROM users WHERE id = ?',
       )
-        .bind(row.user_id)
+        .bind(consumed.user_id)
         .first<Omit<UserRow, 'password_hash'>>()
 
       if (!user || !user.is_active) {
@@ -428,28 +398,27 @@ export async function handleAuthRoute(
       return json({ error: 'Unsupported provider' }, 400)
     }
 
-    // External login (OAuth profile from userinfo when access_token is present;
-    // fall back to ID token claims for compatibility with the existing Azure path).
+    // External login — only JWKS-verified idToken is accepted.
+    // The accessToken/userinfo path has been removed: the userinfo endpoint does
+    // NOT validate token audience, so an access token issued to a different app
+    // could be replayed to mint a starthn session. The frontend only ever sends
+    // idToken (see ExternalAuthDto in src/services/auth.service.ts).
     if (path === '/api/auth/external-login' && method === 'POST') {
       const body = (await request.json()) as {
         provider?: string
-        accessToken?: string
         idToken?: string
       }
       if (!body.provider) return json({ error: 'Missing provider' }, 400)
 
       const externalProvider = normalizeProvider(body.provider)
       if (!externalProvider) return json({ error: 'Unsupported provider' }, 400)
-      if (!body.accessToken && !body.idToken) {
-        return json({ error: 'Missing idToken or accessToken' }, 400)
+      if (!body.idToken) {
+        return json({ error: 'Missing idToken' }, 400)
       }
 
-      const profile =
-        (body.accessToken
-          ? await profileFromAccessToken(externalProvider, body.accessToken)
-          : null) || (body.idToken ? profileFromIdToken(body.idToken) : null)
+      const profile = await verifyOidcIdToken(externalProvider, body.idToken, env)
 
-      if (!profile) return json({ error: 'Could not determine profile from provider' }, 401)
+      if (!profile) return json({ error: 'Could not verify provider token' }, 401)
 
       const db = createDb(env.DB)
       const userRepo = new UserRepository(db)
@@ -462,10 +431,10 @@ export async function handleAuthRoute(
           firstName: profile.firstName,
           lastName: profile.lastName,
         })
-        await syncAdminRole(profile.email, newUser.id, env.ADMIN_EMAILS ?? '', db, userRepo)
+        await syncAdminRole(profile.email, newUser.id, env.ADMIN_EMAILS ?? '', db, userRepo, env.DB)
         user = await userRepo.getById(newUser.id) as typeof user
       } else {
-        await syncAdminRole(profile.email, user.id, env.ADMIN_EMAILS ?? '', db, userRepo)
+        await syncAdminRole(profile.email, user.id, env.ADMIN_EMAILS ?? '', db, userRepo, env.DB)
         user = await userRepo.getById(user.id) as typeof user
       }
 

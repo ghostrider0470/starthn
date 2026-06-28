@@ -85,7 +85,6 @@ function OAuthCallback() {
           await externalLogin({
             provider: 'Microsoft',
             idToken: tokenResponse.id_token,
-            accessToken: tokenResponse.access_token,
           })
           console.log('[OAuth] External login complete, stored token:', !!localStorage.getItem('accessToken'))
           if (_cancelled) return
@@ -99,7 +98,6 @@ function OAuthCallback() {
           await externalLogin({
             provider: 'Google',
             idToken: tokenResponse.id_token,
-            accessToken: tokenResponse.access_token,
           })
           if (_cancelled) return
           navigateAfterLogin(currentLocale, navigate)
