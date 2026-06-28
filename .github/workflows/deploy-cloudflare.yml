@@ -35,8 +35,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate sitemap
-        run: npm run generate:sitemap
+      # NOTE: no build-time sitemap generation — starthn serves the sitemap
+      # dynamically from the Worker (src/server/sitemap.ts). Generating static
+      # public/sitemap*.xml here would shadow the dynamic one (Workers Assets
+      # are served before the Worker).
 
       # .env.production is committed — Vite auto-loads it during production builds.
       - name: Build
