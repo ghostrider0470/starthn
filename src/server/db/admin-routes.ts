@@ -366,6 +366,19 @@ export async function handleAdminRoute(
       return json(user)
     }
 
+    if (userIdMatch && method === 'DELETE') {
+      const perm = requirePermission(auth.payload, 'manage:users')
+      if (perm) return perm
+      const targetId = userIdMatch[1]
+      if (targetId === auth.payload.sub) return err('You cannot delete your own account', 400)
+      const repo = new UserRepository(db)
+      const target = await repo.getById(targetId)
+      if (!target) return err('Not found', 404)
+      if (target.roles?.includes('MasterAdmin')) return err('Cannot delete a MasterAdmin account', 403)
+      await repo.delete(targetId)
+      return json({ success: true })
+    }
+
     const userRolesMatch = path.match(/^\/api\/manage\/users\/([^/]+)\/roles$/)
     if (userRolesMatch && method === 'PUT') {
       const perm = requirePermission(auth.payload, 'manage:users')

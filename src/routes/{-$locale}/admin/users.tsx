@@ -1,7 +1,8 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { img } from '@/lib/image'
 import { useState, useEffect, useMemo } from 'react'
-import { useAdminUsers, useUpdateUserRoles, useUpdateUserStatus, useUpdateUserAuthorProfile } from '@/hooks/useUserManagementQueries'
+import { useAdminUsers, useUpdateUserRoles, useUpdateUserStatus, useUpdateUserAuthorProfile, useDeleteUser } from '@/hooks/useUserManagementQueries'
+import { useToast } from '@/hooks/use-toast'
 import type { AdminUser } from '@/services/user-management.service'
 import { ROLES, ROLE_LABELS, ROLE_VARIANTS } from '@/lib/rbac'
 import { useAdminRoles } from '@/hooks/useRoleQueries'
@@ -31,7 +32,7 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table'
-import { Pencil, Loader2, Users, Search, ChevronLeft, ChevronRight, Eye, EyeOff } from 'lucide-react'
+import { Pencil, Loader2, Users, Search, ChevronLeft, ChevronRight, Eye, EyeOff, Trash2 } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import { cn } from '@/lib/utils'
 
@@ -231,6 +232,8 @@ function AdminUsersPage() {
   const [roleFilter, setRoleFilter] = useState('__all__')
   const [page, setPage] = useState(1)
   const [editingUser, setEditingUser] = useState<AdminUser | null>(null)
+  const [deletingUser, setDeletingUser] = useState<AdminUser | null>(null)
+  const { toast } = useToast()
 
   // Debounce search
   useEffect(() => {
@@ -260,6 +263,7 @@ function AdminUsersPage() {
   const updateRolesMutation = useUpdateUserRoles()
   const updateStatusMutation = useUpdateUserStatus()
   const updateAuthorMutation = useUpdateUserAuthorProfile()
+  const deleteUserMutation = useDeleteUser()
 
   const users = data?.users ?? []
   const total = data?.total ?? 0
@@ -281,6 +285,24 @@ function AdminUsersPage() {
     ])
 
     setEditingUser(null)
+  }
+
+  async function handleDelete() {
+    if (!deletingUser) return
+    try {
+      await deleteUserMutation.mutateAsync(deletingUser.id)
+      toast({
+        title: 'User deleted',
+        description: `${deletingUser.firstName} ${deletingUser.lastName} has been permanently removed.`,
+      })
+      setDeletingUser(null)
+    } catch (e: any) {
+      toast({
+        title: 'Failed to delete user',
+        description: e?.message ?? 'Something went wrong.',
+        variant: 'destructive',
+      })
+    }
   }
 
   const isSaving = updateRolesMutation.isPending || updateStatusMutation.isPending || updateAuthorMutation.isPending
@@ -401,6 +423,17 @@ function AdminUsersPage() {
                           >
                             <Pencil className="h-4 w-4" />
                           </Button>
+                          {u.id !== currentUserId && !u.roles.includes('MasterAdmin') && (
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={() => setDeletingUser(u)}
+                              title="Delete user"
+                              className="text-destructive hover:text-destructive"
+                            >
+                              <Trash2 className="h-4 w-4" />
+                            </Button>
+                          )}
                         </TableCell>
                       </TableRow>
                     ))}
@@ -451,6 +484,36 @@ function AdminUsersPage() {
           onSave={handleSave}
           isSaving={isSaving}
         />
+      )}
+
+      {deletingUser && (
+        <Dialog open onOpenChange={(v) => !v && setDeletingUser(null)}>
+          <DialogContent className="max-w-sm">
+            <DialogHeader>
+              <DialogTitle>Delete user?</DialogTitle>
+            </DialogHeader>
+            <p className="text-sm text-muted-foreground py-2">
+              This permanently deletes{' '}
+              <span className="font-medium text-foreground">
+                {deletingUser.firstName} {deletingUser.lastName}
+              </span>{' '}
+              ({deletingUser.email}). This action cannot be undone.
+            </p>
+            <DialogFooter>
+              <Button variant="outline" onClick={() => setDeletingUser(null)}>
+                Cancel
+              </Button>
+              <Button
+                variant="destructive"
+                onClick={handleDelete}
+                disabled={deleteUserMutation.isPending}
+              >
+                {deleteUserMutation.isPending && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+                Delete
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
       )}
     </div>
   )

@@ -43,3 +43,14 @@ export function useUpdateUserAuthorProfile() {
     },
   })
 }
+
+export function useDeleteUser() {
+  const qc = useQueryClient()
+  return useMutation({
+    mutationFn: (id: string) => userManagementService.deleteUser(id),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: userManagementKeys.all })
+      qc.invalidateQueries({ queryKey: ['authors'] })
+    },
+  })
+}
