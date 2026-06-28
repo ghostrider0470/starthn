@@ -96,7 +96,7 @@ function MissionVisionPage() {
             <div className="border-t border-border pt-6 lg:border-t-0 lg:border-l lg:pl-8">
               <div className="mb-6 overflow-hidden rounded-lg border border-border">
                 <img
-                  src="/pages/mission-vision-hero.jpg"
+                  src="/pages/mission-vision-hero.webp"
                   alt="Professionals planning strategy"
                   className="w-full object-cover"
                   loading="eager"
@@ -162,7 +162,7 @@ function MissionVisionPage() {
 
           <div className="mb-8 overflow-hidden rounded-lg border border-border">
             <img
-              src="/pages/mission-vision-interior.jpg"
+              src="/pages/mission-vision-interior.webp"
               alt="Trust and partnership"
               className="aspect-video w-full object-cover"
               loading="lazy"

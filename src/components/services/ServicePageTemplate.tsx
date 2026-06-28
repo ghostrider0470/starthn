@@ -24,24 +24,24 @@ const SERVICE_IMAGES: Partial<
     interior: '/pages/bookkeeping-interior.webp',
   },
   taxConsulting: {
-    hero: '/pages/tax-consulting-hero.jpg',
-    interior: '/pages/tax-consulting-interior.jpg',
+    hero: '/pages/tax-consulting-hero.webp',
+    interior: '/pages/tax-consulting-interior.webp',
   },
   virtualCfo: {
     hero: '/pages/virtual-cfo-hero.webp',
     interior: '/pages/virtual-cfo-interior.webp',
   },
   businessConsulting: {
-    hero: '/pages/business-consulting-hero.jpg',
-    interior: '/pages/business-consulting-interior.jpg',
+    hero: '/pages/business-consulting-hero.webp',
+    interior: '/pages/business-consulting-interior.webp',
   },
   financialReporting: {
-    hero: '/pages/financial-reporting-hero.jpg',
-    interior: '/pages/financial-reporting-interior.jpg',
+    hero: '/pages/financial-reporting-hero.webp',
+    interior: '/pages/financial-reporting-interior.webp',
   },
   education: {
     hero: '/pages/education-hero.webp',
-    interior: '/pages/education-interior.jpg',
+    interior: '/pages/education-interior.webp',
   },
 }
 

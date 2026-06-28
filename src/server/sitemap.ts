@@ -1,14 +1,13 @@
 import { drizzle } from 'drizzle-orm/d1'
 import { eq, desc } from 'drizzle-orm'
 import { blogPosts } from './db/schema'
+import { SEO_PRIORITY_LOCALES } from '@/lib/seo'
 
 const BASE = 'https://www.starthn.ba'
 
-const SEO_LOCALES = [
-  'en-US', 'bs-BA', 'hr-HR', 'sr-Latn', 'de-DE', 'fr-FR', 'es-ES',
-  'it-IT', 'tr-TR', 'ar-SA', 'pt-BR', 'nl-NL', 'ru-RU', 'ja-JP',
-  'zh-Hans', 'ko-KR',
-] as const
+// Single source of truth for target locales (mirrors @/lib/seo). Imported, not
+// re-declared, so adding/removing a locale in seo.ts also updates the sitemap.
+const SEO_LOCALES = SEO_PRIORITY_LOCALES
 
 // Static paths (no locale prefix — prepended per locale below)
 const STATIC_PATHS = [
@@ -27,7 +26,8 @@ const STATIC_PATHS = [
   '/certificates',
   '/blog',
   '/contact',
-  '/case-studies',
+  '/privacy',
+  '/terms',
 ]
 
 function today(): string {

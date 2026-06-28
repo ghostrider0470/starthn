@@ -16,7 +16,6 @@
     "format": "prettier",
     "check": "prettier --write . && eslint --fix",
     "deploy": "npm run build && wrangler deploy && bash scripts/indexnow-ping.sh",
-    "generate:sitemap": "tsx scripts/generate-sitemap.ts",
     "i18n:translate": "tsx scripts/translate-all.ts",
     "i18n:translate:fast": "tsx scripts/translate-all.ts --langs bs-BA",
     "i18n:upload-en": "tsx scripts/translate-all.ts --upload-en",

@@ -35,7 +35,6 @@ export type User = {
 export type ExternalAuthDto = {
   provider: string;
   idToken: string;
-  accessToken?: string;
 }
 
 // Two-Factor Authentication Types
