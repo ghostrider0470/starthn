@@ -275,6 +275,9 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
         href: '/hero/slide-3-1440.webp',
         type: 'image/webp',
         fetchPriority: 'high',
+        imageSrcSet:
+          '/hero/slide-3-960.webp 960w, /hero/slide-3-1440.webp 1440w, /hero/slide-3.webp 1920w',
+        imageSizes: '100vw',
       },
     ],
     scripts: [],
