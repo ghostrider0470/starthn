@@ -100,6 +100,18 @@ export class UserRepository {
     return true
   }
 
+  /** Admin: permanently delete a user */
+  async delete(userId: string): Promise<boolean> {
+    const user = await this.db.select({ id: users.id }).from(users).where(eq(users.id, userId)).limit(1)
+    if (user.length === 0) return false
+    // blog_posts.author_id references users with NO onDelete cascade, so it must be
+    // nulled first or the user delete fails the FK constraint. The other child rows
+    // (user_roles, refresh_tokens, api_keys, user_page_translations) cascade automatically.
+    await this.db.update(blogPosts).set({ authorId: null }).where(eq(blogPosts.authorId, userId))
+    await this.db.delete(users).where(eq(users.id, userId))
+    return true
+  }
+
   /** Admin: update author profile */
   async updateAuthorProfile(userId: string, data: { bio?: string; profession?: string; expertise?: string[]; socialLinks?: Record<string, string>; slug?: string }) {
     const user = await this.db.select({ id: users.id }).from(users).where(eq(users.id, userId)).limit(1)

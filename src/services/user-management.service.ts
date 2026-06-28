@@ -32,4 +32,6 @@ export const userManagementService = {
     api.put(`/manage/users/${id}/status`, { isActive }),
   updateAuthorProfile: (id: string, data: { slug?: string | null; profession?: string }) =>
     api.put(`/manage/authors/${id}`, data),
+  deleteUser: (id: string) =>
+    api.delete(`/manage/users/${id}`),
 }
