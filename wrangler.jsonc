@@ -18,6 +18,9 @@
     "D1_PRIMARY": "true",
     "ADMIN_EMAILS": "hamza.abdagic@horizon-tech.io,selma.hadzic@starthn.ba",
     "MAINTENANCE_MODE": "false",
+    // Set to "true" to close signups: blocks /register AND first-time OAuth
+    // account creation. Existing users can still sign in.
+    "DISABLE_REGISTRATION": "true",
     "JWT_ISSUER": "starthn",
     "JWT_AUDIENCE": "starthn-frontend",
     // OIDC idToken verification (oauth-verify.ts). PUBLIC identifiers — client/tenant

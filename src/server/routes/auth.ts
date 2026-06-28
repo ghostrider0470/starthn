@@ -20,6 +20,9 @@ interface AuthEnv {
   MICROSOFT_CLIENT_SECRET?: string
   GOOGLE_CLIENT_ID?: string
   GOOGLE_CLIENT_SECRET?: string
+  // When 'true', blocks ALL new account creation — both /register and
+  // first-time OAuth logins. Existing users can still sign in.
+  DISABLE_REGISTRATION?: string
 }
 
 interface UserRow {
@@ -183,6 +186,9 @@ export async function handleAuthRoute(
   try {
     // Register
     if (path === '/api/auth/register' && method === 'POST') {
+      if (env.DISABLE_REGISTRATION === 'true') {
+        return json({ error: 'New registrations are currently disabled' }, 403)
+      }
       const body = (await request.json()) as {
         email?: string
         password?: string
@@ -426,6 +432,9 @@ export async function handleAuthRoute(
       if (user && !user.isActive) return json({ error: 'Account disabled' }, 403)
 
       if (!user) {
+        if (env.DISABLE_REGISTRATION === 'true') {
+          return json({ error: 'New registrations are currently disabled' }, 403)
+        }
         const newUser = await userRepo.create({
           email: profile.email,
           firstName: profile.firstName,
