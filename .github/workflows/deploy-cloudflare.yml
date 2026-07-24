@@ -15,6 +15,18 @@ on:
       - 'api/**'
       - 'docs/**'
 
+# Serialize deploys so two pushes to master in quick succession can't run
+# concurrently and finish out of order (last finisher wins otherwise).
+# NOTE: the deploy step below is correctly guarded with
+# `if: github.event_name == 'push'` — keep it that way. Do NOT add a
+# `deploy --env <name>` step for PR previews: with @cloudflare/vite-plugin the
+# --env flag is silently ignored (it is only asserted against a build-time
+# CLOUDFLARE_ENV) and the deploy lands on PRODUCTION. horizon-frontend shipped
+# every PR to production for months that way. Use `versions upload` instead.
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
