@@ -27,6 +27,7 @@ import { ChatProvider } from '@/contexts/ChatContext'
 
 import appCss from '@/styles.css?url'
 import i18n from '@/i18n'
+import { buildLocalBusinessStructuredData } from '@/lib/seo'
 
 // Lazy-load browser-only components that use useIsDarkMode / document APIs
 const ChatWidget = lazy(() =>
@@ -244,7 +245,7 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       // og:url, twitter:url, canonical and hreflang are server-rendered per-page
       // by the {-$locale} layout route (see its head()), which knows the locale
       // and full path. They are intentionally NOT set here on the static root.
-      { property: 'og:locale', content: 'en_US' },
+      { property: 'og:locale', content: 'bs_BA' },
       { name: 'twitter:card', content: 'summary_large_image' },
       {
         name: 'twitter:title',
@@ -291,7 +292,12 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
         imageSizes: '100vw',
       },
     ],
-    scripts: [],
+    scripts: [
+      {
+        type: 'application/ld+json',
+        children: JSON.stringify(buildLocalBusinessStructuredData()),
+      },
+    ],
   }),
   shellComponent: RootDocument,
   component: RootComponent,
