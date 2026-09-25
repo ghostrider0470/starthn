@@ -26,6 +26,35 @@ export const SEO_PRIORITY_LOCALES = [
   'ko-KR',    // Korean
 ] as const
 
+/**
+ * App-only routes (auth, account, admin) that must never be indexed. Single
+ * source of truth for the server-rendered robots meta, the client meta hook,
+ * and public/robots.txt (a test keeps robots.txt in sync with this list).
+ */
+export const PRIVATE_ROUTE_PREFIXES = [
+  '/admin',
+  '/auth',
+  '/confirm-email',
+  '/dashboard',
+  '/first-time-setup',
+  '/forgot-password',
+  '/login',
+  '/my-page',
+  '/profile',
+  '/register',
+  '/reset-password',
+  '/unauthorized',
+  '/workspace',
+] as const
+
+/** True for a locale-stripped path under one of PRIVATE_ROUTE_PREFIXES. */
+export function isPrivateRoute(normalizedPath: string): boolean {
+  return PRIVATE_ROUTE_PREFIXES.some(
+    (prefix) =>
+      normalizedPath === prefix || normalizedPath.startsWith(`${prefix}/`),
+  )
+}
+
 type OpenGraphType = 'website' | 'article' | 'profile'
 
 export interface PageSeoInput {
@@ -71,7 +100,7 @@ export interface LocalizedSeoHead {
   canonicalUrl: string
   /** hreflang alternates incl. x-default; empty for non-priority locales. */
   alternates: Array<{ hreflang: string; href: string }>
-  /** index,follow for priority locales; noindex,follow for the rest. */
+  /** noindex,nofollow for private routes; else index,follow for priority locales, noindex,follow for the rest. */
   robots: string
 }
 
@@ -121,7 +150,11 @@ export function buildLocalizedSeoHead(
   return {
     canonicalUrl,
     alternates,
-    robots: isPriority ? 'index,follow' : 'noindex,follow',
+    robots: isPrivateRoute(normalizedPath)
+      ? 'noindex,nofollow'
+      : isPriority
+        ? 'index,follow'
+        : 'noindex,follow',
   }
 }
 

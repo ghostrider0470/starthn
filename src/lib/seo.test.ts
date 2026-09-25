@@ -3,6 +3,7 @@ import {
   SEO_ORIGIN,
   buildLocalBusinessStructuredData,
   buildLocalizedSeoHead,
+  isPrivateRoute,
 } from './seo'
 
 describe('buildLocalizedSeoHead', () => {
@@ -42,6 +43,20 @@ describe('buildLocalizedSeoHead', () => {
 
   it('marks priority locales index,follow', () => {
     expect(buildLocalizedSeoHead('/', 'hr-HR').robots).toBe('index,follow')
+  })
+})
+
+describe('private routes', () => {
+  it('server-renders noindex,nofollow for private routes in any locale', () => {
+    expect(buildLocalizedSeoHead('/login', 'bs-BA').robots).toBe('noindex,nofollow')
+    expect(buildLocalizedSeoHead('/admin/users', 'en-US').robots).toBe('noindex,nofollow')
+    expect(buildLocalizedSeoHead('/my-page', 'th-TH').robots).toBe('noindex,nofollow')
+  })
+
+  it('keeps look-alike public paths indexable', () => {
+    expect(isPrivateRoute('/blog/register-a-company')).toBe(false)
+    expect(isPrivateRoute('/login-help')).toBe(false)
+    expect(buildLocalizedSeoHead('/contact', 'bs-BA').robots).toBe('index,follow')
   })
 })
 

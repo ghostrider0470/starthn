@@ -12,6 +12,7 @@ import {
 } from '@/lib/i18n-utils'
 import {
   SEO_PRIORITY_LOCALES,
+  isPrivateRoute,
   applyPageSeo,
   buildArticleStructuredData,
   buildBreadcrumbStructuredData,
@@ -45,21 +46,6 @@ type ResolvedSeoMeta = {
   robots?: string
   blogArticle?: BlogArticleMeta
 }
-
-const NOINDEX_PREFIXES = [
-  '/admin',
-  '/profile',
-  '/dashboard',
-  '/first-time-setup',
-  '/login',
-  '/register',
-  '/forgot-password',
-  '/reset-password',
-  '/confirm-email',
-  '/auth',
-  '/unauthorized',
-  '/workspace',
-]
 
 const SEO_ROUTE_MAP: Partial<Record<string, SeoMetaTranslation>> = {
   '/': { titleKey: 'seo:pages.home.title', descriptionKey: 'seo:pages.home.description' },
@@ -152,14 +138,8 @@ function clearArticleMeta() {
     .forEach((node) => node.remove())
 }
 
-function isNoindexRoute(path: string): boolean {
-  return NOINDEX_PREFIXES.some(
-    (prefix) => path === prefix || path.startsWith(`${prefix}/`),
-  )
-}
-
 function resolveSeoMeta(normalizedPath: string): ResolvedSeoMeta {
-  const robots = isNoindexRoute(normalizedPath) ? 'noindex,nofollow' : undefined
+  const robots = isPrivateRoute(normalizedPath) ? 'noindex,nofollow' : undefined
 
   const directMatch = SEO_ROUTE_MAP[normalizedPath]
   if (directMatch) {
