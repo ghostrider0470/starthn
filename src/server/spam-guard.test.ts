@@ -18,6 +18,15 @@ describe('isHackSpam', () => {
     expect(isHackSpam('/en-US/B471837416/')).toBe(true)
   })
 
+  it('matches WordPress-era taxonomy junk', () => {
+    expect(isHackSpam('/cate-101')).toBe(true)
+    expect(isHackSpam('/cate-136-177')).toBe(true)
+    expect(isHackSpam('/cate-349-599/')).toBe(true)
+    expect(isHackSpam('/en-US/cate-10-40')).toBe(true)
+    expect(isHackSpam('/case-studie-categorie/coportate')).toBe(true)
+    expect(isHackSpam('/case-studie-categorie')).toBe(true)
+  })
+
   it('does NOT match legitimate routes', () => {
     expect(isHackSpam('/')).toBe(false)
     expect(isHackSpam('/en-US')).toBe(false)
@@ -27,6 +36,8 @@ describe('isHackSpam', () => {
     expect(isHackSpam('/en-US/team/jan-horvat')).toBe(false)
     expect(isHackSpam('/bs/about')).toBe(false)
     expect(isHackSpam('/sitemap.xml')).toBe(false)
+    expect(isHackSpam('/bs-BA/blog/cate-planning')).toBe(false)
+    expect(isHackSpam('/bs-BA/services/business-consulting')).toBe(false)
     expect(isHackSpam('/sitemap-en-US.xml')).toBe(false)
     expect(isHackSpam('/robots.txt')).toBe(false)
     expect(isHackSpam('/api/blog')).toBe(false)

@@ -13,6 +13,7 @@ import { handleImageRequest } from './server/image-handler'
 import { handleHealth } from './server/health'
 import { handleSitemap } from './server/sitemap'
 import { isHackSpam } from './server/spam-guard'
+import { resolveRouteTemplatePath } from './server/route-template-guard'
 import type { Bindings, ImageWriteMessage } from './server/bindings'
 import { handleR2WriteQueue } from './server/r2-queue-consumer'
 import {
@@ -43,6 +44,18 @@ app.use('*', async (c, next) => {
         'cache-control': 'no-store',
       },
     })
+  }
+  return next()
+})
+
+// ─── Leaked route-template URLs ────────────────────────────
+// "/{-$locale}/terms" loops forever in the SSR router (Search Console
+// "Redirect error"). Send them straight to the real page instead.
+app.use('*', async (c, next) => {
+  const url = new URL(c.req.url)
+  const target = resolveRouteTemplatePath(url.pathname)
+  if (target) {
+    return c.redirect(`${target}${url.search}`, 301)
   }
   return next()
 })
