@@ -22,19 +22,29 @@ import { SERVICE_IDS, SERVICE_ROUTES } from '@/lib/service-routes'
 export { GOOGLE_BUSINESS_PROFILE_URL }
 
 /**
- * The only indexable languages: they get index,follow, hreflang alternates and
- * sitemap entries. Start HN is a local Ilidža/Sarajevo agency, so search effort
- * goes to Bosnian (home), English and Croatian.
- *
- * Every other locale in LANGUAGES (sr-Latn, de-DE, fr-FR, …) stays reachable
- * for visitors through the language switcher, but is noindex,follow, is never
- * listed in hreflang and has no sitemap (its /sitemap-<code>.xml returns 410).
- * That keeps thin machine translations out of the index and the crawl budget.
+ * Indexable languages: they get index,follow, hreflang alternates and sitemap
+ * entries. Bosnian is home (default locale, x-default); all 16 locales are
+ * indexable at the owner's request (2026-09-25). Any locale in LANGUAGES but
+ * not listed here stays reachable yet noindex,follow, is never listed in
+ * hreflang and has no sitemap (its /sitemap-<code>.xml returns 410).
  */
 export const SEO_PRIORITY_LOCALES = [
   'bs-BA',    // Bosnian (primary, default locale)
   'en-US',    // English
   'hr-HR',    // Croatian
+  'sr-Latn',  // Serbian (Latin)
+  'de-DE',    // German
+  'fr-FR',    // French
+  'es-ES',    // Spanish
+  'it-IT',    // Italian
+  'tr-TR',    // Turkish
+  'ar-SA',    // Arabic
+  'pt-BR',    // Portuguese
+  'nl-NL',    // Dutch
+  'ru-RU',    // Russian
+  'ja-JP',    // Japanese
+  'zh-Hans',  // Chinese (Simplified)
+  'ko-KR',    // Korean
 ] as const
 
 /**

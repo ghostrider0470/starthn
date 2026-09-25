@@ -1,7 +1,7 @@
 // @vitest-environment node
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { beforeAll, describe, expect, it } from 'vitest'
+import { afterEach, beforeAll, describe, expect, it } from 'vitest'
 import {
   SEO_PAGE_KEY,
   localizedPageHead,
@@ -35,13 +35,30 @@ function readBundle(locale: string, ns: string): Record<string, unknown> {
 /** Every page with a localized head, plus the 404 title. */
 const PAGE_KEYS = [...new Set([...Object.values(SEO_PAGE_KEY), 'notFound'])]
 
-beforeAll(() => {
+function loadRealBundles() {
   for (const locale of SEO_PRIORITY_LOCALES) {
-    i18n.addResourceBundle(locale, 'seo', readBundle(locale, 'seo'), true, true)
-    i18n.addResourceBundle(locale, 'services', readBundle(locale, 'services'), true, true)
-    i18n.addResourceBundle(locale, 'common', readBundle(locale, 'common'), true, true)
+    for (const ns of ['seo', 'services', 'common']) {
+      i18n.removeResourceBundle(locale, ns)
+      i18n.addResourceBundle(locale, ns, readBundle(locale, ns), true, true)
+    }
   }
-})
+}
+
+beforeAll(loadRealBundles)
+// Fallback tests unload or patch real bundles; restore them after each test.
+afterEach(loadRealBundles)
+
+/**
+ * Approximate SERP display width: full-width CJK / Hangul / full-width forms
+ * count double, so length limits mean the same thing in every script.
+ */
+function displayWidth(text: string): number {
+  let width = 0
+  for (const ch of text) {
+    width += /[\u1100-\u115f\u2e80-\u9fff\uac00-\ud7af\uf900-\ufaff\uff00-\uffef]/.test(ch) ? 2 : 1
+  }
+  return width
+}
 
 describe('SEO strings of the indexable locales', () => {
   for (const locale of SEO_PRIORITY_LOCALES) {
@@ -54,9 +71,9 @@ describe('SEO strings of the indexable locales', () => {
             i18n.getResource(locale, 'seo', `pages.${pageKey}.title`),
           )
           expect(title).toContain('Start HN')
-          expect(title.length).toBeLessThanOrEqual(60)
-          expect(description.length).toBeGreaterThanOrEqual(70)
-          expect(description.length).toBeLessThanOrEqual(160)
+          expect(displayWidth(title)).toBeLessThanOrEqual(60)
+          expect(displayWidth(description)).toBeGreaterThanOrEqual(70)
+          expect(displayWidth(description)).toBeLessThanOrEqual(160)
           expect(title.startsWith('pages.')).toBe(false)
           expect(description.startsWith('pages.')).toBe(false)
         })
@@ -82,6 +99,7 @@ describe('fallbacks', () => {
   })
 
   it('falls back to en-US for a non-Balkan locale missing a key', () => {
+    i18n.removeResourceBundle('fr-FR', 'seo')
     i18n.addResourceBundle(
       'fr-FR',
       'seo',
@@ -96,6 +114,7 @@ describe('fallbacks', () => {
   })
 
   it('falls back to bs-BA for Serbian', () => {
+    i18n.removeResourceBundle('sr-Latn', 'seo')
     expect(resolveSeoStrings('contact', 'sr-Latn')).toEqual(
       resolveSeoStrings('contact', 'bs-BA'),
     )
@@ -116,6 +135,7 @@ describe('fallbacks', () => {
   })
 
   it('mergeSeoFallback fills only the missing keys, with cloned objects', () => {
+    i18n.removeResourceBundle('it-IT', 'seo')
     i18n.addResourceBundle(
       'it-IT',
       'seo',
@@ -596,6 +616,8 @@ describe('JSON-LD on every public page template (strict)', () => {
 
 describe('servicePricePlans', () => {
   it('reads the visible plans and skips unreadable ones', () => {
+    i18n.removeResourceBundle('nl-NL', 'services')
+    i18n.removeResourceBundle('ko-KR', 'services')
     i18n.addResourceBundle(
       'nl-NL',
       'services',
