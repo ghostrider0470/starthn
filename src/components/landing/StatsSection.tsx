@@ -4,17 +4,35 @@ import { ArrowRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { SlideUp, observeFirstReveal } from '@/components/animations/FadeIn'
 import { Button } from '@/components/ui/button'
+import { useLocale } from '@/components/ContactActions'
+import {
+  GOOGLE_RATING,
+  GOOGLE_REVIEW_COUNT,
+  formatRating,
+} from '@/lib/business'
 import { designSystem } from '@/lib/design-system'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
 
 const STAT_KEYS = ['clients', 'experience', 'hours', 'retention'] as const
 
+/**
+ * A stat whose suffix is a star is the Google rating (landing stats.items.hours
+ * in the locales that replaced "1.000+ sati" with it). Its number comes from
+ * the business constants, with one decimal ("5,0"), and never counts up.
+ */
+const RATING_SUFFIX = '★'
+
+function isRatingStat(stat: StatItem): boolean {
+  return typeof stat.suffix === 'string' && stat.suffix.trim() === RATING_SUFFIX
+}
+
 type StatItem = {
   value: number
   suffix: string
   label: string
-  description: string
+  /** Absent on the rating stat, whose text is plural (description_one, …). */
+  description?: string
 }
 
 function formatStatValue(value: number) {
@@ -87,6 +105,7 @@ function Counter({
 
 export function StatsSection() {
   const { t } = useTranslation('landing')
+  const locale = useLocale()
   const location = useLocation()
   const currentLocale = getLocaleFromPath(location.pathname)
   const contactHref = withLocalePath('/contact', currentLocale)
@@ -131,13 +150,30 @@ export function StatsSection() {
             return (
               <SlideUp key={key} offset={20} duration={0.5} delay={i * 0.08}>
                 <div className="font-heading text-4xl font-bold leading-none tracking-tight text-foreground md:text-5xl">
-                  <Counter to={stat.value} suffix={stat.suffix} />
+                  {isRatingStat(stat) ? (
+                    <span className="tabular-nums">
+                      {formatRating(GOOGLE_RATING, locale)}
+                      <span aria-hidden className="ml-1 text-primary">
+                        {RATING_SUFFIX}
+                      </span>
+                    </span>
+                  ) : (
+                    <Counter to={stat.value} suffix={stat.suffix} />
+                  )}
                 </div>
                 <h3 className="mt-3 text-sm font-semibold uppercase tracking-wide text-foreground/80">
                   {stat.label}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                  {stat.description}
+                  {isRatingStat(stat)
+                    ? // The review count comes from the business constants
+                      // (never a number typed into 16 locale files), with the
+                      // locale's plural form (description_one, _few, …).
+                      t(`stats.items.${key}.description`, {
+                        count: GOOGLE_REVIEW_COUNT,
+                        defaultValue: '',
+                      })
+                    : stat.description}
                 </p>
               </SlideUp>
             )

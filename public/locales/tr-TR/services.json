@@ -10,7 +10,11 @@
     "learnMore": "Daha fazla bilgi edinin",
     "ctaPrimary": "Bir görüşme başlat",
     "ctaSecondary": "Tüm hizmetleri görüntüle",
-    "backToServices": "Hizmetlere geri dön"
+    "backToServices": "Hizmetlere geri dön",
+    "faqOverline": "SSS",
+    "pricingOverline": "Fiyatlar",
+    "requestQuote": "Teklif isteyin",
+    "quoteNote": "Bir iş günü içinde yanıt veriyoruz."
   },
   "index": {
     "overline": "Start HN hizmetleri",
@@ -102,7 +106,62 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "Defter tutma hakkında sık sorulan sorular",
+        "items": [
+          {
+            "question": "Şahıs işletmesi veya limited şirket (d.o.o.) için defter tutma ne kadar tutar?",
+            "answer": "Yeni kurulan şahıs işletmeleri (obrt) için fiyatlar aylık 150 KM'den (yaklaşık 77 €), yeni kurulan limited şirketler (d.o.o.) için aylık 300 KM'den (yaklaşık 153 €) başlar. Nihai fiyat; işletmenin büyüklüğüne, belge hacmine, çalışan sayısına ve faaliyetlerin karmaşıklığına bağlıdır ve gizli maliyet yoktur."
+          },
+          {
+            "question": "Belgelerimizi size nasıl iletiriz?",
+            "answer": "Başlangıçta hangi iş akışında anlaşırsak ona göre: Ilidža'daki ofisimize bizzat, e-postayla veya dijital olarak. Ardından işlemleri kaydeder ve kayıtları son tarihlerden önce kontrol ederiz."
+          },
+          {
+            "question": "Başka bir muhasebeciden size geçebilir miyiz?",
+            "answer": "Evet. Tescil bilgilerinizi, mevcut kayıtlarınızı, açılış bakiyelerinizi, bordro verilerinizi ve beyanname takviminizi inceler, belgelerin devrini planlar ve birkaç gün içinde her şeyi eksiksiz hazır hale getiririz. Ajans değiştiren şirketler ve şahıs işletmeleri için fiyatı, işin kısa bir incelemesinden sonra belirleriz."
+          },
+          {
+            "question": "Hangi muhasebe yazılımını kullanıyorsunuz?",
+            "answer": "Ağırlıklı olarak Pantheon ile çalışıyoruz; e-line, Microsoft Dynamics NAV ve InfoSoft konusunda da deneyimimiz var. Şirketiniz zaten bir program kullanıyorsa ve sağlayıcısıyla aktif bir sözleşmesi varsa, sizin sisteminizde çalışabiliriz."
+          },
+          {
+            "question": "Uzun vadeli bir taahhüt var mı?",
+            "answer": "Hayır. Uzun vadeli bir bağlılık yoktur – güveninizi her ay yeniden kazanmak için çalışırız."
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Defter tutmanın maliyeti",
+        "intro": "Fiyat, işletmenizin büyüklüğüne ve karmaşıklığına bağlıdır; gizli maliyet yoktur. Yeni kurulan işletmeler için başlangıç fiyatları:",
+        "plans": [
+          {
+            "name": "Şahıs işletmesi (obrt)",
+            "price": "150 KM'den başlayan",
+            "period": "aylık",
+            "note": "Yaklaşık 77 € · yeni kurulan şahıs işletmeleri"
+          },
+          {
+            "name": "Limited şirket (d.o.o.)",
+            "price": "300 KM'den başlayan",
+            "period": "aylık",
+            "note": "Yaklaşık 153 € · yeni kurulan şirketler"
+          }
+        ],
+        "driversTitle": "Fiyatı neler belirler",
+        "drivers": [
+          "İşletmenin büyüklüğü",
+          "Belge hacmi",
+          "Çalışan sayısı",
+          "Faaliyetlerin karmaşıklığı"
+        ],
+        "note": "Başka bir muhasebe ajansından geçen mevcut şirketler ve şahıs işletmeleri için fiyatı, işin ve ihtiyaçlarının kısa bir incelemesinden sonra kişiye özel olarak belirleriz."
+      },
+      "payroll": {
+        "title": "Bordro ve primler",
+        "body": "Çalışanı olan işletmeler için aylık defter tutmanın bir parçası olarak maaşları ve ilgili primleri hesaplar, yasal bildirimleri son tarihlerden önce hazırlarız. Defterlerinizi devraldığımızda, hesaplamaların ilk aydan itibaren doğru olması için bordro verilerinizi gözden geçiririz. Çalışan sayısı, fiyatı etkileyen faktörlerden biridir."
+      }
     },
     "taxConsulting": {
       "label": "02",
@@ -172,7 +231,32 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "Vergi danışmanlığı hakkında sık sorulan sorular",
+        "items": [
+          {
+            "question": "Hangi vergi beyannamelerini hazırlıyorsunuz?",
+            "answer": "BH ve FBiH mevzuatı kapsamında KDV beyannamelerini, kurumlar vergisi ve gelir vergisi beyannamelerini ve diğer yasal beyannameleri hazırlar ve veririz."
+          },
+          {
+            "question": "Vergi kurallarındaki değişiklikleri nasıl öğreneceğiz?",
+            "answer": "Bizden. Mevzuattaki değişiklikleri takip eder, bir değişiklik işletmenizi etkilediği anda size haber veririz; böylece hiçbir zaman hazırlıksız yakalanmazsınız."
+          },
+          {
+            "question": "Bireylere de danışmanlık veriyor musunuz?",
+            "answer": "Evet. Vergi beyannamesi vermesi gereken şirketlere, şahıs işletmelerine ve bireylere vergi danışmanlığı sunuyoruz."
+          },
+          {
+            "question": "Vergi danışmanlığı neden defter tutmayla bağlantılı?",
+            "answer": "Çünkü vergi beyannameleri kayıtlarınıza dayanır. Defterler doğru ve güncel olduğunda beyannameler de doğru olur ve danışmanlığımız gerçek rakamlara dayanır."
+          },
+          {
+            "question": "Önceki bir beyannamede hata varsa ne olur?",
+            "answer": "Önceki beyannameleri inceler, hataların cezaya veya gecikmiş düzeltmelere dönüşmeden önce düzeltilmesine yardımcı oluruz."
+          }
+        ]
+      }
     },
     "virtualCfo": {
       "label": "03",
@@ -240,7 +324,28 @@
         "financialReporting",
         "businessConsulting"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "Sanal CFO hakkında sık sorulan sorular",
+        "items": [
+          {
+            "question": "Sanal CFO hizmeti neleri kapsar?",
+            "answer": "Nakit akışı tahminleri, bütçe planlaması, finansal analiz, yönetim raporları ve stratejik danışmanlık; gerektiğinde toplantılara katılım da dahildir."
+          },
+          {
+            "question": "Sanal CFO kimler için uygundur?",
+            "answer": "Finansal liderliğe ihtiyaç duyan ancak henüz tam zamanlı bir finans direktörüne hazır olmayan büyüyen şirketler ile finansman veya yatırım kararlarına hazırlanan işletme sahipleri için."
+          },
+          {
+            "question": "İş birliği nasıl işler?",
+            "answer": "Mevcut raporlarınızı inceleyerek ve yönetimin yanıt araması gereken soruları belirleyerek başlarız. Ardından gerçekçi varsayımlara dayalı bütçeler, tahminler ve senaryolar hazırlar; sonuçları, riskleri ve sonraki adımları düzenli olarak açıklarız."
+          },
+          {
+            "question": "Defterlerimizi de sizin tutmanız neden faydalı?",
+            "answer": "Çünkü analiz bu durumda kendi muhasebe kayıtlarınızdaki güncel rakamlara dayanır; bu da tahminleri ve raporları daha güvenilir kılar."
+          }
+        ]
+      }
     },
     "businessConsulting": {
       "label": "04",
@@ -311,7 +416,28 @@
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance",
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "İş danışmanlığı hakkında sık sorulan sorular",
+        "items": [
+          {
+            "question": "İş danışmanlığı bize hangi konularda yardımcı olabilir?",
+            "answer": "İşletmenizin ve belge akışınızın düzenlenmesi, maliyet kontrolü, fiyatlandırma, alacak tahsilatı ve büyüme planlaması – hepsi kendi defterlerinizdeki rakamlara dayanarak."
+          },
+          {
+            "question": "Yeni işletmeler ve girişimlerle çalışıyor musunuz?",
+            "answer": "Evet. Girişimleri ve yeni işletmeleri faaliyetlerinin ilk gününden itibaren destekliyoruz; Bosna-Hersek'te işletme kurma rehberimiz de şahıs işletmesi (obrt) ile limited şirket (d.o.o.) arasında nasıl seçim yapılacağını açıklıyor."
+          },
+          {
+            "question": "Danışmanlık süreci nasıl işler?",
+            "answer": "Önce mevcut süreçlerinizi, belgelerinizi ve finansal sorularınızı ortaya koyarız. Ardından en fazla değer katacak değişiklikleri seçer, somut adımları, sorumlulukları ve takibi belirleriz."
+          },
+          {
+            "question": "Önerileriniz yasal yükümlülükleri dikkate alıyor mu?",
+            "answer": "Evet. Danışmanlığımız defter tutma ve vergiyle bağlantılı olduğundan önerilerimiz FBiH'deki yasal yükümlülüklerinizi de dikkate alır."
+          }
+        ]
+      }
     },
     "financialReporting": {
       "label": "05",
@@ -379,7 +505,28 @@
         "bookkeeping",
         "virtualCfo"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "Mali raporlama hakkında sık sorulan sorular",
+        "items": [
+          {
+            "question": "Hangi raporları hazırlıyorsunuz?",
+            "answer": "Yıl sonu kapanışı ve yasal finansal tablolar, aylık veya üç aylık yönetim özetleri ile bankalar ve iş ortakları için rapor paketleri."
+          },
+          {
+            "question": "Bir şirketin yıllık finansal tablo hazırlaması zorunlu mu?",
+            "answer": "Evet. FBiH'deki şirketler yasal olarak yıllık finansal tablo hazırlamak zorundadır; biz de bunları düzenli tutulan muhasebe kayıtlarına dayanarak hazırlarız."
+          },
+          {
+            "question": "Banka veya iş ortakları için rapor hazırlayabilir misiniz?",
+            "answer": "Evet. Bankalar, ortaklar ve yatırımcılar için temiz muhasebe kayıtlarına ve destekleyici belgelere dayanan rapor paketleri hazırlarız."
+          },
+          {
+            "question": "Rakamları bize açıklayacak mısınız?",
+            "answer": "Evet. Sonuçları, yükümlülükleri ve eğilimleri; oranlar, karşılaştırmalar ve karar almayı destekleyen yorumlarla sade bir dille açıklarız."
+          }
+        ]
+      }
     },
     "education": {
       "label": "06",
@@ -449,7 +596,28 @@
       ],
       "relatedPosts": [
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "Eğitimler hakkında sık sorulan sorular",
+        "items": [
+          {
+            "question": "Eğitimler kimler için?",
+            "answer": "Şirketlerin ve şahıs işletmelerinin sahipleri, yöneticileri ve idari personeli için; özellikle idari işlerinin veya defter tutmanın bir kısmını kendi bünyesinde yürütenler için."
+          },
+          {
+            "question": "Hangi konuları ele alıyorsunuz?",
+            "answer": "Muhasebenin temelleri, belge hazırlama, vergi son tarihleri, bordronun temelleri, muhasebe yazılımıyla çalışma ve finansal tabloları okuma."
+          },
+          {
+            "question": "Şahıs işletmeleri için bireysel danışmanlık sunuyor musunuz?",
+            "answer": "Evet. Defterlerini kendileri tutan şahıs işletmesi sahipleri, yasal yükümlülükleri ve kayıtları hakkında bireysel danışmanlık ve uygulamalı açıklamalar alabilir."
+          },
+          {
+            "question": "Eğitim ekibimize göre uyarlanabilir mi?",
+            "answer": "Evet. İçeriği ekibinizin gerçek çalışma biçimine göre, günlük uygulamadan örneklerle uyarlar ve ekibe uygulayabileceği kontrol listeleri ve rutinler bırakırız."
+          }
+        ]
+      }
     }
   }
 }

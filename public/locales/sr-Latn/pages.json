@@ -146,28 +146,29 @@
         },
         {
           "image": "/certificates/kpmg-expert.webp",
-          "title": "Forenzički revizor",
-          "description": "Potvrda dodatne ekspertize u oblasti finansijske forenzike"
+          "title": "Expert – KPMG Switzerland Innovation Award",
+          "description": "Oznaka „Expert“ u kategoriji Management Consulting na takmičenju KPMG Switzerland Innovation Award."
         },
         {
           "image": "/certificates/award-consulting.webp",
-          "title": "EU fondovi – pristup grantovima",
-          "description": "Poznavanje postupaka prijave i mogućnosti finansiranja iz EU fondova"
+          "title": "Obuka: EU fondovi – kako do grantova",
+          "description": "Obuka o postupku prijave i mogućnostima pristupa finansiranju iz EU fondova (AwarD Consulting Trade Inc.)."
         }
-      ]
+      ],
+      "description": "Pregled naših sertifikata i završenih obuka, uz kratak opis svakog dokumenta."
     },
     "quote": "„Svaki sertifikat je dokaz da naš rad prolazi najstrože stručne provere.“",
     "quoteAuthor": "Računovodstvena agencija Start HN",
     "licenceLine": "Registar Federalnog ministarstva finansija (FMF) br. UP-04-11-2-6-1516/24",
     "verifyLink": "Proverite u registru SRR FBiH",
     "highlights": {
-      "certifiedAccountants": "Sertifikovani računovođe",
+      "certifiedAccountants": "Sertifikovani računovođa",
       "legalCompliance": "Zakonska usklađenost",
       "continuousEducation": "Kontinuirana edukacija",
       "ethicalStandards": "Etički standardi"
     },
     "cta": {
-      "title": "Sarađujte sa sertifikovanim timom",
+      "title": "Sarađujte sa sertifikovanim računovođom",
       "description": "Naše licence i profesionalni sertifikati su vaša garancija da je vaše računovodstvo u sigurnim, stručnim rukama.",
       "button": "Kontaktirajte nas"
     }
@@ -250,7 +251,7 @@
     },
     "form": {
       "title": "Pošaljite nam poruku",
-      "success": "Hvala vam na poruci. Javićemo vam se u roku od 24–48 sati.",
+      "success": "Hvala vam na poruci. Odgovorićemo vam u roku od jednog radnog dana.",
       "error": "Nešto je pošlo naopako. Pokušajte ponovo ili nam pošaljite e-mail direktno.",
       "fullName": "Ime i prezime *",
       "email": "Email adresa *",
@@ -275,11 +276,13 @@
         "messageMinLength": "Poruka mora biti dugačka najmanje {{count}} znakova."
       },
       "sending": "Slanje...",
-      "submit": "Pošalji poruku"
+      "submit": "Pošalji poruku",
+      "verifying": "Bezbednosna provera…",
+      "verifyingHint": "Dugme „Pošalji poruku“ postaje aktivno nakon kratke automatske bezbednosne provere."
     },
     "reasonsTitle": "Zašto izabrati Start HN?",
     "reasons": [
-      "Sertifikovani računovođe sa dubokim poznavanjem poreskog zakonodavstva BiH",
+      "Sertifikovani računovođa sa dubokim poznavanjem poreskog zakonodavstva Bosne i Hercegovine",
       "Brz odgovor i proaktivna komunikacija",
       "Računovodstvo u oblaku — pristup knjigama u svakom trenutku",
       "Transparentne cene bez skrivenih troškova"
@@ -293,6 +296,15 @@
       "title": "Imate li još pitanja?",
       "description": "Pogledajte odeljak sa čestim pitanjima za brze odgovore",
       "cta": "Pregledajte česta pitanja"
+    },
+    "location": {
+      "overline": "Kako do nas",
+      "title": "Računovodstvena agencija na Ilidži – Ibrahima Ljubovića 47",
+      "body": "Kancelarija računovodstvene agencije Start HN nalazi se na adresi Ibrahima Ljubovića 47, 71210 Ilidža, u opštini Ilidža u Kantonu Sarajevo, Bosna i Hercegovina. Iz ove kancelarije vodimo knjigovodstvo, obračun zarada, PDV i poreske prijave za naše klijente. Radimo od ponedeljka do petka, od 08:00 do 16:00 časova, a praznicima ne radimo. Pre dolaska možete nas pozvati na 061 221 368 (iz inostranstva +387 61 221 368) ili nam pisati na klijenti@starthn.ba – na upite odgovaramo u roku od jednog radnog dana. Sarađujemo sa preduzećima, preduzetnicima i udruženjima sa Ilidže, iz Sarajeva i ostatka Kantona Sarajevo, kao i sa klijentima širom Bosne i Hercegovine. Dokumentaciju možete doneti lično u kancelariju, poslati e-mailom ili dostaviti digitalno, pa saradnja ne zahteva česte dolaske. Za početak zakažite besplatne uvodne konsultacije, a putanju do kancelarije otvara dugme „Uputstva za dolazak“."
+    },
+    "reviews": {
+      "title": "Sarađivali ste sa nama?",
+      "description": "Ako ste zadovoljni saradnjom, ostavite nam recenziju na Google-u. Vaše iskustvo pomaže drugim preduzetnicima da lakše izaberu računovođu."
     }
   },
   "team": {
@@ -368,12 +380,12 @@
     }
   },
   "careers": {
-    "badge": "Pridružite se našem timu",
+    "badge": "Otvorena prijava",
     "hero": {
       "title": "Rastite sa nama u",
       "titleHighlight": "računovodstvu i finansijama",
-      "description": "Start HN je rastuća računovodstvena agencija. Tražimo posvećene profesionalce koji žele da izgrade smislenu karijeru u računovodstvu, porezima i finansijskim uslugama.",
-      "button": "Pogledajte otvorene pozicije"
+      "description": "Start HN je rastuća računovodstvena agencija. Uvek nam je drago da nam se jave posvećeni profesionalci koji žele da grade karijeru u računovodstvu, porezima i finansijskim uslugama – otvorenu prijavu možete poslati u bilo kom trenutku.",
+      "button": "Pogledajte profile"
     },
     "perks": [
       {
@@ -394,12 +406,12 @@
       "description": "Jednostavan, transparentan proces uz poštovanje vašeg vremena",
       "steps": [
         {
-          "title": "Pošaljite CV",
-          "description": "Pošaljite nam svoj CV i motivaciono pismo na našu e-mail adresu."
+          "title": "Pošaljite otvorenu prijavu",
+          "description": "Pošaljite nam e-mailom svoj CV i motivaciono pismo i navedite koji vas profil zanima."
         },
         {
-          "title": "Poziv na intervju",
-          "description": "Kontaktiramo kandidate koji ispunjavaju uslove i pozivamo ih na razgovor."
+          "title": "Poziv na razgovor",
+          "description": "Kada proširujemo tim, kontaktiramo kandidate čiji profil odgovara i pozivamo ih na razgovor."
         },
         {
           "title": "Zapošljavanje",
@@ -408,11 +420,11 @@
       ]
     },
     "jobs": {
-      "title": "Otvorene pozicije",
-      "description": "Pronađite svoje mesto u našem računovodstvenom timu",
-      "apply": "Prijavite se",
-      "noMatch": "Ne vidite pravu poziciju?",
-      "sendCv": "Pošaljite nam svoj CV",
+      "title": "Otvorena prijava",
+      "description": "Profili od kojih bismo rado dobili prijavu – prijave primamo kontinuirano, bez roka.",
+      "apply": "Pošaljite prijavu",
+      "noMatch": "Ne vidite svoj profil?",
+      "sendCv": "Pošaljite nam otvorenu prijavu",
       "labels": {
         "responsibilities": "Odgovornosti",
         "requirements": "Uslovi",

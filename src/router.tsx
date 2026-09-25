@@ -2,11 +2,29 @@ import { QueryClient } from '@tanstack/react-query'
 import { createRouter } from '@tanstack/react-router'
 import { I18nextProvider } from 'react-i18next'
 import { routeTree } from './routeTree.gen'
-import i18n from './i18n'
+import i18n, { addBundle, markNamespacesComplete } from './i18n'
 import { DEFAULT_LOCALE } from './lib/i18n-utils'
+import { resourcesForPath, selectResources } from './lib/i18n-route-namespaces'
+
+/** One namespace's translations as sent to the client (JSON values). */
+type SerializedBundle = Record<string, NonNullable<unknown>>
+
+interface DehydratedI18n {
+  i18nStore?: Record<string, Record<string, SerializedBundle> | undefined>
+  i18nLang: string
+  /**
+   * Namespaces of i18nStore sent in full; the others hold only some
+   * subtrees. Absent in HTML rendered before partial dehydration, which
+   * always carried every namespace in full.
+   */
+  i18nComplete?: Array<string>
+}
 
 export function getRouter() {
   const queryClient = new QueryClient()
+  // The pathname being rendered, for dehydrate(). Read through this holder so
+  // the router's type does not depend on itself.
+  let currentPathname: () => string = () => '/'
 
   // TanStack Start calls getRouter() once per SSR request. The module-level
   // i18next instance is shared by every concurrent request in the Worker, so
@@ -40,31 +58,41 @@ export function getRouter() {
       </div>
     ),
     defaultPendingMinMs: 200,
-    // Dehydrate i18n translations on the server so the client has them
-    // before React renders — eliminates translation key flash. Read from this
-    // request's clone, never from the shared singleton.
-    dehydrate: () => {
+    // Dehydrate the translations this page renders so the client has them
+    // before React hydrates (no raw keys, no flash), and nothing else: the
+    // whole catalog, admin and auth strings included, used to be 62-81% of
+    // every HTML response. Which namespaces and `pages` subtrees a path gets
+    // is listed in src/lib/i18n-route-namespaces.ts; client navigations fetch
+    // the rest (root route beforeLoad). Read from this request's clone,
+    // never from the shared singleton.
+    dehydrate: (): DehydratedI18n => {
       const lang = i18nInstance.language ?? DEFAULT_LOCALE
+      const { resources, complete } = selectResources(
+        i18nInstance.store.data[lang],
+        resourcesForPath(currentPathname()),
+      )
       return {
-        i18nStore: { [lang]: i18nInstance.store?.data?.[lang] ?? {} },
+        i18nStore: { [lang]: resources as Record<string, SerializedBundle> },
         i18nLang: lang,
+        i18nComplete: complete,
       }
     },
-    hydrate: (dehydrated) => {
-      const { i18nStore, i18nLang } = dehydrated
-      if (i18nStore) {
-        const langData = i18nStore[i18nLang]
-        if (langData) {
-          for (const [ns, resources] of Object.entries(langData)) {
-            i18n.addResourceBundle(i18nLang, ns, resources as Record<string, unknown>, true, true)
-          }
+    hydrate: (dehydrated: DehydratedI18n) => {
+      const { i18nStore, i18nLang, i18nComplete } = dehydrated
+      const langData = i18nStore?.[i18nLang]
+      if (langData) {
+        for (const [ns, resources] of Object.entries(langData)) {
+          addBundle(i18nLang, ns, resources, { overwrite: true, silent: true })
         }
+        markNamespacesComplete(i18nLang, i18nComplete ?? Object.keys(langData))
       }
       if (i18nLang && i18n.language !== i18nLang) {
         i18n.changeLanguage(i18nLang)
       }
     },
   })
+
+  currentPathname = () => router.state.location.pathname
 
   return router
 }

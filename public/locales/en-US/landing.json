@@ -1,32 +1,32 @@
 {
   "hero": {
-    "h1": "Accounting agency for companies and sole traders in Sarajevo",
-    "intro": "Start HN is an accounting agency based in Ilidža (Sarajevo Canton). We handle bookkeeping, payroll, VAT and tax returns for limited liability companies (d.o.o.), sole traders and associations.",
+    "h1": "Accounting agency for companies and sole traders in Sarajevo, Bosnia and Herzegovina",
+    "intro": "Start HN is an accounting agency based in Ilidža, Sarajevo Canton. We handle bookkeeping, payroll, VAT and tax returns for limited liability companies (d.o.o.), sole traders (obrt) and associations across Bosnia and Herzegovina (BiH).",
     "slides": [
       {
         "overline": "Expert support for sustainable growth",
         "title": "Accounting that understands your business",
         "subtitle": "Experience, precision, and solutions aligned with your goals.",
-        "cta": "Learn more about Start HN",
-        "href": "/about"
+        "cta": "Book a free consultation",
+        "href": "/contact"
       },
       {
         "overline": "Precision and transparency at every step",
         "title": "Accounting tailored to your business",
         "subtitle": "We run your books, you run your business — no stress, no surprises.",
-        "cta": "Start a conversation",
+        "cta": "Book a free consultation",
         "href": "/contact"
       },
       {
         "overline": "Comprehensive bookkeeping for micro, small, and medium businesses",
         "title": "Your books in trusted hands",
         "subtitle": "Our team ensures accuracy and regulatory compliance, freeing up your time to grow the business.",
-        "cta": "Explore our services",
-        "href": "/services"
+        "cta": "Book a free consultation",
+        "href": "/contact"
       }
     ],
     "cta": {
-      "primary": "Start a conversation",
+      "primary": "Book a free consultation",
       "secondary": "Our services"
     },
     "trustLine": "Trusted by businesses across Bosnia and Herzegovina"
@@ -84,16 +84,17 @@
         "description": "Combined experience in accounting, tax consulting, and financial management."
       },
       "hours": {
-        "value": 1000,
-        "suffix": "+",
-        "label": "Hours yearly",
-        "description": "Dedicated annually to analysis, advisory, and client support — wherever we're needed."
+        "value": 5,
+        "suffix": "★",
+        "label": "Google rating",
+        "description_one": "Average rating from {{count}} client review on our Google Business Profile.",
+        "description_other": "Average rating from {{count}} client reviews on our Google Business Profile."
       },
       "retention": {
         "value": 95,
         "suffix": "%",
         "label": "Referred clients",
-        "description": "Our growth is built on the trust and word-of-mouth of happy clients who keep sending us theirs."
+        "description": "Our growth is built on trust and on satisfied clients who recommend us to others."
       }
     }
   },
@@ -110,8 +111,8 @@
         "description": "Flexible services from your first invoice to steady growth — tailored for businesses, sole traders, and associations."
       },
       "licensed": {
-        "title": "Licensed, regulated professionals",
-        "description": "Certified accountants, agency registered with the Ministry of Finance — fully compliant, no compromises."
+        "title": "Certified and registered",
+        "description": "A certified accountant and an agency entered in the Federal Ministry of Finance register — fully compliant, no compromises."
       }
     }
   },
@@ -396,11 +397,11 @@
       },
       "stack": {
         "question": "What types of clients do you serve?",
-        "answer": "We work with companies of all sizes — from newly founded businesses and startups to established SMEs, with sole traders and crafts, and with associations."
+        "answer": "We work with companies of every size – from newly founded businesses and startups to established SMEs – as well as with sole traders (obrt) and associations."
       },
       "enterprise": {
         "question": "Do you handle tax filing and compliance?",
-        "answer": "Yes, fully. We manage all aspects of your tax obligations: preparation and submission of VAT returns, corporate income tax, personal income tax, and all other statutory filings required under BiH and Federation law. We also monitor regulatory changes proactively and advise you whenever a change affects your business — so you're never caught off guard."
+        "answer": "Yes, fully. We handle every aspect of your tax obligations: preparing and filing VAT returns, corporate income tax, personal income tax and all other statutory returns required under the laws of BiH and the Federation of Bosnia and Herzegovina (FBiH). We also track regulatory changes and tell you as soon as a change affects your business, so you are never caught off guard."
       },
       "support": {
         "question": "Can you serve as our Virtual CFO?",
@@ -412,11 +413,11 @@
       },
       "industries": {
         "question": "How are your services priced?",
-        "answer": "The price of accounting services depends on the size of the business, the volume of documentation, the number of employees and the complexity of operations. For newly founded companies (d.o.o.), the starting price is from 300.00 KM per month, and for newly founded sole traders (obrt) from 150.00 KM per month. As your business grows and the workload increases, the scope of our support is adjusted, and so is the price. For existing companies and sole traders switching accounting agencies, the price is set individually after a short review of the business and the client's needs. Our goal is a price that is clear, fair and matched to the real needs of the business, with no hidden costs or unclear charges."
+        "answer": "The price of our accounting services depends on the size of the business, the volume of documents, the number of employees and how complex the operations are. For newly founded limited liability companies (d.o.o.), prices start from 300 KM (about €153) per month; for newly founded sole traders (obrt), from 150 KM (about €77) per month. As your business grows and the workload increases, we adjust the scope of our support, and the price with it. For existing companies and sole traders switching from another accounting agency, we set the price individually after a short review of the business and its needs. Our aim is a price that is clear, fair and matched to what the business actually needs, with no hidden costs or unclear charges."
       },
       "engagement": {
         "question": "Do you offer education or training for in-house bookkeeping?",
-        "answer": "Yes. Depending on the client's needs, we provide individual professional support and practical training for companies and sole traders that handle part of their administration or bookkeeping in-house, alongside external accounting. This can include help organising internal documentation, training staff to use accounting software, understanding basic accounting processes, and helping management understand financial statements and business indicators. We can also give entrepreneurs who keep the books for their sole tradership themselves individual consultations and practical explanations of their legal obligations and records."
+        "answer": "Yes. Depending on your needs, we provide one-to-one professional support and practical training for companies and sole traders that handle part of their administration or bookkeeping in-house alongside an external accountant. This can include organising internal documents, training staff to use accounting software, explaining basic accounting processes, and helping management understand financial statements and key business indicators. Sole traders who keep their own books can also get individual consultations and practical explanations of their legal obligations and records."
       }
     },
     "stillHaveQuestions": "Still Have Questions?",
@@ -425,7 +426,7 @@
     "scheduleCall": "Schedule a Consultation"
   },
   "guide": {
-    "linkText": "Guide: starting a business in BiH (sole trader or d.o.o.)",
+    "linkText": "Guide: starting a business in Bosnia and Herzegovina (sole trader or d.o.o.)",
     "description": "A practical guide with tips from experience and a recording of our guest appearance on N1."
   }
 }

@@ -1,3 +1,4 @@
+import type { ServiceId } from '@/lib/service-routes'
 import { DEFAULT_LOCALE, isValidLocale, withLocalePath } from '@/lib/i18n-utils'
 import {
   BRAND,
@@ -5,13 +6,17 @@ import {
   COUNTRY,
   GBP_NAME,
   GOOGLE_BUSINESS_PROFILE_URL,
+  ID_BROJ,
+  LEGAL_NAME,
   LOCALITY,
+  MBS,
   PHONE_INTL,
   POSTAL_CODE,
   REGION,
   SOCIAL_PROFILES,
   STREET,
 } from '@/lib/business'
+import { SERVICE_IDS, SERVICE_ROUTES } from '@/lib/service-routes'
 
 // Kept for existing importers; the value lives in '@/lib/business'.
 export { GOOGLE_BUSINESS_PROFILE_URL }
@@ -197,15 +202,8 @@ export function buildLocalizedSeoHead(
   // its own for (PAGE_CONTENT_LOCALES), e.g. /hr-HR/privacy.
   const isIndexable = isIndexableLocaleForPage(normalizedPath, locale)
   const isPrivate = isPrivateRoute(normalizedPath)
-  // Every known locale is self-canonical (decision D1): the 13 visible
-  // non-priority locales are noindex,follow and carry no hreflang, but they
-  // must not canonicalize to another language. Only an unknown code falls
-  // back to the default locale.
-  const canonicalLocale = isValidLocale(locale) ? locale : DEFAULT_LOCALE
-  const canonicalUrl = toAbsoluteUrl(
-    SEO_ORIGIN,
-    withLocalePath(normalizedPath, canonicalLocale),
-  )
+  const canonicalLocale = toCanonicalLocale(locale)
+  const canonicalUrl = localizedCanonicalUrl(normalizedPath, locale)
 
   let alternates: LocalizedSeoHead['alternates'] = []
   if (isIndexable && !isPrivate) {
@@ -249,6 +247,27 @@ export function buildLocalizedSeoHead(
   }
 }
 
+/**
+ * Every known locale is self-canonical (decision D1): the 13 visible
+ * non-priority locales are noindex,follow and carry no hreflang, but they
+ * must not canonicalize to another language. Only an unknown code falls back
+ * to the default locale.
+ */
+function toCanonicalLocale(locale: string): string {
+  return isValidLocale(locale) ? locale : DEFAULT_LOCALE
+}
+
+/** Absolute canonical URL of a locale-stripped path in `locale`. */
+export function localizedCanonicalUrl(
+  normalizedPath: string,
+  locale: string,
+): string {
+  return toAbsoluteUrl(
+    SEO_ORIGIN,
+    withLocalePath(normalizedPath, toCanonicalLocale(locale)),
+  )
+}
+
 function toAbsoluteUrl(origin: string, path: string): string {
   if (path.startsWith('http://') || path.startsWith('https://')) return path
   return `${origin}${path.startsWith('/') ? path : `/${path}`}`
@@ -276,24 +295,97 @@ export const jsonLd = (obj: unknown) => ({
   children: JSON.stringify(obj).replace(/</g, '\\u003c'),
 })
 
+/** GBP map pin (WGS84). Must match the Google Business Profile. */
+const GEO_COORDINATES = { latitude: 43.8313652, longitude: 18.3033777 } as const
+
 /**
- * Local-business data for Google. Name, address, phone, coordinates and hours
- * must match the Google Business Profile exactly — Maps ranking leans on that
- * consistency. The values live in '@/lib/business'; update the profile and
- * that file together.
+ * Office hours as structured data (shown as OPENING_HOURS_DISPLAY in
+ * '@/lib/business'). Must match the Google Business Profile.
  */
-export function buildLocalBusinessStructuredData(origin: string = SEO_ORIGIN) {
+const OPENING_HOURS_SPECIFICATION = [
+  {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+    opens: '08:00',
+    closes: '16:00',
+  },
+] as const
+
+/**
+ * Where Start HN works: its municipality, the city, the canton and the
+ * country. Proper names, identical in every locale (the address uses the
+ * same LOCALITY and REGION).
+ */
+export const AREA_SERVED = [
+  { '@type': 'City', name: LOCALITY },
+  { '@type': 'City', name: 'Sarajevo' },
+  { '@type': 'AdministrativeArea', name: REGION },
+  { '@type': 'Country', name: 'Bosnia and Herzegovina' },
+] as const
+
+/**
+ * Business description for the default locale, used only when a caller has
+ * no localized text (the root head always passes seo:default.description).
+ */
+const DEFAULT_BUSINESS_DESCRIPTION =
+  'Računovodstvena agencija sa Ilidže (Sarajevo): knjigovodstvo, obračun plata, PDV, porezno savjetovanje i virtualni CFO za firme, obrte i udruženja.'
+
+/** Prices on the site are in convertible marks (KM, ISO 4217 BAM). */
+export const PRICE_CURRENCY = 'BAM'
+
+/**
+ * `@id` of a service page's Service node in `locale`: its canonical URL plus
+ * '#service'. The business node's hasOfferCatalog points at these.
+ */
+export function serviceStructuredDataId(
+  serviceId: ServiceId,
+  locale: string,
+): string {
+  return `${localizedCanonicalUrl(SERVICE_ROUTES[serviceId], locale)}#service`
+}
+
+/**
+ * Local-business data for Google, built for the page locale: `url` is that
+ * locale's home and `description` its text, while `@id` stays the same in
+ * every locale (it is one real-world business).
+ *
+ * Name, address, phone, coordinates and hours must match the Google Business
+ * Profile exactly — Maps ranking leans on that consistency. The values live
+ * in '@/lib/business'; update the profile and that file together. The legal
+ * name and register numbers are the ones the footer and /contact show.
+ *
+ * Deliberately absent: priceRange (prices are only on the bookkeeping page,
+ * see buildServiceStructuredData), AggregateRating/Review (Google reviews
+ * must not be republished as markup) and founder (needs owner-confirmed
+ * facts first).
+ */
+export function buildLocalBusinessStructuredData(
+  locale: string = DEFAULT_LOCALE,
+  {
+    description,
+    catalogName,
+  }: {
+    /** The business description in the page locale (seo:default.description). */
+    description?: string | null
+    /** Name of the service catalog in the page locale ('Usluge'). */
+    catalogName?: string | null
+  } = {},
+) {
+  const pageLocale = toCanonicalLocale(locale)
+  const text =
+    description ||
+    (pageLocale === DEFAULT_LOCALE ? DEFAULT_BUSINESS_DESCRIPTION : null)
   return {
     '@context': 'https://schema.org',
     '@type': 'AccountingService',
-    '@id': `${origin}/#business`,
+    '@id': BUSINESS_ID,
     name: GBP_NAME,
     alternateName: [BRAND, 'START HN'],
-    description:
-      'Računovodstvena agencija sa Ilidže (Sarajevo): knjigovodstvo, obračun plata, PDV, porezno savjetovanje i virtualni CFO za firme, obrte i udruženja.',
-    url: `${origin}/${DEFAULT_LOCALE}`,
-    logo: toAbsoluteUrl(origin, '/clean-square.png'),
-    image: toAbsoluteUrl(origin, DEFAULT_OG_IMAGE),
+    legalName: LEGAL_NAME,
+    ...(text ? { description: text } : {}),
+    url: localizedCanonicalUrl('/', pageLocale),
+    logo: toAbsoluteUrl(SEO_ORIGIN, '/clean-square.png'),
+    image: toAbsoluteUrl(SEO_ORIGIN, DEFAULT_OG_IMAGE),
     telephone: PHONE_INTL,
     email: CONTACT_EMAIL,
     address: {
@@ -306,18 +398,28 @@ export function buildLocalBusinessStructuredData(origin: string = SEO_ORIGIN) {
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 43.8313652,
-      longitude: 18.3033777,
+      latitude: GEO_COORDINATES.latitude,
+      longitude: GEO_COORDINATES.longitude,
     },
-    openingHoursSpecification: [
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-        opens: '08:00',
-        closes: '16:00',
-      },
+    openingHoursSpecification: OPENING_HOURS_SPECIFICATION.map((spec) => ({
+      ...spec,
+      dayOfWeek: [...spec.dayOfWeek],
+    })),
+    areaServed: AREA_SERVED.map((area) => ({ ...area })),
+    // ID broj (JIB) is the tax number in BiH; MBS is the court-register number.
+    taxID: ID_BROJ,
+    identifier: [
+      { '@type': 'PropertyValue', propertyID: 'JIB', value: ID_BROJ },
+      { '@type': 'PropertyValue', propertyID: 'MBS', value: MBS },
     ],
-    areaServed: { '@type': 'Country', name: 'Bosnia and Herzegovina' },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      ...(catalogName ? { name: catalogName } : {}),
+      itemListElement: SERVICE_IDS.map((serviceId) => ({
+        '@type': 'Offer',
+        itemOffered: { '@id': serviceStructuredDataId(serviceId, pageLocale) },
+      })),
+    },
     hasMap: GOOGLE_BUSINESS_PROFILE_URL,
     sameAs: [GOOGLE_BUSINESS_PROFILE_URL, ...SOCIAL_PROFILES],
   }
@@ -325,44 +427,117 @@ export function buildLocalBusinessStructuredData(origin: string = SEO_ORIGIN) {
 
 /**
  * WebSite entity, so Google shows 'Start HN' as the site name (decision D12:
- * the Google Business Profile name is an alternate). No SearchAction: the
- * site has no search results page.
+ * the Google Business Profile name is an alternate). Built for the page
+ * locale (url, inLanguage, description); the `@id` is shared by all locales.
+ * No SearchAction: the site has no search results page.
+ *
+ * Without a locale it returns only the locale-independent properties, so a
+ * caller that does not know the locale can never contradict the localized
+ * node the root head emits on every page (both share the `@id`).
  */
-export function buildWebSiteStructuredData() {
-  return {
+export function buildWebSiteStructuredData(
+  locale?: string,
+  description?: string | null,
+) {
+  const base = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     '@id': WEBSITE_ID,
     name: BRAND,
     alternateName: ['START HN', GBP_NAME],
-    url: `${SEO_ORIGIN}/${DEFAULT_LOCALE}`,
-    inLanguage: DEFAULT_LOCALE,
     publisher: { '@id': BUSINESS_ID },
+  }
+  if (!locale) return base
+  const pageLocale = toCanonicalLocale(locale)
+  return {
+    ...base,
+    ...(description ? { description } : {}),
+    url: localizedCanonicalUrl('/', pageLocale),
+    inLanguage: pageLocale,
   }
 }
 
-/** Service entity for a service page. No Offer or price (decision D8). */
+/**
+ * A price plan exactly as a service page shows it (services:items.<id>.
+ * pricing.plans). Every value comes from the visible text; nothing here is
+ * a price that is not on the page.
+ */
+export interface ServicePricePlan {
+  /** Plan name ('Obrt', 'd.o.o.'). */
+  name: string
+  /** The starting price, parsed from the visible label ('od 150 KM'). */
+  minPrice: number
+  /** The visible period label ('mjesečno', 'per month'); the unit is a month. */
+  unitText?: string | null
+  /** The visible plan note ('Novoosnovani obrti'). */
+  description?: string | null
+}
+
+/**
+ * The amount in a visible price label: 'od 150 KM' → 150, 'od 300,00 KM' →
+ * 300, 'od 1.200 KM' → 1200. Null when the label has no number or is not in
+ * KM/BAM, so markup is never given a price or currency the page does not
+ * show.
+ */
+export function parsePriceAmount(label: string): number | null {
+  if (!/KM|BAM/.test(label)) return null
+  const match = /(\d{1,3}(?:[.\s\u00a0]\d{3})+|\d+)(?:[.,](\d{1,2}))?(?!\d)/.exec(
+    label,
+  )
+  if (!match) return null
+  const whole = match[1].replace(/[.\s\u00a0]/g, '')
+  const value = Number(match[2] ? `${whole}.${match[2]}` : whole)
+  return Number.isFinite(value) && value > 0 ? value : null
+}
+
+/**
+ * Service entity for a service page, in the page locale. `serviceType` is
+ * the short category name (the breadcrumb label). `plans` become Offers with
+ * a monthly starting price only when the page shows a price block (today
+ * only bookkeeping); a price never appears in markup without being visible.
+ */
 export function buildServiceStructuredData({
   locale,
   canonicalUrl,
   name,
   description,
+  serviceType,
+  plans,
 }: {
   locale: string
   canonicalUrl: string
   name: string
   description: string
+  serviceType?: string | null
+  plans?: ReadonlyArray<ServicePricePlan> | null
 }) {
+  const offers = (plans ?? []).map((plan) => ({
+    '@type': 'Offer',
+    name: plan.name,
+    ...(plan.description ? { description: plan.description } : {}),
+    url: canonicalUrl,
+    priceCurrency: PRICE_CURRENCY,
+    priceSpecification: {
+      '@type': 'UnitPriceSpecification',
+      minPrice: plan.minPrice,
+      priceCurrency: PRICE_CURRENCY,
+      // UN/CEFACT code for "month": the plans are monthly fees.
+      unitCode: 'MON',
+      ...(plan.unitText ? { unitText: plan.unitText } : {}),
+    },
+  }))
   return {
     '@context': 'https://schema.org',
     '@type': 'Service',
     '@id': `${canonicalUrl}#service`,
     name,
+    ...(serviceType ? { serviceType } : {}),
     description,
     url: canonicalUrl,
     provider: { '@id': BUSINESS_ID },
-    areaServed: { '@type': 'Country', name: 'Bosnia and Herzegovina' },
+    areaServed: AREA_SERVED.map((area) => ({ ...area })),
     inLanguage: locale,
+    ...(offers.length > 0 ? { offers } : {}),
   }
 }
 
@@ -404,6 +579,8 @@ export function buildBlogPostingStructuredData({
       ? { '@type': 'Person', name: authorName }
       : { '@id': BUSINESS_ID },
     publisher: { '@id': BUSINESS_ID },
+    // The root head puts the WebSite node on every page.
+    isPartOf: { '@id': WEBSITE_ID },
     inLanguage: locale,
   }
 }

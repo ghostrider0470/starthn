@@ -10,7 +10,11 @@
     "learnMore": "Saznajte više",
     "ctaPrimary": "Započnite razgovor",
     "ctaSecondary": "Pogledajte sve usluge",
-    "backToServices": "Povratak na usluge"
+    "backToServices": "Povratak na usluge",
+    "faqOverline": "Česta pitanja",
+    "pricingOverline": "Cijene",
+    "requestQuote": "Zatražite ponudu",
+    "quoteNote": "Odgovaramo u roku od jednog radnog dana."
   },
   "index": {
     "overline": "Usluge Start HN",
@@ -66,7 +70,7 @@
           "description": "Pripremamo završne izračune, financijske izvještaje, porezne prijave i prateću dokumentaciju kako bismo poslovanje održali usklađenim i spremnim za kontrole."
         }
       ],
-      "processTitle": "Predvidljiv mjesečni ritam",
+      "processTitle": "Kako teče mjesečno knjigovodstvo",
       "process": [
         {
           "title": "Prikupljanje",
@@ -102,7 +106,62 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "Česta pitanja o knjigovodstvu",
+        "items": [
+          {
+            "question": "Koliko košta knjigovodstvo za obrt i d.o.o.?",
+            "answer": "Za novoosnovane obrte cijena počinje od 150 KM mjesečno, a za novoosnovane tvrtke (d.o.o.) od 300 KM mjesečno. Konačna cijena ovisi o veličini poslovnog subjekta, količini dokumentacije, broju zaposlenika i složenosti poslovanja, bez skrivenih troškova."
+          },
+          {
+            "question": "Kako vam dostavljamo dokumentaciju?",
+            "answer": "Osobno u našem uredu na Ilidži, e-poštom ili digitalno – prema tijeku rada koji dogovorimo na početku suradnje. Transakcije zatim knjižimo i provjeravamo prije rokova."
+          },
+          {
+            "question": "Možemo li prijeći k vama od drugog računovođe?",
+            "answer": "Da. Pregledavamo registraciju, postojeće evidencije, početna stanja, podatke o plaćama i raspored obveza, dogovaramo preuzimanje dokumentacije i u roku od nekoliko dana vas uvodimo u sustav. Za tvrtke i obrte koji mijenjaju agenciju cijenu određujemo nakon kratke analize poslovanja."
+          },
+          {
+            "question": "U kojem programu vodite knjige?",
+            "answer": "Primarno radimo u programu Pantheon, a iskustva imamo i s programima e-line, Microsoft Dynamics NAV i InfoSoft. Ako vaša tvrtka već koristi neki program i ima aktivan ugovor s pružateljem usluge, možemo raditi i u vašem sustavu."
+          },
+          {
+            "question": "Postoji li dugoročno vezivanje?",
+            "answer": "Ne. Nema dugoročnog vezivanja – radimo na tome da svaki mjesec zaslužimo vaše povjerenje."
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Koliko košta knjigovodstvo",
+        "intro": "Cijena ovisi o veličini i složenosti poslovanja, bez skrivenih troškova. Početne cijene za novoosnovane klijente:",
+        "plans": [
+          {
+            "name": "Obrt",
+            "price": "od 150 KM",
+            "period": "mjesečno",
+            "note": "Novoosnovani obrti"
+          },
+          {
+            "name": "d.o.o.",
+            "price": "od 300 KM",
+            "period": "mjesečno",
+            "note": "Novoosnovane tvrtke"
+          }
+        ],
+        "driversTitle": "O čemu ovisi cijena",
+        "drivers": [
+          "Veličina poslovnog subjekta",
+          "Količina dokumentacije",
+          "Broj zaposlenika",
+          "Složenost poslovanja"
+        ],
+        "note": "Za postojeće tvrtke i obrte koji mijenjaju računovodstvenu agenciju cijenu određujemo pojedinačno, nakon kratke analize poslovanja i potreba."
+      },
+      "payroll": {
+        "title": "Obračun plaća i doprinosa",
+        "body": "Za tvrtke sa zaposlenicima obračunavamo plaće i pripadajuće doprinose te pripremamo zakonske prijave u sklopu mjesečnog knjigovodstva, prije rokova. Pri preuzimanju knjiga pregledavamo podatke o plaćama kako bi obračun od prvog mjeseca bio točan. Broj zaposlenika jedan je od čimbenika koji utječu na cijenu usluge."
+      }
     },
     "taxConsulting": {
       "label": "02",
@@ -136,7 +195,7 @@
           "description": "Objašnjavamo porezne implikacije poslovnih odluka, odbitaka, organizacijskih promjena, zapošljavanja, plaćanja i drugih uobičajenih financijskih pitanja."
         }
       ],
-      "processTitle": "Porezna podrška koja ide korak naprijed",
+      "processTitle": "Kako radimo porezno savjetovanje",
       "process": [
         {
           "title": "Procjena",
@@ -172,7 +231,32 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "Česta pitanja o porezima",
+        "items": [
+          {
+            "question": "Koje porezne prijave pripremate?",
+            "answer": "Pripremamo i podnosimo prijave PDV-a, poreza na dobit i poreza na dohodak te ostale zakonske prijave prema propisima BiH i Federacije BiH."
+          },
+          {
+            "question": "Kako ćemo saznati za izmjene poreznih propisa?",
+            "answer": "Od nas. Pratimo izmjene propisa i na vrijeme vas obavještavamo čim neka promjena utječe na vaše poslovanje, kako ne biste bili iznenađeni."
+          },
+          {
+            "question": "Pružate li porezno savjetovanje i fizičkim osobama?",
+            "answer": "Da. Porezno savjetovanje pružamo tvrtkama, obrtima i fizičkim osobama koje imaju obvezu podnošenja poreznih prijava."
+          },
+          {
+            "question": "Zašto je porezno savjetovanje povezano s knjigovodstvom?",
+            "answer": "Zato što se porezne prijave temelje na evidencijama. Kada su poslovne knjige uredne i točne, i prijave su točne, a savjet se temelji na stvarnim brojkama."
+          },
+          {
+            "question": "Što ako u ranijoj prijavi postoji pogreška?",
+            "answer": "Pregledavamo ranije prijave i pomažemo ispraviti propuste prije nego što postanu kazne ili naknadne korekcije."
+          }
+        ]
+      }
     },
     "virtualCfo": {
       "label": "03",
@@ -206,7 +290,7 @@
           "description": "Definiramo KPI-jeve i formate izvještaja koji povezuju financijske podatke s odlukama o rastu, troškovima, cijenama i operacijama."
         }
       ],
-      "processTitle": "Od zapisa do odluka",
+      "processTitle": "Kako funkcionira usluga virtualnog CFO-a",
       "process": [
         {
           "title": "Dijagnoza",
@@ -240,7 +324,28 @@
         "financialReporting",
         "businessConsulting"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "Česta pitanja o usluzi virtualnog CFO-a",
+        "items": [
+          {
+            "question": "Što uključuje usluga virtualnog CFO-a?",
+            "answer": "Prognoze novčanog toka, planiranje proračuna, financijsku analizu, izvješća za upravu i strateške savjete, uz sudjelovanje na sastancima po potrebi."
+          },
+          {
+            "question": "Kome je namijenjen virtualni CFO?",
+            "answer": "Rastućim tvrtkama kojima treba financijsko vodstvo, a još nisu spremne za stalnog financijskog direktora, kao i vlasnicima koji pripremaju odluke o financiranju ili ulaganjima."
+          },
+          {
+            "question": "Kako izgleda suradnja?",
+            "answer": "Najprije pregledavamo postojeća izvješća i definiramo pitanja na koja uprava treba odgovor. Zatim izrađujemo proračune, prognoze i scenarije na temelju realnih pretpostavki, a rezultate, rizike i sljedeće korake redovito objašnjavamo."
+          },
+          {
+            "question": "Zašto je korisno da vodimo i vaše knjigovodstvo?",
+            "answer": "Zato što se tada analize temelje na ažurnim podacima iz vaših poslovnih knjiga, pa su prognoze i izvješća pouzdaniji."
+          }
+        ]
+      }
     },
     "businessConsulting": {
       "label": "04",
@@ -274,7 +379,7 @@
           "description": "Identificiramo gdje se dokumentacija, odobrenja, izvještavanje ili naplata mogu pojednostaviti i učiniti pouzdanijima."
         }
       ],
-      "processTitle": "Konzultacije bez prazne teorije",
+      "processTitle": "Kako teče poslovno savjetovanje",
       "process": [
         {
           "title": "Mapiranje",
@@ -311,7 +416,28 @@
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance",
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "Česta pitanja o poslovnom savjetovanju",
+        "items": [
+          {
+            "question": "U čemu nam poslovno savjetovanje može pomoći?",
+            "answer": "U organizaciji poslovanja i tijeka dokumentacije, kontroli troškova, određivanju cijena, naplati potraživanja i planiranju rasta – na temelju brojki iz vaših poslovnih knjiga."
+          },
+          {
+            "question": "Pomažete li novim tvrtkama i startupima?",
+            "answer": "Da. Startupima i novim poduzećima pružamo podršku od prvog dana poslovanja, a o izboru između obrta i d.o.o. pisali smo u vodiču o pokretanju poslovanja u BiH."
+          },
+          {
+            "question": "Kako teče savjetovanje?",
+            "answer": "Najprije mapiramo postojeći proces, dokumente i financijska pitanja. Zatim izdvajamo promjene koje donose najveću vrijednost i definiramo praktične korake, odgovornosti i naknadno praćenje."
+          },
+          {
+            "question": "Uzimaju li preporuke u obzir zakonske obveze?",
+            "answer": "Da. Savjetovanje je povezano s knjigovodstvom i porezima pa preporuke uzimaju u obzir i vaše zakonske obveze u Federaciji BiH."
+          }
+        ]
+      }
     },
     "financialReporting": {
       "label": "05",
@@ -345,7 +471,7 @@
           "description": "Brojke tumačimo kroz pokazatelje, usporedbe i komentare koji podržavaju odluke, a ne samo zapise."
         }
       ],
-      "processTitle": "Jasan ciklus izvještavanja",
+      "processTitle": "Kako pripremamo financijska izvješća",
       "process": [
         {
           "title": "Struktura",
@@ -379,7 +505,28 @@
         "bookkeeping",
         "virtualCfo"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "Česta pitanja o financijskom izvještavanju",
+        "items": [
+          {
+            "question": "Koja izvješća pripremate?",
+            "answer": "Godišnji završni račun i zakonom propisane financijske izvještaje, mjesečne ili tromjesečne upravljačke sažetke te pakete izvješća za banke i partnere."
+          },
+          {
+            "question": "Je li tvrtka obvezna sastavljati godišnje financijske izvještaje?",
+            "answer": "Da. Gospodarska društva u Federaciji BiH zakonski su obvezna sastavljati godišnje financijske izvještaje, a mi ih pripremamo na temelju urednih knjigovodstvenih evidencija."
+          },
+          {
+            "question": "Možete li pripremiti izvješća za banku ili partnere?",
+            "answer": "Da. Pripremamo pakete izvješća za banke, partnere i investitore, temeljene na urednim računovodstvenim evidencijama i pratećoj dokumentaciji."
+          },
+          {
+            "question": "Hoćete li nam objasniti brojke?",
+            "answer": "Da. Rezultate, obveze i trendove objašnjavamo jednostavnim jezikom, kroz pokazatelje, usporedbe i komentare koji podržavaju odluke."
+          }
+        ]
+      }
     },
     "education": {
       "label": "06",
@@ -413,7 +560,7 @@
           "description": "Pomažemo timovima razumjeti financijske izvještaje, menadžerske preglede i pitanja na koja ti izvještaji trebaju odgovoriti."
         }
       ],
-      "processTitle": "Edukacija izgrađena oko stvarnog rada",
+      "processTitle": "Kako organiziramo edukacije",
       "process": [
         {
           "title": "Definiranje",
@@ -449,7 +596,28 @@
       ],
       "relatedPosts": [
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "Česta pitanja o edukacijama",
+        "items": [
+          {
+            "question": "Kome su namijenjene edukacije?",
+            "answer": "Vlasnicima, menadžerima i administrativnim timovima tvrtki i obrta, posebno onima koji dio administracije ili knjigovodstva vode interno."
+          },
+          {
+            "question": "Koje teme obrađujete?",
+            "answer": "Osnove računovodstva, pripremu dokumentacije, porezne rokove, osnove plaća, rad u računovodstvenom softveru i čitanje financijskih izvještaja."
+          },
+          {
+            "question": "Nudite li individualne konzultacije za obrtnike?",
+            "answer": "Da. Obrtnicima koji sami vode poslovne knjige nudimo individualne konzultacije i praktična pojašnjenja o zakonskim obvezama i evidencijama."
+          },
+          {
+            "question": "Prilagođavate li edukaciju našem timu?",
+            "answer": "Da. Sadržaj prilagođavamo stvarnom radu vašeg tima, uz primjere iz svakodnevne prakse, a tim na kraju dobiva kontrolne popise i rutine za primjenu."
+          }
+        ]
+      }
     }
   }
 }

@@ -8,7 +8,12 @@ import { formatBlogPublishedDate } from '@/lib/blog-i18n'
 import { designSystem } from '@/lib/design-system'
 import { withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
-import { img, imgSrcSet, IMAGE_WIDTHS } from '@/lib/image'
+import {
+  BLOG_HERO_IMAGE_SIZES,
+  IMAGE_WIDTHS,
+  img,
+  imgSrcSet,
+} from '@/lib/image'
 
 export interface BlogPostPreviewProps {
   title: string
@@ -73,7 +78,7 @@ export function BlogPostPreview({
           <img
             src={img(bannerImage || coverImage, { width: 1600, format: 'auto' })}
             srcSet={imgSrcSet(bannerImage || coverImage, IMAGE_WIDTHS.banner)}
-            sizes="100vw"
+            sizes={BLOG_HERO_IMAGE_SIZES}
             alt={title}
             width={1200}
             height={400}

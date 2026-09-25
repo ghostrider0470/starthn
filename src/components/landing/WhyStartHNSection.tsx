@@ -12,6 +12,7 @@ import { useTranslation } from 'react-i18next'
 import { Reveal, SlideUp } from '@/components/animations/FadeIn'
 import { Button } from '@/components/ui/button'
 import { designSystem } from '@/lib/design-system'
+import { WHY_START_HN_IMAGE_SIZES } from '@/lib/image'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
 
@@ -85,7 +86,7 @@ export function WhyStartHNSection() {
               <img
                 src="/why-start-hn-900.webp"
                 srcSet="/why-start-hn-600.webp 600w, /why-start-hn-900.webp 900w, /why-start-hn.webp 1200w"
-                sizes="(min-width: 1280px) 520px, (min-width: 1024px) 42vw, 100vw"
+                sizes={WHY_START_HN_IMAGE_SIZES}
                 alt={t('whyChoose.title', { defaultValue: '' })}
                 className="absolute inset-0 h-full w-full object-cover"
                 loading="lazy"

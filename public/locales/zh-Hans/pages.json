@@ -146,15 +146,16 @@
         },
         {
           "image": "/certificates/kpmg-expert.webp",
-          "title": "法务审计员",
-          "description": "确认在法务会计领域具备额外的专业知识"
+          "title": "Expert – KPMG Switzerland Innovation Award",
+          "description": "KPMG Switzerland Innovation Award 管理咨询（Management Consulting）类别的“Expert”徽章。"
         },
         {
           "image": "/certificates/award-consulting.webp",
-          "title": "欧盟基金——如何获得资助",
-          "description": "了解欧盟资金的申请流程和获取机会"
+          "title": "培训：欧盟基金——如何申请资助",
+          "description": "关于申请流程及获取欧盟资金机会的培训（AwarD Consulting Trade Inc.）。"
         }
-      ]
+      ],
+      "description": "我们的证书和已完成培训一览，每项均附有简要说明。"
     },
     "quote": "“每一份证书都证明我们的工作经得起最严格的专业审查。”",
     "quoteAuthor": "Start HN 会计机构",
@@ -167,7 +168,7 @@
       "ethicalStandards": "职业道德标准"
     },
     "cta": {
-      "title": "与认证团队合作",
+      "title": "与持证会计师合作",
       "description": "我们的执照和专业认证是您会计工作安全、专业的保障。",
       "button": "联系我们"
     }
@@ -250,7 +251,7 @@
     },
     "form": {
       "title": "给我们发消息",
-      "success": "谢谢你的留言。我们会在24-48小时内回复您。",
+      "success": "感谢您的留言。我们会在一个工作日内回复您。",
       "error": "出了点问题。请再试或直接给我们发邮件。",
       "fullName": "全名 *",
       "email": "电子邮件地址 *",
@@ -275,11 +276,13 @@
         "messageMinLength": "信息必须至少有 {{count}} 个字符。"
       },
       "sending": "正在发送……",
-      "submit": "发送消息"
+      "submit": "发送消息",
+      "verifying": "正在进行安全检查…",
+      "verifyingHint": "经过简短的自动安全检查后，“发送消息”按钮即可使用。"
     },
     "reasonsTitle": "为什么选择Start HN？",
     "reasons": [
-      "深谙波黑税法的持证会计师",
+      "深谙波斯尼亚和黑塞哥维那税法的持证会计师",
       "快速响应和主动沟通",
       "基于云端的会计服务——随时查看您的账目",
       "透明定价，无隐藏成本"
@@ -293,6 +296,15 @@
       "title": "你还有其他问题吗？",
       "description": "请查看我们的常见问题部分，获取快速解答",
       "cta": "浏览常见问题解答"
+    },
+    "location": {
+      "overline": "如何找到我们",
+      "title": "Ilidža 的会计机构 – Ibrahima Ljubovića 47",
+      "body": "Start HN 会计机构的办公室位于 Ibrahima Ljubovića 47, 71210 Ilidža，地处波斯尼亚和黑塞哥维那萨拉热窝州 Ilidža 市。我们在这里为客户提供簿记、工资核算、增值税和纳税申报服务。营业时间为周一至周五 08:00–16:00，节假日休息。来访前，您可以拨打 061 221 368（境外请拨 +387 61 221 368）或发送电子邮件至 klijenti@starthn.ba，我们会在一个工作日内回复。我们服务于 Ilidža、萨拉热窝及萨拉热窝州其他地区的公司、个体经营者和协会，也服务于波斯尼亚和黑塞哥维那各地的客户。文件可以亲自送到办公室，也可以通过电子邮件或以数字方式提交，因此合作无需频繁到访。第一步，请预约免费的首次咨询；前往办公室的路线可通过“获取路线”按钮查看。"
+    },
+    "reviews": {
+      "title": "与我们合作过吗？",
+      "description": "如果您对我们的工作感到满意，请在 Google 上为我们留下评价。您的经历能帮助其他企业主选择会计。"
     }
   },
   "team": {
@@ -368,12 +380,12 @@
     }
   },
   "careers": {
-    "badge": "加入我们的团队",
+    "badge": "自荐申请",
     "hero": {
       "title": "与我们一同成长",
       "titleHighlight": "会计与财务",
-      "description": "Start HN 是一家正在发展的会计机构。我们正在寻找那些希望在会计、税务和金融服务领域建立有意义职业生涯的敬业专业人士。",
-      "button": "查看空缺职位"
+      "description": "Start HN 是一家不断发展的会计机构。我们始终欢迎有志于在会计、税务和金融服务领域发展事业的专业人士与我们联系——您可以随时发送自荐申请。",
+      "button": "查看岗位方向"
     },
     "perks": [
       {
@@ -394,12 +406,12 @@
       "description": "流程简单透明，尊重你的时间",
       "steps": [
         {
-          "title": "提交简历",
-          "description": "请将您的简历和求职信发送到我们的电子邮箱。"
+          "title": "发送自荐申请",
+          "description": "请通过电子邮件发送您的简历和求职信，并告诉我们您感兴趣的岗位方向。"
         },
         {
           "title": "面试邀请",
-          "description": "我们会联系符合条件的候选人，并邀请他们面试。"
+          "description": "当团队需要扩充时，我们会联系岗位方向匹配的候选人，并邀请其参加面试。"
         },
         {
           "title": "录用",
@@ -408,11 +420,11 @@
       ]
     },
     "jobs": {
-      "title": "空缺职位",
-      "description": "在我们的会计团队中找到你的位置",
-      "apply": "立即申请",
-      "noMatch": "没有找到合适的职位？",
-      "sendCv": "请将您的简历寄给我们",
+      "title": "自荐申请",
+      "description": "我们欢迎以下方向的人才——申请常年开放，没有截止日期。",
+      "apply": "发送申请",
+      "noMatch": "没有找到适合您的方向？",
+      "sendCv": "向我们发送自荐申请",
       "labels": {
         "responsibilities": "职责",
         "requirements": "要求",

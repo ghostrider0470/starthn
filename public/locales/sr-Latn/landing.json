@@ -7,26 +7,26 @@
         "overline": "Stručna podrška za održiv rast",
         "title": "Računovodstvo koje razume vaše poslovanje",
         "subtitle": "Iskustvo, tačnost i rešenja koja prate vaše ciljeve.",
-        "cta": "Saznajte više o Start HN",
-        "href": "/about"
+        "cta": "Zakažite besplatne konsultacije",
+        "href": "/contact"
       },
       {
         "overline": "Preciznost i transparentnost na svakom koraku",
         "title": "Računovodstvo prilagođeno vašem poslovanju",
         "subtitle": "Mi vodimo vaše knjige, vi vodite svoj posao - bez stresa i neizvesnosti.",
-        "cta": "Započnite razgovor",
+        "cta": "Zakažite besplatne konsultacije",
         "href": "/contact"
       },
       {
         "overline": "Sveobuhvatno knjigovodstvo za mikro, mala i srednja preduzeća",
         "title": "Vaše knjige u pouzdanim rukama",
         "subtitle": "Naš tim obezbeđuje tačnost i usklađenost sa svim propisima, oslobađajući vreme za rast vašeg poslovanja.",
-        "cta": "Pogledajte naše usluge",
-        "href": "/services"
+        "cta": "Zakažite besplatne konsultacije",
+        "href": "/contact"
       }
     ],
     "cta": {
-      "primary": "Započnite razgovor",
+      "primary": "Zakažite besplatne konsultacije",
       "secondary": "Naše usluge"
     },
     "trustLine": "Veruju nam preduzeća širom Bosne i Hercegovine"
@@ -84,10 +84,12 @@
         "description": "Kombinovano iskustvo u računovodstvu, poreskom savetovanju i finansijskom upravljanju."
       },
       "hours": {
-        "value": 1000,
-        "suffix": "+",
-        "label": "Sati godišnje",
-        "description": "Godišnje posvećeni analizi, konsaltingu i podršci klijentima u svim oblastima u kojima smo potrebni."
+        "value": 5,
+        "suffix": "★",
+        "label": "Ocena na Google-u",
+        "description_one": "Prosečna ocena naših klijenata na Google profilu agencije ({{count}} recenzija).",
+        "description_few": "Prosečna ocena naših klijenata na Google profilu agencije ({{count}} recenzije).",
+        "description_other": "Prosečna ocena naših klijenata na Google profilu agencije ({{count}} recenzija)."
       },
       "retention": {
         "value": 95,
@@ -110,8 +112,8 @@
         "description": "Fleksibilne usluge od prvog računa do stabilnog rasta - prilagođene preduzećima, preduzetnicima i udruženjima."
       },
       "licensed": {
-        "title": "Licencirani i regulisani stručnjaci",
-        "description": "Sertifikovani računovođe, agencija registrovana pri Ministarstvu finansija — potpuna usklađenost sa zakonom, bez kompromisa."
+        "title": "Sertifikovani i registrovani",
+        "description": "Sertifikovani računovođa i agencija upisana u registar Federalnog ministarstva finansija — potpuna usklađenost sa zakonom, bez kompromisa."
       }
     }
   },

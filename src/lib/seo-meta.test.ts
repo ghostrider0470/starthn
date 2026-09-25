@@ -6,12 +6,24 @@ import {
   SEO_PAGE_KEY,
   localizedPageHead,
   localizedServiceHead,
+  localizedSiteStructuredData,
   mergeSeoFallback,
   resolveSeoStrings,
   seoFallbackChain,
   seoFallbackLocale,
+  servicePricePlans,
+  translateExact,
 } from './seo-meta'
-import { SEO_ORIGIN, SEO_PRIORITY_LOCALES } from './seo'
+import {
+  SEO_ORIGIN,
+  SEO_PRIORITY_LOCALES,
+  buildBlogPostingStructuredData,
+  buildBreadcrumbTrail,
+  buildWebSiteStructuredData,
+  jsonLd,
+  serviceStructuredDataId,
+} from './seo'
+import { SERVICE_IDS, SERVICE_ROUTES } from './service-routes'
 import i18n from '@/i18n'
 
 const LOCALES_DIR = join(process.cwd(), 'public', 'locales')
@@ -27,6 +39,7 @@ beforeAll(() => {
   for (const locale of SEO_PRIORITY_LOCALES) {
     i18n.addResourceBundle(locale, 'seo', readBundle(locale, 'seo'), true, true)
     i18n.addResourceBundle(locale, 'services', readBundle(locale, 'services'), true, true)
+    i18n.addResourceBundle(locale, 'common', readBundle(locale, 'common'), true, true)
   }
 })
 
@@ -169,5 +182,444 @@ describe('localizedServiceHead', () => {
     )
     expect(data['@id']).toBe(`${SEO_ORIGIN}/bs-BA/services/bookkeeping-accounting#service`)
     expect(data.inLanguage).toBe('bs-BA')
+  })
+})
+
+// ---------------------------------------------------------------------------
+// Strict JSON-LD validation of every block the public pages emit.
+// ---------------------------------------------------------------------------
+
+type JsonLdScript = { type: string; children: string }
+type JsonNode = Record<string, unknown>
+
+/** The only schema.org types the site may emit. */
+const ALLOWED_TYPES = new Set([
+  'AccountingService',
+  'WebSite',
+  'Service',
+  'BlogPosting',
+  'BreadcrumbList',
+  'ListItem',
+  'PostalAddress',
+  'GeoCoordinates',
+  'OpeningHoursSpecification',
+  'City',
+  'AdministrativeArea',
+  'Country',
+  'PropertyValue',
+  'OfferCatalog',
+  'Offer',
+  'UnitPriceSpecification',
+  'Person',
+])
+
+/** Owner decisions: no review/rating, founder, FAQ markup; no priceRange. */
+const BANNED_PROPS = ['aggregateRating', 'review', 'founder', 'priceRange']
+
+/** Required properties per type (Google + schema.org, plus our own rules). */
+const REQUIRED: Record<string, ReadonlyArray<string>> = {
+  AccountingService: [
+    '@id', 'name', 'legalName', 'description', 'url', 'logo', 'image',
+    'telephone', 'email', 'address', 'geo', 'openingHoursSpecification',
+    'areaServed', 'taxID', 'identifier', 'hasOfferCatalog', 'hasMap', 'sameAs',
+  ],
+  WebSite: ['@id', 'name', 'url', 'inLanguage', 'publisher'],
+  Service: [
+    '@id', 'name', 'serviceType', 'description', 'url', 'provider',
+    'areaServed', 'inLanguage',
+  ],
+  BlogPosting: [
+    '@id', 'headline', 'url', 'mainEntityOfPage', 'image', 'datePublished',
+    'dateModified', 'author', 'publisher', 'isPartOf', 'inLanguage',
+  ],
+  BreadcrumbList: ['itemListElement'],
+  ListItem: ['position', 'name', 'item'],
+  PostalAddress: [
+    'streetAddress', 'addressLocality', 'postalCode', 'addressRegion',
+    'addressCountry',
+  ],
+  GeoCoordinates: ['latitude', 'longitude'],
+  OpeningHoursSpecification: ['dayOfWeek', 'opens', 'closes'],
+  City: ['name'],
+  AdministrativeArea: ['name'],
+  Country: ['name'],
+  PropertyValue: ['propertyID', 'value'],
+  OfferCatalog: ['itemListElement'],
+  Offer: [],
+  UnitPriceSpecification: ['minPrice', 'priceCurrency', 'unitCode'],
+  Person: ['name'],
+}
+
+/** Properties whose string values must be absolute https URLs. */
+const URL_PROPS = new Set([
+  '@id', 'url', 'mainEntityOfPage', 'item', 'logo', 'image', 'hasMap', 'sameAs',
+])
+
+/** An i18n key rendered instead of its text ("items.bookkeeping.title"). */
+const RAW_KEY = /^[a-z][\w-]*(?:\.[\w-]+)+$/
+
+function walkJsonLd(node: unknown, path: string, isTop = false): void {
+  if (Array.isArray(node)) {
+    expect(node.length, `${path}: empty array`).toBeGreaterThan(0)
+    node.forEach((item, i) => walkJsonLd(item, `${path}[${i}]`))
+    return
+  }
+  if (node === null || node === undefined) {
+    throw new Error(`${path}: ${String(node)} value`)
+  }
+  if (typeof node === 'string') {
+    expect(node.length, `${path}: empty string`).toBeGreaterThan(0)
+    expect(node.trim(), `${path}: untrimmed`).toBe(node)
+    expect(node, `${path}: raw i18n key`).not.toMatch(RAW_KEY)
+    return
+  }
+  if (typeof node === 'number') {
+    expect(Number.isFinite(node), path).toBe(true)
+    return
+  }
+  if (typeof node !== 'object') return
+
+  const obj = node as JsonNode
+  const keys = Object.keys(obj)
+  if (!isTop) expect(keys, `${path}: nested @context`).not.toContain('@context')
+  for (const key of keys) {
+    expect(BANNED_PROPS, `${path}.${key} is banned`).not.toContain(key)
+  }
+
+  const type = obj['@type']
+  if (type === undefined) {
+    // A node reference carries nothing but its @id.
+    expect(keys, `${path}: untyped node that is not a reference`).toEqual(['@id'])
+  } else {
+    expect(typeof type, `${path}.@type`).toBe('string')
+    expect(ALLOWED_TYPES.has(type as string), `${path}: @type ${String(type)}`).toBe(
+      true,
+    )
+    for (const prop of REQUIRED[type as string]) {
+      expect(obj, `${path} (${String(type)}) needs ${prop}`).toHaveProperty(prop)
+    }
+    if (type === 'Offer') {
+      const isCatalogEntry = 'itemOffered' in obj
+      const isPricedOffer =
+        'name' in obj && 'priceCurrency' in obj && 'priceSpecification' in obj
+      expect(isCatalogEntry || isPricedOffer, `${path}: incomplete Offer`).toBe(true)
+    }
+  }
+
+  for (const [key, value] of Object.entries(obj)) {
+    if (URL_PROPS.has(key)) {
+      for (const url of [value].flat()) {
+        if (typeof url === 'string') {
+          expect(url, `${path}.${key}`).toMatch(/^https:\/\/[^\s<>"]+$/)
+        }
+      }
+    }
+    walkJsonLd(value, `${path}.${key}`)
+  }
+}
+
+/** Parses and strictly validates one head() JSON-LD script entry. */
+function validateJsonLd(script: JsonLdScript): JsonNode {
+  expect(script.type).toBe('application/ld+json')
+  expect(script.children).not.toContain('<')
+  const data = JSON.parse(script.children) as JsonNode
+  expect(data['@context']).toBe('https://schema.org')
+  expect(typeof data['@type']).toBe('string')
+  walkJsonLd(data, String(data['@type']), true)
+  return data
+}
+
+/** Every node on a page with an @id, and every {@id} reference in it. */
+function collectIds(nodes: ReadonlyArray<unknown>) {
+  const defined = new Map<string, JsonNode>()
+  const referenced = new Set<string>()
+  const visit = (node: unknown): void => {
+    if (Array.isArray(node)) return node.forEach(visit)
+    if (!node || typeof node !== 'object') return
+    const obj = node as JsonNode
+    const id = obj['@id']
+    if (typeof id === 'string') {
+      if (Object.keys(obj).length === 1) referenced.add(id)
+      else defined.set(id, obj)
+    }
+    Object.values(obj).forEach(visit)
+  }
+  nodes.forEach(visit)
+  return { defined, referenced }
+}
+
+/**
+ * Every script a page emits, as the routes build them: the root head's site
+ * nodes, the page's own blocks and the {-$locale} layout's breadcrumb.
+ */
+function pageScripts(
+  locale: string,
+  normalizedPath: string,
+  own: ReadonlyArray<JsonLdScript> = [],
+): Array<JsonLdScript> {
+  const breadcrumbs = buildBreadcrumbTrail(normalizedPath, locale, (key) =>
+    translateExact(locale, 'common', key),
+  )
+  return [
+    ...localizedSiteStructuredData(locale).map((node) => jsonLd(node)),
+    ...own,
+    ...(breadcrumbs ? [jsonLd(breadcrumbs)] : []),
+  ]
+}
+
+function blogPostScripts(locale: string, title: string): Array<JsonLdScript> {
+  const path = '/blog/post'
+  const canonicalUrl = `${SEO_ORIGIN}/${locale}${path}`
+  const breadcrumbs = buildBreadcrumbTrail(
+    '/blog',
+    locale,
+    (key) => translateExact(locale, 'common', key),
+    { name: title, path },
+  )
+  return [
+    ...localizedSiteStructuredData(locale).map((node) => jsonLd(node)),
+    jsonLd(
+      buildBlogPostingStructuredData({
+        canonicalUrl,
+        headline: title,
+        description: 'Opis posta',
+        image: `${SEO_ORIGIN}/og-image.png`,
+        datePublished: '2025-11-22',
+        dateModified: '2025-11-22',
+        authorName: 'Selma Hadžić',
+        locale,
+      }),
+    ),
+    ...(breadcrumbs ? [jsonLd(breadcrumbs)] : []),
+  ]
+}
+
+describe('JSON-LD on every public page template (strict)', () => {
+  for (const locale of SEO_PRIORITY_LOCALES) {
+    describe(locale, () => {
+      // Built inside each test: the bundles load in beforeAll.
+      const pages: Array<[string, () => Array<JsonLdScript>]> = [
+        // Target state: the home route adds no WebSite node of its own (the
+        // root head's localized one is on every page).
+        ['/', () => pageScripts(locale, '/')],
+        ['/contact', () => pageScripts(locale, '/contact')],
+        ['/services', () => pageScripts(locale, '/services')],
+        ...SERVICE_IDS.map(
+          (serviceId): [string, () => Array<JsonLdScript>] => [
+            SERVICE_ROUTES[serviceId],
+            () =>
+              pageScripts(
+                locale,
+                SERVICE_ROUTES[serviceId],
+                localizedServiceHead(serviceId, locale).scripts,
+              ),
+          ],
+        ),
+        ['/blog/post', () => blogPostScripts(locale, 'Naslov </script><script>x')],
+      ]
+
+      for (const [path, build] of pages) {
+        it(`${path}: every block parses, is escaped and complete`, () => {
+          const scripts = build()
+          // Site nodes (2) + the page's own blocks + a breadcrumb (not on home).
+          expect(scripts.length).toBeGreaterThanOrEqual(path === '/' ? 2 : 3)
+          const nodes = scripts.map(validateJsonLd)
+          const { defined, referenced } = collectIds(nodes)
+          // #business and #website are defined on every page, so every
+          // reference to them resolves.
+          expect(defined.get(`${SEO_ORIGIN}/#business`)?.['@type']).toBe(
+            'AccountingService',
+          )
+          expect(defined.get(`${SEO_ORIGIN}/#website`)?.['@type']).toBe('WebSite')
+          for (const id of referenced) {
+            if (id.startsWith(`${SEO_ORIGIN}/#`)) {
+              expect(defined.has(id), `${id} is referenced but not defined`).toBe(true)
+            }
+          }
+          // No two WebSite nodes contradict each other on url/inLanguage.
+          const websites = nodes.filter((n) => n['@type'] === 'WebSite')
+          for (const site of websites) {
+            if ('url' in site) expect(site.url).toBe(`${SEO_ORIGIN}/${locale}`)
+            if ('inLanguage' in site) expect(site.inLanguage).toBe(locale)
+          }
+          if (path !== '/') {
+            expect(nodes.some((n) => n['@type'] === 'BreadcrumbList'), 'breadcrumb').toBe(
+              true,
+            )
+          }
+        })
+      }
+
+      it('a locale-less WebSite node (legacy home head) never contradicts the localized one', () => {
+        const legacy = buildWebSiteStructuredData()
+        const [, website] = localizedSiteStructuredData(locale)
+        expect(website).toMatchObject(legacy)
+        expect(Object.keys(legacy)).not.toContain('url')
+        expect(Object.keys(legacy)).not.toContain('inLanguage')
+      })
+
+      it('builds the business and WebSite nodes in this locale', () => {
+        const [business, website] = localizedSiteStructuredData(locale) as Array<
+          JsonNode
+        >
+        const { description } = resolveSeoStrings('default', locale)
+        expect(business['@id']).toBe(`${SEO_ORIGIN}/#business`)
+        expect(business.url).toBe(`${SEO_ORIGIN}/${locale}`)
+        expect(business.description).toBe(description)
+        expect(website).toMatchObject({
+          '@id': `${SEO_ORIGIN}/#website`,
+          url: `${SEO_ORIGIN}/${locale}`,
+          inLanguage: locale,
+          description,
+        })
+        expect((business.hasOfferCatalog as JsonNode).name).toBe(
+          i18n.getResource(locale, 'common', 'breadcrumbs.services'),
+        )
+      })
+
+      it('points the offer catalog at the Service nodes of the service pages', () => {
+        const [business] = localizedSiteStructuredData(locale) as Array<JsonNode>
+        const catalog = business.hasOfferCatalog as { itemListElement: Array<JsonNode> }
+        const catalogIds = catalog.itemListElement.map(
+          (offer) => (offer.itemOffered as { '@id': string })['@id'],
+        )
+        const serviceIds = SERVICE_IDS.map(
+          (serviceId) =>
+            JSON.parse(localizedServiceHead(serviceId, locale).scripts[0].children)[
+              '@id'
+            ],
+        )
+        expect(catalogIds).toEqual(serviceIds)
+        expect(serviceIds).toEqual(
+          SERVICE_IDS.map((serviceId) => serviceStructuredDataId(serviceId, locale)),
+        )
+      })
+
+      it('gives every Service its breadcrumb label as serviceType', () => {
+        for (const serviceId of SERVICE_IDS) {
+          const data = JSON.parse(localizedServiceHead(serviceId, locale).scripts[0].children)
+          const pageKey = SEO_PAGE_KEY[SERVICE_ROUTES[serviceId]]
+          expect(data.serviceType).toBe(
+            i18n.getResource(locale, 'common', `breadcrumbs.${pageKey}`),
+          )
+        }
+      })
+
+      it('prices only the bookkeeping Service, from its visible price block', () => {
+        for (const serviceId of SERVICE_IDS) {
+          const data = JSON.parse(localizedServiceHead(serviceId, locale).scripts[0].children)
+          if (serviceId !== 'bookkeeping') {
+            expect(data, serviceId).not.toHaveProperty('offers')
+            continue
+          }
+          const visible = i18n.getResource(
+            locale,
+            'services',
+            'items.bookkeeping.pricing.plans',
+          ) as Array<{ name: string; price: string; period: string }>
+          expect(data.offers.map((o: JsonNode) => o.name)).toEqual(
+            visible.map((plan) => plan.name),
+          )
+          // The two published starting prices: obrt 150 KM, d.o.o. 300 KM.
+          expect(
+            data.offers.map(
+              (o: { priceSpecification: { minPrice: number } }) =>
+                o.priceSpecification.minPrice,
+            ),
+          ).toEqual([150, 300])
+          for (const [i, offer] of data.offers.entries()) {
+            expect(visible[i].price).toContain(String(offer.priceSpecification.minPrice))
+            expect(offer.priceSpecification).toMatchObject({
+              priceCurrency: 'BAM',
+              unitCode: 'MON',
+              unitText: visible[i].period,
+            })
+          }
+        }
+      })
+    })
+  }
+
+  it('describes the business in each indexable language, not only in Bosnian', () => {
+    const descriptions = SEO_PRIORITY_LOCALES.map(
+      (locale) => (localizedSiteStructuredData(locale)[0] as JsonNode).description,
+    )
+    expect(new Set(descriptions).size).toBe(SEO_PRIORITY_LOCALES.length)
+    const en = localizedSiteStructuredData('en-US')[0] as JsonNode
+    expect(en.description).not.toMatch(/Računovodstvena|knjigovodstvo/)
+  })
+
+  it('uses the default locale for an unknown or missing locale param', () => {
+    expect(localizedSiteStructuredData(undefined)).toEqual(
+      localizedSiteStructuredData('bs-BA'),
+    )
+    expect(localizedSiteStructuredData('xx-XX')).toEqual(
+      localizedSiteStructuredData('bs-BA'),
+    )
+  })
+
+  it('validates a noindex locale too (seo fallback, locale url)', () => {
+    const [business, website] = localizedSiteStructuredData('de-DE').map((node) =>
+      validateJsonLd(jsonLd(node)),
+    )
+    expect(business.url).toBe(`${SEO_ORIGIN}/de-DE`)
+    expect(website.inLanguage).toBe('de-DE')
+    expect(business.description).not.toMatch(/^(pages|default)\./)
+  })
+
+  it('rejects an unescaped <, a raw key and banned markup', () => {
+    expect(() =>
+      validateJsonLd({
+        type: 'application/ld+json',
+        children: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Person', name: '</script>' }),
+      }),
+    ).toThrow()
+    expect(() =>
+      validateJsonLd(
+        jsonLd({ '@context': 'https://schema.org', '@type': 'Person', name: 'items.bookkeeping.title' }),
+      ),
+    ).toThrow()
+    expect(() =>
+      validateJsonLd(
+        jsonLd({
+          '@context': 'https://schema.org',
+          '@type': 'AccountingService',
+          aggregateRating: { '@type': 'AggregateRating', ratingValue: 5 },
+        }),
+      ),
+    ).toThrow()
+    expect(() =>
+      validateJsonLd(jsonLd({ '@context': 'https://schema.org', '@type': 'FAQPage' })),
+    ).toThrow()
+  })
+})
+
+describe('servicePricePlans', () => {
+  it('reads the visible plans and skips unreadable ones', () => {
+    i18n.addResourceBundle(
+      'nl-NL',
+      'services',
+      {
+        items: {
+          bookkeeping: {
+            pricing: {
+              plans: [
+                { name: 'Eenmanszaak', price: 'vanaf 150 KM', period: 'per maand' },
+                { name: 'BV', price: 'op aanvraag' },
+                { name: '', price: 'vanaf 300 KM' },
+                'not a plan',
+              ],
+            },
+          },
+        },
+      },
+      true,
+      true,
+    )
+    expect(servicePricePlans('bookkeeping', 'nl-NL')).toEqual([
+      { name: 'Eenmanszaak', minPrice: 150, unitText: 'per maand', description: null },
+    ])
+    expect(servicePricePlans('taxConsulting', 'nl-NL')).toEqual([])
+    expect(servicePricePlans('bookkeeping', 'ko-KR')).toEqual([])
   })
 })

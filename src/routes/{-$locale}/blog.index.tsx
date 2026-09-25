@@ -3,7 +3,6 @@ import { ssrBlogPosts, ssrCategories, ssrTags } from '@/server/ssr-data'
 import { ArrowRight, ChevronDown, ChevronLeft, ChevronRight, FileText, Filter, Search, X } from 'lucide-react'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { z } from 'zod'
 import type { SupportedLocale } from '@/lib/i18n-utils'
 import { BlogCategoryFilter } from '@/components/blog/BlogCategoryFilter'
 import { BlogPostCard } from '@/components/blog/BlogPostCard'
@@ -24,24 +23,13 @@ import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
 import { img, imgSrcSet, IMAGE_WIDTHS } from '@/lib/image'
 import { localizedPageHead } from '@/lib/seo-meta'
+import { parseBlogSearch } from '@/lib/search-params'
+import type { BlogSearch } from '@/lib/search-params'
 
 // ── Constants ────────────────────────────────────────────────────────────────
 
 const PAGE_SIZE_OPTIONS = [9, 18, 36] as const
 const DEFAULT_PAGE_SIZE = 9
-
-// ── URL search params schema ─────────────────────────────────────────────────
-
-const blogSearchSchema = z.object({
-  q: z.string().optional().catch(undefined),
-  category: z.string().optional().catch(undefined),
-  subcategory: z.string().optional().catch(undefined),
-  tag: z.string().optional().catch(undefined),
-  page: z.coerce.number().min(1).optional().catch(undefined),
-  pageSize: z.coerce.number().optional().catch(undefined),
-})
-
-type BlogSearch = z.infer<typeof blogSearchSchema>
 
 export const Route = createFileRoute('/{-$locale}/blog/')({
   loader: async ({ params }) => {
@@ -60,7 +48,7 @@ export const Route = createFileRoute('/{-$locale}/blog/')({
   head: ({ params }) => localizedPageHead('blog', params.locale),
   component: BlogIndexPage,
   pendingComponent: BlogPendingPage,
-  validateSearch: blogSearchSchema,
+  validateSearch: parseBlogSearch,
 })
 
 // ── Page ─────────────────────────────────────────────────────────────────────

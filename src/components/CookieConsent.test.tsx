@@ -1,7 +1,7 @@
 import { act, fireEvent, render, screen } from '@testing-library/react'
 import { renderToString } from 'react-dom/server'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
-import { CookieConsent } from './CookieConsent'
+import { CookieConsent, useConsentBannerOpen } from './CookieConsent'
 import {
   CONSENT_STORAGE_KEY,
   __resetConsentMemoryForTests,
@@ -115,5 +115,63 @@ describe('CookieConsent', () => {
     expect(container.textContent).not.toMatch(/consent\./)
     expect(screen.getByRole('button', { name: 'Accept' })).toBeTruthy()
     expect(screen.getByRole('button', { name: 'Decline' })).toBeTruthy()
+  })
+
+  it('docks a compact bar at the bottom edge on phones and a corner card from md', () => {
+    translations.current = {
+      ...bsTranslations,
+      'consent.textCompact': 'Kratki tekst o pristanku.',
+    }
+    render(<CookieConsent />)
+    const dialog = screen.getByRole('dialog')
+
+    // Phones: full-width bar at the very bottom (in place of the bottom nav).
+    expect(dialog.className).toMatch(/(^|\s)bottom-0(\s|$)/)
+    expect(dialog.className).toMatch(/(^|\s)inset-x-0(\s|$)/)
+    // md+: bottom-right card, clear of the left-aligned hero CTAs.
+    expect(dialog.className).toContain('md:right-6')
+    expect(dialog.className).not.toContain('md:left-6')
+
+    // Short copy on phones, full copy from md, both in the description.
+    expect(dialog.textContent).toContain('Kratki tekst o pristanku.')
+    expect(dialog.textContent).toContain(bsTranslations['consent.text'])
+  })
+
+  it('falls back to the full text on phones when the short copy is missing', () => {
+    render(<CookieConsent />)
+    const text = bsTranslations['consent.text'] as string
+    const occurrences = screen.getByRole('dialog').textContent.split(text).length
+    expect(occurrences).toBe(3) // full text twice: phone span + md span
+  })
+
+  it('keeps both choices equal weight and 44px tall', () => {
+    render(<CookieConsent />)
+    const reject = screen.getByRole('button', { name: 'Odbijam' })
+    const accept = screen.getByRole('button', { name: 'Prihvatam' })
+    expect(reject.className).toBe(accept.className)
+    expect(accept.className).toContain('h-11')
+  })
+
+  it('reports whether it is open, so the bottom nav can step aside', () => {
+    function Probe() {
+      return <span data-testid="probe">{String(useConsentBannerOpen())}</span>
+    }
+    render(
+      <>
+        <Probe />
+        <CookieConsent />
+      </>,
+    )
+    expect(screen.getByTestId('probe').textContent).toBe('true')
+
+    fireEvent.click(screen.getByRole('button', { name: 'Odbijam' }))
+    expect(screen.getByTestId('probe').textContent).toBe('false')
+  })
+
+  it('reports closed during SSR', () => {
+    function Probe() {
+      return <span>{String(useConsentBannerOpen())}</span>
+    }
+    expect(renderToString(<Probe />)).toBe('<span>false</span>')
   })
 })

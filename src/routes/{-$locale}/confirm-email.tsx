@@ -5,7 +5,6 @@ import {
 } from '@tanstack/react-router'
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { z } from 'zod'
 import authService from '@/services/auth.service'
 import { designSystem } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
@@ -19,15 +18,11 @@ import {
 } from '@/components/ui/card'
 import { CheckCircle, XCircle, Loader2, Mail, AlertCircle } from 'lucide-react'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
-
-const searchSchema = z.object({
-  userId: z.string(),
-  token: z.string(),
-})
+import { parseConfirmEmailSearch } from '@/lib/search-params'
 
 export const Route = createFileRoute('/{-$locale}/confirm-email')({
   ssr: false,
-  validateSearch: searchSchema.partial(),
+  validateSearch: parseConfirmEmailSearch,
   component: ConfirmEmailPage,
 })
 

@@ -260,6 +260,25 @@
     "accept": "Kabul et",
     "reject": "Reddet",
     "settings": "Çerez ayarları",
-    "privacyLink": "Gizlilik politikası"
+    "privacyLink": "Gizlilik politikası",
+    "textCompact": "Google Analytics ve Microsoft Clarity'yi yalnızca izninizle yüklüyoruz."
+  },
+  "contactActions": {
+    "call": "Ara",
+    "callNumber": "Ara: {{phone}}",
+    "callAria": "Start HN'yi {{phone}} numarasından arayın",
+    "directions": "Yol tarifi al",
+    "openInMaps": "Google Haritalar'da görüntüle",
+    "leaveReview": "Yorum bırakın",
+    "hoursLabel": "Çalışma saatleri",
+    "addressLabel": "Adres"
+  },
+  "trust": {
+    "ratingLine_one": "Google'da {{rating}} ★ ({{count}} yorum)",
+    "ratingLine_other": "Google'da {{rating}} ★ ({{count}} yorum)"
+  },
+  "legalEntity": {
+    "title": "Şirket bilgileri",
+    "line": "{{legalName}} · Kimlik no. (JIB) {{jib}} · Sicil no. (MBS) {{mbs}} · Ofis: {{address}}"
   }
 }

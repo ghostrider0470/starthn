@@ -28,6 +28,36 @@ export const IMAGE_WIDTHS = {
 } as const
 
 /**
+ * `sizes` for the blog post hero (BlogPostPreview). It spans the post column:
+ * the page container (max-w-6xl; 1rem side padding, 1.5rem from 640px, 2rem
+ * from 1024px) capped at max-w-5xl (1024px) from 1088px. "100vw" made
+ * desktops fetch the 1600w file for a 1024px-wide image.
+ */
+export const BLOG_HERO_IMAGE_SIZES = [
+  '(min-width: 1088px) 1024px',
+  '(min-width: 1024px) calc(100vw - 4rem)',
+  '(min-width: 640px) calc(100vw - 3rem)',
+  'calc(100vw - 2rem)',
+].join(', ')
+
+/**
+ * `sizes` for the homepage "Why Start HN" photo (WhyStartHNSection). From
+ * 1024px it fills 5 of 12 grid columns (gap 2.5rem) of the max-w-7xl
+ * container: 5/12 of (100vw - 4rem) minus the gaps, 484px from 1280px.
+ * Below that its width follows its height through aspect-[4/5]: 80% of
+ * min(52svh, 500px), and at least 80% of its 360px min-height (288px). A
+ * 412x823 phone shows it 342px wide, so it gets the 600w file instead of the
+ * 900w one that "100vw" picked.
+ */
+export const WHY_START_HN_IMAGE_SIZES = [
+  '(min-width: 1280px) 484px',
+  '(min-width: 1024px) calc(41.67vw - 50px)',
+  '(max-height: 692px) 288px',
+  '(max-height: 961px) 41.6vh',
+  '400px',
+].join(', ')
+
+/**
  * Convert an image URL to an optimized edge-cached URL.
  * Returns /img/ proxy URL in both SSR and client contexts.
  */

@@ -19,19 +19,14 @@ import {
   CardTitle,
 } from '@/components/ui/card'
 import { CheckCircle, Loader2, Eye, EyeOff } from 'lucide-react'
-import { z } from 'zod'
 import api from '@/services/api'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
+import { parseResetPasswordSearch } from '@/lib/search-params'
 import { CONTACT_EMAIL } from '@/lib/business'
-
-const searchSchema = z.object({
-  token: z.string(),
-  email: z.string().email().optional(),
-})
 
 export const Route = createFileRoute('/{-$locale}/reset-password')({
   ssr: false,
-  validateSearch: searchSchema,
+  validateSearch: parseResetPasswordSearch,
   component: ResetPasswordPage,
 })
 

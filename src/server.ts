@@ -20,9 +20,13 @@ import {
 } from './server/canonical-url'
 import {
   HTML_CACHE_CONTROL,
+  deploymentIdFrom,
+  htmlCacheKey,
   htmlCacheKeyUrl,
   isHtmlCacheable,
+  withHtmlAccept,
 } from './server/html-cache'
+import { withSecurityHeaders } from './server/security-headers'
 import type { Bindings, ImageWriteMessage } from './server/bindings'
 import { handleR2WriteQueue } from './server/r2-queue-consumer'
 import {
@@ -129,12 +133,17 @@ app.use(
   }),
 )
 
-// Security headers for API responses
+// Cross-origin headers for API responses (CORP, COOP, Origin-Agent-Cluster,
+// …). HSTS, X-Frame-Options, Referrer-Policy and X-Content-Type-Options come
+// from withSecurityHeaders below, as on every other response, so /api cannot
+// drift from the pages (it used to send a shorter HSTS max-age).
 app.use(
   '/api/*',
   secureHeaders({
-    xFrameOptions: 'DENY',
-    referrerPolicy: 'strict-origin-when-cross-origin',
+    strictTransportSecurity: false,
+    xFrameOptions: false,
+    referrerPolicy: false,
+    xContentTypeOptions: false,
   }),
 )
 
@@ -319,11 +328,15 @@ app.all('*', async (c) => {
   // Private routes (login, admin, account) never touch the cache. The key
   // ignores utm_* and ad click IDs, so campaign links reuse the clean page;
   // only clean URLs store entries, so no cached page carries campaign state.
+  // With the version_metadata binding, each deploy gets its own keys, so no
+  // page from the previous deploy (linking deleted /assets files) is replayed.
   const cacheablePath = isHtmlCacheable(pathname)
   const cache = request.method === 'GET' && cacheablePath ? caches.default : null
   const cacheKeyUrl = htmlCacheKeyUrl(url)
   const cacheKey = cache
-    ? new Request(cacheKeyUrl.toString(), { method: 'GET' })
+    ? new Request(htmlCacheKey(cacheKeyUrl, deploymentIdFrom(c.env)), {
+        method: 'GET',
+      })
     : null
   const isCleanUrl = cacheKeyUrl.search === url.search
 
@@ -345,7 +358,9 @@ app.all('*', async (c) => {
   setD1(c.env?.DB)
   setAssets(c.env?.ASSETS)
 
-  const response = await handler.fetch(request)
+  // Pages are HTML whatever the Accept header asks for: Start would answer
+  // "Accept: text/markdown" or "application/json" with a 500 otherwise.
+  const response = await handler.fetch(withHtmlAccept(request))
 
   if (response.headers.get('Content-Type')?.includes('text/html')) {
     const headers = new Headers(response.headers)
@@ -369,7 +384,16 @@ app.all('*', async (c) => {
 })
 
 // ─── Export ────────────────────────────────────────────────
-const serverEntry = createServerEntry({ fetch: app.fetch })
+// Every response the Worker sends (pages, cache hits, 301s, 404s, 410s,
+// sitemaps, images, /api) leaves with the security headers.
+// Static files get the same set from public/_headers.
+const fetchWithSecurityHeaders: typeof app.fetch = async (
+  request,
+  env,
+  executionCtx,
+) => withSecurityHeaders(request, await app.fetch(request, env, executionCtx))
+
+const serverEntry = createServerEntry({ fetch: fetchWithSecurityHeaders })
 
 export default {
   fetch: serverEntry.fetch,

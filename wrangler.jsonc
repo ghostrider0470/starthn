@@ -12,6 +12,12 @@
   "assets": {
     "binding": "ASSETS"
   },
+  // The Worker version ID (CF_VERSION_METADATA.id) scopes the HTML edge-cache
+  // keys to one deploy (src/server/html-cache.ts), so no page cached by the
+  // previous deploy, linking /assets files that no longer exist, is replayed.
+  "version_metadata": {
+    "binding": "CF_VERSION_METADATA"
+  },
   "vars": {
     "API_ORIGIN": "https://starthn-api-prod.azurewebsites.net",
     "AZURE_BLOB_ORIGIN": "https://starthnwebprod.blob.core.windows.net",

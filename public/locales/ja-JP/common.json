@@ -260,6 +260,24 @@
     "accept": "同意する",
     "reject": "拒否する",
     "settings": "Cookie設定",
-    "privacyLink": "プライバシーポリシー"
+    "privacyLink": "プライバシーポリシー",
+    "textCompact": "Google AnalyticsとMicrosoft Clarityは、同意いただいた場合にのみ読み込みます。"
+  },
+  "contactActions": {
+    "call": "電話する",
+    "callNumber": "電話：{{phone}}",
+    "callAria": "Start HN（{{phone}}）に電話する",
+    "directions": "経路を調べる",
+    "openInMaps": "Google マップで見る",
+    "leaveReview": "クチコミを投稿する",
+    "hoursLabel": "営業時間",
+    "addressLabel": "住所"
+  },
+  "trust": {
+    "ratingLine_other": "Googleで{{rating}} ★（{{count}}件のクチコミ）"
+  },
+  "legalEntity": {
+    "title": "会社情報",
+    "line": "{{legalName}} · 識別番号（JIB）{{jib}} · 登記番号（MBS）{{mbs}} · 事務所：{{address}}"
   }
 }

@@ -1,4 +1,4 @@
-import { useEffect, useId, useRef, useState } from 'react'
+import { useEffect, useId, useRef, useState, useSyncExternalStore } from 'react'
 import { Link, useLocation } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
 import type { KeyboardEvent } from 'react'
@@ -25,12 +25,46 @@ const FALLBACK = {
   privacyLink: 'Privacy policy',
 } as const
 
+// ─── "Is the banner open?" store ────────────────────────────────────────────
+// On phones the banner docks where the bottom navigation sits, and the nav
+// steps aside while it is open (see MobileBottomNav). Server and first client
+// render: closed, so the SSR markup never depends on it.
+
+let bannerOpen = false
+const bannerListeners = new Set<() => void>()
+
+function setBannerOpen(open: boolean): void {
+  if (bannerOpen === open) return
+  bannerOpen = open
+  for (const listener of bannerListeners) listener()
+}
+
+function subscribeBanner(listener: () => void): () => void {
+  bannerListeners.add(listener)
+  return () => bannerListeners.delete(listener)
+}
+
+/** True while the cookie banner is on screen. Always false during SSR. */
+export function useConsentBannerOpen(): boolean {
+  return useSyncExternalStore(
+    subscribeBanner,
+    () => bannerOpen,
+    () => false,
+  )
+}
+
 /**
  * Analytics cookie banner (decision D4). Non-blocking and fixed to the bottom
  * of the viewport, so it never shifts page content. Shown when the visitor
  * has not decided yet, or when openCookieSettings() is called (footer
  * "Cookie settings" button). Renders nothing on the server and on the first
  * client render, so hydration always matches the SSR markup.
+ *
+ * Phones get a compact bar docked in place of the bottom navigation (short
+ * copy, the two choices side by side at 44px); from `md` up it is a card in
+ * the bottom-right corner, clear of the left-aligned hero CTAs, above the
+ * chat launcher and the hero carousel controls. Both choices always have
+ * equal weight.
  */
 export function CookieConsent() {
   const { t } = useTranslation('common')
@@ -62,6 +96,11 @@ export function CookieConsent() {
     }
   }, [])
 
+  useEffect(() => {
+    setBannerOpen(open)
+    return () => setBannerOpen(false)
+  }, [open])
+
   // Opened from "Cookie settings": move focus in so keyboard users land on it.
   useEffect(() => {
     if (open && openedOnRequest) dialogRef.current?.focus()
@@ -92,6 +131,11 @@ export function CookieConsent() {
 
   if (!open) return null
 
+  const title = t('consent.title', { defaultValue: FALLBACK.title })
+  const fullText = t('consent.text', { defaultValue: FALLBACK.text })
+  // A locale without the short copy shows the full text on phones too.
+  const compactText = t('consent.textCompact', { defaultValue: fullText })
+
   return (
     <div
       ref={dialogRef}
@@ -103,19 +147,34 @@ export function CookieConsent() {
       tabIndex={-1}
       onKeyDown={onKeyDown}
       data-testid="cookie-consent"
-      className="fixed inset-x-3 bottom-[calc(5.5rem+env(safe-area-inset-bottom))] z-[55] mx-auto max-w-lg rounded-2xl border border-border bg-background/95 p-4 text-foreground shadow-[0_10px_35px_rgba(15,23,42,0.18)] outline-none backdrop-blur animate-in fade-in slide-in-from-bottom-2 duration-300 motion-reduce:animate-none supports-[backdrop-filter]:bg-background/85 focus-visible:ring-2 focus-visible:ring-ring print:hidden md:inset-x-auto md:bottom-6 md:left-6 md:mx-0 md:max-w-md md:p-5"
+      className={[
+        // Phones: a compact bar docked at the bottom edge, where the bottom
+        // navigation sits (the nav hides while this is open).
+        'fixed inset-x-0 bottom-0 z-[55] rounded-t-2xl border-t border-border bg-background px-4 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] text-foreground shadow-[0_-8px_30px_rgba(15,23,42,0.16)] outline-none',
+        'animate-in fade-in slide-in-from-bottom-2 duration-300 motion-reduce:animate-none focus-visible:ring-2 focus-visible:ring-ring print:hidden',
+        // md+: a card in the bottom-right corner, 6rem up: above the chat
+        // launcher (bottom-6, 3.5rem tall) and the hero carousel controls
+        // (md:pb-10), so neither is covered while the visitor decides.
+        'md:inset-x-auto md:right-6 md:bottom-24 md:w-full md:max-w-md md:rounded-2xl md:border md:p-5 md:shadow-[0_10px_35px_rgba(15,23,42,0.18)]',
+      ].join(' ')}
     >
+      {/* Phones show the title inline at the start of the copy (one line
+          saved); it stays the dialog's accessible name either way. */}
       <p
         id={titleId}
-        className="font-heading text-base font-semibold text-foreground"
+        className="font-heading text-base font-semibold text-foreground max-md:sr-only"
       >
-        {t('consent.title', { defaultValue: FALLBACK.title })}
+        {title}
       </p>
       <p
         id={textId}
-        className="mt-1.5 text-sm leading-relaxed text-muted-foreground"
+        className="text-[13px] leading-snug text-muted-foreground md:mt-1.5 md:text-sm md:leading-relaxed"
       >
-        {t('consent.text', { defaultValue: FALLBACK.text })}{' '}
+        <span aria-hidden className="font-semibold text-foreground md:hidden">
+          {title}.{' '}
+        </span>
+        <span className="md:hidden">{compactText}</span>
+        <span className="hidden md:inline">{fullText}</span>{' '}
         <Link
           to={withLocalePath('/privacy', locale)}
           hash="cookies"
@@ -125,11 +184,11 @@ export function CookieConsent() {
         </Link>
       </p>
       {/* Equal weight for both choices: declining is as easy as accepting. */}
-      <div className="mt-4 grid grid-cols-2 gap-2">
+      <div className="mt-2.5 grid grid-cols-2 gap-2 md:mt-4">
         <Button
           type="button"
           variant="outline"
-          className="w-full"
+          className="h-11 w-full"
           onClick={() => decide('denied')}
         >
           {t('consent.reject', { defaultValue: FALLBACK.reject })}
@@ -137,7 +196,7 @@ export function CookieConsent() {
         <Button
           type="button"
           variant="outline"
-          className="w-full"
+          className="h-11 w-full"
           onClick={() => decide('granted')}
         >
           {t('consent.accept', { defaultValue: FALLBACK.accept })}

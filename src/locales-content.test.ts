@@ -86,7 +86,8 @@ const FORBIDDEN =
 const BOSNIAN_CROATIANISMS =
   /tvrtk|financij|desetljeć|reagiranje|informirane|Automatiziramo|identificiramo/
 
-const ADDRESS = 'Ibrahima Ljubovića 47, 71210 Ilidža'
+const STREET = 'Ibrahima Ljubovića 47'
+const ADDRESS = `${STREET}, 71210 Ilidža`
 
 const REQUIRED_KEYS: Record<Namespace, Array<string>> = {
   pages: [
@@ -123,13 +124,39 @@ const REQUIRED_KEYS: Record<Namespace, Array<string>> = {
     'about.images.interiorAlt',
     'missionVision.images.heroAlt',
     'missionVision.images.interiorAlt',
+    // Conversion round (C1, C4, K2, K3, K7).
+    'certificates.gallery.description',
+    'contact.form.verifying',
+    'contact.form.verifyingHint',
+    'contact.location.overline',
+    'contact.location.title',
+    'contact.location.body',
+    'contact.reviews.title',
+    'contact.reviews.description',
   ],
-  landing: ['hero.h1', 'hero.intro', 'guide.linkText', 'guide.description'],
+  landing: [
+    'hero.h1',
+    'hero.intro',
+    'hero.cta.primary',
+    'guide.linkText',
+    'guide.description',
+  ],
   services: [
     'index.title',
     'index.description',
     'related.title',
     'related.postsTitle',
+    // Conversion round (K1).
+    'common.faqOverline',
+    'common.pricingOverline',
+    'common.requestQuote',
+    'common.quoteNote',
+    'items.bookkeeping.pricing.title',
+    'items.bookkeeping.pricing.intro',
+    'items.bookkeeping.pricing.driversTitle',
+    'items.bookkeeping.pricing.note',
+    'items.bookkeeping.payroll.title',
+    'items.bookkeeping.payroll.body',
   ],
 }
 
@@ -175,11 +202,18 @@ describe('locale content (pages, landing, services)', () => {
   })
 
   it('never translates or transliterates the street address', () => {
+    // A heading may name only the street ("… – Ibrahima Ljubovića 47"); any
+    // postcode or municipality next to it must be the current one.
     const bad: Array<string> = []
     for (const locale of KEPT_LOCALES) {
       for (const ns of NAMESPACES) {
         for (const [path, text] of flattenStrings(bundles[locale][ns])) {
-          if (/Ljubovi/i.test(text) && !text.includes(ADDRESS)) {
+          if (!/Ljubovi/i.test(text)) continue
+          const postcodeOrPlace = /Ibrahima Ljubovića 47,\s*(\S+)/.exec(text)?.[1]
+          if (
+            !text.includes(STREET) ||
+            (postcodeOrPlace !== undefined && !text.includes(ADDRESS))
+          ) {
             bad.push(`${locale}/${ns}:${path}`)
           }
         }

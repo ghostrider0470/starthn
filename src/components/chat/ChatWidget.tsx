@@ -3,16 +3,26 @@ import { MessageCircle, X } from 'lucide-react'
 import { useLocation } from '@tanstack/react-router'
 import { AnimatePresence, motion } from 'motion/react'
 import { useTranslation } from 'react-i18next'
-import { useChat } from '@/contexts/ChatContext'
 import { ChatPanel } from './ChatPanel'
+import { useChatLauncherCovering } from './launcher-clearance'
+import { useChat } from '@/contexts/ChatContext'
 import { cn } from '@/lib/utils'
 import { featureFlags } from '@/lib/feature-flags'
+import { useConsentBannerOpen } from '@/components/CookieConsent'
 
 export function ChatWidget() {
   const { isOpen, setIsOpen, messages } = useChat()
   const { t } = useTranslation('landing')
   const location = useLocation()
   const panelRef = useRef<HTMLDivElement>(null)
+  // Phones: the cookie bar docks at the bottom edge and would half-cover the
+  // launcher, so the launcher waits until the visitor has chosen. (From md
+  // the cookie card sits above the launcher.)
+  const consentBannerOpen = useConsentBannerOpen()
+  // Steps aside while it would sit on top of a control that must stay
+  // reachable (the home hero's carousel controls and CTAs on phones, where
+  // long copy can push them under the launcher). See launcher-clearance.ts.
+  const coveringControl = useChatLauncherCovering()
 
   // Lock body scroll + pin chat to visualViewport on mobile (iOS keyboard fix)
   useEffect(() => {
@@ -81,7 +91,7 @@ export function ChatWidget() {
   return (
     <>
       <AnimatePresence>
-        {!isOpen && (
+        {!isOpen && !coveringControl && (
           <motion.button
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
@@ -89,7 +99,11 @@ export function ChatWidget() {
             transition={{ type: 'spring', stiffness: 260, damping: 20 }}
             onClick={() => setIsOpen(true)}
             className={cn(
-              'fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center max-md:bottom-24',
+              // Inline end: bottom-right, bottom-left in RTL (away from the
+              // hero's pause button, which sits at the inline start). Keep in
+              // sync with launcherBox() in launcher-clearance.ts.
+              'fixed bottom-6 end-6 z-50 flex h-14 w-14 items-center justify-center max-md:bottom-24',
+              consentBannerOpen && 'max-md:hidden',
               'rounded-full bg-primary text-primary-foreground shadow-lg',
               'transition-shadow hover:shadow-xl hover:shadow-primary/25',
               messages.length === 0 && 'animate-pulse',

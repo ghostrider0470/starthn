@@ -260,6 +260,27 @@
     "accept": "Принять",
     "reject": "Отклонить",
     "settings": "Настройки cookie",
-    "privacyLink": "Политика конфиденциальности"
+    "privacyLink": "Политика конфиденциальности",
+    "textCompact": "Google Analytics и Microsoft Clarity загружаются только с вашего согласия."
+  },
+  "contactActions": {
+    "call": "Позвонить",
+    "callNumber": "Позвонить: {{phone}}",
+    "callAria": "Позвонить в Start HN по номеру {{phone}}",
+    "directions": "Проложить маршрут",
+    "openInMaps": "Открыть в Google Картах",
+    "leaveReview": "Оставить отзыв",
+    "hoursLabel": "Часы работы",
+    "addressLabel": "Адрес"
+  },
+  "trust": {
+    "ratingLine_one": "{{rating}} ★ в Google ({{count}} отзыв)",
+    "ratingLine_few": "{{rating}} ★ в Google ({{count}} отзыва)",
+    "ratingLine_many": "{{rating}} ★ в Google ({{count}} отзывов)",
+    "ratingLine_other": "{{rating}} ★ в Google ({{count}} отзыва)"
+  },
+  "legalEntity": {
+    "title": "Реквизиты компании",
+    "line": "{{legalName}} · Идент. номер (JIB) {{jib}} · Рег. номер (MBS) {{mbs}} · Офис: {{address}}"
   }
 }

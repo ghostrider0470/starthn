@@ -16,14 +16,18 @@
  * raw key is never rendered.
  */
 import type { ServiceId } from '@/lib/service-routes'
+import type { ServicePricePlan } from '@/lib/seo'
 import i18n, { loadTranslationsForSSR } from '@/i18n'
 import { BRAND } from '@/lib/business'
 import { DEFAULT_LOCALE, isValidLocale } from '@/lib/i18n-utils'
 import {
   SEO_PAGE_KEY,
-  buildLocalizedSeoHead,
+  buildLocalBusinessStructuredData,
   buildServiceStructuredData,
+  buildWebSiteStructuredData,
   jsonLd,
+  localizedCanonicalUrl,
+  parsePriceAmount,
 } from '@/lib/seo'
 import { SERVICE_ROUTES } from '@/lib/service-routes'
 
@@ -153,8 +157,64 @@ export function localizedPageHead(
 }
 
 /**
- * head() for a service page: the localized page head plus Service JSON-LD
- * whose name and description come from services:items.<serviceId>.
+ * The business (AccountingService) and WebSite nodes for the page locale, for
+ * the root head() on every page: url is the locale's home, the descriptions
+ * are seo:default.description, the catalog name is common:breadcrumbs.
+ * services. Only `seo` and `common` are read, which every page ships to the
+ * client (BASE_RESOURCES), so the hydration re-run renders the same JSON.
+ */
+export function localizedSiteStructuredData(localeParam: string | undefined) {
+  const locale = toPageLocale(localeParam)
+  const { description } = resolveSeoStrings('default', locale)
+  const catalogName =
+    translateExact(locale, 'common', 'breadcrumbs.services') ?? null
+  return [
+    buildLocalBusinessStructuredData(locale, { description, catalogName }),
+    buildWebSiteStructuredData(locale, description),
+  ]
+}
+
+/**
+ * The price plans a service page shows in `locale`
+ * (services:items.<serviceId>.pricing.plans), as Offer input. A plan whose
+ * name or KM price cannot be read is skipped, so markup only ever repeats a
+ * visible price. Empty for services without a price block.
+ */
+export function servicePricePlans(
+  serviceId: ServiceId,
+  locale: string,
+): Array<ServicePricePlan> {
+  const plans: unknown = i18n.getResource(
+    locale,
+    'services',
+    `items.${serviceId}.pricing.plans`,
+  )
+  if (!Array.isArray(plans)) return []
+  const text = (value: unknown): string | null =>
+    typeof value === 'string' && value.trim() ? value.trim() : null
+  return plans.flatMap((plan: unknown): Array<ServicePricePlan> => {
+    if (!plan || typeof plan !== 'object') return []
+    const { name, price, period, note } = plan as Record<string, unknown>
+    const planName = text(name)
+    const priceLabel = text(price)
+    const minPrice = priceLabel ? parsePriceAmount(priceLabel) : null
+    if (!planName || minPrice === null) return []
+    return [
+      {
+        name: planName,
+        minPrice,
+        unitText: text(period),
+        description: text(note),
+      },
+    ]
+  })
+}
+
+/**
+ * head() for a service page: the localized page head (seo:pages.<pageKey>)
+ * plus Service JSON-LD whose name and description come from
+ * services:items.<serviceId>, serviceType from common:breadcrumbs.<pageKey>
+ * and Offers from the page's visible price block, if it has one.
  */
 export function localizedServiceHead(
   serviceId: ServiceId,
@@ -169,13 +229,22 @@ export function localizedServiceHead(
   const description =
     translateExact(locale, 'services', `items.${serviceId}.shortDescription`) ??
     seo.description
-  const { canonicalUrl } = buildLocalizedSeoHead(path, locale)
+  const serviceType =
+    translateExact(locale, 'common', `breadcrumbs.${pageKey}`) ?? null
+  const canonicalUrl = localizedCanonicalUrl(path, locale)
 
   return {
     ...localizedPageHead(pageKey, locale),
     scripts: [
       jsonLd(
-        buildServiceStructuredData({ locale, canonicalUrl, name, description }),
+        buildServiceStructuredData({
+          locale,
+          canonicalUrl,
+          name,
+          description,
+          serviceType,
+          plans: servicePricePlans(serviceId, locale),
+        }),
       ),
     ],
   }

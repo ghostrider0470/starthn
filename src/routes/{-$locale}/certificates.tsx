@@ -1,14 +1,15 @@
-import { createFileRoute, Link, useLocation } from '@tanstack/react-router'
+import { Link, createFileRoute, useLocation } from '@tanstack/react-router'
 import {
-  Award,
   ArrowRight,
-  ShieldCheck,
+  Award,
   BadgeCheck,
   BookOpen,
   FileCheck2,
   Scale,
+  ShieldCheck,
 } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import type { CompanySectionId } from '@/components/company/CompanyPageLayout'
 import { Button } from '@/components/ui/button'
 import { designSystem } from '@/lib/design-system'
 import { PageContainer } from '@/components/layout/PageContainer'
@@ -16,11 +17,11 @@ import {
   CompanyPageLayout,
   CompanyPagePanel,
   getCompanySectionLabels,
-  type CompanySectionId,
 } from '@/components/company/CompanyPageLayout'
 import { cn } from '@/lib/utils'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { localizedPageHead } from '@/lib/seo-meta'
+import { useOwnLocaleText } from '@/components/ContactActions'
 
 export const Route = createFileRoute('/{-$locale}/certificates')({
   head: ({ params }) => localizedPageHead('certificates', params.locale),
@@ -42,6 +43,7 @@ type CertificateGalleryItem = {
 
 function CertificatesPage() {
   const { t } = useTranslation('pages')
+  const text = useOwnLocaleText('pages')
   const location = useLocation()
   const currentLocale = getLocaleFromPath(location.pathname)
   const sectionLabels = getCompanySectionLabels(
@@ -72,8 +74,11 @@ function CertificatesPage() {
   })
   const galleryItems = (
     Array.isArray(galleryItemsRaw) ? galleryItemsRaw : []
-  ) as CertificateGalleryItem[]
+  ) as Array<CertificateGalleryItem>
   const featuredCertificate = galleryItems[0]
+  // The gallery's own lead-in. It used to repeat intro.para2 word for word;
+  // a locale without it shows no lead-in rather than the duplicate.
+  const galleryDescription = text('certificates.gallery.description', '')
 
   return (
     <CompanyPageLayout labels={sectionLabels} ids={CERTIFICATE_SECTION_IDS}>
@@ -115,8 +120,10 @@ function CertificatesPage() {
             </div>
 
             <div className="min-w-0 border-y border-border py-5 lg:border-y-0 lg:border-l lg:py-0 lg:pl-8">
+              {/* A preview of the first certificate. Its title is a caption
+                  here, not a heading: the gallery below lists it again. */}
               {featuredCertificate && (
-                <div className="overflow-hidden rounded-lg border border-border bg-card shadow-sm">
+                <figure className="overflow-hidden rounded-lg border border-border bg-card shadow-sm">
                   <div className="flex aspect-[4/3] items-center justify-center bg-muted/25 p-6">
                     <img
                       src={featuredCertificate.image}
@@ -126,19 +133,16 @@ function CertificatesPage() {
                       decoding="async"
                     />
                   </div>
-                  <div className="hidden border-t border-border p-5 sm:block">
-                    <p className="mb-2 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-primary">
-                      <FileCheck2 className="h-4 w-4" />
-                      {t('certificates.gallery.heading')}
-                    </p>
-                    <h2 className="text-lg font-semibold tracking-tight text-foreground">
+                  <figcaption className="hidden border-t border-border p-5 sm:block">
+                    <span className="flex items-start gap-2 text-base font-semibold tracking-tight text-foreground">
+                      <FileCheck2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                       {featuredCertificate.title}
-                    </h2>
-                    <p className="mt-2 text-sm leading-6 text-muted-foreground">
+                    </span>
+                    <span className="mt-2 block text-sm leading-6 text-muted-foreground">
                       {featuredCertificate.description}
-                    </p>
-                  </div>
-                </div>
+                    </span>
+                  </figcaption>
+                </figure>
               )}
             </div>
           </div>
@@ -209,15 +213,17 @@ function CertificatesPage() {
             <div className="mb-8 grid gap-4 lg:grid-cols-[0.55fr_1fr] lg:items-end">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
-                  {t('certificates.badge')}
+                  {sectionLabels[2] || t('certificates.badge')}
                 </p>
                 <h2 className="mt-3 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
                   {t('certificates.gallery.heading')}
                 </h2>
               </div>
-              <p className="max-w-2xl text-sm leading-7 text-muted-foreground md:ml-auto md:text-right">
-                {t('certificates.intro.para2')}
-              </p>
+              {galleryDescription && (
+                <p className="max-w-2xl text-sm leading-7 text-muted-foreground md:ml-auto md:text-right">
+                  {galleryDescription}
+                </p>
+              )}
             </div>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {galleryItems.map((item, index) => (

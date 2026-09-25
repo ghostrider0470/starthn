@@ -34,4 +34,6 @@ export type Bindings = {
   MAINTENANCE_MODE: string
   JWT_ISSUER: string
   JWT_AUDIENCE: string
+  /** wrangler.jsonc "version_metadata": the deployed Worker version. */
+  CF_VERSION_METADATA?: WorkerVersionMetadata
 }

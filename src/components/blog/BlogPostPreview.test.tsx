@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import { describe, expect, it, vi } from 'vitest'
 import { BlogPostPreview } from './BlogPostPreview'
+import { BLOG_HERO_IMAGE_SIZES } from '@/lib/image'
 
 vi.mock('react-i18next', () => ({
   useTranslation: () => ({
@@ -58,5 +59,28 @@ describe('BlogPostPreview', () => {
     expect(time?.getAttribute('dateTime')).toBe('2025-11-22')
     expect(time?.textContent).toBe('22. novembar 2025.')
     expect(screen.getByText('4 min čitanja')).toBeTruthy()
+  })
+
+  it('sizes the hero image to the post column, not the viewport', () => {
+    const { container } = render(
+      <BlogPostPreview
+        title="Kako pokrenuti biznis u BiH"
+        excerpt="Praktičan vodič."
+        author="Start HN"
+        category="Preduzetništvo"
+        publishedAt="2025-11-22"
+        readTime="4 min čitanja"
+        content={['Tekst članka']}
+        tags={[]}
+        locale="bs-BA"
+        coverImage="blog-images/cover.webp"
+      />,
+    )
+
+    const hero = container.querySelector('img')
+    expect(hero?.getAttribute('sizes')).toBe(BLOG_HERO_IMAGE_SIZES)
+    expect(hero?.getAttribute('sizes')).not.toContain('100vw,')
+    expect(hero?.getAttribute('fetchpriority')).toBe('high')
+    expect(hero?.getAttribute('loading')).toBeNull()
   })
 })

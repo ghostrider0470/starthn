@@ -260,6 +260,24 @@
     "accept": "동의",
     "reject": "거부",
     "settings": "쿠키 설정",
-    "privacyLink": "개인정보처리방침"
+    "privacyLink": "개인정보처리방침",
+    "textCompact": "Google Analytics와 Microsoft Clarity는 동의하신 경우에만 로드합니다."
+  },
+  "contactActions": {
+    "call": "전화",
+    "callNumber": "전화: {{phone}}",
+    "callAria": "Start HN에 전화하기: {{phone}}",
+    "directions": "길찾기",
+    "openInMaps": "Google 지도에서 보기",
+    "leaveReview": "리뷰 남기기",
+    "hoursLabel": "영업시간",
+    "addressLabel": "주소"
+  },
+  "trust": {
+    "ratingLine_other": "Google 평점 {{rating}} ★ (리뷰 {{count}}개)"
+  },
+  "legalEntity": {
+    "title": "회사 정보",
+    "line": "{{legalName}} · 식별번호(JIB) {{jib}} · 등록번호(MBS) {{mbs}} · 사무소: {{address}}"
   }
 }

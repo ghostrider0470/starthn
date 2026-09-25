@@ -11,6 +11,7 @@
  *   analytics.identify(userId, { role })      — link session to authenticated user
  *   analytics.page(path, title)               — track page view
  *   analytics.event('cta_click', { label })   — track custom event
+ *   analytics.telClick('header')              — tel: link tapped (GA4 tel_click)
  *   analytics.setUserProperties({ plan })     — set persistent user properties
  *   analytics.reset()                         — clear identity on logout
  *   analytics.revoke()                        — consent withdrawn: stop + clear cookies
@@ -204,6 +205,26 @@ async function event(name: string, params?: Traits): Promise<void> {
   if (clarityStarted) clarity.event(name)
 }
 
+/** Where on the site a tel: link was tapped (GA4 `tel_click` placement). */
+export type TelClickPlacement =
+  | 'header'
+  | 'bottom_nav'
+  | 'menu_sheet'
+  | 'home_hero'
+  | 'service_hero'
+  | 'contact_hero'
+  | 'contact_card'
+  | 'contact_location'
+  | 'footer'
+
+/**
+ * A visitor tapped a tel: link. Goes through event(), so like every event it
+ * is dropped — and nothing is loaded — until the visitor accepts analytics.
+ */
+function telClick(placement: TelClickPlacement): Promise<void> {
+  return event('tel_click', { placement })
+}
+
 /** Set persistent user properties on GA4. */
 async function setUserProperties(properties: Traits): Promise<void> {
   if (!hasConsent()) return
@@ -305,6 +326,7 @@ export const analytics = {
   identify,
   page,
   event,
+  telClick,
   setUserProperties,
   reset,
   revoke,

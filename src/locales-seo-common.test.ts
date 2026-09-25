@@ -96,10 +96,23 @@ const A11Y_KEYS = [
 const CONSENT_KEYS = [
   'title',
   'text',
+  'textCompact',
   'accept',
   'reject',
   'settings',
   'privacyLink',
+] as const
+
+/** Tap-to-call, directions and review labels (C1, C4). */
+const CONTACT_ACTION_KEYS = [
+  'call',
+  'callNumber',
+  'callAria',
+  'directions',
+  'openInMaps',
+  'leaveReview',
+  'hoursLabel',
+  'addressLabel',
 ] as const
 
 /** Old addresses, template copy, brand mistranslations, old phone, old email. */
@@ -200,6 +213,26 @@ describe.each(KEPT_LOCALES)('%s seo.json', (locale) => {
     expect(seo.pages.contact.description).toContain(ADDRESS)
     expect(seo.pages.contact.description).toContain(PHONE)
   })
+
+  it('contact title targets the Ilidža location', () => {
+    expect(seo.pages.contact.title).toMatch(/Ilidž/)
+  })
+})
+
+describe('en-US seo.json names the country in service and home titles', () => {
+  const seo = read('en-US', 'seo') as unknown as SeoFile
+  it.each([
+    'home',
+    'services',
+    'serviceBookkeeping',
+    'serviceTaxConsulting',
+    'serviceVirtualCfo',
+    'serviceBusinessConsulting',
+    'serviceFinancialReporting',
+    'serviceEducation',
+  ])('pages.%s', (key) => {
+    expect(seo.pages[key].title).toContain('Bosnia & Herzegovina')
+  })
 })
 
 describe.each(KEPT_LOCALES)('%s common.json', (locale) => {
@@ -238,6 +271,48 @@ describe.each(KEPT_LOCALES)('%s common.json', (locale) => {
   it('consent banner names both analytics tools', () => {
     expect(common.consent.text).toContain('Google Analytics')
     expect(common.consent.text).toContain('Microsoft Clarity')
+  })
+
+  it('compact consent text still names both analytics tools', () => {
+    expect(common.consent.textCompact).toContain('Google Analytics')
+    expect(common.consent.textCompact).toContain('Microsoft Clarity')
+    // Short enough for a two-line mobile bar.
+    expect(len(common.consent.textCompact)).toBeLessThanOrEqual(90)
+  })
+
+  it('has the call, directions, review, rating and legal-entity strings', () => {
+    for (const key of CONTACT_ACTION_KEYS) {
+      const value = common.contactActions?.[key]
+      expect(typeof value, `${locale} common:contactActions.${key}`).toBe(
+        'string',
+      )
+      expect((value as string).trim()).not.toBe('')
+    }
+    expect(placeholders(common.contactActions.callNumber)).toEqual(['phone'])
+    expect(placeholders(common.contactActions.callAria)).toEqual(['phone'])
+
+    for (const [key, value] of Object.entries(
+      common.trust as Record<string, string>,
+    )) {
+      expect(key).toMatch(/^ratingLine_(one|few|other)$/)
+      expect(placeholders(value), key).toEqual(['count', 'rating'])
+    }
+
+    // Only the keys a component reads: every key ships in the dehydrated
+    // common namespace on every page.
+    expect(Object.keys(common.legalEntity).sort()).toEqual(['line', 'title'])
+    for (const key of ['title', 'line']) {
+      expect(
+        typeof common.legalEntity?.[key],
+        `${locale} legalEntity.${key}`,
+      ).toBe('string')
+    }
+    expect(placeholders(common.legalEntity.line)).toEqual([
+      'address',
+      'jib',
+      'legalName',
+      'mbs',
+    ])
   })
 })
 
@@ -297,13 +372,22 @@ describe('kept locales: shared content rules', () => {
   })
 
   it('has the same keys and interpolation placeholders as en-US', () => {
+    // i18next plural forms (`_one`, `_few`, `_other`, …) differ by language:
+    // compare them by base key and require the forms the language uses.
+    const PLURAL = /^(.*)_(zero|one|two|few|many|other)$/
+    const pluralBase = (map: Map<string, string>, path: string) => {
+      const m = PLURAL.exec(path)
+      return m && map.has(`${m[1]}_other`) ? m[1] : null
+    }
     const problems: Array<string> = []
     for (const ns of NAMESPACES) {
       const source = flatten(read(SOURCE_LOCALE, ns))
       for (const locale of KEPT_LOCALES) {
         if (locale === SOURCE_LOCALE) continue
         const target = flatten(read(locale, ns))
+        const rules = new Intl.PluralRules(locale)
         for (const [path, value] of source) {
+          const base = pluralBase(source, path)
           const localized = target.get(path)
           if (localized === undefined) {
             problems.push(`${locale}/${ns}:${path} missing`)
@@ -312,14 +396,22 @@ describe('kept locales: shared content rules', () => {
           if (placeholders(localized).join() !== placeholders(value).join()) {
             problems.push(`${locale}/${ns}:${path} placeholders differ`)
           }
+          if (base) {
+            for (let n = 0; n <= 200; n++) {
+              const form = `${base}_${rules.select(n)}`
+              if (!target.has(form))
+                problems.push(`${locale}/${ns}:${form} missing`)
+            }
+          }
         }
         for (const path of target.keys()) {
-          if (!source.has(path))
+          const base = pluralBase(target, path)
+          if (base ? !source.has(`${base}_other`) : !source.has(path))
             problems.push(`${locale}/${ns}:${path} not in en-US`)
         }
       }
     }
-    expect(problems).toEqual([])
+    expect([...new Set(problems)]).toEqual([])
   })
 
   it('blog author role is "Author", not "Publisher"', () => {

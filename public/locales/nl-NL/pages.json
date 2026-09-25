@@ -146,28 +146,29 @@
         },
         {
           "image": "/certificates/kpmg-expert.webp",
-          "title": "Forensisch Auditor",
-          "description": "Bevestiging van aanvullende expertise op het gebied van financiële forensisch onderzoek"
+          "title": "Expert – KPMG Switzerland Innovation Award",
+          "description": "„Expert”-badge in de categorie Management Consulting van de KPMG Switzerland Innovation Award."
         },
         {
           "image": "/certificates/award-consulting.webp",
-          "title": "EU-fondsen – Hoe je subsidies kunt krijgen",
-          "description": "Kennis van het aanvraagproces en de mogelijkheden om EU-fondsen in te trekken."
+          "title": "Training: EU-fondsen – toegang tot subsidies",
+          "description": "Training over de aanvraagprocedure en de mogelijkheden om EU-financiering te verkrijgen (AwarD Consulting Trade Inc.)."
         }
-      ]
+      ],
+      "description": "Een overzicht van onze certificaten en afgeronde trainingen, met een korte beschrijving van elk."
     },
     "quote": "“Elk certificaat is het bewijs dat ons werk de strengste professionele toetsing doorstaat.”",
     "quoteAuthor": "Accountantskantoor Start HN",
     "licenceLine": "Register van het federale ministerie van Financiën (FMF) nr. UP-04-11-2-6-1516/24",
     "verifyLink": "Controleer in het register van SRR FBiH",
     "highlights": {
-      "certifiedAccountants": "Gecertificeerde accountants",
+      "certifiedAccountants": "Gecertificeerde accountant",
       "legalCompliance": "Naleving van wet- en regelgeving",
       "continuousEducation": "Permanente educatie",
       "ethicalStandards": "Ethische normen"
     },
     "cta": {
-      "title": "Werk samen met een gecertificeerd team.",
+      "title": "Werk met een gecertificeerde accountant",
       "description": "Onze licenties en professionele certificeringen garanderen dat uw boekhouding in veilige, deskundige handen is.",
       "button": "Neem contact met ons op"
     }
@@ -250,7 +251,7 @@
     },
     "form": {
       "title": "Stuur ons een bericht",
-      "success": "Dank je wel voor je bericht. We nemen binnen 24-48 uur contact met u op.",
+      "success": "Bedankt voor uw bericht. We reageren binnen één werkdag.",
       "error": "Er ging iets mis. Probeer het opnieuw of stuur ons rechtstreeks een e-mail.",
       "fullName": "Volledige naam *",
       "email": "E-mailadres *",
@@ -275,11 +276,13 @@
         "messageMinLength": "Het bericht moet minstens {{count}} tekens lang zijn."
       },
       "sending": "Verzenden...",
-      "submit": "Stuur een bericht"
+      "submit": "Stuur een bericht",
+      "verifying": "Beveiligingscontrole wordt uitgevoerd…",
+      "verifyingHint": "De knop „Stuur een bericht” wordt actief na een korte automatische beveiligingscontrole."
     },
     "reasonsTitle": "Waarom kies je Start HN?",
     "reasons": [
-      "Gecertificeerde accountants met diepgaande kennis van de belastingwetgeving van BiH",
+      "Een gecertificeerde accountant met grondige kennis van het belastingrecht in Bosnië en Herzegovina",
       "Snelle respons en proactieve communicatie",
       "Cloud Accounting — Toegang tot boeken op elk moment",
       "Transparante prijsstelling zonder verborgen kosten"
@@ -293,6 +296,15 @@
       "title": "Heb je nog meer vragen?",
       "description": "Bekijk onze FAQ-sectie voor snelle antwoorden",
       "cta": "Blader door veelgestelde vragen"
+    },
+    "location": {
+      "overline": "Zo vindt u ons",
+      "title": "Boekhoudkantoor in Ilidža – Ibrahima Ljubovića 47",
+      "body": "Het kantoor van boekhoudkantoor Start HN is gevestigd aan Ibrahima Ljubovića 47, 71210 Ilidža, in de gemeente Ilidža, kanton Sarajevo, Bosnië en Herzegovina. Vanuit dit kantoor verzorgen we de boekhouding, loonadministratie, btw en belastingaangiften van onze klanten. We zijn geopend van maandag tot en met vrijdag van 08:00 tot 16:00 uur en gesloten op feestdagen. Voordat u langskomt, kunt u ons bellen op 061 221 368 (+387 61 221 368 vanuit het buitenland) of mailen naar klijenti@starthn.ba – we reageren binnen één werkdag. We werken met bedrijven, eenmanszaken en verenigingen uit Ilidža, Sarajevo en de rest van het kanton Sarajevo, en met klanten in heel Bosnië en Herzegovina. U kunt documenten persoonlijk op kantoor afgeven, per e-mail sturen of digitaal aanleveren, zodat samenwerken geen frequente bezoeken vereist. Plan om te beginnen een gratis kennismakingsgesprek; voor de route naar het kantoor gebruikt u de knop „Routebeschrijving”."
+    },
+    "reviews": {
+      "title": "Met ons samengewerkt?",
+      "description": "Bent u tevreden over ons werk? Laat dan een review voor ons achter op Google. Uw ervaring helpt andere ondernemers een boekhouder te kiezen."
     }
   },
   "team": {
@@ -368,12 +380,12 @@
     }
   },
   "careers": {
-    "badge": "Sluit je aan bij ons team",
+    "badge": "Open sollicitatie",
     "hero": {
       "title": "Groei met ons mee in",
       "titleHighlight": "Boekhouding & Financiën",
-      "description": "Start HN is een groeiend accountantsbureau. We zoeken toegewijde professionals die een zinvolle carrière willen opbouwen in accountancy, belasting en financiële diensten.",
-      "button": "Zie open plaatsen"
+      "description": "Start HN is een groeiend boekhoudkantoor. We horen altijd graag van gemotiveerde professionals die een carrière willen opbouwen in boekhouding, belastingen en financiële dienstverlening – u kunt op elk moment een open sollicitatie sturen.",
+      "button": "Bekijk de profielen"
     },
     "perks": [
       {
@@ -394,12 +406,12 @@
       "description": "Eenvoudig, transparant proces met respect voor je tijd",
       "steps": [
         {
-          "title": "Stuur cv in",
-          "description": "Stuur ons uw cv en motivatiebrief naar ons e-mailadres."
+          "title": "Stuur een open sollicitatie",
+          "description": "Mail ons uw cv en een motivatiebrief en laat weten welk profiel u aanspreekt."
         },
         {
-          "title": "Uitnodiging voor een interview",
-          "description": "We nemen contact op met kandidaten die aan de voorwaarden voldoen en nodigen hen uit voor een gesprek."
+          "title": "Uitnodiging voor een gesprek",
+          "description": "Wanneer we het team willen uitbreiden, nemen we contact op met kandidaten van wie het profiel past en nodigen we hen uit voor een gesprek."
         },
         {
           "title": "Werving",
@@ -408,11 +420,11 @@
       ]
     },
     "jobs": {
-      "title": "Vacatures",
-      "description": "Vind je plek in ons boekhoudteam",
-      "apply": "Solliciteer nu",
-      "noMatch": "Zie je de juiste positie niet?",
-      "sendCv": "Stuur ons uw cv",
+      "title": "Open sollicitatie",
+      "description": "Profielen waarvan we graag horen – we nemen sollicitaties doorlopend in behandeling, zonder deadline.",
+      "apply": "Sollicitatie sturen",
+      "noMatch": "Staat uw profiel er niet bij?",
+      "sendCv": "Stuur ons een open sollicitatie",
       "labels": {
         "responsibilities": "Verantwoordelijkheden",
         "requirements": "Vereisten",

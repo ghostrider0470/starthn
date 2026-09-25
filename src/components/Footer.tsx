@@ -20,14 +20,15 @@ import {
   BRAND,
   CONTACT_EMAIL,
   FACEBOOK_PROFILE_URL,
+  GOOGLE_BUSINESS_PROFILE_URL,
   INSTAGRAM_URL,
   LOCALITY,
   OWNER_LINKEDIN_URL,
   PHONE_INTL,
-  PHONE_TEL,
   POSTAL_CODE,
   STREET,
 } from '@/lib/business'
+import { CallLink, useLegalEntityLine } from '@/components/ContactActions'
 
 const SOCIALS = [
   {
@@ -105,6 +106,7 @@ export function Footer() {
   }
 
   const year = new Date().getFullYear()
+  const legalEntityLine = useLegalEntityLine()
 
   return (
     <footer
@@ -126,7 +128,7 @@ export function Footer() {
           <div className="lg:col-span-4">
             <Link to={withLocale('/')} className="inline-flex items-center">
               <img
-                src="/logo-128.webp"
+                src="/logo-96.webp"
                 alt={BRAND}
                 className="h-12 w-auto"
                 width={48}
@@ -146,9 +148,9 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer me"
                   aria-label={name}
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-border bg-background transition-all hover:border-primary/50 hover:bg-primary/10 hover:text-primary"
+                  className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-border bg-background transition-all hover:border-primary/50 hover:bg-primary/10 hover:text-primary"
                 >
-                  <Icon className="h-4 w-4" />
+                  <Icon aria-hidden className="h-4 w-4" />
                 </a>
               ))}
             </div>
@@ -197,33 +199,46 @@ export function Footer() {
                   href={`mailto:${CONTACT_EMAIL}`}
                   className="group flex items-start gap-3 transition-colors hover:text-primary"
                 >
-                  <Mail className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                  <Mail aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                   <span>{CONTACT_EMAIL}</span>
                 </a>
               </li>
               <li>
-                <a
-                  href={`tel:${PHONE_TEL}`}
+                <CallLink
+                  placement="footer"
                   className="group flex items-start gap-3 transition-colors hover:text-primary"
                 >
-                  <Phone className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                  <Phone aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                   <span className="tabular-nums">{PHONE_INTL}</span>
-                </a>
+                </CallLink>
               </li>
-              <li className="flex items-start gap-3">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+              <li>
+                {/* The office on the Google Business Profile (map, directions,
+                    reviews). A plain link: nothing loads from Google here. */}
                 <address className="not-italic">
-                  {STREET}
-                  <br />
-                  {`${POSTAL_CODE} ${LOCALITY}`}
-                  <span className="mx-1 text-muted-foreground/50">·</span>
-                  {t('footer.contactInfo.region')}
-                  <br />
-                  {t('footer.contactInfo.country')}
+                  <a
+                    href={GOOGLE_BUSINESS_PROFILE_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex items-start gap-3 transition-colors hover:text-primary"
+                  >
+                    <MapPin aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                    <span>
+                      {STREET}
+                      <br />
+                      {`${POSTAL_CODE} ${LOCALITY}`}
+                      <span aria-hidden className="mx-1 text-muted-foreground/50">
+                        ·
+                      </span>
+                      {t('footer.contactInfo.region')}
+                      <br />
+                      {t('footer.contactInfo.country')}
+                    </span>
+                  </a>
                 </address>
               </li>
               <li className="flex items-start gap-3">
-                <Clock className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                <Clock aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                 <span>
                   {t('footer.contactInfo.hours')}
                   <br />
@@ -260,6 +275,11 @@ export function Footer() {
         <div className="flex flex-col items-start justify-between gap-3 text-sm text-muted-foreground sm:flex-row sm:items-center">
           <div className="flex flex-col gap-1">
             <p suppressHydrationWarning>{t('footer.copyright', { year })}</p>
+            {/* Registered legal entity, so the office address can be matched
+                to the company registers. */}
+            <p data-testid="legal-entity" className="text-xs leading-relaxed">
+              {legalEntityLine}
+            </p>
             <p className="flex items-center gap-2">
               {t('footer.developedBy')}{' '}
               <a
@@ -268,11 +288,14 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 transition-opacity hover:opacity-80"
               >
+                {/* Decorative: the link is named by the text next to it. */}
                 <img
-                  src="/clients/horizon.webp"
-                  alt="Horizon Tech d.o.o."
-                  width={20}
+                  src="/clients/horizon-40.webp"
+                  alt=""
+                  width={30}
                   height={20}
+                  loading="lazy"
+                  decoding="async"
                   className="h-5 w-auto"
                 />
                 <span className="hover:text-primary transition-colors">Horizon Tech d.o.o.</span>

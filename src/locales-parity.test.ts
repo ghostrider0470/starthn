@@ -1,5 +1,5 @@
 // @vitest-environment node
-import { readdirSync, readFileSync, statSync } from 'node:fs'
+import { readFileSync, readdirSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
 
@@ -53,6 +53,40 @@ function placeholders(value: Leaf): string {
     .join(',')
 }
 
+/**
+ * i18next plural keys (`key_one`, `key_few`, `key_other`, …) legitimately
+ * differ per language, so they are compared by base key. A base is plural
+ * when the bundle has `<base>_other`.
+ */
+const PLURAL_SUFFIX = /^(.*)_(zero|one|two|few|many|other)$/
+
+function splitPlurals(flat: Record<string, Leaf>) {
+  const plain: Record<string, Leaf> = {}
+  const plural: Record<string, Record<string, Leaf>> = {}
+  for (const [key, value] of Object.entries(flat)) {
+    const match = PLURAL_SUFFIX.exec(key)
+    if (match && `${match[1]}_other` in flat) {
+      plural[match[1]] ??= {}
+      plural[match[1]][match[2]] = value
+    } else {
+      plain[key] = value
+    }
+  }
+  return { plain, plural }
+}
+
+/**
+ * Plural categories i18next can pick for this locale (Intl.PluralRules for
+ * counts 0-200, plus `other`), and the categories the locale has at all.
+ */
+function pluralCategories(locale: string) {
+  const rules = new Intl.PluralRules(locale)
+  const required = new Set<string>(['other'])
+  for (let n = 0; n <= 200; n++) required.add(rules.select(n))
+  const allowed = new Set<string>(rules.resolvedOptions().pluralCategories)
+  return { required, allowed }
+}
+
 /** Old address, old phone, old public email, retired claims. */
 const FORBIDDEN =
   /vilson|wilson|ويلسون|ウィルソン|윌슨|CRP Inkubator|share\.google|info@starthn\.ba|135[\s/-]?377/i
@@ -68,8 +102,34 @@ describe('locale parity with en-US', () => {
 
   describe.each(LOCALES.filter((l) => l !== SOURCE_LOCALE))('%s', (locale) => {
     it.each(NAMESPACES)('%s.json has the same keys, array lengths and placeholders', (ns) => {
-      const target = flatten(load(locale, ns))
-      const src = source[ns]
+      const targetSplit = splitPlurals(flatten(load(locale, ns)))
+      const sourceSplit = splitPlurals(source[ns])
+      const target = targetSplit.plain
+      const src = sourceSplit.plain
+
+      // Plural groups: same bases as en-US, the forms this locale needs, and
+      // the same placeholders in every form.
+      expect(Object.keys(targetSplit.plural).sort(), `plural keys in ${locale}/${ns}`).toEqual(
+        Object.keys(sourceSplit.plural).sort(),
+      )
+      const { required, allowed } = pluralCategories(locale)
+      for (const [base, forms] of Object.entries(targetSplit.plural)) {
+        const have = Object.keys(forms)
+        expect(
+          [...required].filter((c) => !have.includes(c)),
+          `${locale}/${ns}:${base} is missing plural forms`,
+        ).toEqual([])
+        expect(
+          have.filter((c) => !allowed.has(c)),
+          `${locale}/${ns}:${base} has plural forms this language does not use`,
+        ).toEqual([])
+        const expected = Object.hasOwn(sourceSplit.plural, base)
+          ? placeholders(sourceSplit.plural[base].other)
+          : ''
+        for (const [form, value] of Object.entries(forms)) {
+          expect(placeholders(value), `${locale}/${ns}:${base}_${form}`).toBe(expected)
+        }
+      }
 
       const missing = Object.keys(src).filter((k) => !(k in target))
       const extra = Object.keys(target).filter((k) => !(k in src))
@@ -110,13 +170,32 @@ describe('locale parity with en-US', () => {
       for (const k of idKeys) expect(target[k], k).toEqual(source.services[k])
     })
 
+    it('keeps locale-neutral values (links, stat numbers, images) identical to en-US', () => {
+      // These are data, not copy: a stale value here would send one locale
+      // to another page or show a retired stat.
+      const NEUTRAL: Record<string, RegExp> = {
+        landing: /^(hero\.slides\.\d+\.href|stats\.items\.[^.]+\.(value|suffix))$/,
+        pages: /^certificates\.gallery\.items\.\d+\.image$/,
+      }
+      for (const [ns, pattern] of Object.entries(NEUTRAL)) {
+        const target = flatten(load(locale, ns))
+        const keys = Object.keys(source[ns]).filter((k) => pattern.test(k))
+        expect(keys.length, `${ns} neutral keys`).toBeGreaterThan(0)
+        const drift = keys.filter((k) => target[k] !== source[ns][k])
+        expect(drift, `${locale}/${ns}`).toEqual([])
+      }
+    })
+
     it('writes the brand literally wherever en-US does', () => {
-      const offenders: string[] = []
+      const offenders: Array<string> = []
       for (const ns of NAMESPACES) {
         const target = flatten(load(locale, ns))
         for (const [k, v] of Object.entries(source[ns])) {
           if (typeof v !== 'string' || !v.includes('Start HN')) continue
-          const t = target[k]
+          // A plural form en-US has but this language lacks: check `_other`.
+          const pluralBase = PLURAL_SUFFIX.exec(k)?.[1]
+          const t =
+            !(k in target) && pluralBase ? target[`${pluralBase}_other`] : target[k]
           if (typeof t !== 'string' || !t.includes('Start HN')) offenders.push(`${ns}:${k}`)
         }
       }

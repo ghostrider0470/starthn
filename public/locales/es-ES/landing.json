@@ -7,26 +7,26 @@
         "overline": "Apoyo experto para un crecimiento sostenible",
         "title": "Contabilidad que entiende tu negocio",
         "subtitle": "Experiencia, precisión y soluciones alineadas con tus objetivos.",
-        "cta": "Aprende más sobre Start HN",
-        "href": "/about"
+        "cta": "Reserva una consulta gratuita",
+        "href": "/contact"
       },
       {
         "overline": "Precisión y transparencia en cada paso",
         "title": "Servicios adaptados a tu negocio",
         "subtitle": "Nosotros gestionamos tus libros, tú gestionas tu negocio — sin estrés ni incertidumbre.",
-        "cta": "Empecemos a colaborar",
+        "cta": "Reserva una consulta gratuita",
         "href": "/contact"
       },
       {
         "overline": "Contabilidad integral para micro, pequeñas y medianas empresas",
         "title": "Tus libros están en las manos adecuadas.",
         "subtitle": "Nuestro equipo garantiza la precisión y el cumplimiento de todas las normativas, liberando tiempo para que tu negocio crezca.",
-        "cta": "Nuestros servicios",
-        "href": "/services"
+        "cta": "Reserva una consulta gratuita",
+        "href": "/contact"
       }
     ],
     "cta": {
-      "primary": "Empecemos a colaborar",
+      "primary": "Reserva una consulta gratuita",
       "secondary": "Nuestros servicios"
     },
     "trustLine": "Confianza de empresas en toda Bosnia y Herzegovina"
@@ -84,10 +84,11 @@
         "description": "Experiencia combinada en contabilidad, consultoría fiscal y gestión financiera."
       },
       "hours": {
-        "value": 1000,
-        "suffix": "+",
-        "label": "Horas al año",
-        "description": "Dedicadas cada año al análisis, el asesoramiento y el apoyo a clientes, allí donde se nos necesita."
+        "value": 5,
+        "suffix": "★",
+        "label": "Valoración en Google",
+        "description_one": "Valoración media de {{count}} reseña de clientes en nuestro Perfil de Empresa de Google.",
+        "description_other": "Valoración media de {{count}} reseñas de clientes en nuestro Perfil de Empresa de Google."
       },
       "retention": {
         "value": 95,
@@ -110,8 +111,8 @@
         "description": "Servicios flexibles desde tu primera factura hasta un crecimiento estable, adaptados a empresas, autónomos y asociaciones."
       },
       "licensed": {
-        "title": "Profesionales con licencia y regulados",
-        "description": "Contables Certificados, una agencia registrada en el Ministerio de Finanzas — servicios que cumplen con la ley, sin compromisos."
+        "title": "Certificados y registrados",
+        "description": "Un contable certificado y una agencia inscrita en el registro del Ministerio Federal de Finanzas: pleno cumplimiento de la ley, sin concesiones."
       }
     }
   },

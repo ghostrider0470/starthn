@@ -51,8 +51,50 @@ export const SRR_REGISTER_URL = 'https://www.srr-fbih.org/clanovi-saveza-cr'
 // Google Business Profile.
 export const GOOGLE_BUSINESS_PROFILE_URL =
   'https://maps.google.com/?cid=6152645102359996777'
-export const GBP_WRITE_REVIEW_URL =
-  'https://search.google.com/local/writereview?placeid=ChIJefqxuz7JWEcRaek2Wx-WYlU'
+/** Google Maps place ID of the GBP listing (review and directions links). */
+export const GBP_PLACE_ID = 'ChIJefqxuz7JWEcRaek2Wx-WYlU'
+export const GBP_WRITE_REVIEW_URL = `https://search.google.com/local/writereview?placeid=${GBP_PLACE_ID}`
+/**
+ * Google Maps directions to the office (a plain link: nothing from Google
+ * loads on the site before the visitor clicks it).
+ */
+export const GBP_DIRECTIONS_URL = `https://www.google.com/maps/dir/?api=1&destination=Ibrahima+Ljubovi%C4%87a+47,+71210+Ilid%C5%BEa&destination_place_id=${GBP_PLACE_ID}`
+
+/**
+ * Google rating as shown on the GBP. Visible text only: never emit it as
+ * AggregateRating (self-serving third-party review markup is against Google's
+ * policy). Last checked 2026-09-25 — update both numbers by hand after a
+ * re-check of the profile.
+ */
+export const GOOGLE_RATING = 5.0
+export const GOOGLE_REVIEW_COUNT = 19
+export const GOOGLE_RATING_CHECKED_ON = '2026-09-25'
+
+/** Site locales that write a decimal comma ("5,0"). */
+const DECIMAL_COMMA_LANGUAGES = new Set([
+  'bs',
+  'hr',
+  'sr',
+  'de',
+  'es',
+  'fr',
+  'it',
+  'nl',
+  'pt',
+  'ru',
+  'tr',
+])
+
+/**
+ * "5,0" / "5.0": the rating with one decimal for the page's locale. Plain
+ * string formatting, not Intl: server (Workers) and browser must produce the
+ * same text for hydration, whatever locale data each runtime ships.
+ */
+export function formatRating(rating: number, locale: string): string {
+  const fixed = rating.toFixed(1)
+  const language = locale.split('-')[0].toLowerCase()
+  return DECIMAL_COMMA_LANGUAGES.has(language) ? fixed.replace('.', ',') : fixed
+}
 
 // Social profiles. Use the stable profile URLs, not /share/ tracking redirects.
 export const FACEBOOK_PROFILE_URL =

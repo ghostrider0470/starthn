@@ -8,7 +8,6 @@ import { HeroSection } from '@/components/landing/HeroSection'
 import { SectionScroller } from '@/components/landing/SectionScroller'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { getSectionLabels } from '@/lib/section-labels'
-import { buildWebSiteStructuredData, jsonLd } from '@/lib/seo'
 import { localizedPageHead } from '@/lib/seo-meta'
 
 const ServicesHexGrid = lazy(() =>
@@ -82,10 +81,9 @@ const STARTUP_GUIDE_PATH =
   '/blog/how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance'
 
 export const Route = createFileRoute('/{-$locale}/')({
-  head: ({ params }) => ({
-    ...localizedPageHead('home', params.locale),
-    scripts: [jsonLd(buildWebSiteStructuredData())],
-  }),
+  // The localized WebSite and business nodes come from the root head() on
+  // every page (localizedSiteStructuredData), so home adds none of its own.
+  head: ({ params }) => localizedPageHead('home', params.locale),
   component: LandingPage,
 })
 

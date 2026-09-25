@@ -10,7 +10,11 @@
     "learnMore": "En savoir plus",
     "ctaPrimary": "Démarrer une conversation",
     "ctaSecondary": "Voir tous les services",
-    "backToServices": "Retour aux services"
+    "backToServices": "Retour aux services",
+    "faqOverline": "FAQ",
+    "pricingOverline": "Tarifs",
+    "requestQuote": "Demander un devis",
+    "quoteNote": "Nous répondons sous un jour ouvré."
   },
   "index": {
     "overline": "Services Start HN",
@@ -102,7 +106,62 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "FAQ – Tenue de livres",
+        "items": [
+          {
+            "question": "Combien coûte la tenue de livres pour un entrepreneur individuel ou une SARL (d.o.o.) ?",
+            "answer": "Pour les entrepreneurs individuels (obrt) nouvellement créés, les prix commencent à 150 KM (environ 77 €) par mois, et pour les sociétés à responsabilité limitée (d.o.o.) nouvellement créées, à 300 KM (environ 153 €) par mois. Le prix final dépend de la taille de l’entreprise, du volume de documents, du nombre de salariés et de la complexité de l’activité, sans coûts cachés."
+          },
+          {
+            "question": "Comment vous transmettre nos documents ?",
+            "answer": "En personne à notre bureau d’Ilidža, par e-mail ou sous forme numérique – selon le mode de fonctionnement convenu au départ. Nous comptabilisons ensuite les opérations et vérifions les écritures avant les échéances."
+          },
+          {
+            "question": "Pouvons-nous passer chez vous depuis un autre comptable ?",
+            "answer": "Oui. Nous examinons votre immatriculation, les écritures existantes, les soldes d’ouverture, les données de paie et le calendrier des déclarations, convenons de la remise des documents et vous installons complètement en quelques jours. Pour les entreprises et entrepreneurs individuels qui changent d’agence, nous fixons le prix après une courte analyse de l’activité."
+          },
+          {
+            "question": "Quel logiciel comptable utilisez-vous ?",
+            "answer": "Nous travaillons principalement avec Pantheon et avons également l’expérience d’e-line, de Microsoft Dynamics NAV et d’InfoSoft. Si votre entreprise utilise déjà un logiciel et dispose d’un contrat actif avec son éditeur, nous pouvons travailler dans votre système."
+          },
+          {
+            "question": "Y a-t-il un engagement de longue durée ?",
+            "answer": "Non. Il n’y a aucun engagement de longue durée – nous nous efforçons de mériter votre confiance chaque mois."
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Combien coûte la tenue de livres",
+        "intro": "Le prix dépend de la taille et de la complexité de votre entreprise, sans coûts cachés. Prix de départ pour les entreprises nouvellement créées :",
+        "plans": [
+          {
+            "name": "Entrepreneur individuel (obrt)",
+            "price": "à partir de 150 KM",
+            "period": "par mois",
+            "note": "Environ 77 € · entrepreneurs individuels nouvellement créés"
+          },
+          {
+            "name": "SARL (d.o.o.)",
+            "price": "à partir de 300 KM",
+            "period": "par mois",
+            "note": "Environ 153 € · sociétés nouvellement créées"
+          }
+        ],
+        "driversTitle": "Ce qui détermine le prix",
+        "drivers": [
+          "Taille de l’entreprise",
+          "Volume de documents",
+          "Nombre de salariés",
+          "Complexité de l’activité"
+        ],
+        "note": "Pour les entreprises et entrepreneurs individuels existants qui quittent une autre agence comptable, nous fixons le prix au cas par cas après une courte analyse de l’activité et de ses besoins."
+      },
+      "payroll": {
+        "title": "Paie et cotisations",
+        "body": "Pour les entreprises qui emploient du personnel, nous calculons les salaires et les cotisations correspondantes et préparons les déclarations obligatoires dans le cadre de la tenue de livres mensuelle, avant les échéances. Lorsque nous reprenons votre comptabilité, nous vérifions vos données de paie pour que les calculs soient exacts dès le premier mois. Le nombre de salariés est l’un des facteurs qui influencent le prix."
+      }
     },
     "taxConsulting": {
       "label": "02",
@@ -172,7 +231,32 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "FAQ – Conseil fiscal",
+        "items": [
+          {
+            "question": "Quelles déclarations fiscales préparez-vous ?",
+            "answer": "Nous préparons et déposons les déclarations de TVA, d’impôt sur les bénéfices et d’impôt sur le revenu, ainsi que les autres déclarations obligatoires prévues par la réglementation de la BiH et de la FBiH."
+          },
+          {
+            "question": "Comment serons-nous informés des changements fiscaux ?",
+            "answer": "Par nous. Nous suivons l’évolution de la réglementation et vous prévenons dès qu’un changement concerne votre entreprise, pour que vous ne soyez jamais pris au dépourvu."
+          },
+          {
+            "question": "Conseillez-vous aussi les particuliers ?",
+            "answer": "Oui. Nous conseillons en matière fiscale les entreprises, les entrepreneurs individuels et les particuliers qui doivent déposer des déclarations."
+          },
+          {
+            "question": "Pourquoi le conseil fiscal est-il lié à la tenue de livres ?",
+            "answer": "Parce que les déclarations fiscales reposent sur vos écritures. Lorsque la comptabilité est exacte et à jour, les déclarations le sont aussi, et nos conseils s’appuient sur des chiffres réels."
+          },
+          {
+            "question": "Et si une déclaration antérieure contient une erreur ?",
+            "answer": "Nous examinons les déclarations antérieures et aidons à corriger les erreurs avant qu’elles n’entraînent des pénalités ou des rectifications tardives."
+          }
+        ]
+      }
     },
     "virtualCfo": {
       "label": "03",
@@ -240,7 +324,28 @@
         "financialReporting",
         "businessConsulting"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "FAQ – Directeur financier virtuel",
+        "items": [
+          {
+            "question": "Que comprend le service de directeur financier virtuel ?",
+            "answer": "Prévisions de trésorerie, élaboration du budget, analyse financière, rapports de gestion et conseil stratégique, avec participation aux réunions si nécessaire."
+          },
+          {
+            "question": "À qui s’adresse un directeur financier virtuel ?",
+            "answer": "Aux entreprises en croissance qui ont besoin d’un pilotage financier sans être prêtes à recruter un directeur financier à temps plein, et aux dirigeants qui préparent des décisions de financement ou d’investissement."
+          },
+          {
+            "question": "Comment se déroule la collaboration ?",
+            "answer": "Nous commençons par examiner vos rapports existants et par définir les questions auxquelles la direction a besoin de réponses. Nous établissons ensuite des budgets, des prévisions et des scénarios fondés sur des hypothèses réalistes, et expliquons régulièrement les résultats, les risques et les prochaines étapes."
+          },
+          {
+            "question": "Pourquoi est-ce utile que vous teniez aussi notre comptabilité ?",
+            "answer": "Parce que l’analyse repose alors sur des chiffres à jour issus de votre propre comptabilité, ce qui rend les prévisions et les rapports plus fiables."
+          }
+        ]
+      }
     },
     "businessConsulting": {
       "label": "04",
@@ -311,7 +416,28 @@
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance",
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "FAQ – Conseil en affaires",
+        "items": [
+          {
+            "question": "En quoi le conseil en affaires peut-il nous aider ?",
+            "answer": "Organisation de l’entreprise et circulation des documents, maîtrise des coûts, fixation des prix, recouvrement des créances et planification de la croissance – le tout à partir des chiffres de votre propre comptabilité."
+          },
+          {
+            "question": "Travaillez-vous avec de nouvelles entreprises et des start-up ?",
+            "answer": "Oui. Nous accompagnons les start-up et les nouvelles entreprises dès leur premier jour d’activité, et notre guide sur la création d’entreprise en Bosnie-Herzégovine explique comment choisir entre l’entreprise individuelle (obrt) et la SARL (d.o.o.)."
+          },
+          {
+            "question": "Comment se déroule une mission de conseil ?",
+            "answer": "Nous commençons par cartographier vos processus, documents et questions financières actuels. Nous choisissons ensuite les changements qui apportent le plus de valeur et définissons des étapes concrètes, des responsabilités et un suivi."
+          },
+          {
+            "question": "Vos recommandations tiennent-elles compte des obligations légales ?",
+            "answer": "Oui. Notre conseil est lié à la comptabilité et à la fiscalité : nos recommandations tiennent donc aussi compte de vos obligations légales en FBiH."
+          }
+        ]
+      }
     },
     "financialReporting": {
       "label": "05",
@@ -379,7 +505,28 @@
         "bookkeeping",
         "virtualCfo"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "FAQ – Rapports financiers",
+        "items": [
+          {
+            "question": "Quels rapports préparez-vous ?",
+            "answer": "Les comptes annuels et les états financiers obligatoires, des synthèses de gestion mensuelles ou trimestrielles, ainsi que des dossiers de reporting pour les banques et les partenaires."
+          },
+          {
+            "question": "Une société doit-elle établir des états financiers annuels ?",
+            "answer": "Oui. En FBiH, les sociétés sont légalement tenues d’établir des états financiers annuels, et nous les préparons à partir d’une comptabilité bien tenue."
+          },
+          {
+            "question": "Pouvez-vous préparer des rapports pour une banque ou des partenaires ?",
+            "answer": "Oui. Nous préparons des dossiers de reporting pour les banques, les partenaires et les investisseurs, à partir d’écritures comptables propres et de pièces justificatives."
+          },
+          {
+            "question": "Nous expliquerez-vous les chiffres ?",
+            "answer": "Oui. Nous expliquons les résultats, les obligations et les tendances en termes simples, à l’aide de ratios, de comparaisons et de commentaires qui aident à décider."
+          }
+        ]
+      }
     },
     "education": {
       "label": "06",
@@ -449,7 +596,28 @@
       ],
       "relatedPosts": [
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "FAQ – Formation",
+        "items": [
+          {
+            "question": "À qui s’adresse la formation ?",
+            "answer": "Aux dirigeants, managers et personnel administratif des entreprises et des entrepreneurs individuels, en particulier lorsqu’ils gèrent en interne une partie de leur administration ou de leur comptabilité."
+          },
+          {
+            "question": "Quels sujets abordez-vous ?",
+            "answer": "Les bases de la comptabilité, la préparation des documents, les échéances fiscales, les bases de la paie, l’utilisation des logiciels comptables et la lecture des états financiers."
+          },
+          {
+            "question": "Proposez-vous des consultations individuelles aux entrepreneurs individuels ?",
+            "answer": "Oui. Les entrepreneurs individuels qui tiennent eux-mêmes leur comptabilité peuvent bénéficier de consultations individuelles et d’explications pratiques sur leurs obligations légales et leurs registres."
+          },
+          {
+            "question": "La formation peut-elle être adaptée à notre équipe ?",
+            "answer": "Oui. Nous adaptons le contenu à la façon dont votre équipe travaille réellement, avec des exemples tirés de la pratique quotidienne, et lui laissons des listes de contrôle et des routines à appliquer."
+          }
+        ]
+      }
     }
   }
 }

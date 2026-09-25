@@ -260,6 +260,25 @@
     "accept": "Accept",
     "reject": "Decline",
     "settings": "Cookie settings",
-    "privacyLink": "Privacy policy"
+    "privacyLink": "Privacy policy",
+    "textCompact": "We load Google Analytics and Microsoft Clarity only with your consent."
+  },
+  "contactActions": {
+    "call": "Call",
+    "callNumber": "Call {{phone}}",
+    "callAria": "Call Start HN on {{phone}}",
+    "directions": "Get directions",
+    "openInMaps": "View on Google Maps",
+    "leaveReview": "Leave a review",
+    "hoursLabel": "Opening hours",
+    "addressLabel": "Address"
+  },
+  "trust": {
+    "ratingLine_one": "{{rating}} ★ on Google ({{count}} review)",
+    "ratingLine_other": "{{rating}} ★ on Google ({{count}} reviews)"
+  },
+  "legalEntity": {
+    "title": "Company details",
+    "line": "{{legalName}} · ID no. (JIB) {{jib}} · Reg. no. (MBS) {{mbs}} · Office: {{address}}"
   }
 }
