@@ -20,22 +20,10 @@ import {
 } from '@/components/company/CompanyPageLayout'
 import { cn } from '@/lib/utils'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
+import { localizedPageHead } from '@/lib/seo-meta'
 
 export const Route = createFileRoute('/{-$locale}/certificates')({
-  head: () => ({
-    meta: [
-      { title: 'Certificates & Recognition — Start HN' },
-      {
-        name: 'description',
-        content:
-          'Start HN holds professional accounting licences and certifications confirming our expertise, legal compliance, and commitment to clients.',
-      },
-      {
-        property: 'og:title',
-        content: 'Certificates & Recognition — Start HN',
-      },
-    ],
-  }),
+  head: ({ params }) => localizedPageHead('certificates', params.locale),
   component: CertificatesPage,
 })
 
@@ -64,27 +52,19 @@ function CertificatesPage() {
   const credentialHighlights = [
     {
       Icon: BadgeCheck,
-      label:
-        currentLocale === 'bs-BA'
-          ? 'Certificirani računovođe'
-          : 'Certified Accountants',
+      label: t('certificates.highlights.certifiedAccountants'),
     },
     {
       Icon: Scale,
-      label:
-        currentLocale === 'bs-BA' ? 'Zakonska usklađenost' : 'Legal Compliance',
+      label: t('certificates.highlights.legalCompliance'),
     },
     {
       Icon: BookOpen,
-      label:
-        currentLocale === 'bs-BA'
-          ? 'Kontinuirana edukacija'
-          : 'Continuous Education',
+      label: t('certificates.highlights.continuousEducation'),
     },
     {
       Icon: ShieldCheck,
-      label:
-        currentLocale === 'bs-BA' ? 'Etički standardi' : 'Ethical Standards',
+      label: t('certificates.highlights.ethicalStandards'),
     },
   ]
   const galleryItemsRaw = t('certificates.gallery.items', {
@@ -190,6 +170,19 @@ function CertificatesPage() {
               >
                 {t('certificates.intro.para2')}
               </p>
+              <div className="rounded-lg border border-border bg-card p-4 shadow-sm">
+                <p className="flex items-start gap-3 text-sm font-medium leading-6 text-foreground">
+                  <BadgeCheck
+                    className="mt-0.5 h-5 w-5 shrink-0 text-primary"
+                    aria-hidden="true"
+                  />
+                  <span>{t('certificates.licenceLine')}</span>
+                </p>
+                {/* The SRR FBiH licence number and its register link
+                    (SRR_LICENCE, SRR_REGISTER_URL, certificates.verifyLink)
+                    stay off until the owner confirms the licence is current:
+                    the register row lists 08.01.2026 and another firm. */}
+              </div>
             </div>
 
             <div className="lg:col-span-2">
@@ -270,9 +263,7 @@ function CertificatesPage() {
             <div className="border-b border-border pb-8 lg:border-b-0 lg:border-r lg:pb-0 lg:pr-8">
               <Award className="mb-4 h-10 w-10 text-primary" />
               <p className="text-xl font-semibold leading-snug tracking-tight text-primary md:text-2xl">
-                {currentLocale === 'bs-BA'
-                  ? '"Svaki certifikat je dokaz da naš rad prolazi kroz najstrože provjere."'
-                  : '"Every certificate is proof that our work passes the strictest professional checks."'}
+                {t('certificates.quote')}
               </p>
               <p
                 className={cn(
@@ -281,9 +272,7 @@ function CertificatesPage() {
                   'mt-4',
                 )}
               >
-                {currentLocale === 'bs-BA'
-                  ? 'Start HN računovodstvena agencija'
-                  : 'Start HN Accounting Agency'}
+                {t('certificates.quoteAuthor')}
               </p>
             </div>
             <div>

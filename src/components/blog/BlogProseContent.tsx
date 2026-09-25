@@ -1,5 +1,6 @@
 import { cn } from '@/lib/utils'
 import { designSystem } from '@/lib/design-system'
+import { img, imgSrcSet } from '@/lib/image'
 
 const proseStyles = cn(
   designSystem.typography.body.base,
@@ -51,8 +52,75 @@ function parseContentToHtml(content: any[]): string {
   return content.map(blockToHtml).join('')
 }
 
+const PROSE_IMAGE_WIDTHS = [400, 800, 1200] as const
+const PROSE_IMAGE_SIZES = '(max-width: 768px) 100vw, 768px'
+const FILENAME_ALT = /\.(png|jpe?g|webp|gif)$/i
+
+function attrPattern(name: string): RegExp {
+  // Leading whitespace keeps `src` from matching `data-src`/`srcset`.
+  return new RegExp(`\\s${name}\\s*=\\s*("([^"]*)"|'([^']*)'|([^\\s"'>]+))`, 'i')
+}
+
+function decodeAttr(value: string): string {
+  return value
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&amp;/g, '&')
+}
+
+function encodeAttr(value: string): string {
+  return value.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
+}
+
+/**
+ * Rewrite the <img> tags in editor HTML before it is injected:
+ * - lazy-load and async-decode every image unless the author set otherwise,
+ * - serve /img/ proxy images at 1200 px with a 400/800/1200 srcset instead of
+ *   the full-size original (unless the URL already asks for a width),
+ * - blank alts that are just upload filenames ("2.webp", "Screenshot….png"),
+ *   which screen readers would otherwise read out.
+ */
+export function optimizeProseImages(html: string): string {
+  if (!html || !/<img\b/i.test(html)) return html
+
+  // Quoted attribute values may contain '>' (e.g. an alt text).
+  const imgTag = /<img\b((?:[^>"']|"[^"]*"|'[^']*')*?)(\s*\/?)>/gi
+  return html.replace(imgTag, (_tag, rawAttrs: string, end: string) => {
+    let attrs = rawAttrs
+
+    const get = (name: string): string | undefined => {
+      const match = attrs.match(attrPattern(name))
+      if (!match) return undefined
+      // Exactly one of the double-quoted, single-quoted or bare groups matched.
+      return decodeAttr(match[2] || match[3] || match[4] || '')
+    }
+    const set = (name: string, value: string) => {
+      const attr = ` ${name}="${encodeAttr(value)}"`
+      const pattern = attrPattern(name)
+      attrs = pattern.test(attrs) ? attrs.replace(pattern, attr) : attrs + attr
+    }
+
+    if (get('loading') === undefined) set('loading', 'lazy')
+    if (get('decoding') === undefined) set('decoding', 'async')
+
+    const alt = get('alt')
+    if (alt !== undefined && FILENAME_ALT.test(alt.trim())) set('alt', '')
+
+    const src = get('src')
+    if (src?.startsWith('/img/') && !/[?&]w=/.test(src)) {
+      set('src', img(src, { width: 1200, format: 'auto' }))
+      if (get('srcset') === undefined) {
+        set('srcset', imgSrcSet(src, PROSE_IMAGE_WIDTHS))
+        if (get('sizes') === undefined) set('sizes', PROSE_IMAGE_SIZES)
+      }
+    }
+
+    return `<img${attrs}${end.trim() ? ' />' : '>'}`
+  })
+}
+
 export function BlogProseContent({ content, slug, className, dir = 'auto' }: BlogProseContentProps) {
-  const html = parseContentToHtml(content)
+  const html = optimizeProseImages(parseContentToHtml(content))
 
   return (
     <div

@@ -48,12 +48,23 @@ function AccordionTrigger({
 function AccordionContent({
   className,
   children,
+  keepMounted = false,
   ...props
-}: React.ComponentProps<typeof AccordionPrimitive.Content>) {
+}: React.ComponentProps<typeof AccordionPrimitive.Content> & {
+  /**
+   * Keep closed panels in the DOM (hidden with CSS) instead of unmounting
+   * them, so their text is in the server-rendered HTML for search engines.
+   */
+  keepMounted?: boolean
+}) {
   return (
     <AccordionPrimitive.Content
       data-slot="accordion-content"
-      className="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm"
+      className={cn(
+        'data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm',
+        keepMounted && 'data-[state=closed]:hidden',
+      )}
+      forceMount={keepMounted || undefined}
       {...props}
     >
       <div className={cn('pt-0 pb-4', className)}>{children}</div>

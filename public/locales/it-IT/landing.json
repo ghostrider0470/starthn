@@ -1,8 +1,10 @@
 {
   "hero": {
+    "h1": "Agenzia di contabilità per aziende e ditte individuali a Sarajevo",
+    "intro": "Start HN è un'agenzia di contabilità con sede a Ilidža (Cantone di Sarajevo). Ci occupiamo di tenuta della contabilità, buste paga, IVA e dichiarazioni fiscali per società a responsabilità limitata (d.o.o.), ditte individuali e associazioni.",
     "slides": [
       {
-        "overline": "Beneficiare di un supporto esperto per una crescita sostenibile",
+        "overline": "Supporto esperto per una crescita sostenibile",
         "title": "Contabilità che conosce il tuo business",
         "subtitle": "Esperienza, accuratezza e soluzioni che seguano i tuoi obiettivi.",
         "cta": "Scopri di più su Start HN",
@@ -27,7 +29,7 @@
       "primary": "Iniziamo a collaborare",
       "secondary": "I nostri servizi"
     },
-    "trustLine": "Fiducia delle aziende in tutta la Bosnia ed Erzegovina"
+    "trustLine": "Scelti dalle aziende in tutta la Bosnia ed Erzegovina"
   },
   "valueProps": {
     "trust": {
@@ -65,7 +67,7 @@
     "cta": "Tutti i servizi"
   },
   "stats": {
-    "overline": "I nostri record",
+    "overline": "I nostri risultati",
     "title": "La tua azienda merita una contabilità che pensi in anticipo, reagisca puntualmente e si schiera sempre con i suoi numeri.",
     "cta": "Iniziamo a collaborare",
     "items": {
@@ -108,19 +110,19 @@
         "description": "Servizi flessibili dal primo conto alla crescita stabile — pensati per aziende, imprenditori e associazioni."
       },
       "licensed": {
-        "title": "Sicurezza del personale autorizzato",
-        "description": "I Commercialisti Certificati, un'agenzia registrata presso il Ministero delle Finanze — servizi conformi alla legge, senza compromessi."
+        "title": "Professionisti abilitati e regolamentati",
+        "description": "Commercialisti certificati, agenzia registrata presso il Ministero delle Finanze — servizi conformi alla legge, senza compromessi."
       }
     }
   },
   "testimonials": {
-    "overline": "Altri su di noi",
-    "title": "Cosa dicono i nostri clienti",
+    "overline": "Cosa dicono i clienti",
+    "title": "Testimonianze",
     "items": [
       {
-        "quote": "Professionalità, affidabilità e il fatto che siano disponibili per consigli o chiarimenti sono ciò che distingue questa agenzia dalle altre. Tutte le scadenze sono rispettate, la documentazione è necessaria e la comunicazione è rapida e chiara. Apprezzo particolarmente che seguano i cambiamenti legali e mi informino puntualmente su tutto ciò che è importante per la mia attività. Lo consiglio vivamente a chiunque voglia tranquillità quando si tratta di contabilità.",
+        "quote": "Professionalità, affidabilità e il fatto che siano sempre disponibili per consigli o chiarimenti sono ciò che distingue questa agenzia dalle altre. Tutte le scadenze sono rispettate, la documentazione è in ordine e la comunicazione è rapida e chiara. Apprezzo particolarmente che seguano i cambiamenti normativi e mi informino per tempo su tutto ciò che è importante per la mia attività. La consiglio vivamente a chiunque voglia tranquillità quando si tratta di contabilità.",
         "author": "Tanja Srdanović",
-        "role": "Proprietario, Studio Legale Srdanović",
+        "role": "Titolare, Studio legale Srdanović",
         "image": "/testimonials/tanja.webp"
       },
       {
@@ -143,14 +145,14 @@
       },
       {
         "quote": "Se vuoi tutto in un unico posto: professionalità, responsabilità, gentilezza... Altamente consigliato.",
-        "author": "Elvis Škrijelj",
-        "role": "Proprietario e direttore, Utjeha d.o.o.",
+        "author": "Elvisa Škrijelj",
+        "role": "Titolare e direttrice, Utjeha d.o.o.",
         "image": "/testimonials/elvisa.webp"
       },
       {
         "quote": "Un team meraviglioso e professionale su cui puoi sempre contare!",
         "author": "Isa Zuhrić",
-        "role": "Consiglio Giovanile del Comune di Centar",
+        "role": "Vijeće mladih općine Centar",
         "image": "/testimonials/isa.webp"
       }
     ]
@@ -225,15 +227,16 @@
     },
     "servicePlaceholder": "Scegli un servizio",
     "serviceOptions": [
-      "Contabilità e contabilità",
+      "Tenuta contabile e contabilità",
       "Consulenza fiscale",
       "CFO virtuale",
+      "Consulenza aziendale",
       "Rendicontazione finanziaria",
-      "Istruzione",
+      "Formazione e corsi",
       "Altro"
     ],
     "submit": "Invia richiesta",
-    "success": "Grazie! Vi faremo sapere entro un giorno lavorativo."
+    "success": "Grazie! Ti risponderemo entro un giorno lavorativo."
   },
   "clients": {
     "title": "Alcuni dei nostri clienti fedeli",
@@ -241,7 +244,7 @@
     "openClient": "{{name}} — apri il sito web del cliente",
     "items": [
       {
-        "name": "Avvocato Tanja Srdanović",
+        "name": "Advokat Tanja Srdanović",
         "logo": "/clients/srdanovic.webp",
         "darkLogo": "/clients/srdanovic-dark.webp",
         "href": "https://www.advokatsrdanovic.com"
@@ -271,7 +274,7 @@
         "href": "https://edu.ba"
       },
       {
-        "name": "BH Construction",
+        "name": "BH Gradnja",
         "logo": "/clients/bhgradnja-t.webp",
         "darkLogo": "/clients/bhgradnja-dark.webp"
       },
@@ -285,7 +288,7 @@
         "darkLogo": "/clients/feniks-dark.webp"
       },
       {
-        "name": "Grafene",
+        "name": "Grafiden",
         "logo": "/clients/grafiden-t.webp",
         "darkLogo": "/clients/grafiden-dark.webp"
       },
@@ -299,17 +302,16 @@
         "logo": "/clients/coco.webp"
       },
       {
-        "name": "Consolazione",
+        "name": "Utjeha",
         "logo": "/clients/utjeha.png"
       },
       {
-        "name": "Consiglio Giovanile del Comune di Centar",
+        "name": "Vijeće mladih općine Centar",
         "href": "https://www.vijecemladih.ba/formiranje-vijeca-mladih-opcine-centar-novi-korak-za-aktivizam-mladih/"
       },
       {
-        "name": "Una mano di sostegno",
-        "logo": "/clients/rukapodrske.png",
-        "href": "https://share.google/AeeL2hMaIbyN2Xbic"
+        "name": "Ruka Podrške",
+        "logo": "/clients/rukapodrske.png"
       },
       {
         "name": "MJO",
@@ -318,7 +320,7 @@
         "href": "https://mjo.ba/"
       },
       {
-        "name": "ripensato",
+        "name": "rebrained",
         "logo": "/clients/rebrained.png",
         "darkLogo": "/clients/rebrained-dark.png",
         "href": "https://www.rebrained.de/"
@@ -328,11 +330,11 @@
   "services": {
     "subtitle": "I nostri servizi",
     "title": "Contabilità completa",
-    "description": "Ci sono 6 aree di servizio. Un team dedicato. Ogni aspetto delle tue operazioni finanziarie — dalla contabilità quotidiana alla strategia finanziaria a lungo termine.",
-    "commentMarker": "USLUGE",
+    "description": "Sei aree di servizio. Un team dedicato. Ogni aspetto delle tue operazioni finanziarie — dalla contabilità quotidiana alla strategia finanziaria a lungo termine.",
+    "commentMarker": "// SERVIZI",
     "items": {
       "bookkeeping": {
-        "title": "Contabilità e contabilità",
+        "title": "Tenuta contabile e contabilità",
         "description": "Tenuta accurata e tempestiva dei libri contabili aziendali, dei bilanci legali e dei conti in piena conformità con le normative locali."
       },
       "taxConsulting": {
@@ -364,176 +366,66 @@
     },
     "learnMore": "Scopri di più"
   },
-  "credibility": {
-    "subtitle": "Perché sceglierci",
-    "title": "Esperienza, non <gradient>promesse</gradient>",
-    "titlePlain": "Esperienza, non promesse",
-    "commentMarker": "OUR_TRACK_RECORD",
-    "description": "Con sede a Sarajevo, CRP Incubator. Commercialisti certificati che forniscono accuratezza, integrità e risultati per aziende di tutte le dimensioni.",
-    "stats": {
-      "experience": "Anni di esperienza totale",
-      "countries": "Commercialisti certificati",
-      "systems": "Clienti serviti",
-      "industries": "Settori trattati"
-    },
-    "proofCards": {
-      "atlascopco": {
-        "label": "Certificato e regolamentato",
-        "outcome": "Tutti i nostri commercialisti possiedono certificati professionali riconosciuti e lavorano sotto la supervisione di enti regolatori in Bosnia ed Erzegovina, garantendo la piena conformità legale."
-      },
-      "orange": {
-        "label": "Registri di conformità fiscale",
-        "outcome": "I nostri clienti hanno un record al 100% di presentazione tempestiva delle dichiarazioni dei redditi. Monitoriamo proattivamente i cambiamenti normativi affinché tu non suba mai sanzioni."
-      },
-      "telecom": {
-        "label": "Specialisti per PMI e start-up",
-        "outcome": "Ampia esperienza nel supporto alle PMI dall'inizio alla crescita — registrazioni, primi libri e esigenze di conformità in continua crescita."
-      },
-      "iot": {
-        "label": "Risultati dei CFO virtuali",
-        "outcome": "Le aziende che utilizzano il nostro servizio Virtual CFO migliorano costantemente la visibilità del flusso di cassa, riducono i costi inutili e raggiungono una pianificazione finanziaria più sicura."
-      },
-      "drone": {
-        "label": "Reportage accurato, ogni volta",
-        "outcome": "Manteniamo un rigoroso controllo di qualità su tutti i bilanci — accurati, completi e consegnati puntualmente in ogni periodo di rendicontazione."
-      },
-      "payment": {
-        "label": "Salari e diritto del lavoro",
-        "outcome": "Elaborazione completa delle buste paga in conformità con la legislazione del lavoro della BiH, inclusi stipendi, contributi e documentazione lavorativa — senza errori, puntualmente."
-      },
-      "game": {
-        "label": "Istruzione e empowerment",
-        "outcome": "I nostri programmi di formazione hanno formato decine di imprenditori e dipendenti nella finanza, migliorando l'alfabetizzazione finanziaria interna e riducendo errori contabili costosi."
-      },
-      "social": {
-        "label": "Partner in affari dello Sri Lanka",
-        "outcome": "Con sede nel CRP Incubator, siamo una parte attiva dell'ecosistema imprenditoriale di Sarajevo — supportando i fondatori locali fin dal primo giorno."
-      },
-      "iga": {
-        "label": "Contabilità per Gruppi di Imprese",
-        "outcome": "Gestiamo strutture complesse multi-entità e consolidazioni di gruppi per aziende più grandi, fornendo un quadro unificato delle performance finanziarie dell'intero gruppo."
-      }
-    },
-    "differentiators": {
-      "euAdjacent": {
-        "title": "Competenza locale, consapevolezza dell'UE",
-        "description": "Conoscenza approfondita del diritto fiscale e contabile della BiH, seguendo le tendenze normative UE che riguardano le imprese locali."
-      },
-      "yourEngineers": {
-        "title": "È il tuo commercialista, non il call center.",
-        "description": "Un team dedicato che conosce il tuo business dall'esterno. Contatto diretto con il commercialista che tiene i tuoi libri contabili — niente intermediari."
-      },
-      "hardwareToCloud": {
-        "title": "Da startup a impresa in crescita",
-        "description": "Dalla registrazione della prima società e l'apertura dei conti alla gestione finanziaria di un gruppo di aziende in crescita. Cresciamo insieme a te."
-      }
-    }
-  },
-  "partners": {
-    "subtitle": "Standard e strumenti",
-    "title": "<gradient>Standard professionali</gradient>",
-    "titlePlain": "Standard professionali",
-    "commentMarker": "STANDARDS_AND_TOOLS",
-    "description": "Lavoriamo secondo i più alti standard professionali, utilizziamo programmi contabili affidabili e rispettiamo le normative e gli enti che regolano la nostra attività.",
-    "categories": {
-      "cloudInfra": {
-        "label": "Conformità normativa",
-        "description": "Piena conformità alla legislazione fiscale della BiH, agli standard contabili FBiH e alle relative direttive UE."
-      },
-      "frontend": {
-        "label": "Software di contabilità",
-        "description": "Programmi standard di contabilità, gestione paghe e rendicontazione finanziaria."
-      },
-      "backend": {
-        "label": "Tasse e stipendi",
-        "description": "Strumenti specialistici per calcoli fiscali accurati, elaborazione delle buste paga e presentazione legale."
-      },
-      "data": {
-        "label": "Rendicontazione finanziaria",
-        "description": "Strumenti per la preparazione di bilanci e rapporti di gestione armonizzati."
-      },
-      "devops": {
-        "label": "Collaborazione con i clienti",
-        "description": "Piattaforme sicure per lo scambio di documenti e la comunicazione per un servizio clienti senza interruzioni."
-      }
-    },
-    "scanning": "CONTROLLO DI CONFORMITÀ...",
-    "summary": {
-      "cloudNative": {
-        "title": "Sempre sincronizzati",
-        "description": "Monitoriamo continuamente i cambiamenti normativi per mantenere la tua azienda conforme senza dover tenere traccia di ogni nuova regola da solo."
-      },
-      "fullStack": {
-        "title": "Un servizio finanziario completo",
-        "description": "Dall'apertura del libro alla pianificazione finanziaria strategica — un solo team che copre tutti gli aspetti delle tue operazioni finanziarie."
-      },
-      "productionProven": {
-        "title": "Risultati comprovati",
-        "description": "I risultati giusti per le vere aziende. I nostri clienti si fidano di noi con i dati finanziari più sensibili perché abbiamo guadagnato quella fiducia."
-      }
-    },
-    "logoRows": {
-      "row1Aria": "Loghi del Software di Contabilità, Riga 1",
-      "row2Aria": "Loghi di Certificazione Professionale, Riga 2",
-      "row3Aria": "Loghi degli enti regolatori, riga 3"
-    }
-  },
   "chat": {
     "badge": "Assistente AI",
     "title": "Chiedici qualsiasi cosa.",
     "description": "Parla con il nostro assistente AI dei nostri servizi, dei prezzi e di come lavoriamo. Niente moduli, niente attese.",
-    "panelTitle": "Intervista con Start HN",
+    "panelTitle": "Chatta con Start HN",
     "greeting": "Ciao! Come possiamo aiutarla oggi?",
     "inputPlaceholder": "Digita un messaggio...",
-    "startOver": "Ricominciare da capo",
-    "openChat": "Conversazione aperta",
-    "closeChat": "Conversazione ravvicinata",
+    "startOver": "Ricomincia",
+    "openChat": "Apri chat",
+    "closeChat": "Chiudi chat",
     "prompts": [
-      "Come posso iniziare a collaborare?",
+      "Come posso iniziare?",
       "Quanto costa la contabilità mensile?",
       "In cosa consiste un CFO virtuale?",
-      "Lavori con startup e artigiani?"
+      "Lavorate con startup e ditte individuali?"
     ]
   },
   "faq": {
     "subtitle": "Domande Frequenti",
     "title": "<gradient>Domande Frequenti</gradient>",
     "titlePlain": "Domande Frequenti",
-    "commentMarker": "KNOWLEDGE_BASE",
+    "commentMarker": "// KNOWLEDGE_BASE",
     "description": "Tutto ciò che devi sapere per lavorare con Start HN",
     "items": {
       "scope": {
-        "question": "Come posso iniziare a lavorare con te?",
-        "answer": "Iniziare con la collaborazione è facile. Contattaci per una consulenza introduttiva gratuita — conosceremo la tua attività, le attuali configurazioni contabili e le tue esigenze. Successivamente, proporremo un pacchetto di servizi adeguato, organizzeremo la presa in carico della documentazione esistente e vi presenteremo completamente al sistema entro pochi giorni. Nessun legame a lungo termine — lavoriamo ogni mese per guadagnarci la tua fiducia."
+        "question": "Come posso iniziare a lavorare con voi?",
+        "answer": "Iniziare è semplice. Contattaci per una consulenza introduttiva gratuita: conosceremo la tua attività, l'attuale organizzazione contabile e le tue esigenze. Poi ti proporremo il pacchetto di servizi adatto, concorderemo il passaggio della documentazione esistente e completeremo l'avvio della collaborazione in pochi giorni. Nessun vincolo a lungo termine: ogni mese lavoriamo per guadagnarci la tua fiducia."
       },
       "stack": {
         "question": "Che tipo di clienti servite?",
-        "answer": "Lavoriamo con aziende di tutte le dimensioni — dalle start-up e startup alle PMI consolidate, con ditte individuali – artigiani e associazioni."
+        "answer": "Lavoriamo con aziende di tutte le dimensioni — dalle imprese appena costituite e dalle startup alle PMI consolidate — oltre che con ditte individuali, artigiani e associazioni."
       },
       "enterprise": {
-        "question": "Gestisci la dichiarazione dei redditi e la conformità?",
+        "question": "Vi occupate delle dichiarazioni fiscali e degli adempimenti?",
         "answer": "Sì, completamente. Gestiamo tutti gli aspetti dei vostri obblighi fiscali: preparazione e presentazione delle dichiarazioni IVA, imposta sulle società, imposta sul reddito e tutte le altre dichiarazioni legali secondo i regolamenti della BiH e della Federazione. Monitoriamo proattivamente i cambiamenti normativi e ti consigliamo non appena la modifica riguarda la tua azienda — così da non essere mai colto di sorpresa."
       },
       "support": {
-        "question": "Puoi essere il nostro CFO virtuale?",
+        "question": "Potete essere il nostro CFO virtuale?",
         "answer": "Assolutamente. Il nostro servizio virtuale CFO ti offre accesso a competenze finanziarie superiori senza il costo di un impiego a tempo pieno. Forniamo previsioni di flusso di cassa, pianificazione del budget, analisi finanziaria, rapporti di gestione e consulenza strategica — con la partecipazione alle riunioni secondo necessità. Ideale per aziende in crescita che hanno bisogno di leadership finanziaria e non sono ancora pronte per un CFO a tempo pieno."
       },
       "integration": {
-        "question": "Quali programmi di contabilità usi?",
+        "question": "Quali programmi di contabilità utilizzate?",
         "answer": "Utilizziamo principalmente **Pantheon** nell'agenzia, ma ci adattiamo anche ai sistemi esistenti dei nostri clienti. Abbiamo esperienza nel lavoro in diversi software contabili, tra cui **e-line**, **Microsoft Dynamics NAV**, **InfoSoft**, ecc. Se stai già utilizzando un programma specifico e hai un contratto attivo con il fornitore di servizi, possiamo organizzare il lavoro anche nel tuo sistema esistente."
       },
       "industries": {
-        "question": "Quali sono i prezzi dei vostri servizi?",
-        "answer": "Il prezzo dei servizi contabili si determina in base alla dimensione dell'entità aziendale, al volume della documentazione, al numero di dipendenti e alla complessità dell'azienda. Per le aziende appena costituite, il prezzo di partenza del servizio è di 300,00 KM al mese, mentre per i nuovi artigiani il prezzo di partenza è di 150,00 KM al mese. Con la crescita dell'attività e l'aumento del volume di lavoro, l'ambito del nostro supporto viene modificato e quindi il prezzo del servizio. Per le aziende e i mestieri esistenti che modificano l'agenzia contabile, il prezzo viene stabilito individualmente dopo una breve analisi dell'attività e delle esigenze del cliente. Il nostro obiettivo è rendere il prezzo chiaro, equo e allineato alle reali esigenze dell'azienda, senza costi nascosti e calcoli poco chiari."
+        "question": "Come vengono definiti i prezzi dei vostri servizi?",
+        "answer": "Il prezzo dei servizi contabili dipende dalla dimensione dell'attività, dal volume della documentazione, dal numero di dipendenti e dalla complessità dell'attività. Per le società di nuova costituzione (d.o.o.) il prezzo parte da 300,00 KM al mese, mentre per le ditte individuali di nuova costituzione (obrt) parte da 150,00 KM al mese. Con la crescita dell'attività e l'aumento del volume di lavoro, l'ambito del nostro supporto viene adeguato, e con esso anche il prezzo. Per le aziende e le ditte individuali già esistenti che cambiano agenzia contabile, il prezzo viene stabilito individualmente dopo una breve analisi dell'attività e delle esigenze del cliente. Il nostro obiettivo è un prezzo chiaro, equo e adeguato alle reali esigenze dell'attività, senza costi nascosti né voci poco chiare."
       },
       "engagement": {
-        "question": "Offri formazione o formazione sulla contabilità interna?",
-        "answer": "Sì. In base alle esigenze del cliente, forniamo supporto professionale individuale e formazione pratica per aziende e mestieri che gestiscono internamente parte dei processi amministrativi o contabili, con contabilità esterna. Questo può includere supporto nell'organizzazione della documentazione interna, formazione dei dipendenti sull'uso di software contabili, comprensione dei processi contabili di base, oltre ad aiutare la direzione a comprendere i bilanci e gli indicatori aziendali. Inoltre, possiamo fornire agli imprenditori che tengono indipendentemente i registri aziendali per l'artigianato consulenze individuali e chiarimenti pratici riguardo agli obblighi e ai registri legali."
+        "question": "Offrite formazione per chi gestisce la contabilità internamente?",
+        "answer": "Sì. In base alle esigenze del cliente, offriamo supporto professionale individuale e formazione pratica alle aziende e alle ditte individuali che gestiscono internamente una parte dei processi amministrativi o contabili, accanto alla contabilità esterna. Questo può includere il supporto nell'organizzazione della documentazione interna, la formazione dei dipendenti all'uso dei programmi di contabilità, la comprensione dei processi contabili di base e l'aiuto alla direzione nella lettura dei bilanci e degli indicatori aziendali. Agli imprenditori che tengono autonomamente i libri della propria ditta individuale possiamo inoltre offrire consulenze individuali e spiegazioni pratiche sugli obblighi di legge e sui registri."
       }
     },
     "stillHaveQuestions": "Hai ancora domande?",
     "ctaDescription": "Sei pronto a mettere in ordine le tue finanze? Parliamo di cosa ti serve.",
-    "readCaseStudies": "Vediamo come ti stiamo aiutando",
+    "readCaseStudies": "Scopri come aiutiamo",
     "scheduleCall": "Prenota una consulenza"
+  },
+  "guide": {
+    "linkText": "Guida: avviare un'attività in BiH (ditta individuale o d.o.o.)",
+    "description": "Una guida pratica con consigli basati sulla nostra esperienza e la registrazione della nostra partecipazione come ospiti su N1."
   }
 }

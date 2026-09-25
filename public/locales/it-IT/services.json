@@ -14,8 +14,8 @@
   },
   "index": {
     "overline": "Servizi Start HN",
-    "title": "Supporto contabile per ogni fase dell'azienda.",
-    "description": "Sei aree di servizio chiare coprono la contabilità, gli obblighi fiscali, la rendicontazione, la consulenza e la formazione che danno alla tua azienda un miglior controllo.",
+    "title": "Servizi contabili per aziende, ditte individuali e associazioni",
+    "description": "Servizi contabili di Start HN: tenuta della contabilità, consulenza fiscale, CFO virtuale, rendicontazione finanziaria, consulenza aziendale e formazione per aziende, ditte individuali e associazioni a Sarajevo e Ilidža.",
     "introOverline": "Servizi",
     "introTitle": "Una squadra, un quadro finanziario chiaro",
     "introBody": "Start HN collega la contabilità pratica, il monitoraggio fiscale, la rendicontazione finanziaria e il supporto alla consulenza, così che proprietari e dirigenti possano prendere decisioni basate su dati affidabili, non su documentazione di massa.",
@@ -25,19 +25,30 @@
       "button": "Prenota una consulenza"
     }
   },
+  "related": {
+    "title": "Servizi correlati",
+    "postsTitle": "Articoli correlati",
+    "postLabels": {
+      "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance": "Guida: avviare un'attività in BiH (ditta individuale o d.o.o.)",
+      "importance-of-entrepreneurship-programs": "Programmi di sostegno all'imprenditorialità nel Cantone di Sarajevo"
+    }
+  },
   "items": {
     "bookkeeping": {
       "label": "01",
       "title": "Tenuta contabile e contabilità",
-      "shortDescription": "Contabilità completa, registri contabili, busti paga, registri IVA e rapporti finali per artigiani e aziende.",
-      "heroDescription": "I libri affidabili sono la base operativa di qualsiasi attività. Manteniamo i tuoi documenti accurati, aggiornati e pronti per scadenze fiscali, banche e decisioni manageriali.",
-      "overviewTitle": "Record giornalieri senza carico giornaliero",
+      "heroTitle": "Tenuta della contabilità per aziende e ditte individuali a Sarajevo",
+      "shortDescription": "Contabilità completa, registri contabili, calcolo delle buste paga, registri IVA e bilanci di fine anno per ditte individuali e aziende.",
+      "heroDescription": "Servizi di contabilità per società a responsabilità limitata (d.o.o.), ditte individuali e associazioni a Sarajevo e Ilidža: registrazione di fatture e spese, calcolo di stipendi e contributi, IVA e bilancio annuale – con precisione e prima delle scadenze.",
+      "overviewTitle": "Registrazioni quotidiane senza fatica quotidiana",
       "overview": "Organizziamo l'intero ciclo contabile: ricezione della documentazione, registrazione di fatture e spese, calcolo di stipendi e contributi, registrazioni IVA, domande legali e chiusura annuale. L'obiettivo è semplice: registri ordinati, responsabilità chiare e nessuna sorpresa prima delle scadenze.",
-      "bestForTitle": "Il meglio per",
+      "localContextTitle": "Contabilità per aziende e ditte individuali a Sarajevo e Ilidža",
+      "localContext": "Start HN è un'agenzia di contabilità con sede in Ibrahima Ljubovića 47, 71210 Ilidža, che lavora con aziende, ditte individuali e associazioni di Ilidža, Sarajevo e del Cantone di Sarajevo. Teniamo i libri contabili in conformità con le normative della Federazione di BiH: registrazione delle fatture attive e passive e delle spese, calcolo di stipendi e contributi, registri e dichiarazioni IVA e bilancio annuale. Puoi consegnare i documenti di persona, via e-mail o in formato digitale. Lavoriamo principalmente con Pantheon, ma possiamo operare anche nel sistema che la tua azienda già utilizza.",
+      "bestForTitle": "Ideale per",
       "bestFor": [
         "Piccole e medie imprese che necessitano di supporto contabile regolare.",
         "Attività artigianali e autonome che desiderano registrazioni legali adeguate",
-        "Squadre che si trasferiscono da un altro contabile",
+        "Aziende che cambiano commercialista",
         "I proprietari che vogliono numeri mensili chiari, non solo rapporti annuali"
       ],
       "detailsTitle": "Ambito della contabilità",
@@ -58,7 +69,7 @@
       "processTitle": "Ritmo mensile prevedibile",
       "process": [
         {
-          "title": "Collezione",
+          "title": "Raccolta",
           "description": "Invii la documentazione digitalmente o fisicamente secondo il flusso di lavoro concordato."
         },
         {
@@ -66,7 +77,7 @@
           "description": "Registriamo le transazioni, calcoliamo le passività e controlliamo i registri prima delle scadenze."
         },
         {
-          "title": "Reportage",
+          "title": "Report",
           "description": "Ricevi riassunti chiari e i prossimi passi, e le domande vengono affrontate prima che diventino un rischio."
         }
       ],
@@ -76,23 +87,34 @@
         "Registri di IVA e fiscali",
         "Stipendi e calcoli dei contributi",
         "Bilanci Annuali",
-        "Conferme della presentazione delle domande",
+        "Conferme di presentazione",
         "Consulenza contabile regolare"
       ],
+      "interiorAlt": "Commercialista al computer con una checklist delle attività mensili completate: dichiarazione IVA, buste paga e registrazioni contabili",
       "cta": {
-        "title": "Pronto a modificare i tuoi libri?",
+        "title": "Pronto a mettere in ordine la tua contabilità?",
         "description": "Esamineremo i tuoi dati attuali e definiremo un flusso contabile mensile che corrisponde al modo in cui la tua azienda effettivamente opera.",
         "button": "Richiedi assistenza contabile"
-      }
+      },
+      "related": [
+        "taxConsulting",
+        "financialReporting"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
+      ]
     },
     "taxConsulting": {
       "label": "02",
       "title": "Consulenza fiscale",
-      "shortDescription": "Monitoraggio fiscale, pianificazione, supporto alle domande, monitoraggio delle scadenze e indicazioni pratiche per individui e entità giuridiche.",
+      "heroTitle": "Consulenza fiscale e IVA per aziende e ditte individuali a Sarajevo",
+      "shortDescription": "Monitoraggio fiscale, pianificazione, supporto alle dichiarazioni, controllo delle scadenze e indicazioni pratiche per persone fisiche e aziende.",
       "heroDescription": "Gli obblighi fiscali cambiano rapidamente e gli errori sono costosi. Ti aiutiamo a capire cosa è applicabile, cosa è dovuto e come pianificare entro le normative.",
       "overviewTitle": "Consulenza fiscale prima che sorga un problema",
       "overview": "Il nostro supporto fiscale collega conformità e pianificazione: monitoriamo le scadenze, rivediamo gli obblighi, spieghiamo i cambiamenti normativi, prepariamo dichiarazioni e consigliamo prima che le decisioni generino costi o rischi inutili.",
-      "bestForTitle": "Il meglio per",
+      "localContextTitle": "Obblighi fiscali per aziende e ditte individuali nella Federazione di BiH",
+      "localContext": "Le aziende e le ditte individuali con sede a Sarajevo e nel resto della Federazione di BiH hanno obblighi fiscali previsti dalle normative della BiH e della Federazione di BiH. Dal nostro ufficio di Ilidža prepariamo e presentiamo le dichiarazioni IVA, le dichiarazioni dei redditi delle società e delle persone fisiche e gli altri adempimenti previsti dalla legge, seguiamo le modifiche normative e ti avvisiamo per tempo quando una modifica riguarda la tua attività. La consulenza fiscale funziona meglio se è collegata a una contabilità accurata, perché così le dichiarazioni si basano su registri affidabili.",
+      "bestForTitle": "Ideale per",
       "bestFor": [
         "Aziende che necessitano di un monitoraggio fiscale regolare",
         "Proprietari che prendono decisioni su investimenti, occupazione o prezzi",
@@ -102,8 +124,8 @@
       "detailsTitle": "Ambito della consulenza fiscale",
       "details": [
         {
-          "title": "Panoramica dei Da Fare",
-          "description": "Esaminiamo registrazioni attive, registrazioni anticipate, esposizione alla IVA e al salario, e scadenze imminenti."
+          "title": "Verifica degli obblighi",
+          "description": "Esaminiamo le registrazioni attive, le dichiarazioni precedenti, l'esposizione a IVA e buste paga e le scadenze imminenti."
         },
         {
           "title": "Supporto alla conformità e alla reportistica",
@@ -114,48 +136,59 @@
           "description": "Spieghiamo le implicazioni fiscali delle decisioni aziendali, delle detrazioni, dei cambiamenti organizzativi, delle assunzioni, dei pagamenti e di altre questioni finanziarie comuni."
         }
       ],
-      "processTitle": "Sostegno fiscale che va avanti",
+      "processTitle": "Supporto fiscale sempre un passo avanti",
       "process": [
         {
           "title": "Valutazione",
           "description": "Mappiamo la posizione fiscale attuale e individuiamo passività aperte o punti di rischio."
         },
         {
-          "title": "Piano",
+          "title": "Pianificazione",
           "description": "Definiamo scadenze, responsabilità e opzioni legali per la pianificazione fiscale."
         },
         {
-          "title": "Manutenzione",
+          "title": "Mantenimento",
           "description": "Allineiamo report e consulenze alle attività aziendali e ai cambiamenti normativi."
         }
       ],
       "deliverablesTitle": "Risultati tipici",
       "deliverables": [
-        "Calendario delle obbligazioni fiscali",
+        "Calendario degli obblighi fiscali",
         "Linee guida per l'IVA e l'imposta sul reddito/profitto",
         "Linee guida per i contributi salariali",
-        "Revisione e correzioni delle domande",
+        "Revisione e correzione delle dichiarazioni",
         "Note sulla pianificazione fiscale",
         "Supporto alle scadenze e alla conformità"
       ],
+      "interiorAlt": "Consulente fiscale che illustra a un cliente una panoramica degli obblighi fiscali su uno schermo",
       "cta": {
         "title": "Hai bisogno di chiarezza sui tuoi obblighi fiscali?",
         "description": "Inviaci la tua situazione attuale e ti aiuteremo a capire cosa è dovuto, cosa può essere migliorato e quale sarà il passo successivo.",
         "button": "Parliamo di supporto fiscale"
-      }
+      },
+      "related": [
+        "bookkeeping",
+        "businessConsulting"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
+      ]
     },
     "virtualCfo": {
       "label": "03",
       "title": "CFO virtuale",
+      "heroTitle": "CFO virtuale per piccole e medie imprese a Sarajevo",
       "shortDescription": "Insight finanziario senior senza un CFO permanente: flusso di cassa, budget, KPI e supporto decisionale.",
       "heroDescription": "Un CFO virtuale offre a proprietari e dirigenti una visione più chiara della salute finanziaria, del flusso di cassa, della redditività e delle scelte strategiche.",
       "overviewTitle": "Gestione finanziaria su base flessibile.",
       "overview": "Traduciamo i dati contabili in intuizioni manageriali pratiche: budget, previsioni, pianificazione dei flussi di cassa, analisi della redditività e indicatori finanziari che mostrano dove l'azienda è forte e dove serve attenzione.",
-      "bestForTitle": "Il meglio per",
+      "localContextTitle": "Guida finanziaria senza un direttore finanziario a tempo pieno",
+      "localContext": "Molte piccole e medie imprese di Sarajevo e del Cantone di Sarajevo non hanno bisogno di un direttore finanziario a tempo pieno, ma hanno bisogno di numeri affidabili per le proprie decisioni. Come CFO virtuale, Start HN prepara previsioni di cassa, pianifica i budget, svolge analisi finanziarie e prepara report per la direzione, e partecipa alle riunioni quando necessario. Se teniamo anche la tua contabilità, le analisi si basano su dati aggiornati provenienti dai registri della tua attività. Il servizio è particolarmente utile per i titolari che preparano decisioni di finanziamento o di investimento.",
+      "bestForTitle": "Ideale per",
       "bestFor": [
         "Aziende in crescita che hanno bisogno di più della semplice contabilità.",
         "Proprietari che stanno preparando finanziamenti o decisioni di investimento",
-        "Squadre senza un CFO interno",
+        "Team senza un direttore finanziario interno",
         "Manager che vogliono trasformare i numeri mensili in azione"
       ],
       "detailsTitle": "Il ruolo di un CFO virtuale",
@@ -173,7 +206,7 @@
           "description": "Definiamo KPI e formati di report che collegano i dati finanziari alle decisioni su crescita, costi, prezzi e operazioni."
         }
       ],
-      "processTitle": "Dai record alle decisioni",
+      "processTitle": "Dai registri alle decisioni",
       "process": [
         {
           "title": "Diagnosi",
@@ -197,20 +230,29 @@
         "Analisi della redditività",
         "Riunioni consultive"
       ],
+      "interiorAlt": "Previsione di cassa stampata con un grafico e una tabella su una scrivania",
       "cta": {
         "title": "Hai bisogno di chiarezza a livello di CFO?",
         "description": "Possiamo trasformare i tuoi dati contabili in una panoramica manageriale che supporta crescita, finanziamenti e decisioni migliori.",
-        "button": "Parliamo del Virtual CFO"
-      }
+        "button": "Parliamo del CFO virtuale"
+      },
+      "related": [
+        "financialReporting",
+        "businessConsulting"
+      ],
+      "relatedPosts": []
     },
     "businessConsulting": {
       "label": "04",
       "title": "Consulenza aziendale",
+      "heroTitle": "Consulenza aziendale per aziende e ditte individuali a Sarajevo",
       "shortDescription": "Consigli pratici per l'organizzazione, la crescita, i processi interni, i costi, i prezzi e le decisioni operative.",
-      "heroDescription": "Un buon conto contabile mostra cosa è successo. Una buona consulenza ti aiuta a decidere cosa fare dopo.",
+      "heroDescription": "Una buona contabilità mostra cosa è successo. Una buona consulenza ti aiuta a decidere cosa deve succedere dopo.",
       "overviewTitle": "Linee guida pratiche basate sui numeri",
-      "overview": "Supportiamo proprietari e manager nelle decisioni finanziarie e operative: organizzazione aziendale, miglioramento dei processi, controllo dei costi, prezzi, disciplina della fatturazione, documentazione interna e pianificazione della crescita.",
-      "bestForTitle": "Il meglio per",
+      "overview": "Supportiamo titolari e manager nelle decisioni finanziarie e operative: avvio dell'attività, miglioramento dei processi, controllo dei costi, prezzi, disciplina di cassa, documentazione interna e pianificazione della crescita.",
+      "localContextTitle": "Consulenza aziendale per imprenditori a Sarajevo",
+      "localContext": "Aiutiamo imprenditori, ditte individuali e aziende di Sarajevo e Ilidža a prendere decisioni aziendali basate sui numeri dei propri libri contabili. Offriamo consulenza sull'organizzazione dell'attività e sul flusso dei documenti, sul controllo dei costi, sui prezzi, sulla riscossione dei crediti e sulla pianificazione della crescita. Le startup e le nuove imprese ricevono il nostro supporto fin dal primo giorno di attività, e nella nostra guida all'avvio di un'attività in BiH abbiamo spiegato come scegliere tra ditta individuale (obrt) e società a responsabilità limitata (d.o.o.). La nostra consulenza è collegata alla contabilità e al fisco, quindi le raccomandazioni tengono conto anche dei tuoi obblighi di legge nella Federazione di BiH.",
+      "bestForTitle": "Ideale per",
       "bestFor": [
         "Nuove imprese che istituiscono processi finanziari",
         "Aziende che migliorano i controlli interni e il flusso della documentazione",
@@ -232,7 +274,7 @@
           "description": "Individuiamo dove documentazione, approvazioni, reportistica o fatturazione possono essere semplificate e rese più affidabili."
         }
       ],
-      "processTitle": "Consulenza senza teoria del vuoto",
+      "processTitle": "Consulenza concreta, senza teorie vaghe",
       "process": [
         {
           "title": "Mappatura",
@@ -256,27 +298,39 @@
         "Impostazione del flusso di documentazione",
         "Incontri consultivi con il proprietario"
       ],
+      "interiorAlt": "Consulente aziendale che esamina grafici e appunti con un cliente alla scrivania",
       "cta": {
         "title": "Hai bisogno di una panoramica pratica della tua attività?",
-        "description": "Esamineremo i tuoi numeri e il funnel operativo, poi raccomanderemo cambiamenti che migliorano maggiormente il controllo e la redditività.",
+        "description": "Esamineremo i tuoi numeri e il tuo flusso operativo, poi ti consiglieremo i cambiamenti che più probabilmente miglioreranno controllo e redditività.",
         "button": "Richiedi una consulenza"
-      }
+      },
+      "related": [
+        "virtualCfo",
+        "bookkeeping"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance",
+        "importance-of-entrepreneurship-programs"
+      ]
     },
     "financialReporting": {
       "label": "05",
       "title": "Rendicontazione finanziaria",
+      "heroTitle": "Rendicontazione finanziaria e bilancio annuale per aziende a Sarajevo",
       "shortDescription": "Report legali e manageriali chiari che aiutano a comprendere risultati, passività e tendenze finanziarie.",
-      "heroDescription": "I rapporti non devono essere file incomprensibili che rispettano solo una scadenza. Devono sapere cosa succede nel mondo degli affari.",
+      "heroDescription": "I report non devono essere file incomprensibili che servono solo a rispettare una scadenza. Devono spiegare cosa succede nella tua attività.",
       "overviewTitle": "Rapporti che la direzione utilizza effettivamente",
       "overview": "Prepariamo rapporti legali, riassunti manageriali, bilanci e formati analitici che facilitano la comprensione di ricavi, spese, profitti, liquidità e passività.",
-      "bestForTitle": "Il meglio per",
+      "localContextTitle": "Bilancio annuale e rendicontazione per le aziende nella Federazione di BiH",
+      "localContext": "Le aziende nella Federazione di BiH sono tenute per legge a redigere il bilancio annuale, e titolari e direzione hanno bisogno anche di report gestionali chiari durante l'anno. Per i clienti di Sarajevo, Ilidža e del Cantone di Sarajevo prepariamo il bilancio di fine esercizio e i rendiconti finanziari previsti dalla legge, riepiloghi gestionali mensili o trimestrali e pacchetti di report per banche e partner. I report si basano su registri contabili ben tenuti, e spieghiamo risultati, obblighi e tendenze in un linguaggio semplice.",
+      "bestForTitle": "Ideale per",
       "bestFor": [
         "Aziende che necessitano di una rendicontazione mensile più chiara",
         "Gestori che preparano documentazione per banche, partner o investitori",
         "Proprietari che vogliono tenere traccia di profitti e liquidità in ogni momento",
-        "Imprese che devono armonizzare le opinioni legali e manageriali"
+        "Imprese che vogliono allineare la visione civilistica e quella gestionale"
       ],
-      "detailsTitle": "Ambito del reportage",
+      "detailsTitle": "Ambito della rendicontazione",
       "details": [
         {
           "title": "Rendicontazione Finanziaria Statutaria",
@@ -295,7 +349,7 @@
       "process": [
         {
           "title": "Struttura",
-          "description": "Definiamo quali domande il rapporto deve ricevere risposta e chi lo utilizzerà."
+          "description": "Definiamo a quali domande deve rispondere il report e chi lo utilizzerà."
         },
         {
           "title": "Preparazione",
@@ -312,30 +366,39 @@
         "Riassunti manageriali mensili",
         "Analisi di profitto e costi",
         "Panoramica di contanti e passività",
-        "Segnala i pacchetti per banche o partner",
+        "Pacchetti di report per banche o partner",
         "Supporto alla Reportistica Finale"
       ],
+      "interiorAlt": "Due professionisti che esaminano report finanziari stampati con grafici",
       "cta": {
         "title": "Vuoi report più facili da usare?",
         "description": "Possiamo trasformare i dati contabili in un formato chiaro per la gestione, i partner, le banche o la pianificazione interna.",
         "button": "Migliorare la rendicontazione"
-      }
+      },
+      "related": [
+        "bookkeeping",
+        "virtualCfo"
+      ],
+      "relatedPosts": []
     },
     "education": {
       "label": "06",
       "title": "Formazione e Corsi",
+      "heroTitle": "Formazione su contabilità e fisco per aziende e ditte individuali a Sarajevo",
       "shortDescription": "Workshop in contabilità, tasse e finanza che aiutano proprietari e team a comprendere le responsabilità e a prendere decisioni migliori.",
       "heroDescription": "Una migliore alfabetizzazione finanziaria riduce gli errori, migliora la comunicazione interna e aiuta i team a collaborare più efficacemente con i commercialisti.",
       "overviewTitle": "Conoscenza che rende il lavoro quotidiano più facile",
       "overview": "Organizziamo corsi pratici per proprietari, manager e team amministrativi: basi della contabilità, preparazione della documentazione, scadenze fiscali, basi degli stipendi, interpretazione dei report e migliore collaborazione con la contabilità.",
-      "bestForTitle": "Il meglio per",
+      "localContextTitle": "Formazione e consulenze a Sarajevo",
+      "localContext": "Alle aziende e alle ditte individuali di Sarajevo e Ilidža che gestiscono internamente una parte dell'amministrazione o della contabilità offriamo supporto professionale individuale e formazione pratica. Può comprendere l'organizzazione della documentazione interna, la formazione del personale all'uso dei programmi di contabilità, le basi dei processi contabili e l'aiuto alla direzione nella lettura dei bilanci. I titolari di ditte individuali che tengono da soli i propri libri possono ricevere consulenze individuali sui propri obblighi di legge e sui registri nella Federazione di BiH. Adattiamo i contenuti al modo in cui lavora realmente il tuo team, con esempi tratti dalla pratica quotidiana.",
+      "bestForTitle": "Ideale per",
       "bestFor": [
         "Proprietari che vogliono comprendere i propri obblighi",
         "Personale amministrativo che gestisce documenti e fatture",
         "Team che introducono nuovi processi di reportistica",
         "I manager che vogliono leggere i bilanci con maggiore sicurezza"
       ],
-      "detailsTitle": "Ambito dell'istruzione",
+      "detailsTitle": "Ambito della formazione",
       "details": [
         {
           "title": "Nozioni di base della contabilità",
@@ -346,18 +409,18 @@
           "description": "Copriamo impegni frequenti, scadenze regolari, basi sui contributi e punti di rischio pratici."
         },
         {
-          "title": "Rendicontazione finanziaria",
+          "title": "Saper leggere i report",
           "description": "Aiutiamo i team a comprendere i bilanci, le revisioni manageriali e le domande a cui questi report devono rispondere."
         }
       ],
-      "processTitle": "L'istruzione costruita attorno al vero lavoro",
+      "processTitle": "Formazione costruita attorno al lavoro reale",
       "process": [
         {
           "title": "Definizione",
           "description": "Determiniamo cosa il team deve comprendere e quali errori devono essere evitati."
         },
         {
-          "title": "Istruzione",
+          "title": "Insegnamento",
           "description": "Organizziamo sessioni pratiche con esempi legati al tuo lavoro quotidiano."
         },
         {
@@ -367,18 +430,26 @@
       ],
       "deliverablesTitle": "Risultati tipici",
       "deliverables": [
-        "Laboratori e corsi brevi",
+        "Workshop e corsi brevi",
         "Liste di controllo per il processo contabile",
         "Panoramica delle scadenze fiscali",
         "Linee guida per la preparazione della documentazione",
         "Sessioni per la lettura dei rapporti",
         "Domande e risposte per il team"
       ],
+      "interiorAlt": "Formatore che illustra il materiale didattico a un partecipante durante un workshop",
       "cta": {
         "title": "Vuoi che il tuo team capisca meglio i numeri?",
         "description": "Possiamo preparare un workshop focalizzato sul tuo processo contabile, sulle tue domande e sulle domande frequenti sulla fiscalità.",
-        "button": "Pianifica il tuo allenamento"
-      }
+        "button": "Pianifica la formazione"
+      },
+      "related": [
+        "taxConsulting",
+        "bookkeeping"
+      ],
+      "relatedPosts": [
+        "importance-of-entrepreneurship-programs"
+      ]
     }
   }
 }

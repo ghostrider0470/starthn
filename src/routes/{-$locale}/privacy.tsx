@@ -4,22 +4,10 @@ import { designSystem } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
+import { localizedPageHead } from '@/lib/seo-meta'
 
 export const Route = createFileRoute('/{-$locale}/privacy')({
-  head: () => ({
-    meta: [
-      { title: 'Privacy Policy — Start HN' },
-      {
-        name: 'description',
-        content: 'Start HN privacy policy — how we handle your data.',
-      },
-      { property: 'og:title', content: 'Privacy Policy — Start HN' },
-      {
-        property: 'og:description',
-        content: 'Start HN privacy policy — how we handle your data.',
-      },
-    ],
-  }),
+  head: ({ params }) => localizedPageHead('privacy', params.locale),
   component: PrivacyPolicyPage,
 })
 

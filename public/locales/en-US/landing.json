@@ -1,5 +1,7 @@
 {
   "hero": {
+    "h1": "Accounting agency for companies and sole traders in Sarajevo",
+    "intro": "Start HN is an accounting agency based in Ilidža (Sarajevo Canton). We handle bookkeeping, payroll, VAT and tax returns for limited liability companies (d.o.o.), sole traders and associations.",
     "slides": [
       {
         "overline": "Expert support for sustainable growth",
@@ -228,6 +230,7 @@
       "Bookkeeping & Accounting",
       "Tax Consulting",
       "Virtual CFO",
+      "Business Consulting",
       "Financial Reporting",
       "Education",
       "Other"
@@ -275,7 +278,10 @@
         "logo": "/clients/bhgradnja-t.webp",
         "darkLogo": "/clients/bhgradnja-dark.webp"
       },
-      { "name": "Caffe Fleki", "logo": "/clients/fleki-t.webp" },
+      {
+        "name": "Caffe Fleki",
+        "logo": "/clients/fleki-t.webp"
+      },
       {
         "name": "Feniks Car Holding",
         "logo": "/clients/feniks-t.webp",
@@ -291,16 +297,21 @@
         "logo": "/clients/hitstart.png",
         "href": "https://www.hitstart.ba"
       },
-      { "name": "Coco", "logo": "/clients/coco.webp" },
+      {
+        "name": "Coco",
+        "logo": "/clients/coco.webp"
+      },
       {
         "name": "Utjeha",
         "logo": "/clients/utjeha.png"
       },
-      { "name": "Vijeće mladih općine Centar", "href": "https://www.vijecemladih.ba/formiranje-vijeca-mladih-opcine-centar-novi-korak-za-aktivizam-mladih/" },
+      {
+        "name": "Vijeće mladih općine Centar",
+        "href": "https://www.vijecemladih.ba/formiranje-vijeca-mladih-opcine-centar-novi-korak-za-aktivizam-mladih/"
+      },
       {
         "name": "Ruka Podrške",
-        "logo": "/clients/rukapodrske.png",
-        "href": "https://share.google/AeeL2hMaIbyN2Xbic"
+        "logo": "/clients/rukapodrske.png"
       },
       {
         "name": "MJO",
@@ -355,120 +366,6 @@
     },
     "learnMore": "Learn More"
   },
-  "credibility": {
-    "subtitle": "Why Choose Us",
-    "title": "Experience, Not <gradient>Promises</gradient>",
-    "titlePlain": "Experience, Not Promises",
-    "commentMarker": "// OUR_TRACK_RECORD",
-    "description": "Based in Sarajevo at CRP Inkubator. Certified accountants delivering accuracy, integrity, and results for businesses of every size.",
-    "stats": {
-      "experience": "Years of Combined Experience",
-      "countries": "Certified Accountants",
-      "systems": "Clients Served",
-      "industries": "Industries Covered"
-    },
-    "proofCards": {
-      "atlascopco": {
-        "label": "Certified & Regulated",
-        "outcome": "All our accountants hold recognised professional certifications and operate under the oversight of regulatory bodies in Bosnia and Herzegovina, ensuring full legal compliance."
-      },
-      "orange": {
-        "label": "Tax Compliance Record",
-        "outcome": "Our clients maintain a 100% on-time tax filing record. We track regulatory changes proactively so you never face penalties for late or incorrect submissions."
-      },
-      "telecom": {
-        "label": "SME & Startup Specialists",
-        "outcome": "Extensive experience supporting small and medium enterprises from founding through growth — handling registration, first accounts, and evolving compliance needs."
-      },
-      "iot": {
-        "label": "Virtual CFO Results",
-        "outcome": "Businesses supported by our Virtual CFO service consistently improve cash flow visibility, reduce unnecessary costs, and achieve more confident financial planning."
-      },
-      "drone": {
-        "label": "Accurate Reporting, Every Time",
-        "outcome": "We maintain rigorous quality control across all financial reports, ensuring statements are accurate, complete, and delivered on schedule — every reporting period."
-      },
-      "payment": {
-        "label": "Payroll & Labour Law",
-        "outcome": "Full payroll processing in compliance with BiH labour law, including salary calculations, contributions, and employee documentation — zero errors, on time."
-      },
-      "game": {
-        "label": "Education & Empowerment",
-        "outcome": "Our training programmes have upskilled dozens of business owners and finance staff, improving in-house financial literacy and reducing costly bookkeeping mistakes."
-      },
-      "social": {
-        "label": "Sarajevo Community Partner",
-        "outcome": "Headquartered at CRP Inkubator, we are an active part of Sarajevo's entrepreneurial ecosystem — supporting local founders from day one."
-      },
-      "iga": {
-        "label": "Multi-Entity & Group Accounting",
-        "outcome": "We handle complex multi-entity structures and group consolidations for larger businesses, providing a unified picture of financial performance across the whole group."
-      }
-    },
-    "differentiators": {
-      "euAdjacent": {
-        "title": "Local Expertise, EU Awareness",
-        "description": "Deep knowledge of BiH tax and accounting law, combined with awareness of EU regulatory trends that affect local businesses."
-      },
-      "yourEngineers": {
-        "title": "Your Accountants, Not a Call Centre",
-        "description": "A dedicated team that knows your business inside out. Direct contact with the accountant handling your books — no intermediaries."
-      },
-      "hardwareToCloud": {
-        "title": "Startup to Scale-Up",
-        "description": "From registering your first company and opening books to managing the finances of a growing multi-entity business. We grow with you."
-      }
-    }
-  },
-  "partners": {
-    "subtitle": "Our Standards & Tools",
-    "title": "Professional <gradient>Standards</gradient>",
-    "titlePlain": "Professional Standards",
-    "commentMarker": "// STANDARDS_AND_TOOLS",
-    "description": "We work to the highest professional standards, using trusted accounting software and staying current with the regulations and bodies that govern our industry.",
-    "categories": {
-      "cloudInfra": {
-        "label": "Regulatory Compliance",
-        "description": "Full compliance with BiH tax law, FBiH accounting standards, and relevant EU directives."
-      },
-      "frontend": {
-        "label": "Accounting Software",
-        "description": "Industry-standard platforms for bookkeeping, payroll, and financial reporting."
-      },
-      "backend": {
-        "label": "Tax & Payroll",
-        "description": "Specialist tools for accurate tax calculations, payroll processing, and statutory filing."
-      },
-      "data": {
-        "label": "Financial Reporting",
-        "description": "Tools for producing compliant financial statements and management reports."
-      },
-      "devops": {
-        "label": "Client Collaboration",
-        "description": "Secure document sharing and communication platforms for seamless client service."
-      }
-    },
-    "scanning": "CHECKING COMPLIANCE...",
-    "summary": {
-      "cloudNative": {
-        "title": "Always Compliant",
-        "description": "We monitor regulatory changes continuously so your business stays compliant without you having to track every new rule."
-      },
-      "fullStack": {
-        "title": "End-to-End Financial Service",
-        "description": "From opening your books to strategic financial planning — one team covering every aspect of your financial operations."
-      },
-      "productionProven": {
-        "title": "Proven Track Record",
-        "description": "Real results for real businesses. Our clients trust us with their most sensitive financial data because we have earned that trust."
-      }
-    },
-    "logoRows": {
-      "row1Aria": "Accounting software logos row 1",
-      "row2Aria": "Professional certification logos row 2",
-      "row3Aria": "Regulatory body logos row 3"
-    }
-  },
   "chat": {
     "badge": "AI assistant",
     "title": "Ask us anything",
@@ -511,20 +408,24 @@
       },
       "integration": {
         "question": "What accounting software do you use?",
-        "answer": "We work with the leading accounting platforms used in BiH and internationally, including Pantheon, QuickBooks, and Xero, as well as local compliance tools for statutory reporting. If your business already uses a specific platform, we can typically work within it. We also advise on software selection if you're setting up for the first time or looking to upgrade."
+        "answer": "At the agency we primarily use **Pantheon**, but we also adapt to the systems our clients already use. We have experience with several accounting programs, including **e-line**, **Microsoft Dynamics NAV**, **InfoSoft** and similar. If you already use a particular program and have an active contract with its provider, we can also organise the work in your existing system."
       },
       "industries": {
         "question": "How are your services priced?",
-        "answer": "Our pricing is transparent and based on the scope and complexity of your needs. Most clients are on a fixed monthly retainer — you know exactly what you'll pay each month. We offer packages for bookkeeping-only, full accounting, tax compliance add-ons, and Virtual CFO services. We'll provide a clear quote after the initial consultation, with no hidden fees."
+        "answer": "The price of accounting services depends on the size of the business, the volume of documentation, the number of employees and the complexity of operations. For newly founded companies (d.o.o.), the starting price is from 300.00 KM per month, and for newly founded sole traders (obrt) from 150.00 KM per month. As your business grows and the workload increases, the scope of our support is adjusted, and so is the price. For existing companies and sole traders switching accounting agencies, the price is set individually after a short review of the business and the client's needs. Our goal is a price that is clear, fair and matched to the real needs of the business, with no hidden costs or unclear charges."
       },
       "engagement": {
-        "question": "Do you offer education or training for businesses?",
-        "answer": "Yes. We run regular workshops and courses covering accounting basics for entrepreneurs, tax obligations for small businesses, payroll and labour law, and financial statement interpretation. These are available both as group sessions and as tailored one-on-one training for your team. Contact us for the current schedule or to arrange a bespoke session."
+        "question": "Do you offer education or training for in-house bookkeeping?",
+        "answer": "Yes. Depending on the client's needs, we provide individual professional support and practical training for companies and sole traders that handle part of their administration or bookkeeping in-house, alongside external accounting. This can include help organising internal documentation, training staff to use accounting software, understanding basic accounting processes, and helping management understand financial statements and business indicators. We can also give entrepreneurs who keep the books for their sole tradership themselves individual consultations and practical explanations of their legal obligations and records."
       }
     },
     "stillHaveQuestions": "Still Have Questions?",
     "ctaDescription": "Ready to get your finances in order? Let's talk about what you need.",
     "readCaseStudies": "See How We Help",
     "scheduleCall": "Schedule a Consultation"
+  },
+  "guide": {
+    "linkText": "Guide: starting a business in BiH (sole trader or d.o.o.)",
+    "description": "A practical guide with tips from experience and a recording of our guest appearance on N1."
   }
 }

@@ -1,14 +1,17 @@
 {
   "filters": {
-    "all": "모두"
+    "all": "모두",
+    "showLess": "간략히 보기",
+    "showMore": "{{count}}개 더 보기",
+    "searchCategories": "카테고리 검색…"
   },
   "readTime": "{{minutes}} 분 읽기",
   "tagsLabel": "태그",
   "relatedPosts": "관련 기사",
   "author": {
-    "role": "출판사"
+    "role": "저자"
   },
   "editor": {
-    "emptyPreview": "예고편을 보려면 글을 쓰기 시작하세요..."
+    "emptyPreview": "미리보기를 보려면 글을 작성하세요..."
   }
 }

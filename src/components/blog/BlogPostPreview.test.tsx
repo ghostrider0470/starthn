@@ -38,4 +38,25 @@ describe('BlogPostPreview', () => {
     expect(screen.getByText('Compliance')).toBeTruthy()
     expect(screen.getByText('Payroll')).toBeTruthy()
   })
+
+  it('wraps the published date in a machine-readable <time> element', () => {
+    const { container } = render(
+      <BlogPostPreview
+        title="Kako pokrenuti biznis u BiH"
+        excerpt="Praktičan vodič."
+        author="Start HN"
+        category="Preduzetništvo"
+        publishedAt="2025-11-22"
+        readTime="4 min čitanja"
+        content={['Tekst članka']}
+        tags={[]}
+        locale="bs-BA"
+      />,
+    )
+
+    const time = container.querySelector('time')
+    expect(time?.getAttribute('dateTime')).toBe('2025-11-22')
+    expect(time?.textContent).toBe('22. novembar 2025.')
+    expect(screen.getByText('4 min čitanja')).toBeTruthy()
+  })
 })

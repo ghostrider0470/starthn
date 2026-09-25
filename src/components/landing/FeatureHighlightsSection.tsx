@@ -1,6 +1,6 @@
-import { motion } from 'motion/react'
-import { Database, TrendingUp, ShieldCheck } from 'lucide-react'
+import { Database, ShieldCheck, TrendingUp } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import { SlideUp } from '@/components/animations/FadeIn'
 import { designSystem } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
 
@@ -16,33 +16,23 @@ export function FeatureHighlightsSection() {
   return (
     <section className="relative bg-muted/30 py-12 md:py-14">
       <div className={cn(designSystem.spacing.page.container, 'max-w-6xl')}>
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-80px' }}
-          transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-          className="mb-8 max-w-2xl"
-        >
+        <SlideUp offset={20} duration={0.5} className="mb-8 max-w-2xl">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
             {t('features.overline')}
           </p>
           <h2 className="mt-3 font-heading text-2xl font-bold leading-tight tracking-tight text-foreground sm:text-3xl">
             {t('features.title')}
           </h2>
-        </motion.div>
+        </SlideUp>
 
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
           {FEATURES.map(({ key, Icon }, i) => (
-            <motion.article
+            <SlideUp
+              as="article"
               key={key}
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-80px' }}
-              transition={{
-                duration: 0.55,
-                delay: i * 0.09,
-                ease: [0.16, 1, 0.3, 1],
-              }}
+              offset={24}
+              duration={0.55}
+              delay={i * 0.09}
               className="group relative flex items-start gap-5 rounded-xl border-l-2 border-transparent p-4 transition-colors hover:border-primary hover:bg-background"
             >
               <div className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-foreground text-background transition-transform group-hover:scale-110">
@@ -56,7 +46,7 @@ export function FeatureHighlightsSection() {
                   {t(`features.items.${key}.description`)}
                 </p>
               </div>
-            </motion.article>
+            </SlideUp>
           ))}
         </div>
       </div>

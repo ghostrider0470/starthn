@@ -1,7 +1,8 @@
 {
   "nav": {
-    "home": "Casa",
-    "company": "Sobre Nós",
+    "home": "Início",
+    "company": "Empresa",
+    "tagline": "Agência de contabilidade",
     "solutions": "Serviços",
     "resources": "Recursos",
     "contact": "Contato",
@@ -26,12 +27,12 @@
       "description": "Junte-se à nossa equipe e cresça conosco"
     },
     "enterpriseSoftware": {
-      "title": "Contabilidade e contabilidade",
-      "description": "Serviços abrangentes de contabilidade e contagem para empresas de todos os tamanhos"
+      "title": "Escrituração e contabilidade",
+      "description": "Escrituração e contabilidade completas para empresas de todos os portes"
     },
     "aiMl": {
       "title": "Consultoria tributária",
-      "description": "Planejamento Fiscal Profissional e Conformidade para Pessoas Físicas e Jurídicas"
+      "description": "Planejamento e conformidade tributária para pessoas físicas e empresas"
     },
     "cloudArchitecture": {
       "title": "Virtual CFO",
@@ -47,7 +48,7 @@
     },
     "digitalTransformation": {
       "title": "Educação e Cursos",
-      "description": "Oficinas e Cursos em Contabilidade, Impostos e Finanças"
+      "description": "Oficinas e cursos de contabilidade, impostos e finanças"
     },
     "caseStudies": {
       "title": "Estudos de Caso",
@@ -67,13 +68,13 @@
     },
     "navigation": "Navegação",
     "skipToContent": "Pular para o conteúdo",
-    "toggleMenu": "Menu de troca",
+    "toggleMenu": "Alternar menu",
     "dashboard": "Painel de controle",
     "myWorkspace": "Meu espaço de trabalho",
     "profile": "Perfil",
     "adminPanel": "Painel Administrativo",
-    "practiceManagement": "Gestão de consultórios",
-    "logOut": "Inscreva-se",
+    "practiceManagement": "Gestão do escritório",
+    "logOut": "Sair",
     "education": {
       "title": "Recursos e Guias",
       "description": "Recursos práticos de contabilidade e financeiros da equipe Start HN"
@@ -81,10 +82,12 @@
     "support": {
       "title": "Centro de Apoio",
       "description": "Obtenha ajuda com nossos serviços de contabilidade e consultoria"
-    }
+    },
+    "myPage": "Minha página",
+    "backToSite": "Voltar ao site"
   },
   "footer": {
-    "description": "A Start HN é uma agência de contabilidade sediada em Sarajevo. Oferecemos contabilidade, consultoria tributária, CFO virtual e relatórios financeiros para empresas em toda a Bósnia e Herzegovina.",
+    "description": "A Start HN é uma agência de contabilidade com escritório em Ilidža (Cantão de Sarajevo). Oferecemos escrituração contábil, folha de pagamento, consultoria tributária, CFO virtual e relatórios financeiros para empresas, empresários individuais e associações em toda a Bósnia e Herzegovina.",
     "services": "Serviços",
     "servicesList": {
       "bookkeeping": "Contabilidade",
@@ -94,22 +97,22 @@
       "consulting": "Consultoria empresarial",
       "education": "Educação"
     },
-    "company": "Sobre Nós",
+    "company": "Empresa",
     "companyLinks": {
       "about": "Sobre nós",
       "missionVision": "Missão e Valores",
       "certificates": "Certificados",
       "team": "Nossa Equipe",
-      "blog": "Histórias de sucesso",
+      "blog": "Blog",
       "careers": "Carreiras",
       "contact": "Contato"
     },
     "contact": "Contato",
     "contactInfo": {
       "email": "klijenti@starthn.ba",
-      "phone": "+387 61 221-368",
+      "phone": "+387 61 221 368",
       "street": "Ibrahima Ljubovića 47",
-      "locality": "Ilidža",
+      "locality": "71210 Ilidža",
       "region": "Cantão de Sarajevo",
       "country": "Bósnia e Herzegovina",
       "hours": "Seg–Sex: 08:00–16:00",
@@ -121,7 +124,7 @@
       "termsOfService": "Termos de Uso",
       "cookiePolicy": "Política de Cookies"
     },
-    "copyright": "© {{year}} Comece HN. Todos os direitos reservados.",
+    "copyright": "© {{year}} Start HN. Todos os direitos reservados.",
     "developedBy": "Desenvolvido por",
     "ctaTitle": "Pronto para conversar?",
     "ctaDescription": "Agende uma consulta introdutória gratuita — retornaremos em um dia útil.",
@@ -136,12 +139,12 @@
     "exploreSolutions": "Explore os serviços",
     "trustedBy": "Confiança de empresas em toda a Bósnia e Herzegovina",
     "microsoftPartner": "Contadores Certificados",
-    "azureCertified": "Registrado para o IVA",
+    "azureCertified": "Registrada no fisco",
     "enterpriseSolutions": "Contabilidade de ponta a ponta"
   },
   "mobileNav": {
-    "navigation": "Navegación móvel",
-    "home": "Casa",
+    "navigation": "Navegação móvel",
+    "home": "Início",
     "solutions": "Serviços",
     "caseStudies": "Casos",
     "blog": "Blog",
@@ -149,10 +152,10 @@
     "contact": "Contato"
   },
   "sideNav": {
-    "scroll": "Pergaminho",
+    "scroll": "Rolar",
     "navigateTo": "Vá para {{section}}",
     "sections": {
-      "home": "Casa",
+      "home": "Início",
       "solutions": "Serviços",
       "credibility": "Credibilidade",
       "partners": "Parceiros",
@@ -162,13 +165,13 @@
     }
   },
   "languageSwitcher": {
-    "srLabel": "Mude a linguagem",
-    "searchPlaceholder": "Linguagem de busca...",
+    "srLabel": "Mudar idioma",
+    "searchPlaceholder": "Pesquisar idioma...",
     "noResults": "Nenhum idioma encontrado."
   },
   "common": {
-    "menu": "Para mim",
-    "account": "Ordem"
+    "menu": "Menu",
+    "account": "Conta"
   },
   "homePage": {
     "caseStudies": {
@@ -194,5 +197,69 @@
   },
   "blogCard": {
     "read": "Leia mais"
+  },
+  "sections": {
+    "overview": "Visão geral",
+    "story": "História",
+    "proof": "Comprovação",
+    "gallery": "Galeria",
+    "values": "Valores",
+    "team": "Equipe",
+    "culture": "Cultura",
+    "jobs": "Vagas",
+    "process": "Processo",
+    "channels": "Canais",
+    "contact": "Contato",
+    "start": "Começar",
+    "home": "Início",
+    "services": "Serviços",
+    "why": "Por que a Start HN",
+    "evidence": "Evidências",
+    "trust": "Confiança",
+    "faq": "Perguntas frequentes",
+    "scope": "Escopo",
+    "outputs": "Entregas"
+  },
+  "breadcrumbs": {
+    "home": "Início",
+    "services": "Serviços",
+    "about": "Sobre nós",
+    "missionVision": "Missão e visão",
+    "certificates": "Certificados",
+    "careers": "Carreiras",
+    "contact": "Contato",
+    "blog": "Blog",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de uso",
+    "serviceBookkeeping": "Escrituração contábil",
+    "serviceTaxConsulting": "Consultoria tributária",
+    "serviceVirtualCfo": "CFO virtual",
+    "serviceBusinessConsulting": "Consultoria empresarial",
+    "serviceFinancialReporting": "Relatórios financeiros",
+    "serviceEducation": "Educação"
+  },
+  "a11y": {
+    "prevSlide": "Slide anterior",
+    "nextSlide": "Próximo slide",
+    "goToSlide": "Ir para o slide {{n}}",
+    "pauseCarousel": "Pausar carrossel",
+    "resumeCarousel": "Retomar carrossel",
+    "slides": "Slides",
+    "prevTestimonial": "Depoimento anterior",
+    "nextTestimonial": "Próximo depoimento",
+    "goToTestimonial": "Depoimento {{n}}",
+    "testimonialCounter": "Depoimento {{n}} de {{total}}",
+    "prevSection": "Seção anterior",
+    "nextSection": "Próxima seção",
+    "goToSection": "Ir para a seção {{n}}",
+    "toggleTheme": "Alternar tema"
+  },
+  "consent": {
+    "title": "Cookies e privacidade",
+    "text": "Com o seu consentimento, usamos o Google Analytics e o Microsoft Clarity para entender como o site é usado e melhorá-lo. Sem consentimento, eles não são carregados, e você pode mudar sua escolha a qualquer momento.",
+    "accept": "Aceitar",
+    "reject": "Recusar",
+    "settings": "Configurações de cookies",
+    "privacyLink": "Política de privacidade"
   }
 }

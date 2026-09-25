@@ -1,6 +1,7 @@
 import { ArrowRight, CheckCircle2, Gift, ClipboardList, UserCheck } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { designSystem } from '@/lib/design-system'
+import { CONTACT_EMAIL } from '@/lib/business'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import {
@@ -57,21 +58,28 @@ export function JobListingsSection() {
             value={`job-${index}`}
             className="rounded-2xl border border-border bg-card shadow-sm overflow-hidden last:border-b border-l-4 border-l-primary"
           >
-            <AccordionTrigger className="hover:no-underline px-6 py-5 text-base [&>svg]:shrink-0">
-              <div className="flex items-start gap-4 flex-1 text-left">
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary mt-0.5">
-                  {String(index + 1).padStart(2, '0')}
-                </span>
-                <div>
-                  <p className={cn(designSystem.typography.heading.h4)}>{job.title}</p>
-                  <p className={cn(designSystem.typography.body.small, designSystem.typography.muted, 'mt-1 font-normal')}>
-                    {job.summary}
-                  </p>
-                </div>
+            {/* The trigger's <h3> holds only the job title; the number and
+                summary sit next to it so the heading stays a clean title.
+                The trigger's ::after covers the whole row, so the number and
+                summary still open the job, as before. */}
+            <div className="relative flex items-start gap-4 px-6 py-5">
+              <span
+                aria-hidden
+                className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary mt-0.5"
+              >
+                {String(index + 1).padStart(2, '0')}
+              </span>
+              <div className="min-w-0 flex-1">
+                <AccordionTrigger className="hover:no-underline py-0 text-base [&>svg]:shrink-0 after:absolute after:inset-0 after:content-['']">
+                  <span className={cn(designSystem.typography.heading.h4)}>{job.title}</span>
+                </AccordionTrigger>
+                <p className={cn(designSystem.typography.body.small, designSystem.typography.muted, 'mt-1 font-normal')}>
+                  {job.summary}
+                </p>
               </div>
-            </AccordionTrigger>
+            </div>
 
-            <AccordionContent className="px-6">
+            <AccordionContent keepMounted className="px-6">
               <div className="grid md:grid-cols-3 gap-6 pb-2 pt-2 border-t border-border">
                 <JobSection
                   icon={SECTION_ICONS.responsibilities}
@@ -97,7 +105,7 @@ export function JobListingsSection() {
               </div>
               <div className="py-4">
                 <Button size="sm" asChild>
-                  <a href="mailto:info@starthn.ba">
+                  <a href={`mailto:${CONTACT_EMAIL}`}>
                     {t('careers.jobs.apply')}
                     <ArrowRight className="ml-2 h-3.5 w-3.5" />
                   </a>
@@ -113,7 +121,7 @@ export function JobListingsSection() {
           {t('careers.jobs.noMatch')}
         </p>
         <Button variant="outline" asChild>
-          <a href="mailto:info@starthn.ba">
+          <a href={`mailto:${CONTACT_EMAIL}`}>
             {t('careers.jobs.sendCv')}
           </a>
         </Button>

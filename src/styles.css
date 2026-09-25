@@ -1,5 +1,8 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
+/* Self-hosted variable fonts (latin + latin-ext subsets via unicode-range). */
+@import '@fontsource-variable/plus-jakarta-sans';
+@import '@fontsource-variable/public-sans';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -12,6 +15,7 @@ body {
 body {
   @apply m-0;
   font-family:
+    'Public Sans Variable',
     'Public Sans',
     -apple-system,
     BlinkMacSystemFont,
@@ -30,7 +34,12 @@ h4,
 h5,
 h6,
 .font-heading {
-  font-family: 'Plus Jakarta Sans', 'Public Sans', sans-serif;
+  font-family:
+    'Plus Jakarta Sans Variable',
+    'Plus Jakarta Sans',
+    'Public Sans Variable',
+    'Public Sans',
+    sans-serif;
 }
 
 /* Typography scale and section rhythm */

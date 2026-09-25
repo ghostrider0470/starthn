@@ -1,20 +1,12 @@
-import { createFileRoute, redirect } from '@tanstack/react-router'
-import {
-  DEFAULT_LOCALE,
-  isValidLocale,
-  withLocalePath,
-} from '@/lib/i18n-utils'
-import { SERVICE_ROUTES } from '@/lib/service-routes'
+import { createFileRoute, notFound } from '@tanstack/react-router'
 
-export const Route = createFileRoute(
-  '/{-$locale}/services/devops-platform-engineering',
-)({
-  beforeLoad: ({ params }) => {
-    const locale = isValidLocale(params.locale) ? params.locale : DEFAULT_LOCALE
-    throw redirect({
-      to: withLocalePath(SERVICE_ROUTES.financialReporting, locale) as never,
-      replace: true,
-    })
+// Leftover from the software-company template this site started from. It is
+// not a Start HN service, so the URL is a real 404 instead of a temporary
+// redirect to an unrelated accounting page. The file stays so the generated
+// route tree does not change without a build.
+export const Route = createFileRoute('/{-$locale}/services/devops-platform-engineering')({
+  beforeLoad: () => {
+    throw notFound()
   },
   component: LegacyServiceRoute,
 })

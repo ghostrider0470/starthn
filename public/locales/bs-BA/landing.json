@@ -1,5 +1,7 @@
 {
   "hero": {
+    "h1": "Računovodstvena agencija za firme i obrte u Sarajevu",
+    "intro": "Start HN je računovodstvena agencija sa sjedištem na Ilidži (Kanton Sarajevo). Vodimo knjigovodstvo, obračun plata, PDV i porezne prijave za d.o.o., obrte i udruženja.",
     "slides": [
       {
         "overline": "Iskoristite stručnu podršku za održivi rast",
@@ -55,7 +57,7 @@
     "description": "Računovodstvena agencija Start HN iz Sarajeva pruža podršku udruženjima, obrtnicima, te mikro, malim i srednjim biznisima. Naš rad se temelji na ažurnosti, preciznosti i potpunoj posvećenosti klijentima — ne hvatamo „zadnji voz\", već pravovremeno pratimo sve rokove i zakonske obaveze.",
     "body": "Pratimo izmjene propisa i zalažemo se za digitalizaciju računovodstvenih procesa — bilo kroz uspostavu internih programa kod klijenata sa stalnim uvidom u podatke, bilo kroz rad na dokumentaciji dostavljenoj fizički ili e-mailom. Za one koji žele stručniju podršku, nudimo uslugu Virtualnog CFO-a.",
     "features": {
-      "personal": "Individualizirani pristup",
+      "personal": "Individualizovan pristup",
       "vcfo": "Virtualni CFO",
       "tailored": "Prilagođena rješenja",
       "online": "Online dokumenti",
@@ -228,6 +230,7 @@
       "Knjigovodstvo i računovodstvo",
       "Porezno savjetovanje",
       "Virtualni CFO",
+      "Poslovno savjetovanje",
       "Finansijsko izvještavanje",
       "Edukacija",
       "Drugo"
@@ -299,8 +302,7 @@
       { "name": "Vijeće mladih općine Centar", "href": "https://www.vijecemladih.ba/formiranje-vijeca-mladih-opcine-centar-novi-korak-za-aktivizam-mladih/" },
       {
         "name": "Ruka Podrške",
-        "logo": "/clients/rukapodrske.png",
-        "href": "https://share.google/AeeL2hMaIbyN2Xbic"
+        "logo": "/clients/rukapodrske.png"
       },
       {
         "name": "MJO",
@@ -355,120 +357,6 @@
     },
     "learnMore": "Saznajte više"
   },
-  "credibility": {
-    "subtitle": "Zašto odabrati nas",
-    "title": "Iskustvo, ne <gradient>obećanja</gradient>",
-    "titlePlain": "Iskustvo, ne obećanja",
-    "commentMarker": "OUR_TRACK_RECORD",
-    "description": "Sjedište u Sarajevu, CRP Inkubator. Certificirani računovođe koji pružaju tačnost, integritet i rezultate za preduzeća svih veličina.",
-    "stats": {
-      "experience": "Godine ukupnog iskustva",
-      "countries": "Certificiranih računovođa",
-      "systems": "Opsluženih klijenata",
-      "industries": "Pokrivenih industrija"
-    },
-    "proofCards": {
-      "atlascopco": {
-        "label": "Certificirani i regulirani",
-        "outcome": "Svi naši računovođe posjeduju priznate profesionalne certifikate i rade pod nadzorom regulatornih tijela u Bosni i Hercegovini, osiguravajući potpunu zakonsku usklađenost."
-      },
-      "orange": {
-        "label": "Evidencija porezne usklađenosti",
-        "outcome": "Naši klijenti imaju 100% evidenciju pravovremenog predavanja poreznih prijava. Proaktivno pratimo regulatorne izmjene kako nikada ne biste bili suočeni s kaznama."
-      },
-      "telecom": {
-        "label": "Specijalisti za MSP i startupe",
-        "outcome": "Bogato iskustvo u podršci malim i srednjim preduzećima od osnivanja do rasta — registracija, prve knjige i sve rastuće potrebe za usklađenošću."
-      },
-      "iot": {
-        "label": "Rezultati virtualnog CFO-a",
-        "outcome": "Preduzeća koja koriste naš Virtual CFO servis dosljedno poboljšavaju vidljivost novčanog toka, smanjuju nepotrebne troškove i postižu sigurnije finansijsko planiranje."
-      },
-      "drone": {
-        "label": "Tačno izvještavanje, svaki put",
-        "outcome": "Održavamo rigoroznu kontrolu kvaliteta svih finansijskih izvještaja — tačni, potpuni i isporučeni na vrijeme, u svakom izvještajnom periodu."
-      },
-      "payment": {
-        "label": "Plaće i radno pravo",
-        "outcome": "Potpuna obrada plaća u skladu s radnim zakonodavstvom BiH, uključujući obračun plata, doprinosa i radne dokumentacije — bez grešaka, na vrijeme."
-      },
-      "game": {
-        "label": "Edukacija i osnaživanje",
-        "outcome": "Naši programi obuke usavršili su desetine vlasnika preduzeća i osoblja u finansijama, poboljšavajući internu finansijsku pismenost i smanjujući skupe greške u računovodstvu."
-      },
-      "social": {
-        "label": "Sarajevski poslovni partner",
-        "outcome": "Sa sjedištem u CRP Inkubatoru, aktivni smo dio sarajevskog poduzetničkog ekosistema — podržavamo lokalne osnivače od prvog dana."
-      },
-      "iga": {
-        "label": "Računovodstvo za grupe preduzeća",
-        "outcome": "Upravljamo složenim strukturama s više entiteta i grupnim konsolidacijama za veća preduzeća, pružajući objedinjenu sliku finansijskog učinka cijele grupe."
-      }
-    },
-    "differentiators": {
-      "euAdjacent": {
-        "title": "Lokalna stručnost, EU osvještenost",
-        "description": "Duboko poznavanje poreznog i računovodstvenog prava BiH, uz praćenje EU regulatornih trendova koji utječu na lokalna preduzeća."
-      },
-      "yourEngineers": {
-        "title": "Vaši računovođe, ne call centar",
-        "description": "Posvećen tim koji izvana poznaje vaše poslovanje. Direktan kontakt s računovođom koji vodi vaše knjige — bez posrednika."
-      },
-      "hardwareToCloud": {
-        "title": "Od startupa do rastućeg preduzeća",
-        "description": "Od registracije prve firme i otvaranja knjiga do upravljanja financijama rastuće grupe preduzeća. Rastemo zajedno s vama."
-      }
-    }
-  },
-  "partners": {
-    "subtitle": "Standardi i alati",
-    "title": "Profesionalni <gradient>standardi</gradient>",
-    "titlePlain": "Profesionalni standardi",
-    "commentMarker": "STANDARDS_AND_TOOLS",
-    "description": "Radimo prema najvišim profesionalnim standardima, koristimo pouzdane računovodstvene programe i pratimo propise i tijela koji reguliraju našu djelatnost.",
-    "categories": {
-      "cloudInfra": {
-        "label": "Regulatorna usklađenost",
-        "description": "Potpuna usklađenost s poreznim zakonodavstvom BiH, računovodstvenim standardima FBiH i relevantnim EU direktivama."
-      },
-      "frontend": {
-        "label": "Računovodstveni softveri",
-        "description": "Industrijski standardni programi za knjigovodstvo, obračun plaća i finansijsko izvještavanje."
-      },
-      "backend": {
-        "label": "Porezi i plaće",
-        "description": "Specijalistički alati za tačne porezne obračune, obradu plaća i zakonsko podnošenje prijava."
-      },
-      "data": {
-        "label": "Finansijsko izvještavanje",
-        "description": "Alati za izradu usklađenih finansijskih izvještaja i menadžerskih izvještaja."
-      },
-      "devops": {
-        "label": "Suradnja s klijentima",
-        "description": "Sigurne platforme za razmjenu dokumenata i komunikaciju za besprijekornu klijentsku uslugu."
-      }
-    },
-    "scanning": "PROVJERA USKLAĐENOSTI...",
-    "summary": {
-      "cloudNative": {
-        "title": "Uvijek usklađeni",
-        "description": "Kontinuirano pratimo regulatorne izmjene kako bi vaše poslovanje ostalo usklađeno bez potrebe da sami pratite svako novo pravilo."
-      },
-      "fullStack": {
-        "title": "Sveobuhvatna finansijska usluga",
-        "description": "Od otvaranja knjiga do strateškog finansijskog planiranja — jedan tim koji pokriva sve aspekte vaših finansijskih operacija."
-      },
-      "productionProven": {
-        "title": "Dokazani rezultati",
-        "description": "Pravi rezultati za prava preduzeća. Naši klijenti nam povjeravaju svoje najosjetljivije finansijske podatke jer smo to povjerenje zaslužili."
-      }
-    },
-    "logoRows": {
-      "row1Aria": "Logotipi računovodstvenih softvera, red 1",
-      "row2Aria": "Logotipi profesionalnih certifikacija, red 2",
-      "row3Aria": "Logotipi regulatornih tijela, red 3"
-    }
-  },
   "chat": {
     "badge": "AI asistent",
     "title": "Pitajte nas bilo šta",
@@ -502,8 +390,8 @@
         "answer": "Radimo s privrednim društvima svih veličina — od novoosnovanih kompanija i startupa do etabliranih MSP-ova, sa samostalnim poduzetnicima – obrtima, te udruženjima."
       },
       "enterprise": {
-        "question": "Da li vodite poreske prijave i usklađenost?",
-        "answer": "Da, u potpunosti. Upravljamo svim aspektima vaših poreznih obaveza: pripremom i podnošenjem PDV prijava, poreza na dobit, poreza na dohodak i svih ostalih zakonskih prijava prema propisima BiH i Federacije. Proaktivno pratimo regulatorne izmjene i savjetujemo vas čim promjena utječe na vaše poslovanje — da nikada ne budete zatečeni."
+        "question": "Da li vodite porezne prijave i usklađenost?",
+        "answer": "Da, u potpunosti. Upravljamo svim aspektima vaših poreznih obaveza: pripremom i podnošenjem PDV prijava, poreza na dobit, poreza na dohodak i svih ostalih zakonskih prijava prema propisima BiH i Federacije. Proaktivno pratimo regulatorne izmjene i savjetujemo vas čim promjena utiče na vaše poslovanje — da nikada ne budete zatečeni."
       },
       "support": {
         "question": "Možete li biti naš Virtualni CFO?",
@@ -526,5 +414,9 @@
     "ctaDescription": "Jeste li spremni srediti svoje finansije? Hajde da razgovaramo o tome šta vam treba.",
     "readCaseStudies": "Pogledajte kako pomažemo",
     "scheduleCall": "Zakažite konsultaciju"
+  },
+  "guide": {
+    "linkText": "Vodič: pokretanje biznisa u BiH (obrt ili d.o.o.)",
+    "description": "Praktični vodič sa savjetima iz iskustva i snimkom gostovanja na N1."
   }
 }

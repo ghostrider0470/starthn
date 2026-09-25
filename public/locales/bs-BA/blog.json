@@ -1,14 +1,17 @@
 {
   "filters": {
-    "all": "Svi"
+    "all": "Svi",
+    "showLess": "Prikaži manje",
+    "showMore": "+{{count}} više",
+    "searchCategories": "Pretraži kategorije…"
   },
   "readTime": "{{minutes}} min čitanja",
   "tagsLabel": "Oznake",
   "relatedPosts": "Povezani članci",
   "author": {
-    "role": "Izdavač"
+    "role": "Autor"
   },
   "editor": {
-    "emptyPreview": "Počni pisati da vidiš najavu..."
+    "emptyPreview": "Počnite pisati da biste vidjeli pregled..."
   }
 }

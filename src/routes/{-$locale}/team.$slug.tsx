@@ -1,10 +1,10 @@
-import { createFileRoute, redirect } from '@tanstack/react-router'
-import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
+import { createFileRoute, notFound } from '@tanstack/react-router'
 
+// Team member pages are disabled. A real 404 (not a temporary redirect to the
+// homepage) tells crawlers the URL has no content of its own.
 export const Route = createFileRoute('/{-$locale}/team/$slug')({
-  beforeLoad: ({ location }) => {
-    const locale = getLocaleFromPath(location.pathname)
-    throw redirect({ to: withLocalePath('/', locale) })
+  beforeLoad: () => {
+    throw notFound()
   },
   component: () => null,
 })

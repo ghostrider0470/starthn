@@ -14,6 +14,7 @@ import { Table, TableRow, TableCell, TableHeader } from '@tiptap/extension-table
 import { Extension, mergeAttributes } from '@tiptap/core'
 import { ReactNodeViewRenderer } from '@tiptap/react'
 import { ImageNodeView } from './ImageNodeView'
+import { getEditorLinkAttributes } from './editor-links'
 import { TextStyle } from '@tiptap/extension-text-style'
 import TextAlign from '@tiptap/extension-text-align'
 import { Toggle } from '@/components/ui/toggle'
@@ -260,7 +261,12 @@ const EditorToolbar: FC<EditorToolbarProps> = ({ editor, onImageUpload }) => {
   const addLink = () => {
     const url = window.prompt('Enter URL:')
     if (url) {
-      editor.chain().focus().extendMarkRange('link').setLink({ href: url }).run()
+      editor
+        .chain()
+        .focus()
+        .extendMarkRange('link')
+        .setLink(getEditorLinkAttributes(url))
+        .run()
     }
   }
 
@@ -720,7 +726,13 @@ export const RichTextEditor: FC<RichTextEditorProps> = ({
       OrderedList.configure({ HTMLAttributes: { class: 'list-decimal ml-4' } }),
       ListItem,
       Blockquote,
-      TiptapLink.configure({ openOnClick: false }),
+      // No default target/rel: TipTap would otherwise mark every link, even
+      // internal ones, as target=_blank rel=nofollow. External links get
+      // target/rel when inserted (getEditorLinkAttributes).
+      TiptapLink.configure({
+        openOnClick: false,
+        HTMLAttributes: { rel: null, target: null },
+      }),
       Underline,
       TextStyle,
       FontSize,
@@ -952,7 +964,7 @@ export const RichTextEditor: FC<RichTextEditorProps> = ({
         items: [
           { icon: <Table2Icon className="h-3 w-3" />, label: 'Table', action: () => run(() => e.chain().focus().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run()) },
           ...(onImageUpload ? [{ icon: <ImageIcon className="h-3 w-3" />, label: 'Image', action: () => { setContextMenu(null); handleImageUploadContext() } } as CMenuItem] : []),
-          { icon: <LinkIcon className="h-3 w-3" />, label: 'Link…', active: e.isActive('link'), action: () => { const u = window.prompt('URL:'); if (u) run(() => e.chain().focus().extendMarkRange('link').setLink({ href: u }).run()); else setContextMenu(null) } },
+          { icon: <LinkIcon className="h-3 w-3" />, label: 'Link…', active: e.isActive('link'), action: () => { const u = window.prompt('URL:'); if (u) run(() => e.chain().focus().extendMarkRange('link').setLink(getEditorLinkAttributes(u)).run()); else setContextMenu(null) } },
           { icon: <SeparatorHorizontal className="h-3 w-3" />, label: 'Divider', action: () => run(() => e.chain().focus().setHorizontalRule().run()) },
         ],
       },

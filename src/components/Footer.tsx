@@ -15,24 +15,41 @@ import { cn } from '@/lib/utils'
 import { designSystem } from '@/lib/design-system'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { SERVICE_ROUTES } from '@/lib/service-routes'
+import { openCookieSettings } from '@/lib/consent'
+import {
+  BRAND,
+  CONTACT_EMAIL,
+  FACEBOOK_PROFILE_URL,
+  INSTAGRAM_URL,
+  LOCALITY,
+  OWNER_LINKEDIN_URL,
+  PHONE_INTL,
+  PHONE_TEL,
+  POSTAL_CODE,
+  STREET,
+} from '@/lib/business'
 
 const SOCIALS = [
   {
     name: 'LinkedIn',
     Icon: Linkedin,
-    href: 'https://www.linkedin.com/in/selma-had%C5%BEi%C4%87-150907323',
+    href: OWNER_LINKEDIN_URL,
   },
   {
     name: 'Instagram',
     Icon: Instagram,
-    href: 'https://www.instagram.com/racunovodstvo_starthn',
+    href: INSTAGRAM_URL,
   },
   {
     name: 'Facebook',
     Icon: Facebook,
-    href: 'https://www.facebook.com/share/17g7GGdBqK/',
+    href: FACEBOOK_PROFILE_URL,
   },
 ] as const
+
+// Footer column headings are visual labels, not document outline headings.
+const COLUMN_LABEL_CLASS =
+  'mb-4 text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80'
 
 const SERVICE_KEYS = [
   'bookkeeping',
@@ -92,8 +109,6 @@ export function Footer() {
   return (
     <footer
       className={cn('relative z-40 border-t border-border/60 bg-background')}
-      itemScope
-      itemType="https://schema.org/AccountingService"
     >
       <div
         aria-hidden
@@ -112,22 +127,15 @@ export function Footer() {
             <Link to={withLocale('/')} className="inline-flex items-center">
               <img
                 src="/logo-128.webp"
-                alt="Start HN"
+                alt={BRAND}
                 className="h-12 w-auto"
                 width={48}
                 height={48}
                 loading="lazy"
                 decoding="async"
-                itemProp="logo"
               />
-              <span className="sr-only" itemProp="name">
-                Start HN
-              </span>
             </Link>
-            <p
-              className="mt-5 max-w-sm text-sm leading-relaxed text-muted-foreground"
-              itemProp="description"
-            >
+            <p className="mt-5 max-w-sm text-sm leading-relaxed text-muted-foreground">
               {t('footer.description')}
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
@@ -148,9 +156,7 @@ export function Footer() {
 
           {/* Services */}
           <div className="lg:col-span-2">
-            <h3 className="mb-4 text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80">
-              {t('footer.services')}
-            </h3>
+            <p className={COLUMN_LABEL_CLASS}>{t('footer.services')}</p>
             <ul className="space-y-2">
               {SERVICE_KEYS.map((key) => (
                 <li key={key}>
@@ -167,9 +173,7 @@ export function Footer() {
 
           {/* Company */}
           <div className="lg:col-span-2">
-            <h3 className="mb-4 text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80">
-              {t('footer.company')}
-            </h3>
+            <p className={COLUMN_LABEL_CLASS}>{t('footer.company')}</p>
             <ul className="space-y-2">
               {COMPANY_KEYS.map((key) => (
                 <li key={key}>
@@ -186,65 +190,44 @@ export function Footer() {
 
           {/* Contact info */}
           <div className="lg:col-span-4">
-            <h3 className="mb-4 text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80">
-              {t('footer.contact')}
-            </h3>
+            <p className={COLUMN_LABEL_CLASS}>{t('footer.contact')}</p>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
                 <a
-                  href={`mailto:${t('footer.contactInfo.email')}`}
+                  href={`mailto:${CONTACT_EMAIL}`}
                   className="group flex items-start gap-3 transition-colors hover:text-primary"
-                  itemProp="email"
                 >
                   <Mail className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>{t('footer.contactInfo.email')}</span>
+                  <span>{CONTACT_EMAIL}</span>
                 </a>
               </li>
               <li>
                 <a
-                  href={`tel:${t('footer.contactInfo.phone').replace(/\s/g, '')}`}
+                  href={`tel:${PHONE_TEL}`}
                   className="group flex items-start gap-3 transition-colors hover:text-primary"
-                  itemProp="telephone"
                 >
                   <Phone className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span className="tabular-nums">
-                    {t('footer.contactInfo.phone')}
-                  </span>
+                  <span className="tabular-nums">{PHONE_INTL}</span>
                 </a>
               </li>
-              <li
-                className="flex items-start gap-3"
-                itemProp="address"
-                itemScope
-                itemType="https://schema.org/PostalAddress"
-              >
+              <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                 <address className="not-italic">
-                  <span itemProp="streetAddress">
-                    {t('footer.contactInfo.street')}
-                  </span>
+                  {STREET}
                   <br />
-                  <span itemProp="addressLocality">
-                    {t('footer.contactInfo.locality')}
-                  </span>
+                  {`${POSTAL_CODE} ${LOCALITY}`}
                   <span className="mx-1 text-muted-foreground/50">·</span>
-                  <span itemProp="addressRegion">
-                    {t('footer.contactInfo.region')}
-                  </span>
+                  {t('footer.contactInfo.region')}
                   <br />
-                  <span itemProp="addressCountry" content="BA">
-                    {t('footer.contactInfo.country')}
-                  </span>
+                  {t('footer.contactInfo.country')}
                 </address>
               </li>
               <li className="flex items-start gap-3">
                 <Clock className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                 <span>
-                  <span itemProp="openingHours" content="Mo-Fr 08:00-16:00">
-                    {t('footer.contactInfo.hours')}
-                  </span>
+                  {t('footer.contactInfo.hours')}
                   <br />
-                  <span className="text-muted-foreground/70">
+                  <span className="text-muted-foreground">
                     {t('footer.contactInfo.holidays')}
                   </span>
                 </span>
@@ -256,9 +239,9 @@ export function Footer() {
         {/* CTA strip */}
         <div className="mt-10 flex flex-col items-start justify-between gap-5 rounded-xl border border-border/60 bg-muted/30 p-6 md:flex-row md:items-center md:p-8">
           <div>
-            <h3 className="font-heading text-lg font-semibold text-foreground md:text-xl">
+            <p className="font-heading text-lg font-semibold text-foreground md:text-xl">
               {t('footer.ctaTitle')}
-            </h3>
+            </p>
             <p className="mt-1 text-sm text-muted-foreground">
               {t('footer.ctaDescription')}
             </p>
@@ -308,6 +291,17 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <button
+                  type="button"
+                  onClick={openCookieSettings}
+                  className="transition-colors hover:text-primary"
+                >
+                  {t('common:consent.settings', {
+                    defaultValue: 'Cookie settings',
+                  })}
+                </button>
+              </li>
             </ul>
           </nav>
         </div>

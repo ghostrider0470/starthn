@@ -1,14 +1,17 @@
 {
   "filters": {
-    "all": "全部"
+    "all": "全部",
+    "showLess": "收起",
+    "showMore": "另外 {{count}} 个",
+    "searchCategories": "搜索分类…"
   },
   "readTime": "{{minutes}} 分钟阅读",
   "tagsLabel": "标签",
   "relatedPosts": "相关文章",
   "author": {
-    "role": "出版商"
+    "role": "作者"
   },
   "editor": {
-    "emptyPreview": "开始写信来看预告片......"
+    "emptyPreview": "开始写作即可查看预览……"
   }
 }

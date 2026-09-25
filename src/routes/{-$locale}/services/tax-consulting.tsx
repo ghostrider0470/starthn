@@ -1,26 +1,9 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { ServicePageTemplate } from '@/components/services/ServicePageTemplate'
+import { localizedServiceHead } from '@/lib/seo-meta'
 
 export const Route = createFileRoute('/{-$locale}/services/tax-consulting')({
-  head: () => ({
-    meta: [
-      { title: 'Tax Monitoring & Advisory — Start HN' },
-      {
-        name: 'description',
-        content:
-          'Expert tax monitoring and advisory services in BiH. Start HN tracks your obligations, files on time, and optimises your tax position.',
-      },
-      {
-        property: 'og:title',
-        content: 'Tax Monitoring & Advisory — Start HN',
-      },
-      {
-        property: 'og:description',
-        content:
-          'Expert tax monitoring and advisory services in BiH. Start HN tracks your obligations, files on time, and optimises your tax position.',
-      },
-    ],
-  }),
+  head: ({ params }) => localizedServiceHead('taxConsulting', params.locale),
   component: TaxConsulting,
 })
 

@@ -1,14 +1,17 @@
 {
   "filters": {
-    "all": "Hepsi"
+    "all": "Hepsi",
+    "showLess": "Daha az göster",
+    "showMore": "+{{count}} daha",
+    "searchCategories": "Kategorilerde ara…"
   },
   "readTime": "{{minutes}} dakika okuma",
   "tagsLabel": "Etiketler",
   "relatedPosts": "İlgili Makaleler",
   "author": {
-    "role": "Yayıncı"
+    "role": "Yazar"
   },
   "editor": {
-    "emptyPreview": "Fragmanı izlemek için yazmaya başla..."
+    "emptyPreview": "Önizlemeyi görmek için yazmaya başlayın..."
   }
 }

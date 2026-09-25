@@ -1,5 +1,6 @@
 import { Children, useCallback, useEffect, useRef, useState } from 'react'
 import { ChevronDown, ChevronUp } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import type { ReactNode } from 'react'
 import { cn } from '@/lib/utils'
 
@@ -30,6 +31,7 @@ export function SectionScroller({
   labels = [],
   ids = [],
 }: SectionScrollerProps) {
+  const { t } = useTranslation('common')
   const rootRef = useRef<HTMLDivElement>(null)
   const isProgrammaticScrollRef = useRef(false)
   const currentRef = useRef(0)
@@ -229,33 +231,43 @@ export function SectionScroller({
             'transition-all duration-200 hover:border-primary/40 hover:bg-background hover:text-foreground',
             'disabled:cursor-not-allowed disabled:opacity-25 disabled:hover:border-border/70 disabled:hover:text-muted-foreground',
           )}
-          aria-label="Previous section"
+          aria-label={t('a11y.prevSection', {
+            defaultValue: 'Previous section',
+          })}
         >
           <ChevronUp className="h-4 w-4" />
         </button>
 
         <div className="flex flex-col gap-1 rounded-full border border-border/60 bg-background/70 px-1.5 py-2 shadow-sm backdrop-blur-md">
-          {sections.map((_, i) => (
-            <button
-              key={i}
-              type="button"
-              onClick={() => scrollTo(i)}
-              title={labels[i] ?? `Section ${i + 1}`}
-              className="group pointer-events-auto grid h-6 w-6 place-items-center rounded-full"
-              aria-label={labels[i] ?? `Go to section ${i + 1}`}
-              aria-current={i === current ? 'true' : undefined}
-            >
-              <span
-                aria-hidden
-                className={cn(
-                  'h-1.5 rounded-full transition-all duration-300',
-                  i === current
-                    ? 'w-5 bg-primary/75'
-                    : 'w-1.5 bg-muted-foreground/35 group-hover:bg-primary/45',
-                )}
-              />
-            </button>
-          ))}
+          {sections.map((_, i) => {
+            const label =
+              labels[i] ||
+              t('a11y.goToSection', {
+                n: i + 1,
+                defaultValue: `Go to section ${i + 1}`,
+              })
+            return (
+              <button
+                key={i}
+                type="button"
+                onClick={() => scrollTo(i)}
+                title={label}
+                className="group pointer-events-auto grid h-6 w-6 place-items-center rounded-full"
+                aria-label={label}
+                aria-current={i === current ? 'true' : undefined}
+              >
+                <span
+                  aria-hidden
+                  className={cn(
+                    'h-1.5 rounded-full transition-all duration-300',
+                    i === current
+                      ? 'w-5 bg-primary/75'
+                      : 'w-1.5 bg-muted-foreground/35 group-hover:bg-primary/45',
+                  )}
+                />
+              </button>
+            )
+          })}
         </div>
 
         <button
@@ -268,7 +280,7 @@ export function SectionScroller({
             'transition-all duration-200 hover:border-primary/40 hover:bg-background hover:text-foreground',
             'disabled:cursor-not-allowed disabled:opacity-25 disabled:hover:border-border/70 disabled:hover:text-muted-foreground',
           )}
-          aria-label="Next section"
+          aria-label={t('a11y.nextSection', { defaultValue: 'Next section' })}
         >
           <ChevronDown className="h-4 w-4" />
         </button>

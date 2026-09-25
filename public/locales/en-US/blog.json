@@ -1,12 +1,15 @@
 {
   "filters": {
-    "all": "All"
+    "all": "All",
+    "showLess": "Show less",
+    "showMore": "+{{count}} more",
+    "searchCategories": "Search categories…"
   },
   "readTime": "{{minutes}} min read",
   "tagsLabel": "Tags",
   "relatedPosts": "Related Posts",
   "author": {
-    "role": "Publisher"
+    "role": "Author"
   },
   "editor": {
     "emptyPreview": "Start writing to see a preview..."

@@ -1,14 +1,17 @@
 {
   "filters": {
-    "all": "全部だ"
+    "all": "すべて",
+    "showLess": "表示を減らす",
+    "showMore": "他 {{count}} 件",
+    "searchCategories": "カテゴリを検索…"
   },
-  "readTime": "{{minutes}} 分",
+  "readTime": "{{minutes}}分で読めます",
   "tagsLabel": "タグ",
   "relatedPosts": "関連記事",
   "author": {
-    "role": "出版社"
+    "role": "著者"
   },
   "editor": {
-    "emptyPreview": "予告編を見るために書き始めて..."
+    "emptyPreview": "入力を始めるとプレビューが表示されます..."
   }
 }

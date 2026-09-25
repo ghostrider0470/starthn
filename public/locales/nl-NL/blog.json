@@ -1,14 +1,17 @@
 {
   "filters": {
-    "all": "Allemaal"
+    "all": "Allemaal",
+    "showLess": "Minder tonen",
+    "showMore": "+{{count}} meer",
+    "searchCategories": "Categorieën zoeken…"
   },
-  "readTime": "{{minutes}} min lezen",
+  "readTime": "{{minutes}} min leestijd",
   "tagsLabel": "Tags",
   "relatedPosts": "Gerelateerde artikelen",
   "author": {
-    "role": "Uitgever"
+    "role": "Auteur"
   },
   "editor": {
-    "emptyPreview": "Begin te schrijven om de trailer te zien..."
+    "emptyPreview": "Begin met schrijven om een voorbeeld te zien..."
   }
 }

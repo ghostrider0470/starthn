@@ -1,5 +1,4 @@
 import { Link, useLocation } from '@tanstack/react-router'
-import { motion } from 'motion/react'
 import {
   ArrowRight,
   BadgeCheck,
@@ -10,6 +9,7 @@ import {
   UserCheck,
 } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import { Reveal, SlideUp } from '@/components/animations/FadeIn'
 import { Button } from '@/components/ui/button'
 import { designSystem } from '@/lib/design-system'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
@@ -35,11 +35,9 @@ export function WhyStartHNSection() {
       <div className={cn(designSystem.spacing.page.container, 'max-w-7xl')}>
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-10">
           {/* Copy stays first on mobile; desktop mirrors the live site with image left. */}
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-80px' }}
-            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+          <SlideUp
+            offset={24}
+            duration={0.6}
             className="min-w-0 lg:order-2 lg:col-span-7"
           >
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
@@ -76,13 +74,11 @@ export function WhyStartHNSection() {
                 </Link>
               </Button>
             </div>
-          </motion.div>
+          </SlideUp>
 
-          <motion.div
-            initial={{ opacity: 0, x: -24 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: '-80px' }}
-            transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+          <Reveal
+            x={-24}
+            duration={0.7}
             className="relative min-w-0 lg:order-1 lg:col-span-5"
           >
             <div className="relative aspect-[4/5] max-h-[min(52svh,500px)] min-h-[360px] overflow-hidden rounded-2xl shadow-xl shadow-black/5 lg:mr-auto lg:w-full">
@@ -98,7 +94,7 @@ export function WhyStartHNSection() {
                 height={1125}
               />
             </div>
-          </motion.div>
+          </Reveal>
         </div>
       </div>
     </section>

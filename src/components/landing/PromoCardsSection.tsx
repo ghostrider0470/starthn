@@ -1,7 +1,7 @@
 import { Link, useLocation } from '@tanstack/react-router'
-import { motion } from 'motion/react'
-import { ArrowUpRight, User, Briefcase } from 'lucide-react'
+import { ArrowUpRight, Briefcase, User } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import { SlideUp } from '@/components/animations/FadeIn'
 import { designSystem } from '@/lib/design-system'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
@@ -24,12 +24,12 @@ export function PromoCardsSection() {
             const href = withLocalePath(t(`promos.${key}.href`), currentLocale)
             const image = t(`promos.${key}.image`)
             return (
-              <motion.article
+              <SlideUp
+                as="article"
                 key={key}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-80px' }}
-                transition={{ duration: 0.6, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
+                offset={24}
+                duration={0.6}
+                delay={i * 0.1}
                 className="group relative isolate overflow-hidden rounded-2xl border border-border/60 bg-card"
               >
                 <Link to={href} className="block">
@@ -64,7 +64,7 @@ export function PromoCardsSection() {
                     </div>
                   </div>
                 </Link>
-              </motion.article>
+              </SlideUp>
             )
           })}
         </div>

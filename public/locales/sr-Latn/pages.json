@@ -1,33 +1,37 @@
 {
   "about": {
-    "badge": "Više o nama",
+    "badge": "O nama",
     "hero": {
       "titlePrefix": "Pouzdano računovodstvo,",
-      "titleHighlight": "Istinsko partnerstvo",
-      "description": "Start HN je računovodstvena agencija posvećena rastu i uspjehu preduzetnika i mikro i malih preduzeća u Bosni i Hercegovini."
+      "titleHighlight": "pravo partnerstvo",
+      "description": "Start HN je računovodstvena agencija posvećena rastu i uspehu preduzetnika i malih preduzeća u Bosni i Hercegovini."
+    },
+    "images": {
+      "heroAlt": "Radni sto u računovodstvenoj kancelariji sa laptopom na kome je finansijski grafikon, kalkulatorom i registratorima",
+      "interiorAlt": "Računovođa sa klijentom pregleda finansijske izveštaje za stolom"
     },
     "welcome": {
       "tagline": "Svakodnevno dokazujemo da stručnost i jasnoća finansijskih izveštaja grade čvrste temelje za nove poslovne mogućnosti.",
-      "para1": "Računovodstvena agencija START HN iz Sarajeva pruža podršku udruženjima, zanatlijama, mikro, malim i srednjim preduzećima. Naš rad se zasniva na ažurnosti, stručnosti i poverenju — ne hvatamo \"poslednji voz\", već obezbeđujemo da se sve zakonske obaveze ispune na vreme.",
+      "para1": "Računovodstvena agencija Start HN iz Sarajeva pruža podršku udruženjima, preduzetnicima i mikro, malim i srednjim preduzećima. Naš rad se zasniva na ažurnosti, stručnosti i poverenju — obezbeđujemo da se sve zakonske obaveze ispune na vreme.",
       "para2": "Od samog početka, naš cilj je bio jasan: da kombinujemo računovodstvenu tačnost i digitalizaciju procesa. Verujemo da računovodstvo nije samo snimanje prošlih događaja, već i alat za donošenje pravovremenih poslovnih odluka. Zato smo posvećeni uvođenju digitalnih rešenja koja omogućavaju klijentima stalan pristup njihovim podacima, ali nudimo i tradicionalni pristup za one koji više vole da predaju dokumentaciju fizički ili putem e-maila.",
-      "para3": "Pored redovnog knjigovodstva, našim klijentima pružamo i dodatnu vrednost kroz uslugu Virtual CFO, koja omogućava strateško finansijsko savetovanje i dublju analizu poslovanja. Posebno mesto zauzimaju startup kompanije, kojima nudimo pogodnosti i punu podršku od prvog dana poslovanja."
+      "para3": "Pored redovnog knjigovodstva, klijentima pružamo i dodatnu vrednost kroz uslugu virtuelnog CFO-a — strateško finansijsko savetovanje i dublju analizu poslovanja. Posebno mesto imaju startapi, kojima nudimo pogodnosti i punu podršku od prvog dana poslovanja."
     },
     "whyUs": {
-      "title": "Zašto pokrenuti HN?",
+      "title": "Zašto Start HN?",
       "subtitle": "Kako možemo olakšati vaše poslovanje?",
       "description": "Kombinujemo iskustvo iz lokalnog poslovnog okruženja i savremene računovodstvene prakse kako bismo vam pružili tačne informacije, pravovremene odluke i stabilan rast.",
       "pillars": [
-        "Pravovremeno i tačno računovodstvo.",
+        "Pravovremeno i tačno računovodstvo",
         "Prilagođene usluge",
-        "Non-stop podrška i saveti",
-        "Jasne cene i bez skrivenih troškova"
+        "Stalna podrška i savetovanje",
+        "Transparentne cene — bez skrivenih troškova"
       ]
     },
     "features": [
       {
         "icon": "award",
         "title": "Iskustvo i stručnost",
-        "description": "Naš tim donosi deceniju praktične prakse i sertifikata u računovodstvu."
+        "description": "Naš tim donosi više od 15 godina praktičnog iskustva i sertifikate iz računovodstva."
       },
       {
         "icon": "barChart3",
@@ -37,12 +41,12 @@
       {
         "icon": "settings2",
         "title": "Prilagođena rešenja",
-        "description": "Automatizujemo rutinske zadatke koristeći oblak i moderne platforme."
+        "description": "Automatizujemo rutinske zadatke uz pomoć tehnologije u oblaku i savremenih platformi."
       },
       {
         "icon": "userCheck",
-        "title": "Individualizovani pristup",
-        "description": "Svakom klijentu pristupamo sa posebnom pažnjom i posvećenošću, obezbeđujući iskustvo na najvišem nivou."
+        "title": "Individualni pristup",
+        "description": "Svakom klijentu posvećujemo punu pažnju i obezbeđujemo uslugu na najvišem nivou."
       },
       {
         "icon": "trendingUp",
@@ -56,8 +60,8 @@
       }
     ],
     "cta": {
-      "title": "Saradnja sa nama",
-      "description": "Od strategija rasta u ranoj fazi za startupe do podrške postojećim kompanijama - mi to radimo od samog početka! Rezultati govore sami za sebe.",
+      "title": "Hajde da sarađujemo",
+      "description": "Od strategija rasta za startape u ranoj fazi do podrške etabliranim preduzećima — ovim se bavimo od prvog dana. Rezultati govore sami za sebe.",
       "primary": "Kontaktirajte nas",
       "secondary": "Pogledajte naše usluge"
     }
@@ -69,15 +73,19 @@
       "titleHighlight": "i vrednosti",
       "description": "Jasni ciljevi, jake vrednosti i stalna potraga za izvrsnošću koja nas vodi na svakom koraku."
     },
+    "images": {
+      "heroAlt": "Dvoje stručnjaka planira strategiju ispred table sa poslovnim grafikonima",
+      "interiorAlt": "Rukovanje nakon poslovnog sastanka kao simbol poverenja i partnerstva"
+    },
     "mission": {
       "label": "Naša misija",
       "heading": "Pravovremene informacije. Individualni pristup.",
-      "body": "Pružiti klijentima ažurne i pravovremene informacije sa savremenim rešenjima i individualnim pristupom, podržavajući i digitalne i tradicionalne modele rada."
+      "body": "Da klijentima pružamo ažurne i pravovremene informacije kroz savremena rešenja i individualan pristup, podržavajući i digitalni i tradicionalni način rada."
     },
     "vision": {
       "label": "Naša vizija",
-      "heading": "Biti prvi izbor za mala i srednja preduzeća i startap preduzeća u BiH.",
-      "body": "Biti prvi izbor za mala i srednja preduzeća i startupe u BiH kroz digitalizaciju računovodstva i razvoj sistema koji olakšavaju rad i ubrzavaju poslovne odluke."
+      "heading": "Prvi izbor za mala i srednja preduzeća i startape u BiH.",
+      "body": "Da budemo prvi izbor za mala i srednja preduzeća i startape u Bosni i Hercegovini, kroz digitalizaciju računovodstva i razvoj sistema koji olakšavaju rad i ubrzavaju poslovne odluke."
     },
     "values": {
       "label": "Naše vrednosti",
@@ -91,11 +99,11 @@
         {
           "icon": "shieldCheck",
           "title": "Odgovornost u svemu što radimo",
-          "description": "Svaki izveštaj, svaka aplikacija i svaka preporuka nosi naš potpis. Preuzimamo punu odgovornost za naš rad, jer znamo koliko su tačnost i pravovremenost važni u poslovanju naših klijenata."
+          "description": "Svaki izveštaj, svaka prijava i svaka preporuka nosi naš potpis. Preuzimamo punu odgovornost za svoj rad, jer znamo koliko su tačnost i pravovremenost važni u poslovanju naših klijenata."
         },
         {
           "icon": "users",
-          "title": "Kupac u centru pažnje",
+          "title": "Klijent u centru pažnje",
           "description": "Bilo da se radi o startupu koji tek počinje ili kompaniji sa dugogodišnjim iskustvom, naš pristup je uvek isti: slušamo, razumemo i prilagođavamo se potrebama klijenta, nudeći rešenja po meri."
         },
         {
@@ -106,13 +114,13 @@
         {
           "icon": "lock",
           "title": "Poslovna etika i poverljivost",
-          "description": "Održavanje poverljivosti i poštovanje najviših etičkih standarda su osnova našeg rada. Naši klijenti znaju da njihovi podaci ostaju bezbedni i da naši saveti uvek dolaze iz profesionalne i stručne namere."
+          "description": "Čuvanje poverljivosti i poštovanje najviših etičkih standarda osnova su našeg rada. Naši klijenti znaju da su njihovi podaci bezbedni i da su naši saveti uvek profesionalni."
         }
       ]
     },
     "cta": {
       "title": "Da li ste spremni za saradnju?",
-      "description": "Kontaktirajte nas i hajde da vam pokažemo kako možemo da podržimo vaše poslovanje sa preciznošću, integritetom i posvećenošću.",
+      "description": "Kontaktirajte nas i pokazaćemo vam kako možemo da podržimo vaše poslovanje preciznošću, integritetom i posvećenošću.",
       "button": "Kontaktirajte nas"
     }
   },
@@ -125,8 +133,8 @@
     },
     "intro": {
       "heading": "Ono što nas izdvaja",
-      "para1": "U računovodstvu, poverenje nije samo reč – ono se gradi na stručnosti, zakonitosti i odgovornosti. Zato je za nas u START HN svaki sertifikat i svaki zvanični sertifikat mnogo više od dokumenta: on je dokaz da naš rad prolazi kroz najstrože provere, da poštujemo propise i da negujemo profesionalne i etičke standarde.",
-      "para2": "Kroz dugogodišnje ulaganje u znanje, obrazovanje i razvoj, stekli smo licence i priznanja koja potvrđuju našu posvećenost klijentima i kvalitet usluga koje pružamo. Oni su takođe garancija da nas možete izabrati sa punim poverenjem, znajući da gradimo vaše poslovanje na čvrstim i pravnim temeljima."
+      "para1": "U računovodstvu poverenje nije samo reč – ono se gradi na stručnosti, zakonitosti i odgovornosti. Zato je za nas u Start HN svaki sertifikat i svaka zvanična potvrda mnogo više od dokumenta: to je dokaz da naš rad prolazi najstrože provere, da poštujemo propise i negujemo profesionalne i etičke standarde.",
+      "para2": "Kroz dugogodišnje ulaganje u znanje, obrazovanje i razvoj stekli smo licence i priznanja koja potvrđuju našu posvećenost klijentima i kvalitet usluga koje pružamo. Ona su i garancija da nas možete izabrati sa punim poverenjem, znajući da vaše poslovanje gradimo na čvrstim i zakonitim temeljima."
     },
     "gallery": {
       "heading": "Naši sertifikati",
@@ -134,7 +142,7 @@
         {
           "image": "/certificates/srrf-bih.png",
           "title": "Sertifikovani računovođa",
-          "description": "Dokaz o kompetentnosti i sticanje titule u računovodstvenoj profesiji"
+          "description": "Dokaz stručne osposobljenosti i zvanja u računovodstvenoj profesiji"
         },
         {
           "image": "/certificates/kpmg-expert.webp",
@@ -143,13 +151,23 @@
         },
         {
           "image": "/certificates/award-consulting.webp",
-          "title": "EU fondovi – kako dobiti grantove",
-          "description": "Poznavanje procesa prijave i mogućnosti povlačenja sredstava iz EU fondova."
+          "title": "EU fondovi – pristup grantovima",
+          "description": "Poznavanje postupaka prijave i mogućnosti finansiranja iz EU fondova"
         }
       ]
     },
+    "quote": "„Svaki sertifikat je dokaz da naš rad prolazi najstrože stručne provere.“",
+    "quoteAuthor": "Računovodstvena agencija Start HN",
+    "licenceLine": "Registar Federalnog ministarstva finansija (FMF) br. UP-04-11-2-6-1516/24",
+    "verifyLink": "Proverite u registru SRR FBiH",
+    "highlights": {
+      "certifiedAccountants": "Sertifikovani računovođe",
+      "legalCompliance": "Zakonska usklađenost",
+      "continuousEducation": "Kontinuirana edukacija",
+      "ethicalStandards": "Etički standardi"
+    },
     "cta": {
-      "title": "Radite sa sertifikovanim timom.",
+      "title": "Sarađujte sa sertifikovanim timom",
       "description": "Naše licence i profesionalni sertifikati su vaša garancija da je vaše računovodstvo u sigurnim, stručnim rukama.",
       "button": "Kontaktirajte nas"
     }
@@ -157,55 +175,65 @@
   "contact": {
     "badge": "Kontakt Start HN",
     "hero": {
-      "title": "Hajde da pričamo o vašem računovodstvu",
-      "description": "Recite nam gde je vaše poslovanje danas i šta vam je potrebno sledeće. Mi ćemo vas uputiti na pravu računovodstvenu, poresku ili savetodavnu podršku bez komplikovanja prvog koraka."
+      "title": "Razgovarajmo o vašem računovodstvu",
+      "description": "Recite nam gde je vaše poslovanje danas i šta vam je sledeće potrebno. Uputićemo vas na odgovarajuću računovodstvenu, poresku ili savetodavnu podršku, bez komplikovanja prvog koraka."
     },
     "info": {
       "title": "Kontakt informacije"
     },
     "booking": {
       "title": "Zakažite sastanak",
-      "description": "Zatražite fokusiranu 30-minutnu konsultaciju."
+      "description": "Zatražite fokusiranu konsultaciju od 30 minuta"
     },
     "channels": {
-      "title": "Počnite kroz pravi kanal",
-      "description": "Izaberite put koji odgovara zadatku: zatražite konsultacije, pošaljite detalje u pisanoj formi ili otvorite asistenta kada je ćaskanje dostupno.",
+      "title": "Izaberite pravi kanal",
+      "description": "Izaberite put koji odgovara potrebi: zatražite konsultaciju, pošaljite detalje pismeno ili otvorite asistenta kada je razgovor dostupan.",
       "meeting": {
         "title": "Zakažite sastanak",
-        "description": "Pošaljite zahtev za sastanak i mi ćemo koordinirati prvi raspoloživi sastanak za konsultacije.",
-        "action": "Zatražite sastanak"
+        "description": "Pošaljite zahtev za sastanak i dogovorićemo prvi slobodan termin za konsultaciju.",
+        "action": "Zatražite termin"
       },
       "form": {
-        "title": "Pošalji poruku",
-        "description": "Podelite kontekst jednom, a mi ćemo odgovoriti desnim sledećim korakom.",
+        "title": "Pošaljite poruku",
+        "description": "Opišite nam situaciju jednom, a mi ćemo odgovoriti pravim sledećim korakom.",
         "action": "Otvorite formular"
       },
       "chat": {
         "title": "Razgovarajte sa AI asistentom",
         "description": "Dobijte brze odgovore o uslugama, dokumentima i uobičajenim računovodstvenim pitanjima.",
-        "action": "Otvori ćaskanje"
+        "action": "Otvori razgovor"
       }
     },
     "methods": {
       "email": {
-        "title": "E-pošta",
-        "description": "Pošaljite nam email u bilo koje vrijeme",
-        "value": "info@starthn.ba"
+        "title": "E-mail",
+        "description": "Pišite nam u bilo koje vreme",
+        "value": "klijenti@starthn.ba"
+      },
+      "phone": {
+        "title": "Telefon",
+        "description": "Pozovite nas tokom radnog vremena",
+        "value": "061 221 368"
       },
       "location": {
         "title": "Lokacija",
-        "description": "Sa sedištem u",
-        "value": "Sarajevo, Bosna i Hercegovina"
+        "description": "Adresa",
+        "value": "Ibrahima Ljubovića 47, 71210 Ilidža (Sarajevo)"
+      },
+      "hours": {
+        "title": "Radno vreme",
+        "description": "Ne radimo praznicima",
+        "value": "Pon–Pet 08:00–16:00"
       },
       "response": {
-        "title": "Vreme reakcije",
-        "description": "Obično smo unutra",
-        "value": "jedan radni dan"
+        "title": "Vreme odgovora",
+        "description": "Obično odgovaramo u roku od",
+        "value": "jednog radnog dana"
       }
     },
     "departments": {
       "project": {
-        "label": "Novi projekat"
+        "label": "Nova saradnja"
       },
       "support": {
         "label": "Računovodstvena podrška"
@@ -222,57 +250,57 @@
     },
     "form": {
       "title": "Pošaljite nam poruku",
-      "success": "Hvala na poruci. Mi ćemo vam se javiti u roku od 24-48 sati.",
+      "success": "Hvala vam na poruci. Javićemo vam se u roku od 24–48 sati.",
       "error": "Nešto je pošlo naopako. Pokušajte ponovo ili nam pošaljite e-mail direktno.",
       "fullName": "Ime i prezime *",
       "email": "Email adresa *",
-      "company": "Više o nama",
+      "company": "Kompanija",
       "subject": "Tema *",
       "message": "Poruka *",
       "placeholders": {
-        "name": "Ime i prezime",
+        "name": "Vaše ime",
         "email": "you@example.com",
         "company": "Vaša kompanija",
         "subject": "Kako možemo pomoći?",
-        "message": "Recite nam nešto o vašem projektu ili upitu..."
+        "message": "Opišite nam šta vam je potrebno..."
       },
       "validation": {
         "required": {
-          "name": "Potrebno je puno ime.",
-          "email": "Potrebna je email adresa.",
-          "subject": "Molimo Vas da izaberete temu.",
+          "name": "Ime i prezime je obavezno.",
+          "email": "E-mail adresa je obavezna.",
+          "subject": "Izaberite temu.",
           "message": "Poruka je obavezna."
         },
-        "email": "Molimo unesite važeću email adresu.",
+        "email": "Unesite ispravnu e-mail adresu.",
         "messageMinLength": "Poruka mora biti dugačka najmanje {{count}} znakova."
       },
-      "sending": "Šaljem...",
+      "sending": "Slanje...",
       "submit": "Pošalji poruku"
     },
     "reasonsTitle": "Zašto izabrati Start HN?",
     "reasons": [
-      "Sertifikovani računovođe sa detaljnim poznavanjem poreskog zakonodavstva",
+      "Sertifikovani računovođe sa dubokim poznavanjem poreskog zakonodavstva BiH",
       "Brz odgovor i proaktivna komunikacija",
-      "Cloud Accounting — Pristup knjigama u bilo kom trenutku",
+      "Računovodstvo u oblaku — pristup knjigama u svakom trenutku",
       "Transparentne cene bez skrivenih troškova"
     ],
     "custom": {
       "title": "Prilagođeni računovodstveni paketi",
-      "description": "Svaki posao je drugačiji. Radimo sa vama na izgradnji paketa usluga prilagođenih vašoj veličini, sektoru i fazi rasta - ništa više, ništa manje.",
+      "description": "Svako poslovanje je drugačije. Sa vama gradimo paket usluga prilagođen vašoj veličini, delatnosti i fazi rasta — ništa više, ništa manje.",
       "cta": "Razgovarajte o svojim potrebama"
     },
     "faq": {
       "title": "Imate li još pitanja?",
-      "description": "Pogledajte našu sekciju FAK za brze odgovore",
-      "cta": "Pregledajte često postavljana pitanja"
+      "description": "Pogledajte odeljak sa čestim pitanjima za brze odgovore",
+      "cta": "Pregledajte česta pitanja"
     }
   },
   "team": {
     "badge": "Naš tim",
     "hero": {
       "titlePrefix": "Ljudi koji stoje iza",
-      "titleHighlight": "Početak HN",
-      "description": "Tim sertifikovanih računovođa i finansijskih savjetnika posvećen pomaganju preduzećima da napreduju u Bosni i Hercegovini."
+      "titleHighlight": "Start HN",
+      "description": "Tim sertifikovanih računovođa i finansijskih savetnika posvećen tome da preduzeća u Bosni i Hercegovini napreduju."
     },
     "section": {
       "title": "Naš tim",
@@ -281,42 +309,42 @@
     "leadership": {
       "hamza": {
         "role": "Osnivač, izvršni direktor i tehnički direktor",
-        "bio": "Vizionarski lider i tehnički arhitekta sa KSNUMKS + godina iskustva u poslovnom softveru, specijalizovan za AI / ML, cloud platforme i skalabilnu arhitekturu proizvoda.",
+        "bio": "Vizionarski lider i tehnički arhitekta sa više od 10 godina iskustva u razvoju poslovnog softvera, specijalizovan za AI/ML, cloud platforme i skalabilnu arhitekturu proizvoda.",
         "expertise": [
-          "AI / ML",
-          "Bilten",
+          "AI/ML",
+          "Azure",
           ".NET",
-          "Bilten",
+          "Python",
           "Arhitektura rešenja",
-          "Inženjering oblaka"
+          "Cloud inženjering"
         ]
       },
       "ahmet": {
-        "role": "Glavni arhitekta bezbednosti",
-        "bio": "Stručnjak za kibernetičku sigurnost fokusiran na sigurnosnu arhitekturu preduzeća, sigurnu infrastrukturu na lokaciji i isporuku prioriteta usklađenosti za regulisana okruženja.",
+        "role": "Glavni arhitekta za bezbednost",
+        "bio": "Stručnjak za sajber bezbednost fokusiran na bezbednosnu arhitekturu velikih sistema, bezbednu lokalnu (on-prem) infrastrukturu i isporuku usklađenu sa propisima za regulisana okruženja.",
         "expertise": [
           "Sajber bezbednost",
           "On-prem sistemi",
           "Bezbednosna arhitektura",
-          "Usaglašenost",
+          "Usklađenost",
           "Bezbednost infrastrukture"
         ]
       }
     },
     "aria": {
-      "email": "Pošaljite email {{name}}",
+      "email": "Pošaljite e-mail: {{name}}",
       "linkedin": "{{name}} LinkedIn profil"
     },
     "culture": {
       "title": "Život u Start HN",
       "description": "Negujemo kulturu izvrsnosti, poverenja i kontinuiranog profesionalnog razvoja",
       "remoteFirst": {
-        "title": "Kultura na daljinu",
-        "description": "Radi sa bilo kog mesta sa fleksibilnim radnim vremenom i fokusom na rezultate, a ne na lokaciju."
+        "title": "Kultura rada na daljinu",
+        "description": "Radite sa bilo kog mesta, uz fleksibilno radno vreme i fokus na rezultate, a ne na lokaciju."
       },
       "collaborative": {
         "title": "Kolaborativno okruženje",
-        "description": "Redovni timski događaji, sesije za razmenu znanja i unakrsna saradnja."
+        "description": "Redovna timska okupljanja, razmena znanja i saradnja između timova."
       },
       "workLife": {
         "title": "Ravnoteža između posla i života",
@@ -324,28 +352,28 @@
       },
       "innovation": {
         "title": "Vreme inovacija",
-        "description": "20% vremena za lične projekte, hackathone i istraživanje novih tehnologija."
+        "description": "20% vremena za lične projekte, hakatone i istraživanje novih tehnologija."
       },
       "stats": {
         "teamMembers": "Članovi tima",
-        "countries": "Država",
-        "techStacks": "Tehnologija gomile",
-        "remoteReady": "Spreman za daljinsko upravljanje"
+        "countries": "Zemlje",
+        "techStacks": "Tehnološki stekovi",
+        "remoteReady": "Spremni za rad na daljinu"
       }
     },
     "cta": {
       "title": "Da li želite da se pridružite našem timu?",
-      "description": "Uvek smo u potrazi za talentovanim ljudima koji brinu o stvaranju, posedovanju i inovacijama.",
+      "description": "Uvek tražimo talentovane ljude kojima su važni kvalitet rada, odgovornost i inovacije.",
       "button": "Kontaktirajte nas"
     }
   },
   "careers": {
     "badge": "Pridružite se našem timu",
     "hero": {
-      "title": "Rasti sa nama u",
-      "titleHighlight": "Računovodstvo i finansije",
-      "description": "Start HN je rastuća računovodstvena agencija. Tražimo posvećene profesionalce koji žele da izgrade značajnu karijeru u računovodstvu, porezu i finansijskim uslugama.",
-      "button": "Pogledajte otvorena mesta"
+      "title": "Rastite sa nama u",
+      "titleHighlight": "računovodstvu i finansijama",
+      "description": "Start HN je rastuća računovodstvena agencija. Tražimo posvećene profesionalce koji žele da izgrade smislenu karijeru u računovodstvu, porezima i finansijskim uslugama.",
+      "button": "Pogledajte otvorene pozicije"
     },
     "perks": [
       {
@@ -354,19 +382,19 @@
       },
       {
         "title": "Stručno usavršavanje",
-        "description": "Obuka, mentorstvo i podrška sertifikatima"
+        "description": "Obuke, mentorstvo i podrška pri sertifikaciji"
       },
       {
-        "title": "Timska podrška",
-        "description": "Pozitivno okruženje u kojem ćete biti saslušani"
+        "title": "Tim koji sarađuje",
+        "description": "Podržavajuće okruženje u kojem se vaš glas čuje"
       }
     ],
     "process": {
-      "title": "Kako regrutujemo",
+      "title": "Kako zapošljavamo",
       "description": "Jednostavan, transparentan proces uz poštovanje vašeg vremena",
       "steps": [
         {
-          "title": "Pošalji biografiju",
+          "title": "Pošaljite CV",
           "description": "Pošaljite nam svoj CV i motivaciono pismo na našu e-mail adresu."
         },
         {
@@ -375,7 +403,7 @@
         },
         {
           "title": "Zapošljavanje",
-          "description": "Nakon uspešnog intervjua, nudimo ugovor o radu i proces uključivanja."
+          "description": "Nakon uspešnog razgovora nudimo ugovor o radu i uvođenje u posao."
         }
       ]
     },
@@ -387,51 +415,51 @@
       "sendCv": "Pošaljite nam svoj CV",
       "labels": {
         "responsibilities": "Odgovornosti",
-        "requirements": "Zahtevi",
-        "offers": "Ono što nudimo"
+        "requirements": "Uslovi",
+        "offers": "Šta nudimo"
       },
       "listings": [
         {
           "title": "Sertifikovani računovođa",
-          "summary": "Održavanje knjigovodstva i finansijskog izveštavanja za naše klijente - mala i srednja preduzeća.",
+          "summary": "Vođenje knjigovodstva i finansijskog izveštavanja za naše klijente iz reda malih i srednjih preduzeća.",
           "responsibilities": [
-            "Knjigovodstvo za mala i srednja preduzeća",
-            "Priprema finansijskih izveštaja (bilans stanja, račun dobiti i gubitka)",
+            "Vođenje poslovnih knjiga za mala i srednja preduzeća",
+            "Izrada finansijskih izveštaja (bilans stanja, bilans uspeha)",
             "Usklađivanje računa, kasa i bankovnih izvoda",
             "Saradnja sa revizorima i poreskim savetnicima"
           ],
           "requirements": [
-            "6 ili 7 stepeni u računovodstvu ili finansijama",
-            "Aktivna sertifikovana licenca računovođe",
-            "Minimalno 3 godine radnog iskustva u računovodstvenoj agenciji.",
-            "Odlično poznavanje lokalnih računovodstvenih standarda i propisa.",
-            "Vešto rukovanje računovodstvenim softverom (Panteon, iCenter ili slično)"
+            "Visoka stručna sprema iz oblasti računovodstva ili finansija (VI/VII stepen)",
+            "Aktivna licenca sertifikovanog računovođe",
+            "Najmanje 3 godine iskustva u računovodstvenoj agenciji",
+            "Odlično poznavanje lokalnih računovodstvenih standarda i propisa",
+            "Vešto korišćenje računovodstvenih programa (Pantheon, iCenter ili sličnih)"
           ],
           "offers": [
-            "Redovna i konkurentna plata.",
-            "Mogućnost profesionalnog usavršavanja i pohađanja treninga",
-            "Pozitivno radno okruženje i timska podrška.",
+            "Redovna i konkurentna plata",
+            "Mogućnosti stručnog usavršavanja i obuka",
+            "Pozitivno radno okruženje i podrška tima",
             "Fleksibilno radno vreme po dogovoru"
           ]
         },
         {
           "title": "Poreski savetnik",
-          "summary": "Savetujte klijente o poreskom planiranju, usklađenosti i zastupanju pred IRS-om.",
+          "summary": "Savetovanje klijenata o poreskom planiranju i usklađenosti i zastupanje pred Poreskom upravom.",
           "responsibilities": [
-            "Savetovanje klijenata o pitanjima poreskog planiranja i optimizacije",
+            "Savetovanje klijenata o poreskom planiranju i optimizaciji",
             "Priprema i podnošenje poreskih prijava (PDV, porez na dohodak, porez na dobit)",
             "Praćenje promena poreskih propisa i informisanje klijenata",
             "Zastupanje klijenata u komunikaciji sa Poreskom upravom"
           ],
           "requirements": [
-            "Diplomirao je računovodstvo, pravo ili srodne oblasti",
-            "Sertifikat u poreskom savetovanju (prednost)",
+            "Diploma iz računovodstva, prava ili srodne oblasti",
+            "Sertifikat iz poreskog savetovanja (prednost)",
             "Minimalno 4 godine iskustva u oblasti oporezivanja",
-            "Voleo bih da znam poreske zakone",
-            "Analitičke veštine i pažnja na detalje"
+            "Poznavanje poreskog zakonodavstva BiH",
+            "Analitičke veštine i izražena pažnja prema detaljima"
           ],
           "offers": [
-            "Redovna i konkurentna plata.",
+            "Redovna i konkurentna plata",
             "Stručno usavršavanje i obrazovanje u oblasti poreskog prava",
             "Dinamičan tim u prijatnom radnom okruženju",
             "Mogućnost napredovanja u karijeri"
@@ -444,76 +472,76 @@
             "Podrška višim računovođama u knjigovodstvu",
             "Unos i kontrola računovodstvenih dokumenata",
             "Priprema za finansijsko izveštavanje",
-            "Obavljajte administrativne poslove vezane za računovodstvo."
+            "Obavljanje administrativnih poslova vezanih za računovodstvo"
           ],
           "requirements": [
-            "4. ili 6. stepen računovodstva ili ekonomije",
+            "Srednja ili visoka stručna sprema iz računovodstva ili ekonomije (IV/VI stepen)",
             "Poznavanje osnova računovodstva",
-            "Pažnja na detalje i organizacione sposobnosti",
+            "Pažnja prema detaljima i dobre organizacione sposobnosti",
             "Poželjno je prethodno radno iskustvo (stažiranje ili slično)"
           ],
           "offers": [
             "Mentorstvo od strane iskusnih računovođa",
-            "Mogućnost pohađanja stručnih usavršavanja i dobijanje sertifikata",
-            "Podsticajna plata i bonusi za performanse",
-            "Izgledi za napredovanje u kompaniji"
+            "Mogućnosti stručnog usavršavanja i sticanja sertifikata",
+            "Bonusi za učinak",
+            "Mogućnost napredovanja u kompaniji"
           ]
         },
         {
           "title": "Menadžer kancelarije / administrativni asistent",
-          "summary": "Obezbedite nesmetano poslovanje kancelarije - prijem klijenata, upravljanje dokumentima i internu koordinaciju.",
+          "summary": "Brinete o nesmetanom radu kancelarije — prijem klijenata, upravljanje dokumentima i interna koordinacija.",
           "responsibilities": [
             "Organizacija i administracija kancelarijskog poslovanja",
             "Primanje klijenata i upravljanje komunikacijom (telefon, e-mail)",
             "Arhiviranje dokumenata i vođenje evidencije",
-            "Koordinacija internih procesa i podrška timu."
+            "Koordinacija internih procesa i podrška timu"
           ],
           "requirements": [
             "Srednje ili visoko obrazovanje, poželjno ekonomsko ili administrativno",
-            "Iskustvo u administrativnom radu min. 1-2 godine",
+            "1–2 godine iskustva u administrativnim poslovima",
             "Odlične komunikacijske i organizacione sposobnosti",
-            "Vešto rukovanje MS Office alatima"
+            "Vešto korišćenje MS Office alata"
           ],
           "offers": [
             "Prijatno i dinamično radno okruženje",
             "Mogućnost napredovanja",
-            "Redovna plata i beneficije."
+            "Redovna plata i beneficije"
           ]
         }
       ]
     },
     "cta": {
       "title": "Spremni da nam se pridružite?",
-      "description": "Pošaljite svoj CV na info@starthn.ba i mi ćemo vam se javiti u najkraćem mogućem roku.",
+      "description": "Pošaljite svoj CV na klijenti@starthn.ba i javićemo vam se u najkraćem mogućem roku.",
       "button": "Kontaktirajte nas"
     }
   },
   "caseStudies": {
     "badge": "Priče o uspehu",
     "hero": {
-      "titlePrefix": "Isporuka rezultata koji",
-      "titleHighlight": "Materija",
-      "description": "Istražite kako smo pomogli kompanijama u svim industrijama da transformišu svoje poslovanje kroz praktične tehnologije visokog uticaja.",
+      "titlePrefix": "Isporučujemo rezultate koji",
+      "titleHighlight": "su važni",
+      "description": "Pogledajte kako smo kompanijama iz različitih delatnosti pomogli da unaprede poslovanje uz praktičnu tehnologiju velikog uticaja.",
       "tags": {
-        "delivery": "Inženjering Isporuka",
-        "outcomes": "Mereni ishodi"
+        "delivery": "Inženjerska isporuka",
+        "outcomes": "Merljivi rezultati"
       }
     },
     "stats": {
       "projects": "Realizovani projekti",
-      "clients": "Srećni kupci",
-      "efficiency": "Prosečan dobitak efikasnosti",
-      "retention": "Zadržavanje kupaca"
+      "clients": "Zadovoljni klijenti",
+      "efficiency": "Prosečno povećanje efikasnosti",
+      "retention": "Zadržavanje klijenata"
     },
     "items": [
       {
         "id": "1",
-        "client": "Globalno FinTech Corp",
+        "client": "Global FinTech Corp",
         "industry": "Finansijske usluge",
-        "title": "Migracija i modernizacija oblaka",
-        "description": "Oni su migrirali naslijeđene bankarske sisteme u AVS cloud infrastrukturu bez zastoja.",
-        "challenge": "Nasleđena monolitna arhitektura izaziva probleme skalabilnosti",
-        "result": "Uspešno migriran na mikroservise na AVS-u",
+        "title": "Migracija i modernizacija u oblaku",
+        "description": "Migracija zastarelih bankarskih sistema na AWS cloud infrastrukturu bez prekida rada.",
+        "challenge": "Zastarela monolitna arhitektura izazivala je probleme sa skalabilnošću",
+        "result": "Uspešna migracija na mikroservise na AWS-u",
         "metrics": [
           {
             "label": "Smanjenje troškova",
@@ -525,20 +553,20 @@
           }
         ],
         "tags": [
-          "OMILjENO",
-          "Bilten",
+          "AWS",
+          "Kubernetes",
           "Mikroservisi",
           "DevOps"
         ]
       },
       {
         "id": "2",
-        "client": "HealthTech rešenja",
+        "client": "HealthTech Solutions",
         "industry": "Zdravstvo",
-        "title": "Dijagnostička platforma sa AI-om",
-        "description": "Stvorio sam ML modele za analizu medicinskih slika sa tačnošću KSNUMKS% +.",
+        "title": "Dijagnostička platforma zasnovana na veštačkoj inteligenciji",
+        "description": "Razvoj ML modela za analizu medicinskih snimaka sa tačnošću većom od 95%.",
         "challenge": "Ručni dijagnostički procesi traju predugo",
-        "result": "Automatizovana dijagnostika sa AI / ML",
+        "result": "Automatizovana dijagnostika uz AI/ML",
         "metrics": [
           {
             "label": "Ušteda vremena",
@@ -550,9 +578,9 @@
           }
         ],
         "tags": [
-          "Bilten",
-          "Pretraživanje",
-          "Pretraživanje",
+          "Python",
+          "TensorFlow",
+          "React",
           "Zdravstvo"
         ]
       },
@@ -561,12 +589,12 @@
         "client": "Gigant elektronske trgovine",
         "industry": "Maloprodaja",
         "title": "Kontrolna tabla za analitiku u realnom vremenu",
-        "description": "Razvio sam BI platformu koja obrađuje KSNUMKSM + događaje dnevno.",
-        "challenge": "Nema vidljivosti u realnom vremenu u ključnim poslovnim metrikama",
+        "description": "Razvoj BI platforme koja dnevno obrađuje više od 10 miliona događaja.",
+        "challenge": "Nije postojao uvid u ključne poslovne pokazatelje u realnom vremenu",
         "result": "Platforma za analitiku i uvide u realnom vremenu",
         "metrics": [
           {
-            "label": "Događaji / Dan",
+            "label": "Događaji/dan",
             "value": "10M+"
           },
           {
@@ -577,27 +605,27 @@
         "tags": [
           "BigQuery",
           "Kafka",
-          "Pretraživanje",
+          "React",
           "Inženjering podataka"
         ]
       }
     ],
     "cta": {
-      "title": "Spremni ste da napišete svoju priču o uspehu?",
-      "description": "Hajde da razgovaramo o tome kako vam možemo pomoći da postignete slične rezultate i skalu sa poverenjem."
+      "title": "Spremni da napišete svoju priču o uspehu?",
+      "description": "Razgovarajmo o tome kako vam možemo pomoći da postignete slične rezultate i sigurno rastete."
     },
     "filters": {
-      "title": "Industrijski filter",
-      "all": "Sve industrije",
-      "empty": "Nijedna od studija slučaja ne odgovara odabranom industrijskom filteru."
+      "title": "Filter po delatnosti",
+      "all": "Sve delatnosti",
+      "empty": "Nijedna studija slučaja ne odgovara izabranoj delatnosti."
     }
   },
   "blog": {
-    "badge": "Fejsbuk",
+    "badge": "Blog",
     "hero": {
-      "titlePrefix": "Saveti i vodiči iz",
-      "titleHighlight": "Početak HN",
-      "description": "Praktični računovodstveni savjeti, poreski vodiči i poslovne vijesti iz Sarajeva."
+      "titlePrefix": "Saveti i uvidi od",
+      "titleHighlight": "Start HN",
+      "description": "Praktični računovodstveni saveti, poreski vodiči i poslovni saveti našeg tima iz Sarajeva."
     },
     "categories": [
       "Svi postovi",
@@ -605,65 +633,65 @@
       "Porezi",
       "Finansije",
       "Poslovni saveti",
-      "Prijavite se"
+      "PDV"
     ],
     "featuredPost": {
-      "id": "Izdvajamo",
+      "id": "featured",
       "title": "PDV u 2025. godini: Ključne promene za preduzetnike",
-      "excerpt": "Pregled najnovijih izmjena propisa o PDV-u u Federaciji BiH i šta one znače za vaše poslovanje.",
+      "excerpt": "Pregled najnovijih izmena propisa o PDV-u u Federaciji BiH i šta one znače za vaše poslovanje.",
       "author": {
-        "name": "Početak HN Uvodnik"
+        "name": "Redakcija Start HN"
       },
-      "date": "januar 15, 2025",
+      "date": "15. januar 2025.",
       "readTime": "6 min čitanja",
-      "category": "Prijavite se",
+      "category": "PDV",
       "tags": [
-        "Prijavite se",
-        "Porezi",
-        "FBiH"
+        "PDV",
+        "Porez na dodatu vrednost",
+        "Porezi"
       ]
     },
     "posts": [
       {
         "id": "1",
-        "title": "Godišnja naplata za mala preduzeća: kompletna lista čekova",
-        "excerpt": "Korak po korak vodič za zatvaranje knjiga i održavanje usaglašenosti pre roka.",
+        "title": "Kontrolna lista za kraj godine za mala preduzeća",
+        "excerpt": "Vodič korak po korak za pravilno zatvaranje knjiga i usklađenost sa propisima pre roka.",
         "author": {
-          "name": "Početak HN Uvodnik"
+          "name": "Redakcija Start HN"
         },
-        "date": "Decembar 20, 2024",
+        "date": "20. decembar 2024.",
         "readTime": "5 min čitanja",
         "category": "Računovodstvo",
         "tags": [
-          "Godišnji računi",
-          "Objavljivanje",
+          "Kraj godine",
+          "Knjigovodstvo",
           "Usaglašenost"
         ]
       },
       {
         "id": "2",
-        "title": "Zašto Outsourcing Računovodstvo štedi novac malim preduzećima",
+        "title": "Zašto eksterno računovodstvo malim preduzećima štedi novac",
         "excerpt": "Analiza stvarnih troškova internog knjigovodstva u odnosu na rad sa profesionalnom računovodstvenom firmom.",
         "author": {
-          "name": "Početak HN Uvodnik"
+          "name": "Redakcija Start HN"
         },
-        "date": "Oktobar 18, 2024",
+        "date": "10. novembar 2024.",
         "readTime": "7 min čitanja",
         "category": "Poslovni saveti",
         "tags": [
           "Outsourcing",
-          "Štednja",
-          "Mala i srednja preduzeća"
+          "Uštede",
+          "MSP"
         ]
       },
       {
         "id": "3",
-        "title": "Poreske prijave u SAD: Ono što ne treba propustiti",
+        "title": "Rokovi za poreske prijave u FBiH: šta ne smete propustiti",
         "excerpt": "Jasan kalendar svih značajnih poreskih rokova u Federaciji Bosne i Hercegovine za 2025. godinu.",
         "author": {
-          "name": "Početak HN Uvodnik"
+          "name": "Redakcija Start HN"
         },
-        "date": "januar 5, 2025",
+        "date": "5. januar 2025.",
         "readTime": "4 min čitanja",
         "category": "Porezi",
         "tags": [
@@ -675,22 +703,38 @@
     ],
     "newsletter": {
       "title": "Pretplatite se na naš bilten",
-      "description": "Dobijte najnovije računovodstvene savete, poreska upozorenja i poslovne vesti dostavljene u vaš inbok.",
-      "placeholder": "vasa.adresa@email.com",
-      "button": "Prijavite se",
+      "description": "Primajte najnovije računovodstvene savete, poreska upozorenja i poslovne uvide direktno u svoje prijemno sanduče.",
+      "placeholder": "vasa.adresa@example.com",
+      "button": "Pretplatite se",
       "note": "Nema spama. Odjavite se u bilo kom trenutku."
     },
     "index": {
       "hero": {
-        "title": "Pokreni HN Blog",
-        "description": "Praktični računovodstveni vodiči, poreski savjeti i poslovne vijesti našeg tima u Sarajevu."
+        "title": "Start HN Blog",
+        "description": "Praktični računovodstveni vodiči, poreski saveti i poslovni saveti našeg tima iz Sarajeva."
       },
       "filters": {
-        "postsInView": "{{count}} poruke u vidu"
+        "postsInView": "Prikazano objava: {{count}}",
+        "advanced": "Filteri",
+        "searchPlaceholder": "Pretražite članke po naslovu, temi ili sadržaju...",
+        "filterByTag": "Filtriraj po oznaci",
+        "clearTag": "Poništi",
+        "searchTags": "Pretražite oznake...",
+        "noTagsMatch": "Nijedna oznaka ne odgovara pretrazi."
       },
+      "pagination": {
+        "label": "Stranice bloga",
+        "previous": "Prethodna stranica",
+        "next": "Sledeća stranica",
+        "showing": "Prikaz {{from}}–{{to}} od {{total}}",
+        "show": "Prikaži"
+      },
+      "noPosts": "Još nema objava na blogu.",
+      "noResults": "Nijedna objava ne odgovara izabranim filterima.",
+      "clearFilters": "Poništi sve filtere",
       "featured": {
-        "badge": "Najnoviji",
-        "readCta": "Pročitajte istaknuti post"
+        "badge": "Najnovije",
+        "readCta": "Pročitajte istaknutu objavu"
       }
     }
   },
@@ -706,24 +750,24 @@
     },
     "messages": {
       "profileUpdated": "Profil je uspešno ažuriran",
-      "profileUpdateFailed": "Nema ažuriranog ažuriranja profila",
+      "profileUpdateFailed": "Ažuriranje profila nije uspelo",
       "passwordsNoMatch": "Nove lozinke se ne poklapaju",
       "passwordTooShort": "Lozinka mora biti dugačka najmanje 8 znakova",
       "passwordChanged": "Lozinka je uspešno promenjena",
-      "passwordChangeFailed": "Nije uspelo da promenite lozinku",
-      "optedOut": "Isključeni iz izveštaja o vežbanju",
-      "optedIn": "Prijavio sam se za izveštaje o obuci",
-      "optOutFailed": "Nije ažuriranje statusa prekid"
+      "passwordChangeFailed": "Promena lozinke nije uspela",
+      "optedOut": "Isključili ste se iz izveštaja prakse",
+      "optedIn": "Uključili ste se u izveštaje prakse",
+      "optOutFailed": "Ažuriranje statusa isključenja nije uspelo"
     },
     "general": {
       "title": "Lični podaci",
       "description": "Ažurirajte svoje lične podatke i kontakt informacije",
-      "firstName": "Ime i prezime",
-      "firstNamePlaceholder": "John",
+      "firstName": "Ime",
+      "firstNamePlaceholder": "Amir",
       "lastName": "Prezime",
-      "lastNamePlaceholder": "Bilten",
-      "email": "Email adresa",
-      "emailNotice": "E-mail se ne može promeniti. Obratite se podršci ako vam je potrebna pomoć.",
+      "lastNamePlaceholder": "Hodžić",
+      "email": "E-mail adresa",
+      "emailNotice": "E-mail adresa se ne može promeniti. Obratite se podršci ako vam je potrebna pomoć.",
       "phone": "Broj telefona",
       "phonePlaceholder": "+1 (555) 000-0000",
       "save": "Sačuvaj izmene"
@@ -744,35 +788,35 @@
       "title": "Podešavanja obaveštenja",
       "description": "Kontrolišite način na koji primate ažuriranja i obaveštenja",
       "email": {
-        "title": "Email obavijesti",
-        "description": "Primajte obavijesti i obavijesti putem e-pošte"
+        "title": "Obaveštenja e-mailom",
+        "description": "Primajte novosti i upozorenja putem e-maila"
       },
       "sms": {
         "title": "SMS obaveštenja",
         "description": "Primajte važna obaveštenja putem SMS-a"
       },
       "optOut": {
-        "title": "Izveštaji o odjavi pripravništva",
+        "title": "Isključenje iz izveštaja prakse",
         "description": "Sakrijte svoje izveštaje od vlasnika prakse"
       },
       "actions": {
         "title": "Akcije naloga",
-        "downloadData": "Preuzmite informacije o nalogu",
+        "downloadData": "Preuzmite podatke naloga",
         "deleteAccount": "Izbriši nalog"
       }
     }
   },
   "support": {
-    "backHome": "Povratak kući",
+    "backHome": "Nazad na početnu",
     "title": "Centar za podršku",
-    "subtitle": "Potražite pomoć u vezi sa našim uslugama razvoja softvera.",
+    "subtitle": "Potražite pomoć u vezi sa našim uslugama razvoja softvera",
     "cards": {
       "email": {
-        "title": "Email podrška",
-        "description": "Pošaljite nam email za bilo kakve upite"
+        "title": "Podrška e-mailom",
+        "description": "Pišite nam za sve upite"
       },
       "project": {
-        "title": "Pitanja o projektu",
+        "title": "Upiti o projektima",
         "description": "Razgovarajte o zahtevima vašeg projekta",
         "button": "Kontaktirajte nas"
       },
@@ -787,11 +831,11 @@
     "faqs": [
       {
         "question": "Koje usluge nudi Start HN?",
-        "answer": "Pružamo knjigovodstvo, platni spisak, poresko savetovanje, vCFO usluge, registraciju i izveštavanje o PDV-u, kao i kompletan računovodstveni outsourcing."
+        "answer": "Pružamo usluge knjigovodstva, obračuna plata, poreskog savetovanja, virtuelnog CFO-a, registracije za PDV i PDV prijava, kao i kompletan računovodstveni outsourcing."
       },
       {
-        "question": "Kako da počnem sa NHL-om?",
-        "answer": "Kontaktirajte nas putem obrasca ili e-maila. Zakazaćemo besplatan uvodni poziv i podeliti predlog prilagođen vašim potrebama."
+        "question": "Kako da počnem saradnju sa Start HN?",
+        "answer": "Kontaktirajte nas putem obrasca ili e-mailom i opišite svoje potrebe. Zakazaćemo besplatan uvodni razgovor i poslati vam ponudu prilagođenu vašim potrebama."
       },
       {
         "question": "Da li pružate stalnu podršku i održavanje?",
@@ -800,27 +844,27 @@
     ]
   },
   "education": {
-    "backHome": "Povratak kući",
+    "backHome": "Nazad na početnu",
     "title": "Tehnički resursi",
     "subtitle": "Vodiči, resursi i praktični saveti Start HN tima",
     "hub": {
       "title": "Centar za učenje",
-      "description": "Istražite naše pažljivo odabrane tehničke resurse u oblastima oblaka, AI / ML, DevOps i modernog razvoja softvera.",
+      "description": "Istražite naše odabrane tehničke resurse iz oblasti clouda, AI/ML-a, DevOps-a i savremenog razvoja softvera.",
       "note": "Ovi materijali su zasnovani na stvarnom iskustvu na projektima i redovno se ažuriraju."
     },
     "categories": [
       {
         "icon": "cloud",
-        "title": "Arhitektura oblaka",
-        "description": "Azure, AVS i oblici u oblaku",
+        "title": "Cloud arhitektura",
+        "description": "Azure, AWS i cloud-native obrasci",
         "resources": [
           {
             "title": "Najbolje prakse Azure arhitekture",
-            "type": "Pretraga"
+            "type": "Vodič"
           },
           {
-            "title": "Strategije migracije u oblaku",
-            "type": "Član"
+            "title": "Strategije migracije u cloud",
+            "type": "Članak"
           }
         ]
       },
@@ -831,11 +875,11 @@
         "resources": [
           {
             "title": "Uvod u Azure ML",
-            "type": "Telugu"
+            "type": "Tutorijal"
           },
           {
-            "title": "Izgradnja proizvodnih ML cevovoda",
-            "type": "Pretraga"
+            "title": "Izrada produkcionih ML pipeline-ova",
+            "type": "Vodič"
           }
         ]
       },
@@ -845,27 +889,27 @@
         "description": "CI / CD, infrastruktura kao kod, automatizacija",
         "resources": [
           {
-            "title": "Azure DevOps Pipeline Setup",
-            "type": "Telugu"
+            "title": "Podešavanje Azure DevOps pipeline-a",
+            "type": "Tutorijal"
           },
           {
             "title": "Infrastruktura kao kod sa Terraform-om",
-            "type": "Pretraga"
+            "type": "Vodič"
           }
         ]
       },
       {
         "icon": "code",
         "title": "Razvoj softvera",
-        "description": ".NET, React, i savremene razvojne prakse",
+        "description": ".NET, React i savremene razvojne prakse",
         "resources": [
           {
-            "title": "Čista arhitektura u . BILTEN",
-            "type": "Pretraga"
+            "title": "Čista arhitektura u .NET-u",
+            "type": "Vodič"
           },
           {
-            "title": "Reagujte najbolje prakse",
-            "type": "Član"
+            "title": "Najbolje prakse za React",
+            "type": "Članak"
           }
         ]
       },
@@ -875,20 +919,20 @@
         "description": "BI, skladištenje podataka i analitičke platforme",
         "resources": [
           {
-            "title": "Dizajn kontrolne table Pover BI-ja",
-            "type": "Telugu"
+            "title": "Dizajn Power BI kontrolnih tabli",
+            "type": "Tutorijal"
           },
           {
             "title": "Arhitektura skladišta podataka",
-            "type": "Pretraga"
+            "type": "Vodič"
           }
         ]
       }
     ],
     "training": {
       "title": "Da li vam je potrebna prilagođena obuka?",
-      "description": "Nudimo radionice prilagođene inženjerima i proizvodnim timovima",
-      "text": "Potrebna vam je praktična timska obuka? Nudimo prilagođene radionice o arhitekturi oblaka, DevOps-u i savremenim praksama isporuke.",
+      "description": "Nudimo prilagođene radionice za inženjerske i produktne timove",
+      "text": "Potrebna vam je praktična obuka za tim? Nudimo prilagođene radionice o cloud arhitekturi, DevOps-u i savremenim praksama isporuke.",
       "button": "Kontaktirajte nas"
     }
   },
@@ -896,16 +940,16 @@
     "title": "Pristup odbijen",
     "description": "Nemate dozvolu za pristup ovoj stranici. Obratite se svom administratoru ako mislite da je ovo greška.",
     "primary": "Idi na profil",
-    "secondary": "Povratak kući"
+    "secondary": "Nazad na početnu"
   },
   "blogPost": {
     "notFound": {
-      "title": "Poruka nije pronađena",
-      "description": "Ne postoji blog post za puž: {{slug}}",
-      "back": "Povratak na blog"
+      "title": "Članak nije pronađen",
+      "description": "Ne postoji članak na blogu sa adresom: {{slug}}",
+      "back": "Nazad na blog"
     },
-    "back": "Povratak na blog",
-    "publisher": "Početak HN"
+    "back": "Nazad na blog",
+    "publisher": "Start HN"
   },
   "caseStudyDetail": {
     "notFound": {
@@ -915,11 +959,11 @@
     },
     "back": "Nazad na studije slučaja",
     "sections": {
-      "executiveSummary": "Izvršni rezime",
+      "executiveSummary": "Rezime",
       "businessChallenge": "Poslovni izazov",
       "technicalSolution": "Tehničko rešenje",
       "architectureDecisions": "Odluke o arhitekturi",
-      "technologyStack": "Tehnologija Stek",
+      "technologyStack": "Tehnološki stek",
       "resultsImpact": "Rezultati i uticaj"
     },
     "client": "Klijent",
@@ -928,169 +972,179 @@
   },
   "error": {
     "notFound": {
-      "badge": "404 // Signal izgubljen",
+      "badge": "404 · Stranica nije pronađena",
       "title": "Stranica nije pronađena",
-      "description": "Stranica koju ste tražili ne postoji ili je premeštena. Hajde da te vratimo na pravo mesto.",
-      "requestedPath": "Tražena staza",
+      "description": "Stranica koju ste tražili ne postoji ili je premeštena. Vratićemo vas na pravi put.",
+      "requestedPath": "Tražena putanja",
       "terminal": {
         "prompt": "$ starthn resolve --path",
-        "line1": "Rešavanje grafikona rute ... Nije uspeo",
-        "line2": "Razlog: ne postoji modul za podudaranje ruta",
+        "line1": "Razrešavanje grafa ruta... neuspešno",
+        "line2": "Razlog: nema odgovarajućeg modula rute",
         "line3": "Rezervni protokol aktiviran",
         "line4": "Koristite jednu od prečica ispod da biste nastavili"
       },
       "links": {
-        "home": "Mapa sajta",
+        "home": "Početna",
         "services": "Usluge",
-        "blog": "Fejsbuk",
+        "blog": "Blog",
         "caseStudies": "Studije slučaja"
       }
     },
     "runtime": {
       "badge": "Greška izvršenja",
       "title": "Nešto je pošlo naopako na ovoj stranici",
-      "description": "Neočekivani problem prekinuo rendering. Možete pokušati ponovo bezbedno, ili se vratiti na početnu stranicu.",
+      "description": "Neočekivani problem je prekinuo prikaz stranice. Možete bezbedno pokušati ponovo ili se vratiti na početnu stranicu.",
       "retry": "Pokušajte ponovo",
       "home": "Povratak na početnu stranicu",
-      "unknown": "Nepoznata greška tokom izvršenja"
+      "unknown": "Nepoznata greška tokom izvršenja",
+      "hint": "Ako se problem ponovi, pokušajte ponovo kasnije."
+    },
+    "offline": {
+      "title": "Niste povezani na internet",
+      "description": "Ova stranica ne može da se učita jer nema internet veze. Proverite vezu i pokušajte ponovo.",
+      "hint": "Stranica će ponovo raditi čim se veza uspostavi.",
+      "banner": "Niste povezani na internet. Neki sadržaji možda nisu dostupni."
+    },
+    "loading": {
+      "blog": "Učitavanje..."
     }
   },
   "meta": {
-    "siteName": "Pokreni HN Blog"
+    "siteName": "Start HN Blog"
   },
   "admin": {
     "blog": {
       "title": "Blog menadžment",
-      "subtitle": "Kreirajte, uređujte i upravljajte svojim postovima u blogu",
-      "newPost": "Nova pozicija",
-      "seedData": "Podaci o semenu",
-      "allPosts": "Sve funkcije",
+      "subtitle": "Kreirajte, uređujte i upravljajte objavama na blogu",
+      "newPost": "Nova objava",
+      "seedData": "Početni podaci",
+      "allPosts": "Sve objave",
       "published": "Objavljeno",
       "draft": "Nacrt",
-      "featured": "Izdvajamo",
-      "setFeatured": "Prikazan skup",
+      "featured": "Istaknuto",
+      "setFeatured": "Označi kao istaknuto",
       "removeFeatured": "Ukloni istaknuto",
       "table": {
-        "title": "Pretraga",
-        "category": "Kategorije",
-        "status": "Istorijat",
+        "title": "Naslov",
+        "category": "Kategorija",
+        "status": "Status",
         "date": "Datum",
         "actions": "Akcije"
       },
       "empty": {
-        "message": "Još uvek nema postova na blogu. Kreirajte svoj prvi post ili podatke o semenu.",
-        "seed": "Informacije o uzorku semena",
-        "create": "Kreiraj post"
+        "message": "Još nema objava na blogu. Kreirajte prvu objavu ili učitajte primer podataka.",
+        "seed": "Učitaj primer podataka",
+        "create": "Kreiraj objavu"
       },
       "delete": {
-        "title": "Izbriši post",
-        "confirmation": "Da li ste sigurni da želite da izbrišete ovaj post? Ova prodavnica se ne može otkazati.",
-        "delete": "Prijavite se",
-        "cancel": "Pretraživanje"
+        "title": "Obriši objavu",
+        "confirmation": "Da li ste sigurni da želite da obrišete ovu objavu? Ova radnja se ne može poništiti.",
+        "delete": "Obriši",
+        "cancel": "Otkaži"
       }
     },
     "editor": {
       "bannerHint": "Prikazan kao veliki baner na vrhu posta",
-      "bannerImage": "Baner Slika",
+      "bannerImage": "Slika banera",
       "coverHint": "Prikazano na karticama liste blogova",
       "coverImage": "Naslovna slika",
-      "editSlug": "Promena puževa",
-      "posts": "Karakteristike",
+      "editSlug": "Izmeni slug",
+      "posts": "Objave",
       "publish": "Objavi",
-      "update": "Ažuriranja",
+      "update": "Ažuriraj",
       "form": {
-        "contentPlaceholder": "Napišite sadržaj svog posta ovde ...",
-        "excerptPlaceholder": "Kratak rezime posta ...",
+        "contentPlaceholder": "Napišite sadržaj objave ovde...",
+        "excerptPlaceholder": "Kratak rezime objave...",
         "pickDate": "Izaberite datum",
         "readTimePlaceholder": "npr. 5 min čitanja",
-        "titlePlaceholder": "Naslov posta..."
+        "titlePlaceholder": "Naslov objave..."
       },
       "meta": {
         "publisher": "Izdavač",
         "unknownAuthor": "Nepoznati autor"
       },
       "modes": {
-        "edit": "Amandman",
-        "editOnly": "Samo modifikacija",
-        "preview": "Pretraga",
-        "previewOnly": "Samo za pregled",
-        "sideBySide": "Rame uz rame",
-        "split": "Raskol"
+        "edit": "Uređivanje",
+        "editOnly": "Samo uređivanje",
+        "preview": "Pregled",
+        "previewOnly": "Samo pregled",
+        "sideBySide": "Jedno pored drugog",
+        "split": "Podeljeno"
       },
       "tags": {
-        "heading": "Bilten",
+        "heading": "Oznake",
         "placeholder": "Dodajte oznaku..."
       },
       "translations": {
-        "auto": "Telugu",
+        "auto": "Automatski",
         "autoTranslate": "Automatsko prevođenje",
-        "clear": "Čist",
+        "clear": "Obriši",
         "existing": "Postojeći",
         "heading": "Prevodi",
         "language": "Jezik",
         "languages": "Jezici",
-        "edit": "Amandman",
-        "manual": "Priručnik",
-        "preview": "Pretraga",
-        "searchPlaceholder": "Jezici za pretragu...",
-        "translate": "Pretraživanje"
+        "edit": "Uredi",
+        "manual": "Ručno",
+        "preview": "Pregled",
+        "searchPlaceholder": "Pretražite jezike...",
+        "translate": "Prevedi"
       }
     },
     "caseStudies": {
       "title": "Studije slučaja",
       "subtitle": "Upravljanje studijama slučaja i prezentacijama projekata",
       "newCaseStudy": "Nova studija slučaja",
-      "seedData": "Podaci o semenu",
+      "seedData": "Početni podaci",
       "allCaseStudies": "Sve studije slučaja",
       "published": "Objavljeno",
       "draft": "Nacrt",
       "table": {
-        "title": "Pretraga",
-        "industry": "Industrija",
+        "title": "Naslov",
+        "industry": "Delatnost",
         "client": "Klijent",
-        "status": "Istorijat",
+        "status": "Status",
         "actions": "Akcije"
       },
       "empty": {
         "message": "Još uvek nema studija slučaja.",
-        "seed": "Podaci o semenu",
-        "create": "Na prvom mestu, kreirajte"
+        "seed": "Početni podaci",
+        "create": "Kreiraj prvu"
       },
       "delete": {
         "title": "Izbriši studiju slučaja",
-        "confirmation": "Da li ste sigurni da želite da izbrišete ovu studiju slučaja? Ova prodavnica se ne može otkazati.",
-        "delete": "Prijavite se",
-        "cancel": "Pretraživanje"
+        "confirmation": "Da li ste sigurni da želite da obrišete ovu studiju slučaja? Ova radnja se ne može poništiti.",
+        "delete": "Obriši",
+        "cancel": "Otkaži"
       }
     },
     "caseStudyEditor": {
       "back": "Studije slučaja",
       "published": "Objavljeno",
       "draft": "Nacrt",
-      "update": "Ažuriranja",
-      "create": "Prijavite se",
+      "update": "Ažuriraj",
+      "create": "Kreiraj",
       "sections": {
         "basicInfo": "Osnovne informacije",
-        "narrative": "Narativni",
+        "narrative": "Narativ",
         "architectureDecisions": "Odluke o arhitekturi",
-        "techStack": "Tehnologija Stek",
-        "results": "Pretraga",
-        "tags": "Bilten"
+        "techStack": "Tehnološki stek",
+        "results": "Rezultati",
+        "tags": "Oznake"
       },
       "fields": {
-        "title": "Pretraga",
+        "title": "Naslov",
         "titlePlaceholder": "Naslov studije slučaja",
-        "slug": "Puž",
+        "slug": "Slug",
         "slugPlaceholder": "auto-generated-from-title",
         "client": "Klijent",
-        "clientPlaceholder": "Ime i prezime klijenta",
-        "industry": "Industrija",
-        "industryPlaceholder": "Odabrana industrija",
-        "description": "Pretraga",
+        "clientPlaceholder": "Naziv klijenta",
+        "industry": "Delatnost",
+        "industryPlaceholder": "Izaberite delatnost",
+        "description": "Opis",
         "descriptionPlaceholder": "Kratak opis (prikazan na karticama)",
         "executiveSummary": "Izvršni rezime",
-        "executiveSummaryPlaceholder": "Pregled sukoba na visokom nivou",
-        "challenge": "Pretraga",
+        "executiveSummaryPlaceholder": "Kratak pregled saradnje",
+        "challenge": "Izazov",
         "challengePlaceholder": "Sa kojim problemom se klijent suočio?",
         "solution": "Rešenje",
         "solutionPlaceholder": "Kako je rešen problem?",
@@ -1098,45 +1152,45 @@
         "decisionPlaceholder": "Šta je odlučeno",
         "rationale": "Obrazloženje",
         "rationalePlaceholder": "Zašto je izabran ovaj pristup",
-        "metric": "Metrike",
+        "metric": "Metrika",
         "metricPlaceholder": "npr. kašnjenje poravnanja",
         "value": "Vrednost",
         "valuePlaceholder": "npr. -63% ili 4.8h -> 11m",
-        "resultDescription": "Pretraga",
-        "resultDescriptionPlaceholder": "Šta znači ovaj rezultat?",
+        "resultDescription": "Opis",
+        "resultDescriptionPlaceholder": "Šta ovaj rezultat znači",
         "techPlaceholder": "Dodajte tehnologiju (pritisnite Enter)",
         "tagPlaceholder": "Dodajte oznaku (pritisnite Enter)"
       },
       "add": "Dodajte",
       "noArchDecisions": "Još uvek nisu dodate arhitektonske odluke.",
-      "noResults": "Još uvek nisu dodani rezultati.",
+      "noResults": "Još nema dodatih rezultata.",
       "decisionLabel": "Odluka {{number}}",
       "resultLabel": "Rezultat {{number}}",
       "controls": {
         "published": "Objavljeno",
         "publishedDescription": "Učinite ovu studiju slučaja javno vidljivom",
-        "featured": "Izdvajamo",
+        "featured": "Istaknuto",
         "featuredDescription": "Istaknite ovu studiju slučaja"
       }
     },
     "imageCrop": {
-      "apply": "Prijavite se",
-      "cancel": "Pretraživanje",
+      "apply": "Primeni",
+      "cancel": "Otkaži",
       "cropTitle": "Izrežite sliku",
-      "dropText": "Ostavite sliku ovde ili kliknite da biste otpremili",
-      "flipHorizontal": "Okretanje horizontalno",
-      "flipVertical": "Flip vertikalno",
-      "replace": "Zamena",
-      "reset": "Resetovanje",
-      "rotateLeft": "Rotirajte levo",
-      "rotateRight": "Skrenite udesno",
-      "uploading": "Učitavanje...",
+      "dropText": "Prevucite sliku ovde ili kliknite za otpremanje",
+      "flipHorizontal": "Okreni horizontalno",
+      "flipVertical": "Okreni vertikalno",
+      "replace": "Zameni",
+      "reset": "Resetuj",
+      "rotateLeft": "Rotiraj ulevo",
+      "rotateRight": "Rotiraj udesno",
+      "uploading": "Otpremanje...",
       "toast": {
         "invalidFile": "Neispravan fajl",
-        "invalidFileDesc": "Molimo Vas da otpremite važeću slikovnu datoteku.",
+        "invalidFileDesc": "Otpremite ispravnu sliku.",
         "uploadFailed": "Otpremanje nije uspelo",
         "uploadFailedDesc": "Nešto je pošlo naopako. Pokušajte ponovo.",
-        "uploaded": "Skup slika",
+        "uploaded": "Slika je otpremljena",
         "uploadedDesc": "Vaša slika je uspešno otpremljena."
       }
     }

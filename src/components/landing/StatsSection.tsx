@@ -1,14 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation } from '@tanstack/react-router'
-import {
-  motion,
-  useInView,
-  useMotionValue,
-  useTransform,
-  animate,
-} from 'motion/react'
 import { ArrowRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import { SlideUp, observeFirstReveal } from '@/components/animations/FadeIn'
 import { Button } from '@/components/ui/button'
 import { designSystem } from '@/lib/design-system'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
@@ -29,6 +23,16 @@ function formatStatValue(value: number) {
     .replace(/\B(?=(\d{3})+(?!\d))/g, '.')
 }
 
+/** Close to the site's cubic-bezier(0.16, 1, 0.3, 1) ease-out. */
+function easeOutExpo(progress: number) {
+  return progress >= 1 ? 1 : 1 - Math.pow(2, -10 * progress)
+}
+
+/**
+ * Stat number. The server HTML and first paint show the final value; the
+ * count-up from zero only runs for a number that is still below the viewport
+ * after hydration, when it scrolls into view (never under reduced motion).
+ */
 function Counter({
   to,
   suffix,
@@ -39,28 +43,43 @@ function Counter({
   duration?: number
 }) {
   const ref = useRef<HTMLSpanElement>(null)
-  const hasAnimatedRef = useRef(false)
-  const inView = useInView(ref, { once: true, margin: '-80px' })
-  const count = useMotionValue(0)
-  const rounded = useTransform(count, formatStatValue)
-  const [display, setDisplay] = useState(() => formatStatValue(to))
+  // Value shown while counting up; null means the final value.
+  const [counting, setCounting] = useState<string | null>(null)
 
   useEffect(() => {
-    if (!inView || hasAnimatedRef.current) return
-    hasAnimatedRef.current = true
-    count.set(0)
-    setDisplay(formatStatValue(0))
-    const controls = animate(count, to, { duration, ease: [0.16, 1, 0.3, 1] })
-    const unsub = rounded.on('change', (v) => setDisplay(v))
+    const el = ref.current
+    if (!el) return undefined
+
+    let frame = 0
+    const stopObserving = observeFirstReveal(
+      el,
+      () => {
+        const start = performance.now()
+        const tick = (now: number) => {
+          const progress = Math.min(1, (now - start) / (duration * 1000))
+          setCounting(
+            progress < 1 ? formatStatValue(to * easeOutExpo(progress)) : null,
+          )
+          if (progress < 1) frame = requestAnimationFrame(tick)
+        }
+        setCounting(formatStatValue(0))
+        frame = requestAnimationFrame(tick)
+      },
+      { margin: '0px 0px -80px 0px' },
+    )
+    if (!stopObserving) return undefined
+
     return () => {
-      controls.stop()
-      unsub()
+      stopObserving()
+      cancelAnimationFrame(frame)
+      // An interrupted count-up must not leave a partial number behind.
+      setCounting(null)
     }
-  }, [inView, to, duration, count, rounded])
+  }, [to, duration])
 
   return (
     <span ref={ref} className="tabular-nums">
-      {display}
+      {counting ?? formatStatValue(to)}
       <span className="text-primary">{suffix}</span>
     </span>
   )
@@ -80,11 +99,9 @@ export function StatsSection() {
   return (
     <section className="relative bg-background py-12 md:py-14">
       <div className={cn(designSystem.spacing.page.container, 'max-w-6xl')}>
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-80px' }}
-          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+        <SlideUp
+          offset={24}
+          duration={0.6}
           className="mb-9 flex flex-col items-start justify-between gap-5 border-b border-border/60 pb-7 md:flex-row md:items-end"
         >
           <div className="max-w-3xl">
@@ -105,24 +122,14 @@ export function StatsSection() {
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
           </Button>
-        </motion.div>
+        </SlideUp>
 
         <div className="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
           {STAT_KEYS.map((key, i) => {
             const stat = items[key]
             if (!stat) return null
             return (
-              <motion.div
-                key={key}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-80px' }}
-                transition={{
-                  duration: 0.5,
-                  delay: i * 0.08,
-                  ease: [0.16, 1, 0.3, 1],
-                }}
-              >
+              <SlideUp key={key} offset={20} duration={0.5} delay={i * 0.08}>
                 <div className="font-heading text-4xl font-bold leading-none tracking-tight text-foreground md:text-5xl">
                   <Counter to={stat.value} suffix={stat.suffix} />
                 </div>
@@ -132,7 +139,7 @@ export function StatsSection() {
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                   {stat.description}
                 </p>
-              </motion.div>
+              </SlideUp>
             )
           })}
         </div>

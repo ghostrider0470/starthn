@@ -3,7 +3,14 @@ import { ArrowRight, Clock, FileText } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import type { BlogPost } from '@/data/blog-posts'
 import type { SupportedLocale } from '@/lib/i18n-utils'
-import { formatBlogPublishedDate, localizeBlogCategory, localizeBlogTag, localizeBlogReadTime } from '@/lib/blog-i18n'
+import {
+  blogAuthorInitials,
+  blogAuthorName,
+  formatBlogPublishedDate,
+  localizeBlogCategory,
+  localizeBlogTag,
+  localizeBlogReadTime,
+} from '@/lib/blog-i18n'
 import { usePublicCategories } from '@/hooks/useCategoryQueries'
 import { usePublicTags } from '@/hooks/useTagQueries'
 import { designSystem } from '@/lib/design-system'
@@ -29,6 +36,7 @@ export function BlogPostCard({
   const { data: tags = [] } = usePublicTags()
   const postHref = withLocalePath(`/blog/${post.slug}`, locale)
   const displayTags = (post.tags ?? []).slice(0, 2)
+  const authorName = blogAuthorName(post.author)
   const localizedCategory = localizeBlogCategory(categories, post.category, locale)
   const localizedSubcategory = post.subcategory
     ? localizeBlogCategory(categories, post.subcategory, locale)
@@ -136,7 +144,7 @@ export function BlogPostCard({
               {post.authorAvatarUrl ? (
                 <img
                   src={img(post.authorAvatarUrl, { width: 48, format: 'auto' })}
-                  alt={post.author}
+                  alt={authorName}
                   width={24}
                   height={24}
                   loading="lazy"
@@ -144,16 +152,11 @@ export function BlogPostCard({
                 />
               ) : (
                 <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-[10px] font-bold text-primary ring-1 ring-primary/20">
-                  {post.author
-                    .split(' ')
-                    .map((p) => p[0])
-                    .join('')
-                    .slice(0, 2)
-                    .toUpperCase()}
+                  {blogAuthorInitials(post.author)}
                 </span>
               )}
               <span className="truncate text-xs font-medium text-foreground/80">
-                {post.author}
+                {authorName}
               </span>
             </div>
 

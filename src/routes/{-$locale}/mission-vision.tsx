@@ -20,19 +20,10 @@ import {
 } from '@/components/company/CompanyPageLayout'
 import { cn } from '@/lib/utils'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
+import { localizedPageHead } from '@/lib/seo-meta'
 
 export const Route = createFileRoute('/{-$locale}/mission-vision')({
-  head: () => ({
-    meta: [
-      { title: 'Mission, Vision & Values — Start HN' },
-      {
-        name: 'description',
-        content:
-          'The mission, vision, and core values that guide Start HN accounting agency in every client engagement.',
-      },
-      { property: 'og:title', content: 'Mission, Vision & Values — Start HN' },
-    ],
-  }),
+  head: ({ params }) => localizedPageHead('missionVision', params.locale),
   component: MissionVisionPage,
 })
 
@@ -94,21 +85,15 @@ function MissionVisionPage() {
             </div>
 
             <div className="border-t border-border pt-6 lg:border-t-0 lg:border-l lg:pl-8">
-              <div className="mb-6 overflow-hidden rounded-lg border border-border">
+              <div className="overflow-hidden rounded-lg border border-border">
                 <img
                   src="/pages/mission-vision-hero.webp"
-                  alt="Professionals planning strategy"
+                  alt={t('missionVision.images.heroAlt')}
                   className="w-full object-cover"
                   loading="eager"
                   decoding="async"
                 />
               </div>
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
-                {t('missionVision.values.label')}
-              </p>
-              <h2 className="mt-3 text-2xl font-bold tracking-tight text-foreground md:text-3xl">
-                {t('missionVision.values.heading')}
-              </h2>
             </div>
           </div>
         </PageContainer>
@@ -146,24 +131,19 @@ function MissionVisionPage() {
 
       <CompanyPagePanel>
         <PageContainer maxWidth="xl" spacing="none">
-          <div className="mb-8 grid gap-4 lg:grid-cols-[0.5fr_1fr] lg:items-end">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
-                {t('missionVision.values.label')}
-              </p>
-              <h2 className="mt-3 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-                {t('missionVision.values.heading')}
-              </h2>
-            </div>
-            <p className="max-w-2xl text-sm leading-7 text-muted-foreground md:ml-auto md:text-right">
-              {t('missionVision.hero.description')}
+          <div className="mb-8">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
+              {t('missionVision.values.label')}
             </p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+              {t('missionVision.values.heading')}
+            </h2>
           </div>
 
           <div className="mb-8 overflow-hidden rounded-lg border border-border">
             <img
               src="/pages/mission-vision-interior.webp"
-              alt="Trust and partnership"
+              alt={t('missionVision.images.interiorAlt')}
               className="aspect-video w-full object-cover"
               loading="lazy"
               decoding="async"

@@ -37,7 +37,31 @@ describe('resolveLocaleAlias', () => {
 
   it('rejects segments that are not locales', () => {
     expect(resolveLocaleAlias('o-nama')).toBeNull()
+    expect(resolveLocaleAlias('kontakt')).toBeNull()
     expect(resolveLocaleAlias('services')).toBeNull()
     expect(resolveLocaleAlias(undefined)).toBeNull()
+  })
+
+  it('resolves the first segment of a bare-language path', () => {
+    // "/en" is the path form; the server canonicalizer feeds its first segment.
+    const [first] = '/en'.split('/').filter(Boolean)
+    expect(resolveLocaleAlias(first)).toBe('en-US')
+  })
+
+  it('maps bare language codes of script-subtag locales', () => {
+    expect(resolveLocaleAlias('sr')).toBe('sr-Latn')
+    expect(resolveLocaleAlias('SR')).toBe('sr-Latn')
+    expect(resolveLocaleAlias('zh')).toBe('zh-Hans')
+  })
+
+  it('fixes casing of script subtags too', () => {
+    expect(resolveLocaleAlias('SR-latn')).toBe('sr-Latn')
+    expect(resolveLocaleAlias('zh-hans')).toBe('zh-Hans')
+  })
+
+  it('keeps every visitor locale reachable (none is retired)', () => {
+    expect(resolveLocaleAlias('de-DE')).toBe('de-DE')
+    expect(resolveLocaleAlias('DE-de')).toBe('de-DE')
+    expect(resolveLocaleAlias('de')).toBe('de-DE')
   })
 })

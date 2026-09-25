@@ -1,14 +1,18 @@
-import { motion } from 'motion/react'
 import {
-  ShieldCheck,
   BadgeCheck,
-  HeartHandshake,
-  Trophy,
+  Check,
   Eye,
   Flame,
-  Check,
+  HeartHandshake,
+  ShieldCheck,
+  Trophy,
 } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import {
+  SlideUp,
+  StaggerContainer,
+  StaggerItem,
+} from '@/components/animations/FadeIn'
 import { designSystem } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
 
@@ -24,16 +28,16 @@ const VALUE_KEYS = [
 export function ValuesSection() {
   const { t } = useTranslation('landing')
   const rawBullets = t('values.bullets', { returnObjects: true })
-  const bullets: string[] = Array.isArray(rawBullets) ? (rawBullets as string[]) : []
+  const bullets: Array<string> = Array.isArray(rawBullets)
+    ? (rawBullets as Array<string>)
+    : []
 
   return (
     <section className="relative overflow-hidden bg-background py-20 md:py-28">
       <div className={cn(designSystem.spacing.page.container, 'max-w-6xl')}>
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-80px' }}
-          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+        <SlideUp
+          offset={20}
+          duration={0.6}
           className="mx-auto max-w-3xl text-center"
         >
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
@@ -45,26 +49,19 @@ export function ValuesSection() {
           <p className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
             {t('values.description')}
           </p>
-        </motion.div>
+        </SlideUp>
 
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: '-80px' }}
-          variants={{
-            hidden: {},
-            visible: { transition: { staggerChildren: 0.08, delayChildren: 0.2 } },
-          }}
+        <StaggerContainer
+          staggerChildren={0.08}
+          delayChildren={0.2}
           className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 md:gap-5"
         >
           {VALUE_KEYS.map(({ key, Icon }) => (
-            <motion.article
+            <StaggerItem
+              as="article"
               key={key}
-              variants={{
-                hidden: { opacity: 0, y: 16 },
-                visible: { opacity: 1, y: 0 },
-              }}
-              transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+              offset={16}
+              duration={0.5}
               className="group relative overflow-hidden rounded-xl border border-border/60 bg-card p-6 transition-all hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-md"
             >
               <div aria-hidden className="pointer-events-none absolute -right-8 -top-8 h-24 w-24 rounded-full bg-primary/5 blur-2xl transition-all group-hover:bg-primary/10" />
@@ -81,16 +78,16 @@ export function ValuesSection() {
                   </p>
                 </div>
               </div>
-            </motion.article>
+            </StaggerItem>
           ))}
-        </motion.div>
+        </StaggerContainer>
 
         {bullets.length > 0 && (
-          <motion.ul
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-80px' }}
-            transition={{ duration: 0.5, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
+          <SlideUp
+            as="ul"
+            offset={20}
+            duration={0.5}
+            delay={0.4}
             className="mx-auto mt-14 flex max-w-4xl flex-col gap-4 border-t border-border/60 pt-10 sm:flex-row sm:justify-center sm:gap-8"
           >
             {bullets.map((b) => (
@@ -101,7 +98,7 @@ export function ValuesSection() {
                 <span className="leading-snug">{b}</span>
               </li>
             ))}
-          </motion.ul>
+          </SlideUp>
         )}
       </div>
     </section>

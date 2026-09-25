@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { motion } from 'motion/react'
 import { useTranslation } from 'react-i18next'
+import { FadeIn } from '@/components/animations/FadeIn'
 import { designSystem } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
 
@@ -28,12 +28,26 @@ const MARQUEE_CSS = `
   }
 `
 
-function ClientCell({ item }: { item: ClientItem }) {
+/**
+ * One client logo. The first marquee copy renders the real (focusable) link;
+ * the two copies that only exist to make the loop seamless pass `decorative`
+ * and render a hidden, link-free duplicate, so each client URL appears once
+ * in the HTML and keyboard/screen-reader users meet each client once.
+ */
+function ClientCell({
+  item,
+  decorative = false,
+}: {
+  item: ClientItem
+  decorative?: boolean
+}) {
   const { t } = useTranslation('landing')
-  const alt = t('clients.logoAlt', {
-    name: item.name,
-    defaultValue: `${item.name} logo`,
-  })
+  const alt = decorative
+    ? ''
+    : t('clients.logoAlt', {
+        name: item.name,
+        defaultValue: `${item.name} logo`,
+      })
   const openLabel = t('clients.openClient', {
     name: item.name,
     defaultValue: `${item.name} - open client website`,
@@ -49,7 +63,7 @@ function ClientCell({ item }: { item: ClientItem }) {
             <img
               src={item.logo}
               alt={alt}
-              title={item.name}
+              title={decorative ? undefined : item.name}
               width={200}
               height={56}
               loading="lazy"
@@ -60,7 +74,7 @@ function ClientCell({ item }: { item: ClientItem }) {
               <img
                 src={item.darkLogo}
                 alt={alt}
-                title={item.name}
+                title={decorative ? undefined : item.name}
                 width={200}
                 height={56}
                 loading="lazy"
@@ -83,6 +97,18 @@ function ClientCell({ item }: { item: ClientItem }) {
     </>
   )
 
+  if (decorative) {
+    return (
+      <div
+        aria-hidden="true"
+        className="group block w-44 flex-shrink-0"
+        data-client-logo={item.name}
+      >
+        {content}
+      </div>
+    )
+  }
+
   if (item.href) {
     return (
       <a
@@ -92,26 +118,14 @@ function ClientCell({ item }: { item: ClientItem }) {
         aria-label={`${alt}. ${openLabel}`}
         className="group block w-44 flex-shrink-0 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-4"
         data-client-logo={item.name}
-        itemProp="funder"
-        itemScope
-        itemType="https://schema.org/Organization"
       >
-        <meta itemProp="name" content={item.name} />
-        <meta itemProp="url" content={item.href} />
         {content}
       </a>
     )
   }
 
   return (
-    <div
-      className="group block w-44 flex-shrink-0"
-      data-client-logo={item.name}
-      itemProp="funder"
-      itemScope
-      itemType="https://schema.org/Organization"
-    >
-      <meta itemProp="name" content={item.name} />
+    <div className="group block w-44 flex-shrink-0" data-client-logo={item.name}>
       {content}
     </div>
   )
@@ -128,15 +142,22 @@ function MarqueeRow({
   duration: number
   paused: boolean
 }) {
-  const tripled = [...items, ...items, ...items]
+  // Three copies keep the -33.333% keyframe loop seamless. Only the first
+  // copy is interactive; copies 2 and 3 are decorative duplicates.
   return (
     <div className="flex w-max gap-4" style={{
       animation: `marquee-${direction} ${duration}s linear infinite`,
       animationPlayState: paused ? 'paused' : 'running',
     }}>
-      {tripled.map((item, i) => (
-        <ClientCell key={`${item.name}-${i}`} item={item} />
-      ))}
+      {[0, 1, 2].flatMap((copy) =>
+        items.map((item, i) => (
+          <ClientCell
+            key={`${item.name}-${copy * items.length + i}`}
+            item={item}
+            decorative={copy > 0}
+          />
+        )),
+      )}
     </div>
   )
 }
@@ -177,22 +198,18 @@ export function ClientLogosSection() {
       className="relative overflow-hidden border-y border-border/60 bg-background py-10 md:py-12"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
-      itemScope
-      itemType="https://schema.org/Organization"
     >
       <style>{MARQUEE_CSS}</style>
 
       <div className={cn(designSystem.spacing.page.container, 'max-w-6xl')}>
-        <motion.h2
+        <FadeIn
+          as="h2"
           id="clients-heading"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.4 }}
+          duration={0.4}
           className="mb-8 text-center text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground"
         >
           {t('clients.title')}
-        </motion.h2>
+        </FadeIn>
       </div>
 
       {/* Edge fade masks */}

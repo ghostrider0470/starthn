@@ -9,34 +9,45 @@
     "nextStep": "Nächster Schritt",
     "learnMore": "Erfahren Sie mehr",
     "ctaPrimary": "Gespräch beginnen",
-    "ctaSecondary": "Alle Dienste ansehen",
+    "ctaSecondary": "Alle Leistungen ansehen",
     "backToServices": "Zurück zu den Dienstleistungen"
   },
   "index": {
-    "overline": "Start HN Dienstleistungen",
-    "title": "Buchhaltungssupport für jede Phase des Unternehmens.",
-    "description": "Sechs klare Servicebereiche decken Buchhaltung, Steuerpflichten, Berichterstattung, Beratung und Schulung ab, was Ihrem Unternehmen bessere Kontrolle verschafft.",
+    "overline": "Leistungen von Start HN",
+    "title": "Buchhaltungsleistungen für Unternehmen, Einzelunternehmer und Vereine",
+    "description": "Leistungen von Start HN: Buchhaltung, Steuerberatung, virtueller CFO, Finanzberichterstattung, Unternehmensberatung und Schulungen für Unternehmen, Einzelunternehmer und Vereine in Sarajevo und Ilidža.",
     "introOverline": "Dienstleistungen",
     "introTitle": "Ein Team, ein klares finanzielles Bild",
-    "introBody": "Start HN verbindet praktische Buchhaltung, Steuerüberwachung, Finanzberichterstattung und Beratungsunterstützung, sodass Eigentümer und Management Entscheidungen auf Basis zuverlässiger Daten und nicht auf Basis von Massendokumentation treffen können.",
+    "introBody": "Start HN verbindet praktische Buchhaltung, Steuerüberwachung, Finanzberichterstattung und Beratung, sodass Inhaber und Geschäftsführung Entscheidungen auf Basis verlässlicher Zahlen treffen können statt auf Basis verstreuter Unterlagen.",
     "cta": {
-      "title": "Bist du dir nicht sicher, welchen Service du brauchst?",
+      "title": "Nicht sicher, welche Leistung Sie brauchen?",
       "description": "Teilen Sie uns mit, wie Ihr Unternehmen derzeit funktioniert, und wir empfehlen den richtigen Unterstützungsbereich: regelmäßige Buchhaltung, ausführliche Beratung oder gezielte Beratung.",
       "button": "Vereinbaren Sie einen Beratungstermin"
+    }
+  },
+  "related": {
+    "title": "Verwandte Leistungen",
+    "postsTitle": "Verwandte Artikel",
+    "postLabels": {
+      "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance": "Leitfaden: Unternehmensgründung in BiH (Einzelunternehmen oder d.o.o.)",
+      "importance-of-entrepreneurship-programs": "Förderprogramme für Unternehmer im Kanton Sarajevo"
     }
   },
   "items": {
     "bookkeeping": {
       "label": "01",
       "title": "Buchführung und Rechnungswesen",
-      "shortDescription": "Vollständige Buchhaltung, Buchhaltung, Gehaltsabrechnung, Mehrwertsteuerunterlagen und Abschlussberichte für Handwerke und Unternehmen.",
-      "heroDescription": "Zuverlässige Bücher sind die operative Grundlage jedes Unternehmens. Wir halten Ihre Unterlagen genau, aktuell und bereit für Steuerfristen, Banken und Managemententscheidungen.",
+      "heroTitle": "Buchhaltung und Rechnungswesen für Unternehmen und Einzelunternehmer in Sarajevo",
+      "shortDescription": "Vollständige Buchführung, Buchhaltungsaufzeichnungen, Lohnabrechnung, Mehrwertsteuer-Aufzeichnungen und Jahresabschlüsse für Einzelunternehmer und Unternehmen.",
+      "heroDescription": "Buchhaltung für Gesellschaften mit beschränkter Haftung (d.o.o.), Einzelunternehmer und Vereine in Sarajevo und Ilidža: Buchung von Rechnungen und Ausgaben, Lohn- und Beitragsabrechnung, Mehrwertsteuer und Jahresabschluss – genau und vor Fristablauf.",
       "overviewTitle": "Tägliche Aufzeichnungen ohne tägliche Last",
       "overview": "Wir organisieren den gesamten Buchhaltungszyklus: Erhalt der Unterlagen, Buchung von Rechnungen und Ausgaben, Berechnung von Gehältern und Beiträgen, Mehrwertsteuerunterlagen, rechtliche Anträge und jährlicher Abschluss. Das Ziel ist einfach: ordentliche Unterlagen, klare Aufgaben und keine Überraschungen vor Fristen.",
+      "localContextTitle": "Buchhaltung für Unternehmen und Einzelunternehmer in Sarajevo und Ilidža",
+      "localContext": "Start HN ist eine Buchhaltungsagentur mit Sitz in der Ibrahima Ljubovića 47, 71210 Ilidža, und arbeitet mit Unternehmen, Einzelunternehmern und Vereinen aus Ilidža, Sarajevo und dem Kanton Sarajevo. Wir führen die Geschäftsbücher nach den Vorschriften der Föderation BiH: Buchung von Eingangs- und Ausgangsrechnungen sowie Ausgaben, Lohn- und Beitragsabrechnung, Mehrwertsteuer-Aufzeichnungen und -Erklärungen sowie der Jahresabschluss. Unterlagen können Sie persönlich, per E-Mail oder digital übermitteln. Wir arbeiten hauptsächlich mit Pantheon und können auch in dem System arbeiten, das Ihr Unternehmen bereits nutzt.",
       "bestForTitle": "Am besten für",
       "bestFor": [
         "Kleine und mittelständische Unternehmen, die regelmäßige Buchhaltungsunterstützung benötigen.",
-        "Handwerks- und Selbstständigenunternehmen, die ordnungsgemäße rechtliche Unterlagen benötigen",
+        "Einzelunternehmer und Handwerksbetriebe, die ordnungsgemäße Aufzeichnungen benötigen",
         "Teams wechseln von einem anderen Buchhalter",
         "Eigentümer, die klare monatliche Zahlen wollen, nicht nur Jahresberichte"
       ],
@@ -51,7 +62,7 @@
           "description": "Rechnungen, Ausgaben, Banktransaktionen, Gehälter, Beiträge, Mehrwertsteuerunterlagen und reguläre gesetzliche Verpflichtungen werden in einem vorhersehbaren monatlichen Tempo bearbeitet."
         },
         {
-          "title": "Jahresabschlüsse und Jahresabschluss",
+          "title": "Jahresabschluss und Abschlussarbeiten",
           "description": "Wir bereiten Endberechnungen, Finanzberichte, Steuererklärungen und unterstützende Unterlagen vor, um das Unternehmen ausgerichtet und kontrollbereit zu halten."
         }
       ],
@@ -59,7 +70,7 @@
       "process": [
         {
           "title": "Sammlung",
-          "description": "Du reichst die Dokumentation digital oder physisch gemäß dem vereinbarten Workflow ein."
+          "description": "Sie übermitteln die Unterlagen digital oder in Papierform nach dem vereinbarten Ablauf."
         },
         {
           "title": "Verarbeitung",
@@ -67,7 +78,7 @@
         },
         {
           "title": "Berichterstattung",
-          "description": "Man erhält klare Zusammenfassungen und nächste Schritte, und Fragen werden beantwortet, bevor sie zu einem Risiko werden."
+          "description": "Sie erhalten klare Zusammenfassungen und nächste Schritte, und Fragen werden geklärt, bevor sie zum Risiko werden."
         }
       ],
       "deliverablesTitle": "Typische Ergebnisse",
@@ -79,19 +90,30 @@
         "Bestätigungen der Einreichung von Anträgen",
         "Regelmäßige Buchhaltungsberatung"
       ],
+      "interiorAlt": "Buchhalter am Computer mit einer Checkliste erledigter Monatsaufgaben: Mehrwertsteuererklärung, Lohnabrechnung und Buchungen",
       "cta": {
-        "title": "Bereit, deine Bücher zu redigieren?",
+        "title": "Bereit, Ihre Bücher in Ordnung zu bringen?",
         "description": "Wir überprüfen Ihre aktuellen Aufzeichnungen und definieren einen monatlichen Buchhaltungsfluss, der der tatsächlichen Betriebsweise Ihres Unternehmens entspricht.",
         "button": "Buchhaltungsunterstützung anfordern"
-      }
+      },
+      "related": [
+        "taxConsulting",
+        "financialReporting"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
+      ]
     },
     "taxConsulting": {
       "label": "02",
       "title": "Steuerberatung",
-      "shortDescription": "Steuerüberwachung, Planung, Unterstützung bei Antragsanträgen, Fristverfolgung und praktische Beratung für Privatpersonen und juristische Personen.",
+      "heroTitle": "Steuerberatung und Mehrwertsteuer für Unternehmen und Einzelunternehmer in Sarajevo",
+      "shortDescription": "Steuerüberwachung, Planung, Unterstützung bei Steuererklärungen, Fristenkontrolle und praktische Beratung für Privatpersonen und Unternehmen.",
       "heroDescription": "Steuerpflichten ändern sich schnell, und Fehler sind kostspielig. Wir helfen Ihnen zu verstehen, was anwendbar ist, was fällig ist und wie Sie im Rahmen der Vorschriften planen sollten.",
       "overviewTitle": "Steuerberatung, bevor ein Problem auftritt",
       "overview": "Unsere Steuerberatung verbindet Compliance und Planung: Wir verfolgen Fristen, überprüfen Verpflichtungen, erklären regulatorische Änderungen, erstellen Steuererklärungen und beraten, bevor Entscheidungen unnötige Kosten oder Risiken verursachen.",
+      "localContextTitle": "Steuerpflichten für Unternehmen und Einzelunternehmer in der Föderation BiH",
+      "localContext": "Unternehmen und Einzelunternehmer mit Sitz in Sarajevo und anderswo in der Föderation BiH haben steuerliche Pflichten nach den Vorschriften von BiH und der Föderation BiH. Von unserem Büro in Ilidža aus erstellen und übermitteln wir Mehrwertsteuererklärungen, Gewinn- und Einkommensteuererklärungen sowie weitere gesetzliche Meldungen, verfolgen Gesetzesänderungen und informieren Sie rechtzeitig, wenn eine Änderung Ihr Unternehmen betrifft. Steuerberatung wirkt am besten in Verbindung mit einer genauen Buchhaltung, weil die Erklärungen dann auf verlässlichen Aufzeichnungen beruhen.",
       "bestForTitle": "Am besten für",
       "bestFor": [
         "Unternehmen, die regelmäßige Steuerüberwachung benötigen",
@@ -102,8 +124,8 @@
       "detailsTitle": "Anwendungsbereich der Steuerberatung",
       "details": [
         {
-          "title": "To-Do-Überblick",
-          "description": "Wir prüfen aktive Anmeldungen, Frühregistrierungen, Mehrwertsteuer- und Gehaltsabrechnungsrisiken sowie bevorstehende Fristen."
+          "title": "Prüfung der Verpflichtungen",
+          "description": "Wir prüfen aktive Registrierungen, frühere Meldungen, Lohn- und Mehrwertsteuerrisiken sowie anstehende Fristen."
         },
         {
           "title": "Compliance und Meldesupport",
@@ -134,28 +156,39 @@
         "Kalender der Steuerlasten",
         "Mehrwertsteuer und Einkommens-/Gewinnsteuerrichtlinien",
         "Richtlinien für Lohnbeiträge",
-        "Überprüfung und Korrekturen von Anwendungen",
+        "Prüfung und Korrektur von Steuererklärungen",
         "Steuerplanungshinweise",
         "Deadline- und Compliance-Unterstützung"
       ],
+      "interiorAlt": "Steuerberater erklärt einem Kunden eine Übersicht der Steuerpflichten auf einem Bildschirm",
       "cta": {
         "title": "Brauchen Sie Klarheit bezüglich Ihrer Steuerpflichten?",
         "description": "Senden Sie uns Ihre aktuelle Situation, und wir helfen Ihnen zu verstehen, was fällig ist, was verbessert werden kann und was der nächste Schritt ist.",
-        "button": "Das ist mal eine Steuerunterstützung"
-      }
+        "button": "Steuerliche Unterstützung besprechen"
+      },
+      "related": [
+        "bookkeeping",
+        "businessConsulting"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
+      ]
     },
     "virtualCfo": {
       "label": "03",
       "title": "Virtueller CFO",
-      "shortDescription": "Senior Financial Insight ohne festen CFO: Cashflow, Budgets, KPIs und Entscheidungsunterstützung.",
+      "heroTitle": "Virtueller CFO für kleine und mittlere Unternehmen in Sarajevo",
+      "shortDescription": "Fundierte Finanzeinblicke ohne festangestellten Finanzdirektor: Cashflow, Budgets, KPIs und Entscheidungsunterstützung.",
       "heroDescription": "Ein virtueller CFO gibt Eigentümern und Management einen klareren Überblick über finanzielle Gesundheit, Cashflow, Rentabilität und strategische Entscheidungen.",
       "overviewTitle": "Finanzmanagement auf flexibler Basis.",
       "overview": "Wir übersetzen Buchhaltungsdaten in praktische Managementerkenntnisse: Budgets, Prognosen, Cashflow-Planung, Rentabilitätsanalysen und Finanzindikatoren, die zeigen, wo das Unternehmen stark ist und wo Aufmerksamkeit benötigt wird.",
+      "localContextTitle": "Finanzielle Führung ohne festangestellten Finanzdirektor",
+      "localContext": "Viele kleine und mittlere Unternehmen in Sarajevo und im Kanton Sarajevo brauchen keinen festangestellten Finanzdirektor, wohl aber verlässliche Zahlen für ihre Entscheidungen. Als virtueller CFO erstellt Start HN Cashflow-Prognosen, plant Budgets, führt Finanzanalysen durch und bereitet Berichte für die Geschäftsführung vor; bei Bedarf nehmen wir auch an Besprechungen teil. Wenn wir zusätzlich Ihre Buchhaltung führen, basiert die Analyse auf aktuellen Zahlen aus Ihren Geschäftsbüchern. Der Service ist besonders hilfreich für Inhaber, die Finanzierungs- oder Investitionsentscheidungen vorbereiten.",
       "bestForTitle": "Am besten für",
       "bestFor": [
         "Wachsende Unternehmen, die mehr als nur Buchhaltung brauchen.",
         "Eigentümer, die Finanzierungs- oder Investitionsentscheidungen treffen",
-        "Teams ohne internen CFO",
+        "Teams ohne internen Finanzdirektor",
         "Manager, die monatliche Zahlen in Taten umsetzen wollen"
       ],
       "detailsTitle": "Die Rolle eines virtuellen CFO",
@@ -197,19 +230,28 @@
         "Rentabilitätsanalyse",
         "Beratende Sitzungen"
       ],
+      "interiorAlt": "Ausgedruckte Cashflow-Prognose mit Diagramm und Tabelle auf einem Schreibtisch",
       "cta": {
         "title": "Brauchen Sie Klarheit auf CFO-Ebene?",
         "description": "Wir können Ihre Buchhaltungsdaten in einen Managementüberblick verwandeln, der Wachstum, Finanzierung und bessere Entscheidungen unterstützt.",
         "button": "Sprechen Sie über den virtuellen CFO"
-      }
+      },
+      "related": [
+        "financialReporting",
+        "businessConsulting"
+      ],
+      "relatedPosts": []
     },
     "businessConsulting": {
       "label": "04",
       "title": "Unternehmensberatung",
+      "heroTitle": "Unternehmensberatung für Firmen und Einzelunternehmer in Sarajevo",
       "shortDescription": "Praktische Geschäftsberatung für Organisation, Wachstum, interne Prozesse, Kosten, Preisgestaltung und operative Entscheidungen.",
       "heroDescription": "Ein guter Buchhaltungsbericht zeigt, was passiert ist. Eine gute Beratung hilft Ihnen zu entscheiden, was als Nächstes passieren sollte.",
       "overviewTitle": "Praktische Leitlinien basierend auf Zahlen",
-      "overview": "Wir unterstützen Eigentümer und Manager bei finanziellen und operativen Entscheidungen: Unternehmensorganisation, Prozessverbesserung, Kostenkontrolle, Preisgestaltung, Abrechnungsdisziplin, interne Dokumentation und Wachstumsplanung.",
+      "overview": "Wir unterstützen Inhaber und Manager bei finanziellen und operativen Entscheidungen: Unternehmensorganisation, Prozessverbesserung, Kostenkontrolle, Preisgestaltung, Liquiditätsdisziplin, interne Dokumentation und Wachstumsplanung.",
+      "localContextTitle": "Unternehmensberatung für Unternehmer in Sarajevo",
+      "localContext": "Wir helfen Unternehmern, Einzelunternehmern und Firmen aus Sarajevo und Ilidža, Geschäftsentscheidungen auf Grundlage der Zahlen aus ihren eigenen Büchern zu treffen. Wir beraten zur Organisation des Geschäfts und des Belegflusses, zur Kostenkontrolle, zur Preisgestaltung, zum Einzug von Forderungen und zur Wachstumsplanung. Start-ups und neue Unternehmen unterstützen wir vom ersten Tag an; über die Wahl zwischen Einzelunternehmen (obrt) und Gesellschaft mit beschränkter Haftung (d.o.o.) haben wir in unserem Leitfaden zur Unternehmensgründung in BiH geschrieben. Unsere Beratung ist mit Buchhaltung und Steuern verbunden, sodass die Empfehlungen auch Ihre gesetzlichen Pflichten in der Föderation BiH berücksichtigen.",
       "bestForTitle": "Am besten für",
       "bestFor": [
         "Neue Unternehmen, die Finanzprozesse einrichten",
@@ -256,19 +298,31 @@
         "Dokumentationsfluss-Setting",
         "Beratungssitzungen mit dem Eigentümer"
       ],
+      "interiorAlt": "Unternehmensberater bespricht mit einem Kunden Diagramme und Notizen am Schreibtisch",
       "cta": {
         "title": "Brauchen Sie einen praktischen Überblick über Ihr Unternehmen?",
-        "description": "Wir schauen uns Ihre Zahlen und den operativen Trichter an und empfehlen dann Änderungen, die Kontrolle und Rentabilität am meisten verbessern.",
+        "description": "Wir sehen uns Ihre Zahlen und Betriebsabläufe an und empfehlen dann die Änderungen, die Kontrolle und Rentabilität am wahrscheinlichsten verbessern.",
         "button": "Fordern Sie eine Beratung an"
-      }
+      },
+      "related": [
+        "virtualCfo",
+        "bookkeeping"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance",
+        "importance-of-entrepreneurship-programs"
+      ]
     },
     "financialReporting": {
       "label": "05",
       "title": "Finanzberichterstattung",
-      "shortDescription": "Klare juristische und Managementberichte, die helfen, Ergebnisse, Verbindlichkeiten und finanzielle Trends zu verstehen.",
-      "heroDescription": "Berichte müssen keine unverständlichen Dateien sein, die nur eine Frist einhalten. Sie müssen wissen, was im Geschäft vor sich geht.",
+      "heroTitle": "Finanzberichterstattung und Jahresabschluss für Unternehmen in Sarajevo",
+      "shortDescription": "Klare gesetzliche und interne Finanzberichte, die helfen, Ergebnisse, Verpflichtungen und finanzielle Trends zu verstehen.",
+      "heroDescription": "Berichte sollten keine unverständlichen Dateien sein, die nur eine Frist erfüllen. Sie sollten erklären, was im Unternehmen passiert.",
       "overviewTitle": "Berichte, die das Management tatsächlich verwendet",
-      "overview": "Wir erstellen Rechtsberichte, Managementzusammenfassungen, Finanzberichte und analytische Formate, die das Verständnis von Umsätzen, Ausgaben, Gewinnen, Liquidität und Verbindlichkeiten erleichtern.",
+      "overview": "Wir erstellen gesetzliche Berichte, Managementzusammenfassungen, Finanzberichte und Analyseformate, die Umsätze, Kosten, Gewinn, Liquidität und Verpflichtungen verständlicher machen.",
+      "localContextTitle": "Jahresabschluss und Berichterstattung für Unternehmen in der Föderation BiH",
+      "localContext": "Unternehmen in der Föderation BiH sind gesetzlich verpflichtet, jährliche Finanzberichte zu erstellen, und Inhaber sowie Geschäftsführung brauchen auch während des Jahres klare Managementberichte. Für Kunden aus Sarajevo, Ilidža und dem Kanton Sarajevo erstellen wir den Jahresabschluss und die gesetzlichen Finanzberichte, monatliche oder vierteljährliche Managementübersichten sowie Berichtspakete für Banken und Partner. Die Berichte beruhen auf ordnungsgemäß geführten Buchhaltungsunterlagen, und wir erklären Ergebnisse, Verpflichtungen und Trends in verständlicher Sprache.",
       "bestForTitle": "Am besten für",
       "bestFor": [
         "Unternehmen, die eine klarere monatliche Berichterstattung benötigen",
@@ -279,7 +333,7 @@
       "detailsTitle": "Berichterstattungsumfang",
       "details": [
         {
-          "title": "Statutory Financial Reporting",
+          "title": "Gesetzliche Finanzberichterstattung",
           "description": "Wir erstellen gesetzlich vorgeschriebene Finanzberichte und begleitende Überprüfungen auf Grundlage ordnungsgemäßer Buchhaltungsunterlagen."
         },
         {
@@ -298,7 +352,7 @@
           "description": "Wir definieren, welche Fragen der Bericht beantwortet werden muss und wer ihn verwenden wird."
         },
         {
-          "title": "Zubereitung",
+          "title": "Vorbereitung",
           "description": "Wir sammeln genaue Daten aus Buchhaltungsunterlagen und unterstützenden Dokumenten."
         },
         {
@@ -313,21 +367,30 @@
         "Gewinn- und Kostenanalyse",
         "Überblick über Bar- und Verbindlichkeiten",
         "Meldepakete für Banken oder Partner",
-        "Endgültige Berichterstattungsunterstützung"
+        "Unterstützung beim Jahresabschluss"
       ],
+      "interiorAlt": "Zwei Fachleute prüfen ausgedruckte Finanzberichte mit Diagrammen",
       "cta": {
         "title": "Möchten Sie Berichte, die leichter zu bedienen sind?",
         "description": "Wir können Buchhaltungsdaten in ein klares Format für Management, Partner, Banken oder interne Planung umwandeln.",
         "button": "Verbesserung der Berichterstattung"
-      }
+      },
+      "related": [
+        "bookkeeping",
+        "virtualCfo"
+      ],
+      "relatedPosts": []
     },
     "education": {
       "label": "06",
-      "title": "Ausbildung & Kurse",
-      "shortDescription": "Workshops in Buchhaltung, Steuern und Finanzen, die Eigentümern und Teams helfen, Verantwortung zu verstehen und bessere Entscheidungen zu treffen.",
+      "title": "Schulungen & Kurse",
+      "heroTitle": "Schulungen zu Buchhaltung und Steuern für Unternehmen und Einzelunternehmer in Sarajevo",
+      "shortDescription": "Workshops zu Buchhaltung, Steuern und Finanzen, die Inhabern und Teams helfen, ihre Pflichten zu verstehen und bessere Entscheidungen zu treffen.",
       "heroDescription": "Bessere finanzielle Bildung reduziert Fehler, verbessert die interne Kommunikation und hilft Teams, effektiver mit Buchhaltern zusammenzuarbeiten.",
       "overviewTitle": "Wissen, das die alltägliche Arbeit erleichtert",
-      "overview": "Wir organisieren praktische Schulungen für Eigentümer, Manager und Verwaltungsteams: Grundlagen der Buchhaltung, Erstellung von Unterlagen, Steuerfristen, Grundgehaltsauslegungen, Interpretation von Berichten und bessere Zusammenarbeit mit der Buchhaltung.",
+      "overview": "Wir organisieren praktische Schulungen für Inhaber, Manager und Verwaltungsteams: Grundlagen der Buchhaltung, Vorbereitung von Unterlagen, Steuerfristen, Grundlagen der Lohnabrechnung, Interpretation von Berichten und eine bessere Zusammenarbeit mit der Buchhaltung.",
+      "localContextTitle": "Schulungen und Beratungen in Sarajevo",
+      "localContext": "Für Unternehmen und Einzelunternehmer aus Sarajevo und Ilidža, die einen Teil ihrer Verwaltung oder Buchhaltung intern erledigen, bieten wir individuelle fachliche Unterstützung und praktische Schulungen an. Dazu können die Organisation der internen Dokumentation, die Schulung von Mitarbeitern im Umgang mit Buchhaltungssoftware, die Grundlagen buchhalterischer Abläufe und die Unterstützung der Geschäftsführung beim Lesen von Finanzberichten gehören. Einzelunternehmer, die ihre Bücher selbst führen, erhalten individuelle Beratungen zu ihren gesetzlichen Pflichten und Aufzeichnungen in der Föderation BiH. Wir passen die Inhalte an die tatsächliche Arbeitsweise Ihres Teams an und verwenden Beispiele aus der täglichen Praxis.",
       "bestForTitle": "Am besten für",
       "bestFor": [
         "Eigentümer, die ihre Verpflichtungen verstehen möchten",
@@ -346,7 +409,7 @@
           "description": "Wir behandeln häufige Verpflichtungen, regelmäßige Fristen, Beiträgesgrundlagen und praktische Risikopunkte."
         },
         {
-          "title": "Finanzberichterstattung",
+          "title": "Berichte verstehen",
           "description": "Wir helfen den Teams, Finanzberichte, Managementüberprüfungen und die Fragen zu verstehen, die diese Berichte beantworten müssen."
         }
       ],
@@ -357,7 +420,7 @@
           "description": "Wir bestimmen, was das Team verstehen muss und welche Fehler verhindert werden müssen."
         },
         {
-          "title": "Bildung",
+          "title": "Schulung",
           "description": "Wir führen praktische Sitzungen mit Beispielen in der Nähe Ihrer täglichen Arbeit durch."
         },
         {
@@ -374,11 +437,19 @@
         "Sitzungen zum Lesen von Berichten",
         "Fragen und Antworten für das Team"
       ],
+      "interiorAlt": "Kursleiter geht während eines Workshops Lernmaterial mit einem Teilnehmer durch",
       "cta": {
         "title": "Möchten Sie, dass Ihr Team Zahlen besser versteht?",
         "description": "Wir können einen fokussierten Workshop zu Ihrem Buchhaltungsprozess, Berichterstattung oder Steuer-FAQs vorbereiten.",
-        "button": "Plane dein Training"
-      }
+        "button": "Schulung planen"
+      },
+      "related": [
+        "taxConsulting",
+        "bookkeeping"
+      ],
+      "relatedPosts": [
+        "importance-of-entrepreneurship-programs"
+      ]
     }
   }
 }

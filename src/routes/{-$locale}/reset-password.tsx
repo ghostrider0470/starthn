@@ -22,6 +22,7 @@ import { CheckCircle, Loader2, Eye, EyeOff } from 'lucide-react'
 import { z } from 'zod'
 import api from '@/services/api'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
+import { CONTACT_EMAIL } from '@/lib/business'
 
 const searchSchema = z.object({
   token: z.string(),
@@ -310,7 +311,7 @@ function ResetPasswordPage() {
         <p className="mt-6 text-center text-sm text-muted-foreground">
           {t('reset.form.needHelp')}{' '}
           <a
-            href="mailto:info@starthn.ba"
+            href={`mailto:${CONTACT_EMAIL}`}
             className="underline underline-offset-4 hover:text-primary"
           >
             {t('reset.form.contactSupport')}

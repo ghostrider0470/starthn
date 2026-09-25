@@ -1,5 +1,7 @@
 {
   "hero": {
+    "h1": "面向萨拉热窝公司和个体经营者的会计机构",
+    "intro": "Start HN 是一家总部位于 Ilidža（萨拉热窝州）的会计机构。我们为有限责任公司（d.o.o.）、个体经营者和协会提供簿记、工资核算、增值税和纳税申报服务。",
     "slides": [
       {
         "overline": "受益于专家支持以实现可持续增长",
@@ -11,15 +13,15 @@
       {
         "overline": "每一步都保持精准与透明",
         "title": "针对您业务量身定制的服务",
-        "subtitle": "我们帮你办账，你帮你办理生意——没有压力和不确定。",
+        "subtitle": "我们打理账目，您专注经营——没有压力，没有意外。",
         "cta": "让我们开始合作吧",
         "href": "/contact"
       },
       {
         "overline": "微型、小型和中型企业的综合簿记",
-        "title": "你的书交到合适的人手里。",
+        "title": "您的账目，交给值得信赖的人",
         "subtitle": "我们的团队确保准确性并符合所有法规，为您的业务腾出更多时间。",
-        "cta": "我们的服务",
+        "cta": "了解我们的服务",
         "href": "/services"
       }
     ],
@@ -52,10 +54,10 @@
   "whyChoose": {
     "overline": "为什么选择Start HN",
     "title": "你的成长伙伴",
-    "description": "萨拉热窝的会计机构Start HN为协会、工匠以及微型、小型和中型企业提供支持。我们的工作基于准时、精准和对客户的全心投入——我们不会赶上“末班车”，而是按时遵守所有截止日期和法律义务。",
-    "body": "我们关注法规的变化，倡导会计流程的数字化——无论是通过建立内部项目，帮助客户持续访问数据，还是通过处理实体或电子邮件提交的文件。对于需要更专业支持的客户，我们提供虚拟首席财务官服务。",
+    "description": "位于萨拉热窝的 Start HN 为协会、个体经营者以及微型、小型和中型企业提供支持。我们的工作以与时俱进、精准和对客户的全心投入为基础——我们不追赶截止日期，而是始终走在截止日期前面。",
+    "body": "我们紧跟法规变化，积极推动会计工作的数字化——无论是部署可实时查看数据的内部系统，还是处理以纸质或电子邮件方式提交的文件。对于需要更多支持的客户，我们还提供虚拟首席财务官服务。",
     "features": {
-      "personal": "个性化方法",
+      "personal": "个性化的服务方式",
       "vcfo": "虚拟首席财务官",
       "tailored": "定制解决方案",
       "online": "在线文档",
@@ -73,12 +75,12 @@
         "value": 30,
         "suffix": "+",
         "label": "客户",
-        "description": "微型和小型企业、个体经营者以及信任我们并在我们支持下发展的协会。"
+        "description": "信任我们并在我们的支持下不断发展的微型和小型企业、个体经营者和协会。"
       },
       "experience": {
         "value": 15,
         "suffix": "+",
-        "label": "多年经验",
+        "label": "年从业经验",
         "description": "拥有会计、税务咨询和财务管理的综合经验。"
       },
       "hours": {
@@ -105,17 +107,17 @@
       },
       "grow": {
         "title": "会计与你一同成长",
-        "description": "从首个账户到稳定增长的灵活服务——针对企业、创业者和协会量身定制。"
+        "description": "从第一张发票到稳步增长的灵活服务——为企业、个体经营者和协会量身定制。"
       },
       "licensed": {
-        "title": "持证人员安全",
-        "description": "注册会计师，在财政部注册的机构——服务符合法律，且无妥协。"
+        "title": "持证、受监管的专业人员",
+        "description": "持证会计师，机构已在财政部登记——完全合规，绝不妥协。"
       }
     }
   },
   "testimonials": {
-    "overline": "关于我们的其他人",
-    "title": "客户的反馈",
+    "overline": "客户怎么说",
+    "title": "客户评价",
     "items": [
       {
         "quote": "专业、可靠以及愿意提供建议或澄清的事实，是该机构区别于其他机构的关键。所有截止日期都被尊重，文档齐全，沟通迅速清晰。我尤其感激他们跟进法律变更，及时告知我所有对我业务重要的事项。我强烈推荐给任何想要财务安心的人。",
@@ -130,19 +132,19 @@
         "image": "/testimonials/hamza.webp"
       },
       {
-        "quote": "Start HN团队的专业精神和敬业精神远超我们的预期。这些书总是简洁且及时，建议也很实用。",
+        "quote": "Start HN 团队的专业精神和敬业精神超出了我们的预期。账目始终准确、及时，建议也非常实用。",
         "author": "内迪姆·库拉辛",
         "role": "qla.dev 的所有者兼董事",
         "image": "/testimonials/nedim.webp"
       },
       {
-        "quote": "关于引入新税务义务，提供优质支持和及时建议。",
+        "quote": "在应对新的税务义务方面，提供了出色的支持和及时的建议。",
         "author": "阿丁·泽利希奇",
         "role": "Wincome 的所有者兼董事 d.o.o.",
         "image": "/testimonials/adin.webp"
       },
       {
-        "quote": "如果你想要一切集中在一个地方，专业、责任、善良......强烈推荐。",
+        "quote": "如果您希望一站式获得专业、负责和友善的服务……强烈推荐。",
         "author": "埃尔维斯·什克里耶尔",
         "role": "Utjeha的所有者兼董事，d.o.o.",
         "image": "/testimonials/elvisa.webp"
@@ -161,16 +163,16 @@
     "description": "诚信是信任的基础——我们的每一份建议和推荐都遵循高标准的专业和伦理标准，旨在充分维护您的利益。",
     "items": {
       "integrity": {
-        "name": "完整性",
+        "name": "诚信",
         "description": "这是我们每一个建议和决策的基础。"
       },
       "accountability": {
         "name": "责任",
-        "description": "我们支持每一项建议和报告。"
+        "description": "我们对每一份报告和每一条建议负责。"
       },
       "accessibility": {
-        "name": "交通便利性",
-        "description": "直接与会计师联系，没有繁琐的繁琐程序。"
+        "name": "易于联系",
+        "description": "直接联系您的会计师——没有繁文缛节。"
       },
       "excellence": {
         "name": "卓越",
@@ -178,10 +180,10 @@
       },
       "transparency": {
         "name": "透明度",
-        "description": "清晰的数字，清晰的对话——没有隐藏的物品。"
+        "description": "清晰的数字，坦诚的沟通——没有隐藏项目。"
       },
       "dedication": {
-        "name": "承诺",
+        "name": "敬业",
         "description": "你的成功就是我们的成功——我们与你一同成长。"
       }
     },
@@ -212,27 +214,28 @@
     "title": "改变始于对话",
     "description": "你是创业还是在寻找可靠的会计合作伙伴？有了Start HN，您并不孤单——我们引导您迈出第一步，并在您的日常业务中陪伴在侧。",
     "bullets": [
-      "从公司一开始就是可靠的合作伙伴",
-      "最新的簿记与报告",
-      "数字化与虚拟首席财务官"
+      "从公司成立起就是值得信赖的合作伙伴",
+      "按时完成的簿记与报告",
+      "数字化与虚拟首席财务官支持"
     ],
     "formTitle": "请填写下面的表格",
     "fields": {
-      "name": "姓名与姓氏",
+      "name": "姓名",
       "email": "电子邮件",
       "service": "所需服务",
-      "message": "信息"
+      "message": "留言"
     },
     "servicePlaceholder": "选择服务",
     "serviceOptions": [
       "簿记与会计",
       "税务咨询",
       "虚拟首席财务官",
+      "商业咨询",
       "财务报告",
-      "教育背景",
+      "培训与教育",
       "其他"
     ],
-    "submit": "发送询问",
+    "submit": "发送留言",
     "success": "谢谢！我们会在一个工作日内回复您。"
   },
   "clients": {
@@ -241,7 +244,7 @@
     "openClient": "{{name}} — 打开客户网站",
     "items": [
       {
-        "name": "律师坦娅·斯尔达诺维奇",
+        "name": "Advokat Tanja Srdanović",
         "logo": "/clients/srdanovic.webp",
         "darkLogo": "/clients/srdanovic-dark.webp",
         "href": "https://www.advokatsrdanovic.com"
@@ -259,7 +262,7 @@
         "href": "https://qla.dev"
       },
       {
-        "name": "收入",
+        "name": "Wincome",
         "logo": "/clients/wincome.svg",
         "darkLogo": "/clients/wincome-dark.svg",
         "href": "https://wincome.webflow.io/"
@@ -271,7 +274,7 @@
         "href": "https://edu.ba"
       },
       {
-        "name": "BH建筑",
+        "name": "BH Gradnja",
         "logo": "/clients/bhgradnja-t.webp",
         "darkLogo": "/clients/bhgradnja-dark.webp"
       },
@@ -280,36 +283,35 @@
         "logo": "/clients/fleki-t.webp"
       },
       {
-        "name": "Feniks 汽车控股",
+        "name": "Feniks Car Holding",
         "logo": "/clients/feniks-t.webp",
         "darkLogo": "/clients/feniks-dark.webp"
       },
       {
-        "name": "石墨烯",
+        "name": "Grafiden",
         "logo": "/clients/grafiden-t.webp",
         "darkLogo": "/clients/grafiden-dark.webp"
       },
       {
-        "name": "热门",
+        "name": "HITStart",
         "logo": "/clients/hitstart.png",
         "href": "https://www.hitstart.ba"
       },
       {
-        "name": "可可",
+        "name": "Coco",
         "logo": "/clients/coco.webp"
       },
       {
-        "name": "安慰",
+        "name": "Utjeha",
         "logo": "/clients/utjeha.png"
       },
       {
-        "name": "森塔尔市青年委员会",
+        "name": "Vijeće mladih općine Centar",
         "href": "https://www.vijecemladih.ba/formiranje-vijeca-mladih-opcine-centar-novi-korak-za-aktivizam-mladih/"
       },
       {
-        "name": "支持之手",
-        "logo": "/clients/rukapodrske.png",
-        "href": "https://share.google/AeeL2hMaIbyN2Xbic"
+        "name": "Ruka Podrške",
+        "logo": "/clients/rukapodrske.png"
       },
       {
         "name": "MJO",
@@ -318,7 +320,7 @@
         "href": "https://mjo.ba/"
       },
       {
-        "name": "重新思考",
+        "name": "rebrained",
         "logo": "/clients/rebrained.png",
         "darkLogo": "/clients/rebrained-dark.png",
         "href": "https://www.rebrained.de/"
@@ -327,9 +329,9 @@
   },
   "services": {
     "subtitle": "我们的服务",
-    "title": "综合会计",
-    "description": "共有6个服务区域。一支敬业的团队。您财务运营的方方面面——从日常簿记到长期财务战略。",
-    "commentMarker": "USLUGE",
+    "title": "全方位会计服务",
+    "description": "六大服务领域，一支专注的团队，覆盖您财务运营的每一个层面——从日常簿记到长期财务战略。",
+    "commentMarker": "// SERVICES",
     "items": {
       "bookkeeping": {
         "title": "簿记与会计",
@@ -353,7 +355,7 @@
       },
       "education": {
         "title": "教育与课程",
-        "description": "会计、税务和财务管理的研讨会和课程——我们为您提供和您的团队做出更明智的财务决策。"
+        "description": "会计、税务和财务管理方面的研讨会和课程——帮助您和您的团队做出更明智的财务决策。"
       }
     },
     "cta": {
@@ -364,176 +366,66 @@
     },
     "learnMore": "了解更多"
   },
-  "credibility": {
-    "subtitle": "为什么选择我们",
-    "title": "经验，而非 <gradient>承诺</gradient>",
-    "titlePlain": "经验，而非承诺",
-    "commentMarker": "OUR_TRACK_RECORD",
-    "description": "总部设在萨拉热窝，CRP孵化器。认证会计师为各种规模的企业提供准确、诚信和结果。",
-    "stats": {
-      "experience": "总经验年限",
-      "countries": "注册会计师",
-      "systems": "服务客户",
-      "industries": "涵盖行业"
-    },
-    "proofCards": {
-      "atlascopco": {
-        "label": "认证与监管",
-        "outcome": "我们所有会计师均持有认可的专业证书，并在波斯尼亚和黑塞哥维那的监管机构监督下工作，确保完全符合法律规范。"
-      },
-      "orange": {
-        "label": "税务合规记录",
-        "outcome": "我们的客户有100%的及时报税记录。我们主动监控监管变化，确保您永远不会面临罚款。"
-      },
-      "telecom": {
-        "label": "中小企业与初创企业专家",
-        "outcome": "在支持中小企业从创立到成长的丰富经验——包括注册、首批书籍以及不断增长的合规需求。"
-      },
-      "iot": {
-        "label": "虚拟首席财务官结果",
-        "outcome": "使用我们虚拟首席财务官服务的企业持续提升现金流可见性，降低不必要的成本，实现更安全的财务规划。"
-      },
-      "drone": {
-        "label": "每次都要准确报道",
-        "outcome": "我们对所有财务报表保持严格的质量控制——准确、完整，并在每个报告期按时交付。"
-      },
-      "payment": {
-        "label": "工资与劳动法",
-        "outcome": "根据波黑劳动法规，全面处理工资、缴款和工作文件——无误且准时。"
-      },
-      "game": {
-        "label": "教育与赋权",
-        "outcome": "我们的培训项目已培训了数十名企业主和员工掌握财务知识，提升内部财务素养并减少昂贵的会计错误。"
-      },
-      "social": {
-        "label": "斯里兰卡的商业伙伴",
-        "outcome": "我们位于CRP孵化器，积极参与萨拉热窝的创业生态系统——从第一天起就支持本地创始人。"
-      },
-      "iga": {
-        "label": "企业集团的会计",
-        "outcome": "我们为大型公司管理复杂的多实体结构和集团整合，提供整个集团财务表现的统一图景。"
-      }
-    },
-    "differentiators": {
-      "euAdjacent": {
-        "title": "本地专业知识，欧盟意识",
-        "description": "深入了解波黑税法和会计法，同时关注影响本地企业的欧盟监管趋势。"
-      },
-      "yourEngineers": {
-        "title": "这是你的会计师，不是你的呼叫中心。",
-        "description": "一支专注的团队，从外部了解您的业务。直接联系负责你账目的会计师——没有中间人。"
-      },
-      "hardwareToCloud": {
-        "title": "从初创企业到成长中的企业",
-        "description": "从注册第一家公司、开账到管理不断壮大的公司的财务。我们与你一同成长。"
-      }
-    }
-  },
-  "partners": {
-    "subtitle": "标准与工具",
-    "title": "专业 <gradient>标准</gradient>",
-    "titlePlain": "专业标准",
-    "commentMarker": "STANDARDS_AND_TOOLS",
-    "description": "我们遵循最高的专业标准，使用可靠的会计程序，并遵守监管我们业务的法规和机构。",
-    "categories": {
-      "cloudInfra": {
-        "label": "合规监管",
-        "description": "完全遵守波黑税法、FBiH会计准则及相关欧盟指令。"
-      },
-      "frontend": {
-        "label": "会计软件",
-        "description": "行业标准的簿记、工资和财务报告程序。"
-      },
-      "backend": {
-        "label": "税收与薪资",
-        "description": "专业工具，用于准确的税务计算、工资处理和法律申报。"
-      },
-      "data": {
-        "label": "财务报告",
-        "description": "用于编制协调财务报表和管理报告的工具。"
-      },
-      "devops": {
-        "label": "与客户的合作",
-        "description": "安全的文档交换和沟通平台，实现无缝的客户服务。"
-      }
-    },
-    "scanning": "合规检查......",
-    "summary": {
-      "cloudNative": {
-        "title": "始终同步",
-        "description": "我们持续监控监管变化，确保您的企业合规，无需自行跟踪每一条新规定。"
-      },
-      "fullStack": {
-        "title": "全方位金融服务",
-        "description": "从开书到战略财务规划——一个团队涵盖财务运营的所有方面。"
-      },
-      "productionProven": {
-        "title": "经过验证的成果",
-        "description": "为真实企业带来正确的结果。我们的客户信任我们，因为我们赢得了这份信任。"
-      }
-    },
-    "logoRows": {
-      "row1Aria": "会计软件标志，第1行",
-      "row2Aria": "专业认证标志，第2行",
-      "row3Aria": "监管机构标志，第3行"
-    }
-  },
   "chat": {
     "badge": "AI助手",
-    "title": "请问任何问题。",
+    "title": "有问题尽管问",
     "description": "与我们的AI助手讨论我们的服务、价格以及我们的工作方式。没有表格，没有等待。",
-    "panelTitle": "与Start HN的采访",
+    "panelTitle": "与 Start HN 聊天",
     "greeting": "你好！今天我们能为您做些什么？",
     "inputPlaceholder": "输入一条消息......",
     "startOver": "重新开始",
-    "openChat": "开放式对话",
-    "closeChat": "亲密对话",
+    "openChat": "打开聊天",
+    "closeChat": "关闭聊天",
     "prompts": [
-      "我该如何开始合作？",
+      "如何开始合作？",
       "每月记账费用是多少？",
       "虚拟首席财务官（Virtual CFO）包括哪些内容？",
-      "你是否与初创企业和工匠合作？"
+      "你们是否为初创企业和个体经营者提供服务？"
     ]
   },
   "faq": {
     "subtitle": "常见问题解答",
     "title": "<gradient>常见问题解答</gradient>",
     "titlePlain": "常见问题解答",
-    "commentMarker": "KNOWLEDGE_BASE",
+    "commentMarker": "// KNOWLEDGE_BASE",
     "description": "关于与Start HN合作你需要知道的一切",
     "items": {
       "scope": {
-        "question": "我该如何开始和你合作？",
-        "answer": "开始合作很容易。联系我们，免费进行入门咨询——我们将了解您的业务、当前的会计体系以及您的需求。之后，我们将提出合适的服务方案，安排接管现有文档，并在几天内全面介绍系统。无长期依恋——我们每个月努力赢得你的信任。"
+        "question": "如何开始与你们合作？",
+        "answer": "开始合作非常简单。联系我们进行免费的初次咨询——我们会了解您的业务、当前的会计安排以及您的需求。随后，我们会建议合适的服务方案，商定现有记录的交接事宜，并在几天之内完成全部接入。没有长期绑定；我们每个月都努力赢得您的信任。"
       },
       "stack": {
-        "question": "你服务的客户类型是什么？",
-        "answer": "我们与各种规模的公司合作——从初创企业和初创企业到成熟的中小企业、个体经营、手工业和协会。"
+        "question": "你们服务哪些类型的客户？",
+        "answer": "我们与各种规模的公司合作——从新成立的企业和初创公司到成熟的中小企业，也服务个体经营者、手工业者和协会。"
       },
       "enterprise": {
-        "question": "你是否负责报税和合规？",
-        "answer": "是的，完全是。我们管理您的税务义务各方面：增值税申报表的准备与申报、公司所得税、所得税以及根据波黑和联邦法规处理的所有其他法律申报表。我们主动监控监管变化，并在变更影响您的业务时及时为您提供建议——让您永远不会措手不及。"
+        "question": "你们是否负责纳税申报和合规？",
+        "answer": "是的，全面负责。我们管理您税务义务的各个方面：编制和提交增值税申报表、企业所得税、个人所得税，以及波黑和联邦法规要求的所有其他法定申报。我们还会主动跟踪法规变化，并在变化影响您的业务时及时提供建议——让您不会措手不及。"
       },
       "support": {
-        "question": "你能成为我们的虚拟首席财务官吗？",
-        "answer": "绝对是。我们的虚拟首席财务官服务让您无需全职工作，即可获得更高的财务专业知识。我们提供现金流预测、预算规划、财务分析、管理报告和战略建议——并根据需要出席会议。非常适合需要财务领导且尚未准备好聘请全职首席财务官的成长型公司。"
+        "question": "你们能担任我们的虚拟首席财务官吗？",
+        "answer": "当然可以。我们的虚拟首席财务官服务让您无需承担全职聘用的成本，即可获得资深的财务专业支持。我们提供现金流预测、预算规划、财务分析、可提交董事会的报告和战略建议，并根据需要出席会议。这非常适合需要财务领导、但尚未准备好聘请专职首席财务官的成长型企业。"
       },
       "integration": {
-        "question": "你用的会计软件是什么？",
-        "answer": "我们主要在机构中使用 **Pantheon**，但也会适应客户现有的系统。我们有使用多种会计软件的经验，包括**e-line**、**Microsoft Dynamics NAV**、**InfoSoft**等。如果您已经在使用某个特定程序并与服务提供商签订有效合同，我们也可以在您现有系统中组织工作。"
+        "question": "你们使用什么会计软件？",
+        "answer": "我们机构主要使用 **Pantheon**，同时也会适应客户已在使用的系统。我们拥有使用多种会计软件的经验，包括 **e-line**、**Microsoft Dynamics NAV**、**InfoSoft** 等。如果您已经在使用某个软件并与其供应商签有有效合同，我们也可以在您现有的系统中开展工作。"
       },
       "industries": {
-        "question": "你们的服务价格是多少？",
-        "answer": "会计服务的价格取决于企业实体的规模、文件量、员工数量以及业务的复杂程度。新成立的公司起始价格为每月300.00公里，新成立的船只起步价为每月150.00公里。随着业务增长和工作量的增加，我们的支持范围也会调整，服务价格也会相应调整。对于现有公司和行业，这些公司会更换会计机构，价格会在对客户业务和需求的简要分析后单独确定。我们的目标是让价格清晰、公平，并符合企业的真实需求，避免隐藏成本和不清晰的计算。"
+        "question": "你们的服务如何定价？",
+        "answer": "会计服务的价格取决于企业规模、单据数量、员工人数以及业务的复杂程度。新成立的公司（d.o.o.）起价为每月 300.00 KM，新成立的个体经营者（obrt）起价为每月 150.00 KM。随着您的业务增长和工作量增加，我们的支持范围会相应调整，价格也会随之调整。对于更换会计机构的现有公司和个体经营者，价格会在简要了解其业务和需求后单独确定。我们的目标是让价格清晰、公平，并与企业的实际需求相匹配，没有隐藏费用或不明确的收费。"
       },
       "engagement": {
-        "question": "你们提供内部簿记的教育或培训吗？",
-        "answer": "是的。根据客户需求，我们为内部管理部分行政或会计流程的公司和工种提供个性化的专业支持和实践培训，并有外部会计参与。这可能包括支持组织内部文档、培训员工使用会计软件、理解基本会计流程，以及帮助管理层理解财务报表和业务指标。此外，我们还可以为独立管理手工艺商业账簿的创业者提供个性化咨询和关于法律义务和记录的实用说明。"
+        "question": "你们是否为内部簿记提供教育或培训？",
+        "answer": "是的。根据客户需求，我们为在外部会计之外自行处理部分行政或簿记工作的公司和个体经营者提供个性化的专业支持和实践培训。内容可包括协助整理内部文件、培训员工使用会计软件、理解基本会计流程，以及帮助管理层理解财务报表和经营指标。对于自行为个体经营业务记账的创业者，我们也可以提供个别咨询，并就其法定义务和记录要求进行实用讲解。"
       }
     },
     "stillHaveQuestions": "还有疑问吗？",
-    "ctaDescription": "你准备好理顺财务了吗？我们来谈谈你需要什么。",
+    "ctaDescription": "准备好理顺您的财务了吗？我们来谈谈您的需求。",
     "readCaseStudies": "看看我们是如何帮忙的",
     "scheduleCall": "预约咨询"
+  },
+  "guide": {
+    "linkText": "指南：在波黑创业（个体经营或 d.o.o.）",
+    "description": "一份实用指南，包含经验分享以及我们做客 N1 电视台节目的录像。"
   }
 }

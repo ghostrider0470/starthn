@@ -1,14 +1,17 @@
 {
   "filters": {
-    "all": "Все из них"
+    "all": "Все",
+    "showLess": "Показать меньше",
+    "showMore": "Ещё {{count}}",
+    "searchCategories": "Поиск по категориям…"
   },
-  "readTime": "{{minutes}} минуты чтения",
+  "readTime": "{{minutes}} мин чтения",
   "tagsLabel": "Теги",
   "relatedPosts": "Связанные статьи",
   "author": {
-    "role": "Издатель"
+    "role": "Автор"
   },
   "editor": {
-    "emptyPreview": "Начните писать, чтобы увидеть трейлер..."
+    "emptyPreview": "Начните писать, чтобы увидеть предпросмотр..."
   }
 }

@@ -97,8 +97,10 @@ export function BlogCategoryFilter({
             className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
           >
             {showAll
-              ? t('filters.showLess', 'Show less')
-              : t('filters.showMore', `+${topLevelCategories.length - MAX_VISIBLE_PILLS} more`)}
+              ? t('filters.showLess')
+              : t('filters.showMore', {
+                  count: topLevelCategories.length - MAX_VISIBLE_PILLS,
+                })}
             <ChevronDown className={cn('h-3 w-3 transition-transform', showAll && 'rotate-180')} />
           </button>
         )}
@@ -112,7 +114,7 @@ export function BlogCategoryFilter({
             type="text"
             value={catSearch}
             onChange={(e) => setCatSearch(e.target.value)}
-            placeholder={t('filters.searchCategories', 'Search categories...')}
+            placeholder={t('filters.searchCategories')}
             className="w-full rounded-lg border bg-background pl-9 pr-3 py-1.5 text-xs focus:outline-none focus:ring-1 focus:ring-primary/20"
           />
         </div>

@@ -18,11 +18,12 @@ import { StandardCard } from '@/components/ui/standard-card'
 import { useBlogPostsPaged } from '@/hooks/useBlogQueries'
 import { usePublicCategories } from '@/hooks/useCategoryQueries'
 import { usePublicTags } from '@/hooks/useTagQueries'
-import { formatBlogPublishedDate, localizeBlogCategory, localizeBlogTag, localizeBlogReadTime } from '@/lib/blog-i18n'
+import { blogAuthorName, formatBlogPublishedDate, localizeBlogCategory, localizeBlogTag, localizeBlogReadTime } from '@/lib/blog-i18n'
 import { designSystem } from '@/lib/design-system'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
 import { img, imgSrcSet, IMAGE_WIDTHS } from '@/lib/image'
+import { localizedPageHead } from '@/lib/seo-meta'
 
 // ── Constants ────────────────────────────────────────────────────────────────
 
@@ -56,22 +57,7 @@ export const Route = createFileRoute('/{-$locale}/blog/')({
       return { posts: null, categories: null, tags: null }
     }
   },
-  head: () => ({
-    meta: [
-      { title: 'Blog — Start HN' },
-      {
-        name: 'description',
-        content:
-          'Technical insights, case studies, and updates from the Start HN engineering team.',
-      },
-      { property: 'og:title', content: 'Blog — Start HN' },
-      {
-        property: 'og:description',
-        content:
-          'Technical insights, case studies, and updates from the Start HN engineering team.',
-      },
-    ],
-  }),
+  head: ({ params }) => localizedPageHead('blog', params.locale),
   component: BlogIndexPage,
   pendingComponent: BlogPendingPage,
   validateSearch: blogSearchSchema,
@@ -593,7 +579,15 @@ function BlogIndexPage() {
                         'mb-3 leading-tight',
                       )}
                     >
-                      {featuredPost.title}
+                      <Link
+                        to={withLocalePath(
+                          `/blog/${featuredPost.slug}`,
+                          currentLocale,
+                        )}
+                        className="transition-colors hover:text-primary"
+                      >
+                        {featuredPost.title}
+                      </Link>
                     </h2>
 
                     <p
@@ -613,7 +607,7 @@ function BlogIndexPage() {
                         'mb-5',
                       )}
                     >
-                      {featuredPost.author}
+                      {blogAuthorName(featuredPost.author)}
                       {featuredPost.publishedAt && (
                         <> · {formatBlogPublishedDate(featuredPost.publishedAt, currentLocale)}</>
                       )}

@@ -19,24 +19,10 @@ import {
 import { cn } from '@/lib/utils'
 import { JobListingsSection } from '@/components/landing/JobListingsSection'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
+import { localizedPageHead } from '@/lib/seo-meta'
 
 export const Route = createFileRoute('/{-$locale}/careers')({
-  head: () => ({
-    meta: [
-      { title: 'Careers — Start HN' },
-      {
-        name: 'description',
-        content:
-          'Join Start HN. We are a growing accounting agency looking for dedicated professionals in accounting, tax, and financial services.',
-      },
-      { property: 'og:title', content: 'Careers — Start HN' },
-      {
-        property: 'og:description',
-        content:
-          'Join Start HN. We are a growing accounting agency looking for dedicated professionals in accounting, tax, and financial services.',
-      },
-    ],
-  }),
+  head: ({ params }) => localizedPageHead('careers', params.locale),
   component: CareersPage,
 })
 

@@ -23,24 +23,10 @@ import {
 import { cn } from '@/lib/utils'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { featureFlags } from '@/lib/feature-flags'
+import { localizedPageHead } from '@/lib/seo-meta'
 
 export const Route = createFileRoute('/{-$locale}/about')({
-  head: () => ({
-    meta: [
-      { title: 'About — Start HN' },
-      {
-        name: 'description',
-        content:
-          'Start HN is a Sarajevo-based accounting agency dedicated to the growth and success of entrepreneurs and SMEs in Bosnia and Herzegovina.',
-      },
-      { property: 'og:title', content: 'About — Start HN' },
-      {
-        property: 'og:description',
-        content:
-          'Start HN is a Sarajevo-based accounting agency dedicated to the growth and success of entrepreneurs and SMEs in Bosnia and Herzegovina.',
-      },
-    ],
-  }),
+  head: ({ params }) => localizedPageHead('about', params.locale),
   component: AboutPage,
 })
 
@@ -109,7 +95,7 @@ function AboutPage() {
               <div className="relative mb-6 aspect-[3/2] overflow-hidden rounded-lg border border-border">
                 <img
                   src="/pages/about-hero.webp"
-                  alt="Start HN team collaborating"
+                  alt={t('about.images.heroAlt')}
                   width={1536}
                   height={1024}
                   className="absolute inset-0 h-full w-full object-cover"
@@ -158,7 +144,7 @@ function AboutPage() {
               <div className="relative mb-6 aspect-square overflow-hidden rounded-lg border border-border">
                 <img
                   src="/pages/about-interior.webp"
-                  alt="Accountant reviewing documents with a client"
+                  alt={t('about.images.interiorAlt')}
                   width={1024}
                   height={1024}
                   className="absolute inset-0 h-full w-full object-cover"
@@ -166,13 +152,7 @@ function AboutPage() {
                   decoding="async"
                 />
               </div>
-              <h2 className="text-2xl font-bold tracking-tight text-foreground md:text-3xl">
-                {t('about.whyUs.title')}
-              </h2>
-              <p className="mt-3 text-sm leading-7 text-muted-foreground">
-                {t('about.whyUs.description')}
-              </p>
-              <ul className="mt-6 divide-y divide-border border-y border-border">
+              <ul className="divide-y divide-border border-y border-border">
                 {pillars.map((pillar) => (
                   <li key={pillar} className="flex items-center gap-3 py-4">
                     <CheckCircle2 className="h-4 w-4 shrink-0 text-primary" />
@@ -189,19 +169,6 @@ function AboutPage() {
 
       <CompanyPagePanel>
         <PageContainer maxWidth="xl" spacing="none">
-          <div className="mb-8 grid gap-4 lg:grid-cols-[0.5fr_1fr] lg:items-end">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
-                {t('about.whyUs.title')}
-              </p>
-              <h2 className="mt-3 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-                {t('about.whyUs.subtitle')}
-              </h2>
-            </div>
-            <p className="max-w-2xl text-sm leading-7 text-muted-foreground md:ml-auto md:text-right">
-              {t('about.whyUs.description')}
-            </p>
-          </div>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((feature) => {
               const Icon = FEATURE_ICONS[feature.icon] ?? ShieldCheck

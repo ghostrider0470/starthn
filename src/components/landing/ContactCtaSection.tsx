@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { motion } from 'motion/react'
 import { Check, Send } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import { SlideUp } from '@/components/animations/FadeIn'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
@@ -34,12 +34,7 @@ export function ContactCtaSection() {
     <section className="relative flex min-h-[calc(100svh-4rem)] items-center overflow-hidden bg-muted/25 py-10 md:py-12">
       <div className={cn(designSystem.spacing.page.container, 'max-w-6xl')}>
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[6fr_5fr] lg:gap-16">
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-80px' }}
-            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-          >
+          <SlideUp offset={24} duration={0.6}>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
               {t('contactCta.overline')}
             </p>
@@ -62,13 +57,12 @@ export function ContactCtaSection() {
                 </li>
               ))}
             </ul>
-          </motion.div>
+          </SlideUp>
 
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-80px' }}
-            transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
+          <SlideUp
+            offset={24}
+            duration={0.6}
+            delay={0.1}
             className="relative overflow-hidden rounded-2xl border border-border/70 bg-card p-8 text-card-foreground shadow-xl shadow-black/5 md:p-10 dark:bg-card/95 dark:shadow-black/30"
           >
             <div
@@ -139,7 +133,7 @@ export function ContactCtaSection() {
                 </Button>
               </form>
             )}
-          </motion.div>
+          </SlideUp>
         </div>
       </div>
     </section>

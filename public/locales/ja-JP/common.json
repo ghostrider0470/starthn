@@ -2,6 +2,7 @@
   "nav": {
     "home": "ホーム",
     "company": "私たちについて",
+    "tagline": "会計事務所",
     "solutions": "サービス",
     "resources": "資料",
     "contact": "連絡先",
@@ -22,7 +23,7 @@
       "description": "Start HNの背後にいる人々に会おう"
     },
     "careers": {
-      "title": "経歴",
+      "title": "採用情報",
       "description": "ぜひ私たちのチームに加わり、共に成長してください"
     },
     "enterpriseSoftware": {
@@ -67,13 +68,13 @@
     },
     "navigation": "ナビゲーション",
     "skipToContent": "内容へスキップ",
-    "toggleMenu": "スイッチメニュー",
+    "toggleMenu": "メニューの切り替え",
     "dashboard": "コントロールパネル",
     "myWorkspace": "私の作業スペース",
     "profile": "プロフィール",
     "adminPanel": "管理パネル",
     "practiceManagement": "診療所管理",
-    "logOut": "登録",
+    "logOut": "ログアウト",
     "education": {
       "title": "リソースとガイド",
       "description": "Start HNチームによる実践的な会計および財務リソース"
@@ -81,10 +82,12 @@
     "support": {
       "title": "サポートセンター",
       "description": "会計およびアドバイザリーサービスの支援を受けましょう"
-    }
+    },
+    "myPage": "マイページ",
+    "backToSite": "サイトに戻る"
   },
   "footer": {
-    "description": "Start HNはサラエボに拠点を置く会計事務所です。ボスニア・ヘルツェゴビナ全域の企業向けに簿記、税務コンサルティング、バーチャルCFO、財務報告を提供しています。",
+    "description": "Start HNは、Ilidža（サラエボ県）に事務所を構える会計事務所です。ボスニア・ヘルツェゴビナ全域の企業、個人事業主、団体に向けて、記帳代行、給与計算、税務コンサルティング、バーチャルCFO、財務報告を提供しています。",
     "services": "サービス",
     "servicesList": {
       "bookkeeping": "簿記",
@@ -100,20 +103,20 @@
       "missionVision": "ミッションと価値観",
       "certificates": "証明書",
       "team": "私たちのチーム",
-      "blog": "成功事例",
-      "careers": "経歴",
+      "blog": "ブログ",
+      "careers": "採用情報",
       "contact": "連絡先"
     },
     "contact": "連絡先",
     "contactInfo": {
       "email": "klijenti@starthn.ba",
-      "phone": "+387 61 221-368",
-      "street": "イブラヒマ・リュボヴィチャ 47",
-      "locality": "イリジャ",
-      "region": "サラエボ州",
+      "phone": "+387 61 221 368",
+      "street": "Ibrahima Ljubovića 47",
+      "locality": "71210 Ilidža",
+      "region": "サラエボ県",
       "country": "ボスニア・ヘルツェゴビナ",
       "hours": "月曜〜金曜:08:00–16:00",
-      "holidays": "祝日は仕事をしません"
+      "holidays": "祝日は休業です"
     },
     "legal": "法的",
     "legalLinks": {
@@ -121,7 +124,7 @@
       "termsOfService": "利用規約",
       "cookiePolicy": "クッキーポリシー"
     },
-    "copyright": "© {{year}} HNを始めましょう。無断転載を禁じます。",
+    "copyright": "© {{year}} Start HN. 無断転載を禁じます。",
     "developedBy": "開発",
     "ctaTitle": "話す準備はいい?",
     "ctaDescription": "無料の初回相談をご予約ください — 営業日以内にご連絡いたします。",
@@ -130,12 +133,12 @@
   "header": {
     "badge": "プロフェッショナル会計サービス",
     "titleLine1": "信頼できる会計と財務",
-    "titleLine2": "ボスニア・ヘルツェゴナでのビジネスのため",
+    "titleLine2": "ボスニア・ヘルツェゴビナのビジネスのために",
     "description": "簿記や税務コンサルティングからバーチャルCFOや財務報告サービスまで、Start HNは包括的な会計専門知識を提供し、ビジネスを常に整合させ、情報を得て成長に備えます。",
     "getStarted": "始めよう",
     "exploreSolutions": "サービスを探る",
     "trustedBy": "ボスニア・ヘルツェゴビナ全域の企業の信頼",
-    "microsoftPartner": "公認会計士",
+    "microsoftPartner": "認定会計士",
     "azureCertified": "VAT登録済み",
     "enterpriseSolutions": "エンドツーエンド会計"
   },
@@ -143,7 +146,7 @@
     "navigation": "モバイルナビゲーション",
     "home": "ホーム",
     "solutions": "サービス",
-    "caseStudies": "判例",
+    "caseStudies": "ケーススタディ",
     "blog": "ブログ",
     "resources": "資料",
     "contact": "連絡先"
@@ -167,8 +170,8 @@
     "noResults": "言語は見つかりませんでした。"
   },
   "common": {
-    "menu": "私にとって",
-    "account": "秩序"
+    "menu": "メニュー",
+    "account": "アカウント"
   },
   "homePage": {
     "caseStudies": {
@@ -194,5 +197,69 @@
   },
   "blogCard": {
     "read": "続きを読む"
+  },
+  "sections": {
+    "overview": "概要",
+    "story": "ストーリー",
+    "proof": "実績",
+    "gallery": "ギャラリー",
+    "values": "価値観",
+    "team": "チーム",
+    "culture": "企業文化",
+    "jobs": "募集職種",
+    "process": "プロセス",
+    "channels": "連絡手段",
+    "contact": "お問い合わせ",
+    "start": "はじめる",
+    "home": "ホーム",
+    "services": "サービス",
+    "why": "Start HNを選ぶ理由",
+    "evidence": "数字で見る実績",
+    "trust": "信頼",
+    "faq": "よくある質問",
+    "scope": "対応範囲",
+    "outputs": "成果物"
+  },
+  "breadcrumbs": {
+    "home": "ホーム",
+    "services": "サービス",
+    "about": "会社概要",
+    "missionVision": "ミッションとビジョン",
+    "certificates": "認定証",
+    "careers": "採用情報",
+    "contact": "お問い合わせ",
+    "blog": "ブログ",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "serviceBookkeeping": "記帳代行",
+    "serviceTaxConsulting": "税務コンサルティング",
+    "serviceVirtualCfo": "バーチャルCFO",
+    "serviceBusinessConsulting": "ビジネスコンサルティング",
+    "serviceFinancialReporting": "財務報告",
+    "serviceEducation": "研修・教育"
+  },
+  "a11y": {
+    "prevSlide": "前のスライド",
+    "nextSlide": "次のスライド",
+    "goToSlide": "スライド{{n}}へ移動",
+    "pauseCarousel": "スライドの自動切り替えを一時停止",
+    "resumeCarousel": "スライドの自動切り替えを再開",
+    "slides": "スライド",
+    "prevTestimonial": "前のお客様の声",
+    "nextTestimonial": "次のお客様の声",
+    "goToTestimonial": "お客様の声 {{n}}",
+    "testimonialCounter": "お客様の声 {{n}}（全{{total}}件）",
+    "prevSection": "前のセクション",
+    "nextSection": "次のセクション",
+    "goToSection": "セクション{{n}}へ移動",
+    "toggleTheme": "テーマを切り替え"
+  },
+  "consent": {
+    "title": "Cookieとプライバシー",
+    "text": "同意いただいた場合に限り、サイトの利用状況を把握して改善するためにGoogle AnalyticsとMicrosoft Clarityを使用します。同意がなければこれらは読み込まれません。選択はいつでも変更できます。",
+    "accept": "同意する",
+    "reject": "拒否する",
+    "settings": "Cookie設定",
+    "privacyLink": "プライバシーポリシー"
   }
 }

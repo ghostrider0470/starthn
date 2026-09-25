@@ -1,5 +1,5 @@
-import { motion } from 'motion/react'
 import { useTranslation } from 'react-i18next'
+import { SlideUp } from '@/components/animations/FadeIn'
 import {
   Accordion,
   AccordionContent,
@@ -43,16 +43,7 @@ export function FAQSection() {
     <section className="py-24 bg-muted/30 relative overflow-hidden">
       <div className="container mx-auto px-6 lg:px-8 relative z-30 max-w-3xl">
         {/* Header */}
-        <motion.div
-          className="text-center mb-12"
-          initial={{ opacity: 0, y: designSystem.animation.motion.distance.slideUp }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-50px' }}
-          transition={{
-            duration: designSystem.animation.motion.duration.base,
-            ease: designSystem.animation.motion.ease.out,
-          }}
-        >
+        <SlideUp className="text-center mb-12">
           <span className="text-sm font-medium uppercase tracking-widest text-primary mb-3 block">
             {t('faq.subtitle')}
           </span>
@@ -72,32 +63,26 @@ export function FAQSection() {
           >
             {t('faq.description')}
           </p>
-        </motion.div>
+        </SlideUp>
 
         {/* Accordion */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{
-            duration: designSystem.animation.motion.duration.base,
-            delay: 0.1,
-            ease: designSystem.animation.motion.ease.out,
-          }}
-        >
+        <SlideUp offset={20} delay={0.1}>
           <Accordion type="single" collapsible className="w-full">
             {faqKeys.map((key) => (
               <AccordionItem key={key} value={key}>
                 <AccordionTrigger className="text-base font-semibold text-foreground">
                   {t(`faq.items.${key}.question`)}
                 </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground leading-relaxed">
+                <AccordionContent
+                  keepMounted
+                  className="text-muted-foreground leading-relaxed"
+                >
                   <BoldText text={t(`faq.items.${key}.answer`)} />
                 </AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
-        </motion.div>
+        </SlideUp>
       </div>
     </section>
   )

@@ -1,14 +1,17 @@
 {
   "filters": {
-    "all": "Todos eles"
+    "all": "Todos",
+    "showLess": "Mostrar menos",
+    "showMore": "+{{count}} mais",
+    "searchCategories": "Pesquisar categorias…"
   },
-  "readTime": "{{minutes}} de leitura de um minuto",
+  "readTime": "{{minutes}} min de leitura",
   "tagsLabel": "Tags",
   "relatedPosts": "Artigos Relacionados",
   "author": {
-    "role": "Editora"
+    "role": "Autor"
   },
   "editor": {
-    "emptyPreview": "Comece a escrever para ver o trailer..."
+    "emptyPreview": "Comece a escrever para ver a pré-visualização..."
   }
 }

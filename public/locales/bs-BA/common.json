@@ -2,6 +2,7 @@
   "nav": {
     "home": "Početna",
     "company": "Kompanija",
+    "tagline": "Računovodstvena agencija",
     "solutions": "Usluge",
     "resources": "Resursi",
     "contact": "Kontakt",
@@ -35,7 +36,7 @@
     },
     "cloudArchitecture": {
       "title": "Virtualni CFO",
-      "description": "Strateško finansijsko vodstvo bez troškova stalnog zaposlenja"
+      "description": "Strateško finansijsko vođstvo bez troškova stalnog zaposlenja"
     },
     "iot": {
       "title": "Poslovno savjetovanje",
@@ -43,7 +44,7 @@
     },
     "devops": {
       "title": "Finansijsko izvještavanje",
-      "description": "Tačni i pravovremeni finansijski izvještaji i upravljačke analize"
+      "description": "Tačni i pravovremeni finansijski izvještaji i menadžerske analize"
     },
     "digitalTransformation": {
       "title": "Edukacija i kursevi",
@@ -67,7 +68,7 @@
     },
     "navigation": "Navigacija",
     "skipToContent": "Preskoči na sadržaj",
-    "toggleMenu": "Preklopi meni",
+    "toggleMenu": "Otvori ili zatvori meni",
     "dashboard": "Kontrolna tabla",
     "myWorkspace": "Moj radni prostor",
     "profile": "Profil",
@@ -81,10 +82,12 @@
     "support": {
       "title": "Centar za podršku",
       "description": "Dobijte pomoć s našim računovodstvenim i savjetodavnim uslugama"
-    }
+    },
+    "myPage": "Moja stranica",
+    "backToSite": "Nazad na stranicu"
   },
   "footer": {
-    "description": "Start HN je računovodstvena agencija sa sjedištem u Sarajevu. Pružamo knjigovodstvo, porezno savjetovanje, Virtualni CFO i finansijsko izvještavanje za preduzeća širom Bosne i Hercegovine.",
+    "description": "Start HN je računovodstvena agencija s uredom na Ilidži (Kanton Sarajevo). Pružamo knjigovodstvo, obračun plata, porezno savjetovanje, virtualni CFO i finansijsko izvještavanje za firme, obrte i udruženja širom Bosne i Hercegovine.",
     "services": "Usluge",
     "servicesList": {
       "bookkeeping": "Knjigovodstvo",
@@ -100,16 +103,16 @@
       "missionVision": "Misija i vrijednosti",
       "certificates": "Certifikati",
       "team": "Naš tim",
-      "blog": "Uspješne priče",
+      "blog": "Blog",
       "careers": "Karijere",
       "contact": "Kontakt"
     },
     "contact": "Kontakt",
     "contactInfo": {
       "email": "klijenti@starthn.ba",
-      "phone": "+387 61 221-368",
+      "phone": "+387 61 221 368",
       "street": "Ibrahima Ljubovića 47",
-      "locality": "Ilidža",
+      "locality": "71210 Ilidža",
       "region": "Kanton Sarajevo",
       "country": "Bosna i Hercegovina",
       "hours": "Pon–Pet: 08:00–16:00",
@@ -194,5 +197,69 @@
   },
   "blogCard": {
     "read": "Pročitajte"
+  },
+  "sections": {
+    "overview": "Pregled",
+    "story": "Priča",
+    "proof": "Dokaz",
+    "gallery": "Galerija",
+    "values": "Vrijednosti",
+    "team": "Tim",
+    "culture": "Kultura",
+    "jobs": "Pozicije",
+    "process": "Proces",
+    "channels": "Kanali",
+    "contact": "Kontakt",
+    "start": "Početak",
+    "home": "Početna",
+    "services": "Usluge",
+    "why": "Zašto Start HN",
+    "evidence": "Evidencija",
+    "trust": "Povjerenje",
+    "faq": "Pitanja",
+    "scope": "Obim",
+    "outputs": "Isporuke"
+  },
+  "breadcrumbs": {
+    "home": "Početna",
+    "services": "Usluge",
+    "about": "O nama",
+    "missionVision": "Misija i vizija",
+    "certificates": "Certifikati",
+    "careers": "Karijera",
+    "contact": "Kontakt",
+    "blog": "Blog",
+    "privacy": "Politika privatnosti",
+    "terms": "Uslovi korištenja",
+    "serviceBookkeeping": "Knjigovodstvo",
+    "serviceTaxConsulting": "Porezno savjetovanje",
+    "serviceVirtualCfo": "Virtualni CFO",
+    "serviceBusinessConsulting": "Poslovno savjetovanje",
+    "serviceFinancialReporting": "Finansijsko izvještavanje",
+    "serviceEducation": "Edukacije"
+  },
+  "a11y": {
+    "prevSlide": "Prethodni slajd",
+    "nextSlide": "Sljedeći slajd",
+    "goToSlide": "Idi na slajd {{n}}",
+    "pauseCarousel": "Pauziraj automatsku izmjenu slajdova",
+    "resumeCarousel": "Nastavi automatsku izmjenu slajdova",
+    "slides": "Slajdovi",
+    "prevTestimonial": "Prethodna izjava klijenta",
+    "nextTestimonial": "Sljedeća izjava klijenta",
+    "goToTestimonial": "Izjava klijenta {{n}}",
+    "testimonialCounter": "Izjava klijenta {{n}} od {{total}}",
+    "prevSection": "Prethodna sekcija",
+    "nextSection": "Sljedeća sekcija",
+    "goToSection": "Idi na sekciju {{n}}",
+    "toggleTheme": "Promijeni temu"
+  },
+  "consent": {
+    "title": "Kolačići i privatnost",
+    "text": "Uz vaš pristanak koristimo Google Analytics i Microsoft Clarity da bismo bolje razumjeli kako se stranica koristi i poboljšali je. Bez pristanka se ne učitavaju, a odluku možete promijeniti bilo kada.",
+    "accept": "Prihvatam",
+    "reject": "Odbijam",
+    "settings": "Postavke kolačića",
+    "privacyLink": "Politika privatnosti"
   }
 }

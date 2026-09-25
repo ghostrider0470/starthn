@@ -7,20 +7,28 @@ import { handleAdminRoute } from './server/db/admin-routes'
 import { handleAuthRoute } from './server/routes/auth'
 import { handleProfileRoute } from './server/routes/profile'
 import { handleUploadRoute } from './server/routes/upload'
-import { setD1, clearD1 } from './server/d1-context'
-import { setAssets, clearAssets } from './server/assets-context'
+import { setD1 } from './server/d1-context'
+import { setAssets } from './server/assets-context'
 import { handleImageRequest } from './server/image-handler'
 import { handleHealth } from './server/health'
 import { handleSitemap } from './server/sitemap'
 import { isHackSpam } from './server/spam-guard'
 import { resolveRouteTemplatePath } from './server/route-template-guard'
+import {
+  redirectOrigin,
+  resolveCanonicalRequest,
+} from './server/canonical-url'
+import {
+  HTML_CACHE_CONTROL,
+  htmlCacheKeyUrl,
+  isHtmlCacheable,
+} from './server/html-cache'
 import type { Bindings, ImageWriteMessage } from './server/bindings'
 import { handleR2WriteQueue } from './server/r2-queue-consumer'
 import {
   getD1PrimaryMissingBindings,
   isD1PrimaryEnabled,
 } from './server/d1-primary-routing'
-import { getLocaleFromPath } from '@/lib/i18n-utils'
 
 const app = new Hono<{ Bindings: Bindings }>()
 
@@ -33,7 +41,7 @@ const app = new Hono<{ Bindings: Bindings }>()
 //
 // This guard MUST run before every other middleware/route — Hono executes in
 // registration order and the first Response wins, so placing it here ensures it
-// beats the apex→www redirect and the SSR locale router. Matchers live in
+// beats the canonical-URL redirects and the SSR locale router. Matchers live in
 // ./server/spam-guard (unit-tested against real routes to prevent false 410s).
 app.use('*', async (c, next) => {
   if (isHackSpam(new URL(c.req.url).pathname)) {
@@ -55,7 +63,8 @@ app.use('*', async (c, next) => {
   const url = new URL(c.req.url)
   const target = resolveRouteTemplatePath(url.pathname)
   if (target) {
-    return c.redirect(`${target}${url.search}`, 301)
+    // Absolute www URL, so an apex request also lands in one hop.
+    return c.redirect(`${redirectOrigin(url)}${target}${url.search}`, 301)
   }
   return next()
 })
@@ -75,13 +84,30 @@ function getApiOrigin(env: Bindings): string {
 
 // ─── Middleware ─────────────────────────────────────────────
 
-// Redirect apex → www
+// ─── Canonical URL: one 301, or a real 404 ─────────────────
+// Host (apex → www), repeated/trailing slashes, locale aliases ("/en",
+// "/BS-BA"), old WordPress URLs (./server/legacy-redirects), and letter case
+// are all fixed in ONE absolute 301 — no 307 trailing-slash hops, no chain
+// through the homepage. Prefix-less paths that are not a route get a noindex
+// 404 here instead of being redirected into a soft 404. Rules and tests live in
+// ./server/canonical-url.
+const NOT_FOUND_HTML =
+  '<!doctype html><html lang="bs"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Stranica nije pronađena | Start HN</title></head><body><h1>Stranica nije pronađena</h1><p><a href="https://www.starthn.ba/bs-BA">Početna stranica Start HN</a></p></body></html>'
+
 app.use('*', async (c, next) => {
-  const host = c.req.header('host') ?? ''
-  if (host === 'starthn.ba') {
-    const url = new URL(c.req.url)
-    url.hostname = 'www.starthn.ba'
-    return c.redirect(url.toString(), 301)
+  const result = resolveCanonicalRequest(new URL(c.req.url), c.req.method)
+  if (result?.kind === 'redirect') {
+    return c.redirect(result.location, 301)
+  }
+  if (result?.kind === 'notFound') {
+    return new Response(NOT_FOUND_HTML, {
+      status: 404,
+      headers: {
+        'content-type': 'text/html; charset=utf-8',
+        'cache-control': 'no-store',
+        'x-robots-tag': 'noindex',
+      },
+    })
   }
   return next()
 })
@@ -278,8 +304,9 @@ app.all('*', async (c) => {
   const request = c.req.raw
   const url = new URL(request.url)
 
-  // Sitemaps: must intercept before TanStack SSR, which redirects unknown
-  // paths to the default locale (/en-US).
+  // Sitemaps: must intercept before TanStack SSR, which would treat
+  // "sitemap.xml" as a locale segment and route it into the app. The handler
+  // answers 410 for /sitemap-<code>.xml of any non-indexable locale.
   const { pathname } = url
   if (pathname === '/sitemap.xml' || (pathname.startsWith('/sitemap-') && pathname.endsWith('.xml'))) {
     const res = await handleSitemap(request, c.env)
@@ -289,44 +316,56 @@ app.all('*', async (c) => {
 
   // Edge-cache HTML responses via the Cache API.
   // (s-maxage headers alone have no effect when a Worker handles the request.)
-  const isGet = request.method === 'GET'
-  const cache = isGet ? caches.default : null
-  const cacheKey = isGet ? new Request(url.toString(), { method: 'GET' }) : null
+  // Private routes (login, admin, account) never touch the cache. The key
+  // ignores utm_* and ad click IDs, so campaign links reuse the clean page;
+  // only clean URLs store entries, so no cached page carries campaign state.
+  const cacheablePath = isHtmlCacheable(pathname)
+  const cache = request.method === 'GET' && cacheablePath ? caches.default : null
+  const cacheKeyUrl = htmlCacheKeyUrl(url)
+  const cacheKey = cache
+    ? new Request(cacheKeyUrl.toString(), { method: 'GET' })
+    : null
+  const isCleanUrl = cacheKeyUrl.search === url.search
 
   if (cache && cacheKey) {
     const cached = await cache.match(cacheKey)
-    if (cached) return cached
+    if (cached) {
+      // Re-wrap: the stored copy's headers are immutable, and the zone's
+      // Browser Cache TTL must not turn a hit into a 4-hour browser cache.
+      const hit = new Response(cached.body, cached)
+      hit.headers.set('Cache-Control', HTML_CACHE_CONTROL)
+      return hit
+    }
   }
 
-  // Make D1 + ASSETS available to route loaders during SSR
+  // Make D1 + ASSETS available to route loaders during SSR. The bindings are
+  // the same for every request in this isolate, so they are set each time and
+  // never cleared: clearing them when one request finishes would pull them
+  // out from under a concurrent request that is still rendering.
   setD1(c.env?.DB)
   setAssets(c.env?.ASSETS)
-  try {
-    const response = await handler.fetch(request)
 
-    if (response.headers.get('Content-Type')?.includes('text/html')) {
-      const headers = new Headers(response.headers)
-      headers.set(
-        'Cache-Control',
-        'public, max-age=0, s-maxage=60, stale-while-revalidate=300',
-      )
-      const cacheable = new Response(response.body, {
-        status: response.status,
-        headers,
-      })
+  const response = await handler.fetch(request)
 
-      if (cache && cacheKey && response.status === 200) {
-        c.executionCtx?.waitUntil(cache.put(cacheKey, cacheable.clone()))
-      }
+  if (response.headers.get('Content-Type')?.includes('text/html')) {
+    const headers = new Headers(response.headers)
+    headers.set(
+      'Cache-Control',
+      cacheablePath ? HTML_CACHE_CONTROL : 'private, no-store',
+    )
+    const cacheable = new Response(response.body, {
+      status: response.status,
+      headers,
+    })
 
-      return cacheable
+    if (cache && cacheKey && isCleanUrl && response.status === 200) {
+      c.executionCtx?.waitUntil(cache.put(cacheKey, cacheable.clone()))
     }
 
-    return response
-  } finally {
-    clearD1()
-    clearAssets()
+    return cacheable
   }
+
+  return response
 })
 
 // ─── Export ────────────────────────────────────────────────

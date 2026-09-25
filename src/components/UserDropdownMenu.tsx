@@ -110,7 +110,7 @@ export function UserDropdownMenu({
           className="cursor-pointer py-2.5"
         >
           <NotebookPen className="mr-2 h-4 w-4" />
-          {t('nav.myPage', 'My Page')}
+          {t('nav.myPage')}
         </Link>
       </DropdownMenuItem>
 
@@ -138,7 +138,7 @@ export function UserDropdownMenu({
               className="cursor-pointer py-2.5"
             >
               <ArrowLeft className="mr-2 h-4 w-4" />
-              {t('nav.backToSite', 'Back to Site')}
+              {t('nav.backToSite')}
             </Link>
           </DropdownMenuItem>
         </>

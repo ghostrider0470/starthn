@@ -2,6 +2,7 @@
   "nav": {
     "home": "Inicio",
     "company": "Sobre nosotros",
+    "tagline": "Agencia de contabilidad",
     "solutions": "Servicios",
     "resources": "Recursos",
     "contact": "Contacto",
@@ -67,13 +68,13 @@
     },
     "navigation": "Navegación",
     "skipToContent": "Saltar al contenido",
-    "toggleMenu": "Menú de cambio",
+    "toggleMenu": "Abrir o cerrar el menú",
     "dashboard": "Panel de control",
     "myWorkspace": "Mi espacio de trabajo",
     "profile": "Perfil",
     "adminPanel": "Panel Administrativo",
     "practiceManagement": "Gestión de la práctica",
-    "logOut": "Regístrate",
+    "logOut": "Cerrar sesión",
     "education": {
       "title": "Recursos y guías",
       "description": "Recursos prácticos de contabilidad y finanzas del equipo de Start HN"
@@ -81,10 +82,12 @@
     "support": {
       "title": "Centro de Apoyo",
       "description": "Obtén ayuda con nuestros servicios de contabilidad y asesoramiento"
-    }
+    },
+    "myPage": "Mi página",
+    "backToSite": "Volver al sitio"
   },
   "footer": {
-    "description": "Start HN es una agencia de contabilidad con sede en Sarajevo. Ofrecemos contabilidad, consultoría fiscal, CFO virtual e informes financieros para empresas de toda Bosnia y Herzegovina.",
+    "description": "Start HN es una agencia de contabilidad con oficina en Ilidža (Cantón de Sarajevo). Ofrecemos contabilidad, nóminas, consultoría fiscal, CFO virtual e informes financieros para empresas, autónomos y asociaciones de toda Bosnia y Herzegovina.",
     "services": "Servicios",
     "servicesList": {
       "bookkeeping": "Contabilidad",
@@ -100,20 +103,20 @@
       "missionVision": "Misión y valores",
       "certificates": "Certificados",
       "team": "Nuestro equipo",
-      "blog": "Historias de éxito",
+      "blog": "Blog",
       "careers": "Carreras",
       "contact": "Contacto"
     },
     "contact": "Contacto",
     "contactInfo": {
       "email": "klijenti@starthn.ba",
-      "phone": "+387 61 221-368",
+      "phone": "+387 61 221 368",
       "street": "Ibrahima Ljubovića 47",
-      "locality": "Ilidža",
+      "locality": "71210 Ilidža",
       "region": "Cantón de Sarajevo",
       "country": "Bosnia y Herzegovina",
       "hours": "Lun–Vie: 08:00–16:00",
-      "holidays": "No trabajamos en festivos"
+      "holidays": "Cerrado los días festivos"
     },
     "legal": "Legal",
     "legalLinks": {
@@ -121,7 +124,7 @@
       "termsOfService": "Términos de uso",
       "cookiePolicy": "Política de Cookies"
     },
-    "copyright": "© {{year}} Empieza con HN. Todos los derechos reservados.",
+    "copyright": "© {{year}} Start HN. Todos los derechos reservados.",
     "developedBy": "Desarrollado por",
     "ctaTitle": "¿Listo para hablar?",
     "ctaDescription": "Programa una consulta introductoria gratuita — te responderemos en un día laborable.",
@@ -149,7 +152,7 @@
     "contact": "Contacto"
   },
   "sideNav": {
-    "scroll": "Pergamino",
+    "scroll": "Desplazar",
     "navigateTo": "Ve a {{section}}",
     "sections": {
       "home": "Inicio",
@@ -163,12 +166,12 @@
   },
   "languageSwitcher": {
     "srLabel": "Cambiar el idioma",
-    "searchPlaceholder": "Lenguaje de búsqueda...",
+    "searchPlaceholder": "Buscar idioma...",
     "noResults": "No se han encontrado idiomas."
   },
   "common": {
-    "menu": "Para mí",
-    "account": "Orden"
+    "menu": "Menú",
+    "account": "Cuenta"
   },
   "homePage": {
     "caseStudies": {
@@ -194,5 +197,69 @@
   },
   "blogCard": {
     "read": "Leer más"
+  },
+  "sections": {
+    "overview": "Resumen",
+    "story": "Historia",
+    "proof": "Garantías",
+    "gallery": "Galería",
+    "values": "Valores",
+    "team": "Equipo",
+    "culture": "Cultura",
+    "jobs": "Vacantes",
+    "process": "Proceso",
+    "channels": "Canales",
+    "contact": "Contacto",
+    "start": "Primeros pasos",
+    "home": "Inicio",
+    "services": "Servicios",
+    "why": "Por qué Start HN",
+    "evidence": "Resultados",
+    "trust": "Confianza",
+    "faq": "Preguntas frecuentes",
+    "scope": "Alcance",
+    "outputs": "Entregables"
+  },
+  "breadcrumbs": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Sobre nosotros",
+    "missionVision": "Misión y visión",
+    "certificates": "Certificados",
+    "careers": "Empleo",
+    "contact": "Contacto",
+    "blog": "Blog",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de uso",
+    "serviceBookkeeping": "Contabilidad",
+    "serviceTaxConsulting": "Consultoría fiscal",
+    "serviceVirtualCfo": "CFO virtual",
+    "serviceBusinessConsulting": "Consultoría empresarial",
+    "serviceFinancialReporting": "Informes financieros",
+    "serviceEducation": "Educación"
+  },
+  "a11y": {
+    "prevSlide": "Diapositiva anterior",
+    "nextSlide": "Diapositiva siguiente",
+    "goToSlide": "Ir a la diapositiva {{n}}",
+    "pauseCarousel": "Pausar el carrusel",
+    "resumeCarousel": "Reanudar el carrusel",
+    "slides": "Diapositivas",
+    "prevTestimonial": "Testimonio anterior",
+    "nextTestimonial": "Testimonio siguiente",
+    "goToTestimonial": "Testimonio {{n}}",
+    "testimonialCounter": "Testimonio {{n}} de {{total}}",
+    "prevSection": "Sección anterior",
+    "nextSection": "Sección siguiente",
+    "goToSection": "Ir a la sección {{n}}",
+    "toggleTheme": "Cambiar tema"
+  },
+  "consent": {
+    "title": "Cookies y privacidad",
+    "text": "Con tu consentimiento, utilizamos Google Analytics y Microsoft Clarity para entender cómo se usa el sitio y mejorarlo. Sin tu consentimiento no se cargan, y puedes cambiar tu decisión en cualquier momento.",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "settings": "Configuración de cookies",
+    "privacyLink": "Política de privacidad"
   }
 }

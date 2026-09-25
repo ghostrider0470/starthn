@@ -266,7 +266,7 @@ export function Navbar() {
                     'block text-[10px] uppercase tracking-[0.14em] text-muted-foreground sm:hidden',
                   )}
                 >
-                  {t('nav.company')}
+                  {t('nav.tagline', { defaultValue: 'Accounting agency' })}
                 </span>
               </span>
               <span className="hidden shrink-0 xl:block">
