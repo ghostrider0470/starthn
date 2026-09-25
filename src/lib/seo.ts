@@ -8,8 +8,8 @@ import { DEFAULT_LOCALE, withLocalePath } from '@/lib/i18n-utils'
  * Google penalizing thin machine-translated content.
  */
 export const SEO_PRIORITY_LOCALES = [
-  'en-US',    // English (primary)
-  'bs-BA',    // Bosnian
+  'bs-BA',    // Bosnian (primary, default locale)
+  'en-US',    // English
   'hr-HR',    // Croatian
   'sr-Latn',  // Serbian (Latin)
   'de-DE',    // German
@@ -67,7 +67,7 @@ const DEFAULT_OG_IMAGE = '/og-image.png'
 export const SEO_ORIGIN = 'https://www.starthn.ba'
 
 export interface LocalizedSeoHead {
-  /** Self-referencing canonical (priority locales) or en-US canonical (others). */
+  /** Self-referencing canonical (priority locales) or default-locale canonical (others). */
   canonicalUrl: string
   /** hreflang alternates incl. x-default; empty for non-priority locales. */
   alternates: Array<{ hreflang: string; href: string }>
@@ -82,7 +82,7 @@ export interface LocalizedSeoHead {
  *
  * Mirrors the client-side logic in {@link buildPageSeo} (see useI18nMeta):
  * priority locales self-canonicalize and emit the full hreflang set; non-priority
- * locales canonicalize to en-US, drop alternates, and are marked noindex.
+ * locales canonicalize to DEFAULT_LOCALE, drop alternates, and are marked noindex.
  *
  * @param normalizedPath locale-stripped path (e.g. "/blog/my-post", "/")
  */
@@ -285,6 +285,53 @@ export function buildOrganizationStructuredData({
     logo: toAbsoluteUrl(origin, logoPath),
     ...(description ? { description } : {}),
     ...(sameAs.length > 0 ? { sameAs } : {}),
+  }
+}
+
+/**
+ * Local-business data for Google. Name, address, phone, coordinates and hours
+ * must match the Google Business Profile exactly — Maps ranking leans on that
+ * consistency. Update both together.
+ */
+export const GOOGLE_BUSINESS_PROFILE_URL =
+  'https://maps.google.com/?cid=6152645102359996777'
+
+export function buildLocalBusinessStructuredData(origin: string = SEO_ORIGIN) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'AccountingService',
+    '@id': `${origin}/#business`,
+    name: 'Računovodstvena Agencija START HN',
+    alternateName: 'Start HN',
+    url: `${origin}/${DEFAULT_LOCALE}`,
+    logo: toAbsoluteUrl(origin, '/clean-square.png'),
+    image: toAbsoluteUrl(origin, DEFAULT_OG_IMAGE),
+    telephone: '+387 61 221 368',
+    email: 'klijenti@starthn.ba',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Ibrahima Ljubovića 47',
+      addressLocality: 'Ilidža',
+      postalCode: '71210',
+      addressRegion: 'Kanton Sarajevo',
+      addressCountry: 'BA',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 43.8313652,
+      longitude: 18.3033777,
+    },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '08:00',
+        closes: '16:00',
+      },
+    ],
+    areaServed: { '@type': 'Country', name: 'Bosnia and Herzegovina' },
+    hasMap: GOOGLE_BUSINESS_PROFILE_URL,
+    sameAs: [GOOGLE_BUSINESS_PROFILE_URL],
   }
 }
 
