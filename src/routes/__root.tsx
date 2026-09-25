@@ -1,5 +1,4 @@
 import {
-  HeadContent,
   Outlet,
   Scripts,
   createRootRouteWithContext,
@@ -24,20 +23,20 @@ import { RouteErrorBoundary } from '@/components/errors/RouteErrorBoundary'
 import { AppErrorBoundary } from '@/components/errors/AppErrorBoundary'
 import { LoadingState } from '@/components/layout/LoadingState'
 import { OfflineFallback } from '@/components/layout/OfflineFallback'
-import { Toaster } from '@/components/ui/toaster'
 import { CookieConsent } from '@/components/CookieConsent'
+import { PrioritizedHeadContent } from '@/components/layout/PrioritizedHeadContent'
+import { DeferredChatWidget } from '@/components/chat/DeferredChatWidget'
 import { ChatProvider } from '@/contexts/ChatContext'
+import { ensureRouteResources } from '@/i18n'
 
 import appCss from '@/styles.css?url'
 import { getLocaleDir, getLocaleFromPath } from '@/lib/i18n-utils'
-import { buildLocalBusinessStructuredData, jsonLd } from '@/lib/seo'
-import { resolveSeoStrings } from '@/lib/seo-meta'
+import { jsonLd } from '@/lib/seo'
+import { localizedSiteStructuredData, resolveSeoStrings } from '@/lib/seo-meta'
 
-// Lazy-load browser-only components that use useIsDarkMode / document APIs
-const ChatWidget = lazy(() =>
-  import('@/components/chat/ChatWidget').then((m) => ({
-    default: m.ChatWidget,
-  })),
+// Only admin pages render toasts: keep Radix Toast out of the public bundle.
+const Toaster = lazy(() =>
+  import('@/components/ui/toaster').then((m) => ({ default: m.Toaster })),
 )
 const NotFoundPage = lazy(() =>
   import('@/components/errors/NotFoundPage').then((m) => ({
@@ -103,7 +102,9 @@ function RootComponent() {
   const content = isAdminRoute ? (
     <>
       <Outlet />
-      <Toaster />
+      <Suspense fallback={null}>
+        <Toaster />
+      </Suspense>
     </>
   ) : (
     <ChatProvider>
@@ -120,9 +121,7 @@ function RootComponent() {
           <Outlet />
         </main>
         <Footer />
-        <Suspense fallback={null}>
-          <ChatWidget />
-        </Suspense>
+        <DeferredChatWidget />
         <div
           aria-hidden
           className="h-[calc(6.75rem+env(safe-area-inset-bottom))] md:hidden"
@@ -179,7 +178,8 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     <html lang={locale} dir={getLocaleDir(locale)} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
-        <HeadContent />
+        {/* <HeadContent />, with the JS modulepreloads at low priority. */}
+        <PrioritizedHeadContent />
       </head>
       <body>
         {children}
@@ -201,6 +201,14 @@ function localeFromMatches(
 }
 
 export const Route = createRootRouteWithContext<MyRouterContext>()({
+  // Client navigations (and intent preloads): fetch the translation
+  // namespaces the next page needs but the current HTML did not carry (see
+  // src/lib/i18n-route-namespaces.ts) before it renders. No-op during SSR,
+  // where the store holds every namespace.
+  beforeLoad: async ({ location }) => {
+    if (typeof window === 'undefined') return
+    await ensureRouteResources(location.pathname)
+  },
   // Site-wide defaults. Every public page's own head() (see
   // src/lib/seo-meta.ts) overrides the title, description and og/twitter
   // strings, and the {-$locale} layout adds canonical, hreflang, robots,
@@ -248,13 +256,20 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
         },
       ],
       links: [
-        { rel: 'stylesheet', href: appCss },
+        // `precedence` makes React emit the stylesheet in the document
+        // preamble, right after the LCP image preload and before the
+        // modulepreload links, so the render-blocking CSS starts downloading
+        // first instead of competing with ~250 KB of JS on slow connections.
+        { rel: 'stylesheet', href: appCss, precedence: 'default' },
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32.png' },
         { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/icon-192.png' },
         { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
         { rel: 'manifest', href: '/manifest.json' },
       ],
-      scripts: [jsonLd(buildLocalBusinessStructuredData())],
+      // The business (#business) and WebSite (#website) nodes on every
+      // page, built for the page locale; every other node (Service,
+      // BlogPosting, BreadcrumbList) points at them by @id.
+      scripts: localizedSiteStructuredData(locale).map((node) => jsonLd(node)),
     }
   },
   shellComponent: RootDocument,

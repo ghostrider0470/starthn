@@ -10,7 +10,11 @@
     "learnMore": "Saiba mais",
     "ctaPrimary": "Iniciar uma conversa",
     "ctaSecondary": "Veja todos os serviços",
-    "backToServices": "Voltar aos serviços"
+    "backToServices": "Voltar aos serviços",
+    "faqOverline": "Perguntas frequentes",
+    "pricingOverline": "Preços",
+    "requestQuote": "Solicitar orçamento",
+    "quoteNote": "Respondemos em até um dia útil."
   },
   "index": {
     "overline": "Serviços da Start HN",
@@ -102,7 +106,62 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "Perguntas frequentes sobre contabilidade",
+        "items": [
+          {
+            "question": "Quanto custa a contabilidade para um empresário individual ou uma sociedade limitada (d.o.o.)?",
+            "answer": "Para empresários individuais (obrt) recém-abertos, os preços começam em 150 KM (cerca de € 77) por mês, e para sociedades limitadas (d.o.o.) recém-abertas, em 300 KM (cerca de € 153) por mês. O preço final depende do porte do negócio, do volume de documentos, do número de funcionários e da complexidade das operações, sem custos ocultos."
+          },
+          {
+            "question": "Como enviamos nossos documentos para vocês?",
+            "answer": "Pessoalmente no nosso escritório em Ilidža, por e-mail ou em formato digital – conforme o fluxo de trabalho que combinarmos no início. Depois lançamos as operações e conferimos os registros antes dos prazos."
+          },
+          {
+            "question": "Podemos migrar de outro contador para vocês?",
+            "answer": "Sim. Analisamos o seu registro, os lançamentos existentes, os saldos de abertura, os dados da folha de pagamento e o calendário de obrigações, combinamos a entrega dos documentos e deixamos tudo pronto em poucos dias. Para empresas e empresários individuais que trocam de agência, definimos o preço após uma breve análise do negócio."
+          },
+          {
+            "question": "Qual software de contabilidade vocês usam?",
+            "answer": "Trabalhamos principalmente com o Pantheon e também temos experiência com e-line, Microsoft Dynamics NAV e InfoSoft. Se a sua empresa já usa um programa e tem contrato ativo com o fornecedor, podemos trabalhar no seu sistema."
+          },
+          {
+            "question": "Existe fidelidade de longo prazo?",
+            "answer": "Não. Não há fidelidade de longo prazo – trabalhamos para conquistar a sua confiança todos os meses."
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Quanto custa a contabilidade",
+        "intro": "O preço depende do porte e da complexidade do seu negócio, sem custos ocultos. Preços iniciais para negócios recém-abertos:",
+        "plans": [
+          {
+            "name": "Empresário individual (obrt)",
+            "price": "a partir de 150 KM",
+            "period": "por mês",
+            "note": "Cerca de € 77 · empresários individuais recém-abertos"
+          },
+          {
+            "name": "Sociedade limitada (d.o.o.)",
+            "price": "a partir de 300 KM",
+            "period": "por mês",
+            "note": "Cerca de € 153 · empresas recém-abertas"
+          }
+        ],
+        "driversTitle": "Do que o preço depende",
+        "drivers": [
+          "Porte do negócio",
+          "Volume de documentos",
+          "Número de funcionários",
+          "Complexidade das operações"
+        ],
+        "note": "Para empresas e empresários individuais já existentes que estão saindo de outra agência de contabilidade, definimos o preço individualmente após uma breve análise do negócio e das suas necessidades."
+      },
+      "payroll": {
+        "title": "Folha de pagamento e contribuições",
+        "body": "Para negócios com funcionários, calculamos os salários e as contribuições correspondentes e preparamos as declarações obrigatórias como parte da contabilidade mensal, antes dos prazos. Quando assumimos a sua contabilidade, revisamos os dados da folha de pagamento para que os cálculos estejam corretos desde o primeiro mês. O número de funcionários é um dos fatores que influenciam o preço."
+      }
     },
     "taxConsulting": {
       "label": "02",
@@ -172,7 +231,32 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "Perguntas frequentes sobre consultoria tributária",
+        "items": [
+          {
+            "question": "Quais declarações de impostos vocês preparam?",
+            "answer": "Preparamos e enviamos as declarações de IVA, de imposto sobre o lucro e de imposto de renda, além de outras declarações obrigatórias previstas na legislação da BiH e da FBiH."
+          },
+          {
+            "question": "Como ficaremos sabendo das mudanças nas regras tributárias?",
+            "answer": "Por nós. Acompanhamos as mudanças na legislação e avisamos você assim que uma delas afeta o seu negócio, para que nunca seja pego de surpresa."
+          },
+          {
+            "question": "Vocês também atendem pessoas físicas?",
+            "answer": "Sim. Prestamos consultoria tributária a empresas, empresários individuais e pessoas físicas que precisam entregar declarações de impostos."
+          },
+          {
+            "question": "Por que a consultoria tributária está ligada à contabilidade?",
+            "answer": "Porque as declarações se baseiam nos seus registros. Quando a contabilidade está correta e em dia, as declarações também estão, e a nossa consultoria se apoia em números reais."
+          },
+          {
+            "question": "E se uma declaração anterior tiver um erro?",
+            "answer": "Revisamos as declarações anteriores e ajudamos a corrigir os erros antes que se transformem em multas ou retificações tardias."
+          }
+        ]
+      }
     },
     "virtualCfo": {
       "label": "03",
@@ -240,7 +324,28 @@
         "financialReporting",
         "businessConsulting"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "Perguntas frequentes sobre o CFO virtual",
+        "items": [
+          {
+            "question": "O que inclui o serviço de CFO virtual?",
+            "answer": "Previsões de fluxo de caixa, planejamento orçamentário, análise financeira, relatórios gerenciais e consultoria estratégica, com participação em reuniões quando necessário."
+          },
+          {
+            "question": "Para quem é um CFO virtual?",
+            "answer": "Para empresas em crescimento que precisam de liderança financeira, mas ainda não estão prontas para um diretor financeiro em tempo integral, e para sócios que estão preparando decisões de financiamento ou investimento."
+          },
+          {
+            "question": "Como funciona a parceria?",
+            "answer": "Começamos analisando os seus relatórios atuais e definindo as perguntas que a gestão precisa responder. Depois montamos orçamentos, previsões e cenários com premissas realistas e explicamos regularmente os resultados, os riscos e os próximos passos."
+          },
+          {
+            "question": "Por que ajuda se vocês também cuidarem da nossa contabilidade?",
+            "answer": "Porque assim a análise se baseia em números atualizados da sua própria contabilidade, o que torna as previsões e os relatórios mais confiáveis."
+          }
+        ]
+      }
     },
     "businessConsulting": {
       "label": "04",
@@ -311,7 +416,28 @@
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance",
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "Perguntas frequentes sobre consultoria empresarial",
+        "items": [
+          {
+            "question": "Em que a consultoria empresarial pode nos ajudar?",
+            "answer": "Na organização do negócio e do fluxo de documentos, no controle de custos, na formação de preços, na cobrança de recebíveis e no planejamento do crescimento – tudo com base nos números da sua própria contabilidade."
+          },
+          {
+            "question": "Vocês trabalham com negócios novos e startups?",
+            "answer": "Sim. Apoiamos startups e negócios novos desde o primeiro dia de operação, e o nosso guia para abrir um negócio na Bósnia e Herzegovina explica como escolher entre empresário individual (obrt) e sociedade limitada (d.o.o.)."
+          },
+          {
+            "question": "Como funciona o processo de consultoria?",
+            "answer": "Primeiro mapeamos os seus processos, documentos e dúvidas financeiras atuais. Depois escolhemos as mudanças que trazem mais valor e definimos passos práticos, responsáveis e acompanhamento."
+          },
+          {
+            "question": "As recomendações de vocês consideram as obrigações legais?",
+            "answer": "Sim. A nossa consultoria está ligada à contabilidade e aos tributos, por isso as recomendações também levam em conta as suas obrigações legais na FBiH."
+          }
+        ]
+      }
     },
     "financialReporting": {
       "label": "05",
@@ -379,7 +505,28 @@
         "bookkeeping",
         "virtualCfo"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "Perguntas frequentes sobre relatórios financeiros",
+        "items": [
+          {
+            "question": "Quais relatórios vocês preparam?",
+            "answer": "Fechamento anual e demonstrações financeiras obrigatórias, resumos gerenciais mensais ou trimestrais e pacotes de relatórios para bancos e parceiros comerciais."
+          },
+          {
+            "question": "Uma empresa é obrigada a elaborar demonstrações financeiras anuais?",
+            "answer": "Sim. As empresas da FBiH são obrigadas por lei a elaborar demonstrações financeiras anuais, e nós as preparamos com base em registros contábeis bem mantidos."
+          },
+          {
+            "question": "Vocês podem preparar relatórios para um banco ou parceiros comerciais?",
+            "answer": "Sim. Preparamos pacotes de relatórios para bancos, parceiros e investidores, com base em registros contábeis organizados e documentos comprobatórios."
+          },
+          {
+            "question": "Vocês vão nos explicar os números?",
+            "answer": "Sim. Explicamos resultados, obrigações e tendências em linguagem simples, com indicadores, comparações e comentários que apoiam as decisões."
+          }
+        ]
+      }
     },
     "education": {
       "label": "06",
@@ -449,7 +596,28 @@
       ],
       "relatedPosts": [
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "Perguntas frequentes sobre treinamento",
+        "items": [
+          {
+            "question": "Para quem é o treinamento?",
+            "answer": "Para sócios, gestores e equipes administrativas de empresas e empresários individuais, principalmente os que cuidam internamente de parte da administração ou da contabilidade."
+          },
+          {
+            "question": "Quais temas vocês abordam?",
+            "answer": "Noções básicas de contabilidade, preparação de documentos, prazos tributários, noções de folha de pagamento, uso de software de contabilidade e leitura de demonstrações financeiras."
+          },
+          {
+            "question": "Vocês oferecem consultas individuais para empresários individuais?",
+            "answer": "Sim. Empresários individuais que fazem a própria contabilidade podem receber consultas individuais e explicações práticas sobre suas obrigações legais e seus registros."
+          },
+          {
+            "question": "O treinamento pode ser adaptado à nossa equipe?",
+            "answer": "Sim. Adaptamos o conteúdo à forma como a sua equipe realmente trabalha, com exemplos do dia a dia, e deixamos checklists e rotinas para a equipe aplicar."
+          }
+        ]
+      }
     }
   }
 }

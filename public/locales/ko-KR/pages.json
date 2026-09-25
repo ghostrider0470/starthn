@@ -146,28 +146,29 @@
         },
         {
           "image": "/certificates/kpmg-expert.webp",
-          "title": "포렌식 감사인",
-          "description": "금융 포렌식 분야의 추가 전문 지식 확인"
+          "title": "Expert – KPMG Switzerland Innovation Award",
+          "description": "KPMG Switzerland Innovation Award Management Consulting 부문의 'Expert' 배지."
         },
         {
           "image": "/certificates/award-consulting.webp",
-          "title": "EU 기금 – 보조금 받는 방법",
-          "description": "신청 절차와 EU 자금 인출 가능성에 대한 지식."
+          "title": "교육: EU 기금 – 보조금 신청 방법",
+          "description": "신청 절차와 EU 자금 지원을 받을 수 있는 기회에 관한 교육(AwarD Consulting Trade Inc.)."
         }
-      ]
+      ],
+      "description": "저희가 보유한 인증서와 이수한 교육을 간단한 설명과 함께 소개합니다."
     },
     "quote": "“모든 자격증은 저희 업무가 가장 엄격한 전문 심사를 통과했다는 증거입니다.”",
     "quoteAuthor": "Start HN 회계 사무소",
     "licenceLine": "연방 재무부(FMF) 등록 번호 UP-04-11-2-6-1516/24",
     "verifyLink": "SRR FBiH 등록부에서 확인하기",
     "highlights": {
-      "certifiedAccountants": "인증 회계사",
+      "certifiedAccountants": "공인 회계사",
       "legalCompliance": "법규 준수",
       "continuousEducation": "지속적인 교육",
       "ethicalStandards": "윤리 기준"
     },
     "cta": {
-      "title": "인증된 팀과 함께 일하세요.",
+      "title": "공인 회계사와 함께하세요",
       "description": "저희 자격증과 전문 자격증은 귀하의 회계가 안전하고 전문가의 손에 맡겨져 있음을 보장합니다.",
       "button": "문의하기"
     }
@@ -250,7 +251,7 @@
     },
     "form": {
       "title": "메시지를 보내주세요",
-      "success": "메시지 감사합니다. 24-48시간 이내에 연락드리겠습니다.",
+      "success": "메시지를 보내 주셔서 감사합니다. 영업일 기준 하루 이내에 답변드리겠습니다.",
       "error": "문제가 발생했습니다. 다시 시도하시거나 이메일로 직접 연락해 주세요.",
       "fullName": "전체 이름 *",
       "email": "이메일 주소 *",
@@ -275,11 +276,13 @@
         "messageMinLength": "메시지는 최소 {{count}} 자 이상이어야 합니다."
       },
       "sending": "전송 중...",
-      "submit": "메시지 보내기"
+      "submit": "메시지 보내기",
+      "verifying": "보안 확인 중…",
+      "verifyingHint": "짧은 자동 보안 확인이 끝나면 '메시지 보내기' 버튼이 활성화됩니다."
     },
     "reasonsTitle": "왜 Start HN을 선택해야 할까요?",
     "reasons": [
-      "BiH 세법에 대한 깊은 지식을 갖춘 공인 회계사",
+      "보스니아 헤르체고비나 세법에 정통한 공인 회계사",
       "신속한 대응과 선제적 소통",
       "클라우드 기반 회계 — 언제든지 장부 확인",
       "숨겨진 비용 없이 투명한 가격"
@@ -293,6 +296,15 @@
       "title": "더 궁금한 점 있으신가요?",
       "description": "빠른 답변을 원하시면 FAQ 섹션을 확인해 보세요",
       "cta": "자주 묻는 질문 둘러보기"
+    },
+    "location": {
+      "overline": "찾아오시는 길",
+      "title": "일리자의 회계 사무소 – Ibrahima Ljubovića 47",
+      "body": "Start HN 회계 사무소는 보스니아 헤르체고비나 사라예보 칸톤 일리자 시의 Ibrahima Ljubovića 47, 71210 Ilidža에 있습니다. 이 사무소에서 고객의 장부 관리, 급여 계산, 부가가치세, 세금 신고를 처리합니다. 월요일부터 금요일까지 08:00~16:00에 운영하며, 공휴일에는 쉽니다. 방문 전에 061 221 368(해외에서는 +387 61 221 368)로 전화하시거나 klijenti@starthn.ba로 이메일을 보내 주세요. 영업일 기준 하루 이내에 답변드립니다. 일리자, 사라예보 및 사라예보 칸톤 전역의 기업, 개인사업자, 협회는 물론 보스니아 헤르체고비나 전역의 고객과 함께 일합니다. 서류는 사무소에 직접 가져오시거나 이메일 또는 디지털 방식으로 전달하실 수 있어 자주 방문하지 않으셔도 됩니다. 먼저 무료 초기 상담을 예약하시고, 사무소까지의 경로는 '길찾기' 버튼으로 확인하세요."
+    },
+    "reviews": {
+      "title": "저희와 함께 일해 보셨나요?",
+      "description": "저희 업무에 만족하셨다면 Google에 리뷰를 남겨 주세요. 고객님의 경험은 다른 사업주가 회계사를 선택하는 데 도움이 됩니다."
     }
   },
   "team": {
@@ -368,12 +380,12 @@
     }
   },
   "careers": {
-    "badge": "우리 팀에 합류하세요",
+    "badge": "상시 지원",
     "hero": {
       "title": "함께 성장하는",
       "titleHighlight": "회계·재무 커리어",
-      "description": "Start HN은 성장 중인 회계 대행사입니다. 저희는 회계, 세무, 금융 서비스 분야에서 의미 있는 경력을 쌓고자 하는 헌신적인 전문가를 찾고 있습니다.",
-      "button": "채용 공고 보기"
+      "description": "Start HN은 성장하는 회계 사무소입니다. 회계, 세무, 금융 서비스 분야에서 경력을 쌓고 싶은 열정적인 전문가의 연락을 언제나 환영하며, 상시 지원서는 언제든지 보내실 수 있습니다.",
+      "button": "모집 분야 보기"
     },
     "perks": [
       {
@@ -394,12 +406,12 @@
       "description": "간단하고 투명한 절차이며 당신의 시간을 존중합니다",
       "steps": [
         {
-          "title": "이력서 제출",
-          "description": "이력서와 동기 부여 편지를 저희 이메일 주소로 보내주세요."
+          "title": "상시 지원서 보내기",
+          "description": "이력서와 자기소개서를 이메일로 보내 주시고, 관심 있는 분야를 알려 주세요."
         },
         {
-          "title": "인터뷰 초대",
-          "description": "조건을 충족하는 후보자에게 연락하여 면접 초대를 합니다."
+          "title": "면접 안내",
+          "description": "팀을 확장해야 할 때 분야가 맞는 지원자에게 연락드려 면접에 초대합니다."
         },
         {
           "title": "모집",
@@ -408,11 +420,11 @@
       ]
     },
     "jobs": {
-      "title": "공석",
-      "description": "회계팀에서 당신의 자리를 찾아보세요",
-      "apply": "지금 지원하기",
-      "noMatch": "맞는 자리가 없나요?",
-      "sendCv": "이력서를 보내주세요",
+      "title": "상시 지원",
+      "description": "저희가 기다리는 인재 분야입니다. 마감 없이 상시로 지원을 받습니다.",
+      "apply": "지원서 보내기",
+      "noMatch": "원하는 분야가 없으신가요?",
+      "sendCv": "상시 지원서 보내기",
       "labels": {
         "responsibilities": "책임",
         "requirements": "요구 사항",

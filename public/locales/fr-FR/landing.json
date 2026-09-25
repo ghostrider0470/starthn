@@ -7,26 +7,26 @@
         "overline": "Bénéficiez d’un soutien expert pour une croissance durable",
         "title": "Une comptabilité qui comprend votre entreprise",
         "subtitle": "Expérience, précision et solutions qui suivent vos objectifs.",
-        "cta": "En savoir plus sur Start HN",
-        "href": "/about"
+        "cta": "Réserver une consultation gratuite",
+        "href": "/contact"
       },
       {
         "overline": "Précision et transparence à chaque étape",
         "title": "Services adaptés à votre entreprise",
         "subtitle": "Nous gérons vos comptes, vous gérez votre entreprise — sans stress ni incertitude.",
-        "cta": "Commençons à collaborer",
+        "cta": "Réserver une consultation gratuite",
         "href": "/contact"
       },
       {
         "overline": "Tenue complète de la comptabilité pour les micro, petites et moyennes entreprises",
         "title": "Vos livres entre de bonnes mains",
         "subtitle": "Notre équipe veille à la précision et au respect de toutes les réglementations, libérant ainsi du temps pour que votre entreprise puisse croître.",
-        "cta": "Nos services",
-        "href": "/services"
+        "cta": "Réserver une consultation gratuite",
+        "href": "/contact"
       }
     ],
     "cta": {
-      "primary": "Commençons à collaborer",
+      "primary": "Réserver une consultation gratuite",
       "secondary": "Nos services"
     },
     "trustLine": "Confiance des entreprises à travers la Bosnie-Herzégovine"
@@ -84,10 +84,11 @@
         "description": "Expérience combinée en comptabilité, conseil fiscal et gestion financière."
       },
       "hours": {
-        "value": 1000,
-        "suffix": "+",
-        "label": "Heures par an",
-        "description": "Consacrées chaque année à l’analyse, au conseil et à l’accompagnement de nos clients, partout où nous sommes utiles."
+        "value": 5,
+        "suffix": "★",
+        "label": "Note Google",
+        "description_one": "Note moyenne issue de {{count}} avis client sur notre fiche d’établissement Google.",
+        "description_other": "Note moyenne issue de {{count}} avis clients sur notre fiche d’établissement Google."
       },
       "retention": {
         "value": 95,
@@ -110,8 +111,8 @@
         "description": "Des services flexibles du premier compte à une croissance stable — adaptés aux entreprises, entrepreneurs et associations."
       },
       "licensed": {
-        "title": "Sécurité du personnel agréé",
-        "description": "Experts-comptables agréés, une agence enregistrée auprès du ministère des Finances — des services conformes à la loi, sans compromis."
+        "title": "Certifiés et enregistrés",
+        "description": "Un comptable certifié et une agence inscrite au registre du ministère fédéral des Finances — pleinement conformes à la loi, sans compromis."
       }
     }
   },

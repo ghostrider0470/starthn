@@ -10,7 +10,11 @@
     "learnMore": "Erfahren Sie mehr",
     "ctaPrimary": "Gespräch beginnen",
     "ctaSecondary": "Alle Leistungen ansehen",
-    "backToServices": "Zurück zu den Dienstleistungen"
+    "backToServices": "Zurück zu den Dienstleistungen",
+    "faqOverline": "Häufige Fragen",
+    "pricingOverline": "Preise",
+    "requestQuote": "Angebot anfordern",
+    "quoteNote": "Wir antworten innerhalb eines Werktags."
   },
   "index": {
     "overline": "Leistungen von Start HN",
@@ -102,7 +106,62 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "Häufige Fragen zur Buchhaltung",
+        "items": [
+          {
+            "question": "Was kostet die Buchhaltung für ein Einzelunternehmen oder eine GmbH (d.o.o.)?",
+            "answer": "Für neu gegründete Einzelunternehmen (obrt) beginnen die Preise bei 150 KM (ca. 77 €) pro Monat, für neu gegründete Gesellschaften mit beschränkter Haftung (d.o.o.) bei 300 KM (ca. 153 €) pro Monat. Der endgültige Preis hängt von der Größe des Unternehmens, dem Umfang der Unterlagen, der Anzahl der Mitarbeiter und der Komplexität der Geschäftstätigkeit ab – ohne versteckte Kosten."
+          },
+          {
+            "question": "Wie übermitteln wir Ihnen unsere Unterlagen?",
+            "answer": "Persönlich in unserem Büro in Ilidža, per E-Mail oder digital – je nachdem, welchen Ablauf wir zu Beginn vereinbaren. Anschließend buchen wir die Geschäftsvorfälle und prüfen die Aufzeichnungen vor Fristablauf."
+          },
+          {
+            "question": "Können wir von einem anderen Buchhalter zu Ihnen wechseln?",
+            "answer": "Ja. Wir prüfen Ihre Registrierung, die bisherigen Aufzeichnungen, die Eröffnungssalden, die Lohndaten und den Meldekalender, vereinbaren die Übergabe der Unterlagen und richten innerhalb weniger Tage alles vollständig ein. Für Unternehmen und Einzelunternehmer, die die Agentur wechseln, legen wir den Preis nach einer kurzen Analyse des Geschäfts fest."
+          },
+          {
+            "question": "Welche Buchhaltungssoftware verwenden Sie?",
+            "answer": "Wir arbeiten hauptsächlich mit Pantheon und haben auch Erfahrung mit e-line, Microsoft Dynamics NAV und InfoSoft. Wenn Ihr Unternehmen bereits ein Programm nutzt und einen aktiven Vertrag mit dem Anbieter hat, können wir in Ihrem System arbeiten."
+          },
+          {
+            "question": "Gibt es eine langfristige Vertragsbindung?",
+            "answer": "Nein. Es gibt keine langfristige Bindung – wir arbeiten jeden Monat daran, Ihr Vertrauen zu verdienen."
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Was die Buchhaltung kostet",
+        "intro": "Der Preis hängt von der Größe und Komplexität Ihres Unternehmens ab, ohne versteckte Kosten. Einstiegspreise für neu gegründete Unternehmen:",
+        "plans": [
+          {
+            "name": "Einzelunternehmen (obrt)",
+            "price": "ab 150 KM",
+            "period": "pro Monat",
+            "note": "Ca. 77 € · neu gegründete Einzelunternehmen"
+          },
+          {
+            "name": "GmbH (d.o.o.)",
+            "price": "ab 300 KM",
+            "period": "pro Monat",
+            "note": "Ca. 153 € · neu gegründete Gesellschaften"
+          }
+        ],
+        "driversTitle": "Wovon der Preis abhängt",
+        "drivers": [
+          "Größe des Unternehmens",
+          "Umfang der Unterlagen",
+          "Anzahl der Mitarbeiter",
+          "Komplexität der Geschäftstätigkeit"
+        ],
+        "note": "Für bestehende Unternehmen und Einzelunternehmer, die von einer anderen Buchhaltungsagentur wechseln, legen wir den Preis nach einer kurzen Analyse des Geschäfts und seines Bedarfs individuell fest."
+      },
+      "payroll": {
+        "title": "Lohn- und Beitragsabrechnung",
+        "body": "Für Unternehmen mit Beschäftigten berechnen wir im Rahmen der monatlichen Buchhaltung die Löhne und die zugehörigen Beiträge und erstellen die gesetzlich vorgeschriebenen Meldungen vor Fristablauf. Wenn wir Ihre Buchhaltung übernehmen, prüfen wir Ihre Lohndaten, damit die Abrechnung vom ersten Monat an stimmt. Die Anzahl der Mitarbeiter ist einer der Faktoren, die den Preis beeinflussen."
+      }
     },
     "taxConsulting": {
       "label": "02",
@@ -172,7 +231,32 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "Häufige Fragen zur Steuerberatung",
+        "items": [
+          {
+            "question": "Welche Steuererklärungen erstellen Sie?",
+            "answer": "Wir erstellen und übermitteln Mehrwertsteuererklärungen, Gewinn- und Einkommensteuererklärungen sowie weitere gesetzlich vorgeschriebene Erklärungen nach den Vorschriften von BiH und der FBiH."
+          },
+          {
+            "question": "Wie erfahren wir von Änderungen im Steuerrecht?",
+            "answer": "Von uns. Wir verfolgen Gesetzesänderungen und informieren Sie, sobald eine Änderung Ihr Unternehmen betrifft – damit Sie nie überrascht werden."
+          },
+          {
+            "question": "Beraten Sie auch Privatpersonen?",
+            "answer": "Ja. Wir beraten Unternehmen, Einzelunternehmer und Privatpersonen, die Steuererklärungen abgeben müssen, in Steuerfragen."
+          },
+          {
+            "question": "Warum ist die Steuerberatung mit der Buchhaltung verknüpft?",
+            "answer": "Weil Steuererklärungen auf Ihren Aufzeichnungen beruhen. Wenn die Bücher korrekt und aktuell sind, stimmen auch die Erklärungen, und unsere Beratung stützt sich auf echte Zahlen."
+          },
+          {
+            "question": "Was, wenn eine frühere Erklärung einen Fehler enthält?",
+            "answer": "Wir prüfen frühere Erklärungen und helfen, Fehler zu korrigieren, bevor daraus Strafen oder verspätete Berichtigungen werden."
+          }
+        ]
+      }
     },
     "virtualCfo": {
       "label": "03",
@@ -240,7 +324,28 @@
         "financialReporting",
         "businessConsulting"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "Häufige Fragen zum virtuellen CFO",
+        "items": [
+          {
+            "question": "Was umfasst der Service „Virtueller CFO“?",
+            "answer": "Cashflow-Prognosen, Budgetplanung, Finanzanalysen, Managementberichte und strategische Beratung, bei Bedarf auch mit Teilnahme an Besprechungen."
+          },
+          {
+            "question": "Für wen ist ein virtueller CFO geeignet?",
+            "answer": "Für wachsende Unternehmen, die finanzielle Führung brauchen, aber noch keinen Finanzdirektor in Vollzeit einstellen wollen, und für Inhaber, die Finanzierungs- oder Investitionsentscheidungen vorbereiten."
+          },
+          {
+            "question": "Wie läuft die Zusammenarbeit ab?",
+            "answer": "Zunächst prüfen wir Ihre bestehenden Berichte und legen fest, welche Fragen die Geschäftsführung beantwortet haben möchte. Dann erstellen wir Budgets, Prognosen und Szenarien auf Basis realistischer Annahmen und erläutern regelmäßig Ergebnisse, Risiken und nächste Schritte."
+          },
+          {
+            "question": "Warum hilft es, wenn Sie auch unsere Buchhaltung führen?",
+            "answer": "Weil die Analyse dann auf aktuellen Zahlen aus Ihrer eigenen Buchhaltung beruht, was Prognosen und Berichte verlässlicher macht."
+          }
+        ]
+      }
     },
     "businessConsulting": {
       "label": "04",
@@ -311,7 +416,28 @@
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance",
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "Häufige Fragen zur Unternehmensberatung",
+        "items": [
+          {
+            "question": "Wobei kann uns die Unternehmensberatung helfen?",
+            "answer": "Bei der Organisation Ihres Unternehmens und des Belegflusses, bei der Kostenkontrolle, der Preisgestaltung, dem Forderungseinzug und der Wachstumsplanung – alles auf Grundlage der Zahlen aus Ihrer eigenen Buchhaltung."
+          },
+          {
+            "question": "Arbeiten Sie mit neuen Unternehmen und Start-ups?",
+            "answer": "Ja. Wir unterstützen Start-ups und neue Unternehmen vom ersten Geschäftstag an, und unser Leitfaden zur Unternehmensgründung in Bosnien und Herzegowina erklärt, wie Sie zwischen einem Einzelunternehmen (obrt) und einer GmbH (d.o.o.) wählen."
+          },
+          {
+            "question": "Wie läuft die Beratung ab?",
+            "answer": "Zuerst erfassen wir Ihre aktuellen Abläufe, Unterlagen und finanziellen Fragen. Dann wählen wir die Änderungen mit dem größten Nutzen aus und legen konkrete Schritte, Zuständigkeiten und die Nachverfolgung fest."
+          },
+          {
+            "question": "Berücksichtigen Ihre Empfehlungen die gesetzlichen Pflichten?",
+            "answer": "Ja. Unsere Beratung ist mit Buchhaltung und Steuern verknüpft, daher berücksichtigen unsere Empfehlungen auch Ihre gesetzlichen Pflichten in der FBiH."
+          }
+        ]
+      }
     },
     "financialReporting": {
       "label": "05",
@@ -379,7 +505,28 @@
         "bookkeeping",
         "virtualCfo"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "Häufige Fragen zur Finanzberichterstattung",
+        "items": [
+          {
+            "question": "Welche Berichte erstellen Sie?",
+            "answer": "Jahresabschlüsse und gesetzlich vorgeschriebene Finanzberichte, monatliche oder quartalsweise Managementübersichten sowie Berichtspakete für Banken und Geschäftspartner."
+          },
+          {
+            "question": "Muss ein Unternehmen einen Jahresabschluss erstellen?",
+            "answer": "Ja. Unternehmen in der FBiH sind gesetzlich verpflichtet, einen Jahresabschluss zu erstellen, und wir erstellen ihn auf Grundlage ordnungsgemäß geführter Buchhaltungsunterlagen."
+          },
+          {
+            "question": "Können Sie Berichte für eine Bank oder Geschäftspartner erstellen?",
+            "answer": "Ja. Wir erstellen Berichtspakete für Banken, Partner und Investoren auf Grundlage sauberer Buchhaltungsunterlagen und Belege."
+          },
+          {
+            "question": "Erklären Sie uns die Zahlen?",
+            "answer": "Ja. Wir erläutern Ergebnisse, Verpflichtungen und Trends in verständlicher Sprache – mit Kennzahlen, Vergleichen und Kommentaren, die Entscheidungen unterstützen."
+          }
+        ]
+      }
     },
     "education": {
       "label": "06",
@@ -449,7 +596,28 @@
       ],
       "relatedPosts": [
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "Häufige Fragen zu Schulungen",
+        "items": [
+          {
+            "question": "Für wen sind die Schulungen gedacht?",
+            "answer": "Für Inhaber, Führungskräfte und Verwaltungsmitarbeiter von Unternehmen und Einzelunternehmen, insbesondere wenn sie einen Teil ihrer Verwaltung oder Buchhaltung selbst erledigen."
+          },
+          {
+            "question": "Welche Themen behandeln Sie?",
+            "answer": "Grundlagen der Buchhaltung, Vorbereitung von Unterlagen, Steuerfristen, Grundlagen der Lohnabrechnung, Arbeit mit Buchhaltungssoftware und das Lesen von Jahresabschlüssen."
+          },
+          {
+            "question": "Bieten Sie Einzelberatungen für Einzelunternehmer an?",
+            "answer": "Ja. Einzelunternehmer, die ihre Bücher selbst führen, erhalten individuelle Beratung und praktische Erläuterungen zu ihren gesetzlichen Pflichten und Aufzeichnungen."
+          },
+          {
+            "question": "Können die Schulungen auf unser Team zugeschnitten werden?",
+            "answer": "Ja. Wir passen die Inhalte an die tatsächliche Arbeitsweise Ihres Teams an, mit Beispielen aus der täglichen Praxis, und geben dem Team Checklisten und Routinen für die Umsetzung mit."
+          }
+        ]
+      }
     }
   }
 }

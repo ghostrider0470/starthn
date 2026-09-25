@@ -10,7 +10,11 @@
     "learnMore": "Scopri di più",
     "ctaPrimary": "Avvia una conversazione",
     "ctaSecondary": "Visualizza tutti i servizi",
-    "backToServices": "Torna ai servizi"
+    "backToServices": "Torna ai servizi",
+    "faqOverline": "Domande frequenti",
+    "pricingOverline": "Prezzi",
+    "requestQuote": "Richiedi un preventivo",
+    "quoteNote": "Rispondiamo entro un giorno lavorativo."
   },
   "index": {
     "overline": "Servizi Start HN",
@@ -102,7 +106,62 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "Domande frequenti sulla contabilità",
+        "items": [
+          {
+            "question": "Quanto costa la contabilità per una ditta individuale o una S.r.l. (d.o.o.)?",
+            "answer": "Per le ditte individuali (obrt) di nuova costituzione i prezzi partono da 150 KM (circa 77 €) al mese, per le società a responsabilità limitata (d.o.o.) di nuova costituzione da 300 KM (circa 153 €) al mese. Il prezzo finale dipende dalle dimensioni dell'attività, dal volume dei documenti, dal numero di dipendenti e dalla complessità dell'attività, senza costi nascosti."
+          },
+          {
+            "question": "Come vi inviamo i nostri documenti?",
+            "answer": "Di persona nel nostro ufficio di Ilidža, via e-mail o in formato digitale, secondo il flusso di lavoro concordato all'inizio. Poi registriamo le operazioni e controlliamo le scritture prima delle scadenze."
+          },
+          {
+            "question": "Possiamo passare a voi da un altro contabile?",
+            "answer": "Sì. Esaminiamo la tua registrazione, le scritture esistenti, i saldi di apertura, i dati delle buste paga e il calendario degli adempimenti, concordiamo il passaggio dei documenti e ti rendiamo pienamente operativo in pochi giorni. Per le aziende e le ditte individuali che cambiano agenzia, fissiamo il prezzo dopo una breve analisi dell'attività."
+          },
+          {
+            "question": "Quale software di contabilità utilizzate?",
+            "answer": "Lavoriamo principalmente con Pantheon e abbiamo esperienza anche con e-line, Microsoft Dynamics NAV e InfoSoft. Se la tua azienda usa già un programma e ha un contratto attivo con il fornitore, possiamo lavorare nel tuo sistema."
+          },
+          {
+            "question": "C'è un vincolo a lungo termine?",
+            "answer": "No. Non c'è alcun vincolo a lungo termine: ogni mese lavoriamo per meritare la tua fiducia."
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Quanto costa la contabilità",
+        "intro": "Il prezzo dipende dalle dimensioni e dalla complessità della tua attività, senza costi nascosti. Prezzi di partenza per le attività di nuova costituzione:",
+        "plans": [
+          {
+            "name": "Ditta individuale (obrt)",
+            "price": "da 150 KM",
+            "period": "al mese",
+            "note": "Circa 77 € · ditte individuali di nuova costituzione"
+          },
+          {
+            "name": "S.r.l. (d.o.o.)",
+            "price": "da 300 KM",
+            "period": "al mese",
+            "note": "Circa 153 € · società di nuova costituzione"
+          }
+        ],
+        "driversTitle": "Da cosa dipende il prezzo",
+        "drivers": [
+          "Dimensioni dell'attività",
+          "Volume dei documenti",
+          "Numero di dipendenti",
+          "Complessità dell'attività"
+        ],
+        "note": "Per le aziende e le ditte individuali già esistenti che lasciano un'altra agenzia di contabilità, fissiamo il prezzo caso per caso dopo una breve analisi dell'attività e delle sue esigenze."
+      },
+      "payroll": {
+        "title": "Buste paga e contributi",
+        "body": "Per le attività con dipendenti calcoliamo gli stipendi e i relativi contributi e prepariamo le dichiarazioni obbligatorie nell'ambito della contabilità mensile, prima delle scadenze. Quando prendiamo in carico la tua contabilità, verifichiamo i dati delle buste paga perché i calcoli siano corretti fin dal primo mese. Il numero di dipendenti è uno dei fattori che incidono sul prezzo."
+      }
     },
     "taxConsulting": {
       "label": "02",
@@ -172,7 +231,32 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "Domande frequenti sulla consulenza fiscale",
+        "items": [
+          {
+            "question": "Quali dichiarazioni fiscali preparate?",
+            "answer": "Prepariamo e presentiamo le dichiarazioni IVA, le dichiarazioni dei redditi delle società e delle persone fisiche e le altre dichiarazioni obbligatorie previste dalle normative della BiH e della FBiH."
+          },
+          {
+            "question": "Come sapremo dei cambiamenti nelle norme fiscali?",
+            "answer": "Da noi. Seguiamo le modifiche normative e ti avvisiamo non appena un cambiamento riguarda la tua attività, così non ti troverai mai impreparato."
+          },
+          {
+            "question": "Offrite consulenza anche ai privati?",
+            "answer": "Sì. Offriamo consulenza fiscale ad aziende, ditte individuali e privati che devono presentare dichiarazioni fiscali."
+          },
+          {
+            "question": "Perché la consulenza fiscale è collegata alla contabilità?",
+            "answer": "Perché le dichiarazioni si basano sulle tue registrazioni. Quando la contabilità è accurata e aggiornata, lo sono anche le dichiarazioni, e la nostra consulenza si basa su numeri reali."
+          },
+          {
+            "question": "E se una dichiarazione precedente contiene un errore?",
+            "answer": "Esaminiamo le dichiarazioni precedenti e aiutiamo a correggere gli errori prima che si trasformino in sanzioni o rettifiche tardive."
+          }
+        ]
+      }
     },
     "virtualCfo": {
       "label": "03",
@@ -240,7 +324,28 @@
         "financialReporting",
         "businessConsulting"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "Domande frequenti sul CFO virtuale",
+        "items": [
+          {
+            "question": "Che cosa include il servizio di CFO virtuale?",
+            "answer": "Previsioni di cassa, pianificazione del budget, analisi finanziarie, report direzionali e consulenza strategica, con partecipazione alle riunioni quando serve."
+          },
+          {
+            "question": "A chi serve un CFO virtuale?",
+            "answer": "Alle aziende in crescita che hanno bisogno di una guida finanziaria ma non sono ancora pronte per un direttore finanziario a tempo pieno, e ai titolari che preparano decisioni di finanziamento o di investimento."
+          },
+          {
+            "question": "Come si svolge la collaborazione?",
+            "answer": "Iniziamo esaminando i report esistenti e definendo le domande a cui la direzione ha bisogno di rispondere. Poi costruiamo budget, previsioni e scenari basati su ipotesi realistiche e spieghiamo regolarmente risultati, rischi e prossimi passi."
+          },
+          {
+            "question": "Perché è utile che teniate anche la nostra contabilità?",
+            "answer": "Perché in questo modo l'analisi si basa su dati aggiornati della tua contabilità, e previsioni e report diventano più affidabili."
+          }
+        ]
+      }
     },
     "businessConsulting": {
       "label": "04",
@@ -311,7 +416,28 @@
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance",
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "Domande frequenti sulla consulenza aziendale",
+        "items": [
+          {
+            "question": "In che cosa può aiutarci la consulenza aziendale?",
+            "answer": "Nell'organizzazione dell'attività e del flusso dei documenti, nel controllo dei costi, nella definizione dei prezzi, nella riscossione dei crediti e nella pianificazione della crescita, sempre partendo dai numeri della tua contabilità."
+          },
+          {
+            "question": "Lavorate con nuove attività e startup?",
+            "answer": "Sì. Sosteniamo startup e nuove attività fin dal primo giorno di operatività, e la nostra guida all'avvio di un'attività in Bosnia ed Erzegovina spiega come scegliere tra ditta individuale (obrt) e S.r.l. (d.o.o.)."
+          },
+          {
+            "question": "Come funziona il processo di consulenza?",
+            "answer": "Prima mappiamo i tuoi processi, documenti e interrogativi finanziari attuali. Poi scegliamo i cambiamenti che portano più valore e definiamo passi concreti, responsabilità e verifiche successive."
+          },
+          {
+            "question": "Le vostre raccomandazioni tengono conto degli obblighi di legge?",
+            "answer": "Sì. La nostra consulenza è collegata alla contabilità e al fisco, quindi le nostre raccomandazioni tengono conto anche dei tuoi obblighi di legge nella FBiH."
+          }
+        ]
+      }
     },
     "financialReporting": {
       "label": "05",
@@ -379,7 +505,28 @@
         "bookkeeping",
         "virtualCfo"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "Domande frequenti sulla rendicontazione finanziaria",
+        "items": [
+          {
+            "question": "Quali report preparate?",
+            "answer": "Bilanci annuali e rendiconti finanziari obbligatori, sintesi direzionali mensili o trimestrali e pacchetti di report per banche e partner commerciali."
+          },
+          {
+            "question": "Una società deve redigere il bilancio annuale?",
+            "answer": "Sì. Nella FBiH le società sono obbligate per legge a redigere il bilancio annuale, e noi lo prepariamo sulla base di una contabilità tenuta con cura."
+          },
+          {
+            "question": "Potete preparare report per una banca o per partner commerciali?",
+            "answer": "Sì. Prepariamo pacchetti di report per banche, partner e investitori, sulla base di registrazioni contabili pulite e della documentazione di supporto."
+          },
+          {
+            "question": "Ci spiegherete i numeri?",
+            "answer": "Sì. Spieghiamo risultati, obblighi e tendenze con parole semplici, usando indici, confronti e commenti che aiutano a decidere."
+          }
+        ]
+      }
     },
     "education": {
       "label": "06",
@@ -449,7 +596,28 @@
       ],
       "relatedPosts": [
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "Domande frequenti sulla formazione",
+        "items": [
+          {
+            "question": "A chi si rivolge la formazione?",
+            "answer": "A titolari, manager e personale amministrativo di aziende e ditte individuali, soprattutto a chi gestisce internamente una parte dell'amministrazione o della contabilità."
+          },
+          {
+            "question": "Quali argomenti trattate?",
+            "answer": "Le basi della contabilità, la preparazione dei documenti, le scadenze fiscali, le basi delle buste paga, l'uso dei software di contabilità e la lettura dei bilanci."
+          },
+          {
+            "question": "Offrite consulenze individuali per le ditte individuali?",
+            "answer": "Sì. I titolari di ditte individuali che tengono da soli la contabilità possono ricevere consulenze individuali e spiegazioni pratiche sui loro obblighi di legge e sulle loro registrazioni."
+          },
+          {
+            "question": "La formazione può essere adattata al nostro team?",
+            "answer": "Sì. Adattiamo i contenuti al modo in cui il tuo team lavora davvero, con esempi tratti dalla pratica quotidiana, e lasciamo al team checklist e routine da applicare."
+          }
+        ]
+      }
     }
   }
 }

@@ -1,12 +1,14 @@
-import { createFileRoute, Link, useLocation } from '@tanstack/react-router'
+import { Link, createFileRoute, useLocation } from '@tanstack/react-router'
 import {
-  Briefcase,
   ArrowRight,
+  Briefcase,
+  Mail,
   ShieldCheck,
   TrendingUp,
   Users,
 } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import type { CompanySectionId } from '@/components/company/CompanyPageLayout'
 import { Button } from '@/components/ui/button'
 import { designSystem } from '@/lib/design-system'
 import { PageContainer } from '@/components/layout/PageContainer'
@@ -14,12 +16,12 @@ import {
   CompanyPageLayout,
   CompanyPagePanel,
   getCompanySectionLabels,
-  type CompanySectionId,
 } from '@/components/company/CompanyPageLayout'
 import { cn } from '@/lib/utils'
 import { JobListingsSection } from '@/components/landing/JobListingsSection'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { localizedPageHead } from '@/lib/seo-meta'
+import { CONTACT_EMAIL } from '@/lib/business'
 
 export const Route = createFileRoute('/{-$locale}/careers')({
   head: ({ params }) => localizedPageHead('careers', params.locale),
@@ -45,16 +47,22 @@ function CareersPage() {
   )
 
   const stepsRaw = t('careers.process.steps', { returnObjects: true })
-  const steps = (typeof stepsRaw === 'string' ? [] : stepsRaw) as {
+  const steps = (typeof stepsRaw === 'string' ? [] : stepsRaw) as Array<{
     title: string
     description: string
-  }[]
+  }>
+
+  // Open application: no fixed openings or deadlines, so the page leads
+  // with a direct way to apply at any time.
+  const openApplicationHref = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(
+    t('careers.badge'),
+  )}`
 
   const perksRaw = t('careers.perks', { returnObjects: true })
-  const perks = (typeof perksRaw === 'string' ? [] : perksRaw) as {
+  const perks = (typeof perksRaw === 'string' ? [] : perksRaw) as Array<{
     title: string
     description: string
-  }[]
+  }>
 
   return (
     <CompanyPageLayout labels={sectionLabels} ids={CAREERS_SECTION_IDS}>
@@ -63,7 +71,7 @@ function CareersPage() {
           <div className="grid gap-10 lg:grid-cols-[minmax(0,0.95fr)_minmax(18rem,0.55fr)] lg:items-end">
             <div className="max-w-3xl">
               <p className="mb-4 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-primary">
-                <Briefcase className="h-4 w-4" />
+                <Briefcase aria-hidden className="h-4 w-4" />
                 {t('careers.badge')}
               </p>
               <h1
@@ -80,12 +88,20 @@ function CareersPage() {
               <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
                 {t('careers.hero.description')}
               </p>
-              <Button size="lg" asChild className="mt-8">
-                <a href="#jobs">
-                  {t('careers.hero.button')}
-                  <ArrowRight className="h-4 w-4" />
-                </a>
-              </Button>
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <Button size="lg" asChild>
+                  <a href={openApplicationHref}>
+                    <Mail aria-hidden className="h-4 w-4" />
+                    {t('careers.jobs.sendCv')}
+                  </a>
+                </Button>
+                <Button size="lg" variant="outline" asChild>
+                  <a href="#jobs">
+                    {t('careers.hero.button')}
+                    <ArrowRight aria-hidden className="h-4 w-4" />
+                  </a>
+                </Button>
+              </div>
             </div>
 
             <div className="divide-y divide-border border-y border-border">
@@ -93,7 +109,10 @@ function CareersPage() {
                 const Icon = PERK_ICONS[i] ?? ShieldCheck
                 return (
                   <div key={perk.title} className="flex items-start gap-4 py-4">
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10">
+                    <div
+                      aria-hidden
+                      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10"
+                    >
                       <Icon className="h-5 w-5 text-primary" />
                     </div>
                     <div>
@@ -122,7 +141,7 @@ function CareersPage() {
         <PageContainer maxWidth="xl" spacing="none">
           <div className="mx-auto max-w-4xl text-center">
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
-              {t('careers.badge')}
+              {sectionLabels[2] || t('careers.badge')}
             </p>
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
               {t('careers.process.title')}
@@ -175,7 +194,7 @@ function CareersPage() {
             <Button size="lg" asChild>
               <Link to={withLocalePath('/contact', currentLocale)}>
                 {t('careers.cta.button')}
-                <ArrowRight className="h-4 w-4" />
+                <ArrowRight aria-hidden className="h-4 w-4" />
               </Link>
             </Button>
           </div>

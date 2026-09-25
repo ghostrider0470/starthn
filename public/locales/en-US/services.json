@@ -10,7 +10,11 @@
     "learnMore": "Learn more",
     "ctaPrimary": "Start a conversation",
     "ctaSecondary": "View all services",
-    "backToServices": "Back to services"
+    "backToServices": "Back to services",
+    "faqOverline": "FAQ",
+    "pricingOverline": "Pricing",
+    "requestQuote": "Request a quote",
+    "quoteNote": "We reply within one business day."
   },
   "index": {
     "overline": "Start HN services",
@@ -29,7 +33,7 @@
     "title": "Related services",
     "postsTitle": "Related articles",
     "postLabels": {
-      "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance": "Guide: starting a business in BiH (sole trader or d.o.o.)",
+      "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance": "Guide: starting a business in Bosnia and Herzegovina (sole trader or d.o.o.)",
       "importance-of-entrepreneurship-programs": "Entrepreneurship support programmes in Sarajevo Canton"
     }
   },
@@ -37,17 +41,17 @@
     "bookkeeping": {
       "label": "01",
       "title": "Bookkeeping & Accounting",
-      "heroTitle": "Bookkeeping and accounting for companies and sole traders in Sarajevo",
+      "heroTitle": "Bookkeeping and accounting in Sarajevo, Bosnia and Herzegovina",
       "shortDescription": "Complete bookkeeping, accounting records, payroll calculations, VAT records, and year-end reports for sole traders and companies.",
       "heroDescription": "Bookkeeping services for limited liability companies (d.o.o.), sole traders and associations in Sarajevo and Ilidža: posting invoices and expenses, payroll and contribution calculations, VAT and the annual year-end accounts – accurate and ahead of deadlines.",
       "overviewTitle": "Daily records without daily friction",
       "overview": "We organize the full bookkeeping cycle: document intake, invoice and expense posting, payroll and contribution calculations, VAT records, statutory filings, and annual closing. The goal is simple: clean records, clear responsibilities, and no last-minute surprises.",
       "localContextTitle": "Bookkeeping for companies and sole traders in Sarajevo and Ilidža",
-      "localContext": "Start HN is an accounting agency based at Ibrahima Ljubovića 47, 71210 Ilidža, working with companies, sole traders and associations from Ilidža, Sarajevo and Sarajevo Canton. We keep business books in line with the regulations of the Federation of BiH: posting incoming and outgoing invoices and expenses, payroll and contribution calculations, VAT records and returns, and the annual year-end accounts. You can deliver documents in person, by email or digitally. We work primarily in Pantheon, and we can also work in the system your company already uses.",
+      "localContext": "Start HN is an accounting agency based at Ibrahima Ljubovića 47, 71210 Ilidža, working with companies, sole traders and associations from Ilidža, Sarajevo and Sarajevo Canton. We keep business books in line with the regulations of the Federation of Bosnia and Herzegovina (FBiH): posting incoming and outgoing invoices and expenses, payroll and contribution calculations, VAT records and returns, and the annual year-end accounts. You can deliver documents in person, by email or digitally. We work primarily in Pantheon, and we can also work in the system your company already uses.",
       "bestForTitle": "Best for",
       "bestFor": [
         "Small and medium companies that need regular accounting support",
-        "Sole traders and crafts that want clean legal records",
+        "Sole traders (obrt) and freelancers who want tidy statutory records",
         "Teams switching from another accountant",
         "Owners who want clear monthly numbers, not only annual filings"
       ],
@@ -59,14 +63,14 @@
         },
         {
           "title": "Monthly accounting operations",
-          "description": "Invoices, expenses, bank movements, payroll, contributions, VAT evidence, and recurring statutory obligations are handled in a predictable monthly rhythm."
+          "description": "We handle invoices, expenses, bank transactions, payroll, contributions, VAT records and recurring statutory obligations in a predictable monthly rhythm."
         },
         {
           "title": "Annual statements and closing",
           "description": "We prepare year-end calculations, financial statements, tax declarations, and closing documentation so the business remains compliant and audit-ready."
         }
       ],
-      "processTitle": "A predictable monthly rhythm",
+      "processTitle": "How monthly bookkeeping works",
       "process": [
         {
           "title": "Collect",
@@ -84,7 +88,7 @@
       "deliverablesTitle": "Typical outputs",
       "deliverables": [
         "Monthly bookkeeping records",
-        "VAT and tax evidence",
+        "VAT and tax records",
         "Payroll and contribution calculations",
         "Year-end financial statements",
         "Submission confirmations",
@@ -102,18 +106,73 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "Bookkeeping FAQ",
+        "items": [
+          {
+            "question": "How much does bookkeeping cost for a sole trader or an LLC?",
+            "answer": "For newly founded sole traders (obrt), prices start from 150 KM (about €77) per month, and for newly founded limited liability companies (d.o.o.) from 300 KM (about €153) per month. The final price depends on the size of the business, the volume of documents, the number of employees and the complexity of operations, with no hidden costs."
+          },
+          {
+            "question": "How do we send you our documents?",
+            "answer": "In person at our office in Ilidža, by email or digitally – whichever workflow we agree on at the start. We then post the transactions and check the records before the deadlines."
+          },
+          {
+            "question": "Can we switch to you from another accountant?",
+            "answer": "Yes. We review your registration, existing records, opening balances, payroll data and reporting calendar, agree on the handover of documents and have you fully set up within a few days. For companies and sole traders switching agencies, we set the price after a short review of the business."
+          },
+          {
+            "question": "Which accounting software do you use?",
+            "answer": "We work primarily in Pantheon, and we also have experience with e-line, Microsoft Dynamics NAV and InfoSoft. If your company already uses a program and has an active contract with its provider, we can work in your system."
+          },
+          {
+            "question": "Is there a long-term commitment?",
+            "answer": "No. There is no long-term lock-in – we work to earn your trust every month."
+          }
+        ]
+      },
+      "pricing": {
+        "title": "How much bookkeeping costs",
+        "intro": "The price depends on the size and complexity of your business, with no hidden costs. Starting prices for newly founded businesses:",
+        "plans": [
+          {
+            "name": "Sole trader (obrt)",
+            "price": "from 150 KM",
+            "period": "per month",
+            "note": "About €77 · newly founded sole traders"
+          },
+          {
+            "name": "LLC (d.o.o.)",
+            "price": "from 300 KM",
+            "period": "per month",
+            "note": "About €153 · newly founded companies"
+          }
+        ],
+        "driversTitle": "What the price depends on",
+        "drivers": [
+          "Size of the business",
+          "Volume of documents",
+          "Number of employees",
+          "Complexity of operations"
+        ],
+        "note": "For existing companies and sole traders switching from another accounting agency, we set the price individually after a short review of the business and its needs."
+      },
+      "payroll": {
+        "title": "Payroll and contributions",
+        "body": "For businesses with employees, we calculate salaries and the related contributions and prepare the statutory returns as part of monthly bookkeeping, ahead of the deadlines. When we take over your books, we review your payroll data so the calculations are accurate from the first month. The number of employees is one of the factors that affect the price."
+      }
     },
     "taxConsulting": {
       "label": "02",
       "title": "Tax Consulting",
-      "heroTitle": "Tax consulting and VAT for companies and sole traders in Sarajevo",
+      "heroTitle": "Tax consulting and VAT services in Sarajevo, Bosnia and Herzegovina",
       "shortDescription": "Tax monitoring, planning, filing support, deadline tracking, and practical guidance for individuals and companies.",
       "heroDescription": "Tax obligations change quickly and mistakes are expensive. We help you understand what applies, what is due, and how to plan within the rules.",
       "overviewTitle": "Tax advice before there is a problem",
       "overview": "Our tax support connects compliance and planning: we monitor deadlines, review obligations, explain regulatory changes, prepare filings, and advise on decisions before they create avoidable cost or risk.",
-      "localContextTitle": "Tax obligations for companies and sole traders in the Federation of BiH",
-      "localContext": "Companies and sole traders based in Sarajevo and elsewhere in the Federation of BiH have tax obligations under the regulations of BiH and the Federation of BiH. From our office in Ilidža we prepare and submit VAT returns, corporate and personal income tax returns and other statutory filings, follow regulatory changes and let you know in good time when a change affects your business. Tax advice works best when it is linked to accurate bookkeeping, because returns are then based on reliable records.",
+      "localContextTitle": "Tax obligations for companies and sole traders in the Federation of Bosnia and Herzegovina",
+      "localContext": "Companies and sole traders based in Sarajevo and elsewhere in the Federation of Bosnia and Herzegovina (FBiH) have tax obligations under the regulations of Bosnia and Herzegovina (BiH) and of the FBiH. From our office in Ilidža we prepare and file VAT returns, corporate and personal income tax returns and other statutory returns, follow regulatory changes and let you know in good time when a change affects your business. Tax advice works best when it is linked to accurate bookkeeping, because returns are then based on reliable records.",
       "bestForTitle": "Best for",
       "bestFor": [
         "Companies that need regular tax monitoring",
@@ -136,7 +195,7 @@
           "description": "We explain tax effects of business decisions, deductions, entity changes, hiring, payments, and other recurring financial questions."
         }
       ],
-      "processTitle": "Tax support that stays ahead",
+      "processTitle": "How our tax consulting works",
       "process": [
         {
           "title": "Assess",
@@ -172,12 +231,37 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "Tax consulting FAQ",
+        "items": [
+          {
+            "question": "Which tax returns do you prepare?",
+            "answer": "We prepare and file VAT returns, corporate income tax and personal income tax returns, and other statutory returns under BiH and FBiH regulations."
+          },
+          {
+            "question": "How will we hear about changes in tax rules?",
+            "answer": "From us. We track regulatory changes and let you know as soon as a change affects your business, so you are never caught off guard."
+          },
+          {
+            "question": "Do you advise individuals as well?",
+            "answer": "Yes. We provide tax advice to companies, sole traders and individuals who have to file tax returns."
+          },
+          {
+            "question": "Why is tax advice linked to bookkeeping?",
+            "answer": "Because tax returns are based on your records. When the books are accurate and up to date, the returns are accurate too, and our advice is based on real numbers."
+          },
+          {
+            "question": "What if an earlier return contains a mistake?",
+            "answer": "We review earlier returns and help correct any errors before they turn into penalties or late corrections."
+          }
+        ]
+      }
     },
     "virtualCfo": {
       "label": "03",
       "title": "Virtual CFO",
-      "heroTitle": "Virtual CFO for small and medium-sized businesses in Sarajevo",
+      "heroTitle": "Virtual CFO services for SMEs in Sarajevo, Bosnia and Herzegovina",
       "shortDescription": "Senior financial insight without a full-time finance director: cash flow, budgeting, KPIs, and decision support.",
       "heroDescription": "A Virtual CFO gives owners and management a clearer view of financial health, cash flow, profitability, and strategic choices.",
       "overviewTitle": "Financial leadership on a flexible basis",
@@ -206,7 +290,7 @@
           "description": "We define KPIs and reporting formats that connect financial data with decisions about growth, costs, pricing, and operations."
         }
       ],
-      "processTitle": "From records to decisions",
+      "processTitle": "How the virtual CFO service works",
       "process": [
         {
           "title": "Diagnose",
@@ -240,18 +324,39 @@
         "financialReporting",
         "businessConsulting"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "Virtual CFO FAQ",
+        "items": [
+          {
+            "question": "What does the virtual CFO service include?",
+            "answer": "Cash-flow forecasts, budget planning, financial analysis, management reports and strategic advice, with attendance at meetings when needed."
+          },
+          {
+            "question": "Who is a virtual CFO for?",
+            "answer": "Growing companies that need financial leadership but are not yet ready for a full-time finance director, and owners preparing financing or investment decisions."
+          },
+          {
+            "question": "What does working together look like?",
+            "answer": "We start by reviewing your existing reports and defining the questions management needs answered. We then build budgets, forecasts and scenarios based on realistic assumptions, and regularly explain results, risks and next steps."
+          },
+          {
+            "question": "Why does it help if you also keep our books?",
+            "answer": "Because the analysis is then based on up-to-date figures from your own accounting records, which makes forecasts and reports more reliable."
+          }
+        ]
+      }
     },
     "businessConsulting": {
       "label": "04",
       "title": "Business Consulting",
-      "heroTitle": "Business consulting for companies and sole traders in Sarajevo",
+      "heroTitle": "Business consulting for companies and sole traders in Bosnia and Herzegovina",
       "shortDescription": "Practical business advice for structure, growth, internal processes, costs, pricing, and operational decisions.",
       "heroDescription": "Good accounting shows what happened. Good consulting helps you decide what should happen next.",
       "overviewTitle": "Practical guidance grounded in numbers",
       "overview": "We support owners and managers with financial and operational decisions: business setup, process improvement, cost control, pricing, cash discipline, internal documentation, and growth planning.",
       "localContextTitle": "Business consulting for entrepreneurs in Sarajevo",
-      "localContext": "We help entrepreneurs, sole traders and companies from Sarajevo and Ilidža make business decisions based on the numbers in their own books. We advise on business organisation and document flow, cost control, pricing, collecting receivables and growth planning. Startups and new businesses get our support from their first day of operations, and we have written about choosing between a sole tradership (obrt) and a limited liability company (d.o.o.) in our guide to starting a business in BiH. Our advice is connected to bookkeeping and tax, so recommendations also take your legal obligations in the Federation of BiH into account.",
+      "localContext": "We help entrepreneurs, sole traders and companies from Sarajevo and Ilidža make business decisions based on the numbers in their own books. We advise on business organisation and document flow, cost control, pricing, collecting receivables and growth planning. Startups and new businesses get our support from their first day of operations, and our guide to starting a business in Bosnia and Herzegovina (BiH) explains how to choose between a sole trader (obrt) and a limited liability company (d.o.o.). Our advice is connected to bookkeeping and tax, so it also takes your legal obligations in the Federation of Bosnia and Herzegovina (FBiH) into account.",
       "bestForTitle": "Best for",
       "bestFor": [
         "New businesses setting up financial processes",
@@ -274,7 +379,7 @@
           "description": "We identify where paperwork, approvals, reporting, or cash collection can be simplified and made more reliable."
         }
       ],
-      "processTitle": "Consulting without vague theory",
+      "processTitle": "How business consulting works",
       "process": [
         {
           "title": "Map",
@@ -311,18 +416,39 @@
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance",
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "Business consulting FAQ",
+        "items": [
+          {
+            "question": "What can business consulting help us with?",
+            "answer": "Organising your business and document flow, cost control, pricing, collecting receivables and growth planning – all based on the numbers in your own books."
+          },
+          {
+            "question": "Do you work with new businesses and startups?",
+            "answer": "Yes. We support startups and new businesses from their first day of operations, and our guide to starting a business in Bosnia and Herzegovina explains how to choose between a sole trader (obrt) and an LLC (d.o.o.)."
+          },
+          {
+            "question": "How does the consulting process work?",
+            "answer": "We first map your current processes, documents and financial questions. We then pick the changes that bring the most value and define practical steps, responsibilities and follow-up."
+          },
+          {
+            "question": "Do your recommendations take legal obligations into account?",
+            "answer": "Yes. Our consulting is connected to bookkeeping and tax, so our recommendations also reflect your legal obligations in the FBiH."
+          }
+        ]
+      }
     },
     "financialReporting": {
       "label": "05",
       "title": "Financial Reporting",
-      "heroTitle": "Financial reporting and year-end accounts for companies in Sarajevo",
+      "heroTitle": "Financial reporting and year-end accounts in Sarajevo, Bosnia and Herzegovina",
       "shortDescription": "Clear statutory and management reporting that helps you understand performance, obligations, and financial trends.",
       "heroDescription": "Reports should not be confusing files that only satisfy a deadline. They should explain what is happening in the business.",
       "overviewTitle": "Reports that management can actually use",
       "overview": "We prepare statutory reports, management summaries, financial statements, and analysis formats that make revenue, cost, profit, liquidity, and obligations easier to understand.",
-      "localContextTitle": "Year-end accounts and reporting for companies in the Federation of BiH",
-      "localContext": "Companies in the Federation of BiH are required by law to prepare annual financial statements, and owners and management also need clear management reports during the year. For clients from Sarajevo, Ilidža and Sarajevo Canton we prepare the annual year-end accounts and statutory financial statements, monthly or quarterly management summaries, and report packages for banks and partners. Reports are based on well-kept accounting records, and we explain results, obligations and trends in plain language.",
+      "localContextTitle": "Year-end accounts and reporting for companies in the Federation of Bosnia and Herzegovina",
+      "localContext": "Companies in the Federation of Bosnia and Herzegovina (FBiH) are required by law to prepare annual financial statements, and owners and management also need clear management reports during the year. For clients from Sarajevo, Ilidža and Sarajevo Canton we prepare the annual year-end accounts and statutory financial statements, monthly or quarterly management summaries, and report packages for banks and partners. Reports are based on well-kept accounting records, and we explain results, obligations and trends in plain language.",
       "bestForTitle": "Best for",
       "bestFor": [
         "Companies that need clearer monthly reporting",
@@ -345,7 +471,7 @@
           "description": "We interpret the numbers with ratios, comparisons, and commentary that support decisions rather than only recordkeeping."
         }
       ],
-      "processTitle": "Clear reporting cycle",
+      "processTitle": "How we prepare financial reports",
       "process": [
         {
           "title": "Structure",
@@ -379,18 +505,39 @@
         "bookkeeping",
         "virtualCfo"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "Financial reporting FAQ",
+        "items": [
+          {
+            "question": "Which reports do you prepare?",
+            "answer": "Annual year-end accounts and statutory financial statements, monthly or quarterly management summaries, and report packages for banks and partners."
+          },
+          {
+            "question": "Does a company have to prepare annual financial statements?",
+            "answer": "Yes. Companies in the FBiH are required by law to prepare annual financial statements, and we prepare them from well-kept accounting records."
+          },
+          {
+            "question": "Can you prepare reports for a bank or business partners?",
+            "answer": "Yes. We prepare report packages for banks, partners and investors, based on clean accounting records and supporting documents."
+          },
+          {
+            "question": "Will you explain the numbers to us?",
+            "answer": "Yes. We explain results, obligations and trends in plain language, using ratios, comparisons and commentary that support decisions."
+          }
+        ]
+      }
     },
     "education": {
       "label": "06",
       "title": "Education & Courses",
-      "heroTitle": "Accounting and tax training for companies and sole traders in Sarajevo",
+      "heroTitle": "Accounting and tax training in Sarajevo, Bosnia and Herzegovina",
       "shortDescription": "Accounting, tax, and finance workshops that help owners and teams understand obligations and make better decisions.",
       "heroDescription": "Better financial literacy reduces mistakes, improves internal communication, and helps teams work with accountants more effectively.",
       "overviewTitle": "Knowledge that makes daily work easier",
       "overview": "We organize practical education for owners, managers, and administrative teams: accounting basics, document preparation, tax deadlines, payroll basics, reporting interpretation, and better cooperation with accounting teams.",
       "localContextTitle": "Training and consultations in Sarajevo",
-      "localContext": "For companies and sole traders from Sarajevo and Ilidža that handle part of their administration or bookkeeping in-house, we provide individual professional support and practical training. This can include organising internal documentation, training staff to use accounting software, the basics of accounting processes, and helping management read financial statements. Sole traders who keep their own books can get individual consultations on their legal obligations and records in the Federation of BiH. We tailor the content to how your team actually works, using examples from everyday practice.",
+      "localContext": "For companies and sole traders from Sarajevo and Ilidža that handle part of their administration or bookkeeping in-house, we provide individual professional support and practical training. This can include organising internal documentation, training staff to use accounting software, the basics of accounting processes, and helping management read financial statements. Sole traders who keep their own books can get individual consultations on their legal obligations and records in the Federation of Bosnia and Herzegovina (FBiH). We tailor the content to how your team actually works, using examples from everyday practice.",
       "bestForTitle": "Best for",
       "bestFor": [
         "Owners who want to understand their obligations",
@@ -413,7 +560,7 @@
           "description": "We help teams understand financial statements, management reports, and the questions those reports should answer."
         }
       ],
-      "processTitle": "Training built around real work",
+      "processTitle": "How we run training",
       "process": [
         {
           "title": "Define",
@@ -449,7 +596,28 @@
       ],
       "relatedPosts": [
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "Training FAQ",
+        "items": [
+          {
+            "question": "Who is the training for?",
+            "answer": "Owners, managers and administrative staff of companies and sole traders, especially those who handle part of their administration or bookkeeping in-house."
+          },
+          {
+            "question": "Which topics do you cover?",
+            "answer": "Accounting basics, document preparation, tax deadlines, payroll basics, working in accounting software and reading financial statements."
+          },
+          {
+            "question": "Do you offer one-to-one consultations for sole traders?",
+            "answer": "Yes. Sole traders who keep their own books can get individual consultations and practical explanations of their legal obligations and records."
+          },
+          {
+            "question": "Can the training be tailored to our team?",
+            "answer": "Yes. We tailor the content to how your team actually works, with examples from everyday practice, and leave the team with checklists and routines to apply."
+          }
+        ]
+      }
     }
   }
 }

@@ -146,28 +146,29 @@
         },
         {
           "image": "/certificates/kpmg-expert.webp",
-          "title": "Auditeur judiciaire",
-          "description": "Confirmation d’une expertise supplémentaire dans le domaine de la criminalistique financière"
+          "title": "Expert – KPMG Switzerland Innovation Award",
+          "description": "Badge « Expert » dans la catégorie Management Consulting du KPMG Switzerland Innovation Award."
         },
         {
           "image": "/certificates/award-consulting.webp",
-          "title": "Fonds de l’UE – Comment obtenir des subventions",
-          "description": "Connaissance du processus de demande et des possibilités de retrait des fonds de l’UE."
+          "title": "Formation : fonds européens – comment accéder aux subventions",
+          "description": "Formation sur la procédure de candidature et sur les possibilités d’accéder aux financements de l’UE (AwarD Consulting Trade Inc.)."
         }
-      ]
+      ],
+      "description": "Un aperçu de nos certificats et des formations suivies, avec une courte description de chacun."
     },
     "quote": "« Chaque certificat prouve que notre travail passe les contrôles professionnels les plus stricts. »",
     "quoteAuthor": "Agence comptable Start HN",
     "licenceLine": "Registre du ministère fédéral des Finances (FMF) n° UP-04-11-2-6-1516/24",
     "verifyLink": "Vérifier dans le registre de la SRR FBiH",
     "highlights": {
-      "certifiedAccountants": "Comptables certifiés",
+      "certifiedAccountants": "Comptable certifié",
       "legalCompliance": "Conformité légale",
       "continuousEducation": "Formation continue",
       "ethicalStandards": "Normes éthiques"
     },
     "cta": {
-      "title": "Travaillez avec une équipe certifiée.",
+      "title": "Travaillez avec un comptable certifié",
       "description": "Nos licences et certifications professionnelles sont votre garantie que votre comptabilité est entre de bonnes mains et expertes.",
       "button": "Contactez-nous"
     }
@@ -250,7 +251,7 @@
     },
     "form": {
       "title": "Envoyez-nous un message",
-      "success": "Merci pour votre message. Nous vous recontacterons dans les 24 à 48 heures.",
+      "success": "Merci pour votre message. Nous vous répondrons sous un jour ouvré.",
       "error": "Quelque chose a mal tourné. Veuillez réessayer ou nous envoyer un e-mail directement.",
       "fullName": "Nom complet *",
       "email": "Adresse e-mail *",
@@ -275,11 +276,13 @@
         "messageMinLength": "Le message doit faire au moins {{count}} caractères."
       },
       "sending": "Envoi en cours...",
-      "submit": "Envoyez un message"
+      "submit": "Envoyez un message",
+      "verifying": "Vérification de sécurité en cours…",
+      "verifyingHint": "Le bouton « Envoyez un message » devient actif après une courte vérification de sécurité automatique."
     },
     "reasonsTitle": "Pourquoi choisir Start HN ?",
     "reasons": [
-      "Experts-comptables agréés ayant une connaissance approfondie de la législation fiscale",
+      "Un comptable certifié qui connaît en profondeur la fiscalité de la Bosnie-Herzégovine",
       "Réponse rapide et communication proactive",
       "Comptabilité dans le cloud — accédez à vos livres à tout moment",
       "Tarification transparente sans coûts cachés"
@@ -293,6 +296,15 @@
       "title": "Avez-vous d’autres questions ?",
       "description": "Consultez notre section FAQ pour des réponses rapides",
       "cta": "Parcourez les questions fréquemment posées"
+    },
+    "location": {
+      "overline": "Nous trouver",
+      "title": "Agence comptable à Ilidža – Ibrahima Ljubovića 47",
+      "body": "Le bureau de l’agence comptable Start HN se trouve à l’adresse Ibrahima Ljubovića 47, 71210 Ilidža, dans la municipalité d’Ilidža, canton de Sarajevo, en Bosnie-Herzégovine. Depuis ce bureau, nous assurons la tenue de livres, la paie, la TVA et les déclarations fiscales de nos clients. Nous sommes ouverts du lundi au vendredi de 08h00 à 16h00 et fermés les jours fériés. Avant de venir, vous pouvez nous appeler au 061 221 368 (+387 61 221 368 depuis l’étranger) ou écrire à klijenti@starthn.ba – nous répondons sous un jour ouvré. Nous travaillons avec des entreprises, des entrepreneurs individuels et des associations d’Ilidža, de Sarajevo et du reste du canton de Sarajevo, ainsi qu’avec des clients dans toute la Bosnie-Herzégovine. Vous pouvez apporter vos documents au bureau, les envoyer par e-mail ou les transmettre sous forme numérique : travailler avec nous ne demande donc pas de venir souvent. Pour commencer, réservez une première consultation gratuite ; pour l’itinéraire jusqu’au bureau, utilisez le bouton « Itinéraire »."
+    },
+    "reviews": {
+      "title": "Vous avez travaillé avec nous ?",
+      "description": "Si vous êtes satisfait de notre travail, laissez-nous un avis sur Google. Votre expérience aide d’autres chefs d’entreprise à choisir leur comptable."
     }
   },
   "team": {
@@ -368,12 +380,12 @@
     }
   },
   "careers": {
-    "badge": "Rejoignez notre équipe",
+    "badge": "Candidature spontanée",
     "hero": {
       "title": "Grandissez avec nous en",
       "titleHighlight": "comptabilité et finance",
-      "description": "Start HN est une agence comptable en pleine croissance. Nous recherchons des professionnels dévoués qui souhaitent construire une carrière significative dans la comptabilité, la fiscalité et les services financiers.",
-      "button": "Voir les postes ouverts"
+      "description": "Start HN est une agence comptable en pleine croissance. Nous sommes toujours heureux d’avoir des nouvelles de professionnels motivés qui souhaitent construire leur carrière dans la comptabilité, la fiscalité et les services financiers – vous pouvez nous envoyer une candidature spontanée à tout moment.",
+      "button": "Voir les profils"
     },
     "perks": [
       {
@@ -394,12 +406,12 @@
       "description": "Processus simple et transparent, respectant votre temps",
       "steps": [
         {
-          "title": "Soumettre un CV",
-          "description": "Envoyez-nous votre CV et votre lettre de motivation à notre adresse e-mail."
+          "title": "Envoyez une candidature spontanée",
+          "description": "Envoyez-nous par e-mail votre CV et une lettre de motivation, en précisant le profil qui vous intéresse."
         },
         {
           "title": "Invitation à un entretien",
-          "description": "Nous contactons les candidats qui remplissent les conditions et les invitons à passer un entretien."
+          "description": "Lorsque nous devons agrandir l’équipe, nous contactons les candidats dont le profil correspond et les invitons à un entretien."
         },
         {
           "title": "Recrutement",
@@ -408,11 +420,11 @@
       ]
     },
     "jobs": {
-      "title": "Postes vacants",
-      "description": "Trouvez votre place dans notre équipe comptable",
-      "apply": "Postuler",
-      "noMatch": "Vous ne trouvez pas le poste qui vous correspond ?",
-      "sendCv": "Envoyez-nous votre CV",
+      "title": "Candidature spontanée",
+      "description": "Les profils dont nous serions heureux d’avoir des nouvelles – nous acceptons les candidatures en continu, sans date limite.",
+      "apply": "Envoyer une candidature",
+      "noMatch": "Vous ne trouvez pas votre profil ?",
+      "sendCv": "Envoyez-nous une candidature spontanée",
       "labels": {
         "responsibilities": "Responsabilités",
         "requirements": "Exigences",

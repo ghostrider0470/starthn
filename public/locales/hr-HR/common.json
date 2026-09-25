@@ -260,6 +260,26 @@
     "accept": "Prihvaćam",
     "reject": "Odbijam",
     "settings": "Postavke kolačića",
-    "privacyLink": "Politika privatnosti"
+    "privacyLink": "Politika privatnosti",
+    "textCompact": "Google Analytics i Microsoft Clarity učitavamo samo uz vaš pristanak."
+  },
+  "contactActions": {
+    "call": "Nazovi",
+    "callNumber": "Nazovi {{phone}}",
+    "callAria": "Nazovite Start HN na broj {{phone}}",
+    "directions": "Upute za dolazak",
+    "openInMaps": "Prikaži na Google kartama",
+    "leaveReview": "Ostavite recenziju",
+    "hoursLabel": "Radno vrijeme",
+    "addressLabel": "Adresa"
+  },
+  "trust": {
+    "ratingLine_one": "{{rating}} ★ na Googleu ({{count}} recenzija)",
+    "ratingLine_few": "{{rating}} ★ na Googleu ({{count}} recenzije)",
+    "ratingLine_other": "{{rating}} ★ na Googleu ({{count}} recenzija)"
+  },
+  "legalEntity": {
+    "title": "Podaci o tvrtki",
+    "line": "{{legalName}} · JIB {{jib}} · MBS {{mbs}} · Ured: {{address}}"
   }
 }

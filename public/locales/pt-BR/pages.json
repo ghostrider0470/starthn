@@ -146,28 +146,29 @@
         },
         {
           "image": "/certificates/kpmg-expert.webp",
-          "title": "Auditor Forense",
-          "description": "Confirmação de expertise adicional na área de perícia financeira"
+          "title": "Expert – KPMG Switzerland Innovation Award",
+          "description": "Selo “Expert” na categoria Management Consulting do KPMG Switzerland Innovation Award."
         },
         {
           "image": "/certificates/award-consulting.webp",
-          "title": "Fundos da UE – Como Conseguir Subsídios",
-          "description": "Conhecimento do processo de solicitação e das possibilidades de retirada de fundos da UE."
+          "title": "Treinamento: fundos da UE – como acessar subsídios",
+          "description": "Treinamento sobre o processo de candidatura e as oportunidades de acesso a financiamento da UE (AwarD Consulting Trade Inc.)."
         }
-      ]
+      ],
+      "description": "Uma visão geral dos nossos certificados e dos treinamentos concluídos, com uma breve descrição de cada um."
     },
     "quote": "“Cada certificado é a prova de que nosso trabalho passa pelas verificações profissionais mais rigorosas.”",
     "quoteAuthor": "Agência de contabilidade Start HN",
     "licenceLine": "Registro do Ministério Federal das Finanças (FMF) nº UP-04-11-2-6-1516/24",
     "verifyLink": "Verifique no registro da SRR FBiH",
     "highlights": {
-      "certifiedAccountants": "Contadores certificados",
+      "certifiedAccountants": "Contador certificado",
       "legalCompliance": "Conformidade legal",
       "continuousEducation": "Educação continuada",
       "ethicalStandards": "Padrões éticos"
     },
     "cta": {
-      "title": "Trabalhe com uma equipe certificada.",
+      "title": "Trabalhe com um contador certificado",
       "description": "Nossas licenças e certificações profissionais são sua garantia de que sua contabilidade está em mãos seguras e especializadas.",
       "button": "Entre em contato conosco"
     }
@@ -250,7 +251,7 @@
     },
     "form": {
       "title": "Envie uma mensagem para nós",
-      "success": "Obrigado pela sua mensagem. Entraremos em contato em 24 a 48 horas.",
+      "success": "Obrigado pela sua mensagem. Responderemos em até um dia útil.",
       "error": "Algo deu errado. Por favor, tente novamente ou envie um e-mail diretamente para nós.",
       "fullName": "Nome completo *",
       "email": "Endereço de e-mail *",
@@ -275,11 +276,13 @@
         "messageMinLength": "A mensagem deve ter pelo menos {{count}} caracteres."
       },
       "sending": "Enviando...",
-      "submit": "Envie uma mensagem"
+      "submit": "Envie uma mensagem",
+      "verifying": "Fazendo uma verificação de segurança…",
+      "verifyingHint": "O botão “Envie uma mensagem” fica ativo após uma breve verificação de segurança automática."
     },
     "reasonsTitle": "Por que escolher o Start HN?",
     "reasons": [
-      "Contadores certificados com profundo conhecimento da legislação tributária da BiH",
+      "Um contador certificado com profundo conhecimento da legislação tributária da Bósnia e Herzegovina",
       "Resposta rápida e comunicação proativa",
       "Contabilidade na nuvem — acesse seus livros a qualquer momento",
       "Preços transparentes, sem custos ocultos"
@@ -293,6 +296,15 @@
       "title": "Você tem mais alguma pergunta?",
       "description": "Confira nossa seção de perguntas frequentes para respostas rápidas",
       "cta": "Navegue pelas Perguntas Frequentes"
+    },
+    "location": {
+      "overline": "Como nos encontrar",
+      "title": "Agência de contabilidade em Ilidža – Ibrahima Ljubovića 47",
+      "body": "O escritório da agência de contabilidade Start HN fica na Ibrahima Ljubovića 47, 71210 Ilidža, no município de Ilidža, Cantão de Sarajevo, Bósnia e Herzegovina. Deste escritório cuidamos da contabilidade, da folha de pagamento, do IVA e das declarações de impostos dos nossos clientes. Funcionamos de segunda a sexta, das 08:00 às 16:00, e fechamos nos feriados. Antes de vir, você pode nos ligar no 061 221 368 (+387 61 221 368 do exterior) ou escrever para klijenti@starthn.ba – respondemos em até um dia útil. Trabalhamos com empresas, empresários individuais e associações de Ilidža, de Sarajevo e do restante do Cantão de Sarajevo, e também com clientes em toda a Bósnia e Herzegovina. Você pode trazer os documentos pessoalmente ao escritório, enviá-los por e-mail ou entregá-los em formato digital, por isso trabalhar conosco não exige visitas frequentes. Para começar, agende uma primeira consulta gratuita; para ver o trajeto até o escritório, use o botão “Como chegar”."
+    },
+    "reviews": {
+      "title": "Já trabalhou com a gente?",
+      "description": "Se você está satisfeito com o nosso trabalho, deixe uma avaliação no Google. Sua experiência ajuda outros empresários a escolher um contador."
     }
   },
   "team": {
@@ -368,12 +380,12 @@
     }
   },
   "careers": {
-    "badge": "Junte-se à nossa equipe",
+    "badge": "Candidatura espontânea",
     "hero": {
       "title": "Cresca conosco em",
       "titleHighlight": "Contabilidade e Finanças",
-      "description": "A Start HN é uma agência de contabilidade em crescimento. Estamos procurando profissionais dedicados que queiram construir uma carreira significativa em contabilidade, tributação e serviços financeiros.",
-      "button": "Ver vagas abertas"
+      "description": "A Start HN é uma agência de contabilidade em crescimento. Sempre gostamos de conhecer profissionais dedicados que querem construir uma carreira em contabilidade, tributos e serviços financeiros – você pode enviar uma candidatura espontânea a qualquer momento.",
+      "button": "Ver os perfis"
     },
     "perks": [
       {
@@ -394,12 +406,12 @@
       "description": "Processo simples e transparente, com respeito ao seu tempo",
       "steps": [
         {
-          "title": "Envie o CV",
-          "description": "Envie seu currículo e carta de motivação para nosso endereço de e-mail."
+          "title": "Envie uma candidatura espontânea",
+          "description": "Envie por e-mail o seu currículo e uma carta de apresentação, e diga qual perfil lhe interessa."
         },
         {
-          "title": "Convite para uma entrevista",
-          "description": "Entramos em contato com candidatos que atendem às condições e os convidamos para uma entrevista."
+          "title": "Convite para entrevista",
+          "description": "Quando precisamos ampliar a equipe, entramos em contato com os candidatos cujo perfil se encaixa e os convidamos para uma entrevista."
         },
         {
           "title": "Recrutamento",
@@ -408,11 +420,11 @@
       ]
     },
     "jobs": {
-      "title": "Vagas abertas",
-      "description": "Encontre seu lugar em nossa equipe de contabilidade",
-      "apply": "Candidate-se",
-      "noMatch": "Não vê a posição certa?",
-      "sendCv": "Envie seu currículo para nós",
+      "title": "Candidatura espontânea",
+      "description": "Perfis dos quais gostaríamos de receber candidaturas – aceitamos candidaturas continuamente, sem prazo.",
+      "apply": "Enviar candidatura",
+      "noMatch": "Não encontrou o seu perfil?",
+      "sendCv": "Envie-nos uma candidatura espontânea",
       "labels": {
         "responsibilities": "Responsabilidades",
         "requirements": "Requisitos",

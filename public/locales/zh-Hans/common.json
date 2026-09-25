@@ -260,6 +260,24 @@
     "accept": "接受",
     "reject": "拒绝",
     "settings": "Cookie 设置",
-    "privacyLink": "隐私政策"
+    "privacyLink": "隐私政策",
+    "textCompact": "只有在您同意后，我们才会加载 Google Analytics 和 Microsoft Clarity。"
+  },
+  "contactActions": {
+    "call": "拨打电话",
+    "callNumber": "致电 {{phone}}",
+    "callAria": "拨打 Start HN 的电话 {{phone}}",
+    "directions": "获取路线",
+    "openInMaps": "在 Google 地图中查看",
+    "leaveReview": "留下评价",
+    "hoursLabel": "营业时间",
+    "addressLabel": "地址"
+  },
+  "trust": {
+    "ratingLine_other": "Google 评分 {{rating}} ★（{{count}} 条评价）"
+  },
+  "legalEntity": {
+    "title": "公司信息",
+    "line": "{{legalName}} · 识别号（JIB）{{jib}} · 注册号（MBS）{{mbs}} · 办公地址：{{address}}"
   }
 }

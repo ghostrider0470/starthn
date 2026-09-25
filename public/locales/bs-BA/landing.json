@@ -7,26 +7,26 @@
         "overline": "Iskoristite stručnu podršku za održivi rast",
         "title": "Računovodstvo koje razumije vaš posao",
         "subtitle": "Iskustvo, tačnost i rješenja koja prate vaše ciljeve.",
-        "cta": "Saznajte više o Start HN",
-        "href": "/about"
+        "cta": "Zakažite besplatnu konsultaciju",
+        "href": "/contact"
       },
       {
         "overline": "Preciznost i transparentnost u svakom koraku",
         "title": "Usluge po mjeri vašeg biznisa",
         "subtitle": "Mi vodimo vaše knjige, vi vodite svoj posao — bez stresa i neizvjesnosti.",
-        "cta": "Započnimo saradnju",
+        "cta": "Zakažite besplatnu konsultaciju",
         "href": "/contact"
       },
       {
         "overline": "Sveobuhvatno vođenje knjiga za mikro, mala i srednja preduzeća",
         "title": "Vaše knjige u pravim rukama",
         "subtitle": "Naš tim osigurava tačnost i usklađenost sa svim propisima, oslobađajući vam vrijeme za razvoj poslovanja.",
-        "cta": "Naše usluge",
-        "href": "/services"
+        "cta": "Zakažite besplatnu konsultaciju",
+        "href": "/contact"
       }
     ],
     "cta": {
-      "primary": "Započnimo saradnju",
+      "primary": "Zakažite besplatnu konsultaciju",
       "secondary": "Naše usluge"
     },
     "trustLine": "Povjerenje preduzeća širom Bosne i Hercegovine"
@@ -84,10 +84,12 @@
         "description": "Kombinovano iskustvo u računovodstvu, poreznom savjetovanju i finansijskom menadžmentu."
       },
       "hours": {
-        "value": 1000,
-        "suffix": "+",
-        "label": "Sati godišnje",
-        "description": "Godišnje posvećeni analizi, savjetovanju i podršci klijentima na svim poljima gdje smo potrebni."
+        "value": 5,
+        "suffix": "★",
+        "label": "Ocjena na Googleu",
+        "description_one": "Prosječna ocjena naših klijenata na Google profilu agencije ({{count}} recenzija).",
+        "description_few": "Prosječna ocjena naših klijenata na Google profilu agencije ({{count}} recenzije).",
+        "description_other": "Prosječna ocjena naših klijenata na Google profilu agencije ({{count}} recenzija)."
       },
       "retention": {
         "value": 95,
@@ -110,8 +112,8 @@
         "description": "Fleksibilne usluge od prvog računa do stabilnog rasta — prilagođene preduzećima, poduzetnicima i udruženjima."
       },
       "licensed": {
-        "title": "Licencirana sigurnost osoblja",
-        "description": "Certificirani računovođe, agencija upisana pri Ministarstvu finansija — usluge usklađene sa zakonom, bez kompromisa."
+        "title": "Certificirano i registrovano",
+        "description": "Certificirani računovođa i agencija upisana u registar Federalnog ministarstva finansija — usluge usklađene sa zakonom, bez kompromisa."
       }
     }
   },
@@ -278,7 +280,10 @@
         "logo": "/clients/bhgradnja-t.webp",
         "darkLogo": "/clients/bhgradnja-dark.webp"
       },
-      { "name": "Caffe Fleki", "logo": "/clients/fleki-t.webp" },
+      {
+        "name": "Caffe Fleki",
+        "logo": "/clients/fleki-t.webp"
+      },
       {
         "name": "Feniks Car Holding",
         "logo": "/clients/feniks-t.webp",
@@ -294,12 +299,18 @@
         "logo": "/clients/hitstart.png",
         "href": "https://www.hitstart.ba"
       },
-      { "name": "Coco", "logo": "/clients/coco.webp" },
+      {
+        "name": "Coco",
+        "logo": "/clients/coco.webp"
+      },
       {
         "name": "Utjeha",
         "logo": "/clients/utjeha.png"
       },
-      { "name": "Vijeće mladih općine Centar", "href": "https://www.vijecemladih.ba/formiranje-vijeca-mladih-opcine-centar-novi-korak-za-aktivizam-mladih/" },
+      {
+        "name": "Vijeće mladih općine Centar",
+        "href": "https://www.vijecemladih.ba/formiranje-vijeca-mladih-opcine-centar-novi-korak-za-aktivizam-mladih/"
+      },
       {
         "name": "Ruka Podrške",
         "logo": "/clients/rukapodrske.png"

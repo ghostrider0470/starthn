@@ -146,28 +146,29 @@
         },
         {
           "image": "/certificates/kpmg-expert.webp",
-          "title": "Forensischer Prüfer",
-          "description": "Bestätigung weiterer Expertise im Bereich der Finanzforensik"
+          "title": "Expert – KPMG Switzerland Innovation Award",
+          "description": "„Expert“-Auszeichnung in der Kategorie Management Consulting des KPMG Switzerland Innovation Award."
         },
         {
           "image": "/certificates/award-consulting.webp",
-          "title": "EU-Fonds – Zugang zu Fördermitteln",
-          "description": "Kenntnis der Antragsverfahren und der Möglichkeiten einer EU-Förderung"
+          "title": "Schulung: EU-Fonds – Zugang zu Fördermitteln",
+          "description": "Schulung zum Antragsverfahren und zu den Möglichkeiten, EU-Fördermittel zu erhalten (AwarD Consulting Trade Inc.)."
         }
-      ]
+      ],
+      "description": "Ein Überblick über unsere Zertifikate und abgeschlossenen Weiterbildungen, jeweils mit einer kurzen Beschreibung."
     },
     "quote": "„Jedes Zertifikat ist der Beweis, dass unsere Arbeit die strengsten fachlichen Prüfungen besteht.“",
     "quoteAuthor": "Buchhaltungsagentur Start HN",
     "licenceLine": "Register des Föderalen Finanzministeriums (FMF) Nr. UP-04-11-2-6-1516/24",
     "verifyLink": "Im Register des SRR FBiH prüfen",
     "highlights": {
-      "certifiedAccountants": "Zertifizierte Buchhalter",
+      "certifiedAccountants": "Zertifizierter Buchhalter",
       "legalCompliance": "Rechtskonformität",
       "continuousEducation": "Kontinuierliche Weiterbildung",
       "ethicalStandards": "Ethische Standards"
     },
     "cta": {
-      "title": "Arbeiten Sie mit einem zertifizierten Team",
+      "title": "Arbeiten Sie mit einem zertifizierten Buchhalter",
       "description": "Unsere Lizenzen und professionellen Zertifikate garantieren, dass Ihre Buchhaltung in sicheren, fachkundigen Händen ist.",
       "button": "Kontaktieren Sie uns"
     }
@@ -250,7 +251,7 @@
     },
     "form": {
       "title": "Senden Sie uns eine Nachricht",
-      "success": "Vielen Dank für Ihre Nachricht. Wir melden uns innerhalb von 24–48 Stunden bei Ihnen.",
+      "success": "Vielen Dank für Ihre Nachricht. Wir melden uns innerhalb eines Werktags bei Ihnen.",
       "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder senden Sie uns direkt eine E-Mail.",
       "fullName": "Vollständiger Name *",
       "email": "E-Mail-Adresse *",
@@ -275,11 +276,13 @@
         "messageMinLength": "Die Nachricht muss mindestens {{count}} Zeichen lang sein."
       },
       "sending": "Wird gesendet...",
-      "submit": "Senden Sie eine Nachricht"
+      "submit": "Senden Sie eine Nachricht",
+      "verifying": "Sicherheitsprüfung läuft…",
+      "verifyingHint": "Die Schaltfläche „Senden Sie eine Nachricht“ wird nach einer kurzen automatischen Sicherheitsprüfung aktiv."
     },
     "reasonsTitle": "Warum sich für Start HN entscheiden?",
     "reasons": [
-      "Zertifizierte Buchhalter mit fundiertem Wissen im Steuerrecht von BiH",
+      "Ein zertifizierter Buchhalter mit fundierten Kenntnissen des Steuerrechts in Bosnien und Herzegowina",
       "Schnelle Reaktion und proaktive Kommunikation",
       "Cloud-Buchhaltung – jederzeit Zugriff auf Bücher",
       "Transparente Preisgestaltung ohne versteckte Kosten"
@@ -293,6 +296,15 @@
       "title": "Haben Sie weitere Fragen?",
       "description": "In unseren FAQ finden Sie schnelle Antworten",
       "cta": "FAQ durchsuchen"
+    },
+    "location": {
+      "overline": "So finden Sie uns",
+      "title": "Buchhaltungsagentur in Ilidža – Ibrahima Ljubovića 47",
+      "body": "Das Büro der Buchhaltungsagentur Start HN befindet sich in der Ibrahima Ljubovića 47, 71210 Ilidža, in der Gemeinde Ilidža im Kanton Sarajevo, Bosnien und Herzegowina. Von hier aus erledigen wir für unsere Kunden Buchhaltung, Lohnabrechnung, Mehrwertsteuer und Steuererklärungen. Wir sind montags bis freitags von 08:00 bis 16:00 Uhr für Sie da; an Feiertagen ist das Büro geschlossen. Vor Ihrem Besuch können Sie uns unter 061 221 368 (aus dem Ausland +387 61 221 368) anrufen oder an klijenti@starthn.ba schreiben – wir antworten innerhalb eines Werktags. Wir arbeiten mit Unternehmen, Einzelunternehmern und Vereinen aus Ilidža, Sarajevo und dem übrigen Kanton Sarajevo sowie mit Kunden in ganz Bosnien und Herzegowina. Unterlagen können Sie persönlich im Büro abgeben, per E-Mail senden oder digital übermitteln, sodass die Zusammenarbeit keine häufigen Besuche erfordert. Vereinbaren Sie für den Einstieg ein kostenloses Erstgespräch; den Weg zum Büro zeigt Ihnen die Schaltfläche „Route planen“."
+    },
+    "reviews": {
+      "title": "Haben Sie mit uns zusammengearbeitet?",
+      "description": "Wenn Sie mit unserer Arbeit zufrieden sind, hinterlassen Sie uns bitte eine Rezension bei Google. Ihre Erfahrung hilft anderen Unternehmern bei der Wahl eines Buchhalters."
     }
   },
   "team": {
@@ -368,12 +380,12 @@
     }
   },
   "careers": {
-    "badge": "Werden Sie Teil unseres Teams",
+    "badge": "Initiativbewerbung",
     "hero": {
       "title": "Wachsen Sie mit uns in",
       "titleHighlight": "Buchhaltung & Finanzen",
-      "description": "Start HN ist eine wachsende Buchhaltungsagentur. Wir suchen engagierte Fachkräfte, die eine sinnvolle Karriere in Buchhaltung, Steuern und Finanzdienstleistungen aufbauen möchten.",
-      "button": "Offene Stellen ansehen"
+      "description": "Start HN ist eine wachsende Buchhaltungsagentur. Wir freuen uns immer über engagierte Fachkräfte, die in Buchhaltung, Steuern und Finanzdienstleistungen Karriere machen möchten – eine Initiativbewerbung können Sie jederzeit senden.",
+      "button": "Profile ansehen"
     },
     "perks": [
       {
@@ -394,12 +406,12 @@
       "description": "Ein einfacher, transparenter Prozess in Bezug auf Ihre Zeit",
       "steps": [
         {
-          "title": "Lebenslauf einreichen",
-          "description": "Senden Sie uns Ihren Lebenslauf und Ihren Motivationsbrief an unsere E-Mail-Adresse."
+          "title": "Initiativbewerbung senden",
+          "description": "Senden Sie uns Ihren Lebenslauf und ein Anschreiben per E-Mail und nennen Sie das Profil, das Sie interessiert."
         },
         {
-          "title": "Einladung zu einem Vorstellungsgespräch",
-          "description": "Wir kontaktieren Kandidaten, die die Bedingungen erfüllen, und laden sie zu einem Vorstellungsgespräch ein."
+          "title": "Einladung zum Vorstellungsgespräch",
+          "description": "Wenn wir das Team vergrößern, kontaktieren wir Kandidatinnen und Kandidaten mit passendem Profil und laden sie zu einem Gespräch ein."
         },
         {
           "title": "Rekrutierung",
@@ -408,11 +420,11 @@
       ]
     },
     "jobs": {
-      "title": "Offene Positionen",
-      "description": "Finden Sie Ihren Platz in unserem Buchhaltungsteam",
-      "apply": "Jetzt bewerben",
-      "noMatch": "Keine passende Stelle dabei?",
-      "sendCv": "Senden Sie uns Ihren Lebenslauf",
+      "title": "Initiativbewerbung",
+      "description": "Profile, von denen wir gern hören – wir nehmen Bewerbungen laufend und ohne Frist entgegen.",
+      "apply": "Bewerbung senden",
+      "noMatch": "Ihr Profil ist nicht dabei?",
+      "sendCv": "Senden Sie uns eine Initiativbewerbung",
       "labels": {
         "responsibilities": "Verantwortlichkeiten",
         "requirements": "Anforderungen",

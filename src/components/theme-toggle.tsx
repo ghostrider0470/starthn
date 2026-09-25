@@ -1,6 +1,4 @@
-import { Moon, Sun, Monitor } from 'lucide-react'
-import { useTranslation } from 'react-i18next'
-import { Button } from '@/components/ui/button'
+import { Monitor, Moon, Sun } from 'lucide-react'
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -8,21 +6,26 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
 import { useTheme } from '@/components/theme-provider'
+import { ThemeToggleButton } from '@/components/theme-toggle-button'
 
-export function ThemeToggle() {
+/**
+ * Theme menu (light / dark / system). `defaultOpen` and `autoFocus` let
+ * DeferredThemeToggle hand over a click or focus that reached its plain
+ * button before this module loaded.
+ */
+export function ThemeToggle({
+  defaultOpen,
+  autoFocus,
+}: {
+  defaultOpen?: boolean
+  autoFocus?: boolean
+} = {}) {
   const { theme, setTheme } = useTheme()
-  const { t } = useTranslation('common')
 
   return (
-    <DropdownMenu>
+    <DropdownMenu defaultOpen={defaultOpen}>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" className="h-9 w-9">
-          <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-          <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-          <span className="sr-only">
-            {t('a11y.toggleTheme', { defaultValue: 'Toggle theme' })}
-          </span>
-        </Button>
+        <ThemeToggleButton autoFocus={autoFocus} />
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         <DropdownMenuItem onClick={() => setTheme('light')}>

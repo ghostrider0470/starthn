@@ -260,6 +260,25 @@
     "accept": "Accepteren",
     "reject": "Weigeren",
     "settings": "Cookie-instellingen",
-    "privacyLink": "Privacybeleid"
+    "privacyLink": "Privacybeleid",
+    "textCompact": "Google Analytics en Microsoft Clarity laden we alleen met uw toestemming."
+  },
+  "contactActions": {
+    "call": "Bellen",
+    "callNumber": "Bel {{phone}}",
+    "callAria": "Bel Start HN op {{phone}}",
+    "directions": "Routebeschrijving",
+    "openInMaps": "Bekijken in Google Maps",
+    "leaveReview": "Schrijf een review",
+    "hoursLabel": "Openingstijden",
+    "addressLabel": "Adres"
+  },
+  "trust": {
+    "ratingLine_one": "{{rating}} ★ op Google ({{count}} review)",
+    "ratingLine_other": "{{rating}} ★ op Google ({{count}} reviews)"
+  },
+  "legalEntity": {
+    "title": "Bedrijfsgegevens",
+    "line": "{{legalName}} · Identificatienr. (JIB) {{jib}} · Registratienr. (MBS) {{mbs}} · Kantoor: {{address}}"
   }
 }

@@ -1,10 +1,152 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
-/* Self-hosted variable fonts (latin + latin-ext subsets via unicode-range). */
-@import '@fontsource-variable/plus-jakarta-sans';
-@import '@fontsource-variable/public-sans';
 
 @custom-variant dark (&:is(.dark *));
+
+/*
+ * Self-hosted variable fonts, latin + latin-ext only. The @fontsource-variable
+ * packages' index.css also declares vietnamese and cyrillic-ext faces (the
+ * latter inlined as base64 into this stylesheet); no locale we serve uses
+ * them, so the faces are declared here by hand. Unicode ranges are
+ * fontsource's. The browser downloads a file only when the page has a
+ * character in its range.
+ *
+ * latin-ext is split in two: č ć đ š ž (and capitals), which every page has,
+ * come from a 3 KB subset of the fontsource file (src/assets/fonts, made with
+ * fonttools pyftsubset --unicodes=U+0106-0107,U+010C-010D,U+0110-0111,
+ * U+0160-0161,U+017D-017E --layout-features='*' --flavor=woff2); the full
+ * ~20 KB latin-ext file keeps the rest of the range and is only fetched by a
+ * page that needs it (e.g. Turkish ş ğ İ).
+ */
+@font-face {
+  font-family: 'Plus Jakarta Sans Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 800;
+  src: url('./assets/fonts/plus-jakarta-sans-bcs-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0106-0107, U+010C-010D, U+0110-0111, U+0160-0161, U+017D-017E;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 800;
+  src: url('../node_modules/@fontsource-variable/plus-jakarta-sans/files/plus-jakarta-sans-latin-ext-wght-normal.woff2')
+    format('woff2-variations');
+  unicode-range:
+    U+0100-0105, U+0108-010B, U+010E-010F, U+0112-015F, U+0162-017C,
+    U+017F-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 800;
+  src: url('../node_modules/@fontsource-variable/plus-jakarta-sans/files/plus-jakarta-sans-latin-wght-normal.woff2')
+    format('woff2-variations');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Public Sans Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('./assets/fonts/public-sans-bcs-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0106-0107, U+010C-010D, U+0110-0111, U+0160-0161, U+017D-017E;
+}
+
+@font-face {
+  font-family: 'Public Sans Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('../node_modules/@fontsource-variable/public-sans/files/public-sans-latin-ext-wght-normal.woff2')
+    format('woff2-variations');
+  unicode-range:
+    U+0100-0105, U+0108-010B, U+010E-010F, U+0112-015F, U+0162-017C,
+    U+017F-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Public Sans Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('../node_modules/@fontsource-variable/public-sans/files/public-sans-latin-wght-normal.woff2')
+    format('woff2-variations');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*
+ * Metric-matched fallbacks. Until the web fonts arrive (font-display: swap)
+ * text renders in a local Arial (Liberation Sans on Linux, Roboto on
+ * Android), scaled so its average advance and its ascent/descent match the
+ * web font. Lines then wrap the same way before and after the swap, so the
+ * swap does not shift the layout (CLS).
+ *
+ * size-adjust = web font / Arial average advance, measured with canvas
+ * measureText in Chrome over the site's bs-BA, hr-HR and en-US copy (mean of
+ * the three). ascent/descent-override = the web font's hhea ascent/descent
+ * (units per em) divided by size-adjust; both web fonts have no line gap.
+ * Plus Jakarta Sans: ascent 1.038, descent 0.222. Public Sans: 0.95, 0.225.
+ * Arial Bold backs weights 600+, so bold headings are matched against it.
+ */
+@font-face {
+  font-family: 'Plus Jakarta Sans Fallback';
+  src: local('Arial'), local('ArialMT'), local('Liberation Sans'),
+    local('LiberationSans'), local('Roboto'), local('Roboto-Regular');
+  font-weight: 100 599;
+  size-adjust: 104.24%;
+  ascent-override: 99.58%;
+  descent-override: 21.3%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans Fallback';
+  src: local('Arial Bold'), local('Arial-BoldMT'), local('Liberation Sans Bold'),
+    local('LiberationSans-Bold'), local('Roboto Bold'), local('Roboto-Bold');
+  font-weight: 600 900;
+  size-adjust: 100.31%;
+  ascent-override: 103.48%;
+  descent-override: 22.13%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: 'Public Sans Fallback';
+  src: local('Arial'), local('ArialMT'), local('Liberation Sans'),
+    local('LiberationSans'), local('Roboto'), local('Roboto-Regular');
+  font-weight: 100 599;
+  size-adjust: 103.65%;
+  ascent-override: 91.65%;
+  descent-override: 21.71%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: 'Public Sans Fallback';
+  src: local('Arial Bold'), local('Arial-BoldMT'), local('Liberation Sans Bold'),
+    local('LiberationSans-Bold'), local('Roboto Bold'), local('Roboto-Bold');
+  font-weight: 600 900;
+  size-adjust: 98.89%;
+  ascent-override: 96.06%;
+  descent-override: 22.75%;
+  line-gap-override: 0%;
+}
 
 html,
 body {
@@ -17,6 +159,7 @@ body {
   font-family:
     'Public Sans Variable',
     'Public Sans',
+    'Public Sans Fallback',
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
@@ -37,6 +180,7 @@ h6,
   font-family:
     'Plus Jakarta Sans Variable',
     'Plus Jakarta Sans',
+    'Plus Jakarta Sans Fallback',
     'Public Sans Variable',
     'Public Sans',
     sans-serif;

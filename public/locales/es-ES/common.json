@@ -260,6 +260,25 @@
     "accept": "Aceptar",
     "reject": "Rechazar",
     "settings": "Configuración de cookies",
-    "privacyLink": "Política de privacidad"
+    "privacyLink": "Política de privacidad",
+    "textCompact": "Solo cargamos Google Analytics y Microsoft Clarity con tu consentimiento."
+  },
+  "contactActions": {
+    "call": "Llamar",
+    "callNumber": "Llamar al {{phone}}",
+    "callAria": "Llamar a Start HN al {{phone}}",
+    "directions": "Cómo llegar",
+    "openInMaps": "Ver en Google Maps",
+    "leaveReview": "Deja una reseña",
+    "hoursLabel": "Horario",
+    "addressLabel": "Dirección"
+  },
+  "trust": {
+    "ratingLine_one": "{{rating}} ★ en Google ({{count}} reseña)",
+    "ratingLine_other": "{{rating}} ★ en Google ({{count}} reseñas)"
+  },
+  "legalEntity": {
+    "title": "Datos de la empresa",
+    "line": "{{legalName}} · N.º de identificación (JIB) {{jib}} · N.º de registro (MBS) {{mbs}} · Oficina: {{address}}"
   }
 }

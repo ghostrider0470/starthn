@@ -10,7 +10,11 @@
     "learnMore": "Lees meer",
     "ctaPrimary": "Een gesprek starten",
     "ctaSecondary": "Bekijk alle diensten",
-    "backToServices": "Terug naar diensten"
+    "backToServices": "Terug naar diensten",
+    "faqOverline": "Veelgestelde vragen",
+    "pricingOverline": "Prijzen",
+    "requestQuote": "Offerte aanvragen",
+    "quoteNote": "We reageren binnen één werkdag."
   },
   "index": {
     "overline": "Start HN-diensten",
@@ -102,7 +106,62 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "Veelgestelde vragen over boekhouding",
+        "items": [
+          {
+            "question": "Wat kost de boekhouding voor een eenmanszaak of een bv (d.o.o.)?",
+            "answer": "Voor nieuw opgerichte eenmanszaken (obrt) beginnen de prijzen bij 150 KM (ongeveer € 77) per maand, en voor nieuw opgerichte besloten vennootschappen (d.o.o.) bij 300 KM (ongeveer € 153) per maand. De uiteindelijke prijs hangt af van de omvang van het bedrijf, de hoeveelheid documenten, het aantal werknemers en de complexiteit van de bedrijfsvoering, zonder verborgen kosten."
+          },
+          {
+            "question": "Hoe leveren we onze documenten aan?",
+            "answer": "Persoonlijk op ons kantoor in Ilidža, per e-mail of digitaal – afhankelijk van de werkwijze die we aan het begin afspreken. Daarna boeken we de transacties en controleren we de administratie vóór de deadlines."
+          },
+          {
+            "question": "Kunnen we van een andere boekhouder naar u overstappen?",
+            "answer": "Ja. We bekijken uw inschrijving, de bestaande administratie, de openingsbalans, de loongegevens en de aangiftekalender, maken afspraken over de overdracht van documenten en regelen binnen enkele dagen alles volledig. Voor bedrijven en eenmanszaken die van kantoor wisselen, bepalen we de prijs na een korte analyse van het bedrijf."
+          },
+          {
+            "question": "Welke boekhoudsoftware gebruikt u?",
+            "answer": "We werken voornamelijk met Pantheon en hebben ook ervaring met e-line, Microsoft Dynamics NAV en InfoSoft. Als uw bedrijf al een programma gebruikt en een actief contract met de leverancier heeft, kunnen we in uw systeem werken."
+          },
+          {
+            "question": "Zit ik vast aan een langlopend contract?",
+            "answer": "Nee. Er is geen langdurige verplichting – we werken er elke maand aan om uw vertrouwen te verdienen."
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Wat de boekhouding kost",
+        "intro": "De prijs hangt af van de omvang en complexiteit van uw bedrijf, zonder verborgen kosten. Startprijzen voor nieuw opgerichte bedrijven:",
+        "plans": [
+          {
+            "name": "Eenmanszaak (obrt)",
+            "price": "vanaf 150 KM",
+            "period": "per maand",
+            "note": "Ongeveer € 77 · nieuw opgerichte eenmanszaken"
+          },
+          {
+            "name": "Bv (d.o.o.)",
+            "price": "vanaf 300 KM",
+            "period": "per maand",
+            "note": "Ongeveer € 153 · nieuw opgerichte vennootschappen"
+          }
+        ],
+        "driversTitle": "Waar de prijs van afhangt",
+        "drivers": [
+          "Omvang van het bedrijf",
+          "Hoeveelheid documenten",
+          "Aantal werknemers",
+          "Complexiteit van de bedrijfsvoering"
+        ],
+        "note": "Voor bestaande bedrijven en eenmanszaken die overstappen van een ander boekhoudkantoor, bepalen we de prijs individueel na een korte analyse van het bedrijf en zijn behoeften."
+      },
+      "payroll": {
+        "title": "Loonadministratie en premies",
+        "body": "Voor bedrijven met personeel berekenen we de lonen en de bijbehorende premies en bereiden we de wettelijke aangiften voor als onderdeel van de maandelijkse boekhouding, ruim vóór de deadlines. Wanneer we uw boekhouding overnemen, controleren we uw loongegevens zodat de berekeningen vanaf de eerste maand kloppen. Het aantal werknemers is een van de factoren die de prijs bepalen."
+      }
     },
     "taxConsulting": {
       "label": "02",
@@ -172,7 +231,32 @@
       ],
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
-      ]
+      ],
+      "faq": {
+        "title": "Veelgestelde vragen over fiscaal advies",
+        "items": [
+          {
+            "question": "Welke belastingaangiften verzorgt u?",
+            "answer": "We stellen btw-aangiften, aangiften vennootschapsbelasting en inkomstenbelasting en andere wettelijke aangiften op en dienen ze in volgens de regelgeving van BiH en de FBiH."
+          },
+          {
+            "question": "Hoe horen we over wijzigingen in de belastingregels?",
+            "answer": "Van ons. We volgen wijzigingen in de regelgeving en laten het u weten zodra een wijziging gevolgen heeft voor uw bedrijf, zodat u nooit voor verrassingen komt te staan."
+          },
+          {
+            "question": "Adviseert u ook particulieren?",
+            "answer": "Ja. We geven fiscaal advies aan bedrijven, eenmanszaken en particulieren die belastingaangifte moeten doen."
+          },
+          {
+            "question": "Waarom is fiscaal advies gekoppeld aan de boekhouding?",
+            "answer": "Omdat belastingaangiften gebaseerd zijn op uw administratie. Als de boeken juist en actueel zijn, kloppen de aangiften ook, en ons advies is gebaseerd op echte cijfers."
+          },
+          {
+            "question": "Wat als een eerdere aangifte een fout bevat?",
+            "answer": "We controleren eerdere aangiften en helpen fouten te corrigeren voordat ze tot boetes of late correcties leiden."
+          }
+        ]
+      }
     },
     "virtualCfo": {
       "label": "03",
@@ -240,7 +324,28 @@
         "financialReporting",
         "businessConsulting"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "Veelgestelde vragen over de virtuele CFO",
+        "items": [
+          {
+            "question": "Wat houdt de dienst virtuele CFO in?",
+            "answer": "Kasstroomprognoses, budgetplanning, financiële analyse, managementrapportages en strategisch advies, met deelname aan overleggen wanneer dat nodig is."
+          },
+          {
+            "question": "Voor wie is een virtuele CFO bedoeld?",
+            "answer": "Voor groeiende bedrijven die financiële sturing nodig hebben maar nog niet klaar zijn voor een fulltime financieel directeur, en voor eigenaren die financierings- of investeringsbeslissingen voorbereiden."
+          },
+          {
+            "question": "Hoe ziet de samenwerking eruit?",
+            "answer": "We beginnen met het doornemen van uw bestaande rapportages en het vaststellen van de vragen waarop het management antwoord nodig heeft. Daarna stellen we budgetten, prognoses en scenario's op met realistische aannames, en lichten we regelmatig resultaten, risico's en vervolgstappen toe."
+          },
+          {
+            "question": "Waarom helpt het als u ook onze boekhouding doet?",
+            "answer": "Omdat de analyse dan gebaseerd is op actuele cijfers uit uw eigen administratie, waardoor prognoses en rapportages betrouwbaarder worden."
+          }
+        ]
+      }
     },
     "businessConsulting": {
       "label": "04",
@@ -311,7 +416,28 @@
       "relatedPosts": [
         "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance",
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "Veelgestelde vragen over bedrijfsadvies",
+        "items": [
+          {
+            "question": "Waarmee kan bedrijfsadvies ons helpen?",
+            "answer": "Met de organisatie van uw bedrijf en documentstroom, kostenbeheersing, prijsstelling, het innen van vorderingen en groeiplanning – allemaal op basis van de cijfers uit uw eigen administratie."
+          },
+          {
+            "question": "Werkt u met nieuwe bedrijven en start-ups?",
+            "answer": "Ja. We ondersteunen start-ups en nieuwe bedrijven vanaf hun eerste werkdag, en onze gids over het starten van een bedrijf in Bosnië en Herzegovina legt uit hoe u kiest tussen een eenmanszaak (obrt) en een bv (d.o.o.)."
+          },
+          {
+            "question": "Hoe verloopt een adviestraject?",
+            "answer": "Eerst brengen we uw huidige processen, documenten en financiële vragen in kaart. Daarna kiezen we de veranderingen die de meeste waarde opleveren en leggen we concrete stappen, verantwoordelijkheden en opvolging vast."
+          },
+          {
+            "question": "Houden uw aanbevelingen rekening met wettelijke verplichtingen?",
+            "answer": "Ja. Ons advies is gekoppeld aan boekhouding en belastingen, dus onze aanbevelingen houden ook rekening met uw wettelijke verplichtingen in de FBiH."
+          }
+        ]
+      }
     },
     "financialReporting": {
       "label": "05",
@@ -379,7 +505,28 @@
         "bookkeeping",
         "virtualCfo"
       ],
-      "relatedPosts": []
+      "relatedPosts": [],
+      "faq": {
+        "title": "Veelgestelde vragen over financiële verslaggeving",
+        "items": [
+          {
+            "question": "Welke rapportages stelt u op?",
+            "answer": "Jaarafsluitingen en wettelijke jaarrekeningen, maandelijkse of driemaandelijkse managementoverzichten en rapportagepakketten voor banken en zakenpartners."
+          },
+          {
+            "question": "Moet een bedrijf een jaarrekening opstellen?",
+            "answer": "Ja. Bedrijven in de FBiH zijn wettelijk verplicht een jaarrekening op te stellen, en wij stellen die op basis van een goed bijgehouden administratie op."
+          },
+          {
+            "question": "Kunt u rapportages voor een bank of zakenpartners opstellen?",
+            "answer": "Ja. We stellen rapportagepakketten op voor banken, partners en investeerders, op basis van een nette boekhouding en onderliggende bewijsstukken."
+          },
+          {
+            "question": "Legt u ons de cijfers uit?",
+            "answer": "Ja. We lichten resultaten, verplichtingen en trends toe in begrijpelijke taal, met kengetallen, vergelijkingen en toelichtingen die beslissingen ondersteunen."
+          }
+        ]
+      }
     },
     "education": {
       "label": "06",
@@ -449,7 +596,28 @@
       ],
       "relatedPosts": [
         "importance-of-entrepreneurship-programs"
-      ]
+      ],
+      "faq": {
+        "title": "Veelgestelde vragen over trainingen",
+        "items": [
+          {
+            "question": "Voor wie zijn de trainingen bedoeld?",
+            "answer": "Voor eigenaren, managers en administratief personeel van bedrijven en eenmanszaken, vooral als zij een deel van de administratie of boekhouding zelf doen."
+          },
+          {
+            "question": "Welke onderwerpen behandelt u?",
+            "answer": "De basis van boekhouden, het voorbereiden van documenten, belastingdeadlines, de basis van loonadministratie, werken met boekhoudsoftware en het lezen van jaarrekeningen."
+          },
+          {
+            "question": "Biedt u individuele consulten voor eenmanszaken aan?",
+            "answer": "Ja. Ondernemers met een eenmanszaak die hun eigen boekhouding doen, kunnen individuele consulten en praktische uitleg krijgen over hun wettelijke verplichtingen en administratie."
+          },
+          {
+            "question": "Kan de training worden afgestemd op ons team?",
+            "answer": "Ja. We stemmen de inhoud af op hoe uw team echt werkt, met voorbeelden uit de dagelijkse praktijk, en geven het team checklists en routines mee om toe te passen."
+          }
+        ]
+      }
     }
   }
 }

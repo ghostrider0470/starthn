@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest'
-import { img, imgSrcSet } from './image'
+import {
+  BLOG_HERO_IMAGE_SIZES,
+  WHY_START_HN_IMAGE_SIZES,
+  img,
+  imgSrcSet,
+} from './image'
 
 describe('img() with /img/ proxy URLs', () => {
   it('adds the requested width to an /img/ URL', () => {
@@ -54,5 +59,46 @@ describe('img() with container-relative paths', () => {
   it('returns empty string for empty input and unknown formats as-is', () => {
     expect(img(null)).toBe('')
     expect(img('/hero/slide-1.webp', { width: 400 })).toBe('/hero/slide-1.webp')
+  })
+})
+
+describe('responsive image `sizes`', () => {
+  // The slot width a `sizes` list resolves to for a viewport, evaluating the
+  // subset of media conditions and lengths the constants use.
+  function slotWidth(sizes: string, vw: number, vh: number): number {
+    for (const entry of sizes.split(/,\s*(?![^(]*\))/)) {
+      const match = /^\((min|max)-(width|height):\s*(\d+)px\)\s+(.+)$/.exec(entry)
+      const length = match ? match[4] : entry
+      if (match) {
+        const value = match[2] === 'width' ? vw : vh
+        const limit = Number(match[3])
+        if (match[1] === 'min' ? value < limit : value > limit) continue
+      }
+      const expr = length
+        .replace(/^calc\((.+)\)$/, '$1')
+        .replace(/([\d.]+)vw/g, (_, n) => String((Number(n) * vw) / 100))
+        .replace(/([\d.]+)vh/g, (_, n) => String((Number(n) * vh) / 100))
+        .replace(/([\d.]+)rem/g, (_, n) => String(Number(n) * 16))
+        .replace(/px/g, '')
+      return Function(`return (${expr})`)() as number
+    }
+    throw new Error('no match')
+  }
+
+  it('sizes the blog hero to the 1024px post column', () => {
+    expect(slotWidth(BLOG_HERO_IMAGE_SIZES, 1350, 940)).toBe(1024)
+    expect(slotWidth(BLOG_HERO_IMAGE_SIZES, 1050, 800)).toBe(986)
+    expect(slotWidth(BLOG_HERO_IMAGE_SIZES, 768, 1024)).toBe(720)
+    expect(slotWidth(BLOG_HERO_IMAGE_SIZES, 412, 823)).toBe(380)
+  })
+
+  it('sizes the "Why Start HN" photo to its rendered box', () => {
+    // Lighthouse mobile (412x823 @1.75x) → 342px → the 600w file.
+    expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 412, 823)).toBeCloseTo(342.4, 0)
+    expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 412, 823) * 1.75).toBeLessThanOrEqual(600)
+    expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 360, 640)).toBe(288)
+    expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 820, 1180)).toBe(400)
+    expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 1024, 768)).toBeCloseTo(376.7, 0)
+    expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 1440, 900)).toBe(484)
   })
 })

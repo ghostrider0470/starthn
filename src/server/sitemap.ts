@@ -34,6 +34,16 @@ export const STATIC_PATHS: ReadonlyArray<string> = [
   '/terms',
 ]
 
+/**
+ * The date (YYYY-MM-DD) of the last deploy that changed the copy of the static
+ * pages (STATIC_PATHS): their locale JSON, page components or structured
+ * data. It is a real content date, used as the static URLs' <lastmod> and as
+ * the floor of every child sitemap's date in the index. Bump it by hand in the
+ * PR that changes page content; never set it from the clock (a lastmod that is
+ * always "today" teaches Google to ignore the field for the whole site).
+ */
+export const STATIC_CONTENT_LASTMOD = '2026-09-25'
+
 /** A blog_posts row LEFT JOINed with its translation row for one locale. */
 export interface SitemapPostRow {
   slug: string
@@ -101,19 +111,42 @@ function escapeXml(value: string): string {
 //
 // <lastmod> is only written when it is a real content date. A lastmod that is
 // always "today" teaches Google to ignore the field for the whole site.
-export function urlEntry(localizedPath: string, lastmod?: string): string {
-  const lastmodTag = lastmod ? `\n    <lastmod>${lastmod}</lastmod>` : ''
-  return `  <url>\n    <loc>${BASE}${escapeXml(localizedPath)}</loc>${lastmodTag}\n  </url>`
+function lastmodTag(lastmod: string | undefined): string {
+  return lastmod ? `\n    <lastmod>${lastmod}</lastmod>` : ''
 }
 
-export function localeSitemap(locale: string, posts: ReadonlyArray<SitemapPost>): string {
+export function urlEntry(localizedPath: string, lastmod?: string): string {
+  return `  <url>\n    <loc>${BASE}${escapeXml(localizedPath)}</loc>${lastmodTag(lastmod)}\n  </url>`
+}
+
+/**
+ * The newest <lastmod> in a locale sitemap built from `posts`: the static
+ * pages' content date or the newest post date, whichever is later.
+ */
+export function localeSitemapLastmod(
+  posts: ReadonlyArray<SitemapPost>,
+  staticLastmod: string = STATIC_CONTENT_LASTMOD,
+): string | undefined {
+  return latestDate(staticLastmod, ...posts.map((post) => post.lastmod))
+}
+
+export function localeSitemap(
+  locale: string,
+  posts: ReadonlyArray<SitemapPost>,
+  staticLastmod: string = STATIC_CONTENT_LASTMOD,
+): string {
   const newestPost = latestDate(...posts.map((post) => post.lastmod))
   // A page without its own text in this locale (e.g. /hr-HR/privacy) is
   // noindex, so it is left out (see PAGE_CONTENT_LOCALES in @/lib/seo).
+  // Static pages carry the static content date; /blog lists the posts, so it
+  // also moves with the newest one.
   const staticEntries = STATIC_PATHS.filter((path) =>
     isIndexableLocaleForPage(path || '/', locale),
   ).map((path) =>
-    urlEntry(`/${locale}${path}`, path === '/blog' ? newestPost : undefined),
+    urlEntry(
+      `/${locale}${path}`,
+      path === '/blog' ? latestDate(staticLastmod, newestPost) : staticLastmod,
+    ),
   )
   const blogEntries = posts.map(({ slug, lastmod }) =>
     urlEntry(`/${locale}/blog/${slug}`, lastmod),
@@ -125,9 +158,17 @@ ${entries}
 </urlset>`
 }
 
-export function sitemapIndex(): string {
+/**
+ * The sitemap index. `lastmods` maps a locale to the newest <lastmod> of its
+ * child sitemap (localeSitemapLastmod); a locale without one gets no
+ * <lastmod>, rather than an invented date.
+ */
+export function sitemapIndex(
+  lastmods: Readonly<Record<string, string | undefined>> = {},
+): string {
   const entries = SITEMAP_LOCALES.map(
-    (loc) => `  <sitemap>\n    <loc>${BASE}/sitemap-${loc}.xml</loc>\n  </sitemap>`,
+    (loc) =>
+      `  <sitemap>\n    <loc>${BASE}/sitemap-${loc}.xml</loc>${lastmodTag(lastmods[loc])}\n  </sitemap>`,
   ).join('\n')
   return `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -175,11 +216,38 @@ export function goneSitemapResponse(): Response {
   })
 }
 
+/**
+ * Newest <lastmod> of every child sitemap. Without D1 (or when the read
+ * fails) each child still has its static pages, so it gets their date.
+ */
+async function childSitemapLastmods(
+  db: D1Database | undefined,
+): Promise<Record<string, string | undefined>> {
+  const staticOnly = () =>
+    Object.fromEntries(
+      SITEMAP_LOCALES.map((locale) => [locale, localeSitemapLastmod([])]),
+    )
+  if (!db) return staticOnly()
+  try {
+    const entries = await Promise.all(
+      SITEMAP_LOCALES.map(async (locale) => {
+        const posts = await getPublishedSlugs(db, locale)
+        return [locale, localeSitemapLastmod(posts)] as const
+      }),
+    )
+    return Object.fromEntries(entries)
+  } catch (error) {
+    console.error('[sitemap] lastmod lookup failed:', error)
+    return staticOnly()
+  }
+}
+
 export async function handleSitemap(request: Request, env: { DB?: D1Database }): Promise<Response | null> {
   const { pathname } = new URL(request.url)
 
   if (pathname === '/sitemap.xml') {
-    return new Response(sitemapIndex(), { headers: XML_HEADERS })
+    const lastmods = await childSitemapLastmods(env.DB)
+    return new Response(sitemapIndex(lastmods), { headers: XML_HEADERS })
   }
 
   const match = pathname.match(/^\/sitemap-([^/]+)\.xml$/)

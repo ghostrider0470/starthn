@@ -146,28 +146,29 @@
         },
         {
           "image": "/certificates/kpmg-expert.webp",
-          "title": "Adli Denetçi",
-          "description": "Adli muhasebe alanındaki ek uzmanlığın teyidi"
+          "title": "Expert – KPMG Switzerland Innovation Award",
+          "description": "KPMG Switzerland Innovation Award'ın Management Consulting kategorisinde “Expert” rozeti."
         },
         {
           "image": "/certificates/award-consulting.webp",
-          "title": "AB Fonları – Hibe Nasıl Alınır",
-          "description": "Başvuru süreci ve AB fonlarının çekilme olasılıkları hakkında bilgi."
+          "title": "Eğitim: AB fonları – hibelere nasıl erişilir",
+          "description": "Başvuru süreci ve AB finansmanına erişim olanakları üzerine eğitim (AwarD Consulting Trade Inc.)."
         }
-      ]
+      ],
+      "description": "Sertifikalarımızın ve tamamladığımız eğitimlerin, her birine dair kısa bir açıklamayla genel görünümü."
     },
     "quote": "“Her sertifika, çalışmalarımızın en sıkı mesleki denetimlerden geçtiğinin kanıtıdır.”",
     "quoteAuthor": "Start HN muhasebe ajansı",
     "licenceLine": "Federal Maliye Bakanlığı (FMF) sicil no. UP-04-11-2-6-1516/24",
     "verifyLink": "SRR FBiH sicilinden doğrulayın",
     "highlights": {
-      "certifiedAccountants": "Sertifikalı muhasebeciler",
+      "certifiedAccountants": "Sertifikalı muhasebeci",
       "legalCompliance": "Yasal uyumluluk",
       "continuousEducation": "Sürekli eğitim",
       "ethicalStandards": "Etik standartlar"
     },
     "cta": {
-      "title": "Sertifikalı bir ekiple çalışın",
+      "title": "Sertifikalı bir muhasebeciyle çalışın",
       "description": "Lisanslarımız ve profesyonel sertifikalarımız, muhasebenizin güvende ve uzman ellerde olduğunu garanti eder.",
       "button": "Bizimle İletişime Geçin"
     }
@@ -250,7 +251,7 @@
     },
     "form": {
       "title": "Bize mesaj gönderin",
-      "success": "Mesajınız için teşekkürler. 24-48 saat içinde size geri döneceğiz.",
+      "success": "Mesajınız için teşekkür ederiz. Bir iş günü içinde size dönüş yapacağız.",
       "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin veya doğrudan bize e-posta gönderin.",
       "fullName": "Ad soyad *",
       "email": "E-posta adresi *",
@@ -275,11 +276,13 @@
         "messageMinLength": "Mesaj en az {{count}} karakter uzunluğunda olmalı."
       },
       "sending": "Gönderiliyor...",
-      "submit": "Mesaj gönder"
+      "submit": "Mesaj gönder",
+      "verifying": "Güvenlik kontrolü yapılıyor…",
+      "verifyingHint": "“Mesaj gönder” düğmesi, kısa bir otomatik güvenlik kontrolünden sonra etkin hale gelir."
     },
     "reasonsTitle": "Neden Start HN'yi seçmelisiniz?",
     "reasons": [
-      "BH vergi mevzuatına hâkim sertifikalı muhasebeciler",
+      "Bosna-Hersek vergi mevzuatını derinlemesine bilen sertifikalı bir muhasebeci",
       "Hızlı yanıt ve proaktif iletişim",
       "Bulut tabanlı muhasebe — defterlerinize istediğiniz zaman erişin",
       "Gizli maliyet olmadan şeffaf fiyatlandırma"
@@ -293,6 +296,15 @@
       "title": "Başka sorunuz var mı?",
       "description": "Hızlı cevaplar için SSS bölümüne göz atın",
       "cta": "Sıkça Sorulan Sorulara Göz Atın"
+    },
+    "location": {
+      "overline": "Bize ulaşım",
+      "title": "Ilidža'da muhasebe ajansı – Ibrahima Ljubovića 47",
+      "body": "Start HN muhasebe ajansının ofisi Ibrahima Ljubovića 47, 71210 Ilidža adresinde, Bosna-Hersek'in Saraybosna Kantonu'na bağlı Ilidža belediyesinde yer alır. Bu ofisten müşterilerimizin defter tutma, bordro, KDV ve vergi beyannamesi işlerini yürütüyoruz. Pazartesiden cumaya 08:00–16:00 saatleri arasında açığız; resmi tatillerde kapalıyız. Gelmeden önce bizi 061 221 368 numarasından (yurt dışından +387 61 221 368) arayabilir ya da klijenti@starthn.ba adresine yazabilirsiniz – bir iş günü içinde yanıt veriyoruz. Ilidža, Saraybosna ve Saraybosna Kantonu'nun geri kalanındaki şirketler, şahıs işletmeleri ve derneklerle, ayrıca Bosna-Hersek'in her yerindeki müşterilerle çalışıyoruz. Belgelerinizi ofise bizzat getirebilir, e-postayla gönderebilir veya dijital olarak iletebilirsiniz; bu nedenle bizimle çalışmak sık ziyaret gerektirmez. Başlamak için ücretsiz bir ön görüşme planlayın; ofise giden rota için “Yol tarifi al” düğmesini kullanın."
+    },
+    "reviews": {
+      "title": "Bizimle çalıştınız mı?",
+      "description": "Çalışmamızdan memnun kaldıysanız lütfen Google'da bize bir yorum bırakın. Deneyiminiz, diğer işletme sahiplerinin muhasebeci seçmesine yardımcı olur."
     }
   },
   "team": {
@@ -368,12 +380,12 @@
     }
   },
   "careers": {
-    "badge": "Ekibimize Katılın",
+    "badge": "Genel başvuru",
     "hero": {
       "title": "Bizimle birlikte büyü",
       "titleHighlight": "Muhasebe ve Finans",
-      "description": "Start HN, büyüyen bir muhasebe ajansıdır. Muhasebe, vergi ve finansal hizmetler alanında anlamlı bir kariyer inşa etmek isteyen özverili profesyoneller arıyoruz.",
-      "button": "Açık pozisyonları görün"
+      "description": "Start HN büyüyen bir muhasebe ajansıdır. Muhasebe, vergi ve finansal hizmetlerde kariyer yapmak isteyen özverili profesyonellerden haber almaktan her zaman memnuniyet duyarız – genel başvurunuzu istediğiniz zaman gönderebilirsiniz.",
+      "button": "Profilleri görüntüle"
     },
     "perks": [
       {
@@ -394,12 +406,12 @@
       "description": "Zamanınıza saygı gösteren basit ve şeffaf bir süreç",
       "steps": [
         {
-          "title": "CV gönder",
-          "description": "CV'nizi ve motivasyon mektubunuzu e-posta adresimize gönderin."
+          "title": "Genel başvuru gönderin",
+          "description": "Özgeçmişinizi ve ön yazınızı bize e-postayla gönderin ve hangi profille ilgilendiğinizi belirtin."
         },
         {
-          "title": "Mülakata davet",
-          "description": "Şartları karşılayan adaylarla iletişime geçer ve onları mülakata davet ederiz."
+          "title": "Mülakat daveti",
+          "description": "Ekibi büyütmemiz gerektiğinde, profili uygun adaylarla iletişime geçer ve onları mülakata davet ederiz."
         },
         {
           "title": "Alım",
@@ -408,11 +420,11 @@
       ]
     },
     "jobs": {
-      "title": "Açık pozisyonlar",
-      "description": "Muhasebe ekibimizde yerinizi bulun",
-      "apply": "Hemen başvurun",
-      "noMatch": "Doğru pozisyonu göremiyor musun?",
-      "sendCv": "CV'nizi bize gönderin",
+      "title": "Genel başvuru",
+      "description": "Haber almaktan memnuniyet duyacağımız profiller – başvuruları son tarih olmaksızın sürekli kabul ediyoruz.",
+      "apply": "Başvuru gönder",
+      "noMatch": "Profilinizi göremiyor musunuz?",
+      "sendCv": "Bize genel başvuru gönderin",
       "labels": {
         "responsibilities": "Sorumluluklar",
         "requirements": "Gereksinimler",

@@ -12,9 +12,9 @@
     },
     "welcome": {
       "tagline": "Every day we prove that expertise and clear financial reporting build a solid foundation for new business opportunities.",
-      "para1": "Start HN accounting agency from Sarajevo supports associations, sole traders, and micro, small, and medium-sized businesses. Our work is grounded in timeliness, expertise, and trust — we ensure all legal obligations are fulfilled on time.",
+      "para1": "The Start HN accounting agency in Sarajevo supports associations, sole traders, and micro, small and medium-sized businesses. Our work is grounded in timeliness, expertise and trust – we make sure every legal obligation is met on time.",
       "para2": "From the very beginning our goal was clear: combine accounting precision with process digitalisation. We believe accounting is not just a record of the past — it is a tool for making timely business decisions. That is why we offer digital solutions that give clients continuous access to their data, alongside a traditional approach for those who prefer physical or email delivery.",
-      "para3": "Alongside regular bookkeeping, we provide added value through our Virtual CFO service — strategic financial advisory and in-depth business analysis. We also have a special place for startups, offering benefits and full support from day one."
+      "para3": "Alongside regular bookkeeping, we add value through our Virtual CFO service – strategic financial advice and in-depth business analysis. Startups hold a special place for us: we offer them benefits and full support from day one."
     },
     "whyUs": {
       "title": "Why Start HN?",
@@ -28,12 +28,36 @@
       ]
     },
     "features": [
-      { "icon": "award", "title": "Experience & Expertise", "description": "Our team brings more than 15 years of hands-on practice and certified accounting qualifications." },
-      { "icon": "barChart3", "title": "Detailed Analysis", "description": "Tailored reports and budgets help you make informed business decisions." },
-      { "icon": "settings2", "title": "Tailored Solutions", "description": "We automate routine tasks using cloud technology and modern platforms." },
-      { "icon": "userCheck", "title": "Individual Approach", "description": "We treat each client with dedicated attention, ensuring the highest level of service." },
-      { "icon": "trendingUp", "title": "Proactive Advisory", "description": "We regularly identify savings opportunities and optimisations before they become problems." },
-      { "icon": "shieldCheck", "title": "Honesty & Integrity", "description": "Our communication is always open and honest, with strict adherence to professional and ethical standards." }
+      {
+        "icon": "award",
+        "title": "Experience & Expertise",
+        "description": "Our team brings more than 15 years of hands-on practice and certified accounting qualifications."
+      },
+      {
+        "icon": "barChart3",
+        "title": "Detailed Analysis",
+        "description": "Tailored reports and budgets help you make informed business decisions."
+      },
+      {
+        "icon": "settings2",
+        "title": "Tailored Solutions",
+        "description": "We automate routine tasks using cloud technology and modern platforms."
+      },
+      {
+        "icon": "userCheck",
+        "title": "Individual Approach",
+        "description": "We treat each client with dedicated attention, ensuring the highest level of service."
+      },
+      {
+        "icon": "trendingUp",
+        "title": "Proactive Advisory",
+        "description": "We regularly identify savings opportunities and optimisations before they become problems."
+      },
+      {
+        "icon": "shieldCheck",
+        "title": "Honesty & Integrity",
+        "description": "Our communication is always open and honest, with strict adherence to professional and ethical standards."
+      }
     ],
     "cta": {
       "title": "Let's Work Together",
@@ -60,7 +84,7 @@
     },
     "vision": {
       "label": "Our Vision",
-      "heading": "First choice for SMEs and startups in BiH.",
+      "heading": "The first choice for small businesses and startups in Bosnia and Herzegovina.",
       "body": "To be the first choice for small and medium-sized businesses and startups in Bosnia and Herzegovina, through the digitalisation of accounting and the development of systems that simplify work and accelerate business decisions."
     },
     "values": {
@@ -122,28 +146,29 @@
         },
         {
           "image": "/certificates/kpmg-expert.webp",
-          "title": "Forensic Auditor",
-          "description": "Confirmation of additional expertise in financial forensics"
+          "title": "Expert – KPMG Switzerland Innovation Award",
+          "description": "“Expert” badge in the Management Consulting category of the KPMG Switzerland Innovation Award."
         },
         {
           "image": "/certificates/award-consulting.webp",
-          "title": "EU Funds – Access to Grants",
-          "description": "Knowledge of application processes and opportunities for EU funding"
+          "title": "Training: EU funds – how to access grants",
+          "description": "Training on the application process and on opportunities to access EU funding (AwarD Consulting Trade Inc.)."
         }
-      ]
+      ],
+      "description": "An overview of our certificates and completed training, with a short description of each."
     },
     "quote": "“Every certificate is proof that our work passes the strictest professional checks.”",
     "quoteAuthor": "Start HN Accounting Agency",
     "licenceLine": "Federal Ministry of Finance (FMF) register no. UP-04-11-2-6-1516/24",
     "verifyLink": "Verify in the SRR FBiH register",
     "highlights": {
-      "certifiedAccountants": "Certified Accountants",
+      "certifiedAccountants": "Certified Accountant",
       "legalCompliance": "Legal Compliance",
       "continuousEducation": "Continuous Education",
       "ethicalStandards": "Ethical Standards"
     },
     "cta": {
-      "title": "Work With a Certified Team",
+      "title": "Work With a Certified Accountant",
       "description": "Our licences and professional certifications are your assurance that your accounting is in safe, qualified hands.",
       "button": "Contact Us"
     }
@@ -226,7 +251,7 @@
     },
     "form": {
       "title": "Send Us a Message",
-      "success": "Thank you for your message. We'll get back to you within 24-48 hours.",
+      "success": "Thank you for your message. We'll get back to you within one business day.",
       "error": "Something went wrong. Please try again or email us directly.",
       "fullName": "Full Name *",
       "email": "Email Address *",
@@ -251,11 +276,13 @@
         "messageMinLength": "Message must be at least {{count}} characters long."
       },
       "sending": "Sending...",
-      "submit": "Send Message"
+      "submit": "Send Message",
+      "verifying": "Running a security check…",
+      "verifyingHint": "The Send Message button becomes active after a short automatic security check."
     },
     "reasonsTitle": "Why Choose Start HN?",
     "reasons": [
-      "Certified accountants with deep BiH tax law knowledge",
+      "A certified accountant with in-depth knowledge of tax law in Bosnia and Herzegovina",
       "Fast response times and proactive communication",
       "Cloud-based accounting — access your books anytime",
       "Transparent pricing with no hidden fees"
@@ -269,6 +296,15 @@
       "title": "Have More Questions?",
       "description": "Check out our FAQ section for quick answers",
       "cta": "Browse FAQs"
+    },
+    "location": {
+      "overline": "Finding us",
+      "title": "Accounting agency in Ilidža – Ibrahima Ljubovića 47",
+      "body": "The Start HN accounting office is at Ibrahima Ljubovića 47, 71210 Ilidža, in the municipality of Ilidža, Sarajevo Canton, Bosnia and Herzegovina. From this office we handle bookkeeping, payroll, VAT and tax returns for our clients. We are open Monday to Friday from 08:00 to 16:00 and closed on public holidays. Before you visit, you can call us on 061 221 368 (+387 61 221 368 from abroad) or email klijenti@starthn.ba – we reply within one business day. We work with companies, sole traders and associations from Ilidža, Sarajevo and the rest of Sarajevo Canton, as well as with clients across Bosnia and Herzegovina. You can bring documents to the office in person, send them by email or deliver them digitally, so working with us does not require frequent visits. To get started, book a free initial consultation; for a route to the office, use the “Get directions” button."
+    },
+    "reviews": {
+      "title": "Worked with us?",
+      "description": "If you're happy with our work, please leave us a review on Google. Your experience helps other business owners choose an accountant."
     }
   },
   "team": {
@@ -344,29 +380,38 @@
     }
   },
   "careers": {
-    "badge": "Join Our Team",
+    "badge": "Open application",
     "hero": {
       "title": "Grow With Us in",
       "titleHighlight": "Accounting & Finance",
-      "description": "Start HN is a growing accounting agency. We're looking for dedicated professionals who want to build a meaningful career in accounting, tax, and financial services.",
-      "button": "See Open Positions"
+      "description": "Start HN is a growing accounting agency. We're always glad to hear from dedicated professionals who want to build a career in accounting, tax and financial services – you can send an open application at any time.",
+      "button": "View the profiles"
     },
     "perks": [
-      { "title": "Stable Employment", "description": "Long-term career in a growing accounting agency" },
-      { "title": "Professional Growth", "description": "Training, mentorship, and certification support" },
-      { "title": "Collaborative Team", "description": "Supportive environment where you will be heard" }
+      {
+        "title": "Stable Employment",
+        "description": "Long-term career in a growing accounting agency"
+      },
+      {
+        "title": "Professional Growth",
+        "description": "Training, mentorship, and certification support"
+      },
+      {
+        "title": "Collaborative Team",
+        "description": "Supportive environment where you will be heard"
+      }
     ],
     "process": {
       "title": "How We Hire",
       "description": "A simple, transparent process with respect for your time",
       "steps": [
         {
-          "title": "Send Your CV",
-          "description": "Send us your CV and cover letter to our email address."
+          "title": "Send an open application",
+          "description": "Email us your CV and a cover letter, and tell us which profile interests you."
         },
         {
-          "title": "Interview Invitation",
-          "description": "We contact candidates who meet the requirements and invite them for an interview."
+          "title": "Interview invitation",
+          "description": "When we need to grow the team, we contact candidates whose profile fits and invite them for an interview."
         },
         {
           "title": "Hiring",
@@ -375,11 +420,11 @@
       ]
     },
     "jobs": {
-      "title": "Open Positions",
-      "description": "Find your place in our accounting team",
-      "apply": "Apply Now",
-      "noMatch": "Don't see the right fit?",
-      "sendCv": "Send Us Your CV",
+      "title": "Open application",
+      "description": "Profiles we'd be glad to hear from – we accept applications on a rolling basis, with no deadline.",
+      "apply": "Send an application",
+      "noMatch": "Don't see your profile?",
+      "sendCv": "Send us an open application",
       "labels": {
         "responsibilities": "Responsibilities",
         "requirements": "Requirements",
@@ -422,7 +467,7 @@
             "Degree in accounting, law, or a related field",
             "Tax advisory certificate (preferred)",
             "Minimum 4 years' experience in taxation",
-            "Knowledge of BiH tax legislation",
+            "Knowledge of tax legislation in Bosnia and Herzegovina",
             "Analytical skills and strong attention to detail"
           ],
           "offers": [
@@ -605,7 +650,7 @@
     "featuredPost": {
       "id": "featured",
       "title": "VAT in 2025: Key Changes Every Business Owner Should Know",
-      "excerpt": "An overview of the latest VAT regulations in Federation of BiH and what they mean for your business.",
+      "excerpt": "An overview of the latest VAT rules in the Federation of Bosnia and Herzegovina (FBiH) and what they mean for your business.",
       "author": {
         "name": "Start HN Editorial"
       },
@@ -681,7 +726,7 @@
         "description": "Practical accounting guides, tax tips, and business advice from our team in Sarajevo."
       },
       "filters": {
-        "postsInView": "{{count}} posts in view",
+        "postsInView": "Posts shown: {{count}}",
         "advanced": "Filters",
         "searchPlaceholder": "Search articles by title, topic, or content...",
         "filterByTag": "Filter by tag",

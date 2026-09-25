@@ -260,6 +260,29 @@
     "accept": "قبول",
     "reject": "رفض",
     "settings": "إعدادات ملفات تعريف الارتباط",
-    "privacyLink": "سياسة الخصوصية"
+    "privacyLink": "سياسة الخصوصية",
+    "textCompact": "لا نحمّل Google Analytics و Microsoft Clarity إلا بموافقتك."
+  },
+  "contactActions": {
+    "call": "اتصل",
+    "callNumber": "اتصل على ⁦{{phone}}⁩",
+    "callAria": "اتصل بـ Start HN على الرقم ⁦{{phone}}⁩",
+    "directions": "احصل على الاتجاهات",
+    "openInMaps": "عرض على خرائط Google",
+    "leaveReview": "اترك مراجعة",
+    "hoursLabel": "ساعات العمل",
+    "addressLabel": "العنوان"
+  },
+  "trust": {
+    "ratingLine_zero": "{{rating}} ★ على Google ({{count}} مراجعة)",
+    "ratingLine_one": "{{rating}} ★ على Google ({{count}} مراجعة)",
+    "ratingLine_two": "{{rating}} ★ على Google ({{count}} مراجعتان)",
+    "ratingLine_few": "{{rating}} ★ على Google ({{count}} مراجعات)",
+    "ratingLine_many": "{{rating}} ★ على Google ({{count}} مراجعة)",
+    "ratingLine_other": "{{rating}} ★ على Google ({{count}} مراجعة)"
+  },
+  "legalEntity": {
+    "title": "بيانات الشركة",
+    "line": "{{legalName}} · رقم التعريف (JIB) {{jib}} · رقم التسجيل (MBS) {{mbs}} · المكتب: {{address}}"
   }
 }

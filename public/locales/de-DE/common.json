@@ -260,6 +260,25 @@
     "accept": "Akzeptieren",
     "reject": "Ablehnen",
     "settings": "Cookie-Einstellungen",
-    "privacyLink": "Datenschutzerklärung"
+    "privacyLink": "Datenschutzerklärung",
+    "textCompact": "Google Analytics und Microsoft Clarity laden wir nur mit Ihrer Einwilligung."
+  },
+  "contactActions": {
+    "call": "Anrufen",
+    "callNumber": "Anrufen: {{phone}}",
+    "callAria": "Start HN unter {{phone}} anrufen",
+    "directions": "Route planen",
+    "openInMaps": "In Google Maps ansehen",
+    "leaveReview": "Rezension schreiben",
+    "hoursLabel": "Öffnungszeiten",
+    "addressLabel": "Adresse"
+  },
+  "trust": {
+    "ratingLine_one": "{{rating}} ★ bei Google ({{count}} Rezension)",
+    "ratingLine_other": "{{rating}} ★ bei Google ({{count}} Rezensionen)"
+  },
+  "legalEntity": {
+    "title": "Unternehmensangaben",
+    "line": "{{legalName}} · Ident.-Nr. (JIB) {{jib}} · Registernr. (MBS) {{mbs}} · Büro: {{address}}"
   }
 }

@@ -1,22 +1,15 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router'
 import { useEffect, useRef, useState } from 'react'
-import { z } from 'zod'
 import { useAuth } from '@/contexts/AuthContext'
 import oauthService from '@/services/oauth.service'
 import { Loader2 } from 'lucide-react'
 import { Alert, AlertDescription } from '@/components/ui/alert'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
-
-const callbackSearchSchema = z.object({
-  code: z.string().optional(),
-  state: z.string().optional(),
-  error: z.string().optional(),
-  error_description: z.string().optional(),
-})
+import { parseOAuthCallbackSearch } from '@/lib/search-params'
 
 export const Route = createFileRoute('/{-$locale}/auth/callback')({
   ssr: false,
-  validateSearch: callbackSearchSchema,
+  validateSearch: parseOAuthCallbackSearch,
   component: OAuthCallback,
 })
 

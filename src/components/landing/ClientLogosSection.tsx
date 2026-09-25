@@ -90,7 +90,7 @@ function ClientCell({
         )}
       </div>
       {item.showLabel && (
-        <span className="block text-center text-[10px] font-medium uppercase tracking-[0.12em] text-muted-foreground/70">
+        <span className="block text-center text-[10px] font-medium uppercase tracking-[0.12em] text-muted-foreground">
           {item.name}
         </span>
       )}

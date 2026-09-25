@@ -57,8 +57,10 @@ export default defineConfig({
       },
     },
     tanstackStart({
-      tsr: {
-        autoCodeSplitting: true,
+      // `router` (formerly `tsr`, which this version silently ignored, so the
+      // plugin defaults applied and pendingComponent stayed in the main
+      // chunk). Automatic code splitting is always on in TanStack Start.
+      router: {
         codeSplittingOptions: {
           defaultBehavior: [
             ['component'],
@@ -96,6 +98,11 @@ export default defineConfig({
     // sourceMappingURL comment, so browsers never fetch them.
     sourcemap: 'hidden',
     modulePreload: { polyfill: false },
+    // Never inline fonts into the render-blocking stylesheet as base64 (the
+    // 3 KB Bosnian-letter subsets fell under the 4 KB default): as files they
+    // download in parallel, compress as woff2 and stay cached on their own.
+    assetsInlineLimit: (filePath) =>
+      filePath.endsWith('.woff2') ? false : undefined,
     rollupOptions: {
       output: {
         manualChunks(id) {
