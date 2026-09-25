@@ -57,6 +57,16 @@ export class BlogPostRepository {
     )))
   }
 
+  /** True when a post with this slug exists in any language. */
+  async slugExists(slug: string): Promise<boolean> {
+    const rows = await this.db
+      .select({ id: blogPosts.id })
+      .from(blogPosts)
+      .where(eq(blogPosts.slug, slug))
+      .limit(1)
+    return rows.length > 0
+  }
+
   async getBySlug(slug: string, locale?: string): Promise<BlogPostDto | null> {
     const loc = locale ?? 'en-US'
 
