@@ -29,6 +29,16 @@ export async function ssrBlogPost(slug: string, locale?: string) {
   return new BlogPostRepository(db).getBySlug(slug, locale)
 }
 
+/**
+ * Whether a blog slug exists at all (any language) — direct D1.
+ * null means "can't tell" (no D1, e.g. client-side navigation).
+ */
+export async function ssrBlogPostExists(slug: string): Promise<boolean | null> {
+  const db = getD1()
+  if (!db) return null
+  return new BlogPostRepository(db).slugExists(slug)
+}
+
 /** Fetch all categories — direct D1 */
 export async function ssrCategories(locale?: string) {
   const db = getD1()

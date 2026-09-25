@@ -16,6 +16,19 @@ const ITEMS_PATH = /(^|\/)items\//i
  */
 const INJECTED_ID = /^(?:\/[A-Za-z]{2,3}(?:-[A-Za-z]{2,4})?)?\/[A-Z]\d{6,}\/?$/
 
+/**
+ * Old WordPress-era taxonomy junk still being recrawled: "cate-<n>" and
+ * "cate-<n>-<n>" segments, and the theme's /case-studie-categorie/ archive.
+ * Matches: /cate-101, /cate-136-177, /en-US/cate-10-40,
+ *          /case-studie-categorie/coportate
+ */
+const WP_TAXONOMY =
+  /^(?:\/[A-Za-z]{2,3}(?:-[A-Za-z]{2,4})?)?\/(?:cate-\d+(?:-\d+)?\/?$|case-studie-categorie(?:\/|$))/i
+
 export function isHackSpam(pathname: string): boolean {
-  return ITEMS_PATH.test(pathname) || INJECTED_ID.test(pathname)
+  return (
+    ITEMS_PATH.test(pathname) ||
+    INJECTED_ID.test(pathname) ||
+    WP_TAXONOMY.test(pathname)
+  )
 }

@@ -1,8 +1,13 @@
-import { Link, createFileRoute, useLocation } from '@tanstack/react-router'
+import {
+  Link,
+  createFileRoute,
+  notFound,
+  useLocation,
+} from '@tanstack/react-router'
 import { useEffect } from 'react'
 import { ChevronLeft } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
-import { ssrBlogPost } from '@/server/ssr-data'
+import { ssrBlogPost, ssrBlogPostExists } from '@/server/ssr-data'
 import type { BlogPost } from '@/data/blog-posts'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { RelatedPosts } from '@/components/blog/RelatedPosts'
@@ -32,11 +37,18 @@ import { SEO_ORIGIN } from '@/lib/seo'
 
 export const Route = createFileRoute('/{-$locale}/blog/$slug')({
   loader: async ({ params }) => {
+    let post: Awaited<ReturnType<typeof ssrBlogPost>> = null
+    let exists: boolean | null = null
     try {
-      return await ssrBlogPost(params.slug, params.locale || undefined)
+      post = await ssrBlogPost(params.slug, params.locale || undefined)
+      if (!post) exists = await ssrBlogPostExists(params.slug)
     } catch {
       return null
     }
+    // A null post can just mean "not translated yet" (the client fetches it),
+    // so only a slug that exists in no language is a real 404.
+    if (exists === false) throw notFound()
+    return post
   },
   head: ({ loaderData }) => {
     const post = loaderData as any

@@ -3,7 +3,10 @@ import { ALL_LANGUAGE_CODES, LANGUAGE_MAP, TRANSLATOR_CODE_MAP } from '@/lib/lan
 export const SUPPORTED_LOCALES = ALL_LANGUAGE_CODES
 export type SupportedLocale = string
 
-export const DEFAULT_LOCALE: SupportedLocale = 'en-US'
+// Bosnian is the site's home language: every URL without a locale prefix
+// (e.g. "/", "/services") resolves to it. Other languages are only served
+// when the URL names them explicitly (e.g. "/en-US/services").
+export const DEFAULT_LOCALE: SupportedLocale = 'bs-BA'
 
 /**
  * Get the display label for a locale code.
@@ -51,28 +54,27 @@ export function stripLocalePrefix(pathname: string): string {
   return `/${pathWithoutLocale.join('/')}`.replace(/\/+$/, '') || '/'
 }
 
-export function detectPreferredLocale(): SupportedLocale {
-  if (typeof window === 'undefined') {
-    return DEFAULT_LOCALE
-  }
+const LOCALE_BY_LOWERCASE_CODE = new Map(
+  ALL_LANGUAGE_CODES.map((code) => [code.toLowerCase(), code]),
+)
 
-  const languageCandidates =
-    Array.isArray(window.navigator.languages) &&
-    window.navigator.languages.length > 0
-      ? window.navigator.languages
-      : [window.navigator.language]
+/**
+ * Map a near-miss locale segment to the supported locale it clearly means:
+ * wrong case ("en-us" → "en-US") or a bare language code ("en" → "en-US",
+ * "bs" → "bs-BA"). Returns null when the segment isn't a locale at all.
+ */
+export function resolveLocaleAlias(
+  segment: string | undefined,
+): SupportedLocale | null {
+  if (!segment) return null
+  const lower = segment.toLowerCase()
+  if (isValidLocale(segment)) return segment
 
-  for (const lang of languageCandidates) {
-    // Try exact match first (e.g. "en-US", "zh-Hans", "pt-PT")
-    if (isValidLocale(lang)) return lang
-
-    // Try matching via translator code (e.g. browser sends "en-GB" → base "en" → finds "en-US")
-    const base = lang.split('-')[0].toLowerCase()
-    const fromTranslator = TRANSLATOR_CODE_MAP.get(base)
-    if (fromTranslator) return fromTranslator.code
-  }
-
-  return DEFAULT_LOCALE
+  return (
+    LOCALE_BY_LOWERCASE_CODE.get(lower) ??
+    TRANSLATOR_CODE_MAP.get(lower)?.code ??
+    null
+  )
 }
 
 export function withLocalePath(
