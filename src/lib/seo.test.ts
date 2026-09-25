@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest'
+import { ALL_LANGUAGE_CODES } from '@/lib/languages'
 import {
   AREA_SERVED,
   OG_LOCALE_MAP,
@@ -45,8 +46,8 @@ describe('buildLocalizedSeoHead', () => {
 
   it('emits the full hreflang set plus x-default for priority locales', () => {
     const { alternates } = buildLocalizedSeoHead('/about', 'en-US')
-    // 3 indexable locales (bs-BA, en-US, hr-HR) + x-default
-    expect(alternates).toHaveLength(4)
+    // every indexable locale + x-default
+    expect(alternates).toHaveLength(SEO_PRIORITY_LOCALES.length + 1)
     expect(alternates.at(-1)).toEqual({
       hreflang: 'x-default',
       href: `${SEO_ORIGIN}/bs-BA/about`,
@@ -55,17 +56,20 @@ describe('buildLocalizedSeoHead', () => {
       hreflang: 'hr-HR',
       href: `${SEO_ORIGIN}/hr-HR/about`,
     })
-    expect(alternates.map((a) => a.hreflang)).not.toContain('de-DE')
+    expect(alternates.map((a) => a.hreflang)).toContain('de-DE')
   })
 
-  it('self-canonicalizes visible non-priority locales, noindex and without alternates', () => {
+  it('indexes every site language with a self canonical and hreflang', () => {
+    for (const code of ALL_LANGUAGE_CODES) {
+      expect(SEO_PRIORITY_LOCALES as ReadonlyArray<string>).toContain(code)
+    }
     const { canonicalUrl, alternates, robots, ogLocale } = buildLocalizedSeoHead(
       '/about',
       'de-DE',
     )
     expect(canonicalUrl).toBe(`${SEO_ORIGIN}/de-DE/about`)
-    expect(alternates).toEqual([])
-    expect(robots).toBe('noindex,follow')
+    expect(alternates).toHaveLength(SEO_PRIORITY_LOCALES.length + 1)
+    expect(robots).toBe('index,follow')
     expect(ogLocale).toBe('de_DE')
   })
 
@@ -96,6 +100,7 @@ describe('buildLocalizedSeoHead', () => {
     ])
     expect(alternates).toEqual([
       { hreflang: 'bs-BA', href: `${SEO_ORIGIN}/bs-BA/blog/post` },
+      { hreflang: 'de-DE', href: `${SEO_ORIGIN}/de-DE/blog/post` },
       { hreflang: 'x-default', href: `${SEO_ORIGIN}/bs-BA/blog/post` },
     ])
   })
@@ -126,11 +131,14 @@ describe('buildLocalizedSeoHead', () => {
     }
     expect(isIndexableLocaleForPage('/privacy', 'hr-HR')).toBe(false)
     expect(isIndexableLocaleForPage('/about', 'hr-HR')).toBe(true)
-    expect(isIndexableLocaleForPage('/about', 'de-DE')).toBe(false)
+    expect(isIndexableLocaleForPage('/about', 'de-DE')).toBe(true)
+    expect(isIndexableLocaleForPage('/privacy', 'de-DE')).toBe(false)
   })
 
   it('treats a null allowed list as no filter', () => {
-    expect(buildLocalizedSeoHead('/blog/post', 'bs-BA', null).alternates).toHaveLength(4)
+    expect(buildLocalizedSeoHead('/blog/post', 'bs-BA', null).alternates).toHaveLength(
+      SEO_PRIORITY_LOCALES.length + 1,
+    )
   })
 })
 

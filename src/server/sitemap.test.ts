@@ -1,3 +1,4 @@
+import { SEO_PRIORITY_LOCALES } from '@/lib/seo'
 import { describe, expect, it, vi } from 'vitest'
 import {
   SITEMAP_LOCALES,
@@ -82,7 +83,8 @@ function fakeD1({ fail = false } = {}): D1Database {
 
 describe('SITEMAP_LOCALES', () => {
   it('lists exactly the indexable locales', () => {
-    expect([...SITEMAP_LOCALES]).toEqual(['bs-BA', 'en-US', 'hr-HR'])
+    expect([...SITEMAP_LOCALES]).toEqual([...SEO_PRIORITY_LOCALES])
+    expect(SITEMAP_LOCALES).toContain('de-DE')
   })
 })
 
@@ -269,11 +271,9 @@ describe('sitemapIndex', () => {
     [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1])
 
   it('lists exactly the kept locale sitemaps', () => {
-    expect(locsOf(sitemapIndex())).toEqual([
-      'https://www.starthn.ba/sitemap-bs-BA.xml',
-      'https://www.starthn.ba/sitemap-en-US.xml',
-      'https://www.starthn.ba/sitemap-hr-HR.xml',
-    ])
+    expect(locsOf(sitemapIndex())).toEqual(
+      SEO_PRIORITY_LOCALES.map((code) => `https://www.starthn.ba/sitemap-${code}.xml`),
+    )
   })
 
   it('dates each child with its newest lastmod, and never invents one', () => {
@@ -302,8 +302,8 @@ describe('handleSitemap', () => {
     expect(await bs?.text()).toContain('https://www.starthn.ba/bs-BA/services')
   })
 
-  it('answers 410 for noindex locales and unknown codes', async () => {
-    for (const code of ['de-DE', 'sr-Latn', 'zh-Hans', 'xx-XX', 'BS-BA']) {
+  it('answers 410 for unknown codes', async () => {
+    for (const code of ['xx-XX', 'th-TH', 'BS-BA']) {
       const res = await get(`/sitemap-${code}.xml`)
       expect(res?.status, code).toBe(410)
       expect(res?.headers.get('cache-control'), code).toBe('no-store')
