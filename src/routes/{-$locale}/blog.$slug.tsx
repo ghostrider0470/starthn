@@ -4,11 +4,17 @@ import {
   notFound,
   useLocation,
 } from '@tanstack/react-router'
-import { useEffect } from 'react'
 import { ChevronLeft } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
-import { ssrBlogPost, ssrBlogPostExists } from '@/server/ssr-data'
+import type { QueryClient } from '@tanstack/react-query'
 import type { BlogPost } from '@/data/blog-posts'
+import {
+  ssrBlogPost,
+  ssrBlogPostExists,
+  ssrCategories,
+  ssrRelatedPosts,
+  ssrTags,
+} from '@/server/ssr-data'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { RelatedPosts } from '@/components/blog/RelatedPosts'
 import { BlogPostPreview } from '@/components/blog/BlogPostPreview'
@@ -16,11 +22,13 @@ import { PageContainer } from '@/components/layout/PageContainer'
 import { SectionContainer } from '@/components/layout/SectionContainer'
 import { LoadingState } from '@/components/layout/LoadingState'
 import { Button } from '@/components/ui/button'
-import { getBlogPostBySlug } from '@/data/blog-posts'
-import { useBlogPost } from '@/hooks/useBlogQueries'
+import { blogKeys, useBlogPost } from '@/hooks/useBlogQueries'
 import { usePublicTags } from '@/hooks/useTagQueries'
 import { usePublicCategories } from '@/hooks/useCategoryQueries'
+import blogService from '@/services/blog.service'
 import {
+  blogAuthorInitials,
+  blogAuthorName,
   localizeBlogCategory,
   localizeBlogReadTime,
   localizeBlogTag,
@@ -33,36 +41,153 @@ import {
 } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
 import { img } from '@/lib/image'
-import { SEO_ORIGIN } from '@/lib/seo'
+import {
+  SEO_ORIGIN,
+  buildBlogPostingStructuredData,
+  buildBreadcrumbTrail,
+  buildLocalizedSeoHead,
+  jsonLd,
+  truncateAtWord,
+} from '@/lib/seo'
+import {
+  localizedPageHead,
+  resolveSeoStrings,
+  toPageLocale,
+  translateExact,
+} from '@/lib/seo-meta'
+
+/** The post fields head() reads (D1 DTO or API response). */
+type PostSeoFields = {
+  slug: string
+  title: string
+  excerpt?: string | null
+  coverImage?: string | null
+  bannerImage?: string | null
+  publishedAt?: string | null
+  author?: string | null
+  authorName?: string | null
+}
+
+type LoadedPost = NonNullable<Awaited<ReturnType<typeof ssrBlogPost>>> | BlogPost
+
+type BlogPostLoaderData = {
+  post: LoadedPost | null
+  categories: Awaited<ReturnType<typeof ssrCategories>>
+  tags: Awaited<ReturnType<typeof ssrTags>>
+  related: Awaited<ReturnType<typeof ssrRelatedPosts>>
+}
+
+const EMPTY_LOADER_DATA: BlogPostLoaderData = {
+  post: null,
+  categories: null,
+  tags: null,
+  related: null,
+}
+
+/**
+ * Client-side navigation: the D1 fetchers resolve to null in the browser, so
+ * read the post through the API. It shares useBlogPost's React Query cache,
+ * and it lets head() show the post title after client navigation too.
+ */
+async function fetchPostThroughApi(
+  queryClient: QueryClient,
+  slug: string,
+  locale: string,
+): Promise<BlogPost | null> {
+  if (typeof window === 'undefined') return null
+  try {
+    return await queryClient.ensureQueryData({
+      queryKey: blogKeys.post(slug, locale),
+      queryFn: () => blogService.fetchBlogPostBySlug(slug, locale),
+      staleTime: 5 * 60 * 1000,
+    })
+  } catch {
+    return null
+  }
+}
+
+/** Absolute URL of the post's hero image at share size, or null. */
+function absolutePostImage(post: PostSeoFields): string | null {
+  const raw = post.bannerImage || post.coverImage
+  if (!raw) return null
+  // og:image / twitter:image MUST be absolute — link-preview crawlers
+  // (Teams, WhatsApp, Facebook…) can't resolve relative /img/ proxy URLs.
+  const optimized = img(raw, { width: 1200, format: 'auto' })
+  if (!optimized) return null
+  if (/^https?:\/\//.test(optimized)) return optimized
+  return `${SEO_ORIGIN}${optimized.startsWith('/') ? '' : '/'}${optimized}`
+}
 
 export const Route = createFileRoute('/{-$locale}/blog/$slug')({
-  loader: async ({ params }) => {
-    let post: Awaited<ReturnType<typeof ssrBlogPost>> = null
-    let exists: boolean | null = null
+  loader: async ({ params, context }): Promise<BlogPostLoaderData> => {
+    const locale = toPageLocale(params.locale)
+    let post: LoadedPost | null = null
+    let categories: BlogPostLoaderData['categories'] = null
+    let tags: BlogPostLoaderData['tags'] = null
     try {
-      post = await ssrBlogPost(params.slug, params.locale || undefined)
-      if (!post) exists = await ssrBlogPostExists(params.slug)
+      ;[post, categories, tags] = await Promise.all([
+        ssrBlogPost(params.slug, locale),
+        ssrCategories(locale),
+        ssrTags(locale),
+      ])
     } catch {
-      return null
+      return EMPTY_LOADER_DATA
     }
-    // A null post can just mean "not translated yet" (the client fetches it),
-    // so only a slug that exists in no language is a real 404.
-    if (exists === false) throw notFound()
-    return post
+
+    if (!post) {
+      let exists: boolean | null = null
+      try {
+        exists = await ssrBlogPostExists(params.slug)
+      } catch {
+        exists = null
+      }
+      // With D1 (SSR), a missing post is a real 404 in this locale: either
+      // the slug exists in no language, or the post has no version in this
+      // one (no translation row and it is not the post's own language).
+      // Never an English "Loading post…" shell with a 200.
+      if (exists !== null) throw notFound()
+      post = await fetchPostThroughApi(context.queryClient, params.slug, locale)
+    }
+
+    let related: BlogPostLoaderData['related'] = null
+    if (post) {
+      try {
+        related = await ssrRelatedPosts(locale, post.category, post.slug)
+      } catch {
+        related = null
+      }
+    }
+
+    return { post, categories, tags, related }
   },
-  head: ({ loaderData }) => {
-    const post = loaderData as any
-    const title = `${post?.title ?? 'Blog'} — StartHN`
-    const description = post?.excerpt ?? 'Read our latest blog post.'
-    const rawImage = post?.bannerImage ?? post?.coverImage
-    // og:image / twitter:image MUST be absolute — link-preview crawlers
-    // (Teams, WhatsApp, Facebook…) can't resolve relative /img/ proxy URLs.
-    const optimized = rawImage ? img(rawImage, { width: 1200, format: 'auto' }) : null
-    const ogImage = optimized
-      ? optimized.startsWith('http')
-        ? optimized
-        : `${SEO_ORIGIN}${optimized}`
-      : `${SEO_ORIGIN}/og-image.png`
+  head: ({ loaderData, params, matches }) => {
+    // A 404 is rendered by the root route, whose head() carries the 404
+    // title; on the server only that head() runs, so emit nothing here
+    // either (keeps the hydration re-run identical).
+    if (matches[0]?.globalNotFound) return {}
+
+    const locale = toPageLocale(params.locale)
+    const post = loaderData?.post as PostSeoFields | null | undefined
+    if (!post) return localizedPageHead('blog', locale)
+
+    const title =
+      post.title.length <= 48 ? `${post.title} | Start HN` : post.title
+    const description =
+      truncateAtWord(post.excerpt ?? '', 155) ||
+      resolveSeoStrings('blog', locale).description
+    const image = absolutePostImage(post)
+    const path = `/blog/${params.slug}`
+    const { canonicalUrl } = buildLocalizedSeoHead(path, locale)
+    // Until D1 import timestamps are cleaned, publishedAt stands in for the
+    // modified time too.
+    const publishedAt = post.publishedAt || null
+
+    const breadcrumbs = buildBreadcrumbTrail(
+      '/blog',
+      locale,
+      (key) => translateExact(locale, 'common', key),
+      { name: post.title, path },
+    )
 
     return {
       meta: [
@@ -71,102 +196,41 @@ export const Route = createFileRoute('/{-$locale}/blog/$slug')({
         { property: 'og:type', content: 'article' },
         { property: 'og:title', content: title },
         { property: 'og:description', content: description },
-        { property: 'og:image', content: ogImage },
-        { property: 'og:image:width', content: '1200' },
-        { property: 'og:image:height', content: '630' },
-        { name: 'twitter:card', content: 'summary_large_image' },
+        ...(image
+          ? [
+              { property: 'og:image', content: image },
+              { property: 'og:image:alt', content: post.title },
+              { name: 'twitter:image', content: image },
+            ]
+          : []),
         { name: 'twitter:title', content: title },
         { name: 'twitter:description', content: description },
-        { name: 'twitter:image', content: ogImage },
+        ...(publishedAt
+          ? [
+              { property: 'article:published_time', content: publishedAt },
+              { property: 'article:modified_time', content: publishedAt },
+            ]
+          : []),
+      ],
+      scripts: [
+        jsonLd(
+          buildBlogPostingStructuredData({
+            canonicalUrl,
+            headline: post.title,
+            description,
+            image: image ?? `${SEO_ORIGIN}/og-image.png`,
+            datePublished: publishedAt,
+            dateModified: publishedAt,
+            authorName: post.authorName || post.author || null,
+            locale,
+          }),
+        ),
+        ...(breadcrumbs ? [jsonLd(breadcrumbs)] : []),
       ],
     }
   },
   component: BlogPostPage,
 })
-
-function upsertMetaTag(
-  attribute: 'name' | 'property',
-  key: string,
-  content: string,
-) {
-  let node = document.head.querySelector(
-    `meta[${attribute}="${key}"]`,
-  )
-
-  if (!node) {
-    node = document.createElement('meta')
-    node.setAttribute(attribute, key)
-    document.head.appendChild(node)
-  }
-
-  node.setAttribute('content', content)
-}
-
-function updateArticleTagMeta(tags: Array<string>) {
-  document.head
-    .querySelectorAll('meta[data-blog-article-tag="true"]')
-    .forEach((node) => node.remove())
-
-  tags.forEach((tag) => {
-    const tagNode = document.createElement('meta')
-    tagNode.setAttribute('property', 'article:tag')
-    tagNode.setAttribute('content', tag)
-    tagNode.setAttribute('data-blog-article-tag', 'true')
-    document.head.appendChild(tagNode)
-  })
-}
-
-function upsertLinkTag(rel: string, hreflang: string, href: string) {
-  let node = document.head.querySelector(
-    `link[rel="${rel}"][hreflang="${hreflang}"]`,
-  ) as HTMLLinkElement | null
-
-  if (!node) {
-    node = document.createElement('link')
-    node.setAttribute('rel', rel)
-    node.setAttribute('hreflang', hreflang)
-    document.head.appendChild(node)
-  }
-
-  node.setAttribute('href', href)
-}
-
-function useBlogPostSeo(post: BlogPost | undefined, locale: string) {
-  const { t } = useTranslation('pages')
-
-  useEffect(() => {
-    if (!post) {
-      return
-    }
-
-    // TODO: add "meta.siteName" key to the pages namespace JSON on CDN ("Start HN Blog")
-    const siteName = t('meta.siteName', 'Start HN Blog')
-    document.title = `${post.title} | ${siteName} — ${locale}`
-
-    upsertMetaTag('name', 'description', post.excerpt)
-    upsertMetaTag('property', 'og:title', post.title)
-    upsertMetaTag('property', 'og:description', post.excerpt)
-    upsertMetaTag('property', 'og:type', 'article')
-    upsertMetaTag('property', 'og:locale', locale)
-    upsertMetaTag('property', 'og:site_name', siteName)
-    upsertMetaTag('property', 'article:published_time', post.publishedAt)
-    const ogImage = post.bannerImage || post.coverImage
-    if (ogImage) {
-      upsertMetaTag('property', 'og:image', ogImage)
-    }
-    updateArticleTagMeta(post.tags)
-
-    // Self-referencing canonical hreflang for the current locale
-    // TODO: fetch available translation locales from API to add full hreflang alternate set
-    upsertLinkTag('alternate', locale, window.location.href)
-
-    return () => {
-      document.head
-        .querySelectorAll('meta[data-blog-article-tag="true"]')
-        .forEach((node) => node.remove())
-    }
-  }, [post, locale, t])
-}
 
 function BlogPostPage() {
   const { t } = useTranslation(['pages', 'blog'])
@@ -175,15 +239,17 @@ function BlogPostPage() {
   const currentLocale = getLocaleFromPath(location.pathname)
 
   // Use SSR loader data as initial query cache — no double-fetch
-  const loaderPost = Route.useLoaderData() as BlogPost | null
-  const { data: apiPost, isPending } = useBlogPost(slug, currentLocale, loaderPost)
-  const post = apiPost ?? getBlogPostBySlug(slug)
-  const { data: tags = [] } = usePublicTags()
-  const { data: categories = [] } = usePublicCategories()
+  const loaderData = Route.useLoaderData()
+  const loaderPost = loaderData.post as BlogPost | null
+  const { data: post, isPending } = useBlogPost(slug, currentLocale, loaderPost)
+  const { data: tags = [] } = usePublicTags(loaderData.tags ?? undefined)
+  const { data: categories = [] } = usePublicCategories(
+    loaderData.categories ?? undefined,
+  )
 
-  useBlogPostSeo(post, currentLocale)
-
-  if (isPending && !post) {
+  // With loader data (SSR, or the API read on client navigation) the query
+  // starts with data, so this only shows while a client-side fetch runs.
+  if (isPending) {
     return (
       <PageContainer>
         <SectionContainer spacing="lg" className="mx-auto max-w-5xl">
@@ -235,7 +301,7 @@ function BlogPostPage() {
         <BlogPostPreview
           title={post.title}
           excerpt={post.excerpt}
-          author={post.author}
+          author={blogAuthorName(post.author)}
           category={localizeBlogCategory(categories, post.category, currentLocale)}
           subcategory={
             post.subcategory
@@ -246,7 +312,8 @@ function BlogPostPage() {
           readTime={localizeBlogReadTime(t, post.readTime)}
           content={post.content}
           tags={post.tags.map((tag) => localizeBlogTag(tags, tag, currentLocale))}
-          authorSlug={post.authorSlug}
+          // No authorSlug: the /team pages are disabled (404), so the author
+          // name must not link there.
           authorAvatarUrl={post.authorAvatarUrl}
           locale={currentLocale}
           dir={getLocaleDir(currentLocale)}
@@ -258,15 +325,10 @@ function BlogPostPage() {
           <div className="my-10 flex items-center gap-4 rounded-lg border p-6">
             <Avatar className="h-14 w-14">
               {post.authorAvatarUrl && (
-                <AvatarImage src={img(post.authorAvatarUrl, { width: 96, format: 'auto' })} alt={post.author} width={56} height={56} />
+                <AvatarImage src={img(post.authorAvatarUrl, { width: 96, format: 'auto' })} alt={blogAuthorName(post.author)} width={56} height={56} />
               )}
               <AvatarFallback>
-                {post.author
-                  .split(' ')
-                  .map((p) => p[0])
-                  .join('')
-                  .slice(0, 2)
-                  .toUpperCase()}
+                {blogAuthorInitials(post.author)}
               </AvatarFallback>
             </Avatar>
             <div>
@@ -280,22 +342,19 @@ function BlogPostPage() {
                 {t('blog:aboutAuthor', 'About the author')}
               </p>
               <p className={cn(designSystem.typography.body.base, 'font-semibold')}>
-                {post.author}
+                {blogAuthorName(post.author)}
               </p>
-              <Link
-                to={withLocalePath(`/team/${post.authorSlug}`, currentLocale)}
-                className={cn(
-                  designSystem.typography.body.small,
-                  'text-primary hover:underline',
-                )}
-              >
-                {t('blog:viewProfile', 'View profile')}
-              </Link>
             </div>
           </div>
         )}
 
-        <RelatedPosts currentPost={post} locale={currentLocale} />
+        <RelatedPosts
+          currentPost={post}
+          locale={currentLocale}
+          initialRelated={
+            (loaderData.related ?? undefined) as Array<BlogPost> | undefined
+          }
+        />
       </SectionContainer>
     </PageContainer>
   )

@@ -1,5 +1,7 @@
 import type { ReactNode } from 'react'
+import i18n from '@/i18n'
 import { SectionScroller } from '@/components/landing/SectionScroller'
+import { DEFAULT_LOCALE, isValidLocale } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
 
 export type CompanySectionId =
@@ -17,37 +19,6 @@ export type CompanySectionId =
   | 'start'
 
 type CompanyPagePanelTone = 'default' | 'muted' | 'accent'
-
-const SECTION_LABELS: Record<'en' | 'bs', Record<CompanySectionId, string>> = {
-  en: {
-    overview: 'Overview',
-    story: 'Story',
-    proof: 'Proof',
-    gallery: 'Gallery',
-    values: 'Values',
-    team: 'Team',
-    culture: 'Culture',
-    jobs: 'Jobs',
-    process: 'Process',
-    channels: 'Channels',
-    contact: 'Contact',
-    start: 'Start',
-  },
-  bs: {
-    overview: 'Pregled',
-    story: 'Priča',
-    proof: 'Dokaz',
-    gallery: 'Galerija',
-    values: 'Vrijednosti',
-    team: 'Tim',
-    culture: 'Kultura',
-    jobs: 'Pozicije',
-    process: 'Proces',
-    channels: 'Kanali',
-    contact: 'Kontakt',
-    start: 'Početak',
-  },
-}
 
 const panelToneClasses: Record<CompanyPagePanelTone, string> = {
   default: 'bg-background',
@@ -67,12 +38,26 @@ interface CompanyPagePanelProps {
   tone?: CompanyPagePanelTone
 }
 
+/**
+ * Scroller labels from common:sections.* in the page's locale.
+ *
+ * A plain function called during render (not a hook). getFixedT on the
+ * shared i18n instance is safe for concurrent SSR requests: it pins the
+ * language explicitly and every per-request clone shares the same store.
+ * A locale without the key yields '' (never a raw key), and the scroller then
+ * uses its generic "go to section N" label.
+ */
 export function getCompanySectionLabels(
   locale: string,
   ids: ReadonlyArray<CompanySectionId>,
 ) {
-  const language = locale.startsWith('bs') ? 'bs' : 'en'
-  return ids.map((id) => SECTION_LABELS[language][id])
+  const lng = isValidLocale(locale) ? locale : DEFAULT_LOCALE
+  const t = i18n.getFixedT(lng, 'common')
+  return ids.map((id) =>
+    i18n.exists(`sections.${id}`, { lng, ns: 'common', fallbackLng: false })
+      ? t(`sections.${id}`)
+      : '',
+  )
 }
 
 export function CompanyPageLayout({

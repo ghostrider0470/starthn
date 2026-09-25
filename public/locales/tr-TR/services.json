@@ -14,30 +14,41 @@
   },
   "index": {
     "overline": "Start HN hizmetleri",
-    "title": "İşin her aşaması için muhasebe desteği.",
-    "description": "Altı net hizmet alanı, muhasebe, vergi yükümlülükleri, raporlama, danışmanlık ve işletmenize daha iyi kontrol sağlayan eğitimi kapsar.",
+    "title": "Şirketler, şahıs işletmeleri ve dernekler için muhasebe hizmetleri",
+    "description": "Start HN muhasebe hizmetleri: Saraybosna ve Ilidža'daki şirketler, şahıs işletmeleri ve dernekler için defter tutma, vergi danışmanlığı, sanal CFO, finansal raporlama, iş danışmanlığı ve eğitim.",
     "introOverline": "Hizmetler",
     "introTitle": "Tek bir takım, net bir finansal tablo",
-    "introBody": "Start HN, pratik muhasebe, vergi izleme, finansal raporlama ve danışmanlık desteğini birleştirerek sahipler ve yönetimin kararlarını toplu dokümantasyondan değil, güvenilir verilere dayanarak verebilir.",
+    "introBody": "Start HN; pratik defter tutma, vergi takibi, finansal raporlama ve danışmanlık desteğini bir araya getirir. Böylece işletme sahipleri ve yöneticiler kararlarını dağınık evraklara değil, güvenilir rakamlara dayanarak verebilir.",
     "cta": {
-      "title": "Hangi servise ihtiyacınız olduğundan emin değil misiniz?",
+      "title": "Hangi hizmete ihtiyacınız olduğundan emin değil misiniz?",
       "description": "İşletmenizin şu anda nasıl işlediğini bize anlatın, biz de doğru destek kapsamını öneririz: düzenli muhasebe, derinlemesine danışmanlık veya odaklanmış danışmanlık.",
-      "button": "Bir danışmanlık planı yapın"
+      "button": "Danışmanlık randevusu alın"
+    }
+  },
+  "related": {
+    "title": "İlgili hizmetler",
+    "postsTitle": "İlgili makaleler",
+    "postLabels": {
+      "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance": "Rehber: BH'de işletme kurmak (şahıs işletmesi veya d.o.o.)",
+      "importance-of-entrepreneurship-programs": "Saraybosna Kantonu'nda girişimcilik destek programları"
     }
   },
   "items": {
     "bookkeeping": {
       "label": "01",
       "title": "Defter tutma ve muhasebe",
-      "shortDescription": "El işleri ve şirketler için tam muhasebe, muhasebe kayıtları, bordro, KDV kayıtları ve nihai raporlar.",
-      "heroDescription": "Güvenilir kitaplar, herhangi bir işletmenin operasyonel temelidir. Kayıtlarınızı doğru, güncel ve vergi teslim tarihlerine, bankalara ve yönetici kararlarına hazır tutarız.",
+      "heroTitle": "Saraybosna'da şirketler ve şahıs işletmeleri için defter tutma ve muhasebe",
+      "shortDescription": "Şahıs işletmeleri ve şirketler için eksiksiz defter tutma, muhasebe kayıtları, bordro hesaplamaları, KDV kayıtları ve yıl sonu raporları.",
+      "heroDescription": "Saraybosna ve Ilidža'daki limited şirketler (d.o.o.), şahıs işletmeleri ve dernekler için defter tutma hizmetleri: faturaların ve giderlerin kaydı, bordro ve prim hesaplamaları, KDV ve yıllık yıl sonu kapanışı – doğru ve son tarihlerden önce.",
       "overviewTitle": "Günlük yük olmadan günlük kayıtlar",
-      "overview": "Tüm muhasebe döngüsünü organize ediyoruz: belgelerin alınması, faturaların ve giderlerin ilan edilmesi, maaş ve katkıların hesaplanması, KDV kayıtları, yasal başvurular ve yıllık kapanış. Amaç basit: düzenli kayıtlar, net sorumluluklar ve son teslim tarihlerinden önce sürpriz olmadan.",
-      "bestForTitle": "En iyisi",
+      "overview": "Tüm defter tutma döngüsünü organize ediyoruz: belgelerin teslim alınması, faturaların ve giderlerin kaydedilmesi, maaş ve prim hesaplamaları, KDV kayıtları, yasal bildirimler ve yıllık kapanış. Amaç basit: düzenli kayıtlar, net sorumluluklar ve son dakika sürprizlerinin olmaması.",
+      "localContextTitle": "Saraybosna ve Ilidža'daki şirketler ve şahıs işletmeleri için defter tutma",
+      "localContext": "Start HN, Ibrahima Ljubovića 47, 71210 Ilidža adresinde bulunan ve Ilidža, Saraybosna ve Saraybosna Kantonu'ndaki şirketler, şahıs işletmeleri ve derneklerle çalışan bir muhasebe ajansıdır. İşletme defterlerini Bosna-Hersek Federasyonu mevzuatına uygun olarak tutuyoruz: gelen ve giden faturaların ve giderlerin kaydı, bordro ve prim hesaplamaları, KDV kayıtları ve beyannameleri ile yıllık yıl sonu kapanışı. Belgeleri şahsen, e-posta ile veya dijital olarak iletebilirsiniz. Ağırlıklı olarak Pantheon'da çalışıyoruz; şirketinizin halihazırda kullandığı sistemde de çalışabiliriz.",
+      "bestForTitle": "Kimler için uygun",
       "bestFor": [
         "Düzenli muhasebe desteğine ihtiyaç duyan küçük ve orta ölçekli işletmeler.",
-        "Uygun yasal kayıt isteyen zanaatkarlar ve serbest meslek işletmeleri",
-        "Takımlar Başka Bir Muhasebeciden Geçiş Yapıyor",
+        "Düzenli yasal kayıt isteyen şahıs işletmeleri ve esnaf",
+        "Başka bir muhasebeciden geçiş yapan ekipler",
         "Sadece yıllık raporlar değil, net aylık rakamlar isteyen sahipler"
       ],
       "detailsTitle": "Muhasebe Kapsamı",
@@ -58,7 +69,7 @@
       "processTitle": "Öngörülebilir aylık ritim",
       "process": [
         {
-          "title": "Koleksiyon",
+          "title": "Toplama",
           "description": "Belgeleri dijital veya fiziksel olarak kabul edilen iş akışına göre gönderirsiniz."
         },
         {
@@ -76,23 +87,34 @@
         "KDV ve vergi kayıtları",
         "Bordro ve katkı hesaplamaları",
         "Yıllık Mali Raporlar",
-        "Başvuruların sunulmasının onayları",
+        "Beyanname gönderim onayları",
         "Düzenli muhasebe danışmanlığı"
       ],
+      "interiorAlt": "Tamamlanmış aylık görevlerin kontrol listesiyle bilgisayar başındaki muhasebeci: KDV beyannamesi, bordro ve muhasebe kayıtları",
       "cta": {
-        "title": "Kitaplarınızı düzenlemeye hazır mısınız?",
+        "title": "Defterlerinizi düzene sokmaya hazır mısınız?",
         "description": "Mevcut kayıtlarınızı inceleyecek ve işletmenizin gerçekte işleyişine uygun aylık bir muhasebe akışı tanımlayacağız.",
         "button": "Muhasebe desteği talep edin"
-      }
+      },
+      "related": [
+        "taxConsulting",
+        "financialReporting"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
+      ]
     },
     "taxConsulting": {
       "label": "02",
       "title": "Vergi danışmanlığı",
+      "heroTitle": "Saraybosna'da şirketler ve şahıs işletmeleri için vergi danışmanlığı ve KDV",
       "shortDescription": "Vergi izleme, planlama, başvuru desteği, son tarih takibi ve bireyler ile tüzel kişiler için pratik rehberlik hizmetleri sunmaktadır.",
-      "heroDescription": "Vergi yükümlülükleri hızla değişir ve hatalar maliyetlidir. Neyin uygulanabileceğini, nelerin hak edileceğini ve düzenlemeler çerçevesinde nasıl plan yapacağınızı anlamanıza yardımcı oluruz.",
+      "heroDescription": "Vergi yükümlülükleri hızla değişir ve hatalar pahalıya mal olur. Hangi kuralların geçerli olduğunu, neyin vadesinin geldiğini ve kurallar çerçevesinde nasıl plan yapacağınızı anlamanıza yardımcı oluyoruz.",
       "overviewTitle": "Bir sorun ortaya çıkmadan önce vergi tavsiyesi",
       "overview": "Vergi desteğimiz uyum ve planlamayı birbirine bağlar: son teslim tarihlerini takip eder, yükümlülükleri gözden geçirir, düzenleyici değişiklikleri açıklar, beyannameler hazırlar ve kararlar gereksiz maliyet veya risk yaratmadan önce tavsiye verir.",
-      "bestForTitle": "En iyisi",
+      "localContextTitle": "Bosna-Hersek Federasyonu'nda şirketlerin ve şahıs işletmelerinin vergi yükümlülükleri",
+      "localContext": "Saraybosna'da ve Bosna-Hersek Federasyonu'nun diğer bölgelerinde faaliyet gösteren şirketlerin ve şahıs işletmelerinin vergi yükümlülükleri Bosna-Hersek ve Bosna-Hersek Federasyonu mevzuatına tabidir. Ilidža'daki ofisimizden KDV beyannamelerini, kurumlar ve gelir vergisi beyannamelerini ve diğer yasal bildirimleri hazırlayıp sunuyor, mevzuat değişikliklerini takip ediyor ve bir değişiklik işinizi etkilediğinde sizi zamanında bilgilendiriyoruz. Vergi danışmanlığı en iyi, doğru tutulan defterlerle birlikte işler; çünkü beyannameler o zaman güvenilir kayıtlara dayanır.",
+      "bestForTitle": "Kimler için uygun",
       "bestFor": [
         "Düzenli vergi takibi gerektiren şirketler",
         "Yatırımlar, istihdam veya fiyatlar hakkında karar veren sahipler",
@@ -102,8 +124,8 @@
       "detailsTitle": "Vergi danışmanlığının kapsamı",
       "details": [
         {
-          "title": "Yapılacaklar Genel Bakış",
-          "description": "Aktif kayıtları, erken kayıtları, KDV ve bordro riskini ve yaklaşan son tarihleri inceliyoruz."
+          "title": "Yükümlülüklerin gözden geçirilmesi",
+          "description": "Aktif kayıtları, önceki beyannameleri, bordro ve KDV yükümlülüklerini ve yaklaşan son tarihleri inceliyoruz."
         },
         {
           "title": "Uyumluluk ve raporlama desteği",
@@ -138,22 +160,33 @@
         "Vergi Planlama Notları",
         "Son teslim tarihi ve uyum desteği"
       ],
+      "interiorAlt": "Ekranda vergi yükümlülüklerine genel bakışı müşteriye anlatan vergi danışmanı",
       "cta": {
         "title": "Vergi yükümlülükleriniz hakkında netlik mi istiyorsunuz?",
-        "description": "Mevcut durumunuzu bize gönderin, neyin hak ettiğini, neyin iyileştirilebileceğini ve bir sonraki adımın ne olduğunu anlamanıza yardımcı olalım.",
-        "button": "Vergi desteğinden bahsediyorsunuz"
-      }
+        "description": "Mevcut durumunuzu bize iletin; neyin vadesinin geldiğini, neyin iyileştirilebileceğini ve sonraki adımın ne olması gerektiğini anlamanıza yardımcı olalım.",
+        "button": "Vergi desteğini konuşalım"
+      },
+      "related": [
+        "bookkeeping",
+        "businessConsulting"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
+      ]
     },
     "virtualCfo": {
       "label": "03",
       "title": "Sanal CFO",
+      "heroTitle": "Saraybosna'daki küçük ve orta ölçekli işletmeler için sanal CFO",
       "shortDescription": "Kalıcı bir CFO olmadan kıdemli finansal içgörü: nakit akışı, bütçeler, KPI'lar ve karar desteği.",
       "heroDescription": "Sanal bir CFO, sahiplere ve yönetime finansal sağlık, nakit akışı, kârlılık ve stratejik tercihler hakkında daha net bir görüş sunar.",
       "overviewTitle": "Esnek bir şekilde finansal yönetim.",
       "overview": "Muhasebe verilerini pratik yönetici içgörülerine dönüştürüyoruz: bütçeler, tahminler, nakit akışı planlaması, kârlılık analizi ve şirketin güçlü yerlerini ve dikkat gerektiren finansal göstergeler.",
-      "bestForTitle": "En iyisi",
+      "localContextTitle": "Tam zamanlı finans direktörü olmadan finansal liderlik",
+      "localContext": "Saraybosna ve Saraybosna Kantonu'ndaki birçok küçük ve orta ölçekli işletmenin tam zamanlı bir finans direktörüne ihtiyacı yoktur, ancak kararları için güvenilir rakamlara ihtiyaç duyarlar. Start HN, sanal CFO olarak nakit akışı tahminleri hazırlar, bütçeleri planlar, finansal analizler yapar ve yönetim için raporlar hazırlar; gerektiğinde toplantılara da katılırız. Defterlerinizi de biz tuttuğumuzda analizler, işletme kayıtlarınızdaki güncel rakamlara dayanır. Hizmet, özellikle finansman veya yatırım kararlarına hazırlanan işletme sahipleri için faydalıdır.",
+      "bestForTitle": "Kimler için uygun",
       "bestFor": [
-        "Sadece muhasebe ile ilgili değil, büyüyen şirketler.",
+        "Defter tutmadan fazlasına ihtiyaç duyan büyüyen şirketler",
         "Finansman veya yatırım kararlarını hazırlayan sahipler",
         "Kendi CFO'su olmayan takımlar",
         "Aylık rakamları eyleme dönüştürmek isteyen yöneticiler"
@@ -169,7 +202,7 @@
           "description": "Yönetici kararlarının değerlendirilmesini kolaylaştıran bütçeler, nakit akışı tahminleri, senaryolar ve varsayımlar hazırlıyoruz."
         },
         {
-          "title": "Yönetici haberciliği",
+          "title": "Yönetim raporlaması",
           "description": "Finansal verileri büyüme, maliyetler, fiyatlandırma ve operasyonlarla ilgili kararlarla bağlayan KPI'lar ve rapor formatları tanımlıyoruz."
         }
       ],
@@ -197,20 +230,29 @@
         "Kârlılık Analizi",
         "Danışma toplantıları"
       ],
+      "interiorAlt": "Masada grafik ve tablo içeren basılı nakit akışı tahmini",
       "cta": {
         "title": "CFO seviyesinde netlik mi gerekiyor?",
         "description": "Muhasebe verilerinizi, büyüme, finansman ve daha iyi kararları destekleyen yönetici bir genel bakış haline dönüştürebiliriz.",
         "button": "Sanal CFO hakkında konuşun"
-      }
+      },
+      "related": [
+        "financialReporting",
+        "businessConsulting"
+      ],
+      "relatedPosts": []
     },
     "businessConsulting": {
       "label": "04",
       "title": "İş danışmanlığı",
+      "heroTitle": "Saraybosna'da şirketler ve şahıs işletmeleri için iş danışmanlığı",
       "shortDescription": "Organizasyon, büyüme, iç süreçler, maliyetler, fiyatlandırma ve operasyonel kararlar için pratik iş tavsiyeleri.",
       "heroDescription": "İyi bir muhasebe hesabı olanları gösterir. İyi bir danışmanlık, sonraki adımda ne olacağına karar vermenize yardımcı olur.",
       "overviewTitle": "Sayılara dayalı pratik rehberler",
       "overview": "İşletme organizasyonu, süreç iyileştirme, maliyet kontrolü, fiyatlandırma, faturalandırma disiplinleri, iç dokümantasyon ve büyüme planlaması gibi finansal ve operasyonel kararlarda sahipleri ve yöneticileri destekliyoruz.",
-      "bestForTitle": "En iyisi",
+      "localContextTitle": "Saraybosna'daki girişimciler için iş danışmanlığı",
+      "localContext": "Saraybosna ve Ilidža'daki girişimcilerin, şahıs işletmelerinin ve şirketlerin kendi defterlerindeki rakamlara dayanarak iş kararları almalarına yardımcı oluyoruz. İş organizasyonu ve belge akışı, maliyet kontrolü, fiyatlandırma, alacak tahsilatı ve büyüme planlaması konularında danışmanlık veriyoruz. Girişimler ve yeni işletmeler faaliyetlerinin ilk gününden itibaren desteğimizi alır; şahıs işletmesi (obrt) ile limited şirket (d.o.o.) arasındaki seçimi ise BH'de işletme kurma rehberimizde ele aldık. Danışmanlığımız defter tutma ve vergiyle bağlantılıdır; bu nedenle önerilerimiz Bosna-Hersek Federasyonu'ndaki yasal yükümlülüklerinizi de dikkate alır.",
+      "bestForTitle": "Kimler için uygun",
       "bestFor": [
         "Finansal Süreçleri Kuran Yeni İşletmeler",
         "İç kontrolleri ve dokümantasyon akışını iyileştiren şirketler",
@@ -256,20 +298,32 @@
         "Dokümantasyon Akışı Ayarı",
         "Sahibiyle danışma toplantıları"
       ],
+      "interiorAlt": "Masada bir müşteriyle grafikleri ve notları inceleyen iş danışmanı",
       "cta": {
         "title": "İşletmenizin uygulamalı bir genel görünümüne mi ihtiyacınız var?",
-        "description": "Sayılarınıza ve operasyonel huninize bakacağız, ardından kontrol ve kârlılığı en çok artıran değişiklikler önereceğiz.",
+        "description": "Rakamlarınıza ve operasyonel akışınıza bakacak, ardından kontrolü ve kârlılığı en çok artıracak değişiklikleri önereceğiz.",
         "button": "Danışma talebinde bulun"
-      }
+      },
+      "related": [
+        "virtualCfo",
+        "bookkeeping"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance",
+        "importance-of-entrepreneurship-programs"
+      ]
     },
     "financialReporting": {
       "label": "05",
       "title": "Mali Raporlama",
+      "heroTitle": "Saraybosna'daki şirketler için finansal raporlama ve yıl sonu kapanışı",
       "shortDescription": "Sonuçları, yükümlülükleri ve finansal eğilimleri anlamaya yardımcı olan net hukuki ve yönetsel raporlar.",
-      "heroDescription": "Raporların sadece bir teslim tarihine ulaşan anlaşılmaz dosyalar olması gerekmez. İş dünyasında neler olup bittiğini bilmeleri gerekiyor.",
+      "heroDescription": "Raporlar yalnızca bir son tarihi karşılamak için hazırlanan kafa karıştırıcı dosyalar olmamalı. İşletmede neler olup bittiğini açıklamalılar.",
       "overviewTitle": "Yönetimin gerçekten kullandığı raporlar",
       "overview": "Gelir, gider, kâr, likidite ve yükümlülüklerin anlaşılmasını kolaylaştıran hukuki raporlar, yönetici özetler, finansal tablolar ve analitik formatlar hazırlıyoruz.",
-      "bestForTitle": "En iyisi",
+      "localContextTitle": "Bosna-Hersek Federasyonu'ndaki şirketler için yıl sonu kapanışı ve raporlama",
+      "localContext": "Bosna-Hersek Federasyonu'ndaki şirketler yasal olarak yıllık finansal tablolar hazırlamakla yükümlüdür; işletme sahipleri ve yönetim de yıl içinde anlaşılır yönetim raporlarına ihtiyaç duyar. Saraybosna, Ilidža ve Saraybosna Kantonu'ndaki müşterilerimiz için yıllık yıl sonu kapanışını ve yasal finansal tabloları, aylık veya üç aylık yönetim özetlerini ve bankalar ile iş ortakları için rapor paketlerini hazırlıyoruz. Raporlar düzenli tutulan muhasebe kayıtlarına dayanır; sonuçları, yükümlülükleri ve eğilimleri sade bir dille açıklarız.",
+      "bestForTitle": "Kimler için uygun",
       "bestFor": [
         "Daha net aylık raporlama ihtiyacı olan şirketler",
         "Bankalar, ortaklar veya yatırımcılar için dokümantasyon hazırlayan yöneticiler",
@@ -283,7 +337,7 @@
           "description": "Yasal olarak belirlenen mali tabloları ve onlara eşlik eden incelemeleri uygun muhasebe kayıtları temelinde hazırlıyoruz."
         },
         {
-          "title": "Yönetici haberciliği",
+          "title": "Yönetim raporlaması",
           "description": "Sonuçları, yükümlülükleri, marjları ve trendleri açıklayan kısa aylık veya üç aylık incelemeler oluştururuz."
         },
         {
@@ -315,20 +369,29 @@
         "Bankalar veya ortaklar için rapor paketleri",
         "Son Raporlama Desteği"
       ],
+      "interiorAlt": "Grafikli basılı finansal raporları inceleyen iki profesyonel",
       "cta": {
         "title": "Kullanımı daha kolay raporlar mı istiyorsunuz?",
         "description": "Muhasebe verilerini yönetim, ortaklar, bankalar veya iç planlama için net bir formata dönüştürebiliriz.",
         "button": "Raporlamayı iyileştirin"
-      }
+      },
+      "related": [
+        "bookkeeping",
+        "virtualCfo"
+      ],
+      "relatedPosts": []
     },
     "education": {
       "label": "06",
       "title": "Eğitim ve Kurslar",
-      "shortDescription": "Muhasebe, vergi ve finans alanlarında çalışanlar, sahiplerin ve ekiplerin sorumlulukları anlamalarına ve daha iyi kararlar almasına yardımcı olur.",
+      "heroTitle": "Saraybosna'da şirketler ve şahıs işletmeleri için muhasebe ve vergi eğitimleri",
+      "shortDescription": "İşletme sahiplerinin ve ekiplerin yükümlülüklerini anlamasına ve daha iyi kararlar almasına yardımcı olan muhasebe, vergi ve finans atölyeleri.",
       "heroDescription": "Daha iyi finansal okuryazarlık hataları azaltır, iç iletişimi geliştirir ve ekiplerin muhasebecilerle daha etkili iş birliği yapmasına yardımcı olur.",
       "overviewTitle": "Günlük işleri kolaylaştıran bilgi",
       "overview": "Sahipler, yöneticiler ve idari ekipler için muhasebe temelleri, dokümantasyon hazırlama, vergi teslim tarihleri, maaşların temelleri, raporların yorumlanması ve muhasebe ile daha iyi iş birliği gibi pratik eğitimler düzenliyoruz.",
-      "bestForTitle": "En iyisi",
+      "localContextTitle": "Saraybosna'da eğitimler ve danışmanlık",
+      "localContext": "İdari işlerinin veya defter tutmanın bir kısmını şirket içinde yürüten Saraybosna ve Ilidža'daki şirketlere ve şahıs işletmelerine bireysel mesleki destek ve uygulamalı eğitim sunuyoruz. Bu; iç belgelerin düzenlenmesini, çalışanlara muhasebe programı kullanım eğitimini, muhasebe süreçlerinin temellerini ve yönetimin finansal tabloları okumasına destek olmayı kapsayabilir. Kendi defterlerini tutan şahıs işletmeleri, Bosna-Hersek Federasyonu'ndaki yasal yükümlülükleri ve kayıtları hakkında bireysel danışmanlık alabilir. İçeriği ekibinizin gerçek çalışma biçimine göre, günlük uygulamadan örneklerle uyarlıyoruz.",
+      "bestForTitle": "Kimler için uygun",
       "bestFor": [
         "Sorumluluklarını anlamak isteyen sahipler",
         "Belgeleri ve faturaları yöneten idari personel",
@@ -343,10 +406,10 @@
         },
         {
           "title": "Uygulamada vergiler ve ücretler",
-          "description": "Sık sık taahhütler, düzenli teslim tarihleri, katkı temelleri ve pratik risk noktalarını kapsarız."
+          "description": "Yaygın yükümlülükleri, düzenli son tarihleri, prim temellerini ve pratik risk noktalarını ele alıyoruz."
         },
         {
-          "title": "Mali Raporlama",
+          "title": "Rapor okuryazarlığı",
           "description": "Ekiplerin finansal tabloları, yönetici incelemelerini ve bu raporların yanıtlaması gereken soruları anlamalarına yardımcı oluyoruz."
         }
       ],
@@ -362,7 +425,7 @@
         },
         {
           "title": "Uygulama",
-          "description": "Takım kontrol listeleri, rutinler ve daha net sorumluluklar alıyor."
+          "description": "Ekibe kontrol listeleri, rutinler ve daha net sorumluluklar bırakıyoruz."
         }
       ],
       "deliverablesTitle": "Tipik sonuçlar",
@@ -374,11 +437,19 @@
         "Rapor okuma oturumları",
         "Ekip için Soru-Cevap"
       ],
+      "interiorAlt": "Atölye sırasında bir katılımcıyla eğitim materyalini inceleyen eğitmen",
       "cta": {
         "title": "Ekibinizin sayıları daha iyi anlamasını mı istiyorsunuz?",
-        "description": "Muhasebe süreciniz, raporlama veya vergi SSS'iniz etrafında odaklanmış bir atölye hazırlayabiliriz.",
+        "description": "Muhasebe süreciniz, raporlama ihtiyaçlarınız veya tekrarlayan vergi sorularınız etrafında odaklanmış bir atölye hazırlayabiliriz.",
         "button": "Eğitiminizi planlayın"
-      }
+      },
+      "related": [
+        "taxConsulting",
+        "bookkeeping"
+      ],
+      "relatedPosts": [
+        "importance-of-entrepreneurship-programs"
+      ]
     }
   }
 }

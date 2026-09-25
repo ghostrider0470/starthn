@@ -59,9 +59,28 @@ const LOCALE_BY_LOWERCASE_CODE = new Map(
 )
 
 /**
+ * Bare language subtag → locale, for languages with exactly one supported
+ * locale ("sr" → "sr-Latn", "zh" → "zh-Hans"). Covers the locales whose
+ * translator code is not the bare language.
+ */
+const LOCALE_BY_LANGUAGE_SUBTAG = (() => {
+  const byLanguage = new Map<string, Array<string>>()
+  for (const code of ALL_LANGUAGE_CODES) {
+    const language = code.split('-')[0].toLowerCase()
+    byLanguage.set(language, [...(byLanguage.get(language) ?? []), code])
+  }
+  return new Map(
+    [...byLanguage]
+      .filter(([, codes]) => codes.length === 1)
+      .map(([language, codes]) => [language, codes[0]]),
+  )
+})()
+
+/**
  * Map a near-miss locale segment to the supported locale it clearly means:
  * wrong case ("en-us" → "en-US") or a bare language code ("en" → "en-US",
- * "bs" → "bs-BA"). Returns null when the segment isn't a locale at all.
+ * "bs" → "bs-BA", "sr" → "sr-Latn"). Returns null when the segment isn't a
+ * locale at all.
  */
 export function resolveLocaleAlias(
   segment: string | undefined,
@@ -73,6 +92,7 @@ export function resolveLocaleAlias(
   return (
     LOCALE_BY_LOWERCASE_CODE.get(lower) ??
     TRANSLATOR_CODE_MAP.get(lower)?.code ??
+    LOCALE_BY_LANGUAGE_SUBTAG.get(lower) ??
     null
   )
 }

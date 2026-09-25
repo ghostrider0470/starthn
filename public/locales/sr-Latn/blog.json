@@ -1,14 +1,17 @@
 {
   "filters": {
-    "all": "Svi oni"
+    "all": "Svi",
+    "showLess": "Prikaži manje",
+    "showMore": "+{{count}} više",
+    "searchCategories": "Pretraži kategorije…"
   },
   "readTime": "{{minutes}} min čitanja",
-  "tagsLabel": "Bilten",
-  "relatedPosts": "Vezani članci",
+  "tagsLabel": "Oznake",
+  "relatedPosts": "Povezani članci",
   "author": {
-    "role": "Izdavač"
+    "role": "Autor"
   },
   "editor": {
-    "emptyPreview": "Počnite da pišete da biste videli trejler ..."
+    "emptyPreview": "Počnite da pišete da biste videli pregled..."
   }
 }

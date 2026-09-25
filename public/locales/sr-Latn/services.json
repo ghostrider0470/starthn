@@ -1,68 +1,79 @@
 {
   "common": {
-    "fallbackTitle": "Pretraga",
-    "service": "Pretraga",
-    "overview": "Pretraga",
+    "fallbackTitle": "Usluga",
+    "service": "Usluga",
+    "overview": "Pregled",
     "scope": "Ono što pokrivamo",
     "process": "Kako radimo",
-    "outputs": "Pretraga",
+    "outputs": "Rezultati",
     "nextStep": "Sledeći korak",
     "learnMore": "Saznajte više",
     "ctaPrimary": "Započnite razgovor",
-    "ctaSecondary": "Pogledaj sve usluge",
-    "backToServices": "Nazad na servis"
+    "ctaSecondary": "Pogledajte sve usluge",
+    "backToServices": "Nazad na usluge"
   },
   "index": {
     "overline": "Usluge Start HN",
-    "title": "Računovodstvena podrška za svaku fazu poslovanja.",
-    "description": "Šest jasnih oblasti usluga pokrivaju knjigovodstvo, poreske obaveze, izveštavanje, konsalting i obrazovanje koje daje vašem poslovanju bolju kontrolu.",
+    "title": "Računovodstvene usluge za preduzeća, preduzetnike i udruženja",
+    "description": "Računovodstvene usluge Start HN: knjigovodstvo, poresko savetovanje, virtuelni CFO, finansijsko izveštavanje, poslovno savetovanje i obuke za preduzeća, preduzetnike i udruženja u Sarajevu i na Ilidži.",
     "introOverline": "Usluge",
     "introTitle": "Jedan tim, jasna finansijska slika",
-    "introBody": "Start HN povezuje praktično knjigovodstvo, poresko praćenje, finansijsko izveštavanje i savetodavnu podršku tako da vlasnici i menadžment mogu da donose odluke na osnovu pouzdanih podataka, a ne masovne dokumentacije.",
+    "introBody": "Start HN povezuje praktično knjigovodstvo, praćenje poreza, finansijsko izveštavanje i savetodavnu podršku, tako da vlasnici i menadžeri mogu da donose odluke na osnovu pouzdanih brojeva, a ne razbacane dokumentacije.",
     "cta": {
       "title": "Niste sigurni koja usluga vam je potrebna?",
-      "description": "Recite nam kako vaše poslovanje trenutno funkcioniše i mi ćemo vam predložiti pravi obim podrške: redovno knjigovodstvo, dubinsko savjetovanje ili fokusirane konsultacije.",
+      "description": "Recite nam kako vaše preduzeće danas funkcioniše i predložićemo vam pravi obim podrške: redovno knjigovodstvo, dublje savetovanje ili fokusiranu konsultaciju.",
       "button": "Zakažite konsultacije"
+    }
+  },
+  "related": {
+    "title": "Povezane usluge",
+    "postsTitle": "Povezani članci",
+    "postLabels": {
+      "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance": "Vodič: pokretanje biznisa u BiH (obrt ili d.o.o.)",
+      "importance-of-entrepreneurship-programs": "Programi podrške preduzetništvu u Kantonu Sarajevo"
     }
   },
   "items": {
     "bookkeeping": {
       "label": "01",
-      "title": "Računovodstvo i knjigovodstvo",
-      "shortDescription": "Kompletno knjigovodstvo, računovodstvena evidencija, platni spisak, evidencija PDV-a i završni izveštaji za obrte i preduzeća.",
-      "heroDescription": "Pouzdane knjige su operativna osnova svakog posla. Vašu evidenciju vodimo tačno, ažurno i spremno za poreske rokove, banke i menadžerske odluke.",
+      "title": "Knjigovodstvo i računovodstvo",
+      "heroTitle": "Knjigovodstvo i računovodstvo za preduzeća i preduzetnike u Sarajevu",
+      "shortDescription": "Kompletno knjigovodstvo, računovodstvena evidencija, obračun plata, evidencija PDV-a i godišnji izveštaji za preduzetnike i preduzeća.",
+      "heroDescription": "Knjigovodstvene usluge za društva sa ograničenom odgovornošću (d.o.o.), preduzetnike i udruženja iz Sarajeva i sa Ilidže: knjiženje faktura i troškova, obračun plata i doprinosa, PDV i godišnji završni račun – tačno i pre rokova.",
       "overviewTitle": "Dnevni zapisi bez dnevnog opterećenja",
-      "overview": "Organizujemo ceo računovodstveni ciklus: prijem dokumentacije, knjiženje faktura i troškova, obračun plata i doprinosa, evidenciju PDV-a, pravne prijave i godišnje zatvaranje. Cilj je jednostavan: uredna evidencija, jasne odgovornosti i bez iznenađenja pre rokova.",
+      "overview": "Organizujemo ceo knjigovodstveni ciklus: prijem dokumentacije, knjiženje faktura i troškova, obračun plata i doprinosa, evidenciju PDV-a, zakonske prijave i godišnje zatvaranje knjiga. Cilj je jednostavan: uredna evidencija, jasne odgovornosti i bez iznenađenja u poslednjem trenutku.",
+      "localContextTitle": "Knjigovodstvo za preduzeća i preduzetnike iz Sarajeva i sa Ilidže",
+      "localContext": "Start HN je računovodstvena agencija sa sedištem na adresi Ibrahima Ljubovića 47, 71210 Ilidža, koja radi sa preduzećima, preduzetnicima i udruženjima sa Ilidže, iz Sarajeva i Kantona Sarajevo. Poslovne knjige vodimo u skladu sa propisima Federacije BiH: knjiženje ulaznih i izlaznih faktura i troškova, obračun plata i doprinosa, evidencija i prijave PDV-a i godišnji završni račun. Dokumentaciju možete dostaviti lično, e-mailom ili digitalno. Primarno radimo u programu Pantheon, a možemo raditi i u sistemu koji vaše preduzeće već koristi.",
       "bestForTitle": "Najbolje za",
       "bestFor": [
-        "Mala i srednja preduzeća kojima je potrebna redovna računovodstvena podrška.",
-        "Zanati i samozaposleni preduzeća koji žele odgovarajuće pravne evidencije",
-        "Timovi koji se kreću od drugog računovođe",
+        "Mala i srednja preduzeća kojima je potrebna redovna računovodstvena podrška",
+        "Preduzetnici i zanatlije kojima je potrebna uredna zakonska evidencija",
+        "Timovi koji prelaze od drugog računovođe",
         "Vlasnici koji žele jasne mesečne brojeve, a ne samo godišnje izveštaje"
       ],
       "detailsTitle": "Obim računovodstva",
       "details": [
         {
-          "title": "Podesite i preuzmite knjige",
-          "description": "Pregledamo registraciju, postojeće evidencije, početne bilance, podatke o platama i raspored obaveza kako bismo dobili uslugu sa zemlje."
+          "title": "Postavljanje i preuzimanje knjiga",
+          "description": "Pregledamo registraciju, postojeću evidenciju, početna stanja, podatke o platama i kalendar obaveza, kako bi usluga krenula od čiste osnove."
         },
         {
           "title": "Mesečne računovodstvene operacije",
           "description": "Fakture, troškovi, bankovne transakcije, plate, doprinosi, evidencije PDV-a i redovne zakonske obaveze obrađuju se predvidljivim mesečnim tempom."
         },
         {
-          "title": "Godišnji računi i godišnji zatvaranje",
-          "description": "Pripremamo konačne kalkulacije, finansijske izveštaje, poreske prijave i prateću dokumentaciju kako bi poslovanje bilo usklađeno i spremno za kontrole."
+          "title": "Godišnji izveštaji i zatvaranje",
+          "description": "Pripremamo završne obračune, finansijske izveštaje, poreske prijave i dokumentaciju za zatvaranje godine, kako bi poslovanje ostalo usklađeno i spremno za kontrolu."
         }
       ],
       "processTitle": "Predvidljiv mesečni ritam",
       "process": [
         {
-          "title": "Pretraga",
-          "description": "Dokumentaciju podnosite digitalno ili fizički u skladu sa dogovorenim radnim procesom."
+          "title": "Prikupljanje",
+          "description": "Dokumentaciju šaljete digitalno ili fizički, u skladu sa dogovorenim načinom rada."
         },
         {
-          "title": "Pretraga",
+          "title": "Obrada",
           "description": "Knjigujemo transakcije, izračunavamo obaveze i proveravamo evidenciju pre rokova."
         },
         {
@@ -79,22 +90,33 @@
         "Potvrde o podnošenju prijava",
         "Redovno računovodstveno savetovanje"
       ],
+      "interiorAlt": "Računovođa za računarom sa listom završenih mesečnih zadataka: PDV prijava, obračun plata i knjiženje",
       "cta": {
         "title": "Spremni da uredite svoje knjige?",
         "description": "Pregledaćemo vašu trenutnu evidenciju i definisati mesečni računovodstveni tok koji odgovara načinu na koji vaše poslovanje zapravo funkcioniše.",
         "button": "Zatražite knjigovodstvenu podršku"
-      }
+      },
+      "related": [
+        "taxConsulting",
+        "financialReporting"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
+      ]
     },
     "taxConsulting": {
       "label": "02",
       "title": "Poresko savetovanje",
-      "shortDescription": "Poresko praćenje, planiranje, podrška aplikacijama, praćenje rokova i praktične smernice za fizička i pravna lica.",
-      "heroDescription": "Poreske obaveze se brzo menjaju, a greške su skupe. Pomažemo vam da razumete šta je primenljivo, šta treba i kako planirati u skladu sa propisima.",
+      "heroTitle": "Poresko savetovanje i PDV za preduzeća i preduzetnike u Sarajevu",
+      "shortDescription": "Praćenje poreza, planiranje, podrška pri prijavama, praćenje rokova i praktične smernice za fizička lica i preduzeća.",
+      "heroDescription": "Poreske obaveze se brzo menjaju, a greške su skupe. Pomažemo vam da razumete šta važi za vas, šta dospeva i kako da planirate u okviru propisa.",
       "overviewTitle": "Poreski savet pre nego što se pojavi problem",
       "overview": "Naša poreska podrška povezuje usklađenost i planiranje: pratimo rokove, pregledamo obaveze, objašnjavamo regulatorne promene, pripremamo prijave i savetujemo pre nego što odluke stvore nepotrebne troškove ili rizik.",
+      "localContextTitle": "Poreske obaveze preduzeća i preduzetnika u Federaciji BiH",
+      "localContext": "Preduzeća i preduzetnici sa sedištem u Sarajevu i drugim delovima Federacije BiH imaju poreske obaveze prema propisima BiH i Federacije BiH. Iz naše kancelarije na Ilidži pripremamo i podnosimo PDV prijave, prijave poreza na dobit i poreza na dohodak i druge zakonske prijave, pratimo izmene propisa i blagovremeno vas obaveštavamo kada neka promena utiče na vaše poslovanje. Poresko savetovanje najbolje funkcioniše kada je povezano sa urednim knjigovodstvom, jer se prijave tada zasnivaju na pouzdanim evidencijama.",
       "bestForTitle": "Najbolje za",
       "bestFor": [
-        "Kompanije kojima je potreban redovan poreski nadzor",
+        "Preduzeća kojima je potrebno redovno praćenje poreza",
         "Vlasnici koji donose odluke o investicijama, zapošljavanju ili cenama",
         "Fizička lica i preduzetnici sa obavezama izveštavanja",
         "Preduzeća koja žele da smanje kazne i naknadne korekcije"
@@ -103,11 +125,11 @@
       "details": [
         {
           "title": "Pregled obaveza",
-          "description": "Pregledamo aktivne registracije, rane registracije, izloženost PDV-u i platama i predstojeće rokove."
+          "description": "Pregledamo aktivne registracije, ranije prijave, obaveze po osnovu plata i PDV-a i predstojeće rokove."
         },
         {
-          "title": "Podrška za usklađenost i izveštavanje",
-          "description": "Pripremamo i pregledavamo poreske prijave, pratimo rokove i pomažemo u ispravljanju propusta pre nego što postanu kazne."
+          "title": "Podrška pri usklađenosti i prijavama",
+          "description": "Pripremamo i pregledamo poreske prijave, pratimo rokove i pomažemo da se propusti isprave pre nego što dovedu do kazni."
         },
         {
           "title": "Planiranje i podrška odlučivanju",
@@ -121,12 +143,12 @@
           "description": "Mapiramo trenutnu poresku poziciju i identifikujemo otvorene obaveze ili rizične tačke."
         },
         {
-          "title": "Pretraga",
+          "title": "Planiranje",
           "description": "Definišemo rokove, odgovornosti i zakonske mogućnosti za poresko planiranje."
         },
         {
           "title": "Održavanje",
-          "description": "Usklađujemo izveštaje i savete sa vašim poslovnim aktivnostima i regulatornim promenama."
+          "description": "Prijave i savete usklađujemo sa vašim poslovnim aktivnostima i izmenama propisa."
         }
       ],
       "deliverablesTitle": "Tipični rezultati",
@@ -136,29 +158,40 @@
         "Uputstvo za doprinose za plate",
         "Pregled i ispravke prijava",
         "Napomene o poreskom planiranju",
-        "Rok i podrška za usklađenost"
+        "Praćenje rokova i usklađenosti"
       ],
+      "interiorAlt": "Poreska savetnica klijentu na ekranu objašnjava pregled poreskih obaveza",
       "cta": {
         "title": "Potrebna vam je jasnoća o vašim poreskim obavezama?",
         "description": "Pošaljite nam svoju trenutnu situaciju i mi ćemo vam pomoći da shvatite šta je potrebno, šta se može poboljšati i koji je sledeći korak.",
         "button": "Razgovarajte o poreskoj podršci"
-      }
+      },
+      "related": [
+        "bookkeeping",
+        "businessConsulting"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
+      ]
     },
     "virtualCfo": {
       "label": "03",
-      "title": "Virtuelni finansijski direktor",
-      "shortDescription": "Viši finansijski uvid bez stalnog finansijskog direktora: novčani tok, budžeti, KPI i podrška odlučivanju.",
-      "heroDescription": "Virtuelni finansijski direktor daje vlasnicima i menadžmentu jasniji pogled na finansijsko zdravlje, novčani tok, profitabilnost i strateške izbore.",
-      "overviewTitle": "Finansijsko upravljanje na fleksibilnoj osnovi.",
+      "title": "Virtuelni CFO",
+      "heroTitle": "Virtuelni CFO za mala i srednja preduzeća u Sarajevu",
+      "shortDescription": "Iskusan finansijski uvid bez stalnog finansijskog direktora: novčani tok, budžetiranje, KPI pokazatelji i podrška odlučivanju.",
+      "heroDescription": "Virtuelni CFO vlasnicima i menadžmentu daje jasniji uvid u finansijsko stanje, novčani tok, profitabilnost i strateške izbore.",
+      "overviewTitle": "Finansijsko vođstvo na fleksibilnoj osnovi",
       "overview": "Prevodimo računovodstvene podatke u praktične menadžerske uvide: budžete, prognoze, planiranje novčanog toka, analizu profitabilnosti i finansijske pokazatelje koji pokazuju gde je kompanija jaka i gde je potrebna pažnja.",
+      "localContextTitle": "Finansijsko vođstvo bez stalnog finansijskog direktora",
+      "localContext": "Mnogim malim i srednjim preduzećima u Sarajevu i Kantonu Sarajevo nije potreban stalni finansijski direktor, ali su im za odluke potrebni pouzdani brojevi. Kao virtuelni CFO, Start HN priprema prognoze novčanog toka, planira budžete, sprovodi finansijske analize i priprema izveštaje za upravu, a po potrebi prisustvujemo i sastancima. Kada vodimo i vaše knjigovodstvo, analize se zasnivaju na ažurnim podacima iz vaših poslovnih knjiga. Usluga je posebno korisna vlasnicima koji pripremaju odluke o finansiranju ili investicijama.",
       "bestForTitle": "Najbolje za",
       "bestFor": [
-        "Rastuće kompanije kojima je potrebno više od knjigovodstva.",
-        "Vlasnici koji pripremaju finansijske ili investicione odluke",
+        "Rastuća preduzeća kojima je potrebno više od knjigovodstva",
+        "Vlasnici koji pripremaju odluke o finansiranju ili investicijama",
         "Timovi bez internog finansijskog direktora",
         "Menadžeri koji žele da pretvore mesečne brojeve u akciju"
       ],
-      "detailsTitle": "Uloga virtuelnog finansijskog direktora",
+      "detailsTitle": "Obim usluge virtuelnog CFO-a",
       "details": [
         {
           "title": "Pregled finansijskog zdravlja",
@@ -184,32 +217,41 @@
           "description": "Gradimo praktične budžete, prognoze i scenarije zasnovane na realnim poslovnim pretpostavkama."
         },
         {
-          "title": "Konsalting",
-          "description": "Redovno objašnjavamo rezultate, rizike i preporučene sledeće korake."
+          "title": "Savetovanje",
+          "description": "Redovno se sastajemo da objasnimo rezultate, rizike i preporučene sledeće korake."
         }
       ],
       "deliverablesTitle": "Tipični rezultati",
       "deliverables": [
-        "Mesečni izveštaj o upravljanju",
+        "Mesečni menadžerski izveštaj",
         "Prognoza novčanog toka",
         "Analiza budžeta i odstupanja",
-        "Struktura KPI izveštaja",
+        "Struktura KPI kontrolne table",
         "Analiza profitabilnosti",
         "Savetodavni sastanci"
       ],
+      "interiorAlt": "Odštampana prognoza novčanog toka sa grafikonom i tabelom na radnom stolu",
       "cta": {
-        "title": "Da li vam je potrebna jasnoća na nivou finansijskog direktora?",
+        "title": "Potrebna vam je jasnoća na nivou finansijskog direktora?",
         "description": "Možemo pretvoriti vaše računovodstvene podatke u menadžerski pregled koji podržava rast, finansiranje i bolje odluke.",
-        "button": "Razgovarajte o virtuelnom finansijskom direktoru"
-      }
+        "button": "Razgovarajte o usluzi virtuelnog CFO-a"
+      },
+      "related": [
+        "financialReporting",
+        "businessConsulting"
+      ],
+      "relatedPosts": []
     },
     "businessConsulting": {
       "label": "04",
       "title": "Poslovno savetovanje",
+      "heroTitle": "Poslovno savetovanje za preduzeća i preduzetnike u Sarajevu",
       "shortDescription": "Praktični poslovni saveti za organizaciju, rast, interne procese, troškove, cene i operativne odluke.",
-      "heroDescription": "Dobar računovodstveni račun pokazuje šta se dogodilo. Dobra konsultacija vam pomaže da odlučite šta bi trebalo da se desi sledeće.",
+      "heroDescription": "Dobro računovodstvo pokazuje šta se dogodilo. Dobro savetovanje pomaže vam da odlučite šta treba da se desi sledeće.",
       "overviewTitle": "Praktične smernice zasnovane na brojevima",
       "overview": "Podržavamo vlasnike i menadžere u finansijskim i operativnim odlukama: poslovna organizacija, poboljšanje procesa, kontrola troškova, cene, disciplina naplate, interna dokumentacija i planiranje rasta.",
+      "localContextTitle": "Poslovno savetovanje za preduzetnike u Sarajevu",
+      "localContext": "Preduzetnicima i preduzećima iz Sarajeva i sa Ilidže pomažemo da poslovne odluke donose na osnovu brojeva iz sopstvenih knjiga. Savetujemo o organizaciji poslovanja i toku dokumentacije, kontroli troškova, formiranju cena, naplati potraživanja i planiranju rasta. Startapima i novim biznisima pružamo podršku od prvog dana poslovanja, a o izboru između obrta i društva sa ograničenom odgovornošću (d.o.o.) pisali smo u vodiču o pokretanju biznisa u BiH. Savetovanje je povezano sa knjigovodstvom i porezima, pa preporuke uzimaju u obzir i vaše zakonske obaveze u Federaciji BiH.",
       "bestForTitle": "Najbolje za",
       "bestFor": [
         "Nova preduzeća koja postavljaju finansijske procese",
@@ -217,14 +259,14 @@
         "Vlasnici koji procenjuju troškove, cene ili proširenje",
         "Timovi koji žele savete vezane za računovodstvenu stvarnost"
       ],
-      "detailsTitle": "Obim poslovnog konsaltinga",
+      "detailsTitle": "Obim savetovanja",
       "details": [
         {
           "title": "Organizacija i uspostavljanje poslovanja",
           "description": "Pomažemo u definisanju toka dokumentacije, odgovornosti za izveštavanje, računovodstvene rutine i praktične kontrole u svakodnevnom radu."
         },
         {
-          "title": "Podrška finansijskim odlukama.",
+          "title": "Podrška finansijskim odlukama",
           "description": "Pregledamo troškove, marže, cene, potrebe za gotovinom i planirane investicije tako da odluke imaju merljiv efekat."
         },
         {
@@ -239,11 +281,11 @@
           "description": "Mapiramo postojeći proces, dokumente i finansijska pitanja."
         },
         {
-          "title": "Prioriteti",
+          "title": "Određivanje prioriteta",
           "description": "Ističemo promene koje donose najbržu i najvažniju poslovnu vrednost."
         },
         {
-          "title": "Pretraga",
+          "title": "Primena",
           "description": "Definišemo praktične korake, odgovornosti i praćenje."
         }
       ],
@@ -252,34 +294,46 @@
         "Pregled poslovnih procesa",
         "Napomene o troškovima i maržama",
         "Smernice za određivanje cena i novčanog toka",
-        "Preporuke za interne kontrole.",
+        "Preporuke za interne kontrole",
         "Podešavanje protoka dokumentacije",
         "Savetodavni sastanci sa vlasnikom"
       ],
+      "interiorAlt": "Poslovni savetnik sa klijentkinjom analizira grafikone i beleške za stolom",
       "cta": {
         "title": "Potreban vam je praktičan pregled vašeg poslovanja?",
-        "description": "Pogledaćemo vaše brojeve i operativni levak, a zatim preporučiti promene koje najviše poboljšavaju kontrolu i profitabilnost.",
+        "description": "Pogledaćemo vaše brojeve i tok poslovanja, a zatim preporučiti promene koje će najverovatnije poboljšati kontrolu i profitabilnost.",
         "button": "Zatražite konsultacije"
-      }
+      },
+      "related": [
+        "virtualCfo",
+        "bookkeeping"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance",
+        "importance-of-entrepreneurship-programs"
+      ]
     },
     "financialReporting": {
       "label": "05",
       "title": "Finansijsko izveštavanje",
-      "shortDescription": "Jasni pravni i menadžerski izveštaji koji pomažu da se razumeju rezultati, obaveze, i finansijski trendovi.",
-      "heroDescription": "Izveštaji ne moraju biti nerazumljivi fajlovi koji samo ispunjavaju rok. Oni moraju da znaju šta se dešava u poslu.",
+      "heroTitle": "Finansijsko izveštavanje i završni račun za preduzeća u Sarajevu",
+      "shortDescription": "Jasni zakonski i menadžerski izveštaji koji vam pomažu da razumete rezultate, obaveze i finansijske trendove.",
+      "heroDescription": "Izveštaji ne treba da budu nejasni fajlovi koji samo ispunjavaju rok. Treba da objasne šta se dešava u poslovanju.",
       "overviewTitle": "Izveštaji koje menadžment zapravo koristi",
-      "overview": "Pripremamo pravne izveštaje, menadžerske rezimee, finansijske izveštaje i analitičke formate koji olakšavaju razumevanje prihoda, rashoda, dobiti, likvidnosti i obaveza.",
+      "overview": "Pripremamo zakonske izveštaje, menadžerske rezimee, finansijske izveštaje i analitičke formate koji olakšavaju razumevanje prihoda, rashoda, dobiti, likvidnosti i obaveza.",
+      "localContextTitle": "Završni račun i izveštaji za preduzeća u Federaciji BiH",
+      "localContext": "Privredna društva u Federaciji BiH zakonski su obavezna da sastavljaju godišnje finansijske izveštaje, a vlasnicima i menadžmentu tokom godine potrebni su i jasni menadžerski izveštaji. Za klijente iz Sarajeva, sa Ilidže i iz Kantona Sarajevo pripremamo godišnji završni račun i zakonom propisane finansijske izveštaje, mesečne ili kvartalne menadžerske rezimee i pakete izveštaja za banke i partnere. Izveštaji se zasnivaju na urednoj računovodstvenoj evidenciji, a rezultate, obaveze i trendove objašnjavamo jednostavnim jezikom.",
       "bestForTitle": "Najbolje za",
       "bestFor": [
         "Kompanije kojima je potrebno jasnije mesečno izveštavanje",
         "Menadžeri koji pripremaju dokumentaciju za banke, partnere ili investitore",
-        "Vlasnici koji žele da prate profit i gotovinu u svakom trenutku",
-        "Preduzeća koja treba da usklade pravne i menadžerske stavove"
+        "Vlasnici koji žele dosledno da prate profit i gotovinu",
+        "Preduzeća kojima su potrebni usklađeni zakonski i menadžerski pregledi"
       ],
       "detailsTitle": "Obim izveštavanja",
       "details": [
         {
-          "title": "Statutarno finansijsko izveštavanje",
+          "title": "Zakonsko finansijsko izveštavanje",
           "description": "Izrađujemo zakonom propisane finansijske izveštaje i prateće preglede na osnovu odgovarajuće računovodstvene evidencije."
         },
         {
@@ -294,8 +348,8 @@
       "processTitle": "Jasan ciklus izveštavanja",
       "process": [
         {
-          "title": "Pretraga",
-          "description": "Definišemo na koja pitanja treba odgovoriti na izveštaj i ko će ga koristiti."
+          "title": "Struktura",
+          "description": "Definišemo na koja pitanja izveštaj treba da odgovori i ko će ga koristiti."
         },
         {
           "title": "Priprema",
@@ -309,25 +363,34 @@
       "deliverablesTitle": "Tipični rezultati",
       "deliverables": [
         "Finansijski izveštaji",
-        "Mesečni rezimei menadžera",
+        "Mesečni menadžerski rezimei",
         "Analiza profita i troškova",
         "Pregled gotovine i obaveza",
         "Paketi izveštaja za banke ili partnere",
         "Podrška za završno izveštavanje"
       ],
+      "interiorAlt": "Dvoje stručnjaka pregleda odštampane finansijske izveštaje sa grafikonima",
       "cta": {
         "title": "Želite izveštaje koji su lakši za korišćenje?",
         "description": "Računovodstvene podatke možemo pretvoriti u jasan format za upravljanje, partnere, banke ili interno planiranje.",
         "button": "Poboljšajte izveštavanje"
-      }
+      },
+      "related": [
+        "bookkeeping",
+        "virtualCfo"
+      ],
+      "relatedPosts": []
     },
     "education": {
       "label": "06",
-      "title": "Obrazovanje i kursevi",
-      "shortDescription": "Radionice iz računovodstva, poreza i finansija koje pomažu vlasnicima i timovima da shvate odgovornosti i donose bolje odluke.",
+      "title": "Edukacija i kursevi",
+      "heroTitle": "Obuke iz računovodstva i poreza za preduzeća i preduzetnike u Sarajevu",
+      "shortDescription": "Radionice iz računovodstva, poreza i finansija koje pomažu vlasnicima i timovima da razumeju obaveze i donose bolje odluke.",
       "heroDescription": "Bolja finansijska pismenost smanjuje greške, poboljšava internu komunikaciju i pomaže timovima da efikasnije sarađuju sa računovođama.",
       "overviewTitle": "Znanje koje olakšava svakodnevni rad",
       "overview": "Organizujemo praktične obuke za vlasnike, rukovodioce i administrativne timove: osnove računovodstva, pripremu dokumentacije, poreske rokove, osnove plata, tumačenje izveštaja i bolju saradnju sa računovodstvom.",
+      "localContextTitle": "Obuke i konsultacije u Sarajevu",
+      "localContext": "Preduzećima i preduzetnicima iz Sarajeva i sa Ilidže koji deo administracije ili knjigovodstva vode interno pružamo individualnu stručnu podršku i praktičnu obuku. To može obuhvatati organizaciju interne dokumentacije, obuku zaposlenih za rad u računovodstvenom softveru, osnove računovodstvenih procesa i pomoć menadžmentu u čitanju finansijskih izveštaja. Preduzetnici koji sami vode poslovne knjige mogu dobiti individualne konsultacije o zakonskim obavezama i evidencijama u Federaciji BiH. Sadržaj prilagođavamo stvarnom radu vašeg tima, uz primere iz svakodnevne prakse.",
       "bestForTitle": "Najbolje za",
       "bestFor": [
         "Vlasnici koji žele da shvate svoje obaveze",
@@ -335,7 +398,7 @@
         "Timovi koji uvode nove procese izveštavanja",
         "Menadžeri koji žele da čitaju finansijske izveštaje sa više poverenja"
       ],
-      "detailsTitle": "Obim obrazovanja",
+      "detailsTitle": "Obim edukacije",
       "details": [
         {
           "title": "Osnove računovodstva",
@@ -346,22 +409,22 @@
           "description": "Pokrivamo česte obaveze, redovne rokove, osnove doprinosa i praktične tačke rizika."
         },
         {
-          "title": "Finansijsko izveštavanje",
+          "title": "Razumevanje izveštaja",
           "description": "Pomažemo timovima da razumeju finansijske izveštaje, menadžerske preglede i pitanja na koja ovi izveštaji moraju da odgovore."
         }
       ],
-      "processTitle": "Obrazovanje izgrađeno oko stvarnog rada",
+      "processTitle": "Obuka zasnovana na stvarnom radu",
       "process": [
         {
-          "title": "Definicija",
-          "description": "Mi određujemo šta tim treba da razume i koje greške treba sprečiti."
+          "title": "Definisanje",
+          "description": "Utvrđujemo šta tim treba da razume i koje greške treba sprečiti."
         },
         {
-          "title": "Obrazovanje",
+          "title": "Obuka",
           "description": "Sprovodimo praktične sesije sa primerima bliskim vašem svakodnevnom radu."
         },
         {
-          "title": "Pretraga",
+          "title": "Primena",
           "description": "Tim dobija kontrolne liste, rutine i jasnije odgovornosti."
         }
       ],
@@ -374,11 +437,19 @@
         "Sesije za čitanje izveštaja",
         "Pitanja i odgovori za tim"
       ],
+      "interiorAlt": "Predavačica sa polaznicom prolazi kroz materijal tokom radionice",
       "cta": {
         "title": "Želite da vaš tim bolje razume brojeve?",
         "description": "Možemo pripremiti fokusiranu radionicu oko vašeg računovodstvenog procesa, izveštavanja ili često postavljanih pitanja o porezu.",
-        "button": "Planirajte svoj trening"
-      }
+        "button": "Isplanirajte obuku"
+      },
+      "related": [
+        "taxConsulting",
+        "bookkeeping"
+      ],
+      "relatedPosts": [
+        "importance-of-entrepreneurship-programs"
+      ]
     }
   }
 }

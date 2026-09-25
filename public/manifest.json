@@ -1,23 +1,25 @@
 {
+  "id": "/",
   "short_name": "Start HN",
   "name": "Start HN — Računovodstvena agencija",
   "description": "Računovodstvene usluge, porezno savjetovanje i finansijski menadžment za mikro, mala i srednja privredna društva.",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "/icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "icon-512.png",
+      "src": "/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/en-US",
+  "start_url": "/bs-BA",
+  "scope": "/",
   "display": "standalone",
-  "theme_color": "#B8860B",
+  "theme_color": "#E6CE82",
   "background_color": "#0F1115",
-  "lang": "en-US",
+  "lang": "bs-BA",
   "categories": ["business", "finance"]
 }

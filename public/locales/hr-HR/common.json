@@ -2,6 +2,7 @@
   "nav": {
     "home": "Početna",
     "company": "O nama",
+    "tagline": "Računovodstvena agencija",
     "solutions": "Usluge",
     "resources": "Resursi",
     "contact": "Kontakt",
@@ -18,7 +19,7 @@
       "description": "Naše licence i profesionalna ovlaštenja"
     },
     "team": {
-      "title": "Momčad",
+      "title": "Tim",
       "description": "Upoznajte ljude iza Start HN"
     },
     "careers": {
@@ -35,7 +36,7 @@
     },
     "cloudArchitecture": {
       "title": "Virtualni CFO",
-      "description": "Strateško financijsko vodstvo bez troškova stalnog zaposlenja."
+      "description": "Strateško financijsko vodstvo bez troškova stalnog zaposlenja"
     },
     "iot": {
       "title": "Poslovno savjetovanje",
@@ -43,7 +44,7 @@
     },
     "devops": {
       "title": "Financijsko izvještavanje",
-      "description": "Točni i pravovremeni financijski izvještaji i analize upravljanja"
+      "description": "Točni i pravodobni financijski izvještaji i upravljačke analize"
     },
     "digitalTransformation": {
       "title": "Obrazovanje i tečajevi",
@@ -62,18 +63,18 @@
       "description": "Uvidi, vodiči i vijesti od Start HN tima",
       "featured": {
         "title": "Istaknuti članak",
-        "description": "Pročitajte jedan od naših najnovijih računovodstvenih i financijskih uvida."
+        "description": "Pročitajte jedan od naših najnovijih računovodstvenih i financijskih uvida"
       }
     },
     "navigation": "Navigacija",
     "skipToContent": "Preskoči na sadržaj",
-    "toggleMenu": "Izbornik prekidača",
+    "toggleMenu": "Otvori ili zatvori izbornik",
     "dashboard": "Upravljačka ploča",
     "myWorkspace": "Moj radni prostor",
     "profile": "Profil",
     "adminPanel": "Administrativni panel",
     "practiceManagement": "Upravljanje praksom",
-    "logOut": "Prijavite se",
+    "logOut": "Odjavite se",
     "education": {
       "title": "Resursi i vodiči",
       "description": "Praktični računovodstveni i financijski resursi tima Start HN"
@@ -81,10 +82,12 @@
     "support": {
       "title": "Centar za podršku",
       "description": "Dobijte pomoć s našim računovodstvenim i savjetodavnim uslugama"
-    }
+    },
+    "myPage": "Moja stranica",
+    "backToSite": "Natrag na stranicu"
   },
   "footer": {
-    "description": "Start HN je računovodstvena agencija sa sjedištem u Sarajevu. Pružamo knjigovodstvo, porezno savjetovanje, virtualne financijske direktore i financijsko izvještavanje za tvrtke diljem Bosne i Hercegovine.",
+    "description": "Start HN je računovodstvena agencija s uredom na Ilidži (Kanton Sarajevo). Pružamo knjigovodstvo, obračun plaća, porezno savjetovanje, virtualni CFO i financijsko izvještavanje za tvrtke, obrte i udruge diljem Bosne i Hercegovine.",
     "services": "Usluge",
     "servicesList": {
       "bookkeeping": "Knjigovodstvo",
@@ -100,28 +103,28 @@
       "missionVision": "Misija i vrijednosti",
       "certificates": "Certifikati",
       "team": "Naš tim",
-      "blog": "Priče o uspjehu",
+      "blog": "Blog",
       "careers": "Karijere",
       "contact": "Kontakt"
     },
     "contact": "Kontakt",
     "contactInfo": {
       "email": "klijenti@starthn.ba",
-      "phone": "+387 61 221-368",
+      "phone": "+387 61 221 368",
       "street": "Ibrahima Ljubovića 47",
-      "locality": "Ilidža",
-      "region": "Sarajevski kanton",
+      "locality": "71210 Ilidža",
+      "region": "Kanton Sarajevo",
       "country": "Bosna i Hercegovina",
       "hours": "Ponedjeljak–petak: 08:00–16:00",
-      "holidays": "Ne radimo za praznike"
+      "holidays": "Praznicima ne radimo"
     },
-    "legal": "Pravni",
+    "legal": "Pravne informacije",
     "legalLinks": {
       "privacyPolicy": "Politika privatnosti",
       "termsOfService": "Uvjeti korištenja",
       "cookiePolicy": "Politika kolačića"
     },
-    "copyright": "© {{year}} Počni s HN. Sva prava pridržana.",
+    "copyright": "© {{year}} Start HN. Sva prava pridržana.",
     "developedBy": "Razvio",
     "ctaTitle": "Spremni za razgovor?",
     "ctaDescription": "Dogovorite besplatne uvodne konzultacije — odgovorit ćemo vam u roku od jednog radnog dana.",
@@ -131,7 +134,7 @@
     "badge": "Profesionalne računovodstvene usluge",
     "titleLine1": "Pouzdano računovodstvo i financije",
     "titleLine2": "za vaše poslovanje u BiH",
-    "description": "Od knjigovodstva i poreznog savjetovanja do virtualnih usluga financijskog direktora i financijskog izvještavanja — Start HN pruža sveobuhvatno računovodstveno znanje koje održava vaše poslovanje usklađenim, informiranim i spremnim za rast.",
+    "description": "Od knjigovodstva i poreznog savjetovanja do usluga virtualnog CFO-a i financijskog izvještavanja — Start HN pruža cjelovito računovodstveno znanje koje vaše poslovanje drži usklađenim, informiranim i spremnim za rast.",
     "getStarted": "Započnite",
     "exploreSolutions": "Istražite usluge",
     "trustedBy": "Povjerenje tvrtki diljem Bosne i Hercegovine",
@@ -143,13 +146,13 @@
     "navigation": "Mobilna navigacija",
     "home": "Početna",
     "solutions": "Usluge",
-    "caseStudies": "Predmeti",
+    "caseStudies": "Slučajevi",
     "blog": "Blog",
     "resources": "Resursi",
     "contact": "Kontakt"
   },
   "sideNav": {
-    "scroll": "Svitak",
+    "scroll": "Listajte",
     "navigateTo": "Idi na {{section}}",
     "sections": {
       "home": "Početna",
@@ -167,8 +170,8 @@
     "noResults": "Nema pronađenih jezika."
   },
   "common": {
-    "menu": "Meni",
-    "account": "Red"
+    "menu": "Izbornik",
+    "account": "Račun"
   },
   "homePage": {
     "caseStudies": {
@@ -188,11 +191,75 @@
       "fintech": "FinTech",
       "healthcare": "Zdravstvo",
       "logistics": "Logistika",
-      "manufacturing": "Produkcija",
+      "manufacturing": "Proizvodnja",
       "government": "Javni sektor"
     }
   },
   "blogCard": {
     "read": "Pročitajte više"
+  },
+  "sections": {
+    "overview": "Pregled",
+    "story": "Priča",
+    "proof": "Dokazi",
+    "gallery": "Galerija",
+    "values": "Vrijednosti",
+    "team": "Tim",
+    "culture": "Kultura",
+    "jobs": "Radna mjesta",
+    "process": "Proces",
+    "channels": "Kanali",
+    "contact": "Kontakt",
+    "start": "Početak",
+    "home": "Početna",
+    "services": "Usluge",
+    "why": "Zašto Start HN",
+    "evidence": "Rezultati",
+    "trust": "Povjerenje",
+    "faq": "Pitanja",
+    "scope": "Opseg",
+    "outputs": "Isporuke"
+  },
+  "breadcrumbs": {
+    "home": "Početna",
+    "services": "Usluge",
+    "about": "O nama",
+    "missionVision": "Misija i vizija",
+    "certificates": "Certifikati",
+    "careers": "Karijera",
+    "contact": "Kontakt",
+    "blog": "Blog",
+    "privacy": "Politika privatnosti",
+    "terms": "Uvjeti korištenja",
+    "serviceBookkeeping": "Knjigovodstvo",
+    "serviceTaxConsulting": "Porezno savjetovanje",
+    "serviceVirtualCfo": "Virtualni CFO",
+    "serviceBusinessConsulting": "Poslovno savjetovanje",
+    "serviceFinancialReporting": "Financijsko izvještavanje",
+    "serviceEducation": "Edukacije"
+  },
+  "a11y": {
+    "prevSlide": "Prethodni slajd",
+    "nextSlide": "Sljedeći slajd",
+    "goToSlide": "Idi na slajd {{n}}",
+    "pauseCarousel": "Zaustavi automatsku izmjenu slajdova",
+    "resumeCarousel": "Nastavi automatsku izmjenu slajdova",
+    "slides": "Slajdovi",
+    "prevTestimonial": "Prethodna izjava klijenta",
+    "nextTestimonial": "Sljedeća izjava klijenta",
+    "goToTestimonial": "Izjava klijenta {{n}}",
+    "testimonialCounter": "Izjava klijenta {{n}} od {{total}}",
+    "prevSection": "Prethodni odjeljak",
+    "nextSection": "Sljedeći odjeljak",
+    "goToSection": "Idi na odjeljak {{n}}",
+    "toggleTheme": "Promijeni temu"
+  },
+  "consent": {
+    "title": "Kolačići i privatnost",
+    "text": "Uz vaš pristanak koristimo Google Analytics i Microsoft Clarity kako bismo bolje razumjeli korištenje stranice i poboljšali je. Bez pristanka se ne učitavaju, a odluku možete promijeniti u bilo kojem trenutku.",
+    "accept": "Prihvaćam",
+    "reject": "Odbijam",
+    "settings": "Postavke kolačića",
+    "privacyLink": "Politika privatnosti"
   }
 }

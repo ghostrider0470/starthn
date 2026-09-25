@@ -4,12 +4,14 @@ import { useTranslation } from 'react-i18next'
 import {
   ArrowRight,
   Calendar,
+  CalendarClock,
   CheckCircle2,
   Clock,
   Loader2,
   Mail,
   MapPin,
   MessageSquare,
+  Phone,
   Send,
   Sparkles,
 } from 'lucide-react'
@@ -38,6 +40,12 @@ import {
 } from '@/components/company/CompanyPageLayout'
 import { featureFlags } from '@/lib/feature-flags'
 import { useChat } from '@/contexts/ChatContext'
+import { localizedPageHead } from '@/lib/seo-meta'
+import {
+  CONTACT_EMAIL,
+  GOOGLE_BUSINESS_PROFILE_URL,
+  PHONE_TEL,
+} from '@/lib/business'
 
 declare global {
   interface Window {
@@ -59,25 +67,11 @@ const CONTACT_SECTION_IDS = [
   'channels',
   'contact',
 ] as const satisfies ReadonlyArray<CompanySectionId>
-const CONTACT_EMAIL = 'info@starthn.ba'
 const BOOKING_URL = ''
 
 export const Route = createFileRoute('/{-$locale}/contact')({
-  head: () => ({
-    meta: [
-      { title: 'Contact — StartHN' },
-      {
-        name: 'description',
-        content:
-          'Get in touch with Start HN for enterprise software, AI solutions, and cloud architecture.',
-      },
-      { property: 'og:title', content: 'Contact — Start HN' },
-      {
-        property: 'og:description',
-        content:
-          'Get in touch with Start HN for enterprise software, AI solutions, and cloud architecture.',
-      },
-    ],
+  head: ({ params }) => ({
+    ...localizedPageHead('contact', params.locale),
     scripts: [
       {
         src: 'https://challenges.cloudflare.com/turnstile/v0/api.js',
@@ -196,12 +190,29 @@ function ContactPage() {
       action: `mailto:${CONTACT_EMAIL}`,
     },
     {
+      id: 'phone',
+      icon: Phone,
+      title: t('contact.methods.phone.title'),
+      description: t('contact.methods.phone.description'),
+      value: t('contact.methods.phone.value'),
+      action: `tel:${PHONE_TEL}`,
+    },
+    {
       id: 'location',
       icon: MapPin,
       title: t('contact.methods.location.title'),
       description: t('contact.methods.location.description'),
       value: t('contact.methods.location.value'),
-      action: 'https://maps.google.com/?q=Sarajevo,Bosnia+and+Herzegovina',
+      // The Google Business Profile (map pin, directions and reviews).
+      action: GOOGLE_BUSINESS_PROFILE_URL,
+    },
+    {
+      id: 'hours',
+      icon: CalendarClock,
+      title: t('contact.methods.hours.title'),
+      description: t('contact.methods.hours.description'),
+      value: t('contact.methods.hours.value'),
+      action: null,
     },
     {
       id: 'response',
@@ -467,7 +478,7 @@ function ContactPage() {
                               ? 'noopener noreferrer'
                               : undefined
                           }
-                          className="mt-1 block truncate text-sm font-medium text-primary hover:underline"
+                          className="mt-1 block text-sm font-medium break-words text-primary hover:underline"
                         >
                           {method.value}
                         </a>

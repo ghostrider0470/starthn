@@ -1,10 +1,31 @@
+import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 import viteReact from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 import { tanstackStart } from '@tanstack/react-start/plugin/vite'
 import { cloudflare } from '@cloudflare/vite-plugin'
-import { resolve } from 'path'
+
+/**
+ * Exact npm package name → vendor chunk. Only packages that every public page
+ * needs belong here; anything else is left to Rollup's default splitting.
+ */
+const PACKAGE_CHUNKS = new Map<string, string>([
+  ['react', 'react-vendor'],
+  ['react-dom', 'react-vendor'],
+  ['scheduler', 'react-vendor'],
+  ['use-sync-external-store', 'react-vendor'],
+  ['react-i18next', 'react-vendor'],
+  ['@tanstack/react-router', 'router'],
+  ['@tanstack/router-core', 'router'],
+  ['@tanstack/history', 'router'],
+  ['lucide-react', 'icons'],
+  ['motion', 'motion'],
+  ['framer-motion', 'motion'],
+  ['motion-dom', 'motion'],
+  ['motion-utils', 'motion'],
+  ['i18next', 'i18n'],
+])
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -71,7 +92,9 @@ export default defineConfig({
     },
   },
   build: {
-    sourcemap: true,
+    // 'hidden' still emits .map files (for error symbolication) but drops the
+    // sourceMappingURL comment, so browsers never fetch them.
+    sourcemap: 'hidden',
     modulePreload: { polyfill: false },
     rollupOptions: {
       output: {
@@ -85,82 +108,33 @@ export default defineConfig({
             return
           }
 
-          if (
-            id.includes('/react/') ||
-            id.includes('/react-dom/') ||
-            id.includes('/use-sync-external-store/')
-          ) {
-            return 'react-vendor'
-          }
+          // Resolve the package name from the LAST node_modules segment, so
+          // nested deps and scoped packages match exactly. Substring checks
+          // such as '/react/' also matched '@tiptap/react/' and pulled the
+          // whole TipTap/ProseMirror editor into react-vendor on every page.
+          const pkg = id.match(/.*node_modules\/((?:@[^/]+\/)?[^/]+)/)?.[1]
+          if (!pkg) return
+
+          const chunk = PACKAGE_CHUNKS.get(pkg)
+          if (chunk) return chunk
+
+          if (pkg === 'echarts') return 'echarts-core'
+          if (pkg === 'zrender') return 'echarts-renderer'
+          if (pkg === 'compromise') return 'nlp-compromise'
+          if (pkg === 'franc') return 'nlp-franc'
+          if (pkg === 'sentiment') return 'nlp-sentiment'
 
           if (
-            id.includes('/@tanstack/react-router/') ||
-            id.includes('/@tanstack/router-core/') ||
-            id.includes('/@tanstack/history/')
-          ) {
-            return 'router'
-          }
-
-          if (id.includes('/lucide-react/')) {
-            return 'icons'
-          }
-
-          if (
-            id.includes('/motion/') ||
-            id.includes('/framer-motion/')
-          ) {
-            return 'motion'
-          }
-
-          if (id.includes('/recharts/')) {
-            return 'react-vendor'
-          }
-
-          if (id.includes('/echarts-for-react/')) {
-            return 'react-vendor'
-          }
-
-          if (id.includes('/echarts/')) {
-            return 'echarts-core'
-          }
-
-          if (id.includes('/zrender/')) {
-            return 'echarts-renderer'
-          }
-
-          if (id.includes('/react-i18next/')) {
-            return 'react-vendor'
-          }
-
-          if (
-            id.includes('/i18next/') ||
-            id.includes('/i18next-http-backend/')
-          ) {
-            return 'i18n'
-          }
-
-          if (
-            id.includes('/compromise/')
-          ) {
-            return 'nlp-compromise'
-          }
-
-          if (id.includes('/franc/')) {
-            return 'nlp-franc'
-          }
-
-          if (id.includes('/sentiment/')) {
-            return 'nlp-sentiment'
-          }
-
-          if (
-            id.includes('/world-atlas/') ||
-            id.includes('/topojson-client/') ||
-            id.includes('/earcut/') ||
-            id.includes('/polygon-clipping/')
+            pkg === 'world-atlas' ||
+            pkg === 'topojson-client' ||
+            pkg === 'earcut' ||
+            pkg === 'polygon-clipping'
           ) {
             return 'geo-vendor'
           }
+
+          // Everything else (incl. @tiptap/*, prosemirror-*, @floating-ui/*)
+          // is left to Rollup so it lands only in the chunks that import it.
         },
       },
     },

@@ -1,10 +1,11 @@
 import { render, screen } from '@testing-library/react'
-import { describe, expect, it, vi } from 'vitest'
+import { beforeAll, describe, expect, it, vi } from 'vitest'
 import {
   CompanyPageLayout,
   CompanyPagePanel,
   getCompanySectionLabels,
 } from './CompanyPageLayout'
+import i18n from '@/i18n'
 
 class MockIntersectionObserver {
   observe = vi.fn()
@@ -34,6 +35,23 @@ Object.defineProperty(window, 'matchMedia', {
 })
 
 describe('CompanyPageLayout', () => {
+  beforeAll(() => {
+    i18n.addResourceBundle(
+      'en-US',
+      'common',
+      { sections: { overview: 'Overview', gallery: 'Gallery', start: 'Start' } },
+      true,
+      true,
+    )
+    i18n.addResourceBundle(
+      'bs-BA',
+      'common',
+      { sections: { overview: 'Pregled', gallery: 'Galerija', start: 'Početak' } },
+      true,
+      true,
+    )
+  })
+
   it('uses landing-style section scroller chrome for company pages', () => {
     render(
       <CompanyPageLayout
@@ -65,5 +83,12 @@ describe('CompanyPageLayout', () => {
     expect(
       getCompanySectionLabels('bs-BA', ['overview', 'gallery', 'start']),
     ).toEqual(['Pregled', 'Galerija', 'Početak'])
+  })
+
+  it('returns empty labels instead of raw keys for a locale without them', () => {
+    expect(getCompanySectionLabels('ja-JP', ['overview', 'start'])).toEqual([
+      '',
+      '',
+    ])
   })
 })

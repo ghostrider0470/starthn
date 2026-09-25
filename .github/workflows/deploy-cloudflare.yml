@@ -63,3 +63,10 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 14e66a44c223436e076dbd6073c78d98
+
+      # Tell Bing/Yandex (IndexNow) about every sitemap URL after a production
+      # deploy. Best effort: a failed ping must never fail the deploy.
+      - name: Ping IndexNow
+        if: github.event_name == 'push'
+        continue-on-error: true
+        run: bash scripts/indexnow-ping.sh

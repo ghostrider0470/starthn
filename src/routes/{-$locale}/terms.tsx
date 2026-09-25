@@ -4,22 +4,10 @@ import { designSystem } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
+import { localizedPageHead } from '@/lib/seo-meta'
 
 export const Route = createFileRoute('/{-$locale}/terms')({
-  head: () => ({
-    meta: [
-      { title: 'Terms of Service — Start HN' },
-      {
-        name: 'description',
-        content: 'Start HN terms of service.',
-      },
-      { property: 'og:title', content: 'Terms of Service — Start HN' },
-      {
-        property: 'og:description',
-        content: 'Start HN terms of service.',
-      },
-    ],
-  }),
+  head: ({ params }) => localizedPageHead('terms', params.locale),
   component: TermsOfServicePage,
 })
 

@@ -51,7 +51,7 @@ export async function handleD1Route(request: Request, env: Env): Promise<Respons
         const pageSize = parseInt(url.searchParams.get('pageSize') || '10')
         const [items, total] = await Promise.all([
           repo.getPublished(locale, page, pageSize, filters),
-          repo.getCount(filters),
+          repo.getCount(filters, locale),
         ])
         return json({
           items,

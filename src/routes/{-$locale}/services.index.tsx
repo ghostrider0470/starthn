@@ -12,24 +12,11 @@ import {
   SERVICE_ROUTES,
 } from '@/lib/service-routes'
 import { cn } from '@/lib/utils'
+import { localizedPageHead } from '@/lib/seo-meta'
+import { getSectionLabels } from '@/lib/section-labels'
 
 export const Route = createFileRoute('/{-$locale}/services/')({
-  head: () => ({
-    meta: [
-      { title: 'Services — Start HN' },
-      {
-        name: 'description',
-        content:
-          'Explore Start HN accounting services: bookkeeping, tax consulting, Virtual CFO, business consulting, financial reporting, and education.',
-      },
-      { property: 'og:title', content: 'Services — Start HN' },
-      {
-        property: 'og:description',
-        content:
-          'Explore Start HN accounting services: bookkeeping, tax consulting, Virtual CFO, business consulting, financial reporting, and education.',
-      },
-    ],
-  }),
+  head: ({ params }) => localizedPageHead('services', params.locale),
   component: ServicesIndexPage,
 })
 
@@ -44,9 +31,7 @@ function ServicesIndexPage() {
   const location = useLocation()
   const locale = getLocaleFromPath(location.pathname)
   const contactHref = withLocalePath('/contact', locale)
-  const sectionLabels = locale.startsWith('bs')
-    ? ['Pregled', 'Usluge', 'Početak']
-    : ['Overview', 'Services', 'Start']
+  const sectionLabels = getSectionLabels(locale, SERVICE_INDEX_SECTION_IDS)
 
   return (
     <main className="bg-background">
@@ -91,20 +76,6 @@ function ServicesIndexPage() {
 
         <section className="flex flex-col justify-center bg-muted/15 pt-8 pb-28 md:py-10">
           <PageContainer maxWidth="xl" spacing="none">
-            <div className="mb-6 grid gap-4 lg:grid-cols-[0.5fr_1fr] lg:items-end">
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
-                  {t('common.service')}
-                </p>
-                <h2 className="mt-3 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-                  {t('index.introTitle')}
-                </h2>
-              </div>
-              <p className="max-w-2xl text-sm leading-7 text-muted-foreground md:ml-auto md:text-right">
-                {t('index.description')}
-              </p>
-            </div>
-
             <div className="divide-y divide-border border-y border-border">
               {SERVICE_IDS.map((serviceId) => {
                 const service = t(`items.${serviceId}`, {

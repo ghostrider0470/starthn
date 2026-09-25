@@ -34,8 +34,15 @@ export const IMAGE_WIDTHS = {
 export function img(src: string | null | undefined, opts?: ImageOpts): string {
   if (!src) return ''
 
-  // Already an /img/ proxy URL
-  if (src.startsWith('/img/')) return src
+  // Already an /img/ proxy URL — merge the requested w/q/f into its query so
+  // srcSet widths actually differ (an existing ?w= is replaced, not duplicated).
+  if (src.startsWith('/img/')) {
+    const u = new URL(src, 'http://x')
+    if (opts?.width) u.searchParams.set('w', String(opts.width))
+    if (opts?.quality) u.searchParams.set('q', String(opts.quality))
+    if (opts?.format) u.searchParams.set('f', opts.format)
+    return u.pathname + u.search
+  }
 
   let path: string
 
@@ -65,7 +72,7 @@ export function img(src: string | null | undefined, opts?: ImageOpts): string {
  */
 export function imgSrcSet(
   src: string | null | undefined,
-  widths: readonly number[],
+  widths: ReadonlyArray<number>,
 ): string {
   if (!src) return ''
   return widths

@@ -1,5 +1,7 @@
 {
   "hero": {
+    "h1": "Agência de contabilidade para empresas e empresários individuais em Sarajevo",
+    "intro": "A Start HN é uma agência de contabilidade com sede em Ilidža (Cantão de Sarajevo). Cuidamos da escrituração contábil, da folha de pagamento, do IVA e das declarações fiscais de sociedades limitadas (d.o.o.), empresários individuais e associações.",
     "slides": [
       {
         "overline": "Beneficie-se de apoio especializado para o crescimento sustentável",
@@ -52,7 +54,7 @@
   "whyChoose": {
     "overline": "Por que escolher o Start HN",
     "title": "Seu Parceiro de Crescimento",
-    "description": "A agência de contabilidade Start HN, de Sarajevo, oferece apoio a associações, artesãos e micro, pequenas e médias empresas. Nosso trabalho é baseado em pontualidade, precisão e total dedicação aos nossos clientes — não pegamos o \"último trem\", mas cumprimos todos os prazos e obrigações legais em tempo hábil.",
+    "description": "A Start HN, em Sarajevo, apoia associações, empresários individuais e micro, pequenas e médias empresas. Nosso trabalho se baseia em estar sempre atualizado, na precisão e no total comprometimento com os clientes — não corremos atrás dos prazos, nós nos antecipamos a eles.",
     "body": "Acompanhamos mudanças nas regulamentações e defendemos a digitalização dos processos contábeis — seja por meio do estabelecimento de programas internos para clientes com acesso constante aos dados, seja por meio do trabalho em documentação enviada fisicamente ou por e-mail. Para quem deseja um suporte mais profissional, oferecemos o serviço Virtual CFO.",
     "features": {
       "personal": "Abordagem individualizada",
@@ -65,7 +67,7 @@
     "cta": "Todos os serviços"
   },
   "stats": {
-    "overline": "Nossos registros",
+    "overline": "Nossos resultados",
     "title": "Seu negócio merece uma contabilidade que pense à frente, reaja no tempo certo e sempre apoie seus números.",
     "cta": "Vamos começar a colaborar",
     "items": {
@@ -105,22 +107,22 @@
       },
       "grow": {
         "title": "Contabilidade que cresce com você",
-        "description": "Serviços flexíveis desde a primeira conta até crescimento estável — voltados para empresas, empreendedores e associações."
+        "description": "Serviços flexíveis desde a primeira fatura até o crescimento estável — sob medida para empresas, empresários individuais e associações."
       },
       "licensed": {
-        "title": "Segurança do Pessoal Licenciado",
+        "title": "Profissionais licenciados e regulamentados",
         "description": "Contadores Certificados, uma agência registrada no Ministério das Finanças — serviços em conformidade com a lei, sem concessões."
       }
     }
   },
   "testimonials": {
-    "overline": "Outros sobre nós",
-    "title": "O que nossos clientes estão dizendo",
+    "overline": "O que dizem os clientes",
+    "title": "Depoimentos",
     "items": [
       {
-        "quote": "Profissionalismo, confiabilidade e o fato de estarem disponíveis para aconselhamento ou esclarecimento são o que diferencia esta agência das outras. Todos os prazos são respeitados, a documentação é necessária e a comunicação é rápida e clara. Agradeço especialmente que eles acompanhem as mudanças legais e me informem no prazo sobre tudo que é importante para o meu negócio. Recomendo muito para quem quer tranquilidade na contabilidade.",
+        "quote": "Profissionalismo, confiabilidade e o fato de estarem sempre disponíveis para um conselho ou esclarecimento são o que diferencia esta agência. Todos os prazos são cumpridos, a documentação é organizada e a comunicação é rápida e clara. Agradeço especialmente que acompanhem as mudanças na legislação e me avisem a tempo sobre tudo o que é importante para o meu negócio. Recomendo a todos que querem tranquilidade quando se trata de contabilidade.",
         "author": "Tanja Srdanović",
-        "role": "Proprietário, Escritório de Advocacia Srdanović",
+        "role": "Proprietária, Escritório de Advocacia Srdanović",
         "image": "/testimonials/tanja.webp"
       },
       {
@@ -136,21 +138,21 @@
         "image": "/testimonials/nedim.webp"
       },
       {
-        "quote": "Excelente suporte e conselhos oportunos sobre como introduzir novas obrigações fiscais.",
+        "quote": "Excelente suporte e conselhos oportunos sobre como lidar com novas obrigações fiscais.",
         "author": "Adin Zelihić",
         "role": "Proprietário e Diretor, Wincome d.o.o.",
         "image": "/testimonials/adin.webp"
       },
       {
         "quote": "Se você quer tudo em um só lugar, profissionalismo, responsabilidade, bondade... Altamente recomendado.",
-        "author": "Elvis Škrijelj",
-        "role": "Proprietário e diretor, Utjeha d.o.o.",
+        "author": "Elvisa Škrijelj",
+        "role": "Proprietária e diretora, Utjeha d.o.o.",
         "image": "/testimonials/elvisa.webp"
       },
       {
         "quote": "Uma equipe maravilhosa e profissional em quem você sempre pode confiar!",
         "author": "Isa Zuhrić",
-        "role": "Conselho Juvenil do Município de Centar",
+        "role": "Vijeće mladih općine Centar",
         "image": "/testimonials/isa.webp"
       }
     ]
@@ -225,12 +227,13 @@
     },
     "servicePlaceholder": "Escolha um serviço",
     "serviceOptions": [
-      "Contabilidade e Contabilidade",
+      "Escrituração e contabilidade",
       "Consultoria tributária",
-      "Virtual CFO",
+      "CFO virtual",
+      "Consultoria empresarial",
       "Relatórios financeiros",
       "Educação",
-      "Outros"
+      "Outro"
     ],
     "submit": "Enviar Consulta",
     "success": "Obrigado! Retornaremos em um dia útil."
@@ -241,7 +244,7 @@
     "openClient": "{{name}} — abra o site do cliente",
     "items": [
       {
-        "name": "Procuradora Tanja Srdanović",
+        "name": "Advokat Tanja Srdanović",
         "logo": "/clients/srdanovic.webp",
         "darkLogo": "/clients/srdanovic-dark.webp",
         "href": "https://www.advokatsrdanovic.com"
@@ -259,7 +262,7 @@
         "href": "https://qla.dev"
       },
       {
-        "name": "Vitória",
+        "name": "Wincome",
         "logo": "/clients/wincome.svg",
         "darkLogo": "/clients/wincome-dark.svg",
         "href": "https://wincome.webflow.io/"
@@ -271,7 +274,7 @@
         "href": "https://edu.ba"
       },
       {
-        "name": "BH Construction",
+        "name": "BH Gradnja",
         "logo": "/clients/bhgradnja-t.webp",
         "darkLogo": "/clients/bhgradnja-dark.webp"
       },
@@ -280,12 +283,12 @@
         "logo": "/clients/fleki-t.webp"
       },
       {
-        "name": "Guarda de Carros Feniks",
+        "name": "Feniks Car Holding",
         "logo": "/clients/feniks-t.webp",
         "darkLogo": "/clients/feniks-dark.webp"
       },
       {
-        "name": "Grafeno",
+        "name": "Grafiden",
         "logo": "/clients/grafiden-t.webp",
         "darkLogo": "/clients/grafiden-dark.webp"
       },
@@ -299,17 +302,16 @@
         "logo": "/clients/coco.webp"
       },
       {
-        "name": "Consolação",
+        "name": "Utjeha",
         "logo": "/clients/utjeha.png"
       },
       {
-        "name": "Conselho Juvenil do Município de Centar",
+        "name": "Vijeće mladih općine Centar",
         "href": "https://www.vijecemladih.ba/formiranje-vijeca-mladih-opcine-centar-novi-korak-za-aktivizam-mladih/"
       },
       {
-        "name": "Uma Mão de Apoio",
-        "logo": "/clients/rukapodrske.png",
-        "href": "https://share.google/AeeL2hMaIbyN2Xbic"
+        "name": "Ruka Podrške",
+        "logo": "/clients/rukapodrske.png"
       },
       {
         "name": "MJO",
@@ -328,11 +330,11 @@
   "services": {
     "subtitle": "Nossos serviços",
     "title": "Contabilidade abrangente",
-    "description": "Existem 6 áreas de atendimento. Uma equipe dedicada. Todos os aspectos das suas operações financeiras — desde a contabilidade diária até a estratégia financeira de longo prazo.",
+    "description": "Seis áreas de atuação. Uma equipe dedicada. Todas as camadas das suas operações financeiras — da escrituração diária à estratégia financeira de longo prazo.",
     "commentMarker": "USLUGE",
     "items": {
       "bookkeeping": {
-        "title": "Contabilidade e Contabilidade",
+        "title": "Escrituração e contabilidade",
         "description": "Manutenção precisa e pontual dos livros de negócios, demonstrações financeiras legais e contas em total conformidade com as regulamentações locais."
       },
       "taxConsulting": {
@@ -364,135 +366,21 @@
     },
     "learnMore": "Saiba mais"
   },
-  "credibility": {
-    "subtitle": "Por que nos escolher",
-    "title": "Experiência, não <gradient>promessas</gradient>",
-    "titlePlain": "Experiência, não promessas",
-    "commentMarker": "OUR_TRACK_RECORD",
-    "description": "Com sede em Sarajevo, CRP Incubator. Contadores certificados que oferecem precisão, integridade e resultados para empresas de todos os tamanhos.",
-    "stats": {
-      "experience": "Anos de experiência total",
-      "countries": "Contadores Certificados",
-      "systems": "Clientes atendidos",
-      "industries": "Setores Cobertos"
-    },
-    "proofCards": {
-      "atlascopco": {
-        "label": "Certificado e regulado",
-        "outcome": "Todos os nossos contadores possuem certificados profissionais reconhecidos e atuam sob supervisão de órgãos reguladores na Bósnia e Herzegovina, garantindo total conformidade legal."
-      },
-      "orange": {
-        "label": "Registros de Conformidade Tributária",
-        "outcome": "Nossos clientes têm um histórico 100% de entrega pontual das declarações de imposto de renda. Monitoramos proativamente as mudanças regulatórias para que você nunca enfrente penalidades."
-      },
-      "telecom": {
-        "label": "Especialistas para PMEs e startups",
-        "outcome": "Ampla experiência em apoiar PMEs desde o início até o crescimento — registros, primeiros livros e necessidades de conformidade em constante crescimento."
-      },
-      "iot": {
-        "label": "Resultados do CFO Virtual",
-        "outcome": "Empresas que utilizam nosso serviço de CFO Virtual aumentam consistentemente a visibilidade do fluxo de caixa, reduzem custos desnecessários e alcançam um planejamento financeiro mais seguro."
-      },
-      "drone": {
-        "label": "Relatórios precisos, toda vez",
-        "outcome": "Mantemos rigoroso controle de qualidade sobre todas as demonstrações financeiras — precisas, completas e entregues no prazo, em cada período de relatório."
-      },
-      "payment": {
-        "label": "Salários e direito trabalhista",
-        "outcome": "Processamento completo de folha de pagamento de acordo com a legislação trabalhista da BiH, incluindo folha de pagamento, contribuições e documentação de trabalho — sem erros, no prazo."
-      },
-      "game": {
-        "label": "Educação e empoderamento",
-        "outcome": "Nossos programas de treinamento já treinaram dezenas de empresários e funcionários em finanças, melhorando a educação financeira interna e reduzindo erros contábeis custosos."
-      },
-      "social": {
-        "label": "Parceiro de negócios do Sri Lanka",
-        "outcome": "Com sede na CRP Incubator, somos parte ativa do ecossistema empreendedor de Sarajevo — apoiando fundadores locais desde o primeiro dia."
-      },
-      "iga": {
-        "label": "Contabilidade para Grupos de Empresas",
-        "outcome": "Gerenciamos estruturas complexas de múltiplas entidades e consolidações de grupos para empresas maiores, oferecendo uma visão unificada do desempenho financeiro de todo o grupo."
-      }
-    },
-    "differentiators": {
-      "euAdjacent": {
-        "title": "Expertise Local, Conscientização da UE",
-        "description": "Conhecimento aprofundado da legislação tributária e contábil da Bósnia e Herzegovina, acompanhando as tendências regulatórias da UE que afetam empresas locais."
-      },
-      "yourEngineers": {
-        "title": "É seu contador, não seu call center.",
-        "description": "Uma equipe dedicada que conhece seu negócio de fora. Contato direto com o contador que mantém seus livros — sem intermediários."
-      },
-      "hardwareToCloud": {
-        "title": "De uma startup para um negócio em crescimento",
-        "description": "Desde o registro da primeira empresa e a abertura dos livros até a gestão das finanças de um grupo crescente de empresas. Crescemos juntos com você."
-      }
-    }
-  },
-  "partners": {
-    "subtitle": "Normas e Ferramentas",
-    "title": "<gradient>Padrões</gradient> profissionais",
-    "titlePlain": "Padrões profissionais",
-    "commentMarker": "STANDARDS_AND_TOOLS",
-    "description": "Trabalhamos com os mais altos padrões profissionais, utilizamos programas contábeis confiáveis e seguimos as regulamentações e órgãos que regulam nosso negócio.",
-    "categories": {
-      "cloudInfra": {
-        "label": "Conformidade Regulatória",
-        "description": "Cumprimento total da legislação tributária da Bósnia e Herzegovina, das normas contábeis do FBiH e das diretivas relevantes da UE."
-      },
-      "frontend": {
-        "label": "Software de Contabilidade",
-        "description": "Programas padrão do setor, contabilidade, folha de pagamento e relatórios financeiros."
-      },
-      "backend": {
-        "label": "Impostos e salários",
-        "description": "Ferramentas especializadas para cálculos fiscais precisos, processamento de folha de pagamento e arquivamento legal."
-      },
-      "data": {
-        "label": "Relatórios financeiros",
-        "description": "Ferramentas para a preparação de demonstrações financeiras harmonizadas e relatórios de gestão."
-      },
-      "devops": {
-        "label": "Cooperação com clientes",
-        "description": "Plataformas seguras de troca de documentos e comunicação para um atendimento contínuo ao cliente."
-      }
-    },
-    "scanning": "VERIFICAÇÃO DE CONFORMIDADE...",
-    "summary": {
-      "cloudNative": {
-        "title": "Sempre em Sincronia",
-        "description": "Monitoramos continuamente as mudanças regulatórias para manter seu negócio em conformidade, sem precisar acompanhar cada nova regra por conta própria."
-      },
-      "fullStack": {
-        "title": "Um serviço financeiro completo",
-        "description": "Desde a abertura de livros até o planejamento financeiro estratégico — uma equipe cobrindo todos os aspectos das suas operações financeiras."
-      },
-      "productionProven": {
-        "title": "Resultados comprovados",
-        "description": "Os resultados certos para negócios reais. Nossos clientes confiam em nós com seus dados financeiros mais sensíveis porque conquistamos essa confiança."
-      }
-    },
-    "logoRows": {
-      "row1Aria": "Logotipos de Software de Contabilidade, Linha 1",
-      "row2Aria": "Logotipos de Certificação Profissionais, Linha 2",
-      "row3Aria": "Logotipos dos órgãos reguladores, linha 3"
-    }
-  },
   "chat": {
     "badge": "Assistente de IA",
     "title": "Pergunte qualquer coisa.",
     "description": "Converse com nosso assistente de IA sobre nossos serviços, preços e como trabalhamos. Sem formulários, sem espera.",
-    "panelTitle": "Entrevista com a Start HN",
+    "panelTitle": "Converse com a Start HN",
     "greeting": "Olá! Como podemos ajudar hoje?",
     "inputPlaceholder": "Digite uma mensagem...",
     "startOver": "Começar de novo",
-    "openChat": "Conversa aberta",
-    "closeChat": "Conversa próxima",
+    "openChat": "Abrir chat",
+    "closeChat": "Fechar chat",
     "prompts": [
-      "Como posso começar a colaborar?",
+      "Como posso começar?",
       "Quanto custa a contabilidade mensal?",
-      "O que envolve um CFO Virtual?",
-      "Você trabalha com startups e artesãos?"
+      "O que inclui o serviço de CFO virtual?",
+      "Vocês trabalham com startups e empresários individuais?"
     ]
   },
   "faq": {
@@ -504,11 +392,11 @@
     "items": {
       "scope": {
         "question": "Como posso começar a trabalhar com você?",
-        "answer": "Começar a colaborar é fácil. Entre em contato conosco para uma consulta introdutória gratuita — vamos conhecer seu negócio, suas configurações contábeis atuais e suas necessidades. Depois disso, proporemos um pacote adequado de serviços, organizaremos a tomada da documentação existente e apresentaremos você completamente ao sistema em poucos dias. Sem apego a longo prazo — trabalhamos para conquistar sua confiança todo mês."
+        "answer": "Começar é simples. Entre em contato conosco para uma consulta inicial gratuita — vamos conhecer o seu negócio, a forma atual de organização da contabilidade e as suas necessidades. Em seguida, propomos o pacote de serviços adequado, combinamos a entrega da documentação existente e, em poucos dias, você já está totalmente integrado. Não há fidelidade de longo prazo: trabalhamos para conquistar a sua confiança todos os meses."
       },
       "stack": {
         "question": "Que tipo de clientes vocês atendem?",
-        "answer": "Trabalhamos com empresas de todos os tamanhos — desde startups e startups até PMEs consolidadas, com empresas individuais – artesanato e associações."
+        "answer": "Trabalhamos com empresas de todos os portes — de negócios recém-abertos e startups a PMEs consolidadas —, com empresários individuais e com associações."
       },
       "enterprise": {
         "question": "Você mantém a declaração e conformidade com impostos?",
@@ -524,16 +412,20 @@
       },
       "industries": {
         "question": "Quais são os preços dos seus serviços?",
-        "answer": "O preço dos serviços contábeis é definido de acordo com o tamanho da entidade empresarial, o volume de documentação, o número de funcionários e a complexidade do negócio. Para empresas recém-estabelecidas, o preço inicial do serviço é de 300,00 KM por mês, enquanto para embarcações recém-estabelecidas o preço inicial é de 150,00 KM por mês. À medida que o negócio cresce e o volume de trabalho aumenta, o escopo do nosso suporte é ajustado e, consequentemente, o preço do serviço. Para empresas e profissionais existentes que mudam a agência de contabilidade, o preço é definido individualmente após uma breve análise do negócio e das necessidades do cliente. Nosso objetivo é tornar o preço claro, justo e alinhado com as reais necessidades do negócio, sem custos ocultos e cálculos pouco claros."
+        "answer": "O preço dos serviços contábeis é definido de acordo com o tamanho da empresa, o volume de documentação, o número de funcionários e a complexidade do negócio. Para empresas recém-constituídas (d.o.o.), o preço inicial é a partir de 300,00 KM por mês e, para empresários individuais recém-constituídos (obrt), a partir de 150,00 KM por mês. À medida que o negócio cresce e o volume de trabalho aumenta, o escopo do nosso suporte é ajustado e, consequentemente, o preço do serviço. Para empresas e empresários individuais que estão mudando de agência de contabilidade, o preço é definido individualmente após uma breve análise do negócio e das necessidades do cliente. Nosso objetivo é um preço claro, justo e alinhado às reais necessidades do negócio, sem custos ocultos nem cobranças pouco claras."
       },
       "engagement": {
         "question": "Você oferece educação ou treinamento em contabilidade interna?",
-        "answer": "Sim. De acordo com as necessidades do cliente, oferecemos suporte profissional individual e treinamento prático para empresas e ofícios que gerenciam parte dos processos administrativos ou contábeis internamente, com contabilidade externa. Isso pode incluir suporte na organização da documentação interna, treinamento dos funcionários no uso de softwares contábeis, compreensão dos processos básicos de contabilidade, além de ajudar a gestão a entender demonstrações financeiras e indicadores de negócios. Além disso, podemos fornecer aos empreendedores que mantêm livros comerciais independentes para artesanato consultas individuais e esclarecimentos práticos sobre obrigações e registros legais."
+        "answer": "Sim. De acordo com as necessidades do cliente, oferecemos suporte profissional individual e treinamento prático para empresas e empresários individuais que cuidam internamente de parte da administração ou da escrituração, em paralelo à contabilidade externa. Isso pode incluir ajuda na organização da documentação interna, treinamento da equipe no uso de software contábil, compreensão dos processos contábeis básicos e apoio à gestão na leitura de demonstrações financeiras e indicadores de negócio. Também podemos oferecer aos empreendedores que mantêm por conta própria os livros do seu negócio individual consultas individuais e explicações práticas sobre suas obrigações legais e registros."
       }
     },
     "stillHaveQuestions": "Ainda tem dúvidas?",
     "ctaDescription": "Você está pronto para colocar suas finanças em ordem? Vamos falar sobre o que você precisa.",
     "readCaseStudies": "Veja como estamos ajudando",
     "scheduleCall": "Agende uma consulta"
+  },
+  "guide": {
+    "linkText": "Guia: como abrir um negócio na BiH (empresário individual ou d.o.o.)",
+    "description": "Um guia prático com dicas baseadas na nossa experiência e a gravação da nossa participação na emissora N1."
   }
 }

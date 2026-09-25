@@ -2,6 +2,7 @@
   "nav": {
     "home": "Ana Sayfa",
     "company": "Hakkımızda",
+    "tagline": "Muhasebe ajansı",
     "solutions": "Hizmetler",
     "resources": "Kaynaklar",
     "contact": "İletişim",
@@ -11,14 +12,14 @@
     },
     "missionVision": {
       "title": "Misyon, vizyon ve değerler",
-      "description": "Yaptığımız Her Şeyi Yönlendiren İlkeler ve Hedefler"
+      "description": "Yaptığımız her şeye yön veren ilkeler ve hedefler"
     },
     "certificates": {
       "title": "Sertifikalar ve takdirler",
       "description": "Lisanslarımız ve mesleki yetkilerimiz"
     },
     "team": {
-      "title": "Takım",
+      "title": "Ekip",
       "description": "Start HN'nin arkasındaki insanlarla tanışın"
     },
     "careers": {
@@ -26,12 +27,12 @@
       "description": "Ekibimize katılın ve bizimle birlikte gelişin"
     },
     "enterpriseSoftware": {
-      "title": "Muhasebe ve muhasebe",
-      "description": "Her büyüklükteki işletme için kapsamlı muhasebe ve muhasebe hizmetleri"
+      "title": "Defter tutma ve muhasebe",
+      "description": "Her büyüklükteki işletme için eksiksiz defter tutma ve muhasebe hizmetleri"
     },
     "aiMl": {
       "title": "Vergi danışmanlığı",
-      "description": "Bireyler ve Tüzel Şahlıklar İçin Profesyonel Vergi Planlaması ve Uyum"
+      "description": "Bireyler ve şirketler için profesyonel vergi planlaması ve uyum"
     },
     "cloudArchitecture": {
       "title": "Sanal CFO",
@@ -47,7 +48,7 @@
     },
     "digitalTransformation": {
       "title": "Eğitim ve Kurslar",
-      "description": "Muhasebe, Vergiler ve Finans Atölyeleri ve Kursları"
+      "description": "Muhasebe, vergi ve finans üzerine atölyeler ve kurslar"
     },
     "caseStudies": {
       "title": "Vaka Çalışmaları",
@@ -67,13 +68,13 @@
     },
     "navigation": "Navigasyon",
     "skipToContent": "İçeriğe geç",
-    "toggleMenu": "Menü Switch",
+    "toggleMenu": "Menüyü aç/kapat",
     "dashboard": "Kontrol paneli",
-    "myWorkspace": "İş Mekanım",
+    "myWorkspace": "Çalışma alanım",
     "profile": "Profil",
-    "adminPanel": "İdari Panel",
-    "practiceManagement": "Uygulama yönetimi",
-    "logOut": "Kayıt Olun",
+    "adminPanel": "Yönetim paneli",
+    "practiceManagement": "Büro yönetimi",
+    "logOut": "Çıkış yap",
     "education": {
       "title": "Kaynaklar ve Rehberler",
       "description": "Start HN ekibinden pratik muhasebe ve finansal kaynaklar"
@@ -81,16 +82,18 @@
     "support": {
       "title": "Destek Merkezi",
       "description": "Muhasebe ve danışmanlık hizmetlerimizde yardım alın"
-    }
+    },
+    "myPage": "Sayfam",
+    "backToSite": "Siteye dön"
   },
   "footer": {
-    "description": "Start HN, Saraybosna merkezli bir muhasebe ajansıdır. Bosna-Hersek'teki işletmeler için muhasebe, vergi danışmanlığı, Sanal CFO ve finansal raporlama sağlıyoruz.",
+    "description": "Start HN, ofisi Ilidža'da (Saraybosna Kantonu) bulunan bir muhasebe ajansıdır. Bosna-Hersek genelinde şirketlere, şahıs işletmelerine ve derneklere defter tutma, bordro, vergi danışmanlığı, sanal CFO ve finansal raporlama hizmetleri sunuyoruz.",
     "services": "Hizmetler",
     "servicesList": {
-      "bookkeeping": "Muhasebe",
+      "bookkeeping": "Defter tutma",
       "tax": "Vergi danışmanlığı",
       "vcfo": "Sanal CFO",
-      "reporting": "Mali Raporlama",
+      "reporting": "Finansal raporlama",
       "consulting": "İş danışmanlığı",
       "education": "Eğitim"
     },
@@ -100,20 +103,20 @@
       "missionVision": "Misyon ve Değerler",
       "certificates": "Sertifikalar",
       "team": "Ekibimiz",
-      "blog": "Başarı hikayeleri",
+      "blog": "Blog",
       "careers": "Kariyerler",
       "contact": "İletişim"
     },
     "contact": "İletişim",
     "contactInfo": {
       "email": "klijenti@starthn.ba",
-      "phone": "+387 61 221-368",
+      "phone": "+387 61 221 368",
       "street": "Ibrahima Ljubovića 47",
-      "locality": "Ilidža",
+      "locality": "71210 Ilidža",
       "region": "Saraybosna Kantonu",
       "country": "Bosna Hersek",
-      "hours": "Pztesi–Cuma: 08:00–16:00",
-      "holidays": "Tatillerde çalışmıyoruz"
+      "hours": "Pzt–Cum: 08:00–16:00",
+      "holidays": "Resmî tatillerde kapalıyız"
     },
     "legal": "Hukuki",
     "legalLinks": {
@@ -121,7 +124,7 @@
       "termsOfService": "Kullanım Şartları",
       "cookiePolicy": "Çerez Politikası"
     },
-    "copyright": "© {{year}} HN'yi başlat. Tüm haklar saklıdır.",
+    "copyright": "© {{year}} Start HN. Tüm hakları saklıdır.",
     "developedBy": "Geliştiren",
     "ctaTitle": "Konuşmaya hazır mısın?",
     "ctaDescription": "Ücretsiz bir tanıtım danışmanlığı randevusu alın — bir iş günü içinde size geri döneceğiz.",
@@ -135,22 +138,22 @@
     "getStarted": "Başlayın",
     "exploreSolutions": "Hizmetleri keşfedin",
     "trustedBy": "Bosna-Hersek'teki şirketlerin güveni",
-    "microsoftPartner": "Yeminli Muhasebeciler",
-    "azureCertified": "KDV için kayıtlı",
+    "microsoftPartner": "Sertifikalı muhasebeciler",
+    "azureCertified": "Vergi kaydı mevcut",
     "enterpriseSolutions": "Uçtan uca muhasebe"
   },
   "mobileNav": {
     "navigation": "Mobil navigasyon",
     "home": "Ana Sayfa",
     "solutions": "Hizmetler",
-    "caseStudies": "Davalar",
+    "caseStudies": "Vakalar",
     "blog": "Blog",
     "resources": "Kaynaklar",
     "contact": "İletişim"
   },
   "sideNav": {
-    "scroll": "Parşömen",
-    "navigateTo": "Gidin {{section}}",
+    "scroll": "Kaydır",
+    "navigateTo": "{{section}} bölümüne git",
     "sections": {
       "home": "Ana Sayfa",
       "solutions": "Hizmetler",
@@ -167,8 +170,8 @@
     "noResults": "Dil bulunamadı."
   },
   "common": {
-    "menu": "Bana",
-    "account": "Düzen"
+    "menu": "Menü",
+    "account": "Hesap"
   },
   "homePage": {
     "caseStudies": {
@@ -188,11 +191,75 @@
       "fintech": "FinTech",
       "healthcare": "Sağlık Hizmetleri",
       "logistics": "Lojistik",
-      "manufacturing": "Yapım",
+      "manufacturing": "İmalat",
       "government": "Kamu sektörü"
     }
   },
   "blogCard": {
-    "read": "Daha fazlasını okuyun"
+    "read": "Oku"
+  },
+  "sections": {
+    "overview": "Genel bakış",
+    "story": "Hikâye",
+    "proof": "Kanıt",
+    "gallery": "Galeri",
+    "values": "Değerler",
+    "team": "Ekip",
+    "culture": "Kültür",
+    "jobs": "Pozisyonlar",
+    "process": "Süreç",
+    "channels": "Kanallar",
+    "contact": "İletişim",
+    "start": "Başlangıç",
+    "home": "Ana sayfa",
+    "services": "Hizmetler",
+    "why": "Neden Start HN",
+    "evidence": "Kanıtlar",
+    "trust": "Güven",
+    "faq": "SSS",
+    "scope": "Kapsam",
+    "outputs": "Çıktılar"
+  },
+  "breadcrumbs": {
+    "home": "Ana sayfa",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "missionVision": "Misyon ve vizyon",
+    "certificates": "Sertifikalar",
+    "careers": "Kariyer",
+    "contact": "İletişim",
+    "blog": "Blog",
+    "privacy": "Gizlilik politikası",
+    "terms": "Kullanım şartları",
+    "serviceBookkeeping": "Defter tutma",
+    "serviceTaxConsulting": "Vergi danışmanlığı",
+    "serviceVirtualCfo": "Sanal CFO",
+    "serviceBusinessConsulting": "İş danışmanlığı",
+    "serviceFinancialReporting": "Finansal raporlama",
+    "serviceEducation": "Eğitim"
+  },
+  "a11y": {
+    "prevSlide": "Önceki slayt",
+    "nextSlide": "Sonraki slayt",
+    "goToSlide": "{{n}}. slayta git",
+    "pauseCarousel": "Slayt gösterisini duraklat",
+    "resumeCarousel": "Slayt gösterisini sürdür",
+    "slides": "Slaytlar",
+    "prevTestimonial": "Önceki müşteri yorumu",
+    "nextTestimonial": "Sonraki müşteri yorumu",
+    "goToTestimonial": "{{n}}. müşteri yorumu",
+    "testimonialCounter": "Müşteri yorumu {{n}} / {{total}}",
+    "prevSection": "Önceki bölüm",
+    "nextSection": "Sonraki bölüm",
+    "goToSection": "{{n}}. bölüme git",
+    "toggleTheme": "Temayı değiştir"
+  },
+  "consent": {
+    "title": "Çerezler ve gizlilik",
+    "text": "İzniniz olması durumunda, sitenin nasıl kullanıldığını anlamak ve geliştirmek için Google Analytics ve Microsoft Clarity kullanıyoruz. İzin vermezseniz bu araçlar yüklenmez; seçiminizi istediğiniz zaman değiştirebilirsiniz.",
+    "accept": "Kabul et",
+    "reject": "Reddet",
+    "settings": "Çerez ayarları",
+    "privacyLink": "Gizlilik politikası"
   }
 }

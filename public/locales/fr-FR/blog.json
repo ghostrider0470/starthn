@@ -1,14 +1,17 @@
 {
   "filters": {
-    "all": "Tous"
+    "all": "Tous",
+    "showLess": "Afficher moins",
+    "showMore": "+{{count}} de plus",
+    "searchCategories": "Rechercher des catégories…"
   },
-  "readTime": "{{minutes}} de lecture de la minute",
+  "readTime": "{{minutes}} min de lecture",
   "tagsLabel": "Tags",
   "relatedPosts": "Articles connexes",
   "author": {
-    "role": "Éditeur"
+    "role": "Auteur"
   },
   "editor": {
-    "emptyPreview": "Commencez à écrire pour voir la bande-annonce..."
+    "emptyPreview": "Commencez à écrire pour voir l’aperçu..."
   }
 }

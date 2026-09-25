@@ -1,70 +1,74 @@
 import { Link, useLocation } from '@tanstack/react-router'
-import { ArrowRight, BookOpenText, BriefcaseBusiness, Home, Layers3 } from 'lucide-react'
-import { useEffect } from 'react'
+import {
+  ArrowRight,
+  BookOpenText,
+  BriefcaseBusiness,
+  Home,
+  Layers3,
+  Mail,
+} from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { PageContainer } from '@/components/layout/PageContainer'
 import { SectionContainer } from '@/components/layout/SectionContainer'
 import { Button } from '@/components/ui/button'
 import { StandardCard } from '@/components/ui/standard-card'
 import { designSystem } from '@/lib/design-system'
+import { featureFlags } from '@/lib/feature-flags'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
-import { Navbar } from '@/components/Navbar'
-import { Footer } from '@/components/Footer'
 
 export function NotFoundPage() {
   const { t } = useTranslation('pages')
   const location = useLocation()
   const locale = getLocaleFromPath(location.pathname)
 
-  // Tell search engines not to index 404 pages
-  useEffect(() => {
-    let meta = document.head.querySelector<HTMLMetaElement>(
-      'meta[name="robots"]',
-    )
-    if (!meta) {
-      meta = document.createElement('meta')
-      meta.setAttribute('name', 'robots')
-      document.head.appendChild(meta)
-    }
-    meta.setAttribute('content', 'noindex,nofollow')
+  // noindex,follow comes from the root route's head() (globalNotFound), on
+  // the server and on client navigation alike; never touch the robots meta
+  // here — it belongs to TanStack's head management.
 
-    return () => {
-      meta.setAttribute('content', 'index,follow')
-    }
-  }, [])
-
+  // The root layout already renders the Navbar and Footer around this page.
+  // Case studies are behind a feature flag (the route 404s when it is off), so
+  // the last shortcut points to the contact page unless the flag is on.
   const shortcuts = [
     {
-      key: 'home' as const,
+      key: 'home',
+      label: t('error.notFound.links.home'),
       to: withLocalePath('/', locale),
       icon: Home,
       primary: true,
     },
     {
-      key: 'services' as const,
+      key: 'services',
+      label: t('error.notFound.links.services'),
       to: withLocalePath('/services', locale),
       icon: BriefcaseBusiness,
       primary: false,
     },
     {
-      key: 'blog' as const,
+      key: 'blog',
+      label: t('error.notFound.links.blog'),
       to: withLocalePath('/blog', locale),
       icon: BookOpenText,
       primary: false,
     },
-    {
-      key: 'caseStudies' as const,
-      to: withLocalePath('/case-studies', locale),
-      icon: Layers3,
-      primary: false,
-    },
+    featureFlags.caseStudies
+      ? {
+          key: 'caseStudies',
+          label: t('error.notFound.links.caseStudies'),
+          to: withLocalePath('/case-studies', locale),
+          icon: Layers3,
+          primary: false,
+        }
+      : {
+          key: 'contact',
+          label: t('common:nav.contact'),
+          to: withLocalePath('/contact', locale),
+          icon: Mail,
+          primary: false,
+        },
   ]
 
   return (
-    <>
-    <Navbar />
-    <div className="pt-16">
     <PageContainer maxWidth="2xl" spacing="md" className="relative">
       <SectionContainer spacing="xl" align="center">
         <StandardCard
@@ -124,7 +128,7 @@ export function NotFoundPage() {
                     <Link to={shortcut.to}>
                       <span className="inline-flex items-center gap-2">
                         <Icon className={designSystem.icons.size.sm} />
-                        {t(`error.notFound.links.${shortcut.key}`)}
+                        {shortcut.label}
                       </span>
                       <ArrowRight className={designSystem.icons.size.sm} />
                     </Link>
@@ -136,8 +140,5 @@ export function NotFoundPage() {
         </StandardCard>
       </SectionContainer>
     </PageContainer>
-    </div>
-    <Footer />
-    </>
   )
 }

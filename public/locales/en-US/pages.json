@@ -6,6 +6,10 @@
       "titleHighlight": "Real Partnership",
       "description": "Start HN is an accounting agency dedicated to the growth and success of entrepreneurs and small businesses in Bosnia and Herzegovina."
     },
+    "images": {
+      "heroAlt": "Accounting office desk with a laptop showing a financial chart, a calculator and binders",
+      "interiorAlt": "Accountant reviewing financial reports with a client at a desk"
+    },
     "welcome": {
       "tagline": "Every day we prove that expertise and clear financial reporting build a solid foundation for new business opportunities.",
       "para1": "Start HN accounting agency from Sarajevo supports associations, sole traders, and micro, small, and medium-sized businesses. Our work is grounded in timeliness, expertise, and trust — we ensure all legal obligations are fulfilled on time.",
@@ -24,7 +28,7 @@
       ]
     },
     "features": [
-      { "icon": "award", "title": "Experience & Expertise", "description": "Our team brings a decade of hands-on practice and certified accounting qualifications." },
+      { "icon": "award", "title": "Experience & Expertise", "description": "Our team brings more than 15 years of hands-on practice and certified accounting qualifications." },
       { "icon": "barChart3", "title": "Detailed Analysis", "description": "Tailored reports and budgets help you make informed business decisions." },
       { "icon": "settings2", "title": "Tailored Solutions", "description": "We automate routine tasks using cloud technology and modern platforms." },
       { "icon": "userCheck", "title": "Individual Approach", "description": "We treat each client with dedicated attention, ensuring the highest level of service." },
@@ -44,6 +48,10 @@
       "title": "Mission, Vision",
       "titleHighlight": "& Values",
       "description": "Clear goals, strong values and a continuous pursuit of excellence that guides every step we take."
+    },
+    "images": {
+      "heroAlt": "Two professionals planning strategy at a whiteboard with business charts",
+      "interiorAlt": "Handshake after a business meeting, a symbol of trust and partnership"
     },
     "mission": {
       "label": "Our Mission",
@@ -124,6 +132,16 @@
         }
       ]
     },
+    "quote": "“Every certificate is proof that our work passes the strictest professional checks.”",
+    "quoteAuthor": "Start HN Accounting Agency",
+    "licenceLine": "Federal Ministry of Finance (FMF) register no. UP-04-11-2-6-1516/24",
+    "verifyLink": "Verify in the SRR FBiH register",
+    "highlights": {
+      "certifiedAccountants": "Certified Accountants",
+      "legalCompliance": "Legal Compliance",
+      "continuousEducation": "Continuous Education",
+      "ethicalStandards": "Ethical Standards"
+    },
     "cta": {
       "title": "Work With a Certified Team",
       "description": "Our licences and professional certifications are your assurance that your accounting is in safe, qualified hands.",
@@ -166,12 +184,22 @@
       "email": {
         "title": "Email",
         "description": "Send us an email anytime",
-        "value": "info@starthn.ba"
+        "value": "klijenti@starthn.ba"
+      },
+      "phone": {
+        "title": "Phone",
+        "description": "Call us during opening hours",
+        "value": "061 221 368"
       },
       "location": {
         "title": "Location",
-        "description": "Based in",
-        "value": "Sarajevo, Bosnia and Herzegovina"
+        "description": "Address",
+        "value": "Ibrahima Ljubovića 47, 71210 Ilidža (Sarajevo)"
+      },
+      "hours": {
+        "title": "Opening hours",
+        "description": "Closed on public holidays",
+        "value": "Mon–Fri 08:00–16:00"
       },
       "response": {
         "title": "Response Time",
@@ -181,7 +209,7 @@
     },
     "departments": {
       "project": {
-        "label": "New Project"
+        "label": "New engagement"
       },
       "support": {
         "label": "Accounting Support"
@@ -210,7 +238,7 @@
         "email": "you@example.com",
         "company": "Your company",
         "subject": "What can we help with?",
-        "message": "Tell us about your project or inquiry..."
+        "message": "Tell us what you need..."
       },
       "validation": {
         "required": {
@@ -451,7 +479,7 @@
     },
     "cta": {
       "title": "Ready to Join Us?",
-      "description": "Send your CV to info@starthn.ba and we'll be in touch as soon as possible.",
+      "description": "Send your CV to klijenti@starthn.ba and we'll be in touch as soon as possible.",
       "button": "Contact Us"
     }
   },
@@ -653,8 +681,24 @@
         "description": "Practical accounting guides, tax tips, and business advice from our team in Sarajevo."
       },
       "filters": {
-        "postsInView": "{{count}} posts in view"
+        "postsInView": "{{count}} posts in view",
+        "advanced": "Filters",
+        "searchPlaceholder": "Search articles by title, topic, or content...",
+        "filterByTag": "Filter by tag",
+        "clearTag": "Clear",
+        "searchTags": "Search tags...",
+        "noTagsMatch": "No tags match your search."
       },
+      "pagination": {
+        "label": "Blog pagination",
+        "previous": "Previous page",
+        "next": "Next page",
+        "showing": "Showing {{from}}–{{to}} of {{total}}",
+        "show": "Show"
+      },
+      "noPosts": "No blog posts yet.",
+      "noResults": "No posts match your current filters.",
+      "clearFilters": "Clear all filters",
       "featured": {
         "badge": "Latest",
         "readCta": "Read featured post"
@@ -895,7 +939,7 @@
   },
   "error": {
     "notFound": {
-      "badge": "404 // Signal Lost",
+      "badge": "404 · Page not found",
       "title": "Page Not Found",
       "description": "The page you requested does not exist or has moved. Let's get you back on track.",
       "requestedPath": "Requested path",
@@ -919,7 +963,17 @@
       "description": "An unexpected issue interrupted rendering. You can retry safely, or return to the homepage.",
       "retry": "Retry",
       "home": "Back to Homepage",
-      "unknown": "Unknown runtime error"
+      "unknown": "Unknown runtime error",
+      "hint": "If the problem persists, please try again later."
+    },
+    "offline": {
+      "title": "You're offline",
+      "description": "This page could not be loaded because there is no internet connection. Check your connection and try again.",
+      "hint": "The page will work again as soon as you are back online.",
+      "banner": "You're offline. Some content may not be available."
+    },
+    "loading": {
+      "blog": "Loading..."
     }
   },
   "meta": {

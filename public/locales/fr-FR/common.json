@@ -2,6 +2,7 @@
   "nav": {
     "home": "Accueil",
     "company": "À propos de nous",
+    "tagline": "Agence comptable",
     "solutions": "Services",
     "resources": "Ressources",
     "contact": "Contact",
@@ -14,7 +15,7 @@
       "description": "Les principes et objectifs qui guident tout ce que nous faisons"
     },
     "certificates": {
-      "title": "Certificats et distinctions",
+      "title": "Certificats et reconnaissances",
       "description": "Nos licences et autorisations professionnelles"
     },
     "team": {
@@ -67,13 +68,13 @@
     },
     "navigation": "Navigation",
     "skipToContent": "Passer au contenu",
-    "toggleMenu": "Menu de commutation",
-    "dashboard": "Panneau de contrôle",
+    "toggleMenu": "Afficher ou masquer le menu",
+    "dashboard": "Tableau de bord",
     "myWorkspace": "Mon espace de travail",
     "profile": "Profil",
-    "adminPanel": "Panel administratif",
+    "adminPanel": "Panneau d’administration",
     "practiceManagement": "Gestion de cabinet",
-    "logOut": "Inscrivez-vous",
+    "logOut": "Se déconnecter",
     "education": {
       "title": "Ressources et guides",
       "description": "Ressources comptables et financières pratiques de l’équipe Start HN"
@@ -81,10 +82,12 @@
     "support": {
       "title": "Centre de soutien",
       "description": "Obtenez de l’aide avec nos services de comptabilité et de conseil"
-    }
+    },
+    "myPage": "Ma page",
+    "backToSite": "Retour au site"
   },
   "footer": {
-    "description": "Start HN est une agence de comptabilité basée à Sarajevo. Nous fournissons la tenue de livres, le conseil fiscal, le CFO virtuel et la déclaration financière pour les entreprises de Bosnie-Herzégovine.",
+    "description": "Start HN est une agence comptable dont le bureau se trouve à Ilidža (canton de Sarajevo). Nous assurons la tenue de livres, la paie, le conseil fiscal, le service de directeur financier virtuel et les rapports financiers pour les entreprises, les entrepreneurs individuels et les associations de toute la Bosnie-Herzégovine.",
     "services": "Services",
     "servicesList": {
       "bookkeeping": "Tenue de livres",
@@ -100,17 +103,17 @@
       "missionVision": "Mission et valeurs",
       "certificates": "Certificats",
       "team": "Notre équipe",
-      "blog": "Histoires de réussite",
+      "blog": "Blog",
       "careers": "Carrières",
       "contact": "Contact"
     },
     "contact": "Contact",
     "contactInfo": {
       "email": "klijenti@starthn.ba",
-      "phone": "+387 61 221-368",
+      "phone": "+387 61 221 368",
       "street": "Ibrahima Ljubovića 47",
-      "locality": "Ilidža",
-      "region": "Sarajevo Canton",
+      "locality": "71210 Ilidža",
+      "region": "Canton de Sarajevo",
       "country": "Bosnie-Herzégovine",
       "hours": "Lun–Ven : 08h00–16h00",
       "holidays": "Nous ne travaillons pas les jours fériés"
@@ -121,7 +124,7 @@
       "termsOfService": "Conditions d’utilisation",
       "cookiePolicy": "Politique des cookies"
     },
-    "copyright": "© {{year}} Commencez HN. Tous droits réservés.",
+    "copyright": "© {{year}} Start HN. Tous droits réservés.",
     "developedBy": "Développé par",
     "ctaTitle": "Prêt à parler ?",
     "ctaDescription": "Prenez rendez-vous pour une consultation introductive gratuite — nous vous recontacterons dans un délai d’un jour ouvré.",
@@ -130,7 +133,7 @@
   "header": {
     "badge": "Services de comptabilité professionnelle",
     "titleLine1": "Comptabilité et finance fiables",
-    "titleLine2": "pour votre entreprise en Bonie-Herzégovine.",
+    "titleLine2": "pour votre entreprise en Bosnie-Herzégovine",
     "description": "De la tenue de livres et du conseil fiscal aux services virtuels de CFO et de reporting financier — Start HN offre une expertise comptable complète qui maintient votre entreprise alignée, informée et prête à croître.",
     "getStarted": "Commencez",
     "exploreSolutions": "Découvrez les services",
@@ -143,14 +146,14 @@
     "navigation": "Navigation mobile",
     "home": "Accueil",
     "solutions": "Services",
-    "caseStudies": "Affaires",
+    "caseStudies": "Études de cas",
     "blog": "Blog",
     "resources": "Ressources",
     "contact": "Contact"
   },
   "sideNav": {
-    "scroll": "Rouleau",
-    "navigateTo": "Va à {{section}}",
+    "scroll": "Défiler",
+    "navigateTo": "Aller à {{section}}",
     "sections": {
       "home": "Accueil",
       "solutions": "Services",
@@ -163,12 +166,12 @@
   },
   "languageSwitcher": {
     "srLabel": "Changer de langue",
-    "searchPlaceholder": "Langue de recherche...",
+    "searchPlaceholder": "Rechercher une langue...",
     "noResults": "Aucune langue trouvée."
   },
   "common": {
-    "menu": "À moi",
-    "account": "Ordre"
+    "menu": "Menu",
+    "account": "Compte"
   },
   "homePage": {
     "caseStudies": {
@@ -193,6 +196,70 @@
     }
   },
   "blogCard": {
-    "read": "En savoir plus"
+    "read": "Lire"
+  },
+  "sections": {
+    "overview": "Aperçu",
+    "story": "Histoire",
+    "proof": "Preuves",
+    "gallery": "Galerie",
+    "values": "Valeurs",
+    "team": "Équipe",
+    "culture": "Culture",
+    "jobs": "Postes",
+    "process": "Processus",
+    "channels": "Canaux",
+    "contact": "Contact",
+    "start": "Premiers pas",
+    "home": "Accueil",
+    "services": "Services",
+    "why": "Pourquoi Start HN",
+    "evidence": "Nos résultats",
+    "trust": "Confiance",
+    "faq": "FAQ",
+    "scope": "Périmètre",
+    "outputs": "Livrables"
+  },
+  "breadcrumbs": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "missionVision": "Mission et vision",
+    "certificates": "Certificats",
+    "careers": "Carrières",
+    "contact": "Contact",
+    "blog": "Blog",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d’utilisation",
+    "serviceBookkeeping": "Tenue de livres",
+    "serviceTaxConsulting": "Conseil fiscal",
+    "serviceVirtualCfo": "Directeur financier virtuel",
+    "serviceBusinessConsulting": "Conseil en affaires",
+    "serviceFinancialReporting": "Rapports financiers",
+    "serviceEducation": "Formation"
+  },
+  "a11y": {
+    "prevSlide": "Diapositive précédente",
+    "nextSlide": "Diapositive suivante",
+    "goToSlide": "Aller à la diapositive {{n}}",
+    "pauseCarousel": "Mettre le carrousel en pause",
+    "resumeCarousel": "Relancer le carrousel",
+    "slides": "Diapositives",
+    "prevTestimonial": "Témoignage précédent",
+    "nextTestimonial": "Témoignage suivant",
+    "goToTestimonial": "Témoignage {{n}}",
+    "testimonialCounter": "Témoignage {{n}} sur {{total}}",
+    "prevSection": "Section précédente",
+    "nextSection": "Section suivante",
+    "goToSection": "Aller à la section {{n}}",
+    "toggleTheme": "Changer de thème"
+  },
+  "consent": {
+    "title": "Cookies et confidentialité",
+    "text": "Avec votre consentement, nous utilisons Google Analytics et Microsoft Clarity pour comprendre comment le site est utilisé et l’améliorer. Sans votre consentement, ces outils ne sont pas chargés, et vous pouvez modifier votre choix à tout moment.",
+    "accept": "Accepter",
+    "reject": "Refuser",
+    "settings": "Paramètres des cookies",
+    "privacyLink": "Politique de confidentialité"
   }
 }

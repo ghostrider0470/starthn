@@ -18,15 +18,6 @@ export const SERVICE_ROUTES: Record<ServiceId, string> = {
   education: '/services/education-courses',
 }
 
-export const LEGACY_SERVICE_REDIRECTS = {
-  '/services/enterprise-software-development': SERVICE_ROUTES.bookkeeping,
-  '/services/ai-ml-business-intelligence': SERVICE_ROUTES.taxConsulting,
-  '/services/cloud-architecture': SERVICE_ROUTES.virtualCfo,
-  '/services/iot-edge-computing': SERVICE_ROUTES.businessConsulting,
-  '/services/devops-platform-engineering': SERVICE_ROUTES.financialReporting,
-  '/services/digital-transformation': SERVICE_ROUTES.education,
-} as const
-
 export const SERVICE_INDEX_SECTION_IDS = [
   'overview',
   'services',

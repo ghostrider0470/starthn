@@ -1,7 +1,8 @@
 {
   "nav": {
-    "home": "Casa",
+    "home": "Home",
     "company": "Chi Siamo",
+    "tagline": "Agenzia di contabilità",
     "solutions": "Servizi",
     "resources": "Risorse",
     "contact": "Contatto",
@@ -26,12 +27,12 @@
       "description": "Unisciti al nostro team e cresci insieme a noi"
     },
     "enterpriseSoftware": {
-      "title": "Contabilità e tenuta contabile",
-      "description": "Servizi completi di contabilità e contabilità per aziende di tutte le dimensioni"
+      "title": "Tenuta contabile e contabilità",
+      "description": "Servizi completi di tenuta contabile e contabilità per aziende di tutte le dimensioni"
     },
     "aiMl": {
       "title": "Consulenza fiscale",
-      "description": "Pianificazione e Conformità Fiscale Professionale per Individui e Entità Giuridiche"
+      "description": "Pianificazione fiscale e adempimenti per persone fisiche e aziende"
     },
     "cloudArchitecture": {
       "title": "CFO virtuale",
@@ -67,13 +68,13 @@
     },
     "navigation": "Navigazione",
     "skipToContent": "Salta al contenuto",
-    "toggleMenu": "Menu Switch",
+    "toggleMenu": "Apri o chiudi il menu",
     "dashboard": "Pannello di controllo",
     "myWorkspace": "Il mio spazio di lavoro",
     "profile": "Profilo",
-    "adminPanel": "Comitato Amministrativo",
+    "adminPanel": "Pannello di amministrazione",
     "practiceManagement": "Gestione dello studio",
-    "logOut": "Iscriviti",
+    "logOut": "Esci",
     "education": {
       "title": "Risorse e Guide",
       "description": "Risorse pratiche di contabilità e finanziarie dal team Start HN"
@@ -81,10 +82,12 @@
     "support": {
       "title": "Centro di Supporto",
       "description": "Ricevi aiuto con i nostri servizi di contabilità e consulenza"
-    }
+    },
+    "myPage": "La mia pagina",
+    "backToSite": "Torna al sito"
   },
   "footer": {
-    "description": "Start HN è un'agenzia di contabilità con sede a Sarajevo. Forniamo contabilità, consulenza fiscale, CFO virtuale e rendicontazione finanziaria per aziende in tutta la Bosnia ed Erzegovina.",
+    "description": "Start HN è un'agenzia di contabilità con sede a Ilidža (Cantone di Sarajevo). Offriamo tenuta della contabilità, elaborazione delle buste paga, consulenza fiscale, CFO virtuale e rendicontazione finanziaria per aziende, ditte individuali e associazioni in tutta la Bosnia ed Erzegovina.",
     "services": "Servizi",
     "servicesList": {
       "bookkeeping": "Contabilità",
@@ -92,7 +95,7 @@
       "vcfo": "CFO virtuale",
       "reporting": "Rendicontazione finanziaria",
       "consulting": "Consulenza aziendale",
-      "education": "Istruzione"
+      "education": "Formazione"
     },
     "company": "Chi Siamo",
     "companyLinks": {
@@ -100,16 +103,16 @@
       "missionVision": "Missione e valori",
       "certificates": "Certificati",
       "team": "La nostra squadra",
-      "blog": "Storie di successo",
+      "blog": "Blog",
       "careers": "Carriere",
       "contact": "Contatto"
     },
     "contact": "Contatto",
     "contactInfo": {
       "email": "klijenti@starthn.ba",
-      "phone": "+387 61 221-368",
+      "phone": "+387 61 221 368",
       "street": "Ibrahima Ljubovića 47",
-      "locality": "Ilidža",
+      "locality": "71210 Ilidža",
       "region": "Cantone di Sarajevo",
       "country": "Bosnia ed Erzegovina",
       "hours": "Lun–Ven: 08:00–16:00",
@@ -121,7 +124,7 @@
       "termsOfService": "Termini di utilizzo",
       "cookiePolicy": "Politica sui cookie"
     },
-    "copyright": "© {{year}} Inizia HN. Tutti i diritti riservati.",
+    "copyright": "© {{year}} Start HN. Tutti i diritti riservati.",
     "developedBy": "Sviluppato da",
     "ctaTitle": "Pronto a parlare?",
     "ctaDescription": "Prenota una consulenza introduttiva gratuita — ti risponderemo entro un giorno lavorativo.",
@@ -134,14 +137,14 @@
     "description": "Dalla contabilità e consulenza fiscale ai servizi virtuali di CFO e rendicontazione finanziaria — Start HN offre una competenza contabile completa che mantiene la tua azienda allineata, informata e pronta per crescere.",
     "getStarted": "Inizia",
     "exploreSolutions": "Esplora i servizi",
-    "trustedBy": "Fiducia delle aziende in tutta la Bosnia ed Erzegovina",
+    "trustedBy": "Scelti dalle aziende in tutta la Bosnia ed Erzegovina",
     "microsoftPartner": "Commercialisti Abilitati",
     "azureCertified": "Registrato per l'IVA",
     "enterpriseSolutions": "Contabilità end-to-end"
   },
   "mobileNav": {
     "navigation": "Navigazione mobile",
-    "home": "Casa",
+    "home": "Home",
     "solutions": "Servizi",
     "caseStudies": "Casi",
     "blog": "Blog",
@@ -149,10 +152,10 @@
     "contact": "Contatto"
   },
   "sideNav": {
-    "scroll": "Pergamena",
+    "scroll": "Scorri",
     "navigateTo": "Vai su {{section}}",
     "sections": {
-      "home": "Casa",
+      "home": "Home",
       "solutions": "Servizi",
       "credibility": "Credibilità",
       "partners": "Partner",
@@ -163,12 +166,12 @@
   },
   "languageSwitcher": {
     "srLabel": "Cambia lingua",
-    "searchPlaceholder": "Lingua di ricerca...",
+    "searchPlaceholder": "Cerca lingua...",
     "noResults": "Nessuna lingua trovata."
   },
   "common": {
-    "menu": "A me",
-    "account": "Ordine"
+    "menu": "Menu",
+    "account": "Account"
   },
   "homePage": {
     "caseStudies": {
@@ -194,5 +197,69 @@
   },
   "blogCard": {
     "read": "Leggi di più"
+  },
+  "sections": {
+    "overview": "Panoramica",
+    "story": "Storia",
+    "proof": "Prove",
+    "gallery": "Galleria",
+    "values": "Valori",
+    "team": "Team",
+    "culture": "Cultura",
+    "jobs": "Posizioni",
+    "process": "Processo",
+    "channels": "Canali",
+    "contact": "Contatti",
+    "start": "Inizio",
+    "home": "Home",
+    "services": "Servizi",
+    "why": "Perché Start HN",
+    "evidence": "Numeri",
+    "trust": "Fiducia",
+    "faq": "FAQ",
+    "scope": "Ambito",
+    "outputs": "Risultati"
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "services": "Servizi",
+    "about": "Chi siamo",
+    "missionVision": "Missione e visione",
+    "certificates": "Certificati",
+    "careers": "Carriere",
+    "contact": "Contatti",
+    "blog": "Blog",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini di utilizzo",
+    "serviceBookkeeping": "Tenuta della contabilità",
+    "serviceTaxConsulting": "Consulenza fiscale",
+    "serviceVirtualCfo": "CFO virtuale",
+    "serviceBusinessConsulting": "Consulenza aziendale",
+    "serviceFinancialReporting": "Rendicontazione finanziaria",
+    "serviceEducation": "Formazione"
+  },
+  "a11y": {
+    "prevSlide": "Slide precedente",
+    "nextSlide": "Slide successiva",
+    "goToSlide": "Vai alla slide {{n}}",
+    "pauseCarousel": "Metti in pausa il carosello",
+    "resumeCarousel": "Riprendi il carosello",
+    "slides": "Slide",
+    "prevTestimonial": "Testimonianza precedente",
+    "nextTestimonial": "Testimonianza successiva",
+    "goToTestimonial": "Testimonianza {{n}}",
+    "testimonialCounter": "Testimonianza {{n}} di {{total}}",
+    "prevSection": "Sezione precedente",
+    "nextSection": "Sezione successiva",
+    "goToSection": "Vai alla sezione {{n}}",
+    "toggleTheme": "Cambia tema"
+  },
+  "consent": {
+    "title": "Cookie e privacy",
+    "text": "Con il tuo consenso utilizziamo Google Analytics e Microsoft Clarity per capire come viene usato il sito e migliorarlo. Senza consenso non vengono caricati e puoi modificare la tua scelta in qualsiasi momento.",
+    "accept": "Accetto",
+    "reject": "Rifiuto",
+    "settings": "Impostazioni cookie",
+    "privacyLink": "Informativa sulla privacy"
   }
 }

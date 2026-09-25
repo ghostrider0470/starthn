@@ -1,14 +1,17 @@
 {
   "filters": {
-    "all": "جميعها"
+    "all": "جميعها",
+    "showLess": "عرض أقل",
+    "showMore": "+{{count}} أخرى",
+    "searchCategories": "ابحث في الفئات…"
   },
   "readTime": "قراءة {{minutes}} دقيقة",
   "tagsLabel": "الوسوم",
   "relatedPosts": "مقالات ذات صلة",
   "author": {
-    "role": "الناشر"
+    "role": "الكاتب"
   },
   "editor": {
-    "emptyPreview": "ابدأ الكتابة لمشاهدة الإعلان التشويقي..."
+    "emptyPreview": "ابدأ الكتابة لرؤية المعاينة..."
   }
 }

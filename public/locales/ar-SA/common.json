@@ -1,7 +1,8 @@
 {
   "nav": {
-    "home": "المنزل",
+    "home": "الرئيسية",
     "company": "من نحن",
+    "tagline": "وكالة محاسبة",
     "solutions": "الخدمات",
     "resources": "الموارد",
     "contact": "الاتصال",
@@ -23,7 +24,7 @@
     },
     "careers": {
       "title": "المسيرة المهنية",
-      "description": "انضم إلى فريقنا ونما معنا"
+      "description": "انضم إلى فريقنا وتطوّر معنا"
     },
     "enterpriseSoftware": {
       "title": "المحاسبة ومسك الدفاتر",
@@ -62,18 +63,18 @@
       "description": "رؤى وأدلة وأخبار من فريق Start HN",
       "featured": {
         "title": "مقالة مميزة",
-        "description": "اقرأ واحدة من أحدث رؤاتنا المحاسبية والمالية."
+        "description": "اقرأ أحدث مقالاتنا في المحاسبة والمالية."
       }
     },
-    "navigation": "الملاحة",
+    "navigation": "التنقل",
     "skipToContent": "تخطي إلى المحتوى",
-    "toggleMenu": "قائمة المفاتيح",
+    "toggleMenu": "تبديل القائمة",
     "dashboard": "لوحة التحكم",
     "myWorkspace": "مساحة عملي",
     "profile": "الملف الشخصي",
-    "adminPanel": "اللجنة الإدارية",
+    "adminPanel": "لوحة الإدارة",
     "practiceManagement": "إدارة الممارسة",
-    "logOut": "سجل",
+    "logOut": "تسجيل الخروج",
     "education": {
       "title": "الموارد والأدلة",
       "description": "موارد عملية في المحاسبة والمالية من فريق Start HN"
@@ -81,10 +82,12 @@
     "support": {
       "title": "مركز الدعم",
       "description": "احصل على المساعدة في خدماتنا المحاسبية والاستشارية"
-    }
+    },
+    "myPage": "صفحتي",
+    "backToSite": "العودة إلى الموقع"
   },
   "footer": {
-    "description": "Start HN هي وكالة محاسبة مقرها سراييفو. نقدم خدمات مسك الدفاتر، والاستشارات الضريبية، والمدير المالي الافتراضي، والتقارير المالية للشركات في جميع أنحاء البوسنة والهرسك.",
+    "description": "Start HN وكالة محاسبة يقع مكتبها في إيليدجا (كانتون سراييفو). نقدم خدمات مسك الدفاتر، وحساب الرواتب، والاستشارات الضريبية، والمدير المالي الافتراضي، والتقارير المالية للشركات والمؤسسات الفردية والجمعيات في جميع أنحاء البوسنة والهرسك.",
     "services": "الخدمات",
     "servicesList": {
       "bookkeeping": "مسك الدفاتر",
@@ -100,28 +103,28 @@
       "missionVision": "المهمة والقيم",
       "certificates": "الشهادات",
       "team": "فريقنا",
-      "blog": "قصص النجاح",
+      "blog": "المدونة",
       "careers": "المسيرة المهنية",
       "contact": "الاتصال"
     },
     "contact": "الاتصال",
     "contactInfo": {
       "email": "klijenti@starthn.ba",
-      "phone": "+387 61 221-368",
-      "street": "إبراهيما ليوبوفيتش 47",
-      "locality": "إيلدجا",
+      "phone": "+387 61 221 368",
+      "street": "Ibrahima Ljubovića 47",
+      "locality": "71210 Ilidža",
       "region": "كانتون سراييفو",
       "country": "البوسنة والهرسك",
       "hours": "الإثنين – الجمعة: 08:00–16:00",
-      "holidays": "نحن لا نعمل في العطلات"
+      "holidays": "مغلق في أيام العطل الرسمية"
     },
-    "legal": "القانون",
+    "legal": "معلومات قانونية",
     "legalLinks": {
       "privacyPolicy": "سياسة الخصوصية",
       "termsOfService": "شروط الاستخدام",
-      "cookiePolicy": "سياسة الكوكيز"
+      "cookiePolicy": "سياسة ملفات تعريف الارتباط"
     },
-    "copyright": "© {{year}} ابدأ HN. جميع الحقوق محفوظة.",
+    "copyright": "© {{year}} Start HN. جميع الحقوق محفوظة.",
     "developedBy": "تم تطويرها بواسطة",
     "ctaTitle": "جاهز للحديث؟",
     "ctaDescription": "حدد موعدا لاستشارة تمهيدية مجانية — سنعود إليك خلال يوم عمل واحد.",
@@ -131,28 +134,28 @@
     "badge": "خدمات المحاسبة المهنية",
     "titleLine1": "المحاسبة والتمويل الموثوقة",
     "titleLine2": "لعملك في البوسنة والهرسك",
-    "description": "من مسك الدفاتر والاستشارات الضريبية إلى خدمات المدير المالي الافتراضي والتقارير المالية — توفر Start HN خبرة محاسبية شاملة تحافظ على مواءمة عملك ومطلعا وجاهزا للنمو.",
+    "description": "من مسك الدفاتر والاستشارات الضريبية إلى خدمات المدير المالي الافتراضي والتقارير المالية — تقدم Start HN خبرة محاسبية شاملة تُبقي عملك ملتزمًا بالأنظمة، واضح الرؤية، وجاهزًا للنمو.",
     "getStarted": "ابدأ",
     "exploreSolutions": "استكشف الخدمات",
-    "trustedBy": "ثقة الشركات في جميع أنحاء البوسنة والهرسك",
-    "microsoftPartner": "المحاسبون القانونيون",
-    "azureCertified": "مسجلون في ضريبة القيمة المضافة",
-    "enterpriseSolutions": "المحاسبة من البداية إلى النهاية"
+    "trustedBy": "موضع ثقة الشركات في جميع أنحاء البوسنة والهرسك",
+    "microsoftPartner": "محاسبون معتمدون",
+    "azureCertified": "مسجّلون ضريبيًا",
+    "enterpriseSolutions": "خدمات محاسبية متكاملة"
   },
   "mobileNav": {
-    "navigation": "الملاحة المتنقلة",
-    "home": "المنزل",
+    "navigation": "التنقل عبر الجوال",
+    "home": "الرئيسية",
     "solutions": "الخدمات",
-    "caseStudies": "القضايا",
+    "caseStudies": "دراسات الحالة",
     "blog": "المدونة",
     "resources": "الموارد",
     "contact": "الاتصال"
   },
   "sideNav": {
-    "scroll": "لفافة",
+    "scroll": "مرّر",
     "navigateTo": "اذهب إلى {{section}}",
     "sections": {
-      "home": "المنزل",
+      "home": "الرئيسية",
       "solutions": "الخدمات",
       "credibility": "المصداقية",
       "partners": "الشركاء",
@@ -163,12 +166,12 @@
   },
   "languageSwitcher": {
     "srLabel": "تغيير اللغة",
-    "searchPlaceholder": "لغة البحث...",
+    "searchPlaceholder": "ابحث عن لغة...",
     "noResults": "لم يتم العثور على لغات."
   },
   "common": {
-    "menu": "بالنسبة لي",
-    "account": "الترتيب"
+    "menu": "القائمة",
+    "account": "الحساب"
   },
   "homePage": {
     "caseStudies": {
@@ -188,11 +191,75 @@
       "fintech": "فين تك",
       "healthcare": "الرعاية الصحية",
       "logistics": "اللوجستيات",
-      "manufacturing": "الإنتاج",
+      "manufacturing": "التصنيع",
       "government": "القطاع العام"
     }
   },
   "blogCard": {
     "read": "اقرأ المزيد"
+  },
+  "sections": {
+    "overview": "نظرة عامة",
+    "story": "قصتنا",
+    "proof": "الإثبات",
+    "gallery": "المعرض",
+    "values": "القيم",
+    "team": "الفريق",
+    "culture": "الثقافة",
+    "jobs": "الوظائف",
+    "process": "آلية العمل",
+    "channels": "القنوات",
+    "contact": "التواصل",
+    "start": "البداية",
+    "home": "الرئيسية",
+    "services": "الخدمات",
+    "why": "لماذا Start HN",
+    "evidence": "الأدلة",
+    "trust": "الثقة",
+    "faq": "الأسئلة الشائعة",
+    "scope": "النطاق",
+    "outputs": "المخرجات"
+  },
+  "breadcrumbs": {
+    "home": "الرئيسية",
+    "services": "الخدمات",
+    "about": "من نحن",
+    "missionVision": "الرسالة والرؤية",
+    "certificates": "الشهادات",
+    "careers": "الوظائف",
+    "contact": "اتصل بنا",
+    "blog": "المدونة",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الاستخدام",
+    "serviceBookkeeping": "مسك الدفاتر",
+    "serviceTaxConsulting": "الاستشارات الضريبية",
+    "serviceVirtualCfo": "المدير المالي الافتراضي",
+    "serviceBusinessConsulting": "الاستشارات التجارية",
+    "serviceFinancialReporting": "التقارير المالية",
+    "serviceEducation": "التعليم"
+  },
+  "a11y": {
+    "prevSlide": "الشريحة السابقة",
+    "nextSlide": "الشريحة التالية",
+    "goToSlide": "الانتقال إلى الشريحة {{n}}",
+    "pauseCarousel": "إيقاف العرض المتحرك مؤقتًا",
+    "resumeCarousel": "استئناف العرض المتحرك",
+    "slides": "الشرائح",
+    "prevTestimonial": "رأي العميل السابق",
+    "nextTestimonial": "رأي العميل التالي",
+    "goToTestimonial": "رأي العميل {{n}}",
+    "testimonialCounter": "رأي العميل {{n}} من {{total}}",
+    "prevSection": "القسم السابق",
+    "nextSection": "القسم التالي",
+    "goToSection": "الانتقال إلى القسم {{n}}",
+    "toggleTheme": "تبديل المظهر"
+  },
+  "consent": {
+    "title": "ملفات تعريف الارتباط والخصوصية",
+    "text": "بموافقتك، نستخدم Google Analytics و Microsoft Clarity لفهم كيفية استخدام الموقع وتحسينه. بدون موافقتك لا يتم تحميلهما، ويمكنك تغيير اختيارك في أي وقت.",
+    "accept": "قبول",
+    "reject": "رفض",
+    "settings": "إعدادات ملفات تعريف الارتباط",
+    "privacyLink": "سياسة الخصوصية"
   }
 }

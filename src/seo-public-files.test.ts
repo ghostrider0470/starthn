@@ -90,6 +90,18 @@ describe('public SEO files', () => {
     const llms = readPublicFile('llms.txt')
 
     expect(llms).toMatch(/^#\s+\S+/m)
-    expect(llms).toMatch(/\[[^\]]+\]\(https:\/\/starthn\.ba[^)]*\)/)
+    // Links use the canonical www host (the apex only 301s to it).
+    expect(llms).toMatch(/\[[^\]]+\]\(https:\/\/www\.starthn\.ba\/[^)]*\)/)
+    expect(llms).not.toMatch(/\(https:\/\/starthn\.ba/)
+  })
+
+  it('gives llms.txt the Google Business Profile NAP and the D2 email', () => {
+    const llms = readPublicFile('llms.txt')
+
+    expect(llms).toContain('Ibrahima Ljubovića 47, 71210 Ilidža')
+    expect(llms).toContain('+387 61 221 368')
+    expect(llms).toContain('https://maps.google.com/?cid=6152645102359996777')
+    expect(llms).toContain('klijenti@starthn.ba')
+    expect(llms).not.toContain('info@starthn.ba')
   })
 })

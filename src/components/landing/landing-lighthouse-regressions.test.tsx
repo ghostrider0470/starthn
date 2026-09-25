@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react'
+import { fireEvent, render, screen } from '@testing-library/react'
 import { describe, expect, it, vi } from 'vitest'
 import {
   ClientLogosSection,
@@ -8,6 +8,13 @@ import { ContactCtaSection } from './ContactCtaSection'
 import { StatsSection } from './StatsSection'
 import type { ClientItem } from './ClientLogosSection'
 import { Footer } from '@/components/Footer'
+import {
+  CONTACT_EMAIL,
+  FACEBOOK_PROFILE_URL,
+  PHONE_TEL,
+  STREET,
+} from '@/lib/business'
+import { CONSENT_OPEN_EVENT } from '@/lib/consent'
 
 const clientItems: Array<ClientItem> = [
   { name: 'Alpha', logo: '/alpha.webp', href: 'https://alpha.test' },
@@ -78,11 +85,7 @@ const translations: Record<string, unknown> = {
   'footer.companyLinks.blog': 'Blog',
   'footer.companyLinks.careers': 'Careers',
   'footer.companyLinks.contact': 'Contact',
-  'footer.contactInfo.email': 'info@starthn.ba',
-  'footer.contactInfo.phone': '+387 61 000 000',
-  'footer.contactInfo.street': 'Address',
-  'footer.contactInfo.locality': 'Sarajevo',
-  'footer.contactInfo.region': 'FBiH',
+  'footer.contactInfo.region': 'Sarajevo Canton',
   'footer.contactInfo.country': 'Bosnia and Herzegovina',
   'footer.contactInfo.hours': 'Mon-Fri',
   'footer.contactInfo.holidays': 'Closed on holidays',
@@ -114,7 +117,7 @@ vi.mock('react-i18next', () => ({
       if (key === 'clients.openClient') return `${options?.defaultValue ?? 'Open client website'}`
       const value = translations[key]
       if (Array.isArray(value)) return options?.returnObjects ? value : value.join(', ')
-      return value ?? key
+      return value ?? options?.defaultValue ?? key
     },
   }),
 }))
@@ -160,10 +163,31 @@ describe('landing Lighthouse regressions', () => {
     ).toBe('Alpha logo. Alpha - open client website')
   })
 
+  it('links each client once and renders the marquee duplicates as hidden decoration', () => {
+    const { container } = render(<ClientLogosSection />)
+
+    // Three marquee copies per row, but only the first copy is a real link.
+    expect(container.querySelectorAll('[data-client-logo="Alpha"]')).toHaveLength(3)
+    expect(container.querySelectorAll('a[href="https://alpha.test"]')).toHaveLength(1)
+
+    const decorative = container.querySelectorAll('[aria-hidden="true"][data-client-logo]')
+    expect(decorative).toHaveLength(clientItems.length * 2)
+    decorative.forEach((node) => {
+      expect(node.tagName).toBe('DIV')
+      expect(node.querySelector('a')).toBeNull()
+      node.querySelectorAll('img').forEach((image) => {
+        expect(image.getAttribute('alt')).toBe('')
+      })
+    })
+
+    // Client logos are not structured data.
+    expect(container.querySelector('[itemprop], [itemscope]')).toBeNull()
+  })
+
   it('labels the contact service select', () => {
     render(<ContactCtaSection />)
 
-    expect((screen.getByLabelText('Choose a service') as HTMLSelectElement).name).toBe(
+    expect(screen.getByLabelText('Choose a service').getAttribute('name')).toBe(
       'service',
     )
   })
@@ -186,5 +210,34 @@ describe('landing Lighthouse regressions', () => {
     expect(footer?.className).not.toContain('bg-primary')
     expect(footer?.querySelector('.text-white\\/60')).toBeNull()
     expect(footer?.querySelector('.text-white\\/80')).toBeNull()
+  })
+
+  it('renders footer NAP from business constants without microdata or headings', () => {
+    const { container } = render(<Footer />)
+    const footer = container.querySelector('footer')!
+
+    expect(footer.querySelector('[itemprop], [itemscope], [itemtype]')).toBeNull()
+    expect(footer.querySelector('h1, h2, h3, h4, h5, h6')).toBeNull()
+
+    expect(footer.querySelector(`a[href="tel:${PHONE_TEL}"]`)).not.toBeNull()
+    expect(footer.querySelector(`a[href="mailto:${CONTACT_EMAIL}"]`)).not.toBeNull()
+    expect(footer.querySelector('address')?.textContent).toContain(STREET)
+    expect(footer.querySelector('address')?.textContent).toContain('71210 Ilidža')
+
+    const facebook = footer.querySelector('a[aria-label="Facebook"]')
+    expect(facebook?.getAttribute('href')).toBe(FACEBOOK_PROFILE_URL)
+    expect(footer.innerHTML).not.toContain('/share/')
+    expect(footer.innerHTML).not.toMatch(/\binfo@/)
+  })
+
+  it('re-opens the cookie banner from the footer', () => {
+    const listener = vi.fn()
+    window.addEventListener(CONSENT_OPEN_EVENT, listener)
+
+    render(<Footer />)
+    fireEvent.click(screen.getByRole('button', { name: 'Cookie settings' }))
+
+    expect(listener).toHaveBeenCalledTimes(1)
+    window.removeEventListener(CONSENT_OPEN_EVENT, listener)
   })
 })

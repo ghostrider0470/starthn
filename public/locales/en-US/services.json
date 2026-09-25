@@ -14,8 +14,8 @@
   },
   "index": {
     "overline": "Start HN services",
-    "title": "Accounting support for every stage of business",
-    "description": "Six focused service areas cover the daily records, tax obligations, reporting, advisory, and education your business needs to operate with clarity.",
+    "title": "Accounting services for companies, sole traders and associations",
+    "description": "Start HN accounting services: bookkeeping, tax consulting, virtual CFO, financial reporting, business consulting and training for companies, sole traders and associations in Sarajevo and Ilidža.",
     "introOverline": "Services",
     "introTitle": "One team, one clear financial picture",
     "introBody": "Start HN combines practical bookkeeping, tax monitoring, financial reporting, and advisory support so owners and managers can make decisions from reliable numbers instead of scattered paperwork.",
@@ -25,14 +25,25 @@
       "button": "Book a consultation"
     }
   },
+  "related": {
+    "title": "Related services",
+    "postsTitle": "Related articles",
+    "postLabels": {
+      "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance": "Guide: starting a business in BiH (sole trader or d.o.o.)",
+      "importance-of-entrepreneurship-programs": "Entrepreneurship support programmes in Sarajevo Canton"
+    }
+  },
   "items": {
     "bookkeeping": {
       "label": "01",
       "title": "Bookkeeping & Accounting",
+      "heroTitle": "Bookkeeping and accounting for companies and sole traders in Sarajevo",
       "shortDescription": "Complete bookkeeping, accounting records, payroll calculations, VAT records, and year-end reports for sole traders and companies.",
-      "heroDescription": "Reliable books are the operating base of every business. We keep your records accurate, updated, and ready for tax deadlines, bank requests, and management decisions.",
+      "heroDescription": "Bookkeeping services for limited liability companies (d.o.o.), sole traders and associations in Sarajevo and Ilidža: posting invoices and expenses, payroll and contribution calculations, VAT and the annual year-end accounts – accurate and ahead of deadlines.",
       "overviewTitle": "Daily records without daily friction",
       "overview": "We organize the full bookkeeping cycle: document intake, invoice and expense posting, payroll and contribution calculations, VAT records, statutory filings, and annual closing. The goal is simple: clean records, clear responsibilities, and no last-minute surprises.",
+      "localContextTitle": "Bookkeeping for companies and sole traders in Sarajevo and Ilidža",
+      "localContext": "Start HN is an accounting agency based at Ibrahima Ljubovića 47, 71210 Ilidža, working with companies, sole traders and associations from Ilidža, Sarajevo and Sarajevo Canton. We keep business books in line with the regulations of the Federation of BiH: posting incoming and outgoing invoices and expenses, payroll and contribution calculations, VAT records and returns, and the annual year-end accounts. You can deliver documents in person, by email or digitally. We work primarily in Pantheon, and we can also work in the system your company already uses.",
       "bestForTitle": "Best for",
       "bestFor": [
         "Small and medium companies that need regular accounting support",
@@ -79,19 +90,30 @@
         "Submission confirmations",
         "Regular accounting guidance"
       ],
+      "interiorAlt": "Accountant at a computer with a checklist of completed monthly tasks: VAT return, payroll and bookkeeping entries",
       "cta": {
         "title": "Ready to organize your books?",
         "description": "We will review your current records and define a monthly accounting workflow that fits how your business actually operates.",
         "button": "Request bookkeeping support"
-      }
+      },
+      "related": [
+        "taxConsulting",
+        "financialReporting"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
+      ]
     },
     "taxConsulting": {
       "label": "02",
       "title": "Tax Consulting",
+      "heroTitle": "Tax consulting and VAT for companies and sole traders in Sarajevo",
       "shortDescription": "Tax monitoring, planning, filing support, deadline tracking, and practical guidance for individuals and companies.",
       "heroDescription": "Tax obligations change quickly and mistakes are expensive. We help you understand what applies, what is due, and how to plan within the rules.",
       "overviewTitle": "Tax advice before there is a problem",
       "overview": "Our tax support connects compliance and planning: we monitor deadlines, review obligations, explain regulatory changes, prepare filings, and advise on decisions before they create avoidable cost or risk.",
+      "localContextTitle": "Tax obligations for companies and sole traders in the Federation of BiH",
+      "localContext": "Companies and sole traders based in Sarajevo and elsewhere in the Federation of BiH have tax obligations under the regulations of BiH and the Federation of BiH. From our office in Ilidža we prepare and submit VAT returns, corporate and personal income tax returns and other statutory filings, follow regulatory changes and let you know in good time when a change affects your business. Tax advice works best when it is linked to accurate bookkeeping, because returns are then based on reliable records.",
       "bestForTitle": "Best for",
       "bestFor": [
         "Companies that need regular tax monitoring",
@@ -138,19 +160,30 @@
         "Tax planning notes",
         "Deadline and compliance support"
       ],
+      "interiorAlt": "Tax adviser walking a client through an overview of tax obligations on a screen",
       "cta": {
         "title": "Need clarity on tax obligations?",
         "description": "Send us your current situation and we will help you understand what is due, what can be improved, and what should happen next.",
         "button": "Discuss tax support"
-      }
+      },
+      "related": [
+        "bookkeeping",
+        "businessConsulting"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance"
+      ]
     },
     "virtualCfo": {
       "label": "03",
       "title": "Virtual CFO",
+      "heroTitle": "Virtual CFO for small and medium-sized businesses in Sarajevo",
       "shortDescription": "Senior financial insight without a full-time finance director: cash flow, budgeting, KPIs, and decision support.",
       "heroDescription": "A Virtual CFO gives owners and management a clearer view of financial health, cash flow, profitability, and strategic choices.",
       "overviewTitle": "Financial leadership on a flexible basis",
       "overview": "We translate accounting data into practical management insight: budgets, forecasts, cash-flow planning, profitability analysis, and financial indicators that show where the company is strong and where attention is needed.",
+      "localContextTitle": "Financial leadership without a full-time finance director",
+      "localContext": "Many small and medium-sized businesses in Sarajevo and Sarajevo Canton do not need a full-time finance director, but they do need reliable numbers for their decisions. As a virtual CFO, Start HN prepares cash-flow forecasts, plans budgets, carries out financial analysis and prepares reports for management, and we attend meetings when needed. When we also keep your books, the analysis is based on up-to-date figures from your business records. The service is particularly useful for owners preparing financing or investment decisions.",
       "bestForTitle": "Best for",
       "bestFor": [
         "Growing companies that need more than bookkeeping",
@@ -197,19 +230,28 @@
         "Profitability analysis",
         "Decision support sessions"
       ],
+      "interiorAlt": "Printed cash-flow forecast with a chart and a table on a desk",
       "cta": {
         "title": "Need CFO-level clarity?",
         "description": "We can turn your accounting data into a management view that supports growth, financing, and better decisions.",
         "button": "Talk about Virtual CFO"
-      }
+      },
+      "related": [
+        "financialReporting",
+        "businessConsulting"
+      ],
+      "relatedPosts": []
     },
     "businessConsulting": {
       "label": "04",
       "title": "Business Consulting",
+      "heroTitle": "Business consulting for companies and sole traders in Sarajevo",
       "shortDescription": "Practical business advice for structure, growth, internal processes, costs, pricing, and operational decisions.",
       "heroDescription": "Good accounting shows what happened. Good consulting helps you decide what should happen next.",
       "overviewTitle": "Practical guidance grounded in numbers",
       "overview": "We support owners and managers with financial and operational decisions: business setup, process improvement, cost control, pricing, cash discipline, internal documentation, and growth planning.",
+      "localContextTitle": "Business consulting for entrepreneurs in Sarajevo",
+      "localContext": "We help entrepreneurs, sole traders and companies from Sarajevo and Ilidža make business decisions based on the numbers in their own books. We advise on business organisation and document flow, cost control, pricing, collecting receivables and growth planning. Startups and new businesses get our support from their first day of operations, and we have written about choosing between a sole tradership (obrt) and a limited liability company (d.o.o.) in our guide to starting a business in BiH. Our advice is connected to bookkeeping and tax, so recommendations also take your legal obligations in the Federation of BiH into account.",
       "bestForTitle": "Best for",
       "bestFor": [
         "New businesses setting up financial processes",
@@ -256,19 +298,31 @@
         "Document workflow setup",
         "Owner advisory sessions"
       ],
+      "interiorAlt": "Business consultant reviewing charts and notes with a client at a desk",
       "cta": {
         "title": "Need a practical business review?",
         "description": "We will look at your numbers and operating flow, then recommend the changes most likely to improve control and profitability.",
         "button": "Request consulting"
-      }
+      },
+      "related": [
+        "virtualCfo",
+        "bookkeeping"
+      ],
+      "relatedPosts": [
+        "how-to-start-a-business-in-bih-a-practical-guide-tips-from-experience-with-the-n1-tv-appearance",
+        "importance-of-entrepreneurship-programs"
+      ]
     },
     "financialReporting": {
       "label": "05",
       "title": "Financial Reporting",
+      "heroTitle": "Financial reporting and year-end accounts for companies in Sarajevo",
       "shortDescription": "Clear statutory and management reporting that helps you understand performance, obligations, and financial trends.",
       "heroDescription": "Reports should not be confusing files that only satisfy a deadline. They should explain what is happening in the business.",
       "overviewTitle": "Reports that management can actually use",
       "overview": "We prepare statutory reports, management summaries, financial statements, and analysis formats that make revenue, cost, profit, liquidity, and obligations easier to understand.",
+      "localContextTitle": "Year-end accounts and reporting for companies in the Federation of BiH",
+      "localContext": "Companies in the Federation of BiH are required by law to prepare annual financial statements, and owners and management also need clear management reports during the year. For clients from Sarajevo, Ilidža and Sarajevo Canton we prepare the annual year-end accounts and statutory financial statements, monthly or quarterly management summaries, and report packages for banks and partners. Reports are based on well-kept accounting records, and we explain results, obligations and trends in plain language.",
       "bestForTitle": "Best for",
       "bestFor": [
         "Companies that need clearer monthly reporting",
@@ -315,19 +369,28 @@
         "Bank or partner report packages",
         "Year-end reporting support"
       ],
+      "interiorAlt": "Two professionals reviewing printed financial reports with charts",
       "cta": {
         "title": "Want reports that are easier to use?",
         "description": "We can turn your accounting data into a clear reporting format for management, partners, banks, or internal planning.",
         "button": "Improve reporting"
-      }
+      },
+      "related": [
+        "bookkeeping",
+        "virtualCfo"
+      ],
+      "relatedPosts": []
     },
     "education": {
       "label": "06",
       "title": "Education & Courses",
+      "heroTitle": "Accounting and tax training for companies and sole traders in Sarajevo",
       "shortDescription": "Accounting, tax, and finance workshops that help owners and teams understand obligations and make better decisions.",
       "heroDescription": "Better financial literacy reduces mistakes, improves internal communication, and helps teams work with accountants more effectively.",
       "overviewTitle": "Knowledge that makes daily work easier",
       "overview": "We organize practical education for owners, managers, and administrative teams: accounting basics, document preparation, tax deadlines, payroll basics, reporting interpretation, and better cooperation with accounting teams.",
+      "localContextTitle": "Training and consultations in Sarajevo",
+      "localContext": "For companies and sole traders from Sarajevo and Ilidža that handle part of their administration or bookkeeping in-house, we provide individual professional support and practical training. This can include organising internal documentation, training staff to use accounting software, the basics of accounting processes, and helping management read financial statements. Sole traders who keep their own books can get individual consultations on their legal obligations and records in the Federation of BiH. We tailor the content to how your team actually works, using examples from everyday practice.",
       "bestForTitle": "Best for",
       "bestFor": [
         "Owners who want to understand their obligations",
@@ -374,11 +437,19 @@
         "Report-reading sessions",
         "Team Q&A sessions"
       ],
+      "interiorAlt": "Instructor going through learning material with a participant during a workshop",
       "cta": {
         "title": "Want your team to understand the numbers?",
         "description": "We can prepare a focused workshop around your accounting process, reporting needs, or recurring tax questions.",
         "button": "Plan education"
-      }
+      },
+      "related": [
+        "taxConsulting",
+        "bookkeeping"
+      ],
+      "relatedPosts": [
+        "importance-of-entrepreneurship-programs"
+      ]
     }
   }
 }

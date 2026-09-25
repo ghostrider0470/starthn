@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { motion, useReducedMotion } from 'motion/react'
 import { ChevronLeft, ChevronRight, Quote, Star } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import { useReducedMotion } from '@/hooks/useReducedMotion'
 import { designSystem } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
 
@@ -134,7 +134,9 @@ export function TestimonialsSection() {
           <button
             type="button"
             onClick={prev}
-            aria-label="Previous testimonial"
+            aria-label={t('common:a11y.prevTestimonial', {
+              defaultValue: 'Previous testimonial',
+            })}
             className="group grid h-10 w-10 place-items-center rounded-full border border-border bg-background text-foreground/70 transition hover:border-primary hover:text-foreground"
           >
             <ChevronLeft className="h-4 w-4" />
@@ -145,7 +147,10 @@ export function TestimonialsSection() {
                 key={i}
                 type="button"
                 onClick={() => goTo(i)}
-                aria-label={`Testimonial ${i + 1}`}
+                aria-label={t('common:a11y.goToTestimonial', {
+                  n: i + 1,
+                  defaultValue: `Testimonial ${i + 1}`,
+                })}
                 aria-current={i === index}
                 className={cn(
                   'h-1.5 rounded-full transition-all',
@@ -159,7 +164,9 @@ export function TestimonialsSection() {
           <button
             type="button"
             onClick={next}
-            aria-label="Next testimonial"
+            aria-label={t('common:a11y.nextTestimonial', {
+              defaultValue: 'Next testimonial',
+            })}
             className="group grid h-10 w-10 place-items-center rounded-full border border-border bg-background text-foreground/70 transition hover:border-primary/40 hover:text-foreground"
           >
             <ChevronRight className="h-4 w-4" />
@@ -167,7 +174,11 @@ export function TestimonialsSection() {
         </div>
 
         <div aria-live="polite" className="sr-only">
-          Testimonial {index + 1} of {total}
+          {t('common:a11y.testimonialCounter', {
+            n: index + 1,
+            total,
+            defaultValue: `Testimonial ${index + 1} of ${total}`,
+          })}
         </div>
       </div>
     </section>

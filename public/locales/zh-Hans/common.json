@@ -1,7 +1,8 @@
 {
   "nav": {
     "home": "首页",
-    "company": "关于我们",
+    "company": "公司",
+    "tagline": "会计机构",
     "solutions": "服务",
     "resources": "资源",
     "contact": "联系方式",
@@ -22,7 +23,7 @@
       "description": "认识一下Start HN背后的团队"
     },
     "careers": {
-      "title": "职业生涯",
+      "title": "招聘",
       "description": "加入我们的团队，与我们一起成长"
     },
     "enterpriseSoftware": {
@@ -70,10 +71,10 @@
     "toggleMenu": "切换菜单",
     "dashboard": "控制面板",
     "myWorkspace": "我的工作空间",
-    "profile": "简介",
-    "adminPanel": "行政小组",
-    "practiceManagement": "诊所管理",
-    "logOut": "注册",
+    "profile": "个人资料",
+    "adminPanel": "管理面板",
+    "practiceManagement": "业务管理",
+    "logOut": "退出登录",
     "education": {
       "title": "资源与指南",
       "description": "Start HN 团队提供的实用会计和财务资源"
@@ -81,10 +82,12 @@
     "support": {
       "title": "支持中心",
       "description": "获取我们的会计和咨询服务帮助"
-    }
+    },
+    "myPage": "我的页面",
+    "backToSite": "返回网站"
   },
   "footer": {
-    "description": "Start HN 是一家总部位于萨拉热窝的会计机构。我们为波斯尼亚和黑塞哥维那的企业提供簿记、税务咨询、虚拟首席财务官和财务报告服务。",
+    "description": "Start HN 是一家办公地点位于 Ilidža（萨拉热窝州）的会计机构。我们为波斯尼亚和黑塞哥维那各地的公司、个体经营者和协会提供簿记、工资核算、税务咨询、虚拟首席财务官和财务报告服务。",
     "services": "服务",
     "servicesList": {
       "bookkeeping": "簿记",
@@ -92,7 +95,7 @@
       "vcfo": "虚拟首席财务官",
       "reporting": "财务报告",
       "consulting": "商业咨询",
-      "education": "教育背景"
+      "education": "培训与教育"
     },
     "company": "关于我们",
     "companyLinks": {
@@ -100,20 +103,20 @@
       "missionVision": "使命与价值观",
       "certificates": "证书",
       "team": "我们的团队",
-      "blog": "成功案例",
+      "blog": "博客",
       "careers": "职业生涯",
       "contact": "联系方式"
     },
     "contact": "联系方式",
     "contactInfo": {
       "email": "klijenti@starthn.ba",
-      "phone": "+387 61 221-368",
-      "street": "易卜拉欣·柳博维察 47",
-      "locality": "伊丽扎",
+      "phone": "+387 61 221 368",
+      "street": "Ibrahima Ljubovića 47",
+      "locality": "71210 Ilidža",
       "region": "萨拉热窝州",
       "country": "波斯尼亚和黑塞哥维那",
-      "hours": "周一至周五：08：00–16：00",
-      "holidays": "我们节假日不工作"
+      "hours": "周一至周五：08:00–16:00",
+      "holidays": "法定节假日休息"
     },
     "legal": "法律",
     "legalLinks": {
@@ -121,7 +124,7 @@
       "termsOfService": "使用条款",
       "cookiePolicy": "Cookie政策"
     },
-    "copyright": "© {{year}} 开始HN。版权所有。",
+    "copyright": "© {{year}} Start HN。保留所有权利。",
     "developedBy": "开发者",
     "ctaTitle": "准备好谈话了吗？",
     "ctaDescription": "预约免费入门咨询——我们将在一个工作日内回复您。",
@@ -149,8 +152,8 @@
     "contact": "联系方式"
   },
   "sideNav": {
-    "scroll": "卷轴",
-    "navigateTo": "去 {{section}}",
+    "scroll": "滚动",
+    "navigateTo": "前往{{section}}",
     "sections": {
       "home": "首页",
       "solutions": "服务",
@@ -167,8 +170,8 @@
     "noResults": "未发现语言。"
   },
   "common": {
-    "menu": "对我来说",
-    "account": "秩序"
+    "menu": "菜单",
+    "account": "账户"
   },
   "homePage": {
     "caseStudies": {
@@ -187,12 +190,76 @@
     "industries": {
       "fintech": "金融科技",
       "healthcare": "医疗保健",
-      "logistics": "后勤",
-      "manufacturing": "制作",
+      "logistics": "物流",
+      "manufacturing": "制造业",
       "government": "公共部门"
     }
   },
   "blogCard": {
     "read": "阅读更多"
+  },
+  "sections": {
+    "overview": "概览",
+    "story": "我们的故事",
+    "proof": "实证",
+    "gallery": "图库",
+    "values": "价值观",
+    "team": "团队",
+    "culture": "文化",
+    "jobs": "职位",
+    "process": "流程",
+    "channels": "联系渠道",
+    "contact": "联系",
+    "start": "开始",
+    "home": "首页",
+    "services": "服务",
+    "why": "为什么选择 Start HN",
+    "evidence": "业绩",
+    "trust": "信任",
+    "faq": "常见问题",
+    "scope": "服务范围",
+    "outputs": "交付成果"
+  },
+  "breadcrumbs": {
+    "home": "首页",
+    "services": "服务",
+    "about": "关于我们",
+    "missionVision": "使命与愿景",
+    "certificates": "证书",
+    "careers": "招聘",
+    "contact": "联系我们",
+    "blog": "博客",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "serviceBookkeeping": "簿记",
+    "serviceTaxConsulting": "税务咨询",
+    "serviceVirtualCfo": "虚拟首席财务官",
+    "serviceBusinessConsulting": "商业咨询",
+    "serviceFinancialReporting": "财务报告",
+    "serviceEducation": "培训与教育"
+  },
+  "a11y": {
+    "prevSlide": "上一张幻灯片",
+    "nextSlide": "下一张幻灯片",
+    "goToSlide": "转到第 {{n}} 张幻灯片",
+    "pauseCarousel": "暂停轮播",
+    "resumeCarousel": "继续轮播",
+    "slides": "幻灯片",
+    "prevTestimonial": "上一条评价",
+    "nextTestimonial": "下一条评价",
+    "goToTestimonial": "第 {{n}} 条评价",
+    "testimonialCounter": "第 {{n}} 条评价，共 {{total}} 条",
+    "prevSection": "上一部分",
+    "nextSection": "下一部分",
+    "goToSection": "转到第 {{n}} 部分",
+    "toggleTheme": "切换主题"
+  },
+  "consent": {
+    "title": "Cookie 与隐私",
+    "text": "征得您的同意后，我们会使用 Google Analytics 和 Microsoft Clarity 了解网站的使用情况并加以改进。未经您同意，这些工具不会加载，您也可以随时更改您的选择。",
+    "accept": "接受",
+    "reject": "拒绝",
+    "settings": "Cookie 设置",
+    "privacyLink": "隐私政策"
   }
 }

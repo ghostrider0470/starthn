@@ -1,7 +1,7 @@
 import { Link, useLocation } from '@tanstack/react-router'
-import { motion } from 'motion/react'
-import { ShieldCheck, Briefcase, Award, ArrowUpRight } from 'lucide-react'
+import { ArrowUpRight, Award, Briefcase, ShieldCheck } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import { SlideUp } from '@/components/animations/FadeIn'
 import { designSystem } from '@/lib/design-system'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
@@ -24,12 +24,12 @@ export function ValuePropsSection() {
           {CARDS.map(({ key, Icon }, i) => {
             const href = withLocalePath(t(`valueProps.${key}.href`), currentLocale)
             return (
-              <motion.article
+              <SlideUp
+                as="article"
                 key={key}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.5, delay: i * 0.08, ease: [0.16, 1, 0.3, 1] }}
+                offset={24}
+                duration={0.5}
+                delay={i * 0.08}
                 className="group relative flex flex-col overflow-hidden rounded-2xl border border-border/60 bg-card p-8 transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5"
               >
                 <div className="pointer-events-none absolute inset-x-0 top-0 h-0.5 origin-left scale-x-0 bg-primary transition-transform duration-500 group-hover:scale-x-100" />
@@ -49,7 +49,7 @@ export function ValuePropsSection() {
                   {t(`valueProps.${key}.cta`)}
                   <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
                 </Link>
-              </motion.article>
+              </SlideUp>
             )
           })}
         </div>

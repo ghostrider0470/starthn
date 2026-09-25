@@ -1,23 +1,9 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { ServicePageTemplate } from '@/components/services/ServicePageTemplate'
+import { localizedServiceHead } from '@/lib/seo-meta'
 
 export const Route = createFileRoute('/{-$locale}/services/education-courses')({
-  head: () => ({
-    meta: [
-      { title: 'Education & Courses — Start HN' },
-      {
-        name: 'description',
-        content:
-          'Accounting, tax, and finance workshops that help teams understand obligations, reporting, and better financial decisions.',
-      },
-      { property: 'og:title', content: 'Education & Courses — Start HN' },
-      {
-        property: 'og:description',
-        content:
-          'Accounting, tax, and finance workshops that help teams understand obligations, reporting, and better financial decisions.',
-      },
-    ],
-  }),
+  head: ({ params }) => localizedServiceHead('education', params.locale),
   component: EducationCourses,
 })
 

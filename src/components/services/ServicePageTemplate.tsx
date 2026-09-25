@@ -8,12 +8,22 @@ import { Link, useLocation } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
 import type { ReactNode } from 'react'
 import type { ServiceId } from '@/lib/service-routes'
+import i18n from '@/i18n'
 import { Button } from '@/components/ui/button'
 import { PageContainer } from '@/components/layout/PageContainer'
 import { SectionScroller } from '@/components/landing/SectionScroller'
 import { designSystem } from '@/lib/design-system'
-import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
-import { SERVICE_DETAIL_SECTION_IDS } from '@/lib/service-routes'
+import {
+  DEFAULT_LOCALE,
+  getLocaleFromPath,
+  isValidLocale,
+  withLocalePath,
+} from '@/lib/i18n-utils'
+import {
+  SERVICE_DETAIL_SECTION_IDS,
+  SERVICE_IDS,
+  SERVICE_ROUTES,
+} from '@/lib/service-routes'
 import { cn } from '@/lib/utils'
 
 const SERVICE_IMAGES: Partial<
@@ -70,6 +80,15 @@ type ServiceContent = {
     description: string
     button: string
   }
+  /** Search-oriented H1; falls back to `title`. */
+  heroTitle?: string
+  interiorAlt?: string
+  localContextTitle?: string
+  localContext?: string
+  /** Sibling services to cross-link. */
+  related?: Array<ServiceId>
+  /** Blog post slugs to link. */
+  relatedPosts?: Array<string>
 }
 
 interface ServicePageTemplateProps {
@@ -80,14 +99,32 @@ function isServiceContent(value: unknown): value is ServiceContent {
   return !!value && typeof value === 'object' && 'title' in value
 }
 
+// common:sections.* keys for the four SERVICE_DETAIL_SECTION_IDS panels.
+const SECTION_LABEL_KEYS = ['overview', 'scope', 'process', 'outputs'] as const
+
+/**
+ * Scroller labels in the page's locale. The last one is also shown as the
+ * deliverables eyebrow, so a locale without common:sections.* uses the
+ * matching services:common.* label instead of a raw key. The check ignores
+ * fallback languages so server and client pick the same string.
+ */
 function getServiceSectionLabels(locale: string) {
-  return locale.startsWith('bs')
-    ? ['Pregled', 'Obim', 'Proces', 'Isporuke']
-    : ['Overview', 'Scope', 'Process', 'Outputs']
+  const lng = isValidLocale(locale) ? locale : DEFAULT_LOCALE
+  const t = i18n.getFixedT(lng, 'common')
+  const tServices = i18n.getFixedT(lng, 'services')
+  return SECTION_LABEL_KEYS.map((key) =>
+    i18n.exists(`sections.${key}`, { lng, ns: 'common', fallbackLng: false })
+      ? t(`sections.${key}`)
+      : tServices(`common.${key}`),
+  )
+}
+
+function isServiceId(value: unknown): value is ServiceId {
+  return (SERVICE_IDS as ReadonlyArray<unknown>).includes(value)
 }
 
 export function ServicePageTemplate({ serviceId }: ServicePageTemplateProps) {
-  const { t } = useTranslation('services')
+  const { t, i18n: i18nInstance } = useTranslation('services')
   const location = useLocation()
   const locale = getLocaleFromPath(location.pathname)
   const contactHref = withLocalePath('/contact', locale)
@@ -117,7 +154,26 @@ export function ServicePageTemplate({ serviceId }: ServicePageTemplateProps) {
           description: '',
           button: t('common.ctaPrimary'),
         },
+        related: [],
+        relatedPosts: [],
       } satisfies ServiceContent)
+
+  const relatedServices = (
+    Array.isArray(service.related) ? service.related : []
+  ).filter((id) => isServiceId(id) && id !== serviceId)
+  // Only link posts that have a label in this locale's own bundle (not a
+  // fallback language that only the SSR store may hold), so server and client
+  // render the same list.
+  const relatedPosts = (
+    Array.isArray(service.relatedPosts) ? service.relatedPosts : []
+  ).filter(
+    (slug) =>
+      typeof slug === 'string' &&
+      i18nInstance.exists(`related.postLabels.${slug}`, {
+        ns: 'services',
+        fallbackLng: false,
+      }),
+  )
 
   return (
     <main className="bg-background">
@@ -155,7 +211,7 @@ export function ServicePageTemplate({ serviceId }: ServicePageTemplateProps) {
                     'max-w-3xl text-balance text-foreground',
                   )}
                 >
-                  {service.title}
+                  {service.heroTitle ?? service.title}
                 </h1>
                 <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground">
                   {service.heroDescription}
@@ -207,9 +263,8 @@ export function ServicePageTemplate({ serviceId }: ServicePageTemplateProps) {
                       src={images.hero}
                       alt={service.title}
                       className="aspect-[3/2] w-full object-cover"
-                      loading="eager"
+                      loading="lazy"
                       decoding="async"
-                      fetchPriority="high"
                     />
                     <figcaption className="absolute inset-x-4 bottom-4 flex items-center gap-3 rounded-md border border-white/25 bg-background/90 px-4 py-3 text-sm font-medium text-foreground shadow-sm backdrop-blur-md">
                       <span className="grid h-9 w-9 shrink-0 place-items-center rounded-md bg-primary/10 text-primary">
@@ -223,6 +278,23 @@ export function ServicePageTemplate({ serviceId }: ServicePageTemplateProps) {
                 </figure>
               )}
             </div>
+
+            {service.localContext && (
+              <section
+                aria-labelledby={`${serviceId}-local-context`}
+                className="mt-12 grid gap-4 border-t border-border/70 pt-8 lg:mt-14 lg:grid-cols-[minmax(0,0.9fr)_minmax(28rem,1fr)] lg:gap-10 xl:gap-14"
+              >
+                <h2
+                  id={`${serviceId}-local-context`}
+                  className="max-w-xl text-2xl font-bold tracking-tight text-balance text-foreground md:text-3xl"
+                >
+                  {service.localContextTitle}
+                </h2>
+                <p className="text-base leading-8 text-muted-foreground">
+                  {service.localContext}
+                </p>
+              </section>
+            )}
           </div>
         </section>
 
@@ -310,7 +382,10 @@ export function ServicePageTemplate({ serviceId }: ServicePageTemplateProps) {
               <div className="mb-12 overflow-hidden rounded-xl border border-border">
                 <img
                   src={images.interior}
-                  alt={service.deliverablesTitle}
+                  alt={
+                    service.interiorAlt ??
+                    `${service.title} – ${service.deliverablesTitle}`
+                  }
                   className="aspect-[21/9] w-full object-cover"
                   loading="lazy"
                   decoding="async"
@@ -336,6 +411,57 @@ export function ServicePageTemplate({ serviceId }: ServicePageTemplateProps) {
                     </li>
                   ))}
                 </ul>
+
+                {(relatedServices.length > 0 || relatedPosts.length > 0) && (
+                  <div className="mt-10 grid gap-8 sm:grid-cols-2">
+                    {relatedServices.length > 0 && (
+                      <section aria-labelledby={`${serviceId}-related-services`}>
+                        <h2
+                          id={`${serviceId}-related-services`}
+                          className="text-lg font-semibold tracking-tight text-foreground"
+                        >
+                          {t('related.title', {
+                            defaultValue: 'Povezane usluge',
+                          })}
+                        </h2>
+                        <ul className="mt-3 grid gap-2">
+                          {relatedServices.map((id) => (
+                            <li key={id}>
+                              <RelatedLink
+                                to={withLocalePath(SERVICE_ROUTES[id], locale)}
+                              >
+                                {t(`items.${id}.title`)}
+                              </RelatedLink>
+                            </li>
+                          ))}
+                        </ul>
+                      </section>
+                    )}
+                    {relatedPosts.length > 0 && (
+                      <section aria-labelledby={`${serviceId}-related-posts`}>
+                        <h2
+                          id={`${serviceId}-related-posts`}
+                          className="text-lg font-semibold tracking-tight text-foreground"
+                        >
+                          {t('related.postsTitle', {
+                            defaultValue: 'Povezani članci',
+                          })}
+                        </h2>
+                        <ul className="mt-3 grid gap-2">
+                          {relatedPosts.map((slug) => (
+                            <li key={slug}>
+                              <RelatedLink
+                                to={withLocalePath(`/blog/${slug}`, locale)}
+                              >
+                                {t(`related.postLabels.${slug}`)}
+                              </RelatedLink>
+                            </li>
+                          ))}
+                        </ul>
+                      </section>
+                    )}
+                  </div>
+                )}
               </div>
 
               <div className="rounded-xl border border-border bg-muted/20 p-8">
@@ -360,6 +486,21 @@ export function ServicePageTemplate({ serviceId }: ServicePageTemplateProps) {
         </ServicePanel>
       </SectionScroller>
     </main>
+  )
+}
+
+function RelatedLink({ to, children }: { to: string; children: ReactNode }) {
+  return (
+    <Link
+      to={to}
+      className="group inline-flex items-start gap-2 text-sm font-medium leading-6 text-foreground underline decoration-primary/50 underline-offset-4 transition-colors hover:decoration-primary"
+    >
+      <span>{children}</span>
+      <ArrowRight
+        className="mt-1 h-3.5 w-3.5 shrink-0 text-primary transition-transform group-hover:translate-x-0.5"
+        aria-hidden
+      />
+    </Link>
   )
 }
 

@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "company": "Over ons",
+    "tagline": "Accountantskantoor",
     "solutions": "Diensten",
     "resources": "Bronnen",
     "contact": "Contact",
@@ -26,8 +27,8 @@
       "description": "Sluit je aan bij ons team en groei met ons mee"
     },
     "enterpriseSoftware": {
-      "title": "Boekhouding en boekhouding",
-      "description": "Uitgebreide boekhoud- en boekhouddiensten voor bedrijven van elke omvang"
+      "title": "Boekhouding en administratie",
+      "description": "Volledige boekhouding en administratie voor bedrijven van elke omvang"
     },
     "aiMl": {
       "title": "Fiscaal advies",
@@ -35,7 +36,7 @@
     },
     "cloudArchitecture": {
       "title": "Virtueel CFO",
-      "description": "Strategisch financieel leiderschap zonder de kosten van een vaste dienst."
+      "description": "Strategisch financieel leiderschap zonder de kosten van een fulltime functie"
     },
     "iot": {
       "title": "Bedrijfsadvies",
@@ -47,7 +48,7 @@
     },
     "digitalTransformation": {
       "title": "Onderwijs & Cursussen",
-      "description": "Workshops en cursussen in Accountancy, Belastingen en Financiën"
+      "description": "Workshops en cursussen over boekhouding, belastingen en financiën"
     },
     "caseStudies": {
       "title": "Casestudy's",
@@ -66,14 +67,14 @@
       }
     },
     "navigation": "Navigatie",
-    "skipToContent": "Sla naar de inhoud",
-    "toggleMenu": "Schakelaarmenu",
-    "dashboard": "Bedieningspaneel",
+    "skipToContent": "Naar de inhoud",
+    "toggleMenu": "Menu openen of sluiten",
+    "dashboard": "Dashboard",
     "myWorkspace": "Mijn werkplek",
     "profile": "Profiel",
-    "adminPanel": "Administratief Panel",
+    "adminPanel": "Beheerpaneel",
     "practiceManagement": "Praktijkbeheer",
-    "logOut": "Meld je aan",
+    "logOut": "Uitloggen",
     "education": {
       "title": "Bronnen & Gidsen",
       "description": "Praktische boekhoudkundige en financiële middelen van het Start HN-team"
@@ -81,10 +82,12 @@
     "support": {
       "title": "Ondersteuningscentrum",
       "description": "Krijg hulp met onze boekhoud- en adviesdiensten"
-    }
+    },
+    "myPage": "Mijn pagina",
+    "backToSite": "Terug naar de website"
   },
   "footer": {
-    "description": "Start HN is een accountantskantoor gevestigd in Sarajevo. Wij bieden boekhoud, belastingadvies, virtuele CFO en financiële rapportage voor bedrijven in heel Bosnië en Herzegovina.",
+    "description": "Start HN is een accountantskantoor gevestigd in Ilidža (kanton Sarajevo). Wij verzorgen boekhouding, loonadministratie, belastingadvies, virtuele CFO-diensten en financiële verslaggeving voor bedrijven, eenmanszaken en verenigingen in heel Bosnië en Herzegovina.",
     "services": "Diensten",
     "servicesList": {
       "bookkeeping": "Boekhouding",
@@ -92,7 +95,7 @@
       "vcfo": "Virtueel CFO",
       "reporting": "Financiële verslaggeving",
       "consulting": "Bedrijfsadvies",
-      "education": "Opleiding"
+      "education": "Opleidingen"
     },
     "company": "Over ons",
     "companyLinks": {
@@ -100,20 +103,20 @@
       "missionVision": "Missie & Waarden",
       "certificates": "Certificaten",
       "team": "Ons Team",
-      "blog": "Succesverhalen",
+      "blog": "Blog",
       "careers": "Carrières",
       "contact": "Contact"
     },
     "contact": "Contact",
     "contactInfo": {
       "email": "klijenti@starthn.ba",
-      "phone": "+387 61 221-368",
+      "phone": "+387 61 221 368",
       "street": "Ibrahima Ljubovića 47",
-      "locality": "Ilidža",
+      "locality": "71210 Ilidža",
       "region": "Kanton Sarajevo",
       "country": "Bosnië-Herzegovina",
       "hours": "Ma–vr: 08:00–16:00",
-      "holidays": "We werken niet op feestdagen"
+      "holidays": "Gesloten op feestdagen"
     },
     "legal": "Juridisch",
     "legalLinks": {
@@ -121,7 +124,7 @@
       "termsOfService": "Gebruiksvoorwaarden",
       "cookiePolicy": "Cookiebeleid"
     },
-    "copyright": "© {{year}} Begin met HN. Alle rechten voorbehouden.",
+    "copyright": "© {{year}} Start HN. Alle rechten voorbehouden.",
     "developedBy": "Ontwikkeld door",
     "ctaTitle": "Klaar om te praten?",
     "ctaDescription": "Plan een gratis introductieconsult — we nemen binnen één werkdag contact met je op.",
@@ -135,7 +138,7 @@
     "getStarted": "Begin",
     "exploreSolutions": "Ontdek diensten",
     "trustedBy": "Vertrouwen van bedrijven in heel Bosnië en Herzegovina",
-    "microsoftPartner": "Registeraccountants",
+    "microsoftPartner": "Gecertificeerde accountants",
     "azureCertified": "Geregistreerd voor btw",
     "enterpriseSolutions": "End-to-end boekhouding"
   },
@@ -149,7 +152,7 @@
     "contact": "Contact"
   },
   "sideNav": {
-    "scroll": "Rol",
+    "scroll": "Scrollen",
     "navigateTo": "Ga naar {{section}}",
     "sections": {
       "home": "Home",
@@ -163,12 +166,12 @@
   },
   "languageSwitcher": {
     "srLabel": "Verander taal",
-    "searchPlaceholder": "Zoektaal...",
+    "searchPlaceholder": "Taal zoeken...",
     "noResults": "Geen talen gevonden."
   },
   "common": {
-    "menu": "Voor mij",
-    "account": "Orde"
+    "menu": "Menu",
+    "account": "Account"
   },
   "homePage": {
     "caseStudies": {
@@ -194,5 +197,69 @@
   },
   "blogCard": {
     "read": "Lees meer"
+  },
+  "sections": {
+    "overview": "Overzicht",
+    "story": "Ons verhaal",
+    "proof": "Bewijs",
+    "gallery": "Galerij",
+    "values": "Waarden",
+    "team": "Team",
+    "culture": "Cultuur",
+    "jobs": "Vacatures",
+    "process": "Werkwijze",
+    "channels": "Kanalen",
+    "contact": "Contact",
+    "start": "Start",
+    "home": "Home",
+    "services": "Diensten",
+    "why": "Waarom Start HN",
+    "evidence": "Resultaten",
+    "trust": "Vertrouwen",
+    "faq": "Veelgestelde vragen",
+    "scope": "Reikwijdte",
+    "outputs": "Opleveringen"
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "services": "Diensten",
+    "about": "Over ons",
+    "missionVision": "Missie en visie",
+    "certificates": "Certificaten",
+    "careers": "Carrière",
+    "contact": "Contact",
+    "blog": "Blog",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
+    "serviceBookkeeping": "Boekhouding",
+    "serviceTaxConsulting": "Belastingadvies",
+    "serviceVirtualCfo": "Virtuele CFO",
+    "serviceBusinessConsulting": "Bedrijfsadvies",
+    "serviceFinancialReporting": "Financiële verslaggeving",
+    "serviceEducation": "Opleidingen"
+  },
+  "a11y": {
+    "prevSlide": "Vorige dia",
+    "nextSlide": "Volgende dia",
+    "goToSlide": "Ga naar dia {{n}}",
+    "pauseCarousel": "Carrousel pauzeren",
+    "resumeCarousel": "Carrousel hervatten",
+    "slides": "Dia's",
+    "prevTestimonial": "Vorige klantervaring",
+    "nextTestimonial": "Volgende klantervaring",
+    "goToTestimonial": "Klantervaring {{n}}",
+    "testimonialCounter": "Klantervaring {{n}} van {{total}}",
+    "prevSection": "Vorige sectie",
+    "nextSection": "Volgende sectie",
+    "goToSection": "Ga naar sectie {{n}}",
+    "toggleTheme": "Thema wisselen"
+  },
+  "consent": {
+    "title": "Cookies en privacy",
+    "text": "Met uw toestemming gebruiken we Google Analytics en Microsoft Clarity om te begrijpen hoe de website wordt gebruikt en om deze te verbeteren. Zonder toestemming worden ze niet geladen, en u kunt uw keuze op elk moment wijzigen.",
+    "accept": "Accepteren",
+    "reject": "Weigeren",
+    "settings": "Cookie-instellingen",
+    "privacyLink": "Privacybeleid"
   }
 }

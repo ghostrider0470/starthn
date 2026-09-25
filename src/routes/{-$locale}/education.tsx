@@ -1,4 +1,9 @@
-import { createFileRoute, Link, redirect, useLocation } from '@tanstack/react-router'
+import {
+  createFileRoute,
+  Link,
+  notFound,
+  useLocation,
+} from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
 import {
   Card,
@@ -22,24 +27,31 @@ import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { featureFlags } from '@/lib/feature-flags'
 
 export const Route = createFileRoute('/{-$locale}/education')({
-  head: () => ({
-    meta: [
-      { title: 'Education — Start HN' },
-      {
-        name: 'description',
-        content:
-          'Start HN educational resources and technology learning.',
-      },
-      { property: 'og:title', content: 'Education — Start HN' },
-      {
-        property: 'og:description',
-        content:
-          'Start HN educational resources and technology learning.',
-      },
-    ],
-  }),
+  // Disabled by the feature flag, this route is a 404 rendered by the root
+  // route, whose head() carries the localized 404 title; on the server only
+  // that head() runs, so emit nothing here either (keeps hydration identical).
+  head: ({ matches }) =>
+    matches[0]?.globalNotFound
+      ? {}
+      : {
+          meta: [
+            { title: 'Education — Start HN' },
+            {
+              name: 'description',
+              content:
+                'Start HN educational resources and technology learning.',
+            },
+            { property: 'og:title', content: 'Education — Start HN' },
+            {
+              property: 'og:description',
+              content:
+                'Start HN educational resources and technology learning.',
+            },
+          ],
+        },
   beforeLoad: () => {
-    if (!featureFlags.technicalResources) throw redirect({ to: '/' as any, replace: true })
+    // Disabled: a real 404 instead of a temporary redirect that also lost the locale.
+    if (!featureFlags.technicalResources) throw notFound()
   },
   component: EducationPage,
 })
@@ -60,7 +72,9 @@ function EducationPage() {
   const resourceCategoriesRaw = t('education.categories', {
     returnObjects: true,
   })
-  const resourceCategories = (typeof resourceCategoriesRaw === 'string' ? [] : resourceCategoriesRaw) as {
+  const resourceCategories = (
+    typeof resourceCategoriesRaw === 'string' ? [] : resourceCategoriesRaw
+  ) as {
     icon: keyof typeof iconMap
     title: string
     description: string
@@ -78,9 +92,7 @@ function EducationPage() {
 
       <div className="mb-8">
         <h1 className="text-3xl font-bold">{t('education.title')}</h1>
-        <p className="mt-2 text-muted-foreground">
-          {t('education.subtitle')}
-        </p>
+        <p className="mt-2 text-muted-foreground">{t('education.subtitle')}</p>
       </div>
 
       <div className="mb-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -90,9 +102,7 @@ function EducationPage() {
               <BookOpen className="h-5 w-5" />
               {t('education.hub.title')}
             </CardTitle>
-            <CardDescription>
-              {t('education.hub.description')}
-            </CardDescription>
+            <CardDescription>{t('education.hub.description')}</CardDescription>
           </CardHeader>
           <CardContent>
             <p className="text-sm text-muted-foreground">

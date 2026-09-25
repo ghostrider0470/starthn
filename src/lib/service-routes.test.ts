@@ -1,6 +1,5 @@
 import { describe, expect, it } from 'vitest'
 import {
-  LEGACY_SERVICE_REDIRECTS,
   SERVICE_DETAIL_SECTION_IDS,
   SERVICE_IDS,
   SERVICE_INDEX_SECTION_IDS,
@@ -28,17 +27,7 @@ describe('service route registry', () => {
     ])
   })
 
-  it('keeps old Horizon service URLs as redirects only', () => {
-    expect(LEGACY_SERVICE_REDIRECTS).toMatchObject({
-      '/services/enterprise-software-development':
-        '/services/bookkeeping-accounting',
-      '/services/ai-ml-business-intelligence': '/services/tax-consulting',
-      '/services/cloud-architecture': '/services/virtual-cfo',
-      '/services/iot-edge-computing': '/services/business-consulting',
-      '/services/devops-platform-engineering': '/services/financial-reporting',
-      '/services/digital-transformation': '/services/education-courses',
-    })
-
+  it('never routes to the old software-template service slugs (those 404)', () => {
     for (const route of Object.values(SERVICE_ROUTES)) {
       expect(route).not.toMatch(
         /enterprise-software|ai-ml|cloud-architecture|iot-edge|devops|digital-transformation/,

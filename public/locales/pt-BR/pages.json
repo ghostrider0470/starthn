@@ -6,20 +6,24 @@
       "titleHighlight": "Parceria verdadeira",
       "description": "A Start HN é uma agência de contabilidade dedicada ao crescimento e sucesso de empreendedores e micro e pequenas empresas na Bósnia e Herzegovina."
     },
+    "images": {
+      "heroAlt": "Mesa de escritório de contabilidade com um laptop exibindo um gráfico financeiro, uma calculadora e pastas",
+      "interiorAlt": "Contador analisando relatórios financeiros com um cliente à mesa"
+    },
     "welcome": {
       "tagline": "Todos os dias, provamos que a expertise e a clareza das demonstrações financeiras constroem uma base sólida para novas oportunidades de negócio.",
-      "para1": "A agência de contabilidade START HN, de Sarajevo, oferece suporte a associações, artesãos, micro, pequenas e médias empresas. Nosso trabalho é baseado em prontidão, expertise e confiança — não pegamos o 'último trem', mas garantimos que todas as obrigações legais sejam cumpridas no prazo.",
+      "para1": "A agência de contabilidade Start HN, de Sarajevo, apoia associações, empresários individuais e micro, pequenas e médias empresas. Nosso trabalho se baseia em pontualidade, expertise e confiança — garantimos que todas as obrigações legais sejam cumpridas no prazo.",
       "para2": "Desde o início, nosso objetivo era claro: combinar precisão contábil e digitalização de processos. Acreditamos que contabilidade não se resume apenas a registrar eventos passados, mas também a uma ferramenta para tomar decisões de negócios oportunas. Por isso, estamos comprometidos em introduzir soluções digitais que permitam aos clientes acesso constante aos seus dados, mas também oferecemos uma abordagem tradicional para quem prefere enviar documentação em contato ou por e-mail.",
       "para3": "Além da contabilidade regular, também oferecemos valor agregado aos nossos clientes por meio do serviço Virtual de CFO, que possibilita consultoria financeira estratégica e análises de negócios mais profundas. Um local especial é ocupado por startups, às quais oferecemos benefícios e total suporte desde o primeiro dia de negócios."
     },
     "whyUs": {
-      "title": "Por que começar com HN?",
+      "title": "Por que a Start HN?",
       "subtitle": "Como podemos facilitar seu negócio?",
       "description": "Combinamos experiência do ambiente empresarial local e práticas contábeis modernas para fornecer informações precisas, decisões rápidas e crescimento estável.",
       "pillars": [
-        "Contabilidade pontual e precisa.",
+        "Contabilidade pontual e precisa",
         "Serviços personalizados",
-        "Suporte e conselhos 24 horas por dia",
+        "Suporte e consultoria contínuos",
         "Preços claros e sem custos ocultos"
       ]
     },
@@ -27,7 +31,7 @@
       {
         "icon": "award",
         "title": "Experiência e expertise",
-        "description": "Nossa equipe traz uma década de prática prática e certificações em contabilidade."
+        "description": "Nossa equipe traz mais de 15 anos de prática e certificações em contabilidade."
       },
       {
         "icon": "barChart3",
@@ -56,7 +60,7 @@
       }
     ],
     "cta": {
-      "title": "Coopere conosco",
+      "title": "Vamos trabalhar juntos",
       "description": "Desde estratégias de crescimento em estágio inicial para startups até apoiar empresas existentes — temos feito isso direito desde o início! Os resultados falam por si só.",
       "primary": "Entre em contato conosco",
       "secondary": "Veja nossos serviços"
@@ -68,6 +72,10 @@
       "title": "Missão, visão",
       "titleHighlight": "e valores",
       "description": "Metas claras, valores fortes e uma busca constante pela excelência que nos guia em cada etapa do caminho."
+    },
+    "images": {
+      "heroAlt": "Dois profissionais planejando a estratégia diante de um quadro branco com gráficos de negócios",
+      "interiorAlt": "Aperto de mãos após uma reunião de negócios, símbolo de confiança e parceria"
     },
     "mission": {
       "label": "Nossa Missão",
@@ -117,15 +125,15 @@
     }
   },
   "certificates": {
-    "badge": "Autorizações",
+    "badge": "Credenciais",
     "hero": {
       "title": "Certificados e",
-      "titleHighlight": "Agradecimentos",
+      "titleHighlight": "reconhecimentos",
       "description": "Nosso compromisso com a excelência é confirmado por licenças profissionais e resultados alcançados."
     },
     "intro": {
       "heading": "O que nos faz se destacar",
-      "para1": "Na contabilidade, confiança não é apenas uma palavra – ela se constrói sobre expertise, legalidade e responsabilidade. Por isso, para nós na START HN, cada certificado e cada certificado oficial é muito mais do que um documento: é a prova de que nosso trabalho passa pelas mais rigorosas verificações, que respeitamos as regulamentações e que cultivamos padrões profissionais e éticos.",
+      "para1": "Na contabilidade, confiança não é apenas uma palavra – ela se constrói sobre expertise, legalidade e responsabilidade. Por isso, para nós na Start HN, cada certificado e cada confirmação oficial é muito mais do que um documento: é a prova de que nosso trabalho passa pelas verificações mais rigorosas, que respeitamos as regulamentações e que cultivamos padrões profissionais e éticos.",
       "para2": "Através de anos de investimento em conhecimento, educação e desenvolvimento, adquirimos licenças e reconhecimentos que confirmam nosso compromisso com os clientes e a qualidade dos serviços que oferecemos. Eles também são uma garantia de que você pode nos escolher com total confiança, sabendo que estamos construindo seu negócio sobre bases sólidas e legais."
     },
     "gallery": {
@@ -148,6 +156,16 @@
         }
       ]
     },
+    "quote": "“Cada certificado é a prova de que nosso trabalho passa pelas verificações profissionais mais rigorosas.”",
+    "quoteAuthor": "Agência de contabilidade Start HN",
+    "licenceLine": "Registro do Ministério Federal das Finanças (FMF) nº UP-04-11-2-6-1516/24",
+    "verifyLink": "Verifique no registro da SRR FBiH",
+    "highlights": {
+      "certifiedAccountants": "Contadores certificados",
+      "legalCompliance": "Conformidade legal",
+      "continuousEducation": "Educação continuada",
+      "ethicalStandards": "Padrões éticos"
+    },
     "cta": {
       "title": "Trabalhe com uma equipe certificada.",
       "description": "Nossas licenças e certificações profissionais são sua garantia de que sua contabilidade está em mãos seguras e especializadas.",
@@ -168,7 +186,7 @@
       "description": "Solicite uma consulta focada de 30 minutos."
     },
     "channels": {
-      "title": "Comece pelo canal direito",
+      "title": "Comece pelo canal certo",
       "description": "Escolha o caminho que se adequa à tarefa: solicite uma consulta, envie os detalhes por escrito ou abra o assistente quando o chat estiver disponível.",
       "meeting": {
         "title": "Marque uma consulta",
@@ -183,29 +201,39 @@
       "chat": {
         "title": "Converse com um assistente de IA",
         "description": "Obtenha respostas rápidas sobre serviços, documentos e perguntas comuns sobre contabilidade.",
-        "action": "Chat aberto"
+        "action": "Abrir chat"
       }
     },
     "methods": {
       "email": {
         "title": "E-mail",
         "description": "Envie um e-mail para nós a qualquer momento",
-        "value": "info@starthn.ba"
+        "value": "klijenti@starthn.ba"
+      },
+      "phone": {
+        "title": "Telefone",
+        "description": "Ligue para nós no horário de atendimento",
+        "value": "061 221 368"
       },
       "location": {
         "title": "Localização",
-        "description": "Com sua sede em",
-        "value": "Sarajevo, Bósnia e Herzegovina"
+        "description": "Endereço",
+        "value": "Ibrahima Ljubovića 47, 71210 Ilidža (Sarajevo)"
+      },
+      "hours": {
+        "title": "Horário de atendimento",
+        "description": "Fechado nos feriados",
+        "value": "Seg–Sex 08:00–16:00"
       },
       "response": {
-        "title": "Tempo de reação",
-        "description": "Geralmente estamos por dentro",
+        "title": "Tempo de resposta",
+        "description": "Normalmente respondemos em até",
         "value": "um dia útil"
       }
     },
     "departments": {
       "project": {
-        "label": "Novo projeto"
+        "label": "Nova colaboração"
       },
       "support": {
         "label": "Suporte contábil"
@@ -217,7 +245,7 @@
         "label": "Carreiras"
       },
       "general": {
-        "label": "Inquérito Geral"
+        "label": "Dúvida geral"
       }
     },
     "form": {
@@ -226,35 +254,35 @@
       "error": "Algo deu errado. Por favor, tente novamente ou envie um e-mail diretamente para nós.",
       "fullName": "Nome completo *",
       "email": "Endereço de e-mail *",
-      "company": "Sobre Nós",
-      "subject": "Tema *",
+      "company": "Empresa",
+      "subject": "Assunto *",
       "message": "Mensagem *",
       "placeholders": {
         "name": "Seu nome",
         "email": "you@example.com",
         "company": "Sua Empresa",
         "subject": "Como podemos ajudar?",
-        "message": "Conte-nos sobre seu projeto ou consulta..."
+        "message": "Conte-nos do que você precisa..."
       },
       "validation": {
         "required": {
           "name": "É necessário um nome completo.",
           "email": "O endereço de e-mail é obrigatório.",
-          "subject": "Por favor, selecione um tema.",
+          "subject": "Por favor, selecione um assunto.",
           "message": "A mensagem é obrigatória."
         },
         "email": "Insira um endereço de e-mail válido.",
         "messageMinLength": "A mensagem deve ter pelo menos {{count}} caracteres."
       },
-      "sending": "Estou enviando...",
+      "sending": "Enviando...",
       "submit": "Envie uma mensagem"
     },
     "reasonsTitle": "Por que escolher o Start HN?",
     "reasons": [
-      "Contadores Certificados com Conhecimento Aprofundado da Legislação Tributária",
+      "Contadores certificados com profundo conhecimento da legislação tributária da BiH",
       "Resposta rápida e comunicação proativa",
-      "Contabilidade em Nuvem — Acesse os Livros a Qualquer Momento",
-      "Preços transparentes sem custos ocultos"
+      "Contabilidade na nuvem — acesse seus livros a qualquer momento",
+      "Preços transparentes, sem custos ocultos"
     ],
     "custom": {
       "title": "Pacotes contábeis personalizados",
@@ -271,7 +299,7 @@
     "badge": "Nossa Equipe",
     "hero": {
       "titlePrefix": "As Pessoas por Trás",
-      "titleHighlight": "Comece HN",
+      "titleHighlight": "Start HN",
       "description": "Uma equipe de contadores certificados e consultores financeiros dedicados a ajudar empresas a prosperar na Bósnia e Herzegovina."
     },
     "section": {
@@ -280,7 +308,7 @@
     },
     "leadership": {
       "hamza": {
-        "role": "Fundadora, CEO e CTO",
+        "role": "Fundador, CEO e CTO",
         "bio": "Líder visionário e arquiteto técnico com 10+ anos de experiência em software corporativo, especializado em IA/ML, plataformas em nuvem e arquitetura de produtos escaláveis.",
         "expertise": [
           "IA/ML",
@@ -293,7 +321,7 @@
       },
       "ahmet": {
         "role": "Arquiteto-Chefe de Segurança",
-        "bio": "Especialista em cibersegurança focada em arquitetura de segurança corporativa, infraestrutura segura on-premiss e entrega priorizada em conformidade para ambientes regulados.",
+        "bio": "Especialista em cibersegurança focado em arquitetura de segurança corporativa, infraestrutura on-premises segura e entrega orientada à conformidade para ambientes regulados.",
         "expertise": [
           "Segurança Cibernética",
           "Sistemas on-premises",
@@ -311,8 +339,8 @@
       "title": "Vida na Start HN",
       "description": "Cultivamos uma cultura de excelência, confiança e desenvolvimento profissional contínuo",
       "remoteFirst": {
-        "title": "Cultura Remota-Primeiro",
-        "description": "Funciona de qualquer lugar, com horário de trabalho flexível e foco em resultados, não em localização."
+        "title": "Cultura de trabalho remoto",
+        "description": "Trabalhe de qualquer lugar, com horário flexível e foco em resultados, não em localização."
       },
       "collaborative": {
         "title": "Ambiente colaborativo",
@@ -330,7 +358,7 @@
         "teamMembers": "Membros da equipe",
         "countries": "Países",
         "techStacks": "Pilhas tecnológicas",
-        "remoteReady": "Pronto para controle remoto"
+        "remoteReady": "Pronto para trabalho remoto"
       }
     },
     "cta": {
@@ -345,7 +373,7 @@
       "title": "Cresca conosco em",
       "titleHighlight": "Contabilidade e Finanças",
       "description": "A Start HN é uma agência de contabilidade em crescimento. Estamos procurando profissionais dedicados que queiram construir uma carreira significativa em contabilidade, tributação e serviços financeiros.",
-      "button": "Veja espaços abertos"
+      "button": "Ver vagas abertas"
     },
     "perks": [
       {
@@ -382,7 +410,7 @@
     "jobs": {
       "title": "Vagas abertas",
       "description": "Encontre seu lugar em nossa equipe de contabilidade",
-      "apply": "Faça login",
+      "apply": "Candidate-se",
       "noMatch": "Não vê a posição certa?",
       "sendCv": "Envie seu currículo para nós",
       "labels": {
@@ -401,11 +429,11 @@
             "Cooperação com auditores e consultores fiscais"
           ],
           "requirements": [
-            "6 ou 7 graduações em Contabilidade ou Finanças",
-            "Licença de Contador Certificado Ativo",
-            "Mínimo de 3 anos de experiência profissional em uma agência de contabilidade.",
-            "Excelente conhecimento das normas e regulamentações contábeis locais.",
-            "Manuseio habilidoso de softwares contábeis (Pantheon, iCenter ou similar)"
+            "Formação superior em contabilidade ou finanças (nível VI/VII)",
+            "Licença ativa de contador certificado",
+            "Mínimo de 3 anos de experiência em uma agência de contabilidade",
+            "Excelente conhecimento das normas e regulamentações contábeis locais",
+            "Domínio de softwares contábeis (Pantheon, iCenter ou similar)"
           ],
           "offers": [
             "Um salário regular e competitivo.",
@@ -416,7 +444,7 @@
         },
         {
           "title": "Consultor Tributário",
-          "summary": "Oriente os clientes sobre planejamento tributário, conformidade e representação perante o IRS.",
+          "summary": "Oriente os clientes em planejamento tributário, conformidade e representação perante a Administração Tributária.",
           "responsibilities": [
             "Aconselhando clientes sobre questões de planejamento e otimização tributária",
             "Preparação e apresentação de declarações de imposto (IVA, imposto de renda, imposto sobre a renda das empresas)",
@@ -424,10 +452,10 @@
             "Representação de clientes em comunicação com a Administração Tributária"
           ],
           "requirements": [
-            "Bacharelado em contabilidade, direito ou áreas relacionadas",
-            "Certificado em Consultoria Tributária (Advantage)",
-            "Mínimo de 4 anos de experiência na área de tributação",
-            "Gostaria de saber as leis tributárias",
+            "Formação em contabilidade, direito ou áreas relacionadas",
+            "Certificado de consultor tributário (desejável)",
+            "Mínimo de 4 anos de experiência na área tributária",
+            "Conhecimento da legislação tributária da BiH",
             "Habilidades analíticas e atenção aos detalhes"
           ],
           "offers": [
@@ -447,15 +475,15 @@
             "Realizar tarefas administrativas relacionadas à contabilidade."
           ],
           "requirements": [
-            "4º ou 6º grau em Contabilidade ou Economia",
+            "Ensino médio ou superior em contabilidade ou economia (nível IV/VI)",
             "Conhecimento dos fundamentos da contabilidade",
-            "Atenção aos detalhes e habilidades organizacionais",
-            "Experiência profissional anterior (estágio ou similar) é desejável"
+            "Atenção aos detalhes e boa capacidade de organização",
+            "Experiência anterior (estágio ou similar) é desejável"
           ],
           "offers": [
-            "Mentoria por contadores experientes",
-            "Possibilidade de participar de treinamentos profissionais e obter certificados",
-            "Bônus de salário e desempenho de incentivo",
+            "Mentoria de contadores experientes",
+            "Treinamentos profissionais e oportunidades de certificação",
+            "Bônus por desempenho",
             "Perspectivas de crescimento dentro da empresa"
           ]
         },
@@ -484,7 +512,7 @@
     },
     "cta": {
       "title": "Pronto para se juntar a nós?",
-      "description": "Envie seu currículo para info@starthn.ba e retornaremos o mais rápido possível.",
+      "description": "Envie seu currículo para klijenti@starthn.ba e retornaremos o mais rápido possível.",
       "button": "Entre em contato conosco"
     }
   },
@@ -492,7 +520,7 @@
     "badge": "Histórias de Sucesso",
     "hero": {
       "titlePrefix": "Entregando os resultados que",
-      "titleHighlight": "Matéria",
+      "titleHighlight": "importam",
       "description": "Explore como ajudamos empresas de diversos setores a transformar seus negócios por meio de tecnologias práticas e de alto impacto.",
       "tags": {
         "delivery": "Entrega em Engenharia",
@@ -511,9 +539,9 @@
         "client": "Global FinTech Corp",
         "industry": "Serviços Financeiros",
         "title": "Migração e modernização da nuvem",
-        "description": "Eles migraram sistemas bancários legados para a infraestrutura em nuvem da AWS sem tempo de inatividade.",
+        "description": "Migração de sistemas bancários legados para a infraestrutura em nuvem da AWS sem tempo de inatividade.",
         "challenge": "A arquitetura monolítica herdada causa problemas de escalabilidade",
-        "result": "Migrei com sucesso para microserviços na AWS",
+        "result": "Migração bem-sucedida para microsserviços na AWS",
         "metrics": [
           {
             "label": "Redução de custos",
@@ -536,7 +564,7 @@
         "client": "Soluções HealthTech",
         "industry": "Saúde",
         "title": "Plataforma de diagnóstico alimentada por IA",
-        "description": "Criei modelos de ML para analisar imagens médicas com 95%+ de precisão.",
+        "description": "Criação de modelos de ML para análise de imagens médicas com mais de 95% de precisão.",
         "challenge": "Processos manuais de diagnóstico demoram demais",
         "result": "Diagnósticos automatizados com IA/ML",
         "metrics": [
@@ -545,7 +573,7 @@
             "value": "70%"
           },
           {
-            "label": "Pontualidade",
+            "label": "Precisão",
             "value": "95%"
           }
         ],
@@ -561,7 +589,7 @@
         "client": "Gigante do comércio eletrônico",
         "industry": "Varejo",
         "title": "Painel para análises em tempo real",
-        "description": "Desenvolvi uma plataforma de BI que processa 10M+ eventos por dia.",
+        "description": "Desenvolvimento de uma plataforma de BI que processa mais de 10M de eventos por dia.",
         "challenge": "Sem visibilidade em tempo real sobre métricas de negócios chave",
         "result": "Plataforma para análises e insights em tempo real",
         "metrics": [
@@ -587,16 +615,16 @@
       "description": "Vamos falar sobre como podemos ajudá-lo a alcançar resultados semelhantes e escalar com confiança."
     },
     "filters": {
-      "title": "Filtro Industrial",
-      "all": "Todas as Indústrias",
-      "empty": "Nenhum dos estudos de caso corresponde ao filtro industrial selecionado."
+      "title": "Filtro por setor",
+      "all": "Todos os setores",
+      "empty": "Nenhum estudo de caso corresponde ao setor selecionado."
     }
   },
   "blog": {
     "badge": "Blog",
     "hero": {
-      "titlePrefix": "Dicas e Guias de",
-      "titleHighlight": "Comece HN",
+      "titlePrefix": "Dicas e guias da",
+      "titleHighlight": "Start HN",
       "description": "Dicas práticas de contabilidade, guias fiscais e notícias de negócios de Sarajevo."
     },
     "categories": [
@@ -608,11 +636,11 @@
       "IVA"
     ],
     "featuredPost": {
-      "id": "Destaques",
+      "id": "featured",
       "title": "IVA em 2025: Principais mudanças para empreendedores",
       "excerpt": "Uma visão geral das últimas mudanças nas regulamentações de IVA na Federação da BiH e o que elas significam para o seu negócio.",
       "author": {
-        "name": "Inicie o Editorial da HN"
+        "name": "Equipe editorial da Start HN"
       },
       "date": "15 de janeiro de 2025",
       "readTime": "6 minutos de leitura",
@@ -626,17 +654,17 @@
     "posts": [
       {
         "id": "1",
-        "title": "Faturamento Anual de Pequenas Empresas: Uma Lista Completa de Cheques",
+        "title": "Lista de verificação de fechamento anual para pequenas empresas",
         "excerpt": "Um guia passo a passo para fechar seus livros e se manter em conformidade antes do cronograma.",
         "author": {
-          "name": "Inicie o Editorial da HN"
+          "name": "Equipe editorial da Start HN"
         },
         "date": "20 de dezembro de 2024",
         "readTime": "5 minutos de leitura",
         "category": "Contabilidade",
         "tags": [
-          "Contas Anuais",
-          "Publicação",
+          "Fechamento anual",
+          "Escrituração",
           "Conformidade"
         ]
       },
@@ -645,7 +673,7 @@
         "title": "Por que terceirizar a contabilidade economiza dinheiro para pequenas empresas",
         "excerpt": "Análise dos custos reais da contabilidade interna versus trabalhar com uma empresa de contabilidade profissional.",
         "author": {
-          "name": "Inicie o Editorial da HN"
+          "name": "Equipe editorial da Start HN"
         },
         "date": "10 de novembro de 2024",
         "readTime": "7 minutos de leitura",
@@ -658,10 +686,10 @@
       },
       {
         "id": "3",
-        "title": "Declarações de Imposto de Renda nos EUA: O que Você Não Deve Perder",
+        "title": "Prazos de declarações fiscais na FBiH: o que você não pode perder",
         "excerpt": "Um calendário claro de todos os prazos fiscais importantes na Federação da Bósnia e Herzegovina para 2025.",
         "author": {
-          "name": "Inicie o Editorial da HN"
+          "name": "Equipe editorial da Start HN"
         },
         "date": "5 de janeiro de 2025",
         "readTime": "4 minutos de leitura",
@@ -678,16 +706,32 @@
       "description": "Receba as últimas dicas de contabilidade, alertas fiscais e notícias de negócios diretamente na sua caixa de entrada.",
       "placeholder": "you@example.com",
       "button": "Assine",
-      "note": "Sem spam. Saia a qualquer momento."
+      "note": "Sem spam. Cancele a inscrição a qualquer momento."
     },
     "index": {
       "hero": {
-        "title": "Inicie o Blog HN",
+        "title": "Blog da Start HN",
         "description": "Guias práticos de contabilidade, conselhos fiscais e notícias de negócios da nossa equipe em Sarajevo."
       },
       "filters": {
-        "postsInView": "{{count}} postagens à vista"
+        "postsInView": "{{count}} artigos exibidos",
+        "advanced": "Filtros",
+        "searchPlaceholder": "Pesquise artigos por título, tema ou conteúdo...",
+        "filterByTag": "Filtrar por tag",
+        "clearTag": "Limpar",
+        "searchTags": "Pesquisar tags...",
+        "noTagsMatch": "Nenhuma tag corresponde à sua pesquisa."
       },
+      "pagination": {
+        "label": "Paginação do blog",
+        "previous": "Página anterior",
+        "next": "Próxima página",
+        "showing": "Mostrando {{from}}–{{to}} de {{total}}",
+        "show": "Mostrar"
+      },
+      "noPosts": "Ainda não há artigos no blog.",
+      "noResults": "Nenhum artigo corresponde aos filtros selecionados.",
+      "clearFilters": "Limpar todos os filtros",
       "featured": {
         "badge": "Últimas novidades",
         "readCta": "Leia o post em destaque"
@@ -698,7 +742,7 @@
     "loading": "Carregando perfil...",
     "title": "Configurações de perfil",
     "subtitle": "Gerencie as configurações e preferências da sua conta",
-    "photoButton": "Mudança de foto",
+    "photoButton": "Alterar foto",
     "tabs": {
       "general": "Geral",
       "security": "Segurança",
@@ -706,27 +750,27 @@
     },
     "messages": {
       "profileUpdated": "O perfil foi atualizado com sucesso",
-      "profileUpdateFailed": "Sem atualização atualizada do perfil",
+      "profileUpdateFailed": "Falha ao atualizar o perfil",
       "passwordsNoMatch": "Novas senhas não combinam",
       "passwordTooShort": "A senha deve ter pelo menos 8 caracteres",
       "passwordChanged": "Senha alterada com sucesso",
-      "passwordChangeFailed": "Falhou em mudar a senha",
-      "optedOut": "Excluídos dos relatórios de exercícios",
-      "optedIn": "Me inscrevi para relatórios de treinamento",
-      "optOutFailed": "Não é uma atualização de status do checkout"
+      "passwordChangeFailed": "Falha ao alterar a senha",
+      "optedOut": "Você deixou de participar dos relatórios do escritório",
+      "optedIn": "Você passou a participar dos relatórios do escritório",
+      "optOutFailed": "Falha ao atualizar a preferência de participação"
     },
     "general": {
       "title": "Dados pessoais",
       "description": "Atualize suas informações pessoais e informações de contato",
       "firstName": "Nome",
-      "firstNamePlaceholder": "John",
+      "firstNamePlaceholder": "João",
       "lastName": "Sobrenome",
-      "lastNamePlaceholder": "Feado",
+      "lastNamePlaceholder": "Silva",
       "email": "Endereço de e-mail",
       "emailNotice": "O e-mail não pode ser alterado. Entre em contato com o suporte se precisar de ajuda.",
       "phone": "Número de telefone",
       "phonePlaceholder": "+1 (555) 000-0000",
-      "save": "Alterações de salvamento"
+      "save": "Salvar alterações"
     },
     "security": {
       "title": "Configurações de segurança",
@@ -752,8 +796,8 @@
         "description": "Receba notificações importantes via SMS"
       },
       "optOut": {
-        "title": "Relatórios de Desregistro de Aprendizagem",
-        "description": "Esconda seus relatórios dos donos do consultório"
+        "title": "Não participar dos relatórios do escritório",
+        "description": "Oculte seus relatórios do responsável pelo escritório"
       },
       "actions": {
         "title": "Ações da Conta",
@@ -763,7 +807,7 @@
     }
   },
   "support": {
-    "backHome": "Reunião de Volta",
+    "backHome": "Voltar ao início",
     "title": "Centro de Apoio",
     "subtitle": "Obtenha ajuda com nossos serviços de desenvolvimento de software.",
     "cards": {
@@ -790,7 +834,7 @@
         "answer": "Oferecemos serviços de contabilidade, folha de pagamento, consultoria tributária, vCFO, registro e relatórios de IVA, além de terceirização contábil completa."
       },
       {
-        "question": "Como começo a jogar na NHL?",
+        "question": "Como começo a trabalhar com a Start HN?",
         "answer": "Entre em contato conosco pelo formulário ou e-mail. Agendaremos uma ligação introdutória gratuita e compartilharemos uma proposta personalizada para suas necessidades."
       },
       {
@@ -800,7 +844,7 @@
     ]
   },
   "education": {
-    "backHome": "Reunião de Volta",
+    "backHome": "Voltar ao início",
     "title": "Recursos Técnicos",
     "subtitle": "Guias, recursos e conselhos práticos da equipe Start HN",
     "hub": {
@@ -812,7 +856,7 @@
       {
         "icon": "cloud",
         "title": "Arquitetura da nuvem",
-        "description": "Azure, AWS e formulários nativos em nuvem",
+        "description": "Azure, AWS e padrões cloud-native",
         "resources": [
           {
             "title": "Melhores Práticas de Arquitetura Azure",
@@ -831,10 +875,10 @@
         "resources": [
           {
             "title": "Introduction to Azure ML",
-            "type": "Telugu"
+            "type": "Tutorial"
           },
           {
-            "title": "Construção de dutos de produção de ML",
+            "title": "Criação de pipelines de ML em produção",
             "type": "Guia"
           }
         ]
@@ -846,7 +890,7 @@
         "resources": [
           {
             "title": "Azure DevOps Pipeline Setup",
-            "type": "Telugu"
+            "type": "Tutorial"
           },
           {
             "title": "Infraestrutura como código com Terraform",
@@ -860,7 +904,7 @@
         "description": ".NET, React e Práticas Modernas de Desenvolvimento",
         "resources": [
           {
-            "title": "Arquitetura pura em . NET",
+            "title": "Clean Architecture em .NET",
             "type": "Guia"
           },
           {
@@ -876,7 +920,7 @@
         "resources": [
           {
             "title": "Design de Dashboards do Power BI",
-            "type": "Telugu"
+            "type": "Tutorial"
           },
           {
             "title": "Arquitetura de data warehouse",
@@ -887,7 +931,7 @@
     ],
     "training": {
       "title": "Você precisa de treinamento personalizado?",
-      "description": "Oferecemos oficinas voltadas para engenheiros e equipes de produção",
+      "description": "Oferecemos oficinas sob medida para equipes de engenharia e de produto",
       "text": "Precisa de treinamento prático em equipe? Oferecemos workshops personalizados sobre arquitetura em nuvem, DevOps e práticas modernas de entrega.",
       "button": "Entre em contato conosco"
     }
@@ -895,25 +939,25 @@
   "unauthorized": {
     "title": "Acesso negado",
     "description": "Você não tem permissão para acessar esta página. Entre em contato com seu administrador se achar que isso é um erro.",
-    "primary": "Vá para o Perfil",
-    "secondary": "Reunião de Volta"
+    "primary": "Ir para o perfil",
+    "secondary": "Voltar ao início"
   },
   "blogPost": {
     "notFound": {
       "title": "Post não encontrado",
-      "description": "Não existe post no blog sobre slug: {{slug}}",
+      "description": "Não existe nenhum post com o slug: {{slug}}",
       "back": "Voltar ao Blog"
     },
     "back": "Voltar ao Blog",
-    "publisher": "Comece HN"
+    "publisher": "Start HN"
   },
   "caseStudyDetail": {
     "notFound": {
       "title": "Estudo de caso não encontrado",
       "description": "Não há estudo de caso para id: {{id}}",
-      "back": "Voltando aos estudos de caso"
+      "back": "Voltar aos estudos de caso"
     },
-    "back": "Voltando aos estudos de caso",
+    "back": "Voltar aos estudos de caso",
     "sections": {
       "executiveSummary": "Resumo Executivo",
       "businessChallenge": "Desafio empresarial",
@@ -923,18 +967,18 @@
       "resultsImpact": "Resultados e Impacto"
     },
     "client": "Cliente",
-    "keyOutcomes": "Consequências-chave",
+    "keyOutcomes": "Principais resultados",
     "decision": "Decisão {{number}}"
   },
   "error": {
     "notFound": {
-      "badge": "404 // Sinal perdido",
+      "badge": "404 · Página não encontrada",
       "title": "Página não encontrada",
       "description": "A página que você procurava não existe ou foi movida. Vamos te colocar de volta no lugar certo.",
       "requestedPath": "Caminho solicitado",
       "terminal": {
         "prompt": "$ starthn resolve --path",
-        "line1": "Resolvendo o grafo de rotas... Ele não teve sucesso",
+        "line1": "Resolvendo o grafo de rotas... falhou",
         "line2": "O motivo: não existe módulo de correspondência de rotas",
         "line3": "Protocolo de Backup Ativado",
         "line4": "Use um dos atalhos abaixo para prosseguir"
@@ -952,23 +996,33 @@
       "description": "Um problema inesperado interrompeu a renderização. Você pode tentar novamente com segurança, ou voltar para a página inicial.",
       "retry": "Tente de novo",
       "home": "Voltar à página inicial",
-      "unknown": "Erro desconhecido durante a execução"
+      "unknown": "Erro desconhecido durante a execução",
+      "hint": "Se o problema persistir, tente novamente mais tarde."
+    },
+    "offline": {
+      "title": "Você está offline",
+      "description": "Não foi possível carregar esta página porque não há conexão com a internet. Verifique sua conexão e tente novamente.",
+      "hint": "A página voltará a funcionar assim que você estiver online novamente.",
+      "banner": "Você está offline. Alguns conteúdos podem não estar disponíveis."
+    },
+    "loading": {
+      "blog": "Carregando..."
     }
   },
   "meta": {
-    "siteName": "Inicie o Blog HN"
+    "siteName": "Blog da Start HN"
   },
   "admin": {
     "blog": {
       "title": "Gestão de Blog",
       "subtitle": "Crie, edite e gerencie seus posts no blog",
-      "newPost": "Uma nova posição",
-      "seedData": "Dados semente",
-      "allPosts": "Todas as funções",
-      "published": "Publicado em",
-      "draft": "Draft",
+      "newPost": "Novo post",
+      "seedData": "Dados de exemplo",
+      "allPosts": "Todos os posts",
+      "published": "Publicado",
+      "draft": "Rascunho",
       "featured": "Destaques",
-      "setFeatured": "Conjunto exibido",
+      "setFeatured": "Destacar",
       "removeFeatured": "Remover Destacados",
       "table": {
         "title": "Título",
@@ -978,30 +1032,30 @@
         "actions": "Ações"
       },
       "empty": {
-        "message": "Ainda não há posts no blog. Crie seu primeiro post ou dados seed.",
-        "seed": "Informações sobre amostras de semente",
+        "message": "Ainda não há posts no blog. Crie o primeiro post ou gere dados de exemplo.",
+        "seed": "Gerar dados de exemplo",
         "create": "Crie uma postagem"
       },
       "delete": {
         "title": "Excluir post",
-        "confirmation": "Você tem certeza de que quer deletar este post? Essa loja não pode ser cancelada.",
-        "delete": "Faça login",
+        "confirmation": "Tem certeza de que deseja excluir este post? Esta ação não pode ser desfeita.",
+        "delete": "Excluir",
         "cancel": "Cancelar"
       }
     },
     "editor": {
-      "bannerHint": "Exibido como um grande banner no topo do poste",
+      "bannerHint": "Exibida como um banner largo no topo do post",
       "bannerImage": "Imagem do banner",
-      "coverHint": "Exibido nas abas da Lista de Blogs",
+      "coverHint": "Exibida nos cartões da lista do blog",
       "coverImage": "Imagem de capa",
-      "editSlug": "Mudando Slugs",
-      "posts": "Características",
+      "editSlug": "Editar slug",
+      "posts": "Posts",
       "publish": "Publicar",
-      "update": "Atualizações",
+      "update": "Atualizar",
       "form": {
         "contentPlaceholder": "Escreva o conteúdo do seu post aqui...",
         "excerptPlaceholder": "Um breve resumo do post...",
-        "pickDate": "Data selecionada",
+        "pickDate": "Escolha uma data",
         "readTimePlaceholder": "por exemplo, leitura de 5 minutos",
         "titlePlaceholder": "Título do post..."
       },
@@ -1010,29 +1064,29 @@
         "unknownAuthor": "Autor desconhecido"
       },
       "modes": {
-        "edit": "Emenda",
-        "editOnly": "Apenas modificação",
-        "preview": "Visão geral",
-        "previewOnly": "Apenas para avaliação",
-        "sideBySide": "Ombro a ombro",
-        "split": "Cisma"
+        "edit": "Editar",
+        "editOnly": "Apenas edição",
+        "preview": "Pré-visualização",
+        "previewOnly": "Apenas pré-visualização",
+        "sideBySide": "Lado a lado",
+        "split": "Dividido"
       },
       "tags": {
         "heading": "Tags",
         "placeholder": "Adicione uma etiqueta..."
       },
       "translations": {
-        "auto": "Telugu",
+        "auto": "Automático",
         "autoTranslate": "Tradução automática",
-        "clear": "Limpo",
+        "clear": "Limpar",
         "existing": "Existentes",
         "heading": "Traduções",
         "language": "Idioma",
         "languages": "Idiomas",
-        "edit": "Emenda",
+        "edit": "Editar",
         "manual": "Manual",
-        "preview": "Visão geral",
-        "searchPlaceholder": "Pesquisar línguas...",
+        "preview": "Pré-visualização",
+        "searchPlaceholder": "Pesquisar idiomas...",
         "translate": "Traduzir"
       }
     },
@@ -1040,35 +1094,35 @@
       "title": "Estudos de Caso",
       "subtitle": "Gestão de estudos de caso e apresentações de projetos",
       "newCaseStudy": "Novo estudo de caso",
-      "seedData": "Dados semente",
+      "seedData": "Dados de exemplo",
       "allCaseStudies": "Todos os estudos de caso",
-      "published": "Publicado em",
-      "draft": "Draft",
+      "published": "Publicado",
+      "draft": "Rascunho",
       "table": {
         "title": "Título",
-        "industry": "Indústria",
+        "industry": "Setor",
         "client": "Cliente",
         "status": "Status",
         "actions": "Ações"
       },
       "empty": {
         "message": "Ainda não existem estudos de caso.",
-        "seed": "Dados semente",
-        "create": "Em primeiro lugar, crie"
+        "seed": "Dados de exemplo",
+        "create": "Criar o primeiro"
       },
       "delete": {
         "title": "Excluir Estudo de Caso",
-        "confirmation": "Você tem certeza de que quer deletar este estudo de caso? Essa loja não pode ser cancelada.",
-        "delete": "Faça login",
+        "confirmation": "Tem certeza de que deseja excluir este estudo de caso? Esta ação não pode ser desfeita.",
+        "delete": "Excluir",
         "cancel": "Cancelar"
       }
     },
     "caseStudyEditor": {
       "back": "Estudos de Caso",
-      "published": "Publicado em",
-      "draft": "Draft",
-      "update": "Atualizações",
-      "create": "Faça login",
+      "published": "Publicado",
+      "draft": "Rascunho",
+      "update": "Atualizar",
+      "create": "Criar",
       "sections": {
         "basicInfo": "Informações básicas",
         "narrative": "Narrativa",
@@ -1080,16 +1134,16 @@
       "fields": {
         "title": "Título",
         "titlePlaceholder": "Título do estudo de caso",
-        "slug": "Caracol",
+        "slug": "Slug",
         "slugPlaceholder": "gerado automaticamente a partir do título",
         "client": "Cliente",
         "clientPlaceholder": "Nome do cliente",
-        "industry": "Indústria",
-        "industryPlaceholder": "Indústria selecionada",
+        "industry": "Setor",
+        "industryPlaceholder": "Selecione o setor",
         "description": "Descrição",
         "descriptionPlaceholder": "Breve descrição (mostrada nos cartões)",
         "executiveSummary": "Resumo Executivo",
-        "executiveSummaryPlaceholder": "Visão geral dos conflitos de alto nível",
+        "executiveSummaryPlaceholder": "Visão geral do trabalho realizado",
         "challenge": "Desafio",
         "challengePlaceholder": "Qual problema o cliente enfrentou?",
         "solution": "Solução",
@@ -1098,8 +1152,8 @@
         "decisionPlaceholder": "O que foi decidido",
         "rationale": "Justificativa",
         "rationalePlaceholder": "Por que essa abordagem foi escolhida",
-        "metric": "Métricas",
-        "metricPlaceholder": "por exemplo, latência de alinhamento",
+        "metric": "Métrica",
+        "metricPlaceholder": "por exemplo, latência de liquidação",
         "value": "Valor",
         "valuePlaceholder": "ex: -63% ou 4,8h -> 11m",
         "resultDescription": "Descrição",
@@ -1111,32 +1165,32 @@
       "noArchDecisions": "Ainda não foram adicionadas decisões arquitetônicas.",
       "noResults": "Ainda não foram adicionados resultados.",
       "decisionLabel": "Decisão {{number}}",
-      "resultLabel": "O resultado {{number}}",
+      "resultLabel": "Resultado {{number}}",
       "controls": {
-        "published": "Publicado em",
+        "published": "Publicado",
         "publishedDescription": "Torne este estudo de caso publicamente visível",
         "featured": "Destaques",
         "featuredDescription": "Destaque este estudo de caso"
       }
     },
     "imageCrop": {
-      "apply": "Faça login",
+      "apply": "Aplicar",
       "cancel": "Cancelar",
-      "cropTitle": "Corte uma imagem",
-      "dropText": "Deixe uma foto aqui ou clique para enviar",
-      "flipHorizontal": "Girando horizontalmente",
-      "flipVertical": "Flip vertical",
-      "replace": "Substituição",
-      "reset": "Reiniciar",
-      "rotateLeft": "Gire para a esquerda",
-      "rotateRight": "Vire à direita",
-      "uploading": "Carregando...",
+      "cropTitle": "Recortar imagem",
+      "dropText": "Solte uma imagem aqui ou clique para enviar",
+      "flipHorizontal": "Espelhar horizontalmente",
+      "flipVertical": "Espelhar verticalmente",
+      "replace": "Substituir",
+      "reset": "Redefinir",
+      "rotateLeft": "Girar para a esquerda",
+      "rotateRight": "Girar para a direita",
+      "uploading": "Enviando...",
       "toast": {
         "invalidFile": "Arquivo inválido",
         "invalidFileDesc": "Por favor, envie um arquivo de imagem válido.",
         "uploadFailed": "Upload falhou",
         "uploadFailedDesc": "Algo deu errado. Por favor, tente novamente.",
-        "uploaded": "Conjunto de imagens",
+        "uploaded": "Imagem enviada",
         "uploadedDesc": "Sua foto foi enviada com sucesso."
       }
     }

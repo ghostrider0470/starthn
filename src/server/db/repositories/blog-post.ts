@@ -44,7 +44,7 @@ export class BlogPostRepository {
         eq(blogPostTranslations.locale, loc),
       ))
       .leftJoin(users, eq(users.id, blogPosts.authorId))
-      .where(this.buildPublishedWhere(filters))
+      .where(and(this.buildPublishedWhere(filters), this.readableIn(loc)))
       .orderBy(desc(blogPosts.isFeatured), desc(blogPosts.publishedAt))
       .limit(pageSize)
       .offset(offset)
@@ -109,11 +109,17 @@ export class BlogPostRepository {
     return Promise.all(rows.map(r => this.toDto(r)))
   }
 
-  async getCount(filters: BlogPostFilters = {}): Promise<number> {
+  /** Number of published posts readable in `locale` (see readableIn). */
+  async getCount(filters: BlogPostFilters = {}, locale?: string): Promise<number> {
+    const loc = locale ?? 'en-US'
     const result = await this.db
       .select({ count: sql<number>`COUNT(*)` })
       .from(blogPosts)
-      .where(this.buildPublishedWhere(filters))
+      .leftJoin(blogPostTranslations, and(
+        eq(blogPostTranslations.postId, blogPosts.id),
+        eq(blogPostTranslations.locale, loc),
+      ))
+      .where(and(this.buildPublishedWhere(filters), this.readableIn(loc)))
     return result[0]?.count ?? 0
   }
 
@@ -334,6 +340,17 @@ export class BlogPostRepository {
       .where(eq(blogPostTags.postId, postId))
       .orderBy(tags.label)
     return rows.map(r => r.slug)
+  }
+
+  /**
+   * A post is readable in `locale` when it is written in it or has a
+   * translation row for it — the rule getBySlug, the post route (404
+   * otherwise) and the sitemap use. Listings apply it so they never link a
+   * post that 404s in that locale. Needs the blog_post_translations LEFT JOIN
+   * on `locale`.
+   */
+  private readableIn(locale: string) {
+    return sql`(${blogPosts.lang} = ${locale} OR ${blogPostTranslations.id} IS NOT NULL)`
   }
 
   private buildPublishedWhere(filters: BlogPostFilters = {}) {

@@ -175,7 +175,9 @@ export function BlogPostPreview({
                 )}
               >
                 <CalendarDays className="mr-2 h-4 w-4" />
-                {formatBlogPublishedDate(publishedAt, locale)}
+                <time dateTime={publishedAt}>
+                  {formatBlogPublishedDate(publishedAt, locale)}
+                </time>
               </p>
             )}
             {readTime && (

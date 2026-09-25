@@ -1,7 +1,8 @@
 {
   "nav": {
-    "home": "Zuhause",
-    "company": "Über uns",
+    "home": "Startseite",
+    "company": "Unternehmen",
+    "tagline": "Buchhaltungsagentur",
     "solutions": "Dienstleistungen",
     "resources": "Ressourcen",
     "contact": "Kontakt",
@@ -14,7 +15,7 @@
       "description": "Die Prinzipien und Ziele, die alles leiten, was wir tun"
     },
     "certificates": {
-      "title": "Urkunden und Anerkennungen",
+      "title": "Zertifikate und Anerkennungen",
       "description": "Unsere Lizenzen und beruflichen Genehmigungen"
     },
     "team": {
@@ -22,12 +23,12 @@
       "description": "Lernen Sie die Menschen hinter Start HN kennen"
     },
     "careers": {
-      "title": "Karrieren",
-      "description": "Tritt unserem Team bei und wachse mit uns"
+      "title": "Karriere",
+      "description": "Werden Sie Teil unseres Teams und wachsen Sie mit uns"
     },
     "enterpriseSoftware": {
-      "title": "Buchhaltung und Buchhaltung",
-      "description": "Umfassende Buchhaltungs- und Buchhaltungsdienstleistungen für Unternehmen jeder Größe"
+      "title": "Buchführung und Rechnungswesen",
+      "description": "Umfassende Buchführung und Rechnungswesen für Unternehmen jeder Größe"
     },
     "aiMl": {
       "title": "Steuerberatung",
@@ -46,7 +47,7 @@
       "description": "Genaue und zeitnahe Finanzberichte und Managementanalysen"
     },
     "digitalTransformation": {
-      "title": "Ausbildung & Kurse",
+      "title": "Schulungen & Kurse",
       "description": "Workshops und Kurse in Buchhaltung, Steuern und Finanzen"
     },
     "caseStudies": {
@@ -67,13 +68,13 @@
     },
     "navigation": "Navigation",
     "skipToContent": "Zum Inhalt springen",
-    "toggleMenu": "Schaltermenü",
-    "dashboard": "Bedienfeld",
+    "toggleMenu": "Menü umschalten",
+    "dashboard": "Dashboard",
     "myWorkspace": "Mein Arbeitsplatz",
     "profile": "Profil",
-    "adminPanel": "Verwaltungsgremium",
-    "practiceManagement": "Praxisleitung",
-    "logOut": "Melden Sie sich an",
+    "adminPanel": "Admin-Bereich",
+    "practiceManagement": "Kanzleiverwaltung",
+    "logOut": "Abmelden",
     "education": {
       "title": "Ressourcen & Leitfäden",
       "description": "Praktische Buchhaltungs- und Finanzressourcen des Start HN-Teams"
@@ -81,10 +82,12 @@
     "support": {
       "title": "Unterstützungszentrum",
       "description": "Erhalten Sie Hilfe mit unseren Buchhaltungs- und Beratungsdiensten"
-    }
+    },
+    "myPage": "Meine Seite",
+    "backToSite": "Zurück zur Website"
   },
   "footer": {
-    "description": "Start HN ist eine Buchhaltungsagentur mit Sitz in Sarajevo. Wir bieten Buchhaltung, Steuerberatung, virtuelle CFO- und Finanzberichterstattung für Unternehmen in ganz Bosnien und Herzegowina an.",
+    "description": "Start HN ist eine Buchhaltungsagentur mit Büro in Ilidža (Kanton Sarajevo). Wir bieten Buchhaltung, Lohnabrechnung, Steuerberatung, virtuellen CFO und Finanzberichterstattung für Unternehmen, Einzelunternehmer und Vereine in ganz Bosnien und Herzegowina.",
     "services": "Dienstleistungen",
     "servicesList": {
       "bookkeeping": "Buchhaltung",
@@ -92,28 +95,28 @@
       "vcfo": "Virtueller CFO",
       "reporting": "Finanzberichterstattung",
       "consulting": "Unternehmensberatung",
-      "education": "Bildung"
+      "education": "Schulungen"
     },
-    "company": "Über uns",
+    "company": "Unternehmen",
     "companyLinks": {
       "about": "Über uns",
       "missionVision": "Mission & Werte",
       "certificates": "Zertifikate",
       "team": "Unser Team",
-      "blog": "Erfolgsgeschichten",
+      "blog": "Blog",
       "careers": "Karrieren",
       "contact": "Kontakt"
     },
     "contact": "Kontakt",
     "contactInfo": {
       "email": "klijenti@starthn.ba",
-      "phone": "+387 61 221-368",
+      "phone": "+387 61 221 368",
       "street": "Ibrahima Ljubovića 47",
-      "locality": "Ilidža",
+      "locality": "71210 Ilidža",
       "region": "Kanton Sarajevo",
       "country": "Bosnien und Herzegowina",
-      "hours": "Mo–Fr: 08:00–16:00 Uhr",
-      "holidays": "Wir arbeiten nicht an Feiertagen"
+      "hours": "Mo–Fr: 08:00–16:00",
+      "holidays": "An Feiertagen geschlossen"
     },
     "legal": "Rechtlich",
     "legalLinks": {
@@ -121,9 +124,9 @@
       "termsOfService": "Nutzungsbedingungen",
       "cookiePolicy": "Cookie-Richtlinie"
     },
-    "copyright": "© {{year}} Starte HN. Alle Rechte vorbehalten.",
+    "copyright": "© {{year}} Start HN. Alle Rechte vorbehalten.",
     "developedBy": "Entwickelt von",
-    "ctaTitle": "Bereit zu reden?",
+    "ctaTitle": "Bereit für ein Gespräch?",
     "ctaDescription": "Vereinbaren Sie eine kostenlose Einführungsberatung – wir melden uns innerhalb eines Werktages bei Ihnen.",
     "ctaButton": "Kontaktieren Sie uns"
   },
@@ -132,16 +135,16 @@
     "titleLine1": "Zuverlässige Buchhaltung und Finanzen",
     "titleLine2": "für Ihr Geschäft in Bosnien und Herzegowina",
     "description": "Von Buchhaltung und Steuerberatung bis hin zu virtuellen CFO- und Finanzberichterstattungsdiensten – Start HN bietet umfassende Buchhaltungsexpertise, die Ihr Unternehmen ausgerichtet, informiert und wachstumsbereit hält.",
-    "getStarted": "Leg los",
+    "getStarted": "Jetzt starten",
     "exploreSolutions": "Entdecken Sie Dienstleistungen",
     "trustedBy": "Vertrauen der Unternehmen in ganz Bosnien und Herzegowina",
-    "microsoftPartner": "Wirtschaftsprüfer",
+    "microsoftPartner": "Zertifizierte Buchhalter",
     "azureCertified": "Für die Mehrwertsteuer registriert",
-    "enterpriseSolutions": "End-to-End-Buchhaltung"
+    "enterpriseSolutions": "Buchhaltung aus einer Hand"
   },
   "mobileNav": {
     "navigation": "Mobile Navigation",
-    "home": "Zuhause",
+    "home": "Startseite",
     "solutions": "Dienstleistungen",
     "caseStudies": "Fälle",
     "blog": "Blog",
@@ -149,10 +152,10 @@
     "contact": "Kontakt"
   },
   "sideNav": {
-    "scroll": "Schriftrolle",
-    "navigateTo": "Geh zu {{section}}",
+    "scroll": "Scrollen",
+    "navigateTo": "Zu {{section}} wechseln",
     "sections": {
-      "home": "Zuhause",
+      "home": "Startseite",
       "solutions": "Dienstleistungen",
       "credibility": "Glaubwürdigkeit",
       "partners": "Partner",
@@ -163,12 +166,12 @@
   },
   "languageSwitcher": {
     "srLabel": "Sprache ändern",
-    "searchPlaceholder": "Suchsprache...",
+    "searchPlaceholder": "Sprache suchen...",
     "noResults": "Keine Sprachen gefunden."
   },
   "common": {
-    "menu": "Für mich",
-    "account": "Bestellung"
+    "menu": "Menü",
+    "account": "Konto"
   },
   "homePage": {
     "caseStudies": {
@@ -194,5 +197,69 @@
   },
   "blogCard": {
     "read": "Weiterlesen"
+  },
+  "sections": {
+    "overview": "Überblick",
+    "story": "Geschichte",
+    "proof": "Nachweise",
+    "gallery": "Galerie",
+    "values": "Werte",
+    "team": "Team",
+    "culture": "Kultur",
+    "jobs": "Stellen",
+    "process": "Ablauf",
+    "channels": "Kanäle",
+    "contact": "Kontakt",
+    "start": "Einstieg",
+    "home": "Startseite",
+    "services": "Leistungen",
+    "why": "Warum Start HN",
+    "evidence": "Belege",
+    "trust": "Vertrauen",
+    "faq": "FAQ",
+    "scope": "Umfang",
+    "outputs": "Ergebnisse"
+  },
+  "breadcrumbs": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "about": "Über uns",
+    "missionVision": "Mission & Vision",
+    "certificates": "Zertifikate",
+    "careers": "Karriere",
+    "contact": "Kontakt",
+    "blog": "Blog",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "serviceBookkeeping": "Buchhaltung",
+    "serviceTaxConsulting": "Steuerberatung",
+    "serviceVirtualCfo": "Virtueller CFO",
+    "serviceBusinessConsulting": "Unternehmensberatung",
+    "serviceFinancialReporting": "Finanzberichterstattung",
+    "serviceEducation": "Schulungen"
+  },
+  "a11y": {
+    "prevSlide": "Vorherige Folie",
+    "nextSlide": "Nächste Folie",
+    "goToSlide": "Zu Folie {{n}}",
+    "pauseCarousel": "Karussell anhalten",
+    "resumeCarousel": "Karussell fortsetzen",
+    "slides": "Folien",
+    "prevTestimonial": "Vorherige Kundenstimme",
+    "nextTestimonial": "Nächste Kundenstimme",
+    "goToTestimonial": "Kundenstimme {{n}}",
+    "testimonialCounter": "Kundenstimme {{n}} von {{total}}",
+    "prevSection": "Vorheriger Abschnitt",
+    "nextSection": "Nächster Abschnitt",
+    "goToSection": "Zu Abschnitt {{n}}",
+    "toggleTheme": "Farbschema wechseln"
+  },
+  "consent": {
+    "title": "Cookies und Datenschutz",
+    "text": "Mit Ihrer Einwilligung verwenden wir Google Analytics und Microsoft Clarity, um zu verstehen, wie die Website genutzt wird, und sie zu verbessern. Ohne Einwilligung werden diese Dienste nicht geladen, und Sie können Ihre Auswahl jederzeit ändern.",
+    "accept": "Akzeptieren",
+    "reject": "Ablehnen",
+    "settings": "Cookie-Einstellungen",
+    "privacyLink": "Datenschutzerklärung"
   }
 }

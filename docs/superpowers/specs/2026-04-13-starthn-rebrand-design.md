@@ -9,8 +9,8 @@
 StartHN is a **računovodstvena agencija** (accounting agency) based in Sarajevo, Bosnia. They serve micro, small, and medium businesses, freelancers, and associations with bookkeeping, tax consulting, virtual CFO services, and business education.
 
 **Contact:**
-- Phone: +387 61/135-377
-- Email: info@starthn.ba / klijenti@starthn.ba
+- Phone: +387 61 221 368
+- Email: klijenti@starthn.ba
 - Address: Vilsonovo šetalište 9, Mašinski fakultet, 3. sprat — CRP Inkubator
 - Hours: Mon–Fri 8:00–16:00
 - Social: Facebook, LinkedIn, Instagram
