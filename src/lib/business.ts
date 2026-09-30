@@ -25,11 +25,17 @@ export const LOCALITY = 'Ilidža'
 export const REGION = 'Kanton Sarajevo'
 export const COUNTRY = 'BA'
 
-// Phone — the only current number.
+// Phone — primary public number (Selma Hadžić), also the Google Business
+// Profile's main phone. Keep the site and the profile in sync.
 export const PHONE_DISPLAY = '061 221 368'
 export const PHONE_INTL = '+387 61 221 368'
 /** For tel: links — digits only after the leading '+'. */
 export const PHONE_TEL = '+38761221368'
+
+// Office line — the agency's business number, shown as a second contact.
+export const OFFICE_PHONE_DISPLAY = '061 135 377'
+export const OFFICE_PHONE_INTL = '+387 61 135 377'
+export const OFFICE_PHONE_TEL = '+38761135377'
 
 /** Single public contact email (owner decision D2: klijenti@ replaces info@). */
 export const CONTACT_EMAIL = 'klijenti@starthn.ba'

@@ -81,7 +81,7 @@ const bundles = Object.fromEntries(
 ) as Record<Locale, Record<Namespace, JsonValue>>
 
 const FORBIDDEN =
-  /vilson|wilson|CRP Inkubator|Pokreni HN|Počni s HN|Početak HN|share\.google|info@starthn\.ba|061[\s/]*135[\s-]*377/i
+  /vilson|wilson|CRP Inkubator|Pokreni HN|Počni s HN|Početak HN|share\.google|info@starthn\.ba/i
 
 const BOSNIAN_CROATIANISMS =
   /tvrtk|financij|desetljeć|reagiranje|informirane|Automatiziramo|identificiramo/

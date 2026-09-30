@@ -78,7 +78,11 @@ describe('StatsSection', () => {
   })
 
   it('never hard-codes the review count in any locale', () => {
-    const locales = readdirSync(resolve(process.cwd(), 'public/locales'))
+    const locales = readdirSync(resolve(process.cwd(), 'public/locales'), {
+      withFileTypes: true,
+    })
+      .filter((entry) => entry.isDirectory())
+      .map((entry) => entry.name)
     expect(locales).toHaveLength(16)
     for (const locale of locales) {
       const landing = readBundle(locale, 'landing') as {

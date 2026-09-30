@@ -94,3 +94,12 @@ describe('business constants', () => {
     expect(MBS).toMatch(/^\d{2}-\d{2}-\d{4}-\d{2}$/)
   })
 })
+
+describe('office phone line', () => {
+  it('is a separate, well-formed number next to the primary one', async () => {
+    const b = await import('./business')
+    expect(b.OFFICE_PHONE_TEL).toMatch(/^\+\d+$/)
+    expect(b.OFFICE_PHONE_INTL.replace(/\s/g, '')).toBe(b.OFFICE_PHONE_TEL)
+    expect(b.OFFICE_PHONE_TEL).not.toBe(b.PHONE_TEL)
+  })
+})

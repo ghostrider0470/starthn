@@ -41,20 +41,16 @@ export const BLOG_HERO_IMAGE_SIZES = [
 ].join(', ')
 
 /**
- * `sizes` for the homepage "Why Start HN" photo (WhyStartHNSection). From
- * 1024px it fills 5 of 12 grid columns (gap 2.5rem) of the max-w-7xl
+ * `sizes` for the homepage "Why Start HN" photo (WhyStartHNSection), a square.
+ * From 1024px it fills 5 of 12 grid columns (gap 2.5rem) of the max-w-7xl
  * container: 5/12 of (100vw - 4rem) minus the gaps, 484px from 1280px.
- * Below that its width follows its height through aspect-[4/5]: 80% of
- * min(52svh, 500px), and at least 80% of its 360px min-height (288px). A
- * 412x823 phone shows it 342px wide, so it gets the 600w file instead of the
- * 900w one that "100vw" picked.
+ * Below that it is the column width (100vw - 2rem), capped at
+ * min(52svh, 500px) so it never pushes the section off a short screen.
  */
 export const WHY_START_HN_IMAGE_SIZES = [
   '(min-width: 1280px) 484px',
   '(min-width: 1024px) calc(41.67vw - 50px)',
-  '(max-height: 692px) 288px',
-  '(max-height: 961px) 41.6vh',
-  '400px',
+  'min(calc(100vw - 2rem), 52vh, 500px)',
 ].join(', ')
 
 /**

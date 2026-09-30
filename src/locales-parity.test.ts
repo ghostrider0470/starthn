@@ -89,7 +89,7 @@ function pluralCategories(locale: string) {
 
 /** Old address, old phone, old public email, retired claims. */
 const FORBIDDEN =
-  /vilson|wilson|ويلسون|ウィルソン|윌슨|CRP Inkubator|share\.google|info@starthn\.ba|135[\s/-]?377/i
+  /vilson|wilson|ويلسون|ウィルソン|윌슨|CRP Inkubator|share\.google|info@starthn\.ba/i
 
 const source: Record<string, Record<string, Leaf>> = Object.fromEntries(
   NAMESPACES.map((ns) => [ns, flatten(load(SOURCE_LOCALE, ns))]),

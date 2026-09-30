@@ -82,17 +82,17 @@ export function WhyStartHNSection() {
             duration={0.7}
             className="relative min-w-0 lg:order-1 lg:col-span-5"
           >
-            <div className="relative aspect-[4/5] max-h-[min(52svh,500px)] min-h-[360px] overflow-hidden rounded-2xl shadow-xl shadow-black/5 lg:mr-auto lg:w-full">
+            <div className="relative mx-auto aspect-square w-full max-w-[min(52svh,500px)] overflow-hidden rounded-2xl shadow-xl shadow-black/5 lg:mr-auto lg:ml-0 lg:max-w-none">
               <img
-                src="/why-start-hn-900.webp"
-                srcSet="/why-start-hn-600.webp 600w, /why-start-hn-900.webp 900w, /why-start-hn.webp 1200w"
+                src="/pages/selma-hadzic-poslovne-novine-900.webp"
+                srcSet="/pages/selma-hadzic-poslovne-novine-600.webp 600w, /pages/selma-hadzic-poslovne-novine-900.webp 900w, /pages/selma-hadzic-poslovne-novine-1254.webp 1254w"
                 sizes={WHY_START_HN_IMAGE_SIZES}
-                alt={t('whyChoose.title', { defaultValue: '' })}
+                alt={t('whyChoose.imageAlt')}
                 className="absolute inset-0 h-full w-full object-cover"
                 loading="lazy"
                 decoding="async"
                 width={900}
-                height={1125}
+                height={900}
               />
             </div>
           </Reveal>
