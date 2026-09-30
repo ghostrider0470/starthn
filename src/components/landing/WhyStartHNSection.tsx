@@ -12,6 +12,7 @@ import { useTranslation } from 'react-i18next'
 import { Reveal, SlideUp } from '@/components/animations/FadeIn'
 import { Button } from '@/components/ui/button'
 import { designSystem } from '@/lib/design-system'
+import { WHY_START_HN_IMAGE_SIZES } from '@/lib/image'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
 
@@ -81,15 +82,17 @@ export function WhyStartHNSection() {
             duration={0.7}
             className="relative min-w-0 lg:order-1 lg:col-span-5"
           >
-            <div className="relative aspect-[4/5] max-h-[min(52svh,500px)] min-h-[360px] overflow-hidden rounded-2xl shadow-xl shadow-black/5 lg:mr-auto lg:w-full">
+            <div className="relative mx-auto aspect-square w-full max-w-[min(52svh,500px)] overflow-hidden rounded-2xl shadow-xl shadow-black/5 lg:mr-auto lg:ml-0 lg:max-w-none">
               <img
-                src="/pages/selma-hadzic-portrait-584.webp"
+                src="/pages/selma-hadzic-poslovne-novine-900.webp"
+                srcSet="/pages/selma-hadzic-poslovne-novine-600.webp 600w, /pages/selma-hadzic-poslovne-novine-900.webp 900w, /pages/selma-hadzic-poslovne-novine-1254.webp 1254w"
+                sizes={WHY_START_HN_IMAGE_SIZES}
                 alt={t('whyChoose.imageAlt')}
                 className="absolute inset-0 h-full w-full object-cover"
                 loading="lazy"
                 decoding="async"
-                width={584}
-                height={730}
+                width={900}
+                height={900}
               />
             </div>
           </Reveal>

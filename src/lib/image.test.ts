@@ -76,6 +76,8 @@ describe('responsive image `sizes`', () => {
       }
       const expr = length
         .replace(/^calc\((.+)\)$/, '$1')
+        .replace(/min\(/g, 'Math.min(')
+        .replace(/calc\(/g, '(')
         .replace(/([\d.]+)vw/g, (_, n) => String((Number(n) * vw) / 100))
         .replace(/([\d.]+)vh/g, (_, n) => String((Number(n) * vh) / 100))
         .replace(/([\d.]+)rem/g, (_, n) => String(Number(n) * 16))
@@ -93,11 +95,11 @@ describe('responsive image `sizes`', () => {
   })
 
   it('sizes the "Why Start HN" photo to its rendered box', () => {
-    // Lighthouse mobile (412x823 @1.75x) → 342px → the 600w file.
-    expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 412, 823)).toBeCloseTo(342.4, 0)
-    expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 412, 823) * 1.75).toBeLessThanOrEqual(600)
-    expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 360, 640)).toBe(288)
-    expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 820, 1180)).toBe(400)
+    // Lighthouse mobile (412x823 @1.75x) → 380px → the 900w file.
+    expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 412, 823)).toBe(380)
+    expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 360, 640)).toBeCloseTo(328, 0)
+    expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 820, 1180)).toBe(500)
+    expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 900, 600)).toBe(312)
     expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 1024, 768)).toBeCloseTo(376.7, 0)
     expect(slotWidth(WHY_START_HN_IMAGE_SIZES, 1440, 900)).toBe(484)
   })
