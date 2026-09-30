@@ -279,7 +279,8 @@ describe.each(KEPT_LOCALES)('%s page bodies', (locale) => {
     )
     expect(html).not.toContain('info@starthn.ba')
     expect(html).not.toContain('maps.google.com/?q=')
-    expect(html).not.toMatch(/135[ -/]?377/)
+    // Office line (061 135 377) is a second number beside Selma's primary one.
+    expect(html).toContain('tel:+38761135377')
     expect(
       doc.querySelector(`a[href="mailto:${CONTACT_EMAIL}"]`),
     ).not.toBeNull()

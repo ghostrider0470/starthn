@@ -10,6 +10,7 @@ import {
   LEGAL_NAME,
   LOCALITY,
   MBS,
+  OFFICE_PHONE_INTL,
   PHONE_INTL,
   POSTAL_CODE,
   REGION,
@@ -398,6 +399,14 @@ export function buildLocalBusinessStructuredData(
     image: toAbsoluteUrl(SEO_ORIGIN, DEFAULT_OG_IMAGE),
     telephone: PHONE_INTL,
     email: CONTACT_EMAIL,
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        telephone: OFFICE_PHONE_INTL,
+        contactType: 'customer service',
+        areaServed: 'BA',
+      },
+    ],
     address: {
       '@type': 'PostalAddress',
       streetAddress: STREET,

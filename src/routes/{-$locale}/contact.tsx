@@ -44,6 +44,8 @@ import {
   GBP_WRITE_REVIEW_URL,
   GOOGLE_BUSINESS_PROFILE_URL,
   LOCALITY,
+  OFFICE_PHONE_TEL,
+  PHONE_TEL,
   POSTAL_CODE,
   STREET,
 } from '@/lib/business'
@@ -246,6 +248,14 @@ function ContactPage() {
       value: t('contact.methods.phone.value'),
       // Rendered as a CallLink (consent-gated GA4 tel_click).
       action: 'tel',
+    },
+    {
+      id: 'officePhone',
+      icon: Phone,
+      title: t('contact.methods.officePhone.title'),
+      description: t('contact.methods.officePhone.description'),
+      value: t('contact.methods.officePhone.value'),
+      action: 'tel-office',
     },
     {
       id: 'location',
@@ -578,8 +588,12 @@ function ContactPage() {
                       <p className="mt-1 text-sm leading-6 text-muted-foreground">
                         {method.description}
                       </p>
-                      {method.action === 'tel' ? (
-                        <CallLink placement="contact_card" className={valueClass}>
+                      {method.action === 'tel' || method.action === 'tel-office' ? (
+                        <CallLink
+                          placement="contact_card"
+                          tel={method.action === 'tel-office' ? OFFICE_PHONE_TEL : PHONE_TEL}
+                          className={valueClass}
+                        >
                           {method.value}
                         </CallLink>
                       ) : method.action ? (

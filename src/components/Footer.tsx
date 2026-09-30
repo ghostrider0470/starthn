@@ -23,6 +23,8 @@ import {
   GOOGLE_BUSINESS_PROFILE_URL,
   INSTAGRAM_URL,
   LOCALITY,
+  OFFICE_PHONE_INTL,
+  OFFICE_PHONE_TEL,
   OWNER_LINKEDIN_URL,
   PHONE_INTL,
   POSTAL_CODE,
@@ -210,6 +212,21 @@ export function Footer() {
                 >
                   <Phone aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                   <span className="tabular-nums">{PHONE_INTL}</span>
+                </CallLink>
+              </li>
+              <li>
+                <CallLink
+                  placement="footer"
+                  tel={OFFICE_PHONE_TEL}
+                  className="group flex items-start gap-3 transition-colors hover:text-primary"
+                >
+                  <Phone aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                  <span>
+                    <span className="tabular-nums">{OFFICE_PHONE_INTL}</span>
+                    <span className="ml-1 text-muted-foreground">
+                      ({t('footer.contactInfo.officePhoneLabel')})
+                    </span>
+                  </span>
                 </CallLink>
               </li>
               <li>

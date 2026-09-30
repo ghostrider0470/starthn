@@ -231,6 +231,7 @@ const ALLOWED_TYPES = new Set([
   'Offer',
   'UnitPriceSpecification',
   'Person',
+  'ContactPoint',
 ])
 
 /** Owner decisions: no review/rating, founder, FAQ markup; no priceRange. */
@@ -259,6 +260,7 @@ const REQUIRED: Record<string, ReadonlyArray<string>> = {
     'addressCountry',
   ],
   GeoCoordinates: ['latitude', 'longitude'],
+  ContactPoint: ['telephone', 'contactType'],
   OpeningHoursSpecification: ['dayOfWeek', 'opens', 'closes'],
   City: ['name'],
   AdministrativeArea: ['name'],

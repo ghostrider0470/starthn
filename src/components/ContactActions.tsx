@@ -69,6 +69,8 @@ export function useLocale(): string {
 type CallLinkProps = Omit<AnchorHTMLAttributes<HTMLAnchorElement>, 'href'> & {
   /** Which tel: link this is, for the consent-gated GA4 tel_click event. */
   placement: TelClickPlacement
+  /** Number to dial (tel: form); defaults to the primary PHONE_TEL. */
+  tel?: string
   children: ReactNode
 }
 
@@ -78,6 +80,7 @@ type CallLinkProps = Omit<AnchorHTMLAttributes<HTMLAnchorElement>, 'href'> & {
  */
 export function CallLink({
   placement,
+  tel = PHONE_TEL,
   onClick,
   children,
   ...props
@@ -85,7 +88,7 @@ export function CallLink({
   return (
     <a
       {...props}
-      href={`tel:${PHONE_TEL}`}
+      href={`tel:${tel}`}
       onClick={(event) => {
         onClick?.(event)
         void analytics.telClick(placement)
