@@ -12,7 +12,6 @@ import { useTranslation } from 'react-i18next'
 import { Reveal, SlideUp } from '@/components/animations/FadeIn'
 import { Button } from '@/components/ui/button'
 import { designSystem } from '@/lib/design-system'
-import { WHY_START_HN_IMAGE_SIZES } from '@/lib/image'
 import { getLocaleFromPath, withLocalePath } from '@/lib/i18n-utils'
 import { cn } from '@/lib/utils'
 
@@ -84,15 +83,13 @@ export function WhyStartHNSection() {
           >
             <div className="relative aspect-[4/5] max-h-[min(52svh,500px)] min-h-[360px] overflow-hidden rounded-2xl shadow-xl shadow-black/5 lg:mr-auto lg:w-full">
               <img
-                src="/why-start-hn-900.webp"
-                srcSet="/why-start-hn-600.webp 600w, /why-start-hn-900.webp 900w, /why-start-hn.webp 1200w"
-                sizes={WHY_START_HN_IMAGE_SIZES}
-                alt={t('whyChoose.title', { defaultValue: '' })}
+                src="/pages/selma-hadzic-portrait-584.webp"
+                alt={t('whyChoose.imageAlt')}
                 className="absolute inset-0 h-full w-full object-cover"
                 loading="lazy"
                 decoding="async"
-                width={900}
-                height={1125}
+                width={584}
+                height={730}
               />
             </div>
           </Reveal>

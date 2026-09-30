@@ -94,10 +94,10 @@ function AboutPage() {
             <div className="border-t border-border pt-6 lg:border-t-0 lg:border-l lg:pl-8">
               <div className="relative mb-6 aspect-[3/2] overflow-hidden rounded-lg border border-border">
                 <img
-                  src="/pages/about-hero.webp"
+                  src="/pages/selma-hadzic-about-hero.webp"
                   alt={t('about.images.heroAlt')}
-                  width={1536}
-                  height={1024}
+                  width={1062}
+                  height={708}
                   className="absolute inset-0 h-full w-full object-cover"
                   loading="eager"
                   decoding="async"
@@ -143,10 +143,10 @@ function AboutPage() {
             <div className="lg:col-span-2">
               <div className="relative mb-6 aspect-square overflow-hidden rounded-lg border border-border">
                 <img
-                  src="/pages/about-interior.webp"
+                  src="/pages/selma-hadzic-ured-square.webp"
                   alt={t('about.images.interiorAlt')}
-                  width={1024}
-                  height={1024}
+                  width={720}
+                  height={720}
                   className="absolute inset-0 h-full w-full object-cover"
                   loading="lazy"
                   decoding="async"
